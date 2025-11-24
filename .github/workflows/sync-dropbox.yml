@@ -75,6 +75,7 @@ jobs:
           name: changelog
           path: CHANGELOG.md
           retention-days: 30
+          if-no-files-found: ignore
       
       - name: Notify on failure
         if: failure()
