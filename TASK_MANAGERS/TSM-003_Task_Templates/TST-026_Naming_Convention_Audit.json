@@ -1,0 +1,23 @@
+{
+  "task_template_id": "Task-Template-026",
+  "task_template_name": "Naming Convention Audit",
+  "category": "Validation",
+  "department": "AI",
+  "description": "Audit all file and folder naming conventions against established patterns",
+  "estimated_hours": 1,
+  "step_templates": [
+    {
+      "step_template_id": "STEP-ANALYSIS-004-01",
+      "step_template_name": "Extract naming patterns"
+    },
+    {
+      "step_template_id": "STEP-ANALYSIS-004-02",
+      "step_template_name": "Validate against conventions"
+    },
+    {
+      "step_template_id": "STEP-ANALYSIS-004-03",
+      "step_template_name": "Document violations"
+    }
+  ],
+  "version": "1.0"
+}

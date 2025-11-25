@@ -1,0 +1,192 @@
+{
+  "entity_type": "TASK_MANAGERS",
+  "sub_entity": "Task_Template",
+  "template_id": "Task-Template-081",
+  "task_name": "Design Financial Automation Workflow for Data Processing",
+  "action": "Design",
+  "object": "Automation Workflow",
+  "context": "to automate financial data processing, employee expense tracking, or accounting workflows using n8n or similar platforms",
+  "description": "Comprehensive workflow design for automating financial processes such as employee data processing, expense tracking, invoice management, or payroll calculations. Uses workflow automation platforms (n8n, Zapier, Make) to connect data sources (Google Sheets, accounting software), transform data, and generate reports. Reduces manual financial operations and improves accuracy.",
+  "department": "Finance",
+  "profession": "Finance Manager / Automation Specialist",
+  "estimated_duration": "3 hours (45 min requirements + 1.5 hours design + 45 min testing)",
+  "status": "Template",
+  "dependencies": [
+    "Financial process requirements documented",
+    "Access to data sources (Google Sheets, accounting software)",
+    "n8n or workflow platform access",
+    "Understanding of financial calculations and rules",
+    "Approval for automation implementation"
+  ],
+  "tools_required": [
+    "TOL-119 (n8n) for workflow automation",
+    "TOL-045 (Google Sheets) for data source/destination",
+    "TOL-003 (Gemini 3 Pro) for workflow logic assistance",
+    "Accounting software API (QuickBooks, Xero)",
+    "Testing environment for validation"
+  ],
+  "success_criteria": [
+    "Workflow design document created",
+    "All data sources and destinations identified",
+    "Workflow diagram with nodes and connections",
+    "Data transformation logic defined",
+    "Error handling and validation rules specified",
+    "Workflow implemented in n8n and tested",
+    "Sample data processed successfully",
+    "Documentation and runbook completed"
+  ],
+  "steps": [
+    {
+      "step_number": 1,
+      "name": "Gather requirements and map current process",
+      "duration": "30 minutes",
+      "outputs": [
+        "Current manual process documented",
+        "Pain points and bottlenecks identified",
+        "Automation goals defined",
+        "Success criteria established",
+        "Stakeholders and approvers identified"
+      ]
+    },
+    {
+      "step_number": 2,
+      "name": "Identify data sources and integrations",
+      "duration": "20 minutes",
+      "outputs": [
+        "Data sources listed (Google Sheets, databases, APIs)",
+        "Data destinations identified (reports, dashboards, accounting)",
+        "API access and credentials verified",
+        "Data schemas and formats documented",
+        "Integration limitations noted"
+      ]
+    },
+    {
+      "step_number": 3,
+      "name": "Design workflow architecture and logic",
+      "duration": "45 minutes",
+      "outputs": [
+        "Workflow diagram created (nodes, triggers, actions)",
+        "Data transformation logic defined",
+        "Conditional logic and branches specified",
+        "Calculation formulas documented",
+        "Workflow steps sequenced properly"
+      ]
+    },
+    {
+      "step_number": 4,
+      "name": "Define error handling and validation rules",
+      "duration": "25 minutes",
+      "outputs": [
+        "Data validation rules specified",
+        "Error handling strategies defined",
+        "Alert and notification rules configured",
+        "Retry logic for failed operations",
+        "Logging requirements documented"
+      ]
+    },
+    {
+      "step_number": 5,
+      "name": "Implement workflow in n8n platform",
+      "duration": "40 minutes",
+      "outputs": [
+        "Workflow nodes created and configured",
+        "Data connections established",
+        "Transformation logic implemented",
+        "Error handlers added",
+        "Workflow activated"
+      ]
+    },
+    {
+      "step_number": 6,
+      "name": "Test workflow with sample data",
+      "duration": "30 minutes",
+      "outputs": [
+        "Sample data prepared for testing",
+        "Workflow executed successfully",
+        "Output data validated",
+        "Edge cases tested",
+        "Performance benchmarked"
+      ]
+    },
+    {
+      "step_number": 7,
+      "name": "Document workflow and create runbook",
+      "duration": "20 minutes",
+      "outputs": [
+        "Workflow documentation written",
+        "Configuration settings documented",
+        "Troubleshooting guide created",
+        "Maintenance procedures defined",
+        "Training materials prepared"
+      ]
+    }
+  ],
+  "checklist": [
+    {
+      "item": "Requirements gathered and process mapped",
+      "required": true
+    },
+    {
+      "item": "Data sources and destinations identified",
+      "required": true
+    },
+    {
+      "item": "Workflow architecture designed with diagram",
+      "required": true
+    },
+    {
+      "item": "Data transformation logic defined and documented",
+      "required": true
+    },
+    {
+      "item": "Error handling and validation rules specified",
+      "required": true
+    },
+    {
+      "item": "Workflow implemented in n8n successfully",
+      "required": true
+    },
+    {
+      "item": "Testing completed with sample data (all tests passed)",
+      "required": true
+    },
+    {
+      "item": "Documentation and runbook created",
+      "required": true
+    }
+  ],
+  "roi_metrics": {
+    "time_savings": "Automates 4-8 hours of manual data processing per week",
+    "accuracy_improvement": "Reduces data entry errors by 95% through automation",
+    "cost_efficiency": "Saves $500-1000/month in manual labor costs"
+  },
+  "related_tasks": [
+    "TST-073 (Set Up Automation Infrastructure)",
+    "TST-074 (Process Daily Report Files)"
+  ],
+  "related_workflows": [
+    "Financial Operations Workflow",
+    "Automation Platform Management"
+  ],
+  "related_projects": [
+    "Finance Department Automation Initiative",
+    "Operational Efficiency Project"
+  ],
+  "tags": [
+    "finance",
+    "automation",
+    "workflow",
+    "n8n",
+    "data-processing",
+    "expense-tracking",
+    "accounting",
+    "efficiency"
+  ],
+  "version": "1.0",
+  "created": "2025-11-21",
+  "last_updated": "2025-11-21",
+  "responsibility_id": "RESP-FNC-XXX",
+  "responsibility_name": "design automation workflow",
+  "_original_action": "Design",
+  "_original_object": "Automation Workflow"
+}

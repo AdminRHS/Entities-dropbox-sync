@@ -1,0 +1,45 @@
+{
+  "Actions": "bill",
+  "Processes": "billing",
+  "Results": "billed",
+  "Departments": "managers",
+  "Professions": "finance manager, operations manager",
+  "category": "Data_Operations",
+  "source": "Video_006_Lead_Generation_Analysis",
+  "discovery_date": "2025-11-12",
+  "description": "Charge or apply costs/credits for data operations, API calls, or resource usage",
+  "typical_use_cases": [
+    "Bill credits for email enrichment",
+    "Charge API usage",
+    "Apply costs for scraping operations",
+    "Track credit consumption",
+    "Calculate total costs for lead generation"
+  ],
+  "common_objects": [
+    "Email Address",
+    "Lead List",
+    "API credentials",
+    "Pre-Scraped Dataset"
+  ],
+  "common_tools": [
+    "Anymailfinder",
+    "Apify",
+    "Bright Data",
+    "API platforms"
+  ],
+  "related_actions": [
+    "charge",
+    "consume",
+    "track",
+    "invoice"
+  ],
+  "cost_examples": [
+    "Anymailfinder: $0.0025 per valid email found",
+    "Bright Data: $0.0025 per record",
+    "Apify: Credit-based per run"
+  ],
+  "workflows": [
+    "Enrich leads → Bill credits → Track spend",
+    "API call → Bill usage → Generate invoice"
+  ]
+}

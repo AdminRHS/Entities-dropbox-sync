@@ -1,0 +1,588 @@
+﻿[
+    {
+        "professions":  [
+                            "recruiter",
+                            "hr manager"
+                        ],
+        "tool":  "CRM",
+        "skill_id":  "SKL-001",
+        "tool_category":  "Communication",
+        "keywords":  [
+                         "screen",
+                         "candidates",
+                         "crm",
+                         "screened",
+                         "via",
+                         "CRM"
+                     ],
+        "difficulty":  "beginner",
+        "skill_phrase":  "screened candidates via CRM",
+        "department":  "Managers (HR)"
+    },
+    {
+        "professions":  [
+                            "recruiter",
+                            "hr manager"
+                        ],
+        "tool":  "Zoom",
+        "skill_id":  "SKL-002",
+        "tool_category":  "Video Call",
+        "keywords":  [
+                         "conduct",
+                         "video interviews",
+                         "zoom",
+                         "conducted",
+                         "video",
+                         "interviews",
+                         "via",
+                         "Zoom"
+                     ],
+        "difficulty":  "intermediate",
+        "skill_phrase":  "conducted video interviews via Zoom",
+        "department":  "Managers (HR)"
+    },
+    {
+        "professions":  [
+                            "recruiter",
+                            "hr manager"
+                        ],
+        "tool":  "Gmail",
+        "skill_id":  "SKL-003",
+        "tool_category":  "Communication",
+        "keywords":  [
+                         "send",
+                         "job offers",
+                         "gmail",
+                         "sent",
+                         "job",
+                         "offers",
+                         "via",
+                         "Gmail"
+                     ],
+        "difficulty":  "beginner",
+        "skill_phrase":  "sent job offers via Gmail",
+        "department":  "Managers (HR)"
+    },
+    {
+        "professions":  [
+                            "recruiter",
+                            "hr manager"
+                        ],
+        "tool":  "CRM",
+        "skill_id":  "SKL-004",
+        "tool_category":  "Database",
+        "keywords":  [
+                         "update",
+                         "candidate status",
+                         "crm",
+                         "updated",
+                         "candidate",
+                         "status",
+                         "in",
+                         "CRM"
+                     ],
+        "difficulty":  "beginner",
+        "skill_phrase":  "updated candidate status in CRM",
+        "department":  "Managers (HR)"
+    },
+    {
+        "professions":  [
+                            "recruiter",
+                            "hr manager"
+                        ],
+        "tool":  "Google Sheets",
+        "skill_id":  "SKL-005",
+        "tool_category":  "Spreadsheet",
+        "keywords":  [
+                         "analyze",
+                         "recruitment data",
+                         "google sheets",
+                         "analyzed",
+                         "recruitment",
+                         "data",
+                         "in",
+                         "Google",
+                         "Sheets"
+                     ],
+        "difficulty":  "intermediate",
+        "skill_phrase":  "analyzed recruitment data in Google Sheets",
+        "department":  "Managers (HR)"
+    },
+    {
+        "professions":  [
+                            "lead generator"
+                        ],
+        "tool":  "Gmail",
+        "skill_id":  "SKL-010",
+        "tool_category":  "Communication",
+        "keywords":  [
+                         "send",
+                         "cold emails",
+                         "gmail",
+                         "sent",
+                         "cold",
+                         "emails",
+                         "via",
+                         "Gmail"
+                     ],
+        "difficulty":  "beginner",
+        "skill_phrase":  "sent cold emails via Gmail",
+        "department":  "Lead Generation"
+    },
+    {
+        "professions":  [
+                            "lead generator"
+                        ],
+        "tool":  "n8n",
+        "skill_id":  "SKL-011",
+        "tool_category":  "Automation",
+        "keywords":  [
+                         "automate",
+                         "email campaigns",
+                         "n8n",
+                         "automated",
+                         "email",
+                         "campaigns",
+                         "using"
+                     ],
+        "difficulty":  "advanced",
+        "skill_phrase":  "automated email campaigns using n8n",
+        "department":  "Lead Generation"
+    },
+    {
+        "professions":  [
+                            "lead generator"
+                        ],
+        "tool":  "CRM",
+        "skill_id":  "SKL-012",
+        "tool_category":  "Database",
+        "keywords":  [
+                         "track",
+                         "email responses",
+                         "crm",
+                         "tracked",
+                         "email",
+                         "responses",
+                         "in",
+                         "CRM"
+                     ],
+        "difficulty":  "beginner",
+        "skill_phrase":  "tracked email responses in CRM",
+        "department":  "Lead Generation"
+    },
+    {
+        "professions":  [
+                            "lead generator"
+                        ],
+        "tool":  "LinkedIn",
+        "skill_id":  "SKL-013",
+        "tool_category":  "Social Network",
+        "keywords":  [
+                         "search",
+                         "companies",
+                         "linkedin",
+                         "searched",
+                         "on",
+                         "LinkedIn"
+                     ],
+        "difficulty":  "beginner",
+        "skill_phrase":  "searched companies on LinkedIn",
+        "department":  "Lead Generation"
+    },
+    {
+        "professions":  [
+                            "lead generator"
+                        ],
+        "tool":  "Hunter.io",
+        "skill_id":  "SKL-014",
+        "tool_category":  "Automation",
+        "keywords":  [
+                         "scrape",
+                         "contact data",
+                         "hunter.io",
+                         "scraped",
+                         "contact",
+                         "data",
+                         "using",
+                         "automation",
+                         "tools"
+                     ],
+        "difficulty":  "intermediate",
+        "skill_phrase":  "scraped contact data using automation tools",
+        "department":  "Lead Generation"
+    },
+    {
+        "professions":  [
+                            "ui/ux designer",
+                            "graphic designer"
+                        ],
+        "tool":  "Figma",
+        "skill_id":  "SKL-020",
+        "tool_category":  "Design",
+        "keywords":  [
+                         "create",
+                         "UI mockups",
+                         "figma",
+                         "created",
+                         "UI",
+                         "mockups",
+                         "in",
+                         "Figma"
+                     ],
+        "difficulty":  "intermediate",
+        "skill_phrase":  "created UI mockups in Figma",
+        "department":  "Design"
+    },
+    {
+        "professions":  [
+                            "graphic designer",
+                            "smm"
+                        ],
+        "tool":  "Canva",
+        "skill_id":  "SKL-021",
+        "tool_category":  "Design",
+        "keywords":  [
+                         "design",
+                         "social media posts",
+                         "canva",
+                         "designed",
+                         "social",
+                         "media",
+                         "posts",
+                         "in",
+                         "Canva"
+                     ],
+        "difficulty":  "beginner",
+        "skill_phrase":  "designed social media posts in Canva",
+        "department":  "Design"
+    },
+    {
+        "professions":  [
+                            "ui/ux designer",
+                            "graphic designer"
+                        ],
+        "tool":  "Figma",
+        "skill_id":  "SKL-022",
+        "tool_category":  "Design",
+        "keywords":  [
+                         "export",
+                         "design files",
+                         "figma",
+                         "exported",
+                         "design",
+                         "files",
+                         "from",
+                         "Figma"
+                     ],
+        "difficulty":  "beginner",
+        "skill_phrase":  "exported design files from Figma",
+        "department":  "Design"
+    },
+    {
+        "professions":  [
+                            "graphic designer"
+                        ],
+        "tool":  "Midjourney",
+        "skill_id":  "SKL-023",
+        "tool_category":  "AI Tool",
+        "keywords":  [
+                         "generate",
+                         "AI images",
+                         "midjourney",
+                         "generated",
+                         "AI",
+                         "images",
+                         "using",
+                         "Midjourney"
+                     ],
+        "difficulty":  "intermediate",
+        "skill_phrase":  "generated AI images using Midjourney",
+        "department":  "Design"
+    },
+    {
+        "professions":  [
+                            "ui/ux designer",
+                            "graphic designer"
+                        ],
+        "tool":  "Discord",
+        "skill_id":  "SKL-024",
+        "tool_category":  "Communication",
+        "keywords":  [
+                         "share",
+                         "design previews",
+                         "discord",
+                         "shared",
+                         "design",
+                         "previews",
+                         "via",
+                         "Discord"
+                     ],
+        "difficulty":  "beginner",
+        "skill_phrase":  "shared design previews via Discord",
+        "department":  "Design"
+    },
+    {
+        "professions":  [
+                            "frontend developer",
+                            "full stack developer"
+                        ],
+        "tool":  "React",
+        "skill_id":  "SKL-030",
+        "tool_category":  "Development Framework",
+        "keywords":  [
+                         "develop",
+                         "features",
+                         "react",
+                         "developed",
+                         "in",
+                         "React"
+                     ],
+        "difficulty":  "intermediate",
+        "skill_phrase":  "developed features in React",
+        "department":  "Developers"
+    },
+    {
+        "professions":  [
+                            "backend developer",
+                            "full stack developer"
+                        ],
+        "tool":  "Node.js",
+        "skill_id":  "SKL-031",
+        "tool_category":  "Development Framework",
+        "keywords":  [
+                         "create",
+                         "APIs",
+                         "node.js",
+                         "created",
+                         "using",
+                         "Node.js"
+                     ],
+        "difficulty":  "advanced",
+        "skill_phrase":  "created APIs using Node.js",
+        "department":  "Developers"
+    },
+    {
+        "professions":  [
+                            "frontend developer",
+                            "backend developer",
+                            "full stack developer"
+                        ],
+        "tool":  "GitHub",
+        "skill_id":  "SKL-032",
+        "tool_category":  "Version Control",
+        "keywords":  [
+                         "manage",
+                         "code",
+                         "github",
+                         "managed",
+                         "via",
+                         "GitHub"
+                     ],
+        "difficulty":  "beginner",
+        "skill_phrase":  "managed code via GitHub",
+        "department":  "Developers"
+    },
+    {
+        "professions":  [
+                            "frontend developer",
+                            "full stack developer"
+                        ],
+        "tool":  "Chrome DevTools",
+        "skill_id":  "SKL-033",
+        "tool_category":  "Development Tool",
+        "keywords":  [
+                         "debug",
+                         "applications",
+                         "chrome devtools",
+                         "debugged",
+                         "using",
+                         "DevTools"
+                     ],
+        "difficulty":  "intermediate",
+        "skill_phrase":  "debugged applications using DevTools",
+        "department":  "Developers"
+    },
+    {
+        "professions":  [
+                            "backend developer",
+                            "full stack developer"
+                        ],
+        "tool":  "Docker",
+        "skill_id":  "SKL-034",
+        "tool_category":  "DevOps",
+        "keywords":  [
+                         "deploy",
+                         "applications",
+                         "docker",
+                         "deployed",
+                         "to",
+                         "production",
+                         "servers"
+                     ],
+        "difficulty":  "advanced",
+        "skill_phrase":  "deployed applications to production servers",
+        "department":  "Developers"
+    },
+    {
+        "professions":  [
+                            "sales manager"
+                        ],
+        "tool":  "Zoom",
+        "skill_id":  "SKL-040",
+        "tool_category":  "Video Call",
+        "keywords":  [
+                         "conduct",
+                         "discovery calls",
+                         "zoom",
+                         "conducted",
+                         "discovery",
+                         "calls",
+                         "via",
+                         "Zoom"
+                     ],
+        "difficulty":  "intermediate",
+        "skill_phrase":  "conducted discovery calls via Zoom",
+        "department":  "Sales"
+    },
+    {
+        "professions":  [
+                            "sales manager"
+                        ],
+        "tool":  "Google Docs",
+        "skill_id":  "SKL-041",
+        "tool_category":  "Document",
+        "keywords":  [
+                         "create",
+                         "proposals",
+                         "google docs",
+                         "created",
+                         "in",
+                         "Google",
+                         "Docs"
+                     ],
+        "difficulty":  "intermediate",
+        "skill_phrase":  "created proposals in Google Docs",
+        "department":  "Sales"
+    },
+    {
+        "professions":  [
+                            "sales manager"
+                        ],
+        "tool":  "CRM",
+        "skill_id":  "SKL-042",
+        "tool_category":  "Database",
+        "keywords":  [
+                         "track",
+                         "deals",
+                         "crm",
+                         "tracked",
+                         "in",
+                         "CRM"
+                     ],
+        "difficulty":  "beginner",
+        "skill_phrase":  "tracked deals in CRM",
+        "department":  "Sales"
+    },
+    {
+        "professions":  [
+                            "sales manager"
+                        ],
+        "tool":  "DocuSign",
+        "skill_id":  "SKL-043",
+        "tool_category":  "Document",
+        "keywords":  [
+                         "send",
+                         "contracts",
+                         "docusign",
+                         "sent",
+                         "via",
+                         "DocuSign"
+                     ],
+        "difficulty":  "beginner",
+        "skill_phrase":  "sent contracts via DocuSign",
+        "department":  "Sales"
+    },
+    {
+        "professions":  [
+                            "sales manager"
+                        ],
+        "tool":  "Google Sheets",
+        "skill_id":  "SKL-044",
+        "tool_category":  "Spreadsheet",
+        "keywords":  [
+                         "analyze",
+                         "sales data",
+                         "google sheets",
+                         "analyzed",
+                         "sales",
+                         "data",
+                         "in",
+                         "Google",
+                         "Sheets"
+                     ],
+        "difficulty":  "intermediate",
+        "skill_phrase":  "analyzed sales data in Google Sheets",
+        "department":  "Sales"
+    },
+    {
+        "professions":  [
+                            "video editor"
+                        ],
+        "tool":  "Adobe Premiere",
+        "skill_id":  "SKL-050",
+        "tool_category":  "Video Editing",
+        "keywords":  [
+                         "edit",
+                         "videos",
+                         "adobe premiere",
+                         "edited",
+                         "in",
+                         "Adobe",
+                         "Premiere"
+                     ],
+        "difficulty":  "advanced",
+        "skill_phrase":  "edited videos in Adobe Premiere",
+        "department":  "Video"
+    },
+    {
+        "professions":  [
+                            "video editor"
+                        ],
+        "tool":  "Adobe Premiere",
+        "skill_id":  "SKL-051",
+        "tool_category":  "Video Editing",
+        "keywords":  [
+                         "add",
+                         "subtitles",
+                         "adobe premiere",
+                         "added",
+                         "in",
+                         "Adobe",
+                         "Premiere"
+                     ],
+        "difficulty":  "intermediate",
+        "skill_phrase":  "added subtitles in Adobe Premiere",
+        "department":  "Video"
+    },
+    {
+        "professions":  [
+                            "motion designer",
+                            "animator"
+                        ],
+        "tool":  "After Effects",
+        "skill_id":  "SKL-052",
+        "tool_category":  "Animation",
+        "keywords":  [
+                         "create",
+                         "animations",
+                         "after effects",
+                         "created",
+                         "in",
+                         "After",
+                         "Effects"
+                     ],
+        "difficulty":  "advanced",
+        "skill_phrase":  "created animations in After Effects",
+        "department":  "Video"
+    }
+]

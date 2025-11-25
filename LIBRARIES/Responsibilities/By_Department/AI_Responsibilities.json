@@ -1,0 +1,2392 @@
+[
+  {
+    "id": "RESP-AI-001",
+    "primary_phrase": "extract videos",
+    "action_variants": "extract",
+    "object_variants": [
+      "extract complete metadata for each video",
+      "extract video transcript using youtube auto-captions",
+      "extract workflows from video transcript"
+    ],
+    "action_base": "extract",
+    "object_base": "videos",
+    "departments": "AI",
+    "primary_department": "AI",
+    "typical_tools": null,
+    "object_types": null,
+    "description": "Extract videos",
+    "frequency": 6,
+    "usage_examples": [
+      {
+        "task_id": "TASK-AI-021",
+        "department": "AI",
+        "level": "step"
+      },
+      {
+        "task_id": "TASK-AI-021",
+        "department": "AI",
+        "level": "step"
+      }
+    ],
+    "is_active": true,
+    "created_at": "2025-11-16T00:34:51.041325",
+    "created_by": "system_migration",
+    "version": "1.0"
+  },
+  {
+    "id": "RESP-AI-002",
+    "primary_phrase": "analyze videos",
+    "action_variants": "analyze",
+    "object_variants": [
+      "filter and assess video quality",
+      "video transcripts"
+    ],
+    "action_base": "analyze",
+    "object_base": "videos",
+    "departments": "AI",
+    "primary_department": "AI",
+    "typical_tools": null,
+    "object_types": null,
+    "description": "Analyze videos",
+    "frequency": 4,
+    "usage_examples": [
+      {
+        "task_id": "TASK-AI-021",
+        "department": "AI",
+        "level": "step"
+      },
+      {
+        "task_id": "TASK-AI-021",
+        "department": "AI",
+        "level": "step"
+      },
+      {
+        "task_id": "TASK-AI-024",
+        "department": "AI",
+        "level": "task"
+      }
+    ],
+    "is_active": true,
+    "created_at": "2025-11-16T00:34:51.041359",
+    "created_by": "system_migration",
+    "version": "1.0"
+  },
+  {
+    "id": "RESP-AI-003",
+    "primary_phrase": "update channels",
+    "action_variants": "update",
+    "object_variants": [
+      "add creator attribution and channel url",
+      "update youtube_channels.json with channel-specific data"
+    ],
+    "action_base": "update",
+    "object_base": "channels",
+    "departments": "AI",
+    "primary_department": "AI",
+    "typical_tools": null,
+    "object_types": null,
+    "description": "Update channels",
+    "frequency": 4,
+    "usage_examples": [
+      {
+        "task_id": "TASK-AI-022",
+        "department": "AI",
+        "level": "step"
+      },
+      {
+        "task_id": "TASK-AI-022",
+        "department": "AI",
+        "level": "step"
+      }
+    ],
+    "is_active": true,
+    "created_at": "2025-11-16T00:34:51.041363",
+    "created_by": "system_migration",
+    "version": "1.0"
+  },
+  {
+    "id": "RESP-AI-004",
+    "primary_phrase": "create videos",
+    "action_variants": "create",
+    "object_variants": [
+      "create cross-reference index for this video",
+      "determine next video_xxx number and create file"
+    ],
+    "action_base": "create",
+    "object_base": "videos",
+    "departments": "AI",
+    "primary_department": "AI",
+    "typical_tools": null,
+    "object_types": null,
+    "description": "Create videos",
+    "frequency": 4,
+    "usage_examples": {
+      "task_id": "TASK-AI-029",
+      "department": "AI",
+      "level": "step"
+    },
+    "is_active": true,
+    "created_at": "2025-11-16T00:34:51.041365",
+    "created_by": "system_migration",
+    "version": "1.0"
+  },
+  {
+    "id": "RESP-AI-005",
+    "primary_phrase": "discover videos",
+    "action_variants": "discover",
+    "object_variants": "ai tutorial videos",
+    "action_base": "discover",
+    "object_base": "videos",
+    "departments": "AI",
+    "primary_department": "AI",
+    "typical_tools": null,
+    "object_types": null,
+    "description": "Discover videos",
+    "frequency": 2,
+    "usage_examples": [
+      {
+        "task_id": "TASK-AI-021",
+        "department": "AI",
+        "level": "task"
+      },
+      {
+        "task_id": "TASK-AI-021",
+        "department": "AI",
+        "level": "task"
+      }
+    ],
+    "is_active": true,
+    "created_at": "2025-11-16T00:34:51.041367",
+    "created_by": "system_migration",
+    "version": "1.0"
+  },
+  {
+    "id": "RESP-AI-006",
+    "primary_phrase": "copy copy research_template.json",
+    "action_variants": "copy",
+    "object_variants": "copy research_template.json to new session file",
+    "action_base": "copy",
+    "object_base": "copy research_template.json",
+    "departments": "AI",
+    "primary_department": "AI",
+    "typical_tools": null,
+    "object_types": null,
+    "description": "Copy copy research_template.json",
+    "frequency": 2,
+    "usage_examples": [
+      {
+        "task_id": "TASK-AI-021",
+        "department": "AI",
+        "level": "step"
+      },
+      {
+        "task_id": "TASK-AI-021",
+        "department": "AI",
+        "level": "step"
+      }
+    ],
+    "is_active": true,
+    "created_at": "2025-11-16T00:34:51.041370",
+    "created_by": "system_migration",
+    "version": "1.0"
+  },
+  {
+    "id": "RESP-AI-007",
+    "primary_phrase": "write formulate search queries",
+    "action_variants": "write",
+    "object_variants": "formulate search queries for this research cycle",
+    "action_base": "write",
+    "object_base": "formulate search queries",
+    "departments": "AI",
+    "primary_department": "AI",
+    "typical_tools": null,
+    "object_types": null,
+    "description": "Write formulate search queries",
+    "frequency": 2,
+    "usage_examples": [
+      {
+        "task_id": "TASK-AI-021",
+        "department": "AI",
+        "level": "step"
+      },
+      {
+        "task_id": "TASK-AI-021",
+        "department": "AI",
+        "level": "step"
+      }
+    ],
+    "is_active": true,
+    "created_at": "2025-11-16T00:34:51.041372",
+    "created_by": "system_migration",
+    "version": "1.0"
+  },
+  {
+    "id": "RESP-AI-008",
+    "primary_phrase": "search execute perplexity searches and collect results",
+    "action_variants": "search",
+    "object_variants": "execute perplexity searches and collect results",
+    "action_base": "search",
+    "object_base": "execute perplexity searches and collect results",
+    "departments": "AI",
+    "primary_department": "AI",
+    "typical_tools": null,
+    "object_types": null,
+    "description": "Search execute perplexity searches and collect results",
+    "frequency": 2,
+    "usage_examples": [
+      {
+        "task_id": "TASK-AI-021",
+        "department": "AI",
+        "level": "step"
+      },
+      {
+        "task_id": "TASK-AI-021",
+        "department": "AI",
+        "level": "step"
+      }
+    ],
+    "is_active": true,
+    "created_at": "2025-11-16T00:34:51.041374",
+    "created_by": "system_migration",
+    "version": "1.0"
+  },
+  {
+    "id": "RESP-AI-009",
+    "primary_phrase": "document document session summary and save research file",
+    "action_variants": "document",
+    "object_variants": "document session summary and save research file",
+    "action_base": "document",
+    "object_base": "document session summary and save research file",
+    "departments": "AI",
+    "primary_department": "AI",
+    "typical_tools": null,
+    "object_types": null,
+    "description": "Document document session summary and save research file",
+    "frequency": 2,
+    "usage_examples": [
+      {
+        "task_id": "TASK-AI-021",
+        "department": "AI",
+        "level": "step"
+      },
+      {
+        "task_id": "TASK-AI-021",
+        "department": "AI",
+        "level": "step"
+      }
+    ],
+    "is_active": true,
+    "created_at": "2025-11-16T00:34:51.041377",
+    "created_by": "system_migration",
+    "version": "1.0"
+  },
+  {
+    "id": "RESP-AI-010",
+    "primary_phrase": "track tutorials",
+    "action_variants": "track",
+    "object_variants": "ai tutorial creators",
+    "action_base": "track",
+    "object_base": "tutorials",
+    "departments": "AI",
+    "primary_department": "AI",
+    "typical_tools": null,
+    "object_types": null,
+    "description": "Track tutorials",
+    "frequency": 2,
+    "usage_examples": [
+      {
+        "task_id": "TASK-AI-022",
+        "department": "AI",
+        "level": "task"
+      },
+      {
+        "task_id": "TASK-AI-022",
+        "department": "AI",
+        "level": "task"
+      }
+    ],
+    "is_active": true,
+    "created_at": "2025-11-16T00:34:51.041381",
+    "created_by": "system_migration",
+    "version": "1.0"
+  },
+  {
+    "id": "RESP-AI-011",
+    "primary_phrase": "extract creators",
+    "action_variants": "extract",
+    "object_variants": "extract unique creators from research session",
+    "action_base": "extract",
+    "object_base": "creators",
+    "departments": "AI",
+    "primary_department": "AI",
+    "typical_tools": null,
+    "object_types": null,
+    "description": "Extract creators",
+    "frequency": 2,
+    "usage_examples": [
+      {
+        "task_id": "TASK-AI-022",
+        "department": "AI",
+        "level": "step"
+      },
+      {
+        "task_id": "TASK-AI-022",
+        "department": "AI",
+        "level": "step"
+      }
+    ],
+    "is_active": true,
+    "created_at": "2025-11-16T00:34:51.041383",
+    "created_by": "system_migration",
+    "version": "1.0"
+  },
+  {
+    "id": "RESP-AI-012",
+    "primary_phrase": "search creators",
+    "action_variants": "search",
+    "object_variants": "check if creators already exist in database",
+    "action_base": "search",
+    "object_base": "creators",
+    "departments": "AI",
+    "primary_department": "AI",
+    "typical_tools": null,
+    "object_types": null,
+    "description": "Search creators",
+    "frequency": 2,
+    "usage_examples": [
+      {
+        "task_id": "TASK-AI-022",
+        "department": "AI",
+        "level": "step"
+      },
+      {
+        "task_id": "TASK-AI-022",
+        "department": "AI",
+        "level": "step"
+      }
+    ],
+    "is_active": true,
+    "created_at": "2025-11-16T00:34:51.041389",
+    "created_by": "system_migration",
+    "version": "1.0"
+  },
+  {
+    "id": "RESP-AI-013",
+    "primary_phrase": "research channels",
+    "action_variants": "research",
+    "object_variants": "gather channel metrics for new creators",
+    "action_base": "research",
+    "object_base": "channels",
+    "departments": "AI",
+    "primary_department": "AI",
+    "typical_tools": null,
+    "object_types": null,
+    "description": "Research channels",
+    "frequency": 2,
+    "usage_examples": [
+      {
+        "task_id": "TASK-AI-022",
+        "department": "AI",
+        "level": "step"
+      },
+      {
+        "task_id": "TASK-AI-022",
+        "department": "AI",
+        "level": "step"
+      }
+    ],
+    "is_active": true,
+    "created_at": "2025-11-16T00:34:51.041391",
+    "created_by": "system_migration",
+    "version": "1.0"
+  },
+  {
+    "id": "RESP-AI-014",
+    "primary_phrase": "create creators",
+    "action_variants": "create",
+    "object_variants": "create full influencer profiles for new creators",
+    "action_base": "create",
+    "object_base": "creators",
+    "departments": "AI",
+    "primary_department": "AI",
+    "typical_tools": null,
+    "object_types": null,
+    "description": "Create creators",
+    "frequency": 2,
+    "usage_examples": [
+      {
+        "task_id": "TASK-AI-022",
+        "department": "AI",
+        "level": "step"
+      },
+      {
+        "task_id": "TASK-AI-022",
+        "department": "AI",
+        "level": "step"
+      }
+    ],
+    "is_active": true,
+    "created_at": "2025-11-16T00:34:51.041393",
+    "created_by": "system_migration",
+    "version": "1.0"
+  },
+  {
+    "id": "RESP-AI-015",
+    "primary_phrase": "read videos",
+    "action_variants": "read",
+    "object_variants": "read video transcript thoroughly",
+    "action_base": "read",
+    "object_base": "videos",
+    "departments": "AI",
+    "primary_department": "AI",
+    "typical_tools": null,
+    "object_types": null,
+    "description": "Read videos",
+    "frequency": 2,
+    "usage_examples": [
+      {
+        "task_id": "TASK-AI-024",
+        "department": "AI",
+        "level": "step"
+      },
+      {
+        "task_id": "TASK-AI-024",
+        "department": "AI",
+        "level": "step"
+      }
+    ],
+    "is_active": true,
+    "created_at": "2025-11-16T00:34:51.041395",
+    "created_by": "system_migration",
+    "version": "1.0"
+  },
+  {
+    "id": "RESP-AI-016",
+    "primary_phrase": "extract extract all tools mentioned (primary focus)",
+    "action_variants": "extract",
+    "object_variants": "extract all tools mentioned (primary focus)",
+    "action_base": "extract",
+    "object_base": "extract all tools mentioned (primary focus)",
+    "departments": "AI",
+    "primary_department": "AI",
+    "typical_tools": null,
+    "object_types": null,
+    "description": "Extract extract all tools mentioned (primary focus)",
+    "frequency": 2,
+    "usage_examples": [
+      {
+        "task_id": "TASK-AI-024",
+        "department": "AI",
+        "level": "step"
+      },
+      {
+        "task_id": "TASK-AI-024",
+        "department": "AI",
+        "level": "step"
+      }
+    ],
+    "is_active": true,
+    "created_at": "2025-11-16T00:34:51.041398",
+    "created_by": "system_migration",
+    "version": "1.0"
+  },
+  {
+    "id": "RESP-AI-017",
+    "primary_phrase": "extract data",
+    "action_variants": "extract",
+    "object_variants": "extract all objects (deliverables, data types, concepts)",
+    "action_base": "extract",
+    "object_base": "data",
+    "departments": "AI",
+    "primary_department": "AI",
+    "typical_tools": null,
+    "object_types": null,
+    "description": "Extract data",
+    "frequency": 2,
+    "usage_examples": [
+      {
+        "task_id": "TASK-AI-024",
+        "department": "AI",
+        "level": "step"
+      },
+      {
+        "task_id": "TASK-AI-024",
+        "department": "AI",
+        "level": "step"
+      }
+    ],
+    "is_active": true,
+    "created_at": "2025-11-16T00:34:51.041400",
+    "created_by": "system_migration",
+    "version": "1.0"
+  },
+  {
+    "id": "RESP-AI-018",
+    "primary_phrase": "extract extract all actions and processes (verbs, workflows)",
+    "action_variants": "extract",
+    "object_variants": "extract all actions and processes (verbs, workflows)",
+    "action_base": "extract",
+    "object_base": "extract all actions and processes (verbs, workflows)",
+    "departments": "AI",
+    "primary_department": "AI",
+    "typical_tools": null,
+    "object_types": null,
+    "description": "Extract extract all actions and processes (verbs, workflows)",
+    "frequency": 2,
+    "usage_examples": [
+      {
+        "task_id": "TASK-AI-024",
+        "department": "AI",
+        "level": "step"
+      },
+      {
+        "task_id": "TASK-AI-024",
+        "department": "AI",
+        "level": "step"
+      }
+    ],
+    "is_active": true,
+    "created_at": "2025-11-16T00:34:51.041402",
+    "created_by": "system_migration",
+    "version": "1.0"
+  },
+  {
+    "id": "RESP-AI-019",
+    "primary_phrase": "identify identify professions and use cases",
+    "action_variants": "identify",
+    "object_variants": "identify professions and use cases",
+    "action_base": "identify",
+    "object_base": "identify professions and use cases",
+    "departments": "AI",
+    "primary_department": "AI",
+    "typical_tools": null,
+    "object_types": null,
+    "description": "Identify identify professions and use cases",
+    "frequency": 2,
+    "usage_examples": [
+      {
+        "task_id": "TASK-AI-024",
+        "department": "AI",
+        "level": "step"
+      },
+      {
+        "task_id": "TASK-AI-024",
+        "department": "AI",
+        "level": "step"
+      }
+    ],
+    "is_active": true,
+    "created_at": "2025-11-16T00:34:51.041404",
+    "created_by": "system_migration",
+    "version": "1.0"
+  },
+  {
+    "id": "RESP-AI-020",
+    "primary_phrase": "document structured inventory document",
+    "action_variants": "document",
+    "object_variants": "create structured inventory document",
+    "action_base": "document",
+    "object_base": "structured inventory document",
+    "departments": "AI",
+    "primary_department": "AI",
+    "typical_tools": null,
+    "object_types": null,
+    "description": "Document structured inventory document",
+    "frequency": 2,
+    "usage_examples": [
+      {
+        "task_id": "TASK-AI-024",
+        "department": "AI",
+        "level": "step"
+      },
+      {
+        "task_id": "TASK-AI-024",
+        "department": "AI",
+        "level": "step"
+      }
+    ],
+    "is_active": true,
+    "created_at": "2025-11-16T00:34:51.041407",
+    "created_by": "system_migration",
+    "version": "1.0"
+  },
+  {
+    "id": "RESP-AI-021",
+    "primary_phrase": "verify initial quality check and completeness review",
+    "action_variants": "verify",
+    "object_variants": "initial quality check and completeness review",
+    "action_base": "verify",
+    "object_base": "initial quality check and completeness review",
+    "departments": "AI",
+    "primary_department": "AI",
+    "typical_tools": null,
+    "object_types": null,
+    "description": "Verify initial quality check and completeness review",
+    "frequency": 2,
+    "usage_examples": [
+      {
+        "task_id": "TASK-AI-024",
+        "department": "AI",
+        "level": "step"
+      },
+      {
+        "task_id": "TASK-AI-024",
+        "department": "AI",
+        "level": "step"
+      }
+    ],
+    "is_active": true,
+    "created_at": "2025-11-16T00:34:51.041409",
+    "created_by": "system_migration",
+    "version": "1.0"
+  },
+  {
+    "id": "RESP-AI-022",
+    "primary_phrase": "save save inventory and prepare",
+    "action_variants": "save",
+    "object_variants": "save inventory and prepare for gap analysis",
+    "action_base": "save",
+    "object_base": "save inventory and prepare",
+    "departments": "AI",
+    "primary_department": "AI",
+    "typical_tools": null,
+    "object_types": null,
+    "description": "Save save inventory and prepare",
+    "frequency": 2,
+    "usage_examples": [
+      {
+        "task_id": "TASK-AI-024",
+        "department": "AI",
+        "level": "step"
+      },
+      {
+        "task_id": "TASK-AI-024",
+        "department": "AI",
+        "level": "step"
+      }
+    ],
+    "is_active": true,
+    "created_at": "2025-11-16T00:34:51.041412",
+    "created_by": "system_migration",
+    "version": "1.0"
+  },
+  {
+    "id": "RESP-AI-023",
+    "primary_phrase": "analyze taxonomy gaps",
+    "action_variants": "analyze",
+    "object_variants": "taxonomy gaps",
+    "action_base": "analyze",
+    "object_base": "taxonomy gaps",
+    "departments": "AI",
+    "primary_department": "AI",
+    "typical_tools": null,
+    "object_types": null,
+    "description": "Analyze taxonomy gaps",
+    "frequency": 2,
+    "usage_examples": [
+      {
+        "task_id": "TASK-AI-025",
+        "department": "AI",
+        "level": "task"
+      },
+      {
+        "task_id": "TASK-AI-025",
+        "department": "AI",
+        "level": "task"
+      }
+    ],
+    "is_active": true,
+    "created_at": "2025-11-16T00:34:51.041414",
+    "created_by": "system_migration",
+    "version": "1.0"
+  },
+  {
+    "id": "RESP-AI-024",
+    "primary_phrase": "search search tools library",
+    "action_variants": "search",
+    "object_variants": "search tools library for each extracted tool",
+    "action_base": "search",
+    "object_base": "search tools library",
+    "departments": "AI",
+    "primary_department": "AI",
+    "typical_tools": null,
+    "object_types": null,
+    "description": "Search search tools library",
+    "frequency": 2,
+    "usage_examples": [
+      {
+        "task_id": "TASK-AI-025",
+        "department": "AI",
+        "level": "step"
+      },
+      {
+        "task_id": "TASK-AI-025",
+        "department": "AI",
+        "level": "step"
+      }
+    ],
+    "is_active": true,
+    "created_at": "2025-11-16T00:34:51.041416",
+    "created_by": "system_migration",
+    "version": "1.0"
+  },
+  {
+    "id": "RESP-AI-025",
+    "primary_phrase": "search search objects library",
+    "action_variants": "search",
+    "object_variants": "search objects library for each extracted object",
+    "action_base": "search",
+    "object_base": "search objects library",
+    "departments": "AI",
+    "primary_department": "AI",
+    "typical_tools": null,
+    "object_types": null,
+    "description": "Search search objects library",
+    "frequency": 2,
+    "usage_examples": [
+      {
+        "task_id": "TASK-AI-025",
+        "department": "AI",
+        "level": "step"
+      },
+      {
+        "task_id": "TASK-AI-025",
+        "department": "AI",
+        "level": "step"
+      }
+    ],
+    "is_active": true,
+    "created_at": "2025-11-16T00:34:51.041418",
+    "created_by": "system_migration",
+    "version": "1.0"
+  },
+  {
+    "id": "RESP-AI-026",
+    "primary_phrase": "search search actions library",
+    "action_variants": "search",
+    "object_variants": "search actions library for each extracted action",
+    "action_base": "search",
+    "object_base": "search actions library",
+    "departments": "AI",
+    "primary_department": "AI",
+    "typical_tools": null,
+    "object_types": null,
+    "description": "Search search actions library",
+    "frequency": 2,
+    "usage_examples": [
+      {
+        "task_id": "TASK-AI-025",
+        "department": "AI",
+        "level": "step"
+      },
+      {
+        "task_id": "TASK-AI-025",
+        "department": "AI",
+        "level": "step"
+      }
+    ],
+    "is_active": true,
+    "created_at": "2025-11-16T00:34:51.041420",
+    "created_by": "system_migration",
+    "version": "1.0"
+  },
+  {
+    "id": "RESP-AI-027",
+    "primary_phrase": "identify check",
+    "action_variants": "identify",
+    "object_variants": "check for workflows/processes patterns",
+    "action_base": "identify",
+    "object_base": "check",
+    "departments": "AI",
+    "primary_department": "AI",
+    "typical_tools": null,
+    "object_types": null,
+    "description": "Identify check",
+    "frequency": 2,
+    "usage_examples": [
+      {
+        "task_id": "TASK-AI-025",
+        "department": "AI",
+        "level": "step"
+      },
+      {
+        "task_id": "TASK-AI-025",
+        "department": "AI",
+        "level": "step"
+      }
+    ],
+    "is_active": true,
+    "created_at": "2025-11-16T00:34:51.041423",
+    "created_by": "system_migration",
+    "version": "1.0"
+  },
+  {
+    "id": "RESP-AI-028",
+    "primary_phrase": "prioritize assign priority rankings",
+    "action_variants": "prioritize",
+    "object_variants": "assign priority rankings to new entities",
+    "action_base": "prioritize",
+    "object_base": "assign priority rankings",
+    "departments": "AI",
+    "primary_department": "AI",
+    "typical_tools": null,
+    "object_types": null,
+    "description": "Prioritize assign priority rankings",
+    "frequency": 2,
+    "usage_examples": [
+      {
+        "task_id": "TASK-AI-025",
+        "department": "AI",
+        "level": "step"
+      },
+      {
+        "task_id": "TASK-AI-025",
+        "department": "AI",
+        "level": "step"
+      }
+    ],
+    "is_active": true,
+    "created_at": "2025-11-16T00:34:51.041426",
+    "created_by": "system_migration",
+    "version": "1.0"
+  },
+  {
+    "id": "RESP-AI-029",
+    "primary_phrase": "document document gap analysis",
+    "action_variants": "document",
+    "object_variants": "document gap analysis with recommendations",
+    "action_base": "document",
+    "object_base": "document gap analysis",
+    "departments": "AI",
+    "primary_department": "AI",
+    "typical_tools": null,
+    "object_types": null,
+    "description": "Document document gap analysis",
+    "frequency": 2,
+    "usage_examples": [
+      {
+        "task_id": "TASK-AI-025",
+        "department": "AI",
+        "level": "step"
+      },
+      {
+        "task_id": "TASK-AI-025",
+        "department": "AI",
+        "level": "step"
+      }
+    ],
+    "is_active": true,
+    "created_at": "2025-11-16T00:34:51.041428",
+    "created_by": "system_migration",
+    "version": "1.0"
+  },
+  {
+    "id": "RESP-AI-030",
+    "primary_phrase": "plan videos",
+    "action_variants": "plan",
+    "object_variants": "create taxonomy roadmap for this video",
+    "action_base": "plan",
+    "object_base": "videos",
+    "departments": "AI",
+    "primary_department": "AI",
+    "typical_tools": null,
+    "object_types": null,
+    "description": "Plan videos",
+    "frequency": 2,
+    "usage_examples": [
+      {
+        "task_id": "TASK-AI-025",
+        "department": "AI",
+        "level": "step"
+      },
+      {
+        "task_id": "TASK-AI-025",
+        "department": "AI",
+        "level": "step"
+      }
+    ],
+    "is_active": true,
+    "created_at": "2025-11-16T00:34:51.041431",
+    "created_by": "system_migration",
+    "version": "1.0"
+  },
+  {
+    "id": "RESP-AI-031",
+    "primary_phrase": "create tool entries",
+    "action_variants": "create",
+    "object_variants": "tool entries",
+    "action_base": "create",
+    "object_base": "tool entries",
+    "departments": "AI",
+    "primary_department": "AI",
+    "typical_tools": null,
+    "object_types": null,
+    "description": "Create tool entries",
+    "frequency": 2,
+    "usage_examples": [
+      {
+        "task_id": "TASK-AI-026",
+        "department": "AI",
+        "level": "task"
+      },
+      {
+        "task_id": "TASK-AI-026",
+        "department": "AI",
+        "level": "task"
+      }
+    ],
+    "is_active": true,
+    "created_at": "2025-11-16T00:34:51.041434",
+    "created_by": "system_migration",
+    "version": "1.0"
+  },
+  {
+    "id": "RESP-AI-032",
+    "primary_phrase": "select select high-priority tools",
+    "action_variants": "select",
+    "object_variants": "select high-priority tools from gap analysis",
+    "action_base": "select",
+    "object_base": "select high-priority tools",
+    "departments": "AI",
+    "primary_department": "AI",
+    "typical_tools": null,
+    "object_types": null,
+    "description": "Select select high-priority tools",
+    "frequency": 2,
+    "usage_examples": [
+      {
+        "task_id": "TASK-AI-026",
+        "department": "AI",
+        "level": "step"
+      },
+      {
+        "task_id": "TASK-AI-026",
+        "department": "AI",
+        "level": "step"
+      }
+    ],
+    "is_active": true,
+    "created_at": "2025-11-16T00:34:51.041436",
+    "created_by": "system_migration",
+    "version": "1.0"
+  },
+  {
+    "id": "RESP-AI-033",
+    "primary_phrase": "research research tool details (website, documentation, pricing)",
+    "action_variants": "research",
+    "object_variants": "research tool details (website, documentation, pricing)",
+    "action_base": "research",
+    "object_base": "research tool details (website, documentation, pricing)",
+    "departments": "AI",
+    "primary_department": "AI",
+    "typical_tools": null,
+    "object_types": null,
+    "description": "Research research tool details (website, documentation, pricing)",
+    "frequency": 2,
+    "usage_examples": [
+      {
+        "task_id": "TASK-AI-026",
+        "department": "AI",
+        "level": "step"
+      },
+      {
+        "task_id": "TASK-AI-026",
+        "department": "AI",
+        "level": "step"
+      }
+    ],
+    "is_active": true,
+    "created_at": "2025-11-16T00:34:51.041438",
+    "created_by": "system_migration",
+    "version": "1.0"
+  },
+  {
+    "id": "RESP-AI-034",
+    "primary_phrase": "identify determine next tool-ai-xxx id number",
+    "action_variants": "identify",
+    "object_variants": "determine next tool-ai-xxx id number",
+    "action_base": "identify",
+    "object_base": "determine next tool-ai-xxx id number",
+    "departments": "AI",
+    "primary_department": "AI",
+    "typical_tools": null,
+    "object_types": null,
+    "description": "Identify determine next tool-ai-xxx id number",
+    "frequency": 2,
+    "usage_examples": [
+      {
+        "task_id": "TASK-AI-026",
+        "department": "AI",
+        "level": "step"
+      },
+      {
+        "task_id": "TASK-AI-026",
+        "department": "AI",
+        "level": "step"
+      }
+    ],
+    "is_active": true,
+    "created_at": "2025-11-16T00:34:51.041440",
+    "created_by": "system_migration",
+    "version": "1.0"
+  },
+  {
+    "id": "RESP-AI-035",
+    "primary_phrase": "create data",
+    "action_variants": "create",
+    "object_variants": "create tool json files with complete metadata",
+    "action_base": "create",
+    "object_base": "data",
+    "departments": "AI",
+    "primary_department": "AI",
+    "typical_tools": null,
+    "object_types": null,
+    "description": "Create data",
+    "frequency": 2,
+    "usage_examples": [
+      {
+        "task_id": "TASK-AI-026",
+        "department": "AI",
+        "level": "step"
+      },
+      {
+        "task_id": "TASK-AI-026",
+        "department": "AI",
+        "level": "step"
+      }
+    ],
+    "is_active": true,
+    "created_at": "2025-11-16T00:34:51.041442",
+    "created_by": "system_migration",
+    "version": "1.0"
+  },
+  {
+    "id": "RESP-AI-036",
+    "primary_phrase": "identify videos",
+    "action_variants": "identify",
+    "object_variants": "extract tool relationships from video context",
+    "action_base": "identify",
+    "object_base": "videos",
+    "departments": "AI",
+    "primary_department": "AI",
+    "typical_tools": null,
+    "object_types": null,
+    "description": "Identify videos",
+    "frequency": 2,
+    "usage_examples": [
+      {
+        "task_id": "TASK-AI-026",
+        "department": "AI",
+        "level": "step"
+      },
+      {
+        "task_id": "TASK-AI-026",
+        "department": "AI",
+        "level": "step"
+      }
+    ],
+    "is_active": true,
+    "created_at": "2025-11-16T00:34:51.041444",
+    "created_by": "system_migration",
+    "version": "1.0"
+  },
+  {
+    "id": "RESP-AI-037",
+    "primary_phrase": "map add profession and use case mappings",
+    "action_variants": "map",
+    "object_variants": "add profession and use case mappings",
+    "action_base": "map",
+    "object_base": "add profession and use case mappings",
+    "departments": "AI",
+    "primary_department": "AI",
+    "typical_tools": null,
+    "object_types": null,
+    "description": "Map add profession and use case mappings",
+    "frequency": 2,
+    "usage_examples": [
+      {
+        "task_id": "TASK-AI-026",
+        "department": "AI",
+        "level": "step"
+      },
+      {
+        "task_id": "TASK-AI-026",
+        "department": "AI",
+        "level": "step"
+      }
+    ],
+    "is_active": true,
+    "created_at": "2025-11-16T00:34:51.041446",
+    "created_by": "system_migration",
+    "version": "1.0"
+  },
+  {
+    "id": "RESP-AI-038",
+    "primary_phrase": "categorize assign tags and categories",
+    "action_variants": "categorize",
+    "object_variants": "assign tags and categories",
+    "action_base": "categorize",
+    "object_base": "assign tags and categories",
+    "departments": "AI",
+    "primary_department": "AI",
+    "typical_tools": null,
+    "object_types": null,
+    "description": "Categorize assign tags and categories",
+    "frequency": 2,
+    "usage_examples": [
+      {
+        "task_id": "TASK-AI-026",
+        "department": "AI",
+        "level": "step"
+      },
+      {
+        "task_id": "TASK-AI-026",
+        "department": "AI",
+        "level": "step"
+      }
+    ],
+    "is_active": true,
+    "created_at": "2025-11-16T00:34:51.041448",
+    "created_by": "system_migration",
+    "version": "1.0"
+  },
+  {
+    "id": "RESP-AI-039",
+    "primary_phrase": "verify quality check all tool entries",
+    "action_variants": "verify",
+    "object_variants": "quality check all tool entries",
+    "action_base": "verify",
+    "object_base": "quality check all tool entries",
+    "departments": "AI",
+    "primary_department": "AI",
+    "typical_tools": null,
+    "object_types": null,
+    "description": "Verify quality check all tool entries",
+    "frequency": 2,
+    "usage_examples": [
+      {
+        "task_id": "TASK-AI-026",
+        "department": "AI",
+        "level": "step"
+      },
+      {
+        "task_id": "TASK-AI-026",
+        "department": "AI",
+        "level": "step"
+      }
+    ],
+    "is_active": true,
+    "created_at": "2025-11-16T00:34:51.041450",
+    "created_by": "system_migration",
+    "version": "1.0"
+  },
+  {
+    "id": "RESP-AI-040",
+    "primary_phrase": "update tool index and cross-references",
+    "action_variants": "update",
+    "object_variants": "update tool index and cross-references",
+    "action_base": "update",
+    "object_base": "tool index and cross-references",
+    "departments": "AI",
+    "primary_department": "AI",
+    "typical_tools": null,
+    "object_types": null,
+    "description": "Update tool index and cross-references",
+    "frequency": 2,
+    "usage_examples": [
+      {
+        "task_id": "TASK-AI-026",
+        "department": "AI",
+        "level": "step"
+      },
+      {
+        "task_id": "TASK-AI-026",
+        "department": "AI",
+        "level": "step"
+      }
+    ],
+    "is_active": true,
+    "created_at": "2025-11-16T00:34:51.041454",
+    "created_by": "system_migration",
+    "version": "1.0"
+  },
+  {
+    "id": "RESP-AI-041",
+    "primary_phrase": "save save and prepare",
+    "action_variants": "save",
+    "object_variants": "save and prepare for objects/actions phases",
+    "action_base": "save",
+    "object_base": "save and prepare",
+    "departments": "AI",
+    "primary_department": "AI",
+    "typical_tools": null,
+    "object_types": null,
+    "description": "Save save and prepare",
+    "frequency": 2,
+    "usage_examples": [
+      {
+        "task_id": "TASK-AI-026",
+        "department": "AI",
+        "level": "step"
+      },
+      {
+        "task_id": "TASK-AI-026",
+        "department": "AI",
+        "level": "step"
+      }
+    ],
+    "is_active": true,
+    "created_at": "2025-11-16T00:34:51.041457",
+    "created_by": "system_migration",
+    "version": "1.0"
+  },
+  {
+    "id": "RESP-AI-042",
+    "primary_phrase": "update objects library",
+    "action_variants": "update",
+    "object_variants": "objects library",
+    "action_base": "update",
+    "object_base": "objects library",
+    "departments": "AI",
+    "primary_department": "AI",
+    "typical_tools": null,
+    "object_types": null,
+    "description": "Update objects library",
+    "frequency": 2,
+    "usage_examples": [
+      {
+        "task_id": "TASK-AI-027",
+        "department": "AI",
+        "level": "task"
+      },
+      {
+        "task_id": "TASK-AI-027",
+        "department": "AI",
+        "level": "task"
+      }
+    ],
+    "is_active": true,
+    "created_at": "2025-11-16T00:34:51.041459",
+    "created_by": "system_migration",
+    "version": "1.0"
+  },
+  {
+    "id": "RESP-AI-043",
+    "primary_phrase": "select select new objects",
+    "action_variants": "select",
+    "object_variants": "select new objects from gap analysis",
+    "action_base": "select",
+    "object_base": "select new objects",
+    "departments": "AI",
+    "primary_department": "AI",
+    "typical_tools": null,
+    "object_types": null,
+    "description": "Select select new objects",
+    "frequency": 2,
+    "usage_examples": [
+      {
+        "task_id": "TASK-AI-027",
+        "department": "AI",
+        "level": "step"
+      },
+      {
+        "task_id": "TASK-AI-027",
+        "department": "AI",
+        "level": "step"
+      }
+    ],
+    "is_active": true,
+    "created_at": "2025-11-16T00:34:51.041461",
+    "created_by": "system_migration",
+    "version": "1.0"
+  },
+  {
+    "id": "RESP-AI-044",
+    "primary_phrase": "identify determine appropriate objects category file",
+    "action_variants": "identify",
+    "object_variants": "determine appropriate objects category file",
+    "action_base": "identify",
+    "object_base": "determine appropriate objects category file",
+    "departments": "AI",
+    "primary_department": "AI",
+    "typical_tools": null,
+    "object_types": null,
+    "description": "Identify determine appropriate objects category file",
+    "frequency": 2,
+    "usage_examples": [
+      {
+        "task_id": "TASK-AI-027",
+        "department": "AI",
+        "level": "step"
+      },
+      {
+        "task_id": "TASK-AI-027",
+        "department": "AI",
+        "level": "step"
+      }
+    ],
+    "is_active": true,
+    "created_at": "2025-11-16T00:34:51.041463",
+    "created_by": "system_migration",
+    "version": "1.0"
+  },
+  {
+    "id": "RESP-AI-045",
+    "primary_phrase": "identify determine next obj-{dept}-xxx ids",
+    "action_variants": "identify",
+    "object_variants": "determine next obj-{dept}-xxx ids",
+    "action_base": "identify",
+    "object_base": "determine next obj-{dept}-xxx ids",
+    "departments": "AI",
+    "primary_department": "AI",
+    "typical_tools": null,
+    "object_types": null,
+    "description": "Identify determine next obj-{dept}-xxx ids",
+    "frequency": 2,
+    "usage_examples": [
+      {
+        "task_id": "TASK-AI-027",
+        "department": "AI",
+        "level": "step"
+      },
+      {
+        "task_id": "TASK-AI-027",
+        "department": "AI",
+        "level": "step"
+      }
+    ],
+    "is_active": true,
+    "created_at": "2025-11-16T00:34:51.041466",
+    "created_by": "system_migration",
+    "version": "1.0"
+  },
+  {
+    "id": "RESP-AI-046",
+    "primary_phrase": "create object entries",
+    "action_variants": "create",
+    "object_variants": "create object entries with definitions",
+    "action_base": "create",
+    "object_base": "object entries",
+    "departments": "AI",
+    "primary_department": "AI",
+    "typical_tools": null,
+    "object_types": null,
+    "description": "Create object entries",
+    "frequency": 2,
+    "usage_examples": [
+      {
+        "task_id": "TASK-AI-027",
+        "department": "AI",
+        "level": "step"
+      },
+      {
+        "task_id": "TASK-AI-027",
+        "department": "AI",
+        "level": "step"
+      }
+    ],
+    "is_active": true,
+    "created_at": "2025-11-16T00:34:51.041468",
+    "created_by": "system_migration",
+    "version": "1.0"
+  },
+  {
+    "id": "RESP-AI-047",
+    "primary_phrase": "map map relationships",
+    "action_variants": "map",
+    "object_variants": "map relationships to tools and actions",
+    "action_base": "map",
+    "object_base": "map relationships",
+    "departments": "AI",
+    "primary_department": "AI",
+    "typical_tools": null,
+    "object_types": null,
+    "description": "Map map relationships",
+    "frequency": 2,
+    "usage_examples": [
+      {
+        "task_id": "TASK-AI-027",
+        "department": "AI",
+        "level": "step"
+      },
+      {
+        "task_id": "TASK-AI-027",
+        "department": "AI",
+        "level": "step"
+      }
+    ],
+    "is_active": true,
+    "created_at": "2025-11-16T00:34:51.041470",
+    "created_by": "system_migration",
+    "version": "1.0"
+  },
+  {
+    "id": "RESP-AI-048",
+    "primary_phrase": "verify quality check and save objects",
+    "action_variants": "verify",
+    "object_variants": "quality check and save objects",
+    "action_base": "verify",
+    "object_base": "quality check and save objects",
+    "departments": "AI",
+    "primary_department": "AI",
+    "typical_tools": null,
+    "object_types": null,
+    "description": "Verify quality check and save objects",
+    "frequency": 2,
+    "usage_examples": [
+      {
+        "task_id": "TASK-AI-027",
+        "department": "AI",
+        "level": "step"
+      },
+      {
+        "task_id": "TASK-AI-027",
+        "department": "AI",
+        "level": "step"
+      }
+    ],
+    "is_active": true,
+    "created_at": "2025-11-16T00:34:51.041472",
+    "created_by": "system_migration",
+    "version": "1.0"
+  },
+  {
+    "id": "RESP-AI-049",
+    "primary_phrase": "update actions, processes, professions libraries",
+    "action_variants": "update",
+    "object_variants": "actions, processes, professions libraries",
+    "action_base": "update",
+    "object_base": "actions, processes, professions libraries",
+    "departments": "AI",
+    "primary_department": "AI",
+    "typical_tools": null,
+    "object_types": null,
+    "description": "Update actions, processes, professions libraries",
+    "frequency": 2,
+    "usage_examples": [
+      {
+        "task_id": "TASK-AI-028",
+        "department": "AI",
+        "level": "task"
+      },
+      {
+        "task_id": "TASK-AI-028",
+        "department": "AI",
+        "level": "task"
+      }
+    ],
+    "is_active": true,
+    "created_at": "2025-11-16T00:34:51.041475",
+    "created_by": "system_migration",
+    "version": "1.0"
+  },
+  {
+    "id": "RESP-AI-050",
+    "primary_phrase": "identify determine next wf-{dept}-xxx ids",
+    "action_variants": "identify",
+    "object_variants": "determine next wf-{dept}-xxx ids",
+    "action_base": "identify",
+    "object_base": "determine next wf-{dept}-xxx ids",
+    "departments": "AI",
+    "primary_department": "AI",
+    "typical_tools": null,
+    "object_types": null,
+    "description": "Identify determine next wf-{dept}-xxx ids",
+    "frequency": 2,
+    "usage_examples": [
+      {
+        "task_id": "TASK-AI-028",
+        "department": "AI",
+        "level": "step"
+      },
+      {
+        "task_id": "TASK-AI-028",
+        "department": "AI",
+        "level": "step"
+      }
+    ],
+    "is_active": true,
+    "created_at": "2025-11-16T00:34:51.041479",
+    "created_by": "system_migration",
+    "version": "1.0"
+  },
+  {
+    "id": "RESP-AI-051",
+    "primary_phrase": "create workflow entries",
+    "action_variants": "create",
+    "object_variants": "create workflow entries with complete documentation",
+    "action_base": "create",
+    "object_base": "workflow entries",
+    "departments": "AI",
+    "primary_department": "AI",
+    "typical_tools": null,
+    "object_types": null,
+    "description": "Create workflow entries",
+    "frequency": 2,
+    "usage_examples": [
+      {
+        "task_id": "TASK-AI-028",
+        "department": "AI",
+        "level": "step"
+      },
+      {
+        "task_id": "TASK-AI-028",
+        "department": "AI",
+        "level": "step"
+      }
+    ],
+    "is_active": true,
+    "created_at": "2025-11-16T00:34:51.041481",
+    "created_by": "system_migration",
+    "version": "1.0"
+  },
+  {
+    "id": "RESP-AI-052",
+    "primary_phrase": "search check",
+    "action_variants": "search",
+    "object_variants": "check for new action verbs not in actions library",
+    "action_base": "search",
+    "object_base": "check",
+    "departments": "AI",
+    "primary_department": "AI",
+    "typical_tools": null,
+    "object_types": null,
+    "description": "Search check",
+    "frequency": 2,
+    "usage_examples": [
+      {
+        "task_id": "TASK-AI-028",
+        "department": "AI",
+        "level": "step"
+      },
+      {
+        "task_id": "TASK-AI-028",
+        "department": "AI",
+        "level": "step"
+      }
+    ],
+    "is_active": true,
+    "created_at": "2025-11-16T00:34:51.041483",
+    "created_by": "system_migration",
+    "version": "1.0"
+  },
+  {
+    "id": "RESP-AI-053",
+    "primary_phrase": "update add new action verbs",
+    "action_variants": "update",
+    "object_variants": "add new action verbs to appropriate category",
+    "action_base": "update",
+    "object_base": "add new action verbs",
+    "departments": "AI",
+    "primary_department": "AI",
+    "typical_tools": null,
+    "object_types": null,
+    "description": "Update add new action verbs",
+    "frequency": 2,
+    "usage_examples": [
+      {
+        "task_id": "TASK-AI-028",
+        "department": "AI",
+        "level": "step"
+      },
+      {
+        "task_id": "TASK-AI-028",
+        "department": "AI",
+        "level": "step"
+      }
+    ],
+    "is_active": true,
+    "created_at": "2025-11-16T00:34:51.041485",
+    "created_by": "system_migration",
+    "version": "1.0"
+  },
+  {
+    "id": "RESP-AI-054",
+    "primary_phrase": "update profession mappings",
+    "action_variants": "update",
+    "object_variants": "update profession mappings with tools and workflows",
+    "action_base": "update",
+    "object_base": "profession mappings",
+    "departments": "AI",
+    "primary_department": "AI",
+    "typical_tools": null,
+    "object_types": null,
+    "description": "Update profession mappings",
+    "frequency": 2,
+    "usage_examples": [
+      {
+        "task_id": "TASK-AI-028",
+        "department": "AI",
+        "level": "step"
+      },
+      {
+        "task_id": "TASK-AI-028",
+        "department": "AI",
+        "level": "step"
+      }
+    ],
+    "is_active": true,
+    "created_at": "2025-11-16T00:34:51.041487",
+    "created_by": "system_migration",
+    "version": "1.0"
+  },
+  {
+    "id": "RESP-AI-055",
+    "primary_phrase": "document document use cases and skill requirements",
+    "action_variants": "document",
+    "object_variants": "document use cases and skill requirements",
+    "action_base": "document",
+    "object_base": "document use cases and skill requirements",
+    "departments": "AI",
+    "primary_department": "AI",
+    "typical_tools": null,
+    "object_types": null,
+    "description": "Document document use cases and skill requirements",
+    "frequency": 2,
+    "usage_examples": [
+      {
+        "task_id": "TASK-AI-028",
+        "department": "AI",
+        "level": "step"
+      },
+      {
+        "task_id": "TASK-AI-028",
+        "department": "AI",
+        "level": "step"
+      }
+    ],
+    "is_active": true,
+    "created_at": "2025-11-16T00:34:51.041490",
+    "created_by": "system_migration",
+    "version": "1.0"
+  },
+  {
+    "id": "RESP-AI-056",
+    "primary_phrase": "verify quality check workflows, actions, professions",
+    "action_variants": "verify",
+    "object_variants": "quality check workflows, actions, professions",
+    "action_base": "verify",
+    "object_base": "quality check workflows, actions, professions",
+    "departments": "AI",
+    "primary_department": "AI",
+    "typical_tools": null,
+    "object_types": null,
+    "description": "Verify quality check workflows, actions, professions",
+    "frequency": 2,
+    "usage_examples": [
+      {
+        "task_id": "TASK-AI-028",
+        "department": "AI",
+        "level": "step"
+      },
+      {
+        "task_id": "TASK-AI-028",
+        "department": "AI",
+        "level": "step"
+      }
+    ],
+    "is_active": true,
+    "created_at": "2025-11-16T00:34:51.041495",
+    "created_by": "system_migration",
+    "version": "1.0"
+  },
+  {
+    "id": "RESP-AI-057",
+    "primary_phrase": "map entity relationships",
+    "action_variants": "map",
+    "object_variants": "entity relationships",
+    "action_base": "map",
+    "object_base": "entity relationships",
+    "departments": "AI",
+    "primary_department": "AI",
+    "typical_tools": null,
+    "object_types": null,
+    "description": "Map entity relationships",
+    "frequency": 2,
+    "usage_examples": [
+      {
+        "task_id": "TASK-AI-029",
+        "department": "AI",
+        "level": "task"
+      },
+      {
+        "task_id": "TASK-AI-029",
+        "department": "AI",
+        "level": "task"
+      }
+    ],
+    "is_active": true,
+    "created_at": "2025-11-16T00:34:51.041499",
+    "created_by": "system_migration",
+    "version": "1.0"
+  },
+  {
+    "id": "RESP-AI-058",
+    "primary_phrase": "map map tool-to-tool relationships",
+    "action_variants": "map",
+    "object_variants": "map tool-to-tool relationships",
+    "action_base": "map",
+    "object_base": "map tool-to-tool relationships",
+    "departments": "AI",
+    "primary_department": "AI",
+    "typical_tools": null,
+    "object_types": null,
+    "description": "Map map tool-to-tool relationships",
+    "frequency": 2,
+    "usage_examples": [
+      {
+        "task_id": "TASK-AI-029",
+        "department": "AI",
+        "level": "step"
+      },
+      {
+        "task_id": "TASK-AI-029",
+        "department": "AI",
+        "level": "step"
+      }
+    ],
+    "is_active": true,
+    "created_at": "2025-11-16T00:34:51.041502",
+    "created_by": "system_migration",
+    "version": "1.0"
+  },
+  {
+    "id": "RESP-AI-059",
+    "primary_phrase": "map map tool-to-workflow connections",
+    "action_variants": "map",
+    "object_variants": "map tool-to-workflow connections",
+    "action_base": "map",
+    "object_base": "map tool-to-workflow connections",
+    "departments": "AI",
+    "primary_department": "AI",
+    "typical_tools": null,
+    "object_types": null,
+    "description": "Map map tool-to-workflow connections",
+    "frequency": 2,
+    "usage_examples": [
+      {
+        "task_id": "TASK-AI-029",
+        "department": "AI",
+        "level": "step"
+      },
+      {
+        "task_id": "TASK-AI-029",
+        "department": "AI",
+        "level": "step"
+      }
+    ],
+    "is_active": true,
+    "created_at": "2025-11-16T00:34:51.041506",
+    "created_by": "system_migration",
+    "version": "1.0"
+  },
+  {
+    "id": "RESP-AI-060",
+    "primary_phrase": "map map profession-to-tool connections",
+    "action_variants": "map",
+    "object_variants": "map profession-to-tool connections",
+    "action_base": "map",
+    "object_base": "map profession-to-tool connections",
+    "departments": "AI",
+    "primary_department": "AI",
+    "typical_tools": null,
+    "object_types": null,
+    "description": "Map map profession-to-tool connections",
+    "frequency": 2,
+    "usage_examples": [
+      {
+        "task_id": "TASK-AI-029",
+        "department": "AI",
+        "level": "step"
+      },
+      {
+        "task_id": "TASK-AI-029",
+        "department": "AI",
+        "level": "step"
+      }
+    ],
+    "is_active": true,
+    "created_at": "2025-11-16T00:34:51.041511",
+    "created_by": "system_migration",
+    "version": "1.0"
+  },
+  {
+    "id": "RESP-AI-061",
+    "primary_phrase": "map map object-to-tool and object-to-action connections",
+    "action_variants": "map",
+    "object_variants": "map object-to-tool and object-to-action connections",
+    "action_base": "map",
+    "object_base": "map object-to-tool and object-to-action connections",
+    "departments": "AI",
+    "primary_department": "AI",
+    "typical_tools": null,
+    "object_types": null,
+    "description": "Map map object-to-tool and object-to-action connections",
+    "frequency": 2,
+    "usage_examples": [
+      {
+        "task_id": "TASK-AI-029",
+        "department": "AI",
+        "level": "step"
+      },
+      {
+        "task_id": "TASK-AI-029",
+        "department": "AI",
+        "level": "step"
+      }
+    ],
+    "is_active": true,
+    "created_at": "2025-11-16T00:34:51.041516",
+    "created_by": "system_migration",
+    "version": "1.0"
+  },
+  {
+    "id": "RESP-AI-062",
+    "primary_phrase": "verify verify bidirectional references are complete",
+    "action_variants": "verify",
+    "object_variants": "verify bidirectional references are complete",
+    "action_base": "verify",
+    "object_base": "verify bidirectional references are complete",
+    "departments": "AI",
+    "primary_department": "AI",
+    "typical_tools": null,
+    "object_types": null,
+    "description": "Verify verify bidirectional references are complete",
+    "frequency": 2,
+    "usage_examples": [
+      {
+        "task_id": "TASK-AI-029",
+        "department": "AI",
+        "level": "step"
+      },
+      {
+        "task_id": "TASK-AI-029",
+        "department": "AI",
+        "level": "step"
+      }
+    ],
+    "is_active": true,
+    "created_at": "2025-11-16T00:34:51.041519",
+    "created_by": "system_migration",
+    "version": "1.0"
+  },
+  {
+    "id": "RESP-AI-063",
+    "primary_phrase": "generate library mapping reports",
+    "action_variants": "generate",
+    "object_variants": "library mapping reports",
+    "action_base": "generate",
+    "object_base": "library mapping reports",
+    "departments": "AI",
+    "primary_department": "AI",
+    "typical_tools": null,
+    "object_types": null,
+    "description": "Generate library mapping reports",
+    "frequency": 2,
+    "usage_examples": [
+      {
+        "task_id": "TASK-AI-030",
+        "department": "AI",
+        "level": "task"
+      },
+      {
+        "task_id": "TASK-AI-030",
+        "department": "AI",
+        "level": "task"
+      }
+    ],
+    "is_active": true,
+    "created_at": "2025-11-16T00:34:51.041521",
+    "created_by": "system_migration",
+    "version": "1.0"
+  },
+  {
+    "id": "RESP-AI-064",
+    "primary_phrase": "collect collect metrics",
+    "action_variants": "collect",
+    "object_variants": "collect metrics from all taxonomy phases",
+    "action_base": "collect",
+    "object_base": "collect metrics",
+    "departments": "AI",
+    "primary_department": "AI",
+    "typical_tools": null,
+    "object_types": null,
+    "description": "Collect collect metrics",
+    "frequency": 2,
+    "usage_examples": [
+      {
+        "task_id": "TASK-AI-030",
+        "department": "AI",
+        "level": "step"
+      },
+      {
+        "task_id": "TASK-AI-030",
+        "department": "AI",
+        "level": "step"
+      }
+    ],
+    "is_active": true,
+    "created_at": "2025-11-16T00:34:51.041523",
+    "created_by": "system_migration",
+    "version": "1.0"
+  },
+  {
+    "id": "RESP-AI-065",
+    "primary_phrase": "create generate library mapping report",
+    "action_variants": "create",
+    "object_variants": "generate library mapping report from template",
+    "action_base": "create",
+    "object_base": "generate library mapping report",
+    "departments": "AI",
+    "primary_department": "AI",
+    "typical_tools": null,
+    "object_types": null,
+    "description": "Create generate library mapping report",
+    "frequency": 2,
+    "usage_examples": [
+      {
+        "task_id": "TASK-AI-030",
+        "department": "AI",
+        "level": "step"
+      },
+      {
+        "task_id": "TASK-AI-030",
+        "department": "AI",
+        "level": "step"
+      }
+    ],
+    "is_active": true,
+    "created_at": "2025-11-16T00:34:51.041525",
+    "created_by": "system_migration",
+    "version": "1.0"
+  },
+  {
+    "id": "RESP-AI-066",
+    "primary_phrase": "update research session json",
+    "action_variants": "update",
+    "object_variants": "update research session json with taxonomy results",
+    "action_base": "update",
+    "object_base": "research session json",
+    "departments": "AI",
+    "primary_department": "AI",
+    "typical_tools": null,
+    "object_types": null,
+    "description": "Update research session json",
+    "frequency": 2,
+    "usage_examples": [
+      {
+        "task_id": "TASK-AI-030",
+        "department": "AI",
+        "level": "step"
+      },
+      {
+        "task_id": "TASK-AI-030",
+        "department": "AI",
+        "level": "step"
+      }
+    ],
+    "is_active": true,
+    "created_at": "2025-11-16T00:34:51.041527",
+    "created_by": "system_migration",
+    "version": "1.0"
+  },
+  {
+    "id": "RESP-AI-067",
+    "primary_phrase": "update research_index.json",
+    "action_variants": "update",
+    "object_variants": "update research_index.json with cycle summary",
+    "action_base": "update",
+    "object_base": "research_index.json",
+    "departments": "AI",
+    "primary_department": "AI",
+    "typical_tools": null,
+    "object_types": null,
+    "description": "Update research_index.json",
+    "frequency": 2,
+    "usage_examples": [
+      {
+        "task_id": "TASK-AI-030",
+        "department": "AI",
+        "level": "step"
+      },
+      {
+        "task_id": "TASK-AI-030",
+        "department": "AI",
+        "level": "step"
+      }
+    ],
+    "is_active": true,
+    "created_at": "2025-11-16T00:34:51.041529",
+    "created_by": "system_migration",
+    "version": "1.0"
+  },
+  {
+    "id": "RESP-AI-068",
+    "primary_phrase": "analyze identify next research cycle priorities",
+    "action_variants": "analyze",
+    "object_variants": "identify next research cycle priorities",
+    "action_base": "analyze",
+    "object_base": "identify next research cycle priorities",
+    "departments": "AI",
+    "primary_department": "AI",
+    "typical_tools": null,
+    "object_types": null,
+    "description": "Analyze identify next research cycle priorities",
+    "frequency": 2,
+    "usage_examples": [
+      {
+        "task_id": "TASK-AI-030",
+        "department": "AI",
+        "level": "step"
+      },
+      {
+        "task_id": "TASK-AI-030",
+        "department": "AI",
+        "level": "step"
+      }
+    ],
+    "is_active": true,
+    "created_at": "2025-11-16T00:34:51.041531",
+    "created_by": "system_migration",
+    "version": "1.0"
+  },
+  {
+    "id": "RESP-AI-069",
+    "primary_phrase": "design evaluation system",
+    "action_variants": "design",
+    "object_variants": "evaluation system",
+    "action_base": "design",
+    "object_base": "evaluation system",
+    "departments": "AI",
+    "primary_department": "AI",
+    "typical_tools": null,
+    "object_types": null,
+    "description": "Design evaluation system",
+    "frequency": 2,
+    "usage_examples": [
+      {
+        "task_id": "TASK-AI-031",
+        "department": "AI",
+        "level": "task"
+      },
+      {
+        "task_id": "TASK-AI-031",
+        "department": "AI",
+        "level": "task"
+      }
+    ],
+    "is_active": true,
+    "created_at": "2025-11-16T00:34:51.041533",
+    "created_by": "system_migration",
+    "version": "1.0"
+  },
+  {
+    "id": "RESP-AI-070",
+    "primary_phrase": "define define evaluation objectives and metrics",
+    "action_variants": "define",
+    "object_variants": "define evaluation objectives and metrics",
+    "action_base": "define",
+    "object_base": "define evaluation objectives and metrics",
+    "departments": "AI",
+    "primary_department": "AI",
+    "typical_tools": null,
+    "object_types": null,
+    "description": "Define define evaluation objectives and metrics",
+    "frequency": 2,
+    "usage_examples": [
+      {
+        "task_id": "TASK-AI-031",
+        "department": "AI",
+        "level": "step"
+      },
+      {
+        "task_id": "TASK-AI-031",
+        "department": "AI",
+        "level": "step"
+      }
+    ],
+    "is_active": true,
+    "created_at": "2025-11-16T00:34:51.041537",
+    "created_by": "system_migration",
+    "version": "1.0"
+  },
+  {
+    "id": "RESP-AI-071",
+    "primary_phrase": "analyze identify per-example ground truth requirements",
+    "action_variants": "analyze",
+    "object_variants": "identify per-example ground truth requirements",
+    "action_base": "analyze",
+    "object_base": "identify per-example ground truth requirements",
+    "departments": "AI",
+    "primary_department": "AI",
+    "typical_tools": null,
+    "object_types": null,
+    "description": "Analyze identify per-example ground truth requirements",
+    "frequency": 2,
+    "usage_examples": [
+      {
+        "task_id": "TASK-AI-031",
+        "department": "AI",
+        "level": "step"
+      },
+      {
+        "task_id": "TASK-AI-031",
+        "department": "AI",
+        "level": "step"
+      }
+    ],
+    "is_active": true,
+    "created_at": "2025-11-16T00:34:51.041540",
+    "created_by": "system_migration",
+    "version": "1.0"
+  },
+  {
+    "id": "RESP-AI-072",
+    "primary_phrase": "analyze identify universal standard requirements",
+    "action_variants": "analyze",
+    "object_variants": "identify universal standard requirements",
+    "action_base": "analyze",
+    "object_base": "identify universal standard requirements",
+    "departments": "AI",
+    "primary_department": "AI",
+    "typical_tools": null,
+    "object_types": null,
+    "description": "Analyze identify universal standard requirements",
+    "frequency": 2,
+    "usage_examples": [
+      {
+        "task_id": "TASK-AI-031",
+        "department": "AI",
+        "level": "step"
+      },
+      {
+        "task_id": "TASK-AI-031",
+        "department": "AI",
+        "level": "step"
+      }
+    ],
+    "is_active": true,
+    "created_at": "2025-11-16T00:34:51.041544",
+    "created_by": "system_migration",
+    "version": "1.0"
+  },
+  {
+    "id": "RESP-AI-073",
+    "primary_phrase": "create per-example evaluation test cases",
+    "action_variants": "create",
+    "object_variants": "create per-example evaluation test cases",
+    "action_base": "create",
+    "object_base": "per-example evaluation test cases",
+    "departments": "AI",
+    "primary_department": "AI",
+    "typical_tools": null,
+    "object_types": null,
+    "description": "Create per-example evaluation test cases",
+    "frequency": 2,
+    "usage_examples": [
+      {
+        "task_id": "TASK-AI-031",
+        "department": "AI",
+        "level": "step"
+      },
+      {
+        "task_id": "TASK-AI-031",
+        "department": "AI",
+        "level": "step"
+      }
+    ],
+    "is_active": true,
+    "created_at": "2025-11-16T00:34:51.041546",
+    "created_by": "system_migration",
+    "version": "1.0"
+  },
+  {
+    "id": "RESP-AI-074",
+    "primary_phrase": "create universal standard validation checks",
+    "action_variants": "create",
+    "object_variants": "create universal standard validation checks",
+    "action_base": "create",
+    "object_base": "universal standard validation checks",
+    "departments": "AI",
+    "primary_department": "AI",
+    "typical_tools": null,
+    "object_types": null,
+    "description": "Create universal standard validation checks",
+    "frequency": 2,
+    "usage_examples": [
+      {
+        "task_id": "TASK-AI-031",
+        "department": "AI",
+        "level": "step"
+      },
+      {
+        "task_id": "TASK-AI-031",
+        "department": "AI",
+        "level": "step"
+      }
+    ],
+    "is_active": true,
+    "created_at": "2025-11-16T00:34:51.041548",
+    "created_by": "system_migration",
+    "version": "1.0"
+  },
+  {
+    "id": "RESP-AI-075",
+    "primary_phrase": "implement implement evaluation runner and metrics tracking",
+    "action_variants": "implement",
+    "object_variants": "implement evaluation runner and metrics tracking",
+    "action_base": "implement",
+    "object_base": "implement evaluation runner and metrics tracking",
+    "departments": "AI",
+    "primary_department": "AI",
+    "typical_tools": null,
+    "object_types": null,
+    "description": "Implement implement evaluation runner and metrics tracking",
+    "frequency": 2,
+    "usage_examples": [
+      {
+        "task_id": "TASK-AI-031",
+        "department": "AI",
+        "level": "step"
+      },
+      {
+        "task_id": "TASK-AI-031",
+        "department": "AI",
+        "level": "step"
+      }
+    ],
+    "is_active": true,
+    "created_at": "2025-11-16T00:34:51.041550",
+    "created_by": "system_migration",
+    "version": "1.0"
+  },
+  {
+    "id": "RESP-AI-076",
+    "primary_phrase": "run run evaluation on agent and analyze results",
+    "action_variants": "run",
+    "object_variants": "run evaluation on agent and analyze results",
+    "action_base": "run",
+    "object_base": "run evaluation on agent and analyze results",
+    "departments": "AI",
+    "primary_department": "AI",
+    "typical_tools": null,
+    "object_types": null,
+    "description": "Run run evaluation on agent and analyze results",
+    "frequency": 2,
+    "usage_examples": [
+      {
+        "task_id": "TASK-AI-031",
+        "department": "AI",
+        "level": "step"
+      },
+      {
+        "task_id": "TASK-AI-031",
+        "department": "AI",
+        "level": "step"
+      }
+    ],
+    "is_active": true,
+    "created_at": "2025-11-16T00:34:51.041552",
+    "created_by": "system_migration",
+    "version": "1.0"
+  },
+  {
+    "id": "RESP-AI-077",
+    "primary_phrase": "document document evaluation system and establish baseline",
+    "action_variants": "document",
+    "object_variants": "document evaluation system and establish baseline",
+    "action_base": "document",
+    "object_base": "document evaluation system and establish baseline",
+    "departments": "AI",
+    "primary_department": "AI",
+    "typical_tools": null,
+    "object_types": null,
+    "description": "Document document evaluation system and establish baseline",
+    "frequency": 2,
+    "usage_examples": [
+      {
+        "task_id": "TASK-AI-031",
+        "department": "AI",
+        "level": "step"
+      },
+      {
+        "task_id": "TASK-AI-031",
+        "department": "AI",
+        "level": "step"
+      }
+    ],
+    "is_active": true,
+    "created_at": "2025-11-16T00:34:51.041554",
+    "created_by": "system_migration",
+    "version": "1.0"
+  },
+  {
+    "id": "RESP-AI-078",
+    "primary_phrase": "research videos",
+    "action_variants": "research",
+    "object_variants": "ai video tools",
+    "action_base": "research",
+    "object_base": "videos",
+    "departments": "Research / AI / Video",
+    "primary_department": "Research / AI / Video",
+    "typical_tools": null,
+    "object_types": null,
+    "description": "Research videos",
+    "frequency": 1,
+    "usage_examples": {
+      "department": "Research / AI / Video",
+      "level": "task",
+      "task_id": "TEMPLATE-TASK-RES-001"
+    },
+    "is_active": true,
+    "created_at": "2025-11-16T00:34:51.041557",
+    "created_by": "system_migration",
+    "version": "1.0"
+  },
+  {
+    "id": "RESP-AI-079",
+    "primary_phrase": "research ai platforms",
+    "action_variants": "research",
+    "object_variants": "ai platforms",
+    "action_base": "research",
+    "object_base": "ai platforms",
+    "departments": "Research / AI",
+    "primary_department": "Research / AI",
+    "typical_tools": null,
+    "object_types": null,
+    "description": "Research ai platforms",
+    "frequency": 1,
+    "usage_examples": {
+      "department": "Research / AI",
+      "level": "task",
+      "task_id": "TEMPLATE-TASK-RES-002"
+    },
+    "is_active": true,
+    "created_at": "2025-11-16T00:34:51.041559",
+    "created_by": "system_migration",
+    "version": "1.0"
+  },
+  {
+    "id": "RESP-AI-080",
+    "primary_phrase": "research other tools",
+    "action_variants": "research",
+    "object_variants": "other tools",
+    "action_base": "research",
+    "object_base": "other tools",
+    "departments": "Research / AI / Design / Video",
+    "primary_department": "Research / AI / Design / Video",
+    "typical_tools": null,
+    "object_types": null,
+    "description": "Research other tools",
+    "frequency": 1,
+    "usage_examples": {
+      "department": "Research / AI / Design / Video",
+      "level": "task",
+      "task_id": "TEMPLATE-TASK-RES-004"
+    },
+    "is_active": true,
+    "created_at": "2025-11-16T00:34:51.041562",
+    "created_by": "system_migration",
+    "version": "1.0"
+  }
+]

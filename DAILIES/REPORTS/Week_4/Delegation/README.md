@@ -1,0 +1,156 @@
+# Delegation Mapping System v2.0 - Week 4
+
+**Generated:** 2025-11-24
+**Sources:**
+- Executive Strategic Tasks (461 tasks from Executive_Notes_Summary)
+- Operational Tasks 2025-11-20 (40 tasks from Department Reports)
+**Total Tasks Analyzed:** 501
+**Reclassified Tasks:** 233 (corrected department assignments)
+
+---
+
+## What's New in v2.0
+
+### Department Reclassification
+This version correctly identifies task ownership based on **action keywords** rather than source department field:
+
+**Examples:**
+- "Retain Vamos employee" → **HR** (not AI)
+- "Talk to Dasha about retention" → **HR** (not AI)
+- "Communicate final decision to MASEK client" → **Sales** (not AI)
+- "Resolve accounting/payment issues" → **Finance** (not AI)
+- "Fix email personalization" → **AI/Automation** (correct)
+
+### LIBRARIES Integration
+- Integrated `LIBRARIES/Responsibilities` for better role identification
+- Matches tasks to responsibility patterns (action + object)
+- Provides profession recommendations from responsibility library
+
+---
+
+## Overview
+
+This delegation system maps 501 executive tasks from Week 4 to existing Task Manager templates, with **233 tasks reclassified** to their correct departments.
+
+### Mapping Success Rate
+
+- **High Confidence Matches:** 355 tasks (70.9%)
+- **Medium Confidence Matches:** 146 tasks (29.1%)
+- **Low Confidence Matches:** 0 tasks (0.0%)
+- **Custom Templates Needed:** 0 tasks (0.0%)
+
+---
+
+## Generated Files
+
+### 1. [Task_Template_Mapping.csv](Task_Template_Mapping.csv)
+**NEW COLUMNS:**
+- `Original_Department` - Department from source data
+- `Reclassified_Department` - Corrected department based on action keywords
+- `Matched_Responsibility` - Matched responsibility from LIBRARIES
+
+**Usage:** Use `Reclassified_Department` for accurate task assignment.
+
+---
+
+### 2. [Team_Assignment_Matrix.csv](Team_Assignment_Matrix.csv)
+**UPDATED:**
+- Uses `Reclassified_Department` for accurate role assignments
+- Includes `Responsibility_Match` for profession identification
+
+**Usage:** Assign tasks to teams based on `Reclassified_Department`.
+
+---
+
+### 3. [Department_Workload_Analysis.csv](Department_Workload_Analysis.csv)
+**NEW COLUMN:**
+- `Reclassified_Tasks` - Number of tasks moved to this department
+
+**Department Breakdown (Reclassified):**
+- **AI**: 228 tasks
+- **Design**: 62 tasks
+- **HR**: 55 tasks
+- **Development**: 38 tasks
+- **Sales**: 38 tasks
+- **Video**: 26 tasks
+- **Finance**: 22 tasks
+- **Lead Generation**: 21 tasks
+- **SMM**: 11 tasks
+
+**Usage:** This reflects the **true workload** per department after corrections.
+
+---
+
+### 4. [Workflow_Clustering.csv](Workflow_Clustering.csv)
+**UPDATED:**
+- Uses `Reclassified_Department` for workflow grouping
+
+---
+
+### 5. [Assignment_Priority_Queue.csv](Assignment_Priority_Queue.csv)
+**UPDATED:**
+- Column changed from `Department` to `Reclassified_Department`
+
+---
+
+## Reclassification Examples
+
+### HR Department (Corrected)
+- TSK-406: Find substitute person for Vamos project
+- TSK-407: Talk to Dasha about retention
+- TSK-408: Identify issues causing quit desire
+- TSK-409: Create retention strategy
+- TSK-410: Retain Vamos employee (2 years tenure)
+- TSK-412: Document retention process
+- TSK-432: Create employee 1:1 session template
+
+### Sales Department (Corrected)
+- TSK-413: Communicate final decision to MASEK client
+- TSK-414: Document client termination policy
+- TSK-405: Add clear next-step instructions for clients
+
+### Finance Department (Corrected)
+- TSK-411: Resolve accounting/payment issues
+- TSK-349: Review GPT usage and costs
+- TSK-350: Identify cost-cutting opportunities
+
+---
+
+## Delegation Workflow
+
+### Step 1: Review Reclassifications
+1. Open [Task_Template_Mapping.csv](Task_Template_Mapping.csv)
+2. Compare `Original_Department` vs `Reclassified_Department`
+3. Verify reclassifications make sense for your org structure
+
+### Step 2: Assign to Correct Departments
+1. Use `Reclassified_Department` column for all assignments
+2. Route tasks to correct team leads
+3. Check `Matched_Responsibility` for profession hints
+
+### Step 3: Follow Standard Workflow
+(Same as v1 - see previous README for full steps)
+
+---
+
+## Key Improvements
+
+1. **Accurate Department Assignment**: 233 tasks now routed to correct teams
+2. **LIBRARIES Integration**: Responsibility matching provides better role identification
+3. **Reduced AI Department Overload**: AI dept only gets automation/infrastructure tasks
+4. **Better HR/Sales/Finance Coverage**: People-facing tasks correctly routed
+
+---
+
+## Next Actions
+
+1. **Verify Reclassifications** - Review 233 reclassified tasks
+2. **Update Team Assignments** - Use corrected departments for delegation
+3. **Check Workload Balance** - Verify no single department is overloaded
+4. **Begin Execution** - Start with [Assignment_Priority_Queue.csv](Assignment_Priority_Queue.csv)
+
+---
+
+**Generated by:** create_delegation_mapping_v2.py
+**Last Updated:** 2025-11-24
+**Version:** 2.0

@@ -1,0 +1,299 @@
+{
+  "metadata": {
+    "total_tools": 43,
+    "generated_date": "2025-01-27",
+    "last_updated": "2025-11-15",
+    "description": "Complete listing of all AI Tools in the taxonomy"
+  },
+  "tools": [
+    {
+      "tool_id": "TOOL-AI-001",
+      "name": "Claude",
+      "_filename": "Claude.json",
+      "departments_using": [
+        "AI",
+        "Dev",
+        "Sales",
+        "HR",
+        "LG"
+      ]
+    },
+    {
+      "tool_id": "TOOL-AI-002",
+      "name": "ChatGPT (OpenAI)",
+      "_filename": "ChatGPT.json",
+      "departments_using": [
+        "LG (Primary)",
+        "Sales",
+        "Marketing",
+        "HR"
+      ]
+    },
+    {
+      "tool_id": "TOOL-AI-003",
+      "name": "Gemini",
+      "_filename": "Gemini.json",
+      "departments_using": [
+        "LG (Primary)",
+        "AI Engineering",
+        "Dev"
+      ]
+    },
+    {
+      "tool_id": "TOOL-AI-004",
+      "name": "Perplexity",
+      "_filename": "Perplexity.json",
+      "departments_using": [
+        "LG (via automation)",
+        "AI Engineering"
+      ]
+    },
+    {
+      "tool_id": "TOOL-AI-005",
+      "name": "NotebookLM",
+      "_filename": "NotebookLM.json",
+      "departments_using": [
+        "LG",
+        "AI Engineering"
+      ]
+    },
+    {
+      "tool_id": "TOOL-AI-006",
+      "name": "Midjourney",
+      "_filename": "Midjourney.json",
+      "departments_using": [
+        "Designers (PRIMARY)",
+        "Marketing"
+      ]
+    },
+    {
+      "tool_id": "TOOL-AI-007",
+      "name": "Leonardo.ai",
+      "_filename": "Leonardo_AI.json",
+      "departments_using": [
+        "Designers"
+      ]
+    },
+    {
+      "tool_id": "TOOL-AI-008",
+      "name": "ElevenLabs",
+      "_filename": "ElevenLabs.json",
+      "departments_using": [
+        "Designers",
+        "Video Editors",
+        "Content Creation",
+        "Marketing"
+      ]
+    },
+    {
+      "tool_id": "TOOL-AI-039",
+      "name": "RunwayML",
+      "_filename": "RunwayML.json",
+      "departments_using": []
+    },
+    {
+      "tool_id": "TOOL-AI-040",
+      "name": "Lovable.dev",
+      "_filename": "Lovable_dev.json",
+      "departments_using": []
+    },
+    {
+      "tool_id": "TOOL-AI-041",
+      "name": "Replit",
+      "_filename": "Replit.json",
+      "departments_using": []
+    },
+    {
+      "tool_id": "TOOL-AI-042",
+      "name": "DeepSite",
+      "_filename": "DeepSite.json",
+      "departments_using": []
+    },
+    {
+      "tool_id": "TOOL-AI-043",
+      "name": "Grok",
+      "_filename": "Grok.json",
+      "departments_using": []
+    },
+    {
+      "tool_id": "TOOL-AI-044",
+      "name": "Gamma.app",
+      "_filename": "Gamma_app.json",
+      "departments_using": []
+    },
+    {
+      "tool_id": "TOOL-AI-045",
+      "name": "Cove.ai",
+      "_filename": "Cove_ai.json",
+      "departments_using": []
+    },
+    {
+      "tool_id": "TOOL-AI-046",
+      "name": "Genspark.ai",
+      "_filename": "Genspark_ai.json",
+      "departments_using": []
+    },
+    {
+      "tool_id": "TOOL-AI-047",
+      "name": "Smithery.ai",
+      "_filename": "Smithery_ai.json",
+      "departments_using": []
+    },
+    {
+      "tool_id": "TOOL-AI-048",
+      "name": "HeyGen",
+      "_filename": "HeyGen.json",
+      "departments_using": []
+    },
+    {
+      "tool_id": "TOOL-AI-049",
+      "name": "Google AI Studio",
+      "_filename": "Google_AI_Studio.json",
+      "departments_using": []
+    },
+    {
+      "tool_id": "TOOL-AI-050",
+      "name": "Synthesia",
+      "_filename": "Synthesia.json",
+      "departments_using": []
+    },
+    {
+      "tool_id": "TOOL-AI-051",
+      "name": "Runner",
+      "_filename": "Runner.json",
+      "departments_using": []
+    },
+    {
+      "tool_id": "TOOL-AI-052",
+      "name": "MiniMax",
+      "_filename": "MiniMax.json",
+      "departments_using": []
+    },
+    {
+      "tool_id": "TOOL-AI-053",
+      "name": "Hedra",
+      "_filename": "Hedra.json",
+      "departments_using": []
+    },
+    {
+      "tool_id": "TOOL-AI-054",
+      "name": "Loom",
+      "_filename": "Loom.json",
+      "departments_using": []
+    },
+    {
+      "tool_id": "TOOL-AI-055",
+      "name": "v0.dev",
+      "_filename": "v0_dev.json",
+      "departments_using": []
+    },
+    {
+      "tool_id": "TOOL-AI-056",
+      "name": "oa-y.com",
+      "_filename": "oa_y.json",
+      "departments_using": []
+    },
+    {
+      "tool_id": "TOOL-AI-057",
+      "name": "Bubble.io",
+      "_filename": "Bubble_io.json",
+      "departments_using": []
+    },
+    {
+      "tool_id": "TOOL-AI-058",
+      "name": "Manus.im",
+      "_filename": "Manus_im.json",
+      "departments_using": []
+    },
+    {
+      "tool_id": "TOOL-AI-059",
+      "name": "Maestra.ai",
+      "_filename": "Maestra_ai.json",
+      "departments_using": []
+    },
+    {
+      "tool_id": "TOOL-AI-060",
+      "name": "Suno",
+      "_filename": "Suno.json",
+      "departments_using": ["Video"]
+    },
+    {
+      "tool_id": "TOOL-AI-061",
+      "name": "TurboScribe",
+      "_filename": "TurboScribe.json",
+      "departments_using": ["Video"]
+    },
+    {
+      "tool_id": "TOOL-AI-062",
+      "name": "Wispr Flow",
+      "_filename": "Wispr_Flow.json",
+      "departments_using": ["AI", "Dev", "Design", "LG", "Sales", "HR", "Finance", "Video"]
+    },
+    {
+      "tool_id": "TOOL-AI-063",
+      "name": "InVideo AI",
+      "_filename": "InVideo_AI.json",
+      "departments_using": ["Video"]
+    },
+    {
+      "tool_id": "TOOL-AI-064",
+      "name": "Pollo.ai",
+      "_filename": "Pollo_ai.json",
+      "departments_using": []
+    },
+    {
+      "tool_id": "TOOL-AI-065",
+      "name": "Vectal Pro",
+      "_filename": "Vectal_Pro.json",
+      "departments_using": []
+    },
+    {
+      "tool_id": "TOOL-AI-066",
+      "name": "OpenRouter",
+      "_filename": "OpenRouter.json",
+      "departments_using": []
+    },
+    {
+      "tool_id": "TOOL-AI-067",
+      "name": "Hailo",
+      "_filename": "Hailo.json",
+      "departments_using": []
+    },
+    {
+      "tool_id": "TOOL-AI-068",
+      "name": "Vozo AI",
+      "_filename": "Vozo_AI.json",
+      "departments_using": ["Video"]
+    },
+    {
+      "tool_id": "TOOL-AI-069",
+      "name": "WHALESWING",
+      "_filename": "WHALESWING.json",
+      "departments_using": []
+    },
+    {
+      "tool_id": "TOOL-AI-070",
+      "name": "Notion AI",
+      "_filename": "Notion_AI.json",
+      "departments_using": ["AI"]
+    },
+    {
+      "tool_id": "TOOL-AI-071",
+      "name": "Adobe Firefly",
+      "_filename": "Adobe_Firefly.json",
+      "departments_using": ["Design"]
+    },
+    {
+      "tool_id": "TOOL-AI-072",
+      "name": "Freepik",
+      "_filename": "Freepik.json",
+      "departments_using": ["Design"]
+    },
+    {
+      "tool_id": "TOOL-AI-073",
+      "name": "Envato Elements",
+      "_filename": "Envato_Elements.json",
+      "departments_using": ["Design"]
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+workflow_name: "Cross-Platform Content Distribution"
+workflow_type: "Linear"
+workflow_id: "WF-SMM-001"
+department: "MARKETING"
+priority: "High"
+estimated_duration: "3-4 hours per content piece"
+status: "Active"
+
+description: |
+  Maximize content reach by distributing primary content across multiple platforms in platform-appropriate formats.
+  Start with long-form content and systematically adapt it for each platform's requirements.
+
+steps:
+  - step_number: 1
+    name: "Create Long-Form Primary Content"
+    tool: "YouTube, Medium, or Behance"
+    responsibility: "Create long-form primary content"
+    placement: "Primary platform"
+    duration: "60-120 minutes"
+    dependencies: []
+    inputs:
+      - "Content topic and strategy"
+      - "Brand guidelines"
+      - "Target audience insights"
+    outputs:
+      - "YouTube Tutorial (10-45 min)"
+      - "Medium Article (2000+ words)"
+      - "Behance Project (comprehensive case study)"
+    success_criteria: "High-quality long-form content published on primary platform"
+
+  - step_number: 2
+    name: "Extract Key Segments for Short-Form"
+    tool: "Video editing tools / Content extraction"
+    responsibility: "Extract key segments"
+    placement: "Content editing workspace"
+    duration: "30-45 minutes"
+    dependencies: ["Step 1"]
+    inputs:
+      - "Long-form content from Step 1"
+    outputs:
+      - "5-10 key moments identified"
+      - "TikTok video clips (15-60 sec)"
+      - "Instagram Reels (15-90 sec)"
+      - "YouTube Shorts (60 sec max)"
+    success_criteria: "Platform-optimized short-form variations created"
+
+  - step_number: 3
+    name: "Create Visual Summaries"
+    tool: "Instagram, Pinterest"
+    responsibility: "Create visual summaries"
+    placement: "Design tools / Social platforms"
+    duration: "30-45 minutes"
+    dependencies: ["Step 1"]
+    inputs:
+      - "Key insights from long-form content"
+      - "Visual brand assets"
+    outputs:
+      - "Instagram Carousels (5-10 slides)"
+      - "Pinterest Infographics (1000x1500px)"
+    success_criteria: "Saveable visual content created for discovery platforms"
+
+  - step_number: 4
+    name: "Develop Quick Tips"
+    tool: "Twitter/X, LinkedIn"
+    responsibility: "Develop quick tips"
+    placement: "Professional social platforms"
+    duration: "20-30 minutes"
+    dependencies: ["Step 1"]
+    inputs:
+      - "Key insights from long-form content"
+    outputs:
+      - "Twitter threads (5-15 tweets)"
+      - "LinkedIn posts and articles"
+    success_criteria: "Concise professional content posted with proper context"
+
+  - step_number: 5
+    name: "Build Community Discussions"
+    tool: "Facebook Groups, Discord"
+    responsibility: "Build community discussions"
+    placement: "Community platforms"
+    duration: "15-20 minutes"
+    dependencies: ["Step 1", "Step 2", "Step 3", "Step 4"]
+    inputs:
+      - "All repurposed content"
+      - "Discussion questions"
+    outputs:
+      - "Facebook Group posts"
+      - "Community discussion threads"
+    success_criteria: "Community engagement initiated across platforms"
+
+performance_metrics:
+  total_reach: "Combined impressions across all platforms"
+  engagement_rate: "Likes + Comments + Shares / Total Reach"
+  content_efficiency: "Number of platform variations created from single source"
+  time_to_distribute: "Total time from creation to full distribution"
+  platform_coverage: "Number of platforms successfully reached"
+
+automation_opportunities:
+  - "Automated video clip extraction"
+  - "Scheduled posting across platforms"
+  - "Template-based visual content creation"
+  - "Cross-platform analytics aggregation"
+
+tags:
+  - marketing
+  - content_distribution
+  - multi_platform
+  - content_repurposing
+  - smm
+  - reach_maximization
+
+version: "1.0"
+created: "2025-11-13"
+last_updated: "2025-11-13"

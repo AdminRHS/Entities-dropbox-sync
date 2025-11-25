@@ -1,0 +1,14 @@
+{
+    "milestone_template_id": "Milestone-Template-028",
+    "name": "YouTube Tutorial Production Workflow",
+    "category": "Workflow Migration",
+    "department": "VIDEO",
+    "description": "Migrated from Workflows/YouTube_Tutorial_Production_Workflow.yaml. Milestone representing YouTube tutorial planning, production, and publishing.",
+    "phase": "Video Production",
+    "can_run_parallel": false,
+    "dependencies": [],
+    "task_templates": [],
+    "expected_reports": [],
+    "version": "1.0",
+    "source_workflow_file": "ENTITIES/TASK_MANAGERS/Workflows/YouTube_Tutorial_Production_Workflow.yaml"
+}

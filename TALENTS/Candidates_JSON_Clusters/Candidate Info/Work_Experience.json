@@ -1,0 +1,13 @@
+{
+  "template_name": "Work_Experience",
+  "description": "Work experience array - contains candidate's employment history",
+  "fields": {
+    "work_experiences": {
+      "type": "array",
+      "item_type": "unknown",
+      "description": "Array of: work_experiences",
+      "note": "This field contains an array of work experience objects. The structure may vary and should be validated against actual data."
+    }
+  }
+}
+

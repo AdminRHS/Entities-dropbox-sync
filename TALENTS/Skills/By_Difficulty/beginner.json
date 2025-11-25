@@ -1,0 +1,382 @@
+﻿[
+    {
+        "skill_id":  "SKL-001",
+        "skill_phrase":  "screened candidates via CRM",
+        "components":  {
+                           "result":  "screened",
+                           "action":  "screen",
+                           "object":  "candidates",
+                           "object_type":  "needed candidates, applied candidates, found candidates",
+                           "tool":  "CRM",
+                           "tool_category":  "Communication"
+                       },
+        "department":  "Managers (HR)",
+        "professions":  [
+                            "recruiter",
+                            "hr manager"
+                        ],
+        "difficulty_level":  "beginner",
+        "frequency":  "daily",
+        "time_estimate_minutes":  15,
+        "automation_potential":  "medium",
+        "related_skills":  [
+                               "SKL-002",
+                               "SKL-003"
+                           ],
+        "example_tasks":  [
+                              "Screen 20 candidate resumes using CRM filters",
+                              "Screen applied candidates for Frontend Developer position"
+                          ],
+        "training_resources":  [
+
+                               ]
+    },
+    {
+        "skill_id":  "SKL-003",
+        "skill_phrase":  "sent job offers via Gmail",
+        "components":  {
+                           "result":  "sent",
+                           "action":  "send",
+                           "object":  "job offers",
+                           "object_type":  "initial job offers, revised job offers",
+                           "tool":  "Gmail",
+                           "tool_category":  "Communication"
+                       },
+        "department":  "Managers (HR)",
+        "professions":  [
+                            "recruiter",
+                            "hr manager"
+                        ],
+        "difficulty_level":  "beginner",
+        "frequency":  "weekly",
+        "time_estimate_minutes":  10,
+        "automation_potential":  "medium",
+        "related_skills":  [
+                               "SKL-002",
+                               "SKL-005"
+                           ],
+        "example_tasks":  [
+                              "Send job offer email to selected candidate with salary details",
+                              "Send revised offer after negotiation"
+                          ],
+        "training_resources":  [
+
+                               ]
+    },
+    {
+        "skill_id":  "SKL-004",
+        "skill_phrase":  "updated candidate status in CRM",
+        "components":  {
+                           "result":  "updated",
+                           "action":  "update",
+                           "object":  "candidate status",
+                           "object_type":  "candidates database",
+                           "tool":  "CRM",
+                           "tool_category":  "Database"
+                       },
+        "department":  "Managers (HR)",
+        "professions":  [
+                            "recruiter",
+                            "hr manager"
+                        ],
+        "difficulty_level":  "beginner",
+        "frequency":  "daily",
+        "time_estimate_minutes":  5,
+        "automation_potential":  "high",
+        "related_skills":  [
+                               "SKL-001",
+                               "SKL-003"
+                           ],
+        "example_tasks":  [
+                              "Update candidate status from \u0027Interview\u0027 to \u0027Offer Extended\u0027",
+                              "Mark candidate as \u0027Hired\u0027 after contract signing"
+                          ],
+        "training_resources":  [
+
+                               ]
+    },
+    {
+        "skill_id":  "SKL-010",
+        "skill_phrase":  "sent cold emails via Gmail",
+        "components":  {
+                           "result":  "sent",
+                           "action":  "send",
+                           "object":  "cold emails",
+                           "object_type":  "first connection",
+                           "tool":  "Gmail",
+                           "tool_category":  "Communication"
+                       },
+        "department":  "Lead Generation",
+        "professions":  [
+                            "lead generator"
+                        ],
+        "difficulty_level":  "beginner",
+        "frequency":  "daily",
+        "time_estimate_minutes":  2,
+        "automation_potential":  "high",
+        "related_skills":  [
+                               "SKL-011",
+                               "SKL-012"
+                           ],
+        "example_tasks":  [
+                              "Send 50 personalized cold emails to IT companies in Germany",
+                              "Send introductory email to CTO with value proposition"
+                          ],
+        "training_resources":  [
+
+                               ]
+    },
+    {
+        "skill_id":  "SKL-012",
+        "skill_phrase":  "tracked email responses in CRM",
+        "components":  {
+                           "result":  "tracked",
+                           "action":  "track",
+                           "object":  "email responses",
+                           "object_type":  "email open rate",
+                           "tool":  "CRM",
+                           "tool_category":  "Database"
+                       },
+        "department":  "Lead Generation",
+        "professions":  [
+                            "lead generator"
+                        ],
+        "difficulty_level":  "beginner",
+        "frequency":  "daily",
+        "time_estimate_minutes":  10,
+        "automation_potential":  "high",
+        "related_skills":  [
+                               "SKL-010",
+                               "SKL-011"
+                           ],
+        "example_tasks":  [
+                              "Log email send date and track opens/clicks in CRM",
+                              "Update lead status based on email engagement"
+                          ],
+        "training_resources":  [
+
+                               ]
+    },
+    {
+        "skill_id":  "SKL-013",
+        "skill_phrase":  "searched companies on LinkedIn",
+        "components":  {
+                           "result":  "searched",
+                           "action":  "search",
+                           "object":  "companies",
+                           "object_type":  "company profiles",
+                           "tool":  "LinkedIn",
+                           "tool_category":  "Social Network"
+                       },
+        "department":  "Lead Generation",
+        "professions":  [
+                            "lead generator"
+                        ],
+        "difficulty_level":  "beginner",
+        "frequency":  "daily",
+        "time_estimate_minutes":  30,
+        "automation_potential":  "medium",
+        "related_skills":  [
+                               "SKL-014",
+                               "SKL-015"
+                           ],
+        "example_tasks":  [
+                              "Search for SaaS companies with 50-200 employees in Germany",
+                              "Find decision makers (CTOs) in target companies"
+                          ],
+        "training_resources":  [
+
+                               ]
+    },
+    {
+        "skill_id":  "SKL-021",
+        "skill_phrase":  "designed social media posts in Canva",
+        "components":  {
+                           "result":  "designed",
+                           "action":  "design",
+                           "object":  "social media posts",
+                           "object_type":  "Instagram post, LinkedIn banner",
+                           "tool":  "Canva",
+                           "tool_category":  "Design"
+                       },
+        "department":  "Design",
+        "professions":  [
+                            "graphic designer",
+                            "smm"
+                        ],
+        "difficulty_level":  "beginner",
+        "frequency":  "daily",
+        "time_estimate_minutes":  30,
+        "automation_potential":  "medium",
+        "related_skills":  [
+                               "SKL-020",
+                               "SKL-023"
+                           ],
+        "example_tasks":  [
+                              "Create 5 Instagram posts for Remote Helpers company page",
+                              "Design LinkedIn banner for employee announcement"
+                          ],
+        "training_resources":  [
+
+                               ]
+    },
+    {
+        "skill_id":  "SKL-022",
+        "skill_phrase":  "exported design files from Figma",
+        "components":  {
+                           "result":  "exported",
+                           "action":  "export",
+                           "object":  "design files",
+                           "object_type":  "PNG, SVG, PDF",
+                           "tool":  "Figma",
+                           "tool_category":  "Design"
+                       },
+        "department":  "Design",
+        "professions":  [
+                            "ui/ux designer",
+                            "graphic designer"
+                        ],
+        "difficulty_level":  "beginner",
+        "frequency":  "daily",
+        "time_estimate_minutes":  10,
+        "automation_potential":  "low",
+        "related_skills":  [
+                               "SKL-020",
+                               "SKL-024"
+                           ],
+        "example_tasks":  [
+                              "Export mockups as PNG for client review",
+                              "Export design specs as PDF for developer handoff"
+                          ],
+        "training_resources":  [
+
+                               ]
+    },
+    {
+        "skill_id":  "SKL-024",
+        "skill_phrase":  "shared design previews via Discord",
+        "components":  {
+                           "result":  "shared",
+                           "action":  "share",
+                           "object":  "design previews",
+                           "object_type":  "Figma links",
+                           "tool":  "Discord",
+                           "tool_category":  "Communication"
+                       },
+        "department":  "Design",
+        "professions":  [
+                            "ui/ux designer",
+                            "graphic designer"
+                        ],
+        "difficulty_level":  "beginner",
+        "frequency":  "daily",
+        "time_estimate_minutes":  5,
+        "automation_potential":  "low",
+        "related_skills":  [
+                               "SKL-020",
+                               "SKL-022"
+                           ],
+        "example_tasks":  [
+                              "Share Figma link with client for feedback in Discord",
+                              "Post design update in team channel"
+                          ],
+        "training_resources":  [
+
+                               ]
+    },
+    {
+        "skill_id":  "SKL-032",
+        "skill_phrase":  "managed code via GitHub",
+        "components":  {
+                           "result":  "managed",
+                           "action":  "manage",
+                           "object":  "code",
+                           "object_type":  "commits, branches, pull requests",
+                           "tool":  "GitHub",
+                           "tool_category":  "Version Control"
+                       },
+        "department":  "Developers",
+        "professions":  [
+                            "frontend developer",
+                            "backend developer",
+                            "full stack developer"
+                        ],
+        "difficulty_level":  "beginner",
+        "frequency":  "daily",
+        "time_estimate_minutes":  20,
+        "automation_potential":  "medium",
+        "related_skills":  [
+                               "SKL-030",
+                               "SKL-031"
+                           ],
+        "example_tasks":  [
+                              "Create feature branch and commit code changes",
+                              "Open pull request and request code review"
+                          ],
+        "training_resources":  [
+
+                               ]
+    },
+    {
+        "skill_id":  "SKL-042",
+        "skill_phrase":  "tracked deals in CRM",
+        "components":  {
+                           "result":  "tracked",
+                           "action":  "track",
+                           "object":  "deals",
+                           "object_type":  "hot leads, interested leads, clients",
+                           "tool":  "CRM",
+                           "tool_category":  "Database"
+                       },
+        "department":  "Sales",
+        "professions":  [
+                            "sales manager"
+                        ],
+        "difficulty_level":  "beginner",
+        "frequency":  "daily",
+        "time_estimate_minutes":  15,
+        "automation_potential":  "high",
+        "related_skills":  [
+                               "SKL-040",
+                               "SKL-041"
+                           ],
+        "example_tasks":  [
+                              "Update deal stage from \u0027Proposal Sent\u0027 to \u0027Negotiation\u0027",
+                              "Log client communication and next steps in CRM"
+                          ],
+        "training_resources":  [
+
+                               ]
+    },
+    {
+        "skill_id":  "SKL-043",
+        "skill_phrase":  "sent contracts via DocuSign",
+        "components":  {
+                           "result":  "sent",
+                           "action":  "send",
+                           "object":  "contracts",
+                           "object_type":  "clients agreements, full-time agreement",
+                           "tool":  "DocuSign",
+                           "tool_category":  "Document"
+                       },
+        "department":  "Sales",
+        "professions":  [
+                            "sales manager"
+                        ],
+        "difficulty_level":  "beginner",
+        "frequency":  "weekly",
+        "time_estimate_minutes":  20,
+        "automation_potential":  "medium",
+        "related_skills":  [
+                               "SKL-041",
+                               "SKL-044"
+                           ],
+        "example_tasks":  [
+                              "Send service agreement to client for e-signature",
+                              "Follow up on pending contract signature"
+                          ],
+        "training_resources":  [
+
+                               ]
+    }
+]

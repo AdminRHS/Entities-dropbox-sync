@@ -1,0 +1,668 @@
+﻿{
+  "meta": {
+    "entity": "PROMPTS",
+    "iso_code": "PMT",
+    "total_prompts": 73,
+    "last_updated": "2025-11-19T05:20:42.432915",
+    "version": "2.0"
+  },
+  "prompts": [
+    {
+      "id": "PMT-001",
+      "name": "Main Prompt v4",
+      "category": "CORE",
+      "department": "Multi",
+      "path": "Core/PMT-001_Main_Prompt_v4.md",
+      "status": "Active",
+      "version": "4.0"
+    },
+    {
+      "id": "PMT-002",
+      "name": "Main Prompt v6 Draft",
+      "category": "CORE",
+      "department": "Multi",
+      "path": "Core/PMT-002_Main_Prompt_v6_DRAFT.md",
+      "status": "Draft",
+      "version": "6.0"
+    },
+    {
+      "id": "PMT-003",
+      "name": "Create Main Prompt v5",
+      "category": "CORE",
+      "department": "Multi",
+      "path": "Core/PMT-003_Create_Main_Prompt_v5.md",
+      "status": "Utility",
+      "version": "5.0"
+    },
+    {
+      "id": "PMT-004",
+      "name": "Video Transcription v4.1",
+      "category": "VIDEO",
+      "department": "VID",
+      "path": "PROMPTS/Transcription/PMT-004_Video_Transcription_v4.1.md",
+      "status": "Active",
+      "version": "4.1"
+    },
+    {
+      "id": "PMT-005",
+      "name": "Video Naming Alternatives",
+      "category": "VIDEO",
+      "department": "VID",
+      "path": "PROMPTS/Transcription/PMT-005_Video_Naming_Alternatives.md",
+      "status": "Active",
+      "version": "1.0"
+    },
+    {
+      "id": "PMT-006",
+      "name": "Video Analysis",
+      "category": "VIDEO",
+      "department": "VID",
+      "path": "PROMPTS/Analysis/PMT-006_Video_Analysis.md",
+      "status": "Active",
+      "version": "1.0"
+    },
+    {
+      "id": "PMT-007",
+      "name": "Objects Library Extraction",
+      "category": "VIDEO",
+      "department": "VID",
+      "path": "PROMPTS/Analysis/PMT-007_Objects_Library_Extraction.md",
+      "status": "Active",
+      "version": "1.0"
+    },
+    {
+      "id": "PMT-008",
+      "name": "Video Analysis Improvements",
+      "category": "VIDEO",
+      "department": "VID",
+      "path": "PROMPTS/Analysis/PMT-008_Video_Analysis_Improvements.md",
+      "status": "Active",
+      "version": "1.0"
+    },
+    {
+      "id": "PMT-009",
+      "name": "Taxonomy Integration",
+      "category": "VIDEO",
+      "department": "VID",
+      "path": "PROMPTS/Taxonomy_Integration/PMT-009_Taxonomy_Integration.md",
+      "status": "Active",
+      "version": "1.0"
+    },
+    {
+      "id": "PMT-010",
+      "name": "Complete Workflow Full",
+      "category": "VIDEO",
+      "department": "VID",
+      "path": "PROMPTS/Workflows/PMT-010_Complete_Workflow_Full.md",
+      "status": "Active",
+      "version": "1.0"
+    },
+    {
+      "id": "PMT-011",
+      "name": "Complete Workflow Short",
+      "category": "VIDEO",
+      "department": "VID",
+      "path": "PROMPTS/Workflows/PMT-011_Complete_Workflow_Short.md",
+      "status": "Active",
+      "version": "1.0"
+    },
+    {
+      "id": "PMT-012",
+      "name": "Transcript Processing Workflow",
+      "category": "VIDEO",
+      "department": "VID",
+      "path": "PROMPTS/Workflows/PMT-012_Transcript_Processing_Workflow.md",
+      "status": "Active",
+      "version": "1.0"
+    },
+    {
+      "id": "PMT-013",
+      "name": "Merge Transcriptions Research",
+      "category": "VIDEO",
+      "department": "VID",
+      "path": "WORKFLOWS/Video_Processing/PMT-013_Merge_Transcriptions_Research.md",
+      "status": "Active",
+      "version": "1.0"
+    },
+    {
+      "id": "PMT-014",
+      "name": "Build Taxonomy ID System",
+      "category": "TAXONOMY",
+      "department": "AID",
+      "path": "Taxonomy/PMT-014_Build_Taxonomy_ID_System.md",
+      "status": "Active",
+      "version": "1.0"
+    },
+    {
+      "id": "PMT-015",
+      "name": "Optimize Video Transcription",
+      "category": "TAXONOMY",
+      "department": "VID",
+      "path": "Taxonomy/PMT-015_Optimize_Video_Transcription.md",
+      "status": "Active",
+      "version": "1.0"
+    },
+    {
+      "id": "PMT-016",
+      "name": "Build LIBRARIES Taxonomy",
+      "category": "TAXONOMY",
+      "department": "AID",
+      "path": "Taxonomy/PMT-016_Build_LIBRARIES_Taxonomy.md",
+      "status": "Active",
+      "version": "1.0"
+    },
+    {
+      "id": "PMT-017",
+      "name": "Initial ID List",
+      "category": "TAXONOMY",
+      "department": "AID",
+      "path": "Taxonomy/PMT-017_Initial_ID_List.md",
+      "status": "Active",
+      "version": "1.0"
+    },
+    {
+      "id": "PMT-018",
+      "name": "Employee Profile Schema",
+      "category": "TAXONOMY",
+      "department": "HRM",
+      "path": "Taxonomy/PMT-018_Employee_Profile_Schema.md",
+      "status": "Active",
+      "version": "1.0"
+    },
+    {
+      "id": "PMT-019",
+      "name": "Restructure Employee Profile",
+      "category": "TAXONOMY",
+      "department": "HRM",
+      "path": "Taxonomy/PMT-019_Restructure_Employee_Profile.md",
+      "status": "Active",
+      "version": "1.0"
+    },
+    {
+      "id": "PMT-020",
+      "name": "Taxonomy Entities Collection",
+      "category": "TAXONOMY",
+      "department": "AID",
+      "path": "Taxonomy/PMT-020_Taxonomy_Entities_Collection.md",
+      "status": "Active",
+      "version": "1.0"
+    },
+    {
+      "id": "PMT-021",
+      "name": "Ecosystem Analysis Overview",
+      "category": "SYSTEM",
+      "department": "AID",
+      "path": "SYSTEM/System_Analysis/PMT-021_Ecosystem_Analysis_Overview.md",
+      "status": "Active",
+      "version": "1.0"
+    },
+    {
+      "id": "PMT-022",
+      "name": "Data Inventory",
+      "category": "SYSTEM",
+      "department": "AID",
+      "path": "SYSTEM/System_Analysis/PMT-022_Data_Inventory.md",
+      "status": "Active",
+      "version": "1.0"
+    },
+    {
+      "id": "PMT-023",
+      "name": "Schema Validation",
+      "category": "SYSTEM",
+      "department": "AID",
+      "path": "SYSTEM/System_Analysis/PMT-023_Schema_Validation.md",
+      "status": "Active",
+      "version": "1.0"
+    },
+    {
+      "id": "PMT-024",
+      "name": "Content Analysis",
+      "category": "SYSTEM",
+      "department": "AID",
+      "path": "SYSTEM/System_Analysis/PMT-024_Content_Analysis.md",
+      "status": "Active",
+      "version": "1.0"
+    },
+    {
+      "id": "PMT-025",
+      "name": "Relationship Validation",
+      "category": "SYSTEM",
+      "department": "AID",
+      "path": "SYSTEM/System_Analysis/PMT-025_Relationship_Validation.md",
+      "status": "Active",
+      "version": "1.0"
+    },
+    {
+      "id": "PMT-026",
+      "name": "Synthesis Recommendations",
+      "category": "SYSTEM",
+      "department": "AID",
+      "path": "SYSTEM/System_Analysis/PMT-026_Synthesis_Recommendations.md",
+      "status": "Active",
+      "version": "1.0"
+    },
+    {
+      "id": "PMT-027",
+      "name": "Data Consistency",
+      "category": "SYSTEM",
+      "department": "AID",
+      "path": "SYSTEM/PMT-027_Data_Consistency.md",
+      "status": "Active",
+      "version": "1.0"
+    },
+    {
+      "id": "PMT-028",
+      "name": "Folder Reorganization",
+      "category": "SYSTEM",
+      "department": "AID",
+      "path": "SYSTEM/PMT-028_Folder_Reorganization.md",
+      "status": "Active",
+      "version": "1.0"
+    },
+    {
+      "id": "PMT-029",
+      "name": "System Health Review",
+      "category": "SYSTEM",
+      "department": "AID",
+      "path": "SYSTEM/PMT-029_System_Health_Review.md",
+      "status": "Active",
+      "version": "1.0"
+    },
+    {
+      "id": "PMT-030",
+      "name": "Architecture Learning Guide",
+      "category": "SYSTEM",
+      "department": "AID",
+      "path": "SYSTEM/Architecture_Guides/PMT-030_Architecture_Learning_Guide.md",
+      "status": "Active",
+      "version": "1.0"
+    },
+    {
+      "id": "PMT-031",
+      "name": "Architecture Merge Planning",
+      "category": "SYSTEM",
+      "department": "AID",
+      "path": "SYSTEM/Architecture_Guides/PMT-031_Architecture_Merge_Planning.md",
+      "status": "Active",
+      "version": "1.0"
+    },
+    {
+      "id": "PMT-032",
+      "name": "Daily Report Collection v2.1",
+      "category": "REPORTS",
+      "department": "Multi",
+      "path": "DEPARTMENTS/Daily_Reports/PMT-032_Daily_Report_Collection_v2.1.md",
+      "status": "Active",
+      "version": "2.1"
+    },
+    {
+      "id": "PMT-033",
+      "name": "AI Daily Report v2.1",
+      "category": "REPORTS",
+      "department": "AID",
+      "path": "DEPARTMENTS/Daily_Reports/Department_Prompts/PMT-033_AI_Daily_Report_v2.1.md",
+      "status": "Active",
+      "version": "2.1"
+    },
+    {
+      "id": "PMT-034",
+      "name": "Content Daily Report v2.1",
+      "category": "REPORTS",
+      "department": "CNT",
+      "path": "DEPARTMENTS/Daily_Reports/Department_Prompts/PMT-034_Content_Daily_Report_v2.1.md",
+      "status": "Active",
+      "version": "2.1"
+    },
+    {
+      "id": "PMT-035",
+      "name": "Design Daily Report v2.1",
+      "category": "REPORTS",
+      "department": "DGN",
+      "path": "DEPARTMENTS/Daily_Reports/Department_Prompts/PMT-035_Design_Daily_Report_v2.1.md",
+      "status": "Active",
+      "version": "2.1"
+    },
+    {
+      "id": "PMT-036",
+      "name": "Dev Daily Report v2.1",
+      "category": "REPORTS",
+      "department": "DEV",
+      "path": "DEPARTMENTS/Daily_Reports/Department_Prompts/PMT-036_Dev_Daily_Report_v2.1.md",
+      "status": "Active",
+      "version": "2.1"
+    },
+    {
+      "id": "PMT-037",
+      "name": "Finance Daily Report v2.1",
+      "category": "REPORTS",
+      "department": "FNC",
+      "path": "DEPARTMENTS/Daily_Reports/Department_Prompts/PMT-037_Finance_Daily_Report_v2.1.md",
+      "status": "Active",
+      "version": "2.1"
+    },
+    {
+      "id": "PMT-038",
+      "name": "HR Daily Report v2.1",
+      "category": "REPORTS",
+      "department": "HRM",
+      "path": "DEPARTMENTS/Daily_Reports/Department_Prompts/PMT-038_HR_Daily_Report_v2.1.md",
+      "status": "Active",
+      "version": "2.1"
+    },
+    {
+      "id": "PMT-039",
+      "name": "LG Daily Report v2.1",
+      "category": "REPORTS",
+      "department": "LGN",
+      "path": "DEPARTMENTS/Daily_Reports/Department_Prompts/PMT-039_LG_Daily_Report_v2.1.md",
+      "status": "Active",
+      "version": "2.1"
+    },
+    {
+      "id": "PMT-040",
+      "name": "Marketing Daily Report v2.1",
+      "category": "REPORTS",
+      "department": "MKT",
+      "path": "DEPARTMENTS/Daily_Reports/Department_Prompts/PMT-040_Marketing_Daily_Report_v2.1.md",
+      "status": "Active",
+      "version": "2.1"
+    },
+    {
+      "id": "PMT-041",
+      "name": "Sales Daily Report v2.1",
+      "category": "REPORTS",
+      "department": "SLS",
+      "path": "DEPARTMENTS/Daily_Reports/Department_Prompts/PMT-041_Sales_Daily_Report_v2.1.md",
+      "status": "Active",
+      "version": "2.1"
+    },
+    {
+      "id": "PMT-042",
+      "name": "SMM Daily Report v2.1",
+      "category": "REPORTS",
+      "department": "SMM",
+      "path": "DEPARTMENTS/Daily_Reports/Department_Prompts/PMT-042_SMM_Daily_Report_v2.1.md",
+      "status": "Active",
+      "version": "2.1"
+    },
+    {
+      "id": "PMT-043",
+      "name": "Video Daily Report v2.1",
+      "category": "REPORTS",
+      "department": "VID",
+      "path": "DEPARTMENTS/Daily_Reports/Department_Prompts/PMT-043_Video_Daily_Report_v2.1.md",
+      "status": "Active",
+      "version": "2.1"
+    },
+    {
+      "id": "PMT-044",
+      "name": "Sales Department Research",
+      "category": "RESEARCH",
+      "department": "SLS",
+      "path": "RESEARCH/Research_Prompts/PMT-044_Sales_Department_Research.md",
+      "status": "Active",
+      "version": "1.0"
+    },
+    {
+      "id": "PMT-045",
+      "name": "SMM Document Processing",
+      "category": "RESEARCH",
+      "department": "SMM",
+      "path": "RESEARCH/Research_Prompts/PMT-045_SMM_Document_Processing.md",
+      "status": "Active",
+      "version": "1.0"
+    },
+    {
+      "id": "PMT-046",
+      "name": "VSCode Agent HQ Research",
+      "category": "RESEARCH",
+      "department": "DEV",
+      "path": "RESEARCH/Research_Prompts/PMT-046_VSCode_Agent_HQ_Research.md",
+      "status": "Active",
+      "version": "1.0"
+    },
+    {
+      "id": "PMT-047",
+      "name": "YouTube AI HR Tutorials",
+      "category": "RESEARCH",
+      "department": "HRM",
+      "path": "RESEARCH/Research_Prompts/PMT-047_YouTube_AI_HR_Tutorials.md",
+      "status": "Active",
+      "version": "1.0"
+    },
+    {
+      "id": "PMT-048",
+      "name": "YouTube AI Tools Daily",
+      "category": "RESEARCH",
+      "department": "AID",
+      "path": "RESEARCH/Research_Prompts/PMT-048_YouTube_AI_Tools_Daily.md",
+      "status": "Active",
+      "version": "1.0"
+    },
+    {
+      "id": "PMT-049",
+      "name": "YouTube HR Automation",
+      "category": "RESEARCH",
+      "department": "HRM",
+      "path": "RESEARCH/Research_Prompts/PMT-049_YouTube_HR_Automation.md",
+      "status": "Active",
+      "version": "1.0"
+    },
+    {
+      "id": "PMT-050",
+      "name": "YouTube Remote Helpers",
+      "category": "RESEARCH",
+      "department": "Multi",
+      "path": "RESEARCH/Research_Prompts/PMT-050_YouTube_Remote_Helpers.md",
+      "status": "Active",
+      "version": "1.0"
+    },
+    {
+      "id": "PMT-051",
+      "name": "Department Research Integration",
+      "category": "RESEARCH",
+      "department": "Multi",
+      "path": "RESEARCH/PMT-051_Department_Research_Integration.md",
+      "status": "Active",
+      "version": "1.0"
+    },
+    {
+      "id": "PMT-052",
+      "name": "VSCode AI Extensions",
+      "category": "RESEARCH",
+      "department": "DEV",
+      "path": "RESEARCH/PMT-052_VSCode_AI_Extensions.md",
+      "status": "Active",
+      "version": "1.0"
+    },
+    {
+      "id": "PMT-053",
+      "name": "CV Parser v1",
+      "category": "HR",
+      "department": "HRM",
+      "path": "DEPARTMENTS/HR_Operations/PMT-053_CV_Parser_v1.md",
+      "status": "Active",
+      "version": "1.0"
+    },
+    {
+      "id": "PMT-054",
+      "name": "CRM Data Entry",
+      "category": "HR",
+      "department": "HRM",
+      "path": "DEPARTMENTS/HR_Operations/PMT-054_CRM_Data_Entry.md",
+      "status": "Active",
+      "version": "1.0"
+    },
+    {
+      "id": "PMT-055",
+      "name": "Communication Templates",
+      "category": "HR",
+      "department": "HRM",
+      "path": "DEPARTMENTS/HR_Operations/PMT-055_Communication_Templates.md",
+      "status": "Active",
+      "version": "1.0"
+    },
+    {
+      "id": "PMT-056",
+      "name": "Interview Conductor",
+      "category": "HR",
+      "department": "HRM",
+      "path": "DEPARTMENTS/HR_Operations/PMT-056_Interview_Conductor.md",
+      "status": "Active",
+      "version": "1.0"
+    },
+    {
+      "id": "PMT-057",
+      "name": "Job Sites Research",
+      "category": "HR",
+      "department": "HRM",
+      "path": "DEPARTMENTS/HR_Operations/PMT-057_Job_Sites_Research.md",
+      "status": "Active",
+      "version": "1.0"
+    },
+    {
+      "id": "PMT-058",
+      "name": "Call Organizer v4",
+      "category": "WORKFLOW",
+      "department": "Multi",
+      "path": "WORKFLOWS/Operational_Workflows/PMT-058_Call_Organizer_v4.md",
+      "status": "Active",
+      "version": "4.0"
+    },
+    {
+      "id": "PMT-059",
+      "name": "Document Finished Project",
+      "category": "WORKFLOW",
+      "department": "Multi",
+      "path": "WORKFLOWS/Operational_Workflows/PMT-059_Document_Finished_Project.md",
+      "status": "Active",
+      "version": "1.0"
+    },
+    {
+      "id": "PMT-060",
+      "name": "Products Integration",
+      "category": "LIBRARY",
+      "department": "AID",
+      "path": "WORKFLOWS/Library_Processing/PMT-060_Products_Integration.md",
+      "status": "Active",
+      "version": "1.0"
+    },
+    {
+      "id": "PMT-061",
+      "name": "Task Manager Entity Filling",
+      "category": "LIBRARY",
+      "department": "AID",
+      "path": "WORKFLOWS/Library_Processing/PMT-061_Task_Manager_Entity_Filling.md",
+      "status": "Active",
+      "version": "1.0"
+    },
+    {
+      "id": "PMT-062",
+      "name": "Tools Collection Matching",
+      "category": "LIBRARY",
+      "department": "AID",
+      "path": "WORKFLOWS/Library_Processing/PMT-062_Tools_Collection_Matching.md",
+      "status": "Active",
+      "version": "1.0"
+    },
+    {
+      "id": "PMT-063",
+      "name": "Account Creation Validation",
+      "category": "ACCOUNT",
+      "department": "OPS",
+      "path": "WORKFLOWS/Account_Management/PMT-063_Account_Creation_Validation.md",
+      "status": "Active",
+      "version": "1.0"
+    },
+    {
+      "id": "PMT-064",
+      "name": "Account Security Audit",
+      "category": "ACCOUNT",
+      "department": "OPS",
+      "path": "WORKFLOWS/Account_Management/PMT-064_Account_Security_Audit.md",
+      "status": "Active",
+      "version": "1.0"
+    },
+    {
+      "id": "PMT-065",
+      "name": "Subscription Renewal Alert",
+      "category": "ACCOUNT",
+      "department": "OPS",
+      "path": "WORKFLOWS/Account_Management/PMT-065_Subscription_Renewal_Alert.md",
+      "status": "Active",
+      "version": "1.0"
+    },
+    {
+      "id": "PMT-066",
+      "name": "Script Copy Dailies",
+      "category": "AUTOMATION",
+      "department": "AID",
+      "path": "SYSTEM/Automation/PMT-066_Script_Copy_Dailies.md",
+      "status": "Active",
+      "version": "1.0"
+    },
+    {
+      "id": "PMT-067",
+      "name": "Rules Automation",
+      "category": "AUTOMATION",
+      "department": "AID",
+      "path": "SYSTEM/Automation/PMT-067_Rules_Automation.md",
+      "status": "Active",
+      "version": "1.0"
+    },
+    {
+      "id": "PMT-068",
+      "name": "Version Control Automation",
+      "category": "AUTOMATION",
+      "department": "DEV",
+      "path": "SYSTEM/Automation/PMT-068_Version_Control_Automation.md",
+      "status": "Active",
+      "version": "1.0"
+    },
+    {
+      "id": "PMT-069",
+      "name": "Version Control Main",
+      "category": "AUTOMATION",
+      "department": "DEV",
+      "path": "SYSTEM/Automation/PMT-069_Version_Control_Main.md",
+      "status": "Active",
+      "version": "1.0"
+    },
+    {
+      "id": "PMT-070",
+      "name": "Entity Identification v1",
+      "category": "UPDATES",
+      "department": "Multi",
+      "path": "UTILITIES/Daily_Updates/PMT-070_Entity_Identification_v1.md",
+      "status": "Active",
+      "version": "1.0"
+    },
+    {
+      "id": "PMT-071",
+      "name": "Actions Library Extraction",
+      "category": "VIDEO",
+      "department": "VID",
+      "path": "PROMPTS/Analysis/PMT-071_Actions_Library_Extraction.md",
+      "status": "Active",
+      "version": "1.0"
+    },
+    {
+      "id": "PMT-072",
+      "name": "PROMPTS Critical Fixes",
+      "category": "SYSTEM",
+      "department": "AID",
+      "path": "SYSTEM/PMT-072_PROMPTS_Critical_Fixes.md",
+      "status": "Active",
+      "version": "1.0"
+    },
+    {
+      "id": "PMT-073",
+      "name": "Create Main Prompt v6",
+      "category": "CORE",
+      "department": "Multi",
+      "path": "Core/PMT-073_Create_Main_Prompt_v6.md",
+      "status": "Active",
+      "version": "1.0"
+    }
+  ]
+}

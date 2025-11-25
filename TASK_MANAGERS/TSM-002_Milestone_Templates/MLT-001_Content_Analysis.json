@@ -1,0 +1,40 @@
+{
+  "milestone_template_id": "Milestone-Template-001",
+  "name": "Content Analysis",
+  "category": "Analysis",
+  "department": "AI",
+  "description": "Detect duplicate content, extract terminology, and assess documentation completeness",
+  "estimated_hours": 4,
+  "phase": 3,
+  "can_run_parallel": true,
+  "dependencies": [],
+  "task_templates": [
+    {
+      "task_template_id": "TASK-TEMPLATE-ANALYSIS-007",
+      "task_template_name": "Duplicate Content Detection"
+    },
+    {
+      "task_template_id": "TASK-TEMPLATE-ANALYSIS-008",
+      "task_template_name": "Terminology Extraction"
+    },
+    {
+      "task_template_id": "TASK-TEMPLATE-ANALYSIS-009",
+      "task_template_name": "Documentation Completeness"
+    }
+  ],
+  "expected_reports": [
+    {
+      "report_id": "REP-004",
+      "report_name": "Duplicate Content Report"
+    },
+    {
+      "report_id": "REP-005",
+      "report_name": "Terminology Extraction Report"
+    },
+    {
+      "report_id": "REP-006",
+      "report_name": "terminology_standards.json"
+    }
+  ],
+  "version": "1.0"
+}

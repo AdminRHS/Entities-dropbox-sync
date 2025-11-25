@@ -1,0 +1,62 @@
+{
+  "entity_type": "LIBRARIES",
+  "sub_entity": "Profession",
+  "profession_name": "content_curator",
+  "full_title": "Content Curator",
+  "department": "MKT",
+  "description": "Content curation specialist researching, filtering, and synthesizing information from various sources to create valuable content collections using AI tools for analysis and summarization",
+  "created": "2025-11-24",
+  "updated": "2025-11-24",
+  "skills": [
+    "SKL-062",
+    "SKL-063"
+  ],
+  "skill_details": {
+    "SKL-062": {
+      "skill_phrase": "engineered prompts for AI content generation via Google AI Studio",
+      "proficiency_level": "intermediate",
+      "frequency": "daily"
+    },
+    "SKL-063": {
+      "skill_phrase": "synthesized information from AI-generated content via Google AI Studio",
+      "proficiency_level": "advanced",
+      "frequency": "daily"
+    }
+  },
+  "tools": [
+    "TOOL-AI-222"
+  ],
+  "tool_details": {
+    "TOOL-AI-222": "Google AI Studio - PRIMARY tool (daily use) - Video summarization and content analysis"
+  },
+  "workflows": [
+    "WRF-022"
+  ],
+  "workflow_details": {
+    "WRF-022": "Summarize YouTube Video - Quickly extract key insights from videos for curation"
+  },
+  "objects": [
+    "OBJ-SMM-016"
+  ],
+  "object_details": {
+    "OBJ-SMM-016": "Video Summary - Structured summaries of educational content"
+  },
+  "actions": [
+    "curate",
+    "summarize",
+    "synthesize",
+    "extract",
+    "review",
+    "research",
+    "analyze",
+    "organize"
+  ],
+  "typical_tasks": [
+    "Summarize YouTube tutorials for content libraries",
+    "Extract key insights from conference talks and interviews",
+    "Curate educational content for newsletters",
+    "Research trending topics without watching full videos",
+    "Create content digests for blog posts and articles"
+  ],
+  "source": "Video_023"
+}

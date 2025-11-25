@@ -1,0 +1,172 @@
+{
+  "entity_type": "LIBRARIES",
+  "sub_entity": "Tool",
+  "tool_id": "TOOL-DEV-038",
+  "name": "Apify",
+  "vendor": "Apify Technologies",
+  "category": "Development Tools / Web Scraping Platform",
+  "purpose": "Platform hosting pre-built web scrapers (Actors) for various sites and data sources",
+  "description": "Cloud-based web scraping and automation platform that hosts hundreds of pre-built scrapers called 'Actors'. Provides ready-to-use scrapers for Google SERP, Google Maps, LinkedIn Jobs, Instagram, TikTok, Twitter, and many other platforms. Used extensively in lead generation workflows for extracting contact data from multiple sources with varying enrichment success rates (20-100% depending on source).",
+  "skill_level_required": "Beginner to Intermediate",
+  "cost_structure": "Credit-based pricing, free tier available, paid plans from $49/month",
+  "platform_compatibility": [
+    "Web",
+    "API",
+    "Cloud-based"
+  ],
+  "integration_capabilities": [
+    "300+ pre-built Actors (scrapers)",
+    "REST API",
+    "Webhooks",
+    "n8n integration",
+    "Make.com integration",
+    "Zapier integration",
+    "Google Sheets export",
+    "CSV/JSON output formats",
+    "Scheduled runs",
+    "Proxy rotation"
+  ],
+  "documentation_url": "https://apify.com",
+  "actual_remote_helpers_usage": {
+    "primary_use": "Multi-Platform Web Scraping for Lead Generation",
+    "users": [
+      "Lead Generation Specialist",
+      "Backend Developer",
+      "Growth Hacker",
+      "Data Analyst",
+      "Sales Operations"
+    ],
+    "use_cases": [
+      "scrape Google search results for domains",
+      "extract Google Maps business data",
+      "scrape LinkedIn Jobs for intent-based leads",
+      "extract Instagram profiles",
+      "scrape TikTok creator data",
+      "extract Twitter/X profiles",
+      "automate multi-source lead collection",
+      "build custom scraping workflows"
+    ],
+    "workflows": [
+      "Google SERP Scraping (Apify → Anymailfinder → 40-60% enrichment)",
+      "Google Maps Scraping (Apify → Anymailfinder → 20-32% enrichment)",
+      "Social Media Scraping (Apify Instagram/TikTok → Anymailfinder → 20-40% enrichment)",
+      "LinkedIn Jobs Scraping (Apify → Anymailfinder → 80-100% enrichment)",
+      "AI Website Content Extraction (Apify → n8n → OpenAI → Anymailfinder)"
+    ],
+    "typical_workflow_pattern": [
+      {
+        "task": "Google SERP Domain Scraping",
+        "steps": [
+          "Define search queries (e.g., 'AI agencies in California')",
+          "Configure Apify Google SERP Scraper",
+          "Run scraper to extract domains from results",
+          "Download CSV with domains",
+          "Import to Anymailfinder for email enrichment",
+          "Achieve 40-60% enrichment rate"
+        ],
+        "complexity": "Medium",
+        "time_estimate": "20-30 minutes setup, execution automated",
+        "success_rate": "40-60% email enrichment"
+      },
+      {
+        "task": "LinkedIn Jobs Intent-Based Lead Generation",
+        "steps": [
+          "Search LinkedIn Jobs for relevant positions (e.g., 'hiring SDR')",
+          "Configure Apify LinkedIn Jobs Scraper",
+          "Extract companies actively hiring",
+          "Scrape company domains and job posters",
+          "Feed to Anymailfinder",
+          "Achieve 80-100% enrichment (intent-based leads)"
+        ],
+        "complexity": "Medium",
+        "time_estimate": "25-35 minutes",
+        "success_rate": "80-100% enrichment (highest for Apify methods)"
+      }
+    ],
+    "integration_with_other_tools": [
+      "Anymailfinder (primary downstream enrichment)",
+      "n8n (workflow orchestration)",
+      "Make.com (alternative automation)",
+      "OpenAI GPT-5 (AI parsing for unstructured data)",
+      "Google Sheets (data management)",
+      "Zapier (integration platform)"
+    ]
+  },
+  "strengths": [
+    "300+ pre-built scrapers (no coding required)",
+    "Cloud-based (no infrastructure needed)",
+    "Handles proxy rotation automatically",
+    "Scales to large volumes",
+    "Webhook support for automation",
+    "API access for integration",
+    "Free tier for testing",
+    "Active marketplace with community Actors",
+    "Reliable and maintained scrapers"
+  ],
+  "limitations": [
+    "Credit costs can add up for large volumes",
+    "Some scrapers may break when sites change",
+    "Rate limits on free tier",
+    "Variable success rates by platform (20-100%)",
+    "Requires Anymailfinder for email enrichment"
+  ],
+  "popular_actors": [
+    {
+      "name": "Google SERP Scraper",
+      "tool_id": "TOOL-DEV-039",
+      "enrichment_rate": "40-60%",
+      "use_case": "Domain discovery from search results"
+    },
+    {
+      "name": "Google Maps Scraper",
+      "tool_id": "TOOL-DEV-040",
+      "enrichment_rate": "20-32%",
+      "use_case": "Local business lead generation"
+    },
+    {
+      "name": "LinkedIn Jobs Scraper",
+      "tool_id": "TOOL-DEV-041",
+      "enrichment_rate": "80-100%",
+      "use_case": "Intent-based lead generation"
+    },
+    {
+      "name": "Instagram Scraper",
+      "tool_id": "TOOL-DEV-042",
+      "enrichment_rate": "20-40%",
+      "use_case": "Influencer/creator outreach"
+    },
+    {
+      "name": "TikTok Scraper",
+      "tool_id": "TOOL-DEV-043",
+      "enrichment_rate": "20-40%",
+      "use_case": "Creator outreach"
+    }
+  ],
+  "success_rates_by_actor": {
+    "LinkedIn_Jobs_Scraper": "80-100% (intent-based, highest)",
+    "Google_SERP_Scraper": "40-60%",
+    "Google_Maps_Scraper": "20-32%",
+    "Instagram_Scraper": "20-40%",
+    "TikTok_Scraper": "20-40%"
+  },
+  "departments_using": [
+    "LG",
+    "Dev",
+    "Sales",
+    "Marketing"
+  ],
+  "tags": [
+    "web-scraping",
+    "lead-generation",
+    "automation",
+    "data-extraction",
+    "cloud-platform",
+    "actors",
+    "api",
+    "multi-source"
+  ],
+  "discovery_date": "2025-11-12",
+  "discovery_source": "Video_006_Lead_Generation_Analysis",
+  "status": "active",
+  "platform_type": "Cloud SaaS"
+}

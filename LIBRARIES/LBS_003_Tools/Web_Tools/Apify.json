@@ -1,0 +1,77 @@
+{
+  "entity_type": "LIBRARIES",
+  "sub_entity": "Tool",
+  "tool_id": "TOOL-WEB-002",
+  "name": "Apify",
+  "vendor": "Apify Technologies",
+  "category": "Web/Data Scraping Platform",
+  "purpose": "Web scraping platform specialized for social media and complex sites",
+  "description": "Web scraping and automation platform specialized for social platforms like LinkedIn, X (Twitter), Instagram. Used when Crawl4AI doesn't handle social platforms well. Provides pre-built scrapers and custom scraping capabilities for complex sites.",
+  "skill_level_required": "Intermediate",
+  "cost_structure": "Free tier + Pay-per-use",
+  "platform_compatibility": [
+    "Web API",
+    "Python",
+    "JavaScript",
+    "Cloud platform"
+  ],
+  "integration_capabilities": [
+    "LinkedIn scraping",
+    "X (Twitter) scraping",
+    "Instagram scraping",
+    "Pre-built scrapers",
+    "Custom scrapers",
+    "REST API",
+    "Webhooks",
+    "Data storage"
+  ],
+  "documentation_url": "https://apify.com/",
+  "actual_remote_helpers_usage": {
+    "primary_use": "Social Media Scraping",
+    "users": [],
+    "use_cases": [
+      "scrape linkedin",
+      "scrape twitter",
+      "scrape instagram",
+      "extract social data",
+      "agent social access"
+    ],
+    "workflows": []
+  },
+  "strengths": [
+    "Social platform expertise",
+    "Pre-built scrapers",
+    "Handles complex sites",
+    "Managed infrastructure",
+    "Good for sites Crawl4AI can't handle"
+  ],
+  "limitations": [
+    "Costs can add up",
+    "Platform TOS considerations",
+    "Rate limiting"
+  ],
+  "alternatives": [
+    {
+      "name": "Bright Data",
+      "comparison": "Similar platform for complex scraping"
+    }
+  ],
+  "departments_using": [],
+  "tags": [
+    "scraping",
+    "social-media",
+    "linkedin",
+    "twitter",
+    "instagram",
+    "data-extraction"
+  ],
+  "discovery_date": "2025-11-13",
+  "discovery_source": "Video_005",
+  "status": "active",
+  "video_source": {
+    "video_id": "Video_005",
+    "video_title": "My Agentic Engineering Tech Stack",
+    "creator": "Cole",
+    "timestamp": "19:18-20:03"
+  }
+}

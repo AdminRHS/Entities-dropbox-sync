@@ -1,0 +1,76 @@
+{
+  "entity_type": "LIBRARIES",
+  "sub_entity": "Tool",
+  "tool_id": "TOOL-AI-094",
+  "name": "CrewAI",
+  "vendor": "CrewAI",
+  "category": "AI/Multi-Agent Framework",
+  "purpose": "Role-based multi-agent orchestration framework",
+  "description": "Popular multi-agent framework that emphasizes role-based agents working as a crew. Alternative to LangGraph for multi-agent systems. Many developers love it, but LangGraph is considered more mature for handling complex workflows like human-in-the-loop.",
+  "skill_level_required": "Intermediate",
+  "cost_structure": "Free (Open Source)",
+  "platform_compatibility": [
+    "Python"
+  ],
+  "integration_capabilities": [
+    "Multiple LLM providers",
+    "Role-based agents",
+    "Task delegation",
+    "Agent collaboration",
+    "Memory",
+    "Tools integration"
+  ],
+  "documentation_url": "https://www.crewai.com/",
+  "actual_remote_helpers_usage": {
+    "primary_use": "Multi-Agent Collaboration",
+    "users": [],
+    "use_cases": [
+      "build agent crews",
+      "role-based agents",
+      "collaborative agents",
+      "task delegation",
+      "multi-agent systems"
+    ],
+    "workflows": []
+  },
+  "strengths": [
+    "Very popular",
+    "Role-based approach",
+    "Easy agent collaboration",
+    "Good for simpler multi-agent",
+    "Active community"
+  ],
+  "limitations": [
+    "Less mature than LangGraph for complex workflows",
+    "Human-in-the-loop not as robust",
+    "Python only"
+  ],
+  "alternatives": [
+    {
+      "name": "LangGraph",
+      "comparison": "More mature, better for complex workflows"
+    },
+    {
+      "name": "Pydantic AI Graphs",
+      "comparison": "Same framework for single and multi-agent"
+    }
+  ],
+  "departments_using": [],
+  "tags": [
+    "multi-agent",
+    "crew",
+    "agents",
+    "python",
+    "collaboration",
+    "open-source"
+  ],
+  "discovery_date": "2025-11-13",
+  "discovery_source": "Video_005",
+  "status": "active",
+  "video_source": {
+    "video_id": "Video_005",
+    "video_title": "My Agentic Engineering Tech Stack",
+    "creator": "Cole",
+    "timestamp": "08:26-08:45"
+  }
+}

@@ -1,0 +1,283 @@
+workflow_name: "GitHub Open Source Contribution Workflow"
+workflow_type: "Cyclic"
+workflow_id: "WF-DEV-001"
+department: "DEVELOPMENT"
+priority: "High"
+description: "Strategic workflow for contributing to open source projects on GitHub to build reputation, portfolio, and career opportunities"
+estimated_duration: "2-4 hours per contribution"
+frequency: "Weekly (1-2 contributions per week recommended)"
+
+steps:
+  - step_number: 1
+    name: "Find Good First Issues"
+    tool: "GitHub, Good First Issue websites"
+    responsibility: "Find good first issues"
+    placement: "GitHub search and issue tracking"
+    duration: "20-30 minutes"
+    inputs:
+      - "Personal skill level and interests"
+      - "Preferred languages and frameworks"
+      - "Time availability"
+    outputs:
+      - "3-5 potential issues to work on"
+    success_criteria: "Issues match skill level, have clear requirements, active maintainers"
+    search_strategies:
+      - "GitHub label search: 'good-first-issue', 'beginner-friendly', 'help-wanted'"
+      - "Filter by language: e.g., 'language:javascript label:good-first-issue'"
+      - "Use websites: goodfirstissue.dev, firsttimersonly.com"
+      - "Follow repos you use and watch for issues"
+      - "Check project CONTRIBUTING.md for guidelines"
+
+  - step_number: 2
+    name: "Comment on Issue to Claim"
+    tool: "GitHub"
+    responsibility: "Comment on issue to claim"
+    placement: "GitHub issue page"
+    duration: "5 minutes"
+    inputs:
+      - "Selected issue"
+      - "Brief proposal of approach"
+    outputs:
+      - "Comment claiming issue and asking for assignment"
+    success_criteria: "Maintainer responds positively or assigns issue"
+    comment_template: "Hi! I'd like to work on this issue. My approach would be [brief explanation]. Could you assign this to me? Thanks!"
+
+  - step_number: 3
+    name: "Fork and Clone Repository"
+    tool: "GitHub, Git, Terminal"
+    responsibility: "Fork and clone repository"
+    placement: "Local development environment"
+    duration: "5-10 minutes"
+    inputs:
+      - "Original repository URL"
+    outputs:
+      - "Forked repo in your GitHub account"
+      - "Local clone on your machine"
+    success_criteria: "Local environment set up and running"
+    commands:
+      - "Fork: Click 'Fork' button on GitHub repo"
+      - "Clone: git clone https://github.com/YOUR-USERNAME/repo-name.git"
+      - "Add upstream: git remote add upstream https://github.com/ORIGINAL-OWNER/repo-name.git"
+      - "Install dependencies: npm install (or equivalent)"
+
+  - step_number: 4
+    name: "Create Feature Branch"
+    tool: "Git"
+    responsibility: "Create feature branch"
+    placement: "Terminal"
+    duration: "2 minutes"
+    inputs:
+      - "Issue number or feature name"
+    outputs:
+      - "New branch for your changes"
+    success_criteria: "Working on isolated branch, not main"
+    commands:
+      - "git checkout -b fix/issue-123-description"
+      - "or: git checkout -b feature/feature-name"
+    naming_convention: "fix/issue-number-brief-description or feature/feature-name"
+
+  - step_number: 5
+    name: "Implement Fix or Feature"
+    tool: "Code editor (VS Code, etc.)"
+    responsibility: "Implement fix or feature"
+    placement: "Local development environment"
+    duration: "1-3 hours (varies)"
+    inputs:
+      - "Issue requirements"
+      - "Project code style guidelines"
+      - "Existing codebase"
+    outputs:
+      - "Code changes addressing issue"
+      - "Tests (if applicable)"
+    success_criteria: "Issue solved, code follows project standards, tests pass"
+    best_practices:
+      - "Follow project's code style (check .editorconfig, ESLint, etc.)"
+      - "Write tests if project has test suite"
+      - "Keep changes focused (don't fix unrelated things)"
+      - "Comment complex logic"
+      - "Run linters and formatters"
+
+  - step_number: 6
+    name: "Test Changes Locally"
+    tool: "Testing framework (Jest, pytest, etc.)"
+    responsibility: "Test changes locally"
+    placement: "Terminal"
+    duration: "15-30 minutes"
+    inputs:
+      - "Code changes"
+      - "Test suite"
+    outputs:
+      - "All tests passing"
+      - "Manual testing completed"
+    success_criteria: "No breaking changes, new functionality works"
+    testing_checklist:
+      - "Run full test suite: npm test (or equivalent)"
+      - "Add new tests for your changes"
+      - "Manually test your feature/fix"
+      - "Check for edge cases"
+      - "Ensure no console errors"
+
+  - step_number: 7
+    name: "Commit with Conventional Messages"
+    tool: "Git"
+    responsibility: "Commit with conventional messages"
+    placement: "Terminal"
+    duration: "5 minutes"
+    inputs:
+      - "Staged changes"
+      - "Commit message convention"
+    outputs:
+      - "Commits with clear, descriptive messages"
+    success_criteria: "Commits follow project convention, atomic changes"
+    commit_format: "type(scope): subject\n\nbody\n\nCloses #issue-number"
+    examples:
+      - "fix(auth): resolve login redirect loop\n\nFixed infinite redirect by checking authentication state before redirect.\n\nCloses #123"
+      - "feat(ui): add dark mode toggle\n\nAdded toggle component and theme context.\n\nCloses #456"
+    types: "feat, fix, docs, style, refactor, test, chore"
+
+  - step_number: 8
+    name: "Push to Your Fork"
+    tool: "Git"
+    responsibility: "Push to your fork"
+    placement: "Terminal"
+    duration: "2 minutes"
+    inputs:
+      - "Committed changes"
+    outputs:
+      - "Changes pushed to your GitHub fork"
+    success_criteria: "Branch visible in your GitHub fork"
+    commands:
+      - "git push origin fix/issue-123-description"
+
+  - step_number: 9
+    name: "Create Pull Request"
+    tool: "GitHub"
+    responsibility: "Create pull request"
+    placement: "GitHub website"
+    duration: "10-15 minutes"
+    inputs:
+      - "Pushed branch"
+      - "Issue details"
+      - "Change summary"
+    outputs:
+      - "Pull request submitted to original repo"
+    success_criteria: "Clear PR description, links to issue, CI checks passing"
+    pr_template:
+      title: "Fix: Brief description of change"
+      description: |
+        ## What
+        - Brief summary of changes
+
+        ## Why
+        - Explain the problem being solved
+
+        ## How
+        - Technical approach taken
+
+        ## Testing
+        - How you tested the changes
+
+        Closes #issue-number
+
+  - step_number: 10
+    name: "Respond to Review Feedback"
+    tool: "GitHub, code editor"
+    responsibility: "Respond to review feedback"
+    placement: "GitHub PR comments and local code"
+    duration: "30-60 minutes (varies)"
+    inputs:
+      - "Reviewer comments"
+      - "Requested changes"
+    outputs:
+      - "Updated code addressing feedback"
+      - "Replies to review comments"
+    success_criteria: "All reviewer concerns addressed, maintainer approves"
+    best_practices:
+      - "Respond within 24-48 hours"
+      - "Be receptive to feedback (learning opportunity)"
+      - "Ask questions if unclear"
+      - "Make requested changes in new commits"
+      - "Thank reviewers for their time"
+
+  - step_number: 11
+    name: "Celebrate Merge and Update Profile"
+    tool: "GitHub profile, LinkedIn"
+    responsibility: "Celebrate merge and update profile"
+    placement: "Social media and GitHub profile"
+    duration: "10 minutes"
+    inputs:
+      - "Merged pull request"
+    outputs:
+      - "GitHub contribution graph updated"
+      - "LinkedIn post about contribution (optional)"
+    success_criteria: "Contribution visible on profile, community aware"
+    celebration_ideas:
+      - "Tweet about first contribution to [project]"
+      - "Add to LinkedIn projects section"
+      - "Pin repository to GitHub profile if significant"
+      - "Thank maintainers publicly"
+
+contribution_types:
+  bug_fixes: "Resolve reported bugs (good for beginners)"
+  documentation: "Fix typos, improve docs (easiest entry point)"
+  new_features: "Add requested functionality (intermediate)"
+  tests: "Add missing test coverage (valuable, less visible)"
+  refactoring: "Improve code quality (advanced)"
+
+finding_projects:
+  - "Use libraries/frameworks you already know"
+  - "Contribute to tools you use daily"
+  - "Filter by language you're comfortable with"
+  - "Check project activity (active maintainers respond faster)"
+  - "Read CONTRIBUTING.md before starting"
+  - "Look for welcoming communities (Code of Conduct is good sign)"
+
+metrics:
+  - "Pull requests merged (quality over quantity)"
+  - "GitHub contribution graph (green squares = active)"
+  - "Stars on your repositories"
+  - "Followers gained"
+  - "Mentions in project changelogs"
+  - "Maintainer trust (invited to future contributions)"
+
+dependencies:
+  - "GitHub account"
+  - "Git installed locally"
+  - "Code editor (VS Code recommended)"
+  - "Basic Git knowledge (commit, push, pull)"
+  - "Understanding of contribution workflow"
+
+risks:
+  - "Claiming issue but not following through (damages reputation)"
+  - "Not following project conventions (PR rejected)"
+  - "Breaking existing functionality (tests catch this)"
+  - "Poor communication with maintainers (PR stalls)"
+
+best_practices:
+  - "Start small (documentation, bug fixes)"
+  - "Read CONTRIBUTING.md thoroughly"
+  - "Follow code style guidelines"
+  - "Write tests for your changes"
+  - "Keep PRs focused and small"
+  - "Communicate proactively with maintainers"
+  - "Be patient (maintainers are volunteers)"
+  - "Learn from code reviews"
+  - "Contribute consistently (1-2 PRs per week builds habit)"
+
+career_benefits:
+  - "GitHub profile showcases real-world collaboration"
+  - "Learn from experienced developers via code review"
+  - "Build network in open source community"
+  - "Demonstrate skills to potential employers"
+  - "Some companies hire directly from contributors"
+  - "Speaking opportunities at conferences"
+  - "Potential to become project maintainer"
+
+related_workflows:
+  - "WF-DEV-002: Stack Overflow Reputation Building Workflow"
+  - "WF-DEV-003: Dev.to Blogging Workflow"
+  - "WF-DEV-007: LinkedIn Developer Networking Workflow"
+
+created: "2025-11-14"
+updated: "2025-11-14"
+source: "SMM_Research_Document_3_EU_Creative_Professionals"

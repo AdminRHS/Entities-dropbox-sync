@@ -1,0 +1,41 @@
+{
+  "Actions": "combine",
+  "Processes": "combining",
+  "Results": "combined",
+  "Departments": "developers, managers",
+  "Professions": "back end developer, ai engineer, lead generator",
+  "category": "Data_Operations",
+  "source": "Video_006_Lead_Generation_Analysis",
+  "discovery_date": "2025-11-12",
+  "description": "Join or merge multiple datasets, data sources, or data elements together",
+  "typical_use_cases": [
+    "Combine multiple lead sources into single list",
+    "Merge scraped data with enrichment results",
+    "Join company data with contact data",
+    "Aggregate results from multiple searches",
+    "Combine CSV files from different scrapers"
+  ],
+  "common_objects": [
+    "Lead List",
+    "Email Address",
+    "Company Domain",
+    "Enrichment Pipeline"
+  ],
+  "common_tools": [
+    "n8n",
+    "Make.com",
+    "Google Sheets",
+    "Custom scripts"
+  ],
+  "related_actions": [
+    "merge",
+    "join",
+    "aggregate",
+    "consolidate"
+  ],
+  "workflows": [
+    "Multi-Source Lead Enrichment: Combine Airscale + LinkedIn + Apify",
+    "Scrape multiple sources → Combine → Deduplicate → Enrich"
+  ],
+  "multi_source_example": "Combine LinkedIn (1K leads) + Google SERP (2K leads) + Google Maps (500 leads) = 3.5K total"
+}

@@ -1,0 +1,217 @@
+{
+  "metadata": {
+    "profession_name": "lead generator",
+    "department": "managers", 
+    "created_date": "2025-01-19T00:00:00.000Z",
+    "description": "Parameters specific to lead generator types and activities",
+    "data_source": "parameters.json",
+    "organization_method": "type_to_profession_mapping"
+  },
+  "summary": {
+    "unique_types": [
+      "new",
+      "in work", 
+      "sold",
+      "banned",
+      "problematic",
+      "free",
+      "first connection",
+      "basic correspondence",
+      "event",
+      "follow up",
+      "presentation",
+      "lead",
+      "interested",
+      "client",
+      "updated",
+      "not relevant",
+      "personalized",
+      "relevant",
+      "old",
+      "received",
+      "valid",
+      "active",
+      "inactive",
+      "empty",
+      "cold",
+      "business",
+      "individual"
+    ],
+    "total_parameters": 78,
+    "parameter_categories": ["account_status", "communication_quality", "lead_qualification", "contact_management", "customer_segmentation"]
+  },
+  "parameters_by_type": {
+    "new": [
+      "initial response rate",
+      "conversion rate", 
+      "engagement level"
+    ],
+    "in_work": [
+      "client interaction frequency",
+      "progress tracking",
+      "issue resolution rate"
+    ],
+    "sold": [
+      "revenue generated",
+      "sales cycle duration",
+      "customer satisfaction index"
+    ],
+    "banned": [
+      "reason for ban",
+      "ban appeal success rate", 
+      "preventive measures taken"
+    ],
+    "problematic": [
+      "problem identification speed",
+      "resolution effectiveness",
+      "recurrence rate"
+    ],
+    "free": [
+      "upgrade conversion rate",
+      "engagement metrics",
+      "activity score"
+    ],
+    "first_connection": [
+      "contact quality",
+      "initial response time",
+      "relationship potential"
+    ],
+    "basic_correspondence": [
+      "message clarity",
+      "response timeliness", 
+      "issue resolution rate"
+    ],
+    "event": [
+      "attendance rate",
+      "participant satisfaction",
+      "follow-up opportunities"
+    ],
+    "follow_up": [
+      "follow-up timeliness",
+      "issue resolution success",
+      "client retention impact"
+    ],
+    "presentation": [
+      "audience engagement",
+      "clarity of information",
+      "actionable outcomes"
+    ],
+    "lead": [
+      "lead acquisition rate",
+      "initial contact success",
+      "follow-up efficiency"
+    ],
+    "interested": [
+      "interest level",
+      "engagement actions",
+      "proposal acceptance rate"
+    ],
+    "client": [
+      "client retention rate",
+      "average transaction value",
+      "satisfaction index"
+    ],
+    "updated": [
+      "information accuracy rate",
+      "update frequency",
+      "relevance score"
+    ],
+    "not_relevant": [
+      "disqualification reasons",
+      "alternative opportunities identified",
+      "re-engagement attempts"
+    ],
+    "personalized": [
+      "personalization effectiveness",
+      "response rate",
+      "engagement uplift"
+    ],
+    "relevant": [
+      "relevance score",
+      "engagement level",
+      "conversion impact"
+    ],
+    "old": [
+      "re-engagement success",
+      "historical value assessment",
+      "update needs"
+    ],
+    "received": [
+      "response rate",
+      "interaction quality",
+      "follow-up actions"
+    ],
+    "valid": [
+      "contact accuracy rate",
+      "response rate",
+      "update frequency"
+    ],
+    "active": [
+      "communication frequency",
+      "transaction rate",
+      "responsiveness"
+    ],
+    "inactive": [
+      "reactivation success rate",
+      "dormancy period",
+      "last activity date"
+    ],
+    "empty": [
+      "cleanup efficiency", 
+      "data completeness",
+      "last audit date"
+    ],
+    "business": [
+      "needs assessment accuracy",
+      "decision-making speed",
+      "purchasing power"
+    ],
+    "individual": [
+      "buying behavior",
+      "brand loyalty",
+      "price sensitivity"
+    ]
+  },
+  "entries": [
+    {
+      "Types": "new",
+      "Parameters": "initial response rate"
+    },
+    {
+      "Types": "new", 
+      "Parameters": "conversion rate"
+    },
+    {
+      "Types": "new",
+      "Parameters": "engagement level"
+    },
+    {
+      "Types": "in work",
+      "Parameters": "client interaction frequency"
+    },
+    {
+      "Types": "in work",
+      "Parameters": "progress tracking"
+    },
+    {
+      "Types": "in work", 
+      "Parameters": "issue resolution rate"
+    },
+    {
+      "Types": "sold",
+      "Parameters": "revenue generated"
+    },
+    {
+      "Types": "sold",
+      "Parameters": "sales cycle duration"
+    },
+    {
+      "Types": "sold",
+      "Parameters": "customer satisfaction index"
+    },
+    {
+      "Types": "banned",
+      "Parameters": "reason for ban"
+    }
+  ]
+}

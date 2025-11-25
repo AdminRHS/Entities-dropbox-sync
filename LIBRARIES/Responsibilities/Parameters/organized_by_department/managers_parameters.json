@@ -1,0 +1,10 @@
+{
+  "metadata": {"department": "managers", "created_date": "2025-08-08T00:00:00.000Z", "source": "parameters/organized_by_profession"},
+  "professions": [
+    {"name": "sales manager", "file": "../organized_by_profession/sales_manager_parameters.json", "total_parameters": 95},
+    {"name": "lead generator", "file": "../organized_by_profession/lead_generator_parameters.json", "total_parameters": 78},
+    {"name": "recruiter", "file": "../organized_by_profession/recruiter_parameters.json", "total_parameters": 87},
+    {"name": "project manager", "file": "../organized_by_profession/project_manager_parameters.json", "total_parameters": 56}
+  ],
+  "summary": {"profession_count": 4, "total_parameters": 316}
+}

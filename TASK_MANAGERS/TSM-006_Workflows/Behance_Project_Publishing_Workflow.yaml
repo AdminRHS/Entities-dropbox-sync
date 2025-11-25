@@ -1,0 +1,172 @@
+workflow_name: "Behance Project Publishing"
+workflow_type: "Linear"
+workflow_id: "WF-SMM-004"
+department: "MARKETING"
+priority: "High"
+estimated_duration: "2-3 hours per project"
+status: "Active"
+
+description: |
+  Comprehensive 6-step workflow for publishing professional design projects on Behance to build portfolio authority.
+  Systematic approach to project documentation, visual storytelling, and community engagement.
+
+steps:
+  - step_number: 1
+    name: "Select and Prepare Project"
+    tool: "Behance (project planning)"
+    responsibility: "Select and prepare project"
+    placement: "Behance project editor"
+    duration: "20-30 minutes"
+    dependencies: []
+    inputs:
+      - "Completed design project"
+      - "Project files and assets"
+      - "Client approval (if applicable)"
+    outputs:
+      - "Project selected for publishing"
+      - "High-resolution project files prepared"
+      - "Project scope and objectives documented"
+    success_criteria: "Project meets quality standards and tells complete story"
+
+  - step_number: 2
+    name: "Write Project Description"
+    tool: "Behance (text editor)"
+    responsibility: "Write project description"
+    placement: "Behance project editor"
+    duration: "30-45 minutes"
+    dependencies: ["Step 1"]
+    inputs:
+      - "Project objectives and challenges"
+      - "Design process and methodology"
+      - "Results and impact"
+    outputs:
+      - "Comprehensive project description (500-1000 words)"
+      - "Clear problem-solution narrative"
+      - "Client/project context explained"
+    success_criteria: "Compelling story that showcases design thinking and problem-solving"
+
+  - step_number: 3
+    name: "Design Cover Image"
+    tool: "Photoshop, Figma (1400×788px)"
+    responsibility: "Design cover image"
+    placement: "Design workspace"
+    duration: "20-30 minutes"
+    dependencies: ["Step 1"]
+    inputs:
+      - "Project hero image or key visual"
+      - "Brand guidelines"
+      - "Behance cover specifications (1400×788px)"
+    outputs:
+      - "Eye-catching cover image (1400×788px)"
+      - "Representative of project quality"
+      - "Optimized for Behance feed visibility"
+    success_criteria: "Cover image stands out in Behance feed and accurately represents project"
+
+  - step_number: 4
+    name: "Upload Project Images"
+    tool: "Behance (image uploader)"
+    responsibility: "Upload project images"
+    placement: "Behance project editor"
+    duration: "30-45 minutes"
+    dependencies: ["Step 1", "Step 3"]
+    inputs:
+      - "High-resolution project images"
+      - "Process documentation (sketches, wireframes)"
+      - "Final deliverables"
+    outputs:
+      - "10-20 project images uploaded"
+      - "Logical visual flow from concept to completion"
+      - "Image captions and annotations"
+    success_criteria: "Clear visual narrative showing complete design process"
+
+  - step_number: 5
+    name: "Add Tags and Categories"
+    tool: "Behance (metadata editor)"
+    responsibility: "Add tags and categories"
+    placement: "Behance project editor"
+    duration: "10-15 minutes"
+    dependencies: ["Step 2", "Step 4"]
+    inputs:
+      - "Project type and discipline"
+      - "Relevant design categories"
+      - "Industry keywords"
+    outputs:
+      - "5-10 relevant tags selected"
+      - "Primary category assigned"
+      - "Secondary categories (if applicable)"
+    success_criteria: "Tags optimize discoverability in Behance search and categories"
+
+  - step_number: 6
+    name: "Publish and Promote"
+    tool: "Behance + Cross-platform sharing"
+    responsibility: "Publish and promote project"
+    placement: "Behance + Instagram, LinkedIn"
+    duration: "15-20 minutes"
+    dependencies: ["Step 2", "Step 3", "Step 4", "Step 5"]
+    inputs:
+      - "Completed Behance project"
+      - "Social media accounts"
+      - "Cross-promotion strategy"
+    outputs:
+      - "Project published on Behance"
+      - "Shared to Instagram with link in bio"
+      - "Posted to LinkedIn with professional context"
+      - "Engagement tracking initiated"
+    success_criteria: "Project live, promoted across platforms, initial engagement positive"
+
+performance_metrics:
+  appreciations: "Behance 'likes' - community approval"
+  views: "Total project page views"
+  followers_gained: "New followers from project"
+  featured_potential: "Chance of Behance curation"
+  external_traffic: "Clicks from social media promotions"
+  inquiries: "Client/collaboration requests from project"
+
+project_structure_best_practices:
+  cover_image: "1400×788px - Most important visual for feed"
+  project_length: "10-20 images - Comprehensive but not overwhelming"
+  description_length: "500-1000 words - Detailed but scannable"
+  visual_flow: "Problem → Process → Solution structure"
+  process_documentation: "Include sketches, wireframes, iterations"
+  final_deliverables: "Show polished results in context"
+
+content_quality_standards:
+  image_resolution: "High-resolution, professional quality"
+  color_accuracy: "Calibrated for web display"
+  typography: "Readable annotations and captions"
+  storytelling: "Clear narrative arc from start to finish"
+  context: "Explain design decisions and rationale"
+
+cross_promotion_strategy:
+  instagram: "Post carousel with project highlights, link in bio to Behance"
+  linkedin: "Share with professional context and design insights"
+  twitter: "Tweet project link with key visual"
+  facebook: "Share to relevant design groups"
+  pinterest: "Pin key visuals linking to Behance project"
+
+best_practices:
+  - "Publish consistently (1-2 projects per month minimum)"
+  - "Engage with other designers' projects daily"
+  - "Respond to comments within 24 hours"
+  - "Update portfolio with best work regularly"
+  - "Use Behance Live for real-time work-in-progress sharing"
+  - "Join creative challenges for visibility"
+  - "Cross-promote on Instagram and LinkedIn"
+
+automation_opportunities:
+  - "Scheduled cross-platform sharing"
+  - "Analytics tracking and reporting"
+  - "Image optimization and resizing"
+  - "Template-based project descriptions"
+
+tags:
+  - portfolio
+  - behance
+  - design
+  - project_publishing
+  - creative_showcase
+  - professional_branding
+
+version: "1.0"
+created: "2025-11-13"
+last_updated: "2025-11-13"

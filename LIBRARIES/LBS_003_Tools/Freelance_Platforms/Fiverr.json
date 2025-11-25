@@ -1,0 +1,125 @@
+{
+  "entity_type": "LIBRARIES",
+  "sub_entity": "Tool",
+  "tool_id": "TOOL-HR-102",
+  "name": "Fiverr",
+  "vendor": "Fiverr International Ltd.",
+  "category": "Freelance Platform / Service Marketplace / HR Tools",
+  "purpose": "Affordable freelance services marketplace starting at $5 across 200+ categories including graphic design, website design, writing, voice-over, social media, and AI services",
+  "description": "Fiverr is a well-known freelance platform offering thousands of freelancers across 200+ categories with extremely affordable starting prices ($5). The platform features a 4-level seller rating system (New → Level 1 → Level 2 → Top Rated) based on performance and customer satisfaction. Fiverr Pro service provides access to manually vetted top-tier freelancers assessed on educational background, work experience, client reviews, and portfolio strength. The platform offers fast delivery options for urgent projects, escrow payment protection, and has been trusted by major companies like Netflix and Facebook since 2010.",
+  "skill_level_required": "Beginner",
+  "cost_structure": "5.5% transaction fee + small order fee for orders under $75; gig pricing set by freelancers (from $5 to $1,000+)",
+  "platform_compatibility": ["Web", "Mobile App", "API"],
+  "integration_capabilities": ["Platform messaging", "File sharing", "Escrow payment system", "Order tracking"],
+  "documentation_url": "https://www.fiverr.com",
+  "actual_remote_helpers_usage": {
+    "primary_use": "Quick, affordable tasks for Design, Video, AI, and Sales departments",
+    "users": ["Department Managers", "HR Manager"],
+    "use_cases": [
+      "Quick logo designs and social media graphics (Design)",
+      "Voice-over recordings (Video)",
+      "Video thumbnails and channel branding (Video)",
+      "Social media content creation (Sales)",
+      "Email templates and copywriting (Sales)",
+      "AI service exploration and prompt engineering (AI)",
+      "Resume design and job posting copywriting (HR)"
+    ],
+    "workflows": ["HIRE_FREELANCER_MARKETPLACE", "PURCHASE_SERVICE_GIG"],
+    "typical_workflow_pattern": [
+      {
+        "task": "Purchase Quick Design Gig",
+        "steps": [
+          "Browse Fiverr for specific service (e.g., logo design, thumbnail)",
+          "Filter by seller level (prefer Level 2 or Top Rated)",
+          "Review seller portfolio and ratings (4.5+ stars)",
+          "Select gig and customize requirements",
+          "Purchase (payment held in escrow)",
+          "Receive delivery (typically 1-7 days)",
+          "Review and approve (or request revision)",
+          "Payment released to seller"
+        ],
+        "complexity": "Low",
+        "status": "RECOMMENDED_FOR_QUICK_TASKS"
+      },
+      {
+        "task": "Hire Fiverr Pro Specialist",
+        "steps": [
+          "Access Fiverr Pro section",
+          "Browse pre-vetted top-tier talent",
+          "Review portfolios and premium pricing",
+          "Place order for higher-quality deliverables",
+          "Collaborate with vetted professional"
+        ],
+        "complexity": "Low-Medium",
+        "status": "RECOMMENDED_FOR_QUALITY_PROJECTS"
+      }
+    ]
+  },
+  "strengths": [
+    "Extremely affordable entry point ($5 starting price)",
+    "Wide variety of services (200+ categories)",
+    "Fast delivery options (ideal for urgent needs)",
+    "Tiered rating system helps identify quality sellers",
+    "Fiverr Pro ensures top-tier quality (pre-vetted)",
+    "Escrow payment protection",
+    "Used by major companies (Netflix, Facebook)",
+    "Very user-friendly (browse and purchase like e-commerce)"
+  ],
+  "limitations": [
+    "Quality inconsistency at lower price points",
+    "Small order fees increase cost for budget projects (<$75)",
+    "Less suitable for complex, long-term engagements",
+    "Higher transaction fee (5.5%) than UpWork (5%)",
+    "Project-based (not ideal for hourly work)"
+  ],
+  "departments_using": ["Design (Primary)", "Video (Primary)", "Sales (Secondary)", "AI (Secondary)", "HR (Secondary)"],
+  "tags": ["freelance-marketplace", "affordable-services", "quick-tasks", "design", "creative-services", "gig-economy"],
+  "discovery_date": "2025-11-22",
+  "discovery_source": "Video_019_Freelance_Remote_Hiring_Websites",
+  "status": "recommended_for_quick_tasks",
+  "remote_helpers_context": {
+    "relevance_score": 75,
+    "strategic_alignment": "Highly aligned with quick, affordable tasks for Design, Video, and Sales",
+    "implementation_priority": "High",
+    "pilot_test_recommendation": "Test with $50-$150 budget for design or video tasks",
+    "decision_timeline": "Immediate use recommended for quick tasks"
+  },
+  "pricing_examples": {
+    "basic_gig": "$5-$50",
+    "mid_tier_gig": "$50-$200",
+    "fiverr_pro_gig": "$200-$1,000+",
+    "transaction_fee": "5.5% + small order fee (~$2 if under $75)",
+    "example_total_cost": "$100 gig → $105.50 + ~$2 small order fee = ~$107.50"
+  },
+  "use_cases_by_department": {
+    "Design": "Quick logo designs, social media graphics, presentation templates, branding materials",
+    "Video": "Voice-over recordings, video editing, animation, video thumbnails, channel branding",
+    "AI": "AI service exploration, prompt engineering, automation scripts, AI tool research",
+    "Sales": "Social media content creation, copywriting, email templates, LinkedIn posts",
+    "HR": "Resume design, job posting copywriting, recruitment materials, presentation design"
+  },
+  "fiverr_seller_levels": {
+    "new_sellers": "Just joined platform (higher risk)",
+    "level_1_sellers": "Met basic performance criteria",
+    "level_2_sellers": "Consistent high performance",
+    "top_rated_sellers": "Elite performers with stellar reviews (lowest risk)"
+  },
+  "when_to_use": [
+    "Small, one-off tasks (logos, graphics, scripts)",
+    "Budget constraints ($5-$200 range)",
+    "Urgent delivery needed (fast turnaround available)",
+    "Testing a new service type before committing to long-term hire",
+    "Design and creative work with clear deliverables"
+  ],
+  "when_not_to_use": [
+    "Complex, long-term projects (UpWork better)",
+    "Need for hourly work tracking (UpWork better)",
+    "Require guaranteed top quality without vetting (Fiverr Pro or specialized platforms better)",
+    "Large projects >$500 (marketplace platforms may be more cost-effective)"
+  ],
+  "comparison_with_alternatives": {
+    "vs_UpWork": "Fiverr better for fixed-price quick tasks; UpWork better for hourly, complex work",
+    "vs_99designs": "99designs better for design contests with multiple options; Fiverr faster for single designer",
+    "vs_MarketerHire": "MarketerHire better for ongoing marketing expertise; Fiverr better for one-off content"
+  }
+}

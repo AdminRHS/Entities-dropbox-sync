@@ -1,0 +1,104 @@
+[
+  {
+    "responsibility_id": "RESP-001",
+    "responsibility_name": "screen candidates",
+    "components": {
+      "action": "screen",
+      "object": "candidates",
+      "object_type": "applied candidates, needed candidates, found candidates"
+    },
+    "department": "Managers (HR)",
+    "description": "Review and evaluate candidate applications, resumes, and qualifications",
+    "related_tasks": [
+      "Screen candidate resumes",
+      "Update candidate status in CRM",
+      "Filter candidates by qualifications"
+    ],
+    "frequency": "daily"
+  },
+  {
+    "responsibility_id": "RESP-002",
+    "responsibility_name": "generate leads",
+    "components": {
+      "action": "generate",
+      "object": "leads",
+      "object_type": "qualified leads, potential leads, target leads"
+    },
+    "department": "Lead Generation",
+    "description": "Identify, research, and qualify potential leads for business development",
+    "related_tasks": [
+      "Send cold emails to prospects",
+      "Search for target companies",
+      "Scrape contact information"
+    ],
+    "frequency": "daily"
+  },
+  {
+    "responsibility_id": "RESP-003",
+    "responsibility_name": "design UI mockups",
+    "components": {
+      "action": "design",
+      "object": "UI mockups",
+      "object_type": "web mockups, mobile mockups, interface designs"
+    },
+    "department": "Design",
+    "description": "Create user interface mockups and design systems",
+    "related_tasks": [
+      "Create UI mockups in Figma",
+      "Export design files",
+      "Share design previews"
+    ],
+    "frequency": "daily"
+  },
+  {
+    "responsibility_id": "RESP-004",
+    "responsibility_name": "develop frontend features",
+    "components": {
+      "action": "develop",
+      "object": "frontend features",
+      "object_type": "UI components, user interfaces, web pages"
+    },
+    "department": "Developers",
+    "description": "Develop user-facing features and components",
+    "related_tasks": [
+      "Develop React features",
+      "Manage code via GitHub",
+      "Debug applications"
+    ],
+    "frequency": "daily"
+  },
+  {
+    "responsibility_id": "RESP-005",
+    "responsibility_name": "manage sales pipeline",
+    "components": {
+      "action": "manage",
+      "object": "sales pipeline",
+      "object_type": "deals, opportunities, client relationships"
+    },
+    "department": "Sales",
+    "description": "Manage sales pipeline, conduct discovery calls, and close deals",
+    "related_tasks": [
+      "Conduct discovery calls",
+      "Create proposals",
+      "Track deals in CRM"
+    ],
+    "frequency": "daily"
+  },
+  {
+    "responsibility_id": "RESP-006",
+    "responsibility_name": "produce videos",
+    "components": {
+      "action": "produce",
+      "object": "videos",
+      "object_type": "promotional videos, tutorial videos, edited videos"
+    },
+    "department": "Video",
+    "description": "Edit videos, add subtitles, and create animations",
+    "related_tasks": [
+      "Edit videos in Adobe Premiere",
+      "Add subtitles",
+      "Create animations"
+    ],
+    "frequency": "daily"
+  }
+]

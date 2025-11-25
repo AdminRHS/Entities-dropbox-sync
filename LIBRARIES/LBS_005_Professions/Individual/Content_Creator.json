@@ -1,0 +1,77 @@
+{
+  "entity_type": "LIBRARIES",
+  "sub_entity": "Profession",
+  "profession_name": "content_creator",
+  "full_title": "Content Creator",
+  "department": "AI",
+  "description": "Multi-platform content creator producing engaging videos, images, and written content using AI tools for social media, marketing, and digital platforms",
+  "created": "2025-11-24",
+  "updated": "2025-11-24",
+  "skills": [
+    "SKL-062",
+    "SKL-063",
+    "SKL-064"
+  ],
+  "skill_details": {
+    "SKL-062": {
+      "skill_phrase": "engineered prompts for AI content generation via Google AI Studio",
+      "proficiency_level": "intermediate",
+      "frequency": "daily"
+    },
+    "SKL-063": {
+      "skill_phrase": "synthesized information from AI-generated content via Google AI Studio",
+      "proficiency_level": "intermediate",
+      "frequency": "daily"
+    },
+    "SKL-064": {
+      "skill_phrase": "crafted visual storytelling through AI-animated videos via Google AI Studio",
+      "proficiency_level": "intermediate",
+      "frequency": "weekly"
+    }
+  },
+  "tools": [
+    "TOOL-AI-222"
+  ],
+  "tool_details": {
+    "TOOL-AI-222": "Google AI Studio - PRIMARY tool (daily use) - AI content generation and video creation"
+  },
+  "workflows": [
+    "WRF-021",
+    "WRF-022",
+    "WRF-023"
+  ],
+  "workflow_details": {
+    "WRF-021": "Create Social Media Caption - Generate engaging captions with AI",
+    "WRF-022": "Summarize YouTube Video - Extract key insights from videos",
+    "WRF-023": "Generate Video from Image - Animate still images into video clips"
+  },
+  "objects": [
+    "OBJ-SMM-015",
+    "OBJ-SMM-016",
+    "OBJ-VID-003"
+  ],
+  "object_details": {
+    "OBJ-SMM-015": "Social Media Caption - AI-generated event announcements and captions",
+    "OBJ-SMM-016": "Video Summary - Bullet-point summaries of YouTube videos",
+    "OBJ-VID-003": "Animated Video Clip - AI-generated video from still images"
+  },
+  "actions": [
+    "generate",
+    "write",
+    "create",
+    "animate",
+    "summarize",
+    "prompt",
+    "customize",
+    "review",
+    "publish"
+  ],
+  "typical_tasks": [
+    "Generate social media captions for events and announcements",
+    "Summarize educational videos for content curation",
+    "Create animated video clips from product photos",
+    "Develop engaging visual content for social platforms",
+    "Research and synthesize information from multiple sources"
+  ],
+  "source": "Video_023"
+}

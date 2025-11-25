@@ -1,0 +1,324 @@
+{
+  "entity_type": "TASK_MANAGERS",
+  "sub_entity": "Task_Template",
+  "template_id": "Task-Template-022",
+  "task_name": "Automate Post-Meeting Workflow via Stacked Connectors",
+  "action": "Automate",
+  "object": "Post-Meeting Workflow",
+  "context": "via Calendar + Gmail + CRM connectors",
+  "description": "Execute multi-app post-meeting automation: extract insights from meeting transcript, draft follow-up emails, update CRM records (saves 15+ hours/week, executes in 1-4 minutes)",
+  "department": "AI",
+  "profession": "Operations Manager",
+  "priority": "Critical",
+  "estimated_duration": "1-4 minutes (automated execution)",
+  "setup_time": "20-30 minutes (one-time)",
+  "status": "Active",
+  "complexity": "Very High",
+  "automation_potential": "Very High (>80%)",
+  "success_rate": "85%+",
+  "time_savings": "15+ hours per week",
+  "dependencies": [
+    "Gmail MCP Connector deployed (TOOL-INT-001)",
+    "Google Calendar MCP Connector deployed (TOOL-INT-002)",
+    "CRM MCP Connector deployed (TOOL-INT-003)",
+    "Claude Desktop App configured (TOOL-AI-030)",
+    "Meeting transcript available"
+  ],
+  "tools_required": [
+    "TOOL-AI-030 (Claude Desktop App)",
+    "TOOL-INT-001 (Gmail MCP Connector)",
+    "TOOL-INT-002 (Google Calendar MCP Connector)",
+    "TOOL-INT-003 (CRM MCP Connector)"
+  ],
+  "skills_required": [
+    "SKL-073 (configured stacked connector workflows)",
+    "SKL-074 (extracted meeting insights via Claude)"
+  ],
+  "objects_used": [
+    "OBJ-AI-005 (Meeting Transcript)",
+    "OBJ-AI-006 (Calendar Event)",
+    "OBJ-AI-007 (Email Draft)",
+    "OBJ-AI-008 (CRM Record)",
+    "OBJ-AI-009 (Stacked Connector Workflow)"
+  ],
+  "workflow_reference": "WF-AI-005",
+  "success_criteria": [
+    "Meeting insights extracted (action items, decisions, wins)",
+    "Follow-up emails drafted for all attendees",
+    "CRM updated with meeting notes and wins",
+    "All 4 steps complete in 1-4 minutes",
+    "Human review completed before sending"
+  ],
+  "responsibilities": {
+    "responsible": "Operations Manager",
+    "accountable": "Operations Director",
+    "consulted": [
+      "Account Executive",
+      "Sales Manager"
+    ],
+    "informed": [
+      "Sales Team",
+      "Customer Success"
+    ]
+  },
+  "steps": [
+    {
+      "step_number": 1,
+      "name": "Upload meeting transcript to Claude Desktop",
+      "action": "upload",
+      "tool": "TOOL-AI-030 (Claude Desktop App)",
+      "responsibility": "Operations Manager",
+      "placement": "Claude Desktop - Chat",
+      "duration": "30 seconds",
+      "dependencies": [],
+      "inputs": [
+        "Meeting transcript (text or audio file)"
+      ],
+      "outputs": [
+        "Transcript uploaded and ready for processing"
+      ],
+      "success_criteria": "Transcript visible in Claude chat",
+      "responsibility_id": "RESP-OPS-017",
+      "responsibility_name": "upload meeting transcript",
+      "_original_action": "upload"
+    },
+    {
+      "step_number": 2,
+      "name": "Extract meeting insights via Claude",
+      "action": "extract",
+      "tool": "TOOL-AI-030 (Claude Desktop App)",
+      "responsibility": "Claude AI (automated)",
+      "placement": "Claude Desktop - Processing",
+      "duration": "30-60 seconds (automated)",
+      "dependencies": [
+        "Step 1"
+      ],
+      "inputs": [
+        "Meeting transcript"
+      ],
+      "outputs": [
+        "Structured insights: action items, decisions, client wins, next steps"
+      ],
+      "success_criteria": "All key insights extracted and categorized",
+      "responsibility_id": "RESP-OPS-018",
+      "responsibility_name": "extract extract meeting insights",
+      "_original_action": "extract"
+    },
+    {
+      "step_number": 3,
+      "name": "Read Calendar event to get meeting attendees",
+      "action": "read",
+      "tool": "TOOL-INT-002 (Google Calendar MCP Connector)",
+      "responsibility": "Calendar connector (automated)",
+      "placement": "Google Calendar API",
+      "duration": "10-15 seconds (automated)",
+      "dependencies": [
+        "Step 2"
+      ],
+      "inputs": [
+        "Meeting date/time or event ID"
+      ],
+      "outputs": [
+        "List of meeting attendees with email addresses"
+      ],
+      "success_criteria": "All attendees identified",
+      "responsibility_id": "RESP-OPS-019",
+      "responsibility_name": "read read calendar event",
+      "_original_action": "read"
+    },
+    {
+      "step_number": 4,
+      "name": "Draft follow-up emails for each attendee",
+      "action": "generate",
+      "tool": "TOOL-INT-001 (Gmail MCP Connector) + Claude",
+      "responsibility": "Claude AI (automated)",
+      "placement": "Gmail Drafts",
+      "duration": "1-2 minutes (automated)",
+      "dependencies": [
+        "Step 2",
+        "Step 3"
+      ],
+      "inputs": [
+        "Meeting insights",
+        "Attendee list"
+      ],
+      "outputs": [
+        "Personalized email drafts for each attendee"
+      ],
+      "success_criteria": "Email drafts created with action items and next steps",
+      "responsibility_id": "RESP-OPS-020",
+      "responsibility_name": "generate emails",
+      "_original_action": "generate"
+    },
+    {
+      "step_number": 5,
+      "name": "Update CRM with meeting notes and client wins",
+      "action": "update",
+      "tool": "TOOL-INT-003 (CRM MCP Connector)",
+      "responsibility": "CRM connector (automated)",
+      "placement": "CRM - Client record",
+      "duration": "30-60 seconds (automated)",
+      "dependencies": [
+        "Step 2"
+      ],
+      "inputs": [
+        "Meeting insights",
+        "Client wins",
+        "Decisions made"
+      ],
+      "outputs": [
+        "CRM record updated"
+      ],
+      "success_criteria": "Meeting notes, wins, and next steps logged in CRM",
+      "responsibility_id": "RESP-OPS-021",
+      "responsibility_name": "update crm",
+      "_original_action": "update"
+    },
+    {
+      "step_number": 6,
+      "name": "Review email drafts and CRM updates",
+      "action": "review",
+      "tool": "Gmail + CRM",
+      "responsibility": "Operations Manager",
+      "placement": "Gmail Drafts + CRM",
+      "duration": "2-3 minutes",
+      "dependencies": [
+        "Step 4",
+        "Step 5"
+      ],
+      "inputs": [
+        "Generated email drafts",
+        "CRM updates"
+      ],
+      "outputs": [
+        "Approved or edited drafts"
+      ],
+      "success_criteria": "All drafts reviewed, edits made if needed",
+      "responsibility_id": "RESP-OPS-022",
+      "responsibility_name": "review emails",
+      "_original_action": "review"
+    },
+    {
+      "step_number": 7,
+      "name": "Send approved follow-up emails",
+      "action": "send",
+      "tool": "Gmail",
+      "responsibility": "Operations Manager",
+      "placement": "Gmail",
+      "duration": "30 seconds",
+      "dependencies": [
+        "Step 6"
+      ],
+      "inputs": [
+        "Approved email drafts"
+      ],
+      "outputs": [
+        "Emails sent to all attendees"
+      ],
+      "success_criteria": "All follow-up emails sent successfully",
+      "responsibility_id": "RESP-OPS-003",
+      "responsibility_name": "send emails",
+      "_original_action": "send"
+    }
+  ],
+  "checklist": [
+    {
+      "item": "All 3 MCP connectors deployed and tested",
+      "guide": "Gmail, Calendar, CRM connectors must be working before execution",
+      "required": true
+    },
+    {
+      "item": "Meeting transcript includes all key discussion points",
+      "guide": "Use recording or detailed notes for best extraction results",
+      "required": true
+    },
+    {
+      "item": "Action items clearly extracted from meeting",
+      "guide": "Verify Claude identified all action items and owners",
+      "required": true
+    },
+    {
+      "item": "Email drafts personalized for each attendee",
+      "guide": "Each email should reference specific action items for that person",
+      "required": true
+    },
+    {
+      "item": "CRM updated with client wins and decisions",
+      "guide": "Log positive outcomes and next steps for sales tracking",
+      "required": true
+    },
+    {
+      "item": "Human review completed before sending",
+      "guide": "Always review AI-generated content before sending to clients",
+      "required": true
+    }
+  ],
+  "performance_metrics": {
+    "time_savings": "15+ hours per week",
+    "automation_execution_time": "1-4 minutes",
+    "setup_time": "20-30 minutes (one-time)",
+    "success_rate": "85%+",
+    "roi": "30-45:1 (setup time vs weekly time saved)"
+  },
+  "best_practices": [
+    "Most powerful time-saving workflow (15+ hrs/week)",
+    "Stacked connectors enable multi-app automation",
+    "Use detailed meeting transcripts for best extraction",
+    "Always review AI-generated content before sending",
+    "Log client wins immediately for sales tracking"
+  ],
+  "prerequisites": [
+    "3 MCP connectors deployed (Gmail, Calendar, CRM)",
+    "Claude Desktop App configured",
+    "OAuth credentials configured for Google APIs",
+    "CRM API access enabled"
+  ],
+  "common_issues": [
+    {
+      "issue": "Connector authentication failure",
+      "solution": "Re-authenticate OAuth credentials in Google Cloud Console"
+    },
+    {
+      "issue": "Missing action items in extraction",
+      "solution": "Provide more detailed transcript, use recording transcription"
+    },
+    {
+      "issue": "Email drafts lack personalization",
+      "solution": "Review meeting insights, add context to transcript"
+    },
+    {
+      "issue": "CRM update fails",
+      "solution": "Check CRM API connection, verify client record exists"
+    }
+  ],
+  "unique_value": "Stacked connectors enable complex multi-app workflows (Calendar → Gmail → CRM) that execute in 1-4 minutes vs 1-2 hours manual",
+  "tags": [
+    "automation",
+    "mcp",
+    "stacked_workflow",
+    "post_meeting",
+    "crm",
+    "email",
+    "calendar"
+  ],
+  "related_workflows": [
+    "WF-AI-005"
+  ],
+  "related_skills": [
+    "SKL-073",
+    "SKL-074"
+  ],
+  "related_professions": [
+    "Operations Manager",
+    "Account Executive",
+    "Automation Specialist"
+  ],
+  "version": "1.0",
+  "created": "2025-11-12",
+  "last_updated": "2025-11-12",
+  "source": "Video_008_MCP_Connector_Tutorial",
+  "responsibility_id": "RESP-OPS-016",
+  "responsibility_name": "automate post-meeting workflow",
+  "_original_action": "Automate",
+  "_original_object": "Post-Meeting Workflow"
+}

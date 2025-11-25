@@ -1,0 +1,14 @@
+{
+    "milestone_template_id": "Milestone-Template-022",
+    "name": "Old Client Reengagement Workflow",
+    "category": "Workflow Migration",
+    "department": "SALES",
+    "description": "Migrated from Workflows/Old_Client_Reengagement_Workflow.yaml. Milestone representing the old client reengagement process.",
+    "phase": "Client Success & Sales",
+    "can_run_parallel": false,
+    "dependencies": [],
+    "task_templates": [],
+    "expected_reports": [],
+    "version": "1.0",
+    "source_workflow_file": "ENTITIES/TASK_MANAGERS/Workflows/Old_Client_Reengagement_Workflow.yaml"
+}

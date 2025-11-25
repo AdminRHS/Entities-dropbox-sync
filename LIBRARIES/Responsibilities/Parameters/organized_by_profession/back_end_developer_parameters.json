@@ -1,0 +1,234 @@
+{
+  "metadata": {
+    "profession_name": "back end developer",
+    "department": "developers",
+    "created_date": "2025-01-19T00:00:00.000Z", 
+    "description": "Parameters specific to backend developer types and technical activities",
+    "data_source": "parameters.json",
+    "organization_method": "type_to_profession_mapping"
+  },
+  "summary": {
+    "unique_types": [
+      "internal api",
+      "external api",
+      "public api", 
+      "private api",
+      "partner api",
+      "full backup",
+      "incremental backup",
+      "differential backup",
+      "mirror backup",
+      "memory cache",
+      "disk cache",
+      "web cache",
+      "database cache",
+      "system configuration",
+      "user configuration",
+      "network configuration",
+      "security configuration",
+      "docker container",
+      "kubernetes container", 
+      "virtual machine",
+      "container cluster",
+      "sql database",
+      "nosql database",
+      "graph database",
+      "time-series database",
+      "direct dependency",
+      "transitive dependency",
+      "development dependency",
+      "production dependency"
+    ],
+    "total_parameters": 124,
+    "parameter_categories": ["api_management", "data_storage", "system_configuration", "performance_optimization", "security"]
+  },
+  "parameters_by_type": {
+    "internal_api": [
+      "authentication method",
+      "throughput",
+      "versioning"
+    ],
+    "external_api": [
+      "security protocols",
+      "data format",
+      "access rate limits"
+    ],
+    "public_api": [
+      "throttling policies",
+      "documentation quality",
+      "public endpoints"
+    ],
+    "private_api": [
+      "access control",
+      "integration ease",
+      "data privacy"
+    ],
+    "partner_api": [
+      "SLA compliance",
+      "partnership level", 
+      "data sharing policies"
+    ],
+    "full_backup": [
+      "storage space required",
+      "restore time",
+      "data integrity"
+    ],
+    "incremental_backup": [
+      "change tracking",
+      "backup frequency",
+      "recovery point objective"
+    ],
+    "differential_backup": [
+      "data growth rate",
+      "cumulative changes size", 
+      "recovery speed"
+    ],
+    "mirror_backup": [
+      "synchronization frequency",
+      "data redundancy",
+      "real-time access"
+    ],
+    "memory_cache": [
+      "cache hit rate",
+      "eviction policy",
+      "memory utilization"
+    ],
+    "disk_cache": [
+      "read/write speed",
+      "cache size",
+      "data durability"
+    ],
+    "web_cache": [
+      "cache validation",
+      "content freshness",
+      "load reduction"
+    ],
+    "database_cache": [
+      "query cache size",
+      "cache hit ratio",
+      "eviction policy"
+    ],
+    "system_configuration": [
+      "access control",
+      "audit trail",
+      "configuration rollback"
+    ],
+    "user_configuration": [
+      "customization options",
+      "profile management",
+      "ease of use"
+    ],
+    "network_configuration": [
+      "bandwidth capacity",
+      "latency thresholds",
+      "firewall settings"
+    ],
+    "security_configuration": [
+      "encryption standards",
+      "authentication protocols",
+      "access control lists"
+    ],
+    "docker_container": [
+      "image size",
+      "build speed",
+      "portability"
+    ],
+    "kubernetes_container": [
+      "orchestration efficiency",
+      "auto-scaling",
+      "resource limits"
+    ],
+    "virtual_machine": [
+      "allocation efficiency",
+      "OS compatibility",
+      "snapshot capability"
+    ],
+    "container_cluster": [
+      "cluster health",
+      "deployment strategy",
+      "node scalability"
+    ],
+    "sql_database": [
+      "schema flexibility",
+      "query speed",
+      "transaction support"
+    ],
+    "nosql_database": [
+      "scalability",
+      "schema-less design",
+      "data redundancy"
+    ],
+    "graph_database": [
+      "relationship mapping",
+      "traversal performance",
+      "index optimization"
+    ],
+    "time_series_database": [
+      "data retention policy",
+      "write throughput",
+      "query efficiency"
+    ],
+    "direct_dependency": [
+      "version compatibility",
+      "load time",
+      "dependency tree size"
+    ],
+    "transitive_dependency": [
+      "propagation impact",
+      "indirect load time",
+      "maintenance complexity"
+    ],
+    "development_dependency": [
+      "integration ease",
+      "environment specificity",
+      "update frequency"
+    ],
+    "production_dependency": [
+      "runtime efficiency",
+      "criticality",
+      "fallback mechanisms"
+    ]
+  },
+  "entries": [
+    {
+      "Types": "internal api",
+      "Parameters": "authentication method"
+    },
+    {
+      "Types": "internal api",
+      "Parameters": "throughput"
+    },
+    {
+      "Types": "internal api",
+      "Parameters": "versioning"
+    },
+    {
+      "Types": "external api",
+      "Parameters": "security protocols"
+    },
+    {
+      "Types": "external api",
+      "Parameters": "data format"
+    },
+    {
+      "Types": "external api",
+      "Parameters": "access rate limits"
+    },
+    {
+      "Types": "full backup",
+      "Parameters": "storage space required"
+    },
+    {
+      "Types": "full backup",
+      "Parameters": "restore time"
+    },
+    {
+      "Types": "full backup",
+      "Parameters": "data integrity"
+    },
+    {
+      "Types": "memory cache",
+      "Parameters": "cache hit rate"
+    }
+  ]
+}

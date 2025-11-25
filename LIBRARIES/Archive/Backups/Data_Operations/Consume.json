@@ -1,0 +1,45 @@
+{
+  "Actions": "consume",
+  "Processes": "consuming",
+  "Results": "consumed",
+  "Departments": "managers, developers",
+  "Professions": "ai engineer, operations manager, lead generator",
+  "category": "Data_Operations",
+  "source": "Video_006_Lead_Generation_Analysis",
+  "discovery_date": "2025-11-12",
+  "description": "Use up credits, resources, API calls, or quota in data operations",
+  "typical_use_cases": [
+    "Consume API credits for enrichment",
+    "Use scraping quota",
+    "Deplete search credits",
+    "Utilize included leads quota",
+    "Burn through rate limits"
+  ],
+  "common_objects": [
+    "API credentials",
+    "Lead List",
+    "Enrichment Pipeline"
+  ],
+  "common_tools": [
+    "Anymailfinder",
+    "Instantly.ai",
+    "Apify",
+    "Airscale",
+    "API platforms"
+  ],
+  "related_actions": [
+    "use",
+    "deplete",
+    "utilize",
+    "spend"
+  ],
+  "quota_examples": [
+    "Instantly.ai: 4,500 leads/month included",
+    "Airscale: Credit-based consumption",
+    "Apify: Platform credits consumed per run"
+  ],
+  "workflows": [
+    "Run enrichment → Consume credits → Track remaining quota",
+    "Execute scraper → Consume API calls → Monitor limits"
+  ]
+}

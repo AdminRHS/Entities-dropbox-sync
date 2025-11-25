@@ -1,0 +1,39 @@
+{
+  "milestone_template_id": "Milestone-Template-009",
+  "name": "Behance Project Publishing Workflow",
+  "category": "Workflow Migration",
+  "department": "MARKETING",
+  "description": "Migrated from Workflows/Behance_Project_Publishing_Workflow.yaml. Milestone representing the end-to-end Behance project publishing process.",
+  "phase": "Design & Portfolio",
+  "can_run_parallel": false,
+  "dependencies": [],
+  "task_templates": [
+    {
+      "task_template_id": "Task-Template-100",
+      "task_template_name": "Select and Prepare Project"
+    },
+    {
+      "task_template_id": "Task-Template-101",
+      "task_template_name": "Write Project Description"
+    },
+    {
+      "task_template_id": "Task-Template-102",
+      "task_template_name": "Design Behance Cover Image"
+    },
+    {
+      "task_template_id": "Task-Template-103",
+      "task_template_name": "Upload Project Images to Behance"
+    },
+    {
+      "task_template_id": "Task-Template-104",
+      "task_template_name": "Add Behance Tags and Categories"
+    },
+    {
+      "task_template_id": "Task-Template-105",
+      "task_template_name": "Publish and Promote Behance Project"
+    }
+  ],
+  "expected_reports": [],
+  "version": "1.0",
+  "source_workflow_file": "ENTITIES/TASK_MANAGERS/Workflows/Behance_Project_Publishing_Workflow.yaml"
+}

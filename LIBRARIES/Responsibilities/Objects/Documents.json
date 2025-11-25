@@ -1,0 +1,175 @@
+{
+  "entity_type": "LIBRARIES",
+  "sub_entity": "Objects",
+  "category": "Documents",
+  "objects": [
+    {
+      "object_id": "OBJ-DOC-001",
+      "name": "Job Posting",
+      "category": "Documents",
+      "description": "A published announcement for an open position",
+      "attributes": [
+        "title",
+        "description",
+        "requirements",
+        "skills",
+        "experience_level",
+        "compensation",
+        "location",
+        "remote_options",
+        "application_deadline",
+        "hiring_manager",
+        "status"
+      ],
+      "common_actions": [
+        "Create",
+        "Update",
+        "Publish",
+        "Archive",
+        "Review"
+      ],
+      "storage_location": "Entities/JOBS/Job_Postings/",
+      "related_entities": [
+        "JOBS",
+        "TALENTS",
+        "LIBRARIES/Professions"
+      ],
+      "file_format": "JSON",
+      "example": "JOBS_Job_Posting_Frontend_Developer_2025_01_15.json",
+      "tags": ["document", "recruitment", "job", "hiring"]
+    },
+    {
+      "object_id": "OBJ-DOC-002",
+      "name": "Client Proposal",
+      "category": "Documents",
+      "description": "A formal document outlining solution, pricing, and terms for a potential client",
+      "attributes": [
+        "client_name",
+        "proposal_title",
+        "solution_description",
+        "pricing",
+        "timeline",
+        "terms",
+        "deliverables",
+        "status",
+        "submission_date"
+      ],
+      "common_actions": [
+        "Create",
+        "Update",
+        "Send",
+        "Review",
+        "Approve"
+      ],
+      "storage_location": "Entities/BUSINESSES/Clients/Active_Projects/",
+      "related_entities": [
+        "BUSINESSES",
+        "TASK_MANAGERS"
+      ],
+      "file_format": "PDF, DOCX",
+      "example": "BUSINESSES_Client_TechCorp_Project_Proposal_2025_02_01.pdf",
+      "tags": ["document", "sales", "proposal", "client"]
+    },
+    {
+      "object_id": "OBJ-DOC-003",
+      "name": "Report",
+      "category": "Documents",
+      "description": "A structured document presenting information, analysis, or findings",
+      "attributes": [
+        "report_title",
+        "report_type",
+        "period",
+        "data_source",
+        "findings",
+        "recommendations",
+        "metrics",
+        "charts",
+        "status"
+      ],
+      "common_actions": [
+        "Create",
+        "Generate",
+        "Analyze",
+        "Review",
+        "Share"
+      ],
+      "storage_location": "Knowledge_Library/DP/DP.003/",
+      "related_entities": [
+        "TASK_MANAGERS",
+        "BUSINESSES",
+        "TALENTS"
+      ],
+      "file_format": "PDF, XLSX, DOCX",
+      "example": "TASK_MANAGERS_Report_Monthly_Performance_2025_01.pdf",
+      "tags": ["document", "report", "analysis", "metrics"]
+    },
+    {
+      "object_id": "OBJ-DOC-004",
+      "name": "Contract",
+      "category": "Documents",
+      "description": "A legally binding agreement between parties",
+      "attributes": [
+        "contract_number",
+        "parties",
+        "start_date",
+        "end_date",
+        "terms",
+        "pricing",
+        "deliverables",
+        "payment_terms",
+        "status"
+      ],
+      "common_actions": [
+        "Create",
+        "Review",
+        "Sign",
+        "Update",
+        "Archive"
+      ],
+      "storage_location": "Entities/BUSINESSES/Clients/Contract_Documents/",
+      "related_entities": [
+        "BUSINESSES",
+        "SETTINGS"
+      ],
+      "file_format": "PDF, DOCX",
+      "example": "BUSINESSES_Contract_TechCorp_2025_01_15.pdf",
+      "tags": ["document", "legal", "contract", "agreement"]
+    },
+    {
+      "object_id": "OBJ-DOC-005",
+      "name": "Invoice",
+      "category": "Documents",
+      "description": "A document requesting payment for goods or services",
+      "attributes": [
+        "invoice_number",
+        "client_name",
+        "issue_date",
+        "due_date",
+        "items",
+        "amount",
+        "currency",
+        "payment_status",
+        "payment_method"
+      ],
+      "common_actions": [
+        "Create",
+        "Send",
+        "Track",
+        "Update",
+        "Archive"
+      ],
+      "storage_location": "Entities/BUSINESSES/Clients/Active_Projects/",
+      "related_entities": [
+        "BUSINESSES",
+        "SETTINGS/Currencies_Rates"
+      ],
+      "file_format": "PDF, XLSX",
+      "example": "BUSINESSES_Invoice_TechCorp_2025_01_INV-001.pdf",
+      "tags": ["document", "financial", "invoice", "payment"]
+    }
+  ],
+  "version": "1.0",
+  "created": "2025-11-01",
+  "last_updated": "2025-11-01"
+}
+

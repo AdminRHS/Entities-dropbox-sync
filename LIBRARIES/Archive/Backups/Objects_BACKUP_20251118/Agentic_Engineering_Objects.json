@@ -1,0 +1,518 @@
+{
+  "entity_type": "LIBRARIES",
+  "sub_entity": "Objects",
+  "category": "Agentic_Engineering",
+  "objects": [
+    {
+      "object_id": "OBJ-AI-017",
+      "name": "AI Agent",
+      "category": "Agentic_Engineering / AI Systems",
+      "description": "Autonomous AI system built with frameworks like Pydantic AI that can execute tasks, use tools, and make decisions independently",
+      "attributes": [
+        "agent_name",
+        "agent_type",
+        "framework_used",
+        "tools_available",
+        "llm_provider",
+        "system_prompt",
+        "memory_enabled",
+        "observability_enabled",
+        "deployment_status"
+      ],
+      "common_actions": [
+        "Build",
+        "Deploy",
+        "Monitor",
+        "Configure",
+        "Add_Tools",
+        "Test",
+        "Evaluate",
+        "Debug"
+      ],
+      "storage_location": "Application codebase",
+      "related_entities": [
+        "TOOL-AI-080: Pydantic AI",
+        "TOOL-AI-081: LangGraph",
+        "TOOL-AI-083: Langfuse",
+        "TOOL-AI-086: Mem0",
+        "WF-AI-001: Develop and Deploy AI Application"
+      ],
+      "file_format": "Python code",
+      "example": "CustomerSupportAgent (RAG + long-term memory)",
+      "tags": ["ai-agent", "autonomous", "agentic", "llm"],
+      "subcategories": ["General Agent", "RAG Agent", "Web Automation Agent", "Multi-Agent System"]
+    },
+    {
+      "object_id": "OBJ-AI-018",
+      "name": "Full Stack Application",
+      "category": "Agentic_Engineering / Deliverables",
+      "description": "Complete web application with frontend (React), backend (FastAPI), database (Postgres), and AI agent integration",
+      "attributes": [
+        "application_name",
+        "frontend_framework",
+        "backend_framework",
+        "database",
+        "ai_agent_included",
+        "deployment_platform",
+        "ci_cd_enabled",
+        "monitoring_enabled",
+        "containerized"
+      ],
+      "common_actions": [
+        "Build",
+        "Deploy",
+        "Test",
+        "Monitor",
+        "Scale",
+        "Update",
+        "Containerize"
+      ],
+      "storage_location": "Git repository",
+      "related_entities": [
+        "TOOL-DEV-002: FastAPI",
+        "TOOL-DEV-003: React",
+        "TOOL-DB-002: PostgreSQL",
+        "TOOL-DEV-005: Docker",
+        "TOOL-CLOUD-001: Render",
+        "WF-AI-001: Develop and Deploy AI Application"
+      ],
+      "file_format": "Project directory structure",
+      "example": "Dynamus AI Agent Mastery course app (multi-agent chat interface)",
+      "tags": ["full-stack", "web-app", "production", "ai-integrated"],
+      "tech_stack_example": "React + Vite + FastAPI + Postgres + Docker + Render"
+    },
+    {
+      "object_id": "OBJ-AI-019",
+      "name": "API Endpoint",
+      "category": "Agentic_Engineering / Backend Components",
+      "description": "RESTful API endpoint built with FastAPI that serves AI agent functionality or data",
+      "attributes": [
+        "endpoint_path",
+        "http_method",
+        "request_schema",
+        "response_schema",
+        "authentication_required",
+        "rate_limit",
+        "agent_integration",
+        "documentation"
+      ],
+      "common_actions": [
+        "Create",
+        "Test",
+        "Document",
+        "Deploy",
+        "Monitor",
+        "Secure",
+        "Optimize"
+      ],
+      "storage_location": "Backend codebase (FastAPI)",
+      "related_entities": [
+        "TOOL-DEV-002: FastAPI",
+        "TOOL-AUTH-001: Auth0",
+        "TOOL-DEV-012: Sentry",
+        "OBJ-AI-017: AI Agent"
+      ],
+      "file_format": "Python function with decorators",
+      "example": "/api/v1/chat (POST) - Agent chat completion endpoint",
+      "tags": ["api", "endpoint", "backend", "rest"],
+      "documentation_format": "OpenAPI/Swagger (automatic with FastAPI)"
+    },
+    {
+      "object_id": "OBJ-AI-020",
+      "name": "Frontend UI Component",
+      "category": "Agentic_Engineering / Frontend Components",
+      "description": "React component built with shadcn/ui and Tailwind CSS for agent interfaces",
+      "attributes": [
+        "component_name",
+        "component_type",
+        "props",
+        "state_management",
+        "styling_library",
+        "reusable",
+        "accessible",
+        "responsive"
+      ],
+      "common_actions": [
+        "Create",
+        "Style",
+        "Test",
+        "Integrate",
+        "Optimize",
+        "Document"
+      ],
+      "storage_location": "Frontend codebase (React)",
+      "related_entities": [
+        "TOOL-DEV-003: React",
+        "TOOL-DEV-010: shadcn/ui",
+        "TOOL-DEV-011: Tailwind CSS",
+        "TOOL-AI-040: Lovable.dev"
+      ],
+      "file_format": "TSX/JSX file",
+      "example": "ChatInterface.tsx - AI agent chat component",
+      "tags": ["react", "component", "ui", "frontend"],
+      "design_system": "shadcn/ui + Tailwind CSS"
+    },
+    {
+      "object_id": "OBJ-AI-021",
+      "name": "RAG System",
+      "category": "Agentic_Engineering / AI Systems",
+      "description": "Complete Retrieval-Augmented Generation system combining document extraction, vector storage, knowledge graphs, and AI agent",
+      "attributes": [
+        "system_name",
+        "data_sources",
+        "extraction_tools",
+        "vector_database",
+        "graph_database",
+        "agent_framework",
+        "memory_enabled",
+        "evaluation_metrics",
+        "observability_enabled"
+      ],
+      "common_actions": [
+        "Build",
+        "Extract_Data",
+        "Index",
+        "Query",
+        "Evaluate",
+        "Monitor",
+        "Optimize"
+      ],
+      "storage_location": "Multi-component system",
+      "related_entities": [
+        "TOOL-AI-084: Docling",
+        "TOOL-AI-085: Crawl4AI",
+        "TOOL-DB-002: PostgreSQL",
+        "TOOL-DB-006: PGVector",
+        "TOOL-DB-001: Neo4j",
+        "TOOL-AI-087: Graphiti",
+        "TOOL-AI-086: Mem0",
+        "TOOL-AI-088: Ragas",
+        "WF-RAG-001: Build RAG System"
+      ],
+      "file_format": "Multi-component architecture",
+      "example": "Document QA System (PDFs + websites → Postgres + Neo4j → Agent)",
+      "tags": ["rag", "retrieval", "generation", "knowledge-base"],
+      "pipeline": "Extract (Docling/Crawl4AI) → Store (Postgres+PGVector / Neo4j) → Agent (Pydantic AI) → Evaluate (Ragas)"
+    },
+    {
+      "object_id": "OBJ-AI-022",
+      "name": "Knowledge Graph",
+      "category": "Agentic_Engineering / Data Structures",
+      "description": "Graph database structure storing entities and relationships extracted from documents using Graphiti and Neo4j",
+      "attributes": [
+        "graph_name",
+        "entity_count",
+        "relationship_count",
+        "data_sources",
+        "extraction_method",
+        "graph_database",
+        "query_interface",
+        "visualization_enabled"
+      ],
+      "common_actions": [
+        "Build",
+        "Extract_Entities",
+        "Extract_Relationships",
+        "Query",
+        "Visualize",
+        "Expand",
+        "Search"
+      ],
+      "storage_location": "Neo4j database",
+      "related_entities": [
+        "TOOL-DB-001: Neo4j",
+        "TOOL-AI-087: Graphiti",
+        "WF-RAG-001: Build RAG System"
+      ],
+      "file_format": "Graph database (nodes + edges)",
+      "example": "Technical documentation graph (APIs → Functions → Parameters)",
+      "tags": ["knowledge-graph", "entities", "relationships", "neo4j"],
+      "use_case": "Advanced RAG with entity-relationship reasoning"
+    },
+    {
+      "object_id": "OBJ-AI-023",
+      "name": "Containerized Application",
+      "category": "Agentic_Engineering / Deployment",
+      "description": "Docker container packaging an application with all dependencies for consistent deployment",
+      "attributes": [
+        "container_name",
+        "base_image",
+        "application_type",
+        "exposed_ports",
+        "environment_variables",
+        "volume_mounts",
+        "resource_limits",
+        "deployment_platform"
+      ],
+      "common_actions": [
+        "Build",
+        "Tag",
+        "Push",
+        "Pull",
+        "Run",
+        "Stop",
+        "Deploy",
+        "Scale"
+      ],
+      "storage_location": "Container registry",
+      "related_entities": [
+        "TOOL-DEV-005: Docker",
+        "TOOL-CLOUD-001: Render",
+        "TOOL-CLOUD-002: DigitalOcean",
+        "WF-AI-001: Develop and Deploy AI Application"
+      ],
+      "file_format": "Docker image",
+      "example": "rag-agent-app:v1.0.0",
+      "tags": ["docker", "container", "deployment", "infrastructure"],
+      "benefit": "Solves 'works on my machine' problem"
+    },
+    {
+      "object_id": "OBJ-AI-024",
+      "name": "CI/CD Pipeline",
+      "category": "Agentic_Engineering / Automation",
+      "description": "Automated pipeline using GitHub Actions for testing, code review, and deployment",
+      "attributes": [
+        "pipeline_name",
+        "trigger_events",
+        "test_stages",
+        "code_review_enabled",
+        "deployment_stages",
+        "notifications",
+        "success_rate",
+        "average_duration"
+      ],
+      "common_actions": [
+        "Configure",
+        "Trigger",
+        "Run_Tests",
+        "Review_Code",
+        "Deploy",
+        "Monitor",
+        "Optimize"
+      ],
+      "storage_location": ".github/workflows/ directory",
+      "related_entities": [
+        "TOOL-DEV-006: GitHub Actions",
+        "TOOL-DEV-007: Pytest",
+        "TOOL-DEV-008: Jest",
+        "TOOL-AI-090: CodeRabbit",
+        "WF-AI-001: Develop and Deploy AI Application"
+      ],
+      "file_format": "YAML workflow file",
+      "example": "deploy.yml - Test → Code Review → Docker Build → Deploy to Render",
+      "tags": ["ci-cd", "automation", "testing", "deployment"],
+      "stages": "GitHub Actions → Pytest/Jest → CodeRabbit → Docker → Render"
+    },
+    {
+      "object_id": "OBJ-AI-025",
+      "name": "Automated Test Suite",
+      "category": "Agentic_Engineering / Quality Assurance",
+      "description": "Collection of automated tests (unit, integration, e2e) for Python and TypeScript code",
+      "attributes": [
+        "test_suite_name",
+        "language",
+        "testing_framework",
+        "test_count",
+        "coverage_percentage",
+        "test_types",
+        "ci_integration",
+        "last_run_status"
+      ],
+      "common_actions": [
+        "Write",
+        "Run",
+        "Debug",
+        "Update",
+        "Maintain",
+        "Monitor_Coverage"
+      ],
+      "storage_location": "tests/ directory",
+      "related_entities": [
+        "TOOL-DEV-007: Pytest",
+        "TOOL-DEV-008: Jest",
+        "TOOL-DEV-006: GitHub Actions",
+        "WF-AI-001: Develop and Deploy AI Application"
+      ],
+      "file_format": "Python (.py) / TypeScript (.test.ts)",
+      "example": "tests/test_agent.py - 45 tests for AI agent functionality",
+      "tags": ["testing", "automation", "quality", "ci-cd"],
+      "test_types": ["Unit", "Integration", "End-to-end", "API"]
+    },
+    {
+      "object_id": "OBJ-AI-026",
+      "name": "Multi-Agent System",
+      "category": "Agentic_Engineering / AI Systems",
+      "description": "Complex system of multiple AI agents coordinated by LangGraph with state management and routing",
+      "attributes": [
+        "system_name",
+        "agent_count",
+        "coordination_framework",
+        "state_management",
+        "routing_logic",
+        "human_in_loop_enabled",
+        "persistence_enabled",
+        "observability_enabled"
+      ],
+      "common_actions": [
+        "Build",
+        "Coordinate",
+        "Route",
+        "Monitor",
+        "Manage_State",
+        "Visualize",
+        "Debug"
+      ],
+      "storage_location": "Application codebase",
+      "related_entities": [
+        "TOOL-AI-080: Pydantic AI",
+        "TOOL-AI-081: LangGraph",
+        "TOOL-AI-083: Langfuse",
+        "WF-AI-001: Develop and Deploy AI Application"
+      ],
+      "file_format": "Python graph definition",
+      "example": "SEO + Social + Competitor Research multi-agent (from Dynamus course)",
+      "tags": ["multi-agent", "orchestration", "langgraph", "complex-workflows"],
+      "use_case": "Parallel research agents → aggregation → final report"
+    },
+    {
+      "object_id": "OBJ-AI-027",
+      "name": "Evaluation System",
+      "category": "Agentic_Engineering / Quality Assurance",
+      "description": "Systematic evaluation mechanism for measuring and improving AI agent performance through code-based tests and LLM-as-a-judge methods",
+      "attributes": [
+        "eval_name",
+        "eval_type",
+        "ground_truth_type",
+        "measurement_method",
+        "success_criteria",
+        "test_cases",
+        "pass_rate",
+        "improvement_metrics"
+      ],
+      "common_actions": [
+        "Create",
+        "Run",
+        "Measure",
+        "Evaluate",
+        "Improve",
+        "Iterate",
+        "Grade",
+        "Compare"
+      ],
+      "storage_location": "evaluations/ directory or testing framework",
+      "related_entities": [
+        "OBJ-AI-017: AI Agent",
+        "OBJ-AI-029: Ground Truth Dataset",
+        "TOOL-DEV-007: Pytest (for code-based evals)",
+        "LLMs (for LLM-as-a-judge evals)"
+      ],
+      "file_format": "Python test files, evaluation scripts",
+      "example": "Customer email eval: checks for competitor mentions (code-based), Essay quality eval: checks topic coverage (LLM-as-a-judge)",
+      "tags": ["evaluation", "testing", "quality-assurance", "systematic-improvement"],
+      "eval_types": [
+        "Code-based objective evaluation",
+        "Code-based universal standard",
+        "LLM-as-a-judge subjective evaluation",
+        "LLM-as-a-judge with ground truth"
+      ],
+      "business_value": "Enables systematic agent improvement; prevents bad behaviors; massive ROI through measurable quality improvements",
+      "source": "Video_013_Andrew_Ng_Agentic_AI_Course"
+    },
+    {
+      "object_id": "OBJ-AI-028",
+      "name": "Agentic Workflow",
+      "category": "Agentic_Engineering / AI Systems",
+      "description": "Multi-step process where LLM-based applications execute tasks autonomously with varying levels of control, implementing design patterns like Reflection, Tool Use, Planning, or Multi-Agent",
+      "attributes": [
+        "workflow_name",
+        "design_pattern",
+        "autonomy_level",
+        "steps_count",
+        "tools_used",
+        "agents_involved",
+        "predictability",
+        "complexity"
+      ],
+      "common_actions": [
+        "Build",
+        "Design",
+        "Implement",
+        "Execute",
+        "Monitor",
+        "Optimize",
+        "Evaluate"
+      ],
+      "storage_location": "Application codebase, workflow definitions",
+      "related_entities": [
+        "OBJ-AI-017: AI Agent",
+        "OBJ-AI-026: Multi-Agent System",
+        "OBJ-AI-027: Evaluation System"
+      ],
+      "file_format": "Code (Python), workflow configuration",
+      "example": "Customer email response workflow (Tool Use pattern), Essay writing workflow (Reflection pattern), Marketing campaign (Multi-Agent pattern)",
+      "tags": ["agentic-workflow", "design-patterns", "automation", "llm"],
+      "design_patterns": [
+        "Reflection pattern (draft → reflect → improve)",
+        "Tool Use pattern (agent uses external capabilities)",
+        "Planning pattern (agent creates plan first, then executes)",
+        "Multi-Agent pattern (specialized agents coordinate)"
+      ],
+      "autonomy_spectrum": {
+        "less_autonomous": "Predefined steps, high control, predictable",
+        "more_autonomous": "Agent decides process, low control, creative"
+      },
+      "business_value": "10x better results than calling LLM directly; faster, more modular, systematic approach to complex tasks",
+      "source": "Video_013_Andrew_Ng_Agentic_AI_Course"
+    },
+    {
+      "object_id": "OBJ-AI-029",
+      "name": "Ground Truth Dataset",
+      "category": "Agentic_Engineering / Data",
+      "description": "Manually verified correct data used as benchmark for evaluating AI agent outputs, either unique per example or universal across all examples",
+      "attributes": [
+        "dataset_name",
+        "ground_truth_type",
+        "example_count",
+        "verification_method",
+        "subject_matter_expert",
+        "data_format",
+        "accuracy_standard",
+        "last_verified"
+      ],
+      "common_actions": [
+        "Establish",
+        "Verify",
+        "Document",
+        "Compare",
+        "Update",
+        "Validate",
+        "Annotate"
+      ],
+      "storage_location": "Data files, annotation databases",
+      "related_entities": [
+        "OBJ-AI-027: Evaluation System",
+        "OBJ-AI-017: AI Agent"
+      ],
+      "file_format": "JSON, CSV, or database records with verified correct answers",
+      "example": "Per-example: Manually verified invoice due dates for 20 test invoices; Universal: Golden standard talking points that must appear in all marketing essays",
+      "tags": ["ground-truth", "evaluation", "benchmarking", "quality-standard"],
+      "ground_truth_types": [
+        "Per-example (unique correct answer for each input)",
+        "Universal (same standard applies to all inputs)"
+      ],
+      "use_cases": [
+        "Invoice date extraction validation",
+        "Essay topic coverage checking",
+        "Customer email tone assessment",
+        "Translation accuracy verification"
+      ],
+      "business_value": "Provides objective measure of agent accuracy; enables data-driven improvement; can't improve what you don't measure",
+      "source": "Video_013_Andrew_Ng_Agentic_AI_Course"
+    }
+  ],
+  "version": "1.1",
+  "created": "2025-11-13",
+  "last_updated": "2025-11-15",
+  "source": "Video_005_Agentic_Engineering_Tech_Stack, Video_013_Andrew_Ng_Agentic_AI_Course",
+  "notes": "Objects represent deliverables and components in agentic engineering workflows from prototype to production. Updated with Andrew Ng's agentic AI evaluation and workflow pattern objects."
+}

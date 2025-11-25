@@ -1,0 +1,1737 @@
+{
+  "entity_type": "LIBRARIES",
+  "library": "Actions",
+  "source_file": "Actions_Master.json",
+  "view_type": "command_verbs",
+  "total_actions": 432,
+  "actions": [
+    {
+      "action_id": "ACTION-001",
+      "verb": "abstract"
+    },
+    {
+      "action_id": "ACTION-002",
+      "verb": "access"
+    },
+    {
+      "action_id": "ACTION-003",
+      "verb": "acknowledge"
+    },
+    {
+      "action_id": "ACTION-004",
+      "verb": "adapt"
+    },
+    {
+      "action_id": "ACTION-005",
+      "verb": "add"
+    },
+    {
+      "action_id": "ACTION-006",
+      "verb": "address"
+    },
+    {
+      "action_id": "ACTION-007",
+      "verb": "adjust"
+    },
+    {
+      "action_id": "ACTION-008",
+      "verb": "aggregate"
+    },
+    {
+      "action_id": "ACTION-009",
+      "verb": "agree"
+    },
+    {
+      "action_id": "ACTION-010",
+      "verb": "Align"
+    },
+    {
+      "action_id": "ACTION-011",
+      "verb": "allocate"
+    },
+    {
+      "action_id": "ACTION-012",
+      "verb": "analyze"
+    },
+    {
+      "action_id": "ACTION-013",
+      "verb": "animate"
+    },
+    {
+      "action_id": "ACTION-014",
+      "verb": "announce"
+    },
+    {
+      "action_id": "ACTION-015",
+      "verb": "apply"
+    },
+    {
+      "action_id": "ACTION-016",
+      "verb": "approve"
+    },
+    {
+      "action_id": "ACTION-017",
+      "verb": "archive"
+    },
+    {
+      "action_id": "ACTION-018",
+      "verb": "arrange"
+    },
+    {
+      "action_id": "ACTION-019",
+      "verb": "ask"
+    },
+    {
+      "action_id": "ACTION-020",
+      "verb": "assemble"
+    },
+    {
+      "action_id": "ACTION-021",
+      "verb": "assess"
+    },
+    {
+      "action_id": "ACTION-022",
+      "verb": "assign"
+    },
+    {
+      "action_id": "ACTION-023",
+      "verb": "assist"
+    },
+    {
+      "action_id": "ACTION-024",
+      "verb": "attach"
+    },
+    {
+      "action_id": "ACTION-025",
+      "verb": "audit"
+    },
+    {
+      "action_id": "ACTION-026",
+      "verb": "automate"
+    },
+    {
+      "action_id": "ACTION-027",
+      "verb": "back up"
+    },
+    {
+      "action_id": "ACTION-028",
+      "verb": "backup"
+    },
+    {
+      "action_id": "ACTION-029",
+      "verb": "balance"
+    },
+    {
+      "action_id": "ACTION-030",
+      "verb": "begin"
+    },
+    {
+      "action_id": "ACTION-031",
+      "verb": "bid"
+    },
+    {
+      "action_id": "ACTION-032",
+      "verb": "blend"
+    },
+    {
+      "action_id": "ACTION-033",
+      "verb": "block"
+    },
+    {
+      "action_id": "ACTION-034",
+      "verb": "boost"
+    },
+    {
+      "action_id": "ACTION-035",
+      "verb": "brainstorm"
+    },
+    {
+      "action_id": "ACTION-036",
+      "verb": "break down"
+    },
+    {
+      "action_id": "ACTION-037",
+      "verb": "breakdown"
+    },
+    {
+      "action_id": "ACTION-038",
+      "verb": "build"
+    },
+    {
+      "action_id": "ACTION-039",
+      "verb": "cache"
+    },
+    {
+      "action_id": "ACTION-040",
+      "verb": "calculate"
+    },
+    {
+      "action_id": "ACTION-041",
+      "verb": "calibrate"
+    },
+    {
+      "action_id": "ACTION-042",
+      "verb": "capture"
+    },
+    {
+      "action_id": "ACTION-043",
+      "verb": "categorize"
+    },
+    {
+      "action_id": "ACTION-044",
+      "verb": "celebrate"
+    },
+    {
+      "action_id": "ACTION-045",
+      "verb": "check"
+    },
+    {
+      "action_id": "ACTION-046",
+      "verb": "choose"
+    },
+    {
+      "action_id": "ACTION-047",
+      "verb": "choreograph"
+    },
+    {
+      "action_id": "ACTION-048",
+      "verb": "circulate"
+    },
+    {
+      "action_id": "ACTION-049",
+      "verb": "clarify"
+    },
+    {
+      "action_id": "ACTION-050",
+      "verb": "classify"
+    },
+    {
+      "action_id": "ACTION-051",
+      "verb": "clean up"
+    },
+    {
+      "action_id": "ACTION-052",
+      "verb": "code"
+    },
+    {
+      "action_id": "ACTION-053",
+      "verb": "collaborate"
+    },
+    {
+      "action_id": "ACTION-054",
+      "verb": "collate"
+    },
+    {
+      "action_id": "ACTION-055",
+      "verb": "collect"
+    },
+    {
+      "action_id": "ACTION-056",
+      "verb": "communicate"
+    },
+    {
+      "action_id": "ACTION-057",
+      "verb": "compare"
+    },
+    {
+      "action_id": "ACTION-058",
+      "verb": "compile"
+    },
+    {
+      "action_id": "ACTION-059",
+      "verb": "compose"
+    },
+    {
+      "action_id": "ACTION-060",
+      "verb": "composite"
+    },
+    {
+      "action_id": "ACTION-061",
+      "verb": "conceptualize"
+    },
+    {
+      "action_id": "ACTION-062",
+      "verb": "conclude"
+    },
+    {
+      "action_id": "ACTION-063",
+      "verb": "conduct"
+    },
+    {
+      "action_id": "ACTION-064",
+      "verb": "configure"
+    },
+    {
+      "action_id": "ACTION-065",
+      "verb": "confirm"
+    },
+    {
+      "action_id": "ACTION-066",
+      "verb": "congratulate"
+    },
+    {
+      "action_id": "ACTION-067",
+      "verb": "consider"
+    },
+    {
+      "action_id": "ACTION-068",
+      "verb": "consolidate"
+    },
+    {
+      "action_id": "ACTION-069",
+      "verb": "construct"
+    },
+    {
+      "action_id": "ACTION-070",
+      "verb": "consult"
+    },
+    {
+      "action_id": "ACTION-071",
+      "verb": "contact"
+    },
+    {
+      "action_id": "ACTION-072",
+      "verb": "convert"
+    },
+    {
+      "action_id": "ACTION-073",
+      "verb": "coordinate"
+    },
+    {
+      "action_id": "ACTION-074",
+      "verb": "correct"
+    },
+    {
+      "action_id": "ACTION-075",
+      "verb": "correlate"
+    },
+    {
+      "action_id": "ACTION-076",
+      "verb": "craft"
+    },
+    {
+      "action_id": "ACTION-077",
+      "verb": "create"
+    },
+    {
+      "action_id": "ACTION-078",
+      "verb": "cross-check"
+    },
+    {
+      "action_id": "ACTION-079",
+      "verb": "cross-reference"
+    },
+    {
+      "action_id": "ACTION-080",
+      "verb": "cross-verify"
+    },
+    {
+      "action_id": "ACTION-081",
+      "verb": "curate"
+    },
+    {
+      "action_id": "ACTION-082",
+      "verb": "customize"
+    },
+    {
+      "action_id": "ACTION-083",
+      "verb": "decide"
+    },
+    {
+      "action_id": "ACTION-084",
+      "verb": "decommission"
+    },
+    {
+      "action_id": "ACTION-085",
+      "verb": "deepen"
+    },
+    {
+      "action_id": "ACTION-086",
+      "verb": "define"
+    },
+    {
+      "action_id": "ACTION-087",
+      "verb": "delegate"
+    },
+    {
+      "action_id": "ACTION-088",
+      "verb": "delete"
+    },
+    {
+      "action_id": "ACTION-089",
+      "verb": "delineate"
+    },
+    {
+      "action_id": "ACTION-090",
+      "verb": "demonstrate"
+    },
+    {
+      "action_id": "ACTION-091",
+      "verb": "deploy"
+    },
+    {
+      "action_id": "ACTION-092",
+      "verb": "describe"
+    },
+    {
+      "action_id": "ACTION-093",
+      "verb": "design"
+    },
+    {
+      "action_id": "ACTION-094",
+      "verb": "detail"
+    },
+    {
+      "action_id": "ACTION-095",
+      "verb": "detect"
+    },
+    {
+      "action_id": "ACTION-096",
+      "verb": "determine"
+    },
+    {
+      "action_id": "ACTION-097",
+      "verb": "develop"
+    },
+    {
+      "action_id": "ACTION-098",
+      "verb": "diagnose"
+    },
+    {
+      "action_id": "ACTION-099",
+      "verb": "differentiate"
+    },
+    {
+      "action_id": "ACTION-100",
+      "verb": "direct"
+    },
+    {
+      "action_id": "ACTION-101",
+      "verb": "discover"
+    },
+    {
+      "action_id": "ACTION-102",
+      "verb": "discuss"
+    },
+    {
+      "action_id": "ACTION-103",
+      "verb": "disentangle"
+    },
+    {
+      "action_id": "ACTION-104",
+      "verb": "dispatch"
+    },
+    {
+      "action_id": "ACTION-105",
+      "verb": "display"
+    },
+    {
+      "action_id": "ACTION-106",
+      "verb": "dissect"
+    },
+    {
+      "action_id": "ACTION-107",
+      "verb": "disseminate"
+    },
+    {
+      "action_id": "ACTION-108",
+      "verb": "distill"
+    },
+    {
+      "action_id": "ACTION-109",
+      "verb": "distribute"
+    },
+    {
+      "action_id": "ACTION-110",
+      "verb": "diversify"
+    },
+    {
+      "action_id": "ACTION-111",
+      "verb": "document"
+    },
+    {
+      "action_id": "ACTION-112",
+      "verb": "double-check"
+    },
+    {
+      "action_id": "ACTION-113",
+      "verb": "download"
+    },
+    {
+      "action_id": "ACTION-114",
+      "verb": "draft"
+    },
+    {
+      "action_id": "ACTION-115",
+      "verb": "dramatize"
+    },
+    {
+      "action_id": "ACTION-116",
+      "verb": "draw"
+    },
+    {
+      "action_id": "ACTION-117",
+      "verb": "drive"
+    },
+    {
+      "action_id": "ACTION-118",
+      "verb": "edit"
+    },
+    {
+      "action_id": "ACTION-119",
+      "verb": "educate"
+    },
+    {
+      "action_id": "ACTION-120",
+      "verb": "elaborate"
+    },
+    {
+      "action_id": "ACTION-121",
+      "verb": "elevate"
+    },
+    {
+      "action_id": "ACTION-122",
+      "verb": "elucidate"
+    },
+    {
+      "action_id": "ACTION-123",
+      "verb": "embed"
+    },
+    {
+      "action_id": "ACTION-124",
+      "verb": "embrace"
+    },
+    {
+      "action_id": "ACTION-125",
+      "verb": "emphasize"
+    },
+    {
+      "action_id": "ACTION-126",
+      "verb": "employ"
+    },
+    {
+      "action_id": "ACTION-127",
+      "verb": "empower"
+    },
+    {
+      "action_id": "ACTION-128",
+      "verb": "enable"
+    },
+    {
+      "action_id": "ACTION-129",
+      "verb": "enact"
+    },
+    {
+      "action_id": "ACTION-130",
+      "verb": "encode"
+    },
+    {
+      "action_id": "ACTION-131",
+      "verb": "encourage"
+    },
+    {
+      "action_id": "ACTION-132",
+      "verb": "encrypt"
+    },
+    {
+      "action_id": "ACTION-133",
+      "verb": "endorse"
+    },
+    {
+      "action_id": "ACTION-134",
+      "verb": "Enforce"
+    },
+    {
+      "action_id": "ACTION-135",
+      "verb": "engage"
+    },
+    {
+      "action_id": "ACTION-136",
+      "verb": "engineer"
+    },
+    {
+      "action_id": "ACTION-137",
+      "verb": "enhance"
+    },
+    {
+      "action_id": "ACTION-138",
+      "verb": "enlist"
+    },
+    {
+      "action_id": "ACTION-139",
+      "verb": "enrich"
+    },
+    {
+      "action_id": "ACTION-140",
+      "verb": "ensure"
+    },
+    {
+      "action_id": "ACTION-141",
+      "verb": "entangle"
+    },
+    {
+      "action_id": "ACTION-142",
+      "verb": "enter"
+    },
+    {
+      "action_id": "ACTION-143",
+      "verb": "enumerate"
+    },
+    {
+      "action_id": "ACTION-144",
+      "verb": "envision"
+    },
+    {
+      "action_id": "ACTION-145",
+      "verb": "epitomize"
+    },
+    {
+      "action_id": "ACTION-146",
+      "verb": "equalize"
+    },
+    {
+      "action_id": "ACTION-147",
+      "verb": "eradicate"
+    },
+    {
+      "action_id": "ACTION-148",
+      "verb": "escalate"
+    },
+    {
+      "action_id": "ACTION-149",
+      "verb": "establish"
+    },
+    {
+      "action_id": "ACTION-150",
+      "verb": "estimate"
+    },
+    {
+      "action_id": "ACTION-151",
+      "verb": "evaluate"
+    },
+    {
+      "action_id": "ACTION-152",
+      "verb": "evolve"
+    },
+    {
+      "action_id": "ACTION-153",
+      "verb": "examine"
+    },
+    {
+      "action_id": "ACTION-154",
+      "verb": "exchange"
+    },
+    {
+      "action_id": "ACTION-155",
+      "verb": "execute"
+    },
+    {
+      "action_id": "ACTION-156",
+      "verb": "expedite"
+    },
+    {
+      "action_id": "ACTION-157",
+      "verb": "experiment"
+    },
+    {
+      "action_id": "ACTION-158",
+      "verb": "explain"
+    },
+    {
+      "action_id": "ACTION-159",
+      "verb": "explore"
+    },
+    {
+      "action_id": "ACTION-160",
+      "verb": "Export"
+    },
+    {
+      "action_id": "ACTION-161",
+      "verb": "express"
+    },
+    {
+      "action_id": "ACTION-162",
+      "verb": "extend"
+    },
+    {
+      "action_id": "ACTION-163",
+      "verb": "extract"
+    },
+    {
+      "action_id": "ACTION-164",
+      "verb": "extrapolate"
+    },
+    {
+      "action_id": "ACTION-165",
+      "verb": "fabricate"
+    },
+    {
+      "action_id": "ACTION-166",
+      "verb": "facilitate"
+    },
+    {
+      "action_id": "ACTION-167",
+      "verb": "Fetch"
+    },
+    {
+      "action_id": "ACTION-168",
+      "verb": "file"
+    },
+    {
+      "action_id": "ACTION-169",
+      "verb": "fill"
+    },
+    {
+      "action_id": "ACTION-170",
+      "verb": "film"
+    },
+    {
+      "action_id": "ACTION-171",
+      "verb": "finalize"
+    },
+    {
+      "action_id": "ACTION-172",
+      "verb": "fine-tune"
+    },
+    {
+      "action_id": "ACTION-173",
+      "verb": "flag"
+    },
+    {
+      "action_id": "ACTION-174",
+      "verb": "focus"
+    },
+    {
+      "action_id": "ACTION-175",
+      "verb": "follow"
+    },
+    {
+      "action_id": "ACTION-176",
+      "verb": "follow up"
+    },
+    {
+      "action_id": "ACTION-177",
+      "verb": "forecast"
+    },
+    {
+      "action_id": "ACTION-178",
+      "verb": "form"
+    },
+    {
+      "action_id": "ACTION-179",
+      "verb": "formalize"
+    },
+    {
+      "action_id": "ACTION-180",
+      "verb": "format"
+    },
+    {
+      "action_id": "ACTION-181",
+      "verb": "formulate"
+    },
+    {
+      "action_id": "ACTION-182",
+      "verb": "fortify"
+    },
+    {
+      "action_id": "ACTION-183",
+      "verb": "foster"
+    },
+    {
+      "action_id": "ACTION-184",
+      "verb": "frame"
+    },
+    {
+      "action_id": "ACTION-185",
+      "verb": "fulfill"
+    },
+    {
+      "action_id": "ACTION-186",
+      "verb": "gain"
+    },
+    {
+      "action_id": "ACTION-187",
+      "verb": "gather"
+    },
+    {
+      "action_id": "ACTION-188",
+      "verb": "gauge"
+    },
+    {
+      "action_id": "ACTION-189",
+      "verb": "generate"
+    },
+    {
+      "action_id": "ACTION-190",
+      "verb": "get"
+    },
+    {
+      "action_id": "ACTION-191",
+      "verb": "govern"
+    },
+    {
+      "action_id": "ACTION-192",
+      "verb": "grade"
+    },
+    {
+      "action_id": "ACTION-193",
+      "verb": "grasp"
+    },
+    {
+      "action_id": "ACTION-194",
+      "verb": "guide"
+    },
+    {
+      "action_id": "ACTION-195",
+      "verb": "handle"
+    },
+    {
+      "action_id": "ACTION-196",
+      "verb": "harness"
+    },
+    {
+      "action_id": "ACTION-197",
+      "verb": "heighten"
+    },
+    {
+      "action_id": "ACTION-198",
+      "verb": "highlight"
+    },
+    {
+      "action_id": "ACTION-199",
+      "verb": "hold"
+    },
+    {
+      "action_id": "ACTION-200",
+      "verb": "host"
+    },
+    {
+      "action_id": "ACTION-201",
+      "verb": "identify"
+    },
+    {
+      "action_id": "ACTION-202",
+      "verb": "illuminate"
+    },
+    {
+      "action_id": "ACTION-203",
+      "verb": "implement"
+    },
+    {
+      "action_id": "ACTION-204",
+      "verb": "import"
+    },
+    {
+      "action_id": "ACTION-205",
+      "verb": "Improve"
+    },
+    {
+      "action_id": "ACTION-206",
+      "verb": "include"
+    },
+    {
+      "action_id": "ACTION-207",
+      "verb": "incorporate"
+    },
+    {
+      "action_id": "ACTION-208",
+      "verb": "Increase"
+    },
+    {
+      "action_id": "ACTION-209",
+      "verb": "influence"
+    },
+    {
+      "action_id": "ACTION-210",
+      "verb": "inform"
+    },
+    {
+      "action_id": "ACTION-211",
+      "verb": "initiate"
+    },
+    {
+      "action_id": "ACTION-212",
+      "verb": "innovate"
+    },
+    {
+      "action_id": "ACTION-213",
+      "verb": "input"
+    },
+    {
+      "action_id": "ACTION-214",
+      "verb": "inspect"
+    },
+    {
+      "action_id": "ACTION-215",
+      "verb": "inspire"
+    },
+    {
+      "action_id": "ACTION-216",
+      "verb": "install"
+    },
+    {
+      "action_id": "ACTION-217",
+      "verb": "instruct"
+    },
+    {
+      "action_id": "ACTION-218",
+      "verb": "integrate"
+    },
+    {
+      "action_id": "ACTION-219",
+      "verb": "interpret"
+    },
+    {
+      "action_id": "ACTION-220",
+      "verb": "intervene"
+    },
+    {
+      "action_id": "ACTION-221",
+      "verb": "introduce"
+    },
+    {
+      "action_id": "ACTION-222",
+      "verb": "invent"
+    },
+    {
+      "action_id": "ACTION-223",
+      "verb": "investigate"
+    },
+    {
+      "action_id": "ACTION-224",
+      "verb": "involve"
+    },
+    {
+      "action_id": "ACTION-225",
+      "verb": "isolate"
+    },
+    {
+      "action_id": "ACTION-226",
+      "verb": "issue"
+    },
+    {
+      "action_id": "ACTION-227",
+      "verb": "itemize"
+    },
+    {
+      "action_id": "ACTION-228",
+      "verb": "iterate"
+    },
+    {
+      "action_id": "ACTION-229",
+      "verb": "join"
+    },
+    {
+      "action_id": "ACTION-230",
+      "verb": "juxtapose"
+    },
+    {
+      "action_id": "ACTION-231",
+      "verb": "keep"
+    },
+    {
+      "action_id": "ACTION-232",
+      "verb": "kickstart"
+    },
+    {
+      "action_id": "ACTION-233",
+      "verb": "label"
+    },
+    {
+      "action_id": "ACTION-234",
+      "verb": "launch"
+    },
+    {
+      "action_id": "ACTION-235",
+      "verb": "layer"
+    },
+    {
+      "action_id": "ACTION-236",
+      "verb": "layout"
+    },
+    {
+      "action_id": "ACTION-237",
+      "verb": "lead"
+    },
+    {
+      "action_id": "ACTION-238",
+      "verb": "learn"
+    },
+    {
+      "action_id": "ACTION-239",
+      "verb": "leverage"
+    },
+    {
+      "action_id": "ACTION-240",
+      "verb": "liaise"
+    },
+    {
+      "action_id": "ACTION-241",
+      "verb": "light"
+    },
+    {
+      "action_id": "ACTION-242",
+      "verb": "Limit"
+    },
+    {
+      "action_id": "ACTION-243",
+      "verb": "link"
+    },
+    {
+      "action_id": "ACTION-244",
+      "verb": "list"
+    },
+    {
+      "action_id": "ACTION-245",
+      "verb": "listen"
+    },
+    {
+      "action_id": "ACTION-246",
+      "verb": "livestream"
+    },
+    {
+      "action_id": "ACTION-247",
+      "verb": "Load"
+    },
+    {
+      "action_id": "ACTION-248",
+      "verb": "locate"
+    },
+    {
+      "action_id": "ACTION-249",
+      "verb": "lock"
+    },
+    {
+      "action_id": "ACTION-250",
+      "verb": "log"
+    },
+    {
+      "action_id": "ACTION-251",
+      "verb": "maintain"
+    },
+    {
+      "action_id": "ACTION-252",
+      "verb": "make"
+    },
+    {
+      "action_id": "ACTION-253",
+      "verb": "manage"
+    },
+    {
+      "action_id": "ACTION-254",
+      "verb": "map"
+    },
+    {
+      "action_id": "ACTION-255",
+      "verb": "map out"
+    },
+    {
+      "action_id": "ACTION-256",
+      "verb": "mark"
+    },
+    {
+      "action_id": "ACTION-257",
+      "verb": "mask"
+    },
+    {
+      "action_id": "ACTION-258",
+      "verb": "match"
+    },
+    {
+      "action_id": "ACTION-259",
+      "verb": "maximize"
+    },
+    {
+      "action_id": "ACTION-260",
+      "verb": "measure"
+    },
+    {
+      "action_id": "ACTION-261",
+      "verb": "meet"
+    },
+    {
+      "action_id": "ACTION-262",
+      "verb": "Merge"
+    },
+    {
+      "action_id": "ACTION-263",
+      "verb": "Minimize"
+    },
+    {
+      "action_id": "ACTION-264",
+      "verb": "model"
+    },
+    {
+      "action_id": "ACTION-265",
+      "verb": "modify"
+    },
+    {
+      "action_id": "ACTION-266",
+      "verb": "monitor"
+    },
+    {
+      "action_id": "ACTION-267",
+      "verb": "morph"
+    },
+    {
+      "action_id": "ACTION-268",
+      "verb": "move"
+    },
+    {
+      "action_id": "ACTION-269",
+      "verb": "narrate"
+    },
+    {
+      "action_id": "ACTION-270",
+      "verb": "negotiate"
+    },
+    {
+      "action_id": "ACTION-271",
+      "verb": "normalize"
+    },
+    {
+      "action_id": "ACTION-272",
+      "verb": "note"
+    },
+    {
+      "action_id": "ACTION-273",
+      "verb": "notify"
+    },
+    {
+      "action_id": "ACTION-274",
+      "verb": "obtain"
+    },
+    {
+      "action_id": "ACTION-275",
+      "verb": "offer"
+    },
+    {
+      "action_id": "ACTION-276",
+      "verb": "Open"
+    },
+    {
+      "action_id": "ACTION-277",
+      "verb": "optimize"
+    },
+    {
+      "action_id": "ACTION-278",
+      "verb": "organize"
+    },
+    {
+      "action_id": "ACTION-279",
+      "verb": "outline"
+    },
+    {
+      "action_id": "ACTION-280",
+      "verb": "oversee"
+    },
+    {
+      "action_id": "ACTION-281",
+      "verb": "package"
+    },
+    {
+      "action_id": "ACTION-282",
+      "verb": "paint"
+    },
+    {
+      "action_id": "ACTION-283",
+      "verb": "perform"
+    },
+    {
+      "action_id": "ACTION-284",
+      "verb": "personalize"
+    },
+    {
+      "action_id": "ACTION-285",
+      "verb": "pilot"
+    },
+    {
+      "action_id": "ACTION-286",
+      "verb": "pivot"
+    },
+    {
+      "action_id": "ACTION-287",
+      "verb": "place"
+    },
+    {
+      "action_id": "ACTION-288",
+      "verb": "plan"
+    },
+    {
+      "action_id": "ACTION-289",
+      "verb": "plot"
+    },
+    {
+      "action_id": "ACTION-290",
+      "verb": "position"
+    },
+    {
+      "action_id": "ACTION-291",
+      "verb": "post"
+    },
+    {
+      "action_id": "ACTION-292",
+      "verb": "Practice"
+    },
+    {
+      "action_id": "ACTION-293",
+      "verb": "pre-approve"
+    },
+    {
+      "action_id": "ACTION-294",
+      "verb": "predict"
+    },
+    {
+      "action_id": "ACTION-295",
+      "verb": "prepare"
+    },
+    {
+      "action_id": "ACTION-296",
+      "verb": "present"
+    },
+    {
+      "action_id": "ACTION-297",
+      "verb": "preview"
+    },
+    {
+      "action_id": "ACTION-298",
+      "verb": "prioritize"
+    },
+    {
+      "action_id": "ACTION-299",
+      "verb": "process"
+    },
+    {
+      "action_id": "ACTION-300",
+      "verb": "procure"
+    },
+    {
+      "action_id": "ACTION-301",
+      "verb": "produce"
+    },
+    {
+      "action_id": "ACTION-302",
+      "verb": "profile"
+    },
+    {
+      "action_id": "ACTION-303",
+      "verb": "program"
+    },
+    {
+      "action_id": "ACTION-304",
+      "verb": "proofread"
+    },
+    {
+      "action_id": "ACTION-305",
+      "verb": "propose"
+    },
+    {
+      "action_id": "ACTION-306",
+      "verb": "prototype"
+    },
+    {
+      "action_id": "ACTION-307",
+      "verb": "provide"
+    },
+    {
+      "action_id": "ACTION-308",
+      "verb": "publish"
+    },
+    {
+      "action_id": "ACTION-309",
+      "verb": "pull"
+    },
+    {
+      "action_id": "ACTION-310",
+      "verb": "Push"
+    },
+    {
+      "action_id": "ACTION-311",
+      "verb": "re-engage"
+    },
+    {
+      "action_id": "ACTION-312",
+      "verb": "re-organize"
+    },
+    {
+      "action_id": "ACTION-313",
+      "verb": "re-publish"
+    },
+    {
+      "action_id": "ACTION-314",
+      "verb": "re-script"
+    },
+    {
+      "action_id": "ACTION-315",
+      "verb": "re-submit"
+    },
+    {
+      "action_id": "ACTION-316",
+      "verb": "reach out"
+    },
+    {
+      "action_id": "ACTION-317",
+      "verb": "reallocate"
+    },
+    {
+      "action_id": "ACTION-318",
+      "verb": "rearrange"
+    },
+    {
+      "action_id": "ACTION-319",
+      "verb": "reassess"
+    },
+    {
+      "action_id": "ACTION-320",
+      "verb": "reassign"
+    },
+    {
+      "action_id": "ACTION-321",
+      "verb": "Receive"
+    },
+    {
+      "action_id": "ACTION-322",
+      "verb": "recommend"
+    },
+    {
+      "action_id": "ACTION-323",
+      "verb": "record"
+    },
+    {
+      "action_id": "ACTION-324",
+      "verb": "recruit"
+    },
+    {
+      "action_id": "ACTION-325",
+      "verb": "rectify"
+    },
+    {
+      "action_id": "ACTION-326",
+      "verb": "redefine"
+    },
+    {
+      "action_id": "ACTION-327",
+      "verb": "redesign"
+    },
+    {
+      "action_id": "ACTION-328",
+      "verb": "redistribute"
+    },
+    {
+      "action_id": "ACTION-329",
+      "verb": "redraft"
+    },
+    {
+      "action_id": "ACTION-330",
+      "verb": "Reevaluate"
+    },
+    {
+      "action_id": "ACTION-331",
+      "verb": "Refactor"
+    },
+    {
+      "action_id": "ACTION-332",
+      "verb": "refine"
+    },
+    {
+      "action_id": "ACTION-333",
+      "verb": "reflect"
+    },
+    {
+      "action_id": "ACTION-334",
+      "verb": "Reformat"
+    },
+    {
+      "action_id": "ACTION-335",
+      "verb": "refresh"
+    },
+    {
+      "action_id": "ACTION-336",
+      "verb": "regularly check"
+    },
+    {
+      "action_id": "ACTION-337",
+      "verb": "regularly update"
+    },
+    {
+      "action_id": "ACTION-338",
+      "verb": "rehearse"
+    },
+    {
+      "action_id": "ACTION-339",
+      "verb": "reinforce"
+    },
+    {
+      "action_id": "ACTION-340",
+      "verb": "reiterate"
+    },
+    {
+      "action_id": "ACTION-341",
+      "verb": "remind"
+    },
+    {
+      "action_id": "ACTION-342",
+      "verb": "remove"
+    },
+    {
+      "action_id": "ACTION-343",
+      "verb": "render"
+    },
+    {
+      "action_id": "ACTION-344",
+      "verb": "replace"
+    },
+    {
+      "action_id": "ACTION-345",
+      "verb": "report"
+    },
+    {
+      "action_id": "ACTION-346",
+      "verb": "republish"
+    },
+    {
+      "action_id": "ACTION-347",
+      "verb": "request"
+    },
+    {
+      "action_id": "ACTION-348",
+      "verb": "research"
+    },
+    {
+      "action_id": "ACTION-349",
+      "verb": "resend"
+    },
+    {
+      "action_id": "ACTION-350",
+      "verb": "reserve"
+    },
+    {
+      "action_id": "ACTION-351",
+      "verb": "Resolve"
+    },
+    {
+      "action_id": "ACTION-352",
+      "verb": "respond"
+    },
+    {
+      "action_id": "ACTION-353",
+      "verb": "restore"
+    },
+    {
+      "action_id": "ACTION-354",
+      "verb": "restrict"
+    },
+    {
+      "action_id": "ACTION-355",
+      "verb": "Retain"
+    },
+    {
+      "action_id": "ACTION-356",
+      "verb": "Retest"
+    },
+    {
+      "action_id": "ACTION-357",
+      "verb": "retrieve"
+    },
+    {
+      "action_id": "ACTION-358",
+      "verb": "review"
+    },
+    {
+      "action_id": "ACTION-359",
+      "verb": "review and adjust"
+    },
+    {
+      "action_id": "ACTION-360",
+      "verb": "revise"
+    },
+    {
+      "action_id": "ACTION-361",
+      "verb": "revisit"
+    },
+    {
+      "action_id": "ACTION-362",
+      "verb": "rewrite"
+    },
+    {
+      "action_id": "ACTION-363",
+      "verb": "rig"
+    },
+    {
+      "action_id": "ACTION-364",
+      "verb": "roll out"
+    },
+    {
+      "action_id": "ACTION-365",
+      "verb": "run"
+    },
+    {
+      "action_id": "ACTION-366",
+      "verb": "save"
+    },
+    {
+      "action_id": "ACTION-367",
+      "verb": "scale"
+    },
+    {
+      "action_id": "ACTION-368",
+      "verb": "schedule"
+    },
+    {
+      "action_id": "ACTION-369",
+      "verb": "script"
+    },
+    {
+      "action_id": "ACTION-370",
+      "verb": "sculpt"
+    },
+    {
+      "action_id": "ACTION-371",
+      "verb": "secure"
+    },
+    {
+      "action_id": "ACTION-372",
+      "verb": "see"
+    },
+    {
+      "action_id": "ACTION-373",
+      "verb": "seek"
+    },
+    {
+      "action_id": "ACTION-374",
+      "verb": "segment"
+    },
+    {
+      "action_id": "ACTION-375",
+      "verb": "segregate"
+    },
+    {
+      "action_id": "ACTION-376",
+      "verb": "select"
+    },
+    {
+      "action_id": "ACTION-377",
+      "verb": "send"
+    },
+    {
+      "action_id": "ACTION-378",
+      "verb": "sequence"
+    },
+    {
+      "action_id": "ACTION-379",
+      "verb": "set"
+    },
+    {
+      "action_id": "ACTION-380",
+      "verb": "set up"
+    },
+    {
+      "action_id": "ACTION-381",
+      "verb": "share"
+    },
+    {
+      "action_id": "ACTION-382",
+      "verb": "shoot"
+    },
+    {
+      "action_id": "ACTION-383",
+      "verb": "simplify"
+    },
+    {
+      "action_id": "ACTION-384",
+      "verb": "simulate"
+    },
+    {
+      "action_id": "ACTION-385",
+      "verb": "sketch"
+    },
+    {
+      "action_id": "ACTION-386",
+      "verb": "solicit"
+    },
+    {
+      "action_id": "ACTION-387",
+      "verb": "sort"
+    },
+    {
+      "action_id": "ACTION-388",
+      "verb": "source"
+    },
+    {
+      "action_id": "ACTION-389",
+      "verb": "specify"
+    },
+    {
+      "action_id": "ACTION-390",
+      "verb": "stabilize"
+    },
+    {
+      "action_id": "ACTION-391",
+      "verb": "standardize"
+    },
+    {
+      "action_id": "ACTION-392",
+      "verb": "start"
+    },
+    {
+      "action_id": "ACTION-393",
+      "verb": "store"
+    },
+    {
+      "action_id": "ACTION-394",
+      "verb": "storyboard"
+    },
+    {
+      "action_id": "ACTION-395",
+      "verb": "Streamline"
+    },
+    {
+      "action_id": "ACTION-396",
+      "verb": "Structure"
+    },
+    {
+      "action_id": "ACTION-397",
+      "verb": "study"
+    },
+    {
+      "action_id": "ACTION-398",
+      "verb": "style"
+    },
+    {
+      "action_id": "ACTION-399",
+      "verb": "submit"
+    },
+    {
+      "action_id": "ACTION-400",
+      "verb": "suggest"
+    },
+    {
+      "action_id": "ACTION-401",
+      "verb": "summarize"
+    },
+    {
+      "action_id": "ACTION-402",
+      "verb": "sync"
+    },
+    {
+      "action_id": "ACTION-403",
+      "verb": "synchronize"
+    },
+    {
+      "action_id": "ACTION-404",
+      "verb": "synthesize"
+    },
+    {
+      "action_id": "ACTION-405",
+      "verb": "tailor"
+    },
+    {
+      "action_id": "ACTION-406",
+      "verb": "take"
+    },
+    {
+      "action_id": "ACTION-407",
+      "verb": "test"
+    },
+    {
+      "action_id": "ACTION-408",
+      "verb": "thank"
+    },
+    {
+      "action_id": "ACTION-409",
+      "verb": "track"
+    },
+    {
+      "action_id": "ACTION-410",
+      "verb": "train"
+    },
+    {
+      "action_id": "ACTION-411",
+      "verb": "transcribe"
+    },
+    {
+      "action_id": "ACTION-412",
+      "verb": "transfer"
+    },
+    {
+      "action_id": "ACTION-413",
+      "verb": "translate"
+    },
+    {
+      "action_id": "ACTION-414",
+      "verb": "troubleshoot"
+    },
+    {
+      "action_id": "ACTION-415",
+      "verb": "Tweak"
+    },
+    {
+      "action_id": "ACTION-416",
+      "verb": "understand"
+    },
+    {
+      "action_id": "ACTION-417",
+      "verb": "update"
+    },
+    {
+      "action_id": "ACTION-418",
+      "verb": "upload"
+    },
+    {
+      "action_id": "ACTION-419",
+      "verb": "upscale"
+    },
+    {
+      "action_id": "ACTION-420",
+      "verb": "use"
+    },
+    {
+      "action_id": "ACTION-421",
+      "verb": "utilize"
+    },
+    {
+      "action_id": "ACTION-422",
+      "verb": "validate"
+    },
+    {
+      "action_id": "ACTION-423",
+      "verb": "verify"
+    },
+    {
+      "action_id": "ACTION-424",
+      "verb": "visualize"
+    },
+    {
+      "action_id": "ACTION-425",
+      "verb": "visually"
+    },
+    {
+      "action_id": "ACTION-426",
+      "verb": "watch"
+    },
+    {
+      "action_id": "ACTION-427",
+      "verb": "weave"
+    },
+    {
+      "action_id": "ACTION-428",
+      "verb": "workshop"
+    },
+    {
+      "action_id": "ACTION-429",
+      "verb": "write"
+    },
+    {
+      "action_id": "ACTION-430",
+      "verb": "navigate"
+    },
+    {
+      "action_id": "ACTION-431",
+      "verb": "paste"
+    },
+    {
+      "action_id": "ACTION-432",
+      "verb": "prompt"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "step_template_id": "Step-Template-019",
+  "step_template_name": "Update tool_mapping.json with New Tools",
+  "metadata": {
+    "status": "Active"
+  },
+  "parent_task": {
+    "task_id": "TASK-TEMPLATE-VIDEO-006",
+    "task_name": "Update Mappings and Cross-references"
+  },
+  "step_details": {
+    "step_number": 1,
+    "order": 1,
+    "action": "update",
+    "detail": "Add all new tools to tool_mapping.json with tool_id, name, primary category",
+    "expected_duration": 2
+  },
+  "execution": {
+    "tool_used": "Text editor with JSON support",
+    "inputs": [
+      "New tool entries from TASK-TEMPLATE-RES-301",
+      "Existing tool_mapping.json"
+    ],
+    "outputs": [
+      "tool_mapping.json updated with new entries"
+    ],
+    "success_criteria": "All new tools added to mapping, no duplicates, JSON valid, alphabetical order maintained"
+  },
+  "relationships": {
+    "dependencies": [],
+    "next_steps": [
+      "STEP-VIDEO-006-02"
+    ],
+    "parallel_steps": []
+  }
+}

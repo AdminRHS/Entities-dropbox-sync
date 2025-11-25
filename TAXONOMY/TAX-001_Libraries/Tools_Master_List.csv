@@ -1,0 +1,178 @@
+Tool_ID,Tool_Name,Category,Mention_Count,Priority,Departments,Filename,Source
+TOL-001,LinkedIn,Other Tools,5148,CRITICAL,None,LinkedIn.json,File System
+TOL-002,Claude,AI Tools,5076,CRITICAL,"AI, Dev, Sales, HR, LG",Claude.json,Master Listing
+TOL-003,Medium,Other Tools,4036,CRITICAL,None,Medium.json,File System
+TOL-004,Instagram,Other Tools,3612,CRITICAL,None,Instagram.json,File System
+TOL-005,Dropbox,Other Tools,3528,CRITICAL,None,Dropbox.json,File System
+TOL-006,YouTube,Other Tools,2856,CRITICAL,None,YouTube.json,File System
+TOL-007,n8n,Automation Tools,2816,CRITICAL,None,n8n.json,File System
+TOL-008,GitHub,Other Tools,2564,CRITICAL,None,GitHub.json,File System
+TOL-009,Anymailfinder,Data Tools,2048,CRITICAL,None,Anymailfinder.json,File System
+TOL-010,Apify,Development Tools,1884,CRITICAL,None,Apify.json,File System
+TOL-011,Gemini,AI Tools,1836,CRITICAL,"LG (Primary), AI Engineering, Dev",Gemini.json,Master Listing
+TOL-012,Cursor,AI Tools,1560,CRITICAL,None,Cursor.json,File System
+TOL-013,OpenArt,AI Tools,1376,CRITICAL,None,OpenArt.json,File System
+TOL-014,React,Development Tools,1208,CRITICAL,None,React.json,File System
+TOL-015,Behance,Other Tools,1180,CRITICAL,None,Behance.json,File System
+TOL-016,Perplexity,AI Tools,1168,CRITICAL,"LG (via automation), AI Engineering",Perplexity.json,Master Listing
+TOL-017,Docker,Development Tools,1140,CRITICAL,None,Docker.json,File System
+TOL-018,TikTok,Other Tools,1140,CRITICAL,None,TikTok.json,File System
+TOL-019,Airscale,Data Tools,1076,CRITICAL,None,Airscale.json,File System
+TOL-020,GLIF,AI Tools,1060,CRITICAL,None,GLIF.json,File System
+TOL-021,Facebook,Other Tools,752,CRITICAL,None,Facebook.json,File System
+TOL-022,Dribbble,Other Tools,688,CRITICAL,None,Dribbble.json,File System
+TOL-023,Xing,Other Tools,684,CRITICAL,None,Xing.json,File System
+TOL-024,Seedream,AI Tools,680,CRITICAL,None,Seedream.json,File System
+TOL-025,Claude Code,Development Tools,660,CRITICAL,None,Claude_Code.json,File System
+TOL-026,Render,Other Tools,660,CRITICAL,None,Render.json,File System
+TOL-027,Discord,Other Tools,644,CRITICAL,None,Discord.json,File System
+TOL-028,Pinterest,Other Tools,596,CRITICAL,None,Pinterest.json,File System
+TOL-029,Telegram,Other Tools,588,CRITICAL,None,Telegram.json,File System
+TOL-030,Google Veo 3.1,AI Tools,560,CRITICAL,None,Google_Veo_3_1.json,File System
+TOL-031,Midjourney,AI Tools,552,CRITICAL,"Designers (PRIMARY), Marketing",Midjourney.json,Master Listing
+TOL-032,Vite,AI Tools,520,CRITICAL,None,Vite.json,File System
+TOL-033,Instantly.ai,Business Tools,516,CRITICAL,None,Instantly_ai.json,File System
+TOL-034,Claude Desktop App,AI Tools,504,CRITICAL,None,Claude_Desktop_App.json,File System
+TOL-035,Nano Banana,AI Tools,488,CRITICAL,None,Nano_Banana.json,File System
+TOL-036,Reddit,Other Tools,488,CRITICAL,None,Reddit.json,File System
+TOL-037,Vayne,Automation Tools,484,CRITICAL,None,Vayne.json,File System
+TOL-038,Flux,AI Tools,424,CRITICAL,None,Flux.json,File System
+TOL-039,GitHub Actions,Development Tools,404,CRITICAL,None,GitHub_Actions.json,File System
+TOL-040,Threads,Other Tools,388,CRITICAL,None,Threads.json,File System
+TOL-041,VAYU,AI Tools,388,CRITICAL,None,VAYU.json,File System
+TOL-042,Make.com,Automation Tools,376,CRITICAL,None,Make_com.json,File System
+TOL-043,Bright Data,Data Tools,352,CRITICAL,None,Bright_Data.json,File System
+TOL-044,Vimeo,Other Tools,340,CRITICAL,None,Vimeo.json,File System
+TOL-045,Sora,AI Tools,336,CRITICAL,None,Sora.json,File System
+TOL-046,ComfyUI,AI Tools,324,CRITICAL,None,ComfyUI.json,File System
+TOL-047,GitHub Copilot,AI Tools,320,CRITICAL,None,GitHub_Copilot.json,File System
+TOL-048,NotebookLM,AI Tools,320,CRITICAL,"LG, AI Engineering",NotebookLM.json,Master Listing
+TOL-049,Sonnet 4.5,AI Tools,312,CRITICAL,None,Sonnet_45.json,File System
+TOL-050,Wan 2.2,AI Tools,304,CRITICAL,None,Wan_2_2.json,File System
+TOL-051,Kling,AI Tools,292,CRITICAL,None,Kling.json,File System
+TOL-052,Dev.to,Other Tools,276,CRITICAL,None,Dev_to.json,File System
+TOL-053,Stack Overflow,Other Tools,276,CRITICAL,None,Stack_Overflow.json,File System
+TOL-054,ArtStation,Other Tools,236,CRITICAL,None,ArtStation.json,File System
+TOL-055,Tailwind CSS,Development Tools,236,CRITICAL,None,Tailwind_CSS.json,File System
+TOL-056,Gmail MCP Connector,MCP Services,228,CRITICAL,None,Gmail_MCP_Connector.json,File System
+TOL-057,Redis,Other Tools,224,CRITICAL,None,Redis.json,File System
+TOL-058,Seedream 4.0,AI Tools,220,CRITICAL,None,Seedream_4_0.json,File System
+TOL-059,Apollo.io,Business Tools,210,CRITICAL,None,Apollo_io.json,File System
+TOL-060,LangGraph,AI Tools,208,CRITICAL,None,LangGraph.json,File System
+TOL-061,Playwright,Development Tools,204,CRITICAL,None,Playwright.json,File System
+TOL-062,FastAPI,Development Tools,200,CRITICAL,None,FastAPI.json,File System
+TOL-063,Substack,Other Tools,200,CRITICAL,None,Substack.json,File System
+TOL-064,DeviantArt,Other Tools,188,CRITICAL,None,DeviantArt.json,File System
+TOL-065,Pydantic AI,AI Tools,188,CRITICAL,None,Pydantic_AI.json,File System
+TOL-066,Hugging Face,Other Tools,184,CRITICAL,None,Hugging_Face.json,File System
+TOL-067,Neo4j,Other Tools,184,CRITICAL,None,Neo4j.json,File System
+TOL-068,LinkedIn_Sales_Navigator,Business Tools,180,CRITICAL,None,LinkedIn_Sales_Navigator.json,File System
+TOL-069,PostgreSQL,Other Tools,180,CRITICAL,None,Postgres.json,File System
+TOL-070,Twitter/X,Other Tools,180,CRITICAL,None,Twitter.json,File System
+TOL-071,Azure,Other Tools,176,CRITICAL,None,Azure.json,File System
+TOL-072,ElevenLabs,AI Tools,176,CRITICAL,"Designers, Video Editors, Content Creation, Marketing",ElevenLabs.json,Master Listing
+TOL-073,Loom,AI Tools,164,CRITICAL,None,Loom.json,Master Listing
+TOL-074,OpenArt Photorealistic,AI Tools,164,CRITICAL,None,OpenArt_Photorealistic.json,File System
+TOL-075,Runner,AI Tools,164,CRITICAL,None,Runner.json,Master Listing
+TOL-076,Flux Kontext,AI Tools,156,CRITICAL,None,Flux_Kontext.json,File System
+TOL-077,HeyGen,AI Tools,156,CRITICAL,None,HeyGen.json,Master Listing
+TOL-078,arXiv,AI Tools,156,CRITICAL,None,arXiv.json,File System
+TOL-079,Apify Google SERP Scraper,Development Tools,152,CRITICAL,None,Apify_Google_SERP_Scraper.json,File System
+TOL-080,Neon,Other Tools,152,CRITICAL,None,Neon.json,File System
+TOL-081,Synthesia,AI Tools,148,CRITICAL,None,Synthesia.json,Master Listing
+TOL-082,Mem0,AI Tools,144,CRITICAL,None,Mem0.json,File System
+TOL-083,Lovable.dev,AI Tools,142,CRITICAL,None,Lovable_dev.json,Master Listing
+TOL-084,Apify Google Maps Scraper,Development Tools,140,CRITICAL,None,Apify_Google_Maps_Scraper.json,File System
+TOL-085,Google Cloud Console,Development Tools,140,CRITICAL,None,Google_Cloud_Console.json,File System
+TOL-086,Pytest,Development Tools,136,CRITICAL,None,Pytest.json,File System
+TOL-087,Apify Instagram Scraper,Development Tools,132,CRITICAL,None,Apify_Instagram_Scraper.json,File System
+TOL-088,PGVector,Other Tools,132,CRITICAL,None,PGVector.json,File System
+TOL-089,RunwayML,AI Tools,132,CRITICAL,None,RunwayML.json,Master Listing
+TOL-090,Apify LinkedIn Jobs Scraper,Development Tools,128,CRITICAL,None,Apify_LinkedIn_Jobs_Scraper.json,File System
+TOL-091,Grok,AI Tools,128,CRITICAL,None,Grok.json,Master Listing
+TOL-092,Langfuse,AI Tools,124,CRITICAL,None,Langfuse.json,File System
+TOL-093,Replit,AI Tools,120,CRITICAL,None,Replit.json,Master Listing
+TOL-094,Google AI Studio,AI Tools,116,CRITICAL,None,Google_AI_Studio.json,Master Listing
+TOL-095,Streamlit,Development Tools,116,CRITICAL,None,Streamlit.json,File System
+TOL-096,MCP Builder (Skill),AI Tools,112,CRITICAL,None,MCP_Builder_Skill.json,File System
+TOL-097,Supabase,Other Tools,112,CRITICAL,None,Supabase.json,File System
+TOL-098,Docling,AI Tools,108,CRITICAL,None,Docling.json,File System
+TOL-099,Gamma.app,AI Tools,108,CRITICAL,None,Gamma_app.json,Master Listing
+TOL-100,Crawl4AI,AI Tools,104,CRITICAL,None,Crawl4AI.json,File System
+TOL-101,Graphiti,AI Tools,104,CRITICAL,None,Graphiti.json,File System
+TOL-102,Jest,Development Tools,104,CRITICAL,None,Jest.json,File System
+TOL-103,OpenRouter,AI Tools,100,CRITICAL,None,OpenRouter.json,Master Listing
+TOL-104,Quora,Other Tools,100,CRITICAL,None,Quora.json,File System
+TOL-105,v0.dev,AI Tools,98,CRITICAL,None,v0_dev.json,Master Listing
+TOL-106,OpenAI GPT-5,AI Tools,92,CRITICAL,None,OpenAI_GPT5.json,File System
+TOL-107,Stripe,Other Tools,92,CRITICAL,None,Stripe.json,File System
+TOL-108,Maestra.ai,AI Tools,90,CRITICAL,None,Maestra_ai.json,Master Listing
+TOL-109,Archon,AI Tools,88,CRITICAL,None,Archon.json,File System
+TOL-110,Gemini File Search API,AI Tools,88,CRITICAL,None,Gemini_File_Search.json,File System
+TOL-111,Hashnode,Other Tools,88,CRITICAL,None,Hashnode.json,File System
+TOL-112,Hedra,AI Tools,88,CRITICAL,None,Hedra.json,Master Listing
+TOL-113,Ragas,AI Tools,88,CRITICAL,None,Ragas.json,File System
+TOL-114,MCP_Servers,AI Tools,87,CRITICAL,None,MCP_Servers.json,File System
+TOL-115,The_Dots,Other Tools,85,CRITICAL,None,The_Dots.json,File System
+TOL-116,Auth0,Other Tools,80,CRITICAL,None,Auth0.json,File System
+TOL-117,CodeRabbit,AI Tools,80,CRITICAL,None,CodeRabbit.json,File System
+TOL-118,LeadsRapidly,Automation Tools,80,CRITICAL,None,LeadsRapidly.json,File System
+TOL-119,Browserbase,AI Tools,76,CRITICAL,None,Browserbase.json,File System
+TOL-120,Leonardo.ai,AI Tools,76,CRITICAL,Designers,Leonardo_AI.json,Master Listing
+TOL-121,MiniMax,AI Tools,76,CRITICAL,None,MiniMax.json,Master Listing
+TOL-122,Dropbox_Dash,AI Tools,73,CRITICAL,None,Dropbox_Dash.json,File System
+TOL-123,AmpleLeads,Automation Tools,72,CRITICAL,None,AmpleLeads.json,File System
+TOL-124,C dans,AI Tools,72,CRITICAL,None,Cdans.json,File System
+TOL-125,DigitalOcean,Other Tools,72,CRITICAL,None,DigitalOcean.json,File System
+TOL-126,Hailo,AI Tools,72,CRITICAL,None,Hailo.json,Master Listing
+TOL-127,Ollama,AI Tools,72,CRITICAL,None,Ollama.json,File System
+TOL-128,Sentry,Development Tools,72,CRITICAL,None,Sentry.json,File System
+TOL-129,ExportApollo,Automation Tools,68,CRITICAL,None,ExportApollo.json,File System
+TOL-130,Google Calendar MCP Connector,MCP Services,68,CRITICAL,None,Google_Calendar_MCP_Connector.json,File System
+TOL-131,Valkey,Other Tools,68,CRITICAL,None,Valkey.json,File System
+TOL-132,shadcn/ui,Development Tools,68,CRITICAL,None,shadcn_ui.json,File System
+TOL-133,CrewAI,AI Tools,64,CRITICAL,None,CrewAI.json,File System
+TOL-134,DeepSite,AI Tools,60,CRITICAL,None,DeepSite.json,Master Listing
+TOL-135,Firecrawl,Other Tools,60,CRITICAL,None,Firecrawl.json,File System
+TOL-136,Kimi_K2_Thinking,AI Tools,58,CRITICAL,None,Kimi_K2_Thinking.json,File System
+TOL-137,Manus.im,AI Tools,56,CRITICAL,None,Manus_im.json,Master Listing
+TOL-138,Caddy,Other Tools,52,CRITICAL,None,Caddy.json,File System
+TOL-139,Cove.ai,AI Tools,50,CRITICAL,None,Cove_ai.json,Master Listing
+TOL-140,RunPod,Other Tools,48,CRITICAL,None,RunPod.json,File System
+TOL-141,WHALESWING,AI Tools,48,CRITICAL,None,WHALESWING.json,Master Listing
+TOL-142,Bubble.io,AI Tools,46,CRITICAL,None,Bubble_io.json,Master Listing
+TOL-143,Company_Voice_Guide,AI Tools,45,CRITICAL,None,Company_Voice_Guide.json,File System
+TOL-144,Movie Gen,AI Tools,44,CRITICAL,None,MovieGen.json,File System
+TOL-145,Zep,AI Tools,44,CRITICAL,None,Zep.json,File System
+TOL-146,SearXNG,AI Tools,40,CRITICAL,None,SearXNG.json,File System
+TOL-147,Vozo AI,AI Tools,40,CRITICAL,Video,Vozo_AI.json,Master Listing
+TOL-148,Pollo.ai,AI Tools,38,CRITICAL,None,Pollo_ai.json,Master Listing
+TOL-149,Claude Projects,AI Tools,36,CRITICAL,None,Claude_Projects.json,File System
+TOL-150,Smithery.ai,AI Tools,34,CRITICAL,None,Smithery_ai.json,Master Listing
+TOL-151,Genspark.ai,AI Tools,32,CRITICAL,None,Genspark_ai.json,Master Listing
+TOL-152,Open WebUI,AI Tools,32,CRITICAL,None,Open_WebUI.json,File System
+TOL-153,Notion AI,AI Tools,28,CRITICAL,AI,Notion_AI.json,Master Listing
+TOL-154,Vectal Pro,AI Tools,28,CRITICAL,None,Vectal_Pro.json,Master Listing
+TOL-155,Model Scope,Other Tools,24,CRITICAL,None,Model_Scope.json,File System
+TOL-156,Custom_Prompt_Templates,AI Tools,21,CRITICAL,None,Custom_Prompt_Templates.json,File System
+TOL-157,Brave Search,Other Tools,20,CRITICAL,None,Brave_Search.json,File System
+TOL-158,Freepik,AI Tools,20,CRITICAL,Design,Freepik.json,Master Listing
+TOL-159,Lunchclub,Other Tools,20,CRITICAL,None,Lunchclub.json,File System
+TOL-160,Suno,AI Tools,20,CRITICAL,Video,Suno.json,Master Listing
+TOL-161,TurboScribe,AI Tools,20,CRITICAL,Video,TurboScribe.json,Master Listing
+TOL-162,MCP (Model Context Protocol),MCP Services,15,HIGH,None,MCP_Protocol.json,File System
+TOL-163,Arcade.ai,AI Tools,14,HIGH,None,Arcade_ai.json,File System
+TOL-164,awesome_copilot,AI Tools,13,HIGH,None,awesome_copilot.json,File System
+TOL-165,Dropbox_Protect_and_Control,Other Tools,12,HIGH,None,Dropbox_Protect_and_Control.json,File System
+TOL-166,Product_Management_Decision_Framework,Other Tools,12,HIGH,None,Product_Management_Decision_Framework.json,File System
+TOL-167,Adobe Firefly,AI Tools,8,MEDIUM,Design,Adobe_Firefly.json,Master Listing
+TOL-168,Adobe Premiere Pro,Other Tools,8,MEDIUM,None,Premiere_Pro.json,File System
+TOL-169,Envato Elements,AI Tools,8,MEDIUM,Design,Envato_Elements.json,Master Listing
+TOL-170,InVideo AI,AI Tools,8,MEDIUM,Video,InVideo_AI.json,Master Listing
+TOL-171,Wispr Flow,AI Tools,8,MEDIUM,"AI, Dev, Design, LG, Sales, HR, Finance, Video",Wispr_Flow.json,Master Listing
+TOL-172,ChatGPT (OpenAI),AI Tools,7,MEDIUM,"LG (Primary), Sales, Marketing, HR",ChatGPT.json,Master Listing
+TOL-173,LLM_as_Judge_Evaluation_Framework,AI Tools,6,MEDIUM,None,LLM_as_Judge_Evaluation_Framework.json,File System
+TOL-174,Apify TikTok Scraper,Development Tools,4,LOW,None,Apify_TikTok_Scraper.json,File System
+TOL-175,Visual Studio Code (VS Code),Development Tools,4,LOW,None,VS_Code.json,File System
+TOL-177,CRM MCP Connector (Airtable),MCP Services,2,LOW,None,CRM_MCP_Connector.json,File System
+TOL-MCP-001,OAY MCP Service,MCP Services,0,NEW,"AI, Education, Training, HR",TOL-MCP-001_OAY_MCP_Service.json,Created

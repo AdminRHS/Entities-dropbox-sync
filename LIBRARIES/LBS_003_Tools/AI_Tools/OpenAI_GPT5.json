@@ -1,0 +1,112 @@
+{
+  "entity_type": "LIBRARIES",
+  "sub_entity": "Tool",
+  "tool_id": "TOOL-AI-028",
+  "name": "OpenAI GPT-5",
+  "vendor": "OpenAI",
+  "category": "AI Tools / LLM",
+  "purpose": "Advanced AI model for parsing unstructured data, visual design analysis, and comprehensive documentation generation",
+  "description": "Large language model with strong capabilities in visual interpretation, unstructured data parsing, and detailed documentation writing. Used in lead generation workflows for HTML parsing and contact extraction. Also excels at design system analysis - extracting design principles from screenshots and generating comprehensive design documentation. Superior to Claude for visual analysis and detailed specification writing.",
+  "skill_level_required": "Intermediate",
+  "cost_structure": "API-based usage pricing",
+  "platform_compatibility": ["API"],
+  "integration_capabilities": ["n8n integration", "API calls", "Apify workflow integration"],
+  "documentation_url": "https://openai.com",
+  "actual_remote_helpers_usage": {
+    "primary_uses": [
+      "AI-Powered HTML Parsing for Lead Extraction",
+      "Visual Design Analysis and Style Extraction",
+      "Comprehensive Design System Documentation"
+    ],
+    "users": ["Lead Generation Specialist", "Automation Engineer", "UI/UX Designer", "Design Systems Engineer", "AI Prompt Engineer"],
+    "use_cases": [
+      "parse unstructured HTML for contact data",
+      "extract emails from website content",
+      "structure scraped data",
+      "analyze design system screenshots for style extraction",
+      "extract design principles from visual inspiration",
+      "generate comprehensive design-system.json documentation",
+      "create high-level design.json style guides"
+    ],
+    "workflows": [
+      "AI Website Content Extraction (n8n + OpenAI + Apify → Anymailfinder → 10-20% enrichment)",
+      "AI-Assisted Design System Generation (WF-DESIGN-001)"
+    ],
+    "typical_workflow_patterns": [
+      {
+        "task": "AI HTML Parsing",
+        "steps": ["Apify scrapes website HTML", "n8n sends HTML to OpenAI", "GPT-5 extracts contact data", "Feed to Anymailfinder"],
+        "complexity": "High",
+        "success_rate": "10-20% enrichment"
+      },
+      {
+        "task": "Design Style Extraction (Prompt 1)",
+        "steps": ["Paste Dribbble screenshot into Cursor", "GPT-5 analyzes visual design", "Extracts colors, typography, spacing, principles", "Generates design.json (50-100 lines)"],
+        "complexity": "Low",
+        "duration": "1-2 minutes",
+        "success_rate": "High (matches professional designs)"
+      },
+      {
+        "task": "Comprehensive Design Documentation (Prompt 3)",
+        "steps": ["GPT-5 analyzes design.json + showcase app code", "Synthesizes all specifications", "Generates design-system.json (646+ lines)", "Includes all component specs, accessibility, patterns"],
+        "complexity": "Medium",
+        "duration": "2-5 minutes",
+        "success_rate": "High (comprehensive, AI-consumable)"
+      }
+    ]
+  },
+  "strengths": [
+    "Handles unstructured data",
+    "Extracts from complex HTML",
+    "Flexible parsing",
+    "Superior visual interpretation and design analysis",
+    "Excellent at detailed documentation generation",
+    "Strong at extracting design principles from images",
+    "Comprehensive specification writing"
+  ],
+  "limitations": [
+    "Lower success rate for lead gen (10-20%)",
+    "API costs",
+    "Requires orchestration tools (n8n for lead gen, Cursor for design)",
+    "Not as strong as Claude/Sonnet for code generation"
+  ],
+  "model_specialization": {
+    "better_than_claude_for": [
+      "Visual analysis and interpretation",
+      "Design language extraction from screenshots",
+      "Comprehensive documentation writing",
+      "Detailed specification generation"
+    ],
+    "not_as_good_as_claude_for": [
+      "Structured code generation",
+      "Component architecture",
+      "Complex coding tasks"
+    ],
+    "recommended_use_pattern": "Use GPT-5 for analysis and documentation (Prompts 1 & 3); switch to Claude/Sonnet for code generation (Prompt 2)"
+  },
+  "success_rate": "10-20% email enrichment (lower but handles difficult sources)",
+  "departments_using": ["LG", "AI", "Dev", "Design"],
+  "tags": [
+    "ai",
+    "llm",
+    "html-parsing",
+    "data-extraction",
+    "lead-generation",
+    "design-analysis",
+    "visual-interpretation",
+    "design-systems",
+    "documentation",
+    "gpt-5",
+    "cursor"
+  ],
+  "discovery_dates": {
+    "lead_generation_use": "2025-11-12",
+    "design_system_use": "2025-11-13"
+  },
+  "discovery_sources": ["Video_006_Lead_Generation_Analysis", "Video_009_Design_System_Analysis"],
+  "related_tools": ["Cursor", "Claude/Sonnet 4.5", "n8n", "Apify"],
+  "related_objects": ["design.json", "design-system.json"],
+  "related_skills": ["SKL-DESIGN-001", "SKL-DESIGN-003"],
+  "related_workflows": ["WF-DESIGN-001"],
+  "status": "active"
+}

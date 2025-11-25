@@ -1,0 +1,36 @@
+{
+  "entity_type": "TASK_MANAGERS",
+  "sub_entity": "Step_Template",
+  "step_id": "VIDEO-VIDEO-004-12",
+  "step_number": 12,
+  "parent_task": "TASK-TEMPLATE-VIDEO-004",
+  "task_name": "Master Unified Platform Workflow for Video Generation",
+  "name": "Write video generation prompt",
+  "action": "write",
+  "tool": "Text prompt",
+  "responsibility": "Video Producer",
+  "placement": "OpenArt - Video - Prompt field",
+  "duration": "3-5 minutes",
+  "dependencies": [
+    1,
+    11
+  ],
+  "inputs": [
+    "Project requirements",
+    "Storytelling narrative",
+    "Camera movements"
+  ],
+  "outputs": [
+    "Comprehensive video prompt with timing, actions, atmosphere"
+  ],
+  "success_criteria": "Prompt clearly describes desired video outcome",
+  "implementation_notes": "Prompt clearly describes desired video outcome - Implementation details based on the Master Unified Platform Workflow for Video Generation workflow.",
+  "tags": [
+    "write",
+    "template-task-video-004"
+  ],
+  "version": "1.0",
+  "created": "2025-11-15",
+  "last_updated": "2025-11-15",
+  "source": "Video_012"
+}

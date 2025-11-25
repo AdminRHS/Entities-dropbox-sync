@@ -1,0 +1,2429 @@
+{
+  "metadata": {
+    "created_date": "2025-11-17",
+    "description": "Parameter-Object mappings organized by profession"
+  },
+  "professions": {
+    "Lead Generator": {
+      "total_parameters": 389,
+      "objects": {
+        "accounts": [
+          {
+            "parameter": "initial response rate",
+            "type": "new",
+            "description": "Recently created accounts"
+          },
+          {
+            "parameter": "conversion rate",
+            "type": "new",
+            "description": "Recently created accounts"
+          },
+          {
+            "parameter": "engagement level",
+            "type": "new",
+            "description": "Recently created accounts"
+          },
+          {
+            "parameter": "client interaction frequency",
+            "type": "in work",
+            "description": "Active outreach/nurturing"
+          },
+          {
+            "parameter": "progress tracking",
+            "type": "in work",
+            "description": "Active outreach/nurturing"
+          },
+          {
+            "parameter": "issue resolution rate",
+            "type": "in work",
+            "description": "Active outreach/nurturing"
+          },
+          {
+            "parameter": "revenue generated",
+            "type": "sold",
+            "description": "Converted to client"
+          },
+          {
+            "parameter": "sales cycle duration",
+            "type": "sold",
+            "description": "Converted to client"
+          },
+          {
+            "parameter": "customer satisfaction index",
+            "type": "sold",
+            "description": "Converted to client"
+          },
+          {
+            "parameter": "reason for ban",
+            "type": "banned",
+            "description": "Blocked/restricted"
+          },
+          {
+            "parameter": "ban appeal success rate",
+            "type": "banned",
+            "description": "Blocked/restricted"
+          },
+          {
+            "parameter": "preventive measures taken",
+            "type": "banned",
+            "description": "Blocked/restricted"
+          },
+          {
+            "parameter": "upgrade conversion rate",
+            "type": "free",
+            "description": "Trial or free tier"
+          },
+          {
+            "parameter": "engagement metrics",
+            "type": "free",
+            "description": "Trial or free tier"
+          },
+          {
+            "parameter": "activity score",
+            "type": "free",
+            "description": "Trial or free tier"
+          },
+          {
+            "parameter": "freshness index",
+            "type": "new",
+            "description": "Recently created accounts"
+          },
+          {
+            "parameter": "engagement rate",
+            "type": "new",
+            "description": "Recently created accounts"
+          },
+          {
+            "parameter": "qualification speed",
+            "type": "new",
+            "description": "Recently created accounts"
+          },
+          {
+            "parameter": "initial response rate",
+            "type": "new",
+            "description": "Recently created accounts"
+          },
+          {
+            "parameter": "conversion rate",
+            "type": "new",
+            "description": "Recently created accounts"
+          },
+          {
+            "parameter": "engagement level",
+            "type": "new",
+            "description": "Recently created accounts"
+          },
+          {
+            "parameter": "client interaction frequency",
+            "type": "in work",
+            "description": "Active outreach/nurturing"
+          },
+          {
+            "parameter": "progress tracking",
+            "type": "in work",
+            "description": "Active outreach/nurturing"
+          },
+          {
+            "parameter": "issue resolution rate",
+            "type": "in work",
+            "description": "Active outreach/nurturing"
+          },
+          {
+            "parameter": "revenue generated",
+            "type": "sold",
+            "description": "Converted to client"
+          },
+          {
+            "parameter": "sales cycle duration",
+            "type": "sold",
+            "description": "Converted to client"
+          },
+          {
+            "parameter": "customer satisfaction index",
+            "type": "sold",
+            "description": "Converted to client"
+          },
+          {
+            "parameter": "reason for ban",
+            "type": "banned",
+            "description": "Blocked/restricted"
+          },
+          {
+            "parameter": "ban appeal success rate",
+            "type": "banned",
+            "description": "Blocked/restricted"
+          },
+          {
+            "parameter": "preventive measures taken",
+            "type": "banned",
+            "description": "Blocked/restricted"
+          },
+          {
+            "parameter": "upgrade conversion rate",
+            "type": "free",
+            "description": "Trial or free tier"
+          },
+          {
+            "parameter": "engagement metrics",
+            "type": "free",
+            "description": "Trial or free tier"
+          },
+          {
+            "parameter": "activity score",
+            "type": "free",
+            "description": "Trial or free tier"
+          },
+          {
+            "parameter": "freshness index",
+            "type": "new",
+            "description": "Recently created accounts"
+          },
+          {
+            "parameter": "engagement rate",
+            "type": "new",
+            "description": "Recently created accounts"
+          },
+          {
+            "parameter": "qualification speed",
+            "type": "new",
+            "description": "Recently created accounts"
+          },
+          {
+            "parameter": "activity score",
+            "type": "free",
+            "description": "Trial or free tier"
+          },
+          {
+            "parameter": "ban appeal success rate",
+            "type": "banned",
+            "description": "Blocked/restricted"
+          },
+          {
+            "parameter": "reason for ban",
+            "type": "banned",
+            "description": "Blocked/restricted"
+          },
+          {
+            "parameter": "ban appeal success rate",
+            "type": "banned",
+            "description": "Blocked/restricted"
+          },
+          {
+            "parameter": "preventive measures taken",
+            "type": "banned",
+            "description": "Blocked/restricted"
+          },
+          {
+            "parameter": "client interaction frequency",
+            "type": "in work",
+            "description": "Active outreach/nurturing"
+          },
+          {
+            "parameter": "conversion rate",
+            "type": "new",
+            "description": "Recently created accounts"
+          },
+          {
+            "parameter": "customer satisfaction index",
+            "type": "sold",
+            "description": "Converted to client"
+          },
+          {
+            "parameter": "engagement level",
+            "type": "new",
+            "description": "Recently created accounts"
+          },
+          {
+            "parameter": "engagement metrics",
+            "type": "free",
+            "description": "Trial or free tier"
+          },
+          {
+            "parameter": "engagement rate",
+            "type": "new",
+            "description": "Recently created accounts"
+          },
+          {
+            "parameter": "upgrade conversion rate",
+            "type": "free",
+            "description": "Trial or free tier"
+          },
+          {
+            "parameter": "engagement metrics",
+            "type": "free",
+            "description": "Trial or free tier"
+          },
+          {
+            "parameter": "activity score",
+            "type": "free",
+            "description": "Trial or free tier"
+          },
+          {
+            "parameter": "freshness index",
+            "type": "new",
+            "description": "Recently created accounts"
+          },
+          {
+            "parameter": "client interaction frequency",
+            "type": "in work",
+            "description": "Active outreach/nurturing"
+          },
+          {
+            "parameter": "progress tracking",
+            "type": "in work",
+            "description": "Active outreach/nurturing"
+          },
+          {
+            "parameter": "issue resolution rate",
+            "type": "in work",
+            "description": "Active outreach/nurturing"
+          },
+          {
+            "parameter": "initial response rate",
+            "type": "new",
+            "description": "Recently created accounts"
+          },
+          {
+            "parameter": "issue resolution rate",
+            "type": "in work",
+            "description": "Active outreach/nurturing"
+          },
+          {
+            "parameter": "initial response rate",
+            "type": "new",
+            "description": "Recently created accounts"
+          },
+          {
+            "parameter": "conversion rate",
+            "type": "new",
+            "description": "Recently created accounts"
+          },
+          {
+            "parameter": "engagement level",
+            "type": "new",
+            "description": "Recently created accounts"
+          },
+          {
+            "parameter": "freshness index",
+            "type": "new",
+            "description": "Recently created accounts"
+          },
+          {
+            "parameter": "engagement rate",
+            "type": "new",
+            "description": "Recently created accounts"
+          },
+          {
+            "parameter": "qualification speed",
+            "type": "new",
+            "description": "Recently created accounts"
+          },
+          {
+            "parameter": "preventive measures taken",
+            "type": "banned",
+            "description": "Blocked/restricted"
+          },
+          {
+            "parameter": "progress tracking",
+            "type": "in work",
+            "description": "Active outreach/nurturing"
+          },
+          {
+            "parameter": "qualification speed",
+            "type": "new",
+            "description": "Recently created accounts"
+          },
+          {
+            "parameter": "reason for ban",
+            "type": "banned",
+            "description": "Blocked/restricted"
+          },
+          {
+            "parameter": "revenue generated",
+            "type": "sold",
+            "description": "Converted to client"
+          },
+          {
+            "parameter": "sales cycle duration",
+            "type": "sold",
+            "description": "Converted to client"
+          },
+          {
+            "parameter": "revenue generated",
+            "type": "sold",
+            "description": "Converted to client"
+          },
+          {
+            "parameter": "sales cycle duration",
+            "type": "sold",
+            "description": "Converted to client"
+          },
+          {
+            "parameter": "customer satisfaction index",
+            "type": "sold",
+            "description": "Converted to client"
+          },
+          {
+            "parameter": "upgrade conversion rate",
+            "type": "free",
+            "description": "Trial or free tier"
+          }
+        ],
+        "leads": [
+          {
+            "parameter": "initial response rate",
+            "type": "new",
+            "description": "Recently identified"
+          },
+          {
+            "parameter": "conversion rate",
+            "type": "new",
+            "description": "Recently identified"
+          },
+          {
+            "parameter": "engagement level",
+            "type": "new",
+            "description": "Recently identified"
+          },
+          {
+            "parameter": "communication frequency",
+            "type": "active",
+            "description": "In conversation"
+          },
+          {
+            "parameter": "transaction rate",
+            "type": "active",
+            "description": "In conversation"
+          },
+          {
+            "parameter": "responsiveness",
+            "type": "active",
+            "description": "In conversation"
+          },
+          {
+            "parameter": "client retention rate",
+            "type": "client",
+            "description": "Converted"
+          },
+          {
+            "parameter": "average transaction value",
+            "type": "client",
+            "description": "Converted"
+          },
+          {
+            "parameter": "satisfaction index",
+            "type": "client",
+            "description": "Converted"
+          },
+          {
+            "parameter": "information accuracy rate",
+            "type": "updated",
+            "description": "Information refreshed"
+          },
+          {
+            "parameter": "update frequency",
+            "type": "updated",
+            "description": "Information refreshed"
+          },
+          {
+            "parameter": "relevance score",
+            "type": "updated",
+            "description": "Information refreshed"
+          },
+          {
+            "parameter": "reactivation rate",
+            "type": "cold",
+            "description": "No prior contact"
+          },
+          {
+            "parameter": "initial interest level",
+            "type": "cold",
+            "description": "No prior contact"
+          },
+          {
+            "parameter": "follow-up response",
+            "type": "cold",
+            "description": "No prior contact"
+          },
+          {
+            "parameter": "freshness index",
+            "type": "new",
+            "description": "Recently identified"
+          },
+          {
+            "parameter": "engagement rate",
+            "type": "new",
+            "description": "Recently identified"
+          },
+          {
+            "parameter": "qualification speed",
+            "type": "new",
+            "description": "Recently identified"
+          },
+          {
+            "parameter": "progress tracking",
+            "type": "active",
+            "description": "In conversation"
+          },
+          {
+            "parameter": "conversion rate",
+            "type": "active",
+            "description": "In conversation"
+          },
+          {
+            "parameter": "interaction depth",
+            "type": "active",
+            "description": "In conversation"
+          },
+          {
+            "parameter": "client conversion rate",
+            "type": "client",
+            "description": "Converted"
+          },
+          {
+            "parameter": "upsell rate",
+            "type": "client",
+            "description": "Converted"
+          },
+          {
+            "parameter": "satisfaction level",
+            "type": "client",
+            "description": "Converted"
+          },
+          {
+            "parameter": "data accuracy",
+            "type": "updated",
+            "description": "Information refreshed"
+          },
+          {
+            "parameter": "recency of interaction",
+            "type": "updated",
+            "description": "Information refreshed"
+          },
+          {
+            "parameter": "relevance of information",
+            "type": "updated",
+            "description": "Information refreshed"
+          },
+          {
+            "parameter": "engagement rate",
+            "type": "cold",
+            "description": "No prior contact"
+          },
+          {
+            "parameter": "response quality",
+            "type": "cold",
+            "description": "No prior contact"
+          },
+          {
+            "parameter": "follow-up rate",
+            "type": "cold",
+            "description": "No prior contact"
+          },
+          {
+            "parameter": "open rate",
+            "type": "cold",
+            "description": "No prior contact"
+          },
+          {
+            "parameter": "click-through rate",
+            "type": "cold",
+            "description": "No prior contact"
+          },
+          {
+            "parameter": "unsubscribe rate",
+            "type": "cold",
+            "description": "No prior contact"
+          },
+          {
+            "parameter": "initial response rate",
+            "type": "new",
+            "description": "Recently identified"
+          },
+          {
+            "parameter": "conversion rate",
+            "type": "new",
+            "description": "Recently identified"
+          },
+          {
+            "parameter": "engagement level",
+            "type": "new",
+            "description": "Recently identified"
+          },
+          {
+            "parameter": "communication frequency",
+            "type": "active",
+            "description": "In conversation"
+          },
+          {
+            "parameter": "transaction rate",
+            "type": "active",
+            "description": "In conversation"
+          },
+          {
+            "parameter": "responsiveness",
+            "type": "active",
+            "description": "In conversation"
+          },
+          {
+            "parameter": "client retention rate",
+            "type": "client",
+            "description": "Converted"
+          },
+          {
+            "parameter": "average transaction value",
+            "type": "client",
+            "description": "Converted"
+          },
+          {
+            "parameter": "satisfaction index",
+            "type": "client",
+            "description": "Converted"
+          },
+          {
+            "parameter": "information accuracy rate",
+            "type": "updated",
+            "description": "Information refreshed"
+          },
+          {
+            "parameter": "update frequency",
+            "type": "updated",
+            "description": "Information refreshed"
+          },
+          {
+            "parameter": "relevance score",
+            "type": "updated",
+            "description": "Information refreshed"
+          },
+          {
+            "parameter": "reactivation rate",
+            "type": "cold",
+            "description": "No prior contact"
+          },
+          {
+            "parameter": "initial interest level",
+            "type": "cold",
+            "description": "No prior contact"
+          },
+          {
+            "parameter": "follow-up response",
+            "type": "cold",
+            "description": "No prior contact"
+          },
+          {
+            "parameter": "freshness index",
+            "type": "new",
+            "description": "Recently identified"
+          },
+          {
+            "parameter": "engagement rate",
+            "type": "new",
+            "description": "Recently identified"
+          },
+          {
+            "parameter": "qualification speed",
+            "type": "new",
+            "description": "Recently identified"
+          },
+          {
+            "parameter": "progress tracking",
+            "type": "active",
+            "description": "In conversation"
+          },
+          {
+            "parameter": "conversion rate",
+            "type": "active",
+            "description": "In conversation"
+          },
+          {
+            "parameter": "interaction depth",
+            "type": "active",
+            "description": "In conversation"
+          },
+          {
+            "parameter": "client conversion rate",
+            "type": "client",
+            "description": "Converted"
+          },
+          {
+            "parameter": "upsell rate",
+            "type": "client",
+            "description": "Converted"
+          },
+          {
+            "parameter": "satisfaction level",
+            "type": "client",
+            "description": "Converted"
+          },
+          {
+            "parameter": "data accuracy",
+            "type": "updated",
+            "description": "Information refreshed"
+          },
+          {
+            "parameter": "recency of interaction",
+            "type": "updated",
+            "description": "Information refreshed"
+          },
+          {
+            "parameter": "relevance of information",
+            "type": "updated",
+            "description": "Information refreshed"
+          },
+          {
+            "parameter": "engagement rate",
+            "type": "cold",
+            "description": "No prior contact"
+          },
+          {
+            "parameter": "response quality",
+            "type": "cold",
+            "description": "No prior contact"
+          },
+          {
+            "parameter": "follow-up rate",
+            "type": "cold",
+            "description": "No prior contact"
+          },
+          {
+            "parameter": "open rate",
+            "type": "cold",
+            "description": "No prior contact"
+          },
+          {
+            "parameter": "click-through rate",
+            "type": "cold",
+            "description": "No prior contact"
+          },
+          {
+            "parameter": "unsubscribe rate",
+            "type": "cold",
+            "description": "No prior contact"
+          },
+          {
+            "parameter": "communication frequency",
+            "type": "active",
+            "description": "In conversation"
+          },
+          {
+            "parameter": "transaction rate",
+            "type": "active",
+            "description": "In conversation"
+          },
+          {
+            "parameter": "responsiveness",
+            "type": "active",
+            "description": "In conversation"
+          },
+          {
+            "parameter": "progress tracking",
+            "type": "active",
+            "description": "In conversation"
+          },
+          {
+            "parameter": "conversion rate",
+            "type": "active",
+            "description": "In conversation"
+          },
+          {
+            "parameter": "interaction depth",
+            "type": "active",
+            "description": "In conversation"
+          },
+          {
+            "parameter": "average transaction value",
+            "type": "client",
+            "description": "Converted"
+          },
+          {
+            "parameter": "click-through rate",
+            "type": "cold",
+            "description": "No prior contact"
+          },
+          {
+            "parameter": "client retention rate",
+            "type": "client",
+            "description": "Converted"
+          },
+          {
+            "parameter": "average transaction value",
+            "type": "client",
+            "description": "Converted"
+          },
+          {
+            "parameter": "satisfaction index",
+            "type": "client",
+            "description": "Converted"
+          },
+          {
+            "parameter": "client conversion rate",
+            "type": "client",
+            "description": "Converted"
+          },
+          {
+            "parameter": "upsell rate",
+            "type": "client",
+            "description": "Converted"
+          },
+          {
+            "parameter": "satisfaction level",
+            "type": "client",
+            "description": "Converted"
+          },
+          {
+            "parameter": "client conversion rate",
+            "type": "client",
+            "description": "Converted"
+          },
+          {
+            "parameter": "client retention rate",
+            "type": "client",
+            "description": "Converted"
+          },
+          {
+            "parameter": "reactivation rate",
+            "type": "cold",
+            "description": "No prior contact"
+          },
+          {
+            "parameter": "initial interest level",
+            "type": "cold",
+            "description": "No prior contact"
+          },
+          {
+            "parameter": "follow-up response",
+            "type": "cold",
+            "description": "No prior contact"
+          },
+          {
+            "parameter": "engagement rate",
+            "type": "cold",
+            "description": "No prior contact"
+          },
+          {
+            "parameter": "response quality",
+            "type": "cold",
+            "description": "No prior contact"
+          },
+          {
+            "parameter": "follow-up rate",
+            "type": "cold",
+            "description": "No prior contact"
+          },
+          {
+            "parameter": "open rate",
+            "type": "cold",
+            "description": "No prior contact"
+          },
+          {
+            "parameter": "click-through rate",
+            "type": "cold",
+            "description": "No prior contact"
+          },
+          {
+            "parameter": "unsubscribe rate",
+            "type": "cold",
+            "description": "No prior contact"
+          },
+          {
+            "parameter": "communication frequency",
+            "type": "active",
+            "description": "In conversation"
+          },
+          {
+            "parameter": "conversion rate",
+            "type": "new",
+            "description": "Recently identified"
+          },
+          {
+            "parameter": "conversion rate",
+            "type": "active",
+            "description": "In conversation"
+          },
+          {
+            "parameter": "data accuracy",
+            "type": "updated",
+            "description": "Information refreshed"
+          },
+          {
+            "parameter": "engagement level",
+            "type": "new",
+            "description": "Recently identified"
+          },
+          {
+            "parameter": "engagement rate",
+            "type": "new",
+            "description": "Recently identified"
+          },
+          {
+            "parameter": "engagement rate",
+            "type": "cold",
+            "description": "No prior contact"
+          },
+          {
+            "parameter": "follow-up rate",
+            "type": "cold",
+            "description": "No prior contact"
+          },
+          {
+            "parameter": "follow-up response",
+            "type": "cold",
+            "description": "No prior contact"
+          },
+          {
+            "parameter": "freshness index",
+            "type": "new",
+            "description": "Recently identified"
+          },
+          {
+            "parameter": "information accuracy rate",
+            "type": "updated",
+            "description": "Information refreshed"
+          },
+          {
+            "parameter": "initial interest level",
+            "type": "cold",
+            "description": "No prior contact"
+          },
+          {
+            "parameter": "initial response rate",
+            "type": "new",
+            "description": "Recently identified"
+          },
+          {
+            "parameter": "interaction depth",
+            "type": "active",
+            "description": "In conversation"
+          },
+          {
+            "parameter": "initial response rate",
+            "type": "new",
+            "description": "Recently identified"
+          },
+          {
+            "parameter": "conversion rate",
+            "type": "new",
+            "description": "Recently identified"
+          },
+          {
+            "parameter": "engagement level",
+            "type": "new",
+            "description": "Recently identified"
+          },
+          {
+            "parameter": "freshness index",
+            "type": "new",
+            "description": "Recently identified"
+          },
+          {
+            "parameter": "engagement rate",
+            "type": "new",
+            "description": "Recently identified"
+          },
+          {
+            "parameter": "qualification speed",
+            "type": "new",
+            "description": "Recently identified"
+          },
+          {
+            "parameter": "open rate",
+            "type": "cold",
+            "description": "No prior contact"
+          },
+          {
+            "parameter": "progress tracking",
+            "type": "active",
+            "description": "In conversation"
+          },
+          {
+            "parameter": "qualification speed",
+            "type": "new",
+            "description": "Recently identified"
+          },
+          {
+            "parameter": "reactivation rate",
+            "type": "cold",
+            "description": "No prior contact"
+          },
+          {
+            "parameter": "recency of interaction",
+            "type": "updated",
+            "description": "Information refreshed"
+          },
+          {
+            "parameter": "relevance of information",
+            "type": "updated",
+            "description": "Information refreshed"
+          },
+          {
+            "parameter": "relevance score",
+            "type": "updated",
+            "description": "Information refreshed"
+          },
+          {
+            "parameter": "response quality",
+            "type": "cold",
+            "description": "No prior contact"
+          },
+          {
+            "parameter": "responsiveness",
+            "type": "active",
+            "description": "In conversation"
+          },
+          {
+            "parameter": "satisfaction index",
+            "type": "client",
+            "description": "Converted"
+          },
+          {
+            "parameter": "satisfaction level",
+            "type": "client",
+            "description": "Converted"
+          },
+          {
+            "parameter": "transaction rate",
+            "type": "active",
+            "description": "In conversation"
+          },
+          {
+            "parameter": "unsubscribe rate",
+            "type": "cold",
+            "description": "No prior contact"
+          },
+          {
+            "parameter": "update frequency",
+            "type": "updated",
+            "description": "Information refreshed"
+          },
+          {
+            "parameter": "information accuracy rate",
+            "type": "updated",
+            "description": "Information refreshed"
+          },
+          {
+            "parameter": "update frequency",
+            "type": "updated",
+            "description": "Information refreshed"
+          },
+          {
+            "parameter": "relevance score",
+            "type": "updated",
+            "description": "Information refreshed"
+          },
+          {
+            "parameter": "data accuracy",
+            "type": "updated",
+            "description": "Information refreshed"
+          },
+          {
+            "parameter": "recency of interaction",
+            "type": "updated",
+            "description": "Information refreshed"
+          },
+          {
+            "parameter": "relevance of information",
+            "type": "updated",
+            "description": "Information refreshed"
+          },
+          {
+            "parameter": "upsell rate",
+            "type": "client",
+            "description": "Converted"
+          }
+        ],
+        "companies": [
+          {
+            "parameter": "lead quality score",
+            "type": "lead",
+            "description": "Potential client"
+          },
+          {
+            "parameter": "conversion potential",
+            "type": "lead",
+            "description": "Potential client"
+          },
+          {
+            "parameter": "follow-up rate",
+            "type": "lead",
+            "description": "Potential client"
+          },
+          {
+            "parameter": "lead acquisition rate",
+            "type": "lead",
+            "description": "Potential client"
+          },
+          {
+            "parameter": "initial contact success",
+            "type": "lead",
+            "description": "Potential client"
+          },
+          {
+            "parameter": "follow-up efficiency",
+            "type": "lead",
+            "description": "Potential client"
+          },
+          {
+            "parameter": "interest level",
+            "type": "interested",
+            "description": "Engaged prospect"
+          },
+          {
+            "parameter": "engagement actions",
+            "type": "interested",
+            "description": "Engaged prospect"
+          },
+          {
+            "parameter": "proposal acceptance rate",
+            "type": "interested",
+            "description": "Engaged prospect"
+          },
+          {
+            "parameter": "client retention rate",
+            "type": "client",
+            "description": "Active customer"
+          },
+          {
+            "parameter": "average transaction value",
+            "type": "client",
+            "description": "Active customer"
+          },
+          {
+            "parameter": "satisfaction index",
+            "type": "client",
+            "description": "Active customer"
+          },
+          {
+            "parameter": "information accuracy rate",
+            "type": "updated",
+            "description": "Recently modified"
+          },
+          {
+            "parameter": "update frequency",
+            "type": "updated",
+            "description": "Recently modified"
+          },
+          {
+            "parameter": "relevance score",
+            "type": "updated",
+            "description": "Recently modified"
+          },
+          {
+            "parameter": "disqualification reasons",
+            "type": "not relevant",
+            "description": "Disqualified"
+          },
+          {
+            "parameter": "alternative opportunities identified",
+            "type": "not relevant",
+            "description": "Disqualified"
+          },
+          {
+            "parameter": "re-engagement attempts",
+            "type": "not relevant",
+            "description": "Disqualified"
+          },
+          {
+            "parameter": "client conversion rate",
+            "type": "client",
+            "description": "Active customer"
+          },
+          {
+            "parameter": "upsell rate",
+            "type": "client",
+            "description": "Active customer"
+          },
+          {
+            "parameter": "satisfaction level",
+            "type": "client",
+            "description": "Active customer"
+          },
+          {
+            "parameter": "data accuracy",
+            "type": "updated",
+            "description": "Recently modified"
+          },
+          {
+            "parameter": "recency of interaction",
+            "type": "updated",
+            "description": "Recently modified"
+          },
+          {
+            "parameter": "relevance of information",
+            "type": "updated",
+            "description": "Recently modified"
+          },
+          {
+            "parameter": "disqualification rate",
+            "type": "not relevant",
+            "description": "Disqualified"
+          },
+          {
+            "parameter": "reason analysis",
+            "type": "not relevant",
+            "description": "Disqualified"
+          },
+          {
+            "parameter": "follow-up actions",
+            "type": "not relevant",
+            "description": "Disqualified"
+          },
+          {
+            "parameter": "lead quality score",
+            "type": "lead",
+            "description": "Potential client"
+          },
+          {
+            "parameter": "conversion potential",
+            "type": "lead",
+            "description": "Potential client"
+          },
+          {
+            "parameter": "follow-up rate",
+            "type": "lead",
+            "description": "Potential client"
+          },
+          {
+            "parameter": "lead acquisition rate",
+            "type": "lead",
+            "description": "Potential client"
+          },
+          {
+            "parameter": "initial contact success",
+            "type": "lead",
+            "description": "Potential client"
+          },
+          {
+            "parameter": "follow-up efficiency",
+            "type": "lead",
+            "description": "Potential client"
+          },
+          {
+            "parameter": "interest level",
+            "type": "interested",
+            "description": "Engaged prospect"
+          },
+          {
+            "parameter": "engagement actions",
+            "type": "interested",
+            "description": "Engaged prospect"
+          },
+          {
+            "parameter": "proposal acceptance rate",
+            "type": "interested",
+            "description": "Engaged prospect"
+          },
+          {
+            "parameter": "client retention rate",
+            "type": "client",
+            "description": "Active customer"
+          },
+          {
+            "parameter": "average transaction value",
+            "type": "client",
+            "description": "Active customer"
+          },
+          {
+            "parameter": "satisfaction index",
+            "type": "client",
+            "description": "Active customer"
+          },
+          {
+            "parameter": "information accuracy rate",
+            "type": "updated",
+            "description": "Recently modified"
+          },
+          {
+            "parameter": "update frequency",
+            "type": "updated",
+            "description": "Recently modified"
+          },
+          {
+            "parameter": "relevance score",
+            "type": "updated",
+            "description": "Recently modified"
+          },
+          {
+            "parameter": "disqualification reasons",
+            "type": "not relevant",
+            "description": "Disqualified"
+          },
+          {
+            "parameter": "alternative opportunities identified",
+            "type": "not relevant",
+            "description": "Disqualified"
+          },
+          {
+            "parameter": "re-engagement attempts",
+            "type": "not relevant",
+            "description": "Disqualified"
+          },
+          {
+            "parameter": "client conversion rate",
+            "type": "client",
+            "description": "Active customer"
+          },
+          {
+            "parameter": "upsell rate",
+            "type": "client",
+            "description": "Active customer"
+          },
+          {
+            "parameter": "satisfaction level",
+            "type": "client",
+            "description": "Active customer"
+          },
+          {
+            "parameter": "data accuracy",
+            "type": "updated",
+            "description": "Recently modified"
+          },
+          {
+            "parameter": "recency of interaction",
+            "type": "updated",
+            "description": "Recently modified"
+          },
+          {
+            "parameter": "relevance of information",
+            "type": "updated",
+            "description": "Recently modified"
+          },
+          {
+            "parameter": "disqualification rate",
+            "type": "not relevant",
+            "description": "Disqualified"
+          },
+          {
+            "parameter": "reason analysis",
+            "type": "not relevant",
+            "description": "Disqualified"
+          },
+          {
+            "parameter": "follow-up actions",
+            "type": "not relevant",
+            "description": "Disqualified"
+          },
+          {
+            "parameter": "alternative opportunities identified",
+            "type": "not relevant",
+            "description": "Disqualified"
+          },
+          {
+            "parameter": "average transaction value",
+            "type": "client",
+            "description": "Active customer"
+          },
+          {
+            "parameter": "client retention rate",
+            "type": "client",
+            "description": "Active customer"
+          },
+          {
+            "parameter": "average transaction value",
+            "type": "client",
+            "description": "Active customer"
+          },
+          {
+            "parameter": "satisfaction index",
+            "type": "client",
+            "description": "Active customer"
+          },
+          {
+            "parameter": "client conversion rate",
+            "type": "client",
+            "description": "Active customer"
+          },
+          {
+            "parameter": "upsell rate",
+            "type": "client",
+            "description": "Active customer"
+          },
+          {
+            "parameter": "satisfaction level",
+            "type": "client",
+            "description": "Active customer"
+          },
+          {
+            "parameter": "client conversion rate",
+            "type": "client",
+            "description": "Active customer"
+          },
+          {
+            "parameter": "client retention rate",
+            "type": "client",
+            "description": "Active customer"
+          },
+          {
+            "parameter": "conversion potential",
+            "type": "lead",
+            "description": "Potential client"
+          },
+          {
+            "parameter": "data accuracy",
+            "type": "updated",
+            "description": "Recently modified"
+          },
+          {
+            "parameter": "disqualification rate",
+            "type": "not relevant",
+            "description": "Disqualified"
+          },
+          {
+            "parameter": "disqualification reasons",
+            "type": "not relevant",
+            "description": "Disqualified"
+          },
+          {
+            "parameter": "engagement actions",
+            "type": "interested",
+            "description": "Engaged prospect"
+          },
+          {
+            "parameter": "follow-up actions",
+            "type": "not relevant",
+            "description": "Disqualified"
+          },
+          {
+            "parameter": "follow-up efficiency",
+            "type": "lead",
+            "description": "Potential client"
+          },
+          {
+            "parameter": "follow-up rate",
+            "type": "lead",
+            "description": "Potential client"
+          },
+          {
+            "parameter": "information accuracy rate",
+            "type": "updated",
+            "description": "Recently modified"
+          },
+          {
+            "parameter": "initial contact success",
+            "type": "lead",
+            "description": "Potential client"
+          },
+          {
+            "parameter": "interest level",
+            "type": "interested",
+            "description": "Engaged prospect"
+          },
+          {
+            "parameter": "interest level",
+            "type": "interested",
+            "description": "Engaged prospect"
+          },
+          {
+            "parameter": "engagement actions",
+            "type": "interested",
+            "description": "Engaged prospect"
+          },
+          {
+            "parameter": "proposal acceptance rate",
+            "type": "interested",
+            "description": "Engaged prospect"
+          },
+          {
+            "parameter": "lead quality score",
+            "type": "lead",
+            "description": "Potential client"
+          },
+          {
+            "parameter": "conversion potential",
+            "type": "lead",
+            "description": "Potential client"
+          },
+          {
+            "parameter": "follow-up rate",
+            "type": "lead",
+            "description": "Potential client"
+          },
+          {
+            "parameter": "lead acquisition rate",
+            "type": "lead",
+            "description": "Potential client"
+          },
+          {
+            "parameter": "initial contact success",
+            "type": "lead",
+            "description": "Potential client"
+          },
+          {
+            "parameter": "follow-up efficiency",
+            "type": "lead",
+            "description": "Potential client"
+          },
+          {
+            "parameter": "lead acquisition rate",
+            "type": "lead",
+            "description": "Potential client"
+          },
+          {
+            "parameter": "lead quality score",
+            "type": "lead",
+            "description": "Potential client"
+          },
+          {
+            "parameter": "disqualification reasons",
+            "type": "not relevant",
+            "description": "Disqualified"
+          },
+          {
+            "parameter": "alternative opportunities identified",
+            "type": "not relevant",
+            "description": "Disqualified"
+          },
+          {
+            "parameter": "re-engagement attempts",
+            "type": "not relevant",
+            "description": "Disqualified"
+          },
+          {
+            "parameter": "disqualification rate",
+            "type": "not relevant",
+            "description": "Disqualified"
+          },
+          {
+            "parameter": "reason analysis",
+            "type": "not relevant",
+            "description": "Disqualified"
+          },
+          {
+            "parameter": "follow-up actions",
+            "type": "not relevant",
+            "description": "Disqualified"
+          },
+          {
+            "parameter": "proposal acceptance rate",
+            "type": "interested",
+            "description": "Engaged prospect"
+          },
+          {
+            "parameter": "re-engagement attempts",
+            "type": "not relevant",
+            "description": "Disqualified"
+          },
+          {
+            "parameter": "reason analysis",
+            "type": "not relevant",
+            "description": "Disqualified"
+          },
+          {
+            "parameter": "recency of interaction",
+            "type": "updated",
+            "description": "Recently modified"
+          },
+          {
+            "parameter": "relevance of information",
+            "type": "updated",
+            "description": "Recently modified"
+          },
+          {
+            "parameter": "relevance score",
+            "type": "updated",
+            "description": "Recently modified"
+          },
+          {
+            "parameter": "satisfaction index",
+            "type": "client",
+            "description": "Active customer"
+          },
+          {
+            "parameter": "satisfaction level",
+            "type": "client",
+            "description": "Active customer"
+          },
+          {
+            "parameter": "update frequency",
+            "type": "updated",
+            "description": "Recently modified"
+          },
+          {
+            "parameter": "information accuracy rate",
+            "type": "updated",
+            "description": "Recently modified"
+          },
+          {
+            "parameter": "update frequency",
+            "type": "updated",
+            "description": "Recently modified"
+          },
+          {
+            "parameter": "relevance score",
+            "type": "updated",
+            "description": "Recently modified"
+          },
+          {
+            "parameter": "data accuracy",
+            "type": "updated",
+            "description": "Recently modified"
+          },
+          {
+            "parameter": "recency of interaction",
+            "type": "updated",
+            "description": "Recently modified"
+          },
+          {
+            "parameter": "relevance of information",
+            "type": "updated",
+            "description": "Recently modified"
+          },
+          {
+            "parameter": "upsell rate",
+            "type": "client",
+            "description": "Active customer"
+          }
+        ],
+        "messages": [
+          {
+            "parameter": "reactivation rate",
+            "type": "cold",
+            "description": "First outreach"
+          },
+          {
+            "parameter": "initial interest level",
+            "type": "cold",
+            "description": "First outreach"
+          },
+          {
+            "parameter": "follow-up response",
+            "type": "cold",
+            "description": "First outreach"
+          },
+          {
+            "parameter": "initial response quality",
+            "type": "connection",
+            "description": "Initial LinkedIn/platform connection"
+          },
+          {
+            "parameter": "timeliness",
+            "type": "connection",
+            "description": "Initial LinkedIn/platform connection"
+          },
+          {
+            "parameter": "conversion impact",
+            "type": "connection",
+            "description": "Initial LinkedIn/platform connection"
+          },
+          {
+            "parameter": "engagement rate",
+            "type": "cold",
+            "description": "First outreach"
+          },
+          {
+            "parameter": "response quality",
+            "type": "cold",
+            "description": "First outreach"
+          },
+          {
+            "parameter": "follow-up rate",
+            "type": "cold",
+            "description": "First outreach"
+          },
+          {
+            "parameter": "effectiveness rating",
+            "type": "presentation",
+            "description": "Product/service pitch"
+          },
+          {
+            "parameter": "audience engagement",
+            "type": "presentation",
+            "description": "Product/service pitch"
+          },
+          {
+            "parameter": "feedback quality",
+            "type": "presentation",
+            "description": "Product/service pitch"
+          },
+          {
+            "parameter": "open rate",
+            "type": "cold",
+            "description": "First outreach"
+          },
+          {
+            "parameter": "click-through rate",
+            "type": "cold",
+            "description": "First outreach"
+          },
+          {
+            "parameter": "unsubscribe rate",
+            "type": "cold",
+            "description": "First outreach"
+          },
+          {
+            "parameter": "audience reach",
+            "type": "presentation",
+            "description": "Product/service pitch"
+          },
+          {
+            "parameter": "engagement score",
+            "type": "presentation",
+            "description": "Product/service pitch"
+          },
+          {
+            "parameter": "reactivation rate",
+            "type": "cold",
+            "description": "First outreach"
+          },
+          {
+            "parameter": "initial interest level",
+            "type": "cold",
+            "description": "First outreach"
+          },
+          {
+            "parameter": "follow-up response",
+            "type": "cold",
+            "description": "First outreach"
+          },
+          {
+            "parameter": "initial response quality",
+            "type": "connection",
+            "description": "Initial LinkedIn/platform connection"
+          },
+          {
+            "parameter": "timeliness",
+            "type": "connection",
+            "description": "Initial LinkedIn/platform connection"
+          },
+          {
+            "parameter": "conversion impact",
+            "type": "connection",
+            "description": "Initial LinkedIn/platform connection"
+          },
+          {
+            "parameter": "engagement rate",
+            "type": "cold",
+            "description": "First outreach"
+          },
+          {
+            "parameter": "response quality",
+            "type": "cold",
+            "description": "First outreach"
+          },
+          {
+            "parameter": "follow-up rate",
+            "type": "cold",
+            "description": "First outreach"
+          },
+          {
+            "parameter": "effectiveness rating",
+            "type": "presentation",
+            "description": "Product/service pitch"
+          },
+          {
+            "parameter": "audience engagement",
+            "type": "presentation",
+            "description": "Product/service pitch"
+          },
+          {
+            "parameter": "feedback quality",
+            "type": "presentation",
+            "description": "Product/service pitch"
+          },
+          {
+            "parameter": "open rate",
+            "type": "cold",
+            "description": "First outreach"
+          },
+          {
+            "parameter": "click-through rate",
+            "type": "cold",
+            "description": "First outreach"
+          },
+          {
+            "parameter": "unsubscribe rate",
+            "type": "cold",
+            "description": "First outreach"
+          },
+          {
+            "parameter": "audience reach",
+            "type": "presentation",
+            "description": "Product/service pitch"
+          },
+          {
+            "parameter": "engagement score",
+            "type": "presentation",
+            "description": "Product/service pitch"
+          },
+          {
+            "parameter": "clarity of information",
+            "type": "presentation",
+            "description": "Product/service pitch"
+          },
+          {
+            "parameter": "actionable outcomes",
+            "type": "presentation",
+            "description": "Product/service pitch"
+          },
+          {
+            "parameter": "actionable outcomes",
+            "type": "presentation",
+            "description": "Product/service pitch"
+          },
+          {
+            "parameter": "audience engagement",
+            "type": "presentation",
+            "description": "Product/service pitch"
+          },
+          {
+            "parameter": "audience reach",
+            "type": "presentation",
+            "description": "Product/service pitch"
+          },
+          {
+            "parameter": "clarity of information",
+            "type": "presentation",
+            "description": "Product/service pitch"
+          },
+          {
+            "parameter": "click-through rate",
+            "type": "cold",
+            "description": "First outreach"
+          },
+          {
+            "parameter": "reactivation rate",
+            "type": "cold",
+            "description": "First outreach"
+          },
+          {
+            "parameter": "initial interest level",
+            "type": "cold",
+            "description": "First outreach"
+          },
+          {
+            "parameter": "follow-up response",
+            "type": "cold",
+            "description": "First outreach"
+          },
+          {
+            "parameter": "engagement rate",
+            "type": "cold",
+            "description": "First outreach"
+          },
+          {
+            "parameter": "response quality",
+            "type": "cold",
+            "description": "First outreach"
+          },
+          {
+            "parameter": "follow-up rate",
+            "type": "cold",
+            "description": "First outreach"
+          },
+          {
+            "parameter": "open rate",
+            "type": "cold",
+            "description": "First outreach"
+          },
+          {
+            "parameter": "click-through rate",
+            "type": "cold",
+            "description": "First outreach"
+          },
+          {
+            "parameter": "unsubscribe rate",
+            "type": "cold",
+            "description": "First outreach"
+          },
+          {
+            "parameter": "initial response quality",
+            "type": "connection",
+            "description": "Initial LinkedIn/platform connection"
+          },
+          {
+            "parameter": "timeliness",
+            "type": "connection",
+            "description": "Initial LinkedIn/platform connection"
+          },
+          {
+            "parameter": "conversion impact",
+            "type": "connection",
+            "description": "Initial LinkedIn/platform connection"
+          },
+          {
+            "parameter": "conversion impact",
+            "type": "connection",
+            "description": "Initial LinkedIn/platform connection"
+          },
+          {
+            "parameter": "effectiveness rating",
+            "type": "presentation",
+            "description": "Product/service pitch"
+          },
+          {
+            "parameter": "engagement rate",
+            "type": "cold",
+            "description": "First outreach"
+          },
+          {
+            "parameter": "engagement score",
+            "type": "presentation",
+            "description": "Product/service pitch"
+          },
+          {
+            "parameter": "feedback quality",
+            "type": "presentation",
+            "description": "Product/service pitch"
+          },
+          {
+            "parameter": "follow-up rate",
+            "type": "cold",
+            "description": "First outreach"
+          },
+          {
+            "parameter": "follow-up response",
+            "type": "cold",
+            "description": "First outreach"
+          },
+          {
+            "parameter": "initial interest level",
+            "type": "cold",
+            "description": "First outreach"
+          },
+          {
+            "parameter": "initial response quality",
+            "type": "connection",
+            "description": "Initial LinkedIn/platform connection"
+          },
+          {
+            "parameter": "open rate",
+            "type": "cold",
+            "description": "First outreach"
+          },
+          {
+            "parameter": "effectiveness rating",
+            "type": "presentation",
+            "description": "Product/service pitch"
+          },
+          {
+            "parameter": "audience engagement",
+            "type": "presentation",
+            "description": "Product/service pitch"
+          },
+          {
+            "parameter": "feedback quality",
+            "type": "presentation",
+            "description": "Product/service pitch"
+          },
+          {
+            "parameter": "audience reach",
+            "type": "presentation",
+            "description": "Product/service pitch"
+          },
+          {
+            "parameter": "engagement score",
+            "type": "presentation",
+            "description": "Product/service pitch"
+          },
+          {
+            "parameter": "audience engagement",
+            "type": "presentation",
+            "description": "Product/service pitch"
+          },
+          {
+            "parameter": "clarity of information",
+            "type": "presentation",
+            "description": "Product/service pitch"
+          },
+          {
+            "parameter": "actionable outcomes",
+            "type": "presentation",
+            "description": "Product/service pitch"
+          },
+          {
+            "parameter": "reactivation rate",
+            "type": "cold",
+            "description": "First outreach"
+          },
+          {
+            "parameter": "response quality",
+            "type": "cold",
+            "description": "First outreach"
+          },
+          {
+            "parameter": "timeliness",
+            "type": "connection",
+            "description": "Initial LinkedIn/platform connection"
+          },
+          {
+            "parameter": "unsubscribe rate",
+            "type": "cold",
+            "description": "First outreach"
+          },
+          {
+            "parameter": "clarity of information",
+            "type": "presentation",
+            "description": "Product/service pitch"
+          },
+          {
+            "parameter": "actionable outcomes",
+            "type": "presentation",
+            "description": "Product/service pitch"
+          }
+        ]
+      }
+    },
+    "Designer": {
+      "total_parameters": 12,
+      "objects": {
+        "mockups": [
+          {
+            "parameter": "visitor traffic",
+            "type": "website",
+            "description": "Web interface designs"
+          },
+          {
+            "parameter": "conversion rate",
+            "type": "website",
+            "description": "Web interface designs"
+          },
+          {
+            "parameter": "bounce rate",
+            "type": "website",
+            "description": "Web interface designs"
+          },
+          {
+            "parameter": "visitor traffic",
+            "type": "website",
+            "description": "Web interface designs"
+          },
+          {
+            "parameter": "conversion rate",
+            "type": "website",
+            "description": "Web interface designs"
+          },
+          {
+            "parameter": "bounce rate",
+            "type": "website",
+            "description": "Web interface designs"
+          },
+          {
+            "parameter": "bounce rate",
+            "type": "website",
+            "description": "Web interface designs"
+          },
+          {
+            "parameter": "conversion rate",
+            "type": "website",
+            "description": "Web interface designs"
+          },
+          {
+            "parameter": "visitor traffic",
+            "type": "website",
+            "description": "Web interface designs"
+          },
+          {
+            "parameter": "visitor traffic",
+            "type": "website",
+            "description": "Web interface designs"
+          },
+          {
+            "parameter": "conversion rate",
+            "type": "website",
+            "description": "Web interface designs"
+          },
+          {
+            "parameter": "bounce rate",
+            "type": "website",
+            "description": "Web interface designs"
+          }
+        ]
+      }
+    },
+    "HR/Recruiter": {
+      "total_parameters": 54,
+      "objects": {
+        "communications": [
+          {
+            "parameter": "timeliness",
+            "type": "feedback",
+            "description": "Interview or application feedback"
+          },
+          {
+            "parameter": "constructiveness",
+            "type": "feedback",
+            "description": "Interview or application feedback"
+          },
+          {
+            "parameter": "goal",
+            "type": "update",
+            "description": "Status or progress communication"
+          },
+          {
+            "parameter": "specifity",
+            "type": "feedback",
+            "description": "Interview or application feedback"
+          },
+          {
+            "parameter": "relevance",
+            "type": "feedback",
+            "description": "Interview or application feedback"
+          },
+          {
+            "parameter": "contact quality",
+            "type": "first connection",
+            "description": "Initial outreach"
+          },
+          {
+            "parameter": "initial response time",
+            "type": "first connection",
+            "description": "Initial outreach"
+          },
+          {
+            "parameter": "relationship potential",
+            "type": "first connection",
+            "description": "Initial outreach"
+          },
+          {
+            "parameter": "timeliness",
+            "type": "feedback",
+            "description": "Interview or application feedback"
+          },
+          {
+            "parameter": "constructiveness",
+            "type": "feedback",
+            "description": "Interview or application feedback"
+          },
+          {
+            "parameter": "goal",
+            "type": "update",
+            "description": "Status or progress communication"
+          },
+          {
+            "parameter": "specifity",
+            "type": "feedback",
+            "description": "Interview or application feedback"
+          },
+          {
+            "parameter": "relevance",
+            "type": "feedback",
+            "description": "Interview or application feedback"
+          },
+          {
+            "parameter": "constructiveness",
+            "type": "feedback",
+            "description": "Interview or application feedback"
+          },
+          {
+            "parameter": "contact quality",
+            "type": "first connection",
+            "description": "Initial outreach"
+          },
+          {
+            "parameter": "contact quality",
+            "type": "first connection",
+            "description": "Initial outreach"
+          },
+          {
+            "parameter": "initial response time",
+            "type": "first connection",
+            "description": "Initial outreach"
+          },
+          {
+            "parameter": "relationship potential",
+            "type": "first connection",
+            "description": "Initial outreach"
+          },
+          {
+            "parameter": "goal",
+            "type": "update",
+            "description": "Status or progress communication"
+          },
+          {
+            "parameter": "initial response time",
+            "type": "first connection",
+            "description": "Initial outreach"
+          },
+          {
+            "parameter": "relationship potential",
+            "type": "first connection",
+            "description": "Initial outreach"
+          },
+          {
+            "parameter": "relevance",
+            "type": "feedback",
+            "description": "Interview or application feedback"
+          },
+          {
+            "parameter": "specifity",
+            "type": "feedback",
+            "description": "Interview or application feedback"
+          },
+          {
+            "parameter": "timeliness",
+            "type": "feedback",
+            "description": "Interview or application feedback"
+          },
+          {
+            "parameter": "contact quality",
+            "type": "first connection",
+            "description": "Initial outreach"
+          },
+          {
+            "parameter": "initial response time",
+            "type": "first connection",
+            "description": "Initial outreach"
+          },
+          {
+            "parameter": "relationship potential",
+            "type": "first connection",
+            "description": "Initial outreach"
+          }
+        ],
+        "interviews": [
+          {
+            "parameter": "project detail",
+            "type": "project interview",
+            "description": "Technical/practical assessment"
+          },
+          {
+            "parameter": "company exspectation",
+            "type": "project interview",
+            "description": "Technical/practical assessment"
+          },
+          {
+            "parameter": "orientation",
+            "type": "video interview",
+            "description": "Remote screening"
+          },
+          {
+            "parameter": "candidate preparedness",
+            "type": "project interview",
+            "description": "Technical/practical assessment"
+          },
+          {
+            "parameter": "project detail",
+            "type": "project interview",
+            "description": "Technical/practical assessment"
+          },
+          {
+            "parameter": "company exspectation",
+            "type": "project interview",
+            "description": "Technical/practical assessment"
+          },
+          {
+            "parameter": "orientation",
+            "type": "video interview",
+            "description": "Remote screening"
+          },
+          {
+            "parameter": "candidate preparedness",
+            "type": "project interview",
+            "description": "Technical/practical assessment"
+          },
+          {
+            "parameter": "candidate preparedness",
+            "type": "project interview",
+            "description": "Technical/practical assessment"
+          },
+          {
+            "parameter": "company exspectation",
+            "type": "project interview",
+            "description": "Technical/practical assessment"
+          },
+          {
+            "parameter": "orientation",
+            "type": "video interview",
+            "description": "Remote screening"
+          },
+          {
+            "parameter": "project detail",
+            "type": "project interview",
+            "description": "Technical/practical assessment"
+          }
+        ],
+        "contracts": [
+          {
+            "parameter": "disput resolution",
+            "type": "presale contract",
+            "description": "Pre-employment agreements"
+          },
+          {
+            "parameter": "confidential information",
+            "type": "presale contract",
+            "description": "Pre-employment agreements"
+          },
+          {
+            "parameter": "duties",
+            "type": "presale contract",
+            "description": "Pre-employment agreements"
+          },
+          {
+            "parameter": "other conditions",
+            "type": "presale contract",
+            "description": "Pre-employment agreements"
+          },
+          {
+            "parameter": "rights",
+            "type": "presale contract",
+            "description": "Pre-employment agreements"
+          },
+          {
+            "parameter": "disput resolution",
+            "type": "presale contract",
+            "description": "Pre-employment agreements"
+          },
+          {
+            "parameter": "confidential information",
+            "type": "presale contract",
+            "description": "Pre-employment agreements"
+          },
+          {
+            "parameter": "duties",
+            "type": "presale contract",
+            "description": "Pre-employment agreements"
+          },
+          {
+            "parameter": "other conditions",
+            "type": "presale contract",
+            "description": "Pre-employment agreements"
+          },
+          {
+            "parameter": "rights",
+            "type": "presale contract",
+            "description": "Pre-employment agreements"
+          },
+          {
+            "parameter": "confidential information",
+            "type": "presale contract",
+            "description": "Pre-employment agreements"
+          },
+          {
+            "parameter": "disput resolution",
+            "type": "presale contract",
+            "description": "Pre-employment agreements"
+          },
+          {
+            "parameter": "duties",
+            "type": "presale contract",
+            "description": "Pre-employment agreements"
+          },
+          {
+            "parameter": "other conditions",
+            "type": "presale contract",
+            "description": "Pre-employment agreements"
+          },
+          {
+            "parameter": "rights",
+            "type": "presale contract",
+            "description": "Pre-employment agreements"
+          }
+        ]
+      }
+    },
+    "Video Editor": {
+      "total_parameters": 6,
+      "objects": {
+        "assets": [
+          {
+            "parameter": "immersiveness",
+            "type": "sound effects",
+            "description": "Audio FX"
+          },
+          {
+            "parameter": "licensing clarity",
+            "type": "stock footage",
+            "description": "Licensed video clips"
+          },
+          {
+            "parameter": "immersiveness",
+            "type": "sound effects",
+            "description": "Audio FX"
+          },
+          {
+            "parameter": "licensing clarity",
+            "type": "stock footage",
+            "description": "Licensed video clips"
+          }
+        ],
+        "videos": [
+          {
+            "parameter": "cleanliness",
+            "type": "raw footage",
+            "description": "Unedited recordings"
+          },
+          {
+            "parameter": "cleanliness",
+            "type": "raw footage",
+            "description": "Unedited recordings"
+          }
+        ]
+      }
+    },
+    "Marketer": {
+      "total_parameters": 9,
+      "objects": {
+        "analytics": [
+          {
+            "parameter": "engagement metrics",
+            "type": "traffic report",
+            "description": "Website traffic analysis"
+          },
+          {
+            "parameter": "funnel effectiveness",
+            "type": "conversion report",
+            "description": "Conversion tracking data"
+          },
+          {
+            "parameter": "sources",
+            "type": "traffic report",
+            "description": "Website traffic analysis"
+          },
+          {
+            "parameter": "visitor count",
+            "type": "traffic report",
+            "description": "Website traffic analysis"
+          }
+        ],
+        "SEO Objects": [
+          {
+            "parameter": "follow type",
+            "type": "backlinks",
+            "description": "External links to website"
+          },
+          {
+            "parameter": "source quality",
+            "type": "backlinks",
+            "description": "External links to website"
+          },
+          {
+            "parameter": "authority",
+            "type": "backlinks",
+            "description": "External links to website"
+          },
+          {
+            "parameter": "freshness",
+            "type": "backlinks",
+            "description": "External links to website"
+          },
+          {
+            "parameter": "optimization",
+            "type": "backlinks",
+            "description": "External links to website"
+          }
+        ]
+      }
+    },
+    "Developer": {
+      "total_parameters": 3,
+      "objects": {
+        "APIs": [
+          {
+            "parameter": "ease",
+            "type": "internal",
+            "description": "For internal systems only"
+          },
+          {
+            "parameter": "enhancement",
+            "type": "internal",
+            "description": "For internal systems only"
+          },
+          {
+            "parameter": "support",
+            "type": "internal",
+            "description": "For internal systems only"
+          }
+        ]
+      }
+    }
+  }
+}

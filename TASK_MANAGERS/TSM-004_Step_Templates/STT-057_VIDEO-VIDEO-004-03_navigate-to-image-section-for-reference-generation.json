@@ -1,0 +1,33 @@
+{
+  "entity_type": "TASK_MANAGERS",
+  "sub_entity": "Step_Template",
+  "step_id": "VIDEO-VIDEO-004-03",
+  "step_number": 3,
+  "parent_task": "TASK-TEMPLATE-VIDEO-004",
+  "task_name": "Master Unified Platform Workflow for Video Generation",
+  "name": "Navigate to Image section for reference generation",
+  "action": "navigate",
+  "tool": "TOOL-AI-052 (OpenArt)",
+  "responsibility": "Video Producer",
+  "placement": "OpenArt - Image section",
+  "duration": "30 seconds",
+  "dependencies": [
+    2
+  ],
+  "inputs": [
+    "Platform access"
+  ],
+  "outputs": [
+    "Image generation interface loaded"
+  ],
+  "success_criteria": "Ready to select image generation models",
+  "implementation_notes": "Ready to select image generation models - Implementation details based on the Master Unified Platform Workflow for Video Generation workflow.",
+  "tags": [
+    "navigate",
+    "template-task-video-004"
+  ],
+  "version": "1.0",
+  "created": "2025-11-15",
+  "last_updated": "2025-11-15",
+  "source": "Video_012"
+}

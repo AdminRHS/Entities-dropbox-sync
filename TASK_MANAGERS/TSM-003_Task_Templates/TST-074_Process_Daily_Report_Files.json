@@ -1,0 +1,191 @@
+{
+  "entity_type": "TASK_MANAGERS",
+  "sub_entity": "Task_Template",
+  "template_id": "Task-Template-074",
+  "task_name": "Process Daily Report Files for Entity Extraction and Consolidation",
+  "action": "Process",
+  "object": "Daily Files",
+  "context": "to extract entities, validate data, and consolidate daily activity reports from all employees",
+  "description": "Automated daily processing of markdown report files from employees across all departments. Uses AI-powered entity extraction to identify Tasks, Tools, Responsibilities, Projects, and Milestones. Validates data quality, consolidates reports into department and executive summaries, and updates master tracking systems. Critical operational task supporting the Daily Reports v2.1 system and entity taxonomy maintenance.",
+  "department": "AI & Automation",
+  "profession": "AI Engineer / Data Analyst",
+  "estimated_duration": "1.5 hours (30 min automation run + 45 min validation + 15 min reporting)",
+  "status": "Template",
+  "dependencies": [
+    "Daily report files available in employee folders",
+    "Claude API access for entity extraction",
+    "Google Sheets API access for data consolidation",
+    "Department prompt templates (PMT-033 through PMT-043)",
+    "Entity taxonomy schema files (TAX-001, TAX-002)"
+  ],
+  "tools_required": [
+    "TOL-002 (Claude) for AI entity extraction",
+    "TOL-045 (Google Sheets) for data consolidation",
+    "TOL-003 (Gemini 3 Pro) for validation and QA",
+    "Python scripts for automation",
+    "File system access to Dropbox/ENTITIES folders"
+  ],
+  "success_criteria": [
+    "All employee daily reports processed (30+ files)",
+    "Entities extracted with >95% accuracy",
+    "Zero parsing errors or data corruption",
+    "Department summaries generated for all 8+ departments",
+    "Executive summary consolidated and reviewed",
+    "Master tracking sheets updated (Activities, Tasks, Tools)",
+    "Entity IDs assigned following naming conventions",
+    "Data quality validation passed (no duplicates, proper formatting)"
+  ],
+  "steps": [
+    {
+      "step_number": 1,
+      "name": "Collect daily report files from employee folders",
+      "duration": "5 minutes",
+      "outputs": [
+        "List of all daily.md files from date folder (e.g., '20' for Nov 20)",
+        "File count verification (expected vs actual)",
+        "Missing report identification"
+      ]
+    },
+    {
+      "step_number": 2,
+      "name": "Run entity extraction pipeline",
+      "duration": "20 minutes",
+      "outputs": [
+        "Raw entity data extracted (Tasks, Tools, Responsibilities, Projects)",
+        "Confidence scores assigned to each entity",
+        "Source references linked to employee reports"
+      ]
+    },
+    {
+      "step_number": 3,
+      "name": "Validate extracted entities",
+      "duration": "20 minutes",
+      "outputs": [
+        "Duplicate entities identified and merged",
+        "Entity IDs validated against existing taxonomy",
+        "Action-object pairs normalized",
+        "Department assignments verified"
+      ]
+    },
+    {
+      "step_number": 4,
+      "name": "Generate department summaries",
+      "duration": "15 minutes",
+      "outputs": [
+        "8+ department report files (AID, DGN, DEV, HRM, LGN, SLS, SMM, VID)",
+        "Department-level metrics (task count, tool usage, time allocation)",
+        "Key activities and blockers highlighted"
+      ]
+    },
+    {
+      "step_number": 5,
+      "name": "Consolidate executive summary",
+      "duration": "10 minutes",
+      "outputs": [
+        "Executive summary report",
+        "Cross-department insights",
+        "New entities requiring review",
+        "Trend analysis (compared to previous day)"
+      ]
+    },
+    {
+      "step_number": 6,
+      "name": "Update master tracking systems",
+      "duration": "15 minutes",
+      "outputs": [
+        "Master Activity Log updated",
+        "Task Manager entries created/updated",
+        "Tool usage statistics updated",
+        "Responsibility frequency counts updated"
+      ]
+    },
+    {
+      "step_number": 7,
+      "name": "Run data quality validation",
+      "duration": "10 minutes",
+      "outputs": [
+        "Validation report (errors, warnings, suggestions)",
+        "Data integrity checks passed",
+        "Cross-reference validation completed"
+      ]
+    },
+    {
+      "step_number": 8,
+      "name": "Archive processed reports and publish summaries",
+      "duration": "5 minutes",
+      "outputs": [
+        "Reports archived to date-stamped folder",
+        "Summaries published to REPORTS folder",
+        "Notifications sent to stakeholders"
+      ]
+    }
+  ],
+  "checklist": [
+    {
+      "item": "All employee reports collected (no missing files)",
+      "required": true
+    },
+    {
+      "item": "Entity extraction completed with >95% confidence",
+      "required": true
+    },
+    {
+      "item": "No duplicate entities in output",
+      "required": true
+    },
+    {
+      "item": "Department summaries generated for all active departments",
+      "required": true
+    },
+    {
+      "item": "Executive summary reviewed and validated",
+      "required": true
+    },
+    {
+      "item": "Master tracking systems updated",
+      "required": true
+    },
+    {
+      "item": "Data quality validation passed (zero critical errors)",
+      "required": true
+    },
+    {
+      "item": "Backup created before overwriting existing data",
+      "required": true
+    }
+  ],
+  "roi_metrics": {
+    "time_savings": "Saves 6-8 hours of manual report consolidation daily",
+    "data_quality": "95%+ accuracy in entity extraction vs 80% with manual entry",
+    "strategic_value": "Enables real-time visibility into organizational activities and resource allocation"
+  },
+  "related_tasks": [
+    "TST-073 (Set Up Automation Infrastructure)",
+    "TST-075 (Design Database Schema)"
+  ],
+  "related_workflows": [
+    "Daily Reports v2.1 Workflow",
+    "Entity Taxonomy Maintenance Workflow"
+  ],
+  "related_projects": [
+    "Daily Reports v2.1 Implementation",
+    "Entity Management System",
+    "Operational Intelligence Dashboard"
+  ],
+  "tags": [
+    "automation",
+    "daily-reports",
+    "entity-extraction",
+    "data-processing",
+    "ai-pipeline",
+    "consolidation",
+    "recurring-task"
+  ],
+  "version": "1.0",
+  "created": "2025-11-21",
+  "last_updated": "2025-11-21",
+  "responsibility_id": "RESP-AID-198",
+  "responsibility_name": "process daily files",
+  "_original_action": "Process",
+  "_original_object": "Daily Files"
+}

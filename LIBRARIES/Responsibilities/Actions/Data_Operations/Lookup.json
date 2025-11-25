@@ -1,0 +1,41 @@
+{
+  "Actions": "lookup",
+  "Processes": "looking up",
+  "Results": "looked up",
+  "Departments": "developers, managers",
+  "Professions": "back end developer, lead generator",
+  "category": "Data_Operations",
+  "source": "Video_006_Lead_Generation_Analysis",
+  "discovery_date": "2025-11-12",
+  "description": "Find specific data values in databases, tables, or systems by searching for matching records",
+  "typical_use_cases": [
+    "Lookup company information by domain",
+    "Find email addresses for given names/companies",
+    "Lookup contact details in CRM",
+    "Search for lead status",
+    "Find enrichment data for company"
+  ],
+  "common_objects": [
+    "Company Domain",
+    "Email Address",
+    "CRM Record",
+    "Lead List"
+  ],
+  "common_tools": [
+    "Airscale",
+    "Anymailfinder",
+    "CRM platforms",
+    "Database systems"
+  ],
+  "related_actions": [
+    "search",
+    "find",
+    "query",
+    "retrieve"
+  ],
+  "workflows": [
+    "Lookup company by domain → Get details",
+    "Lookup contact in CRM → Update status",
+    "Lookup enrichment data → Combine with existing"
+  ]
+}

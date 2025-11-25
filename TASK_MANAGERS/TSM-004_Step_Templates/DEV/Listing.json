@@ -1,0 +1,340 @@
+{
+  "listing_metadata": {
+    "department": "DEV",
+    "created_date": "2025-11-10",
+    "total_items": 33,
+    "listing_type": "steps"
+  },
+  "steps": [
+    {
+      "id": "STEP-TASK-DEV-001-01",
+      "parent_task_id": "STEP-TASK-DEV-001",
+      "step_number": 1,
+      "action": "Design",
+      "tool": "Python + Selenium",
+      "description": "Design scraper architecture (single-threaded baseline)",
+      "location": "Step_Templates/TASK/STEP-TASK-DEV-001-01.md",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "STEP-TASK-DEV-001-02",
+      "parent_task_id": "STEP-TASK-DEV-001",
+      "step_number": 2,
+      "action": "Implement",
+      "tool": "Selenium WebDriver + BeautifulSoup",
+      "description": "Implement data extraction logic for target website",
+      "location": "Step_Templates/TASK/STEP-TASK-DEV-001-02.md",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "STEP-TASK-DEV-001-03",
+      "parent_task_id": "STEP-TASK-DEV-001",
+      "step_number": 3,
+      "action": "Add",
+      "tool": "Python exception handling",
+      "description": "Add error handling and retry logic",
+      "location": "Step_Templates/TASK/STEP-TASK-DEV-001-03.md",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "STEP-TASK-DEV-001-04",
+      "parent_task_id": "STEP-TASK-DEV-001",
+      "step_number": 4,
+      "action": "Implement",
+      "tool": "Python threading",
+      "description": "Implement multi-threaded architecture (10-50 threads)",
+      "location": "Step_Templates/TASK/STEP-TASK-DEV-001-04.md",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "STEP-TASK-DEV-001-05",
+      "parent_task_id": "STEP-TASK-DEV-001",
+      "step_number": 5,
+      "action": "Add",
+      "tool": "Proxy management service",
+      "description": "Add proxy rotation for IP management",
+      "location": "Step_Templates/TASK/STEP-TASK-DEV-001-05.md",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "STEP-TASK-DEV-001-06",
+      "parent_task_id": "STEP-TASK-DEV-001",
+      "step_number": 6,
+      "action": "Optimize",
+      "tool": "Profiling tools",
+      "description": "Optimize performance and resource usage",
+      "location": "Step_Templates/TASK/STEP-TASK-DEV-001-06.md",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "STEP-TASK-DEV-001-07",
+      "parent_task_id": "STEP-TASK-DEV-001",
+      "step_number": 7,
+      "action": "Test",
+      "tool": "QA testing",
+      "description": "Test scraper stability and accuracy",
+      "location": "Step_Templates/TASK/STEP-TASK-DEV-001-07.md",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "STEP-TASK-DEV-002-01",
+      "parent_task_id": "STEP-TASK-DEV-002",
+      "step_number": 1,
+      "action": "Review",
+      "tool": "Documentation",
+      "description": "Review MCP documentation and API specifications",
+      "location": "Step_Templates/TASK/STEP-TASK-DEV-002-01.md",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "STEP-TASK-DEV-002-02",
+      "parent_task_id": "STEP-TASK-DEV-002",
+      "step_number": 2,
+      "action": "Install",
+      "tool": "Package manager",
+      "description": "Install MCP dependencies",
+      "location": "Step_Templates/TASK/STEP-TASK-DEV-002-02.md",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "STEP-TASK-DEV-002-03",
+      "parent_task_id": "STEP-TASK-DEV-002",
+      "step_number": 3,
+      "action": "Configure",
+      "tool": "Configuration file",
+      "description": "Configure MCP in Claude Desktop settings",
+      "location": "Step_Templates/TASK/STEP-TASK-DEV-002-03.md",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "STEP-TASK-DEV-002-04",
+      "parent_task_id": "STEP-TASK-DEV-002",
+      "step_number": 4,
+      "action": "Implement",
+      "tool": "Python + MCP SDK",
+      "description": "Implement API endpoints",
+      "location": "Step_Templates/TASK/STEP-TASK-DEV-002-04.md",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "STEP-TASK-DEV-002-05",
+      "parent_task_id": "STEP-TASK-DEV-002",
+      "step_number": 5,
+      "action": "Test",
+      "tool": "Claude Desktop",
+      "description": "Test integration with sample queries",
+      "location": "Step_Templates/TASK/STEP-TASK-DEV-002-05.md",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "STEP-TASK-DEV-002-06",
+      "parent_task_id": "STEP-TASK-DEV-002",
+      "step_number": 6,
+      "action": "Troubleshoot",
+      "tool": "Debugging tools",
+      "description": "Troubleshoot and debug issues",
+      "location": "Step_Templates/TASK/STEP-TASK-DEV-002-06.md",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "STEP-TASK-DEV-003-01",
+      "parent_task_id": "STEP-TASK-DEV-003",
+      "step_number": 1,
+      "action": "Create",
+      "tool": "Docker",
+      "description": "Create Dockerfile and docker-compose.yml",
+      "location": "Step_Templates/TASK/STEP-TASK-DEV-003-01.md",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "STEP-TASK-DEV-003-02",
+      "parent_task_id": "STEP-TASK-DEV-003",
+      "step_number": 2,
+      "action": "Configure",
+      "tool": "Docker secrets",
+      "description": "Configure environment variables and secrets",
+      "location": "Step_Templates/TASK/STEP-TASK-DEV-003-02.md",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "STEP-TASK-DEV-003-03",
+      "parent_task_id": "STEP-TASK-DEV-003",
+      "step_number": 3,
+      "action": "Test",
+      "tool": "Docker CLI",
+      "description": "Test Docker build locally",
+      "location": "Step_Templates/TASK/STEP-TASK-DEV-003-03.md",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "STEP-TASK-DEV-003-04",
+      "parent_task_id": "STEP-TASK-DEV-003",
+      "step_number": 4,
+      "action": "Set",
+      "tool": "Cloud platform",
+      "description": "Set up production hosting infrastructure",
+      "location": "Step_Templates/TASK/STEP-TASK-DEV-003-04.md",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "STEP-TASK-DEV-003-05",
+      "parent_task_id": "STEP-TASK-DEV-003",
+      "step_number": 5,
+      "action": "Deploy",
+      "tool": "Docker deployment",
+      "description": "Deploy to production",
+      "location": "Step_Templates/TASK/STEP-TASK-DEV-003-05.md",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "STEP-TASK-DEV-003-06",
+      "parent_task_id": "STEP-TASK-DEV-003",
+      "step_number": 6,
+      "action": "Configure",
+      "tool": "Monitoring tools",
+      "description": "Configure monitoring and health checks",
+      "location": "Step_Templates/TASK/STEP-TASK-DEV-003-06.md",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "STEP-TASK-DEV-003-07",
+      "parent_task_id": "STEP-TASK-DEV-003",
+      "step_number": 7,
+      "action": "Document",
+      "tool": "DevOps documentation",
+      "description": "Document deployment process",
+      "location": "Step_Templates/TASK/STEP-TASK-DEV-003-07.md",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "STEP-TASK-DEV-004-01",
+      "parent_task_id": "STEP-TASK-DEV-004",
+      "step_number": 1,
+      "action": "Improve",
+      "tool": "Selenium + Python",
+      "description": "Improve core scraper stability (Reviews button search)",
+      "location": "Step_Templates/TASK/STEP-TASK-DEV-004-01.md",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "STEP-TASK-DEV-004-02",
+      "parent_task_id": "STEP-TASK-DEV-004",
+      "step_number": 2,
+      "action": "Implement",
+      "tool": "Python Threading",
+      "description": "Implement multi-threaded processing",
+      "location": "Step_Templates/TASK/STEP-TASK-DEV-004-02.md",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "STEP-TASK-DEV-004-03",
+      "parent_task_id": "STEP-TASK-DEV-004",
+      "step_number": 3,
+      "action": "Add",
+      "tool": "Proxy Management Service",
+      "description": "Add proxy rotation for IP management",
+      "location": "Step_Templates/TASK/STEP-TASK-DEV-004-03.md",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "STEP-TASK-DEV-004-04",
+      "parent_task_id": "STEP-TASK-DEV-004",
+      "step_number": 4,
+      "action": "Expand",
+      "tool": "NLP Analysis + Dictionary",
+      "description": "Expand NLP problem dictionary (dozens of anchors)",
+      "location": "Step_Templates/TASK/STEP-TASK-DEV-004-04.md",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "STEP-TASK-DEV-004-05",
+      "parent_task_id": "STEP-TASK-DEV-004",
+      "step_number": 5,
+      "action": "Enhance",
+      "tool": "Contact Discovery + AI",
+      "description": "Enhance decision-maker search logic",
+      "location": "Step_Templates/TASK/STEP-TASK-DEV-004-05.md",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "STEP-TASK-DEV-004-06",
+      "parent_task_id": "STEP-TASK-DEV-004",
+      "step_number": 6,
+      "action": "Conduct",
+      "tool": "QA Testing",
+      "description": "Conduct production test cycles",
+      "location": "Step_Templates/TASK/STEP-TASK-DEV-004-06.md",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "STEP-TASK-DEV-005-01",
+      "parent_task_id": "STEP-TASK-DEV-005",
+      "step_number": 1,
+      "action": "Evaluate",
+      "tool": "Technical Analysis",
+      "description": "Evaluate deployment approaches (pm2 vs Docker)",
+      "location": "Step_Templates/TASK/STEP-TASK-DEV-005-01.md",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "STEP-TASK-DEV-005-02",
+      "parent_task_id": "STEP-TASK-DEV-005",
+      "step_number": 2,
+      "action": "Create",
+      "tool": "Docker",
+      "description": "Create Docker configuration files (Dockerfile, docker-compose.yml)",
+      "location": "Step_Templates/TASK/STEP-TASK-DEV-005-02.md",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "STEP-TASK-DEV-005-03",
+      "parent_task_id": "STEP-TASK-DEV-005",
+      "step_number": 3,
+      "action": "Configure",
+      "tool": "Cloud Platform",
+      "description": "Configure production hosting infrastructure",
+      "location": "Step_Templates/TASK/STEP-TASK-DEV-005-03.md",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "STEP-TASK-DEV-005-04",
+      "parent_task_id": "STEP-TASK-DEV-005",
+      "step_number": 4,
+      "action": "Test",
+      "tool": "Local Docker Environment",
+      "description": "Test Docker deployment locally",
+      "location": "Step_Templates/TASK/STEP-TASK-DEV-005-04.md",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "STEP-TASK-DEV-005-05",
+      "parent_task_id": "STEP-TASK-DEV-005",
+      "step_number": 5,
+      "action": "Deploy",
+      "tool": "Docker Deployment",
+      "description": "Deploy to production (https://honeystone.fv-e.com/)",
+      "location": "Step_Templates/TASK/STEP-TASK-DEV-005-05.md",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "STEP-TASK-DEV-005-06",
+      "parent_task_id": "STEP-TASK-DEV-005",
+      "step_number": 6,
+      "action": "Set",
+      "tool": "Monitoring Tools",
+      "description": "Set up monitoring and health checks",
+      "location": "Step_Templates/TASK/STEP-TASK-DEV-005-06.md",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "STEP-TASK-DEV-005-07",
+      "parent_task_id": "STEP-TASK-DEV-005",
+      "step_number": 7,
+      "action": "Document",
+      "tool": "DevOps Documentation",
+      "description": "Document deployment process for reusability",
+      "location": "Step_Templates/TASK/STEP-TASK-DEV-005-07.md",
+      "created_date": "2025-11-10"
+    }
+  ]
+}

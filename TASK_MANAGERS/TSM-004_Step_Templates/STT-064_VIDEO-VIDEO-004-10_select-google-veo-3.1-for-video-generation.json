@@ -1,0 +1,33 @@
+{
+  "entity_type": "TASK_MANAGERS",
+  "sub_entity": "Step_Template",
+  "step_id": "VIDEO-VIDEO-004-10",
+  "step_number": 10,
+  "parent_task": "TASK-TEMPLATE-VIDEO-004",
+  "task_name": "Master Unified Platform Workflow for Video Generation",
+  "name": "Select Google Veo 3.1 for video generation",
+  "action": "select",
+  "tool": "TOOL-AI-051 (Google Veo 3.1)",
+  "responsibility": "Video Producer",
+  "placement": "OpenArt - Video - Model dropdown",
+  "duration": "30 seconds",
+  "dependencies": [
+    9
+  ],
+  "inputs": [
+    "Video section loaded"
+  ],
+  "outputs": [
+    "Google Veo 3.1 selected, frame control/Elements visible"
+  ],
+  "success_criteria": "Ready to upload reference images",
+  "implementation_notes": "Ready to upload reference images - Implementation details based on the Master Unified Platform Workflow for Video Generation workflow.",
+  "tags": [
+    "select",
+    "template-task-video-004"
+  ],
+  "version": "1.0",
+  "created": "2025-11-15",
+  "last_updated": "2025-11-15",
+  "source": "Video_012"
+}

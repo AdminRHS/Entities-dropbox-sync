@@ -1,0 +1,197 @@
+{
+  "entity_type": "TASK_MANAGERS",
+  "sub_entity": "Task_Template",
+  "template_id": "Task-Template-073",
+  "task_name": "Set Up Automation Infrastructure for Recurring Workflows",
+  "action": "Create",
+  "object": "Automation Infrastructure",
+  "context": "to enable automated execution of recurring workflows such as daily reports, data processing, and scheduled tasks",
+  "description": "Design and implement automation infrastructure for recurring organizational workflows. Includes creating service accounts with appropriate permissions, setting up cloud-based automation platforms (Google Cloud Functions, n8n workflows), configuring scheduled triggers, and implementing error handling and monitoring. Essential for scaling operations and reducing manual workload on repetitive tasks.",
+  "department": "AI & Automation",
+  "profession": "DevOps Engineer / Cloud Engineer",
+  "estimated_duration": "4 hours (1 hour planning + 2 hours implementation + 1 hour testing)",
+  "status": "Template",
+  "dependencies": [
+    "Cloud platform access (Google Cloud, AWS, or Azure)",
+    "Admin permissions to create service accounts",
+    "Requirements specification for automation workflow",
+    "API credentials for integrated services",
+    "Budget approval for cloud resources"
+  ],
+  "tools_required": [
+    "TOL-081 (Google Cloud Platform)",
+    "TOL-003 (Gemini 3 Pro) for code generation",
+    "TOL-045 (Google Sheets) for configuration data",
+    "TOL-119 (n8n) for workflow automation (optional)",
+    "Git for version control"
+  ],
+  "success_criteria": [
+    "Service account created with least-privilege permissions",
+    "Automation infrastructure deployed and accessible",
+    "Scheduled triggers configured and tested",
+    "Error handling and logging implemented",
+    "Monitoring and alerting configured",
+    "Documentation created (architecture, setup, troubleshooting)",
+    "Test run completed successfully",
+    "Rollback plan documented"
+  ],
+  "steps": [
+    {
+      "step_number": 1,
+      "name": "Define automation requirements and architecture",
+      "duration": "45 minutes",
+      "outputs": [
+        "Requirements document (triggers, actions, integrations)",
+        "Architecture diagram (components, data flow)",
+        "Permission requirements identified",
+        "Resource estimates (compute, storage, API calls)"
+      ]
+    },
+    {
+      "step_number": 2,
+      "name": "Create service accounts and configure permissions",
+      "duration": "30 minutes",
+      "outputs": [
+        "Service account created in cloud platform",
+        "IAM roles assigned (least-privilege principle)",
+        "API keys and credentials generated securely",
+        "Credentials stored in secure vault"
+      ]
+    },
+    {
+      "step_number": 3,
+      "name": "Set up cloud automation infrastructure",
+      "duration": "60 minutes",
+      "outputs": [
+        "Cloud Functions/Lambda functions deployed",
+        "Workflow automation platform configured (n8n/Zapier)",
+        "Storage buckets created for data persistence",
+        "Network and security rules configured"
+      ]
+    },
+    {
+      "step_number": 4,
+      "name": "Implement automation logic and integrations",
+      "duration": "45 minutes",
+      "outputs": [
+        "Workflow code written and tested",
+        "API integrations configured (Google Sheets, Notion, etc.)",
+        "Data transformation logic implemented",
+        "Environment variables configured"
+      ]
+    },
+    {
+      "step_number": 5,
+      "name": "Configure scheduled triggers and event handlers",
+      "duration": "20 minutes",
+      "outputs": [
+        "Cron jobs or scheduled triggers configured",
+        "Event-based triggers set up (webhooks, file uploads)",
+        "Retry logic implemented for failures",
+        "Rate limiting configured"
+      ]
+    },
+    {
+      "step_number": 6,
+      "name": "Implement monitoring, logging, and alerting",
+      "duration": "30 minutes",
+      "outputs": [
+        "Logging configured (Cloud Logging, CloudWatch)",
+        "Error alerting set up (email, Slack, Discord)",
+        "Performance monitoring enabled",
+        "Dashboard created for health checks"
+      ]
+    },
+    {
+      "step_number": 7,
+      "name": "Test automation end-to-end",
+      "duration": "30 minutes",
+      "outputs": [
+        "Manual test run successful",
+        "Scheduled trigger test completed",
+        "Error handling verified",
+        "Performance benchmarks recorded"
+      ]
+    },
+    {
+      "step_number": 8,
+      "name": "Document setup and create runbook",
+      "duration": "20 minutes",
+      "outputs": [
+        "Architecture documentation",
+        "Setup guide for future modifications",
+        "Troubleshooting runbook",
+        "Rollback procedures documented"
+      ]
+    }
+  ],
+  "checklist": [
+    {
+      "item": "Service account created with appropriate permissions",
+      "required": true
+    },
+    {
+      "item": "Automation infrastructure deployed successfully",
+      "required": true
+    },
+    {
+      "item": "Scheduled triggers configured and tested",
+      "required": true
+    },
+    {
+      "item": "Error handling and retry logic implemented",
+      "required": true
+    },
+    {
+      "item": "Monitoring and alerting configured",
+      "required": true
+    },
+    {
+      "item": "End-to-end test completed successfully",
+      "required": true
+    },
+    {
+      "item": "Documentation created (setup, troubleshooting, rollback)",
+      "required": true
+    },
+    {
+      "item": "Security review completed (credentials, permissions)",
+      "required": true
+    }
+  ],
+  "roi_metrics": {
+    "time_savings": "Automates 1-3 hours of manual work daily (20-60 hours per month)",
+    "reliability": "Reduces human error by 95% through consistent automated execution",
+    "scalability": "Enables processing of 10x more data without additional headcount"
+  },
+  "related_tasks": [
+    "TST-072 (Install and Configure IDE)",
+    "TST-074 (Process Daily Report Files)",
+    "TST-081 (Design Financial Automation Workflow)"
+  ],
+  "related_workflows": [
+    "DevOps and Infrastructure Workflow",
+    "Automation Platform Management"
+  ],
+  "related_projects": [
+    "Daily Reports Automation",
+    "Operational Efficiency Initiative"
+  ],
+  "tags": [
+    "automation",
+    "infrastructure",
+    "devops",
+    "cloud",
+    "service-accounts",
+    "google-cloud",
+    "n8n",
+    "workflows"
+  ],
+  "version": "1.0",
+  "created": "2025-11-21",
+  "last_updated": "2025-11-21",
+  "responsibility_id": "RESP-AID-196,RESP-AID-197",
+  "responsibility_name": "create automation infrastructure, create service account",
+  "_original_action": "Create",
+  "_original_object": "Automation Infrastructure"
+}

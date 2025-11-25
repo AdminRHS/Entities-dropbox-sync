@@ -1,0 +1,86 @@
+{
+  "entity_type": "TASK_MANAGERS",
+  "sub_entity": "Task_Template",
+  "template_id": "Task-Template-056",
+  "version": "1.0",
+  "created_date": "2025-11-17",
+  "last_updated": "2025-11-17",
+  "metadata": {
+    "name": "Generate Gap Analysis Report",
+    "description": "Generate gap analysis report identifying tools mentioned but not added, missing integrations, incomplete documentation",
+    "action": "Generate",
+    "object": "Gap Analysis Report",
+    "context": "identifying missing tools, integrations, and documentation",
+    "department": "All departments (cross-functional)",
+    "complexity": "Low",
+    "estimated_duration": "2-5 minutes",
+    "skill_level_required": "Beginner",
+    "tools_required": [
+      "Text editor with markdown support",
+      "All populated library data",
+      "Extraction document for reference"
+    ],
+    "prerequisites": [
+      "TASK-TEMPLATE-VIDEO-006 completed",
+      "All library updates committed",
+      "Cross-references established"
+    ]
+  },
+  "workflow": {
+    "phase": 3,
+    "milestone": "MIL-PROJ-VIDEO-001-003",
+    "project_template": "Project-Template-008",
+    "dependencies": [
+      "TASK-TEMPLATE-VIDEO-006"
+    ],
+    "outputs": [
+      "Gap analysis report (markdown format)",
+      "Action items for next research cycle",
+      "Missing tools list",
+      "Integration opportunities identified",
+      "Incomplete documentation flagged"
+    ]
+  },
+  "steps": [
+    {
+      "step_number": 1,
+      "step_name": "Identify gaps",
+      "description": "Review extraction: tools mentioned but not added, missing integrations, incomplete fields",
+      "estimated_time": "1-2 minutes",
+      "tools": [],
+      "output": "List of gaps identified"
+    },
+    {
+      "step_number": 2,
+      "step_name": "Create gap analysis report",
+      "description": "Create Gap_Analysis_YYYY-MM-DD.md with: missing tools, integration opportunities, action items",
+      "estimated_time": "1-3 minutes",
+      "tools": [
+        "Text editor"
+      ],
+      "output": "Complete gap analysis report with actionable items"
+    }
+  ],
+  "quality_checklist": [
+    "Gap analysis report created in markdown format",
+    "All tools mentioned in video reviewed",
+    "Missing tools clearly listed with reasons not added",
+    "Integration opportunities identified (tool A + tool B)",
+    "Incomplete documentation flagged",
+    "Action items for next cycle documented",
+    "Prioritization of gaps included (high/medium/low)",
+    "Report saved with proper naming (Gap_Analysis_YYYY-MM-DD.md)"
+  ],
+  "related_entities": {
+    "methodology": "ENTITIES/PROMPTS/Video_Processing/Complete_Video_Workflow_Full_Instructions.md",
+    "short_guide": "ENTITIES/PROMPTS/Video_Processing/Short Complete Video Workflow.md",
+    "project_template": "Project-Template-008",
+    "milestone": "MIL-PROJ-VIDEO-001-003",
+    "previous_task": "TASK-TEMPLATE-VIDEO-006",
+    "next_task": null,
+    "step_templates": [
+      "STEP-VIDEO-007-01",
+      "STEP-VIDEO-007-02"
+    ]
+  }
+}

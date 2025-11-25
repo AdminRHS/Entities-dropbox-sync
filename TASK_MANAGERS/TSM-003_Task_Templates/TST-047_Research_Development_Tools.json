@@ -1,0 +1,183 @@
+{
+  "entity_type": "TASK_MANAGERS",
+  "sub_entity": "Task_Template",
+  "template_id": "Task-Template-047",
+  "task_name": "Research AI Development Tools to Complete Missing Tool Documentation",
+  "action": "Research",
+  "object": "Development Tools",
+  "context": "to complete missing documentation for 6 AI development tools with discovered_needs_review status",
+  "description": "Comprehensive research task to complete missing data for 6 AI-powered development tools (Bubble.io, Lovable.dev, Replit, Runner, v0.dev, DeepSite). Focuses on Lovable.dev optimization (actively used by Dev department) and evaluation of no-code/low-code alternatives. Uses YouTube Video Research Prompt methodology aligned with Remote Helpers AI Development Tools & Coding Assistants strategic priority. Outputs fully documented tools with workflow integration patterns.",
+  "department": "Research / Dev",
+  "profession": "AI Researcher / Developer",
+  "estimated_duration": "6-9 hours (4-6 hours research + 2-3 hours documentation)",
+  "status": "Template",
+  "dependencies": [
+    "Access to YouTube, Perplexity AI",
+    "YouTube_Video_Research_Prompt_RemoteHelpers_Nov2025.md",
+    "Research_ToDo_2025-11-W47_Development_Tools.json",
+    "Access to Lovable.dev account (for hands-on testing)",
+    "Access to Entities/LIBRARIES/Tools directory"
+  ],
+  "tools_required": [
+    "Perplexity AI",
+    "YouTube",
+    "Text editor (VS Code/Cursor)",
+    "Lovable.dev (hands-on testing)",
+    "v0.dev (free testing)"
+  ],
+  "success_criteria": [
+    "Lovable.dev current usage optimized with best practices (HIGH PRIORITY - active usage)",
+    "v0.dev evaluated for UI development workflow integration",
+    "No-code comparison matrix created (Lovable vs Bubble vs v0.dev)",
+    "Replit subscription renewal recommendation with rationale",
+    "All TBD fields populated across 6 tools",
+    "Code generation quality assessments completed",
+    "Workflow integration patterns documented with Remote Helpers dev stack (Cursor, Claude Desktop)",
+    "All 6 tool JSON files updated and validated"
+  ],
+  "steps": [
+    {
+      "step_number": 1,
+      "name": "Review research requirements and prioritize active tools",
+      "duration": "30 minutes",
+      "outputs": [
+        "Priority order: HIGH (Lovable.dev, v0.dev) > MEDIUM (Bubble, Replit) > LOW (Runner, DeepSite)"
+      ]
+    },
+    {
+      "step_number": 2,
+      "name": "Research Lovable.dev latest features and optimization techniques",
+      "duration": "90-120 minutes",
+      "outputs": [
+        "8-12 Lovable.dev tutorial videos",
+        "Best practices for AI chat interface",
+        "Advanced features documentation"
+      ]
+    },
+    {
+      "step_number": 3,
+      "name": "Hands-on testing of Lovable.dev and v0.dev",
+      "duration": "60-90 minutes",
+      "outputs": [
+        "Code generation quality assessment",
+        "UI component quality evaluation",
+        "Integration workflow testing"
+      ]
+    },
+    {
+      "step_number": 4,
+      "name": "Research Bubble.io and Replit for comparison",
+      "duration": "90 minutes",
+      "outputs": [
+        "Latest AI integration features",
+        "Pricing and feature comparison",
+        "Use case differentiation"
+      ]
+    },
+    {
+      "step_number": 5,
+      "name": "Quick research for low-priority tools (Runner, DeepSite)",
+      "duration": "45 minutes",
+      "outputs": [
+        "Basic capabilities",
+        "Archive vs keep recommendations"
+      ]
+    },
+    {
+      "step_number": 6,
+      "name": "Create no-code comparison matrix and workflow integration diagrams",
+      "duration": "45 minutes",
+      "outputs": [
+        "Comparison matrix: Lovable vs Bubble vs v0.dev vs Replit",
+        "Integration workflows with Cursor/Windsurf"
+      ]
+    },
+    {
+      "step_number": 7,
+      "name": "Update all 6 tool JSON files",
+      "duration": "90-120 minutes",
+      "outputs": [
+        "6 updated JSON files with complete data"
+      ]
+    },
+    {
+      "step_number": 8,
+      "name": "Document Lovable.dev optimization guide and tool recommendations",
+      "duration": "45 minutes",
+      "outputs": [
+        "Lovable.dev best practices guide",
+        "v0.dev adoption recommendation",
+        "Replit renewal recommendation"
+      ]
+    },
+    {
+      "step_number": 9,
+      "name": "Validate JSON files and create summary report",
+      "duration": "30 minutes",
+      "outputs": [
+        "Validation confirmation",
+        "Summary with Dev department action items"
+      ]
+    }
+  ],
+  "checklist": [
+    {
+      "item": "Lovable.dev optimization guide created for Dev department",
+      "required": true
+    },
+    {
+      "item": "v0.dev UI generation workflow tested and documented",
+      "required": true
+    },
+    {
+      "item": "No-code comparison matrix completed",
+      "required": true
+    },
+    {
+      "item": "Replit subscription renewal recommendation (yes/no + rationale)",
+      "required": true
+    },
+    {
+      "item": "Code generation quality assessed for Lovable.dev and v0.dev",
+      "required": true
+    },
+    {
+      "item": "Workflow integrations with Cursor IDE documented",
+      "required": true
+    }
+  ],
+  "roi_metrics": {
+    "optimization": "Improves Lovable.dev efficiency for Dev department (currently active usage)",
+    "decision_support": "Evaluates v0.dev (FREE) integration for UI development workflow",
+    "cost_analysis": "Replit renewal decision ($7-84/year potential savings)"
+  },
+  "related_tasks": [
+    "TASK-TEMPLATE-RES-001",
+    "TASK-TEMPLATE-RES-002",
+    "TASK-TEMPLATE-RES-004"
+  ],
+  "related_workflows": [
+    "AI-Assisted Development Workflow",
+    "Rapid Prototyping Process"
+  ],
+  "related_projects": [
+    "Dev Department Optimization"
+  ],
+  "tags": [
+    "research",
+    "development-tools",
+    "no-code",
+    "lovable-dev",
+    "v0-dev",
+    "bubble-io",
+    "replit",
+    "ai-coding"
+  ],
+  "version": "1.0",
+  "created": "2025-11-15",
+  "last_updated": "2025-11-15",
+  "responsibility_id": "RESP-DEV-034",
+  "responsibility_name": "research development tools",
+  "_original_action": "Research",
+  "_original_object": "Development Tools"
+}

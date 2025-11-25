@@ -1,0 +1,1065 @@
+﻿{
+    "listing_metadata":  {
+                             "created_date":  "2025-11-10",
+                             "total_items":  55,
+                             "listing_type":  "tasks_master",
+                             "departments":  [
+                                                 "ADMIN",
+                                                 "AI",
+                                                 "DESIGN",
+                                                 "DEV",
+                                                 "HR",
+                                                 "LG",
+                                                 "OPS",
+                                                 "SALES",
+                                                 "VIDEO"
+                                             ]
+                         },
+    "tasks":  [
+                  {
+                      "id":  "TASK-ADMIN-001",
+                      "name":  "",
+                      "type":  "task",
+                      "status":  "Active",
+                      "location":  "Task_Templates/ADMIN/TASK-ADMIN-001.md",
+                      "steps_count":  5,
+                      "complexity":  "Medium",
+                      "automation_potential":  {
+                                                   "ranking":  "Medium 40-60%",
+                                                   "reasoning":  "Rule drafting and example creation require human expertise. Compliance auditing and dashboard integration can be partially automated. File prefixing can be enforced via naming scripts."
+                                               },
+                      "key_tools":  [
+
+                                    ],
+                      "estimated_duration_hours":  15.0,
+                      "related_steps_location":  "Step_Templates/ADMIN/",
+                      "created_date":  "2025-11-10"
+                  },
+                  {
+                      "id":  "TASK-ADMIN-002",
+                      "name":  "",
+                      "type":  "task",
+                      "status":  "Active",
+                      "location":  "Task_Templates/ADMIN/TASK-ADMIN-002.md",
+                      "steps_count":  5,
+                      "complexity":  "Medium",
+                      "automation_potential":  {
+                                                   "ranking":  "Very High \u003e80%",
+                                                   "reasoning":  "Transcript translation is fully automatable (Ukrainian/Russian to English). Activity organization by timestamps is scriptable. Plans.md generation with priorities can be AI-automated. Tasks.md with step-by-step breakdowns can be AI-generated with templates. Manual review recommended for quality assurance."
+                                               },
+                      "key_tools":  [
+
+                                    ],
+                      "estimated_duration_hours":  15.0,
+                      "related_steps_location":  "Step_Templates/ADMIN/",
+                      "created_date":  "2025-11-10"
+                  },
+                  {
+                      "id":  "TASK-AI-001",
+                      "name":  "",
+                      "type":  "task",
+                      "status":  "Active",
+                      "location":  "Task_Templates/AI/TASK-AI-001.md",
+                      "steps_count":  10,
+                      "complexity":  "Medium",
+                      "automation_potential":  {
+                                                   "ranking":  "Medium 40-60%",
+                                                   "reasoning":  "Token counting and basic compression can be automated. Semantic preservation requires human judgment. Quality validation needs manual testing. Advanced compression techniques need AI expertise."
+                                               },
+                      "key_tools":  [
+
+                                    ],
+                      "estimated_duration_hours":  30.0,
+                      "related_steps_location":  "Step_Templates/AI/",
+                      "created_date":  "2025-11-10"
+                  },
+                  {
+                      "id":  "TASK-AI-002",
+                      "name":  "",
+                      "type":  "task",
+                      "status":  "Active",
+                      "location":  "Task_Templates/AI/TASK-AI-002.md",
+                      "steps_count":  5,
+                      "complexity":  "Medium",
+                      "automation_potential":  {
+                                                   "ranking":  "Very High \u003e80%",
+                                                   "reasoning":  "MCP extraction is highly automatable once credentials and endpoint specs are obtained. Normalization of IDs, titles, and tags can be scripted. Only initial setup and quality validation require human intervention."
+                                               },
+                      "key_tools":  [
+
+                                    ],
+                      "estimated_duration_hours":  15.0,
+                      "related_steps_location":  "Step_Templates/AI/",
+                      "created_date":  "2025-11-10"
+                  },
+                  {
+                      "id":  "TASK-AI-003",
+                      "name":  "",
+                      "type":  "task",
+                      "status":  "Active",
+                      "location":  "Task_Templates/AI/TASK-AI-003.md",
+                      "steps_count":  5,
+                      "complexity":  "Medium",
+                      "automation_potential":  {
+                                                   "ranking":  "Very High \u003e80%",
+                                                   "reasoning":  "File comparison, hash checking, and drift reporting are fully automatable. Setting up CI/MCP automation requires initial configuration effort but runs automatically afterward. Remediation suggestions can be automated with templates."
+                                               },
+                      "key_tools":  [
+
+                                    ],
+                      "estimated_duration_hours":  15.0,
+                      "related_steps_location":  "Step_Templates/AI/",
+                      "created_date":  "2025-11-10"
+                  },
+                  {
+                      "id":  "TASK-AI-004",
+                      "name":  "",
+                      "type":  "task",
+                      "status":  "Active",
+                      "location":  "Task_Templates/AI/TASK-AI-004.md",
+                      "steps_count":  5,
+                      "complexity":  "Medium",
+                      "automation_potential":  {
+                                                   "ranking":  "High 60-80%",
+                                                   "reasoning":  "AI extraction of customer info is highly automatable. Peer-to-peer verification and evidence attachment (recordings, screenshots) require human workflow. Next tool connection logging can be semi-automated."
+                                               },
+                      "key_tools":  [
+
+                                    ],
+                      "estimated_duration_hours":  15.0,
+                      "related_steps_location":  "Step_Templates/AI/",
+                      "created_date":  "2025-11-10"
+                  },
+                  {
+                      "id":  "TASK-AI-005",
+                      "name":  "",
+                      "type":  "task",
+                      "status":  "Active",
+                      "location":  "Task_Templates/AI/TASK-AI-005.md",
+                      "steps_count":  5,
+                      "complexity":  "Medium",
+                      "automation_potential":  {
+                                                   "ranking":  "Medium 40-60%",
+                                                   "reasoning":  "Downloading and format conversion can be automated. Adaptation to OA-Y\u0027s system requires human understanding of context and terminology differences. Pipeline integration is semi-automatable once transformation rules are defined."
+                                               },
+                      "key_tools":  [
+
+                                    ],
+                      "estimated_duration_hours":  15.0,
+                      "related_steps_location":  "Step_Templates/AI/",
+                      "created_date":  "2025-11-10"
+                  },
+                  {
+                      "id":  "TASK-AI-006",
+                      "name":  "",
+                      "type":  "task",
+                      "status":  "Active",
+                      "location":  "Task_Templates/AI/TASK-AI-006.md",
+                      "steps_count":  5,
+                      "complexity":  "Medium",
+                      "automation_potential":  {
+                                                   "ranking":  "Low \u003c40%",
+                                                   "reasoning":  "Research prompt execution requires human judgment to interpret Gemini results, identify relevant patterns, and synthesize narrative connecting departments, actions, objects, and context. Output organization is partially automatable."
+                                               },
+                      "key_tools":  [
+
+                                    ],
+                      "estimated_duration_hours":  15.0,
+                      "related_steps_location":  "Step_Templates/AI/",
+                      "created_date":  "2025-11-10"
+                  },
+                  {
+                      "id":  "TASK-AI-008",
+                      "name":  "",
+                      "type":  "task",
+                      "status":  "Active",
+                      "location":  "Task_Templates/AI/TASK-AI-008.md",
+                      "steps_count":  4,
+                      "complexity":  "Medium",
+                      "automation_potential":  {
+                                                   "ranking":  "Medium 40-60%",
+                                                   "reasoning":  "Entity structure creation is template-based. JSON file generation can be semi-automated. DEPARTMENT_GUIDE.md updates require understanding of department-specific account needs. Manual verification needed for account accuracy."
+                                               },
+                      "key_tools":  [
+
+                                    ],
+                      "estimated_duration_hours":  12.0,
+                      "related_steps_location":  "Step_Templates/AI/",
+                      "created_date":  "2025-11-10"
+                  },
+                  {
+                      "id":  "TASK-AI-009",
+                      "name":  "",
+                      "type":  "task",
+                      "status":  "Active",
+                      "location":  "Task_Templates/AI/TASK-AI-009.md",
+                      "steps_count":  5,
+                      "complexity":  "Medium",
+                      "automation_potential":  {
+                                                   "ranking":  "Medium 40-60%",
+                                                   "reasoning":  "Configuration file editing can be automated. Troubleshooting Docker/Node.js issues requires human problem-solving. Testing and validation are semi-automatable. Environment-specific setup requires manual judgment."
+                                               },
+                      "key_tools":  [
+
+                                    ],
+                      "estimated_duration_hours":  15.0,
+                      "related_steps_location":  "Step_Templates/AI/",
+                      "created_date":  "2025-11-10"
+                  },
+                  {
+                      "id":  "TASK-AI-010",
+                      "name":  "",
+                      "type":  "task",
+                      "status":  "Active",
+                      "location":  "Task_Templates/AI/TASK-AI-010.md",
+                      "steps_count":  5,
+                      "complexity":  "Medium",
+                      "automation_potential":  {
+                                                   "ranking":  "High 60-80%",
+                                                   "reasoning":  "Tool list compilation can be automated with web scraping. URL validation is automatable. Responsibility descriptions in Action + Object format can be AI-generated with templates. Manual review needed for accuracy and department-specific customization."
+                                               },
+                      "key_tools":  [
+
+                                    ],
+                      "estimated_duration_hours":  15.0,
+                      "related_steps_location":  "Step_Templates/AI/",
+                      "created_date":  "2025-11-10"
+                  },
+                  {
+                      "id":  "TASK-AI-011",
+                      "name":  "",
+                      "type":  "task",
+                      "status":  "Active",
+                      "location":  "Task_Templates/AI/TASK-AI-011.md",
+                      "steps_count":  6,
+                      "complexity":  "Medium",
+                      "automation_potential":  {
+                                                   "ranking":  "Medium 40-60%",
+                                                   "reasoning":  "Scene structure can be templated. Character dialogue requires creative writing. Narration notes can be AI-assisted. Technical specifications need human expertise."
+                                               },
+                      "key_tools":  [
+
+                                    ],
+                      "estimated_duration_hours":  18.0,
+                      "related_steps_location":  "Step_Templates/AI/",
+                      "created_date":  "2025-11-10"
+                  },
+                  {
+                      "id":  "TASK-AI-012",
+                      "name":  "",
+                      "type":  "task",
+                      "status":  "Active",
+                      "location":  "Task_Templates/AI/TASK-AI-012.md",
+                      "steps_count":  6,
+                      "complexity":  "Medium",
+                      "automation_potential":  {
+                                                   "ranking":  "Very High \u003e80%",
+                                                   "reasoning":  "GitHub Actions setup is well-documented. YAML configuration is standardizable. Python scripting is automatable. API integration follows standard patterns. Manual effort only for initial setup and testing."
+                                               },
+                      "key_tools":  [
+
+                                    ],
+                      "estimated_duration_hours":  18.0,
+                      "related_steps_location":  "Step_Templates/AI/",
+                      "created_date":  "2025-11-10"
+                  },
+                  {
+                      "id":  "TASK-AI-013",
+                      "name":  "",
+                      "type":  "task",
+                      "status":  "Active",
+                      "location":  "Task_Templates/AI/TASK-AI-013.md",
+                      "steps_count":  6,
+                      "complexity":  "Medium",
+                      "automation_potential":  {
+                                                   "ranking":  "High 60-80%",
+                                                   "reasoning":  "Classification rules can be automated with action keyword matching. Workflow template generation is automatable. Action library categorization can be scripted. Manual validation needed for edge cases and new action types."
+                                               },
+                      "key_tools":  [
+
+                                    ],
+                      "estimated_duration_hours":  18.0,
+                      "related_steps_location":  "Step_Templates/AI/",
+                      "created_date":  "2025-11-10"
+                  },
+                  {
+                      "id":  "TASK-AI-014",
+                      "name":  "",
+                      "type":  "task",
+                      "status":  "Active",
+                      "location":  "Task_Templates/AI/TASK-AI-014.md",
+                      "steps_count":  7,
+                      "complexity":  "Medium",
+                      "automation_potential":  {
+                                                   "ranking":  "High 60-80%",
+                                                   "reasoning":  "File discovery can be automated with search tools. Document classification can be AI-assisted. Metadata extraction is automatable. Manual curation needed for quality assessment and relevance determination. Organizing into libraries requires human judgment."
+                                               },
+                      "key_tools":  [
+
+                                    ],
+                      "estimated_duration_hours":  21.0,
+                      "related_steps_location":  "Step_Templates/AI/",
+                      "created_date":  "2025-11-10"
+                  },
+                  {
+                      "id":  "TASK-CONTENT-OPS-001",
+                      "name":  "",
+                      "type":  "task",
+                      "status":  "Active",
+                      "location":  "Task_Templates/CONTENT/TASK-CONTENT-OPS-001.md",
+                      "steps_count":  5,
+                      "complexity":  "Medium",
+                      "automation_potential":  {
+                                                   "ranking":  "Medium 40-60%",
+                                                   "reasoning":  "Infographic template generation can be semi-automated with design tools. Narrative context and thumbnail component selection require human creativity and brand alignment. Task outcome extraction can be automated."
+                                               },
+                      "key_tools":  [
+
+                                    ],
+                      "estimated_duration_hours":  15.0,
+                      "related_steps_location":  "Step_Templates/CONTENT/",
+                      "created_date":  "2025-11-10"
+                  },
+                  {
+                      "id":  "TASK-DESIGN-001",
+                      "name":  "",
+                      "type":  "task",
+                      "status":  "Active",
+                      "location":  "Task_Templates/DESIGN/TASK-DESIGN-001.md",
+                      "steps_count":  8,
+                      "complexity":  "Medium",
+                      "automation_potential":  {
+                                                   "ranking":  "Low \u003c40%",
+                                                   "reasoning":  "Creative design decisions require human expertise. Brand discovery needs client interaction. Color palette and typography selection involve aesthetic judgment. Guidelines documentation can be semi-automated with templates."
+                                               },
+                      "key_tools":  [
+
+                                    ],
+                      "estimated_duration_hours":  24.0,
+                      "related_steps_location":  "Step_Templates/DESIGN/",
+                      "created_date":  "2025-11-10"
+                  },
+                  {
+                      "id":  "TASK-DESIGN-002",
+                      "name":  "",
+                      "type":  "task",
+                      "status":  "Active",
+                      "location":  "Task_Templates/DESIGN/TASK-DESIGN-002.md",
+                      "steps_count":  6,
+                      "complexity":  "Medium",
+                      "automation_potential":  {
+                                                   "ranking":  "Low \u003c40%",
+                                                   "reasoning":  "Requirements gathering requires human communication skills. Question formulation needs understanding of both design and development constraints. Designer-developer communication involves nuanced technical discussions. Client relationship management requires empathy and judgment. Documentation can be semi-automated with templates."
+                                               },
+                      "key_tools":  [
+
+                                    ],
+                      "estimated_duration_hours":  18.0,
+                      "related_steps_location":  "Step_Templates/DESIGN/",
+                      "created_date":  "2025-11-10"
+                  },
+                  {
+                      "id":  "TASK-DESIGN-003",
+                      "name":  "",
+                      "type":  "task",
+                      "status":  "Active",
+                      "location":  "Task_Templates/DESIGN/TASK-DESIGN-003.md",
+                      "steps_count":  6,
+                      "complexity":  "Medium",
+                      "automation_potential":  {
+                                                   "ranking":  "Low \u003c40%",
+                                                   "reasoning":  "Boundary setting requires human negotiation skills. Client expectation management needs emotional intelligence. Working hours policy requires business judgment. Reporting frequency optimization requires understanding of client needs and team capacity. Communication can be templated but delivery requires personal touch."
+                                               },
+                      "key_tools":  [
+
+                                    ],
+                      "estimated_duration_hours":  18.0,
+                      "related_steps_location":  "Step_Templates/DESIGN/",
+                      "created_date":  "2025-11-10"
+                  },
+                  {
+                      "id":  "TASK-DESIGN-004",
+                      "name":  "",
+                      "type":  "task",
+                      "status":  "Active",
+                      "location":  "Task_Templates/DESIGN/TASK-DESIGN-004.md",
+                      "steps_count":  6,
+                      "complexity":  "Medium",
+                      "automation_potential":  {
+                                                   "ranking":  "Medium 40-60%",
+                                                   "reasoning":  "Status data extraction from multiple sources can be automated. Discrepancy identification can be scripted with comparison logic. Correction recommendations can be automated with business rules. Manual verification needed for complex cases (on leave, part-time, project transitions). HR coordination requires human communication."
+                                               },
+                      "key_tools":  [
+
+                                    ],
+                      "estimated_duration_hours":  18.0,
+                      "related_steps_location":  "Step_Templates/DESIGN/",
+                      "created_date":  "2025-11-10"
+                  },
+                  {
+                      "id":  "TASK-DESIGN-005",
+                      "name":  "",
+                      "type":  "task",
+                      "status":  "Active",
+                      "location":  "Task_Templates/DESIGN/TASK-DESIGN-005.md",
+                      "steps_count":  6,
+                      "complexity":  "Medium",
+                      "automation_potential":  {
+                                                   "ranking":  "Low \u003c40%",
+                                                   "reasoning":  "Design system creation requires deep design expertise. Component design is creative work. Documentation can be semi-automated. Design decisions require human judgment."
+                                               },
+                      "key_tools":  [
+
+                                    ],
+                      "estimated_duration_hours":  18.0,
+                      "related_steps_location":  "Step_Templates/DESIGN/",
+                      "created_date":  "2025-11-10"
+                  },
+                  {
+                      "id":  "TASK-DESIGN-006",
+                      "name":  "",
+                      "type":  "task",
+                      "status":  "Active",
+                      "location":  "Task_Templates/DESIGN/TASK-DESIGN-006.md",
+                      "steps_count":  6,
+                      "complexity":  "Medium",
+                      "automation_potential":  {
+                                                   "ranking":  "Low \u003c40%",
+                                                   "reasoning":  "Landing page design requires creative expertise. Layout decisions need design judgment. Brand alignment requires human oversight. Developer handoff can be semi-automated."
+                                               },
+                      "key_tools":  [
+
+                                    ],
+                      "estimated_duration_hours":  18.0,
+                      "related_steps_location":  "Step_Templates/DESIGN/",
+                      "created_date":  "2025-11-10"
+                  },
+                  {
+                      "id":  "TASK-DESIGN-007",
+                      "name":  "",
+                      "type":  "task",
+                      "status":  "Active",
+                      "location":  "Task_Templates/DESIGN/TASK-DESIGN-007.md",
+                      "steps_count":  6,
+                      "complexity":  "Medium",
+                      "automation_potential":  {
+                                                   "ranking":  "Low \u003c40%",
+                                                   "reasoning":  "UX design requires user research. Multi-role interfaces need complex interaction design. Adaptive design requires creative problem-solving. Client iteration involves human judgment."
+                                               },
+                      "key_tools":  [
+
+                                    ],
+                      "estimated_duration_hours":  18.0,
+                      "related_steps_location":  "Step_Templates/DESIGN/",
+                      "created_date":  "2025-11-10"
+                  },
+                  {
+                      "id":  "TASK-DESIGN-008",
+                      "name":  "",
+                      "type":  "task",
+                      "status":  "Active",
+                      "location":  "Task_Templates/DESIGN/TASK-DESIGN-008.md",
+                      "steps_count":  6,
+                      "complexity":  "Medium",
+                      "automation_potential":  {
+                                                   "ranking":  "Medium 40-60%",
+                                                   "reasoning":  "Size adaptation can be partially automated with artboard duplication. Design refinement requires human expertise. Quality assurance needs manual review. Export automation is possible."
+                                               },
+                      "key_tools":  [
+
+                                    ],
+                      "estimated_duration_hours":  18.0,
+                      "related_steps_location":  "Step_Templates/DESIGN/",
+                      "created_date":  "2025-11-10"
+                  },
+                  {
+                      "id":  "TASK-DESIGN-009",
+                      "name":  "",
+                      "type":  "task",
+                      "status":  "Active",
+                      "location":  "Task_Templates/DESIGN/TASK-DESIGN-009.md",
+                      "steps_count":  5,
+                      "complexity":  "Medium",
+                      "automation_potential":  {
+                                                   "ranking":  "Low \u003c40%",
+                                                   "reasoning":  "Requirements gathering needs human communication. Question formulation requires design and development knowledge. Client relationships need human touch. Documentation can be semi-automated."
+                                               },
+                      "key_tools":  [
+
+                                    ],
+                      "estimated_duration_hours":  15.0,
+                      "related_steps_location":  "Step_Templates/DESIGN/",
+                      "created_date":  "2025-11-10"
+                  },
+                  {
+                      "id":  "TASK-DESIGN-010",
+                      "name":  "",
+                      "type":  "task",
+                      "status":  "Active",
+                      "location":  "Task_Templates/DESIGN/TASK-DESIGN-010.md",
+                      "steps_count":  6,
+                      "complexity":  "Medium",
+                      "automation_potential":  {
+                                                   "ranking":  "Low \u003c40%",
+                                                   "reasoning":  "Boundary setting requires human negotiation. Client expectation management needs emotional intelligence. Policy creation requires business judgment. Communication templates can be prepared but delivery needs personal touch."
+                                               },
+                      "key_tools":  [
+
+                                    ],
+                      "estimated_duration_hours":  18.0,
+                      "related_steps_location":  "Step_Templates/DESIGN/",
+                      "created_date":  "2025-11-10"
+                  },
+                  {
+                      "id":  "TASK-DEV-001",
+                      "name":  "",
+                      "type":  "task",
+                      "status":  "Active",
+                      "location":  "Task_Templates/DEV/TASK-DEV-001.md",
+                      "steps_count":  7,
+                      "complexity":  "Medium",
+                      "automation_potential":  {
+                                                   "ranking":  "Medium 40-60%",
+                                                   "reasoning":  "Code structure can be templated. Multi-threading logic follows standard patterns. Error handling requires custom logic for specific scraping targets. Manual testing and quality validation needed."
+                                               },
+                      "key_tools":  [
+
+                                    ],
+                      "estimated_duration_hours":  21.0,
+                      "related_steps_location":  "Step_Templates/DEV/",
+                      "created_date":  "2025-11-10"
+                  },
+                  {
+                      "id":  "TASK-DEV-002",
+                      "name":  "",
+                      "type":  "task",
+                      "status":  "Active",
+                      "location":  "Task_Templates/DEV/TASK-DEV-002.md",
+                      "steps_count":  6,
+                      "complexity":  "Medium",
+                      "automation_potential":  {
+                                                   "ranking":  "Medium 40-60%",
+                                                   "reasoning":  "API integration follows standard patterns. Configuration file generation can be semi-automated. Troubleshooting requires human problem-solving. Testing and validation need manual verification."
+                                               },
+                      "key_tools":  [
+
+                                    ],
+                      "estimated_duration_hours":  18.0,
+                      "related_steps_location":  "Step_Templates/DEV/",
+                      "created_date":  "2025-11-10"
+                  },
+                  {
+                      "id":  "TASK-DEV-003",
+                      "name":  "",
+                      "type":  "task",
+                      "status":  "Active",
+                      "location":  "Task_Templates/DEV/TASK-DEV-003.md",
+                      "steps_count":  7,
+                      "complexity":  "Medium",
+                      "automation_potential":  {
+                                                   "ranking":  "High 60-80%",
+                                                   "reasoning":  "Docker configuration can be templated. Containerization is standardizable. Deployment scripts are automatable. Monitoring setup follows patterns. Manual validation and troubleshooting needed."
+                                               },
+                      "key_tools":  [
+
+                                    ],
+                      "estimated_duration_hours":  21.0,
+                      "related_steps_location":  "Step_Templates/DEV/",
+                      "created_date":  "2025-11-10"
+                  },
+                  {
+                      "id":  "TASK-DEV-004",
+                      "name":  "",
+                      "type":  "task",
+                      "status":  "Active",
+                      "location":  "Task_Templates/DEV/TASK-DEV-004.md",
+                      "steps_count":  6,
+                      "complexity":  "Medium",
+                      "automation_potential":  {
+                                                   "ranking":  "High 60-80%",
+                                                   "reasoning":  "Code structure can be templated. Multi-threading logic is standardizable. NLP integration follows patterns. AI analysis requires tuning. Manual testing and validation needed."
+                                               },
+                      "key_tools":  [
+
+                                    ],
+                      "estimated_duration_hours":  18.0,
+                      "related_steps_location":  "Step_Templates/DEV/",
+                      "created_date":  "2025-11-10"
+                  },
+                  {
+                      "id":  "TASK-DEV-005",
+                      "name":  "",
+                      "type":  "task",
+                      "status":  "Active",
+                      "location":  "Task_Templates/DEV/TASK-DEV-005.md",
+                      "steps_count":  7,
+                      "complexity":  "Medium",
+                      "automation_potential":  {
+                                                   "ranking":  "High 60-80%",
+                                                   "reasoning":  "Docker configuration can be templated. Containerization is standardizable. Deployment scripts are automatable. Monitoring setup follows patterns. Manual validation and troubleshooting needed."
+                                               },
+                      "key_tools":  [
+
+                                    ],
+                      "estimated_duration_hours":  21.0,
+                      "related_steps_location":  "Step_Templates/DEV/",
+                      "created_date":  "2025-11-10"
+                  },
+                  {
+                      "id":  "TASK-HR-001",
+                      "name":  "",
+                      "type":  "task",
+                      "status":  "Active",
+                      "location":  "Task_Templates/HR/TASK-HR-001.md",
+                      "steps_count":  7,
+                      "complexity":  "Medium",
+                      "automation_potential":  {
+                                                   "ranking":  "Medium 40-60%",
+                                                   "reasoning":  "Checklist execution can be automated with task management tools. Account creation scripts can be templated. Welcome communication can be semi-automated. Training sessions and personal introductions require human interaction."
+                                               },
+                      "key_tools":  [
+
+                                    ],
+                      "estimated_duration_hours":  21.0,
+                      "related_steps_location":  "Step_Templates/HR/",
+                      "created_date":  "2025-11-10"
+                  },
+                  {
+                      "id":  "TASK-HR-002",
+                      "name":  "",
+                      "type":  "task",
+                      "status":  "Active",
+                      "location":  "Task_Templates/HR/TASK-HR-002.md",
+                      "steps_count":  7,
+                      "complexity":  "Medium",
+                      "automation_potential":  {
+                                                   "ranking":  "Medium 40-60%",
+                                                   "reasoning":  "Documentation structure can be templated. Content creation requires understanding of developer needs and company processes. Screenshot capture and formatting can be semi-automated. Review and testing need human validation."
+                                               },
+                      "key_tools":  [
+
+                                    ],
+                      "estimated_duration_hours":  21.0,
+                      "related_steps_location":  "Step_Templates/HR/",
+                      "created_date":  "2025-11-10"
+                  },
+                  {
+                      "id":  "TASK-HR-003",
+                      "name":  "",
+                      "type":  "task",
+                      "status":  "Active",
+                      "location":  "Task_Templates/HR/TASK-HR-003.md",
+                      "steps_count":  6,
+                      "complexity":  "Medium",
+                      "automation_potential":  {
+                                                   "ranking":  "High 60-80%",
+                                                   "reasoning":  "Function calling configuration is standardizable. API integration follows patterns. Error handling can be templated. Manual setup and testing required initially but runs automatically afterward."
+                                               },
+                      "key_tools":  [
+
+                                    ],
+                      "estimated_duration_hours":  18.0,
+                      "related_steps_location":  "Step_Templates/HR/",
+                      "created_date":  "2025-11-10"
+                  },
+                  {
+                      "id":  "TASK-HR-004",
+                      "name":  "",
+                      "type":  "task",
+                      "status":  "Active",
+                      "location":  "Task_Templates/HR/TASK-HR-004.md",
+                      "steps_count":  5,
+                      "complexity":  "Medium",
+                      "automation_potential":  {
+                                                   "ranking":  "High 60-80%",
+                                                   "reasoning":  "Folder creation is fully automatable with scripts. Naming conventions are standardizable. Permissions setup can be automated. Manual verification needed for special cases or custom requirements."
+                                               },
+                      "key_tools":  [
+
+                                    ],
+                      "estimated_duration_hours":  15.0,
+                      "related_steps_location":  "Step_Templates/HR/",
+                      "created_date":  "2025-11-10"
+                  },
+                  {
+                      "id":  "TASK-HR-005",
+                      "name":  "",
+                      "type":  "task",
+                      "status":  "Active",
+                      "location":  "Task_Templates/HR/TASK-HR-005.md",
+                      "steps_count":  6,
+                      "complexity":  "Medium",
+                      "automation_potential":  {
+                                                   "ranking":  "Medium 40-60%",
+                                                   "reasoning":  "Status data extraction can be automated. Discrepancy identification can be scripted. Correction recommendations can be automated with business rules. Manual verification needed for complex cases."
+                                               },
+                      "key_tools":  [
+
+                                    ],
+                      "estimated_duration_hours":  18.0,
+                      "related_steps_location":  "Step_Templates/HR/",
+                      "created_date":  "2025-11-10"
+                  },
+                  {
+                      "id":  "TASK-HR-006",
+                      "name":  "",
+                      "type":  "task",
+                      "status":  "Active",
+                      "location":  "Task_Templates/HR/TASK-HR-006.md",
+                      "steps_count":  5,
+                      "complexity":  "Medium",
+                      "automation_potential":  {
+                                                   "ranking":  "Medium 40-60%",
+                                                   "reasoning":  "Job description template can be automated with role requirements. Posting to job boards can be semi-automated. Application tracking is automatable. Candidate screening requires human judgment. Interview scheduling can be automated."
+                                               },
+                      "key_tools":  [
+
+                                    ],
+                      "estimated_duration_hours":  15.0,
+                      "related_steps_location":  "Step_Templates/HR/",
+                      "created_date":  "2025-11-10"
+                  },
+                  {
+                      "id":  "TASK-LG-001",
+                      "name":  "",
+                      "type":  "task",
+                      "status":  "Active",
+                      "location":  "Task_Templates/LG/TASK-LG-001.md",
+                      "steps_count":  6,
+                      "complexity":  "Medium",
+                      "automation_potential":  {
+                                                   "ranking":  "Low \u003c40%",
+                                                   "reasoning":  "Data collection can be partially automated. Analysis requires human interpretation of context and trends. Insights generation requires domain expertise. Recommendations need strategic thinking."
+                                               },
+                      "key_tools":  [
+
+                                    ],
+                      "estimated_duration_hours":  18.0,
+                      "related_steps_location":  "Step_Templates/LG/",
+                      "created_date":  "2025-11-10"
+                  },
+                  {
+                      "id":  "TASK-LG-002",
+                      "name":  "",
+                      "type":  "task",
+                      "status":  "Active",
+                      "location":  "Task_Templates/LG/TASK-LG-002.md",
+                      "steps_count":  8,
+                      "complexity":  "Medium",
+                      "automation_potential":  {
+                                                   "ranking":  "Low \u003c40%",
+                                                   "reasoning":  "Documentation structure can be templated. Content requires technical expertise and testing. Screenshot capture is manual. Troubleshooting steps need real-world validation."
+                                               },
+                      "key_tools":  [
+
+                                    ],
+                      "estimated_duration_hours":  24.0,
+                      "related_steps_location":  "Step_Templates/LG/",
+                      "created_date":  "2025-11-10"
+                  },
+                  {
+                      "id":  "TASK-LG-003",
+                      "name":  "",
+                      "type":  "task",
+                      "status":  "Active",
+                      "location":  "Task_Templates/LG/TASK-LG-003.md",
+                      "steps_count":  7,
+                      "complexity":  "Medium",
+                      "automation_potential":  {
+                                                   "ranking":  "Low \u003c40%",
+                                                   "reasoning":  "Technical writing requires domain expertise. Screenshot capture is manual. Step-by-step instructions need testing. Troubleshooting requires real-world problem-solving experience."
+                                               },
+                      "key_tools":  [
+
+                                    ],
+                      "estimated_duration_hours":  21.0,
+                      "related_steps_location":  "Step_Templates/LG/",
+                      "created_date":  "2025-11-10"
+                  },
+                  {
+                      "id":  "TASK-OPS-001",
+                      "name":  "",
+                      "type":  "task",
+                      "status":  "Active",
+                      "location":  "Task_Templates/OPS/TASK-OPS-001.md",
+                      "steps_count":  6,
+                      "complexity":  "Medium",
+                      "automation_potential":  {
+                                                   "ranking":  "Medium 40-60%",
+                                                   "reasoning":  "Template creation can be semi-automated. Message formatting follows patterns. Scheduling can be automated. Content customization requires human judgment for context and tone."
+                                               },
+                      "key_tools":  [
+
+                                    ],
+                      "estimated_duration_hours":  18.0,
+                      "related_steps_location":  "Step_Templates/OPS/",
+                      "created_date":  "2025-11-10"
+                  },
+                  {
+                      "id":  "TASK-OPS-002",
+                      "name":  "",
+                      "type":  "task",
+                      "status":  "Active",
+                      "location":  "Task_Templates/OPS/TASK-OPS-002.md",
+                      "steps_count":  7,
+                      "complexity":  "Medium",
+                      "automation_potential":  {
+                                                   "ranking":  "Very High \u003e80%",
+                                                   "reasoning":  "File movement is fully automatable with scripts. Naming convention updates are scriptable. Directory structure creation is automatable. Manual validation needed only for edge cases."
+                                               },
+                      "key_tools":  [
+
+                                    ],
+                      "estimated_duration_hours":  21.0,
+                      "related_steps_location":  "Step_Templates/OPS/",
+                      "created_date":  "2025-11-10"
+                  },
+                  {
+                      "id":  "TASK-OPS-003",
+                      "name":  "",
+                      "type":  "task",
+                      "status":  "Active",
+                      "location":  "Task_Templates/OPS/TASK-OPS-003.md",
+                      "steps_count":  7,
+                      "complexity":  "Medium",
+                      "automation_potential":  {
+                                                   "ranking":  "Low \u003c40%",
+                                                   "reasoning":  "Architecture design requires strategic thinking. Stakeholder needs analysis requires human interaction. Framework design needs business domain expertise. Implementation can be partially automated once designed."
+                                               },
+                      "key_tools":  [
+
+                                    ],
+                      "estimated_duration_hours":  21.0,
+                      "related_steps_location":  "Step_Templates/OPS/",
+                      "created_date":  "2025-11-10"
+                  },
+                  {
+                      "id":  "TASK-OPS-004",
+                      "name":  "",
+                      "type":  "task",
+                      "status":  "Active",
+                      "location":  "Task_Templates/OPS/TASK-OPS-004.md",
+                      "steps_count":  7,
+                      "complexity":  "Medium",
+                      "automation_potential":  {
+                                                   "ranking":  "High 60-80%",
+                                                   "reasoning":  "File import can be automated. Metadata extraction is scriptable. Organization rules can be automated. Quality verification requires manual review. Edge cases need human judgment."
+                                               },
+                      "key_tools":  [
+
+                                    ],
+                      "estimated_duration_hours":  21.0,
+                      "related_steps_location":  "Step_Templates/OPS/",
+                      "created_date":  "2025-11-10"
+                  },
+                  {
+                      "id":  "TASK-OPS-005",
+                      "name":  "",
+                      "type":  "task",
+                      "status":  "Active",
+                      "location":  "Task_Templates/OPS/TASK-OPS-005.md",
+                      "steps_count":  6,
+                      "complexity":  "Medium",
+                      "automation_potential":  {
+                                                   "ranking":  "Medium 40-60%",
+                                                   "reasoning":  "Automatic categorization can be AI-assisted based on content analysis. Tagging can be semi-automated. Complex categorization decisions require human judgment. Quality assurance needs manual review."
+                                               },
+                      "key_tools":  [
+
+                                    ],
+                      "estimated_duration_hours":  18.0,
+                      "related_steps_location":  "Step_Templates/OPS/",
+                      "created_date":  "2025-11-10"
+                  },
+                  {
+                      "id":  "TASK-OPS-006",
+                      "name":  "",
+                      "type":  "task",
+                      "status":  "Active",
+                      "location":  "Task_Templates/OPS/TASK-OPS-006.md",
+                      "steps_count":  7,
+                      "complexity":  "Medium",
+                      "automation_potential":  {
+                                                   "ranking":  "High 60-80%",
+                                                   "reasoning":  "Task extraction from transcripts is highly automatable with AI. Assignment can be semi-automated based on department/role. Follow-up reminders are fully automatable. Manual validation recommended for complex or ambiguous tasks."
+                                               },
+                      "key_tools":  [
+
+                                    ],
+                      "estimated_duration_hours":  21.0,
+                      "related_steps_location":  "Step_Templates/OPS/",
+                      "created_date":  "2025-11-10"
+                  },
+                  {
+                      "id":  "TASK-OPS-007",
+                      "name":  "",
+                      "type":  "task",
+                      "status":  "Active",
+                      "location":  "Task_Templates/OPS/TASK-OPS-007.md",
+                      "steps_count":  7,
+                      "complexity":  "Medium",
+                      "automation_potential":  {
+                                                   "ranking":  "Medium 40-60%",
+                                                   "reasoning":  "UI development can follow standard patterns. Interface logic is scriptable. User experience design requires human expertise. Integration with existing systems needs custom development."
+                                               },
+                      "key_tools":  [
+
+                                    ],
+                      "estimated_duration_hours":  21.0,
+                      "related_steps_location":  "Step_Templates/OPS/",
+                      "created_date":  "2025-11-10"
+                  },
+                  {
+                      "id":  "TASK-SALES-001",
+                      "name":  "",
+                      "type":  "task",
+                      "status":  "Active",
+                      "location":  "Task_Templates/SALES/TASK-SALES-001.md",
+                      "steps_count":  7,
+                      "complexity":  "Medium",
+                      "automation_potential":  {
+                                                   "ranking":  "Low \u003c40%",
+                                                   "reasoning":  "Data extraction from CRM can be automated. Analysis requires human interpretation of business context. Insights generation needs sales domain expertise. Recommendations require strategic thinking."
+                                               },
+                      "key_tools":  [
+
+                                    ],
+                      "estimated_duration_hours":  21.0,
+                      "related_steps_location":  "Step_Templates/SALES/",
+                      "created_date":  "2025-11-10"
+                  },
+                  {
+                      "id":  "TASK-SALES-002",
+                      "name":  "",
+                      "type":  "task",
+                      "status":  "Active",
+                      "location":  "Task_Templates/SALES/TASK-SALES-002.md",
+                      "steps_count":  6,
+                      "complexity":  "Medium",
+                      "automation_potential":  {
+                                                   "ranking":  "Medium 40-60%",
+                                                   "reasoning":  "Dashboard setup can be automated. Metric tracking is automatable. Alerts and notifications are scriptable. Workflow adoption and habit formation require human change management."
+                                               },
+                      "key_tools":  [
+
+                                    ],
+                      "estimated_duration_hours":  18.0,
+                      "related_steps_location":  "Step_Templates/SALES/",
+                      "created_date":  "2025-11-10"
+                  },
+                  {
+                      "id":  "TASK-SALES-003",
+                      "name":  "",
+                      "type":  "task",
+                      "status":  "Active",
+                      "location":  "Task_Templates/SALES/TASK-SALES-003.md",
+                      "steps_count":  7,
+                      "complexity":  "Medium",
+                      "automation_potential":  {
+                                                   "ranking":  "Low \u003c40%",
+                                                   "reasoning":  "Framework design requires sales domain expertise. Metric selection needs business strategy understanding. Analysis methodology requires analytical thinking. Templates can be partially automated once framework is defined."
+                                               },
+                      "key_tools":  [
+
+                                    ],
+                      "estimated_duration_hours":  21.0,
+                      "related_steps_location":  "Step_Templates/SALES/",
+                      "created_date":  "2025-11-10"
+                  },
+                  {
+                      "id":  "TASK-SALES-004",
+                      "name":  "",
+                      "type":  "task",
+                      "status":  "Active",
+                      "location":  "Task_Templates/SALES/TASK-SALES-004.md",
+                      "steps_count":  7,
+                      "complexity":  "Medium",
+                      "automation_potential":  {
+                                                   "ranking":  "High 60-80%",
+                                                   "reasoning":  "Web scraping is highly automatable. Data extraction follows patterns. NLP analysis can be automated. CRM integration is scriptable. Manual review needed for lead quality and validation."
+                                               },
+                      "key_tools":  [
+
+                                    ],
+                      "estimated_duration_hours":  21.0,
+                      "related_steps_location":  "Step_Templates/SALES/",
+                      "created_date":  "2025-11-10"
+                  },
+                  {
+                      "id":  "TASK-VIDEO-001",
+                      "name":  "",
+                      "type":  "task",
+                      "status":  "Active",
+                      "location":  "Task_Templates/VIDEO/TASK-VIDEO-001.md",
+                      "steps_count":  6,
+                      "complexity":  "Medium",
+                      "automation_potential":  {
+                                                   "ranking":  "Very High \u003e80%",
+                                                   "reasoning":  "Transcription is fully automatable with AI services. Timestamp generation is automatic. Speaker identification can be automated. Manual review needed only for technical terms or unclear audio."
+                                               },
+                      "key_tools":  [
+
+                                    ],
+                      "estimated_duration_hours":  18.0,
+                      "related_steps_location":  "Step_Templates/VIDEO/",
+                      "created_date":  "2025-11-10"
+                  },
+                  {
+                      "id":  "TASK-VIDEO-002",
+                      "name":  "",
+                      "type":  "task",
+                      "status":  "Active",
+                      "location":  "Task_Templates/VIDEO/TASK-VIDEO-002.md",
+                      "steps_count":  7,
+                      "complexity":  "Medium",
+                      "automation_potential":  {
+                                                   "ranking":  "High 60-80%",
+                                                   "reasoning":  "Compression can be automated with batch processing. Quality presets are standardizable. Format conversion is scriptable. Manual quality verification needed for critical videos."
+                                               },
+                      "key_tools":  [
+
+                                    ],
+                      "estimated_duration_hours":  21.0,
+                      "related_steps_location":  "Step_Templates/VIDEO/",
+                      "created_date":  "2025-11-10"
+                  },
+                  {
+                      "id":  "TASK-VIDEO-003",
+                      "name":  "",
+                      "type":  "task",
+                      "status":  "Active",
+                      "location":  "Task_Templates/VIDEO/TASK-VIDEO-003.md",
+                      "steps_count":  6,
+                      "complexity":  "Medium",
+                      "automation_potential":  {
+                                                   "ranking":  "Low \u003c40%",
+                                                   "reasoning":  "Status updates involve multiple systems and manual verification. Access revocation requires security considerations. Documentation updates need human review. Notifications require personalized communication."
+                                               },
+                      "key_tools":  [
+
+                                    ],
+                      "estimated_duration_hours":  18.0,
+                      "related_steps_location":  "Step_Templates/VIDEO/",
+                      "created_date":  "2025-11-10"
+                  },
+                  {
+                      "id":  "TASK-VIDEO-004",
+                      "name":  "",
+                      "type":  "task",
+                      "status":  "Active",
+                      "location":  "Task_Templates/VIDEO/TASK-VIDEO-004.md",
+                      "steps_count":  7,
+                      "complexity":  "Medium",
+                      "automation_potential":  {
+                                                   "ranking":  "Medium 40-60%",
+                                                   "reasoning":  "Scenario planning can be templated. Platform adaptation rules can be automated. Creative content creation requires human expertise. AI video generation tools can assist."
+                                               },
+                      "key_tools":  [
+
+                                    ],
+                      "estimated_duration_hours":  21.0,
+                      "related_steps_location":  "Step_Templates/VIDEO/",
+                      "created_date":  "2025-11-10"
+                  }
+              ]
+}

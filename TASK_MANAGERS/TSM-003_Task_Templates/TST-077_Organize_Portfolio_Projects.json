@@ -1,0 +1,185 @@
+{
+  "entity_type": "TASK_MANAGERS",
+  "sub_entity": "Task_Template",
+  "template_id": "Task-Template-077",
+  "task_name": "Organize Portfolio and Project Documentation",
+  "action": "Organize",
+  "object": "Portfolio",
+  "context": "to maintain professional portfolio with categorized work samples, project documentation, and case studies",
+  "description": "Portfolio organization and maintenance task for design, development, and creative professionals. Includes categorizing completed projects, updating project documentation, creating case studies, organizing files in structured folders, and maintaining portfolio website or Notion database. Essential for client presentations, job applications, and team showcase.",
+  "department": "Design",
+  "profession": "Designer / Developer / Creative Professional",
+  "estimated_duration": "2 hours (45 min organization + 45 min documentation + 30 min updates)",
+  "status": "Template",
+  "dependencies": [
+    "Access to completed project files",
+    "Portfolio platform access (Notion, Behance, personal website)",
+    "Project documentation and notes",
+    "Client permission for portfolio use (if needed)",
+    "Brand guidelines for portfolio presentation"
+  ],
+  "tools_required": [
+    "TOL-058 (Notion) for portfolio database",
+    "Google Drive for file storage",
+    "TOL-045 (Google Sheets) for project tracking",
+    "Figma/Adobe for file organization",
+    "Portfolio website platform (optional)"
+  ],
+  "success_criteria": [
+    "All completed projects categorized by type/industry",
+    "Project files organized in structured folder hierarchy",
+    "Case studies created for top 5-10 projects",
+    "Portfolio database updated with latest work",
+    "Project descriptions written with impact metrics",
+    "High-quality images/screenshots captured",
+    "Portfolio website/page updated",
+    "Easy to filter and search projects"
+  ],
+  "steps": [
+    {
+      "step_number": 1,
+      "name": "Collect and inventory completed projects",
+      "duration": "20 minutes",
+      "outputs": [
+        "List of all completed projects (last 6-12 months)",
+        "Project files located and accessible",
+        "Client permissions verified",
+        "Projects prioritized for portfolio inclusion"
+      ]
+    },
+    {
+      "step_number": 2,
+      "name": "Create folder structure and organize files",
+      "duration": "25 minutes",
+      "outputs": [
+        "Folder hierarchy created (by project type, date, client)",
+        "Project files moved to appropriate folders",
+        "Naming conventions standardized",
+        "Archive folder created for old/inactive projects"
+      ]
+    },
+    {
+      "step_number": 3,
+      "name": "Categorize projects and add metadata",
+      "duration": "20 minutes",
+      "outputs": [
+        "Projects tagged by category (branding, web design, video, etc.)",
+        "Industry/client type assigned",
+        "Project dates and duration documented",
+        "Tools and technologies used listed"
+      ]
+    },
+    {
+      "step_number": 4,
+      "name": "Create project documentation and descriptions",
+      "duration": "30 minutes",
+      "outputs": [
+        "Project descriptions written (problem, solution, results)",
+        "Impact metrics documented (conversions, engagement, revenue)",
+        "Role and responsibilities clarified",
+        "Challenges and learnings captured"
+      ]
+    },
+    {
+      "step_number": 5,
+      "name": "Develop case studies for top projects",
+      "duration": "25 minutes",
+      "outputs": [
+        "3-5 detailed case studies created",
+        "Before/after comparisons prepared",
+        "Client testimonials included (if available)",
+        "Process and methodology documented"
+      ]
+    },
+    {
+      "step_number": 6,
+      "name": "Capture high-quality images and screenshots",
+      "duration": "15 minutes",
+      "outputs": [
+        "Screenshots/photos of final deliverables",
+        "Images optimized for web display",
+        "Mockups created for context",
+        "Image library organized"
+      ]
+    },
+    {
+      "step_number": 7,
+      "name": "Update portfolio database and website",
+      "duration": "25 minutes",
+      "outputs": [
+        "Notion portfolio database updated",
+        "New projects added to portfolio website",
+        "Project filters and search working",
+        "Portfolio reviewed for completeness"
+      ]
+    }
+  ],
+  "checklist": [
+    {
+      "item": "All completed projects inventoried",
+      "required": true
+    },
+    {
+      "item": "Folder structure created and files organized",
+      "required": true
+    },
+    {
+      "item": "Projects categorized with proper tags",
+      "required": true
+    },
+    {
+      "item": "Project descriptions written for all key projects",
+      "required": true
+    },
+    {
+      "item": "Case studies created for top 3-5 projects",
+      "required": true
+    },
+    {
+      "item": "High-quality images captured and organized",
+      "required": true
+    },
+    {
+      "item": "Portfolio database/website updated",
+      "required": true
+    },
+    {
+      "item": "Portfolio reviewed and ready for presentations",
+      "required": true
+    }
+  ],
+  "roi_metrics": {
+    "client_acquisition": "Well-organized portfolio increases client conversion by 50%",
+    "time_efficiency": "Saves 1-2 hours per client pitch with ready-to-present portfolio",
+    "professional_brand": "Enhances credibility and perceived expertise"
+  },
+  "related_tasks": [
+    "TST-076 (Create Course Materials)",
+    "TST-078 (Prepare Client Interview Materials)"
+  ],
+  "related_workflows": [
+    "Project Completion Workflow",
+    "Portfolio Maintenance Process"
+  ],
+  "related_projects": [
+    "Professional Brand Development",
+    "Client Acquisition Initiative"
+  ],
+  "tags": [
+    "portfolio",
+    "organization",
+    "documentation",
+    "case-studies",
+    "notion",
+    "project-management",
+    "design",
+    "showcase"
+  ],
+  "version": "1.0",
+  "created": "2025-11-21",
+  "last_updated": "2025-11-21",
+  "responsibility_id": "RESP-DGN-XXX",
+  "responsibility_name": "organize portfolio",
+  "_original_action": "Organize",
+  "_original_object": "Portfolio"
+}

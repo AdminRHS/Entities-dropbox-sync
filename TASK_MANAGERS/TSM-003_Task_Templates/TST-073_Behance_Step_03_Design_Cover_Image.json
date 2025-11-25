@@ -1,0 +1,51 @@
+{
+    "entity_type": "TASK_MANAGERS",
+    "sub_entity": "Task_Template",
+    "task_template_id": "Task-Template-102",
+    "task_template_name": "Design Behance Cover Image",
+    "action": "Design",
+    "object": "cover image",
+    "context": "Behance 1400×788px cover",
+    "description": "Design a standout cover image for the Behance project at 1400×788px that represents the project effectively.",
+    "department": "DESIGN",
+    "estimated_duration": "20-30 minutes",
+    "priority": "Medium",
+    "status": "Template",
+    "dependencies": [
+        "Task-Template-100"
+    ],
+    "tools_required": [
+        "Photoshop",
+        "Figma"
+    ],
+    "matched_tools": [],
+    "checklist": [
+        {
+            "item": "Select project hero image or key visual",
+            "guide": "Pick a visual that best represents the project outcome.",
+            "required": true
+        },
+        {
+            "item": "Apply brand guidelines (color, typography, logo)",
+            "guide": "Ensure cover is on-brand and consistent with other materials.",
+            "required": true
+        },
+        {
+            "item": "Export cover at 1400×788px",
+            "guide": "Follow Behance cover specifications.",
+            "required": true
+        }
+    ],
+    "success_criteria": [
+        "Cover stands out in Behance feed.",
+        "Image accurately represents project quality and style."
+    ],
+    "tags": [
+        "behance",
+        "cover_image",
+        "design",
+        "portfolio"
+    ],
+    "source": "Workflows/Behance_Project_Publishing_Workflow.yaml#step_3",
+    "version": "1.0"
+}

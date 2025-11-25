@@ -1,0 +1,70 @@
+{
+  "entity_type": "LIBRARIES",
+  "sub_entity": "Tool",
+  "tool_id": "TOOL-AI-097",
+  "name": "Archon",
+  "vendor": "Cole (Open Source)",
+  "category": "AI/Knowledge & Task Management",
+  "purpose": "Knowledge and task management for AI coding assistants",
+  "description": "Open-source project that enhances AI coding assistants (especially Claude Code) with knowledge management and task tracking. Used alongside Claude Code for all coding projects. Provides persistent context and organized task management that coding assistants lack natively.",
+  "skill_level_required": "Intermediate",
+  "cost_structure": "Free (Open Source)",
+  "platform_compatibility": [
+    "Claude Code",
+    "AI coding assistants"
+  ],
+  "integration_capabilities": [
+    "Claude Code integration",
+    "Knowledge management",
+    "Task tracking",
+    "Context persistence",
+    "Project organization"
+  ],
+  "documentation_url": "https://github.com/coleam00/archon",
+  "actual_remote_helpers_usage": {
+    "primary_use": "Enhanced AI Coding Experience",
+    "users": [],
+    "use_cases": [
+      "manage coding knowledge",
+      "track tasks",
+      "persistent context",
+      "organize projects",
+      "enhance claude code"
+    ],
+    "workflows": [
+      "WF-AI-001: Develop and Deploy AI Application"
+    ]
+  },
+  "strengths": [
+    "Enhances AI coding assistants",
+    "Knowledge management",
+    "Task tracking built-in",
+    "Open-source",
+    "Works with Claude Code",
+    "Persistent context"
+  ],
+  "limitations": [
+    "Requires setup",
+    "Claude Code specific",
+    "Newer project"
+  ],
+  "alternatives": [],
+  "departments_using": [],
+  "tags": [
+    "claude-code",
+    "knowledge-management",
+    "task-tracking",
+    "ai-coding",
+    "open-source"
+  ],
+  "discovery_date": "2025-11-13",
+  "discovery_source": "Video_005",
+  "status": "active",
+  "video_source": {
+    "video_id": "Video_005",
+    "video_title": "My Agentic Engineering Tech Stack",
+    "creator": "Cole",
+    "timestamp": "04:34-05:27"
+  },
+  "notes": "Creator's own open-source project. Used for all development in the video. Video linked demonstrating integration with Claude Code."
+}

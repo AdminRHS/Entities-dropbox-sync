@@ -1,0 +1,227 @@
+﻿{
+  "entity_type": "TASK_MANAGERS",
+  "sub_entity": "Project_Template",
+  "template_id": "Project-Template-006",
+  "version": "1.0",
+  "created_date": "2025-01-27",
+  "last_updated": "2025-01-27",
+  "metadata": {
+    "name": "Research to Taxonomy Integration Pipeline",
+    "description": "Complete Project Template for conducting research, processing videos, and integrating findings into taxonomy",
+    "primary_department": "Research / AI / Taxonomy",
+    "departments_involved": [
+      "AI",
+      "RESEARCH",
+      "TAXONOMY"
+    ],
+    "project_type": "Recurring Research and Integration Workflow",
+    "complexity": "High",
+    "estimated_duration": "2-4 weeks (depending on video count)",
+    "cost_estimate": {
+      "initial_setup": "Time only (no cost)",
+      "per_cycle": "Time only (no cost)",
+      "cost_breakdown": [
+        "Research discovery: 2-4 hours",
+        "Video transcription: 1-2 hours per video",
+        "Analysis and extraction: 3-5 hours per video",
+        "Taxonomy integration: 2-3 hours per video",
+        "Reporting: 1-2 hours per video"
+      ]
+    },
+    "roi_estimate": "10-15 new tools/week discovered, 3-5 workflows documented, comprehensive taxonomy expansion",
+    "success_criteria": [
+      "Research discovery logs created weekly",
+      "3-5 high-priority videos processed per week",
+      "5-10 new tools added to taxonomy per week",
+      "3-5 new workflows/processes documented per week",
+      "Complete taxonomy integration with cross-references",
+      "Status tracker maintained and current"
+    ],
+    "prerequisites": [
+      "Access to Taxonomy_Processing methodology prompts",
+      "Claude Desktop or API access (for taxonomy extraction)",
+      "Video transcription service (YouTube auto-captions or paid service)",
+      "Access to LIBRARIES/Taxonomy_Processing/ directory",
+      "Familiarity with taxonomy structure (Tools, Objects, Actions, Processes, Professions)"
+    ],
+    "best_for": [
+      "Research teams tracking emerging tools and techniques",
+      "Content teams building comprehensive knowledge bases",
+      "Product teams monitoring competitive landscape",
+      "Organizations maintaining comprehensive taxonomy systems"
+    ]
+  },
+  "structure": {
+    "total_phases": 7,
+    "total_milestones": 5,
+    "total_tasks": 12,
+    "total_estimated_steps": 120,
+    "workflow_type": "Sequential pipeline with conditional branches"
+  },
+  "milestones": [
+    {
+      "milestone_id": "MIL-RES-001",
+      "name": "Research Discovery Phase",
+      "description": "Discover and catalog new tools, workflows, and content",
+      "tasks": [
+        "TASK-TEMPLATE-RES-001",
+        "TASK-TEMPLATE-RES-002"
+      ],
+      "estimated_duration": "3-5 days",
+      "success_criteria": [
+        "Research discovery logs created",
+        "Videos prioritized for processing",
+        "Tools discovered and cataloged"
+      ]
+    },
+    {
+      "milestone_id": "MIL-RES-002",
+      "name": "Video Transcription Phase",
+      "description": "Transcribe selected videos using standardized methodology",
+      "tasks": [
+        "TASK-TEMPLATE-RES-101",
+        "TASK-TEMPLATE-RES-102"
+      ],
+      "estimated_duration": "2-3 days",
+      "success_criteria": [
+        "Videos transcribed with structured format",
+        "Professional titles created",
+        "Transcriptions saved to Taxonomy_Processing/Transcriptions/Videos/"
+      ]
+    },
+    {
+      "milestone_id": "MIL-RES-003",
+      "name": "Analysis and Extraction Phase",
+      "description": "Extract taxonomy elements from transcriptions",
+      "tasks": [
+        "TASK-TEMPLATE-RES-201",
+        "TASK-TEMPLATE-RES-202",
+        "TASK-TEMPLATE-RES-203"
+      ],
+      "estimated_duration": "3-5 days",
+      "success_criteria": [
+        "Extraction inventories created",
+        "Objects extracted with cross-references",
+        "Gap analysis completed"
+      ]
+    },
+    {
+      "milestone_id": "MIL-RES-004",
+      "name": "Taxonomy Integration Phase",
+      "description": "Integrate extracted elements into LIBRARIES",
+      "tasks": [
+        "TASK-TEMPLATE-RES-301",
+        "TASK-TEMPLATE-RES-302",
+        "TASK-TEMPLATE-RES-303"
+      ],
+      "estimated_duration": "4-6 days",
+      "success_criteria": [
+        "Tool JSON files created/updated",
+        "Process JSON files created/updated",
+        "Cross-references established"
+      ]
+    },
+    {
+      "milestone_id": "MIL-RES-005",
+      "name": "Reporting and Validation Phase",
+      "description": "Generate reports and validate integration",
+      "tasks": [
+        "TASK-TEMPLATE-RES-401",
+        "TASK-TEMPLATE-RES-402"
+      ],
+      "estimated_duration": "1-2 days",
+      "success_criteria": [
+        "Library mapping reports generated",
+        "Status tracker updated",
+        "Integration validated"
+      ]
+    }
+  ],
+  "phases": [
+    {
+      "phase_number": 1,
+      "phase_name": "Research Discovery",
+      "phase_description": "Discover new tools, workflows, and content through structured research",
+      "duration": "2-4 hours",
+      "complexity": "Low",
+      "dependencies": [],
+      "milestones": [
+        "MIL-RES-001"
+      ],
+      "output": "Research discovery logs with prioritized video list",
+      "methodology": "Taxonomy_Processing/Methodology/Research/"
+    },
+    {
+      "phase_number": 2,
+      "phase_name": "Video Transcription",
+      "phase_description": "Transcribe selected videos using standardized methodology",
+      "duration": "1-2 hours per video",
+      "complexity": "Medium",
+      "dependencies": [
+        "Phase 1 complete"
+      ],
+      "milestones": [
+        "MIL-RES-002"
+      ],
+      "output": "Video_XXX.md transcription files",
+      "methodology": "Taxonomy_Processing/Methodology/PROMPTS/Transcription/"
+    },
+    {
+      "phase_number": 3,
+      "phase_name": "Analysis and Extraction",
+      "phase_description": "Extract taxonomy elements from transcriptions",
+      "duration": "3-5 hours per video",
+      "complexity": "High",
+      "dependencies": [
+        "Phase 2 complete"
+      ],
+      "milestones": [
+        "MIL-RES-003"
+      ],
+      "output": "Extraction inventories, object inventories, gap analysis reports",
+      "methodology": "Taxonomy_Processing/Methodology/PROMPTS/Analysis/"
+    },
+    {
+      "phase_number": 4,
+      "phase_name": "Taxonomy Integration",
+      "phase_description": "Integrate extracted elements into LIBRARIES",
+      "duration": "2-3 hours per video",
+      "complexity": "High",
+      "dependencies": [
+        "Phase 3 complete"
+      ],
+      "milestones": [
+        "MIL-RES-004"
+      ],
+      "output": "Updated LIBRARIES JSON files with cross-references",
+      "methodology": "Taxonomy_Processing/Methodology/PROMPTS/Taxonomy_Integration/"
+    },
+    {
+      "phase_number": 5,
+      "phase_name": "Reporting and Validation",
+      "phase_description": "Generate reports and validate integration",
+      "duration": "1-2 hours per video",
+      "complexity": "Medium",
+      "dependencies": [
+        "Phase 4 complete"
+      ],
+      "milestones": [
+        "MIL-RES-005"
+      ],
+      "output": "Library mapping reports, updated status tracker",
+      "methodology": "Taxonomy_Processing/Methodology/PROMPTS/Taxonomy_Integration/"
+    }
+  ],
+  "related_entities": {
+    "libraries": [
+      "LIBRARIES/Taxonomy_Processing/",
+      "LIBRARIES/Tools/",
+      "LIBRARIES/Objects/",
+      "LIBRARIES/Processes/",
+      "LIBRARIES/Actions/"
+    ],
+    "workflows": [
+      "TASK_MANAGERS/Workflows/Taxonomy_Processing_Complete_Pipeline.yaml"
+    ]
+  }
+}

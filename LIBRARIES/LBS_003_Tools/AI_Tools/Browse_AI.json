@@ -1,0 +1,119 @@
+{
+  "entity_type": "LIBRARIES",
+  "sub_entity": "Tool",
+  "tool_id": "TOOL-AI-074",
+  "name": "Browse AI",
+  "vendor": "Browse AI Inc.",
+  "category": "AI/Web Automation - No-Code Scraping",
+  "purpose": "No-code web scraping and data extraction tool with AI-powered pattern recognition",
+  "description": "Browse AI is a no-code web scraping platform that allows users to extract structured data from websites without writing code. It uses a Chrome extension to record user actions and automatically detects patterns for list extraction. The platform supports pagination handling, scheduled automation, and direct integration with Google Sheets for data export. Ideal for lead generation, competitive monitoring, and automated data collection workflows.",
+  "skill_level_required": "Beginner",
+  "cost_structure": "Freemium (Free tier available, paid plans for advanced features)",
+  "platform_compatibility": [
+    "Web",
+    "Chrome Browser (Extension Required)"
+  ],
+  "integration_capabilities": [
+    "Google Sheets (Direct Export)",
+    "CSV Export",
+    "API Access",
+    "Scheduled Automation",
+    "Webhook Support",
+    "Chrome Extension"
+  ],
+  "documentation_url": "https://www.browse.ai/",
+  "actual_remote_helpers_usage": {
+    "primary_use": "No-Code Web Scraping and Data Extraction",
+    "users": [
+      "Lead Generation Team",
+      "Marketing Team",
+      "AI & Automations Team"
+    ],
+    "use_cases": [
+      "Extract leads from directories",
+      "Scrape contact information",
+      "Monitor competitor websites",
+      "Collect pricing data",
+      "Extract product listings",
+      "Monitor job postings",
+      "Track website changes",
+      "Automated data collection workflows"
+    ],
+    "workflows": [
+      "MLS-002: Build Web Scraping Robot (Video_022)",
+      "MLS-003: Execute and Export Data (Video_022)"
+    ]
+  },
+  "strengths": [
+    "No-code interface - accessible to non-technical users",
+    "AI-powered pattern recognition",
+    "Chrome extension for easy setup",
+    "Handles pagination automatically",
+    "Scheduled automation capabilities",
+    "Direct Google Sheets integration",
+    "Visual element selection interface",
+    "Fast extraction speed"
+  ],
+  "limitations": [
+    "Requires Chrome browser and extension",
+    "May struggle with heavily protected sites",
+    "Limited to browser-based scraping",
+    "Pattern recognition may need refinement for complex sites"
+  ],
+  "alternatives": [
+    {
+      "name": "Crawl4AI",
+      "comparison": "Crawl4AI is code-based (Python), Browse AI is no-code"
+    },
+    {
+      "name": "n8n",
+      "comparison": "n8n is workflow automation, Browse AI is specialized for web scraping"
+    },
+    {
+      "name": "Make.com",
+      "comparison": "Make.com is broader automation, Browse AI focuses on web scraping"
+    },
+    {
+      "name": "Apify",
+      "comparison": "Apify requires more technical knowledge, Browse AI is no-code"
+    }
+  ],
+  "departments_using": [
+    "AID",
+    "LGN",
+    "MKT"
+  ],
+  "tags": [
+    "web-scraping",
+    "no-code",
+    "data-extraction",
+    "automation",
+    "chrome-extension",
+    "lead-generation",
+    "competitive-intelligence",
+    "pattern-recognition",
+    "scheduled-automation"
+  ],
+  "discovery_date": "2025-01-27",
+  "discovery_source": "Video_022",
+  "status": "active",
+  "video_source": {
+    "video_id": "Video_022",
+    "video_title": "This AI Agent Will DO Your Work For You! (Browse AI)",
+    "creator": "The AI Advantage (Igor)",
+    "timestamp": "Full video (10:53)"
+  },
+  "related_tools": [
+    {
+      "tool_id": "TOOL-DATA-006",
+      "tool_name": "Google Sheets",
+      "relationship": "Export destination"
+    },
+    {
+      "tool_id": "TOOL-AUTO-001",
+      "tool_name": "n8n",
+      "relationship": "Potential workflow integration"
+    }
+  ]
+}
+

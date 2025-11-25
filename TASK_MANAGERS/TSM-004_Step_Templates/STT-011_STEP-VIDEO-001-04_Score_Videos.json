@@ -1,0 +1,36 @@
+{
+  "step_template_id": "Step-Template-011",
+  "step_template_name": "Score Videos Using 0-100 System",
+  "metadata": {
+    "status": "Active"
+  },
+  "parent_task": {
+    "task_id": "TASK-TEMPLATE-VIDEO-001",
+    "task_name": "Search and Score Videos Using 0-100 System"
+  },
+  "step_details": {
+    "step_number": 4,
+    "order": 4,
+    "action": "score",
+    "detail": "Score each video: Strategic Alignment (0-40) + Tool/Tech Relevance (0-30) + Actionable Value (0-30) = Total (0-100)",
+    "expected_duration": 35
+  },
+  "execution": {
+    "tool_used": "Scoring criteria from Complete_Video_Workflow_Full_Instructions.md",
+    "inputs": [
+      "8-12 videos from search",
+      "Scoring rubric"
+    ],
+    "outputs": [
+      "All videos scored with breakdown and justification"
+    ],
+    "success_criteria": "Each video has total score, breakdown by 3 components, and written justification"
+  },
+  "relationships": {
+    "dependencies": [
+      "STEP-VIDEO-001-03"
+    ],
+    "next_steps": [],
+    "parallel_steps": []
+  }
+}

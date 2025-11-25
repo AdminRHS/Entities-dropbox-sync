@@ -1,0 +1,989 @@
+[
+  {
+    "skill_id": "SKL-001",
+    "skill_phrase": "screened candidates via CRM",
+    "components": {
+      "result": "screened",
+      "action": "screen",
+      "object": "candidates",
+      "object_type": "needed candidates, applied candidates, found candidates",
+      "tool": "CRM",
+      "tool_category": "Communication"
+    },
+    "department": "Managers (HR)",
+    "professions": ["recruiter", "hr manager"],
+    "difficulty_level": "beginner",
+    "frequency": "daily",
+    "time_estimate_minutes": 15,
+    "automation_potential": "medium",
+    "related_skills": ["SKL-002", "SKL-003"],
+    "example_tasks": [
+      "Screen 20 candidate resumes using CRM filters",
+      "Screen applied candidates for Frontend Developer position"
+    ],
+    "training_resources": []
+  },
+  {
+    "skill_id": "SKL-002",
+    "skill_phrase": "conducted video interviews via Zoom",
+    "components": {
+      "result": "conducted",
+      "action": "conduct",
+      "object": "video interviews",
+      "object_type": "video interview, project interview",
+      "tool": "Zoom",
+      "tool_category": "Video Call"
+    },
+    "department": "Managers (HR)",
+    "professions": ["recruiter", "hr manager"],
+    "difficulty_level": "intermediate",
+    "frequency": "weekly",
+    "time_estimate_minutes": 45,
+    "automation_potential": "low",
+    "related_skills": ["SKL-001", "SKL-004"],
+    "example_tasks": [
+      "Conduct behavioral interview with UI/UX Designer candidate",
+      "Conduct technical interview with Dev Lead for Backend position"
+    ],
+    "training_resources": []
+  },
+  {
+    "skill_id": "SKL-003",
+    "skill_phrase": "sent job offers via Gmail",
+    "components": {
+      "result": "sent",
+      "action": "send",
+      "object": "job offers",
+      "object_type": "initial job offers, revised job offers",
+      "tool": "Gmail",
+      "tool_category": "Communication"
+    },
+    "department": "Managers (HR)",
+    "professions": ["recruiter", "hr manager"],
+    "difficulty_level": "beginner",
+    "frequency": "weekly",
+    "time_estimate_minutes": 10,
+    "automation_potential": "medium",
+    "related_skills": ["SKL-002", "SKL-005"],
+    "example_tasks": [
+      "Send job offer email to selected candidate with salary details",
+      "Send revised offer after negotiation"
+    ],
+    "training_resources": []
+  },
+  {
+    "skill_id": "SKL-004",
+    "skill_phrase": "updated candidate status in CRM",
+    "components": {
+      "result": "updated",
+      "action": "update",
+      "object": "candidate status",
+      "object_type": "candidates database",
+      "tool": "CRM",
+      "tool_category": "Database"
+    },
+    "department": "Managers (HR)",
+    "professions": ["recruiter", "hr manager"],
+    "difficulty_level": "beginner",
+    "frequency": "daily",
+    "time_estimate_minutes": 5,
+    "automation_potential": "high",
+    "related_skills": ["SKL-001", "SKL-003"],
+    "example_tasks": [
+      "Update candidate status from 'Interview' to 'Offer Extended'",
+      "Mark candidate as 'Hired' after contract signing"
+    ],
+    "training_resources": []
+  },
+  {
+    "skill_id": "SKL-005",
+    "skill_phrase": "analyzed recruitment data in Google Sheets",
+    "components": {
+      "result": "analyzed",
+      "action": "analyze",
+      "object": "recruitment data",
+      "object_type": "daily report, monthly report",
+      "tool": "Google Sheets",
+      "tool_category": "Spreadsheet"
+    },
+    "department": "Managers (HR)",
+    "professions": ["recruiter", "hr manager"],
+    "difficulty_level": "intermediate",
+    "frequency": "weekly",
+    "time_estimate_minutes": 60,
+    "automation_potential": "medium",
+    "related_skills": ["SKL-004", "SKL-006"],
+    "example_tasks": [
+      "Analyze monthly recruitment metrics: time-to-hire, offer acceptance rate",
+      "Create pivot tables for candidate sources analysis"
+    ],
+    "training_resources": []
+  },
+  {
+    "skill_id": "SKL-010",
+    "skill_phrase": "sent cold emails via Gmail",
+    "components": {
+      "result": "sent",
+      "action": "send",
+      "object": "cold emails",
+      "object_type": "first connection",
+      "tool": "Gmail",
+      "tool_category": "Communication"
+    },
+    "department": "Lead Generation",
+    "professions": ["lead generator"],
+    "difficulty_level": "beginner",
+    "frequency": "daily",
+    "time_estimate_minutes": 2,
+    "automation_potential": "high",
+    "related_skills": ["SKL-011", "SKL-012"],
+    "example_tasks": [
+      "Send 50 personalized cold emails to IT companies in Germany",
+      "Send introductory email to CTO with value proposition"
+    ],
+    "training_resources": []
+  },
+  {
+    "skill_id": "SKL-011",
+    "skill_phrase": "automated email campaigns using n8n",
+    "components": {
+      "result": "automated",
+      "action": "automate",
+      "object": "email campaigns",
+      "object_type": "cold email, follow-up",
+      "tool": "n8n",
+      "tool_category": "Automation"
+    },
+    "department": "Lead Generation",
+    "professions": ["lead generator"],
+    "difficulty_level": "advanced",
+    "frequency": "weekly",
+    "time_estimate_minutes": 120,
+    "automation_potential": "very high",
+    "related_skills": ["SKL-010", "SKL-013"],
+    "example_tasks": [
+      "Set up n8n workflow to send 100 emails with 3-day follow-up sequence",
+      "Create automated lead enrichment pipeline in n8n"
+    ],
+    "training_resources": []
+  },
+  {
+    "skill_id": "SKL-012",
+    "skill_phrase": "tracked email responses in CRM",
+    "components": {
+      "result": "tracked",
+      "action": "track",
+      "object": "email responses",
+      "object_type": "email open rate",
+      "tool": "CRM",
+      "tool_category": "Database"
+    },
+    "department": "Lead Generation",
+    "professions": ["lead generator"],
+    "difficulty_level": "beginner",
+    "frequency": "daily",
+    "time_estimate_minutes": 10,
+    "automation_potential": "high",
+    "related_skills": ["SKL-010", "SKL-011"],
+    "example_tasks": [
+      "Log email send date and track opens/clicks in CRM",
+      "Update lead status based on email engagement"
+    ],
+    "training_resources": []
+  },
+  {
+    "skill_id": "SKL-013",
+    "skill_phrase": "searched companies on LinkedIn",
+    "components": {
+      "result": "searched",
+      "action": "search",
+      "object": "companies",
+      "object_type": "company profiles",
+      "tool": "LinkedIn",
+      "tool_category": "Social Network"
+    },
+    "department": "Lead Generation",
+    "professions": ["lead generator"],
+    "difficulty_level": "beginner",
+    "frequency": "daily",
+    "time_estimate_minutes": 30,
+    "automation_potential": "medium",
+    "related_skills": ["SKL-014", "SKL-015"],
+    "example_tasks": [
+      "Search for SaaS companies with 50-200 employees in Germany",
+      "Find decision makers (CTOs) in target companies"
+    ],
+    "training_resources": []
+  },
+  {
+    "skill_id": "SKL-014",
+    "skill_phrase": "scraped contact data using automation tools",
+    "components": {
+      "result": "scraped",
+      "action": "scrape",
+      "object": "contact data",
+      "object_type": "valid contacts",
+      "tool": "Hunter.io",
+      "tool_category": "Automation"
+    },
+    "department": "Lead Generation",
+    "professions": ["lead generator"],
+    "difficulty_level": "intermediate",
+    "frequency": "daily",
+    "time_estimate_minutes": 15,
+    "automation_potential": "high",
+    "related_skills": ["SKL-013", "SKL-015"],
+    "example_tasks": [
+      "Scrape email addresses for 100 companies using Hunter.io",
+      "Extract LinkedIn profile data into Google Sheets"
+    ],
+    "training_resources": []
+  },
+  {
+    "skill_id": "SKL-020",
+    "skill_phrase": "created UI mockups in Figma",
+    "components": {
+      "result": "created",
+      "action": "create",
+      "object": "UI mockups",
+      "object_type": "web mockup, mobile mockup",
+      "tool": "Figma",
+      "tool_category": "Design"
+    },
+    "department": "Design",
+    "professions": ["ui/ux designer", "graphic designer"],
+    "difficulty_level": "intermediate",
+    "frequency": "daily",
+    "time_estimate_minutes": 120,
+    "automation_potential": "medium",
+    "related_skills": ["SKL-021", "SKL-022"],
+    "example_tasks": [
+      "Create 3 mobile app screens: Login, Home, Profile",
+      "Design landing page mockup for Client X"
+    ],
+    "training_resources": []
+  },
+  {
+    "skill_id": "SKL-021",
+    "skill_phrase": "designed social media posts in Canva",
+    "components": {
+      "result": "designed",
+      "action": "design",
+      "object": "social media posts",
+      "object_type": "Instagram post, LinkedIn banner",
+      "tool": "Canva",
+      "tool_category": "Design"
+    },
+    "department": "Design",
+    "professions": ["graphic designer", "smm"],
+    "difficulty_level": "beginner",
+    "frequency": "daily",
+    "time_estimate_minutes": 30,
+    "automation_potential": "medium",
+    "related_skills": ["SKL-020", "SKL-023"],
+    "example_tasks": [
+      "Create 5 Instagram posts for Remote Helpers company page",
+      "Design LinkedIn banner for employee announcement"
+    ],
+    "training_resources": []
+  },
+  {
+    "skill_id": "SKL-022",
+    "skill_phrase": "exported design files from Figma",
+    "components": {
+      "result": "exported",
+      "action": "export",
+      "object": "design files",
+      "object_type": "PNG, SVG, PDF",
+      "tool": "Figma",
+      "tool_category": "Design"
+    },
+    "department": "Design",
+    "professions": ["ui/ux designer", "graphic designer"],
+    "difficulty_level": "beginner",
+    "frequency": "daily",
+    "time_estimate_minutes": 10,
+    "automation_potential": "low",
+    "related_skills": ["SKL-020", "SKL-024"],
+    "example_tasks": [
+      "Export mockups as PNG for client review",
+      "Export design specs as PDF for developer handoff"
+    ],
+    "training_resources": []
+  },
+  {
+    "skill_id": "SKL-023",
+    "skill_phrase": "generated AI images using Midjourney",
+    "components": {
+      "result": "generated",
+      "action": "generate",
+      "object": "AI images",
+      "object_type": "background graphics",
+      "tool": "Midjourney",
+      "tool_category": "AI Tool"
+    },
+    "department": "Design",
+    "professions": ["graphic designer"],
+    "difficulty_level": "intermediate",
+    "frequency": "weekly",
+    "time_estimate_minutes": 20,
+    "automation_potential": "high",
+    "related_skills": ["SKL-021", "SKL-024"],
+    "example_tasks": [
+      "Generate 10 abstract backgrounds for social media posts",
+      "Create AI-generated product mockups for presentation"
+    ],
+    "training_resources": []
+  },
+  {
+    "skill_id": "SKL-024",
+    "skill_phrase": "shared design previews via Discord",
+    "components": {
+      "result": "shared",
+      "action": "share",
+      "object": "design previews",
+      "object_type": "Figma links",
+      "tool": "Discord",
+      "tool_category": "Communication"
+    },
+    "department": "Design",
+    "professions": ["ui/ux designer", "graphic designer"],
+    "difficulty_level": "beginner",
+    "frequency": "daily",
+    "time_estimate_minutes": 5,
+    "automation_potential": "low",
+    "related_skills": ["SKL-020", "SKL-022"],
+    "example_tasks": [
+      "Share Figma link with client for feedback in Discord",
+      "Post design update in team channel"
+    ],
+    "training_resources": []
+  },
+  {
+    "skill_id": "SKL-030",
+    "skill_phrase": "developed features in React",
+    "components": {
+      "result": "developed",
+      "action": "develop",
+      "object": "features",
+      "object_type": "UI components, pages",
+      "tool": "React",
+      "tool_category": "Development Framework"
+    },
+    "department": "Developers",
+    "professions": ["frontend developer", "full stack developer"],
+    "difficulty_level": "intermediate",
+    "frequency": "daily",
+    "time_estimate_minutes": 240,
+    "automation_potential": "low",
+    "related_skills": ["SKL-031", "SKL-032"],
+    "example_tasks": [
+      "Develop user dashboard with data visualization components",
+      "Create responsive navigation menu with React Router"
+    ],
+    "training_resources": []
+  },
+  {
+    "skill_id": "SKL-031",
+    "skill_phrase": "created APIs using Node.js",
+    "components": {
+      "result": "created",
+      "action": "create",
+      "object": "APIs",
+      "object_type": "REST endpoints, GraphQL endpoints",
+      "tool": "Node.js",
+      "tool_category": "Development Framework"
+    },
+    "department": "Developers",
+    "professions": ["backend developer", "full stack developer"],
+    "difficulty_level": "advanced",
+    "frequency": "weekly",
+    "time_estimate_minutes": 180,
+    "automation_potential": "low",
+    "related_skills": ["SKL-030", "SKL-033"],
+    "example_tasks": [
+      "Create RESTful API for user authentication",
+      "Build GraphQL API for data querying"
+    ],
+    "training_resources": []
+  },
+  {
+    "skill_id": "SKL-032",
+    "skill_phrase": "managed code via GitHub",
+    "components": {
+      "result": "managed",
+      "action": "manage",
+      "object": "code",
+      "object_type": "commits, branches, pull requests",
+      "tool": "GitHub",
+      "tool_category": "Version Control"
+    },
+    "department": "Developers",
+    "professions": ["frontend developer", "backend developer", "full stack developer"],
+    "difficulty_level": "beginner",
+    "frequency": "daily",
+    "time_estimate_minutes": 20,
+    "automation_potential": "medium",
+    "related_skills": ["SKL-030", "SKL-031"],
+    "example_tasks": [
+      "Create feature branch and commit code changes",
+      "Open pull request and request code review"
+    ],
+    "training_resources": []
+  },
+  {
+    "skill_id": "SKL-033",
+    "skill_phrase": "debugged applications using DevTools",
+    "components": {
+      "result": "debugged",
+      "action": "debug",
+      "object": "applications",
+      "object_type": "bugs, errors, performance issues",
+      "tool": "Chrome DevTools",
+      "tool_category": "Development Tool"
+    },
+    "department": "Developers",
+    "professions": ["frontend developer", "full stack developer"],
+    "difficulty_level": "intermediate",
+    "frequency": "daily",
+    "time_estimate_minutes": 45,
+    "automation_potential": "low",
+    "related_skills": ["SKL-030", "SKL-034"],
+    "example_tasks": [
+      "Identify and fix memory leak using DevTools profiler",
+      "Debug API response errors in Network tab"
+    ],
+    "training_resources": []
+  },
+  {
+    "skill_id": "SKL-034",
+    "skill_phrase": "deployed applications to production servers",
+    "components": {
+      "result": "deployed",
+      "action": "deploy",
+      "object": "applications",
+      "object_type": "web apps, APIs, microservices",
+      "tool": "Docker",
+      "tool_category": "DevOps"
+    },
+    "department": "Developers",
+    "professions": ["backend developer", "full stack developer"],
+    "difficulty_level": "advanced",
+    "frequency": "weekly",
+    "time_estimate_minutes": 60,
+    "automation_potential": "high",
+    "related_skills": ["SKL-031", "SKL-035"],
+    "example_tasks": [
+      "Deploy new version of API to production using Docker",
+      "Set up CI/CD pipeline for automated deployments"
+    ],
+    "training_resources": []
+  },
+  {
+    "skill_id": "SKL-040",
+    "skill_phrase": "conducted discovery calls via Zoom",
+    "components": {
+      "result": "conducted",
+      "action": "conduct",
+      "object": "discovery calls",
+      "object_type": "first call, introductory call",
+      "tool": "Zoom",
+      "tool_category": "Video Call"
+    },
+    "department": "Sales",
+    "professions": ["sales manager"],
+    "difficulty_level": "intermediate",
+    "frequency": "daily",
+    "time_estimate_minutes": 45,
+    "automation_potential": "low",
+    "related_skills": ["SKL-041", "SKL-042"],
+    "example_tasks": [
+      "Conduct BANT qualification call with prospective client",
+      "Present Remote Helpers services to CTO"
+    ],
+    "training_resources": []
+  },
+  {
+    "skill_id": "SKL-041",
+    "skill_phrase": "created proposals in Google Docs",
+    "components": {
+      "result": "created",
+      "action": "create",
+      "object": "proposals",
+      "object_type": "client proposal, project proposal",
+      "tool": "Google Docs",
+      "tool_category": "Document"
+    },
+    "department": "Sales",
+    "professions": ["sales manager"],
+    "difficulty_level": "intermediate",
+    "frequency": "weekly",
+    "time_estimate_minutes": 90,
+    "automation_potential": "medium",
+    "related_skills": ["SKL-040", "SKL-043"],
+    "example_tasks": [
+      "Create custom proposal for 2 frontend developers outstaff",
+      "Draft project scope and pricing for CRM development"
+    ],
+    "training_resources": []
+  },
+  {
+    "skill_id": "SKL-042",
+    "skill_phrase": "tracked deals in CRM",
+    "components": {
+      "result": "tracked",
+      "action": "track",
+      "object": "deals",
+      "object_type": "hot leads, interested leads, clients",
+      "tool": "CRM",
+      "tool_category": "Database"
+    },
+    "department": "Sales",
+    "professions": ["sales manager"],
+    "difficulty_level": "beginner",
+    "frequency": "daily",
+    "time_estimate_minutes": 15,
+    "automation_potential": "high",
+    "related_skills": ["SKL-040", "SKL-041"],
+    "example_tasks": [
+      "Update deal stage from 'Proposal Sent' to 'Negotiation'",
+      "Log client communication and next steps in CRM"
+    ],
+    "training_resources": []
+  },
+  {
+    "skill_id": "SKL-043",
+    "skill_phrase": "sent contracts via DocuSign",
+    "components": {
+      "result": "sent",
+      "action": "send",
+      "object": "contracts",
+      "object_type": "clients agreements, full-time agreement",
+      "tool": "DocuSign",
+      "tool_category": "Document"
+    },
+    "department": "Sales",
+    "professions": ["sales manager"],
+    "difficulty_level": "beginner",
+    "frequency": "weekly",
+    "time_estimate_minutes": 20,
+    "automation_potential": "medium",
+    "related_skills": ["SKL-041", "SKL-044"],
+    "example_tasks": [
+      "Send service agreement to client for e-signature",
+      "Follow up on pending contract signature"
+    ],
+    "training_resources": []
+  },
+  {
+    "skill_id": "SKL-044",
+    "skill_phrase": "analyzed sales data in Google Sheets",
+    "components": {
+      "result": "analyzed",
+      "action": "analyze",
+      "object": "sales data",
+      "object_type": "daily report, monthly report",
+      "tool": "Google Sheets",
+      "tool_category": "Spreadsheet"
+    },
+    "department": "Sales",
+    "professions": ["sales manager"],
+    "difficulty_level": "intermediate",
+    "frequency": "weekly",
+    "time_estimate_minutes": 60,
+    "automation_potential": "medium",
+    "related_skills": ["SKL-042", "SKL-045"],
+    "example_tasks": [
+      "Analyze monthly pipeline: conversion rates, average deal size",
+      "Create sales forecast for next quarter"
+    ],
+    "training_resources": []
+  },
+  {
+    "skill_id": "SKL-050",
+    "skill_phrase": "edited videos in Adobe Premiere",
+    "components": {
+      "result": "edited",
+      "action": "edit",
+      "object": "videos",
+      "object_type": "promotional videos, tutorial videos",
+      "tool": "Adobe Premiere",
+      "tool_category": "Video Editing"
+    },
+    "department": "Video",
+    "professions": ["video editor"],
+    "difficulty_level": "advanced",
+    "frequency": "daily",
+    "time_estimate_minutes": 180,
+    "automation_potential": "low",
+    "related_skills": ["SKL-051", "SKL-052"],
+    "example_tasks": [
+      "Edit 5-minute promotional video for Remote Helpers services",
+      "Cut and splice tutorial video with transitions and effects"
+    ],
+    "training_resources": []
+  },
+  {
+    "skill_id": "SKL-051",
+    "skill_phrase": "added subtitles in Adobe Premiere",
+    "components": {
+      "result": "added",
+      "action": "add",
+      "object": "subtitles",
+      "object_type": "translated subtitles, closed caption",
+      "tool": "Adobe Premiere",
+      "tool_category": "Video Editing"
+    },
+    "department": "Video",
+    "professions": ["video editor"],
+    "difficulty_level": "intermediate",
+    "frequency": "daily",
+    "time_estimate_minutes": 45,
+    "automation_potential": "high",
+    "related_skills": ["SKL-050", "SKL-053"],
+    "example_tasks": [
+      "Add English subtitles to video CV",
+      "Create bilingual subtitles for client presentation video"
+    ],
+    "training_resources": []
+  },
+  {
+    "skill_id": "SKL-052",
+    "skill_phrase": "created animations in After Effects",
+    "components": {
+      "result": "created",
+      "action": "create",
+      "object": "animations",
+      "object_type": "2d animations, 3d animations, motion graphics",
+      "tool": "After Effects",
+      "tool_category": "Animation"
+    },
+    "department": "Video",
+    "professions": ["motion designer", "animator"],
+    "difficulty_level": "advanced",
+    "frequency": "weekly",
+    "time_estimate_minutes": 240,
+    "automation_potential": "low",
+    "related_skills": ["SKL-050", "SKL-054"],
+    "example_tasks": [
+      "Create animated logo intro for company videos",
+      "Design motion graphics for explainer video"
+    ],
+    "training_resources": []
+  },
+  {
+    "skill_id": "SKL-053",
+    "skill_phrase": "created style-consistent image series using Midjourney seeds",
+    "components": {
+      "result": "created",
+      "action": "create",
+      "object": "image series",
+      "object_type": "style-consistent images, brand visuals",
+      "tool": "Midjourney",
+      "tool_category": "AI Tool"
+    },
+    "department": "Design",
+    "professions": ["graphic designer", "ai artist"],
+    "difficulty_level": "advanced",
+    "frequency": "weekly",
+    "time_estimate_minutes": 15,
+    "automation_potential": "medium",
+    "related_skills": ["SKL-023", "SKL-054", "SKL-055"],
+    "example_tasks": [
+      "Create 5-image series for social media campaign using same style seed",
+      "Generate consistent product mockup backgrounds with seed references"
+    ],
+    "training_resources": ["Video_017"],
+    "features_used": ["--sref (seed references)", "--sw (style weights)", "style consistency"],
+    "source_video": "Video_017"
+  },
+  {
+    "skill_id": "SKL-054",
+    "skill_phrase": "optimized prompts for AI image generation with advanced parameters",
+    "components": {
+      "result": "optimized",
+      "action": "optimize",
+      "object": "prompts",
+      "object_type": "image generation prompts, parameter sets",
+      "tool": "Midjourney",
+      "tool_category": "AI Tool"
+    },
+    "department": "Design",
+    "professions": ["graphic designer", "ai artist", "content creator"],
+    "difficulty_level": "advanced",
+    "frequency": "daily",
+    "time_estimate_minutes": 10,
+    "automation_potential": "low",
+    "related_skills": ["SKL-023", "SKL-053", "SKL-056"],
+    "example_tasks": [
+      "Test multiple parameter combinations using curly brackets {0.2, 0.5, 0.8}",
+      "Optimize chaos, weird, and stylize parameters for specific visual style"
+    ],
+    "training_resources": ["Video_017"],
+    "features_used": ["--chaos", "--weird", "--stylize", "--ar", "curly brackets for permutations", "concept separation ::"],
+    "source_video": "Video_017"
+  },
+  {
+    "skill_id": "SKL-055",
+    "skill_phrase": "edited generated images using Midjourney inpainting",
+    "components": {
+      "result": "edited",
+      "action": "edit",
+      "object": "AI-generated images",
+      "object_type": "refined images, corrected images",
+      "tool": "Midjourney",
+      "tool_category": "AI Tool"
+    },
+    "department": "Design",
+    "professions": ["graphic designer", "ai artist"],
+    "difficulty_level": "intermediate",
+    "frequency": "weekly",
+    "time_estimate_minutes": 5,
+    "automation_potential": "low",
+    "related_skills": ["SKL-023", "SKL-053", "SKL-056"],
+    "example_tasks": [
+      "Fix facial features using editor inpainting tool",
+      "Remove unwanted elements by masking and regenerating"
+    ],
+    "training_resources": ["Video_017"],
+    "features_used": ["Editor tool", "Inpainting", "Erase/Restore", "Brush size adjustment"],
+    "source_video": "Video_017"
+  },
+  {
+    "skill_id": "SKL-056",
+    "skill_phrase": "organized AI-generated assets using smart folders",
+    "components": {
+      "result": "organized",
+      "action": "organize",
+      "object": "AI-generated assets",
+      "object_type": "image collections, project assets",
+      "tool": "Midjourney",
+      "tool_category": "AI Tool"
+    },
+    "department": "Design",
+    "professions": ["graphic designer", "ai artist", "content creator"],
+    "difficulty_level": "beginner",
+    "frequency": "daily",
+    "time_estimate_minutes": 5,
+    "automation_potential": "high",
+    "related_skills": ["SKL-023", "SKL-053", "SKL-055"],
+    "example_tasks": [
+      "Create smart folders with automatic detection for client projects",
+      "Filter and organize liked images by aspect ratio and style"
+    ],
+    "training_resources": ["Video_017"],
+    "features_used": ["Smart folders", "Filters", "Auto-detection", "Search terms", "Like/Hide features"],
+    "source_video": "Video_017"
+  },
+  {
+    "skill_id": "SKL-057",
+    "skill_phrase": "created moodboards for consistent visual style",
+    "components": {
+      "result": "created",
+      "action": "create",
+      "object": "moodboards",
+      "object_type": "style collections, visual references",
+      "tool": "Midjourney",
+      "tool_category": "AI Tool"
+    },
+    "department": "Design",
+    "professions": ["graphic designer", "ai artist", "art director"],
+    "difficulty_level": "intermediate",
+    "frequency": "weekly",
+    "time_estimate_minutes": 20,
+    "automation_potential": "low",
+    "related_skills": ["SKL-023", "SKL-053", "SKL-058"],
+    "example_tasks": [
+      "Create 7-20 image moodboard for brand campaign style",
+      "Build visual reference collection for consistent social media aesthetic"
+    ],
+    "training_resources": ["Video_018"],
+    "features_used": ["Moodboard Creator", "Profile Codes", "Copy Code", "Gallery selection"],
+    "source_video": "Video_018"
+  },
+  {
+    "skill_id": "SKL-058",
+    "skill_phrase": "personalized AI output using ranked image preferences",
+    "components": {
+      "result": "personalized",
+      "action": "personalize",
+      "object": "AI output",
+      "object_type": "standard profiles, preference models",
+      "tool": "Midjourney",
+      "tool_category": "AI Tool"
+    },
+    "department": "Design",
+    "professions": ["graphic designer", "ai artist", "content creator"],
+    "difficulty_level": "intermediate",
+    "frequency": "monthly",
+    "time_estimate_minutes": 45,
+    "automation_potential": "low",
+    "related_skills": ["SKL-023", "SKL-057", "SKL-054"],
+    "example_tasks": [
+      "Rank 40+ image pairs to unlock Standard Profile",
+      "Create Global Profile by ranking 100+ image pairs for personalized style"
+    ],
+    "training_resources": ["Video_018"],
+    "features_used": ["Standard Profile", "Image ranking", "Profile codes", "--p parameter"],
+    "source_video": "Video_018"
+  },
+  {
+    "skill_id": "SKL-059",
+    "skill_phrase": "maintained character consistency using character references",
+    "components": {
+      "result": "maintained",
+      "action": "maintain",
+      "object": "character consistency",
+      "object_type": "consistent characters, character series",
+      "tool": "Midjourney",
+      "tool_category": "AI Tool"
+    },
+    "department": "Design",
+    "professions": ["graphic designer", "ai artist", "illustrator"],
+    "difficulty_level": "advanced",
+    "frequency": "weekly",
+    "time_estimate_minutes": 15,
+    "automation_potential": "medium",
+    "related_skills": ["SKL-023", "SKL-053", "SKL-057"],
+    "example_tasks": [
+      "Generate 10 scenes with same character using --cref parameter",
+      "Create character series with varying outfits using --cw 0 for face-only consistency"
+    ],
+    "training_resources": ["Video_018"],
+    "features_used": ["--cref (character reference)", "--cw (character weight)", "Character consistency"],
+    "source_video": "Video_018"
+  },
+  {
+    "skill_id": "SKL-060",
+    "skill_phrase": "retextured images while preserving structure",
+    "components": {
+      "result": "retextured",
+      "action": "retexture",
+      "object": "images",
+      "object_type": "retextured images, style variations",
+      "tool": "Midjourney",
+      "tool_category": "AI Tool"
+    },
+    "department": "Design",
+    "professions": ["graphic designer", "ai artist"],
+    "difficulty_level": "intermediate",
+    "frequency": "monthly",
+    "time_estimate_minutes": 10,
+    "automation_potential": "medium",
+    "related_skills": ["SKL-023", "SKL-055", "SKL-057"],
+    "example_tasks": [
+      "Convert photorealistic image to 1990s anime style using Retexture",
+      "Transform image to watercolor style while keeping composition"
+    ],
+    "training_resources": ["Video_018"],
+    "features_used": ["Retexture feature", "Advanced Editor", "Full Editor access"],
+    "source_video": "Video_018"
+  },
+  {
+    "skill_id": "SKL-061",
+    "skill_phrase": "combined multiple references for unique visual results",
+    "components": {
+      "result": "combined",
+      "action": "combine",
+      "object": "multiple references",
+      "object_type": "triple triple combinations, multi-reference images",
+      "tool": "Midjourney",
+      "tool_category": "AI Tool"
+    },
+    "department": "Design",
+    "professions": ["graphic designer", "ai artist", "content creator"],
+    "difficulty_level": "advanced",
+    "frequency": "weekly",
+    "time_estimate_minutes": 10,
+    "automation_potential": "low",
+    "related_skills": ["SKL-023", "SKL-057", "SKL-059"],
+    "example_tasks": [
+      "Apply 3 images as image prompt + style reference + character reference simultaneously",
+      "Create unique mashup using triple triple technique with diverse source images"
+    ],
+    "training_resources": ["Video_018"],
+    "features_used": ["Image prompting", "Style reference", "Character reference", "Shift+select", "Triple triple technique"],
+    "source_video": "Video_018"
+  },
+  {
+    "skill_id": "SKL-062",
+    "skill_phrase": "engineered prompts for AI content generation via Google AI Studio",
+    "components": {
+      "result": "engineered",
+      "action": "engineer",
+      "object": "prompts",
+      "object_type": "AI prompts, content generation prompts, system instructions",
+      "tool": "Google AI Studio",
+      "tool_category": "AI Tool"
+    },
+    "department": "AI & Automations",
+    "professions": ["ai engineer", "content creator", "smm specialist", "marketer"],
+    "difficulty_level": "beginner",
+    "frequency": "daily",
+    "time_estimate_minutes": 5,
+    "automation_potential": "low",
+    "related_skills": ["SKL-063", "SKL-064"],
+    "example_tasks": [
+      "Write prompt to generate social media caption with event details",
+      "Create prompt to summarize YouTube video in 5 bullet points",
+      "Define system instructions for consistent AI responses"
+    ],
+    "training_resources": ["Video_023"],
+    "features_used": ["Prompt engineering", "System instructions", "Temperature control"],
+    "source_video": "Video_023"
+  },
+  {
+    "skill_id": "SKL-063",
+    "skill_phrase": "synthesized information from AI-generated content via Google AI Studio",
+    "components": {
+      "result": "synthesized",
+      "action": "synthesize",
+      "object": "information",
+      "object_type": "video summaries, key insights, extracted data",
+      "tool": "Google AI Studio",
+      "tool_category": "AI Tool"
+    },
+    "department": "AI & Automations",
+    "professions": ["content curator", "researcher", "marketer", "developer"],
+    "difficulty_level": "intermediate",
+    "frequency": "daily",
+    "time_estimate_minutes": 10,
+    "automation_potential": "medium",
+    "related_skills": ["SKL-062", "SKL-064"],
+    "example_tasks": [
+      "Review AI-generated YouTube video summary for accuracy",
+      "Extract key insights from AI-processed content",
+      "Synthesize information from multiple AI summaries"
+    ],
+    "training_resources": ["Video_023"],
+    "features_used": ["Content analysis", "YouTube video summarization", "Information extraction"],
+    "source_video": "Video_023"
+  },
+  {
+    "skill_id": "SKL-064",
+    "skill_phrase": "crafted visual storytelling through AI-animated videos via Google AI Studio",
+    "components": {
+      "result": "crafted",
+      "action": "craft",
+      "object": "visual storytelling",
+      "object_type": "animated video clips, motion graphics, video content",
+      "tool": "Google AI Studio",
+      "tool_category": "AI Tool"
+    },
+    "department": "Video",
+    "professions": ["videographer", "motion designer", "content creator", "smm specialist"],
+    "difficulty_level": "intermediate",
+    "frequency": "weekly",
+    "time_estimate_minutes": 15,
+    "automation_potential": "medium",
+    "related_skills": ["SKL-062", "SKL-055", "SKL-056"],
+    "example_tasks": [
+      "Describe desired motion for image-to-video animation",
+      "Customize video settings (aspect ratio, duration, frame rate)",
+      "Generate multiple animation variants for best result"
+    ],
+    "training_resources": ["Video_023"],
+    "features_used": ["Veo video generation", "Image-to-video", "Motion description", "Negative prompts"],
+    "source_video": "Video_023"
+  }
+]

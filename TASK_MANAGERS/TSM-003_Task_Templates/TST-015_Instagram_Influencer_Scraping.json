@@ -1,0 +1,306 @@
+{
+  "entity_type": "TASK_MANAGERS",
+  "sub_entity": "Task_Template",
+  "template_id": "Task-Template-015",
+  "task_name": "Scrape Instagram Influencer Profiles",
+  "action": "Scrape",
+  "object": "Influencer Profiles",
+  "context": "via Apify Instagram Scraper",
+  "description": "Extract Instagram influencer profiles and contact information (40-60% email enrichment, 30 minutes, niche use case for influencer marketing)",
+  "department": "AI",
+  "profession": "Marketing Manager",
+  "priority": "Low",
+  "estimated_duration": "30 minutes",
+  "status": "Active",
+  "complexity": "Medium",
+  "automation_potential": "High (60-80%)",
+  "success_rate": "40-60% enrichment",
+  "best_for": "Influencer marketing campaigns, partnership outreach",
+  "dependencies": [
+    "Apify account with credits",
+    "Instagram search criteria defined",
+    "Anymailfinder for email enrichment (optional)"
+  ],
+  "tools_required": [
+    "TOOL-020 (Apify Platform)",
+    "TOOL-024 (Apify Instagram Scraper)",
+    "TOOL-DATA-007 (Anymailfinder - optional)"
+  ],
+  "skills_required": [
+    "SKL-060 (scraped lead lists via Apify)"
+  ],
+  "objects_used": [
+    "OBJ-LG-001 (Lead List)",
+    "OBJ-LG-010 (Influencer Profile)"
+  ],
+  "workflow_reference": "WF-LG-009",
+  "success_criteria": [
+    "100-500 influencer profiles scraped",
+    "Profiles include: username, followers, engagement rate, bio",
+    "Contact information extracted (email in bio or enriched)",
+    "Final influencer list exported with metrics"
+  ],
+  "responsibilities": {
+    "responsible": "Marketing Manager",
+    "accountable": "Head of Marketing",
+    "consulted": [
+      "Social Media Manager"
+    ],
+    "informed": [
+      "Partnerships Team"
+    ]
+  },
+  "steps": [
+    {
+      "step_number": 1,
+      "name": "Define influencer search criteria",
+      "action": "define",
+      "tool": "Instagram (manual research)",
+      "responsibility": "Marketing Manager",
+      "placement": "Instagram search and hashtags",
+      "duration": "5 minutes",
+      "dependencies": [],
+      "inputs": [
+        "Niche/industry",
+        "Follower range",
+        "Relevant hashtags"
+      ],
+      "outputs": [
+        "Search criteria: hashtags, locations, keywords"
+      ],
+      "success_criteria": "Criteria defined that returns 100+ relevant influencers",
+      "responsibility_id": "RESP-MKT-002",
+      "responsibility_name": "define creators",
+      "_original_action": "define"
+    },
+    {
+      "step_number": 2,
+      "name": "Configure Apify Instagram Scraper",
+      "action": "configure",
+      "tool": "TOOL-024 (Apify Instagram Scraper)",
+      "responsibility": "Marketing Manager",
+      "placement": "Apify platform - Instagram scraper",
+      "duration": "3 minutes",
+      "dependencies": [
+        "Step 1"
+      ],
+      "inputs": [
+        "Hashtags, usernames to scrape, max results"
+      ],
+      "outputs": [
+        "Scraper configured"
+      ],
+      "success_criteria": "Search parameters entered, ready to scrape",
+      "responsibility_id": "RESP-MKT-003",
+      "responsibility_name": "configure apify instagram scraper",
+      "_original_action": "configure"
+    },
+    {
+      "step_number": 3,
+      "name": "Run Instagram scraper",
+      "action": "scrape",
+      "tool": "TOOL-024 (Apify Instagram Scraper)",
+      "responsibility": "Marketing Manager",
+      "placement": "Apify - Execution",
+      "duration": "15-20 minutes (automated)",
+      "dependencies": [
+        "Step 2"
+      ],
+      "inputs": [
+        "Configured scraper"
+      ],
+      "outputs": [
+        "100-500 profiles: username, followers, following, bio, posts, engagement"
+      ],
+      "success_criteria": "Scraper completes, target volume achieved",
+      "responsibility_id": "RESP-MKT-004",
+      "responsibility_name": "scrape run instagram scraper",
+      "_original_action": "scrape"
+    },
+    {
+      "step_number": 4,
+      "name": "Extract contact information from bios",
+      "action": "extract",
+      "tool": "Excel/Google Sheets or regex",
+      "responsibility": "Marketing Manager",
+      "placement": "Spreadsheet processing",
+      "duration": "5 minutes",
+      "dependencies": [
+        "Step 3"
+      ],
+      "inputs": [
+        "Profile bios"
+      ],
+      "outputs": [
+        "Emails found in bios extracted"
+      ],
+      "success_criteria": "20-40% of profiles have emails in bio",
+      "responsibility_id": "RESP-MKT-005",
+      "responsibility_name": "extract contacts",
+      "_original_action": "extract"
+    },
+    {
+      "step_number": 5,
+      "name": "Enrich remaining profiles via Anymailfinder (optional)",
+      "action": "enrich",
+      "tool": "TOOL-DATA-007 (Anymailfinder)",
+      "responsibility": "Marketing Manager",
+      "placement": "Anymailfinder platform",
+      "duration": "5-8 minutes",
+      "dependencies": [
+        "Step 4"
+      ],
+      "inputs": [
+        "Influencer names, associated websites/brands"
+      ],
+      "outputs": [
+        "Additional 20-30% emails found"
+      ],
+      "success_criteria": "Total 40-60% of influencers have contact emails",
+      "responsibility_id": "RESP-MKT-006",
+      "responsibility_name": "enrich profiles",
+      "_original_action": "enrich"
+    },
+    {
+      "step_number": 6,
+      "name": "Export influencer list with metrics",
+      "action": "export",
+      "tool": "Excel/Google Sheets",
+      "responsibility": "Marketing Manager",
+      "placement": "Final influencer database",
+      "duration": "3 minutes",
+      "dependencies": [
+        "Step 5"
+      ],
+      "inputs": [
+        "Scraped data + enriched emails"
+      ],
+      "outputs": [
+        "CSV: username, followers, engagement_rate, email, niche"
+      ],
+      "success_criteria": "All data consolidated and ready for outreach",
+      "responsibility_id": "RESP-MKT-007",
+      "responsibility_name": "export creators",
+      "_original_action": "export"
+    }
+  ],
+  "checklist": [
+    {
+      "item": "Search criteria targets relevant niche",
+      "guide": "Use hashtags and keywords specific to your industry",
+      "required": true
+    },
+    {
+      "item": "Follower range matches campaign goals",
+      "guide": "Micro (10K-100K), Mid (100K-500K), Macro (500K+)",
+      "required": true
+    },
+    {
+      "item": "Engagement rate calculated",
+      "guide": "Important metric: (likes + comments) / followers",
+      "required": true
+    },
+    {
+      "item": "Contact info extracted or enriched",
+      "guide": "Email in bio or enriched via external tools",
+      "required": true
+    },
+    {
+      "item": "Influencer list segmented by tier",
+      "guide": "Group by follower count and engagement for targeting",
+      "required": true
+    }
+  ],
+  "performance_metrics": {
+    "typical_volume": "100-500 influencers per scrape",
+    "success_rate": "40-60% contact information found",
+    "time_per_campaign": "30 minutes",
+    "cost": "Apify credits + optional enrichment costs",
+    "use_case_specificity": "Niche - influencer marketing only"
+  },
+  "influencer_tiers": {
+    "nano": "1K-10K followers (highest engagement, personal touch)",
+    "micro": "10K-100K followers (good engagement, affordable)",
+    "mid": "100K-500K followers (balanced reach and cost)",
+    "macro": "500K-1M followers (high reach, expensive)",
+    "mega": "1M+ followers (celebrity tier, very expensive)"
+  },
+  "best_practices": [
+    "Niche use case for influencer marketing campaigns",
+    "Search by relevant hashtags and keywords for your niche",
+    "Prioritize engagement rate over follower count",
+    "40-60% will have public contact information",
+    "Micro-influencers (10K-100K) often better ROI than macro",
+    "Check for fake followers before outreach"
+  ],
+  "when_to_use": [
+    "Running influencer marketing campaigns",
+    "Building brand partnership programs",
+    "Seeking UGC (user-generated content) creators",
+    "Launching product collaborations",
+    "Targeting specific niche communities"
+  ],
+  "when_not_to_use": [
+    "Not doing influencer marketing (B2B lead gen instead)",
+    "Budget very limited (influencers can be expensive)",
+    "Product doesn't fit social media marketing",
+    "Targeting corporate decision-makers instead"
+  ],
+  "engagement_rate_benchmarks": {
+    "excellent": ">6% engagement rate",
+    "good": "3-6% engagement rate",
+    "average": "1-3% engagement rate",
+    "poor": "<1% engagement rate (possible fake followers)"
+  },
+  "common_issues": [
+    {
+      "issue": "Low email extraction (<20%)",
+      "solution": "Many influencers don't list emails publicly, use Instagram DMs as backup"
+    },
+    {
+      "issue": "Fake followers detected",
+      "solution": "Check engagement rate, look for sudden follower spikes, use authenticity tools"
+    },
+    {
+      "issue": "Scraper rate-limited by Instagram",
+      "solution": "Reduce scrape frequency, use delays, scrape in smaller batches"
+    },
+    {
+      "issue": "Influencer profiles private",
+      "solution": "Focus on public profiles, private profiles can't be scraped"
+    }
+  ],
+  "outreach_best_practices": [
+    "Personalize message with specific content reference",
+    "Lead with value proposition for the influencer",
+    "Be transparent about partnership terms",
+    "Offer appropriate compensation (product, cash, commission)",
+    "Build relationship before asking for promotion"
+  ],
+  "tags": [
+    "influencer_marketing",
+    "instagram",
+    "social_media",
+    "partnerships",
+    "niche_use_case"
+  ],
+  "related_workflows": [
+    "WF-LG-009"
+  ],
+  "related_skills": [
+    "SKL-060"
+  ],
+  "related_professions": [
+    "Marketing Manager",
+    "Social Media Manager",
+    "Partnerships Manager"
+  ],
+  "version": "1.0",
+  "created": "2025-11-12",
+  "last_updated": "2025-11-12",
+  "source": "Video_006_Lead_Generation_Analysis",
+  "responsibility_id": "RESP-MKT-001",
+  "responsibility_name": "scrape creators",
+  "_original_action": "Scrape",
+  "_original_object": "Influencer Profiles"
+}

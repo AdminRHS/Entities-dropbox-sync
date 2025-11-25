@@ -1,0 +1,123 @@
+{
+  "entity_type": "LIBRARIES",
+  "sub_entity": "Tool",
+  "tool_id": "TOOL-DEV-100",
+  "name": "Vite",
+  "vendor": "ViteJS (Evan You)",
+  "category": "Development Tools / Build Tools / Frontend",
+  "purpose": "Modern frontend build tool and dev server with fast ES module-based hot module replacement",
+  "description": "Vite is a next-generation frontend build tool that provides extremely fast development server startup and hot module replacement (HMR). Built on native ES modules, Vite offers instant server start regardless of app size and lightning-fast HMR that stays fast as the app grows. Used in AI-assisted design system workflows as the foundation for React component showcase applications, providing the local development server for previewing generated UI components.",
+  "skill_level_required": "Beginner to Intermediate",
+  "cost_structure": "Free and open-source",
+  "platform_compatibility": [
+    "Windows",
+    "macOS",
+    "Linux",
+    "Web-based deployment"
+  ],
+  "integration_capabilities": [
+    "React support (official plugin)",
+    "Vue support",
+    "Svelte support",
+    "Vanilla JavaScript",
+    "TypeScript support",
+    "Tailwind CSS integration",
+    "Hot Module Replacement (HMR)",
+    "Production build optimization",
+    "Development server with instant startup",
+    "Plugin ecosystem"
+  ],
+  "documentation_url": "https://vitejs.dev",
+  "actual_remote_helpers_usage": {
+    "primary_use": "Development Server for AI-Generated Design Showcase Apps",
+    "users": [
+      "Frontend Developer",
+      "Full-Stack Developer",
+      "UI/UX Designer",
+      "Design Systems Engineer"
+    ],
+    "use_cases": [
+      "run local development server for showcase apps",
+      "build React component libraries",
+      "develop design system prototypes",
+      "fast HMR during AI-assisted design iteration",
+      "production builds for design systems"
+    ],
+    "workflows": [
+      "AI-Assisted Design System Generation (provides showcase app foundation)",
+      "Component development and testing",
+      "Design system prototype deployment"
+    ],
+    "typical_workflow_pattern": [
+      {
+        "task": "Showcase App Generation (Prompt 2 of Design System Workflow)",
+        "steps": [
+          "AI (Claude/Sonnet in Cursor) creates Vite project",
+          "Generates React components with Tailwind styling",
+          "Runs localhost:5173 development server",
+          "Preview all UI components in browser"
+        ],
+        "complexity": "Low to Medium",
+        "duration": "5-10 minutes (AI-generated)",
+        "tech_stack": [
+          "Vite",
+          "React",
+          "Tailwind CSS"
+        ]
+      }
+    ]
+  },
+  "strengths": [
+    "Extremely fast server startup (instant)",
+    "Lightning-fast HMR",
+    "Native ES modules support",
+    "Optimized production builds",
+    "Simple configuration",
+    "AI-friendly (easy for AI to set up)",
+    "Compatible with all major frameworks"
+  ],
+  "limitations": [
+    "Relatively new (less mature than Webpack)",
+    "Some legacy plugins may not be compatible",
+    "Learning curve for advanced optimization"
+  ],
+  "typical_commands": [
+    "npm create vite@latest (project setup)",
+    "npm run dev (start dev server)",
+    "npm run build (production build)"
+  ],
+  "departments_using": [
+    "Dev",
+    "Design"
+  ],
+  "tags": [
+    "vite",
+    "build-tool",
+    "dev-server",
+    "react",
+    "hmr",
+    "hot-reload",
+    "frontend",
+    "development",
+    "es-modules",
+    "design-systems"
+  ],
+  "discovery_date": "2025-11-13",
+  "discovery_source": "Video_009_Design_System_Analysis",
+  "related_tools": [
+    "React",
+    "Tailwind CSS",
+    "Cursor",
+    "Claude/Sonnet 4.5"
+  ],
+  "related_objects": [
+    "UI Component Showcase App"
+  ],
+  "related_skills": [
+    "generate UI components via Cursor"
+  ],
+  "related_workflows": [
+    "AI-Assisted Design System Generation"
+  ],
+  "status": "active"
+}

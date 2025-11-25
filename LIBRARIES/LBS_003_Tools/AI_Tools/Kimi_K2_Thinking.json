@@ -1,0 +1,263 @@
+{
+  "entity_type": "LIBRARIES",
+  "sub_entity": "Tools",
+  "tool_id": "TOOL-AI-098",
+  "name": "Kimi K2 Thinking",
+  "category": "AI/Frontier LLM / Agentic AI",
+  "vendor": "Moonshot Labs",
+  "purpose": "Open-source frontier AI model with long-chain reasoning and agentic tool-use capabilities",
+  "description": "Kimi K2 Thinking is a frontier-level, open-source, open-weights AI model from Chinese AI company Moonshot Labs. It is a thinking model capable of long-chain reasoning (200-300 sequential tool calls) and autonomous tool use including web search, code execution, and web browsing. Outperforms GPT-5 and Claude 4.5 on several difficult benchmarks including Humanity's Last Exam and BrowseComp.",
+  "key_features": [
+    "Open-source, open-weights frontier model",
+    "Long-chain reasoning with 200-300 sequential tool calls",
+    "Autonomous tool use (web search, browsing, code execution)",
+    "Mixture-of-Experts (MoE) architecture with 1 trillion total parameters",
+    "32 billion active parameters during inference (highly efficient)",
+    "128-256K context length",
+    "Built-in agentic mode (OK Computer environment)",
+    "State-of-the-art performance on Humanity's Last Exam, BrowseComp",
+    "Superior to GPT-5 on hard reasoning benchmarks",
+    "Creates interactive web applications from single prompts",
+    "Generates data visualizations and interactive dashboards",
+    "Adaptive reasoning across hundreds of steps"
+  ],
+  "strengths": [
+    "Beats GPT-5 on Humanity's Last Exam (44.9 vs 41.7)",
+    "Beats GPT-5 on BrowseComp (60.2 vs 54.9)",
+    "Far superior to Claude 4.5 on agentic browsing tasks",
+    "Fully open-source and open-weights",
+    "More efficient than DeepSeek R1 (32B vs 37B active parameters)",
+    "Low training cost (~$5.6M for base model)",
+    "Creates complex applications from natural language prompts",
+    "Autonomous debugging and self-correction",
+    "Excellent at data analysis and visualization",
+    "Strong coding capabilities across web development",
+    "Unique reasoning style and 'vibe'"
+  ],
+  "weaknesses": [
+    "3rd place on SWE-bench Verified (71 vs 77 for Claude, 74 for GPT-5)",
+    "Lower on LiveCodeBench V6 (83.1 vs 87 for GPT-5)",
+    "Creative writing capabilities questioned",
+    "Newer model with less ecosystem support than GPT/Claude",
+    "Requires understanding of MoE architecture for optimal use"
+  ],
+  "pricing": {
+    "access": "Free via kimi.com chat interface",
+    "training_cost": "$5.6 million (base model)",
+    "training_cost_with_reasoning": "Estimated <$3M with Blackwell chips",
+    "inference_cost": "Not specified (likely competitive due to MoE efficiency)"
+  },
+  "technical_specs": {
+    "architecture": "Mixture-of-Experts (MoE)",
+    "total_parameters": "1 trillion",
+    "active_parameters": "32 billion during inference",
+    "experts": "384 experts",
+    "vocabulary_size": "160,000",
+    "context_length": "128K-256K tokens",
+    "training_data": "14.8 trillion tokens",
+    "training_compute": "2.8 million H800 GPU hours",
+    "tool_call_capacity": "200-300 sequential tool calls",
+    "open_source": true,
+    "open_weights": true
+  },
+  "benchmarks": {
+    "humanitys_last_exam": {
+      "score": 44.9,
+      "rank": "1st (beats GPT-5 41.7, Claude 4.5 32)"
+    },
+    "browse_comp": {
+      "score": 60.2,
+      "description": "Agentic browsing and search",
+      "rank": "1st (beats GPT-5 54.9, Claude 4.5 24.1)",
+      "human_baseline": 29.2
+    },
+    "swe_bench_verified": {
+      "score": 71,
+      "rank": "3rd (GPT-5 74, Claude 4.5 77)"
+    },
+    "live_code_bench_v6": {
+      "score": 83.1,
+      "description": "Competitive programming",
+      "rank": "2nd (GPT-5 87, Claude 4.5 64)"
+    }
+  },
+  "use_cases": [
+    "Complex data analysis with automatic visualization",
+    "Interactive web dashboard creation",
+    "Web application development (Word clone, simulations)",
+    "Math visualization and educational content",
+    "Multi-step research with web browsing",
+    "Logical puzzle solving",
+    "Code generation for live music (Strudel)",
+    "Healthcare data analysis and mapping",
+    "PhD-level mathematics problem solving",
+    "Autonomous debugging and code improvement"
+  ],
+  "workflows": [
+    {
+      "workflow_id": "WF-AI-002",
+      "name": "Complex Data Analysis Dashboard Creation",
+      "description": "From natural language prompt to fully interactive HTML dashboard with maps, charts, and downloadable data",
+      "steps": [
+        "Define objectives from natural language prompt",
+        "Generate to-do list (plan of action)",
+        "Search for and download required datasets (WorldPop, facility data)",
+        "Explore and clean data using code interpreter",
+        "Compute metrics (population density, facility coverage)",
+        "Rank districts by per-capita facility coverage",
+        "Generate choropleth map visualization",
+        "Generate bar charts and interactive elements",
+        "Assemble comprehensive HTML dashboard",
+        "Receive user feedback on issues",
+        "Debug and fix problems autonomously",
+        "Deploy final interactive dashboard"
+      ],
+      "duration": "Few minutes",
+      "complexity": "High",
+      "tools_used": [
+        "Kimi K2 Thinking",
+        "OK Computer (internal environment)",
+        "Web Search",
+        "Code Interpreter"
+      ],
+      "example": "Healthcare accessibility analysis in Ghana with interactive maps and charts"
+    },
+    {
+      "workflow_id": "WF-WEB-001",
+      "name": "Single-Prompt Web Application Creation",
+      "description": "Create fully functional web applications from a single natural language description",
+      "steps": [
+        "Receive natural language prompt (e.g., 'create a Word clone')",
+        "Design UI components and layout",
+        "Implement core functionality (rich text editing)",
+        "Add advanced features (font selection, save to file)",
+        "Generate complete HTML/CSS/JavaScript code",
+        "Deploy interactive web application"
+      ],
+      "duration": "Not specified (minutes)",
+      "complexity": "Medium-High",
+      "examples": [
+        "Web-based Word processor with formatting and save",
+        "Gradient descent animated visualization",
+        "Virus simulation with interactive sliders",
+        "Vinyl record text simulation",
+        "Live music creation using Strudel"
+      ]
+    }
+  ],
+  "integration_patterns": [
+    {
+      "name": "Kimi + OK Computer + Web Tools",
+      "description": "Autonomous multi-tool agentic workflow",
+      "tools": [
+        "Kimi K2 Thinking",
+        "OK Computer",
+        "Web Search",
+        "Web Browser",
+        "Code Interpreter"
+      ],
+      "flow": "Natural language prompt → Kimi generates plan → Web Search for data → Web Browser to download → Code Interpreter to process → HTML dashboard assembly",
+      "benefits": "Fully autonomous from prompt to deployment, handles 200-300 sequential tool calls without human intervention"
+    }
+  ],
+  "comparison_with": {
+    "deepseek_r1": {
+      "parameters": "Kimi: 1T total, 32B active | DeepSeek: 671B total, 37B active",
+      "efficiency": "Kimi more efficient (fewer active params despite larger model)",
+      "vocabulary": "Kimi: 160K | DeepSeek: 129K",
+      "experts": "Kimi: 384 | DeepSeek: 256",
+      "similarity": "Both open-source Chinese frontier models, both MoE architecture"
+    },
+    "gpt_5": {
+      "benchmarks": "Kimi beats GPT-5 on Humanity's Last Exam (44.9 vs 41.7) and BrowseComp (60.2 vs 54.9)",
+      "coding": "GPT-5 slightly ahead on LiveCodeBench (87 vs 83.1) and SWE-bench (74 vs 71)",
+      "open_source": "Kimi fully open | GPT-5 closed-source",
+      "cost": "Kimi ~$5.6M to train | GPT-5 training cost unknown but higher"
+    },
+    "claude_45": {
+      "agentic_tasks": "Kimi vastly superior on BrowseComp (60.2 vs 24.1)",
+      "reasoning": "Kimi beats Claude on Humanity's Last Exam (44.9 vs 32)",
+      "coding": "Claude slightly ahead on SWE-bench (77 vs 71)",
+      "open_source": "Kimi open | Claude closed-source"
+    }
+  },
+  "special_features": {
+    "ok_computer": {
+      "description": "Kimi's internal environment for code execution and tool use",
+      "capabilities": [
+        "Code interpreter",
+        "Scratchpad for planning",
+        "Task tracking (to-do list)",
+        "Multi-step debugging"
+      ],
+      "use_case": "Enables complex multi-step workflows like the Ghana healthcare dashboard"
+    },
+    "agentic_mode": {
+      "status": "Announced but not yet released",
+      "capabilities": [
+        "Enhanced autonomous operation",
+        "Extended tool calling",
+        "Advanced planning"
+      ],
+      "expected": "Enhanced version of OK Computer capabilities"
+    }
+  },
+  "alternatives": [
+    "DeepSeek R1 (open-source, similar capabilities)",
+    "GPT-5 (closed-source, frontier reasoning)",
+    "Claude Sonnet 4.5 (closed-source, strong coding)",
+    "Llama 4 (Meta, when released)",
+    "Grok-4 (xAI)"
+  ],
+  "target_users": [
+    "AI researchers studying frontier models",
+    "Data analysts needing autonomous analysis tools",
+    "Web developers building applications via AI",
+    "Educators creating math/science visualizations",
+    "Companies wanting open-source AI with agentic capabilities",
+    "Developers building on MoE architectures"
+  ],
+  "video_source": {
+    "video_id": "Video_003",
+    "title": "Kimi K2 Thinking: A New Frontier Open-Source AI Model",
+    "creator": "Matthew Berman",
+    "duration": "14:31",
+    "key_demos": [
+      "PhD-level mathematics problem (23 tool calls)",
+      "Ghana healthcare dashboard (multi-step data analysis)",
+      "Word clone web application",
+      "Gradient descent visualization",
+      "Virus simulation with interactive controls"
+    ]
+  },
+  "related_tools": [
+    "TOOL-AI-002: ChatGPT (competitor)",
+    "TOOL-AI-029: Claude (competitor)",
+    "Strudel (music coding language used in demo)",
+    "WorldPop (data source used in analysis demo)",
+    "Vultr (cloud platform for running model)"
+  ],
+  "tags": [
+    "frontier-ai",
+    "open-source",
+    "open-weights",
+    "agentic-ai",
+    "long-chain-reasoning",
+    "tool-use",
+    "mixture-of-experts",
+    "chinese-ai",
+    "data-visualization",
+    "web-development",
+    "code-generation",
+    "autonomous-debugging"
+  ],
+  "notes": [
+    "Part of the 'rise of Chinese AI' trend alongside DeepSeek and Owen",
+    "Training cost ($5.6M) dramatically lower than previous frontier models",
+    "Efficiency advantage: 32B active params vs competitors with 37B+",
+    "Distinctive reasoning style noted by AI experts",
+    "Rapidly narrowing gap between open-source and closed-source",
+    "Potential for <$3M training cost with Blackwell chips",
+    "Catches up to frontier capabilities within 6 months of release cycle"
+  ]
+}

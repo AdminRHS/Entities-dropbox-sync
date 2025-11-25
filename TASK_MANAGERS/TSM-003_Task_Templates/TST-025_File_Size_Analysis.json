@@ -1,0 +1,23 @@
+{
+  "task_template_id": "Task-Template-025",
+  "task_template_name": "File Size Analysis",
+  "category": "Analysis",
+  "department": "AI",
+  "description": "Analyze file sizes and identify outliers or anomalies",
+  "estimated_hours": 0.25,
+  "step_templates": [
+    {
+      "step_template_id": "STEP-ANALYSIS-003-01",
+      "step_template_name": "Calculate total sizes by entity"
+    },
+    {
+      "step_template_id": "STEP-ANALYSIS-003-02",
+      "step_template_name": "Find largest files"
+    },
+    {
+      "step_template_id": "STEP-ANALYSIS-003-03",
+      "step_template_name": "Identify size anomalies"
+    }
+  ],
+  "version": "1.0"
+}

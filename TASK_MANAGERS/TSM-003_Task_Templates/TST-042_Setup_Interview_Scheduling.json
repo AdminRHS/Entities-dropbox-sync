@@ -1,0 +1,404 @@
+{
+  "entity_type": "TASK_MANAGERS",
+  "sub_entity": "Task_Template",
+  "template_id": "Task-Template-042",
+  "task_name": "Setup Automated Interview Scheduling System",
+  "action": "Setup",
+  "object": "Interview Scheduling Automation",
+  "context": "using n8n with Google Calendar or Calendly integration",
+  "description": "Automate interview scheduling to eliminate back-and-forth emails. System automatically sends calendar invitations to shortlisted candidates, syncs with team calendars, sends confirmations, and updates Notion ATS. Part of Week 2 implementation.",
+  "department": "HR",
+  "profession": "HR Manager / Operations Specialist",
+  "estimated_duration": "1.5-2 hours",
+  "status": "Template",
+  "dependencies": [
+    "TASK-TEMPLATE-HR-AUTO-003 completed (Notion ATS operational)",
+    "Google Calendar access OR Calendly account",
+    "n8n workflow platform active"
+  ],
+  "tools_required": [
+    "n8n",
+    "Google Calendar OR Calendly",
+    "Gmail (for email notifications)",
+    "Notion (for status updates)"
+  ],
+  "success_criteria": [
+    "Interview invitation automatically sent when candidate status changes to 'Interview Scheduled'",
+    "Calendar event created with video meeting link",
+    "Candidate receives professional invitation email with time slot options",
+    "Confirmation updates Notion ATS automatically",
+    "Hiring manager and interviewers notified",
+    "Test interview scheduled successfully end-to-end"
+  ],
+  "steps": [
+    {
+      "step_number": 1,
+      "name": "Choose scheduling approach (Google Calendar vs Calendly)",
+      "tool": "Decision matrix",
+      "responsibility": "HR Manager",
+      "placement": "Planning document",
+      "duration": "10 minutes",
+      "dependencies": [],
+      "inputs": [
+        "Team size and scheduling complexity",
+        "Budget constraints (Calendly paid vs Google Calendar free)",
+        "Integration requirements"
+      ],
+      "outputs": [
+        "Decision: Google Calendar (free, more control) OR Calendly (easier, professional)",
+        "Justification documented"
+      ],
+      "success_criteria": "Clear decision made based on team needs"
+    },
+    {
+      "step_number": 2,
+      "name": "Configure Google Calendar for interview slots (if Google Calendar chosen)",
+      "tool": "Google Calendar",
+      "responsibility": "HR Manager",
+      "placement": "Google Calendar settings",
+      "duration": "20 minutes",
+      "dependencies": [
+        "Step 1 - if Google Calendar selected"
+      ],
+      "inputs": [
+        "Interviewer calendars",
+        "Available interview time slots",
+        "Meeting duration (30 min, 45 min, 60 min)",
+        "Buffer time between interviews"
+      ],
+      "outputs": [
+        "Shared calendar: HR Interviews",
+        "Working hours configured",
+        "Video conferencing enabled (Google Meet)",
+        "Calendar shared with n8n service account"
+      ],
+      "success_criteria": "Calendar configured, accessible via n8n, test event created successfully"
+    },
+    {
+      "step_number": 3,
+      "name": "Setup Calendly scheduling page (if Calendly chosen)",
+      "tool": "Calendly",
+      "responsibility": "HR Manager",
+      "placement": "Calendly website",
+      "duration": "30 minutes",
+      "dependencies": [
+        "Step 1 - if Calendly selected"
+      ],
+      "inputs": [
+        "Event types: Phone Screen (30 min), Technical Interview (60 min), Final Interview (45 min)",
+        "Availability rules",
+        "Calendar sync (Google Calendar, Outlook)",
+        "Notification settings"
+      ],
+      "outputs": [
+        "Calendly event types created",
+        "Branded scheduling pages with company logo",
+        "Buffer time configured (15 min between interviews)",
+        "Confirmation and reminder emails customized",
+        "Calendly webhook URL for n8n integration"
+      ],
+      "success_criteria": "Calendly pages professional, working, webhook configured"
+    },
+    {
+      "step_number": 4,
+      "name": "Build n8n workflow: Notion status change → Send interview invitation",
+      "tool": "n8n",
+      "responsibility": "HR Manager",
+      "placement": "n8n workflow editor",
+      "duration": "40 minutes",
+      "dependencies": [
+        "Step 2 OR Step 3",
+        "TASK-TEMPLATE-HR-AUTO-003"
+      ],
+      "inputs": [
+        "Notion database trigger (webhook or polling)",
+        "Filter: Status changed to 'Interview Scheduled'",
+        "Candidate email, name, position from Notion"
+      ],
+      "outputs": [
+        "n8n workflow: Notion Trigger → Check Status Change → Get Candidate Info → Send Interview Invitation Email → Create Calendar Event → Update Notion",
+        "Email template with Calendly link OR calendar invitation with time slots",
+        "Workflow activated"
+      ],
+      "success_criteria": "Workflow triggers correctly, email sent, calendar event created, Notion updated"
+    },
+    {
+      "step_number": 5,
+      "name": "Create professional interview invitation email template",
+      "tool": "n8n - Gmail node OR Email template",
+      "responsibility": "HR Manager",
+      "placement": "n8n workflow - Email node",
+      "duration": "20 minutes",
+      "dependencies": [
+        "Step 4"
+      ],
+      "inputs": [
+        "Company branding (logo, colors)",
+        "Interview details: type, duration, what to prepare",
+        "Scheduling instructions (Calendly link OR time slot options)",
+        "Contact information for questions"
+      ],
+      "outputs": [
+        "Email template with variables: {{Candidate_Name}}, {{Position}}, {{Interview_Type}}, {{Calendly_Link}} OR {{Time_Slots}}",
+        "Professional formatting with HTML",
+        "Clear call-to-action",
+        "Mobile-responsive design"
+      ],
+      "success_criteria": "Email template is professional, clear, and branded"
+    },
+    {
+      "step_number": 6,
+      "name": "Configure calendar event creation with video meeting link",
+      "tool": "n8n - Google Calendar node OR Calendly",
+      "responsibility": "HR Manager",
+      "placement": "n8n workflow",
+      "duration": "20 minutes",
+      "dependencies": [
+        "Step 4"
+      ],
+      "inputs": [
+        "Event details: title, duration, description",
+        "Attendees: candidate email, interviewer(s) email",
+        "Video conferencing: Google Meet, Zoom, or Microsoft Teams link",
+        "Reminder settings"
+      ],
+      "outputs": [
+        "Calendar event creation node configured",
+        "Automatic Google Meet link generation enabled",
+        "Event description includes interview instructions",
+        "Reminders set: 1 day before, 1 hour before"
+      ],
+      "success_criteria": "Calendar event created automatically with video link, all attendees invited"
+    },
+    {
+      "step_number": 7,
+      "name": "Add confirmation handling and Notion update",
+      "tool": "n8n + Notion",
+      "responsibility": "HR Manager",
+      "placement": "n8n workflow",
+      "duration": "15 minutes",
+      "dependencies": [
+        "Step 6"
+      ],
+      "inputs": [
+        "Calendly confirmation webhook OR Google Calendar RSVP",
+        "Notion database ID and candidate page ID"
+      ],
+      "outputs": [
+        "Workflow extension: Candidate confirms → Update Notion 'Interview Date' field → Send confirmation to hiring manager",
+        "Status tracking in Notion",
+        "Notification to team"
+      ],
+      "success_criteria": "Confirmation updates Notion automatically, team notified"
+    },
+    {
+      "step_number": 8,
+      "name": "Setup reminder automation for candidates and interviewers",
+      "tool": "n8n + Gmail",
+      "responsibility": "HR Manager",
+      "placement": "n8n workflow - separate or integrated",
+      "duration": "20 minutes",
+      "dependencies": [
+        "Step 6"
+      ],
+      "inputs": [
+        "Interview date/time from calendar",
+        "Reminder timing: 24 hours before, 2 hours before"
+      ],
+      "outputs": [
+        "Scheduled reminder workflow: Check calendar daily → Send reminders for upcoming interviews",
+        "Candidate reminder: interview prep tips, video link, contact info",
+        "Interviewer reminder: candidate profile link (Notion), interview guide, talking points"
+      ],
+      "success_criteria": "Reminders sent automatically at correct times, content helpful and actionable"
+    },
+    {
+      "step_number": 9,
+      "name": "Test complete scheduling workflow",
+      "tool": "Complete system",
+      "responsibility": "HR Manager + Test candidate",
+      "placement": "End-to-end workflow",
+      "duration": "30 minutes",
+      "dependencies": [
+        "Step 7",
+        "Step 8"
+      ],
+      "inputs": [
+        "Test candidate in Notion ATS",
+        "Change status to 'Interview Scheduled'",
+        "Simulate candidate scheduling and confirmation"
+      ],
+      "outputs": [
+        "Interview invitation email received by test candidate",
+        "Candidate selects time slot (Calendly) OR receives calendar invite",
+        "Calendar event created for all attendees",
+        "Notion ATS updated with interview date",
+        "Reminders sent at correct times",
+        "All stakeholders notified"
+      ],
+      "success_criteria": "Complete workflow successful, zero manual intervention required"
+    },
+    {
+      "step_number": 10,
+      "name": "Document scheduling process and train team",
+      "tool": "Notion or Google Docs",
+      "responsibility": "HR Manager",
+      "placement": "HR documentation",
+      "duration": "20 minutes",
+      "dependencies": [
+        "Step 9"
+      ],
+      "inputs": [
+        "Workflow screenshots",
+        "Common scenarios and edge cases",
+        "Troubleshooting guide"
+      ],
+      "outputs": [
+        "Documentation: How interview scheduling works",
+        "Quick guide for hiring managers: How to trigger interview invitation",
+        "Candidate FAQ: What to expect in scheduling process",
+        "Team training completed"
+      ],
+      "success_criteria": "Team understands and can use automated scheduling independently"
+    }
+  ],
+  "checklist": [
+    {
+      "item": "Scheduling platform selected (Google Calendar or Calendly)",
+      "guide": "Decision based on team size, budget, integration needs",
+      "required": true
+    },
+    {
+      "item": "Calendar or Calendly configured with availability slots",
+      "guide": "Interview types defined, buffer time set, video links enabled",
+      "required": true
+    },
+    {
+      "item": "n8n workflow: Notion trigger → Interview invitation email",
+      "guide": "Triggers when status changes to 'Interview Scheduled'",
+      "required": true
+    },
+    {
+      "item": "Professional email template created",
+      "guide": "Branded, clear instructions, personalized with candidate info",
+      "required": true
+    },
+    {
+      "item": "Calendar event creation automated with video link",
+      "guide": "Google Meet/Zoom link auto-generated, all attendees invited",
+      "required": true
+    },
+    {
+      "item": "Confirmation handling updates Notion automatically",
+      "guide": "Candidate confirms → Notion 'Interview Date' updated → Team notified",
+      "required": true
+    },
+    {
+      "item": "Reminder automation configured (24h and 2h before)",
+      "guide": "Candidates and interviewers receive helpful reminders",
+      "required": true
+    },
+    {
+      "item": "End-to-end testing completed successfully",
+      "guide": "Test candidate scheduled interview, all automations worked",
+      "required": true
+    },
+    {
+      "item": "Documentation created and team trained",
+      "guide": "Hiring managers know how to use, candidates understand process",
+      "required": true
+    }
+  ],
+  "resources": [
+    {
+      "name": "Calendly Documentation - Webhooks & API",
+      "type": "Official Documentation",
+      "url": "https://developer.calendly.com/",
+      "description": "Integration guide for Calendly webhooks with n8n"
+    },
+    {
+      "name": "n8n Google Calendar Integration",
+      "type": "Official Documentation",
+      "url": "https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.googlecalendar/",
+      "description": "Setup guide for Google Calendar automation"
+    },
+    {
+      "name": "HR Videos Research - Interview Scheduling Section",
+      "type": "Research Document",
+      "location": "Entities/LIBRARIES/DEPARTMENTS/_SHARED/Prompts/Research/Reports/HR videos research.md",
+      "description": "Research on automated interview scheduling best practices"
+    }
+  ],
+  "roi_metrics": {
+    "time_savings": "2-3 hours per week eliminating scheduling back-and-forth emails",
+    "candidate_experience": "Improved - faster scheduling, self-service time selection",
+    "no_shows_reduced": "25-30% reduction with automated reminders",
+    "setup_time": "1.5-2 hours one-time investment",
+    "cost": "€0 (Google Calendar) or €10-20/month (Calendly) vs hours of HR time",
+    "team_efficiency": "Hiring managers save 30-45 minutes per interview in coordination"
+  },
+  "related_tasks": [
+    "TASK-TEMPLATE-HR-AUTO-003 (Build Notion ATS - prerequisite)",
+    "TASK-TEMPLATE-HR-AUTO-006 (Setup Onboarding Workflow - similar automation patterns)",
+    "TASK-TEMPLATE-HR-004 (Conduct Interview - uses this scheduling)"
+  ],
+  "related_workflows": [
+    "WF-HR-AUTO-002 (Complete Recruitment Pipeline - includes interview scheduling)"
+  ],
+  "related_projects": [
+    "Project-Template-003 (Complete HR Automation Implementation - Week 2)"
+  ],
+  "tags": [
+    "hr",
+    "automation",
+    "interview",
+    "scheduling",
+    "calendar",
+    "n8n",
+    "week_2",
+    "medium_priority"
+  ],
+  "version": "1.0",
+  "created": "2025-11-14",
+  "last_updated": "2025-11-14",
+  "source": "HR videos research.md - Week 2 Implementation Plan",
+  "compliance_notes": "GDPR: Candidate calendar data is personal information. Ensure consent before storing. Auto-delete interview calendar data 90 days after hire/reject decision. Provide opt-out option for automated reminders.",
+  "troubleshooting": [
+    {
+      "issue": "Notion trigger not firing when status changes",
+      "solution": "Use polling trigger (every 5 minutes) instead of webhook if webhook unreliable, or use Notion database change trigger"
+    },
+    {
+      "issue": "Google Calendar permission denied",
+      "solution": "Re-authenticate Google OAuth connection, verify scopes include calendar.events write access"
+    },
+    {
+      "issue": "Calendly webhook not received by n8n",
+      "solution": "Verify n8n webhook URL is publicly accessible, check Calendly webhook logs for errors"
+    },
+    {
+      "issue": "Interview reminders sent to wrong candidates",
+      "solution": "Add filter to check interview date is in next 24 hours, use unique identifier to match candidates"
+    },
+    {
+      "issue": "Time zone confusion for international candidates",
+      "solution": "Always display time zones in emails, use candidate's local time zone in calendar invites, add timezone note in Notion"
+    }
+  ],
+  "optimization_tips": [
+    "Use Calendly routing forms to direct candidates to appropriate interview type",
+    "Create different Calendly event types for each interview stage (phone screen, technical, final)",
+    "Add buffer time between interviews to prevent interviewer fatigue",
+    "Use n8n sub-workflows for reusable interview scheduling logic",
+    "Implement round-robin assignment if multiple interviewers available",
+    "Track scheduling metrics: time-to-schedule, candidate dropout rate at scheduling step"
+  ],
+  "future_enhancements": [
+    "AI-powered optimal time suggestion based on candidate and interviewer availability",
+    "Automatic rescheduling workflow if candidate requests change",
+    "Integration with video interview platforms (HireVue, SparkHire) for recorded interviews",
+    "Candidate self-rescheduling link in reminder emails",
+    "Interviewer workload balancing (distribute interviews evenly)",
+    "Post-interview feedback reminder automation (send to interviewer 2 hours after interview)"
+  ]
+}

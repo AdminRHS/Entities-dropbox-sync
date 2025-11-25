@@ -1,0 +1,56 @@
+{
+    "entity_type": "TASK_MANAGERS",
+    "sub_entity": "Task_Template",
+    "task_template_id": "Task-Template-104",
+    "task_template_name": "Add Behance Tags and Categories",
+    "action": "Tag",
+    "object": "project metadata",
+    "context": "Behance metadata editor",
+    "description": "Assign tags and categories on Behance to optimize discoverability.",
+    "department": "MARKETING",
+    "estimated_duration": "10-15 minutes",
+    "priority": "Medium",
+    "status": "Template",
+    "dependencies": [
+        "Task-Template-101",
+        "Task-Template-103"
+    ],
+    "tools_required": [
+        "Behance (metadata editor)"
+    ],
+    "matched_tools": [
+        {
+            "name": "Behance",
+            "libraries_path": "ENTITIES/LIBRARIES/Tools/Behance.json"
+        }
+    ],
+    "checklist": [
+        {
+            "item": "Primary category assigned",
+            "guide": "Choose the main discipline that best fits the project.",
+            "required": true
+        },
+        {
+            "item": "5–10 relevant tags added",
+            "guide": "Include tools, industry, style, and key themes.",
+            "required": true
+        },
+        {
+            "item": "Secondary categories (if applicable)",
+            "guide": "Use secondary categories to capture cross-disciplinary work.",
+            "required": false
+        }
+    ],
+    "success_criteria": [
+        "Tags and categories align with Behance search patterns.",
+        "Project is easy to find via relevant keywords."
+    ],
+    "tags": [
+        "behance",
+        "metadata",
+        "seo",
+        "tags"
+    ],
+    "source": "Workflows/Behance_Project_Publishing_Workflow.yaml#step_5",
+    "version": "1.0"
+}

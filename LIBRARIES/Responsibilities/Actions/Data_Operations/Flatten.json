@@ -1,0 +1,40 @@
+{
+  "Actions": "flatten",
+  "Processes": "flattening",
+  "Results": "flattened",
+  "Departments": "developers",
+  "Professions": "back end developer, ai engineer",
+  "category": "Data_Operations",
+  "source": "Video_006_Lead_Generation_Analysis",
+  "discovery_date": "2025-11-12",
+  "description": "Convert nested or hierarchical data structures into flat, single-level format",
+  "typical_use_cases": [
+    "Flatten JSON API responses for CSV export",
+    "Convert nested company data to flat table",
+    "Flatten complex scraped data structures",
+    "Prepare data for spreadsheet import",
+    "Simplify nested objects for processing"
+  ],
+  "common_objects": [
+    "API responses",
+    "JSON data",
+    "Lead List",
+    "Business Listing"
+  ],
+  "common_tools": [
+    "n8n",
+    "Custom scripts",
+    "Data transformation tools"
+  ],
+  "related_actions": [
+    "transform",
+    "convert",
+    "normalize",
+    "restructure"
+  ],
+  "workflows": [
+    "Parse JSON → Flatten nested data → Export to CSV",
+    "API call → Flatten response → Import to CRM"
+  ],
+  "example": "Nested: {company: {name: 'X', address: {city: 'Y'}}} → Flat: {company_name: 'X', company_address_city: 'Y'}"
+}

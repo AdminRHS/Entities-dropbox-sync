@@ -1,0 +1,254 @@
+{
+  "entity_type": "LIBRARIES",
+  "sub_entity": "Tool",
+  "tool_id": "TOOL-113",
+  "version": "1.0",
+  "created_date": "2025-11-17",
+  "last_updated": "2025-11-17",
+  "metadata": {
+    "tool_name": "arXiv",
+    "alternate_names": [
+      "arXiv.org",
+      "arXiv e-print repository"
+    ],
+    "category": "Research & Documentation",
+    "subcategory": "Academic Research Repository",
+    "vendor": "Cornell University",
+    "website": "https://arxiv.org",
+    "pricing_model": "Free (open access)",
+    "status": "Active"
+  },
+  "description": {
+    "short": "Open-access repository of 2+ million scholarly articles in physics, mathematics, computer science, AI/ML, and related fields",
+    "detailed": "arXiv is a free distribution service and open-access archive for scholarly articles in the fields of physics, mathematics, computer science, quantitative biology, quantitative finance, statistics, electrical engineering and systems science, and economics. Founded in 1991, it has become the primary pre-print repository for AI/ML research, allowing researchers to share findings before formal peer review. Papers receive arXiv IDs (e.g., 2301.12345) and are searchable by category, author, title, and abstract.",
+    "primary_function": "Repository and discovery platform for cutting-edge research papers, especially AI/ML pre-prints",
+    "key_capabilities": [
+      "Access to 2+ million research papers",
+      "Daily uploads of new pre-prints (1000+ papers/day in cs.AI alone)",
+      "Search by category, keyword, author, or arXiv ID",
+      "Email alerts for new papers in specific categories",
+      "PDF and source file downloads",
+      "Citation tracking and reference graphs",
+      "Free, unrestricted access to all content",
+      "API access for programmatic retrieval"
+    ]
+  },
+  "use_cases": [
+    {
+      "use_case_id": "UC-TOOL113-001",
+      "title": "Monitor Daily AI/ML Research Publications",
+      "description": "Subscribe to cs.AI, cs.LG, or stat.ML categories to receive daily digests of new papers in areas of interest",
+      "time_saved": "2-3 hours per week vs. manual journal scanning",
+      "user_persona": "AI/ML engineers, researchers, data scientists"
+    },
+    {
+      "use_case_id": "UC-TOOL113-002",
+      "title": "Find State-of-the-Art Methods for Specific Problems",
+      "description": "Search for recent papers on specific techniques (e.g., 'vision transformers', 'retrieval augmented generation') to find cutting-edge approaches",
+      "time_saved": "1-2 hours per research session",
+      "user_persona": "ML engineers, PhD students, research scientists"
+    },
+    {
+      "use_case_id": "UC-TOOL113-003",
+      "title": "Create Research Monitoring Stacks in Dropbox Dash",
+      "description": "Integrate arXiv with Dropbox Dash to create auto-updating Stacks that monitor specific research topics",
+      "time_saved": "4-6 hours per week on literature review",
+      "user_persona": "Research teams, product strategists, PhD students"
+    },
+    {
+      "use_case_id": "UC-TOOL113-004",
+      "title": "Verify Claims in Technical Discussions",
+      "description": "Look up cited papers by arXiv ID to verify methodology, results, and conclusions during technical debates",
+      "time_saved": "15-30 minutes per lookup",
+      "user_persona": "Technical leads, reviewers, skeptical engineers"
+    },
+    {
+      "use_case_id": "UC-TOOL113-005",
+      "title": "Track Research from Specific Authors or Labs",
+      "description": "Follow prolific researchers or labs (e.g., DeepMind, OpenAI, Stanford NLP) to stay current with their latest work",
+      "time_saved": "1-2 hours per week",
+      "user_persona": "Competitive intelligence analysts, academic researchers"
+    }
+  ],
+  "integrations": {
+    "supported_platforms": [
+      "Dropbox Dash (search integration)",
+      "Google Scholar",
+      "Semantic Scholar",
+      "Zotero (reference management)",
+      "Mendeley (reference management)",
+      "Papers (reference management)",
+      "ResearchGate",
+      "Connected Papers (visualization)"
+    ],
+    "api_access": {
+      "api_endpoint": "http://export.arxiv.org/api/query",
+      "documentation": "https://arxiv.org/help/api/",
+      "rate_limits": "1 request per 3 seconds",
+      "response_format": "Atom XML"
+    }
+  },
+  "features": {
+    "core_features": [
+      {
+        "feature_name": "Category-Based Browsing",
+        "description": "Browse papers by subject area (cs.AI, cs.LG, cs.CV, stat.ML, etc.)",
+        "availability": "All users"
+      },
+      {
+        "feature_name": "Advanced Search",
+        "description": "Search by title, author, abstract, comments, journal reference, subject category, or report number",
+        "availability": "All users"
+      },
+      {
+        "feature_name": "Email Alerts",
+        "description": "Subscribe to daily or weekly digests of new papers in specific categories",
+        "availability": "Registered users"
+      },
+      {
+        "feature_name": "Source File Access",
+        "description": "Download LaTeX source files in addition to PDFs",
+        "availability": "All users"
+      },
+      {
+        "feature_name": "Version History",
+        "description": "Track revisions to papers (v1, v2, v3) as authors update based on feedback",
+        "availability": "All users"
+      },
+      {
+        "feature_name": "Citation Export",
+        "description": "Export citations in BibTeX, EndNote, and other formats",
+        "availability": "All users"
+      }
+    ],
+    "subject_categories": [
+      "cs.AI - Artificial Intelligence",
+      "cs.LG - Machine Learning",
+      "cs.CV - Computer Vision and Pattern Recognition",
+      "cs.CL - Computation and Language (NLP)",
+      "cs.NE - Neural and Evolutionary Computing",
+      "stat.ML - Machine Learning (Statistics)",
+      "cs.RO - Robotics",
+      "cs.IR - Information Retrieval"
+    ]
+  },
+  "workflows_enabled": [
+    "WF-PM-010: Create Auto-Updating Research Stack",
+    "WF-RES-001: Monitor Daily AI/ML Research Publications",
+    "WF-RES-002: Conduct Literature Review for Specific Topic",
+    "WF-PM-013: Prepare Technical Decision with Research Evidence"
+  ],
+  "skills_required": [
+    "academic paper reading",
+    "search query formulation",
+    "category navigation",
+    "citation management",
+    "RSS/email subscription management",
+    "technical abstract skimming"
+  ],
+  "learning_curve": {
+    "initial_setup": "5-10 minutes (create account, set up alerts)",
+    "basic_proficiency": "30 minutes",
+    "advanced_usage": "2-4 hours (API usage, advanced search)",
+    "difficulty_level": "Beginner-friendly for basic search, intermediate for power features"
+  },
+  "roi_metrics": {
+    "time_savings_per_user": {
+      "weekly": "2-4 hours (vs. scanning multiple journals)",
+      "annual": "104-208 hours"
+    },
+    "efficiency_gains": [
+      "90% faster access to pre-prints vs. traditional publication cycles",
+      "80% reduction in literature review time with targeted alerts",
+      "70% improvement in staying current with field developments",
+      "Free alternative to expensive journal subscriptions ($1000s/year saved)"
+    ],
+    "value_proposition": "Essential tool for anyone working in AI/ML to stay current with rapidly evolving research landscape"
+  },
+  "best_practices": {
+    "setup_recommendations": [
+      "Subscribe to 2-3 core categories relevant to your work (start narrow, expand later)",
+      "Set up email alerts for daily digest (morning reading routine)",
+      "Create Dropbox Dash Stack for specific research topics",
+      "Use RSS reader for category feeds if you prefer that workflow",
+      "Bookmark frequent search queries for quick access"
+    ],
+    "usage_patterns": [
+      "Skim abstracts first, read papers selectively (10:1 skim-to-read ratio)",
+      "Check 'recent' papers (last 7 days) for your categories 2-3x per week",
+      "Follow citation trails for foundational papers",
+      "Use arXiv ID in documentation/discussions for precise references",
+      "Combine with Semantic Scholar or Connected Papers for context",
+      "Download PDFs for offline reading during commute/travel"
+    ],
+    "time_management": [
+      "Allocate 30-60 minutes 3x per week for paper review",
+      "Use 'two-pass' reading: abstract → conclusion → methods (if still relevant)",
+      "Maintain a 'to read deeply' list (max 5 papers at a time)",
+      "Share interesting findings with team via Slack/email to distribute effort"
+    ]
+  },
+  "limitations": {
+    "known_limitations": [
+      "Pre-prints are not peer-reviewed (quality varies)",
+      "No built-in recommendation engine (manual search required)",
+      "Basic UI (minimal modern features)",
+      "Search can be overwhelming (100+ new cs.AI papers per day)",
+      "No native PDF annotation or note-taking features",
+      "Limited metadata (no code/data links in many papers)"
+    ],
+    "best_for": "Researchers, engineers, students in technical fields with active arXiv communities",
+    "not_ideal_for": "Applied fields without strong arXiv presence (e.g., medicine, law, business)"
+  },
+  "related_tools": [
+    "TOOL-112 (Dropbox Dash)",
+    "TOOL-115 (LLM-as-Judge Evaluation Framework)",
+    "TOOL-116 (Custom Prompt Templates)",
+    "TOOL-052 (Claude Code)"
+  ],
+  "task_templates": [
+    "Task-Template-063: Create Auto-Updating Research Stack",
+    "Task-Template-066: Setup Daily AI/ML Research Monitoring"
+  ],
+  "discovery_source": {
+    "video_id": "Video_016",
+    "video_title": "Interview with Morgan Brown - Dropbox Dash Product Strategy",
+    "timestamp": "Discussion of research workflow and Stack creation",
+    "key_insights": [
+      "Morgan Brown mentions arXiv as example of specialized repository that can be integrated with Dash",
+      "Discussed using Stacks to monitor arXiv for specific research topics",
+      "Highlighted value of automating research monitoring vs. manual daily checks"
+    ]
+  },
+  "competitive_landscape": {
+    "similar_tools": [
+      "bioRxiv (biology pre-prints)",
+      "medRxiv (medicine pre-prints)",
+      "SSRN (social sciences)",
+      "Google Scholar (aggregator)",
+      "Semantic Scholar (AI-powered search)",
+      "ResearchGate (networking + papers)"
+    ],
+    "differentiators": [
+      "Largest repository for AI/ML pre-prints (established standard)",
+      "Fastest publication timeline (same-day posting)",
+      "Completely free and open access",
+      "arXiv ID system provides permanent, citable references",
+      "Trusted by academic community for 30+ years"
+    ]
+  },
+  "statistics": {
+    "total_papers": "2,000,000+",
+    "daily_submissions": "1,000+ (cs.AI alone)",
+    "categories": "40+",
+    "established": "1991",
+    "hosted_by": "Cornell University Library"
+  },
+  "version_history": [
+    {
+      "version": "1.0",
+      "date": "2025-11-17",
+      "changes": "Initial tool entry created from Video_016.md taxonomy extraction"
+    }
+  ]
+}

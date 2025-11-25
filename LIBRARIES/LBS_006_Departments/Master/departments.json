@@ -1,0 +1,98 @@
+{
+  "version": "1.0",
+  "source": "ENTITIES/LIBRARIES/DEPARTMENTS",
+  "created_date": "2025-11-25",
+  "total_departments": 9,
+  "data": [
+    {
+      "id": 1,
+      "department_id": "DPT-001",
+      "code": "AID",
+      "name": "AI Engineers",
+      "full_name": "AI & Automations Department",
+      "description": "AI, Automations, Admin (consolidated)",
+      "color": "rgb(61, 183, 124)",
+      "is_active": true
+    },
+    {
+      "id": 2,
+      "department_id": "DPT-002",
+      "code": "HRM",
+      "name": "HR Managers",
+      "full_name": "Human Resources Management",
+      "description": "HR & Talent",
+      "color": "rgb(255, 87, 87)",
+      "is_active": true
+    },
+    {
+      "id": 3,
+      "department_id": "DPT-003",
+      "code": "DEV",
+      "name": "Developers",
+      "full_name": "Development & Engineering",
+      "description": "Engineering & Dev",
+      "color": "rgb(61, 183, 124)",
+      "is_active": true
+    },
+    {
+      "id": 4,
+      "department_id": "DPT-004",
+      "code": "LGN",
+      "name": "Lead Generators",
+      "full_name": "Lead Generation",
+      "description": "Lead Generation",
+      "color": "rgb(33, 150, 243)",
+      "is_active": true
+    },
+    {
+      "id": 5,
+      "department_id": "DPT-005",
+      "code": "DGN",
+      "name": "Designers",
+      "full_name": "Design & Creative",
+      "description": "Design & Creative",
+      "color": "rgb(151, 71, 255)",
+      "is_active": true
+    },
+    {
+      "id": 6,
+      "department_id": "DPT-006",
+      "code": "VID",
+      "name": "Video Editors",
+      "full_name": "Video Production",
+      "description": "Video content & production",
+      "color": "rgb(126, 207, 203)",
+      "is_active": true
+    },
+    {
+      "id": 7,
+      "department_id": "DPT-007",
+      "code": "SLS",
+      "name": "Sales Managers",
+      "full_name": "Sales & Client Relations",
+      "description": "Sales & Client Relations",
+      "color": "rgb(76, 175, 80)",
+      "is_active": true
+    },
+    {
+      "id": 8,
+      "department_id": "DPT-008",
+      "code": "SMM",
+      "name": "Social Media Managers",
+      "full_name": "Social Media Management",
+      "description": "Social media marketing and management",
+      "color": "rgb(255, 152, 0)",
+      "is_active": true
+    },
+    {
+      "id": 9,
+      "department_id": "DPT-009",
+      "code": "FNC",
+      "name": "Finance Managers",
+      "full_name": "Finance & Accounting",
+      "description": "Finance & Accounting",
+      "color": "rgb(255, 193, 7)",
+      "is_active": true
+    }
+  ]
+}

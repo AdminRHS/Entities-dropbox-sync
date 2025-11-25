@@ -1,0 +1,114 @@
+{
+  "template_name": "Talent Skill Profile",
+  "description": "Template for employee and candidate skill profiles in TALENTS ecosystem",
+  "version": "1.0",
+  "talent_id": "EMP-YYYY-NNN | CAND-YYYY-NNN",
+  "talent_type": "Employee | Candidate | Applicant",
+  "talent_name": "First Last",
+  "department": "Department Name",
+  "profession": "Profession Title",
+  "skills_profile": {
+    "skills": [
+      {
+        "skill_id": "SKL-XXX",
+        "skill_phrase": "action + object + via/using/in + tool",
+        "skill_reference": {
+          "source": "TALENTS/LBS_004_../TALENTS/Skills/Master/all_skills.json",
+          "department": "Department",
+          "professions": ["profession1", "profession2"]
+        },
+        "proficiency": {
+          "level": "beginner | intermediate | advanced | expert",
+          "self_assessed": "beginner | intermediate | advanced | expert",
+          "manager_assessed": "beginner | intermediate | advanced | expert",
+          "last_assessment_date": "YYYY-MM-DD",
+          "assessment_notes": "Assessment notes and feedback"
+        },
+        "experience": {
+          "years": 0.0,
+          "months": 0,
+          "first_used": "YYYY-MM-DD",
+          "last_used": "YYYY-MM-DD",
+          "frequency": "daily | weekly | monthly | rarely",
+          "total_tasks_completed": 0,
+          "recent_tasks": ["TM-YYYY-NNN", "TM-YYYY-NNN"]
+        },
+        "validation": {
+          "verified": false,
+          "verified_by": "EMP-YYYY-NNN",
+          "verified_by_name": "Manager Name",
+          "verified_date": "YYYY-MM-DD",
+          "verification_method": "task_review | certification | assessment | portfolio",
+          "evidence": [
+            "completed_task_TM-YYYY-NNN",
+            "portfolio_link",
+            "certification_link",
+            "github_project"
+          ],
+          "evidence_notes": "Description of evidence"
+        },
+        "performance": {
+          "avg_quality_score": 0.0,
+          "avg_completion_time_minutes": 0,
+          "success_rate": 0.0,
+          "peer_rating": 0.0,
+          "client_rating": 0.0,
+          "improvement_trend": "improving | stable | declining"
+        },
+        "development": {
+          "acquired_date": "YYYY-MM-DD",
+          "current_status": "learning | developing | proficient | expert",
+          "training_completed": ["Training Course 1", "Training Course 2"],
+          "certifications": ["Certification 1"],
+          "next_milestone": "SKL-XXX",
+          "development_goal": "intermediate | advanced | expert",
+          "target_date": "YYYY-MM-DD",
+          "training_plan": "Description of planned training"
+        },
+        "usage_context": {
+          "primary_workflows": ["WF-XXX-NNN"],
+          "projects_used_in": ["PROJECT-XXX"],
+          "clients_used_for": ["CLIENT-XXX"],
+          "teaching_others": false,
+          "mentoring_count": 0
+        }
+      }
+    ],
+    "summary": {
+      "total_skills": 0,
+      "verified_skills": 0,
+      "by_difficulty": {
+        "beginner": 0,
+        "intermediate": 0,
+        "advanced": 0,
+        "expert": 0
+      },
+      "by_department": {
+        "HR": 0,
+        "AI": 0,
+        "DEV": 0,
+        "Design": 0,
+        "Sales": 0,
+        "Video": 0,
+        "LG": 0,
+        "General": 0
+      },
+      "by_proficiency": {
+        "learning": 0,
+        "developing": 0,
+        "proficient": 0,
+        "expert": 0
+      },
+      "top_skills": ["SKL-XXX", "SKL-XXX", "SKL-XXX"],
+      "skills_in_development": ["SKL-XXX", "SKL-XXX"],
+      "skills_to_acquire": ["SKL-XXX", "SKL-XXX"],
+      "last_updated": "YYYY-MM-DD"
+    }
+  },
+  "notes": [
+    "This template is used for both employees and candidates",
+    "Employee profiles should have more complete data (proficiency, performance, validation)",
+    "Candidate profiles may have claimed skills pending verification",
+    "Skills should reference the master skills catalog in TALENTS/LBS_004_../TALENTS/Skills/Master/all_skills.json"
+  ]
+}

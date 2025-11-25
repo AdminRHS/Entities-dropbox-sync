@@ -1,0 +1,68 @@
+{
+  "entity_type": "ASSETS",
+  "sub_entity": "Online Platform",
+  "asset_id": "AST-001",
+  "name": "oa-y.com",
+  "full_name": "Online Academy (oa-y.com)",
+  "type": "Educational Platform",
+  "description": "Online educational platform providing courses, lessons, and training materials for Remote Helpers team",
+  "url": "https://oa-y.com",
+  "owner": "Remote Helpers",
+  "status": "Active",
+  "access_method": "MCP Service",
+  "mcp_service": {
+    "service_id": "oa-y-mcp-service",
+    "tool_id": "TOL-MCP-001",
+    "configuration": "See MCP_Services/TOL-MCP-001_OAY_MCP_Service.json"
+  },
+  "content_types": [
+    "Courses",
+    "Lessons",
+    "Training Materials",
+    "Standard Operating Procedures",
+    "Onboarding Content"
+  ],
+  "departments": [
+    "AI",
+    "HR",
+    "Training",
+    "Operations"
+  ],
+  "local_content_path": "ASSETS/oa-y/Courses/",
+  "content_count": {
+    "courses": 40,
+    "lessons": "200+",
+    "topics": [
+      "AI Tools",
+      "Development",
+      "Design",
+      "Lead Generation",
+      "CRM"
+    ]
+  },
+  "api_credentials": {
+    "api_token": "d383d4d1-5829-4aa1-80ce-0668d6869386",
+    "api_token_libs": "sk_ksE_rARLjfvNSchxppLvgj6Svxvos1zuS4oZdQowOEo"
+  },
+  "integration_tools": [
+    {
+      "tool_id": "TOL-MCP-001",
+      "tool_name": "OAY MCP Service",
+      "purpose": "API access via MCP"
+    },
+    {
+      "tool_id": "TOL-034",
+      "tool_name": "Claude Desktop App",
+      "purpose": "MCP client"
+    }
+  ],
+  "last_updated": "2025-11-19",
+  "tags": [
+    "education",
+    "training",
+    "courses",
+    "online-academy",
+    "asset",
+    "platform"
+  ]
+}

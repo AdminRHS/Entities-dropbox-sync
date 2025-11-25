@@ -1,0 +1,140 @@
+{
+  "entity_type": "LIBRARIES",
+  "sub_entity": "Tool",
+  "tool_id": "TOOL-DATA-007",
+  "name": "Anymailfinder",
+  "vendor": "Anymailfinder",
+  "category": "Data Tools / Email Enrichment",
+  "purpose": "Find and verify email addresses using nominative enrichment patterns",
+  "description": "Email enrichment service that finds decision-maker emails by combining first/last names with company domains in multiple nominative patterns. Uses pattern matching (first.last@domain, flast@domain, etc.) to discover valid email addresses. Only charges for successfully found emails, not attempts.",
+  "skill_level_required": "Beginner to Intermediate",
+  "cost_structure": "$0.0025 per valid email found (pay only for results)",
+  "platform_compatibility": [
+    "Web",
+    "API",
+    "CSV Upload/Download"
+  ],
+  "integration_capabilities": [
+    "API integration",
+    "CSV bulk upload",
+    "CSV bulk download",
+    "Direct domain/company search",
+    "Bulk search operations",
+    "Integration with Airscale",
+    "Integration with Vayne",
+    "Integration with Apify scrapers",
+    "n8n workflow automation"
+  ],
+  "documentation_url": "https://anymailfinder.com",
+  "actual_remote_helpers_usage": {
+    "primary_use": "Bulk Email Enrichment for Outbound Lead Generation",
+    "users": [
+      "Lead Generation Specialist",
+      "SDR (Sales Development Representative)",
+      "Outbound Marketer",
+      "Growth Hacker",
+      "Sales Operations"
+    ],
+    "use_cases": [
+      "enrich lead lists with decision-maker emails",
+      "find contact information for target companies",
+      "validate email addresses",
+      "build outbound prospecting lists",
+      "multi-source lead enrichment",
+      "enterprise email discovery via arbitrage",
+      "nominative enrichment for B2B contacts"
+    ],
+    "workflows": [
+      "Multi-Source Lead Enrichment Pipeline (Airscale → Anymailfinder)",
+      "LinkedIn Sales Navigator Export (Vayne → Anymailfinder)",
+      "Google SERP Scraping (Apify → Anymailfinder)",
+      "Google Maps Scraping (Apify → Anymailfinder)",
+      "Enterprise Email Arbitrage (1:40 credit ratio)",
+      "Social Media Scraping (Instagram/TikTok → Anymailfinder)",
+      "LinkedIn Jobs Scraping (Apify → Anymailfinder)",
+      "Custom Platform Scraping (n8n → Anymailfinder)"
+    ],
+    "typical_workflow_pattern": [
+      {
+        "task": "Multi-Source Lead Enrichment Pipeline",
+        "steps": [
+          "Import CSV with company domains or names",
+          "Run nominative enrichment search",
+          "System tests multiple email patterns per contact",
+          "Download enriched list with valid emails only",
+          "Export to outreach platform"
+        ],
+        "complexity": "Medium",
+        "time_estimate": "10-15 minutes for 40 records",
+        "success_rate": "50-80% depending on source quality"
+      },
+      {
+        "task": "Enterprise Email Arbitrage",
+        "steps": [
+          "Search for 1 company domain (costs 1 credit)",
+          "Receive up to 40 decision-maker emails",
+          "Download enriched company contact list",
+          "Achieve 1:40 credit-to-email ratio"
+        ],
+        "complexity": "Low",
+        "time_estimate": "2-3 minutes per company",
+        "success_rate": "High for large enterprises"
+      }
+    ],
+    "integration_with_other_tools": [
+      "Airscale (company domain lookup → email enrichment)",
+      "Vayne (LinkedIn scraping → email enrichment)",
+      "Apify Google SERP Scraper (domain discovery → email enrichment)",
+      "Apify Google Maps Scraper (local business → email enrichment)",
+      "Apify LinkedIn Jobs Scraper (intent-based leads → email enrichment)",
+      "Apify Social Media Scrapers (profile data → email enrichment)",
+      "n8n (workflow automation orchestration)",
+      "Make.com (alternative workflow automation)",
+      "Google Sheets (data management and processing)"
+    ]
+  },
+  "strengths": [
+    "Only charges for valid emails found (not attempts)",
+    "50-80% enrichment success rate",
+    "Enterprise arbitrage: 1:40 credit ratio for company searches",
+    "Nominative enrichment handles name variations automatically",
+    "Fast bulk processing (40 records in 10-15 minutes)",
+    "No complex setup required",
+    "Works with incomplete data (just company + name)",
+    "Integrates well with all scraping tools",
+    "Cost-effective: $0.0025 per valid email"
+  ],
+  "limitations": [
+    "Requires company domain or name as input",
+    "Success rate varies by data source quality",
+    "Lower success rate for smaller companies (< 50 employees)",
+    "Dependent on email pattern predictability",
+    "May not find emails for very privacy-conscious companies"
+  ],
+  "success_rates_by_source": {
+    "LinkedIn Sales Navigator + Vayne": "80-100%",
+    "Airscale + Anymailfinder": "50-80%",
+    "Apify Google SERP + Anymailfinder": "40-60%",
+    "Apify Google Maps + Anymailfinder": "20-32%",
+    "Custom Scraper + Anymailfinder": "10-20%"
+  },
+  "departments_using": [
+    "LG",
+    "Sales",
+    "Marketing"
+  ],
+  "tags": [
+    "email-enrichment",
+    "lead-generation",
+    "nominative-enrichment",
+    "b2b-prospecting",
+    "contact-discovery",
+    "data-enrichment",
+    "outbound-sales",
+    "lead-qualification"
+  ],
+  "discovery_date": "2025-11-12",
+  "discovery_source": "Video_006_Lead_Generation_Analysis",
+  "status": "active",
+  "mention_frequency_in_source": "30+ mentions across 14 workflows"
+}

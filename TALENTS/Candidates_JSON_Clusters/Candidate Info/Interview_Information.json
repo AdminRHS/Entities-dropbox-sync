@@ -1,0 +1,53 @@
+{
+  "template_name": "Interview_Information",
+  "description": "Interview scheduling and video interview related fields",
+  "fields": {
+    "date_interview": {
+      "type": "NoneType",
+      "description": "Field: date_interview",
+      "example": null
+    },
+    "time_interview": {
+      "type": "NoneType",
+      "description": "Field: time_interview",
+      "example": null
+    },
+    "time_interview_date": {
+      "type": "object",
+      "fields": {
+        "time_interview_date.date": {
+          "type": "str",
+          "description": "Field: date",
+          "example": "2025-11-06 00:00:00.000000"
+        },
+        "time_interview_date.timezone_type": {
+          "type": "int",
+          "description": "Field: timezone_type",
+          "example": 3
+        },
+        "time_interview_date.timezone": {
+          "type": "str",
+          "description": "Field: timezone",
+          "example": "UTC"
+        }
+      },
+      "description": "Nested object: time_interview_date"
+    },
+    "video_interview_url": {
+      "type": "NoneType",
+      "description": "Field: video_interview_url",
+      "example": null
+    },
+    "date_video_added": {
+      "type": "NoneType",
+      "description": "Field: date_video_added",
+      "example": null
+    },
+    "video_url": {
+      "type": "str",
+      "description": "Field: video_url",
+      "example": ""
+    }
+  }
+}
+

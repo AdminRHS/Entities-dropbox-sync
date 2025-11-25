@@ -1,0 +1,122 @@
+{
+  "entity_type": "LIBRARIES",
+  "sub_entity": "Profession",
+  "profession_name": "back end developer",
+  "department": "developers",
+  "description": "Software engineer focused on server-side logic, APIs, databases, and automation workflows including lead generation pipelines and MCP connector development",
+  "created": "2025-11-12",
+  "updated": "2025-11-12",
+  "skills": [
+    "SKL-060",
+    "SKL-062",
+    "SKL-063",
+    "SKL-070",
+    "SKL-071",
+    "SKL-075"
+  ],
+  "skill_details": {
+    "SKL-060": {
+      "skill_phrase": "scraped lead lists via Apify",
+      "proficiency_level": "intermediate",
+      "frequency": "daily"
+    },
+    "SKL-062": {
+      "skill_phrase": "built enrichment pipelines via n8n",
+      "proficiency_level": "advanced",
+      "frequency": "weekly"
+    },
+    "SKL-063": {
+      "skill_phrase": "parsed HTML data via OpenAI",
+      "proficiency_level": "advanced",
+      "frequency": "weekly"
+    },
+    "SKL-070": {
+      "skill_phrase": "generated MCP connectors via Claude",
+      "proficiency_level": "intermediate",
+      "frequency": "weekly"
+    },
+    "SKL-071": {
+      "skill_phrase": "deployed MCP connectors via Cursor",
+      "proficiency_level": "intermediate",
+      "frequency": "weekly"
+    },
+    "SKL-075": {
+      "skill_phrase": "configured OAuth for Google APIs",
+      "proficiency_level": "intermediate",
+      "frequency": "monthly"
+    }
+  },
+  "tools": [
+    "TOOL-AUTO-001",
+    "TOOL-DEV-020",
+    "TOOL-DEV-026",
+    "TOOL-DEV-027",
+    "TOOL-AI-030",
+    "TOOL-AI-031",
+    "TOOL-AI-033",
+    "TOOL-AI-034"
+  ],
+  "tool_details": {
+    "TOOL-AUTO-001": "n8n - Workflow automation (weekly use)",
+    "TOOL-DEV-020": "Apify - Web scraping platform (daily use)",
+    "TOOL-DEV-026": "Cursor - AI code editor (daily use)",
+    "TOOL-DEV-027": "Google Cloud Console - OAuth setup (monthly use)",
+    "TOOL-AI-030": "Claude Desktop App - MCP platform (weekly use)",
+    "TOOL-AI-031": "MCP Builder Skill - Connector generation (weekly use)",
+    "TOOL-AI-033": "Sonnet 4.5 - AI model (daily use)",
+    "TOOL-AI-034": "OpenAI GPT-5 - HTML parsing (weekly use)"
+  },
+  "workflows": [
+    "WF-LG-008",
+    "WF-LG-013",
+    "WF-AI-001",
+    "WF-AI-002",
+    "WF-AI-006"
+  ],
+  "workflow_details": {
+    "WF-LG-008": "AI-Powered HTML Parsing (OpenAI + n8n)",
+    "WF-LG-013": "Custom Niche Platform Scraping (n8n + HTTP)",
+    "WF-AI-001": "Enable Claude Skills Feature",
+    "WF-AI-002": "Create Custom MCP Connector",
+    "WF-AI-006": "Simple Local MCP Connector Deployment"
+  },
+  "objects": [
+    "OBJ-LG-001",
+    "OBJ-LG-008",
+    "OBJ-LG-009",
+    "OBJ-AI-001",
+    "OBJ-AI-002",
+    "OBJ-AI-003"
+  ],
+  "object_details": {
+    "OBJ-LG-001": "Lead List",
+    "OBJ-LG-008": "Scraped HTML Data",
+    "OBJ-LG-009": "n8n Workflow",
+    "OBJ-AI-001": "MCP Connector",
+    "OBJ-AI-002": "Connector Code",
+    "OBJ-AI-003": "API Credentials"
+  },
+  "actions": [
+    "scrape",
+    "parse",
+    "build",
+    "generate",
+    "deploy",
+    "configure"
+  ],
+  "typical_tasks": [
+    "Build custom niche platform scraper with n8n + HTTP requests (2-4 hours)",
+    "Create AI website content extraction pipeline (n8n + OpenAI + Apify)",
+    "Generate MCP connector code with 2-sentence prompt (30-60 seconds)",
+    "Deploy MCP connector locally with Cursor assistance (5 minutes)",
+    "Setup OAuth 2.0 credentials for Gmail MCP connector",
+    "Parse unstructured website HTML to extract contact information"
+  ],
+  "performance_metrics": {
+    "connector_generation_time": "30-60 seconds",
+    "connector_deployment_time": "5-10 minutes",
+    "pipeline_build_time": "2-4 hours",
+    "html_parsing_success_rate": "10-20% email enrichment (difficult sources)"
+  },
+  "source": "Video_006_Lead_Generation_Analysis + Video_008_MCP_Connector_Tutorial"
+}

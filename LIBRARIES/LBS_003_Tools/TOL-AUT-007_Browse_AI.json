@@ -1,0 +1,263 @@
+{
+  "entity_type": "LIBRARIES",
+  "sub_entity": "Tool",
+  "tool_id": "TOL-AUT-007",
+  "name": "Browse AI",
+  "vendor": "Browse AI",
+  "category": "Automation Tools / Web Automation / Data Extraction",
+  "purpose": "No-code web scraping platform for extracting structured data from websites",
+  "description": "Browse AI is a no-code web scraping and automation tool that allows users to build robots to extract structured data from websites without writing code. Features include pattern recognition for list extraction, pagination handling, scheduled automation, Google Sheets integration, and website change monitoring. The tool uses a Chrome extension to record user actions and automatically detect data patterns.",
+  "skill_level_required": "Beginner to Intermediate",
+  "cost_structure": "Freemium (Free tier available, paid plans for advanced features and higher limits)",
+  "platform_compatibility": [
+    "Web",
+    "Chrome Extension"
+  ],
+  "integration_capabilities": [
+    "Google Sheets integration",
+    "CSV export",
+    "JSON export",
+    "Webhooks (potential)",
+    "API access (paid plans)",
+    "Scheduled automation",
+    "Site change monitoring",
+    "Multi-page scraping (pagination)",
+    "Pattern recognition",
+    "No-code robot builder"
+  ],
+  "documentation_url": "https://browse.ai",
+  "actual_remote_helpers_usage": {
+    "primary_use": "No-Code Web Scraping and Data Automation",
+    "users": [
+      "AI Engineers",
+      "Lead Generators",
+      "Data Analysts",
+      "Marketing Teams",
+      "Research Teams"
+    ],
+    "use_cases": [
+      "extract structured data from websites",
+      "scrape lead lists from directories",
+      "monitor competitor pricing",
+      "gather market research data",
+      "track website changes",
+      "automate data collection workflows",
+      "build web scraping robots",
+      "export data to Google Sheets",
+      "handle multi-page data extraction"
+    ],
+    "workflows": [
+      "WRF-AUT-001"
+    ]
+  },
+  "strengths": [
+    "No-code interface - accessible to non-technical users",
+    "Pattern recognition automatically detects data structures",
+    "Pagination handling for multi-page scraping",
+    "Google Sheets integration for direct export",
+    "Scheduled automation for recurring data collection",
+    "Website change monitoring capabilities",
+    "Chrome extension for easy robot building",
+    "Visual element selection interface",
+    "CSV and JSON export options"
+  ],
+  "limitations": [
+    "Requires Chrome browser and extension",
+    "Free tier has usage limits",
+    "Advanced features require paid subscription",
+    "May not work with heavily dynamic JavaScript sites",
+    "Rate limiting on requests"
+  ],
+  "departments_using": [
+    "AID",
+    "LGN",
+    "MKT"
+  ],
+  "tags": [
+    "automation",
+    "web-scraping",
+    "data-extraction",
+    "no-code",
+    "leads",
+    "competitive-intelligence",
+    "market-research",
+    "chrome-extension",
+    "pagination",
+    "google-sheets-integration"
+  ],
+  "discovery_date": "2025-11-23",
+  "discovery_source": "Video_022",
+  "status": "active",
+  "video_source": {
+    "video_id": "Video_022",
+    "video_title": "This AI Agent Will DO Your Work For You! (Browse AI)",
+    "video_creator": "The AI Advantage (Igor)",
+    "video_url": "https://youtu.be/EYAMZ9aSVh4?si=jGCLbwgNKvCHJA33",
+    "video_duration": "10:53",
+    "video_date": "2022-11-04",
+    "extraction_date": "2025-11-23",
+    "mentions_count": 47,
+    "tool_prominence": "CRITICAL - Core tool of entire video",
+    "timestamps": [
+      "00:15",
+      "00:35",
+      "01:00",
+      "01:30",
+      "02:15",
+      "02:45",
+      "03:20",
+      "04:00",
+      "05:15",
+      "06:10",
+      "07:00",
+      "08:20",
+      "09:10",
+      "10:00"
+    ]
+  },
+  "cross_references": {
+    "workflows": [
+      {
+        "workflow_id": "WRF-AUT-001",
+        "workflow_name": "Automated Web Scraping Pipeline",
+        "role": "Primary tool for entire workflow"
+      }
+    ],
+    "milestones": [
+      {
+        "milestone_id": "MLT-029",
+        "milestone_name": "Configure Extraction Environment",
+        "tasks": ["TST-001", "TST-002"]
+      },
+      {
+        "milestone_id": "MLT-030",
+        "milestone_name": "Build Web Scraping Robot",
+        "tasks": ["TST-003", "TST-004", "TST-005", "TST-006"]
+      },
+      {
+        "milestone_id": "MLT-031",
+        "milestone_name": "Execute and Export Data",
+        "tasks": ["TST-007", "TST-008"]
+      }
+    ],
+    "tasks": [
+      "TST-001: Initialize Browse AI Account",
+      "TST-002: Install Browser Extension",
+      "TST-003: Initialize Robot",
+      "TST-004: Define Data Pattern",
+      "TST-005: Map Data Attributes",
+      "TST-006: Configure Pagination",
+      "TST-007: Execute Scraping Task",
+      "TST-008: Export Data"
+    ],
+    "actions": [
+      "ACT-100: Install",
+      "ACT-101: Monitor",
+      "ACT-102: Extract",
+      "ACT-103: Record",
+      "ACT-104: Hover",
+      "ACT-105: Select",
+      "ACT-106: Detect",
+      "ACT-107: Map",
+      "ACT-108: Scroll",
+      "ACT-109: Click",
+      "ACT-110: Navigate",
+      "ACT-111: Scrape",
+      "ACT-112: Capture"
+    ],
+    "objects": [
+      "OBJ-001: Datasets",
+      "OBJ-003: Lists",
+      "OBJ-004: Robots",
+      "OBJ-005: Browser Extensions",
+      "OBJ-007: Data Columns",
+      "OBJ-008: UI Elements"
+    ],
+    "professions": [
+      "PRF-003: AI Engineer",
+      "PRF-001: Lead Generator",
+      "PRF-002: Data Analyst"
+    ],
+    "related_tools": [
+      {
+        "tool_id": "TOL-BIZ-004",
+        "tool_name": "Google Sheets",
+        "relationship": "Export destination / Integration partner"
+      }
+    ]
+  },
+  "key_features": [
+    {
+      "feature": "No-Code Robot Builder",
+      "description": "Visual interface to build scraping robots without programming",
+      "use_case": "Accessible to non-technical team members"
+    },
+    {
+      "feature": "Pattern Recognition",
+      "description": "Automatically detects repeating patterns in lists and data structures",
+      "use_case": "Quickly identify all items in a list after selecting 2 examples"
+    },
+    {
+      "feature": "Chrome Extension",
+      "description": "Browser extension that records user actions and provides overlay interface",
+      "use_case": "Record scraping actions directly in the browser"
+    },
+    {
+      "feature": "Pagination Handling",
+      "description": "Configure robots to automatically navigate through multiple pages",
+      "use_case": "Scrape data across hundreds of pages automatically"
+    },
+    {
+      "feature": "Data Column Mapping",
+      "description": "Map HTML elements to named data fields/columns",
+      "use_case": "Structure scraped data with custom field names"
+    },
+    {
+      "feature": "Google Sheets Integration",
+      "description": "Direct export to Google Sheets via integration",
+      "use_case": "Real-time data population for analysis and reporting"
+    },
+    {
+      "feature": "Scheduled Automation",
+      "description": "Schedule robots to run daily, weekly, or on custom intervals",
+      "use_case": "Recurring competitive intelligence and price monitoring"
+    },
+    {
+      "feature": "Site Change Monitoring",
+      "description": "Monitor websites for changes and receive notifications",
+      "use_case": "Track competitor updates, price changes, new products"
+    }
+  ],
+  "business_value": [
+    "Eliminates manual copy-paste work",
+    "Reduces data collection time from hours to minutes",
+    "Enables non-technical users to perform web scraping",
+    "Scales data collection across multiple pages",
+    "Automates recurring data collection tasks",
+    "Provides structured data for analysis",
+    "Supports competitive intelligence workflows",
+    "Integrates with existing business tools (Google Sheets)"
+  ],
+  "typical_workflow": {
+    "duration": "20-30 minutes (setup)",
+    "complexity": "Medium",
+    "steps": [
+      "1. Create Browse AI account (2 min)",
+      "2. Install Chrome extension (3 min)",
+      "3. Initialize robot with target URL (3 min)",
+      "4. Define data pattern by selecting list items (3 min)",
+      "5. Map data attributes to columns (4 min)",
+      "6. Configure pagination if multi-page (2 min)",
+      "7. Name and save robot (1 min)",
+      "8. Execute scraping task (variable runtime)",
+      "9. Export to Google Sheets or CSV (2 min)"
+    ]
+  },
+  "notes": [
+    "Demonstrated in Video_022 for scraping AI tools directory",
+    "Example robot extracted 50 tools across 5 pages",
+    "Pattern recognition detected structure after selecting 2 items",
+    "Direct Google Sheets integration eliminates manual export steps",
+    "Suitable for lead generation, market research, price monitoring use cases"
+  ]
+}

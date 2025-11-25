@@ -1,0 +1,132 @@
+{
+  "milestone_id": "MIL-NMP-005",
+  "milestone_name": "Processing Rules Complete",
+  "project_id": "PROJ-001",
+  "phase": 3,
+  "phase_name": "Template Creation",
+  "status": "Planned",
+  "priority": "High",
+  "progress_percentage": 0,
+  "description": "Create 6 processing rule files in 03_Processing_Rules/ folder covering entity recognition patterns, participant identification, project matching, and cross-referencing logic.",
+  "target_start_date": "2025-12-04",
+  "target_completion_date": "2025-12-06",
+  "actual_start_date": null,
+  "actual_completion_date": null,
+  "estimated_duration": "2 days",
+  "tasks": [
+    "TASK-NMP-041"
+  ],
+  "deliverables": [
+    {
+      "id": "DEL-005-00",
+      "name": "README.md",
+      "description": "Processing rules overview and workflow",
+      "status": "Pending"
+    },
+    {
+      "id": "DEL-005-01",
+      "name": "01_Participant_Identification.md",
+      "description": "How to identify participants from transcripts",
+      "status": "Pending"
+    },
+    {
+      "id": "DEL-005-02",
+      "name": "02_Project_Recognition.md",
+      "description": "Project keyword matching and abbreviation detection",
+      "status": "Pending"
+    },
+    {
+      "id": "DEL-005-03",
+      "name": "03_Entity_Recognition.md",
+      "description": "Master recognition workflow for all 12 libraries",
+      "status": "Pending"
+    },
+    {
+      "id": "DEL-005-04",
+      "name": "04_Language_Handling.md",
+      "description": "Multi-language support and translation rules",
+      "status": "Pending"
+    },
+    {
+      "id": "DEL-005-05",
+      "name": "05_Vocabulary_Recognition.md",
+      "description": "Industry and company-specific terminology",
+      "status": "Pending"
+    },
+    {
+      "id": "DEL-005-06",
+      "name": "06_Cross_Reference_Rules.md",
+      "description": "How to create cross-references between entities",
+      "status": "Pending"
+    }
+  ],
+  "success_criteria": {
+    "quantitative": [
+      "All 7 files created (6 rules + README)",
+      "Entity recognition workflow covers all 12 libraries",
+      "Cross-reference rules for all library relationships documented"
+    ],
+    "qualitative": [
+      "Recognition patterns are clear and actionable",
+      "Confidence level assignment logic is well-defined",
+      "Ambiguity resolution strategies are comprehensive",
+      "Cross-referencing logic is sound and validated"
+    ]
+  },
+  "acceptance_criteria": [
+    {
+      "criteria": "All 7 files created in 03_Processing_Rules/",
+      "verified": false
+    },
+    {
+      "criteria": "01_Participant_Identification.md includes name variation handling",
+      "verified": false
+    },
+    {
+      "criteria": "02_Project_Recognition.md includes abbreviation matching",
+      "verified": false
+    },
+    {
+      "criteria": "03_Entity_Recognition.md covers all 12 libraries",
+      "verified": false
+    },
+    {
+      "criteria": "03_Entity_Recognition.md includes confidence level assignment logic",
+      "verified": false
+    },
+    {
+      "criteria": "06_Cross_Reference_Rules.md includes relationship validation",
+      "verified": false
+    }
+  ],
+  "dependencies": [
+    {
+      "dependency_id": "DEP-MIL-005-01",
+      "description": "MIL-003 complete (library integration modules define recognition patterns)",
+      "type": "Milestone",
+      "status": "Required"
+    },
+    {
+      "dependency_id": "DEP-MIL-005-02",
+      "description": "MAIN_PROMPT_v4.md Processing Guidelines section",
+      "type": "Document",
+      "status": "Available"
+    }
+  ],
+  "blockers": [],
+  "risks": [],
+  "related_milestones": {
+    "prerequisites": [
+      "MIL-003"
+    ],
+    "enables": [
+      "MIL-008"
+    ],
+    "parallel": [
+      "MIL-004"
+    ]
+  },
+  "notes": "Extract and enhance from MAIN_PROMPT_v4.md Processing Guidelines section. Integrate recognition patterns defined in MIL-003 library modules. Follow CREATE_MAIN_PROMPT_v5.md Phase 5.",
+  "last_updated": "2025-11-15",
+  "version": "1.0"
+}

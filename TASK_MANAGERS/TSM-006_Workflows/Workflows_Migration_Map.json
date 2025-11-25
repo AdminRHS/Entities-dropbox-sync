@@ -1,0 +1,110 @@
+{
+  "metadata": {
+    "version": "1.1.0",
+    "generated": "2025-11-18",
+    "last_updated": "2025-11-20",
+    "entity": "Workflows",
+    "meta_category": "TSM-006",
+    "description": "ISO code migration mapping for Workflows from descriptive names to standardized WRF-### format, organized under TSM-006 meta-category",
+    "naming_convention": "WRF (Workflow) - 3-letter consonant code, NOT ending with T (non-template entity)",
+    "total_entities_mapped": 20
+  },
+  "iso_code_derivation": {
+    "entity_name": "Workflow",
+    "iso_code": "WRF",
+    "derivation_logic": "WoRkFlow → WRF (consonants only)",
+    "alternative_considered": "WKF",
+    "reason_for_selection": "WRF better represents the full word and is more memorable"
+  },
+  "meta_category": {
+    "TSM-006": {
+      "category_name": "Workflows",
+      "organizes": "WRF",
+      "instance_count": 20,
+      "id_range": "WRF-001 to WRF-020",
+      "description": "Meta-level category organizing all Workflow entities"
+    }
+  },
+  "entity_type_iso_codes": {
+    "WRF": {
+      "full_name": "Workflow",
+      "description": "Reusable workflow patterns that can be applied across projects and milestones",
+      "meta_parent": "TSM-006",
+      "range": "WRF-001 to WRF-020",
+      "total_count": 20,
+      "template_suffix": false
+    }
+  },
+  "workflow_mappings": [
+    {"legacy_id": "Behance_Project_Publishing_Workflow", "new_id": "WRF-001", "name": "Behance Project Publishing", "department": "DGN", "platform": "Behance"},
+    {"legacy_id": "Content_Repurposing_Pipeline_Workflow", "new_id": "WRF-002", "name": "Content Repurposing Pipeline", "department": "LGN", "platform": "Multi-platform"},
+    {"legacy_id": "Cross_Platform_Content_Distribution_Workflow", "new_id": "WRF-003", "name": "Cross Platform Content Distribution", "department": "LGN", "platform": "Multi-platform"},
+    {"legacy_id": "Dev_to_Technical_Blogging_Workflow", "new_id": "WRF-004", "name": "Dev.to Technical Blogging", "department": "DEV", "platform": "Dev.to"},
+    {"legacy_id": "Dribbble_Shot_Posting_Workflow", "new_id": "WRF-005", "name": "Dribbble Shot Posting", "department": "DGN", "platform": "Dribbble"},
+    {"legacy_id": "Dribbble_Shot_Publishing_Workflow", "new_id": "WRF-006", "name": "Dribbble Shot Publishing", "department": "DGN", "platform": "Dribbble"},
+    {"legacy_id": "Facebook_Community_Management_Workflow", "new_id": "WRF-007", "name": "Facebook Community Management", "department": "LGN", "platform": "Facebook"},
+    {"legacy_id": "GitHub_Open_Source_Contribution_Workflow", "new_id": "WRF-008", "name": "GitHub Open Source Contribution", "department": "DEV", "platform": "GitHub"},
+    {"legacy_id": "Instagram_Content_Strategy_Workflow", "new_id": "WRF-009", "name": "Instagram Content Strategy", "department": "LGN", "platform": "Instagram"},
+    {"legacy_id": "Instagram_Designer_Portfolio_Workflow", "new_id": "WRF-010", "name": "Instagram Designer Portfolio", "department": "DGN", "platform": "Instagram"},
+    {"legacy_id": "Lead_Enrichment_Workflow", "new_id": "WRF-011", "name": "Lead Enrichment", "department": "LGN", "platform": "Multi-platform"},
+    {"legacy_id": "LinkedIn_B2B_Content_Strategy_Workflow", "new_id": "WRF-012", "name": "LinkedIn B2B Content Strategy", "department": "LGN", "platform": "LinkedIn"},
+    {"legacy_id": "Medium_Long_Form_Publishing_Workflow", "new_id": "WRF-013", "name": "Medium Long Form Publishing", "department": "LGN", "platform": "Medium"},
+    {"legacy_id": "Old_Client_Reengagement_Workflow", "new_id": "WRF-014", "name": "Old Client Reengagement", "department": "SLS", "platform": "Email"},
+    {"legacy_id": "Pinterest_Discovery_Strategy_Workflow", "new_id": "WRF-015", "name": "Pinterest Discovery Strategy", "department": "LGN", "platform": "Pinterest"},
+    {"legacy_id": "Pinterest_Traffic_Generation_Workflow", "new_id": "WRF-016", "name": "Pinterest Traffic Generation", "department": "LGN", "platform": "Pinterest"},
+    {"legacy_id": "Short_Form_Video_Production_Workflow", "new_id": "WRF-017", "name": "Short Form Video Production", "department": "VID", "platform": "Multi-platform"},
+    {"legacy_id": "Stack_Overflow_Reputation_Building_Workflow", "new_id": "WRF-018", "name": "Stack Overflow Reputation Building", "department": "DEV", "platform": "Stack Overflow"},
+    {"legacy_id": "Twitter_Real_Time_Engagement_Workflow", "new_id": "WRF-019", "name": "Twitter Real Time Engagement", "department": "LGN", "platform": "Twitter/X"},
+    {"legacy_id": "YouTube_Tutorial_Production_Workflow", "new_id": "WRF-020", "name": "YouTube Tutorial Production", "department": "VID", "platform": "YouTube"}
+  ],
+  "validation_checksums": {
+    "total_workflows": 20,
+    "by_department": {
+      "LGN": 10,
+      "DGN": 4,
+      "DEV": 3,
+      "VID": 2,
+      "SLS": 1
+    },
+    "by_platform": {
+      "Multi-platform": 4,
+      "Pinterest": 2,
+      "Dribbble": 2,
+      "Instagram": 2,
+      "YouTube": 1,
+      "LinkedIn": 1,
+      "Medium": 1,
+      "Twitter": 1,
+      "Facebook": 1,
+      "GitHub": 1,
+      "Dev.to": 1,
+      "Stack Overflow": 1,
+      "Behance": 1,
+      "Email": 1
+    }
+  },
+  "department_code_registry": {
+    "AID": "AI Department (includes Automations, Operations, Administration)",
+    "HRM": "Human Resource Management",
+    "DEV": "Development & Engineering",
+    "LGN": "Lead Generation & Marketing",
+    "DGN": "Design & Creative",
+    "VID": "Video Production",
+    "SLS": "Sales & Client Relations"
+  },
+  "iso_code_rules": {
+    "no_template_suffix": "Workflows are non-template entities (WRF does not end with T)",
+    "consonant_only": "All codes use only consonants (no vowels A, E, I, O, U) where possible",
+    "three_letters": "All codes are exactly 3 letters",
+    "uppercase": "All codes are uppercase",
+    "memorable": "Codes derived from entity type names for easy recall"
+  },
+  "migration_status": {
+    "migration_started": "2025-11-18",
+    "migration_completed": "2025-11-18",
+    "total_entities_migrated": 20,
+    "legacy_format": "Descriptive_Name_Workflow.yaml",
+    "new_format": "WRF-###",
+    "backwards_compatibility": "Legacy descriptive names preserved in Current_ID field for reference"
+  }
+}

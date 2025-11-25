@@ -1,0 +1,38 @@
+{
+  "Actions": "split",
+  "Processes": "splitting",
+  "Results": "split",
+  "Departments": "developers, managers",
+  "Professions": "back end developer, ai engineer, lead generator",
+  "category": "Data_Operations",
+  "source": "Video_006_Lead_Generation_Analysis",
+  "discovery_date": "2025-11-12",
+  "description": "Divide data into multiple parts, segments, or batches for processing or distribution",
+  "typical_use_cases": [
+    "Split large lead list into batches",
+    "Divide leads by territory/region",
+    "Split data for parallel processing",
+    "Segment lists by criteria",
+    "Break down bulk data for rate limiting"
+  ],
+  "common_objects": [
+    "Lead List",
+    "Enrichment Pipeline",
+    "Email Address"
+  ],
+  "common_tools": [
+    "n8n",
+    "Make.com",
+    "Custom scripts"
+  ],
+  "related_actions": [
+    "segment",
+    "divide",
+    "batch",
+    "filter"
+  ],
+  "workflows": [
+    "Import large list → Split into batches → Feed to enrichment",
+    "Parse data → Split by criteria → Route to different pipelines"
+  ]
+}

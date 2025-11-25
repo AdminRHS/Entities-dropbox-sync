@@ -1,0 +1,44 @@
+{
+  "step_template_id": "Step-Template-002",
+  "step_template_name": "Archive Edited Video to Drive",
+  "metadata": {
+    "status": "Active"
+  },
+  "parent_task": {
+    "task_id": "TASK-TEMPLATE-HR-003",
+    "task_name": "Conduct Video Interview with Candidate"
+  },
+  "step_details": {
+    "step_number": 2,
+    "order": 2,
+    "action": "upload",
+    "detail": "Upload the exported MP4 to the designated company Drive/Dropbox folder, capture the share link, and log the storage path",
+    "expected_duration": 15
+  },
+  "execution": {
+    "tool_used": "Google Drive / Dropbox",
+    "inputs": [
+      "Edited MP4 from Step 1",
+      "Folder structure for project/company",
+      "Metadata sheet with project_company_id"
+    ],
+    "outputs": [
+      "url_video_to_drive_disk",
+      "Version note confirming checksum"
+    ],
+    "success_criteria": "Video stored in the correct folder with public/internal link captured in CRM"
+  },
+  "relationships": {
+    "dependencies": [
+      "STEP-HR-003-01"
+    ],
+    "next_steps": [
+      "STEP-HR-003-03"
+    ],
+    "parallel_steps": []
+  },
+  "source_tracking": {
+    "source_file": "AI Nov25/Niko AI/Employees/units/video_editing.json",
+    "extraction_date": "2025-11-07"
+  }
+}

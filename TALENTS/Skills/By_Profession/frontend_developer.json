@@ -1,0 +1,99 @@
+﻿[
+    {
+        "skill_id":  "SKL-030",
+        "skill_phrase":  "developed features in React",
+        "components":  {
+                           "result":  "developed",
+                           "action":  "develop",
+                           "object":  "features",
+                           "object_type":  "UI components, pages",
+                           "tool":  "React",
+                           "tool_category":  "Development Framework"
+                       },
+        "department":  "Developers",
+        "professions":  [
+                            "frontend developer",
+                            "full stack developer"
+                        ],
+        "difficulty_level":  "intermediate",
+        "frequency":  "daily",
+        "time_estimate_minutes":  240,
+        "automation_potential":  "low",
+        "related_skills":  [
+                               "SKL-031",
+                               "SKL-032"
+                           ],
+        "example_tasks":  [
+                              "Develop user dashboard with data visualization components",
+                              "Create responsive navigation menu with React Router"
+                          ],
+        "training_resources":  [
+
+                               ]
+    },
+    {
+        "skill_id":  "SKL-032",
+        "skill_phrase":  "managed code via GitHub",
+        "components":  {
+                           "result":  "managed",
+                           "action":  "manage",
+                           "object":  "code",
+                           "object_type":  "commits, branches, pull requests",
+                           "tool":  "GitHub",
+                           "tool_category":  "Version Control"
+                       },
+        "department":  "Developers",
+        "professions":  [
+                            "frontend developer",
+                            "backend developer",
+                            "full stack developer"
+                        ],
+        "difficulty_level":  "beginner",
+        "frequency":  "daily",
+        "time_estimate_minutes":  20,
+        "automation_potential":  "medium",
+        "related_skills":  [
+                               "SKL-030",
+                               "SKL-031"
+                           ],
+        "example_tasks":  [
+                              "Create feature branch and commit code changes",
+                              "Open pull request and request code review"
+                          ],
+        "training_resources":  [
+
+                               ]
+    },
+    {
+        "skill_id":  "SKL-033",
+        "skill_phrase":  "debugged applications using DevTools",
+        "components":  {
+                           "result":  "debugged",
+                           "action":  "debug",
+                           "object":  "applications",
+                           "object_type":  "bugs, errors, performance issues",
+                           "tool":  "Chrome DevTools",
+                           "tool_category":  "Development Tool"
+                       },
+        "department":  "Developers",
+        "professions":  [
+                            "frontend developer",
+                            "full stack developer"
+                        ],
+        "difficulty_level":  "intermediate",
+        "frequency":  "daily",
+        "time_estimate_minutes":  45,
+        "automation_potential":  "low",
+        "related_skills":  [
+                               "SKL-030",
+                               "SKL-034"
+                           ],
+        "example_tasks":  [
+                              "Identify and fix memory leak using DevTools profiler",
+                              "Debug API response errors in Network tab"
+                          ],
+        "training_resources":  [
+
+                               ]
+    }
+]

@@ -1,0 +1,1070 @@
+[
+  {
+    "id": "RESP-DEV-001",
+    "primary_phrase": "build data",
+    "action_variants": [
+      "build"
+    ],
+    "object_variants": [
+      "build data cleaning and structuring logic",
+      "build data parsing and cleaning logic",
+      "notion ats database"
+    ],
+    "action_base": "build",
+    "object_base": "data",
+    "departments": [
+      "Dev",
+      "HR",
+      "LG"
+    ],
+    "primary_department": "Dev",
+    "typical_tools": [],
+    "object_types": [],
+    "description": "Build data",
+    "frequency": 3,
+    "usage_examples": [
+      {
+        "task_id": "TEMPLATE-TASK-014",
+        "department": "Dev",
+        "level": "step"
+      },
+      {
+        "task_id": "TEMPLATE-TASK-011",
+        "department": "LG",
+        "level": "step"
+      },
+      {
+        "task_id": "TEMPLATE-TASK-HR-AUTO-003",
+        "department": "HR",
+        "level": "task"
+      }
+    ],
+    "is_active": true,
+    "created_at": "2025-11-16T00:34:51.041577",
+    "created_by": "system_migration",
+    "version": "1.0"
+  },
+  {
+    "id": "RESP-DEV-002",
+    "primary_phrase": "parse data",
+    "action_variants": [
+      "parse"
+    ],
+    "object_variants": [
+      "html data"
+    ],
+    "action_base": "parse",
+    "object_base": "data",
+    "departments": [
+      "Dev"
+    ],
+    "primary_department": "Dev",
+    "typical_tools": [],
+    "object_types": [],
+    "description": "Parse data",
+    "frequency": 1,
+    "usage_examples": [
+      {
+        "task_id": "TEMPLATE-TASK-014",
+        "department": "Dev",
+        "level": "task"
+      }
+    ],
+    "is_active": true,
+    "created_at": "2025-11-16T00:34:51.041579",
+    "created_by": "system_migration",
+    "version": "1.0"
+  },
+  {
+    "id": "RESP-DEV-003",
+    "primary_phrase": "identify data",
+    "action_variants": [
+      "identify"
+    ],
+    "object_variants": [
+      "identify target website with unstructured data"
+    ],
+    "action_base": "identify",
+    "object_base": "data",
+    "departments": [
+      "Dev"
+    ],
+    "primary_department": "Dev",
+    "typical_tools": [],
+    "object_types": [],
+    "description": "Identify data",
+    "frequency": 1,
+    "usage_examples": [
+      {
+        "task_id": "TEMPLATE-TASK-014",
+        "department": "Dev",
+        "level": "step"
+      }
+    ],
+    "is_active": true,
+    "created_at": "2025-11-16T00:34:51.041581",
+    "created_by": "system_migration",
+    "version": "1.0"
+  },
+  {
+    "id": "RESP-DEV-004",
+    "primary_phrase": "scrape scrape website html",
+    "action_variants": [
+      "scrape"
+    ],
+    "object_variants": [
+      "scrape website html via apify (optional)"
+    ],
+    "action_base": "scrape",
+    "object_base": "scrape website html",
+    "departments": [
+      "Dev"
+    ],
+    "primary_department": "Dev",
+    "typical_tools": [],
+    "object_types": [],
+    "description": "Scrape scrape website html",
+    "frequency": 1,
+    "usage_examples": [
+      {
+        "task_id": "TEMPLATE-TASK-014",
+        "department": "Dev",
+        "level": "step"
+      }
+    ],
+    "is_active": true,
+    "created_at": "2025-11-16T00:34:51.041585",
+    "created_by": "system_migration",
+    "version": "1.0"
+  },
+  {
+    "id": "RESP-DEV-005",
+    "primary_phrase": "design design n8n workflow",
+    "action_variants": [
+      "design"
+    ],
+    "object_variants": [
+      "design n8n workflow for ai parsing"
+    ],
+    "action_base": "design",
+    "object_base": "design n8n workflow",
+    "departments": [
+      "Dev"
+    ],
+    "primary_department": "Dev",
+    "typical_tools": [],
+    "object_types": [],
+    "description": "Design design n8n workflow",
+    "frequency": 1,
+    "usage_examples": [
+      {
+        "task_id": "TEMPLATE-TASK-014",
+        "department": "Dev",
+        "level": "step"
+      }
+    ],
+    "is_active": true,
+    "created_at": "2025-11-16T00:34:51.041588",
+    "created_by": "system_migration",
+    "version": "1.0"
+  },
+  {
+    "id": "RESP-DEV-006",
+    "primary_phrase": "build html input node",
+    "action_variants": [
+      "build"
+    ],
+    "object_variants": [
+      "build html input node in n8n"
+    ],
+    "action_base": "build",
+    "object_base": "html input node",
+    "departments": [
+      "Dev"
+    ],
+    "primary_department": "Dev",
+    "typical_tools": [],
+    "object_types": [],
+    "description": "Build html input node",
+    "frequency": 1,
+    "usage_examples": [
+      {
+        "task_id": "TEMPLATE-TASK-014",
+        "department": "Dev",
+        "level": "step"
+      }
+    ],
+    "is_active": true,
+    "created_at": "2025-11-16T00:34:51.041591",
+    "created_by": "system_migration",
+    "version": "1.0"
+  },
+  {
+    "id": "RESP-DEV-007",
+    "primary_phrase": "configure openai parsing node",
+    "action_variants": [
+      "configure"
+    ],
+    "object_variants": [
+      "configure openai parsing node"
+    ],
+    "action_base": "configure",
+    "object_base": "openai parsing node",
+    "departments": [
+      "Dev"
+    ],
+    "primary_department": "Dev",
+    "typical_tools": [],
+    "object_types": [],
+    "description": "Configure openai parsing node",
+    "frequency": 1,
+    "usage_examples": [
+      {
+        "task_id": "TEMPLATE-TASK-014",
+        "department": "Dev",
+        "level": "step"
+      }
+    ],
+    "is_active": true,
+    "created_at": "2025-11-16T00:34:51.041593",
+    "created_by": "system_migration",
+    "version": "1.0"
+  },
+  {
+    "id": "RESP-DEV-008",
+    "primary_phrase": "test test ai parsing on sample html",
+    "action_variants": [
+      "test"
+    ],
+    "object_variants": [
+      "test ai parsing on sample html"
+    ],
+    "action_base": "test",
+    "object_base": "test ai parsing on sample html",
+    "departments": [
+      "Dev"
+    ],
+    "primary_department": "Dev",
+    "typical_tools": [],
+    "object_types": [],
+    "description": "Test test ai parsing on sample html",
+    "frequency": 1,
+    "usage_examples": [
+      {
+        "task_id": "TEMPLATE-TASK-014",
+        "department": "Dev",
+        "level": "step"
+      }
+    ],
+    "is_active": true,
+    "created_at": "2025-11-16T00:34:51.041595",
+    "created_by": "system_migration",
+    "version": "1.0"
+  },
+  {
+    "id": "RESP-DEV-009",
+    "primary_phrase": "execute run full html parsing pipeline",
+    "action_variants": [
+      "execute"
+    ],
+    "object_variants": [
+      "run full html parsing pipeline"
+    ],
+    "action_base": "execute",
+    "object_base": "run full html parsing pipeline",
+    "departments": [
+      "Dev"
+    ],
+    "primary_department": "Dev",
+    "typical_tools": [],
+    "object_types": [],
+    "description": "Execute run full html parsing pipeline",
+    "frequency": 1,
+    "usage_examples": [
+      {
+        "task_id": "TEMPLATE-TASK-014",
+        "department": "Dev",
+        "level": "step"
+      }
+    ],
+    "is_active": true,
+    "created_at": "2025-11-16T00:34:51.041598",
+    "created_by": "system_migration",
+    "version": "1.0"
+  },
+  {
+    "id": "RESP-DEV-010",
+    "primary_phrase": "export and validate results",
+    "action_variants": [
+      "export"
+    ],
+    "object_variants": [
+      "export and validate results"
+    ],
+    "action_base": "export",
+    "object_base": "and validate results",
+    "departments": [
+      "Dev"
+    ],
+    "primary_department": "Dev",
+    "typical_tools": [],
+    "object_types": [],
+    "description": "Export and validate results",
+    "frequency": 1,
+    "usage_examples": [
+      {
+        "task_id": "TEMPLATE-TASK-014",
+        "department": "Dev",
+        "level": "step"
+      }
+    ],
+    "is_active": true,
+    "created_at": "2025-11-16T00:34:51.041600",
+    "created_by": "system_migration",
+    "version": "1.0"
+  },
+  {
+    "id": "RESP-DEV-011",
+    "primary_phrase": "generate mcp connector",
+    "action_variants": [
+      "generate"
+    ],
+    "object_variants": [
+      "mcp connector"
+    ],
+    "action_base": "generate",
+    "object_base": "mcp connector",
+    "departments": [
+      "Dev"
+    ],
+    "primary_department": "Dev",
+    "typical_tools": [],
+    "object_types": [],
+    "description": "Generate mcp connector",
+    "frequency": 1,
+    "usage_examples": [
+      {
+        "task_id": "TEMPLATE-TASK-006",
+        "department": "Dev",
+        "level": "task"
+      }
+    ],
+    "is_active": true,
+    "created_at": "2025-11-16T00:34:51.041602",
+    "created_by": "system_migration",
+    "version": "1.0"
+  },
+  {
+    "id": "RESP-DEV-012",
+    "primary_phrase": "enable enable mcp-builder skill",
+    "action_variants": [
+      "enable"
+    ],
+    "object_variants": [
+      "enable mcp-builder skill in claude desktop"
+    ],
+    "action_base": "enable",
+    "object_base": "enable mcp-builder skill",
+    "departments": [
+      "Dev"
+    ],
+    "primary_department": "Dev",
+    "typical_tools": [],
+    "object_types": [],
+    "description": "Enable enable mcp-builder skill",
+    "frequency": 1,
+    "usage_examples": [
+      {
+        "task_id": "TEMPLATE-TASK-006",
+        "department": "Dev",
+        "level": "step"
+      }
+    ],
+    "is_active": true,
+    "created_at": "2025-11-16T00:34:51.041604",
+    "created_by": "system_migration",
+    "version": "1.0"
+  },
+  {
+    "id": "RESP-DEV-013",
+    "primary_phrase": "write write 2-sentence connector prompt",
+    "action_variants": [
+      "write"
+    ],
+    "object_variants": [
+      "write 2-sentence connector prompt"
+    ],
+    "action_base": "write",
+    "object_base": "write 2-sentence connector prompt",
+    "departments": [
+      "Dev"
+    ],
+    "primary_department": "Dev",
+    "typical_tools": [],
+    "object_types": [],
+    "description": "Write write 2-sentence connector prompt",
+    "frequency": 1,
+    "usage_examples": [
+      {
+        "task_id": "TEMPLATE-TASK-006",
+        "department": "Dev",
+        "level": "step"
+      }
+    ],
+    "is_active": true,
+    "created_at": "2025-11-16T00:34:51.041606",
+    "created_by": "system_migration",
+    "version": "1.0"
+  },
+  {
+    "id": "RESP-DEV-014",
+    "primary_phrase": "submit submit prompt",
+    "action_variants": [
+      "submit"
+    ],
+    "object_variants": [
+      "submit prompt to mcp-builder skill"
+    ],
+    "action_base": "submit",
+    "object_base": "submit prompt",
+    "departments": [
+      "Dev"
+    ],
+    "primary_department": "Dev",
+    "typical_tools": [],
+    "object_types": [],
+    "description": "Submit submit prompt",
+    "frequency": 1,
+    "usage_examples": [
+      {
+        "task_id": "TEMPLATE-TASK-006",
+        "department": "Dev",
+        "level": "step"
+      }
+    ],
+    "is_active": true,
+    "created_at": "2025-11-16T00:34:51.041608",
+    "created_by": "system_migration",
+    "version": "1.0"
+  },
+  {
+    "id": "RESP-DEV-015",
+    "primary_phrase": "wait wait",
+    "action_variants": [
+      "wait"
+    ],
+    "object_variants": [
+      "wait for connector code generation"
+    ],
+    "action_base": "wait",
+    "object_base": "wait",
+    "departments": [
+      "Dev"
+    ],
+    "primary_department": "Dev",
+    "typical_tools": [],
+    "object_types": [],
+    "description": "Wait wait",
+    "frequency": 1,
+    "usage_examples": [
+      {
+        "task_id": "TEMPLATE-TASK-006",
+        "department": "Dev",
+        "level": "step"
+      }
+    ],
+    "is_active": true,
+    "created_at": "2025-11-16T00:34:51.041613",
+    "created_by": "system_migration",
+    "version": "1.0"
+  },
+  {
+    "id": "RESP-DEV-016",
+    "primary_phrase": "review generated connector code",
+    "action_variants": [
+      "review"
+    ],
+    "object_variants": [
+      "review generated connector code"
+    ],
+    "action_base": "review",
+    "object_base": "generated connector code",
+    "departments": [
+      "Dev"
+    ],
+    "primary_department": "Dev",
+    "typical_tools": [],
+    "object_types": [],
+    "description": "Review generated connector code",
+    "frequency": 1,
+    "usage_examples": [
+      {
+        "task_id": "TEMPLATE-TASK-006",
+        "department": "Dev",
+        "level": "step"
+      }
+    ],
+    "is_active": true,
+    "created_at": "2025-11-16T00:34:51.041615",
+    "created_by": "system_migration",
+    "version": "1.0"
+  },
+  {
+    "id": "RESP-DEV-017",
+    "primary_phrase": "copy copy code",
+    "action_variants": [
+      "copy"
+    ],
+    "object_variants": [
+      "copy code to local directory"
+    ],
+    "action_base": "copy",
+    "object_base": "copy code",
+    "departments": [
+      "Dev"
+    ],
+    "primary_department": "Dev",
+    "typical_tools": [],
+    "object_types": [],
+    "description": "Copy copy code",
+    "frequency": 1,
+    "usage_examples": [
+      {
+        "task_id": "TEMPLATE-TASK-006",
+        "department": "Dev",
+        "level": "step"
+      }
+    ],
+    "is_active": true,
+    "created_at": "2025-11-16T00:34:51.041617",
+    "created_by": "system_migration",
+    "version": "1.0"
+  },
+  {
+    "id": "RESP-DEV-018",
+    "primary_phrase": "deploy mcp connector",
+    "action_variants": [
+      "deploy"
+    ],
+    "object_variants": [
+      "mcp connector"
+    ],
+    "action_base": "deploy",
+    "object_base": "mcp connector",
+    "departments": [
+      "Dev"
+    ],
+    "primary_department": "Dev",
+    "typical_tools": [],
+    "object_types": [],
+    "description": "Deploy mcp connector",
+    "frequency": 1,
+    "usage_examples": [
+      {
+        "task_id": "TEMPLATE-TASK-010",
+        "department": "Dev",
+        "level": "task"
+      }
+    ],
+    "is_active": true,
+    "created_at": "2025-11-16T00:34:51.041619",
+    "created_by": "system_migration",
+    "version": "1.0"
+  },
+  {
+    "id": "RESP-DEV-019",
+    "primary_phrase": "copy copy generated connector code",
+    "action_variants": [
+      "copy"
+    ],
+    "object_variants": [
+      "copy generated connector code to local directory"
+    ],
+    "action_base": "copy",
+    "object_base": "copy generated connector code",
+    "departments": [
+      "Dev"
+    ],
+    "primary_department": "Dev",
+    "typical_tools": [],
+    "object_types": [],
+    "description": "Copy copy generated connector code",
+    "frequency": 1,
+    "usage_examples": [
+      {
+        "task_id": "TEMPLATE-TASK-010",
+        "department": "Dev",
+        "level": "step"
+      }
+    ],
+    "is_active": true,
+    "created_at": "2025-11-16T00:34:51.041621",
+    "created_by": "system_migration",
+    "version": "1.0"
+  },
+  {
+    "id": "RESP-DEV-020",
+    "primary_phrase": "open open connector directory",
+    "action_variants": [
+      "open"
+    ],
+    "object_variants": [
+      "open connector directory in cursor ai"
+    ],
+    "action_base": "open",
+    "object_base": "open connector directory",
+    "departments": [
+      "Dev"
+    ],
+    "primary_department": "Dev",
+    "typical_tools": [],
+    "object_types": [],
+    "description": "Open open connector directory",
+    "frequency": 1,
+    "usage_examples": [
+      {
+        "task_id": "TEMPLATE-TASK-010",
+        "department": "Dev",
+        "level": "step"
+      }
+    ],
+    "is_active": true,
+    "created_at": "2025-11-16T00:34:51.041623",
+    "created_by": "system_migration",
+    "version": "1.0"
+  },
+  {
+    "id": "RESP-DEV-021",
+    "primary_phrase": "prompt ask cursor",
+    "action_variants": [
+      "prompt"
+    ],
+    "object_variants": [
+      "ask cursor to explain setup steps"
+    ],
+    "action_base": "prompt",
+    "object_base": "ask cursor",
+    "departments": [
+      "Dev"
+    ],
+    "primary_department": "Dev",
+    "typical_tools": [],
+    "object_types": [],
+    "description": "Prompt ask cursor",
+    "frequency": 1,
+    "usage_examples": [
+      {
+        "task_id": "TEMPLATE-TASK-010",
+        "department": "Dev",
+        "level": "step"
+      }
+    ],
+    "is_active": true,
+    "created_at": "2025-11-16T00:34:51.041626",
+    "created_by": "system_migration",
+    "version": "1.0"
+  },
+  {
+    "id": "RESP-DEV-022",
+    "primary_phrase": "install install dependencies",
+    "action_variants": [
+      "install"
+    ],
+    "object_variants": [
+      "install dependencies"
+    ],
+    "action_base": "install",
+    "object_base": "install dependencies",
+    "departments": [
+      "Dev"
+    ],
+    "primary_department": "Dev",
+    "typical_tools": [],
+    "object_types": [],
+    "description": "Install install dependencies",
+    "frequency": 1,
+    "usage_examples": [
+      {
+        "task_id": "TEMPLATE-TASK-010",
+        "department": "Dev",
+        "level": "step"
+      }
+    ],
+    "is_active": true,
+    "created_at": "2025-11-16T00:34:51.041628",
+    "created_by": "system_migration",
+    "version": "1.0"
+  },
+  {
+    "id": "RESP-DEV-023",
+    "primary_phrase": "configure oauth credentials (if required)",
+    "action_variants": [
+      "configure"
+    ],
+    "object_variants": [
+      "configure oauth credentials (if required)"
+    ],
+    "action_base": "configure",
+    "object_base": "oauth credentials (if required)",
+    "departments": [
+      "Dev"
+    ],
+    "primary_department": "Dev",
+    "typical_tools": [],
+    "object_types": [],
+    "description": "Configure oauth credentials (if required)",
+    "frequency": 1,
+    "usage_examples": [
+      {
+        "task_id": "TEMPLATE-TASK-010",
+        "department": "Dev",
+        "level": "step"
+      }
+    ],
+    "is_active": true,
+    "created_at": "2025-11-16T00:34:51.041630",
+    "created_by": "system_migration",
+    "version": "1.0"
+  },
+  {
+    "id": "RESP-DEV-024",
+    "primary_phrase": "test test connector locally",
+    "action_variants": [
+      "test"
+    ],
+    "object_variants": [
+      "test connector locally"
+    ],
+    "action_base": "test",
+    "object_base": "test connector locally",
+    "departments": [
+      "Dev"
+    ],
+    "primary_department": "Dev",
+    "typical_tools": [],
+    "object_types": [],
+    "description": "Test test connector locally",
+    "frequency": 1,
+    "usage_examples": [
+      {
+        "task_id": "TEMPLATE-TASK-010",
+        "department": "Dev",
+        "level": "step"
+      }
+    ],
+    "is_active": true,
+    "created_at": "2025-11-16T00:34:51.041632",
+    "created_by": "system_migration",
+    "version": "1.0"
+  },
+  {
+    "id": "RESP-DEV-025",
+    "primary_phrase": "configure add connector",
+    "action_variants": [
+      "configure"
+    ],
+    "object_variants": [
+      "add connector to claude desktop settings"
+    ],
+    "action_base": "configure",
+    "object_base": "add connector",
+    "departments": [
+      "Dev"
+    ],
+    "primary_department": "Dev",
+    "typical_tools": [],
+    "object_types": [],
+    "description": "Configure add connector",
+    "frequency": 1,
+    "usage_examples": [
+      {
+        "task_id": "TEMPLATE-TASK-010",
+        "department": "Dev",
+        "level": "step"
+      }
+    ],
+    "is_active": true,
+    "created_at": "2025-11-16T00:34:51.041636",
+    "created_by": "system_migration",
+    "version": "1.0"
+  },
+  {
+    "id": "RESP-DEV-026",
+    "primary_phrase": "verify verify connection",
+    "action_variants": [
+      "verify"
+    ],
+    "object_variants": [
+      "verify connection in claude desktop"
+    ],
+    "action_base": "verify",
+    "object_base": "verify connection",
+    "departments": [
+      "Dev"
+    ],
+    "primary_department": "Dev",
+    "typical_tools": [],
+    "object_types": [],
+    "description": "Verify verify connection",
+    "frequency": 1,
+    "usage_examples": [
+      {
+        "task_id": "TEMPLATE-TASK-010",
+        "department": "Dev",
+        "level": "step"
+      }
+    ],
+    "is_active": true,
+    "created_at": "2025-11-16T00:34:51.041638",
+    "created_by": "system_migration",
+    "version": "1.0"
+  },
+  {
+    "id": "RESP-DEV-027",
+    "primary_phrase": "enable claude skills",
+    "action_variants": [
+      "enable"
+    ],
+    "object_variants": [
+      "claude skills"
+    ],
+    "action_base": "enable",
+    "object_base": "claude skills",
+    "departments": [
+      "Dev"
+    ],
+    "primary_department": "Dev",
+    "typical_tools": [],
+    "object_types": [],
+    "description": "Enable claude skills",
+    "frequency": 1,
+    "usage_examples": [
+      {
+        "task_id": "TEMPLATE-TASK-013",
+        "department": "Dev",
+        "level": "task"
+      }
+    ],
+    "is_active": true,
+    "created_at": "2025-11-16T00:34:51.041640",
+    "created_by": "system_migration",
+    "version": "1.0"
+  },
+  {
+    "id": "RESP-DEV-028",
+    "primary_phrase": "open open claude desktop app",
+    "action_variants": [
+      "open"
+    ],
+    "object_variants": [
+      "open claude desktop app"
+    ],
+    "action_base": "open",
+    "object_base": "open claude desktop app",
+    "departments": [
+      "Dev"
+    ],
+    "primary_department": "Dev",
+    "typical_tools": [],
+    "object_types": [],
+    "description": "Open open claude desktop app",
+    "frequency": 1,
+    "usage_examples": [
+      {
+        "task_id": "TEMPLATE-TASK-013",
+        "department": "Dev",
+        "level": "step"
+      }
+    ],
+    "is_active": true,
+    "created_at": "2025-11-16T00:34:51.041642",
+    "created_by": "system_migration",
+    "version": "1.0"
+  },
+  {
+    "id": "RESP-DEV-029",
+    "primary_phrase": "navigate navigate",
+    "action_variants": [
+      "navigate"
+    ],
+    "object_variants": [
+      "navigate to settings"
+    ],
+    "action_base": "navigate",
+    "object_base": "navigate",
+    "departments": [
+      "Dev"
+    ],
+    "primary_department": "Dev",
+    "typical_tools": [],
+    "object_types": [],
+    "description": "Navigate navigate",
+    "frequency": 1,
+    "usage_examples": [
+      {
+        "task_id": "TEMPLATE-TASK-013",
+        "department": "Dev",
+        "level": "step"
+      }
+    ],
+    "is_active": true,
+    "created_at": "2025-11-16T00:34:51.041646",
+    "created_by": "system_migration",
+    "version": "1.0"
+  },
+  {
+    "id": "RESP-DEV-030",
+    "primary_phrase": "locate locate skills section",
+    "action_variants": [
+      "locate"
+    ],
+    "object_variants": [
+      "locate skills section in settings"
+    ],
+    "action_base": "locate",
+    "object_base": "locate skills section",
+    "departments": [
+      "Dev"
+    ],
+    "primary_department": "Dev",
+    "typical_tools": [],
+    "object_types": [],
+    "description": "Locate locate skills section",
+    "frequency": 1,
+    "usage_examples": [
+      {
+        "task_id": "TEMPLATE-TASK-013",
+        "department": "Dev",
+        "level": "step"
+      }
+    ],
+    "is_active": true,
+    "created_at": "2025-11-16T00:34:51.041648",
+    "created_by": "system_migration",
+    "version": "1.0"
+  },
+  {
+    "id": "RESP-DEV-031",
+    "primary_phrase": "enable enable skills feature toggle",
+    "action_variants": [
+      "enable"
+    ],
+    "object_variants": [
+      "enable skills feature toggle"
+    ],
+    "action_base": "enable",
+    "object_base": "enable skills feature toggle",
+    "departments": [
+      "Dev"
+    ],
+    "primary_department": "Dev",
+    "typical_tools": [],
+    "object_types": [],
+    "description": "Enable enable skills feature toggle",
+    "frequency": 1,
+    "usage_examples": [
+      {
+        "task_id": "TEMPLATE-TASK-013",
+        "department": "Dev",
+        "level": "step"
+      }
+    ],
+    "is_active": true,
+    "created_at": "2025-11-16T00:34:51.041650",
+    "created_by": "system_migration",
+    "version": "1.0"
+  },
+  {
+    "id": "RESP-DEV-032",
+    "primary_phrase": "verify verify mcp-builder skill is available",
+    "action_variants": [
+      "verify"
+    ],
+    "object_variants": [
+      "verify mcp-builder skill is available"
+    ],
+    "action_base": "verify",
+    "object_base": "verify mcp-builder skill is available",
+    "departments": [
+      "Dev"
+    ],
+    "primary_department": "Dev",
+    "typical_tools": [],
+    "object_types": [],
+    "description": "Verify verify mcp-builder skill is available",
+    "frequency": 1,
+    "usage_examples": [
+      {
+        "task_id": "TEMPLATE-TASK-013",
+        "department": "Dev",
+        "level": "step"
+      }
+    ],
+    "is_active": true,
+    "created_at": "2025-11-16T00:34:51.041652",
+    "created_by": "system_migration",
+    "version": "1.0"
+  },
+  {
+    "id": "RESP-DEV-033",
+    "primary_phrase": "test test skills feature",
+    "action_variants": [
+      "test"
+    ],
+    "object_variants": [
+      "test skills feature with simple prompt"
+    ],
+    "action_base": "test",
+    "object_base": "test skills feature",
+    "departments": [
+      "Dev"
+    ],
+    "primary_department": "Dev",
+    "typical_tools": [],
+    "object_types": [],
+    "description": "Test test skills feature",
+    "frequency": 1,
+    "usage_examples": [
+      {
+        "task_id": "TEMPLATE-TASK-013",
+        "department": "Dev",
+        "level": "step"
+      }
+    ],
+    "is_active": true,
+    "created_at": "2025-11-16T00:34:51.041654",
+    "created_by": "system_migration",
+    "version": "1.0"
+  },
+  {
+    "id": "RESP-DEV-034",
+    "primary_phrase": "research development tools",
+    "action_variants": [
+      "research"
+    ],
+    "object_variants": [
+      "development tools"
+    ],
+    "action_base": "research",
+    "object_base": "development tools",
+    "departments": [
+      "Research / Dev"
+    ],
+    "primary_department": "Research / Dev",
+    "typical_tools": [],
+    "object_types": [],
+    "description": "Research development tools",
+    "frequency": 1,
+    "usage_examples": [
+      {
+        "task_id": "TEMPLATE-TASK-RES-003",
+        "department": "Research / Dev",
+        "level": "task"
+      }
+    ],
+    "is_active": true,
+    "created_at": "2025-11-16T00:34:51.041656",
+    "created_by": "system_migration",
+    "version": "1.0"
+  }
+]

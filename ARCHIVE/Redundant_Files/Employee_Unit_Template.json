@@ -1,0 +1,410 @@
+{
+  "_comment": "Template structure for one employee unit in Employees.json",
+  "_description": "This represents a complete employee record with all possible fields and nested structures",
+  "_source_file": "ExportCRMS/Employees.json",
+  "_total_records": 224,
+
+  "employee_unit": {
+    "id": "<number>",
+    "company_id": "<string>",
+    "user_id": "<string>",
+    "employee_id": "<string>",
+    "name_eng": "<string>",
+    "name_ua": "<string>",
+    "short_name": "<string>",
+    "slug": "<string>",
+    "birthday": "<datetime>",
+    "approved": "<string>",
+    "is_student": "<string>",
+    "is_approved_manager": "<string>",
+    "address": "<string>",
+    "hourly_rate": "<string>",
+    "viber": "<string>",
+    "work_email": "<string>",
+    "slack_username": "<string>",
+    "discord_private_channel_id": "<string>",
+    "discord_user_id": "<string>",
+    "department_id": "<string>",
+    "position_id": "<string>",
+    "applied_for": "<string>",
+    "designation_id": "<string>",
+    "job_id": "<string>",
+    "joining_date": "<datetime>",
+    "status_id": "<string>",
+    "address_id": "<string>",
+
+    "_nullable_fields": {
+      "_comment": "These fields are frequently or always null",
+      "presale_id": null,
+      "start_position": null,
+      "resume_url": null,
+      "photo_url": null,
+      "original_video": null,
+      "url_video_stock": null,
+      "url_contract": null,
+      "team_lead_id": null,
+      "note_team_lead": null,
+      "telegram": null,
+      "whatsapp": null,
+      "facebook": null,
+      "linkedin": null,
+      "skype": null,
+      "mobile_work_email": null,
+      "work_hemail": null,
+      "full_price": null,
+      "part_price": null,
+      "minimum_price": null,
+      "currency_id": null,
+      "discount": null,
+      "last_date": null,
+      "reason_dismissal": null,
+      "office_id": null,
+      "city_id": null,
+      "attendance_reminder": null
+    },
+
+    "user": {
+      "id": "<number>",
+      "company_id": "<string>",
+      "name": "<string>",
+      "email": "<string>",
+      "image": "<string>",
+      "mobile": "<string>",
+      "gender": "<string>",
+      "locale": "<string>",
+      "status": "<string>",
+      "login": "<string>",
+      "created_at": "<datetime>",
+      "updated_at": "<datetime>",
+      "super_admin": "<string>",
+      "email_notifications": "<string>",
+      "two_factor_confirmed": "<string>",
+      "two_factor_email_confirmed": "<string>",
+      "dark_theme": "<string>",
+      "rtl": "<string>",
+      "admin_approval": "<string>",
+      "permission_sync": "<string>",
+      "google_calendar_status": "<string>",
+      "image_url": "<string>",
+
+      "_nullable_user_fields": {
+        "onesignal_player_id": null,
+        "email_verification_code": null,
+        "social_token": null,
+        "two_factor_recovery_codes": null,
+        "salutation": null,
+        "two_fa_verify_via": null,
+        "two_factor_code": null,
+        "two_factor_expires_at": null,
+        "country_id": null,
+        "authorize_id": null,
+        "authorize_payment_id": null,
+        "card_brand": null,
+        "card_last_four": null,
+        "last_login": null
+      },
+
+      "_empty_arrays": {
+        "modules": [],
+        "employee_portfolios": [],
+        "educations": [],
+        "contacts": []
+      },
+
+      "employee_languages": [
+        {
+          "id": "<number>",
+          "level_id": "<string>",
+          "lang_id": "<string>",
+          "user_id": "<string>",
+          "hr_details_id": "<string>",
+          "presale_id": null,
+          "level": "<string>",
+          "created_at": "<datetime>",
+          "updated_at": "<datetime>"
+        }
+      ],
+
+      "employee_skills": [
+        {
+          "id": "<number>",
+          "user_id": "<string>",
+          "hr_details_id": "<string>",
+          "presale_id": null,
+          "skill_id": "<string>",
+          "level": "<string>"
+        }
+      ],
+
+      "employee_departments": [
+        {
+          "id": "<number>",
+          "team_id": "<string>",
+          "user_id": "<string>",
+          "hr_detail_id": "<string>",
+          "presale_id": null
+        }
+      ],
+
+      "work_experiences": [
+        {
+          "id": "<number>",
+          "user_id": "<string>",
+          "hr_detail_id": null,
+          "presale_id": null,
+          "client_details_id": "<string>",
+          "company_name": "<string>",
+          "position": "<string>",
+          "start_date": "<datetime>",
+          "end_date": "<datetime>",
+          "responsibilities": null,
+          "created_at": "<datetime>",
+          "updated_at": "<datetime>",
+          "industries": []
+        }
+      ],
+
+      "employee_documents": [
+        {
+          "id": "<number>",
+          "company_id": "<string>",
+          "user_id": "<string>",
+          "presale_id": null,
+          "name": "<string>",
+          "filename": "<string>",
+          "hashname": "<string>",
+          "size": "<string>"
+        }
+      ],
+
+      "responsibilities": [
+        {
+          "id": "<number>",
+          "company_id": "<string>",
+          "parent_id": null,
+          "product_id": null,
+          "name": "<string>",
+          "responsibility_id": null,
+          "min_hours": null,
+          "max_hours": null,
+          "description": "<string>",
+          "status_id": "<string>",
+          "status_addition": "<string>",
+          "created_at": "<datetime>",
+          "updated_at": "<datetime>"
+        }
+      ],
+
+      "lead_agent": {
+        "id": "<number>",
+        "company_id": "<string>",
+        "user_id": "<string>",
+        "status": "<string>",
+        "added_by": null,
+        "last_updated_by": null
+      }
+    },
+
+    "designation": {
+      "id": "<number>",
+      "company_id": "<string>",
+      "type": "<string>",
+      "created_at": null,
+      "updated_at": null
+    },
+
+    "department": {
+      "id": "<number>",
+      "company_id": "<string>",
+      "team_name": "<string>",
+      "status_addition": "<string>",
+      "department_id": "<string>",
+      "status_id": "<string>"
+    },
+
+    "position": {
+      "id": "<number>",
+      "company_id": "<string>",
+      "name": "<string>",
+      "status_addition": "<string>",
+      "position_id": "<string>",
+      "status_id": "<string>",
+      "full_price": null,
+      "part_price": null,
+      "minimum_price": null,
+      "currency_id": null,
+      "actual": "<string>",
+      "url_meet": null,
+      "created_at": "<datetime>",
+      "updated_at": "<datetime>",
+      "department_id": "<string>"
+    },
+
+    "empaddress": {
+      "id": "<number>",
+      "street": null,
+      "house": null,
+      "flat": null,
+      "postal_code": null,
+      "city_id": "<string>",
+      "region_id": "<string>",
+      "country_id": "<string>",
+      "created_at": "<datetime>",
+      "updated_at": "<datetime>"
+    },
+
+    "emplstatus": {
+      "id": "<number>",
+      "company_id": "<string>",
+      "name": "<string>",
+      "created_at": "<datetime>",
+      "updated_at": "<datetime>"
+    },
+
+    "emplcity": null,
+
+    "candidate": {
+      "_comment": "HR details for the employee",
+      "id": "<number>",
+      "company_id": "<string>",
+      "source_id": "<string>",
+      "name_candidate": "<string>",
+      "hr_manager": "<string>",
+      "address_id": "<string>",
+      "communication_id": "<string>",
+      "is_crm": "<string>",
+      "status_candidate_id": "<string>",
+      "phone": "<string>",
+      "email": "<string>",
+      "viber": "<string>",
+      "start_date": "<datetime>",
+      "team_lead": "<string>",
+      "employee_details_id": "<string>",
+      "presale_id": null,
+      "department_id": "<string>",
+      "position_id": "<string>",
+      "applied_for": "<string>",
+      "approved_status_team_lead": "<string>",
+      "time_interview": "<time>",
+      "approved_bonus": "<string>",
+      "approved_bonus_interview": "<string>",
+      "approved_bonus_video": "<string>",
+      "time_interview_date": {
+        "date": "<datetime>",
+        "timezone_type": "<number>",
+        "timezone": "<string>"
+      },
+
+      "_nullable_candidate_fields": {
+        "empl_protege": null,
+        "admin_name_id": null,
+        "created_by": null,
+        "courses": null,
+        "video_url": "",
+        "date_video_added": null,
+        "last_contact_date": null,
+        "follow_up_date": null,
+        "age": null,
+        "shift_id": null,
+        "expected_salary": null,
+        "expected_salary_currency_id": null,
+        "started_salary": null,
+        "started_currency_id": null,
+        "note": null,
+        "note_admin": null,
+        "status_admin_id": null,
+        "instagram": null,
+        "photo_url": null,
+        "resume_url": null,
+        "video_interview_url": null,
+        "test_link": null,
+        "job_site_link": null,
+        "start_time": null,
+        "end_date": null,
+        "portfolio_url": null,
+        "telegram": null,
+        "resume_editor": null,
+        "note_team_lead": null,
+        "sub_titles": null,
+        "team_lead_id": null,
+        "date_interview": null
+      }
+    },
+
+    "team_lead": null,
+    "currency": null,
+
+    "_optional_arrays": {
+      "task_employees": [],
+      "correspondences": [],
+      "contacts": []
+    },
+
+    "video_editing": [
+      {
+        "id": "<number>",
+        "employee_details_id": "<string>",
+        "presale_id": null,
+        "project_company_id": "<string>",
+        "start_date": null,
+        "due_date": null,
+        "video_editor_id": null,
+        "video_editor_created_by": null,
+        "url_video_to_drive_disk": null,
+        "url_video_to_youtube": null,
+        "url_youtube_short": null,
+        "youtube_description": null,
+        "youtube_hashtags": null,
+        "sub_titles": null,
+        "approved": "<string>",
+        "created_at": "<datetime>",
+        "updated_at": "<datetime>"
+      }
+    ],
+
+    "empl_content": [
+      {
+        "id": "<number>",
+        "employee_details_id": "<string>",
+        "presale_id": null,
+        "project_company_id": "<string>",
+        "smm_manager_id": null,
+        "smm_manager_created_by": null,
+        "smm_start_date": null,
+        "smm_updated_date": null,
+        "copywriter_manager_id": null,
+        "copywriter_manager_created_by": null,
+        "seo_title": "",
+        "meta_description": "          ",
+        "copywriter_start_date": null,
+        "copywriter_updated_date": null,
+        "content_manager_id": null,
+        "content_manager_created_by": null,
+        "cv_heading": "",
+        "wp_status": "<string>",
+        "url_site": "<string>",
+        "content_start_date": null,
+        "content_updated_date": null,
+        "created_at": "<datetime>",
+        "updated_at": "<datetime>"
+      }
+    ],
+
+    "empl_artist": [
+      {
+        "id": "<number>",
+        "employee_details_id": "<string>",
+        "presale_id": null,
+        "project_company_id": "<string>",
+        "url_portrait": null,
+        "promo_pic": null,
+        "artist_id": null,
+        "artist_created_by": null,
+        "artist_start_date": null,
+        "artist_updated_date": null,
+        "created_at": null,
+        "updated_at": "<datetime>"
+      }
+    ]
+  }
+}

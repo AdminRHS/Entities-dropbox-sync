@@ -1,0 +1,39 @@
+{
+  "step_template_id": "Step-Template-022",
+  "step_template_name": "Create New Tool JSON Files",
+  "metadata": {
+    "status": "Active"
+  },
+  "parent_task": {
+    "task_id": "TASK-TEMPLATE-VIDEO-301",
+    "task_name": "Create and Update Tool Entries in Libraries"
+  },
+  "step_details": {
+    "step_number": 2,
+    "order": 2,
+    "action": "create",
+    "detail": "For each NEW tool, create JSON file with schema: tool_id, name, category, subcategories, description, key_features, use_cases, integrations, pricing, url, tasks, skills",
+    "expected_duration": 4
+  },
+  "execution": {
+    "tool_used": "Text editor with JSON support",
+    "inputs": [
+      "NEW tools list",
+      "Tool data from extraction",
+      "Tool JSON schema"
+    ],
+    "outputs": [
+      "New tool JSON files in LIBRARIES/Tools/[category]/"
+    ],
+    "success_criteria": "All NEW tools have JSON files, all required fields populated, files saved in correct category folders"
+  },
+  "relationships": {
+    "dependencies": [
+      "STEP-VIDEO-301-01"
+    ],
+    "next_steps": [
+      "STEP-VIDEO-301-03"
+    ],
+    "parallel_steps": []
+  }
+}

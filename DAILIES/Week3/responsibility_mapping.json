@@ -1,0 +1,111 @@
+{
+  "generated": "2025-11-21",
+  "description": "Mapping between extracted responsibilities (MASTER_OUTPUT) and canonical library (LIBRARIES/Responsibilities)",
+  "library_responsibilities": [
+    {"id": "RESP-001", "name": "screen candidates", "action": "screen", "object": "candidates", "department": "Managers (HR)"},
+    {"id": "RESP-002", "name": "generate leads", "action": "generate", "object": "leads", "department": "Lead Generation"},
+    {"id": "RESP-003", "name": "design UI mockups", "action": "design", "object": "UI mockups", "department": "Design"},
+    {"id": "RESP-004", "name": "develop frontend features", "action": "develop", "object": "frontend features", "department": "Developers"},
+    {"id": "RESP-005", "name": "manage sales pipeline", "action": "manage", "object": "sales pipeline", "department": "Sales"},
+    {"id": "RESP-006", "name": "produce videos", "action": "produce", "object": "videos", "department": "Video"}
+  ],
+  "mappings": [
+    {
+      "employee": "228_Kucherenko_Iuliia",
+      "extracted": [
+        {"id": "RESP-013", "name": "understand file", "maps_to": null, "confidence": 0, "note": "No library match - learning/documentation task"},
+        {"id": "RESP-026", "name": "use code", "maps_to": "RESP-004", "confidence": 0.4, "note": "Partial match to develop frontend features"},
+        {"id": "RESP-005", "name": "setup html", "maps_to": "RESP-004", "confidence": 0.5, "note": "Frontend development task"},
+        {"id": "RESP-006", "name": "preview html", "maps_to": "RESP-003", "confidence": 0.3, "note": "Could relate to design review"}
+      ]
+    },
+    {
+      "employee": "37226_Artemchuk_Nikolay",
+      "extracted": [
+        {"id": "RESP-075", "name": "do google", "maps_to": null, "confidence": 0, "note": "Vague - needs clarification"},
+        {"id": "RESP-088", "name": "do milestone", "maps_to": null, "confidence": 0, "note": "Project management - not in library"},
+        {"id": "RESP-081", "name": "do employee", "maps_to": "RESP-001", "confidence": 0.3, "note": "May relate to HR screening"},
+        {"id": "RESP-085", "name": "do gemini", "maps_to": null, "confidence": 0, "note": "Tool usage - not a responsibility"},
+        {"id": "RESP-086", "name": "do milestone", "maps_to": null, "confidence": 0, "note": "Duplicate - project management"},
+        {"id": "RESP-079", "name": "do code", "maps_to": "RESP-004", "confidence": 0.5, "note": "Development task"},
+        {"id": "RESP-084", "name": "do crm", "maps_to": "RESP-005", "confidence": 0.4, "note": "CRM relates to sales pipeline"},
+        {"id": "RESP-090", "name": "do delivery", "maps_to": null, "confidence": 0, "note": "Project delivery - not in library"},
+        {"id": "RESP-076", "name": "do sales", "maps_to": "RESP-005", "confidence": 0.6, "note": "Sales pipeline management"}
+      ]
+    },
+    {
+      "employee": "39412_Ponomarova_Kateryna",
+      "extracted": [
+        {"id": "RESP-099", "name": "do report", "maps_to": null, "confidence": 0, "note": "Reporting - not in library"},
+        {"id": "RESP-102", "name": "do public", "maps_to": null, "confidence": 0, "note": "Vague - needs clarification"},
+        {"id": "RESP-100", "name": "do report", "maps_to": null, "confidence": 0, "note": "Duplicate - reporting"},
+        {"id": "RESP-101", "name": "do markdown", "maps_to": null, "confidence": 0, "note": "Documentation task"}
+      ]
+    },
+    {
+      "employee": "72754_Danylenko_Liliia",
+      "extracted": [
+        {"id": "RESP-114", "name": "update crm statuses", "maps_to": "RESP-005", "confidence": 0.7, "note": "Sales pipeline CRM updates"},
+        {"id": "RESP-104", "name": "check morning check", "maps_to": null, "confidence": 0, "note": "Process task - not a responsibility"},
+        {"id": "RESP-106", "name": "review md and task with Telegram", "maps_to": null, "confidence": 0, "note": "Communication/review task"},
+        {"id": "RESP-108", "name": "find transcript and taxonomy", "maps_to": null, "confidence": 0, "note": "Research task"},
+        {"id": "RESP-109", "name": "process transcript and taxonomy", "maps_to": null, "confidence": 0, "note": "Data processing"},
+        {"id": "RESP-110", "name": "update workflow", "maps_to": null, "confidence": 0, "note": "Process improvement"},
+        {"id": "RESP-111", "name": "open employees", "maps_to": "RESP-001", "confidence": 0.3, "note": "May relate to HR tasks"}
+      ]
+    },
+    {
+      "employee": "83953_Rekonvald_Viktoriia",
+      "extracted": [
+        {"id": "RESP-147", "name": "do mcp talented", "maps_to": null, "confidence": 0, "note": "Gibberish - extraction error"},
+        {"id": "RESP-149", "name": "do media", "maps_to": "RESP-006", "confidence": 0.4, "note": "May relate to video/media production"},
+        {"id": "RESP-148", "name": "do important dates", "maps_to": null, "confidence": 0, "note": "Scheduling task"},
+        {"id": "RESP-150", "name": "do update talent", "maps_to": "RESP-001", "confidence": 0.5, "note": "Talent/candidate management"},
+        {"id": "RESP-152", "name": "do comprehensive", "maps_to": null, "confidence": 0, "note": "Vague - needs clarification"},
+        {"id": "RESP-153", "name": "do candidate", "maps_to": "RESP-001", "confidence": 0.7, "note": "Candidate screening"},
+        {"id": "RESP-154", "name": "update file", "maps_to": null, "confidence": 0, "note": "Generic file task"}
+      ]
+    },
+    {
+      "employee": "84138_Burda_Anna",
+      "extracted": [
+        {"id": "RESP-203", "name": "create mail", "maps_to": "RESP-002", "confidence": 0.4, "note": "Could be outreach/lead gen"},
+        {"id": "RESP-206", "name": "send not", "maps_to": null, "confidence": 0, "note": "Truncated - extraction error"},
+        {"id": "RESP-162", "name": "copy chat gpt", "maps_to": null, "confidence": 0, "note": "Tool usage - not a responsibility"},
+        {"id": "RESP-201", "name": "have after the call", "maps_to": null, "confidence": 0, "note": "Gibberish - extraction error"},
+        {"id": "RESP-202", "name": "think after the call", "maps_to": null, "confidence": 0, "note": "Gibberish - extraction error"},
+        {"id": "RESP-204", "name": "know but if", "maps_to": null, "confidence": 0, "note": "Gibberish - extraction error"}
+      ]
+    },
+    {
+      "employee": "86478_Klimenko_Yaroslav",
+      "extracted": [
+        {"id": "RESP-283", "name": "do heinestone", "maps_to": null, "confidence": 0, "note": "Gibberish - extraction error"},
+        {"id": "RESP-284", "name": "solve shka", "maps_to": null, "confidence": 0, "note": "Gibberish - extraction error"},
+        {"id": "RESP-285", "name": "added data", "maps_to": "RESP-004", "confidence": 0.3, "note": "May relate to development"},
+        {"id": "RESP-286", "name": "get data", "maps_to": null, "confidence": 0, "note": "Generic data task"},
+        {"id": "RESP-287", "name": "integrate data", "maps_to": "RESP-004", "confidence": 0.5, "note": "Development/integration"},
+        {"id": "RESP-288", "name": "send data", "maps_to": null, "confidence": 0, "note": "Data transfer task"}
+      ]
+    }
+  ],
+  "summary": {
+    "total_extracted": 43,
+    "mapped_to_library": 15,
+    "unmapped": 28,
+    "gibberish_errors": 8,
+    "mapping_rate": "35%",
+    "issues": [
+      "Library only has 6 responsibilities - too limited for coverage",
+      "Phase 2 tagging extracted conversational text as objects",
+      "Many 'do X' patterns lack specificity",
+      "Need to expand library or improve extraction quality"
+    ],
+    "recommendations": [
+      "Expand responsibilities.json library to ~50-100 entries",
+      "Improve Phase 2 object extraction prompts",
+      "Add responsibilities for: reporting, project management, communication, documentation",
+      "Re-run Phase 3 after library expansion"
+    ]
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "metadata": {
+    "version": "1.0.0",
+    "generated": "2025-11-18",
+    "entity": "GUIDES",
+    "description": "ISO code migration mapping for Guides from descriptive names to standardized GDS-### format",
+    "naming_convention": "GDS (Guide) - 3-letter consonant code, NOT ending with T (non-template entity)",
+    "total_entities_mapped": 8
+  },
+  "iso_code_derivation": {
+    "entity_name": "Guide",
+    "iso_code": "GDS",
+    "derivation_logic": "GuiDeS → GDS (consonants only)",
+    "alternative_considered": "GDL",
+    "reason_for_selection": "GDS represents plural form, better for collections"
+  },
+  "entity_type_iso_codes": {
+    "GDS": {
+      "full_name": "Guide",
+      "description": "Reference documentation and procedural guides for system usage",
+      "range": "GDS-001 to GDS-008",
+      "total_count": 8,
+      "template_suffix": false
+    }
+  },
+  "guide_mappings": [
+    {"legacy_id": "CRM_ENTITIES_LLM_TAXONOMY_GUIDE", "new_id": "GDS-001", "name": "CRM Entities LLM Taxonomy Guide", "department": "AID", "category": "Taxonomy"},
+    {"legacy_id": "DATA_EXTRACTION_PROMPT", "new_id": "GDS-002", "name": "Data Extraction Prompt", "department": "AID", "category": "Extraction"},
+    {"legacy_id": "DESIGNER_INTEGRATION_SUMMARY", "new_id": "GDS-003", "name": "Designer Integration Summary", "department": "DGN", "category": "Integration"},
+    {"legacy_id": "Framework_README", "new_id": "GDS-004", "name": "Framework Documentation Overview", "department": "AID", "category": "Framework"},
+    {"legacy_id": "Implementation_Checklists", "new_id": "GDS-005", "name": "Implementation Checklists", "department": "AID", "category": "Implementation"},
+    {"legacy_id": "Knowledge_Library_Guide", "new_id": "GDS-006", "name": "Knowledge Library Guide", "department": "AID", "category": "Library"},
+    {"legacy_id": "Tool_Usage_Organizational_Proposals", "new_id": "GDS-007", "name": "Tool Usage Organizational Proposals", "department": "AID", "category": "Tools"},
+    {"legacy_id": "README_TAXONOMY_GUIDES", "new_id": "GDS-008", "name": "Taxonomy Guides Overview", "department": "AID", "category": "Taxonomy"}
+  ],
+  "validation_checksums": {
+    "total_guides": 8,
+    "by_department": {
+      "AID": 7,
+      "DGN": 1
+    },
+    "by_category": {
+      "Taxonomy": 2,
+      "Framework": 1,
+      "Implementation": 1,
+      "Library": 1,
+      "Tools": 1,
+      "Extraction": 1,
+      "Integration": 1
+    }
+  },
+  "department_code_registry": {
+    "AID": "AI Department (includes Automations, Operations, Administration)",
+    "HRM": "Human Resource Management",
+    "DEV": "Development & Engineering",
+    "LGN": "Lead Generation & Marketing",
+    "DGN": "Design & Creative",
+    "VID": "Video Production",
+    "SLS": "Sales & Client Relations"
+  },
+  "iso_code_rules": {
+    "no_template_suffix": "Guides are non-template entities (GDS does not end with T)",
+    "consonant_only": "All codes use only consonants (no vowels A, E, I, O, U) where possible",
+    "three_letters": "All codes are exactly 3 letters",
+    "uppercase": "All codes are uppercase",
+    "memorable": "Codes derived from entity type names for easy recall"
+  },
+  "migration_status": {
+    "migration_started": "2025-11-18",
+    "migration_completed": "2025-11-18",
+    "total_entities_migrated": 8,
+    "legacy_format": "Descriptive_Name.md",
+    "new_format": "GDS-###",
+    "backwards_compatibility": "Legacy descriptive names preserved in Current_ID field for reference"
+  }
+}

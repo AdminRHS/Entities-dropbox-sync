@@ -1,0 +1,22 @@
+{
+  "json_analysis": {
+    "files": 694,
+    "unique_fields": 5228
+  },
+  "markdown_analysis": {
+    "files": 688,
+    "total_headings": 14580
+  },
+  "entity_extraction": {
+    "total_entities": 2
+  },
+  "python_analysis": {
+    "files": 19,
+    "variables": 381
+  },
+  "terminology": {
+    "total_unique_terms": 14955,
+    "redundant_patterns": 404,
+    "standardization_needed": 404
+  }
+}

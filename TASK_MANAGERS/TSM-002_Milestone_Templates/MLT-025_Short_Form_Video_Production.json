@@ -1,0 +1,14 @@
+{
+    "milestone_template_id": "Milestone-Template-025",
+    "name": "Short-Form Video Production Workflow",
+    "category": "Workflow Migration",
+    "department": "VIDEO",
+    "description": "Migrated from Workflows/Short_Form_Video_Production_Workflow.yaml. Milestone representing short-form video production and publishing.",
+    "phase": "Video Production",
+    "can_run_parallel": false,
+    "dependencies": [],
+    "task_templates": [],
+    "expected_reports": [],
+    "version": "1.0",
+    "source_workflow_file": "ENTITIES/TASK_MANAGERS/Workflows/Short_Form_Video_Production_Workflow.yaml"
+}

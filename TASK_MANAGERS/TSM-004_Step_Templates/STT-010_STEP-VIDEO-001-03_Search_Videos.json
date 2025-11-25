@@ -1,0 +1,39 @@
+{
+  "step_template_id": "Step-Template-010",
+  "step_template_name": "Search for Videos by Priority Topics",
+  "metadata": {
+    "status": "Active"
+  },
+  "parent_task": {
+    "task_id": "TASK-TEMPLATE-VIDEO-001",
+    "task_name": "Search and Score Videos Using 0-100 System"
+  },
+  "step_details": {
+    "step_number": 3,
+    "order": 3,
+    "action": "search",
+    "detail": "Use search queries from instructions, filter by last 30-60 days, 10-40 min duration, find 8-12 videos",
+    "expected_duration": 50
+  },
+  "execution": {
+    "tool_used": "Perplexity AI, YouTube",
+    "inputs": [
+      "Search queries from priority topics",
+      "Date filter: 30-60 days",
+      "Duration filter: 10-40 min"
+    ],
+    "outputs": [
+      "8-12 videos with URLs, titles, creators, dates, durations"
+    ],
+    "success_criteria": "Minimum 8 videos found, all within date and duration requirements"
+  },
+  "relationships": {
+    "dependencies": [
+      "STEP-VIDEO-001-02"
+    ],
+    "next_steps": [
+      "STEP-VIDEO-001-04"
+    ],
+    "parallel_steps": []
+  }
+}

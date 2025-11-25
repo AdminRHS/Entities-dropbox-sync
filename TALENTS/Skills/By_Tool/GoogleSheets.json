@@ -1,0 +1,40 @@
+{
+  "tool_id": "TOOL-SHEET-001",
+  "tool_name": "Google Sheets",
+  "tool_category": "Spreadsheet",
+  "description": "Cloud spreadsheet platform for data analysis, reporting, and calculations",
+  "skills_count": 2,
+  "last_updated": "2025-11-22",
+  "skills": [
+    {
+      "skill_id": "SKL-005",
+      "skill_phrase": "analyzed recruitment data in Google Sheets",
+      "components": {
+        "action": "analyze",
+        "object": "recruitment data",
+        "tool": "Google Sheets"
+      },
+      "department": "Managers (HR)",
+      "professions": ["recruiter", "hr manager"],
+      "difficulty_level": "intermediate",
+      "frequency": "weekly",
+      "time_estimate_minutes": 45,
+      "automation_potential": "medium"
+    },
+    {
+      "skill_id": "SKL-044",
+      "skill_phrase": "analyzed sales data in Google Sheets",
+      "components": {
+        "action": "analyze",
+        "object": "sales data",
+        "tool": "Google Sheets"
+      },
+      "department": "Sales",
+      "professions": ["sales manager"],
+      "difficulty_level": "intermediate",
+      "frequency": "weekly",
+      "time_estimate_minutes": 60,
+      "automation_potential": "medium"
+    }
+  ]
+}

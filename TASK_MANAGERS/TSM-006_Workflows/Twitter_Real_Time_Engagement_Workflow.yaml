@@ -1,0 +1,171 @@
+workflow_name: "Twitter/X Real-Time Engagement"
+workflow_type: "Cyclic"
+workflow_id: "WF-SMM-011"
+department: "MARKETING"
+priority: "Medium"
+estimated_duration: "30-60 minutes daily"
+status: "Active"
+
+description: |
+  Build audience and authority through educational threads, quick tips, and real-time industry commentary.
+  Fast-paced workflow optimized for Twitter's real-time nature and conversational engagement.
+
+steps:
+  - step_number: 1
+    name: "Post Educational Threads"
+    tool: "Twitter/X"
+    responsibility: "Post educational threads"
+    placement: "Twitter platform"
+    duration: "20-30 minutes per thread"
+    dependencies: []
+    inputs:
+      - "Valuable insights and expertise"
+      - "Thread structure and outline"
+      - "Supporting data or examples"
+    outputs:
+      - "Educational threads (5-15 tweets)"
+      - "Numbered tweets for clarity (1/7, 2/7, etc.)"
+      - "Actionable insights shared"
+      - "Value-driven content"
+    success_criteria: "3-5 high-quality threads per week with strong engagement"
+
+  - step_number: 2
+    name: "Share Quick Tips"
+    tool: "Twitter/X"
+    responsibility: "Share quick tips"
+    placement: "Twitter platform"
+    duration: "5-10 minutes per tweet"
+    dependencies: []
+    inputs:
+      - "Daily insights and resources"
+      - "Actionable advice"
+      - "Industry updates"
+    outputs:
+      - "3-5 tweets daily"
+      - "Actionable advice shared"
+      - "Resources and tools mentioned"
+      - "1-3 hashtags used per tweet"
+    success_criteria: "Consistent daily tweeting with value-focused content"
+
+  - step_number: 3
+    name: "Engage with Community"
+    tool: "Twitter/X"
+    responsibility: "Engage with community"
+    placement: "Twitter platform"
+    duration: "15-20 minutes daily"
+    dependencies: []
+    inputs:
+      - "Mentions and replies"
+      - "Industry content to quote tweet"
+      - "Relevant discussions"
+    outputs:
+      - "Replies to mentions within 30 minutes"
+      - "Quote tweets with added value"
+      - "Participation in discussions"
+      - "Community connections built"
+    success_criteria: "Active engagement driving visibility and relationships"
+
+  - step_number: 4
+    name: "Provide Industry Commentary"
+    tool: "Twitter/X"
+    responsibility: "Provide industry commentary"
+    placement: "Twitter platform"
+    duration: "10-15 minutes as needed"
+    dependencies: []
+    inputs:
+      - "Industry news and trends"
+      - "Breaking developments"
+      - "Relevant events"
+    outputs:
+      - "Real-time reactions to industry news"
+      - "Thoughtful commentary on trends"
+      - "Expert perspective shared"
+      - "Timely engagement with hot topics"
+    success_criteria: "Timely, insightful commentary that adds value to conversations"
+
+performance_metrics:
+  engagement_rate: "Retweets + replies + likes / impressions"
+  retweets: "Content shareability and virality"
+  profile_visits: "Interest in your expertise"
+  follower_growth: "Net new followers"
+  link_clicks: "Traffic to external content"
+
+content_strategy:
+  posting_frequency: "3-5 tweets daily across multiple timezones"
+  response_time_goal: "Within 30 minutes"
+  content_mix:
+    educational_threads: "30% - In-depth insights and tutorials"
+    quick_tips: "35% - Actionable advice and resources"
+    engagement: "20% - Replies, quote tweets, discussions"
+    commentary: "15% - Industry news and trends"
+
+thread_structure:
+  hook_tweet: "Start with compelling question or statement"
+  numbered_format: "Use 1/7, 2/7, etc. for clarity"
+  length: "5-15 tweets optimal"
+  call_to_action: "End with clear next step"
+  formatting: "Use line breaks for readability"
+
+best_practices:
+  - "Use 1-3 hashtags per tweet (not excessive)"
+  - "Thread numbering for clarity (1/7, 2/7, etc.)"
+  - "Images and videos boost engagement 2-3x"
+  - "Post across multiple timezones for global reach"
+  - "Respond to comments within 30 minutes"
+  - "Quote tweet with added value, not just retweet"
+  - "Use Twitter Spaces for live audio discussions"
+  - "Pin best performing tweet to profile"
+  - "Create Twitter Lists to curate and engage"
+  - "Be consistent with posting schedule"
+
+optimal_posting_times:
+  global_morning: "6-9am EST (Europe afternoon)"
+  us_lunch: "12-1pm EST"
+  us_evening: "5-7pm EST (peak engagement)"
+  late_night: "9-11pm EST (West Coast evening)"
+
+thread_best_practices:
+  - "Start with strong hook in tweet 1"
+  - "Use numbered format (1/7, 2/7) for clarity"
+  - "Break complex ideas into digestible tweets"
+  - "Add visuals or examples in key tweets"
+  - "End with clear CTA or question"
+  - "Reply to your own thread with additional thoughts"
+  - "Engage with replies to boost visibility"
+
+engagement_tactics:
+  mentions: "Reply thoughtfully within 30 minutes"
+  quote_tweets: "Add value, not just agree/disagree"
+  discussions: "Join relevant industry conversations"
+  spaces: "Host or participate in Twitter Spaces"
+  lists: "Create curated lists and engage with members"
+
+hashtag_strategy:
+  quantity: "1-3 hashtags per tweet (not excessive)"
+  types: "Mix broad (#design) and niche (#UIdesign)"
+  placement: "Integrate naturally in tweet, not list at end"
+  trending: "Participate in relevant trending topics"
+
+multi_timezone_strategy:
+  morning_post: "Educational thread or tip (6-9am EST)"
+  lunch_post: "Quick tip or resource (12-1pm EST)"
+  evening_post: "Commentary or engagement (5-7pm EST)"
+  late_post: "Thread or insight for West Coast (9-11pm EST)"
+
+automation_opportunities:
+  - "Scheduled tweet posting"
+  - "Thread drafting and review"
+  - "Analytics tracking and reporting"
+  - "Mention and keyword monitoring"
+
+tags:
+  - twitter
+  - real_time
+  - engagement
+  - threads
+  - commentary
+  - networking
+
+version: "1.0"
+created: "2025-11-13"
+last_updated: "2025-11-13"

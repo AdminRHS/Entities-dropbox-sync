@@ -1,0 +1,77 @@
+{
+  "phase": "Phase 4 - Data Extraction",
+  "executed_at": "2025-11-22T21:10:57.691863",
+  "status": "completed",
+  "summary": {
+    "total_records_extracted": 1000,
+    "source_files": 100,
+    "data_sources": [
+      "CRM Export (Client_JSON_Clusters)"
+    ]
+  },
+  "coverage_analysis": {
+    "total_records": 1000,
+    "field_coverage": {
+      "has_company_name": {
+        "count": 1000,
+        "percentage": 100.0
+      },
+      "has_contact_name": {
+        "count": 1000,
+        "percentage": 100.0
+      },
+      "has_email": {
+        "count": 709,
+        "percentage": 70.9
+      },
+      "has_pocs": {
+        "count": 0,
+        "percentage": 0.0
+      },
+      "has_industry": {
+        "count": 1000,
+        "percentage": 100.0
+      },
+      "has_location": {
+        "count": 0,
+        "percentage": 0.0
+      },
+      "has_lead_status": {
+        "count": 999,
+        "percentage": 99.9
+      },
+      "has_communications": {
+        "count": 0,
+        "percentage": 0.0
+      }
+    },
+    "key_fields": {
+      "has_company_name": 1000,
+      "has_contact_name": 1000,
+      "has_email": 709,
+      "has_pocs": 0,
+      "has_industry": 1000,
+      "has_location": 0,
+      "has_lead_status": 999,
+      "has_communications": 0
+    },
+    "entity_type_estimates": {
+      "potential_clients": 0,
+      "potential_prospects": 1000,
+      "has_job_requests": 0
+    }
+  },
+  "unique_values": {
+    "unique_companies": 1000,
+    "unique_emails": 708,
+    "unique_crm_ids": 1000,
+    "unique_industries": 117,
+    "unique_countries": 0,
+    "unique_lead_statuses": 7
+  },
+  "duplicate_detection": {
+    "duplicate_companies": 0,
+    "duplicate_emails": 1,
+    "duplicate_crm_ids": 0
+  }
+}

@@ -1,0 +1,166 @@
+{
+  "entity_type": "TASK_MANAGERS",
+  "sub_entity": "Workflow",
+  "workflow_id": "WRF-024",
+  "meta_category": "TSM-006",
+  "name": "Build and Deploy Web App",
+  "legacy_id": "Build_and_Deploy_Web_App_Workflow",
+  "objective": "Create and deploy functional web applications from natural language descriptions using no-code AI generation",
+  "description": "A comprehensive workflow for building complete web applications without writing code manually. Use Google AI Studio's Build tab to describe your app, generate the code, iterate through conversation, and deploy to Google Cloud Run with a public URL—all within minutes.",
+  "department": ["DEV", "AID", "DGN"],
+  "complexity": "High",
+  "duration_estimate": "5-10 minutes",
+  "time_saved": "Eliminates hours of manual coding, setup, and deployment configuration (saves 2-8 hours per simple app)",
+  "skills_required": [
+    "Product Design",
+    "Requirements Definition",
+    "Web Application Concepts",
+    "User Experience Basics",
+    "Deployment Understanding"
+  ],
+  "tools_required": [
+    {
+      "tool_id": "TOOL-AI-222",
+      "tool_name": "Google AI Studio",
+      "purpose": "No-code web application generation and deployment platform"
+    }
+  ],
+  "tasks": [
+    {
+      "task_id": "TSK-014",
+      "task_name": "Navigate to Build tab",
+      "description": "Open Google AI Studio and access the Build module for web app generation",
+      "order": 1,
+      "estimated_time": "10 seconds"
+    },
+    {
+      "task_id": "TSK-015",
+      "task_name": "Write descriptive app prompt",
+      "description": "Describe the web app in detail (e.g., 'create a coffee shop web app with menu and feedback form. Don't include pictures.')",
+      "order": 2,
+      "estimated_time": "60-90 seconds"
+    },
+    {
+      "task_id": "TSK-016",
+      "task_name": "Generate application",
+      "description": "Run generation and observe code assistant panel showing generation steps",
+      "order": 3,
+      "estimated_time": "60-120 seconds (including AI processing)"
+    },
+    {
+      "task_id": "TSK-017",
+      "task_name": "Preview and iterate",
+      "description": "Review live code preview, make adjustments via chat (e.g., 'Add a matcha latte to the menu')",
+      "order": 4,
+      "estimated_time": "2-3 minutes"
+    },
+    {
+      "task_id": "TSK-018",
+      "task_name": "Deploy to Cloud Run",
+      "description": "Click deploy button for instant Google Cloud Run deployment with public URL",
+      "order": 5,
+      "estimated_time": "90-120 seconds (including deployment processing)"
+    }
+  ],
+  "actions": ["Navigate", "Write", "Generate", "Preview", "Iterate", "Deploy", "Publish"],
+  "objects_created": [
+    {
+      "object_type": "Web Application",
+      "description": "Fully functional web app with live public URL on Cloud Run"
+    },
+    {
+      "object_type": "Source Code",
+      "description": "Generated HTML, CSS, JavaScript code for the application"
+    },
+    {
+      "object_type": "Public URL",
+      "description": "Live deployment link accessible to anyone"
+    }
+  ],
+  "entry_criteria": [
+    "Clear understanding of app requirements and features",
+    "Access to Google AI Studio",
+    "Google Cloud account for deployment",
+    "Basic understanding of web app structure (pages, forms, navigation, etc.)"
+  ],
+  "exit_criteria": [
+    "Web application generated successfully",
+    "All required features implemented and functional",
+    "App deployed to Cloud Run with public URL",
+    "Code reviewed and meets quality standards",
+    "Application tested and working as intended"
+  ],
+  "use_cases": [
+    "Create business landing pages with contact forms",
+    "Build restaurant/cafe menu websites with ordering",
+    "Generate portfolio sites for clients",
+    "Rapid MVP prototyping for startups",
+    "Create event registration pages",
+    "Build internal tools and dashboards",
+    "Generate client demo applications",
+    "Create simple e-commerce storefronts",
+    "Build survey and feedback collection tools"
+  ],
+  "typical_inputs": [
+    "App description and purpose",
+    "Required features (menu, forms, galleries, etc.)",
+    "Content structure and organization",
+    "Design preferences (colors, layout, style)",
+    "Data to display (menu items, products, services, etc.)",
+    "Forms and user interactions needed"
+  ],
+  "typical_outputs": [
+    "Complete web application code (HTML/CSS/JavaScript)",
+    "Live preview interface",
+    "Deployed application on Google Cloud Run",
+    "Public URL for sharing",
+    "Code assistant logs showing generation steps"
+  ],
+  "best_practices": [
+    "Start with clear, detailed descriptions of all features needed",
+    "Specify 'Don't include pictures' if you plan to add images later to speed generation",
+    "Use iterative chat refinement for adjustments instead of regenerating entire app",
+    "Test application thoroughly in preview before deploying",
+    "Review generated code for security and best practices",
+    "Use specific examples in prompts (e.g., 'Add a matcha latte to the menu')",
+    "Keep initial app scope simple, then iterate to add complexity",
+    "Verify Cloud Run deployment settings before publishing"
+  ],
+  "common_pitfalls": [
+    "Overly complex initial prompts leading to generation errors",
+    "Not specifying enough detail, resulting in generic output",
+    "Requesting image generation which slows down the process",
+    "Deploying without testing functionality first",
+    "Not considering mobile responsiveness in initial description",
+    "Expecting enterprise-level features in simple no-code generation",
+    "Not reviewing code for security issues before public deployment"
+  ],
+  "integration_with_other_workflows": [
+    "WRF-021: Can create web apps featuring social media integration",
+    "Design workflows for mockups before building",
+    "API integration workflows for adding backend functionality",
+    "Testing and QA workflows post-deployment"
+  ],
+  "tags": [
+    "web-development",
+    "no-code",
+    "ai-generation",
+    "google-ai-studio",
+    "cloud-run",
+    "deployment",
+    "rapid-prototyping",
+    "mvp-development",
+    "app-building"
+  ],
+  "discovery_source": "Video_023",
+  "video_source": {
+    "video_id": "Video_023",
+    "video_title": "Google AI Studio Full Walkthrough and Tutorial",
+    "creator": "AI for Grownups",
+    "timestamp": "07:25-08:24"
+  },
+  "status": "active",
+  "version": "1.0",
+  "created_date": "2025-11-24",
+  "last_updated": "2025-11-24"
+}

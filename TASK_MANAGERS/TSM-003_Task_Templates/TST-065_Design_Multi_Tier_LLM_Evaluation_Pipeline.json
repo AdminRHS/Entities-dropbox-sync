@@ -1,0 +1,314 @@
+{
+  "entity_type": "TASK_MANAGERS",
+  "sub_entity": "Task_Template",
+  "template_id": "Task-Template-065",
+  "version": "1.0",
+  "created_date": "2025-11-17",
+  "last_updated": "2025-11-17",
+  "metadata": {
+    "name": "Design Multi-Tier LLM Evaluation Pipeline",
+    "description": "Create cost-optimized evaluation system using cheap models for obvious cases, expensive models for borderline cases, and humans for edge cases",
+    "action": "Design",
+    "object": "Multi-Tier LLM Evaluation Pipeline",
+    "context": "AI Model Quality Assessment at Scale",
+    "department": "ML Engineering, Product, QA",
+    "complexity": "Medium-High",
+    "estimated_duration": "4-8 hours (initial design and implementation)",
+    "skill_level_required": "Intermediate-Advanced",
+    "tools_required": [
+      "TOOL-115 (LLM-as-Judge Evaluation Framework)",
+      "OpenAI API or Anthropic API",
+      "Python",
+      "LangChain or similar (optional)"
+    ],
+    "prerequisites": [
+      "LLM API access (OpenAI, Anthropic, etc.)",
+      "Python development environment",
+      "Test dataset with sample queries",
+      "Understanding of evaluation metrics",
+      "Budget for API costs"
+    ]
+  },
+  "workflow": {
+    "phase": "setup",
+    "workflow_id": "WF-ML-001",
+    "dependencies": [],
+    "outputs": [
+      "Multi-tier evaluation pipeline designed and implemented",
+      "Cost optimization achieved (70-85% vs. single expensive model)",
+      "Evaluation at scale (100s-1000s of samples)",
+      "Quality maintained (comparable to full expensive model evaluation)",
+      "Documentation for team usage"
+    ]
+  },
+  "steps": [
+    {
+      "step_number": 1,
+      "step_id": "STEP-ML-065-01",
+      "step_name": "Define Evaluation Objectives and Metrics",
+      "description": "Clarify what you're evaluating (e.g., Dash AI answers, code suggestions, content generation). Define dimensions (accuracy, helpfulness, safety, tone). Determine acceptable quality threshold",
+      "estimated_time": "30-45 minutes",
+      "tools": [],
+      "output": "Clear evaluation objectives with 3-7 dimensions and scoring scales",
+      "examples": {
+        "objective": "Evaluate quality of Dropbox Dash AI-generated answers to user queries",
+        "dimensions": [
+          "Accuracy: Is information factually correct? (1-5 scale)",
+          "Completeness: Does it fully answer the query? (1-5 scale)",
+          "Source citation: Are sources provided and accurate? (1-5 scale)",
+          "Safety: No harmful/biased content? (Pass/Fail)",
+          "Tone: Matches brand voice? (1-5 scale)"
+        ],
+        "threshold": "Average score >= 4.0 across dimensions for production readiness"
+      }
+    },
+    {
+      "step_number": 2,
+      "step_id": "STEP-ML-065-02",
+      "step_name": "Create Test Dataset",
+      "description": "Compile 50-200 representative test queries covering diverse scenarios (simple, complex, edge cases, different domains). Include ground truth answers if available",
+      "estimated_time": "1-2 hours",
+      "tools": [],
+      "output": "Test dataset with 50-200 queries, diversity across difficulty and topic",
+      "dataset_composition": {
+        "simple_queries": "30-40% (obvious answers)",
+        "medium_queries": "40-50% (typical cases)",
+        "complex_queries": "15-20% (multi-step, ambiguous)",
+        "edge_cases": "5-10% (unusual, adversarial)"
+      }
+    },
+    {
+      "step_number": 3,
+      "step_id": "STEP-ML-065-03",
+      "step_name": "Design Judge Evaluation Prompt",
+      "description": "Write prompt instructing judge LLM how to evaluate. Include criteria, scoring scales, examples of good/bad responses, and request structured output (JSON)",
+      "estimated_time": "45-60 minutes",
+      "tools": [],
+      "output": "Judge prompt template with clear instructions and examples",
+      "prompt_template_example": "You are an expert evaluator. Rate this AI response on 1-5 scale for: Accuracy, Completeness, Source Quality, Tone. Provide JSON: {\"accuracy\": X, \"completeness\": X, \"source_quality\": X, \"tone\": X, \"explanation\": \"...\"}. User Query: {query}. AI Response: {response}. Your Evaluation:"
+    },
+    {
+      "step_number": 4,
+      "step_id": "STEP-ML-065-04",
+      "step_name": "Define Tier Architecture",
+      "description": "Design 3-tier system: Tier 1 (fast/cheap filter), Tier 2 (expensive review), Tier 3 (human). Set confidence thresholds for routing between tiers. Estimate cost and coverage for each tier",
+      "estimated_time": "30-45 minutes",
+      "tools": [],
+      "output": "Tier architecture document with routing logic and cost estimates",
+      "recommended_architecture": {
+        "tier_1": {
+          "model": "GPT-3.5-turbo or Claude Haiku",
+          "cost_per_eval": "$0.001-0.002",
+          "routing_logic": "High-confidence cases (all scores >= 4.5 or all <= 2.0)",
+          "expected_coverage": "60-70% of cases",
+          "action": "Auto-pass or auto-fail based on unanimous scores"
+        },
+        "tier_2": {
+          "model": "GPT-4 or Claude Opus",
+          "cost_per_eval": "$0.01-0.03",
+          "routing_logic": "Borderline cases (scores 2.5-4.0 or mixed scores)",
+          "expected_coverage": "25-35% of cases",
+          "action": "More thorough evaluation, provide detailed explanation"
+        },
+        "tier_3": {
+          "model": "Human expert review",
+          "cost_per_eval": "$5-20 (time-based)",
+          "routing_logic": "Disagreement between T1/T2, critical failures, low confidence",
+          "expected_coverage": "5-10% of cases",
+          "action": "Manual expert review, final decision"
+        }
+      }
+    },
+    {
+      "step_number": 5,
+      "step_id": "STEP-ML-065-05",
+      "step_name": "Implement Tier 1 (Fast Filter)",
+      "description": "Code Tier 1 logic using cheap model. For each test query, get subject LLM response, pass to Tier 1 judge, collect scores. Route high-confidence cases to pass/fail; others to Tier 2",
+      "estimated_time": "1-2 hours",
+      "tools": ["Python", "OpenAI/Anthropic API", "TOOL-115"],
+      "output": "Working Tier 1 implementation with routing logic",
+      "pseudocode": "for query in test_set:\n  response = subject_llm(query)\n  scores = tier1_judge(query, response, judge_prompt)\n  if all(scores >= 4.5): mark_pass()\n  elif all(scores <= 2.0): mark_fail()\n  else: route_to_tier2()"
+    },
+    {
+      "step_number": 6,
+      "step_id": "STEP-ML-065-06",
+      "step_name": "Implement Tier 2 (Expensive Review)",
+      "description": "Code Tier 2 logic using expensive model for borderline cases. Get more detailed evaluation with explanations. Set threshold for escalation to human review (Tier 3)",
+      "estimated_time": "1-1.5 hours",
+      "tools": ["Python", "OpenAI/Anthropic API", "TOOL-115"],
+      "output": "Working Tier 2 implementation integrated with Tier 1",
+      "tier2_enhancements": [
+        "More detailed judge prompt with specific failure patterns",
+        "Request confidence score (0-100%) for routing to Tier 3",
+        "Provide explanation for each dimension score",
+        "Compare to ground truth if available"
+      ]
+    },
+    {
+      "step_number": 7,
+      "step_id": "STEP-ML-065-07",
+      "step_name": "Setup Human Review Queue (Tier 3)",
+      "description": "Create interface for human reviewers (Google Sheet, Airtable, or custom UI). Populate with cases escalated from Tier 2. Include query, response, Tier 1/2 scores, and review form",
+      "estimated_time": "1-2 hours",
+      "tools": ["Google Sheets or Airtable"],
+      "output": "Human review queue with escalated cases ready for expert review",
+      "review_form_fields": [
+        "Query",
+        "AI Response",
+        "Tier 1 scores (reference)",
+        "Tier 2 scores (reference)",
+        "Human evaluation (1-5 per dimension)",
+        "Pass/Fail decision",
+        "Comments/Notes",
+        "Reviewer name and date"
+      ]
+    },
+    {
+      "step_number": 8,
+      "step_id": "STEP-ML-065-08",
+      "step_name": "Run Pilot Evaluation",
+      "description": "Execute full pipeline on test dataset (50-200 queries). Track tier distribution (% resolved at each tier), costs, and quality. Compare subset against all-human evaluation to validate",
+      "estimated_time": "1-2 hours (runtime + analysis)",
+      "tools": ["Python", "APIs", "TOOL-115"],
+      "output": "Pilot results with metrics: tier distribution, cost, quality scores, validation",
+      "success_criteria": [
+        "60-70% resolved at Tier 1 (cost-effective)",
+        "25-35% resolved at Tier 2 (manageable)",
+        "5-10% escalated to Tier 3 (sustainable)",
+        "Agreement with human baseline >= 80%",
+        "Total cost 70-85% less than all-Tier-2 approach"
+      ]
+    },
+    {
+      "step_number": 9,
+      "step_id": "STEP-ML-065-09",
+      "step_name": "Analyze Results and Refine Thresholds",
+      "description": "Review pilot results. Check for imbalances (too many/few in each tier). Analyze disagreements between tiers. Adjust routing thresholds to optimize cost/quality trade-off",
+      "estimated_time": "45-60 minutes",
+      "tools": ["Pandas", "Jupyter Notebook"],
+      "output": "Optimized tier thresholds based on pilot data",
+      "refinement_strategies": [
+        "If Tier 1 coverage <50%: Lower confidence threshold",
+        "If Tier 3 >15%: Raise Tier 2 confidence threshold",
+        "If disagreement rate high: Improve judge prompt clarity",
+        "If specific dimension problematic: Add dimension-specific examples to prompt"
+      ]
+    },
+    {
+      "step_number": 10,
+      "step_id": "STEP-ML-065-10",
+      "step_name": "Document and Deploy",
+      "description": "Document pipeline design, routing logic, costs, and usage instructions. Create README for team. Set up scheduled runs (e.g., weekly regression test) or integrate into CI/CD",
+      "estimated_time": "30-45 minutes",
+      "tools": ["Markdown", "GitHub"],
+      "output": "Documented pipeline ready for team use and production deployment",
+      "documentation_sections": [
+        "Overview and objectives",
+        "Tier architecture and routing logic",
+        "How to run evaluation",
+        "Cost breakdown and estimates",
+        "Interpreting results",
+        "Troubleshooting",
+        "Future improvements"
+      ]
+    }
+  ],
+  "quality_checklist": [
+    "Evaluation dimensions clearly defined (3-7 dimensions)",
+    "Test dataset is diverse (50-200 queries across difficulty levels)",
+    "Judge prompt produces structured output (JSON)",
+    "Tier 1 resolves 60-70% of cases (cost-effective)",
+    "Tier 2 handles 25-35% (manageable volume)",
+    "Tier 3 escalates <10% (sustainable for humans)",
+    "Agreement with human baseline >= 80%",
+    "Cost reduction 70-85% vs. all-expensive-model approach",
+    "Pipeline documented for team use",
+    "Scheduled runs or CI/CD integration configured"
+  ],
+  "cost_analysis_example": {
+    "scenario": "Evaluate 1000 AI responses",
+    "single_tier_expensive": {
+      "model": "GPT-4 (all 1000)",
+      "cost_per_eval": "$0.015",
+      "total_cost": "$15.00"
+    },
+    "multi_tier_optimized": {
+      "tier_1": "700 cases × $0.002 = $1.40",
+      "tier_2": "250 cases × $0.015 = $3.75",
+      "tier_3": "50 cases × $10 = $500 (human time, not included in API cost)",
+      "total_api_cost": "$5.15",
+      "savings": "66% API cost reduction ($15.00 → $5.15)"
+    },
+    "value_proposition": "66% lower API costs + human time focused on 5% hardest cases (instead of 100%)"
+  },
+  "time_savings_analysis": {
+    "manual_evaluation": "1000 responses × 3 minutes/review = 50 hours",
+    "multi_tier_pipeline": "Pipeline runtime: 30 minutes + 50 human reviews × 10 minutes = 9 hours",
+    "time_saved": "41 hours (82% reduction)",
+    "ongoing_benefit": "Enable weekly regression testing (not feasible with manual review)"
+  },
+  "related_entities": {
+    "workflow": "WF-ML-001 (Design Multi-Tier LLM Evaluation Pipeline)",
+    "tools": [
+      "TOOL-115 (LLM-as-Judge Evaluation Framework)",
+      "OpenAI API",
+      "Anthropic API",
+      "Python",
+      "LangChain"
+    ],
+    "related_task_templates": [
+      "Task-Template-066: Create LLM Judge Evaluation Prompt",
+      "Task-Template-067: Run A/B Test Between Model Versions"
+    ],
+    "skills_required": [
+      "prompt engineering",
+      "LLM API usage",
+      "Python scripting",
+      "evaluation metric design",
+      "cost-benefit analysis",
+      "statistical analysis"
+    ],
+    "discovery_source": "Video_016.md - Dropbox Dash Interview with Morgan Brown",
+    "step_templates": [
+      "STEP-ML-065-01 through STEP-ML-065-10"
+    ]
+  },
+  "best_practices": {
+    "judge_prompt_design": [
+      "Be specific about criteria (avoid vague 'quality')",
+      "Provide 2-3 examples of good vs. bad responses",
+      "Request structured output (JSON) for easy parsing",
+      "Include safety/harm guidelines explicitly",
+      "Test prompt on 10-20 samples before full run"
+    ],
+    "tier_threshold_tuning": [
+      "Start conservative (higher confidence thresholds)",
+      "Monitor tier distribution weekly",
+      "Adjust based on human review feedback",
+      "Track inter-tier agreement (validate tiers align)",
+      "Re-calibrate after model updates or prompt changes"
+    ],
+    "production_deployment": [
+      "Run on sample (10-20%) of production traffic initially",
+      "Set up alerts for score degradation",
+      "Combine with traditional metrics (latency, user engagement)",
+      "Periodic human spot-checks (5-10% of Tier 1/2 decisions)",
+      "Version evaluation datasets for longitudinal tracking"
+    ]
+  },
+  "common_pitfalls": [
+    "Tier 1 threshold too strict → most cases go to Tier 2 (no cost savings)",
+    "Tier 1 threshold too loose → poor quality auto-decisions",
+    "Judge prompt ambiguous → inconsistent scores across tiers",
+    "Test dataset not representative → pipeline fails on production data",
+    "No human validation → don't know if judges are accurate",
+    "Set-and-forget → judge quality degrades as subject model changes"
+  ],
+  "version_history": [
+    {
+      "version": "1.0",
+      "date": "2025-11-17",
+      "changes": "Initial template creation from Video_016.md workflow extraction"
+    }
+  ]
+}

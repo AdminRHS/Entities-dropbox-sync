@@ -1,0 +1,29 @@
+{
+  "entity_type": "TASK_MANAGERS",
+  "sub_entity": "Step_Template",
+  "step_id": "VIDEO-VIDEO-001-08",
+  "step_number": 8,
+  "parent_task": "TASK-TEMPLATE-VIDEO-001",
+  "task_name": "Create Multi-Scene Product Commercial",
+  "name": "Download Scene 1 and extract final frame",
+  "action": "download",
+  "tool": "OpenArt download",
+  "responsibility": "Product Marketer",
+  "placement": "Local storage",
+  "duration": "2 minutes",
+  "dependencies": [7],
+  "inputs": [
+    "Generated Scene 1 video"
+  ],
+  "outputs": [
+    "Scene 1 video file",
+    "Final frame extracted as image"
+  ],
+  "success_criteria": "Video downloaded, final frame saved as JPG/PNG",
+  "implementation_notes": "Download the generated Scene 1 video. Extract the final frame as a static image (JPG or PNG) to use as the start frame for Scene 2.",
+  "tags": ["download", "frame-extraction", "scene-chaining"],
+  "version": "1.0",
+  "created": "2025-11-15",
+  "last_updated": "2025-11-15",
+  "source": "Video_012"
+}

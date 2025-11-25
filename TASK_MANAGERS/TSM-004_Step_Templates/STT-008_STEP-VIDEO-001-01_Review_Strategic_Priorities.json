@@ -1,0 +1,37 @@
+{
+  "step_template_id": "Step-Template-008",
+  "step_template_name": "Review Strategic Priorities and Department Needs",
+  "metadata": {
+    "status": "Active"
+  },
+  "parent_task": {
+    "task_id": "TASK-TEMPLATE-VIDEO-001",
+    "task_name": "Search and Score Videos Using 0-100 System"
+  },
+  "step_details": {
+    "step_number": 1,
+    "order": 1,
+    "action": "review",
+    "detail": "Review daily reports, department needs, and Critical Priority Topics list to identify 3-5 focus areas",
+    "expected_duration": 15
+  },
+  "execution": {
+    "tool_used": "Daily reports, Priority documents",
+    "inputs": [
+      "Daily .md files",
+      "Department requests",
+      "November 2025 priorities"
+    ],
+    "outputs": [
+      "List of 3-5 focus areas for video search"
+    ],
+    "success_criteria": "Clear understanding of current priorities and focus areas identified"
+  },
+  "relationships": {
+    "dependencies": [],
+    "next_steps": [
+      "STEP-VIDEO-001-02"
+    ],
+    "parallel_steps": []
+  }
+}

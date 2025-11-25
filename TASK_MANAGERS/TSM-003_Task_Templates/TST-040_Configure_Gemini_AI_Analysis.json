@@ -1,0 +1,350 @@
+{
+  "entity_type": "TASK_MANAGERS",
+  "sub_entity": "Task_Template",
+  "template_id": "Task-Template-040",
+  "task_name": "Configure Gemini AI Analysis for CV Screening Optimization",
+  "action": "Configure",
+  "object": "Gemini AI Parameters",
+  "context": "for optimized CV screening accuracy and consistency",
+  "description": "Fine-tune Gemini AI analysis parameters, prompts, and scoring criteria to achieve >95% CV screening accuracy. Includes prompt engineering for 21-field extraction, scoring calibration, and bias reduction. Part of Week 1 implementation following n8n setup.",
+  "department": "HR",
+  "profession": "HR Manager / AI Specialist",
+  "estimated_duration": "1.5-2 hours",
+  "status": "Template",
+  "dependencies": [
+    "TASK-TEMPLATE-HR-AUTO-001 completed (n8n setup operational)",
+    "CV Parser v1 prompt available (PRM-HR-001)",
+    "10+ sample CVs for testing and calibration"
+  ],
+  "tools_required": [
+    "Google Gemini API",
+    "n8n workflow editor",
+    "Google Sheets (for result comparison)",
+    "CV Parser v1 prompt template"
+  ],
+  "success_criteria": [
+    "Gemini AI consistently extracts all 21 fields with >95% accuracy",
+    "Scoring algorithm validated against manual HR review (>90% agreement)",
+    "Bias reduction confirmed (tested across diverse candidate profiles)",
+    "Response time <30 seconds per CV",
+    "Zero critical errors in 50-CV test batch"
+  ],
+  "steps": [
+    {
+      "step_number": 1,
+      "name": "Load CV Parser v1 prompt into n8n workflow",
+      "tool": "n8n + CV Parser v1",
+      "responsibility": "HR Manager",
+      "placement": "n8n workflow - Gemini AI node",
+      "duration": "10 minutes",
+      "dependencies": [],
+      "inputs": [
+        "CV Parser v1 prompt text from PRM-HR-001",
+        "n8n Gemini AI node configuration"
+      ],
+      "outputs": [
+        "Prompt loaded into AI node",
+        "Dynamic variables configured for CV text insertion"
+      ],
+      "success_criteria": "Prompt correctly formatted in n8n with {{CV_text}} variable placeholder"
+    },
+    {
+      "step_number": 2,
+      "name": "Configure Gemini AI model parameters",
+      "tool": "n8n - Gemini AI node settings",
+      "responsibility": "HR Manager",
+      "placement": "n8n workflow editor",
+      "duration": "15 minutes",
+      "dependencies": [
+        "Step 1"
+      ],
+      "inputs": [
+        "Recommended model: gemini-1.5-pro or gemini-1.5-flash",
+        "Temperature: 0.2 (low for consistency)",
+        "Max tokens: 2048",
+        "Top-p: 0.95",
+        "Top-k: 40"
+      ],
+      "outputs": [
+        "Model parameters configured",
+        "Settings saved in workflow"
+      ],
+      "success_criteria": "Parameters set for consistent, structured output with minimal hallucination"
+    },
+    {
+      "step_number": 3,
+      "name": "Test AI with 5 known-good CVs (baseline validation)",
+      "tool": "n8n + Gemini AI + Google Sheets",
+      "responsibility": "HR Manager",
+      "placement": "n8n workflow execution",
+      "duration": "20 minutes",
+      "dependencies": [
+        "Step 2"
+      ],
+      "inputs": [
+        "5 pre-screened CVs with manually verified data",
+        "Expected output for each field"
+      ],
+      "outputs": [
+        "AI-generated output for 5 CVs",
+        "Comparison table: AI vs Manual extraction",
+        "Field-by-field accuracy report"
+      ],
+      "success_criteria": ">90% field accuracy across all 5 CVs (95+ out of 105 fields correct)"
+    },
+    {
+      "step_number": 4,
+      "name": "Refine prompt based on error patterns",
+      "tool": "CV Parser v1 prompt editing",
+      "responsibility": "HR Manager",
+      "placement": "Prompt template document",
+      "duration": "30 minutes",
+      "dependencies": [
+        "Step 3"
+      ],
+      "inputs": [
+        "Error analysis from Step 3",
+        "Common extraction failures (e.g., phone formats, date parsing, skill lists)"
+      ],
+      "outputs": [
+        "Updated prompt with additional instructions",
+        "Examples added for problematic fields",
+        "Explicit formatting rules for TSV output"
+      ],
+      "success_criteria": "Prompt updated to address >80% of identified errors"
+    },
+    {
+      "step_number": 5,
+      "name": "Add scoring criteria to AI prompt",
+      "tool": "CV Parser v1 prompt + n8n",
+      "responsibility": "HR Manager",
+      "placement": "Gemini AI node prompt section",
+      "duration": "20 minutes",
+      "dependencies": [
+        "Step 4"
+      ],
+      "inputs": [
+        "Scoring rubric: Experience (0-30 pts), Education (0-20 pts), Skills (0-30 pts), Language (0-10 pts), Availability (0-10 pts)",
+        "Job requirements for comparison scoring"
+      ],
+      "outputs": [
+        "Scoring instructions added to prompt",
+        "Total score field (0-100) added as 22nd output field",
+        "Recommendation field added (Reject/Interview/Priority)"
+      ],
+      "success_criteria": "AI generates consistent scores aligned with HR evaluation criteria"
+    },
+    {
+      "step_number": 6,
+      "name": "Test with diverse candidate profiles for bias detection",
+      "tool": "n8n + Gemini AI",
+      "responsibility": "HR Manager",
+      "placement": "n8n workflow + analysis spreadsheet",
+      "duration": "30 minutes",
+      "dependencies": [
+        "Step 5"
+      ],
+      "inputs": [
+        "10 CVs with diverse characteristics: gender, age, nationality, career gaps, non-traditional backgrounds",
+        "Bias detection checklist"
+      ],
+      "outputs": [
+        "Scoring results across diverse profiles",
+        "Bias analysis report",
+        "Statistical check for unfair scoring patterns"
+      ],
+      "success_criteria": "No statistically significant bias detected across protected characteristics (p>0.05)"
+    },
+    {
+      "step_number": 7,
+      "name": "Calibrate scoring against manual HR reviews",
+      "tool": "Google Sheets (comparison analysis)",
+      "responsibility": "HR Manager + Senior HR Reviewer",
+      "placement": "Google Sheets analysis tab",
+      "duration": "30 minutes",
+      "dependencies": [
+        "Step 6"
+      ],
+      "inputs": [
+        "20 CVs scored by both AI and manual HR review",
+        "Manual scores as ground truth"
+      ],
+      "outputs": [
+        "Correlation analysis (AI vs Manual scores)",
+        "Agreement rate for Interview/Reject decisions",
+        "Calibration adjustments if needed"
+      ],
+      "success_criteria": ">90% agreement on Interview/Reject decisions, correlation coefficient >0.85"
+    },
+    {
+      "step_number": 8,
+      "name": "Document final configuration and create prompt version control",
+      "tool": "Notion or Git repository",
+      "responsibility": "HR Manager",
+      "placement": "HR documentation",
+      "duration": "15 minutes",
+      "dependencies": [
+        "Step 7"
+      ],
+      "inputs": [
+        "Final prompt text",
+        "Model parameters",
+        "Scoring criteria",
+        "Test results summary"
+      ],
+      "outputs": [
+        "CV Parser v1.1 prompt (optimized version)",
+        "Configuration documentation",
+        "Version history log"
+      ],
+      "success_criteria": "Configuration fully documented, reproducible by other team members"
+    }
+  ],
+  "checklist": [
+    {
+      "item": "CV Parser v1 prompt loaded into n8n Gemini AI node",
+      "guide": "Copy prompt from PRM-HR-001, insert into AI node with {{CV_text}} variable",
+      "required": true
+    },
+    {
+      "item": "Gemini model parameters optimized for consistency",
+      "guide": "Temperature=0.2, Max tokens=2048, Model=gemini-1.5-pro or gemini-1.5-flash",
+      "required": true
+    },
+    {
+      "item": "Baseline accuracy test passed (>90% on 5 CVs)",
+      "guide": "Test with manually verified CVs, compare AI output field-by-field",
+      "required": true
+    },
+    {
+      "item": "Prompt refined based on error analysis",
+      "guide": "Address common extraction failures: phone formats, dates, skill lists",
+      "required": true
+    },
+    {
+      "item": "Scoring criteria integrated into prompt",
+      "guide": "Add rubric: Experience (30), Education (20), Skills (30), Language (10), Availability (10)",
+      "required": true
+    },
+    {
+      "item": "Bias testing completed with diverse profiles",
+      "guide": "Test 10 CVs with diverse gender, age, nationality, career gaps - no bias detected",
+      "required": true
+    },
+    {
+      "item": "Calibration validated against manual HR reviews",
+      "guide": ">90% agreement on Interview/Reject decisions, correlation >0.85",
+      "required": true
+    },
+    {
+      "item": "Final configuration documented with version control",
+      "guide": "Save as CV Parser v1.1, document all parameters and test results",
+      "required": true
+    }
+  ],
+  "resources": [
+    {
+      "name": "CV Parser v1 Prompt (PRM-HR-001)",
+      "type": "Prompt Template",
+      "location": "Entities/LIBRARIES/DEPARTMENTS/_SHARED/Prompts/HR_Operations/CV_Parser_v1.md",
+      "description": "Base prompt for 21-field CV extraction"
+    },
+    {
+      "name": "Google Gemini API - Prompt Engineering Guide",
+      "type": "Official Documentation",
+      "url": "https://ai.google.dev/docs/prompt_best_practices",
+      "description": "Best practices for Gemini prompt optimization"
+    },
+    {
+      "name": "HR Videos Research - AI Accuracy Section",
+      "type": "Research Document",
+      "location": "Entities/LIBRARIES/DEPARTMENTS/_SHARED/Prompts/Research/Reports/HR videos research.md",
+      "description": "Research on AI accuracy in CV screening and bias reduction"
+    },
+    {
+      "name": "Bias in AI Hiring - EU Guidelines",
+      "type": "Compliance Reference",
+      "description": "EU guidelines for AI fairness in recruitment (GDPR Article 22)"
+    }
+  ],
+  "roi_metrics": {
+    "accuracy_improvement": "From 90% (base) to 95%+ (optimized)",
+    "bias_reduction": "Statistically insignificant bias vs manual review bias patterns",
+    "time_investment": "1.5-2 hours setup, ongoing benefit for thousands of CVs",
+    "quality_improvement": "Consistent scoring vs human reviewer fatigue/variance",
+    "false_positive_reduction": "From 15% to <5% (fewer weak candidates advancing)",
+    "false_negative_reduction": "From 10% to <3% (fewer strong candidates missed)"
+  },
+  "related_tasks": [
+    "TASK-TEMPLATE-HR-AUTO-001 (Setup n8n for CV Screening - prerequisite)",
+    "TASK-TEMPLATE-HR-AUTO-003 (Build Notion ATS Database - next step)",
+    "TASK-TEMPLATE-HR-006 (Parse Resume Using AI - uses this configuration)"
+  ],
+  "related_workflows": [
+    "WF-HR-AUTO-001 (Automated CV Screening Workflow)"
+  ],
+  "related_projects": [
+    "Project-Template-003 (Complete HR Automation Implementation - Week 1)"
+  ],
+  "tags": [
+    "hr",
+    "automation",
+    "gemini_ai",
+    "cv_screening",
+    "prompt_engineering",
+    "optimization",
+    "week_1",
+    "high_priority"
+  ],
+  "version": "1.0",
+  "created": "2025-11-14",
+  "last_updated": "2025-11-14",
+  "source": "HR videos research.md - AI optimization best practices",
+  "compliance_notes": "Bias testing required for GDPR Article 22 compliance (automated decision-making). Document all testing, maintain audit trail, allow human review override.",
+  "troubleshooting": [
+    {
+      "issue": "AI extracts wrong phone number format",
+      "solution": "Add explicit instruction: 'Extract phone in international format: +XX-XXX-XXX-XXXX'"
+    },
+    {
+      "issue": "Skills list truncated or incomplete",
+      "solution": "Increase max tokens to 3000, add instruction: 'Extract ALL skills mentioned, separate with commas'"
+    },
+    {
+      "issue": "Dates parsed incorrectly",
+      "solution": "Add examples in prompt: 'Parse dates as YYYY-MM-DD. Example: Jan 2020 → 2020-01-01'"
+    },
+    {
+      "issue": "Scores vary widely for similar candidates",
+      "solution": "Add anchor examples in prompt: 'Score 80-90: 5+ years relevant experience, degree in field, fluent English'"
+    },
+    {
+      "issue": "AI hallucinates information not in CV",
+      "solution": "Lower temperature to 0.1, add instruction: 'ONLY extract information explicitly stated. Use N/A for missing fields'"
+    }
+  ],
+  "optimization_tips": [
+    "Use few-shot examples (2-3 sample CVs with perfect output) in prompt",
+    "Test prompt changes with same 10 CVs for consistent comparison",
+    "Monitor Gemini API usage to stay within free tier (60 requests/minute)",
+    "Create A/B test: run same CVs with old vs new prompt, compare accuracy",
+    "Use Google Sheets formulas to auto-calculate accuracy percentages",
+    "Set up weekly calibration: HR reviews 10 random AI-scored CVs for drift detection"
+  ],
+  "bias_prevention_checklist": [
+    "Remove or anonymize name field before scoring (if gender bias detected)",
+    "Test scoring consistency across different universities (avoid prestige bias)",
+    "Validate scoring for candidates with career gaps (avoid recency bias)",
+    "Check scoring for international candidates (avoid nationality bias)",
+    "Test with non-traditional career paths (avoid traditional employment bias)",
+    "Verify age-neutral scoring (avoid experience=age correlation)"
+  ],
+  "future_enhancements": [
+    "Multi-model comparison (Gemini vs Claude vs GPT-4 for accuracy)",
+    "Dynamic prompt adjustment based on job role (different rubrics for different positions)",
+    "Candidate anonymization before AI analysis (blind screening)",
+    "Continuous learning: update prompt based on hiring outcome data",
+    "Custom skill taxonomy integration (match against company-specific skill database)",
+    "Multilingual CV support (auto-detect language, translate if needed)"
+  ]
+}

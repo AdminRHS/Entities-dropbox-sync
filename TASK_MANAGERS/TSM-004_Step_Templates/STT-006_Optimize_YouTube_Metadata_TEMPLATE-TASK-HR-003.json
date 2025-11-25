@@ -1,0 +1,45 @@
+{
+  "step_template_id": "Step-Template-006",
+  "step_template_name": "Optimize YouTube Metadata",
+  "metadata": {
+    "status": "Active"
+  },
+  "parent_task": {
+    "task_id": "TASK-TEMPLATE-HR-003",
+    "task_name": "Conduct Video Interview with Candidate"
+  },
+  "step_details": {
+    "step_number": 4,
+    "order": 4,
+    "action": "optimize",
+    "detail": "Write long-form description, add hashtags, cards, and end screens so the interview is discoverable and aligned with SEO brief",
+    "expected_duration": 25
+  },
+  "execution": {
+    "tool_used": "YouTube Studio / Notion SEO Brief",
+    "inputs": [
+      "Interview transcript",
+      "Role summary & keywords",
+      "url_video_to_youtube"
+    ],
+    "outputs": [
+      "youtube_description",
+      "youtube_hashtags",
+      "Playlist + tag set"
+    ],
+    "success_criteria": "Description exceeds 250 words, includes CTA + links, and hashtag block follows company taxonomy"
+  },
+  "relationships": {
+    "dependencies": [
+      "STEP-HR-003-03"
+    ],
+    "next_steps": [
+      "STEP-HR-003-05"
+    ],
+    "parallel_steps": []
+  },
+  "source_tracking": {
+    "source_file": "AI Nov25/Niko AI/Employees/units/video_editing.json",
+    "extraction_date": "2025-11-07"
+  }
+}

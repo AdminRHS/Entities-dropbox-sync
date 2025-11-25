@@ -1,0 +1,367 @@
+{
+  "statistics": {
+    "files_checked": 560,
+    "files_updated": 40,
+    "total_changes": 137,
+    "errors": 0
+  },
+  "updates": [
+    {
+      "file": "migration_report.json",
+      "changes": [
+        "LBS_001_Actions -> Responsibilities/Actions",
+        "LBS_002_Objects -> Responsibilities/Objects",
+        "LBS_007_Parameters -> Responsibilities/Parameters",
+        "LBS_004_Skills -> ../TALENTS/Skills",
+        "LBS_008_Taxonomy -> Taxonomy",
+        "LBS_009_Archive -> Archive"
+      ]
+    },
+    {
+      "file": "Responsibilities\\Account_Management_Responsibilities.json",
+      "changes": [
+        "LBS_001_Actions -> Responsibilities/Actions",
+        "LBS_002_Objects -> Responsibilities/Objects"
+      ]
+    },
+    {
+      "file": "Responsibilities\\ecosystem_validation_report.json",
+      "changes": [
+        "LBS_001_Actions -> Responsibilities/Actions",
+        "LBS_002_Objects -> Responsibilities/Objects"
+      ]
+    },
+    {
+      "file": "Taxonomy\\Libraries_Migration_Map.json",
+      "changes": [
+        "LBS_001_Actions -> Responsibilities/Actions",
+        "LBS_002_Objects -> Responsibilities/Objects",
+        "LBS_008_Taxonomy -> Taxonomy",
+        "LIBRARIES/LBS_008_Taxonomy -> LIBRARIES/Taxonomy",
+        "LBS_009_Archive -> Archive",
+        "LIBRARIES/LBS_009_Archive -> LIBRARIES/Archive"
+      ]
+    },
+    {
+      "file": "Responsibilities\\Integration\\parameter_object_mapping.json",
+      "changes": [
+        "LBS_002_Objects -> Responsibilities/Objects",
+        "LBS_007_Parameters -> Responsibilities/Parameters"
+      ]
+    },
+    {
+      "file": "LBS_004_Skills\\Templates\\talent_skill_profile.json",
+      "changes": [
+        "LBS_004_Skills -> ../TALENTS/Skills"
+      ]
+    },
+    {
+      "file": "migrate_folder_paths.py",
+      "changes": [
+        "LBS_001_Actions -> Responsibilities/Actions",
+        "LBS_002_Objects -> Responsibilities/Objects",
+        "LBS_007_Parameters -> Responsibilities/Parameters",
+        "LBS_004_Skills -> ../TALENTS/Skills",
+        "LBS_008_Taxonomy -> Taxonomy",
+        "LBS_009_Archive -> Archive"
+      ]
+    },
+    {
+      "file": "update_integration_references.py",
+      "changes": [
+        "LBS_001_Actions -> Responsibilities/Actions",
+        "LBS_002_Objects -> Responsibilities/Objects",
+        "LBS_007_Parameters -> Responsibilities/Parameters",
+        "LBS_004_Skills -> ../TALENTS/Skills",
+        "LBS_008_Taxonomy -> Taxonomy",
+        "LBS_009_Archive -> Archive"
+      ]
+    },
+    {
+      "file": "Responsibilities\\create_parameter_mapping.py",
+      "changes": [
+        "LBS_002_Objects -> Responsibilities/Objects",
+        "LBS_007_Parameters -> Responsibilities/Parameters"
+      ]
+    },
+    {
+      "file": "Taxonomy\\generate_master_list.py",
+      "changes": [
+        "LBS_001_Actions -> Responsibilities/Actions",
+        "LBS_002_Objects -> Responsibilities/Objects",
+        "LBS_004_Skills -> ../TALENTS/Skills"
+      ]
+    },
+    {
+      "file": "ACTIONS_README.md",
+      "changes": [
+        "LBS_001_Actions -> Responsibilities/Actions",
+        "LBS_009_Archive -> Archive",
+        "LIBRARIES/LBS_009_Archive -> LIBRARIES/Archive"
+      ]
+    },
+    {
+      "file": "FOLDER_MIGRATION_NOTE_2025-12-26.md",
+      "changes": [
+        "LBS_001_Actions -> Responsibilities/Actions",
+        "LBS_002_Objects -> Responsibilities/Objects",
+        "LBS_007_Parameters -> Responsibilities/Parameters",
+        "LBS_004_Skills -> ../TALENTS/Skills",
+        "LBS_008_Taxonomy -> Taxonomy",
+        "LBS_009_Archive -> Archive"
+      ]
+    },
+    {
+      "file": "FOLDER_NAMING_PROPOSAL.md",
+      "changes": [
+        "LBS_001_Actions -> Responsibilities/Actions",
+        "LBS_002_Objects -> Responsibilities/Objects",
+        "LBS_007_Parameters -> Responsibilities/Parameters",
+        "LBS_004_Skills -> ../TALENTS/Skills",
+        "LBS_008_Taxonomy -> Taxonomy",
+        "LBS_009_Archive -> Archive"
+      ]
+    },
+    {
+      "file": "FOLDER_STRUCTURE_QUICK_REFERENCE.md",
+      "changes": [
+        "LBS_001_Actions -> Responsibilities/Actions",
+        "LBS_002_Objects -> Responsibilities/Objects",
+        "LBS_007_Parameters -> Responsibilities/Parameters",
+        "LBS_004_Skills -> ../TALENTS/Skills",
+        "LBS_008_Taxonomy -> Taxonomy",
+        "LBS_009_Archive -> Archive"
+      ]
+    },
+    {
+      "file": "ID_AND_NAME_CONVENTIONS.md",
+      "changes": [
+        "LBS_001_Actions -> Responsibilities/Actions",
+        "LBS_002_Objects -> Responsibilities/Objects",
+        "LBS_004_Skills -> ../TALENTS/Skills",
+        "LBS_008_Taxonomy -> Taxonomy"
+      ]
+    },
+    {
+      "file": "LBS_FOLDER_MASTER.md",
+      "changes": [
+        "LBS_001_Actions -> Responsibilities/Actions",
+        "LBS_002_Objects -> Responsibilities/Objects",
+        "LBS_007_Parameters -> Responsibilities/Parameters",
+        "LBS_004_Skills -> ../TALENTS/Skills",
+        "LBS_008_Taxonomy -> Taxonomy",
+        "LIBRARIES/LBS_008_Taxonomy -> LIBRARIES/Taxonomy",
+        "LBS_009_Archive -> Archive",
+        "LIBRARIES/LBS_009_Archive -> LIBRARIES/Archive"
+      ]
+    },
+    {
+      "file": "LIBRARIES_Import_Index.md",
+      "changes": [
+        "LBS_004_Skills -> ../TALENTS/Skills"
+      ]
+    },
+    {
+      "file": "MIGRATION_POLICY.md",
+      "changes": [
+        "LBS_001_Actions -> Responsibilities/Actions",
+        "LBS_002_Objects -> Responsibilities/Objects",
+        "LBS_007_Parameters -> Responsibilities/Parameters",
+        "LBS_004_Skills -> ../TALENTS/Skills",
+        "LBS_008_Taxonomy -> Taxonomy",
+        "LBS_009_Archive -> Archive"
+      ]
+    },
+    {
+      "file": "migration_report.md",
+      "changes": [
+        "LBS_001_Actions -> Responsibilities/Actions",
+        "LBS_002_Objects -> Responsibilities/Objects",
+        "LBS_007_Parameters -> Responsibilities/Parameters",
+        "LBS_004_Skills -> ../TALENTS/Skills",
+        "LBS_008_Taxonomy -> Taxonomy",
+        "LBS_009_Archive -> Archive"
+      ]
+    },
+    {
+      "file": "MIGRATION_SUMMARY.md",
+      "changes": [
+        "LBS_001_Actions -> Responsibilities/Actions",
+        "LBS_002_Objects -> Responsibilities/Objects",
+        "LBS_007_Parameters -> Responsibilities/Parameters",
+        "LBS_004_Skills -> ../TALENTS/Skills",
+        "LBS_008_Taxonomy -> Taxonomy",
+        "LBS_009_Archive -> Archive"
+      ]
+    },
+    {
+      "file": "OBJECTS_README.md",
+      "changes": [
+        "LBS_002_Objects -> Responsibilities/Objects",
+        "LBS_009_Archive -> Archive",
+        "LIBRARIES/LBS_009_Archive -> LIBRARIES/Archive"
+      ]
+    },
+    {
+      "file": "PLANNING.md",
+      "changes": [
+        "LBS_001_Actions -> Responsibilities/Actions",
+        "LBS_002_Objects -> Responsibilities/Objects",
+        "LBS_007_Parameters -> Responsibilities/Parameters",
+        "LBS_004_Skills -> ../TALENTS/Skills",
+        "LBS_008_Taxonomy -> Taxonomy",
+        "LIBRARIES/LBS_008_Taxonomy -> LIBRARIES/Taxonomy",
+        "LBS_009_Archive -> Archive",
+        "LIBRARIES/LBS_009_Archive -> LIBRARIES/Archive"
+      ]
+    },
+    {
+      "file": "README.md",
+      "changes": [
+        "LBS_007_Parameters -> Responsibilities/Parameters",
+        "LBS_004_Skills -> ../TALENTS/Skills"
+      ]
+    },
+    {
+      "file": "LBS_002_Objects\\README.md",
+      "changes": [
+        "LBS_004_Skills -> ../TALENTS/Skills"
+      ]
+    },
+    {
+      "file": "LBS_003_Tools\\COLLECT_AND_MATCH_TOOLS_PROMPT.md",
+      "changes": [
+        "LBS_009_Archive -> Archive"
+      ]
+    },
+    {
+      "file": "LBS_003_Tools\\README.md",
+      "changes": [
+        "LBS_004_Skills -> ../TALENTS/Skills"
+      ]
+    },
+    {
+      "file": "LBS_004_Skills\\README.md",
+      "changes": [
+        "LBS_004_Skills -> ../TALENTS/Skills",
+        "LBS_009_Archive -> Archive"
+      ]
+    },
+    {
+      "file": "LBS_005_Professions\\README.md",
+      "changes": [
+        "LBS_004_Skills -> ../TALENTS/Skills"
+      ]
+    },
+    {
+      "file": "LBS_006_Departments\\ARCHITECTURE_PLAN.md",
+      "changes": [
+        "LBS_009_Archive -> Archive"
+      ]
+    },
+    {
+      "file": "LBS_006_Departments\\README.md",
+      "changes": [
+        "LBS_009_Archive -> Archive"
+      ]
+    },
+    {
+      "file": "LBS_006_Departments\\README_SHARED_RESOURCES.md",
+      "changes": [
+        "LBS_009_Archive -> Archive"
+      ]
+    },
+    {
+      "file": "Responsibilities\\INTEGRATION_COMPLETE_REPORT.md",
+      "changes": [
+        "LBS_001_Actions -> Responsibilities/Actions",
+        "LBS_002_Objects -> Responsibilities/Objects",
+        "LBS_007_Parameters -> Responsibilities/Parameters"
+      ]
+    },
+    {
+      "file": "Taxonomy\\Libraries_Hierarchy_Tree.md",
+      "changes": [
+        "LBS_001_Actions -> Responsibilities/Actions",
+        "LBS_002_Objects -> Responsibilities/Objects",
+        "LBS_009_Archive -> Archive"
+      ]
+    },
+    {
+      "file": "Responsibilities\\Objects\\README.md",
+      "changes": [
+        "LBS_004_Skills -> ../TALENTS/Skills"
+      ]
+    },
+    {
+      "file": "LBS_FOLDER_MASTER.csv",
+      "changes": [
+        "LBS_001_Actions -> Responsibilities/Actions",
+        "LBS_002_Objects -> Responsibilities/Objects",
+        "LBS_007_Parameters -> Responsibilities/Parameters",
+        "LBS_004_Skills -> ../TALENTS/Skills",
+        "LBS_008_Taxonomy -> Taxonomy",
+        "LIBRARIES/LBS_008_Taxonomy -> LIBRARIES/Taxonomy",
+        "LBS_009_Archive -> Archive",
+        "LIBRARIES/LBS_009_Archive -> LIBRARIES/Archive"
+      ]
+    },
+    {
+      "file": "Taxonomy\\Libraries_Master_List.csv",
+      "changes": [
+        "LBS_001_Actions -> Responsibilities/Actions",
+        "LBS_002_Objects -> Responsibilities/Objects",
+        "LBS_007_Parameters -> Responsibilities/Parameters"
+      ]
+    },
+    {
+      "file": "Taxonomy\\Libraries_Master_List_2025-11-19.csv",
+      "changes": [
+        "LBS_001_Actions -> Responsibilities/Actions",
+        "LBS_002_Objects -> Responsibilities/Objects",
+        "LBS_004_Skills -> ../TALENTS/Skills"
+      ]
+    },
+    {
+      "file": "Taxonomy\\Libraries_Master_List_2025-12-26.csv",
+      "changes": [
+        "LBS_001_Actions -> Responsibilities/Actions",
+        "LBS_002_Objects -> Responsibilities/Objects",
+        "LBS_004_Skills -> ../TALENTS/Skills"
+      ]
+    },
+    {
+      "file": "Skills\\Templates\\talent_skill_profile.json",
+      "changes": [
+        "LBS_004_Skills -> ../TALENTS/Skills"
+      ]
+    },
+    {
+      "file": "Skills\\README.md",
+      "changes": [
+        "LBS_004_Skills -> ../TALENTS/Skills",
+        "LBS_009_Archive -> Archive"
+      ]
+    }
+  ],
+  "mappings_applied": {
+    "LBS_001_Actions": "Responsibilities/Actions",
+    "LIBRARIES/LBS_001_Actions": "LIBRARIES/Responsibilities/Actions",
+    "ENTITIES/LIBRARIES/LBS_001_Actions": "ENTITIES/LIBRARIES/Responsibilities/Actions",
+    "LBS_002_Objects": "Responsibilities/Objects",
+    "LIBRARIES/LBS_002_Objects": "LIBRARIES/Responsibilities/Objects",
+    "ENTITIES/LIBRARIES/LBS_002_Objects": "ENTITIES/LIBRARIES/Responsibilities/Objects",
+    "LBS_007_Parameters": "Responsibilities/Parameters",
+    "LIBRARIES/LBS_007_Parameters": "LIBRARIES/Responsibilities/Parameters",
+    "ENTITIES/LIBRARIES/LBS_007_Parameters": "ENTITIES/LIBRARIES/Responsibilities/Parameters",
+    "LBS_004_Skills": "../TALENTS/Skills",
+    "LIBRARIES/LBS_004_Skills": "../TALENTS/Skills",
+    "ENTITIES/LIBRARIES/LBS_004_Skills": "ENTITIES/TALENTS/Skills",
+    "LBS_008_Taxonomy": "Taxonomy",
+    "LIBRARIES/LBS_008_Taxonomy": "LIBRARIES/Taxonomy",
+    "ENTITIES/LIBRARIES/LBS_008_Taxonomy": "ENTITIES/LIBRARIES/Taxonomy",
+    "LBS_009_Archive": "Archive",
+    "LIBRARIES/LBS_009_Archive": "LIBRARIES/Archive",
+    "ENTITIES/LIBRARIES/LBS_009_Archive": "ENTITIES/LIBRARIES/Archive"
+  }
+}

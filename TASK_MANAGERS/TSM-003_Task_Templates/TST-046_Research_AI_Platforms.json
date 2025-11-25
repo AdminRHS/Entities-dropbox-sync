@@ -1,0 +1,183 @@
+{
+  "entity_type": "TASK_MANAGERS",
+  "sub_entity": "Task_Template",
+  "template_id": "Task-Template-046",
+  "task_name": "Research AI Platforms and LLM Services to Complete Missing Tool Documentation",
+  "action": "Research",
+  "object": "AI Platforms",
+  "context": "to complete missing documentation for 10 AI/LLM tools with discovered_needs_review status",
+  "description": "Comprehensive research task to complete missing data for 10 AI platforms and LLM services (Google AI Studio, Grok, MiniMax, OpenRouter, Genspark.ai, Cove.ai, Smithery.ai, WHALESWING, Pollo.ai, Vectal Pro). Uses YouTube Video Research Prompt methodology aligned with Remote Helpers November 2025 AI Agents & Agentic Workflows strategic initiative. Outputs fully documented tool JSON files with API integration patterns and ROI analysis for multi-model access strategies.",
+  "department": "Research / AI",
+  "profession": "AI Researcher / AI Engineer",
+  "estimated_duration": "8-11 hours (5-7 hours research + 3-4 hours documentation)",
+  "status": "Template",
+  "dependencies": [
+    "Access to YouTube, Perplexity AI, and Google Search",
+    "YouTube_Video_Research_Prompt_RemoteHelpers_Nov2025.md available",
+    "Research_ToDo_2025-11-W47_AI_Platforms.json created",
+    "Access to Entities/LIBRARIES/Tools directory",
+    "Permission to update tool JSON files"
+  ],
+  "tools_required": [
+    "Perplexity AI",
+    "YouTube",
+    "Google Search",
+    "Text editor (VS Code/Cursor)",
+    "API documentation access"
+  ],
+  "success_criteria": [
+    "All TBD fields across 10 tools populated with verified data",
+    "API integration patterns documented for OpenRouter, Google AI Studio",
+    "8-12 relevant videos identified for high-priority tools",
+    "Comparison matrix created for LLM platforms (Claude vs ChatGPT vs Gemini vs Grok)",
+    "OpenRouter multi-model access evaluation completed",
+    "Subscription renewal recommendations for Google AI Studio, Grok",
+    "Archive recommendations for low-value platforms (Cove.ai, WHALESWING, Pollo.ai, Vectal Pro)",
+    "All 10 tool JSON files updated and validated"
+  ],
+  "steps": [
+    {
+      "step_number": 1,
+      "name": "Review research requirements and prioritize tools",
+      "duration": "30 minutes",
+      "outputs": [
+        "Research priority order: High (OpenRouter, Google AI Studio) > Medium (Grok, MiniMax, Genspark) > Low (others)"
+      ]
+    },
+    {
+      "step_number": 2,
+      "name": "Execute search for high-priority AI platforms (OpenRouter, Google AI Studio)",
+      "duration": "90 minutes",
+      "outputs": [
+        "8-12 videos for Google AI Studio Gemini API",
+        "API documentation for OpenRouter multi-model access"
+      ]
+    },
+    {
+      "step_number": 3,
+      "name": "Watch top-scored videos and extract API integration patterns",
+      "duration": "2-3 hours",
+      "outputs": [
+        "Gemini API integration notes",
+        "OpenRouter usage patterns",
+        "LLM comparison insights"
+      ]
+    },
+    {
+      "step_number": 4,
+      "name": "Research medium-priority platforms (Grok, MiniMax, Genspark)",
+      "duration": "90-120 minutes",
+      "outputs": [
+        "Feature capabilities",
+        "Pricing structures",
+        "Use case evaluations"
+      ]
+    },
+    {
+      "step_number": 5,
+      "name": "Quick research for low-priority platforms (determine archive vs keep)",
+      "duration": "60 minutes",
+      "outputs": [
+        "Basic capabilities identified",
+        "Archive recommendations with rationale"
+      ]
+    },
+    {
+      "step_number": 6,
+      "name": "Create LLM comparison matrix and OpenRouter ROI analysis",
+      "duration": "45 minutes",
+      "outputs": [
+        "LLM comparison matrix",
+        "OpenRouter cost-benefit analysis vs direct API access"
+      ]
+    },
+    {
+      "step_number": 7,
+      "name": "Update all 10 tool JSON files with complete documentation",
+      "duration": "2-2.5 hours",
+      "outputs": [
+        "10 updated JSON files with zero TBD fields"
+      ]
+    },
+    {
+      "step_number": 8,
+      "name": "Document API integration patterns and create recommendations",
+      "duration": "60 minutes",
+      "outputs": [
+        "API integration workflows",
+        "OpenRouter adoption recommendation",
+        "Subscription renewal recommendations"
+      ]
+    },
+    {
+      "step_number": 9,
+      "name": "Validate JSON files and create summary report",
+      "duration": "30 minutes",
+      "outputs": [
+        "JSON validation confirmation",
+        "Summary report with strategic recommendations"
+      ]
+    }
+  ],
+  "checklist": [
+    {
+      "item": "OpenRouter multi-model API access evaluated (yes/no + rationale)",
+      "required": true
+    },
+    {
+      "item": "Google AI Studio Gemini API integration patterns documented",
+      "required": true
+    },
+    {
+      "item": "LLM comparison matrix created (Claude, ChatGPT, Gemini, Grok)",
+      "required": true
+    },
+    {
+      "item": "Archive recommendations provided for low-value platforms",
+      "required": true
+    },
+    {
+      "item": "All API integration capabilities documented",
+      "required": true
+    },
+    {
+      "item": "Pricing structures fully documented from official sources",
+      "required": true
+    }
+  ],
+  "roi_metrics": {
+    "decision_support": "Enables evaluation of OpenRouter ($50-200/month) vs direct API access",
+    "cost_optimization": "Identifies platforms to archive, saving $50-100/month in unused subscriptions",
+    "strategic_alignment": "Supports AI Agents & Agentic Workflows initiative with MCP integration insights"
+  },
+  "related_tasks": [
+    "TASK-TEMPLATE-RES-001",
+    "TASK-TEMPLATE-RES-003",
+    "TASK-TEMPLATE-RES-004"
+  ],
+  "related_workflows": [
+    "API Integration Workflow",
+    "Multi-Model LLM Strategy"
+  ],
+  "related_projects": [
+    "AI Transformation Initiative",
+    "File System Rollout"
+  ],
+  "tags": [
+    "research",
+    "ai-platforms",
+    "llm-services",
+    "api-integration",
+    "openrouter",
+    "gemini",
+    "grok",
+    "tool-documentation"
+  ],
+  "version": "1.0",
+  "created": "2025-11-15",
+  "last_updated": "2025-11-15",
+  "responsibility_id": "RESP-AI-079",
+  "responsibility_name": "research ai platforms",
+  "_original_action": "Research",
+  "_original_object": "AI Platforms"
+}

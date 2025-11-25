@@ -1,0 +1,416 @@
+{
+  "entity_type": "TASK_MANAGERS",
+  "sub_entity": "Task_Template",
+  "template_id": "Task-Template-043",
+  "task_name": "Configure LinkedIn Job Posting Automation",
+  "action": "Configure",
+  "object": "LinkedIn Automation",
+  "context": "using Pabbly or Make.com for AI-powered job post generation and publishing",
+  "description": "Automate LinkedIn job posting process: AI generates compelling job posts from Google Sheets data, auto-publishes to LinkedIn, saving 1-2 hours per posting. Part of Week 3 content generation implementation.",
+  "department": "HR",
+  "profession": "HR Manager / Social Media Specialist",
+  "estimated_duration": "1.5-2 hours",
+  "status": "Template",
+  "dependencies": [
+    "LinkedIn company page with posting permissions",
+    "Pabbly account OR Make.com account",
+    "ChatGPT/Claude API key for content generation",
+    "Google Sheets for job data entry"
+  ],
+  "tools_required": [
+    "Pabbly Connect OR Make.com",
+    "LinkedIn (company page)",
+    "ChatGPT API OR Claude API",
+    "Google Sheets"
+  ],
+  "success_criteria": [
+    "Google Sheets template created for job posting data",
+    "AI content generation working (job description → LinkedIn post)",
+    "LinkedIn API connection established",
+    "Auto-publish workflow operational",
+    "Test job post successfully published to LinkedIn",
+    "Post quality meets brand standards"
+  ],
+  "steps": [
+    {
+      "step_number": 1,
+      "name": "Choose automation platform (Pabbly vs Make.com)",
+      "tool": "Decision matrix",
+      "responsibility": "HR Manager",
+      "placement": "Planning document",
+      "duration": "10 minutes",
+      "dependencies": [],
+      "inputs": [
+        "Budget: Pabbly (cheaper, $19/month) vs Make (free tier available, $9-29/month)",
+        "Complexity: Make more powerful, Pabbly simpler",
+        "Integration needs"
+      ],
+      "outputs": [
+        "Platform decision: Pabbly (recommended for beginners) OR Make.com (recommended for complex workflows)",
+        "Account created"
+      ],
+      "success_criteria": "Platform selected based on team needs, account activated"
+    },
+    {
+      "step_number": 2,
+      "name": "Create Google Sheets template for job posting data",
+      "tool": "Google Sheets",
+      "responsibility": "HR Manager",
+      "placement": "Google Drive",
+      "duration": "20 minutes",
+      "dependencies": [],
+      "inputs": [
+        "Required fields: Job Title, Department, Location, Employment Type, Experience Level, Salary Range, Key Responsibilities (bullet points), Required Skills, Nice-to-Have Skills, Company Benefits, Application Link, Status (Draft/Ready to Post/Posted)"
+      ],
+      "outputs": [
+        "Google Sheets template: LinkedIn Job Postings",
+        "13 columns with clear headers",
+        "Sample row for reference",
+        "Data validation for dropdowns (Employment Type, Experience Level, Status)"
+      ],
+      "success_criteria": "Template is user-friendly, all fields needed for job posting captured"
+    },
+    {
+      "step_number": 3,
+      "name": "Setup AI content generation (ChatGPT or Claude API)",
+      "tool": "Pabbly/Make.com + AI API",
+      "responsibility": "HR Manager",
+      "placement": "Pabbly/Make.com workflow builder",
+      "duration": "30 minutes",
+      "dependencies": [
+        "Step 1"
+      ],
+      "inputs": [
+        "AI API key (ChatGPT or Claude)",
+        "Prompt template for LinkedIn post generation",
+        "Job data from Google Sheets"
+      ],
+      "outputs": [
+        "AI node configured in workflow",
+        "Prompt engineered for LinkedIn format: attention-grabbing opening, 3-5 key responsibilities, skills required, company culture highlight, clear call-to-action, hashtags",
+        "Dynamic variables mapped: {{Job_Title}}, {{Responsibilities}}, {{Skills}}, etc."
+      ],
+      "success_criteria": "AI generates engaging 200-300 word LinkedIn posts matching brand voice"
+    },
+    {
+      "step_number": 4,
+      "name": "Connect LinkedIn API for posting",
+      "tool": "Pabbly/Make.com + LinkedIn API",
+      "responsibility": "HR Manager",
+      "placement": "Pabbly/Make.com integrations",
+      "duration": "25 minutes",
+      "dependencies": [
+        "Step 1"
+      ],
+      "inputs": [
+        "LinkedIn company page ID",
+        "LinkedIn API credentials (OAuth)",
+        "Posting permissions verified"
+      ],
+      "outputs": [
+        "LinkedIn connection established in Pabbly/Make",
+        "OAuth authentication successful",
+        "Test API call working",
+        "Posting permissions validated"
+      ],
+      "success_criteria": "LinkedIn API connected, test post created in draft successfully"
+    },
+    {
+      "step_number": 5,
+      "name": "Build complete workflow: Google Sheets → AI → LinkedIn",
+      "tool": "Pabbly/Make.com",
+      "responsibility": "HR Manager",
+      "placement": "Pabbly/Make.com workflow builder",
+      "duration": "40 minutes",
+      "dependencies": [
+        "Step 2",
+        "Step 3",
+        "Step 4"
+      ],
+      "inputs": [
+        "Google Sheets trigger (new row or status change to 'Ready to Post')",
+        "AI generation step",
+        "LinkedIn posting step",
+        "Status update step"
+      ],
+      "outputs": [
+        "Complete workflow: Google Sheets Trigger → Read Job Data → Generate AI Post → Review/Approve (optional) → Publish to LinkedIn → Update Status to 'Posted' → Log in Sheets",
+        "Error handling configured",
+        "Workflow activated"
+      ],
+      "success_criteria": "Workflow executes end-to-end, job posted to LinkedIn, status updated in Sheets"
+    },
+    {
+      "step_number": 6,
+      "name": "Create AI prompt template for LinkedIn posts",
+      "tool": "Prompt engineering",
+      "responsibility": "HR Manager",
+      "placement": "Pabbly/Make.com AI node",
+      "duration": "25 minutes",
+      "dependencies": [
+        "Step 3"
+      ],
+      "inputs": [
+        "Company brand voice guidelines",
+        "LinkedIn best practices (hook, value prop, CTA)",
+        "Job data variables"
+      ],
+      "outputs": [
+        "Optimized prompt: 'You are a professional LinkedIn content writer for [Company Name]. Create an engaging job posting for LinkedIn based on the following job details:\n\nJob Title: {{Job_Title}}\nDepartment: {{Department}}\nLocation: {{Location}}\nKey Responsibilities: {{Responsibilities}}\nRequired Skills: {{Required_Skills}}\nBenefits: {{Benefits}}\nApplication Link: {{Application_Link}}\n\nFormat:\n1. Attention-grabbing opening (1-2 sentences about the role or company)\n2. Brief company introduction (1 sentence)\n3. Role overview (2-3 sentences)\n4. Key responsibilities (3-5 bullet points using emojis)\n5. Ideal candidate profile (skills and experience, 2-3 sentences)\n6. Why join us (company benefits/culture, 2-3 points)\n7. Strong call-to-action\n8. Relevant hashtags (3-5)\n\nTone: Professional yet friendly, enthusiastic\nLength: 200-300 words\nInclude emojis where appropriate to enhance readability.'"
+      ],
+      "success_criteria": "Prompt consistently generates high-quality, on-brand LinkedIn posts"
+    },
+    {
+      "step_number": 7,
+      "name": "Add optional manual review step",
+      "tool": "Pabbly/Make.com",
+      "responsibility": "HR Manager",
+      "placement": "Workflow between AI generation and LinkedIn posting",
+      "duration": "15 minutes",
+      "dependencies": [
+        "Step 5"
+      ],
+      "inputs": [
+        "Review method: Email approval, Slack approval, or manual workflow trigger"
+      ],
+      "outputs": [
+        "Approval step added: AI generates post → Email sent to HR manager with preview → Approve/Reject buttons → If approved, publish to LinkedIn",
+        "Preview formatting matches LinkedIn appearance",
+        "Edit option available"
+      ],
+      "success_criteria": "HR manager can review and approve/reject posts before publishing"
+    },
+    {
+      "step_number": 8,
+      "name": "Test workflow with sample job posting",
+      "tool": "Complete system",
+      "responsibility": "HR Manager",
+      "placement": "End-to-end workflow",
+      "duration": "20 minutes",
+      "dependencies": [
+        "Step 5",
+        "Step 6"
+      ],
+      "inputs": [
+        "Sample job posting data in Google Sheets",
+        "Status changed to 'Ready to Post'"
+      ],
+      "outputs": [
+        "Workflow triggered",
+        "AI-generated LinkedIn post",
+        "Post published to LinkedIn company page",
+        "Status updated to 'Posted' in Google Sheets",
+        "LinkedIn post URL logged"
+      ],
+      "success_criteria": "Complete workflow successful, post published on LinkedIn, looks professional"
+    },
+    {
+      "step_number": 9,
+      "name": "Optimize AI output based on first test",
+      "tool": "Prompt refinement",
+      "responsibility": "HR Manager",
+      "placement": "AI prompt editing",
+      "duration": "15 minutes",
+      "dependencies": [
+        "Step 8"
+      ],
+      "inputs": [
+        "Initial AI-generated post",
+        "Feedback: tone, length, formatting, emoji usage, hashtags"
+      ],
+      "outputs": [
+        "Refined prompt template",
+        "Improved AI output quality",
+        "Better alignment with brand voice"
+      ],
+      "success_criteria": "Second test produces better results, minimal editing needed"
+    },
+    {
+      "step_number": 10,
+      "name": "Document workflow and train team",
+      "tool": "Notion or Google Docs",
+      "responsibility": "HR Manager",
+      "placement": "HR documentation",
+      "duration": "20 minutes",
+      "dependencies": [
+        "Step 9"
+      ],
+      "inputs": [
+        "Workflow screenshots",
+        "Google Sheets template guide",
+        "Best practices for job posting data entry",
+        "Review and approval process"
+      ],
+      "outputs": [
+        "User guide: How to create LinkedIn job posts automatically",
+        "Quick reference: Google Sheets field explanations",
+        "Troubleshooting guide",
+        "Team training completed"
+      ],
+      "success_criteria": "Team can independently create and publish LinkedIn job posts using automation"
+    }
+  ],
+  "checklist": [
+    {
+      "item": "Automation platform selected and account created (Pabbly or Make.com)",
+      "guide": "Choose based on budget and complexity needs",
+      "required": true
+    },
+    {
+      "item": "Google Sheets template created with all required fields",
+      "guide": "13 fields: Job Title, Department, Location, Employment Type, Experience Level, Salary Range, Responsibilities, Required Skills, Nice-to-Have Skills, Benefits, Application Link, Status, LinkedIn Post URL",
+      "required": true
+    },
+    {
+      "item": "AI API configured (ChatGPT or Claude)",
+      "guide": "API key valid, prompt template optimized for LinkedIn format",
+      "required": true
+    },
+    {
+      "item": "LinkedIn API connection established",
+      "guide": "OAuth authenticated, posting permissions verified",
+      "required": true
+    },
+    {
+      "item": "Complete workflow built: Sheets → AI → LinkedIn",
+      "guide": "Trigger, AI generation, optional approval, publish, status update",
+      "required": true
+    },
+    {
+      "item": "AI prompt template optimized for brand voice",
+      "guide": "Professional yet friendly, 200-300 words, includes emojis and hashtags",
+      "required": true
+    },
+    {
+      "item": "Manual review step added (optional but recommended)",
+      "guide": "Email or Slack approval before auto-publishing",
+      "required": false
+    },
+    {
+      "item": "End-to-end testing completed successfully",
+      "guide": "Sample job posted to LinkedIn, looks professional, status updated",
+      "required": true
+    },
+    {
+      "item": "Documentation created and team trained",
+      "guide": "User guide, field explanations, troubleshooting available",
+      "required": true
+    }
+  ],
+  "resources": [
+    {
+      "name": "Pabbly Tutorial - AI Agent for LinkedIn Posts",
+      "type": "Video Tutorial",
+      "description": "Tutorial on building AI agent to auto-generate LinkedIn posts",
+      "duration": "Referenced in HR videos research.md"
+    },
+    {
+      "name": "Make.com LinkedIn Integration",
+      "type": "Official Documentation",
+      "url": "https://www.make.com/en/integrations/linkedin",
+      "description": "Guide for LinkedIn automation with Make.com"
+    },
+    {
+      "name": "ChatGPT API Documentation",
+      "type": "Official Documentation",
+      "url": "https://platform.openai.com/docs/api-reference",
+      "description": "OpenAI API for content generation"
+    },
+    {
+      "name": "Claude API Documentation",
+      "type": "Official Documentation",
+      "url": "https://docs.anthropic.com/claude/reference/getting-started-with-the-api",
+      "description": "Anthropic API for content generation (GDPR-friendly alternative)"
+    },
+    {
+      "name": "HR Videos Research - LinkedIn Automation Section",
+      "type": "Research Document",
+      "location": "Entities/LIBRARIES/DEPARTMENTS/_SHARED/Prompts/Research/Reports/HR videos research.md",
+      "description": "Research on LinkedIn job posting automation"
+    }
+  ],
+  "roi_metrics": {
+    "time_savings": "1-2 hours per job posting (from 1 hour manual writing to 10 minutes data entry)",
+    "setup_time": "1.5-2 hours one-time investment",
+    "cost": "$19-29/month (Pabbly/Make) + $20/month (AI API) = $39-49/month total",
+    "posts_per_month": "Typical: 4-8 job postings",
+    "monthly_time_savings": "4-16 hours/month",
+    "quality_improvement": "Consistent brand voice, SEO-optimized, engaging format",
+    "reach_improvement": "Better LinkedIn engagement due to AI-optimized content"
+  },
+  "related_tasks": [
+    "TASK-TEMPLATE-HR-001 (Create Job Posting - provides job data for this automation)",
+    "TASK-TEMPLATE-HR-AUTO-003 (Build Notion ATS - can integrate job postings from here)",
+    "TASK-TEMPLATE-HR-006 (Parse Resume - receives applications from LinkedIn posts)"
+  ],
+  "related_workflows": [
+    "WF-HR-AUTO-004 (LinkedIn Job Posting Workflow)"
+  ],
+  "related_projects": [
+    "Project-Template-003 (Complete HR Automation Implementation - Week 3)"
+  ],
+  "tags": [
+    "hr",
+    "automation",
+    "linkedin",
+    "content_generation",
+    "ai",
+    "social_media",
+    "week_3",
+    "medium_priority"
+  ],
+  "version": "1.0",
+  "created": "2025-11-14",
+  "last_updated": "2025-11-14",
+  "source": "HR videos research.md - Week 3 Implementation Plan, Pabbly LinkedIn automation tutorial",
+  "compliance_notes": "LinkedIn API Terms of Service: Respect rate limits (max 25 posts per day per company page). Do not spam or post duplicate content. Ensure job postings comply with employment law (no discriminatory language). Store API credentials securely.",
+  "troubleshooting": [
+    {
+      "issue": "LinkedIn API authentication fails",
+      "solution": "Re-authenticate OAuth connection, verify company page admin permissions, check API access is enabled for company page"
+    },
+    {
+      "issue": "AI-generated post too long for LinkedIn (max 3000 characters)",
+      "solution": "Add character limit instruction to prompt: 'Keep post under 300 words (approximately 1500-1800 characters)'"
+    },
+    {
+      "issue": "Posts not appearing on LinkedIn feed",
+      "solution": "Check if post went to drafts instead of published, verify LinkedIn API posting permissions, check for API error messages"
+    },
+    {
+      "issue": "AI uses inappropriate tone or language",
+      "solution": "Refine prompt with explicit tone guidelines, add examples of good/bad posts, use temperature=0.3 for more consistent output"
+    },
+    {
+      "issue": "Google Sheets trigger not firing",
+      "solution": "Use polling trigger (every 15 minutes) instead of instant, verify Sheets permissions allow Pabbly/Make access"
+    }
+  ],
+  "optimization_tips": [
+    "Schedule posts for optimal LinkedIn engagement times (Tue-Thu, 10am-12pm)",
+    "Use A/B testing: create 2 AI variations, track engagement, optimize prompt based on better performer",
+    "Add image generation: use AI to suggest stock images or create visuals with Canva API",
+    "Track post performance: LinkedIn API can fetch engagement metrics, store in Google Sheets for analysis",
+    "Create post variations for different platforms (LinkedIn, Facebook, Twitter) from same job data",
+    "Use hashtag research: AI suggests trending hashtags in industry"
+  ],
+  "linkedin_post_best_practices": [
+    "Hook: First 2 lines visible in feed - must grab attention",
+    "Emojis: Use strategically for visual breaks (3-5 per post max)",
+    "Hashtags: 3-5 relevant hashtags at end (#Hiring #TechJobs #RemoteWork)",
+    "Call-to-action: Clear link to apply, deadline if applicable",
+    "Length: 200-300 words optimal for engagement",
+    "Formatting: Short paragraphs, bullet points with emojis, white space",
+    "Tone: Professional yet human, showcase company culture",
+    "SEO: Include job title, location, key skills for search visibility"
+  ],
+  "future_enhancements": [
+    "Multi-platform posting: Auto-publish to Facebook Jobs, Twitter, company website simultaneously",
+    "Applicant tracking: Track which applications came from LinkedIn post",
+    "Performance analytics dashboard: Engagement metrics, application conversion rate per post",
+    "AI image generation: Auto-create branded job post graphics",
+    "Dynamic content: Personalize posts based on LinkedIn audience demographics",
+    "Auto-boost: Allocate ad budget to high-performing posts automatically",
+    "Candidate nurturing: Auto-engage with commenters, answer questions via chatbot"
+  ]
+}

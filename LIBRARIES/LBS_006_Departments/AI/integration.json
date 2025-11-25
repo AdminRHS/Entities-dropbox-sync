@@ -1,0 +1,220 @@
+{
+  "department_id": 1,
+  "department_code": "AI",
+  "last_updated": "2025-11-25",
+  
+  "dependencies": {
+    "depends_on": [
+      {
+        "department_code": "VIDEO",
+        "dependency_type": "training_video_production",
+        "description": "AI requests training videos, Video produces and edits, AI reviews for accuracy before distribution",
+        "priority": "critical",
+        "status": "active"
+      },
+      {
+        "department_code": "FIN",
+        "dependency_type": "budget_approval",
+        "description": "OpenAI API budget approvals for GPT Assistants automation ($5-20)",
+        "priority": "high",
+        "status": "blocked"
+      }
+    ],
+    "depended_by": [
+      {
+        "department_code": "DESIGN",
+        "dependency_type": "file_system_rollout",
+        "description": "AI coordinates file system implementation and training",
+        "status": "completed"
+      },
+      {
+        "department_code": "LG",
+        "dependency_type": "file_system_rollout",
+        "description": "AI coordinates file system implementation and training (in progress)",
+        "status": "in_progress"
+      },
+      {
+        "department_code": "HR",
+        "dependency_type": "file_system_training",
+        "description": "AI provides file system training, video distribution, setup instructions",
+        "status": "active"
+      },
+      {
+        "department_code": "DEV",
+        "dependency_type": "documentation_collaboration",
+        "description": "AI collaborates on CRM development documentation with PM perspective",
+        "status": "active"
+      },
+      {
+        "department_code": "ALL",
+        "dependency_type": "ai_assistance",
+        "description": "AI provides tools, workflows, and support for AI-first operations",
+        "status": "active"
+      }
+    ]
+  },
+  
+  "integrations": {
+    "provides_to": [
+      {
+        "department_code": "ALL",
+        "service": "documentation_automation",
+        "description": "AI tools and workflows for documentation automation",
+        "tools": ["ChatGPT", "Claude", "Cursor", "n8n workflows"],
+        "impact": "60-80% administrative overhead reduction"
+      },
+      {
+        "department_code": "ALL",
+        "service": "prompt_optimization",
+        "description": "Prompt engineering and optimization services",
+        "tools": ["MAIN PROMPT v4", "Prompt libraries", "Compression techniques"]
+      },
+      {
+        "department_code": "ALL",
+        "service": "file_system_training",
+        "description": "Week_X/DD/ file structure training and support",
+        "deliverables": ["Training videos", "Setup guides", "Workflow documentation"]
+      },
+      {
+        "department_code": "ALL",
+        "service": "workflow_automation",
+        "description": "n8n workflow creation and automation support",
+        "tools": ["n8n", "Automation workflows"]
+      },
+      {
+        "department_code": "HR",
+        "service": "resume_parsing_automation",
+        "description": "AI-powered resume parsing with 80%+ time savings",
+        "tools": ["GPT Assistants", "Browser extensions"]
+      },
+      {
+        "department_code": "DEV",
+        "service": "code_generation_assistance",
+        "description": "AI-assisted code generation and documentation",
+        "tools": ["Cursor", "Claude", "ChatGPT"],
+        "impact": "50-70% faster frontend development"
+      },
+      {
+        "department_code": "DESIGN",
+        "service": "task_consolidation",
+        "description": "Fuzzy matching algorithm for task consolidation (292 → 173 unique groups)",
+        "tools": ["AI algorithms", "Task analysis"]
+      }
+    ],
+    "receives_from": [
+      {
+        "department_code": "VIDEO",
+        "service": "video_transcripts",
+        "description": "Video processing and transcript extraction via Whisper Flow",
+        "status": "active"
+      },
+      {
+        "department_code": "VIDEO",
+        "service": "training_video_production",
+        "description": "Training videos edited and produced by Video department",
+        "status": "active"
+      },
+      {
+        "department_code": "DESIGN",
+        "service": "visual_assets",
+        "description": "Design creates visual assets (e.g., Axie mascot integration)",
+        "status": "active"
+      },
+      {
+        "department_code": "HR",
+        "service": "employee_onboarding_coordination",
+        "description": "HR coordinates employee access and onboarding",
+        "status": "active"
+      }
+    ]
+  },
+  
+  "shared_resources": [
+    {
+      "resource": "ENTITIES/LIBRARIES/LBS_006_Departments/_SHARED/Prompts/",
+      "shared_with": ["ALL"],
+      "access_type": "read",
+      "description": "Shared prompt libraries and templates"
+    },
+    {
+      "resource": "ENTITIES/LIBRARIES/LBS_003_LBS_003_Tools/",
+      "shared_with": ["ALL"],
+      "access_type": "reference",
+      "description": "Tool library documentation and references"
+    },
+    {
+      "resource": "ENTITIES/TASK_MANAGERS/",
+      "shared_with": ["ALL"],
+      "access_type": "reference",
+      "description": "Task templates, step templates, project templates, workflows"
+    },
+    {
+      "resource": "GitHub (RAC - Remote AI Context)",
+      "shared_with": ["ALL"],
+      "access_type": "read",
+      "description": "Centralized organizational knowledge base with frameworks, templates, prompts"
+    }
+  ],
+  
+  "cross_department_projects": [
+    {
+      "project_id": "PROJ-AI-FS-001",
+      "name": "File System Project Rollout",
+      "involves": ["DESIGN", "LG", "DEV", "HR", "SALES", "VIDEO"],
+      "ai_role": "coordinator",
+      "status": "in_progress",
+      "description": "Rollout of Week_X/DD/ file structure across all departments",
+      "progress": {
+        "completed": ["DESIGN"],
+        "in_progress": ["LG"],
+        "pending": ["DEV", "HR", "SALES", "VIDEO"]
+      }
+    },
+    {
+      "project_id": "PROJ-AI-CRM-001",
+      "name": "CRM Migration Coordination",
+      "involves": ["DEV", "HR", "FIN"],
+      "ai_role": "process_documentation",
+      "status": "active",
+      "description": "AI provides process documentation for CRM migration, coordinates with Dev (implementation) and HR (testing)"
+    },
+    {
+      "project_id": "PROJ-AI-LG-001",
+      "name": "LG Department Strategic Evaluation",
+      "involves": ["LG", "FIN"],
+      "ai_role": "strategic_analysis_lead",
+      "status": "active",
+      "description": "AI department leads strategic analysis, Finance evaluates budget impact"
+    }
+  ],
+  
+  "coordination_patterns": {
+    "file_system_rollout": {
+      "process": [
+        "Record training video during live call",
+        "Video team edits for distribution",
+        "AI team distributes via Discord/Email",
+        "Follow-up support sessions",
+        "Adoption tracking and individual support",
+        "Department becomes self-sufficient with AI-assisted workflow"
+      ],
+      "impact": "60-80% reduction in administrative overhead"
+    },
+    "weekly_call_rotation": {
+      "frequency": "Bi-weekly per department",
+      "facilitator": "Artemchuk Nikolay",
+      "time_investment": "2-3 hours daily for PM",
+      "departments": ["DESIGN", "LG", "HR", "DEV", "SALES", "VIDEO"]
+    },
+    "training_and_onboarding": {
+      "process": [
+        "AI department creates comprehensive guides",
+        "Video department edits and produces",
+        "HR coordinates employee access",
+        "Design creates visual assets",
+        "Distribution via multiple channels (Discord, Email, Dropbox)"
+      ]
+    }
+  }
+}
+

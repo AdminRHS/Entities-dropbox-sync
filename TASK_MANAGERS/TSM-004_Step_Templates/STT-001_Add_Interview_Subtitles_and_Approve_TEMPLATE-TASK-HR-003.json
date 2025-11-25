@@ -1,0 +1,42 @@
+{
+  "step_template_id": "Step-Template-001",
+  "step_template_name": "Add Interview Subtitles and Approve",
+  "metadata": {
+    "status": "Active"
+  },
+  "parent_task": {
+    "task_id": "TASK-TEMPLATE-HR-003",
+    "task_name": "Conduct Video Interview with Candidate"
+  },
+  "step_details": {
+    "step_number": 5,
+    "order": 5,
+    "action": "subtitle",
+    "detail": "Generate or upload captions, review accuracy with interviewer, and toggle the approved flag once subtitles and description match brand standards",
+    "expected_duration": 35
+  },
+  "execution": {
+    "tool_used": "YouTube Studio / Subtitle Editor / Descript",
+    "inputs": [
+      "Transcript or Whisper export",
+      "youtube_description",
+      "QA checklist"
+    ],
+    "outputs": [
+      "sub_titles (SRT/VTT file)",
+      "approved status update"
+    ],
+    "success_criteria": "Caption file passes QA, accessibility settings enabled, and approval recorded in CRM"
+  },
+  "relationships": {
+    "dependencies": [
+      "STEP-HR-003-04"
+    ],
+    "next_steps": [],
+    "parallel_steps": []
+  },
+  "source_tracking": {
+    "source_file": "AI Nov25/Niko AI/Employees/units/video_editing.json",
+    "extraction_date": "2025-11-07"
+  }
+}

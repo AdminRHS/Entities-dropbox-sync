@@ -1,0 +1,1211 @@
+[
+  {
+    "file": "TASK_MANAGERS\\Project_Templates\\TEMPLATE-PROJ-DEV-001.json",
+    "type": "Project_Templates",
+    "missing_required": [
+      "project_template_id",
+      "template_name"
+    ],
+    "severity": "critical"
+  },
+  {
+    "file": "TASK_MANAGERS\\Project_Templates\\TEMPLATE-PROJ-DEV-001.json",
+    "type": "Project_Templates",
+    "missing_recommended": [
+      "milestone_templates"
+    ],
+    "severity": "medium"
+  },
+  {
+    "file": "TASK_MANAGERS\\Project_Templates\\TEMPLATE-PROJ-LG-001.json",
+    "type": "Project_Templates",
+    "missing_required": [
+      "project_template_id",
+      "template_name"
+    ],
+    "severity": "critical"
+  },
+  {
+    "file": "TASK_MANAGERS\\Project_Templates\\TEMPLATE-PROJ-LG-001.json",
+    "type": "Project_Templates",
+    "missing_recommended": [
+      "milestone_templates"
+    ],
+    "severity": "medium"
+  },
+  {
+    "file": "TASK_MANAGERS\\Project_Templates\\TEMPLATE-PROJ-LG-002.json",
+    "type": "Project_Templates",
+    "missing_required": [
+      "project_template_id",
+      "template_name"
+    ],
+    "severity": "critical"
+  },
+  {
+    "file": "TASK_MANAGERS\\Project_Templates\\TEMPLATE-PROJ-LG-002.json",
+    "type": "Project_Templates",
+    "missing_recommended": [
+      "milestone_templates"
+    ],
+    "severity": "medium"
+  },
+  {
+    "file": "TASK_MANAGERS\\Project_Templates\\TEMPLATE-PROJ-RES-001_Research_to_Taxonomy_Pipeline.json",
+    "type": "Project_Templates",
+    "missing_required": [
+      "project_template_id",
+      "template_name"
+    ],
+    "severity": "critical"
+  },
+  {
+    "file": "TASK_MANAGERS\\Project_Templates\\TEMPLATE-PROJ-RES-001_Research_to_Taxonomy_Pipeline.json",
+    "type": "Project_Templates",
+    "missing_recommended": [
+      "milestone_templates"
+    ],
+    "severity": "medium"
+  },
+  {
+    "file": "TASK_MANAGERS\\Task_Templates\\Airscale_Employee_Enrichment.json",
+    "type": "Task_Templates",
+    "missing_required": [
+      "task_template_id",
+      "task_template_name"
+    ],
+    "severity": "critical"
+  },
+  {
+    "file": "TASK_MANAGERS\\Task_Templates\\Airscale_Employee_Enrichment.json",
+    "type": "Task_Templates",
+    "missing_recommended": [
+      "category"
+    ],
+    "severity": "medium"
+  },
+  {
+    "file": "TASK_MANAGERS\\Task_Templates\\AI_Powered_HTML_Parsing.json",
+    "type": "Task_Templates",
+    "missing_required": [
+      "task_template_id",
+      "task_template_name"
+    ],
+    "severity": "critical"
+  },
+  {
+    "file": "TASK_MANAGERS\\Task_Templates\\AI_Powered_HTML_Parsing.json",
+    "type": "Task_Templates",
+    "missing_recommended": [
+      "category"
+    ],
+    "severity": "medium"
+  },
+  {
+    "file": "TASK_MANAGERS\\Task_Templates\\Anymailfinder_Nominative_Enrichment.json",
+    "type": "Task_Templates",
+    "missing_required": [
+      "task_template_id",
+      "task_template_name"
+    ],
+    "severity": "critical"
+  },
+  {
+    "file": "TASK_MANAGERS\\Task_Templates\\Anymailfinder_Nominative_Enrichment.json",
+    "type": "Task_Templates",
+    "missing_recommended": [
+      "category"
+    ],
+    "severity": "medium"
+  },
+  {
+    "file": "TASK_MANAGERS\\Task_Templates\\Apollo_IO_Full_Stack_DEPRECATED.json",
+    "type": "Task_Templates",
+    "missing_required": [
+      "task_template_id",
+      "task_template_name"
+    ],
+    "severity": "critical"
+  },
+  {
+    "file": "TASK_MANAGERS\\Task_Templates\\Apollo_IO_Full_Stack_DEPRECATED.json",
+    "type": "Task_Templates",
+    "missing_recommended": [
+      "category"
+    ],
+    "severity": "medium"
+  },
+  {
+    "file": "TASK_MANAGERS\\Task_Templates\\Automate_Morning_Email_Drafting.json",
+    "type": "Task_Templates",
+    "missing_required": [
+      "task_template_id",
+      "task_template_name"
+    ],
+    "severity": "critical"
+  },
+  {
+    "file": "TASK_MANAGERS\\Task_Templates\\Automate_Morning_Email_Drafting.json",
+    "type": "Task_Templates",
+    "missing_recommended": [
+      "category"
+    ],
+    "severity": "medium"
+  },
+  {
+    "file": "TASK_MANAGERS\\Task_Templates\\Bright_Data_Email_Enrichment.json",
+    "type": "Task_Templates",
+    "missing_required": [
+      "task_template_id",
+      "task_template_name"
+    ],
+    "severity": "critical"
+  },
+  {
+    "file": "TASK_MANAGERS\\Task_Templates\\Bright_Data_Email_Enrichment.json",
+    "type": "Task_Templates",
+    "missing_recommended": [
+      "category"
+    ],
+    "severity": "medium"
+  },
+  {
+    "file": "TASK_MANAGERS\\Task_Templates\\Create_Job_Posting_Template.json",
+    "type": "Task_Templates",
+    "missing_required": [
+      "task_template_id",
+      "task_template_name"
+    ],
+    "severity": "critical"
+  },
+  {
+    "file": "TASK_MANAGERS\\Task_Templates\\Create_Job_Posting_Template.json",
+    "type": "Task_Templates",
+    "missing_recommended": [
+      "category"
+    ],
+    "severity": "medium"
+  },
+  {
+    "file": "TASK_MANAGERS\\Task_Templates\\Create_MCP_Connector.json",
+    "type": "Task_Templates",
+    "missing_required": [
+      "task_template_id",
+      "task_template_name"
+    ],
+    "severity": "critical"
+  },
+  {
+    "file": "TASK_MANAGERS\\Task_Templates\\Create_MCP_Connector.json",
+    "type": "Task_Templates",
+    "missing_recommended": [
+      "category"
+    ],
+    "severity": "medium"
+  },
+  {
+    "file": "TASK_MANAGERS\\Task_Templates\\Custom_Niche_Platform_Scraping.json",
+    "type": "Task_Templates",
+    "missing_required": [
+      "task_template_id",
+      "task_template_name"
+    ],
+    "severity": "critical"
+  },
+  {
+    "file": "TASK_MANAGERS\\Task_Templates\\Custom_Niche_Platform_Scraping.json",
+    "type": "Task_Templates",
+    "missing_recommended": [
+      "category"
+    ],
+    "severity": "medium"
+  },
+  {
+    "file": "TASK_MANAGERS\\Task_Templates\\Deploy_MCP_Connector_Locally.json",
+    "type": "Task_Templates",
+    "missing_required": [
+      "task_template_id",
+      "task_template_name"
+    ],
+    "severity": "critical"
+  },
+  {
+    "file": "TASK_MANAGERS\\Task_Templates\\Deploy_MCP_Connector_Locally.json",
+    "type": "Task_Templates",
+    "missing_recommended": [
+      "category"
+    ],
+    "severity": "medium"
+  },
+  {
+    "file": "TASK_MANAGERS\\Task_Templates\\Enable_Claude_Skills_Feature.json",
+    "type": "Task_Templates",
+    "missing_required": [
+      "task_template_id",
+      "task_template_name"
+    ],
+    "severity": "critical"
+  },
+  {
+    "file": "TASK_MANAGERS\\Task_Templates\\Enable_Claude_Skills_Feature.json",
+    "type": "Task_Templates",
+    "missing_recommended": [
+      "category"
+    ],
+    "severity": "medium"
+  },
+  {
+    "file": "TASK_MANAGERS\\Task_Templates\\Enterprise_Email_Arbitrage.json",
+    "type": "Task_Templates",
+    "missing_required": [
+      "task_template_id",
+      "task_template_name"
+    ],
+    "severity": "critical"
+  },
+  {
+    "file": "TASK_MANAGERS\\Task_Templates\\Enterprise_Email_Arbitrage.json",
+    "type": "Task_Templates",
+    "missing_recommended": [
+      "category"
+    ],
+    "severity": "medium"
+  },
+  {
+    "file": "TASK_MANAGERS\\Task_Templates\\Google_Maps_Local_Business_Scraping.json",
+    "type": "Task_Templates",
+    "missing_required": [
+      "task_template_id",
+      "task_template_name"
+    ],
+    "severity": "critical"
+  },
+  {
+    "file": "TASK_MANAGERS\\Task_Templates\\Google_Maps_Local_Business_Scraping.json",
+    "type": "Task_Templates",
+    "missing_recommended": [
+      "category"
+    ],
+    "severity": "medium"
+  },
+  {
+    "file": "TASK_MANAGERS\\Task_Templates\\Google_SERP_Lead_Generation.json",
+    "type": "Task_Templates",
+    "missing_required": [
+      "task_template_id",
+      "task_template_name"
+    ],
+    "severity": "critical"
+  },
+  {
+    "file": "TASK_MANAGERS\\Task_Templates\\Google_SERP_Lead_Generation.json",
+    "type": "Task_Templates",
+    "missing_recommended": [
+      "category"
+    ],
+    "severity": "medium"
+  },
+  {
+    "file": "TASK_MANAGERS\\Task_Templates\\Instagram_Influencer_Scraping.json",
+    "type": "Task_Templates",
+    "missing_required": [
+      "task_template_id",
+      "task_template_name"
+    ],
+    "severity": "critical"
+  },
+  {
+    "file": "TASK_MANAGERS\\Task_Templates\\Instagram_Influencer_Scraping.json",
+    "type": "Task_Templates",
+    "missing_recommended": [
+      "category"
+    ],
+    "severity": "medium"
+  },
+  {
+    "file": "TASK_MANAGERS\\Task_Templates\\Instantly_AI_Email_Enrichment.json",
+    "type": "Task_Templates",
+    "missing_required": [
+      "task_template_id",
+      "task_template_name"
+    ],
+    "severity": "critical"
+  },
+  {
+    "file": "TASK_MANAGERS\\Task_Templates\\Instantly_AI_Email_Enrichment.json",
+    "type": "Task_Templates",
+    "missing_recommended": [
+      "category"
+    ],
+    "severity": "medium"
+  },
+  {
+    "file": "TASK_MANAGERS\\Task_Templates\\LinkedIn_Jobs_Intent_Based_Scraping.json",
+    "type": "Task_Templates",
+    "missing_required": [
+      "task_template_id",
+      "task_template_name"
+    ],
+    "severity": "critical"
+  },
+  {
+    "file": "TASK_MANAGERS\\Task_Templates\\LinkedIn_Jobs_Intent_Based_Scraping.json",
+    "type": "Task_Templates",
+    "missing_recommended": [
+      "category"
+    ],
+    "severity": "medium"
+  },
+  {
+    "file": "TASK_MANAGERS\\Task_Templates\\LinkedIn_Sales_Navigator_Lead_Extraction.json",
+    "type": "Task_Templates",
+    "missing_required": [
+      "task_template_id",
+      "task_template_name"
+    ],
+    "severity": "critical"
+  },
+  {
+    "file": "TASK_MANAGERS\\Task_Templates\\LinkedIn_Sales_Navigator_Lead_Extraction.json",
+    "type": "Task_Templates",
+    "missing_recommended": [
+      "category"
+    ],
+    "severity": "medium"
+  },
+  {
+    "file": "TASK_MANAGERS\\Task_Templates\\Make_Com_Automation_DEPRECATED.json",
+    "type": "Task_Templates",
+    "missing_required": [
+      "task_template_id",
+      "task_template_name"
+    ],
+    "severity": "critical"
+  },
+  {
+    "file": "TASK_MANAGERS\\Task_Templates\\Make_Com_Automation_DEPRECATED.json",
+    "type": "Task_Templates",
+    "missing_recommended": [
+      "category"
+    ],
+    "severity": "medium"
+  },
+  {
+    "file": "TASK_MANAGERS\\Task_Templates\\Newsletter_Subscriber_Auto_Reply.json",
+    "type": "Task_Templates",
+    "missing_required": [
+      "task_template_id",
+      "task_template_name"
+    ],
+    "severity": "critical"
+  },
+  {
+    "file": "TASK_MANAGERS\\Task_Templates\\Newsletter_Subscriber_Auto_Reply.json",
+    "type": "Task_Templates",
+    "missing_recommended": [
+      "category"
+    ],
+    "severity": "medium"
+  },
+  {
+    "file": "TASK_MANAGERS\\Task_Templates\\Send_Old_Client_Email_Template.json",
+    "type": "Task_Templates",
+    "missing_required": [
+      "task_template_id",
+      "task_template_name"
+    ],
+    "severity": "critical"
+  },
+  {
+    "file": "TASK_MANAGERS\\Task_Templates\\Send_Old_Client_Email_Template.json",
+    "type": "Task_Templates",
+    "missing_recommended": [
+      "category"
+    ],
+    "severity": "medium"
+  },
+  {
+    "file": "TASK_MANAGERS\\Task_Templates\\Stacked_Connector_Post_Meeting_Automation.json",
+    "type": "Task_Templates",
+    "missing_required": [
+      "task_template_id",
+      "task_template_name"
+    ],
+    "severity": "critical"
+  },
+  {
+    "file": "TASK_MANAGERS\\Task_Templates\\Stacked_Connector_Post_Meeting_Automation.json",
+    "type": "Task_Templates",
+    "missing_recommended": [
+      "category"
+    ],
+    "severity": "medium"
+  },
+  {
+    "file": "TASK_MANAGERS\\Task_Templates\\TEMPLATE-TASK-HR-AUTO-001_Setup_n8n_for_CV_Screening.json",
+    "type": "Task_Templates",
+    "missing_required": [
+      "task_template_id",
+      "task_template_name"
+    ],
+    "severity": "critical"
+  },
+  {
+    "file": "TASK_MANAGERS\\Task_Templates\\TEMPLATE-TASK-HR-AUTO-001_Setup_n8n_for_CV_Screening.json",
+    "type": "Task_Templates",
+    "missing_recommended": [
+      "category"
+    ],
+    "severity": "medium"
+  },
+  {
+    "file": "TASK_MANAGERS\\Task_Templates\\TEMPLATE-TASK-HR-AUTO-002_Configure_Gemini_AI_Analysis.json",
+    "type": "Task_Templates",
+    "missing_required": [
+      "task_template_id",
+      "task_template_name"
+    ],
+    "severity": "critical"
+  },
+  {
+    "file": "TASK_MANAGERS\\Task_Templates\\TEMPLATE-TASK-HR-AUTO-002_Configure_Gemini_AI_Analysis.json",
+    "type": "Task_Templates",
+    "missing_recommended": [
+      "category"
+    ],
+    "severity": "medium"
+  },
+  {
+    "file": "TASK_MANAGERS\\Task_Templates\\TEMPLATE-TASK-HR-AUTO-003_Build_Notion_ATS_Database.json",
+    "type": "Task_Templates",
+    "missing_required": [
+      "task_template_id",
+      "task_template_name"
+    ],
+    "severity": "critical"
+  },
+  {
+    "file": "TASK_MANAGERS\\Task_Templates\\TEMPLATE-TASK-HR-AUTO-003_Build_Notion_ATS_Database.json",
+    "type": "Task_Templates",
+    "missing_recommended": [
+      "category"
+    ],
+    "severity": "medium"
+  },
+  {
+    "file": "TASK_MANAGERS\\Task_Templates\\TEMPLATE-TASK-HR-AUTO-004_Setup_Interview_Scheduling.json",
+    "type": "Task_Templates",
+    "missing_required": [
+      "task_template_id",
+      "task_template_name"
+    ],
+    "severity": "critical"
+  },
+  {
+    "file": "TASK_MANAGERS\\Task_Templates\\TEMPLATE-TASK-HR-AUTO-004_Setup_Interview_Scheduling.json",
+    "type": "Task_Templates",
+    "missing_recommended": [
+      "category"
+    ],
+    "severity": "medium"
+  },
+  {
+    "file": "TASK_MANAGERS\\Task_Templates\\TEMPLATE-TASK-HR-AUTO-005_Configure_LinkedIn_Automation.json",
+    "type": "Task_Templates",
+    "missing_required": [
+      "task_template_id",
+      "task_template_name"
+    ],
+    "severity": "critical"
+  },
+  {
+    "file": "TASK_MANAGERS\\Task_Templates\\TEMPLATE-TASK-HR-AUTO-005_Configure_LinkedIn_Automation.json",
+    "type": "Task_Templates",
+    "missing_recommended": [
+      "category"
+    ],
+    "severity": "medium"
+  },
+  {
+    "file": "TASK_MANAGERS\\Task_Templates\\TEMPLATE-TASK-HR-AUTO-006_Setup_Onboarding_Workflow.json",
+    "type": "Task_Templates",
+    "missing_required": [
+      "task_template_id",
+      "task_template_name"
+    ],
+    "severity": "critical"
+  },
+  {
+    "file": "TASK_MANAGERS\\Task_Templates\\TEMPLATE-TASK-HR-AUTO-006_Setup_Onboarding_Workflow.json",
+    "type": "Task_Templates",
+    "missing_recommended": [
+      "category"
+    ],
+    "severity": "medium"
+  },
+  {
+    "file": "TASK_MANAGERS\\Task_Templates\\TEMPLATE-TASK-RES-001_Research_AI_Video_Tools.json",
+    "type": "Task_Templates",
+    "missing_required": [
+      "task_template_id",
+      "task_template_name"
+    ],
+    "severity": "critical"
+  },
+  {
+    "file": "TASK_MANAGERS\\Task_Templates\\TEMPLATE-TASK-RES-001_Research_AI_Video_Tools.json",
+    "type": "Task_Templates",
+    "missing_recommended": [
+      "category"
+    ],
+    "severity": "medium"
+  },
+  {
+    "file": "TASK_MANAGERS\\Task_Templates\\TEMPLATE-TASK-RES-101_Transcribe_Video.json",
+    "type": "Task_Templates",
+    "missing_required": [
+      "task_template_id",
+      "task_template_name"
+    ],
+    "severity": "critical"
+  },
+  {
+    "file": "TASK_MANAGERS\\Task_Templates\\TEMPLATE-TASK-RES-101_Transcribe_Video.json",
+    "type": "Task_Templates",
+    "missing_recommended": [
+      "category",
+      "description",
+      "department"
+    ],
+    "severity": "medium"
+  },
+  {
+    "file": "TASK_MANAGERS\\Task_Templates\\TEMPLATE-TASK-RES-201_Perform_Initial_Video_Analysis.json",
+    "type": "Task_Templates",
+    "missing_required": [
+      "task_template_id",
+      "task_template_name"
+    ],
+    "severity": "critical"
+  },
+  {
+    "file": "TASK_MANAGERS\\Task_Templates\\TEMPLATE-TASK-RES-201_Perform_Initial_Video_Analysis.json",
+    "type": "Task_Templates",
+    "missing_recommended": [
+      "category",
+      "description",
+      "department"
+    ],
+    "severity": "medium"
+  },
+  {
+    "file": "TASK_MANAGERS\\Task_Templates\\TEMPLATE-TASK-RES-301_Create_Update_Tool_Entries.json",
+    "type": "Task_Templates",
+    "missing_required": [
+      "task_template_id",
+      "task_template_name"
+    ],
+    "severity": "critical"
+  },
+  {
+    "file": "TASK_MANAGERS\\Task_Templates\\TEMPLATE-TASK-RES-301_Create_Update_Tool_Entries.json",
+    "type": "Task_Templates",
+    "missing_recommended": [
+      "category",
+      "description",
+      "department"
+    ],
+    "severity": "medium"
+  },
+  {
+    "file": "TASK_MANAGERS\\Task_Templates\\VIDEO\\Listing.json",
+    "type": "Task_Templates",
+    "missing_required": [
+      "task_template_id",
+      "task_template_name"
+    ],
+    "severity": "critical"
+  },
+  {
+    "file": "TASK_MANAGERS\\Task_Templates\\VIDEO\\Listing.json",
+    "type": "Task_Templates",
+    "missing_recommended": [
+      "category",
+      "description",
+      "department"
+    ],
+    "severity": "medium"
+  },
+  {
+    "file": "TASK_MANAGERS\\Task_Templates\\VIDEO\\TEMPLATE-TASK-VIDEO-001_Create_Multi_Scene_Product_Commercial.json",
+    "type": "Task_Templates",
+    "missing_required": [
+      "task_template_id",
+      "task_template_name"
+    ],
+    "severity": "critical"
+  },
+  {
+    "file": "TASK_MANAGERS\\Task_Templates\\VIDEO\\TEMPLATE-TASK-VIDEO-001_Create_Multi_Scene_Product_Commercial.json",
+    "type": "Task_Templates",
+    "missing_recommended": [
+      "category"
+    ],
+    "severity": "medium"
+  },
+  {
+    "file": "TASK_MANAGERS\\Task_Templates\\VIDEO\\TEMPLATE-TASK-VIDEO-002_Create_Multi_Image_Reference_Video.json",
+    "type": "Task_Templates",
+    "missing_required": [
+      "task_template_id",
+      "task_template_name"
+    ],
+    "severity": "critical"
+  },
+  {
+    "file": "TASK_MANAGERS\\Task_Templates\\VIDEO\\TEMPLATE-TASK-VIDEO-002_Create_Multi_Image_Reference_Video.json",
+    "type": "Task_Templates",
+    "missing_recommended": [
+      "category"
+    ],
+    "severity": "medium"
+  },
+  {
+    "file": "TASK_MANAGERS\\Task_Templates\\VIDEO\\TEMPLATE-TASK-VIDEO-003_Create_Brand_Logo_Animation.json",
+    "type": "Task_Templates",
+    "missing_required": [
+      "task_template_id",
+      "task_template_name"
+    ],
+    "severity": "critical"
+  },
+  {
+    "file": "TASK_MANAGERS\\Task_Templates\\VIDEO\\TEMPLATE-TASK-VIDEO-003_Create_Brand_Logo_Animation.json",
+    "type": "Task_Templates",
+    "missing_recommended": [
+      "category"
+    ],
+    "severity": "medium"
+  },
+  {
+    "file": "TASK_MANAGERS\\Task_Templates\\VIDEO\\TEMPLATE-TASK-VIDEO-004_Unified_Platform_Workflow.json",
+    "type": "Task_Templates",
+    "missing_required": [
+      "task_template_id",
+      "task_template_name"
+    ],
+    "severity": "critical"
+  },
+  {
+    "file": "TASK_MANAGERS\\Task_Templates\\VIDEO\\TEMPLATE-TASK-VIDEO-004_Unified_Platform_Workflow.json",
+    "type": "Task_Templates",
+    "missing_recommended": [
+      "category"
+    ],
+    "severity": "medium"
+  },
+  {
+    "file": "TASK_MANAGERS\\Step_Templates\\ADMIN\\Listing.json",
+    "type": "Step_Templates",
+    "missing_required": [
+      "step_template_id",
+      "step_template_name"
+    ],
+    "severity": "critical"
+  },
+  {
+    "file": "TASK_MANAGERS\\Step_Templates\\AI\\Listing.json",
+    "type": "Step_Templates",
+    "missing_required": [
+      "step_template_id",
+      "step_template_name"
+    ],
+    "severity": "critical"
+  },
+  {
+    "file": "TASK_MANAGERS\\Step_Templates\\DESIGN\\Listing.json",
+    "type": "Step_Templates",
+    "missing_required": [
+      "step_template_id",
+      "step_template_name"
+    ],
+    "severity": "critical"
+  },
+  {
+    "file": "TASK_MANAGERS\\Step_Templates\\DEV\\Listing.json",
+    "type": "Step_Templates",
+    "missing_required": [
+      "step_template_id",
+      "step_template_name"
+    ],
+    "severity": "critical"
+  },
+  {
+    "file": "TASK_MANAGERS\\Step_Templates\\HR\\Listing.json",
+    "type": "Step_Templates",
+    "missing_required": [
+      "step_template_id",
+      "step_template_name"
+    ],
+    "severity": "critical"
+  },
+  {
+    "file": "TASK_MANAGERS\\Step_Templates\\LG\\Listing.json",
+    "type": "Step_Templates",
+    "missing_required": [
+      "step_template_id",
+      "step_template_name"
+    ],
+    "severity": "critical"
+  },
+  {
+    "file": "TASK_MANAGERS\\Step_Templates\\OPS\\Listing.json",
+    "type": "Step_Templates",
+    "missing_required": [
+      "step_template_id",
+      "step_template_name"
+    ],
+    "severity": "critical"
+  },
+  {
+    "file": "TASK_MANAGERS\\Step_Templates\\SALES\\Listing.json",
+    "type": "Step_Templates",
+    "missing_required": [
+      "step_template_id",
+      "step_template_name"
+    ],
+    "severity": "critical"
+  },
+  {
+    "file": "TASK_MANAGERS\\Step_Templates\\VIDEO\\Listing.json",
+    "type": "Step_Templates",
+    "missing_required": [
+      "step_template_id",
+      "step_template_name"
+    ],
+    "severity": "critical"
+  },
+  {
+    "file": "TASK_MANAGERS\\Step_Templates\\VIDEO\\VIDEO-VIDEO-001-01_prepare-start-frame.json",
+    "type": "Step_Templates",
+    "missing_required": [
+      "step_template_id",
+      "step_template_name"
+    ],
+    "severity": "critical"
+  },
+  {
+    "file": "TASK_MANAGERS\\Step_Templates\\VIDEO\\VIDEO-VIDEO-001-02_create-end-frame-nano-banana.json",
+    "type": "Step_Templates",
+    "missing_required": [
+      "step_template_id",
+      "step_template_name"
+    ],
+    "severity": "critical"
+  },
+  {
+    "file": "TASK_MANAGERS\\Step_Templates\\VIDEO\\VIDEO-VIDEO-001-03_navigate-to-video-section.json",
+    "type": "Step_Templates",
+    "missing_required": [
+      "step_template_id",
+      "step_template_name"
+    ],
+    "severity": "critical"
+  },
+  {
+    "file": "TASK_MANAGERS\\Step_Templates\\VIDEO\\VIDEO-VIDEO-001-04_select-google-veo-3-1.json",
+    "type": "Step_Templates",
+    "missing_required": [
+      "step_template_id",
+      "step_template_name"
+    ],
+    "severity": "critical"
+  },
+  {
+    "file": "TASK_MANAGERS\\Step_Templates\\VIDEO\\VIDEO-VIDEO-001-05_upload-start-end-frames.json",
+    "type": "Step_Templates",
+    "missing_required": [
+      "step_template_id",
+      "step_template_name"
+    ],
+    "severity": "critical"
+  },
+  {
+    "file": "TASK_MANAGERS\\Step_Templates\\VIDEO\\VIDEO-VIDEO-001-06_write-scene-1-prompt.json",
+    "type": "Step_Templates",
+    "missing_required": [
+      "step_template_id",
+      "step_template_name"
+    ],
+    "severity": "critical"
+  },
+  {
+    "file": "TASK_MANAGERS\\Step_Templates\\VIDEO\\VIDEO-VIDEO-001-07_generate-scene-1-video.json",
+    "type": "Step_Templates",
+    "missing_required": [
+      "step_template_id",
+      "step_template_name"
+    ],
+    "severity": "critical"
+  },
+  {
+    "file": "TASK_MANAGERS\\Step_Templates\\VIDEO\\VIDEO-VIDEO-001-08_download-scene-1-extract-frame.json",
+    "type": "Step_Templates",
+    "missing_required": [
+      "step_template_id",
+      "step_template_name"
+    ],
+    "severity": "critical"
+  },
+  {
+    "file": "TASK_MANAGERS\\Step_Templates\\VIDEO\\VIDEO-VIDEO-001-09_swap-frames-scene-2.json",
+    "type": "Step_Templates",
+    "missing_required": [
+      "step_template_id",
+      "step_template_name"
+    ],
+    "severity": "critical"
+  },
+  {
+    "file": "TASK_MANAGERS\\Step_Templates\\VIDEO\\VIDEO-VIDEO-001-10_create-new-end-frame-scene-2.json",
+    "type": "Step_Templates",
+    "missing_required": [
+      "step_template_id",
+      "step_template_name"
+    ],
+    "severity": "critical"
+  },
+  {
+    "file": "TASK_MANAGERS\\Step_Templates\\VIDEO\\VIDEO-VIDEO-001-11_write-scene-2-prompt.json",
+    "type": "Step_Templates",
+    "missing_required": [
+      "step_template_id",
+      "step_template_name"
+    ],
+    "severity": "critical"
+  },
+  {
+    "file": "TASK_MANAGERS\\Step_Templates\\VIDEO\\VIDEO-VIDEO-001-12_generate-scene-2-video.json",
+    "type": "Step_Templates",
+    "missing_required": [
+      "step_template_id",
+      "step_template_name"
+    ],
+    "severity": "critical"
+  },
+  {
+    "file": "TASK_MANAGERS\\Step_Templates\\VIDEO\\VIDEO-VIDEO-001-13_repeat-for-scene-3.json",
+    "type": "Step_Templates",
+    "missing_required": [
+      "step_template_id",
+      "step_template_name"
+    ],
+    "severity": "critical"
+  },
+  {
+    "file": "TASK_MANAGERS\\Step_Templates\\VIDEO\\VIDEO-VIDEO-001-14_download-all-scenes.json",
+    "type": "Step_Templates",
+    "missing_required": [
+      "step_template_id",
+      "step_template_name"
+    ],
+    "severity": "critical"
+  },
+  {
+    "file": "TASK_MANAGERS\\Step_Templates\\VIDEO\\VIDEO-VIDEO-001-15_optional-stitch-scenes.json",
+    "type": "Step_Templates",
+    "missing_required": [
+      "step_template_id",
+      "step_template_name"
+    ],
+    "severity": "critical"
+  },
+  {
+    "file": "TASK_MANAGERS\\Step_Templates\\VIDEO\\VIDEO-VIDEO-002-01_generate-character-portrait-reference-image.json",
+    "type": "Step_Templates",
+    "missing_required": [
+      "step_template_id",
+      "step_template_name"
+    ],
+    "severity": "critical"
+  },
+  {
+    "file": "TASK_MANAGERS\\Step_Templates\\VIDEO\\VIDEO-VIDEO-002-02_generate-object-reference-image.json",
+    "type": "Step_Templates",
+    "missing_required": [
+      "step_template_id",
+      "step_template_name"
+    ],
+    "severity": "critical"
+  },
+  {
+    "file": "TASK_MANAGERS\\Step_Templates\\VIDEO\\VIDEO-VIDEO-002-03_generate-environment-reference-image.json",
+    "type": "Step_Templates",
+    "missing_required": [
+      "step_template_id",
+      "step_template_name"
+    ],
+    "severity": "critical"
+  },
+  {
+    "file": "TASK_MANAGERS\\Step_Templates\\VIDEO\\VIDEO-VIDEO-002-04_navigate-to-video-section-in-openart.json",
+    "type": "Step_Templates",
+    "missing_required": [
+      "step_template_id",
+      "step_template_name"
+    ],
+    "severity": "critical"
+  },
+  {
+    "file": "TASK_MANAGERS\\Step_Templates\\VIDEO\\VIDEO-VIDEO-002-05_select-google-veo-3.1-model.json",
+    "type": "Step_Templates",
+    "missing_required": [
+      "step_template_id",
+      "step_template_name"
+    ],
+    "severity": "critical"
+  },
+  {
+    "file": "TASK_MANAGERS\\Step_Templates\\VIDEO\\VIDEO-VIDEO-002-06_upload-reference-images-via-elements-feature.json",
+    "type": "Step_Templates",
+    "missing_required": [
+      "step_template_id",
+      "step_template_name"
+    ],
+    "severity": "critical"
+  },
+  {
+    "file": "TASK_MANAGERS\\Step_Templates\\VIDEO\\VIDEO-VIDEO-002-07_write-video-generation-prompt-with-storytelling.json",
+    "type": "Step_Templates",
+    "missing_required": [
+      "step_template_id",
+      "step_template_name"
+    ],
+    "severity": "critical"
+  },
+  {
+    "file": "TASK_MANAGERS\\Step_Templates\\VIDEO\\VIDEO-VIDEO-002-08_generate-video-with-elements.json",
+    "type": "Step_Templates",
+    "missing_required": [
+      "step_template_id",
+      "step_template_name"
+    ],
+    "severity": "critical"
+  },
+  {
+    "file": "TASK_MANAGERS\\Step_Templates\\VIDEO\\VIDEO-VIDEO-002-09_review-and-download-video.json",
+    "type": "Step_Templates",
+    "missing_required": [
+      "step_template_id",
+      "step_template_name"
+    ],
+    "severity": "critical"
+  },
+  {
+    "file": "TASK_MANAGERS\\Step_Templates\\VIDEO\\VIDEO-VIDEO-003-01_prepare-brand-logo-image.json",
+    "type": "Step_Templates",
+    "missing_required": [
+      "step_template_id",
+      "step_template_name"
+    ],
+    "severity": "critical"
+  },
+  {
+    "file": "TASK_MANAGERS\\Step_Templates\\VIDEO\\VIDEO-VIDEO-003-02_navigate-to-video-section-in-openart.json",
+    "type": "Step_Templates",
+    "missing_required": [
+      "step_template_id",
+      "step_template_name"
+    ],
+    "severity": "critical"
+  },
+  {
+    "file": "TASK_MANAGERS\\Step_Templates\\VIDEO\\VIDEO-VIDEO-003-03_select-google-veo-3.1-model.json",
+    "type": "Step_Templates",
+    "missing_required": [
+      "step_template_id",
+      "step_template_name"
+    ],
+    "severity": "critical"
+  },
+  {
+    "file": "TASK_MANAGERS\\Step_Templates\\VIDEO\\VIDEO-VIDEO-003-04_upload-brand-logo-as-start-frame.json",
+    "type": "Step_Templates",
+    "missing_required": [
+      "step_template_id",
+      "step_template_name"
+    ],
+    "severity": "critical"
+  },
+  {
+    "file": "TASK_MANAGERS\\Step_Templates\\VIDEO\\VIDEO-VIDEO-003-05_write-animation-prompt-with-camera-movements.json",
+    "type": "Step_Templates",
+    "missing_required": [
+      "step_template_id",
+      "step_template_name"
+    ],
+    "severity": "critical"
+  },
+  {
+    "file": "TASK_MANAGERS\\Step_Templates\\VIDEO\\VIDEO-VIDEO-003-06_generate-logo-animation-video.json",
+    "type": "Step_Templates",
+    "missing_required": [
+      "step_template_id",
+      "step_template_name"
+    ],
+    "severity": "critical"
+  },
+  {
+    "file": "TASK_MANAGERS\\Step_Templates\\VIDEO\\VIDEO-VIDEO-003-07_review-and-download-animation.json",
+    "type": "Step_Templates",
+    "missing_required": [
+      "step_template_id",
+      "step_template_name"
+    ],
+    "severity": "critical"
+  },
+  {
+    "file": "TASK_MANAGERS\\Step_Templates\\VIDEO\\VIDEO-VIDEO-004-01_plan-complete-video-project-requirements.json",
+    "type": "Step_Templates",
+    "missing_required": [
+      "step_template_id",
+      "step_template_name"
+    ],
+    "severity": "critical"
+  },
+  {
+    "file": "TASK_MANAGERS\\Step_Templates\\VIDEO\\VIDEO-VIDEO-004-02_log-into-openart-unified-platform.json",
+    "type": "Step_Templates",
+    "missing_required": [
+      "step_template_id",
+      "step_template_name"
+    ],
+    "severity": "critical"
+  },
+  {
+    "file": "TASK_MANAGERS\\Step_Templates\\VIDEO\\VIDEO-VIDEO-004-03_navigate-to-image-section-for-reference-generation.json",
+    "type": "Step_Templates",
+    "missing_required": [
+      "step_template_id",
+      "step_template_name"
+    ],
+    "severity": "critical"
+  },
+  {
+    "file": "TASK_MANAGERS\\Step_Templates\\VIDEO\\VIDEO-VIDEO-004-04_generate-character-portrait-with-openart-photorealistic.json",
+    "type": "Step_Templates",
+    "missing_required": [
+      "step_template_id",
+      "step_template_name"
+    ],
+    "severity": "critical"
+  },
+  {
+    "file": "TASK_MANAGERS\\Step_Templates\\VIDEO\\VIDEO-VIDEO-004-05_switch-model-to-seedream-4.0-for-object-generation.json",
+    "type": "Step_Templates",
+    "missing_required": [
+      "step_template_id",
+      "step_template_name"
+    ],
+    "severity": "critical"
+  },
+  {
+    "file": "TASK_MANAGERS\\Step_Templates\\VIDEO\\VIDEO-VIDEO-004-06_generate-object-image-with-seedream-4.0.json",
+    "type": "Step_Templates",
+    "missing_required": [
+      "step_template_id",
+      "step_template_name"
+    ],
+    "severity": "critical"
+  },
+  {
+    "file": "TASK_MANAGERS\\Step_Templates\\VIDEO\\VIDEO-VIDEO-004-07_generate-environment-scene-with-seedream-4.0.json",
+    "type": "Step_Templates",
+    "missing_required": [
+      "step_template_id",
+      "step_template_name"
+    ],
+    "severity": "critical"
+  },
+  {
+    "file": "TASK_MANAGERS\\Step_Templates\\VIDEO\\VIDEO-VIDEO-004-08_optional-use-nano-banana-for-image-modifications.json",
+    "type": "Step_Templates",
+    "missing_required": [
+      "step_template_id",
+      "step_template_name"
+    ],
+    "severity": "critical"
+  },
+  {
+    "file": "TASK_MANAGERS\\Step_Templates\\VIDEO\\VIDEO-VIDEO-004-09_navigate-to-video-section-stay-in-openart.json",
+    "type": "Step_Templates",
+    "missing_required": [
+      "step_template_id",
+      "step_template_name"
+    ],
+    "severity": "critical"
+  },
+  {
+    "file": "TASK_MANAGERS\\Step_Templates\\VIDEO\\VIDEO-VIDEO-004-10_select-google-veo-3.1-for-video-generation.json",
+    "type": "Step_Templates",
+    "missing_required": [
+      "step_template_id",
+      "step_template_name"
+    ],
+    "severity": "critical"
+  },
+  {
+    "file": "TASK_MANAGERS\\Step_Templates\\VIDEO\\VIDEO-VIDEO-004-11_upload-reference-images-to-veo-3.1.json",
+    "type": "Step_Templates",
+    "missing_required": [
+      "step_template_id",
+      "step_template_name"
+    ],
+    "severity": "critical"
+  },
+  {
+    "file": "TASK_MANAGERS\\Step_Templates\\VIDEO\\VIDEO-VIDEO-004-12_write-video-generation-prompt.json",
+    "type": "Step_Templates",
+    "missing_required": [
+      "step_template_id",
+      "step_template_name"
+    ],
+    "severity": "critical"
+  },
+  {
+    "file": "TASK_MANAGERS\\Step_Templates\\VIDEO\\VIDEO-VIDEO-004-13_generate-video-with-veo-3.1.json",
+    "type": "Step_Templates",
+    "missing_required": [
+      "step_template_id",
+      "step_template_name"
+    ],
+    "severity": "critical"
+  },
+  {
+    "file": "TASK_MANAGERS\\Step_Templates\\VIDEO\\VIDEO-VIDEO-004-14_review-output-and-iterate-if-needed.json",
+    "type": "Step_Templates",
+    "missing_required": [
+      "step_template_id",
+      "step_template_name"
+    ],
+    "severity": "critical"
+  },
+  {
+    "file": "TASK_MANAGERS\\Step_Templates\\VIDEO\\VIDEO-VIDEO-004-15_iterate-rapidly-if-needed-same-platform-advantage.json",
+    "type": "Step_Templates",
+    "missing_required": [
+      "step_template_id",
+      "step_template_name"
+    ],
+    "severity": "critical"
+  },
+  {
+    "file": "TASK_MANAGERS\\Step_Templates\\VIDEO\\VIDEO-VIDEO-004-16_download-final-video.json",
+    "type": "Step_Templates",
+    "missing_required": [
+      "step_template_id",
+      "step_template_name"
+    ],
+    "severity": "critical"
+  }
+]

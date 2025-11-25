@@ -1,0 +1,53 @@
+{
+  "Actions": "arbitrage",
+  "Processes": "arbitraging",
+  "Results": "arbitraged",
+  "Departments": "managers",
+  "Professions": "sales manager, operations manager, lead generator",
+  "category": "Data_Operations",
+  "source": "Video_006_Lead_Generation_Analysis",
+  "discovery_date": "2025-11-12",
+  "description": "Exploit price differences or credit ratios between services to optimize costs and maximize value",
+  "typical_use_cases": [
+    "Enterprise arbitrage: 1 credit → 40 emails (Airscale + Anymailfinder)",
+    "Optimize lead source selection by cost/quality ratio",
+    "Compare enrichment service costs",
+    "Maximize credit efficiency",
+    "Find cost-effective data acquisition strategies"
+  ],
+  "common_objects": [
+    "Company Domain",
+    "Email Address",
+    "Lead List",
+    "Enrichment Pipeline"
+  ],
+  "common_tools": [
+    "Airscale",
+    "Anymailfinder",
+    "Multiple enrichment services"
+  ],
+  "related_actions": [
+    "optimize",
+    "compare",
+    "maximize",
+    "leverage"
+  ],
+  "arbitrage_examples": [
+    {
+      "strategy": "Enterprise Email Arbitrage",
+      "description": "Search 1 company in Airscale (1 credit) → Get up to 40 decision-maker domains → Feed to Anymailfinder (40 × $0.0025 = $0.10)",
+      "ratio": "1:40 credit-to-email",
+      "roi": "Very high for large enterprises"
+    },
+    {
+      "strategy": "Multi-Source Cost Optimization",
+      "description": "Compare: LinkedIn Navigator ($99/mo unlimited) vs Bright Data ($0.0025/lead) vs Instantly.ai (4,500 included)",
+      "decision": "Choose based on volume needs and budget"
+    }
+  ],
+  "workflows": [
+    "Identify target companies → Use Airscale enterprise arbitrage → Maximize emails per credit",
+    "Compare enrichment costs → Select optimal service → Execute arbitrage strategy"
+  ],
+  "cost_optimization_note": "Critical for high-volume lead generation to minimize per-lead costs"
+}

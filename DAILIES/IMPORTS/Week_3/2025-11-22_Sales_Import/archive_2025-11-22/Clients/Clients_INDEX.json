@@ -1,0 +1,85 @@
+{
+  "sub_entity_type": "Clients",
+  "total_count": 5,
+  "last_updated": "2025-11-21 23:25:25",
+  "entities": [
+    {
+      "company_id": "BUS-2025-001",
+      "company_name": "TIAL (The Institutional Architecture Lab)",
+      "status": "Active_Client",
+      "industry": "Unknown",
+      "account_manager": "Kovalska_Anastasiya",
+      "relationship_health": "Moderate",
+      "tags": [
+        "active_client",
+        "hired",
+        "anastasia_portfolio",
+        "needs_followup"
+      ],
+      "file_path": "Clients/BUSINESSES_Client_TIAL_(The_Institutional_Architecture_Lab)_BUS-2025-001.json"
+    },
+    {
+      "company_id": "BUS-2025-002",
+      "company_name": "DataMining International",
+      "status": "Active_Client",
+      "industry": "Unknown",
+      "account_manager": "Kovalska_Anastasiya",
+      "relationship_health": "Moderate",
+      "tags": [
+        "active_client",
+        "hired",
+        "anastasia_portfolio",
+        "needs_followup"
+      ],
+      "file_path": "Clients/BUSINESSES_Client_DataMining_International_BUS-2025-002.json"
+    },
+    {
+      "company_id": "BUS-2025-003",
+      "company_name": "Drauschke reserch",
+      "status": "Active_Client",
+      "industry": "Technology",
+      "account_manager": "Kovalska_Anastasiya",
+      "relationship_health": "Moderate",
+      "tags": [
+        "active_client",
+        "hired",
+        "anastasia_portfolio",
+        "needs_followup",
+        "development",
+        "social_media",
+        "ai_automation"
+      ],
+      "file_path": "Clients/BUSINESSES_Client_Drauschke_reserch_BUS-2025-003.json"
+    },
+    {
+      "company_id": "BUS-2025-004",
+      "company_name": "SiteBoon AI",
+      "status": "Active_Client",
+      "industry": "AI",
+      "account_manager": "Kovalska_Anastasiya",
+      "relationship_health": "Moderate",
+      "tags": [
+        "active_client",
+        "hired",
+        "anastasia_portfolio",
+        "needs_followup"
+      ],
+      "file_path": "Clients/BUSINESSES_Client_SiteBoon_AI_BUS-2025-004.json"
+    },
+    {
+      "company_id": "BUS-2025-009",
+      "company_name": "Acorn Community Bank",
+      "status": "Active_Client",
+      "industry": "Finance",
+      "account_manager": "Kovalska_Anastasiya",
+      "relationship_health": "Moderate",
+      "tags": [
+        "active_client",
+        "needs_followup",
+        "anastasia_portfolio",
+        "interview"
+      ],
+      "file_path": "Clients/BUSINESSES_Client_Acorn_Community_Bank_BUS-2025-009.json"
+    }
+  ]
+}

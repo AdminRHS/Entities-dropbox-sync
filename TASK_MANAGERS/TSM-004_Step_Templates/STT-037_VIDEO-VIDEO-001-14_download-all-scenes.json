@@ -1,0 +1,28 @@
+{
+  "entity_type": "TASK_MANAGERS",
+  "sub_entity": "Step_Template",
+  "step_id": "VIDEO-VIDEO-001-14",
+  "step_number": 14,
+  "parent_task": "TASK-TEMPLATE-VIDEO-001",
+  "task_name": "Create Multi-Scene Product Commercial",
+  "name": "Download all scene videos",
+  "action": "download",
+  "tool": "OpenArt download",
+  "responsibility": "Product Marketer",
+  "placement": "Local storage",
+  "duration": "3 minutes",
+  "dependencies": [13],
+  "inputs": [
+    "All generated scenes"
+  ],
+  "outputs": [
+    "All video files locally stored"
+  ],
+  "success_criteria": "All scenes downloaded in order",
+  "implementation_notes": "Download all generated scene videos to local storage. Ensure they are saved in the correct order for optional stitching in post-production.",
+  "tags": ["download", "file-management", "deliverables"],
+  "version": "1.0",
+  "created": "2025-11-15",
+  "last_updated": "2025-11-15",
+  "source": "Video_012"
+}

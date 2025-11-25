@@ -1,0 +1,74 @@
+{
+    "entity_type": "TASK_MANAGERS",
+    "sub_entity": "Task_Template",
+    "task_template_id": "Task-Template-105",
+    "task_template_name": "Publish and Promote Behance Project",
+    "action": "Publish and promote",
+    "object": "Behance project",
+    "context": "Behance + cross-platform sharing",
+    "description": "Publish the Behance project and promote it across Instagram and LinkedIn with appropriate context.",
+    "department": "MARKETING",
+    "estimated_duration": "15-20 minutes",
+    "priority": "High",
+    "status": "Template",
+    "dependencies": [
+        "Task-Template-101",
+        "Task-Template-102",
+        "Task-Template-103",
+        "Task-Template-104"
+    ],
+    "tools_required": [
+        "Behance",
+        "Instagram",
+        "LinkedIn"
+    ],
+    "matched_tools": [
+        {
+            "name": "Behance",
+            "libraries_path": "ENTITIES/LIBRARIES/Tools/Behance.json"
+        },
+        {
+            "name": "Instagram",
+            "libraries_path": "ENTITIES/LIBRARIES/Tools/Instagram.json"
+        },
+        {
+            "name": "LinkedIn",
+            "libraries_path": "ENTITIES/LIBRARIES/Tools/LinkedIn.json"
+        }
+    ],
+    "checklist": [
+        {
+            "item": "Project published on Behance",
+            "guide": "Double-check cover, images, and description before publishing.",
+            "required": true
+        },
+        {
+            "item": "Instagram carousel posted with link in bio",
+            "guide": "Use key visuals and CTA pointing to Behance case study.",
+            "required": false
+        },
+        {
+            "item": "LinkedIn post created with professional context",
+            "guide": "Explain project briefly and link to Behance.",
+            "required": false
+        },
+        {
+            "item": "Engagement tracking set up",
+            "guide": "Monitor appreciations, views, followers, and inquiries.",
+            "required": false
+        }
+    ],
+    "success_criteria": [
+        "Project is live and discoverable on Behance.",
+        "Cross-platform posts drive initial engagement.",
+        "At least one follow-up metric (views, appreciations, inquiries) is tracked."
+    ],
+    "tags": [
+        "behance",
+        "launch",
+        "cross_promotion",
+        "social_media"
+    ],
+    "source": "Workflows/Behance_Project_Publishing_Workflow.yaml#step_6",
+    "version": "1.0"
+}

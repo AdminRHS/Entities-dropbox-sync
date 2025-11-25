@@ -1,0 +1,162 @@
+workflow_name: "LinkedIn B2B Content Strategy"
+workflow_type: "Cyclic"
+workflow_id: "WF-SMM-008"
+department: "MARKETING"
+priority: "High"
+estimated_duration: "1-2 hours daily"
+status: "Active"
+
+description: |
+  Build B2B authority and generate leads through daily LinkedIn activity mixing articles, posts, and engagement.
+  Strategic workflow for professional networking, thought leadership, and business development.
+
+steps:
+  - step_number: 1
+    name: "Publish Thought Leadership"
+    tool: "LinkedIn (Posts, Articles, Carousels)"
+    responsibility: "Publish thought leadership content"
+    placement: "LinkedIn platform"
+    duration: "30-45 minutes"
+    dependencies: []
+    inputs:
+      - "Industry expertise and insights"
+      - "Case studies and data"
+      - "Content calendar"
+    outputs:
+      - "Daily LinkedIn posts (text, carousel, or video)"
+      - "Weekly long-form articles (1000+ words)"
+      - "Data-driven carousels with insights"
+      - "Case studies with ROI results"
+    success_criteria: "Consistent posting with engagement from target audience"
+
+  - step_number: 2
+    name: "Engage with Network"
+    tool: "LinkedIn (Comments, Messages, Notifications)"
+    responsibility: "Engage with professional network"
+    placement: "LinkedIn platform"
+    duration: "20-30 minutes"
+    dependencies: []
+    inputs:
+      - "Industry posts and discussions"
+      - "Comments on own content"
+      - "Connection requests"
+    outputs:
+      - "Thoughtful comments on industry posts"
+      - "Responses to comments within 2 hours"
+      - "Participation in relevant discussions"
+      - "Network connection building"
+    success_criteria: "Active engagement that boosts post visibility and builds relationships"
+
+  - step_number: 3
+    name: "Host LinkedIn Live"
+    tool: "LinkedIn Live"
+    responsibility: "Host live sessions"
+    placement: "LinkedIn Live feature"
+    duration: "30-60 minutes (weekly)"
+    dependencies: []
+    inputs:
+      - "Live session topic and agenda"
+      - "Q&A preparation"
+      - "Promotional content"
+    outputs:
+      - "Weekly LinkedIn Live sessions"
+      - "Q&A with audience"
+      - "Office hours or industry discussions"
+      - "Recorded content for replay"
+    success_criteria: "Engaged live audience with valuable discussions and networking"
+
+  - step_number: 4
+    name: "Track Lead Generation"
+    tool: "LinkedIn Analytics, CRM"
+    responsibility: "Track lead generation metrics"
+    placement: "Analytics dashboard"
+    duration: "15-20 minutes (daily review)"
+    dependencies: ["Step 1", "Step 2", "Step 3"]
+    inputs:
+      - "Profile visit data"
+      - "Connection requests"
+      - "Direct messages"
+      - "Post performance metrics"
+    outputs:
+      - "Profile visits tracked"
+      - "Connection request quality monitored"
+      - "DM conversations logged"
+      - "Conversion metrics analyzed"
+      - "Lead quality assessment"
+    success_criteria: "Clear understanding of content ROI and lead generation effectiveness"
+
+performance_metrics:
+  impressions: "Total reach for B2B content"
+  engagement_rate: "(likes + comments + shares) / impressions"
+  profile_visits: "Interest in your expertise"
+  connection_requests: "Network growth and lead quality"
+  direct_messages: "Warm leads and inquiries"
+  click_through_rate: "Links to website or offerings"
+  lead_conversion: "Actual business generated"
+
+content_strategy:
+  posting_frequency: "Daily activity - Tuesday-Thursday 8-10am, 5-6pm EST optimal"
+  content_mix:
+    thought_leadership: "25% - Industry insights and trends"
+    educational: "30% - How-to and expertise sharing"
+    case_studies: "20% - Results and ROI demonstrations"
+    professional_development: "15% - Career and skill insights"
+    company_updates: "10% - News and announcements"
+
+content_formats:
+  text_posts: "Daily - 150-300 characters for algorithm favor"
+  carousels: "2-3 times per week - Data visualizations and tips"
+  articles: "Weekly - 1000+ word thought leadership"
+  videos: "1-2 times per week - Behind-the-scenes or tutorials"
+  linkedin_live: "Weekly - Q&A and discussions"
+  polls: "1-2 times per week - Audience engagement"
+
+best_practices:
+  - "Post during optimal times (Tuesday-Thursday 8-10am, 5-6pm EST)"
+  - "Respond to comments within 2 hours to boost engagement"
+  - "Lead with ROI/results for B2B audience credibility"
+  - "Use data and statistics to back up claims"
+  - "Share personal insights and experiences"
+  - "Tag relevant people and companies (sparingly)"
+  - "Use 3-5 relevant hashtags (not excessive)"
+  - "Always add value, never just self-promote"
+  - "Be authentic and show personality"
+  - "Cross-promote best content on other platforms"
+
+linkedin_live_strategy:
+  frequency: "Weekly sessions"
+  optimal_days: "Tuesday-Thursday"
+  optimal_times: "12pm or 5pm EST"
+  session_types:
+    - "Q&A sessions"
+    - "Office hours"
+    - "Industry panels"
+    - "Product demos"
+    - "Thought leadership discussions"
+  promotion: "Announce 3-5 days in advance, reminder posts"
+
+lead_generation_tactics:
+  profile_optimization: "Keyword-rich headline and about section"
+  featured_section: "Showcase best work and lead magnets"
+  call_to_action: "Clear next steps in posts and articles"
+  link_strategy: "Strategic use of links in articles and featured section"
+  connection_requests: "Personalized messages to ideal prospects"
+  engagement_strategy: "Build relationships before pitching"
+
+automation_opportunities:
+  - "Scheduled post publishing"
+  - "Content repurposing from blog/YouTube"
+  - "Analytics tracking and reporting"
+  - "Lead tracking and CRM integration"
+
+tags:
+  - linkedin
+  - b2b
+  - thought_leadership
+  - lead_generation
+  - professional_networking
+  - business_development
+
+version: "1.0"
+created: "2025-11-13"
+last_updated: "2025-11-13"

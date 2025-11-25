@@ -1,0 +1,95 @@
+{
+  "entity_type": "LIBRARIES",
+  "library": "Projects",
+  "project_workflow_id": "WF-IMG-001",
+  "name": "Images Generation",
+  "category": "Creation",
+  "description": "Create platform-ready promotional images by iterating on prompts, documenting every GenID, and saving final assets.",
+  "related_actions": [
+    "Generate",
+    "Adjust",
+    "Update",
+    "Save",
+    "Report"
+  ],
+  "related_objects": [
+    "image",
+    "post",
+    "icon",
+    "banner",
+    "prompt"
+  ],
+  "tasks": [
+    {
+      "task_id": "WF-IMG-001-T1",
+      "task_name": "Generate initial images for social networks",
+      "responsibilities": [
+        {
+          "name": "Generate product image",
+          "action": "Generate",
+          "object": "image",
+          "details": "Input a detailed prompt that produces a hero illustration of the product with the name spanning the full width."
+        },
+        {
+          "name": "Visualize process post",
+          "action": "Generate",
+          "object": "post",
+          "details": "Prompt for a post-style graphic that illustrates key responsibilities and the working process."
+        },
+        {
+          "name": "Design tool icons",
+          "action": "Generate",
+          "object": "icon",
+          "details": "Generate icons representing the tools used in production (match the quantity of responsibilities mentioned)."
+        }
+      ],
+      "checklist": [
+        {
+          "name": "Adjust prompt accuracy",
+          "action": "Update",
+          "object": "prompt",
+          "details": "Tweak prompts until outputs match the brief for contrast, freshness, and CTR goals."
+        },
+        {
+          "name": "Save prompt ids",
+          "action": "Save",
+          "object": "prompt",
+          "details": "Store the final prompts and GenIDs in the prompt database for traceability."
+        }
+      ],
+      "deliverables": [
+        "image",
+        "post",
+        "icons",
+        "banners"
+      ],
+      "reporting": "Capture the final assets plus prompt references in the campaign report."
+    },
+    {
+      "task_id": "WF-IMG-001-T2",
+      "task_name": "Generate blog post graphics",
+      "responsibilities": [
+        {
+          "name": "Reuse chat context",
+          "action": "Use",
+          "object": "workspace",
+          "details": "Continue in the same conversation so the model keeps prior context."
+        },
+        {
+          "name": "Refine prompt copy",
+          "action": "Update",
+          "object": "prompt",
+          "details": "Iterate on the wording until the blog graphics meet quality standards."
+        },
+        {
+          "name": "Record prompt ids",
+          "action": "Save",
+          "object": "prompt",
+          "details": "Document the final prompt and GenID in the shared database."
+        }
+      ]
+    }
+  ],
+  "status": "draft",
+  "last_updated": "2025-11-07"
+}

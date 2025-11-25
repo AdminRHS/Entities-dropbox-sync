@@ -1,0 +1,278 @@
+{
+  "entity_type": "TASK_MANAGERS",
+  "sub_entity": "Task_Template",
+  "template_id": "Task-Template-006",
+  "task_name": "Enrich Emails via Bright Data",
+  "action": "Enrich",
+  "object": "Email List",
+  "context": "via Bright Data platform",
+  "description": "Fast email enrichment using Bright Data (60-80% success rate, 10-15 minutes, $0.0025 per email - similar to Anymailfinder)",
+  "department": "LG",
+  "profession": "Lead Generator",
+  "priority": "Medium",
+  "estimated_duration": "10-15 minutes",
+  "status": "Active",
+  "complexity": "Low",
+  "automation_potential": "High (60-80%)",
+  "success_rate": "60-80%",
+  "cost_per_email": "$0.0025 per valid email",
+  "best_for": "Fast execution, cost-effective enrichment",
+  "dependencies": [
+    "Bright Data account with credits",
+    "Company domain list prepared"
+  ],
+  "tools_required": [
+    "TOOL-DATA-009 (Bright Data)"
+  ],
+  "skills_required": [
+    "SKL-061 (enriched emails via similar tools)"
+  ],
+  "objects_used": [
+    "OBJ-LG-001 (Lead List)",
+    "OBJ-LG-002 (Company Domain)",
+    "OBJ-LG-003 (Decision-Maker Email)"
+  ],
+  "workflow_reference": "WF-LG-011",
+  "success_criteria": [
+    "Company domains uploaded successfully",
+    "60-80% enrichment success rate",
+    "All enriched emails exported",
+    "Cost tracked at $0.0025 per email",
+    "Execution completed in 10-15 minutes"
+  ],
+  "responsibilities": {
+    "responsible": "Lead Generator",
+    "accountable": "Lead Generation Manager",
+    "consulted": [],
+    "informed": [
+      "SDR Team"
+    ]
+  },
+  "steps": [
+    {
+      "step_number": 1,
+      "name": "Prepare company domain list",
+      "action": "prepare",
+      "tool": "Excel/Google Sheets",
+      "responsibility": "Lead Generator",
+      "placement": "Domain list spreadsheet",
+      "duration": "2-3 minutes",
+      "dependencies": [],
+      "inputs": [
+        "Raw company list from any source"
+      ],
+      "outputs": [
+        "Clean CSV: company_name, domain"
+      ],
+      "success_criteria": "Domains cleaned and deduplicated",
+      "responsibility_id": "RESP-LG-003",
+      "responsibility_name": "prepare domains",
+      "_original_action": "prepare"
+    },
+    {
+      "step_number": 2,
+      "name": "Upload domain list to Bright Data",
+      "action": "upload",
+      "tool": "TOOL-DATA-009 (Bright Data)",
+      "responsibility": "Lead Generator",
+      "placement": "Bright Data platform - Upload",
+      "duration": "1 minute",
+      "dependencies": [
+        "Step 1"
+      ],
+      "inputs": [
+        "CSV with company domains"
+      ],
+      "outputs": [
+        "Upload confirmation"
+      ],
+      "success_criteria": "All domains uploaded successfully",
+      "responsibility_id": "RESP-LG-002",
+      "responsibility_name": "upload domains",
+      "_original_action": "upload"
+    },
+    {
+      "step_number": 3,
+      "name": "Configure target roles for enrichment",
+      "action": "configure",
+      "tool": "TOOL-DATA-009 (Bright Data)",
+      "responsibility": "Lead Generator",
+      "placement": "Bright Data - Settings",
+      "duration": "1 minute",
+      "dependencies": [
+        "Step 2"
+      ],
+      "inputs": [
+        "Target roles: CEO, CTO, VP, etc."
+      ],
+      "outputs": [
+        "Enrichment configured"
+      ],
+      "success_criteria": "Roles selected for enrichment",
+      "responsibility_id": "RESP-LG-021",
+      "responsibility_name": "configure target roles",
+      "_original_action": "configure"
+    },
+    {
+      "step_number": 4,
+      "name": "Run email enrichment",
+      "action": "execute",
+      "tool": "TOOL-DATA-009 (Bright Data)",
+      "responsibility": "Lead Generator",
+      "placement": "Bright Data - Processing",
+      "duration": "5-8 minutes (automated)",
+      "dependencies": [
+        "Step 3"
+      ],
+      "inputs": [
+        "Configured enrichment job"
+      ],
+      "outputs": [
+        "Enriched emails (60-80% success)"
+      ],
+      "success_criteria": "Processing completes, 60-80% success rate",
+      "responsibility_id": "RESP-LG-011",
+      "responsibility_name": "execute emails",
+      "_original_action": "execute"
+    },
+    {
+      "step_number": 5,
+      "name": "Export enriched results",
+      "action": "export",
+      "tool": "TOOL-DATA-009 (Bright Data)",
+      "responsibility": "Lead Generator",
+      "placement": "Bright Data - Export",
+      "duration": "1 minute",
+      "dependencies": [
+        "Step 4"
+      ],
+      "inputs": [
+        "Enriched data"
+      ],
+      "outputs": [
+        "CSV: company_name, domain, email, name, title"
+      ],
+      "success_criteria": "All enriched contacts exported",
+      "responsibility_id": "RESP-LG-005",
+      "responsibility_name": "export enriched results",
+      "_original_action": "export"
+    },
+    {
+      "step_number": 6,
+      "name": "Log campaign metrics",
+      "action": "log",
+      "tool": "Excel/Google Sheets",
+      "responsibility": "Lead Generator",
+      "placement": "Campaign tracking",
+      "duration": "1-2 minutes",
+      "dependencies": [
+        "Step 5"
+      ],
+      "inputs": [
+        "Enrichment results and costs"
+      ],
+      "outputs": [
+        "Campaign logged with metrics"
+      ],
+      "success_criteria": "Date, volume, success rate, cost documented",
+      "responsibility_id": "RESP-LG-006",
+      "responsibility_name": "log log campaign metrics",
+      "_original_action": "log"
+    }
+  ],
+  "checklist": [
+    {
+      "item": "Domain list cleaned and formatted",
+      "guide": "CSV with company_name and domain columns",
+      "required": true
+    },
+    {
+      "item": "Target roles match ICP",
+      "guide": "CEO, CTO, CMO, VP roles for B2B",
+      "required": true
+    },
+    {
+      "item": "Bright Data credits available",
+      "guide": "Pay-per-result model at $0.0025 per email",
+      "required": true
+    },
+    {
+      "item": "60-80% enrichment rate achieved",
+      "guide": "Similar success rate to Anymailfinder",
+      "required": true
+    },
+    {
+      "item": "Execution completed in 10-15 minutes",
+      "guide": "One of fastest enrichment methods",
+      "required": true
+    }
+  ],
+  "performance_metrics": {
+    "typical_volume": "50-200 domains per batch",
+    "success_rate": "60-80%",
+    "time_per_batch": "10-15 minutes",
+    "cost": "$0.0025 per valid email",
+    "enrichment_rank": "#2 tied with Anymailfinder"
+  },
+  "best_practices": [
+    "FASTEST enrichment: 10-15 minutes execution",
+    "Cost-effective: $0.0025 per email (same as Anymailfinder)",
+    "Good success rate: 60-80%",
+    "Alternative to Anymailfinder with similar results",
+    "Use for quick campaigns when speed matters",
+    "Clean domains before upload for best results"
+  ],
+  "comparison_to_anymailfinder": {
+    "speed": "Bright Data: 10-15 min | Anymailfinder: 10-15 min (similar)",
+    "success_rate": "Bright Data: 60-80% | Anymailfinder: 50-80% (similar)",
+    "cost": "Both: $0.0025 per email (identical)",
+    "when_to_choose_bright_data": "If Anymailfinder unavailable or testing alternatives",
+    "when_to_choose_anymailfinder": "Slightly lower enrichment rate (50-80%) but more common"
+  },
+  "when_to_use": [
+    "Need fast enrichment (10-15 minutes)",
+    "Cost-conscious ($0.0025 per email)",
+    "Anymailfinder unavailable or at capacity",
+    "Want to test alternative enrichment sources",
+    "60-80% success rate acceptable"
+  ],
+  "common_issues": [
+    {
+      "issue": "Low enrichment rate (<50%)",
+      "solution": "Check domain quality, try different roles, verify domains are active"
+    },
+    {
+      "issue": "Credits depleted",
+      "solution": "Purchase more credits, pay-per-result model"
+    },
+    {
+      "issue": "Upload fails",
+      "solution": "Check CSV format, ensure domains properly formatted"
+    }
+  ],
+  "tags": [
+    "lead_generation",
+    "email_enrichment",
+    "bright_data",
+    "fast_execution",
+    "cost_effective"
+  ],
+  "related_workflows": [
+    "WF-LG-011"
+  ],
+  "related_skills": [
+    "SKL-061"
+  ],
+  "related_professions": [
+    "Lead Generator",
+    "SDR"
+  ],
+  "version": "1.0",
+  "created": "2025-11-12",
+  "last_updated": "2025-11-12",
+  "source": "Video_006_Lead_Generation_Analysis",
+  "responsibility_id": "RESP-LG-001",
+  "responsibility_name": "enrich emails",
+  "_original_action": "Enrich",
+  "_original_object": "Email List"
+}

@@ -1,0 +1,18 @@
+{
+  "metadata": {
+    "created_date": "2025-08-08T00:00:00.000Z",
+    "source": "parameters/organized_by_profession",
+    "description": "Department-level index aggregating profession files for parameters"
+  },
+  "departments": [
+    {"name": "managers", "file": "managers_parameters.json", "profession_count": 4, "total_parameters": 316},
+    {"name": "developers", "file": "developers_parameters.json", "profession_count": 1, "total_parameters": 124},
+    {"name": "designers", "file": "designers_parameters.json", "profession_count": 1, "total_parameters": 48},
+    {"name": "marketers", "file": "marketers_parameters.json", "profession_count": 1, "total_parameters": 89}
+  ],
+  "coverage": {
+    "total_departments": 4,
+    "total_professions": 7,
+    "notes": "Aggregates available profession parameter files"
+  }
+}

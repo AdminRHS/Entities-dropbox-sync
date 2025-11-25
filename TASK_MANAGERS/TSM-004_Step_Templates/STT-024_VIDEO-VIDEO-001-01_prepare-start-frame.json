@@ -1,0 +1,39 @@
+{
+  "entity_type": "TASK_MANAGERS",
+  "sub_entity": "Step_Template",
+  "step_id": "VIDEO-VIDEO-001-01",
+  "step_number": 1,
+  "parent_task": "TASK-TEMPLATE-VIDEO-001",
+  "task_name": "Create Multi-Scene Product Commercial",
+  "name": "Prepare start frame (product image)",
+  "action": "prepare",
+  "tool": "Product photo or AI generation",
+  "responsibility": "Product Marketer",
+  "placement": "OpenArt or local storage",
+  "duration": "5 minutes",
+  "dependencies": [],
+  "inputs": [
+    "Product image on white background"
+  ],
+  "outputs": [
+    "Start frame ready for upload"
+  ],
+  "success_criteria": "Clean product image with neutral background",
+  "implementation_notes": "Prepare a high-quality product image with a neutral (preferably white) background. This will serve as the starting frame for the first video scene. You can use an existing product photo or generate one using AI tools.",
+  "related_tools": [
+    "TOOL-AI-051 (Google Veo 3.1)",
+    "TOOL-AI-052 (OpenArt)"
+  ],
+  "related_skills": [
+    "SKL-VIDEO-001 (generated product commercials via Google Veo 3.1)"
+  ],
+  "related_objects": [
+    "OBJ-MEDIA-103 (Start Frame)",
+    "OBJ-MEDIA-102 (Product Commercial Video)"
+  ],
+  "tags": ["frame-preparation", "product-image", "start-frame", "veo-3.1"],
+  "version": "1.0",
+  "created": "2025-11-15",
+  "last_updated": "2025-11-15",
+  "source": "Video_012"
+}

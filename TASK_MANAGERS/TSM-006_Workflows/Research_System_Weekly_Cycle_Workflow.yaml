@@ -1,0 +1,687 @@
+﻿workflow_name: "Research System Weekly Cycle"
+workflow_type: "Sequential + Recurring"
+workflow_id: "WF-SEQ-RSH-001"
+department: "All (Cross-Departmental)"
+priority: "High"
+estimated_duration: "7-14 days per cycle (weekly recurring)"
+status: "Active"
+created: "2025-11-22"
+owner: "Research Manager"
+
+description: |
+  Complete research lifecycle from Phase 0 weekly analysis to LIBRARIES integration.
+  Cycles every Monday through Phase 0 analysis, driving continuous knowledge capture
+  and gap closure. System self-sustains through weekly rhythm.
+
+  Complete Cycle: Monday Phase 0 → Tuesday assignments → Following Tuesday submissions
+  → Wednesday-Friday review/integration → Next Monday Phase 0 (with data - CYCLING)
+
+  Time Investment: 6-7 hours/week (Research Manager) + 2-8 hours/week (2-4 employees)
+  ROI: Knowledge accessible to all 29 employees across 8 departments
+
+key_principle: |
+  Phase 0 analysis every Monday is the ENGINE that drives the entire system.
+  Without Monday Phase 0, system doesn't cycle. Protect this time.
+
+steps:
+  - step_number: 1
+    name: "Phase 0: Weekly Analysis (MONDAY - THE ENGINE)"
+    tool: "Phase_0_Analysis_Prompt.md + Phase_0_Template.md"
+    responsibility: "Research Manager"
+    placement: "REPORTS/Weekly_Analysis/"
+    duration: "1-1.5 hours"
+    frequency: "Every Monday 9:00-10:30 AM"
+    dependencies: []
+
+    sub_steps:
+      - sub_step: "1a"
+        name: "Data Gathering"
+        duration: "15 minutes"
+        actions:
+          - "Open RESEARCH_COMPLETION_TRACKER.md (last week's completions)"
+          - "Open EMPLOYEE_RESEARCH_HISTORY.md (quality scores)"
+          - "Open DEPARTMENT_GAP_ANALYSIS.md (gap inventory)"
+          - "Open ACTIVE_EMPLOYEES_LIST.md (availability)"
+          - "Review last week's research outcomes"
+        outputs:
+          - "Data collected for analysis"
+
+      - sub_step: "1b"
+        name: "Run 7-Section Analysis"
+        duration: "45 minutes"
+        actions:
+          - "Section 1: Last Week Review (completions, gaps closed, LIBRARIES growth)"
+          - "Section 2: Current Department Status (from daily reports if available)"
+          - "Section 3: Gap Identification (review top 5-7 gaps)"
+          - "Section 4: Priority Scoring (Urgency×3 + Impact×2 formula)"
+          - "Section 5: Assignment Recommendations (2-4 specific tasks)"
+          - "Section 6: Employee Availability Check (verify matches)"
+          - "Section 7: Weekly Goals (clear, achievable targets)"
+        outputs:
+          - "Priorities identified and scored"
+          - "2-4 assignment recommendations with employee matches"
+
+      - sub_step: "1c"
+        name: "Documentation & Planning"
+        duration: "30 minutes"
+        actions:
+          - "Create weekly analysis file: [Month]_[Year]_Week_[#]_Analysis.md"
+          - "Use Phase_0_Template.md structure"
+          - "Include week-over-week comparison (if data available from previous weeks)"
+          - "Archive previous week's analysis to ANALYSIS_HISTORY/ (if new month)"
+          - "Update WEEKLY_RESEARCH_PLAN.md with priorities"
+        outputs:
+          - "Weekly analysis file created"
+          - "WEEKLY_RESEARCH_PLAN updated"
+          - "Ready for Tuesday assignments"
+
+    inputs:
+      - "Last week's completion data (if available)"
+      - "DEPARTMENT_GAP_ANALYSIS.md (24 gaps across 8 departments)"
+      - "ACTIVE_EMPLOYEES_LIST.md (16 Available, 13 Work status)"
+      - "Daily department reports (optional)"
+
+    outputs:
+      - "Weekly analysis file ([Month]_[Year]_Week_[#]_Analysis.md)"
+      - "2-4 priority gaps identified"
+      - "2-4 assignment recommendations with employee matches"
+      - "Weekly goals set"
+      - "WEEKLY_RESEARCH_PLAN.md updated"
+
+    success_criteria: |
+      - All 7 analysis sections complete
+      - Priority scoring objective (formula-based)
+      - Employees verified available
+      - Goals realistic and measurable
+      - Completed within 1.5 hours
+
+    files_created:
+      - "REPORTS/Weekly_Analysis/[Month]_[Year]_Week_[#]_Analysis.md"
+
+    files_updated:
+      - "LOGS/WEEKLY_RESEARCH_PLAN.md"
+
+  - step_number: 2
+    name: "Assignment Creation & Notification (TUESDAY)"
+    tool: "RESEARCH_ASSIGNMENT_LOG.md + employee communication"
+    responsibility: "Research Manager"
+    placement: "LOGS/ + Discord/Email"
+    duration: "1 hour"
+    frequency: "Tuesday after Phase 0"
+    dependencies: ["Step 1 - Phase 0 complete"]
+
+    sub_steps:
+      - sub_step: "2a"
+        name: "Create Assignment Entries"
+        duration: "30 minutes"
+        actions:
+          - "Review Monday's Phase 0 recommendations (top 2-4 priorities)"
+          - "Create assignment entries in RESEARCH_ASSIGNMENT_LOG.md"
+          - "Assign IDs: RSH-{VIDEO#}-{PHASE#} format (e.g., RSH-006-05)"
+          - "Match employees from Phase 0 recommendations"
+          - "Set deadlines (typically 5-7 days = following Tuesday)"
+          - "Update WEEKLY_RESEARCH_PLAN.md status to 'Assignments Made'"
+        outputs:
+          - "2-4 assignment entries created with IDs, employees, deadlines"
+
+      - sub_step: "2b"
+        name: "Notify Employees"
+        duration: "30 minutes"
+        actions:
+          - "Prepare notification for each employee"
+          - "Include: Task description, deadline, resources, estimated time, deliverables"
+          - "Provide: Video transcription link, PMT-009 prompt, Video_002 example, LIBRARIES access"
+          - "Send via Discord/Email/preferred channel"
+          - "Note notification sent in RESEARCH_ASSIGNMENT_LOG.md"
+          - "Set reminders for Thursday check-in"
+        outputs:
+          - "Employees notified with all resources"
+          - "Reminders set for follow-up"
+
+    inputs:
+      - "Phase 0 assignment recommendations"
+      - "Employee contact information (from ACTIVE_EMPLOYEES_LIST)"
+      - "Research resources (transcriptions, prompts, examples)"
+
+    outputs:
+      - "2-4 research assignments created (RSH-XXX-XX format)"
+      - "Employees notified and confirmed understanding"
+      - "Resources provided to employees"
+      - "RESEARCH_ASSIGNMENT_LOG.md updated with assignments"
+      - "WEEKLY_RESEARCH_PLAN.md updated"
+
+    success_criteria: |
+      - All assignments created with complete information
+      - Employees confirm receipt and understanding
+      - Resources accessible to employees
+      - Deadlines realistic (5-7 days)
+      - Tracking logs updated
+
+    files_updated:
+      - "LOGS/RESEARCH_ASSIGNMENT_LOG.md"
+      - "LOGS/WEEKLY_RESEARCH_PLAN.md"
+
+    notification_template: |
+      Hi [Employee Name],
+
+      You've been assigned research task RSH-[XXX]-05 based on your [profession] expertise!
+
+      **Task:** [Description]
+      **Estimated Time:** [X] hours
+      **Deadline:** [Day], [Date] ([# days])
+
+      **Deliverables:**
+      1. Gap Analysis document
+      2. Library Mapping Report
+
+      **Resources:**
+      - Video transcription: [Link]
+      - Research prompt (PMT-009): [Link]
+      - Example (Video_002): [Link]
+      - LIBRARIES access: [Link]
+
+      Questions? Let me know! I'm here to help.
+
+      Thanks!
+      [Research Manager]
+
+  - step_number: 3
+    name: "Mid-Week Support Check-In (THURSDAY)"
+    tool: "Discord/Email + RESEARCH_ASSIGNMENT_LOG.md"
+    responsibility: "Research Manager"
+    placement: "LOGS/"
+    duration: "30 minutes"
+    frequency: "Thursday mid-week"
+    dependencies: ["Step 2 - Assignments made"]
+
+    actions:
+      - "Review status of all active assignments"
+      - "Identify tasks approaching deadline (next 2-3 days)"
+      - "Send check-in messages: 'How's RSH-006-05 going? Need any help?'"
+      - "Answer employee questions"
+      - "Update RESEARCH_ASSIGNMENT_LOG.md with progress notes"
+      - "Flag any at-risk tasks for Friday review planning"
+
+    inputs:
+      - "Active assignments from RESEARCH_ASSIGNMENT_LOG.md"
+      - "Employee responses to check-ins"
+
+    outputs:
+      - "Status updates on active research"
+      - "Support provided to employees"
+      - "At-risk tasks identified"
+      - "RESEARCH_ASSIGNMENT_LOG.md updated with notes"
+
+    success_criteria: |
+      - All active researchers contacted
+      - Questions answered within 24 hours
+      - No blockers preventing completion
+      - Realistic expectations set
+
+    files_updated:
+      - "LOGS/RESEARCH_ASSIGNMENT_LOG.md (progress notes)"
+
+  - step_number: 4
+    name: "Employee Research Execution (TUESDAY-MONDAY)"
+    tool: "Video transcriptions + PMT-009 + LIBRARIES"
+    responsibility: "Assigned Employee"
+    placement: "RESEARCHES/03_ANALYSIS/"
+    duration: "1-3 hours (varies by task complexity)"
+    frequency: "Within 5-7 days of assignment"
+    dependencies: ["Step 2 - Assignment received"]
+
+    employee_activities:
+      - activity: "Research Phase"
+        duration: "0.5-1 hour"
+        actions:
+          - "Review source material (video transcription, document)"
+          - "Take notes on tools, workflows, techniques mentioned"
+          - "Cross-check with LIBRARIES for duplicates"
+          - "Identify gaps (what's new vs. what already exists)"
+
+      - activity: "Documentation Phase"
+        duration: "0.5-1.5 hours"
+        actions:
+          - "Create Gap Analysis document"
+          - "Create Library Mapping Report"
+          - "List tools with descriptions and use cases"
+          - "Document workflows with numbered steps"
+          - "Add recommendations for LIBRARIES integration"
+
+      - activity: "Review & Submit"
+        duration: "0.5 hour"
+        actions:
+          - "Review for completeness (all sections filled)"
+          - "Check formatting (markdown, proper headers)"
+          - "Verify cross-references (video source noted)"
+          - "Submit to Research Manager by deadline"
+
+    inputs:
+      - "Video transcription or source document"
+      - "PMT-009: Video Research Prompt (guidance)"
+      - "Video_002 example (reference)"
+      - "LIBRARIES access (to check for duplicates)"
+
+    outputs:
+      - "Gap Analysis document (RESEARCHES/03_ANALYSIS/Gap_Analysis/Video_XXX_Gap_Analysis.md)"
+      - "Library Mapping Report (RESEARCHES/03_ANALYSIS/Library_Mapping/Video_XXX_Library_Mapping_Report.md)"
+
+    success_criteria: |
+      - Both deliverables submitted by deadline
+      - All sections of templates filled
+      - Tools and workflows clearly identified
+      - Duplicates checked against LIBRARIES
+      - Recommendations actionable
+
+  - step_number: 5
+    name: "Quality Review & Scoring (WEDNESDAY-FRIDAY)"
+    tool: "QUALITY_REVIEW_PROCESS.md"
+    responsibility: "Research Manager"
+    placement: "LOGS/"
+    duration: "30-45 minutes per submission"
+    frequency: "Within 48 hours of submission"
+    dependencies: ["Step 4 - Research submitted"]
+
+    sub_steps:
+      - sub_step: "5a"
+        name: "Initial Review"
+        duration: "5 minutes"
+        actions:
+          - "Acknowledge receipt: 'Thanks for submitting! I'll review within 48 hours.'"
+          - "Verify deliverables present (Gap Analysis + Library Mapping)"
+          - "Check files in correct location and properly named"
+
+      - sub_step: "5b"
+        name: "Score Completeness"
+        duration: "10 minutes"
+        scoring:
+          - criteria: "Gap Analysis complete"
+            points: 20
+          - criteria: "Library Mapping Report complete"
+            points: 20
+          - total: "40 points"
+
+      - sub_step: "5c"
+        name: "Score Accuracy"
+        duration: "10 minutes"
+        scoring:
+          - criteria: "Tool/workflow verification (spot-check 3-5 items)"
+            points: 15
+          - criteria: "Cross-reference accuracy (duplicates avoided)"
+            points: 15
+          - total: "30 points"
+
+      - sub_step: "5d"
+        name: "Score Quality"
+        duration: "10 minutes"
+        scoring:
+          - criteria: "Organization & clarity (structure, readability)"
+            points: 10
+          - criteria: "Depth & insight (analysis, not just listing)"
+            points: 10
+          - total: "20 points"
+
+      - sub_step: "5e"
+        name: "Score Actionability"
+        duration: "5 minutes"
+        scoring:
+          - criteria: "Integration readiness (can copy to LIBRARIES easily)"
+            points: 10
+          - total: "10 points"
+
+      - sub_step: "5f"
+        name: "Calculate Final Score & Decision"
+        duration: "2 minutes"
+        calculation: "Total Points / 10 = Quality Score (0-10 scale)"
+        decision_matrix:
+          - score_range: "9-10"
+            quality_level: "Exceptional"
+            action: "Approve + Recognize"
+          - score_range: "7-8"
+            quality_level: "High Quality"
+            action: "Approve"
+          - score_range: "5-6"
+            quality_level: "Acceptable"
+            action: "Approve + Suggestions"
+          - score_range: "3-4"
+            quality_level: "Needs Improvement"
+            action: "Request Revisions"
+          - score_range: "0-2"
+            quality_level: "Incomplete"
+            action: "Reject + Reassign"
+        acceptance_threshold: "5.0+ (50+ points)"
+
+      - sub_step: "5g"
+        name: "Provide Feedback"
+        duration: "5-10 minutes"
+        actions:
+          - "Write feedback highlighting strengths and improvements"
+          - "Send to employee with quality score"
+          - "If revision needed: Specify what to fix and new deadline"
+          - "If approved: Proceed to LIBRARIES integration"
+
+    inputs:
+      - "Gap Analysis document from employee"
+      - "Library Mapping Report from employee"
+      - "QUALITY_REVIEW_PROCESS.md (scoring rubric)"
+
+    outputs:
+      - "Quality score (0-10 scale)"
+      - "Approval/revision/rejection decision"
+      - "Feedback provided to employee"
+      - "RESEARCH_ASSIGNMENT_LOG.md status updated (Review → Completed or Needs Revision)"
+      - "EMPLOYEE_RESEARCH_HISTORY.md updated with score"
+
+    success_criteria: |
+      - Review completed within 48 hours of submission
+      - Score objective (rubric-based, not subjective)
+      - Feedback specific and actionable
+      - Decision fair and consistent
+
+    files_updated:
+      - "LOGS/RESEARCH_ASSIGNMENT_LOG.md (status update)"
+      - "LOGS/EMPLOYEE_RESEARCH_HISTORY.md (quality score added)"
+
+  - step_number: 6
+    name: "LIBRARIES Integration (FRIDAY)"
+    tool: "LIBRARIES_UPDATE_PROCESS.md"
+    responsibility: "Research Manager / Librarian"
+    placement: "LIBRARIES/"
+    duration: "30-60 minutes per submission"
+    frequency: "Within 7 days of approval (ideally same day)"
+    dependencies: ["Step 5 - Research approved (score 5.0+)"]
+
+    sub_steps:
+      - sub_step: "6a"
+        name: "Pre-Integration Review"
+        duration: "5 minutes"
+        actions:
+          - "Verify quality review complete (score 5.0+)"
+          - "Open Gap Analysis + Library Mapping Report"
+          - "Count tools and workflows to integrate"
+
+      - sub_step: "6b"
+        name: "Integrate Tools"
+        duration: "15-30 minutes"
+        actions:
+          - "For each tool: Check LIBRARIES/Tools/[Dept]_Tools/ for duplicates"
+          - "If new: Create [ToolName].md entry with description, use cases, features"
+          - "Include cross-reference: 'Discovered In: RSH-006-05 (Employee Name, Date)'"
+          - "Time: 3-5 minutes per tool"
+        outputs:
+          - "[#] new tools added to LIBRARIES/Tools/"
+
+      - sub_step: "6c"
+        name: "Integrate Workflows"
+        duration: "15-30 minutes"
+        actions:
+          - "For each workflow: Check LIBRARIES/Workflows/[Dept]_Workflows/ for duplicates"
+          - "If new: Create [Workflow_Purpose].md entry with steps, prerequisites, examples"
+          - "Include cross-reference: 'Discovered In: RSH-006-05 (Employee Name, Date)'"
+          - "Time: 5-10 minutes per workflow"
+        outputs:
+          - "[#] new workflows added to LIBRARIES/Workflows/"
+
+      - sub_step: "6d"
+        name: "Update Gap Analysis Status"
+        duration: "5 minutes"
+        actions:
+          - "Open DEPARTMENT_GAP_ANALYSIS.md"
+          - "Find relevant gap (e.g., LGN-GAP-001)"
+          - "Update status: Open → Partially Closed or Fully Closed"
+          - "Note research ID, tools/workflows added, remaining gaps (if partial)"
+        outputs:
+          - "Gap status updated in DEPARTMENT_GAP_ANALYSIS.md"
+
+      - sub_step: "6e"
+        name: "Verification & Logging"
+        duration: "5-10 minutes"
+        actions:
+          - "Verify all cross-references present (research ID in every entry)"
+          - "Confirm no duplicates created"
+          - "Check proper formatting and file naming"
+          - "Update RESEARCH_COMPLETION_TRACKER.md with integration data"
+        outputs:
+          - "Integration logged and verified"
+
+    inputs:
+      - "Gap Analysis + Library Mapping Report (approved)"
+      - "LIBRARIES folder structure"
+      - "DEPARTMENT_GAP_ANALYSIS.md (gap inventory)"
+
+    outputs:
+      - "[#] tools added to LIBRARIES/Tools/[Department]_Tools/"
+      - "[#] workflows added to LIBRARIES/Workflows/[Department]_Workflows/"
+      - "Gap status updated (Partially/Fully Closed)"
+      - "All entries cross-referenced to research ID"
+      - "RESEARCH_COMPLETION_TRACKER.md updated"
+      - "DEPARTMENT_GAP_ANALYSIS.md updated"
+
+    success_criteria: |
+      - All new items integrated (no findings lost)
+      - No duplicates created (<10% duplicate rate acceptable)
+      - Cross-references complete (100%)
+      - Gap status accurately reflects closure
+      - Integration completed within 7 days
+
+    files_created:
+      - "LIBRARIES/Tools/[Dept]_Tools/[ToolName].md (multiple)"
+      - "LIBRARIES/Workflows/[Dept]_Workflows/[Workflow_Purpose].md (multiple)"
+
+    files_updated:
+      - "LOGS/DEPARTMENT_GAP_ANALYSIS.md (gap status)"
+      - "LOGS/RESEARCH_COMPLETION_TRACKER.md (progress)"
+
+  - step_number: 7
+    name: "Completion & Recognition (FRIDAY)"
+    tool: "Discord/Email + tracking files"
+    responsibility: "Research Manager"
+    placement: "LOGS/ + employee communication"
+    duration: "15 minutes"
+    frequency: "After integration complete"
+    dependencies: ["Step 6 - LIBRARIES integration complete"]
+
+    sub_steps:
+      - sub_step: "7a"
+        name: "Thank Employee"
+        duration: "5 minutes"
+        actions:
+          - "Send thank-you message with quality score"
+          - "Highlight specific contributions (tools/workflows added)"
+          - "Note impact (gap closure %, employees benefiting)"
+          - "Confirm findings live in LIBRARIES"
+        template: |
+          Great work on RSH-006-05! Quality Score: [X.X]/10
+
+          Your research identified:
+          - [#] new tools for LIBRARIES
+          - [#] new workflows
+
+          Impact:
+          - Gap LGN-GAP-001 now [80%] closed
+          - [18] Lead Gen employees now have access to these resources
+
+          Your findings are live in LIBRARIES now!
+
+          Thank you! 🎉
+
+      - sub_step: "7b"
+        name: "Update All Tracking"
+        duration: "10 minutes"
+        actions:
+          - "RESEARCH_ASSIGNMENT_LOG.md: Move to Completed Assignments archive"
+          - "EMPLOYEE_RESEARCH_HISTORY.md: Add completion row, update avg score"
+          - "RESEARCH_COMPLETION_TRACKER.md: Increment counts, update percentages"
+          - "WEEKLY_RESEARCH_PLAN.md: Mark task complete, note outcome"
+          - "Department Research Log: Record in department-specific log (if applicable)"
+
+    inputs:
+      - "Completed research with quality score"
+      - "Integration results (tools/workflows added, gap closure)"
+
+    outputs:
+      - "Employee recognized and thanked"
+      - "All tracking files updated"
+      - "Research archived"
+      - "System ready for next cycle"
+
+    success_criteria: |
+      - Employee receives recognition within 24 hours
+      - All tracking logs updated accurately
+      - Completion properly archived
+      - Data available for next Monday's Phase 0
+
+    files_updated:
+      - "LOGS/RESEARCH_ASSIGNMENT_LOG.md (archived)"
+      - "LOGS/EMPLOYEE_RESEARCH_HISTORY.md (completion added)"
+      - "LOGS/RESEARCH_COMPLETION_TRACKER.md (progress updated)"
+      - "LOGS/WEEKLY_RESEARCH_PLAN.md (task marked complete)"
+
+  - step_number: 8
+    name: "CYCLING - Next Monday Phase 0 (WITH DATA)"
+    tool: "Phase_0_Analysis_Prompt.md + Phase_0_Template.md"
+    responsibility: "Research Manager"
+    placement: "REPORTS/Weekly_Analysis/"
+    duration: "1-1.5 hours"
+    frequency: "Next Monday 9:00-10:30 AM"
+    dependencies: ["Step 7 - Previous cycle complete"]
+
+    significance: |
+      THIS IS THE PROOF THAT THE SYSTEM CYCLES!
+
+      The second Phase 0 analysis runs with REAL DATA:
+      - Last week's completions (2 research tasks)
+      - Quality scores (avg 7.5/10)
+      - LIBRARIES growth (11 tools, 5 workflows added)
+      - Gaps closed (2 partially closed)
+      - Week-over-week comparison shows progress
+
+      This validates the system cycles weekly and self-sustains.
+
+    actions:
+      - "Run Phase 0 analysis AGAIN (same process as Step 1)"
+      - "Section 1: Last Week Review - NOW HAS DATA (completions, scores, LIBRARIES growth)"
+      - "Section 2-7: Same as first Phase 0, but informed by previous results"
+      - "Include Week-over-Week Comparison table showing progress"
+      - "Identify NEW priorities based on what's been accomplished"
+      - "Make NEW assignments for this week"
+      - "Archive previous week's analysis to ANALYSIS_HISTORY/[YEAR]_[MONTH]/"
+
+    inputs:
+      - "Last week's completion data (Step 7 outputs)"
+      - "Updated DEPARTMENT_GAP_ANALYSIS.md (with closures)"
+      - "Updated RESEARCH_COMPLETION_TRACKER.md (progress)"
+      - "Previous week's analysis file (for comparison)"
+
+    outputs:
+      - "Second weekly analysis file with week-over-week comparison"
+      - "New 2-4 assignment recommendations"
+      - "Evidence of cycling: Progress visible week-over-week"
+      - "CYCLING PROVEN ✅"
+
+    success_criteria: |
+      - Phase 0 runs successfully second time
+      - Week-over-week comparison shows measurable progress
+      - New priorities identified based on gaps closed
+      - System demonstrated to cycle weekly
+      - Confidence to scale (can repeat this every Monday)
+
+    files_created:
+      - "REPORTS/Weekly_Analysis/[Month]_[Year]_Week_[#]_Analysis.md (week 2)"
+
+    files_archived:
+      - "ANALYSIS_HISTORY/[YEAR]_[MONTH]/Week_[#]_Analysis.md (previous week)"
+
+    cycle_proof: |
+      The cycle repeats weekly from this point:
+      - Monday: Phase 0 → Tuesday: Assignments → Following Tuesday: Submissions
+      - Wednesday-Friday: Review/Integration → Next Monday: Phase 0 (with more data)
+      - Each cycle builds on previous, gaps close progressively, LIBRARIES grows
+      - System self-sustains through Research Manager's Monday Phase 0 commitment
+
+weekly_time_investment:
+  research_manager:
+    monday: "1.5 hours (Phase 0)"
+    tuesday: "1 hour (Assignments)"
+    thursday: "0.5 hours (Check-ins)"
+    friday: "4 hours (Review 2 + Integrate 2 + Recognition)"
+    total: "7 hours/week"
+
+  employees:
+    individual: "1-2 hours/week (if assigned)"
+    total_system: "2-8 hours/week (2-4 employees)"
+
+  total_system_investment: "9-15 hours/week"
+  roi: "Knowledge accessible to all 29 employees across 8 departments"
+
+success_metrics:
+  system_working_well:
+    - "Phase 0 runs every Monday without fail"
+    - "2-4 assignments made each week"
+    - "80%+ completion rate on assignments"
+    - "Average quality score 7.0+"
+    - "LIBRARIES growing (5-15 items/week)"
+    - "Gaps closing (1-2 per week)"
+    - "Week-over-week comparison shows progress"
+    - "Manager time sustainable (6-7 hours/week)"
+    - "System feels like rhythm, not burden"
+
+  system_needs_attention:
+    - "Phase 0 frequently skipped or delayed"
+    - "Less than 2 assignments made per week"
+    - "Completion rate below 60%"
+    - "Average quality score below 6.0"
+    - "LIBRARIES not growing"
+    - "Gaps not closing"
+    - "Manager time exceeds 10 hours/week"
+    - "System feels overwhelming"
+
+key_files_by_phase:
+  phase_0_monday:
+    - "REPORTS/Weekly_Analysis/Phase_0_Analysis_Prompt.md (guide)"
+    - "REPORTS/Weekly_Analysis/Phase_0_Template.md (template)"
+    - "LOGS/WEEKLY_RESEARCH_PLAN.md (update)"
+
+  phase_1_tuesday:
+    - "LOGS/RESEARCH_ASSIGNMENT_LOG.md (assignments)"
+    - "LOGS/ACTIVE_EMPLOYEES_LIST.md (availability)"
+
+  phase_2_thursday:
+    - "LOGS/RESEARCH_ASSIGNMENT_LOG.md (status updates)"
+
+  phase_3_friday:
+    - "LOGS/QUALITY_REVIEW_PROCESS.md (review guide)"
+    - "LOGS/LIBRARIES_UPDATE_PROCESS.md (integration guide)"
+    - "LOGS/EMPLOYEE_RESEARCH_HISTORY.md (scores)"
+    - "LOGS/RESEARCH_COMPLETION_TRACKER.md (progress)"
+    - "LOGS/DEPARTMENT_GAP_ANALYSIS.md (gap status)"
+
+automation_opportunities:
+  month_1_3: "Manual integration (learn patterns)"
+  month_4_6: "Template automation (notification/review templates)"
+  month_7_plus: "Full automation (scripts, dashboards, auto-integration)"
+
+notes: |
+  - This workflow creates a self-sustaining research system
+  - The engine is Phase 0 - run it every Monday and the system thrives
+  - System cycles weekly through Monday Phase 0 analysis
+  - Knowledge continuously flows into LIBRARIES
+  - Gaps close progressively over weeks/months
+  - Employees contribute 1-2 hours/week (very manageable)
+  - Research Manager invests 6-7 hours/week (sustainable)
+  - ROI: Company-wide knowledge accessible to all 29 employees
+
+related_workflows:
+  - "Video_Processing_Pipeline (feeds research with transcriptions)"
+  - "LIBRARIES_Management (receives research outputs)"
+  - "Department_Gap_Analysis (drives research priorities)"
+
+tags:
+  - "research"
+  - "knowledge_management"
+  - "weekly_cycle"
+  - "phase_0_analysis"
+  - "gap_closure"
+  - "libraries_integration"
+  - "continuous_improvement"
+  - "cross_departmental"

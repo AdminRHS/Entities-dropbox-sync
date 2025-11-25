@@ -1,0 +1,1532 @@
+[
+  {
+    "action": "enrich",
+    "object": "company employees",
+    "context": "via Airscale database lookup",
+    "department": "LG",
+    "task_id": "TEMPLATE-TASK-015",
+    "task_name": "Enrich Company Employees via Airscale",
+    "source_file": "C:\\Users\\Dell\\Dropbox\\Entities\\TASK_MANAGERS\\Task_Templates\\Airscale_Employee_Enrichment.json",
+    "level": "task"
+  },
+  {
+    "action": "prepare",
+    "object": "prepare target company list",
+    "context": "",
+    "department": "LG",
+    "task_id": "TEMPLATE-TASK-015",
+    "step_number": 1,
+    "source_file": "C:\\Users\\Dell\\Dropbox\\Entities\\TASK_MANAGERS\\Task_Templates\\Airscale_Employee_Enrichment.json",
+    "level": "step"
+  },
+  {
+    "action": "search",
+    "object": "search companies in airscale database",
+    "context": "",
+    "department": "LG",
+    "task_id": "TEMPLATE-TASK-015",
+    "step_number": 2,
+    "source_file": "C:\\Users\\Dell\\Dropbox\\Entities\\TASK_MANAGERS\\Task_Templates\\Airscale_Employee_Enrichment.json",
+    "level": "step"
+  },
+  {
+    "action": "review",
+    "object": "review employee count and preview data",
+    "context": "",
+    "department": "LG",
+    "task_id": "TEMPLATE-TASK-015",
+    "step_number": 3,
+    "source_file": "C:\\Users\\Dell\\Dropbox\\Entities\\TASK_MANAGERS\\Task_Templates\\Airscale_Employee_Enrichment.json",
+    "level": "step"
+  },
+  {
+    "action": "unlock",
+    "object": "unlock employee list with airscale credit",
+    "context": "",
+    "department": "LG",
+    "task_id": "TEMPLATE-TASK-015",
+    "step_number": 4,
+    "source_file": "C:\\Users\\Dell\\Dropbox\\Entities\\TASK_MANAGERS\\Task_Templates\\Airscale_Employee_Enrichment.json",
+    "level": "step"
+  },
+  {
+    "action": "export",
+    "object": "export employee data from airscale",
+    "context": "",
+    "department": "LG",
+    "task_id": "TEMPLATE-TASK-015",
+    "step_number": 5,
+    "source_file": "C:\\Users\\Dell\\Dropbox\\Entities\\TASK_MANAGERS\\Task_Templates\\Airscale_Employee_Enrichment.json",
+    "level": "step"
+  },
+  {
+    "action": "upload",
+    "object": "upload employees to anymailfinder for enrichment",
+    "context": "",
+    "department": "LG",
+    "task_id": "TEMPLATE-TASK-015",
+    "step_number": 6,
+    "source_file": "C:\\Users\\Dell\\Dropbox\\Entities\\TASK_MANAGERS\\Task_Templates\\Airscale_Employee_Enrichment.json",
+    "level": "step"
+  },
+  {
+    "action": "enrich",
+    "object": "run nominative email enrichment",
+    "context": "",
+    "department": "LG",
+    "task_id": "TEMPLATE-TASK-015",
+    "step_number": 7,
+    "source_file": "C:\\Users\\Dell\\Dropbox\\Entities\\TASK_MANAGERS\\Task_Templates\\Airscale_Employee_Enrichment.json",
+    "level": "step"
+  },
+  {
+    "action": "export",
+    "object": "export final enriched contact list",
+    "context": "",
+    "department": "LG",
+    "task_id": "TEMPLATE-TASK-015",
+    "step_number": 8,
+    "source_file": "C:\\Users\\Dell\\Dropbox\\Entities\\TASK_MANAGERS\\Task_Templates\\Airscale_Employee_Enrichment.json",
+    "level": "step"
+  },
+  {
+    "action": "parse",
+    "object": "html data",
+    "context": "via OpenAI + n8n pipeline",
+    "department": "Dev",
+    "task_id": "TEMPLATE-TASK-014",
+    "task_name": "Parse HTML Data via AI",
+    "source_file": "C:\\Users\\Dell\\Dropbox\\Entities\\TASK_MANAGERS\\Task_Templates\\AI_Powered_HTML_Parsing.json",
+    "level": "task"
+  },
+  {
+    "action": "identify",
+    "object": "identify target website with unstructured data",
+    "context": "",
+    "department": "Dev",
+    "task_id": "TEMPLATE-TASK-014",
+    "step_number": 1,
+    "source_file": "C:\\Users\\Dell\\Dropbox\\Entities\\TASK_MANAGERS\\Task_Templates\\AI_Powered_HTML_Parsing.json",
+    "level": "step"
+  },
+  {
+    "action": "scrape",
+    "object": "scrape website html via apify (optional)",
+    "context": "",
+    "department": "Dev",
+    "task_id": "TEMPLATE-TASK-014",
+    "step_number": 2,
+    "source_file": "C:\\Users\\Dell\\Dropbox\\Entities\\TASK_MANAGERS\\Task_Templates\\AI_Powered_HTML_Parsing.json",
+    "level": "step"
+  },
+  {
+    "action": "design",
+    "object": "design n8n workflow for ai parsing",
+    "context": "",
+    "department": "Dev",
+    "task_id": "TEMPLATE-TASK-014",
+    "step_number": 3,
+    "source_file": "C:\\Users\\Dell\\Dropbox\\Entities\\TASK_MANAGERS\\Task_Templates\\AI_Powered_HTML_Parsing.json",
+    "level": "step"
+  },
+  {
+    "action": "build",
+    "object": "build html input node in n8n",
+    "context": "",
+    "department": "Dev",
+    "task_id": "TEMPLATE-TASK-014",
+    "step_number": 4,
+    "source_file": "C:\\Users\\Dell\\Dropbox\\Entities\\TASK_MANAGERS\\Task_Templates\\AI_Powered_HTML_Parsing.json",
+    "level": "step"
+  },
+  {
+    "action": "configure",
+    "object": "configure openai parsing node",
+    "context": "",
+    "department": "Dev",
+    "task_id": "TEMPLATE-TASK-014",
+    "step_number": 5,
+    "source_file": "C:\\Users\\Dell\\Dropbox\\Entities\\TASK_MANAGERS\\Task_Templates\\AI_Powered_HTML_Parsing.json",
+    "level": "step"
+  },
+  {
+    "action": "test",
+    "object": "test ai parsing on sample html",
+    "context": "",
+    "department": "Dev",
+    "task_id": "TEMPLATE-TASK-014",
+    "step_number": 6,
+    "source_file": "C:\\Users\\Dell\\Dropbox\\Entities\\TASK_MANAGERS\\Task_Templates\\AI_Powered_HTML_Parsing.json",
+    "level": "step"
+  },
+  {
+    "action": "build",
+    "object": "build data cleaning and structuring logic",
+    "context": "",
+    "department": "Dev",
+    "task_id": "TEMPLATE-TASK-014",
+    "step_number": 7,
+    "source_file": "C:\\Users\\Dell\\Dropbox\\Entities\\TASK_MANAGERS\\Task_Templates\\AI_Powered_HTML_Parsing.json",
+    "level": "step"
+  },
+  {
+    "action": "execute",
+    "object": "run full html parsing pipeline",
+    "context": "",
+    "department": "Dev",
+    "task_id": "TEMPLATE-TASK-014",
+    "step_number": 8,
+    "source_file": "C:\\Users\\Dell\\Dropbox\\Entities\\TASK_MANAGERS\\Task_Templates\\AI_Powered_HTML_Parsing.json",
+    "level": "step"
+  },
+  {
+    "action": "export",
+    "object": "export and validate results",
+    "context": "",
+    "department": "Dev",
+    "task_id": "TEMPLATE-TASK-014",
+    "step_number": 9,
+    "source_file": "C:\\Users\\Dell\\Dropbox\\Entities\\TASK_MANAGERS\\Task_Templates\\AI_Powered_HTML_Parsing.json",
+    "level": "step"
+  },
+  {
+    "action": "enrich",
+    "object": "lead list",
+    "context": "via Anymailfinder nominative enrichment",
+    "department": "LG",
+    "task_id": "TEMPLATE-TASK-003",
+    "task_name": "Enrich Lead List via Anymailfinder",
+    "source_file": "C:\\Users\\Dell\\Dropbox\\Entities\\TASK_MANAGERS\\Task_Templates\\Anymailfinder_Nominative_Enrichment.json",
+    "level": "task"
+  },
+  {
+    "action": "prepare",
+    "object": "prepare company domain list",
+    "context": "",
+    "department": "LG",
+    "task_id": "TEMPLATE-TASK-003",
+    "step_number": 1,
+    "source_file": "C:\\Users\\Dell\\Dropbox\\Entities\\TASK_MANAGERS\\Task_Templates\\Anymailfinder_Nominative_Enrichment.json",
+    "level": "step"
+  },
+  {
+    "action": "upload",
+    "object": "upload domain list to anymailfinder",
+    "context": "",
+    "department": "LG",
+    "task_id": "TEMPLATE-TASK-003",
+    "step_number": 2,
+    "source_file": "C:\\Users\\Dell\\Dropbox\\Entities\\TASK_MANAGERS\\Task_Templates\\Anymailfinder_Nominative_Enrichment.json",
+    "level": "step"
+  },
+  {
+    "action": "configure",
+    "object": "configure nominative enrichment pattern",
+    "context": "",
+    "department": "LG",
+    "task_id": "TEMPLATE-TASK-003",
+    "step_number": 3,
+    "source_file": "C:\\Users\\Dell\\Dropbox\\Entities\\TASK_MANAGERS\\Task_Templates\\Anymailfinder_Nominative_Enrichment.json",
+    "level": "step"
+  },
+  {
+    "action": "execute",
+    "object": "run nominative enrichment",
+    "context": "",
+    "department": "LG",
+    "task_id": "TEMPLATE-TASK-003",
+    "step_number": 4,
+    "source_file": "C:\\Users\\Dell\\Dropbox\\Entities\\TASK_MANAGERS\\Task_Templates\\Anymailfinder_Nominative_Enrichment.json",
+    "level": "step"
+  },
+  {
+    "action": "export",
+    "object": "export enriched results",
+    "context": "",
+    "department": "LG",
+    "task_id": "TEMPLATE-TASK-003",
+    "step_number": 5,
+    "source_file": "C:\\Users\\Dell\\Dropbox\\Entities\\TASK_MANAGERS\\Task_Templates\\Anymailfinder_Nominative_Enrichment.json",
+    "level": "step"
+  },
+  {
+    "action": "log",
+    "object": "log results and success rate",
+    "context": "",
+    "department": "LG",
+    "task_id": "TEMPLATE-TASK-003",
+    "step_number": 6,
+    "source_file": "C:\\Users\\Dell\\Dropbox\\Entities\\TASK_MANAGERS\\Task_Templates\\Anymailfinder_Nominative_Enrichment.json",
+    "level": "step"
+  },
+  {
+    "action": "automate",
+    "object": "email drafts",
+    "context": "via Gmail MCP connector",
+    "department": "AI",
+    "task_id": "TEMPLATE-TASK-007",
+    "task_name": "Automate Morning Email Drafts",
+    "source_file": "C:\\Users\\Dell\\Dropbox\\Entities\\TASK_MANAGERS\\Task_Templates\\Automate_Morning_Email_Drafting.json",
+    "level": "task"
+  },
+  {
+    "action": "open",
+    "object": "open claude desktop app each morning",
+    "context": "",
+    "department": "AI",
+    "task_id": "TEMPLATE-TASK-007",
+    "step_number": 1,
+    "source_file": "C:\\Users\\Dell\\Dropbox\\Entities\\TASK_MANAGERS\\Task_Templates\\Automate_Morning_Email_Drafting.json",
+    "level": "step"
+  },
+  {
+    "action": "prompt",
+    "object": "prompt claude to check unread emails",
+    "context": "",
+    "department": "AI",
+    "task_id": "TEMPLATE-TASK-007",
+    "step_number": 2,
+    "source_file": "C:\\Users\\Dell\\Dropbox\\Entities\\TASK_MANAGERS\\Task_Templates\\Automate_Morning_Email_Drafting.json",
+    "level": "step"
+  },
+  {
+    "action": "read",
+    "object": "read unread emails via gmail connector",
+    "context": "",
+    "department": "AI",
+    "task_id": "TEMPLATE-TASK-007",
+    "step_number": 3,
+    "source_file": "C:\\Users\\Dell\\Dropbox\\Entities\\TASK_MANAGERS\\Task_Templates\\Automate_Morning_Email_Drafting.json",
+    "level": "step"
+  },
+  {
+    "action": "analyze",
+    "object": "analyze context and sender relationship",
+    "context": "",
+    "department": "AI",
+    "task_id": "TEMPLATE-TASK-007",
+    "step_number": 4,
+    "source_file": "C:\\Users\\Dell\\Dropbox\\Entities\\TASK_MANAGERS\\Task_Templates\\Automate_Morning_Email_Drafting.json",
+    "level": "step"
+  },
+  {
+    "action": "generate",
+    "object": "draft appropriate responses",
+    "context": "",
+    "department": "AI",
+    "task_id": "TEMPLATE-TASK-007",
+    "step_number": 5,
+    "source_file": "C:\\Users\\Dell\\Dropbox\\Entities\\TASK_MANAGERS\\Task_Templates\\Automate_Morning_Email_Drafting.json",
+    "level": "step"
+  },
+  {
+    "action": "review",
+    "object": "review drafts in gmail",
+    "context": "",
+    "department": "AI",
+    "task_id": "TEMPLATE-TASK-007",
+    "step_number": 6,
+    "source_file": "C:\\Users\\Dell\\Dropbox\\Entities\\TASK_MANAGERS\\Task_Templates\\Automate_Morning_Email_Drafting.json",
+    "level": "step"
+  },
+  {
+    "action": "send",
+    "object": "send approved drafts",
+    "context": "",
+    "department": "AI",
+    "task_id": "TEMPLATE-TASK-007",
+    "step_number": 7,
+    "source_file": "C:\\Users\\Dell\\Dropbox\\Entities\\TASK_MANAGERS\\Task_Templates\\Automate_Morning_Email_Drafting.json",
+    "level": "step"
+  },
+  {
+    "action": "enrich",
+    "object": "email list",
+    "context": "via Bright Data platform",
+    "department": "LG",
+    "task_id": "TEMPLATE-TASK-018",
+    "task_name": "Enrich Emails via Bright Data",
+    "source_file": "C:\\Users\\Dell\\Dropbox\\Entities\\TASK_MANAGERS\\Task_Templates\\Bright_Data_Email_Enrichment.json",
+    "level": "task"
+  },
+  {
+    "action": "prepare",
+    "object": "prepare company domain list",
+    "context": "",
+    "department": "LG",
+    "task_id": "TEMPLATE-TASK-018",
+    "step_number": 1,
+    "source_file": "C:\\Users\\Dell\\Dropbox\\Entities\\TASK_MANAGERS\\Task_Templates\\Bright_Data_Email_Enrichment.json",
+    "level": "step"
+  },
+  {
+    "action": "upload",
+    "object": "upload domain list to bright data",
+    "context": "",
+    "department": "LG",
+    "task_id": "TEMPLATE-TASK-018",
+    "step_number": 2,
+    "source_file": "C:\\Users\\Dell\\Dropbox\\Entities\\TASK_MANAGERS\\Task_Templates\\Bright_Data_Email_Enrichment.json",
+    "level": "step"
+  },
+  {
+    "action": "configure",
+    "object": "configure target roles for enrichment",
+    "context": "",
+    "department": "LG",
+    "task_id": "TEMPLATE-TASK-018",
+    "step_number": 3,
+    "source_file": "C:\\Users\\Dell\\Dropbox\\Entities\\TASK_MANAGERS\\Task_Templates\\Bright_Data_Email_Enrichment.json",
+    "level": "step"
+  },
+  {
+    "action": "execute",
+    "object": "run email enrichment",
+    "context": "",
+    "department": "LG",
+    "task_id": "TEMPLATE-TASK-018",
+    "step_number": 4,
+    "source_file": "C:\\Users\\Dell\\Dropbox\\Entities\\TASK_MANAGERS\\Task_Templates\\Bright_Data_Email_Enrichment.json",
+    "level": "step"
+  },
+  {
+    "action": "export",
+    "object": "export enriched results",
+    "context": "",
+    "department": "LG",
+    "task_id": "TEMPLATE-TASK-018",
+    "step_number": 5,
+    "source_file": "C:\\Users\\Dell\\Dropbox\\Entities\\TASK_MANAGERS\\Task_Templates\\Bright_Data_Email_Enrichment.json",
+    "level": "step"
+  },
+  {
+    "action": "log",
+    "object": "log campaign metrics",
+    "context": "",
+    "department": "LG",
+    "task_id": "TEMPLATE-TASK-018",
+    "step_number": 6,
+    "source_file": "C:\\Users\\Dell\\Dropbox\\Entities\\TASK_MANAGERS\\Task_Templates\\Bright_Data_Email_Enrichment.json",
+    "level": "step"
+  },
+  {
+    "action": "create",
+    "object": "job posting",
+    "context": "for [Position]",
+    "department": "HR",
+    "task_id": "TEMPLATE-TASK-001",
+    "task_name": "Create Job Posting for [Position]",
+    "source_file": "C:\\Users\\Dell\\Dropbox\\Entities\\TASK_MANAGERS\\Task_Templates\\Create_Job_Posting_Template.json",
+    "level": "task"
+  },
+  {
+    "action": "generate",
+    "object": "mcp connector",
+    "context": "via mcp-builder skill",
+    "department": "Dev",
+    "task_id": "TEMPLATE-TASK-006",
+    "task_name": "Generate Custom MCP Connector",
+    "source_file": "C:\\Users\\Dell\\Dropbox\\Entities\\TASK_MANAGERS\\Task_Templates\\Create_MCP_Connector.json",
+    "level": "task"
+  },
+  {
+    "action": "enable",
+    "object": "enable mcp-builder skill in claude desktop",
+    "context": "",
+    "department": "Dev",
+    "task_id": "TEMPLATE-TASK-006",
+    "step_number": 1,
+    "source_file": "C:\\Users\\Dell\\Dropbox\\Entities\\TASK_MANAGERS\\Task_Templates\\Create_MCP_Connector.json",
+    "level": "step"
+  },
+  {
+    "action": "write",
+    "object": "write 2-sentence connector prompt",
+    "context": "",
+    "department": "Dev",
+    "task_id": "TEMPLATE-TASK-006",
+    "step_number": 2,
+    "source_file": "C:\\Users\\Dell\\Dropbox\\Entities\\TASK_MANAGERS\\Task_Templates\\Create_MCP_Connector.json",
+    "level": "step"
+  },
+  {
+    "action": "submit",
+    "object": "submit prompt to mcp-builder skill",
+    "context": "",
+    "department": "Dev",
+    "task_id": "TEMPLATE-TASK-006",
+    "step_number": 3,
+    "source_file": "C:\\Users\\Dell\\Dropbox\\Entities\\TASK_MANAGERS\\Task_Templates\\Create_MCP_Connector.json",
+    "level": "step"
+  },
+  {
+    "action": "wait",
+    "object": "wait for connector code generation",
+    "context": "",
+    "department": "Dev",
+    "task_id": "TEMPLATE-TASK-006",
+    "step_number": 4,
+    "source_file": "C:\\Users\\Dell\\Dropbox\\Entities\\TASK_MANAGERS\\Task_Templates\\Create_MCP_Connector.json",
+    "level": "step"
+  },
+  {
+    "action": "review",
+    "object": "review generated connector code",
+    "context": "",
+    "department": "Dev",
+    "task_id": "TEMPLATE-TASK-006",
+    "step_number": 5,
+    "source_file": "C:\\Users\\Dell\\Dropbox\\Entities\\TASK_MANAGERS\\Task_Templates\\Create_MCP_Connector.json",
+    "level": "step"
+  },
+  {
+    "action": "copy",
+    "object": "copy code to local directory",
+    "context": "",
+    "department": "Dev",
+    "task_id": "TEMPLATE-TASK-006",
+    "step_number": 6,
+    "source_file": "C:\\Users\\Dell\\Dropbox\\Entities\\TASK_MANAGERS\\Task_Templates\\Create_MCP_Connector.json",
+    "level": "step"
+  },
+  {
+    "action": "build",
+    "object": "custom scraper",
+    "context": "via n8n + HTTP requests",
+    "department": "LG",
+    "task_id": "TEMPLATE-TASK-011",
+    "task_name": "Build Custom Niche Platform Scraper",
+    "source_file": "C:\\Users\\Dell\\Dropbox\\Entities\\TASK_MANAGERS\\Task_Templates\\Custom_Niche_Platform_Scraping.json",
+    "level": "task"
+  },
+  {
+    "action": "research",
+    "object": "identify and research target niche platform",
+    "context": "",
+    "department": "LG",
+    "task_id": "TEMPLATE-TASK-011",
+    "step_number": 1,
+    "source_file": "C:\\Users\\Dell\\Dropbox\\Entities\\TASK_MANAGERS\\Task_Templates\\Custom_Niche_Platform_Scraping.json",
+    "level": "step"
+  },
+  {
+    "action": "analyze",
+    "object": "analyze http requests using browser devtools",
+    "context": "",
+    "department": "LG",
+    "task_id": "TEMPLATE-TASK-011",
+    "step_number": 2,
+    "source_file": "C:\\Users\\Dell\\Dropbox\\Entities\\TASK_MANAGERS\\Task_Templates\\Custom_Niche_Platform_Scraping.json",
+    "level": "step"
+  },
+  {
+    "action": "design",
+    "object": "design n8n workflow architecture",
+    "context": "",
+    "department": "LG",
+    "task_id": "TEMPLATE-TASK-011",
+    "step_number": 3,
+    "source_file": "C:\\Users\\Dell\\Dropbox\\Entities\\TASK_MANAGERS\\Task_Templates\\Custom_Niche_Platform_Scraping.json",
+    "level": "step"
+  },
+  {
+    "action": "build",
+    "object": "build http request nodes in n8n",
+    "context": "",
+    "department": "LG",
+    "task_id": "TEMPLATE-TASK-011",
+    "step_number": 4,
+    "source_file": "C:\\Users\\Dell\\Dropbox\\Entities\\TASK_MANAGERS\\Task_Templates\\Custom_Niche_Platform_Scraping.json",
+    "level": "step"
+  },
+  {
+    "action": "build",
+    "object": "build data parsing and cleaning logic",
+    "context": "",
+    "department": "LG",
+    "task_id": "TEMPLATE-TASK-011",
+    "step_number": 5,
+    "source_file": "C:\\Users\\Dell\\Dropbox\\Entities\\TASK_MANAGERS\\Task_Templates\\Custom_Niche_Platform_Scraping.json",
+    "level": "step"
+  },
+  {
+    "action": "test",
+    "object": "test scraper on sample data",
+    "context": "",
+    "department": "LG",
+    "task_id": "TEMPLATE-TASK-011",
+    "step_number": 6,
+    "source_file": "C:\\Users\\Dell\\Dropbox\\Entities\\TASK_MANAGERS\\Task_Templates\\Custom_Niche_Platform_Scraping.json",
+    "level": "step"
+  },
+  {
+    "action": "execute",
+    "object": "run full scrape on niche platform",
+    "context": "",
+    "department": "LG",
+    "task_id": "TEMPLATE-TASK-011",
+    "step_number": 7,
+    "source_file": "C:\\Users\\Dell\\Dropbox\\Entities\\TASK_MANAGERS\\Task_Templates\\Custom_Niche_Platform_Scraping.json",
+    "level": "step"
+  },
+  {
+    "action": "enrich",
+    "object": "enrich leads with emails via anymailfinder",
+    "context": "",
+    "department": "LG",
+    "task_id": "TEMPLATE-TASK-011",
+    "step_number": 8,
+    "source_file": "C:\\Users\\Dell\\Dropbox\\Entities\\TASK_MANAGERS\\Task_Templates\\Custom_Niche_Platform_Scraping.json",
+    "level": "step"
+  },
+  {
+    "action": "document",
+    "object": "document scraper for future use",
+    "context": "",
+    "department": "LG",
+    "task_id": "TEMPLATE-TASK-011",
+    "step_number": 9,
+    "source_file": "C:\\Users\\Dell\\Dropbox\\Entities\\TASK_MANAGERS\\Task_Templates\\Custom_Niche_Platform_Scraping.json",
+    "level": "step"
+  },
+  {
+    "action": "deploy",
+    "object": "mcp connector",
+    "context": "via Cursor AI assistance",
+    "department": "Dev",
+    "task_id": "TEMPLATE-TASK-010",
+    "task_name": "Deploy MCP Connector Locally",
+    "source_file": "C:\\Users\\Dell\\Dropbox\\Entities\\TASK_MANAGERS\\Task_Templates\\Deploy_MCP_Connector_Locally.json",
+    "level": "task"
+  },
+  {
+    "action": "copy",
+    "object": "copy generated connector code to local directory",
+    "context": "",
+    "department": "Dev",
+    "task_id": "TEMPLATE-TASK-010",
+    "step_number": 1,
+    "source_file": "C:\\Users\\Dell\\Dropbox\\Entities\\TASK_MANAGERS\\Task_Templates\\Deploy_MCP_Connector_Locally.json",
+    "level": "step"
+  },
+  {
+    "action": "open",
+    "object": "open connector directory in cursor ai",
+    "context": "",
+    "department": "Dev",
+    "task_id": "TEMPLATE-TASK-010",
+    "step_number": 2,
+    "source_file": "C:\\Users\\Dell\\Dropbox\\Entities\\TASK_MANAGERS\\Task_Templates\\Deploy_MCP_Connector_Locally.json",
+    "level": "step"
+  },
+  {
+    "action": "prompt",
+    "object": "ask cursor to explain setup steps",
+    "context": "",
+    "department": "Dev",
+    "task_id": "TEMPLATE-TASK-010",
+    "step_number": 3,
+    "source_file": "C:\\Users\\Dell\\Dropbox\\Entities\\TASK_MANAGERS\\Task_Templates\\Deploy_MCP_Connector_Locally.json",
+    "level": "step"
+  },
+  {
+    "action": "install",
+    "object": "install dependencies",
+    "context": "",
+    "department": "Dev",
+    "task_id": "TEMPLATE-TASK-010",
+    "step_number": 4,
+    "source_file": "C:\\Users\\Dell\\Dropbox\\Entities\\TASK_MANAGERS\\Task_Templates\\Deploy_MCP_Connector_Locally.json",
+    "level": "step"
+  },
+  {
+    "action": "configure",
+    "object": "configure oauth credentials (if required)",
+    "context": "",
+    "department": "Dev",
+    "task_id": "TEMPLATE-TASK-010",
+    "step_number": 5,
+    "source_file": "C:\\Users\\Dell\\Dropbox\\Entities\\TASK_MANAGERS\\Task_Templates\\Deploy_MCP_Connector_Locally.json",
+    "level": "step"
+  },
+  {
+    "action": "test",
+    "object": "test connector locally",
+    "context": "",
+    "department": "Dev",
+    "task_id": "TEMPLATE-TASK-010",
+    "step_number": 6,
+    "source_file": "C:\\Users\\Dell\\Dropbox\\Entities\\TASK_MANAGERS\\Task_Templates\\Deploy_MCP_Connector_Locally.json",
+    "level": "step"
+  },
+  {
+    "action": "configure",
+    "object": "add connector to claude desktop settings",
+    "context": "",
+    "department": "Dev",
+    "task_id": "TEMPLATE-TASK-010",
+    "step_number": 7,
+    "source_file": "C:\\Users\\Dell\\Dropbox\\Entities\\TASK_MANAGERS\\Task_Templates\\Deploy_MCP_Connector_Locally.json",
+    "level": "step"
+  },
+  {
+    "action": "verify",
+    "object": "verify connection in claude desktop",
+    "context": "",
+    "department": "Dev",
+    "task_id": "TEMPLATE-TASK-010",
+    "step_number": 8,
+    "source_file": "C:\\Users\\Dell\\Dropbox\\Entities\\TASK_MANAGERS\\Task_Templates\\Deploy_MCP_Connector_Locally.json",
+    "level": "step"
+  },
+  {
+    "action": "enable",
+    "object": "claude skills",
+    "context": "in Claude Desktop App",
+    "department": "Dev",
+    "task_id": "TEMPLATE-TASK-013",
+    "task_name": "Enable Claude Skills Feature",
+    "source_file": "C:\\Users\\Dell\\Dropbox\\Entities\\TASK_MANAGERS\\Task_Templates\\Enable_Claude_Skills_Feature.json",
+    "level": "task"
+  },
+  {
+    "action": "open",
+    "object": "open claude desktop app",
+    "context": "",
+    "department": "Dev",
+    "task_id": "TEMPLATE-TASK-013",
+    "step_number": 1,
+    "source_file": "C:\\Users\\Dell\\Dropbox\\Entities\\TASK_MANAGERS\\Task_Templates\\Enable_Claude_Skills_Feature.json",
+    "level": "step"
+  },
+  {
+    "action": "navigate",
+    "object": "navigate to settings",
+    "context": "",
+    "department": "Dev",
+    "task_id": "TEMPLATE-TASK-013",
+    "step_number": 2,
+    "source_file": "C:\\Users\\Dell\\Dropbox\\Entities\\TASK_MANAGERS\\Task_Templates\\Enable_Claude_Skills_Feature.json",
+    "level": "step"
+  },
+  {
+    "action": "locate",
+    "object": "locate skills section in settings",
+    "context": "",
+    "department": "Dev",
+    "task_id": "TEMPLATE-TASK-013",
+    "step_number": 3,
+    "source_file": "C:\\Users\\Dell\\Dropbox\\Entities\\TASK_MANAGERS\\Task_Templates\\Enable_Claude_Skills_Feature.json",
+    "level": "step"
+  },
+  {
+    "action": "enable",
+    "object": "enable skills feature toggle",
+    "context": "",
+    "department": "Dev",
+    "task_id": "TEMPLATE-TASK-013",
+    "step_number": 4,
+    "source_file": "C:\\Users\\Dell\\Dropbox\\Entities\\TASK_MANAGERS\\Task_Templates\\Enable_Claude_Skills_Feature.json",
+    "level": "step"
+  },
+  {
+    "action": "verify",
+    "object": "verify mcp-builder skill is available",
+    "context": "",
+    "department": "Dev",
+    "task_id": "TEMPLATE-TASK-013",
+    "step_number": 5,
+    "source_file": "C:\\Users\\Dell\\Dropbox\\Entities\\TASK_MANAGERS\\Task_Templates\\Enable_Claude_Skills_Feature.json",
+    "level": "step"
+  },
+  {
+    "action": "test",
+    "object": "test skills feature with simple prompt",
+    "context": "",
+    "department": "Dev",
+    "task_id": "TEMPLATE-TASK-013",
+    "step_number": 6,
+    "source_file": "C:\\Users\\Dell\\Dropbox\\Entities\\TASK_MANAGERS\\Task_Templates\\Enable_Claude_Skills_Feature.json",
+    "level": "step"
+  },
+  {
+    "action": "execute",
+    "object": "email arbitrage",
+    "context": "via Airscale + Anymailfinder",
+    "department": "LG",
+    "task_id": "TEMPLATE-TASK-008",
+    "task_name": "Execute Enterprise Email Arbitrage Strategy",
+    "source_file": "C:\\Users\\Dell\\Dropbox\\Entities\\TASK_MANAGERS\\Task_Templates\\Enterprise_Email_Arbitrage.json",
+    "level": "task"
+  },
+  {
+    "action": "identify",
+    "object": "identify target enterprise companies",
+    "context": "",
+    "department": "LG",
+    "task_id": "TEMPLATE-TASK-008",
+    "step_number": 1,
+    "source_file": "C:\\Users\\Dell\\Dropbox\\Entities\\TASK_MANAGERS\\Task_Templates\\Enterprise_Email_Arbitrage.json",
+    "level": "step"
+  },
+  {
+    "action": "search",
+    "object": "search company in airscale database",
+    "context": "",
+    "department": "LG",
+    "task_id": "TEMPLATE-TASK-008",
+    "step_number": 2,
+    "source_file": "C:\\Users\\Dell\\Dropbox\\Entities\\TASK_MANAGERS\\Task_Templates\\Enterprise_Email_Arbitrage.json",
+    "level": "step"
+  },
+  {
+    "action": "unlock",
+    "object": "spend 1 airscale credit to unlock employee list",
+    "context": "",
+    "department": "LG",
+    "task_id": "TEMPLATE-TASK-008",
+    "step_number": 3,
+    "source_file": "C:\\Users\\Dell\\Dropbox\\Entities\\TASK_MANAGERS\\Task_Templates\\Enterprise_Email_Arbitrage.json",
+    "level": "step"
+  },
+  {
+    "action": "export",
+    "object": "export employee list from airscale",
+    "context": "",
+    "department": "LG",
+    "task_id": "TEMPLATE-TASK-008",
+    "step_number": 4,
+    "source_file": "C:\\Users\\Dell\\Dropbox\\Entities\\TASK_MANAGERS\\Task_Templates\\Enterprise_Email_Arbitrage.json",
+    "level": "step"
+  },
+  {
+    "action": "upload",
+    "object": "upload employee list to anymailfinder",
+    "context": "",
+    "department": "LG",
+    "task_id": "TEMPLATE-TASK-008",
+    "step_number": 5,
+    "source_file": "C:\\Users\\Dell\\Dropbox\\Entities\\TASK_MANAGERS\\Task_Templates\\Enterprise_Email_Arbitrage.json",
+    "level": "step"
+  },
+  {
+    "action": "enrich",
+    "object": "run nominative enrichment on employees",
+    "context": "",
+    "department": "LG",
+    "task_id": "TEMPLATE-TASK-008",
+    "step_number": 6,
+    "source_file": "C:\\Users\\Dell\\Dropbox\\Entities\\TASK_MANAGERS\\Task_Templates\\Enterprise_Email_Arbitrage.json",
+    "level": "step"
+  },
+  {
+    "action": "export",
+    "object": "export enriched contact list",
+    "context": "",
+    "department": "LG",
+    "task_id": "TEMPLATE-TASK-008",
+    "step_number": 7,
+    "source_file": "C:\\Users\\Dell\\Dropbox\\Entities\\TASK_MANAGERS\\Task_Templates\\Enterprise_Email_Arbitrage.json",
+    "level": "step"
+  },
+  {
+    "action": "calculate",
+    "object": "calculate and log roi",
+    "context": "",
+    "department": "LG",
+    "task_id": "TEMPLATE-TASK-008",
+    "step_number": 8,
+    "source_file": "C:\\Users\\Dell\\Dropbox\\Entities\\TASK_MANAGERS\\Task_Templates\\Enterprise_Email_Arbitrage.json",
+    "level": "step"
+  },
+  {
+    "action": "scrape",
+    "object": "local business leads",
+    "context": "via Apify Google Maps Scraper",
+    "department": "LG",
+    "task_id": "TEMPLATE-TASK-016",
+    "task_name": "Scrape Local Businesses from Google Maps",
+    "source_file": "C:\\Users\\Dell\\Dropbox\\Entities\\TASK_MANAGERS\\Task_Templates\\Google_Maps_Local_Business_Scraping.json",
+    "level": "task"
+  },
+  {
+    "action": "define",
+    "object": "define target location and business category",
+    "context": "",
+    "department": "LG",
+    "task_id": "TEMPLATE-TASK-016",
+    "step_number": 1,
+    "source_file": "C:\\Users\\Dell\\Dropbox\\Entities\\TASK_MANAGERS\\Task_Templates\\Google_Maps_Local_Business_Scraping.json",
+    "level": "step"
+  },
+  {
+    "action": "configure",
+    "object": "configure apify google maps scraper",
+    "context": "",
+    "department": "LG",
+    "task_id": "TEMPLATE-TASK-016",
+    "step_number": 2,
+    "source_file": "C:\\Users\\Dell\\Dropbox\\Entities\\TASK_MANAGERS\\Task_Templates\\Google_Maps_Local_Business_Scraping.json",
+    "level": "step"
+  },
+  {
+    "action": "scrape",
+    "object": "run apify maps scraper",
+    "context": "",
+    "department": "LG",
+    "task_id": "TEMPLATE-TASK-016",
+    "step_number": 3,
+    "source_file": "C:\\Users\\Dell\\Dropbox\\Entities\\TASK_MANAGERS\\Task_Templates\\Google_Maps_Local_Business_Scraping.json",
+    "level": "step"
+  },
+  {
+    "action": "export",
+    "object": "export and clean business listing data",
+    "context": "",
+    "department": "LG",
+    "task_id": "TEMPLATE-TASK-016",
+    "step_number": 4,
+    "source_file": "C:\\Users\\Dell\\Dropbox\\Entities\\TASK_MANAGERS\\Task_Templates\\Google_Maps_Local_Business_Scraping.json",
+    "level": "step"
+  },
+  {
+    "action": "upload",
+    "object": "upload domains to anymailfinder",
+    "context": "",
+    "department": "LG",
+    "task_id": "TEMPLATE-TASK-016",
+    "step_number": 5,
+    "source_file": "C:\\Users\\Dell\\Dropbox\\Entities\\TASK_MANAGERS\\Task_Templates\\Google_Maps_Local_Business_Scraping.json",
+    "level": "step"
+  },
+  {
+    "action": "enrich",
+    "object": "run nominative enrichment for business owners/managers",
+    "context": "",
+    "department": "LG",
+    "task_id": "TEMPLATE-TASK-016",
+    "step_number": 6,
+    "source_file": "C:\\Users\\Dell\\Dropbox\\Entities\\TASK_MANAGERS\\Task_Templates\\Google_Maps_Local_Business_Scraping.json",
+    "level": "step"
+  },
+  {
+    "action": "export",
+    "object": "export final local business lead list",
+    "context": "",
+    "department": "LG",
+    "task_id": "TEMPLATE-TASK-016",
+    "step_number": 7,
+    "source_file": "C:\\Users\\Dell\\Dropbox\\Entities\\TASK_MANAGERS\\Task_Templates\\Google_Maps_Local_Business_Scraping.json",
+    "level": "step"
+  },
+  {
+    "action": "generate",
+    "object": "lead list",
+    "context": "via Apify Google SERP Scraper",
+    "department": "LG",
+    "task_id": "TEMPLATE-TASK-009",
+    "task_name": "Generate Leads from Google SERP",
+    "source_file": "C:\\Users\\Dell\\Dropbox\\Entities\\TASK_MANAGERS\\Task_Templates\\Google_SERP_Lead_Generation.json",
+    "level": "task"
+  },
+  {
+    "action": "define",
+    "object": "define google search query",
+    "context": "",
+    "department": "LG",
+    "task_id": "TEMPLATE-TASK-009",
+    "step_number": 1,
+    "source_file": "C:\\Users\\Dell\\Dropbox\\Entities\\TASK_MANAGERS\\Task_Templates\\Google_SERP_Lead_Generation.json",
+    "level": "step"
+  },
+  {
+    "action": "configure",
+    "object": "configure apify google serp scraper",
+    "context": "",
+    "department": "LG",
+    "task_id": "TEMPLATE-TASK-009",
+    "step_number": 2,
+    "source_file": "C:\\Users\\Dell\\Dropbox\\Entities\\TASK_MANAGERS\\Task_Templates\\Google_SERP_Lead_Generation.json",
+    "level": "step"
+  },
+  {
+    "action": "scrape",
+    "object": "run apify serp scraper",
+    "context": "",
+    "department": "LG",
+    "task_id": "TEMPLATE-TASK-009",
+    "step_number": 3,
+    "source_file": "C:\\Users\\Dell\\Dropbox\\Entities\\TASK_MANAGERS\\Task_Templates\\Google_SERP_Lead_Generation.json",
+    "level": "step"
+  },
+  {
+    "action": "export",
+    "object": "export and clean domain list",
+    "context": "",
+    "department": "LG",
+    "task_id": "TEMPLATE-TASK-009",
+    "step_number": 4,
+    "source_file": "C:\\Users\\Dell\\Dropbox\\Entities\\TASK_MANAGERS\\Task_Templates\\Google_SERP_Lead_Generation.json",
+    "level": "step"
+  },
+  {
+    "action": "upload",
+    "object": "upload domains to anymailfinder",
+    "context": "",
+    "department": "LG",
+    "task_id": "TEMPLATE-TASK-009",
+    "step_number": 5,
+    "source_file": "C:\\Users\\Dell\\Dropbox\\Entities\\TASK_MANAGERS\\Task_Templates\\Google_SERP_Lead_Generation.json",
+    "level": "step"
+  },
+  {
+    "action": "enrich",
+    "object": "run nominative enrichment",
+    "context": "",
+    "department": "LG",
+    "task_id": "TEMPLATE-TASK-009",
+    "step_number": 6,
+    "source_file": "C:\\Users\\Dell\\Dropbox\\Entities\\TASK_MANAGERS\\Task_Templates\\Google_SERP_Lead_Generation.json",
+    "level": "step"
+  },
+  {
+    "action": "export",
+    "object": "export final enriched lead list",
+    "context": "",
+    "department": "LG",
+    "task_id": "TEMPLATE-TASK-009",
+    "step_number": 7,
+    "source_file": "C:\\Users\\Dell\\Dropbox\\Entities\\TASK_MANAGERS\\Task_Templates\\Google_SERP_Lead_Generation.json",
+    "level": "step"
+  },
+  {
+    "action": "log",
+    "object": "log campaign metrics",
+    "context": "",
+    "department": "LG",
+    "task_id": "TEMPLATE-TASK-009",
+    "step_number": 8,
+    "source_file": "C:\\Users\\Dell\\Dropbox\\Entities\\TASK_MANAGERS\\Task_Templates\\Google_SERP_Lead_Generation.json",
+    "level": "step"
+  },
+  {
+    "action": "scrape",
+    "object": "influencer profiles",
+    "context": "via Apify Instagram Scraper",
+    "department": "AI",
+    "task_id": "TEMPLATE-TASK-020",
+    "task_name": "Scrape Instagram Influencer Profiles",
+    "source_file": "C:\\Users\\Dell\\Dropbox\\Entities\\TASK_MANAGERS\\Task_Templates\\Instagram_Influencer_Scraping.json",
+    "level": "task"
+  },
+  {
+    "action": "define",
+    "object": "define influencer search criteria",
+    "context": "",
+    "department": "AI",
+    "task_id": "TEMPLATE-TASK-020",
+    "step_number": 1,
+    "source_file": "C:\\Users\\Dell\\Dropbox\\Entities\\TASK_MANAGERS\\Task_Templates\\Instagram_Influencer_Scraping.json",
+    "level": "step"
+  },
+  {
+    "action": "configure",
+    "object": "configure apify instagram scraper",
+    "context": "",
+    "department": "AI",
+    "task_id": "TEMPLATE-TASK-020",
+    "step_number": 2,
+    "source_file": "C:\\Users\\Dell\\Dropbox\\Entities\\TASK_MANAGERS\\Task_Templates\\Instagram_Influencer_Scraping.json",
+    "level": "step"
+  },
+  {
+    "action": "scrape",
+    "object": "run instagram scraper",
+    "context": "",
+    "department": "AI",
+    "task_id": "TEMPLATE-TASK-020",
+    "step_number": 3,
+    "source_file": "C:\\Users\\Dell\\Dropbox\\Entities\\TASK_MANAGERS\\Task_Templates\\Instagram_Influencer_Scraping.json",
+    "level": "step"
+  },
+  {
+    "action": "extract",
+    "object": "extract contact information from bios",
+    "context": "",
+    "department": "AI",
+    "task_id": "TEMPLATE-TASK-020",
+    "step_number": 4,
+    "source_file": "C:\\Users\\Dell\\Dropbox\\Entities\\TASK_MANAGERS\\Task_Templates\\Instagram_Influencer_Scraping.json",
+    "level": "step"
+  },
+  {
+    "action": "enrich",
+    "object": "enrich remaining profiles via anymailfinder (optional)",
+    "context": "",
+    "department": "AI",
+    "task_id": "TEMPLATE-TASK-020",
+    "step_number": 5,
+    "source_file": "C:\\Users\\Dell\\Dropbox\\Entities\\TASK_MANAGERS\\Task_Templates\\Instagram_Influencer_Scraping.json",
+    "level": "step"
+  },
+  {
+    "action": "export",
+    "object": "export influencer list with metrics",
+    "context": "",
+    "department": "AI",
+    "task_id": "TEMPLATE-TASK-020",
+    "step_number": 6,
+    "source_file": "C:\\Users\\Dell\\Dropbox\\Entities\\TASK_MANAGERS\\Task_Templates\\Instagram_Influencer_Scraping.json",
+    "level": "step"
+  },
+  {
+    "action": "enrich",
+    "object": "email list",
+    "context": "via Instantly.ai platform",
+    "department": "LG",
+    "task_id": "TEMPLATE-TASK-019",
+    "task_name": "Enrich Emails via Instantly.ai",
+    "source_file": "C:\\Users\\Dell\\Dropbox\\Entities\\TASK_MANAGERS\\Task_Templates\\Instantly_AI_Email_Enrichment.json",
+    "level": "task"
+  },
+  {
+    "action": "prepare",
+    "object": "prepare domain list",
+    "context": "",
+    "department": "LG",
+    "task_id": "TEMPLATE-TASK-019",
+    "step_number": 1,
+    "source_file": "C:\\Users\\Dell\\Dropbox\\Entities\\TASK_MANAGERS\\Task_Templates\\Instantly_AI_Email_Enrichment.json",
+    "level": "step"
+  },
+  {
+    "action": "upload",
+    "object": "upload to instantly.ai campaign",
+    "context": "",
+    "department": "LG",
+    "task_id": "TEMPLATE-TASK-019",
+    "step_number": 2,
+    "source_file": "C:\\Users\\Dell\\Dropbox\\Entities\\TASK_MANAGERS\\Task_Templates\\Instantly_AI_Email_Enrichment.json",
+    "level": "step"
+  },
+  {
+    "action": "configure",
+    "object": "configure enrichment settings",
+    "context": "",
+    "department": "LG",
+    "task_id": "TEMPLATE-TASK-019",
+    "step_number": 3,
+    "source_file": "C:\\Users\\Dell\\Dropbox\\Entities\\TASK_MANAGERS\\Task_Templates\\Instantly_AI_Email_Enrichment.json",
+    "level": "step"
+  },
+  {
+    "action": "execute",
+    "object": "run enrichment within instantly.ai",
+    "context": "",
+    "department": "LG",
+    "task_id": "TEMPLATE-TASK-019",
+    "step_number": 4,
+    "source_file": "C:\\Users\\Dell\\Dropbox\\Entities\\TASK_MANAGERS\\Task_Templates\\Instantly_AI_Email_Enrichment.json",
+    "level": "step"
+  },
+  {
+    "action": "review",
+    "object": "review enriched contacts",
+    "context": "",
+    "department": "LG",
+    "task_id": "TEMPLATE-TASK-019",
+    "step_number": 5,
+    "source_file": "C:\\Users\\Dell\\Dropbox\\Entities\\TASK_MANAGERS\\Task_Templates\\Instantly_AI_Email_Enrichment.json",
+    "level": "step"
+  },
+  {
+    "action": "launch",
+    "object": "launch email campaign (optional)",
+    "context": "",
+    "department": "LG",
+    "task_id": "TEMPLATE-TASK-019",
+    "step_number": 6,
+    "source_file": "C:\\Users\\Dell\\Dropbox\\Entities\\TASK_MANAGERS\\Task_Templates\\Instantly_AI_Email_Enrichment.json",
+    "level": "step"
+  },
+  {
+    "action": "scrape",
+    "object": "linkedin job postings",
+    "context": "via Apify for buying intent signals",
+    "department": "LG",
+    "task_id": "TEMPLATE-TASK-017",
+    "task_name": "Scrape LinkedIn Jobs for Intent-Based Leads",
+    "source_file": "C:\\Users\\Dell\\Dropbox\\Entities\\TASK_MANAGERS\\Task_Templates\\LinkedIn_Jobs_Intent_Based_Scraping.json",
+    "level": "task"
+  },
+  {
+    "action": "define",
+    "object": "define job search criteria indicating intent",
+    "context": "",
+    "department": "LG",
+    "task_id": "TEMPLATE-TASK-017",
+    "step_number": 1,
+    "source_file": "C:\\Users\\Dell\\Dropbox\\Entities\\TASK_MANAGERS\\Task_Templates\\LinkedIn_Jobs_Intent_Based_Scraping.json",
+    "level": "step"
+  },
+  {
+    "action": "configure",
+    "object": "configure apify linkedin jobs scraper",
+    "context": "",
+    "department": "LG",
+    "task_id": "TEMPLATE-TASK-017",
+    "step_number": 2,
+    "source_file": "C:\\Users\\Dell\\Dropbox\\Entities\\TASK_MANAGERS\\Task_Templates\\LinkedIn_Jobs_Intent_Based_Scraping.json",
+    "level": "step"
+  },
+  {
+    "action": "scrape",
+    "object": "run apify jobs scraper",
+    "context": "",
+    "department": "LG",
+    "task_id": "TEMPLATE-TASK-017",
+    "step_number": 3,
+    "source_file": "C:\\Users\\Dell\\Dropbox\\Entities\\TASK_MANAGERS\\Task_Templates\\LinkedIn_Jobs_Intent_Based_Scraping.json",
+    "level": "step"
+  },
+  {
+    "action": "extract",
+    "object": "extract and deduplicate company list",
+    "context": "",
+    "department": "LG",
+    "task_id": "TEMPLATE-TASK-017",
+    "step_number": 4,
+    "source_file": "C:\\Users\\Dell\\Dropbox\\Entities\\TASK_MANAGERS\\Task_Templates\\LinkedIn_Jobs_Intent_Based_Scraping.json",
+    "level": "step"
+  },
+  {
+    "action": "research",
+    "object": "research company domains",
+    "context": "",
+    "department": "LG",
+    "task_id": "TEMPLATE-TASK-017",
+    "step_number": 5,
+    "source_file": "C:\\Users\\Dell\\Dropbox\\Entities\\TASK_MANAGERS\\Task_Templates\\LinkedIn_Jobs_Intent_Based_Scraping.json",
+    "level": "step"
+  },
+  {
+    "action": "upload",
+    "object": "upload companies to anymailfinder for enrichment",
+    "context": "",
+    "department": "LG",
+    "task_id": "TEMPLATE-TASK-017",
+    "step_number": 6,
+    "source_file": "C:\\Users\\Dell\\Dropbox\\Entities\\TASK_MANAGERS\\Task_Templates\\LinkedIn_Jobs_Intent_Based_Scraping.json",
+    "level": "step"
+  },
+  {
+    "action": "enrich",
+    "object": "run targeted enrichment for decision-makers",
+    "context": "",
+    "department": "LG",
+    "task_id": "TEMPLATE-TASK-017",
+    "step_number": 7,
+    "source_file": "C:\\Users\\Dell\\Dropbox\\Entities\\TASK_MANAGERS\\Task_Templates\\LinkedIn_Jobs_Intent_Based_Scraping.json",
+    "level": "step"
+  },
+  {
+    "action": "export",
+    "object": "export with job posting context",
+    "context": "",
+    "department": "LG",
+    "task_id": "TEMPLATE-TASK-017",
+    "step_number": 8,
+    "source_file": "C:\\Users\\Dell\\Dropbox\\Entities\\TASK_MANAGERS\\Task_Templates\\LinkedIn_Jobs_Intent_Based_Scraping.json",
+    "level": "step"
+  },
+  {
+    "action": "extract",
+    "object": "linkedin leads",
+    "context": "via Sales Navigator + Vayne scraper",
+    "department": "LG",
+    "task_id": "TEMPLATE-TASK-004",
+    "task_name": "Extract Leads from LinkedIn Sales Navigator",
+    "source_file": "C:\\Users\\Dell\\Dropbox\\Entities\\TASK_MANAGERS\\Task_Templates\\LinkedIn_Sales_Navigator_Lead_Extraction.json",
+    "level": "task"
+  },
+  {
+    "action": "create",
+    "object": "create targeted search in linkedin sales navigator",
+    "context": "",
+    "department": "LG",
+    "task_id": "TEMPLATE-TASK-004",
+    "step_number": 1,
+    "source_file": "C:\\Users\\Dell\\Dropbox\\Entities\\TASK_MANAGERS\\Task_Templates\\LinkedIn_Sales_Navigator_Lead_Extraction.json",
+    "level": "step"
+  },
+  {
+    "action": "extract",
+    "object": "extract li_at cookie from browser",
+    "context": "",
+    "department": "LG",
+    "task_id": "TEMPLATE-TASK-004",
+    "step_number": 2,
+    "source_file": "C:\\Users\\Dell\\Dropbox\\Entities\\TASK_MANAGERS\\Task_Templates\\LinkedIn_Sales_Navigator_Lead_Extraction.json",
+    "level": "step"
+  },
+  {
+    "action": "configure",
+    "object": "configure vayne scraper with search url and cookie",
+    "context": "",
+    "department": "LG",
+    "task_id": "TEMPLATE-TASK-004",
+    "step_number": 3,
+    "source_file": "C:\\Users\\Dell\\Dropbox\\Entities\\TASK_MANAGERS\\Task_Templates\\LinkedIn_Sales_Navigator_Lead_Extraction.json",
+    "level": "step"
+  },
+  {
+    "action": "scrape",
+    "object": "run vayne scraper to extract profiles",
+    "context": "",
+    "department": "LG",
+    "task_id": "TEMPLATE-TASK-004",
+    "step_number": 4,
+    "source_file": "C:\\Users\\Dell\\Dropbox\\Entities\\TASK_MANAGERS\\Task_Templates\\LinkedIn_Sales_Navigator_Lead_Extraction.json",
+    "level": "step"
+  },
+  {
+    "action": "import",
+    "object": "import profiles to anymailfinder for enrichment",
+    "context": "",
+    "department": "LG",
+    "task_id": "TEMPLATE-TASK-004",
+    "step_number": 5,
+    "source_file": "C:\\Users\\Dell\\Dropbox\\Entities\\TASK_MANAGERS\\Task_Templates\\LinkedIn_Sales_Navigator_Lead_Extraction.json",
+    "level": "step"
+  },
+  {
+    "action": "enrich",
+    "object": "run email enrichment",
+    "context": "",
+    "department": "LG",
+    "task_id": "TEMPLATE-TASK-004",
+    "step_number": 6,
+    "source_file": "C:\\Users\\Dell\\Dropbox\\Entities\\TASK_MANAGERS\\Task_Templates\\LinkedIn_Sales_Navigator_Lead_Extraction.json",
+    "level": "step"
+  },
+  {
+    "action": "export",
+    "object": "export enriched lead list",
+    "context": "",
+    "department": "LG",
+    "task_id": "TEMPLATE-TASK-004",
+    "step_number": 7,
+    "source_file": "C:\\Users\\Dell\\Dropbox\\Entities\\TASK_MANAGERS\\Task_Templates\\LinkedIn_Sales_Navigator_Lead_Extraction.json",
+    "level": "step"
+  },
+  {
+    "action": "automate",
+    "object": "newsletter replies",
+    "context": "via Gmail MCP connector",
+    "department": "AI",
+    "task_id": "TEMPLATE-TASK-012",
+    "task_name": "Automate Newsletter Subscriber Replies",
+    "source_file": "C:\\Users\\Dell\\Dropbox\\Entities\\TASK_MANAGERS\\Task_Templates\\Newsletter_Subscriber_Auto_Reply.json",
+    "level": "task"
+  },
+  {
+    "action": "identify",
+    "object": "identify newsletter subscriber emails in inbox",
+    "context": "",
+    "department": "AI",
+    "task_id": "TEMPLATE-TASK-012",
+    "step_number": 1,
+    "source_file": "C:\\Users\\Dell\\Dropbox\\Entities\\TASK_MANAGERS\\Task_Templates\\Newsletter_Subscriber_Auto_Reply.json",
+    "level": "step"
+  },
+  {
+    "action": "activate",
+    "object": "open claude desktop and activate gmail connector",
+    "context": "",
+    "department": "AI",
+    "task_id": "TEMPLATE-TASK-012",
+    "step_number": 2,
+    "source_file": "C:\\Users\\Dell\\Dropbox\\Entities\\TASK_MANAGERS\\Task_Templates\\Newsletter_Subscriber_Auto_Reply.json",
+    "level": "step"
+  },
+  {
+    "action": "prompt",
+    "object": "prompt claude to read newsletter subscriber emails",
+    "context": "",
+    "department": "AI",
+    "task_id": "TEMPLATE-TASK-012",
+    "step_number": 3,
+    "source_file": "C:\\Users\\Dell\\Dropbox\\Entities\\TASK_MANAGERS\\Task_Templates\\Newsletter_Subscriber_Auto_Reply.json",
+    "level": "step"
+  },
+  {
+    "action": "analyze",
+    "object": "analyze subscriber questions and requests",
+    "context": "",
+    "department": "AI",
+    "task_id": "TEMPLATE-TASK-012",
+    "step_number": 4,
+    "source_file": "C:\\Users\\Dell\\Dropbox\\Entities\\TASK_MANAGERS\\Task_Templates\\Newsletter_Subscriber_Auto_Reply.json",
+    "level": "step"
+  },
+  {
+    "action": "generate",
+    "object": "generate personalized reply drafts",
+    "context": "",
+    "department": "AI",
+    "task_id": "TEMPLATE-TASK-012",
+    "step_number": 5,
+    "source_file": "C:\\Users\\Dell\\Dropbox\\Entities\\TASK_MANAGERS\\Task_Templates\\Newsletter_Subscriber_Auto_Reply.json",
+    "level": "step"
+  },
+  {
+    "action": "review",
+    "object": "review drafts in gmail",
+    "context": "",
+    "department": "AI",
+    "task_id": "TEMPLATE-TASK-012",
+    "step_number": 6,
+    "source_file": "C:\\Users\\Dell\\Dropbox\\Entities\\TASK_MANAGERS\\Task_Templates\\Newsletter_Subscriber_Auto_Reply.json",
+    "level": "step"
+  },
+  {
+    "action": "send",
+    "object": "send approved replies",
+    "context": "",
+    "department": "AI",
+    "task_id": "TEMPLATE-TASK-012",
+    "step_number": 7,
+    "source_file": "C:\\Users\\Dell\\Dropbox\\Entities\\TASK_MANAGERS\\Task_Templates\\Newsletter_Subscriber_Auto_Reply.json",
+    "level": "step"
+  },
+  {
+    "action": "send",
+    "object": "follow-up email",
+    "context": "to old clients",
+    "department": "Sales",
+    "task_id": "TEMPLATE-TASK-002",
+    "task_name": "Send Follow-up Email to old clients",
+    "source_file": "C:\\Users\\Dell\\Dropbox\\Entities\\TASK_MANAGERS\\Task_Templates\\Send_Old_Client_Email_Template.json",
+    "level": "task"
+  },
+  {
+    "action": "automate",
+    "object": "post-meeting workflow",
+    "context": "via Calendar + Gmail + CRM connectors",
+    "department": "AI",
+    "task_id": "TEMPLATE-TASK-005",
+    "task_name": "Automate Post-Meeting Workflow via Stacked Connectors",
+    "source_file": "C:\\Users\\Dell\\Dropbox\\Entities\\TASK_MANAGERS\\Task_Templates\\Stacked_Connector_Post_Meeting_Automation.json",
+    "level": "task"
+  },
+  {
+    "action": "upload",
+    "object": "upload meeting transcript to claude desktop",
+    "context": "",
+    "department": "AI",
+    "task_id": "TEMPLATE-TASK-005",
+    "step_number": 1,
+    "source_file": "C:\\Users\\Dell\\Dropbox\\Entities\\TASK_MANAGERS\\Task_Templates\\Stacked_Connector_Post_Meeting_Automation.json",
+    "level": "step"
+  },
+  {
+    "action": "extract",
+    "object": "extract meeting insights via claude",
+    "context": "",
+    "department": "AI",
+    "task_id": "TEMPLATE-TASK-005",
+    "step_number": 2,
+    "source_file": "C:\\Users\\Dell\\Dropbox\\Entities\\TASK_MANAGERS\\Task_Templates\\Stacked_Connector_Post_Meeting_Automation.json",
+    "level": "step"
+  },
+  {
+    "action": "read",
+    "object": "read calendar event to get meeting attendees",
+    "context": "",
+    "department": "AI",
+    "task_id": "TEMPLATE-TASK-005",
+    "step_number": 3,
+    "source_file": "C:\\Users\\Dell\\Dropbox\\Entities\\TASK_MANAGERS\\Task_Templates\\Stacked_Connector_Post_Meeting_Automation.json",
+    "level": "step"
+  },
+  {
+    "action": "generate",
+    "object": "draft follow-up emails for each attendee",
+    "context": "",
+    "department": "AI",
+    "task_id": "TEMPLATE-TASK-005",
+    "step_number": 4,
+    "source_file": "C:\\Users\\Dell\\Dropbox\\Entities\\TASK_MANAGERS\\Task_Templates\\Stacked_Connector_Post_Meeting_Automation.json",
+    "level": "step"
+  },
+  {
+    "action": "update",
+    "object": "update crm with meeting notes and client wins",
+    "context": "",
+    "department": "AI",
+    "task_id": "TEMPLATE-TASK-005",
+    "step_number": 5,
+    "source_file": "C:\\Users\\Dell\\Dropbox\\Entities\\TASK_MANAGERS\\Task_Templates\\Stacked_Connector_Post_Meeting_Automation.json",
+    "level": "step"
+  },
+  {
+    "action": "review",
+    "object": "review email drafts and crm updates",
+    "context": "",
+    "department": "AI",
+    "task_id": "TEMPLATE-TASK-005",
+    "step_number": 6,
+    "source_file": "C:\\Users\\Dell\\Dropbox\\Entities\\TASK_MANAGERS\\Task_Templates\\Stacked_Connector_Post_Meeting_Automation.json",
+    "level": "step"
+  },
+  {
+    "action": "send",
+    "object": "send approved follow-up emails",
+    "context": "",
+    "department": "AI",
+    "task_id": "TEMPLATE-TASK-005",
+    "step_number": 7,
+    "source_file": "C:\\Users\\Dell\\Dropbox\\Entities\\TASK_MANAGERS\\Task_Templates\\Stacked_Connector_Post_Meeting_Automation.json",
+    "level": "step"
+  },
+  {
+    "action": "generate",
+    "object": "product commercial video",
+    "context": "via Google Veo 3.1 frame control",
+    "department": "E-commerce",
+    "task_id": "TEMPLATE-TASK-VIDEO-001",
+    "task_name": "Create Multi-Scene Product Commercial",
+    "source_file": "C:\\Users\\Dell\\Dropbox\\Entities\\TASK_MANAGERS\\Task_Templates\\VIDEO\\TEMPLATE-TASK-VIDEO-001_Create_Multi_Scene_Product_Commercial.json",
+    "level": "task"
+  },
+  {
+    "action": "generate",
+    "object": "social media storytelling video",
+    "context": "via Google Veo 3.1 Elements feature",
+    "department": "AI",
+    "task_id": "TEMPLATE-TASK-VIDEO-002",
+    "task_name": "Create Multi-Image Reference Video",
+    "source_file": "C:\\Users\\Dell\\Dropbox\\Entities\\TASK_MANAGERS\\Task_Templates\\VIDEO\\TEMPLATE-TASK-VIDEO-002_Create_Multi_Image_Reference_Video.json",
+    "level": "task"
+  },
+  {
+    "action": "generate",
+    "object": "brand logo animation video",
+    "context": "via Google Veo 3.1 animation feature",
+    "department": "AI",
+    "task_id": "TEMPLATE-TASK-VIDEO-003",
+    "task_name": "Create Brand Logo Animation",
+    "source_file": "C:\\Users\\Dell\\Dropbox\\Entities\\TASK_MANAGERS\\Task_Templates\\VIDEO\\TEMPLATE-TASK-VIDEO-003_Create_Brand_Logo_Animation.json",
+    "level": "task"
+  },
+  {
+    "action": "execute",
+    "object": "complete video production workflow",
+    "context": "via OpenArt unified platform",
+    "department": "AI",
+    "task_id": "TEMPLATE-TASK-VIDEO-004",
+    "task_name": "Master Unified Platform Workflow for Video Generation",
+    "source_file": "C:\\Users\\Dell\\Dropbox\\Entities\\TASK_MANAGERS\\Task_Templates\\VIDEO\\TEMPLATE-TASK-VIDEO-004_Unified_Platform_Workflow.json",
+    "level": "task"
+  }
+]

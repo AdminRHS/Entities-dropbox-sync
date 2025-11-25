@@ -1,0 +1,510 @@
+{
+  "entity_type": "TASK_MANAGERS",
+  "sub_entity": "Task_Template",
+  "template_id": "Task-Template-044",
+  "task_name": "Setup Automated Onboarding Workflow for New Hires",
+  "action": "Setup",
+  "object": "Onboarding Automation Workflow",
+  "context": "using n8n with Google Drive, Gmail, and task tracking integration",
+  "description": "Automate new hire onboarding process from contract signing to Day 1: send welcome emails, create employee folders, provision IT accounts, assign tasks, track completion. Reduces onboarding admin from hours to minutes. Part of Week 4 implementation focusing on operational automation.",
+  "department": "HR",
+  "profession": "HR Manager / Operations Specialist",
+  "estimated_duration": "2-3 hours",
+  "status": "Template",
+  "dependencies": [
+    "n8n workflow platform active",
+    "Google Drive folder structure template created",
+    "Gmail access for onboarding communications",
+    "Contract signing system (Zoho Sign, DocuSign, or manual trigger)"
+  ],
+  "tools_required": [
+    "n8n",
+    "Google Drive API",
+    "Gmail",
+    "Google Sheets (onboarding tracker)",
+    "Notion or task manager (for onboarding checklist)"
+  ],
+  "success_criteria": [
+    "Workflow triggers automatically when contract is signed",
+    "Welcome email sent with personalized content",
+    "Employee folder created in Google Drive with all templates",
+    "Onboarding checklist generated and assigned",
+    "IT setup request submitted automatically",
+    "HR manager notified of new hire onboarding initiated",
+    "Test run successful with dummy employee data"
+  ],
+  "steps": [
+    {
+      "step_number": 1,
+      "name": "Create Google Drive folder template structure for new employees",
+      "tool": "Google Drive",
+      "responsibility": "HR Manager",
+      "placement": "Google Drive - HR Templates folder",
+      "duration": "30 minutes",
+      "dependencies": [],
+      "inputs": [
+        "Folder structure design: Employee_Name > [Personal_Documents, Contracts, Payroll, Performance_Reviews, Training_Materials]",
+        "Template files to include: Employee handbook, Policies, Welcome guide, First week checklist"
+      ],
+      "outputs": [
+        "Master template folder created: 'NEW_HIRE_TEMPLATE'",
+        "Folder structure with 5 subfolders",
+        "Template documents uploaded",
+        "Sharing permissions configured (employee view-only, HR edit access)"
+      ],
+      "success_criteria": "Template folder complete, ready to be copied for each new hire"
+    },
+    {
+      "step_number": 2,
+      "name": "Create onboarding checklist template",
+      "tool": "Google Sheets or Notion",
+      "responsibility": "HR Manager",
+      "placement": "Google Drive or Notion",
+      "duration": "30 minutes",
+      "dependencies": [],
+      "inputs": [
+        "Onboarding phases: Preboarding (Day -7 to Day 0), Day 1, Week 1, Week 2-4, Day 30, Day 90",
+        "Tasks for each phase (from HR videos research.md)"
+      ],
+      "outputs": [
+        "Onboarding checklist template with 40+ tasks:",
+        "Preboarding: Welcome email, IT setup, documentation tasks, first day schedule",
+        "Day 1: Account provisioning, orientation meetings, team introductions, workspace setup",
+        "Week 1-4: Training modules, buddy check-ins, feedback surveys, role-specific training",
+        "Day 30/90: Extended feedback, performance check-in, onboarding completion review",
+        "Each task with: Description, Owner (HR/IT/Manager/Employee), Due date offset (e.g., Day -7, Day 1), Status, Priority"
+      ],
+      "success_criteria": "Comprehensive checklist covering full onboarding journey, clear ownership"
+    },
+    {
+      "step_number": 3,
+      "name": "Build n8n workflow trigger: Contract signed event",
+      "tool": "n8n",
+      "responsibility": "HR Manager",
+      "placement": "n8n workflow editor",
+      "duration": "20 minutes",
+      "dependencies": [],
+      "inputs": [
+        "Trigger options: Zoho Sign webhook OR DocuSign webhook OR Notion database change (Status='Hired') OR Manual trigger",
+        "New hire data: Full name, Email, Start date, Position, Department, Manager name, Manager email"
+      ],
+      "outputs": [
+        "n8n trigger configured (webhook or database polling)",
+        "New hire data variables captured",
+        "Workflow activation ready"
+      ],
+      "success_criteria": "Trigger fires reliably when contract signed or status changed to 'Hired'"
+    },
+    {
+      "step_number": 4,
+      "name": "Build workflow step: Create employee folder in Google Drive",
+      "tool": "n8n + Google Drive API",
+      "responsibility": "HR Manager",
+      "placement": "n8n workflow",
+      "duration": "35 minutes",
+      "dependencies": [
+        "Step 1",
+        "Step 3"
+      ],
+      "inputs": [
+        "Template folder ID from Step 1",
+        "New hire name from trigger",
+        "Target parent folder: 'Employees' in Google Drive"
+      ],
+      "outputs": [
+        "n8n nodes: Get Template Folder → Copy Folder → Rename to Employee Name → Set Permissions (employee + HR) → Get Folder Link",
+        "Employee folder created with structure: 'John_Doe > [Personal_Documents, Contracts, Payroll, Performance_Reviews, Training_Materials]'",
+        "Sharing permissions: Employee (view), HR (edit), Manager (view)"
+      ],
+      "success_criteria": "Folder created automatically, correctly named, templates copied, permissions set"
+    },
+    {
+      "step_number": 5,
+      "name": "Build workflow step: Send welcome email to new hire",
+      "tool": "n8n + Gmail",
+      "responsibility": "HR Manager",
+      "placement": "n8n workflow",
+      "duration": "30 minutes",
+      "dependencies": [
+        "Step 3",
+        "Step 4"
+      ],
+      "inputs": [
+        "New hire email, name, start date, position, manager name",
+        "Welcome email template with variables"
+      ],
+      "outputs": [
+        "Professional HTML email template:",
+        "Subject: 'Welcome to [Company Name], {{Employee_Name}}! 🎉'",
+        "Body: Personal greeting, excitement about joining, first day logistics (date, time, location/video link), what to expect (agenda overview), what to bring/prepare, employee folder link, manager introduction, HR contact info, company culture highlight",
+        "Attachments: Employee handbook, First day agenda",
+        "Tone: Warm, welcoming, informative"
+      ],
+      "success_criteria": "Welcome email is professional, personalized, contains all essential info"
+    },
+    {
+      "step_number": 6,
+      "name": "Build workflow step: Generate onboarding checklist and assign tasks",
+      "tool": "n8n + Google Sheets or Notion",
+      "responsibility": "HR Manager",
+      "placement": "n8n workflow",
+      "duration": "30 minutes",
+      "dependencies": [
+        "Step 2",
+        "Step 3"
+      ],
+      "inputs": [
+        "Onboarding checklist template from Step 2",
+        "New hire data (name, start date, manager)",
+        "Task ownership assignments"
+      ],
+      "outputs": [
+        "n8n workflow: Copy checklist template → Personalize with employee name and dates → Assign tasks to owners (HR, IT, Manager, Employee) → Share with all stakeholders",
+        "Dynamic due dates calculated (e.g., Start Date - 7 days for preboarding tasks)",
+        "Email notifications sent to task owners"
+      ],
+      "success_criteria": "Personalized checklist created, tasks assigned with correct due dates, stakeholders notified"
+    },
+    {
+      "step_number": 7,
+      "name": "Build workflow step: Submit IT setup request automatically",
+      "tool": "n8n + Email or Ticketing System",
+      "responsibility": "HR Manager",
+      "placement": "n8n workflow",
+      "duration": "20 minutes",
+      "dependencies": [
+        "Step 3"
+      ],
+      "inputs": [
+        "IT request format: Employee name, Position, Department, Start date, Equipment needed (laptop, phone, etc.), Software access needed (email, CRM, project management, etc.)",
+        "IT team email or ticketing system API"
+      ],
+      "outputs": [
+        "Automated IT request email sent to IT team:",
+        "Subject: 'New Hire IT Setup - {{Employee_Name}} - Start Date: {{Start_Date}}'",
+        "Body: Structured request with all required info",
+        "Priority: Normal (or High if start date within 5 days)",
+        "CC: HR manager, Hiring manager"
+      ],
+      "success_criteria": "IT team receives structured request automatically, has time to prepare before Day 1"
+    },
+    {
+      "step_number": 8,
+      "name": "Build workflow step: Notify HR manager and hiring manager",
+      "tool": "n8n + Gmail or Slack",
+      "responsibility": "HR Manager",
+      "placement": "n8n workflow",
+      "duration": "15 minutes",
+      "dependencies": [
+        "Step 4",
+        "Step 5",
+        "Step 6",
+        "Step 7"
+      ],
+      "inputs": [
+        "HR manager email",
+        "Hiring manager email (from new hire data)",
+        "Summary of automated actions completed"
+      ],
+      "outputs": [
+        "Summary email to HR & hiring manager:",
+        "Subject: 'Onboarding Initiated for {{Employee_Name}}'",
+        "Body: Confirmation of actions completed (welcome email sent ✓, folder created ✓, checklist assigned ✓, IT notified ✓), links to employee folder and onboarding checklist, next steps for manager (schedule Day 1 meetings, assign buddy, prepare workspace), new hire start date reminder"
+      ],
+      "success_criteria": "Stakeholders informed, have visibility into onboarding progress, know their responsibilities"
+    },
+    {
+      "step_number": 9,
+      "name": "Add preboarding reminder automation (Day -3 and Day -1)",
+      "tool": "n8n - scheduled workflow",
+      "responsibility": "HR Manager",
+      "placement": "n8n separate or integrated workflow",
+      "duration": "25 minutes",
+      "dependencies": [
+        "Step 3"
+      ],
+      "inputs": [
+        "New hire start date",
+        "Reminder content for Day -3 and Day -1"
+      ],
+      "outputs": [
+        "Scheduled reminders:",
+        "Day -3 email to new hire: Logistics reminder, what to prepare, any questions answered, excitement builder",
+        "Day -1 email to new hire: Final reminder, exact time/location/video link, first day agenda, manager introduction",
+        "Day -1 Slack/email to hiring manager: Reminder to prepare workspace, schedule Day 1 meetings, review onboarding checklist"
+      ],
+      "success_criteria": "Reminders sent automatically at correct times, reduce no-shows and Day 1 confusion"
+    },
+    {
+      "step_number": 10,
+      "name": "Test complete onboarding workflow end-to-end",
+      "tool": "Complete system",
+      "responsibility": "HR Manager + Test participant",
+      "placement": "Full onboarding automation",
+      "duration": "30 minutes",
+      "dependencies": [
+        "Step 8",
+        "Step 9"
+      ],
+      "inputs": [
+        "Test employee data: John Doe, [email protected], Start date: [Tomorrow's date + 7 days], Position: Software Developer, Manager: Test Manager"
+      ],
+      "outputs": [
+        "Workflow executed successfully:",
+        "1. Trigger fired (manual or simulated contract signing)",
+        "2. Employee folder created: 'John_Doe' with all templates",
+        "3. Welcome email sent to [email protected]",
+        "4. Onboarding checklist created and assigned",
+        "5. IT setup request sent to IT team",
+        "6. Notification sent to HR and hiring manager",
+        "7. Scheduled reminders set for Day -3 and Day -1",
+        "All steps completed without errors, data populated correctly"
+      ],
+      "success_criteria": "Complete test successful, all automated actions work, no manual intervention needed"
+    },
+    {
+      "step_number": 11,
+      "name": "Create documentation and train HR team",
+      "tool": "Notion or Google Docs",
+      "responsibility": "HR Manager",
+      "placement": "HR documentation",
+      "duration": "25 minutes",
+      "dependencies": [
+        "Step 10"
+      ],
+      "inputs": [
+        "Workflow screenshots and diagrams",
+        "Onboarding process overview",
+        "Troubleshooting guide"
+      ],
+      "outputs": [
+        "Documentation: Automated Onboarding Workflow Guide",
+        "Sections: Overview, How it works, Manual trigger instructions (if needed), Customization guide (update templates, modify checklist), Troubleshooting common issues",
+        "Quick reference card for hiring managers: What to expect when new hire is onboarded",
+        "Team training session notes"
+      ],
+      "success_criteria": "HR team and hiring managers understand automated process, can troubleshoot basic issues"
+    }
+  ],
+  "checklist": [
+    {
+      "item": "Google Drive folder template created with all necessary subfolders and files",
+      "guide": "NEW_HIRE_TEMPLATE folder with: Personal_Documents, Contracts, Payroll, Performance_Reviews, Training_Materials",
+      "required": true
+    },
+    {
+      "item": "Onboarding checklist template created with 40+ tasks across all phases",
+      "guide": "Preboarding, Day 1, Week 1-4, Day 30, Day 90 with clear ownership and due dates",
+      "required": true
+    },
+    {
+      "item": "n8n trigger configured (contract signed or status change)",
+      "guide": "Webhook from Zoho/DocuSign OR Notion database polling",
+      "required": true
+    },
+    {
+      "item": "Google Drive folder creation workflow step working",
+      "guide": "Copies template, renames with employee name, sets permissions",
+      "required": true
+    },
+    {
+      "item": "Welcome email template professional and personalized",
+      "guide": "Warm tone, all logistics covered, employee folder link included",
+      "required": true
+    },
+    {
+      "item": "Onboarding checklist auto-generated and assigned",
+      "guide": "Personalized with employee data, dynamic due dates, tasks assigned to owners",
+      "required": true
+    },
+    {
+      "item": "IT setup request sent automatically",
+      "guide": "Structured email to IT team with all required info",
+      "required": true
+    },
+    {
+      "item": "HR and hiring manager notification working",
+      "guide": "Summary email with links and next steps",
+      "required": true
+    },
+    {
+      "item": "Preboarding reminders scheduled (Day -3 and Day -1)",
+      "guide": "Automated reminders to new hire and hiring manager",
+      "required": true
+    },
+    {
+      "item": "End-to-end testing completed successfully",
+      "guide": "Test employee onboarded, all steps executed, no errors",
+      "required": true
+    },
+    {
+      "item": "Documentation created and team trained",
+      "guide": "User guide, troubleshooting, quick reference available",
+      "required": true
+    }
+  ],
+  "resources": [
+    {
+      "name": "Redwerk - Smart Onboarding Automation Tutorial",
+      "type": "Video Tutorial",
+      "description": "Tutorial on automating employee onboarding with n8n and Google Drive",
+      "duration": "Referenced in HR videos research.md"
+    },
+    {
+      "name": "n8n Google Drive Integration",
+      "type": "Official Documentation",
+      "url": "https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.googledrive/",
+      "description": "Guide for Google Drive API automation with n8n"
+    },
+    {
+      "name": "HR Videos Research - Onboarding Automation Section",
+      "type": "Research Document",
+      "location": "Entities/LIBRARIES/DEPARTMENTS/_SHARED/Prompts/Research/Reports/HR videos research.md",
+      "description": "Research on automated onboarding workflows and best practices"
+    },
+    {
+      "name": "Onboarding Checklist Template (from research)",
+      "type": "Template Reference",
+      "description": "Standard onboarding phases: Preboarding (Day -7) → Day 0 → Week 1-4 → Day 30/90 checkpoints"
+    }
+  ],
+  "roi_metrics": {
+    "time_savings": "3-5 hours per new hire (from manual folder creation, email writing, checklist setup)",
+    "setup_time": "2-3 hours one-time investment",
+    "cost": "€0 additional (uses existing n8n, Google Workspace)",
+    "new_hires_per_year": "Typical: 10-20 employees",
+    "annual_time_savings": "30-100 hours/year",
+    "new_hire_experience": "Improved - professional, timely, organized communication",
+    "compliance": "Automated checklist ensures no steps missed, audit trail maintained"
+  },
+  "related_tasks": [
+    "TASK-TEMPLATE-HR-AUTO-003 (Build Notion ATS - contract signing triggers this workflow)",
+    "TASK-TEMPLATE-HR-012 (Sign Contract with Candidate - manual task that triggers this automation)",
+    "TASK-TEMPLATE-HR-013 (Conduct Orientation Meeting - part of onboarding checklist)"
+  ],
+  "related_workflows": [
+    "WF-HR-AUTO-003 (Onboarding Automation Workflow)"
+  ],
+  "related_projects": [
+    "Project-Template-003 (Complete HR Automation Implementation - Week 4)",
+    "Proj_Temp-HR-001 (Complete Recruitment Cycle - leads to onboarding)"
+  ],
+  "tags": [
+    "hr",
+    "automation",
+    "onboarding",
+    "n8n",
+    "google_drive",
+    "employee_experience",
+    "week_4",
+    "high_priority"
+  ],
+  "version": "1.0",
+  "created": "2025-11-14",
+  "last_updated": "2025-11-14",
+  "source": "HR videos research.md - Onboarding automation section, Week 4 implementation",
+  "compliance_notes": "GDPR: New hire personal data (email, name) processed with consent via contract. Store employee folders with appropriate access controls (HR only until Day 1, then employee access granted). Data retention: Employee folders archived but not deleted after employment ends (legal requirement for payroll/contract records). Audit log maintained in n8n execution history.",
+  "troubleshooting": [
+    {
+      "issue": "Google Drive folder creation fails due to permissions",
+      "solution": "Verify n8n service account has edit access to parent 'Employees' folder, re-authenticate Google Drive OAuth"
+    },
+    {
+      "issue": "Welcome email not received by new hire",
+      "solution": "Check email address is correct in trigger data, verify Gmail OAuth connection active, check spam folder"
+    },
+    {
+      "issue": "Onboarding checklist dates calculated incorrectly",
+      "solution": "Verify start date format (YYYY-MM-DD), check n8n date calculation logic, test with different start dates"
+    },
+    {
+      "issue": "Workflow triggers multiple times for same new hire",
+      "solution": "Add deduplication logic: check if employee folder already exists before creating, use unique employee ID"
+    },
+    {
+      "issue": "Preboarding reminders not sent at correct time",
+      "solution": "Verify scheduled workflow is active, check timezone settings in n8n, test with near-future dates"
+    }
+  ],
+  "optimization_tips": [
+    "Add manager-specific onboarding tasks: Schedule 1-on-1s, assign buddy, prepare workspace",
+    "Create department-specific onboarding variations (Engineering vs Sales vs Admin)",
+    "Include video welcome messages from CEO or department head",
+    "Gamify onboarding: progress tracker, completion badges, Day 30 celebration",
+    "Collect feedback: automated survey on Day 7, Day 30, Day 90",
+    "Integrate with HRIS: sync employee data automatically",
+    "Use Notion for interactive onboarding checklist with embedded videos and links"
+  ],
+  "onboarding_checklist_template_detailed": [
+    {
+      "phase": "Preboarding (Day -7 to Day 0)",
+      "tasks": [
+        "Send welcome email (automated)",
+        "Create employee folder and upload templates (automated)",
+        "Submit IT setup request (automated)",
+        "Prepare employee handbook and policies",
+        "Schedule Day 1 orientation meetings",
+        "Assign onboarding buddy",
+        "Prepare workspace (desk, supplies, access badge)",
+        "Send pre-boarding survey to collect info (T-shirt size, dietary restrictions, preferences)"
+      ]
+    },
+    {
+      "phase": "Day 1 (First Day)",
+      "tasks": [
+        "Welcome and office/team tour",
+        "IT equipment handover and setup",
+        "Account provisioning (email, CRM, project tools)",
+        "HR orientation (policies, benefits, culture)",
+        "Team introductions and lunch",
+        "Manager 1-on-1: expectations, goals, first week plan",
+        "Assign first project or training module",
+        "End-of-day check-in"
+      ]
+    },
+    {
+      "phase": "Week 1-4 (Integration)",
+      "tasks": [
+        "Complete required training modules",
+        "Daily buddy check-ins (Week 1)",
+        "Weekly manager 1-on-1s",
+        "Meet key stakeholders across departments",
+        "Shadow team members",
+        "Complete role-specific training",
+        "First project milestone",
+        "Week 2 feedback survey (automated)",
+        "Week 4 check-in meeting with HR"
+      ]
+    },
+    {
+      "phase": "Day 30 (30-Day Checkpoint)",
+      "tasks": [
+        "30-day performance check-in with manager",
+        "Extended feedback survey (automated)",
+        "Review goals and adjust if needed",
+        "Career development discussion",
+        "Onboarding feedback for HR (what went well, what could improve)"
+      ]
+    },
+    {
+      "phase": "Day 90 (90-Day Checkpoint)",
+      "tasks": [
+        "90-day performance review",
+        "Onboarding completion confirmation",
+        "Performance goals for next quarter",
+        "Training needs assessment",
+        "Integration into team fully validated"
+      ]
+    }
+  ],
+  "future_enhancements": [
+    "AI chatbot for new hire questions (FAQ bot in Slack/Teams)",
+    "Automated equipment ordering (laptop, phone, monitors) based on role",
+    "E-signature integration for employment documents (fully paperless)",
+    "Learning management system (LMS) integration for training modules",
+    "Slack/Teams bot for onboarding checklist tracking",
+    "Video onboarding: auto-schedule video intros from team members",
+    "Performance tracking: link onboarding completion to 90-day review outcomes",
+    "Predictive analytics: identify at-risk new hires based on onboarding engagement"
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "step_template_id": "Step-Template-017",
+  "step_template_name": "Validate Naming Conventions Across All Sections",
+  "metadata": {
+    "status": "Active"
+  },
+  "parent_task": {
+    "task_id": "TASK-TEMPLATE-VIDEO-004",
+    "task_name": "Validate Extracted Taxonomy Data"
+  },
+  "step_details": {
+    "step_number": 1,
+    "order": 1,
+    "action": "validate",
+    "detail": "Check all task/step names are ALL_CAPS, skills are lowercase with tools, format is correct",
+    "expected_duration": 3
+  },
+  "execution": {
+    "tool_used": "Manual review or validation script",
+    "inputs": [
+      "Extracted taxonomy document",
+      "Naming convention rules"
+    ],
+    "outputs": [
+      "Naming convention validation report with issues flagged"
+    ],
+    "success_criteria": "Tasks: ALL_CAPS ACTION_OBJECT_CONTEXT, Steps: ALL_CAPS ACTION_OBJECT_DETAIL, Skills: lowercase with 'via tool'"
+  },
+  "relationships": {
+    "dependencies": [],
+    "next_steps": [
+      "STEP-VIDEO-004-02"
+    ],
+    "parallel_steps": []
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "entity_type": "LIBRARIES",
+  "sub_entity": "Tool",
+  "tool_id": "TOOL-AI-055",
+  "name": "v0.dev",
+  "vendor": "Vercel",
+  "category": "AI/Development Tools",
+  "purpose": "AI-powered UI component generation from text prompts",
+  "description": "Vercel's AI-powered platform for generating React UI components from text prompts. Enables rapid UI development without coding, creating production-ready components.",
+  "skill_level_required": "Intermediate",
+  "cost_structure": "Free (with Vercel account)",
+  "platform_compatibility": [
+    "Web"
+  ],
+  "integration_capabilities": [
+    "React component generation",
+    "Vercel integration",
+    "Code export",
+    "Component customization"
+  ],
+  "documentation_url": "https://v0.dev/",
+  "actual_remote_helpers_usage": {
+    "primary_use": "AI-Powered UI Component Generation",
+    "users": [],
+    "use_cases": [
+      "prototype ui rapidly",
+      "generate components",
+      "convert designs code",
+      "develop react",
+      "design ui"
+    ],
+    "workflows": []
+  },
+  "strengths": [
+    "Free to use",
+    "Fast generation",
+    "Production-ready code",
+    "React components",
+    "Easy customization",
+    "Vercel integration"
+  ],
+  "limitations": [
+    "Requires Vercel account",
+    "Limited to React",
+    "May require refinement",
+    "Design constraints"
+  ],
+  "departments_using": [],
+  "tags": [
+    "ui-generation",
+    "react",
+    "component-generation",
+    "design-to-code",
+    "rapid-prototyping",
+    "vercel"
+  ],
+  "discovery_date": "2025-01-27",
+  "discovery_source": "user_provided",
+  "status": "discovered_needs_review"
+}

@@ -1,0 +1,54 @@
+{
+  "entity_type": "LIBRARIES",
+  "sub_entity": "Tool",
+  "tool_id": "TOOL-AI-101",
+  "name": "Hedra",
+  "vendor": "Hedra",
+  "category": "AI/Video Tools",
+  "purpose": "AI video platform for various video applications (details TBD)",
+  "description": "AI video platform offering various video-related AI tools and services. Specific capabilities and use cases to be determined through further research.",
+  "skill_level_required": "TBD",
+  "cost_structure": "TBD",
+  "platform_compatibility": [
+    "TBD"
+  ],
+  "integration_capabilities": [],
+  "documentation_url": "https://www.hedra.com/app/home",
+  "actual_remote_helpers_usage": {
+    "primary_use": "TBD",
+    "users": [],
+    "use_cases": [],
+    "workflows": []
+  },
+  "strengths": [],
+  "limitations": [],
+  "departments_using": [
+    "Video"
+  ],
+  "finance_data": {
+    "subscription_status": "paid",
+    "total_accounts": 1,
+    "paid_accounts": 1,
+    "unpaid_accounts": 0,
+    "latest_valid_until": "2025-11-08",
+    "accounts": [
+      {
+        "email": "admin@rh-s.com",
+        "status": "paid",
+        "paid_date": "2025-10-08",
+        "valid_until": "2025-11-08",
+        "department": "videographers"
+      }
+    ],
+    "departments_using": [
+      "videographers"
+    ]
+  },
+  "tags": [
+    "video",
+    "ai-platform"
+  ],
+  "discovery_date": "2025-01-27",
+  "discovery_source": "user_provided",
+  "status": "discovered_needs_review"
+}

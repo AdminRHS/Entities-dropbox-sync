@@ -1,0 +1,746 @@
+{
+  "entity_type": "TASK_MANAGERS",
+  "sub_entity": "Project_Template",
+  "template_id": "Project-Template-002",
+  "version": "1.0",
+  "created_date": "2025-11-12",
+  "last_updated": "2025-11-12",
+  "metadata": {
+    "name": "Complete MCP Automation Stack Setup",
+    "description": "Full infrastructure setup for email and calendar automation using Model Context Protocol (MCP) connectors with Claude Desktop. Includes enabling skills, generating connectors, deploying them locally, and configuring basic and advanced automation workflows.",
+    "primary_department": "DEV",
+    "departments_involved": [
+      "DEV",
+      "OPS"
+    ],
+    "project_type": "Internal",
+    "complexity": "High",
+    "estimated_duration": "3-4 hours (one-time setup) + ongoing use",
+    "cost_estimate": {
+      "initial_setup": "Free (time investment only)",
+      "ongoing": "Free (time investment only)",
+      "cost_breakdown": [
+        "Claude Desktop: Free",
+        "MCP Builder skill: Free",
+        "Gmail API: Free (standard usage)",
+        "Google Calendar API: Free (standard usage)"
+      ]
+    },
+    "roi_estimate": "15-20+ hours/week saved after complete setup",
+    "success_criteria": [
+      "Claude Skills enabled and operational",
+      "Gmail MCP connector generated and deployed",
+      "Google Calendar MCP connector generated and deployed",
+      "Morning email automation operational (5-10 hrs/week saved)",
+      "Stacked connector automation configured (15+ hrs/week potential)"
+    ],
+    "prerequisites": [
+      "Claude Desktop installed",
+      "Gmail account with API access enabled",
+      "Google Calendar account",
+      "Basic understanding of MCP concepts",
+      "Cursor AI or VS Code (for deployment)",
+      "Node.js installed (for MCP connectors)"
+    ],
+    "best_for": [
+      "Teams handling 50+ emails daily",
+      "Organizations with heavy meeting schedules",
+      "Executive assistants managing complex calendars",
+      "Sales teams needing automated follow-up",
+      "Customer support with high email volume",
+      "Anyone wanting to save 15-20+ hours/week on email/calendar tasks"
+    ]
+  },
+  "structure": {
+    "total_phases": 4,
+    "total_milestones": 6,
+    "total_tasks": 6,
+    "total_estimated_steps": 19,
+    "workflow_type": "Sequential with some parallel execution opportunities"
+  },
+  "phases": [
+    {
+      "phase_number": 1,
+      "phase_name": "Foundation Setup",
+      "phase_description": "Enable Claude Skills to unlock MCP connector generation capabilities",
+      "duration": "1-2 minutes",
+      "complexity": "Low",
+      "dependencies": [],
+      "milestones": [
+        "MIL-PROJ-DEV-001-001"
+      ],
+      "output": "Claude Skills enabled and ready to generate MCP connectors",
+      "success_criteria": [
+        "Claude Skills interface accessible",
+        "MCP Builder skill visible in skills list",
+        "Ready to generate connectors"
+      ]
+    },
+    {
+      "phase_number": 2,
+      "phase_name": "Connector Generation",
+      "phase_description": "Generate Gmail and Google Calendar MCP connectors using mcp-builder skill (revolutionary 30-60 second generation per connector)",
+      "duration": "2-4 minutes total (60 sec per connector)",
+      "complexity": "Very High (but automated by skill)",
+      "dependencies": [
+        "Phase 1 complete"
+      ],
+      "milestones": [
+        "MIL-PROJ-DEV-001-002",
+        "MIL-PROJ-DEV-001-003"
+      ],
+      "output": "Production-ready MCP connector code for Gmail and Calendar",
+      "success_criteria": [
+        "Gmail connector generated successfully",
+        "Calendar connector generated successfully",
+        "Connector code includes proper error handling",
+        "API integration code complete",
+        "95%+ generation success rate maintained"
+      ]
+    },
+    {
+      "phase_number": 3,
+      "phase_name": "Connector Deployment",
+      "phase_description": "Deploy both MCP connectors locally using Cursor AI (5 minutes per connector, 75% faster than manual deployment)",
+      "duration": "10 minutes total",
+      "complexity": "Medium",
+      "dependencies": [
+        "Phase 2 complete"
+      ],
+      "milestones": [
+        "MIL-PROJ-DEV-001-004"
+      ],
+      "output": "Both connectors running locally and accessible to Claude Desktop",
+      "success_criteria": [
+        "Gmail connector deployed and tested",
+        "Calendar connector deployed and tested",
+        "Both connectors visible in Claude Desktop MCP list",
+        "Connection tests successful",
+        "No deployment errors"
+      ]
+    },
+    {
+      "phase_number": 4,
+      "phase_name": "Automation Workflow Configuration",
+      "phase_description": "Configure basic morning email automation (15-20 min) and advanced stacked connector workflows (2-3 hours)",
+      "duration": "2.5-3.5 hours total",
+      "complexity": "High to Very High",
+      "dependencies": [
+        "Phase 3 complete"
+      ],
+      "milestones": [
+        "MIL-PROJ-DEV-001-005",
+        "MIL-PROJ-DEV-001-006"
+      ],
+      "output": "Complete automation stack operational with 15-20+ hours/week time savings",
+      "success_criteria": [
+        "Morning email drafts automated (5-10 hrs/week saved)",
+        "Stacked connector workflow operational (15+ hrs/week potential)",
+        "Meeting follow-up automation working",
+        "Calendar + Gmail integration seamless",
+        "Total time savings >= 15 hours/week"
+      ]
+    }
+  ],
+  "milestones": [
+    {
+      "milestone_id": "MIL-PROJ-DEV-001-001",
+      "milestone_name": "Claude Skills Enabled",
+      "phase": 1,
+      "description": "Claude Skills interface enabled and mcp-builder skill accessible",
+      "task_templates": [
+        "TASK-TEMPLATE-013"
+      ],
+      "estimated_duration": "1-2 minutes",
+      "deliverables": [
+        "Claude Skills enabled in Claude Desktop",
+        "MCP Builder skill visible and accessible"
+      ],
+      "success_metrics": {
+        "quantitative": [
+          "Setup time <= 2 minutes"
+        ],
+        "qualitative": [
+          "Skills interface responsive",
+          "No errors during enablement"
+        ]
+      },
+      "checklist_items": [
+        "CHK-024",
+        "CHK-025"
+      ]
+    },
+    {
+      "milestone_id": "MIL-PROJ-DEV-001-002",
+      "milestone_name": "Gmail MCP Connector Generated",
+      "phase": 2,
+      "description": "Production-ready Gmail MCP connector code generated via mcp-builder skill",
+      "task_templates": [
+        "TASK-TEMPLATE-006"
+      ],
+      "estimated_duration": "30-60 seconds",
+      "deliverables": [
+        "Complete Gmail MCP connector codebase",
+        "API integration code",
+        "Error handling implementation",
+        "Configuration files"
+      ],
+      "success_metrics": {
+        "quantitative": [
+          "Generation time <= 60 seconds",
+          "Code completeness = 100%"
+        ],
+        "qualitative": [
+          "No syntax errors",
+          "Follows MCP best practices"
+        ]
+      },
+      "checklist_items": [
+        "CHK-026",
+        "CHK-027",
+        "CHK-028",
+        "CHK-029"
+      ]
+    },
+    {
+      "milestone_id": "MIL-PROJ-DEV-001-003",
+      "milestone_name": "Calendar MCP Connector Generated",
+      "phase": 2,
+      "description": "Production-ready Google Calendar MCP connector code generated via mcp-builder skill",
+      "task_templates": [
+        "TASK-TEMPLATE-006"
+      ],
+      "estimated_duration": "30-60 seconds",
+      "deliverables": [
+        "Complete Calendar MCP connector codebase",
+        "API integration code",
+        "Event handling logic",
+        "Configuration files"
+      ],
+      "success_metrics": {
+        "quantitative": [
+          "Generation time <= 60 seconds",
+          "Code completeness = 100%"
+        ],
+        "qualitative": [
+          "Calendar API properly integrated",
+          "Timezone handling included"
+        ]
+      },
+      "checklist_items": [
+        "CHK-030",
+        "CHK-031",
+        "CHK-032",
+        "CHK-033"
+      ]
+    },
+    {
+      "milestone_id": "MIL-PROJ-DEV-001-004",
+      "milestone_name": "Both Connectors Deployed",
+      "phase": 3,
+      "description": "Gmail and Calendar MCP connectors deployed locally and operational",
+      "task_templates": [
+        "TASK-TEMPLATE-010"
+      ],
+      "estimated_duration": "10 minutes total (5 min each)",
+      "deliverables": [
+        "Gmail connector running locally",
+        "Calendar connector running locally",
+        "Both visible in Claude Desktop",
+        "Connection test results"
+      ],
+      "success_metrics": {
+        "quantitative": [
+          "Deployment time <= 10 minutes total",
+          "Test success rate = 100%"
+        ],
+        "qualitative": [
+          "No dependency errors",
+          "Connectors responsive"
+        ]
+      },
+      "checklist_items": [
+        "CHK-034",
+        "CHK-035",
+        "CHK-036",
+        "CHK-037"
+      ]
+    },
+    {
+      "milestone_id": "MIL-PROJ-DEV-001-005",
+      "milestone_name": "Basic Email Automation Live",
+      "phase": 4,
+      "description": "Morning email draft automation configured and operational",
+      "task_templates": [
+        "TASK-TEMPLATE-007"
+      ],
+      "estimated_duration": "15-20 minutes",
+      "deliverables": [
+        "Morning email automation workflow",
+        "Email draft templates",
+        "First batch of automated drafts"
+      ],
+      "success_metrics": {
+        "quantitative": [
+          "Time saved >= 5 hours/week",
+          "Success rate >= 90%"
+        ],
+        "qualitative": [
+          "Draft quality meets standards",
+          "Workflow runs reliably daily"
+        ]
+      },
+      "checklist_items": [
+        "CHK-038",
+        "CHK-039",
+        "CHK-040"
+      ]
+    },
+    {
+      "milestone_id": "MIL-PROJ-DEV-001-006",
+      "milestone_name": "Advanced Stacked Automation Live",
+      "phase": 4,
+      "description": "Complete stacked connector automation for meeting follow-up operational",
+      "task_templates": [
+        "TASK-TEMPLATE-005"
+      ],
+      "estimated_duration": "2-3 hours",
+      "deliverables": [
+        "Stacked connector workflow (Calendar + Gmail)",
+        "Automated meeting follow-up emails",
+        "Calendar event triggers configured"
+      ],
+      "success_metrics": {
+        "quantitative": [
+          "Time saved >= 15 hours/week",
+          "Automation success rate >= 85%"
+        ],
+        "qualitative": [
+          "Multi-app integration working",
+          "Follow-ups sent within 24 hours"
+        ]
+      },
+      "checklist_items": [
+        "CHK-041",
+        "CHK-042",
+        "CHK-043"
+      ]
+    }
+  ],
+  "task_sequence": [
+    {
+      "sequence_number": 1,
+      "task_template_id": "TASK-TEMPLATE-013",
+      "task_name": "Enable Claude Skills",
+      "phase": 1,
+      "milestone": "MIL-PROJ-DEV-001-001",
+      "estimated_duration": "1-2 minutes",
+      "complexity": "Low",
+      "department": "DEV",
+      "dependencies": [],
+      "inputs_required": [
+        "Claude Desktop installed",
+        "Active Claude account"
+      ],
+      "outputs_produced": [
+        "Claude Skills enabled",
+        "MCP Builder skill accessible"
+      ],
+      "step_templates": [
+        "STEP-TASK-TEMPLATE-013-01",
+        "STEP-TASK-TEMPLATE-013-02"
+      ]
+    },
+    {
+      "sequence_number": 2,
+      "task_template_id": "TASK-TEMPLATE-006",
+      "task_name": "Generate Gmail MCP Connector",
+      "phase": 2,
+      "milestone": "MIL-PROJ-DEV-001-002",
+      "estimated_duration": "30-60 seconds",
+      "complexity": "Very High (automated by skill)",
+      "department": "DEV",
+      "dependencies": [
+        "TASK-TEMPLATE-013 complete"
+      ],
+      "inputs_required": [
+        "Claude Skills enabled",
+        "Gmail API requirements specification",
+        "Desired connector features"
+      ],
+      "outputs_produced": [
+        "Complete Gmail MCP connector codebase",
+        "Configuration files",
+        "README documentation"
+      ],
+      "step_templates": [
+        "STEP-TASK-TEMPLATE-006-01",
+        "STEP-TASK-TEMPLATE-006-02",
+        "STEP-TASK-TEMPLATE-006-03",
+        "STEP-TASK-TEMPLATE-006-04",
+        "STEP-TASK-TEMPLATE-006-05"
+      ],
+      "notes": "Revolutionary 30-60 second generation time (vs hours of manual coding)"
+    },
+    {
+      "sequence_number": 3,
+      "task_template_id": "TASK-TEMPLATE-006",
+      "task_name": "Generate Google Calendar MCP Connector",
+      "phase": 2,
+      "milestone": "MIL-PROJ-DEV-001-003",
+      "estimated_duration": "30-60 seconds",
+      "complexity": "Very High (automated by skill)",
+      "department": "DEV",
+      "dependencies": [
+        "TASK-TEMPLATE-013 complete"
+      ],
+      "inputs_required": [
+        "Claude Skills enabled",
+        "Google Calendar API requirements",
+        "Event handling specifications"
+      ],
+      "outputs_produced": [
+        "Complete Calendar MCP connector codebase",
+        "Event handling logic",
+        "Configuration files"
+      ],
+      "step_templates": [
+        "STEP-TASK-TEMPLATE-006-01",
+        "STEP-TASK-TEMPLATE-006-02",
+        "STEP-TASK-TEMPLATE-006-03",
+        "STEP-TASK-TEMPLATE-006-04",
+        "STEP-TASK-TEMPLATE-006-05"
+      ],
+      "notes": "Can run in parallel with Gmail connector generation if desired"
+    },
+    {
+      "sequence_number": 4,
+      "task_template_id": "TASK-TEMPLATE-010",
+      "task_name": "Deploy Gmail MCP Connector Locally",
+      "phase": 3,
+      "milestone": "MIL-PROJ-DEV-001-004",
+      "estimated_duration": "5 minutes",
+      "complexity": "Medium",
+      "department": "DEV",
+      "dependencies": [
+        "Gmail connector generated (Task 2)"
+      ],
+      "inputs_required": [
+        "Generated Gmail connector code",
+        "Cursor AI or VS Code",
+        "Node.js installed",
+        "Gmail API credentials"
+      ],
+      "outputs_produced": [
+        "Gmail connector running locally",
+        "Connector visible in Claude Desktop",
+        "Connection test successful"
+      ],
+      "step_templates": [
+        "STEP-TASK-TEMPLATE-010-01",
+        "STEP-TASK-TEMPLATE-010-02",
+        "STEP-TASK-TEMPLATE-010-03",
+        "STEP-TASK-TEMPLATE-010-04",
+        "STEP-TASK-TEMPLATE-010-05"
+      ]
+    },
+    {
+      "sequence_number": 5,
+      "task_template_id": "TASK-TEMPLATE-010",
+      "task_name": "Deploy Calendar MCP Connector Locally",
+      "phase": 3,
+      "milestone": "MIL-PROJ-DEV-001-004",
+      "estimated_duration": "5 minutes",
+      "complexity": "Medium",
+      "department": "DEV",
+      "dependencies": [
+        "Calendar connector generated (Task 3)"
+      ],
+      "inputs_required": [
+        "Generated Calendar connector code",
+        "Cursor AI or VS Code",
+        "Node.js installed",
+        "Google Calendar API credentials"
+      ],
+      "outputs_produced": [
+        "Calendar connector running locally",
+        "Connector visible in Claude Desktop",
+        "Connection test successful"
+      ],
+      "step_templates": [
+        "STEP-TASK-TEMPLATE-010-01",
+        "STEP-TASK-TEMPLATE-010-02",
+        "STEP-TASK-TEMPLATE-010-03",
+        "STEP-TASK-TEMPLATE-010-04",
+        "STEP-TASK-TEMPLATE-010-05"
+      ],
+      "notes": "Can deploy in parallel with Gmail connector if using multiple terminal windows"
+    },
+    {
+      "sequence_number": 6,
+      "task_template_id": "TASK-TEMPLATE-007",
+      "task_name": "Configure Morning Email Automation",
+      "phase": 4,
+      "milestone": "MIL-PROJ-DEV-001-005",
+      "estimated_duration": "15-20 minutes",
+      "complexity": "Medium",
+      "department": "AI",
+      "dependencies": [
+        "Gmail connector deployed (Task 4)"
+      ],
+      "inputs_required": [
+        "Gmail MCP connector operational",
+        "Email response guidelines",
+        "Draft templates"
+      ],
+      "outputs_produced": [
+        "Morning email automation workflow",
+        "Automated draft generation",
+        "5-10 hours/week time savings"
+      ],
+      "step_templates": [
+        "STEP-TASK-TEMPLATE-007-01",
+        "STEP-TASK-TEMPLATE-007-02",
+        "STEP-TASK-TEMPLATE-007-03",
+        "STEP-TASK-TEMPLATE-007-04"
+      ]
+    },
+    {
+      "sequence_number": 7,
+      "task_template_id": "TASK-TEMPLATE-005",
+      "task_name": "Configure Stacked Connector Automation",
+      "phase": 4,
+      "milestone": "MIL-PROJ-DEV-001-006",
+      "estimated_duration": "2-3 hours",
+      "complexity": "Very High",
+      "department": "AI",
+      "dependencies": [
+        "Gmail connector deployed (Task 4)",
+        "Calendar connector deployed (Task 5)",
+        "Basic email automation working (Task 6)"
+      ],
+      "inputs_required": [
+        "Gmail MCP connector operational",
+        "Calendar MCP connector operational",
+        "Meeting follow-up templates",
+        "Workflow logic specifications"
+      ],
+      "outputs_produced": [
+        "Stacked connector workflow (Calendar + Gmail)",
+        "Automated meeting follow-up system",
+        "15+ hours/week time savings potential"
+      ],
+      "step_templates": [
+        "STEP-TASK-TEMPLATE-005-01",
+        "STEP-TASK-TEMPLATE-005-02",
+        "STEP-TASK-TEMPLATE-005-03",
+        "STEP-TASK-TEMPLATE-005-04",
+        "STEP-TASK-TEMPLATE-005-05"
+      ]
+    }
+  ],
+  "workflow_diagram": {
+    "description": "Visual representation of MCP automation stack setup",
+    "ascii_diagram": [
+      "Phase 1: Foundation (1-2 min)",
+      "  └─> TASK-TEMPLATE-013 (Enable Claude Skills)",
+      "      └─> Output: MCP Builder skill accessible",
+      "",
+      "Phase 2: Connector Generation (2-4 min)",
+      "  ├─> TASK-TEMPLATE-006 (Generate Gmail Connector) [60 sec]",
+      "  │   └─> Output: Gmail MCP connector code",
+      "  └─> TASK-TEMPLATE-006 (Generate Calendar Connector) [60 sec]",
+      "      └─> Output: Calendar MCP connector code",
+      "",
+      "Phase 3: Deployment (10 min)",
+      "  ├─> TASK-TEMPLATE-010 (Deploy Gmail Connector) [5 min]",
+      "  │   └─> Output: Gmail connector running locally",
+      "  └─> TASK-TEMPLATE-010 (Deploy Calendar Connector) [5 min]",
+      "      └─> Output: Calendar connector running locally",
+      "",
+      "Phase 4: Automation Configuration (2.5-3.5 hrs)",
+      "  ├─> TASK-TEMPLATE-007 (Morning Email Automation) [15-20 min]",
+      "  │   └─> Output: 5-10 hrs/week saved",
+      "  └─> TASK-TEMPLATE-005 (Stacked Connector Automation) [2-3 hrs]",
+      "      └─> Output: 15+ hrs/week potential saved",
+      "",
+      "Total Setup: 3-4 hours",
+      "Total ROI: 15-20+ hours/week saved"
+    ]
+  },
+  "resource_requirements": {
+    "human_resources": {
+      "minimum_team": [
+        "1 Developer (for Phases 1-3)",
+        "1 Operations Specialist (for Phase 4)"
+      ],
+      "optimal_team": [
+        "1 Developer (MCP setup and troubleshooting)",
+        "1 Operations Specialist (automation workflow configuration)",
+        "1 Executive Assistant or Sales Rep (end user for testing)"
+      ],
+      "total_time_investment": "3-4 hours setup + ongoing use"
+    },
+    "technical_requirements": {
+      "software": [
+        "Claude Desktop (latest version)",
+        "Cursor AI or VS Code",
+        "Node.js (v18 or higher)",
+        "Git (for version control)",
+        "Gmail account with API enabled",
+        "Google Calendar account with API enabled"
+      ],
+      "infrastructure": [
+        "Stable internet connection",
+        "Windows/Mac/Linux workstation",
+        "Sufficient disk space for connectors (< 100MB)"
+      ],
+      "api_access": [
+        "Gmail API credentials",
+        "Google Calendar API credentials",
+        "OAuth 2.0 setup for both"
+      ]
+    },
+    "financial_requirements": {
+      "one_time_costs": "$0 (all free tools)",
+      "recurring_costs": "$0 (free tier APIs sufficient for most use cases)",
+      "roi_timeline": "Week 1 (immediate time savings after Phase 4 completion)"
+    }
+  },
+  "risk_assessment": {
+    "high_risks": [
+      {
+        "risk": "Stacked connector setup fails or has low success rate (<85%)",
+        "impact": "High",
+        "probability": "Medium",
+        "mitigation": "Start with basic email automation (Task 6) to validate setup before complex stacking. Use TASK-TEMPLATE-014 for troubleshooting if needed. Have developer support available for debugging."
+      },
+      {
+        "risk": "API rate limits exceeded during heavy usage",
+        "impact": "Medium",
+        "probability": "Low",
+        "mitigation": "Monitor API usage, implement rate limiting in connectors, upgrade to paid API tier if necessary"
+      }
+    ],
+    "medium_risks": [
+      {
+        "risk": "Connector generation fails (mcp-builder skill unavailable)",
+        "impact": "High",
+        "probability": "Low",
+        "mitigation": "Verify Claude Skills are properly enabled, check for skill updates, use TASK-TEMPLATE-014 for manual coding fallback"
+      },
+      {
+        "risk": "Dependency installation errors during deployment",
+        "impact": "Medium",
+        "probability": "Medium",
+        "mitigation": "Pre-install Node.js and verify version compatibility, use npm audit to check for conflicts, have fallback to manual dependency installation"
+      }
+    ],
+    "low_risks": [
+      {
+        "risk": "OAuth authentication expires periodically",
+        "impact": "Low",
+        "probability": "High",
+        "mitigation": "Set up refresh tokens, document re-authentication process, schedule periodic token renewal"
+      }
+    ]
+  },
+  "optimization_tips": [
+    "Complete all of Phase 2 (both connector generations) before starting Phase 3 to batch deployment work",
+    "Deploy both connectors in parallel using multiple terminal windows to save 5 minutes",
+    "Test each connector individually before moving to stacked configuration",
+    "Start with morning email automation (simpler) before attempting stacked connectors",
+    "Document your workflow configurations for easy replication across team members",
+    "Monitor automation success rates weekly and iterate on prompt/template quality",
+    "Consider adding CRM connector later to create 3-way stacked workflow (Calendar + Gmail + CRM)"
+  ],
+  "variation_guidance": {
+    "minimum_viable_setup": {
+      "recommended_phases": [
+        1,
+        2,
+        3
+      ],
+      "skip_phases": [
+        4
+      ],
+      "rationale": "Get connectors deployed and ready to use manually without automation workflows",
+      "time_savings": "3.5 hours saved in setup, can add automation later incrementally"
+    },
+    "quick_value_setup": {
+      "recommended_phases": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "skip_tasks": [
+        "Task 7 (Stacked Connector)"
+      ],
+      "rationale": "Get immediate value from basic email automation (5-10 hrs/week) without complex stacking",
+      "time_savings": "2-3 hours saved, still achieves significant ROI"
+    },
+    "maximum_automation": {
+      "recommended_phases": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "additional_connectors": [
+        "CRM connector (TASK-TEMPLATE-006)",
+        "Slack connector (TASK-TEMPLATE-006)",
+        "Additional email accounts"
+      ],
+      "rationale": "Full implementation for maximum ongoing time savings (20+ hrs/week with CRM integration)",
+      "total_investment": "5-6 hours with additional connectors"
+    },
+    "team_rollout": {
+      "approach": "Pilot with 1 user first, then roll out to team",
+      "phases_for_pilot": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "phases_for_team": [
+        3,
+        4
+      ],
+      "rationale": "Once connectors are generated and validated, deploy to multiple team members by repeating Phases 3-4 only"
+    }
+  },
+  "related_templates": {
+    "prerequisite_templates": [
+      "None (this is a foundational setup)"
+    ],
+    "complementary_templates": [
+      "TASK-TEMPLATE-012: Newsletter Auto-Reply (Additional email automation)",
+      "TASK-TEMPLATE-014: AI-Powered HTML Parsing (For custom connector features)",
+      "Future: CRM MCP Connector Generation and Deployment"
+    ],
+    "follow_up_templates": [
+      "TEMPLATE-PROJ-LG-001: Complete Lead-to-Customer Flow (uses this automation stack)",
+      "Future: Multi-Channel Communication Automation",
+      "Future: Team-Wide MCP Rollout"
+    ]
+  },
+  "version_history": [
+    {
+      "version": "1.0",
+      "date": "2025-11-12",
+      "changes": "Initial template creation from Phase 6 cross-department workflow documentation",
+      "author": "AI Assistant (Claude Sonnet 4.5)"
+    }
+  ],
+  "tags": [
+    "mcp-automation",
+    "email-automation",
+    "calendar-automation",
+    "connector-generation",
+    "infrastructure-setup",
+    "time-savings",
+    "dev-ops-collaboration",
+    "foundational-setup"
+  ]
+}

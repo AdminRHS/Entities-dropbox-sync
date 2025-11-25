@@ -1,0 +1,40 @@
+{
+  "tool_id": "TOOL-VIDEO-002",
+  "tool_name": "Adobe Premiere",
+  "tool_category": "Video Editing",
+  "description": "Professional video editing software for creating and editing videos",
+  "skills_count": 2,
+  "last_updated": "2025-11-22",
+  "skills": [
+    {
+      "skill_id": "SKL-050",
+      "skill_phrase": "edited videos in Adobe Premiere",
+      "components": {
+        "action": "edit",
+        "object": "videos",
+        "tool": "Adobe Premiere"
+      },
+      "department": "Video",
+      "professions": ["video editor"],
+      "difficulty_level": "advanced",
+      "frequency": "daily",
+      "time_estimate_minutes": 180,
+      "automation_potential": "low"
+    },
+    {
+      "skill_id": "SKL-051",
+      "skill_phrase": "added subtitles in Adobe Premiere",
+      "components": {
+        "action": "add",
+        "object": "subtitles",
+        "tool": "Adobe Premiere"
+      },
+      "department": "Video",
+      "professions": ["video editor"],
+      "difficulty_level": "beginner",
+      "frequency": "daily",
+      "time_estimate_minutes": 30,
+      "automation_potential": "medium"
+    }
+  ]
+}

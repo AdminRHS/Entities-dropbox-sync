@@ -1,0 +1,422 @@
+{
+  "entity_type": "TASK_MANAGERS",
+  "sub_entity": "Task_Template",
+  "template_id": "Task-Template-009",
+  "task_name": "Build Custom Niche Platform Scraper",
+  "action": "Build",
+  "object": "Custom Scraper",
+  "context": "via n8n + HTTP requests",
+  "description": "Build custom scraper for niche platforms using n8n + HTTP requests (2-4 hours setup, 40-60% enrichment, 11.5% reply rate - highest in industry)",
+  "department": "LG",
+  "profession": "Backend Developer",
+  "priority": "High",
+  "estimated_duration": "2-4 hours (one-time setup)",
+  "execution_duration": "30 minutes per campaign",
+  "status": "Active",
+  "complexity": "Very High",
+  "automation_potential": "Medium (40-60%)",
+  "success_rate": "40-60% enrichment",
+  "reply_rate": "11.5% (vs 1-3% industry average)",
+  "best_for": "Niche targeting, ultra-specific audiences",
+  "dependencies": [
+    "n8n workflow automation platform access",
+    "Target niche platform identified and researched",
+    "HTTP request patterns understood",
+    "Anymailfinder account for enrichment"
+  ],
+  "tools_required": [
+    "TOOL-AUTO-001 (n8n)",
+    "TOOL-020 (Apify - optional)",
+    "TOOL-DATA-007 (Anymailfinder)"
+  ],
+  "skills_required": [
+    "SKL-062 (built enrichment pipelines via n8n)",
+    "SKL-060 (scraped lead lists via Apify - optional)",
+    "SKL-061 (enriched emails via Anymailfinder)"
+  ],
+  "objects_used": [
+    "OBJ-LG-001 (Lead List)",
+    "OBJ-LG-009 (n8n Workflow)",
+    "OBJ-LG-002 (Company Domain)",
+    "OBJ-LG-003 (Decision-Maker Email)"
+  ],
+  "workflow_reference": "WF-LG-013",
+  "success_criteria": [
+    "Custom scraper built and tested successfully",
+    "Scraper extracts 100-500 niche leads",
+    "40-60% enrichment success rate",
+    "11%+ reply rate achieved (vs 1-3% industry average)",
+    "Scraper workflow documented for reuse"
+  ],
+  "responsibilities": {
+    "responsible": "Backend Developer",
+    "accountable": "Development Lead",
+    "consulted": [
+      "Lead Generator",
+      "Automation Engineer"
+    ],
+    "informed": [
+      "Sales Team",
+      "SDR Team"
+    ]
+  },
+  "steps": [
+    {
+      "step_number": 1,
+      "name": "Identify and research target niche platform",
+      "action": "research",
+      "tool": "Browser + DevTools",
+      "responsibility": "Backend Developer",
+      "placement": "Target platform website",
+      "duration": "30 minutes",
+      "dependencies": [],
+      "inputs": [
+        "Niche platform URL (e.g., specialized forums, directories, communities)"
+      ],
+      "outputs": [
+        "Platform structure documented",
+        "Data fields identified",
+        "Access patterns understood"
+      ],
+      "success_criteria": "Can identify 100-500 potential leads on platform",
+      "responsibility_id": "RESP-LG-023",
+      "responsibility_name": "research identify and research target niche platform",
+      "_original_action": "research"
+    },
+    {
+      "step_number": 2,
+      "name": "Analyze HTTP requests using browser DevTools",
+      "action": "analyze",
+      "tool": "Browser DevTools - Network tab",
+      "responsibility": "Backend Developer",
+      "placement": "Browser console",
+      "duration": "20 minutes",
+      "dependencies": [
+        "Step 1"
+      ],
+      "inputs": [
+        "Platform interactions captured in DevTools"
+      ],
+      "outputs": [
+        "API endpoints identified",
+        "Request headers documented",
+        "Response format understood"
+      ],
+      "success_criteria": "All necessary API calls identified and documented",
+      "responsibility_id": "RESP-LG-024",
+      "responsibility_name": "analyze analyze http requests using browser devtools",
+      "_original_action": "analyze"
+    },
+    {
+      "step_number": 3,
+      "name": "Design n8n workflow architecture",
+      "action": "design",
+      "tool": "TOOL-AUTO-001 (n8n)",
+      "responsibility": "Backend Developer",
+      "placement": "n8n workflow canvas",
+      "duration": "30 minutes",
+      "dependencies": [
+        "Step 2"
+      ],
+      "inputs": [
+        "API endpoints",
+        "Data flow requirements"
+      ],
+      "outputs": [
+        "Workflow design with nodes: HTTP Request → Parse → Clean → Export"
+      ],
+      "success_criteria": "Workflow architecture documented and ready to build",
+      "responsibility_id": "RESP-LG-025",
+      "responsibility_name": "design design n8n workflow architecture",
+      "_original_action": "design"
+    },
+    {
+      "step_number": 4,
+      "name": "Build HTTP request nodes in n8n",
+      "action": "build",
+      "tool": "TOOL-AUTO-001 (n8n)",
+      "responsibility": "Backend Developer",
+      "placement": "n8n workflow",
+      "duration": "45 minutes",
+      "dependencies": [
+        "Step 3"
+      ],
+      "inputs": [
+        "API endpoints",
+        "Request headers",
+        "Query parameters"
+      ],
+      "outputs": [
+        "HTTP request nodes configured and tested"
+      ],
+      "success_criteria": "Nodes successfully fetch data from target platform",
+      "responsibility_id": "RESP-LG-026",
+      "responsibility_name": "build http request nodes",
+      "_original_action": "build"
+    },
+    {
+      "step_number": 5,
+      "name": "Build data parsing and cleaning logic",
+      "action": "build",
+      "tool": "TOOL-AUTO-001 (n8n)",
+      "responsibility": "Backend Developer",
+      "placement": "n8n workflow - Function nodes",
+      "duration": "45 minutes",
+      "dependencies": [
+        "Step 4"
+      ],
+      "inputs": [
+        "Raw API responses"
+      ],
+      "outputs": [
+        "Parsed and cleaned data: company names, domains, contact info"
+      ],
+      "success_criteria": "Data extracted and structured correctly",
+      "responsibility_id": "RESP-DEV-001",
+      "responsibility_name": "build data",
+      "_original_action": "build"
+    },
+    {
+      "step_number": 6,
+      "name": "Test scraper on sample data",
+      "action": "test",
+      "tool": "TOOL-AUTO-001 (n8n)",
+      "responsibility": "Backend Developer",
+      "placement": "n8n workflow execution",
+      "duration": "15 minutes",
+      "dependencies": [
+        "Step 5"
+      ],
+      "inputs": [
+        "Sample platform data"
+      ],
+      "outputs": [
+        "Test results: 10-20 leads extracted successfully"
+      ],
+      "success_criteria": "Scraper works without errors, data quality good",
+      "responsibility_id": "RESP-LG-027",
+      "responsibility_name": "test data",
+      "_original_action": "test"
+    },
+    {
+      "step_number": 7,
+      "name": "Run full scrape on niche platform",
+      "action": "execute",
+      "tool": "TOOL-AUTO-001 (n8n)",
+      "responsibility": "Backend Developer",
+      "placement": "n8n workflow execution",
+      "duration": "20-30 minutes",
+      "dependencies": [
+        "Step 6"
+      ],
+      "inputs": [
+        "Full platform access"
+      ],
+      "outputs": [
+        "100-500 niche leads extracted"
+      ],
+      "success_criteria": "All available leads scraped successfully",
+      "responsibility_id": "RESP-LG-028",
+      "responsibility_name": "execute run full scrape on niche platform",
+      "_original_action": "execute"
+    },
+    {
+      "step_number": 8,
+      "name": "Enrich leads with emails via Anymailfinder",
+      "action": "enrich",
+      "tool": "TOOL-DATA-007 (Anymailfinder)",
+      "responsibility": "Lead Generator",
+      "placement": "Anymailfinder platform",
+      "duration": "15 minutes",
+      "dependencies": [
+        "Step 7"
+      ],
+      "inputs": [
+        "Scraped company domains/names"
+      ],
+      "outputs": [
+        "40-60 enriched emails from 100-500 leads"
+      ],
+      "success_criteria": "40-60% enrichment success rate achieved",
+      "responsibility_id": "RESP-LG-010",
+      "responsibility_name": "enrich leads",
+      "_original_action": "enrich"
+    },
+    {
+      "step_number": 9,
+      "name": "Document scraper for future use",
+      "action": "document",
+      "tool": "Markdown documentation",
+      "responsibility": "Backend Developer",
+      "placement": "Scraper documentation file",
+      "duration": "15 minutes",
+      "dependencies": [
+        "Step 8"
+      ],
+      "inputs": [
+        "Workflow design",
+        "API endpoints",
+        "Success metrics"
+      ],
+      "outputs": [
+        "Complete scraper documentation with reuse instructions"
+      ],
+      "success_criteria": "Another developer can replicate the scraper from docs",
+      "responsibility_id": "RESP-LG-029",
+      "responsibility_name": "document document scraper",
+      "_original_action": "document"
+    }
+  ],
+  "checklist": [
+    {
+      "item": "Target platform identified with 100-500 potential leads",
+      "guide": "Niche platforms work best - specialized forums, directories, communities",
+      "required": true
+    },
+    {
+      "item": "API endpoints documented via DevTools",
+      "guide": "Capture all necessary HTTP requests in browser Network tab",
+      "required": true
+    },
+    {
+      "item": "n8n workflow tested on sample data first",
+      "guide": "Always test with 10-20 leads before full scrape",
+      "required": true
+    },
+    {
+      "item": "Scraper extracts 100-500 leads successfully",
+      "guide": "If fewer, platform may be too small for this effort",
+      "required": true
+    },
+    {
+      "item": "40-60% enrichment rate achieved",
+      "guide": "If lower, check lead data quality from scrape",
+      "required": true
+    },
+    {
+      "item": "Workflow documented for reuse",
+      "guide": "Investment pays off when scraper can be reused or adapted",
+      "required": true
+    }
+  ],
+  "performance_metrics": {
+    "setup_time": "2-4 hours (one-time investment)",
+    "execution_time": "30 minutes per campaign",
+    "success_rate": "40-60% enrichment",
+    "reply_rate": "11.5% (HIGHEST - vs 1-3% industry average)",
+    "typical_volume": "100-500 niche leads per scrape",
+    "complexity": "Very High"
+  },
+  "unique_value_proposition": {
+    "highest_reply_rate": "11.5% vs 1-3% industry average",
+    "reason": "Niche targeting = ultra-specific audiences = higher relevance",
+    "best_for": "Quality over quantity prospecting",
+    "trade_off": "High setup time (2-4 hrs) but unmatched reply rates"
+  },
+  "best_practices": [
+    "HIGHEST reply rate (11.5% vs 1-3% industry average)",
+    "Use for niche, ultra-specific audience targeting",
+    "Invest time in setup (2-4 hrs) for long-term reuse",
+    "Test on sample data before full scrape",
+    "Document workflow thoroughly for future campaigns",
+    "Trade volume for quality - perfect for specialized markets"
+  ],
+  "example_niche_platforms": [
+    {
+      "platform": "Industry-specific forums (e.g., WebmasterWorld)",
+      "use_case": "Find web agency owners",
+      "volume": "200-500 leads",
+      "reply_rate": "10-15%"
+    },
+    {
+      "platform": "Specialized directories (e.g., Clutch for agencies)",
+      "use_case": "Target specific agency types",
+      "volume": "300-800 leads",
+      "reply_rate": "8-12%"
+    },
+    {
+      "platform": "Niche communities (e.g., Product Hunt makers)",
+      "use_case": "Reach startup founders",
+      "volume": "150-400 leads",
+      "reply_rate": "12-18%"
+    }
+  ],
+  "when_to_use": [
+    "Targeting ultra-niche audiences (11.5% reply rate)",
+    "Standard scraping platforms don't cover your niche",
+    "Quality matters more than volume",
+    "Have 2-4 hours for initial setup investment",
+    "Can reuse scraper for multiple campaigns"
+  ],
+  "when_not_to_use": [
+    "Need high volume quickly (use Google SERP instead)",
+    "Target audience available on LinkedIn (use Sales Nav instead)",
+    "Don't have n8n workflow automation experience",
+    "One-time campaign (setup time not worth it)",
+    "Need immediate results (setup takes 2-4 hours)"
+  ],
+  "common_issues": [
+    {
+      "issue": "Platform blocks or rate-limits requests",
+      "solution": "Add delays between requests, use rotating IPs, respect robots.txt"
+    },
+    {
+      "issue": "Data parsing fails due to format changes",
+      "solution": "Add error handling, monitor platform changes, build flexible parsers"
+    },
+    {
+      "issue": "Low lead volume (<100)",
+      "solution": "Platform may be too small, consider alternative niche platforms"
+    },
+    {
+      "issue": "Enrichment rate below 40%",
+      "solution": "Check scraped data quality, may need better domain extraction logic"
+    },
+    {
+      "issue": "n8n workflow too complex to maintain",
+      "solution": "Document thoroughly, modularize workflow, add comments to nodes"
+    }
+  ],
+  "roi_analysis": {
+    "setup_investment": "2-4 hours developer time",
+    "reply_rate_improvement": "11.5% vs 1-3% = 4-11x better",
+    "reusability": "Workflow can be used for multiple campaigns",
+    "break_even": "After 2-3 campaigns, setup time justified by results"
+  },
+  "technical_requirements": [
+    "n8n workflow automation platform",
+    "HTTP request debugging skills",
+    "JSON/HTML parsing knowledge",
+    "API authentication understanding",
+    "Error handling best practices"
+  ],
+  "tags": [
+    "lead_generation",
+    "custom_scraping",
+    "n8n",
+    "niche_targeting",
+    "high_reply_rate",
+    "automation"
+  ],
+  "related_workflows": [
+    "WF-LG-013"
+  ],
+  "related_skills": [
+    "SKL-062",
+    "SKL-060",
+    "SKL-061"
+  ],
+  "related_professions": [
+    "Backend Developer",
+    "Automation Engineer",
+    "Lead Generator"
+  ],
+  "version": "1.0",
+  "created": "2025-11-12",
+  "last_updated": "2025-11-12",
+  "source": "Video_006_Lead_Generation_Analysis",
+  "responsibility_id": "RESP-LG-022",
+  "responsibility_name": "build custom scraper",
+  "_original_action": "Build",
+  "_original_object": "Custom Scraper"
+}

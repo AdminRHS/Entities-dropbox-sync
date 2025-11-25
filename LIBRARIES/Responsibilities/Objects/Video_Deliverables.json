@@ -1,0 +1,149 @@
+{
+  "entity_type": "LIBRARIES",
+  "library": "Objects",
+  "object_category": "Video_Deliverables",
+  "description": "Professional video deliverables for Vimeo showcases, showreels, and high-quality video portfolio content",
+  "created": "2025-11-13",
+  "updated": "2025-11-24",
+  "total_objects": 3,
+  "objects": [
+    {
+      "object_id": "OBJ-VID-001",
+      "object_name": "Vimeo Showreel",
+      "full_name": "Vimeo Professional Portfolio Showreel",
+      "type": "Video Portfolio",
+      "format": "High-quality video (16:9)",
+      "description": "Professional portfolio showcase (60-90 seconds, 4K) highlighting best work for client review and portfolio presentation",
+      "typical_size": "60-90 seconds",
+      "resolution": "4K preferred (3840×2160px)",
+      "aspect_ratio": "16:9 (horizontal)",
+      "created_with": ["TOOL-VID-002"],
+      "tool_details": {
+        "TOOL-VID-002": "Vimeo - Professional video hosting and portfolio platform"
+      },
+      "used_by_professions": ["Videographer"],
+      "created_in_workflows": [],
+      "related_actions": ["edit", "render", "upload", "showcase"],
+      "content_types": [
+        "Compilation of best work",
+        "Project highlights",
+        "Client work showcase",
+        "Professional demo reel"
+      ],
+      "use_cases": [
+        "Client acquisition",
+        "Job applications",
+        "Professional portfolio",
+        "Agency pitches"
+      ],
+      "best_practices": [
+        "60-90 seconds duration (not too long)",
+        "4K resolution for highest quality",
+        "No compression - highest possible quality",
+        "Showcase best work only",
+        "Update monthly with recent projects",
+        "Professional music and pacing",
+        "Include variety of project types"
+      ],
+      "performance_metrics": ["Views", "Likes", "Client inquiries", "Portfolio views"],
+      "source": "SMM_Research_Document_2_Content_Strategy_Multi_Platform"
+    },
+    {
+      "object_id": "OBJ-VID-002",
+      "object_name": "Video Case Study",
+      "full_name": "Video Project Case Study with Behind-the-Scenes",
+      "type": "Video Documentation",
+      "format": "Video (16:9 or 9:16)",
+      "description": "Project documentation with behind-the-scenes content showing process, challenges, and results for portfolio platforms",
+      "typical_size": "3-10 minutes",
+      "resolution": "1080p-4K",
+      "aspect_ratio": "16:9 or 9:16 (platform-dependent)",
+      "created_with": ["TOOL-VID-002", "TOOL-PORT-001"],
+      "tool_details": {
+        "TOOL-VID-002": "Vimeo - Professional hosting",
+        "TOOL-PORT-001": "Behance - Case study embedding"
+      },
+      "used_by_professions": ["Videographer", "Designer"],
+      "created_in_workflows": [],
+      "related_actions": ["record", "edit", "document", "showcase"],
+      "content_types": [
+        "Project process documentation",
+        "Behind-the-scenes footage",
+        "Client testimonial videos",
+        "Process explanation videos",
+        "Results showcase"
+      ],
+      "use_cases": [
+        "Portfolio case studies",
+        "Process transparency",
+        "Client testimonials",
+        "Educational content"
+      ],
+      "best_practices": [
+        "3-10 minutes comprehensive documentation",
+        "Show challenge, process, and results",
+        "Include client testimonials if available",
+        "High-quality production value",
+        "Embed in Behance projects for full context"
+      ],
+      "performance_metrics": ["Views", "Engagement", "Portfolio inquiries"],
+      "source": "SMM_Research_Document_2_Content_Strategy_Multi_Platform"
+    },
+    {
+      "object_id": "OBJ-VID-003",
+      "object_name": "Animated Video Clip",
+      "full_name": "AI-Generated Animated Video Clip from Still Image",
+      "type": "Short-Form AI Video",
+      "format": "MP4 video file",
+      "description": "Short AI-animated video clip (3-8 seconds) generated from still images using Google AI Studio's Veo integration. Transforms static photos into dynamic motion content with natural animation based on text prompts.",
+      "typical_size": "3-8 seconds",
+      "resolution": "Variable (depends on source image and aspect ratio)",
+      "aspect_ratio": "Customizable (16:9, 9:16, 1:1, etc.)",
+      "created_with": ["TOOL-AI-222"],
+      "tool_details": {
+        "TOOL-AI-222": "Google AI Studio - Generate Media tab with Veo video generator"
+      },
+      "used_by_professions": ["Videographer", "SMM_Specialist", "Designer", "Content_Creator"],
+      "created_in_workflows": ["WRF-023"],
+      "workflow_context": {
+        "WRF-023": "Core output - Animated video clip from image-to-video generation"
+      },
+      "related_actions": ["navigate", "upload", "write", "customize", "generate", "download"],
+      "content_types": [
+        "Product animation for social media",
+        "Dynamic thumbnails",
+        "Animated historical photos",
+        "Motion graphics for presentations",
+        "Cinemagraphs for websites",
+        "Animated illustrations"
+      ],
+      "use_cases": [
+        "Social media Stories content",
+        "Product photography animation",
+        "Website hero sections",
+        "Email marketing visuals",
+        "Presentation enhancement",
+        "Video concept prototyping"
+      ],
+      "best_practices": [
+        "Use high-quality source images for best results",
+        "Be specific in motion descriptions (direction, speed, type)",
+        "Start with simple animations before complex movements",
+        "Generate multiple variants to compare",
+        "Use negative prompts to avoid unwanted artifacts",
+        "Match aspect ratio to target platform",
+        "Keep animations natural and realistic"
+      ],
+      "typical_prompts": [
+        "'Make the dog stand up and walk away'",
+        "'Zoom into the building entrance'",
+        "'Add subtle camera pan across the landscape'",
+        "'Animate the person waving'",
+        "'Create movement in the background crowd'"
+      ],
+      "time_saved": "Eliminates 30-120 minutes of manual video editing or animation work",
+      "performance_metrics": ["Generation quality", "Animation smoothness", "Prompt accuracy", "Time saved"],
+      "source": "Video_023"
+    }
+  ]
+}

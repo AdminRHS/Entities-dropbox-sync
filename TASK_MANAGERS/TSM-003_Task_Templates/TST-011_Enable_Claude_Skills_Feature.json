@@ -1,0 +1,287 @@
+{
+  "entity_type": "TASK_MANAGERS",
+  "sub_entity": "Task_Template",
+  "id": "TST-011",
+  "template_id": "Task-Template-011",
+  "task_name": "Enable Claude Skills Feature",
+  "action": "Enable",
+  "object": "Claude Skills",
+  "context": "in Claude Desktop App",
+  "description": "Enable Claude Skills feature in Claude Desktop settings (1-2 minutes, prerequisite for mcp-builder and other skills)",
+  "department": "Dev",
+  "profession": "AI Engineer",
+  "priority": "High",
+  "estimated_duration": "1-2 minutes",
+  "status": "Active",
+  "complexity": "Low",
+  "automation_potential": "Low (<40%)",
+  "success_rate": "100%",
+  "is_prerequisite": true,
+  "enables": [
+    "TASK-TEMPLATE-006 (MCP Connector Generation)",
+    "All MCP automation workflows"
+  ],
+  "dependencies": [
+    "Claude Desktop App installed",
+    "Claude subscription active (Pro or higher)",
+    "Latest version of Claude Desktop App"
+  ],
+  "tools_required": [
+    "TOOL-AI-030 (Claude Desktop App)"
+  ],
+  "skills_required": [],
+  "objects_used": [
+    "OBJ-AI-004 (Claude Skill)"
+  ],
+  "workflow_reference": "WF-AI-001",
+  "success_criteria": [
+    "Skills feature enabled in Claude Desktop settings",
+    "Skills tab visible in settings",
+    "mcp-builder skill available to enable",
+    "Feature confirmed working with test prompt"
+  ],
+  "responsibilities": {
+    "responsible": "AI Engineer",
+    "accountable": "Development Lead",
+    "consulted": [],
+    "informed": [
+      "Operations Team",
+      "Automation Team"
+    ]
+  },
+  "steps": [
+    {
+      "step_number": 1,
+      "name": "Open Claude Desktop App",
+      "action": "open",
+      "tool": "TOOL-AI-030 (Claude Desktop App)",
+      "responsibility": "AI Engineer",
+      "placement": "Desktop application",
+      "duration": "5 seconds",
+      "dependencies": [],
+      "inputs": [],
+      "outputs": [
+        "Claude Desktop App opened"
+      ],
+      "success_criteria": "App launches successfully",
+      "responsibility_id": "RESP-DEV-028",
+      "responsibility_name": "open open claude desktop app",
+      "_original_action": "open"
+    },
+    {
+      "step_number": 2,
+      "name": "Navigate to Settings",
+      "action": "navigate",
+      "tool": "TOOL-AI-030 (Claude Desktop App)",
+      "responsibility": "AI Engineer",
+      "placement": "Claude Desktop - Menu",
+      "duration": "10 seconds",
+      "dependencies": [
+        "Step 1"
+      ],
+      "inputs": [
+        "Click settings icon or menu"
+      ],
+      "outputs": [
+        "Settings panel opened"
+      ],
+      "success_criteria": "Settings visible",
+      "responsibility_id": "RESP-DEV-029",
+      "responsibility_name": "navigate navigate",
+      "_original_action": "navigate"
+    },
+    {
+      "step_number": 3,
+      "name": "Locate Skills section in settings",
+      "action": "locate",
+      "tool": "TOOL-AI-030 (Claude Desktop App)",
+      "responsibility": "AI Engineer",
+      "placement": "Settings - Skills tab",
+      "duration": "10 seconds",
+      "dependencies": [
+        "Step 2"
+      ],
+      "inputs": [
+        "Settings panel"
+      ],
+      "outputs": [
+        "Skills section located"
+      ],
+      "success_criteria": "Skills tab visible in settings menu",
+      "responsibility_id": "RESP-DEV-030",
+      "responsibility_name": "locate locate skills section",
+      "_original_action": "locate"
+    },
+    {
+      "step_number": 4,
+      "name": "Enable Skills feature toggle",
+      "action": "enable",
+      "tool": "TOOL-AI-030 (Claude Desktop App)",
+      "responsibility": "AI Engineer",
+      "placement": "Settings - Skills - Enable toggle",
+      "duration": "5 seconds",
+      "dependencies": [
+        "Step 3"
+      ],
+      "inputs": [
+        "Skills toggle switch"
+      ],
+      "outputs": [
+        "Skills feature enabled"
+      ],
+      "success_criteria": "Toggle shows as ON, skills list appears",
+      "responsibility_id": "RESP-DEV-031",
+      "responsibility_name": "enable enable skills feature toggle",
+      "_original_action": "enable"
+    },
+    {
+      "step_number": 5,
+      "name": "Verify mcp-builder skill is available",
+      "action": "verify",
+      "tool": "TOOL-AI-030 (Claude Desktop App)",
+      "responsibility": "AI Engineer",
+      "placement": "Settings - Skills - Available skills list",
+      "duration": "10 seconds",
+      "dependencies": [
+        "Step 4"
+      ],
+      "inputs": [
+        "Skills list"
+      ],
+      "outputs": [
+        "mcp-builder skill visible in list"
+      ],
+      "success_criteria": "mcp-builder and other skills shown as available",
+      "responsibility_id": "RESP-DEV-032",
+      "responsibility_name": "verify verify mcp-builder skill is available",
+      "_original_action": "verify"
+    },
+    {
+      "step_number": 6,
+      "name": "Test skills feature with simple prompt",
+      "action": "test",
+      "tool": "TOOL-AI-030 (Claude Desktop App)",
+      "responsibility": "AI Engineer",
+      "placement": "Claude chat",
+      "duration": "20 seconds",
+      "dependencies": [
+        "Step 5"
+      ],
+      "inputs": [
+        "Test prompt: 'What skills are available?'"
+      ],
+      "outputs": [
+        "Claude responds with skills list"
+      ],
+      "success_criteria": "Claude acknowledges skills feature is enabled",
+      "responsibility_id": "RESP-DEV-033",
+      "responsibility_name": "test test skills feature",
+      "_original_action": "test"
+    }
+  ],
+  "checklist": [
+    {
+      "item": "Claude Desktop App updated to latest version",
+      "guide": "Skills feature requires recent version, check for updates",
+      "required": true
+    },
+    {
+      "item": "Claude Pro or higher subscription active",
+      "guide": "Skills feature may require paid subscription",
+      "required": true
+    },
+    {
+      "item": "Skills toggle switched to ON",
+      "guide": "Toggle must be enabled in Settings - Skills",
+      "required": true
+    },
+    {
+      "item": "mcp-builder skill visible in list",
+      "guide": "This is the key skill for MCP connector generation",
+      "required": true
+    },
+    {
+      "item": "Feature tested and working",
+      "guide": "Verify with test prompt before using in workflows",
+      "required": true
+    }
+  ],
+  "performance_metrics": {
+    "time_required": "1-2 minutes",
+    "complexity": "Very Low",
+    "success_rate": "100%",
+    "is_one_time_setup": true,
+    "unlocks": "All MCP connector generation capabilities"
+  },
+  "what_this_enables": [
+    "mcp-builder skill for 60-second connector generation",
+    "Custom MCP connector creation (TASK-TEMPLATE-006)",
+    "All MCP automation workflows (TASK-TEMPLATE-005, 007, 012)",
+    "Access to future Claude skills and capabilities"
+  ],
+  "best_practices": [
+    "PREREQUISITE for all MCP automation workflows",
+    "One-time setup, takes 1-2 minutes",
+    "Enable this BEFORE attempting MCP connector generation",
+    "Test feature after enabling to verify it works",
+    "Keep Claude Desktop App updated for latest skills"
+  ],
+  "troubleshooting_tips": [
+    "If Skills tab not visible: Update Claude Desktop App to latest version",
+    "If Skills toggle doesn't work: Restart Claude Desktop App",
+    "If mcp-builder not in list: Check subscription level, may need Pro",
+    "If feature doesn't respond: Verify internet connection, try restarting app"
+  ],
+  "common_issues": [
+    {
+      "issue": "Skills tab not visible in settings",
+      "solution": "Update Claude Desktop to latest version, restart app"
+    },
+    {
+      "issue": "Skills feature toggle grayed out",
+      "solution": "Check subscription level, Skills may require Claude Pro or higher"
+    },
+    {
+      "issue": "mcp-builder skill not in list",
+      "solution": "Ensure feature fully enabled, wait 10-20 seconds for list to load"
+    },
+    {
+      "issue": "Skills don't respond to prompts",
+      "solution": "Disable and re-enable feature, restart Claude Desktop App"
+    }
+  ],
+  "prerequisites_for": [
+    "TASK-TEMPLATE-006: Generate Custom MCP Connector",
+    "TASK-TEMPLATE-010: Deploy MCP Connector Locally",
+    "All MCP-based automation workflows"
+  ],
+  "version_requirements": {
+    "claude_desktop_app": "v1.x or higher (check official docs)",
+    "subscription": "Claude Pro or higher (may vary)",
+    "operating_system": "macOS, Windows, or Linux supported"
+  },
+  "tags": [
+    "claude_skills",
+    "setup",
+    "prerequisite",
+    "mcp",
+    "configuration",
+    "one_time_setup"
+  ],
+  "related_workflows": [
+    "WF-AI-001"
+  ],
+  "related_skills": [],
+  "related_professions": [
+    "AI Engineer",
+    "Backend Developer",
+    "Operations Manager"
+  ],
+  "version": "1.0",
+  "created": "2025-11-12",
+  "last_updated": "2025-11-12",
+  "source": "Video_008_MCP_Connector_Tutorial",
+  "responsibility_name": "enable claude skills",
+  "_original_action": "Enable",
+  "_original_object": "Claude Skills"
+}

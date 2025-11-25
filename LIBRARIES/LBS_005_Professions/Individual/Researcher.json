@@ -1,0 +1,63 @@
+{
+  "entity_type": "LIBRARIES",
+  "sub_entity": "Profession",
+  "profession_name": "researcher",
+  "full_title": "Researcher",
+  "department": "AI",
+  "description": "Research specialist conducting in-depth analysis, information gathering, and synthesis using AI tools to accelerate research processes and extract insights from large volumes of content",
+  "created": "2025-11-24",
+  "updated": "2025-11-24",
+  "skills": [
+    "SKL-062",
+    "SKL-063"
+  ],
+  "skill_details": {
+    "SKL-062": {
+      "skill_phrase": "engineered prompts for AI content generation via Google AI Studio",
+      "proficiency_level": "advanced",
+      "frequency": "daily"
+    },
+    "SKL-063": {
+      "skill_phrase": "synthesized information from AI-generated content via Google AI Studio",
+      "proficiency_level": "expert",
+      "frequency": "daily"
+    }
+  },
+  "tools": [
+    "TOOL-AI-222"
+  ],
+  "tool_details": {
+    "TOOL-AI-222": "Google AI Studio - PRIMARY tool (daily use) - Research acceleration and information extraction"
+  },
+  "workflows": [
+    "WRF-022"
+  ],
+  "workflow_details": {
+    "WRF-022": "Summarize YouTube Video - Extract research insights from educational videos"
+  },
+  "objects": [
+    "OBJ-SMM-016"
+  ],
+  "object_details": {
+    "OBJ-SMM-016": "Video Summary - Structured analysis of research content"
+  },
+  "actions": [
+    "research",
+    "analyze",
+    "synthesize",
+    "extract",
+    "summarize",
+    "validate",
+    "document",
+    "investigate"
+  ],
+  "typical_tasks": [
+    "Extract key findings from research videos and lectures",
+    "Synthesize information from multiple academic sources",
+    "Analyze industry trends from video content",
+    "Validate research hypotheses using AI-extracted data",
+    "Document research findings with AI-generated summaries",
+    "Conduct competitive analysis from video demonstrations"
+  ],
+  "source": "Video_023"
+}

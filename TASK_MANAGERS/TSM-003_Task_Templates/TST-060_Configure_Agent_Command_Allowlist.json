@@ -1,0 +1,150 @@
+{
+  "entity_type": "TASK_MANAGERS",
+  "sub_entity": "Task_Template",
+  "template_id": "Task-Template-060",
+  "version": "1.0",
+  "created_date": "2025-11-17",
+  "last_updated": "2025-11-17",
+  "metadata": {
+    "name": "Configure Agent Terminal Command Allow/Deny Lists",
+    "description": "Configure GitHub Copilot Agent Mode to automatically run trusted terminal commands without requiring manual approval for each execution",
+    "action": "Configure",
+    "object": "Agent Command Allow/Deny Lists",
+    "context": "VS Code Settings for Terminal Automation",
+    "department": "DEV",
+    "complexity": "Low",
+    "estimated_duration": "1-2 minutes",
+    "skill_level_required": "Beginner",
+    "tools_required": [
+      "TOOL-111 (VS Code)",
+      "TOOL-110 (GitHub Copilot)"
+    ],
+    "prerequisites": [
+      "VS Code with GitHub Copilot installed",
+      "Understanding of which commands are safe to auto-approve"
+    ]
+  },
+  "workflow": {
+    "phase": "optimization",
+    "workflow_id": "WF-DEV-006",
+    "dependencies": [],
+    "outputs": [
+      "Allow list configured with trusted commands",
+      "Deny list configured with dangerous commands",
+      "Agent runs allowed commands automatically",
+      "Blocked commands never execute"
+    ]
+  },
+  "steps": [
+    {
+      "step_number": 1,
+      "step_id": "STEP-DEV-060-01",
+      "step_name": "Open VS Code Settings",
+      "description": "Open Settings via File > Preferences > Settings or Ctrl+,",
+      "estimated_time": "5 seconds",
+      "tools": ["TOOL-111"],
+      "output": "Settings panel open"
+    },
+    {
+      "step_number": 2,
+      "step_id": "STEP-DEV-060-02",
+      "step_name": "Navigate to Copilot Experimental Settings",
+      "description": "Navigate to Extensions > GitHub Copilot > Experimental (or use search bar: 'agent terminal')",
+      "estimated_time": "10 seconds",
+      "tools": ["TOOL-111"],
+      "output": "Copilot experimental settings visible"
+    },
+    {
+      "step_number": 3,
+      "step_id": "STEP-DEV-060-03",
+      "step_name": "Locate Allow List Setting",
+      "description": "Find 'Agent: Terminal: Allow List' setting",
+      "estimated_time": "5 seconds",
+      "tools": ["TOOL-111"],
+      "output": "Allow list setting visible with 'Add Item' button"
+    },
+    {
+      "step_number": 4,
+      "step_id": "STEP-DEV-060-04",
+      "step_name": "Add Trusted Commands",
+      "description": "Click 'Add Item' and enter trusted commands one at a time (e.g., 'dotnet build', 'npm install', 'npm test', 'pytest')",
+      "estimated_time": "30 seconds",
+      "tools": ["TOOL-111"],
+      "output": "Allow list populated with trusted commands",
+      "recommended_commands": [
+        "dotnet build",
+        "dotnet run",
+        "dotnet test",
+        "npm install",
+        "npm test",
+        "npm build",
+        "npm run dev",
+        "pytest",
+        "cargo build",
+        "go build"
+      ]
+    },
+    {
+      "step_number": 5,
+      "step_id": "STEP-DEV-060-05",
+      "step_name": "Configure Deny List (Optional)",
+      "description": "Locate 'Agent: Terminal: Deny List' setting and add dangerous commands to block",
+      "estimated_time": "20 seconds",
+      "tools": ["TOOL-111"],
+      "output": "Deny list configured with blocked commands",
+      "recommended_blocks": [
+        "rm -rf",
+        "git push --force",
+        "dd",
+        "sudo rm",
+        "format",
+        "mkfs"
+      ]
+    },
+    {
+      "step_number": 6,
+      "step_id": "STEP-DEV-060-06",
+      "step_name": "Test Configuration",
+      "description": "Open Copilot Agent Mode and request it to run an allowed command (e.g., 'build the project'). Verify it executes automatically without prompt.",
+      "estimated_time": "30 seconds",
+      "tools": ["TOOL-110"],
+      "output": "Allowed command executes automatically in terminal",
+      "success_criteria": "Agent runs command without asking for permission"
+    }
+  ],
+  "quality_checklist": [
+    "Allow list contains frequently used, safe commands",
+    "Deny list contains potentially destructive commands",
+    "Test command executes automatically without approval prompt",
+    "Settings saved and persistent across VS Code restarts",
+    "Only non-destructive commands added to allow list"
+  ],
+  "safety_guidelines": {
+    "allow_list_rules": "Only add commands that are: (1) Non-destructive, (2) Frequently used, (3) Safe to run in any project state",
+    "deny_list_rules": "Block commands that: (1) Delete files/directories, (2) Modify git history, (3) Require elevated permissions, (4) Format disks",
+    "review_frequency": "Review lists quarterly or when adopting new tools/frameworks"
+  },
+  "related_entities": {
+    "workflow": "WF-DEV-006 (Automate Terminal Commands in Agent Mode)",
+    "tools": [
+      "TOOL-111 (VS Code)",
+      "TOOL-110 (GitHub Copilot)"
+    ],
+    "skills_required": [
+      "vs code settings navigation",
+      "agent mode configuration",
+      "command line understanding"
+    ],
+    "discovery_source": "Videos_015.md - VS Code AI Features",
+    "step_templates": [
+      "STEP-DEV-060-01 through STEP-DEV-060-06"
+    ]
+  },
+  "version_history": [
+    {
+      "version": "1.0",
+      "date": "2025-11-17",
+      "changes": "Initial template creation from Videos_015.md workflow extraction"
+    }
+  ]
+}

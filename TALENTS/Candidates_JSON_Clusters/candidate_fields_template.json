@@ -1,0 +1,655 @@
+{
+  "candidate_fields_template": {
+    "id": {
+      "type": "int",
+      "description": "Field: id",
+      "example": 89342
+    },
+    "employee_details_id": {
+      "type": "NoneType",
+      "description": "Field: employee_details_id",
+      "example": null
+    },
+    "presale_id": {
+      "type": "NoneType",
+      "description": "Field: presale_id",
+      "example": null
+    },
+    "source_id": {
+      "type": "str",
+      "description": "Field: source_id",
+      "example": "7"
+    },
+    "name_candidate": {
+      "type": "str",
+      "description": "Field: name_candidate",
+      "example": "Tarasova Valeriia"
+    },
+    "hr_manager": {
+      "type": "object",
+      "fields": {
+        "hr_manager.id": {
+          "type": "int",
+          "description": "Field: id",
+          "example": 8947
+        },
+        "hr_manager.name": {
+          "type": "str",
+          "description": "Field: name",
+          "example": "Неалова Евгения Александровна"
+        },
+        "hr_manager.email": {
+          "type": "str",
+          "description": "Field: email",
+          "example": "zp4058203@gmail.com"
+        },
+        "hr_manager.image_url": {
+          "type": "str",
+          "description": "Field: image_url",
+          "example": "https://crm-s.com/img/default-profile-3.png"
+        },
+        "hr_manager.modules": {
+          "type": "array",
+          "item_type": "unknown",
+          "description": "Array of: modules"
+        }
+      },
+      "description": "Nested object: hr_manager"
+    },
+    "address_id": {
+      "type": "str",
+      "description": "Field: address_id",
+      "example": "91599"
+    },
+    "courses": {
+      "type": "NoneType",
+      "description": "Field: courses",
+      "example": null
+    },
+    "video_url": {
+      "type": "str",
+      "description": "Field: video_url",
+      "example": ""
+    },
+    "age": {
+      "type": "NoneType",
+      "description": "Field: age",
+      "example": null
+    },
+    "shift_id": {
+      "type": "NoneType",
+      "description": "Field: shift_id",
+      "example": null
+    },
+    "status_candidate_id": {
+      "type": "str",
+      "description": "Field: status_candidate_id",
+      "example": "15"
+    },
+    "expected_salary": {
+      "type": "NoneType",
+      "description": "Field: expected_salary",
+      "example": null
+    },
+    "expected_salary_currency_id": {
+      "type": "str",
+      "description": "Field: expected_salary_currency_id",
+      "example": "80"
+    },
+    "started_salary": {
+      "type": "NoneType",
+      "description": "Field: started_salary",
+      "example": null
+    },
+    "started_currency_id": {
+      "type": "str",
+      "description": "Field: started_currency_id",
+      "example": "80"
+    },
+    "note": {
+      "type": "str",
+      "description": "Field: note",
+      "example": "Traffic manager"
+    },
+    "note_admin": {
+      "type": "NoneType",
+      "description": "Field: note_admin",
+      "example": null
+    },
+    "status_admin_id": {
+      "type": "NoneType",
+      "description": "Field: status_admin_id",
+      "example": null
+    },
+    "phone": {
+      "type": "str",
+      "description": "Field: phone",
+      "example": "31645237978"
+    },
+    "email": {
+      "type": "str",
+      "description": "Field: email",
+      "example": "valeriia02022002@gmail.com"
+    },
+    "viber": {
+      "type": "NoneType",
+      "description": "Field: viber",
+      "example": null
+    },
+    "instagram": {
+      "type": "NoneType",
+      "description": "Field: instagram",
+      "example": null
+    },
+    "photo_url": {
+      "type": "NoneType",
+      "description": "Field: photo_url",
+      "example": null
+    },
+    "resume_url": {
+      "type": "NoneType",
+      "description": "Field: resume_url",
+      "example": null
+    },
+    "test_link": {
+      "type": "NoneType",
+      "description": "Field: test_link",
+      "example": null
+    },
+    "start_date": {
+      "type": "NoneType",
+      "description": "Field: start_date",
+      "example": null
+    },
+    "start_time": {
+      "type": "NoneType",
+      "description": "Field: start_time",
+      "example": null
+    },
+    "end_date": {
+      "type": "NoneType",
+      "description": "Field: end_date",
+      "example": null
+    },
+    "portfolio_url": {
+      "type": "NoneType",
+      "description": "Field: portfolio_url",
+      "example": null
+    },
+    "team_lead": {
+      "type": "NoneType",
+      "description": "Field: team_lead",
+      "example": null
+    },
+    "date_interview": {
+      "type": "NoneType",
+      "description": "Field: date_interview",
+      "example": null
+    },
+    "time_interview": {
+      "type": "NoneType",
+      "description": "Field: time_interview",
+      "example": null
+    },
+    "department_id": {
+      "type": "str",
+      "description": "Field: department_id",
+      "example": "14"
+    },
+    "created_by": {
+      "type": "str",
+      "description": "Field: created_by",
+      "example": "8947"
+    },
+    "telegram": {
+      "type": "str",
+      "description": "Field: telegram",
+      "example": "@valeriiatarasova"
+    },
+    "position_id": {
+      "type": "str",
+      "description": "Field: position_id",
+      "example": "161"
+    },
+    "note_team_lead": {
+      "type": "NoneType",
+      "description": "Field: note_team_lead",
+      "example": null
+    },
+    "team_lead_id": {
+      "type": "NoneType",
+      "description": "Field: team_lead_id",
+      "example": null
+    },
+    "approved_status_team_lead": {
+      "type": "str",
+      "description": "Field: approved_status_team_lead",
+      "example": "0"
+    },
+    "approved_bonus": {
+      "type": "str",
+      "description": "Field: approved_bonus",
+      "example": "1"
+    },
+    "approved_bonus_interview": {
+      "type": "str",
+      "description": "Field: approved_bonus_interview",
+      "example": "1"
+    },
+    "approved_bonus_video": {
+      "type": "str",
+      "description": "Field: approved_bonus_video",
+      "example": "1"
+    },
+    "admin_name_id": {
+      "type": "NoneType",
+      "description": "Field: admin_name_id",
+      "example": null
+    },
+    "sub_titles": {
+      "type": "NoneType",
+      "description": "Field: sub_titles",
+      "example": null
+    },
+    "job_site_link": {
+      "type": "NoneType",
+      "description": "Field: job_site_link",
+      "example": null
+    },
+    "last_contact_date": {
+      "type": "str",
+      "description": "Field: last_contact_date",
+      "example": "2025-11-05T00:00:00+00:00"
+    },
+    "is_crm": {
+      "type": "str",
+      "description": "Field: is_crm",
+      "example": "0"
+    },
+    "communication_id": {
+      "type": "str",
+      "description": "Field: communication_id",
+      "example": "12"
+    },
+    "follow_up_date": {
+      "type": "NoneType",
+      "description": "Field: follow_up_date",
+      "example": null
+    },
+    "empl_protege": {
+      "type": "NoneType",
+      "description": "Field: empl_protege",
+      "example": null
+    },
+    "date_video_added": {
+      "type": "NoneType",
+      "description": "Field: date_video_added",
+      "example": null
+    },
+    "video_interview_url": {
+      "type": "NoneType",
+      "description": "Field: video_interview_url",
+      "example": null
+    },
+    "applied_for": {
+      "type": "str",
+      "description": "Field: applied_for",
+      "example": "1"
+    },
+    "company_id": {
+      "type": "str",
+      "description": "Field: company_id",
+      "example": "1"
+    },
+    "resume_editor": {
+      "type": "str",
+      "description": "Field: resume_editor",
+      "example": "&nbsp;AI, Copywriting, Targeting, YouTube, TikTok, Instagram, Facebook"
+    },
+    "time_interview_date": {
+      "type": "object",
+      "fields": {
+        "time_interview_date.date": {
+          "type": "str",
+          "description": "Field: date",
+          "example": "2025-11-06 00:00:00.000000"
+        },
+        "time_interview_date.timezone_type": {
+          "type": "int",
+          "description": "Field: timezone_type",
+          "example": 3
+        },
+        "time_interview_date.timezone": {
+          "type": "str",
+          "description": "Field: timezone",
+          "example": "UTC"
+        }
+      },
+      "description": "Nested object: time_interview_date"
+    },
+    "employees_details": {
+      "type": "NoneType",
+      "description": "Field: employees_details",
+      "example": null
+    },
+    "presale_details": {
+      "type": "NoneType",
+      "description": "Field: presale_details",
+      "example": null
+    },
+    "source": {
+      "type": "object",
+      "fields": {
+        "source.id": {
+          "type": "int",
+          "description": "Field: id",
+          "example": 7
+        },
+        "source.name": {
+          "type": "str",
+          "description": "Field: name",
+          "example": "Work.ua"
+        }
+      },
+      "description": "Nested object: source"
+    },
+    "status_candidate": {
+      "type": "object",
+      "fields": {
+        "status_candidate.id": {
+          "type": "int",
+          "description": "Field: id",
+          "example": 15
+        },
+        "status_candidate.name": {
+          "type": "str",
+          "description": "Field: name",
+          "example": "Application"
+        }
+      },
+      "description": "Nested object: status_candidate"
+    },
+    "status_admin": {
+      "type": "NoneType",
+      "description": "Field: status_admin",
+      "example": null
+    },
+    "department": {
+      "type": "object",
+      "fields": {
+        "department.id": {
+          "type": "int",
+          "description": "Field: id",
+          "example": 14
+        },
+        "department.team_name": {
+          "type": "str",
+          "description": "Field: team_name",
+          "example": "Marketers"
+        }
+      },
+      "description": "Nested object: department"
+    },
+    "position": {
+      "type": "object",
+      "fields": {
+        "position.id": {
+          "type": "int",
+          "description": "Field: id",
+          "example": 161
+        },
+        "position.name": {
+          "type": "str",
+          "description": "Field: name",
+          "example": "Media buyer"
+        },
+        "position.department_id": {
+          "type": "str",
+          "description": "Field: department_id",
+          "example": "14"
+        },
+        "position.department": {
+          "type": "object",
+          "fields": {
+            "position.department.id": {
+              "type": "int",
+              "description": "Field: id",
+              "example": 14
+            },
+            "position.department.team_name": {
+              "type": "str",
+              "description": "Field: team_name",
+              "example": "Marketers"
+            }
+          },
+          "description": "Nested object: department"
+        }
+      },
+      "description": "Nested object: position"
+    },
+    "address": {
+      "type": "object",
+      "fields": {
+        "address.id": {
+          "type": "int",
+          "description": "Field: id",
+          "example": 91599
+        },
+        "address.city_id": {
+          "type": "NoneType",
+          "description": "Field: city_id",
+          "example": null
+        },
+        "address.country_id": {
+          "type": "str",
+          "description": "Field: country_id",
+          "example": "276"
+        },
+        "address.city": {
+          "type": "NoneType",
+          "description": "Field: city",
+          "example": null
+        },
+        "address.country": {
+          "type": "object",
+          "fields": {
+            "address.country.id": {
+              "type": "int",
+              "description": "Field: id",
+              "example": 276
+            },
+            "address.country.name": {
+              "type": "str",
+              "description": "Field: name",
+              "example": "Ukraine"
+            }
+          },
+          "description": "Nested object: country"
+        }
+      },
+      "description": "Nested object: address"
+    },
+    "expected_currency": {
+      "type": "object",
+      "fields": {
+        "expected_currency.id": {
+          "type": "int",
+          "description": "Field: id",
+          "example": 80
+        },
+        "expected_currency.currency_name": {
+          "type": "str",
+          "description": "Field: currency_name",
+          "example": "Hryvnia"
+        },
+        "expected_currency.currency_symbol": {
+          "type": "str",
+          "description": "Field: currency_symbol",
+          "example": "₴"
+        }
+      },
+      "description": "Nested object: expected_currency"
+    },
+    "started_currency": {
+      "type": "object",
+      "fields": {
+        "started_currency.id": {
+          "type": "int",
+          "description": "Field: id",
+          "example": 80
+        },
+        "started_currency.currency_name": {
+          "type": "str",
+          "description": "Field: currency_name",
+          "example": "Hryvnia"
+        },
+        "started_currency.currency_symbol": {
+          "type": "str",
+          "description": "Field: currency_symbol",
+          "example": "₴"
+        }
+      },
+      "description": "Nested object: started_currency"
+    },
+    "channel_communication": {
+      "type": "object",
+      "fields": {
+        "channel_communication.id": {
+          "type": "int",
+          "description": "Field: id",
+          "example": 12
+        },
+        "channel_communication.name": {
+          "type": "str",
+          "description": "Field: name",
+          "example": "Telegram"
+        }
+      },
+      "description": "Nested object: channel_communication"
+    },
+    "hr_languages": {
+      "type": "array",
+      "item_type": "object",
+      "description": "Array of: hr_languages",
+      "item_fields": {
+        "hr_languages[].id": {
+          "type": "int",
+          "description": "Field: id",
+          "example": 184390
+        },
+        "hr_languages[].hr_details_id": {
+          "type": "str",
+          "description": "Field: hr_details_id",
+          "example": "89338"
+        },
+        "hr_languages[].lang_id": {
+          "type": "str",
+          "description": "Field: lang_id",
+          "example": "9"
+        },
+        "hr_languages[].level_id": {
+          "type": "str",
+          "description": "Field: level_id",
+          "example": "3"
+        },
+        "hr_languages[].language": {
+          "type": "object",
+          "fields": {
+            "hr_languages[].language.id": {
+              "type": "int",
+              "description": "Field: id",
+              "example": 9
+            },
+            "hr_languages[].language.name": {
+              "type": "str",
+              "description": "Field: name",
+              "example": "English"
+            }
+          },
+          "description": "Nested object: language"
+        },
+        "hr_languages[].lang_level": {
+          "type": "object",
+          "fields": {
+            "hr_languages[].lang_level.id": {
+              "type": "int",
+              "description": "Field: id",
+              "example": 3
+            },
+            "hr_languages[].lang_level.short_name": {
+              "type": "str",
+              "description": "Field: short_name",
+              "example": "B1"
+            },
+            "hr_languages[].lang_level.ext_name": {
+              "type": "str",
+              "description": "Field: ext_name",
+              "example": "Intermediate"
+            },
+            "hr_languages[].lang_level.name": {
+              "type": "str",
+              "description": "Field: name",
+              "example": "B1 - Intermediate"
+            }
+          },
+          "description": "Nested object: lang_level"
+        }
+      }
+    },
+    "skills": {
+      "type": "array",
+      "item_type": "object",
+      "description": "Array of: skills",
+      "item_fields": {
+        "skills[].id": {
+          "type": "int",
+          "description": "Field: id",
+          "example": 69342
+        },
+        "skills[].hr_details_id": {
+          "type": "str",
+          "description": "Field: hr_details_id",
+          "example": "89338"
+        },
+        "skills[].skill_id": {
+          "type": "str",
+          "description": "Field: skill_id",
+          "example": "2"
+        },
+        "skills[].skill": {
+          "type": "object",
+          "fields": {
+            "skills[].skill.id": {
+              "type": "int",
+              "description": "Field: id",
+              "example": 2
+            },
+            "skills[].skill.name": {
+              "type": "str",
+              "description": "Field: name",
+              "example": "Photoshop (Ps)"
+            }
+          },
+          "description": "Nested object: skill"
+        }
+      }
+    },
+    "work_experiences": {
+      "type": "array",
+      "item_type": "unknown",
+      "description": "Array of: work_experiences"
+    },
+    "educations": {
+      "type": "array",
+      "item_type": "unknown",
+      "description": "Array of: educations"
+    },
+    "hr_departments": {
+      "type": "array",
+      "item_type": "unknown",
+      "description": "Array of: hr_departments"
+    }
+  },
+  "total_fields": 73,
+  "description": "JSON lookup template showing all possible candidate fields with types and descriptions"
+}

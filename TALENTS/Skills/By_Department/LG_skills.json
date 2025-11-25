@@ -1,0 +1,157 @@
+﻿[
+    {
+        "skill_id":  "SKL-010",
+        "skill_phrase":  "sent cold emails via Gmail",
+        "components":  {
+                           "result":  "sent",
+                           "action":  "send",
+                           "object":  "cold emails",
+                           "object_type":  "first connection",
+                           "tool":  "Gmail",
+                           "tool_category":  "Communication"
+                       },
+        "department":  "Lead Generation",
+        "professions":  [
+                            "lead generator"
+                        ],
+        "difficulty_level":  "beginner",
+        "frequency":  "daily",
+        "time_estimate_minutes":  2,
+        "automation_potential":  "high",
+        "related_skills":  [
+                               "SKL-011",
+                               "SKL-012"
+                           ],
+        "example_tasks":  [
+                              "Send 50 personalized cold emails to IT companies in Germany",
+                              "Send introductory email to CTO with value proposition"
+                          ],
+        "training_resources":  [
+
+                               ]
+    },
+    {
+        "skill_id":  "SKL-011",
+        "skill_phrase":  "automated email campaigns using n8n",
+        "components":  {
+                           "result":  "automated",
+                           "action":  "automate",
+                           "object":  "email campaigns",
+                           "object_type":  "cold email, follow-up",
+                           "tool":  "n8n",
+                           "tool_category":  "Automation"
+                       },
+        "department":  "Lead Generation",
+        "professions":  [
+                            "lead generator"
+                        ],
+        "difficulty_level":  "advanced",
+        "frequency":  "weekly",
+        "time_estimate_minutes":  120,
+        "automation_potential":  "very high",
+        "related_skills":  [
+                               "SKL-010",
+                               "SKL-013"
+                           ],
+        "example_tasks":  [
+                              "Set up n8n workflow to send 100 emails with 3-day follow-up sequence",
+                              "Create automated lead enrichment pipeline in n8n"
+                          ],
+        "training_resources":  [
+
+                               ]
+    },
+    {
+        "skill_id":  "SKL-012",
+        "skill_phrase":  "tracked email responses in CRM",
+        "components":  {
+                           "result":  "tracked",
+                           "action":  "track",
+                           "object":  "email responses",
+                           "object_type":  "email open rate",
+                           "tool":  "CRM",
+                           "tool_category":  "Database"
+                       },
+        "department":  "Lead Generation",
+        "professions":  [
+                            "lead generator"
+                        ],
+        "difficulty_level":  "beginner",
+        "frequency":  "daily",
+        "time_estimate_minutes":  10,
+        "automation_potential":  "high",
+        "related_skills":  [
+                               "SKL-010",
+                               "SKL-011"
+                           ],
+        "example_tasks":  [
+                              "Log email send date and track opens/clicks in CRM",
+                              "Update lead status based on email engagement"
+                          ],
+        "training_resources":  [
+
+                               ]
+    },
+    {
+        "skill_id":  "SKL-013",
+        "skill_phrase":  "searched companies on LinkedIn",
+        "components":  {
+                           "result":  "searched",
+                           "action":  "search",
+                           "object":  "companies",
+                           "object_type":  "company profiles",
+                           "tool":  "LinkedIn",
+                           "tool_category":  "Social Network"
+                       },
+        "department":  "Lead Generation",
+        "professions":  [
+                            "lead generator"
+                        ],
+        "difficulty_level":  "beginner",
+        "frequency":  "daily",
+        "time_estimate_minutes":  30,
+        "automation_potential":  "medium",
+        "related_skills":  [
+                               "SKL-014",
+                               "SKL-015"
+                           ],
+        "example_tasks":  [
+                              "Search for SaaS companies with 50-200 employees in Germany",
+                              "Find decision makers (CTOs) in target companies"
+                          ],
+        "training_resources":  [
+
+                               ]
+    },
+    {
+        "skill_id":  "SKL-014",
+        "skill_phrase":  "scraped contact data using automation tools",
+        "components":  {
+                           "result":  "scraped",
+                           "action":  "scrape",
+                           "object":  "contact data",
+                           "object_type":  "valid contacts",
+                           "tool":  "Hunter.io",
+                           "tool_category":  "Automation"
+                       },
+        "department":  "Lead Generation",
+        "professions":  [
+                            "lead generator"
+                        ],
+        "difficulty_level":  "intermediate",
+        "frequency":  "daily",
+        "time_estimate_minutes":  15,
+        "automation_potential":  "high",
+        "related_skills":  [
+                               "SKL-013",
+                               "SKL-015"
+                           ],
+        "example_tasks":  [
+                              "Scrape email addresses for 100 companies using Hunter.io",
+                              "Extract LinkedIn profile data into Google Sheets"
+                          ],
+        "training_resources":  [
+
+                               ]
+    }
+]

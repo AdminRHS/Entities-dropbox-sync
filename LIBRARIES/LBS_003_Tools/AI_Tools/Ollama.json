@@ -1,0 +1,79 @@
+{
+  "entity_type": "LIBRARIES",
+  "sub_entity": "Tool",
+  "tool_id": "TOOL-AI-091",
+  "name": "Ollama",
+  "vendor": "Ollama",
+  "category": "AI/Local LLM Serving",
+  "purpose": "Run and serve local LLMs on your hardware",
+  "description": "Easiest way to run open-source LLMs locally. Automatically leverages multiple GPUs, supports all quantized model versions, configurable context limits to protect memory. Serves pretty much any open-source model. Essential for local AI deployments.",
+  "skill_level_required": "Beginner to Intermediate",
+  "cost_structure": "Free (Open Source)",
+  "platform_compatibility": [
+    "Linux",
+    "Windows",
+    "Mac",
+    "Docker"
+  ],
+  "integration_capabilities": [
+    "OpenAI-compatible API",
+    "Multiple GPU support",
+    "Model quantization",
+    "Context window config",
+    "REST API",
+    "Python SDK",
+    "Open WebUI"
+  ],
+  "documentation_url": "https://ollama.ai/",
+  "actual_remote_helpers_usage": {
+    "primary_use": "Local LLM Serving",
+    "users": [],
+    "use_cases": [
+      "run local llms",
+      "serve models",
+      "offline ai",
+      "private ai",
+      "test models locally"
+    ],
+    "workflows": []
+  },
+  "strengths": [
+    "Easiest to use",
+    "Auto multi-GPU",
+    "All quantized versions",
+    "Context configuration",
+    "No fancy setup needed",
+    "Open-source"
+  ],
+  "limitations": [
+    "Requires local GPU/CPU",
+    "Limited customization vs vLLM"
+  ],
+  "alternatives": [
+    {
+      "name": "vLLM",
+      "comparison": "More configurable but complex"
+    },
+    {
+      "name": "LiteLLM",
+      "comparison": "Multi-provider gateway"
+    }
+  ],
+  "departments_using": [],
+  "tags": [
+    "ollama",
+    "local-llm",
+    "open-source",
+    "self-hosting",
+    "inference"
+  ],
+  "discovery_date": "2025-11-13",
+  "discovery_source": "Video_005",
+  "status": "active",
+  "video_source": {
+    "video_id": "Video_005",
+    "video_title": "My Agentic Engineering Tech Stack",
+    "creator": "Cole",
+    "timestamp": "32:11-33:05"
+  }
+}

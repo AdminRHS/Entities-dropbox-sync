@@ -1,0 +1,340 @@
+{
+  "entity_type": "TASK_MANAGERS",
+  "sub_entity": "Task_Template",
+  "template_id": "Task-Template-067",
+  "version": "1.0",
+  "created_date": "2025-11-17",
+  "last_updated": "2025-11-17",
+  "metadata": {
+    "name": "Apply Decision Framework to Product Choice",
+    "description": "Use principle-based decision framework to evaluate options systematically, document rationale, and make defensible product decisions",
+    "action": "Apply",
+    "object": "Decision Framework to Product Choice",
+    "context": "Structured Product Decision-Making",
+    "department": "Product Management, Leadership",
+    "complexity": "Medium",
+    "estimated_duration": "1-3 hours (depending on decision complexity)",
+    "skill_level_required": "Intermediate",
+    "tools_required": [
+      "TOOL-118 (Product Management Decision Framework)",
+      "Spreadsheet or scoring tool",
+      "Documentation tool (Notion, Google Docs)"
+    ],
+    "prerequisites": [
+      "Decision to make with 2+ options",
+      "Stakeholders identified",
+      "Sufficient context to evaluate options",
+      "Decision framework template (or create one - see Task-Template-071)"
+    ]
+  },
+  "workflow": {
+    "phase": "execution",
+    "workflow_id": "WF-PM-015",
+    "dependencies": [
+      "Optional: Task-Template-071 (Create Decision Framework) if you don't have one yet"
+    ],
+    "outputs": [
+      "Options scored against explicit criteria",
+      "Decision made with clear rationale",
+      "Decision documented for stakeholder alignment",
+      "Defensible choice that can withstand scrutiny",
+      "Foundation for retrospective learning"
+    ]
+  },
+  "steps": [
+    {
+      "step_number": 1,
+      "step_id": "STEP-PM-067-01",
+      "step_name": "Frame the Decision",
+      "description": "Clearly state the decision to be made, why it matters, and what's at stake. Define decision type (feature prioritization, build vs. buy, hire, etc.). Set timeline for decision",
+      "estimated_time": "10-15 minutes",
+      "tools": [],
+      "output": "Clear decision statement with context and timeline",
+      "example": {
+        "decision": "Should we build RAG (Retrieval Augmented Generation) feature in-house or integrate existing API?",
+        "why_it_matters": "Critical for Q2 product launch; impacts 6-month roadmap",
+        "timeline": "Decision needed by end of week for engineering planning"
+      }
+    },
+    {
+      "step_number": 2,
+      "step_id": "STEP-PM-067-02",
+      "step_name": "List All Options",
+      "description": "Enumerate all viable options (typically 2-5). Include status quo / do nothing as option if relevant. Briefly describe each option (1-2 sentences)",
+      "estimated_time": "10-15 minutes",
+      "tools": [],
+      "output": "2-5 options clearly described",
+      "tips": [
+        "Include hybrid options (e.g., 'build MVP in-house, then evaluate')",
+        "Don't prematurely eliminate options (evaluate systematically first)",
+        "Consult stakeholders to ensure no options missed"
+      ]
+    },
+    {
+      "step_number": 3,
+      "step_id": "STEP-PM-067-03",
+      "step_name": "Select Decision Principles/Criteria",
+      "description": "Choose 3-7 criteria that matter for this decision. Use existing decision framework if you have one for this decision type, or define new criteria. Weight criteria by importance",
+      "estimated_time": "15-20 minutes",
+      "tools": ["TOOL-118"],
+      "output": "3-7 weighted decision criteria",
+      "example_criteria": [
+        "User impact (30%): Estimated users affected × value delivered",
+        "Time to market (25%): Speed of delivery (important for Q2 launch)",
+        "Implementation cost (20%): Engineering effort required",
+        "Strategic value (15%): Builds core competency vs. commodity",
+        "Technical risk (10%): Probability of failure or delays"
+      ]
+    },
+    {
+      "step_number": 4,
+      "step_id": "STEP-PM-067-04",
+      "step_name": "Research and Gather Data",
+      "description": "Collect information needed to score each option against criteria. This may involve: talking to engineers, reviewing competitor analysis, checking budget, analyzing user research, etc.",
+      "estimated_time": "30-90 minutes (varies widely)",
+      "tools": ["TOOL-112 (Dropbox Dash)", "TOOL-113 (arXiv)", "Internal docs"],
+      "output": "Sufficient data to score each option on each criterion",
+      "research_methods": [
+        "Engineering estimates (for implementation cost, technical risk)",
+        "User research / feedback (for user impact)",
+        "Competitive analysis (for strategic value)",
+        "Financial analysis (for ROI, budget)",
+        "Expert consultation (for technical feasibility)"
+      ]
+    },
+    {
+      "step_number": 5,
+      "step_id": "STEP-PM-067-05",
+      "step_name": "Score Each Option",
+      "description": "For each option, assign score (1-10 scale) on each criterion. Document brief rationale for each score. Use consistent scale across all options",
+      "estimated_time": "20-30 minutes",
+      "tools": ["Spreadsheet"],
+      "output": "Scorecard matrix with all options scored on all criteria",
+      "scoring_tips": [
+        "Use 1-10 scale (more granular than 1-5)",
+        "Invert criteria where lower is better (e.g., 10 = low cost, 1 = high cost)",
+        "Provide brief justification for each score (1-2 sentences)",
+        "Be honest with uncertainty (note 'low confidence' scores)",
+        "Consider scoring in group to reduce individual bias"
+      ]
+    },
+    {
+      "step_number": 6,
+      "step_id": "STEP-PM-067-06",
+      "step_name": "Calculate Weighted Scores",
+      "description": "Multiply each score by criterion weight, sum to get total weighted score per option. Rank options by total score",
+      "estimated_time": "5-10 minutes",
+      "tools": ["Spreadsheet"],
+      "output": "Options ranked by weighted score",
+      "calculation": "Option_Total = (Criterion1_Score × Weight1) + (Criterion2_Score × Weight2) + ... + (CriterionN_Score × WeightN)"
+    },
+    {
+      "step_number": 7,
+      "step_id": "STEP-PM-067-07",
+      "step_name": "Sanity Check Against Intuition",
+      "description": "Review top-ranked option. Does it align with your gut feel? If not, investigate the discrepancy. Either: (1) intuition was wrong (framework reveals better choice), or (2) criteria/weights don't capture something important (adjust framework)",
+      "estimated_time": "10-15 minutes",
+      "tools": [],
+      "output": "Alignment validated or framework adjusted",
+      "questions_to_ask": [
+        "Would I be comfortable defending this choice to CEO/board?",
+        "Does this align with long-term product vision?",
+        "Am I overlooking qualitative factors not in criteria?",
+        "If scores were close, which option would I choose? Why?"
+      ]
+    },
+    {
+      "step_number": 8,
+      "step_id": "STEP-PM-067-08",
+      "step_name": "Make Decision and Document Rationale",
+      "description": "Select the top-ranked option (or make conscious choice to override if justified). Write decision memo documenting: decision, options considered, criteria used, scores, rationale, and next steps",
+      "estimated_time": "20-30 minutes",
+      "tools": ["TOOL-116", "Notion/Docs"],
+      "output": "Decision memo ready for stakeholder distribution",
+      "memo_structure": {
+        "sections": [
+          "Executive summary (2-3 sentences: decision + key rationale)",
+          "Decision principles (criteria used and why)",
+          "Options considered (brief description of each)",
+          "Evaluation (scorecard or summary table)",
+          "Recommendation (selected option + rationale)",
+          "Risks and mitigations",
+          "Success metrics (how we'll know if this was right choice)",
+          "Next steps and timeline"
+        ],
+        "length": "1-2 pages for most decisions"
+      }
+    },
+    {
+      "step_number": 9,
+      "step_id": "STEP-PM-067-09",
+      "step_name": "Share with Stakeholders",
+      "description": "Distribute decision memo to stakeholders (team, leadership, cross-functional partners). Invite feedback. Set deadline for input. Address concerns and refine if needed",
+      "estimated_time": "15-30 minutes + async feedback cycle",
+      "tools": ["Email, Slack, Notion"],
+      "output": "Stakeholders aligned on decision (or concerns surfaced for resolution)",
+      "communication_tips": [
+        "Frame as 'proposed decision' if seeking input, 'final decision' if informing",
+        "Highlight scorecard/criteria (shows systematic thinking)",
+        "Acknowledge uncertainty explicitly (builds trust)",
+        "Invite 'strong objections' not 'opinions' (focus on showstoppers)",
+        "Set response deadline (avoid indefinite feedback loops)"
+      ]
+    },
+    {
+      "step_number": 10,
+      "step_id": "STEP-PM-067-10",
+      "step_name": "Execute and Track Outcomes",
+      "description": "Move forward with decision. Set calendar reminder for retrospective review (3-6 months). Track success metrics defined in memo. Document learnings to improve future framework",
+      "estimated_time": "10 minutes setup + ongoing tracking",
+      "tools": ["Calendar", "Project tracking"],
+      "output": "Decision in execution; retrospective scheduled",
+      "retrospective_questions": [
+        "Was the decision correct? (measured by success metrics)",
+        "Did the criteria we used matter in practice?",
+        "What did we miss that we should add to framework?",
+        "Would we make the same choice with hindsight?",
+        "How can we improve the decision framework for next time?"
+      ]
+    }
+  ],
+  "quality_checklist": [
+    "Decision clearly framed with context and timeline",
+    "All viable options listed (2-5 options)",
+    "Decision criteria explicit and weighted (3-7 criteria)",
+    "All options scored on all criteria with rationale",
+    "Weighted scores calculated correctly",
+    "Top option aligns with intuition (or discrepancy investigated)",
+    "Decision memo complete (1-2 pages)",
+    "Stakeholders informed and feedback addressed",
+    "Success metrics defined for retrospective evaluation",
+    "Retrospective review scheduled (3-6 months)"
+  ],
+  "example_scorecard": {
+    "decision": "RAG Feature: Build vs. Buy",
+    "options": ["Build in-house", "Integrate OpenAI API", "Hybrid: MVP then decide"],
+    "criteria_and_weights": {
+      "user_impact": "30%",
+      "time_to_market": "25%",
+      "implementation_cost": "20%",
+      "strategic_value": "15%",
+      "technical_risk": "10%"
+    },
+    "scores": {
+      "build_in_house": {
+        "user_impact": 9,
+        "time_to_market": 4,
+        "implementation_cost": 3,
+        "strategic_value": 10,
+        "technical_risk": 5,
+        "weighted_total": 6.4
+      },
+      "integrate_api": {
+        "user_impact": 8,
+        "time_to_market": 9,
+        "implementation_cost": 9,
+        "strategic_value": 3,
+        "technical_risk": 9,
+        "weighted_total": 7.6
+      },
+      "hybrid_mvp": {
+        "user_impact": 7,
+        "time_to_market": 8,
+        "implementation_cost": 7,
+        "strategic_value": 7,
+        "technical_risk": 8,
+        "weighted_total": 7.4
+      }
+    },
+    "decision": "Integrate OpenAI API (scored 7.6) - best for Q2 launch timeline despite lower strategic value"
+  },
+  "time_savings_analysis": {
+    "without_framework": "Debate in meetings (2-4 hours) + indecision/delays (days-weeks) + rework if wrong choice (weeks)",
+    "with_framework": "Structured evaluation (1-3 hours) + clear decision + stakeholder alignment",
+    "time_saved": "1-3 hours on decision process + faster execution + reduced rework risk",
+    "quality_improvement": [
+      "80% reduction in decision reversal rate (better first-time decisions)",
+      "70% faster stakeholder alignment (clear rationale)",
+      "60% more consistent decisions (shared criteria)",
+      "Reduced decision fatigue (systematic process)"
+    ]
+  },
+  "related_entities": {
+    "workflow": "WF-PM-015 (Make Principle-Based Product Decision)",
+    "tools": [
+      "TOOL-118 (Product Management Decision Framework)",
+      "TOOL-116 (Custom Prompt Templates)",
+      "TOOL-112 (Dropbox Dash)",
+      "Spreadsheet tools"
+    ],
+    "related_task_templates": [
+      "Task-Template-071: Create Product Decision Framework for Team",
+      "Task-Template-066: Create Reusable Prompt Template",
+      "Task-Template-062: Conduct Universal Search Across Work Apps"
+    ],
+    "skills_required": [
+      "product strategy",
+      "decision analysis",
+      "stakeholder management",
+      "critical thinking",
+      "documentation writing",
+      "quantitative reasoning"
+    ],
+    "discovery_source": "Video_016.md - Dropbox Dash Interview with Morgan Brown",
+    "step_templates": [
+      "STEP-PM-067-01 through STEP-PM-067-10"
+    ]
+  },
+  "best_practices": {
+    "criteria_selection": [
+      "Start with 3-5 criteria (not 10+; diminishing returns)",
+      "Make criteria measurable where possible (not vague 'quality')",
+      "Weight explicitly (forces clarity on trade-offs)",
+      "Include both short-term and long-term factors",
+      "Test criteria on past decisions (would they have led to good outcomes?)"
+    ],
+    "scoring": [
+      "Use consistent 1-10 scale across all criteria",
+      "Invert scales where needed (10 always = better)",
+      "Document scoring rationale (brief notes)",
+      "Acknowledge uncertainty (flag low-confidence scores)",
+      "Score independently before group discussion (reduce anchoring bias)"
+    ],
+    "stakeholder_management": [
+      "Share criteria before scoring (gather input on what matters)",
+      "Present scorecard in memo (transparency builds trust)",
+      "Acknowledge trade-offs explicitly (e.g., 'chose speed over long-term value')",
+      "Invite 'strong objections' with deadline (avoid endless debate)",
+      "Document dissent if consensus not reached (respectful disagreement)"
+    ]
+  },
+  "common_pitfalls": [
+    "Choosing criteria to justify pre-determined outcome (confirmation bias)",
+    "Too many criteria (analysis paralysis; obscures key trade-offs)",
+    "Criteria too vague ('user value' without definition)",
+    "Ignoring qualitative factors (over-reliance on quantification)",
+    "No sanity check against intuition (miss important unmodeled factors)",
+    "Not documenting decision (lose rationale in 6 months)",
+    "No retrospective (miss learning opportunity)"
+  ],
+  "when_to_use_framework": [
+    "Recurring decision types (prioritization, vendor selection, hiring)",
+    "High-stakes decisions (significant budget, strategic implications)",
+    "Decisions requiring stakeholder alignment (multiple perspectives)",
+    "Decisions you'll need to defend (board, executives, team)",
+    "Complex trade-offs (no obviously right answer)"
+  ],
+  "when_NOT_to_use": [
+    "True emergencies (fire drill; no time for systematic analysis)",
+    "Trivial decisions (overkill for low-impact choices)",
+    "Highly exploratory (not enough information to score criteria)",
+    "One-person, low-stakes (overhead not justified)"
+  ],
+  "version_history": [
+    {
+      "version": "1.0",
+      "date": "2025-11-17",
+      "changes": "Initial template creation from Video_016.md workflow extraction"
+    }
+  ]
+}

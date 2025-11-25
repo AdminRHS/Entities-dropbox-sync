@@ -1,0 +1,273 @@
+{
+  "entity_type": "LIBRARIES",
+  "sub_entity": "Profession",
+  "profession_name": "videographer",
+  "full_title": "Videographer (Content Creator/Educator)",
+  "department": "Creative",
+  "description": "Video content creator specializing in educational tutorials, short-form content, and multi-platform video strategy with focus on YouTube, TikTok, Instagram Reels, and professional portfolio showcases",
+  "created": "2025-11-13",
+  "updated": "2025-11-13",
+  "skills": [
+    "SKL-VID-001",
+    "SKL-VID-002",
+    "SKL-VID-003",
+    "SKL-VID-004",
+    "SKL-VID-005",
+    "SKL-VID-006",
+    "SKL-VID-007",
+    "SKL-VID-008"
+  ],
+  "skill_details": {
+    "SKL-VID-001": {
+      "skill_phrase": "produced comprehensive YouTube tutorials",
+      "proficiency_level": "advanced",
+      "frequency": "weekly"
+    },
+    "SKL-VID-002": {
+      "skill_phrase": "created viral short-form content for TikTok and Reels",
+      "proficiency_level": "advanced",
+      "frequency": "daily"
+    },
+    "SKL-VID-003": {
+      "skill_phrase": "conducted live streaming sessions and Q&A",
+      "proficiency_level": "intermediate",
+      "frequency": "weekly"
+    },
+    "SKL-VID-004": {
+      "skill_phrase": "edited professional showreels for Vimeo portfolio",
+      "proficiency_level": "advanced",
+      "frequency": "monthly"
+    },
+    "SKL-VID-005": {
+      "skill_phrase": "optimized video content for SEO and discovery",
+      "proficiency_level": "intermediate",
+      "frequency": "daily"
+    },
+    "SKL-VID-006": {
+      "skill_phrase": "scripted and storyboarded educational content",
+      "proficiency_level": "advanced",
+      "frequency": "weekly"
+    },
+    "SKL-VID-007": {
+      "skill_phrase": "managed cross-platform video distribution strategy",
+      "proficiency_level": "intermediate",
+      "frequency": "daily"
+    },
+    "SKL-VID-008": {
+      "skill_phrase": "integrated AI tools ethically in video production workflow",
+      "proficiency_level": "intermediate",
+      "frequency": "daily"
+    }
+  },
+  "tools": [
+    "TOOL-VID-001",
+    "TOOL-VID-002",
+    "TOOL-SMM-001",
+    "TOOL-SMM-003",
+    "TOOL-PORT-001",
+    "TOOL-SMM-005",
+    "TOOL-SMM-007"
+  ],
+  "tool_details": {
+    "TOOL-VID-001": "YouTube - PRIMARY platform (weekly use) - Long-form tutorials, shorts, live streams",
+    "TOOL-VID-002": "Vimeo - PRIMARY platform (monthly use) - Professional showreels, client review",
+    "TOOL-SMM-001": "Instagram - PRIMARY platform (daily use) - Reels, IGTV, Stories",
+    "TOOL-SMM-003": "TikTok - SECONDARY platform (daily use) - Viral short-form content",
+    "TOOL-PORT-001": "Behance - SECONDARY platform (monthly use) - Video project case studies",
+    "TOOL-SMM-005": "Pinterest - SECONDARY platform (weekly use) - Video thumbnails, storyboards",
+    "TOOL-SMM-007": "LinkedIn - SECONDARY platform (weekly use) - Professional video content"
+  },
+  "workflows": [
+    "WF-SMM-006",
+    "WF-SMM-007",
+    "WF-SMM-001",
+    "WF-SMM-002"
+  ],
+  "workflow_details": {
+    "WF-SMM-006": "YouTube Tutorial Production - Long-form comprehensive educational videos",
+    "WF-SMM-007": "Short-Form Video Production - TikTok/Reels/Shorts daily content creation",
+    "WF-SMM-001": "Cross-Platform Content Distribution - Repurpose YouTube to TikTok/Reels/Instagram",
+    "WF-SMM-002": "Content Repurposing Pipeline - Transform long-form to multiple short-form variations"
+  },
+  "objects": [
+    "OBJ-SMM-008",
+    "OBJ-SMM-009",
+    "OBJ-SMM-007",
+    "OBJ-SMM-005",
+    "OBJ-VID-001",
+    "OBJ-VID-002"
+  ],
+  "object_details": {
+    "OBJ-SMM-008": "YouTube Tutorial - Long-form educational video (10-45 minutes, 1080p-4K)",
+    "OBJ-SMM-009": "YouTube Short - Vertical short-form video (60 seconds max, 9:16 format)",
+    "OBJ-SMM-007": "TikTok Video - Short-form vertical video (15-60 seconds, 9:16 format)",
+    "OBJ-SMM-005": "Instagram Reel - Process videos 15-90 seconds (1080×1920px)",
+    "OBJ-VID-001": "Vimeo Showreel - Professional portfolio showcase (60-90 seconds, 4K)",
+    "OBJ-VID-002": "Video Case Study - Project documentation with behind-the-scenes"
+  },
+  "actions": [
+    "record",
+    "edit",
+    "publish",
+    "stream",
+    "upload",
+    "optimize",
+    "script",
+    "storyboard",
+    "shoot",
+    "render",
+    "export",
+    "post",
+    "share",
+    "engage"
+  ],
+  "communication_templates": [
+    "TMPL-VID-001",
+    "TMPL-VID-002",
+    "TMPL-VID-003"
+  ],
+  "template_details": {
+    "TMPL-VID-001": "YouTube Video Description Template - SEO-optimized with timestamps and links",
+    "TMPL-VID-002": "Video Script Template - Hook → Problem → Solution → Examples → CTA structure",
+    "TMPL-VID-003": "YouTube Community Post Template - Engagement-focused announcements"
+  },
+  "typical_tasks": [
+    "Record 1-2 YouTube tutorials per week (10-45 minutes each)",
+    "Create 5-10 short-form videos daily (TikTok, Reels, Shorts)",
+    "Edit and render high-quality video content for multiple platforms",
+    "Conduct weekly live streaming sessions for community engagement",
+    "Optimize video titles, descriptions, and tags for SEO",
+    "Create custom thumbnails for YouTube videos (A/B tested)",
+    "Script and storyboard educational content in advance",
+    "Repurpose long-form content into short-form clips",
+    "Update Vimeo showreel monthly with best work",
+    "Engage with community through comments and responses daily"
+  ],
+  "content_strategy": {
+    "youtube": {
+      "full_tutorials": "35% - 10-45 minute comprehensive guides",
+      "youtube_shorts": "25% - 60-second tips, daily posting",
+      "series_content": "20% - Weekly episodic content",
+      "live_streams": "10% - Weekly office hours, Q&A",
+      "collaborations": "10% - Guest tutorials, industry interviews"
+    },
+    "tiktok": {
+      "quick_tutorials": "40% - 15-second tips and hacks",
+      "trend_adaptations": "30% - Participate in trending sounds/formats",
+      "behind_the_scenes": "20% - Process, studio life, authenticity",
+      "challenges": "10% - Participate in or create challenges"
+    },
+    "instagram_reels": {
+      "how_i_got_the_shot": "35% - Behind-the-scenes process",
+      "gear_showcases": "25% - Equipment reviews and tips",
+      "ethical_storytelling": "20% - Principled video production",
+      "trending_audio": "20% - Leverage trending sounds"
+    }
+  },
+  "performance_metrics": {
+    "youtube_watch_time": "Primary metric - Total minutes watched across channel",
+    "youtube_retention": "Average percentage viewed - Quality indicator",
+    "youtube_ctr": "Click-through rate on thumbnails - Discovery effectiveness",
+    "tiktok_completion_rate": "Percentage who watch to end - Most important for algorithm",
+    "instagram_reach": "Total accounts reached - Discovery metric",
+    "subscriber_growth": "Net new subscribers across platforms",
+    "engagement_rate": "Likes + comments + shares / views"
+  },
+  "best_practices": [
+    "YouTube: Custom thumbnails A/B tested, keyword-first titles, 200+ word descriptions",
+    "YouTube: Always include captions for accessibility",
+    "YouTube: Hook within first 15 seconds to retain viewers",
+    "TikTok: Hook within first 3 seconds - critical for completion rate",
+    "TikTok: Vertical 9:16 format fills entire mobile screen",
+    "TikTok: Add text overlays/captions (many watch without sound)",
+    "Reels: Use trending audio when relevant to content",
+    "Reels: Keep tight editing - fast-paced content performs better",
+    "Cross-platform: Repurpose long-form to short-form for efficiency",
+    "Cross-platform: Maintain consistent branding across all platforms",
+    "SEO: Optimize video titles, descriptions, tags with keywords",
+    "Community: Respond to comments within first hour of posting",
+    "Quality: 1080p minimum, 4K preferred for professional content",
+    "Workflow: Batch record and edit content for efficiency",
+    "AI Integration: Show transparent AI + Human workflow"
+  ],
+  "ai_integration_approach": {
+    "transparency": "Always show human + AI collaboration in video production",
+    "process": "Human concept → AI-assisted editing/effects → Human refinement → Final video",
+    "documentation": "Document AI tool usage in video descriptions and process videos",
+    "platform_sensitivity": {
+      "youtube": "Disclose AI usage in descriptions",
+      "general": "AI as assistant narrative for efficiency, not replacement"
+    }
+  },
+  "platform_priorities": {
+    "primary": [
+      "YouTube (weekly long-form educational content)",
+      "Vimeo (monthly professional showreel updates)",
+      "Instagram Reels (daily visual community engagement)"
+    ],
+    "secondary": [
+      "TikTok (daily viral short-form content)",
+      "Pinterest (weekly thumbnail and storyboard showcase)",
+      "LinkedIn (weekly professional video networking)"
+    ],
+    "tertiary": [
+      "Behance (monthly video project case studies)",
+      "Twitter/X (weekly video clips and engagement)"
+    ]
+  },
+  "technical_specifications": {
+    "youtube_long_form": {
+      "resolution": "1080p minimum, 4K preferred",
+      "aspect_ratio": "16:9 horizontal",
+      "file_format": "MP4 (H.264)",
+      "frame_rate": "30 FPS or 60 FPS",
+      "audio": "High-quality, normalized levels"
+    },
+    "youtube_shorts": {
+      "resolution": "1080×1920px (9:16 vertical)",
+      "duration": "60 seconds max",
+      "aspect_ratio": "9:16 vertical",
+      "format": "MP4"
+    },
+    "tiktok": {
+      "resolution": "1080×1920px (9:16 vertical)",
+      "duration": "15-60 seconds (21-34 optimal)",
+      "file_size": "287MB max (iOS), 72MB max (Android)",
+      "frame_rate": "30 FPS or 60 FPS"
+    },
+    "instagram_reels": {
+      "resolution": "1080×1920px (9:16 vertical)",
+      "duration": "15-90 seconds",
+      "aspect_ratio": "9:16 vertical",
+      "format": "MP4"
+    },
+    "vimeo_showreel": {
+      "resolution": "4K preferred",
+      "duration": "60-90 seconds",
+      "aspect_ratio": "16:9 horizontal",
+      "quality": "Highest possible, no compression"
+    }
+  },
+  "content_repurposing_workflow": {
+    "step_1": "Record comprehensive YouTube tutorial (10-45 minutes)",
+    "step_2": "Extract 5-10 key moments for short-form content",
+    "step_3": "Edit vertical versions for TikTok, Reels, Shorts",
+    "step_4": "Create custom captions and hooks for each platform",
+    "step_5": "Design custom thumbnails for YouTube",
+    "step_6": "Post to YouTube first, then distribute short-form within 24 hours",
+    "step_7": "Cross-promote YouTube tutorial via short-form previews",
+    "step_8": "Engage with comments across all platforms daily"
+  },
+  "posting_schedule": {
+    "youtube": "1-2 long-form tutorials per week + 1-3 Shorts daily",
+    "tiktok": "1-3 videos per day for algorithm favor",
+    "instagram": "1-2 Reels per day + 1-3 Stories daily",
+    "vimeo": "Monthly showreel updates",
+    "optimal_times": {
+      "youtube": "Weekdays 2-4pm EST (after school/work)",
+      "tiktok": "Weekdays 6-10am, 7-11pm EST; Weekends all day",
+      "instagram": "Weekdays 11am-1pm, 7-9pm EST"
+    }
+  },
+  "source": "SMM_Research_Document_2_Content_Strategy_Multi_Platform"
+}

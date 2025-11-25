@@ -1,0 +1,219 @@
+{
+  "metadata": {
+    "profession_name": "seo manager",
+    "department": "marketers",
+    "created_date": "2025-01-19T00:00:00.000Z",
+    "description": "Parameters specific to SEO manager types and digital marketing activities", 
+    "data_source": "parameters.json",
+    "organization_method": "type_to_profession_mapping"
+  },
+  "summary": {
+    "unique_types": [
+      "Website Analytics",
+      "Social Media Analytics",
+      "On-Page SEO Audit",
+      "Off-Page SEO Audit", 
+      "Technical Audit",
+      "Inbound Links",
+      "Outbound Links",
+      "Authority Links",
+      "Toxic Links",
+      "traffic analytics",
+      "conversion analytics",
+      "behavior analytics",
+      "inbound backlinks",
+      "outbound backlinks", 
+      "toxic backlinks",
+      "PPC campaigns",
+      "email campaigns",
+      "social media campaigns",
+      "blog posts",
+      "landing pages",
+      "product descriptions",
+      "form submissions",
+      "sales conversions",
+      "sign-ups",
+      "primary domains",
+      "subdomains",
+      "international domains"
+    ],
+    "total_parameters": 89,
+    "parameter_categories": ["analytics", "seo_auditing", "link_building", "content_optimization", "conversion_tracking"]
+  },
+  "parameters_by_type": {
+    "Website_Analytics": [
+      "Traffic volume",
+      "User behavior", 
+      "Conversion rate"
+    ],
+    "Social_Media_Analytics": [
+      "Engagement Metrics",
+      "Reach",
+      "Audience Demographics"
+    ],
+    "On_Page_SEO_Audit": [
+      "Meta Titles",
+      "Content Quality",
+      "Internal Linking"
+    ],
+    "Off_Page_SEO_Audit": [
+      "Backlink Quality",
+      "Domain Authority",
+      "Link Diversity"
+    ],
+    "Technical_Audit": [
+      "Site speed",
+      "Mobile usability",
+      "HTTPS Status"
+    ],
+    "Inbound_Links": [
+      "Source credibility",
+      "Context relevance",
+      "Link quality"
+    ],
+    "Outbound_Links": [
+      "Target quality",
+      "Context appropriateness",
+      "User value"
+    ],
+    "Authority_Links": [
+      "Domain authority",
+      "Trust flow",
+      "Citation flow"
+    ],
+    "Toxic_Links": [
+      "Spam score",
+      "Visibility",
+      "Detrimental impact"
+    ],
+    "traffic_analytics": [
+      "user demographics",
+      "session duration",
+      "page views"
+    ],
+    "conversion_analytics": [
+      "funnel effectiveness",
+      "conversion path",
+      "drop-off rate"
+    ],
+    "behavior_analytics": [
+      "user interaction patterns",
+      "heat maps",
+      "event tracking"
+    ],
+    "inbound_backlinks": [
+      "authority score",
+      "relevance",
+      "link quality"
+    ],
+    "outbound_backlinks": [
+      "destination authority",
+      "link relevance",
+      "link type"
+    ],
+    "toxic_backlinks": [
+      "toxicity score",
+      "potential penalty risk"
+    ],
+    "PPC_campaigns": [
+      "click-through rate",
+      "ad spend efficiency",
+      "quality score"
+    ],
+    "email_campaigns": [
+      "open rate",
+      "click rate",
+      "subscriber growth"
+    ],
+    "social_media_campaigns": [
+      "engagement rate",
+      "reach",
+      "viral potential"
+    ],
+    "blog_posts": [
+      "readability",
+      "keyword density",
+      "engagement metrics"
+    ],
+    "landing_pages": [
+      "conversion rate",
+      "bounce rate",
+      "SEO optimization"
+    ],
+    "product_descriptions": [
+      "uniqueness",
+      "keyword optimization",
+      "clarity"
+    ],
+    "form_submissions": [
+      "completion rate",
+      "user errors",
+      "field effectiveness"
+    ],
+    "sales_conversions": [
+      "sales volume",
+      "conversion cost",
+      "customer lifetime value"
+    ],
+    "sign_ups": [
+      "growth rate",
+      "activation rate",
+      "retention impact"
+    ],
+    "primary_domains": [
+      "brand strength",
+      "market presence",
+      "recall value"
+    ],
+    "subdomains": [
+      "target niche specificity",
+      "content segregation"
+    ],
+    "international_domains": [
+      "geo-targeting effectiveness",
+      "local SEO"
+    ]
+  },
+  "entries": [
+    {
+      "Types": "Website Analytics",
+      "Parameters": "Traffic volume"
+    },
+    {
+      "Types": "Website Analytics",
+      "Parameters": "User behavior"
+    },
+    {
+      "Types": "Website Analytics",
+      "Parameters": "Conversion rate"
+    },
+    {
+      "Types": "Social Media Analytics",
+      "Parameters": "Engagement Metrics"
+    },
+    {
+      "Types": "Social Media Analytics",
+      "Parameters": "Reach"
+    },
+    {
+      "Types": "Social Media Analytics",
+      "Parameters": "Audience Demographics"
+    },
+    {
+      "Types": "On-Page SEO Audit",
+      "Parameters": "Meta Titles"
+    },
+    {
+      "Types": "On-Page SEO Audit",
+      "Parameters": "Content Quality"
+    },
+    {
+      "Types": "On-Page SEO Audit",
+      "Parameters": "Internal Linking"
+    },
+    {
+      "Types": "traffic analytics",
+      "Parameters": "user demographics"
+    }
+  ]
+}

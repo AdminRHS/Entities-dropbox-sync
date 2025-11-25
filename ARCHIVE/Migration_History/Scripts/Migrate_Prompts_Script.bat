@@ -1,0 +1,296 @@
+﻿@echo off
+REM ============================================================================
+REM Prompts Migration Script - LIBRARIES to LIBRARIES/DEPARTMENTS/_SHARED
+REM Date: 2025-11-15
+REM Purpose: Automate file operations for Prompts migration
+REM ============================================================================
+
+echo.
+echo ============================================================================
+echo    PROMPTS MIGRATION SCRIPT
+echo    FROM: LIBRARIES/DEPARTMENTS/PROMPTS
+echo    TO:   TASK_MANAGERS/PROMPTS
+echo ============================================================================
+echo.
+
+REM Set base path
+set ENTITIES_ROOT=C:\Users\Dell\Dropbox\ENTITIES
+set SOURCE_PROMPTS=%ENTITIES_ROOT%\TASK_MANAGERS\PROMPTS
+set DEST_PROMPTS=%ENTITIES_ROOT%\TASK_MANAGERS\PROMPTS
+set DEST_ARCHIVE=%ENTITIES_ROOT%\TASK_MANAGERS\PROMPTS\Archive
+set BACKUP_ROOT=C:\Users\Dell\Dropbox\ENTITIES
+
+echo Current settings:
+echo   ENTITIES Root: %ENTITIES_ROOT%
+echo   Source:        %SOURCE_PROMPTS%
+echo   Destination:   %DEST_PROMPTS%
+echo   Archive:       %DEST_ARCHIVE%
+echo.
+
+REM ============================================================================
+REM PHASE 1: PRE-MIGRATION PREPARATION
+REM ============================================================================
+
+echo.
+echo ============================================================================
+echo PHASE 1: PRE-MIGRATION PREPARATION
+echo ============================================================================
+echo.
+
+REM Step 1.1: Backup (SKIPPED - user already has backup)
+echo [STEP 1.1] Backup - SKIPPED (backup already exists)
+echo.
+
+REM Step 1.2: Document current state
+echo [STEP 1.2] Generating file listing of current Prompts structure...
+dir /s /b "%SOURCE_PROMPTS%" > "%BACKUP_ROOT%\Prompts_FileListing_Before_Move.txt"
+echo   File listing saved to: %BACKUP_ROOT%\Prompts_FileListing_Before_Move.txt
+echo.
+
+REM Step 1.3: Create destination directories
+echo [STEP 1.3] Creating destination directories...
+
+if not exist "%ENTITIES_ROOT%\LIBRARIES\DEPARTMENTS\_SHARED" (
+    mkdir "%ENTITIES_ROOT%\LIBRARIES\DEPARTMENTS\_SHARED"
+    echo   Created: LIBRARIES\DEPARTMENTS\_SHARED
+) else (
+    echo   Already exists: LIBRARIES\DEPARTMENTS\_SHARED
+)
+
+if not exist "%DEST_PROMPTS%" (
+    mkdir "%DEST_PROMPTS%"
+    echo   Created: _SHARED\Prompts
+) else (
+    echo   Already exists: _SHARED\Prompts
+    echo   WARNING: Destination already exists! Contents may be overwritten.
+    pause
+)
+
+if not exist "%ENTITIES_ROOT%\LIBRARIES\DEPARTMENTS\_SHARED\Archive" (
+    mkdir "%ENTITIES_ROOT%\LIBRARIES\DEPARTMENTS\_SHARED\Archive"
+    echo   Created: _SHARED\Archive
+) else (
+    echo   Already exists: _SHARED\Archive
+)
+
+if not exist "%DEST_ARCHIVE%" (
+    mkdir "%DEST_ARCHIVE%"
+    echo   Created: _SHARED\Archive\Prompts_Archive
+) else (
+    echo   Already exists: _SHARED\Archive\Prompts_Archive
+    echo   WARNING: Archive destination already exists! Contents may be overwritten.
+    pause
+)
+
+echo.
+echo Phase 1 Complete!
+echo.
+pause
+
+REM ============================================================================
+REM PHASE 2: MOVE ARCHIVE CONTENT
+REM ============================================================================
+
+echo.
+echo ============================================================================
+echo PHASE 2: MOVE ARCHIVE CONTENT
+echo ============================================================================
+echo.
+
+echo This will move Archive/ to _SHARED/Archive/Prompts_Archive/
+echo.
+echo Press any key to continue or Ctrl+C to cancel...
+pause > nul
+
+REM Step 2.1: Move Archive directory
+echo [STEP 2.1] Moving Archive content...
+xcopy "%SOURCE_PROMPTS%\Archive" "%DEST_ARCHIVE%" /E /I /H /Y
+
+if %errorlevel% equ 0 (
+    echo   Archive moved successfully
+) else (
+    echo   ERROR: Archive move failed! Error code: %errorlevel%
+    echo   Please check manually before proceeding.
+    pause
+    goto :END
+)
+echo.
+
+REM Step 2.2: Verify Archive move
+echo [STEP 2.2] Verifying Archive move...
+dir /s /b "%DEST_ARCHIVE%" > "%BACKUP_ROOT%\Archive_Verification.txt"
+echo   Archive verification listing saved to: %BACKUP_ROOT%\Archive_Verification.txt
+echo.
+
+echo Please verify Archive contains expected files:
+echo   - Integration_Plans/ (3 files)
+echo   - Legacy/Prompts_to_run
+echo   - Session_Logs/ (2 files)
+echo   - PROMPT_Folder_Reorganization.md
+echo   - README.md
+echo.
+echo Open verification file to check? (Y/N)
+set /p VERIFY_ARCHIVE="> "
+if /i "%VERIFY_ARCHIVE%"=="Y" notepad "%BACKUP_ROOT%\Archive_Verification.txt"
+echo.
+
+echo Archive verification complete? Continue to delete Archive from source? (Y/N)
+set /p DELETE_ARCHIVE="> "
+
+if /i "%DELETE_ARCHIVE%"=="Y" (
+    echo [STEP 2.3] Deleting Archive from source...
+    rmdir /S /Q "%SOURCE_PROMPTS%\Archive"
+    if %errorlevel% equ 0 (
+        echo   Archive deleted from source
+    ) else (
+        echo   WARNING: Archive deletion failed! Error code: %errorlevel%
+        echo   You may need to delete manually.
+    )
+) else (
+    echo   Skipping Archive deletion from source
+    echo   WARNING: You will need to delete manually later
+)
+
+echo.
+echo Phase 2 Complete!
+echo.
+pause
+
+REM ============================================================================
+REM PHASE 3: MOVE CORE PROMPTS CONTENT
+REM ============================================================================
+
+echo.
+echo ============================================================================
+echo PHASE 3: MOVE CORE PROMPTS CONTENT
+echo ============================================================================
+echo.
+
+echo This will move all Prompts content (excluding Archive) to _SHARED/Prompts/
+echo Expected: 135 files, ~3.5MB
+echo.
+echo Press any key to continue or Ctrl+C to cancel...
+pause > nul
+
+REM Step 3.1: Move all non-Archive content
+echo [STEP 3.1] Moving Prompts content to _SHARED/Prompts/...
+xcopy "%SOURCE_PROMPTS%" "%DEST_PROMPTS%" /E /I /H /Y
+
+if %errorlevel% equ 0 (
+    echo   Prompts moved successfully
+) else (
+    echo   ERROR: Prompts move failed! Error code: %errorlevel%
+    echo   Please check manually before proceeding.
+    pause
+    goto :END
+)
+echo.
+
+REM Step 3.2: Verify complete move
+echo [STEP 3.2] Verifying Prompts move...
+dir /s /b "%DEST_PROMPTS%" > "%BACKUP_ROOT%\Prompts_FileListing_After_Move.txt"
+echo   Prompts verification listing saved to: %BACKUP_ROOT%\Prompts_FileListing_After_Move.txt
+echo.
+
+echo Counting files...
+for /f %%A in ('dir /s /b "%DEST_PROMPTS%" ^| find /c /v ""') do set FILE_COUNT=%%A
+echo   Total files in new location: %FILE_COUNT%
+echo   Expected: 135 files (or 146 if Archive wasn't deleted yet)
+echo.
+
+REM Step 3.3: Verify critical files
+echo [STEP 3.3] Verifying critical files...
+
+set CRITICAL_MISSING=0
+
+if exist "%DEST_PROMPTS%\PROMPTS_INDEX.json" (
+    echo   [OK] PROMPTS_INDEX.json
+) else (
+    echo   [MISSING] PROMPTS_INDEX.json
+    set CRITICAL_MISSING=1
+)
+
+if exist "%DEST_PROMPTS%\README.md" (
+    echo   [OK] README.md
+) else (
+    echo   [MISSING] README.md
+    set CRITICAL_MISSING=1
+)
+
+if exist "%DEST_PROMPTS%\Core" (
+    echo   [OK] Core/
+) else (
+    echo   [MISSING] Core/
+    set CRITICAL_MISSING=1
+)
+
+if exist "%DEST_PROMPTS%\Video_Processing" (
+    echo   [OK] Video_Processing/
+) else (
+    echo   [MISSING] Video_Processing/
+    set CRITICAL_MISSING=1
+)
+
+if exist "%DEST_PROMPTS%\HR_Operations" (
+    echo   [OK] HR_Operations/
+) else (
+    echo   [MISSING] HR_Operations/
+    set CRITICAL_MISSING=1
+)
+
+if exist "%DEST_PROMPTS%\Video_Processing\Taxonomy_Integration" (
+    echo   [OK] Video_Processing/Taxonomy_Integration/ (Master Prompt)
+) else (
+    echo   [MISSING] Video_Processing/Taxonomy_Integration/
+    set CRITICAL_MISSING=1
+)
+
+echo.
+
+if %CRITICAL_MISSING% equ 1 (
+    echo WARNING: Some critical files are missing!
+    echo Please investigate before proceeding.
+    pause
+) else (
+    echo All critical files verified successfully!
+)
+
+echo.
+echo Phase 3 Complete!
+echo.
+echo ============================================================================
+echo FILE OPERATIONS COMPLETE (Phases 1-3)
+echo ============================================================================
+echo.
+echo NEXT STEPS (MANUAL):
+echo.
+echo 1. Review verification files:
+echo    - %BACKUP_ROOT%\Prompts_FileListing_Before_Move.txt
+echo    - %BACKUP_ROOT%\Prompts_FileListing_After_Move.txt
+echo    - %BACKUP_ROOT%\Archive_Verification.txt
+echo.
+echo 2. Complete Phase 4-7 manually:
+echo    - Phase 4: Update Documentation and Indexes
+echo    - Phase 5: Update External References (51+ files)
+echo    - Phase 6: Create _SHARED Documentation
+echo    - Phase 7: Delete Old Location (ONLY AFTER FULL VERIFICATION)
+echo.
+echo 3. See full prompt for detailed instructions:
+echo    PROMPT_Move_Prompts_to_Departments_Shared.md
+echo.
+echo ============================================================================
+echo.
+
+pause
+
+goto :END
+
+REM ============================================================================
+REM END OF SCRIPT
+REM ============================================================================
+
+:END
+echo.
+echo Script execution finished.
+echo.
+pause

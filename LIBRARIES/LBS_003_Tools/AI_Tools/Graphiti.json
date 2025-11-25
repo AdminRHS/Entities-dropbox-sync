@@ -1,0 +1,78 @@
+{
+  "entity_type": "LIBRARIES",
+  "sub_entity": "Tool",
+  "tool_id": "TOOL-AI-087",
+  "name": "Graphiti",
+  "vendor": "Zep",
+  "category": "AI/Knowledge Graph Framework",
+  "purpose": "Build knowledge graphs from text with intelligent entity extraction",
+  "description": "Library for inserting data into knowledge graphs and searching them. Uses LLMs for intelligent entity and relationship extraction from raw text. Complements graph databases like Neo4j by handling the extraction logic. Separates knowledge graph from vector database for specialized performance.",
+  "skill_level_required": "Intermediate to Advanced",
+  "cost_structure": "Free (Open Source)",
+  "platform_compatibility": [
+    "Python"
+  ],
+  "integration_capabilities": [
+    "Neo4j integration",
+    "LLM-powered extraction",
+    "Entity extraction",
+    "Relationship extraction",
+    "Graph search",
+    "Knowledge graph querying",
+    "RAG pipelines"
+  ],
+  "documentation_url": "https://github.com/getzep/graphiti",
+  "actual_remote_helpers_usage": {
+    "primary_use": "Knowledge Graph Creation & Search",
+    "users": [],
+    "use_cases": [
+      "extract entities",
+      "extract relationships",
+      "build knowledge graphs",
+      "search graphs",
+      "insert graph data",
+      "intelligent entity recognition"
+    ],
+    "workflows": [
+      "WF-RAG-001: Build RAG System"
+    ]
+  },
+  "strengths": [
+    "Intelligent LLM-based extraction",
+    "Works with Neo4j",
+    "Open-source",
+    "Handles both insertion and search",
+    "Separates graph from vector DB",
+    "Entity and relationship metadata"
+  ],
+  "limitations": [
+    "Python only",
+    "Requires LLM API access",
+    "Needs graph database setup"
+  ],
+  "alternatives": [
+    {
+      "name": "LightRAG",
+      "comparison": "Combines vector DB + knowledge graph, not separated"
+    }
+  ],
+  "departments_using": [],
+  "tags": [
+    "knowledge-graph",
+    "entity-extraction",
+    "relationship-extraction",
+    "rag",
+    "neo4j",
+    "llm",
+    "open-source"
+  ],
+  "discovery_date": "2025-11-13",
+  "discovery_source": "Video_005",
+  "status": "active",
+  "video_source": {
+    "video_id": "Video_005",
+    "video_title": "My Agentic Engineering Tech Stack",
+    "creator": "Cole",
+    "timestamp": "16:20-17:17"
+  }
+}

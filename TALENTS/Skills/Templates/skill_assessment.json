@@ -1,0 +1,96 @@
+{
+  "template_name": "Skill Assessment Template",
+  "description": "Template for assessing employee/candidate proficiency in specific skills",
+  "version": "1.0",
+  "assessment_id": "ASSESS-YYYY-NNN",
+  "assessment_date": "YYYY-MM-DD",
+  "talent_id": "EMP-YYYY-NNN | CAND-YYYY-NNN",
+  "talent_name": "First Last",
+  "talent_type": "Employee | Candidate",
+  "assessor_id": "EMP-YYYY-NNN",
+  "assessor_name": "Assessor Name",
+  "assessor_role": "HR Manager | Technical Lead | Department Manager",
+  "assessment_type": "self_assessment | manager_assessment | technical_test | portfolio_review | task_based",
+  "skill_assessed": {
+    "skill_id": "SKL-XXX",
+    "skill_phrase": "action + object + via/using/in + tool",
+    "department": "Department",
+    "difficulty_level": "beginner | intermediate | advanced | expert"
+  },
+  "assessment_method": {
+    "method": "practical_test | interview | code_review | portfolio_review | task_completion | certification",
+    "duration_minutes": 0,
+    "test_description": "Description of assessment method",
+    "materials_used": ["test_file.pdf", "code_sample.js", "design_file.fig"]
+  },
+  "assessment_criteria": [
+    {
+      "criterion": "Technical Knowledge",
+      "weight": 0.3,
+      "score": 0,
+      "max_score": 5,
+      "notes": "Assessment notes"
+    },
+    {
+      "criterion": "Practical Application",
+      "weight": 0.4,
+      "score": 0,
+      "max_score": 5,
+      "notes": "Assessment notes"
+    },
+    {
+      "criterion": "Speed & Efficiency",
+      "weight": 0.2,
+      "score": 0,
+      "max_score": 5,
+      "notes": "Assessment notes"
+    },
+    {
+      "criterion": "Quality of Output",
+      "weight": 0.1,
+      "score": 0,
+      "max_score": 5,
+      "notes": "Assessment notes"
+    }
+  ],
+  "results": {
+    "overall_score": 0.0,
+    "max_possible_score": 5.0,
+    "proficiency_level": "beginner | intermediate | advanced | expert",
+    "pass_fail": "pass | fail",
+    "strengths": [
+      "Strength 1",
+      "Strength 2"
+    ],
+    "areas_for_improvement": [
+      "Area 1",
+      "Area 2"
+    ],
+    "recommended_training": [
+      "Training resource 1",
+      "Training resource 2"
+    ],
+    "next_assessment_date": "YYYY-MM-DD"
+  },
+  "evidence": {
+    "work_samples": ["file1.pdf", "file2.jpg"],
+    "completed_tasks": ["TM-YYYY-NNN"],
+    "portfolio_links": ["https://..."],
+    "certifications": ["Certification Name"],
+    "code_repositories": ["https://github.com/..."]
+  },
+  "assessor_notes": "Detailed assessment notes and observations",
+  "talent_feedback": "Talent's self-reflection and feedback",
+  "verification": {
+    "verified": false,
+    "verification_date": "YYYY-MM-DD",
+    "verified_by": "EMP-YYYY-NNN",
+    "verified_by_name": "Verifier Name"
+  },
+  "notes": [
+    "Assessment scores are on a scale of 1-5",
+    "Proficiency levels: beginner (0-2), intermediate (2-3.5), advanced (3.5-4.5), expert (4.5-5)",
+    "Assessments should be conducted at least annually for employees",
+    "Candidates should be assessed before hiring"
+  ]
+}

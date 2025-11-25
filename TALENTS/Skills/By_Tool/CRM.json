@@ -1,0 +1,70 @@
+{
+  "tool_id": "TOOL-CRM-001",
+  "tool_name": "CRM",
+  "tool_category": "Communication/Database",
+  "description": "Customer Relationship Management system for managing candidates, leads, and deal tracking",
+  "skills_count": 4,
+  "last_updated": "2025-11-22",
+  "skills": [
+    {
+      "skill_id": "SKL-001",
+      "skill_phrase": "screened candidates via CRM",
+      "components": {
+        "action": "screen",
+        "object": "candidates",
+        "tool": "CRM"
+      },
+      "department": "Managers (HR)",
+      "professions": ["recruiter", "hr manager"],
+      "difficulty_level": "beginner",
+      "frequency": "daily",
+      "time_estimate_minutes": 15,
+      "automation_potential": "medium"
+    },
+    {
+      "skill_id": "SKL-004",
+      "skill_phrase": "updated candidate status in CRM",
+      "components": {
+        "action": "update",
+        "object": "candidate status",
+        "tool": "CRM"
+      },
+      "department": "Managers (HR)",
+      "professions": ["recruiter", "hr manager"],
+      "difficulty_level": "beginner",
+      "frequency": "daily",
+      "time_estimate_minutes": 5,
+      "automation_potential": "high"
+    },
+    {
+      "skill_id": "SKL-012",
+      "skill_phrase": "tracked email responses in CRM",
+      "components": {
+        "action": "track",
+        "object": "email responses",
+        "tool": "CRM"
+      },
+      "department": "Lead Generation",
+      "professions": ["lead generator"],
+      "difficulty_level": "beginner",
+      "frequency": "daily",
+      "time_estimate_minutes": 10,
+      "automation_potential": "high"
+    },
+    {
+      "skill_id": "SKL-042",
+      "skill_phrase": "tracked deals in CRM",
+      "components": {
+        "action": "track",
+        "object": "deals",
+        "tool": "CRM"
+      },
+      "department": "Sales",
+      "professions": ["sales manager"],
+      "difficulty_level": "beginner",
+      "frequency": "daily",
+      "time_estimate_minutes": 15,
+      "automation_potential": "high"
+    }
+  ]
+}

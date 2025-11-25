@@ -1,0 +1,14 @@
+{
+    "milestone_template_id": "Milestone-Template-018",
+    "name": "Instagram Designer Portfolio Workflow",
+    "category": "Workflow Migration",
+    "department": "DESIGN",
+    "description": "Migrated from Workflows/Instagram_Designer_Portfolio_Workflow.yaml. Milestone representing designer portfolio curation on Instagram.",
+    "phase": "Design & Portfolio",
+    "can_run_parallel": false,
+    "dependencies": [],
+    "task_templates": [],
+    "expected_reports": [],
+    "version": "1.0",
+    "source_workflow_file": "ENTITIES/TASK_MANAGERS/Workflows/Instagram_Designer_Portfolio_Workflow.yaml"
+}

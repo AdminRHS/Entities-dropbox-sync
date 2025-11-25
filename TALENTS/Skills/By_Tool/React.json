@@ -1,0 +1,25 @@
+{
+  "tool_id": "TOOL-DEV-001",
+  "tool_name": "React",
+  "tool_category": "Development Framework",
+  "description": "JavaScript library for building user interfaces and single-page applications",
+  "skills_count": 1,
+  "last_updated": "2025-11-22",
+  "skills": [
+    {
+      "skill_id": "SKL-030",
+      "skill_phrase": "developed features in React",
+      "components": {
+        "action": "develop",
+        "object": "features",
+        "tool": "React"
+      },
+      "department": "Developers",
+      "professions": ["frontend developer", "full stack developer"],
+      "difficulty_level": "intermediate",
+      "frequency": "daily",
+      "time_estimate_minutes": 120,
+      "automation_potential": "medium"
+    }
+  ]
+}

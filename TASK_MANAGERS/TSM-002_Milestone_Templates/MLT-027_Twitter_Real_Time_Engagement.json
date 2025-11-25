@@ -1,0 +1,14 @@
+{
+    "milestone_template_id": "Milestone-Template-027",
+    "name": "Twitter Real-Time Engagement Workflow",
+    "category": "Workflow Migration",
+    "department": "SMM",
+    "description": "Migrated from Workflows/Twitter_Real_Time_Engagement_Workflow.yaml. Milestone representing Twitter/X real-time engagement workflows.",
+    "phase": "Community Management",
+    "can_run_parallel": true,
+    "dependencies": [],
+    "task_templates": [],
+    "expected_reports": [],
+    "version": "1.0",
+    "source_workflow_file": "ENTITIES/TASK_MANAGERS/Workflows/Twitter_Real_Time_Engagement_Workflow.yaml"
+}

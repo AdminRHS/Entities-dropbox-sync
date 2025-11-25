@@ -1,0 +1,270 @@
+{
+  "listing_metadata": {
+    "department": "VIDEO",
+    "created_date": "2025-11-10",
+    "total_items": 26,
+    "listing_type": "steps"
+  },
+  "steps": [
+    {
+      "id": "STEP-TASK-VIDEO-001-01",
+      "parent_task_id": "STEP-TASK-VIDEO-001",
+      "step_number": 1,
+      "action": "Upload",
+      "tool": "Transcription API (Whisper, Rev, etc.)",
+      "description": "Upload video to transcription service",
+      "location": "Step_Templates/TASK/STEP-TASK-VIDEO-001-01.md",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "STEP-TASK-VIDEO-001-02",
+      "parent_task_id": "STEP-TASK-VIDEO-001",
+      "step_number": 2,
+      "action": "Process",
+      "tool": "Automated transcription",
+      "description": "Process video for transcription",
+      "location": "Step_Templates/TASK/STEP-TASK-VIDEO-001-02.md",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "STEP-TASK-VIDEO-001-03",
+      "parent_task_id": "STEP-TASK-VIDEO-001",
+      "step_number": 3,
+      "action": "Review",
+      "tool": "Text editor",
+      "description": "Review transcript for accuracy",
+      "location": "Step_Templates/TASK/STEP-TASK-VIDEO-001-03.md",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "STEP-TASK-VIDEO-001-04",
+      "parent_task_id": "STEP-TASK-VIDEO-001",
+      "step_number": 4,
+      "action": "Add",
+      "tool": "Transcription editor",
+      "description": "Add timestamps and speaker labels",
+      "location": "Step_Templates/TASK/STEP-TASK-VIDEO-001-04.md",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "STEP-TASK-VIDEO-001-05",
+      "parent_task_id": "STEP-TASK-VIDEO-001",
+      "step_number": 5,
+      "action": "Format",
+      "tool": "Markdown formatter",
+      "description": "Format transcript for documentation",
+      "location": "Step_Templates/TASK/STEP-TASK-VIDEO-001-05.md",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "STEP-TASK-VIDEO-001-06",
+      "parent_task_id": "STEP-TASK-VIDEO-001",
+      "step_number": 6,
+      "action": "Publish",
+      "tool": "Content management",
+      "description": "Publish transcript alongside video",
+      "location": "Step_Templates/TASK/STEP-TASK-VIDEO-001-06.md",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "STEP-TASK-VIDEO-002-01",
+      "parent_task_id": "STEP-TASK-VIDEO-002",
+      "step_number": 1,
+      "action": "Analyze",
+      "tool": "File analysis",
+      "description": "Analyze current video file sizes",
+      "location": "Step_Templates/TASK/STEP-TASK-VIDEO-002-01.md",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "STEP-TASK-VIDEO-002-02",
+      "parent_task_id": "STEP-TASK-VIDEO-002",
+      "step_number": 2,
+      "action": "Identify",
+      "tool": "Prioritization framework",
+      "description": "Identify optimization targets",
+      "location": "Step_Templates/TASK/STEP-TASK-VIDEO-002-02.md",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "STEP-TASK-VIDEO-002-03",
+      "parent_task_id": "STEP-TASK-VIDEO-002",
+      "step_number": 3,
+      "action": "Select",
+      "tool": "Compression configuration",
+      "description": "Select compression settings (codec, bitrate, resolution)",
+      "location": "Step_Templates/TASK/STEP-TASK-VIDEO-002-03.md",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "STEP-TASK-VIDEO-002-04",
+      "parent_task_id": "STEP-TASK-VIDEO-002",
+      "step_number": 4,
+      "action": "Run",
+      "tool": "FFmpeg or video compression tool",
+      "description": "Run batch compression",
+      "location": "Step_Templates/TASK/STEP-TASK-VIDEO-002-04.md",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "STEP-TASK-VIDEO-002-05",
+      "parent_task_id": "STEP-TASK-VIDEO-002",
+      "step_number": 5,
+      "action": "Verify",
+      "tool": "Visual review",
+      "description": "Verify video quality",
+      "location": "Step_Templates/TASK/STEP-TASK-VIDEO-002-05.md",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "STEP-TASK-VIDEO-002-06",
+      "parent_task_id": "STEP-TASK-VIDEO-002",
+      "step_number": 6,
+      "action": "Replace",
+      "tool": "File management",
+      "description": "Replace original files or archive",
+      "location": "Step_Templates/TASK/STEP-TASK-VIDEO-002-06.md",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "STEP-TASK-VIDEO-002-07",
+      "parent_task_id": "STEP-TASK-VIDEO-002",
+      "step_number": 7,
+      "action": "Document",
+      "tool": "Documentation",
+      "description": "Document compression settings and results",
+      "location": "Step_Templates/TASK/STEP-TASK-VIDEO-002-07.md",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "STEP-TASK-VIDEO-003-01",
+      "parent_task_id": "STEP-TASK-VIDEO-003",
+      "step_number": 1,
+      "action": "Verify",
+      "tool": "HR system",
+      "description": "Verify employee departure details",
+      "location": "Step_Templates/TASK/STEP-TASK-VIDEO-003-01.md",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "STEP-TASK-VIDEO-003-02",
+      "parent_task_id": "STEP-TASK-VIDEO-003",
+      "step_number": 2,
+      "action": "Update",
+      "tool": "HR system",
+      "description": "Update status in HR system",
+      "location": "Step_Templates/TASK/STEP-TASK-VIDEO-003-02.md",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "STEP-TASK-VIDEO-003-03",
+      "parent_task_id": "STEP-TASK-VIDEO-003",
+      "step_number": 3,
+      "action": "Update",
+      "tool": "Documentation system",
+      "description": "Update department documentation",
+      "location": "Step_Templates/TASK/STEP-TASK-VIDEO-003-03.md",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "STEP-TASK-VIDEO-003-04",
+      "parent_task_id": "STEP-TASK-VIDEO-003",
+      "step_number": 4,
+      "action": "Revoke",
+      "tool": "Access management",
+      "description": "Revoke system access",
+      "location": "Step_Templates/TASK/STEP-TASK-VIDEO-003-04.md",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "STEP-TASK-VIDEO-003-05",
+      "parent_task_id": "STEP-TASK-VIDEO-003",
+      "step_number": 5,
+      "action": "Archive",
+      "tool": "File management",
+      "description": "Archive employee files",
+      "location": "Step_Templates/TASK/STEP-TASK-VIDEO-003-05.md",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "STEP-TASK-VIDEO-003-06",
+      "parent_task_id": "STEP-TASK-VIDEO-003",
+      "step_number": 6,
+      "action": "Notify",
+      "tool": "Communication platform",
+      "description": "Notify relevant team members",
+      "location": "Step_Templates/TASK/STEP-TASK-VIDEO-003-06.md",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "STEP-TASK-VIDEO-004-01",
+      "parent_task_id": "STEP-TASK-VIDEO-004",
+      "step_number": 1,
+      "action": "Develop",
+      "tool": "Video Planning Framework",
+      "description": "Develop core video scenarios (7 scenarios)",
+      "location": "Step_Templates/TASK/STEP-TASK-VIDEO-004-01.md",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "STEP-TASK-VIDEO-004-02",
+      "parent_task_id": "STEP-TASK-VIDEO-004",
+      "step_number": 2,
+      "action": "Define",
+      "tool": "Format Guidelines",
+      "description": "Define target durations per format (short, medium, long)",
+      "location": "Step_Templates/TASK/STEP-TASK-VIDEO-004-02.md",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "STEP-TASK-VIDEO-004-03",
+      "parent_task_id": "STEP-TASK-VIDEO-004",
+      "step_number": 3,
+      "action": "Adapt",
+      "tool": "Platform Guidelines + Video Editing",
+      "description": "Adapt for Instagram Reels (vertical, 30-60s)",
+      "location": "Step_Templates/TASK/STEP-TASK-VIDEO-004-03.md",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "STEP-TASK-VIDEO-004-04",
+      "parent_task_id": "STEP-TASK-VIDEO-004",
+      "step_number": 4,
+      "action": "Adapt",
+      "tool": "Platform Guidelines + Trend Analysis",
+      "description": "Adapt for TikTok (trend integration, 30-60s)",
+      "location": "Step_Templates/TASK/STEP-TASK-VIDEO-004-04.md",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "STEP-TASK-VIDEO-004-05",
+      "parent_task_id": "STEP-TASK-VIDEO-004",
+      "step_number": 5,
+      "action": "Adapt",
+      "tool": "Platform Guidelines + Tutorial Structure",
+      "description": "Adapt for YouTube (tutorial format, 3-10min)",
+      "location": "Step_Templates/TASK/STEP-TASK-VIDEO-004-05.md",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "STEP-TASK-VIDEO-004-06",
+      "parent_task_id": "STEP-TASK-VIDEO-004",
+      "step_number": 6,
+      "action": "Adapt",
+      "tool": "Platform Guidelines + Professional Content",
+      "description": "Adapt for LinkedIn (professional tone, 1-3min)",
+      "location": "Step_Templates/TASK/STEP-TASK-VIDEO-004-06.md",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "STEP-TASK-VIDEO-004-07",
+      "parent_task_id": "STEP-TASK-VIDEO-004",
+      "step_number": 7,
+      "action": "Create",
+      "tool": "AI Generation Guidelines",
+      "description": "Create AI video generation prompts",
+      "location": "Step_Templates/TASK/STEP-TASK-VIDEO-004-07.md",
+      "created_date": "2025-11-10"
+    }
+  ]
+}

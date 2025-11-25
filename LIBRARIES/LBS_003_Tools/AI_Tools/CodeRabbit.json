@@ -1,0 +1,71 @@
+{
+  "entity_type": "LIBRARIES",
+  "sub_entity": "Tool",
+  "tool_id": "TOOL-AI-090",
+  "name": "CodeRabbit",
+  "vendor": "CodeRabbit",
+  "category": "AI/Code Review",
+  "purpose": "Automated AI code review for pull requests",
+  "description": "AI-powered code review tool that automatically reviews every pull request. Provides thorough code analysis, security vulnerability detection, and customizable review depth. Completely free for open-source repositories with unlimited reviews.",
+  "skill_level_required": "Beginner to Intermediate",
+  "cost_structure": "Free (Open Source Repos) + Commercial (Private Repos)",
+  "platform_compatibility": [
+    "GitHub",
+    "GitLab",
+    "Bitbucket"
+  ],
+  "integration_capabilities": [
+    "GitHub integration",
+    "Pull request automation",
+    "Security scanning",
+    "Code quality checks",
+    "Customizable rules",
+    "Dashboard configuration"
+  ],
+  "documentation_url": "https://coderabbit.ai/",
+  "actual_remote_helpers_usage": {
+    "primary_use": "Automated Code Review",
+    "users": [],
+    "use_cases": [
+      "review pull requests",
+      "detect security issues",
+      "check code quality",
+      "automate reviews",
+      "improve code standards"
+    ],
+    "workflows": [
+      "WF-AI-001: Develop and Deploy AI Application"
+    ]
+  },
+  "strengths": [
+    "Very thorough reviews",
+    "Completely free for open-source",
+    "Security vulnerability detection",
+    "Customizable depth",
+    "Unlimited reviews (open-source)"
+  ],
+  "limitations": [
+    "Can be too thorough (verbose)",
+    "Paid for private repos",
+    "Requires GitHub/GitLab"
+  ],
+  "alternatives": [],
+  "departments_using": [],
+  "tags": [
+    "code-review",
+    "ai-review",
+    "security",
+    "pull-requests",
+    "github",
+    "open-source"
+  ],
+  "discovery_date": "2025-11-13",
+  "discovery_source": "Video_005",
+  "status": "active",
+  "video_source": {
+    "video_id": "Video_005",
+    "video_title": "My Agentic Engineering Tech Stack",
+    "creator": "Cole",
+    "timestamp": "31:15-32:11"
+  }
+}

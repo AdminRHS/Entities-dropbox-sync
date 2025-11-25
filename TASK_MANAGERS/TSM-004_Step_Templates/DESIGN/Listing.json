@@ -1,0 +1,620 @@
+{
+  "listing_metadata": {
+    "department": "DESIGN",
+    "created_date": "2025-11-10",
+    "total_items": 61,
+    "listing_type": "steps"
+  },
+  "steps": [
+    {
+      "id": "STEP-TASK-DESIGN-001-01",
+      "parent_task_id": "STEP-TASK-DESIGN-001",
+      "step_number": 1,
+      "action": "Conduct",
+      "tool": "Zoom, Miro, Notion",
+      "description": "Conduct client brand discovery session",
+      "location": "Step_Templates/TASK/STEP-TASK-DESIGN-001-01.md",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "STEP-TASK-DESIGN-001-02",
+      "parent_task_id": "STEP-TASK-DESIGN-001",
+      "step_number": 2,
+      "action": "Research",
+      "tool": "Web research, design inspiration sites",
+      "description": "Research competitor branding",
+      "location": "Step_Templates/TASK/STEP-TASK-DESIGN-001-02.md",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "STEP-TASK-DESIGN-001-03",
+      "parent_task_id": "STEP-TASK-DESIGN-001",
+      "step_number": 3,
+      "action": "Create",
+      "tool": "Figma, Illustrator",
+      "description": "Create logo concepts",
+      "location": "Step_Templates/TASK/STEP-TASK-DESIGN-001-03.md",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "STEP-TASK-DESIGN-001-04",
+      "parent_task_id": "STEP-TASK-DESIGN-001",
+      "step_number": 4,
+      "action": "Define",
+      "tool": "Figma, color palette generators",
+      "description": "Define color palette",
+      "location": "Step_Templates/TASK/STEP-TASK-DESIGN-001-04.md",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "STEP-TASK-DESIGN-001-05",
+      "parent_task_id": "STEP-TASK-DESIGN-001",
+      "step_number": 5,
+      "action": "Select",
+      "tool": "Google Fonts, Adobe Fonts",
+      "description": "Select typography system",
+      "location": "Step_Templates/TASK/STEP-TASK-DESIGN-001-05.md",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "STEP-TASK-DESIGN-001-06",
+      "parent_task_id": "STEP-TASK-DESIGN-001",
+      "step_number": 6,
+      "action": "Document",
+      "tool": "Figma",
+      "description": "Document spacing and grid rules",
+      "location": "Step_Templates/TASK/STEP-TASK-DESIGN-001-06.md",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "STEP-TASK-DESIGN-001-07",
+      "parent_task_id": "STEP-TASK-DESIGN-001",
+      "step_number": 7,
+      "action": "Create",
+      "tool": "Figma, Google Docs",
+      "description": "Create usage guidelines",
+      "location": "Step_Templates/TASK/STEP-TASK-DESIGN-001-07.md",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "STEP-TASK-DESIGN-001-08",
+      "parent_task_id": "STEP-TASK-DESIGN-001",
+      "step_number": 8,
+      "action": "Present",
+      "tool": "Zoom, Figma presentation mode",
+      "description": "Present to client for approval",
+      "location": "Step_Templates/TASK/STEP-TASK-DESIGN-001-08.md",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "STEP-TASK-DESIGN-002-01",
+      "parent_task_id": "STEP-TASK-DESIGN-002",
+      "step_number": 1,
+      "action": "Review",
+      "tool": "Web Browser + Design Tools",
+      "description": "Review client landing page",
+      "location": "Step_Templates/TASK/STEP-TASK-DESIGN-002-01.md",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "STEP-TASK-DESIGN-002-02",
+      "parent_task_id": "STEP-TASK-DESIGN-002",
+      "step_number": 2,
+      "action": "Identify",
+      "tool": "Requirements Analysis",
+      "description": "Identify missing information and requirements",
+      "location": "Step_Templates/TASK/STEP-TASK-DESIGN-002-02.md",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "STEP-TASK-DESIGN-002-03",
+      "parent_task_id": "STEP-TASK-DESIGN-002",
+      "step_number": 3,
+      "action": "Formulate",
+      "tool": "Question Documentation",
+      "description": "Formulate questions for designer (links, buttons, functionality)",
+      "location": "Step_Templates/TASK/STEP-TASK-DESIGN-002-03.md",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "STEP-TASK-DESIGN-002-04",
+      "parent_task_id": "STEP-TASK-DESIGN-002",
+      "step_number": 4,
+      "action": "Communicate",
+      "tool": "Discord server / Email / Project Management Tool",
+      "description": "Communicate questions to designer",
+      "location": "Step_Templates/TASK/STEP-TASK-DESIGN-002-04.md",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "STEP-TASK-DESIGN-002-05",
+      "parent_task_id": "STEP-TASK-DESIGN-002",
+      "step_number": 5,
+      "action": "Document",
+      "tool": "Documentation System",
+      "description": "Document designer responses",
+      "location": "Step_Templates/TASK/STEP-TASK-DESIGN-002-05.md",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "STEP-TASK-DESIGN-002-06",
+      "parent_task_id": "STEP-TASK-DESIGN-002",
+      "step_number": 6,
+      "action": "Update",
+      "tool": "Project Planning",
+      "description": "Update development plan based on clarifications",
+      "location": "Step_Templates/TASK/STEP-TASK-DESIGN-002-06.md",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "STEP-TASK-DESIGN-003-01",
+      "parent_task_id": "STEP-TASK-DESIGN-003",
+      "step_number": 1,
+      "action": "Identify",
+      "tool": "Issue Analysis",
+      "description": "Identify boundary violation issue (e.g., 8 PM response expectation)",
+      "location": "Step_Templates/TASK/STEP-TASK-DESIGN-003-01.md",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "STEP-TASK-DESIGN-003-02",
+      "parent_task_id": "STEP-TASK-DESIGN-003",
+      "step_number": 2,
+      "action": "Define",
+      "tool": "Policy Documentation",
+      "description": "Define working hours policy (e.g., 12:00-16:00)",
+      "location": "Step_Templates/TASK/STEP-TASK-DESIGN-003-02.md",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "STEP-TASK-DESIGN-003-03",
+      "parent_task_id": "STEP-TASK-DESIGN-003",
+      "step_number": 3,
+      "action": "Communicate",
+      "tool": "Client Communication",
+      "description": "Communicate working hours to client",
+      "location": "Step_Templates/TASK/STEP-TASK-DESIGN-003-03.md",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "STEP-TASK-DESIGN-003-04",
+      "parent_task_id": "STEP-TASK-DESIGN-003",
+      "step_number": 4,
+      "action": "Adjust",
+      "tool": "Process Optimization",
+      "description": "Adjust reporting frequency (e.g., daily to weekly)",
+      "location": "Step_Templates/TASK/STEP-TASK-DESIGN-003-04.md",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "STEP-TASK-DESIGN-003-05",
+      "parent_task_id": "STEP-TASK-DESIGN-003",
+      "step_number": 5,
+      "action": "Clarify",
+      "tool": "Client Agreement",
+      "description": "Clarify reporting expectations and format",
+      "location": "Step_Templates/TASK/STEP-TASK-DESIGN-003-05.md",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "STEP-TASK-DESIGN-003-06",
+      "parent_task_id": "STEP-TASK-DESIGN-003",
+      "step_number": 6,
+      "action": "Document",
+      "tool": "Documentation System",
+      "description": "Document new communication standards",
+      "location": "Step_Templates/TASK/STEP-TASK-DESIGN-003-06.md",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "STEP-TASK-DESIGN-004-01",
+      "parent_task_id": "STEP-TASK-DESIGN-004",
+      "step_number": 1,
+      "action": "Review",
+      "tool": "Document Review + Spreadsheet",
+      "description": "Review employee status lists in all documentation",
+      "location": "Step_Templates/TASK/STEP-TASK-DESIGN-004-01.md",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "STEP-TASK-DESIGN-004-02",
+      "parent_task_id": "STEP-TASK-DESIGN-004",
+      "step_number": 2,
+      "action": "Identify",
+      "tool": "Data Comparison",
+      "description": "Identify status discrepancies (available vs. on projects)",
+      "location": "Step_Templates/TASK/STEP-TASK-DESIGN-004-02.md",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "STEP-TASK-DESIGN-004-03",
+      "parent_task_id": "STEP-TASK-DESIGN-004",
+      "step_number": 3,
+      "action": "Document",
+      "tool": "Issue Logging",
+      "description": "Document examples of incorrect status",
+      "location": "Step_Templates/TASK/STEP-TASK-DESIGN-004-03.md",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "STEP-TASK-DESIGN-004-04",
+      "parent_task_id": "STEP-TASK-DESIGN-004",
+      "step_number": 4,
+      "action": "Coordinate",
+      "tool": "HR Communication",
+      "description": "Coordinate with HR on accurate status tracking",
+      "location": "Step_Templates/TASK/STEP-TASK-DESIGN-004-04.md",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "STEP-TASK-DESIGN-004-05",
+      "parent_task_id": "STEP-TASK-DESIGN-004",
+      "step_number": 5,
+      "action": "Update",
+      "tool": "Data Update",
+      "description": "Update status records",
+      "location": "Step_Templates/TASK/STEP-TASK-DESIGN-004-05.md",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "STEP-TASK-DESIGN-004-06",
+      "parent_task_id": "STEP-TASK-DESIGN-004",
+      "step_number": 6,
+      "action": "Establish",
+      "tool": "Process Documentation",
+      "description": "Establish ongoing status accuracy process",
+      "location": "Step_Templates/TASK/STEP-TASK-DESIGN-004-06.md",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "STEP-TASK-DESIGN-005-01",
+      "parent_task_id": "STEP-TASK-DESIGN-005",
+      "step_number": 1,
+      "action": "Define",
+      "tool": "Brand Strategy Framework",
+      "description": "Define brand identity (personality, values, voice, tone)",
+      "location": "Step_Templates/TASK/STEP-TASK-DESIGN-005-01.md",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "STEP-TASK-DESIGN-005-02",
+      "parent_task_id": "STEP-TASK-DESIGN-005",
+      "step_number": 2,
+      "action": "Create",
+      "tool": "Figma + Design Tools",
+      "description": "Create visual style specifications (logo, colors, typography, spacing)",
+      "location": "Step_Templates/TASK/STEP-TASK-DESIGN-005-02.md",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "STEP-TASK-DESIGN-005-03",
+      "parent_task_id": "STEP-TASK-DESIGN-005",
+      "step_number": 3,
+      "action": "Design",
+      "tool": "Figma Component Library",
+      "description": "Design UI component library (10+ categories)",
+      "location": "Step_Templates/TASK/STEP-TASK-DESIGN-005-03.md",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "STEP-TASK-DESIGN-005-04",
+      "parent_task_id": "STEP-TASK-DESIGN-005",
+      "step_number": 4,
+      "action": "Document",
+      "tool": "Design Documentation",
+      "description": "Document design patterns and best practices",
+      "location": "Step_Templates/TASK/STEP-TASK-DESIGN-005-04.md",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "STEP-TASK-DESIGN-005-05",
+      "parent_task_id": "STEP-TASK-DESIGN-005",
+      "step_number": 5,
+      "action": "Create",
+      "tool": "Accessibility Guidelines",
+      "description": "Create accessibility standards (WCAG compliance)",
+      "location": "Step_Templates/TASK/STEP-TASK-DESIGN-005-05.md",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "STEP-TASK-DESIGN-005-06",
+      "parent_task_id": "STEP-TASK-DESIGN-005",
+      "step_number": 6,
+      "action": "Document",
+      "tool": "Content Design Guide",
+      "description": "Document content type requirements",
+      "location": "Step_Templates/TASK/STEP-TASK-DESIGN-005-06.md",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "STEP-TASK-DESIGN-006-01",
+      "parent_task_id": "STEP-TASK-DESIGN-006",
+      "step_number": 1,
+      "action": "Create",
+      "tool": "Figma",
+      "description": "Create landing page layout and structure",
+      "location": "Step_Templates/TASK/STEP-TASK-DESIGN-006-01.md",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "STEP-TASK-DESIGN-006-02",
+      "parent_task_id": "STEP-TASK-DESIGN-006",
+      "step_number": 2,
+      "action": "Design",
+      "tool": "Figma + Design Tools",
+      "description": "Design visual elements (hero section, features, CTA)",
+      "location": "Step_Templates/TASK/STEP-TASK-DESIGN-006-02.md",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "STEP-TASK-DESIGN-006-03",
+      "parent_task_id": "STEP-TASK-DESIGN-006",
+      "step_number": 3,
+      "action": "Ensure",
+      "tool": "Brand Guidelines",
+      "description": "Ensure brand consistency throughout",
+      "location": "Step_Templates/TASK/STEP-TASK-DESIGN-006-03.md",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "STEP-TASK-DESIGN-006-04",
+      "parent_task_id": "STEP-TASK-DESIGN-006",
+      "step_number": 4,
+      "action": "Create",
+      "tool": "Responsive Design System",
+      "description": "Create responsive designs for mobile/tablet/desktop",
+      "location": "Step_Templates/TASK/STEP-TASK-DESIGN-006-04.md",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "STEP-TASK-DESIGN-006-05",
+      "parent_task_id": "STEP-TASK-DESIGN-006",
+      "step_number": 5,
+      "action": "Prepare",
+      "tool": "Figma + Documentation",
+      "description": "Prepare developer handoff package",
+      "location": "Step_Templates/TASK/STEP-TASK-DESIGN-006-05.md",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "STEP-TASK-DESIGN-006-06",
+      "parent_task_id": "STEP-TASK-DESIGN-006",
+      "step_number": 6,
+      "action": "Coordinate",
+      "tool": "Project Management",
+      "description": "Coordinate development timeline (December 12th+)",
+      "location": "Step_Templates/TASK/STEP-TASK-DESIGN-006-06.md",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "STEP-TASK-DESIGN-007-01",
+      "parent_task_id": "STEP-TASK-DESIGN-007",
+      "step_number": 1,
+      "action": "Design",
+      "tool": "Figma + UX Design",
+      "description": "Design admin calendar interface",
+      "location": "Step_Templates/TASK/STEP-TASK-DESIGN-007-01.md",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "STEP-TASK-DESIGN-007-02",
+      "parent_task_id": "STEP-TASK-DESIGN-007",
+      "step_number": 2,
+      "action": "Design",
+      "tool": "Figma + UX Design",
+      "description": "Design regular employee calendar interface",
+      "location": "Step_Templates/TASK/STEP-TASK-DESIGN-007-02.md",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "STEP-TASK-DESIGN-007-03",
+      "parent_task_id": "STEP-TASK-DESIGN-007",
+      "step_number": 3,
+      "action": "Create",
+      "tool": "Responsive Design System",
+      "description": "Create adaptive designs for different screen sizes",
+      "location": "Step_Templates/TASK/STEP-TASK-DESIGN-007-03.md",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "STEP-TASK-DESIGN-007-04",
+      "parent_task_id": "STEP-TASK-DESIGN-007",
+      "step_number": 4,
+      "action": "Build",
+      "tool": "Component Library",
+      "description": "Build reusable design system components",
+      "location": "Step_Templates/TASK/STEP-TASK-DESIGN-007-04.md",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "STEP-TASK-DESIGN-007-05",
+      "parent_task_id": "STEP-TASK-DESIGN-007",
+      "step_number": 5,
+      "action": "Conduct",
+      "tool": "Collaboration Tools",
+      "description": "Conduct client feedback iterations",
+      "location": "Step_Templates/TASK/STEP-TASK-DESIGN-007-05.md",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "STEP-TASK-DESIGN-007-06",
+      "parent_task_id": "STEP-TASK-DESIGN-007",
+      "step_number": 6,
+      "action": "Plan",
+      "tool": "Resource Planning",
+      "description": "Plan for potential team expansion (2 more UX designers)",
+      "location": "Step_Templates/TASK/STEP-TASK-DESIGN-007-06.md",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "STEP-TASK-DESIGN-008-01",
+      "parent_task_id": "STEP-TASK-DESIGN-008",
+      "step_number": 1,
+      "action": "Complete",
+      "tool": "Design Software",
+      "description": "Complete initial vertical designs",
+      "location": "Step_Templates/TASK/STEP-TASK-DESIGN-008-01.md",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "STEP-TASK-DESIGN-008-02",
+      "parent_task_id": "STEP-TASK-DESIGN-008",
+      "step_number": 2,
+      "action": "Identify",
+      "tool": "Requirements Documentation",
+      "description": "Identify required size variations",
+      "location": "Step_Templates/TASK/STEP-TASK-DESIGN-008-02.md",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "STEP-TASK-DESIGN-008-03",
+      "parent_task_id": "STEP-TASK-DESIGN-008",
+      "step_number": 3,
+      "action": "Adapt",
+      "tool": "Responsive Design Techniques",
+      "description": "Adapt designs for multiple sizes",
+      "location": "Step_Templates/TASK/STEP-TASK-DESIGN-008-03.md",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "STEP-TASK-DESIGN-008-04",
+      "parent_task_id": "STEP-TASK-DESIGN-008",
+      "step_number": 4,
+      "action": "Test",
+      "tool": "Preview Tools",
+      "description": "Test across different dimensions",
+      "location": "Step_Templates/TASK/STEP-TASK-DESIGN-008-04.md",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "STEP-TASK-DESIGN-008-05",
+      "parent_task_id": "STEP-TASK-DESIGN-008",
+      "step_number": 5,
+      "action": "Finalize",
+      "tool": "Export Automation",
+      "description": "Finalize and export all variations",
+      "location": "Step_Templates/TASK/STEP-TASK-DESIGN-008-05.md",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "STEP-TASK-DESIGN-008-06",
+      "parent_task_id": "STEP-TASK-DESIGN-008",
+      "step_number": 6,
+      "action": "Negotiate",
+      "tool": "Business Communication",
+      "description": "Negotiate project scope and pricing",
+      "location": "Step_Templates/TASK/STEP-TASK-DESIGN-008-06.md",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "STEP-TASK-DESIGN-009-01",
+      "parent_task_id": "STEP-TASK-DESIGN-009",
+      "step_number": 1,
+      "action": "Review",
+      "tool": "Web Browser + Design Review",
+      "description": "Review client landing page for missing information",
+      "location": "Step_Templates/TASK/STEP-TASK-DESIGN-009-01.md",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "STEP-TASK-DESIGN-009-02",
+      "parent_task_id": "STEP-TASK-DESIGN-009",
+      "step_number": 2,
+      "action": "Formulate",
+      "tool": "Requirements Analysis",
+      "description": "Formulate clarification questions for designer",
+      "location": "Step_Templates/TASK/STEP-TASK-DESIGN-009-02.md",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "STEP-TASK-DESIGN-009-03",
+      "parent_task_id": "STEP-TASK-DESIGN-009",
+      "step_number": 3,
+      "action": "Communicate",
+      "tool": "Discord server / Email / Project Management",
+      "description": "Communicate questions to designer",
+      "location": "Step_Templates/TASK/STEP-TASK-DESIGN-009-03.md",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "STEP-TASK-DESIGN-009-04",
+      "parent_task_id": "STEP-TASK-DESIGN-009",
+      "step_number": 4,
+      "action": "Document",
+      "tool": "Documentation System",
+      "description": "Document designer responses",
+      "location": "Step_Templates/TASK/STEP-TASK-DESIGN-009-04.md",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "STEP-TASK-DESIGN-009-05",
+      "parent_task_id": "STEP-TASK-DESIGN-009",
+      "step_number": 5,
+      "action": "Update",
+      "tool": "Project Planning",
+      "description": "Update development plan based on clarifications",
+      "location": "Step_Templates/TASK/STEP-TASK-DESIGN-009-05.md",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "STEP-TASK-DESIGN-010-01",
+      "parent_task_id": "STEP-TASK-DESIGN-010",
+      "step_number": 1,
+      "action": "Identify",
+      "tool": "Issue Analysis",
+      "description": "Identify boundary violation issue (e.g., 8 PM responses)",
+      "location": "Step_Templates/TASK/STEP-TASK-DESIGN-010-01.md",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "STEP-TASK-DESIGN-010-02",
+      "parent_task_id": "STEP-TASK-DESIGN-010",
+      "step_number": 2,
+      "action": "Define",
+      "tool": "Policy Documentation",
+      "description": "Define clear working hours policy (e.g., 12:00-16:00)",
+      "location": "Step_Templates/TASK/STEP-TASK-DESIGN-010-02.md",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "STEP-TASK-DESIGN-010-03",
+      "parent_task_id": "STEP-TASK-DESIGN-010",
+      "step_number": 3,
+      "action": "Communicate",
+      "tool": "Client Communication",
+      "description": "Communicate working hours to client professionally",
+      "location": "Step_Templates/TASK/STEP-TASK-DESIGN-010-03.md",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "STEP-TASK-DESIGN-010-04",
+      "parent_task_id": "STEP-TASK-DESIGN-010",
+      "step_number": 4,
+      "action": "Adjust",
+      "tool": "Process Optimization",
+      "description": "Adjust reporting frequency if needed (daily to weekly)",
+      "location": "Step_Templates/TASK/STEP-TASK-DESIGN-010-04.md",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "STEP-TASK-DESIGN-010-05",
+      "parent_task_id": "STEP-TASK-DESIGN-010",
+      "step_number": 5,
+      "action": "Clarify",
+      "tool": "Client Agreement",
+      "description": "Clarify reporting format and expectations",
+      "location": "Step_Templates/TASK/STEP-TASK-DESIGN-010-05.md",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "STEP-TASK-DESIGN-010-06",
+      "parent_task_id": "STEP-TASK-DESIGN-010",
+      "step_number": 6,
+      "action": "Document",
+      "tool": "Documentation System",
+      "description": "Document new communication standards",
+      "location": "Step_Templates/TASK/STEP-TASK-DESIGN-010-06.md",
+      "created_date": "2025-11-10"
+    }
+  ]
+}

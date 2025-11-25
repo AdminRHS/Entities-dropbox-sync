@@ -1,0 +1,4528 @@
+{
+  "entity_type": "LIBRARIES",
+  "source_file": "Nov25/LBS_008_Taxonomy/Entities/LIBRARIES/actions.json",
+  "generated_at": "2025-11-12T02:26:07Z",
+  "library": "Processes",
+  "total_processes": 428,
+  "processes": [
+    {
+      "process_id": "PROCESS-001",
+      "process": "abstracting",
+      "base_actions": [
+        "abstract"
+      ],
+      "result_forms": [
+        "abstracted"
+      ]
+    },
+    {
+      "process_id": "PROCESS-002",
+      "process": "accessing",
+      "base_actions": [
+        "access"
+      ],
+      "result_forms": [
+        "accessed"
+      ]
+    },
+    {
+      "process_id": "PROCESS-003",
+      "process": "acknowledging",
+      "base_actions": [
+        "acknowledge"
+      ],
+      "result_forms": [
+        "acknowledged"
+      ]
+    },
+    {
+      "process_id": "PROCESS-004",
+      "process": "adapting",
+      "base_actions": [
+        "Adapt",
+        "adapt"
+      ],
+      "result_forms": [
+        "Adapted",
+        "adapted"
+      ]
+    },
+    {
+      "process_id": "PROCESS-005",
+      "process": "adding",
+      "base_actions": [
+        "add"
+      ],
+      "result_forms": [
+        "added"
+      ]
+    },
+    {
+      "process_id": "PROCESS-006",
+      "process": "addressing",
+      "base_actions": [
+        "address"
+      ],
+      "result_forms": [
+        "addressed"
+      ]
+    },
+    {
+      "process_id": "PROCESS-007",
+      "process": "adjusting",
+      "base_actions": [
+        "Adjust",
+        "adjust"
+      ],
+      "result_forms": [
+        "Adjusted",
+        "adjusted"
+      ]
+    },
+    {
+      "process_id": "PROCESS-008",
+      "process": "aggregating",
+      "base_actions": [
+        "aggregate"
+      ],
+      "result_forms": [
+        "aggregated"
+      ]
+    },
+    {
+      "process_id": "PROCESS-009",
+      "process": "agreeing",
+      "base_actions": [
+        "agree"
+      ],
+      "result_forms": [
+        "agreed"
+      ]
+    },
+    {
+      "process_id": "PROCESS-010",
+      "process": "Aligning",
+      "base_actions": [
+        "Align",
+        "align"
+      ],
+      "result_forms": [
+        "Aligned",
+        "aligned"
+      ]
+    },
+    {
+      "process_id": "PROCESS-011",
+      "process": "allocating",
+      "base_actions": [
+        "Allocate",
+        "allocate"
+      ],
+      "result_forms": [
+        "Allocated",
+        "allocated"
+      ]
+    },
+    {
+      "process_id": "PROCESS-012",
+      "process": "analyzing",
+      "base_actions": [
+        "Analyze",
+        "analyze"
+      ],
+      "result_forms": [
+        "Analyzed",
+        "analyzed"
+      ]
+    },
+    {
+      "process_id": "PROCESS-013",
+      "process": "animating",
+      "base_actions": [
+        "animate"
+      ],
+      "result_forms": [
+        "animated"
+      ]
+    },
+    {
+      "process_id": "PROCESS-014",
+      "process": "announcing",
+      "base_actions": [
+        "announce"
+      ],
+      "result_forms": [
+        "announced"
+      ]
+    },
+    {
+      "process_id": "PROCESS-015",
+      "process": "applying",
+      "base_actions": [
+        "Apply",
+        "apply"
+      ],
+      "result_forms": [
+        "Applied",
+        "applied"
+      ]
+    },
+    {
+      "process_id": "PROCESS-016",
+      "process": "approving",
+      "base_actions": [
+        "approve"
+      ],
+      "result_forms": [
+        "approved"
+      ]
+    },
+    {
+      "process_id": "PROCESS-017",
+      "process": "archiving",
+      "base_actions": [
+        "archive"
+      ],
+      "result_forms": [
+        "archived"
+      ]
+    },
+    {
+      "process_id": "PROCESS-018",
+      "process": "arranging",
+      "base_actions": [
+        "Arrange",
+        "arrange"
+      ],
+      "result_forms": [
+        "Arranged",
+        "arranged"
+      ]
+    },
+    {
+      "process_id": "PROCESS-019",
+      "process": "asking",
+      "base_actions": [
+        "ask"
+      ],
+      "result_forms": [
+        "asked"
+      ]
+    },
+    {
+      "process_id": "PROCESS-020",
+      "process": "assembling",
+      "base_actions": [
+        "Assemble",
+        "assemble"
+      ],
+      "result_forms": [
+        "Assembled",
+        "assembled"
+      ]
+    },
+    {
+      "process_id": "PROCESS-021",
+      "process": "assessing",
+      "base_actions": [
+        "Assess",
+        "assess"
+      ],
+      "result_forms": [
+        "Assessed",
+        "assessed"
+      ]
+    },
+    {
+      "process_id": "PROCESS-022",
+      "process": "assigning",
+      "base_actions": [
+        "assign"
+      ],
+      "result_forms": [
+        "assigned"
+      ]
+    },
+    {
+      "process_id": "PROCESS-023",
+      "process": "assisting",
+      "base_actions": [
+        "assist"
+      ],
+      "result_forms": [
+        "assisted"
+      ]
+    },
+    {
+      "process_id": "PROCESS-024",
+      "process": "attaching",
+      "base_actions": [
+        "attach"
+      ],
+      "result_forms": [
+        "attached"
+      ]
+    },
+    {
+      "process_id": "PROCESS-025",
+      "process": "auditing",
+      "base_actions": [
+        "Audit",
+        "audit"
+      ],
+      "result_forms": [
+        "Audited",
+        "audited"
+      ]
+    },
+    {
+      "process_id": "PROCESS-026",
+      "process": "automating",
+      "base_actions": [
+        "Automate",
+        "automate"
+      ],
+      "result_forms": [
+        "Automated",
+        "automated"
+      ]
+    },
+    {
+      "process_id": "PROCESS-027",
+      "process": "backing up",
+      "base_actions": [
+        "back up",
+        "backup"
+      ],
+      "result_forms": [
+        "backed up"
+      ]
+    },
+    {
+      "process_id": "PROCESS-028",
+      "process": "balancing",
+      "base_actions": [
+        "balance"
+      ],
+      "result_forms": [
+        "balanced"
+      ]
+    },
+    {
+      "process_id": "PROCESS-029",
+      "process": "beginning",
+      "base_actions": [
+        "begin"
+      ],
+      "result_forms": [
+        "began",
+        "begun"
+      ]
+    },
+    {
+      "process_id": "PROCESS-030",
+      "process": "bidding",
+      "base_actions": [
+        "bid"
+      ],
+      "result_forms": [
+        "bid"
+      ]
+    },
+    {
+      "process_id": "PROCESS-031",
+      "process": "blending",
+      "base_actions": [
+        "blend"
+      ],
+      "result_forms": [
+        "blended"
+      ]
+    },
+    {
+      "process_id": "PROCESS-032",
+      "process": "blocking",
+      "base_actions": [
+        "block"
+      ],
+      "result_forms": [
+        "blocked"
+      ]
+    },
+    {
+      "process_id": "PROCESS-033",
+      "process": "boosting",
+      "base_actions": [
+        "boost"
+      ],
+      "result_forms": [
+        "boosted"
+      ]
+    },
+    {
+      "process_id": "PROCESS-034",
+      "process": "brainstorming",
+      "base_actions": [
+        "Brainstorm",
+        "brainstorm"
+      ],
+      "result_forms": [
+        "Brainstormed",
+        "brainstormed"
+      ]
+    },
+    {
+      "process_id": "PROCESS-035",
+      "process": "breaking down",
+      "base_actions": [
+        "break down",
+        "breakdown"
+      ],
+      "result_forms": [
+        "broken down"
+      ]
+    },
+    {
+      "process_id": "PROCESS-036",
+      "process": "building",
+      "base_actions": [
+        "build"
+      ],
+      "result_forms": [
+        "built"
+      ]
+    },
+    {
+      "process_id": "PROCESS-037",
+      "process": "caching",
+      "base_actions": [
+        "cache"
+      ],
+      "result_forms": [
+        "cached"
+      ]
+    },
+    {
+      "process_id": "PROCESS-038",
+      "process": "calculating",
+      "base_actions": [
+        "calculate"
+      ],
+      "result_forms": [
+        "calculated"
+      ]
+    },
+    {
+      "process_id": "PROCESS-039",
+      "process": "calibrating",
+      "base_actions": [
+        "calibrate"
+      ],
+      "result_forms": [
+        "calibrated"
+      ]
+    },
+    {
+      "process_id": "PROCESS-040",
+      "process": "capturing",
+      "base_actions": [
+        "capture"
+      ],
+      "result_forms": [
+        "captured"
+      ]
+    },
+    {
+      "process_id": "PROCESS-041",
+      "process": "categorizing",
+      "base_actions": [
+        "Categorize",
+        "categorize"
+      ],
+      "result_forms": [
+        "Categorized",
+        "categorized"
+      ]
+    },
+    {
+      "process_id": "PROCESS-042",
+      "process": "celebrating",
+      "base_actions": [
+        "celebrate"
+      ],
+      "result_forms": [
+        "celebrated"
+      ]
+    },
+    {
+      "process_id": "PROCESS-043",
+      "process": "checking",
+      "base_actions": [
+        "Check",
+        "check"
+      ],
+      "result_forms": [
+        "Checked",
+        "checked"
+      ]
+    },
+    {
+      "process_id": "PROCESS-044",
+      "process": "choosing",
+      "base_actions": [
+        "Choose",
+        "choose"
+      ],
+      "result_forms": [
+        "Chosen",
+        "chosen"
+      ]
+    },
+    {
+      "process_id": "PROCESS-045",
+      "process": "choreographing",
+      "base_actions": [
+        "choreograph"
+      ],
+      "result_forms": [
+        "choreographed"
+      ]
+    },
+    {
+      "process_id": "PROCESS-046",
+      "process": "circulating",
+      "base_actions": [
+        "circulate"
+      ],
+      "result_forms": [
+        "circulated"
+      ]
+    },
+    {
+      "process_id": "PROCESS-047",
+      "process": "clarifying",
+      "base_actions": [
+        "clarify"
+      ],
+      "result_forms": [
+        "clarified"
+      ]
+    },
+    {
+      "process_id": "PROCESS-048",
+      "process": "classifying",
+      "base_actions": [
+        "classify"
+      ],
+      "result_forms": [
+        "classified"
+      ]
+    },
+    {
+      "process_id": "PROCESS-049",
+      "process": "cleaning up",
+      "base_actions": [
+        "clean up"
+      ],
+      "result_forms": [
+        "cleaned up"
+      ]
+    },
+    {
+      "process_id": "PROCESS-050",
+      "process": "coding",
+      "base_actions": [
+        "Code",
+        "code"
+      ],
+      "result_forms": [
+        "Coded",
+        "coded"
+      ]
+    },
+    {
+      "process_id": "PROCESS-051",
+      "process": "collaborating",
+      "base_actions": [
+        "collaborate"
+      ],
+      "result_forms": [
+        "collaborated"
+      ]
+    },
+    {
+      "process_id": "PROCESS-052",
+      "process": "collating",
+      "base_actions": [
+        "collate"
+      ],
+      "result_forms": [
+        "collated"
+      ]
+    },
+    {
+      "process_id": "PROCESS-053",
+      "process": "collecting",
+      "base_actions": [
+        "Collect",
+        "collect"
+      ],
+      "result_forms": [
+        "Collected",
+        "collected"
+      ]
+    },
+    {
+      "process_id": "PROCESS-054",
+      "process": "communicating",
+      "base_actions": [
+        "communicate"
+      ],
+      "result_forms": [
+        "communicated"
+      ]
+    },
+    {
+      "process_id": "PROCESS-055",
+      "process": "comparing",
+      "base_actions": [
+        "compare"
+      ],
+      "result_forms": [
+        "compared"
+      ]
+    },
+    {
+      "process_id": "PROCESS-056",
+      "process": "compiling",
+      "base_actions": [
+        "Compile",
+        "compile"
+      ],
+      "result_forms": [
+        "Compiled",
+        "compiled"
+      ]
+    },
+    {
+      "process_id": "PROCESS-057",
+      "process": "composing",
+      "base_actions": [
+        "compose"
+      ],
+      "result_forms": [
+        "composed"
+      ]
+    },
+    {
+      "process_id": "PROCESS-058",
+      "process": "compositing",
+      "base_actions": [
+        "composite"
+      ],
+      "result_forms": [
+        "composited"
+      ]
+    },
+    {
+      "process_id": "PROCESS-059",
+      "process": "conceptualizing",
+      "base_actions": [
+        "conceptualize"
+      ],
+      "result_forms": [
+        "conceptualized"
+      ]
+    },
+    {
+      "process_id": "PROCESS-060",
+      "process": "concluding",
+      "base_actions": [
+        "conclude"
+      ],
+      "result_forms": [
+        "concluded"
+      ]
+    },
+    {
+      "process_id": "PROCESS-061",
+      "process": "conducting",
+      "base_actions": [
+        "Conduct",
+        "conduct"
+      ],
+      "result_forms": [
+        "Conducted",
+        "conducted"
+      ]
+    },
+    {
+      "process_id": "PROCESS-062",
+      "process": "configuring",
+      "base_actions": [
+        "Configure",
+        "configure"
+      ],
+      "result_forms": [
+        "Configured",
+        "configured"
+      ]
+    },
+    {
+      "process_id": "PROCESS-063",
+      "process": "confirming",
+      "base_actions": [
+        "confirm"
+      ],
+      "result_forms": [
+        "confirmed"
+      ]
+    },
+    {
+      "process_id": "PROCESS-064",
+      "process": "congratulating",
+      "base_actions": [
+        "congratulate"
+      ],
+      "result_forms": [
+        "congratulated"
+      ]
+    },
+    {
+      "process_id": "PROCESS-065",
+      "process": "considering",
+      "base_actions": [
+        "consider"
+      ],
+      "result_forms": [
+        "considered"
+      ]
+    },
+    {
+      "process_id": "PROCESS-066",
+      "process": "consolidating",
+      "base_actions": [
+        "consolidate"
+      ],
+      "result_forms": [
+        "consolidated"
+      ]
+    },
+    {
+      "process_id": "PROCESS-067",
+      "process": "constructing",
+      "base_actions": [
+        "construct"
+      ],
+      "result_forms": [
+        "constructed"
+      ]
+    },
+    {
+      "process_id": "PROCESS-068",
+      "process": "consulting",
+      "base_actions": [
+        "consult"
+      ],
+      "result_forms": [
+        "consulted"
+      ]
+    },
+    {
+      "process_id": "PROCESS-069",
+      "process": "contacting",
+      "base_actions": [
+        "contact"
+      ],
+      "result_forms": [
+        "contacted"
+      ]
+    },
+    {
+      "process_id": "PROCESS-070",
+      "process": "converting",
+      "base_actions": [
+        "Convert",
+        "convert"
+      ],
+      "result_forms": [
+        "Converted",
+        "converted"
+      ]
+    },
+    {
+      "process_id": "PROCESS-071",
+      "process": "coordinating",
+      "base_actions": [
+        "coordinate"
+      ],
+      "result_forms": [
+        "coordinated"
+      ]
+    },
+    {
+      "process_id": "PROCESS-072",
+      "process": "correcting",
+      "base_actions": [
+        "correct"
+      ],
+      "result_forms": [
+        "corrected"
+      ]
+    },
+    {
+      "process_id": "PROCESS-073",
+      "process": "correlating",
+      "base_actions": [
+        "correlate"
+      ],
+      "result_forms": [
+        "correlated"
+      ]
+    },
+    {
+      "process_id": "PROCESS-074",
+      "process": "crafting",
+      "base_actions": [
+        "craft"
+      ],
+      "result_forms": [
+        "crafted"
+      ]
+    },
+    {
+      "process_id": "PROCESS-075",
+      "process": "creating",
+      "base_actions": [
+        "Create",
+        "create"
+      ],
+      "result_forms": [
+        "Created",
+        "created"
+      ]
+    },
+    {
+      "process_id": "PROCESS-076",
+      "process": "cross-checking",
+      "base_actions": [
+        "cross-check"
+      ],
+      "result_forms": [
+        "cross-checked"
+      ]
+    },
+    {
+      "process_id": "PROCESS-077",
+      "process": "cross-referencing",
+      "base_actions": [
+        "cross-reference"
+      ],
+      "result_forms": [
+        "cross-referenced"
+      ]
+    },
+    {
+      "process_id": "PROCESS-078",
+      "process": "cross-verifying",
+      "base_actions": [
+        "cross-verify"
+      ],
+      "result_forms": [
+        "cross-verified"
+      ]
+    },
+    {
+      "process_id": "PROCESS-079",
+      "process": "curating",
+      "base_actions": [
+        "curate"
+      ],
+      "result_forms": [
+        "curated"
+      ]
+    },
+    {
+      "process_id": "PROCESS-080",
+      "process": "customizing",
+      "base_actions": [
+        "Customize",
+        "customize"
+      ],
+      "result_forms": [
+        "Customized",
+        "customized"
+      ]
+    },
+    {
+      "process_id": "PROCESS-081",
+      "process": "deciding",
+      "base_actions": [
+        "decide"
+      ],
+      "result_forms": [
+        "decided"
+      ]
+    },
+    {
+      "process_id": "PROCESS-082",
+      "process": "decommissioning",
+      "base_actions": [
+        "decommission"
+      ],
+      "result_forms": [
+        "decommissioned"
+      ]
+    },
+    {
+      "process_id": "PROCESS-083",
+      "process": "deepening",
+      "base_actions": [
+        "deepen"
+      ],
+      "result_forms": [
+        "deepened"
+      ]
+    },
+    {
+      "process_id": "PROCESS-084",
+      "process": "defining",
+      "base_actions": [
+        "Define",
+        "define"
+      ],
+      "result_forms": [
+        "Defined",
+        "defined"
+      ]
+    },
+    {
+      "process_id": "PROCESS-085",
+      "process": "delegating",
+      "base_actions": [
+        "delegate"
+      ],
+      "result_forms": [
+        "delegated"
+      ]
+    },
+    {
+      "process_id": "PROCESS-086",
+      "process": "deleting",
+      "base_actions": [
+        "delete"
+      ],
+      "result_forms": [
+        "deleted"
+      ]
+    },
+    {
+      "process_id": "PROCESS-087",
+      "process": "delineating",
+      "base_actions": [
+        "delineate"
+      ],
+      "result_forms": [
+        "delineated"
+      ]
+    },
+    {
+      "process_id": "PROCESS-088",
+      "process": "demonstrating",
+      "base_actions": [
+        "demonstrate"
+      ],
+      "result_forms": [
+        "demonstrated"
+      ]
+    },
+    {
+      "process_id": "PROCESS-089",
+      "process": "deploying",
+      "base_actions": [
+        "Deploy",
+        "deploy"
+      ],
+      "result_forms": [
+        "Deployed",
+        "deployed"
+      ]
+    },
+    {
+      "process_id": "PROCESS-090",
+      "process": "describing",
+      "base_actions": [
+        "Describe",
+        "describe"
+      ],
+      "result_forms": [
+        "Described",
+        "described"
+      ]
+    },
+    {
+      "process_id": "PROCESS-091",
+      "process": "designing",
+      "base_actions": [
+        "Design",
+        "design"
+      ],
+      "result_forms": [
+        "Designed",
+        "designed"
+      ]
+    },
+    {
+      "process_id": "PROCESS-092",
+      "process": "detailing",
+      "base_actions": [
+        "detail"
+      ],
+      "result_forms": [
+        "detailed"
+      ]
+    },
+    {
+      "process_id": "PROCESS-093",
+      "process": "detecting",
+      "base_actions": [
+        "detect"
+      ],
+      "result_forms": [
+        "detected"
+      ]
+    },
+    {
+      "process_id": "PROCESS-094",
+      "process": "determining",
+      "base_actions": [
+        "determine"
+      ],
+      "result_forms": [
+        "determined"
+      ]
+    },
+    {
+      "process_id": "PROCESS-095",
+      "process": "developing",
+      "base_actions": [
+        "Develop",
+        "develop"
+      ],
+      "result_forms": [
+        "Developed",
+        "developed"
+      ]
+    },
+    {
+      "process_id": "PROCESS-096",
+      "process": "diagnosing",
+      "base_actions": [
+        "diagnose"
+      ],
+      "result_forms": [
+        "diagnosed"
+      ]
+    },
+    {
+      "process_id": "PROCESS-097",
+      "process": "differentiating",
+      "base_actions": [
+        "differentiate"
+      ],
+      "result_forms": [
+        "differentiated"
+      ]
+    },
+    {
+      "process_id": "PROCESS-098",
+      "process": "directing",
+      "base_actions": [
+        "direct"
+      ],
+      "result_forms": [
+        "directed"
+      ]
+    },
+    {
+      "process_id": "PROCESS-099",
+      "process": "discovering",
+      "base_actions": [
+        "discover"
+      ],
+      "result_forms": [
+        "discovered"
+      ]
+    },
+    {
+      "process_id": "PROCESS-100",
+      "process": "discussing",
+      "base_actions": [
+        "discuss"
+      ],
+      "result_forms": [
+        "discussed"
+      ]
+    },
+    {
+      "process_id": "PROCESS-101",
+      "process": "disentangling",
+      "base_actions": [
+        "disentangle"
+      ],
+      "result_forms": [
+        "disentangled"
+      ]
+    },
+    {
+      "process_id": "PROCESS-102",
+      "process": "dispatching",
+      "base_actions": [
+        "dispatch"
+      ],
+      "result_forms": [
+        "dispatched"
+      ]
+    },
+    {
+      "process_id": "PROCESS-103",
+      "process": "displaying",
+      "base_actions": [
+        "display"
+      ],
+      "result_forms": [
+        "displayed"
+      ]
+    },
+    {
+      "process_id": "PROCESS-104",
+      "process": "dissecting",
+      "base_actions": [
+        "dissect"
+      ],
+      "result_forms": [
+        "dissected"
+      ]
+    },
+    {
+      "process_id": "PROCESS-105",
+      "process": "disseminating",
+      "base_actions": [
+        "disseminate"
+      ],
+      "result_forms": [
+        "disseminated"
+      ]
+    },
+    {
+      "process_id": "PROCESS-106",
+      "process": "distilling",
+      "base_actions": [
+        "distill"
+      ],
+      "result_forms": [
+        "distilled"
+      ]
+    },
+    {
+      "process_id": "PROCESS-107",
+      "process": "distributing",
+      "base_actions": [
+        "Distribute",
+        "distribute"
+      ],
+      "result_forms": [
+        "Distributed",
+        "distributed"
+      ]
+    },
+    {
+      "process_id": "PROCESS-108",
+      "process": "diversifying",
+      "base_actions": [
+        "diversify"
+      ],
+      "result_forms": [
+        "diversified"
+      ]
+    },
+    {
+      "process_id": "PROCESS-109",
+      "process": "documenting",
+      "base_actions": [
+        "Document",
+        "document"
+      ],
+      "result_forms": [
+        "Documented",
+        "documented"
+      ]
+    },
+    {
+      "process_id": "PROCESS-110",
+      "process": "double-checking",
+      "base_actions": [
+        "double-check"
+      ],
+      "result_forms": [
+        "double-checked"
+      ]
+    },
+    {
+      "process_id": "PROCESS-111",
+      "process": "downloading",
+      "base_actions": [
+        "download"
+      ],
+      "result_forms": [
+        "downloaded"
+      ]
+    },
+    {
+      "process_id": "PROCESS-112",
+      "process": "drafting",
+      "base_actions": [
+        "Draft",
+        "draft"
+      ],
+      "result_forms": [
+        "Drafted",
+        "drafted"
+      ]
+    },
+    {
+      "process_id": "PROCESS-113",
+      "process": "dramatizing",
+      "base_actions": [
+        "dramatize"
+      ],
+      "result_forms": [
+        "dramatized"
+      ]
+    },
+    {
+      "process_id": "PROCESS-114",
+      "process": "drawing",
+      "base_actions": [
+        "draw"
+      ],
+      "result_forms": [
+        "drawn"
+      ]
+    },
+    {
+      "process_id": "PROCESS-115",
+      "process": "driving",
+      "base_actions": [
+        "drive"
+      ],
+      "result_forms": [
+        "driven"
+      ]
+    },
+    {
+      "process_id": "PROCESS-116",
+      "process": "editing",
+      "base_actions": [
+        "edit"
+      ],
+      "result_forms": [
+        "edited"
+      ]
+    },
+    {
+      "process_id": "PROCESS-117",
+      "process": "educating",
+      "base_actions": [
+        "educate"
+      ],
+      "result_forms": [
+        "educated"
+      ]
+    },
+    {
+      "process_id": "PROCESS-118",
+      "process": "elaborating",
+      "base_actions": [
+        "elaborate"
+      ],
+      "result_forms": [
+        "elaborated"
+      ]
+    },
+    {
+      "process_id": "PROCESS-119",
+      "process": "elevating",
+      "base_actions": [
+        "elevate"
+      ],
+      "result_forms": [
+        "elevated"
+      ]
+    },
+    {
+      "process_id": "PROCESS-120",
+      "process": "elucidating",
+      "base_actions": [
+        "elucidate"
+      ],
+      "result_forms": [
+        "elucidated"
+      ]
+    },
+    {
+      "process_id": "PROCESS-121",
+      "process": "embedding",
+      "base_actions": [
+        "Embed",
+        "embed"
+      ],
+      "result_forms": [
+        "Embedded",
+        "embedded"
+      ]
+    },
+    {
+      "process_id": "PROCESS-122",
+      "process": "embracing",
+      "base_actions": [
+        "embrace"
+      ],
+      "result_forms": [
+        "embraced"
+      ]
+    },
+    {
+      "process_id": "PROCESS-123",
+      "process": "emphasizing",
+      "base_actions": [
+        "Emphasize",
+        "emphasize"
+      ],
+      "result_forms": [
+        "Emphasized",
+        "emphasized"
+      ]
+    },
+    {
+      "process_id": "PROCESS-124",
+      "process": "employing",
+      "base_actions": [
+        "employ"
+      ],
+      "result_forms": [
+        "employed"
+      ]
+    },
+    {
+      "process_id": "PROCESS-125",
+      "process": "empowering",
+      "base_actions": [
+        "empower"
+      ],
+      "result_forms": [
+        "empowered"
+      ]
+    },
+    {
+      "process_id": "PROCESS-126",
+      "process": "enabling",
+      "base_actions": [
+        "enable"
+      ],
+      "result_forms": [
+        "enabled"
+      ]
+    },
+    {
+      "process_id": "PROCESS-127",
+      "process": "enacting",
+      "base_actions": [
+        "enact"
+      ],
+      "result_forms": [
+        "enacted"
+      ]
+    },
+    {
+      "process_id": "PROCESS-128",
+      "process": "encoding",
+      "base_actions": [
+        "encode"
+      ],
+      "result_forms": [
+        "encoded"
+      ]
+    },
+    {
+      "process_id": "PROCESS-129",
+      "process": "encouraging",
+      "base_actions": [
+        "encourage"
+      ],
+      "result_forms": [
+        "encouraged"
+      ]
+    },
+    {
+      "process_id": "PROCESS-130",
+      "process": "encrypting",
+      "base_actions": [
+        "encrypt"
+      ],
+      "result_forms": [
+        "encrypted"
+      ]
+    },
+    {
+      "process_id": "PROCESS-131",
+      "process": "endorsing",
+      "base_actions": [
+        "endorse"
+      ],
+      "result_forms": [
+        "endorsed"
+      ]
+    },
+    {
+      "process_id": "PROCESS-132",
+      "process": "Enforcing",
+      "base_actions": [
+        "Enforce",
+        "enforce"
+      ],
+      "result_forms": [
+        "Enforced",
+        "enforced"
+      ]
+    },
+    {
+      "process_id": "PROCESS-133",
+      "process": "engaging",
+      "base_actions": [
+        "Engage",
+        "engage"
+      ],
+      "result_forms": [
+        "Engaged",
+        "engaged"
+      ]
+    },
+    {
+      "process_id": "PROCESS-134",
+      "process": "engineering",
+      "base_actions": [
+        "engineer"
+      ],
+      "result_forms": [
+        "engineered"
+      ]
+    },
+    {
+      "process_id": "PROCESS-135",
+      "process": "enhancing",
+      "base_actions": [
+        "Enhance",
+        "enhance"
+      ],
+      "result_forms": [
+        "Enhanced",
+        "enhanced"
+      ]
+    },
+    {
+      "process_id": "PROCESS-136",
+      "process": "enlisting",
+      "base_actions": [
+        "enlist"
+      ],
+      "result_forms": [
+        "enlisted"
+      ]
+    },
+    {
+      "process_id": "PROCESS-137",
+      "process": "enriching",
+      "base_actions": [
+        "enrich"
+      ],
+      "result_forms": [
+        "enriched"
+      ]
+    },
+    {
+      "process_id": "PROCESS-138",
+      "process": "ensuring",
+      "base_actions": [
+        "Ensure",
+        "ensure"
+      ],
+      "result_forms": [
+        "Ensured",
+        "ensured"
+      ]
+    },
+    {
+      "process_id": "PROCESS-139",
+      "process": "entangling",
+      "base_actions": [
+        "entangle"
+      ],
+      "result_forms": [
+        "entangled"
+      ]
+    },
+    {
+      "process_id": "PROCESS-140",
+      "process": "entering",
+      "base_actions": [
+        "enter"
+      ],
+      "result_forms": [
+        "entered"
+      ]
+    },
+    {
+      "process_id": "PROCESS-141",
+      "process": "enumerating",
+      "base_actions": [
+        "enumerate"
+      ],
+      "result_forms": [
+        "enumerated"
+      ]
+    },
+    {
+      "process_id": "PROCESS-142",
+      "process": "envisioning",
+      "base_actions": [
+        "envision"
+      ],
+      "result_forms": [
+        "envisioned"
+      ]
+    },
+    {
+      "process_id": "PROCESS-143",
+      "process": "epitomizing",
+      "base_actions": [
+        "epitomize"
+      ],
+      "result_forms": [
+        "epitomized"
+      ]
+    },
+    {
+      "process_id": "PROCESS-144",
+      "process": "equalizing",
+      "base_actions": [
+        "equalize"
+      ],
+      "result_forms": [
+        "equalized"
+      ]
+    },
+    {
+      "process_id": "PROCESS-145",
+      "process": "eradicating",
+      "base_actions": [
+        "eradicate"
+      ],
+      "result_forms": [
+        "eradicated"
+      ]
+    },
+    {
+      "process_id": "PROCESS-146",
+      "process": "escalating",
+      "base_actions": [
+        "escalate"
+      ],
+      "result_forms": [
+        "escalated"
+      ]
+    },
+    {
+      "process_id": "PROCESS-147",
+      "process": "establishing",
+      "base_actions": [
+        "Establish",
+        "establish"
+      ],
+      "result_forms": [
+        "Established",
+        "established"
+      ]
+    },
+    {
+      "process_id": "PROCESS-148",
+      "process": "estimating",
+      "base_actions": [
+        "estimate"
+      ],
+      "result_forms": [
+        "estimated"
+      ]
+    },
+    {
+      "process_id": "PROCESS-149",
+      "process": "evaluating",
+      "base_actions": [
+        "Evaluate",
+        "evaluate"
+      ],
+      "result_forms": [
+        "Evaluated",
+        "evaluated"
+      ]
+    },
+    {
+      "process_id": "PROCESS-150",
+      "process": "evolving",
+      "base_actions": [
+        "evolve"
+      ],
+      "result_forms": [
+        "evolved"
+      ]
+    },
+    {
+      "process_id": "PROCESS-151",
+      "process": "examining",
+      "base_actions": [
+        "examine"
+      ],
+      "result_forms": [
+        "examined"
+      ]
+    },
+    {
+      "process_id": "PROCESS-152",
+      "process": "exchanging",
+      "base_actions": [
+        "exchange"
+      ],
+      "result_forms": [
+        "exchanged"
+      ]
+    },
+    {
+      "process_id": "PROCESS-153",
+      "process": "executing",
+      "base_actions": [
+        "Execute",
+        "execute"
+      ],
+      "result_forms": [
+        "Executed",
+        "executed"
+      ]
+    },
+    {
+      "process_id": "PROCESS-154",
+      "process": "expediting",
+      "base_actions": [
+        "expedite"
+      ],
+      "result_forms": [
+        "expedited"
+      ]
+    },
+    {
+      "process_id": "PROCESS-155",
+      "process": "experimenting",
+      "base_actions": [
+        "Experiment",
+        "experiment"
+      ],
+      "result_forms": [
+        "Experimented",
+        "experimented"
+      ]
+    },
+    {
+      "process_id": "PROCESS-156",
+      "process": "explaining",
+      "base_actions": [
+        "explain"
+      ],
+      "result_forms": [
+        "explained"
+      ]
+    },
+    {
+      "process_id": "PROCESS-157",
+      "process": "exploring",
+      "base_actions": [
+        "explore"
+      ],
+      "result_forms": [
+        "explored"
+      ]
+    },
+    {
+      "process_id": "PROCESS-158",
+      "process": "Exporting",
+      "base_actions": [
+        "Export"
+      ],
+      "result_forms": [
+        "Exported"
+      ]
+    },
+    {
+      "process_id": "PROCESS-159",
+      "process": "expressing",
+      "base_actions": [
+        "express"
+      ],
+      "result_forms": [
+        "expressed"
+      ]
+    },
+    {
+      "process_id": "PROCESS-160",
+      "process": "extending",
+      "base_actions": [
+        "extend"
+      ],
+      "result_forms": [
+        "extended"
+      ]
+    },
+    {
+      "process_id": "PROCESS-161",
+      "process": "extracting",
+      "base_actions": [
+        "extract"
+      ],
+      "result_forms": [
+        "extracted"
+      ]
+    },
+    {
+      "process_id": "PROCESS-162",
+      "process": "extrapolating",
+      "base_actions": [
+        "extrapolate"
+      ],
+      "result_forms": [
+        "extrapolated"
+      ]
+    },
+    {
+      "process_id": "PROCESS-163",
+      "process": "fabricating",
+      "base_actions": [
+        "fabricate"
+      ],
+      "result_forms": [
+        "fabricated"
+      ]
+    },
+    {
+      "process_id": "PROCESS-164",
+      "process": "facilitating",
+      "base_actions": [
+        "facilitate"
+      ],
+      "result_forms": [
+        "facilitated"
+      ]
+    },
+    {
+      "process_id": "PROCESS-165",
+      "process": "Fetching",
+      "base_actions": [
+        "Fetch"
+      ],
+      "result_forms": [
+        "Fetched"
+      ]
+    },
+    {
+      "process_id": "PROCESS-166",
+      "process": "filing",
+      "base_actions": [
+        "file"
+      ],
+      "result_forms": [
+        "filed"
+      ]
+    },
+    {
+      "process_id": "PROCESS-167",
+      "process": "filling",
+      "base_actions": [
+        "fill"
+      ],
+      "result_forms": [
+        "filled"
+      ]
+    },
+    {
+      "process_id": "PROCESS-168",
+      "process": "filming",
+      "base_actions": [
+        "film"
+      ],
+      "result_forms": [
+        "filmed"
+      ]
+    },
+    {
+      "process_id": "PROCESS-169",
+      "process": "finalizing",
+      "base_actions": [
+        "Finalize",
+        "finalize"
+      ],
+      "result_forms": [
+        "Finalized",
+        "finalized"
+      ]
+    },
+    {
+      "process_id": "PROCESS-170",
+      "process": "fine-tuning",
+      "base_actions": [
+        "Fine-tune",
+        "fine-tune"
+      ],
+      "result_forms": [
+        "Fine-tuned",
+        "fine-tuned"
+      ]
+    },
+    {
+      "process_id": "PROCESS-171",
+      "process": "flagging",
+      "base_actions": [
+        "flag"
+      ],
+      "result_forms": [
+        "flagged"
+      ]
+    },
+    {
+      "process_id": "PROCESS-172",
+      "process": "focusing",
+      "base_actions": [
+        "Focus",
+        "focus"
+      ],
+      "result_forms": [
+        "Focused",
+        "focused"
+      ]
+    },
+    {
+      "process_id": "PROCESS-173",
+      "process": "following",
+      "base_actions": [
+        "follow"
+      ],
+      "result_forms": [
+        "followed"
+      ]
+    },
+    {
+      "process_id": "PROCESS-174",
+      "process": "following up",
+      "base_actions": [
+        "follow up"
+      ],
+      "result_forms": [
+        "followed up"
+      ]
+    },
+    {
+      "process_id": "PROCESS-175",
+      "process": "forecasting",
+      "base_actions": [
+        "forecast"
+      ],
+      "result_forms": [
+        "forecasted"
+      ]
+    },
+    {
+      "process_id": "PROCESS-176",
+      "process": "formalizing",
+      "base_actions": [
+        "formalize"
+      ],
+      "result_forms": [
+        "formalized"
+      ]
+    },
+    {
+      "process_id": "PROCESS-177",
+      "process": "formatting",
+      "base_actions": [
+        "format"
+      ],
+      "result_forms": [
+        "formatted"
+      ]
+    },
+    {
+      "process_id": "PROCESS-178",
+      "process": "forming",
+      "base_actions": [
+        "form"
+      ],
+      "result_forms": [
+        "formed"
+      ]
+    },
+    {
+      "process_id": "PROCESS-179",
+      "process": "formulating",
+      "base_actions": [
+        "formulate"
+      ],
+      "result_forms": [
+        "formulated"
+      ]
+    },
+    {
+      "process_id": "PROCESS-180",
+      "process": "fortifying",
+      "base_actions": [
+        "fortify"
+      ],
+      "result_forms": [
+        "fortified"
+      ]
+    },
+    {
+      "process_id": "PROCESS-181",
+      "process": "fostering",
+      "base_actions": [
+        "foster"
+      ],
+      "result_forms": [
+        "fostered"
+      ]
+    },
+    {
+      "process_id": "PROCESS-182",
+      "process": "framing",
+      "base_actions": [
+        "frame"
+      ],
+      "result_forms": [
+        "framed"
+      ]
+    },
+    {
+      "process_id": "PROCESS-183",
+      "process": "fulfilling",
+      "base_actions": [
+        "fulfill"
+      ],
+      "result_forms": [
+        "fulfilled"
+      ]
+    },
+    {
+      "process_id": "PROCESS-184",
+      "process": "gaining",
+      "base_actions": [
+        "gain"
+      ],
+      "result_forms": [
+        "gained"
+      ]
+    },
+    {
+      "process_id": "PROCESS-185",
+      "process": "gathering",
+      "base_actions": [
+        "Gather",
+        "gather"
+      ],
+      "result_forms": [
+        "Gathered",
+        "gathered"
+      ]
+    },
+    {
+      "process_id": "PROCESS-186",
+      "process": "gauging",
+      "base_actions": [
+        "gauge"
+      ],
+      "result_forms": [
+        "gauged"
+      ]
+    },
+    {
+      "process_id": "PROCESS-187",
+      "process": "generating",
+      "base_actions": [
+        "Generate",
+        "generate"
+      ],
+      "result_forms": [
+        "Generated",
+        "generated"
+      ]
+    },
+    {
+      "process_id": "PROCESS-188",
+      "process": "getting",
+      "base_actions": [
+        "Get",
+        "get"
+      ],
+      "result_forms": [
+        "Gotten",
+        "got"
+      ]
+    },
+    {
+      "process_id": "PROCESS-189",
+      "process": "governing",
+      "base_actions": [
+        "govern"
+      ],
+      "result_forms": [
+        "governed"
+      ]
+    },
+    {
+      "process_id": "PROCESS-190",
+      "process": "grading",
+      "base_actions": [
+        "grade"
+      ],
+      "result_forms": [
+        "graded"
+      ]
+    },
+    {
+      "process_id": "PROCESS-191",
+      "process": "grasping",
+      "base_actions": [
+        "grasp"
+      ],
+      "result_forms": [
+        "grasped"
+      ]
+    },
+    {
+      "process_id": "PROCESS-192",
+      "process": "guiding",
+      "base_actions": [
+        "guide"
+      ],
+      "result_forms": [
+        "guided"
+      ]
+    },
+    {
+      "process_id": "PROCESS-193",
+      "process": "handling",
+      "base_actions": [
+        "handle"
+      ],
+      "result_forms": [
+        "handled"
+      ]
+    },
+    {
+      "process_id": "PROCESS-194",
+      "process": "harnessing",
+      "base_actions": [
+        "harness"
+      ],
+      "result_forms": [
+        "harnessed"
+      ]
+    },
+    {
+      "process_id": "PROCESS-195",
+      "process": "heightening",
+      "base_actions": [
+        "heighten"
+      ],
+      "result_forms": [
+        "heightened"
+      ]
+    },
+    {
+      "process_id": "PROCESS-196",
+      "process": "highlighting",
+      "base_actions": [
+        "Highlight",
+        "highlight"
+      ],
+      "result_forms": [
+        "Highlighted",
+        "highlighted"
+      ]
+    },
+    {
+      "process_id": "PROCESS-197",
+      "process": "holding",
+      "base_actions": [
+        "Hold",
+        "hold"
+      ],
+      "result_forms": [
+        "Held",
+        "held"
+      ]
+    },
+    {
+      "process_id": "PROCESS-198",
+      "process": "hosting",
+      "base_actions": [
+        "host"
+      ],
+      "result_forms": [
+        "hosted"
+      ]
+    },
+    {
+      "process_id": "PROCESS-199",
+      "process": "identifying",
+      "base_actions": [
+        "Identify",
+        "identify"
+      ],
+      "result_forms": [
+        "Identified",
+        "identified"
+      ]
+    },
+    {
+      "process_id": "PROCESS-200",
+      "process": "illuminating",
+      "base_actions": [
+        "illuminate"
+      ],
+      "result_forms": [
+        "illuminated"
+      ]
+    },
+    {
+      "process_id": "PROCESS-201",
+      "process": "implementing",
+      "base_actions": [
+        "Implement",
+        "implement"
+      ],
+      "result_forms": [
+        "Implemented",
+        "implemented"
+      ]
+    },
+    {
+      "process_id": "PROCESS-202",
+      "process": "importing",
+      "base_actions": [
+        "import"
+      ],
+      "result_forms": [
+        "imported"
+      ]
+    },
+    {
+      "process_id": "PROCESS-203",
+      "process": "Improving",
+      "base_actions": [
+        "Improve",
+        "improve"
+      ],
+      "result_forms": [
+        "Improved",
+        "improved"
+      ]
+    },
+    {
+      "process_id": "PROCESS-204",
+      "process": "including",
+      "base_actions": [
+        "Include",
+        "include"
+      ],
+      "result_forms": [
+        "Included",
+        "included"
+      ]
+    },
+    {
+      "process_id": "PROCESS-205",
+      "process": "incorporating",
+      "base_actions": [
+        "Incorporate",
+        "incorporate"
+      ],
+      "result_forms": [
+        "Incorporated",
+        "incorporated"
+      ]
+    },
+    {
+      "process_id": "PROCESS-206",
+      "process": "Increasing",
+      "base_actions": [
+        "Increase",
+        "increase"
+      ],
+      "result_forms": [
+        "Increased",
+        "increased"
+      ]
+    },
+    {
+      "process_id": "PROCESS-207",
+      "process": "influencing",
+      "base_actions": [
+        "influence"
+      ],
+      "result_forms": [
+        "influenced"
+      ]
+    },
+    {
+      "process_id": "PROCESS-208",
+      "process": "informing",
+      "base_actions": [
+        "inform"
+      ],
+      "result_forms": [
+        "informed"
+      ]
+    },
+    {
+      "process_id": "PROCESS-209",
+      "process": "initiating",
+      "base_actions": [
+        "initiate"
+      ],
+      "result_forms": [
+        "initiated"
+      ]
+    },
+    {
+      "process_id": "PROCESS-210",
+      "process": "innovating",
+      "base_actions": [
+        "innovate"
+      ],
+      "result_forms": [
+        "innovated"
+      ]
+    },
+    {
+      "process_id": "PROCESS-211",
+      "process": "inputting",
+      "base_actions": [
+        "input"
+      ],
+      "result_forms": [
+        "inputted"
+      ]
+    },
+    {
+      "process_id": "PROCESS-212",
+      "process": "inspecting",
+      "base_actions": [
+        "inspect"
+      ],
+      "result_forms": [
+        "inspected"
+      ]
+    },
+    {
+      "process_id": "PROCESS-213",
+      "process": "inspiring",
+      "base_actions": [
+        "inspire"
+      ],
+      "result_forms": [
+        "inspired"
+      ]
+    },
+    {
+      "process_id": "PROCESS-214",
+      "process": "installing",
+      "base_actions": [
+        "install"
+      ],
+      "result_forms": [
+        "installed"
+      ]
+    },
+    {
+      "process_id": "PROCESS-215",
+      "process": "instructing",
+      "base_actions": [
+        "instruct"
+      ],
+      "result_forms": [
+        "instructed"
+      ]
+    },
+    {
+      "process_id": "PROCESS-216",
+      "process": "integrating",
+      "base_actions": [
+        "Integrate",
+        "integrate"
+      ],
+      "result_forms": [
+        "Integrated",
+        "integrated"
+      ]
+    },
+    {
+      "process_id": "PROCESS-217",
+      "process": "interpreting",
+      "base_actions": [
+        "interpret"
+      ],
+      "result_forms": [
+        "interpreted"
+      ]
+    },
+    {
+      "process_id": "PROCESS-218",
+      "process": "intervening",
+      "base_actions": [
+        "intervene"
+      ],
+      "result_forms": [
+        "intervened"
+      ]
+    },
+    {
+      "process_id": "PROCESS-219",
+      "process": "introducing",
+      "base_actions": [
+        "introduce"
+      ],
+      "result_forms": [
+        "introduced"
+      ]
+    },
+    {
+      "process_id": "PROCESS-220",
+      "process": "inventing",
+      "base_actions": [
+        "invent"
+      ],
+      "result_forms": [
+        "invented"
+      ]
+    },
+    {
+      "process_id": "PROCESS-221",
+      "process": "investigating",
+      "base_actions": [
+        "investigate"
+      ],
+      "result_forms": [
+        "investigated"
+      ]
+    },
+    {
+      "process_id": "PROCESS-222",
+      "process": "involving",
+      "base_actions": [
+        "involve"
+      ],
+      "result_forms": [
+        "involved"
+      ]
+    },
+    {
+      "process_id": "PROCESS-223",
+      "process": "isolating",
+      "base_actions": [
+        "isolate"
+      ],
+      "result_forms": [
+        "isolated"
+      ]
+    },
+    {
+      "process_id": "PROCESS-224",
+      "process": "issuing",
+      "base_actions": [
+        "issue"
+      ],
+      "result_forms": [
+        "issued"
+      ]
+    },
+    {
+      "process_id": "PROCESS-225",
+      "process": "itemizing",
+      "base_actions": [
+        "itemize"
+      ],
+      "result_forms": [
+        "itemized"
+      ]
+    },
+    {
+      "process_id": "PROCESS-226",
+      "process": "iterating",
+      "base_actions": [
+        "Iterate",
+        "iterate"
+      ],
+      "result_forms": [
+        "Iterated",
+        "iterated"
+      ]
+    },
+    {
+      "process_id": "PROCESS-227",
+      "process": "joining",
+      "base_actions": [
+        "join"
+      ],
+      "result_forms": [
+        "joined"
+      ]
+    },
+    {
+      "process_id": "PROCESS-228",
+      "process": "juxtaposing",
+      "base_actions": [
+        "juxtapose"
+      ],
+      "result_forms": [
+        "juxtaposed"
+      ]
+    },
+    {
+      "process_id": "PROCESS-229",
+      "process": "keeping",
+      "base_actions": [
+        "keep"
+      ],
+      "result_forms": [
+        "kept"
+      ]
+    },
+    {
+      "process_id": "PROCESS-230",
+      "process": "kickstarting",
+      "base_actions": [
+        "kickstart"
+      ],
+      "result_forms": [
+        "kickstarted"
+      ]
+    },
+    {
+      "process_id": "PROCESS-231",
+      "process": "labeling",
+      "base_actions": [
+        "label"
+      ],
+      "result_forms": [
+        "labeled"
+      ]
+    },
+    {
+      "process_id": "PROCESS-232",
+      "process": "launching",
+      "base_actions": [
+        "launch"
+      ],
+      "result_forms": [
+        "launched"
+      ]
+    },
+    {
+      "process_id": "PROCESS-233",
+      "process": "layering",
+      "base_actions": [
+        "layer"
+      ],
+      "result_forms": [
+        "layered"
+      ]
+    },
+    {
+      "process_id": "PROCESS-234",
+      "process": "laying out",
+      "base_actions": [
+        "layout"
+      ],
+      "result_forms": [
+        "laid out"
+      ]
+    },
+    {
+      "process_id": "PROCESS-235",
+      "process": "Layouting",
+      "base_actions": [
+        "Layout"
+      ],
+      "result_forms": [
+        "Layouted"
+      ]
+    },
+    {
+      "process_id": "PROCESS-236",
+      "process": "leading",
+      "base_actions": [
+        "lead"
+      ],
+      "result_forms": [
+        "led"
+      ]
+    },
+    {
+      "process_id": "PROCESS-237",
+      "process": "learning",
+      "base_actions": [
+        "learn"
+      ],
+      "result_forms": [
+        "learned"
+      ]
+    },
+    {
+      "process_id": "PROCESS-238",
+      "process": "leveraging",
+      "base_actions": [
+        "leverage"
+      ],
+      "result_forms": [
+        "leveraged"
+      ]
+    },
+    {
+      "process_id": "PROCESS-239",
+      "process": "liaising",
+      "base_actions": [
+        "liaise"
+      ],
+      "result_forms": [
+        "liaised"
+      ]
+    },
+    {
+      "process_id": "PROCESS-240",
+      "process": "lighting",
+      "base_actions": [
+        "light"
+      ],
+      "result_forms": [
+        "lighted"
+      ]
+    },
+    {
+      "process_id": "PROCESS-241",
+      "process": "Limiting",
+      "base_actions": [
+        "Limit",
+        "limit"
+      ],
+      "result_forms": [
+        "Limited",
+        "limited"
+      ]
+    },
+    {
+      "process_id": "PROCESS-242",
+      "process": "linking",
+      "base_actions": [
+        "link"
+      ],
+      "result_forms": [
+        "linked"
+      ]
+    },
+    {
+      "process_id": "PROCESS-243",
+      "process": "listening",
+      "base_actions": [
+        "listen"
+      ],
+      "result_forms": [
+        "listened"
+      ]
+    },
+    {
+      "process_id": "PROCESS-244",
+      "process": "listing",
+      "base_actions": [
+        "list"
+      ],
+      "result_forms": [
+        "listed"
+      ]
+    },
+    {
+      "process_id": "PROCESS-245",
+      "process": "livestreaming",
+      "base_actions": [
+        "livestream"
+      ],
+      "result_forms": [
+        "livestreamed"
+      ]
+    },
+    {
+      "process_id": "PROCESS-246",
+      "process": "Loading",
+      "base_actions": [
+        "Load"
+      ],
+      "result_forms": [
+        "Loaded"
+      ]
+    },
+    {
+      "process_id": "PROCESS-247",
+      "process": "locating",
+      "base_actions": [
+        "locate"
+      ],
+      "result_forms": [
+        "located"
+      ]
+    },
+    {
+      "process_id": "PROCESS-248",
+      "process": "locking",
+      "base_actions": [
+        "lock"
+      ],
+      "result_forms": [
+        "locked"
+      ]
+    },
+    {
+      "process_id": "PROCESS-249",
+      "process": "logging",
+      "base_actions": [
+        "log"
+      ],
+      "result_forms": [
+        "logged"
+      ]
+    },
+    {
+      "process_id": "PROCESS-250",
+      "process": "maintaining",
+      "base_actions": [
+        "Maintain",
+        "maintain"
+      ],
+      "result_forms": [
+        "Maintained",
+        "maintained"
+      ]
+    },
+    {
+      "process_id": "PROCESS-251",
+      "process": "making",
+      "base_actions": [
+        "Make",
+        "make"
+      ],
+      "result_forms": [
+        "Made",
+        "made"
+      ]
+    },
+    {
+      "process_id": "PROCESS-252",
+      "process": "managing",
+      "base_actions": [
+        "Manage",
+        "manage"
+      ],
+      "result_forms": [
+        "Managed",
+        "managed"
+      ]
+    },
+    {
+      "process_id": "PROCESS-253",
+      "process": "mapping",
+      "base_actions": [
+        "Map",
+        "map"
+      ],
+      "result_forms": [
+        "Mapped",
+        "mapped"
+      ]
+    },
+    {
+      "process_id": "PROCESS-254",
+      "process": "mapping out",
+      "base_actions": [
+        "Map out",
+        "map out"
+      ],
+      "result_forms": [
+        "Mapped out",
+        "mapped out"
+      ]
+    },
+    {
+      "process_id": "PROCESS-255",
+      "process": "marking",
+      "base_actions": [
+        "mark"
+      ],
+      "result_forms": [
+        "marked"
+      ]
+    },
+    {
+      "process_id": "PROCESS-256",
+      "process": "masking",
+      "base_actions": [
+        "mask"
+      ],
+      "result_forms": [
+        "masked"
+      ]
+    },
+    {
+      "process_id": "PROCESS-257",
+      "process": "matching",
+      "base_actions": [
+        "match"
+      ],
+      "result_forms": [
+        "matched"
+      ]
+    },
+    {
+      "process_id": "PROCESS-258",
+      "process": "maximizing",
+      "base_actions": [
+        "maximize"
+      ],
+      "result_forms": [
+        "maximized"
+      ]
+    },
+    {
+      "process_id": "PROCESS-259",
+      "process": "measuring",
+      "base_actions": [
+        "measure"
+      ],
+      "result_forms": [
+        "measured"
+      ]
+    },
+    {
+      "process_id": "PROCESS-260",
+      "process": "meeting",
+      "base_actions": [
+        "meet"
+      ],
+      "result_forms": [
+        "met"
+      ]
+    },
+    {
+      "process_id": "PROCESS-261",
+      "process": "Merging",
+      "base_actions": [
+        "Merge",
+        "merge"
+      ],
+      "result_forms": [
+        "Merged",
+        "merged"
+      ]
+    },
+    {
+      "process_id": "PROCESS-262",
+      "process": "Minimizing",
+      "base_actions": [
+        "Minimize",
+        "minimize"
+      ],
+      "result_forms": [
+        "Minimized",
+        "minimized"
+      ]
+    },
+    {
+      "process_id": "PROCESS-263",
+      "process": "modeling",
+      "base_actions": [
+        "model"
+      ],
+      "result_forms": [
+        "modeled"
+      ]
+    },
+    {
+      "process_id": "PROCESS-264",
+      "process": "modifying",
+      "base_actions": [
+        "Modify",
+        "modify"
+      ],
+      "result_forms": [
+        "Modified",
+        "modified"
+      ]
+    },
+    {
+      "process_id": "PROCESS-265",
+      "process": "monitoring",
+      "base_actions": [
+        "Monitor",
+        "monitor"
+      ],
+      "result_forms": [
+        "Monitored",
+        "monitored"
+      ]
+    },
+    {
+      "process_id": "PROCESS-266",
+      "process": "morphing",
+      "base_actions": [
+        "morph"
+      ],
+      "result_forms": [
+        "morphed"
+      ]
+    },
+    {
+      "process_id": "PROCESS-267",
+      "process": "moving",
+      "base_actions": [
+        "move"
+      ],
+      "result_forms": [
+        "moved"
+      ]
+    },
+    {
+      "process_id": "PROCESS-268",
+      "process": "narrating",
+      "base_actions": [
+        "narrate"
+      ],
+      "result_forms": [
+        "narrated"
+      ]
+    },
+    {
+      "process_id": "PROCESS-269",
+      "process": "negotiating",
+      "base_actions": [
+        "negotiate"
+      ],
+      "result_forms": [
+        "negotiated"
+      ]
+    },
+    {
+      "process_id": "PROCESS-270",
+      "process": "normalizing",
+      "base_actions": [
+        "normalize"
+      ],
+      "result_forms": [
+        "normalized"
+      ]
+    },
+    {
+      "process_id": "PROCESS-271",
+      "process": "notifying",
+      "base_actions": [
+        "note",
+        "notify"
+      ],
+      "result_forms": [
+        "notified"
+      ]
+    },
+    {
+      "process_id": "PROCESS-272",
+      "process": "noting",
+      "base_actions": [
+        "note",
+        "notify"
+      ],
+      "result_forms": [
+        "noted"
+      ]
+    },
+    {
+      "process_id": "PROCESS-273",
+      "process": "obtaining",
+      "base_actions": [
+        "obtain"
+      ],
+      "result_forms": [
+        "obtained"
+      ]
+    },
+    {
+      "process_id": "PROCESS-274",
+      "process": "offering",
+      "base_actions": [
+        "offer"
+      ],
+      "result_forms": [
+        "offered"
+      ]
+    },
+    {
+      "process_id": "PROCESS-275",
+      "process": "Opening",
+      "base_actions": [
+        "Open"
+      ],
+      "result_forms": [
+        "Opened"
+      ]
+    },
+    {
+      "process_id": "PROCESS-276",
+      "process": "optimizing",
+      "base_actions": [
+        "Optimize",
+        "optimize"
+      ],
+      "result_forms": [
+        "Optimized",
+        "optimized"
+      ]
+    },
+    {
+      "process_id": "PROCESS-277",
+      "process": "organizing",
+      "base_actions": [
+        "organize"
+      ],
+      "result_forms": [
+        "organized"
+      ]
+    },
+    {
+      "process_id": "PROCESS-278",
+      "process": "outlining",
+      "base_actions": [
+        "Outline",
+        "outline"
+      ],
+      "result_forms": [
+        "Outlined",
+        "outlined"
+      ]
+    },
+    {
+      "process_id": "PROCESS-279",
+      "process": "overseeing",
+      "base_actions": [
+        "oversee"
+      ],
+      "result_forms": [
+        "overseen"
+      ]
+    },
+    {
+      "process_id": "PROCESS-280",
+      "process": "packaging",
+      "base_actions": [
+        "package"
+      ],
+      "result_forms": [
+        "packaged"
+      ]
+    },
+    {
+      "process_id": "PROCESS-281",
+      "process": "painting",
+      "base_actions": [
+        "paint"
+      ],
+      "result_forms": [
+        "painted"
+      ]
+    },
+    {
+      "process_id": "PROCESS-282",
+      "process": "performing",
+      "base_actions": [
+        "Perform",
+        "perform"
+      ],
+      "result_forms": [
+        "Performed",
+        "performed"
+      ]
+    },
+    {
+      "process_id": "PROCESS-283",
+      "process": "personalizing",
+      "base_actions": [
+        "personalize"
+      ],
+      "result_forms": [
+        "personalized"
+      ]
+    },
+    {
+      "process_id": "PROCESS-284",
+      "process": "piloting",
+      "base_actions": [
+        "pilot"
+      ],
+      "result_forms": [
+        "piloted"
+      ]
+    },
+    {
+      "process_id": "PROCESS-285",
+      "process": "pivoting",
+      "base_actions": [
+        "pivot"
+      ],
+      "result_forms": [
+        "pivoted"
+      ]
+    },
+    {
+      "process_id": "PROCESS-286",
+      "process": "placing",
+      "base_actions": [
+        "place"
+      ],
+      "result_forms": [
+        "placed"
+      ]
+    },
+    {
+      "process_id": "PROCESS-287",
+      "process": "planning",
+      "base_actions": [
+        "Plan",
+        "plan"
+      ],
+      "result_forms": [
+        "Planned",
+        "planned"
+      ]
+    },
+    {
+      "process_id": "PROCESS-288",
+      "process": "plotting",
+      "base_actions": [
+        "plot"
+      ],
+      "result_forms": [
+        "plotted"
+      ]
+    },
+    {
+      "process_id": "PROCESS-289",
+      "process": "positioning",
+      "base_actions": [
+        "position"
+      ],
+      "result_forms": [
+        "positioned"
+      ]
+    },
+    {
+      "process_id": "PROCESS-290",
+      "process": "posting",
+      "base_actions": [
+        "post"
+      ],
+      "result_forms": [
+        "posted"
+      ]
+    },
+    {
+      "process_id": "PROCESS-291",
+      "process": "Practicing",
+      "base_actions": [
+        "Practice"
+      ],
+      "result_forms": [
+        "Practiced"
+      ]
+    },
+    {
+      "process_id": "PROCESS-292",
+      "process": "pre-approving",
+      "base_actions": [
+        "pre-approve"
+      ],
+      "result_forms": [
+        "pre-approved"
+      ]
+    },
+    {
+      "process_id": "PROCESS-293",
+      "process": "predicting",
+      "base_actions": [
+        "predict"
+      ],
+      "result_forms": [
+        "predicted"
+      ]
+    },
+    {
+      "process_id": "PROCESS-294",
+      "process": "preparing",
+      "base_actions": [
+        "Prepare",
+        "prepare"
+      ],
+      "result_forms": [
+        "Prepared",
+        "prepared"
+      ]
+    },
+    {
+      "process_id": "PROCESS-295",
+      "process": "presenting",
+      "base_actions": [
+        "Present",
+        "present"
+      ],
+      "result_forms": [
+        "Presented",
+        "presented"
+      ]
+    },
+    {
+      "process_id": "PROCESS-296",
+      "process": "previewing",
+      "base_actions": [
+        "Preview",
+        "preview"
+      ],
+      "result_forms": [
+        "Previewed",
+        "previewed"
+      ]
+    },
+    {
+      "process_id": "PROCESS-297",
+      "process": "prioritizing",
+      "base_actions": [
+        "prioritize"
+      ],
+      "result_forms": [
+        "prioritized"
+      ]
+    },
+    {
+      "process_id": "PROCESS-298",
+      "process": "processing",
+      "base_actions": [
+        "process"
+      ],
+      "result_forms": [
+        "processed"
+      ]
+    },
+    {
+      "process_id": "PROCESS-299",
+      "process": "procuring",
+      "base_actions": [
+        "procure"
+      ],
+      "result_forms": [
+        "procured"
+      ]
+    },
+    {
+      "process_id": "PROCESS-300",
+      "process": "producing",
+      "base_actions": [
+        "produce"
+      ],
+      "result_forms": [
+        "produced"
+      ]
+    },
+    {
+      "process_id": "PROCESS-301",
+      "process": "profiling",
+      "base_actions": [
+        "profile"
+      ],
+      "result_forms": [
+        "profiled"
+      ]
+    },
+    {
+      "process_id": "PROCESS-302",
+      "process": "programming",
+      "base_actions": [
+        "program"
+      ],
+      "result_forms": [
+        "programmed"
+      ]
+    },
+    {
+      "process_id": "PROCESS-303",
+      "process": "proofreading",
+      "base_actions": [
+        "proofread"
+      ],
+      "result_forms": [
+        "proofread"
+      ]
+    },
+    {
+      "process_id": "PROCESS-304",
+      "process": "proposing",
+      "base_actions": [
+        "propose"
+      ],
+      "result_forms": [
+        "proposed"
+      ]
+    },
+    {
+      "process_id": "PROCESS-305",
+      "process": "prototyping",
+      "base_actions": [
+        "Prototype",
+        "prototype"
+      ],
+      "result_forms": [
+        "Prototyped",
+        "prototyped"
+      ]
+    },
+    {
+      "process_id": "PROCESS-306",
+      "process": "providing",
+      "base_actions": [
+        "Provide",
+        "provide"
+      ],
+      "result_forms": [
+        "Provided",
+        "provided"
+      ]
+    },
+    {
+      "process_id": "PROCESS-307",
+      "process": "publishing",
+      "base_actions": [
+        "Publish",
+        "publish"
+      ],
+      "result_forms": [
+        "Published",
+        "published"
+      ]
+    },
+    {
+      "process_id": "PROCESS-308",
+      "process": "pulling",
+      "base_actions": [
+        "pull"
+      ],
+      "result_forms": [
+        "pulled"
+      ]
+    },
+    {
+      "process_id": "PROCESS-309",
+      "process": "Pushing",
+      "base_actions": [
+        "Push"
+      ],
+      "result_forms": [
+        "Pushed"
+      ]
+    },
+    {
+      "process_id": "PROCESS-310",
+      "process": "re-engaging",
+      "base_actions": [
+        "re-engage"
+      ],
+      "result_forms": [
+        "re-engaged"
+      ]
+    },
+    {
+      "process_id": "PROCESS-311",
+      "process": "re-organizing",
+      "base_actions": [
+        "re-organize"
+      ],
+      "result_forms": [
+        "re-organized"
+      ]
+    },
+    {
+      "process_id": "PROCESS-312",
+      "process": "re-publishing",
+      "base_actions": [
+        "re-publish"
+      ],
+      "result_forms": [
+        "re-published"
+      ]
+    },
+    {
+      "process_id": "PROCESS-313",
+      "process": "re-scripting",
+      "base_actions": [
+        "re-script"
+      ],
+      "result_forms": [
+        "re-scripted"
+      ]
+    },
+    {
+      "process_id": "PROCESS-314",
+      "process": "re-submitting",
+      "base_actions": [
+        "re-submit"
+      ],
+      "result_forms": [
+        "re-submitted"
+      ]
+    },
+    {
+      "process_id": "PROCESS-315",
+      "process": "reaching out",
+      "base_actions": [
+        "reach out"
+      ],
+      "result_forms": [
+        "reached out"
+      ]
+    },
+    {
+      "process_id": "PROCESS-316",
+      "process": "reallocating",
+      "base_actions": [
+        "reallocate"
+      ],
+      "result_forms": [
+        "reallocated"
+      ]
+    },
+    {
+      "process_id": "PROCESS-317",
+      "process": "rearranging",
+      "base_actions": [
+        "rearrange"
+      ],
+      "result_forms": [
+        "rearranged"
+      ]
+    },
+    {
+      "process_id": "PROCESS-318",
+      "process": "reassessing",
+      "base_actions": [
+        "reassess"
+      ],
+      "result_forms": [
+        "reassessed"
+      ]
+    },
+    {
+      "process_id": "PROCESS-319",
+      "process": "reassigning",
+      "base_actions": [
+        "reassign"
+      ],
+      "result_forms": [
+        "reassigned"
+      ]
+    },
+    {
+      "process_id": "PROCESS-320",
+      "process": "Receiving",
+      "base_actions": [
+        "Receive",
+        "receive"
+      ],
+      "result_forms": [
+        "Received",
+        "received"
+      ]
+    },
+    {
+      "process_id": "PROCESS-321",
+      "process": "recommending",
+      "base_actions": [
+        "recommend"
+      ],
+      "result_forms": [
+        "recommended"
+      ]
+    },
+    {
+      "process_id": "PROCESS-322",
+      "process": "recording",
+      "base_actions": [
+        "Record",
+        "record"
+      ],
+      "result_forms": [
+        "Recorded",
+        "recorded"
+      ]
+    },
+    {
+      "process_id": "PROCESS-323",
+      "process": "recruiting",
+      "base_actions": [
+        "recruit"
+      ],
+      "result_forms": [
+        "recruited"
+      ]
+    },
+    {
+      "process_id": "PROCESS-324",
+      "process": "rectifying",
+      "base_actions": [
+        "rectify"
+      ],
+      "result_forms": [
+        "rectified"
+      ]
+    },
+    {
+      "process_id": "PROCESS-325",
+      "process": "redefining",
+      "base_actions": [
+        "redefine"
+      ],
+      "result_forms": [
+        "redefined"
+      ]
+    },
+    {
+      "process_id": "PROCESS-326",
+      "process": "redesigning",
+      "base_actions": [
+        "redesign"
+      ],
+      "result_forms": [
+        "redesigned"
+      ]
+    },
+    {
+      "process_id": "PROCESS-327",
+      "process": "redistributing",
+      "base_actions": [
+        "redistribute"
+      ],
+      "result_forms": [
+        "redistributed"
+      ]
+    },
+    {
+      "process_id": "PROCESS-328",
+      "process": "redrafting",
+      "base_actions": [
+        "redraft"
+      ],
+      "result_forms": [
+        "redrafted"
+      ]
+    },
+    {
+      "process_id": "PROCESS-329",
+      "process": "Reevaluating",
+      "base_actions": [
+        "Reevaluate"
+      ],
+      "result_forms": [
+        "Reevaluated"
+      ]
+    },
+    {
+      "process_id": "PROCESS-330",
+      "process": "Refactoring",
+      "base_actions": [
+        "Refactor",
+        "refactor"
+      ],
+      "result_forms": [
+        "Refactored",
+        "refactored"
+      ]
+    },
+    {
+      "process_id": "PROCESS-331",
+      "process": "refining",
+      "base_actions": [
+        "Refine",
+        "refine"
+      ],
+      "result_forms": [
+        "Refined",
+        "refined"
+      ]
+    },
+    {
+      "process_id": "PROCESS-332",
+      "process": "reflecting",
+      "base_actions": [
+        "reflect"
+      ],
+      "result_forms": [
+        "reflected"
+      ]
+    },
+    {
+      "process_id": "PROCESS-333",
+      "process": "Reformatting",
+      "base_actions": [
+        "Reformat"
+      ],
+      "result_forms": [
+        "Reformatted"
+      ]
+    },
+    {
+      "process_id": "PROCESS-334",
+      "process": "refreshing",
+      "base_actions": [
+        "refresh"
+      ],
+      "result_forms": [
+        "refreshed"
+      ]
+    },
+    {
+      "process_id": "PROCESS-335",
+      "process": "regularly checking",
+      "base_actions": [
+        "regularly check"
+      ],
+      "result_forms": [
+        "regularly checked"
+      ]
+    },
+    {
+      "process_id": "PROCESS-336",
+      "process": "regularly updating",
+      "base_actions": [
+        "regularly update"
+      ],
+      "result_forms": [
+        "regularly updated"
+      ]
+    },
+    {
+      "process_id": "PROCESS-337",
+      "process": "rehearsing",
+      "base_actions": [
+        "rehearse"
+      ],
+      "result_forms": [
+        "rehearsed"
+      ]
+    },
+    {
+      "process_id": "PROCESS-338",
+      "process": "reinforcing",
+      "base_actions": [
+        "reinforce"
+      ],
+      "result_forms": [
+        "reinforced"
+      ]
+    },
+    {
+      "process_id": "PROCESS-339",
+      "process": "reiterating",
+      "base_actions": [
+        "reiterate"
+      ],
+      "result_forms": [
+        "reiterated"
+      ]
+    },
+    {
+      "process_id": "PROCESS-340",
+      "process": "reminding",
+      "base_actions": [
+        "remind"
+      ],
+      "result_forms": [
+        "reminded"
+      ]
+    },
+    {
+      "process_id": "PROCESS-341",
+      "process": "removing",
+      "base_actions": [
+        "remove"
+      ],
+      "result_forms": [
+        "removed"
+      ]
+    },
+    {
+      "process_id": "PROCESS-342",
+      "process": "rendering",
+      "base_actions": [
+        "render"
+      ],
+      "result_forms": [
+        "rendered"
+      ]
+    },
+    {
+      "process_id": "PROCESS-343",
+      "process": "replacing",
+      "base_actions": [
+        "replace"
+      ],
+      "result_forms": [
+        "replaced"
+      ]
+    },
+    {
+      "process_id": "PROCESS-344",
+      "process": "reporting",
+      "base_actions": [
+        "report"
+      ],
+      "result_forms": [
+        "reported"
+      ]
+    },
+    {
+      "process_id": "PROCESS-345",
+      "process": "republishing",
+      "base_actions": [
+        "republish"
+      ],
+      "result_forms": [
+        "republished"
+      ]
+    },
+    {
+      "process_id": "PROCESS-346",
+      "process": "requesting",
+      "base_actions": [
+        "request"
+      ],
+      "result_forms": [
+        "requested"
+      ]
+    },
+    {
+      "process_id": "PROCESS-347",
+      "process": "researching",
+      "base_actions": [
+        "Research",
+        "research"
+      ],
+      "result_forms": [
+        "Researched",
+        "researched"
+      ]
+    },
+    {
+      "process_id": "PROCESS-348",
+      "process": "resending",
+      "base_actions": [
+        "resend"
+      ],
+      "result_forms": [
+        "resent"
+      ]
+    },
+    {
+      "process_id": "PROCESS-349",
+      "process": "reserving",
+      "base_actions": [
+        "reserve"
+      ],
+      "result_forms": [
+        "reserved"
+      ]
+    },
+    {
+      "process_id": "PROCESS-350",
+      "process": "Resolving",
+      "base_actions": [
+        "Resolve",
+        "resolve"
+      ],
+      "result_forms": [
+        "Resolved",
+        "resolved"
+      ]
+    },
+    {
+      "process_id": "PROCESS-351",
+      "process": "responding",
+      "base_actions": [
+        "respond"
+      ],
+      "result_forms": [
+        "responded"
+      ]
+    },
+    {
+      "process_id": "PROCESS-352",
+      "process": "restoring",
+      "base_actions": [
+        "restore"
+      ],
+      "result_forms": [
+        "restored"
+      ]
+    },
+    {
+      "process_id": "PROCESS-353",
+      "process": "restricting",
+      "base_actions": [
+        "restrict"
+      ],
+      "result_forms": [
+        "restricted"
+      ]
+    },
+    {
+      "process_id": "PROCESS-354",
+      "process": "Retaining",
+      "base_actions": [
+        "Retain"
+      ],
+      "result_forms": [
+        "Retained"
+      ]
+    },
+    {
+      "process_id": "PROCESS-355",
+      "process": "Retesting",
+      "base_actions": [
+        "Retest",
+        "retest"
+      ],
+      "result_forms": [
+        "Retested",
+        "retested"
+      ]
+    },
+    {
+      "process_id": "PROCESS-356",
+      "process": "retrieving",
+      "base_actions": [
+        "Retrieve",
+        "retrieve"
+      ],
+      "result_forms": [
+        "Retrieved",
+        "retrieved"
+      ]
+    },
+    {
+      "process_id": "PROCESS-357",
+      "process": "reviewing",
+      "base_actions": [
+        "Review",
+        "review"
+      ],
+      "result_forms": [
+        "Reviewed",
+        "reviewed"
+      ]
+    },
+    {
+      "process_id": "PROCESS-358",
+      "process": "reviewing and adjusting",
+      "base_actions": [
+        "review and adjust"
+      ],
+      "result_forms": [
+        "reviewed and adjusted"
+      ]
+    },
+    {
+      "process_id": "PROCESS-359",
+      "process": "revising",
+      "base_actions": [
+        "Revise",
+        "revise"
+      ],
+      "result_forms": [
+        "Revised",
+        "revised"
+      ]
+    },
+    {
+      "process_id": "PROCESS-360",
+      "process": "revisiting",
+      "base_actions": [
+        "revisit"
+      ],
+      "result_forms": [
+        "revisited"
+      ]
+    },
+    {
+      "process_id": "PROCESS-361",
+      "process": "rewriting",
+      "base_actions": [
+        "rewrite"
+      ],
+      "result_forms": [
+        "rewritten"
+      ]
+    },
+    {
+      "process_id": "PROCESS-362",
+      "process": "rigging",
+      "base_actions": [
+        "rig"
+      ],
+      "result_forms": [
+        "rigged"
+      ]
+    },
+    {
+      "process_id": "PROCESS-363",
+      "process": "rolling out",
+      "base_actions": [
+        "Roll out",
+        "roll out"
+      ],
+      "result_forms": [
+        "Rolled out",
+        "rolled out"
+      ]
+    },
+    {
+      "process_id": "PROCESS-364",
+      "process": "running",
+      "base_actions": [
+        "Run",
+        "run"
+      ],
+      "result_forms": [
+        "Run",
+        "run"
+      ]
+    },
+    {
+      "process_id": "PROCESS-365",
+      "process": "saving",
+      "base_actions": [
+        "save"
+      ],
+      "result_forms": [
+        "saved"
+      ]
+    },
+    {
+      "process_id": "PROCESS-366",
+      "process": "scaling",
+      "base_actions": [
+        "scale"
+      ],
+      "result_forms": [
+        "scaled"
+      ]
+    },
+    {
+      "process_id": "PROCESS-367",
+      "process": "scheduling",
+      "base_actions": [
+        "schedule"
+      ],
+      "result_forms": [
+        "scheduled"
+      ]
+    },
+    {
+      "process_id": "PROCESS-368",
+      "process": "scripting",
+      "base_actions": [
+        "script"
+      ],
+      "result_forms": [
+        "scripted"
+      ]
+    },
+    {
+      "process_id": "PROCESS-369",
+      "process": "sculpting",
+      "base_actions": [
+        "sculpt"
+      ],
+      "result_forms": [
+        "sculpted"
+      ]
+    },
+    {
+      "process_id": "PROCESS-370",
+      "process": "securing",
+      "base_actions": [
+        "secure"
+      ],
+      "result_forms": [
+        "secured"
+      ]
+    },
+    {
+      "process_id": "PROCESS-371",
+      "process": "seeing",
+      "base_actions": [
+        "see"
+      ],
+      "result_forms": [
+        "seen"
+      ]
+    },
+    {
+      "process_id": "PROCESS-372",
+      "process": "seeking",
+      "base_actions": [
+        "seek"
+      ],
+      "result_forms": [
+        "sought"
+      ]
+    },
+    {
+      "process_id": "PROCESS-373",
+      "process": "segmenting",
+      "base_actions": [
+        "segment"
+      ],
+      "result_forms": [
+        "segmented"
+      ]
+    },
+    {
+      "process_id": "PROCESS-374",
+      "process": "segregating",
+      "base_actions": [
+        "segregate"
+      ],
+      "result_forms": [
+        "segregated"
+      ]
+    },
+    {
+      "process_id": "PROCESS-375",
+      "process": "selecting",
+      "base_actions": [
+        "Select",
+        "select"
+      ],
+      "result_forms": [
+        "Selected",
+        "selected"
+      ]
+    },
+    {
+      "process_id": "PROCESS-376",
+      "process": "sending",
+      "base_actions": [
+        "send"
+      ],
+      "result_forms": [
+        "sent"
+      ]
+    },
+    {
+      "process_id": "PROCESS-377",
+      "process": "sequencing",
+      "base_actions": [
+        "Sequence",
+        "sequence"
+      ],
+      "result_forms": [
+        "Sequenced",
+        "sequenced"
+      ]
+    },
+    {
+      "process_id": "PROCESS-378",
+      "process": "setting",
+      "base_actions": [
+        "Set",
+        "set"
+      ],
+      "result_forms": [
+        "Set",
+        "set"
+      ]
+    },
+    {
+      "process_id": "PROCESS-379",
+      "process": "setting up",
+      "base_actions": [
+        "Set up",
+        "set up"
+      ],
+      "result_forms": [
+        "Set up",
+        "set up"
+      ]
+    },
+    {
+      "process_id": "PROCESS-380",
+      "process": "sharing",
+      "base_actions": [
+        "Share",
+        "share"
+      ],
+      "result_forms": [
+        "Shared",
+        "shared"
+      ]
+    },
+    {
+      "process_id": "PROCESS-381",
+      "process": "shooting",
+      "base_actions": [
+        "shoot"
+      ],
+      "result_forms": [
+        "shot"
+      ]
+    },
+    {
+      "process_id": "PROCESS-382",
+      "process": "simplifying",
+      "base_actions": [
+        "Simplify",
+        "simplify"
+      ],
+      "result_forms": [
+        "Simplified",
+        "simplified"
+      ]
+    },
+    {
+      "process_id": "PROCESS-383",
+      "process": "simulating",
+      "base_actions": [
+        "Simulate",
+        "simulate"
+      ],
+      "result_forms": [
+        "Simulated",
+        "simulated"
+      ]
+    },
+    {
+      "process_id": "PROCESS-384",
+      "process": "sketching",
+      "base_actions": [
+        "Sketch",
+        "sketch"
+      ],
+      "result_forms": [
+        "Sketched",
+        "sketched"
+      ]
+    },
+    {
+      "process_id": "PROCESS-385",
+      "process": "soliciting",
+      "base_actions": [
+        "solicit"
+      ],
+      "result_forms": [
+        "solicited"
+      ]
+    },
+    {
+      "process_id": "PROCESS-386",
+      "process": "sorting",
+      "base_actions": [
+        "sort"
+      ],
+      "result_forms": [
+        "sorted"
+      ]
+    },
+    {
+      "process_id": "PROCESS-387",
+      "process": "sourcing",
+      "base_actions": [
+        "source"
+      ],
+      "result_forms": [
+        "sourced"
+      ]
+    },
+    {
+      "process_id": "PROCESS-388",
+      "process": "specifying",
+      "base_actions": [
+        "Specify",
+        "specify"
+      ],
+      "result_forms": [
+        "Specified",
+        "specified"
+      ]
+    },
+    {
+      "process_id": "PROCESS-389",
+      "process": "stabilizing",
+      "base_actions": [
+        "stabilize"
+      ],
+      "result_forms": [
+        "stabilized"
+      ]
+    },
+    {
+      "process_id": "PROCESS-390",
+      "process": "standardizing",
+      "base_actions": [
+        "Standardize",
+        "standardize"
+      ],
+      "result_forms": [
+        "Standardized",
+        "standardized"
+      ]
+    },
+    {
+      "process_id": "PROCESS-391",
+      "process": "starting",
+      "base_actions": [
+        "Start",
+        "start"
+      ],
+      "result_forms": [
+        "Started",
+        "started"
+      ]
+    },
+    {
+      "process_id": "PROCESS-392",
+      "process": "storing",
+      "base_actions": [
+        "store"
+      ],
+      "result_forms": [
+        "stored"
+      ]
+    },
+    {
+      "process_id": "PROCESS-393",
+      "process": "storyboarding",
+      "base_actions": [
+        "storyboard"
+      ],
+      "result_forms": [
+        "storyboarded"
+      ]
+    },
+    {
+      "process_id": "PROCESS-394",
+      "process": "Streamlining",
+      "base_actions": [
+        "Streamline",
+        "streamline"
+      ],
+      "result_forms": [
+        "Streamlined",
+        "streamlined"
+      ]
+    },
+    {
+      "process_id": "PROCESS-395",
+      "process": "Structuring",
+      "base_actions": [
+        "Structure"
+      ],
+      "result_forms": [
+        "Structured"
+      ]
+    },
+    {
+      "process_id": "PROCESS-396",
+      "process": "studying",
+      "base_actions": [
+        "Study",
+        "study"
+      ],
+      "result_forms": [
+        "Studied",
+        "studied"
+      ]
+    },
+    {
+      "process_id": "PROCESS-397",
+      "process": "styling",
+      "base_actions": [
+        "Style",
+        "style"
+      ],
+      "result_forms": [
+        "Styled",
+        "styled"
+      ]
+    },
+    {
+      "process_id": "PROCESS-398",
+      "process": "submitting",
+      "base_actions": [
+        "submit"
+      ],
+      "result_forms": [
+        "submitted"
+      ]
+    },
+    {
+      "process_id": "PROCESS-399",
+      "process": "suggesting",
+      "base_actions": [
+        "suggest"
+      ],
+      "result_forms": [
+        "suggested"
+      ]
+    },
+    {
+      "process_id": "PROCESS-400",
+      "process": "summarizing",
+      "base_actions": [
+        "summarize"
+      ],
+      "result_forms": [
+        "summarized"
+      ]
+    },
+    {
+      "process_id": "PROCESS-401",
+      "process": "synchronizing",
+      "base_actions": [
+        "Synchronize",
+        "synchronize"
+      ],
+      "result_forms": [
+        "Synchronized",
+        "synchronized"
+      ]
+    },
+    {
+      "process_id": "PROCESS-402",
+      "process": "syncing",
+      "base_actions": [
+        "Sync",
+        "sync"
+      ],
+      "result_forms": [
+        "Synced",
+        "synced"
+      ]
+    },
+    {
+      "process_id": "PROCESS-403",
+      "process": "synthesizing",
+      "base_actions": [
+        "synthesize"
+      ],
+      "result_forms": [
+        "synthesized"
+      ]
+    },
+    {
+      "process_id": "PROCESS-404",
+      "process": "tailoring",
+      "base_actions": [
+        "Tailor",
+        "tailor"
+      ],
+      "result_forms": [
+        "Tailored",
+        "tailored"
+      ]
+    },
+    {
+      "process_id": "PROCESS-405",
+      "process": "taking",
+      "base_actions": [
+        "take"
+      ],
+      "result_forms": [
+        "taken"
+      ]
+    },
+    {
+      "process_id": "PROCESS-406",
+      "process": "testing",
+      "base_actions": [
+        "Test",
+        "test"
+      ],
+      "result_forms": [
+        "Tested",
+        "tested"
+      ]
+    },
+    {
+      "process_id": "PROCESS-407",
+      "process": "thanking",
+      "base_actions": [
+        "thank"
+      ],
+      "result_forms": [
+        "thanked"
+      ]
+    },
+    {
+      "process_id": "PROCESS-408",
+      "process": "tracking",
+      "base_actions": [
+        "track"
+      ],
+      "result_forms": [
+        "tracked"
+      ]
+    },
+    {
+      "process_id": "PROCESS-409",
+      "process": "training",
+      "base_actions": [
+        "Train",
+        "train"
+      ],
+      "result_forms": [
+        "Trained",
+        "trained"
+      ]
+    },
+    {
+      "process_id": "PROCESS-410",
+      "process": "transcribing",
+      "base_actions": [
+        "transcribe"
+      ],
+      "result_forms": [
+        "transcribed"
+      ]
+    },
+    {
+      "process_id": "PROCESS-411",
+      "process": "transferring",
+      "base_actions": [
+        "transfer"
+      ],
+      "result_forms": [
+        "transferred"
+      ]
+    },
+    {
+      "process_id": "PROCESS-412",
+      "process": "translating",
+      "base_actions": [
+        "translate"
+      ],
+      "result_forms": [
+        "translated"
+      ]
+    },
+    {
+      "process_id": "PROCESS-413",
+      "process": "troubleshooting",
+      "base_actions": [
+        "troubleshoot"
+      ],
+      "result_forms": [
+        "troubleshooted"
+      ]
+    },
+    {
+      "process_id": "PROCESS-414",
+      "process": "Tweaking",
+      "base_actions": [
+        "Tweak",
+        "tweak"
+      ],
+      "result_forms": [
+        "Tweaked",
+        "tweaked"
+      ]
+    },
+    {
+      "process_id": "PROCESS-415",
+      "process": "understanding",
+      "base_actions": [
+        "understand"
+      ],
+      "result_forms": [
+        "understood"
+      ]
+    },
+    {
+      "process_id": "PROCESS-416",
+      "process": "updating",
+      "base_actions": [
+        "Update",
+        "update"
+      ],
+      "result_forms": [
+        "Updated",
+        "updated"
+      ]
+    },
+    {
+      "process_id": "PROCESS-417",
+      "process": "uploading",
+      "base_actions": [
+        "Upload",
+        "upload"
+      ],
+      "result_forms": [
+        "Uploaded",
+        "uploaded"
+      ]
+    },
+    {
+      "process_id": "PROCESS-418",
+      "process": "upscaling",
+      "base_actions": [
+        "upscale"
+      ],
+      "result_forms": [
+        "upscaled"
+      ]
+    },
+    {
+      "process_id": "PROCESS-419",
+      "process": "using",
+      "base_actions": [
+        "Use",
+        "use"
+      ],
+      "result_forms": [
+        "Used",
+        "used"
+      ]
+    },
+    {
+      "process_id": "PROCESS-420",
+      "process": "utilizing",
+      "base_actions": [
+        "Utilize",
+        "utilize"
+      ],
+      "result_forms": [
+        "Utilized",
+        "utilized"
+      ]
+    },
+    {
+      "process_id": "PROCESS-421",
+      "process": "validating",
+      "base_actions": [
+        "Validate",
+        "validate"
+      ],
+      "result_forms": [
+        "Validated",
+        "validated"
+      ]
+    },
+    {
+      "process_id": "PROCESS-422",
+      "process": "verifying",
+      "base_actions": [
+        "Verify",
+        "verify"
+      ],
+      "result_forms": [
+        "Verified",
+        "verified"
+      ]
+    },
+    {
+      "process_id": "PROCESS-423",
+      "process": "visualizing",
+      "base_actions": [
+        "visualize"
+      ],
+      "result_forms": [
+        "visualized"
+      ]
+    },
+    {
+      "process_id": "PROCESS-424",
+      "process": "visually highlighting",
+      "base_actions": [
+        "visually"
+      ],
+      "result_forms": [
+        "visually highlighted"
+      ]
+    },
+    {
+      "process_id": "PROCESS-425",
+      "process": "watching",
+      "base_actions": [
+        "watch"
+      ],
+      "result_forms": [
+        "watched"
+      ]
+    },
+    {
+      "process_id": "PROCESS-426",
+      "process": "weaving",
+      "base_actions": [
+        "weave"
+      ],
+      "result_forms": [
+        "weaved"
+      ]
+    },
+    {
+      "process_id": "PROCESS-427",
+      "process": "workshopping",
+      "base_actions": [
+        "workshop"
+      ],
+      "result_forms": [
+        "workshopped"
+      ]
+    },
+    {
+      "process_id": "PROCESS-428",
+      "process": "writing",
+      "base_actions": [
+        "Write",
+        "write"
+      ],
+      "result_forms": [
+        "Written",
+        "written",
+        "wrote",
+        "wroten"
+      ]
+    }
+  ]
+}

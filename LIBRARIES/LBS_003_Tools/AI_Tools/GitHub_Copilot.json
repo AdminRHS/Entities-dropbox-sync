@@ -1,0 +1,176 @@
+{
+  "entity_type": "LIBRARIES",
+  "sub_entity": "Tool",
+  "tool_id": "TOOL-110",
+  "name": "GitHub Copilot",
+  "vendor": "GitHub (Microsoft)",
+  "category": "AI Tools / Code Assistant / Agent Platform",
+  "purpose": "AI-powered code completion and autonomous agent for software development",
+  "description": "GitHub Copilot is an AI pair programmer that offers autocomplete-style code suggestions and autonomous agent mode for multi-step development tasks. Features include code completions, Agent Mode for complex workflows, MCP server integration for external services, custom instruction generation, and configurable automation settings.",
+  "skill_level_required": "Beginner to Advanced",
+  "cost_structure": "Free for students/educators/open-source, $10/month individual, $19/month business",
+  "platform_compatibility": ["VS Code", "Visual Studio", "JetBrains IDEs", "Neovim"],
+  "integration_capabilities": [
+    "Code completion (ghost text)",
+    "Agent Mode (autonomous multi-step development)",
+    "MCP Server integration (external service access)",
+    "Custom instruction generation from codebase",
+    "Terminal command automation (allow/deny lists)",
+    "Custom chat modes (.github/chatmodes/)",
+    "Project-specific instructions (copilot-instructions.md)",
+    "GitHub integration",
+    "Multiple AI models (GPT-4.1, etc.)"
+  ],
+  "documentation_url": "https://github.com/features/copilot",
+  "actual_remote_helpers_usage": {
+    "primary_use": "AI-assisted coding and autonomous development agent",
+    "users": ["Developer", "AI_Engineer", "DevOps_Engineer", "Data_Scientist"],
+    "use_cases": [
+      "Code completion with ghost text suggestions",
+      "Autonomous feature development via Agent Mode",
+      "Multi-step bug fixing and refactoring",
+      "Database schema and API endpoint creation",
+      "Web application development (full-stack)",
+      "Test generation and code review",
+      "Documentation generation",
+      "External service integration via MCP servers"
+    ],
+    "workflows": [
+      "WF-DEV-006",
+      "WF-DEV-007",
+      "WF-DEV-008"
+    ]
+  },
+  "key_features": {
+    "code_completions": "Ghost text suggestions as you type code",
+    "agent_mode": "Autonomous multi-step development with planning",
+    "mcp_integration": "Connect to external services (GitHub, Notion, Stripe, etc.)",
+    "custom_instructions": "Auto-generate project context from codebase analysis",
+    "terminal_allowlist": "Auto-approve trusted commands (build, test, run)",
+    "max_requests": "Configure agent persistence (default 20, recommend 100+)",
+    "snooze_completions": "Temporarily disable code completions (5-min intervals)",
+    "chat_modes": "Specialized behaviors (Beast Mode, DBA, Planning, etc.)",
+    "model_selection": "Choose AI models (GPT-4.1, etc.) per task"
+  },
+  "agent_mode_capabilities": {
+    "multi_step_execution": "Handles complex features requiring 8+ implementation steps",
+    "autonomous_coding": "Writes, tests, and refactors code without constant approval",
+    "external_integrations": "Uses MCP servers to interact with APIs and services",
+    "context_awareness": "Understands project architecture via copilot-instructions.md",
+    "iterative_refinement": "Incorporates user feedback to improve implementations",
+    "planning_mode": "Creates detailed implementation plans before coding",
+    "tool_usage": "Invokes appropriate tools for file operations, terminal commands, searches"
+  },
+  "mcp_server_ecosystem": {
+    "available_servers": "GitHub, Notion, Stripe, Zapier, Hugging Face, Azure DevOps, Memory, Firecrawl, Clarity",
+    "discovery": "Browse MCP marketplace via VS Code Extensions",
+    "installation": "2-3 minutes per server via Extensions panel",
+    "authentication": "Automatic auth flow per service",
+    "tool_access": "New tools immediately available in Agent Mode",
+    "scoping": "Workspace-level or user-level installation"
+  },
+  "configuration_best_practices": {
+    "max_requests": "Set to 100+ to prevent unnecessary interruptions",
+    "allow_list": "Add frequently used commands (npm install, npm test, dotnet build, etc.)",
+    "deny_list": "Block dangerous commands (rm -rf, force push, etc.)",
+    "custom_instructions": "Generate and update regularly as codebase evolves",
+    "chat_modes": "Install from awesome-copilot repo for specialized workflows",
+    "mcp_servers": "Install GitHub (user-level) for consistent availability"
+  },
+  "custom_instructions_generation": {
+    "process": "Click settings → Generate Instructions in Copilot chat",
+    "analysis": "Scans entire codebase for architecture, conventions, workflows",
+    "output": ".github/copilot-instructions.md file",
+    "content": "Project overview, tech stack, architecture, coding conventions, setup instructions",
+    "duration": "1-5 minutes depending on project size",
+    "update_frequency": "Re-generate after major architectural changes"
+  },
+  "strengths": [
+    "Industry-leading AI code completion accuracy",
+    "Agent Mode enables autonomous multi-step development",
+    "MCP integration extends capabilities to external services",
+    "Custom instructions provide deep project context",
+    "Configurable automation (allow/deny lists, max requests)",
+    "Multiple AI models available (GPT-4.1, etc.)",
+    "Snooze feature for focused coding without distractions",
+    "Free for students, educators, and open-source maintainers",
+    "Works across multiple IDEs",
+    "Active development with frequent feature updates",
+    "Community-driven customization (awesome-copilot)",
+    "Reduces development time by 30-55%"
+  ],
+  "limitations": [
+    "Requires subscription for most users ($10-19/month)",
+    "Agent Mode can run long without updates if max_requests set too high",
+    "MCP servers require individual setup per service",
+    "Code quality varies - always review AI-generated code",
+    "Internet connection required",
+    "Some features still in experimental/preview stages",
+    "May suggest outdated patterns if not using latest model",
+    "Terminal command execution requires explicit approval unless on allow list"
+  ],
+  "terminal_command_automation": {
+    "allow_list": "Commands that run automatically without approval",
+    "deny_list": "Commands that are always blocked",
+    "location": "VS Code Settings → Extensions → GitHub Copilot → Experimental",
+    "recommended_allow": ["dotnet build", "dotnet run", "dotnet test", "npm install", "npm test", "npm build", "pytest", "cargo build"],
+    "recommended_deny": ["rm -rf", "git push --force", "dd", "sudo rm", "format", "mkfs"],
+    "safety": "Only add trusted, non-destructive commands to allow list"
+  },
+  "use_cases": [
+    "Build complete web application from high-level prompts",
+    "Generate REST API endpoints with authentication",
+    "Create database models and migrations",
+    "Implement UI components with styling (React, Vue, etc.)",
+    "Write unit and integration tests",
+    "Refactor code while maintaining functionality",
+    "Debug complex issues with AI assistance",
+    "Document code with inline comments and README files",
+    "Integrate external services via MCP servers",
+    "Automate repetitive coding tasks"
+  ],
+  "beast_mode_gpt41": {
+    "source": "awesome-copilot repository (Burke Holland)",
+    "optimization": "Tuned for GPT-4.1 model",
+    "planning": "Identifies 8+ implementation steps before coding",
+    "execution": "Shows progress updates for each step",
+    "use_case": "Complex features requiring strategic planning",
+    "installation": "Copy from awesome-copilot to .github/chatmodes/beast-mode.md"
+  },
+  "time_savings_metrics": {
+    "code_completion": "30-40% faster coding with ghost text acceptance",
+    "agent_mode": "50-70% time reduction for multi-step features",
+    "custom_instructions": "Saves 1-2 hours of manual context gathering",
+    "terminal_automation": "Saves 2-3 minutes per build/test cycle",
+    "mcp_integration": "Saves 30+ minutes vs manual API integration per service"
+  },
+  "departments_using": ["DEV", "AI", "OPS", "DATA", "PRODUCT"],
+  "tags": [
+    "github-copilot",
+    "ai-assistant",
+    "code-completion",
+    "agent-mode",
+    "mcp",
+    "autonomous-development",
+    "gpt-41",
+    "vs-code",
+    "automation",
+    "custom-instructions"
+  ],
+  "discovery_date": "2025-11-17",
+  "discovery_source": "Videos_015.md - VS Code AI Features",
+  "status": "active",
+  "related_tools": [
+    "TOOL-108 (MCP Servers)",
+    "TOOL-109 (awesome-copilot)",
+    "TOOL-052 (Claude Code)",
+    "TOOL-111 (VS Code)"
+  ],
+  "alternative_tools": [
+    "Claude Code / Cursor - Alternative AI code assistant",
+    "TabNine - AI code completion",
+    "Codeium - Free AI coding assistant",
+    "Amazon CodeWhisperer - AWS-focused AI assistant",
+    "Replit Ghostwriter - Browser-based AI coding"
+  ]
+}

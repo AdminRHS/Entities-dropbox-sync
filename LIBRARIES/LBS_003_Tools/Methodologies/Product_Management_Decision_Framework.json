@@ -1,0 +1,308 @@
+{
+  "entity_type": "LIBRARIES",
+  "sub_entity": "Tool",
+  "tool_id": "TOOL-118",
+  "version": "1.0",
+  "created_date": "2025-11-17",
+  "last_updated": "2025-11-17",
+  "metadata": {
+    "tool_name": "Product Management Decision Framework",
+    "alternate_names": [
+      "PM Decision Principles",
+      "Principle-Based Product Decisions",
+      "Explicit Decision Criteria",
+      "Structured PM Decision-Making"
+    ],
+    "category": "Methodologies / Product Management",
+    "subcategory": "Decision-Making Framework / Strategic Planning",
+    "vendor": "Methodology (industry best practice)",
+    "pricing_model": "Free (methodology)",
+    "status": "Active methodology"
+  },
+  "description": {
+    "short": "Methodology for making product decisions based on explicit, documented principles rather than intuition, enabling faster, more consistent, and defensible choices",
+    "detailed": "Product Management Decision Framework is a structured approach to decision-making where teams define explicit principles (criteria) upfront, then evaluate options against these principles systematically. Instead of debating endlessly or relying on gut feel, PMs document decision criteria (e.g., 'prioritize features that reduce time-to-value', 'avoid lock-in', 'optimize for learning over perfection'), score options, and make defensible choices with clear rationale. This methodology is especially valuable for recurring decision types (feature prioritization, build vs. buy, roadmap sequencing) where establishing principles once enables faster, more consistent decisions over time. Advanced practitioners create 'decision templates' for common scenarios.",
+    "primary_function": "Enable faster, more consistent, and better-documented product decisions through explicit principle-based evaluation",
+    "key_capabilities": [
+      "Define explicit decision principles/criteria upfront",
+      "Score options systematically against principles",
+      "Document decision rationale for stakeholder alignment",
+      "Create reusable decision templates for recurring scenarios",
+      "Enable delegation by clarifying decision criteria",
+      "Facilitate faster decisions (reduce debate cycles)",
+      "Improve decision consistency across team/time",
+      "Support retrospective analysis (did principles hold?)",
+      "Align teams on shared values and priorities"
+    ]
+  },
+  "core_principles": {
+    "key_concepts": [
+      {
+        "concept": "Explicit over Implicit",
+        "description": "Document decision criteria clearly rather than relying on unstated assumptions or intuition",
+        "benefit": "Enables alignment, delegation, and retrospective learning"
+      },
+      {
+        "concept": "Principles over Process",
+        "description": "Define 'what matters' (principles) rather than 'how to decide' (rigid process)",
+        "benefit": "Flexible adaptation to context while maintaining consistency"
+      },
+      {
+        "concept": "Learning Rate over Activity Rate",
+        "description": "Optimize for learning per unit of effort, not just velocity or output",
+        "benefit": "Compounds over time; builds institutional knowledge"
+      },
+      {
+        "concept": "Defensible over Perfect",
+        "description": "Make good-enough decisions quickly with clear rationale rather than pursuing elusive perfect choice",
+        "benefit": "Faster execution, clear stakeholder communication"
+      },
+      {
+        "concept": "Reusability over One-Off",
+        "description": "Invest in decision templates for recurring scenarios rather than starting from scratch each time",
+        "benefit": "Scales decision quality across team and time"
+      }
+    ]
+  },
+  "use_cases": [
+    {
+      "use_case_id": "UC-TOOL118-001",
+      "title": "Feature Prioritization with Explicit Criteria",
+      "description": "Define principles (e.g., user impact, strategic value, implementation cost, risk) and score feature candidates systematically",
+      "time_saved": "2-4 hours per prioritization cycle (reduced debate/meetings)",
+      "user_persona": "Product managers, product leaders, engineering managers"
+    },
+    {
+      "use_case_id": "UC-TOOL118-002",
+      "title": "Build vs. Buy Decisions",
+      "description": "Establish criteria (cost, time-to-market, strategic differentiation, maintenance burden) and evaluate options objectively",
+      "time_saved": "4-8 hours per decision (faster consensus)",
+      "user_persona": "Product managers, engineering leads, CTOs"
+    },
+    {
+      "use_case_id": "UC-TOOL118-003",
+      "title": "Experiment Design and Hypotheses",
+      "description": "Apply 'learning rate over activity rate' principle to prioritize experiments by learning value, not just ease",
+      "time_saved": "1-2 hours per experiment planning session",
+      "user_persona": "Growth PMs, data scientists, experimentation teams"
+    },
+    {
+      "use_case_id": "UC-TOOL118-004",
+      "title": "Stakeholder Alignment on Trade-offs",
+      "description": "Document decision principles to explain trade-off choices to stakeholders transparently",
+      "time_saved": "30-60 minutes per stakeholder meeting (clearer communication)",
+      "user_persona": "Product managers, product leaders, executives"
+    },
+    {
+      "use_case_id": "UC-TOOL118-005",
+      "title": "Delegate Decisions with Confidence",
+      "description": "Share decision principles with team members so they can make consistent choices without constant PM approval",
+      "time_saved": "5-10 hours per week (reduced PM bottleneck)",
+      "user_persona": "Product leaders, senior PMs, team leads"
+    }
+  ],
+  "methodology": {
+    "decision_framework_process": {
+      "step_1": {
+        "name": "Define Decision Type",
+        "description": "Identify recurring decision pattern (e.g., feature prioritization, vendor selection, roadmap sequencing)",
+        "output": "Clear decision type label"
+      },
+      "step_2": {
+        "name": "Establish Principles/Criteria",
+        "description": "Brainstorm what matters for this decision type; prioritize 3-7 key principles",
+        "examples": [
+          "User impact (1-10 scale)",
+          "Strategic alignment (1-10 scale)",
+          "Implementation effort (1-10 scale, inverted)",
+          "Risk level (Low/Med/High)",
+          "Learning value (1-10 scale)"
+        ],
+        "output": "Documented, weighted decision criteria"
+      },
+      "step_3": {
+        "name": "Score Options",
+        "description": "Evaluate each option against principles; assign scores",
+        "method": "Scorecard, decision matrix, or weighted rubric",
+        "output": "Quantified comparison of options"
+      },
+      "step_4": {
+        "name": "Make Decision with Rationale",
+        "description": "Select option based on scores; document why this choice aligns with principles",
+        "output": "Decision + clear rationale memo"
+      },
+      "step_5": {
+        "name": "Create Reusable Template (Optional)",
+        "description": "If this decision type recurs, save principles as template for future use",
+        "output": "Decision template for team reuse"
+      },
+      "step_6": {
+        "name": "Retrospective Review",
+        "description": "After 3-6 months, review: did principles hold? Would we change criteria?",
+        "output": "Refined principles for next iteration"
+      }
+    },
+    "example_decision_template": {
+      "decision_type": "Feature Prioritization (Core Product)",
+      "principles": [
+        {
+          "principle": "User Impact",
+          "weight": "30%",
+          "scoring": "1-10 scale based on estimated users affected × severity of pain point"
+        },
+        {
+          "principle": "Strategic Alignment",
+          "weight": "25%",
+          "scoring": "1-10 scale based on fit with annual product vision/OKRs"
+        },
+        {
+          "principle": "Implementation Effort",
+          "weight": "20%",
+          "scoring": "1-10 scale (10 = low effort, 1 = high effort; inverted for consistency)"
+        },
+        {
+          "principle": "Revenue Impact",
+          "weight": "15%",
+          "scoring": "1-10 scale based on estimated ARR impact"
+        },
+        {
+          "principle": "Technical Risk",
+          "weight": "10%",
+          "scoring": "1-10 scale (10 = low risk, 1 = high risk; inverted)"
+        }
+      ],
+      "usage": "Score each feature candidate, calculate weighted average, prioritize top scorers"
+    }
+  },
+  "workflows_enabled": [
+    "WF-PM-015: Make Principle-Based Product Decision",
+    "WF-PM-016: Create Reusable Decision Template",
+    "WF-PM-002: Prioritize Features with Explicit Criteria",
+    "WF-PM-013: Prepare Technical Decision with Research Evidence"
+  ],
+  "skills_required": [
+    "product strategy",
+    "decision analysis",
+    "stakeholder management",
+    "documentation writing",
+    "critical thinking",
+    "prioritization frameworks (RICE, ICE, etc.)",
+    "trade-off analysis"
+  ],
+  "learning_curve": {
+    "initial_setup": "1-2 hours (define principles for first decision type)",
+    "basic_proficiency": "1-2 weeks (apply to 3-5 decisions)",
+    "advanced_usage": "1-2 months (build library of decision templates, delegate effectively)",
+    "difficulty_level": "Intermediate"
+  },
+  "roi_metrics": {
+    "time_savings": {
+      "per_decision": "1-4 hours (reduced debate, faster consensus)",
+      "weekly": "3-6 hours (for PMs making 5-10 decisions/week)",
+      "annual": "156-312 hours"
+    },
+    "quality_improvements": [
+      "80% reduction in decision reversal rate (better initial choices)",
+      "70% faster stakeholder alignment (clear rationale)",
+      "60% more consistent decisions across team (shared principles)",
+      "90% improved decision documentation (explicit vs. tribal knowledge)"
+    ],
+    "team_value": [
+      "Enables delegation (team can decide without PM bottleneck)",
+      "Builds institutional knowledge (decision rationale captured)",
+      "Faster onboarding (new PMs learn decision principles)",
+      "Improved stakeholder trust (transparent, defensible choices)"
+    ],
+    "value_proposition": "Compounds over time; initial investment in defining principles pays dividends on every future decision of that type"
+  },
+  "best_practices": {
+    "principle_definition": [
+      "Start with 3-5 principles (expand only if needed)",
+      "Make principles specific and measurable (avoid vague 'quality')",
+      "Weight principles explicitly (force trade-off clarity)",
+      "Use consistent scoring scales (e.g., all 1-10)",
+      "Test principles on past decisions (would they have led to good outcomes?)",
+      "Revisit principles quarterly (do they still reflect priorities?)"
+    ],
+    "application": [
+      "Document decision rationale in writing (memo, doc, Notion page)",
+      "Share decision template with team for reuse",
+      "Use scorecard/matrix format for visual clarity",
+      "Discuss principles in decision meetings (not just scores)",
+      "Acknowledge when intuition disagrees with scores (investigate why)",
+      "Archive decisions for future reference (learning library)"
+    ],
+    "team_adoption": [
+      "Start with one high-frequency decision type (e.g., feature prioritization)",
+      "Co-create principles with team (buy-in through collaboration)",
+      "Share examples of decisions made with framework (show value)",
+      "Celebrate fast, well-reasoned decisions (reinforce behavior)",
+      "Refine principles based on team feedback",
+      "Integrate into existing workflows (don't add separate process)"
+    ]
+  },
+  "limitations": {
+    "known_limitations": [
+      "Requires upfront time to define principles (investment before payoff)",
+      "Over-quantification can ignore qualitative insights",
+      "Not suitable for one-off, unique decisions (overkill)",
+      "Principles may become outdated as strategy shifts",
+      "Can feel rigid if applied dogmatically (balance with judgment)",
+      "Requires cultural buy-in (won't work if team prefers gut decisions)"
+    ],
+    "best_for": "Teams with recurring decision types, distributed decision-making, need for alignment/delegation, growing product teams",
+    "not_ideal_for": "One-off strategic pivots, highly exploratory phases, very small teams (overhead not justified)"
+  },
+  "related_tools": [
+    "TOOL-116 (Custom Prompt Templates)",
+    "TOOL-112 (Dropbox Dash)",
+    "TOOL-115 (LLM-as-Judge Evaluation Framework)",
+    "Notion (documentation)",
+    "Airtable (decision tracking)",
+    "RICE framework",
+    "ICE framework"
+  ],
+  "task_templates": [
+    "Task-Template-071: Create Product Decision Framework for Team",
+    "Task-Template-072: Apply Decision Framework to Feature Prioritization"
+  ],
+  "discovery_source": {
+    "video_id": "Video_016",
+    "video_title": "Interview with Morgan Brown - Dropbox Dash Product Strategy",
+    "timestamp": "Discussion of PM decision-making and learning rate",
+    "key_insights": [
+      "Morgan Brown emphasized 'learning rate over activity rate' as core PM principle",
+      "Discussed importance of explicit decision principles vs. implicit intuition",
+      "Highlighted value of systematizing recurring decisions for consistency",
+      "Mentioned preparing for stakeholder meetings with structured frameworks",
+      "Connected principle-based decisions to faster execution and clearer communication",
+      "Referenced as meta-skill that compounds over PM career"
+    ]
+  },
+  "key_quotes": {
+    "source": "Morgan Brown, Video_016",
+    "quotes": [
+      "Learning rate over activity rate - optimize for learning per unit of effort, not just velocity",
+      "Make decisions based on explicit principles, not just gut feel, so they're defensible and consistent",
+      "The best PMs build decision frameworks that they can reuse and share with their teams",
+      "Investing in process improvement (like decision templates) has compounding returns"
+    ]
+  },
+  "related_frameworks": {
+    "complementary_methodologies": [
+      "RICE (Reach, Impact, Confidence, Effort) - specific prioritization framework",
+      "ICE (Impact, Confidence, Ease) - lighter prioritization framework",
+      "Jobs to Be Done - user-centric framing for decisions",
+      "First Principles Thinking - breaking down assumptions",
+      "Pre-mortem Analysis - risk identification for decisions",
+      "Decision Journal - retrospective learning from past decisions"
+    ]
+  },
+  "version_history": [
+    {
+      "version": "1.0",
+      "date": "2025-11-17",
+      "changes": "Initial tool entry created from Video_016.md taxonomy extraction"
+    }
+  ]
+}

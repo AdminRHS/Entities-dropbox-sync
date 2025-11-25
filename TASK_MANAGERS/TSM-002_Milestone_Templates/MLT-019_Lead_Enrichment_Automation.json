@@ -1,0 +1,14 @@
+{
+    "milestone_template_id": "Milestone-Template-019",
+    "name": "Lead Enrichment Automation Workflow",
+    "category": "Workflow Migration",
+    "department": "LG",
+    "description": "Migrated from Workflows/Lead_Enrichment_Workflow.yaml. Automated lead enrichment workflow that processes multiple data sources in parallel to enrich lead information.",
+    "phase": "Lead Generation",
+    "can_run_parallel": true,
+    "dependencies": [],
+    "task_templates": [],
+    "expected_reports": [],
+    "version": "1.0",
+    "source_workflow_file": "ENTITIES/TASK_MANAGERS/Workflows/Lead_Enrichment_Workflow.yaml"
+}

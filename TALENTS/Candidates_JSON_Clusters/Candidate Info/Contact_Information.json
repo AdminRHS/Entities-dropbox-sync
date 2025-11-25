@@ -1,0 +1,32 @@
+{
+  "template_name": "Contact_Information",
+  "description": "Contact information fields including phone, email, and social media contacts",
+  "fields": {
+    "phone": {
+      "type": "str",
+      "description": "Field: phone",
+      "example": "31645237978"
+    },
+    "email": {
+      "type": "str",
+      "description": "Field: email",
+      "example": "valeriia02022002@gmail.com"
+    },
+    "telegram": {
+      "type": "str",
+      "description": "Field: telegram",
+      "example": "@valeriiatarasova"
+    },
+    "viber": {
+      "type": "NoneType",
+      "description": "Field: viber",
+      "example": null
+    },
+    "instagram": {
+      "type": "NoneType",
+      "description": "Field: instagram",
+      "example": null
+    }
+  }
+}
+

@@ -1,0 +1,225 @@
+{
+  "entity_type": "LIBRARIES",
+  "sub_entity": "Tool",
+  "tool_id": "TOOL-AI-106",
+  "name": "VAYU",
+  "vendor": "VAYU (AI Video Platform)",
+  "category": "AI/Video Generation",
+  "purpose": "Specialized AI video generation for miniature/tilt-shift style videos and creative documentary content",
+  "description": "VAYU (currently version 2.2) is an AI video generation tool specialized in creating miniature-style and tilt-shift videos. Particularly effective when combined with other video generation tools (like Seedream) to create short documentary-style content with unique visual aesthetics. Often used in automated workflows via GLIF for creating engaging historical documentaries, educational content, and creative storytelling with a distinctive miniature world appearance.",
+  "skill_level_required": "Beginner to Intermediate",
+  "cost_structure": "Usage-based (typically accessed via GLIF workflows)",
+  "platform_compatibility": [
+    "Web",
+    "API",
+    "GLIF Integration"
+  ],
+  "integration_capabilities": [
+    "Tilt-shift video effect generation",
+    "Miniature-style video creation",
+    "Integration with Seedream for enhanced effects",
+    "Combination with Eleven Labs for voiceovers",
+    "GLIF workflow automation support",
+    "Short-form video optimization (30-60 seconds)",
+    "Documentary-style content generation",
+    "Historical and educational video creation",
+    "Creative storytelling visuals"
+  ],
+  "documentation_url": "https://glif.app (accessed via GLIF agents)",
+  "actual_remote_helpers_usage": {
+    "primary_use": "Miniature History Documentary Creation and Tilt-shift Video Content",
+    "users": [
+      "Content Creators",
+      "Documentary Producers",
+      "Educational Content Creators",
+      "Social Media Managers",
+      "Creative Directors"
+    ],
+    "team_members": [
+      "Educational content creators producing engaging documentaries",
+      "Social media managers creating unique visual content",
+      "Content creators making historical storytelling videos",
+      "Creative directors exploring unique visual styles",
+      "Marketing teams creating distinctive brand content"
+    ],
+    "use_cases": [
+      "produce miniature documentaries",
+      "produce tiltshift lessons",
+      "visualize history",
+      "stylize creative stories",
+      "stylize social content",
+      "produce brand stories",
+      "miniaturize product showcases",
+      "produce tiltshift travel",
+      "create miniature timelapse",
+      "automate documentaries"
+    ],
+    "typical_workflows": [
+      {
+        "task": "Create Miniature History Documentary (via GLIF)",
+        "steps": [
+          "Access GLIF miniature documentary agent",
+          "Input historical topic or event",
+          "Agent researches facts via Perplexity",
+          "Agent generates script",
+          "VAYU 2.2 + Seedream create tilt-shift video (32 seconds)",
+          "Eleven Labs generates voiceover narration",
+          "All elements automatically combined",
+          "Review final documentary video",
+          "Download and publish"
+        ],
+        "complexity": "Low (automated via GLIF)",
+        "time_estimate": "10-20 minutes (mostly automated)"
+      },
+      {
+        "task": "Generate Tilt-shift Educational Video",
+        "steps": [
+          "Define educational topic and key points",
+          "Create visual description for miniature style",
+          "Input into VAYU workflow",
+          "Combine with Seedream for enhanced effects",
+          "Generate tilt-shift video",
+          "Add narration or text overlays",
+          "Review and refine",
+          "Export for educational use"
+        ],
+        "complexity": "Medium",
+        "time_estimate": "20-40 minutes"
+      },
+      {
+        "task": "Create Social Media Miniature Content",
+        "steps": [
+          "Choose topic or location",
+          "Set up VAYU + Seedream workflow",
+          "Generate miniature-style video",
+          "Add music or voiceover",
+          "Optimize for social platforms (length, format)",
+          "Export and publish",
+          "Monitor engagement"
+        ],
+        "complexity": "Low to Medium",
+        "time_estimate": "15-30 minutes"
+      }
+    ],
+    "integration_with_other_tools": [
+      "GLIF - Primary workflow automation platform",
+      "Seedream - Combined for enhanced tilt-shift effects",
+      "Eleven Labs - Voiceover narration integration",
+      "Perplexity - Research for documentary content",
+      "ChatGPT - Script generation",
+      "CapCut - Post-production editing",
+      "Premiere Pro - Professional video editing",
+      "Social media platforms - Content distribution"
+    ],
+    "internal_platforms_served": [
+      "OAY (Online Academy) - Educational video content",
+      "Content Creation - Unique visual storytelling",
+      "SMM (Social Media Marketing) - Distinctive social content",
+      "Marketing - Brand storytelling videos",
+      "BZ-V (Business Video) - Creative corporate content",
+      "Educational Services - Documentary and explainer videos"
+    ]
+  },
+  "strengths": [
+    "Unique miniature/tilt-shift aesthetic",
+    "Excellent for short-form documentaries (30-60 seconds)",
+    "Seamless integration with Seedream",
+    "Automated workflow support via GLIF",
+    "Engaging visual style for social media",
+    "Effective for historical and educational content",
+    "Distinctive look differentiates content",
+    "Works well with voiceover narration",
+    "Fast generation as part of automated pipeline"
+  ],
+  "limitations": [
+    "Specialized use case (tilt-shift/miniature style)",
+    "Best when combined with other tools (Seedream)",
+    "Primarily accessed via GLIF workflows",
+    "Limited standalone documentation",
+    "Optimized for short videos (30-60 seconds)",
+    "May not suit all content types",
+    "Requires understanding of tilt-shift aesthetics",
+    "Style may become overused in some niches"
+  ],
+  "departments_using": [
+    "Content Creation",
+    "Education",
+    "Social Media Management",
+    "Marketing",
+    "Documentary Production"
+  ],
+  "typical_output_formats": [
+    "MP4",
+    "Short-form video (30-60 seconds)",
+    "Optimized for social media"
+  ],
+  "visual_style_characteristics": {
+    "primary_effect": "Tilt-shift/Miniature world appearance",
+    "aesthetic": "Documentary-style with unique visual treatment",
+    "duration_sweet_spot": "32 seconds (optimized length)",
+    "best_subjects": [
+      "Historical events and locations",
+      "Educational topics",
+      "Cityscapes and architecture",
+      "Travel destinations",
+      "Cultural stories",
+      "Time-based narratives"
+    ],
+    "visual_features": [
+      "Selective focus simulation",
+      "Miniature world effect",
+      "Enhanced depth perception",
+      "Toylike appearance",
+      "Engaging visual storytelling"
+    ]
+  },
+  "workflow_patterns": {
+    "common_combination": "VAYU 2.2 + Seedream + Eleven Labs",
+    "automation_platform": "GLIF",
+    "typical_pipeline": [
+      "Research (Perplexity)",
+      "Script generation (ChatGPT)",
+      "Video generation (VAYU + Seedream)",
+      "Voiceover (Eleven Labs)",
+      "Final assembly (automated)"
+    ],
+    "output_duration": "30-60 seconds (ideal for social media)"
+  },
+  "best_practices": [
+    "Combine with Seedream for optimal tilt-shift effects",
+    "Use GLIF workflows for automation",
+    "Keep videos 30-60 seconds for engagement",
+    "Add professional voiceover for documentary feel",
+    "Research topics thoroughly (Perplexity integration)",
+    "Focus on visual storytelling",
+    "Optimize for social media platforms",
+    "Test different historical/educational topics"
+  ],
+  "content_strategy": {
+    "ideal_formats": [
+      "32-second miniature documentaries",
+      "Historical fact videos",
+      "Educational explainers",
+      "Location showcases",
+      "Cultural storytelling"
+    ],
+    "audience_appeal": "High engagement due to unique visual style",
+    "platform_suitability": [
+      "TikTok",
+      "Instagram Reels",
+      "YouTube Shorts",
+      "LinkedIn"
+    ]
+  },
+  "tags": [
+    "ai",
+    "video-generation",
+    "tilt-shift",
+    "miniature-video",
+    "documentary",
+    "educational-content",
+    "glif-integration",
+    "short-form-video",
+    "creative-storytelling"
+  ]
+}

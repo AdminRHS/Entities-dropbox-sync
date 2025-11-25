@@ -1,0 +1,175 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Currencies Library",
+  "description": "Central repository of currencies for pricing and billing",
+  "version": "1.0",
+  "last_updated": "2025-11-18",
+  "currencies": [
+    {
+      "currency_id": "USD",
+      "name": "US Dollar",
+      "symbol": "$",
+      "iso_code": "USD",
+      "numeric_code": "840",
+      "decimal_places": 2,
+      "symbol_position": "before",
+      "is_active": true,
+      "exchange_rate_to_usd": 1.0
+    },
+    {
+      "currency_id": "EUR",
+      "name": "Euro",
+      "symbol": "€",
+      "iso_code": "EUR",
+      "numeric_code": "978",
+      "decimal_places": 2,
+      "symbol_position": "before",
+      "is_active": true,
+      "exchange_rate_to_usd": 1.08
+    },
+    {
+      "currency_id": "GBP",
+      "name": "British Pound Sterling",
+      "symbol": "£",
+      "iso_code": "GBP",
+      "numeric_code": "826",
+      "decimal_places": 2,
+      "symbol_position": "before",
+      "is_active": true,
+      "exchange_rate_to_usd": 1.26
+    },
+    {
+      "currency_id": "CAD",
+      "name": "Canadian Dollar",
+      "symbol": "C$",
+      "iso_code": "CAD",
+      "numeric_code": "124",
+      "decimal_places": 2,
+      "symbol_position": "before",
+      "is_active": true,
+      "exchange_rate_to_usd": 0.72
+    },
+    {
+      "currency_id": "AUD",
+      "name": "Australian Dollar",
+      "symbol": "A$",
+      "iso_code": "AUD",
+      "numeric_code": "036",
+      "decimal_places": 2,
+      "symbol_position": "before",
+      "is_active": true,
+      "exchange_rate_to_usd": 0.65
+    },
+    {
+      "currency_id": "JPY",
+      "name": "Japanese Yen",
+      "symbol": "¥",
+      "iso_code": "JPY",
+      "numeric_code": "392",
+      "decimal_places": 0,
+      "symbol_position": "before",
+      "is_active": true,
+      "exchange_rate_to_usd": 0.0067
+    },
+    {
+      "currency_id": "CNY",
+      "name": "Chinese Yuan",
+      "symbol": "¥",
+      "iso_code": "CNY",
+      "numeric_code": "156",
+      "decimal_places": 2,
+      "symbol_position": "before",
+      "is_active": true,
+      "exchange_rate_to_usd": 0.14
+    },
+    {
+      "currency_id": "INR",
+      "name": "Indian Rupee",
+      "symbol": "₹",
+      "iso_code": "INR",
+      "numeric_code": "356",
+      "decimal_places": 2,
+      "symbol_position": "before",
+      "is_active": true,
+      "exchange_rate_to_usd": 0.012
+    },
+    {
+      "currency_id": "BRL",
+      "name": "Brazilian Real",
+      "symbol": "R$",
+      "iso_code": "BRL",
+      "numeric_code": "986",
+      "decimal_places": 2,
+      "symbol_position": "before",
+      "is_active": true,
+      "exchange_rate_to_usd": 0.20
+    },
+    {
+      "currency_id": "MXN",
+      "name": "Mexican Peso",
+      "symbol": "$",
+      "iso_code": "MXN",
+      "numeric_code": "484",
+      "decimal_places": 2,
+      "symbol_position": "before",
+      "is_active": true,
+      "exchange_rate_to_usd": 0.059
+    },
+    {
+      "currency_id": "PLN",
+      "name": "Polish Złoty",
+      "symbol": "zł",
+      "iso_code": "PLN",
+      "numeric_code": "985",
+      "decimal_places": 2,
+      "symbol_position": "after",
+      "is_active": true,
+      "exchange_rate_to_usd": 0.25
+    },
+    {
+      "currency_id": "UAH",
+      "name": "Ukrainian Hryvnia",
+      "symbol": "₴",
+      "iso_code": "UAH",
+      "numeric_code": "980",
+      "decimal_places": 2,
+      "symbol_position": "after",
+      "is_active": true,
+      "exchange_rate_to_usd": 0.027
+    },
+    {
+      "currency_id": "SGD",
+      "name": "Singapore Dollar",
+      "symbol": "S$",
+      "iso_code": "SGD",
+      "numeric_code": "702",
+      "decimal_places": 2,
+      "symbol_position": "before",
+      "is_active": true,
+      "exchange_rate_to_usd": 0.74
+    },
+    {
+      "currency_id": "AED",
+      "name": "UAE Dirham",
+      "symbol": "د.إ",
+      "iso_code": "AED",
+      "numeric_code": "784",
+      "decimal_places": 2,
+      "symbol_position": "before",
+      "is_active": true,
+      "exchange_rate_to_usd": 0.27
+    }
+  ],
+  "metadata": {
+    "usage": "Reference this library for currency selection in pricing and billing",
+    "note": "Exchange rates are approximate and should be updated regularly from a live API",
+    "exchange_rate_last_updated": "2025-11-18",
+    "integration_points": [
+      "ACCOUNTS/plans.currency_id",
+      "ACCOUNTS/payments.currency",
+      "BUSINESSES/products.pricing.currency",
+      "BUSINESSES/invoices.currency"
+    ],
+    "recommended_api": "Use https://exchangerate-api.com/ or similar for live rates"
+  }
+}

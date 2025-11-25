@@ -1,0 +1,298 @@
+{
+  "entity_type": "TASK_MANAGERS",
+  "sub_entity": "Task_Template",
+  "template_id": "Task-Template-016",
+  "task_name": "Enrich Emails via Instantly.ai",
+  "action": "Enrich",
+  "object": "Email List",
+  "context": "via Instantly.ai platform",
+  "description": "Fast email enrichment using Instantly.ai built-in enrichment (60-80% success rate, 10-15 minutes, integrated with email sending platform)",
+  "department": "LG",
+  "profession": "SDR",
+  "priority": "Medium",
+  "estimated_duration": "10-15 minutes",
+  "status": "Active",
+  "complexity": "Low",
+  "automation_potential": "High (60-80%)",
+  "success_rate": "60-80%",
+  "unique_value": "Enrichment + email sending in one platform",
+  "best_for": "Quick campaigns with immediate outreach",
+  "dependencies": [
+    "Instantly.ai account with enrichment credits",
+    "Company domain list prepared"
+  ],
+  "tools_required": [
+    "TOOL-BUS-003 (Instantly.ai)"
+  ],
+  "skills_required": [
+    "SKL-061 (enriched emails via similar tools)"
+  ],
+  "objects_used": [
+    "OBJ-LG-001 (Lead List)",
+    "OBJ-LG-002 (Company Domain)",
+    "OBJ-LG-003 (Decision-Maker Email)"
+  ],
+  "workflow_reference": "WF-LG-012",
+  "success_criteria": [
+    "Domains uploaded to Instantly.ai",
+    "60-80% enrichment success rate",
+    "Enriched contacts added to campaign",
+    "Ready for immediate email outreach",
+    "Execution completed in 10-15 minutes"
+  ],
+  "responsibilities": {
+    "responsible": "SDR",
+    "accountable": "Sales Development Manager",
+    "consulted": [
+      "Lead Generator"
+    ],
+    "informed": [
+      "Sales Manager"
+    ]
+  },
+  "steps": [
+    {
+      "step_number": 1,
+      "name": "Prepare domain list",
+      "action": "prepare",
+      "tool": "Excel/Google Sheets",
+      "responsibility": "SDR",
+      "placement": "Lead list spreadsheet",
+      "duration": "2-3 minutes",
+      "dependencies": [],
+      "inputs": [
+        "Company domains to enrich"
+      ],
+      "outputs": [
+        "CSV: company_name, domain"
+      ],
+      "success_criteria": "Domains cleaned and ready",
+      "responsibility_id": "RESP-LG-003",
+      "responsibility_name": "prepare domains",
+      "_original_action": "prepare"
+    },
+    {
+      "step_number": 2,
+      "name": "Upload to Instantly.ai campaign",
+      "action": "upload",
+      "tool": "TOOL-BUS-003 (Instantly.ai)",
+      "responsibility": "SDR",
+      "placement": "Instantly.ai - Campaign setup",
+      "duration": "1 minute",
+      "dependencies": [
+        "Step 1"
+      ],
+      "inputs": [
+        "CSV with domains"
+      ],
+      "outputs": [
+        "Domains uploaded to campaign"
+      ],
+      "success_criteria": "All domains imported successfully",
+      "responsibility_id": "RESP-LG-045",
+      "responsibility_name": "upload to instantly.ai campaign",
+      "_original_action": "upload"
+    },
+    {
+      "step_number": 3,
+      "name": "Configure enrichment settings",
+      "action": "configure",
+      "tool": "TOOL-BUS-003 (Instantly.ai)",
+      "responsibility": "SDR",
+      "placement": "Instantly.ai - Enrichment settings",
+      "duration": "1 minute",
+      "dependencies": [
+        "Step 2"
+      ],
+      "inputs": [
+        "Target roles, seniority levels"
+      ],
+      "outputs": [
+        "Enrichment configured"
+      ],
+      "success_criteria": "Roles and settings selected",
+      "responsibility_id": "RESP-LG-046",
+      "responsibility_name": "configure enrichment settings",
+      "_original_action": "configure"
+    },
+    {
+      "step_number": 4,
+      "name": "Run enrichment within Instantly.ai",
+      "action": "execute",
+      "tool": "TOOL-BUS-003 (Instantly.ai)",
+      "responsibility": "SDR",
+      "placement": "Instantly.ai - Processing",
+      "duration": "5-8 minutes (automated)",
+      "dependencies": [
+        "Step 3"
+      ],
+      "inputs": [
+        "Configured enrichment"
+      ],
+      "outputs": [
+        "Enriched contacts (60-80% success)"
+      ],
+      "success_criteria": "Enrichment completes, contacts added to campaign",
+      "responsibility_id": "RESP-LG-047",
+      "responsibility_name": "execute run enrichment within instantly.ai",
+      "_original_action": "execute"
+    },
+    {
+      "step_number": 5,
+      "name": "Review enriched contacts",
+      "action": "review",
+      "tool": "TOOL-BUS-003 (Instantly.ai)",
+      "responsibility": "SDR",
+      "placement": "Instantly.ai - Contact list",
+      "duration": "2-3 minutes",
+      "dependencies": [
+        "Step 4"
+      ],
+      "inputs": [
+        "Enriched contact list"
+      ],
+      "outputs": [
+        "Verified contacts ready for outreach"
+      ],
+      "success_criteria": "Quality check passed, contacts verified",
+      "responsibility_id": "RESP-LG-048",
+      "responsibility_name": "review contacts",
+      "_original_action": "review"
+    },
+    {
+      "step_number": 6,
+      "name": "Launch email campaign (optional)",
+      "action": "launch",
+      "tool": "TOOL-BUS-003 (Instantly.ai)",
+      "responsibility": "SDR",
+      "placement": "Instantly.ai - Campaign launch",
+      "duration": "2 minutes",
+      "dependencies": [
+        "Step 5"
+      ],
+      "inputs": [
+        "Email template, sending schedule"
+      ],
+      "outputs": [
+        "Campaign live and sending"
+      ],
+      "success_criteria": "Emails queued and sending to enriched contacts",
+      "responsibility_id": "RESP-LG-049",
+      "responsibility_name": "launch emails",
+      "_original_action": "launch"
+    }
+  ],
+  "checklist": [
+    {
+      "item": "Instantly.ai account with enrichment credits",
+      "guide": "Check credit balance before starting",
+      "required": true
+    },
+    {
+      "item": "Domain list prepared and cleaned",
+      "guide": "CSV format with company domains",
+      "required": true
+    },
+    {
+      "item": "Target roles configured",
+      "guide": "Match roles to ICP for best results",
+      "required": true
+    },
+    {
+      "item": "60-80% enrichment rate achieved",
+      "guide": "Standard success rate for this method",
+      "required": true
+    },
+    {
+      "item": "Email campaign ready (if launching immediately)",
+      "guide": "Template, schedule, and sending domains configured",
+      "required": false
+    }
+  ],
+  "performance_metrics": {
+    "typical_volume": "50-500 domains per campaign",
+    "success_rate": "60-80%",
+    "time_to_enrich": "10-15 minutes",
+    "time_to_launch": "+2 minutes if starting campaign immediately",
+    "unique_advantage": "Enrichment + sending in one platform"
+  },
+  "unique_value_proposition": {
+    "all_in_one": "Enrich and send emails in one platform",
+    "no_export_needed": "Contacts stay in Instantly.ai for immediate outreach",
+    "time_savings": "Skip export/import steps, launch campaigns faster",
+    "workflow_simplification": "Fewer tools = simpler process"
+  },
+  "best_practices": [
+    "FASTEST workflow: enrichment → sending in one platform",
+    "No export/import steps needed",
+    "Perfect for immediate campaign launch",
+    "60-80% success rate (good for integrated workflow)",
+    "Use when speed-to-outreach matters most",
+    "Configure email templates while enrichment runs"
+  ],
+  "when_to_use": [
+    "Already using Instantly.ai for email outreach",
+    "Want fastest enrichment-to-sending workflow",
+    "Need to launch campaigns immediately",
+    "Prefer all-in-one platform over multiple tools",
+    "60-80% enrichment rate is acceptable"
+  ],
+  "when_not_to_use": [
+    "Need highest enrichment rate (use LinkedIn Sales Navigator)",
+    "Want lowest cost per email (Anymailfinder/Bright Data slightly better)",
+    "Not using Instantly.ai for email sending",
+    "Need to use contacts across multiple platforms"
+  ],
+  "workflow_comparison": {
+    "instantly_method": "Upload → Enrich → Send (all in one platform, 12-17 min)",
+    "anymailfinder_method": "Upload → Enrich → Export → Import to sender → Send (15-25 min)",
+    "time_savings": "3-8 minutes saved by staying in one platform"
+  },
+  "common_issues": [
+    {
+      "issue": "Enrichment credits depleted",
+      "solution": "Purchase more credits within Instantly.ai platform"
+    },
+    {
+      "issue": "Low enrichment rate (<50%)",
+      "solution": "Check domain quality, adjust target roles, verify ICP alignment"
+    },
+    {
+      "issue": "Contacts not appearing in campaign",
+      "solution": "Check enrichment status, ensure campaign properly configured"
+    }
+  ],
+  "instantly_ai_features": {
+    "enrichment": "Built-in email enrichment (60-80% success)",
+    "sending": "Email campaign management and sending",
+    "warming": "Email warmup to improve deliverability",
+    "tracking": "Open, click, reply tracking",
+    "sequencing": "Multi-touch email sequences"
+  },
+  "tags": [
+    "lead_generation",
+    "email_enrichment",
+    "instantly_ai",
+    "all_in_one",
+    "email_outreach"
+  ],
+  "related_workflows": [
+    "WF-LG-012"
+  ],
+  "related_skills": [
+    "SKL-061"
+  ],
+  "related_professions": [
+    "SDR",
+    "Lead Generator",
+    "Sales Manager"
+  ],
+  "version": "1.0",
+  "created": "2025-11-12",
+  "last_updated": "2025-11-12",
+  "source": "Video_006_Lead_Generation_Analysis",
+  "responsibility_id": "RESP-LG-001",
+  "responsibility_name": "enrich emails",
+  "_original_action": "Enrich",
+  "_original_object": "Email List"
+}

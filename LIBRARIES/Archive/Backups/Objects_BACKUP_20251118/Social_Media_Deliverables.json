@@ -1,0 +1,657 @@
+{
+  "entity_type": "LIBRARIES",
+  "library": "Objects",
+  "object_category": "Social_Media_Deliverables",
+  "description": "Deliverables, outputs, and content objects created and shared via social media platforms",
+  "created": "2025-11-13",
+  "updated": "2025-11-13",
+  "total_objects": 14,
+  "objects": [
+    {
+      "object_id": "OBJ-SMM-001",
+      "object_name": "Instagram DMs",
+      "full_name": "Instagram Direct Messages",
+      "type": "Communication",
+      "format": "Text",
+      "description": "Private text messages sent via Instagram Direct Message feature for one-on-one or group communication",
+      "typical_size": "Variable (text-based with optional media)",
+      "created_with": [
+        "TOOL-SMM-001"
+      ],
+      "tool_details": {
+        "TOOL-SMM-001": "Instagram - Social media platform with DM messaging"
+      },
+      "used_by_professions": [
+        "Recruiter",
+        "SMM_Specialist",
+        "Community_Manager",
+        "Content_Creator"
+      ],
+      "created_in_workflows": [
+        "WF-REC-001",
+        "WF-REC-002"
+      ],
+      "workflow_context": {
+        "WF-REC-001": "Primary communication channel throughout 7-step recruitment process",
+        "WF-REC-002": "Screening and scheduling communication"
+      },
+      "related_actions": [
+        "message",
+        "DM",
+        "send",
+        "respond",
+        "engage",
+        "confirm",
+        "request",
+        "inquire",
+        "follow-up"
+      ],
+      "related_objects": [
+        "OBJ-SMM-002",
+        "OBJ-REC-001",
+        "OBJ-REC-002",
+        "OBJ-REC-006"
+      ],
+      "use_cases": [
+        "Candidate screening and recruitment",
+        "Customer support and engagement",
+        "Influencer outreach",
+        "Community management",
+        "Personal networking"
+      ],
+      "best_practices": [
+        "Keep tone friendly-professional",
+        "Respond within 24 hours",
+        "Use templates for consistency",
+        "Maintain conversation thread for context"
+      ]
+    },
+    {
+      "object_id": "OBJ-SMM-002",
+      "object_name": "Communications",
+      "full_name": "Social Media Communications",
+      "type": "Dialogue Record",
+      "format": "Text conversation history",
+      "description": "Recorded dialogues and conversation histories from social media interactions, particularly for language proficiency assessment or relationship documentation",
+      "typical_size": "Multiple message threads",
+      "created_with": [
+        "TOOL-SMM-001",
+        "TOOL-SMM-002"
+      ],
+      "tool_details": {
+        "TOOL-SMM-001": "Instagram - Conversation platform",
+        "TOOL-SMM-002": "Telegram - Messaging platform"
+      },
+      "used_by_professions": [
+        "Recruiter",
+        "SMM_Specialist",
+        "Community_Manager"
+      ],
+      "created_in_workflows": [
+        "WF-REC-001",
+        "WF-REC-002"
+      ],
+      "workflow_context": {
+        "WF-REC-001": "Step 2 - Assess language proficiency for communications",
+        "WF-REC-002": "Step 2 - Assess language skills for communications"
+      },
+      "related_actions": [
+        "assess",
+        "communicate",
+        "engage",
+        "respond",
+        "inquire"
+      ],
+      "related_objects": [
+        "OBJ-SMM-001"
+      ],
+      "use_cases": [
+        "Language proficiency assessment",
+        "Candidate evaluation",
+        "Communication style review",
+        "Relationship documentation"
+      ]
+    },
+    {
+      "object_id": "OBJ-SMM-003",
+      "object_name": "Video Business Cards",
+      "full_name": "Video Business Cards (Candidate Self-Introductions)",
+      "type": "Video Content",
+      "format": "MP4, MOV (video)",
+      "description": "Short video introductions (1-3 minutes) created by candidates to summarize professional background and personality as alternative to traditional CV",
+      "typical_size": "50-200MB (1-3 minute videos)",
+      "duration": "1-3 minutes",
+      "created_with": [
+        "Video Recording Tools (generic)",
+        "TOOL-SMM-001"
+      ],
+      "tool_details": {
+        "Video Recording Tools": "Smartphone cameras, screen recording, video apps",
+        "TOOL-SMM-001": "Instagram - Delivery via video message or post"
+      },
+      "used_by_professions": [
+        "Recruiter",
+        "Candidate (creator)"
+      ],
+      "created_in_workflows": [
+        "WF-REC-001",
+        "WF-REC-002"
+      ],
+      "workflow_context": {
+        "WF-REC-001": "Step 6 - Alternative to CV in profile request",
+        "WF-REC-002": "Step 3 - Request candidate profiles via CV or video business card"
+      },
+      "related_actions": [
+        "record",
+        "create",
+        "share",
+        "send",
+        "review",
+        "assess"
+      ],
+      "related_objects": [
+        "OBJ-REC-005",
+        "OBJ-REC-006"
+      ],
+      "typical_content": [
+        "Professional introduction",
+        "Work history summary",
+        "Key skills and achievements",
+        "Personality and communication style showcase",
+        "Interest in specific role"
+      ],
+      "advantages": [
+        "Shows personality beyond text CV",
+        "Demonstrates communication skills",
+        "Lower barrier for candidates without updated CV",
+        "Assesses language proficiency visually",
+        "More engaging than traditional resume"
+      ],
+      "use_cases": [
+        "Alternative candidate profile submission",
+        "Early communication skills assessment",
+        "Personality evaluation",
+        "Roles requiring strong verbal communication",
+        "Creative industry hiring"
+      ],
+      "best_practices": [
+        "Request 1-3 minute duration",
+        "Suggest professional background topics",
+        "Accept both CV and video (candidate choice)",
+        "Review for communication style and language proficiency"
+      ]
+    },
+    {
+      "object_id": "OBJ-SMM-004",
+      "object_name": "Instagram Carousel",
+      "full_name": "Instagram Educational Carousel Post",
+      "type": "Visual Content",
+      "format": "Multi-slide image post",
+      "description": "Educational 5-10 slide posts on Instagram (1080×1350px, 4:5 ratio) designed to teach concepts, provide tips, or showcase portfolio work",
+      "typical_size": "5-10 slides",
+      "resolution": "1080×1350px per slide",
+      "aspect_ratio": "4:5 (vertical)",
+      "created_with": ["TOOL-SMM-001"],
+      "tool_details": {
+        "TOOL-SMM-001": "Instagram - Primary platform for carousel posts"
+      },
+      "used_by_professions": ["Designer", "Marketer", "Content_Creator", "SMM_Specialist"],
+      "created_in_workflows": ["WF-SMM-003", "WF-SMM-001", "WF-SMM-002"],
+      "workflow_context": {
+        "WF-SMM-003": "Step 1 - Create educational carousels (35% of Instagram content)",
+        "WF-SMM-001": "Step 3 - Create visual summaries",
+        "WF-SMM-002": "Step 3 - Create visual assets"
+      },
+      "related_actions": ["design", "create", "post", "share"],
+      "content_types": [
+        "Design tutorials and tips",
+        "Before/after showcases",
+        "Portfolio project previews",
+        "Educational infographics",
+        "Process documentation"
+      ],
+      "use_cases": [
+        "Educational content marketing",
+        "Portfolio showcasing",
+        "Authority building",
+        "Saveable reference content"
+      ],
+      "best_practices": [
+        "Hook on slide 1 to encourage swipe",
+        "5-10 slides optimal (not too long)",
+        "Consistent branding across slides",
+        "Saveable content (5x algorithm weight)",
+        "Use 3-5 niche-specific hashtags"
+      ],
+      "performance_metrics": ["Saves (PRIMARY - 5x weight)", "Shares", "Reach", "Engagement rate"],
+      "source": "SMM_Research_Document_2_Content_Strategy_Multi_Platform"
+    },
+    {
+      "object_id": "OBJ-SMM-005",
+      "object_name": "Instagram Reel",
+      "full_name": "Instagram Reel Process Video",
+      "type": "Short-Form Video",
+      "format": "Vertical video (9:16)",
+      "description": "Process videos 15-90 seconds (1080×1920px) showing design work, time-lapses, before/after, or behind-the-scenes content",
+      "typical_size": "15-90 seconds",
+      "resolution": "1080×1920px",
+      "aspect_ratio": "9:16 (vertical)",
+      "created_with": ["TOOL-SMM-001"],
+      "tool_details": {
+        "TOOL-SMM-001": "Instagram - Reels feature"
+      },
+      "used_by_professions": ["Designer", "Videographer", "Content_Creator", "SMM_Specialist"],
+      "created_in_workflows": ["WF-SMM-003", "WF-SMM-007", "WF-SMM-001"],
+      "workflow_context": {
+        "WF-SMM-003": "Step 2 - Produce process reels (25% of Instagram content)",
+        "WF-SMM-007": "Step 2 - Record vertical video for multi-platform",
+        "WF-SMM-001": "Step 2 - Extract key segments for short-form"
+      },
+      "related_actions": ["record", "edit", "post", "share"],
+      "content_types": [
+        "Time-lapse creation videos",
+        "Before/after transformations",
+        "AI workflow demonstrations",
+        "Design challenge solutions",
+        "Process documentation"
+      ],
+      "use_cases": [
+        "Behind-the-scenes content",
+        "Process transparency",
+        "Quick tutorials",
+        "Viral content potential"
+      ],
+      "best_practices": [
+        "Hook within first 3 seconds",
+        "Use trending audio when relevant",
+        "Add captions/text overlays",
+        "Keep fast-paced and tight editing",
+        "Vertical 9:16 format required"
+      ],
+      "performance_metrics": ["Reach", "Plays", "Shares", "Saves", "Profile visits"],
+      "source": "SMM_Research_Document_2_Content_Strategy_Multi_Platform"
+    },
+    {
+      "object_id": "OBJ-SMM-006",
+      "object_name": "Instagram Story",
+      "full_name": "Instagram Interactive Story",
+      "type": "Ephemeral Content",
+      "format": "Vertical image or video (9:16)",
+      "description": "Interactive Q&A, polls, BTS content posted to Instagram Stories (24-hour ephemeral content)",
+      "typical_size": "Variable (24-hour lifespan)",
+      "resolution": "1080×1920px",
+      "aspect_ratio": "9:16 (vertical)",
+      "created_with": ["TOOL-SMM-001"],
+      "tool_details": {
+        "TOOL-SMM-001": "Instagram - Stories feature"
+      },
+      "used_by_professions": ["Designer", "Marketer", "Content_Creator", "SMM_Specialist"],
+      "created_in_workflows": ["WF-SMM-003"],
+      "workflow_context": {
+        "WF-SMM-003": "Step 3 - Post interactive Stories (10% of Instagram content, 1-3 daily)"
+      },
+      "related_actions": ["post", "share", "engage"],
+      "content_types": [
+        "Q&A sessions",
+        "Polls and quizzes",
+        "Behind-the-scenes content",
+        "Daily updates",
+        "Interactive stickers"
+      ],
+      "use_cases": [
+        "Community engagement",
+        "Real-time updates",
+        "Personality showcase",
+        "Audience feedback"
+      ],
+      "best_practices": [
+        "Post 1-3 Stories daily",
+        "Use interactive stickers (polls, Q&A, quizzes)",
+        "Authentic and casual tone",
+        "Behind-the-scenes glimpses"
+      ],
+      "performance_metrics": ["Story views", "Replies", "Poll votes", "Swipe-ups (if available)"],
+      "source": "SMM_Research_Document_2_Content_Strategy_Multi_Platform"
+    },
+    {
+      "object_id": "OBJ-SMM-007",
+      "object_name": "TikTok Video",
+      "full_name": "TikTok Short-Form Vertical Video",
+      "type": "Short-Form Video",
+      "format": "Vertical video (9:16)",
+      "description": "Short-form vertical video (15-60 seconds, 9:16 format) optimized for TikTok algorithm with hook in first 3 seconds",
+      "typical_size": "15-60 seconds (21-34 optimal)",
+      "resolution": "1080×1920px",
+      "aspect_ratio": "9:16 (vertical)",
+      "created_with": ["TOOL-SMM-003"],
+      "tool_details": {
+        "TOOL-SMM-003": "TikTok - Primary short-form video platform"
+      },
+      "used_by_professions": ["Videographer", "Designer", "Content_Creator", "SMM_Specialist"],
+      "created_in_workflows": ["WF-SMM-007", "WF-SMM-001", "WF-SMM-002"],
+      "workflow_context": {
+        "WF-SMM-007": "Core output - short-form video for TikTok, Reels, Shorts",
+        "WF-SMM-001": "Step 2 - Extract key segments for short-form",
+        "WF-SMM-002": "Step 4 - Edit video clips for vertical platforms"
+      },
+      "related_actions": ["record", "edit", "post", "share"],
+      "content_types": [
+        "Quick tutorials (15-second tips)",
+        "Trend adaptations",
+        "Behind-the-scenes content",
+        "Challenge participation"
+      ],
+      "use_cases": [
+        "Viral content creation",
+        "Rapid audience growth",
+        "Trend participation",
+        "Quick educational tips"
+      ],
+      "best_practices": [
+        "Hook within first 3 seconds CRITICAL",
+        "Vertical 9:16 format fills mobile screen",
+        "Text overlays/captions REQUIRED (many watch without sound)",
+        "21-34 seconds ideal for completion rate",
+        "3-5 relevant hashtags (mix trending and niche)"
+      ],
+      "performance_metrics": ["Completion rate (PRIMARY)", "Shares", "Comments", "Follower growth"],
+      "source": "SMM_Research_Document_2_Content_Strategy_Multi_Platform"
+    },
+    {
+      "object_id": "OBJ-SMM-008",
+      "object_name": "YouTube Tutorial",
+      "full_name": "YouTube Long-Form Educational Tutorial",
+      "type": "Long-Form Video",
+      "format": "Horizontal video (16:9)",
+      "description": "Long-form educational video (10-45 minutes, 1080p-4K) with comprehensive tutorials following Hook → Problem → Solution → Examples → CTA structure",
+      "typical_size": "10-45 minutes",
+      "resolution": "1080p minimum, 4K preferred",
+      "aspect_ratio": "16:9 (horizontal)",
+      "created_with": ["TOOL-VID-001"],
+      "tool_details": {
+        "TOOL-VID-001": "YouTube - Primary video platform for long-form content"
+      },
+      "used_by_professions": ["Videographer", "Developer", "Designer", "Marketer"],
+      "created_in_workflows": ["WF-SMM-006", "WF-SMM-001", "WF-SMM-002"],
+      "workflow_context": {
+        "WF-SMM-006": "Core output - comprehensive YouTube tutorial",
+        "WF-SMM-001": "Step 1 - Create long-form primary content",
+        "WF-SMM-002": "Source content for repurposing pipeline"
+      },
+      "related_actions": ["record", "edit", "upload", "publish", "optimize"],
+      "content_types": [
+        "Full course tutorials (10-45 minutes)",
+        "Step-by-step guides",
+        "Software demonstrations",
+        "Industry deep dives",
+        "Project walkthroughs"
+      ],
+      "use_cases": [
+        "Educational content marketing",
+        "Authority building",
+        "Audience growth",
+        "Course creation"
+      ],
+      "best_practices": [
+        "Hook within first 15 seconds to retain viewers",
+        "Custom thumbnails A/B tested",
+        "Keyword-first titles for SEO",
+        "200+ word descriptions with timestamps",
+        "Always include captions for accessibility",
+        "1080p minimum, 4K preferred"
+      ],
+      "performance_metrics": ["Watch time (PRIMARY)", "Retention rate", "CTR", "Subscribers", "Engagement"],
+      "source": "SMM_Research_Document_2_Content_Strategy_Multi_Platform"
+    },
+    {
+      "object_id": "OBJ-SMM-009",
+      "object_name": "YouTube Short",
+      "full_name": "YouTube Short Vertical Video",
+      "type": "Short-Form Video",
+      "format": "Vertical video (9:16)",
+      "description": "Vertical short-form video (60 seconds max, 9:16 format) for YouTube Shorts feature",
+      "typical_size": "60 seconds max",
+      "resolution": "1080×1920px",
+      "aspect_ratio": "9:16 (vertical)",
+      "created_with": ["TOOL-VID-001"],
+      "tool_details": {
+        "TOOL-VID-001": "YouTube - Shorts feature"
+      },
+      "used_by_professions": ["Videographer", "Content_Creator", "SMM_Specialist"],
+      "created_in_workflows": ["WF-SMM-007", "WF-SMM-006", "WF-SMM-001"],
+      "workflow_context": {
+        "WF-SMM-007": "Core output - short-form video for Shorts",
+        "WF-SMM-006": "Content Strategy - 25% of YouTube content",
+        "WF-SMM-001": "Step 2 - Extract key segments for short-form"
+      },
+      "related_actions": ["record", "edit", "upload", "post"],
+      "content_types": [
+        "60-second tips",
+        "Quick tutorials",
+        "Trend participation",
+        "Highlights from long-form content"
+      ],
+      "use_cases": [
+        "Rapid discovery",
+        "Shorts feed growth",
+        "Cross-promotion of long-form content",
+        "Daily posting strategy"
+      ],
+      "best_practices": [
+        "60 seconds max duration",
+        "Vertical 9:16 format",
+        "Hook in first 3 seconds",
+        "Daily posting optimal",
+        "Cross-promote long-form videos"
+      ],
+      "performance_metrics": ["Views", "Likes", "Comments", "Shares", "Subscribers"],
+      "source": "SMM_Research_Document_2_Content_Strategy_Multi_Platform"
+    },
+    {
+      "object_id": "OBJ-SMM-010",
+      "object_name": "LinkedIn Article",
+      "full_name": "LinkedIn Professional Article",
+      "type": "Long-Form Written Content",
+      "format": "Rich text with images",
+      "description": "Professional design insights, case study highlights, thought leadership articles published on LinkedIn",
+      "typical_size": "800-1,500 words",
+      "created_with": ["TOOL-SMM-007"],
+      "tool_details": {
+        "TOOL-SMM-007": "LinkedIn - Publishing platform for professional articles"
+      },
+      "used_by_professions": ["Marketer", "Designer", "Developer", "Videographer"],
+      "created_in_workflows": ["WF-SMM-008", "WF-SMM-001"],
+      "workflow_context": {
+        "WF-SMM-008": "Step 1 - Publish thought leadership (25% of content)",
+        "WF-SMM-001": "Step 4 - Develop quick tips for LinkedIn"
+      },
+      "related_actions": ["write", "publish", "share"],
+      "content_types": [
+        "Thought leadership articles",
+        "Case study highlights",
+        "Industry analysis",
+        "Professional development insights"
+      ],
+      "use_cases": [
+        "B2B authority building",
+        "Professional networking",
+        "Lead generation",
+        "Expertise demonstration"
+      ],
+      "best_practices": [
+        "Lead with ROI/results for B2B audience",
+        "Include data and metrics for credibility",
+        "Post weekly for consistent presence",
+        "Tag clients with permission",
+        "Respond to comments within 2 hours"
+      ],
+      "performance_metrics": ["Impressions", "Engagement rate", "Clicks", "Lead generation"],
+      "source": "SMM_Research_Document_2_Content_Strategy_Multi_Platform"
+    },
+    {
+      "object_id": "OBJ-SMM-011",
+      "object_name": "LinkedIn Carousel",
+      "full_name": "LinkedIn Data-Driven Carousel",
+      "type": "Visual Content",
+      "format": "Multi-slide PDF or image carousel",
+      "description": "Data-driven threads (5-10 slides) with analytics, case studies, or educational content optimized for LinkedIn engagement",
+      "typical_size": "5-10 slides",
+      "created_with": ["TOOL-SMM-007"],
+      "tool_details": {
+        "TOOL-SMM-007": "LinkedIn - Carousel post format"
+      },
+      "used_by_professions": ["Marketer", "Designer", "Developer"],
+      "created_in_workflows": ["WF-SMM-008"],
+      "workflow_context": {
+        "WF-SMM-008": "Step 1 - Publish thought leadership content"
+      },
+      "related_actions": ["design", "create", "post"],
+      "content_types": [
+        "Data analysis and insights",
+        "Case study breakdowns",
+        "Checklists and frameworks",
+        "Industry reports"
+      ],
+      "use_cases": [
+        "B2B content marketing",
+        "Data storytelling",
+        "Lead generation",
+        "Authority building"
+      ],
+      "best_practices": [
+        "Use data visualizations",
+        "Professional design aesthetic",
+        "Slide 1 as strong hook",
+        "Provide actionable insights"
+      ],
+      "performance_metrics": ["Impressions", "Clicks", "Saves", "Engagement rate"],
+      "source": "SMM_Research_Document_2_Content_Strategy_Multi_Platform"
+    },
+    {
+      "object_id": "OBJ-SMM-012",
+      "object_name": "Twitter Thread",
+      "full_name": "Twitter/X Educational Thread Series",
+      "type": "Text Content Series",
+      "format": "Multi-tweet thread",
+      "description": "Educational thread series with numbered tweets providing valuable insights, tutorials, or commentary",
+      "typical_size": "5-15 tweets per thread",
+      "created_with": ["TOOL-SMM-006"],
+      "tool_details": {
+        "TOOL-SMM-006": "Twitter/X - Threading feature"
+      },
+      "used_by_professions": ["Marketer", "Developer", "Designer"],
+      "created_in_workflows": ["WF-SMM-011", "WF-SMM-001"],
+      "workflow_context": {
+        "WF-SMM-011": "Step 1 - Post educational threads (30% of content)",
+        "WF-SMM-001": "Step 4 - Develop quick tips for Twitter"
+      },
+      "related_actions": ["write", "post", "share"],
+      "content_types": [
+        "Educational breakdown threads",
+        "Industry insights",
+        "Tutorial series",
+        "Commentary and analysis"
+      ],
+      "use_cases": [
+        "Thought leadership",
+        "Quick education",
+        "Audience engagement",
+        "Viral potential"
+      ],
+      "best_practices": [
+        "Use thread numbering (1/7, 2/7, etc.)",
+        "Hook on first tweet",
+        "1-3 hashtags per thread (not excessive)",
+        "Include images/videos for engagement",
+        "Post across multiple timezones"
+      ],
+      "performance_metrics": ["Engagement rate", "Retweets", "Likes", "Profile visits"],
+      "source": "SMM_Research_Document_2_Content_Strategy_Multi_Platform"
+    },
+    {
+      "object_id": "OBJ-SMM-013",
+      "object_name": "Facebook Group Post",
+      "full_name": "Facebook Group Community Post",
+      "type": "Community Content",
+      "format": "Text with optional media",
+      "description": "Value-first community content posted to Facebook Groups for engagement, tips, and discussion",
+      "typical_size": "Variable",
+      "created_with": ["TOOL-SMM-004"],
+      "tool_details": {
+        "TOOL-SMM-004": "Facebook - Groups feature"
+      },
+      "used_by_professions": ["Marketer", "Content_Creator", "SMM_Specialist", "Community_Manager"],
+      "created_in_workflows": ["WF-SMM-010", "WF-SMM-001"],
+      "workflow_context": {
+        "WF-SMM-010": "Step 2 - Share value content daily",
+        "WF-SMM-001": "Step 5 - Build community discussions"
+      },
+      "related_actions": ["post", "share", "engage", "moderate"],
+      "content_types": [
+        "Daily tips and resources",
+        "Discussion questions",
+        "Member highlights",
+        "Community challenges"
+      ],
+      "use_cases": [
+        "Community building",
+        "Member engagement",
+        "Value delivery",
+        "Lead nurturing"
+      ],
+      "best_practices": [
+        "Post daily value content",
+        "Welcome new members personally",
+        "Native video uploads perform better",
+        "Respond within 4 hours",
+        "Foster member-to-member connections"
+      ],
+      "performance_metrics": ["Member engagement", "Comments", "Reactions", "Shares"],
+      "source": "SMM_Research_Document_2_Content_Strategy_Multi_Platform"
+    },
+    {
+      "object_id": "OBJ-SMM-014",
+      "object_name": "Pinterest Infographic",
+      "full_name": "Pinterest Long-Form Vertical Infographic",
+      "type": "Visual Content",
+      "format": "Vertical image (2:3)",
+      "description": "Long-form vertical infographics (1000×1500px) designed for Pinterest with comprehensive guides, checklists, or tutorials",
+      "typical_size": "Single image",
+      "resolution": "1000×1500px",
+      "aspect_ratio": "2:3 (vertical)",
+      "created_with": ["TOOL-SMM-005"],
+      "tool_details": {
+        "TOOL-SMM-005": "Pinterest - Pin format"
+      },
+      "used_by_professions": ["Designer", "Marketer", "Content_Creator"],
+      "created_in_workflows": ["WF-SMM-012", "WF-SMM-001", "WF-SMM-002"],
+      "workflow_context": {
+        "WF-SMM-012": "Step 1 - Design vertical infographics for long-term discovery",
+        "WF-SMM-001": "Step 3 - Create visual summaries",
+        "WF-SMM-002": "Step 3 - Create visual assets"
+      },
+      "related_actions": ["design", "create", "post", "curate"],
+      "content_types": [
+        "Complete checklists",
+        "Typography pairing guides",
+        "Design tutorials",
+        "Resource compilations"
+      ],
+      "use_cases": [
+        "Evergreen content marketing",
+        "Long-term organic traffic",
+        "Visual resource library",
+        "SEO discovery"
+      ],
+      "best_practices": [
+        "1000×1500px vertical format",
+        "Text overlay required for context",
+        "Keyword-rich titles and descriptions",
+        "Pin to curated boards by topic",
+        "5-10 pins per week"
+      ],
+      "performance_metrics": ["Impressions", "Saves", "Outbound clicks", "Long-term traffic"],
+      "source": "SMM_Research_Document_2_Content_Strategy_Multi_Platform"
+    }
+  ]
+}

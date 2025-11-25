@@ -1,0 +1,486 @@
+[
+    {
+        "profession": "HR/Recruiter",
+        "department": "managers",
+        "object_types": [
+            {
+                "object": "candidates",
+                "types": [
+                    "needed",
+                    "applied",
+                    "found",
+                    "follow-up",
+                    "interviewed",
+                    "offered",
+                    "hired"
+                ],
+                "descriptions": {
+                    "needed": "Required positions to fill",
+                    "applied": "Submitted applications",
+                    "found": "Sourced/identified prospects",
+                    "follow-up": "In active communication",
+                    "interviewed": "Completed interview stage",
+                    "offered": "Extended job offer",
+                    "hired": "Successfully onboarded"
+                }
+            },
+            {
+                "object": "communications",
+                "types": [
+                    "first connection",
+                    "update",
+                    "follow-up",
+                    "feedback"
+                ],
+                "descriptions": {
+                    "first connection": "Initial outreach",
+                    "update": "Status or progress communication",
+                    "follow-up": "Subsequent touchpoint",
+                    "feedback": "Interview or application feedback"
+                }
+            },
+            {
+                "object": "contracts",
+                "types": [
+                    "employee contracts",
+                    "presale contract",
+                    "NDA"
+                ],
+                "descriptions": {
+                    "employee contracts": "Employment agreements",
+                    "presale contract": "Pre-employment agreements",
+                    "NDA": "Non-disclosure agreements"
+                }
+            },
+            {
+                "object": "interviews",
+                "types": [
+                    "video interview",
+                    "project interview",
+                    "cultural fit"
+                ],
+                "descriptions": {
+                    "video interview": "Remote screening",
+                    "project interview": "Technical/practical assessment",
+                    "cultural fit": "Team alignment interview"
+                }
+            }
+        ]
+    },
+    {
+        "profession": "Lead Generator",
+        "department": "managers",
+        "object_types": [
+            {
+                "object": "accounts",
+                "types": [
+                    "new",
+                    "in work",
+                    "sold",
+                    "banned",
+                    "free"
+                ],
+                "descriptions": {
+                    "new": "Recently created accounts",
+                    "in work": "Active outreach/nurturing",
+                    "sold": "Converted to client",
+                    "banned": "Blocked/restricted",
+                    "free": "Trial or free tier"
+                }
+            },
+            {
+                "object": "companies",
+                "types": [
+                    "lead",
+                    "interested",
+                    "client",
+                    "updated",
+                    "not relevant"
+                ],
+                "descriptions": {
+                    "lead": "Potential client",
+                    "interested": "Engaged prospect",
+                    "client": "Active customer",
+                    "updated": "Recently modified",
+                    "not relevant": "Disqualified"
+                }
+            },
+            {
+                "object": "leads",
+                "types": [
+                    "cold",
+                    "new",
+                    "active",
+                    "client",
+                    "updated"
+                ],
+                "descriptions": {
+                    "cold": "No prior contact",
+                    "new": "Recently identified",
+                    "active": "In conversation",
+                    "client": "Converted",
+                    "updated": "Information refreshed"
+                }
+            },
+            {
+                "object": "messages",
+                "types": [
+                    "connection",
+                    "cold",
+                    "follow-up",
+                    "presentation"
+                ],
+                "descriptions": {
+                    "connection": "Initial LinkedIn/platform connection",
+                    "cold": "First outreach",
+                    "follow-up": "Subsequent message",
+                    "presentation": "Product/service pitch"
+                }
+            }
+        ]
+    },
+    {
+        "profession": "Developer",
+        "department": "developers",
+        "object_types": [
+            {
+                "object": "APIs",
+                "types": [
+                    "internal",
+                    "external",
+                    "public",
+                    "private",
+                    "REST",
+                    "GraphQL"
+                ],
+                "descriptions": {
+                    "internal": "For internal systems only",
+                    "external": "Third-party integrations",
+                    "public": "Publicly accessible",
+                    "private": "Authenticated access required",
+                    "REST": "RESTful architecture",
+                    "GraphQL": "GraphQL query language"
+                }
+            },
+            {
+                "object": "databases",
+                "types": [
+                    "SQL",
+                    "NoSQL",
+                    "graph",
+                    "time-series"
+                ],
+                "descriptions": {
+                    "SQL": "Relational databases (PostgreSQL, MySQL)",
+                    "NoSQL": "Document/key-value stores (MongoDB)",
+                    "graph": "Graph databases (Neo4j)",
+                    "time-series": "Time-series databases"
+                }
+            },
+            {
+                "object": "modules",
+                "types": [
+                    "utility",
+                    "feature",
+                    "core",
+                    "integration"
+                ],
+                "descriptions": {
+                    "utility": "Helper/support functions",
+                    "feature": "User-facing functionality",
+                    "core": "Essential system components",
+                    "integration": "Third-party connectors"
+                }
+            },
+            {
+                "object": "code",
+                "types": [
+                    "frontend",
+                    "backend",
+                    "shared",
+                    "test"
+                ],
+                "descriptions": {
+                    "frontend": "Client-side code",
+                    "backend": "Server-side code",
+                    "shared": "Common/library code",
+                    "test": "Testing code"
+                }
+            }
+        ]
+    },
+    {
+        "profession": "Designer",
+        "department": "designers",
+        "object_types": [
+            {
+                "object": "mockups",
+                "types": [
+                    "website",
+                    "app",
+                    "advertising",
+                    "email"
+                ],
+                "descriptions": {
+                    "website": "Web interface designs",
+                    "app": "Mobile/desktop application designs",
+                    "advertising": "Ad creative mockups",
+                    "email": "Email template designs"
+                }
+            },
+            {
+                "object": "logos",
+                "types": [
+                    "wordmark",
+                    "lettermark",
+                    "pictorial",
+                    "abstract",
+                    "combination"
+                ],
+                "descriptions": {
+                    "wordmark": "Text-based logo",
+                    "lettermark": "Initial/letter-based",
+                    "pictorial": "Icon/symbol-based",
+                    "abstract": "Abstract mark",
+                    "combination": "Text + symbol"
+                }
+            },
+            {
+                "object": "illustrations",
+                "types": [
+                    "flat",
+                    "isometric",
+                    "vector",
+                    "character",
+                    "3D"
+                ],
+                "descriptions": {
+                    "flat": "Flat design style",
+                    "isometric": "Isometric perspective",
+                    "vector": "Vector-based artwork",
+                    "character": "Character illustrations",
+                    "3D": "Three-dimensional renders"
+                }
+            },
+            {
+                "object": "UI Components",
+                "types": [
+                    "button",
+                    "form",
+                    "card",
+                    "modal",
+                    "navigation"
+                ],
+                "descriptions": {
+                    "button": "Interactive buttons",
+                    "form": "Input forms",
+                    "card": "Content cards",
+                    "modal": "Popup/overlay dialogs",
+                    "navigation": "Menu/nav elements"
+                }
+            }
+        ]
+    },
+    {
+        "profession": "Video Editor",
+        "department": "videographers",
+        "object_types": [
+            {
+                "object": "videos",
+                "types": [
+                    "raw footage",
+                    "draft",
+                    "final",
+                    "short-form",
+                    "long-form"
+                ],
+                "descriptions": {
+                    "raw footage": "Unedited recordings",
+                    "draft": "Work-in-progress edit",
+                    "final": "Completed video",
+                    "short-form": "<60 seconds (TikTok, Reels)",
+                    "long-form": ">3 minutes (YouTube)"
+                }
+            },
+            {
+                "object": "assets",
+                "types": [
+                    "stock footage",
+                    "b-roll",
+                    "sound effects",
+                    "music",
+                    "voiceover"
+                ],
+                "descriptions": {
+                    "stock footage": "Licensed video clips",
+                    "b-roll": "Supplemental footage",
+                    "sound effects": "Audio FX",
+                    "music": "Background tracks",
+                    "voiceover": "Narration audio"
+                }
+            }
+        ]
+    },
+    {
+        "profession": "Marketer",
+        "department": "marketers",
+        "object_types": [
+            {
+                "object": "ad campaigns",
+                "types": [
+                    "PPC",
+                    "display",
+                    "video",
+                    "retargeting",
+                    "search",
+                    "social"
+                ],
+                "descriptions": {
+                    "PPC": "Pay-per-click advertising (Google Ads, Meta Ads)",
+                    "display": "Banner and display ads",
+                    "video": "Video advertising campaigns",
+                    "retargeting": "Remarketing campaigns",
+                    "search": "Search engine advertising",
+                    "social": "Social media advertising"
+                }
+            },
+            {
+                "object": "content",
+                "types": [
+                    "blog post",
+                    "email copy",
+                    "ad copy",
+                    "social copy",
+                    "landing page copy",
+                    "video script"
+                ],
+                "descriptions": {
+                    "blog post": "Blog article content",
+                    "email copy": "Email marketing content",
+                    "ad copy": "Advertisement text",
+                    "social copy": "Social media posts",
+                    "landing page copy": "Conversion-focused content",
+                    "video script": "Video content scripts"
+                }
+            },
+            {
+                "object": "keywords",
+                "types": [
+                    "target",
+                    "long-tail",
+                    "competitor",
+                    "branded",
+                    "local"
+                ],
+                "descriptions": {
+                    "target": "Primary target keywords",
+                    "long-tail": "Long-tail keyword phrases",
+                    "competitor": "Competitor keywords",
+                    "branded": "Brand-specific keywords",
+                    "local": "Location-based keywords"
+                }
+            },
+            {
+                "object": "analytics",
+                "types": [
+                    "traffic report",
+                    "conversion report",
+                    "SEO report",
+                    "ad performance",
+                    "social metrics"
+                ],
+                "descriptions": {
+                    "traffic report": "Website traffic analysis",
+                    "conversion report": "Conversion tracking data",
+                    "SEO report": "Search ranking performance",
+                    "ad performance": "Advertising metrics",
+                    "social metrics": "Social media analytics"
+                }
+            },
+            {
+                "object": "SEO Objects",
+                "types": [
+                    "backlinks",
+                    "meta tags",
+                    "sitemap",
+                    "schema markup",
+                    "robots.txt"
+                ],
+                "descriptions": {
+                    "backlinks": "External links to website",
+                    "meta tags": "SEO metadata",
+                    "sitemap": "Website structure map",
+                    "schema markup": "Structured data",
+                    "robots.txt": "Crawler instructions"
+                }
+            },
+            {
+                "object": "social media",
+                "types": [
+                    "post",
+                    "story",
+                    "reel",
+                    "carousel",
+                    "engagement"
+                ],
+                "descriptions": {
+                    "post": "Regular social media update",
+                    "story": "Short-lived content (Instagram/Facebook Stories)",
+                    "reel": "Short video content",
+                    "carousel": "Multi-image posts",
+                    "engagement": "Comments, likes, shares tracking"
+                }
+            }
+        ]
+    },
+    {
+        "profession": "AI Engineer",
+        "department": "developers",
+        "object_types": [
+            {
+                "object": "models",
+                "types": [
+                    "language model",
+                    "vision model",
+                    "embedding model",
+                    "fine-tuned"
+                ],
+                "descriptions": {
+                    "language model": "LLM (GPT, Claude, Gemini)",
+                    "vision model": "Image processing",
+                    "embedding model": "Vector embeddings",
+                    "fine-tuned": "Customized models"
+                }
+            },
+            {
+                "object": "prompts",
+                "types": [
+                    "system prompt",
+                    "user prompt",
+                    "few-shot"
+                ],
+                "descriptions": {
+                    "system prompt": "Context/instructions",
+                    "user prompt": "User input templates",
+                    "few-shot": "Example-based prompts"
+                }
+            },
+            {
+                "object": "training data",
+                "types": [
+                    "raw",
+                    "cleaned",
+                    "labeled",
+                    "synthetic"
+                ],
+                "descriptions": {
+                    "raw": "Unprocessed data",
+                    "cleaned": "Processed/validated",
+                    "labeled": "Annotated for training",
+                    "synthetic": "AI-generated data"
+                }
+            }
+        ]
+    }
+]
+

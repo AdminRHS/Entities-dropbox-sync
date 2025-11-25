@@ -1,0 +1,795 @@
+{
+  "entity_type": "DEPARTMENTS",
+  "sub_entity": "PROMPTS",
+  "domain": "Knowledge Base",
+  "purpose": "Master catalog of all AI prompts and custom instructions for taxonomy workflows",
+  "created": "2025-11-12",
+  "last_updated": "2025-11-17",
+  "version": "1.5",
+  "total_prompts": 13,
+  "total_categories": 6,
+  "total_size_kb": 205,
+  "migration_info": {
+    "migration_date": "2025-11-15",
+    "previous_location": "Entities/LIBRARIES/Prompts/",
+    "current_location": "Entities/LIBRARIES/DEPARTMENTS/PROMPTS/",
+    "reason": "Architectural reorganization - moving to department-shared resources for better alignment with taxonomy structure",
+    "archive_location": "Entities/LIBRARIES/DEPARTMENTS/Archive/Prompts_Archive/"
+  },
+
+  "categories": [
+    {
+      "category_id": "CAT-VT",
+      "category_name": "Video_Transcription",
+      "purpose": "Process videos to extract taxonomy-relevant content (Phases 1-4)",
+      "total_prompts": 4,
+      "workflow_phases": ["Phase 1", "Phase 2", "Phase 3", "Phase 4"],
+      "primary_outputs": ["Video transcriptions", "Professional titles", "Taxonomy inventories", "Object catalogs"]
+    },
+    {
+      "category_id": "CAT-TI",
+      "category_name": "Taxonomy_Integration",
+      "purpose": "Complete taxonomy gap analysis and entity updates (Phases 5-7)",
+      "total_prompts": 1,
+      "workflow_phases": ["Phase 5", "Phase 6", "Phase 7"],
+      "primary_outputs": ["Gap analysis reports", "Updated entity files", "Mapping reports"]
+    },
+    {
+      "category_id": "CAT-LP",
+      "category_name": "Library_Processing",
+      "purpose": "Specialized prompts for individual LIBRARIES maintenance",
+      "total_prompts": 2,
+      "workflow_phases": ["Ad-hoc"],
+      "primary_outputs": ["Tool validations", "Product optimizations"]
+    },
+    {
+      "category_id": "CAT-RE",
+      "category_name": "Research",
+      "purpose": "Prompts for external research, launch tracking, and intelligence gathering",
+      "total_prompts": 1,
+      "workflow_phases": ["Ad-hoc"],
+      "primary_outputs": ["Research briefs", "Taxonomy-ready insights"]
+    },
+    {
+      "category_id": "CAT-HR",
+      "category_name": "HR_Operations",
+      "purpose": "Prompts for HR recruitment workflow automation and candidate management",
+      "total_prompts": 4,
+      "workflow_phases": ["Candidate Search", "Pre-Screening", "CRM Entry", "Interview", "Contract", "Onboarding"],
+      "primary_outputs": ["Professional communications", "Parsed resume data", "Interview evaluations", "Contract documents", "Onboarding materials"]
+    },
+    {
+      "category_id": "CAT-OW",
+      "category_name": "Operational_Workflows",
+      "purpose": "Cross-functional workflow prompts for project management and documentation",
+      "total_prompts": 1,
+      "workflow_phases": ["Project Planning", "Documentation", "Reporting"],
+      "primary_outputs": ["Completion reports", "Project documentation", "Milestone reports"]
+    }
+  ],
+
+  "prompts": [
+    {
+      "prompt_id": "PRM-VT-001",
+      "name": "Video Transcription Custom Instructions",
+      "file_path": "Video_Transcription/Video_Transcription_Custom_Instructions.md",
+      "category": "Video_Transcription",
+      "workflow_phase": "Phase 1",
+      "version": "2.0",
+      "date_updated": "2025-11-11",
+      "status": "Active",
+      "size_kb": 11.8,
+      "complexity": "Medium",
+      "purpose": "System instructions for AI transcription with taxonomy focus",
+      "description": "Core transcription methodology with structured extraction format. Identifies workflows, actions, tools, objects, task chains, and responsibilities vocabulary from video content.",
+      "key_sections": [
+        "Metadata extraction",
+        "Word-for-word transcription with timestamps",
+        "Workflow identification guidelines",
+        "Action verb categorization (5 categories)",
+        "Task chain mapping",
+        "Responsibilities vocabulary extraction",
+        "Tools & technologies matrix",
+        "Integration patterns"
+      ],
+      "use_when": "Creating initial video transcription from audio/video content",
+      "input": "Video audio/captions",
+      "output": "Video_XXX.md with structured transcription and taxonomy extraction",
+      "prerequisites": [],
+      "dependencies": [],
+      "related_prompts": ["PRM-VT-002", "PRM-VT-003", "PRM-VT-004"],
+      "cross_references": {
+        "actions": "Extracts action verbs for Responsibilities/Responsibilities/Responsibilities/Actions library",
+        "objects": "Identifies deliverables for Responsibilities/Responsibilities/Responsibilities/Objects library",
+        "tools": "Catalogs mentioned tools for Tools library",
+        "processes": "Documents workflows for Processes library",
+        "professions": "Extracts roles for Professions library",
+        "responsibilities": "Identifies activity phrases for Responsibilities library"
+      }
+    },
+    {
+      "prompt_id": "PRM-VT-002",
+      "name": "Video Naming Business Alternatives",
+      "file_path": "Video_Transcription/Video_Naming_Business_Alternatives_Prompt.md",
+      "category": "Video_Transcription",
+      "workflow_phase": "Phase 2",
+      "version": "1.0",
+      "date_updated": "2025-11-12",
+      "status": "Active",
+      "size_kb": 25,
+      "complexity": "Low",
+      "purpose": "Convert casual/clickbait video titles to professional, taxonomy-friendly alternatives",
+      "description": "Provides naming principles (descriptive, specific, professional), 5 naming formula templates, conversion process from casual to business, real examples, and quality validation checklist.",
+      "key_sections": [
+        "Naming principles",
+        "5 naming formula templates",
+        "Conversion process (casual → business)",
+        "Real examples from Video_001",
+        "Quality validation checklist"
+      ],
+      "use_when": "Documenting videos in library catalogs, creating professional file names",
+      "input": "Casual/clickbait video title",
+      "output": "Professional title suitable for business documentation and taxonomy listings",
+      "prerequisites": [],
+      "dependencies": [],
+      "related_prompts": ["PRM-VT-001", "PRM-VT-003"],
+      "cross_references": {
+        "transcribations": "Professional titles used in Video_XXX.md files",
+        "products": "Naming conventions align with Products library standards"
+      }
+    },
+    {
+      "prompt_id": "PRM-VT-003",
+      "name": "Video Analysis Prompt",
+      "file_path": "Video_Transcription/Video_Analysis_Prompt.md",
+      "category": "Video_Transcription",
+      "workflow_phase": "Phase 3",
+      "version": "1.0",
+      "date_updated": "2025-11-12",
+      "status": "Active",
+      "size_kb": 37,
+      "complexity": "Medium-High",
+      "purpose": "Step-by-step guide for analyzing transcriptions and extracting taxonomy elements",
+      "description": "Tool extraction methodology, workflow extraction with structured format, action verb categorization (5 categories), task chain identification, responsibilities vocabulary extraction, integration pattern documentation, with real examples from Video_001.",
+      "key_sections": [
+        "Tool extraction methodology",
+        "Workflow extraction with structured format",
+        "Action verb categorization (Creation, Modification, Analysis, Organization, Communication)",
+        "Task chain identification",
+        "Responsibilities vocabulary extraction",
+        "Integration pattern documentation",
+        "Real examples from Video_001 (GLIF, workflows, thumbnails)"
+      ],
+      "use_when": "Performing initial pass on video transcription to identify all taxonomy elements",
+      "input": "Video transcription (Video_XXX.md)",
+      "output": "Structured inventory of tools, workflows, actions, task chains, responsibilities",
+      "prerequisites": ["PRM-VT-001"],
+      "dependencies": ["Video_XXX.md must exist"],
+      "related_prompts": ["PRM-VT-001", "PRM-VT-004", "PRM-TI-001"],
+      "cross_references": {
+        "tools": "Extracts tools for Tools library",
+        "actions": "Categorizes action verbs for Responsibilities/Responsibilities/Responsibilities/Actions library",
+        "processes": "Documents workflows for Processes library",
+        "professions": "Identifies roles for Professions library",
+        "objects": "Preliminary object identification for Responsibilities/Objects (detailed in PRM-VT-004)"
+      }
+    },
+    {
+      "prompt_id": "PRM-VT-004",
+      "name": "Objects Library Extraction Prompt",
+      "file_path": "Video_Transcription/Objects_Library_Extraction_Prompt.md",
+      "category": "Video_Transcription",
+      "workflow_phase": "Phase 4",
+      "version": "1.0",
+      "date_updated": "2025-11-12",
+      "status": "Active",
+      "size_kb": 35,
+      "complexity": "High",
+      "purpose": "Systematic extraction of deliverables, outputs, and tangible items with cross-referencing",
+      "description": "Deep-dive on objects in taxonomy (definition, structure, categories), object identification process, object type extraction from context, cross-referencing methodology (Object ↔ Tools, Actions, Workflows, Professions), creating object entries with real examples from Video_001.",
+      "key_sections": [
+        "Understanding Objects in taxonomy",
+        "Object identification process (scanning, marking, categorizing)",
+        "Object type extraction from context",
+        "Cross-referencing methodology (Object ↔ Tools, Actions, Workflows, Professions)",
+        "Creating object entries in Design_Deliverables.json, Documents.json, Media_Objects.json",
+        "Real examples from Video_001 (thumbnails, videos, scripts, voiceovers)",
+        "Quality assurance checklist"
+      ],
+      "use_when": "Deep-dive on extracting deliverables and outputs mentioned in video",
+      "input": "Video transcription (Video_XXX.md) and Phase 3 analysis results",
+      "output": "Complete object inventory with types, tools, professions, workflows, cross-references",
+      "prerequisites": ["PRM-VT-001", "PRM-VT-003"],
+      "dependencies": ["Video_XXX.md", "Phase 3 analysis results"],
+      "related_prompts": ["PRM-VT-003", "PRM-TI-001"],
+      "cross_references": {
+        "objects": "Creates entries for Responsibilities/Responsibilities/Responsibilities/Objects library (primary focus)",
+        "tools": "Links objects to tools used to create them",
+        "professions": "Links objects to professions that work with them",
+        "processes": "Links objects to workflows/processes that produce them",
+        "actions": "Links objects to actions performed on them from Responsibilities/Actions",
+        "responsibilities": "Derives action+object pairings for Responsibilities library"
+      }
+    },
+    {
+      "prompt_id": "PRM-TI-001",
+      "name": "Taxonomy Analysis and Updates Prompt",
+      "file_path": "Taxonomy_Integration/Taxonomy_Analysis_and_Updates_Prompt.md",
+      "category": "Taxonomy_Integration",
+      "workflow_phase": "Phases 5-7",
+      "version": "1.0",
+      "date_updated": "2025-11-12",
+      "status": "Active",
+      "size_kb": 58,
+      "complexity": "Very High",
+      "purpose": "Complete end-to-end workflow for video transcription to full taxonomy integration",
+      "description": "THE MASTER PROMPT. Covers Phase 1: Initial Video Analysis, Phase 2: Gap Analysis, Phase 3: Creation and Updates, Phase 4: Cross-Referencing, Phase 5: Reporting. Includes templates for all JSON file types (tools, objects, workflows, professions), real examples with complete JSON structures, and comprehensive quality assurance checklist.",
+      "key_sections": [
+        "Phase 1: Initial Video Analysis (tools, objects, actions, processes, professions, skills)",
+        "Phase 2: Gap Analysis (checking existing taxonomy, calculating coverage metrics)",
+        "Phase 3: Creation and Updates (creating tool files, object entries, action updates, process entries)",
+        "Phase 4: Cross-Referencing (bidirectional links across all entities)",
+        "Phase 5: Reporting (comprehensive mapping report generation)",
+        "JSON templates for all 11 LIBRARIES entity types",
+        "Real examples with complete JSON structures",
+        "Quality assurance checklist",
+        "Cross-reference matrix",
+        "Validation procedures"
+      ],
+      "use_when": "Performing complete taxonomy integration after initial video analysis (Phases 1-4)",
+      "input": "Phase 1-4 outputs (transcription, analysis, object inventory)",
+      "output": "New/updated JSON files across all LIBRARIES, bidirectional cross-references, comprehensive Video_XXX_Library_Mapping_Report.md",
+      "prerequisites": ["PRM-VT-001", "PRM-VT-003", "PRM-VT-004"],
+      "dependencies": ["Video_XXX.md", "Phase 3-4 analysis results", "Existing LIBRARIES structure"],
+      "related_prompts": ["PRM-VT-001", "PRM-VT-003", "PRM-VT-004"],
+      "cross_references": {
+        "actions": "Creates/updates Responsibilities/Actions/Actions_Master.json",
+        "processes": "Creates/updates Processes_Master.json",
+        "results": "Creates/updates Results_Master.json",
+        "objects": "Creates/updates Responsibilities/Objects/Design_Deliverables.json, Documents.json, etc.",
+        "tools": "Creates individual tool JSON files in Tools/AI_Tools/",
+        "skills": "Creates/updates skills_library.json",
+        "professions": "Creates/updates professions.json",
+        "responsibilities": "Creates/updates Responsibilities/Core/responsibilities_master.json",
+        "products": "Creates/updates Products_Master.json (if relevant)",
+        "services": "Updates service category files (if relevant)",
+        "parameters": "Documents Responsibilities/Parameters configuration",
+        "transcribations": "Generates Video_XXX_Library_Mapping_Report.md"
+      }
+    },
+    {
+      "prompt_id": "PRM-LP-001",
+      "name": "Tools Collection and Matching Prompt",
+      "file_path": "Library_Processing/Tools_Collection_and_Matching_Prompt.md",
+      "category": "Library_Processing",
+      "workflow_phase": "Ad-hoc",
+      "version": "1.0",
+      "date_updated": "2025-11-10",
+      "status": "Active",
+      "size_kb": null,
+      "complexity": "Medium-High",
+      "purpose": "Tool discovery and validation methodology for maintaining Tools library",
+      "description": "Collect, validate, and match all tools mentioned across the taxonomy framework. Identify new tools, validate recently discovered tools, and enrich existing tool entries with usage context from multiple sources (TASK_MANAGERS, videos, documentation).",
+      "key_sections": [
+        "Current tool library overview",
+        "Source directories (TASK_MANAGERS, videos, docs)",
+        "Tool discovery methodology",
+        "Validation procedures",
+        "Enrichment strategies",
+        "Cross-referencing with tasks, professions, workflows"
+      ],
+      "use_when": "Processing tool discoveries from tasks, videos, documentation; maintaining Tools library",
+      "input": "Tool mentions from TASK_MANAGERS analysis, video transcriptions, or other sources",
+      "output": "Validated and enriched tool JSON files in Tools/AI_Tools/",
+      "prerequisites": [],
+      "dependencies": ["Tools library structure"],
+      "related_prompts": ["PRM-TI-001", "PRM-VT-003"],
+      "cross_references": {
+        "tools": "Primary focus - creates and updates Tools library",
+        "professions": "Links tools to professions that use them",
+        "skills": "Links tools to skills required to use them",
+        "processes": "Links tools to workflows they support",
+        "products": "Links tools to products delivered using them"
+      }
+    },
+    {
+      "prompt_id": "PRM-LP-002",
+      "name": "Products Integration Prompt",
+      "file_path": "Library_Processing/Products_Integration_Prompt.md",
+      "category": "Library_Processing",
+      "workflow_phase": "Ad-hoc",
+      "version": "1.0",
+      "date_updated": "2025-11-12",
+      "status": "Active",
+      "size_kb": null,
+      "complexity": "Medium-High",
+      "purpose": "Process raw product lists with AI-first tool substitution principles",
+      "description": "Guide for processing raw product lists, optimizing with AI-first tool substitutions, and integrating with taxonomy libraries. Includes AI-first compliance validation, cross-referencing with tools/skills/professions, and product optimization methodology.",
+      "key_sections": [
+        "AI-first tool substitution principles",
+        "Processing raw product lists",
+        "Optimization methodology",
+        "Cross-referencing with LIBRARIES entities",
+        "Real examples from 39 products",
+        "Quality validation",
+        "AI automation level scoring"
+      ],
+      "use_when": "Adding new products, optimizing existing products, ensuring AI-first compliance",
+      "input": "Raw product lists (ID, name, description, hours, price)",
+      "output": "Structured JSON with AI-first focus, cross-references to tools/skills/professions/services",
+      "prerequisites": [],
+      "dependencies": ["Products library structure", "Tools library", "Skills library", "Services library"],
+      "related_prompts": ["PRM-LP-001", "PRM-TI-001"],
+      "cross_references": {
+        "products": "Primary focus - creates and updates Products library",
+        "services": "Organizes products into service categories",
+        "tools": "Links products to AI tools used in delivery",
+        "skills": "Links products to capabilities required",
+        "professions": "Links products to who delivers them",
+        "responsibilities": "Derives task-level breakdowns from products",
+        "objects": "Links products to deliverables created"
+      }
+    },
+    {
+      "prompt_id": "PRM-RE-001",
+      "name": "VS Code Agent HQ Announcement Research Prompt",
+      "file_path": "Research/VSCode_Agent_HQ_Research_Prompt.md",
+      "category": "Research",
+      "workflow_phase": "Ad-hoc",
+      "version": "1.0",
+      "date_updated": "2025-11-14",
+      "status": "Active",
+      "size_kb": 12,
+      "complexity": "Medium",
+      "purpose": "Direct external AI researchers to capture same-day VS Code Agent HQ launch details in a taxonomy-ready format",
+      "description": "Provides Remote Helpers context, scope, required metadata, research workflow, output template, adoption playbook expectations, and quality checklist for investigating the new Agent HQ experience inside VS Code.",
+      "key_sections": [
+        "Usage triggers and research question",
+        "Remote Helpers taxonomy context",
+        "Scope & deliverables",
+        "Research workflow instructions",
+        "Structured output requirements",
+        "Reporting standards & formatting rules",
+        "Quality checklist",
+        "Version history"
+      ],
+      "use_when": "A VS Code / Agent HQ feature is announced and we need immediate research for LIBRARIES updates",
+      "input": "Announcement description or link plus research date",
+      "output": "Markdown research brief covering summary, snapshot table, capability breakdown, workflows, adoption steps, risks, and citations",
+      "prerequisites": [],
+      "dependencies": ["Researches/README.md", "AI_DEEP_RESEARCH_PROMPT.md"],
+      "related_prompts": [],
+      "cross_references": {
+        "researches": "Feeds structured findings into LIBRARIES/Researches entries",
+        "tools": "Identifies VS Code / Agent HQ tooling updates",
+        "processes": "Generates workflows for Processes library",
+        "task_managers": "Supplies adoption tasks and checklists",
+        "skills": "Highlights new skills/responsibilities tied to Agent HQ"
+      }
+    },
+    {
+      "prompt_id": "PRM-HR-001",
+      "name": "CV Parser v1",
+      "file_path": "HR_Operations/CV_Parser_v1.md",
+      "category": "HR_Operations",
+      "workflow_phase": "CRM Entry",
+      "version": "1.0",
+      "date_updated": "2025-11-14",
+      "status": "Active",
+      "size_kb": 2,
+      "complexity": "Medium",
+      "purpose": "Extract 21 fields from candidate resumes in TSV format for CRM entry",
+      "description": "AI prompt for parsing candidate resumes and extracting standardized fields in tab-separated values format. Includes strict formatting rules, department/profession matching against allowed lists, and portfolio extraction. Saves 15-20 minutes per candidate.",
+      "key_sections": [
+        "21-field extraction order",
+        "Strict extraction and formatting rules",
+        "Department and profession allowed lists",
+        "Portfolio and contact information extraction",
+        "TSV output requirements"
+      ],
+      "use_when": "Processing new candidate resumes for CRM entry",
+      "input": "Candidate resume (PDF or text)",
+      "output": "Single-line TSV string with 21 fields",
+      "prerequisites": [],
+      "dependencies": ["Google Sheets buffer"],
+      "related_prompts": ["PRM-HR-003"],
+      "cross_references": {
+        "objects": "Extracts data for Resume, TSV_Data, Candidate_Card objects in Responsibilities/Objects",
+        "actions": "Parse, Extract actions from Responsibilities/Actions",
+        "tools": "ChatGPT, Gemini, Claude tools",
+        "professions": "Matches against 42 allowed professions across 6 departments",
+        "task_managers": "Feeds into TASK-TEMPLATE-HR-006"
+      }
+    },
+    {
+      "prompt_id": "PRM-HR-002",
+      "name": "Communication Templates Prompt",
+      "file_path": "HR_Operations/Communication_Templates_Prompt.md",
+      "category": "HR_Operations",
+      "workflow_phase": "Pre-Screening",
+      "version": "1.0",
+      "date_updated": "2025-11-14",
+      "status": "Active",
+      "size_kb": 12,
+      "complexity": "Medium",
+      "purpose": "Guide professional candidate communication with standardized templates",
+      "description": "Comprehensive communication guide for HR managers including initial contact templates, company introduction, 5 mandatory pre-screening questions, 6 rejection scenarios, 4 special situations, and ideal candidate profile criteria. Ensures professional tone and clear next steps in all communications.",
+      "key_sections": [
+        "Communication style guidelines",
+        "Initial contact template (English)",
+        "Company introduction template",
+        "6 rejection templates",
+        "4 special situation handlers",
+        "5 mandatory pre-screening questions",
+        "Ideal candidate profile",
+        "Quality checklist"
+      ],
+      "use_when": "Communicating with candidates at any stage of recruitment",
+      "input": "Communication scenario and candidate context",
+      "output": "Professional message following brand guidelines",
+      "prerequisites": [],
+      "dependencies": [],
+      "related_prompts": ["PRM-HR-003", "PRM-HR-004"],
+      "cross_references": {
+        "objects": "Creates Email, Initial_Contact_Message, Rejection_Letter, Company_Introduction objects in Responsibilities/Objects",
+        "actions": "Send, Respond, Pre-Screen, Reject, Invite actions from Responsibilities/Actions",
+        "task_managers": "Feeds into TASK-TEMPLATE-HR-002, TASK-TEMPLATE-HR-003, TASK-TEMPLATE-HR-016"
+      }
+    },
+    {
+      "prompt_id": "PRM-HR-003",
+      "name": "CRM Data Entry Prompt",
+      "file_path": "HR_Operations/CRM_Data_Entry_Prompt.md",
+      "category": "HR_Operations",
+      "workflow_phase": "CRM Entry",
+      "version": "1.0",
+      "date_updated": "2025-11-14",
+      "status": "Active",
+      "size_kb": 15,
+      "complexity": "High",
+      "purpose": "Guide 3-step process for parsing resumes and entering data into CRM system",
+      "description": "Complete workflow for AI-powered resume parsing, Google Sheets buffer usage, and browser extension auto-fill. Includes CV Parser prompt integration, Admin Status meanings, CRM Status definitions, video/test upload procedures, and Google Drive naming conventions. Saves 15-20 minutes per candidate.",
+      "key_sections": [
+        "3-step data entry process",
+        "CV Parser prompt integration",
+        "Google Sheets buffer workflow",
+        "Browser extension usage",
+        "Required CRM fields (21 fields)",
+        "After receiving video/test (5 steps)",
+        "Admin Status table and actions",
+        "CRM Status definitions",
+        "Google Drive folder naming conventions",
+        "Duplicate check protocol",
+        "Quality checklists"
+      ],
+      "use_when": "Adding new candidates to CRM system or uploading video/test materials",
+      "input": "Candidate resume and contact information",
+      "output": "Complete CRM entry with all required fields",
+      "prerequisites": ["PRM-HR-001"],
+      "dependencies": ["Google Sheets buffer", "Browser extension", "CRM system access"],
+      "related_prompts": ["PRM-HR-001", "PRM-HR-002"],
+      "cross_references": {
+        "objects": "Creates Resume, TSV_Data, Candidate_Card, Video_Interview, CRM_Entry objects in Responsibilities/Objects",
+        "actions": "Parse, Extract, Upload, Add, Record, Update, Check actions from Responsibilities/Actions",
+        "tools": "ChatGPT, Gemini, Google_Sheets, Browser_Extension, CRM, Google_Drive tools",
+        "task_managers": "Feeds into TASK-TEMPLATE-HR-006, TASK-TEMPLATE-HR-007, TASK-TEMPLATE-HR-008"
+      }
+    },
+    {
+      "prompt_id": "PRM-HR-004",
+      "name": "Interview Conductor Prompt",
+      "file_path": "HR_Operations/Interview_Conductor_Prompt.md",
+      "category": "HR_Operations",
+      "workflow_phase": "Interview",
+      "version": "1.0",
+      "date_updated": "2025-11-14",
+      "status": "Active",
+      "size_kb": 16,
+      "complexity": "High",
+      "purpose": "Guide interview process, evaluation, contracts, and onboarding workflows",
+      "description": "Comprehensive guide for conducting group interviews with 5-phase structure, Team Lead scripts (opening, closing, questions), 4 evaluation criteria, post-interview communications, Regular contract 9-step process, and complete onboarding workflow. Includes CRM updates, Google Drive procedures, and Discord integration.",
+      "key_sections": [
+        "5-phase interview structure",
+        "Team Lead scripts (opening, about company, self-presentation, closing)",
+        "Interview questions (experience, motivation, skills, work)",
+        "4 evaluation criteria",
+        "Post-interview message templates (approval/rejection)",
+        "Regular contract 9-step process",
+        "Contracts table tracking",
+        "Onboarding process (before first day and Monday workflow)",
+        "Discord ID addition",
+        "CRM status updates",
+        "Team Lead availability constraints"
+      ],
+      "use_when": "Conducting interviews, processing contracts, or onboarding new employees",
+      "input": "Interview stage and candidate information",
+      "output": "Structured interview guidance or post-interview communications",
+      "prerequisites": ["PRM-HR-002", "PRM-HR-003"],
+      "dependencies": ["Google Meet", "Zoho Sign", "Discord", "CRM system access"],
+      "related_prompts": ["PRM-HR-002"],
+      "cross_references": {
+        "objects": "Creates Interview_Invitation, Regular_Contract, Employee_Card, Onboarding_SMS, Approval_Message, Rejection_Letter objects in Responsibilities/Objects",
+        "actions": "Conduct, Evaluate, Send, Sign, Onboard, Add, Update actions from Responsibilities/Actions",
+        "tools": "Google_Meet, Zoho_Sign, Google_Sheets, Google_Drive, Discord, CRM tools",
+        "task_managers": "Feeds into TASK-TEMPLATE-HR-012, TASK-TEMPLATE-HR-013, TASK-TEMPLATE-HR-015"
+      }
+    },
+    {
+      "prompt_id": "PRM-OW-001",
+      "name": "Document Finished Project",
+      "file_path": "Operational_Workflows/PROMPT_Document_Finished_Project.md",
+      "category": "Operational_Workflows",
+      "workflow_phase": "Documentation",
+      "version": "1.0",
+      "date_updated": "2025-11-16",
+      "status": "Active",
+      "size_kb": 48,
+      "complexity": "Medium",
+      "purpose": "Guide AI assistants to create comprehensive completion reports for finished projects",
+      "description": "Complete template and instructions for creating standardized completion reports following Remote Helpers taxonomy documentation standards. Includes 12-section report template, input requirements checklist, quality verification, business value analysis, lessons learned framework, and examples from Phase 4, 5, 7, and 9 completions. Ensures quantified metrics, cross-references, and forward-looking enablement documentation.",
+      "key_sections": [
+        "When to use this prompt",
+        "Input requirements (required and optional information)",
+        "The prompt template for AI assistants",
+        "Completion report template (12 sections)",
+        "Examples from taxonomy system",
+        "Quality checklist (pre-completion verification)",
+        "File naming and location conventions",
+        "Tips for effective completion reports"
+      ],
+      "use_when": "Creating completion reports for finished project phases or milestones",
+      "input": "Phase/milestone information, deliverables list, time investment, goals vs results, business impact data",
+      "output": "Comprehensive completion report following taxonomy standards (Phase_X_Completion_Report.md)",
+      "prerequisites": [],
+      "dependencies": ["TASK_MANAGERS structure"],
+      "related_prompts": [],
+      "cross_references": {
+        "task_managers": "Creates Phase/Milestone completion reports in TASK_MANAGERS/Reports/",
+        "objects": "Documents deliverable files and artifacts created in Responsibilities/Objects",
+        "processes": "Records workflow improvements and optimizations",
+        "departments": "Tracks cross-department project impacts"
+      }
+    }
+  ],
+
+  "workflow_mapping": {
+    "7_phase_video_workflow": {
+      "description": "Complete video-to-taxonomy integration pipeline",
+      "phases": [
+        {
+          "phase": "Phase 1",
+          "name": "Transcription",
+          "prompt": "PRM-VT-001",
+          "input": "Video audio/captions",
+          "output": "Video_XXX.md",
+          "estimated_time": "30-60 minutes"
+        },
+        {
+          "phase": "Phase 2",
+          "name": "Professional Naming",
+          "prompt": "PRM-VT-002",
+          "input": "Casual video title",
+          "output": "Professional title for documentation",
+          "estimated_time": "5-10 minutes",
+          "optional": true
+        },
+        {
+          "phase": "Phase 3",
+          "name": "Initial Analysis",
+          "prompt": "PRM-VT-003",
+          "input": "Video_XXX.md",
+          "output": "Taxonomy elements inventory",
+          "estimated_time": "45-60 minutes"
+        },
+        {
+          "phase": "Phase 4",
+          "name": "Objects Extraction",
+          "prompt": "PRM-VT-004",
+          "input": "Video_XXX.md + Phase 3 results",
+          "output": "Complete object catalog with cross-references",
+          "estimated_time": "30-45 minutes"
+        },
+        {
+          "phase": "Phase 5",
+          "name": "Gap Analysis",
+          "prompt": "PRM-TI-001",
+          "input": "Phases 1-4 outputs + existing LIBRARIES",
+          "output": "Video_XXX_Gap_Analysis.md",
+          "estimated_time": "30-45 minutes"
+        },
+        {
+          "phase": "Phase 6",
+          "name": "Taxonomy Updates",
+          "prompt": "PRM-TI-001",
+          "input": "Gap analysis + taxonomy elements",
+          "output": "Updated JSON files across all LIBRARIES",
+          "estimated_time": "60-90 minutes"
+        },
+        {
+          "phase": "Phase 7",
+          "name": "Reporting",
+          "prompt": "PRM-TI-001",
+          "input": "All updates and changes",
+          "output": "Video_XXX_Library_Mapping_Report.md",
+          "estimated_time": "20-30 minutes"
+        }
+      ],
+      "total_estimated_time": "3.5-5.5 hours",
+      "completeness": "Full taxonomy integration from raw video to comprehensive mapping report"
+    },
+    "library_maintenance_workflows": {
+      "tool_discovery": {
+        "prompt": "PRM-LP-001",
+        "triggers": ["New tools mentioned in tasks", "Tools discovered in videos", "Tool references in documentation"],
+        "frequency": "Ad-hoc or weekly batch processing",
+        "estimated_time": "30-60 minutes per batch"
+      },
+      "product_processing": {
+        "prompt": "PRM-LP-002",
+        "triggers": ["New product creation", "Product optimization needed", "AI-first compliance review"],
+        "frequency": "Ad-hoc",
+        "estimated_time": "15-30 minutes per product"
+      }
+    },
+    "hr_recruitment_workflow": {
+      "description": "Complete candidate recruitment workflow from search to onboarding",
+      "stages": [
+        {
+          "stage": "Stages 1-5",
+          "name": "Search & Pre-Screening",
+          "prompts": ["PRM-HR-002"],
+          "tasks": ["Initial contact", "5 pre-screening questions", "Company introduction"],
+          "estimated_time": "30-45 minutes per candidate"
+        },
+        {
+          "stage": "Stages 6-9",
+          "name": "Resume Processing & CRM Entry",
+          "prompts": ["PRM-HR-001", "PRM-HR-003"],
+          "tasks": ["AI resume parsing", "CRM data entry", "Video/test upload"],
+          "estimated_time": "20-30 minutes per candidate (15-20 min saved via automation)"
+        },
+        {
+          "stage": "Stages 10-12",
+          "name": "Interview Planning & Execution",
+          "prompts": ["PRM-HR-004"],
+          "tasks": ["Schedule interview", "Conduct group interview", "Evaluate candidates"],
+          "estimated_time": "60-90 minutes per interview group (2-4 candidates)"
+        },
+        {
+          "stage": "Stages 13-16",
+          "name": "Contracts & Onboarding",
+          "prompts": ["PRM-HR-004"],
+          "tasks": ["Send Regular contract", "Collect documents", "Onboard employee", "Discord setup"],
+          "estimated_time": "45-60 minutes per employee"
+        }
+      ],
+      "total_estimated_time": "2.5-3.5 hours per candidate (end-to-end)",
+      "automation_benefits": "Saves 15-20 minutes per candidate via AI parsing and browser extension auto-fill",
+      "frequency": "Ongoing, daily/weekly basis",
+      "interview_days": "Tuesday & Thursday only"
+    }
+  },
+
+  "usage_statistics": {
+    "total_uses": 0,
+    "most_used_prompt": null,
+    "least_used_prompt": null,
+    "average_execution_time": null,
+    "success_rate": null,
+    "last_updated": "2025-11-14"
+  },
+
+  "version_history": [
+    {
+      "version": "1.0",
+      "date": "2025-11-12",
+      "changes": [
+        "Initial PROMPTS_INDEX.json creation",
+        "Cataloged 7 prompts across 3 categories",
+        "Defined 7-phase video workflow mapping",
+        "Established prompt ID system (PRM-XX-XXX)",
+        "Created comprehensive metadata for each prompt",
+        "Documented cross-references with all LIBRARIES entities"
+      ],
+      "author": "Taxonomy Team"
+    },
+    {
+      "version": "1.1",
+      "date": "2025-11-14",
+      "changes": [
+        "Added HR_Operations category (CAT-HR)",
+        "Added 4 HR prompts (PRM-HR-001 through PRM-HR-004)",
+        "Created CV Parser v1 prompt",
+        "Created Communication Templates Prompt",
+        "Created CRM Data Entry Prompt",
+        "Created Interview Conductor Prompt",
+        "Added hr_recruitment_workflow with 4-stage process",
+        "Integrated HR instructions from HR Nov25 directory",
+        "Total prompts increased from 8 to 12",
+        "Total categories increased from 4 to 5"
+      ],
+      "author": "Taxonomy Team"
+    },
+    {
+      "version": "1.2",
+      "date": "2025-11-15",
+      "changes": [
+        "Migration from LIBRARIES/Prompts/ to LIBRARIES/DEPARTMENTS/PROMPTS/",
+        "Added migration_info metadata",
+        "Updated entity_type from LIBRARIES to DEPARTMENTS",
+        "Updated all documentation references"
+      ],
+      "author": "AI Migration Assistant"
+    },
+    {
+      "version": "1.3",
+      "date": "2025-11-16",
+      "changes": [
+        "Added Operational_Workflows category (CAT-OW)",
+        "Created Document Finished Project prompt (PRM-OW-001)",
+        "Added comprehensive completion report template based on Phase 4, 5, 7, 9 analysis",
+        "Includes 12-section report structure with quality checklist",
+        "Total prompts increased from 12 to 13",
+        "Total categories increased from 5 to 6"
+      ],
+      "author": "Claude AI Assistant"
+    },
+    {
+      "version": "1.4",
+      "date": "2025-11-16",
+      "changes": [
+        "Removed _SHARED intermediate folder structure",
+        "Moved from LIBRARIES/DEPARTMENTS/_SHARED/Prompts/ to LIBRARIES/DEPARTMENTS/PROMPTS/",
+        "Updated sub_entity from '_SHARED/Prompts' to 'Prompts'",
+        "Updated 32 files with 80 path reference replacements",
+        "Simplified architecture with flatter folder structure",
+        "All cross-references validated and updated"
+      ],
+      "author": "Claude AI Assistant"
+    },
+    {
+      "version": "1.5",
+      "date": "2025-11-17",
+      "changes": [
+        "Renamed 'Research Prompts' folder to 'Research_Prompts' for consistency",
+        "Updated all cross_references to point to Responsibilities/Actions and Responsibilities/Objects",
+        "Architectural consolidation: Actions and Objects moved under Responsibilities ecosystem",
+        "Archived legacy root-level actions.json, objects.json, tools.json to Archive/Legacy_Root_Files/",
+        "Created navigation helpers: ACTIONS_README.md and OBJECTS_README.md",
+        "Updated all prompts' cross-references with new LIBRARIES paths",
+        "Total updates: 13 prompts with cross-reference path corrections"
+      ],
+      "author": "Claude AI Assistant"
+    }
+  ],
+
+  "maintenance": {
+    "review_frequency": "Quarterly",
+    "last_review": "2025-11-12",
+    "next_review": "2026-02-12",
+    "quality_checks": [
+      "Verify all file paths are accurate",
+      "Confirm version numbers match prompt files",
+      "Update usage statistics",
+      "Check for broken cross-references",
+      "Validate workflow mappings",
+      "Review and update prompt descriptions"
+    ],
+    "update_triggers": [
+      "New prompt added to library",
+      "Existing prompt version updated",
+      "Workflow changes requiring prompt modifications",
+      "Cross-reference updates in other LIBRARIES entities",
+      "User feedback requiring prompt improvements"
+    ]
+  },
+
+  "related_documentation": [
+    "../README.md - LIBRARIES overview with Prompts section (Section 12)",
+    "./README.md - Prompts library comprehensive documentation",
+    "../Transcribations/README.md - Video processing workflow with prompt references",
+    "../Tools/README.md - Tools library documentation",
+    "../Products/README.md - Products library documentation",
+    "../Objects/README.md - Responsibilities/Responsibilities/Objects library documentation"
+  ]
+}

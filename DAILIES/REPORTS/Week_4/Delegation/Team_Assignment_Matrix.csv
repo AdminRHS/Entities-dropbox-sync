@@ -1,0 +1,502 @@
+Task_ID,Task_Name,Original_Department,Reclassified_Department,Priority,Primary_Role,Responsible_Person,Accountable_Person,Consulted_Roles,Informed_Roles,Assignment_Status,Estimated_Duration,Required_Skills,Responsibility_Match
+TSK-395,REVOKE exposed GitHub token immediately,AI,Development,High,Specialist,TBD,Development Lead,,,Proposed,TBD,,N/A
+TSK-396,Generate new GitHub token,AI,Development,High,Specialist,TBD,Development Lead,,,Proposed,TBD,,N/A
+TSK-397,Audit all files for exposed credentials,AI,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+TSK-398,Implement secret scanning in repos,AI,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+TSK-399,Conduct deep research on Desert Greener,AI,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+TSK-400,Prepare pre-meeting research template,AI,Sales,High,AI Researcher / Video Production Specialist,TBD,Sales Lead,,,Proposed,6-9 hours (4-6 hours research + 2-3 hours documentation),,manage sales pipeline
+TSK-401,Schedule WhatsApp call with Wilhelm,AI,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+TSK-402,Fix email personalization - add LinkedIn context,AI,Lead Generation,High,Lead Generation Specialist / Sales Development Rep,TBD,Lead Generation Lead,,,Proposed,3 hours (1 hour research + 1.5 hours data entry + 30 min qualification),,generate leads
+TSK-403,Create email template with conversation references,AI,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+TSK-404,Implement deep research before email sending,AI,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+TSK-405,Add clear next-step instructions for clients,AI,Sales,High,Sales Manager,TBD,Sales Lead,,,Proposed,4-5 hours for 50 emails,,manage sales pipeline
+TSK-406,Find substitute person for Vamos project,AI,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+TSK-407,Talk to Dasha about retention,AI,HR,High,HR Manager / Automation Specialist,TBD,HR Lead,,,Proposed,2-3 hours (one-time setup),,N/A
+TSK-408,Identify issues causing quit desire,AI,HR,High,HR Manager / Operations Specialist,TBD,HR Lead,,,Proposed,2-3 hours,,N/A
+TSK-409,Create retention strategy,AI,HR,High,HR Manager / Operations Specialist,TBD,HR Lead,,,Proposed,2-3 hours,,N/A
+TSK-410,Retain Vamos employee (2 years tenure),AI,HR,High,HR Manager / Automation Specialist,TBD,HR Lead,,,Proposed,2-3 hours (one-time setup),,N/A
+TSK-411,Resolve accounting/payment issues,AI,Finance,High,Finance Manager / Automation Specialist,TBD,Finance Lead,,,Proposed,3 hours (45 min requirements + 1.5 hours design + 45 min testing),,N/A
+TSK-412,Document retention process,AI,HR,High,HR Manager / Automation Specialist,TBD,HR Lead,,,Proposed,2-3 hours (one-time setup),,N/A
+TSK-413,Communicate final decision to MASEK client,AI,Sales,High,Sales Manager,TBD,Sales Lead,,,Proposed,4-5 hours for 50 emails,,manage sales pipeline
+TSK-414,Document client termination policy,AI,Sales,High,Sales Manager,TBD,Sales Lead,,,Proposed,4-5 hours for 50 emails,,manage sales pipeline
+TSK-415,Create script for daily notes action extraction,AI,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+TSK-416,Build intermediate export folders structure,AI,Design,High,Specialist,TBD,Design Lead,,,Proposed,20-30 minutes,,design UI mockups
+TSK-417,Implement object extraction after actions,AI,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+TSK-418,Reduce token consumption via scripting,AI,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+TSK-419,Integrate multiple AI platforms for processing,AI,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+TSK-420,Continue data structuring work,AI,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+TSK-421,Create deep research template (10-15 pages),AI,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+TSK-422,Build social media checklist (15 networks),AI,SMM,High,AI Researcher / Developer,TBD,SMM Lead,,,Proposed,6-9 hours (4-6 hours research + 2-3 hours documentation),,N/A
+TSK-423,Integrate company context into research,AI,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+TSK-424,"Create ""new lesson of the week"" system",AI,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+TSK-425,Document deep research in client folders,AI,Sales,High,AI Researcher / Video Production Specialist,TBD,Sales Lead,,,Proposed,6-9 hours (4-6 hours research + 2-3 hours documentation),,manage sales pipeline
+TSK-426,Export Week 2 tasks list,AI,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+TSK-427,Deprecate old workflow system,AI,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+TSK-428,Structure financial folder architecture,AI,Finance,High,Finance Manager / Automation Specialist,TBD,Finance Lead,,,Proposed,3 hours (45 min requirements + 1.5 hours design + 45 min testing),,N/A
+TSK-429,Create research list for Finance 2025,AI,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+TSK-430,Build reports in ANALYTICS folder,AI,Design,High,Specialist,TBD,Design Lead,,,Proposed,20-30 minutes,,design UI mockups
+TSK-431,Generate prompts for financial analysis,AI,Finance,High,Finance Manager / Automation Specialist,TBD,Finance Lead,,,Proposed,3 hours (45 min requirements + 1.5 hours design + 45 min testing),,N/A
+TSK-432,Create employee 1:1 session template,AI,HR,High,HR Manager / Operations Specialist,TBD,HR Lead,,,Proposed,2-3 hours,,N/A
+TSK-433,Export daily CRM attendance data,AI,HR,High,HR Manager / Automation Specialist,TBD,HR Lead,,,Proposed,2-3 hours (one-time setup),,N/A
+TSK-434,Build script to check employee file status,AI,HR,High,HR Manager / Operations Specialist,TBD,HR Lead,,,Proposed,2-3 hours,,N/A
+TSK-435,Verify Dropbox + VSCode + Extensions for all,AI,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+TSK-436,Conduct manual verification by end of week,AI,HR,High,HR Manager / Automation Specialist,TBD,HR Lead,,,Proposed,2-3 hours (one-time setup),,N/A
+TSK-437,Use Overview folder data for analysis,AI,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+TSK-438,Create innovation rollout process,AI,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+TSK-439,Decide: Team leads vs direct rollout,AI,Lead Generation,High,Lead Generation Specialist / Sales Development Rep,TBD,Lead Generation Lead,,,Proposed,3 hours (1 hour research + 1.5 hours data entry + 30 min qualification),,generate leads
+TSK-440,Create Cursor/Windsurf instructions,AI,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+TSK-441,Build employee verification shifts,AI,HR,High,HR Manager / Operations Specialist,TBD,HR Lead,,,Proposed,2-3 hours,,N/A
+TSK-442,Assign department checkers,AI,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+TSK-443,Create 2-week rollout timeline,AI,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+TSK-444,Export Loom video titles,AI,Video,High,Specialist,TBD,Video Lead,,,Proposed,TBD,,produce videos
+TSK-445,Export Loom transcriptions,AI,Video,High,Specialist,TBD,Video Lead,,,Proposed,TBD,,produce videos
+TSK-446,Add remoteemployees.com content to assets,AI,HR,High,HR Manager / Automation Specialist,TBD,HR Lead,,,Proposed,2-3 hours (one-time setup),,N/A
+TSK-447,Build attendance statistics export system,AI,HR,High,HR Manager / Operations Specialist,TBD,HR Lead,,,Proposed,2-3 hours,,N/A
+TSK-448,Create CRM API integration,AI,Development,High,AI Engineer,AI Engineer,Development Lead,,"Operations Team, Automation Team",Proposed,1-2 minutes,,N/A
+TSK-449,Build Discord voice log export,AI,Design,High,Specialist,TBD,Design Lead,,,Proposed,20-30 minutes,,design UI mockups
+TSK-450,Parse and analyze daily attendance,AI,HR,High,AI Researcher / Video Production Specialist,TBD,HR Lead,,,Proposed,6-9 hours (4-6 hours research + 2-3 hours documentation),,N/A
+TSK-451,Create Discord tools documentation,AI,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+TSK-452,Reverse name conventions in Task Manager,AI,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+TSK-453,Remove department letters from filenames,AI,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+TSK-454,Update data integrity hierarchy,AI,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+TSK-455,Update all prompts with old naming,AI,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+TSK-456,Build similar/connected words in LIBRARIES,AI,Design,High,Specialist,TBD,Design Lead,,,Proposed,20-30 minutes,,design UI mockups
+TSK-457,Create AI Catalog markdown file,AI,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+TSK-458,Add AI Catalog to Assets index,AI,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+TSK-459,Document AI Catalog content,AI,SMM,High,AI Researcher / Video Production Specialist,TBD,SMM Lead,,,Proposed,6-9 hours (4-6 hours research + 2-3 hours documentation),,N/A
+TSK-460,Perform oa-y/Libraries/Task Managers gap analysis,AI,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+TSK-461,Create cross-reference index (tool→lesson→template),AI,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+TSK-462,Build research prompts for developer tutorials,AI,Design,High,Specialist,TBD,Design Lead,,,Proposed,20-30 minutes,,design UI mockups
+TSK-463,Create File System research prompt v2,AI,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+TSK-464,Add training/learning responsibilities to Libraries,AI,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+TSK-465,Create weekly AI tutorial research template,AI,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+TSK-466,Convert SMM research into Task Templates,AI,SMM,High,AI Researcher / Video Production Specialist,TBD,SMM Lead,,,Proposed,6-9 hours (4-6 hours research + 2-3 hours documentation),,N/A
+TSK-467,Create unified research prompt schema,AI,Development,High,AI Researcher / Developer,TBD,Development Lead,,,Proposed,6-9 hours (4-6 hours research + 2-3 hours documentation),,N/A
+TSK-468,Integrate Research ID system (RES-###),AI,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+TSK-469,Add ISO 3-letter codes to research,AI,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+TSK-470,Test entity upload to Postgres,AI,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+TSK-471,Build matching schemas for consistency,AI,Design,High,Specialist,TBD,Design Lead,,,Proposed,20-30 minutes,,design UI mockups
+TSK-472,Define deliverables as milestone templates,AI,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+TSK-473,Maintain central listings while splitting by dept,AI,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+TSK-474,Create ID and name control scripts,AI,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+TSK-475,Build central IDs with names center,AI,Design,High,Specialist,TBD,Design Lead,,,Proposed,20-30 minutes,,design UI mockups
+TSK-331,Create AI routes inside entity folders,AI,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+TSK-332,Build index files for machine/AI access,AI,Design,High,Specialist,TBD,Design Lead,,,Proposed,20-30 minutes,,design UI mockups
+TSK-333,Save schemas inside folders with field definitions,AI,Development,High,Specialist,TBD,Development Lead,,,Proposed,TBD,,N/A
+TSK-334,Sync Task Template to backend,Development,Development,High,AI Engineer,AI Engineer,Development Lead,"Backend Developer, Operations Team","Automation Team, End Users",Proposed,5-10 minutes with AI assistance,"SKL-071 (deployed MCP connectors via Cursor), SKL-075 (configured OAuth for Google APIs - if needed)",N/A
+TSK-335,Create backend for DropBox SubEntity,AI,Development,High,AI Engineer / Data Analyst,TBD,Development Lead,,,Proposed,1.5 hours (30 min automation run + 45 min validation + 15 min reporting),,N/A
+TSK-336,Build alert system for fired/left employees,AI,HR,High,HR Manager / Operations Specialist,TBD,HR Lead,,,Proposed,2-3 hours,,N/A
+TSK-337,Connect Accounts to Talents profiles,AI,HR,High,HR Manager / Automation Specialist,TBD,HR Lead,,,Proposed,2-3 hours (one-time setup),,N/A
+TSK-338,Implement automatic access closure alerts,AI,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+TSK-339,Track secondary accounts (not just main emails),AI,Sales,High,Sales Manager,TBD,Sales Lead,,,Proposed,4-5 hours for 50 emails,,manage sales pipeline
+TSK-340,Design country-based job account permissions,Development,Sales,High,Specialist,TBD,Sales Lead,,,Proposed,20-30 minutes,,manage sales pipeline
+TSK-341,Implement team lead access limits,Development,Lead Generation,High,AI Engineer / DevOps Engineer,TBD,Lead Generation Lead,,,Proposed,2 hours (30 min install + 1 hour config + 30 min testing),,generate leads
+TSK-342,Build role-based account access system,Development,Sales,High,Sales Manager,TBD,Sales Lead,,,Proposed,4-5 hours for 50 emails,,manage sales pipeline
+TSK-343,Create account manager interface,Development,Sales,High,Sales Manager,TBD,Sales Lead,,,Proposed,4-5 hours for 50 emails,,manage sales pipeline
+TSK-344,Add Balkans as region in system,Design,Design,High,Specialist,TBD,Design Lead,,,Proposed,20-30 minutes,,design UI mockups
+TSK-345,Design permission system architecture,Development,Design,High,Specialist,TBD,Design Lead,,,Proposed,20-30 minutes,,design UI mockups
+TSK-346,Implement employee-based permissions,Development,HR,High,HR Manager / Operations Specialist,TBD,HR Lead,,,Proposed,2-3 hours,,N/A
+TSK-347,Implement profession/role-based permissions,Development,Development,High,AI Engineer,AI Engineer,Development Lead,,"Operations Team, Automation Team",Proposed,1-2 minutes,,N/A
+TSK-348,Create Auth User Service documentation,Development,Development,High,AI Researcher / Developer,TBD,Development Lead,,,Proposed,6-9 hours (4-6 hours research + 2-3 hours documentation),,N/A
+TSK-349,Review GPT usage and costs,Development,Finance,High,AI Researcher / Content Specialist,TBD,Finance Lead,,,Proposed,5-8 hours (3-5 hours research + 2-3 hours documentation),,N/A
+TSK-350,Identify cost-cutting opportunities,Finance,Finance,High,Finance Manager / Automation Specialist,TBD,Finance Lead,,,Proposed,3 hours (45 min requirements + 1.5 hours design + 45 min testing),,N/A
+TSK-351,Create taxonomy initial ID inventory,AI,Finance,High,Finance Manager / Automation Specialist,TBD,Finance Lead,,,Proposed,3 hours (45 min requirements + 1.5 hours design + 45 min testing),,N/A
+TSK-352,Generate JSON with all entities and sub-entities,AI,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+TSK-353,Add 3-letter ISO codes to entities,AI,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+TSK-354,Cross-validate with existing listings,AI,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+TSK-355,Document deprecated/archived entities,AI,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+TSK-356,Update milestone prefix from MLS-### to MLST-###,AI,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+TSK-357,Filter daily notes by taxonomy,AI,Finance,High,Finance Manager / Automation Specialist,TBD,Finance Lead,,,Proposed,3 hours (45 min requirements + 1.5 hours design + 45 min testing),,N/A
+TSK-358,Build parsing extraction taxonomy,AI,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+TSK-359,Identify repetitions in daily notes,AI,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+TSK-360,Create PLANS entity folder,AI,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+TSK-361,Create YouTube channels list,AI,Video,High,AI Researcher / Developer,TBD,Video Lead,,,Proposed,6-9 hours (4-6 hours research + 2-3 hours documentation),,produce videos
+TSK-362,Parse latest videos from channels,AI,Video,High,Specialist,TBD,Video Lead,,,Proposed,TBD,,produce videos
+TSK-363,Analyze video relevancy,AI,Video,High,AI Researcher / Video Production Specialist,TBD,Video Lead,,,Proposed,6-9 hours (4-6 hours research + 2-3 hours documentation),,produce videos
+TSK-364,Build YouTube research milestone template,AI,Video,High,AI Researcher / Developer,TBD,Video Lead,,,Proposed,6-9 hours (4-6 hours research + 2-3 hours documentation),,produce videos
+TSK-365,Log all n8n automations,AI,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+TSK-366,Create n8n workflow documentation,AI,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+TSK-367,Build Google Sheets integration workflow,AI,Design,High,Specialist,TBD,Design Lead,,,Proposed,20-30 minutes,,design UI mockups
+TSK-368,Create bot as separate milestone template,AI,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+TSK-369,Build AI agent for n8n analysis,AI,Design,High,Specialist,TBD,Design Lead,,,Proposed,20-30 minutes,,design UI mockups
+TSK-370,Generate n8n workflow from Claude,AI,AI,High,Operations Manager,Operations Manager,Operations Director,"Account Executive, Sales Manager","Sales Team, Customer Success",Proposed,1-4 minutes (automated execution),"SKL-073 (configured stacked connector workflows), SKL-074 (extracted meeting insights via Claude)",N/A
+TSK-371,Create 10+ example n8n projects,AI,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+TSK-372,Implement daily analysis prompt reminder,AI,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+TSK-373,Build continuous employee profile improvement system,AI,HR,High,HR Manager / Operations Specialist,TBD,HR Lead,,,Proposed,2-3 hours,,N/A
+TSK-374,Integrate attendance with employee profiles,AI,HR,High,HR Manager / Automation Specialist,TBD,HR Lead,,,Proposed,2-3 hours (one-time setup),,N/A
+TSK-375,Analyze employee daily records,AI,HR,High,AI Researcher / Video Production Specialist,TBD,HR Lead,,,Proposed,6-9 hours (4-6 hours research + 2-3 hours documentation),,N/A
+TSK-376,Create data injection scripts for daily notes,AI,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+TSK-377,Build action/object extraction from daily notes,AI,Design,High,Specialist,TBD,Design Lead,,,Proposed,20-30 minutes,,design UI mockups
+TSK-378,Update employee profiles automatically,AI,HR,High,HR Manager / Automation Specialist,TBD,HR Lead,,,Proposed,2-3 hours (one-time setup),,N/A
+TSK-379,Update Prompt 6 for daily analysis,AI,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+TSK-380,Create task template schema,AI,Development,High,AI Engineer,AI Engineer,Development Lead,,"Operations Team, Automation Team",Proposed,1-2 minutes,,N/A
+TSK-381,Link actions/objects to responsibilities,AI,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+TSK-382,Match research prompt naming conventions,AI,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+TSK-383,Parse recent videos for LinkedIn content,AI,Video,High,Specialist,TBD,Video Lead,,,Proposed,TBD,,produce videos
+TSK-384,Create carousel posts from video content,AI,SMM,High,AI Researcher / Developer,TBD,SMM Lead,,,Proposed,6-9 hours (4-6 hours research + 2-3 hours documentation),,N/A
+TSK-385,Build automated posting workflow,AI,Design,High,Specialist,TBD,Design Lead,,,Proposed,20-30 minutes,,design UI mockups
+TSK-386,Design step-by-step content templates,AI,Design,High,Specialist,TBD,Design Lead,,,Proposed,20-30 minutes,,design UI mockups
+TSK-387,Design microservice methodology,AI,Design,High,Specialist,TBD,Design Lead,,,Proposed,20-30 minutes,,design UI mockups
+TSK-388,Test backend generation on small entity,AI,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+TSK-389,Build GitHub-Dropbox sync for backend,AI,Development,High,AI Engineer / DevOps Engineer,TBD,Development Lead,,,Proposed,2 hours (30 min install + 1 hour config + 30 min testing),,N/A
+TSK-390,Create dynamic Postgres generation,AI,Development,High,AI Engineer,AI Engineer,Development Lead,,"Operations Team, Automation Team",Proposed,1-2 minutes,,N/A
+TSK-391,Organize API tokens management,AI,Development,High,Specialist,TBD,Development Lead,,,Proposed,TBD,,N/A
+TSK-392,Fix taxonomy location (move if needed),AI,Finance,High,Finance Manager / Automation Specialist,TBD,Finance Lead,,,Proposed,3 hours (45 min requirements + 1.5 hours design + 45 min testing),,N/A
+TSK-393,Integrate checklist items into task system,AI,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+TSK-394,Fix cursor flickering issue,AI,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+TSK-320,Implement Entity Identification System v1.0,AI,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+TSK-321,Set up multi-instance AI tool workflow,AI,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+TSK-322,Deploy Google AntiGravity for team,AI,Development,High,AI Engineer,AI Engineer,Development Lead,"Backend Developer, Operations Team","Automation Team, End Users",Proposed,5-10 minutes with AI assistance,"SKL-071 (deployed MCP connectors via Cursor), SKL-075 (configured OAuth for Google APIs - if needed)",N/A
+TSK-323,Automate daily employee task assignment,AI,HR,High,HR Manager / Automation Specialist,TBD,HR Lead,,,Proposed,2-3 hours (one-time setup),,N/A
+TSK-324,Build employee choice/selection system,AI,HR,High,HR Manager / Operations Specialist,TBD,HR Lead,,,Proposed,2-3 hours,,N/A
+TSK-325,Collect Discord voice logs for analytics,AI,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+TSK-326,Process department prompt logs daily,AI,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+TSK-327,Convert Workflows to Projects in TASK_MANAGERS,AI,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+TSK-328,Assign IDs to all ENTITIES folders,AI,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+TSK-329,"Create MCP agent system (employees, libs, academy)",AI,HR,High,HR Manager / Operations Specialist,TBD,HR Lead,,,Proposed,1.5-2 hours,,N/A
+TSK-330,Build screenshot verification automation,AI,HR,High,HR Manager / Operations Specialist,TBD,HR Lead,,,Proposed,2-3 hours,,N/A
+TSK-233,Create department-specific daily analysis prompts,AI,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+TSK-234,Build starting point reference guides,AI,Design,High,Specialist,TBD,Design Lead,,,Proposed,20-30 minutes,,design UI mockups
+TSK-235,Iterate prompts for better report quality,AI,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+TSK-236,Process tutorials from Department DropBox,AI,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+TSK-237,Find and download Google Drive guides in Markdown,AI,Design,High,Specialist,TBD,Design Lead,,,Proposed,20-30 minutes,,design UI mockups
+TSK-238,Export and process from Online Academy,AI,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+TSK-239,Create REPORTS folder in ENTITIES,AI,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+TSK-240,Add taxonomy for REPORTS entity,AI,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+TSK-241,Integrate IDS system (RPT-###),AI,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+TSK-242,Import example reports,AI,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+TSK-243,Create report classification system,AI,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+TSK-244,Update master taxonomy,AI,Finance,High,Finance Manager / Automation Specialist,TBD,Finance Lead,,,Proposed,3 hours (45 min requirements + 1.5 hours design + 45 min testing),,N/A
+TSK-245,Create Tasks folder in Dailies,AI,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+TSK-246,Create Plans folder in Dailies,AI,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+TSK-247,Add employee identification system,AI,HR,High,HR Manager / Operations Specialist,TBD,HR Lead,,,Proposed,1.5-2 hours,,N/A
+TSK-248,Cross-reference Task Manager with Online Academy,AI,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+TSK-249,Store Online Academy links in guides,AI,Design,High,Specialist,TBD,Design Lead,,,Proposed,20-30 minutes,,design UI mockups
+TSK-250,Add IDs to Online Academy content,AI,SMM,High,Specialist,TBD,SMM Lead,,,Proposed,TBD,,N/A
+TSK-251,Apply taxonomy to Academy structure,AI,Finance,High,Finance Manager / Automation Specialist,TBD,Finance Lead,,,Proposed,3 hours (45 min requirements + 1.5 hours design + 45 min testing),,N/A
+TSK-252,Create detailed onboarding tasks with steps,AI,HR,High,HR Manager / Operations Specialist,TBD,HR Lead,,,Proposed,2-3 hours,,N/A
+TSK-253,Build progress tracking via task IDs in reports,AI,Design,High,Specialist,TBD,Design Lead,,,Proposed,20-30 minutes,,design UI mockups
+TSK-254,Create data flow clarification project,AI,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+TSK-255,Run methodologies skill-up project research,AI,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+TSK-256,Create VS Code instruction tutorials,AI,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+TSK-257,Implement logging to LOG folder during data population,AI,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+TSK-258,Implement TSM-### ID system,AI,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+TSK-259,Create TSM-001_Project_Template,AI,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+TSK-260,Document data import flows,AI,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+TSK-261,Define structured vs unstructured data handling,AI,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+TSK-262,"Create input type taxonomy (Research, Video, etc.)",AI,Finance,High,Finance Manager / Automation Specialist,TBD,Finance Lead,,,Proposed,3 hours (45 min requirements + 1.5 hours design + 45 min testing),,N/A
+TSK-263,Create employee TODO file system,AI,HR,High,HR Manager / Operations Specialist,TBD,HR Lead,,,Proposed,1.5-2 hours,,N/A
+TSK-264,Write learning materials generation guide,AI,Design,High,Designer / Developer / Creative Professional,TBD,Design Lead,,,Proposed,2 hours (45 min organization + 45 min documentation + 30 min updates),,design UI mockups
+TSK-265,"Enforce ""prompt-first"" rule",AI,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+TSK-266,Create taxonomy introduction materials,AI,Finance,High,Finance Manager / Automation Specialist,TBD,Finance Lead,,,Proposed,3 hours (45 min requirements + 1.5 hours design + 45 min testing),,N/A
+TSK-267,Update daily review prompts,AI,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+TSK-268,Locate all department prompts in Nov25 folders,AI,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+TSK-269,Consolidate prompts to ENTITIES/PROMPTS,AI,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+TSK-270,Create data import scripts,AI,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+TSK-271,Research AirTable integration options,AI,Development,High,AI Researcher / Video Production Specialist,TBD,Development Lead,,,Proposed,6-9 hours (4-6 hours research + 2-3 hours documentation),,N/A
+TSK-272,Design Task Manager choice/selection system,AI,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+TSK-273,Import accounts to ENTITIES,AI,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+TSK-274,Create accounts microservice,AI,Sales,High,Sales Manager,TBD,Sales Lead,,,Proposed,4-5 hours for 50 emails,,manage sales pipeline
+TSK-275,Bind gmails to tools,AI,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+TSK-276,Integrate accounts into AI Catalog,AI,Sales,High,Sales Manager,TBD,Sales Lead,,,Proposed,4-5 hours for 50 emails,,manage sales pipeline
+TSK-277,Build user login system with gmail,AI,Design,High,Specialist,TBD,Design Lead,,,Proposed,20-30 minutes,,design UI mockups
+TSK-278,Set up database for accounts,AI,Sales,High,Sales Manager,TBD,Sales Lead,,,Proposed,4-5 hours for 50 emails,,manage sales pipeline
+TSK-279,Create reusable microservice template,AI,Development,High,AI Engineer,AI Engineer,Development Lead,,"Operations Team, Automation Team",Proposed,1-2 minutes,,N/A
+TSK-280,Document departments folder architecture,AI,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+TSK-281,Restore data processes pipelines,AI,Sales,High,Sales Manager,TBD,Sales Lead,,,Proposed,4-5 hours for 50 emails,,manage sales pipeline
+TSK-282,Create clear file location guidance,AI,Design,High,Specialist,TBD,Design Lead,,,Proposed,20-30 minutes,,design UI mockups
+TSK-283,Build progress count updating script,AI,Design,High,Specialist,TBD,Design Lead,,,Proposed,20-30 minutes,,design UI mockups
+TSK-284,Create tasks import guide,AI,Design,High,Specialist,TBD,Design Lead,,,Proposed,20-30 minutes,,design UI mockups
+TSK-285,Add dates to Activity 3,AI,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+TSK-286,Verify LG data in DropBox,AI,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+TSK-287,Process items in IMPORTS folder,AI,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+TSK-288,Create list of reserved names in ENTITIES,AI,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+TSK-289,Create list of videos to transcribe,AI,Video,High,AI Researcher / Developer,TBD,Video Lead,,,Proposed,6-9 hours (4-6 hours research + 2-3 hours documentation),,produce videos
+TSK-290,Put video transcriptions into people tasks,AI,Video,High,Specialist,TBD,Video Lead,,,Proposed,TBD,,produce videos
+TSK-291,Run prompts for video search,AI,Video,High,Specialist,TBD,Video Lead,,,Proposed,TBD,,produce videos
+TSK-292,Purchase Gemini Ultra on Admin account,AI,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+TSK-293,Create transcription execution list with IDs,AI,Video,High,AI Researcher / Developer,TBD,Video Lead,,,Proposed,6-9 hours (4-6 hours research + 2-3 hours documentation),,produce videos
+TSK-294,Build execution tracking system,AI,Design,High,Specialist,TBD,Design Lead,,,Proposed,20-30 minutes,,design UI mockups
+TSK-295,Create execution update guides,AI,Design,High,Specialist,TBD,Design Lead,,,Proposed,20-30 minutes,,design UI mockups
+TSK-296,Define next milestone triggers (Data Population),AI,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+TSK-297,Create Content Entity,AI,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+TSK-298,Create Content Department,AI,SMM,High,AI Researcher / Developer,TBD,SMM Lead,,,Proposed,6-9 hours (4-6 hours research + 2-3 hours documentation),,N/A
+TSK-299,Integrate shifts management,AI,HR,High,HR Manager / Automation Specialist,TBD,HR Lead,,,Proposed,2-3 hours (one-time setup),,N/A
+TSK-300,Create shortcuts lesson/post,AI,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+TSK-301,Prepare list of researches for Entity: Researches,AI,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+TSK-302,Research YouTube videos for transcription,AI,Video,High,AI Researcher / Video Production Specialist,TBD,Video Lead,,,Proposed,6-9 hours (4-6 hours research + 2-3 hours documentation),,produce videos
+TSK-303,Build automation posting,AI,Design,High,Specialist,TBD,Design Lead,,,Proposed,20-30 minutes,,design UI mockups
+TSK-304,Train AI to build research tasks for people,AI,Design,High,Specialist,TBD,Design Lead,,,Proposed,20-30 minutes,,design UI mockups
+TSK-305,List automations to learn or integrate,AI,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+TSK-306,Task: Search for videos (template),AI,Video,High,Specialist,TBD,Video Lead,,,Proposed,TBD,,produce videos
+TSK-307,Hosting in Vercel (Dev account),AI,Sales,High,Sales Manager,TBD,Sales Lead,,,Proposed,4-5 hours for 50 emails,,manage sales pipeline
+TSK-308,Automate library update,AI,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+TSK-309,Canva download/integration,AI,Development,High,Specialist,TBD,Development Lead,,,Proposed,TBD,,N/A
+TSK-310,Create six must-have files list,AI,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+TSK-311,Design core documents,AI,Design,High,Designer / Developer / Creative Professional,TBD,Design Lead,,,Proposed,2 hours (45 min organization + 45 min documentation + 30 min updates),,design UI mockups
+TSK-312,Create Pre-Sale candidate tracking system,HR,HR,High,HR Manager / Operations Specialist,TBD,HR Lead,,,Proposed,2-3 hours,,N/A
+TSK-313,Add Ukandu Christopher to Pre-Sale list,HR,HR,High,HR Manager / Automation Specialist,TBD,HR Lead,,,Proposed,2-3 hours (one-time setup),,N/A
+TSK-314,Sign contract with Borovik for client interview,HR,Sales,High,Sales Manager,TBD,Sales Lead,,,Proposed,4-5 hours for 50 emails,,manage sales pipeline
+TSK-315,Prepare Borovik for tomorrow's client interview,HR,Sales,High,Sales Manager,TBD,Sales Lead,,,Proposed,4-5 hours for 50 emails,,manage sales pipeline
+TSK-316,Create candidate warming system for hot list,HR,HR,High,HR Manager / Operations Specialist,TBD,HR Lead,,,Proposed,1.5-2 hours,,N/A
+TSK-317,Document interview requirements checklist,HR,HR,High,HR Manager / Operations Specialist,TBD,HR Lead,,,Proposed,1.5-2 hours,,N/A
+TSK-318,Create interview scoring rubric,HR,HR,High,HR Manager / Operations Specialist,TBD,HR Lead,,,Proposed,1.5-2 hours,,N/A
+TSK-319,Follow up with Valeriia on trial terms,AI,HR,High,HR Manager / Automation Specialist,TBD,HR Lead,,,Proposed,2-3 hours (one-time setup),,N/A
+TSK-106,Find historical search queries file on Google Drive,AI,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+TSK-107,Reformat LinkedIn queries for Google Maps,AI,Lead Generation,High,Lead Generation Specialist / Sales Development Rep,TBD,Lead Generation Lead,,,Proposed,3 hours (1 hour research + 1.5 hours data entry + 30 min qualification),,generate leads
+TSK-108,Create detailed prompt for query generation (Column H),AI,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+TSK-109,Build URL parsing script,AI,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+TSK-110,Extract company name from URLs,AI,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+TSK-111,Connect scraper to CRM automation,AI,Sales,High,Sales Manager,TBD,Sales Lead,,,Proposed,4-5 hours for 50 emails,,manage sales pipeline
+TSK-112,Implement duplicate checking against CRM,AI,Sales,High,Sales Manager,TBD,Sales Lead,,,Proposed,4-5 hours for 50 emails,,manage sales pipeline
+TSK-113,Test scraping with 3-4 videos about Google Maps scraping,AI,Lead Generation,High,Lead Generation Specialist / Sales Development Rep,TBD,Lead Generation Lead,,,Proposed,3 hours (1 hour research + 1.5 hours data entry + 30 min qualification),,generate leads
+TSK-114,"Allocate 5 lead generators, 1-2 hours/day for Google Maps",AI,Lead Generation,High,Lead Generation Specialist / Sales Development Rep,TBD,Lead Generation Lead,,,Proposed,3 hours (1 hour research + 1.5 hours data entry + 30 min qualification),,generate leads
+TSK-115,Create attractive offer for leads (20 Google vs 5 LinkedIn),AI,Lead Generation,High,Lead Generation Specialist / Sales Development Rep,TBD,Lead Generation Lead,,,Proposed,3 hours (1 hour research + 1.5 hours data entry + 30 min qualification),,generate leads
+TSK-116,Document scraping system (20% checkpoint),AI,Development,High,AI Researcher / Video Production Specialist,TBD,Development Lead,,,Proposed,6-9 hours (4-6 hours research + 2-3 hours documentation),,N/A
+TSK-117,Research world methodologies on Google Maps scraping,AI,Lead Generation,High,AI Researcher / Video Production Specialist,TBD,Lead Generation Lead,,,Proposed,6-9 hours (4-6 hours research + 2-3 hours documentation),,generate leads
+TSK-118,Create guidelines for reviews scraping direction,AI,Design,High,Specialist,TBD,Design Lead,,,Proposed,20-30 minutes,,design UI mockups
+TSK-119,Add source marking for Google Maps data,AI,Lead Generation,High,Lead Generation Specialist / Sales Development Rep,TBD,Lead Generation Lead,,,Proposed,3 hours (1 hour research + 1.5 hours data entry + 30 min qualification),,generate leads
+TSK-120,Implement social media scraping,AI,SMM,High,AI Researcher / Developer,TBD,SMM Lead,,,Proposed,6-9 hours (4-6 hours research + 2-3 hours documentation),,N/A
+TSK-121,Test review system with live data,AI,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+TSK-122,Launch system with LGN team,AI,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+TSK-123,Create Job Sites folder in ENTITIES/ACCOUNTS,AI,Lead Generation,High,Lead Generation Specialist / Sales Development Rep,TBD,Lead Generation Lead,,,Proposed,3 hours (1 hour research + 1.5 hours data entry + 30 min qualification),,generate leads
+TSK-124,Review other entities' taxonomy,AI,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+TSK-125,Build Job Sites entity structure,AI,Lead Generation,High,Lead Generation Specialist / Sales Development Rep,TBD,Lead Generation Lead,,,Proposed,3 hours (1 hour research + 1.5 hours data entry + 30 min qualification),,generate leads
+TSK-126,Create Master JSON for Job Sites,AI,Lead Generation,High,Lead Generation Specialist / Sales Development Rep,TBD,Lead Generation Lead,,,Proposed,3 hours (1 hour research + 1.5 hours data entry + 30 min qualification),,generate leads
+TSK-127,Document Job Sites entity,AI,Lead Generation,High,Lead Generation Specialist / Sales Development Rep,TBD,Lead Generation Lead,,,Proposed,3 hours (1 hour research + 1.5 hours data entry + 30 min qualification),,generate leads
+TSK-128,Deploy v1.0 to Vercel,AI,Development,High,AI Engineer,AI Engineer,Development Lead,"Backend Developer, Operations Team","Automation Team, End Users",Proposed,5-10 minutes with AI assistance,"SKL-071 (deployed MCP connectors via Cursor), SKL-075 (configured OAuth for Google APIs - if needed)",N/A
+TSK-129,Share dashboard access with all departments,AI,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+TSK-130,Fix white text display,AI,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+TSK-131,Add tool filtering feature,AI,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+TSK-132,Implement user login tracking,AI,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+TSK-133,Create user assignment system,AI,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+TSK-134,Integrate UI Kit from Eleanor's work,AI,Design,High,Specialist,TBD,Design Lead,,,Proposed,20-30 minutes,,design UI mockups
+TSK-135,Add calendar feature,AI,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+TSK-136,Build API for dashboard data,AI,Design,High,Specialist,TBD,Design Lead,,,Proposed,20-30 minutes,,design UI mockups
+TSK-137,Integrate with LibDev catalog,AI,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+TSK-138,Document dashboard usage,AI,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+TSK-139,Create employee training materials,AI,HR,High,HR Manager / Operations Specialist,TBD,HR Lead,,,Proposed,2-3 hours,,N/A
+TSK-140,Teach Vilhelm video parsing workflow,Video,Video,High,Specialist,TBD,Video Lead,,,Proposed,TBD,,produce videos
+TSK-141,Set up Vilhelm's VS Code with Claude Extension,Video,AI,High,Executive Assistant,Executive Assistant,Executive or Manager,AI Engineer for setup,"Executive, Team members",Proposed,Auto-draft: <1 minute | Review: 10 minutes,SKL-072 (automated emails via Gmail MCP),N/A
+TSK-142,Configure Vilhelm's key bindings,Video,Video,High,Specialist,TBD,Video Lead,,,Proposed,TBD,,produce videos
+TSK-143,Introduce Vilhelm to ENTITIES structure,Video,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+TSK-144,Assign Vilhelm accounts with limits,Video,Sales,High,Sales Manager,TBD,Sales Lead,,,Proposed,4-5 hours for 50 emails,,manage sales pipeline
+TSK-145,Vilhelm: Research YouTube channels on Google Maps scraping,Video,Lead Generation,High,AI Researcher / Video Production Specialist,TBD,Lead Generation Lead,,,Proposed,6-9 hours (4-6 hours research + 2-3 hours documentation),,generate leads
+TSK-146,Vilhelm: Parse 3-4 videos by Monday,AI,Video,High,Specialist,TBD,Video Lead,,,Proposed,TBD,,produce videos
+TSK-147,"Vilhelm: Create ""Deep Research"" task",AI,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+TSK-148,Vilhelm: Check Online Academy for Deep Research content,AI,SMM,High,AI Researcher / Video Production Specialist,TBD,SMM Lead,,,Proposed,6-9 hours (4-6 hours research + 2-3 hours documentation),,N/A
+TSK-149,Vilhelm: Integrate prompts into ENTITIES ecosystem,AI,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+TSK-150,Document current AI tools tracking system,AI,AI,High,AI Researcher / Content Specialist,TBD,AI Lead,,,Proposed,5-8 hours (3-5 hours research + 2-3 hours documentation),,N/A
+TSK-151,Add user assignment field to accounts,AI,Sales,High,Sales Manager,TBD,Sales Lead,,,Proposed,4-5 hours for 50 emails,,manage sales pipeline
+TSK-152,Implement login session tracking,AI,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+TSK-153,Create token usage alerts,AI,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+TSK-154,Purchase additional AI tool accounts,AI,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+TSK-155,Sync Dropbox Tools to libdev.com,AI,Development,High,AI Engineer,AI Engineer,Development Lead,"Backend Developer, Operations Team","Automation Team, End Users",Proposed,5-10 minutes with AI assistance,"SKL-071 (deployed MCP connectors via Cursor), SKL-075 (configured OAuth for Google APIs - if needed)",N/A
+TSK-156,Build account rotation recommendations,AI,Sales,High,Sales Manager,TBD,Sales Lead,,,Proposed,4-5 hours for 50 emails,,manage sales pipeline
+TSK-157,Design single task page layout,AI,Design,High,Specialist,TBD,Design Lead,,,Proposed,20-30 minutes,,design UI mockups
+TSK-158,Create prompt for task page generation,AI,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+TSK-159,Build HTML template for single task,AI,Design,High,Specialist,TBD,Design Lead,,,Proposed,20-30 minutes,,design UI mockups
+TSK-160,Test with Deep Research task,AI,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+TSK-161,Create research queue/line system,AI,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+TSK-162,Integrate with TASK_MANAGERS data,AI,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+TSK-163,Create CONTENT entity folder,AI,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+TSK-164,Define CONTENT entity taxonomy,AI,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+TSK-165,Create Master CSV for CONTENT,AI,SMM,High,AI Researcher / Developer,TBD,SMM Lead,,,Proposed,6-9 hours (4-6 hours research + 2-3 hours documentation),,N/A
+TSK-166,Populate with existing tutorials,AI,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+TSK-167,Research Figma AI tutorial videos,AI,Video,High,AI Researcher / Video Production Specialist,TBD,Video Lead,,,Proposed,6-9 hours (4-6 hours research + 2-3 hours documentation),,produce videos
+TSK-168,Build video catalog app,AI,Video,High,AI Researcher / Developer,TBD,Video Lead,,,Proposed,6-9 hours (4-6 hours research + 2-3 hours documentation),,produce videos
+TSK-169,Implement clickable timestamps,AI,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+TSK-170,Create minimum parse list,AI,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+TSK-171,Review current video processing taxonomy,AI,Finance,High,AI Researcher / Video Production Specialist,TBD,Finance Lead,,,Proposed,6-9 hours (4-6 hours research + 2-3 hours documentation),,N/A
+TSK-172,Identify taxonomy improvements,AI,Finance,High,Finance Manager / Automation Specialist,TBD,Finance Lead,,,Proposed,3 hours (45 min requirements + 1.5 hours design + 45 min testing),,N/A
+TSK-173,Implement taxonomy upgrades,AI,Finance,High,Finance Manager / Automation Specialist,TBD,Finance Lead,,,Proposed,3 hours (45 min requirements + 1.5 hours design + 45 min testing),,N/A
+TSK-174,Document video editor processed works,Video,Video,High,AI Researcher / Video Production Specialist,TBD,Video Lead,,,Proposed,6-9 hours (4-6 hours research + 2-3 hours documentation),,produce videos
+TSK-175,Define Google Drive storage locations,Video,Video,High,Specialist,TBD,Video Lead,,,Proposed,TBD,,produce videos
+TSK-176,Research Gravity AI tool capabilities,AI,AI,High,AI Researcher / Content Specialist,TBD,AI Lead,,,Proposed,5-8 hours (3-5 hours research + 2-3 hours documentation),,N/A
+TSK-177,Integrate Responsibilities into LBS taxonomy,AI,Finance,High,Finance Manager / Automation Specialist,TBD,Finance Lead,,,Proposed,3 hours (45 min requirements + 1.5 hours design + 45 min testing),,N/A
+TSK-178,Document Gravity integration,AI,Development,High,AI Researcher / Video Production Specialist,TBD,Development Lead,,,Proposed,6-9 hours (4-6 hours research + 2-3 hours documentation),,N/A
+TSK-179,Prepare shifts management system,AI,HR,High,HR Manager / Operations Specialist,TBD,HR Lead,,,Proposed,1.5-2 hours,,N/A
+TSK-180,Document schedule management techniques,AI,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+TSK-181,Connect research to posting schedule,AI,SMM,High,AI Researcher / Video Production Specialist,TBD,SMM Lead,,,Proposed,6-9 hours (4-6 hours research + 2-3 hours documentation),,N/A
+TSK-182,Create BUSINESSES entity folder,AI,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+TSK-183,Define BUSINESSES entity taxonomy,AI,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+TSK-184,Document client interview process,AI,Sales,High,Sales Manager,TBD,Sales Lead,,,Proposed,4-5 hours for 50 emails,,manage sales pipeline
+TSK-185,Track Friday client scheduling,AI,Sales,High,Sales Manager,TBD,Sales Lead,,,Proposed,4-5 hours for 50 emails,,manage sales pipeline
+TSK-186,Store interview recordings/notes,AI,HR,High,HR Manager / Operations Specialist,TBD,HR Lead,,,Proposed,1.5-2 hours,,N/A
+TSK-187,Define profession categories,AI,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+TSK-188,Populate tutorials per profession,AI,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+TSK-189,Create guidelines per profession,AI,Design,High,Specialist,TBD,Design Lead,,,Proposed,20-30 minutes,,design UI mockups
+TSK-190,Build AI assistant framework,AI,Design,High,Specialist,TBD,Design Lead,,,Proposed,20-30 minutes,,design UI mockups
+TSK-191,Design InnerClient concept,AI,Sales,High,Specialist,TBD,Sales Lead,,,Proposed,20-30 minutes,,manage sales pipeline
+TSK-192,Define pricing per profession,AI,Finance,High,Finance Manager / Automation Specialist,TBD,Finance Lead,,,Proposed,3 hours (45 min requirements + 1.5 hours design + 45 min testing),,N/A
+TSK-193,Create UI for InnerClient system,AI,Sales,High,Sales Manager,TBD,Sales Lead,,,Proposed,4-5 hours for 50 emails,,manage sales pipeline
+TSK-194,Set up human curation process,AI,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+TSK-195,Sync Dropbox Tools library to libdev.com,AI,Development,High,AI Engineer,AI Engineer,Development Lead,"Backend Developer, Operations Team","Automation Team, End Users",Proposed,5-10 minutes with AI assistance,"SKL-071 (deployed MCP connectors via Cursor), SKL-075 (configured OAuth for Google APIs - if needed)",N/A
+TSK-196,Research Dropbox API synchronization,AI,Development,High,AI Researcher / Video Production Specialist,TBD,Development Lead,,,Proposed,6-9 hours (4-6 hours research + 2-3 hours documentation),,N/A
+TSK-197,Build manual sync script (fallback),AI,Design,High,Specialist,TBD,Design Lead,,,Proposed,20-30 minutes,,design UI mockups
+TSK-198,Create knowledge gap identification process,AI,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+TSK-199,Implement Read/Write/Save reminder system,AI,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+TSK-200,Monday call at 9 AM,Design,Design,High,Specialist,TBD,Design Lead,,,Proposed,20-30 minutes,,design UI mockups
+TSK-201,Vilhelm + Yulya: Collect designer works,Design,Design,High,Specialist,TBD,Design Lead,,,Proposed,20-30 minutes,,design UI mockups
+TSK-202,Implement designer work storage in Dropbox,Design,Design,High,Specialist,TBD,Design Lead,,,Proposed,20-30 minutes,,design UI mockups
+TSK-203,Document Monday progress,Design,Design,High,Designer / Developer / Creative Professional,TBD,Design Lead,,,Proposed,2 hours (45 min organization + 45 min documentation + 30 min updates),,design UI mockups
+TSK-204,Create plans for next stage,Design,Design,High,Specialist,TBD,Design Lead,,,Proposed,20-30 minutes,,design UI mockups
+TSK-205,Review all designer portfolios,AI,Design,High,AI Researcher / Content Specialist,TBD,Design Lead,,,Proposed,5-8 hours (3-5 hours research + 2-3 hours documentation),,design UI mockups
+TSK-206,Mandate Dropbox work storage for designers,AI,Design,High,Specialist,TBD,Design Lead,,,Proposed,20-30 minutes,,design UI mockups
+TSK-207,Create daily work documentation requirement,AI,Design,High,Specialist,TBD,Design Lead,,,Proposed,20-30 minutes,,design UI mockups
+TSK-208,Diversify designer portfolios,AI,Design,High,Specialist,TBD,Design Lead,,,Proposed,20-30 minutes,,design UI mockups
+TSK-209,Build case studies library,AI,Design,High,Specialist,TBD,Design Lead,,,Proposed,20-30 minutes,,design UI mockups
+TSK-210,Train designers on AI tools,AI,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+TSK-211,Design financial framework structure,AI,Finance,High,Finance Manager / Automation Specialist,TBD,Finance Lead,,,Proposed,3 hours (45 min requirements + 1.5 hours design + 45 min testing),,N/A
+TSK-212,Create data sets for financial wiki,AI,Finance,High,Finance Manager / Automation Specialist,TBD,Finance Lead,,,Proposed,3 hours (45 min requirements + 1.5 hours design + 45 min testing),,N/A
+TSK-213,Document calculation sources,AI,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+TSK-214,Collect employee profiles for Talents,AI,HR,High,HR Manager / Automation Specialist,TBD,HR Lead,,,Proposed,2-3 hours (one-time setup),,N/A
+TSK-215,Create modified public profiles,AI,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+TSK-216,Implement log files in every entity folder,AI,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+TSK-217,Create main researchers' log,AI,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+TSK-218,Build structured guidelines for manual assignment,AI,Design,High,Specialist,TBD,Design Lead,,,Proposed,20-30 minutes,,design UI mockups
+TSK-219,Create step-by-step documentation templates,AI,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+TSK-220,Identify department data gaps,AI,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+TSK-221,Create TODO file system,AI,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+TSK-222,Build AI prompt for task distribution,AI,Design,High,Specialist,TBD,Design Lead,,,Proposed,20-30 minutes,,design UI mockups
+TSK-223,Implement daily TODO generation,AI,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+TSK-224,Document transcription best practices,AI,Video,High,AI Researcher / Video Production Specialist,TBD,Video Lead,,,Proposed,6-9 hours (4-6 hours research + 2-3 hours documentation),,produce videos
+TSK-225,Improve dictation-to-entity workflow,AI,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+TSK-226,Fix unpredictable save locations,AI,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+TSK-227,Standardize report storage paths,AI,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+TSK-228,Document report generation process,AI,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+TSK-229,Create attendance_dashboard asset,Development,HR,High,HR Manager / Operations Specialist,TBD,HR Lead,,,Proposed,2-3 hours,,N/A
+TSK-230,Write README with all links,Development,Development,High,AI Researcher / Video Production Specialist,TBD,Development Lead,,,Proposed,6-9 hours (4-6 hours research + 2-3 hours documentation),,N/A
+TSK-231,Set up version tracking,Development,Development,High,Specialist,TBD,Development Lead,,,Proposed,TBD,,N/A
+TSK-232,Document design updates log,Development,Design,High,Designer / Developer / Creative Professional,TBD,Design Lead,,,Proposed,2 hours (45 min organization + 45 min documentation + 30 min updates),,design UI mockups
+TSK-030,Interviews Lists to MD Files,AI,HR,High,HR Manager / Automation Specialist,TBD,HR Lead,,,Proposed,2-3 hours (one-time setup),,N/A
+TSK-031,Clear Lists of Candidates Sources,HR,HR,High,HR Manager / Automation Specialist,TBD,HR Lead,,,Proposed,2-3 hours (one-time setup),,N/A
+TSK-032,HR Onboarding preparation,HR,HR,High,HR Manager / Operations Specialist,TBD,HR Lead,,,Proposed,2-3 hours,,N/A
+TSK-033,Integrate Individual Employee Testing,HR,HR,High,HR Manager / Automation Specialist,TBD,HR Lead,,,Proposed,2-3 hours (one-time setup),,N/A
+TSK-034,Discord Bot notifications,HR,HR,High,HR Manager / Automation Specialist,TBD,HR Lead,,,Proposed,2-3 hours (one-time setup),,N/A
+TSK-035,Expand Industries,AI,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+TSK-036,LG Message Templates,AI,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+TSK-037,Prospects Architecture Improvement,AI,Sales,High,Sales Manager,TBD,Sales Lead,,,Proposed,4-5 hours for 50 emails,,manage sales pipeline
+TSK-038,Feed database: 300 new leads daily,AI,Development,High,Specialist,TBD,Development Lead,,,Proposed,TBD,,N/A
+TSK-039,Populate leads with classifications,AI,Lead Generation,High,Lead Generation Specialist / Sales Development Rep,TBD,Lead Generation Lead,,,Proposed,3 hours (1 hour research + 1.5 hours data entry + 30 min qualification),,generate leads
+TSK-040,Target audience analysis,AI,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+TSK-041,Extract/analyze LG conversations,AI,AI,High,AI Researcher / Video Production Specialist,TBD,AI Lead,,,Proposed,6-9 hours (4-6 hours research + 2-3 hours documentation),,N/A
+TSK-042,Build look-alike auditory,AI,Design,High,HR Manager / Operations Specialist,TBD,Design Lead,,,Proposed,1.5-2 hours,,design UI mockups
+TSK-043,Testing Individual Scraping Techniques,AI,Development,High,HR Manager / Social Media Specialist,TBD,Development Lead,,,Proposed,1.5-2 hours,,N/A
+TSK-044,LG Department Core Principles Doc,AI,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+TSK-045,Obligatory: Save 5 Templates + Screenshot,AI,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+TSK-046,Sales Email Templates,AI,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+TSK-047,Connect to Google Calendar,AI,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+TSK-048,Scrape Event Metadata,AI,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+TSK-049,Populate Business Entity from Sales,AI,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+TSK-050,Get CRM Data on Daily LeadGen Cards,AI,Sales,High,Specialist,TBD,Sales Lead,,,Proposed,TBD,,manage sales pipeline
+TSK-051,Learning Flow Step-by-Step Development,Development,Development,High,Specialist,TBD,Development Lead,,,Proposed,TBD,,N/A
+TSK-052,Track Task Completions via Microservices,Development,Development,High,Specialist,TBD,Development Lead,,,Proposed,TBD,,N/A
+TSK-053,Synchronize Libs with Online Academy,Development,Development,High,Specialist,TBD,Development Lead,,,Proposed,TBD,,N/A
+TSK-054,Connect Task Managers to Libs,Development,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+TSK-055,Task Manager Dashboard with Database,Development,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+TSK-056,n8n Image Generation Guide,Development,Design,High,Specialist,TBD,Design Lead,,,Proposed,20-30 minutes,,design UI mockups
+TSK-057,Frontend OAuth Implementation,AI,Development,High,Specialist,TBD,Development Lead,,,Proposed,TBD,,N/A
+TSK-058,Personal Task Manager Web Pages,AI,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+TSK-059,Add Rules for AI in Each Folder,AI,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+TSK-060,Log Entity Integration,AI,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+TSK-061,Keep Logs Longer,AI,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+TSK-062,Develop USER Entities,AI,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+TSK-063,Review TALENTS match with Database,AI,HR,High,Specialist,TBD,HR Lead,,,Proposed,TBD,,N/A
+TSK-064,Prepare DB EXPORT Folder: LIBRARIES,AI,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+TSK-065,Text Researches Recognition & Import,AI,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+TSK-066,Core System Taxonomy Architecture Review,AI,Finance,High,Specialist,TBD,Finance Lead,,,Proposed,TBD,,N/A
+TSK-067,Prompt for Transcription Export,AI,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+TSK-068,Prompts for Weekly Analysis,AI,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+TSK-069,Prompts for Daily Analysis,AI,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+TSK-070,Researches Dashboard,AI,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+TSK-071,Export Dailies Summaries to ToDo App,AI,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+TSK-072,Tasks Templates Execution System,AI,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+TSK-073,Steps Confirmation System,AI,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+TSK-074,Portfolio Diversification Strategy,AI,Design,High,Specialist,TBD,Design Lead,,,Proposed,20-30 minutes,,design UI mockups
+TSK-075,Create More Case Studies,AI,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+TSK-076,Deep Research Designer Task,AI,Design,High,Graphic Designer / Visual Designer,TBD,Design Lead,,,Proposed,2.5 hours (30 min planning + 1.5 hours generation + 30 min refinement),,design UI mockups
+TSK-077,Media Library Development,AI,AI,High,AI Engineer / DevOps Engineer,TBD,AI Lead,,,Proposed,2 hours (30 min install + 1 hour config + 30 min testing),,N/A
+ARC-001,Add Employees Folders Relative Path,AI,HR,High,Specialist,TBD,HR Lead,,,Proposed,TBD,,N/A
+ARC-002,Expand Employees Profiles,AI,HR,High,Specialist,TBD,HR Lead,,,Proposed,TBD,,N/A
+ARC-003,Copy All Employees Profiles into Talents,AI,HR,High,Specialist,TBD,HR Lead,,,Proposed,TBD,,N/A
+ARC-004,Consider Entities v2 Architecture,AI,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+ARC-005,Integrate Log System,AI,AI,High,Executive Assistant,Executive Assistant,Executive or Manager,AI Engineer for setup,"Executive, Team members",Proposed,Auto-draft: <1 minute | Review: 10 minutes,SKL-072 (automated emails via Gmail MCP),N/A
+ARC-006,Block/Fields Sub System (Similarities),AI,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+TSK-066,Core System Taxonomy Architecture Review,AI,Finance,High,Specialist,TBD,Finance Lead,,,Proposed,TBD,,N/A
+TSK-067,Prompt for Transcription Export,AI,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+TSK-068,Prompts for Weekly Analysis,AI,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+TSK-069,Prompts for Daily Analysis,AI,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+TSK-070,Researches Dashboard,AI,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+TSK-071,Export Dailies Summaries to ToDo App,AI,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+TSK-001,Research to Task Manager integration,AI,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+TSK-002,Pack all dailies into Week3 folder,AI,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+FIX-001,Resolve duplicates in TSM-006_Workflows,AI,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+PRT-011,Google Maps Scraping System,AI,Lead Generation,Critical,Lead Generation Specialist / Sales Development Rep,TBD,Lead Generation Lead,,,Proposed,3 hours (1 hour research + 1.5 hours data entry + 30 min qualification),,generate leads
+PRT-012,Reviews Scraping & Analysis System,AI,AI,Critical,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+PRT-013,Job Sites Entity Creation,AI,AI,High,Executive Assistant,Executive Assistant,Executive or Manager,AI Engineer for setup,"Executive, Team members",Proposed,Auto-draft: <1 minute | Review: 10 minutes,SKL-072 (automated emails via Gmail MCP),N/A
+PRT-014,HR Attendance Dashboard,AI,Development,Critical,DevOps Engineer / Cloud Engineer,TBD,Development Lead,,,Proposed,4 hours (1 hour planning + 2 hours implementation + 1 hour testing),,N/A
+PRT-015,Vilhelm Onboarding & Video Processing Training,AI,AI,Critical,Executive Assistant,Executive Assistant,Marketing Manager or Executive,"Content Manager, Marketing Team",Newsletter subscribers,Proposed,Auto-generate: <1 minute | Review: 5-10 minutes,SKL-072 (automated emails via Gmail MCP),N/A
+PRT-016,AI Tools & Accounts Management System,AI,AI,Critical,AI Engineer / Data Analyst,TBD,AI Lead,,,Proposed,1.5 hours (30 min automation run + 45 min validation + 15 min reporting),,N/A
+PRT-017,Task Manager Dashboard (Single Task View),AI,AI,Medium,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+PRT-004,Single Sign-In Distribution System,AI,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+PRT-005,GitHub Entities Repository Integration,AI,AI,High,Executive Assistant,Executive Assistant,Executive or Manager,AI Engineer for setup,"Executive, Team members",Proposed,Auto-draft: <1 minute | Review: 10 minutes,SKL-072 (automated emails via Gmail MCP),N/A
+PRT-006,ID System for Services,AI,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+PRT-007,Research Integration with Google TODO,AI,Development,Medium,Specialist,TBD,Development Lead,,,Proposed,TBD,,N/A
+PRT-008,Researches Dashboard,AI,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+PRT-009,PROSPECTS → Populate Data with AI Research,AI,Sales,Critical,Sales Manager,TBD,Sales Lead,,,Proposed,4-5 hours for 50 emails,,manage sales pipeline
+PRT-010,Affiliation Department Creation,AI,AI,Low,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+PRT-001,Video Processing Automation,AI,Video,High,Specialist,TBD,Video Lead,,,Proposed,TBD,,produce videos
+PRT-002,Entity System Cleanup,AI,AI,Critical,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+PRT-003,Research Integration Pipeline,AI,AI,Low,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+MLT-029,Search Query System,AI,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+MLT-030,Scraper Automation,AI,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+MLT-031,Data Processing,AI,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+MLT-032,CRM Integration,AI,Sales,High,Sales Manager,TBD,Sales Lead,,,Proposed,4-5 hours for 50 emails,,manage sales pipeline
+MLT-033,Testing & Analytics,AI,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+MLT-034,Company & Reviews Data Collection,AI,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+MLT-035,Semantic Analysis Setup,AI,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+MLT-036,Problem Score Algorithm,AI,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+MLT-037,Recommendation Engine,AI,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+MLT-038,Social Media Integration,AI,SMM,High,Specialist,TBD,SMM Lead,,,Proposed,TBD,,N/A
+MLT-039,Source Tracking & Documentation,AI,AI,High,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+TSK-AID-2025-11-20-001,Antigravity Installation and Configuration,AI,Design,High,Specialist,TBD,Design Lead,,,Proposed,TBD,,design UI mockups
+TSK-AID-2025-11-20-002,Attendants Automation Infrastructure Setup,AI,Sales,High,Specialist,TBD,Sales Lead,,,Proposed,TBD,,manage sales pipeline
+TSK-AID-2025-11-20-003,Daily File Processing and Documentation,AI,AI,Medium,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+TSK-AID-2025-11-20-004,Account Microservice Database Schema Design,AI,Development,High,Specialist,TBD,Development Lead,,,Proposed,TBD,,N/A
+TSK-AID-2025-11-20-005,Account Microservice Schema Refinement,AI,Development,Medium,Specialist,TBD,Development Lead,,,Proposed,TBD,,N/A
+TSK-DEV-2025-11-20-001,Code Cleanup and Configuration Centralization,Development,Development,Medium,Specialist,TBD,Development Lead,,,Proposed,TBD,,N/A
+TSK-DEV-2025-11-20-002,lead_gen_analytics Bug Fixes,Development,Lead Generation,High,Specialist,TBD,Lead Generation Lead,,,Proposed,TBD,,generate leads
+TSK-DEV-2025-11-20-003,UI Enhancement - Hover Effects,Development,Design,Medium,Specialist,TBD,Design Lead,,,Proposed,TBD,,design UI mockups
+TSK-DEV-2025-11-20-004,Antigravity IDE Analysis,Development,Development,Low,Specialist,TBD,Development Lead,,,Proposed,TBD,,N/A
+TSK-DEV-2025-11-20-005,SSH Authentication Setup,Development,Development,Low,Specialist,TBD,Development Lead,,,Proposed,TBD,,N/A
+TSK-DEV-2025-11-20-006,upload_crms OAuth Implementation,Development,Sales,High,Sales Manager,TBD,Sales Lead,,,Proposed,4-5 hours for 50 emails,,manage sales pipeline
+TSK-DEV-2025-11-20-007,Dashboard/Courses UI Improvements,Development,Design,High,Specialist,TBD,Design Lead,,,Proposed,20-30 minutes,,design UI mockups
+TSK-DGN-2025-11-20-001,Game Academy Course Covers Delivery,Design,Design,High,Specialist,TBD,Design Lead,,,Proposed,TBD,,design UI mockups
+TSK-DGN-2025-11-20-002,Client Interview Preparation and Participation,Design,Sales,High,Specialist,TBD,Sales Lead,,,Proposed,TBD,,manage sales pipeline
+TSK-DGN-2025-11-20-003,Black Friday Banner Generation,Design,Lead Generation,High,Specialist,TBD,Lead Generation Lead,,,Proposed,TBD,,generate leads
+TSK-DGN-2025-11-20-004,Course Visual Materials Creation (Module 1),Design,Design,High,Specialist,TBD,Design Lead,,,Proposed,TBD,,design UI mockups
+TSK-DGN-2025-11-20-005,Runway Animation Instruction Creation,Design,Video,Medium,Specialist,TBD,Video Lead,,,Proposed,TBD,,produce videos
+TSK-DGN-2025-11-20-006,Runway Animation Course Creation,Design,Video,Medium,Lead Generator,Lead Generator,Lead Generation Manager,,SDR Team,Proposed,10-15 minutes,SKL-061 (enriched emails via similar tools),produce videos
+TSK-DGN-2025-11-20-007,Lead Generator Training Preparation,Design,Lead Generation,High,Specialist,TBD,Lead Generation Lead,,,Proposed,TBD,,generate leads
+TSK-DGN-2025-11-20-008,Antigravity Installation and Setup,Design,Design,Medium,Specialist,TBD,Design Lead,,,Proposed,TBD,,design UI mockups
+TSK-DGN-2025-11-20-009,HTML Course Thumbnail Creation,Design,AI,Medium,Specialist,TBD,AI Lead,,,Proposed,TBD,,N/A
+TSK-DGN-2025-11-20-010,Course Module Images and Animation,Design,Video,Medium,AI Engineer,AI Engineer,Development Lead,"Backend Developer, Operations Team","Automation Team, End Users",Proposed,5-10 minutes with AI assistance,"SKL-071 (deployed MCP connectors via Cursor), SKL-075 (configured OAuth for Google APIs - if needed)",produce videos
+TSK-FNC-2025-11-20-001,Employee Working Hours Verification,Finance,HR,High,Specialist,TBD,HR Lead,,,Proposed,TBD,,N/A
+TSK-FNC-2025-11-20-002,December 2025 Financial Processing Sheet Preparation Plan,Finance,Finance,High,Specialist,TBD,Finance Lead,,,Proposed,TBD,,N/A
+TSK-FNC-2025-11-20-003,n8n Automation Workflow Design,Finance,HR,Medium,Specialist,TBD,HR Lead,,,Proposed,TBD,,N/A
+TSK-HRM-2025-11-20-001,Interview Checklist Creation,HR,HR,High,Specialist,TBD,HR Lead,,,Proposed,TBD,,N/A
+TSK-HRM-2025-11-20-002,Candidate Interviews,HR,HR,High,Specialist,TBD,HR Lead,,,Proposed,TBD,,N/A
+TSK-HRM-2025-11-20-003,Candidate Approval and Transfer,HR,HR,High,Specialist,TBD,HR Lead,,,Proposed,TBD,,N/A
+TSK-HRM-2025-11-20-004,Contract Sending,HR,HR,High,Specialist,TBD,HR Lead,,,Proposed,TBD,,N/A
+TSK-HRM-2025-11-20-005,Employee Day-Off Request Processing,HR,HR,Medium,Specialist,TBD,HR Lead,,,Proposed,TBD,,N/A
+TSK-LGN-2025-11-20-001,Lead Generation - Job Sites and CRM,Lead Generation,Lead Generation,High,Specialist,TBD,Lead Generation Lead,,,Proposed,TBD,,generate leads
+TSK-LGN-2025-11-20-002,Follow-Up Messages,Lead Generation,Sales,High,Specialist,TBD,Sales Lead,,,Proposed,TBD,,manage sales pipeline
+TSK-LGN-2025-11-20-003,Website Streaming and Account Management,Lead Generation,Sales,Medium,Specialist,TBD,Sales Lead,,,Proposed,TBD,,manage sales pipeline
+TSK-LGN-2025-11-20-004,Job Sites and Pipeline Building,Lead Generation,Sales,High,Specialist,TBD,Sales Lead,,,Proposed,TBD,,manage sales pipeline
+TSK-LGN-2025-11-20-005,Lead Generation Training,Lead Generation,Lead Generation,Medium,Specialist,TBD,Lead Generation Lead,,,Proposed,TBD,,generate leads
+TSK-SLS-2025-11-20-001,Daily Tasks Completion,Sales,Sales,High,Specialist,TBD,Sales Lead,,,Proposed,TBD,,manage sales pipeline
+TSK-SLS-2025-11-20-002,Tomorrow's Priorities Planning,Sales,Sales,Medium,Specialist,TBD,Sales Lead,,,Proposed,TBD,,manage sales pipeline
+TSK-VID-2025-11-20-001,Video Animation Work,Video,Sales,High,Specialist,TBD,Sales Lead,,,Proposed,TBD,,manage sales pipeline
+TSK-VID-2025-11-20-002,Portfolio Organization,Video,Video,Medium,Specialist,TBD,Video Lead,,,Proposed,TBD,,produce videos
+TSK-VID-2025-11-20-003,Team Coordination,Video,Design,Medium,Specialist,TBD,Design Lead,,,Proposed,TBD,,design UI mockups

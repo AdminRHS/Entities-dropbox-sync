@@ -1,0 +1,171 @@
+{
+  "department_id": 1,
+  "department_code": "AI",
+  "last_updated": "2025-11-25",
+  "source_file": "Overview/AI_Department_Deep_Analysis.md",
+  
+  "libraries_objects_path": "ENTITIES/LIBRARIES/Objects/",
+  "master_objects_file": "ENTITIES/LIBRARIES/objects.json",
+  
+  "object_categories": {
+    "AI_Automation_Objects": {
+      "file": "ENTITIES/LIBRARIES/Objects/AI_Automation_Objects.json",
+      "description": "AI-specific objects and deliverables",
+      "objects_used": [
+        "prompts",
+        "workflows",
+        "automations",
+        "models"
+      ],
+      "object_types": {
+        "prompts": [
+          "optimized prompts",
+          "compressed prompts",
+          "system prompts",
+          "prompt templates",
+          "prompt libraries"
+        ],
+        "workflows": [
+          "n8n workflows",
+          "automation workflows",
+          "data processing workflows",
+          "documentation workflows"
+        ],
+        "models": [
+          "AI models",
+          "custom models",
+          "fine-tuned models"
+        ],
+        "automations": [
+          "GitHub Actions automations",
+          "n8n automations",
+          "API integrations"
+        ]
+      }
+    },
+    "Documents": {
+      "file": "ENTITIES/LIBRARIES/Objects/Documents.json",
+      "description": "Documentation and reports",
+      "objects_used": [
+        "reports",
+        "documentation",
+        "guides",
+        "training_materials"
+      ],
+      "object_types": {
+        "reports": [
+          "daily report",
+          "activity report",
+          "analysis report",
+          "performance report"
+        ],
+        "documentation": [
+          "process documentation",
+          "technical documentation",
+          "workflow documentation",
+          "API documentation"
+        ],
+        "guides": [
+          "training guide",
+          "setup guide",
+          "onboarding guide",
+          "user guide"
+        ]
+      }
+    },
+    "RAG_Objects": {
+      "file": "ENTITIES/LIBRARIES/Objects/RAG_Objects.json",
+      "description": "RAG and knowledge base objects",
+      "objects_used": [
+        "embeddings",
+        "knowledge_bases",
+        "vector_databases",
+        "context_systems"
+      ],
+      "object_types": {
+        "knowledge_bases": [
+          "RAC (Remote AI Context)",
+          "organizational knowledge base",
+          "project knowledge base"
+        ],
+        "context_systems": [
+          "MAIN PROMPT v4",
+          "compressed prompts",
+          "context templates"
+        ]
+      }
+    }
+  },
+  
+  "objects_from_master": [
+    {
+      "object": "videos",
+      "object_types": [
+        "training videos",
+        "transcription videos",
+        "workflow videos",
+        "tutorial videos"
+      ],
+      "source": "ENTITIES/LIBRARIES/objects.json",
+      "used_in_tasks": [
+        "File System Project rollout",
+        "Training material creation"
+      ]
+    },
+    {
+      "object": "reports",
+      "object_types": [
+        "daily report",
+        "analysis report",
+        "extraction report",
+        "performance report"
+      ],
+      "source": "ENTITIES/LIBRARIES/objects.json",
+      "used_in_tasks": [
+        "Daily activity reporting",
+        "Department analysis"
+      ]
+    },
+    {
+      "object": "tasks",
+      "object_types": [
+        "department tasks",
+        "project tasks",
+        "automated tasks"
+      ],
+      "source": "ENTITIES/LIBRARIES/objects.json",
+      "used_in_tasks": [
+        "Task management",
+        "Task consolidation"
+      ]
+    },
+    {
+      "object": "projects",
+      "object_types": [
+        "active projects",
+        "transformation projects",
+        "migration projects"
+      ],
+      "source": "ENTITIES/LIBRARIES/objects.json",
+      "used_in_tasks": [
+        "Project management",
+        "Project tracking"
+      ]
+    }
+  ],
+  
+  "summary": {
+    "total_objects": 12,
+    "from_categories": 8,
+    "from_master": 4,
+    "primary_objects": [
+      "prompts",
+      "workflows",
+      "reports",
+      "documentation",
+      "models",
+      "automations"
+    ]
+  }
+}
+

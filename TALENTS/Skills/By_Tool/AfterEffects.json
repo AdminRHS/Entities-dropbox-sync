@@ -1,0 +1,25 @@
+{
+  "tool_id": "TOOL-ANIMATION-001",
+  "tool_name": "After Effects",
+  "tool_category": "Animation",
+  "description": "Motion graphics and visual effects software for creating animations",
+  "skills_count": 1,
+  "last_updated": "2025-11-22",
+  "skills": [
+    {
+      "skill_id": "SKL-052",
+      "skill_phrase": "created animations in After Effects",
+      "components": {
+        "action": "create",
+        "object": "animations",
+        "tool": "After Effects"
+      },
+      "department": "Video",
+      "professions": ["motion designer", "animator"],
+      "difficulty_level": "advanced",
+      "frequency": "weekly",
+      "time_estimate_minutes": 120,
+      "automation_potential": "low"
+    }
+  ]
+}

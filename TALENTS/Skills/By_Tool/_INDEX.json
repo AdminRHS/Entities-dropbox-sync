@@ -1,0 +1,180 @@
+{
+  "_description": "Master index of all skills organized by tool",
+  "_location": "TALENTS/Skills/By_Tool/",
+  "_last_updated": "2025-11-22",
+  "_total_tools": 20,
+  "_total_skills": 28,
+
+  "summary": {
+    "tools_with_most_skills": [
+      {"tool": "Midjourney", "skills_count": 10, "category": "AI Tool"},
+      {"tool": "CRM", "skills_count": 4, "category": "Communication/Database"}
+    ],
+    "tools_by_category": {
+      "AI Tool": ["Midjourney"],
+      "Communication/Database": ["CRM"],
+      "Video Call": ["Zoom"],
+      "Communication": ["Gmail", "Discord"],
+      "Spreadsheet": ["GoogleSheets"],
+      "Automation": ["n8n", "HunterIO"],
+      "Social Network": ["LinkedIn"],
+      "Design": ["Figma", "Canva"],
+      "Development Framework": ["React", "NodeJS"],
+      "Version Control": ["GitHub"],
+      "Development Tool": ["ChromeDevTools"],
+      "DevOps": ["Docker"],
+      "Document": ["GoogleDocs", "DocuSign"],
+      "Video Editing": ["AdobePremiere"],
+      "Animation": ["AfterEffects"]
+    }
+  },
+
+  "tools": [
+    {
+      "file": "CRM.json",
+      "tool_name": "CRM",
+      "tool_category": "Communication/Database",
+      "skills_count": 4,
+      "skills": ["SKL-001", "SKL-004", "SKL-012", "SKL-042"]
+    },
+    {
+      "file": "Zoom.json",
+      "tool_name": "Zoom",
+      "tool_category": "Video Call",
+      "skills_count": 2,
+      "skills": ["SKL-002", "SKL-040"]
+    },
+    {
+      "file": "Gmail.json",
+      "tool_name": "Gmail",
+      "tool_category": "Communication",
+      "skills_count": 2,
+      "skills": ["SKL-003", "SKL-010"]
+    },
+    {
+      "file": "GoogleSheets.json",
+      "tool_name": "Google Sheets",
+      "tool_category": "Spreadsheet",
+      "skills_count": 2,
+      "skills": ["SKL-005", "SKL-044"]
+    },
+    {
+      "file": "n8n.json",
+      "tool_name": "n8n",
+      "tool_category": "Automation",
+      "skills_count": 1,
+      "skills": ["SKL-011"]
+    },
+    {
+      "file": "HunterIO.json",
+      "tool_name": "Hunter.io",
+      "tool_category": "Automation",
+      "skills_count": 1,
+      "skills": ["SKL-014"]
+    },
+    {
+      "file": "LinkedIn.json",
+      "tool_name": "LinkedIn",
+      "tool_category": "Social Network",
+      "skills_count": 1,
+      "skills": ["SKL-013"]
+    },
+    {
+      "file": "Figma.json",
+      "tool_name": "Figma",
+      "tool_category": "Design",
+      "skills_count": 2,
+      "skills": ["SKL-020", "SKL-022"]
+    },
+    {
+      "file": "Canva.json",
+      "tool_name": "Canva",
+      "tool_category": "Design",
+      "skills_count": 1,
+      "skills": ["SKL-021"]
+    },
+    {
+      "file": "Discord.json",
+      "tool_name": "Discord",
+      "tool_category": "Communication",
+      "skills_count": 1,
+      "skills": ["SKL-024"]
+    },
+    {
+      "file": "Midjourney.json",
+      "tool_name": "Midjourney",
+      "tool_category": "AI Tool",
+      "skills_count": 10,
+      "skills": ["SKL-023", "SKL-053", "SKL-054", "SKL-055", "SKL-056", "SKL-057", "SKL-058", "SKL-059", "SKL-060", "SKL-061"]
+    },
+    {
+      "file": "React.json",
+      "tool_name": "React",
+      "tool_category": "Development Framework",
+      "skills_count": 1,
+      "skills": ["SKL-030"]
+    },
+    {
+      "file": "NodeJS.json",
+      "tool_name": "Node.js",
+      "tool_category": "Development Framework",
+      "skills_count": 1,
+      "skills": ["SKL-031"]
+    },
+    {
+      "file": "GitHub.json",
+      "tool_name": "GitHub",
+      "tool_category": "Version Control",
+      "skills_count": 1,
+      "skills": ["SKL-032"]
+    },
+    {
+      "file": "ChromeDevTools.json",
+      "tool_name": "Chrome DevTools",
+      "tool_category": "Development Tool",
+      "skills_count": 1,
+      "skills": ["SKL-033"]
+    },
+    {
+      "file": "Docker.json",
+      "tool_name": "Docker",
+      "tool_category": "DevOps",
+      "skills_count": 1,
+      "skills": ["SKL-034"]
+    },
+    {
+      "file": "GoogleDocs.json",
+      "tool_name": "Google Docs",
+      "tool_category": "Document",
+      "skills_count": 1,
+      "skills": ["SKL-041"]
+    },
+    {
+      "file": "DocuSign.json",
+      "tool_name": "DocuSign",
+      "tool_category": "Document",
+      "skills_count": 1,
+      "skills": ["SKL-043"]
+    },
+    {
+      "file": "AdobePremiere.json",
+      "tool_name": "Adobe Premiere",
+      "tool_category": "Video Editing",
+      "skills_count": 2,
+      "skills": ["SKL-050", "SKL-051"]
+    },
+    {
+      "file": "AfterEffects.json",
+      "tool_name": "After Effects",
+      "tool_category": "Animation",
+      "skills_count": 1,
+      "skills": ["SKL-052"]
+    }
+  ],
+
+  "usage_guide": {
+    "find_tool_by_category": "Filter tools array by tool_category",
+    "find_skills_for_tool": "Look up tool in tools array, check skills field",
+    "count_skills_per_category": "Group by tool_category and sum skills_count"
+  }
+}

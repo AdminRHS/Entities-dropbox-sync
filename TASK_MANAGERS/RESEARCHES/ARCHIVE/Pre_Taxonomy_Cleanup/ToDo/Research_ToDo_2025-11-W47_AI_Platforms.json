@@ -1,0 +1,355 @@
+{
+  "entity_type": "LIBRARIES",
+  "sub_entity": "Research",
+  "category": "AI_Platforms_LLM_Services",
+  "research_session": {
+    "research_id": "RSH-AI-002",
+    "search_date": "2025-11-15",
+    "search_week": "2025-W47",
+    "search_tool": "Perplexity / YouTube / Web Search",
+    "researcher": "To be assigned",
+    "session_duration_minutes": 0,
+    "status": "pending",
+    "priority": "high"
+  },
+  "research_purpose": "Complete missing data for 10 AI platforms and LLM services recently discovered but lacking comprehensive documentation. These tools range from fully documented to completely unknown (TBD status), requiring research to populate taxonomy fields and evaluate integration with Remote Helpers tech stack.",
+  "tools_to_research": [
+    {
+      "tool_id": "TOOL-AI-049",
+      "tool_name": "Google AI Studio",
+      "vendor": "Google",
+      "documentation_url": "https://aistudio.google.com/prompts/new_chat",
+      "current_status": "discovered_needs_review",
+      "finance_status": "unpaid (expired 2025-10-21)",
+      "department_using": "Not actively used",
+      "research_priority": "high",
+      "notes": "Has partial data. Critical to evaluate for Gemini API usage in automation workflows per Remote Helpers strategic initiatives"
+    },
+    {
+      "tool_id": "TOOL-AI-043",
+      "tool_name": "Grok",
+      "vendor": "xAI (Elon Musk)",
+      "documentation_url": "https://grok.com/",
+      "current_status": "discovered_needs_review",
+      "finance_status": "unpaid (expired 2025-10-26)",
+      "department_using": "Not actively used",
+      "research_priority": "medium",
+      "notes": "Subscription expired - evaluate if real-time X data access provides value for Remote Helpers use cases"
+    },
+    {
+      "tool_id": "TOOL-AI-052",
+      "tool_name": "MiniMax",
+      "vendor": "MiniMax",
+      "documentation_url": "https://chat.minimax.io/",
+      "current_status": "discovered_needs_review",
+      "finance_status": "no subscription data",
+      "department_using": "Not currently used",
+      "research_priority": "medium",
+      "notes": "Has basic data but cost structure TBD - evaluate against existing LLM stack"
+    },
+    {
+      "tool_id": "TOOL-AI-066",
+      "tool_name": "OpenRouter",
+      "vendor": "OpenRouter",
+      "documentation_url": "https://openrouter.ai",
+      "current_status": "discovered_needs_review",
+      "finance_status": "unpaid (no expiry date)",
+      "department_using": "Not currently used",
+      "research_priority": "high",
+      "notes": "High priority - unified API access could simplify multi-model usage in Remote Helpers AI workflows"
+    },
+    {
+      "tool_id": "TOOL-AI-046",
+      "tool_name": "Genspark.ai",
+      "vendor": "Genspark",
+      "documentation_url": "https://www.genspark.ai/",
+      "current_status": "discovered_needs_review",
+      "finance_status": "unpaid (no expiry date)",
+      "department_using": "Not currently used",
+      "research_priority": "medium",
+      "notes": "All-in-one AI workspace - evaluate if consolidation provides value vs current multi-tool approach"
+    },
+    {
+      "tool_id": "TOOL-AI-045",
+      "tool_name": "Cove.ai",
+      "vendor": "Cove.ai",
+      "documentation_url": "https://cove.ai/s/5fGIayK",
+      "current_status": "discovered_needs_review",
+      "finance_status": "no subscription data",
+      "department_using": "Not currently used",
+      "research_priority": "low",
+      "notes": "Completely unknown platform - basic research needed to determine relevance"
+    },
+    {
+      "tool_id": "TOOL-AI-047",
+      "tool_name": "Smithery.ai",
+      "vendor": "Smithery",
+      "documentation_url": "https://smithery.ai/",
+      "current_status": "discovered_needs_review",
+      "finance_status": "no subscription data",
+      "department_using": "Not currently used",
+      "research_priority": "low",
+      "notes": "Listed in YouTube research prompt under Dev tools but completely undocumented"
+    },
+    {
+      "tool_id": "TOOL-AI-069",
+      "tool_name": "WHALESWING",
+      "vendor": "WHALESWING",
+      "documentation_url": "https://whaleswing.com",
+      "current_status": "discovered_needs_review",
+      "finance_status": "unpaid (no expiry date)",
+      "department_using": "Not currently used",
+      "research_priority": "low",
+      "notes": "Completely unknown AI platform - may be irrelevant, consider archiving if no clear value"
+    },
+    {
+      "tool_id": "TOOL-AI-064",
+      "tool_name": "Pollo.ai",
+      "vendor": "Pollo",
+      "documentation_url": "https://pollo.ai/home",
+      "current_status": "discovered_needs_review",
+      "finance_status": "unpaid (expired 2025-07-12)",
+      "department_using": "Not currently used",
+      "research_priority": "low",
+      "notes": "Subscription expired 4+ months ago - low priority unless specific value identified"
+    },
+    {
+      "tool_id": "TOOL-AI-065",
+      "tool_name": "Vectal Pro",
+      "vendor": "Vectal",
+      "documentation_url": "https://www.vectal.ai/",
+      "current_status": "discovered_needs_review",
+      "finance_status": "unpaid (no expiry date)",
+      "department_using": "Not currently used",
+      "research_priority": "low",
+      "notes": "Completely unknown platform - determine if Design tool or AI platform"
+    }
+  ],
+  "search_queries": [
+    {
+      "query": "Google AI Studio Gemini tutorial 2025 advanced features",
+      "query_purpose": "Document latest Gemini capabilities and API integration",
+      "platforms": [
+        "YouTube",
+        "Perplexity"
+      ],
+      "expected_results": "Tutorial videos, API documentation, integration guides",
+      "preferred_creators": [
+        "Cole",
+        "D-Squared",
+        "AI Jason"
+      ]
+    },
+    {
+      "query": "OpenRouter API multi-model access tutorial",
+      "query_purpose": "Understand unified API access patterns and cost optimization",
+      "platforms": [
+        "YouTube",
+        "Perplexity",
+        "Google"
+      ],
+      "expected_results": "Tutorial videos, pricing comparisons, integration examples"
+    },
+    {
+      "query": "Grok AI latest features November 2025",
+      "query_purpose": "Evaluate Grok's current capabilities and API status",
+      "platforms": [
+        "YouTube",
+        "Perplexity",
+        "X (Twitter)"
+      ],
+      "expected_results": "Feature announcements, tutorials, real-time data examples"
+    },
+    {
+      "query": "MiniMax AI chatbot platform review",
+      "query_purpose": "Understand MiniMax capabilities and pricing",
+      "platforms": [
+        "YouTube",
+        "Google",
+        "Perplexity"
+      ],
+      "expected_results": "Product reviews, feature demos, pricing information"
+    },
+    {
+      "query": "Genspark AI workspace all-in-one platform",
+      "query_purpose": "Document Genspark's unified workspace features",
+      "platforms": [
+        "YouTube",
+        "Google",
+        "Perplexity"
+      ],
+      "expected_results": "Platform demos, feature lists, pricing comparison"
+    },
+    {
+      "query": "Cove.ai platform capabilities and features",
+      "query_purpose": "Determine Cove.ai's purpose and value proposition",
+      "platforms": [
+        "Google",
+        "Perplexity"
+      ],
+      "expected_results": "Product information, use cases, documentation"
+    },
+    {
+      "query": "Smithery.ai development tools review",
+      "query_purpose": "Understand Smithery.ai's development capabilities",
+      "platforms": [
+        "YouTube",
+        "Google",
+        "Perplexity"
+      ],
+      "expected_results": "Product demos, documentation, developer reviews"
+    },
+    {
+      "query": "AI LLM comparison 2025 Claude ChatGPT Gemini Grok",
+      "query_purpose": "Comprehensive comparison of LLM platforms for Remote Helpers stack",
+      "platforms": [
+        "YouTube",
+        "Perplexity"
+      ],
+      "expected_results": "Comparison videos, benchmark data, pricing analysis",
+      "preferred_creators": [
+        "Matthew Berman",
+        "Matt Wolfe",
+        "WorldofAI"
+      ]
+    },
+    {
+      "query": "WHALESWING AI platform",
+      "query_purpose": "Identify platform purpose and relevance",
+      "platforms": [
+        "Google",
+        "Perplexity"
+      ],
+      "expected_results": "Basic product information"
+    },
+    {
+      "query": "Pollo.ai platform review",
+      "query_purpose": "Determine platform capabilities",
+      "platforms": [
+        "Google",
+        "Perplexity"
+      ],
+      "expected_results": "Product information, use cases"
+    },
+    {
+      "query": "Vectal Pro AI tool",
+      "query_purpose": "Identify if Design tool or AI platform",
+      "platforms": [
+        "Google",
+        "Perplexity"
+      ],
+      "expected_results": "Product category, basic features"
+    }
+  ],
+  "research_methodology": "Following YouTube_Video_Research_Prompt_RemoteHelpers_Nov2025.md guidelines with focus on AI Agents & Agentic Workflows priority topic",
+  "output_requirements": {
+    "video_criteria": {
+      "published_date_range": "Last 30-60 days (October 15 - November 15, 2025)",
+      "duration_preferred": "10-40 minutes (sweet spot: 15-25 minutes)",
+      "quality_focus": "Practical tutorials, API integration guides, comparison analyses",
+      "technical_depth": "Actionable implementation steps, code examples, workflow patterns"
+    },
+    "per_video_documentation": [
+      "Video Title",
+      "Creator/Channel",
+      "YouTube URL",
+      "Published Date (YYYY-MM-DD)",
+      "Duration (MM:SS)",
+      "Key Topics (3-5 bullets)",
+      "Remote Helpers Relevance Score (0-100): Strategic (0-40) + Tool/Tech (0-30) + Actionable (0-30)",
+      "Department Relevance (AI, Dev, etc.)",
+      "Implementation Priority (Critical/High/Medium/Low)",
+      "One-Sentence Value"
+    ],
+    "per_tool_documentation": [
+      "Complete description of capabilities",
+      "Skill level required (Beginner/Intermediate/Advanced)",
+      "Cost structure with pricing tiers",
+      "Platform compatibility (Web/Desktop/Mobile/API)",
+      "Integration capabilities (specific APIs and tools)",
+      "Primary use cases (Remote Helpers specific)",
+      "Strengths (minimum 5 items)",
+      "Limitations (minimum 3 items)",
+      "Use cases array (minimum 5 items)",
+      "API integration patterns",
+      "Comparison with similar tools in stack",
+      "ROI metrics where available"
+    ]
+  },
+  "success_criteria": [
+    "All TBD fields replaced with specific data",
+    "All empty arrays populated with minimum items",
+    "API integration patterns documented",
+    "Pricing structure fully documented",
+    "Comparison with existing Remote Helpers LLM stack (Claude, ChatGPT, Gemini)",
+    "ROI analysis for potential additions to stack",
+    "Clear recommendations for: Keep/Archive/Add to Stack",
+    "Integration workflows with Remote Helpers tech stack identified"
+  ],
+  "next_actions": {
+    "immediate": [
+      "Execute search queries on YouTube, Perplexity, and Google",
+      "Find 8-12 relevant videos for high-priority tools",
+      "Visit official documentation for all platforms",
+      "Extract pricing information from official sources"
+    ],
+    "documentation": [
+      "Create detailed findings report",
+      "Update each tool JSON file with complete data",
+      "Document API integration patterns",
+      "Create comparison matrix for AI platforms"
+    ],
+    "decision_support": [
+      "Evaluate OpenRouter for multi-model API access (yes/no + rationale)",
+      "Evaluate Google AI Studio subscription renewal (yes/no + rationale)",
+      "Recommend archival of low-value platforms (Cove.ai, WHALESWING, Pollo.ai, Vectal Pro)",
+      "Compare Genspark all-in-one approach vs individual tool subscriptions",
+      "Assess Grok value for real-time X data access use cases"
+    ]
+  },
+  "alignment_with_strategic_initiatives": {
+    "initiative": "AI Agents & Agentic Workflows",
+    "relevance": "High - AI platforms and LLM services are core to Remote Helpers' AI-first transformation",
+    "priority_topics": [
+      "Claude with MCP (Model Context Protocol) integrations",
+      "Multi-step AI workflows and tool chaining",
+      "AI agent frameworks and orchestration",
+      "RAG (Retrieval Augmented Generation) systems"
+    ],
+    "decision_points": [
+      "OpenRouter unified API vs direct API access to individual models",
+      "Google AI Studio Gemini API for automation workflows",
+      "Consolidation of AI platforms to reduce subscription costs"
+    ]
+  },
+  "estimated_effort": {
+    "research_time": "5-7 hours (web research + video watching for high-priority tools)",
+    "update_time": "3-4 hours (updating 10 tool JSON files)",
+    "total_time": "8-11 hours",
+    "recommended_completion": "Within 1 week of task assignment"
+  },
+  "related_tasks": [],
+  "related_workflows": [],
+  "related_projects": [
+    "File System Rollout",
+    "AI Transformation Initiative"
+  ],
+  "tags": [
+    "ai-platforms",
+    "llm-services",
+    "google-ai-studio",
+    "grok",
+    "minimax",
+    "openrouter",
+    "genspark",
+    "research-todo",
+    "missing-data",
+    "tool-documentation",
+    "api-integration"
+  ],
+  "version": "1.0",
+  "created": "2025-11-15",
+  "last_updated": "2025-11-15",
+  "source": "Tool audit - discovered_needs_review status"
+}
+

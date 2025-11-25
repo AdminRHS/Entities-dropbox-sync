@@ -1,0 +1,36 @@
+{
+  "milestone_template_id": "Milestone-Template-004",
+  "name": "Schema Naming Validation",
+  "category": "Validation",
+  "department": "AI",
+  "description": "Validate naming conventions, JSON schemas, and version control consistency across all entities",
+  "estimated_hours": 3,
+  "phase": 2,
+  "can_run_parallel": true,
+  "dependencies": [],
+  "task_templates": [
+    {
+      "task_template_id": "TASK-TEMPLATE-ANALYSIS-004",
+      "task_template_name": "Naming Convention Audit"
+    },
+    {
+      "task_template_id": "TASK-TEMPLATE-ANALYSIS-005",
+      "task_template_name": "JSON Schema Validation"
+    },
+    {
+      "task_template_id": "TASK-TEMPLATE-ANALYSIS-006",
+      "task_template_name": "Version Control Consistency"
+    }
+  ],
+  "expected_reports": [
+    {
+      "report_id": "REP-002",
+      "report_name": "Naming Convention Audit"
+    },
+    {
+      "report_id": "REP-003",
+      "report_name": "Schema Validation Report"
+    }
+  ],
+  "version": "1.0"
+}

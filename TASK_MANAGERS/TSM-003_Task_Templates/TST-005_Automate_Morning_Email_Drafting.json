@@ -1,0 +1,300 @@
+{
+  "entity_type": "TASK_MANAGERS",
+  "sub_entity": "Task_Template",
+  "template_id": "Task-Template-005",
+  "task_name": "Automate Morning Email Drafts",
+  "action": "Automate",
+  "object": "Email Drafts",
+  "context": "via Gmail MCP connector",
+  "description": "Auto-draft responses to unread emails each morning using Gmail MCP connector (saves 30-60 min/day, 90%+ success with human review)",
+  "department": "AI",
+  "profession": "Executive Assistant",
+  "priority": "High",
+  "estimated_duration": "Auto-draft: <1 minute | Review: 10 minutes",
+  "setup_time": "6-8 minutes (one-time)",
+  "status": "Active",
+  "complexity": "Medium",
+  "automation_potential": "Very High (>80%)",
+  "success_rate": "90%+ with human review",
+  "time_savings": "30-60 minutes per day",
+  "dependencies": [
+    "Gmail MCP Connector deployed (TOOL-INT-001)",
+    "Claude Desktop App configured (TOOL-AI-030)",
+    "OAuth credentials configured for Gmail API"
+  ],
+  "tools_required": [
+    "TOOL-AI-030 (Claude Desktop App)",
+    "TOOL-INT-001 (Gmail MCP Connector)"
+  ],
+  "skills_required": [
+    "SKL-072 (automated emails via Gmail MCP)"
+  ],
+  "objects_used": [
+    "OBJ-AI-007 (Email Draft)"
+  ],
+  "workflow_reference": "WF-AI-003",
+  "success_criteria": [
+    "All unread emails read and analyzed",
+    "Appropriate responses drafted for each",
+    "Drafts saved in Gmail (not auto-sent)",
+    "Human review completed before sending",
+    "30-60 minutes saved daily"
+  ],
+  "responsibilities": {
+    "responsible": "Executive Assistant",
+    "accountable": "Executive or Manager",
+    "consulted": [
+      "AI Engineer for setup"
+    ],
+    "informed": [
+      "Executive",
+      "Team members"
+    ]
+  },
+  "steps": [
+    {
+      "step_number": 1,
+      "name": "Open Claude Desktop App each morning",
+      "action": "open",
+      "tool": "TOOL-AI-030 (Claude Desktop App)",
+      "responsibility": "Executive Assistant",
+      "placement": "Desktop application",
+      "duration": "5 seconds",
+      "dependencies": [],
+      "inputs": [],
+      "outputs": [
+        "Claude Desktop ready"
+      ],
+      "success_criteria": "App opened successfully",
+      "responsibility_id": "RESP-OPS-005",
+      "responsibility_name": "open open claude desktop app each morning",
+      "_original_action": "open"
+    },
+    {
+      "step_number": 2,
+      "name": "Prompt Claude to check unread emails",
+      "action": "prompt",
+      "tool": "TOOL-AI-030 (Claude Desktop App)",
+      "responsibility": "Executive Assistant",
+      "placement": "Claude chat",
+      "duration": "10 seconds",
+      "dependencies": [
+        "Step 1"
+      ],
+      "inputs": [
+        "Prompt: 'Check my unread emails and draft responses'"
+      ],
+      "outputs": [
+        "Claude + Gmail connector activated"
+      ],
+      "success_criteria": "Connector reads unread emails successfully",
+      "responsibility_id": "RESP-OPS-002",
+      "responsibility_name": "prompt emails",
+      "_original_action": "prompt"
+    },
+    {
+      "step_number": 3,
+      "name": "Read unread emails via Gmail connector",
+      "action": "read",
+      "tool": "TOOL-INT-001 (Gmail MCP Connector)",
+      "responsibility": "Gmail connector (automated)",
+      "placement": "Gmail API",
+      "duration": "10-20 seconds (automated)",
+      "dependencies": [
+        "Step 2"
+      ],
+      "inputs": [
+        "Gmail inbox"
+      ],
+      "outputs": [
+        "List of unread emails with sender, subject, body"
+      ],
+      "success_criteria": "All unread emails retrieved",
+      "responsibility_id": "RESP-OPS-006",
+      "responsibility_name": "read emails",
+      "_original_action": "read"
+    },
+    {
+      "step_number": 4,
+      "name": "Analyze context and sender relationship",
+      "action": "analyze",
+      "tool": "TOOL-AI-030 (Claude Desktop App)",
+      "responsibility": "Claude AI (automated)",
+      "placement": "Claude processing",
+      "duration": "10-30 seconds per email (automated)",
+      "dependencies": [
+        "Step 3"
+      ],
+      "inputs": [
+        "Email content",
+        "Sender info",
+        "Previous email history"
+      ],
+      "outputs": [
+        "Context analysis for each email"
+      ],
+      "success_criteria": "Claude identifies email type and appropriate response tone",
+      "responsibility_id": "RESP-OPS-007",
+      "responsibility_name": "analyze analyze context and sender relationship",
+      "_original_action": "analyze"
+    },
+    {
+      "step_number": 5,
+      "name": "Draft appropriate responses",
+      "action": "generate",
+      "tool": "TOOL-AI-030 (Claude Desktop App) + TOOL-INT-001",
+      "responsibility": "Claude AI (automated)",
+      "placement": "Gmail Drafts",
+      "duration": "20-40 seconds per email (automated)",
+      "dependencies": [
+        "Step 4"
+      ],
+      "inputs": [
+        "Email context",
+        "Sender relationship",
+        "Response guidelines"
+      ],
+      "outputs": [
+        "Draft responses saved in Gmail"
+      ],
+      "success_criteria": "Drafts created for all appropriate emails",
+      "responsibility_id": "RESP-OPS-008",
+      "responsibility_name": "generate draft appropriate responses",
+      "_original_action": "generate"
+    },
+    {
+      "step_number": 6,
+      "name": "Review drafts in Gmail",
+      "action": "review",
+      "tool": "Gmail",
+      "responsibility": "Executive Assistant",
+      "placement": "Gmail - Drafts folder",
+      "duration": "10 minutes",
+      "dependencies": [
+        "Step 5"
+      ],
+      "inputs": [
+        "AI-generated drafts"
+      ],
+      "outputs": [
+        "Reviewed and edited drafts"
+      ],
+      "success_criteria": "All drafts reviewed, edits made as needed",
+      "responsibility_id": "RESP-OPS-001",
+      "responsibility_name": "review drafts",
+      "_original_action": "review"
+    },
+    {
+      "step_number": 7,
+      "name": "Send approved drafts",
+      "action": "send",
+      "tool": "Gmail",
+      "responsibility": "Executive Assistant",
+      "placement": "Gmail",
+      "duration": "1-2 minutes",
+      "dependencies": [
+        "Step 6"
+      ],
+      "inputs": [
+        "Approved drafts"
+      ],
+      "outputs": [
+        "Emails sent"
+      ],
+      "success_criteria": "All approved emails sent successfully",
+      "responsibility_id": "RESP-OPS-009",
+      "responsibility_name": "send send approved drafts",
+      "_original_action": "send"
+    }
+  ],
+  "checklist": [
+    {
+      "item": "Gmail MCP connector deployed and authenticated",
+      "guide": "Test connection before first use each day",
+      "required": true
+    },
+    {
+      "item": "Drafts created, not auto-sent",
+      "guide": "NEVER auto-send without human review",
+      "required": true
+    },
+    {
+      "item": "All drafts reviewed before sending",
+      "guide": "Check tone, accuracy, and appropriateness",
+      "required": true
+    },
+    {
+      "item": "Response tone matches sender relationship",
+      "guide": "Formal for clients, casual for team, appropriate for each context",
+      "required": true
+    },
+    {
+      "item": "Sensitive emails handled manually",
+      "guide": "Review AI-generated responses for sensitive topics carefully",
+      "required": true
+    }
+  ],
+  "performance_metrics": {
+    "time_savings": "30-60 minutes per day",
+    "setup_time": "6-8 minutes (one-time)",
+    "success_rate": "90%+ with human review",
+    "roi": "5-10 hours saved per week",
+    "typical_volume": "10-30 emails per morning"
+  },
+  "best_practices": [
+    "Daily time saver: 30-60 min/day (5-10 hrs/week)",
+    "Always review AI drafts before sending",
+    "Use for routine responses, not sensitive communications",
+    "Edit tone and add personal touches during review",
+    "Build trust gradually by starting with non-critical emails"
+  ],
+  "prerequisites": [
+    "Gmail MCP Connector deployed (WF-AI-002, WF-AI-006)",
+    "OAuth credentials configured",
+    "Claude Desktop App subscription"
+  ],
+  "common_issues": [
+    {
+      "issue": "Connector can't read emails",
+      "solution": "Re-authenticate OAuth in Google Cloud Console, check API permissions"
+    },
+    {
+      "issue": "Drafts have wrong tone",
+      "solution": "Provide context to Claude about sender relationships, edit during review"
+    },
+    {
+      "issue": "Too many emails to review",
+      "solution": "Filter by priority, process high-priority emails first"
+    },
+    {
+      "issue": "Sensitive email auto-drafted",
+      "solution": "Always review before sending, delete inappropriate drafts"
+    }
+  ],
+  "tags": [
+    "email_automation",
+    "mcp",
+    "gmail",
+    "morning_routine",
+    "productivity",
+    "executive_assistant"
+  ],
+  "related_workflows": [
+    "WF-AI-003"
+  ],
+  "related_skills": [
+    "SKL-072"
+  ],
+  "related_professions": [
+    "Executive Assistant",
+    "Customer Success Manager"
+  ],
+  "version": "1.0",
+  "created": "2025-11-12",
+  "last_updated": "2025-11-12",
+  "source": "Video_008_MCP_Connector_Tutorial",
+  "responsibility_id": "RESP-OPS-004",
+  "responsibility_name": "automate emails",
+  "_original_action": "Automate",
+  "_original_object": "Email Drafts"
+}

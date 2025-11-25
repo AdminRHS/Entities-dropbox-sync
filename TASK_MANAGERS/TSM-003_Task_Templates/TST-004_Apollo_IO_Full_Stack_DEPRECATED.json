@@ -1,0 +1,105 @@
+{
+  "entity_type": "TASK_MANAGERS",
+  "sub_entity": "Task_Template",
+  "template_id": "Task-Template-004",
+  "task_name": "Apollo.io Full Stack Lead Generation (DEPRECATED)",
+  "action": "Generate",
+  "object": "Lead List",
+  "context": "via Apollo.io full automation (deprecated September 2024)",
+  "description": "DEPRECATED: Full-stack lead generation using Apollo.io automation tools (60-80% enrichment, 30-40 minutes). Deprecated September 2024 due to platform restrictions.",
+  "department": "LG",
+  "profession": "Lead Generator",
+  "priority": "Deprecated",
+  "estimated_duration": "30-40 minutes",
+  "status": "Deprecated",
+  "deprecated_date": "2024-09",
+  "deprecated_reason": "Apollo.io restricted automation tools and API access",
+  "complexity": "High",
+  "automation_potential": "Was High (60-80%) - no longer viable",
+  "success_rate": "Was 60-80%",
+  "alternatives": [
+    "TASK-TEMPLATE-004 (LinkedIn Sales Navigator) - Higher quality",
+    "TASK-TEMPLATE-003 (Anymailfinder) - Better cost",
+    "TASK-TEMPLATE-009 (Google SERP) - Higher volume"
+  ],
+  "dependencies": [
+    "Apollo.io account (no longer supports full automation)",
+    "Historical reference only"
+  ],
+  "tools_required": [
+    "TOOL-BUS-004 (Apollo.io - deprecated for automation)",
+    "TOOL-AUTO-005 to TOOL-AUTO-008 (Apollo automation tools - deprecated)"
+  ],
+  "skills_required": [],
+  "objects_used": [
+    "OBJ-LG-001 (Lead List)"
+  ],
+  "workflow_reference": "WF-LG-005",
+  "deprecation_notice": {
+    "status": "DEPRECATED - Do not use for new campaigns",
+    "effective_date": "September 2024",
+    "reason": "Apollo.io restricted automation and API access",
+    "impact": "Automation tools no longer function",
+    "migration_path": "Use LinkedIn Sales Navigator or Anymailfinder instead",
+    "historical_value": "Documented for reference and comparison"
+  },
+  "historical_performance": {
+    "when_active": "Pre-September 2024",
+    "success_rate": "60-80% enrichment",
+    "time_per_campaign": "30-40 minutes",
+    "complexity": "High (multiple automation tools needed)",
+    "why_it_worked": "Apollo allowed extensive automation and scraping"
+  },
+  "why_deprecated": [
+    "Apollo.io changed terms of service (September 2024)",
+    "Restricted automation tool access",
+    "API limitations increased",
+    "Platform focused on manual use only",
+    "Automation tools (TOOL-AUTO-005 to 008) no longer functional"
+  ],
+  "recommended_alternatives": {
+    "for_quality": {
+      "template": "TASK-TEMPLATE-004",
+      "method": "LinkedIn Sales Navigator + Vayne",
+      "success_rate": "80-100%",
+      "why_better": "Higher enrichment rate, more reliable"
+    },
+    "for_cost": {
+      "template": "TASK-TEMPLATE-003",
+      "method": "Anymailfinder",
+      "cost": "$0.0025/email",
+      "why_better": "Better cost, simple workflow"
+    },
+    "for_volume": {
+      "template": "TASK-TEMPLATE-009",
+      "method": "Google SERP scraping",
+      "volume": "2,000+ leads",
+      "why_better": "Much higher volume capacity"
+    }
+  },
+  "lessons_learned": [
+    "Platform dependencies carry risk (Apollo changed rules)",
+    "Diversify lead sources (don't rely on one platform)",
+    "Automation-heavy workflows vulnerable to platform changes",
+    "Manual-friendly methods more sustainable long-term"
+  ],
+  "historical_context": "Apollo.io was popular for full-stack lead gen automation until September 2024 when they restricted automation to push users toward manual platform use",
+  "tags": [
+    "deprecated",
+    "apollo_io",
+    "historical_reference",
+    "platform_risk",
+    "lead_generation"
+  ],
+  "related_workflows": [
+    "WF-LG-005"
+  ],
+  "related_skills": [],
+  "related_professions": [
+    "Lead Generator"
+  ],
+  "version": "1.0",
+  "created": "2025-11-12",
+  "last_updated": "2025-11-12",
+  "source": "Video_006_Lead_Generation_Analysis"
+}

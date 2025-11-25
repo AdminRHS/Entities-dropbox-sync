@@ -1,0 +1,123 @@
+workflow_name: "Instagram Content Strategy for Designers"
+workflow_type: "Linear"
+workflow_id: "WF-SMM-003"
+department: "MARKETING"
+priority: "High"
+estimated_duration: "1-2 hours daily"
+status: "Active"
+
+description: |
+  Build design authority and community through educational carousels, process reels, and portfolio showcases on Instagram.
+  Strategic approach to Instagram content creation focusing on educational value and visual storytelling.
+
+steps:
+  - step_number: 1
+    name: "Create Educational Carousels"
+    tool: "Instagram (Canva, Figma for design)"
+    responsibility: "Create educational carousels"
+    placement: "Instagram feed"
+    duration: "30-45 minutes per carousel"
+    dependencies: []
+    inputs:
+      - "Design concept or tutorial topic"
+      - "Brand visual guidelines"
+      - "5-10 key teaching points"
+    outputs:
+      - "Instagram Carousel (5-10 slides, 1080×1350px)"
+      - "Educational content with clear value proposition"
+      - "Saveable design tips or tutorials"
+    success_criteria: "High save rate (5x algorithm weight), clear educational value"
+
+  - step_number: 2
+    name: "Produce Process Reels"
+    tool: "Instagram (CapCut, Premiere Pro for editing)"
+    responsibility: "Produce process reels"
+    placement: "Instagram Reels"
+    duration: "20-30 minutes per reel"
+    dependencies: []
+    inputs:
+      - "Screen recording or time-lapse of design work"
+      - "Design project in progress"
+      - "Trending audio (optional)"
+    outputs:
+      - "Instagram Reel (15-90 seconds, 9:16)"
+      - "Behind-the-scenes design process"
+      - "Speed-up demonstration with key steps highlighted"
+    success_criteria: "High completion rate, engagement from design community"
+
+  - step_number: 3
+    name: "Post Interactive Stories"
+    tool: "Instagram Stories"
+    responsibility: "Post interactive stories"
+    placement: "Instagram Stories"
+    duration: "10-15 minutes per story session"
+    dependencies: []
+    inputs:
+      - "Behind-the-scenes content"
+      - "Community questions"
+      - "Poll or quiz ideas"
+    outputs:
+      - "Instagram Stories (multiple frames, 9:16)"
+      - "Interactive elements (polls, Q&A, quizzes)"
+      - "Behind-the-scenes glimpses"
+    success_criteria: "High story engagement, direct messages from community"
+
+  - step_number: 4
+    name: "Engage with Community"
+    tool: "Instagram (DMs, Comments, Shares)"
+    responsibility: "Engage with community"
+    placement: "Instagram engagement activities"
+    duration: "20-30 minutes per day"
+    dependencies: ["Step 1", "Step 2", "Step 3"]
+    inputs:
+      - "Comments on posts"
+      - "Direct messages from followers"
+      - "Relevant hashtag activity"
+    outputs:
+      - "Personalized responses to comments"
+      - "DM conversations with community members"
+      - "Engagement with other designers' content"
+    success_criteria: "Respond within 1 hour, build authentic community connections"
+
+performance_metrics:
+  saves_rate: "Primary metric - 5x algorithm weight for educational carousels"
+  engagement_rate: "(likes + comments + shares) / reach"
+  reel_completion_rate: "Percentage of viewers who watch full reel"
+  story_interactions: "Polls, Q&A responses, DM replies"
+  follower_growth: "Net new followers from design community"
+  reach: "Total accounts reached per post"
+
+content_mix:
+  educational_carousels: "35% - Design tips, tutorials, principles"
+  process_reels: "25% - Behind-the-scenes, time-lapses"
+  portfolio_showcases: "20% - Finished work presentations"
+  stories: "10% - Daily updates, Q&A, polls"
+  community_engagement: "10% - Comments, DMs, collaborations"
+
+best_practices:
+  - "Create saveable educational content (5x algorithm weight)"
+  - "Use 3-5 niche-specific hashtags (not 30 generic)"
+  - "Post 3-5 feed posts per week + 1-3 stories daily"
+  - "Optimal posting times: Weekdays 11am-1pm, 7-9pm EST"
+  - "Hook viewers in first 3 seconds for Reels"
+  - "Respond to comments within 1 hour to boost engagement"
+  - "Always include captions for accessibility"
+  - "Batch content creation for efficiency"
+
+automation_opportunities:
+  - "Scheduling tools for consistent posting"
+  - "AI-powered caption generation"
+  - "Template-based carousel design"
+  - "Analytics tracking and reporting"
+
+tags:
+  - marketing
+  - instagram
+  - design
+  - content_strategy
+  - social_media
+  - community_building
+
+version: "1.0"
+created: "2025-11-13"
+last_updated: "2025-11-13"

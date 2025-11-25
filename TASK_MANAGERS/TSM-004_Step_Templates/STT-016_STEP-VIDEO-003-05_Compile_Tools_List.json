@@ -1,0 +1,36 @@
+{
+  "step_template_id": "Step-Template-016",
+  "step_template_name": "Compile Complete Tools List with Categories",
+  "metadata": {
+    "status": "Active"
+  },
+  "parent_task": {
+    "task_id": "TASK-TEMPLATE-VIDEO-003",
+    "task_name": "Extract Taxonomy Data from Transcription"
+  },
+  "step_details": {
+    "step_number": 5,
+    "order": 5,
+    "action": "compile",
+    "detail": "List all tools mentioned in video with preliminary categories and brief descriptions",
+    "expected_duration": 3
+  },
+  "execution": {
+    "tool_used": "Claude Desktop or Claude Pro",
+    "inputs": [
+      "Complete transcription",
+      "Workflows, tasks, steps extracted"
+    ],
+    "outputs": [
+      "Section 10: Complete tools list with categories"
+    ],
+    "success_criteria": "All tools listed, preliminary categories assigned (AI, Development, Video, Design, Automation, etc.), brief description for each"
+  },
+  "relationships": {
+    "dependencies": [
+      "STEP-VIDEO-003-04"
+    ],
+    "next_steps": [],
+    "parallel_steps": []
+  }
+}

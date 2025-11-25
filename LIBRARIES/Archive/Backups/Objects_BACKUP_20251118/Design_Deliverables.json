@@ -1,0 +1,662 @@
+﻿{
+  "entity_type": "LIBRARIES",
+  "sub_entity": "Object",
+  "object_id": "OBJ-DESIGN-001",
+  "name": "Design Deliverables",
+  "category": "Design Objects",
+  "description": "Visual and interactive deliverables created by the Design Department (9 designers across Graphic Design, UI/UX, Illustration, and other specializations)",
+  "source_data": "D:\\Dropbox\\Content DropBox\\Niko DropBox\\LLM2.5Json\\LIBRARIES\DEPARTMENTS\\designers\\graphic_designer\\objects.json (30 objects, 697 total records)",
+  "objects": [
+    {
+      "object_name": "Banners",
+      "object_types": [
+        "Web banner",
+        "Social media banner",
+        "Email banner"
+      ],
+      "professions": [
+        "Graphic Designer"
+      ],
+      "typical_dimensions": "1200x700px (web), 1080x1080px (social), platform-specific",
+      "tools": [
+        "Figma",
+        "Photoshop",
+        "Canva"
+      ],
+      "parameters": [
+        "image type",
+        "dimension",
+        "font style",
+        "size",
+        "CTA"
+      ],
+      "complexity": "Medium",
+      "time_estimate": "2-4 hours",
+      "common_actions": [
+        "Create",
+        "Update",
+        "Design",
+        "Develop",
+        "Refresh",
+        "Revise"
+      ],
+      "storage_pattern": "ENTITIES/LIBRARIES/Objects/Design_Deliverables/Banners/",
+      "platforms_used": [
+        "DGN",
+        "BZ-V",
+        "REMS",
+        "FVE",
+        "RHS",
+        "All platforms"
+      ],
+      "ai_tools_used": [
+        "Midjourney (concept generation)",
+        "ChatGPT (CTA text)"
+      ]
+    },
+    {
+      "object_name": "Logos",
+      "object_types": [
+        "Wordmark logo",
+        "Lettermark logo",
+        "Pictorial logo",
+        "Abstract logo",
+        "Combination logo",
+        "Emblem logo"
+      ],
+      "professions": [
+        "Graphic Designer",
+        "Illustrator"
+      ],
+      "tools": [
+        "Adobe Illustrator (PRIMARY)",
+        "Figma",
+        "Adobe Fonts"
+      ],
+      "complexity": "High",
+      "time_estimate": "5-10 days (complete logo system)",
+      "common_actions": [
+        "Develop",
+        "Create",
+        "Design",
+        "Craft"
+      ],
+      "storage_pattern": "ENTITIES/LIBRARIES/Objects/Design_Deliverables/Logos/",
+      "platforms_used": [
+        "All platforms - brand identity"
+      ],
+      "deliverables": [
+        "AI",
+        "SVG",
+        "PNG",
+        "EPS",
+        "Brand guidelines"
+      ]
+    },
+    {
+      "object_name": "Icons",
+      "object_types": [
+        "Outline icon",
+        "Filled icon",
+        "Flat icon",
+        "Dimensional icon",
+        "Emoji icon",
+        "Hand-drawn icon"
+      ],
+      "professions": [
+        "Graphic Designer",
+        "Illustrator"
+      ],
+      "tools": [
+        "Adobe Illustrator (PRIMARY)",
+        "Figma",
+        "Midjourney (concept)"
+      ],
+      "complexity": "Medium",
+      "time_estimate": "2-5 days per icon set",
+      "common_actions": [
+        "Develop",
+        "Create",
+        "Design"
+      ],
+      "storage_pattern": "ENTITIES/LIBRARIES/Objects/Design_Deliverables/Icons/",
+      "platforms_used": [
+        "All platforms - UI elements"
+      ]
+    },
+    {
+      "object_name": "Illustrations",
+      "object_types": [
+        "Flat illustration",
+        "Isometric illustration",
+        "Vector illustration",
+        "Character illustration"
+      ],
+      "professions": [
+        "Illustrator",
+        "Graphic Designer"
+      ],
+      "tools": [
+        "Adobe Illustrator",
+        "Photoshop",
+        "Midjourney"
+      ],
+      "complexity": "Medium to High",
+      "time_estimate": "3-10 days",
+      "common_actions": [
+        "Create",
+        "Design",
+        "Develop"
+      ],
+      "storage_pattern": "ENTITIES/LIBRARIES/Objects/Design_Deliverables/Illustrations/",
+      "platforms_used": [
+        "DGN",
+        "BZ-V",
+        "Marketing materials"
+      ]
+    },
+    {
+      "object_name": "Infographics",
+      "object_types": [
+        "Statistical infographic",
+        "Informational infographic",
+        "Process infographic"
+      ],
+      "professions": [
+        "Graphic Designer"
+      ],
+      "tools": [
+        "Illustrator",
+        "Figma",
+        "Google Charts"
+      ],
+      "complexity": "Medium",
+      "time_estimate": "2-5 days",
+      "common_actions": [
+        "Create",
+        "Design",
+        "Update"
+      ],
+      "storage_pattern": "ENTITIES/LIBRARIES/Objects/Design_Deliverables/Infographics/",
+      "platforms_used": [
+        "REMS",
+        "DGN",
+        "Marketing"
+      ]
+    },
+    {
+      "object_name": "Wireframes",
+      "object_types": [
+        "Low-fidelity wireframe",
+        "High-fidelity wireframe"
+      ],
+      "professions": [
+        "UI/UX Designer"
+      ],
+      "tools": [
+        "Figma (PRIMARY)",
+        "Adobe XD",
+        "Sketch"
+      ],
+      "description": "Low-fidelity structural blueprints showing layout and functionality without visual design",
+      "complexity": "Medium",
+      "time_estimate": "1-3 days",
+      "common_actions": [
+        "Create",
+        "Design"
+      ],
+      "storage_pattern": "ENTITIES/LIBRARIES/Objects/Design_Deliverables/Wireframes/",
+      "platforms_used": [
+        "All platforms - UX planning"
+      ]
+    },
+    {
+      "object_name": "Interactive Prototypes",
+      "object_types": [
+        "Clickable prototype",
+        "Animated prototype"
+      ],
+      "professions": [
+        "UI/UX Designer"
+      ],
+      "tools": [
+        "Figma (PRIMARY)",
+        "Adobe XD",
+        "Sketch",
+        "InVision"
+      ],
+      "description": "Clickable, functional representations of the final product for testing and validation",
+      "complexity": "High",
+      "time_estimate": "3-7 days",
+      "common_actions": [
+        "Create",
+        "Design",
+        "Test"
+      ],
+      "storage_pattern": "ENTITIES/LIBRARIES/Objects/Design_Deliverables/Prototypes/",
+      "platforms_used": [
+        "All platforms - usability testing"
+      ]
+    },
+    {
+      "object_name": "UI Mockups",
+      "object_types": [
+        "Website mockup",
+        "App mockup",
+        "Responsive design mockup"
+      ],
+      "professions": [
+        "UI/UX Designer",
+        "Graphic Designer"
+      ],
+      "tools": [
+        "Figma (PRIMARY - all 31+ projects)",
+        "Adobe XD",
+        "Sketch",
+        "Photoshop"
+      ],
+      "complexity": "High",
+      "time_estimate": "3-7 days",
+      "common_actions": [
+        "Design",
+        "Create",
+        "Update"
+      ],
+      "storage_pattern": "ENTITIES/LIBRARIES/Objects/Design_Deliverables/Mockups/",
+      "platforms_used": [
+        "All 31+ active projects"
+      ]
+    },
+    {
+      "object_name": "Design Systems",
+      "object_types": [
+        "Component library",
+        "Style guide",
+        "Design tokens"
+      ],
+      "professions": [
+        "UI/UX Designer"
+      ],
+      "tools": [
+        "Figma",
+        "Zeroheight (documentation)",
+        "Storybook"
+      ],
+      "description": "Comprehensive set of reusable components, styles, and guidelines",
+      "complexity": "Very High",
+      "time_estimate": "2-4 weeks",
+      "common_actions": [
+        "Create",
+        "Maintain",
+        "Document",
+        "Update"
+      ],
+      "storage_pattern": "ENTITIES/LIBRARIES/Objects/Design_Deliverables/Design_Systems/",
+      "platforms_used": [
+        "Major projects with long-term maintenance"
+      ]
+    },
+    {
+      "object_name": "Design Configuration File (design.json)",
+      "object_types": [
+        "JSON design data file",
+        "High-level style guide",
+        "Design language specification"
+      ],
+      "professions": [
+        "UI/UX Designer",
+        "Design Systems Engineer",
+        "AI Prompt Engineer"
+      ],
+      "tools": [
+        "Cursor",
+        "GPT-5",
+        "Text editor"
+      ],
+      "description": "Machine-readable JSON file containing high-level design principles, brand essence, color palettes, typography options, and style guidelines extracted from design inspiration sources. Created via AI analysis (Prompt 1) of design system screenshots from sources like Dribbble. Serves as the foundation for AI-generated component implementation.",
+      "file_format": "JSON",
+      "typical_size": "50-100 lines",
+      "contents": [
+        "Brand essence and tone of voice",
+        "Design language description",
+        "Style principles (e.g., 'softness over sharpness')",
+        "Border radius values",
+        "Grid and breakpoint specifications",
+        "Color palette (neutral and accent colors)",
+        "Typography options (font families, weights)"
+      ],
+      "complexity": "Medium",
+      "time_estimate": "1-2 minutes (AI-generated via Cursor + GPT-5)",
+      "common_actions": [
+        "Extract",
+        "Generate",
+        "Analyze",
+        "Create"
+      ],
+      "storage_pattern": "ENTITIES/LIBRARIES/Objects/Design_Deliverables/Design_Systems/Configuration_Files/",
+      "platforms_used": [
+        "AI app development projects",
+        "Design system generation workflows"
+      ],
+      "ai_tools_used": [
+        "Cursor (environment)",
+        "GPT-5 (visual analysis and extraction)",
+        "Dribbble (inspiration source)"
+      ],
+      "created_by": "AI (GPT-5 in Cursor)",
+      "used_by": [
+        "AI (Claude/Sonnet for component generation)",
+        "AI (GPT-5 for comprehensive documentation)",
+        "Developers implementing design systems"
+      ],
+      "workflow": "AI-Assisted Design System Generation (Prompt 1 output)",
+      "related_objects": [
+        "design-system.json (comprehensive version)",
+        "UI Component Showcase App (uses this as input)",
+        "Dribbble screenshot (source inspiration)"
+      ],
+      "discovery_source": "Video_009"
+    },
+    {
+      "object_name": "Comprehensive Design System Guide (design-system.json)",
+      "object_types": [
+        "Complete design system specification",
+        "AI-consumable design documentation",
+        "Component definition file"
+      ],
+      "professions": [
+        "Design Systems Engineer",
+        "Lead Designer",
+        "AI Prompt Engineer"
+      ],
+      "tools": [
+        "Cursor",
+        "GPT-5",
+        "Text editor"
+      ],
+      "description": "Highly detailed, comprehensive JSON file (646+ lines) containing complete specifications for all UI components, styling rules, accessibility guidelines, interaction patterns, and design principles. Created via AI synthesis (Prompt 3) of initial design.json and implemented showcase app code. Serves as the definitive, machine-readable guide for AI tools to follow when building new features with consistent design.",
+      "file_format": "JSON",
+      "typical_size": "646+ lines (highly detailed)",
+      "contents": [
+        "All component definitions (buttons, cards, forms, avatars, calendars, etc.)",
+        "Complete Tailwind CSS styling specifications",
+        "Detailed spacing, fonts, colors",
+        "Accessibility guidelines",
+        "Motion and interaction patterns",
+        "Data visualization rules",
+        "Content guidelines",
+        "Do's and don'ts",
+        "Structure and hierarchy rules"
+      ],
+      "complexity": "Very High",
+      "time_estimate": "2-5 minutes (AI-generated via Cursor + GPT-5)",
+      "common_actions": [
+        "Create",
+        "Generate",
+        "Document",
+        "Reference",
+        "Update"
+      ],
+      "storage_pattern": "ENTITIES/LIBRARIES/Objects/Design_Deliverables/Design_Systems/System_Guides/",
+      "platforms_used": [
+        "All AI-assisted development projects",
+        "Lovable",
+        "Bolt",
+        "Cursor-based projects"
+      ],
+      "ai_tools_used": [
+        "Cursor (environment)",
+        "GPT-5 (comprehensive documentation generation)",
+        "Tailwind CSS (styling framework reference)"
+      ],
+      "dependencies": [
+        "design.json (initial style guide)",
+        "UI Component Showcase App (implemented components)"
+      ],
+      "created_by": "AI (GPT-5 in Cursor)",
+      "used_by": [
+        "AI coding tools (Cursor, Lovable, Bolt)",
+        "Developers building new features",
+        "Design systems teams maintaining consistency"
+      ],
+      "usage_context": "Referenced in AI prompts to ensure all new features follow established design language",
+      "business_value": "Ensures consistent, high-quality design across all AI-generated features; prevents generic 'purple gradient' outputs",
+      "workflow": "AI-Assisted Design System Generation (Prompt 3 output)",
+      "related_objects": [
+        "design.json (high-level version)",
+        "UI Component Showcase App (source of specifications)",
+        "Tailwind CSS configuration"
+      ],
+      "discovery_source": "Video_009"
+    },
+    {
+      "object_name": "UI Component Showcase Application",
+      "object_types": [
+        "Design system prototype",
+        "Component library demo",
+        "Web application"
+      ],
+      "professions": [
+        "Frontend Developer",
+        "Design Systems Engineer",
+        "UI/UX Designer"
+      ],
+      "tools": [
+        "Cursor",
+        "Claude/Sonnet 4.5",
+        "Vite",
+        "React",
+        "Tailwind CSS"
+      ],
+      "description": "Fully functional web application built with Vite + React + Tailwind CSS that demonstrates all UI components from a design system on a mock dashboard. Generated via AI (Prompt 2) based on design.json specifications. Runs on localhost development server for preview and refinement before creating comprehensive design-system.json documentation.",
+      "tech_stack": [
+        "Vite (build tool and dev server)",
+        "React (component framework)",
+        "Tailwind CSS v3 (styling)"
+      ],
+      "typical_components": [
+        "Buttons (primary, secondary, tertiary, success, ghost, icon buttons)",
+        "Cards (various styles with hover states)",
+        "Avatars and avatar stacks",
+        "Progress indicators and bars",
+        "Calendar components",
+        "Forms and inputs",
+        "Typography scales",
+        "Color palette examples",
+        "Navigation elements",
+        "Mock dashboard layout"
+      ],
+      "complexity": "High",
+      "time_estimate": "5-10 minutes (AI-generated via Cursor + Claude/Sonnet)",
+      "typical_file_count": "15-30 React component files",
+      "runs_on": "localhost development server (e.g., :5173)",
+      "common_actions": [
+        "Build",
+        "Generate",
+        "Run",
+        "Preview",
+        "Refine"
+      ],
+      "storage_pattern": "ENTITIES/LIBRARIES/Objects/Design_Deliverables/Design_Systems/Showcase_Apps/",
+      "platforms_used": [
+        "AI-assisted development workflows",
+        "Design system prototyping"
+      ],
+      "ai_tools_used": [
+        "Cursor (environment)",
+        "Claude/Sonnet 4.5 (code generation)",
+        "Vite (local server)",
+        "Tailwind CSS (styling translation)"
+      ],
+      "dependencies": [
+        "design.json (input specification)"
+      ],
+      "created_by": "AI (Claude/Sonnet 4.5 in Cursor)",
+      "used_by": [
+        "Designers for visual verification",
+        "AI (GPT-5) for creating design-system.json",
+        "Developers for reference implementation"
+      ],
+      "purpose": "Visualize and verify extracted design system before creating comprehensive documentation; allows iterative refinement",
+      "workflow": "AI-Assisted Design System Generation (Prompt 2 output)",
+      "related_objects": [
+        "design.json (input)",
+        "design-system.json (derived documentation)"
+      ],
+      "success_criteria": "Generated showcase is 'almost identical' to source Dribbble inspiration",
+      "discovery_source": "Video_009"
+    },
+    {
+      "object_name": "User Journey Maps",
+      "object_types": [
+        "End-to-end journey map",
+        "Service blueprint"
+      ],
+      "professions": [
+        "UI/UX Designer"
+      ],
+      "tools": [
+        "Miro (PRIMARY)",
+        "FigJam",
+        "Figma"
+      ],
+      "description": "Visual representation of user steps, touchpoints, emotions, and pain points",
+      "complexity": "High",
+      "time_estimate": "3-5 days",
+      "common_actions": [
+        "Create",
+        "Analyze",
+        "Update"
+      ],
+      "storage_pattern": "ENTITIES/LIBRARIES/Objects/Design_Deliverables/User_Research/",
+      "platforms_used": [
+        "All platforms - UX planning"
+      ]
+    },
+    {
+      "object_name": "Presentations",
+      "object_types": [
+        "Informative presentation",
+        "Persuasive presentation",
+        "Demonstrative presentation"
+      ],
+      "professions": [
+        "Graphic Designer",
+        "All roles"
+      ],
+      "tools": [
+        "Gamma AI (PRIMARY - AI generation)",
+        "PowerPoint",
+        "Google Slides"
+      ],
+      "complexity": "Low to Medium",
+      "time_estimate": "30 minutes - 2 hours (Gamma AI), 4-8 hours (manual)",
+      "common_actions": [
+        "Generate",
+        "Create",
+        "Design",
+        "Update"
+      ],
+      "storage_pattern": "ENTITIES/LIBRARIES/Objects/Design_Deliverables/Presentations/",
+      "platforms_used": [
+        "All platforms - client presentations, pitches"
+      ]
+    },
+    {
+      "object_name": "Brandbooks",
+      "object_types": [
+        "Corporate brandbook",
+        "Product brandbook",
+        "Visual identity guidelines"
+      ],
+      "professions": [
+        "Graphic Designer"
+      ],
+      "tools": [
+        "Illustrator",
+        "InDesign",
+        "Figma"
+      ],
+      "complexity": "Very High",
+      "time_estimate": "2-6 weeks",
+      "common_actions": [
+        "Create",
+        "Develop",
+        "Update"
+      ],
+      "storage_pattern": "ENTITIES/LIBRARIES/Objects/Design_Deliverables/Brandbooks/",
+      "platforms_used": [
+        "Major clients and internal platforms"
+      ]
+    }
+  ],
+  "department_stats": {
+    "total_designers": 9,
+    "professions": [
+      "Graphic Designer",
+      "UI/UX Designer",
+      "Web Designer",
+      "Illustrator",
+      "3D Designer",
+      "Interior Designer",
+      "WordPress Designer",
+      "Motion Designer"
+    ],
+    "complete_professions": 2,
+    "total_object_types": "60+ (30 for Graphic Designer, 30 for UI/UX Designer)",
+    "total_tasks": "92+ documented (Graphic Designer)",
+    "total_tools": "60+ (25 Graphic Designer, 35 UI/UX Designer)"
+  },
+  "workflow_integration": {
+    "task_assignment": [
+      "Notion (cards)",
+      "Email",
+      "Direct messages"
+    ],
+    "review_process": "Notion feedback, team lead approval",
+    "file_storage": "Google Drive (final deliverables), Figma (working files)",
+    "communication": "Discord (voice channels during work hours), Gmail",
+    "time_tracking": "CRM (clock in/out, daily reports with screenshots)"
+  },
+  "internal_platforms": [
+    {
+      "code": "DGN",
+      "name": "Design Services",
+      "url": "https://d-gn.com/",
+      "content": "Portfolio pieces, process videos, design tutorials, case studies, tool reviews"
+    },
+    {
+      "code": "BZ-V",
+      "name": "Business Video",
+      "content": "Sample videos, behind-the-scenes, educational content, client testimonials"
+    },
+    {
+      "code": "REMS",
+      "name": "Remote Employees for Recruiting Services",
+      "content": "Job market insights, talent spotlights, recruitment tips, industry analysis"
+    },
+    {
+      "code": "FVE",
+      "name": "Freelance Video Editors",
+      "content": "Editing samples, speed demonstrations, style guides, client projects"
+    },
+    {
+      "code": "RHS",
+      "name": "Remote Helpers",
+      "content": "Employee CVs, task execution videos, tutorial libraries, skills demonstrations"
+    },
+    {
+      "code": "OAY",
+      "name": "Online Academy",
+      "content": "Educational materials and courses"
+    }
+  ],
+  "tags": [
+    "design",
+    "objects",
+    "deliverables",
+    "graphic-design",
+    "ui-ux",
+    "designers-department"
+  ]
+}

@@ -1,0 +1,63 @@
+﻿New_ID,Entity_Type,Current_ID,Name,Description,Department,File_Path,Status
+PRM-001,Prompt,PRM-VT-001,Video Transcription Custom Instructions,Core transcription methodology with structured extraction format for taxonomy,AID,ENTITIES/PROMPTS/PROMPTS/Transcription/Video_Transcription_Custom_Instructions.md,Active
+PRM-002,Prompt,PRM-VT-002,Video Naming Business Alternatives,Convert casual/clickbait video titles to professional taxonomy-friendly alternatives,AID,ENTITIES/PROMPTS/PROMPTS/Transcription/Video_Naming_Business_Alternatives_Prompt.md,Active
+PRM-003,Prompt,PRM-VT-003,Video Analysis Prompt,Step-by-step guide for analyzing transcriptions and extracting taxonomy elements,AID,ENTITIES/PROMPTS/PROMPTS/Analysis/Video_Analysis_Prompt.md,Active
+PRM-004,Prompt,PRM-VT-004,Objects Library Extraction Prompt,Systematic extraction of deliverables outputs and tangible items with cross-referencing,AID,ENTITIES/PROMPTS/PROMPTS/Analysis/Objects_Library_Extraction_Prompt.md,Active
+PRM-005,Prompt,PRM-TI-001,Taxonomy Analysis and Updates Prompt,Complete end-to-end workflow for video transcription to full taxonomy integration,AID,ENTITIES/PROMPTS/PROMPTS/Taxonomy_Integration/Taxonomy_Analysis_and_Updates_Prompt.md,Active
+PRM-006,Prompt,PRM-LP-001,Tools Collection and Matching Prompt,Tool discovery and validation methodology for maintaining Tools library,AID,ENTITIES/PROMPTS/Library_Processing/Tools_Collection_and_Matching_Prompt.md,Active
+PRM-007,Prompt,PRM-LP-002,Products Integration Prompt,Process raw product lists with AI-first tool substitution principles,AID,ENTITIES/PROMPTS/Library_Processing/Products_Integration_Prompt.md,Active
+PRM-008,Prompt,PRM-LP-003,Task Manager Entity Filling Prompt,Guide for filling task manager entities with structured data,AID,ENTITIES/PROMPTS/Library_Processing/Task_Manager_Entity_Filling_Prompt.md,Active
+PRM-009,Prompt,PRM-RE-001,VSCode Agent HQ Research Prompt,Direct external AI researchers to capture VS Code Agent HQ launch details in taxonomy-ready format,AID,ENTITIES/PROMPTS/Research_Prompts/VSCode_Agent_HQ_Research_Prompt.md,Active
+PRM-010,Prompt,PRM-RE-002,YouTube AI HR Tutorials Research Prompt,Research prompt for YouTube AI HR automation tutorials,HRM,ENTITIES/PROMPTS/Research_Prompts/YouTube_AI_HR_Tutorials_Research_Prompt.md,Active
+PRM-011,Prompt,PRM-RE-003,YouTube AI Tools Daily Research Prompt,Daily research prompt for YouTube AI tools and updates,AID,ENTITIES/PROMPTS/Research_Prompts/YouTube_AI_Tools_Daily_Research_Prompt.md,Active
+PRM-012,Prompt,PRM-RE-004,YouTube HR Automation Research Prompt,Research prompt for YouTube HR automation content,HRM,ENTITIES/PROMPTS/Research_Prompts/YouTube_HR_Automation_Research_Prompt.md,Active
+PRM-013,Prompt,PRM-RE-005,Sales Department Research Prompt,Research prompt for sales department workflows and tools,SLS,ENTITIES/PROMPTS/Research_Prompts/Sales_Department_Research_Prompt.md,Active
+PRM-014,Prompt,PRM-RE-006,YouTube Video Research RemoteHelpers Nov2025,Research prompt for RemoteHelpers YouTube video content November 2025,AID,ENTITIES/PROMPTS/Research_Prompts/YouTube_Video_Research_Prompt_RemoteHelpers_Nov2025.md,Active
+PRM-015,Prompt,PRM-HR-001,CV Parser v1,Extract 21 fields from candidate resumes in TSV format for CRM entry,HRM,ENTITIES/PROMPTS/HR_Operations/CV_Parser_v1.md,Active
+PRM-016,Prompt,PRM-HR-002,Communication Templates Prompt,Guide professional candidate communication with standardized templates,HRM,ENTITIES/PROMPTS/HR_Operations/Communication_Templates_Prompt.md,Active
+PRM-017,Prompt,PRM-HR-003,CRM Data Entry Prompt,Guide 3-step process for parsing resumes and entering data into CRM system,HRM,ENTITIES/PROMPTS/HR_Operations/CRM_Data_Entry_Prompt.md,Active
+PRM-018,Prompt,PRM-HR-004,Interview Conductor Prompt,Guide interview process evaluation contracts and onboarding workflows,HRM,ENTITIES/PROMPTS/HR_Operations/Interview_Conductor_Prompt.md,Active
+PRM-019,Prompt,PRM-HR-005,Job Sites Deep Research Prompt,Deep research prompt for job sites and recruitment platforms,HRM,ENTITIES/PROMPTS/HR_Operations/Job_Sites_Deep_Research_Prompt.md,Active
+PRM-020,Prompt,PRM-OW-001,Document Finished Project,Guide AI assistants to create comprehensive completion reports for finished projects,AID,ENTITIES/PROMPTS/Operational_Workflows/PROMPT_Document_Finished_Project.md,Active
+PRM-021,Prompt,PRM-DR-001,AI Daily Report,Daily report prompt for AI department,AID,ENTITIES/PROMPTS/Daily_Reports/Department_Prompts/PROMPT_AI_Daily_Report.md,Active
+PRM-022,Prompt,PRM-DR-002,Development Daily Report,Daily report prompt for Development department,DEV,ENTITIES/PROMPTS/Daily_Reports/Department_Prompts/PROMPT_Dev_Daily_Report.md,Active
+PRM-023,Prompt,PRM-DR-003,Design Daily Report,Daily report prompt for Design department,DGN,ENTITIES/PROMPTS/Daily_Reports/Department_Prompts/PROMPT_Design_Daily_Report.md,Active
+PRM-024,Prompt,PRM-DR-004,HR Daily Report,Daily report prompt for HR department,HRM,ENTITIES/PROMPTS/Daily_Reports/Department_Prompts/PROMPT_HR_Daily_Report.md,Active
+PRM-025,Prompt,PRM-DR-005,Lead Generation Daily Report,Daily report prompt for Lead Generation department,LGN,ENTITIES/PROMPTS/Daily_Reports/Department_Prompts/PROMPT_LG_Daily_Report.md,Active
+PRM-026,Prompt,PRM-DR-006,Marketing Daily Report,Daily report prompt for Marketing department,LGN,ENTITIES/PROMPTS/Daily_Reports/Department_Prompts/PROMPT_Marketing_Daily_Report.md,Active
+PRM-027,Prompt,PRM-DR-007,Sales Daily Report,Daily report prompt for Sales department,SLS,ENTITIES/PROMPTS/Daily_Reports/Department_Prompts/PROMPT_Sales_Daily_Report.md,Active
+PRM-028,Prompt,PRM-DR-008,Social Media Daily Report,Daily report prompt for Social Media Marketing,LGN,ENTITIES/PROMPTS/Daily_Reports/Department_Prompts/PROMPT_SMM_Daily_Report.md,Active
+PRM-029,Prompt,PRM-DR-009,Video Daily Report,Daily report prompt for Video department,VID,ENTITIES/PROMPTS/Daily_Reports/Department_Prompts/PROMPT_Video_Daily_Report.md,Active
+PRM-030,Prompt,PRM-DR-010,Finance Daily Report,Daily report prompt for Finance department,AID,ENTITIES/PROMPTS/Daily_Reports/Department_Prompts/PROMPT_Finance_Daily_Report.md,Active
+PRM-031,Prompt,PRM-DR-011,Content Daily Report,Daily report prompt for Content Marketing,LGN,ENTITIES/PROMPTS/Daily_Reports/Department_Prompts/PROMPT_Content_Daily_Report.md,Active
+PRM-032,Prompt,PRM-DR-012,Daily Report Collection,Collection and aggregation prompt for all department daily reports,AID,ENTITIES/PROMPTS/Daily_Reports/PROMPT_Daily_Report_Collection.md,Active
+PRM-033,Prompt,PRM-DR-013,Enhanced Department Prompt Template,Template for creating enhanced department-specific prompts,AID,ENTITIES/PROMPTS/Daily_Reports/Constructor/TEMPLATE_Enhanced_Department_Prompt.md,Active
+PRM-034,Prompt,PRM-CR-001,Main Prompt v2,Core system prompt version 2,AID,ENTITIES/PROMPTS/Core/MAIN_PROMPT_v2.md,Deprecated
+PRM-035,Prompt,PRM-CR-002,Main Prompt v3,Core system prompt version 3,AID,ENTITIES/PROMPTS/Core/MAIN_PROMPT_v3.md,Deprecated
+PRM-036,Prompt,PRM-CR-003,Main Prompt v4,Core system prompt version 4 - current production,AID,ENTITIES/PROMPTS/Core/MAIN_PROMPT_v4.md,Active
+PRM-037,Prompt,PRM-CR-004,Main Prompt v5,Core system prompt version 5 - modular architecture draft,AID,ENTITIES/PROMPTS/Core/MAIN_PROMPT_v5_Modular/,Active
+PRM-038,Prompt,PRM-CR-005,Main Prompt v6 Draft,Core system prompt version 6 - draft in progress,AID,ENTITIES/PROMPTS/Core/MAIN_PROMPT_v6_DRAFT.md,Draft
+PRM-039,Prompt,PRM-CR-006,Create Main Prompt v5,Documentation for creating main prompt version 5,AID,ENTITIES/PROMPTS/Core/CREATE_MAIN_PROMPT_v5.md,Active
+PRM-040,Prompt,PRM-CR-007,Reverse Prompt Engineering Analysis,Analysis of reverse prompt engineering methodology,AID,ENTITIES/PROMPTS/Core/MAIN_PROMPT_v5_Modular/REVERSE_PROMPT_ENGINEERING_Analysis.md,Active
+PRM-041,Prompt,PRM-TX-001,Build Taxonomy ID System,Prompt for building the taxonomy ID system,AID,ENTITIES/PROMPTS/Taxonomy/PROMPT_Build_Taxonomy_ID_System.md,Active
+PRM-042,Prompt,PRM-TX-002,Build Employee Profile Schema Workflow,Workflow for building employee profile schema,HRM,ENTITIES/PROMPTS/Taxonomy/PROMPT_Build_Employee_Profile_Schema_Workflow.md,Active
+PRM-043,Prompt,PRM-TX-003,Restructure Employee Profile to Task Managers,Guide for restructuring employee profiles to task manager format,HRM,ENTITIES/PROMPTS/Taxonomy/PROMPT_Restructure_Employee_Profile_to_Task_Managers.md,Active
+PRM-044,Prompt,PRM-TX-004,Build LIBRARIES Taxonomy,Comprehensive prompt for building LIBRARIES taxonomy structure,AID,ENTITIES/PROMPTS/Taxonomy/PROMPT_Build_LIBRARIES_Taxonomy.md,Active
+PRM-045,Prompt,PRM-TX-005,LIBRARIES Taxonomy Initial ID List,Initial ID list for LIBRARIES taxonomy entities,AID,ENTITIES/PROMPTS/Taxonomy/LIBRARIES_Taxonomy_Initial_ID_List_Prompt.md,Active
+PRM-046,Prompt,PRM-TX-006,Optimize Video Transcription Instructions,Optimization prompt for video transcription instructions,AID,ENTITIES/PROMPTS/Taxonomy/PROMPT_Optimize_Video_Transcription_Instructions.md,Active
+PRM-047,Prompt,PRM-TX-007,Prompts ISO Code Registry,ISO code registry for prompt standardization,AID,ENTITIES/PROMPTS/Taxonomy/Prompts_ISO_Code_Registry.md,Active
+PRM-048,Prompt,PRM-TX-008,Taxonomy Entities Collection,Collection prompt for taxonomy entities,AID,ENTITIES/PROMPTS/Taxonomy/PROMPT_Taxonomy_Entities_Collection.md,Active
+PRM-049,Prompt,PRM-TX-009,ENTITIES Data Synchronization Architecture,Architecture for ENTITIES data synchronization - deprecated,AID,ENTITIES/PROMPTS/Taxonomy/Archive/Depricated_PROMPT_ENTITIES_Data_Synchronization_Architecture.md,Deprecated
+PRM-050,Prompt,PRM-AM-001,Account Creation Validation,Prompt for validating account creation processes,AID,ENTITIES/PROMPTS/Account_Management/PROMPT_Account_Creation_Validation.md,Active
+PRM-051,Prompt,PRM-AM-002,Account Security Audit,Prompt for conducting account security audits,AID,ENTITIES/PROMPTS/Account_Management/PROMPT_Account_Security_Audit.md,Active
+PRM-052,Prompt,PRM-AM-003,Subscription Renewal Alert,Prompt for subscription renewal alert notifications,AID,ENTITIES/PROMPTS/Account_Management/PROMPT_Subscription_Renewal_Alert.md,Active
+PRM-053,Prompt,PRM-AT-001,Create Script Copy Dailies,Automation prompt for creating scripts to copy daily reports,AID,ENTITIES/PROMPTS/Automation/PROMPT_Create_script_copy_dailies.md,Active
+PRM-054,Prompt,PRM-SY-001,Data Consistency and Knowledge Integration,System prompt for data consistency and knowledge integration,AID,ENTITIES/PROMPTS/PROMPT_Data_Consistency_and_Knowledge_Integration.md,Active
+PRM-055,Prompt,PRM-SY-002,Department Researches Integration,Integration prompt for department research workflows,AID,ENTITIES/PROMPTS/PROMPT_Department_Researches_Integration.md,Active
+PRM-056,Prompt,PRM-SY-003,Folder Reorganization,System prompt for folder reorganization tasks,AID,ENTITIES/PROMPTS/PROMPT_Folder_Reorganization.md,Active
+PRM-057,Prompt,PRM-SY-004,Merge Transcriptions and Research Integration,Prompt for merging transcriptions with research integration,AID,ENTITIES/PROMPTS/PROMPT_Merge_Transcribations_and_Research_Integration.md,Active
+PRM-058,Prompt,PRM-SY-005,System Health Review Prompt,System health review and monitoring prompt,AID,ENTITIES/PROMPTS/System_Health_Review_Prompt.md,Active
+PRM-059,Prompt,PRM-SY-006,Architecture Merge Planning Prompt,Planning prompt for architecture merge operations,AID,ENTITIES/PROMPTS/Architecture_Merge_Planning_Prompt.md,Active
+PRM-060,Prompt,PRM-SY-007,VSCode AI Extensions Research,Research prompt for VSCode AI extensions,DEV,ENTITIES/PROMPTS/vscode_ai_extensions_research.md,Active
+PRM-061,Prompt,PRM-SY-008,Architecture Learning Guide,Guide for learning system architecture,AID,ENTITIES/PROMPTS/Architecture_Learning_Guide.md,Active
+PRM-062,Prompt,PRM-AN-001,Prompt Analysis and Improvements,Analysis and improvement prompt for video processing prompts,AID,ENTITIES/PROMPTS/PROMPTS/Analysis/PROMPT_ANALYSIS_AND_IMPROVEMENTS.md,Active

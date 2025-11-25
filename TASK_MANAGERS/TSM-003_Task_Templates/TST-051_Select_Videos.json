@@ -1,0 +1,96 @@
+{
+  "entity_type": "TASK_MANAGERS",
+  "sub_entity": "Task_Template",
+  "template_id": "Task-Template-051",
+  "version": "1.0",
+  "created_date": "2025-11-17",
+  "last_updated": "2025-11-17",
+  "metadata": {
+    "name": "Select Top Videos and Document Research Results",
+    "description": "Select top 3-5 videos (score 80+) from scored list and create Research_Results document",
+    "action": "Select",
+    "object": "Videos",
+    "context": "top 3-5 videos with score 80+ for processing",
+    "department": "AI",
+    "complexity": "Low",
+    "estimated_duration": "30-60 minutes",
+    "skill_level_required": "Beginner",
+    "tools_required": [
+      "Text editor with markdown support",
+      "Scored video list from TASK-TEMPLATE-VIDEO-001"
+    ],
+    "prerequisites": [
+      "TASK-TEMPLATE-VIDEO-001 completed",
+      "8-12 videos scored",
+      "Selection criteria understood (minimum score 80)"
+    ]
+  },
+  "workflow": {
+    "phase": 1,
+    "milestone": "MIL-PROJ-VIDEO-001-001",
+    "project_template": "Project-Template-008",
+    "dependencies": [
+      "TASK-TEMPLATE-VIDEO-001"
+    ],
+    "outputs": [
+      "Top 3-5 videos selected",
+      "Research_Results_YYYY-MM-DD.md document created",
+      "Video assignments (if team-based)",
+      "Processing timeline defined",
+      "Handoff to Stage 2 ready"
+    ]
+  },
+  "steps": [
+    {
+      "step_number": 1,
+      "step_name": "Apply selection criteria",
+      "description": "Select videos with score >= 80, prioritize Critical Priority topics (40 pts), aim for 3-5 videos",
+      "estimated_time": "10 minutes",
+      "tools": [],
+      "output": "3-5 videos selected from 8-12 scored"
+    },
+    {
+      "step_number": 2,
+      "step_name": "Create Research_Results document",
+      "description": "Create Research_Results_YYYY-MM-DD.md with all scored videos, highlight selected ones",
+      "estimated_time": "15-30 minutes",
+      "tools": [
+        "Text editor"
+      ],
+      "output": "Complete Research_Results document with summary and details"
+    },
+    {
+      "step_number": 3,
+      "step_name": "Assign processing timeline",
+      "description": "Assign videos to team members (if applicable), set processing deadlines",
+      "estimated_time": "5-10 minutes",
+      "tools": [],
+      "output": "Video assignments and timeline documented"
+    }
+  ],
+  "quality_checklist": [
+    "3-5 videos selected (not more, not less)",
+    "All selected videos have score >= 80",
+    "Research_Results document created with proper naming",
+    "Summary section includes top videos and key findings",
+    "All 8-12 videos documented (not just selected ones)",
+    "Selected videos marked clearly (⭐ SELECTED)",
+    "Non-selected videos included with reasoning",
+    "Next Steps section completed with assignments and timeline",
+    "Video URLs collected and verified",
+    "Department relevance clear for each selected video"
+  ],
+  "related_entities": {
+    "methodology": "ENTITIES/PROMPTS/Video_Processing/Complete_Video_Workflow_Full_Instructions.md",
+    "short_guide": "ENTITIES/PROMPTS/Video_Processing/Short Complete Video Workflow.md",
+    "project_template": "Project-Template-008",
+    "milestone": "MIL-PROJ-VIDEO-001-001",
+    "previous_task": "TASK-TEMPLATE-VIDEO-001",
+    "next_task": "TASK-TEMPLATE-VIDEO-101",
+    "step_templates": [
+      "STEP-VIDEO-002-01",
+      "STEP-VIDEO-002-02",
+      "STEP-VIDEO-002-03"
+    ]
+  }
+}

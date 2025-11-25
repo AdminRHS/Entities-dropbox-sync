@@ -1,0 +1,53 @@
+{
+  "entity_type": "LIBRARIES",
+  "sub_entity": "Profession",
+  "profession_name": "event_coordinator",
+  "full_title": "Event Coordinator",
+  "department": "MKT",
+  "description": "Event planning and coordination specialist managing event logistics, marketing, attendee communication, and promotional content creation using AI tools",
+  "created": "2025-11-24",
+  "updated": "2025-11-24",
+  "skills": [
+    "SKL-062"
+  ],
+  "skill_details": {
+    "SKL-062": {
+      "skill_phrase": "engineered prompts for AI content generation via Google AI Studio",
+      "proficiency_level": "beginner",
+      "frequency": "weekly"
+    }
+  },
+  "tools": [
+    "TOOL-AI-222"
+  ],
+  "tool_details": {
+    "TOOL-AI-222": "Google AI Studio - Content generation for event marketing and announcements"
+  },
+  "workflows": [
+    "WRF-021"
+  ],
+  "workflow_details": {
+    "WRF-021": "Create Social Media Caption - Generate event announcement captions"
+  },
+  "objects": [
+    "OBJ-SMM-015"
+  ],
+  "object_details": {
+    "OBJ-SMM-015": "Social Media Caption - Event announcements with details and hashtags"
+  },
+  "actions": [
+    "generate",
+    "write",
+    "coordinate",
+    "schedule",
+    "promote",
+    "announce"
+  ],
+  "typical_tasks": [
+    "Create event announcement captions for social media",
+    "Generate promotional content for concerts and exhibitions",
+    "Coordinate event marketing across multiple channels",
+    "Write engaging event descriptions and announcements"
+  ],
+  "source": "Video_023"
+}

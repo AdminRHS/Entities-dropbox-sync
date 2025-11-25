@@ -1,0 +1,124 @@
+{
+  "entity_type": "TASK_MANAGERS",
+  "sub_entity": "Task_Template",
+  "template_id": "Task-Template-052",
+  "version": "1.0",
+  "created_date": "2025-11-17",
+  "last_updated": "2025-11-17",
+  "metadata": {
+    "name": "Extract Taxonomy Data from Transcription",
+    "description": "Extract all taxonomy data (workflows, Task Templates, Step Templates, skills, tools) from completed transcription using v3.2 methodology",
+    "action": "Extract",
+    "object": "Taxonomy Data",
+    "context": "from video transcription using v3.2 extraction templates",
+    "department": "All departments (cross-functional)",
+    "complexity": "Medium",
+    "estimated_duration": "15-30 minutes",
+    "skill_level_required": "Intermediate",
+    "tools_required": [
+      "Claude Desktop or Claude Pro",
+      "Completed transcription document",
+      "Taxonomy naming conventions reference"
+    ],
+    "prerequisites": [
+      "TASK-TEMPLATE-VIDEO-101 completed",
+      "Word-for-word transcription available",
+      "Understanding of naming conventions (ACTION_OBJECT_CONTEXT)"
+    ]
+  },
+  "workflow": {
+    "phase": 2,
+    "milestone": "MIL-PROJ-VIDEO-001-002",
+    "project_template": "Project-Template-008",
+    "dependencies": [
+      "TASK-TEMPLATE-VIDEO-101"
+    ],
+    "outputs": [
+      "Workflows identified (Section 4)",
+      "Task Templates extracted (Section 4B)",
+      "Step Templates extracted (Section 4C)",
+      "Skills identified (Section 7B)",
+      "Tools list compiled (Section 10)",
+      "All naming conventions applied"
+    ]
+  },
+  "steps": [
+    {
+      "step_number": 1,
+      "step_name": "Identify workflows",
+      "description": "Extract all workflows with: department, objective, steps, duration, complexity, tools, input/output",
+      "estimated_time": "5-8 minutes",
+      "tools": [
+        "Claude"
+      ],
+      "output": "Section 4: Workflows Identified"
+    },
+    {
+      "step_number": 2,
+      "step_name": "Extract Task Templates",
+      "description": "Create Task Templates in ACTION_OBJECT_CONTEXT format with all required fields",
+      "estimated_time": "4-7 minutes",
+      "tools": [
+        "Claude"
+      ],
+      "output": "Section 4B: Task Templates Extraction"
+    },
+    {
+      "step_number": 3,
+      "step_name": "Extract Step Templates",
+      "description": "Create Step Templates in ACTION_OBJECT_DETAIL format linked to parent tasks",
+      "estimated_time": "4-7 minutes",
+      "tools": [
+        "Claude"
+      ],
+      "output": "Section 4C: Step Templates Extraction"
+    },
+    {
+      "step_number": 4,
+      "step_name": "Identify skills",
+      "description": "Extract skills in lowercase format with tools (e.g., 'enriched emails via Anymailfinder')",
+      "estimated_time": "2-4 minutes",
+      "tools": [
+        "Claude"
+      ],
+      "output": "Section 7B: Skills identified with task linkage"
+    },
+    {
+      "step_number": 5,
+      "step_name": "Compile tools list",
+      "description": "List all tools mentioned with categories and descriptions",
+      "estimated_time": "2-4 minutes",
+      "tools": [
+        "Claude"
+      ],
+      "output": "Section 10: Tools list compiled"
+    }
+  ],
+  "quality_checklist": [
+    "Workflows section complete with all required fields",
+    "Task Templates follow ACTION_OBJECT_CONTEXT naming (ALL_CAPS)",
+    "Step Templates follow ACTION_OBJECT_DETAIL naming (ALL_CAPS)",
+    "Skills in lowercase with tools included",
+    "Tools list complete with categories",
+    "Reusability contexts identified for tasks",
+    "Success criteria defined for each task/step",
+    "Dependencies and prerequisites documented",
+    "Time estimates provided",
+    "Department assignments correct"
+  ],
+  "related_entities": {
+    "methodology": "ENTITIES/PROMPTS/Video_Processing/Complete_Video_Workflow_Full_Instructions.md",
+    "short_guide": "ENTITIES/PROMPTS/Video_Processing/Short Complete Video Workflow.md",
+    "project_template": "Project-Template-008",
+    "milestone": "MIL-PROJ-VIDEO-001-002",
+    "previous_task": "TASK-TEMPLATE-VIDEO-101",
+    "next_task": "TASK-TEMPLATE-VIDEO-004",
+    "step_templates": [
+      "STEP-VIDEO-003-01",
+      "STEP-VIDEO-003-02",
+      "STEP-VIDEO-003-03",
+      "STEP-VIDEO-003-04",
+      "STEP-VIDEO-003-05"
+    ]
+  }
+}

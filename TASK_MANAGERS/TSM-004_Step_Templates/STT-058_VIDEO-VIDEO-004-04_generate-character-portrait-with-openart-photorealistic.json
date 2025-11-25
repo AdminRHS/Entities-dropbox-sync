@@ -1,0 +1,34 @@
+{
+  "entity_type": "TASK_MANAGERS",
+  "sub_entity": "Step_Template",
+  "step_id": "VIDEO-VIDEO-004-04",
+  "step_number": 4,
+  "parent_task": "TASK-TEMPLATE-VIDEO-004",
+  "task_name": "Master Unified Platform Workflow for Video Generation",
+  "name": "Generate character portrait with OpenArt Photorealistic",
+  "action": "generate",
+  "tool": "TOOL-AI-056 (OpenArt Photorealistic)",
+  "responsibility": "Video Producer",
+  "placement": "OpenArt - Image - Photorealistic model",
+  "duration": "3-4 minutes",
+  "dependencies": [
+    1,
+    3
+  ],
+  "inputs": [
+    "Character description from plan"
+  ],
+  "outputs": [
+    "High-quality character portrait"
+  ],
+  "success_criteria": "Portrait matches project requirements",
+  "implementation_notes": "Portrait matches project requirements - Implementation details based on the Master Unified Platform Workflow for Video Generation workflow.",
+  "tags": [
+    "generate",
+    "template-task-video-004"
+  ],
+  "version": "1.0",
+  "created": "2025-11-15",
+  "last_updated": "2025-11-15",
+  "source": "Video_012"
+}

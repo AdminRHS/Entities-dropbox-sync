@@ -1,0 +1,173 @@
+{
+  "entity_type": "TASK_MANAGERS",
+  "sub_entity": "Task_Template",
+  "template_id": "Task-Template-072",
+  "task_name": "Install and Configure IDE Tool for Development Team",
+  "action": "Install",
+  "object": "IDE",
+  "context": "to set up development environment for team members during onboarding or tool migration",
+  "description": "Complete installation and configuration of IDE tools (Antigravity IDE or Cursor) for team members. Includes downloading software, installing on user's machine, configuring editor settings, setting up integrations with version control and AI assistants, and verifying functionality through test tasks. Essential for onboarding new developers and standardizing development environments across teams.",
+  "department": "AI & Automation",
+  "profession": "AI Engineer / DevOps Engineer",
+  "estimated_duration": "2 hours (30 min install + 1 hour config + 30 min testing)",
+  "status": "Template",
+  "dependencies": [
+    "User machine access (admin privileges)",
+    "Software licenses available (Antigravity/Cursor subscription)",
+    "Version control credentials (GitHub/GitLab access)",
+    "AI assistant API keys (Claude, Gemini, etc.)",
+    "Network access to download repositories"
+  ],
+  "tools_required": [
+    "TOL-221 (Antigravity IDE) or TOL-201 (Cursor)",
+    "TOL-003 (Gemini 3 Pro) for AI coding assistance",
+    "TOL-002 (Claude) for code review features",
+    "Git/GitHub Desktop",
+    "Package managers (npm, pip, etc.)"
+  ],
+  "success_criteria": [
+    "IDE successfully installed and launches without errors",
+    "AI coding assistant connected and functional (autocomplete working)",
+    "Version control integration configured (can clone, commit, push)",
+    "Editor settings match team standards (formatting, linting)",
+    "User can successfully complete a test coding task",
+    "Extensions/plugins installed per team requirements",
+    "Keyboard shortcuts and workspace configured"
+  ],
+  "steps": [
+    {
+      "step_number": 1,
+      "name": "Download and install IDE software",
+      "duration": "15 minutes",
+      "outputs": [
+        "IDE application installed on user machine",
+        "Installation path documented"
+      ]
+    },
+    {
+      "step_number": 2,
+      "name": "Configure basic editor settings",
+      "duration": "20 minutes",
+      "outputs": [
+        "Theme and font settings applied",
+        "Tab size, line endings, formatting rules configured",
+        "Auto-save and file watchers enabled"
+      ]
+    },
+    {
+      "step_number": 3,
+      "name": "Set up AI coding assistant integration",
+      "duration": "25 minutes",
+      "outputs": [
+        "API keys configured for Claude/Gemini",
+        "AI autocomplete tested and working",
+        "Code generation features verified"
+      ]
+    },
+    {
+      "step_number": 4,
+      "name": "Configure version control integration",
+      "duration": "20 minutes",
+      "outputs": [
+        "Git credentials configured",
+        "SSH keys set up (if needed)",
+        "Test repository cloned successfully"
+      ]
+    },
+    {
+      "step_number": 5,
+      "name": "Install required extensions and plugins",
+      "duration": "15 minutes",
+      "outputs": [
+        "Language-specific extensions installed (Python, JavaScript, etc.)",
+        "Linting and formatting tools configured",
+        "Productivity extensions added per team standards"
+      ]
+    },
+    {
+      "step_number": 6,
+      "name": "Set up workspace and project templates",
+      "duration": "15 minutes",
+      "outputs": [
+        "Default workspace configured",
+        "Project templates imported",
+        "File tree and sidebar customized"
+      ]
+    },
+    {
+      "step_number": 7,
+      "name": "Test IDE functionality with sample task",
+      "duration": "10 minutes",
+      "outputs": [
+        "Sample code file created and edited",
+        "AI suggestions working",
+        "Git commit and push successful",
+        "Linting and formatting verified"
+      ]
+    }
+  ],
+  "checklist": [
+    {
+      "item": "IDE installed and launches without errors",
+      "required": true
+    },
+    {
+      "item": "AI assistant connected (autocomplete working)",
+      "required": true
+    },
+    {
+      "item": "Git integration configured (can clone/commit/push)",
+      "required": true
+    },
+    {
+      "item": "Required extensions installed per team standards",
+      "required": true
+    },
+    {
+      "item": "Editor settings match team configuration",
+      "required": true
+    },
+    {
+      "item": "User trained on basic shortcuts and features",
+      "required": false
+    },
+    {
+      "item": "Documentation provided for advanced features",
+      "required": false
+    }
+  ],
+  "roi_metrics": {
+    "time_savings": "Saves 4-6 hours of trial-and-error setup for new developers",
+    "quality_improvement": "Ensures consistent coding standards across team with proper linting/formatting",
+    "onboarding_efficiency": "Reduces onboarding time by 1-2 days with standardized environment"
+  },
+  "related_tasks": [
+    "TST-073 (Set Up Automation Infrastructure)",
+    "TST-075 (Design Database Schema)"
+  ],
+  "related_workflows": [
+    "Developer Onboarding Workflow",
+    "Tool Migration Workflow"
+  ],
+  "related_projects": [
+    "Team Expansion Initiative",
+    "Development Environment Standardization"
+  ],
+  "tags": [
+    "onboarding",
+    "ide",
+    "development-tools",
+    "ai-coding",
+    "cursor",
+    "antigravity",
+    "setup",
+    "configuration"
+  ],
+  "version": "1.0",
+  "created": "2025-11-21",
+  "last_updated": "2025-11-21",
+  "responsibility_id": "RESP-AID-194,RESP-AID-195",
+  "responsibility_name": "install ide, configure ide",
+  "_original_action": "Install",
+  "_original_object": "IDE"
+}

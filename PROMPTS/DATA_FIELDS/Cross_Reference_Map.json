@@ -1,0 +1,451 @@
+{
+  "map_version": "1.0",
+  "last_updated": "2025-11-21",
+  "description": "Entity relationship mappings across ENTITIES ecosystem. Used by PMT-078 (Cross Entity Search) for relationship traversal.",
+  "relationship_types": {
+    "parent_child": "Hierarchical relationship (e.g., PRT contains MLT)",
+    "references": "Entity references another (e.g., TSK references TOL)",
+    "mentioned_in": "Entity mentioned in documentation",
+    "similar_to": "Entities with similar function or purpose",
+    "depends_on": "Entity depends on another for completion"
+  },
+  "hierarchies": {
+    "task_management": {
+      "description": "Project → Milestone → Task → Step → Checklist hierarchy",
+      "levels": [
+        {
+          "level": 1,
+          "entity_type": "Project",
+          "id_pattern": "PRT-###",
+          "contains": "Milestone",
+          "fields": {
+            "id_field": "New_ID",
+            "name_field": "Name",
+            "children_field": "milestones"
+          }
+        },
+        {
+          "level": 2,
+          "entity_type": "Milestone",
+          "id_pattern": "MLT-###",
+          "parent": "Project",
+          "contains": "Task",
+          "fields": {
+            "id_field": "New_ID",
+            "name_field": "Name",
+            "parent_field": "project_template_id",
+            "children_field": "tasks"
+          }
+        },
+        {
+          "level": 3,
+          "entity_type": "Task",
+          "id_pattern": "TSK-###",
+          "parent": "Milestone",
+          "contains": "Step",
+          "fields": {
+            "id_field": "New_ID",
+            "name_field": "Name",
+            "parent_field": "milestone_template_id",
+            "children_field": "steps"
+          }
+        },
+        {
+          "level": 4,
+          "entity_type": "Step",
+          "id_pattern": "STT-###",
+          "parent": "Task",
+          "contains": "ChecklistItem",
+          "fields": {
+            "id_field": "New_ID",
+            "name_field": "Name",
+            "parent_field": "task_template_id"
+          }
+        },
+        {
+          "level": 5,
+          "entity_type": "ChecklistTemplate",
+          "id_pattern": "CHT-###",
+          "contains": "ChecklistItem",
+          "fields": {
+            "id_field": "New_ID",
+            "name_field": "Name"
+          }
+        },
+        {
+          "level": 6,
+          "entity_type": "ChecklistItem",
+          "id_pattern": "CHK-###",
+          "parent": "ChecklistTemplate or Task",
+          "fields": {
+            "id_field": "checklist_item_id",
+            "name_field": "item_name",
+            "parent_field": "associated_task"
+          }
+        }
+      ]
+    },
+    "taxonomy": {
+      "description": "Action + Object = Responsibility relationship",
+      "levels": [
+        {
+          "level": 1,
+          "entity_type": "Action",
+          "id_pattern": "ACT-###",
+          "used_in": "Responsibility"
+        },
+        {
+          "level": 1,
+          "entity_type": "Object",
+          "id_pattern": "OBJ-###",
+          "used_in": "Responsibility"
+        },
+        {
+          "level": 2,
+          "entity_type": "Responsibility",
+          "id_pattern": "RSP-###",
+          "composed_of": ["Action", "Object"],
+          "fields": {
+            "action_field": "action_id",
+            "object_field": "object_id"
+          }
+        }
+      ]
+    }
+  },
+  "reference_patterns": {
+    "tools_in_tasks": {
+      "source": "Task",
+      "target": "Tool",
+      "relationship": "references",
+      "field": "tools_referenced",
+      "description": "Tasks reference tools used for completion"
+    },
+    "tools_in_responsibilities": {
+      "source": "Responsibility",
+      "target": "Tool",
+      "relationship": "references",
+      "field": "tools_used",
+      "description": "Responsibilities may specify tools"
+    },
+    "responsibilities_in_professions": {
+      "source": "Profession",
+      "target": "Responsibility",
+      "relationship": "requires",
+      "field": "key_responsibilities",
+      "description": "Professions require specific responsibilities"
+    },
+    "tools_in_professions": {
+      "source": "Profession",
+      "target": "Tool",
+      "relationship": "uses",
+      "field": "tools",
+      "description": "Professions use specific tools"
+    },
+    "entities_in_prompts": {
+      "source": "Prompt",
+      "target": ["Tool", "Task", "Responsibility", "Action"],
+      "relationship": "mentions",
+      "description": "Prompts reference entities in instructions"
+    }
+  },
+  "cross_references": {
+    "PRT-001": {
+      "entity_type": "Project",
+      "entity_id": "PRT-001",
+      "name": "AI_Tutorial_Research",
+      "children": {
+        "milestones": ["MLT-001", "MLT-002", "MLT-003"]
+      },
+      "related_tools": ["TOL-001", "TOL-015", "TOL-042"],
+      "mentioned_in_prompts": ["PMT-048", "PMT-070"]
+    },
+    "PRT-002": {
+      "entity_type": "Project",
+      "entity_id": "PRT-002",
+      "name": "MCP_Automation_Stack",
+      "children": {
+        "milestones": ["MLT-004", "MLT-005"]
+      },
+      "related_tools": ["TOL-015", "TOL-089"],
+      "mentioned_in_prompts": ["PMT-002"]
+    },
+    "PRT-003": {
+      "entity_type": "Project",
+      "entity_id": "PRT-003",
+      "name": "HR_Automation",
+      "children": {
+        "milestones": ["MLT-010", "MLT-011"]
+      },
+      "related_tools": ["TOL-015", "TOL-089", "TOL-001"],
+      "mentioned_in_prompts": ["PMT-053", "PMT-054", "PMT-056"]
+    },
+    "TOL-001": {
+      "entity_type": "Tool",
+      "entity_id": "TOL-001",
+      "name": "Claude_AI",
+      "used_in_tasks": ["TSK-001", "TSK-045", "TSK-053"],
+      "used_in_responsibilities": ["RSP-001", "RSP-089"],
+      "used_in_professions": ["PRF-001", "PRF-015"],
+      "mentioned_in_prompts": ["PMT-002", "PMT-070", "PMT-074", "PMT-075", "PMT-076", "PMT-077", "PMT-078", "PMT-079", "PMT-080"],
+      "department": "AID"
+    },
+    "TOL-015": {
+      "entity_type": "Tool",
+      "entity_id": "TOL-015",
+      "name": "n8n_Automation",
+      "used_in_tasks": ["TSK-042", "TSK-055", "TSK-067"],
+      "used_in_responsibilities": ["RSP-089", "RSP-134"],
+      "used_in_professions": ["PRF-001", "PRF-012"],
+      "mentioned_in_prompts": ["PMT-002", "PMT-066", "PMT-070"],
+      "department": "AID",
+      "related_tools": ["TOL-042", "TOL-067"]
+    },
+    "TOL-042": {
+      "entity_type": "Tool",
+      "entity_id": "TOL-042",
+      "name": "Make_Automation",
+      "used_in_tasks": ["TSK-042"],
+      "used_in_responsibilities": ["RSP-134"],
+      "department": "AID",
+      "related_tools": ["TOL-015", "TOL-067"],
+      "notes": "Alternative to n8n"
+    },
+    "TOL-089": {
+      "entity_type": "Tool",
+      "entity_id": "TOL-089",
+      "name": "Gemini_AI",
+      "used_in_tasks": ["TSK-043", "TSK-045"],
+      "used_in_responsibilities": ["RSP-001"],
+      "mentioned_in_prompts": ["PMT-045", "PMT-070"],
+      "department": "AID"
+    },
+    "TSK-042": {
+      "entity_type": "Task",
+      "entity_id": "TSK-042",
+      "name": "Configure_n8n_Integration",
+      "parent": {
+        "milestone": "MLT-010",
+        "project": "PRT-003"
+      },
+      "children": {
+        "steps": ["STT-123", "STT-124", "STT-125"]
+      },
+      "tools_referenced": ["TOL-015", "TOL-042"],
+      "department": "HRM",
+      "mentioned_in_prompts": ["PMT-070"]
+    },
+    "TSK-055": {
+      "entity_type": "Task",
+      "entity_id": "TSK-055",
+      "name": "Process_Department_Task_Files",
+      "parent": {
+        "milestone": "MLT-002",
+        "project": "PRT-007"
+      },
+      "tools_referenced": ["TOL-001", "TOL-015"],
+      "department": "AID",
+      "mentioned_in_prompts": ["PMT-070", "PMT-074"]
+    },
+    "MLT-002": {
+      "entity_type": "Milestone",
+      "entity_id": "MLT-002",
+      "name": "Data_Inventory",
+      "parent": {
+        "project": "PRT-007"
+      },
+      "children": {
+        "tasks": ["TSK-055", "TSK-056", "TSK-057"]
+      },
+      "mentioned_in_prompts": ["PMT-070", "PMT-074"]
+    },
+    "MLT-010": {
+      "entity_type": "Milestone",
+      "entity_id": "MLT-010",
+      "name": "CV_Screening_Setup",
+      "parent": {
+        "project": "PRT-003"
+      },
+      "children": {
+        "tasks": ["TSK-042", "TSK-043", "TSK-044", "TSK-045"]
+      },
+      "mentioned_in_prompts": ["PMT-070", "PMT-074"]
+    },
+    "RSP-089": {
+      "entity_type": "Responsibility",
+      "entity_id": "RSP-089",
+      "name": "Build_Automation_Workflow",
+      "composed_of": {
+        "action": "ACT-012",
+        "object": "OBJ-045"
+      },
+      "tools_used": ["TOL-015", "TOL-042"],
+      "used_in_tasks": ["TSK-042", "TSK-067"],
+      "department": "AID"
+    },
+    "RSP-134": {
+      "entity_type": "Responsibility",
+      "entity_id": "RSP-134",
+      "name": "Create_Automation_Trigger",
+      "composed_of": {
+        "action": "ACT-001",
+        "object": "OBJ-023"
+      },
+      "tools_used": ["TOL-015"],
+      "used_in_tasks": ["TSK-042"],
+      "department": "AID"
+    },
+    "ACT-001": {
+      "entity_type": "Action",
+      "entity_id": "ACT-001",
+      "action": "create",
+      "category": "A",
+      "used_in_responsibilities": ["RSP-001", "RSP-023", "RSP-134"],
+      "frequency": "high"
+    },
+    "ACT-012": {
+      "entity_type": "Action",
+      "entity_id": "ACT-012",
+      "action": "extract",
+      "category": "G",
+      "used_in_responsibilities": ["RSP-042", "RSP-089", "RSP-156"],
+      "frequency": "high"
+    },
+    "ACT-042": {
+      "entity_type": "Action",
+      "entity_id": "ACT-042",
+      "action": "analyze",
+      "category": "C",
+      "used_in_responsibilities": ["RSP-067", "RSP-089"],
+      "frequency": "high"
+    },
+    "PMT-070": {
+      "entity_type": "Prompt",
+      "entity_id": "PMT-070",
+      "name": "Daily_Report_Entity_Mapping_v2.1",
+      "references_entities": {
+        "tasks": ["TSK-042", "TSK-055"],
+        "milestones": ["MLT-002", "MLT-010"],
+        "projects": ["PRT-003", "PRT-007"]
+      },
+      "category": "UTILITIES",
+      "department": "Multi"
+    },
+    "PMT-074": {
+      "entity_type": "Prompt",
+      "entity_id": "PMT-074",
+      "name": "Data_Architect_Master",
+      "references_all_entities": true,
+      "sub_prompts": ["PMT-075", "PMT-076", "PMT-077", "PMT-078", "PMT-079", "PMT-080"],
+      "category": "DATA_ARCHITECTURE",
+      "department": "AID"
+    },
+    "PMT-075": {
+      "entity_type": "Prompt",
+      "entity_id": "PMT-075",
+      "name": "Data_Integrity_Manager",
+      "parent_prompt": "PMT-074",
+      "validates_entities": ["Actions", "Objects", "Tools", "Responsibilities", "Projects", "Milestones", "Tasks", "Steps", "ChecklistTemplates", "ChecklistItems", "Prompts"],
+      "category": "DATA_ARCHITECTURE",
+      "department": "AID"
+    },
+    "PMT-076": {
+      "entity_type": "Prompt",
+      "entity_id": "PMT-076",
+      "name": "Import_Validation_Pipeline",
+      "parent_prompt": "PMT-074",
+      "integrates_to": ["LIBRARIES", "TASK_MANAGERS"],
+      "category": "DATA_ARCHITECTURE",
+      "department": "AID"
+    },
+    "PMT-077": {
+      "entity_type": "Prompt",
+      "entity_id": "PMT-077",
+      "name": "Employee_Activity_Analyzer",
+      "parent_prompt": "PMT-074",
+      "monitors": "DAILIES",
+      "discovers_entities": ["Tools", "Actions", "Responsibilities"],
+      "category": "DATA_ARCHITECTURE",
+      "department": "AID"
+    },
+    "PMT-078": {
+      "entity_type": "Prompt",
+      "entity_id": "PMT-078",
+      "name": "Cross_Entity_Search",
+      "parent_prompt": "PMT-074",
+      "searches_across": ["LIBRARIES", "TASK_MANAGERS", "PROMPTS", "DAILIES"],
+      "category": "DATA_ARCHITECTURE",
+      "department": "AID"
+    },
+    "PMT-079": {
+      "entity_type": "Prompt",
+      "entity_id": "PMT-079",
+      "name": "Prompt_Taxonomy_Sync",
+      "parent_prompt": "PMT-074",
+      "updates_prompts": true,
+      "extracts_entities_from": "prompt_outputs",
+      "category": "DATA_ARCHITECTURE",
+      "department": "AID"
+    },
+    "PMT-080": {
+      "entity_type": "Prompt",
+      "entity_id": "PMT-080",
+      "name": "Token_Optimization_Analyzer",
+      "parent_prompt": "PMT-074",
+      "measures_tokens_in": ["Prompts", "LIBRARIES", "TASK_MANAGERS"],
+      "optimization_target": "75% reduction",
+      "category": "DATA_ARCHITECTURE",
+      "department": "AID"
+    }
+  },
+  "common_patterns": {
+    "find_task_hierarchy": {
+      "description": "Given a task ID, find its full hierarchy",
+      "steps": [
+        "1. Find task in Tasks master list",
+        "2. Get milestone_template_id → Find milestone",
+        "3. Get project_template_id → Find project",
+        "4. Return: TSK → MLT → PRT chain"
+      ],
+      "example": "TSK-042 → MLT-010 → PRT-003"
+    },
+    "find_tool_usage": {
+      "description": "Find all places a tool is referenced",
+      "steps": [
+        "1. Search Tasks.tools_referenced",
+        "2. Search Responsibilities.tools_used",
+        "3. Search Professions.tools",
+        "4. Grep PROMPTS for tool ID",
+        "5. Aggregate results"
+      ],
+      "example": "TOL-015 used in: 3 tasks, 2 responsibilities, 1 profession, 5 prompts"
+    },
+    "find_sibling_tasks": {
+      "description": "Find other tasks in same milestone",
+      "steps": [
+        "1. Find task's milestone_template_id",
+        "2. Search all tasks with same milestone_template_id",
+        "3. Exclude original task",
+        "4. Return sibling tasks"
+      ],
+      "example": "TSK-042 siblings: TSK-043, TSK-044, TSK-045 (all in MLT-010)"
+    },
+    "find_department_tools": {
+      "description": "Find all tools used by a department",
+      "steps": [
+        "1. Filter Tools by department field",
+        "2. Find tasks by department",
+        "3. Collect tools from task.tools_referenced",
+        "4. Deduplicate and return"
+      ],
+      "example": "AID department uses: TOL-001, TOL-015, TOL-042, TOL-089, ..."
+    }
+  },
+  "usage": {
+    "purpose": "This cross-reference map is used by PMT-078 (Cross Entity Search) for relationship traversal and discovery",
+    "search_command": "python search_entity.py --entity TOL-015 --traverse-relationships --depth 2",
+    "integration_prompts": ["PMT-074", "PMT-078", "PMT-079"],
+    "update_frequency": "Update when new entities added or relationships change",
+    "maintenance": "Run PMT-075 validation after updates to ensure referential integrity"
+  }
+}

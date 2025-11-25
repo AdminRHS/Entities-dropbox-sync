@@ -1,0 +1,36 @@
+{
+  "step_template_id": "Step-Template-012",
+  "step_template_name": "Identify and Extract Workflows from Transcription",
+  "metadata": {
+    "status": "Active"
+  },
+  "parent_task": {
+    "task_id": "TASK-TEMPLATE-VIDEO-003",
+    "task_name": "Extract Taxonomy Data from Transcription"
+  },
+  "step_details": {
+    "step_number": 1,
+    "order": 1,
+    "action": "identify",
+    "detail": "Extract all workflows with: department, objective, steps, duration, complexity, tools, input/output, timestamp",
+    "expected_duration": 7
+  },
+  "execution": {
+    "tool_used": "Claude Desktop or Claude Pro",
+    "inputs": [
+      "Completed transcription document",
+      "Workflow extraction template"
+    ],
+    "outputs": [
+      "Section 4: Workflows Identified with all required fields"
+    ],
+    "success_criteria": "All workflows documented with department, objective, numbered steps, duration, complexity, tools list, input/output"
+  },
+  "relationships": {
+    "dependencies": [],
+    "next_steps": [
+      "STEP-VIDEO-003-02"
+    ],
+    "parallel_steps": []
+  }
+}

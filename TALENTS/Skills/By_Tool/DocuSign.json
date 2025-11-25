@@ -1,0 +1,25 @@
+{
+  "tool_id": "TOOL-DOC-002",
+  "tool_name": "DocuSign",
+  "tool_category": "Document",
+  "description": "Electronic signature platform for sending and signing contracts digitally",
+  "skills_count": 1,
+  "last_updated": "2025-11-22",
+  "skills": [
+    {
+      "skill_id": "SKL-043",
+      "skill_phrase": "sent contracts via DocuSign",
+      "components": {
+        "action": "send",
+        "object": "contracts",
+        "tool": "DocuSign"
+      },
+      "department": "Sales",
+      "professions": ["sales manager"],
+      "difficulty_level": "beginner",
+      "frequency": "weekly",
+      "time_estimate_minutes": 20,
+      "automation_potential": "medium"
+    }
+  ]
+}

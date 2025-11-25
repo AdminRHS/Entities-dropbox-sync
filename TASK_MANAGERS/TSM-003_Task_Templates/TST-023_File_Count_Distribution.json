@@ -1,0 +1,23 @@
+{
+  "task_template_id": "Task-Template-023",
+  "task_template_name": "File Count & Distribution",
+  "category": "Analysis",
+  "department": "AI",
+  "description": "Count all files by extension and entity, calculate percentages",
+  "estimated_hours": 0.25,
+  "step_templates": [
+    {
+      "step_template_id": "STEP-ANALYSIS-001-01",
+      "step_template_name": "Count files by extension"
+    },
+    {
+      "step_template_id": "STEP-ANALYSIS-001-02",
+      "step_template_name": "Count files by entity"
+    },
+    {
+      "step_template_id": "STEP-ANALYSIS-001-03",
+      "step_template_name": "Calculate percentages"
+    }
+  ],
+  "version": "1.0"
+}

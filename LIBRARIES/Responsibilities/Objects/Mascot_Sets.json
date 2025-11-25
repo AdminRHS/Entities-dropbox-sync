@@ -1,0 +1,57 @@
+{
+  "entity_type": "LIBRARIES",
+  "sub_entity": "Objects",
+  "category": "Design",
+  "description": "Brand mascot image sets with variations",
+  "objects": [
+    {
+      "object_id": "OBJ-DESIGN-002",
+      "name": "Mascot Set",
+      "category": "Design / Brand Assets",
+      "description": "AI-generated or designed brand mascot with multiple emotional/contextual variations",
+      "attributes": [
+        "mascot_name",
+        "variations_count",
+        "emotions_included",
+        "file_formats",
+        "resolution",
+        "color_mode",
+        "usage_guidelines",
+        "brand_alignment"
+      ],
+      "common_actions": [
+        "Generate",
+        "Create",
+        "Upload",
+        "Organize",
+        "Export",
+        "Review"
+      ],
+      "storage_location": "Design_Assets/Mascots/ or Figma",
+      "related_entities": [
+        "LIBRARIES/LBS_003_LBS_003_Tools/Midjourney",
+        "LIBRARIES/LBS_003_LBS_003_Tools/DALL-E",
+        "LIBRARIES/LBS_003_LBS_003_Tools/Figma",
+        "TASK_MANAGERS/DESIGN"
+      ],
+      "file_format": "PNG, SVG, AI, Figma",
+      "example": "Toucan_Bird_Mascot_8_Variations",
+      "tags": ["mascot", "brand", "ai-generated", "variations", "emotional-states"],
+      "typical_variations": [
+        "Happy",
+        "Excited",
+        "Thinking",
+        "Confident",
+        "Surprised",
+        "Friendly",
+        "Professional",
+        "Playful"
+      ]
+    }
+  ],
+  "version": "1.0",
+  "created": "2025-11-18",
+  "last_updated": "2025-11-18",
+  "total_objects": 1,
+  "source": "Employee Daily Activity Analysis (Nov 17-18, 2025) - Bykova Anastasiia"
+}

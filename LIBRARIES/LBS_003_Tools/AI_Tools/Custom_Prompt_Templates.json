@@ -1,0 +1,262 @@
+{
+  "entity_type": "LIBRARIES",
+  "sub_entity": "Tool",
+  "tool_id": "TOOL-116",
+  "version": "1.0",
+  "created_date": "2025-11-17",
+  "last_updated": "2025-11-17",
+  "metadata": {
+    "tool_name": "Custom Prompt Templates",
+    "alternate_names": [
+      "Reusable Prompt Library",
+      "Prompt Engineering Templates",
+      "Task-Specific Prompt Collection",
+      "Prompt Cookbook"
+    ],
+    "category": "AI Tools / Productivity Methodology",
+    "subcategory": "Prompt Engineering / Workflow Automation",
+    "vendor": "Methodology (various implementations)",
+    "pricing_model": "Free (methodology) + storage costs",
+    "status": "Active methodology"
+  },
+  "description": {
+    "short": "Methodology of creating, storing, and reusing pre-crafted, optimized prompts for recurring AI tasks to ensure consistency and save time",
+    "detailed": "Custom Prompt Templates is a productivity methodology where users create libraries of carefully crafted, tested prompts for recurring tasks with AI assistants (ChatGPT, Claude, Copilot, etc.). Instead of writing prompts from scratch each time, users maintain a personal or team collection of optimized templates with placeholders for variable inputs. Templates include context, desired format, tone, constraints, and examples. Advanced practitioners organize templates by category (writing, analysis, coding, etc.), version them, and share with teams. This approach transforms ad-hoc AI usage into systematic, repeatable workflows with consistent quality.",
+    "primary_function": "Systematize and optimize recurring AI interactions through reusable, tested prompt templates",
+    "key_capabilities": [
+      "Create reusable prompt structures for recurring tasks",
+      "Store templates in accessible format (Notion, Google Docs, etc.)",
+      "Parameterize prompts with placeholders for variable inputs",
+      "Version and iterate on prompt quality over time",
+      "Share templates across teams for consistency",
+      "Organize by category/use case for quick discovery",
+      "Include examples and expected outputs in templates",
+      "Track performance metrics for continuous improvement",
+      "Build prompt chains for multi-step workflows"
+    ]
+  },
+  "use_cases": [
+    {
+      "use_case_id": "UC-TOOL116-001",
+      "title": "Standardize Meeting Preparation Across Team",
+      "description": "Create template for 'Prepare for stakeholder meeting' that team members reuse, ensuring consistent quality and completeness",
+      "time_saved": "15-20 minutes per meeting (vs. crafting prompt from scratch)",
+      "user_persona": "Product managers, account managers, executives"
+    },
+    {
+      "use_case_id": "UC-TOOL116-002",
+      "title": "Generate Consistent Product Requirement Documents",
+      "description": "Template for 'Write PRD for feature' with sections: problem, user stories, requirements, success metrics, risks",
+      "time_saved": "30-60 minutes per PRD (structured thinking + faster drafting)",
+      "user_persona": "Product managers, business analysts"
+    },
+    {
+      "use_case_id": "UC-TOOL116-003",
+      "title": "Code Review Comment Templates",
+      "description": "Prompts for 'Review this code for security issues', 'Suggest performance optimizations', 'Check for accessibility compliance'",
+      "time_saved": "10-15 minutes per code review",
+      "user_persona": "Software engineers, tech leads, QA engineers"
+    },
+    {
+      "use_case_id": "UC-TOOL116-004",
+      "title": "Content Creation with Brand Voice",
+      "description": "Templates for blog posts, social media, emails that include brand voice guidelines and tone examples",
+      "time_saved": "20-40 minutes per content piece (consistency + faster edits)",
+      "user_persona": "Content creators, marketers, social media managers"
+    },
+    {
+      "use_case_id": "UC-TOOL116-005",
+      "title": "Research Synthesis and Summarization",
+      "description": "Template for 'Summarize research paper in [DOMAIN] with key findings, methodology, limitations, practical applications'",
+      "time_saved": "25-35 minutes per paper (structured analysis)",
+      "user_persona": "Researchers, product strategists, competitive intelligence analysts"
+    }
+  ],
+  "methodology": {
+    "template_structure": {
+      "components": [
+        "Role/Persona: Define AI's role (e.g., 'You are an expert product manager...')",
+        "Context: Background information needed for task",
+        "Task Description: Specific action to perform",
+        "Format/Structure: Desired output format (bullet points, table, markdown, etc.)",
+        "Tone/Style: Communication style (formal, casual, technical, etc.)",
+        "Constraints: Limitations (length, scope, exclusions)",
+        "Examples: Sample inputs/outputs for clarity",
+        "Placeholders: Variables marked with [BRACKETS] or {CURLY_BRACES}"
+      ],
+      "example_template": "You are an expert product manager at a SaaS company.\n\nTask: Prepare me for an upcoming meeting with [STAKEHOLDER_NAME] about [TOPIC].\n\nContext:\n- Stakeholder role: [ROLE]\n- Meeting goal: [GOAL]\n- My objectives: [OBJECTIVES]\n\nProvide:\n1. Key talking points (5-7 bullets)\n2. Potential objections and counter-arguments\n3. Questions to ask\n4. Success criteria for the meeting\n\nFormat: Structured markdown with clear sections.\nTone: Professional but conversational."
+    },
+    "organization_methods": [
+      "Category-based folders (Writing, Analysis, Coding, Research, etc.)",
+      "Tag-based system (productivity, creative, technical, etc.)",
+      "Use case hierarchy (Marketing > Social Media > LinkedIn Post)",
+      "Frequency-based (Daily, Weekly, Monthly, Occasional)",
+      "Role-based (PM templates, Engineer templates, etc.)"
+    ],
+    "storage_solutions": [
+      "Notion database with tags and search",
+      "Google Docs with folder structure",
+      "GitHub repo (for code-related prompts)",
+      "Obsidian/Roam (knowledge graph approach)",
+      "Airtable (structured database with filtering)",
+      "TextExpander/Alfred snippets (instant access)",
+      "Claude Projects or ChatGPT custom instructions (platform-native)"
+    ]
+  },
+  "implementation": {
+    "getting_started": {
+      "step_1": "Identify 3-5 recurring AI tasks you perform weekly",
+      "step_2": "Document your best prompt for each task",
+      "step_3": "Parameterize with placeholders (replace specific details with [VARIABLES])",
+      "step_4": "Store in accessible location (Notion, Google Docs, etc.)",
+      "step_5": "Test and iterate based on results",
+      "step_6": "Share with team and gather feedback"
+    },
+    "template_development_workflow": [
+      "Start with specific prompt for one instance",
+      "Generalize by replacing specifics with parameters",
+      "Test on 3-5 different inputs",
+      "Refine based on output quality",
+      "Add examples and usage notes",
+      "Version (v1.0) and date stamp",
+      "Share with team for feedback",
+      "Iterate to v2.0 based on collective learning"
+    ],
+    "maintenance": [
+      "Review templates quarterly for relevance",
+      "Archive rarely-used templates",
+      "Update templates when AI models improve (prompts may need adjustment)",
+      "Track which templates save most time (prioritize optimization)",
+      "Merge duplicate templates",
+      "Add new templates as new use cases emerge"
+    ]
+  },
+  "workflows_enabled": [
+    "WF-PM-014: Create Reusable Prompt Template for Recurring Task",
+    "WF-PM-012: Prepare for Meeting with Stakeholder Context",
+    "WF-WRITE-001: Generate Content with Brand Voice Consistency",
+    "WF-CODE-001: Conduct AI-Assisted Code Review with Templates"
+  ],
+  "skills_required": [
+    "prompt engineering fundamentals",
+    "task decomposition (breaking complex tasks into steps)",
+    "documentation writing",
+    "pattern recognition (identifying recurring tasks)",
+    "knowledge management",
+    "markdown formatting",
+    "version control concepts"
+  ],
+  "learning_curve": {
+    "initial_setup": "30-60 minutes (create first 3-5 templates)",
+    "basic_proficiency": "1-2 weeks (build library of 10-15 templates)",
+    "advanced_usage": "1-2 months (optimized library, team sharing, metrics tracking)",
+    "difficulty_level": "Beginner-friendly"
+  },
+  "roi_metrics": {
+    "time_savings_per_user": {
+      "per_template_use": "10-30 minutes (vs. crafting from scratch)",
+      "weekly": "1-3 hours (if using 5-10 templates/week)",
+      "annual": "52-156 hours"
+    },
+    "quality_improvements": [
+      "90% more consistent outputs (reduced variance)",
+      "80% fewer iterations needed (better first drafts)",
+      "70% faster onboarding for new AI users (templates as training)",
+      "60% reduction in 'blank page' paralysis"
+    ],
+    "team_value": [
+      "Shared templates create common language",
+      "Best practices distributed automatically",
+      "Reduced duplicate work (everyone reinventing prompts)",
+      "Faster collaboration (consistent formats)"
+    ],
+    "value_proposition": "Low-effort, high-return practice; ROI realized within first week of use"
+  },
+  "best_practices": {
+    "prompt_design": [
+      "Start simple, add complexity only if needed",
+      "Use clear, specific language (avoid ambiguity)",
+      "Provide examples in template (few-shot learning)",
+      "Specify output format explicitly (JSON, markdown, bullet points, etc.)",
+      "Include constraints to prevent scope creep",
+      "Version templates and track changes",
+      "Test with diverse inputs before sharing with team"
+    ],
+    "organization": [
+      "Use consistent naming convention (verb-noun format, e.g., 'Analyze-CompetitorProduct')",
+      "Tag with metadata (department, use case, frequency, difficulty)",
+      "Create README or index document for team discovery",
+      "Include 'last tested' date to flag potentially outdated templates",
+      "Link related templates (e.g., 'Prepare Meeting' → 'Summarize Meeting')"
+    ],
+    "team_adoption": [
+      "Start with 3-5 highest-impact templates (prove value quickly)",
+      "Share success stories ('This template saved me 2 hours!')",
+      "Make templates easily discoverable (single source of truth)",
+      "Encourage team contributions (crowd-sourced library)",
+      "Schedule quarterly review sessions to refine templates",
+      "Track usage metrics if possible (which templates most valuable)"
+    ]
+  },
+  "limitations": {
+    "known_limitations": [
+      "Templates can become outdated as AI models evolve",
+      "Over-templating can reduce creativity and exploration",
+      "Requires initial time investment to build library",
+      "May not cover all edge cases (custom prompts still needed)",
+      "Team adoption requires cultural shift (documentation discipline)",
+      "Effectiveness depends on prompt engineering skill"
+    ],
+    "best_for": "Knowledge workers who regularly use AI assistants, teams seeking consistency, people with recurring AI tasks",
+    "not_ideal_for": "One-off tasks, highly exploratory/creative work with no patterns, individuals uncomfortable with structured processes"
+  },
+  "related_tools": [
+    "TOOL-112 (Dropbox Dash)",
+    "TOOL-110 (GitHub Copilot)",
+    "TOOL-052 (Claude Code)",
+    "TOOL-115 (LLM-as-Judge Evaluation Framework)",
+    "TOOL-109 (awesome-copilot)",
+    "Notion (storage)",
+    "TextExpander (snippet management)"
+  ],
+  "task_templates": [
+    "Task-Template-062: Create Reusable Prompt Template for Recurring Task",
+    "Task-Template-065: Build Team Prompt Library in Notion"
+  ],
+  "discovery_source": {
+    "video_id": "Video_016",
+    "video_title": "Interview with Morgan Brown - Dropbox Dash Product Strategy",
+    "timestamp": "Discussion of PM workflows and decision-making",
+    "key_insights": [
+      "Morgan Brown emphasized importance of explicit, reusable decision frameworks (principle-based decisions)",
+      "Mentioned preparing for stakeholder meetings with structured context gathering",
+      "Discussed value of systematizing recurring workflows vs. ad-hoc approaches",
+      "Highlighted how templates reduce cognitive load and improve consistency",
+      "Connected to broader theme of 'learning rate over activity rate' (investing in process improvement)"
+    ]
+  },
+  "example_templates": {
+    "meeting_preparation": {
+      "name": "Prepare for Stakeholder Meeting",
+      "prompt": "You are an expert product manager. Prepare me for a meeting with [STAKEHOLDER_NAME], who is a [STAKEHOLDER_ROLE].\n\nMeeting context:\n- Topic: [TOPIC]\n- My objectives: [OBJECTIVES]\n- Known stakeholder concerns: [CONCERNS]\n\nProvide:\n1. Key talking points (5-7 bullets)\n2. Potential objections and responses\n3. Questions to ask\n4. Meeting success criteria\n5. Follow-up actions to propose\n\nFormat: Markdown with clear sections.",
+      "use_frequency": "Weekly"
+    },
+    "decision_documentation": {
+      "name": "Document Decision with Principles",
+      "prompt": "You are a strategic advisor. Help me document this decision:\n\nDecision: [DECISION]\nContext: [CONTEXT]\nOptions considered: [OPTIONS]\n\nStructure the decision memo with:\n1. Executive summary (2-3 sentences)\n2. Decision principles applied (explicit criteria used)\n3. Options analysis (pros/cons for each)\n4. Recommendation with rationale\n5. Risks and mitigations\n6. Success metrics\n\nFormat: Professional memo style, 1-2 pages.",
+      "use_frequency": "Monthly"
+    },
+    "code_review": {
+      "name": "Review Code for Security Issues",
+      "prompt": "You are a senior security engineer. Review this code for security vulnerabilities:\n\n```[LANGUAGE]\n[CODE]\n```\n\nAnalyze for:\n1. Injection vulnerabilities (SQL, XSS, command injection)\n2. Authentication/authorization issues\n3. Sensitive data exposure\n4. Insecure dependencies\n5. OWASP Top 10 risks\n\nFor each issue found:\n- Severity (Critical/High/Medium/Low)\n- Description\n- Specific code location\n- Remediation recommendation\n\nFormat: Markdown table with columns: Severity, Issue, Location, Remediation.",
+      "use_frequency": "Daily"
+    }
+  },
+  "version_history": [
+    {
+      "version": "1.0",
+      "date": "2025-11-17",
+      "changes": "Initial tool entry created from Video_016.md taxonomy extraction"
+    }
+  ]
+}

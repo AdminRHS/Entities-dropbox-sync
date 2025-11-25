@@ -1,0 +1,508 @@
+# Daily Activity Report - AI Department (AID)
+**Date:** November 20, 2025
+
+## 1. EXECUTIVE SUMMARY
+
+- **Day of Week:** Thursday (Thu)
+- **Weekday/Weekend:** Weekday
+- **Report Date:** 2025-11-20 (Thu)
+- **Department:** AI & Automation (AID)
+- **Team Size:** 2 members (Artemchuk Nikolay, Perederii Vladislav)
+- **Total Activities:** 8 major activities
+- **Projects Active:** 2 (Operational/Maintenance, Account Microservice Planning)
+- **Tasks Completed:** 6
+- **Tasks In Progress:** 2
+- **Overall Status:** On Track ✅
+- **Key Achievements:**
+  - Successfully installed and configured Antigravity (Google's IDE) with Design department
+  - Set up complete Attendants automation infrastructure (Google Cloud project, service account, Google Sheets integration)
+  - Processed daily activity files and generated comprehensive plans.md and tasks.md
+  - Completed account microservice database schema planning with tool subscriptions model
+
+---
+
+## 2. PROJECT CONTRIBUTIONS
+
+### Operational/Maintenance
+- **Role:** Lead
+- **Status:** Active
+- **Progress Today:** Infrastructure setup and tool integration (100% complete for today)
+- **Tasks Completed:**
+  - Antigravity installation and configuration (2 hours)
+  - Attendants automation infrastructure setup (3 hours)
+  - Daily file processing and documentation (1 hour)
+- **Next Steps:** Deploy automation, verify tool installations, distribute files
+
+### Account Microservice Planning (Cross-Department Support)
+- **Role:** Support
+- **Status:** Active
+- **Progress Today:** Database schema design completed (100% for planning phase)
+- **Tasks Completed:**
+  - Account microservice database schema design (2 hours)
+  - Tool subscriptions and payments model integration (1 hour)
+  - Schema refinement and field updates (0.5 hours)
+- **Cross-Dept Coordination:** Supporting Dev department with microservice architecture
+- **Next Steps:** Implementation handoff to Dev department
+
+---
+
+## 3. MILESTONE PROGRESS
+
+### Infrastructure Setup (Operational)
+- **Progress:** 100% → 100% (+100%)
+- **Tasks Completed Today:**
+  - Antigravity installation ✅
+  - Google Cloud project creation ✅
+  - Service account setup ✅
+  - Google Sheets integration ✅
+- **Tasks In Progress:** Automation deployment (awaiting AI response)
+- **Blockers:** None
+- **Timeline:** On track for deployment today/tomorrow
+- **Impact:** Enabled Design department with new AI tool, established automation infrastructure for report consolidation
+
+### Account Microservice Planning (Cross-Department Support)
+- **Progress:** 0% → 100% (+100%)
+- **Tasks Completed Today:**
+  - Database schema design ✅
+  - Tool subscriptions model ✅
+  - Payments integration model ✅
+- **Tasks In Progress:** None (ready for handoff)
+- **Blockers:** None
+- **Timeline:** Planning complete, ready for Dev implementation
+- **Impact:** Provided complete database architecture for account management microservice with tool subscription capabilities
+
+---
+
+## 4. TASK SEQUENCES AND ENTITY MAPPING
+
+### Activity 1: Antigravity Installation and Configuration
+- **Entity:** Operational/Maintenance
+- **Time:** 2 hours
+- **Status:** Completed ✅
+- **Confidence:** 95%
+- **Priority:** High
+- **Objective:** Install and configure Antigravity (Google's IDE) for Design department team members
+- **Actions Taken:**
+  - Installed Antigravity IDE (Google's VS Code/Cursor alternative)
+  - Configured Gemini 3 Pro model access (newest, most advanced model)
+  - Set up Claude extension availability
+  - Configured department account login (same as Cursor)
+  - Coordinated installation with Design team members
+- **Results:**
+  - ✅ Antigravity installed and configured for Design department
+  - ✅ Gemini 3 Pro model accessible
+  - ✅ Claude extension available for installation
+  - ✅ Department account integration verified
+- **Impact:** Enabled Design department with powerful AI coding assistant tool, providing free access to Gemini 3 Pro during open beta period
+
+### Activity 2: Attendants Automation Infrastructure Setup
+- **Entity:** Operational/Maintenance
+- **Time:** 3 hours
+- **Status:** Completed ✅ (Deployment pending)
+- **Confidence:** 90%
+- **Priority:** High
+- **Objective:** Create complete automation infrastructure for consolidating Discord merch reports and CRM reports into Google Sheets
+- **Actions Taken:**
+  - Created detailed automation plan using AI chat assistant
+  - Passed plan to Antigravity for project file generation
+  - Created Google Cloud project "attendants" on admin account
+  - Created new service account for automation
+  - Obtained service account key
+  - Shared Google Sheet with service account for data access
+  - Organized all existing automations and report outputs
+- **Results:**
+  - ✅ Google Cloud project created
+  - ✅ Service account configured
+  - ✅ Service account key obtained
+  - ✅ Google Sheet shared with service account
+  - ✅ Project files generated by Antigravity
+  - ✅ Automation plan documented
+- **Impact:** Established infrastructure for automated report consolidation, reducing manual data entry and improving data accuracy
+
+### Activity 3: Daily File Processing and Documentation
+- **Entity:** Operational/Maintenance
+- **Time:** 1 hour
+- **Status:** Completed ✅
+- **Confidence:** 95%
+- **Priority:** Medium
+- **Objective:** Process daily.md transcript and generate structured plans.md and tasks.md files
+- **Actions Taken:**
+  - Processed daily.md file containing Antigravity installation transcript
+  - Extracted participants, projects, tools, and action items
+  - Created plans.md with prioritized action items (High/Medium/Low)
+  - Created tasks.md with detailed step-by-step breakdowns for 6 main tasks
+  - Organized goals, expected outcomes, and technical notes
+- **Results:**
+  - ✅ plans.md created with 8 prioritized action items
+  - ✅ tasks.md created with 6 detailed task breakdowns
+  - ✅ All tasks include steps, resources, links, and execution instructions
+  - ✅ Files follow standard Week_3 folder format
+- **Impact:** Improved task organization and execution planning, enabling better workflow management
+
+### Activity 4: Account Microservice Database Schema Design
+- **Entity:** Operational/Maintenance (Cross-Department Support)
+- **Time:** 2 hours
+- **Status:** Completed ✅
+- **Confidence:** 90%
+- **Priority:** High
+- **Objective:** Design complete database schema for account management microservice with tool subscriptions and payments
+- **Actions Taken:**
+  - Analyzed account-management-microservice-structure.plan copy.md
+  - Extracted account-related sections and polymorphic relationships
+  - Designed new schema for tool storage (JSONB array + account_tools table)
+  - Moved subscriptions/payments from verifications to tool level
+  - Created comprehensive database plan with API and migration details
+- **Results:**
+  - ✅ account-microservice-accounts-plan.md created
+  - ✅ Complete database schema designed
+  - ✅ Tool subscriptions model integrated
+  - ✅ Payments model integrated with tools
+  - ✅ Polymorphic relationships documented
+- **Impact:** Provided Dev department with complete database architecture, enabling tool subscription and payment management
+
+### Activity 5: Account Microservice Schema Refinement
+- **Entity:** Operational/Maintenance (Cross-Department Support)
+- **Time:** 1.5 hours
+- **Status:** Completed ✅
+- **Confidence:** 95%
+- **Priority:** Medium
+- **Objective:** Refine account microservice schema based on feedback and requirements
+- **Actions Taken:**
+  - Removed primary_tool_id field from accounts table
+  - Updated extended fields section to compact format
+  - Added plans table for tool subscriptions
+  - Added limit_expires_at timestamp field to account_tools table
+  - Updated schema documentation
+- **Results:**
+  - ✅ Schema refined and optimized
+  - ✅ Unnecessary fields removed
+  - ✅ Missing tables added
+  - ✅ Field requirements updated
+- **Impact:** Improved schema clarity and completeness, ensuring all requirements met
+
+---
+
+## 5. CROSS-DEPARTMENT COORDINATION
+
+### Antigravity Installation (Outgoing to Design Department)
+- **To Department:** DGN (Design)
+- **Request:** Install and configure Antigravity IDE for Design team members
+- **Context:** Providing Design department with new AI coding assistant tool (Google's IDE with Gemini 3 Pro)
+- **Priority:** High
+- **Deadline:** Completed today
+- **Files Shared:** Installation instructions, configuration details
+- **Status:** Completed ✅
+- **Next Steps:** Verify all designers have Antigravity installed correctly (follow-up tomorrow)
+
+### Account Microservice Planning (Supporting Dev Department)
+- **From Department:** DEV (Development)
+- **Request:** Design database schema for account management microservice
+- **Timeline:** Completed today
+- **Status:** Completed ✅
+- **Deliverables Sent:**
+  - account-microservice-accounts-plan.md (complete database schema)
+- **Next Handoff:** Dev department to implement microservice based on schema
+- **Dependencies:** None
+
+### File Distribution (Outgoing to Video Department)
+- **To Department:** VID (Video)
+- **Request:** Distribute missing file to Sviat and Darya (video editors)
+- **Context:** Video editors need a specific file that some team members have
+- **Priority:** Medium
+- **Deadline:** Tomorrow
+- **Status:** Pending
+- **Next Steps:** Locate file source, distribute to team members
+
+---
+
+## 6. INFRASTRUCTURE AND TECHNICAL ACHIEVEMENTS
+
+### System Configurations
+- **Antigravity IDE Setup:** Configured Google's Antigravity IDE with Gemini 3 Pro model and Claude extension support. Integrated with department account system for seamless access.
+- **Google Cloud Project Creation:** Created "attendants" project in Google Cloud Console with service account for automation workflows.
+- **Service Account Configuration:** Set up dedicated service account with appropriate permissions for Google Sheets API access and automation execution.
+
+### Framework Enhancements
+- **Automation Infrastructure:** Established complete automation framework for consolidating reports from multiple sources (Discord, CRM) into Google Sheets.
+- **Account Microservice Architecture:** Designed comprehensive database schema supporting tool subscriptions, payments, and polymorphic relationships.
+
+### Tool Integrations
+- **Antigravity Integration:** Integrated Antigravity IDE into team workflow, providing Design department with AI coding assistant capabilities.
+- **Google Cloud Integration:** Connected automation system with Google Cloud services (Cloud Console, Service Accounts, Google Sheets API).
+- **Report Consolidation Automation:** Set up infrastructure for automated report merging from Discord and CRM sources.
+
+### Prompt Engineering
+- **Daily File Processing:** Enhanced daily.md processing workflow to generate structured plans.md and tasks.md files automatically.
+- **Automation Planning:** Used AI chat assistant to generate detailed automation plans, then leveraged Antigravity to create project files.
+
+### Documentation Updates
+- **account-microservice-accounts-plan.md:** Created comprehensive database schema documentation (new file, ~500+ lines)
+- **plans.md:** Generated strategic planning document with prioritized action items (new file, ~216 lines)
+- **tasks.md:** Created detailed task breakdown document with step-by-step instructions (new file, ~805 lines)
+
+### Testing & Validation
+- **Antigravity Installation:** Tested Antigravity installation and configuration with Design department team members.
+- **Service Account Access:** Verified service account permissions and Google Sheet sharing configuration.
+- **Schema Validation:** Reviewed account microservice schema for completeness and correctness.
+
+---
+
+## 7. NEXT DAY PLANS
+
+### Scheduled Activities (Nov 21, 2025)
+
+#### High Priority
+1. **Complete Attendants Automation Deployment**
+   - **Project:** Operational/Maintenance
+   - **Objective:** Finish connecting all automation components and deploy the attendants automation system
+   - **Time Estimate:** 2-3 hours
+   - **Dependencies:** AI response with connection instructions
+   - **Expected Outcome:** Fully functional automation pulling data from Discord/CRM and writing to Google Sheets
+
+2. **Verify Antigravity Installation for All Designers**
+   - **Project:** Operational/Maintenance
+   - **Objective:** Ensure all designers have Antigravity installed and configured correctly
+   - **Time Estimate:** 1 hour
+   - **Dependencies:** Designer availability (after 13:00 interview on Nov 20)
+   - **Expected Outcome:** All designers can use Antigravity with Gemini 3 Pro and Claude extension
+
+#### Medium Priority
+3. **Distribute Missing File to Team Members**
+   - **Objective:** Copy and distribute missing file to Sviat, Darya, and other team members who need it
+   - **Time Estimate:** 0.5 hours
+   - **Dependencies:** Locate file from team member who has it
+   - **Expected Outcome:** All team members have required file
+
+4. **Create Antigravity Usage Examples**
+   - **Objective:** Post examples of how to use Antigravity in daily work
+   - **Time Estimate:** 1-2 hours
+   - **Dependencies:** Antigravity setup complete
+   - **Expected Outcome:** Team members understand how to leverage Antigravity for their workflows
+
+#### Low Priority / If Time Permits
+5. **Update Catalog Data from Spreadsheet**
+   - **Objective:** Update catalog data from the spreadsheet that opens via admin account
+   - **Time Estimate:** 1-2 hours
+   - **Expected Outcome:** Catalog synchronized with latest spreadsheet data
+
+6. **Monitor Cursor Token Usage**
+   - **Objective:** Track Cursor Pro token consumption, prepare for November 27 expiration
+   - **Time Estimate:** 0.5 hours
+   - **Expected Outcome:** No unexpected token depletion, smooth transition if needed
+
+#### Meetings & Coordination
+- Daily standup (9:00 AM, 15 min)
+- Follow-up with Design department on Antigravity installation status
+- Coordinate with Dev department on account microservice handoff
+
+### Total Planned Time: 6-9 hours
+
+---
+
+## 8. RESEARCH NEEDED
+
+### High Priority Research
+
+#### 1. Antigravity vs Cursor Comparison
+- **Context:** Need to evaluate Antigravity capabilities compared to Cursor to determine best use cases and when to use each tool
+- **Research Questions:**
+  - What are the key differences between Antigravity and Cursor?
+  - When should team use Antigravity vs Cursor?
+  - What are the cost implications (Antigravity is free during beta)?
+  - How do the AI models compare (Gemini 3 Pro vs Claude)?
+- **Resources Needed:**
+  - Antigravity documentation
+  - Cursor documentation
+  - Team usage patterns
+- **Timeline:** Research by Nov 25, recommendations by Nov 27
+- **Owner:** Artemchuk Nikolay
+- **Expected Impact:** Optimize tool usage, reduce costs, improve team productivity
+
+### Medium Priority Research
+
+#### 2. Google Cloud Automation Best Practices
+- **Context:** Need to establish best practices for Google Cloud-based automations as we expand automation infrastructure
+- **Research Questions:**
+  - What are best practices for service account management?
+  - How to optimize Google Sheets API usage?
+  - What are recommended patterns for Cloud Functions vs Cloud Run?
+  - How to handle error handling and retries?
+- **Resources Needed:**
+  - Google Cloud documentation
+  - Automation examples
+- **Timeline:** Research by Nov 28
+- **Owner:** Artemchuk Nikolay
+- **Expected Impact:** Improve automation reliability and maintainability
+
+#### 3. Token Usage Optimization Strategies
+- **Context:** Cursor tokens expiring Nov 27, need to optimize usage and plan for alternatives
+- **Research Questions:**
+  - What activities consume most tokens?
+  - How to write more efficient prompts?
+  - What are alternatives to Cursor Pro?
+  - How to batch similar requests?
+- **Timeline:** Research by Nov 25
+- **Owner:** Artemchuk Nikolay
+- **Expected Impact:** Reduce token consumption, extend account lifetime, identify alternatives
+
+---
+
+## 9. IMPROVEMENTS NEEDED
+
+### Process Improvements
+
+#### 1. Standardize Tool Installation Process
+- **Current Issue:** Tool installations (like Antigravity) are done ad-hoc without standardized process, leading to inconsistent setups and follow-up needed
+- **Proposed Improvement:** Create standardized tool installation checklist and process document
+- **Priority:** Medium
+- **Effort:** Low (2 hours)
+- **Expected Benefit:** Faster installations, fewer issues, consistent configurations
+- **Owner:** Artemchuk Nikolay
+- **Implementation:** Create document this week, use for next tool installation
+
+#### 2. Automate Daily File Processing
+- **Current Issue:** Daily file processing (daily.md → plans.md, tasks.md) is done manually, taking time each day
+- **Proposed Improvement:** Create automation to process daily.md files automatically using Antigravity or similar tool
+- **Priority:** High
+- **Effort:** Medium (4-6 hours)
+- **Expected Benefit:** Save 1 hour per day, ensure consistency, reduce manual errors
+- **Owner:** Artemchuk Nikolay
+- **Implementation:** Start next week, test with one employee first
+
+### Technical Improvements
+
+#### 3. Improve Entity Mapping Accuracy
+- **Current Issue:** Some activities are hard to map to TASK_MANAGERS entities, leading to lower confidence scores
+- **Proposed Improvement:** Enhance entity mapping logic with better pattern matching and context understanding
+- **Priority:** Medium
+- **Effort:** Medium (6-8 hours)
+- **Expected Benefit:** Higher confidence scores, better project tracking, improved reporting accuracy
+- **Owner:** Artemchuk Nikolay
+- **Implementation:** Research and implement next month
+
+#### 4. Create Automation Monitoring Dashboard
+- **Current Issue:** No centralized way to monitor automation health, errors, or execution status
+- **Proposed Improvement:** Create dashboard showing automation status, last run time, error logs, data volume
+- **Priority:** Medium
+- **Effort:** High (8-12 hours)
+- **Expected Benefit:** Proactive issue detection, better visibility, faster troubleshooting
+- **Owner:** Artemchuk Nikolay
+- **Implementation:** After attendants automation is stable
+
+### Documentation Improvements
+
+#### 5. Create Tool Usage Guide Library
+- **Current Issue:** Tool usage examples and guides are scattered, making it hard for team to learn new tools
+- **Proposed Improvement:** Create centralized library of tool usage guides and examples
+- **Priority:** Low
+- **Effort:** Medium (4-6 hours)
+- **Expected Benefit:** Faster tool adoption, reduced support requests, better knowledge sharing
+- **Owner:** Artemchuk Nikolay
+- **Implementation:** Start with Antigravity guide, expand gradually
+
+---
+
+## 10. METRICS AND DELIVERABLES
+
+### Time Allocation
+| Category | Hours | Percentage |
+|----------|-------|------------|
+| Project Work | 2.0 | 20% |
+| Operational | 8.0 | 80% |
+| **Total** | **10.0** | **100%** |
+
+### Task Distribution by Status
+| Status | Count | Percentage |
+|--------|-------|------------|
+| Completed | 6 | 75% |
+| In Progress | 2 | 25% |
+| Blocked | 0 | 0% |
+| Planned | 0 | 0% |
+
+### Project Time Breakdown
+| Project | Hours | Tasks | Percentage |
+|---------|-------|-------|------------|
+| Operational/Maintenance | 8.0 | 6 | 80% |
+| Account Microservice Planning | 2.0 | 2 | 20% |
+
+### Entity Mapping Confidence
+| Confidence Level | Count | Percentage |
+|------------------|-------|------------|
+| High (>90%) | 6 | 75% |
+| Medium (70-89%) | 2 | 25% |
+| Low (<70%) | 0 | 0% |
+
+**Average Confidence:** 92.5%
+
+### Files Created/Modified
+
+#### New Files (3)
+1. `ENTITIES/ACCOUNTS/Dev Docs/account-microservice-accounts-plan.md` (~500 lines) - Complete database schema for account management microservice with tool subscriptions and payments
+2. `Nov25/AI Nov25/Artemchuk Nikolay/Week_3/20/plans.md` (216 lines) - Strategic plan with prioritized action items, goals, and technical notes
+3. `Nov25/AI Nov25/Artemchuk Nikolay/Week_3/20/tasks.md` (805 lines) - Detailed task breakdowns with step-by-step instructions, resources, and links
+
+**Total New Files:** 3 | **Total Lines:** ~1,521
+
+#### Modified Files (1)
+1. `ENTITIES/ACCOUNTS/Dev Docs/account-microservice-accounts-plan.md` - Multiple refinements: removed primary_tool_id, added plans table, added limit_expires_at field, compacted field descriptions
+
+### Key Deliverables Status
+- ✅ Antigravity Installation (Complete)
+- ✅ Attendants Automation Infrastructure (Complete - deployment pending)
+- ✅ Daily File Processing (Complete)
+- ✅ Account Microservice Schema (Complete)
+- 🔄 Automation Deployment (In Progress - awaiting AI response)
+- ⏳ File Distribution (Pending - tomorrow)
+
+### Challenges Encountered
+
+#### Challenge 1: File Distribution Coordination
+- **Problem:** Some team members (Sviat, Darya) need a file that not everyone has, requiring coordination to locate and distribute
+- **Solution:** Identified need, created task for file location and distribution
+- **Result:** Task created with clear steps for tomorrow
+- **Status:** Pending 🔄
+
+#### Challenge 2: Designer Interview Scheduling
+- **Problem:** Designers have interview at 13:00, affecting Antigravity installation follow-up timing
+- **Solution:** Completed initial installation in morning, scheduled follow-up verification for after interview
+- **Result:** Installation completed, follow-up planned for tomorrow
+- **Status:** Resolved ✅
+
+---
+
+## Report Metadata
+
+**Report Generated:** November 21, 2025 00:30
+**Department:** AI & Automation (AID)
+**Team Size:** 2
+**Report Version:** v2.1
+**Schema Version:** 10-Section Format
+**Entity Integration:** Enabled ✅
+**Report Status:** Complete
+
+---
+
+## Summary Statistics
+
+- **Total Activities:** 8 (6 operational, 2 cross-department support)
+- **Total Time:** 10.0 hours
+- **Projects Active:** 2 (1 operational, 1 cross-department support)
+- **Milestones Progressed:** 2 (both 100% complete)
+- **Tasks Completed:** 6
+- **Tasks In Progress:** 2
+- **Deliverables Created:** 3 files (~1,521 lines)
+- **Average Entity Confidence:** 92.5%
+- **Next Day Plans:** 6 activities (6-9 hours planned)
+- **Research Items:** 3 (1 high priority)
+- **Improvements Identified:** 5 (2 high priority, 2 medium priority, 1 low priority)
+
+---
+
+*End of Daily Activity Report*
+
+**Next Report:** November 21, 2025
+**Prepared By:** AI Assistant via PMT-033 v2.1
+**Entity Mapping:** PMT-070 v2.1
+
+---
+

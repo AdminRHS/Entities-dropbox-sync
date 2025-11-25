@@ -1,0 +1,726 @@
+{
+  "entity_type": "TASK_MANAGERS",
+  "sub_entity": "Project_Template",
+  "template_id": "Project-Template-005",
+  "version": "1.0",
+  "created_date": "2025-11-12",
+  "last_updated": "2025-11-12",
+  "metadata": {
+    "name": "Enterprise Account-Based Marketing (ABM) Campaign",
+    "description": "Advanced multi-contact enterprise targeting campaign using Airscale directory unlock, email enrichment, arbitrage strategy for 1:40 ROI, segmented outreach, and automated meeting follow-up. Designed for targeting large organizations with multiple decision-makers.",
+    "primary_department": "LG",
+    "departments_involved": [
+      "LG",
+      "SALES",
+      "OPS"
+    ],
+    "project_type": "Client",
+    "complexity": "High",
+    "estimated_duration": "2-3 hours setup + 1-2 weeks campaign execution",
+    "cost_estimate": {
+      "initial_setup": "$10-50 depending on credits and contacts",
+      "ongoing": "Variable based on target company count",
+      "cost_breakdown": [
+        "Airscale credits for directory unlock: Variable (1 credit unlocks entire company)",
+        "Email enrichment: $0.0025 per email (budget route)",
+        "Arbitrage strategy: 1 credit → 40 emails (1:40 ROI)",
+        "Optional premium enrichment: $0.10-0.15 per lead"
+      ]
+    },
+    "roi_estimate": "1:40 credit-to-email ratio + multi-contact enterprise penetration + automated follow-up (15+ hrs/week saved)",
+    "success_criteria": [
+      "Target enterprise directory unlocked via Airscale",
+      "All key decision-makers enriched with emails",
+      "1:40 arbitrage strategy executed successfully",
+      "Segmented outreach campaigns sent",
+      "Meeting follow-up automation operational",
+      "Multiple contacts established per target account"
+    ],
+    "prerequisites": [
+      "Airscale account with credits",
+      "Anymailfinder account or email enrichment service",
+      "CRM system for contact tracking",
+      "Email client (Gmail recommended)",
+      "Claude Desktop with MCP (for automation phase)",
+      "Target account list identified"
+    ],
+    "best_for": [
+      "Enterprise B2B sales targeting Fortune 500 companies",
+      "Account-based marketing campaigns requiring multi-contact strategy",
+      "High-value deals where multiple stakeholders need engagement",
+      "Organizations with budget for premium lead quality",
+      "Sales teams pursuing strategic accounts",
+      "Complex B2B sales cycles requiring relationship building across departments"
+    ]
+  },
+  "structure": {
+    "total_phases": 5,
+    "total_milestones": 5,
+    "total_tasks": 5,
+    "total_estimated_steps": 33,
+    "workflow_type": "Sequential with automation enhancement at end"
+  },
+  "phases": [
+    {
+      "phase_number": 1,
+      "phase_name": "Enterprise Directory Unlock",
+      "phase_description": "Unlock complete employee directory for target enterprise using Airscale (1 credit unlocks entire company)",
+      "duration": "15-20 minutes per company",
+      "complexity": "Medium",
+      "dependencies": [],
+      "milestones": [
+        "MIL-PROJ-LG-002-001"
+      ],
+      "output": "Full employee directory with names, titles, departments for target enterprise",
+      "success_criteria": [
+        "Target company directory successfully unlocked",
+        "Employee data includes names, titles, departments",
+        "Key decision-makers identified",
+        "Data quality verified (95%+ completeness)"
+      ]
+    },
+    {
+      "phase_number": 2,
+      "phase_name": "Email Enrichment",
+      "phase_description": "Enrich all key employees with email addresses using budget-friendly Anymailfinder ($0.0025/email)",
+      "duration": "10-15 minutes",
+      "complexity": "Low",
+      "dependencies": [
+        "Phase 1 complete"
+      ],
+      "milestones": [
+        "MIL-PROJ-LG-002-002"
+      ],
+      "output": "All target employees enriched with verified email addresses",
+      "success_criteria": [
+        "80%+ employees successfully enriched with emails",
+        "Email format verification completed",
+        "Cost within budget ($0.0025 per email)",
+        "No duplicate emails in dataset"
+      ]
+    },
+    {
+      "phase_number": 3,
+      "phase_name": "Arbitrage Execution",
+      "phase_description": "Execute credit arbitrage strategy: Use 1 Airscale credit to unlock 40 additional employee emails (1:40 ROI)",
+      "duration": "40-60 minutes",
+      "complexity": "High",
+      "dependencies": [
+        "Phase 2 complete"
+      ],
+      "milestones": [
+        "MIL-PROJ-LG-002-003"
+      ],
+      "output": "40x email expansion using arbitrage technique",
+      "success_criteria": [
+        "1 credit → 40 emails conversion achieved",
+        "All arbitrage emails verified",
+        "Total contact database expanded significantly",
+        "Cost efficiency maintained"
+      ]
+    },
+    {
+      "phase_number": 4,
+      "phase_name": "Segmented Outreach",
+      "phase_description": "Segment contacts by role/department and execute personalized outreach campaigns",
+      "duration": "1 hour",
+      "complexity": "Medium",
+      "dependencies": [
+        "Phase 3 complete"
+      ],
+      "milestones": [
+        "MIL-PROJ-LG-002-004"
+      ],
+      "output": "Multi-contact outreach campaigns sent with role-specific messaging",
+      "success_criteria": [
+        "Contacts segmented by role (C-level, VP, Director, Manager)",
+        "Personalized email templates by segment created",
+        "All outreach emails sent and tracked",
+        "CRM records updated with campaign details"
+      ]
+    },
+    {
+      "phase_number": 5,
+      "phase_name": "Meeting Follow-up Automation",
+      "phase_description": "Configure automated meeting follow-up system to handle responses at scale",
+      "duration": "2-3 hours (one-time setup)",
+      "complexity": "Very High",
+      "dependencies": [
+        "Phase 4 complete",
+        "MCP automation stack deployed"
+      ],
+      "milestones": [
+        "MIL-PROJ-LG-002-005"
+      ],
+      "output": "Automated system for handling meeting follow-ups across all enterprise contacts",
+      "success_criteria": [
+        "Stacked connector automation operational",
+        "Automatic follow-up after meetings booked",
+        "CRM updates automated",
+        "15+ hours/week time savings achieved"
+      ]
+    }
+  ],
+  "milestones": [
+    {
+      "milestone_id": "MIL-PROJ-LG-002-001",
+      "milestone_name": "Enterprise Directory Unlocked",
+      "phase": 1,
+      "description": "Complete employee directory obtained for target enterprise via Airscale",
+      "task_templates": [
+        "TASK-TEMPLATE-015"
+      ],
+      "estimated_duration": "15-20 minutes",
+      "deliverables": [
+        "Full employee directory CSV",
+        "Employee names, titles, departments",
+        "Decision-maker identification"
+      ],
+      "success_metrics": {
+        "quantitative": [
+          "Employee count >= 50",
+          "Data completeness >= 95%"
+        ],
+        "qualitative": [
+          "Key stakeholders identified",
+          "Data accuracy verified"
+        ]
+      },
+      "checklist_items": [
+        "CHK-085",
+        "CHK-086",
+        "CHK-087"
+      ]
+    },
+    {
+      "milestone_id": "MIL-PROJ-LG-002-002",
+      "milestone_name": "All Employees Email-Enriched",
+      "phase": 2,
+      "description": "All target employees enriched with verified email addresses",
+      "task_templates": [
+        "TASK-TEMPLATE-003"
+      ],
+      "estimated_duration": "10-15 minutes",
+      "deliverables": [
+        "Updated employee directory with emails",
+        "Email verification report"
+      ],
+      "success_metrics": {
+        "quantitative": [
+          "Email enrichment rate >= 80%",
+          "Cost <= $0.0025 per email"
+        ],
+        "qualitative": [
+          "Email format verified",
+          "No duplicates"
+        ]
+      },
+      "checklist_items": [
+        "CHK-088",
+        "CHK-089"
+      ]
+    },
+    {
+      "milestone_id": "MIL-PROJ-LG-002-003",
+      "milestone_name": "Arbitrage Strategy Executed",
+      "phase": 3,
+      "description": "1:40 credit-to-email arbitrage successfully executed",
+      "task_templates": [
+        "TASK-TEMPLATE-008"
+      ],
+      "estimated_duration": "40-60 minutes",
+      "deliverables": [
+        "40 additional emails from 1 credit",
+        "Expanded contact database",
+        "ROI calculation report"
+      ],
+      "success_metrics": {
+        "quantitative": [
+          "1 credit → 40 emails achieved",
+          "Total ROI = 1:40"
+        ],
+        "qualitative": [
+          "Email quality maintained",
+          "All emails verified"
+        ]
+      },
+      "checklist_items": [
+        "CHK-090",
+        "CHK-091",
+        "CHK-092"
+      ]
+    },
+    {
+      "milestone_id": "MIL-PROJ-LG-002-004",
+      "milestone_name": "Multi-Contact Outreach Launched",
+      "phase": 4,
+      "description": "Segmented outreach campaigns sent to all target roles",
+      "task_templates": [
+        "TASK-TEMPLATE-002"
+      ],
+      "estimated_duration": "1 hour",
+      "deliverables": [
+        "Contacts segmented by role/department",
+        "Personalized email campaigns sent",
+        "CRM activity log updated"
+      ],
+      "success_metrics": {
+        "quantitative": [
+          "Open rate >= 25% (enterprise avg)",
+          "Reply rate >= 3-5%"
+        ],
+        "qualitative": [
+          "Personalization quality high",
+          "Multi-contact strategy executed"
+        ]
+      },
+      "checklist_items": [
+        "CHK-093",
+        "CHK-094",
+        "CHK-095"
+      ]
+    },
+    {
+      "milestone_id": "MIL-PROJ-LG-002-005",
+      "milestone_name": "Automation Stack Operational",
+      "phase": 5,
+      "description": "Automated meeting follow-up system configured and running",
+      "task_templates": [
+        "TASK-TEMPLATE-005"
+      ],
+      "estimated_duration": "2-3 hours",
+      "deliverables": [
+        "Stacked connector workflow (Calendar + Gmail + CRM)",
+        "Automated meeting follow-up emails",
+        "CRM integration active"
+      ],
+      "success_metrics": {
+        "quantitative": [
+          "Time saved >= 15 hours/week",
+          "Automation success rate >= 85%"
+        ],
+        "qualitative": [
+          "Multi-app integration working",
+          "Follow-ups sent within 24 hours"
+        ]
+      },
+      "checklist_items": [
+        "CHK-096",
+        "CHK-097",
+        "CHK-098"
+      ]
+    }
+  ],
+  "task_sequence": [
+    {
+      "sequence_number": 1,
+      "task_template_id": "TASK-TEMPLATE-015",
+      "task_name": "Unlock Enterprise Employee Directory using Airscale",
+      "phase": 1,
+      "milestone": "MIL-PROJ-LG-002-001",
+      "estimated_duration": "15-20 minutes",
+      "complexity": "Medium",
+      "department": "LG",
+      "dependencies": [],
+      "inputs_required": [
+        "Target company name and domain",
+        "Airscale account with credits",
+        "Company size estimate"
+      ],
+      "outputs_produced": [
+        "Full employee directory CSV",
+        "Names, titles, departments",
+        "Decision-maker list"
+      ],
+      "step_templates": [
+        "STEP-TASK-TEMPLATE-015-01",
+        "STEP-TASK-TEMPLATE-015-02",
+        "STEP-TASK-TEMPLATE-015-03",
+        "STEP-TASK-TEMPLATE-015-04",
+        "STEP-TASK-TEMPLATE-015-05",
+        "STEP-TASK-TEMPLATE-015-06"
+      ]
+    },
+    {
+      "sequence_number": 2,
+      "task_template_id": "TASK-TEMPLATE-003",
+      "task_name": "Enrich All Employees with Emails via Anymailfinder",
+      "phase": 2,
+      "milestone": "MIL-PROJ-LG-002-002",
+      "estimated_duration": "10-15 minutes",
+      "complexity": "Low",
+      "department": "LG",
+      "dependencies": [
+        "TASK-TEMPLATE-015 complete"
+      ],
+      "inputs_required": [
+        "Employee directory from Phase 1",
+        "Anymailfinder account credentials"
+      ],
+      "outputs_produced": [
+        "Employee directory enriched with emails",
+        "Email verification report"
+      ],
+      "step_templates": [
+        "STEP-TASK-TEMPLATE-003-01",
+        "STEP-TASK-TEMPLATE-003-02",
+        "STEP-TASK-TEMPLATE-003-03",
+        "STEP-TASK-TEMPLATE-003-04",
+        "STEP-TASK-TEMPLATE-003-05",
+        "STEP-TASK-TEMPLATE-003-06"
+      ]
+    },
+    {
+      "sequence_number": 3,
+      "task_template_id": "TASK-TEMPLATE-008",
+      "task_name": "Execute Airscale Credit Arbitrage (1:40 ROI)",
+      "phase": 3,
+      "milestone": "MIL-PROJ-LG-002-003",
+      "estimated_duration": "40-60 minutes",
+      "complexity": "High",
+      "department": "LG",
+      "dependencies": [
+        "TASK-TEMPLATE-003 complete"
+      ],
+      "inputs_required": [
+        "Enriched employee directory",
+        "Airscale account with credits",
+        "Target additional contact count"
+      ],
+      "outputs_produced": [
+        "40 additional emails per credit",
+        "Expanded contact database",
+        "ROI metrics report"
+      ],
+      "step_templates": [
+        "STEP-TASK-TEMPLATE-008-01",
+        "STEP-TASK-TEMPLATE-008-02",
+        "STEP-TASK-TEMPLATE-008-03",
+        "STEP-TASK-TEMPLATE-008-04",
+        "STEP-TASK-TEMPLATE-008-05",
+        "STEP-TASK-TEMPLATE-008-06",
+        "STEP-TASK-TEMPLATE-008-07",
+        "STEP-TASK-TEMPLATE-008-08"
+      ]
+    },
+    {
+      "sequence_number": 4,
+      "task_template_id": "TASK-TEMPLATE-002",
+      "task_name": "Execute Segmented Multi-Contact Outreach",
+      "phase": 4,
+      "milestone": "MIL-PROJ-LG-002-004",
+      "estimated_duration": "1 hour",
+      "complexity": "Medium",
+      "department": "SALES",
+      "dependencies": [
+        "TASK-TEMPLATE-008 complete"
+      ],
+      "inputs_required": [
+        "Expanded contact database from Phase 3",
+        "Email templates by role/segment",
+        "CRM system access"
+      ],
+      "outputs_produced": [
+        "Segmented contact lists (C-level, VP, Director, Manager)",
+        "Personalized outreach campaigns sent",
+        "CRM activity tracking"
+      ],
+      "step_templates": [
+        "STEP-TASK-TEMPLATE-002-01",
+        "STEP-TASK-TEMPLATE-002-02",
+        "STEP-TASK-TEMPLATE-002-03",
+        "STEP-TASK-TEMPLATE-002-04",
+        "STEP-TASK-TEMPLATE-002-05",
+        "STEP-TASK-TEMPLATE-002-06"
+      ]
+    },
+    {
+      "sequence_number": 5,
+      "task_template_id": "TASK-TEMPLATE-005",
+      "task_name": "Configure Automated Meeting Follow-up System",
+      "phase": 5,
+      "milestone": "MIL-PROJ-LG-002-005",
+      "estimated_duration": "2-3 hours",
+      "complexity": "Very High",
+      "department": "AI",
+      "dependencies": [
+        "TASK-TEMPLATE-002 complete",
+        "MCP automation stack deployed (TEMPLATE-PROJ-DEV-001)"
+      ],
+      "inputs_required": [
+        "Gmail MCP connector (operational)",
+        "Calendar MCP connector (operational)",
+        "CRM integration (optional but recommended)",
+        "Meeting follow-up templates"
+      ],
+      "outputs_produced": [
+        "Stacked connector automation workflow",
+        "Automated meeting follow-up emails",
+        "CRM auto-updates",
+        "Time savings report (15+ hrs/week)"
+      ],
+      "step_templates": [
+        "STEP-TASK-TEMPLATE-005-01",
+        "STEP-TASK-TEMPLATE-005-02",
+        "STEP-TASK-TEMPLATE-005-03",
+        "STEP-TASK-TEMPLATE-005-04",
+        "STEP-TASK-TEMPLATE-005-05"
+      ]
+    }
+  ],
+  "workflow_diagram": {
+    "description": "Visual representation of Enterprise ABM Campaign flow",
+    "ascii_diagram": [
+      "Phase 1: Directory Unlock (15-20 min)",
+      "  └─> TASK-TEMPLATE-015 (Airscale Directory Unlock)",
+      "      └─> Output: 50-500+ employees with titles/departments",
+      "",
+      "Phase 2: Email Enrichment (10-15 min)",
+      "  └─> TASK-TEMPLATE-003 (Anymailfinder)",
+      "      └─> Output: All employees + verified emails",
+      "",
+      "Phase 3: Arbitrage Execution (40-60 min)",
+      "  └─> TASK-TEMPLATE-008 (1:40 Credit Arbitrage)",
+      "      └─> Output: 40x email expansion",
+      "",
+      "Phase 4: Multi-Contact Outreach (1 hr)",
+      "  └─> TASK-TEMPLATE-002 (Segmented Campaigns)",
+      "      ├─> C-level outreach (strategic messaging)",
+      "      ├─> VP/Director outreach (solution-focused)",
+      "      ├─> Manager outreach (tactical benefits)",
+      "      └─> Output: Multi-level penetration established",
+      "",
+      "Phase 5: Automation (2-3 hrs setup)",
+      "  ├─> Prerequisite: TEMPLATE-PROJ-DEV-001 (MCP Stack)",
+      "  └─> TASK-TEMPLATE-005 (Stacked Connector Automation)",
+      "      └─> Output: 15+ hrs/week saved on follow-up",
+      "",
+      "Campaign Metrics:",
+      "  • Multi-contact per account (5-20+ contacts)",
+      "  • 1:40 ROI on credits",
+      "  • Enterprise-level penetration",
+      "  • Automated follow-up at scale"
+    ]
+  },
+  "resource_requirements": {
+    "human_resources": {
+      "minimum_team": [
+        "1 Lead Generation Specialist (Phases 1-3)",
+        "1 Sales Representative (Phase 4)",
+        "1 Operations Specialist (Phase 5)"
+      ],
+      "optimal_team": [
+        "1 Lead Generation Specialist",
+        "1 Account Executive (enterprise sales experience)",
+        "1 Sales Development Representative (outreach execution)",
+        "1 Operations/Automation Specialist",
+        "1 Marketing Manager (messaging strategy)"
+      ],
+      "total_time_investment": "5-7 hours setup + ongoing campaign management"
+    },
+    "technical_requirements": {
+      "software": [
+        "Airscale account with credits",
+        "Anymailfinder account",
+        "CRM system (Salesforce, HubSpot recommended for enterprise)",
+        "Email client (Gmail or similar)",
+        "Claude Desktop with MCP (for Phase 5)",
+        "Spreadsheet software"
+      ],
+      "infrastructure": [
+        "Stable internet connection",
+        "Cloud storage for contact data",
+        "CRM integration capabilities"
+      ]
+    },
+    "financial_requirements": {
+      "one_time_costs": "$10-50 (Airscale credits + email enrichment)",
+      "recurring_costs": "Variable based on target account count",
+      "roi_timeline": "Week 2-4 (enterprise sales cycles longer but higher value)",
+      "cost_breakdown_example": [
+        "1 Airscale credit: ~$5-10",
+        "Email enrichment for 100 employees: $0.25 (at $0.0025 each)",
+        "Arbitrage: 1 credit → 40 emails = $0.125-0.25 per email",
+        "Total for 100-contact enterprise: $5-15"
+      ]
+    }
+  },
+  "risk_assessment": {
+    "high_risks": [
+      {
+        "risk": "Airscale directory unlock fails or provides incomplete data",
+        "impact": "High",
+        "probability": "Low",
+        "mitigation": "Validate company exists in Airscale database before purchasing credits. Have backup plan with LinkedIn Sales Navigator (TASK-TEMPLATE-004) for premium alternative."
+      },
+      {
+        "risk": "Multi-contact outreach flagged as spam",
+        "impact": "High",
+        "probability": "Medium",
+        "mitigation": "Space out outreach over 1-2 weeks. Use different email templates per segment. Warm up email domain. Monitor spam scores."
+      }
+    ],
+    "medium_risks": [
+      {
+        "risk": "Low response rate from enterprise contacts (<3%)",
+        "impact": "Medium",
+        "probability": "Medium",
+        "mitigation": "Heavily personalize by role. Reference company-specific initiatives. Provide high-value content. A/B test messaging."
+      },
+      {
+        "risk": "Arbitrage strategy costs exceed expected budget",
+        "impact": "Medium",
+        "probability": "Low",
+        "mitigation": "Calculate exact credit-to-email ratio before full execution. Start with 1 credit test to validate 1:40 ROI."
+      }
+    ],
+    "low_risks": [
+      {
+        "risk": "CRM integration complexities delay Phase 5",
+        "impact": "Low",
+        "probability": "Medium",
+        "mitigation": "Phase 5 is optional enhancement. Can execute Phases 1-4 manually first, add automation later."
+      }
+    ]
+  },
+  "optimization_tips": [
+    "Research target company thoroughly before Phase 1 to identify key decision-makers and departments",
+    "Use LinkedIn to validate employee titles and roles before enrichment to prioritize high-value contacts",
+    "Create role-specific email templates in advance (C-level, VP, Director, Manager) for faster Phase 4 execution",
+    "Space multi-contact outreach over 7-10 days to avoid spam flags and allow for natural response patterns",
+    "Track which roles/departments respond best and prioritize similar contacts in future campaigns",
+    "Use social selling alongside email (LinkedIn connection requests, InMail) for multi-channel approach",
+    "Set up automated nurture sequences for non-responders using Phase 5 automation",
+    "Consider running Phase 5 setup (TEMPLATE-PROJ-DEV-001) in parallel with Phases 1-3 to reduce overall timeline"
+  ],
+  "variation_guidance": {
+    "budget_constrained": {
+      "recommended_phases": [
+        1,
+        2,
+        4
+      ],
+      "skip_phases": [
+        3,
+        5
+      ],
+      "rationale": "Skip arbitrage (saves credits) and automation (saves setup time). Focus on core directory unlock and enrichment.",
+      "cost_savings": "$5-10 saved on arbitrage credits, still achieves multi-contact enterprise penetration"
+    },
+    "time_constrained": {
+      "recommended_phases": [
+        1,
+        2,
+        3
+      ],
+      "skip_phases": [
+        4,
+        5
+      ],
+      "rationale": "Get data and enrichment done quickly, execute outreach manually later at your own pace",
+      "time_savings": "3-4 hours saved, data ready for use when needed"
+    },
+    "maximum_penetration": {
+      "recommended_phases": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "additional_enhancements": [
+        "Use TASK-TEMPLATE-004 (LinkedIn Premium) for additional contacts",
+        "Layer in TASK-TEMPLATE-017 (Intent-based targeting) for buying signal contacts",
+        "Add social selling component (LinkedIn, Twitter outreach)",
+        "Configure multi-channel nurture sequences"
+      ],
+      "rationale": "Full implementation for maximum enterprise account penetration with multi-channel, multi-contact strategy",
+      "total_investment": "8-10 hours for comprehensive setup"
+    },
+    "pilot_approach": {
+      "recommended_phases": [
+        1,
+        2,
+        4
+      ],
+      "target": "1-2 accounts first to validate approach",
+      "rationale": "Test methodology on small scale before investing in arbitrage and automation for larger campaign",
+      "scale_up": "Add Phases 3 and 5 after validating response rates and messaging quality"
+    }
+  },
+  "abm_specific_guidance": {
+    "account_selection": {
+      "criteria": [
+        "Company size: 500-10,000+ employees",
+        "Industry fit: Match your ICP",
+        "Geographic location: Serviceable territory",
+        "Growth indicators: Hiring, funding, expansion",
+        "Technology stack: Compatibility with your solution"
+      ]
+    },
+    "contact_prioritization": {
+      "tier_1_contacts": [
+        "C-suite",
+        "VPs relevant to your solution",
+        "Budget holders"
+      ],
+      "tier_2_contacts": [
+        "Directors",
+        "Senior Managers",
+        "Influencers"
+      ],
+      "tier_3_contacts": [
+        "Managers",
+        "End users",
+        "Champions"
+      ]
+    },
+    "messaging_strategy": {
+      "c_level": "Strategic value, business outcomes, competitive advantage",
+      "vp_director": "Solution benefits, efficiency gains, ROI proof",
+      "manager": "Tactical wins, ease of use, time savings"
+    },
+    "timing_strategy": {
+      "week_1": "C-level outreach (lower volume, highest value)",
+      "week_2": "VP/Director outreach (medium volume)",
+      "week_3": "Manager outreach (higher volume)",
+      "ongoing": "Automated nurture and follow-up"
+    }
+  },
+  "related_templates": {
+    "prerequisite_templates": [
+      "None for Phases 1-4",
+      "TEMPLATE-PROJ-DEV-001: MCP Automation Stack (required for Phase 5)"
+    ],
+    "complementary_templates": [
+      "TASK-TEMPLATE-004: LinkedIn Sales Navigator (Premium alternative to Phase 1)",
+      "TASK-TEMPLATE-017: Intent-Based Lead Targeting (Identify buying signals)",
+      "TASK-TEMPLATE-011: Custom Niche Scraping (For specific department targeting)",
+      "TEMPLATE-PROJ-LG-001: Lead-to-Customer Flow (For lower-volume campaigns)"
+    ],
+    "follow_up_templates": [
+      "Future: Multi-Channel ABM Orchestration",
+      "Future: Enterprise Account Scoring and Prioritization",
+      "Future: ABM Campaign Analytics Dashboard"
+    ]
+  },
+  "version_history": [
+    {
+      "version": "1.0",
+      "date": "2025-11-12",
+      "changes": "Initial template creation from Phase 6 cross-department workflow documentation",
+      "author": "AI Assistant (Claude Sonnet 4.5)"
+    }
+  ],
+  "tags": [
+    "enterprise-abm",
+    "multi-contact-strategy",
+    "lead-generation",
+    "email-enrichment",
+    "arbitrage-strategy",
+    "sales-automation",
+    "account-based-marketing",
+    "enterprise-sales",
+    "cross-department"
+  ]
+}

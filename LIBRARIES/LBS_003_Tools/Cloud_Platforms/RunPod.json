@@ -1,0 +1,82 @@
+{
+  "entity_type": "LIBRARIES",
+  "sub_entity": "Tool",
+  "tool_id": "TOOL-CLOUD-011",
+  "name": "RunPod",
+  "vendor": "RunPod",
+  "category": "Cloud/GPU Platform",
+  "purpose": "Affordable cloud GPU hosting for AI workloads",
+  "description": "Most affordable and reliable GPU cloud platform for running local AI in the cloud. Instant GPU availability with no queues, spot instances for cost savings, and super reliable performance. Perfect for deploying GPU-heavy workloads like local LLMs.",
+  "skill_level_required": "Intermediate",
+  "cost_structure": "Pay-per-use + Spot instances",
+  "platform_compatibility": [
+    "Docker containers",
+    "Jupyter notebooks",
+    "SSH access"
+  ],
+  "integration_capabilities": [
+    "Docker",
+    "CUDA",
+    "PyTorch",
+    "TensorFlow",
+    "Ollama",
+    "vLLM",
+    "Local LLMs",
+    "GPU workloads"
+  ],
+  "documentation_url": "https://www.runpod.io/",
+  "actual_remote_helpers_usage": {
+    "primary_use": "GPU Hosting for AI",
+    "users": [],
+    "use_cases": [
+      "run local llms",
+      "gpu workloads",
+      "train models",
+      "inference servers",
+      "deploy ai models"
+    ],
+    "workflows": [
+      "WF-AI-001: Develop and Deploy AI Application"
+    ]
+  },
+  "strengths": [
+    "Cheapest reliable GPU hosting",
+    "Instant availability",
+    "No queues",
+    "Spot instances",
+    "Very reliable"
+  ],
+  "limitations": [
+    "Spot instances less reliable",
+    "GPU-focused only",
+    "Requires GPU knowledge"
+  ],
+  "alternatives": [
+    {
+      "name": "TensorDock",
+      "comparison": "Cheaper but less reliable"
+    },
+    {
+      "name": "Lambda Labs",
+      "comparison": "Good alternative"
+    }
+  ],
+  "departments_using": [],
+  "tags": [
+    "gpu",
+    "cloud",
+    "ai-hosting",
+    "llm",
+    "inference",
+    "runpod"
+  ],
+  "discovery_date": "2025-11-13",
+  "discovery_source": "Video_005",
+  "status": "active",
+  "video_source": {
+    "video_id": "Video_005",
+    "video_title": "My Agentic Engineering Tech Stack",
+    "creator": "Cole",
+    "timestamp": "28:12-28:46"
+  }
+}

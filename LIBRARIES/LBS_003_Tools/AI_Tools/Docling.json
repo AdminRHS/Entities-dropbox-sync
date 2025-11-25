@@ -1,0 +1,82 @@
+{
+  "entity_type": "LIBRARIES",
+  "sub_entity": "Tool",
+  "tool_id": "TOOL-AI-084",
+  "name": "Docling",
+  "vendor": "IBM Research",
+  "category": "AI/RAG - Data Extraction",
+  "purpose": "Extract text from complex documents for RAG systems",
+  "description": "Framework for extracting data from complex documents like PDFs with diagrams, Excel files, and other structured files. Makes RAG data extraction much easier with out-of-the-box support for complex document types. Completely open-source and supports self-hosted models.",
+  "skill_level_required": "Intermediate",
+  "cost_structure": "Free (Open Source)",
+  "platform_compatibility": [
+    "Python"
+  ],
+  "integration_capabilities": [
+    "PDF processing",
+    "Excel file processing",
+    "Diagram extraction",
+    "Self-hosted LLMs",
+    "RAG pipelines",
+    "Document chunking",
+    "Text extraction"
+  ],
+  "documentation_url": "https://github.com/DS4SD/docling",
+  "actual_remote_helpers_usage": {
+    "primary_use": "Document Data Extraction for RAG",
+    "users": [],
+    "use_cases": [
+      "extract pdf text",
+      "process complex documents",
+      "extract excel data",
+      "parse diagrams",
+      "prepare rag data",
+      "chunk documents"
+    ],
+    "workflows": [
+      "WF-RAG-001: Build RAG System"
+    ]
+  },
+  "strengths": [
+    "Handles complex document types",
+    "Open-source and self-hostable",
+    "Supports self-hosted models",
+    "PDF diagram extraction",
+    "Excel file support",
+    "Newest addition to tech stack (proven)"
+  ],
+  "limitations": [
+    "Python only",
+    "Requires setup",
+    "May need tuning for specific document types"
+  ],
+  "alternatives": [
+    {
+      "name": "LlamaIndex",
+      "comparison": "Full RAG framework with many extraction tools"
+    },
+    {
+      "name": "Unstructured",
+      "comparison": "Good alternative but Docling performs better"
+    }
+  ],
+  "departments_using": [],
+  "tags": [
+    "rag",
+    "document-extraction",
+    "pdf-processing",
+    "data-extraction",
+    "open-source",
+    "diagrams",
+    "excel"
+  ],
+  "discovery_date": "2025-11-13",
+  "discovery_source": "Video_005",
+  "status": "active",
+  "video_source": {
+    "video_id": "Video_005",
+    "video_title": "My Agentic Engineering Tech Stack",
+    "creator": "Cole",
+    "timestamp": "12:29-13:01"
+  }
+}

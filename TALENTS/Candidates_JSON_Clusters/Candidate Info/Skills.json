@@ -1,0 +1,71 @@
+{
+  "template_name": "Skills",
+  "description": "Skills array - contains candidate's technical and professional skills with references to TALENTS/Skills catalog",
+  "_catalog_reference": "TALENTS/Skills/Master/all_skills.json",
+  "_migration_note": "Updated 2025-11-22: skill_id should use SKL-XXX format from catalog",
+  "fields": {
+    "skills": {
+      "type": "array",
+      "item_type": "object",
+      "description": "Array of: skills with catalog references",
+      "item_fields": {
+        "skills[].id": {
+          "type": "int",
+          "description": "Field: id (internal database ID)",
+          "example": 69342
+        },
+        "skills[].hr_details_id": {
+          "type": "str",
+          "description": "Field: hr_details_id",
+          "example": "89338"
+        },
+        "skills[].skill_id": {
+          "type": "str",
+          "description": "Field: skill_id - Should reference Skills catalog using SKL-XXX format",
+          "example": "SKL-020",
+          "legacy_example": "2 (old numeric format)",
+          "_recommended_format": "SKL-###"
+        },
+        "skills[].skill": {
+          "type": "object",
+          "fields": {
+            "skills[].skill.id": {
+              "type": "str",
+              "description": "Field: id - Skills catalog ID (SKL-XXX format preferred)",
+              "example": "SKL-020",
+              "legacy_example": 2
+            },
+            "skills[].skill.name": {
+              "type": "str",
+              "description": "Field: name - Skill phrase from catalog",
+              "example": "created UI mockups in Figma"
+            },
+            "skills[].skill.phrase": {
+              "type": "str",
+              "description": "Field: skill_phrase - Full skill description from catalog",
+              "example": "created UI mockups in Figma"
+            }
+          },
+          "description": "Nested object: skill - References TALENTS/Skills/Master/all_skills.json"
+        },
+        "skills[].self_assessed_proficiency": {
+          "type": "str",
+          "description": "Candidate's self-assessed proficiency level",
+          "example": "intermediate",
+          "options": ["beginner", "intermediate", "advanced", "expert"]
+        },
+        "skills[].years_experience": {
+          "type": "number",
+          "description": "Years of experience with this skill",
+          "example": 2
+        },
+        "skills[].verified": {
+          "type": "boolean",
+          "description": "Whether skill has been verified/validated",
+          "example": false
+        }
+      }
+    }
+  }
+}
+

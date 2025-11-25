@@ -1,0 +1,170 @@
+{
+  "tool_id": "TOOL-AI-001",
+  "tool_name": "Midjourney",
+  "tool_category": "AI Tool",
+  "description": "Advanced AI image generation platform with style control, character consistency, and advanced parameters",
+  "skills_count": 10,
+  "last_updated": "2025-11-22",
+  "source_videos": ["Video_017", "Video_018"],
+  "skills": [
+    {
+      "skill_id": "SKL-023",
+      "skill_phrase": "generated AI images using Midjourney",
+      "components": {
+        "action": "generate",
+        "object": "AI images",
+        "tool": "Midjourney"
+      },
+      "department": "Design",
+      "professions": ["graphic designer"],
+      "difficulty_level": "intermediate",
+      "frequency": "weekly",
+      "time_estimate_minutes": 20,
+      "automation_potential": "high"
+    },
+    {
+      "skill_id": "SKL-053",
+      "skill_phrase": "created style-consistent image series using Midjourney seeds",
+      "components": {
+        "action": "create",
+        "object": "image series",
+        "tool": "Midjourney"
+      },
+      "department": "Design",
+      "professions": ["graphic designer", "ai artist"],
+      "difficulty_level": "advanced",
+      "frequency": "weekly",
+      "time_estimate_minutes": 15,
+      "automation_potential": "medium",
+      "features_used": ["--sref (seed references)", "--sw (style weights)", "style consistency"]
+    },
+    {
+      "skill_id": "SKL-054",
+      "skill_phrase": "optimized prompts for AI image generation with advanced parameters",
+      "components": {
+        "action": "optimize",
+        "object": "prompts",
+        "tool": "Midjourney"
+      },
+      "department": "Design",
+      "professions": ["graphic designer", "ai artist", "content creator"],
+      "difficulty_level": "advanced",
+      "frequency": "daily",
+      "time_estimate_minutes": 10,
+      "automation_potential": "low",
+      "features_used": ["--chaos", "--weird", "--stylize", "--ar", "curly brackets for permutations", "concept separation ::"]
+    },
+    {
+      "skill_id": "SKL-055",
+      "skill_phrase": "edited generated images using Midjourney inpainting",
+      "components": {
+        "action": "edit",
+        "object": "AI-generated images",
+        "tool": "Midjourney"
+      },
+      "department": "Design",
+      "professions": ["graphic designer", "ai artist"],
+      "difficulty_level": "intermediate",
+      "frequency": "weekly",
+      "time_estimate_minutes": 5,
+      "automation_potential": "low",
+      "features_used": ["Editor tool", "Inpainting", "Erase/Restore", "Brush size adjustment"]
+    },
+    {
+      "skill_id": "SKL-056",
+      "skill_phrase": "organized AI-generated assets using smart folders",
+      "components": {
+        "action": "organize",
+        "object": "AI-generated assets",
+        "tool": "Midjourney"
+      },
+      "department": "Design",
+      "professions": ["graphic designer", "ai artist", "content creator"],
+      "difficulty_level": "beginner",
+      "frequency": "daily",
+      "time_estimate_minutes": 5,
+      "automation_potential": "high",
+      "features_used": ["Smart folders", "Filters", "Auto-detection", "Search terms", "Like/Hide features"]
+    },
+    {
+      "skill_id": "SKL-057",
+      "skill_phrase": "created moodboards for consistent visual style",
+      "components": {
+        "action": "create",
+        "object": "moodboards",
+        "tool": "Midjourney"
+      },
+      "department": "Design",
+      "professions": ["graphic designer", "ai artist", "art director"],
+      "difficulty_level": "intermediate",
+      "frequency": "weekly",
+      "time_estimate_minutes": 20,
+      "automation_potential": "low",
+      "features_used": ["Moodboard Creator", "Profile Codes", "Copy Code", "Gallery selection"]
+    },
+    {
+      "skill_id": "SKL-058",
+      "skill_phrase": "personalized AI output using ranked image preferences",
+      "components": {
+        "action": "personalize",
+        "object": "AI output",
+        "tool": "Midjourney"
+      },
+      "department": "Design",
+      "professions": ["graphic designer", "ai artist", "content creator"],
+      "difficulty_level": "intermediate",
+      "frequency": "monthly",
+      "time_estimate_minutes": 45,
+      "automation_potential": "low",
+      "features_used": ["Personalization", "Image ranking", "Standard Profile", "Global Profile"]
+    },
+    {
+      "skill_id": "SKL-059",
+      "skill_phrase": "maintained character consistency using character references",
+      "components": {
+        "action": "maintain",
+        "object": "character consistency",
+        "tool": "Midjourney"
+      },
+      "department": "Design",
+      "professions": ["graphic designer", "ai artist", "illustrator"],
+      "difficulty_level": "advanced",
+      "frequency": "weekly",
+      "time_estimate_minutes": 15,
+      "automation_potential": "medium",
+      "features_used": ["--cref parameter", "--cw (character weight)", "Character references"]
+    },
+    {
+      "skill_id": "SKL-060",
+      "skill_phrase": "retextured images while preserving structure",
+      "components": {
+        "action": "retexture",
+        "object": "images",
+        "tool": "Midjourney"
+      },
+      "department": "Design",
+      "professions": ["graphic designer", "ai artist"],
+      "difficulty_level": "intermediate",
+      "frequency": "monthly",
+      "time_estimate_minutes": 10,
+      "automation_potential": "medium",
+      "features_used": ["Retexture feature", "Style transformation", "Structure preservation"]
+    },
+    {
+      "skill_id": "SKL-061",
+      "skill_phrase": "combined multiple references for unique visual results",
+      "components": {
+        "action": "combine",
+        "object": "multiple references",
+        "tool": "Midjourney"
+      },
+      "department": "Design",
+      "professions": ["graphic designer", "ai artist", "content creator"],
+      "difficulty_level": "advanced",
+      "frequency": "weekly",
+      "time_estimate_minutes": 10,
+      "automation_potential": "low",
+      "features_used": ["Image prompting", "Style reference", "Character reference", "Shift+select", "Triple triple technique"]
+    }
+  ]
+}

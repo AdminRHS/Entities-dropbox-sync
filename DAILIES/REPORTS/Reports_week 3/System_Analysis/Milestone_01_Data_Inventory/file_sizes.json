@@ -1,0 +1,86 @@
+{
+  "total_size_mb": 43.09,
+  "size_by_extension_kb": {
+    ".json": 37396.99,
+    ".md": 6307.34,
+    ".txt": 152.32,
+    ".yaml": 127.85,
+    ".py": 70.92,
+    ".bat": 29.24,
+    ".ps1": 22.0,
+    ".js": 10.92,
+    ".backup": 8.86,
+    ".ini": 0.35,
+    ".csv": 0.14
+  },
+  "large_files": [
+    {
+      "path": "TALENTS\\Candidates_JSON_Clusters\\Candidates_cluster_0001.json",
+      "size_kb": 11478.97
+    },
+    {
+      "path": "TALENTS\\Candidates_JSON_Clusters\\Candidates_cluster_0001_cleaned_v2.json",
+      "size_kb": 10012.72
+    },
+    {
+      "path": "TALENTS\\Candidates_JSON_Clusters\\Candidates_cluster_0001_cleaned.json",
+      "size_kb": 7025.54
+    },
+    {
+      "path": "LIBRARIES\\Responsibilities\\Parameters\\parameters.json",
+      "size_kb": 2573.32
+    },
+    {
+      "path": "LIBRARIES\\Responsibilities\\parameter_object_mapping.json",
+      "size_kb": 901.17
+    },
+    {
+      "path": "LIBRARIES\\actions.json",
+      "size_kb": 339.96
+    },
+    {
+      "path": "LIBRARIES\\tools.json",
+      "size_kb": 285.01
+    },
+    {
+      "path": "TALENTS\\Candidates_JSON_Clusters\\Candidate Info\\Candidates_Test_Data_10.json",
+      "size_kb": 220.63
+    },
+    {
+      "path": "TALENTS\\Candidates_JSON_Clusters\\Candidate Info\\Candidates_Listing.json",
+      "size_kb": 200.06
+    },
+    {
+      "path": "LIBRARIES\\DEPARTMENTS\\RESEARCHES\\Videos\\Video_007.md",
+      "size_kb": 176.38
+    },
+    {
+      "path": "TASK_MANAGERS\\Step_Templates\\Listing.json",
+      "size_kb": 172.29
+    },
+    {
+      "path": "LIBRARIES\\Responsibilities\\Core\\responsibilities_master.json",
+      "size_kb": 170.13
+    },
+    {
+      "path": "LIBRARIES\\DEPARTMENTS\\RESEARCHES\\SMM\\Social Media Strategies for Creative Professionals (EU, 2025).md",
+      "size_kb": 148.38
+    },
+    {
+      "path": "DEPARTMENTS\\REPORTS\\System_Analysis\\Milestone_01_Data_Inventory\\folder_structure.txt",
+      "size_kb": 139.93
+    },
+    {
+      "path": "TASK_MANAGERS\\PROMPTS\\Core\\MAIN_PROMPT_v4.md",
+      "size_kb": 118.89
+    },
+    {
+      "path": "TASK_MANAGERS\\GUIDES\\DATA_EXTRACTION_PROMPT.md",
+      "size_kb": 115.55
+    },
+    {
+      "path": "LIBRARIES\\Responsibilities\\phrase_combinations.json",
+      "size_kb": 111.04
+    }
+  ]
+}

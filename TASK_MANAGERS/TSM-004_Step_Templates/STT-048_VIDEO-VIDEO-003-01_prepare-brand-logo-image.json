@@ -1,0 +1,31 @@
+{
+  "entity_type": "TASK_MANAGERS",
+  "sub_entity": "Step_Template",
+  "step_id": "VIDEO-VIDEO-003-01",
+  "step_number": 1,
+  "parent_task": "TASK-TEMPLATE-VIDEO-003",
+  "task_name": "Create Brand Logo Animation",
+  "name": "Prepare brand logo image",
+  "action": "prepare",
+  "tool": "Image file",
+  "responsibility": "Brand Manager",
+  "placement": "Local storage",
+  "duration": "1 minute",
+  "dependencies": [],
+  "inputs": [
+    "Brand logo (PNG or JPG, preferably transparent background)"
+  ],
+  "outputs": [
+    "Logo file ready for upload"
+  ],
+  "success_criteria": "High-resolution logo file available",
+  "implementation_notes": "High-resolution logo file available - Implementation details based on the Create Brand Logo Animation workflow.",
+  "tags": [
+    "prepare",
+    "template-task-video-003"
+  ],
+  "version": "1.0",
+  "created": "2025-11-15",
+  "last_updated": "2025-11-15",
+  "source": "Video_012"
+}

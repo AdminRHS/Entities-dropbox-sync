@@ -1,0 +1,85 @@
+{
+  "entity_type": "LIBRARIES",
+  "sub_entity": "Tool",
+  "tool_id": "TOOL-AUTH-001",
+  "name": "Auth0",
+  "vendor": "Okta",
+  "category": "Authentication/Enterprise Identity",
+  "purpose": "Enterprise-grade authentication and identity management",
+  "description": "Enterprise authentication platform providing MFA, universal login with multiple providers, enterprise SSO with SAML or Active Directory. Integrates with Supabase for row-level security while handling complex enterprise authentication needs. Go-to choice for enterprise-grade auth.",
+  "skill_level_required": "Intermediate to Advanced",
+  "cost_structure": "Free tier + Commercial (Enterprise features)",
+  "platform_compatibility": [
+    "Web",
+    "Mobile",
+    "APIs",
+    "Any application"
+  ],
+  "integration_capabilities": [
+    "Multi-factor authentication (MFA)",
+    "Universal login",
+    "Multiple auth providers",
+    "Enterprise SSO",
+    "SAML",
+    "Active Directory",
+    "Supabase integration",
+    "OAuth 2.0",
+    "OpenID Connect"
+  ],
+  "documentation_url": "https://auth0.com/",
+  "actual_remote_helpers_usage": {
+    "primary_use": "Enterprise Authentication",
+    "users": [],
+    "use_cases": [
+      "enterprise authentication",
+      "multi-factor auth",
+      "sso integration",
+      "user management",
+      "oauth flows"
+    ],
+    "workflows": [
+      "WF-AI-001: Develop and Deploy AI Application"
+    ]
+  },
+  "strengths": [
+    "Enterprise-grade features",
+    "MFA support",
+    "Universal login",
+    "SAML/Active Directory",
+    "Integrates with Supabase",
+    "Comprehensive auth solution"
+  ],
+  "limitations": [
+    "More complex than simple auth",
+    "Pricing for enterprise features",
+    "May be overkill for simple apps"
+  ],
+  "alternatives": [
+    {
+      "name": "Clerk",
+      "comparison": "Modern alternative"
+    },
+    {
+      "name": "Okta",
+      "comparison": "Similar enterprise solution (same parent company)"
+    }
+  ],
+  "departments_using": [],
+  "tags": [
+    "authentication",
+    "enterprise",
+    "sso",
+    "mfa",
+    "auth0",
+    "identity"
+  ],
+  "discovery_date": "2025-11-13",
+  "discovery_source": "Video_005",
+  "status": "active",
+  "video_source": {
+    "video_id": "Video_005",
+    "video_title": "My Agentic Engineering Tech Stack",
+    "creator": "Cole",
+    "timestamp": "23:20-24:08"
+  }
+}

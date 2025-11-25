@@ -1,0 +1,21 @@
+[
+  {
+    "id": "<number>",
+    "employee_details_id": "<string>",
+    "presale_id": null,
+    "project_company_id": "<string>",
+    "start_date": null,
+    "due_date": null,
+    "video_editor_id": null,
+    "video_editor_created_by": null,
+    "url_video_to_drive_disk": null,
+    "url_video_to_youtube": null,
+    "url_youtube_short": null,
+    "youtube_description": null,
+    "youtube_hashtags": null,
+    "sub_titles": null,
+    "approved": "<string>",
+    "created_at": "<datetime>",
+    "updated_at": "<datetime>"
+  }
+]

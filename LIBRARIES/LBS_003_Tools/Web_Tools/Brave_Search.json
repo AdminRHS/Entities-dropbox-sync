@@ -1,0 +1,77 @@
+{
+  "entity_type": "LIBRARIES",
+  "sub_entity": "Tool",
+  "tool_id": "TOOL-WEB-001",
+  "name": "Brave Search",
+  "vendor": "Brave Software",
+  "category": "Web/Search API",
+  "purpose": "Privacy-focused web search API for AI agents",
+  "description": "Privacy-focused search engine with API access for AI agents. Independent index (not Google proxy), no tracking, built-in AI search functionality. Faster and more high-level than Perplexity for agent web search. Perfect for RAG and agent web access.",
+  "skill_level_required": "Intermediate",
+  "cost_structure": "API-based pricing",
+  "platform_compatibility": [
+    "API",
+    "Python",
+    "TypeScript",
+    "Any language"
+  ],
+  "integration_capabilities": [
+    "REST API",
+    "AI search features",
+    "No tracking",
+    "Independent index",
+    "Agent integration",
+    "RAG pipelines"
+  ],
+  "documentation_url": "https://brave.com/search/api/",
+  "actual_remote_helpers_usage": {
+    "primary_use": "Agent Web Search",
+    "users": [],
+    "use_cases": [
+      "agent web search",
+      "rag web access",
+      "private search",
+      "fast search api",
+      "ai search"
+    ],
+    "workflows": [
+      "WF-RAG-001: Build RAG System"
+    ]
+  },
+  "strengths": [
+    "Privacy-focused",
+    "No tracking",
+    "Independent index (not Google)",
+    "AI search built-in",
+    "Faster than Perplexity",
+    "High-level implementation"
+  ],
+  "limitations": [
+    "API costs",
+    "Less detailed than Perplexity"
+  ],
+  "alternatives": [
+    {
+      "name": "Perplexity",
+      "comparison": "More detailed but slower for agents"
+    }
+  ],
+  "departments_using": [],
+  "tags": [
+    "search",
+    "brave",
+    "privacy",
+    "api",
+    "rag",
+    "agents"
+  ],
+  "discovery_date": "2025-11-13",
+  "discovery_source": "Video_005",
+  "status": "active",
+  "video_source": {
+    "video_id": "Video_005",
+    "video_title": "My Agentic Engineering Tech Stack",
+    "creator": "Cole",
+    "timestamp": "17:56-18:44"
+  }
+}

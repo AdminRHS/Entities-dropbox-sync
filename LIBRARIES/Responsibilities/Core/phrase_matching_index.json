@@ -1,0 +1,838 @@
+{
+  "extract+extract complete metadata for each video": {
+    "responsibility_id": "RESP-AI-001",
+    "primary_phrase": "extract videos"
+  },
+  "extract+extract video transcript using youtube auto-captions": {
+    "responsibility_id": "RESP-AI-001",
+    "primary_phrase": "extract videos"
+  },
+  "extract+extract workflows from video transcript": {
+    "responsibility_id": "RESP-AI-001",
+    "primary_phrase": "extract videos"
+  },
+  "analyze+filter and assess video quality": {
+    "responsibility_id": "RESP-AI-002",
+    "primary_phrase": "analyze videos"
+  },
+  "analyze+video transcripts": {
+    "responsibility_id": "RESP-AI-002",
+    "primary_phrase": "analyze videos"
+  },
+  "update+add creator attribution and channel url": {
+    "responsibility_id": "RESP-AI-003",
+    "primary_phrase": "update channels"
+  },
+  "update+update youtube_channels.json with channel-specific data": {
+    "responsibility_id": "RESP-AI-003",
+    "primary_phrase": "update channels"
+  },
+  "create+create cross-reference index for this video": {
+    "responsibility_id": "RESP-AI-004",
+    "primary_phrase": "create videos"
+  },
+  "create+determine next video_xxx number and create file": {
+    "responsibility_id": "RESP-AI-004",
+    "primary_phrase": "create videos"
+  },
+  "discover+ai tutorial videos": {
+    "responsibility_id": "RESP-AI-005",
+    "primary_phrase": "discover videos"
+  },
+  "copy+copy research_template.json to new session file": {
+    "responsibility_id": "RESP-AI-006",
+    "primary_phrase": "copy copy research_template.json"
+  },
+  "write+formulate search queries for this research cycle": {
+    "responsibility_id": "RESP-AI-007",
+    "primary_phrase": "write formulate search queries"
+  },
+  "search+execute perplexity searches and collect results": {
+    "responsibility_id": "RESP-AI-008",
+    "primary_phrase": "search execute perplexity searches and collect results"
+  },
+  "document+document session summary and save research file": {
+    "responsibility_id": "RESP-AI-009",
+    "primary_phrase": "document document session summary and save research file"
+  },
+  "track+ai tutorial creators": {
+    "responsibility_id": "RESP-AI-010",
+    "primary_phrase": "track tutorials"
+  },
+  "extract+extract unique creators from research session": {
+    "responsibility_id": "RESP-AI-011",
+    "primary_phrase": "extract creators"
+  },
+  "search+check if creators already exist in database": {
+    "responsibility_id": "RESP-AI-012",
+    "primary_phrase": "search creators"
+  },
+  "research+gather channel metrics for new creators": {
+    "responsibility_id": "RESP-AI-013",
+    "primary_phrase": "research channels"
+  },
+  "create+create full influencer profiles for new creators": {
+    "responsibility_id": "RESP-AI-014",
+    "primary_phrase": "create creators"
+  },
+  "read+read video transcript thoroughly": {
+    "responsibility_id": "RESP-AI-015",
+    "primary_phrase": "read videos"
+  },
+  "extract+extract all tools mentioned (primary focus)": {
+    "responsibility_id": "RESP-AI-016",
+    "primary_phrase": "extract extract all tools mentioned (primary focus)"
+  },
+  "extract+extract all objects (deliverables, data types, concepts)": {
+    "responsibility_id": "RESP-AI-017",
+    "primary_phrase": "extract data"
+  },
+  "extract+extract all actions and processes (verbs, workflows)": {
+    "responsibility_id": "RESP-AI-018",
+    "primary_phrase": "extract extract all actions and processes (verbs, workflows)"
+  },
+  "identify+identify professions and use cases": {
+    "responsibility_id": "RESP-AI-019",
+    "primary_phrase": "identify identify professions and use cases"
+  },
+  "document+create structured inventory document": {
+    "responsibility_id": "RESP-AI-020",
+    "primary_phrase": "document structured inventory document"
+  },
+  "verify+initial quality check and completeness review": {
+    "responsibility_id": "RESP-AI-021",
+    "primary_phrase": "verify initial quality check and completeness review"
+  },
+  "save+save inventory and prepare for gap analysis": {
+    "responsibility_id": "RESP-AI-022",
+    "primary_phrase": "save save inventory and prepare"
+  },
+  "analyze+taxonomy gaps": {
+    "responsibility_id": "RESP-AI-023",
+    "primary_phrase": "analyze taxonomy gaps"
+  },
+  "search+search tools library for each extracted tool": {
+    "responsibility_id": "RESP-AI-024",
+    "primary_phrase": "search search tools library"
+  },
+  "search+search objects library for each extracted object": {
+    "responsibility_id": "RESP-AI-025",
+    "primary_phrase": "search search objects library"
+  },
+  "search+search actions library for each extracted action": {
+    "responsibility_id": "RESP-AI-026",
+    "primary_phrase": "search search actions library"
+  },
+  "identify+check for workflows/processes patterns": {
+    "responsibility_id": "RESP-AI-027",
+    "primary_phrase": "identify check"
+  },
+  "prioritize+assign priority rankings to new entities": {
+    "responsibility_id": "RESP-AI-028",
+    "primary_phrase": "prioritize assign priority rankings"
+  },
+  "document+document gap analysis with recommendations": {
+    "responsibility_id": "RESP-AI-029",
+    "primary_phrase": "document document gap analysis"
+  },
+  "plan+create taxonomy roadmap for this video": {
+    "responsibility_id": "RESP-AI-030",
+    "primary_phrase": "plan videos"
+  },
+  "create+tool entries": {
+    "responsibility_id": "RESP-AI-031",
+    "primary_phrase": "create tool entries"
+  },
+  "select+select high-priority tools from gap analysis": {
+    "responsibility_id": "RESP-AI-032",
+    "primary_phrase": "select select high-priority tools"
+  },
+  "research+research tool details (website, documentation, pricing)": {
+    "responsibility_id": "RESP-AI-033",
+    "primary_phrase": "research research tool details (website, documentation, pricing)"
+  },
+  "identify+determine next tool-ai-xxx id number": {
+    "responsibility_id": "RESP-AI-034",
+    "primary_phrase": "identify determine next tool-ai-xxx id number"
+  },
+  "create+create tool json files with complete metadata": {
+    "responsibility_id": "RESP-AI-035",
+    "primary_phrase": "create data"
+  },
+  "identify+extract tool relationships from video context": {
+    "responsibility_id": "RESP-AI-036",
+    "primary_phrase": "identify videos"
+  },
+  "map+add profession and use case mappings": {
+    "responsibility_id": "RESP-AI-037",
+    "primary_phrase": "map add profession and use case mappings"
+  },
+  "categorize+assign tags and categories": {
+    "responsibility_id": "RESP-AI-038",
+    "primary_phrase": "categorize assign tags and categories"
+  },
+  "verify+quality check all tool entries": {
+    "responsibility_id": "RESP-AI-039",
+    "primary_phrase": "verify quality check all tool entries"
+  },
+  "update+update tool index and cross-references": {
+    "responsibility_id": "RESP-AI-040",
+    "primary_phrase": "update tool index and cross-references"
+  },
+  "save+save and prepare for objects/actions phases": {
+    "responsibility_id": "RESP-AI-041",
+    "primary_phrase": "save save and prepare"
+  },
+  "update+objects library": {
+    "responsibility_id": "RESP-AI-042",
+    "primary_phrase": "update objects library"
+  },
+  "select+select new objects from gap analysis": {
+    "responsibility_id": "RESP-AI-043",
+    "primary_phrase": "select select new objects"
+  },
+  "identify+determine appropriate objects category file": {
+    "responsibility_id": "RESP-AI-044",
+    "primary_phrase": "identify determine appropriate objects category file"
+  },
+  "identify+determine next obj-{dept}-xxx ids": {
+    "responsibility_id": "RESP-AI-045",
+    "primary_phrase": "identify determine next obj-{dept}-xxx ids"
+  },
+  "create+create object entries with definitions": {
+    "responsibility_id": "RESP-AI-046",
+    "primary_phrase": "create object entries"
+  },
+  "map+map relationships to tools and actions": {
+    "responsibility_id": "RESP-AI-047",
+    "primary_phrase": "map map relationships"
+  },
+  "verify+quality check and save objects": {
+    "responsibility_id": "RESP-AI-048",
+    "primary_phrase": "verify quality check and save objects"
+  },
+  "update+actions, processes, professions libraries": {
+    "responsibility_id": "RESP-AI-049",
+    "primary_phrase": "update actions, processes, professions libraries"
+  },
+  "identify+determine next wf-{dept}-xxx ids": {
+    "responsibility_id": "RESP-AI-050",
+    "primary_phrase": "identify determine next wf-{dept}-xxx ids"
+  },
+  "create+create workflow entries with complete documentation": {
+    "responsibility_id": "RESP-AI-051",
+    "primary_phrase": "create workflow entries"
+  },
+  "search+check for new action verbs not in actions library": {
+    "responsibility_id": "RESP-AI-052",
+    "primary_phrase": "search check"
+  },
+  "update+add new action verbs to appropriate category": {
+    "responsibility_id": "RESP-AI-053",
+    "primary_phrase": "update add new action verbs"
+  },
+  "update+update profession mappings with tools and workflows": {
+    "responsibility_id": "RESP-AI-054",
+    "primary_phrase": "update profession mappings"
+  },
+  "document+document use cases and skill requirements": {
+    "responsibility_id": "RESP-AI-055",
+    "primary_phrase": "document document use cases and skill requirements"
+  },
+  "verify+quality check workflows, actions, professions": {
+    "responsibility_id": "RESP-AI-056",
+    "primary_phrase": "verify quality check workflows, actions, professions"
+  },
+  "map+entity relationships": {
+    "responsibility_id": "RESP-AI-057",
+    "primary_phrase": "map entity relationships"
+  },
+  "map+map tool-to-tool relationships": {
+    "responsibility_id": "RESP-AI-058",
+    "primary_phrase": "map map tool-to-tool relationships"
+  },
+  "map+map tool-to-workflow connections": {
+    "responsibility_id": "RESP-AI-059",
+    "primary_phrase": "map map tool-to-workflow connections"
+  },
+  "map+map profession-to-tool connections": {
+    "responsibility_id": "RESP-AI-060",
+    "primary_phrase": "map map profession-to-tool connections"
+  },
+  "map+map object-to-tool and object-to-action connections": {
+    "responsibility_id": "RESP-AI-061",
+    "primary_phrase": "map map object-to-tool and object-to-action connections"
+  },
+  "verify+verify bidirectional references are complete": {
+    "responsibility_id": "RESP-AI-062",
+    "primary_phrase": "verify verify bidirectional references are complete"
+  },
+  "generate+library mapping reports": {
+    "responsibility_id": "RESP-AI-063",
+    "primary_phrase": "generate library mapping reports"
+  },
+  "collect+collect metrics from all taxonomy phases": {
+    "responsibility_id": "RESP-AI-064",
+    "primary_phrase": "collect collect metrics"
+  },
+  "create+generate library mapping report from template": {
+    "responsibility_id": "RESP-AI-065",
+    "primary_phrase": "create generate library mapping report"
+  },
+  "update+update research session json with taxonomy results": {
+    "responsibility_id": "RESP-AI-066",
+    "primary_phrase": "update research session json"
+  },
+  "update+update research_index.json with cycle summary": {
+    "responsibility_id": "RESP-AI-067",
+    "primary_phrase": "update research_index.json"
+  },
+  "analyze+identify next research cycle priorities": {
+    "responsibility_id": "RESP-AI-068",
+    "primary_phrase": "analyze identify next research cycle priorities"
+  },
+  "design+evaluation system": {
+    "responsibility_id": "RESP-AI-069",
+    "primary_phrase": "design evaluation system"
+  },
+  "define+define evaluation objectives and metrics": {
+    "responsibility_id": "RESP-AI-070",
+    "primary_phrase": "define define evaluation objectives and metrics"
+  },
+  "analyze+identify per-example ground truth requirements": {
+    "responsibility_id": "RESP-AI-071",
+    "primary_phrase": "analyze identify per-example ground truth requirements"
+  },
+  "analyze+identify universal standard requirements": {
+    "responsibility_id": "RESP-AI-072",
+    "primary_phrase": "analyze identify universal standard requirements"
+  },
+  "create+create per-example evaluation test cases": {
+    "responsibility_id": "RESP-AI-073",
+    "primary_phrase": "create per-example evaluation test cases"
+  },
+  "create+create universal standard validation checks": {
+    "responsibility_id": "RESP-AI-074",
+    "primary_phrase": "create universal standard validation checks"
+  },
+  "implement+implement evaluation runner and metrics tracking": {
+    "responsibility_id": "RESP-AI-075",
+    "primary_phrase": "implement implement evaluation runner and metrics tracking"
+  },
+  "run+run evaluation on agent and analyze results": {
+    "responsibility_id": "RESP-AI-076",
+    "primary_phrase": "run run evaluation on agent and analyze results"
+  },
+  "document+document evaluation system and establish baseline": {
+    "responsibility_id": "RESP-AI-077",
+    "primary_phrase": "document document evaluation system and establish baseline"
+  },
+  "research+ai video tools": {
+    "responsibility_id": "RESP-AI-078",
+    "primary_phrase": "research videos"
+  },
+  "research+ai platforms": {
+    "responsibility_id": "RESP-AI-079",
+    "primary_phrase": "research ai platforms"
+  },
+  "research+other tools": {
+    "responsibility_id": "RESP-AI-080",
+    "primary_phrase": "research other tools"
+  },
+  "transcribe+ai tutorial videos": {
+    "responsibility_id": "RESP-CNT-001",
+    "primary_phrase": "transcribe videos"
+  },
+  "select+select high-priority videos for transcription": {
+    "responsibility_id": "RESP-CNT-002",
+    "primary_phrase": "select videos"
+  },
+  "format+format transcript with timestamps and metadata": {
+    "responsibility_id": "RESP-CNT-003",
+    "primary_phrase": "format data"
+  },
+  "update+update videos_index.md with new entries": {
+    "responsibility_id": "RESP-CNT-004",
+    "primary_phrase": "update videos"
+  },
+  "verify+quality check transcripts and index": {
+    "responsibility_id": "RESP-CNT-005",
+    "primary_phrase": "verify quality check transcripts and index"
+  },
+  "build+build data cleaning and structuring logic": {
+    "responsibility_id": "RESP-DEV-001",
+    "primary_phrase": "build data"
+  },
+  "build+build data parsing and cleaning logic": {
+    "responsibility_id": "RESP-DEV-001",
+    "primary_phrase": "build data"
+  },
+  "build+notion ats database": {
+    "responsibility_id": "RESP-DEV-001",
+    "primary_phrase": "build data"
+  },
+  "parse+html data": {
+    "responsibility_id": "RESP-DEV-002",
+    "primary_phrase": "parse data"
+  },
+  "identify+identify target website with unstructured data": {
+    "responsibility_id": "RESP-DEV-003",
+    "primary_phrase": "identify data"
+  },
+  "scrape+scrape website html via apify (optional)": {
+    "responsibility_id": "RESP-DEV-004",
+    "primary_phrase": "scrape scrape website html"
+  },
+  "design+design n8n workflow for ai parsing": {
+    "responsibility_id": "RESP-DEV-005",
+    "primary_phrase": "design design n8n workflow"
+  },
+  "build+build html input node in n8n": {
+    "responsibility_id": "RESP-DEV-006",
+    "primary_phrase": "build html input node"
+  },
+  "configure+configure openai parsing node": {
+    "responsibility_id": "RESP-DEV-007",
+    "primary_phrase": "configure openai parsing node"
+  },
+  "test+test ai parsing on sample html": {
+    "responsibility_id": "RESP-DEV-008",
+    "primary_phrase": "test test ai parsing on sample html"
+  },
+  "execute+run full html parsing pipeline": {
+    "responsibility_id": "RESP-DEV-009",
+    "primary_phrase": "execute run full html parsing pipeline"
+  },
+  "export+export and validate results": {
+    "responsibility_id": "RESP-DEV-010",
+    "primary_phrase": "export and validate results"
+  },
+  "generate+mcp connector": {
+    "responsibility_id": "RESP-DEV-011",
+    "primary_phrase": "generate mcp connector"
+  },
+  "enable+enable mcp-builder skill in claude desktop": {
+    "responsibility_id": "RESP-DEV-012",
+    "primary_phrase": "enable enable mcp-builder skill"
+  },
+  "write+write 2-sentence connector prompt": {
+    "responsibility_id": "RESP-DEV-013",
+    "primary_phrase": "write write 2-sentence connector prompt"
+  },
+  "submit+submit prompt to mcp-builder skill": {
+    "responsibility_id": "RESP-DEV-014",
+    "primary_phrase": "submit submit prompt"
+  },
+  "wait+wait for connector code generation": {
+    "responsibility_id": "RESP-DEV-015",
+    "primary_phrase": "wait wait"
+  },
+  "review+review generated connector code": {
+    "responsibility_id": "RESP-DEV-016",
+    "primary_phrase": "review generated connector code"
+  },
+  "copy+copy code to local directory": {
+    "responsibility_id": "RESP-DEV-017",
+    "primary_phrase": "copy copy code"
+  },
+  "deploy+mcp connector": {
+    "responsibility_id": "RESP-DEV-018",
+    "primary_phrase": "deploy mcp connector"
+  },
+  "copy+copy generated connector code to local directory": {
+    "responsibility_id": "RESP-DEV-019",
+    "primary_phrase": "copy copy generated connector code"
+  },
+  "open+open connector directory in cursor ai": {
+    "responsibility_id": "RESP-DEV-020",
+    "primary_phrase": "open open connector directory"
+  },
+  "prompt+ask cursor to explain setup steps": {
+    "responsibility_id": "RESP-DEV-021",
+    "primary_phrase": "prompt ask cursor"
+  },
+  "install+install dependencies": {
+    "responsibility_id": "RESP-DEV-022",
+    "primary_phrase": "install install dependencies"
+  },
+  "configure+configure oauth credentials (if required)": {
+    "responsibility_id": "RESP-DEV-023",
+    "primary_phrase": "configure oauth credentials (if required)"
+  },
+  "test+test connector locally": {
+    "responsibility_id": "RESP-DEV-024",
+    "primary_phrase": "test test connector locally"
+  },
+  "configure+add connector to claude desktop settings": {
+    "responsibility_id": "RESP-DEV-025",
+    "primary_phrase": "configure add connector"
+  },
+  "verify+verify connection in claude desktop": {
+    "responsibility_id": "RESP-DEV-026",
+    "primary_phrase": "verify verify connection"
+  },
+  "enable+claude skills": {
+    "responsibility_id": "RESP-DEV-027",
+    "primary_phrase": "enable claude skills"
+  },
+  "open+open claude desktop app": {
+    "responsibility_id": "RESP-DEV-028",
+    "primary_phrase": "open open claude desktop app"
+  },
+  "navigate+navigate to settings": {
+    "responsibility_id": "RESP-DEV-029",
+    "primary_phrase": "navigate navigate"
+  },
+  "locate+locate skills section in settings": {
+    "responsibility_id": "RESP-DEV-030",
+    "primary_phrase": "locate locate skills section"
+  },
+  "enable+enable skills feature toggle": {
+    "responsibility_id": "RESP-DEV-031",
+    "primary_phrase": "enable enable skills feature toggle"
+  },
+  "verify+verify mcp-builder skill is available": {
+    "responsibility_id": "RESP-DEV-032",
+    "primary_phrase": "verify verify mcp-builder skill is available"
+  },
+  "test+test skills feature with simple prompt": {
+    "responsibility_id": "RESP-DEV-033",
+    "primary_phrase": "test test skills feature"
+  },
+  "research+development tools": {
+    "responsibility_id": "RESP-DEV-034",
+    "primary_phrase": "research development tools"
+  },
+  "create+job posting": {
+    "responsibility_id": "RESP-HR-001",
+    "primary_phrase": "create job posting"
+  },
+  "setup+n8n workflow": {
+    "responsibility_id": "RESP-HR-002",
+    "primary_phrase": "setup n8n workflow"
+  },
+  "configure+gemini ai parameters": {
+    "responsibility_id": "RESP-HR-003",
+    "primary_phrase": "configure gemini ai parameters"
+  },
+  "setup+interview scheduling automation": {
+    "responsibility_id": "RESP-HR-004",
+    "primary_phrase": "setup interview scheduling automation"
+  },
+  "configure+linkedin automation": {
+    "responsibility_id": "RESP-HR-005",
+    "primary_phrase": "configure linkedin automation"
+  },
+  "setup+onboarding automation workflow": {
+    "responsibility_id": "RESP-HR-006",
+    "primary_phrase": "setup onboarding automation workflow"
+  },
+  "enrich+email list": {
+    "responsibility_id": "RESP-LG-001",
+    "primary_phrase": "enrich emails"
+  },
+  "enrich+run email enrichment": {
+    "responsibility_id": "RESP-LG-001",
+    "primary_phrase": "enrich emails"
+  },
+  "enrich+run nominative email enrichment": {
+    "responsibility_id": "RESP-LG-001",
+    "primary_phrase": "enrich emails"
+  },
+  "upload+upload domain list to anymailfinder": {
+    "responsibility_id": "RESP-LG-002",
+    "primary_phrase": "upload domains"
+  },
+  "upload+upload domain list to bright data": {
+    "responsibility_id": "RESP-LG-002",
+    "primary_phrase": "upload domains"
+  },
+  "upload+upload domains to anymailfinder": {
+    "responsibility_id": "RESP-LG-002",
+    "primary_phrase": "upload domains"
+  },
+  "prepare+prepare company domain list": {
+    "responsibility_id": "RESP-LG-003",
+    "primary_phrase": "prepare domains"
+  },
+  "prepare+prepare domain list": {
+    "responsibility_id": "RESP-LG-003",
+    "primary_phrase": "prepare domains"
+  },
+  "export+export enriched lead list": {
+    "responsibility_id": "RESP-LG-004",
+    "primary_phrase": "export leads"
+  },
+  "export+export final enriched lead list": {
+    "responsibility_id": "RESP-LG-004",
+    "primary_phrase": "export leads"
+  },
+  "export+export final local business lead list": {
+    "responsibility_id": "RESP-LG-004",
+    "primary_phrase": "export leads"
+  },
+  "export+export enriched results": {
+    "responsibility_id": "RESP-LG-005",
+    "primary_phrase": "export enriched results"
+  },
+  "log+log campaign metrics": {
+    "responsibility_id": "RESP-LG-006",
+    "primary_phrase": "log log campaign metrics"
+  },
+  "search+search companies in airscale database": {
+    "responsibility_id": "RESP-LG-007",
+    "primary_phrase": "search data"
+  },
+  "search+search company in airscale database": {
+    "responsibility_id": "RESP-LG-007",
+    "primary_phrase": "search data"
+  },
+  "export+export and clean business listing data": {
+    "responsibility_id": "RESP-LG-008",
+    "primary_phrase": "export data"
+  },
+  "export+export employee data from airscale": {
+    "responsibility_id": "RESP-LG-008",
+    "primary_phrase": "export data"
+  },
+  "export+export enriched contact list": {
+    "responsibility_id": "RESP-LG-009",
+    "primary_phrase": "export contacts"
+  },
+  "export+export final enriched contact list": {
+    "responsibility_id": "RESP-LG-009",
+    "primary_phrase": "export contacts"
+  },
+  "enrich+enrich leads with emails via anymailfinder": {
+    "responsibility_id": "RESP-LG-010",
+    "primary_phrase": "enrich leads"
+  },
+  "enrich+lead list": {
+    "responsibility_id": "RESP-LG-010",
+    "primary_phrase": "enrich leads"
+  },
+  "execute+email arbitrage": {
+    "responsibility_id": "RESP-LG-011",
+    "primary_phrase": "execute emails"
+  },
+  "execute+run email enrichment": {
+    "responsibility_id": "RESP-LG-011",
+    "primary_phrase": "execute emails"
+  },
+  "enrich+run nominative enrichment": {
+    "responsibility_id": "RESP-LG-012",
+    "primary_phrase": "enrich run nominative enrichment"
+  },
+  "enrich+run nominative enrichment for business owners/managers": {
+    "responsibility_id": "RESP-LG-012",
+    "primary_phrase": "enrich run nominative enrichment"
+  },
+  "enrich+company employees": {
+    "responsibility_id": "RESP-LG-013",
+    "primary_phrase": "enrich company employees"
+  },
+  "prepare+prepare target company list": {
+    "responsibility_id": "RESP-LG-014",
+    "primary_phrase": "prepare target company list"
+  },
+  "review+review employee count and preview data": {
+    "responsibility_id": "RESP-LG-015",
+    "primary_phrase": "review data"
+  },
+  "unlock+unlock employee list with airscale credit": {
+    "responsibility_id": "RESP-LG-016",
+    "primary_phrase": "unlock unlock employee list"
+  },
+  "upload+upload employees to anymailfinder for enrichment": {
+    "responsibility_id": "RESP-LG-017",
+    "primary_phrase": "upload employees"
+  },
+  "configure+configure nominative enrichment pattern": {
+    "responsibility_id": "RESP-LG-018",
+    "primary_phrase": "configure nominative enrichment pattern"
+  },
+  "execute+run nominative enrichment": {
+    "responsibility_id": "RESP-LG-019",
+    "primary_phrase": "execute run nominative enrichment"
+  },
+  "log+log results and success rate": {
+    "responsibility_id": "RESP-LG-020",
+    "primary_phrase": "log log results and success rate"
+  },
+  "configure+configure target roles for enrichment": {
+    "responsibility_id": "RESP-LG-021",
+    "primary_phrase": "configure target roles"
+  },
+  "build+custom scraper": {
+    "responsibility_id": "RESP-LG-022",
+    "primary_phrase": "build custom scraper"
+  },
+  "research+identify and research target niche platform": {
+    "responsibility_id": "RESP-LG-023",
+    "primary_phrase": "research identify and research target niche platform"
+  },
+  "analyze+analyze http requests using browser devtools": {
+    "responsibility_id": "RESP-LG-024",
+    "primary_phrase": "analyze analyze http requests using browser devtools"
+  },
+  "design+design n8n workflow architecture": {
+    "responsibility_id": "RESP-LG-025",
+    "primary_phrase": "design design n8n workflow architecture"
+  },
+  "build+build http request nodes in n8n": {
+    "responsibility_id": "RESP-LG-026",
+    "primary_phrase": "build http request nodes"
+  },
+  "test+test scraper on sample data": {
+    "responsibility_id": "RESP-LG-027",
+    "primary_phrase": "test data"
+  },
+  "execute+run full scrape on niche platform": {
+    "responsibility_id": "RESP-LG-028",
+    "primary_phrase": "execute run full scrape on niche platform"
+  },
+  "document+document scraper for future use": {
+    "responsibility_id": "RESP-LG-029",
+    "primary_phrase": "document document scraper"
+  },
+  "identify+identify target enterprise companies": {
+    "responsibility_id": "RESP-LG-030",
+    "primary_phrase": "identify identify target enterprise companies"
+  },
+  "unlock+spend 1 airscale credit to unlock employee list": {
+    "responsibility_id": "RESP-LG-031",
+    "primary_phrase": "unlock spend 1 airscale credit"
+  },
+  "export+export employee list from airscale": {
+    "responsibility_id": "RESP-LG-032",
+    "primary_phrase": "export employee list"
+  },
+  "upload+upload employee list to anymailfinder": {
+    "responsibility_id": "RESP-LG-033",
+    "primary_phrase": "upload employee list"
+  },
+  "enrich+run nominative enrichment on employees": {
+    "responsibility_id": "RESP-LG-034",
+    "primary_phrase": "enrich run nominative enrichment on employees"
+  },
+  "calculate+calculate and log roi": {
+    "responsibility_id": "RESP-LG-035",
+    "primary_phrase": "calculate calculate and log roi"
+  },
+  "scrape+local business leads": {
+    "responsibility_id": "RESP-LG-036",
+    "primary_phrase": "scrape leads"
+  },
+  "define+define target location and business category": {
+    "responsibility_id": "RESP-LG-037",
+    "primary_phrase": "define define target location and business category"
+  },
+  "configure+configure apify google maps scraper": {
+    "responsibility_id": "RESP-LG-038",
+    "primary_phrase": "configure apify google maps scraper"
+  },
+  "scrape+run apify maps scraper": {
+    "responsibility_id": "RESP-LG-039",
+    "primary_phrase": "scrape run apify maps scraper"
+  },
+  "generate+lead list": {
+    "responsibility_id": "RESP-LG-040",
+    "primary_phrase": "generate leads"
+  },
+  "define+define google search query": {
+    "responsibility_id": "RESP-LG-041",
+    "primary_phrase": "define define google search query"
+  },
+  "configure+configure apify google serp scraper": {
+    "responsibility_id": "RESP-LG-042",
+    "primary_phrase": "configure apify google serp scraper"
+  },
+  "scrape+run apify serp scraper": {
+    "responsibility_id": "RESP-LG-043",
+    "primary_phrase": "scrape run apify serp scraper"
+  },
+  "export+export and clean domain list": {
+    "responsibility_id": "RESP-LG-044",
+    "primary_phrase": "export domains"
+  },
+  "upload+upload to instantly.ai campaign": {
+    "responsibility_id": "RESP-LG-045",
+    "primary_phrase": "upload to instantly.ai campaign"
+  },
+  "configure+configure enrichment settings": {
+    "responsibility_id": "RESP-LG-046",
+    "primary_phrase": "configure enrichment settings"
+  },
+  "execute+run enrichment within instantly.ai": {
+    "responsibility_id": "RESP-LG-047",
+    "primary_phrase": "execute run enrichment within instantly.ai"
+  },
+  "review+review enriched contacts": {
+    "responsibility_id": "RESP-LG-048",
+    "primary_phrase": "review contacts"
+  },
+  "launch+launch email campaign (optional)": {
+    "responsibility_id": "RESP-LG-049",
+    "primary_phrase": "launch emails"
+  },
+  "scrape+linkedin job postings": {
+    "responsibility_id": "RESP-LG-050",
+    "primary_phrase": "scrape linkedin job postings"
+  },
+  "define+define job search criteria indicating intent": {
+    "responsibility_id": "RESP-LG-051",
+    "primary_phrase": "define define job search criteria indicating intent"
+  },
+  "configure+configure apify linkedin jobs scraper": {
+    "responsibility_id": "RESP-LG-052",
+    "primary_phrase": "configure apify linkedin jobs scraper"
+  },
+  "scrape+run apify jobs scraper": {
+    "responsibility_id": "RESP-LG-053",
+    "primary_phrase": "scrape run apify jobs scraper"
+  },
+  "extract+extract and deduplicate company list": {
+    "responsibility_id": "RESP-LG-054",
+    "primary_phrase": "extract extract and deduplicate company list"
+  },
+  "research+research company domains": {
+    "responsibility_id": "RESP-LG-055",
+    "primary_phrase": "research domains"
+  },
+  "upload+upload companies to anymailfinder for enrichment": {
+    "responsibility_id": "RESP-LG-056",
+    "primary_phrase": "upload companies"
+  },
+  "enrich+run targeted enrichment for decision-makers": {
+    "responsibility_id": "RESP-LG-057",
+    "primary_phrase": "enrich run targeted enrichment"
+  },
+  "export+export with job posting context": {
+    "responsibility_id": "RESP-LG-058",
+    "primary_phrase": "export with job posting context"
+  },
+  "extract+linkedin leads": {
+    "responsibility_id": "RESP-LG-059",
+    "primary_phrase": "extract leads"
+  },
+  "create+create targeted search in linkedin sales navigator": {
+    "responsibility_id": "RESP-LG-060",
+    "primary_phrase": "create targeted search"
+  },
+  "extract+extract li_at cookie from browser": {
+    "responsibility_id": "RESP-LG-061",
+    "primary_phrase": "extract extract li_at cookie"
+  },
+  "configure+configure vayne scraper with search url and cookie": {
+    "responsibility_id": "RESP-LG-062",
+    "primary_phrase": "configure vayne scraper"
+  },
+  "scrape+run vayne scraper to extract profiles": {
+    "responsibility_id": "RESP-LG-063",
+    "primary_phrase": "scrape profiles"
+  },
+  "import+import profiles to anymailfinder for enrichment": {
+    "responsibility_id": "RESP-LG-064",
+    "primary_phrase": "import profiles"
+  }
+}

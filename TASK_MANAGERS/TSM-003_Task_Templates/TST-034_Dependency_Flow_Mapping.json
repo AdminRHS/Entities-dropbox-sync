@@ -1,0 +1,23 @@
+{
+  "task_template_id": "Task-Template-034",
+  "task_template_name": "Dependency Flow Mapping",
+  "category": "Analysis",
+  "department": "AI",
+  "description": "Map dependency flows between entities and create relationship diagrams",
+  "estimated_hours": 0.5,
+  "step_templates": [
+    {
+      "step_template_id": "STEP-ANALYSIS-012-01",
+      "step_template_name": "Extract dependency chains"
+    },
+    {
+      "step_template_id": "STEP-ANALYSIS-012-02",
+      "step_template_name": "Create flow diagrams"
+    },
+    {
+      "step_template_id": "STEP-ANALYSIS-012-03",
+      "step_template_name": "Identify circular dependencies"
+    }
+  ],
+  "version": "1.0"
+}

@@ -1,0 +1,40 @@
+{
+  "Actions": "obfuscate",
+  "Processes": "obfuscating",
+  "Results": "obfuscated",
+  "Departments": "developers",
+  "Professions": "back end developer, ai engineer",
+  "category": "Data_Operations",
+  "source": "Video_006_Lead_Generation_Analysis",
+  "discovery_date": "2025-11-12",
+  "description": "Hide, mask, or obscure data for privacy, security, or compliance purposes",
+  "typical_use_cases": [
+    "Mask PII in logs",
+    "Obfuscate email addresses in documentation",
+    "Hide sensitive client data in test environments",
+    "Mask phone numbers for privacy",
+    "Anonymize user data for analysis"
+  ],
+  "common_objects": [
+    "Email Address",
+    "CRM Record",
+    "Lead List",
+    "Contact data"
+  ],
+  "common_tools": [
+    "Custom scripts",
+    "Data privacy tools",
+    "Security frameworks"
+  ],
+  "related_actions": [
+    "mask",
+    "anonymize",
+    "redact",
+    "encrypt"
+  ],
+  "workflows": [
+    "Export data → Obfuscate PII → Share for testing",
+    "Generate report → Obfuscate sensitive info → Distribute"
+  ],
+  "compliance_note": "Important for GDPR, CCPA, and other privacy regulations"
+}

@@ -1,0 +1,201 @@
+{
+  "entity_type": "TASK_MANAGERS",
+  "sub_entity": "Task_Template",
+  "template_id": "Task-Template-079",
+  "task_name": "Conduct Structured Candidate Interview and Evaluation",
+  "action": "Conduct",
+  "object": "Interview",
+  "context": "to evaluate candidates for open positions across departments using standardized interview process",
+  "description": "Comprehensive candidate interview process including pre-interview preparation, structured interview execution, skills evaluation, and post-interview documentation. Uses standardized interview checklist to ensure consistency across all departments (SMM, Design, Video Editor, Developer, etc.). Includes behavioral questions, technical assessments, culture fit evaluation, and detailed feedback documentation in Notion ATS system. Critical for maintaining hiring quality and building strong teams.",
+  "department": "Human Resources",
+  "profession": "HR Manager / Recruiter",
+  "estimated_duration": "2 hours (30 min prep + 60 min interview + 30 min documentation)",
+  "status": "Template",
+  "dependencies": [
+    "Job description and requirements document",
+    "Candidate resume and portfolio reviewed",
+    "Interview checklist created (TST-078 prerequisite)",
+    "Notion ATS database access",
+    "Video call platform access (Discord/Zoom)",
+    "Interview panel availability (if multi-interviewer)"
+  ],
+  "tools_required": [
+    "TOL-058 (Notion) for ATS and documentation",
+    "TOL-092 (Discord) for video interviews",
+    "TOL-045 (Google Sheets) for evaluation scoring",
+    "Email for communication",
+    "Calendar for scheduling"
+  ],
+  "success_criteria": [
+    "Interview completed within scheduled time (60 minutes)",
+    "All checklist questions asked and documented",
+    "Technical skills evaluated with specific examples",
+    "Behavioral competencies assessed (5+ scenarios)",
+    "Culture fit evaluation completed",
+    "Candidate questions answered thoroughly",
+    "Detailed feedback documented in Notion within 2 hours",
+    "Hiring decision recommendation provided (yes/no/maybe with rationale)"
+  ],
+  "steps": [
+    {
+      "step_number": 1,
+      "name": "Pre-interview preparation",
+      "duration": "30 minutes",
+      "outputs": [
+        "Candidate background reviewed (resume, portfolio, LinkedIn)",
+        "Interview questions prepared based on role requirements",
+        "Technical assessment materials ready (if applicable)",
+        "Interview checklist printed or accessible",
+        "Video call link tested and sent to candidate"
+      ]
+    },
+    {
+      "step_number": 2,
+      "name": "Introduction and rapport building",
+      "duration": "10 minutes",
+      "outputs": [
+        "Candidate welcomed and comfortable",
+        "Interview structure explained",
+        "Company and role overview provided",
+        "Candidate background confirmed"
+      ]
+    },
+    {
+      "step_number": 3,
+      "name": "Behavioral and competency questions",
+      "duration": "20 minutes",
+      "outputs": [
+        "5-7 behavioral questions asked (STAR method)",
+        "Problem-solving scenarios evaluated",
+        "Teamwork and communication assessed",
+        "Work style and preferences discussed",
+        "Notes documented for each response"
+      ]
+    },
+    {
+      "step_number": 4,
+      "name": "Technical skills evaluation",
+      "duration": "20 minutes",
+      "outputs": [
+        "Technical skills assessed (role-specific)",
+        "Portfolio/work samples reviewed and discussed",
+        "Tool proficiency evaluated (design, coding, video editing, etc.)",
+        "Problem-solving approach observed",
+        "Knowledge gaps identified"
+      ]
+    },
+    {
+      "step_number": 5,
+      "name": "Culture fit and motivation assessment",
+      "duration": "10 minutes",
+      "outputs": [
+        "Company values alignment evaluated",
+        "Career goals and motivations discussed",
+        "Remote work readiness assessed",
+        "Salary expectations confirmed",
+        "Availability and start date discussed"
+      ]
+    },
+    {
+      "step_number": 6,
+      "name": "Candidate questions and closing",
+      "duration": "10 minutes",
+      "outputs": [
+        "Candidate questions answered",
+        "Next steps explained",
+        "Timeline communicated",
+        "Thank you and follow-up commitment"
+      ]
+    },
+    {
+      "step_number": 7,
+      "name": "Post-interview documentation and evaluation",
+      "duration": "30 minutes",
+      "outputs": [
+        "Detailed interview notes in Notion",
+        "Evaluation scorecard completed (1-5 scale for each competency)",
+        "Strengths and concerns documented",
+        "Hiring recommendation provided (hire/no hire/maybe)",
+        "Next steps determined (second interview, technical test, offer, reject)"
+      ]
+    }
+  ],
+  "checklist": [
+    {
+      "item": "Pre-interview: Resume and portfolio reviewed",
+      "required": true
+    },
+    {
+      "item": "Pre-interview: Interview questions prepared",
+      "required": true
+    },
+    {
+      "item": "Interview: All behavioral questions asked and documented",
+      "required": true
+    },
+    {
+      "item": "Interview: Technical skills evaluated with examples",
+      "required": true
+    },
+    {
+      "item": "Interview: Culture fit assessed",
+      "required": true
+    },
+    {
+      "item": "Interview: Candidate questions addressed",
+      "required": true
+    },
+    {
+      "item": "Post-interview: Detailed notes entered in Notion ATS",
+      "required": true
+    },
+    {
+      "item": "Post-interview: Evaluation scorecard completed",
+      "required": true
+    },
+    {
+      "item": "Post-interview: Hiring recommendation provided with rationale",
+      "required": true
+    },
+    {
+      "item": "Post-interview: Next steps communicated to candidate within 24 hours",
+      "required": true
+    }
+  ],
+  "roi_metrics": {
+    "hiring_quality": "Structured process improves hire success rate by 40% vs unstructured interviews",
+    "time_efficiency": "Standardized checklist reduces interview time by 30 minutes while maintaining quality",
+    "consistency": "Ensures fair and consistent evaluation across all candidates and departments"
+  },
+  "related_tasks": [
+    "TST-078 (Prepare Client Interview Materials)",
+    "RESP-HRM-XXX (Create Interview Checklist)",
+    "RESP-HRM-XXX (Evaluate Candidate)",
+    "RESP-HRM-XXX (Send Contract)"
+  ],
+  "related_workflows": [
+    "Recruitment and Hiring Workflow",
+    "Candidate Evaluation Process"
+  ],
+  "related_projects": [
+    "Team Expansion Initiative Q4 2025",
+    "Department Hiring Plans"
+  ],
+  "tags": [
+    "recruitment",
+    "interview",
+    "hiring",
+    "hr",
+    "candidate-evaluation",
+    "structured-interview",
+    "ats",
+    "notion"
+  ],
+  "version": "1.0",
+  "created": "2025-11-21",
+  "last_updated": "2025-11-21",
+  "responsibility_id": "RESP-HRM-XXX",
+  "responsibility_name": "conduct interview, evaluate candidate, create interview checklist, send contract",
+  "_original_action": "Conduct",
+  "_original_object": "Interview"
+}

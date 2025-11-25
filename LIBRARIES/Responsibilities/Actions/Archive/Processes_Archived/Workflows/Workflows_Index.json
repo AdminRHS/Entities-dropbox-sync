@@ -1,0 +1,123 @@
+{
+  "entity_type": "LIBRARIES",
+  "sub_entity": "Workflows",
+  "description": "Comprehensive collection of workflows from Video_006 (Lead Generation) and Video_008 (AI/MCP Automation)",
+  "created": "2025-11-12",
+  "total_workflows": 20,
+  "workflow_files": [
+    {
+      "file": "Lead_Generation_Workflows.json",
+      "category": "Lead_Generation",
+      "workflow_count": 14,
+      "source": "Video_006",
+      "description": "14 lead generation workflows covering scraping, enrichment, and multi-source strategies"
+    },
+    {
+      "file": "AI_Automation_Workflows.json",
+      "category": "AI_Automation",
+      "workflow_count": 6,
+      "source": "Video_008",
+      "description": "6 MCP connector workflows for AI-powered automation"
+    }
+  ],
+  "workflow_summary": {
+    "by_category": {
+      "Lead_Generation": 14,
+      "AI_Automation": 6
+    },
+    "by_complexity": {
+      "Low": 5,
+      "Medium": 11,
+      "High": 2,
+      "Very_High": 2
+    },
+    "by_automation_potential": {
+      "Low_0_40": 1,
+      "Medium_40_60": 3,
+      "High_60_80": 6,
+      "Very_High_80_plus": 10
+    }
+  },
+  "top_workflows_by_metric": {
+    "highest_enrichment_rate": {
+      "workflows": ["WF-LG-003", "WF-LG-010"],
+      "rate": "80-100%",
+      "description": "LinkedIn Sales Navigator and LinkedIn Jobs scraping"
+    },
+    "fastest_execution": {
+      "workflows": ["WF-LG-001", "WF-LG-011", "WF-LG-012"],
+      "duration": "10-15 minutes",
+      "description": "Anymailfinder, Bright Data, Instantly.ai"
+    },
+    "best_roi": {
+      "workflows": ["WF-LG-004"],
+      "ratio": "1:40 credit-to-email",
+      "description": "Enterprise Email Arbitrage"
+    },
+    "highest_reply_rate": {
+      "workflows": ["WF-LG-013"],
+      "rate": "11.5% (vs 1-3% typical)",
+      "description": "Custom Niche Platform Scraping"
+    },
+    "greatest_time_savings": {
+      "workflows": ["WF-AI-005"],
+      "savings": "15+ hours per week",
+      "description": "Stacked Connector Post-Meeting Automation"
+    }
+  },
+  "use_cases": {
+    "lead_generation": {
+      "b2b_prospecting": ["WF-LG-001", "WF-LG-002", "WF-LG-003", "WF-LG-006"],
+      "local_business": ["WF-LG-007"],
+      "influencer_marketing": ["WF-LG-009"],
+      "intent_based_targeting": ["WF-LG-010"],
+      "high_volume": ["WF-LG-011", "WF-LG-012", "WF-LG-014"],
+      "niche_targeting": ["WF-LG-013"]
+    },
+    "ai_automation": {
+      "email_management": ["WF-AI-003", "WF-AI-004"],
+      "post_meeting_workflow": ["WF-AI-005"],
+      "connector_setup": ["WF-AI-001", "WF-AI-002", "WF-AI-006"]
+    }
+  },
+  "cost_analysis": {
+    "most_cost_effective": ["WF-LG-001", "WF-LG-004", "WF-LG-011", "WF-LG-012"],
+    "cost_range": {
+      "low_per_lead": "$0.0025 (Anymailfinder, Bright Data)",
+      "medium_per_lead": "$0.01-0.05 (Most workflows)",
+      "high_per_lead": "$0.10-0.15 (LinkedIn Sales Navigator full stack)"
+    }
+  },
+  "tools_coverage": {
+    "most_used_tools": [
+      "Anymailfinder (13 workflows)",
+      "Apify (7 workflows)",
+      "n8n (4 workflows)",
+      "Claude Desktop App (6 workflows)",
+      "Gmail MCP Connector (3 workflows)"
+    ],
+    "tool_categories": {
+      "data_tools": ["Anymailfinder", "Airscale", "Bright Data"],
+      "automation_tools": ["n8n", "Make.com", "Vayne"],
+      "scraping_tools": ["Apify", "Vayne", "Custom scrapers"],
+      "ai_tools": ["Claude", "Claude Desktop App", "MCP Builder", "OpenAI GPT-5"],
+      "integration_tools": ["Gmail MCP", "Calendar MCP", "CRM MCP"]
+    }
+  },
+  "departments_coverage": {
+    "LG": 13,
+    "Sales": 11,
+    "Dev": 8,
+    "AI": 6,
+    "Marketing": 6,
+    "OPS": 3,
+    "Executive": 2
+  },
+  "integration_notes": {
+    "task_managers_mapping": "These workflows can be converted to TASK_MANAGERS task templates in Phase 4",
+    "libraries_cross_reference": "Workflows reference 29 tools, 20 objects, and 12 DATA OPERATIONS actions created in Phases 2.1-2.3",
+    "skills_required": "Workflows require skills: Email_Enrichment, Web_Scraping, MCP_Configuration, Connector_Stacking (to be created in Phase 2.5)"
+  },
+  "version": "1.0",
+  "last_updated": "2025-11-12"
+}

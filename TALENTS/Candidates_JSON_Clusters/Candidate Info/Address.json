@@ -1,0 +1,54 @@
+{
+  "template_name": "Address",
+  "description": "Address information including city, country, and nested country details",
+  "fields": {
+    "address_id": {
+      "type": "str",
+      "description": "Field: address_id",
+      "example": "91599"
+    },
+    "address": {
+      "type": "object",
+      "fields": {
+        "address.id": {
+          "type": "int",
+          "description": "Field: id",
+          "example": 91599
+        },
+        "address.city_id": {
+          "type": "NoneType",
+          "description": "Field: city_id",
+          "example": null
+        },
+        "address.country_id": {
+          "type": "str",
+          "description": "Field: country_id",
+          "example": "276"
+        },
+        "address.city": {
+          "type": "NoneType",
+          "description": "Field: city",
+          "example": null
+        },
+        "address.country": {
+          "type": "object",
+          "fields": {
+            "address.country.id": {
+              "type": "int",
+              "description": "Field: id",
+              "example": 276
+            },
+            "address.country.name": {
+              "type": "str",
+              "description": "Field: name",
+              "example": "Ukraine"
+            }
+          },
+          "description": "Nested object: country"
+        }
+      },
+      "description": "Nested object: address"
+    }
+  }
+}
+

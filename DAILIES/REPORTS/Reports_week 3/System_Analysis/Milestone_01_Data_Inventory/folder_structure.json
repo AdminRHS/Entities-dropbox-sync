@@ -1,0 +1,782 @@
+{
+  ".": {
+    "files": 0,
+    "subdirs": 11
+  },
+  "ACCOUNTS": {
+    "files": 3,
+    "subdirs": 3
+  },
+  "ACCOUNTS\\Accounts": {
+    "files": 1,
+    "subdirs": 0
+  },
+  "ACCOUNTS\\JobSites": {
+    "files": 5,
+    "subdirs": 0
+  },
+  "ACCOUNTS\\Verifications": {
+    "files": 1,
+    "subdirs": 0
+  },
+  "ANALYTICS": {
+    "files": 2,
+    "subdirs": 4
+  },
+  "ANALYTICS\\Milestones": {
+    "files": 0,
+    "subdirs": 0
+  },
+  "ANALYTICS\\Projects": {
+    "files": 2,
+    "subdirs": 3
+  },
+  "ANALYTICS\\Projects\\PROJ-001_ENTITIES_Analysis": {
+    "files": 0,
+    "subdirs": 2
+  },
+  "ANALYTICS\\Projects\\PROJ-001_ENTITIES_Analysis\\Logs": {
+    "files": 0,
+    "subdirs": 0
+  },
+  "ANALYTICS\\Projects\\PROJ-001_ENTITIES_Analysis\\Milestones": {
+    "files": 0,
+    "subdirs": 0
+  },
+  "ANALYTICS\\Projects\\PROJ-AI-NMP-001_Next_Main_Prompt_Version": {
+    "files": 2,
+    "subdirs": 2
+  },
+  "ANALYTICS\\Projects\\PROJ-AI-NMP-001_Next_Main_Prompt_Version\\Logs": {
+    "files": 6,
+    "subdirs": 0
+  },
+  "ANALYTICS\\Projects\\PROJ-AI-NMP-001_Next_Main_Prompt_Version\\Milestones": {
+    "files": 8,
+    "subdirs": 0
+  },
+  "ANALYTICS\\Projects\\PROJ-OPS-001_ENTITIES_Ecosystem_Analysis": {
+    "files": 0,
+    "subdirs": 2
+  },
+  "ANALYTICS\\Projects\\PROJ-OPS-001_ENTITIES_Ecosystem_Analysis\\Logs": {
+    "files": 0,
+    "subdirs": 0
+  },
+  "ANALYTICS\\Projects\\PROJ-OPS-001_ENTITIES_Ecosystem_Analysis\\Milestones": {
+    "files": 0,
+    "subdirs": 0
+  },
+  "ANALYTICS\\Steps": {
+    "files": 1,
+    "subdirs": 0
+  },
+  "ANALYTICS\\Tasks": {
+    "files": 1,
+    "subdirs": 0
+  },
+  "ARCHIVE": {
+    "files": 2,
+    "subdirs": 4
+  },
+  "ARCHIVE\\Migration_History": {
+    "files": 0,
+    "subdirs": 4
+  },
+  "ARCHIVE\\Migration_History\\Documentation": {
+    "files": 4,
+    "subdirs": 0
+  },
+  "ARCHIVE\\Migration_History\\Reports": {
+    "files": 1,
+    "subdirs": 0
+  },
+  "ARCHIVE\\Migration_History\\Scripts": {
+    "files": 5,
+    "subdirs": 0
+  },
+  "ARCHIVE\\Migration_History\\Step_Templates": {
+    "files": 4,
+    "subdirs": 0
+  },
+  "ARCHIVE\\Prompts_Archive": {
+    "files": 0,
+    "subdirs": 1
+  },
+  "ARCHIVE\\Prompts_Archive\\Migration_Prompts": {
+    "files": 2,
+    "subdirs": 0
+  },
+  "ARCHIVE\\Redundant_Files": {
+    "files": 9,
+    "subdirs": 0
+  },
+  "ARCHIVE\\Scripts": {
+    "files": 1,
+    "subdirs": 4
+  },
+  "ARCHIVE\\Scripts\\Extraction": {
+    "files": 0,
+    "subdirs": 1
+  },
+  "ARCHIVE\\Scripts\\Extraction\\LIBRARIES": {
+    "files": 1,
+    "subdirs": 1
+  },
+  "ARCHIVE\\Scripts\\Extraction\\LIBRARIES\\Responsibilities": {
+    "files": 1,
+    "subdirs": 0
+  },
+  "ARCHIVE\\Scripts\\Generation": {
+    "files": 0,
+    "subdirs": 2
+  },
+  "ARCHIVE\\Scripts\\Generation\\LIBRARIES": {
+    "files": 0,
+    "subdirs": 2
+  },
+  "ARCHIVE\\Scripts\\Generation\\LIBRARIES\\Actions": {
+    "files": 1,
+    "subdirs": 0
+  },
+  "ARCHIVE\\Scripts\\Generation\\LIBRARIES\\Responsibilities": {
+    "files": 1,
+    "subdirs": 0
+  },
+  "ARCHIVE\\Scripts\\Generation\\TASK_MANAGERS": {
+    "files": 0,
+    "subdirs": 1
+  },
+  "ARCHIVE\\Scripts\\Generation\\TASK_MANAGERS\\Reports": {
+    "files": 0,
+    "subdirs": 1
+  },
+  "ARCHIVE\\Scripts\\Generation\\TASK_MANAGERS\\Reports\\Scripts": {
+    "files": 2,
+    "subdirs": 0
+  },
+  "ARCHIVE\\Scripts\\Migration": {
+    "files": 0,
+    "subdirs": 2
+  },
+  "ARCHIVE\\Scripts\\Migration\\LIBRARIES": {
+    "files": 0,
+    "subdirs": 1
+  },
+  "ARCHIVE\\Scripts\\Migration\\LIBRARIES\\Responsibilities": {
+    "files": 2,
+    "subdirs": 0
+  },
+  "ARCHIVE\\Scripts\\Migration\\TASK_MANAGERS": {
+    "files": 0,
+    "subdirs": 1
+  },
+  "ARCHIVE\\Scripts\\Migration\\TASK_MANAGERS\\Reports": {
+    "files": 0,
+    "subdirs": 1
+  },
+  "ARCHIVE\\Scripts\\Migration\\TASK_MANAGERS\\Reports\\Scripts": {
+    "files": 1,
+    "subdirs": 0
+  },
+  "ARCHIVE\\Scripts\\Processing": {
+    "files": 0,
+    "subdirs": 2
+  },
+  "ARCHIVE\\Scripts\\Processing\\LIBRARIES": {
+    "files": 0,
+    "subdirs": 2
+  },
+  "ARCHIVE\\Scripts\\Processing\\LIBRARIES\\Parameters": {
+    "files": 1,
+    "subdirs": 0
+  },
+  "ARCHIVE\\Scripts\\Processing\\LIBRARIES\\Responsibilities": {
+    "files": 1,
+    "subdirs": 0
+  },
+  "ARCHIVE\\Scripts\\Processing\\TALENTS": {
+    "files": 0,
+    "subdirs": 1
+  },
+  "ARCHIVE\\Scripts\\Processing\\TALENTS\\Candidates_JSON_Clusters": {
+    "files": 0,
+    "subdirs": 1
+  },
+  "ARCHIVE\\Scripts\\Processing\\TALENTS\\Candidates_JSON_Clusters\\scripts": {
+    "files": 1,
+    "subdirs": 0
+  },
+  "ASSETS": {
+    "files": 0,
+    "subdirs": 1
+  },
+  "ASSETS\\oa-y": {
+    "files": 8,
+    "subdirs": 4
+  },
+  "ASSETS\\oa-y\\Courses": {
+    "files": 31,
+    "subdirs": 0
+  },
+  "ASSETS\\oa-y\\Lessons": {
+    "files": 2,
+    "subdirs": 0
+  },
+  "ASSETS\\oa-y\\Modules": {
+    "files": 1,
+    "subdirs": 0
+  },
+  "ASSETS\\oa-y\\Tests": {
+    "files": 1,
+    "subdirs": 0
+  },
+  "BUSINESSES": {
+    "files": 1,
+    "subdirs": 6
+  },
+  "BUSINESSES\\CLIENTS": {
+    "files": 0,
+    "subdirs": 0
+  },
+  "BUSINESSES\\Companies": {
+    "files": 0,
+    "subdirs": 0
+  },
+  "BUSINESSES\\Leads": {
+    "files": 0,
+    "subdirs": 0
+  },
+  "BUSINESSES\\Products": {
+    "files": 6,
+    "subdirs": 0
+  },
+  "BUSINESSES\\Prospects": {
+    "files": 0,
+    "subdirs": 0
+  },
+  "BUSINESSES\\Services": {
+    "files": 8,
+    "subdirs": 0
+  },
+  "DEPARTMENTS": {
+    "files": 0,
+    "subdirs": 1
+  },
+  "DEPARTMENTS\\REPORTS": {
+    "files": 0,
+    "subdirs": 1
+  },
+  "DEPARTMENTS\\REPORTS\\System_Analysis": {
+    "files": 1,
+    "subdirs": 5
+  },
+  "DEPARTMENTS\\REPORTS\\System_Analysis\\Milestone_01_Data_Inventory": {
+    "files": 3,
+    "subdirs": 0
+  },
+  "DEPARTMENTS\\REPORTS\\System_Analysis\\Milestone_02_Schema_Naming": {
+    "files": 0,
+    "subdirs": 0
+  },
+  "DEPARTMENTS\\REPORTS\\System_Analysis\\Milestone_03_Content_Analysis": {
+    "files": 0,
+    "subdirs": 0
+  },
+  "DEPARTMENTS\\REPORTS\\System_Analysis\\Milestone_04_Relationship_Validation": {
+    "files": 0,
+    "subdirs": 0
+  },
+  "DEPARTMENTS\\REPORTS\\System_Analysis\\Milestone_05_Synthesis": {
+    "files": 0,
+    "subdirs": 0
+  },
+  "JOBS": {
+    "files": 2,
+    "subdirs": 0
+  },
+  "LIBRARIES": {
+    "files": 9,
+    "subdirs": 4
+  },
+  "LIBRARIES\\DEPARTMENTS": {
+    "files": 5,
+    "subdirs": 4
+  },
+  "LIBRARIES\\DEPARTMENTS\\Archive": {
+    "files": 1,
+    "subdirs": 1
+  },
+  "LIBRARIES\\DEPARTMENTS\\Archive\\Prompts_Archive": {
+    "files": 2,
+    "subdirs": 3
+  },
+  "LIBRARIES\\DEPARTMENTS\\Archive\\Prompts_Archive\\Integration_Plans": {
+    "files": 3,
+    "subdirs": 0
+  },
+  "LIBRARIES\\DEPARTMENTS\\Archive\\Prompts_Archive\\Legacy": {
+    "files": 0,
+    "subdirs": 1
+  },
+  "LIBRARIES\\DEPARTMENTS\\Archive\\Prompts_Archive\\Legacy\\Prompts_to_run": {
+    "files": 0,
+    "subdirs": 0
+  },
+  "LIBRARIES\\DEPARTMENTS\\Archive\\Prompts_Archive\\Session_Logs": {
+    "files": 2,
+    "subdirs": 0
+  },
+  "LIBRARIES\\DEPARTMENTS\\By_Department": {
+    "files": 0,
+    "subdirs": 1
+  },
+  "LIBRARIES\\DEPARTMENTS\\By_Department\\SMM": {
+    "files": 2,
+    "subdirs": 0
+  },
+  "LIBRARIES\\DEPARTMENTS\\REPORTS": {
+    "files": 0,
+    "subdirs": 1
+  },
+  "LIBRARIES\\DEPARTMENTS\\REPORTS\\System_Analysis": {
+    "files": 0,
+    "subdirs": 0
+  },
+  "LIBRARIES\\DEPARTMENTS\\RESEARCHES": {
+    "files": 10,
+    "subdirs": 4
+  },
+  "LIBRARIES\\DEPARTMENTS\\RESEARCHES\\Influencer_Tracking": {
+    "files": 3,
+    "subdirs": 0
+  },
+  "LIBRARIES\\DEPARTMENTS\\RESEARCHES\\SMM": {
+    "files": 11,
+    "subdirs": 0
+  },
+  "LIBRARIES\\DEPARTMENTS\\RESEARCHES\\ToDo": {
+    "files": 4,
+    "subdirs": 0
+  },
+  "LIBRARIES\\DEPARTMENTS\\RESEARCHES\\Videos": {
+    "files": 13,
+    "subdirs": 1
+  },
+  "LIBRARIES\\DEPARTMENTS\\RESEARCHES\\Videos\\Reports": {
+    "files": 7,
+    "subdirs": 0
+  },
+  "LIBRARIES\\Professions": {
+    "files": 18,
+    "subdirs": 0
+  },
+  "LIBRARIES\\Responsibilities": {
+    "files": 16,
+    "subdirs": 4
+  },
+  "LIBRARIES\\Responsibilities\\Actions": {
+    "files": 6,
+    "subdirs": 2
+  },
+  "LIBRARIES\\Responsibilities\\Actions\\Archive": {
+    "files": 0,
+    "subdirs": 2
+  },
+  "LIBRARIES\\Responsibilities\\Actions\\Archive\\Processes_Archived": {
+    "files": 3,
+    "subdirs": 1
+  },
+  "LIBRARIES\\Responsibilities\\Actions\\Archive\\Processes_Archived\\Workflows": {
+    "files": 6,
+    "subdirs": 0
+  },
+  "LIBRARIES\\Responsibilities\\Actions\\Archive\\Results_Archived": {
+    "files": 2,
+    "subdirs": 0
+  },
+  "LIBRARIES\\Responsibilities\\Actions\\Data_Operations": {
+    "files": 13,
+    "subdirs": 0
+  },
+  "LIBRARIES\\Responsibilities\\Core": {
+    "files": 4,
+    "subdirs": 1
+  },
+  "LIBRARIES\\Responsibilities\\Core\\By_Department": {
+    "files": 4,
+    "subdirs": 0
+  },
+  "LIBRARIES\\Responsibilities\\Objects": {
+    "files": 14,
+    "subdirs": 0
+  },
+  "LIBRARIES\\Responsibilities\\Parameters": {
+    "files": 1,
+    "subdirs": 2
+  },
+  "LIBRARIES\\Responsibilities\\Parameters\\organized_by_department": {
+    "files": 6,
+    "subdirs": 0
+  },
+  "LIBRARIES\\Responsibilities\\Parameters\\organized_by_profession": {
+    "files": 11,
+    "subdirs": 0
+  },
+  "LIBRARIES\\Tools": {
+    "files": 28,
+    "subdirs": 16
+  },
+  "LIBRARIES\\Tools\\AI_Tools": {
+    "files": 72,
+    "subdirs": 1
+  },
+  "LIBRARIES\\Tools\\AI_Tools\\Video Generation": {
+    "files": 16,
+    "subdirs": 0
+  },
+  "LIBRARIES\\Tools\\Authentication_Tools": {
+    "files": 1,
+    "subdirs": 0
+  },
+  "LIBRARIES\\Tools\\Automation_Tools": {
+    "files": 6,
+    "subdirs": 0
+  },
+  "LIBRARIES\\Tools\\Business_Tools": {
+    "files": 4,
+    "subdirs": 0
+  },
+  "LIBRARIES\\Tools\\Cloud_Platforms": {
+    "files": 5,
+    "subdirs": 0
+  },
+  "LIBRARIES\\Tools\\Databases": {
+    "files": 7,
+    "subdirs": 0
+  },
+  "LIBRARIES\\Tools\\Data_Tools": {
+    "files": 3,
+    "subdirs": 0
+  },
+  "LIBRARIES\\Tools\\Developer_Platforms": {
+    "files": 1,
+    "subdirs": 0
+  },
+  "LIBRARIES\\Tools\\Development_Tools": {
+    "files": 22,
+    "subdirs": 0
+  },
+  "LIBRARIES\\Tools\\File_Management": {
+    "files": 1,
+    "subdirs": 0
+  },
+  "LIBRARIES\\Tools\\Infrastructure_Tools": {
+    "files": 1,
+    "subdirs": 0
+  },
+  "LIBRARIES\\Tools\\Integration_Tools": {
+    "files": 3,
+    "subdirs": 0
+  },
+  "LIBRARIES\\Tools\\Payment_Tools": {
+    "files": 1,
+    "subdirs": 0
+  },
+  "LIBRARIES\\Tools\\Publishing_Platforms": {
+    "files": 1,
+    "subdirs": 0
+  },
+  "LIBRARIES\\Tools\\Social_Media_Platforms": {
+    "files": 6,
+    "subdirs": 0
+  },
+  "LIBRARIES\\Tools\\Web_Tools": {
+    "files": 3,
+    "subdirs": 0
+  },
+  "SETTINGS": {
+    "files": 1,
+    "subdirs": 0
+  },
+  "TALENTS": {
+    "files": 1,
+    "subdirs": 5
+  },
+  "TALENTS\\Candidates_JSON_Clusters": {
+    "files": 5,
+    "subdirs": 2
+  },
+  "TALENTS\\Candidates_JSON_Clusters\\Candidate Info": {
+    "files": 22,
+    "subdirs": 0
+  },
+  "TALENTS\\Candidates_JSON_Clusters\\scripts": {
+    "files": 0,
+    "subdirs": 0
+  },
+  "TALENTS\\Employees": {
+    "files": 4,
+    "subdirs": 1
+  },
+  "TALENTS\\Employees\\units": {
+    "files": 15,
+    "subdirs": 0
+  },
+  "TALENTS\\JobApplications": {
+    "files": 0,
+    "subdirs": 0
+  },
+  "TALENTS\\Skills": {
+    "files": 1,
+    "subdirs": 8
+  },
+  "TALENTS\\Skills\\Archive": {
+    "files": 0,
+    "subdirs": 0
+  },
+  "TALENTS\\Skills\\By_Department": {
+    "files": 6,
+    "subdirs": 0
+  },
+  "TALENTS\\Skills\\By_Difficulty": {
+    "files": 3,
+    "subdirs": 0
+  },
+  "TALENTS\\Skills\\By_Profession": {
+    "files": 13,
+    "subdirs": 0
+  },
+  "TALENTS\\Skills\\By_Tool": {
+    "files": 0,
+    "subdirs": 0
+  },
+  "TALENTS\\Skills\\Mappings": {
+    "files": 2,
+    "subdirs": 0
+  },
+  "TALENTS\\Skills\\Master": {
+    "files": 3,
+    "subdirs": 0
+  },
+  "TALENTS\\Skills\\Templates": {
+    "files": 3,
+    "subdirs": 0
+  },
+  "TALENTS\\Templates": {
+    "files": 1,
+    "subdirs": 0
+  },
+  "TASK_MANAGERS": {
+    "files": 8,
+    "subdirs": 8
+  },
+  "TASK_MANAGERS\\GUIDES": {
+    "files": 3,
+    "subdirs": 2
+  },
+  "TASK_MANAGERS\\GUIDES\\Communication_Templates": {
+    "files": 2,
+    "subdirs": 0
+  },
+  "TASK_MANAGERS\\GUIDES\\Framework_Documentation": {
+    "files": 5,
+    "subdirs": 0
+  },
+  "TASK_MANAGERS\\Milestone_Templates": {
+    "files": 6,
+    "subdirs": 0
+  },
+  "TASK_MANAGERS\\Project_Templates": {
+    "files": 9,
+    "subdirs": 0
+  },
+  "TASK_MANAGERS\\PROMPTS": {
+    "files": 10,
+    "subdirs": 10
+  },
+  "TASK_MANAGERS\\PROMPTS\\Automation": {
+    "files": 4,
+    "subdirs": 0
+  },
+  "TASK_MANAGERS\\PROMPTS\\Communication": {
+    "files": 1,
+    "subdirs": 0
+  },
+  "TASK_MANAGERS\\PROMPTS\\Core": {
+    "files": 6,
+    "subdirs": 2
+  },
+  "TASK_MANAGERS\\PROMPTS\\Core\\MAIN_PROMPT_v4_Modular": {
+    "files": 12,
+    "subdirs": 0
+  },
+  "TASK_MANAGERS\\PROMPTS\\Core\\MAIN_PROMPT_v5_Modular": {
+    "files": 3,
+    "subdirs": 6
+  },
+  "TASK_MANAGERS\\PROMPTS\\Core\\MAIN_PROMPT_v5_Modular\\00_Core": {
+    "files": 6,
+    "subdirs": 0
+  },
+  "TASK_MANAGERS\\PROMPTS\\Core\\MAIN_PROMPT_v5_Modular\\01_Library_Integration": {
+    "files": 11,
+    "subdirs": 0
+  },
+  "TASK_MANAGERS\\PROMPTS\\Core\\MAIN_PROMPT_v5_Modular\\02_Output_Templates": {
+    "files": 22,
+    "subdirs": 0
+  },
+  "TASK_MANAGERS\\PROMPTS\\Core\\MAIN_PROMPT_v5_Modular\\03_Processing_Rules": {
+    "files": 1,
+    "subdirs": 0
+  },
+  "TASK_MANAGERS\\PROMPTS\\Core\\MAIN_PROMPT_v5_Modular\\04_Usage": {
+    "files": 1,
+    "subdirs": 0
+  },
+  "TASK_MANAGERS\\PROMPTS\\Core\\MAIN_PROMPT_v5_Modular\\scripts": {
+    "files": 1,
+    "subdirs": 0
+  },
+  "TASK_MANAGERS\\PROMPTS\\Daily_Reports": {
+    "files": 2,
+    "subdirs": 2
+  },
+  "TASK_MANAGERS\\PROMPTS\\Daily_Reports\\Constructor": {
+    "files": 7,
+    "subdirs": 1
+  },
+  "TASK_MANAGERS\\PROMPTS\\Daily_Reports\\Constructor\\docs": {
+    "files": 7,
+    "subdirs": 0
+  },
+  "TASK_MANAGERS\\PROMPTS\\Daily_Reports\\Department_Prompts": {
+    "files": 11,
+    "subdirs": 0
+  },
+  "TASK_MANAGERS\\PROMPTS\\HR_Operations": {
+    "files": 6,
+    "subdirs": 0
+  },
+  "TASK_MANAGERS\\PROMPTS\\Library_Processing": {
+    "files": 4,
+    "subdirs": 0
+  },
+  "TASK_MANAGERS\\PROMPTS\\Operational_Workflows": {
+    "files": 2,
+    "subdirs": 1
+  },
+  "TASK_MANAGERS\\PROMPTS\\Operational_Workflows\\Archive": {
+    "files": 2,
+    "subdirs": 0
+  },
+  "TASK_MANAGERS\\PROMPTS\\Research": {
+    "files": 8,
+    "subdirs": 1
+  },
+  "TASK_MANAGERS\\PROMPTS\\Research\\Reports": {
+    "files": 6,
+    "subdirs": 0
+  },
+  "TASK_MANAGERS\\PROMPTS\\System_Analysis": {
+    "files": 7,
+    "subdirs": 0
+  },
+  "TASK_MANAGERS\\PROMPTS\\Video_Processing": {
+    "files": 2,
+    "subdirs": 3
+  },
+  "TASK_MANAGERS\\PROMPTS\\Video_Processing\\Analysis": {
+    "files": 3,
+    "subdirs": 0
+  },
+  "TASK_MANAGERS\\PROMPTS\\Video_Processing\\Taxonomy_Integration": {
+    "files": 1,
+    "subdirs": 0
+  },
+  "TASK_MANAGERS\\PROMPTS\\Video_Processing\\Transcription": {
+    "files": 3,
+    "subdirs": 0
+  },
+  "TASK_MANAGERS\\Reports": {
+    "files": 3,
+    "subdirs": 3
+  },
+  "TASK_MANAGERS\\Reports\\Extractions": {
+    "files": 12,
+    "subdirs": 0
+  },
+  "TASK_MANAGERS\\Reports\\Scripts": {
+    "files": 0,
+    "subdirs": 0
+  },
+  "TASK_MANAGERS\\Reports\\Summaries": {
+    "files": 3,
+    "subdirs": 0
+  },
+  "TASK_MANAGERS\\Step_Templates": {
+    "files": 9,
+    "subdirs": 11
+  },
+  "TASK_MANAGERS\\Step_Templates\\ADMIN": {
+    "files": 11,
+    "subdirs": 0
+  },
+  "TASK_MANAGERS\\Step_Templates\\AI": {
+    "files": 75,
+    "subdirs": 0
+  },
+  "TASK_MANAGERS\\Step_Templates\\AI (CREATION)": {
+    "files": 0,
+    "subdirs": 0
+  },
+  "TASK_MANAGERS\\Step_Templates\\DESIGN": {
+    "files": 62,
+    "subdirs": 0
+  },
+  "TASK_MANAGERS\\Step_Templates\\DEV": {
+    "files": 34,
+    "subdirs": 0
+  },
+  "TASK_MANAGERS\\Step_Templates\\HR": {
+    "files": 37,
+    "subdirs": 0
+  },
+  "TASK_MANAGERS\\Step_Templates\\LG": {
+    "files": 22,
+    "subdirs": 0
+  },
+  "TASK_MANAGERS\\Step_Templates\\OPS": {
+    "files": 44,
+    "subdirs": 0
+  },
+  "TASK_MANAGERS\\Step_Templates\\SALES": {
+    "files": 28,
+    "subdirs": 0
+  },
+  "TASK_MANAGERS\\Step_Templates\\USERS": {
+    "files": 0,
+    "subdirs": 0
+  },
+  "TASK_MANAGERS\\Step_Templates\\VIDEO": {
+    "files": 74,
+    "subdirs": 0
+  },
+  "TASK_MANAGERS\\Task_Templates": {
+    "files": 52,
+    "subdirs": 2
+  },
+  "TASK_MANAGERS\\Task_Templates\\USERS": {
+    "files": 0,
+    "subdirs": 0
+  },
+  "TASK_MANAGERS\\Task_Templates\\VIDEO": {
+    "files": 5,
+    "subdirs": 0
+  },
+  "TASK_MANAGERS\\Workflows": {
+    "files": 20,
+    "subdirs": 0
+  }
+}

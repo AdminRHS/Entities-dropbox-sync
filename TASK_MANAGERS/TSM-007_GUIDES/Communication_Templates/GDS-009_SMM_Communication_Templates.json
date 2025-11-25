@@ -1,0 +1,514 @@
+{
+  "entity_type": "TASK_MANAGERS",
+  "sub_entity": "Communication_Template",
+  "category": "SMM_Communication_Templates",
+  "description": "Reusable social media content templates for posts, captions, threads, and platform-specific communications across Instagram, Twitter, LinkedIn, and other platforms",
+  "created": "2025-11-13",
+  "updated": "2025-11-13",
+  "total_templates": 15,
+  "templates": [
+    {
+      "template_id": "TMPL-SMM-001",
+      "template_type": "Instagram Carousel Caption",
+      "full_name": "Instagram Educational Carousel Caption Template",
+      "channel": "Instagram",
+      "purpose": "Caption for educational carousel posts with clear value proposition and call to action",
+      "tone": "Educational, Engaging, Approachable",
+      "template_text": "[Hook that captures attention] 🎯\n\n[Brief introduction to the problem or topic]\n\nHere's what you'll learn in this carousel:\n• [Key point 1]\n• [Key point 2]\n• [Key point 3]\n\n👉 Swipe through to get the full breakdown!\n\n[Call to action - save, share, or comment]\n\n---\n[3-5 relevant hashtags]",
+      "variables": [
+        "[Hook]",
+        "[Problem/Topic]",
+        "[Key points]",
+        "[CTA]",
+        "[Hashtags]"
+      ],
+      "context": "Educational carousel posts on Instagram",
+      "used_in_workflows": [
+        "WF-SMM-003"
+      ],
+      "workflow_context": {
+        "WF-SMM-003": "Step 1 - Create educational carousels"
+      },
+      "character_count": "Keep under 2200 characters",
+      "best_practices": [
+        "Start with attention-grabbing hook",
+        "Use bullet points for scannability",
+        "Include clear CTA to save (5x algorithm weight)",
+        "Use 3-5 niche-specific hashtags, not 30",
+        "Add emoji for visual breaks"
+      ]
+    },
+    {
+      "template_id": "TMPL-SMM-002",
+      "template_type": "Instagram Reel Caption",
+      "full_name": "Instagram Process Reel Caption Template",
+      "channel": "Instagram Reels",
+      "purpose": "Caption for behind-the-scenes process reels showing design/creative work",
+      "tone": "Casual, Authentic, Inspiring",
+      "template_text": "[Quick description of what you're showing] ✨\n\n[One key insight or lesson from the process]\n\n[Optional: Tool or technique used]\n\nWho else [relates to the process]? Drop a [emoji] if you've been there!\n\n[Hashtags - 3-5 relevant to niche]",
+      "variables": [
+        "[Description]",
+        "[Key insight]",
+        "[Tool/technique]",
+        "[Relation question]",
+        "[Hashtags]"
+      ],
+      "context": "Process and behind-the-scenes Reels",
+      "used_in_workflows": [
+        "WF-SMM-003"
+      ],
+      "workflow_context": {
+        "WF-SMM-003": "Step 2 - Produce process reels"
+      },
+      "best_practices": [
+        "Keep caption concise (Reels are visual-first)",
+        "Ask engaging question to drive comments",
+        "Mention tools for discoverability",
+        "Use trending audio for algorithm boost",
+        "Caption should work without sound"
+      ]
+    },
+    {
+      "template_id": "TMPL-SMM-003",
+      "template_type": "Twitter Thread Opener",
+      "full_name": "Twitter Educational Thread Opening Tweet",
+      "channel": "Twitter/X",
+      "purpose": "Strong opening tweet for educational threads with clear value proposition",
+      "tone": "Direct, Valuable, Engaging",
+      "template_text": "[Bold statement or intriguing question]\n\n[Brief setup of problem or opportunity]\n\nHere's [number] things I learned about [topic] that [benefit]:\n\n(A thread 🧵 1/[total])",
+      "variables": [
+        "[Statement/Question]",
+        "[Problem/Opportunity]",
+        "[Number]",
+        "[Topic]",
+        "[Benefit]",
+        "[Total thread length]"
+      ],
+      "context": "Opening tweet of educational threads",
+      "used_in_workflows": [
+        "WF-SMM-011"
+      ],
+      "workflow_context": {
+        "WF-SMM-011": "Step 1 - Post educational threads"
+      },
+      "character_limit": "280 characters",
+      "best_practices": [
+        "Hook in first line",
+        "Number threads clearly (1/7, 2/7)",
+        "Promise specific value",
+        "Use thread emoji 🧵 for recognition",
+        "Keep under 280 characters"
+      ]
+    },
+    {
+      "template_id": "TMPL-SMM-004",
+      "template_type": "Twitter Quick Tip",
+      "full_name": "Twitter Standalone Quick Tip Tweet",
+      "channel": "Twitter/X",
+      "purpose": "Single-tweet actionable advice or insight",
+      "tone": "Concise, Actionable, Valuable",
+      "template_text": "[Topic] tip:\n\n[Actionable advice in 1-2 sentences]\n\n[Optional: Why it matters]\n\n[1-3 relevant hashtags]",
+      "variables": [
+        "[Topic]",
+        "[Actionable advice]",
+        "[Why it matters]",
+        "[Hashtags]"
+      ],
+      "context": "Daily quick tips and standalone tweets",
+      "used_in_workflows": [
+        "WF-SMM-011"
+      ],
+      "workflow_context": {
+        "WF-SMM-011": "Step 2 - Share quick tips"
+      },
+      "character_limit": "280 characters",
+      "best_practices": [
+        "Be immediately actionable",
+        "Front-load value",
+        "Use 1-3 hashtags max",
+        "Add image/video for 2-3x engagement"
+      ]
+    },
+    {
+      "template_id": "TMPL-SMM-005",
+      "template_type": "LinkedIn Thought Leadership Post",
+      "full_name": "LinkedIn Thought Leadership Text Post",
+      "channel": "LinkedIn",
+      "purpose": "Professional thought leadership post with data or insights",
+      "tone": "Professional, Insightful, Authoritative",
+      "template_text": "[Attention-grabbing statement or stat]\n\n[Context and why it matters]\n\n[Personal insight or experience]\n\n[Key takeaway or lesson]\n\n[Optional: Call to action or question]\n\n---\n[3-5 relevant hashtags]",
+      "variables": [
+        "[Statement/Stat]",
+        "[Context]",
+        "[Personal insight]",
+        "[Key takeaway]",
+        "[CTA/Question]",
+        "[Hashtags]"
+      ],
+      "context": "Daily LinkedIn posts for thought leadership",
+      "used_in_workflows": [
+        "WF-SMM-008"
+      ],
+      "workflow_context": {
+        "WF-SMM-008": "Step 1 - Publish thought leadership"
+      },
+      "optimal_length": "150-300 characters for algorithm favor",
+      "best_practices": [
+        "Lead with ROI or results for B2B credibility",
+        "Share personal experience",
+        "Use line breaks for readability",
+        "3-5 hashtags, not excessive",
+        "Post Tuesday-Thursday 8-10am or 5-6pm EST"
+      ]
+    },
+    {
+      "template_id": "TMPL-SMM-006",
+      "template_type": "LinkedIn Article Introduction",
+      "full_name": "LinkedIn Long-Form Article Opening",
+      "channel": "LinkedIn Articles",
+      "purpose": "Opening section for long-form LinkedIn articles",
+      "tone": "Professional, Comprehensive, Authoritative",
+      "template_text": "# [Compelling Title]\n\n[Hook paragraph - problem, stat, or bold statement]\n\n[Why this matters now]\n\n**In this article, you'll learn:**\n• [Key learning 1]\n• [Key learning 2]\n• [Key learning 3]\n\n[Brief personal credibility statement]\n\nLet's dive in.\n\n---",
+      "variables": [
+        "[Title]",
+        "[Hook]",
+        "[Why it matters]",
+        "[Key learnings]",
+        "[Credibility statement]"
+      ],
+      "context": "Weekly long-form LinkedIn articles",
+      "used_in_workflows": [
+        "WF-SMM-008"
+      ],
+      "workflow_context": {
+        "WF-SMM-008": "Step 1 - Publish thought leadership (weekly articles)"
+      },
+      "article_length": "1000+ words recommended",
+      "best_practices": [
+        "Strong headline with keywords",
+        "Hook in first paragraph",
+        "Clear value proposition upfront",
+        "Use formatting (bold, bullets) for scannability",
+        "Establish credibility early"
+      ]
+    },
+    {
+      "template_id": "TMPL-SMM-007",
+      "template_type": "YouTube Video Description",
+      "full_name": "YouTube Tutorial Video Description Template",
+      "channel": "YouTube",
+      "purpose": "SEO-optimized video description with timestamps and resources",
+      "tone": "Informative, Helpful, SEO-focused",
+      "template_text": "[Keyword-rich opening paragraph summarizing video value]\n\n🔗 Resources mentioned:\n• [Resource 1 with link]\n• [Resource 2 with link]\n\n⏱️ Timestamps:\n0:00 - Intro\n[XX:XX] - [Section 1]\n[XX:XX] - [Section 2]\n[XX:XX] - [Section 3]\n[XX:XX] - Recap\n\n---\n\n[Extended description with keywords naturally integrated]\n\n📧 [CTA - newsletter, course, etc.]\n\n---\n\n[Relevant video tags/keywords for reference]",
+      "variables": [
+        "[Opening paragraph]",
+        "[Resources]",
+        "[Timestamps]",
+        "[Extended description]",
+        "[CTA]",
+        "[Tags]"
+      ],
+      "context": "YouTube tutorial video uploads",
+      "used_in_workflows": [
+        "WF-SMM-006"
+      ],
+      "workflow_context": {
+        "WF-SMM-006": "Step 5 - Optimize SEO"
+      },
+      "description_length": "200+ words with timestamps",
+      "best_practices": [
+        "Front-load keywords in first paragraph",
+        "Add detailed timestamps for viewer navigation",
+        "Link to relevant resources",
+        "Include clear CTA",
+        "Update with pinned comment link if needed"
+      ]
+    },
+    {
+      "template_id": "TMPL-SMM-008",
+      "template_type": "Short-Form Video Caption",
+      "full_name": "TikTok/Reels/Shorts Caption Template",
+      "channel": "TikTok, Instagram Reels, YouTube Shorts",
+      "purpose": "Concise caption for short-form vertical video with hook",
+      "tone": "Casual, Direct, Engaging",
+      "template_text": "[Hook - question or bold statement]\n\n[1-2 line description of value]\n\n[CTA - like, save, follow, or comment]\n\n[3-5 hashtags]",
+      "variables": [
+        "[Hook]",
+        "[Description]",
+        "[CTA]",
+        "[Hashtags]"
+      ],
+      "context": "Daily short-form vertical video posts",
+      "used_in_workflows": [
+        "WF-SMM-007"
+      ],
+      "workflow_context": {
+        "WF-SMM-007": "Step 4 - Post to all platforms"
+      },
+      "platform_notes": {
+        "tiktok": "Trending hashtags + niche hashtags",
+        "instagram": "3-5 niche hashtags (not 30)",
+        "youtube_shorts": "SEO-focused title, fewer hashtags"
+      },
+      "best_practices": [
+        "Keep very concise (video is main content)",
+        "Ask engaging question to drive comments",
+        "Use trending sounds/audio for algorithm",
+        "Hook in first 3 seconds of video",
+        "Always include captions/text overlays"
+      ]
+    },
+    {
+      "template_id": "TMPL-SMM-009",
+      "template_type": "Behance Project Description",
+      "full_name": "Behance Project Case Study Description",
+      "channel": "Behance",
+      "purpose": "Comprehensive project description following problem-solution narrative",
+      "tone": "Professional, Story-driven, Detailed",
+      "template_text": "## Project Overview\n[Brief description of project and client/context]\n\n## The Challenge\n[Problem statement and objectives]\n\n## My Approach\n[Design process and methodology]\n\n## Solution\n[Key design decisions and rationale]\n\n## Results\n[Outcomes, metrics, or impact if available]\n\n## Tools Used\n[Software and technologies]\n\n---\n\n[Optional: Personal reflection or key learning]",
+      "variables": [
+        "[Project description]",
+        "[Challenge]",
+        "[Approach]",
+        "[Solution]",
+        "[Results]",
+        "[Tools]",
+        "[Reflection]"
+      ],
+      "context": "Behance project publishing",
+      "used_in_workflows": [
+        "WF-SMM-004"
+      ],
+      "workflow_context": {
+        "WF-SMM-004": "Step 2 - Write project description"
+      },
+      "description_length": "500-1000 words",
+      "best_practices": [
+        "Follow Problem → Process → Solution structure",
+        "Show design thinking, not just results",
+        "Include context and constraints",
+        "Explain key design decisions",
+        "Use formatting for scannability"
+      ]
+    },
+    {
+      "template_id": "TMPL-SMM-010",
+      "template_type": "Medium Article Opening",
+      "full_name": "Medium Long-Form Article Introduction",
+      "channel": "Medium",
+      "purpose": "Compelling opening for long-form Medium articles with strong hook",
+      "tone": "Conversational, Authoritative, Engaging",
+      "template_text": "# [Compelling, Keyword-Rich Title]\n\n[Hook paragraph - story, stat, or provocative question]\n\n[Context - why this matters to the reader]\n\n[Promise - what reader will gain]\n\n---\n\n[Brief personal credibility or experience]\n\nLet's get into it.\n\n## [First Major Section Header]",
+      "variables": [
+        "[Title]",
+        "[Hook]",
+        "[Context]",
+        "[Promise]",
+        "[Credibility]"
+      ],
+      "context": "Long-form Medium article publishing",
+      "used_in_workflows": [
+        "WF-SMM-009"
+      ],
+      "workflow_context": {
+        "WF-SMM-009": "Step 2 - Write article"
+      },
+      "article_length": "2000-5000 words",
+      "best_practices": [
+        "Start with compelling hook",
+        "Front-load value proposition",
+        "Use conversational but authoritative tone",
+        "Add pull quotes for emphasis",
+        "Include visuals every 300 words"
+      ]
+    },
+    {
+      "template_id": "TMPL-SMM-011",
+      "template_type": "Facebook Group Welcome Message",
+      "full_name": "Facebook Group New Member Welcome",
+      "channel": "Facebook Groups",
+      "purpose": "Personalized welcome message for new group members",
+      "tone": "Warm, Welcoming, Community-focused",
+      "template_text": "Welcome to [Group Name], [Member Name]! 👋\n\n[Brief intro to what the group is about]\n\n[Encourage introduction]\n\n[Point to group rules/guidelines]\n\n[Mention one or two ways to get started]\n\nLooking forward to seeing you in the community!\n\n[Your name/Group Admin title]",
+      "variables": [
+        "[Group Name]",
+        "[Member Name]",
+        "[Group purpose]",
+        "[Getting started tips]",
+        "[Your name]"
+      ],
+      "context": "New member joins Facebook Group",
+      "used_in_workflows": [
+        "WF-SMM-010"
+      ],
+      "workflow_context": {
+        "WF-SMM-010": "Step 1 - Welcome new members"
+      },
+      "timing": "Within 24 hours of joining",
+      "best_practices": [
+        "Personalize with member name",
+        "Keep warm and friendly",
+        "Encourage introduction post",
+        "Link to group guidelines",
+        "Make it feel like a real community"
+      ]
+    },
+    {
+      "template_id": "TMPL-SMM-012",
+      "template_type": "Facebook Group Value Post",
+      "full_name": "Facebook Group Daily Value Post",
+      "channel": "Facebook Groups",
+      "purpose": "Daily value-driven post to drive group engagement",
+      "tone": "Helpful, Conversational, Engaging",
+      "template_text": "[Attention-grabbing opening]\n\n[Valuable tip, resource, or insight]\n\n[Optional: Story or example]\n\n[Engagement question or CTA]\n\n👇 Drop your thoughts in the comments!",
+      "variables": [
+        "[Opening]",
+        "[Tip/Resource]",
+        "[Story/Example]",
+        "[Question/CTA]"
+      ],
+      "context": "Daily group engagement posts",
+      "used_in_workflows": [
+        "WF-SMM-010"
+      ],
+      "workflow_context": {
+        "WF-SMM-010": "Step 2 - Share value content"
+      },
+      "posting_frequency": "1-2 times daily",
+      "best_practices": [
+        "Always provide value first",
+        "Ask engaging questions",
+        "Use native video (not links)",
+        "Respond to comments within 4 hours",
+        "Highlight member contributions"
+      ]
+    },
+    {
+      "template_id": "TMPL-SMM-013",
+      "template_type": "Pinterest Pin Description",
+      "full_name": "Pinterest Pin SEO-Optimized Description",
+      "channel": "Pinterest",
+      "purpose": "Keyword-rich pin description for search discoverability",
+      "tone": "Descriptive, Helpful, SEO-focused",
+      "template_text": "[Keyword-rich title/opening line]\n\n[Detailed description of what pin offers]\n\n[Key benefits or takeaways]\n\n[CTA - click to read more, download, etc.]\n\n[Natural keyword integration]\n\n#[Keyword1] #[Keyword2] #[Keyword3]",
+      "variables": [
+        "[Title]",
+        "[Description]",
+        "[Benefits]",
+        "[CTA]",
+        "[Keywords]"
+      ],
+      "context": "Pinterest pin uploads",
+      "used_in_workflows": [
+        "WF-SMM-012"
+      ],
+      "workflow_context": {
+        "WF-SMM-012": "Step 3 - Optimize for search"
+      },
+      "description_length": "200-500 characters",
+      "best_practices": [
+        "Front-load primary keyword",
+        "Write for humans first, SEO second",
+        "Include clear benefit/value",
+        "Add call to action",
+        "Use natural keyword integration",
+        "Add comprehensive alt text separately"
+      ]
+    },
+    {
+      "template_id": "TMPL-SMM-014",
+      "template_type": "Cross-Promotion Teaser",
+      "full_name": "Cross-Platform Content Teaser",
+      "channel": "Multi-platform",
+      "purpose": "Tease long-form content on other platforms to drive traffic",
+      "tone": "Intriguing, Value-focused, Direct",
+      "template_text": "[Hook - most interesting insight from content]\n\n[What makes this valuable/different]\n\n[Where to find full content]\n\n👉 [Platform-specific CTA - link in bio, check profile, etc.]",
+      "variables": [
+        "[Hook/Insight]",
+        "[Value proposition]",
+        "[Platform location]",
+        "[CTA]"
+      ],
+      "context": "Promoting long-form content (YouTube, blog, Medium) on social platforms",
+      "used_in_workflows": [
+        "WF-SMM-001",
+        "WF-SMM-006",
+        "WF-SMM-009"
+      ],
+      "workflow_context": {
+        "WF-SMM-001": "Step 5 - Build community discussions",
+        "WF-SMM-006": "Step 7 - Promote and engage",
+        "WF-SMM-009": "Step 6 - Cross-promote"
+      },
+      "platform_variations": {
+        "instagram": "Link in bio",
+        "twitter": "Full link included",
+        "linkedin": "Link in first comment or article",
+        "facebook": "Direct link in post"
+      },
+      "best_practices": [
+        "Tease most valuable insight",
+        "Don't give everything away",
+        "Clear CTA on where to find full content",
+        "Adapt CTA to platform restrictions"
+      ]
+    },
+    {
+      "template_id": "TMPL-SMM-015",
+      "template_type": "Comment Response",
+      "full_name": "Engaging Comment Response Template",
+      "channel": "Multi-platform",
+      "purpose": "Thoughtful responses to comments that drive further engagement",
+      "tone": "Appreciative, Conversational, Engaging",
+      "template_text": "[Personalized acknowledgment]\n\n[Answer their question or expand on their point]\n\n[Optional: Ask follow-up question]\n\n[Sign off if appropriate]",
+      "variables": [
+        "[Acknowledgment]",
+        "[Answer/Expansion]",
+        "[Follow-up question]",
+        "[Sign off]"
+      ],
+      "context": "Responding to comments on any platform",
+      "used_in_workflows": [
+        "WF-SMM-003",
+        "WF-SMM-006",
+        "WF-SMM-007",
+        "WF-SMM-008",
+        "WF-SMM-010",
+        "WF-SMM-011"
+      ],
+      "response_time_goals": {
+        "twitter": "Within 30 minutes",
+        "instagram": "Within 1 hour",
+        "youtube": "Within 1-2 hours (first 24h critical)",
+        "linkedin": "Within 2 hours",
+        "facebook": "Within 4 hours"
+      },
+      "best_practices": [
+        "Respond quickly (boosts algorithm)",
+        "Be genuine and personal",
+        "Add value beyond 'thank you'",
+        "Ask questions to continue conversation",
+        "Use person's name when possible",
+        "Pin best comments to encourage engagement"
+      ]
+    }
+  ],
+  "usage_guidelines": {
+    "customization": "Always adapt templates to your brand voice and specific context",
+    "variables": "Replace all [bracketed] variables before posting",
+    "testing": "A/B test different variations to optimize performance",
+    "analytics": "Track which templates perform best for your audience",
+    "iteration": "Update templates based on performance data"
+  },
+  "platform_specific_notes": {
+    "instagram": "Focus on saves (5x algorithm weight) and visual storytelling",
+    "twitter": "Be concise, use threads for depth, engage quickly",
+    "linkedin": "Lead with business value, professional tone, data-driven",
+    "youtube": "SEO-first, detailed timestamps, comprehensive descriptions",
+    "tiktok": "Trending sounds crucial, hook in 3 seconds, captions required",
+    "facebook": "Native video preferred, community-focused, longer content OK",
+    "medium": "Long-form depth, story-driven, comprehensive guides",
+    "pinterest": "SEO keywords essential, evergreen content, vertical images"
+  },
+  "source": "SMM_Research_Document_2_Content_Strategy_Multi_Platform"
+}

@@ -1,0 +1,49 @@
+﻿Entity_ID,Entity_Name,Entity_Type,Department,Category,File_Path,File_Count,Status
+PMT-001,Core Prompts,Prompt_Category,Multi-Department,System,PROMPTS/Core,63,Active
+PMT-002,MAIN_PROMPT_v4,Prompt,Multi-Department,Core System,PROMPTS/Core/MAIN_PROMPT_v4.md,1,Active
+PMT-003,MAIN_PROMPT_v5_Modular,Prompt_Collection,Multi-Department,Core System,PROMPTS/Core/MAIN_PROMPT_v5_Modular,46,Active
+PMT-004,Daily Report Prompts,Prompt_Category,Multi-Department,Reporting,PROMPTS/Daily_Reports,26,Active
+PMT-005,Department Prompts,Prompt_Collection,Multi-Department,Daily Reports,PROMPTS/Daily_Reports/Department_Prompts,11,Active
+PMT-006,AI Daily Report,Prompt,AI,Daily Report,PROMPTS/Daily_Reports/Department_Prompts/PROMPT_AI_Daily_Report.md,1,Active
+PMT-007,Content Daily Report,Prompt,Marketing,Daily Report,PROMPTS/Daily_Reports/Department_Prompts/PROMPT_Content_Daily_Report.md,1,Active
+PMT-008,Design Daily Report,Prompt,Design,Daily Report,PROMPTS/Daily_Reports/Department_Prompts/PROMPT_Design_Daily_Report.md,1,Active
+PMT-009,Dev Daily Report,Prompt,Development,Daily Report,PROMPTS/Daily_Reports/Department_Prompts/PROMPT_Dev_Daily_Report.md,1,Active
+PMT-010,Finance Daily Report,Prompt,Finance,Daily Report,PROMPTS/Daily_Reports/Department_Prompts/PROMPT_Finance_Daily_Report.md,1,Active
+PMT-011,HR Daily Report,Prompt,Human Resources,Daily Report,PROMPTS/Daily_Reports/Department_Prompts/PROMPT_HR_Daily_Report.md,1,Active
+PMT-012,LG Daily Report,Prompt,Lead Generation,Daily Report,PROMPTS/Daily_Reports/Department_Prompts/PROMPT_LG_Daily_Report.md,1,Active
+PMT-013,Marketing Daily Report,Prompt,Marketing,Daily Report,PROMPTS/Daily_Reports/Department_Prompts/PROMPT_Marketing_Daily_Report.md,1,Active
+PMT-014,Sales Daily Report,Prompt,Sales,Daily Report,PROMPTS/Daily_Reports/Department_Prompts/PROMPT_Sales_Daily_Report.md,1,Active
+PMT-015,SMM Daily Report,Prompt,SMM,Daily Report,PROMPTS/Daily_Reports/Department_Prompts/PROMPT_SMM_Daily_Report.md,1,Active
+PMT-016,Video Daily Report,Prompt,Video Production,Daily Report,PROMPTS/Daily_Reports/Department_Prompts/PROMPT_Video_Daily_Report.md,1,Active
+PMT-017,Video Processing Prompts,Prompt_Category,Video Production,Workflow,PROMPTS/Video_Processing,12,Active
+PMT-018,Video Transcription,Prompt,Video Production,Processing,PROMPTS/PROMPTS/Transcription/Video_Transcription_Custom_Instructions_v3.2.md,1,Active
+PMT-019,Video Analysis,Prompt,Video Production,Processing,PROMPTS/PROMPTS/Analysis/Video_Analysis_Prompt.md,1,Active
+PMT-020,Objects Extraction,Prompt,Video Production,Processing,PROMPTS/PROMPTS/Analysis/Objects_Library_Extraction_Prompt.md,1,Active
+PMT-021,Taxonomy Integration,Prompt,AI,Processing,PROMPTS/PROMPTS/Taxonomy_Integration/Taxonomy_Analysis_and_Updates_Prompt.md,1,Active
+PMT-022,Library Processing,Prompt_Category,Multi-Department,Integration,PROMPTS/Library_Processing,4,Active
+PMT-023,Tools Collection,Prompt,AI,Library,PROMPTS/Library_Processing/Tools_Collection_and_Matching_Prompt.md,1,Active
+PMT-024,Products Integration,Prompt,AI,Library,PROMPTS/Library_Processing/Products_Integration_Prompt.md,1,Active
+PMT-025,Task Manager Entity Filling,Prompt,AI,Library,PROMPTS/Library_Processing/Task_Manager_Entity_Filling_Prompt.md,1,Active
+PMT-026,Operational Workflows,Prompt_Category,Multi-Department,Operations,PROMPTS/Operational_Workflows,5,Active
+PMT-027,Call Organizer v4,Prompt,Multi-Department,Operations,PROMPTS/Operational_Workflows/Call_Organizer_v4.md,1,Active
+PMT-028,Document Finished Project,Prompt,Multi-Department,Operations,PROMPTS/Operational_Workflows/PROMPT_Document_Finished_Project.md,1,Active
+PMT-029,Automation Prompts,Prompt_Category,AI,Automation,PROMPTS/Automation,4,Active
+PMT-030,Version Control Automation,Prompt,Development,Automation,PROMPTS/Automation/Version_Control_Automation.md,1,Active
+PMT-031,Rules Automation,Prompt,AI,Automation,PROMPTS/Automation/Rules_Automation.md,1,Active
+PMT-032,HR Operations,Prompt_Category,Human Resources,HR,PROMPTS/HR_Operations,6,Active
+PMT-033,CV Parser v1,Prompt,Human Resources,HR,PROMPTS/HR_Operations/CV_Parser_v1.md,1,Active
+PMT-034,Interview Conductor,Prompt,Human Resources,HR,PROMPTS/HR_Operations/Interview_Conductor_Prompt.md,1,Active
+PMT-035,Job Sites Research,Prompt,Human Resources,HR,PROMPTS/HR_Operations/Job_Sites_Deep_Research_Prompt.md,1,Active
+PMT-036,Research Prompts,Prompt_Category,Multi-Department,Research,PROMPTS/Research_Prompts,9,Active
+PMT-037,SMM Research Processing,Prompt,Marketing,Research,PROMPTS/Research_Prompts/SMM_Research_Document_Processing_Instructions.md,1,Active
+PMT-038,YouTube AI Tools Research,Prompt,AI,Research,PROMPTS/Research_Prompts/YouTube_AI_Tools_Daily_Research_Prompt.md,1,Active
+PMT-039,System Analysis,Prompt_Category,AI,System,PROMPTS/System_Analysis,7,Active
+PMT-040,Ecosystem Analysis,Prompt,AI,System,PROMPTS/System_Analysis/00_MAIN_Ecosystem_Analysis_Overview.md,1,Active
+PMT-041,Taxonomy Prompts,Prompt_Category,AI,Taxonomy,PROMPTS/Taxonomy,7,Active
+PMT-042,Build Taxonomy ID System,Prompt,AI,Taxonomy,PROMPTS/Taxonomy/PROMPT_Build_Taxonomy_ID_System.md,1,Active
+PMT-043,Build LIBRARIES Taxonomy,Prompt,AI,Taxonomy,PROMPTS/Taxonomy/PROMPT_Build_LIBRARIES_Taxonomy.md,1,Active
+PMT-044,Optimize Video Transcription,Prompt,Video Production,Taxonomy,PROMPTS/Taxonomy/PROMPT_Optimize_Video_Transcription_Instructions.md,1,Active
+PMT-045,Account Management,Prompt_Category,Multi-Department,Operations,PROMPTS/Account_Management,3,Active
+PMT-046,Account Creation Validation,Prompt,Operations,Account,PROMPTS/Account_Management/PROMPT_Account_Creation_Validation.md,1,Active
+PMT-047,Account Security Audit,Prompt,Operations,Account,PROMPTS/Account_Management/PROMPT_Account_Security_Audit.md,1,Active
+PMT-048,Subscription Renewal Alert,Prompt,Operations,Account,PROMPTS/Account_Management/PROMPT_Subscription_Renewal_Alert.md,1,Active

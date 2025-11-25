@@ -1,0 +1,39 @@
+{
+  "step_template_id": "Step-Template-013",
+  "step_template_name": "Extract Task Templates in ACTION_OBJECT_CONTEXT Format",
+  "metadata": {
+    "status": "Active"
+  },
+  "parent_task": {
+    "task_id": "TASK-TEMPLATE-VIDEO-003",
+    "task_name": "Extract Taxonomy Data from Transcription"
+  },
+  "step_details": {
+    "step_number": 2,
+    "order": 2,
+    "action": "extract",
+    "detail": "Create Task Templates using ALL_CAPS naming: ACTION_OBJECT_CONTEXT with all required fields (department, complexity, time, steps, skills, tools)",
+    "expected_duration": 6
+  },
+  "execution": {
+    "tool_used": "Claude Desktop or Claude Pro",
+    "inputs": [
+      "Workflows from STEP-VIDEO-003-01",
+      "Task Template format",
+      "Naming conventions"
+    ],
+    "outputs": [
+      "Section 4B: Task Templates with proper naming and all fields"
+    ],
+    "success_criteria": "Task names in ALL_CAPS, ACTION_OBJECT_CONTEXT pattern, includes steps_used, skills_required, tools, reusability contexts"
+  },
+  "relationships": {
+    "dependencies": [
+      "STEP-VIDEO-003-01"
+    ],
+    "next_steps": [
+      "STEP-VIDEO-003-03"
+    ],
+    "parallel_steps": []
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "entity_type": "LIBRARIES",
+  "sub_entity": "Profession",
+  "profession_name": "automation engineer",
+  "department": "developers",
+  "description": "Engineer specialized in building automated workflows, data pipelines, and process automation using n8n and integration tools",
+  "created": "2025-11-12",
+  "updated": "2025-11-12",
+  "skills": [
+    "SKL-062"
+  ],
+  "skill_details": {
+    "SKL-062": {
+      "skill_phrase": "built enrichment pipelines via n8n",
+      "proficiency_level": "advanced",
+      "frequency": "weekly"
+    }
+  },
+  "tools": [
+    "TOOL-AUTO-001",
+    "TOOL-AUTO-002",
+    "TOOL-DEV-020"
+  ],
+  "tool_details": {
+    "TOOL-AUTO-001": "n8n - Workflow automation (daily use)",
+    "TOOL-AUTO-002": "Make.com - Workflow automation (weekly use)",
+    "TOOL-DEV-020": "Apify - Web scraping integration (weekly use)"
+  },
+  "workflows": [
+    "WF-LG-008",
+    "WF-LG-013"
+  ],
+  "workflow_details": {
+    "WF-LG-008": "AI-Powered HTML Parsing (OpenAI + n8n)",
+    "WF-LG-013": "Custom Niche Platform Scraping (n8n + HTTP)"
+  },
+  "objects": [
+    "OBJ-LG-009",
+    "OBJ-LG-008"
+  ],
+  "object_details": {
+    "OBJ-LG-009": "n8n Workflow",
+    "OBJ-LG-008": "Scraped HTML Data"
+  },
+  "actions": [
+    "build",
+    "configure",
+    "automate",
+    "parse"
+  ],
+  "typical_tasks": [
+    "Build custom niche platform scraper with n8n + HTTP requests (2-4 hours setup)",
+    "Create AI website content extraction pipeline (n8n + OpenAI + Apify)",
+    "Build multi-source lead enrichment automation",
+    "Design and implement complex workflow automations"
+  ],
+  "performance_metrics": {
+    "pipeline_build_time": "2-4 hours",
+    "complexity": "Very High",
+    "automation_potential": "High"
+  },
+  "source": "Video_006_Lead_Generation_Analysis"
+}

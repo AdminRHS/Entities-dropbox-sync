@@ -1,0 +1,256 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "template_id": "TEMPLATE-TASK-ACC-004",
+  "template_name": "Verify Account",
+  "template_version": "1.0",
+  "entity_type": "TASK_MANAGERS",
+  "sub_entity": "Task_Template",
+  "category": "Account Management",
+  "responsibility_id": "RESP-OPS-ACC-004",
+  "action": "verify",
+  "object": "account",
+  "departments": ["OPS", "HR"],
+  "description": "Workflow for verifying an account using another account (email/phone/SMS)",
+  "estimated_duration_minutes": 20,
+  "complexity": "high",
+  "priority": "high",
+  "steps": [
+    {
+      "step_number": 1,
+      "step_name": "Identify Account to Verify",
+      "step_description": "Select the account that needs verification",
+      "action": "select",
+      "object": "account",
+      "estimated_time_minutes": 2,
+      "required_inputs": [
+        "Account ID (ACC-XXX or JOB-ACC-XXX)",
+        "Account type (account or job_account)"
+      ],
+      "validation_rules": [
+        "Account must exist",
+        "Account must have verification_required=true",
+        "Account status must be 'pending_verification' or 'not_verified'"
+      ],
+      "is_automated": false,
+      "assigned_to": "account_manager"
+    },
+    {
+      "step_number": 2,
+      "step_name": "Select Verification Method",
+      "step_description": "Choose verification account and method",
+      "action": "select",
+      "object": "verification method",
+      "estimated_time_minutes": 3,
+      "required_inputs": [
+        "Verification account ID (must have can_verify_others=true)",
+        "Verification method (email, sms, phone_call, authenticator_app)"
+      ],
+      "validation_rules": [
+        "Verification account must exist",
+        "Verification account must have can_verify_others=true",
+        "Verification account must be active",
+        "Selected method must be supported by verification account"
+      ],
+      "api_call": {
+        "method": "GET",
+        "endpoint": "/api/accounts?can_verify_others=true",
+        "description": "Get list of accounts that can verify others"
+      },
+      "is_automated": false,
+      "assigned_to": "account_manager"
+    },
+    {
+      "step_number": 3,
+      "step_name": "Check Existing Verifications",
+      "step_description": "Verify this verification relationship doesn't already exist",
+      "action": "check",
+      "object": "existing verifications",
+      "estimated_time_minutes": 1,
+      "api_call": {
+        "method": "GET",
+        "endpoint": "/api/accounts/:id/verifications",
+        "check_for": "duplicate_verification_account"
+      },
+      "is_automated": true,
+      "automated_service": "account-api",
+      "on_duplicate": "skip_or_update_existing"
+    },
+    {
+      "step_number": 4,
+      "step_name": "Create Verification Relationship",
+      "step_description": "Create verification record linking accounts",
+      "action": "create",
+      "object": "verification relationship",
+      "estimated_time_minutes": 2,
+      "api_call": {
+        "method": "POST",
+        "endpoint": "/api/accounts/:id/verifications",
+        "request_body": {
+          "verification_account_id": "selected_verification_account",
+          "verification_method": "selected_method",
+          "verification_status": "pending"
+        }
+      },
+      "is_automated": true,
+      "automated_service": "account-api",
+      "on_success": "generate_verification_id"
+    },
+    {
+      "step_number": 5,
+      "step_name": "Initiate Verification Process",
+      "step_description": "Send verification code/request via selected method",
+      "action": "send",
+      "object": "verification request",
+      "estimated_time_minutes": 3,
+      "method_specific_actions": {
+        "email": "Send email with verification link/code",
+        "sms": "Send SMS with verification code",
+        "phone_call": "Initiate automated phone call with code",
+        "authenticator_app": "Generate QR code for app setup",
+        "manual": "Mark for manual verification by admin"
+      },
+      "is_automated": true,
+      "automated_service": "verification-service"
+    },
+    {
+      "step_number": 6,
+      "step_name": "Wait for Verification Response",
+      "step_description": "Monitor for verification code entry or confirmation",
+      "action": "monitor",
+      "object": "verification response",
+      "estimated_time_minutes": 5,
+      "timeout_minutes": 10,
+      "max_attempts": 3,
+      "is_automated": true,
+      "automated_service": "verification-service",
+      "on_timeout": "mark_verification_failed",
+      "on_max_attempts_exceeded": "lock_verification_temporarily"
+    },
+    {
+      "step_number": 7,
+      "step_name": "Validate Verification Code",
+      "step_description": "Check if provided code matches expected code",
+      "action": "validate",
+      "object": "verification code",
+      "estimated_time_minutes": 1,
+      "validation_logic": "compare_encrypted_codes",
+      "is_automated": true,
+      "automated_service": "verification-service",
+      "on_success": "proceed_to_next_step",
+      "on_failure": "increment_attempt_count_and_retry"
+    },
+    {
+      "step_number": 8,
+      "step_name": "Update Verification Status",
+      "step_description": "Mark verification as successful",
+      "action": "update",
+      "object": "verification status",
+      "estimated_time_minutes": 1,
+      "api_call": {
+        "method": "PUT",
+        "endpoint": "/api/verifications/:verification_id",
+        "request_body": {
+          "verification_status": "active",
+          "verified_at": "current_timestamp"
+        }
+      },
+      "is_automated": true,
+      "automated_service": "account-api"
+    },
+    {
+      "step_number": 9,
+      "step_name": "Update Account Status",
+      "step_description": "Change account status from 'pending_verification' to 'verified'",
+      "action": "update",
+      "object": "account status",
+      "estimated_time_minutes": 1,
+      "api_call": {
+        "method": "PUT",
+        "endpoint": "/api/accounts/:id",
+        "request_body": {
+          "verification_status": "verified",
+          "status_id": "active"
+        }
+      },
+      "is_automated": true,
+      "automated_service": "account-api"
+    },
+    {
+      "step_number": 10,
+      "step_name": "Create Audit Log",
+      "step_description": "Log verification completion",
+      "action": "create",
+      "object": "audit log",
+      "estimated_time_minutes": 1,
+      "log_data": {
+        "event_type": "account_verified",
+        "account_id": "verified_account_id",
+        "verification_account_id": "verification_account_id",
+        "verification_method": "method_used",
+        "verified_by": "employee_id",
+        "timestamp": "current_timestamp"
+      },
+      "log_destination": "ANALYTICS/Audit_Logs/Account_Verification/",
+      "is_automated": true,
+      "automated_service": "audit-service"
+    },
+    {
+      "step_number": 11,
+      "step_name": "Notify Account Owner",
+      "step_description": "Send success notification to account owner",
+      "action": "send",
+      "object": "notification",
+      "estimated_time_minutes": 1,
+      "notification_recipients": ["account_owner"],
+      "notification_template": "account_verified_notification",
+      "notification_channels": ["email", "slack"],
+      "is_automated": true,
+      "automated_service": "notification-service"
+    }
+  ],
+  "prerequisites": [
+    "Account exists and requires verification",
+    "Verification account available (can_verify_others=true)",
+    "User has 'verification:create' permission",
+    "Verification service configured"
+  ],
+  "required_permissions": ["account:write", "verification:create"],
+  "deliverables": [
+    "Verification relationship created",
+    "Account verification status updated to 'verified'",
+    "Audit log entry",
+    "Notification sent to owner"
+  ],
+  "success_criteria": [
+    "Verification ID generated (VER-XXXXX format)",
+    "Account status changed to 'verified' or 'active'",
+    "Verification recorded in database",
+    "Owner notified successfully"
+  ],
+  "failure_scenarios": [
+    {
+      "scenario": "Verification code incorrect",
+      "action": "Allow retry up to max_attempts",
+      "max_attempts": 3
+    },
+    {
+      "scenario": "Verification timeout",
+      "action": "Mark verification as failed, allow restart",
+      "timeout_minutes": 10
+    },
+    {
+      "scenario": "Verification account unavailable",
+      "action": "Notify user to select different verification account"
+    }
+  ],
+  "related_templates": [
+    "TEMPLATE-TASK-ACC-001 (Create New Account)",
+    "TEMPLATE-TASK-ACC-008 (Manage Subscription)"
+  ],
+  "tags": ["verification", "security", "account-setup"],
+  "version": "1.0",
+  "created_date": "2025-11-18",
+  "last_updated": "2025-11-18",
+  "created_by": "System",
+  "is_active": true
+}

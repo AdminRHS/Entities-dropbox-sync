@@ -1,0 +1,409 @@
+{
+  "summary": {
+    "total_folders_found": 80,
+    "total_files_copied": 82,
+    "total_folders_processed": 27,
+    "total_missing": 30,
+    "total_errors": 0
+  },
+  "copied_files": [
+    {
+      "source_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\AI Nov25\\Artemchuk Nikolay\\17",
+      "employee_name": "Artemchuk Nikolay",
+      "employee_id": "37226",
+      "day": "17",
+      "department": "AI",
+      "files_copied": 3
+    },
+    {
+      "source_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\AI Nov25\\Artemchuk Nikolay\\18",
+      "employee_name": "Artemchuk Nikolay",
+      "employee_id": "37226",
+      "day": "18",
+      "department": "AI",
+      "files_copied": 1
+    },
+    {
+      "source_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Design Nov25\\Hlushko Mariia\\18",
+      "employee_name": "Hlushko Mariia",
+      "employee_id": "88626",
+      "day": "18",
+      "department": "Design",
+      "files_copied": 1
+    },
+    {
+      "source_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Design Nov25\\Kucherenko Iuliia\\17",
+      "employee_name": "Kucherenko Iuliia",
+      "employee_id": "228",
+      "day": "17",
+      "department": "Design",
+      "files_copied": 4
+    },
+    {
+      "source_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Design Nov25\\Kucherenko Iuliia\\18",
+      "employee_name": "Kucherenko Iuliia",
+      "employee_id": "228",
+      "day": "18",
+      "department": "Design",
+      "files_copied": 3
+    },
+    {
+      "source_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Design Nov25\\Skrypkar Vilhelm\\17",
+      "employee_name": "Skrypkar Vilhelm",
+      "employee_id": "333",
+      "day": "17",
+      "department": "Design",
+      "files_copied": 4
+    },
+    {
+      "source_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Design Nov25\\Skrypkar Vilhelm\\18",
+      "employee_name": "Skrypkar Vilhelm",
+      "employee_id": "333",
+      "day": "18",
+      "department": "Design",
+      "files_copied": 4
+    },
+    {
+      "source_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Dev Nov25\\Artem Skichko\\17",
+      "employee_name": "Artem Skichko",
+      "employee_id": "88853",
+      "day": "17",
+      "department": "Dev",
+      "files_copied": 3
+    },
+    {
+      "source_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Dev Nov25\\Artem Skichko\\18",
+      "employee_name": "Artem Skichko",
+      "employee_id": "88853",
+      "day": "18",
+      "department": "Dev",
+      "files_copied": 3
+    },
+    {
+      "source_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Dev Nov25\\Danylenko Liliia\\17",
+      "employee_name": "Danylenko Liliia",
+      "employee_id": "72754",
+      "day": "17",
+      "department": "Dev",
+      "files_copied": 3
+    },
+    {
+      "source_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Dev Nov25\\Kizilova Olha\\17",
+      "employee_name": "Kizilova Olha",
+      "employee_id": "178",
+      "day": "17",
+      "department": "Dev",
+      "files_copied": 11
+    },
+    {
+      "source_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Dev Nov25\\Kizilova Olha\\18",
+      "employee_name": "Kizilova Olha",
+      "employee_id": "178",
+      "day": "18",
+      "department": "Dev",
+      "files_copied": 3
+    },
+    {
+      "source_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Dev Nov25\\Klimenko Yaroslav\\17",
+      "employee_name": "Klimenko Yaroslav",
+      "employee_id": "86478",
+      "day": "17",
+      "department": "Dev",
+      "files_copied": 1
+    },
+    {
+      "source_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Dev Nov25\\Klimenko Yaroslav\\18",
+      "employee_name": "Klimenko Yaroslav",
+      "employee_id": "86478",
+      "day": "18",
+      "department": "Dev",
+      "files_copied": 1
+    },
+    {
+      "source_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Fin Nov25\\Ponomarova Kateryna\\17",
+      "employee_name": "Ponomarova Kateryna",
+      "employee_id": "39412",
+      "day": "17",
+      "department": "Fin",
+      "files_copied": 2
+    },
+    {
+      "source_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Fin Nov25\\Ponomarova Kateryna\\18",
+      "employee_name": "Ponomarova Kateryna",
+      "employee_id": "39412",
+      "day": "18",
+      "department": "Fin",
+      "files_copied": 2
+    },
+    {
+      "source_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Fin Nov25\\Yelisieieva Daria\\17",
+      "employee_name": "Yelisieieva Daria",
+      "employee_id": "45810",
+      "day": "17",
+      "department": "Fin",
+      "files_copied": 2
+    },
+    {
+      "source_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Fin Nov25\\Yelisieieva Daria\\18",
+      "employee_name": "Yelisieieva Daria",
+      "employee_id": "45810",
+      "day": "18",
+      "department": "Fin",
+      "files_copied": 2
+    },
+    {
+      "source_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\HR Nov25\\Pasichna Anastasiia\\Week_3\\17",
+      "employee_name": "Pasichna Anastasiia",
+      "employee_id": "88105",
+      "day": "17",
+      "department": "HR",
+      "files_copied": 3
+    },
+    {
+      "source_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\HR Nov25\\Pasichna Anastasiia\\Week_3\\18",
+      "employee_name": "Pasichna Anastasiia",
+      "employee_id": "88105",
+      "day": "18",
+      "department": "HR",
+      "files_copied": 3
+    },
+    {
+      "source_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\HR Nov25\\Rekonvald Viktoriia\\Week_3\\17",
+      "employee_name": "Rekonvald Viktoriia",
+      "employee_id": "83953",
+      "day": "17",
+      "department": "HR",
+      "files_copied": 5
+    },
+    {
+      "source_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\LG Nov25\\Bindiak Dana\\17",
+      "employee_name": "Bindiak Dana",
+      "employee_id": "87396",
+      "day": "17",
+      "department": "LG",
+      "files_copied": 3
+    },
+    {
+      "source_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\LG Nov25\\Bindiak Dana\\18",
+      "employee_name": "Bindiak Dana",
+      "employee_id": "87396",
+      "day": "18",
+      "department": "LG",
+      "files_copied": 3
+    },
+    {
+      "source_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\LG Nov25\\Burda Anna\\17",
+      "employee_name": "Burda Anna",
+      "employee_id": "84138",
+      "day": "17",
+      "department": "LG",
+      "files_copied": 3
+    },
+    {
+      "source_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\LG Nov25\\Burda Anna\\18",
+      "employee_name": "Burda Anna",
+      "employee_id": "84138",
+      "day": "18",
+      "department": "LG",
+      "files_copied": 3
+    },
+    {
+      "source_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Video Nov25\\Podolskyi Sviatoslav\\17",
+      "employee_name": "Podolskyi Sviatoslav",
+      "employee_id": "299",
+      "day": "17",
+      "department": "Video",
+      "files_copied": 3
+    },
+    {
+      "source_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Video Nov25\\Podolskyi Sviatoslav\\18",
+      "employee_name": "Podolskyi Sviatoslav",
+      "employee_id": "299",
+      "day": "18",
+      "department": "Video",
+      "files_copied": 3
+    }
+  ],
+  "missing_employees": [
+    {
+      "employee_name": "Perederii Vladislav",
+      "source_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\AI Nov25\\Perederii Vladislav\\17",
+      "day": "17",
+      "department": "AI"
+    },
+    {
+      "employee_name": "Perederii Vladislav",
+      "source_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\AI Nov25\\Perederii Vladislav\\18",
+      "day": "18",
+      "department": "AI"
+    },
+    {
+      "employee_name": "Zasiadko Matvii",
+      "source_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\AI Nov25\\Zasiadko Matvii\\17",
+      "day": "17",
+      "department": "AI"
+    },
+    {
+      "employee_name": "Bogun Polina",
+      "source_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Design Nov25\\Bogun Polina\\17",
+      "day": "17",
+      "department": "Design"
+    },
+    {
+      "employee_name": "Bogun Polina",
+      "source_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Design Nov25\\Bogun Polina\\18",
+      "day": "18",
+      "department": "Design"
+    },
+    {
+      "employee_name": "Bykova Anastasiia",
+      "source_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Design Nov25\\Bykova Anastasiia\\17",
+      "day": "17",
+      "department": "Design"
+    },
+    {
+      "employee_name": "Bykova Anastasiia",
+      "source_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Design Nov25\\Bykova Anastasiia\\18",
+      "day": "18",
+      "department": "Design"
+    },
+    {
+      "employee_name": "Safonova Eleonora",
+      "source_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Design Nov25\\Safonova Eleonora\\Week_3\\17",
+      "day": "17",
+      "department": "Design"
+    },
+    {
+      "employee_name": "Safonova Eleonora",
+      "source_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Design Nov25\\Safonova Eleonora\\Week_3\\18",
+      "day": "18",
+      "department": "Design"
+    },
+    {
+      "employee_name": "Shelep Olha",
+      "source_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Design Nov25\\Shelep Olha\\17",
+      "day": "17",
+      "department": "Design"
+    },
+    {
+      "employee_name": "Shtepa Yuliia",
+      "source_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Design Nov25\\Shtepa Yuliia\\17",
+      "day": "17",
+      "department": "Design"
+    },
+    {
+      "employee_name": "Shymkevych Iryna",
+      "source_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Design Nov25\\Shymkevych Iryna\\17",
+      "day": "17",
+      "department": "Design"
+    },
+    {
+      "employee_name": "Syrotiuk Mariia",
+      "source_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Design Nov25\\Syrotiuk Mariia\\17",
+      "day": "17",
+      "department": "Design"
+    },
+    {
+      "employee_name": "Yarmachenko Kristina",
+      "source_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Design Nov25\\Yarmachenko Kristina\\17",
+      "day": "17",
+      "department": "Design"
+    },
+    {
+      "employee_name": "Nealova Evgeniya",
+      "source_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\HR Nov25\\Nealova Evgeniya\\Week_3\\17",
+      "day": "17",
+      "department": "HR"
+    },
+    {
+      "employee_name": "Nealova Evgeniya",
+      "source_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\HR Nov25\\Nealova Evgeniya\\Week_3\\18",
+      "day": "18",
+      "department": "HR"
+    },
+    {
+      "employee_name": "Adesina Oluwamayomiposi Elizabeth",
+      "source_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\LG Nov25\\Adesina Oluwamayomiposi Elizabeth\\17",
+      "day": "17",
+      "department": "LG"
+    },
+    {
+      "employee_name": "Aledare Adedoiin Bridjet",
+      "source_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\LG Nov25\\Aledare Adedoiin Bridjet\\17",
+      "day": "17",
+      "department": "LG"
+    },
+    {
+      "employee_name": "Aledare Adedoiin Bridjet",
+      "source_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\LG Nov25\\Aledare Adedoiin Bridjet\\18",
+      "day": "18",
+      "department": "LG"
+    },
+    {
+      "employee_name": "Archibong Isaac",
+      "source_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\LG Nov25\\Archibong Isaac\\17",
+      "day": "17",
+      "department": "LG"
+    },
+    {
+      "employee_name": "Cynthia Chinemerem Uzoh",
+      "source_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\LG Nov25\\Cynthia Chinemerem Uzoh\\17",
+      "day": "17",
+      "department": "LG"
+    },
+    {
+      "employee_name": "Cynthia Uzoh",
+      "source_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\LG Nov25\\Cynthia Uzoh\\17",
+      "day": "17",
+      "department": "LG"
+    },
+    {
+      "employee_name": "Cynthia Uzoh",
+      "source_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\LG Nov25\\Cynthia Uzoh\\18",
+      "day": "18",
+      "department": "LG"
+    },
+    {
+      "employee_name": "Iskandarova Anush",
+      "source_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\LG Nov25\\Iskandarova Anush\\17",
+      "day": "17",
+      "department": "LG"
+    },
+    {
+      "employee_name": "Kamenskaya Alina",
+      "source_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\LG Nov25\\Kamenskaya Alina\\17",
+      "day": "17",
+      "department": "LG"
+    },
+    {
+      "employee_name": "Peneva Plamena",
+      "source_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\LG Nov25\\Peneva Plamena\\17",
+      "day": "17",
+      "department": "LG"
+    },
+    {
+      "employee_name": "Shkinder Kseniia",
+      "source_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\LG Nov25\\Shkinder Kseniia\\17",
+      "day": "17",
+      "department": "LG"
+    },
+    {
+      "employee_name": "Shkinder Kseniia",
+      "source_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\LG Nov25\\Shkinder Kseniia\\18",
+      "day": "18",
+      "department": "LG"
+    },
+    {
+      "employee_name": "Bessarab Valeriiia",
+      "source_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Sales Nov25\\Bessarab Valeriiia\\17",
+      "day": "17",
+      "department": "Sales"
+    },
+    {
+      "employee_name": "Azanova Darʼya",
+      "source_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Video Nov25\\Azanova Darʼya\\17",
+      "day": "17",
+      "department": "Video"
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "entity_type": "LIBRARIES",
+  "sub_entity": "Tool",
+  "tool_id": "TOOL-AI-050",
+  "name": "Synthesia",
+  "vendor": "Synthesia",
+  "category": "AI/Video Tools",
+  "purpose": "AI video creation platform with AI avatars for professional video production",
+  "description": "Enterprise-grade AI video generation platform creating professional videos with AI avatars, multilingual support, and customizable templates. Used for training, marketing, and corporate communications.",
+  "skill_level_required": "Beginner",
+  "cost_structure": "Subscription-based (Plans from $22/month per user)",
+  "platform_compatibility": [
+    "Web",
+    "API"
+  ],
+  "integration_capabilities": [
+    "API access",
+    "Template library",
+    "Avatar customization",
+    "Multilingual support",
+    "Video export",
+    "Team collaboration"
+  ],
+  "documentation_url": "https://app.synthesia.io/",
+  "actual_remote_helpers_usage": {
+    "primary_use": "Professional AI Video Creation",
+    "users": [],
+    "use_cases": [
+      "create training videos",
+      "produce marketing videos",
+      "draft corporate communications",
+      "produce multilingual videos",
+      "create personalized videos",
+      "create educational content"
+    ],
+    "workflows": []
+  },
+  "strengths": [
+    "Professional quality",
+    "Enterprise features",
+    "Large avatar library",
+    "Multilingual support",
+    "Template library",
+    "Team collaboration"
+  ],
+  "limitations": [
+    "Higher cost",
+    "Subscription required",
+    "Limited customization in lower tiers",
+    "Processing time"
+  ],
+  "departments_using": [],
+  "tags": [
+    "video-generation",
+    "ai-avatars",
+    "enterprise",
+    "multilingual",
+    "training",
+    "marketing",
+    "corporate"
+  ],
+  "discovery_date": "2025-01-27",
+  "discovery_source": "user_provided",
+  "status": "discovered_needs_review"
+}

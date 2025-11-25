@@ -1,0 +1,27 @@
+{
+  "template_name": "URLs_And_Documents",
+  "description": "URLs and document links including resume, portfolio, photos, and test links",
+  "fields": {
+    "photo_url": {
+      "type": "NoneType",
+      "description": "Field: photo_url",
+      "example": null
+    },
+    "resume_url": {
+      "type": "NoneType",
+      "description": "Field: resume_url",
+      "example": null
+    },
+    "test_link": {
+      "type": "NoneType",
+      "description": "Field: test_link",
+      "example": null
+    },
+    "portfolio_url": {
+      "type": "NoneType",
+      "description": "Field: portfolio_url",
+      "example": null
+    }
+  }
+}
+

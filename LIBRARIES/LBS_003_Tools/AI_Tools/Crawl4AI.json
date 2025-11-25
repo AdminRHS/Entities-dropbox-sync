@@ -1,0 +1,83 @@
+{
+  "entity_type": "LIBRARIES",
+  "sub_entity": "Tool",
+  "tool_id": "TOOL-AI-085",
+  "name": "Crawl4AI",
+  "vendor": "Open Source Community",
+  "category": "AI/RAG - Web Extraction",
+  "purpose": "Fast web crawling and data extraction for RAG and AI agents",
+  "description": "Fast, efficient web crawler and scraper designed for AI applications. Automatically cleans junk, integrates with LLMs for intelligent extraction, and can target specific data from websites. Used both for RAG data preparation and as a live tool for AI agents.",
+  "skill_level_required": "Intermediate",
+  "cost_structure": "Free (Open Source)",
+  "platform_compatibility": [
+    "Python"
+  ],
+  "integration_capabilities": [
+    "LLM integration",
+    "Automatic content cleaning",
+    "Targeted extraction",
+    "RAG pipelines",
+    "AI agent tools",
+    "Website crawling",
+    "Social platform scraping"
+  ],
+  "documentation_url": "https://github.com/unclecode/crawl4ai",
+  "actual_remote_helpers_usage": {
+    "primary_use": "Web Data Extraction for RAG & Agents",
+    "users": [],
+    "use_cases": [
+      "crawl websites",
+      "extract web data",
+      "clean web content",
+      "prepare rag data",
+      "provide agent tools",
+      "scrape live data"
+    ],
+    "workflows": [
+      "WF-RAG-001: Build RAG System",
+      "WF-AI-001: Develop and Deploy AI Application"
+    ]
+  },
+  "strengths": [
+    "Very fast and efficient",
+    "Automatic junk cleaning",
+    "LLM-powered extraction",
+    "Open-source",
+    "Dual use: RAG prep + live agent tool",
+    "Feature-rich"
+  ],
+  "limitations": [
+    "Python only",
+    "May struggle with heavily protected sites",
+    "Social platforms may need alternatives"
+  ],
+  "alternatives": [
+    {
+      "name": "Firecrawl",
+      "comparison": "Good alternative but Crawl4AI is open-source"
+    },
+    {
+      "name": "Scrapy",
+      "comparison": "More traditional, less AI-focused"
+    }
+  ],
+  "departments_using": [],
+  "tags": [
+    "web-scraping",
+    "crawling",
+    "data-extraction",
+    "rag",
+    "open-source",
+    "llm-integration",
+    "content-cleaning"
+  ],
+  "discovery_date": "2025-11-13",
+  "discovery_source": "Video_005",
+  "status": "active",
+  "video_source": {
+    "video_id": "Video_005",
+    "video_title": "My Agentic Engineering Tech Stack",
+    "creator": "Cole",
+    "timestamp": "13:01-19:18"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "entity_type": "TASK_MANAGERS",
+  "sub_entity": "Step_Template",
+  "step_id": "VIDEO-VIDEO-001-15",
+  "step_number": 15,
+  "parent_task": "TASK-TEMPLATE-VIDEO-001",
+  "task_name": "Create Multi-Scene Product Commercial",
+  "name": "Optional: Stitch scenes in video editor",
+  "action": "edit",
+  "tool": "Video editing software (optional)",
+  "responsibility": "Product Marketer",
+  "placement": "Video editor",
+  "duration": "10 minutes (optional)",
+  "dependencies": [14],
+  "inputs": [
+    "All scene videos"
+  ],
+  "outputs": [
+    "Single multi-scene commercial video"
+  ],
+  "success_criteria": "Seamless transitions maintained in final video",
+  "implementation_notes": "Optionally use video editing software to stitch all scenes into a single video file. Since frame chaining already ensures seamless transitions, this is primarily for creating a single deliverable file.",
+  "tags": ["video-editing", "post-production", "optional"],
+  "version": "1.0",
+  "created": "2025-11-15",
+  "last_updated": "2025-11-15",
+  "source": "Video_012"
+}

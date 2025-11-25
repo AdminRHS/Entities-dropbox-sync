@@ -1,0 +1,25 @@
+{
+  "tool_id": "TOOL-DOC-001",
+  "tool_name": "Google Docs",
+  "tool_category": "Document",
+  "description": "Cloud-based word processing platform for creating and collaborating on documents",
+  "skills_count": 1,
+  "last_updated": "2025-11-22",
+  "skills": [
+    {
+      "skill_id": "SKL-041",
+      "skill_phrase": "created proposals in Google Docs",
+      "components": {
+        "action": "create",
+        "object": "proposals",
+        "tool": "Google Docs"
+      },
+      "department": "Sales",
+      "professions": ["sales manager"],
+      "difficulty_level": "beginner",
+      "frequency": "weekly",
+      "time_estimate_minutes": 90,
+      "automation_potential": "medium"
+    }
+  ]
+}

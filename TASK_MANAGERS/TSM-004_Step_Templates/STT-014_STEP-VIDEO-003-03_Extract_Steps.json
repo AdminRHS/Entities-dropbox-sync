@@ -1,0 +1,38 @@
+{
+  "step_template_id": "Step-Template-014",
+  "step_template_name": "Extract Step Templates in ACTION_OBJECT_DETAIL Format",
+  "metadata": {
+    "status": "Active"
+  },
+  "parent_task": {
+    "task_id": "TASK-TEMPLATE-VIDEO-003",
+    "task_name": "Extract Taxonomy Data from Transcription"
+  },
+  "step_details": {
+    "step_number": 3,
+    "order": 3,
+    "action": "extract",
+    "detail": "Create Step Templates using ALL_CAPS naming: ACTION_OBJECT_SPECIFIC_DETAIL with parent task linkage, tool/platform, instructions, validation",
+    "expected_duration": 6
+  },
+  "execution": {
+    "tool_used": "Claude Desktop or Claude Pro",
+    "inputs": [
+      "Task Templates from STEP-VIDEO-003-02",
+      "Step Template format"
+    ],
+    "outputs": [
+      "Section 4C: Step Templates linked to parent tasks"
+    ],
+    "success_criteria": "Step names in ALL_CAPS with specific detail, includes parent task, tool/platform, clear instructions, prerequisites, validation, troubleshooting"
+  },
+  "relationships": {
+    "dependencies": [
+      "STEP-VIDEO-003-02"
+    ],
+    "next_steps": [
+      "STEP-VIDEO-003-04"
+    ],
+    "parallel_steps": []
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "entity_type": "LIBRARIES",
+  "sub_entity": "Tool",
+  "tool_id": "TOOL-SALES-102",
+  "name": "Mayple",
+  "vendor": "Mayple Ltd.",
+  "category": "Specialized Talent Platform / Marketing (AI-Powered) / HR Tools",
+  "purpose": "AI-powered platform for matching businesses with expert marketers, specializing in medium and large businesses with established marketing budgets",
+  "description": "Mayple is an innovative AI-driven marketing talent platform operating more like a digital marketing agency than a traditional freelance marketplace. The platform features 600+ hand-vetted marketing experts matched via AI algorithm based on detailed client briefs. Vetting is performance-based: marketers must demonstrate ability to drive results through previous work benchmarked against industry standards. Each client receives a pre-selected team of experts with a dedicated account manager for quality control. Offers live campaign monitoring for paid ads and requires 3-month minimum commitment (trial period) for substantial, long-term marketing results. Transparent pricing but premium cost reflecting agency-like service.",
+  "skill_level_required": "Intermediate",
+  "cost_structure": "Premium pricing (estimated $5,000-$15,000+/month); 3-month minimum commitment; transparent pricing plans",
+  "platform_compatibility": ["Web Platform", "Campaign Monitoring Dashboard", "AI Matching System"],
+  "integration_capabilities": ["AI-driven matching", "Dedicated account management", "Live campaign monitoring (paid ads)", "Performance tracking"],
+  "documentation_url": "https://www.mayple.com",
+  "actual_remote_helpers_usage": {
+    "primary_use": "Not recommended for current Remote Helpers needs (too expensive, 3-month minimum)",
+    "users": ["Sales/Marketing Leadership (if budget allows)"],
+    "use_cases": [
+      "Long-term marketing strategy and execution (major campaigns, product launches)",
+      "Established marketing budget requiring agency-like service",
+      "AI-driven matching for optimal marketer fit"
+    ],
+    "workflows": ["HIRE_SPECIALIST_CURATED_PLATFORM"],
+    "typical_workflow_pattern": [
+      {
+        "task": "Hire Marketing Expert via Mayple",
+        "steps": [
+          "Complete detailed brief (marketing needs, objectives, budget, timeline)",
+          "Mayple AI analyzes brief and matches with 1 of 600+ vetted marketers",
+          "Client receives pre-selected marketer/team (limited control over selection)",
+          "Dedicated account manager assigned for quality oversight",
+          "3-month trial period begins (minimum commitment)",
+          "Live campaign monitoring for paid ads",
+          "Performance tracked against industry benchmarks"
+        ],
+        "complexity": "Medium-High",
+        "status": "NOT_RECOMMENDED_CURRENT_BUDGET"
+      }
+    ]
+  },
+  "strengths": [
+    "AI-driven matching (fast and data-driven)",
+    "Hand-vetted, performance-proven marketers (600+ network)",
+    "Dedicated account manager (quality control and oversight)",
+    "Live campaign monitoring (real-time insights for paid ads)",
+    "Transparent pricing (straightforward plans)",
+    "User-friendly platform (streamlined after initial setup)",
+    "Agency-like service (more hands-on than marketplace)",
+    "Performance-based vetting (proven results required)"
+  ],
+  "limitations": [
+    "3-month minimum commitment (high barrier to entry)",
+    "Limited client control (pre-selected teams, AI-dependent)",
+    "Higher pricing (not budget-friendly, $5K-$15K+/month estimated)",
+    "Not suitable for small businesses or one-off projects",
+    "Smaller talent pool (600 vs thousands on other platforms)",
+    "Less flexibility in marketer selection (AI chooses)",
+    "Requires established marketing budget"
+  ],
+  "departments_using": ["Sales/Marketing (only if scaling with significant budget)"],
+  "tags": ["ai-powered-matching", "marketing-agency-alternative", "premium-pricing", "long-term-commitment", "performance-based", "account-management"],
+  "discovery_date": "2025-11-22",
+  "discovery_source": "Video_019_Freelance_Remote_Hiring_Websites",
+  "status": "not_recommended_current_needs",
+  "remote_helpers_context": {
+    "relevance_score": 45,
+    "strategic_alignment": "Low alignment - too expensive and inflexible for current needs",
+    "implementation_priority": "Low",
+    "pilot_test_recommendation": "NOT RECOMMENDED - 3-month commitment and premium pricing not suitable",
+    "decision_timeline": "Reconsider only if marketing budget scales to $5K-$15K+/month"
+  },
+  "pricing_examples": {
+    "estimated_monthly_cost": "$5,000-$15,000+/month",
+    "minimum_commitment": "3 months (trial period)",
+    "total_investment_trial": "$15,000-$45,000+ for 3-month minimum"
+  },
+  "vetting_process": {
+    "performance_demonstration": "Marketers must prove ability to drive results with real-world case studies",
+    "industry_benchmarking": "Past work benchmarked against industry standards",
+    "gradual_network_growth": "~600 approved freelancers (quality over quantity)",
+    "result": "Highly curated network of proven marketing experts"
+  },
+  "use_cases_by_department": {
+    "Sales_Marketing_Leadership": "Long-term marketing strategy, major campaign launches, rebranding initiatives"
+  },
+  "when_to_use": [
+    "Established marketing budget ($5,000+/month)",
+    "Need for long-term marketing partnership (3+ months)",
+    "Prefer AI-driven matching over manual selection",
+    "Require quality control and account management",
+    "Focus on measurable, long-term results (not quick wins)",
+    "Company ready to invest in agency-like marketing service"
+  ],
+  "when_not_to_use": [
+    "Testing marketing channels (3-month commitment too long)",
+    "Budget constraints (<$5,000/month)",
+    "Prefer hands-on freelancer selection (limited control with Mayple)",
+    "Need short-term, project-based help",
+    "Small business or bootstrap stage",
+    "Current Remote Helpers needs (MarketerHire better fit)"
+  ],
+  "comparison_with_alternatives": {
+    "vs_MarketerHire": "MarketerHire faster (48 hours), more flexible, no minimum commitment; Mayple more agency-like",
+    "vs_Fiverr": "Mayple for long-term strategy (premium); Fiverr for one-off tasks (budget-friendly)",
+    "vs_UpWork": "Mayple provides curated matching and account management; UpWork requires self-vetting",
+    "vs_Traditional_Agency": "Mayple more cost-effective than agency; traditional agency more hands-on"
+  },
+  "remote_helpers_recommendation": "NOT RECOMMENDED for current needs. MarketerHire offers better flexibility (48-hour matching, no 3-month minimum) at more reasonable cost ($80-$160/hour vs $5K-$15K+/month). Reconsider Mayple only if Remote Helpers scales marketing budget significantly."
+}

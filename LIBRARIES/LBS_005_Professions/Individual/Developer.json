@@ -1,0 +1,232 @@
+{
+  "entity_type": "LIBRARIES",
+  "sub_entity": "Profession",
+  "profession_name": "developer",
+  "full_title": "Software Developer (Full-Stack/Web Developer)",
+  "department": "Technology",
+  "description": "Software developer specializing in web development, open source contributions, technical content creation, and code education with focus on GitHub, Stack Overflow, and developer community engagement",
+  "created": "2025-11-13",
+  "updated": "2025-11-13",
+  "skills": [
+    "SKL-DEV-001",
+    "SKL-DEV-002",
+    "SKL-DEV-003",
+    "SKL-DEV-004",
+    "SKL-DEV-005",
+    "SKL-DEV-006",
+    "SKL-DEV-007",
+    "SKL-DEV-008"
+  ],
+  "skill_details": {
+    "SKL-DEV-001": {
+      "skill_phrase": "developed open source projects on GitHub",
+      "proficiency_level": "advanced",
+      "frequency": "daily"
+    },
+    "SKL-DEV-002": {
+      "skill_phrase": "answered technical questions on Stack Overflow",
+      "proficiency_level": "advanced",
+      "frequency": "weekly"
+    },
+    "SKL-DEV-003": {
+      "skill_phrase": "wrote comprehensive technical tutorials",
+      "proficiency_level": "intermediate",
+      "frequency": "weekly"
+    },
+    "SKL-DEV-004": {
+      "skill_phrase": "contributed to open source community projects",
+      "proficiency_level": "intermediate",
+      "frequency": "weekly"
+    },
+    "SKL-DEV-005": {
+      "skill_phrase": "published technical articles on Dev.to and Medium",
+      "proficiency_level": "intermediate",
+      "frequency": "weekly"
+    },
+    "SKL-DEV-006": {
+      "skill_phrase": "documented code with clear README files",
+      "proficiency_level": "advanced",
+      "frequency": "daily"
+    },
+    "SKL-DEV-007": {
+      "skill_phrase": "managed professional network on LinkedIn",
+      "proficiency_level": "intermediate",
+      "frequency": "weekly"
+    },
+    "SKL-DEV-008": {
+      "skill_phrase": "shared technical insights through Twitter threads",
+      "proficiency_level": "beginner",
+      "frequency": "weekly"
+    }
+  },
+  "tools": [
+    "TOOL-DEV-001",
+    "TOOL-DEV-002",
+    "TOOL-DEV-003",
+    "TOOL-SMM-007",
+    "TOOL-PUB-001",
+    "TOOL-SMM-006",
+    "TOOL-VID-001"
+  ],
+  "tool_details": {
+    "TOOL-DEV-001": "GitHub - PRIMARY platform (daily use) - Code repositories, open source",
+    "TOOL-DEV-002": "Stack Overflow - PRIMARY platform (weekly use) - Q&A expertise building",
+    "TOOL-DEV-003": "Dev.to - PRIMARY platform (weekly use) - Technical blogging",
+    "TOOL-SMM-007": "LinkedIn - SECONDARY platform (weekly use) - Professional networking",
+    "TOOL-PUB-001": "Medium - SECONDARY platform (weekly use) - Long-form technical articles",
+    "TOOL-SMM-006": "Twitter/X - SECONDARY platform (daily use) - Quick tips and community",
+    "TOOL-VID-001": "YouTube - SECONDARY platform (weekly use) - Video tutorials"
+  },
+  "workflows": [],
+  "workflow_details": {},
+  "objects": [],
+  "object_details": {},
+  "actions": [
+    "develop",
+    "code",
+    "commit",
+    "push",
+    "deploy",
+    "debug",
+    "document",
+    "review",
+    "contribute",
+    "answer",
+    "explain",
+    "teach",
+    "share"
+  ],
+  "communication_templates": [],
+  "template_details": {},
+  "typical_tasks": [
+    "Commit code to GitHub repositories daily",
+    "Answer 3-5 Stack Overflow questions per week on relevant topics",
+    "Write 1 technical tutorial per week (Dev.to or Medium)",
+    "Contribute to 1-2 open source projects monthly",
+    "Share GitHub projects on LinkedIn weekly",
+    "Post technical insights on Twitter 3-5 times per week",
+    "Maintain clear documentation in all repositories",
+    "Review pull requests and engage with contributors",
+    "Organize course code materials by lesson/module",
+    "Update portfolio with recent projects monthly"
+  ],
+  "content_strategy": {
+    "github": {
+      "course_code_materials": "40% - Organized by lesson/module",
+      "open_source_projects": "30% - Community-driven projects",
+      "documentation": "20% - README files, wikis, guides",
+      "community_contributions": "10% - PRs to other repositories"
+    },
+    "stack_overflow": {
+      "answer_strategy": "60% - Target course-related questions",
+      "reputation_building": "Consistent daily activity, quality over quantity"
+    },
+    "dev_to": {
+      "technical_tutorials": "40% - Code-heavy tutorials",
+      "industry_insights": "30% - Trend analysis, tool comparisons",
+      "course_highlights": "20% - Project showcases",
+      "career_advice": "10% - Developer career guidance"
+    },
+    "linkedin": {
+      "project_shares": "Share GitHub projects with context",
+      "technical_articles": "Repurpose Dev.to/Medium content",
+      "industry_trends": "Comment on tech developments",
+      "professional_networking": "Connect with other developers"
+    }
+  },
+  "performance_metrics": {
+    "github_stars": "Repository popularity indicator",
+    "github_contributions": "Green squares - commit frequency and consistency",
+    "stack_overflow_reputation": "Expertise and community value",
+    "dev_to_reactions": "Article engagement (hearts, unicorns, bookmarks)",
+    "linkedin_engagement": "Post reach and professional connections",
+    "portfolio_traffic": "GitHub profile visits and repo clicks"
+  },
+  "best_practices": [
+    "GitHub: Clear README files with setup instructions and examples",
+    "GitHub: Proper licensing for all public repositories",
+    "GitHub: Consistent commit messages following conventions",
+    "GitHub: Pin best repositories to profile for visibility",
+    "Stack Overflow: Provide step-by-step solutions with code examples",
+    "Stack Overflow: Link to relevant resources and documentation",
+    "Stack Overflow: Focus on specific tags to build expertise",
+    "Dev.to: Write code-heavy tutorials with working examples",
+    "Dev.to: Use canonical URLs if cross-posting",
+    "Dev.to: Engage with comments and feedback",
+    "LinkedIn: Share projects with business context, not just code",
+    "LinkedIn: Write about impact and results, not just features",
+    "Twitter: Share quick tips and code snippets",
+    "Documentation: Always include contribution guidelines for open source"
+  ],
+  "platform_priorities": {
+    "primary": [
+      "GitHub (daily code repository management)",
+      "Stack Overflow (weekly expertise building)",
+      "Dev.to (weekly technical content)"
+    ],
+    "secondary": [
+      "LinkedIn (weekly professional networking)",
+      "Medium (weekly long-form articles)",
+      "Twitter/X (daily quick tips and community)"
+    ],
+    "tertiary": [
+      "YouTube (weekly video tutorials)",
+      "Personal blog (monthly deep dives)"
+    ]
+  },
+  "github_best_practices": {
+    "repository_structure": [
+      "Clear folder organization",
+      "README.md with project description",
+      "LICENSE file for legal clarity",
+      "CONTRIBUTING.md for open source",
+      ".gitignore for unnecessary files",
+      "Requirements/dependencies file"
+    ],
+    "commit_practices": [
+      "Meaningful commit messages",
+      "Atomic commits (one logical change)",
+      "Regular commits showing progress",
+      "Branch naming conventions",
+      "Pull request templates"
+    ],
+    "documentation": [
+      "Setup/installation instructions",
+      "Usage examples with code",
+      "API documentation if applicable",
+      "Troubleshooting section",
+      "Credits and acknowledgments"
+    ],
+    "community_engagement": [
+      "Respond to issues within 48 hours",
+      "Review PRs promptly",
+      "Welcome first-time contributors",
+      "Maintain CODE_OF_CONDUCT.md",
+      "Tag releases with semantic versioning"
+    ]
+  },
+  "stack_overflow_strategy": {
+    "answer_quality": [
+      "Provide complete, working code examples",
+      "Explain why solution works, not just how",
+      "Link to official documentation",
+      "Update answers as technology evolves",
+      "Format code properly with syntax highlighting"
+    ],
+    "reputation_building": [
+      "Target questions in expertise areas",
+      "Answer questions aligned with course content",
+      "Be first to answer new questions",
+      "Provide thorough, detailed explanations",
+      "Engage with comments constructively"
+    ]
+  },
+  "content_repurposing": {
+    "github_to_dev_to": "Write tutorial about code project",
+    "dev_to_to_medium": "Cross-post technical articles",
+    "medium_to_linkedin": "Share article with professional context",
+    "stack_overflow_to_blog": "Expand popular answers into articles",
+    "youtube_to_github": "Upload tutorial code to repositories"
+  },
+  "source": "SMM_Research_Document_2_Content_Strategy_Multi_Platform"
+}

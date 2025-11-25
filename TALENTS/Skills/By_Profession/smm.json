@@ -1,0 +1,32 @@
+﻿{
+    "skill_id":  "SKL-021",
+    "skill_phrase":  "designed social media posts in Canva",
+    "components":  {
+                       "result":  "designed",
+                       "action":  "design",
+                       "object":  "social media posts",
+                       "object_type":  "Instagram post, LinkedIn banner",
+                       "tool":  "Canva",
+                       "tool_category":  "Design"
+                   },
+    "department":  "Design",
+    "professions":  [
+                        "graphic designer",
+                        "smm"
+                    ],
+    "difficulty_level":  "beginner",
+    "frequency":  "daily",
+    "time_estimate_minutes":  30,
+    "automation_potential":  "medium",
+    "related_skills":  [
+                           "SKL-020",
+                           "SKL-023"
+                       ],
+    "example_tasks":  [
+                          "Create 5 Instagram posts for Remote Helpers company page",
+                          "Design LinkedIn banner for employee announcement"
+                      ],
+    "training_resources":  [
+
+                           ]
+}

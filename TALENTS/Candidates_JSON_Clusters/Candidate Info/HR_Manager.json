@@ -1,0 +1,38 @@
+{
+  "template_name": "HR_Manager",
+  "description": "HR manager assigned to the candidate with contact and profile information",
+  "fields": {
+    "hr_manager": {
+      "type": "object",
+      "fields": {
+        "hr_manager.id": {
+          "type": "int",
+          "description": "Field: id",
+          "example": 8947
+        },
+        "hr_manager.name": {
+          "type": "str",
+          "description": "Field: name",
+          "example": "Неалова Евгения Александровна"
+        },
+        "hr_manager.email": {
+          "type": "str",
+          "description": "Field: email",
+          "example": "zp4058203@gmail.com"
+        },
+        "hr_manager.image_url": {
+          "type": "str",
+          "description": "Field: image_url",
+          "example": "https://crm-s.com/img/default-profile-3.png"
+        },
+        "hr_manager.modules": {
+          "type": "array",
+          "item_type": "unknown",
+          "description": "Array of: modules"
+        }
+      },
+      "description": "Nested object: hr_manager"
+    }
+  }
+}
+

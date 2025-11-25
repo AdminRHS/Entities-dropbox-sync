@@ -1,0 +1,5526 @@
+﻿{
+  "entity_type": "LIBRARIES",
+  "source_file": "Nov25/Entities/LIBRARIES/actions.json",
+  "generated_at": "2025-11-12T01:54:15Z",
+  "last_updated": "2025-11-18",
+  "library": "Actions",
+  "total_actions": 438,
+  "agentic_contexts_note": "Actions now include contexts for agentic AI workflows from Andrew Ng's course. Key agentic actions: reflect (Reflection pattern), coordinate (Multi-Agent), evaluate (Evaluation systems), plan (Planning pattern), establish (Ground truth), measure (Performance metrics), grade (LLM-as-a-judge).",
+  "actions": [
+    {
+      "action_id": "ACTION-001",
+      "action": "abstract",
+      "forms": {
+        "processes": [
+          "abstracting"
+        ],
+        "results": [
+          "abstracted"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-002",
+      "action": "access",
+      "forms": {
+        "processes": [
+          "accessing"
+        ],
+        "results": [
+          "accessed"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-003",
+      "action": "acknowledge",
+      "forms": {
+        "processes": [
+          "acknowledging"
+        ],
+        "results": [
+          "acknowledged"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-004",
+      "action": "adapt",
+      "forms": {
+        "processes": [
+          "Adapting",
+          "adapting"
+        ],
+        "results": [
+          "Adapted",
+          "adapted"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-005",
+      "action": "add",
+      "forms": {
+        "processes": [
+          "adding"
+        ],
+        "results": [
+          "added"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-006",
+      "action": "address",
+      "forms": {
+        "processes": [
+          "addressing"
+        ],
+        "results": [
+          "addressed"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-007",
+      "action": "adjust",
+      "forms": {
+        "processes": [
+          "Adjusting",
+          "adjusting"
+        ],
+        "results": [
+          "Adjusted",
+          "adjusted"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-008",
+      "action": "aggregate",
+      "forms": {
+        "processes": [
+          "aggregating"
+        ],
+        "results": [
+          "aggregated"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-009",
+      "action": "agree",
+      "forms": {
+        "processes": [
+          "agreeing"
+        ],
+        "results": [
+          "agreed"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-010",
+      "action": "Align",
+      "forms": {
+        "processes": [
+          "Aligning",
+          "aligning"
+        ],
+        "results": [
+          "Aligned",
+          "aligned"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-011",
+      "action": "allocate",
+      "forms": {
+        "processes": [
+          "Allocating",
+          "allocating"
+        ],
+        "results": [
+          "Allocated",
+          "allocated"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-012",
+      "action": "analyze",
+      "forms": {
+        "processes": [
+          "Analyzing",
+          "analyzing"
+        ],
+        "results": [
+          "Analyzed",
+          "analyzed"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-013",
+      "action": "animate",
+      "forms": {
+        "processes": [
+          "animating"
+        ],
+        "results": [
+          "animated"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-014",
+      "action": "announce",
+      "forms": {
+        "processes": [
+          "announcing"
+        ],
+        "results": [
+          "announced"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-015",
+      "action": "apply",
+      "forms": {
+        "processes": [
+          "Applying",
+          "applying"
+        ],
+        "results": [
+          "Applied",
+          "applied"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-016",
+      "action": "approve",
+      "forms": {
+        "processes": [
+          "approving"
+        ],
+        "results": [
+          "approved"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-017",
+      "action": "archive",
+      "forms": {
+        "processes": [
+          "archiving"
+        ],
+        "results": [
+          "archived"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-018",
+      "action": "arrange",
+      "forms": {
+        "processes": [
+          "Arranging",
+          "arranging"
+        ],
+        "results": [
+          "Arranged",
+          "arranged"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-019",
+      "action": "ask",
+      "forms": {
+        "processes": [
+          "asking"
+        ],
+        "results": [
+          "asked"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-020",
+      "action": "assemble",
+      "forms": {
+        "processes": [
+          "Assembling",
+          "assembling"
+        ],
+        "results": [
+          "Assembled",
+          "assembled"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-021",
+      "action": "assess",
+      "forms": {
+        "processes": [
+          "Assessing",
+          "assessing"
+        ],
+        "results": [
+          "Assessed",
+          "assessed"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-022",
+      "action": "assign",
+      "forms": {
+        "processes": [
+          "assigning"
+        ],
+        "results": [
+          "assigned"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-023",
+      "action": "assist",
+      "forms": {
+        "processes": [
+          "assisting"
+        ],
+        "results": [
+          "assisted"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-024",
+      "action": "attach",
+      "forms": {
+        "processes": [
+          "attaching"
+        ],
+        "results": [
+          "attached"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-025",
+      "action": "audit",
+      "forms": {
+        "processes": [
+          "Auditing",
+          "auditing"
+        ],
+        "results": [
+          "Audited",
+          "audited"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-026",
+      "action": "automate",
+      "forms": {
+        "processes": [
+          "Automating",
+          "automating"
+        ],
+        "results": [
+          "Automated",
+          "automated"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-027",
+      "action": "back up",
+      "forms": {
+        "processes": [
+          "backing up"
+        ],
+        "results": [
+          "backed up"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-028",
+      "action": "backup",
+      "forms": {
+        "processes": [
+          "backing up"
+        ],
+        "results": [
+          "backed up"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-029",
+      "action": "balance",
+      "forms": {
+        "processes": [
+          "balancing"
+        ],
+        "results": [
+          "balanced"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-030",
+      "action": "begin",
+      "forms": {
+        "processes": [
+          "beginning"
+        ],
+        "results": [
+          "began",
+          "begun"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-031",
+      "action": "bid",
+      "forms": {
+        "processes": [
+          "bidding"
+        ],
+        "results": [
+          "bid"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-032",
+      "action": "blend",
+      "forms": {
+        "processes": [
+          "blending"
+        ],
+        "results": [
+          "blended"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-033",
+      "action": "block",
+      "forms": {
+        "processes": [
+          "blocking"
+        ],
+        "results": [
+          "blocked"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-034",
+      "action": "boost",
+      "forms": {
+        "processes": [
+          "boosting"
+        ],
+        "results": [
+          "boosted"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-035",
+      "action": "brainstorm",
+      "forms": {
+        "processes": [
+          "Brainstorming",
+          "brainstorming"
+        ],
+        "results": [
+          "Brainstormed",
+          "brainstormed"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-036",
+      "action": "break down",
+      "forms": {
+        "processes": [
+          "breaking down"
+        ],
+        "results": [
+          "broken down"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-037",
+      "action": "breakdown",
+      "forms": {
+        "processes": [
+          "breaking down"
+        ],
+        "results": [
+          "broken down"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-038",
+      "action": "build",
+      "forms": {
+        "processes": [
+          "building"
+        ],
+        "results": [
+          "built"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-039",
+      "action": "cache",
+      "forms": {
+        "processes": [
+          "caching"
+        ],
+        "results": [
+          "cached"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-040",
+      "action": "calculate",
+      "forms": {
+        "processes": [
+          "calculating"
+        ],
+        "results": [
+          "calculated"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-041",
+      "action": "calibrate",
+      "forms": {
+        "processes": [
+          "calibrating"
+        ],
+        "results": [
+          "calibrated"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-042",
+      "action": "capture",
+      "forms": {
+        "processes": [
+          "capturing"
+        ],
+        "results": [
+          "captured"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-043",
+      "action": "categorize",
+      "forms": {
+        "processes": [
+          "Categorizing",
+          "categorizing"
+        ],
+        "results": [
+          "Categorized",
+          "categorized"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-044",
+      "action": "celebrate",
+      "forms": {
+        "processes": [
+          "celebrating"
+        ],
+        "results": [
+          "celebrated"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-045",
+      "action": "check",
+      "forms": {
+        "processes": [
+          "Checking",
+          "checking"
+        ],
+        "results": [
+          "Checked",
+          "checked"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-046",
+      "action": "choose",
+      "forms": {
+        "processes": [
+          "Choosing",
+          "choosing"
+        ],
+        "results": [
+          "Chosen",
+          "chosen"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-047",
+      "action": "choreograph",
+      "forms": {
+        "processes": [
+          "choreographing"
+        ],
+        "results": [
+          "choreographed"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-048",
+      "action": "circulate",
+      "forms": {
+        "processes": [
+          "circulating"
+        ],
+        "results": [
+          "circulated"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-049",
+      "action": "clarify",
+      "forms": {
+        "processes": [
+          "clarifying"
+        ],
+        "results": [
+          "clarified"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-050",
+      "action": "classify",
+      "forms": {
+        "processes": [
+          "classifying"
+        ],
+        "results": [
+          "classified"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-051",
+      "action": "clean up",
+      "forms": {
+        "processes": [
+          "cleaning up"
+        ],
+        "results": [
+          "cleaned up"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-052",
+      "action": "code",
+      "forms": {
+        "processes": [
+          "Coding",
+          "coding"
+        ],
+        "results": [
+          "Coded",
+          "coded"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-053",
+      "action": "collaborate",
+      "forms": {
+        "processes": [
+          "collaborating"
+        ],
+        "results": [
+          "collaborated"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-054",
+      "action": "collate",
+      "forms": {
+        "processes": [
+          "collating"
+        ],
+        "results": [
+          "collated"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-055",
+      "action": "collect",
+      "forms": {
+        "processes": [
+          "Collecting",
+          "collecting"
+        ],
+        "results": [
+          "Collected",
+          "collected"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-056",
+      "action": "communicate",
+      "forms": {
+        "processes": [
+          "communicating"
+        ],
+        "results": [
+          "communicated"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-057",
+      "action": "compare",
+      "forms": {
+        "processes": [
+          "comparing"
+        ],
+        "results": [
+          "compared"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-058",
+      "action": "compile",
+      "forms": {
+        "processes": [
+          "Compiling",
+          "compiling"
+        ],
+        "results": [
+          "Compiled",
+          "compiled"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-059",
+      "action": "compose",
+      "forms": {
+        "processes": [
+          "composing"
+        ],
+        "results": [
+          "composed"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-060",
+      "action": "composite",
+      "forms": {
+        "processes": [
+          "compositing"
+        ],
+        "results": [
+          "composited"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-061",
+      "action": "conceptualize",
+      "forms": {
+        "processes": [
+          "conceptualizing"
+        ],
+        "results": [
+          "conceptualized"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-062",
+      "action": "conclude",
+      "forms": {
+        "processes": [
+          "concluding"
+        ],
+        "results": [
+          "concluded"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-063",
+      "action": "conduct",
+      "forms": {
+        "processes": [
+          "Conducting",
+          "conducting"
+        ],
+        "results": [
+          "Conducted",
+          "conducted"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-064",
+      "action": "configure",
+      "forms": {
+        "processes": [
+          "Configuring",
+          "configuring"
+        ],
+        "results": [
+          "Configured",
+          "configured"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-065",
+      "action": "confirm",
+      "forms": {
+        "processes": [
+          "confirming"
+        ],
+        "results": [
+          "confirmed"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-066",
+      "action": "congratulate",
+      "forms": {
+        "processes": [
+          "congratulating"
+        ],
+        "results": [
+          "congratulated"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-067",
+      "action": "consider",
+      "forms": {
+        "processes": [
+          "considering"
+        ],
+        "results": [
+          "considered"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-068",
+      "action": "consolidate",
+      "forms": {
+        "processes": [
+          "consolidating"
+        ],
+        "results": [
+          "consolidated"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-069",
+      "action": "construct",
+      "forms": {
+        "processes": [
+          "constructing"
+        ],
+        "results": [
+          "constructed"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-070",
+      "action": "consult",
+      "forms": {
+        "processes": [
+          "consulting"
+        ],
+        "results": [
+          "consulted"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-071",
+      "action": "contact",
+      "forms": {
+        "processes": [
+          "contacting"
+        ],
+        "results": [
+          "contacted"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-072",
+      "action": "convert",
+      "forms": {
+        "processes": [
+          "Converting",
+          "converting"
+        ],
+        "results": [
+          "Converted",
+          "converted"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-073",
+      "action": "coordinate",
+      "forms": {
+        "processes": [
+          "coordinating"
+        ],
+        "results": [
+          "coordinated"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-074",
+      "action": "correct",
+      "forms": {
+        "processes": [
+          "correcting"
+        ],
+        "results": [
+          "corrected"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-075",
+      "action": "correlate",
+      "forms": {
+        "processes": [
+          "correlating"
+        ],
+        "results": [
+          "correlated"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-076",
+      "action": "craft",
+      "forms": {
+        "processes": [
+          "crafting"
+        ],
+        "results": [
+          "crafted"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-077",
+      "action": "create",
+      "forms": {
+        "processes": [
+          "Creating",
+          "creating"
+        ],
+        "results": [
+          "Created",
+          "created"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-078",
+      "action": "cross-check",
+      "forms": {
+        "processes": [
+          "cross-checking"
+        ],
+        "results": [
+          "cross-checked"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-079",
+      "action": "cross-reference",
+      "forms": {
+        "processes": [
+          "cross-referencing"
+        ],
+        "results": [
+          "cross-referenced"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-080",
+      "action": "cross-verify",
+      "forms": {
+        "processes": [
+          "cross-verifying"
+        ],
+        "results": [
+          "cross-verified"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-081",
+      "action": "curate",
+      "forms": {
+        "processes": [
+          "curating"
+        ],
+        "results": [
+          "curated"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-082",
+      "action": "customize",
+      "forms": {
+        "processes": [
+          "Customizing",
+          "customizing"
+        ],
+        "results": [
+          "Customized",
+          "customized"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-083",
+      "action": "decide",
+      "forms": {
+        "processes": [
+          "deciding"
+        ],
+        "results": [
+          "decided"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-084",
+      "action": "decommission",
+      "forms": {
+        "processes": [
+          "decommissioning"
+        ],
+        "results": [
+          "decommissioned"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-085",
+      "action": "deepen",
+      "forms": {
+        "processes": [
+          "deepening"
+        ],
+        "results": [
+          "deepened"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-086",
+      "action": "define",
+      "forms": {
+        "processes": [
+          "Defining",
+          "defining"
+        ],
+        "results": [
+          "Defined",
+          "defined"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-087",
+      "action": "delegate",
+      "forms": {
+        "processes": [
+          "delegating"
+        ],
+        "results": [
+          "delegated"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-088",
+      "action": "delete",
+      "forms": {
+        "processes": [
+          "deleting"
+        ],
+        "results": [
+          "deleted"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-089",
+      "action": "delineate",
+      "forms": {
+        "processes": [
+          "delineating"
+        ],
+        "results": [
+          "delineated"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-090",
+      "action": "demonstrate",
+      "forms": {
+        "processes": [
+          "demonstrating"
+        ],
+        "results": [
+          "demonstrated"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-091",
+      "action": "deploy",
+      "forms": {
+        "processes": [
+          "Deploying",
+          "deploying"
+        ],
+        "results": [
+          "Deployed",
+          "deployed"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-092",
+      "action": "describe",
+      "forms": {
+        "processes": [
+          "Describing",
+          "describing"
+        ],
+        "results": [
+          "Described",
+          "described"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-093",
+      "action": "design",
+      "forms": {
+        "processes": [
+          "Designing",
+          "designing"
+        ],
+        "results": [
+          "Designed",
+          "designed"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-094",
+      "action": "detail",
+      "forms": {
+        "processes": [
+          "detailing"
+        ],
+        "results": [
+          "detailed"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-095",
+      "action": "detect",
+      "forms": {
+        "processes": [
+          "detecting"
+        ],
+        "results": [
+          "detected"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-096",
+      "action": "determine",
+      "forms": {
+        "processes": [
+          "determining"
+        ],
+        "results": [
+          "determined"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-097",
+      "action": "develop",
+      "forms": {
+        "processes": [
+          "Developing",
+          "developing"
+        ],
+        "results": [
+          "Developed",
+          "developed"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-098",
+      "action": "diagnose",
+      "forms": {
+        "processes": [
+          "diagnosing"
+        ],
+        "results": [
+          "diagnosed"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-099",
+      "action": "differentiate",
+      "forms": {
+        "processes": [
+          "differentiating"
+        ],
+        "results": [
+          "differentiated"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-100",
+      "action": "direct",
+      "forms": {
+        "processes": [
+          "directing"
+        ],
+        "results": [
+          "directed"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-101",
+      "action": "discover",
+      "forms": {
+        "processes": [
+          "discovering"
+        ],
+        "results": [
+          "discovered"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-102",
+      "action": "discuss",
+      "forms": {
+        "processes": [
+          "discussing"
+        ],
+        "results": [
+          "discussed"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-103",
+      "action": "disentangle",
+      "forms": {
+        "processes": [
+          "disentangling"
+        ],
+        "results": [
+          "disentangled"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-104",
+      "action": "dispatch",
+      "forms": {
+        "processes": [
+          "dispatching"
+        ],
+        "results": [
+          "dispatched"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-105",
+      "action": "display",
+      "forms": {
+        "processes": [
+          "displaying"
+        ],
+        "results": [
+          "displayed"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-106",
+      "action": "dissect",
+      "forms": {
+        "processes": [
+          "dissecting"
+        ],
+        "results": [
+          "dissected"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-107",
+      "action": "disseminate",
+      "forms": {
+        "processes": [
+          "disseminating"
+        ],
+        "results": [
+          "disseminated"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-108",
+      "action": "distill",
+      "forms": {
+        "processes": [
+          "distilling"
+        ],
+        "results": [
+          "distilled"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-109",
+      "action": "distribute",
+      "forms": {
+        "processes": [
+          "Distributing",
+          "distributing"
+        ],
+        "results": [
+          "Distributed",
+          "distributed"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-110",
+      "action": "diversify",
+      "forms": {
+        "processes": [
+          "diversifying"
+        ],
+        "results": [
+          "diversified"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-111",
+      "action": "document",
+      "forms": {
+        "processes": [
+          "Documenting",
+          "documenting"
+        ],
+        "results": [
+          "Documented",
+          "documented"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-112",
+      "action": "double-check",
+      "forms": {
+        "processes": [
+          "double-checking"
+        ],
+        "results": [
+          "double-checked"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-113",
+      "action": "download",
+      "forms": {
+        "processes": [
+          "downloading"
+        ],
+        "results": [
+          "downloaded"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-114",
+      "action": "draft",
+      "forms": {
+        "processes": [
+          "Drafting",
+          "drafting"
+        ],
+        "results": [
+          "Drafted",
+          "drafted"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-115",
+      "action": "dramatize",
+      "forms": {
+        "processes": [
+          "dramatizing"
+        ],
+        "results": [
+          "dramatized"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-116",
+      "action": "draw",
+      "forms": {
+        "processes": [
+          "drawing"
+        ],
+        "results": [
+          "drawn"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-117",
+      "action": "drive",
+      "forms": {
+        "processes": [
+          "driving"
+        ],
+        "results": [
+          "driven"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-118",
+      "action": "edit",
+      "forms": {
+        "processes": [
+          "editing"
+        ],
+        "results": [
+          "edited"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-119",
+      "action": "educate",
+      "forms": {
+        "processes": [
+          "educating"
+        ],
+        "results": [
+          "educated"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-120",
+      "action": "elaborate",
+      "forms": {
+        "processes": [
+          "elaborating"
+        ],
+        "results": [
+          "elaborated"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-121",
+      "action": "elevate",
+      "forms": {
+        "processes": [
+          "elevating"
+        ],
+        "results": [
+          "elevated"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-122",
+      "action": "elucidate",
+      "forms": {
+        "processes": [
+          "elucidating"
+        ],
+        "results": [
+          "elucidated"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-123",
+      "action": "embed",
+      "forms": {
+        "processes": [
+          "Embedding",
+          "embedding"
+        ],
+        "results": [
+          "Embedded",
+          "embedded"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-124",
+      "action": "embrace",
+      "forms": {
+        "processes": [
+          "embracing"
+        ],
+        "results": [
+          "embraced"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-125",
+      "action": "emphasize",
+      "forms": {
+        "processes": [
+          "Emphasizing",
+          "emphasizing"
+        ],
+        "results": [
+          "Emphasized",
+          "emphasized"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-126",
+      "action": "employ",
+      "forms": {
+        "processes": [
+          "employing"
+        ],
+        "results": [
+          "employed"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-127",
+      "action": "empower",
+      "forms": {
+        "processes": [
+          "empowering"
+        ],
+        "results": [
+          "empowered"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-128",
+      "action": "enable",
+      "forms": {
+        "processes": [
+          "enabling"
+        ],
+        "results": [
+          "enabled"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-129",
+      "action": "enact",
+      "forms": {
+        "processes": [
+          "enacting"
+        ],
+        "results": [
+          "enacted"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-130",
+      "action": "encode",
+      "forms": {
+        "processes": [
+          "encoding"
+        ],
+        "results": [
+          "encoded"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-131",
+      "action": "encourage",
+      "forms": {
+        "processes": [
+          "encouraging"
+        ],
+        "results": [
+          "encouraged"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-132",
+      "action": "encrypt",
+      "forms": {
+        "processes": [
+          "encrypting"
+        ],
+        "results": [
+          "encrypted"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-133",
+      "action": "endorse",
+      "forms": {
+        "processes": [
+          "endorsing"
+        ],
+        "results": [
+          "endorsed"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-134",
+      "action": "Enforce",
+      "forms": {
+        "processes": [
+          "Enforcing",
+          "enforcing"
+        ],
+        "results": [
+          "Enforced",
+          "enforced"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-135",
+      "action": "engage",
+      "forms": {
+        "processes": [
+          "Engaging",
+          "engaging"
+        ],
+        "results": [
+          "Engaged",
+          "engaged"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-136",
+      "action": "engineer",
+      "forms": {
+        "processes": [
+          "engineering"
+        ],
+        "results": [
+          "engineered"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-137",
+      "action": "enhance",
+      "forms": {
+        "processes": [
+          "Enhancing",
+          "enhancing"
+        ],
+        "results": [
+          "Enhanced",
+          "enhanced"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-138",
+      "action": "enlist",
+      "forms": {
+        "processes": [
+          "enlisting"
+        ],
+        "results": [
+          "enlisted"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-139",
+      "action": "enrich",
+      "forms": {
+        "processes": [
+          "enriching"
+        ],
+        "results": [
+          "enriched"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-140",
+      "action": "ensure",
+      "forms": {
+        "processes": [
+          "Ensuring",
+          "ensuring"
+        ],
+        "results": [
+          "Ensured",
+          "ensured"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-141",
+      "action": "entangle",
+      "forms": {
+        "processes": [
+          "entangling"
+        ],
+        "results": [
+          "entangled"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-142",
+      "action": "enter",
+      "forms": {
+        "processes": [
+          "entering"
+        ],
+        "results": [
+          "entered"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-143",
+      "action": "enumerate",
+      "forms": {
+        "processes": [
+          "enumerating"
+        ],
+        "results": [
+          "enumerated"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-144",
+      "action": "envision",
+      "forms": {
+        "processes": [
+          "envisioning"
+        ],
+        "results": [
+          "envisioned"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-145",
+      "action": "epitomize",
+      "forms": {
+        "processes": [
+          "epitomizing"
+        ],
+        "results": [
+          "epitomized"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-146",
+      "action": "equalize",
+      "forms": {
+        "processes": [
+          "equalizing"
+        ],
+        "results": [
+          "equalized"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-147",
+      "action": "eradicate",
+      "forms": {
+        "processes": [
+          "eradicating"
+        ],
+        "results": [
+          "eradicated"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-148",
+      "action": "escalate",
+      "forms": {
+        "processes": [
+          "escalating"
+        ],
+        "results": [
+          "escalated"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-149",
+      "action": "establish",
+      "forms": {
+        "processes": [
+          "Establishing",
+          "establishing"
+        ],
+        "results": [
+          "Established",
+          "established"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-150",
+      "action": "estimate",
+      "forms": {
+        "processes": [
+          "estimating"
+        ],
+        "results": [
+          "estimated"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-151",
+      "action": "evaluate",
+      "forms": {
+        "processes": [
+          "Evaluating",
+          "evaluating"
+        ],
+        "results": [
+          "Evaluated",
+          "evaluated"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-152",
+      "action": "evolve",
+      "forms": {
+        "processes": [
+          "evolving"
+        ],
+        "results": [
+          "evolved"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-153",
+      "action": "examine",
+      "forms": {
+        "processes": [
+          "examining"
+        ],
+        "results": [
+          "examined"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-154",
+      "action": "exchange",
+      "forms": {
+        "processes": [
+          "exchanging"
+        ],
+        "results": [
+          "exchanged"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-155",
+      "action": "execute",
+      "forms": {
+        "processes": [
+          "Executing",
+          "executing"
+        ],
+        "results": [
+          "Executed",
+          "executed"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-156",
+      "action": "expedite",
+      "forms": {
+        "processes": [
+          "expediting"
+        ],
+        "results": [
+          "expedited"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-157",
+      "action": "experiment",
+      "forms": {
+        "processes": [
+          "Experimenting",
+          "experimenting"
+        ],
+        "results": [
+          "Experimented",
+          "experimented"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-158",
+      "action": "explain",
+      "forms": {
+        "processes": [
+          "explaining"
+        ],
+        "results": [
+          "explained"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-159",
+      "action": "explore",
+      "forms": {
+        "processes": [
+          "exploring"
+        ],
+        "results": [
+          "explored"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-160",
+      "action": "Export",
+      "forms": {
+        "processes": [
+          "Exporting"
+        ],
+        "results": [
+          "Exported"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-161",
+      "action": "express",
+      "forms": {
+        "processes": [
+          "expressing"
+        ],
+        "results": [
+          "expressed"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-162",
+      "action": "extend",
+      "forms": {
+        "processes": [
+          "extending"
+        ],
+        "results": [
+          "extended"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-163",
+      "action": "extract",
+      "forms": {
+        "processes": [
+          "extracting"
+        ],
+        "results": [
+          "extracted"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-164",
+      "action": "extrapolate",
+      "forms": {
+        "processes": [
+          "extrapolating"
+        ],
+        "results": [
+          "extrapolated"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-165",
+      "action": "fabricate",
+      "forms": {
+        "processes": [
+          "fabricating"
+        ],
+        "results": [
+          "fabricated"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-166",
+      "action": "facilitate",
+      "forms": {
+        "processes": [
+          "facilitating"
+        ],
+        "results": [
+          "facilitated"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-167",
+      "action": "Fetch",
+      "forms": {
+        "processes": [
+          "Fetching"
+        ],
+        "results": [
+          "Fetched"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-168",
+      "action": "file",
+      "forms": {
+        "processes": [
+          "filing"
+        ],
+        "results": [
+          "filed"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-169",
+      "action": "fill",
+      "forms": {
+        "processes": [
+          "filling"
+        ],
+        "results": [
+          "filled"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-170",
+      "action": "film",
+      "forms": {
+        "processes": [
+          "filming"
+        ],
+        "results": [
+          "filmed"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-171",
+      "action": "finalize",
+      "forms": {
+        "processes": [
+          "Finalizing",
+          "finalizing"
+        ],
+        "results": [
+          "Finalized",
+          "finalized"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-172",
+      "action": "fine-tune",
+      "forms": {
+        "processes": [
+          "Fine-tuning",
+          "fine-tuning"
+        ],
+        "results": [
+          "Fine-tuned",
+          "fine-tuned"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-173",
+      "action": "flag",
+      "forms": {
+        "processes": [
+          "flagging"
+        ],
+        "results": [
+          "flagged"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-174",
+      "action": "focus",
+      "forms": {
+        "processes": [
+          "Focusing",
+          "focusing"
+        ],
+        "results": [
+          "Focused",
+          "focused"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-175",
+      "action": "follow",
+      "forms": {
+        "processes": [
+          "following"
+        ],
+        "results": [
+          "followed"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-176",
+      "action": "follow up",
+      "forms": {
+        "processes": [
+          "following up"
+        ],
+        "results": [
+          "followed up"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-177",
+      "action": "forecast",
+      "forms": {
+        "processes": [
+          "forecasting"
+        ],
+        "results": [
+          "forecasted"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-178",
+      "action": "form",
+      "forms": {
+        "processes": [
+          "forming"
+        ],
+        "results": [
+          "formed"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-179",
+      "action": "formalize",
+      "forms": {
+        "processes": [
+          "formalizing"
+        ],
+        "results": [
+          "formalized"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-180",
+      "action": "format",
+      "forms": {
+        "processes": [
+          "formatting"
+        ],
+        "results": [
+          "formatted"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-181",
+      "action": "formulate",
+      "forms": {
+        "processes": [
+          "formulating"
+        ],
+        "results": [
+          "formulated"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-182",
+      "action": "fortify",
+      "forms": {
+        "processes": [
+          "fortifying"
+        ],
+        "results": [
+          "fortified"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-183",
+      "action": "foster",
+      "forms": {
+        "processes": [
+          "fostering"
+        ],
+        "results": [
+          "fostered"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-184",
+      "action": "frame",
+      "forms": {
+        "processes": [
+          "framing"
+        ],
+        "results": [
+          "framed"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-185",
+      "action": "fulfill",
+      "forms": {
+        "processes": [
+          "fulfilling"
+        ],
+        "results": [
+          "fulfilled"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-186",
+      "action": "gain",
+      "forms": {
+        "processes": [
+          "gaining"
+        ],
+        "results": [
+          "gained"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-187",
+      "action": "gather",
+      "forms": {
+        "processes": [
+          "Gathering",
+          "gathering"
+        ],
+        "results": [
+          "Gathered",
+          "gathered"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-188",
+      "action": "gauge",
+      "forms": {
+        "processes": [
+          "gauging"
+        ],
+        "results": [
+          "gauged"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-189",
+      "action": "generate",
+      "forms": {
+        "processes": [
+          "Generating",
+          "generating"
+        ],
+        "results": [
+          "Generated",
+          "generated"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-190",
+      "action": "get",
+      "forms": {
+        "processes": [
+          "Getting",
+          "getting"
+        ],
+        "results": [
+          "Gotten",
+          "got"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-191",
+      "action": "govern",
+      "forms": {
+        "processes": [
+          "governing"
+        ],
+        "results": [
+          "governed"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-192",
+      "action": "grade",
+      "forms": {
+        "processes": [
+          "grading"
+        ],
+        "results": [
+          "graded"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-193",
+      "action": "grasp",
+      "forms": {
+        "processes": [
+          "grasping"
+        ],
+        "results": [
+          "grasped"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-194",
+      "action": "guide",
+      "forms": {
+        "processes": [
+          "guiding"
+        ],
+        "results": [
+          "guided"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-195",
+      "action": "handle",
+      "forms": {
+        "processes": [
+          "handling"
+        ],
+        "results": [
+          "handled"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-196",
+      "action": "harness",
+      "forms": {
+        "processes": [
+          "harnessing"
+        ],
+        "results": [
+          "harnessed"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-197",
+      "action": "heighten",
+      "forms": {
+        "processes": [
+          "heightening"
+        ],
+        "results": [
+          "heightened"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-198",
+      "action": "highlight",
+      "forms": {
+        "processes": [
+          "Highlighting",
+          "highlighting"
+        ],
+        "results": [
+          "Highlighted",
+          "highlighted"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-199",
+      "action": "hold",
+      "forms": {
+        "processes": [
+          "Holding",
+          "holding"
+        ],
+        "results": [
+          "Held",
+          "held"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-200",
+      "action": "host",
+      "forms": {
+        "processes": [
+          "hosting"
+        ],
+        "results": [
+          "hosted"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-201",
+      "action": "identify",
+      "forms": {
+        "processes": [
+          "Identifying",
+          "identifying"
+        ],
+        "results": [
+          "Identified",
+          "identified"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-202",
+      "action": "illuminate",
+      "forms": {
+        "processes": [
+          "illuminating"
+        ],
+        "results": [
+          "illuminated"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-203",
+      "action": "implement",
+      "forms": {
+        "processes": [
+          "Implementing",
+          "implementing"
+        ],
+        "results": [
+          "Implemented",
+          "implemented"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-204",
+      "action": "import",
+      "forms": {
+        "processes": [
+          "importing"
+        ],
+        "results": [
+          "imported"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-205",
+      "action": "Improve",
+      "forms": {
+        "processes": [
+          "Improving",
+          "improving"
+        ],
+        "results": [
+          "Improved",
+          "improved"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-206",
+      "action": "include",
+      "forms": {
+        "processes": [
+          "Including",
+          "including"
+        ],
+        "results": [
+          "Included",
+          "included"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-207",
+      "action": "incorporate",
+      "forms": {
+        "processes": [
+          "Incorporating",
+          "incorporating"
+        ],
+        "results": [
+          "Incorporated",
+          "incorporated"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-208",
+      "action": "Increase",
+      "forms": {
+        "processes": [
+          "Increasing",
+          "increasing"
+        ],
+        "results": [
+          "Increased",
+          "increased"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-209",
+      "action": "influence",
+      "forms": {
+        "processes": [
+          "influencing"
+        ],
+        "results": [
+          "influenced"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-210",
+      "action": "inform",
+      "forms": {
+        "processes": [
+          "informing"
+        ],
+        "results": [
+          "informed"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-211",
+      "action": "initiate",
+      "forms": {
+        "processes": [
+          "initiating"
+        ],
+        "results": [
+          "initiated"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-212",
+      "action": "innovate",
+      "forms": {
+        "processes": [
+          "innovating"
+        ],
+        "results": [
+          "innovated"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-213",
+      "action": "input",
+      "forms": {
+        "processes": [
+          "inputting"
+        ],
+        "results": [
+          "inputted"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-214",
+      "action": "inspect",
+      "forms": {
+        "processes": [
+          "inspecting"
+        ],
+        "results": [
+          "inspected"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-215",
+      "action": "inspire",
+      "forms": {
+        "processes": [
+          "inspiring"
+        ],
+        "results": [
+          "inspired"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-216",
+      "action": "install",
+      "forms": {
+        "processes": [
+          "installing"
+        ],
+        "results": [
+          "installed"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-217",
+      "action": "instruct",
+      "forms": {
+        "processes": [
+          "instructing"
+        ],
+        "results": [
+          "instructed"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-218",
+      "action": "integrate",
+      "forms": {
+        "processes": [
+          "Integrating",
+          "integrating"
+        ],
+        "results": [
+          "Integrated",
+          "integrated"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-219",
+      "action": "interpret",
+      "forms": {
+        "processes": [
+          "interpreting"
+        ],
+        "results": [
+          "interpreted"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-220",
+      "action": "intervene",
+      "forms": {
+        "processes": [
+          "intervening"
+        ],
+        "results": [
+          "intervened"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-221",
+      "action": "introduce",
+      "forms": {
+        "processes": [
+          "introducing"
+        ],
+        "results": [
+          "introduced"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-222",
+      "action": "invent",
+      "forms": {
+        "processes": [
+          "inventing"
+        ],
+        "results": [
+          "invented"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-223",
+      "action": "investigate",
+      "forms": {
+        "processes": [
+          "investigating"
+        ],
+        "results": [
+          "investigated"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-224",
+      "action": "involve",
+      "forms": {
+        "processes": [
+          "involving"
+        ],
+        "results": [
+          "involved"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-225",
+      "action": "isolate",
+      "forms": {
+        "processes": [
+          "isolating"
+        ],
+        "results": [
+          "isolated"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-226",
+      "action": "issue",
+      "forms": {
+        "processes": [
+          "issuing"
+        ],
+        "results": [
+          "issued"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-227",
+      "action": "itemize",
+      "forms": {
+        "processes": [
+          "itemizing"
+        ],
+        "results": [
+          "itemized"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-228",
+      "action": "iterate",
+      "forms": {
+        "processes": [
+          "Iterating",
+          "iterating"
+        ],
+        "results": [
+          "Iterated",
+          "iterated"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-229",
+      "action": "join",
+      "forms": {
+        "processes": [
+          "joining"
+        ],
+        "results": [
+          "joined"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-230",
+      "action": "juxtapose",
+      "forms": {
+        "processes": [
+          "juxtaposing"
+        ],
+        "results": [
+          "juxtaposed"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-231",
+      "action": "keep",
+      "forms": {
+        "processes": [
+          "keeping"
+        ],
+        "results": [
+          "kept"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-232",
+      "action": "kickstart",
+      "forms": {
+        "processes": [
+          "kickstarting"
+        ],
+        "results": [
+          "kickstarted"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-233",
+      "action": "label",
+      "forms": {
+        "processes": [
+          "labeling"
+        ],
+        "results": [
+          "labeled"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-234",
+      "action": "launch",
+      "forms": {
+        "processes": [
+          "launching"
+        ],
+        "results": [
+          "launched"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-235",
+      "action": "layer",
+      "forms": {
+        "processes": [
+          "layering"
+        ],
+        "results": [
+          "layered"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-236",
+      "action": "layout",
+      "forms": {
+        "processes": [
+          "Layouting",
+          "laying out"
+        ],
+        "results": [
+          "Layouted",
+          "laid out"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-237",
+      "action": "lead",
+      "forms": {
+        "processes": [
+          "leading"
+        ],
+        "results": [
+          "led"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-238",
+      "action": "learn",
+      "forms": {
+        "processes": [
+          "learning"
+        ],
+        "results": [
+          "learned"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-239",
+      "action": "leverage",
+      "forms": {
+        "processes": [
+          "leveraging"
+        ],
+        "results": [
+          "leveraged"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-240",
+      "action": "liaise",
+      "forms": {
+        "processes": [
+          "liaising"
+        ],
+        "results": [
+          "liaised"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-241",
+      "action": "light",
+      "forms": {
+        "processes": [
+          "lighting"
+        ],
+        "results": [
+          "lighted"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-242",
+      "action": "Limit",
+      "forms": {
+        "processes": [
+          "Limiting",
+          "limiting"
+        ],
+        "results": [
+          "Limited",
+          "limited"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-243",
+      "action": "link",
+      "forms": {
+        "processes": [
+          "linking"
+        ],
+        "results": [
+          "linked"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-244",
+      "action": "list",
+      "forms": {
+        "processes": [
+          "listing"
+        ],
+        "results": [
+          "listed"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-245",
+      "action": "listen",
+      "forms": {
+        "processes": [
+          "listening"
+        ],
+        "results": [
+          "listened"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-246",
+      "action": "livestream",
+      "forms": {
+        "processes": [
+          "livestreaming"
+        ],
+        "results": [
+          "livestreamed"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-247",
+      "action": "Load",
+      "forms": {
+        "processes": [
+          "Loading"
+        ],
+        "results": [
+          "Loaded"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-248",
+      "action": "locate",
+      "forms": {
+        "processes": [
+          "locating"
+        ],
+        "results": [
+          "located"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-249",
+      "action": "lock",
+      "forms": {
+        "processes": [
+          "locking"
+        ],
+        "results": [
+          "locked"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-250",
+      "action": "log",
+      "forms": {
+        "processes": [
+          "logging"
+        ],
+        "results": [
+          "logged"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-251",
+      "action": "maintain",
+      "forms": {
+        "processes": [
+          "Maintaining",
+          "maintaining"
+        ],
+        "results": [
+          "Maintained",
+          "maintained"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-252",
+      "action": "make",
+      "forms": {
+        "processes": [
+          "Making",
+          "making"
+        ],
+        "results": [
+          "Made",
+          "made"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-253",
+      "action": "manage",
+      "forms": {
+        "processes": [
+          "Managing",
+          "managing"
+        ],
+        "results": [
+          "Managed",
+          "managed"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-254",
+      "action": "map",
+      "forms": {
+        "processes": [
+          "Mapping",
+          "mapping"
+        ],
+        "results": [
+          "Mapped",
+          "mapped"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-255",
+      "action": "map out",
+      "forms": {
+        "processes": [
+          "Mapping out",
+          "mapping out"
+        ],
+        "results": [
+          "Mapped out",
+          "mapped out"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-256",
+      "action": "mark",
+      "forms": {
+        "processes": [
+          "marking"
+        ],
+        "results": [
+          "marked"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-257",
+      "action": "mask",
+      "forms": {
+        "processes": [
+          "masking"
+        ],
+        "results": [
+          "masked"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-258",
+      "action": "match",
+      "forms": {
+        "processes": [
+          "matching"
+        ],
+        "results": [
+          "matched"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-259",
+      "action": "maximize",
+      "forms": {
+        "processes": [
+          "maximizing"
+        ],
+        "results": [
+          "maximized"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-260",
+      "action": "measure",
+      "forms": {
+        "processes": [
+          "measuring"
+        ],
+        "results": [
+          "measured"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-261",
+      "action": "meet",
+      "forms": {
+        "processes": [
+          "meeting"
+        ],
+        "results": [
+          "met"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-262",
+      "action": "Merge",
+      "forms": {
+        "processes": [
+          "Merging",
+          "merging"
+        ],
+        "results": [
+          "Merged",
+          "merged"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-263",
+      "action": "Minimize",
+      "forms": {
+        "processes": [
+          "Minimizing",
+          "minimizing"
+        ],
+        "results": [
+          "Minimized",
+          "minimized"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-264",
+      "action": "model",
+      "forms": {
+        "processes": [
+          "modeling"
+        ],
+        "results": [
+          "modeled"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-265",
+      "action": "modify",
+      "forms": {
+        "processes": [
+          "Modifying",
+          "modifying"
+        ],
+        "results": [
+          "Modified",
+          "modified"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-266",
+      "action": "monitor",
+      "forms": {
+        "processes": [
+          "Monitoring",
+          "monitoring"
+        ],
+        "results": [
+          "Monitored",
+          "monitored"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-267",
+      "action": "morph",
+      "forms": {
+        "processes": [
+          "morphing"
+        ],
+        "results": [
+          "morphed"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-268",
+      "action": "move",
+      "forms": {
+        "processes": [
+          "moving"
+        ],
+        "results": [
+          "moved"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-269",
+      "action": "narrate",
+      "forms": {
+        "processes": [
+          "narrating"
+        ],
+        "results": [
+          "narrated"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-270",
+      "action": "negotiate",
+      "forms": {
+        "processes": [
+          "negotiating"
+        ],
+        "results": [
+          "negotiated"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-271",
+      "action": "normalize",
+      "forms": {
+        "processes": [
+          "normalizing"
+        ],
+        "results": [
+          "normalized"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-272",
+      "action": "note",
+      "forms": {
+        "processes": [
+          "notifying",
+          "noting"
+        ],
+        "results": [
+          "noted",
+          "notified"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-273",
+      "action": "notify",
+      "forms": {
+        "processes": [
+          "notifying",
+          "noting"
+        ],
+        "results": [
+          "noted",
+          "notified"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-274",
+      "action": "obtain",
+      "forms": {
+        "processes": [
+          "obtaining"
+        ],
+        "results": [
+          "obtained"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-275",
+      "action": "offer",
+      "forms": {
+        "processes": [
+          "offering"
+        ],
+        "results": [
+          "offered"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-276",
+      "action": "Open",
+      "forms": {
+        "processes": [
+          "Opening"
+        ],
+        "results": [
+          "Opened"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-277",
+      "action": "optimize",
+      "forms": {
+        "processes": [
+          "Optimizing",
+          "optimizing"
+        ],
+        "results": [
+          "Optimized",
+          "optimized"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-278",
+      "action": "organize",
+      "forms": {
+        "processes": [
+          "organizing"
+        ],
+        "results": [
+          "organized"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-279",
+      "action": "outline",
+      "forms": {
+        "processes": [
+          "Outlining",
+          "outlining"
+        ],
+        "results": [
+          "Outlined",
+          "outlined"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-280",
+      "action": "oversee",
+      "forms": {
+        "processes": [
+          "overseeing"
+        ],
+        "results": [
+          "overseen"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-281",
+      "action": "package",
+      "forms": {
+        "processes": [
+          "packaging"
+        ],
+        "results": [
+          "packaged"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-282",
+      "action": "paint",
+      "forms": {
+        "processes": [
+          "painting"
+        ],
+        "results": [
+          "painted"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-283",
+      "action": "perform",
+      "forms": {
+        "processes": [
+          "Performing",
+          "performing"
+        ],
+        "results": [
+          "Performed",
+          "performed"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-284",
+      "action": "personalize",
+      "forms": {
+        "processes": [
+          "personalizing"
+        ],
+        "results": [
+          "personalized"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-285",
+      "action": "pilot",
+      "forms": {
+        "processes": [
+          "piloting"
+        ],
+        "results": [
+          "piloted"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-286",
+      "action": "pivot",
+      "forms": {
+        "processes": [
+          "pivoting"
+        ],
+        "results": [
+          "pivoted"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-287",
+      "action": "place",
+      "forms": {
+        "processes": [
+          "placing"
+        ],
+        "results": [
+          "placed"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-288",
+      "action": "plan",
+      "forms": {
+        "processes": [
+          "Planning",
+          "planning"
+        ],
+        "results": [
+          "Planned",
+          "planned"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-289",
+      "action": "plot",
+      "forms": {
+        "processes": [
+          "plotting"
+        ],
+        "results": [
+          "plotted"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-290",
+      "action": "position",
+      "forms": {
+        "processes": [
+          "positioning"
+        ],
+        "results": [
+          "positioned"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-291",
+      "action": "post",
+      "forms": {
+        "processes": [
+          "posting"
+        ],
+        "results": [
+          "posted"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-292",
+      "action": "Practice",
+      "forms": {
+        "processes": [
+          "Practicing"
+        ],
+        "results": [
+          "Practiced"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-293",
+      "action": "pre-approve",
+      "forms": {
+        "processes": [
+          "pre-approving"
+        ],
+        "results": [
+          "pre-approved"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-294",
+      "action": "predict",
+      "forms": {
+        "processes": [
+          "predicting"
+        ],
+        "results": [
+          "predicted"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-295",
+      "action": "prepare",
+      "forms": {
+        "processes": [
+          "Preparing",
+          "preparing"
+        ],
+        "results": [
+          "Prepared",
+          "prepared"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-296",
+      "action": "present",
+      "forms": {
+        "processes": [
+          "Presenting",
+          "presenting"
+        ],
+        "results": [
+          "Presented",
+          "presented"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-297",
+      "action": "preview",
+      "forms": {
+        "processes": [
+          "Previewing",
+          "previewing"
+        ],
+        "results": [
+          "Previewed",
+          "previewed"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-298",
+      "action": "prioritize",
+      "forms": {
+        "processes": [
+          "prioritizing"
+        ],
+        "results": [
+          "prioritized"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-299",
+      "action": "process",
+      "forms": {
+        "processes": [
+          "processing"
+        ],
+        "results": [
+          "processed"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-300",
+      "action": "procure",
+      "forms": {
+        "processes": [
+          "procuring"
+        ],
+        "results": [
+          "procured"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-301",
+      "action": "produce",
+      "forms": {
+        "processes": [
+          "producing"
+        ],
+        "results": [
+          "produced"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-302",
+      "action": "profile",
+      "forms": {
+        "processes": [
+          "profiling"
+        ],
+        "results": [
+          "profiled"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-303",
+      "action": "program",
+      "forms": {
+        "processes": [
+          "programming"
+        ],
+        "results": [
+          "programmed"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-304",
+      "action": "proofread",
+      "forms": {
+        "processes": [
+          "proofreading"
+        ],
+        "results": [
+          "proofread"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-305",
+      "action": "propose",
+      "forms": {
+        "processes": [
+          "proposing"
+        ],
+        "results": [
+          "proposed"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-306",
+      "action": "prototype",
+      "forms": {
+        "processes": [
+          "Prototyping",
+          "prototyping"
+        ],
+        "results": [
+          "Prototyped",
+          "prototyped"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-307",
+      "action": "provide",
+      "forms": {
+        "processes": [
+          "Providing",
+          "providing"
+        ],
+        "results": [
+          "Provided",
+          "provided"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-308",
+      "action": "publish",
+      "forms": {
+        "processes": [
+          "Publishing",
+          "publishing"
+        ],
+        "results": [
+          "Published",
+          "published"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-309",
+      "action": "pull",
+      "forms": {
+        "processes": [
+          "pulling"
+        ],
+        "results": [
+          "pulled"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-310",
+      "action": "Push",
+      "forms": {
+        "processes": [
+          "Pushing"
+        ],
+        "results": [
+          "Pushed"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-311",
+      "action": "re-engage",
+      "forms": {
+        "processes": [
+          "re-engaging"
+        ],
+        "results": [
+          "re-engaged"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-312",
+      "action": "re-organize",
+      "forms": {
+        "processes": [
+          "re-organizing"
+        ],
+        "results": [
+          "re-organized"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-313",
+      "action": "re-publish",
+      "forms": {
+        "processes": [
+          "re-publishing"
+        ],
+        "results": [
+          "re-published"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-314",
+      "action": "re-script",
+      "forms": {
+        "processes": [
+          "re-scripting"
+        ],
+        "results": [
+          "re-scripted"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-315",
+      "action": "re-submit",
+      "forms": {
+        "processes": [
+          "re-submitting"
+        ],
+        "results": [
+          "re-submitted"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-316",
+      "action": "reach out",
+      "forms": {
+        "processes": [
+          "reaching out"
+        ],
+        "results": [
+          "reached out"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-317",
+      "action": "reallocate",
+      "forms": {
+        "processes": [
+          "reallocating"
+        ],
+        "results": [
+          "reallocated"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-318",
+      "action": "rearrange",
+      "forms": {
+        "processes": [
+          "rearranging"
+        ],
+        "results": [
+          "rearranged"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-319",
+      "action": "reassess",
+      "forms": {
+        "processes": [
+          "reassessing"
+        ],
+        "results": [
+          "reassessed"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-320",
+      "action": "reassign",
+      "forms": {
+        "processes": [
+          "reassigning"
+        ],
+        "results": [
+          "reassigned"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-321",
+      "action": "Receive",
+      "forms": {
+        "processes": [
+          "Receiving",
+          "receiving"
+        ],
+        "results": [
+          "Received",
+          "received"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-322",
+      "action": "recommend",
+      "forms": {
+        "processes": [
+          "recommending"
+        ],
+        "results": [
+          "recommended"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-323",
+      "action": "record",
+      "forms": {
+        "processes": [
+          "Recording",
+          "recording"
+        ],
+        "results": [
+          "Recorded",
+          "recorded"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-324",
+      "action": "recruit",
+      "forms": {
+        "processes": [
+          "recruiting"
+        ],
+        "results": [
+          "recruited"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-325",
+      "action": "rectify",
+      "forms": {
+        "processes": [
+          "rectifying"
+        ],
+        "results": [
+          "rectified"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-326",
+      "action": "redefine",
+      "forms": {
+        "processes": [
+          "redefining"
+        ],
+        "results": [
+          "redefined"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-327",
+      "action": "redesign",
+      "forms": {
+        "processes": [
+          "redesigning"
+        ],
+        "results": [
+          "redesigned"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-328",
+      "action": "redistribute",
+      "forms": {
+        "processes": [
+          "redistributing"
+        ],
+        "results": [
+          "redistributed"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-329",
+      "action": "redraft",
+      "forms": {
+        "processes": [
+          "redrafting"
+        ],
+        "results": [
+          "redrafted"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-330",
+      "action": "Reevaluate",
+      "forms": {
+        "processes": [
+          "Reevaluating"
+        ],
+        "results": [
+          "Reevaluated"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-331",
+      "action": "Refactor",
+      "forms": {
+        "processes": [
+          "Refactoring",
+          "refactoring"
+        ],
+        "results": [
+          "Refactored",
+          "refactored"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-332",
+      "action": "refine",
+      "forms": {
+        "processes": [
+          "Refining",
+          "refining"
+        ],
+        "results": [
+          "Refined",
+          "refined"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-333",
+      "action": "reflect",
+      "forms": {
+        "processes": [
+          "reflecting"
+        ],
+        "results": [
+          "reflected"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-334",
+      "action": "Reformat",
+      "forms": {
+        "processes": [
+          "Reformatting"
+        ],
+        "results": [
+          "Reformatted"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-335",
+      "action": "refresh",
+      "forms": {
+        "processes": [
+          "refreshing"
+        ],
+        "results": [
+          "refreshed"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-336",
+      "action": "regularly check",
+      "forms": {
+        "processes": [
+          "regularly checking"
+        ],
+        "results": [
+          "regularly checked"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-337",
+      "action": "regularly update",
+      "forms": {
+        "processes": [
+          "regularly updating"
+        ],
+        "results": [
+          "regularly updated"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-338",
+      "action": "rehearse",
+      "forms": {
+        "processes": [
+          "rehearsing"
+        ],
+        "results": [
+          "rehearsed"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-339",
+      "action": "reinforce",
+      "forms": {
+        "processes": [
+          "reinforcing"
+        ],
+        "results": [
+          "reinforced"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-340",
+      "action": "reiterate",
+      "forms": {
+        "processes": [
+          "reiterating"
+        ],
+        "results": [
+          "reiterated"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-341",
+      "action": "remind",
+      "forms": {
+        "processes": [
+          "reminding"
+        ],
+        "results": [
+          "reminded"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-342",
+      "action": "remove",
+      "forms": {
+        "processes": [
+          "removing"
+        ],
+        "results": [
+          "removed"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-343",
+      "action": "render",
+      "forms": {
+        "processes": [
+          "rendering"
+        ],
+        "results": [
+          "rendered"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-344",
+      "action": "replace",
+      "forms": {
+        "processes": [
+          "replacing"
+        ],
+        "results": [
+          "replaced"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-345",
+      "action": "report",
+      "forms": {
+        "processes": [
+          "reporting"
+        ],
+        "results": [
+          "reported"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-346",
+      "action": "republish",
+      "forms": {
+        "processes": [
+          "republishing"
+        ],
+        "results": [
+          "republished"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-347",
+      "action": "request",
+      "forms": {
+        "processes": [
+          "requesting"
+        ],
+        "results": [
+          "requested"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-348",
+      "action": "research",
+      "forms": {
+        "processes": [
+          "Researching",
+          "researching"
+        ],
+        "results": [
+          "Researched",
+          "researched"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-349",
+      "action": "resend",
+      "forms": {
+        "processes": [
+          "resending"
+        ],
+        "results": [
+          "resent"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-350",
+      "action": "reserve",
+      "forms": {
+        "processes": [
+          "reserving"
+        ],
+        "results": [
+          "reserved"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-351",
+      "action": "Resolve",
+      "forms": {
+        "processes": [
+          "Resolving",
+          "resolving"
+        ],
+        "results": [
+          "Resolved",
+          "resolved"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-352",
+      "action": "respond",
+      "forms": {
+        "processes": [
+          "responding"
+        ],
+        "results": [
+          "responded"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-353",
+      "action": "restore",
+      "forms": {
+        "processes": [
+          "restoring"
+        ],
+        "results": [
+          "restored"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-354",
+      "action": "restrict",
+      "forms": {
+        "processes": [
+          "restricting"
+        ],
+        "results": [
+          "restricted"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-355",
+      "action": "Retain",
+      "forms": {
+        "processes": [
+          "Retaining"
+        ],
+        "results": [
+          "Retained"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-356",
+      "action": "Retest",
+      "forms": {
+        "processes": [
+          "Retesting",
+          "retesting"
+        ],
+        "results": [
+          "Retested",
+          "retested"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-357",
+      "action": "retrieve",
+      "forms": {
+        "processes": [
+          "Retrieving",
+          "retrieving"
+        ],
+        "results": [
+          "Retrieved",
+          "retrieved"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-358",
+      "action": "review",
+      "forms": {
+        "processes": [
+          "Reviewing",
+          "reviewing"
+        ],
+        "results": [
+          "Reviewed",
+          "reviewed"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-359",
+      "action": "review and adjust",
+      "forms": {
+        "processes": [
+          "reviewing and adjusting"
+        ],
+        "results": [
+          "reviewed and adjusted"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-360",
+      "action": "revise",
+      "forms": {
+        "processes": [
+          "Revising",
+          "revising"
+        ],
+        "results": [
+          "Revised",
+          "revised"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-361",
+      "action": "revisit",
+      "forms": {
+        "processes": [
+          "revisiting"
+        ],
+        "results": [
+          "revisited"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-362",
+      "action": "rewrite",
+      "forms": {
+        "processes": [
+          "rewriting"
+        ],
+        "results": [
+          "rewritten"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-363",
+      "action": "rig",
+      "forms": {
+        "processes": [
+          "rigging"
+        ],
+        "results": [
+          "rigged"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-364",
+      "action": "roll out",
+      "forms": {
+        "processes": [
+          "Rolling out",
+          "rolling out"
+        ],
+        "results": [
+          "Rolled out",
+          "rolled out"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-365",
+      "action": "run",
+      "forms": {
+        "processes": [
+          "Running",
+          "running"
+        ],
+        "results": [
+          "Run",
+          "run"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-366",
+      "action": "save",
+      "forms": {
+        "processes": [
+          "saving"
+        ],
+        "results": [
+          "saved"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-367",
+      "action": "scale",
+      "forms": {
+        "processes": [
+          "scaling"
+        ],
+        "results": [
+          "scaled"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-368",
+      "action": "schedule",
+      "forms": {
+        "processes": [
+          "scheduling"
+        ],
+        "results": [
+          "scheduled"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-369",
+      "action": "script",
+      "forms": {
+        "processes": [
+          "scripting"
+        ],
+        "results": [
+          "scripted"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-370",
+      "action": "sculpt",
+      "forms": {
+        "processes": [
+          "sculpting"
+        ],
+        "results": [
+          "sculpted"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-371",
+      "action": "secure",
+      "forms": {
+        "processes": [
+          "securing"
+        ],
+        "results": [
+          "secured"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-372",
+      "action": "see",
+      "forms": {
+        "processes": [
+          "seeing"
+        ],
+        "results": [
+          "seen"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-373",
+      "action": "seek",
+      "forms": {
+        "processes": [
+          "seeking"
+        ],
+        "results": [
+          "sought"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-374",
+      "action": "segment",
+      "forms": {
+        "processes": [
+          "segmenting"
+        ],
+        "results": [
+          "segmented"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-375",
+      "action": "segregate",
+      "forms": {
+        "processes": [
+          "segregating"
+        ],
+        "results": [
+          "segregated"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-376",
+      "action": "select",
+      "forms": {
+        "processes": [
+          "Selecting",
+          "selecting"
+        ],
+        "results": [
+          "Selected",
+          "selected"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-377",
+      "action": "send",
+      "forms": {
+        "processes": [
+          "sending"
+        ],
+        "results": [
+          "sent"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-378",
+      "action": "sequence",
+      "forms": {
+        "processes": [
+          "Sequencing",
+          "sequencing"
+        ],
+        "results": [
+          "Sequenced",
+          "sequenced"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-379",
+      "action": "set",
+      "forms": {
+        "processes": [
+          "Setting",
+          "setting"
+        ],
+        "results": [
+          "Set",
+          "set"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-380",
+      "action": "set up",
+      "forms": {
+        "processes": [
+          "Setting up",
+          "setting up"
+        ],
+        "results": [
+          "Set up",
+          "set up"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-381",
+      "action": "share",
+      "forms": {
+        "processes": [
+          "Sharing",
+          "sharing"
+        ],
+        "results": [
+          "Shared",
+          "shared"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-382",
+      "action": "shoot",
+      "forms": {
+        "processes": [
+          "shooting"
+        ],
+        "results": [
+          "shot"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-383",
+      "action": "simplify",
+      "forms": {
+        "processes": [
+          "Simplifying",
+          "simplifying"
+        ],
+        "results": [
+          "Simplified",
+          "simplified"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-384",
+      "action": "simulate",
+      "forms": {
+        "processes": [
+          "Simulating",
+          "simulating"
+        ],
+        "results": [
+          "Simulated",
+          "simulated"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-385",
+      "action": "sketch",
+      "forms": {
+        "processes": [
+          "Sketching",
+          "sketching"
+        ],
+        "results": [
+          "Sketched",
+          "sketched"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-386",
+      "action": "solicit",
+      "forms": {
+        "processes": [
+          "soliciting"
+        ],
+        "results": [
+          "solicited"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-387",
+      "action": "sort",
+      "forms": {
+        "processes": [
+          "sorting"
+        ],
+        "results": [
+          "sorted"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-388",
+      "action": "source",
+      "forms": {
+        "processes": [
+          "sourcing"
+        ],
+        "results": [
+          "sourced"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-389",
+      "action": "specify",
+      "forms": {
+        "processes": [
+          "Specifying",
+          "specifying"
+        ],
+        "results": [
+          "Specified",
+          "specified"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-390",
+      "action": "stabilize",
+      "forms": {
+        "processes": [
+          "stabilizing"
+        ],
+        "results": [
+          "stabilized"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-391",
+      "action": "standardize",
+      "forms": {
+        "processes": [
+          "Standardizing",
+          "standardizing"
+        ],
+        "results": [
+          "Standardized",
+          "standardized"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-392",
+      "action": "start",
+      "forms": {
+        "processes": [
+          "Starting",
+          "starting"
+        ],
+        "results": [
+          "Started",
+          "started"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-393",
+      "action": "store",
+      "forms": {
+        "processes": [
+          "storing"
+        ],
+        "results": [
+          "stored"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-394",
+      "action": "storyboard",
+      "forms": {
+        "processes": [
+          "storyboarding"
+        ],
+        "results": [
+          "storyboarded"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-395",
+      "action": "Streamline",
+      "forms": {
+        "processes": [
+          "Streamlining",
+          "streamlining"
+        ],
+        "results": [
+          "Streamlined",
+          "streamlined"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-396",
+      "action": "Structure",
+      "forms": {
+        "processes": [
+          "Structuring"
+        ],
+        "results": [
+          "Structured"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-397",
+      "action": "study",
+      "forms": {
+        "processes": [
+          "Studying",
+          "studying"
+        ],
+        "results": [
+          "Studied",
+          "studied"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-398",
+      "action": "style",
+      "forms": {
+        "processes": [
+          "Styling",
+          "styling"
+        ],
+        "results": [
+          "Styled",
+          "styled"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-399",
+      "action": "submit",
+      "forms": {
+        "processes": [
+          "submitting"
+        ],
+        "results": [
+          "submitted"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-400",
+      "action": "suggest",
+      "forms": {
+        "processes": [
+          "suggesting"
+        ],
+        "results": [
+          "suggested"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-401",
+      "action": "summarize",
+      "forms": {
+        "processes": [
+          "summarizing"
+        ],
+        "results": [
+          "summarized"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-402",
+      "action": "sync",
+      "forms": {
+        "processes": [
+          "Syncing",
+          "syncing"
+        ],
+        "results": [
+          "Synced",
+          "synced"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-403",
+      "action": "synchronize",
+      "forms": {
+        "processes": [
+          "Synchronizing",
+          "synchronizing"
+        ],
+        "results": [
+          "Synchronized",
+          "synchronized"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-404",
+      "action": "synthesize",
+      "forms": {
+        "processes": [
+          "synthesizing"
+        ],
+        "results": [
+          "synthesized"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-405",
+      "action": "tailor",
+      "forms": {
+        "processes": [
+          "Tailoring",
+          "tailoring"
+        ],
+        "results": [
+          "Tailored",
+          "tailored"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-406",
+      "action": "take",
+      "forms": {
+        "processes": [
+          "taking"
+        ],
+        "results": [
+          "taken"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-407",
+      "action": "test",
+      "forms": {
+        "processes": [
+          "Testing",
+          "testing"
+        ],
+        "results": [
+          "Tested",
+          "tested"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-408",
+      "action": "thank",
+      "forms": {
+        "processes": [
+          "thanking"
+        ],
+        "results": [
+          "thanked"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-409",
+      "action": "track",
+      "forms": {
+        "processes": [
+          "tracking"
+        ],
+        "results": [
+          "tracked"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-410",
+      "action": "train",
+      "forms": {
+        "processes": [
+          "Training",
+          "training"
+        ],
+        "results": [
+          "Trained",
+          "trained"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-411",
+      "action": "transcribe",
+      "forms": {
+        "processes": [
+          "transcribing"
+        ],
+        "results": [
+          "transcribed"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-412",
+      "action": "transfer",
+      "forms": {
+        "processes": [
+          "transferring"
+        ],
+        "results": [
+          "transferred"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-413",
+      "action": "translate",
+      "forms": {
+        "processes": [
+          "translating"
+        ],
+        "results": [
+          "translated"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-414",
+      "action": "troubleshoot",
+      "forms": {
+        "processes": [
+          "troubleshooting"
+        ],
+        "results": [
+          "troubleshooted"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-415",
+      "action": "Tweak",
+      "forms": {
+        "processes": [
+          "Tweaking",
+          "tweaking"
+        ],
+        "results": [
+          "Tweaked",
+          "tweaked"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-416",
+      "action": "understand",
+      "forms": {
+        "processes": [
+          "understanding"
+        ],
+        "results": [
+          "understood"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-417",
+      "action": "update",
+      "forms": {
+        "processes": [
+          "Updating",
+          "updating"
+        ],
+        "results": [
+          "Updated",
+          "updated"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-418",
+      "action": "upload",
+      "forms": {
+        "processes": [
+          "Uploading",
+          "uploading"
+        ],
+        "results": [
+          "Uploaded",
+          "uploaded"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-419",
+      "action": "upscale",
+      "forms": {
+        "processes": [
+          "upscaling"
+        ],
+        "results": [
+          "upscaled"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-420",
+      "action": "use",
+      "forms": {
+        "processes": [
+          "Using",
+          "using"
+        ],
+        "results": [
+          "Used",
+          "used"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-421",
+      "action": "utilize",
+      "forms": {
+        "processes": [
+          "Utilizing",
+          "utilizing"
+        ],
+        "results": [
+          "Utilized",
+          "utilized"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-422",
+      "action": "validate",
+      "forms": {
+        "processes": [
+          "Validating",
+          "validating"
+        ],
+        "results": [
+          "Validated",
+          "validated"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-423",
+      "action": "verify",
+      "forms": {
+        "processes": [
+          "Verifying",
+          "verifying"
+        ],
+        "results": [
+          "Verified",
+          "verified"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-424",
+      "action": "visualize",
+      "forms": {
+        "processes": [
+          "visualizing"
+        ],
+        "results": [
+          "visualized"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-425",
+      "action": "visually",
+      "forms": {
+        "processes": [
+          "visually highlighting"
+        ],
+        "results": [
+          "visually highlighted"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-426",
+      "action": "watch",
+      "forms": {
+        "processes": [
+          "watching"
+        ],
+        "results": [
+          "watched"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-427",
+      "action": "weave",
+      "forms": {
+        "processes": [
+          "weaving"
+        ],
+        "results": [
+          "weaved"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-428",
+      "action": "workshop",
+      "forms": {
+        "processes": [
+          "workshopping"
+        ],
+        "results": [
+          "workshopped"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-429",
+      "action": "write",
+      "forms": {
+        "processes": [
+          "Writing",
+          "writing"
+        ],
+        "results": [
+          "Written",
+          "written",
+          "wrote",
+          "wroten"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-430",
+      "action": "book",
+      "forms": {
+        "processes": [
+          "Booking",
+          "booking"
+        ],
+        "results": [
+          "Booked",
+          "booked"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-431",
+      "action": "format",
+      "forms": {
+        "processes": [
+          "Formatting",
+          "formatting"
+        ],
+        "results": [
+          "Formatted",
+          "formatted"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-432",
+      "action": "persist",
+      "forms": {
+        "processes": [
+          "Persisting",
+          "persisting"
+        ],
+        "results": [
+          "Persisted",
+          "persisted"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-433",
+      "action": "modularize",
+      "forms": {
+        "processes": [
+          "Modularizing",
+          "modularizing"
+        ],
+        "results": [
+          "Modularized",
+          "modularized"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-434",
+      "action": "internationalize",
+      "forms": {
+        "processes": [
+          "Internationalizing",
+          "internationalizing"
+        ],
+        "results": [
+          "Internationalized",
+          "internationalized"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-435",
+      "action": "distribute",
+      "forms": {
+        "processes": [
+          "Distributing",
+          "distributing"
+        ],
+        "results": [
+          "Distributed",
+          "distributed"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-436",
+      "action": "navigate",
+      "forms": {
+        "processes": [
+          "Navigating",
+          "navigating"
+        ],
+        "results": [
+          "Navigated",
+          "navigated"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-437",
+      "action": "paste",
+      "forms": {
+        "processes": [
+          "Pasting",
+          "pasting"
+        ],
+        "results": [
+          "Pasted",
+          "pasted"
+        ]
+      }
+    },
+    {
+      "action_id": "ACTION-438",
+      "action": "prompt",
+      "forms": {
+        "processes": [
+          "Prompting",
+          "prompting"
+        ],
+        "results": [
+          "Prompted",
+          "prompted"
+        ]
+      }
+    }
+  ]
+}

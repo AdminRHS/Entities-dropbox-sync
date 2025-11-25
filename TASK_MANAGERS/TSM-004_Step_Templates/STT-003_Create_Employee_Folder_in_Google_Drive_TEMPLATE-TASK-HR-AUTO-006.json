@@ -1,0 +1,32 @@
+{
+  "step_template_id": "Step-Template-003",
+  "step_template_name": "Create Employee Folder in Google Drive",
+  "metadata": {
+    "status": "Active"
+  },
+  "parent_task": {
+    "task_id": "TASK-TEMPLATE-HR-AUTO-006",
+    "task_name": "Setup Automated Onboarding Workflow for New Hires"
+  },
+  "step_template_details": {
+    "step_number": 4,
+    "order": 4,
+    "action": "create",
+    "detail": "Use n8n and the Google Drive API to copy the NEW_HIRE_TEMPLATE folder, rename it to the new hire's name, and set appropriate permissions.",
+    "expected_duration": 35
+  },
+  "relationships": {
+    "dependencies": [
+      "STEP-HR-AUTO-006-01",
+      "STEP-HR-AUTO-006-03"
+    ],
+    "next_steps": [
+      "STEP-HR-AUTO-006-05"
+    ],
+    "parallel_steps": []
+  },
+  "source_tracking": {
+    "source_file": "ENTITIES/TASK_MANAGERS/Task_Templates/Task-Template-044.json",
+    "extraction_date": "2025-11-17"
+  }
+}

@@ -1,0 +1,138 @@
+{
+  "milestone_id": "MIL-NMP-006",
+  "milestone_name": "Usage & Maintenance Docs Complete",
+  "project_id": "PROJ-001",
+  "phase": 4,
+  "phase_name": "Documentation & Assembly",
+  "status": "Planned",
+  "priority": "Medium",
+  "progress_percentage": 0,
+  "description": "Create 7 usage and maintenance documentation files in 04_Usage/ folder including instructions, examples, changelog, and migration guide.",
+  "target_start_date": "2025-12-06",
+  "target_completion_date": "2025-12-09",
+  "actual_start_date": null,
+  "actual_completion_date": null,
+  "estimated_duration": "3 days",
+  "tasks": [
+    "TASK-NMP-042"
+  ],
+  "deliverables": [
+    {
+      "id": "DEL-006-01",
+      "name": "01_Usage_Instructions.md",
+      "description": "Step-by-step workflow for using v5",
+      "status": "Pending"
+    },
+    {
+      "id": "DEL-006-02",
+      "name": "02_Examples.md",
+      "description": "Full examples (transcript → output)",
+      "status": "Pending"
+    },
+    {
+      "id": "DEL-006-03",
+      "name": "03_Tips_Best_Practices.md",
+      "description": "Tips for accuracy and optimization",
+      "status": "Pending"
+    },
+    {
+      "id": "DEL-006-04",
+      "name": "04_Advanced_Features.md",
+      "description": "Multi-language, batch processing, custom integration",
+      "status": "Pending"
+    },
+    {
+      "id": "DEL-006-05",
+      "name": "05_Maintenance_Guide.md",
+      "description": "How to update directories and sync statistics",
+      "status": "Pending"
+    },
+    {
+      "id": "DEL-006-06",
+      "name": "06_CHANGELOG.md",
+      "description": "Complete version history including v5 changes",
+      "status": "Pending"
+    },
+    {
+      "id": "DEL-006-07",
+      "name": "07_Migration_Guide.md",
+      "description": "v4 → v5 upgrade path and feature mapping",
+      "status": "Pending"
+    }
+  ],
+  "success_criteria": {
+    "quantitative": [
+      "All 7 files created in 04_Usage/",
+      "At least 3 complete examples (different departments)",
+      "CHANGELOG includes all v5 changes",
+      "Migration guide covers all v4-to-v5 differences"
+    ],
+    "qualitative": [
+      "Usage instructions are clear and comprehensive",
+      "Examples are realistic and annotated",
+      "Best practices are actionable",
+      "Maintenance guide is thorough and helpful"
+    ]
+  },
+  "acceptance_criteria": [
+    {
+      "criteria": "All 7 files created in 04_Usage/",
+      "verified": false
+    },
+    {
+      "criteria": "01_Usage_Instructions.md provides complete workflow",
+      "verified": false
+    },
+    {
+      "criteria": "02_Examples.md includes AI, Sales, and Design examples",
+      "verified": false
+    },
+    {
+      "criteria": "02_Examples.md shows entity recognition process",
+      "verified": false
+    },
+    {
+      "criteria": "06_CHANGELOG.md documents v5 major changes",
+      "verified": false
+    },
+    {
+      "criteria": "06_CHANGELOG.md includes v4 history from MAIN_PROMPT_v4.md",
+      "verified": false
+    },
+    {
+      "criteria": "07_Migration_Guide.md explains modular architecture benefits",
+      "verified": false
+    }
+  ],
+  "dependencies": [
+    {
+      "dependency_id": "DEP-MIL-006-01",
+      "description": "MIL-004 complete (templates exist for examples)",
+      "type": "Milestone",
+      "status": "Required"
+    },
+    {
+      "dependency_id": "DEP-MIL-006-02",
+      "description": "MAIN_PROMPT_v4.md for usage instructions and version history",
+      "type": "Document",
+      "status": "Available"
+    }
+  ],
+  "blockers": [],
+  "risks": [],
+  "related_milestones": {
+    "prerequisites": [
+      "MIL-004",
+      "MIL-005"
+    ],
+    "enables": [
+      "MIL-008"
+    ],
+    "parallel": [
+      "MIL-007"
+    ]
+  },
+  "notes": "Extract and enhance from MAIN_PROMPT_v4.md Usage Instructions and Version History sections. Create comprehensive examples using all library integrations. Follow CREATE_MAIN_PROMPT_v5.md Phase 6.",
+  "last_updated": "2025-11-15",
+  "version": "1.0"
+}

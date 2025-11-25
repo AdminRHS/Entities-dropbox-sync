@@ -1,0 +1,225 @@
+{
+  "entity_type": "LIBRARIES",
+  "sub_entity": "Tool",
+  "tool_id": "TOOL-AI-029",
+  "name": "Claude",
+  "vendor": "Anthropic",
+  "category": "AI Tools / LLM Services",
+  "purpose": "Advanced AI assistant for analysis, automation, and MCP connector integration",
+  "description": "Advanced AI language model with 200K+ token context window. Used for deep analysis, research synthesis, knowledge assistance, and as the core AI for MCP (Model Context Protocol) connector automation. Enables no-code connector generation via mcp-builder skill and powers automated workflows for email, calendar, and CRM integration.",
+  "skill_level_required": "Beginner to Advanced (depending on use case)",
+  "cost_structure": "API-based (usage pricing), Subscription for Pro features",
+  "platform_compatibility": [
+    "Web (claude.ai)",
+    "API",
+    "Claude Desktop App",
+    "Mobile App"
+  ],
+  "integration_capabilities": [
+    "Direct API calls",
+    "Claude Desktop app",
+    "Claude Skills (mcp-builder, etc.)",
+    "MCP connector support",
+    "n8n integration",
+    "Custom integrations",
+    "Cursor IDE integration",
+    "Gmail via MCP",
+    "Google Calendar via MCP",
+    "CRM via MCP"
+  ],
+  "documentation_url": "https://claude.ai",
+  "actual_remote_helpers_usage": {
+    "primary_use": "Deep Analysis & AI-Powered Automation",
+    "users": [
+      "All departments - specialized analysis tasks",
+      "AI Engineer",
+      "Automation Specialist",
+      "Sales Operations",
+      "Product Manager"
+    ],
+    "use_cases": [
+      "analyze research and documents",
+      "answer complex questions",
+      "process meeting transcripts",
+      "synthesize information",
+      "generate MCP connectors (via mcp-builder skill)",
+      "automate email drafting and sending",
+      "update CRM automatically",
+      "create calendar events",
+      "parse unstructured data",
+      "support strategic planning"
+    ],
+    "workflows": [
+      "Deep company research (parallel with Gemini, Perplexity)",
+      "Call transcription analysis (extract action items, summaries)",
+      "Documentation review (analyze large documents)",
+      "Create Custom MCP Connectors (via mcp-builder)",
+      "Automated Morning Email Drafting",
+      "Newsletter Subscriber Auto-Reply",
+      "Stacked Connector Automation (Post-Meeting)"
+    ],
+    "typical_workflow_pattern": [
+      {
+        "task": "MCP Connector Generation and Automation",
+        "steps": [
+          "Enable Claude Skills in Desktop App",
+          "Activate mcp-builder skill",
+          "Prompt: 'Connect to [App] with [capabilities]'",
+          "Claude generates complete MCP server code",
+          "Deploy locally with Cursor",
+          "Use connector for automated workflows"
+        ],
+        "complexity": "Medium to High",
+        "time_estimate": "5-10 minutes per connector",
+        "time_saved": "15+ hours per week with automation"
+      }
+    ],
+    "integration_with_other_tools": [
+      "Claude Desktop App (MCP platform)",
+      "MCP Builder skill (connector generation)",
+      "Gmail (via MCP connector)",
+      "Google Calendar (via MCP connector)",
+      "Airtable/CRM (via MCP)",
+      "Cursor (code editor integration)",
+      "n8n (workflow automation)",
+      "Google Cloud Console (API credentials)"
+    ]
+  },
+  "strengths": [
+    "Large context window (200K+ tokens)",
+    "Exceptional reasoning capabilities",
+    "Reliable and accurate information",
+    "Ethical AI approach",
+    "Excellent for long documents",
+    "MCP connector support (unique capability)",
+    "Claude Skills ecosystem",
+    "No-code automation via mcp-builder",
+    "Time savings: 15+ hours/week possible"
+  ],
+  "limitations": [
+    "Higher cost for large volumes",
+    "MCP features require Desktop App",
+    "Some connectors need API credentials setup"
+  ],
+  "mcp_capabilities": {
+    "connector_generation": "Two-sentence prompts create full connectors",
+    "supported_integrations": ["Gmail", "Google Calendar", "CRM", "Custom apps"],
+    "deployment": "Local-first for privacy",
+    "time_savings": "15+ hours per week"
+  },
+  "departments_using": [
+    "AI",
+    "Dev",
+    "Sales",
+    "HR",
+    "LG",
+    "Marketing",
+    "OPS",
+    "Design",
+    "Video"
+  ],
+  "finance_data": {
+    "subscription_status": "paid",
+    "total_accounts": 10,
+    "paid_accounts": 10,
+    "unpaid_accounts": 0,
+    "latest_valid_until": "2025-12-13",
+    "accounts": [
+      {
+        "email": "admin@rh-s.com",
+        "status": "paid",
+        "paid_date": "2025-11-07",
+        "valid_until": "2025-12-07",
+        "department": "AI"
+      },
+      {
+        "email": "dev@rh-s.com",
+        "status": "paid",
+        "paid_date": "2025-11-11",
+        "valid_until": "2025-12-11",
+        "department": "developers"
+      },
+      {
+        "email": "niko@rh-s.com",
+        "status": "paid",
+        "paid_date": "2025-10-02",
+        "valid_until": "2025-11-02",
+        "department": "financial manager"
+      },
+      {
+        "email": "hr@remotemployees.com",
+        "status": "paid",
+        "paid_date": "2025-10-29",
+        "valid_until": "2025-11-29",
+        "department": "recruiter"
+      },
+      {
+        "email": "sales@rh-s.com",
+        "status": "paid",
+        "paid_date": "2025-10-30",
+        "valid_until": "2025-11-30",
+        "department": "sales manager"
+      },
+      {
+        "email": "lg@rh-s.com",
+        "status": "paid",
+        "paid_date": "2025-10-30",
+        "valid_until": "2025-11-30",
+        "department": "lead generator"
+      },
+      {
+        "email": "contact@fv-e.com",
+        "status": "paid",
+        "paid_date": "2025-11-07",
+        "valid_until": "2025-12-07",
+        "department": "videographers"
+      },
+      {
+        "email": "hr@rem-s.com",
+        "status": "paid",
+        "paid_date": "2025-11-10",
+        "valid_until": "2025-12-12",
+        "department": "recruiter"
+      },
+      {
+        "email": "dd@rh-s.com",
+        "status": "paid",
+        "paid_date": "2025-11-10",
+        "valid_until": "2025-12-12",
+        "department": "designers"
+      },
+      {
+        "email": "bmselfie@gmail.com",
+        "status": "paid",
+        "paid_date": "2025-11-13",
+        "valid_until": "2025-12-13",
+        "department": "financial manager"
+      }
+    ],
+    "departments_using": [
+      "AI",
+      "developers",
+      "financial manager",
+      "recruiter",
+      "sales manager",
+      "lead generator",
+      "videographers",
+      "designers"
+    ]
+  },
+  "tags": [
+    "ai",
+    "llm",
+    "analysis",
+    "long-context",
+    "reasoning",
+    "research",
+    "mcp-connectors",
+    "automation",
+    "no-code"
+  ],
+  "discovery_date": "2025-11-12",
+  "discovery_source": "Video_008_MCP_Connector_Tutorial",
+  "status": "active",
+  "recommended_model": "Sonnet 4.5 for code generation and tool calling"
+}

@@ -1,0 +1,220 @@
+{
+  "entity_type": "LIBRARIES",
+  "sub_entity": "Profession",
+  "profession_name": "designer",
+  "full_title": "Designer (General/Multi-Discipline)",
+  "department": "Creative",
+  "description": "Creative professional specializing in visual design across digital and print mediums, including branding, UI/UX, graphic design, and illustration with focus on portfolio development and multi-platform content strategy",
+  "created": "2025-11-13",
+  "updated": "2025-11-13",
+  "skills": [
+    "SKL-DES-002",
+    "SKL-DES-003",
+    "SKL-DES-004",
+    "SKL-DES-005",
+    "SKL-DES-006",
+    "SKL-DES-007",
+    "SKL-DES-008"
+  ],
+  "skill_details": {
+    "SKL-DES-001": {
+      "skill_phrase": "created educational carousels for Instagram",
+      "proficiency_level": "intermediate",
+      "frequency": "daily"
+    },
+    "SKL-DES-002": {
+      "skill_phrase": "published comprehensive case studies on Behance",
+      "proficiency_level": "advanced",
+      "frequency": "monthly"
+    },
+    "SKL-DES-003": {
+      "skill_phrase": "designed high-fidelity UI shots for Dribbble",
+      "proficiency_level": "advanced",
+      "frequency": "weekly"
+    },
+    "SKL-DES-004": {
+      "skill_phrase": "optimized portfolio for multi-platform visibility",
+      "proficiency_level": "intermediate",
+      "frequency": "monthly"
+    },
+    "SKL-DES-005": {
+      "skill_phrase": "integrated AI tools ethically in design workflow",
+      "proficiency_level": "intermediate",
+      "frequency": "daily"
+    },
+    "SKL-DES-006": {
+      "skill_phrase": "created accessible and inclusive design content",
+      "proficiency_level": "intermediate",
+      "frequency": "daily"
+    },
+    "SKL-DES-007": {
+      "skill_phrase": "documented design process through screen recordings",
+      "proficiency_level": "beginner",
+      "frequency": "weekly"
+    },
+    "SKL-DES-008": {
+      "skill_phrase": "curated visual content boards on Pinterest",
+      "proficiency_level": "beginner",
+      "frequency": "weekly"
+    }
+  },
+  "tools": [
+    "TOOL-SMM-001",
+    "TOOL-PORT-001",
+    "TOOL-DESIGN-001",
+    "TOOL-SMM-005",
+    "TOOL-SMM-007",
+    "TOOL-SMM-008",
+    "TOOL-PORT-002",
+    "TOOL-PORT-003",
+    "TOOL-SMM-009"
+  ],
+  "tool_details": {
+    "TOOL-SMM-001": "Instagram - PRIMARY platform (daily use) - Carousels, Reels, Stories",
+    "TOOL-PORT-001": "Behance - PRIMARY platform (monthly use) - Comprehensive case studies",
+    "TOOL-DESIGN-001": "Dribbble - PRIMARY platform (weekly use) - High-fidelity shots",
+    "TOOL-SMM-005": "Pinterest - SECONDARY platform (weekly use) - Infographics, visual boards",
+    "TOOL-SMM-007": "LinkedIn - SECONDARY platform (weekly use) - Professional networking",
+    "TOOL-SMM-008": "The Dots - PRIMARY for clients (ongoing) - UK/EU creative network",
+    "TOOL-PORT-002": "ArtStation - PRIMARY for illustration (monthly use) - Industry professionals",
+    "TOOL-PORT-003": "DeviantArt - SECONDARY (weekly use) - Community engagement",
+    "TOOL-SMM-009": "Cara - NICHE (monthly use) - Human-only anti-AI portfolio"
+  },
+  "workflows": [
+    "WF-SMM-003",
+    "WF-SMM-004",
+    "WF-SMM-005",
+    "WF-SMM-001",
+    "WF-SMM-002"
+  ],
+  "workflow_details": {
+    "WF-SMM-003": "Instagram Content Strategy for Designers - Daily content mix (Carousels, Reels, Stories)",
+    "WF-SMM-004": "Behance Project Publishing - Monthly comprehensive case studies",
+    "WF-SMM-005": "Dribbble Shot Posting - Weekly high-fidelity UI shots (2-4/week)",
+    "WF-SMM-001": "Cross-Platform Content Distribution - Repurpose Behance to Instagram/Pinterest/LinkedIn",
+    "WF-SMM-002": "Content Repurposing Pipeline - Transform long-form to multiple platform variations"
+  },
+  "objects": [
+    "OBJ-SMM-004",
+    "OBJ-SMM-005",
+    "OBJ-SMM-006",
+    "OBJ-SMM-014",
+    "OBJ-PORT-001",
+    "OBJ-PORT-004",
+    "OBJ-SMM-010"
+  ],
+  "object_details": {
+    "OBJ-SMM-004": "Instagram Carousel - Educational 5-10 slide posts (1080×1350px)",
+    "OBJ-SMM-005": "Instagram Reel - Process videos 15-90 seconds (1080×1920px)",
+    "OBJ-SMM-006": "Instagram Story - Interactive Q&A, polls, BTS content",
+    "OBJ-SMM-014": "Pinterest Infographic - Long-form vertical infographics (1000×1500px)",
+    "OBJ-PORT-001": "Behance Project - Comprehensive case study with 6-step structure",
+    "OBJ-PORT-004": "Dribbble Shot - High-fidelity UI component (1600×1200px)",
+    "OBJ-SMM-010": "LinkedIn Article - Professional design insights, case study highlights"
+  },
+  "actions": [
+    "design",
+    "create",
+    "showcase",
+    "curate",
+    "optimize",
+    "publish",
+    "document",
+    "refine",
+    "iterate",
+    "post",
+    "share",
+    "engage"
+  ],
+  "communication_templates": [
+    "TMPL-SMM-001",
+    "TMPL-SMM-002",
+    "TMPL-SMM-006"
+  ],
+  "template_details": {
+    "TMPL-SMM-001": "Instagram Carousel Template - Educational design content format",
+    "TMPL-SMM-002": "Instagram Caption Template - Portfolio showcase captions",
+    "TMPL-SMM-006": "Behance Project Description Template - 6-step case study narrative"
+  },
+  "typical_tasks": [
+    "Create 3-5 Instagram carousel posts per week (educational content)",
+    "Produce 2-4 Instagram Reels per week (process videos)",
+    "Post 1-3 Instagram Stories daily (behind-the-scenes, Q&A)",
+    "Publish 1 comprehensive Behance case study per month",
+    "Share 2-4 Dribbble shots per week (UI components, designs)",
+    "Curate 5-10 Pinterest pins per week (visual references, infographics)",
+    "Manage portfolio across 6-8 platforms simultaneously",
+    "Document design process through screen recordings weekly",
+    "Engage with design community daily (comments, appreciations)"
+  ],
+  "content_mix_strategy": {
+    "instagram": {
+      "educational_carousels": "35%",
+      "process_reels": "25%",
+      "portfolio_showcases": "20%",
+      "behind_the_scenes_stories": "10%",
+      "community_engagement": "10%"
+    },
+    "behance": {
+      "comprehensive_projects": "100% - Quality over quantity, 1 per month"
+    },
+    "dribbble": {
+      "ui_components": "40%",
+      "animations": "30%",
+      "illustrations": "20%",
+      "explorations": "10%"
+    }
+  },
+  "performance_metrics": {
+    "instagram_saves": "Primary metric - 5x algorithm weight",
+    "behance_appreciations": "Community validation and featured project potential",
+    "dribbble_likes": "Design community engagement",
+    "portfolio_views": "Overall visibility across platforms",
+    "client_inquiries": "Business development from portfolio",
+    "follower_growth": "Audience building rate across platforms"
+  },
+  "best_practices": [
+    "Post 3-5 Instagram feed posts per week + daily Stories",
+    "Create saveable educational content (5x algorithm weight)",
+    "Use 3-5 niche-specific hashtags on Instagram (not 30 generic)",
+    "Publish 1 comprehensive Behance project monthly (quality over quantity)",
+    "Follow 6-step Behance structure: Challenge → Ethics → Process → Accessibility → Solution → Impact",
+    "Always show AI workflow: Human input → AI assistance → Human refinement",
+    "Never post raw AI output without human curation",
+    "Document process through screen recordings and iterations",
+    "Highlight inclusive design and accessibility features",
+    "Cross-promote Behance projects via Instagram carousel previews",
+    "Optimize for saves and shares (reference-worthy content)",
+    "Engage with community daily (15-30 minutes)",
+    "Curate Pinterest boards for long-term discovery",
+    "Network professionally on The Dots for UK/EU client acquisition"
+  ],
+  "ai_integration_approach": {
+    "transparency": "Always show human + AI collaboration workflow",
+    "process": "Human concept → AI assistance → Human curation → Human refinement → Final result",
+    "platform_sensitivity": {
+      "cara": "Human-only content (no AI)",
+      "artstation": "Clear AI labeling required",
+      "general": "AI as assistant narrative, not replacement"
+    },
+    "documentation": "Screen record workflow showing tool usage and human decisions"
+  },
+  "platform_priorities": {
+    "primary": [
+      "Instagram (daily visual community engagement)",
+      "Behance (monthly professional portfolio)",
+      "Dribbble (weekly design showcase)"
+    ],
+    "secondary": [
+      "Pinterest (weekly long-term discovery)",
+      "LinkedIn (weekly professional networking)",
+      "The Dots (ongoing client acquisition)"
+    ],
+    "tertiary": [
+      "ArtStation (monthly high-end portfolio)",
+      "DeviantArt (weekly community participation)",
+      "Cara (monthly niche anti-AI community)"
+    ]
+  },
+  "source": "SMM_Research_Document_2_Content_Strategy_Multi_Platform"
+}

@@ -1,0 +1,111 @@
+{
+  "department_id": 1,
+  "department_code": "AI",
+  "reporting_period": "2025-11",
+  "last_updated": "2025-11-25",
+  "source_file": "Overview/AI_Department_Deep_Analysis.md",
+  
+  "team_metrics": {
+    "team_size": 3,
+    "active_employees": 3,
+    "on_leave": 0,
+    "attrition_rate": "0%",
+    "location_distribution": {
+      "ukraine": 3,
+      "percentage": "100%"
+    }
+  },
+  
+  "performance_metrics": {
+    "file_system_adoption": {
+      "department": "100%",
+      "cross_department": {
+        "DESIGN": "100%",
+        "LG": "in_progress",
+        "target": "100% by month-end"
+      }
+    },
+    "administrative_overhead_reduction": "60-80%",
+    "documentation_quality": {
+      "training_guides_lines": 2490,
+      "daily_reports_lines": 1165,
+      "compliance_rate": "100%"
+    },
+    "task_management": {
+      "total_tasks_documented": 35,
+      "priority_distribution": {
+        "CRITICAL": 5,
+        "HIGH": 15,
+        "MEDIUM": 14,
+        "LOW": 1
+      },
+      "task_consolidation_file_lines": 542
+    },
+    "automation_metrics": {
+      "yellow_card_system": {
+        "enabled": true,
+        "check_frequency": "daily at 11:00 AM",
+        "max_cards_per_month": 3,
+        "compliance_rate": "high"
+      },
+      "profile_synchronization": {
+        "enabled": true,
+        "frequency": "daily at 8:00 AM",
+        "employees_covered": 44,
+        "success_rate": "high"
+      }
+    }
+  },
+  
+  "project_metrics": {
+    "active_projects": 18,
+    "projects_tracked": 18,
+    "by_priority": {
+      "CRITICAL": 2,
+      "HIGH": 5,
+      "MEDIUM": 11
+    },
+    "project_documentation_lines": 260
+  },
+  
+  "tool_metrics": {
+    "total_tools_documented": 29,
+    "ai_tools_integrated": 27,
+    "tools_by_category": {
+      "ai_llm": 6,
+      "development": 4,
+      "automation": 2,
+      "research": 3,
+      "content_creation": 5,
+      "project_management": 5,
+      "communication": 2,
+      "other": 4
+    }
+  },
+  
+  "knowledge_management_metrics": {
+    "actions_library_size": 429,
+    "main_prompt_lines": 3000,
+    "rac_expansion": "ongoing",
+    "entities_integration": "Complete"
+  },
+  
+  "daily_activity_metrics": {
+    "average_report_lines": 1165,
+    "average_tasks_per_day": 11,
+    "average_files_processed": 700,
+    "average_employees_managed": 44,
+    "average_tasks_distributed": 31
+  },
+  
+  "cross_department_impact": {
+    "departments_affected": 7,
+    "total_employees_affected": 32,
+    "file_system_rollout": {
+      "design_completed": true,
+      "lg_in_progress": true,
+      "others_pending": ["HR", "DEV", "VIDEO", "SALES"]
+    }
+  }
+}
+

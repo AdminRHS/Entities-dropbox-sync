@@ -1,0 +1,184 @@
+[
+  {
+    "file": "TASK_MANAGERS\\Milestone_Templates\\MT-Content_Analysis.json",
+    "field": "milestone_template_id",
+    "value": "MIL-TEMPL-003",
+    "pattern": "milestone_templates",
+    "valid": true
+  },
+  {
+    "file": "TASK_MANAGERS\\Milestone_Templates\\MT-Data_Inventory.json",
+    "field": "milestone_template_id",
+    "value": "MIL-TEMPL-001",
+    "pattern": "milestone_templates",
+    "valid": true
+  },
+  {
+    "file": "TASK_MANAGERS\\Milestone_Templates\\MT-Relationship_Validation.json",
+    "field": "milestone_template_id",
+    "value": "MIL-TEMPL-004",
+    "pattern": "milestone_templates",
+    "valid": true
+  },
+  {
+    "file": "TASK_MANAGERS\\Milestone_Templates\\MT-Schema_Naming_Validation.json",
+    "field": "milestone_template_id",
+    "value": "MIL-TEMPL-002",
+    "pattern": "milestone_templates",
+    "valid": true
+  },
+  {
+    "file": "TASK_MANAGERS\\Milestone_Templates\\MT-Synthesis_Recommendations.json",
+    "field": "milestone_template_id",
+    "value": "MIL-TEMPL-005",
+    "pattern": "milestone_templates",
+    "valid": true
+  },
+  {
+    "file": "TASK_MANAGERS\\Step_Templates\\Add_Interview_Subtitles_and_Approve_TEMPLATE-TASK-HR-003_Template.json",
+    "field": "step_template_id",
+    "value": "STEP-HR-003-05",
+    "pattern": "step_templates",
+    "valid": true
+  },
+  {
+    "file": "TASK_MANAGERS\\Step_Templates\\Archive_Edited_Video_to_Drive_TEMPLATE-TASK-HR-003_Template.json",
+    "field": "step_template_id",
+    "value": "STEP-HR-003-02",
+    "pattern": "step_templates",
+    "valid": true
+  },
+  {
+    "file": "TASK_MANAGERS\\Step_Templates\\Edit_Video_Interview_Footage_TEMPLATE-TASK-HR-003_Template.json",
+    "field": "step_template_id",
+    "value": "STEP-HR-003-01",
+    "pattern": "step_templates",
+    "valid": true
+  },
+  {
+    "file": "TASK_MANAGERS\\Step_Templates\\Optimize_YouTube_Metadata_TEMPLATE-TASK-HR-003_Template.json",
+    "field": "step_template_id",
+    "value": "STEP-HR-003-04",
+    "pattern": "step_templates",
+    "valid": true
+  },
+  {
+    "file": "TASK_MANAGERS\\Step_Templates\\Publish_Video_Interview_on_YouTube_TEMPLATE-TASK-HR-003_Template.json",
+    "field": "step_template_id",
+    "value": "STEP-HR-003-03",
+    "pattern": "step_templates",
+    "valid": true
+  },
+  {
+    "file": "TASK_MANAGERS\\Task_Templates\\TASK-TEMPLATE-ANALYSIS-002_Folder_Structure_Mapping.json",
+    "field": "task_template_id",
+    "value": "TASK-TEMPLATE-ANALYSIS-002",
+    "pattern": "task_templates",
+    "valid": true
+  },
+  {
+    "file": "TASK_MANAGERS\\Task_Templates\\TASK-TEMPLATE-ANALYSIS-003_File_Size_Analysis.json",
+    "field": "task_template_id",
+    "value": "TASK-TEMPLATE-ANALYSIS-003",
+    "pattern": "task_templates",
+    "valid": true
+  },
+  {
+    "file": "TASK_MANAGERS\\Task_Templates\\TASK-TEMPLATE-ANALYSIS-004_Naming_Convention_Audit.json",
+    "field": "task_template_id",
+    "value": "TASK-TEMPLATE-ANALYSIS-004",
+    "pattern": "task_templates",
+    "valid": true
+  },
+  {
+    "file": "TASK_MANAGERS\\Task_Templates\\TASK-TEMPLATE-ANALYSIS-005_JSON_Schema_Validation.json",
+    "field": "task_template_id",
+    "value": "TASK-TEMPLATE-ANALYSIS-005",
+    "pattern": "task_templates",
+    "valid": true
+  },
+  {
+    "file": "TASK_MANAGERS\\Task_Templates\\TASK-TEMPLATE-ANALYSIS-006_Version_Control_Consistency.json",
+    "field": "task_template_id",
+    "value": "TASK-TEMPLATE-ANALYSIS-006",
+    "pattern": "task_templates",
+    "valid": true
+  },
+  {
+    "file": "TASK_MANAGERS\\Task_Templates\\TASK-TEMPLATE-ANALYSIS-007_Duplicate_Content_Detection.json",
+    "field": "task_template_id",
+    "value": "TASK-TEMPLATE-ANALYSIS-007",
+    "pattern": "task_templates",
+    "valid": true
+  },
+  {
+    "file": "TASK_MANAGERS\\Task_Templates\\TASK-TEMPLATE-ANALYSIS-008_Terminology_Extraction.json",
+    "field": "task_template_id",
+    "value": "TASK-TEMPLATE-ANALYSIS-008",
+    "pattern": "task_templates",
+    "valid": true
+  },
+  {
+    "file": "TASK_MANAGERS\\Task_Templates\\TASK-TEMPLATE-ANALYSIS-009_Documentation_Completeness.json",
+    "field": "task_template_id",
+    "value": "TASK-TEMPLATE-ANALYSIS-009",
+    "pattern": "task_templates",
+    "valid": true
+  },
+  {
+    "file": "TASK_MANAGERS\\Task_Templates\\TASK-TEMPLATE-ANALYSIS-010_Cross_Reference_Validation.json",
+    "field": "task_template_id",
+    "value": "TASK-TEMPLATE-ANALYSIS-010",
+    "pattern": "task_templates",
+    "valid": true
+  },
+  {
+    "file": "TASK_MANAGERS\\Task_Templates\\TASK-TEMPLATE-ANALYSIS-011_Index_Accuracy_Check.json",
+    "field": "task_template_id",
+    "value": "TASK-TEMPLATE-ANALYSIS-011",
+    "pattern": "task_templates",
+    "valid": true
+  },
+  {
+    "file": "TASK_MANAGERS\\Task_Templates\\TASK-TEMPLATE-ANALYSIS-012_Dependency_Flow_Mapping.json",
+    "field": "task_template_id",
+    "value": "TASK-TEMPLATE-ANALYSIS-012",
+    "pattern": "task_templates",
+    "valid": true
+  },
+  {
+    "file": "TASK_MANAGERS\\Task_Templates\\TASK-TEMPLATE-ANALYSIS-013_Architecture_Documentation.json",
+    "field": "task_template_id",
+    "value": "TASK-TEMPLATE-ANALYSIS-013",
+    "pattern": "task_templates",
+    "valid": true
+  },
+  {
+    "file": "TASK_MANAGERS\\Task_Templates\\TASK-TEMPLATE-ANALYSIS-014_Terminology_Consolidation.json",
+    "field": "task_template_id",
+    "value": "TASK-TEMPLATE-ANALYSIS-014",
+    "pattern": "task_templates",
+    "valid": true
+  },
+  {
+    "file": "TASK_MANAGERS\\Task_Templates\\TASK-TEMPLATE-ANALYSIS-015_Recommendations_Compilation.json",
+    "field": "task_template_id",
+    "value": "TASK-TEMPLATE-ANALYSIS-015",
+    "pattern": "task_templates",
+    "valid": true
+  },
+  {
+    "file": "TASK_MANAGERS\\Task_Templates\\TASK-TEMPLATE-ANALYSIS-016_Project_Documentation_Creation.json",
+    "field": "task_template_id",
+    "value": "TASK-TEMPLATE-ANALYSIS-016",
+    "pattern": "task_templates",
+    "valid": true
+  },
+  {
+    "file": "TASK_MANAGERS\\Task_Templates\\TEMPLATE-TASK-ANALYSIS-001_File_Count_Distribution.json",
+    "field": "task_template_id",
+    "value": "TASK-TEMPLATE-ANALYSIS-001",
+    "pattern": "task_templates",
+    "valid": true
+  }
+]

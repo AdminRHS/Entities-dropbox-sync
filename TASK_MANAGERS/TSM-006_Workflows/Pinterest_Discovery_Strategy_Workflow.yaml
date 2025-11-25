@@ -1,0 +1,156 @@
+workflow_name: "Pinterest Long-Term Discovery Strategy"
+workflow_type: "Linear"
+workflow_id: "WF-SMM-012"
+department: "MARKETING"
+priority: "Low"
+estimated_duration: "30-45 minutes per pin batch"
+status: "Active"
+
+description: |
+  Create evergreen visual content on Pinterest for long-term organic discovery and traffic generation.
+  Strategic workflow for building sustainable traffic through Pinterest's search-driven discovery engine.
+
+steps:
+  - step_number: 1
+    name: "Design Vertical Infographics"
+    tool: "Canva, Figma, Photoshop"
+    responsibility: "Design vertical infographics"
+    placement: "Design workspace"
+    duration: "20-30 minutes per pin"
+    dependencies: []
+    inputs:
+      - "Existing content to repurpose"
+      - "Design guides, checklists, or tutorials"
+      - "Brand visual guidelines"
+    outputs:
+      - "Long-form vertical infographics (1000×1500px)"
+      - "Comprehensive guides with visual hierarchy"
+      - "Checklists and step-by-step tutorials"
+      - "Text-rich, value-focused designs"
+    success_criteria: "Visually compelling infographics optimized for Pinterest feed"
+
+  - step_number: 2
+    name: "Curate Knowledge Boards"
+    tool: "Pinterest"
+    responsibility: "Curate knowledge boards"
+    placement: "Pinterest platform"
+    duration: "10-15 minutes"
+    dependencies: ["Step 1"]
+    inputs:
+      - "Created pins from Step 1"
+      - "Board themes and categories"
+      - "Curated content from others"
+    outputs:
+      - "Themed boards organized by topic"
+      - "Mix of own pins and curated content"
+      - "Board descriptions with keywords"
+      - "Logical board structure"
+    success_criteria: "Well-organized boards that serve as valuable resources"
+
+  - step_number: 3
+    name: "Optimize for Search"
+    tool: "Pinterest, Pinterest Analytics"
+    responsibility: "Optimize pins for search"
+    placement: "Pinterest platform"
+    duration: "10-15 minutes"
+    dependencies: ["Step 1", "Step 2"]
+    inputs:
+      - "Keyword research"
+      - "Pinterest trending topics"
+      - "Target audience search behavior"
+    outputs:
+      - "Keyword-rich pin titles"
+      - "Detailed pin descriptions with keywords"
+      - "Alt text optimized for accessibility and SEO"
+      - "Relevant board categorization"
+    success_criteria: "Pins fully optimized for Pinterest search discovery"
+
+performance_metrics:
+  impressions: "Total pin views in feed and search"
+  saves: "Pins saved by other users (PRIMARY metric)"
+  outbound_clicks: "Clicks to website or blog"
+  closeups: "Pin detail views"
+  profile_visits: "Interest in your content"
+  follower_growth: "New followers from pins"
+
+content_strategy:
+  posting_frequency: "5-10 pins per week"
+  content_focus: "Evergreen, search-optimized visual content"
+  board_strategy: "Themed boards serving as resource hubs"
+  longevity: "Pins continue driving traffic for months/years"
+
+technical_specifications:
+  pin_size: "1000×1500px (2:3 vertical ratio)"
+  file_size: "Under 10MB"
+  format: "PNG or JPEG"
+  text_overlay: "Readable on mobile (test at small size)"
+  branding: "Subtle logo or watermark"
+
+best_practices:
+  - "Design for mobile-first viewing"
+  - "Use clear, readable text overlays"
+  - "Include brand logo or watermark subtly"
+  - "Create multiple pin designs for same content"
+  - "Write keyword-rich titles and descriptions"
+  - "Add comprehensive alt text"
+  - "Pin consistently (5-10 pins per week)"
+  - "Mix own content with curated pins"
+  - "Organize boards by clear themes"
+  - "Update evergreen pins seasonally"
+  - "Link pins to blog or website for traffic"
+
+board_strategy:
+  themed_boards: "Organize by clear topics (e.g., 'Ethical UI/UX', 'AI in Design', 'Accessible Color Palettes')"
+  board_description: "Keyword-rich descriptions for SEO"
+  board_covers: "Branded, cohesive visual identity"
+  pin_ratio: "70% own content, 30% curated high-quality pins"
+  board_maintenance: "Regular updates with fresh pins"
+
+keyword_optimization:
+  title: "Front-load with primary keyword"
+  description: "200+ characters with natural keyword integration"
+  alt_text: "Descriptive text including keywords"
+  board_names: "Clear, searchable board titles"
+  research: "Use Pinterest search suggestions and Pinterest Trends"
+
+content_ideas:
+  how_to_guides: "Step-by-step visual tutorials"
+  checklists: "Printable checklists and worksheets"
+  infographics: "Data visualizations and statistics"
+  tips_and_tricks: "Quick actionable advice"
+  inspiration_boards: "Curated mood boards and collections"
+  before_after: "Transformation showcases"
+  quotes: "Inspirational quotes with visual design"
+
+traffic_generation:
+  link_strategy: "Link every pin to relevant blog post or landing page"
+  landing_pages: "Create Pinterest-optimized landing pages"
+  calls_to_action: "Clear next steps in pin descriptions"
+  lead_magnets: "Use pins to promote downloadable resources"
+  tracking: "Use UTM parameters to track Pinterest traffic"
+
+long_term_strategy:
+  evergreen_focus: "Create timeless content that stays relevant"
+  seasonal_updates: "Refresh pins for holidays and seasons"
+  consistency: "Regular pinning builds authority and reach"
+  patience: "Pins gain traction over weeks/months, not days"
+  analytics_review: "Monthly review of top-performing pins"
+  repurposing: "Turn blog posts into multiple pin designs"
+
+automation_opportunities:
+  - "Scheduled pin publishing via Tailwind or Pinterest Scheduler"
+  - "Batch pin creation from blog content"
+  - "Template-based pin designs"
+  - "Analytics tracking and reporting"
+
+tags:
+  - pinterest
+  - discovery
+  - evergreen_content
+  - visual_search
+  - traffic_generation
+  - seo
+
+version: "1.0"
+created: "2025-11-13"
+last_updated: "2025-11-13"

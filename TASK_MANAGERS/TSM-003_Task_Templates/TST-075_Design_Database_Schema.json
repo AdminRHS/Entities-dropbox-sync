@@ -1,0 +1,190 @@
+{
+  "entity_type": "TASK_MANAGERS",
+  "sub_entity": "Task_Template",
+  "template_id": "Task-Template-075",
+  "task_name": "Design Database Schema for Application or Microservice",
+  "action": "Design",
+  "object": "Database Schema",
+  "context": "to create data models for new applications, microservices, or system components with proper relationships and constraints",
+  "description": "Comprehensive database schema design process for applications and microservices. Includes requirements analysis, entity-relationship modeling, table structure design, relationship definitions, index optimization, and constraint implementation. Ensures data integrity, performance optimization, and scalability. Supports both relational (PostgreSQL, MySQL) and NoSQL (MongoDB, Firestore) databases.",
+  "department": "AI & Automation",
+  "profession": "Database Architect / Backend Engineer",
+  "estimated_duration": "3 hours (1 hour requirements + 1.5 hours design + 30 min documentation)",
+  "status": "Template",
+  "dependencies": [
+    "Requirements specification document",
+    "Understanding of data access patterns",
+    "Database platform decision (SQL vs NoSQL)",
+    "Data volume and performance requirements",
+    "Compliance and security requirements"
+  ],
+  "tools_required": [
+    "TOL-003 (Gemini 3 Pro) for schema generation",
+    "TOL-045 (Google Sheets) for schema documentation",
+    "Database modeling tools (dbdiagram.io, Lucidchart)",
+    "SQL client (pgAdmin, MySQL Workbench)",
+    "Version control (Git)"
+  ],
+  "success_criteria": [
+    "All entities and attributes identified from requirements",
+    "Entity-relationship diagram created",
+    "Tables designed with proper data types and constraints",
+    "Relationships defined (1:1, 1:N, N:M) with foreign keys",
+    "Indexes identified for performance optimization",
+    "Normalization applied (minimum 3NF for relational)",
+    "Schema documented with data dictionary",
+    "Review completed with stakeholders"
+  ],
+  "steps": [
+    {
+      "step_number": 1,
+      "name": "Analyze requirements and identify entities",
+      "duration": "30 minutes",
+      "outputs": [
+        "List of entities (users, orders, products, etc.)",
+        "Business rules documented",
+        "Data access patterns identified",
+        "Performance requirements noted"
+      ]
+    },
+    {
+      "step_number": 2,
+      "name": "Create entity-relationship diagram",
+      "duration": "45 minutes",
+      "outputs": [
+        "ER diagram with entities and relationships",
+        "Cardinality defined (1:1, 1:N, N:M)",
+        "Relationship constraints documented",
+        "Visual representation of data model"
+      ]
+    },
+    {
+      "step_number": 3,
+      "name": "Design table structures and define attributes",
+      "duration": "45 minutes",
+      "outputs": [
+        "Table definitions with columns",
+        "Data types specified for each column",
+        "Primary keys identified",
+        "NOT NULL, UNIQUE, DEFAULT constraints defined",
+        "Auto-increment/UUID generation strategy"
+      ]
+    },
+    {
+      "step_number": 4,
+      "name": "Define relationships and foreign keys",
+      "duration": "20 minutes",
+      "outputs": [
+        "Foreign key constraints defined",
+        "Cascade rules specified (ON DELETE, ON UPDATE)",
+        "Junction tables created for many-to-many relationships",
+        "Referential integrity ensured"
+      ]
+    },
+    {
+      "step_number": 5,
+      "name": "Optimize with indexes and constraints",
+      "duration": "20 minutes",
+      "outputs": [
+        "Indexes created for frequently queried columns",
+        "Composite indexes for multi-column queries",
+        "CHECK constraints for data validation",
+        "UNIQUE constraints for business rules"
+      ]
+    },
+    {
+      "step_number": 6,
+      "name": "Apply normalization and review design",
+      "duration": "20 minutes",
+      "outputs": [
+        "Schema normalized (3NF minimum)",
+        "Redundancy eliminated",
+        "Design reviewed against SOLID principles",
+        "Trade-offs documented (denormalization for performance)"
+      ]
+    },
+    {
+      "step_number": 7,
+      "name": "Create documentation and data dictionary",
+      "duration": "30 minutes",
+      "outputs": [
+        "Schema documentation with table descriptions",
+        "Data dictionary (column meanings, formats, ranges)",
+        "Sample queries documented",
+        "Migration scripts prepared (CREATE TABLE statements)"
+      ]
+    }
+  ],
+  "checklist": [
+    {
+      "item": "All entities identified from requirements",
+      "required": true
+    },
+    {
+      "item": "ER diagram created and reviewed",
+      "required": true
+    },
+    {
+      "item": "Primary keys defined for all tables",
+      "required": true
+    },
+    {
+      "item": "Foreign key relationships properly defined",
+      "required": true
+    },
+    {
+      "item": "Data types appropriate for each column",
+      "required": true
+    },
+    {
+      "item": "Indexes created for performance-critical queries",
+      "required": true
+    },
+    {
+      "item": "Schema normalized (3NF) or denormalization justified",
+      "required": true
+    },
+    {
+      "item": "Documentation created (ER diagram, data dictionary)",
+      "required": true
+    },
+    {
+      "item": "Schema reviewed with development team",
+      "required": true
+    }
+  ],
+  "roi_metrics": {
+    "development_efficiency": "Reduces development time by 30% with clear schema upfront",
+    "data_integrity": "Prevents 90% of data quality issues through proper constraints",
+    "performance": "Optimized indexes improve query performance by 5-10x"
+  },
+  "related_tasks": [
+    "TST-073 (Set Up Automation Infrastructure)",
+    "TST-074 (Process Daily Report Files)"
+  ],
+  "related_workflows": [
+    "Application Development Workflow",
+    "Microservices Architecture Design"
+  ],
+  "related_projects": [
+    "Microservice Development",
+    "Database Migration Projects"
+  ],
+  "tags": [
+    "database",
+    "schema-design",
+    "data-modeling",
+    "sql",
+    "er-diagram",
+    "normalization",
+    "backend",
+    "architecture"
+  ],
+  "version": "1.0",
+  "created": "2025-11-21",
+  "last_updated": "2025-11-21",
+  "responsibility_id": "RESP-AID-199",
+  "responsibility_name": "design database schema",
+  "_original_action": "Design",
+  "_original_object": "Database Schema"
+}

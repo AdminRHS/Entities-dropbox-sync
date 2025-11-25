@@ -1,0 +1,35 @@
+{
+  "entity_type": "TASK_MANAGERS",
+  "sub_entity": "Step_Template",
+  "step_id": "VIDEO-VIDEO-004-09",
+  "step_number": 9,
+  "parent_task": "TASK-TEMPLATE-VIDEO-004",
+  "task_name": "Master Unified Platform Workflow for Video Generation",
+  "name": "Navigate to Video section (stay in OpenArt)",
+  "action": "navigate",
+  "tool": "TOOL-AI-052 (OpenArt)",
+  "responsibility": "Video Producer",
+  "placement": "OpenArt - Video section",
+  "duration": "30 seconds",
+  "dependencies": [
+    4,
+    6,
+    7
+  ],
+  "inputs": [
+    "All reference images generated"
+  ],
+  "outputs": [
+    "Video generation interface loaded"
+  ],
+  "success_criteria": "Seamless transition from Image to Video section",
+  "implementation_notes": "Seamless transition from Image to Video section - Implementation details based on the Master Unified Platform Workflow for Video Generation workflow.",
+  "tags": [
+    "navigate",
+    "template-task-video-004"
+  ],
+  "version": "1.0",
+  "created": "2025-11-15",
+  "last_updated": "2025-11-15",
+  "source": "Video_012"
+}

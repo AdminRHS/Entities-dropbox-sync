@@ -1,0 +1,188 @@
+{
+  "entity_type": "TASK_MANAGERS",
+  "sub_entity": "Task_Template",
+  "template_id": "Task-Template-080",
+  "task_name": "Generate and Qualify Leads for Sales Pipeline",
+  "action": "Generate",
+  "object": "Leads",
+  "context": "to identify, research, and qualify potential clients for outreach campaigns and sales pipeline development",
+  "description": "Systematic lead generation and qualification process for sales pipeline. Includes researching target industries, identifying decision makers, gathering contact information, qualifying leads based on criteria, enriching CRM data, and preparing leads for outreach campaigns. Essential for maintaining healthy sales pipeline and revenue growth.",
+  "department": "Lead Generation",
+  "profession": "Lead Generation Specialist / Sales Development Rep",
+  "estimated_duration": "3 hours (1 hour research + 1.5 hours data entry + 30 min qualification)",
+  "status": "Template",
+  "dependencies": [
+    "Target market and ideal customer profile defined",
+    "CRM system access and permissions",
+    "LinkedIn Sales Navigator or research tools",
+    "Lead qualification criteria documented",
+    "Data enrichment tools available"
+  ],
+  "tools_required": [
+    "CRM system (HubSpot, Salesforce, Pipedrive)",
+    "LinkedIn and LinkedIn Sales Navigator",
+    "TOL-092 (Discord) for team communication",
+    "TOL-045 (Google Sheets) for lead tracking",
+    "Email finder tools (Hunter.io, Apollo.io)"
+  ],
+  "success_criteria": [
+    "15-20 new qualified leads generated",
+    "All leads added to CRM with complete information",
+    "Company details researched and documented",
+    "Decision maker contact information found",
+    "Lead qualification score assigned",
+    "Lead source and campaign tagged",
+    "Enrichment data added (company size, revenue, tech stack)",
+    "Leads assigned to appropriate sales rep"
+  ],
+  "steps": [
+    {
+      "step_number": 1,
+      "name": "Define target criteria and ideal customer profile",
+      "duration": "20 minutes",
+      "outputs": [
+        "Target industries identified",
+        "Company size range defined",
+        "Geographic criteria set",
+        "Budget/revenue thresholds established",
+        "Decision maker roles specified"
+      ]
+    },
+    {
+      "step_number": 2,
+      "name": "Research and identify potential companies",
+      "duration": "40 minutes",
+      "outputs": [
+        "30-40 target companies identified",
+        "Companies match ideal customer profile",
+        "Company websites and LinkedIn pages reviewed",
+        "Recent news or triggers noted (funding, hiring, expansion)"
+      ]
+    },
+    {
+      "step_number": 3,
+      "name": "Find decision makers and contact information",
+      "duration": "40 minutes",
+      "outputs": [
+        "Decision makers identified (titles, names)",
+        "LinkedIn profiles found",
+        "Email addresses discovered",
+        "Phone numbers located (if available)",
+        "Social media profiles noted"
+      ]
+    },
+    {
+      "step_number": 4,
+      "name": "Qualify leads based on criteria",
+      "duration": "30 minutes",
+      "outputs": [
+        "Leads scored using qualification framework",
+        "High-priority leads (15-20) selected",
+        "Disqualified leads archived with reason",
+        "Lead temperature assigned (hot/warm/cold)"
+      ]
+    },
+    {
+      "step_number": 5,
+      "name": "Enrich lead data with additional details",
+      "duration": "30 minutes",
+      "outputs": [
+        "Company details added (employee count, revenue)",
+        "Tech stack identified (if relevant)",
+        "Recent activities noted (hiring, funding, events)",
+        "Pain points and opportunities documented"
+      ]
+    },
+    {
+      "step_number": 6,
+      "name": "Add leads to CRM with complete information",
+      "duration": "40 minutes",
+      "outputs": [
+        "15-20 leads entered into CRM",
+        "All required fields populated",
+        "Lead source and campaign tagged",
+        "Custom fields completed",
+        "Duplicate check performed"
+      ]
+    },
+    {
+      "step_number": 7,
+      "name": "Prepare leads for outreach and assign",
+      "duration": "20 minutes",
+      "outputs": [
+        "Leads segmented by priority",
+        "Outreach sequence assigned",
+        "Leads distributed to sales reps",
+        "Next action steps defined",
+        "Team notified of new leads"
+      ]
+    }
+  ],
+  "checklist": [
+    {
+      "item": "Target criteria and ICP defined",
+      "required": true
+    },
+    {
+      "item": "15-20 qualified leads identified",
+      "required": true
+    },
+    {
+      "item": "Decision maker contact info found for all leads",
+      "required": true
+    },
+    {
+      "item": "Leads qualified using standard criteria",
+      "required": true
+    },
+    {
+      "item": "Company details and enrichment data added",
+      "required": true
+    },
+    {
+      "item": "All leads entered into CRM with complete information",
+      "required": true
+    },
+    {
+      "item": "Lead source and campaign properly tagged",
+      "required": true
+    },
+    {
+      "item": "Leads assigned to sales reps with next actions",
+      "required": true
+    }
+  ],
+  "roi_metrics": {
+    "pipeline_value": "15-20 qualified leads = $75k-200k potential pipeline value",
+    "conversion_rate": "Qualified leads convert at 15-25% vs 2-5% for unqualified",
+    "sales_efficiency": "Pre-qualified leads save sales reps 5-10 hours of research weekly"
+  },
+  "related_tasks": [
+    "TST-079 (Conduct Candidate Interview)"
+  ],
+  "related_workflows": [
+    "Sales Development Workflow",
+    "Lead Generation and Qualification Process"
+  ],
+  "related_projects": [
+    "Sales Pipeline Growth Initiative",
+    "Market Expansion Project"
+  ],
+  "tags": [
+    "lead-generation",
+    "sales",
+    "crm",
+    "prospecting",
+    "qualification",
+    "linkedin",
+    "pipeline",
+    "outreach"
+  ],
+  "version": "1.0",
+  "created": "2025-11-21",
+  "last_updated": "2025-11-21",
+  "responsibility_id": "RESP-LGN-XXX",
+  "responsibility_name": "generate leads",
+  "_original_action": "Generate",
+  "_original_object": "Leads"
+}

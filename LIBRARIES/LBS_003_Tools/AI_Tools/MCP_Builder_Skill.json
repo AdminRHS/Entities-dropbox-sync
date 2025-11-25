@@ -1,0 +1,143 @@
+{
+  "entity_type": "LIBRARIES",
+  "sub_entity": "Tool",
+  "tool_id": "TOOL-AI-031",
+  "name": "MCP Builder (Skill)",
+  "vendor": "Anthropic",
+  "category": "AI Tools / Claude Skill / Code Generation",
+  "purpose": "Automatically generate MCP connector code from simple prompts",
+  "description": "Claude skill that auto-generates Model Context Protocol (MCP) server code for connecting Claude to any application. Takes a two-sentence prompt describing the desired connector and generates complete, working MCP server code with full read/write/send capabilities. Eliminates need for manual coding of connectors.",
+  "skill_level_required": "Beginner to Intermediate",
+  "cost_structure": "Included with Claude subscription (part of Claude Skills)",
+  "platform_compatibility": [
+    "Claude Desktop App",
+    "Web (Claude AI)"
+  ],
+  "integration_capabilities": [
+    "Generates MCP server code automatically",
+    "Creates connectors for any application with API",
+    "Gmail connector generation",
+    "Google Calendar connector generation",
+    "CRM connector generation",
+    "Custom application connectors",
+    "Full CRUD operations (create, read, update, delete)",
+    "Send capabilities for communication apps"
+  ],
+  "documentation_url": "https://claude.ai/skills",
+  "actual_remote_helpers_usage": {
+    "primary_use": "No-Code MCP Connector Generation",
+    "users": [
+      "AI Engineer",
+      "Backend Developer",
+      "Automation Specialist",
+      "Product Manager (technical)",
+      "DevOps Engineer"
+    ],
+    "use_cases": [
+      "generate Gmail connector with full access",
+      "create Google Calendar integration",
+      "build CRM connectors (Airtable, HubSpot, etc.)",
+      "connect Claude to custom internal tools",
+      "enable two-way communication with apps",
+      "automate app-to-app workflows",
+      "generate connector code from descriptions"
+    ],
+    "workflows": [
+      "Create Custom Application Connector (two-sentence prompt → full MCP server)",
+      "Simple Setup Process for Local Connectors (5 minutes total)"
+    ],
+    "typical_workflow_pattern": [
+      {
+        "task": "Generate Custom MCP Connector",
+        "steps": [
+          "Enable mcp-builder skill in Claude Desktop",
+          "Write 2-sentence prompt: 'I want to connect to [App]. I need [capabilities]'",
+          "mcp-builder generates complete MCP server code",
+          "Copy code to local directory",
+          "Deploy connector locally with Cursor assistance",
+          "Configure in Claude Desktop settings"
+        ],
+        "complexity": "Medium",
+        "time_estimate": "5-10 minutes total",
+        "code_generation_time": "30-60 seconds"
+      },
+      {
+        "task": "Gmail MCP Connector Generation",
+        "steps": [
+          "Prompt: 'Connect Claude to Gmail with read, write, and send access'",
+          "mcp-builder generates Gmail MCP code",
+          "Code includes OAuth, email reading, drafting, sending",
+          "Deploy locally",
+          "Authenticate with Google",
+          "Start using in Claude conversations"
+        ],
+        "complexity": "Medium",
+        "time_estimate": "6-8 minutes including authentication",
+        "prerequisites": ["Google Cloud credentials"]
+      }
+    ],
+    "integration_with_other_tools": [
+      "Claude Desktop App (required platform)",
+      "Cursor (code editor for deployment)",
+      "Gmail (example connector target)",
+      "Google Calendar (example connector target)",
+      "Airtable/CRM (example connector targets)",
+      "Google Cloud Console (for API credentials)",
+      "Any application with API"
+    ]
+  },
+  "strengths": [
+    "Two-sentence prompts create full connectors",
+    "No manual coding required",
+    "Generates complete, working code (not templates)",
+    "Full read/write/send capabilities",
+    "Faster than manual development (5-10 min vs hours)",
+    "Works with any application that has an API",
+    "Handles OAuth and authentication automatically",
+    "Included free with Claude subscription"
+  ],
+  "limitations": [
+    "Requires Claude Desktop App",
+    "Some connectors need API credentials setup",
+    "Generated code needs local deployment",
+    "Best results with Sonnet 4.5 model",
+    "Learning curve for first-time MCP setup"
+  ],
+  "example_prompts": [
+    "I want to connect Claude to Gmail with full read, write, and send access",
+    "Create a Google Calendar connector that can read, create, and delete events",
+    "Connect Claude to my CRM (Airtable) to update client records automatically"
+  ],
+  "code_generation_capabilities": {
+    "languages_supported": ["Python", "JavaScript", "TypeScript"],
+    "includes": [
+      "OAuth implementation",
+      "API request handling",
+      "Error handling",
+      "Type definitions",
+      "Configuration files",
+      "README documentation"
+    ],
+    "output": "Complete MCP server ready to deploy"
+  },
+  "departments_using": [
+    "AI",
+    "Dev",
+    "OPS"
+  ],
+  "tags": [
+    "code-generation",
+    "mcp-connector",
+    "no-code",
+    "automation",
+    "ai-skill",
+    "connector-builder",
+    "integration",
+    "claude-skill"
+  ],
+  "discovery_date": "2025-11-12",
+  "discovery_source": "Video_008_MCP_Connector_Tutorial",
+  "status": "active",
+  "recommended_model": "Sonnet 4.5",
+  "skill_type": "Built-in Claude Skill"
+}

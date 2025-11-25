@@ -1,0 +1,806 @@
+{
+  "entity_type": "TASK_MANAGERS",
+  "sub_entity": "Checklist_Items_Checklist-Item-003",
+  "version": "1.0",
+  "last_updated": "2025-11-25",
+  "total_items": 98,
+  "items": [
+    {
+      "checklist_item_id": "CHK-001",
+      "item_name": "Unified Responsibilities ecosystem structure",
+      "associated_project": "PROJ-LIB-001",
+      "associated_milestone": null,
+      "status": "pending",
+      "file_path": "ENTITIES/TASK_MANAGERS/Checklist_Items/By_Project/PROJ-LIB-001/CHK-001.json"
+    },
+    {
+      "checklist_item_id": "CHK-002",
+      "item_name": "parameter_object_mapping.json (473 state-based + 6,848 quality mappings)",
+      "associated_project": "PROJ-LIB-001",
+      "associated_milestone": null,
+      "status": "pending",
+      "file_path": "ENTITIES/TASK_MANAGERS/Checklist_Items/By_Project/PROJ-LIB-001/CHK-002.json"
+    },
+    {
+      "checklist_item_id": "CHK-003",
+      "item_name": "parameter_views_by_profession.json",
+      "associated_project": "PROJ-LIB-001",
+      "associated_milestone": null,
+      "status": "pending",
+      "file_path": "ENTITIES/TASK_MANAGERS/Checklist_Items/By_Project/PROJ-LIB-001/CHK-003.json"
+    },
+    {
+      "checklist_item_id": "CHK-004",
+      "item_name": "migrate_references.py automation script",
+      "associated_project": "PROJ-LIB-001",
+      "associated_milestone": null,
+      "status": "pending",
+      "file_path": "ENTITIES/TASK_MANAGERS/Checklist_Items/By_Project/PROJ-LIB-001/CHK-004.json"
+    },
+    {
+      "checklist_item_id": "CHK-005",
+      "item_name": "validate_ecosystem.py validation script",
+      "associated_project": "PROJ-LIB-001",
+      "associated_milestone": null,
+      "status": "pending",
+      "file_path": "ENTITIES/TASK_MANAGERS/Checklist_Items/By_Project/PROJ-LIB-001/CHK-005.json"
+    },
+    {
+      "checklist_item_id": "CHK-006",
+      "item_name": "Core/ directory with 4 integration files + By_Department views",
+      "associated_project": "PROJ-LIB-001",
+      "associated_milestone": null,
+      "status": "pending",
+      "file_path": "ENTITIES/TASK_MANAGERS/Checklist_Items/By_Project/PROJ-LIB-001/CHK-006.json"
+    },
+    {
+      "checklist_item_id": "CHK-007",
+      "item_name": "Complete project logs (6 files)",
+      "associated_project": "PROJ-LIB-001",
+      "associated_milestone": null,
+      "status": "pending",
+      "file_path": "ENTITIES/TASK_MANAGERS/Checklist_Items/By_Project/PROJ-LIB-001/CHK-007.json"
+    },
+    {
+      "checklist_item_id": "CHK-008",
+      "item_name": "Migration statistics report",
+      "associated_project": "PROJ-LIB-001",
+      "associated_milestone": null,
+      "status": "pending",
+      "file_path": "ENTITIES/TASK_MANAGERS/Checklist_Items/By_Project/PROJ-LIB-001/CHK-008.json"
+    },
+    {
+      "checklist_item_id": "CHK-009",
+      "item_name": "Research session JSON file (YYYY-MM-WXX_AI_Tutorials_Research.json)",
+      "associated_project": "Project-Template-001",
+      "associated_milestone": "MIL-PROJ-AI-002-001",
+      "status": "pending",
+      "file_path": "ENTITIES/TASK_MANAGERS/Checklist_Items/By_Project/Project-Template-001/CHK-009.json"
+    },
+    {
+      "checklist_item_id": "CHK-010",
+      "item_name": "10-15 videos identified with URLs, creators, metadata",
+      "associated_project": "Project-Template-001",
+      "associated_milestone": "MIL-PROJ-AI-002-001",
+      "status": "pending",
+      "file_path": "ENTITIES/TASK_MANAGERS/Checklist_Items/By_Project/Project-Template-001/CHK-010.json"
+    },
+    {
+      "checklist_item_id": "CHK-011",
+      "item_name": "Influencer_Database.json updated with new creators",
+      "associated_project": "Project-Template-001",
+      "associated_milestone": "MIL-PROJ-AI-002-001",
+      "status": "pending",
+      "file_path": "ENTITIES/TASK_MANAGERS/Checklist_Items/By_Project/Project-Template-001/CHK-011.json"
+    },
+    {
+      "checklist_item_id": "CHK-012",
+      "item_name": "YouTube_Channels.json updated with metrics",
+      "associated_project": "Project-Template-001",
+      "associated_milestone": "MIL-PROJ-AI-002-001",
+      "status": "pending",
+      "file_path": "ENTITIES/TASK_MANAGERS/Checklist_Items/By_Project/Project-Template-001/CHK-012.json"
+    },
+    {
+      "checklist_item_id": "CHK-013",
+      "item_name": "3-5 Video_XXX.md files with complete transcriptions",
+      "associated_project": "Project-Template-001",
+      "associated_milestone": "MIL-PROJ-AI-002-002",
+      "status": "pending",
+      "file_path": "ENTITIES/TASK_MANAGERS/Checklist_Items/By_Project/Project-Template-001/CHK-013.json"
+    },
+    {
+      "checklist_item_id": "CHK-014",
+      "item_name": "VIDEOS_INDEX.md updated with new entries",
+      "associated_project": "Project-Template-001",
+      "associated_milestone": "MIL-PROJ-AI-002-002",
+      "status": "pending",
+      "file_path": "ENTITIES/TASK_MANAGERS/Checklist_Items/By_Project/Project-Template-001/CHK-014.json"
+    },
+    {
+      "checklist_item_id": "CHK-015",
+      "item_name": "Creator attribution and channel URLs included",
+      "associated_project": "Project-Template-001",
+      "associated_milestone": "MIL-PROJ-AI-002-002",
+      "status": "pending",
+      "file_path": "ENTITIES/TASK_MANAGERS/Checklist_Items/By_Project/Project-Template-001/CHK-015.json"
+    },
+    {
+      "checklist_item_id": "CHK-016",
+      "item_name": "Videos ready for taxonomy extraction",
+      "associated_project": "Project-Template-001",
+      "associated_milestone": "MIL-PROJ-AI-002-002",
+      "status": "pending",
+      "file_path": "ENTITIES/TASK_MANAGERS/Checklist_Items/By_Project/Project-Template-001/CHK-016.json"
+    },
+    {
+      "checklist_item_id": "CHK-017",
+      "item_name": "Video_XXX_Library_Mapping_Report.md (per video)",
+      "associated_project": "Project-Template-001",
+      "associated_milestone": "MIL-PROJ-AI-002-003",
+      "status": "pending",
+      "file_path": "ENTITIES/TASK_MANAGERS/Checklist_Items/By_Project/Project-Template-001/CHK-017.json"
+    },
+    {
+      "checklist_item_id": "CHK-018",
+      "item_name": "5-10 new tool entries in Tools/AI_Tools/",
+      "associated_project": "Project-Template-001",
+      "associated_milestone": "MIL-PROJ-AI-002-003",
+      "status": "pending",
+      "file_path": "ENTITIES/TASK_MANAGERS/Checklist_Items/By_Project/Project-Template-001/CHK-018.json"
+    },
+    {
+      "checklist_item_id": "CHK-019",
+      "item_name": "Objects library updated with new entities",
+      "associated_project": "Project-Template-001",
+      "associated_milestone": "MIL-PROJ-AI-002-003",
+      "status": "pending",
+      "file_path": "ENTITIES/TASK_MANAGERS/Checklist_Items/By_Project/Project-Template-001/CHK-019.json"
+    },
+    {
+      "checklist_item_id": "CHK-020",
+      "item_name": "3-5 new processes/workflows documented",
+      "associated_project": "Project-Template-001",
+      "associated_milestone": "MIL-PROJ-AI-002-003",
+      "status": "pending",
+      "file_path": "ENTITIES/TASK_MANAGERS/Checklist_Items/By_Project/Project-Template-001/CHK-020.json"
+    },
+    {
+      "checklist_item_id": "CHK-021",
+      "item_name": "Profession mappings updated",
+      "associated_project": "Project-Template-001",
+      "associated_milestone": "MIL-PROJ-AI-002-003",
+      "status": "pending",
+      "file_path": "ENTITIES/TASK_MANAGERS/Checklist_Items/By_Project/Project-Template-001/CHK-021.json"
+    },
+    {
+      "checklist_item_id": "CHK-022",
+      "item_name": "Cross-reference index updated",
+      "associated_project": "Project-Template-001",
+      "associated_milestone": "MIL-PROJ-AI-002-003",
+      "status": "pending",
+      "file_path": "ENTITIES/TASK_MANAGERS/Checklist_Items/By_Project/Project-Template-001/CHK-022.json"
+    },
+    {
+      "checklist_item_id": "CHK-023",
+      "item_name": "Research session summary report",
+      "associated_project": "Project-Template-001",
+      "associated_milestone": "MIL-PROJ-AI-002-003",
+      "status": "pending",
+      "file_path": "ENTITIES/TASK_MANAGERS/Checklist_Items/By_Project/Project-Template-001/CHK-023.json"
+    },
+    {
+      "checklist_item_id": "CHK-024",
+      "item_name": "Claude Skills enabled in Claude Desktop",
+      "associated_project": "Project-Template-002",
+      "associated_milestone": "MIL-PROJ-DEV-001-001",
+      "status": "pending",
+      "file_path": "ENTITIES/TASK_MANAGERS/Checklist_Items/By_Project/Project-Template-002/CHK-024.json"
+    },
+    {
+      "checklist_item_id": "CHK-025",
+      "item_name": "MCP Builder skill visible and accessible",
+      "associated_project": "Project-Template-002",
+      "associated_milestone": "MIL-PROJ-DEV-001-001",
+      "status": "pending",
+      "file_path": "ENTITIES/TASK_MANAGERS/Checklist_Items/By_Project/Project-Template-002/CHK-025.json"
+    },
+    {
+      "checklist_item_id": "CHK-026",
+      "item_name": "Complete Gmail MCP connector codebase",
+      "associated_project": "Project-Template-002",
+      "associated_milestone": "MIL-PROJ-DEV-001-002",
+      "status": "pending",
+      "file_path": "ENTITIES/TASK_MANAGERS/Checklist_Items/By_Project/Project-Template-002/CHK-026.json"
+    },
+    {
+      "checklist_item_id": "CHK-027",
+      "item_name": "API integration code",
+      "associated_project": "Project-Template-002",
+      "associated_milestone": "MIL-PROJ-DEV-001-002",
+      "status": "pending",
+      "file_path": "ENTITIES/TASK_MANAGERS/Checklist_Items/By_Project/Project-Template-002/CHK-027.json"
+    },
+    {
+      "checklist_item_id": "CHK-028",
+      "item_name": "Error handling implementation",
+      "associated_project": "Project-Template-002",
+      "associated_milestone": "MIL-PROJ-DEV-001-002",
+      "status": "pending",
+      "file_path": "ENTITIES/TASK_MANAGERS/Checklist_Items/By_Project/Project-Template-002/CHK-028.json"
+    },
+    {
+      "checklist_item_id": "CHK-029",
+      "item_name": "Configuration files",
+      "associated_project": "Project-Template-002",
+      "associated_milestone": "MIL-PROJ-DEV-001-002",
+      "status": "pending",
+      "file_path": "ENTITIES/TASK_MANAGERS/Checklist_Items/By_Project/Project-Template-002/CHK-029.json"
+    },
+    {
+      "checklist_item_id": "CHK-030",
+      "item_name": "Complete Calendar MCP connector codebase",
+      "associated_project": "Project-Template-002",
+      "associated_milestone": "MIL-PROJ-DEV-001-003",
+      "status": "pending",
+      "file_path": "ENTITIES/TASK_MANAGERS/Checklist_Items/By_Project/Project-Template-002/CHK-030.json"
+    },
+    {
+      "checklist_item_id": "CHK-031",
+      "item_name": "API integration code",
+      "associated_project": "Project-Template-002",
+      "associated_milestone": "MIL-PROJ-DEV-001-003",
+      "status": "pending",
+      "file_path": "ENTITIES/TASK_MANAGERS/Checklist_Items/By_Project/Project-Template-002/CHK-031.json"
+    },
+    {
+      "checklist_item_id": "CHK-032",
+      "item_name": "Event handling logic",
+      "associated_project": "Project-Template-002",
+      "associated_milestone": "MIL-PROJ-DEV-001-003",
+      "status": "pending",
+      "file_path": "ENTITIES/TASK_MANAGERS/Checklist_Items/By_Project/Project-Template-002/CHK-032.json"
+    },
+    {
+      "checklist_item_id": "CHK-033",
+      "item_name": "Configuration files",
+      "associated_project": "Project-Template-002",
+      "associated_milestone": "MIL-PROJ-DEV-001-003",
+      "status": "pending",
+      "file_path": "ENTITIES/TASK_MANAGERS/Checklist_Items/By_Project/Project-Template-002/CHK-033.json"
+    },
+    {
+      "checklist_item_id": "CHK-034",
+      "item_name": "Gmail connector running locally",
+      "associated_project": "Project-Template-002",
+      "associated_milestone": "MIL-PROJ-DEV-001-004",
+      "status": "pending",
+      "file_path": "ENTITIES/TASK_MANAGERS/Checklist_Items/By_Project/Project-Template-002/CHK-034.json"
+    },
+    {
+      "checklist_item_id": "CHK-035",
+      "item_name": "Calendar connector running locally",
+      "associated_project": "Project-Template-002",
+      "associated_milestone": "MIL-PROJ-DEV-001-004",
+      "status": "pending",
+      "file_path": "ENTITIES/TASK_MANAGERS/Checklist_Items/By_Project/Project-Template-002/CHK-035.json"
+    },
+    {
+      "checklist_item_id": "CHK-036",
+      "item_name": "Both visible in Claude Desktop",
+      "associated_project": "Project-Template-002",
+      "associated_milestone": "MIL-PROJ-DEV-001-004",
+      "status": "pending",
+      "file_path": "ENTITIES/TASK_MANAGERS/Checklist_Items/By_Project/Project-Template-002/CHK-036.json"
+    },
+    {
+      "checklist_item_id": "CHK-037",
+      "item_name": "Connection test results",
+      "associated_project": "Project-Template-002",
+      "associated_milestone": "MIL-PROJ-DEV-001-004",
+      "status": "pending",
+      "file_path": "ENTITIES/TASK_MANAGERS/Checklist_Items/By_Project/Project-Template-002/CHK-037.json"
+    },
+    {
+      "checklist_item_id": "CHK-038",
+      "item_name": "Morning email automation workflow",
+      "associated_project": "Project-Template-002",
+      "associated_milestone": "MIL-PROJ-DEV-001-005",
+      "status": "pending",
+      "file_path": "ENTITIES/TASK_MANAGERS/Checklist_Items/By_Project/Project-Template-002/CHK-038.json"
+    },
+    {
+      "checklist_item_id": "CHK-039",
+      "item_name": "Email draft templates",
+      "associated_project": "Project-Template-002",
+      "associated_milestone": "MIL-PROJ-DEV-001-005",
+      "status": "pending",
+      "file_path": "ENTITIES/TASK_MANAGERS/Checklist_Items/By_Project/Project-Template-002/CHK-039.json"
+    },
+    {
+      "checklist_item_id": "CHK-040",
+      "item_name": "First batch of automated drafts",
+      "associated_project": "Project-Template-002",
+      "associated_milestone": "MIL-PROJ-DEV-001-005",
+      "status": "pending",
+      "file_path": "ENTITIES/TASK_MANAGERS/Checklist_Items/By_Project/Project-Template-002/CHK-040.json"
+    },
+    {
+      "checklist_item_id": "CHK-041",
+      "item_name": "Stacked connector workflow (Calendar + Gmail)",
+      "associated_project": "Project-Template-002",
+      "associated_milestone": "MIL-PROJ-DEV-001-006",
+      "status": "pending",
+      "file_path": "ENTITIES/TASK_MANAGERS/Checklist_Items/By_Project/Project-Template-002/CHK-041.json"
+    },
+    {
+      "checklist_item_id": "CHK-042",
+      "item_name": "Automated meeting follow-up emails",
+      "associated_project": "Project-Template-002",
+      "associated_milestone": "MIL-PROJ-DEV-001-006",
+      "status": "pending",
+      "file_path": "ENTITIES/TASK_MANAGERS/Checklist_Items/By_Project/Project-Template-002/CHK-042.json"
+    },
+    {
+      "checklist_item_id": "CHK-043",
+      "item_name": "Calendar event triggers configured",
+      "associated_project": "Project-Template-002",
+      "associated_milestone": "MIL-PROJ-DEV-001-006",
+      "status": "pending",
+      "file_path": "ENTITIES/TASK_MANAGERS/Checklist_Items/By_Project/Project-Template-002/CHK-043.json"
+    },
+    {
+      "checklist_item_id": "CHK-044",
+      "item_name": "n8n workflow: Gmail → Gemini AI → Google Sheets",
+      "associated_project": "Project-Template-003",
+      "associated_milestone": "MIL-PROJ-HR-002-001",
+      "status": "pending",
+      "file_path": "ENTITIES/TASK_MANAGERS/Checklist_Items/By_Project/Project-Template-003/CHK-044.json"
+    },
+    {
+      "checklist_item_id": "CHK-045",
+      "item_name": "CV Parser v1.1 optimized prompt",
+      "associated_project": "Project-Template-003",
+      "associated_milestone": "MIL-PROJ-HR-002-001",
+      "status": "pending",
+      "file_path": "ENTITIES/TASK_MANAGERS/Checklist_Items/By_Project/Project-Template-003/CHK-045.json"
+    },
+    {
+      "checklist_item_id": "CHK-046",
+      "item_name": "Google Sheets candidate database with 21 fields",
+      "associated_project": "Project-Template-003",
+      "associated_milestone": "MIL-PROJ-HR-002-001",
+      "status": "pending",
+      "file_path": "ENTITIES/TASK_MANAGERS/Checklist_Items/By_Project/Project-Template-003/CHK-046.json"
+    },
+    {
+      "checklist_item_id": "CHK-047",
+      "item_name": "Test results: 50 CVs processed successfully",
+      "associated_project": "Project-Template-003",
+      "associated_milestone": "MIL-PROJ-HR-002-001",
+      "status": "pending",
+      "file_path": "ENTITIES/TASK_MANAGERS/Checklist_Items/By_Project/Project-Template-003/CHK-047.json"
+    },
+    {
+      "checklist_item_id": "CHK-048",
+      "item_name": "Accuracy validation report (>90% confirmed)",
+      "associated_project": "Project-Template-003",
+      "associated_milestone": "MIL-PROJ-HR-002-001",
+      "status": "pending",
+      "file_path": "ENTITIES/TASK_MANAGERS/Checklist_Items/By_Project/Project-Template-003/CHK-048.json"
+    },
+    {
+      "checklist_item_id": "CHK-049",
+      "item_name": "Workflow documentation and user guide",
+      "associated_project": "Project-Template-003",
+      "associated_milestone": "MIL-PROJ-HR-002-001",
+      "status": "pending",
+      "file_path": "ENTITIES/TASK_MANAGERS/Checklist_Items/By_Project/Project-Template-003/CHK-049.json"
+    },
+    {
+      "checklist_item_id": "CHK-050",
+      "item_name": "Notion ATS database with 35+ fields and 7+ views",
+      "associated_project": "Project-Template-003",
+      "associated_milestone": "MIL-PROJ-HR-002-002",
+      "status": "pending",
+      "file_path": "ENTITIES/TASK_MANAGERS/Checklist_Items/By_Project/Project-Template-003/CHK-050.json"
+    },
+    {
+      "checklist_item_id": "CHK-051",
+      "item_name": "Typeform application form (branded, professional)",
+      "associated_project": "Project-Template-003",
+      "associated_milestone": "MIL-PROJ-HR-002-002",
+      "status": "pending",
+      "file_path": "ENTITIES/TASK_MANAGERS/Checklist_Items/By_Project/Project-Template-003/CHK-051.json"
+    },
+    {
+      "checklist_item_id": "CHK-052",
+      "item_name": "n8n workflow: Typeform → Notion → Email confirmations",
+      "associated_project": "Project-Template-003",
+      "associated_milestone": "MIL-PROJ-HR-002-002",
+      "status": "pending",
+      "file_path": "ENTITIES/TASK_MANAGERS/Checklist_Items/By_Project/Project-Template-003/CHK-052.json"
+    },
+    {
+      "checklist_item_id": "CHK-053",
+      "item_name": "Interview scheduling automation (Google Calendar or Calendly)",
+      "associated_project": "Project-Template-003",
+      "associated_milestone": "MIL-PROJ-HR-002-002",
+      "status": "pending",
+      "file_path": "ENTITIES/TASK_MANAGERS/Checklist_Items/By_Project/Project-Template-003/CHK-053.json"
+    },
+    {
+      "checklist_item_id": "CHK-054",
+      "item_name": "Integration: CV screening → Notion ATS",
+      "associated_project": "Project-Template-003",
+      "associated_milestone": "MIL-PROJ-HR-002-002",
+      "status": "pending",
+      "file_path": "ENTITIES/TASK_MANAGERS/Checklist_Items/By_Project/Project-Template-003/CHK-054.json"
+    },
+    {
+      "checklist_item_id": "CHK-055",
+      "item_name": "Test results: End-to-end candidate journey successful",
+      "associated_project": "Project-Template-003",
+      "associated_milestone": "MIL-PROJ-HR-002-002",
+      "status": "pending",
+      "file_path": "ENTITIES/TASK_MANAGERS/Checklist_Items/By_Project/Project-Template-003/CHK-055.json"
+    },
+    {
+      "checklist_item_id": "CHK-056",
+      "item_name": "Team training materials and documentation",
+      "associated_project": "Project-Template-003",
+      "associated_milestone": "MIL-PROJ-HR-002-002",
+      "status": "pending",
+      "file_path": "ENTITIES/TASK_MANAGERS/Checklist_Items/By_Project/Project-Template-003/CHK-056.json"
+    },
+    {
+      "checklist_item_id": "CHK-057",
+      "item_name": "ChatGPT/Claude prompt library (10+ HR prompts)",
+      "associated_project": "Project-Template-003",
+      "associated_milestone": "MIL-PROJ-HR-002-003",
+      "status": "pending",
+      "file_path": "ENTITIES/TASK_MANAGERS/Checklist_Items/By_Project/Project-Template-003/CHK-057.json"
+    },
+    {
+      "checklist_item_id": "CHK-058",
+      "item_name": "Job description generation workflow (tested with 10 samples)",
+      "associated_project": "Project-Template-003",
+      "associated_milestone": "MIL-PROJ-HR-002-003",
+      "status": "pending",
+      "file_path": "ENTITIES/TASK_MANAGERS/Checklist_Items/By_Project/Project-Template-003/CHK-058.json"
+    },
+    {
+      "checklist_item_id": "CHK-059",
+      "item_name": "NotebookLM interview prep workflow",
+      "associated_project": "Project-Template-003",
+      "associated_milestone": "MIL-PROJ-HR-002-003",
+      "status": "pending",
+      "file_path": "ENTITIES/TASK_MANAGERS/Checklist_Items/By_Project/Project-Template-003/CHK-059.json"
+    },
+    {
+      "checklist_item_id": "CHK-060",
+      "item_name": "LinkedIn automation: Pabbly/Make.com → LinkedIn",
+      "associated_project": "Project-Template-003",
+      "associated_milestone": "MIL-PROJ-HR-002-003",
+      "status": "pending",
+      "file_path": "ENTITIES/TASK_MANAGERS/Checklist_Items/By_Project/Project-Template-003/CHK-060.json"
+    },
+    {
+      "checklist_item_id": "CHK-061",
+      "item_name": "Google Sheets template for job posting data",
+      "associated_project": "Project-Template-003",
+      "associated_milestone": "MIL-PROJ-HR-002-003",
+      "status": "pending",
+      "file_path": "ENTITIES/TASK_MANAGERS/Checklist_Items/By_Project/Project-Template-003/CHK-061.json"
+    },
+    {
+      "checklist_item_id": "CHK-062",
+      "item_name": "Test results: 3 job posts published to LinkedIn successfully",
+      "associated_project": "Project-Template-003",
+      "associated_milestone": "MIL-PROJ-HR-002-003",
+      "status": "pending",
+      "file_path": "ENTITIES/TASK_MANAGERS/Checklist_Items/By_Project/Project-Template-003/CHK-062.json"
+    },
+    {
+      "checklist_item_id": "CHK-063",
+      "item_name": "Content quality validation report",
+      "associated_project": "Project-Template-003",
+      "associated_milestone": "MIL-PROJ-HR-002-003",
+      "status": "pending",
+      "file_path": "ENTITIES/TASK_MANAGERS/Checklist_Items/By_Project/Project-Template-003/CHK-063.json"
+    },
+    {
+      "checklist_item_id": "CHK-064",
+      "item_name": "GDPR compliance audit report with all checks passed",
+      "associated_project": "Project-Template-003",
+      "associated_milestone": "MIL-PROJ-HR-002-004",
+      "status": "pending",
+      "file_path": "ENTITIES/TASK_MANAGERS/Checklist_Items/By_Project/Project-Template-003/CHK-064.json"
+    },
+    {
+      "checklist_item_id": "CHK-065",
+      "item_name": "Automated compliance monitoring (data retention, consent, audit logs)",
+      "associated_project": "Project-Template-003",
+      "associated_milestone": "MIL-PROJ-HR-002-004",
+      "status": "pending",
+      "file_path": "ENTITIES/TASK_MANAGERS/Checklist_Items/By_Project/Project-Template-003/CHK-065.json"
+    },
+    {
+      "checklist_item_id": "CHK-066",
+      "item_name": "Onboarding automation workflow operational",
+      "associated_project": "Project-Template-003",
+      "associated_milestone": "MIL-PROJ-HR-002-004",
+      "status": "pending",
+      "file_path": "ENTITIES/TASK_MANAGERS/Checklist_Items/By_Project/Project-Template-003/CHK-066.json"
+    },
+    {
+      "checklist_item_id": "CHK-067",
+      "item_name": "Complete Notion playbook (50+ pages of documentation)",
+      "associated_project": "Project-Template-003",
+      "associated_milestone": "MIL-PROJ-HR-002-004",
+      "status": "pending",
+      "file_path": "ENTITIES/TASK_MANAGERS/Checklist_Items/By_Project/Project-Template-003/CHK-067.json"
+    },
+    {
+      "checklist_item_id": "CHK-068",
+      "item_name": "Team training completed (all members certified on systems)",
+      "associated_project": "Project-Template-003",
+      "associated_milestone": "MIL-PROJ-HR-002-004",
+      "status": "pending",
+      "file_path": "ENTITIES/TASK_MANAGERS/Checklist_Items/By_Project/Project-Template-003/CHK-068.json"
+    },
+    {
+      "checklist_item_id": "CHK-069",
+      "item_name": "ROI measurement report: 20-30 hours/month savings confirmed",
+      "associated_project": "Project-Template-003",
+      "associated_milestone": "MIL-PROJ-HR-002-004",
+      "status": "pending",
+      "file_path": "ENTITIES/TASK_MANAGERS/Checklist_Items/By_Project/Project-Template-003/CHK-069.json"
+    },
+    {
+      "checklist_item_id": "CHK-070",
+      "item_name": "Continuous improvement feedback system",
+      "associated_project": "Project-Template-003",
+      "associated_milestone": "MIL-PROJ-HR-002-004",
+      "status": "pending",
+      "file_path": "ENTITIES/TASK_MANAGERS/Checklist_Items/By_Project/Project-Template-003/CHK-070.json"
+    },
+    {
+      "checklist_item_id": "CHK-071",
+      "item_name": "Workflow optimization recommendations implemented",
+      "associated_project": "Project-Template-003",
+      "associated_milestone": "MIL-PROJ-HR-002-004",
+      "status": "pending",
+      "file_path": "ENTITIES/TASK_MANAGERS/Checklist_Items/By_Project/Project-Template-003/CHK-071.json"
+    },
+    {
+      "checklist_item_id": "CHK-072",
+      "item_name": "CSV file with 2,000+ leads",
+      "associated_project": "Project-Template-004",
+      "associated_milestone": "MIL-PROJ-LG-001-001",
+      "status": "pending",
+      "file_path": "ENTITIES/TASK_MANAGERS/Checklist_Items/By_Project/Project-Template-004/CHK-072.json"
+    },
+    {
+      "checklist_item_id": "CHK-073",
+      "item_name": "Data fields: Company name, website URL, industry, location",
+      "associated_project": "Project-Template-004",
+      "associated_milestone": "MIL-PROJ-LG-001-001",
+      "status": "pending",
+      "file_path": "ENTITIES/TASK_MANAGERS/Checklist_Items/By_Project/Project-Template-004/CHK-073.json"
+    },
+    {
+      "checklist_item_id": "CHK-074",
+      "item_name": "Updated CSV with email addresses",
+      "associated_project": "Project-Template-004",
+      "associated_milestone": "MIL-PROJ-LG-001-002",
+      "status": "pending",
+      "file_path": "ENTITIES/TASK_MANAGERS/Checklist_Items/By_Project/Project-Template-004/CHK-074.json"
+    },
+    {
+      "checklist_item_id": "CHK-075",
+      "item_name": "Email verification report",
+      "associated_project": "Project-Template-004",
+      "associated_milestone": "MIL-PROJ-LG-001-002",
+      "status": "pending",
+      "file_path": "ENTITIES/TASK_MANAGERS/Checklist_Items/By_Project/Project-Template-004/CHK-075.json"
+    },
+    {
+      "checklist_item_id": "CHK-076",
+      "item_name": "Segmented client list by project type",
+      "associated_project": "Project-Template-004",
+      "associated_milestone": "MIL-PROJ-LG-001-003",
+      "status": "pending",
+      "file_path": "ENTITIES/TASK_MANAGERS/Checklist_Items/By_Project/Project-Template-004/CHK-076.json"
+    },
+    {
+      "checklist_item_id": "CHK-077",
+      "item_name": "Personalized email templates by segment",
+      "associated_project": "Project-Template-004",
+      "associated_milestone": "MIL-PROJ-LG-001-003",
+      "status": "pending",
+      "file_path": "ENTITIES/TASK_MANAGERS/Checklist_Items/By_Project/Project-Template-004/CHK-077.json"
+    },
+    {
+      "checklist_item_id": "CHK-078",
+      "item_name": "Sent emails logged in CRM",
+      "associated_project": "Project-Template-004",
+      "associated_milestone": "MIL-PROJ-LG-001-003",
+      "status": "pending",
+      "file_path": "ENTITIES/TASK_MANAGERS/Checklist_Items/By_Project/Project-Template-004/CHK-078.json"
+    },
+    {
+      "checklist_item_id": "CHK-079",
+      "item_name": "MCP Gmail connector deployed",
+      "associated_project": "Project-Template-004",
+      "associated_milestone": "MIL-PROJ-LG-001-004",
+      "status": "pending",
+      "file_path": "ENTITIES/TASK_MANAGERS/Checklist_Items/By_Project/Project-Template-004/CHK-079.json"
+    },
+    {
+      "checklist_item_id": "CHK-080",
+      "item_name": "Automation workflow configured",
+      "associated_project": "Project-Template-004",
+      "associated_milestone": "MIL-PROJ-LG-001-004",
+      "status": "pending",
+      "file_path": "ENTITIES/TASK_MANAGERS/Checklist_Items/By_Project/Project-Template-004/CHK-080.json"
+    },
+    {
+      "checklist_item_id": "CHK-081",
+      "item_name": "First automated draft batch generated",
+      "associated_project": "Project-Template-004",
+      "associated_milestone": "MIL-PROJ-LG-001-004",
+      "status": "pending",
+      "file_path": "ENTITIES/TASK_MANAGERS/Checklist_Items/By_Project/Project-Template-004/CHK-081.json"
+    },
+    {
+      "checklist_item_id": "CHK-082",
+      "item_name": "Stacked connector workflow (Calendar + Gmail + CRM)",
+      "associated_project": "Project-Template-004",
+      "associated_milestone": "MIL-PROJ-LG-001-005",
+      "status": "pending",
+      "file_path": "ENTITIES/TASK_MANAGERS/Checklist_Items/By_Project/Project-Template-004/CHK-082.json"
+    },
+    {
+      "checklist_item_id": "CHK-083",
+      "item_name": "Automated meeting follow-up system",
+      "associated_project": "Project-Template-004",
+      "associated_milestone": "MIL-PROJ-LG-001-005",
+      "status": "pending",
+      "file_path": "ENTITIES/TASK_MANAGERS/Checklist_Items/By_Project/Project-Template-004/CHK-083.json"
+    },
+    {
+      "checklist_item_id": "CHK-084",
+      "item_name": "CRM integration active",
+      "associated_project": "Project-Template-004",
+      "associated_milestone": "MIL-PROJ-LG-001-005",
+      "status": "pending",
+      "file_path": "ENTITIES/TASK_MANAGERS/Checklist_Items/By_Project/Project-Template-004/CHK-084.json"
+    },
+    {
+      "checklist_item_id": "CHK-085",
+      "item_name": "Full employee directory CSV",
+      "associated_project": "Project-Template-005",
+      "associated_milestone": "MIL-PROJ-LG-002-001",
+      "status": "pending",
+      "file_path": "ENTITIES/TASK_MANAGERS/Checklist_Items/By_Project/Project-Template-005/CHK-085.json"
+    },
+    {
+      "checklist_item_id": "CHK-086",
+      "item_name": "Employee names, titles, departments",
+      "associated_project": "Project-Template-005",
+      "associated_milestone": "MIL-PROJ-LG-002-001",
+      "status": "pending",
+      "file_path": "ENTITIES/TASK_MANAGERS/Checklist_Items/By_Project/Project-Template-005/CHK-086.json"
+    },
+    {
+      "checklist_item_id": "CHK-087",
+      "item_name": "Decision-maker identification",
+      "associated_project": "Project-Template-005",
+      "associated_milestone": "MIL-PROJ-LG-002-001",
+      "status": "pending",
+      "file_path": "ENTITIES/TASK_MANAGERS/Checklist_Items/By_Project/Project-Template-005/CHK-087.json"
+    },
+    {
+      "checklist_item_id": "CHK-088",
+      "item_name": "Updated employee directory with emails",
+      "associated_project": "Project-Template-005",
+      "associated_milestone": "MIL-PROJ-LG-002-002",
+      "status": "pending",
+      "file_path": "ENTITIES/TASK_MANAGERS/Checklist_Items/By_Project/Project-Template-005/CHK-088.json"
+    },
+    {
+      "checklist_item_id": "CHK-089",
+      "item_name": "Email verification report",
+      "associated_project": "Project-Template-005",
+      "associated_milestone": "MIL-PROJ-LG-002-002",
+      "status": "pending",
+      "file_path": "ENTITIES/TASK_MANAGERS/Checklist_Items/By_Project/Project-Template-005/CHK-089.json"
+    },
+    {
+      "checklist_item_id": "CHK-090",
+      "item_name": "40 additional emails from 1 credit",
+      "associated_project": "Project-Template-005",
+      "associated_milestone": "MIL-PROJ-LG-002-003",
+      "status": "pending",
+      "file_path": "ENTITIES/TASK_MANAGERS/Checklist_Items/By_Project/Project-Template-005/CHK-090.json"
+    },
+    {
+      "checklist_item_id": "CHK-091",
+      "item_name": "Expanded contact database",
+      "associated_project": "Project-Template-005",
+      "associated_milestone": "MIL-PROJ-LG-002-003",
+      "status": "pending",
+      "file_path": "ENTITIES/TASK_MANAGERS/Checklist_Items/By_Project/Project-Template-005/CHK-091.json"
+    },
+    {
+      "checklist_item_id": "CHK-092",
+      "item_name": "ROI calculation report",
+      "associated_project": "Project-Template-005",
+      "associated_milestone": "MIL-PROJ-LG-002-003",
+      "status": "pending",
+      "file_path": "ENTITIES/TASK_MANAGERS/Checklist_Items/By_Project/Project-Template-005/CHK-092.json"
+    },
+    {
+      "checklist_item_id": "CHK-093",
+      "item_name": "Contacts segmented by role/department",
+      "associated_project": "Project-Template-005",
+      "associated_milestone": "MIL-PROJ-LG-002-004",
+      "status": "pending",
+      "file_path": "ENTITIES/TASK_MANAGERS/Checklist_Items/By_Project/Project-Template-005/CHK-093.json"
+    },
+    {
+      "checklist_item_id": "CHK-094",
+      "item_name": "Personalized email campaigns sent",
+      "associated_project": "Project-Template-005",
+      "associated_milestone": "MIL-PROJ-LG-002-004",
+      "status": "pending",
+      "file_path": "ENTITIES/TASK_MANAGERS/Checklist_Items/By_Project/Project-Template-005/CHK-094.json"
+    },
+    {
+      "checklist_item_id": "CHK-095",
+      "item_name": "CRM activity log updated",
+      "associated_project": "Project-Template-005",
+      "associated_milestone": "MIL-PROJ-LG-002-004",
+      "status": "pending",
+      "file_path": "ENTITIES/TASK_MANAGERS/Checklist_Items/By_Project/Project-Template-005/CHK-095.json"
+    },
+    {
+      "checklist_item_id": "CHK-096",
+      "item_name": "Stacked connector workflow (Calendar + Gmail + CRM)",
+      "associated_project": "Project-Template-005",
+      "associated_milestone": "MIL-PROJ-LG-002-005",
+      "status": "pending",
+      "file_path": "ENTITIES/TASK_MANAGERS/Checklist_Items/By_Project/Project-Template-005/CHK-096.json"
+    },
+    {
+      "checklist_item_id": "CHK-097",
+      "item_name": "Automated meeting follow-up emails",
+      "associated_project": "Project-Template-005",
+      "associated_milestone": "MIL-PROJ-LG-002-005",
+      "status": "pending",
+      "file_path": "ENTITIES/TASK_MANAGERS/Checklist_Items/By_Project/Project-Template-005/CHK-097.json"
+    },
+    {
+      "checklist_item_id": "CHK-098",
+      "item_name": "CRM integration active",
+      "associated_project": "Project-Template-005",
+      "associated_milestone": "MIL-PROJ-LG-002-005",
+      "status": "pending",
+      "file_path": "ENTITIES/TASK_MANAGERS/Checklist_Items/By_Project/Project-Template-005/CHK-098.json"
+    }
+  ],
+  "by_project": {
+    "Project-Template-003": 28,
+    "Project-Template-001": 15,
+    "Project-Template-002": 20,
+    "Project-Template-004": 13,
+    "Project-Template-005": 14,
+    "PROJ-LIB-001": 8
+  },
+  "by_status": {
+    "pending": 98,
+    "completed": 0,
+    "in_progress": 0
+  }
+}

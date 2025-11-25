@@ -1,0 +1,270 @@
+{
+  "milestone_id": "MIL-NMP-004",
+  "milestone_name": "Output Templates Complete",
+  "project_id": "PROJ-001",
+  "phase": 3,
+  "phase_name": "Template Creation",
+  "status": "Planned",
+  "priority": "High",
+  "progress_percentage": 0,
+  "description": "Create all 21 individual output template files plus README in 02_Output_Templates/ folder. Each template will show integration with relevant libraries and include realistic examples.",
+  "target_start_date": "2025-11-25",
+  "target_completion_date": "2025-12-04",
+  "actual_start_date": null,
+  "actual_completion_date": null,
+  "estimated_duration": "9 days",
+  "tasks": [
+    "TASK-NMP-022",
+    "TASK-NMP-023",
+    "TASK-NMP-024",
+    "TASK-NMP-025",
+    "TASK-NMP-026",
+    "TASK-NMP-027",
+    "TASK-NMP-028",
+    "TASK-NMP-029",
+    "TASK-NMP-030",
+    "TASK-NMP-031",
+    "TASK-NMP-032",
+    "TASK-NMP-033",
+    "TASK-NMP-034",
+    "TASK-NMP-035",
+    "TASK-NMP-036",
+    "TASK-NMP-037",
+    "TASK-NMP-038",
+    "TASK-NMP-039",
+    "TASK-NMP-040"
+  ],
+  "deliverables": [
+    {
+      "id": "DEL-004-00",
+      "name": "README.md",
+      "description": "Output templates overview and integration guide",
+      "status": "Pending"
+    },
+    {
+      "id": "DEL-004-01",
+      "name": "01_Meeting_Metadata.md",
+      "description": "Participants, projects, departments",
+      "library_integration": "None",
+      "status": "Pending"
+    },
+    {
+      "id": "DEL-004-02",
+      "name": "02_Executive_Summary.md",
+      "description": "High-level overview",
+      "library_integration": "Minimal",
+      "status": "Pending"
+    },
+    {
+      "id": "DEL-004-03",
+      "name": "03_Action_Items_Tasks.md",
+      "description": "Action items and tasks",
+      "library_integration": "Actions, Objects, Skills, Responsibilities",
+      "status": "Pending"
+    },
+    {
+      "id": "DEL-004-04",
+      "name": "04_Projects_Features.md",
+      "description": "Project and feature tracking",
+      "library_integration": "Products, Services",
+      "status": "Pending"
+    },
+    {
+      "id": "DEL-004-05",
+      "name": "05_Workflows_Processes.md",
+      "description": "Workflows and processes",
+      "library_integration": "Processes, Results, Steps",
+      "status": "Pending"
+    },
+    {
+      "id": "DEL-004-06",
+      "name": "06_Rules_Best_Practices.md",
+      "description": "Rules and best practices",
+      "library_integration": "Parameters",
+      "status": "Pending"
+    },
+    {
+      "id": "DEL-004-07",
+      "name": "07_Problems_Solutions.md",
+      "description": "Problems and solutions",
+      "library_integration": "Minimal",
+      "status": "Pending"
+    },
+    {
+      "id": "DEL-004-08",
+      "name": "08_Tools_Resources.md",
+      "description": "Tools and resources",
+      "library_integration": "Tools",
+      "status": "Pending"
+    },
+    {
+      "id": "DEL-004-09",
+      "name": "09_Technical_Architecture.md",
+      "description": "Technical architecture",
+      "library_integration": "Tools, Processes",
+      "status": "Pending"
+    },
+    {
+      "id": "DEL-004-10",
+      "name": "10_Decisions_Log.md",
+      "description": "Decisions log",
+      "library_integration": "Minimal",
+      "status": "Pending"
+    },
+    {
+      "id": "DEL-004-11",
+      "name": "11_Documentation_Gaps.md",
+      "description": "Documentation gaps",
+      "library_integration": "Minimal",
+      "status": "Pending"
+    },
+    {
+      "id": "DEL-004-12",
+      "name": "12_Communication_Announcements.md",
+      "description": "Communication and announcements",
+      "library_integration": "Minimal",
+      "status": "Pending"
+    },
+    {
+      "id": "DEL-004-13",
+      "name": "13_Blockers_Dependencies.md",
+      "description": "Blockers and dependencies",
+      "library_integration": "Processes, Results",
+      "status": "Pending"
+    },
+    {
+      "id": "DEL-004-14",
+      "name": "14_Insights_Lessons.md",
+      "description": "Key insights and lessons",
+      "library_integration": "Minimal",
+      "status": "Pending"
+    },
+    {
+      "id": "DEL-004-15",
+      "name": "15_Analogies_Frameworks.md",
+      "description": "Analogies and frameworks",
+      "library_integration": "Minimal",
+      "status": "Pending"
+    },
+    {
+      "id": "DEL-004-16",
+      "name": "16_Employee_Team_Context.md",
+      "description": "Employee and team context",
+      "library_integration": "Professions, Skills, Responsibilities",
+      "status": "Pending"
+    },
+    {
+      "id": "DEL-004-17",
+      "name": "17_Lead_Gen_Sales_Context.md",
+      "description": "Lead generation and sales context",
+      "library_integration": "Services, Products, Processes (LG-specific)",
+      "status": "Pending"
+    },
+    {
+      "id": "DEL-004-18",
+      "name": "18_Design_Creative_Context.md",
+      "description": "Design and creative context",
+      "library_integration": "Objects, Products, Tools (Design-specific)",
+      "status": "Pending"
+    },
+    {
+      "id": "DEL-004-19",
+      "name": "19_Development_Technical_Context.md",
+      "description": "Development and technical context",
+      "library_integration": "Tools, Processes, Objects (Dev-specific)",
+      "status": "Pending"
+    },
+    {
+      "id": "DEL-004-20",
+      "name": "20_Onboarding_Training_Context.md",
+      "description": "Onboarding and training context",
+      "library_integration": "Skills, Responsibilities, Professions",
+      "status": "Pending"
+    },
+    {
+      "id": "DEL-004-21",
+      "name": "21_Follow_Up_Items.md",
+      "description": "Follow-up items",
+      "library_integration": "Actions, Tasks",
+      "status": "Pending"
+    }
+  ],
+  "success_criteria": {
+    "quantitative": [
+      "All 22 files created (21 templates + README)",
+      "Each template includes library integration details",
+      "At least 1 realistic example per template",
+      "Validation checklists included in all templates"
+    ],
+    "qualitative": [
+      "Templates follow consistent structure",
+      "Library integrations are accurate and helpful",
+      "Examples use real entity IDs from libraries",
+      "Templates are clear and easy to use"
+    ]
+  },
+  "acceptance_criteria": [
+    {
+      "criteria": "All 22 files created in 02_Output_Templates/",
+      "verified": false
+    },
+    {
+      "criteria": "README explains which libraries integrate with which templates",
+      "verified": false
+    },
+    {
+      "criteria": "Heavily integrated templates (03, 04, 05, 06, 08, 16, 17, 18, 19, 20, 21) show clear library usage",
+      "verified": false
+    },
+    {
+      "criteria": "Each template includes recognition rules section",
+      "verified": false
+    },
+    {
+      "criteria": "Each template includes examples section",
+      "verified": false
+    },
+    {
+      "criteria": "Each template includes validation checklist",
+      "verified": false
+    }
+  ],
+  "dependencies": [
+    {
+      "dependency_id": "DEP-MIL-004-01",
+      "description": "MIL-003 complete (library integration modules exist)",
+      "type": "Milestone",
+      "status": "Required"
+    },
+    {
+      "dependency_id": "DEP-MIL-004-02",
+      "description": "MAIN_PROMPT_v4.md sections 5-25 for template structure",
+      "type": "Document",
+      "status": "Available"
+    }
+  ],
+  "blockers": [],
+  "risks": [
+    {
+      "risk_id": "RISK-MIL-004-01",
+      "description": "Template structure may differ from v4 in ways that affect usability",
+      "impact": "Medium",
+      "probability": "Low",
+      "mitigation": "Stay close to v4 structure, only enhance with library integration"
+    }
+  ],
+  "related_milestones": {
+    "prerequisites": [
+      "MIL-003"
+    ],
+    "enables": [
+      "MIL-008"
+    ],
+    "parallel": [
+      "MIL-005"
+    ]
+  },
+  "notes": "This milestone creates the user-facing output templates. Follow CREATE_MAIN_PROMPT_v5.md Phase 4 template structure. Extract from MAIN_PROMPT_v4.md but enhance with library integrations defined in MIL-003 deliverables.",
+  "last_updated": "2025-11-15",
+  "version": "1.0"
+}

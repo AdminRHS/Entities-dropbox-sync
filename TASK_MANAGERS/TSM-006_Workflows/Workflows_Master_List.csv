@@ -1,0 +1,21 @@
+New_ID,Entity_Type,Current_ID,Name,Description,Department,File_Path,Status
+WRF-001,Workflow,Behance_Project_Publishing_Workflow,Behance Project Publishing,End-to-end workflow for publishing projects on Behance,DGN,ENTITIES/TASK_MANAGERS/Workflows/Behance_Project_Publishing_Workflow.yaml,Active
+WRF-002,Workflow,Content_Repurposing_Pipeline_Workflow,Content Repurposing Pipeline,Workflow for repurposing content across multiple formats,LGN,ENTITIES/TASK_MANAGERS/Workflows/Content_Repurposing_Pipeline_Workflow.yaml,Active
+WRF-003,Workflow,Cross_Platform_Content_Distribution_Workflow,Cross Platform Content Distribution,Distribute content across multiple social platforms,LGN,ENTITIES/TASK_MANAGERS/Workflows/Cross_Platform_Content_Distribution_Workflow.yaml,Active
+WRF-004,Workflow,Dev_to_Technical_Blogging_Workflow,Dev.to Technical Blogging,Technical blogging workflow for Dev.to platform,DEV,ENTITIES/TASK_MANAGERS/Workflows/Dev_to_Technical_Blogging_Workflow.yaml,Active
+WRF-005,Workflow,Dribbble_Shot_Posting_Workflow,Dribbble Shot Posting,Workflow for posting shots on Dribbble,DGN,ENTITIES/TASK_MANAGERS/Workflows/Dribbble_Shot_Posting_Workflow.yaml,Active
+WRF-006,Workflow,Dribbble_Shot_Publishing_Workflow,Dribbble Shot Publishing,Extended publishing workflow for Dribbble shots,DGN,ENTITIES/TASK_MANAGERS/Workflows/Dribbble_Shot_Publishing_Workflow.yaml,Active
+WRF-007,Workflow,Facebook_Community_Management_Workflow,Facebook Community Management,Community management workflow for Facebook,LGN,ENTITIES/TASK_MANAGERS/Workflows/Facebook_Community_Management_Workflow.yaml,Active
+WRF-008,Workflow,GitHub_Open_Source_Contribution_Workflow,GitHub Open Source Contribution,Workflow for contributing to open source on GitHub,DEV,ENTITIES/TASK_MANAGERS/Workflows/GitHub_Open_Source_Contribution_Workflow.yaml,Active
+WRF-009,Workflow,Instagram_Content_Strategy_Workflow,Instagram Content Strategy,Content strategy and execution for Instagram,LGN,ENTITIES/TASK_MANAGERS/Workflows/Instagram_Content_Strategy_Workflow.yaml,Active
+WRF-010,Workflow,Instagram_Designer_Portfolio_Workflow,Instagram Designer Portfolio,Designer portfolio curation for Instagram,DGN,ENTITIES/TASK_MANAGERS/Workflows/Instagram_Designer_Portfolio_Workflow.yaml,Active
+WRF-011,Workflow,Lead_Enrichment_Workflow,Lead Enrichment,Automated lead enrichment from multiple data sources,LGN,ENTITIES/TASK_MANAGERS/Workflows/Lead_Enrichment_Workflow.yaml,Active
+WRF-012,Workflow,LinkedIn_B2B_Content_Strategy_Workflow,LinkedIn B2B Content Strategy,B2B content strategy for LinkedIn,LGN,ENTITIES/TASK_MANAGERS/Workflows/LinkedIn_B2B_Content_Strategy_Workflow.yaml,Active
+WRF-013,Workflow,Medium_Long_Form_Publishing_Workflow,Medium Long Form Publishing,Long-form content publishing on Medium,LGN,ENTITIES/TASK_MANAGERS/Workflows/Medium_Long_Form_Publishing_Workflow.yaml,Active
+WRF-014,Workflow,Old_Client_Reengagement_Workflow,Old Client Reengagement,Workflow for reengaging past clients,SLS,ENTITIES/TASK_MANAGERS/Workflows/Old_Client_Reengagement_Workflow.yaml,Active
+WRF-015,Workflow,Pinterest_Discovery_Strategy_Workflow,Pinterest Discovery Strategy,Discovery and awareness strategy for Pinterest,LGN,ENTITIES/TASK_MANAGERS/Workflows/Pinterest_Discovery_Strategy_Workflow.yaml,Active
+WRF-016,Workflow,Pinterest_Traffic_Generation_Workflow,Pinterest Traffic Generation,Traffic generation campaigns on Pinterest,LGN,ENTITIES/TASK_MANAGERS/Workflows/Pinterest_Traffic_Generation_Workflow.yaml,Active
+WRF-017,Workflow,Short_Form_Video_Production_Workflow,Short Form Video Production,Short-form video production and publishing,VID,ENTITIES/TASK_MANAGERS/Workflows/Short_Form_Video_Production_Workflow.yaml,Active
+WRF-018,Workflow,Stack_Overflow_Reputation_Building_Workflow,Stack Overflow Reputation Building,Q&A and reputation building on Stack Overflow,DEV,ENTITIES/TASK_MANAGERS/Workflows/Stack_Overflow_Reputation_Building_Workflow.yaml,Active
+WRF-019,Workflow,Twitter_Real_Time_Engagement_Workflow,Twitter Real Time Engagement,Real-time engagement workflows for Twitter/X,LGN,ENTITIES/TASK_MANAGERS/Workflows/Twitter_Real_Time_Engagement_Workflow.yaml,Active
+WRF-020,Workflow,YouTube_Tutorial_Production_Workflow,YouTube Tutorial Production,Tutorial production and publishing for YouTube,VID,ENTITIES/TASK_MANAGERS/Workflows/YouTube_Tutorial_Production_Workflow.yaml,Active

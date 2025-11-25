@@ -1,0 +1,493 @@
+{
+  "entity_type": "TASK_MANAGERS",
+  "sub_entity": "Task_Template",
+  "template_id": "Task-Template-008",
+  "task_name": "Generate Custom MCP Connector",
+  "action": "Generate",
+  "object": "MCP Connector",
+  "context": "via mcp-builder skill",
+  "description": "Generate complete MCP connector code in 30-60 seconds using mcp-builder skill with 2-sentence prompt (95%+ success rate with Sonnet 4.5)",
+  "department": "Dev",
+  "profession": "AI Engineer",
+  "priority": "High",
+  "estimated_duration": "5-10 minutes total (30-60 seconds generation + 5 min deployment)",
+  "status": "Active",
+  "complexity": "Medium",
+  "automation_potential": "Medium (40-60%)",
+  "success_rate": "95%+ with Sonnet 4.5",
+  "time_savings": "Reduces connector dev from hours/days to minutes",
+  "dependencies": [
+    "Claude Desktop App installed (TOOL-AI-030)",
+    "MCP Builder Skill enabled (TOOL-AI-031)",
+    "Claude subscription active",
+    "Sonnet 4.5 model selected (recommended)"
+  ],
+  "tools_required": [
+    "TOOL-AI-030 (Claude Desktop App)",
+    "TOOL-AI-031 (MCP Builder Skill)",
+    "TOOL-AI-033 (Sonnet 4.5 - recommended model)"
+  ],
+  "skills_required": [
+    "SKL-070 (generated MCP connectors via Claude)"
+  ],
+  "objects_used": [
+    "OBJ-AI-001 (MCP Connector)",
+    "OBJ-AI-002 (Connector Code)",
+    "OBJ-AI-004 (Claude Skill)"
+  ],
+  "workflow_reference": "WF-AI-002",
+  "success_criteria": [
+    "Complete MCP connector code generated in 30-60 seconds",
+    "Code includes: OAuth, API handlers, error handling, README",
+    "Code passes validation checks",
+    "Ready for local deployment",
+    "Connector specification documented"
+  ],
+  "responsibilities": {
+    "responsible": "AI Engineer",
+    "accountable": "Development Lead",
+    "consulted": [
+      "Backend Developer"
+    ],
+    "informed": [
+      "Operations Team",
+      "Automation Team"
+    ]
+  },
+  "steps": [
+    {
+      "step_number": 1,
+      "name": "Enable mcp-builder skill in Claude Desktop",
+      "action": "enable",
+      "tool": "TOOL-AI-030 (Claude Desktop App)",
+      "responsibility": "AI Engineer",
+      "placement": "Claude Desktop - Settings - Skills",
+      "duration": "1-2 minutes (if not already enabled)",
+      "dependencies": [],
+      "inputs": [
+        "Claude Desktop App installed"
+      ],
+      "outputs": [
+        "mcp-builder skill enabled and active"
+      ],
+      "success_criteria": "Skill shows as enabled in Skills section",
+      "responsibility_id": "RESP-DEV-012",
+      "responsibility_name": "enable enable mcp-builder skill",
+      "_original_action": "enable"
+    },
+    {
+      "step_number": 2,
+      "name": "Write 2-sentence connector prompt",
+      "action": "write",
+      "tool": "Text editor",
+      "responsibility": "AI Engineer",
+      "placement": "Prompt document",
+      "duration": "1 minute",
+      "dependencies": [],
+      "inputs": [
+        "Target app (Gmail, Calendar, CRM, etc.)",
+        "Desired capabilities (read, write, delete, etc.)"
+      ],
+      "outputs": [
+        "2-sentence prompt: 'Connect to [App]. Need [capabilities]'"
+      ],
+      "success_criteria": "Clear, concise prompt specifying app and capabilities",
+      "responsibility_id": "RESP-DEV-013",
+      "responsibility_name": "write write 2-sentence connector prompt",
+      "_original_action": "write"
+    },
+    {
+      "step_number": 3,
+      "name": "Submit prompt to mcp-builder skill",
+      "action": "submit",
+      "tool": "TOOL-AI-031 (MCP Builder Skill)",
+      "responsibility": "AI Engineer",
+      "placement": "Claude Desktop - Chat",
+      "duration": "10 seconds",
+      "dependencies": [
+        "Step 1",
+        "Step 2"
+      ],
+      "inputs": [
+        "Connector prompt"
+      ],
+      "outputs": [
+        "mcp-builder skill activated, processing request"
+      ],
+      "success_criteria": "Skill confirms it's generating connector code",
+      "responsibility_id": "RESP-DEV-014",
+      "responsibility_name": "submit submit prompt",
+      "_original_action": "submit"
+    },
+    {
+      "step_number": 4,
+      "name": "Wait for connector code generation",
+      "action": "wait",
+      "tool": "TOOL-AI-031 (MCP Builder Skill)",
+      "responsibility": "Claude AI (automated)",
+      "placement": "Claude Desktop - Processing",
+      "duration": "30-60 seconds (automated)",
+      "dependencies": [
+        "Step 3"
+      ],
+      "inputs": [
+        "Connector specification from prompt"
+      ],
+      "outputs": [
+        "Complete MCP server code"
+      ],
+      "success_criteria": "Code generated with OAuth, API handlers, error handling, config, README",
+      "responsibility_id": "RESP-DEV-015",
+      "responsibility_name": "wait wait",
+      "_original_action": "wait"
+    },
+    {
+      "step_number": 5,
+      "name": "Review generated connector code",
+      "action": "review",
+      "tool": "Claude Desktop",
+      "responsibility": "AI Engineer",
+      "placement": "Claude Desktop - Chat output",
+      "duration": "2-3 minutes",
+      "dependencies": [
+        "Step 4"
+      ],
+      "inputs": [
+        "Generated connector code"
+      ],
+      "outputs": [
+        "Code validated and approved"
+      ],
+      "success_criteria": "Code includes all required components, no obvious errors",
+      "responsibility_id": "RESP-DEV-016",
+      "responsibility_name": "review generated connector code",
+      "_original_action": "review"
+    },
+    {
+      "step_number": 6,
+      "name": "Copy code to local directory",
+      "action": "copy",
+      "tool": "File system",
+      "responsibility": "AI Engineer",
+      "placement": "Local MCP connectors directory",
+      "duration": "1 minute",
+      "dependencies": [
+        "Step 5"
+      ],
+      "inputs": [
+        "Generated code"
+      ],
+      "outputs": [
+        "Code saved in local directory"
+      ],
+      "success_criteria": "All files saved correctly in connector directory",
+      "responsibility_id": "RESP-DEV-017",
+      "responsibility_name": "copy copy code",
+      "_original_action": "copy"
+    }
+  ],
+  "checklist": [
+    {
+      "item": "mcp-builder skill enabled in Claude Desktop",
+      "guide": "Settings → Skills → Enable mcp-builder",
+      "required": true
+    },
+    {
+      "item": "Prompt specifies app and capabilities clearly",
+      "guide": "Example: 'Connect Claude to Gmail with read, write, and send access'",
+      "required": true
+    },
+    {
+      "item": "Using Sonnet 4.5 model for best results",
+      "guide": "95%+ success rate with Sonnet 4.5 vs lower with other models",
+      "required": true
+    },
+    {
+      "item": "Generated code includes OAuth setup",
+      "guide": "Check for OAuth 2.0 credentials configuration",
+      "required": true
+    },
+    {
+      "item": "API handlers implemented for all capabilities",
+      "guide": "Verify read, write, delete functions if requested",
+      "required": true
+    },
+    {
+      "item": "README documentation included",
+      "guide": "Setup instructions and configuration guide present",
+      "required": true
+    }
+  ],
+  "performance_metrics": {
+    "generation_time": "30-60 seconds",
+    "total_setup": "5-10 minutes (generation + deployment)",
+    "success_rate": "95%+ with Sonnet 4.5",
+    "time_savings": "Reduces hours/days to minutes",
+    "code_quality": "Production-ready with OAuth, error handling, config"
+  },
+  "example_prompts": [
+    "Connect Claude to Gmail with read, write, and send access",
+    "Create Google Calendar connector with full read/write/delete access",
+    "Generate custom CRM connector for Airtable with contact management",
+    "Build Slack MCP connector for channel messaging and file upload",
+    "Create Notion connector with database read/write capabilities"
+  ],
+  "best_practices": [
+    "Revolutionary: 2-sentence prompt generates complete connector in 60 seconds",
+    "Use Sonnet 4.5 for 95%+ success rate",
+    "Be specific about capabilities needed (read, write, delete)",
+    "Review generated code before deployment",
+    "Test connector locally before production use"
+  ],
+  "generated_code_includes": [
+    "OAuth 2.0 authentication setup",
+    "API request handlers",
+    "Error handling and logging",
+    "Configuration files",
+    "README with setup instructions",
+    "Environment variable templates"
+  ],
+  "common_issues": [
+    {
+      "issue": "mcp-builder skill not available",
+      "solution": "Enable Claude Skills in Settings, activate mcp-builder skill"
+    },
+    {
+      "issue": "Code generation fails",
+      "solution": "Switch to Sonnet 4.5 model, rephrase prompt more clearly"
+    },
+    {
+      "issue": "OAuth configuration unclear",
+      "solution": "Check README in generated code for step-by-step setup"
+    },
+    {
+      "issue": "Generated code has errors",
+      "solution": "Regenerate with more specific prompt, or use Cursor AI for debugging"
+    }
+  ],
+  "tags": [
+    "mcp",
+    "connector_generation",
+    "ai_automation",
+    "claude_skills",
+    "code_generation"
+  ],
+  "related_workflows": [
+    "WF-AI-002",
+    "WF-AI-006"
+  ],
+  "related_skills": [
+    "SKL-070"
+  ],
+  "related_professions": [
+    "AI Engineer",
+    "Backend Developer"
+  ],
+  "next_steps": [
+    "Deploy connector locally using WF-AI-006 (5-10 minutes)",
+    "Configure OAuth credentials (15 minutes)",
+    "Test connector with Claude Desktop (5 minutes)""responsibility_id": "RESP-DEV-013",
+    "responsibility_name": "write write 2-sentence connector prompt",
+    "_original_action": "write"
+  },
+  {
+    "step_number": 3,
+    "name": "Submit prompt to mcp-builder skill",
+    "action": "submit",
+    "tool": "TOOL-AI-031 (MCP Builder Skill)",
+    "responsibility": "AI Engineer",
+    "placement": "Claude Desktop - Chat",
+    "duration": "10 seconds",
+    "dependencies": [
+      "Step 1",
+      "Step 2"
+    ],
+    "inputs": [
+      "Connector prompt"
+    ],
+    "outputs": [
+      "mcp-builder skill activated, processing request"
+    ],
+    "success_criteria": "Skill confirms it's generating connector code",
+    "responsibility_id": "RESP-DEV-014",
+    "responsibility_name": "submit submit prompt",
+    "_original_action": "submit"
+  },
+  {
+    "step_number": 4,
+    "name": "Wait for connector code generation",
+    "action": "wait",
+    "tool": "TOOL-AI-031 (MCP Builder Skill)",
+    "responsibility": "Claude AI (automated)",
+    "placement": "Claude Desktop - Processing",
+    "duration": "30-60 seconds (automated)",
+    "dependencies": [
+      "Step 3"
+    ],
+    "inputs": [
+      "Connector specification from prompt"
+    ],
+    "outputs": [
+      "Complete MCP server code"
+    ],
+    "success_criteria": "Code generated with OAuth, API handlers, error handling, config, README",
+    "responsibility_id": "RESP-DEV-015",
+    "responsibility_name": "wait wait",
+    "_original_action": "wait"
+  },
+  {
+    "step_number": 5,
+    "name": "Review generated connector code",
+    "action": "review",
+    "tool": "Claude Desktop",
+    "responsibility": "AI Engineer",
+    "placement": "Claude Desktop - Chat output",
+    "duration": "2-3 minutes",
+    "dependencies": [
+      "Step 4"
+    ],
+    "inputs": [
+      "Generated connector code"
+    ],
+    "outputs": [
+      "Code validated and approved"
+    ],
+    "success_criteria": "Code includes all required components, no obvious errors",
+    "responsibility_id": "RESP-DEV-016",
+    "responsibility_name": "review generated connector code",
+    "_original_action": "review"
+  },
+  {
+    "step_number": 6,
+    "name": "Copy code to local directory",
+    "action": "copy",
+    "tool": "File system",
+    "responsibility": "AI Engineer",
+    "placement": "Local MCP connectors directory",
+    "duration": "1 minute",
+    "dependencies": [
+      "Step 5"
+    ],
+    "inputs": [
+      "Generated code"
+    ],
+    "outputs": [
+      "Code saved in local directory"
+    ],
+    "success_criteria": "All files saved correctly in connector directory",
+    "responsibility_id": "RESP-DEV-017",
+    "responsibility_name": "copy copy code",
+    "_original_action": "copy"
+  }
+],
+"checklist": [
+  {
+    "item": "mcp-builder skill enabled in Claude Desktop",
+    "guide": "Settings → Skills → Enable mcp-builder",
+    "required": true
+  },
+  {
+    "item": "Prompt specifies app and capabilities clearly",
+    "guide": "Example: 'Connect Claude to Gmail with read, write, and send access'",
+    "required": true
+  },
+  {
+    "item": "Using Sonnet 4.5 model for best results",
+    "guide": "95%+ success rate with Sonnet 4.5 vs lower with other models",
+    "required": true
+  },
+  {
+    "item": "Generated code includes OAuth setup",
+    "guide": "Check for OAuth 2.0 credentials configuration",
+    "required": true
+  },
+  {
+    "item": "API handlers implemented for all capabilities",
+    "guide": "Verify read, write, delete functions if requested",
+    "required": true
+  },
+  {
+    "item": "README documentation included",
+    "guide": "Setup instructions and configuration guide present",
+    "required": true
+  }
+],
+"performance_metrics": {
+  "generation_time": "30-60 seconds",
+  "total_setup": "5-10 minutes (generation + deployment)",
+  "success_rate": "95%+ with Sonnet 4.5",
+  "time_savings": "Reduces hours/days to minutes",
+  "code_quality": "Production-ready with OAuth, error handling, config"
+},
+"example_prompts": [
+  "Connect Claude to Gmail with read, write, and send access",
+  "Create Google Calendar connector with full read/write/delete access",
+  "Generate custom CRM connector for Airtable with contact management",
+  "Build Slack MCP connector for channel messaging and file upload",
+  "Create Notion connector with database read/write capabilities"
+],
+"best_practices": [
+  "Revolutionary: 2-sentence prompt generates complete connector in 60 seconds",
+  "Use Sonnet 4.5 for 95%+ success rate",
+  "Be specific about capabilities needed (read, write, delete)",
+  "Review generated code before deployment",
+  "Test connector locally before production use"
+],
+"generated_code_includes": [
+  "OAuth 2.0 authentication setup",
+  "API request handlers",
+  "Error handling and logging",
+  "Configuration files",
+  "README with setup instructions",
+  "Environment variable templates"
+],
+"common_issues": [
+  {
+    "issue": "mcp-builder skill not available",
+    "solution": "Enable Claude Skills in Settings, activate mcp-builder skill"
+  },
+  {
+    "issue": "Code generation fails",
+    "solution": "Switch to Sonnet 4.5 model, rephrase prompt more clearly"
+  },
+  {
+    "issue": "OAuth configuration unclear",
+    "solution": "Check README in generated code for step-by-step setup"
+  },
+  {
+    "issue": "Generated code has errors",
+    "solution": "Regenerate with more specific prompt, or use Cursor AI for debugging"
+  }
+],
+"tags": [
+  "mcp",
+  "connector_generation",
+  "ai_automation",
+  "claude_skills",
+  "code_generation"
+],
+"related_workflows": [
+  "WF-AI-002",
+  "WF-AI-006"
+],
+"related_skills": [
+  "SKL-070"
+],
+"related_professions": [
+  "AI Engineer",
+  "Backend Developer"
+],
+"next_steps": [
+  "Deploy connector locally using WF-AI-006 (5-10 minutes)",
+  "Configure OAuth credentials (15 minutes)",
+  "Test connector with Claude Desktop (5 minutes)"
+],
+"version": "1.0",
+"created": "2025-11-12",
+"last_updated": "2025-11-12",
+"source": "Video_008_MCP_Connector_Tutorial",
+"responsibility_id": "TST-008",
+"responsibility_name": "generate mcp connector",
+"_original_action": "Generate",
+"_original_object": "MCP Connector"
+}

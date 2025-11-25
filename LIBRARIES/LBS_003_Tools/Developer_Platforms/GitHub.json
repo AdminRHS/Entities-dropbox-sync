@@ -1,0 +1,190 @@
+{
+  "entity_type": "LIBRARIES",
+  "sub_entity": "Tool",
+  "tool_category": "Developer Platform",
+  "tool_id": "TOOL-DEV-001",
+  "tool_name": "GitHub",
+  "vendor": "Microsoft",
+  "description": "Code hosting and version control platform for developers with repository management, collaboration features, and code portfolio showcasing",
+  "created": "2025-11-13",
+  "updated": "2025-11-13",
+  "primary_use_cases": [
+    "Code repository hosting and version control",
+    "Open source project contributions",
+    "Developer portfolio building",
+    "Collaborative software development",
+    "Documentation hosting (README, wikis)",
+    "Issue tracking and project management",
+    "Course code materials distribution"
+  ],
+  "key_features": {
+    "repositories": {
+      "feature": "Git Repositories",
+      "description": "Host public and private code repositories with full version control",
+      "use_case": "Course code, open source projects, portfolio code"
+    },
+    "pull_requests": {
+      "feature": "Pull Requests & Code Review",
+      "description": "Collaborative code review and contribution workflow",
+      "use_case": "Open source contributions, team collaboration"
+    },
+    "issues": {
+      "feature": "Issues & Project Boards",
+      "description": "Bug tracking, feature requests, project management",
+      "use_case": "Community engagement, project organization"
+    },
+    "actions": {
+      "feature": "GitHub Actions",
+      "description": "CI/CD automation and workflow automation",
+      "use_case": "Automated testing, deployment pipelines"
+    },
+    "pages": {
+      "feature": "GitHub Pages",
+      "description": "Static website hosting directly from repositories",
+      "use_case": "Project documentation, portfolio sites"
+    },
+    "gists": {
+      "feature": "Gists",
+      "description": "Quick code snippet sharing",
+      "use_case": "Tutorial code examples, quick references"
+    }
+  },
+  "used_by_professions": [
+    "Developer",
+    "Designer",
+    "Videographer",
+    "Marketer"
+  ],
+  "used_in_workflows": [],
+  "integrates_with": [
+    "TOOL-DEV-002",
+    "TOOL-DEV-003"
+  ],
+  "integration_details": {
+    "TOOL-DEV-002": "Stack Overflow - Link to GitHub repos in answers",
+    "TOOL-DEV-003": "Dev.to - Embed GitHub repos in articles"
+  },
+  "actions_performed": [
+    "commit",
+    "push",
+    "pull",
+    "fork",
+    "clone",
+    "merge",
+    "review",
+    "contribute",
+    "document",
+    "share"
+  ],
+  "objects_created": [],
+  "repository_structure": {
+    "course_code_materials": "40% - Organized by lesson/module",
+    "open_source_projects": "30% - Community-driven projects",
+    "documentation": "20% - README files, wikis, guides",
+    "community_contributions": "10% - PRs to other repositories"
+  },
+  "content_strategy": {
+    "repository_types": {
+      "educational_repos": "Course materials, tutorials, learning resources",
+      "project_repos": "Complete projects with documentation",
+      "template_repos": "Starter templates and boilerplates",
+      "contribution_repos": "Open source contributions to popular projects"
+    },
+    "posting_frequency": "Continuous commits for active projects, regular updates",
+    "engagement_strategy": "Respond to issues, review PRs, engage with contributors"
+  },
+  "best_practices": {
+    "repository_management": [
+      "Clear README files with setup instructions",
+      "Proper licensing (MIT, Apache, GPL, etc.)",
+      "Issue templates for bug reports and feature requests",
+      "Contribution guidelines for open source projects",
+      "Semantic versioning for releases",
+      "Comprehensive documentation"
+    ],
+    "code_quality": [
+      "Consistent code style and formatting",
+      "Meaningful commit messages",
+      "Branch naming conventions",
+      "Code comments where necessary",
+      "Test coverage for critical features"
+    ],
+    "community_engagement": [
+      "Respond to issues within 48 hours",
+      "Review pull requests promptly",
+      "Welcome first-time contributors",
+      "Maintain CODE_OF_CONDUCT.md",
+      "Recognize contributors in releases"
+    ],
+    "portfolio_optimization": [
+      "Pin best repositories to profile",
+      "Complete profile with bio and links",
+      "Showcase variety of skills/languages",
+      "Regular commit activity shows consistency",
+      "Green squares (commit history) matter for visibility"
+    ]
+  },
+  "technical_specifications": {
+    "file_size_limit": "100MB per file (Git LFS for larger)",
+    "repository_size": "Recommended under 1GB",
+    "supported_languages": "All programming languages",
+    "markdown_support": "GitHub Flavored Markdown for documentation"
+  },
+  "pricing": {
+    "model": "Free for public repositories and personal use",
+    "private_repos": "Unlimited private repositories on free plan",
+    "github_pro": "$4/month - Advanced features",
+    "teams": "$4/user/month - Team collaboration features",
+    "enterprise": "Custom pricing for large organizations"
+  },
+  "platform_specs": {
+    "type": "Web-based with desktop client (GitHub Desktop)",
+    "user_base": "100+ million developers (2024)",
+    "repository_count": "330+ million repositories",
+    "enterprise_adoption": "Used by 90% of Fortune 100"
+  },
+  "strengths": [
+    "Industry standard for code hosting",
+    "Excellent for developer portfolio",
+    "Strong open source community",
+    "Powerful collaboration features",
+    "Integrated CI/CD with Actions",
+    "Free unlimited public/private repos",
+    "Great documentation and discoverability",
+    "GitHub Pages for free hosting"
+  ],
+  "limitations": [
+    "Not optimized for non-code files",
+    "100MB file size limit without Git LFS",
+    "Learning curve for Git concepts",
+    "Can become cluttered without organization",
+    "Issue tracker less feature-rich than Jira",
+    "Limited project management compared to dedicated tools"
+  ],
+  "typical_workflows": [
+    "Create repository → Add README and LICENSE → Push course code → Organize by modules → Share with students → Update continuously",
+    "Fork popular project → Create feature branch → Implement feature → Submit pull request → Engage in code review → Contribute to open source"
+  ],
+  "performance_metrics": {
+    "stars": "Repository popularity and usefulness",
+    "forks": "Indicates project utility and adoption",
+    "watchers": "Active interest in project updates",
+    "contributors": "Community engagement level",
+    "commit_frequency": "Development activity and consistency",
+    "issue_response_time": "Community support quality"
+  },
+  "alternatives": [
+    "GitLab (similar features, self-hosting option)",
+    "Bitbucket (Atlassian ecosystem integration)",
+    "SourceForge (older, less popular)",
+    "Codeberg (open source alternative)"
+  ],
+  "documentation": {
+    "official_site": "https://github.com",
+    "docs": "https://docs.github.com",
+    "guides": "https://guides.github.com",
+    "github_skills": "https://skills.github.com (interactive learning)",
+    "api": "https://docs.github.com/en/rest"
+  },
+  "source": "SMM_Research_Document_2_Content_Strategy_Multi_Platform"
+}

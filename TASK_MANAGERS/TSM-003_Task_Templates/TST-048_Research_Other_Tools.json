@@ -1,0 +1,195 @@
+{
+  "entity_type": "TASK_MANAGERS",
+  "sub_entity": "Task_Template",
+  "template_id": "Task-Template-048",
+  "task_name": "Research Other AI Tools to Complete Missing Tool Documentation",
+  "action": "Research",
+  "object": "Other Tools",
+  "context": "to complete missing documentation for 4 miscellaneous AI tools with discovered_needs_review status",
+  "description": "Comprehensive research task to complete missing data for 4 AI tools serving various departments (Gamma.app, Loom, Maestra.ai, Manus.im). Focuses on optimizing Gamma.app (3 departments) and Loom (AI department) active usage, plus evaluating Maestra.ai for meeting transcription workflow integration per File System Rollout initiative. Uses YouTube Video Research Prompt methodology. Outputs fully documented tools with multi-department usage optimization.",
+  "department": "Research / AI / Design / Video",
+  "profession": "AI Researcher / Content Specialist",
+  "estimated_duration": "5-8 hours (3-5 hours research + 2-3 hours documentation)",
+  "status": "Template",
+  "dependencies": [
+    "Access to YouTube, Perplexity AI",
+    "YouTube_Video_Research_Prompt_RemoteHelpers_Nov2025.md",
+    "Research_ToDo_2025-11-W47_Other_Tools.json",
+    "Access to Gamma.app and Loom accounts (hands-on testing)",
+    "Access to Entities/LIBRARIES/Tools directory"
+  ],
+  "tools_required": [
+    "Perplexity AI",
+    "YouTube",
+    "Text editor (VS Code/Cursor)",
+    "Gamma.app (hands-on testing)",
+    "Loom (hands-on testing)"
+  ],
+  "success_criteria": [
+    "Gamma.app usage optimized for 3 departments (Design, AI, Finance) - HIGH PRIORITY",
+    "Loom usage optimized for AI department - HIGH PRIORITY",
+    "Maestra.ai evaluated for meeting transcription workflow (vs Whisper)",
+    "Multi-department collaboration opportunities identified for Gamma.app",
+    "All TBD fields populated across 4 tools",
+    "Transcription tool comparison completed (Maestra vs Whisper vs Claude)",
+    "Subscription recommendations for Maestra.ai and Manus.im",
+    "All 4 tool JSON files updated and validated"
+  ],
+  "steps": [
+    {
+      "step_number": 1,
+      "name": "Review research requirements and prioritize active tools",
+      "duration": "30 minutes",
+      "outputs": [
+        "Priority order: HIGH (Gamma.app, Loom) > MEDIUM (Maestra.ai) > LOW (Manus.im)"
+      ]
+    },
+    {
+      "step_number": 2,
+      "name": "Research Gamma.app latest features and multi-department optimization",
+      "duration": "90 minutes",
+      "outputs": [
+        "Latest AI generation features",
+        "Collaboration workflows",
+        "Multi-department use case mapping"
+      ]
+    },
+    {
+      "step_number": 3,
+      "name": "Hands-on testing of Gamma.app and Loom with current workflows",
+      "duration": "60-90 minutes",
+      "outputs": [
+        "Content generation quality assessment",
+        "Async communication workflow testing",
+        "Best practices documentation"
+      ]
+    },
+    {
+      "step_number": 4,
+      "name": "Research Maestra.ai for meeting transcription workflow evaluation",
+      "duration": "60-90 minutes",
+      "outputs": [
+        "Maestra vs Whisper comparison",
+        "Video translation capabilities",
+        "Integration with File System Rollout workflow"
+      ]
+    },
+    {
+      "step_number": 5,
+      "name": "Quick research for Manus.im (determine archive vs renew)",
+      "duration": "30 minutes",
+      "outputs": [
+        "Basic capabilities",
+        "Design department relevance",
+        "Archive recommendation"
+      ]
+    },
+    {
+      "step_number": 6,
+      "name": "Create transcription comparison matrix and Gamma collaboration guide",
+      "duration": "45 minutes",
+      "outputs": [
+        "Transcription tools comparison (Maestra vs Whisper vs Claude)",
+        "Gamma multi-department collaboration guide"
+      ]
+    },
+    {
+      "step_number": 7,
+      "name": "Update all 4 tool JSON files",
+      "duration": "90 minutes",
+      "outputs": [
+        "4 updated JSON files with complete multi-department usage data"
+      ]
+    },
+    {
+      "step_number": 8,
+      "name": "Document optimization guides and create recommendations",
+      "duration": "45 minutes",
+      "outputs": [
+        "Gamma.app optimization guide",
+        "Loom async communication best practices",
+        "Maestra.ai adoption recommendation"
+      ]
+    },
+    {
+      "step_number": 9,
+      "name": "Validate JSON files and create summary report",
+      "duration": "30 minutes",
+      "outputs": [
+        "Validation confirmation",
+        "Multi-department action items"
+      ]
+    }
+  ],
+  "checklist": [
+    {
+      "item": "Gamma.app multi-department usage patterns documented (Design, AI, Finance)",
+      "required": true
+    },
+    {
+      "item": "Gamma.app collaboration opportunities identified across departments",
+      "required": true
+    },
+    {
+      "item": "Loom async communication best practices documented for AI department",
+      "required": true
+    },
+    {
+      "item": "Maestra.ai transcription workflow evaluated vs Whisper (for File System Rollout)",
+      "required": true
+    },
+    {
+      "item": "Transcription comparison matrix completed (Maestra vs Whisper vs Claude)",
+      "required": true
+    },
+    {
+      "item": "Maestra.ai adoption recommendation (yes/no + rationale)",
+      "required": true
+    },
+    {
+      "item": "Manus.im archive recommendation (yes/no + rationale)",
+      "required": true
+    }
+  ],
+  "roi_metrics": {
+    "optimization": "Improves Gamma.app efficiency across 3 departments (Design, AI, Finance)",
+    "collaboration": "Identifies cross-department collaboration opportunities with Gamma.app",
+    "workflow_evaluation": "Evaluates Maestra.ai for File System Rollout meeting transcription workflow",
+    "decision_support": "Maestra.ai adoption decision for video translation and transcription needs"
+  },
+  "alignment_with_strategic_initiatives": {
+    "initiative": "File System & Workflow Automation",
+    "relevance": "Maestra.ai evaluation directly supports meeting transcription workflow (Whisper → Claude → tasks) per 60-80% administrative overhead reduction goal"
+  },
+  "related_tasks": [
+    "TASK-TEMPLATE-RES-001",
+    "TASK-TEMPLATE-RES-002",
+    "TASK-TEMPLATE-RES-003"
+  ],
+  "related_workflows": [
+    "Meeting Transcription Workflow",
+    "Content Creation Workflow",
+    "Async Communication Workflow"
+  ],
+  "related_projects": [
+    "File System Rollout",
+    "Multi-Department Collaboration Optimization"
+  ],
+  "tags": [
+    "research",
+    "content-creation",
+    "video-messaging",
+    "transcription",
+    "gamma-app",
+    "loom",
+    "maestra-ai",
+    "multi-department"
+  ],
+  "version": "1.0",
+  "created": "2025-11-15",
+  "last_updated": "2025-11-15",
+  "responsibility_id": "RESP-AI-080",
+  "responsibility_name": "research other tools",
+  "_original_action": "Research",
+  "_original_object": "Other Tools"
+}

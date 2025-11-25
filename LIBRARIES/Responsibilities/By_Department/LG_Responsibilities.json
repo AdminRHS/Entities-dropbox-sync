@@ -1,0 +1,2079 @@
+[
+  {
+    "id": "RESP-LG-001",
+    "primary_phrase": "enrich emails",
+    "action_variants": [
+      "enrich"
+    ],
+    "object_variants": [
+      "email list",
+      "run email enrichment",
+      "run nominative email enrichment"
+    ],
+    "action_base": "enrich",
+    "object_base": "emails",
+    "departments": [
+      "LG"
+    ],
+    "primary_department": "LG",
+    "typical_tools": [],
+    "object_types": [],
+    "description": "Enrich emails",
+    "frequency": 4,
+    "usage_examples": [
+      {
+        "task_id": "TEMPLATE-TASK-018",
+        "department": "LG",
+        "level": "task"
+      },
+      {
+        "task_id": "TEMPLATE-TASK-019",
+        "department": "LG",
+        "level": "task"
+      },
+      {
+        "task_id": "TEMPLATE-TASK-015",
+        "department": "LG",
+        "level": "step"
+      }
+    ],
+    "is_active": true,
+    "created_at": "2025-11-16T00:34:51.041677",
+    "created_by": "system_migration",
+    "version": "1.0"
+  },
+  {
+    "id": "RESP-LG-002",
+    "primary_phrase": "upload domains",
+    "action_variants": [
+      "upload"
+    ],
+    "object_variants": [
+      "upload domain list to anymailfinder",
+      "upload domain list to bright data",
+      "upload domains to anymailfinder"
+    ],
+    "action_base": "upload",
+    "object_base": "domains",
+    "departments": [
+      "LG"
+    ],
+    "primary_department": "LG",
+    "typical_tools": [],
+    "object_types": [],
+    "description": "Upload domains",
+    "frequency": 4,
+    "usage_examples": [
+      {
+        "task_id": "TEMPLATE-TASK-016",
+        "department": "LG",
+        "level": "step"
+      },
+      {
+        "task_id": "TEMPLATE-TASK-009",
+        "department": "LG",
+        "level": "step"
+      },
+      {
+        "task_id": "TEMPLATE-TASK-003",
+        "department": "LG",
+        "level": "step"
+      }
+    ],
+    "is_active": true,
+    "created_at": "2025-11-16T00:34:51.041679",
+    "created_by": "system_migration",
+    "version": "1.0"
+  },
+  {
+    "id": "RESP-LG-003",
+    "primary_phrase": "prepare domains",
+    "action_variants": [
+      "prepare"
+    ],
+    "object_variants": [
+      "prepare company domain list",
+      "prepare domain list"
+    ],
+    "action_base": "prepare",
+    "object_base": "domains",
+    "departments": [
+      "LG"
+    ],
+    "primary_department": "LG",
+    "typical_tools": [],
+    "object_types": [],
+    "description": "Prepare domains",
+    "frequency": 3,
+    "usage_examples": [
+      {
+        "task_id": "TEMPLATE-TASK-003",
+        "department": "LG",
+        "level": "step"
+      },
+      {
+        "task_id": "TEMPLATE-TASK-018",
+        "department": "LG",
+        "level": "step"
+      },
+      {
+        "task_id": "TEMPLATE-TASK-019",
+        "department": "LG",
+        "level": "step"
+      }
+    ],
+    "is_active": true,
+    "created_at": "2025-11-16T00:34:51.041682",
+    "created_by": "system_migration",
+    "version": "1.0"
+  },
+  {
+    "id": "RESP-LG-004",
+    "primary_phrase": "export leads",
+    "action_variants": [
+      "export"
+    ],
+    "object_variants": [
+      "export enriched lead list",
+      "export final enriched lead list",
+      "export final local business lead list"
+    ],
+    "action_base": "export",
+    "object_base": "leads",
+    "departments": [
+      "LG"
+    ],
+    "primary_department": "LG",
+    "typical_tools": [],
+    "object_types": [],
+    "description": "Export leads",
+    "frequency": 3,
+    "usage_examples": [
+      {
+        "task_id": "TEMPLATE-TASK-016",
+        "department": "LG",
+        "level": "step"
+      },
+      {
+        "task_id": "TEMPLATE-TASK-009",
+        "department": "LG",
+        "level": "step"
+      },
+      {
+        "task_id": "TEMPLATE-TASK-004",
+        "department": "LG",
+        "level": "step"
+      }
+    ],
+    "is_active": true,
+    "created_at": "2025-11-16T00:34:51.041686",
+    "created_by": "system_migration",
+    "version": "1.0"
+  },
+  {
+    "id": "RESP-LG-005",
+    "primary_phrase": "export enriched results",
+    "action_variants": [
+      "export"
+    ],
+    "object_variants": [
+      "export enriched results"
+    ],
+    "action_base": "export",
+    "object_base": "enriched results",
+    "departments": [
+      "LG"
+    ],
+    "primary_department": "LG",
+    "typical_tools": [],
+    "object_types": [],
+    "description": "Export enriched results",
+    "frequency": 2,
+    "usage_examples": [
+      {
+        "task_id": "TEMPLATE-TASK-003",
+        "department": "LG",
+        "level": "step"
+      },
+      {
+        "task_id": "TEMPLATE-TASK-018",
+        "department": "LG",
+        "level": "step"
+      }
+    ],
+    "is_active": true,
+    "created_at": "2025-11-16T00:34:51.041688",
+    "created_by": "system_migration",
+    "version": "1.0"
+  },
+  {
+    "id": "RESP-LG-006",
+    "primary_phrase": "log log campaign metrics",
+    "action_variants": [
+      "log"
+    ],
+    "object_variants": [
+      "log campaign metrics"
+    ],
+    "action_base": "log",
+    "object_base": "log campaign metrics",
+    "departments": [
+      "LG"
+    ],
+    "primary_department": "LG",
+    "typical_tools": [],
+    "object_types": [],
+    "description": "Log log campaign metrics",
+    "frequency": 2,
+    "usage_examples": [
+      {
+        "task_id": "TEMPLATE-TASK-018",
+        "department": "LG",
+        "level": "step"
+      },
+      {
+        "task_id": "TEMPLATE-TASK-009",
+        "department": "LG",
+        "level": "step"
+      }
+    ],
+    "is_active": true,
+    "created_at": "2025-11-16T00:34:51.041690",
+    "created_by": "system_migration",
+    "version": "1.0"
+  },
+  {
+    "id": "RESP-LG-007",
+    "primary_phrase": "search data",
+    "action_variants": [
+      "search"
+    ],
+    "object_variants": [
+      "search companies in airscale database",
+      "search company in airscale database"
+    ],
+    "action_base": "search",
+    "object_base": "data",
+    "departments": [
+      "LG"
+    ],
+    "primary_department": "LG",
+    "typical_tools": [],
+    "object_types": [],
+    "description": "Search data",
+    "frequency": 2,
+    "usage_examples": [
+      {
+        "task_id": "TEMPLATE-TASK-015",
+        "department": "LG",
+        "level": "step"
+      },
+      {
+        "task_id": "TEMPLATE-TASK-008",
+        "department": "LG",
+        "level": "step"
+      }
+    ],
+    "is_active": true,
+    "created_at": "2025-11-16T00:34:51.041692",
+    "created_by": "system_migration",
+    "version": "1.0"
+  },
+  {
+    "id": "RESP-LG-008",
+    "primary_phrase": "export data",
+    "action_variants": [
+      "export"
+    ],
+    "object_variants": [
+      "export and clean business listing data",
+      "export employee data from airscale"
+    ],
+    "action_base": "export",
+    "object_base": "data",
+    "departments": [
+      "LG"
+    ],
+    "primary_department": "LG",
+    "typical_tools": [],
+    "object_types": [],
+    "description": "Export data",
+    "frequency": 2,
+    "usage_examples": [
+      {
+        "task_id": "TEMPLATE-TASK-015",
+        "department": "LG",
+        "level": "step"
+      },
+      {
+        "task_id": "TEMPLATE-TASK-016",
+        "department": "LG",
+        "level": "step"
+      }
+    ],
+    "is_active": true,
+    "created_at": "2025-11-16T00:34:51.041694",
+    "created_by": "system_migration",
+    "version": "1.0"
+  },
+  {
+    "id": "RESP-LG-009",
+    "primary_phrase": "export contacts",
+    "action_variants": [
+      "export"
+    ],
+    "object_variants": [
+      "export enriched contact list",
+      "export final enriched contact list"
+    ],
+    "action_base": "export",
+    "object_base": "contacts",
+    "departments": [
+      "LG"
+    ],
+    "primary_department": "LG",
+    "typical_tools": [],
+    "object_types": [],
+    "description": "Export contacts",
+    "frequency": 2,
+    "usage_examples": [
+      {
+        "task_id": "TEMPLATE-TASK-015",
+        "department": "LG",
+        "level": "step"
+      },
+      {
+        "task_id": "TEMPLATE-TASK-008",
+        "department": "LG",
+        "level": "step"
+      }
+    ],
+    "is_active": true,
+    "created_at": "2025-11-16T00:34:51.041696",
+    "created_by": "system_migration",
+    "version": "1.0"
+  },
+  {
+    "id": "RESP-LG-010",
+    "primary_phrase": "enrich leads",
+    "action_variants": [
+      "enrich"
+    ],
+    "object_variants": [
+      "enrich leads with emails via anymailfinder",
+      "lead list"
+    ],
+    "action_base": "enrich",
+    "object_base": "leads",
+    "departments": [
+      "LG"
+    ],
+    "primary_department": "LG",
+    "typical_tools": [],
+    "object_types": [],
+    "description": "Enrich leads",
+    "frequency": 2,
+    "usage_examples": [
+      {
+        "task_id": "TEMPLATE-TASK-003",
+        "department": "LG",
+        "level": "task"
+      },
+      {
+        "task_id": "TEMPLATE-TASK-011",
+        "department": "LG",
+        "level": "step"
+      }
+    ],
+    "is_active": true,
+    "created_at": "2025-11-16T00:34:51.041698",
+    "created_by": "system_migration",
+    "version": "1.0"
+  },
+  {
+    "id": "RESP-LG-011",
+    "primary_phrase": "execute emails",
+    "action_variants": [
+      "execute"
+    ],
+    "object_variants": [
+      "email arbitrage",
+      "run email enrichment"
+    ],
+    "action_base": "execute",
+    "object_base": "emails",
+    "departments": [
+      "LG"
+    ],
+    "primary_department": "LG",
+    "typical_tools": [],
+    "object_types": [],
+    "description": "Execute emails",
+    "frequency": 2,
+    "usage_examples": [
+      {
+        "task_id": "TEMPLATE-TASK-018",
+        "department": "LG",
+        "level": "step"
+      },
+      {
+        "task_id": "TEMPLATE-TASK-008",
+        "department": "LG",
+        "level": "task"
+      }
+    ],
+    "is_active": true,
+    "created_at": "2025-11-16T00:34:51.041701",
+    "created_by": "system_migration",
+    "version": "1.0"
+  },
+  {
+    "id": "RESP-LG-012",
+    "primary_phrase": "enrich run nominative enrichment",
+    "action_variants": [
+      "enrich"
+    ],
+    "object_variants": [
+      "run nominative enrichment",
+      "run nominative enrichment for business owners/managers"
+    ],
+    "action_base": "enrich",
+    "object_base": "run nominative enrichment",
+    "departments": [
+      "LG"
+    ],
+    "primary_department": "LG",
+    "typical_tools": [],
+    "object_types": [],
+    "description": "Enrich run nominative enrichment",
+    "frequency": 2,
+    "usage_examples": [
+      {
+        "task_id": "TEMPLATE-TASK-016",
+        "department": "LG",
+        "level": "step"
+      },
+      {
+        "task_id": "TEMPLATE-TASK-009",
+        "department": "LG",
+        "level": "step"
+      }
+    ],
+    "is_active": true,
+    "created_at": "2025-11-16T00:34:51.041703",
+    "created_by": "system_migration",
+    "version": "1.0"
+  },
+  {
+    "id": "RESP-LG-013",
+    "primary_phrase": "enrich company employees",
+    "action_variants": [
+      "enrich"
+    ],
+    "object_variants": [
+      "company employees"
+    ],
+    "action_base": "enrich",
+    "object_base": "company employees",
+    "departments": [
+      "LG"
+    ],
+    "primary_department": "LG",
+    "typical_tools": [],
+    "object_types": [],
+    "description": "Enrich company employees",
+    "frequency": 1,
+    "usage_examples": [
+      {
+        "task_id": "TEMPLATE-TASK-015",
+        "department": "LG",
+        "level": "task"
+      }
+    ],
+    "is_active": true,
+    "created_at": "2025-11-16T00:34:51.041705",
+    "created_by": "system_migration",
+    "version": "1.0"
+  },
+  {
+    "id": "RESP-LG-014",
+    "primary_phrase": "prepare target company list",
+    "action_variants": [
+      "prepare"
+    ],
+    "object_variants": [
+      "prepare target company list"
+    ],
+    "action_base": "prepare",
+    "object_base": "target company list",
+    "departments": [
+      "LG"
+    ],
+    "primary_department": "LG",
+    "typical_tools": [],
+    "object_types": [],
+    "description": "Prepare target company list",
+    "frequency": 1,
+    "usage_examples": [
+      {
+        "task_id": "TEMPLATE-TASK-015",
+        "department": "LG",
+        "level": "step"
+      }
+    ],
+    "is_active": true,
+    "created_at": "2025-11-16T00:34:51.041709",
+    "created_by": "system_migration",
+    "version": "1.0"
+  },
+  {
+    "id": "RESP-LG-015",
+    "primary_phrase": "review data",
+    "action_variants": [
+      "review"
+    ],
+    "object_variants": [
+      "review employee count and preview data"
+    ],
+    "action_base": "review",
+    "object_base": "data",
+    "departments": [
+      "LG"
+    ],
+    "primary_department": "LG",
+    "typical_tools": [],
+    "object_types": [],
+    "description": "Review data",
+    "frequency": 1,
+    "usage_examples": [
+      {
+        "task_id": "TEMPLATE-TASK-015",
+        "department": "LG",
+        "level": "step"
+      }
+    ],
+    "is_active": true,
+    "created_at": "2025-11-16T00:34:51.041711",
+    "created_by": "system_migration",
+    "version": "1.0"
+  },
+  {
+    "id": "RESP-LG-016",
+    "primary_phrase": "unlock unlock employee list",
+    "action_variants": [
+      "unlock"
+    ],
+    "object_variants": [
+      "unlock employee list with airscale credit"
+    ],
+    "action_base": "unlock",
+    "object_base": "unlock employee list",
+    "departments": [
+      "LG"
+    ],
+    "primary_department": "LG",
+    "typical_tools": [],
+    "object_types": [],
+    "description": "Unlock unlock employee list",
+    "frequency": 1,
+    "usage_examples": [
+      {
+        "task_id": "TEMPLATE-TASK-015",
+        "department": "LG",
+        "level": "step"
+      }
+    ],
+    "is_active": true,
+    "created_at": "2025-11-16T00:34:51.041713",
+    "created_by": "system_migration",
+    "version": "1.0"
+  },
+  {
+    "id": "RESP-LG-017",
+    "primary_phrase": "upload employees",
+    "action_variants": [
+      "upload"
+    ],
+    "object_variants": [
+      "upload employees to anymailfinder for enrichment"
+    ],
+    "action_base": "upload",
+    "object_base": "employees",
+    "departments": [
+      "LG"
+    ],
+    "primary_department": "LG",
+    "typical_tools": [],
+    "object_types": [],
+    "description": "Upload employees",
+    "frequency": 1,
+    "usage_examples": [
+      {
+        "task_id": "TEMPLATE-TASK-015",
+        "department": "LG",
+        "level": "step"
+      }
+    ],
+    "is_active": true,
+    "created_at": "2025-11-16T00:34:51.041716",
+    "created_by": "system_migration",
+    "version": "1.0"
+  },
+  {
+    "id": "RESP-LG-018",
+    "primary_phrase": "configure nominative enrichment pattern",
+    "action_variants": [
+      "configure"
+    ],
+    "object_variants": [
+      "configure nominative enrichment pattern"
+    ],
+    "action_base": "configure",
+    "object_base": "nominative enrichment pattern",
+    "departments": [
+      "LG"
+    ],
+    "primary_department": "LG",
+    "typical_tools": [],
+    "object_types": [],
+    "description": "Configure nominative enrichment pattern",
+    "frequency": 1,
+    "usage_examples": [
+      {
+        "task_id": "TEMPLATE-TASK-003",
+        "department": "LG",
+        "level": "step"
+      }
+    ],
+    "is_active": true,
+    "created_at": "2025-11-16T00:34:51.041718",
+    "created_by": "system_migration",
+    "version": "1.0"
+  },
+  {
+    "id": "RESP-LG-019",
+    "primary_phrase": "execute run nominative enrichment",
+    "action_variants": [
+      "execute"
+    ],
+    "object_variants": [
+      "run nominative enrichment"
+    ],
+    "action_base": "execute",
+    "object_base": "run nominative enrichment",
+    "departments": [
+      "LG"
+    ],
+    "primary_department": "LG",
+    "typical_tools": [],
+    "object_types": [],
+    "description": "Execute run nominative enrichment",
+    "frequency": 1,
+    "usage_examples": [
+      {
+        "task_id": "TEMPLATE-TASK-003",
+        "department": "LG",
+        "level": "step"
+      }
+    ],
+    "is_active": true,
+    "created_at": "2025-11-16T00:34:51.041720",
+    "created_by": "system_migration",
+    "version": "1.0"
+  },
+  {
+    "id": "RESP-LG-020",
+    "primary_phrase": "log log results and success rate",
+    "action_variants": [
+      "log"
+    ],
+    "object_variants": [
+      "log results and success rate"
+    ],
+    "action_base": "log",
+    "object_base": "log results and success rate",
+    "departments": [
+      "LG"
+    ],
+    "primary_department": "LG",
+    "typical_tools": [],
+    "object_types": [],
+    "description": "Log log results and success rate",
+    "frequency": 1,
+    "usage_examples": [
+      {
+        "task_id": "TEMPLATE-TASK-003",
+        "department": "LG",
+        "level": "step"
+      }
+    ],
+    "is_active": true,
+    "created_at": "2025-11-16T00:34:51.041722",
+    "created_by": "system_migration",
+    "version": "1.0"
+  },
+  {
+    "id": "RESP-LG-021",
+    "primary_phrase": "configure target roles",
+    "action_variants": [
+      "configure"
+    ],
+    "object_variants": [
+      "configure target roles for enrichment"
+    ],
+    "action_base": "configure",
+    "object_base": "target roles",
+    "departments": [
+      "LG"
+    ],
+    "primary_department": "LG",
+    "typical_tools": [],
+    "object_types": [],
+    "description": "Configure target roles",
+    "frequency": 1,
+    "usage_examples": [
+      {
+        "task_id": "TEMPLATE-TASK-018",
+        "department": "LG",
+        "level": "step"
+      }
+    ],
+    "is_active": true,
+    "created_at": "2025-11-16T00:34:51.041724",
+    "created_by": "system_migration",
+    "version": "1.0"
+  },
+  {
+    "id": "RESP-LG-022",
+    "primary_phrase": "build custom scraper",
+    "action_variants": [
+      "build"
+    ],
+    "object_variants": [
+      "custom scraper"
+    ],
+    "action_base": "build",
+    "object_base": "custom scraper",
+    "departments": [
+      "LG"
+    ],
+    "primary_department": "LG",
+    "typical_tools": [],
+    "object_types": [],
+    "description": "Build custom scraper",
+    "frequency": 1,
+    "usage_examples": [
+      {
+        "task_id": "TEMPLATE-TASK-011",
+        "department": "LG",
+        "level": "task"
+      }
+    ],
+    "is_active": true,
+    "created_at": "2025-11-16T00:34:51.041726",
+    "created_by": "system_migration",
+    "version": "1.0"
+  },
+  {
+    "id": "RESP-LG-023",
+    "primary_phrase": "research identify and research target niche platform",
+    "action_variants": [
+      "research"
+    ],
+    "object_variants": [
+      "identify and research target niche platform"
+    ],
+    "action_base": "research",
+    "object_base": "identify and research target niche platform",
+    "departments": [
+      "LG"
+    ],
+    "primary_department": "LG",
+    "typical_tools": [],
+    "object_types": [],
+    "description": "Research identify and research target niche platform",
+    "frequency": 1,
+    "usage_examples": [
+      {
+        "task_id": "TEMPLATE-TASK-011",
+        "department": "LG",
+        "level": "step"
+      }
+    ],
+    "is_active": true,
+    "created_at": "2025-11-16T00:34:51.041728",
+    "created_by": "system_migration",
+    "version": "1.0"
+  },
+  {
+    "id": "RESP-LG-024",
+    "primary_phrase": "analyze analyze http requests using browser devtools",
+    "action_variants": [
+      "analyze"
+    ],
+    "object_variants": [
+      "analyze http requests using browser devtools"
+    ],
+    "action_base": "analyze",
+    "object_base": "analyze http requests using browser devtools",
+    "departments": [
+      "LG"
+    ],
+    "primary_department": "LG",
+    "typical_tools": [],
+    "object_types": [],
+    "description": "Analyze analyze http requests using browser devtools",
+    "frequency": 1,
+    "usage_examples": [
+      {
+        "task_id": "TEMPLATE-TASK-011",
+        "department": "LG",
+        "level": "step"
+      }
+    ],
+    "is_active": true,
+    "created_at": "2025-11-16T00:34:51.041733",
+    "created_by": "system_migration",
+    "version": "1.0"
+  },
+  {
+    "id": "RESP-LG-025",
+    "primary_phrase": "design design n8n workflow architecture",
+    "action_variants": [
+      "design"
+    ],
+    "object_variants": [
+      "design n8n workflow architecture"
+    ],
+    "action_base": "design",
+    "object_base": "design n8n workflow architecture",
+    "departments": [
+      "LG"
+    ],
+    "primary_department": "LG",
+    "typical_tools": [],
+    "object_types": [],
+    "description": "Design design n8n workflow architecture",
+    "frequency": 1,
+    "usage_examples": [
+      {
+        "task_id": "TEMPLATE-TASK-011",
+        "department": "LG",
+        "level": "step"
+      }
+    ],
+    "is_active": true,
+    "created_at": "2025-11-16T00:34:51.041735",
+    "created_by": "system_migration",
+    "version": "1.0"
+  },
+  {
+    "id": "RESP-LG-026",
+    "primary_phrase": "build http request nodes",
+    "action_variants": [
+      "build"
+    ],
+    "object_variants": [
+      "build http request nodes in n8n"
+    ],
+    "action_base": "build",
+    "object_base": "http request nodes",
+    "departments": [
+      "LG"
+    ],
+    "primary_department": "LG",
+    "typical_tools": [],
+    "object_types": [],
+    "description": "Build http request nodes",
+    "frequency": 1,
+    "usage_examples": [
+      {
+        "task_id": "TEMPLATE-TASK-011",
+        "department": "LG",
+        "level": "step"
+      }
+    ],
+    "is_active": true,
+    "created_at": "2025-11-16T00:34:51.041737",
+    "created_by": "system_migration",
+    "version": "1.0"
+  },
+  {
+    "id": "RESP-LG-027",
+    "primary_phrase": "test data",
+    "action_variants": [
+      "test"
+    ],
+    "object_variants": [
+      "test scraper on sample data"
+    ],
+    "action_base": "test",
+    "object_base": "data",
+    "departments": [
+      "LG"
+    ],
+    "primary_department": "LG",
+    "typical_tools": [],
+    "object_types": [],
+    "description": "Test data",
+    "frequency": 1,
+    "usage_examples": [
+      {
+        "task_id": "TEMPLATE-TASK-011",
+        "department": "LG",
+        "level": "step"
+      }
+    ],
+    "is_active": true,
+    "created_at": "2025-11-16T00:34:51.041739",
+    "created_by": "system_migration",
+    "version": "1.0"
+  },
+  {
+    "id": "RESP-LG-028",
+    "primary_phrase": "execute run full scrape on niche platform",
+    "action_variants": [
+      "execute"
+    ],
+    "object_variants": [
+      "run full scrape on niche platform"
+    ],
+    "action_base": "execute",
+    "object_base": "run full scrape on niche platform",
+    "departments": [
+      "LG"
+    ],
+    "primary_department": "LG",
+    "typical_tools": [],
+    "object_types": [],
+    "description": "Execute run full scrape on niche platform",
+    "frequency": 1,
+    "usage_examples": [
+      {
+        "task_id": "TEMPLATE-TASK-011",
+        "department": "LG",
+        "level": "step"
+      }
+    ],
+    "is_active": true,
+    "created_at": "2025-11-16T00:34:51.041741",
+    "created_by": "system_migration",
+    "version": "1.0"
+  },
+  {
+    "id": "RESP-LG-029",
+    "primary_phrase": "document document scraper",
+    "action_variants": [
+      "document"
+    ],
+    "object_variants": [
+      "document scraper for future use"
+    ],
+    "action_base": "document",
+    "object_base": "document scraper",
+    "departments": [
+      "LG"
+    ],
+    "primary_department": "LG",
+    "typical_tools": [],
+    "object_types": [],
+    "description": "Document document scraper",
+    "frequency": 1,
+    "usage_examples": [
+      {
+        "task_id": "TEMPLATE-TASK-011",
+        "department": "LG",
+        "level": "step"
+      }
+    ],
+    "is_active": true,
+    "created_at": "2025-11-16T00:34:51.041743",
+    "created_by": "system_migration",
+    "version": "1.0"
+  },
+  {
+    "id": "RESP-LG-030",
+    "primary_phrase": "identify identify target enterprise companies",
+    "action_variants": [
+      "identify"
+    ],
+    "object_variants": [
+      "identify target enterprise companies"
+    ],
+    "action_base": "identify",
+    "object_base": "identify target enterprise companies",
+    "departments": [
+      "LG"
+    ],
+    "primary_department": "LG",
+    "typical_tools": [],
+    "object_types": [],
+    "description": "Identify identify target enterprise companies",
+    "frequency": 1,
+    "usage_examples": [
+      {
+        "task_id": "TEMPLATE-TASK-008",
+        "department": "LG",
+        "level": "step"
+      }
+    ],
+    "is_active": true,
+    "created_at": "2025-11-16T00:34:51.041745",
+    "created_by": "system_migration",
+    "version": "1.0"
+  },
+  {
+    "id": "RESP-LG-031",
+    "primary_phrase": "unlock spend 1 airscale credit",
+    "action_variants": [
+      "unlock"
+    ],
+    "object_variants": [
+      "spend 1 airscale credit to unlock employee list"
+    ],
+    "action_base": "unlock",
+    "object_base": "spend 1 airscale credit",
+    "departments": [
+      "LG"
+    ],
+    "primary_department": "LG",
+    "typical_tools": [],
+    "object_types": [],
+    "description": "Unlock spend 1 airscale credit",
+    "frequency": 1,
+    "usage_examples": [
+      {
+        "task_id": "TEMPLATE-TASK-008",
+        "department": "LG",
+        "level": "step"
+      }
+    ],
+    "is_active": true,
+    "created_at": "2025-11-16T00:34:51.041749",
+    "created_by": "system_migration",
+    "version": "1.0"
+  },
+  {
+    "id": "RESP-LG-032",
+    "primary_phrase": "export employee list",
+    "action_variants": [
+      "export"
+    ],
+    "object_variants": [
+      "export employee list from airscale"
+    ],
+    "action_base": "export",
+    "object_base": "employee list",
+    "departments": [
+      "LG"
+    ],
+    "primary_department": "LG",
+    "typical_tools": [],
+    "object_types": [],
+    "description": "Export employee list",
+    "frequency": 1,
+    "usage_examples": [
+      {
+        "task_id": "TEMPLATE-TASK-008",
+        "department": "LG",
+        "level": "step"
+      }
+    ],
+    "is_active": true,
+    "created_at": "2025-11-16T00:34:51.041753",
+    "created_by": "system_migration",
+    "version": "1.0"
+  },
+  {
+    "id": "RESP-LG-033",
+    "primary_phrase": "upload employee list",
+    "action_variants": [
+      "upload"
+    ],
+    "object_variants": [
+      "upload employee list to anymailfinder"
+    ],
+    "action_base": "upload",
+    "object_base": "employee list",
+    "departments": [
+      "LG"
+    ],
+    "primary_department": "LG",
+    "typical_tools": [],
+    "object_types": [],
+    "description": "Upload employee list",
+    "frequency": 1,
+    "usage_examples": [
+      {
+        "task_id": "TEMPLATE-TASK-008",
+        "department": "LG",
+        "level": "step"
+      }
+    ],
+    "is_active": true,
+    "created_at": "2025-11-16T00:34:51.041755",
+    "created_by": "system_migration",
+    "version": "1.0"
+  },
+  {
+    "id": "RESP-LG-034",
+    "primary_phrase": "enrich run nominative enrichment on employees",
+    "action_variants": [
+      "enrich"
+    ],
+    "object_variants": [
+      "run nominative enrichment on employees"
+    ],
+    "action_base": "enrich",
+    "object_base": "run nominative enrichment on employees",
+    "departments": [
+      "LG"
+    ],
+    "primary_department": "LG",
+    "typical_tools": [],
+    "object_types": [],
+    "description": "Enrich run nominative enrichment on employees",
+    "frequency": 1,
+    "usage_examples": [
+      {
+        "task_id": "TEMPLATE-TASK-008",
+        "department": "LG",
+        "level": "step"
+      }
+    ],
+    "is_active": true,
+    "created_at": "2025-11-16T00:34:51.041759",
+    "created_by": "system_migration",
+    "version": "1.0"
+  },
+  {
+    "id": "RESP-LG-035",
+    "primary_phrase": "calculate calculate and log roi",
+    "action_variants": [
+      "calculate"
+    ],
+    "object_variants": [
+      "calculate and log roi"
+    ],
+    "action_base": "calculate",
+    "object_base": "calculate and log roi",
+    "departments": [
+      "LG"
+    ],
+    "primary_department": "LG",
+    "typical_tools": [],
+    "object_types": [],
+    "description": "Calculate calculate and log roi",
+    "frequency": 1,
+    "usage_examples": [
+      {
+        "task_id": "TEMPLATE-TASK-008",
+        "department": "LG",
+        "level": "step"
+      }
+    ],
+    "is_active": true,
+    "created_at": "2025-11-16T00:34:51.041761",
+    "created_by": "system_migration",
+    "version": "1.0"
+  },
+  {
+    "id": "RESP-LG-036",
+    "primary_phrase": "scrape leads",
+    "action_variants": [
+      "scrape"
+    ],
+    "object_variants": [
+      "local business leads"
+    ],
+    "action_base": "scrape",
+    "object_base": "leads",
+    "departments": [
+      "LG"
+    ],
+    "primary_department": "LG",
+    "typical_tools": [],
+    "object_types": [],
+    "description": "Scrape leads",
+    "frequency": 1,
+    "usage_examples": [
+      {
+        "task_id": "TEMPLATE-TASK-016",
+        "department": "LG",
+        "level": "task"
+      }
+    ],
+    "is_active": true,
+    "created_at": "2025-11-16T00:34:51.041763",
+    "created_by": "system_migration",
+    "version": "1.0"
+  },
+  {
+    "id": "RESP-LG-037",
+    "primary_phrase": "define define target location and business category",
+    "action_variants": [
+      "define"
+    ],
+    "object_variants": [
+      "define target location and business category"
+    ],
+    "action_base": "define",
+    "object_base": "define target location and business category",
+    "departments": [
+      "LG"
+    ],
+    "primary_department": "LG",
+    "typical_tools": [],
+    "object_types": [],
+    "description": "Define define target location and business category",
+    "frequency": 1,
+    "usage_examples": [
+      {
+        "task_id": "TEMPLATE-TASK-016",
+        "department": "LG",
+        "level": "step"
+      }
+    ],
+    "is_active": true,
+    "created_at": "2025-11-16T00:34:51.041765",
+    "created_by": "system_migration",
+    "version": "1.0"
+  },
+  {
+    "id": "RESP-LG-038",
+    "primary_phrase": "configure apify google maps scraper",
+    "action_variants": [
+      "configure"
+    ],
+    "object_variants": [
+      "configure apify google maps scraper"
+    ],
+    "action_base": "configure",
+    "object_base": "apify google maps scraper",
+    "departments": [
+      "LG"
+    ],
+    "primary_department": "LG",
+    "typical_tools": [],
+    "object_types": [],
+    "description": "Configure apify google maps scraper",
+    "frequency": 1,
+    "usage_examples": [
+      {
+        "task_id": "TEMPLATE-TASK-016",
+        "department": "LG",
+        "level": "step"
+      }
+    ],
+    "is_active": true,
+    "created_at": "2025-11-16T00:34:51.041767",
+    "created_by": "system_migration",
+    "version": "1.0"
+  },
+  {
+    "id": "RESP-LG-039",
+    "primary_phrase": "scrape run apify maps scraper",
+    "action_variants": [
+      "scrape"
+    ],
+    "object_variants": [
+      "run apify maps scraper"
+    ],
+    "action_base": "scrape",
+    "object_base": "run apify maps scraper",
+    "departments": [
+      "LG"
+    ],
+    "primary_department": "LG",
+    "typical_tools": [],
+    "object_types": [],
+    "description": "Scrape run apify maps scraper",
+    "frequency": 1,
+    "usage_examples": [
+      {
+        "task_id": "TEMPLATE-TASK-016",
+        "department": "LG",
+        "level": "step"
+      }
+    ],
+    "is_active": true,
+    "created_at": "2025-11-16T00:34:51.041769",
+    "created_by": "system_migration",
+    "version": "1.0"
+  },
+  {
+    "id": "RESP-LG-040",
+    "primary_phrase": "generate leads",
+    "action_variants": [
+      "generate"
+    ],
+    "object_variants": [
+      "lead list"
+    ],
+    "action_base": "generate",
+    "object_base": "leads",
+    "departments": [
+      "LG"
+    ],
+    "primary_department": "LG",
+    "typical_tools": [],
+    "object_types": [],
+    "description": "Generate leads",
+    "frequency": 1,
+    "usage_examples": [
+      {
+        "task_id": "TEMPLATE-TASK-009",
+        "department": "LG",
+        "level": "task"
+      }
+    ],
+    "is_active": true,
+    "created_at": "2025-11-16T00:34:51.041771",
+    "created_by": "system_migration",
+    "version": "1.0"
+  },
+  {
+    "id": "RESP-LG-041",
+    "primary_phrase": "define define google search query",
+    "action_variants": [
+      "define"
+    ],
+    "object_variants": [
+      "define google search query"
+    ],
+    "action_base": "define",
+    "object_base": "define google search query",
+    "departments": [
+      "LG"
+    ],
+    "primary_department": "LG",
+    "typical_tools": [],
+    "object_types": [],
+    "description": "Define define google search query",
+    "frequency": 1,
+    "usage_examples": [
+      {
+        "task_id": "TEMPLATE-TASK-009",
+        "department": "LG",
+        "level": "step"
+      }
+    ],
+    "is_active": true,
+    "created_at": "2025-11-16T00:34:51.041773",
+    "created_by": "system_migration",
+    "version": "1.0"
+  },
+  {
+    "id": "RESP-LG-042",
+    "primary_phrase": "configure apify google serp scraper",
+    "action_variants": [
+      "configure"
+    ],
+    "object_variants": [
+      "configure apify google serp scraper"
+    ],
+    "action_base": "configure",
+    "object_base": "apify google serp scraper",
+    "departments": [
+      "LG"
+    ],
+    "primary_department": "LG",
+    "typical_tools": [],
+    "object_types": [],
+    "description": "Configure apify google serp scraper",
+    "frequency": 1,
+    "usage_examples": [
+      {
+        "task_id": "TEMPLATE-TASK-009",
+        "department": "LG",
+        "level": "step"
+      }
+    ],
+    "is_active": true,
+    "created_at": "2025-11-16T00:34:51.041775",
+    "created_by": "system_migration",
+    "version": "1.0"
+  },
+  {
+    "id": "RESP-LG-043",
+    "primary_phrase": "scrape run apify serp scraper",
+    "action_variants": [
+      "scrape"
+    ],
+    "object_variants": [
+      "run apify serp scraper"
+    ],
+    "action_base": "scrape",
+    "object_base": "run apify serp scraper",
+    "departments": [
+      "LG"
+    ],
+    "primary_department": "LG",
+    "typical_tools": [],
+    "object_types": [],
+    "description": "Scrape run apify serp scraper",
+    "frequency": 1,
+    "usage_examples": [
+      {
+        "task_id": "TEMPLATE-TASK-009",
+        "department": "LG",
+        "level": "step"
+      }
+    ],
+    "is_active": true,
+    "created_at": "2025-11-16T00:34:51.041777",
+    "created_by": "system_migration",
+    "version": "1.0"
+  },
+  {
+    "id": "RESP-LG-044",
+    "primary_phrase": "export domains",
+    "action_variants": [
+      "export"
+    ],
+    "object_variants": [
+      "export and clean domain list"
+    ],
+    "action_base": "export",
+    "object_base": "domains",
+    "departments": [
+      "LG"
+    ],
+    "primary_department": "LG",
+    "typical_tools": [],
+    "object_types": [],
+    "description": "Export domains",
+    "frequency": 1,
+    "usage_examples": [
+      {
+        "task_id": "TEMPLATE-TASK-009",
+        "department": "LG",
+        "level": "step"
+      }
+    ],
+    "is_active": true,
+    "created_at": "2025-11-16T00:34:51.041781",
+    "created_by": "system_migration",
+    "version": "1.0"
+  },
+  {
+    "id": "RESP-LG-045",
+    "primary_phrase": "upload to instantly.ai campaign",
+    "action_variants": [
+      "upload"
+    ],
+    "object_variants": [
+      "upload to instantly.ai campaign"
+    ],
+    "action_base": "upload",
+    "object_base": "to instantly.ai campaign",
+    "departments": [
+      "LG"
+    ],
+    "primary_department": "LG",
+    "typical_tools": [],
+    "object_types": [],
+    "description": "Upload to instantly.ai campaign",
+    "frequency": 1,
+    "usage_examples": [
+      {
+        "task_id": "TEMPLATE-TASK-019",
+        "department": "LG",
+        "level": "step"
+      }
+    ],
+    "is_active": true,
+    "created_at": "2025-11-16T00:34:51.041783",
+    "created_by": "system_migration",
+    "version": "1.0"
+  },
+  {
+    "id": "RESP-LG-046",
+    "primary_phrase": "configure enrichment settings",
+    "action_variants": [
+      "configure"
+    ],
+    "object_variants": [
+      "configure enrichment settings"
+    ],
+    "action_base": "configure",
+    "object_base": "enrichment settings",
+    "departments": [
+      "LG"
+    ],
+    "primary_department": "LG",
+    "typical_tools": [],
+    "object_types": [],
+    "description": "Configure enrichment settings",
+    "frequency": 1,
+    "usage_examples": [
+      {
+        "task_id": "TEMPLATE-TASK-019",
+        "department": "LG",
+        "level": "step"
+      }
+    ],
+    "is_active": true,
+    "created_at": "2025-11-16T00:34:51.041786",
+    "created_by": "system_migration",
+    "version": "1.0"
+  },
+  {
+    "id": "RESP-LG-047",
+    "primary_phrase": "execute run enrichment within instantly.ai",
+    "action_variants": [
+      "execute"
+    ],
+    "object_variants": [
+      "run enrichment within instantly.ai"
+    ],
+    "action_base": "execute",
+    "object_base": "run enrichment within instantly.ai",
+    "departments": [
+      "LG"
+    ],
+    "primary_department": "LG",
+    "typical_tools": [],
+    "object_types": [],
+    "description": "Execute run enrichment within instantly.ai",
+    "frequency": 1,
+    "usage_examples": [
+      {
+        "task_id": "TEMPLATE-TASK-019",
+        "department": "LG",
+        "level": "step"
+      }
+    ],
+    "is_active": true,
+    "created_at": "2025-11-16T00:34:51.041789",
+    "created_by": "system_migration",
+    "version": "1.0"
+  },
+  {
+    "id": "RESP-LG-048",
+    "primary_phrase": "review contacts",
+    "action_variants": [
+      "review"
+    ],
+    "object_variants": [
+      "review enriched contacts"
+    ],
+    "action_base": "review",
+    "object_base": "contacts",
+    "departments": [
+      "LG"
+    ],
+    "primary_department": "LG",
+    "typical_tools": [],
+    "object_types": [],
+    "description": "Review contacts",
+    "frequency": 1,
+    "usage_examples": [
+      {
+        "task_id": "TEMPLATE-TASK-019",
+        "department": "LG",
+        "level": "step"
+      }
+    ],
+    "is_active": true,
+    "created_at": "2025-11-16T00:34:51.041791",
+    "created_by": "system_migration",
+    "version": "1.0"
+  },
+  {
+    "id": "RESP-LG-049",
+    "primary_phrase": "launch emails",
+    "action_variants": [
+      "launch"
+    ],
+    "object_variants": [
+      "launch email campaign (optional)"
+    ],
+    "action_base": "launch",
+    "object_base": "emails",
+    "departments": [
+      "LG"
+    ],
+    "primary_department": "LG",
+    "typical_tools": [],
+    "object_types": [],
+    "description": "Launch emails",
+    "frequency": 1,
+    "usage_examples": [
+      {
+        "task_id": "TEMPLATE-TASK-019",
+        "department": "LG",
+        "level": "step"
+      }
+    ],
+    "is_active": true,
+    "created_at": "2025-11-16T00:34:51.041793",
+    "created_by": "system_migration",
+    "version": "1.0"
+  },
+  {
+    "id": "RESP-LG-050",
+    "primary_phrase": "scrape linkedin job postings",
+    "action_variants": [
+      "scrape"
+    ],
+    "object_variants": [
+      "linkedin job postings"
+    ],
+    "action_base": "scrape",
+    "object_base": "linkedin job postings",
+    "departments": [
+      "LG"
+    ],
+    "primary_department": "LG",
+    "typical_tools": [],
+    "object_types": [],
+    "description": "Scrape linkedin job postings",
+    "frequency": 1,
+    "usage_examples": [
+      {
+        "task_id": "TEMPLATE-TASK-017",
+        "department": "LG",
+        "level": "task"
+      }
+    ],
+    "is_active": true,
+    "created_at": "2025-11-16T00:34:51.041795",
+    "created_by": "system_migration",
+    "version": "1.0"
+  },
+  {
+    "id": "RESP-LG-051",
+    "primary_phrase": "define define job search criteria indicating intent",
+    "action_variants": [
+      "define"
+    ],
+    "object_variants": [
+      "define job search criteria indicating intent"
+    ],
+    "action_base": "define",
+    "object_base": "define job search criteria indicating intent",
+    "departments": [
+      "LG"
+    ],
+    "primary_department": "LG",
+    "typical_tools": [],
+    "object_types": [],
+    "description": "Define define job search criteria indicating intent",
+    "frequency": 1,
+    "usage_examples": [
+      {
+        "task_id": "TEMPLATE-TASK-017",
+        "department": "LG",
+        "level": "step"
+      }
+    ],
+    "is_active": true,
+    "created_at": "2025-11-16T00:34:51.041798",
+    "created_by": "system_migration",
+    "version": "1.0"
+  },
+  {
+    "id": "RESP-LG-052",
+    "primary_phrase": "configure apify linkedin jobs scraper",
+    "action_variants": [
+      "configure"
+    ],
+    "object_variants": [
+      "configure apify linkedin jobs scraper"
+    ],
+    "action_base": "configure",
+    "object_base": "apify linkedin jobs scraper",
+    "departments": [
+      "LG"
+    ],
+    "primary_department": "LG",
+    "typical_tools": [],
+    "object_types": [],
+    "description": "Configure apify linkedin jobs scraper",
+    "frequency": 1,
+    "usage_examples": [
+      {
+        "task_id": "TEMPLATE-TASK-017",
+        "department": "LG",
+        "level": "step"
+      }
+    ],
+    "is_active": true,
+    "created_at": "2025-11-16T00:34:51.041800",
+    "created_by": "system_migration",
+    "version": "1.0"
+  },
+  {
+    "id": "RESP-LG-053",
+    "primary_phrase": "scrape run apify jobs scraper",
+    "action_variants": [
+      "scrape"
+    ],
+    "object_variants": [
+      "run apify jobs scraper"
+    ],
+    "action_base": "scrape",
+    "object_base": "run apify jobs scraper",
+    "departments": [
+      "LG"
+    ],
+    "primary_department": "LG",
+    "typical_tools": [],
+    "object_types": [],
+    "description": "Scrape run apify jobs scraper",
+    "frequency": 1,
+    "usage_examples": [
+      {
+        "task_id": "TEMPLATE-TASK-017",
+        "department": "LG",
+        "level": "step"
+      }
+    ],
+    "is_active": true,
+    "created_at": "2025-11-16T00:34:51.041802",
+    "created_by": "system_migration",
+    "version": "1.0"
+  },
+  {
+    "id": "RESP-LG-054",
+    "primary_phrase": "extract extract and deduplicate company list",
+    "action_variants": [
+      "extract"
+    ],
+    "object_variants": [
+      "extract and deduplicate company list"
+    ],
+    "action_base": "extract",
+    "object_base": "extract and deduplicate company list",
+    "departments": [
+      "LG"
+    ],
+    "primary_department": "LG",
+    "typical_tools": [],
+    "object_types": [],
+    "description": "Extract extract and deduplicate company list",
+    "frequency": 1,
+    "usage_examples": [
+      {
+        "task_id": "TEMPLATE-TASK-017",
+        "department": "LG",
+        "level": "step"
+      }
+    ],
+    "is_active": true,
+    "created_at": "2025-11-16T00:34:51.041805",
+    "created_by": "system_migration",
+    "version": "1.0"
+  },
+  {
+    "id": "RESP-LG-055",
+    "primary_phrase": "research domains",
+    "action_variants": [
+      "research"
+    ],
+    "object_variants": [
+      "research company domains"
+    ],
+    "action_base": "research",
+    "object_base": "domains",
+    "departments": [
+      "LG"
+    ],
+    "primary_department": "LG",
+    "typical_tools": [],
+    "object_types": [],
+    "description": "Research domains",
+    "frequency": 1,
+    "usage_examples": [
+      {
+        "task_id": "TEMPLATE-TASK-017",
+        "department": "LG",
+        "level": "step"
+      }
+    ],
+    "is_active": true,
+    "created_at": "2025-11-16T00:34:51.041807",
+    "created_by": "system_migration",
+    "version": "1.0"
+  },
+  {
+    "id": "RESP-LG-056",
+    "primary_phrase": "upload companies",
+    "action_variants": [
+      "upload"
+    ],
+    "object_variants": [
+      "upload companies to anymailfinder for enrichment"
+    ],
+    "action_base": "upload",
+    "object_base": "companies",
+    "departments": [
+      "LG"
+    ],
+    "primary_department": "LG",
+    "typical_tools": [],
+    "object_types": [],
+    "description": "Upload companies",
+    "frequency": 1,
+    "usage_examples": [
+      {
+        "task_id": "TEMPLATE-TASK-017",
+        "department": "LG",
+        "level": "step"
+      }
+    ],
+    "is_active": true,
+    "created_at": "2025-11-16T00:34:51.041809",
+    "created_by": "system_migration",
+    "version": "1.0"
+  },
+  {
+    "id": "RESP-LG-057",
+    "primary_phrase": "enrich run targeted enrichment",
+    "action_variants": [
+      "enrich"
+    ],
+    "object_variants": [
+      "run targeted enrichment for decision-makers"
+    ],
+    "action_base": "enrich",
+    "object_base": "run targeted enrichment",
+    "departments": [
+      "LG"
+    ],
+    "primary_department": "LG",
+    "typical_tools": [],
+    "object_types": [],
+    "description": "Enrich run targeted enrichment",
+    "frequency": 1,
+    "usage_examples": [
+      {
+        "task_id": "TEMPLATE-TASK-017",
+        "department": "LG",
+        "level": "step"
+      }
+    ],
+    "is_active": true,
+    "created_at": "2025-11-16T00:34:51.041811",
+    "created_by": "system_migration",
+    "version": "1.0"
+  },
+  {
+    "id": "RESP-LG-058",
+    "primary_phrase": "export with job posting context",
+    "action_variants": [
+      "export"
+    ],
+    "object_variants": [
+      "export with job posting context"
+    ],
+    "action_base": "export",
+    "object_base": "with job posting context",
+    "departments": [
+      "LG"
+    ],
+    "primary_department": "LG",
+    "typical_tools": [],
+    "object_types": [],
+    "description": "Export with job posting context",
+    "frequency": 1,
+    "usage_examples": [
+      {
+        "task_id": "TEMPLATE-TASK-017",
+        "department": "LG",
+        "level": "step"
+      }
+    ],
+    "is_active": true,
+    "created_at": "2025-11-16T00:34:51.041813",
+    "created_by": "system_migration",
+    "version": "1.0"
+  },
+  {
+    "id": "RESP-LG-059",
+    "primary_phrase": "extract leads",
+    "action_variants": [
+      "extract"
+    ],
+    "object_variants": [
+      "linkedin leads"
+    ],
+    "action_base": "extract",
+    "object_base": "leads",
+    "departments": [
+      "LG"
+    ],
+    "primary_department": "LG",
+    "typical_tools": [],
+    "object_types": [],
+    "description": "Extract leads",
+    "frequency": 1,
+    "usage_examples": [
+      {
+        "task_id": "TEMPLATE-TASK-004",
+        "department": "LG",
+        "level": "task"
+      }
+    ],
+    "is_active": true,
+    "created_at": "2025-11-16T00:34:51.041815",
+    "created_by": "system_migration",
+    "version": "1.0"
+  },
+  {
+    "id": "RESP-LG-060",
+    "primary_phrase": "create targeted search",
+    "action_variants": [
+      "create"
+    ],
+    "object_variants": [
+      "create targeted search in linkedin sales navigator"
+    ],
+    "action_base": "create",
+    "object_base": "targeted search",
+    "departments": [
+      "LG"
+    ],
+    "primary_department": "LG",
+    "typical_tools": [],
+    "object_types": [],
+    "description": "Create targeted search",
+    "frequency": 1,
+    "usage_examples": [
+      {
+        "task_id": "TEMPLATE-TASK-004",
+        "department": "LG",
+        "level": "step"
+      }
+    ],
+    "is_active": true,
+    "created_at": "2025-11-16T00:34:51.041817",
+    "created_by": "system_migration",
+    "version": "1.0"
+  },
+  {
+    "id": "RESP-LG-061",
+    "primary_phrase": "extract extract li_at cookie",
+    "action_variants": [
+      "extract"
+    ],
+    "object_variants": [
+      "extract li_at cookie from browser"
+    ],
+    "action_base": "extract",
+    "object_base": "extract li_at cookie",
+    "departments": [
+      "LG"
+    ],
+    "primary_department": "LG",
+    "typical_tools": [],
+    "object_types": [],
+    "description": "Extract extract li_at cookie",
+    "frequency": 1,
+    "usage_examples": [
+      {
+        "task_id": "TEMPLATE-TASK-004",
+        "department": "LG",
+        "level": "step"
+      }
+    ],
+    "is_active": true,
+    "created_at": "2025-11-16T00:34:51.041821",
+    "created_by": "system_migration",
+    "version": "1.0"
+  },
+  {
+    "id": "RESP-LG-062",
+    "primary_phrase": "configure vayne scraper",
+    "action_variants": [
+      "configure"
+    ],
+    "object_variants": [
+      "configure vayne scraper with search url and cookie"
+    ],
+    "action_base": "configure",
+    "object_base": "vayne scraper",
+    "departments": [
+      "LG"
+    ],
+    "primary_department": "LG",
+    "typical_tools": [],
+    "object_types": [],
+    "description": "Configure vayne scraper",
+    "frequency": 1,
+    "usage_examples": [
+      {
+        "task_id": "TEMPLATE-TASK-004",
+        "department": "LG",
+        "level": "step"
+      }
+    ],
+    "is_active": true,
+    "created_at": "2025-11-16T00:34:51.041823",
+    "created_by": "system_migration",
+    "version": "1.0"
+  },
+  {
+    "id": "RESP-LG-063",
+    "primary_phrase": "scrape profiles",
+    "action_variants": [
+      "scrape"
+    ],
+    "object_variants": [
+      "run vayne scraper to extract profiles"
+    ],
+    "action_base": "scrape",
+    "object_base": "profiles",
+    "departments": [
+      "LG"
+    ],
+    "primary_department": "LG",
+    "typical_tools": [],
+    "object_types": [],
+    "description": "Scrape profiles",
+    "frequency": 1,
+    "usage_examples": [
+      {
+        "task_id": "TEMPLATE-TASK-004",
+        "department": "LG",
+        "level": "step"
+      }
+    ],
+    "is_active": true,
+    "created_at": "2025-11-16T00:34:51.041825",
+    "created_by": "system_migration",
+    "version": "1.0"
+  },
+  {
+    "id": "RESP-LG-064",
+    "primary_phrase": "import profiles",
+    "action_variants": [
+      "import"
+    ],
+    "object_variants": [
+      "import profiles to anymailfinder for enrichment"
+    ],
+    "action_base": "import",
+    "object_base": "profiles",
+    "departments": [
+      "LG"
+    ],
+    "primary_department": "LG",
+    "typical_tools": [],
+    "object_types": [],
+    "description": "Import profiles",
+    "frequency": 1,
+    "usage_examples": [
+      {
+        "task_id": "TEMPLATE-TASK-004",
+        "department": "LG",
+        "level": "step"
+      }
+    ],
+    "is_active": true,
+    "created_at": "2025-11-16T00:34:51.041828",
+    "created_by": "system_migration",
+    "version": "1.0"
+  }
+]

@@ -1,0 +1,35 @@
+{
+  "entity_type": "TASK_MANAGERS",
+  "sub_entity": "Step_Template",
+  "step_id": "VIDEO-VIDEO-004-08",
+  "step_number": 8,
+  "parent_task": "TASK-TEMPLATE-VIDEO-004",
+  "task_name": "Master Unified Platform Workflow for Video Generation",
+  "name": "Optional: Use Nano Banana for image modifications",
+  "action": "modify",
+  "tool": "TOOL-AI-046 (Nano Banana)",
+  "responsibility": "Video Producer",
+  "placement": "OpenArt - Image section",
+  "duration": "3-5 minutes (if needed)",
+  "dependencies": [
+    4,
+    6,
+    7
+  ],
+  "inputs": [
+    "Any generated image needing modification"
+  ],
+  "outputs": [
+    "Modified images (background changes, rotations, variations)"
+  ],
+  "success_criteria": "Image modifications align with video requirements",
+  "implementation_notes": "Image modifications align with video requirements - Implementation details based on the Master Unified Platform Workflow for Video Generation workflow.",
+  "tags": [
+    "optional",
+    "template-task-video-004"
+  ],
+  "version": "1.0",
+  "created": "2025-11-15",
+  "last_updated": "2025-11-15",
+  "source": "Video_012"
+}

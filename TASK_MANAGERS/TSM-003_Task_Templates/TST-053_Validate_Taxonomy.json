@@ -1,0 +1,96 @@
+{
+  "entity_type": "TASK_MANAGERS",
+  "sub_entity": "Task_Template",
+  "template_id": "Task-Template-053",
+  "version": "1.0",
+  "created_date": "2025-11-17",
+  "last_updated": "2025-11-17",
+  "metadata": {
+    "name": "Validate Extracted Taxonomy Data",
+    "description": "Validate all extracted taxonomy data against v3.2 naming conventions and format requirements",
+    "action": "Validate",
+    "object": "Taxonomy Data",
+    "context": "against v3.2 naming conventions and format requirements",
+    "department": "All departments (cross-functional)",
+    "complexity": "Low",
+    "estimated_duration": "5-10 minutes",
+    "skill_level_required": "Beginner",
+    "tools_required": [
+      "Extracted taxonomy document",
+      "Validation checklist from v3.2",
+      "Naming convention rules reference"
+    ],
+    "prerequisites": [
+      "TASK-TEMPLATE-VIDEO-003 completed",
+      "All taxonomy sections extracted"
+    ]
+  },
+  "workflow": {
+    "phase": 2,
+    "milestone": "MIL-PROJ-VIDEO-001-002",
+    "project_template": "Project-Template-008",
+    "dependencies": [
+      "TASK-TEMPLATE-VIDEO-003"
+    ],
+    "outputs": [
+      "Validated taxonomy document",
+      "Naming corrections applied",
+      "Format validation passed",
+      "Quality check completed",
+      "Document ready for Stage 3"
+    ]
+  },
+  "steps": [
+    {
+      "step_number": 1,
+      "step_name": "Validate naming conventions",
+      "description": "Check all task/step names are ALL_CAPS, skills are lowercase with tools",
+      "estimated_time": "2-3 minutes",
+      "tools": [],
+      "output": "Naming convention validation report"
+    },
+    {
+      "step_number": 2,
+      "step_name": "Validate format",
+      "description": "Ensure markdown format (.md NOT JSON), all 14 sections present, proper structure",
+      "estimated_time": "2-3 minutes",
+      "tools": [],
+      "output": "Format validation passed"
+    },
+    {
+      "step_number": 3,
+      "step_name": "Apply corrections",
+      "description": "Fix any naming or format issues identified during validation",
+      "estimated_time": "1-4 minutes",
+      "tools": [
+        "Text editor"
+      ],
+      "output": "All corrections applied, document validated"
+    }
+  ],
+  "quality_checklist": [
+    "Markdown format (.md) NOT JSON - CRITICAL",
+    "All 14 sections present and populated",
+    "Task names: ALL_CAPS with ACTION_OBJECT_CONTEXT pattern",
+    "Step names: ALL_CAPS with ACTION_OBJECT_DETAIL pattern",
+    "Skills: lowercase with 'via [tool]' format",
+    "No character corruption ($ symbols as words if needed)",
+    "UTF-8 encoding verified",
+    "All required fields populated",
+    "Cross-references correct",
+    "Ready for library integration (Stage 3)"
+  ],
+  "related_entities": {
+    "methodology": "ENTITIES/PROMPTS/Video_Processing/Complete_Video_Workflow_Full_Instructions.md",
+    "short_guide": "ENTITIES/PROMPTS/Video_Processing/Short Complete Video Workflow.md",
+    "project_template": "Project-Template-008",
+    "milestone": "MIL-PROJ-VIDEO-001-002",
+    "previous_task": "TASK-TEMPLATE-VIDEO-003",
+    "next_task": "TASK-TEMPLATE-VIDEO-005",
+    "step_templates": [
+      "STEP-VIDEO-004-01",
+      "STEP-VIDEO-004-02",
+      "STEP-VIDEO-004-03"
+    ]
+  }
+}

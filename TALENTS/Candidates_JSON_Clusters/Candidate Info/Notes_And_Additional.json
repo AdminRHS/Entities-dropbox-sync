@@ -1,0 +1,27 @@
+{
+  "template_name": "Notes_And_Additional",
+  "description": "Notes and additional administrative information fields",
+  "fields": {
+    "note": {
+      "type": "str",
+      "description": "Field: note",
+      "example": "Traffic manager"
+    },
+    "note_admin": {
+      "type": "NoneType",
+      "description": "Field: note_admin",
+      "example": null
+    },
+    "note_team_lead": {
+      "type": "NoneType",
+      "description": "Field: note_team_lead",
+      "example": null
+    },
+    "admin_name_id": {
+      "type": "NoneType",
+      "description": "Field: admin_name_id",
+      "example": null
+    }
+  }
+}
+

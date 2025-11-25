@@ -1,0 +1,133 @@
+{
+  "entity_type": "LIBRARIES",
+  "sub_entity": "Tool",
+  "tool_id": "TOOL-AI-030",
+  "name": "Claude Desktop App",
+  "vendor": "Anthropic",
+  "category": "AI Tools / Application",
+  "purpose": "Local desktop application for Claude AI with MCP connector support",
+  "description": "Desktop application interface for Claude AI that enables running custom local MCP (Model Context Protocol) connectors. Provides full read/write/send access to connected applications like Gmail, Google Calendar, CRM, and custom services. Supports the MCP Builder skill for generating connectors with simple two-sentence prompts.",
+  "skill_level_required": "Intermediate",
+  "cost_structure": "Free application, requires Claude API subscription",
+  "platform_compatibility": [
+    "Desktop (Windows/Mac/Linux)",
+    "Local deployment"
+  ],
+  "integration_capabilities": [
+    "MCP connector support (Model Context Protocol)",
+    "Gmail integration (read/write/send)",
+    "Google Calendar integration (read/write/delete)",
+    "CRM integration (custom)",
+    "Local MCP server deployment",
+    "Claude Skills support (mcp-builder)",
+    "Stacked connector automation",
+    "Custom application connectors"
+  ],
+  "documentation_url": "https://claude.ai/download",
+  "actual_remote_helpers_usage": {
+    "primary_use": "AI Automation Platform with Custom App Connectors",
+    "users": [
+      "AI Engineer",
+      "Automation Specialist",
+      "Backend Developer",
+      "Product Manager",
+      "Sales Operations"
+    ],
+    "use_cases": [
+      "automate email drafting and sending",
+      "update CRM automatically after meetings",
+      "create calendar events from conversations",
+      "build custom no-code app connectors",
+      "stack multiple connectors for complex workflows",
+      "integrate Claude with any application",
+      "automate repetitive communication tasks"
+    ],
+    "workflows": [
+      "Automated Morning Email Drafting (30-60 min saved/day)",
+      "Newsletter Subscriber Auto-Reply (20-25 emails every 3-5 days)",
+      "Stacked Connector Automation: Post-Meeting Workflow (15 hours/week saved)",
+      "Simple Setup Process for Local Connectors (5 min deployment)"
+    ],
+    "typical_workflow_pattern": [
+      {
+        "task": "Enable Claude Skills and MCP Support",
+        "steps": [
+          "Install Claude Desktop App",
+          "Enable Claude Skills feature in settings",
+          "Activate mcp-builder skill",
+          "Verify skill is available"
+        ],
+        "complexity": "Low",
+        "time_estimate": "1-2 minutes",
+        "prerequisites": ["Claude subscription"]
+      },
+      {
+        "task": "Automated Morning Email Drafting",
+        "steps": [
+          "Connect Gmail MCP connector",
+          "Claude reads unread emails",
+          "Claude drafts responses based on context",
+          "User reviews and sends drafts",
+          "Saves 30-60 min/day"
+        ],
+        "complexity": "Medium",
+        "time_estimate": "5-10 min setup, then automated",
+        "time_saved": "30-60 minutes per day"
+      }
+    ],
+    "integration_with_other_tools": [
+      "MCP Builder skill (connector generation)",
+      "Gmail (via MCP connector)",
+      "Google Calendar (via MCP connector)",
+      "Airtable/CRM (via custom MCP)",
+      "Cursor (code editor for local setup)",
+      "Google Cloud Console (API credentials)",
+      "Any custom application (via generated MCP)"
+    ]
+  },
+  "strengths": [
+    "Local-first deployment (privacy and control)",
+    "Full read/write/send access (vs read-only)",
+    "Two-sentence prompts create connectors",
+    "No-code connector generation",
+    "Stacked connector capability for complex automation",
+    "Time savings: 15 hours/week possible",
+    "Works with any application via MCP",
+    "Free application (just need Claude subscription)"
+  ],
+  "limitations": [
+    "Requires local installation and setup",
+    "Some connectors need Google Cloud credentials",
+    "Learning curve for MCP configuration",
+    "Limited to desktop platform (not mobile)",
+    "Requires Sonnet 4.5 model for best results"
+  ],
+  "time_savings_metrics": {
+    "morning_email_drafting": "30-60 minutes per day",
+    "newsletter_replies": "2-3 hours per week",
+    "post_meeting_automation": "15 hours per week",
+    "total_potential": "15+ hours per week"
+  },
+  "departments_using": [
+    "AI",
+    "Dev",
+    "Sales",
+    "Marketing",
+    "OPS"
+  ],
+  "tags": [
+    "desktop-app",
+    "mcp-connectors",
+    "automation",
+    "no-code",
+    "ai-integration",
+    "email-automation",
+    "calendar-integration",
+    "local-deployment",
+    "productivity"
+  ],
+  "discovery_date": "2025-11-12",
+  "discovery_source": "Video_008_MCP_Connector_Tutorial",
+  "status": "active",
+  "recommended_model": "Sonnet 4.5"
+}

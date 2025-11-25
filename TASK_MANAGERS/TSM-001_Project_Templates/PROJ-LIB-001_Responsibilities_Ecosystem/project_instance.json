@@ -1,0 +1,246 @@
+{
+  "project_id": "PROJ-LIB-001",
+  "project_name": "Responsibilities Ecosystem Integration Test",
+  "description": "Test project to validate the Responsibilities ecosystem integration, parameter mapping, and Task Manager logging architecture",
+  "created_date": "2025-11-17",
+  "status": "active",
+  "department": "LIBRARIES",
+  "category": "System Integration Testing",
+  "priority": "high",
+  "success_criteria": [
+    "All responsibilities successfully integrated into unified ecosystem",
+    "Parameter-object mappings validated and accessible",
+    "Actions, Objects, and Parameters properly nested under Responsibilities",
+    "All 6 log files (Setup, Progress, Issues, Decisions, Statistics, Completion) functioning correctly",
+    "Milestone tracking and progress reporting operational",
+    "Department-specific responsibility views validated"
+  ],
+  "milestones": [
+    {
+      "milestone_id": "M1",
+      "milestone_name": "Validate Basic Responsibility Lookup",
+      "description": "Test that responsibilities can be looked up from the new Core/ location using responsibilities_master.json and phrase_matching_index.json",
+      "status": "completed",
+      "start_date": "2025-11-17",
+      "completion_date": "2025-11-17",
+      "tasks": [
+        {
+          "task_id": "M1-T1",
+          "task_name": "Verify responsibilities_master.json accessibility",
+          "responsibility_id": "RESP-DEV-008",
+          "status": "completed"
+        },
+        {
+          "task_id": "M1-T2",
+          "task_name": "Test phrase matching with action_variants_map.json",
+          "responsibility_id": "RESP-DEV-008",
+          "status": "completed"
+        },
+        {
+          "task_id": "M1-T3",
+          "task_name": "Validate object_variants_map.json integration",
+          "responsibility_id": "RESP-DEV-008",
+          "status": "completed"
+        }
+      ]
+    },
+    {
+      "milestone_id": "M2",
+      "milestone_name": "Validate Parameter-Object Integration",
+      "description": "Test parameter_object_mapping.json to ensure parameters correctly map to object types and states",
+      "status": "completed",
+      "start_date": "2025-11-17",
+      "completion_date": "2025-11-17",
+      "tasks": [
+        {
+          "task_id": "M2-T1",
+          "task_name": "Test state-based parameter mappings (473 mappings)",
+          "responsibility_id": "RESP-DEV-008",
+          "status": "completed"
+        },
+        {
+          "task_id": "M2-T2",
+          "task_name": "Verify quality-based parameters (6,848 metrics)",
+          "responsibility_id": "RESP-DEV-008",
+          "status": "completed"
+        },
+        {
+          "task_id": "M2-T3",
+          "task_name": "Validate parameter_views_by_profession.json",
+          "responsibility_id": "RESP-DEV-008",
+          "status": "completed"
+        }
+      ]
+    },
+    {
+      "milestone_id": "M3",
+      "milestone_name": "Validate Department Views",
+      "description": "Test that department-specific responsibility files are accessible from Core/By_Department/",
+      "status": "completed",
+      "start_date": "2025-11-17",
+      "completion_date": "2025-11-17",
+      "tasks": [
+        {
+          "task_id": "M3-T1",
+          "task_name": "Test AI_Responsibilities.json (80 responsibilities)",
+          "responsibility_id": "RESP-AI-002",
+          "status": "completed"
+        },
+        {
+          "task_id": "M3-T2",
+          "task_name": "Test LG_Responsibilities.json (64 responsibilities)",
+          "responsibility_id": "RESP-LG-010",
+          "status": "completed"
+        },
+        {
+          "task_id": "M3-T3",
+          "task_name": "Test DEV_Responsibilities.json (34 responsibilities)",
+          "responsibility_id": "RESP-DEV-002",
+          "status": "completed"
+        },
+        {
+          "task_id": "M3-T4",
+          "task_name": "Test HR_Responsibilities.json (6 responsibilities)",
+          "responsibility_id": "RESP-HR-001",
+          "status": "completed"
+        }
+      ]
+    },
+    {
+      "milestone_id": "M4",
+      "milestone_name": "Validate Ecosystem Structure",
+      "description": "Confirm all directories moved correctly: Actions (27 files), Objects (13 files), Parameters (15 files)",
+      "status": "completed",
+      "start_date": "2025-11-17",
+      "completion_date": "2025-11-17",
+      "tasks": [
+        {
+          "task_id": "M4-T1",
+          "task_name": "Verify Actions/ directory (27 JSON files)",
+          "responsibility_id": "RESP-DEV-026",
+          "status": "completed"
+        },
+        {
+          "task_id": "M4-T2",
+          "task_name": "Verify Objects/ directory (13 JSON files)",
+          "responsibility_id": "RESP-DEV-026",
+          "status": "completed"
+        },
+        {
+          "task_id": "M4-T3",
+          "task_name": "Verify Parameters/ directory (15 files)",
+          "responsibility_id": "RESP-DEV-026",
+          "status": "completed"
+        }
+      ]
+    },
+    {
+      "milestone_id": "M5",
+      "milestone_name": "Validate Migration Scripts",
+      "description": "Test migrate_references.py and validate_ecosystem.py scripts function correctly",
+      "status": "completed",
+      "start_date": "2025-11-17",
+      "completion_date": "2025-11-17",
+      "tasks": [
+        {
+          "task_id": "M5-T1",
+          "task_name": "Run migrate_references.py (139 files scanned)",
+          "responsibility_id": "RESP-DEV-009",
+          "status": "completed"
+        },
+        {
+          "task_id": "M5-T2",
+          "task_name": "Run validate_ecosystem.py (26 successes)",
+          "responsibility_id": "RESP-DEV-008",
+          "status": "completed"
+        },
+        {
+          "task_id": "M5-T3",
+          "task_name": "Fix identified issues (UTF-8 BOM)",
+          "responsibility_id": "RESP-DEV-034",
+          "status": "completed"
+        }
+      ]
+    },
+    {
+      "milestone_id": "M6",
+      "milestone_name": "Test Logging Architecture",
+      "description": "Validate that all 6 project log files can be created and updated correctly",
+      "status": "in_progress",
+      "start_date": "2025-11-17",
+      "tasks": [
+        {
+          "task_id": "M6-T1",
+          "task_name": "Create 00_Setup_Log.md",
+          "responsibility_id": "RESP-AI-004",
+          "status": "in_progress"
+        },
+        {
+          "task_id": "M6-T2",
+          "task_name": "Create 01_Progress_Log.md",
+          "responsibility_id": "RESP-AI-004",
+          "status": "pending"
+        },
+        {
+          "task_id": "M6-T3",
+          "task_name": "Create 02_Issues_Log.md",
+          "responsibility_id": "RESP-AI-004",
+          "status": "pending"
+        },
+        {
+          "task_id": "M6-T4",
+          "task_name": "Create 03_Decisions_Log.md",
+          "responsibility_id": "RESP-AI-004",
+          "status": "pending"
+        },
+        {
+          "task_id": "M6-T5",
+          "task_name": "Create 04_Statistics_Log.md",
+          "responsibility_id": "RESP-AI-004",
+          "status": "pending"
+        },
+        {
+          "task_id": "M6-T6",
+          "task_name": "Create 05_Completion_Report.md",
+          "responsibility_id": "RESP-AI-077",
+          "status": "pending"
+        }
+      ]
+    }
+  ],
+  "kpis": {
+    "total_milestones": 6,
+    "completed_milestones": 5,
+    "in_progress_milestones": 1,
+    "total_tasks": 21,
+    "completed_tasks": 15,
+    "in_progress_tasks": 1,
+    "pending_tasks": 5,
+    "completion_percentage": 71.4,
+    "total_responsibilities_integrated": 220,
+    "departments_covered": 8,
+    "parameter_mappings_created": 7321,
+    "files_migrated": 55,
+    "validation_success_rate": 100
+  },
+  "deliverables": [
+    "Unified Responsibilities ecosystem structure",
+    "parameter_object_mapping.json (473 state-based + 6,848 quality mappings)",
+    "parameter_views_by_profession.json",
+    "migrate_references.py automation script",
+    "validate_ecosystem.py validation script",
+    "Core/ directory with 4 integration files + By_Department views",
+    "Complete project logs (6 files)",
+    "Migration statistics report"
+  ],
+  "checklist_items": [
+    "CHK-PROJ-LIB-001-001",
+    "CHK-PROJ-LIB-001-002",
+    "CHK-PROJ-LIB-001-003",
+    "CHK-PROJ-LIB-001-004",
+    "CHK-PROJ-LIB-001-005",
+    "CHK-PROJ-LIB-001-006",
+    "CHK-PROJ-LIB-001-007",
+    "CHK-PROJ-LIB-001-008"
+  ]
+}

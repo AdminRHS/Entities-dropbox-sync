@@ -1,0 +1,69 @@
+{
+  "template_name": "Candidate_Salaries",
+  "description": "Salary-related fields including expected and started salaries with currency information",
+  "fields": {
+    "expected_salary": {
+      "type": "NoneType",
+      "description": "Field: expected_salary",
+      "example": null
+    },
+    "expected_salary_currency_id": {
+      "type": "str",
+      "description": "Field: expected_salary_currency_id",
+      "example": "80"
+    },
+    "started_salary": {
+      "type": "NoneType",
+      "description": "Field: started_salary",
+      "example": null
+    },
+    "started_currency_id": {
+      "type": "str",
+      "description": "Field: started_currency_id",
+      "example": "80"
+    },
+    "expected_currency": {
+      "type": "object",
+      "fields": {
+        "expected_currency.id": {
+          "type": "int",
+          "description": "Field: id",
+          "example": 80
+        },
+        "expected_currency.currency_name": {
+          "type": "str",
+          "description": "Field: currency_name",
+          "example": "Hryvnia"
+        },
+        "expected_currency.currency_symbol": {
+          "type": "str",
+          "description": "Field: currency_symbol",
+          "example": "₴"
+        }
+      },
+      "description": "Nested object: expected_currency"
+    },
+    "started_currency": {
+      "type": "object",
+      "fields": {
+        "started_currency.id": {
+          "type": "int",
+          "description": "Field: id",
+          "example": 80
+        },
+        "started_currency.currency_name": {
+          "type": "str",
+          "description": "Field: currency_name",
+          "example": "Hryvnia"
+        },
+        "started_currency.currency_symbol": {
+          "type": "str",
+          "description": "Field: currency_symbol",
+          "example": "₴"
+        }
+      },
+      "description": "Nested object: started_currency"
+    }
+  }
+}
+

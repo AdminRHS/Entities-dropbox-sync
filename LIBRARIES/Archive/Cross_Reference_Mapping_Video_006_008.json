@@ -1,0 +1,433 @@
+{
+  "entity_type": "LIBRARIES",
+  "document_type": "Cross_Reference_Mapping",
+  "description": "Bidirectional cross-references between all LIBRARIES entities created from Video_006 and Video_008",
+  "created": "2025-11-12",
+  "version": "1.0",
+  "sources": ["Video_006_Lead_Generation_Analysis", "Video_008_MCP_Connector_Tutorial"],
+
+  "entity_summary": {
+    "tools": 29,
+    "objects": 20,
+    "actions": 12,
+    "workflows": 20,
+    "skills": 12,
+    "professions": 10
+  },
+
+  "tools_to_workflows_mapping": {
+    "TOOL-DATA-007": {
+      "tool_name": "Anymailfinder",
+      "workflows": [
+        "WF-LG-001", "WF-LG-002", "WF-LG-003", "WF-LG-004",
+        "WF-LG-006", "WF-LG-007", "WF-LG-008", "WF-LG-009",
+        "WF-LG-010", "WF-LG-013", "WF-LG-014"
+      ],
+      "workflow_count": 11,
+      "frequency": "Most used tool in Video_006"
+    },
+    "TOOL-DEV-020": {
+      "tool_name": "Apify",
+      "workflows": [
+        "WF-LG-006", "WF-LG-007", "WF-LG-008", "WF-LG-009",
+        "WF-LG-010", "WF-LG-013", "WF-LG-014"
+      ],
+      "workflow_count": 7
+    },
+    "TOOL-AI-030": {
+      "tool_name": "Claude Desktop App",
+      "workflows": [
+        "WF-AI-001", "WF-AI-002", "WF-AI-003", "WF-AI-004",
+        "WF-AI-005", "WF-AI-006"
+      ],
+      "workflow_count": 6,
+      "frequency": "Core platform for all MCP workflows"
+    },
+    "TOOL-AUTO-001": {
+      "tool_name": "n8n",
+      "workflows": ["WF-LG-008", "WF-LG-013", "WF-LG-014"],
+      "workflow_count": 3
+    },
+    "TOOL-INT-001": {
+      "tool_name": "Gmail MCP Connector",
+      "workflows": ["WF-AI-002", "WF-AI-003", "WF-AI-004", "WF-AI-005"],
+      "workflow_count": 4
+    },
+    "TOOL-INT-002": {
+      "tool_name": "Google Calendar MCP Connector",
+      "workflows": ["WF-AI-002", "WF-AI-005"],
+      "workflow_count": 2
+    },
+    "TOOL-INT-003": {
+      "tool_name": "CRM MCP Connector",
+      "workflows": ["WF-AI-002", "WF-AI-005"],
+      "workflow_count": 2
+    }
+  },
+
+  "workflows_to_skills_mapping": {
+    "WF-LG-001": {
+      "workflow_name": "Anymailfinder Nominative Enrichment",
+      "skills_required": ["SKL-061"],
+      "professions": ["lead generator", "sdr"]
+    },
+    "WF-LG-003": {
+      "workflow_name": "LinkedIn Sales Navigator Lead Extraction",
+      "skills_required": ["SKL-061", "SKL-064"],
+      "professions": ["lead generator", "sdr"]
+    },
+    "WF-LG-006": {
+      "workflow_name": "Google SERP Lead Generation",
+      "skills_required": ["SKL-060", "SKL-061"],
+      "professions": ["lead generator", "back end developer"]
+    },
+    "WF-LG-008": {
+      "workflow_name": "AI-Powered HTML Parsing",
+      "skills_required": ["SKL-062", "SKL-063"],
+      "professions": ["back end developer", "ai engineer", "automation engineer"]
+    },
+    "WF-LG-013": {
+      "workflow_name": "Custom Niche Platform Scraping",
+      "skills_required": ["SKL-062"],
+      "professions": ["back end developer", "automation engineer"]
+    },
+    "WF-AI-002": {
+      "workflow_name": "Create Custom MCP Connector",
+      "skills_required": ["SKL-070", "SKL-071"],
+      "professions": ["ai engineer", "back end developer"]
+    },
+    "WF-AI-003": {
+      "workflow_name": "Automated Morning Email Drafting",
+      "skills_required": ["SKL-072"],
+      "professions": ["executive assistant", "customer success manager"]
+    },
+    "WF-AI-004": {
+      "workflow_name": "Newsletter Subscriber Auto-Reply System",
+      "skills_required": ["SKL-072"],
+      "professions": ["executive assistant"]
+    },
+    "WF-AI-005": {
+      "workflow_name": "Stacked Connector Post-Meeting Automation",
+      "skills_required": ["SKL-073", "SKL-074"],
+      "professions": ["operations manager", "account executive", "automation specialist"]
+    }
+  },
+
+  "skills_to_professions_mapping": {
+    "SKL-060": {
+      "skill_phrase": "scraped lead lists via Apify",
+      "professions": ["lead generator", "back end developer"],
+      "difficulty": "intermediate"
+    },
+    "SKL-061": {
+      "skill_phrase": "enriched emails via Anymailfinder",
+      "professions": ["lead generator", "sdr"],
+      "difficulty": "beginner",
+      "most_common": true
+    },
+    "SKL-062": {
+      "skill_phrase": "built enrichment pipelines via n8n",
+      "professions": ["back end developer", "automation engineer"],
+      "difficulty": "advanced"
+    },
+    "SKL-063": {
+      "skill_phrase": "parsed HTML data via OpenAI",
+      "professions": ["ai engineer", "back end developer"],
+      "difficulty": "advanced"
+    },
+    "SKL-064": {
+      "skill_phrase": "executed LinkedIn lead extraction via Vayne",
+      "professions": ["lead generator", "sdr"],
+      "difficulty": "intermediate"
+    },
+    "SKL-065": {
+      "skill_phrase": "optimized lead costs via arbitrage",
+      "professions": ["lead generator", "sales manager", "operations manager"],
+      "difficulty": "intermediate"
+    },
+    "SKL-070": {
+      "skill_phrase": "generated MCP connectors via Claude",
+      "professions": ["ai engineer", "back end developer"],
+      "difficulty": "intermediate"
+    },
+    "SKL-071": {
+      "skill_phrase": "deployed MCP connectors via Cursor",
+      "professions": ["ai engineer", "back end developer"],
+      "difficulty": "intermediate"
+    },
+    "SKL-072": {
+      "skill_phrase": "automated emails via Gmail MCP",
+      "professions": ["executive assistant", "customer success manager", "sales manager"],
+      "difficulty": "beginner"
+    },
+    "SKL-073": {
+      "skill_phrase": "configured stacked connector workflows",
+      "professions": ["operations manager", "automation specialist"],
+      "difficulty": "advanced"
+    },
+    "SKL-074": {
+      "skill_phrase": "extracted meeting insights via Claude",
+      "professions": ["operations manager", "account executive"],
+      "difficulty": "beginner"
+    },
+    "SKL-075": {
+      "skill_phrase": "configured OAuth for Google APIs",
+      "professions": ["back end developer", "ai engineer"],
+      "difficulty": "intermediate"
+    }
+  },
+
+  "professions_to_tools_mapping": {
+    "lead generator": {
+      "primary_tools": ["TOOL-DATA-007", "TOOL-BUS-002", "TOOL-DEV-020"],
+      "tool_count": 10,
+      "department": "managers"
+    },
+    "sdr": {
+      "primary_tools": ["TOOL-DATA-007", "TOOL-BUS-002", "TOOL-AUTO-004"],
+      "tool_count": 4,
+      "department": "managers"
+    },
+    "back end developer": {
+      "primary_tools": ["TOOL-AUTO-001", "TOOL-DEV-020", "TOOL-DEV-026", "TOOL-AI-030"],
+      "tool_count": 8,
+      "department": "developers"
+    },
+    "ai engineer": {
+      "primary_tools": ["TOOL-AI-030", "TOOL-AI-031", "TOOL-AI-033", "TOOL-DEV-026"],
+      "tool_count": 7,
+      "department": "developers"
+    },
+    "operations manager": {
+      "primary_tools": ["TOOL-AI-030", "TOOL-INT-001", "TOOL-INT-002", "TOOL-INT-003"],
+      "tool_count": 4,
+      "department": "managers"
+    },
+    "executive assistant": {
+      "primary_tools": ["TOOL-AI-030", "TOOL-INT-001"],
+      "tool_count": 2,
+      "department": "managers"
+    },
+    "automation engineer": {
+      "primary_tools": ["TOOL-AUTO-001", "TOOL-AUTO-002", "TOOL-DEV-020"],
+      "tool_count": 3,
+      "department": "developers"
+    }
+  },
+
+  "objects_to_workflows_mapping": {
+    "OBJ-LG-001": {
+      "object_name": "Lead List",
+      "workflows": [
+        "WF-LG-001", "WF-LG-002", "WF-LG-003", "WF-LG-006",
+        "WF-LG-007", "WF-LG-009", "WF-LG-010", "WF-LG-013"
+      ],
+      "workflow_count": 8,
+      "most_common_object": true
+    },
+    "OBJ-LG-003": {
+      "object_name": "Decision-Maker Email",
+      "workflows": [
+        "WF-LG-001", "WF-LG-002", "WF-LG-003", "WF-LG-004",
+        "WF-LG-006", "WF-LG-007", "WF-LG-008"
+      ],
+      "workflow_count": 7
+    },
+    "OBJ-AI-001": {
+      "object_name": "MCP Connector",
+      "workflows": ["WF-AI-001", "WF-AI-002", "WF-AI-006"],
+      "workflow_count": 3
+    },
+    "OBJ-AI-007": {
+      "object_name": "Email Draft",
+      "workflows": ["WF-AI-003", "WF-AI-004", "WF-AI-005"],
+      "workflow_count": 3
+    }
+  },
+
+  "actions_to_workflows_mapping": {
+    "scrape": {
+      "workflows": [
+        "WF-LG-003", "WF-LG-006", "WF-LG-007", "WF-LG-009",
+        "WF-LG-010", "WF-LG-013"
+      ],
+      "workflow_count": 6,
+      "most_common_action": true
+    },
+    "enrich": {
+      "workflows": [
+        "WF-LG-001", "WF-LG-002", "WF-LG-003", "WF-LG-004",
+        "WF-LG-006", "WF-LG-007", "WF-LG-011", "WF-LG-012"
+      ],
+      "workflow_count": 8
+    },
+    "parse": {
+      "workflows": ["WF-LG-008", "WF-LG-013"],
+      "workflow_count": 2
+    },
+    "generate": {
+      "workflows": ["WF-AI-002", "WF-AI-003", "WF-AI-004"],
+      "workflow_count": 3
+    },
+    "configure": {
+      "workflows": ["WF-AI-001", "WF-AI-005", "WF-AI-006"],
+      "workflow_count": 3
+    }
+  },
+
+  "department_to_entities_mapping": {
+    "managers": {
+      "professions": [
+        "lead generator", "sdr", "sales manager", "operations manager",
+        "executive assistant", "customer success manager", "account executive"
+      ],
+      "workflows": [
+        "WF-LG-001", "WF-LG-002", "WF-LG-003", "WF-LG-004",
+        "WF-LG-006", "WF-LG-007", "WF-LG-009", "WF-LG-010",
+        "WF-AI-003", "WF-AI-004", "WF-AI-005"
+      ],
+      "skills": ["SKL-060", "SKL-061", "SKL-064", "SKL-065", "SKL-072", "SKL-073", "SKL-074"]
+    },
+    "developers": {
+      "professions": [
+        "back end developer", "ai engineer", "automation engineer", "automation specialist"
+      ],
+      "workflows": [
+        "WF-LG-006", "WF-LG-008", "WF-LG-013",
+        "WF-AI-001", "WF-AI-002", "WF-AI-006"
+      ],
+      "skills": ["SKL-060", "SKL-062", "SKL-063", "SKL-070", "SKL-071", "SKL-073", "SKL-075"]
+    }
+  },
+
+  "workflow_complexity_mapping": {
+    "Low": {
+      "workflows": ["WF-AI-001", "WF-LG-001", "WF-LG-011", "WF-LG-012", "WF-LG-014"],
+      "count": 5
+    },
+    "Medium": {
+      "workflows": [
+        "WF-LG-002", "WF-LG-003", "WF-LG-004", "WF-LG-006", "WF-LG-007",
+        "WF-LG-009", "WF-LG-010", "WF-AI-002", "WF-AI-003", "WF-AI-004", "WF-AI-006"
+      ],
+      "count": 11
+    },
+    "High": {
+      "workflows": ["WF-LG-005", "WF-LG-008"],
+      "count": 2
+    },
+    "Very_High": {
+      "workflows": ["WF-LG-013", "WF-AI-005"],
+      "count": 2
+    }
+  },
+
+  "automation_potential_mapping": {
+    "Very_High_80_plus": {
+      "workflows": [
+        "WF-LG-003", "WF-LG-010", "WF-AI-003", "WF-AI-004", "WF-AI-005"
+      ],
+      "skills": ["SKL-061", "SKL-064", "SKL-072", "SKL-073"],
+      "count": 5
+    },
+    "High_60_80": {
+      "workflows": ["WF-LG-001", "WF-LG-002", "WF-LG-006", "WF-LG-007", "WF-AI-002", "WF-AI-006"],
+      "skills": ["SKL-062", "SKL-070", "SKL-071"],
+      "count": 6
+    },
+    "Medium_40_60": {
+      "workflows": ["WF-LG-004", "WF-LG-008", "WF-LG-009"],
+      "skills": ["SKL-065"],
+      "count": 3
+    }
+  },
+
+  "top_performers": {
+    "highest_enrichment_rate": {
+      "workflows": ["WF-LG-003", "WF-LG-010"],
+      "rate": "80-100%",
+      "tools": ["TOOL-BUS-002", "TOOL-AUTO-004"],
+      "skills": ["SKL-061", "SKL-064"]
+    },
+    "best_roi": {
+      "workflows": ["WF-LG-004"],
+      "ratio": "1:40 credit-to-email",
+      "tools": ["TOOL-DATA-008", "TOOL-DATA-007"],
+      "skills": ["SKL-065"]
+    },
+    "greatest_time_savings": {
+      "workflows": ["WF-AI-005"],
+      "savings": "15+ hours per week",
+      "tools": ["TOOL-AI-030", "TOOL-INT-001", "TOOL-INT-002", "TOOL-INT-003"],
+      "skills": ["SKL-073", "SKL-074"]
+    },
+    "fastest_generation": {
+      "workflows": ["WF-AI-002"],
+      "time": "30-60 seconds",
+      "tools": ["TOOL-AI-031"],
+      "skills": ["SKL-070"]
+    }
+  },
+
+  "integration_pathways": {
+    "lead_generation_stack": {
+      "path": "Scrape (Apify) → Enrich (Anymailfinder) → Feed (Instantly.ai)",
+      "tools": ["TOOL-DEV-020", "TOOL-DATA-007", "TOOL-BUS-003"],
+      "workflows": ["WF-LG-006", "WF-LG-001", "WF-LG-012"],
+      "skills": ["SKL-060", "SKL-061"]
+    },
+    "mcp_automation_stack": {
+      "path": "Generate (MCP Builder) → Deploy (Cursor) → Automate (Claude Desktop)",
+      "tools": ["TOOL-AI-031", "TOOL-DEV-026", "TOOL-AI-030"],
+      "workflows": ["WF-AI-002", "WF-AI-006", "WF-AI-003"],
+      "skills": ["SKL-070", "SKL-071", "SKL-072"]
+    },
+    "advanced_enrichment_stack": {
+      "path": "Scrape (Custom) → Parse (OpenAI) → Build Pipeline (n8n)",
+      "tools": ["TOOL-DEV-020", "TOOL-AI-034", "TOOL-AUTO-001"],
+      "workflows": ["WF-LG-013", "WF-LG-008"],
+      "skills": ["SKL-062", "SKL-063"]
+    }
+  },
+
+  "cost_efficiency_mapping": {
+    "most_cost_effective": {
+      "workflows": ["WF-LG-001", "WF-LG-004", "WF-LG-011", "WF-LG-012"],
+      "cost_per_lead": "$0.0025",
+      "tools": ["TOOL-DATA-007", "TOOL-DATA-009"]
+    },
+    "premium_quality": {
+      "workflows": ["WF-LG-003"],
+      "cost_per_lead": "$0.10-0.15",
+      "value": "80-100% enrichment success",
+      "tools": ["TOOL-BUS-002", "TOOL-AUTO-004"]
+    }
+  },
+
+  "skill_progression_paths": {
+    "beginner_to_intermediate_lg": {
+      "path": "Email Enrichment → LinkedIn Extraction → Web Scraping",
+      "skills": ["SKL-061", "SKL-064", "SKL-060"],
+      "professions": ["sdr", "lead generator"]
+    },
+    "beginner_to_advanced_ai": {
+      "path": "Email Automation → MCP Connectors → Stacked Workflows",
+      "skills": ["SKL-072", "SKL-070", "SKL-071", "SKL-073"],
+      "professions": ["executive assistant", "ai engineer", "automation specialist"]
+    },
+    "developer_automation_path": {
+      "path": "MCP Deployment → Pipeline Building → HTML Parsing",
+      "skills": ["SKL-071", "SKL-062", "SKL-063"],
+      "professions": ["back end developer", "automation engineer"]
+    }
+  },
+
+  "usage_statistics": {
+    "total_entities_created": 93,
+    "total_cross_references": 150,
+    "most_referenced_tool": "TOOL-DATA-007 (Anymailfinder - 11 workflows)",
+    "most_referenced_object": "OBJ-LG-001 (Lead List - 8 workflows)",
+    "most_common_action": "enrich (8 workflows)",
+    "most_versatile_profession": "back end developer (6 skills, 5 workflows)"
+  }
+}

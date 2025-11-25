@@ -1,0 +1,40 @@
+{
+  "tool_id": "TOOL-VIDEO-001",
+  "tool_name": "Zoom",
+  "tool_category": "Video Call",
+  "description": "Video conferencing platform for interviews, meetings, and client calls",
+  "skills_count": 2,
+  "last_updated": "2025-11-22",
+  "skills": [
+    {
+      "skill_id": "SKL-002",
+      "skill_phrase": "conducted video interviews via Zoom",
+      "components": {
+        "action": "conduct",
+        "object": "video interviews",
+        "tool": "Zoom"
+      },
+      "department": "Managers (HR)",
+      "professions": ["recruiter", "hr manager"],
+      "difficulty_level": "beginner",
+      "frequency": "daily",
+      "time_estimate_minutes": 30,
+      "automation_potential": "low"
+    },
+    {
+      "skill_id": "SKL-040",
+      "skill_phrase": "conducted discovery calls via Zoom",
+      "components": {
+        "action": "conduct",
+        "object": "discovery calls",
+        "tool": "Zoom"
+      },
+      "department": "Sales",
+      "professions": ["sales manager"],
+      "difficulty_level": "beginner",
+      "frequency": "daily",
+      "time_estimate_minutes": 30,
+      "automation_potential": "low"
+    }
+  ]
+}

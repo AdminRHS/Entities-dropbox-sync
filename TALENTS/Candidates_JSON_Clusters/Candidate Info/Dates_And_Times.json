@@ -1,0 +1,22 @@
+{
+  "template_name": "Dates_And_Times",
+  "description": "Employment start and end dates and times",
+  "fields": {
+    "start_date": {
+      "type": "NoneType",
+      "description": "Field: start_date",
+      "example": null
+    },
+    "start_time": {
+      "type": "NoneType",
+      "description": "Field: start_time",
+      "example": null
+    },
+    "end_date": {
+      "type": "NoneType",
+      "description": "Field: end_date",
+      "example": null
+    }
+  }
+}
+

@@ -1,0 +1,64 @@
+{
+  "milestone_template_id": "Milestone-Template-006",
+  "name": "Research Complete - Videos Selected",
+  "category": "Research",
+  "department": "AI",
+  "description": "8-12 videos researched and scored using 0-100 system, top 3-5 videos selected for processing based on strategic priorities",
+  "estimated_hours": 2.5,
+  "phase": 1,
+  "can_run_parallel": false,
+  "dependencies": [],
+  "task_templates": [
+    {
+      "task_template_id": "TASK-TEMPLATE-VIDEO-001",
+      "task_template_name": "Search and Score Videos Using 0-100 System"
+    },
+    {
+      "task_template_id": "TASK-TEMPLATE-VIDEO-002",
+      "task_template_name": "Select Top Videos and Document Research Results"
+    }
+  ],
+  "expected_deliverables": [
+    "Research_Results_YYYY-MM-DD document",
+    "8-12 videos with full scoring breakdown (Strategic + Tech + Actionable)",
+    "Top 3-5 videos selected (minimum score 80/100)",
+    "Video metadata: URL, title, creator, date, duration",
+    "Department relevance identified for each video",
+    "Implementation priorities assigned"
+  ],
+  "success_metrics": {
+    "quantitative": [
+      "8-12 videos researched",
+      "3-5 videos selected with score >= 80",
+      "100% videos within 30-60 day recency",
+      "100% videos 10-40 minutes duration"
+    ],
+    "qualitative": [
+      "Videos align with strategic priorities",
+      "Scoring justification documented",
+      "Actionable value clearly identified",
+      "Department assignments logical"
+    ]
+  },
+  "checklist_items": [
+    "Checklist-Item-001",
+    "CHK-102",
+    "CHK-103",
+    "CHK-104",
+    "CHK-105",
+    "CHK-106",
+    "CHK-107",
+    "CHK-108",
+    "CHK-109",
+    "CHK-110"
+  ],
+  "expected_reports": [
+    {
+      "report_id": "REP-VIDEO-001",
+      "report_name": "Weekly Video Research Results"
+    }
+  ],
+  "version": "1.0",
+  "created_date": "2025-11-17",
+  "related_project": "Project-Template-008"
+}

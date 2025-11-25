@@ -1,0 +1,27 @@
+{
+  "task_template_id": "Task-Template-033",
+  "task_template_name": "Index Accuracy Check",
+  "category": "Validation",
+  "department": "AI",
+  "description": "Verify accuracy of index and listing files",
+  "estimated_hours": 1,
+  "step_templates": [
+    {
+      "step_template_id": "STEP-ANALYSIS-011-01",
+      "step_template_name": "Extract index file contents"
+    },
+    {
+      "step_template_id": "STEP-ANALYSIS-011-02",
+      "step_template_name": "Compare against actual files"
+    },
+    {
+      "step_template_id": "STEP-ANALYSIS-011-03",
+      "step_template_name": "Identify missing entries"
+    },
+    {
+      "step_template_id": "STEP-ANALYSIS-011-04",
+      "step_template_name": "Document index errors"
+    }
+  ],
+  "version": "1.0"
+}
