@@ -1,0 +1,311 @@
+﻿======================================================================
+DEPARTMENTS/PROMPTS REFERENCES REPORT
+Generated: 2025-11-16 23:55:55
+======================================================================
+
+Total references found: 50
+Files affected: 24
+
+======================================================================
+
+----------------------------------------------------------------------
+FILE: Migrate_Prompts_Phase4-7_Helper.bat
+References: 6
+----------------------------------------------------------------------
+
+  Line 169: DEPARTMENTS/PROMPTS
+    echo [Scan 1/4] Searching for "DEPARTMENTS/PROMPTS" in .md files...
+
+  Line 170: DEPARTMENTS/PROMPTS
+    findstr /S /I /N /C:"DEPARTMENTS/PROMPTS" "%ENTITIES_ROOT%\*.md" > "%OUTPUT_DIR%\References_DEPARTMENTS_PROMPTS_MD.txt" 2>nul
+
+  Line 177: DEPARTMENTS/PROMPTS
+    echo [Scan 3/4] Searching for "DEPARTMENTS/PROMPTS" in .json files...
+
+  Line 178: DEPARTMENTS/PROMPTS
+    findstr /S /I /N /C:"DEPARTMENTS/PROMPTS" "%ENTITIES_ROOT%\*.json" > "%OUTPUT_DIR%\References_DEPARTMENTS_PROMPTS_JSON.txt" 2>nul
+
+  Line 241: DEPARTMENTS/PROMPTS
+    echo    OLD: DEPARTMENTS/PROMPTS/
+
+  Line 308: DEPARTMENTS/PROMPTS
+    echo **Location:** Moved from DEPARTMENTS/PROMPTS to TASK_MANAGERS/PROMPTS >> "%PROMPTS_DIR%\README.md"
+
+
+----------------------------------------------------------------------
+FILE: Update_All_References.ps1
+References: 6
+----------------------------------------------------------------------
+
+  Line 2: DEPARTMENTS/_SHARED/Prompts
+    # Updates all references from LIBRARIES/Prompts to DEPARTMENTS/_SHARED/Prompts
+
+  Line 28: DEPARTMENTS/_SHARED/Prompts
+    New = "Dropbox/Entities/DEPARTMENTS/_SHARED/Prompts/"
+
+  Line 33: DEPARTMENTS/_SHARED/Prompts
+    New = "DEPARTMENTS/_SHARED/Prompts/"
+
+  Line 43: DEPARTMENTS/_SHARED/Prompts
+    New = "Entities/DEPARTMENTS/_SHARED/Prompts/"
+
+  Line 51: DEPARTMENTS\\_SHARED\\Prompts
+    Where-Object { $_.FullName -notmatch "DEPARTMENTS\\_SHARED\\Prompts" -and
+
+  Line 148: DEPARTMENTS\\_SHARED\\Prompts
+    Where-Object { $_.FullName -notmatch "DEPARTMENTS\\_SHARED\\Prompts" -and
+
+
+----------------------------------------------------------------------
+FILE: LIBRARIES\README.md
+References: 4
+----------------------------------------------------------------------
+
+  Line 464: DEPARTMENTS/_SHARED/Prompts
+    > **📍 MOVED (2025-11-15):** The Prompts sub-entity has been relocated from `DEPARTMENTS/_SHARED/Prompts/` to `DEPARTMENTS/_SHARED/PROMPTS/` as part of architectural reorganization to align with department-oriented resource structure.
+
+  Line 466: DEPARTMENTS/_SHARED/Prompts
+    **New Location:** `Entities/DEPARTMENTS/_SHARED/PROMPTS/`
+
+  Line 485: DEPARTMENTS/_SHARED/Prompts
+    - See: `DEPARTMENTS/_SHARED/PROMPTS/README.md` for complete prompts documentation
+
+  Line 486: DEPARTMENTS/_SHARED/Prompts
+    - See: `DEPARTMENTS/_SHARED/PROMPTS/PROMPTS_INDEX.json` for master catalog (v1.2)
+
+
+----------------------------------------------------------------------
+FILE: TASK_MANAGERS\Reports\Phase_9_Completion_Report.md
+References: 4
+----------------------------------------------------------------------
+
+  Line 505: DEPARTMENTS/_SHARED/Prompts
+    - [Video_Transcription_Custom_Instructions_v3.2.md](../DEPARTMENTS/_SHARED/Prompts/Video_Transcription/Video_Transcription_Custom_Instructions_v3.2.md) - The v3.2 prompt
+
+  Line 514: DEPARTMENTS/_SHARED/Prompts
+    - [Video_Transcription_Custom_Instructions.md (v3.1)](../DEPARTMENTS/_SHARED/Prompts/Video_Transcription/Video_Transcription_Custom_Instructions.md)
+
+  Line 515: DEPARTMENTS/_SHARED/Prompts
+    - [Video_006_Library_Mapping_Report.md](../DEPARTMENTS/_SHARED/Prompts/Video_006_Library_Mapping_Report.md)
+
+  Line 516: DEPARTMENTS/_SHARED/Prompts
+    - [Video_008_Library_Mapping_Report.md](../DEPARTMENTS/_SHARED/Prompts/Video_008_Library_Mapping_Report.md)
+
+
+----------------------------------------------------------------------
+FILE: DEPARTMENTS\Archive\Prompts_Archive\Integration_Plans\Phase_2_Complete_Summary_Report.md
+References: 4
+----------------------------------------------------------------------
+
+  Line 632: DEPARTMENTS/PROMPTS
+    - `DEPARTMENTS/Prompts/Tool_Validation_Report_Video_006_008.md`
+
+  Line 633: DEPARTMENTS/PROMPTS
+    - `DEPARTMENTS/Prompts/Video_006_Library_Mapping_Report.md`
+
+  Line 634: DEPARTMENTS/PROMPTS
+    - `DEPARTMENTS/Prompts/Video_008_Library_Mapping_Report.md`
+
+  Line 635: DEPARTMENTS/PROMPTS
+    - `DEPARTMENTS/Prompts/Phase_2_Complete_Summary_Report.md`
+
+
+----------------------------------------------------------------------
+FILE: TASK_MANAGERS\PROMPTS\PROMPTS_INDEX.json
+References: 3
+----------------------------------------------------------------------
+
+  Line 15: DEPARTMENTS/PROMPTS
+    "current_location": "Entities/DEPARTMENTS/PROMPTS/",
+
+  Line 717: DEPARTMENTS/PROMPTS
+    "Migration from LIBRARIES/Prompts/ to DEPARTMENTS/PROMPTS/",
+
+  Line 742: DEPARTMENTS/PROMPTS
+    "Moved from DEPARTMENTS/_SHARED/Prompts/ to DEPARTMENTS/PROMPTS/",
+
+
+----------------------------------------------------------------------
+FILE: DEPARTMENTS\Archive\README.md
+References: 2
+----------------------------------------------------------------------
+
+  Line 27: DEPARTMENTS/PROMPTS
+    **Previous Location:** `DEPARTMENTS/PROMPTS/Archive/`
+
+  Line 124: DEPARTMENTS/PROMPTS
+    **Moved from:** `DEPARTMENTS/PROMPTS/Archive/`
+
+
+----------------------------------------------------------------------
+FILE: ACCOUNTS\JobSites\JobSites_Processing_Prompt.md
+References: 2
+----------------------------------------------------------------------
+
+  Line 627: DEPARTMENTS/PROMPTS
+    - [Products Integration Prompt](../../DEPARTMENTS/PROMPTS/Library_Processing/Products_Integration_Prompt.md) - Similar processing pattern
+
+  Line 628: DEPARTMENTS/PROMPTS
+    - [Tools Collection Prompt](../../DEPARTMENTS/PROMPTS/Library_Processing/Tools_Collection_and_Matching_Prompt.md) - Tool processing pattern
+
+
+----------------------------------------------------------------------
+FILE: TASK_MANAGERS\Task_Templates\TEMPLATE-TASK-HR-AUTO-002_Configure_Gemini_AI_Analysis.json
+References: 2
+----------------------------------------------------------------------
+
+  Line 235: DEPARTMENTS/_SHARED/Prompts
+    "location": "Entities/DEPARTMENTS/_SHARED/Prompts/HR_Operations/CV_Parser_v1.md",
+
+  Line 247: DEPARTMENTS/_SHARED/Prompts
+    "location": "Entities/DEPARTMENTS/_SHARED/Prompts/Research/Reports/HR videos research.md",
+
+
+----------------------------------------------------------------------
+FILE: TASK_MANAGERS\PROMPTS\System_Analysis\00_MAIN_Ecosystem_Analysis_Overview.md
+References: 2
+----------------------------------------------------------------------
+
+  Line 211: DEPARTMENTS/PROMPTS
+    - `DEPARTMENTS/PROMPTS/Core/MAIN_PROMPT_v5_Modular/scripts/`
+
+  Line 395: DEPARTMENTS/PROMPTS
+    DEPARTMENTS/PROMPTS/System_Analysis/
+
+
+----------------------------------------------------------------------
+FILE: TASK_MANAGERS\Task_Templates\TEMPLATE-TASK-HR-AUTO-001_Setup_n8n_for_CV_Screening.json
+References: 2
+----------------------------------------------------------------------
+
+  Line 225: DEPARTMENTS/_SHARED/Prompts
+    "location": "Entities/DEPARTMENTS/_SHARED/Prompts/HR_Operations/CV_Parser_v1.md",
+
+  Line 243: DEPARTMENTS/_SHARED/Prompts
+    "location": "Entities/DEPARTMENTS/_SHARED/Prompts/Research/Reports/HR videos research.md",
+
+
+----------------------------------------------------------------------
+FILE: TASK_MANAGERS\Task_Templates\TEMPLATE-TASK-HR-AUTO-006_Setup_Onboarding_Workflow.json
+References: 1
+----------------------------------------------------------------------
+
+  Line 339: DEPARTMENTS/_SHARED/Prompts
+    "location": "Entities/DEPARTMENTS/_SHARED/Prompts/Research/Reports/HR videos research.md",
+
+
+----------------------------------------------------------------------
+FILE: TASK_MANAGERS\Task_Templates\TEMPLATE-TASK-HR-AUTO-005_Configure_LinkedIn_Automation.json
+References: 1
+----------------------------------------------------------------------
+
+  Line 309: DEPARTMENTS/_SHARED/Prompts
+    "location": "Entities/DEPARTMENTS/_SHARED/Prompts/Research/Reports/HR videos research.md",
+
+
+----------------------------------------------------------------------
+FILE: TASK_MANAGERS\Task_Templates\TEMPLATE-TASK-RES-001_Research_AI_Video_Tools.json
+References: 1
+----------------------------------------------------------------------
+
+  Line 283: DEPARTMENTS/_SHARED/Prompts
+    "location": "Entities/DEPARTMENTS/_SHARED/Prompts/Research/",
+
+
+----------------------------------------------------------------------
+FILE: TASK_MANAGERS\Projects\PROJ-AI-NMP-001_Next_Main_Prompt_Version\Milestones\MIL-007_Assembly_System.json
+References: 1
+----------------------------------------------------------------------
+
+  Line 150: DEPARTMENTS/_SHARED/Prompts
+    "output_location": "DEPARTMENTS/_SHARED/Prompts/Core/",
+
+
+----------------------------------------------------------------------
+FILE: Migrate_Prompts_Script.bat
+References: 1
+----------------------------------------------------------------------
+
+  Line 11: DEPARTMENTS/PROMPTS
+    echo    FROM: DEPARTMENTS/PROMPTS
+
+
+----------------------------------------------------------------------
+FILE: DEPARTMENTS\Archive\Prompts_Archive\Integration_Plans\INTEGRATION_CONTINUATION_PLAN.md
+References: 1
+----------------------------------------------------------------------
+
+  Line 64: DEPARTMENTS/PROMPTS
+    DEPARTMENTS/Prompts/
+
+
+----------------------------------------------------------------------
+FILE: TASK_MANAGERS\Task_Templates\TEMPLATE-TASK-HR-AUTO-004_Setup_Interview_Scheduling.json
+References: 1
+----------------------------------------------------------------------
+
+  Line 308: DEPARTMENTS/_SHARED/Prompts
+    "location": "Entities/DEPARTMENTS/_SHARED/Prompts/Research/Reports/HR videos research.md",
+
+
+----------------------------------------------------------------------
+FILE: TASK_MANAGERS\PROMPTS\README.md
+References: 1
+----------------------------------------------------------------------
+
+  Line 3: DEPARTMENTS/PROMPTS
+    > **📍 LOCATION UPDATE (2025-11-15):** This PROMPTS library has been moved from `LIBRARIES/Prompts/` to `DEPARTMENTS/PROMPTS/` as part of architectural reorganization. All external references have been updated. Archive content is now located at `DEPARTMENTS/Archive/Prompts_Archive/`.
+
+
+----------------------------------------------------------------------
+FILE: DEPARTMENTS\README_SHARED_RESOURCES.md
+References: 1
+----------------------------------------------------------------------
+
+  Line 21: DEPARTMENTS/PROMPTS
+    **Migrated:** 2025-11-15 from `DEPARTMENTS/PROMPTS/`
+
+
+----------------------------------------------------------------------
+FILE: TASK_MANAGERS\PROMPTS\System_Analysis\README.md
+References: 1
+----------------------------------------------------------------------
+
+  Line 298: DEPARTMENTS/PROMPTS
+    - **DEPARTMENTS/PROMPTS/PROMPTS_INDEX.json** - Prompt catalog
+
+
+----------------------------------------------------------------------
+FILE: TASK_MANAGERS\Task_Templates\TEMPLATE-TASK-HR-AUTO-003_Build_Notion_ATS_Database.json
+References: 1
+----------------------------------------------------------------------
+
+  Line 295: DEPARTMENTS/_SHARED/Prompts
+    "location": "Entities/DEPARTMENTS/_SHARED/Prompts/Research/Reports/HR videos research.md",
+
+
+----------------------------------------------------------------------
+FILE: TASK_MANAGERS\Project_Templates\TEMPLATE-PROJ-HR-002_HR_Automation_Implementation.json
+References: 1
+----------------------------------------------------------------------
+
+  Line 700: DEPARTMENTS/_SHARED/Prompts
+    "source": "Entities/DEPARTMENTS/_SHARED/Prompts/Research/Reports/HR videos research.md - Complete 4-Week Implementation Roadmap",
+
+
+----------------------------------------------------------------------
+FILE: TASK_MANAGERS\PROMPTS\Operational_Workflows\PROMPT_Document_Finished_Project.md
+References: 1
+----------------------------------------------------------------------
+
+  Line 615: DEPARTMENTS/_SHARED/Prompts
+    **Entity:** DEPARTMENTS/_SHARED/Prompts
+
+
+======================================================================
+SUMMARY BY PATTERN
+======================================================================
+
+DEPARTMENTS/_SHARED/Prompts: 24 reference(s)
+DEPARTMENTS/PROMPTS: 24 reference(s)
+DEPARTMENTS\\_SHARED\\Prompts: 2 reference(s)

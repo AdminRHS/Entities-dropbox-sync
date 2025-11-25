@@ -1,0 +1,56 @@
+{
+  "Actions": "parse",
+  "Processes": "parsing",
+  "Results": "parsed",
+  "Departments": "developers, managers",
+  "Professions": "back end developer, ai engineer, lead generator",
+  "category": "Data_Operations",
+  "source": "Video_006_Lead_Generation_Analysis",
+  "discovery_date": "2025-11-12",
+  "description": "Extract structured data from unstructured or semi-structured sources like HTML, JSON, or text",
+  "typical_use_cases": [
+    "Parse HTML from scraped websites to extract contact data",
+    "Parse JSON responses from API calls",
+    "Parse unstructured website content using AI (OpenAI GPT-5)",
+    "Parse scraped data to identify emails, names, titles",
+    "Parse platform-specific data formats",
+    "Parse search results for domains and metadata"
+  ],
+  "common_objects": [
+    "SERP Result",
+    "Business Listing",
+    "Email Address",
+    "Company Domain",
+    "Social Profile"
+  ],
+  "common_tools": [
+    "n8n",
+    "OpenAI GPT-5",
+    "Apify",
+    "Custom parsers",
+    "Make.com"
+  ],
+  "related_actions": [
+    "scrape",
+    "extract",
+    "sanitize",
+    "validate",
+    "transform"
+  ],
+  "workflows": [
+    "Scrape → Parse HTML → Extract contacts",
+    "Scrape → Parse with AI (OpenAI) → Structure data",
+    "API Request → Parse JSON → Extract fields",
+    "Scrape → Parse → Sanitize → Validate"
+  ],
+  "success_metrics": {
+    "accuracy": "70-95% depending on data structure",
+    "time": "Seconds to minutes depending on volume",
+    "ai_parsing_cost": "$0.001-0.01 per record with OpenAI"
+  },
+  "complexity": {
+    "simple": "Structured JSON/CSV parsing",
+    "medium": "HTML parsing with selectors",
+    "high": "Unstructured content with AI parsing"
+  }
+}

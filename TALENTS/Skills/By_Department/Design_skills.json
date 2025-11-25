@@ -1,0 +1,161 @@
+﻿[
+    {
+        "skill_id":  "SKL-020",
+        "skill_phrase":  "created UI mockups in Figma",
+        "components":  {
+                           "result":  "created",
+                           "action":  "create",
+                           "object":  "UI mockups",
+                           "object_type":  "web mockup, mobile mockup",
+                           "tool":  "Figma",
+                           "tool_category":  "Design"
+                       },
+        "department":  "Design",
+        "professions":  [
+                            "ui/ux designer",
+                            "graphic designer"
+                        ],
+        "difficulty_level":  "intermediate",
+        "frequency":  "daily",
+        "time_estimate_minutes":  120,
+        "automation_potential":  "medium",
+        "related_skills":  [
+                               "SKL-021",
+                               "SKL-022"
+                           ],
+        "example_tasks":  [
+                              "Create 3 mobile app screens: Login, Home, Profile",
+                              "Design landing page mockup for Client X"
+                          ],
+        "training_resources":  [
+
+                               ]
+    },
+    {
+        "skill_id":  "SKL-021",
+        "skill_phrase":  "designed social media posts in Canva",
+        "components":  {
+                           "result":  "designed",
+                           "action":  "design",
+                           "object":  "social media posts",
+                           "object_type":  "Instagram post, LinkedIn banner",
+                           "tool":  "Canva",
+                           "tool_category":  "Design"
+                       },
+        "department":  "Design",
+        "professions":  [
+                            "graphic designer",
+                            "smm"
+                        ],
+        "difficulty_level":  "beginner",
+        "frequency":  "daily",
+        "time_estimate_minutes":  30,
+        "automation_potential":  "medium",
+        "related_skills":  [
+                               "SKL-020",
+                               "SKL-023"
+                           ],
+        "example_tasks":  [
+                              "Create 5 Instagram posts for Remote Helpers company page",
+                              "Design LinkedIn banner for employee announcement"
+                          ],
+        "training_resources":  [
+
+                               ]
+    },
+    {
+        "skill_id":  "SKL-022",
+        "skill_phrase":  "exported design files from Figma",
+        "components":  {
+                           "result":  "exported",
+                           "action":  "export",
+                           "object":  "design files",
+                           "object_type":  "PNG, SVG, PDF",
+                           "tool":  "Figma",
+                           "tool_category":  "Design"
+                       },
+        "department":  "Design",
+        "professions":  [
+                            "ui/ux designer",
+                            "graphic designer"
+                        ],
+        "difficulty_level":  "beginner",
+        "frequency":  "daily",
+        "time_estimate_minutes":  10,
+        "automation_potential":  "low",
+        "related_skills":  [
+                               "SKL-020",
+                               "SKL-024"
+                           ],
+        "example_tasks":  [
+                              "Export mockups as PNG for client review",
+                              "Export design specs as PDF for developer handoff"
+                          ],
+        "training_resources":  [
+
+                               ]
+    },
+    {
+        "skill_id":  "SKL-023",
+        "skill_phrase":  "generated AI images using Midjourney",
+        "components":  {
+                           "result":  "generated",
+                           "action":  "generate",
+                           "object":  "AI images",
+                           "object_type":  "background graphics",
+                           "tool":  "Midjourney",
+                           "tool_category":  "AI Tool"
+                       },
+        "department":  "Design",
+        "professions":  [
+                            "graphic designer"
+                        ],
+        "difficulty_level":  "intermediate",
+        "frequency":  "weekly",
+        "time_estimate_minutes":  20,
+        "automation_potential":  "high",
+        "related_skills":  [
+                               "SKL-021",
+                               "SKL-024"
+                           ],
+        "example_tasks":  [
+                              "Generate 10 abstract backgrounds for social media posts",
+                              "Create AI-generated product mockups for presentation"
+                          ],
+        "training_resources":  [
+
+                               ]
+    },
+    {
+        "skill_id":  "SKL-024",
+        "skill_phrase":  "shared design previews via Discord",
+        "components":  {
+                           "result":  "shared",
+                           "action":  "share",
+                           "object":  "design previews",
+                           "object_type":  "Figma links",
+                           "tool":  "Discord",
+                           "tool_category":  "Communication"
+                       },
+        "department":  "Design",
+        "professions":  [
+                            "ui/ux designer",
+                            "graphic designer"
+                        ],
+        "difficulty_level":  "beginner",
+        "frequency":  "daily",
+        "time_estimate_minutes":  5,
+        "automation_potential":  "low",
+        "related_skills":  [
+                               "SKL-020",
+                               "SKL-022"
+                           ],
+        "example_tasks":  [
+                              "Share Figma link with client for feedback in Discord",
+                              "Post design update in team channel"
+                          ],
+        "training_resources":  [
+
+                               ]
+    }
+]

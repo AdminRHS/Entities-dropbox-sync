@@ -1,0 +1,27 @@
+Entity_Type,Entity_ID,Name,Description,Department,Frequency,Source_Activities,Reusability_Score,Status
+Task_Template,TST-072,Install and Configure IDE Tool,Install IDE tools like Antigravity or Cursor for team members,AID,High,Installation and Configuration,95,NEW
+Task_Template,TST-073,Setup Automation Infrastructure,Create Google Cloud project with service account for automation,AID,Medium,Automation Setup,90,NEW
+Task_Template,TST-074,Process Daily Activity Files,Process daily.md and generate plans.md and tasks.md,AID,Daily,Daily Processing,100,NEW
+Task_Template,TST-075,Design Microservice Database Schema,Design database schema for microservices,AID/DEV,Medium,Schema Design,95,NEW
+Task_Template,TST-076,Create Course Visual Materials,Create course covers carousels and thumbnails,DGN,High,Course Content,90,NEW
+Task_Template,TST-077,Design Black Friday Marketing Assets,Generate seasonal marketing banners and graphics,DGN,Seasonal,Marketing Campaigns,85,NEW
+Task_Template,TST-078,Prepare Client Interview Materials,Organize portfolio and prepare for client presentations,DGN,Medium,Client Engagement,90,NEW
+Task_Template,TST-079,Create Animation Instructions,Develop animation instruction documents,DGN,Medium,Animation Projects,85,NEW
+Task_Template,TST-080,Train Lead Generator on New Tools,Prepare and conduct training for lead generators,LGN/DGN,Medium,Training Sessions,90,NEW
+Task_Template,TST-081,Design Marketing Campaign Assets,Create visual assets for marketing campaigns,DGN/SMM,High,Campaign Design,90,NEW
+Tool,TOL-221,Antigravity IDE,Google's AI-powered IDE with Gemini 3 Pro,Development_Tools,3,"AID,DGN,DEV,SLS",100,NEW
+Tool,TOL-222,Google AI Studio,Google's AI platform for transcription,AI_Tools,1,VID,80,NEW
+Tool,TOL-223,Runway,AI-powered animation and video generation,Design_Tools,1,DGN,85,NEW
+Tool,TOL-224,Leonardo AI,AI image generation tool,AI_Image_Generation,1,DGN,80,NEW
+Tool,TOL-225,ChatGPT-5,OpenAI's latest language model,AI_Tools,3,"AID,DGN,DEV",95,NEW
+Responsibility,RESP-AID-194,install ide,Install and configure IDE tools,AID,2,Tool Installation,95,NEW
+Responsibility,RESP-AID-195,configure ide,Configure IDE with AI model access,AID,2,IDE Configuration,95,NEW
+Responsibility,RESP-AID-196,create automation infrastructure,Setup cloud automation infrastructure,AID,1,Automation Setup,90,NEW
+Responsibility,RESP-AID-197,create service account,Create Google Cloud service accounts,AID,1,Service Account Setup,90,NEW
+Responsibility,RESP-AID-198,process daily files,Process daily activity files,AID,Daily,Daily Processing,100,NEW
+Responsibility,RESP-AID-199,design database schema,Design microservice database schemas,AID/DEV,2,Schema Design,95,NEW
+Responsibility,RESP-DGN-XXX,create course covers,Create visual course covers,DGN,2,Course Design,90,NEW
+Responsibility,RESP-DGN-XXX,generate marketing banners,Generate seasonal marketing graphics,DGN,1,Marketing Design,85,NEW
+Responsibility,RESP-DGN-XXX,organize portfolio,Organize design portfolio,DGN,2,Portfolio Management,90,NEW
+Responsibility,RESP-DGN-XXX,create animation instructions,Develop animation instruction docs,DGN,1,Animation Projects,85,NEW
+Project_Reference,PRT-008,VIDEO_Production,Video production and course content,DGN/VID,Active,Course Content Creation,100,EXISTING

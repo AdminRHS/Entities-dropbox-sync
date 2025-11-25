@@ -1,0 +1,155 @@
+{
+  "entity_type": "TASK_MANAGERS",
+  "sub_entity": "Task_Template",
+  "template_id": "Task-Template-021",
+  "task_name": "Send Follow-up Email to old clients",
+  "action": "Send",
+  "object": "Follow-up Email",
+  "context": "to old clients",
+  "description": "Send personalized re-engagement emails to former clients (Ex_Clients) as part of old client re-engagement campaign. Target: 50 emails/day minimum.",
+  "department": "Sales",
+  "profession": "Sales Manager",
+  "estimated_duration": "4-5 hours for 50 emails",
+  "status": "Template",
+  "dependencies": [
+    "CRM export completed",
+    "Deep research completed",
+    "Email templates prepared"
+  ],
+  "tools_required": [
+    "CRM",
+    "Email Platform (Gmail)",
+    "Custom GPT (Email Generation)",
+    "n8n (Optional automation)"
+  ],
+  "success_criteria": [
+    "50 emails sent per day minimum",
+    "All emails personalized with research insights",
+    "All emails logged in CRM",
+    "5-10% response rate expected",
+    "1-2% reactivation rate expected"
+  ],
+  "responsibilities": [
+    "Sending Follow-up Email"
+  ],
+  "steps": [
+    {
+      "step_number": 1,
+      "name": "Export old client list from CRM",
+      "tool": "CRM export function",
+      "responsibility": "Sales Manager",
+      "placement": "Excel/Google Sheets in Sales folder",
+      "duration": "10 minutes",
+      "dependencies": [
+        "CRM access permissions"
+      ],
+      "success_criteria": "All former clients (Ex_Clients status) exported with contact info"
+    },
+    {
+      "step_number": 2,
+      "name": "Research current company status and pain points",
+      "tool": "GPT/NotebookLM + web search",
+      "responsibility": "AI Assistant (automated) or Sales Manager",
+      "placement": "Research Notes document per company",
+      "duration": "5-10 minutes per company (automated) or 15-20 minutes (manual)",
+      "dependencies": [
+        "Company website URL, LinkedIn profiles"
+      ],
+      "success_criteria": "2-3 sentence summary of current situation and potential needs"
+    },
+    {
+      "step_number": 3,
+      "name": "Generate personalized email using research insights",
+      "tool": "Custom GPT (email generation assistant)",
+      "responsibility": "Sales Manager",
+      "placement": "Email draft in email platform",
+      "duration": "2-3 minutes per email (with AI assistance)",
+      "dependencies": [
+        "Research notes complete, email template selected"
+      ],
+      "success_criteria": "Email references specific company details, pain points addressed"
+    },
+    {
+      "step_number": 4,
+      "name": "Send personalized email from corporate account",
+      "tool": "Email platform (Gmail)",
+      "responsibility": "Sales Manager",
+      "placement": "Sent folder, logged in CRM",
+      "duration": "30 seconds per email",
+      "dependencies": [
+        "Email finalized and reviewed"
+      ],
+      "success_criteria": "Email sent successfully, logged in CRM with date/status"
+    },
+    {
+      "step_number": 5,
+      "name": "Monitor inbox for responses and categorize",
+      "tool": "Email + CRM",
+      "responsibility": "Sales Manager",
+      "placement": "CRM pipeline, response tracking spreadsheet",
+      "duration": "2-5 minutes per response",
+      "dependencies": [
+        "Email sent, monitoring system active"
+      ],
+      "success_criteria": "All responses categorized (positive/negative/neutral), next steps assigned"
+    },
+    {
+      "step_number": 6,
+      "name": "Send follow-up email if no response after 5-7 days",
+      "tool": "Email automation (n8n) or manual",
+      "responsibility": "System (automated) or Sales Manager (manual)",
+      "placement": "Automated trigger or calendar reminder",
+      "duration": "Automated or 2-3 minutes manual",
+      "dependencies": [
+        "No response received within timeframe"
+      ],
+      "success_criteria": "Follow-up sent, CRM updated with next follow-up date"
+    }
+  ],
+  "checklist": [
+    {
+      "item": "Email personalized with company-specific details",
+      "guide": "Reference recent company news, changes, or pain points",
+      "required": true
+    },
+    {
+      "item": "Email sent from corporate account only",
+      "guide": "Never use personal email for client communication",
+      "required": true
+    },
+    {
+      "item": "Email logged in CRM",
+      "guide": "Same day logging required, memory fades fast",
+      "required": true
+    },
+    {
+      "item": "Follow-up cadence scheduled",
+      "guide": "5-7 day follow-up if no response",
+      "required": true
+    },
+    {
+      "item": "Minimum 50 emails sent",
+      "guide": "Daily minimum target",
+      "required": true
+    }
+  ],
+  "expected_results": {
+    "response_rate": "5-10%",
+    "reactivation_rate": "1-2%",
+    "roi": "<$100 reactivation vs $1,000-3,000 new client acquisition"
+  },
+  "tags": [
+    "sales",
+    "re-engagement",
+    "email",
+    "old_clients",
+    "campaign"
+  ],
+  "version": "1.0",
+  "created": "2025-11-01",
+  "last_updated": "2025-11-01",
+  "responsibility_id": "RESP-OPS-003",
+  "responsibility_name": "send emails",
+  "_original_action": "Send",
+  "_original_object": "Follow-up Email"
+}

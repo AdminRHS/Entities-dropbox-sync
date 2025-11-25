@@ -1,0 +1,2749 @@
+{
+  "entity_type": "LIBRARIES",
+  "library": "Actions",
+  "source_file": "Actions_Master.json",
+  "view_type": "process_verbs",
+  "total_items": 548,
+  "processes": [
+    {
+      "process": "abstracting",
+      "base_action": "abstract",
+      "action_id": "ACTION-001"
+    },
+    {
+      "process": "accessing",
+      "base_action": "access",
+      "action_id": "ACTION-002"
+    },
+    {
+      "process": "acknowledging",
+      "base_action": "acknowledge",
+      "action_id": "ACTION-003"
+    },
+    {
+      "process": "Adapting",
+      "base_action": "adapt",
+      "action_id": "ACTION-004"
+    },
+    {
+      "process": "adapting",
+      "base_action": "adapt",
+      "action_id": "ACTION-004"
+    },
+    {
+      "process": "adding",
+      "base_action": "add",
+      "action_id": "ACTION-005"
+    },
+    {
+      "process": "addressing",
+      "base_action": "address",
+      "action_id": "ACTION-006"
+    },
+    {
+      "process": "Adjusting",
+      "base_action": "adjust",
+      "action_id": "ACTION-007"
+    },
+    {
+      "process": "adjusting",
+      "base_action": "adjust",
+      "action_id": "ACTION-007"
+    },
+    {
+      "process": "aggregating",
+      "base_action": "aggregate",
+      "action_id": "ACTION-008"
+    },
+    {
+      "process": "agreeing",
+      "base_action": "agree",
+      "action_id": "ACTION-009"
+    },
+    {
+      "process": "Aligning",
+      "base_action": "Align",
+      "action_id": "ACTION-010"
+    },
+    {
+      "process": "aligning",
+      "base_action": "Align",
+      "action_id": "ACTION-010"
+    },
+    {
+      "process": "Allocating",
+      "base_action": "allocate",
+      "action_id": "ACTION-011"
+    },
+    {
+      "process": "allocating",
+      "base_action": "allocate",
+      "action_id": "ACTION-011"
+    },
+    {
+      "process": "Analyzing",
+      "base_action": "analyze",
+      "action_id": "ACTION-012"
+    },
+    {
+      "process": "analyzing",
+      "base_action": "analyze",
+      "action_id": "ACTION-012"
+    },
+    {
+      "process": "animating",
+      "base_action": "animate",
+      "action_id": "ACTION-013"
+    },
+    {
+      "process": "announcing",
+      "base_action": "announce",
+      "action_id": "ACTION-014"
+    },
+    {
+      "process": "Applying",
+      "base_action": "apply",
+      "action_id": "ACTION-015"
+    },
+    {
+      "process": "applying",
+      "base_action": "apply",
+      "action_id": "ACTION-015"
+    },
+    {
+      "process": "approving",
+      "base_action": "approve",
+      "action_id": "ACTION-016"
+    },
+    {
+      "process": "archiving",
+      "base_action": "archive",
+      "action_id": "ACTION-017"
+    },
+    {
+      "process": "Arranging",
+      "base_action": "arrange",
+      "action_id": "ACTION-018"
+    },
+    {
+      "process": "arranging",
+      "base_action": "arrange",
+      "action_id": "ACTION-018"
+    },
+    {
+      "process": "asking",
+      "base_action": "ask",
+      "action_id": "ACTION-019"
+    },
+    {
+      "process": "Assembling",
+      "base_action": "assemble",
+      "action_id": "ACTION-020"
+    },
+    {
+      "process": "assembling",
+      "base_action": "assemble",
+      "action_id": "ACTION-020"
+    },
+    {
+      "process": "Assessing",
+      "base_action": "assess",
+      "action_id": "ACTION-021"
+    },
+    {
+      "process": "assessing",
+      "base_action": "assess",
+      "action_id": "ACTION-021"
+    },
+    {
+      "process": "assigning",
+      "base_action": "assign",
+      "action_id": "ACTION-022"
+    },
+    {
+      "process": "assisting",
+      "base_action": "assist",
+      "action_id": "ACTION-023"
+    },
+    {
+      "process": "attaching",
+      "base_action": "attach",
+      "action_id": "ACTION-024"
+    },
+    {
+      "process": "Auditing",
+      "base_action": "audit",
+      "action_id": "ACTION-025"
+    },
+    {
+      "process": "auditing",
+      "base_action": "audit",
+      "action_id": "ACTION-025"
+    },
+    {
+      "process": "Automating",
+      "base_action": "automate",
+      "action_id": "ACTION-026"
+    },
+    {
+      "process": "automating",
+      "base_action": "automate",
+      "action_id": "ACTION-026"
+    },
+    {
+      "process": "backing up",
+      "base_action": "back up",
+      "action_id": "ACTION-027"
+    },
+    {
+      "process": "backing up",
+      "base_action": "backup",
+      "action_id": "ACTION-028"
+    },
+    {
+      "process": "balancing",
+      "base_action": "balance",
+      "action_id": "ACTION-029"
+    },
+    {
+      "process": "beginning",
+      "base_action": "begin",
+      "action_id": "ACTION-030"
+    },
+    {
+      "process": "bidding",
+      "base_action": "bid",
+      "action_id": "ACTION-031"
+    },
+    {
+      "process": "blending",
+      "base_action": "blend",
+      "action_id": "ACTION-032"
+    },
+    {
+      "process": "blocking",
+      "base_action": "block",
+      "action_id": "ACTION-033"
+    },
+    {
+      "process": "boosting",
+      "base_action": "boost",
+      "action_id": "ACTION-034"
+    },
+    {
+      "process": "Brainstorming",
+      "base_action": "brainstorm",
+      "action_id": "ACTION-035"
+    },
+    {
+      "process": "brainstorming",
+      "base_action": "brainstorm",
+      "action_id": "ACTION-035"
+    },
+    {
+      "process": "breaking down",
+      "base_action": "break down",
+      "action_id": "ACTION-036"
+    },
+    {
+      "process": "breaking down",
+      "base_action": "breakdown",
+      "action_id": "ACTION-037"
+    },
+    {
+      "process": "building",
+      "base_action": "build",
+      "action_id": "ACTION-038"
+    },
+    {
+      "process": "caching",
+      "base_action": "cache",
+      "action_id": "ACTION-039"
+    },
+    {
+      "process": "calculating",
+      "base_action": "calculate",
+      "action_id": "ACTION-040"
+    },
+    {
+      "process": "calibrating",
+      "base_action": "calibrate",
+      "action_id": "ACTION-041"
+    },
+    {
+      "process": "capturing",
+      "base_action": "capture",
+      "action_id": "ACTION-042"
+    },
+    {
+      "process": "Categorizing",
+      "base_action": "categorize",
+      "action_id": "ACTION-043"
+    },
+    {
+      "process": "categorizing",
+      "base_action": "categorize",
+      "action_id": "ACTION-043"
+    },
+    {
+      "process": "celebrating",
+      "base_action": "celebrate",
+      "action_id": "ACTION-044"
+    },
+    {
+      "process": "Checking",
+      "base_action": "check",
+      "action_id": "ACTION-045"
+    },
+    {
+      "process": "checking",
+      "base_action": "check",
+      "action_id": "ACTION-045"
+    },
+    {
+      "process": "Choosing",
+      "base_action": "choose",
+      "action_id": "ACTION-046"
+    },
+    {
+      "process": "choosing",
+      "base_action": "choose",
+      "action_id": "ACTION-046"
+    },
+    {
+      "process": "choreographing",
+      "base_action": "choreograph",
+      "action_id": "ACTION-047"
+    },
+    {
+      "process": "circulating",
+      "base_action": "circulate",
+      "action_id": "ACTION-048"
+    },
+    {
+      "process": "clarifying",
+      "base_action": "clarify",
+      "action_id": "ACTION-049"
+    },
+    {
+      "process": "classifying",
+      "base_action": "classify",
+      "action_id": "ACTION-050"
+    },
+    {
+      "process": "cleaning up",
+      "base_action": "clean up",
+      "action_id": "ACTION-051"
+    },
+    {
+      "process": "Coding",
+      "base_action": "code",
+      "action_id": "ACTION-052"
+    },
+    {
+      "process": "coding",
+      "base_action": "code",
+      "action_id": "ACTION-052"
+    },
+    {
+      "process": "collaborating",
+      "base_action": "collaborate",
+      "action_id": "ACTION-053"
+    },
+    {
+      "process": "collating",
+      "base_action": "collate",
+      "action_id": "ACTION-054"
+    },
+    {
+      "process": "Collecting",
+      "base_action": "collect",
+      "action_id": "ACTION-055"
+    },
+    {
+      "process": "collecting",
+      "base_action": "collect",
+      "action_id": "ACTION-055"
+    },
+    {
+      "process": "communicating",
+      "base_action": "communicate",
+      "action_id": "ACTION-056"
+    },
+    {
+      "process": "comparing",
+      "base_action": "compare",
+      "action_id": "ACTION-057"
+    },
+    {
+      "process": "Compiling",
+      "base_action": "compile",
+      "action_id": "ACTION-058"
+    },
+    {
+      "process": "compiling",
+      "base_action": "compile",
+      "action_id": "ACTION-058"
+    },
+    {
+      "process": "composing",
+      "base_action": "compose",
+      "action_id": "ACTION-059"
+    },
+    {
+      "process": "compositing",
+      "base_action": "composite",
+      "action_id": "ACTION-060"
+    },
+    {
+      "process": "conceptualizing",
+      "base_action": "conceptualize",
+      "action_id": "ACTION-061"
+    },
+    {
+      "process": "concluding",
+      "base_action": "conclude",
+      "action_id": "ACTION-062"
+    },
+    {
+      "process": "Conducting",
+      "base_action": "conduct",
+      "action_id": "ACTION-063"
+    },
+    {
+      "process": "conducting",
+      "base_action": "conduct",
+      "action_id": "ACTION-063"
+    },
+    {
+      "process": "Configuring",
+      "base_action": "configure",
+      "action_id": "ACTION-064"
+    },
+    {
+      "process": "configuring",
+      "base_action": "configure",
+      "action_id": "ACTION-064"
+    },
+    {
+      "process": "confirming",
+      "base_action": "confirm",
+      "action_id": "ACTION-065"
+    },
+    {
+      "process": "congratulating",
+      "base_action": "congratulate",
+      "action_id": "ACTION-066"
+    },
+    {
+      "process": "considering",
+      "base_action": "consider",
+      "action_id": "ACTION-067"
+    },
+    {
+      "process": "consolidating",
+      "base_action": "consolidate",
+      "action_id": "ACTION-068"
+    },
+    {
+      "process": "constructing",
+      "base_action": "construct",
+      "action_id": "ACTION-069"
+    },
+    {
+      "process": "consulting",
+      "base_action": "consult",
+      "action_id": "ACTION-070"
+    },
+    {
+      "process": "contacting",
+      "base_action": "contact",
+      "action_id": "ACTION-071"
+    },
+    {
+      "process": "Converting",
+      "base_action": "convert",
+      "action_id": "ACTION-072"
+    },
+    {
+      "process": "converting",
+      "base_action": "convert",
+      "action_id": "ACTION-072"
+    },
+    {
+      "process": "coordinating",
+      "base_action": "coordinate",
+      "action_id": "ACTION-073"
+    },
+    {
+      "process": "correcting",
+      "base_action": "correct",
+      "action_id": "ACTION-074"
+    },
+    {
+      "process": "correlating",
+      "base_action": "correlate",
+      "action_id": "ACTION-075"
+    },
+    {
+      "process": "crafting",
+      "base_action": "craft",
+      "action_id": "ACTION-076"
+    },
+    {
+      "process": "Creating",
+      "base_action": "create",
+      "action_id": "ACTION-077"
+    },
+    {
+      "process": "creating",
+      "base_action": "create",
+      "action_id": "ACTION-077"
+    },
+    {
+      "process": "cross-checking",
+      "base_action": "cross-check",
+      "action_id": "ACTION-078"
+    },
+    {
+      "process": "cross-referencing",
+      "base_action": "cross-reference",
+      "action_id": "ACTION-079"
+    },
+    {
+      "process": "cross-verifying",
+      "base_action": "cross-verify",
+      "action_id": "ACTION-080"
+    },
+    {
+      "process": "curating",
+      "base_action": "curate",
+      "action_id": "ACTION-081"
+    },
+    {
+      "process": "Customizing",
+      "base_action": "customize",
+      "action_id": "ACTION-082"
+    },
+    {
+      "process": "customizing",
+      "base_action": "customize",
+      "action_id": "ACTION-082"
+    },
+    {
+      "process": "deciding",
+      "base_action": "decide",
+      "action_id": "ACTION-083"
+    },
+    {
+      "process": "decommissioning",
+      "base_action": "decommission",
+      "action_id": "ACTION-084"
+    },
+    {
+      "process": "deepening",
+      "base_action": "deepen",
+      "action_id": "ACTION-085"
+    },
+    {
+      "process": "Defining",
+      "base_action": "define",
+      "action_id": "ACTION-086"
+    },
+    {
+      "process": "defining",
+      "base_action": "define",
+      "action_id": "ACTION-086"
+    },
+    {
+      "process": "delegating",
+      "base_action": "delegate",
+      "action_id": "ACTION-087"
+    },
+    {
+      "process": "deleting",
+      "base_action": "delete",
+      "action_id": "ACTION-088"
+    },
+    {
+      "process": "delineating",
+      "base_action": "delineate",
+      "action_id": "ACTION-089"
+    },
+    {
+      "process": "demonstrating",
+      "base_action": "demonstrate",
+      "action_id": "ACTION-090"
+    },
+    {
+      "process": "Deploying",
+      "base_action": "deploy",
+      "action_id": "ACTION-091"
+    },
+    {
+      "process": "deploying",
+      "base_action": "deploy",
+      "action_id": "ACTION-091"
+    },
+    {
+      "process": "Describing",
+      "base_action": "describe",
+      "action_id": "ACTION-092"
+    },
+    {
+      "process": "describing",
+      "base_action": "describe",
+      "action_id": "ACTION-092"
+    },
+    {
+      "process": "Designing",
+      "base_action": "design",
+      "action_id": "ACTION-093"
+    },
+    {
+      "process": "designing",
+      "base_action": "design",
+      "action_id": "ACTION-093"
+    },
+    {
+      "process": "detailing",
+      "base_action": "detail",
+      "action_id": "ACTION-094"
+    },
+    {
+      "process": "detecting",
+      "base_action": "detect",
+      "action_id": "ACTION-095"
+    },
+    {
+      "process": "determining",
+      "base_action": "determine",
+      "action_id": "ACTION-096"
+    },
+    {
+      "process": "Developing",
+      "base_action": "develop",
+      "action_id": "ACTION-097"
+    },
+    {
+      "process": "developing",
+      "base_action": "develop",
+      "action_id": "ACTION-097"
+    },
+    {
+      "process": "diagnosing",
+      "base_action": "diagnose",
+      "action_id": "ACTION-098"
+    },
+    {
+      "process": "differentiating",
+      "base_action": "differentiate",
+      "action_id": "ACTION-099"
+    },
+    {
+      "process": "directing",
+      "base_action": "direct",
+      "action_id": "ACTION-100"
+    },
+    {
+      "process": "discovering",
+      "base_action": "discover",
+      "action_id": "ACTION-101"
+    },
+    {
+      "process": "discussing",
+      "base_action": "discuss",
+      "action_id": "ACTION-102"
+    },
+    {
+      "process": "disentangling",
+      "base_action": "disentangle",
+      "action_id": "ACTION-103"
+    },
+    {
+      "process": "dispatching",
+      "base_action": "dispatch",
+      "action_id": "ACTION-104"
+    },
+    {
+      "process": "displaying",
+      "base_action": "display",
+      "action_id": "ACTION-105"
+    },
+    {
+      "process": "dissecting",
+      "base_action": "dissect",
+      "action_id": "ACTION-106"
+    },
+    {
+      "process": "disseminating",
+      "base_action": "disseminate",
+      "action_id": "ACTION-107"
+    },
+    {
+      "process": "distilling",
+      "base_action": "distill",
+      "action_id": "ACTION-108"
+    },
+    {
+      "process": "Distributing",
+      "base_action": "distribute",
+      "action_id": "ACTION-109"
+    },
+    {
+      "process": "distributing",
+      "base_action": "distribute",
+      "action_id": "ACTION-109"
+    },
+    {
+      "process": "diversifying",
+      "base_action": "diversify",
+      "action_id": "ACTION-110"
+    },
+    {
+      "process": "Documenting",
+      "base_action": "document",
+      "action_id": "ACTION-111"
+    },
+    {
+      "process": "documenting",
+      "base_action": "document",
+      "action_id": "ACTION-111"
+    },
+    {
+      "process": "double-checking",
+      "base_action": "double-check",
+      "action_id": "ACTION-112"
+    },
+    {
+      "process": "downloading",
+      "base_action": "download",
+      "action_id": "ACTION-113"
+    },
+    {
+      "process": "Drafting",
+      "base_action": "draft",
+      "action_id": "ACTION-114"
+    },
+    {
+      "process": "drafting",
+      "base_action": "draft",
+      "action_id": "ACTION-114"
+    },
+    {
+      "process": "dramatizing",
+      "base_action": "dramatize",
+      "action_id": "ACTION-115"
+    },
+    {
+      "process": "drawing",
+      "base_action": "draw",
+      "action_id": "ACTION-116"
+    },
+    {
+      "process": "driving",
+      "base_action": "drive",
+      "action_id": "ACTION-117"
+    },
+    {
+      "process": "editing",
+      "base_action": "edit",
+      "action_id": "ACTION-118"
+    },
+    {
+      "process": "educating",
+      "base_action": "educate",
+      "action_id": "ACTION-119"
+    },
+    {
+      "process": "elaborating",
+      "base_action": "elaborate",
+      "action_id": "ACTION-120"
+    },
+    {
+      "process": "elevating",
+      "base_action": "elevate",
+      "action_id": "ACTION-121"
+    },
+    {
+      "process": "elucidating",
+      "base_action": "elucidate",
+      "action_id": "ACTION-122"
+    },
+    {
+      "process": "Embedding",
+      "base_action": "embed",
+      "action_id": "ACTION-123"
+    },
+    {
+      "process": "embedding",
+      "base_action": "embed",
+      "action_id": "ACTION-123"
+    },
+    {
+      "process": "embracing",
+      "base_action": "embrace",
+      "action_id": "ACTION-124"
+    },
+    {
+      "process": "Emphasizing",
+      "base_action": "emphasize",
+      "action_id": "ACTION-125"
+    },
+    {
+      "process": "emphasizing",
+      "base_action": "emphasize",
+      "action_id": "ACTION-125"
+    },
+    {
+      "process": "employing",
+      "base_action": "employ",
+      "action_id": "ACTION-126"
+    },
+    {
+      "process": "empowering",
+      "base_action": "empower",
+      "action_id": "ACTION-127"
+    },
+    {
+      "process": "enabling",
+      "base_action": "enable",
+      "action_id": "ACTION-128"
+    },
+    {
+      "process": "enacting",
+      "base_action": "enact",
+      "action_id": "ACTION-129"
+    },
+    {
+      "process": "encoding",
+      "base_action": "encode",
+      "action_id": "ACTION-130"
+    },
+    {
+      "process": "encouraging",
+      "base_action": "encourage",
+      "action_id": "ACTION-131"
+    },
+    {
+      "process": "encrypting",
+      "base_action": "encrypt",
+      "action_id": "ACTION-132"
+    },
+    {
+      "process": "endorsing",
+      "base_action": "endorse",
+      "action_id": "ACTION-133"
+    },
+    {
+      "process": "Enforcing",
+      "base_action": "Enforce",
+      "action_id": "ACTION-134"
+    },
+    {
+      "process": "enforcing",
+      "base_action": "Enforce",
+      "action_id": "ACTION-134"
+    },
+    {
+      "process": "Engaging",
+      "base_action": "engage",
+      "action_id": "ACTION-135"
+    },
+    {
+      "process": "engaging",
+      "base_action": "engage",
+      "action_id": "ACTION-135"
+    },
+    {
+      "process": "engineering",
+      "base_action": "engineer",
+      "action_id": "ACTION-136"
+    },
+    {
+      "process": "Enhancing",
+      "base_action": "enhance",
+      "action_id": "ACTION-137"
+    },
+    {
+      "process": "enhancing",
+      "base_action": "enhance",
+      "action_id": "ACTION-137"
+    },
+    {
+      "process": "enlisting",
+      "base_action": "enlist",
+      "action_id": "ACTION-138"
+    },
+    {
+      "process": "enriching",
+      "base_action": "enrich",
+      "action_id": "ACTION-139"
+    },
+    {
+      "process": "Ensuring",
+      "base_action": "ensure",
+      "action_id": "ACTION-140"
+    },
+    {
+      "process": "ensuring",
+      "base_action": "ensure",
+      "action_id": "ACTION-140"
+    },
+    {
+      "process": "entangling",
+      "base_action": "entangle",
+      "action_id": "ACTION-141"
+    },
+    {
+      "process": "entering",
+      "base_action": "enter",
+      "action_id": "ACTION-142"
+    },
+    {
+      "process": "enumerating",
+      "base_action": "enumerate",
+      "action_id": "ACTION-143"
+    },
+    {
+      "process": "envisioning",
+      "base_action": "envision",
+      "action_id": "ACTION-144"
+    },
+    {
+      "process": "epitomizing",
+      "base_action": "epitomize",
+      "action_id": "ACTION-145"
+    },
+    {
+      "process": "equalizing",
+      "base_action": "equalize",
+      "action_id": "ACTION-146"
+    },
+    {
+      "process": "eradicating",
+      "base_action": "eradicate",
+      "action_id": "ACTION-147"
+    },
+    {
+      "process": "escalating",
+      "base_action": "escalate",
+      "action_id": "ACTION-148"
+    },
+    {
+      "process": "Establishing",
+      "base_action": "establish",
+      "action_id": "ACTION-149"
+    },
+    {
+      "process": "establishing",
+      "base_action": "establish",
+      "action_id": "ACTION-149"
+    },
+    {
+      "process": "estimating",
+      "base_action": "estimate",
+      "action_id": "ACTION-150"
+    },
+    {
+      "process": "Evaluating",
+      "base_action": "evaluate",
+      "action_id": "ACTION-151"
+    },
+    {
+      "process": "evaluating",
+      "base_action": "evaluate",
+      "action_id": "ACTION-151"
+    },
+    {
+      "process": "evolving",
+      "base_action": "evolve",
+      "action_id": "ACTION-152"
+    },
+    {
+      "process": "examining",
+      "base_action": "examine",
+      "action_id": "ACTION-153"
+    },
+    {
+      "process": "exchanging",
+      "base_action": "exchange",
+      "action_id": "ACTION-154"
+    },
+    {
+      "process": "Executing",
+      "base_action": "execute",
+      "action_id": "ACTION-155"
+    },
+    {
+      "process": "executing",
+      "base_action": "execute",
+      "action_id": "ACTION-155"
+    },
+    {
+      "process": "expediting",
+      "base_action": "expedite",
+      "action_id": "ACTION-156"
+    },
+    {
+      "process": "Experimenting",
+      "base_action": "experiment",
+      "action_id": "ACTION-157"
+    },
+    {
+      "process": "experimenting",
+      "base_action": "experiment",
+      "action_id": "ACTION-157"
+    },
+    {
+      "process": "explaining",
+      "base_action": "explain",
+      "action_id": "ACTION-158"
+    },
+    {
+      "process": "exploring",
+      "base_action": "explore",
+      "action_id": "ACTION-159"
+    },
+    {
+      "process": "Exporting",
+      "base_action": "Export",
+      "action_id": "ACTION-160"
+    },
+    {
+      "process": "expressing",
+      "base_action": "express",
+      "action_id": "ACTION-161"
+    },
+    {
+      "process": "extending",
+      "base_action": "extend",
+      "action_id": "ACTION-162"
+    },
+    {
+      "process": "extracting",
+      "base_action": "extract",
+      "action_id": "ACTION-163"
+    },
+    {
+      "process": "extrapolating",
+      "base_action": "extrapolate",
+      "action_id": "ACTION-164"
+    },
+    {
+      "process": "fabricating",
+      "base_action": "fabricate",
+      "action_id": "ACTION-165"
+    },
+    {
+      "process": "facilitating",
+      "base_action": "facilitate",
+      "action_id": "ACTION-166"
+    },
+    {
+      "process": "Fetching",
+      "base_action": "Fetch",
+      "action_id": "ACTION-167"
+    },
+    {
+      "process": "filing",
+      "base_action": "file",
+      "action_id": "ACTION-168"
+    },
+    {
+      "process": "filling",
+      "base_action": "fill",
+      "action_id": "ACTION-169"
+    },
+    {
+      "process": "filming",
+      "base_action": "film",
+      "action_id": "ACTION-170"
+    },
+    {
+      "process": "Finalizing",
+      "base_action": "finalize",
+      "action_id": "ACTION-171"
+    },
+    {
+      "process": "finalizing",
+      "base_action": "finalize",
+      "action_id": "ACTION-171"
+    },
+    {
+      "process": "Fine-tuning",
+      "base_action": "fine-tune",
+      "action_id": "ACTION-172"
+    },
+    {
+      "process": "fine-tuning",
+      "base_action": "fine-tune",
+      "action_id": "ACTION-172"
+    },
+    {
+      "process": "flagging",
+      "base_action": "flag",
+      "action_id": "ACTION-173"
+    },
+    {
+      "process": "Focusing",
+      "base_action": "focus",
+      "action_id": "ACTION-174"
+    },
+    {
+      "process": "focusing",
+      "base_action": "focus",
+      "action_id": "ACTION-174"
+    },
+    {
+      "process": "following",
+      "base_action": "follow",
+      "action_id": "ACTION-175"
+    },
+    {
+      "process": "following up",
+      "base_action": "follow up",
+      "action_id": "ACTION-176"
+    },
+    {
+      "process": "forecasting",
+      "base_action": "forecast",
+      "action_id": "ACTION-177"
+    },
+    {
+      "process": "forming",
+      "base_action": "form",
+      "action_id": "ACTION-178"
+    },
+    {
+      "process": "formalizing",
+      "base_action": "formalize",
+      "action_id": "ACTION-179"
+    },
+    {
+      "process": "formatting",
+      "base_action": "format",
+      "action_id": "ACTION-180"
+    },
+    {
+      "process": "formulating",
+      "base_action": "formulate",
+      "action_id": "ACTION-181"
+    },
+    {
+      "process": "fortifying",
+      "base_action": "fortify",
+      "action_id": "ACTION-182"
+    },
+    {
+      "process": "fostering",
+      "base_action": "foster",
+      "action_id": "ACTION-183"
+    },
+    {
+      "process": "framing",
+      "base_action": "frame",
+      "action_id": "ACTION-184"
+    },
+    {
+      "process": "fulfilling",
+      "base_action": "fulfill",
+      "action_id": "ACTION-185"
+    },
+    {
+      "process": "gaining",
+      "base_action": "gain",
+      "action_id": "ACTION-186"
+    },
+    {
+      "process": "Gathering",
+      "base_action": "gather",
+      "action_id": "ACTION-187"
+    },
+    {
+      "process": "gathering",
+      "base_action": "gather",
+      "action_id": "ACTION-187"
+    },
+    {
+      "process": "gauging",
+      "base_action": "gauge",
+      "action_id": "ACTION-188"
+    },
+    {
+      "process": "Generating",
+      "base_action": "generate",
+      "action_id": "ACTION-189"
+    },
+    {
+      "process": "generating",
+      "base_action": "generate",
+      "action_id": "ACTION-189"
+    },
+    {
+      "process": "Getting",
+      "base_action": "get",
+      "action_id": "ACTION-190"
+    },
+    {
+      "process": "getting",
+      "base_action": "get",
+      "action_id": "ACTION-190"
+    },
+    {
+      "process": "governing",
+      "base_action": "govern",
+      "action_id": "ACTION-191"
+    },
+    {
+      "process": "grading",
+      "base_action": "grade",
+      "action_id": "ACTION-192"
+    },
+    {
+      "process": "grasping",
+      "base_action": "grasp",
+      "action_id": "ACTION-193"
+    },
+    {
+      "process": "guiding",
+      "base_action": "guide",
+      "action_id": "ACTION-194"
+    },
+    {
+      "process": "handling",
+      "base_action": "handle",
+      "action_id": "ACTION-195"
+    },
+    {
+      "process": "harnessing",
+      "base_action": "harness",
+      "action_id": "ACTION-196"
+    },
+    {
+      "process": "heightening",
+      "base_action": "heighten",
+      "action_id": "ACTION-197"
+    },
+    {
+      "process": "Highlighting",
+      "base_action": "highlight",
+      "action_id": "ACTION-198"
+    },
+    {
+      "process": "highlighting",
+      "base_action": "highlight",
+      "action_id": "ACTION-198"
+    },
+    {
+      "process": "Holding",
+      "base_action": "hold",
+      "action_id": "ACTION-199"
+    },
+    {
+      "process": "holding",
+      "base_action": "hold",
+      "action_id": "ACTION-199"
+    },
+    {
+      "process": "hosting",
+      "base_action": "host",
+      "action_id": "ACTION-200"
+    },
+    {
+      "process": "Identifying",
+      "base_action": "identify",
+      "action_id": "ACTION-201"
+    },
+    {
+      "process": "identifying",
+      "base_action": "identify",
+      "action_id": "ACTION-201"
+    },
+    {
+      "process": "illuminating",
+      "base_action": "illuminate",
+      "action_id": "ACTION-202"
+    },
+    {
+      "process": "Implementing",
+      "base_action": "implement",
+      "action_id": "ACTION-203"
+    },
+    {
+      "process": "implementing",
+      "base_action": "implement",
+      "action_id": "ACTION-203"
+    },
+    {
+      "process": "importing",
+      "base_action": "import",
+      "action_id": "ACTION-204"
+    },
+    {
+      "process": "Improving",
+      "base_action": "Improve",
+      "action_id": "ACTION-205"
+    },
+    {
+      "process": "improving",
+      "base_action": "Improve",
+      "action_id": "ACTION-205"
+    },
+    {
+      "process": "Including",
+      "base_action": "include",
+      "action_id": "ACTION-206"
+    },
+    {
+      "process": "including",
+      "base_action": "include",
+      "action_id": "ACTION-206"
+    },
+    {
+      "process": "Incorporating",
+      "base_action": "incorporate",
+      "action_id": "ACTION-207"
+    },
+    {
+      "process": "incorporating",
+      "base_action": "incorporate",
+      "action_id": "ACTION-207"
+    },
+    {
+      "process": "Increasing",
+      "base_action": "Increase",
+      "action_id": "ACTION-208"
+    },
+    {
+      "process": "increasing",
+      "base_action": "Increase",
+      "action_id": "ACTION-208"
+    },
+    {
+      "process": "influencing",
+      "base_action": "influence",
+      "action_id": "ACTION-209"
+    },
+    {
+      "process": "informing",
+      "base_action": "inform",
+      "action_id": "ACTION-210"
+    },
+    {
+      "process": "initiating",
+      "base_action": "initiate",
+      "action_id": "ACTION-211"
+    },
+    {
+      "process": "innovating",
+      "base_action": "innovate",
+      "action_id": "ACTION-212"
+    },
+    {
+      "process": "inputting",
+      "base_action": "input",
+      "action_id": "ACTION-213"
+    },
+    {
+      "process": "inspecting",
+      "base_action": "inspect",
+      "action_id": "ACTION-214"
+    },
+    {
+      "process": "inspiring",
+      "base_action": "inspire",
+      "action_id": "ACTION-215"
+    },
+    {
+      "process": "installing",
+      "base_action": "install",
+      "action_id": "ACTION-216"
+    },
+    {
+      "process": "instructing",
+      "base_action": "instruct",
+      "action_id": "ACTION-217"
+    },
+    {
+      "process": "Integrating",
+      "base_action": "integrate",
+      "action_id": "ACTION-218"
+    },
+    {
+      "process": "integrating",
+      "base_action": "integrate",
+      "action_id": "ACTION-218"
+    },
+    {
+      "process": "interpreting",
+      "base_action": "interpret",
+      "action_id": "ACTION-219"
+    },
+    {
+      "process": "intervening",
+      "base_action": "intervene",
+      "action_id": "ACTION-220"
+    },
+    {
+      "process": "introducing",
+      "base_action": "introduce",
+      "action_id": "ACTION-221"
+    },
+    {
+      "process": "inventing",
+      "base_action": "invent",
+      "action_id": "ACTION-222"
+    },
+    {
+      "process": "investigating",
+      "base_action": "investigate",
+      "action_id": "ACTION-223"
+    },
+    {
+      "process": "involving",
+      "base_action": "involve",
+      "action_id": "ACTION-224"
+    },
+    {
+      "process": "isolating",
+      "base_action": "isolate",
+      "action_id": "ACTION-225"
+    },
+    {
+      "process": "issuing",
+      "base_action": "issue",
+      "action_id": "ACTION-226"
+    },
+    {
+      "process": "itemizing",
+      "base_action": "itemize",
+      "action_id": "ACTION-227"
+    },
+    {
+      "process": "Iterating",
+      "base_action": "iterate",
+      "action_id": "ACTION-228"
+    },
+    {
+      "process": "iterating",
+      "base_action": "iterate",
+      "action_id": "ACTION-228"
+    },
+    {
+      "process": "joining",
+      "base_action": "join",
+      "action_id": "ACTION-229"
+    },
+    {
+      "process": "juxtaposing",
+      "base_action": "juxtapose",
+      "action_id": "ACTION-230"
+    },
+    {
+      "process": "keeping",
+      "base_action": "keep",
+      "action_id": "ACTION-231"
+    },
+    {
+      "process": "kickstarting",
+      "base_action": "kickstart",
+      "action_id": "ACTION-232"
+    },
+    {
+      "process": "labeling",
+      "base_action": "label",
+      "action_id": "ACTION-233"
+    },
+    {
+      "process": "launching",
+      "base_action": "launch",
+      "action_id": "ACTION-234"
+    },
+    {
+      "process": "layering",
+      "base_action": "layer",
+      "action_id": "ACTION-235"
+    },
+    {
+      "process": "Layouting",
+      "base_action": "layout",
+      "action_id": "ACTION-236"
+    },
+    {
+      "process": "laying out",
+      "base_action": "layout",
+      "action_id": "ACTION-236"
+    },
+    {
+      "process": "leading",
+      "base_action": "lead",
+      "action_id": "ACTION-237"
+    },
+    {
+      "process": "learning",
+      "base_action": "learn",
+      "action_id": "ACTION-238"
+    },
+    {
+      "process": "leveraging",
+      "base_action": "leverage",
+      "action_id": "ACTION-239"
+    },
+    {
+      "process": "liaising",
+      "base_action": "liaise",
+      "action_id": "ACTION-240"
+    },
+    {
+      "process": "lighting",
+      "base_action": "light",
+      "action_id": "ACTION-241"
+    },
+    {
+      "process": "Limiting",
+      "base_action": "Limit",
+      "action_id": "ACTION-242"
+    },
+    {
+      "process": "limiting",
+      "base_action": "Limit",
+      "action_id": "ACTION-242"
+    },
+    {
+      "process": "linking",
+      "base_action": "link",
+      "action_id": "ACTION-243"
+    },
+    {
+      "process": "listing",
+      "base_action": "list",
+      "action_id": "ACTION-244"
+    },
+    {
+      "process": "listening",
+      "base_action": "listen",
+      "action_id": "ACTION-245"
+    },
+    {
+      "process": "livestreaming",
+      "base_action": "livestream",
+      "action_id": "ACTION-246"
+    },
+    {
+      "process": "Loading",
+      "base_action": "Load",
+      "action_id": "ACTION-247"
+    },
+    {
+      "process": "locating",
+      "base_action": "locate",
+      "action_id": "ACTION-248"
+    },
+    {
+      "process": "locking",
+      "base_action": "lock",
+      "action_id": "ACTION-249"
+    },
+    {
+      "process": "logging",
+      "base_action": "log",
+      "action_id": "ACTION-250"
+    },
+    {
+      "process": "Maintaining",
+      "base_action": "maintain",
+      "action_id": "ACTION-251"
+    },
+    {
+      "process": "maintaining",
+      "base_action": "maintain",
+      "action_id": "ACTION-251"
+    },
+    {
+      "process": "Making",
+      "base_action": "make",
+      "action_id": "ACTION-252"
+    },
+    {
+      "process": "making",
+      "base_action": "make",
+      "action_id": "ACTION-252"
+    },
+    {
+      "process": "Managing",
+      "base_action": "manage",
+      "action_id": "ACTION-253"
+    },
+    {
+      "process": "managing",
+      "base_action": "manage",
+      "action_id": "ACTION-253"
+    },
+    {
+      "process": "Mapping",
+      "base_action": "map",
+      "action_id": "ACTION-254"
+    },
+    {
+      "process": "mapping",
+      "base_action": "map",
+      "action_id": "ACTION-254"
+    },
+    {
+      "process": "Mapping out",
+      "base_action": "map out",
+      "action_id": "ACTION-255"
+    },
+    {
+      "process": "mapping out",
+      "base_action": "map out",
+      "action_id": "ACTION-255"
+    },
+    {
+      "process": "marking",
+      "base_action": "mark",
+      "action_id": "ACTION-256"
+    },
+    {
+      "process": "masking",
+      "base_action": "mask",
+      "action_id": "ACTION-257"
+    },
+    {
+      "process": "matching",
+      "base_action": "match",
+      "action_id": "ACTION-258"
+    },
+    {
+      "process": "maximizing",
+      "base_action": "maximize",
+      "action_id": "ACTION-259"
+    },
+    {
+      "process": "measuring",
+      "base_action": "measure",
+      "action_id": "ACTION-260"
+    },
+    {
+      "process": "meeting",
+      "base_action": "meet",
+      "action_id": "ACTION-261"
+    },
+    {
+      "process": "Merging",
+      "base_action": "Merge",
+      "action_id": "ACTION-262"
+    },
+    {
+      "process": "merging",
+      "base_action": "Merge",
+      "action_id": "ACTION-262"
+    },
+    {
+      "process": "Minimizing",
+      "base_action": "Minimize",
+      "action_id": "ACTION-263"
+    },
+    {
+      "process": "minimizing",
+      "base_action": "Minimize",
+      "action_id": "ACTION-263"
+    },
+    {
+      "process": "modeling",
+      "base_action": "model",
+      "action_id": "ACTION-264"
+    },
+    {
+      "process": "Modifying",
+      "base_action": "modify",
+      "action_id": "ACTION-265"
+    },
+    {
+      "process": "modifying",
+      "base_action": "modify",
+      "action_id": "ACTION-265"
+    },
+    {
+      "process": "Monitoring",
+      "base_action": "monitor",
+      "action_id": "ACTION-266"
+    },
+    {
+      "process": "monitoring",
+      "base_action": "monitor",
+      "action_id": "ACTION-266"
+    },
+    {
+      "process": "morphing",
+      "base_action": "morph",
+      "action_id": "ACTION-267"
+    },
+    {
+      "process": "moving",
+      "base_action": "move",
+      "action_id": "ACTION-268"
+    },
+    {
+      "process": "narrating",
+      "base_action": "narrate",
+      "action_id": "ACTION-269"
+    },
+    {
+      "process": "negotiating",
+      "base_action": "negotiate",
+      "action_id": "ACTION-270"
+    },
+    {
+      "process": "normalizing",
+      "base_action": "normalize",
+      "action_id": "ACTION-271"
+    },
+    {
+      "process": "notifying",
+      "base_action": "note",
+      "action_id": "ACTION-272"
+    },
+    {
+      "process": "noting",
+      "base_action": "note",
+      "action_id": "ACTION-272"
+    },
+    {
+      "process": "notifying",
+      "base_action": "notify",
+      "action_id": "ACTION-273"
+    },
+    {
+      "process": "noting",
+      "base_action": "notify",
+      "action_id": "ACTION-273"
+    },
+    {
+      "process": "obtaining",
+      "base_action": "obtain",
+      "action_id": "ACTION-274"
+    },
+    {
+      "process": "offering",
+      "base_action": "offer",
+      "action_id": "ACTION-275"
+    },
+    {
+      "process": "Opening",
+      "base_action": "Open",
+      "action_id": "ACTION-276"
+    },
+    {
+      "process": "Optimizing",
+      "base_action": "optimize",
+      "action_id": "ACTION-277"
+    },
+    {
+      "process": "optimizing",
+      "base_action": "optimize",
+      "action_id": "ACTION-277"
+    },
+    {
+      "process": "organizing",
+      "base_action": "organize",
+      "action_id": "ACTION-278"
+    },
+    {
+      "process": "Outlining",
+      "base_action": "outline",
+      "action_id": "ACTION-279"
+    },
+    {
+      "process": "outlining",
+      "base_action": "outline",
+      "action_id": "ACTION-279"
+    },
+    {
+      "process": "overseeing",
+      "base_action": "oversee",
+      "action_id": "ACTION-280"
+    },
+    {
+      "process": "packaging",
+      "base_action": "package",
+      "action_id": "ACTION-281"
+    },
+    {
+      "process": "painting",
+      "base_action": "paint",
+      "action_id": "ACTION-282"
+    },
+    {
+      "process": "Performing",
+      "base_action": "perform",
+      "action_id": "ACTION-283"
+    },
+    {
+      "process": "performing",
+      "base_action": "perform",
+      "action_id": "ACTION-283"
+    },
+    {
+      "process": "personalizing",
+      "base_action": "personalize",
+      "action_id": "ACTION-284"
+    },
+    {
+      "process": "piloting",
+      "base_action": "pilot",
+      "action_id": "ACTION-285"
+    },
+    {
+      "process": "pivoting",
+      "base_action": "pivot",
+      "action_id": "ACTION-286"
+    },
+    {
+      "process": "placing",
+      "base_action": "place",
+      "action_id": "ACTION-287"
+    },
+    {
+      "process": "Planning",
+      "base_action": "plan",
+      "action_id": "ACTION-288"
+    },
+    {
+      "process": "planning",
+      "base_action": "plan",
+      "action_id": "ACTION-288"
+    },
+    {
+      "process": "plotting",
+      "base_action": "plot",
+      "action_id": "ACTION-289"
+    },
+    {
+      "process": "positioning",
+      "base_action": "position",
+      "action_id": "ACTION-290"
+    },
+    {
+      "process": "posting",
+      "base_action": "post",
+      "action_id": "ACTION-291"
+    },
+    {
+      "process": "Practicing",
+      "base_action": "Practice",
+      "action_id": "ACTION-292"
+    },
+    {
+      "process": "pre-approving",
+      "base_action": "pre-approve",
+      "action_id": "ACTION-293"
+    },
+    {
+      "process": "predicting",
+      "base_action": "predict",
+      "action_id": "ACTION-294"
+    },
+    {
+      "process": "Preparing",
+      "base_action": "prepare",
+      "action_id": "ACTION-295"
+    },
+    {
+      "process": "preparing",
+      "base_action": "prepare",
+      "action_id": "ACTION-295"
+    },
+    {
+      "process": "Presenting",
+      "base_action": "present",
+      "action_id": "ACTION-296"
+    },
+    {
+      "process": "presenting",
+      "base_action": "present",
+      "action_id": "ACTION-296"
+    },
+    {
+      "process": "Previewing",
+      "base_action": "preview",
+      "action_id": "ACTION-297"
+    },
+    {
+      "process": "previewing",
+      "base_action": "preview",
+      "action_id": "ACTION-297"
+    },
+    {
+      "process": "prioritizing",
+      "base_action": "prioritize",
+      "action_id": "ACTION-298"
+    },
+    {
+      "process": "processing",
+      "base_action": "process",
+      "action_id": "ACTION-299"
+    },
+    {
+      "process": "procuring",
+      "base_action": "procure",
+      "action_id": "ACTION-300"
+    },
+    {
+      "process": "producing",
+      "base_action": "produce",
+      "action_id": "ACTION-301"
+    },
+    {
+      "process": "profiling",
+      "base_action": "profile",
+      "action_id": "ACTION-302"
+    },
+    {
+      "process": "programming",
+      "base_action": "program",
+      "action_id": "ACTION-303"
+    },
+    {
+      "process": "proofreading",
+      "base_action": "proofread",
+      "action_id": "ACTION-304"
+    },
+    {
+      "process": "proposing",
+      "base_action": "propose",
+      "action_id": "ACTION-305"
+    },
+    {
+      "process": "Prototyping",
+      "base_action": "prototype",
+      "action_id": "ACTION-306"
+    },
+    {
+      "process": "prototyping",
+      "base_action": "prototype",
+      "action_id": "ACTION-306"
+    },
+    {
+      "process": "Providing",
+      "base_action": "provide",
+      "action_id": "ACTION-307"
+    },
+    {
+      "process": "providing",
+      "base_action": "provide",
+      "action_id": "ACTION-307"
+    },
+    {
+      "process": "Publishing",
+      "base_action": "publish",
+      "action_id": "ACTION-308"
+    },
+    {
+      "process": "publishing",
+      "base_action": "publish",
+      "action_id": "ACTION-308"
+    },
+    {
+      "process": "pulling",
+      "base_action": "pull",
+      "action_id": "ACTION-309"
+    },
+    {
+      "process": "Pushing",
+      "base_action": "Push",
+      "action_id": "ACTION-310"
+    },
+    {
+      "process": "re-engaging",
+      "base_action": "re-engage",
+      "action_id": "ACTION-311"
+    },
+    {
+      "process": "re-organizing",
+      "base_action": "re-organize",
+      "action_id": "ACTION-312"
+    },
+    {
+      "process": "re-publishing",
+      "base_action": "re-publish",
+      "action_id": "ACTION-313"
+    },
+    {
+      "process": "re-scripting",
+      "base_action": "re-script",
+      "action_id": "ACTION-314"
+    },
+    {
+      "process": "re-submitting",
+      "base_action": "re-submit",
+      "action_id": "ACTION-315"
+    },
+    {
+      "process": "reaching out",
+      "base_action": "reach out",
+      "action_id": "ACTION-316"
+    },
+    {
+      "process": "reallocating",
+      "base_action": "reallocate",
+      "action_id": "ACTION-317"
+    },
+    {
+      "process": "rearranging",
+      "base_action": "rearrange",
+      "action_id": "ACTION-318"
+    },
+    {
+      "process": "reassessing",
+      "base_action": "reassess",
+      "action_id": "ACTION-319"
+    },
+    {
+      "process": "reassigning",
+      "base_action": "reassign",
+      "action_id": "ACTION-320"
+    },
+    {
+      "process": "Receiving",
+      "base_action": "Receive",
+      "action_id": "ACTION-321"
+    },
+    {
+      "process": "receiving",
+      "base_action": "Receive",
+      "action_id": "ACTION-321"
+    },
+    {
+      "process": "recommending",
+      "base_action": "recommend",
+      "action_id": "ACTION-322"
+    },
+    {
+      "process": "Recording",
+      "base_action": "record",
+      "action_id": "ACTION-323"
+    },
+    {
+      "process": "recording",
+      "base_action": "record",
+      "action_id": "ACTION-323"
+    },
+    {
+      "process": "recruiting",
+      "base_action": "recruit",
+      "action_id": "ACTION-324"
+    },
+    {
+      "process": "rectifying",
+      "base_action": "rectify",
+      "action_id": "ACTION-325"
+    },
+    {
+      "process": "redefining",
+      "base_action": "redefine",
+      "action_id": "ACTION-326"
+    },
+    {
+      "process": "redesigning",
+      "base_action": "redesign",
+      "action_id": "ACTION-327"
+    },
+    {
+      "process": "redistributing",
+      "base_action": "redistribute",
+      "action_id": "ACTION-328"
+    },
+    {
+      "process": "redrafting",
+      "base_action": "redraft",
+      "action_id": "ACTION-329"
+    },
+    {
+      "process": "Reevaluating",
+      "base_action": "Reevaluate",
+      "action_id": "ACTION-330"
+    },
+    {
+      "process": "Refactoring",
+      "base_action": "Refactor",
+      "action_id": "ACTION-331"
+    },
+    {
+      "process": "refactoring",
+      "base_action": "Refactor",
+      "action_id": "ACTION-331"
+    },
+    {
+      "process": "Refining",
+      "base_action": "refine",
+      "action_id": "ACTION-332"
+    },
+    {
+      "process": "refining",
+      "base_action": "refine",
+      "action_id": "ACTION-332"
+    },
+    {
+      "process": "reflecting",
+      "base_action": "reflect",
+      "action_id": "ACTION-333"
+    },
+    {
+      "process": "Reformatting",
+      "base_action": "Reformat",
+      "action_id": "ACTION-334"
+    },
+    {
+      "process": "refreshing",
+      "base_action": "refresh",
+      "action_id": "ACTION-335"
+    },
+    {
+      "process": "regularly checking",
+      "base_action": "regularly check",
+      "action_id": "ACTION-336"
+    },
+    {
+      "process": "regularly updating",
+      "base_action": "regularly update",
+      "action_id": "ACTION-337"
+    },
+    {
+      "process": "rehearsing",
+      "base_action": "rehearse",
+      "action_id": "ACTION-338"
+    },
+    {
+      "process": "reinforcing",
+      "base_action": "reinforce",
+      "action_id": "ACTION-339"
+    },
+    {
+      "process": "reiterating",
+      "base_action": "reiterate",
+      "action_id": "ACTION-340"
+    },
+    {
+      "process": "reminding",
+      "base_action": "remind",
+      "action_id": "ACTION-341"
+    },
+    {
+      "process": "removing",
+      "base_action": "remove",
+      "action_id": "ACTION-342"
+    },
+    {
+      "process": "rendering",
+      "base_action": "render",
+      "action_id": "ACTION-343"
+    },
+    {
+      "process": "replacing",
+      "base_action": "replace",
+      "action_id": "ACTION-344"
+    },
+    {
+      "process": "reporting",
+      "base_action": "report",
+      "action_id": "ACTION-345"
+    },
+    {
+      "process": "republishing",
+      "base_action": "republish",
+      "action_id": "ACTION-346"
+    },
+    {
+      "process": "requesting",
+      "base_action": "request",
+      "action_id": "ACTION-347"
+    },
+    {
+      "process": "Researching",
+      "base_action": "research",
+      "action_id": "ACTION-348"
+    },
+    {
+      "process": "researching",
+      "base_action": "research",
+      "action_id": "ACTION-348"
+    },
+    {
+      "process": "resending",
+      "base_action": "resend",
+      "action_id": "ACTION-349"
+    },
+    {
+      "process": "reserving",
+      "base_action": "reserve",
+      "action_id": "ACTION-350"
+    },
+    {
+      "process": "Resolving",
+      "base_action": "Resolve",
+      "action_id": "ACTION-351"
+    },
+    {
+      "process": "resolving",
+      "base_action": "Resolve",
+      "action_id": "ACTION-351"
+    },
+    {
+      "process": "responding",
+      "base_action": "respond",
+      "action_id": "ACTION-352"
+    },
+    {
+      "process": "restoring",
+      "base_action": "restore",
+      "action_id": "ACTION-353"
+    },
+    {
+      "process": "restricting",
+      "base_action": "restrict",
+      "action_id": "ACTION-354"
+    },
+    {
+      "process": "Retaining",
+      "base_action": "Retain",
+      "action_id": "ACTION-355"
+    },
+    {
+      "process": "Retesting",
+      "base_action": "Retest",
+      "action_id": "ACTION-356"
+    },
+    {
+      "process": "retesting",
+      "base_action": "Retest",
+      "action_id": "ACTION-356"
+    },
+    {
+      "process": "Retrieving",
+      "base_action": "retrieve",
+      "action_id": "ACTION-357"
+    },
+    {
+      "process": "retrieving",
+      "base_action": "retrieve",
+      "action_id": "ACTION-357"
+    },
+    {
+      "process": "Reviewing",
+      "base_action": "review",
+      "action_id": "ACTION-358"
+    },
+    {
+      "process": "reviewing",
+      "base_action": "review",
+      "action_id": "ACTION-358"
+    },
+    {
+      "process": "reviewing and adjusting",
+      "base_action": "review and adjust",
+      "action_id": "ACTION-359"
+    },
+    {
+      "process": "Revising",
+      "base_action": "revise",
+      "action_id": "ACTION-360"
+    },
+    {
+      "process": "revising",
+      "base_action": "revise",
+      "action_id": "ACTION-360"
+    },
+    {
+      "process": "revisiting",
+      "base_action": "revisit",
+      "action_id": "ACTION-361"
+    },
+    {
+      "process": "rewriting",
+      "base_action": "rewrite",
+      "action_id": "ACTION-362"
+    },
+    {
+      "process": "rigging",
+      "base_action": "rig",
+      "action_id": "ACTION-363"
+    },
+    {
+      "process": "Rolling out",
+      "base_action": "roll out",
+      "action_id": "ACTION-364"
+    },
+    {
+      "process": "rolling out",
+      "base_action": "roll out",
+      "action_id": "ACTION-364"
+    },
+    {
+      "process": "Running",
+      "base_action": "run",
+      "action_id": "ACTION-365"
+    },
+    {
+      "process": "running",
+      "base_action": "run",
+      "action_id": "ACTION-365"
+    },
+    {
+      "process": "saving",
+      "base_action": "save",
+      "action_id": "ACTION-366"
+    },
+    {
+      "process": "scaling",
+      "base_action": "scale",
+      "action_id": "ACTION-367"
+    },
+    {
+      "process": "scheduling",
+      "base_action": "schedule",
+      "action_id": "ACTION-368"
+    },
+    {
+      "process": "scripting",
+      "base_action": "script",
+      "action_id": "ACTION-369"
+    },
+    {
+      "process": "sculpting",
+      "base_action": "sculpt",
+      "action_id": "ACTION-370"
+    },
+    {
+      "process": "securing",
+      "base_action": "secure",
+      "action_id": "ACTION-371"
+    },
+    {
+      "process": "seeing",
+      "base_action": "see",
+      "action_id": "ACTION-372"
+    },
+    {
+      "process": "seeking",
+      "base_action": "seek",
+      "action_id": "ACTION-373"
+    },
+    {
+      "process": "segmenting",
+      "base_action": "segment",
+      "action_id": "ACTION-374"
+    },
+    {
+      "process": "segregating",
+      "base_action": "segregate",
+      "action_id": "ACTION-375"
+    },
+    {
+      "process": "Selecting",
+      "base_action": "select",
+      "action_id": "ACTION-376"
+    },
+    {
+      "process": "selecting",
+      "base_action": "select",
+      "action_id": "ACTION-376"
+    },
+    {
+      "process": "sending",
+      "base_action": "send",
+      "action_id": "ACTION-377"
+    },
+    {
+      "process": "Sequencing",
+      "base_action": "sequence",
+      "action_id": "ACTION-378"
+    },
+    {
+      "process": "sequencing",
+      "base_action": "sequence",
+      "action_id": "ACTION-378"
+    },
+    {
+      "process": "Setting",
+      "base_action": "set",
+      "action_id": "ACTION-379"
+    },
+    {
+      "process": "setting",
+      "base_action": "set",
+      "action_id": "ACTION-379"
+    },
+    {
+      "process": "Setting up",
+      "base_action": "set up",
+      "action_id": "ACTION-380"
+    },
+    {
+      "process": "setting up",
+      "base_action": "set up",
+      "action_id": "ACTION-380"
+    },
+    {
+      "process": "Sharing",
+      "base_action": "share",
+      "action_id": "ACTION-381"
+    },
+    {
+      "process": "sharing",
+      "base_action": "share",
+      "action_id": "ACTION-381"
+    },
+    {
+      "process": "shooting",
+      "base_action": "shoot",
+      "action_id": "ACTION-382"
+    },
+    {
+      "process": "Simplifying",
+      "base_action": "simplify",
+      "action_id": "ACTION-383"
+    },
+    {
+      "process": "simplifying",
+      "base_action": "simplify",
+      "action_id": "ACTION-383"
+    },
+    {
+      "process": "Simulating",
+      "base_action": "simulate",
+      "action_id": "ACTION-384"
+    },
+    {
+      "process": "simulating",
+      "base_action": "simulate",
+      "action_id": "ACTION-384"
+    },
+    {
+      "process": "Sketching",
+      "base_action": "sketch",
+      "action_id": "ACTION-385"
+    },
+    {
+      "process": "sketching",
+      "base_action": "sketch",
+      "action_id": "ACTION-385"
+    },
+    {
+      "process": "soliciting",
+      "base_action": "solicit",
+      "action_id": "ACTION-386"
+    },
+    {
+      "process": "sorting",
+      "base_action": "sort",
+      "action_id": "ACTION-387"
+    },
+    {
+      "process": "sourcing",
+      "base_action": "source",
+      "action_id": "ACTION-388"
+    },
+    {
+      "process": "Specifying",
+      "base_action": "specify",
+      "action_id": "ACTION-389"
+    },
+    {
+      "process": "specifying",
+      "base_action": "specify",
+      "action_id": "ACTION-389"
+    },
+    {
+      "process": "stabilizing",
+      "base_action": "stabilize",
+      "action_id": "ACTION-390"
+    },
+    {
+      "process": "Standardizing",
+      "base_action": "standardize",
+      "action_id": "ACTION-391"
+    },
+    {
+      "process": "standardizing",
+      "base_action": "standardize",
+      "action_id": "ACTION-391"
+    },
+    {
+      "process": "Starting",
+      "base_action": "start",
+      "action_id": "ACTION-392"
+    },
+    {
+      "process": "starting",
+      "base_action": "start",
+      "action_id": "ACTION-392"
+    },
+    {
+      "process": "storing",
+      "base_action": "store",
+      "action_id": "ACTION-393"
+    },
+    {
+      "process": "storyboarding",
+      "base_action": "storyboard",
+      "action_id": "ACTION-394"
+    },
+    {
+      "process": "Streamlining",
+      "base_action": "Streamline",
+      "action_id": "ACTION-395"
+    },
+    {
+      "process": "streamlining",
+      "base_action": "Streamline",
+      "action_id": "ACTION-395"
+    },
+    {
+      "process": "Structuring",
+      "base_action": "Structure",
+      "action_id": "ACTION-396"
+    },
+    {
+      "process": "Studying",
+      "base_action": "study",
+      "action_id": "ACTION-397"
+    },
+    {
+      "process": "studying",
+      "base_action": "study",
+      "action_id": "ACTION-397"
+    },
+    {
+      "process": "Styling",
+      "base_action": "style",
+      "action_id": "ACTION-398"
+    },
+    {
+      "process": "styling",
+      "base_action": "style",
+      "action_id": "ACTION-398"
+    },
+    {
+      "process": "submitting",
+      "base_action": "submit",
+      "action_id": "ACTION-399"
+    },
+    {
+      "process": "suggesting",
+      "base_action": "suggest",
+      "action_id": "ACTION-400"
+    },
+    {
+      "process": "summarizing",
+      "base_action": "summarize",
+      "action_id": "ACTION-401"
+    },
+    {
+      "process": "Syncing",
+      "base_action": "sync",
+      "action_id": "ACTION-402"
+    },
+    {
+      "process": "syncing",
+      "base_action": "sync",
+      "action_id": "ACTION-402"
+    },
+    {
+      "process": "Synchronizing",
+      "base_action": "synchronize",
+      "action_id": "ACTION-403"
+    },
+    {
+      "process": "synchronizing",
+      "base_action": "synchronize",
+      "action_id": "ACTION-403"
+    },
+    {
+      "process": "synthesizing",
+      "base_action": "synthesize",
+      "action_id": "ACTION-404"
+    },
+    {
+      "process": "Tailoring",
+      "base_action": "tailor",
+      "action_id": "ACTION-405"
+    },
+    {
+      "process": "tailoring",
+      "base_action": "tailor",
+      "action_id": "ACTION-405"
+    },
+    {
+      "process": "taking",
+      "base_action": "take",
+      "action_id": "ACTION-406"
+    },
+    {
+      "process": "Testing",
+      "base_action": "test",
+      "action_id": "ACTION-407"
+    },
+    {
+      "process": "testing",
+      "base_action": "test",
+      "action_id": "ACTION-407"
+    },
+    {
+      "process": "thanking",
+      "base_action": "thank",
+      "action_id": "ACTION-408"
+    },
+    {
+      "process": "tracking",
+      "base_action": "track",
+      "action_id": "ACTION-409"
+    },
+    {
+      "process": "Training",
+      "base_action": "train",
+      "action_id": "ACTION-410"
+    },
+    {
+      "process": "training",
+      "base_action": "train",
+      "action_id": "ACTION-410"
+    },
+    {
+      "process": "transcribing",
+      "base_action": "transcribe",
+      "action_id": "ACTION-411"
+    },
+    {
+      "process": "transferring",
+      "base_action": "transfer",
+      "action_id": "ACTION-412"
+    },
+    {
+      "process": "translating",
+      "base_action": "translate",
+      "action_id": "ACTION-413"
+    },
+    {
+      "process": "troubleshooting",
+      "base_action": "troubleshoot",
+      "action_id": "ACTION-414"
+    },
+    {
+      "process": "Tweaking",
+      "base_action": "Tweak",
+      "action_id": "ACTION-415"
+    },
+    {
+      "process": "tweaking",
+      "base_action": "Tweak",
+      "action_id": "ACTION-415"
+    },
+    {
+      "process": "understanding",
+      "base_action": "understand",
+      "action_id": "ACTION-416"
+    },
+    {
+      "process": "Updating",
+      "base_action": "update",
+      "action_id": "ACTION-417"
+    },
+    {
+      "process": "updating",
+      "base_action": "update",
+      "action_id": "ACTION-417"
+    },
+    {
+      "process": "Uploading",
+      "base_action": "upload",
+      "action_id": "ACTION-418"
+    },
+    {
+      "process": "uploading",
+      "base_action": "upload",
+      "action_id": "ACTION-418"
+    },
+    {
+      "process": "upscaling",
+      "base_action": "upscale",
+      "action_id": "ACTION-419"
+    },
+    {
+      "process": "Using",
+      "base_action": "use",
+      "action_id": "ACTION-420"
+    },
+    {
+      "process": "using",
+      "base_action": "use",
+      "action_id": "ACTION-420"
+    },
+    {
+      "process": "Utilizing",
+      "base_action": "utilize",
+      "action_id": "ACTION-421"
+    },
+    {
+      "process": "utilizing",
+      "base_action": "utilize",
+      "action_id": "ACTION-421"
+    },
+    {
+      "process": "Validating",
+      "base_action": "validate",
+      "action_id": "ACTION-422"
+    },
+    {
+      "process": "validating",
+      "base_action": "validate",
+      "action_id": "ACTION-422"
+    },
+    {
+      "process": "Verifying",
+      "base_action": "verify",
+      "action_id": "ACTION-423"
+    },
+    {
+      "process": "verifying",
+      "base_action": "verify",
+      "action_id": "ACTION-423"
+    },
+    {
+      "process": "visualizing",
+      "base_action": "visualize",
+      "action_id": "ACTION-424"
+    },
+    {
+      "process": "visually highlighting",
+      "base_action": "visually",
+      "action_id": "ACTION-425"
+    },
+    {
+      "process": "watching",
+      "base_action": "watch",
+      "action_id": "ACTION-426"
+    },
+    {
+      "process": "weaving",
+      "base_action": "weave",
+      "action_id": "ACTION-427"
+    },
+    {
+      "process": "workshopping",
+      "base_action": "workshop",
+      "action_id": "ACTION-428"
+    },
+    {
+      "process": "Writing",
+      "base_action": "write",
+      "action_id": "ACTION-429"
+    },
+    {
+      "process": "writing",
+      "base_action": "write",
+      "action_id": "ACTION-429"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "step_template_id": "Step-Template-021",
+  "step_template_name": "Review Tool Validation Report",
+  "metadata": {
+    "status": "Active"
+  },
+  "parent_task": {
+    "task_id": "TASK-TEMPLATE-VIDEO-301",
+    "task_name": "Create and Update Tool Entries in Libraries"
+  },
+  "step_details": {
+    "step_number": 1,
+    "order": 1,
+    "action": "review",
+    "detail": "Review tool validation report from TASK-TEMPLATE-VIDEO-005 to identify new vs existing tools",
+    "expected_duration": 1
+  },
+  "execution": {
+    "tool_used": "Tool validation report",
+    "inputs": [
+      "Tool validation report with NEW/EXISTING classification"
+    ],
+    "outputs": [
+      "Clear action plan: which tools to create, which to enrich"
+    ],
+    "success_criteria": "Complete understanding of what needs to be created vs updated"
+  },
+  "relationships": {
+    "dependencies": [],
+    "next_steps": [
+      "STEP-VIDEO-301-02"
+    ],
+    "parallel_steps": []
+  }
+}

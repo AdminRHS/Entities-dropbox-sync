@@ -1,0 +1,77 @@
+Entity_ID,Entity_Name,Entity_Type,Department,Category,File_Path,Count,Status
+RSP-001,Core Responsibilities,Responsibilities,Multi-Department,Core,LIBRARIES/Responsibilities/Core/responsibilities_master.json,193,Active
+RSP-002,AI Responsibilities,Responsibilities,AI,Department-Specific,LIBRARIES/Responsibilities/Core/By_Department/AI_Responsibilities.json,80,Active
+RSP-003,DEV Responsibilities,Responsibilities,Development,Department-Specific,LIBRARIES/Responsibilities/Core/By_Department/DEV_Responsibilities.json,34,Active
+RSP-004,HR Responsibilities,Responsibilities,Human Resources,Department-Specific,LIBRARIES/Responsibilities/Core/By_Department/HR_Responsibilities.json,6,Active
+RSP-005,LG Responsibilities,Responsibilities,Lead Generation,Department-Specific,LIBRARIES/Responsibilities/Core/By_Department/LG_Responsibilities.json,64,Active
+ACT-001,Actions Master,Actions,Multi-Department,Master,LIBRARIES/Responsibilities/Actions/Actions_Master.json,429,Active
+ACT-002,Command Verbs,Actions,Multi-Department,Verb Type,LIBRARIES/Responsibilities/Actions/Actions_Master_Command_Verbs.json,143,Active
+ACT-003,Process Verbs,Actions,Multi-Department,Verb Type,LIBRARIES/Responsibilities/Actions/Actions_Master_Process_Verbs.json,143,Active
+ACT-004,Result Verbs,Actions,Multi-Department,Verb Type,LIBRARIES/Responsibilities/Actions/Actions_Master_Result_Verbs.json,143,Active
+ACT-005,Video Generation Actions,Actions,Video Production,Domain-Specific,LIBRARIES/Responsibilities/Actions/Video_Generation_Actions.json,50,Active
+OBJ-001,Agentic Engineering Objects,Objects,AI,Domain,LIBRARIES/Responsibilities/Objects/Agentic_Engineering_Objects.json,13,Active
+OBJ-002,AI Automation Objects,Objects,AI,Domain,LIBRARIES/Responsibilities/Objects/AI_Automation_Objects.json,10,Active
+OBJ-003,Lead Generation Objects,Objects,Lead Generation,Domain,LIBRARIES/Responsibilities/Objects/Lead_Generation_Objects.json,10,Active
+OBJ-004,RAG Objects,Objects,AI,Domain,LIBRARIES/Responsibilities/Objects/RAG_Objects.json,6,Active
+OBJ-005,Design Deliverables,Objects,Design,Domain,LIBRARIES/Responsibilities/Objects/Design_Deliverables.json,8,Active
+OBJ-006,Development Objects,Objects,Development,Domain,LIBRARIES/Responsibilities/Objects/Development_Objects.json,12,Active
+OBJ-007,Video Deliverables,Objects,Video Production,Domain,LIBRARIES/Responsibilities/Objects/Video_Deliverables.json,15,Active
+OBJ-008,Video Generation Objects,Objects,Video Production,Domain,LIBRARIES/Responsibilities/Objects/Video_Generation_Objects.json,8,Active
+OBJ-009,Social Media Deliverables,Objects,Marketing,Domain,LIBRARIES/Responsibilities/Objects/Social_Media_Deliverables.json,10,Active
+OBJ-010,Recruitment Objects,Objects,Human Resources,Domain,LIBRARIES/Responsibilities/Objects/Recruitment_Objects.json,6,Active
+OBJ-011,Documents,Objects,Multi-Department,General,LIBRARIES/Responsibilities/Objects/Documents.json,12,Active
+OBJ-012,Interactive Elements,Objects,Design,Domain,LIBRARIES/Responsibilities/Objects/Interactive_Elements.json,7,Active
+OBJ-013,Portfolio Deliverables,Objects,Design,Domain,LIBRARIES/Responsibilities/Objects/Portfolio_Deliverables.json,5,Active
+OBJ-014,Publishing Deliverables,Objects,Marketing,Domain,LIBRARIES/Responsibilities/Objects/Publishing_Deliverables.json,8,Active
+OBJ-015,Mascot Sets,Objects,Design,Domain,LIBRARIES/Responsibilities/Objects/Mascot_Sets.json,4,Active
+OBJ-016,Online Academy Lessons,Objects,Marketing,Domain,LIBRARIES/Responsibilities/Objects/Online_Academy_Lessons.json,6,Active
+OBJ-017,Catalog Documentation,Objects,Multi-Department,General,LIBRARIES/Responsibilities/Objects/Catalog_Documentation.json,5,Active
+PRM-001,Designers Parameters,Parameters,Design,By Profession,LIBRARIES/Responsibilities/Parameters/organized_by_profession/graphic_designer_parameters.json,25,Active
+PRM-002,Developers Parameters,Parameters,Development,By Profession,LIBRARIES/Responsibilities/Parameters/organized_by_profession/back_end_developer_parameters.json,30,Active
+PRM-003,Lead Generator Parameters,Parameters,Lead Generation,By Profession,LIBRARIES/Responsibilities/Parameters/organized_by_profession/lead_generator_parameters.json,28,Active
+PRM-004,Recruiter Parameters,Parameters,Human Resources,By Profession,LIBRARIES/Responsibilities/Parameters/organized_by_profession/recruiter_parameters.json,22,Active
+PRM-005,Project Manager Parameters,Parameters,Operations,By Profession,LIBRARIES/Responsibilities/Parameters/organized_by_profession/project_manager_parameters.json,24,Active
+PRM-006,Sales Manager Parameters,Parameters,Sales,By Profession,LIBRARIES/Responsibilities/Parameters/organized_by_profession/sales_manager_parameters.json,20,Active
+PRM-007,SEO Manager Parameters,Parameters,Marketing,By Profession,LIBRARIES/Responsibilities/Parameters/organized_by_profession/seo_manager_parameters.json,18,Active
+PRM-008,General Parameters,Parameters,Multi-Department,General,LIBRARIES/Responsibilities/Parameters/organized_by_profession/general_parameters.json,35,Active
+TOL-001,AI Tools Master Listing,Tools,AI,Category,LIBRARIES/Tools/AI_Tools/AI_Tools_Master_Listing.json,80,Active
+TOL-002,Claude,Tools,AI,AI Platform,LIBRARIES/Tools/AI_Tools/Claude.json,1,Active
+TOL-003,ChatGPT,Tools,AI,AI Platform,LIBRARIES/Tools/AI_Tools/ChatGPT.json,1,Active
+TOL-004,Gemini,Tools,AI,AI Platform,LIBRARIES/Tools/AI_Tools/Gemini.json,1,Active
+TOL-005,Midjourney,Tools,AI,Image Generation,LIBRARIES/Tools/AI_Tools/Midjourney.json,1,Active
+TOL-006,Leonardo AI,Tools,AI,Image Generation,LIBRARIES/Tools/AI_Tools/Leonardo_AI.json,1,Active
+TOL-007,Video Generation AI Tools,Tools,Video Production,Video AI,LIBRARIES/Tools/AI_Tools/Video Generation,14,Active
+TOL-008,Development Tools,Tools,Development,Category,LIBRARIES/Tools/Development_Tools,25,Active
+TOL-009,Automation Tools,Tools,Operations,Category,LIBRARIES/Tools/Automation_Tools,6,Active
+TOL-010,Databases,Tools,Development,Category,LIBRARIES/Tools/Databases,7,Active
+TOL-011,Cloud Platforms,Tools,Operations,Category,LIBRARIES/Tools/Cloud_Platforms,6,Active
+TOL-012,Social Media Platforms,Tools,Marketing,Category,LIBRARIES/Tools/Social_Media_Platforms,6,Active
+TOL-013,Business Tools,Tools,Operations,Category,LIBRARIES/Tools/Business_Tools,4,Active
+TOL-014,Data Tools,Tools,Development,Category,LIBRARIES/Tools/Data_Tools,3,Active
+TOL-015,Integration Tools,Tools,Development,Category,LIBRARIES/Tools/Integration_Tools,3,Active
+TOL-016,Authentication Tools,Tools,Development,Category,LIBRARIES/Tools/Authentication_Tools,1,Active
+TOL-017,Security Tools,Tools,Operations,Category,LIBRARIES/Tools/Security_Tools,1,Active
+TOL-018,Payment Tools,Tools,Operations,Category,LIBRARIES/Tools/Payment_Tools,1,Active
+TOL-019,File Management,Tools,Operations,Category,LIBRARIES/Tools/File_Management,1,Active
+TOL-020,Video Editing Tools,Tools,Video Production,Category,LIBRARIES/Tools/Video_Editing_Tools,1,Active
+TOL-021,Web Tools,Tools,Development,Category,LIBRARIES/Tools/Web_Tools,3,Active
+PRF-001,AI Engineer,Professions,AI,Role,LIBRARIES/Professions/AI_Engineer.json,1,Active
+PRF-002,Automation Engineer,Professions,AI,Role,LIBRARIES/Professions/Automation_Engineer.json,1,Active
+PRF-003,Automation Specialist,Professions,AI,Role,LIBRARIES/Professions/Automation_Specialist.json,1,Active
+PRF-004,Backend Developer,Professions,Development,Role,LIBRARIES/Professions/Backend_Developer.json,1,Active
+PRF-005,Developer,Professions,Development,Role,LIBRARIES/Professions/Developer.json,1,Active
+PRF-006,Designer,Professions,Design,Role,LIBRARIES/Professions/Designer.json,1,Active
+PRF-007,Lead Generator,Professions,Lead Generation,Role,LIBRARIES/Professions/Lead_Generator.json,1,Active
+PRF-008,Marketer,Professions,Marketing,Role,LIBRARIES/Professions/Marketer.json,1,Active
+PRF-009,Recruiter,Professions,Human Resources,Role,LIBRARIES/Professions/Recruiter.json,1,Active
+PRF-010,Account Executive,Professions,Sales,Role,LIBRARIES/Professions/Account_Executive.json,1,Active
+PRF-011,Customer Success Manager,Professions,Sales,Role,LIBRARIES/Professions/Customer_Success_Manager.json,1,Active
+PRF-012,Executive Assistant,Professions,Operations,Role,LIBRARIES/Professions/Executive_Assistant.json,1,Active
+PRF-013,Operations Manager,Professions,Operations,Role,LIBRARIES/Professions/Operations_Manager.json,1,Active
+PRF-014,SDR,Professions,Sales,Role,LIBRARIES/Professions/SDR.json,1,Active
+PRF-015,SMM Specialist,Professions,Marketing,Role,LIBRARIES/Professions/SMM_Specialist.json,1,Active
+PRF-016,Videographer,Professions,Video Production,Role,LIBRARIES/Professions/Videographer.json,1,Active
+PRF-017,Professions Master,Professions,Multi-Department,Master,LIBRARIES/Professions/professions.json,17,Active
+DPT-001,Departments Master,Departments,Multi-Department,Master,LIBRARIES/DEPARTMENTS/departments.json,10,Active
+DPT-002,AI Department Data,Departments,AI,Department-Specific,LIBRARIES/DEPARTMENTS/By_Department/AI,9,Active
+DPT-003,SMM Department Data,Departments,Marketing,Department-Specific,LIBRARIES/DEPARTMENTS/By_Department/SMM,2,In Progress

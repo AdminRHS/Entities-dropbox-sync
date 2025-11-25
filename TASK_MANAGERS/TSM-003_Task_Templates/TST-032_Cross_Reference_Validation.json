@@ -1,0 +1,27 @@
+{
+  "task_template_id": "Task-Template-032",
+  "task_template_name": "Cross-Reference Validation",
+  "category": "Validation",
+  "department": "AI",
+  "description": "Validate all cross-references between entities (Products→Tools, Actions, etc.)",
+  "estimated_hours": 1.5,
+  "step_templates": [
+    {
+      "step_template_id": "STEP-ANALYSIS-010-01",
+      "step_template_name": "Extract all reference IDs"
+    },
+    {
+      "step_template_id": "STEP-ANALYSIS-010-02",
+      "step_template_name": "Validate references exist"
+    },
+    {
+      "step_template_id": "STEP-ANALYSIS-010-03",
+      "step_template_name": "Check bidirectional links"
+    },
+    {
+      "step_template_id": "STEP-ANALYSIS-010-04",
+      "step_template_name": "Document broken references"
+    }
+  ],
+  "version": "1.0"
+}

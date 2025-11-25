@@ -1,0 +1,192 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Statuses Library",
+  "description": "Central repository of all status types used across ENTITIES ecosystem",
+  "version": "1.0",
+  "last_updated": "2025-11-18",
+  "statuses": {
+    "account_statuses": [
+      {
+        "status_id": "active",
+        "name": "Active",
+        "description": "Account is active and operational",
+        "color": "#28a745",
+        "icon": "check-circle",
+        "is_terminal": false,
+        "allows_operations": true
+      },
+      {
+        "status_id": "inactive",
+        "name": "Inactive",
+        "description": "Account is not currently in use",
+        "color": "#6c757d",
+        "icon": "pause-circle",
+        "is_terminal": false,
+        "allows_operations": false
+      },
+      {
+        "status_id": "suspended",
+        "name": "Suspended",
+        "description": "Account has been suspended (temporary)",
+        "color": "#ffc107",
+        "icon": "exclamation-triangle",
+        "is_terminal": false,
+        "allows_operations": false
+      },
+      {
+        "status_id": "pending_verification",
+        "name": "Pending Verification",
+        "description": "Account awaiting verification",
+        "color": "#17a2b8",
+        "icon": "clock",
+        "is_terminal": false,
+        "allows_operations": false
+      },
+      {
+        "status_id": "expired",
+        "name": "Expired",
+        "description": "Account or subscription has expired",
+        "color": "#dc3545",
+        "icon": "times-circle",
+        "is_terminal": false,
+        "allows_operations": false
+      },
+      {
+        "status_id": "archived",
+        "name": "Archived",
+        "description": "Account has been archived (long-term inactive)",
+        "color": "#343a40",
+        "icon": "archive",
+        "is_terminal": true,
+        "allows_operations": false
+      }
+    ],
+    "subscription_statuses": [
+      {
+        "status_id": "active",
+        "name": "Active",
+        "description": "Subscription is currently active",
+        "color": "#28a745",
+        "icon": "check-circle",
+        "is_billable": true
+      },
+      {
+        "status_id": "pending",
+        "name": "Pending",
+        "description": "Subscription is pending activation",
+        "color": "#17a2b8",
+        "icon": "hourglass-half",
+        "is_billable": false
+      },
+      {
+        "status_id": "expired",
+        "name": "Expired",
+        "description": "Subscription has expired",
+        "color": "#dc3545",
+        "icon": "calendar-times",
+        "is_billable": false
+      },
+      {
+        "status_id": "cancelled",
+        "name": "Cancelled",
+        "description": "Subscription has been cancelled",
+        "color": "#6c757d",
+        "icon": "ban",
+        "is_billable": false
+      },
+      {
+        "status_id": "suspended",
+        "name": "Suspended",
+        "description": "Subscription is temporarily suspended",
+        "color": "#ffc107",
+        "icon": "pause",
+        "is_billable": false
+      },
+      {
+        "status_id": "trial",
+        "name": "Trial",
+        "description": "Subscription is in trial period",
+        "color": "#007bff",
+        "icon": "star",
+        "is_billable": false
+      }
+    ],
+    "verification_statuses": [
+      {
+        "status_id": "verified",
+        "name": "Verified",
+        "description": "Successfully verified",
+        "color": "#28a745",
+        "icon": "shield-check"
+      },
+      {
+        "status_id": "pending_verification",
+        "name": "Pending Verification",
+        "description": "Verification in progress",
+        "color": "#17a2b8",
+        "icon": "shield-alt"
+      },
+      {
+        "status_id": "not_verified",
+        "name": "Not Verified",
+        "description": "Not yet verified",
+        "color": "#dc3545",
+        "icon": "shield-exclamation"
+      },
+      {
+        "status_id": "verification_not_required",
+        "name": "Verification Not Required",
+        "description": "Account does not require verification",
+        "color": "#6c757d",
+        "icon": "shield"
+      }
+    ],
+    "payment_statuses": [
+      {
+        "status_id": "pending",
+        "name": "Pending",
+        "description": "Payment is pending processing",
+        "color": "#17a2b8",
+        "icon": "clock"
+      },
+      {
+        "status_id": "completed",
+        "name": "Completed",
+        "description": "Payment has been completed successfully",
+        "color": "#28a745",
+        "icon": "check-circle"
+      },
+      {
+        "status_id": "failed",
+        "name": "Failed",
+        "description": "Payment failed",
+        "color": "#dc3545",
+        "icon": "times-circle"
+      },
+      {
+        "status_id": "refunded",
+        "name": "Refunded",
+        "description": "Payment has been refunded",
+        "color": "#ffc107",
+        "icon": "undo"
+      },
+      {
+        "status_id": "cancelled",
+        "name": "Cancelled",
+        "description": "Payment was cancelled",
+        "color": "#6c757d",
+        "icon": "ban"
+      }
+    ]
+  },
+  "metadata": {
+    "usage": "Reference this library for consistent status values across all entities",
+    "integration_points": [
+      "ACCOUNTS/accounts.status_id",
+      "ACCOUNTS/job_accounts.status_id",
+      "ACCOUNTS/verifications.verification_status",
+      "ACCOUNTS/subscriptions.status_id",
+      "ACCOUNTS/payments.payment_status"
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "id": "<number>",
+  "company_id": "<string>",
+  "name": "<string>",
+  "status_addition": "<string>",
+  "position_id": "<string>",
+  "status_id": "<string>",
+  "full_price": null,
+  "part_price": null,
+  "minimum_price": null,
+  "currency_id": null,
+  "actual": "<string>",
+  "url_meet": null,
+  "created_at": "<datetime>",
+  "updated_at": "<datetime>",
+  "department_id": "<string>"
+}

@@ -1,0 +1,282 @@
+{
+  "entity_type": "TASK_MANAGERS",
+  "sub_entity": "Task_Template",
+  "template_id": "Task-Template-066",
+  "version": "1.0",
+  "created_date": "2025-11-17",
+  "last_updated": "2025-11-17",
+  "metadata": {
+    "name": "Create Reusable Prompt Template for Recurring Task",
+    "description": "Design, test, and document a reusable AI prompt template for tasks you perform repeatedly to ensure consistency and save time",
+    "action": "Create",
+    "object": "Reusable Prompt Template",
+    "context": "Prompt Engineering for Recurring Workflows",
+    "department": "All",
+    "complexity": "Low-Medium",
+    "estimated_duration": "30-60 minutes (per template)",
+    "skill_level_required": "Beginner-Intermediate",
+    "tools_required": [
+      "TOOL-116 (Custom Prompt Templates)",
+      "AI tool (ChatGPT, Claude, Copilot, Dash)",
+      "Documentation tool (Notion, Google Docs, etc.)"
+    ],
+    "prerequisites": [
+      "Identified recurring task suitable for AI assistance",
+      "Access to AI tool (ChatGPT, Claude, Copilot, etc.)",
+      "Basic understanding of prompt engineering",
+      "Storage location for template library (Notion, Docs, etc.)"
+    ]
+  },
+  "workflow": {
+    "phase": "optimization",
+    "workflow_id": "WF-PM-014",
+    "dependencies": [],
+    "outputs": [
+      "Tested, reusable prompt template",
+      "Template documented with usage instructions",
+      "Template stored in accessible library",
+      "Time saved on future instances of task (10-30 minutes per use)"
+    ]
+  },
+  "steps": [
+    {
+      "step_number": 1,
+      "step_id": "STEP-PM-066-01",
+      "step_name": "Identify Recurring Task",
+      "description": "Identify a task you perform weekly or monthly that could benefit from AI assistance (e.g., prepare for meetings, write PRDs, review code, summarize research)",
+      "estimated_time": "5 minutes",
+      "tools": [],
+      "output": "Specific recurring task identified",
+      "selection_criteria": [
+        "Frequency: Performed weekly or monthly (not one-off)",
+        "Structure: Has repeatable structure/format",
+        "AI-suitable: Involves writing, analysis, or synthesis",
+        "Time-consuming: Takes 20+ minutes currently",
+        "Value: Quality consistency matters"
+      ]
+    },
+    {
+      "step_number": 2,
+      "step_id": "STEP-PM-066-02",
+      "step_name": "Draft Initial Prompt",
+      "description": "Write a prompt for a specific instance of the task. Include all necessary context, desired format, tone, and constraints. Be detailed and specific",
+      "estimated_time": "10-15 minutes",
+      "tools": ["AI tool"],
+      "output": "Initial prompt that works for one specific instance",
+      "prompt_elements": [
+        "Role/Persona (e.g., 'You are an expert product manager...')",
+        "Task description (what to do)",
+        "Context (background information)",
+        "Format (structure of output)",
+        "Tone/Style (formal, casual, technical, etc.)",
+        "Constraints (length, scope, exclusions)",
+        "Examples (sample input/output if helpful)"
+      ]
+    },
+    {
+      "step_number": 3,
+      "step_id": "STEP-PM-066-03",
+      "step_name": "Test Initial Prompt",
+      "description": "Run the prompt with your AI tool. Evaluate output quality against your expectations. Note what works well and what needs improvement",
+      "estimated_time": "5-10 minutes",
+      "tools": ["AI tool"],
+      "output": "AI-generated output + notes on quality",
+      "evaluation_criteria": [
+        "Accuracy: Is information correct?",
+        "Completeness: Covers all required aspects?",
+        "Format: Matches desired structure?",
+        "Tone: Appropriate style?",
+        "Actionability: Can you use output with minimal editing?"
+      ]
+    },
+    {
+      "step_number": 4,
+      "step_id": "STEP-PM-066-04",
+      "step_name": "Generalize with Parameters",
+      "description": "Transform specific prompt into template by replacing instance-specific details with placeholders (e.g., [STAKEHOLDER_NAME], [TOPIC], [TIMEFRAME]). Use [BRACKETS] or {CURLY_BRACES} for clarity",
+      "estimated_time": "10-15 minutes",
+      "tools": ["Text editor"],
+      "output": "Generalized prompt template with clear placeholders",
+      "parameterization_example": {
+        "before": "Prepare me for a meeting with Sarah about Q3 roadmap planning.",
+        "after": "Prepare me for a meeting with [STAKEHOLDER_NAME] about [TOPIC]."
+      }
+    },
+    {
+      "step_number": 5,
+      "step_id": "STEP-PM-066-05",
+      "step_name": "Test with Diverse Inputs",
+      "description": "Test template with 3-5 different scenarios (different parameters). Verify it produces quality output across varied inputs. Refine template if needed",
+      "estimated_time": "15-20 minutes",
+      "tools": ["AI tool"],
+      "output": "Template validated across diverse scenarios",
+      "test_scenarios": [
+        "Typical case (most common usage)",
+        "Edge case (unusual but possible scenario)",
+        "Minimal input (fewest parameters filled)",
+        "Maximum input (all optional parameters used)",
+        "Different tone/context (if applicable)"
+      ]
+    },
+    {
+      "step_number": 6,
+      "step_id": "STEP-PM-066-06",
+      "step_name": "Document Template",
+      "description": "Create template entry in your library with: name, description, template text, usage instructions, examples, and metadata (version, created date, last used)",
+      "estimated_time": "10-15 minutes",
+      "tools": ["TOOL-116", "Notion/Docs"],
+      "output": "Fully documented template ready for reuse",
+      "documentation_structure": {
+        "template_name": "Verb-Noun format (e.g., 'Prepare-Stakeholder-Meeting')",
+        "description": "1-2 sentence summary of what template does",
+        "when_to_use": "Scenarios where template is appropriate",
+        "template_text": "Full prompt with [PLACEHOLDERS]",
+        "parameters": "List of placeholders with descriptions",
+        "example_usage": "1-2 examples showing template in action",
+        "tips": "Best practices for using this template",
+        "version": "1.0",
+        "created_date": "YYYY-MM-DD",
+        "last_updated": "YYYY-MM-DD"
+      }
+    },
+    {
+      "step_number": 7,
+      "step_id": "STEP-PM-066-07",
+      "step_name": "Add to Template Library",
+      "description": "Store template in your centralized library (Notion database, Google Doc, GitHub repo, etc.). Tag with category, department, frequency, and difficulty for easy discovery",
+      "estimated_time": "5 minutes",
+      "tools": ["TOOL-116", "Storage system"],
+      "output": "Template accessible in organized library",
+      "organization_tags": [
+        "Category (Writing, Analysis, Coding, Research, etc.)",
+        "Department (PM, Engineering, Marketing, etc.)",
+        "Frequency (Daily, Weekly, Monthly, Occasional)",
+        "Difficulty (Beginner, Intermediate, Advanced)",
+        "Use case (Meeting prep, Content creation, Code review, etc.)"
+      ]
+    },
+    {
+      "step_number": 8,
+      "step_id": "STEP-PM-066-08",
+      "step_name": "Share with Team (Optional)",
+      "description": "If template is broadly applicable, share with team via Slack, email, or team meeting. Encourage feedback and contributions to improve template",
+      "estimated_time": "5-10 minutes",
+      "tools": ["Slack, email"],
+      "output": "Template shared with team; feedback mechanism established",
+      "sharing_message": "Hey team! Created a new prompt template for [TASK]. Saves me ~20 minutes each time. Template: [LINK]. Try it out and let me know if you have suggestions!"
+    }
+  ],
+  "quality_checklist": [
+    "Template works across 3-5 diverse test scenarios",
+    "Placeholders clearly marked with [BRACKETS] or {CURLY_BRACES}",
+    "Documentation includes description, when to use, parameters, and example",
+    "Template produces usable output with <20% editing required",
+    "Template stored in accessible, organized library",
+    "Metadata includes version, created date, last updated",
+    "Template name follows consistent naming convention",
+    "If team-shared, feedback mechanism established"
+  ],
+  "template_structure_guide": {
+    "basic_template": "You are a [ROLE]. [TASK_DESCRIPTION]. Context: [CONTEXT]. Provide: [OUTPUT_REQUIREMENTS]. Format: [FORMAT]. Tone: [TONE].",
+    "advanced_template": "You are [ROLE] at [COMPANY_TYPE].\n\nTask: [TASK_DESCRIPTION]\n\nContext:\n- [CONTEXT_1]\n- [CONTEXT_2]\n- [CONTEXT_3]\n\nProvide:\n1. [OUTPUT_1]\n2. [OUTPUT_2]\n3. [OUTPUT_3]\n\nFormat: [FORMAT]\nTone: [TONE]\nConstraints: [CONSTRAINTS]",
+    "example_filled": "You are an expert product manager at a SaaS company.\n\nTask: Prepare me for a meeting with [STAKEHOLDER_NAME] about [TOPIC].\n\nContext:\n- Stakeholder role: [ROLE]\n- Meeting goal: [GOAL]\n- My objectives: [MY_OBJECTIVES]\n\nProvide:\n1. Key talking points (5-7 bullets)\n2. Potential objections and counter-arguments\n3. Questions to ask\n4. Success criteria for the meeting\n\nFormat: Markdown with clear sections\nTone: Professional but conversational"
+  },
+  "example_templates": {
+    "meeting_preparation": {
+      "name": "Prepare-Stakeholder-Meeting",
+      "description": "Prepare for upcoming stakeholder meeting with context and talking points",
+      "when_to_use": "Weekly stakeholder syncs, quarterly business reviews, product demos",
+      "template": "You are an expert product manager. Prepare me for a meeting with [STAKEHOLDER_NAME] about [TOPIC]. Context: Stakeholder role: [ROLE], Meeting goal: [GOAL], My objectives: [OBJECTIVES]. Provide: 1) Key talking points, 2) Potential objections, 3) Questions to ask, 4) Success criteria. Format: Markdown.",
+      "time_saved": "15-20 minutes per meeting"
+    },
+    "code_review": {
+      "name": "Review-Code-Security",
+      "description": "Review code for security vulnerabilities and best practices",
+      "when_to_use": "Before merging PRs, security audits, onboarding reviews",
+      "template": "You are a senior security engineer. Review this code for vulnerabilities: ```[LANGUAGE]\n[CODE]\n```. Analyze for: SQL injection, XSS, auth issues, data exposure, OWASP Top 10. For each issue: Severity, Description, Location, Remediation. Format: Markdown table.",
+      "time_saved": "10-15 minutes per review"
+    },
+    "research_summary": {
+      "name": "Summarize-Research-Paper",
+      "description": "Summarize academic paper with key findings and practical applications",
+      "when_to_use": "Literature reviews, staying current with research, team knowledge sharing",
+      "template": "You are a research analyst in [FIELD]. Summarize this paper: [TITLE/LINK]. Provide: 1) One-sentence summary, 2) Key findings (3-5 bullets), 3) Methodology overview, 4) Limitations, 5) Practical applications. Format: Structured markdown. Tone: Technical but accessible.",
+      "time_saved": "25-35 minutes per paper"
+    }
+  },
+  "time_savings_analysis": {
+    "without_template": "Craft prompt from scratch + iterate on output: 15-30 minutes per task",
+    "with_template": "Fill placeholders + minor tweaks: 3-5 minutes per task",
+    "time_saved": "12-25 minutes per use (75-85% reduction)",
+    "weekly_impact": "5 uses/week = 1-2 hours saved",
+    "annual_impact": "52-104 hours saved (for single template used weekly)",
+    "roi": "30 minutes to create template, saves 12+ minutes per use → breaks even after 3 uses"
+  },
+  "related_entities": {
+    "workflow": "WF-PM-014 (Create Reusable Prompt Template for Recurring Task)",
+    "tools": [
+      "TOOL-116 (Custom Prompt Templates)",
+      "TOOL-110 (GitHub Copilot)",
+      "TOOL-052 (Claude Code)",
+      "Notion",
+      "Google Docs"
+    ],
+    "related_task_templates": [
+      "Task-Template-061: Generate Custom Project Instructions for Copilot",
+      "Task-Template-064: Setup Company Voice Guide for Brand Consistency",
+      "Task-Template-067: Build Team Prompt Library in Notion"
+    ],
+    "skills_required": [
+      "prompt engineering",
+      "task decomposition",
+      "pattern recognition",
+      "documentation writing",
+      "markdown formatting"
+    ],
+    "discovery_source": "Video_016.md - Dropbox Dash Interview with Morgan Brown",
+    "step_templates": [
+      "STEP-PM-066-01 through STEP-PM-066-08"
+    ]
+  },
+  "best_practices": {
+    "template_design": [
+      "Start simple, add complexity only if needed",
+      "Use descriptive placeholder names ([STAKEHOLDER_NAME] not [X])",
+      "Provide default values for optional parameters in documentation",
+      "Include examples in template documentation (shows expected usage)",
+      "Version templates (track improvements over time)",
+      "Test with edge cases before finalizing"
+    ],
+    "library_organization": [
+      "Consistent naming: Verb-Noun format (Analyze-Competitor, Write-PRD)",
+      "Tag with metadata for discoverability",
+      "Create index/README for template library",
+      "Group related templates (e.g., all meeting-prep templates together)",
+      "Archive rarely-used templates (don't delete - future reference)",
+      "Include 'last tested' date to flag potentially outdated templates"
+    ],
+    "maintenance": [
+      "Review templates quarterly (still relevant? still working?)",
+      "Update based on user feedback",
+      "Refine when AI models improve (prompts may need adjustment)",
+      "Merge duplicate templates",
+      "Track which templates save most time (prioritize optimization)"
+    ]
+  },
+  "common_mistakes": [
+    "Template too specific (only works for one narrow scenario)",
+    "Template too vague (output quality inconsistent)",
+    "Poor placeholder naming ([X], [Y], [Z] instead of descriptive names)",
+    "No documentation (forget how to use template after 3 months)",
+    "Not testing with diverse inputs (fails on edge cases)",
+    "Creating too many templates (library becomes overwhelming)",
+    "No version control (lose track of what changed and why)"
+  ],
+  "version_history": [
+    {
+      "version": "1.0",
+      "date": "2025-11-17",
+      "changes": "Initial template creation from Video_016.md workflow extraction"
+    }
+  ]
+}

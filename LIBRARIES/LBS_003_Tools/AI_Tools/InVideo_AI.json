@@ -1,0 +1,80 @@
+{
+  "entity_type": "LIBRARIES",
+  "sub_entity": "Tool",
+  "tool_id": "TOOL-AI-063",
+  "name": "InVideo AI",
+  "vendor": "InVideo",
+  "category": "AI/Video Tools",
+  "purpose": "AI-powered video creation and editing",
+  "description": "AI video creation platform that generates videos from text prompts. Used for creating marketing videos, social media content, and promotional videos with minimal effort.",
+  "skill_level_required": "Beginner",
+  "cost_structure": "Freemium (Free tier available, paid plans available)",
+  "platform_compatibility": [
+    "Web",
+    "API"
+  ],
+  "integration_capabilities": [
+    "Text-to-video generation",
+    "Video editing",
+    "Template library",
+    "API access"
+  ],
+  "documentation_url": "https://invideo.io",
+  "actual_remote_helpers_usage": {
+    "primary_use": "AI Video Creation",
+    "users": [
+      "Video Editors",
+      "Content Creators",
+      "Marketing Team"
+    ],
+    "use_cases": [
+      "create marketing videos",
+      "generate social media content",
+      "produce promotional videos",
+      "create video content quickly"
+    ],
+    "workflows": []
+  },
+  "strengths": [
+    "Fast video generation",
+    "Easy to use",
+    "Template library",
+    "Multiple video formats"
+  ],
+  "limitations": [
+    "Limited customization in free tier",
+    "May require refinement",
+    "Quality depends on prompt"
+  ],
+  "departments_using": ["Video"],
+  "tags": [
+    "ai",
+    "video-generation",
+    "video-creation",
+    "content-creation",
+    "marketing"
+  ],
+  "discovery_date": "2025-11-15",
+  "discovery_source": "finance_data",
+  "status": "active",
+  "finance_data": {
+    "subscription_status": "unpaid",
+    "total_accounts": 1,
+    "paid_accounts": 0,
+    "unpaid_accounts": 1,
+    "latest_valid_until": null,
+    "accounts": [
+      {
+        "email": "contact@fv-e.com",
+        "status": "not paid",
+        "paid_date": null,
+        "valid_until": null,
+        "department": "videographers"
+      }
+    ],
+    "departments_using": [
+      "videographers"
+    ]
+  }
+}
+

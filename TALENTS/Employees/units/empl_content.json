@@ -1,0 +1,27 @@
+[
+  {
+    "id": "<number>",
+    "employee_details_id": "<string>",
+    "presale_id": null,
+    "project_company_id": "<string>",
+    "smm_manager_id": null,
+    "smm_manager_created_by": null,
+    "smm_start_date": null,
+    "smm_updated_date": null,
+    "copywriter_manager_id": null,
+    "copywriter_manager_created_by": null,
+    "seo_title": "",
+    "meta_description": "          ",
+    "copywriter_start_date": null,
+    "copywriter_updated_date": null,
+    "content_manager_id": null,
+    "content_manager_created_by": null,
+    "cv_heading": "",
+    "wp_status": "<string>",
+    "url_site": "<string>",
+    "content_start_date": null,
+    "content_updated_date": null,
+    "created_at": "<datetime>",
+    "updated_at": "<datetime>"
+  }
+]

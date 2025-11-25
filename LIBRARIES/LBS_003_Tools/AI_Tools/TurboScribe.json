@@ -1,0 +1,82 @@
+{
+  "entity_type": "LIBRARIES",
+  "sub_entity": "Tool",
+  "tool_id": "TOOL-AI-061",
+  "name": "TurboScribe",
+  "vendor": "TurboScribe",
+  "category": "AI/Audio Processing",
+  "purpose": "AI-powered transcription and audio processing",
+  "description": "AI transcription service that converts audio and video files to text with high accuracy. Used for transcribing meetings, interviews, video content, and audio recordings.",
+  "skill_level_required": "Beginner",
+  "cost_structure": "Subscription-based",
+  "platform_compatibility": [
+    "Web",
+    "API"
+  ],
+  "integration_capabilities": [
+    "Audio transcription",
+    "Video transcription",
+    "Multiple language support",
+    "API access",
+    "File upload"
+  ],
+  "documentation_url": "http://turboscribe.ai",
+  "actual_remote_helpers_usage": {
+    "primary_use": "Audio and Video Transcription",
+    "users": [
+      "Video Editors",
+      "Content Creators",
+      "AI Team"
+    ],
+    "use_cases": [
+      "transcribe video content",
+      "transcribe meetings",
+      "transcribe interviews",
+      "process audio files",
+      "extract text from video"
+    ],
+    "workflows": []
+  },
+  "strengths": [
+    "High accuracy transcription",
+    "Fast processing",
+    "Multiple language support",
+    "Easy to use"
+  ],
+  "limitations": [
+    "Subscription required",
+    "File size limits",
+    "Processing time for long files"
+  ],
+  "departments_using": ["Video"],
+  "tags": [
+    "ai",
+    "transcription",
+    "audio-processing",
+    "video-processing",
+    "speech-to-text"
+  ],
+  "discovery_date": "2025-11-15",
+  "discovery_source": "finance_data",
+  "status": "active",
+  "finance_data": {
+    "subscription_status": "paid",
+    "total_accounts": 1,
+    "paid_accounts": 1,
+    "unpaid_accounts": 0,
+    "latest_valid_until": "2025-12-04",
+    "accounts": [
+      {
+        "email": "admin@rh-s.com",
+        "status": "paid",
+        "paid_date": "2025-11-04",
+        "valid_until": "2025-12-04",
+        "department": "videographers"
+      }
+    ],
+    "departments_using": [
+      "videographers"
+    ]
+  }
+}
+

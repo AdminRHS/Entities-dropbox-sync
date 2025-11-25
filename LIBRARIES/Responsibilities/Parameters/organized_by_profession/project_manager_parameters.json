@@ -1,0 +1,158 @@
+{
+  "metadata": {
+    "profession_name": "project manager",
+    "department": "managers",
+    "created_date": "2025-01-19T00:00:00.000Z",
+    "description": "Parameters specific to project manager types and project management activities",
+    "data_source": "parameters.json",
+    "organization_method": "type_to_profession_mapping"
+  },
+  "summary": {
+    "unique_types": [
+      "overview dashboard",
+      "employees dashboard",
+      "milestones dashboard",
+      "tasks dashboard",
+      "gantt chart",
+      "project deadline",
+      "milestone deadlines",
+      "task deadline",
+      "scope edits",
+      "schedule edits",
+      "resource edits",
+      "budget edits",
+      "quality edits",
+      "risk management edits"
+    ],
+    "total_parameters": 56,
+    "parameter_categories": ["dashboard_management", "deadline_tracking", "project_modifications", "resource_planning", "risk_management"]
+  },
+  "parameters_by_type": {
+    "overview_dashboard": [
+      "progress percentage",
+      "risk level",
+      "resource allocation",
+      "upcoming deadlines"
+    ],
+    "employees_dashboard": [
+      "team utilization",
+      "task completion rate",
+      "overtime hours",
+      "employee satisfaction"
+    ],
+    "milestones_dashboard": [
+      "milestone completion date",
+      "milestone status",
+      "overdue milestones",
+      "next milestone"
+    ],
+    "tasks_dashboard": [
+      "task status",
+      "priority level", 
+      "task duration",
+      "pending tasks"
+    ],
+    "gantt_chart": [
+      "timeline accuracy",
+      "critical path",
+      "slack time",
+      "resource overlaps"
+    ],
+    "project_deadline": [
+      "final date",
+      "critical dependencies",
+      "compliance requirements",
+      "impact assessment"
+    ],
+    "milestone_deadlines": [
+      "milestone target date",
+      "related tasks",
+      "priority level",
+      "progress tracking"
+    ],
+    "task_deadline": [
+      "task due date",
+      "task urgency",
+      "resource allocation",
+      "status updates"
+    ],
+    "scope_edits": [
+      "scope increase",
+      "scope reduction",
+      "impact on timeline",
+      "stakeholder approval"
+    ],
+    "schedule_edits": [
+      "timeline adjustments",
+      "acceleration options",
+      "delay impacts",
+      "critical milestones"
+    ],
+    "resource_edits": [
+      "resource reallocation",
+      "additional resource requirements",
+      "resource reduction",
+      "efficiency improvements"
+    ],
+    "budget_edits": [
+      "budget increase",
+      "budget cuts",
+      "cost overruns",
+      "cost-saving measures"
+    ],
+    "quality_edits": [
+      "quality standards adjustment",
+      "quality control measures",
+      "rework requirements",
+      "compliance changes"
+    ],
+    "risk_management_edits": [
+      "risk reassessment",
+      "mitigation strategies",
+      "risk escalation",
+      "preventive measures"
+    ]
+  },
+  "entries": [
+    {
+      "Types": "overview dashboard",
+      "Parameters": "progress percentage"
+    },
+    {
+      "Types": "overview dashboard", 
+      "Parameters": "risk level"
+    },
+    {
+      "Types": "overview dashboard",
+      "Parameters": "resource allocation"
+    },
+    {
+      "Types": "overview dashboard",
+      "Parameters": "upcoming deadlines"
+    },
+    {
+      "Types": "employees dashboard",
+      "Parameters": "team utilization"
+    },
+    {
+      "Types": "employees dashboard",
+      "Parameters": "task completion rate"
+    },
+    {
+      "Types": "employees dashboard",
+      "Parameters": "overtime hours"
+    },
+    {
+      "Types": "employees dashboard",
+      "Parameters": "employee satisfaction"
+    },
+    {
+      "Types": "gantt chart",
+      "Parameters": "timeline accuracy"
+    },
+    {
+      "Types": "gantt chart",
+      "Parameters": "critical path"
+    }
+  ]
+}

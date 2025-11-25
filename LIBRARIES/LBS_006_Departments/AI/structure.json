@@ -1,0 +1,144 @@
+{
+  "department_id": 1,
+  "department_code": "AI",
+  "last_updated": "2025-11-25",
+  "source_file": "Overview/AI_Department_Deep_Analysis.md",
+  "department_location": "C:\\Users\\Dell\\Dropbox\\Nov25\\AI Nov25",
+  
+  "folder_structure_pattern": {
+    "pattern": "Week_X/DD/",
+    "description": "Week-based organization with daily subfolders",
+    "status": "implemented",
+    "adoption_rate": "100%",
+    "example": "AI Nov25/Artemchuk Nikolay/Week_2/12/"
+  },
+  
+  "file_system": {
+    "three_file_system": {
+      "enabled": true,
+      "mandatory": true,
+      "files": [
+        {
+          "name": "daily.md",
+          "purpose": "Daily activity log with timestamps and transcripts",
+          "required": true,
+          "content": [
+            "Timestamped activities throughout the day",
+            "Whisper Flow transcripts from all meetings/calls",
+            "Outcomes and results",
+            "Real-time documentation (updated throughout day)"
+          ]
+        },
+        {
+          "name": "plans.md",
+          "purpose": "Strategic plan for next steps",
+          "required": true,
+          "content": [
+            "Review of daily.md activities",
+            "Prioritized action items",
+            "Goals and objectives",
+            "Expected outcomes for next steps"
+          ],
+          "generation": "AI-generated from daily.md"
+        },
+        {
+          "name": "task.md",
+          "purpose": "Detailed actionable steps",
+          "required": true,
+          "content": [
+            "Break down each plan into specific tasks",
+            "Links and resources",
+            "Clear execution instructions",
+            "Step-by-step guidance"
+          ],
+          "generation": "AI-generated from plans.md"
+        }
+      ]
+    },
+    "quality_control": {
+      "yellow_card_system": {
+        "enabled": true,
+        "check_time": "11:00 AM daily",
+        "automation": "n8n workflow",
+        "max_cards_per_month": 3,
+        "reset_date": "1st of each month",
+        "violations": [
+          "incomplete/missing daily.md",
+          "no plans/tasks",
+          "wrong location",
+          "missing transcripts"
+        ]
+      }
+    }
+  },
+  
+  "department_organization": {
+    "employee_folders": [
+      "Artemchuk Nikolay/",
+      "Perederii Vladislav/",
+      "Zasiadko Matvii/"
+    ],
+    "reports_structure": "Reports/[DD]/Daily_Activity_Report_Nov[DD]_2025.md"
+  },
+  
+  "key_files": {
+    "department_root": [
+      "DEP_README.md (100 lines)",
+      "DEPARTMENT_GUIDE.md (780+ lines)",
+      "AI Department Tasks - November 2025.md (542 lines)",
+      "Projects.md (260 lines)",
+      "MAIN PROMPT v4.md (3,000+ lines estimated)",
+      "Video_Transcript_Processing_Workflow_AI.md (395 lines)",
+      "AI prompt log.md (2,255 lines)",
+      "extracted_ai_all_tasks.json",
+      "extracted_ai_tasks.json"
+    ],
+    "employee_level": [
+      "README.md (in each employee folder)",
+      "Week_X/DD/daily.md",
+      "Week_X/DD/plans.md",
+      "Week_X/DD/task.md",
+      "Profile Prompt engineer [Employee Name].md"
+    ],
+    "reports": [
+      "Daily_Activity_Report_Nov[DD]_2025.md (1,165 lines avg)",
+      "processed_transcripts_Nov4.md (1,168 lines)"
+    ]
+  },
+  
+  "naming_conventions": {
+    "employee_folders": "Full Name (e.g., 'Artemchuk Nikolay')",
+    "week_folders": "Week_X (e.g., 'Week_1', 'Week_2')",
+    "daily_folders": "DD (two-digit day, e.g., '12', '13')",
+    "daily_files": "daily.md, plans.md, task.md (lowercase, no spaces)",
+    "reports": "Daily_Activity_Report_Nov[DD]_2025.md"
+  },
+  
+  "file_patterns": {
+    "task_format": "Action + Object",
+    "task_metadata": [
+      "Description",
+      "Owner/Assignee",
+      "Department",
+      "Profession",
+      "Timeline",
+      "Dependencies",
+      "Status",
+      "Related Project",
+      "Task Template",
+      "Tools Required",
+      "Action Recognized",
+      "Object Type Recognized",
+      "Skill Match",
+      "Responsibility Match"
+    ]
+  },
+  
+  "integration_points": {
+    "entities_structure": "ENTITIES/",
+    "libraries_structure": "ENTITIES/LIBRARIES/",
+    "task_managers_structure": "ENTITIES/TASK_MANAGERS/",
+    "rac_location": "GitHub (Remote AI Context)"
+  }
+}
+

@@ -1,0 +1,289 @@
+{
+  "entity_type": "TASK_MANAGERS",
+  "sub_entity": "Task_Template",
+  "template_id": "Task-Template-007",
+  "task_name": "Create Job Posting for [Position]",
+  "action": "Create",
+  "object": "Job Posting",
+  "context": "for [Position]",
+  "description": "Create a new job posting for a specific position using standardized template and requirements",
+  "department": "HR",
+  "profession": "HR Manager",
+  "estimated_duration": "2 hours",
+  "status": "Template",
+  "dependencies": [
+    "Job template selected",
+    "Position requirements defined",
+    "Hiring manager assigned"
+  ],
+  "tools_required": [
+    "Notion",
+    "Google Docs",
+    "CRM"
+  ],
+  "success_criteria": [
+    "Job posting published on 3+ platforms",
+    "All required fields completed",
+    "Approved by hiring manager",
+    "Posted to company website and LinkedIn"
+  ],
+  "responsibilities": [
+    "Creating Job Posting"
+  ],
+  "steps": [
+    {
+      "step_number": 1,
+      "name": "Select job template",
+      "tool": "Notion",
+      "responsibility": "HR Manager",
+      "placement": "Notion - Job Templates",
+      "duration": "5 minutes",
+      "dependencies": [],
+      "success_criteria": "Template selected and opened"
+    },
+    {
+      "step_number": 2,
+      "name": "Fill in position details",
+      "tool": "Notion",
+      "responsibility": "HR Manager",
+      "placement": "Notion - Job Posting draft",
+      "duration": "30 minutes",
+      "dependencies": [
+        "Step 1"
+      ],
+      "success_criteria": "Title, description, and basic details completed"
+    },
+    {
+      "step_number": 3,
+      "name": "Define skills and requirements",
+      "tool": "Notion",
+      "responsibility": "HR Manager",
+      "placement": "Notion - Job Posting draft",
+      "duration": "30 minutes",
+      "dependencies": [
+        "Step 2"
+      ],
+      "success_criteria": "All required skills and experience levels specified"
+    },
+    {
+      "step_number": 4,
+      "name": "Set compensation and benefits",
+      "tool": "Notion",
+      "responsibility": "HR Manager",
+      "placement": "Notion - Job Posting draft",
+      "duration": "15 minutes",
+      "dependencies": [
+        "Step 3"
+      ],
+      "success_criteria": "Compensation range and benefits clearly stated"
+    },
+    {
+      "step_number": 5,
+      "name": "Review and get approval",
+      "tool": "Notion, Email",
+      "responsibility": "HR Manager",
+      "placement": "Notion - Job Posting draft, Email to hiring manager",
+      "duration": "20 minutes",
+      "dependencies": [
+        "Step 4"
+      ],
+      "success_criteria": "Approval received from hiring manager"
+    },
+    {
+      "step_number": 6,
+      "name": "Publish to platforms",
+      "tool": "Job Boards, Company Website, LinkedIn",
+      "responsibility": "HR Manager",
+      "placement": "Multiple platforms",
+      "duration": "20 minutes",
+      "dependencies": [
+        "Step 5"
+      ],
+      "success_criteria": "Posted to at least 3 platforms"
+    }
+  ],
+  "checklist": [
+    {
+      "item": "Job title clear and accurate",
+      "guide": "No generic titles, specific role",
+      "required": true
+    },
+    {
+      "item": "Required skills listed with proficiency levels",
+      "guide": "Minimum 5 skills, specify Junior/Mid/Senior",
+      "required": true
+    },
+    {
+      "item": "Compensation range included",
+      "guide": "Market rate research completed",
+      "required": true
+    },
+    {
+      "item": "Location and remote options specified",
+      "guide": "Clear work arrangement",
+      "required": true
+    },
+    {
+      "item": "Application deadline set",
+      "guide": "Reasonable timeframe, typically 2-4 weeks",
+      "required": true
+    },
+    {
+      "item": "Posted to correct platforms",
+      "guide": "At least 3 job boards, company website, LinkedIn",
+      "required": true
+    }
+  ],
+  "tags": [
+    "hr",
+    "recruitment",
+    {
+      "entity_type": "TASK_MANAGERS",
+      "sub_entity": "Task_Template",
+      "template_id": "Task-Template-007",
+      "task_name": "Create Job Posting for [Position]",
+      "action": "Create",
+      "object": "Job Posting",
+      "context": "for [Position]",
+      "description": "Create a new job posting for a specific position using standardized template and requirements",
+      "department": "HR",
+      "profession": "HR Manager",
+      "estimated_duration": "2 hours",
+      "status": "Template",
+      "dependencies": [
+        "Job template selected",
+        "Position requirements defined",
+        "Hiring manager assigned"
+      ],
+      "tools_required": [
+        "Notion",
+        "Google Docs",
+        "CRM"
+      ],
+      "success_criteria": [
+        "Job posting published on 3+ platforms",
+        "All required fields completed",
+        "Approved by hiring manager",
+        "Posted to company website and LinkedIn"
+      ],
+      "responsibilities": [
+        "Creating Job Posting"
+      ],
+      "steps": [
+        {
+          "step_number": 1,
+          "name": "Select job template",
+          "tool": "Notion",
+          "responsibility": "HR Manager",
+          "placement": "Notion - Job Templates",
+          "duration": "5 minutes",
+          "dependencies": [],
+          "success_criteria": "Template selected and opened"
+        },
+        {
+          "step_number": 2,
+          "name": "Fill in position details",
+          "tool": "Notion",
+          "responsibility": "HR Manager",
+          "placement": "Notion - Job Posting draft",
+          "duration": "30 minutes",
+          "dependencies": [
+            "Step 1"
+          ],
+          "success_criteria": "Title, description, and basic details completed"
+        },
+        {
+          "step_number": 3,
+          "name": "Define skills and requirements",
+          "tool": "Notion",
+          "responsibility": "HR Manager",
+          "placement": "Notion - Job Posting draft",
+          "duration": "30 minutes",
+          "dependencies": [
+            "Step 2"
+          ],
+          "success_criteria": "All required skills and experience levels specified"
+        },
+        {
+          "step_number": 4,
+          "name": "Set compensation and benefits",
+          "tool": "Notion",
+          "responsibility": "HR Manager",
+          "placement": "Notion - Job Posting draft",
+          "duration": "15 minutes",
+          "dependencies": [
+            "Step 3"
+          ],
+          "success_criteria": "Compensation range and benefits clearly stated"
+        },
+        {
+          "step_number": 5,
+          "name": "Review and get approval",
+          "tool": "Notion, Email",
+          "responsibility": "HR Manager",
+          "placement": "Notion - Job Posting draft, Email to hiring manager",
+          "duration": "20 minutes",
+          "dependencies": [
+            "Step 4"
+          ],
+          "success_criteria": "Approval received from hiring manager"
+        },
+        {
+          "step_number": 6,
+          "name": "Publish to platforms",
+          "tool": "Job Boards, Company Website, LinkedIn",
+          "responsibility": "HR Manager",
+          "placement": "Multiple platforms",
+          "duration": "20 minutes",
+          "dependencies": [
+            "Step 5"
+          ],
+          "success_criteria": "Posted to at least 3 platforms"
+        }
+      ],
+      "checklist": [
+        {
+          "item": "Job title clear and accurate",
+          "guide": "No generic titles, specific role",
+          "required": true
+        },
+        {
+          "item": "Required skills listed with proficiency levels",
+          "guide": "Minimum 5 skills, specify Junior/Mid/Senior",
+          "required": true
+        },
+        {
+          "item": "Compensation range included",
+          "guide": "Market rate research completed",
+          "required": true
+        },
+        {
+          "item": "Location and remote options specified",
+          "guide": "Clear work arrangement",
+          "required": true
+        },
+        {
+          "item": "Application deadline set",
+          "guide": "Reasonable timeframe, typically 2-4 weeks",
+          "required": true
+        },
+        {
+          "item": "Posted to correct platforms",
+          "guide": "At least 3 job boards, company website, LinkedIn",
+          "required": true
+        }
+      ],
+      "tags": [
+        "hr",
+        "recruitment",
+        "job_posting",
+        "template"
+      ],
+      "version": "1.0",
+      "created": "2025-11-01",
+      "last_updated": "2025-11-01",
+      "id": "TST-007",
+      "responsibility_name": "create job posting",
+      "_original_action": "Create",
+      "_original_object": "Job Posting"
+    }

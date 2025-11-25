@@ -1,0 +1,74 @@
+{
+  "entity_type": "LIBRARIES",
+  "sub_entity": "Tool",
+  "tool_id": "TOOL-AI-005",
+  "name": "NotebookLM",
+  "vendor": "Google",
+  "category": "AI/LLM Services",
+  "purpose": "Multi-source research synthesis and document analysis",
+  "description": "Google's AI research assistant that can synthesize information from multiple uploaded sources. Used for multi-source research synthesis in deep research workflows.",
+  "skill_level_required": "Beginner",
+  "cost_structure": "Free (Google account required)",
+  "platform_compatibility": [
+    "Web"
+  ],
+  "integration_capabilities": [
+    "Document upload (PDF, TXT, Google Docs)",
+    "Multi-source synthesis",
+    "Citation tracking",
+    "Export capabilities"
+  ],
+  "documentation_url": "https://notebooklm.google.com/?_gl=1*1sdz7gm*_ga*MTg2MTA5NjU2Mi4xNzQ2MTg4MjI2*_ga_W0LDH41ZCB*MTc0NjE4ODIyNS4xLjEuMTc0NjE4ODIzNS41MC4wLjA.&original_referer=https:%2F%2Fnotebooklm.google%23&pli=1",
+  "actual_remote_helpers_usage": {
+    "primary_use": "Multi-Source Research Synthesis",
+    "users": [
+      "LG Team",
+      "Research Team",
+      "AI",
+      "HR Team"
+    ],
+    "use_cases": [
+      "research companies multisource",
+      "synthesize documents",
+      "generate research notes",
+      "consolidate information",
+      "prepare deep research",
+      "screen candidate CVs",
+      "rank candidates against job descriptions",
+      "generate interview questions (HR, Technical, Final round)"
+    ],
+    "workflows": [
+      "Upload company documents → NotebookLM synthesizes → Structured research notes",
+      "Multiple sources → Analysis → Summarized insights for LG team",
+      "WF-HR-001: Upload CVs + JD → Screen candidates → Rank top 5 with scores",
+      "WF-HR-002: Context from screening → Generate HR interview questions",
+      "WF-HR-003: Context from screening → Generate technical interview questions (Azure-focused)"
+    ],
+    "integration_context": "Used alongside Gemini for deep research automation and HR recruitment workflows"
+  },
+  "strengths": [
+    "Free to use",
+    "Multi-source synthesis",
+    "Citation tracking",
+    "Easy to use",
+    "Google integration"
+  ],
+  "limitations": [
+    "Web-only",
+    "Limited API access",
+    "Requires manual upload",
+    "Less flexible than Claude/GPT"
+  ],
+  "departments_using": [
+    "LG",
+    "AI",
+    "HR"
+  ],
+  "tags": [
+    "ai",
+    "research",
+    "multi-source",
+    "synthesis",
+    "google"
+  ]
+}

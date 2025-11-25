@@ -1,0 +1,31 @@
+{
+  "step_template_id": "Step-Template-023",
+  "step_template_name": "Scrape Website HTML via Apify",
+  "metadata": {
+    "status": "Active"
+  },
+  "parent_task": {
+    "task_id": "TASK-TEMPLATE-014",
+    "task_name": "Parse HTML Data via AI"
+  },
+  "step_template_details": {
+    "step_number": 2,
+    "order": 2,
+    "action": "scrape",
+    "detail": "Scrape target website pages to obtain raw HTML data using Apify or manual methods.",
+    "expected_duration": 15
+  },
+  "relationships": {
+    "dependencies": [
+      "STEP-DEV-014-01"
+    ],
+    "next_steps": [
+      "STEP-DEV-014-03"
+    ],
+    "parallel_steps": []
+  },
+  "source_tracking": {
+    "source_file": "ENTITIES/TASK_MANAGERS/Task_Templates/Task-Template-001.json",
+    "extraction_date": "2025-11-17"
+  }
+}

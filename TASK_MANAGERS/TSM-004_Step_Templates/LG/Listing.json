@@ -1,0 +1,220 @@
+{
+  "listing_metadata": {
+    "department": "LG",
+    "created_date": "2025-11-10",
+    "total_items": 21,
+    "listing_type": "steps"
+  },
+  "steps": [
+    {
+      "id": "STEP-TASK-LG-001-01",
+      "parent_task_id": "STEP-TASK-LG-001",
+      "step_number": 1,
+      "action": "Collect",
+      "tool": "Spreadsheet, CRM, project management tools",
+      "description": "Collect performance data from all sources",
+      "location": "Step_Templates/TASK/STEP-TASK-LG-001-01.md",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "STEP-TASK-LG-001-02",
+      "parent_task_id": "STEP-TASK-LG-001",
+      "step_number": 2,
+      "action": "Analyze",
+      "tool": "Excel, analytics tools",
+      "description": "Analyze team productivity metrics",
+      "location": "Step_Templates/TASK/STEP-TASK-LG-001-02.md",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "STEP-TASK-LG-001-03",
+      "parent_task_id": "STEP-TASK-LG-001",
+      "step_number": 3,
+      "action": "Identify",
+      "tool": "Data visualization",
+      "description": "Identify trends and patterns",
+      "location": "Step_Templates/TASK/STEP-TASK-LG-001-03.md",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "STEP-TASK-LG-001-04",
+      "parent_task_id": "STEP-TASK-LG-001",
+      "step_number": 4,
+      "action": "Generate",
+      "tool": "Analysis framework",
+      "description": "Generate insights and recommendations",
+      "location": "Step_Templates/TASK/STEP-TASK-LG-001-04.md",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "STEP-TASK-LG-001-05",
+      "parent_task_id": "STEP-TASK-LG-001",
+      "step_number": 5,
+      "action": "Document",
+      "tool": "Documentation tool",
+      "description": "Document findings in report format",
+      "location": "Step_Templates/TASK/STEP-TASK-LG-001-05.md",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "STEP-TASK-LG-001-06",
+      "parent_task_id": "STEP-TASK-LG-001",
+      "step_number": 6,
+      "action": "Present",
+      "tool": "Presentation software",
+      "description": "Present to team and management",
+      "location": "Step_Templates/TASK/STEP-TASK-LG-001-06.md",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "STEP-TASK-LG-002-01",
+      "parent_task_id": "STEP-TASK-LG-002",
+      "step_number": 1,
+      "action": "Outline",
+      "tool": "Documentation planning",
+      "description": "Outline setup guide structure",
+      "location": "Step_Templates/TASK/STEP-TASK-LG-002-01.md",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "STEP-TASK-LG-002-02",
+      "parent_task_id": "STEP-TASK-LG-002",
+      "step_number": 2,
+      "action": "Document",
+      "tool": "Technical writing + Screenshots",
+      "description": "Document Dropbox setup (10 steps)",
+      "location": "Step_Templates/TASK/STEP-TASK-LG-002-02.md",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "STEP-TASK-LG-002-03",
+      "parent_task_id": "STEP-TASK-LG-002",
+      "step_number": 3,
+      "action": "Document",
+      "tool": "Technical writing + Screenshots",
+      "description": "Document IDE setup (5 steps)",
+      "location": "Step_Templates/TASK/STEP-TASK-LG-002-03.md",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "STEP-TASK-LG-002-04",
+      "parent_task_id": "STEP-TASK-LG-002",
+      "step_number": 4,
+      "action": "Document",
+      "tool": "Technical writing + Screenshots",
+      "description": "Document Claude Code Extension (4 steps)",
+      "location": "Step_Templates/TASK/STEP-TASK-LG-002-04.md",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "STEP-TASK-LG-002-05",
+      "parent_task_id": "STEP-TASK-LG-002",
+      "step_number": 5,
+      "action": "Document",
+      "tool": "Technical writing + Screenshots",
+      "description": "Document Git Bash installation (3 steps)",
+      "location": "Step_Templates/TASK/STEP-TASK-LG-002-05.md",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "STEP-TASK-LG-002-06",
+      "parent_task_id": "STEP-TASK-LG-002",
+      "step_number": 6,
+      "action": "Create",
+      "tool": "Problem-solution documentation",
+      "description": "Create troubleshooting section (5 common issues)",
+      "location": "Step_Templates/TASK/STEP-TASK-LG-002-06.md",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "STEP-TASK-LG-002-07",
+      "parent_task_id": "STEP-TASK-LG-002",
+      "step_number": 7,
+      "action": "Add",
+      "tool": "Summary template",
+      "description": "Add quick reference checklist",
+      "location": "Step_Templates/TASK/STEP-TASK-LG-002-07.md",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "STEP-TASK-LG-002-08",
+      "parent_task_id": "STEP-TASK-LG-002",
+      "step_number": 8,
+      "action": "Test",
+      "tool": "User testing",
+      "description": "Test guide with new user",
+      "location": "Step_Templates/TASK/STEP-TASK-LG-002-08.md",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "STEP-TASK-LG-003-01",
+      "parent_task_id": "STEP-TASK-LG-003",
+      "step_number": 1,
+      "action": "Outline",
+      "tool": "Documentation Planning",
+      "description": "Outline guide structure (major parts + sections)",
+      "location": "Step_Templates/TASK/STEP-TASK-LG-003-01.md",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "STEP-TASK-LG-003-02",
+      "parent_task_id": "STEP-TASK-LG-003",
+      "step_number": 2,
+      "action": "Document",
+      "tool": "Technical Writing",
+      "description": "Document each setup step with numbered instructions",
+      "location": "Step_Templates/TASK/STEP-TASK-LG-003-02.md",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "STEP-TASK-LG-003-03",
+      "parent_task_id": "STEP-TASK-LG-003",
+      "step_number": 3,
+      "action": "Capture",
+      "tool": "Screenshot Tools",
+      "description": "Capture and integrate screenshots",
+      "location": "Step_Templates/TASK/STEP-TASK-LG-003-03.md",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "STEP-TASK-LG-003-04",
+      "parent_task_id": "STEP-TASK-LG-003",
+      "step_number": 4,
+      "action": "Create",
+      "tool": "Problem-Solution Documentation",
+      "description": "Create troubleshooting section (5 common issues)",
+      "location": "Step_Templates/TASK/STEP-TASK-LG-003-04.md",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "STEP-TASK-LG-003-05",
+      "parent_task_id": "STEP-TASK-LG-003",
+      "step_number": 5,
+      "action": "Add",
+      "tool": "Markdown Formatting",
+      "description": "Add interactive elements (checkboxes, warnings, tips)",
+      "location": "Step_Templates/TASK/STEP-TASK-LG-003-05.md",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "STEP-TASK-LG-003-06",
+      "parent_task_id": "STEP-TASK-LG-003",
+      "step_number": 6,
+      "action": "Create",
+      "tool": "Summary Template",
+      "description": "Create quick reference checklist",
+      "location": "Step_Templates/TASK/STEP-TASK-LG-003-06.md",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "STEP-TASK-LG-003-07",
+      "parent_task_id": "STEP-TASK-LG-003",
+      "step_number": 7,
+      "action": "Test",
+      "tool": "User Testing",
+      "description": "Test guide with new user",
+      "location": "Step_Templates/TASK/STEP-TASK-LG-003-07.md",
+      "created_date": "2025-11-10"
+    }
+  ]
+}

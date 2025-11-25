@@ -1,0 +1,99 @@
+﻿[
+    {
+        "skill_id":  "SKL-031",
+        "skill_phrase":  "created APIs using Node.js",
+        "components":  {
+                           "result":  "created",
+                           "action":  "create",
+                           "object":  "APIs",
+                           "object_type":  "REST endpoints, GraphQL endpoints",
+                           "tool":  "Node.js",
+                           "tool_category":  "Development Framework"
+                       },
+        "department":  "Developers",
+        "professions":  [
+                            "backend developer",
+                            "full stack developer"
+                        ],
+        "difficulty_level":  "advanced",
+        "frequency":  "weekly",
+        "time_estimate_minutes":  180,
+        "automation_potential":  "low",
+        "related_skills":  [
+                               "SKL-030",
+                               "SKL-033"
+                           ],
+        "example_tasks":  [
+                              "Create RESTful API for user authentication",
+                              "Build GraphQL API for data querying"
+                          ],
+        "training_resources":  [
+
+                               ]
+    },
+    {
+        "skill_id":  "SKL-032",
+        "skill_phrase":  "managed code via GitHub",
+        "components":  {
+                           "result":  "managed",
+                           "action":  "manage",
+                           "object":  "code",
+                           "object_type":  "commits, branches, pull requests",
+                           "tool":  "GitHub",
+                           "tool_category":  "Version Control"
+                       },
+        "department":  "Developers",
+        "professions":  [
+                            "frontend developer",
+                            "backend developer",
+                            "full stack developer"
+                        ],
+        "difficulty_level":  "beginner",
+        "frequency":  "daily",
+        "time_estimate_minutes":  20,
+        "automation_potential":  "medium",
+        "related_skills":  [
+                               "SKL-030",
+                               "SKL-031"
+                           ],
+        "example_tasks":  [
+                              "Create feature branch and commit code changes",
+                              "Open pull request and request code review"
+                          ],
+        "training_resources":  [
+
+                               ]
+    },
+    {
+        "skill_id":  "SKL-034",
+        "skill_phrase":  "deployed applications to production servers",
+        "components":  {
+                           "result":  "deployed",
+                           "action":  "deploy",
+                           "object":  "applications",
+                           "object_type":  "web apps, APIs, microservices",
+                           "tool":  "Docker",
+                           "tool_category":  "DevOps"
+                       },
+        "department":  "Developers",
+        "professions":  [
+                            "backend developer",
+                            "full stack developer"
+                        ],
+        "difficulty_level":  "advanced",
+        "frequency":  "weekly",
+        "time_estimate_minutes":  60,
+        "automation_potential":  "high",
+        "related_skills":  [
+                               "SKL-031",
+                               "SKL-035"
+                           ],
+        "example_tasks":  [
+                              "Deploy new version of API to production using Docker",
+                              "Set up CI/CD pipeline for automated deployments"
+                          ],
+        "training_resources":  [
+
+                               ]
+    }
+]

@@ -1,0 +1,84 @@
+{
+  "entity_type": "LIBRARIES",
+  "sub_entity": "Tool",
+  "tool_id": "TOOL-AI-111",
+  "name": "HeyGen",
+  "vendor": "HeyGen",
+  "category": "AI/Video Tools",
+  "purpose": "AI video generation with avatars and voice cloning",
+  "description": "AI-powered video generation platform that creates videos with realistic AI avatars, voice cloning, and multilingual support. Used for creating professional video content without actors or studios.",
+  "skill_level_required": "Beginner",
+  "cost_structure": "Freemium (Free tier available, paid plans from $24/month)",
+  "platform_compatibility": [
+    "Web",
+    "API"
+  ],
+  "integration_capabilities": [
+    "API access",
+    "Avatar customization",
+    "Voice cloning",
+    "Multilingual support",
+    "Video export"
+  ],
+  "documentation_url": "https://www.heygen.com/",
+  "actual_remote_helpers_usage": {
+    "primary_use": "AI Video Generation with Avatars",
+    "users": [],
+    "use_cases": [
+      "create video avatars",
+      "produce multilingual videos",
+      "clone voices",
+      "produce marketing videos",
+      "produce training videos",
+      "create personalized videos"
+    ],
+    "workflows": []
+  },
+  "strengths": [
+    "Realistic AI avatars",
+    "Voice cloning technology",
+    "Multilingual support",
+    "Easy to use",
+    "Professional quality",
+    "No actors needed"
+  ],
+  "limitations": [
+    "Subscription required for full features",
+    "Limited avatar customization in free tier",
+    "Processing time for videos",
+    "May require refinement"
+  ],
+  "departments_using": [
+    "Video"
+  ],
+  "finance_data": {
+    "subscription_status": "paid",
+    "total_accounts": 1,
+    "paid_accounts": 1,
+    "unpaid_accounts": 0,
+    "latest_valid_until": "2025-11-27",
+    "accounts": [
+      {
+        "email": "admin@rh-s.com",
+        "status": "paid",
+        "paid_date": "2025-10-27",
+        "valid_until": "2025-11-27",
+        "department": "videographers"
+      }
+    ],
+    "departments_using": [
+      "videographers"
+    ]
+  },
+  "tags": [
+    "video-generation",
+    "ai-avatars",
+    "voice-cloning",
+    "multilingual",
+    "video-production",
+    "marketing"
+  ],
+  "discovery_date": "2025-01-27",
+  "discovery_source": "user_provided",
+  "status": "discovered_needs_review"
+}

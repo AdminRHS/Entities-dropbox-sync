@@ -1,0 +1,34 @@
+{
+  "entity_type": "TASK_MANAGERS",
+  "sub_entity": "Step_Template",
+  "step_id": "VIDEO-VIDEO-004-01",
+  "step_number": 1,
+  "parent_task": "TASK-TEMPLATE-VIDEO-004",
+  "task_name": "Master Unified Platform Workflow for Video Generation",
+  "name": "Plan complete video project requirements",
+  "action": "plan",
+  "tool": "Project planning document",
+  "responsibility": "Video Producer",
+  "placement": "Planning document",
+  "duration": "5 minutes",
+  "dependencies": [],
+  "inputs": [
+    "Project brief",
+    "Target audience",
+    "Video purpose",
+    "Desired outcomes"
+  ],
+  "outputs": [
+    "Complete requirements: images needed, video style, timeline"
+  ],
+  "success_criteria": "Clear understanding of all assets needed for final video",
+  "implementation_notes": "Clear understanding of all assets needed for final video - Implementation details based on the Master Unified Platform Workflow for Video Generation workflow.",
+  "tags": [
+    "plan",
+    "template-task-video-004"
+  ],
+  "version": "1.0",
+  "created": "2025-11-15",
+  "last_updated": "2025-11-15",
+  "source": "Video_012"
+}

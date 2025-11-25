@@ -1,0 +1,101 @@
+{
+  "entity_type": "TASK_MANAGERS",
+  "sub_entity": "Task_Template",
+  "template_id": "Task-Template-055",
+  "version": "1.0",
+  "created_date": "2025-11-17",
+  "last_updated": "2025-11-17",
+  "metadata": {
+    "name": "Update Mappings and Cross-references",
+    "description": "Update tool_mapping.json and create cross-references between tools, tasks, and skills",
+    "action": "Update",
+    "object": "Mappings",
+    "context": "tool_mapping.json and cross-references between entities",
+    "department": "All departments (cross-functional)",
+    "complexity": "Low",
+    "estimated_duration": "3-5 minutes",
+    "skill_level_required": "Beginner",
+    "tools_required": [
+      "Text editor with JSON support",
+      "Updated tool entries from TASK-TEMPLATE-VIDEO-301",
+      "Task Templates from extraction",
+      "Skills from extraction"
+    ],
+    "prerequisites": [
+      "TASK-TEMPLATE-VIDEO-301 completed",
+      "All tool JSON files created/updated",
+      "Task Templates and skills extracted"
+    ]
+  },
+  "workflow": {
+    "phase": 3,
+    "milestone": "MIL-PROJ-VIDEO-001-003",
+    "project_template": "Project-Template-008",
+    "dependencies": [
+      "TASK-TEMPLATE-VIDEO-301"
+    ],
+    "outputs": [
+      "tool_mapping.json updated with new tools",
+      "Task-to-tool linkages created",
+      "Skill-to-tool linkages created",
+      "Cross-references validated bidirectionally"
+    ]
+  },
+  "steps": [
+    {
+      "step_number": 1,
+      "step_name": "Update tool_mapping.json",
+      "description": "Add all new tools to tool_mapping.json with tool_id, name, category",
+      "estimated_time": "1-2 minutes",
+      "tools": [
+        "Text editor"
+      ],
+      "output": "tool_mapping.json updated with new entries"
+    },
+    {
+      "step_number": 2,
+      "step_name": "Link tasks to tools",
+      "description": "In tool JSON files, add Task Template IDs to 'tasks' array",
+      "estimated_time": "1-2 minutes",
+      "tools": [
+        "Text editor"
+      ],
+      "output": "Task-to-tool linkages established"
+    },
+    {
+      "step_number": 3,
+      "step_name": "Link skills to tools",
+      "description": "In tool JSON files, add skill phrases to 'skills' array",
+      "estimated_time": "1 minute",
+      "tools": [
+        "Text editor"
+      ],
+      "output": "Skill-to-tool linkages established and validated"
+    }
+  ],
+  "quality_checklist": [
+    "tool_mapping.json updated with all new tools",
+    "No duplicate entries in tool_mapping.json",
+    "All new tool IDs follow TOOL_XXX format",
+    "Task linkages bidirectional (tool → tasks, tasks → tool)",
+    "Skill linkages include tool name in phrase",
+    "JSON format valid in all updated files",
+    "Categories consistent across tool JSON and mapping",
+    "Cross-references validated"
+  ],
+  "related_entities": {
+    "methodology": "ENTITIES/PROMPTS/Video_Processing/Complete_Video_Workflow_Full_Instructions.md",
+    "short_guide": "ENTITIES/PROMPTS/Video_Processing/Short Complete Video Workflow.md",
+    "tool_mapping": "ENTITIES/LIBRARIES/tool_mapping.json",
+    "libraries_location": "ENTITIES/LIBRARIES/Tools/",
+    "project_template": "Project-Template-008",
+    "milestone": "MIL-PROJ-VIDEO-001-003",
+    "previous_task": "TASK-TEMPLATE-VIDEO-301",
+    "next_task": "TASK-TEMPLATE-VIDEO-007",
+    "step_templates": [
+      "STEP-VIDEO-006-01",
+      "STEP-VIDEO-006-02",
+      "STEP-VIDEO-006-03"
+    ]
+  }
+}

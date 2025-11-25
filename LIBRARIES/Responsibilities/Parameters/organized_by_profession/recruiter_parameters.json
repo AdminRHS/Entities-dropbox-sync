@@ -1,0 +1,268 @@
+{
+  "metadata": {
+    "profession_name": "recruiter", 
+    "department": "managers",
+    "created_date": "2025-01-19T00:00:00.000Z",
+    "description": "Parameters specific to recruiter types and recruitment activities",
+    "data_source": "parameters.json",
+    "organization_method": "type_to_profession_mapping"
+  },
+  "summary": {
+    "unique_types": [
+      "applied candidates",
+      "follow-up candidates",
+      "found candidates",
+      "needed candidates",
+      "job site",
+      "messenger",
+      "social network",
+      "faq",
+      "feedback", 
+      "first connection",
+      "update",
+      "onboarding",
+      "content creator agreement",
+      "employee contracts",
+      "presale contract",
+      "candidates database",
+      "employees database",
+      "presale database"
+    ],
+    "total_parameters": 87,
+    "parameter_categories": ["candidate_management", "communication_channels", "contract_management", "database_management", "recruitment_process"]
+  },
+  "parameters_by_type": {
+    "applied_candidates": [
+      "name",
+      "age",
+      "address",
+      "date",
+      "source",
+      "contact",
+      "resume",
+      "video",
+      "interview",
+      "photo",
+      "portfolio",
+      "test",
+      "department",
+      "profession",
+      "applied for",
+      "language",
+      "tool",
+      "course",
+      "comment",
+      "sub title",
+      "status",
+      "salary",
+      "shift"
+    ],
+    "follow_up_candidates": [
+      "name",
+      "age", 
+      "address",
+      "date",
+      "source",
+      "contact",
+      "resume",
+      "video",
+      "interview",
+      "photo",
+      "portfolio",
+      "test",
+      "department",
+      "profession",
+      "applied for",
+      "language",
+      "tool",
+      "course",
+      "comment",
+      "sub title",
+      "status",
+      "salary",
+      "shift",
+      "expected salary",
+      "period"
+    ],
+    "found_candidates": [
+      "name",
+      "age",
+      "address",
+      "date",
+      "source",
+      "contact",
+      "resume",
+      "video",
+      "interview",
+      "photo",
+      "portfolio",
+      "test",
+      "department",
+      "profession",
+      "applied for",
+      "language",
+      "tool",
+      "course",
+      "comment",
+      "sub title",
+      "status",
+      "salary",
+      "shift",
+      "expected salary"
+    ],
+    "needed_candidates": [
+      "skill",
+      "project",
+      "location",
+      "company",
+      "manager",
+      "profession",
+      "date",
+      "status",
+      "possible employee",
+      "tool",
+      "quantity"
+    ],
+    "job_site": [
+      "name",
+      "link",
+      "application",
+      "account",
+      "login",
+      "password"
+    ],
+    "messenger": [
+      "name",
+      "link",
+      "application",
+      "account",
+      "login",
+      "password"
+    ],
+    "social_network": [
+      "name",
+      "link",
+      "application",
+      "account",
+      "login",
+      "password"
+    ],
+    "faq": [
+      "company",
+      "department",
+      "profession",
+      "position",
+      "tool",
+      "responsibility",
+      "task",
+      "experience",
+      "development",
+      "salary",
+      "schedule",
+      "benefit",
+      "contract condition"
+    ],
+    "feedback": [
+      "timeliness",
+      "relevance",
+      "specifity",
+      "format",
+      "constructiveness"
+    ],
+    "first_connection": [
+      "date",
+      "vacancy",
+      "benefit",
+      "name",
+      "company"
+    ],
+    "update": [
+      "response time",
+      "outcome",
+      "profession",
+      "frequency",
+      "channel",
+      "goal"
+    ],
+    "onboarding": [
+      "call",
+      "presentation",
+      "faq"
+    ],
+    "content_creator_agreement": [
+      "subject",
+      "name",
+      "signature",
+      "confidentiality",
+      "responsibility",
+      "transfer of right",
+      "termination",
+      "salary"
+    ],
+    "employee_contracts": [
+      "subject",
+      "service",
+      "responsibility",
+      "order of rendering",
+      "condition",
+      "result transfer",
+      "duration",
+      "salary",
+      "benefits",
+      "training",
+      "privacy",
+      "termination"
+    ],
+    "presale_contract": [
+      "subject",
+      "rights",
+      "duties",
+      "duration",
+      "disput resolution",
+      "confidential information",
+      "other conditions"
+    ]
+  },
+  "entries": [
+    {
+      "Types": "applied candidates",
+      "Parameters": "name"
+    },
+    {
+      "Types": "applied candidates",
+      "Parameters": "age"
+    },
+    {
+      "Types": "applied candidates",
+      "Parameters": "address"
+    },
+    {
+      "Types": "applied candidates",
+      "Parameters": "date"
+    },
+    {
+      "Types": "applied candidates",
+      "Parameters": "source"
+    },
+    {
+      "Types": "needed candidates",
+      "Parameters": "skill"
+    },
+    {
+      "Types": "needed candidates",
+      "Parameters": "project"
+    },
+    {
+      "Types": "needed candidates",
+      "Parameters": "location"
+    },
+    {
+      "Types": "job site",
+      "Parameters": "name"
+    },
+    {
+      "Types": "job site",
+      "Parameters": "link"
+    }
+  ]
+}

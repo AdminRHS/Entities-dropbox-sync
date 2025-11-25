@@ -1,0 +1,645 @@
+{
+  "entity_type": "TASK_MANAGERS",
+  "sub_entity": "Project_Template",
+  "template_id": "Project-Template-004",
+  "version": "1.0",
+  "created_date": "2025-11-12",
+  "last_updated": "2025-11-12",
+  "metadata": {
+    "name": "Complete Lead Generation to Customer Conversion Campaign",
+    "description": "End-to-end workflow for generating leads from Google SERP, enriching with emails, re-engaging old clients, and automating outreach and follow-up processes.",
+    "primary_department": "LG",
+    "departments_involved": [
+      "LG",
+      "SALES",
+      "OPS"
+    ],
+    "project_type": "Standard",
+    "complexity": "Medium",
+    "estimated_duration": "2-3 weeks (setup) + ongoing automation",
+    "cost_estimate": {
+      "initial_setup": "$5-50 depending on lead volume",
+      "ongoing": "Time only (automated workflows)",
+      "cost_breakdown": [
+        "Email enrichment: $0.0025 per email ($5 for 2,000 leads)",
+        "MCP setup: Free (time investment only)",
+        "Tools: Claude Desktop (free), Anymailfinder (pay-per-use)"
+      ]
+    },
+    "roi_estimate": "15-20+ hours/week saved after automation setup",
+    "success_criteria": [
+      "2,000+ leads generated and enriched with emails",
+      "Old clients identified and re-engagement emails sent",
+      "Morning email automation operational (5-10 hrs/week saved)",
+      "Meeting follow-up automation configured (15+ hrs/week potential)"
+    ],
+    "prerequisites": [
+      "Claude Desktop installed",
+      "Anymailfinder account or email enrichment service",
+      "Email client (Gmail recommended for MCP integration)",
+      "Calendar system (Google Calendar recommended)",
+      "CRM or lead tracking system (optional but recommended)"
+    ],
+    "best_for": [
+      "B2B companies needing systematic lead generation",
+      "Sales teams with old client databases to re-activate",
+      "Organizations wanting to automate outreach workflows",
+      "Teams handling 50+ emails daily"
+    ]
+  },
+  "structure": {
+    "total_phases": 5,
+    "total_milestones": 5,
+    "total_tasks": 5,
+    "total_estimated_steps": 35,
+    "workflow_type": "Sequential with parallel automation setup"
+  },
+  "phases": [
+    {
+      "phase_number": 1,
+      "phase_name": "Lead Generation",
+      "phase_description": "Generate 2,000+ leads from Google SERP using targeted search queries",
+      "duration": "20-30 minutes",
+      "complexity": "Medium",
+      "dependencies": [],
+      "milestones": [
+        "MIL-PROJ-LG-001-001"
+      ],
+      "output": "2,000+ raw leads with company names and websites",
+      "success_criteria": [
+        "Minimum 2,000 leads extracted",
+        "Data includes company name and website URL",
+        "Leads match target criteria (industry, location, size)"
+      ]
+    },
+    {
+      "phase_number": 2,
+      "phase_name": "Email Enrichment",
+      "phase_description": "Enrich all leads with email addresses using Anymailfinder at $0.0025 per email",
+      "duration": "10-15 minutes",
+      "complexity": "Low",
+      "dependencies": [
+        "Phase 1 complete"
+      ],
+      "milestones": [
+        "MIL-PROJ-LG-001-002"
+      ],
+      "output": "2,000+ leads enriched with verified email addresses",
+      "success_criteria": [
+        "80%+ leads successfully enriched with emails",
+        "Email format verification completed",
+        "Total cost within budget ($5 for 2,000 emails)"
+      ]
+    },
+    {
+      "phase_number": 3,
+      "phase_name": "Old Client Re-engagement",
+      "phase_description": "Identify dormant clients in lead list and execute re-engagement campaign",
+      "duration": "1 hour",
+      "complexity": "Low",
+      "dependencies": [
+        "Phase 2 complete"
+      ],
+      "milestones": [
+        "MIL-PROJ-LG-001-003"
+      ],
+      "output": "Personalized re-engagement emails sent to dormant clients",
+      "success_criteria": [
+        "Old clients identified (6+ months no activity)",
+        "Clients segmented by previous project type",
+        "Personalized emails sent and tracked in CRM"
+      ]
+    },
+    {
+      "phase_number": 4,
+      "phase_name": "Outreach Automation Setup",
+      "phase_description": "Configure morning email automation using MCP connectors to draft daily outreach emails",
+      "duration": "15-20 minutes setup",
+      "complexity": "Medium",
+      "dependencies": [
+        "Phase 2 complete",
+        "Claude Skills enabled (TASK-TEMPLATE-013)"
+      ],
+      "milestones": [
+        "MIL-PROJ-LG-001-004"
+      ],
+      "output": "Automated morning email draft system operational",
+      "success_criteria": [
+        "MCP Gmail connector deployed",
+        "Morning automation workflow configured",
+        "First batch of automated drafts generated successfully",
+        "5-10 hours/week time savings achieved"
+      ]
+    },
+    {
+      "phase_number": 5,
+      "phase_name": "Meeting Follow-up Automation",
+      "phase_description": "Configure advanced stacked connector automation for post-meeting follow-up",
+      "duration": "2-3 hours setup (one-time)",
+      "complexity": "Very High",
+      "dependencies": [
+        "Phase 4 complete",
+        "Calendar MCP connector deployed"
+      ],
+      "milestones": [
+        "MIL-PROJ-LG-001-005"
+      ],
+      "output": "Fully automated meeting follow-up system with Calendar + Gmail + CRM integration",
+      "success_criteria": [
+        "Stacked connector workflow operational",
+        "Automatic follow-up emails after meetings",
+        "CRM updates automated",
+        "15+ hours/week time savings achieved"
+      ]
+    }
+  ],
+  "milestones": [
+    {
+      "milestone_id": "MIL-PROJ-LG-001-001",
+      "milestone_name": "Lead List Generated",
+      "phase": 1,
+      "description": "2,000+ qualified leads extracted from Google SERP",
+      "task_templates": [
+        "TASK-TEMPLATE-009"
+      ],
+      "estimated_duration": "20-30 minutes",
+      "deliverables": [
+        "CSV file with 2,000+ leads",
+        "Data fields: Company name, website URL, industry, location"
+      ],
+      "success_metrics": {
+        "quantitative": [
+          "Lead count >= 2,000",
+          "Data completeness >= 95%"
+        ],
+        "qualitative": [
+          "Leads match target ICP",
+          "Data quality verified"
+        ]
+      },
+      "checklist_items": [
+        "CHK-072",
+        "CHK-073"
+      ]
+    },
+    {
+      "milestone_id": "MIL-PROJ-LG-001-002",
+      "milestone_name": "Emails Enriched",
+      "phase": 2,
+      "description": "All leads enriched with verified email addresses",
+      "task_templates": [
+        "TASK-TEMPLATE-003"
+      ],
+      "estimated_duration": "10-15 minutes",
+      "deliverables": [
+        "Updated CSV with email addresses",
+        "Email verification report"
+      ],
+      "success_metrics": {
+        "quantitative": [
+          "Email enrichment rate >= 80%",
+          "Total cost <= $5"
+        ],
+        "qualitative": [
+          "Email format verification passed",
+          "No bounced emails in test batch"
+        ]
+      },
+      "checklist_items": [
+        "CHK-074",
+        "CHK-075"
+      ]
+    },
+    {
+      "milestone_id": "MIL-PROJ-LG-001-003",
+      "milestone_name": "Old Clients Re-engaged",
+      "phase": 3,
+      "description": "Dormant clients identified and re-engagement campaign executed",
+      "task_templates": [
+        "TASK-TEMPLATE-002"
+      ],
+      "estimated_duration": "1 hour",
+      "deliverables": [
+        "Segmented client list by project type",
+        "Personalized email templates by segment",
+        "Sent emails logged in CRM"
+      ],
+      "success_metrics": {
+        "quantitative": [
+          "Open rate >= 20%",
+          "Reply rate >= 5%"
+        ],
+        "qualitative": [
+          "Personalization quality high",
+          "CRM records updated"
+        ]
+      },
+      "checklist_items": [
+        "CHK-076",
+        "CHK-077",
+        "CHK-078"
+      ]
+    },
+    {
+      "milestone_id": "MIL-PROJ-LG-001-004",
+      "milestone_name": "Email Automation Operational",
+      "phase": 4,
+      "description": "Morning email draft automation configured and running",
+      "task_templates": [
+        "TASK-TEMPLATE-007"
+      ],
+      "estimated_duration": "15-20 minutes",
+      "deliverables": [
+        "MCP Gmail connector deployed",
+        "Automation workflow configured",
+        "First automated draft batch generated"
+      ],
+      "success_metrics": {
+        "quantitative": [
+          "Time saved >= 5 hours/week",
+          "Automation success rate >= 90%"
+        ],
+        "qualitative": [
+          "Draft quality meets standards",
+          "Workflow runs reliably"
+        ]
+      },
+      "checklist_items": [
+        "CHK-079",
+        "CHK-080",
+        "CHK-081"
+      ]
+    },
+    {
+      "milestone_id": "MIL-PROJ-LG-001-005",
+      "milestone_name": "Complete Automation Stack Live",
+      "phase": 5,
+      "description": "Advanced stacked connector automation for meeting follow-up operational",
+      "task_templates": [
+        "TASK-TEMPLATE-005"
+      ],
+      "estimated_duration": "2-3 hours",
+      "deliverables": [
+        "Stacked connector workflow (Calendar + Gmail + CRM)",
+        "Automated meeting follow-up system",
+        "CRM integration active"
+      ],
+      "success_metrics": {
+        "quantitative": [
+          "Time saved >= 15 hours/week",
+          "Automation success rate >= 85%"
+        ],
+        "qualitative": [
+          "Multi-app integration working",
+          "Follow-ups sent within 24 hours"
+        ]
+      },
+      "checklist_items": [
+        "CHK-082",
+        "CHK-083",
+        "CHK-084"
+      ]
+    }
+  ],
+  "task_sequence": [
+    {
+      "sequence_number": 1,
+      "task_template_id": "TASK-TEMPLATE-009",
+      "task_name": "Scrape Google SERP for Lead Generation",
+      "phase": 1,
+      "milestone": "MIL-PROJ-LG-001-001",
+      "estimated_duration": "20-30 minutes",
+      "complexity": "Medium",
+      "department": "LG",
+      "dependencies": [],
+      "inputs_required": [
+        "Target search queries (e.g., 'software companies in California')",
+        "Geographic filters",
+        "Industry specifications"
+      ],
+      "outputs_produced": [
+        "CSV with 2,000+ leads",
+        "Company names and website URLs"
+      ],
+      "step_templates": [
+        "STEP-TASK-TEMPLATE-009-01",
+        "STEP-TASK-TEMPLATE-009-02",
+        "STEP-TASK-TEMPLATE-009-03",
+        "STEP-TASK-TEMPLATE-009-04",
+        "STEP-TASK-TEMPLATE-009-05",
+        "STEP-TASK-TEMPLATE-009-06"
+      ]
+    },
+    {
+      "sequence_number": 2,
+      "task_template_id": "TASK-TEMPLATE-003",
+      "task_name": "Enrich Leads with Emails using Anymailfinder",
+      "phase": 2,
+      "milestone": "MIL-PROJ-LG-001-002",
+      "estimated_duration": "10-15 minutes",
+      "complexity": "Low",
+      "department": "LG",
+      "dependencies": [
+        "TASK-TEMPLATE-009 complete"
+      ],
+      "inputs_required": [
+        "Lead list from Phase 1 (CSV)",
+        "Anymailfinder account credentials"
+      ],
+      "outputs_produced": [
+        "Enriched lead list with emails",
+        "Email verification report"
+      ],
+      "step_templates": [
+        "STEP-TASK-TEMPLATE-003-01",
+        "STEP-TASK-TEMPLATE-003-02",
+        "STEP-TASK-TEMPLATE-003-03",
+        "STEP-TASK-TEMPLATE-003-04",
+        "STEP-TASK-TEMPLATE-003-05",
+        "STEP-TASK-TEMPLATE-003-06"
+      ]
+    },
+    {
+      "sequence_number": 3,
+      "task_template_id": "TASK-TEMPLATE-002",
+      "task_name": "Send Follow-up Email to Old Clients",
+      "phase": 3,
+      "milestone": "MIL-PROJ-LG-001-003",
+      "estimated_duration": "1 hour",
+      "complexity": "Low",
+      "department": "SALES",
+      "dependencies": [
+        "TASK-TEMPLATE-003 complete"
+      ],
+      "inputs_required": [
+        "Enriched lead list",
+        "CRM data on previous clients",
+        "Email templates by segment"
+      ],
+      "outputs_produced": [
+        "Segmented client list",
+        "Sent re-engagement emails",
+        "CRM activity log"
+      ],
+      "step_templates": [
+        "STEP-TASK-TEMPLATE-002-01",
+        "STEP-TASK-TEMPLATE-002-02",
+        "STEP-TASK-TEMPLATE-002-03",
+        "STEP-TASK-TEMPLATE-002-04",
+        "STEP-TASK-TEMPLATE-002-05",
+        "STEP-TASK-TEMPLATE-002-06"
+      ]
+    },
+    {
+      "sequence_number": 4,
+      "task_template_id": "TASK-TEMPLATE-007",
+      "task_name": "Automate Morning Email Response Drafts",
+      "phase": 4,
+      "milestone": "MIL-PROJ-LG-001-004",
+      "estimated_duration": "15-20 minutes",
+      "complexity": "Medium",
+      "department": "AI",
+      "dependencies": [
+        "TASK-TEMPLATE-013 complete (Claude Skills enabled)"
+      ],
+      "inputs_required": [
+        "Claude Desktop with MCP enabled",
+        "Gmail MCP connector (from TASK-TEMPLATE-006 + 010)",
+        "Email response guidelines"
+      ],
+      "outputs_produced": [
+        "Automated morning email drafts",
+        "Time savings report (5-10 hrs/week)"
+      ],
+      "step_templates": [
+        "STEP-TASK-TEMPLATE-007-01",
+        "STEP-TASK-TEMPLATE-007-02",
+        "STEP-TASK-TEMPLATE-007-03",
+        "STEP-TASK-TEMPLATE-007-04"
+      ]
+    },
+    {
+      "sequence_number": 5,
+      "task_template_id": "TASK-TEMPLATE-005",
+      "task_name": "Automate Post-Meeting Follow-up with Stacked Connectors",
+      "phase": 5,
+      "milestone": "MIL-PROJ-LG-001-005",
+      "estimated_duration": "2-3 hours",
+      "complexity": "Very High",
+      "department": "AI",
+      "dependencies": [
+        "TASK-TEMPLATE-007 complete",
+        "Calendar MCP connector deployed (TASK-TEMPLATE-006 + 010)"
+      ],
+      "inputs_required": [
+        "Gmail MCP connector (operational)",
+        "Calendar MCP connector (operational)",
+        "CRM integration (optional)",
+        "Meeting follow-up templates"
+      ],
+      "outputs_produced": [
+        "Stacked connector automation workflow",
+        "Automated meeting follow-up emails",
+        "CRM auto-updates",
+        "Time savings report (15+ hrs/week)"
+      ],
+      "step_templates": [
+        "STEP-TASK-TEMPLATE-005-01",
+        "STEP-TASK-TEMPLATE-005-02",
+        "STEP-TASK-TEMPLATE-005-03",
+        "STEP-TASK-TEMPLATE-005-04",
+        "STEP-TASK-TEMPLATE-005-05"
+      ]
+    }
+  ],
+  "workflow_diagram": {
+    "description": "Visual representation of project flow",
+    "ascii_diagram": [
+      "Phase 1: Lead Generation",
+      "  └─> TASK-TEMPLATE-009 (Google SERP Scraping)",
+      "      └─> Output: 2,000+ leads with websites",
+      "",
+      "Phase 2: Email Enrichment",
+      "  └─> TASK-TEMPLATE-003 (Anymailfinder)",
+      "      └─> Output: Leads + verified emails",
+      "",
+      "Phase 3: Client Re-engagement",
+      "  └─> TASK-TEMPLATE-002 (Old Client Outreach)",
+      "      └─> Output: Segmented campaigns sent",
+      "",
+      "Phase 4: Email Automation (Parallel with Phase 3)",
+      "  ├─> TASK-TEMPLATE-013 (Enable Skills) [Prerequisite]",
+      "  ├─> TASK-TEMPLATE-006 (Generate Gmail MCP) [Prerequisite]",
+      "  ├─> TASK-TEMPLATE-010 (Deploy Connector) [Prerequisite]",
+      "  └─> TASK-TEMPLATE-007 (Morning Email Automation)",
+      "      └─> Output: 5-10 hrs/week saved",
+      "",
+      "Phase 5: Meeting Automation (Requires Phase 4)",
+      "  ├─> TASK-TEMPLATE-006 (Generate Calendar MCP) [Prerequisite]",
+      "  ├─> TASK-TEMPLATE-010 (Deploy Connector) [Prerequisite]",
+      "  └─> TASK-TEMPLATE-005 (Stacked Connector Automation)",
+      "      └─> Output: 15+ hrs/week saved"
+    ]
+  },
+  "resource_requirements": {
+    "human_resources": {
+      "minimum_team": [
+        "1 Lead Generation Specialist (Phases 1-2)",
+        "1 Sales Representative (Phase 3)",
+        "1 Operations/Automation Specialist (Phases 4-5)"
+      ],
+      "optimal_team": [
+        "1 Lead Generation Specialist",
+        "1 Sales Representative",
+        "1 Operations Specialist",
+        "1 Developer (for MCP setup and troubleshooting)"
+      ],
+      "total_time_investment": "4-6 hours setup + ongoing use"
+    },
+    "technical_requirements": {
+      "software": [
+        "Claude Desktop",
+        "Gmail or similar email client",
+        "Google Calendar or similar",
+        "CRM system (Salesforce, HubSpot, etc.)",
+        "Spreadsheet software (Excel, Google Sheets)",
+        "Anymailfinder account"
+      ],
+      "infrastructure": [
+        "Stable internet connection",
+        "Windows/Mac/Linux workstation",
+        "Cloud storage for lead data"
+      ]
+    },
+    "financial_requirements": {
+      "one_time_costs": "$5-50 (email enrichment)",
+      "recurring_costs": "Pay-per-use email enrichment only",
+      "roi_timeline": "Week 1 (automation time savings immediate)"
+    }
+  },
+  "risk_assessment": {
+    "high_risks": [
+      {
+        "risk": "Email enrichment costs exceed budget",
+        "impact": "High",
+        "probability": "Low",
+        "mitigation": "Start with smaller batch (500 leads) to test quality before full run"
+      },
+      {
+        "risk": "Stacked connector setup fails",
+        "impact": "High",
+        "probability": "Medium",
+        "mitigation": "Have developer support available, use TASK-TEMPLATE-014 for troubleshooting"
+      }
+    ],
+    "medium_risks": [
+      {
+        "risk": "Old client re-engagement has low response rate",
+        "impact": "Medium",
+        "probability": "Medium",
+        "mitigation": "A/B test subject lines, segment carefully, personalize heavily"
+      },
+      {
+        "risk": "MCP connectors require updates",
+        "impact": "Medium",
+        "probability": "Low",
+        "mitigation": "Subscribe to MCP updates, maintain connector versions"
+      }
+    ],
+    "low_risks": [
+      {
+        "risk": "Google SERP scraping blocked",
+        "impact": "Medium",
+        "probability": "Low",
+        "mitigation": "Use residential proxies, respect rate limits"
+      }
+    ]
+  },
+  "optimization_tips": [
+    "Start with Phase 1-2 to validate lead quality before investing in automation (Phases 4-5)",
+    "Run Phase 3 (old client re-engagement) in parallel with Phase 4 setup to save time",
+    "Test email automation (Phase 4) thoroughly before moving to complex stacked connectors (Phase 5)",
+    "Use TASK-TEMPLATE-013 (Enable Claude Skills) before starting Phase 4 - only takes 2 minutes",
+    "Generate both Gmail and Calendar MCP connectors (TASK-TEMPLATE-006) before deployment to batch the work",
+    "Monitor automation success rates weekly and adjust workflows based on performance data"
+  ],
+  "variation_guidance": {
+    "budget_constrained": {
+      "recommended_phases": [
+        1,
+        2,
+        3
+      ],
+      "skip_phases": [
+        4,
+        5
+      ],
+      "rationale": "Get immediate value from lead generation and re-engagement without automation investment",
+      "cost_savings": "Saves 2-3 hours setup time, focuses on quick ROI"
+    },
+    "time_constrained": {
+      "recommended_phases": [
+        1,
+        2,
+        4
+      ],
+      "skip_phases": [
+        3,
+        5
+      ],
+      "rationale": "Focus on new leads and basic automation, skip complex workflows",
+      "time_savings": "Saves 3-4 hours, still achieves 5-10 hrs/week ongoing savings"
+    },
+    "maximum_automation": {
+      "recommended_phases": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "additional_prerequisites": [
+        "TASK-TEMPLATE-013 (Enable Skills)",
+        "TASK-TEMPLATE-006 (Generate connectors for Gmail, Calendar, CRM)",
+        "TASK-TEMPLATE-010 (Deploy all connectors)"
+      ],
+      "rationale": "Full implementation for maximum ongoing time savings (20+ hrs/week)",
+      "total_investment": "6-8 hours setup for 20+ hours/week saved"
+    }
+  },
+  "related_templates": {
+    "prerequisite_templates": [
+      "TASK-TEMPLATE-013: Enable Claude Skills (required for Phases 4-5)",
+      "TASK-TEMPLATE-006: Generate MCP Connector (required for Phases 4-5)",
+      "TASK-TEMPLATE-010: Deploy MCP Connector Locally (required for Phases 4-5)"
+    ],
+    "complementary_templates": [
+      "TASK-TEMPLATE-004: Extract LinkedIn Leads (Premium alternative to Phase 1)",
+      "TASK-TEMPLATE-011: Custom Niche Scraping (Higher reply rate alternative)",
+      "TASK-TEMPLATE-012: Newsletter Auto-Reply (Additional automation)"
+    ],
+    "follow_up_templates": [
+      "Future: Campaign Performance Analytics",
+      "Future: Lead Scoring and Prioritization",
+      "Future: Multi-Channel Outreach Automation"
+    ]
+  },
+  "version_history": [
+    {
+      "version": "1.0",
+      "date": "2025-11-12",
+      "changes": "Initial template creation from Phase 6 cross-department workflow documentation",
+      "author": "AI Assistant (Claude Sonnet 4.5)"
+    }
+  ],
+  "tags": [
+    "lead-generation",
+    "email-enrichment",
+    "sales-automation",
+    "mcp-automation",
+    "client-reengagement",
+    "outreach-automation",
+    "cross-department",
+    "end-to-end-workflow"
+  ]
+}

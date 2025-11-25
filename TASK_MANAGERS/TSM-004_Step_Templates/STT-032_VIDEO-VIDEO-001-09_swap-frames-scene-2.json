@@ -1,0 +1,28 @@
+{
+  "entity_type": "TASK_MANAGERS",
+  "sub_entity": "Step_Template",
+  "step_id": "VIDEO-VIDEO-001-09",
+  "step_number": 9,
+  "parent_task": "TASK-TEMPLATE-VIDEO-001",
+  "task_name": "Create Multi-Scene Product Commercial",
+  "name": "Swap frames for Scene 2 (end becomes start)",
+  "action": "swap",
+  "tool": "TOOL-AI-051 (Google Veo 3.1)",
+  "responsibility": "Product Marketer",
+  "placement": "OpenArt - Frame control",
+  "duration": "2 minutes",
+  "dependencies": [8],
+  "inputs": [
+    "Scene 1 final frame"
+  ],
+  "outputs": [
+    "Scene 1 final frame now set as Scene 2 start frame"
+  ],
+  "success_criteria": "Frame continuity established",
+  "implementation_notes": "Use the final frame from Scene 1 as the start frame for Scene 2. This creates seamless transitions between scenes and enables unlimited-length video chaining.",
+  "tags": ["frame-swapping", "scene-chaining", "continuity"],
+  "version": "1.0",
+  "created": "2025-11-15",
+  "last_updated": "2025-11-15",
+  "source": "Video_012"
+}

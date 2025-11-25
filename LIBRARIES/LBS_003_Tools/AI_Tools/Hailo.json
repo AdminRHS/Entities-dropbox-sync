@@ -1,0 +1,59 @@
+{
+  "entity_type": "LIBRARIES",
+  "sub_entity": "Tool",
+  "tool_id": "TOOL-AI-067",
+  "name": "Hailo",
+  "vendor": "Hailo",
+  "category": "AI/Video Tools",
+  "purpose": "AI video platform for various video applications (details TBD)",
+  "description": "AI video platform offering various video-related AI tools and services. Also referenced as Hailuoai. Specific capabilities and use cases to be determined through further research.",
+  "skill_level_required": "TBD",
+  "cost_structure": "TBD",
+  "platform_compatibility": [
+    "Web"
+  ],
+  "integration_capabilities": [],
+  "documentation_url": "https://hailo.ai",
+  "actual_remote_helpers_usage": {
+    "primary_use": "TBD",
+    "users": [],
+    "use_cases": [],
+    "workflows": []
+  },
+  "strengths": [],
+  "limitations": [],
+  "departments_using": [],
+  "tags": [
+    "video",
+    "ai-platform",
+    "hailuoai"
+  ],
+  "discovery_date": "2025-11-15",
+  "discovery_source": "finance_data",
+  "status": "discovered_needs_review",
+  "finance_data": {
+    "subscription_status": "unpaid",
+    "total_accounts": 2,
+    "paid_accounts": 0,
+    "unpaid_accounts": 2,
+    "latest_valid_until": "2025-06-21",
+    "accounts": [
+      {
+        "email": "dd@rh-s.com",
+        "status": "not paid",
+        "paid_date": null,
+        "valid_until": "2025-06-21",
+        "department": ""
+      },
+      {
+        "email": "dd@rh-s.com",
+        "status": "not paid",
+        "paid_date": null,
+        "valid_until": "2025-06-21",
+        "department": ""
+      }
+    ],
+    "departments_using": []
+  }
+}
+

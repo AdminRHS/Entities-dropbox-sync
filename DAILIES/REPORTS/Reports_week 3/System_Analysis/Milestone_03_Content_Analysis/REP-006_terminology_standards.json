@@ -1,0 +1,286 @@
+{
+  "metadata": {
+    "report_id": "REP-006",
+    "report_name": "Terminology Standardization Guidelines",
+    "generated_date": "2025-11-17",
+    "version": "1.0",
+    "source_analysis": "Milestone 3 - Content Analysis & Terminology Extraction",
+    "total_terms_analyzed": 14955,
+    "redundant_patterns_identified": 404
+  },
+
+  "naming_conventions": {
+    "json_field_names": {
+      "standard": "snake_case",
+      "examples_correct": [
+        "task_template_id",
+        "step_template_id",
+        "milestone_template_id",
+        "project_template_id",
+        "checklist_item_id"
+      ],
+      "examples_incorrect": [
+        "taskTemplateId",
+        "TaskTemplateID",
+        "task-template-id",
+        "tasktemplateid"
+      ],
+      "rules": [
+        "Use lowercase letters",
+        "Separate words with underscores",
+        "Include full descriptor (e.g., _template_id not just _id)",
+        "Avoid abbreviations (use 'description' not 'desc')"
+      ]
+    },
+
+    "entity_ids": {
+      "standard": "UPPERCASE-WITH-HYPHENS",
+      "patterns": {
+        "step_templates": {
+          "format": "STEP-{###}",
+          "full_format": "STEP-{CATEGORY}-{TASK#}-{STEP#}",
+          "examples": ["STEP-HR-003-01", "STEP-ANALYSIS-001-01"]
+        },
+        "task_templates": {
+          "format": "TASK-TEMPLATE-{###}",
+          "full_format": "TASK-TEMPLATE-{CATEGORY}-{###}",
+          "examples": ["TASK-TEMPLATE-ANALYSIS-001", "TASK-TEMPLATE-HR-001"]
+        },
+        "milestone_templates": {
+          "format": "MIL-TEMPL-{###}",
+          "examples": ["MIL-TEMPL-001", "MIL-TEMPL-005"]
+        },
+        "project_templates": {
+          "format": "PROJ-TEMPL-{###}",
+          "examples": ["PROJ-TEMPL-001"]
+        },
+        "checklist_items": {
+          "format": "CHK-{###}",
+          "examples": ["CHK-001", "CHK-050"]
+        }
+      },
+      "rules": [
+        "Use ALL UPPERCASE for prefixes and categories",
+        "Separate components with hyphens",
+        "Zero-pad numbers (001 not 1)",
+        "Maintain sequential numbering within categories"
+      ]
+    },
+
+    "file_names": {
+      "standard": "Mixed case with descriptive naming",
+      "patterns": {
+        "templates": "{TYPE}-{ID}_{Descriptive_Name}.json",
+        "schemas": "{Entity}_Schema.md",
+        "listings": "{Entity}_Listing.json"
+      },
+      "examples": [
+        "TASK-TEMPLATE-ANALYSIS-001_File_Count_Distribution.json",
+        "Task_Template_Schema.md",
+        "Milestone_Template_Schema.md"
+      ]
+    }
+  },
+
+  "redundancy_resolution": {
+    "case_variations": {
+      "count": 205,
+      "recommendation": "Standardize all to snake_case for JSON fields, UPPERCASE-HYPHEN for entity IDs",
+      "common_examples": [
+        {
+          "variations": ["stepID", "stepId", "step_id"],
+          "standard": "step_template_id",
+          "rationale": "Use full descriptor with snake_case"
+        },
+        {
+          "variations": ["taskName", "task_name", "TaskName"],
+          "standard": "task_template_name",
+          "rationale": "Consistent with other template name fields"
+        },
+        {
+          "variations": ["milestoneId", "milestone_id"],
+          "standard": "milestone_template_id",
+          "rationale": "Full template_id suffix for clarity"
+        }
+      ]
+    },
+
+    "separator_variations": {
+      "count": 199,
+      "recommendation": "Use underscores for JSON fields, hyphens for entity IDs",
+      "common_examples": [
+        {
+          "variations": ["task_template", "task-template", "taskTemplate"],
+          "standard": "task_template (JSON field) or TASK-TEMPLATE (ID prefix)",
+          "context": "Use underscores in JSON, hyphens in IDs"
+        },
+        {
+          "variations": ["milestone_id", "milestone-id"],
+          "standard": "milestone_template_id",
+          "context": "Underscores only for field names"
+        }
+      ]
+    },
+
+    "abbreviation_avoidance": {
+      "recommendation": "Use full words to avoid ambiguity",
+      "mappings": [
+        {"abbreviation": "desc", "full_term": "description", "action": "Replace all"},
+        {"abbreviation": "dept", "full_term": "department", "action": "Replace all"},
+        {"abbreviation": "templ", "full_term": "template", "action": "Replace all"},
+        {"abbreviation": "cat", "full_term": "category", "action": "Replace all"},
+        {"abbreviation": "ref", "full_term": "reference", "action": "Replace all"}
+      ]
+    }
+  },
+
+  "standard_terminology": {
+    "template_hierarchy": {
+      "levels": ["Project Template", "Milestone Template", "Task Template", "Step Template"],
+      "relationships": [
+        "Project contains Milestones",
+        "Milestone groups Tasks",
+        "Task decomposes into Steps",
+        "Steps cross-reference Checklist Items"
+      ]
+    },
+
+    "required_fields_by_entity": {
+      "step_templates": ["step_template_id", "step_template_name"],
+      "task_templates": ["task_template_id", "task_template_name", "category", "department"],
+      "milestone_templates": ["milestone_template_id", "name", "task_templates"],
+      "project_templates": ["project_template_id", "template_name", "milestone_templates"],
+      "checklist_items": ["checklist_item_id", "item_name", "status"]
+    },
+
+    "recommended_fields": {
+      "all_templates": ["description", "version", "created", "last_updated"],
+      "task_templates": ["estimated_hours", "step_templates", "dependencies"],
+      "milestone_templates": ["phase", "can_run_parallel", "dependencies", "expected_reports"],
+      "project_templates": ["department", "category", "estimated_duration"]
+    }
+  },
+
+  "field_usage_statistics": {
+    "most_common_json_fields": [
+      {"field": "id", "occurrences": 29062, "note": "Generic - consider more specific naming"},
+      {"field": "name", "occurrences": 14595},
+      {"field": "parameter", "occurrences": 7794},
+      {"field": "parameter_type", "occurrences": 7321},
+      {"field": "department", "occurrences": 4424},
+      {"field": "description", "occurrences": 3500, "note": "Estimated - widely used"}
+    ],
+    "total_unique_fields": 5228,
+    "recommendation": "Many generic 'id' and 'name' fields - consider namespacing (e.g., task_id vs generic id)"
+  },
+
+  "markdown_heading_patterns": {
+    "total_headings": 14580,
+    "by_level": {
+      "h1": 969,
+      "h2": 4959,
+      "h3": 6877,
+      "h4": 1775
+    },
+    "common_patterns": [
+      "Overview",
+      "Summary",
+      "Requirements",
+      "Dependencies",
+      "Expected Output",
+      "Success Criteria",
+      "Deliverables"
+    ],
+    "recommendation": "Standardize section headings across template documentation"
+  },
+
+  "action_items": {
+    "high_priority": [
+      {
+        "item": "Standardize case variations",
+        "count": 205,
+        "effort": "Medium",
+        "impact": "High",
+        "action": "Run find-replace scripts to unify field naming"
+      },
+      {
+        "item": "Resolve separator inconsistencies",
+        "count": 199,
+        "effort": "Medium",
+        "impact": "High",
+        "action": "Apply snake_case for fields, hyphens for IDs"
+      }
+    ],
+    "medium_priority": [
+      {
+        "item": "Expand abbreviations",
+        "count": "~50 estimated",
+        "effort": "Low",
+        "impact": "Medium",
+        "action": "Replace desc→description, dept→department globally"
+      },
+      {
+        "item": "Add missing template_id suffixes",
+        "count": "Unknown",
+        "effort": "Medium",
+        "impact": "High",
+        "action": "Change generic 'id' to 'entity_template_id' format"
+      }
+    ],
+    "low_priority": [
+      {
+        "item": "Standardize Markdown headings",
+        "count": "14580 headings",
+        "effort": "Low",
+        "impact": "Low",
+        "action": "Create heading template for template documentation"
+      }
+    ]
+  },
+
+  "validation_rules": {
+    "json_fields": {
+      "pattern": "^[a-z][a-z0-9_]*$",
+      "description": "Must start with lowercase, contain only lowercase, numbers, and underscores"
+    },
+    "entity_ids": {
+      "step_template_id": "^STEP-[A-Z]+-\\d{3}-\\d{2}$",
+      "task_template_id": "^TASK-TEMPLATE-[A-Z]+-\\d{3}$",
+      "milestone_template_id": "^MIL-TEMPL-\\d{3}$",
+      "project_template_id": "^PROJ-TEMPL-\\d{3}$",
+      "checklist_item_id": "^CHK-\\d{3}$"
+    }
+  },
+
+  "implementation_guidance": {
+    "phase_1_immediate": [
+      "Document these standards in schema files (DONE)",
+      "Share with team for review",
+      "Apply to all new templates going forward"
+    ],
+    "phase_2_remediation": [
+      "Create automated validation scripts using regex patterns",
+      "Run bulk rename operations for high-priority items",
+      "Update existing templates incrementally"
+    ],
+    "phase_3_maintenance": [
+      "Add pre-commit hooks to validate naming conventions",
+      "Schedule quarterly terminology audits",
+      "Maintain this standards file as living document"
+    ]
+  },
+
+  "references": {
+    "source_data": [
+      "terminology_dictionary.json",
+      "json_field_names.json",
+      "markdown_headings.json",
+      "redundant_terms_full.json"
+    ],
+    "related_schemas": [
+      "TASK_MANAGERS/Task_Templates/Task_Template_Schema.md",
+      "TASK_MANAGERS/Milestone_Templates/Milestone_Template_Schema.md",
+      "TASK_MANAGERS/Step_Templates/Step_Template_Schema.md"
+    ]
+  }
+}

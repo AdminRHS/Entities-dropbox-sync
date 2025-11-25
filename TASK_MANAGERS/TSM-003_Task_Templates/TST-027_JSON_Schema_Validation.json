@@ -1,0 +1,27 @@
+{
+  "task_template_id": "Task-Template-027",
+  "task_template_name": "JSON Schema Validation",
+  "category": "Validation",
+  "department": "AI",
+  "description": "Validate JSON files against expected schemas and identify inconsistencies",
+  "estimated_hours": 1.5,
+  "step_templates": [
+    {
+      "step_template_id": "STEP-ANALYSIS-005-01",
+      "step_template_name": "Extract JSON schemas by type"
+    },
+    {
+      "step_template_id": "STEP-ANALYSIS-005-02",
+      "step_template_name": "Validate required fields"
+    },
+    {
+      "step_template_id": "STEP-ANALYSIS-005-03",
+      "step_template_name": "Check field consistency"
+    },
+    {
+      "step_template_id": "STEP-ANALYSIS-005-04",
+      "step_template_name": "Document schema violations"
+    }
+  ],
+  "version": "1.0"
+}

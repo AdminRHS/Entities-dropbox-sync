@@ -1,0 +1,11 @@
+# Resume
+
+**Name:** Archibong Isaac
+
+(0:00) I am from Lagos, Nigeria. I am a data entry specialist, I'm a data manager and also a data (0:09) verification specialist and I've been doing this for over four years. I studied here in Nigeria, (0:17) I studied in the University of Calabar and I studied health science but later transitioned (0:22) into technology because tech is the future and I've worked across various industries.
+
+I've worked (0:29) in IT, I've worked in health, I've worked in retail and it has been an amazing experience (0:36) all through these years. I've worked in various roles as data manager, I've worked as (0:41) business development executive, I've worked as lead generation specialist and all these roles (0:47) over the years has contributed to my experience so far. I use various tools like CRM tools, (0:56) Google Spreadsheet and Excel, Google Workspace, Microsoft Power BI for data cleaning (1:05) and softwares like that that helps my work become easy.
+
+I have certain certifications, (1:11) I have a certification with Google Digital Marketing, I have a certification with IBM (1:15) Data Analysis and I also have a certification in Artificial Intelligence with ALX Africa. (1:24) Artificial Intelligence is a niche I'm getting into and I'm finding it very very interesting (1:29) which brings me to the next question, why do I want to work for the company? So I believe (1:35) Artificial Intelligence is the future of tech and I think this spans across all industries (1:43) and as a data professional integrating Artificial Intelligence into it is something I really find (1:51) interesting and something I really want to do and working for your company will really afford (1:56) me that opportunity to build this experience and in return I contribute to my experience (2:05) and my skill set towards building the company which is something I'm really really looking (2:09) forward to. So yes, this is the reason why I really want to work for the company (2:14) and I'm looking forward to doing that.
+
+Thank you very very much.

@@ -1,0 +1,154 @@
+{
+  "entity_type": "LIBRARIES",
+  "sub_entity": "Tool",
+  "tool_id": "TOOL-SMM-005",
+  "tool_name": "Pinterest",
+  "category": "Visual Discovery Platform",
+  "description": "Visual discovery and bookmarking platform for evergreen content, long-term traffic generation, and search-driven discovery",
+  "primary_use": "Visual search, evergreen content, long-term traffic generation, idea discovery",
+  "platform_type": "Visual search and discovery platform",
+  "pricing": "Free (Business accounts free, Ads separate)",
+  "created": "2025-11-13",
+  "updated": "2025-11-13",
+  "used_by_professions": [
+    "Designer",
+    "Marketer",
+    "Content_Creator",
+    "SMM_Specialist"
+  ],
+  "used_in_workflows": [
+    "WF-SMM-001",
+    "WF-SMM-012"
+  ],
+  "creates_objects": [
+    "OBJ-SMM-014"
+  ],
+  "object_details": {
+    "OBJ-SMM-014": "Pinterest Pin - Vertical infographic (1000×1500px) for discovery"
+  },
+  "actions": [
+    "design",
+    "curate",
+    "optimize",
+    "post",
+    "save",
+    "organize",
+    "pin",
+    "board"
+  ],
+  "key_features": {
+    "pins": "Individual visual bookmarks",
+    "boards": "Organized collections of pins",
+    "idea_pins": "Multi-page story format",
+    "shopping": "Product tagging and purchasing",
+    "pinterest_lens": "Visual search via camera",
+    "pinterest_trends": "Trending search insights",
+    "creator_tools": "Analytics and optimization",
+    "communities": "Group boards for collaboration"
+  },
+  "content_types": {
+    "infographics": "Comprehensive visual guides and tutorials",
+    "checklists": "Printable and actionable lists",
+    "inspiration": "Mood boards and idea collections",
+    "how_to": "Step-by-step visual instructions",
+    "before_after": "Transformation showcases"
+  },
+  "technical_specs": {
+    "pin_size": "1000×1500px (2:3 vertical ratio) recommended",
+    "min_size": "600px width minimum",
+    "max_size": "10MB file size",
+    "format": "PNG or JPEG",
+    "aspect_ratio": "2:3 vertical performs best",
+    "video_length": "4 seconds to 15 minutes",
+    "idea_pins": "2-20 pages per Idea Pin"
+  },
+  "optimal_posting": {
+    "frequency": "5-10 pins per week for consistency",
+    "best_times": [
+      "8-11pm EST (peak browsing)",
+      "2-4pm EST (afternoon planning)",
+      "Weekends (high engagement)"
+    ],
+    "longevity": "Pins continue driving traffic for months to years"
+  },
+  "algorithm_factors": {
+    "saves": "PRIMARY metric - pins saved by users",
+    "engagement": "Closeups, outbound clicks, saves",
+    "pin_quality": "High-resolution, relevant, fresh content",
+    "domain_quality": "Trusted website authority",
+    "keyword_relevance": "SEO-optimized titles and descriptions",
+    "freshness": "New pins get temporary boost",
+    "consistency": "Regular pinning signals active account"
+  },
+  "best_practices": [
+    "Design for mobile-first viewing",
+    "Use clear, readable text overlays",
+    "Include brand logo or watermark subtly",
+    "Create multiple pin designs for same content",
+    "Write keyword-rich titles and descriptions",
+    "Add comprehensive alt text for accessibility",
+    "Pin consistently (5-10 per week)",
+    "Mix own content with curated pins (70/30 ratio)",
+    "Organize boards by clear themes",
+    "Update evergreen pins seasonally",
+    "Link pins to blog or website for traffic",
+    "Use vertical 2:3 aspect ratio"
+  ],
+  "keyword_optimization": {
+    "title": "Front-load with primary keyword, 40-100 characters",
+    "description": "200-500 characters with natural keywords",
+    "alt_text": "Descriptive text including keywords",
+    "board_names": "Clear, searchable titles",
+    "hashtags": "Limited use, focus on keywords in description"
+  },
+  "performance_metrics": {
+    "impressions": "Total pin views in feed and search",
+    "saves": "Pins saved by users (PRIMARY metric)",
+    "outbound_clicks": "Clicks to website/blog",
+    "closeups": "Pin detail page views",
+    "profile_visits": "Interest in your content",
+    "follower_growth": "New followers from pins"
+  },
+  "integration_opportunities": [
+    "Drive traffic to blog posts",
+    "Promote YouTube tutorials via pin graphics",
+    "Link to product pages for e-commerce",
+    "Build email list via lead magnets",
+    "Cross-promote Instagram content",
+    "Repurpose blog content as infographics"
+  ],
+  "common_use_cases": [
+    "Evergreen content marketing and SEO",
+    "Long-term organic traffic generation",
+    "Visual tutorials and how-to guides",
+    "Recipe and food content sharing",
+    "Home decor and DIY inspiration",
+    "Fashion and style curation",
+    "Wedding and event planning",
+    "Educational infographics and checklists",
+    "Product discovery and shopping"
+  ],
+  "pros": [
+    "Long content lifespan (months to years)",
+    "Strong SEO and search-driven discovery",
+    "High-intent audience seeking solutions",
+    "Consistent long-term traffic generation",
+    "Less time-intensive than real-time platforms",
+    "Excellent for evergreen content",
+    "Strong for e-commerce and products"
+  ],
+  "cons": [
+    "Slower growth compared to viral platforms",
+    "Requires patience for results (weeks/months)",
+    "Design-heavy platform (visual quality crucial)",
+    "Less direct engagement/conversation",
+    "Primarily US-based audience",
+    "Niche-dependent success (better for lifestyle, DIY, design)"
+  ],
+  "alternative_tools": [
+    "TOOL-SMM-001 (Instagram) - More social/engagement focused",
+    "TOOL-PORT-001 (Behance) - Professional design portfolios",
+    "We Heart It - Similar visual bookmarking"
+  ],
+  "source": "SMM_Research_Document_2_Content_Strategy_Multi_Platform"
+}

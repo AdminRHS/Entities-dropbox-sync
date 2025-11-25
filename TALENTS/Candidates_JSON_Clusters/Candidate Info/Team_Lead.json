@@ -1,0 +1,32 @@
+{
+  "template_name": "Team_Lead",
+  "description": "Team lead information and bonus approval statuses",
+  "fields": {
+    "team_lead": {
+      "type": "NoneType",
+      "description": "Field: team_lead",
+      "example": null
+    },
+    "team_lead_id": {
+      "type": "NoneType",
+      "description": "Field: team_lead_id",
+      "example": null
+    },
+    "approved_bonus": {
+      "type": "str",
+      "description": "Field: approved_bonus",
+      "example": "1"
+    },
+    "approved_bonus_interview": {
+      "type": "str",
+      "description": "Field: approved_bonus_interview",
+      "example": "1"
+    },
+    "approved_bonus_video": {
+      "type": "str",
+      "description": "Field: approved_bonus_video",
+      "example": "1"
+    }
+  }
+}
+

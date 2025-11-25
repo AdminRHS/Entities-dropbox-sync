@@ -1,0 +1,543 @@
+{
+  "_note": "This is an EXAMPLE research session file demonstrating the complete structure and data format. Use this as a reference when creating actual research entries.",
+  "entity_type": "LIBRARIES",
+  "sub_entity": "Research",
+  "category": "AI_Tutorials",
+  "research_session": {
+    "research_id": "RSH-AI-001",
+    "search_date": "2025-11-13",
+    "search_week": "2025-W46",
+    "search_tool": "Perplexity",
+    "researcher": "AI Research Team",
+    "session_duration_minutes": 65
+  },
+  "search_queries": [
+    {
+      "query": "newly published AI video tutorials November 2025",
+      "query_purpose": "Discover general AI tool tutorials from past week",
+      "results_count": 28,
+      "filtered_count": 12
+    },
+    {
+      "query": "Claude 3.5 Sonnet coding tutorials last week",
+      "query_purpose": "Track specific tool (Claude) tutorial content",
+      "results_count": 9,
+      "filtered_count": 5
+    },
+    {
+      "query": "AI automation workflows tutorial 2025",
+      "query_purpose": "Find multi-tool integration and automation content",
+      "results_count": 15,
+      "filtered_count": 6
+    }
+  ],
+  "findings": [
+    {
+      "video_id": "VID-001",
+      "video_title": "How to Use Claude 3.5 Sonnet for Full-Stack Development - Complete Tutorial",
+      "video_url": "https://youtube.com/watch?v=example001",
+      "platform": "YouTube",
+      "published_date": "2025-11-10",
+      "video_duration": "18:42",
+      "creator": {
+        "name": "AI Jason",
+        "channel_url": "https://youtube.com/@aijason",
+        "subscriber_count": 145000,
+        "creator_category": "AI Tools Educator",
+        "is_new_influencer": false
+      },
+      "content_analysis": {
+        "primary_category": "AI Coding Tools",
+        "secondary_categories": [
+          "Web Development",
+          "Full-Stack"
+        ],
+        "topics_covered": [
+          "Claude API integration",
+          "Full-stack app development",
+          "Code generation with Claude",
+          "Debugging with AI",
+          "Context window optimization"
+        ],
+        "ai_tools_mentioned": [
+          "Claude 3.5 Sonnet",
+          "Cursor IDE",
+          "GitHub Copilot"
+        ],
+        "use_cases": [
+          "Building web apps with AI assistance",
+          "Code review and debugging",
+          "API integration patterns",
+          "Automated testing with AI"
+        ],
+        "professions_relevant": [
+          "Web Developer",
+          "Full-Stack Developer",
+          "Software Engineer"
+        ],
+        "skill_level": "Intermediate"
+      },
+      "engagement_metrics": {
+        "view_count": 52000,
+        "like_count": 3200,
+        "comment_count": 180,
+        "engagement_rate": 6.5,
+        "views_per_subscriber": 0.36
+      },
+      "quality_assessment": {
+        "relevance_score": "High",
+        "tutorial_quality": "High",
+        "educational_value": "High",
+        "production_quality": "Medium",
+        "transcript_available": true
+      },
+      "taxonomy_mapping": {
+        "tools_in_taxonomy": [
+          "TOOL-AI-023"
+        ],
+        "tools_missing": [],
+        "workflows_identified": [
+          "PROC-AI-CODE-GEN-001"
+        ],
+        "new_use_cases": [
+          "Full-stack development with Claude",
+          "Context window optimization techniques"
+        ]
+      },
+      "next_actions": {
+        "transcribe": true,
+        "transcription_priority": "High",
+        "add_to_tools": false,
+        "update_existing_tools": [
+          "TOOL-AI-023"
+        ],
+        "create_workflow_entry": false
+      }
+    },
+    {
+      "video_id": "VID-002",
+      "video_title": "Runway Gen-3 Alpha: Create Cinematic AI Videos in Minutes",
+      "video_url": "https://youtube.com/watch?v=example002",
+      "platform": "YouTube",
+      "published_date": "2025-11-08",
+      "video_duration": "12:15",
+      "creator": {
+        "name": "Creative AI Lab",
+        "channel_url": "https://youtube.com/@creativeailab",
+        "subscriber_count": 87000,
+        "creator_category": "AI Content Creator",
+        "is_new_influencer": false
+      },
+      "content_analysis": {
+        "primary_category": "AI Video/Image Generation",
+        "secondary_categories": [
+          "Content Creation",
+          "Video Production"
+        ],
+        "topics_covered": [
+          "Runway Gen-3 Alpha features",
+          "Cinematic video creation",
+          "Prompt engineering for video",
+          "Motion control techniques",
+          "Upscaling and refinement"
+        ],
+        "ai_tools_mentioned": [
+          "Runway Gen-3 Alpha",
+          "Midjourney",
+          "ChatGPT"
+        ],
+        "use_cases": [
+          "Marketing video creation",
+          "Social media content",
+          "Short film production",
+          "Product demonstrations"
+        ],
+        "professions_relevant": [
+          "Video Editor",
+          "Content Creator",
+          "Marketing Specialist",
+          "Social Media Manager"
+        ],
+        "skill_level": "Beginner"
+      },
+      "engagement_metrics": {
+        "view_count": 34000,
+        "like_count": 2100,
+        "comment_count": 95,
+        "engagement_rate": 6.5,
+        "views_per_subscriber": 0.39
+      },
+      "quality_assessment": {
+        "relevance_score": "High",
+        "tutorial_quality": "High",
+        "educational_value": "Medium",
+        "production_quality": "High",
+        "transcript_available": true
+      },
+      "taxonomy_mapping": {
+        "tools_in_taxonomy": [
+          "TOOL-AI-078"
+        ],
+        "tools_missing": [],
+        "workflows_identified": [],
+        "new_use_cases": [
+          "Cinematic AI video for marketing",
+          "Prompt-to-video workflows"
+        ]
+      },
+      "next_actions": {
+        "transcribe": true,
+        "transcription_priority": "Medium",
+        "add_to_tools": false,
+        "update_existing_tools": [
+          "TOOL-AI-078"
+        ],
+        "create_workflow_entry": true
+      }
+    },
+    {
+      "video_id": "VID-003",
+      "video_title": "Build Complete AI Automation Workflows with n8n + ChatGPT + Make",
+      "video_url": "https://youtube.com/watch?v=example003",
+      "platform": "YouTube",
+      "published_date": "2025-11-11",
+      "video_duration": "25:30",
+      "creator": {
+        "name": "Automation Pro",
+        "channel_url": "https://youtube.com/@automationpro",
+        "subscriber_count": 62000,
+        "creator_category": "Workflow Automation Expert",
+        "is_new_influencer": false
+      },
+      "content_analysis": {
+        "primary_category": "AI Workflow Automation",
+        "secondary_categories": [
+          "Multi-tool Integrations",
+          "No-Code Solutions"
+        ],
+        "topics_covered": [
+          "n8n workflow creation",
+          "ChatGPT API integration",
+          "Make.com automation",
+          "Multi-platform data flow",
+          "Error handling in automations",
+          "Webhook configuration"
+        ],
+        "ai_tools_mentioned": [
+          "n8n",
+          "ChatGPT",
+          "Make",
+          "Airtable",
+          "Notion AI"
+        ],
+        "use_cases": [
+          "Lead generation automation",
+          "Content repurposing workflows",
+          "Data enrichment pipelines",
+          "Multi-channel marketing automation"
+        ],
+        "professions_relevant": [
+          "Marketing Automation Specialist",
+          "Operations Manager",
+          "Business Analyst",
+          "No-Code Developer"
+        ],
+        "skill_level": "Intermediate"
+      },
+      "engagement_metrics": {
+        "view_count": 18500,
+        "like_count": 1250,
+        "comment_count": 67,
+        "engagement_rate": 7.1,
+        "views_per_subscriber": 0.30
+      },
+      "quality_assessment": {
+        "relevance_score": "High",
+        "tutorial_quality": "High",
+        "educational_value": "High",
+        "production_quality": "Medium",
+        "transcript_available": false
+      },
+      "taxonomy_mapping": {
+        "tools_in_taxonomy": [
+          "TOOL-AI-012",
+          "TOOL-AUTOMATION-003"
+        ],
+        "tools_missing": [],
+        "workflows_identified": [
+          "PROC-AUTOMATION-MULTI-001"
+        ],
+        "new_use_cases": [
+          "Multi-tool AI automation chains",
+          "Lead generation with AI enrichment"
+        ]
+      },
+      "next_actions": {
+        "transcribe": true,
+        "transcription_priority": "High",
+        "add_to_tools": false,
+        "update_existing_tools": [
+          "TOOL-AI-012",
+          "TOOL-AUTOMATION-003"
+        ],
+        "create_workflow_entry": true
+      }
+    },
+    {
+      "video_id": "VID-004",
+      "video_title": "SuperPrompt AI: New Tool for Advanced Prompt Engineering",
+      "video_url": "https://youtube.com/watch?v=example004",
+      "platform": "YouTube",
+      "published_date": "2025-11-12",
+      "video_duration": "10:20",
+      "creator": {
+        "name": "CodeWith AI",
+        "channel_url": "https://youtube.com/@codewithai",
+        "subscriber_count": 8500,
+        "creator_category": "Emerging AI Educator",
+        "is_new_influencer": true
+      },
+      "content_analysis": {
+        "primary_category": "AI Content Creation",
+        "secondary_categories": [
+          "Prompt Engineering",
+          "New Tools"
+        ],
+        "topics_covered": [
+          "SuperPrompt AI features",
+          "Prompt optimization techniques",
+          "Comparison with manual prompting",
+          "Use cases for developers",
+          "Integration with existing workflows"
+        ],
+        "ai_tools_mentioned": [
+          "SuperPrompt AI",
+          "ChatGPT",
+          "Claude"
+        ],
+        "use_cases": [
+          "Prompt template creation",
+          "Automated prompt optimization",
+          "Multi-model prompt testing"
+        ],
+        "professions_relevant": [
+          "AI Engineer",
+          "Content Writer",
+          "Developer"
+        ],
+        "skill_level": "Beginner"
+      },
+      "engagement_metrics": {
+        "view_count": 2100,
+        "like_count": 180,
+        "comment_count": 25,
+        "engagement_rate": 9.8,
+        "views_per_subscriber": 0.25
+      },
+      "quality_assessment": {
+        "relevance_score": "High",
+        "tutorial_quality": "Medium",
+        "educational_value": "Medium",
+        "production_quality": "Low",
+        "transcript_available": false
+      },
+      "taxonomy_mapping": {
+        "tools_in_taxonomy": [],
+        "tools_missing": [
+          "SuperPrompt AI"
+        ],
+        "workflows_identified": [],
+        "new_use_cases": [
+          "Automated prompt optimization",
+          "Multi-model prompt testing"
+        ]
+      },
+      "next_actions": {
+        "transcribe": false,
+        "transcription_priority": "Low",
+        "add_to_tools": true,
+        "update_existing_tools": [],
+        "create_workflow_entry": false
+      }
+    },
+    {
+      "video_id": "VID-005",
+      "video_title": "AI for Designers: Figma + ChatGPT + Midjourney Complete Workflow",
+      "video_url": "https://youtube.com/watch?v=example005",
+      "platform": "YouTube",
+      "published_date": "2025-11-09",
+      "video_duration": "16:55",
+      "creator": {
+        "name": "Design with AI",
+        "channel_url": "https://youtube.com/@designwithai",
+        "subscriber_count": 103000,
+        "creator_category": "Design & AI Specialist",
+        "is_new_influencer": false
+      },
+      "content_analysis": {
+        "primary_category": "AI for Specific Professions",
+        "secondary_categories": [
+          "Design",
+          "Multi-tool Integrations"
+        ],
+        "topics_covered": [
+          "AI-assisted design workflows",
+          "Figma plugin integration",
+          "Image generation for mockups",
+          "ChatGPT for design system creation",
+          "Asset generation automation"
+        ],
+        "ai_tools_mentioned": [
+          "Figma AI",
+          "ChatGPT",
+          "Midjourney",
+          "Photoshop AI"
+        ],
+        "use_cases": [
+          "UI/UX design with AI",
+          "Rapid prototyping",
+          "Design system generation",
+          "Asset creation automation"
+        ],
+        "professions_relevant": [
+          "UI/UX Designer",
+          "Product Designer",
+          "Graphic Designer",
+          "Web Designer"
+        ],
+        "skill_level": "Intermediate"
+      },
+      "engagement_metrics": {
+        "view_count": 41000,
+        "like_count": 2800,
+        "comment_count": 142,
+        "engagement_rate": 7.2,
+        "views_per_subscriber": 0.40
+      },
+      "quality_assessment": {
+        "relevance_score": "High",
+        "tutorial_quality": "High",
+        "educational_value": "High",
+        "production_quality": "High",
+        "transcript_available": true
+      },
+      "taxonomy_mapping": {
+        "tools_in_taxonomy": [
+          "TOOL-AI-012",
+          "TOOL-AI-045"
+        ],
+        "tools_missing": [
+          "Figma AI Plugin"
+        ],
+        "workflows_identified": [
+          "PROC-DESIGN-AI-001"
+        ],
+        "new_use_cases": [
+          "AI-powered design system creation",
+          "Multi-tool design automation"
+        ]
+      },
+      "next_actions": {
+        "transcribe": true,
+        "transcription_priority": "High",
+        "add_to_tools": true,
+        "update_existing_tools": [
+          "TOOL-AI-012",
+          "TOOL-AI-045"
+        ],
+        "create_workflow_entry": true
+      }
+    }
+  ],
+  "session_metadata": {
+    "total_results_found": 52,
+    "videos_after_filtering": 23,
+    "high_priority_videos": 5,
+    "medium_priority_videos": 12,
+    "low_priority_videos": 6
+  },
+  "discovery_summary": {
+    "new_tools_discovered": [
+      {
+        "tool_name": "SuperPrompt AI",
+        "tool_category": "Prompt Engineering",
+        "mentioned_in_videos": 2,
+        "priority": "Medium"
+      },
+      {
+        "tool_name": "Figma AI Plugin",
+        "tool_category": "Design Tools",
+        "mentioned_in_videos": 1,
+        "priority": "High"
+      }
+    ],
+    "new_influencers_identified": [
+      {
+        "name": "CodeWith AI",
+        "platform": "YouTube",
+        "subscriber_count": 8500,
+        "content_focus": "AI coding and prompt engineering tutorials",
+        "video_count_found": 1
+      }
+    ],
+    "tool_mentions_summary": {
+      "Claude 3.5 Sonnet": 5,
+      "ChatGPT": 12,
+      "Midjourney": 4,
+      "Runway Gen-3": 3,
+      "n8n": 2,
+      "Cursor IDE": 3,
+      "GitHub Copilot": 2,
+      "Make": 2,
+      "Figma AI": 1,
+      "Notion AI": 1
+    },
+    "trending_topics": [
+      "AI-assisted coding",
+      "Video generation with AI",
+      "Workflow automation with multiple AI tools",
+      "Prompt engineering techniques",
+      "AI for design workflows"
+    ]
+  },
+  "gap_analysis": {
+    "tools_to_add": 2,
+    "tools_to_update": 5,
+    "influencers_to_add": 1,
+    "videos_to_transcribe": 4,
+    "workflows_to_document": 3
+  },
+  "next_research_session": {
+    "scheduled_date": "2025-11-20",
+    "focus_areas": [
+      "Follow-up on SuperPrompt AI and Figma AI Plugin",
+      "Track CodeWith AI channel for new content",
+      "Monitor Claude 3.5 Sonnet tutorials (high volume)",
+      "Explore AI workflow automation deeper"
+    ],
+    "query_adjustments": [
+      "Add query: 'SuperPrompt AI tutorial 2025'",
+      "Add query: 'Figma AI plugin workflow'",
+      "Track CodeWith AI channel directly",
+      "Expand automation queries to include Zapier + AI"
+    ]
+  },
+  "tags": [
+    "ai-tutorials",
+    "video-content",
+    "influencer-research",
+    "educational",
+    "weekly-research",
+    "2025-11",
+    "coding-tools",
+    "video-generation",
+    "workflow-automation"
+  ],
+  "cross_references": {
+    "perplexity_tool": "../Tools/AI_Tools/Perplexity.json",
+    "transcriptions_library": "./Videos/",
+    "tools_library": "../Tools/AI_Tools/",
+    "processes_library": "../Processes/"
+  }
+}
+

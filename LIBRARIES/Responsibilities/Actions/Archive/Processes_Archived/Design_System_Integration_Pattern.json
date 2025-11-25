@@ -1,0 +1,332 @@
+{
+  "entity_type": "LIBRARIES",
+  "sub_entity": "Integration_Pattern",
+  "pattern_id": "INT-DESIGN-001",
+  "pattern_name": "3-Prompt Design System Generation Methodology",
+  "pattern_type": "Multistage AI Prompt Pattern",
+  "category": "AI Methodologies / Design System Generation",
+  "description": "A sequential, multi-model AI methodology for extracting design styles from visual inspiration and generating comprehensive, machine-readable design system documentation through three specialized prompts with model switching and context management",
+  "discovered": "Video_009 (Chris Ashby - 3 Prompts To Get INCREDIBLE App Designs From AI)",
+  "discovery_date": "2025-11-13",
+  "pattern_classification": "Methodology (not simple workflow)",
+  "unique_characteristics": [
+    "Sequential prompts with progressive detail (high-level → implementation → comprehensive)",
+    "Model specialization (GPT-5 for analysis/docs, Claude/Sonnet for code)",
+    "Context management (new agent/chat for each prompt)",
+    "Abstraction level control (avoid overfitting in early stages)",
+    "Iterative refinement opportunity (between Prompts 2 and 3)"
+  ],
+  "pattern_structure": {
+    "total_stages": 3,
+    "stage_1": {
+      "name": "Visual Design Analysis",
+      "purpose": "Extract high-level design principles from visual inspiration",
+      "ai_model": "GPT-5",
+      "model_rationale": "Superior for visual interpretation and design language extraction",
+      "environment": "Cursor (Agents view)",
+      "input_type": "Visual (screenshot)",
+      "input_source": "Dribbble design system screenshot",
+      "input_requirements": [
+        "Flat design (not poster-like)",
+        "Clear UI components visible",
+        "No extraneous decorative elements",
+        "Good resolution and scale",
+        "Multiple component types shown"
+      ],
+      "processing": "AI analyzes visual elements and extracts design principles at high level",
+      "abstraction_level": "High-level overview",
+      "output_type": "Structured data (JSON)",
+      "output": "design.json",
+      "output_size": "50-100 lines",
+      "output_contents": [
+        "Brand essence and tone",
+        "Design language description",
+        "Style principles",
+        "Basic dimensions (border radius, grids)",
+        "Color palette",
+        "Typography options"
+      ],
+      "duration": "1-2 minutes",
+      "context_strategy": "New agent/chat recommended",
+      "key_insight": "Stay high-level to let AI fill gaps intelligently without overfitting to screenshot specifics"
+    },
+    "stage_2": {
+      "name": "Component Implementation",
+      "purpose": "Generate working application demonstrating all UI components",
+      "ai_model": "Claude/Sonnet 4.5",
+      "model_rationale": "Superior for structured code generation and component architecture",
+      "environment": "Cursor (Agents view)",
+      "input_type": "Structured data (JSON)",
+      "input_source": "design.json from Stage 1",
+      "processing": "AI translates design.json into complete web application with all components",
+      "abstraction_level": "Implementation-specific",
+      "output_type": "Running application",
+      "output": "UI Component Showcase App (Vite + React + Tailwind CSS)",
+      "output_size": "15-30 React component files",
+      "output_contents": [
+        "Mock dashboard layout",
+        "All standard UI components (buttons, cards, forms, etc.)",
+        "Tailwind CSS styling implementation",
+        "Working localhost development server"
+      ],
+      "tech_stack": ["Vite", "React", "Tailwind CSS v3"],
+      "duration": "5-10 minutes",
+      "context_strategy": "NEW agent/chat required (clears Stage 1 context)",
+      "optional_iteration": "Can refine components before Stage 3",
+      "key_insight": "Model switch to Claude/Sonnet for better code generation; new context for focused implementation"
+    },
+    "stage_3": {
+      "name": "Comprehensive Documentation",
+      "purpose": "Create detailed, AI-consumable design system specification",
+      "ai_model": "GPT-5",
+      "model_rationale": "Superior for comprehensive documentation and detailed specification writing",
+      "environment": "Cursor (Agents view)",
+      "input_type": "Structured data + codebase",
+      "input_source": [
+        "design.json from Stage 1",
+        "Complete showcase app code from Stage 2"
+      ],
+      "processing": "AI synthesizes all information into ultra-detailed design system guide",
+      "abstraction_level": "Ultra-detailed specification",
+      "output_type": "Comprehensive documentation (JSON)",
+      "output": "design-system.json",
+      "output_size": "646+ lines (highly detailed)",
+      "output_contents": [
+        "All component definitions with complete specs",
+        "Complete Tailwind CSS class specifications",
+        "Detailed spacing, fonts, colors",
+        "Accessibility guidelines",
+        "Motion and interaction patterns",
+        "Data visualization rules",
+        "Content guidelines",
+        "Do's and don'ts",
+        "Structure and hierarchy rules"
+      ],
+      "duration": "2-5 minutes",
+      "context_strategy": "NEW agent/chat required (fresh perspective for documentation)",
+      "key_insight": "Switch back to GPT-5 for documentation strength; comprehensive detail level prevents ambiguity"
+    }
+  },
+  "model_specialization_matrix": {
+    "gpt5": {
+      "strengths": [
+        "Visual analysis and interpretation",
+        "Design language extraction",
+        "Comprehensive documentation writing",
+        "Detailed specification generation"
+      ],
+      "use_for": [
+        "Stage 1 (visual analysis)",
+        "Stage 3 (comprehensive docs)"
+      ],
+      "not_ideal_for": "Code generation (use Claude/Sonnet instead)"
+    },
+    "claude_sonnet": {
+      "strengths": [
+        "Structured code generation",
+        "Component architecture",
+        "Complex coding tasks",
+        "Implementation details"
+      ],
+      "use_for": [
+        "Stage 2 (component implementation)"
+      ],
+      "not_ideal_for": "Visual analysis (use GPT-5 instead)"
+    }
+  },
+  "context_management_strategy": {
+    "principle": "Clear context between stages for focused output",
+    "implementation": "Create new agent/chat in Cursor for each stage",
+    "rationale": "Prevents AI confusion from mixing visual analysis, code generation, and documentation tasks",
+    "benefit": "Each stage gets focused, specialized output without interference from previous stages"
+  },
+  "progressive_detail_strategy": {
+    "stage_1_level": "High-level overview (30% detail)",
+    "stage_2_level": "Implementation-specific (60% detail)",
+    "stage_3_level": "Ultra-detailed specification (100% detail)",
+    "rationale": "Progressive detail prevents overfitting early while ensuring completeness later",
+    "benefit": "Stage 1 stays flexible for AI interpretation; Stage 3 leaves no ambiguity"
+  },
+  "success_factors": [
+    {
+      "factor": "Input Quality",
+      "description": "Use clean, flat design system screenshots without decorative elements",
+      "impact": "High - determines accuracy of Stage 1 extraction"
+    },
+    {
+      "factor": "Model Matching",
+      "description": "Use correct AI model for each stage's task type",
+      "impact": "High - affects quality of code vs. documentation"
+    },
+    {
+      "factor": "Context Clearing",
+      "description": "New agent/chat for each stage",
+      "impact": "Medium - prevents confusion but takes extra setup time"
+    },
+    {
+      "factor": "Tech Stack Consistency",
+      "description": "Vite + React + Tailwind is AI-friendly and widely supported",
+      "impact": "Medium - ensures compatibility with Lovable, Bolt, Cursor"
+    },
+    {
+      "factor": "Optional Iteration",
+      "description": "Refine Stage 2 output before Stage 3 if needed",
+      "impact": "Low - nice to have but not required"
+    }
+  ],
+  "business_value": {
+    "problem_solved": "AI coding tools generating generic, inconsistent 'purple gradient' designs",
+    "solution": "Comprehensive, AI-readable design system ensures consistent, high-quality output",
+    "time_savings": "95%+ reduction (days/weeks manual → under 1 hour AI-assisted)",
+    "quality_improvement": "Matches professional Dribbble-quality designs",
+    "scalability": "One design system guides unlimited AI-generated features",
+    "roi": "One-time setup, unlimited reuse; prevents redesign cycles"
+  },
+  "reusability_analysis": {
+    "direct_applications": [
+      "Any design system extraction from inspiration images",
+      "Brand style guide generation from examples",
+      "Component library documentation from screenshots"
+    ],
+    "adapted_applications": [
+      "Logo design extraction and variation generation",
+      "UI refactoring for consistency across existing apps",
+      "Design system updates and versioning",
+      "Multi-brand design system management"
+    ],
+    "methodology_patterns": [
+      "Visual → Implementation → Documentation sequence",
+      "Model specialization for different cognitive tasks",
+      "Context management for complex multi-stage workflows",
+      "Progressive detail from abstract to specific"
+    ]
+  },
+  "integration_with_ai_tools": {
+    "cursor": {
+      "role": "Primary environment for all 3 stages",
+      "features_used": [
+        "Agents view for task organization",
+        "Multi-model support (GPT-5, Claude/Sonnet)",
+        "File referencing with @ symbol",
+        "Built-in browser for preview",
+        "Context management across agents"
+      ]
+    },
+    "lovable": {
+      "role": "Deployment target for design system",
+      "integration": "Add design-system.json to Knowledge section",
+      "benefit": "Automatic design adherence in all features"
+    },
+    "bolt": {
+      "role": "Alternative deployment target",
+      "integration": "Reference design-system.json in prompts",
+      "benefit": "Consistent styling across AI-generated code"
+    }
+  },
+  "comparison_to_traditional_workflows": {
+    "manual_design_system_creation": {
+      "duration": "2-4 weeks",
+      "quality": "Dependent on designer skill",
+      "consistency": "Requires ongoing maintenance",
+      "ai_assisted_duration": "Under 1 hour",
+      "ai_assisted_quality": "Matches professional Dribbble examples",
+      "ai_assisted_consistency": "Automated via AI reading JSON",
+      "improvement": "95%+ time reduction, guaranteed consistency"
+    },
+    "simple_screenshot_copy": {
+      "approach": "Drop screenshot into AI, ask to copy",
+      "problems": [
+        "AI generalizes and fills gaps incorrectly",
+        "No reusable specification",
+        "Inconsistent results across features",
+        "Generic outputs ('purple gradients')"
+      ],
+      "3_prompt_advantage": [
+        "Structured JSON for AI reading",
+        "Progressive detail prevents overfitting",
+        "Reusable across unlimited features",
+        "Consistent, high-quality outputs"
+      ]
+    }
+  },
+  "limitations_and_considerations": {
+    "limitations": [
+      "Requires subscription to Cursor and AI models",
+      "Limited by quality of source inspiration",
+      "Best for web applications (mobile requires adaptation)",
+      "Tailwind CSS specific (other frameworks need manual translation)"
+    ],
+    "considerations": [
+      "Source screenshot quality critical for success",
+      "Model availability (GPT-5, Claude/Sonnet) required",
+      "Learning curve for model specialization understanding",
+      "Time investment in understanding 3-stage methodology"
+    ]
+  },
+  "extension_opportunities": {
+    "stage_4_possibility": {
+      "name": "Automated Feature Generation",
+      "description": "Use design-system.json to auto-generate specific features",
+      "example": "Prompt: 'Build a user profile page following @design-system.json'",
+      "benefit": "Direct application of design system to new features"
+    },
+    "stage_0_possibility": {
+      "name": "Automated Inspiration Curation",
+      "description": "AI searches Dribbble and curates design system options",
+      "example": "Prompt: 'Find 5 blue-themed SaaS design systems on Dribbble'",
+      "benefit": "Reduces manual search time"
+    },
+    "multi_design_system": {
+      "name": "Design System Variants",
+      "description": "Generate multiple design systems from same source",
+      "example": "Dark mode variant, mobile variant, high-contrast variant",
+      "benefit": "Multi-theme applications from single source"
+    }
+  },
+  "related_workflows": [
+    "WF-DESIGN-001 (AI-Assisted Design System Generation)"
+  ],
+  "related_tools": [
+    "Cursor",
+    "GPT-5",
+    "Claude/Sonnet 4.5",
+    "Vite",
+    "React",
+    "Tailwind CSS",
+    "Dribbble"
+  ],
+  "related_objects": [
+    "Dribbble Design System Screenshot",
+    "Design Configuration File (design.json)",
+    "UI Component Showcase Application",
+    "Comprehensive Design System Guide (design-system.json)"
+  ],
+  "related_skills": [
+    "analyze design styles via Cursor",
+    "generate UI components via Cursor",
+    "create design systems via GPT-5"
+  ],
+  "tags": [
+    "multistage-prompts",
+    "design-systems",
+    "ai-methodology",
+    "model-specialization",
+    "context-management",
+    "progressive-detail",
+    "cursor",
+    "gpt-5",
+    "claude-sonnet",
+    "pattern",
+    "reusable-methodology"
+  ],
+  "documentation_status": "Complete",
+  "pattern_maturity": "Proven (demonstrated in Video_009)",
+  "community_validation": "High (from professional design/dev community)",
+  "recommended_for": [
+    "Product teams building AI-first applications",
+    "Design systems engineers",
+    "Agencies with multiple client brands",
+    "Startups needing fast, high-quality design",
+    "Developers without design background"
+  ]
+}

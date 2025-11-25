@@ -1,0 +1,326 @@
+{
+  "department_id": 1,
+  "department_code": "AI",
+  "last_updated": "2025-11-25",
+  "source_file": "Overview/AI_Department_Deep_Analysis.md",
+  
+  "libraries_tools_path": "ENTITIES/LIBRARIES/LBS_003_LBS_003_Tools/",
+  "total_tools": 29,
+  
+  "tool_categories": {
+    "AI_Tools": {
+      "path": "ENTITIES/LIBRARIES/LBS_003_LBS_003_Tools/By_Category/AI/",
+      "description": "AI/LLM services and models",
+      "tools": [
+        {
+          "tool_name": "ChatGPT",
+          "vendor": "OpenAI",
+          "tool_file": "ENTITIES/LIBRARIES/LBS_003_LBS_003_Tools/By_Category/AI/ChatGPT.json",
+          "purpose": "Text generation, analysis, coding (GPT-4, GPT-4o)",
+          "usage_frequency": "daily",
+          "primary_users": [37226, 86246, 86981],
+          "is_critical": true
+        },
+        {
+          "tool_name": "Claude",
+          "vendor": "Anthropic",
+          "tool_file": "ENTITIES/LIBRARIES/LBS_003_LBS_003_Tools/By_Category/AI/Claude.json",
+          "purpose": "Long context (200K tokens), reasoning, coding (3.5 Sonnet)",
+          "usage_frequency": "daily",
+          "primary_users": [37226, 86246, 86981],
+          "is_critical": true
+        },
+        {
+          "tool_name": "Gemini",
+          "vendor": "Google",
+          "tool_file": "ENTITIES/LIBRARIES/LBS_003_LBS_003_Tools/By_Category/AI/Gemini.json",
+          "purpose": "Multimodal, large context (1M tokens), real-time info (2.5 Pro)",
+          "usage_frequency": "daily",
+          "primary_users": [37226, 86246, 86981],
+          "is_critical": true
+        },
+        {
+          "tool_name": "DeepSeek",
+          "tool_file": "ENTITIES/LIBRARIES/LBS_003_LBS_003_Tools/By_Category/AI/DeepSeek.json",
+          "purpose": "Cost-effective coding capabilities",
+          "usage_frequency": "weekly",
+          "primary_users": [86246],
+          "is_critical": false
+        },
+        {
+          "tool_name": "Grok",
+          "tool_file": "ENTITIES/LIBRARIES/LBS_003_LBS_003_Tools/By_Category/AI/Grok.json",
+          "purpose": "AI assistant",
+          "usage_frequency": "as_needed",
+          "is_critical": false
+        },
+        {
+          "tool_name": "Minimax",
+          "tool_file": "ENTITIES/LIBRARIES/LBS_003_LBS_003_Tools/By_Category/AI/Minimax.json",
+          "purpose": "AI model",
+          "usage_frequency": "as_needed",
+          "is_critical": false
+        }
+      ],
+      "total_tools": 6
+    },
+    "Development_Tools": {
+      "path": "ENTITIES/LIBRARIES/LBS_003_LBS_003_Tools/By_Category/Development/",
+      "description": "Code editors and development tools",
+      "tools": [
+        {
+          "tool_name": "Cursor",
+          "tool_file": "ENTITIES/LIBRARIES/LBS_003_LBS_003_Tools/By_Category/Development/Cursor.json",
+          "purpose": "AI-first code editor with inline generation",
+          "usage_frequency": "daily",
+          "primary_users": [37226, 86246, 86981],
+          "is_critical": true
+        },
+        {
+          "tool_name": "VS Code",
+          "tool_file": "ENTITIES/LIBRARIES/LBS_003_LBS_003_Tools/By_Category/Development/VS_Code.json",
+          "purpose": "Code editor with Claude Code extension",
+          "usage_frequency": "daily",
+          "primary_users": [37226, 86246, 86981],
+          "is_critical": true
+        },
+        {
+          "tool_name": "GitHub",
+          "tool_file": "ENTITIES/LIBRARIES/LBS_003_LBS_003_Tools/By_Category/Development/GitHub.json",
+          "purpose": "Version control, Actions for automation",
+          "usage_frequency": "daily",
+          "primary_users": [86981],
+          "is_critical": true
+        },
+        {
+          "tool_name": "Python",
+          "tool_file": "ENTITIES/LIBRARIES/LBS_003_LBS_003_Tools/By_Category/Development/Python.json",
+          "purpose": "Scripting and automation",
+          "usage_frequency": "daily",
+          "primary_users": [86246, 86981],
+          "is_critical": true
+        }
+      ],
+      "total_tools": 4
+    },
+    "Automation_Tools": {
+      "path": "ENTITIES/LIBRARIES/LBS_003_LBS_003_Tools/By_Category/Automation/",
+      "description": "Workflow automation platforms",
+      "tools": [
+        {
+          "tool_name": "n8n",
+          "tool_file": "ENTITIES/LIBRARIES/LBS_003_LBS_003_Tools/By_Category/Automation/n8n.json",
+          "purpose": "Workflow automation (AI Controller for yellow card system)",
+          "usage_frequency": "daily",
+          "primary_users": [86981],
+          "is_critical": true
+        },
+        {
+          "tool_name": "GitHub Actions",
+          "tool_file": "ENTITIES/LIBRARIES/LBS_003_LBS_003_Tools/By_Category/Automation/GitHub_Actions.json",
+          "purpose": "Employee profile synchronization automation",
+          "usage_frequency": "daily",
+          "primary_users": [86981],
+          "is_critical": true
+        }
+      ],
+      "total_tools": 2
+    },
+    "Research_Tools": {
+      "path": "ENTITIES/LIBRARIES/LBS_003_LBS_003_Tools/",
+      "description": "Research and analysis tools",
+      "tools": [
+        {
+          "tool_name": "Perplexity AI",
+          "tool_file": "ENTITIES/LIBRARIES/LBS_003_LBS_003_Tools/By_Category/AI/Perplexity.json",
+          "purpose": "Search and research (Creativity 0.5, Structure mode)",
+          "usage_frequency": "daily",
+          "primary_users": [37226],
+          "is_critical": true
+        },
+        {
+          "tool_name": "NotebookLM",
+          "tool_file": "ENTITIES/LIBRARIES/LBS_003_LBS_003_Tools/By_Category/AI/NotebookLM.json",
+          "purpose": "Document analysis and report creation",
+          "usage_frequency": "weekly",
+          "primary_users": [37226],
+          "is_critical": false
+        },
+        {
+          "tool_name": "Google AI Studio",
+          "tool_file": "ENTITIES/LIBRARIES/LBS_003_LBS_003_Tools/By_Category/AI/Google_AI_Studio.json",
+          "purpose": "Prompt testing and model comparison",
+          "usage_frequency": "weekly",
+          "primary_users": [37226, 86246],
+          "is_critical": false
+        }
+      ],
+      "total_tools": 3
+    },
+    "Content_Creation_Tools": {
+      "path": "ENTITIES/LIBRARIES/LBS_003_LBS_003_Tools/",
+      "description": "Image and video generation tools",
+      "tools": [
+        {
+          "tool_name": "Midjourney",
+          "tool_file": "ENTITIES/LIBRARIES/LBS_003_LBS_003_Tools/By_Category/AI/Midjourney.json",
+          "purpose": "Image generation",
+          "usage_frequency": "as_needed",
+          "primary_users": [86246],
+          "is_critical": false
+        },
+        {
+          "tool_name": "Stable Diffusion",
+          "tool_file": "ENTITIES/LIBRARIES/LBS_003_LBS_003_Tools/By_Category/AI/Stable_Diffusion.json",
+          "purpose": "Image generation",
+          "usage_frequency": "as_needed",
+          "primary_users": [86246],
+          "is_critical": false
+        },
+        {
+          "tool_name": "Runway",
+          "tool_file": "ENTITIES/LIBRARIES/LBS_003_LBS_003_Tools/By_Category/AI/Runway.json",
+          "purpose": "Video generation",
+          "usage_frequency": "as_needed",
+          "primary_users": [86246],
+          "is_critical": false
+        },
+        {
+          "tool_name": "Veo 2",
+          "tool_file": "ENTITIES/LIBRARIES/LBS_003_LBS_003_Tools/By_Category/AI/Veo_2.json",
+          "purpose": "Video generation",
+          "usage_frequency": "as_needed",
+          "primary_users": [86246],
+          "is_critical": false
+        },
+        {
+          "tool_name": "Kling",
+          "tool_file": "ENTITIES/LIBRARIES/LBS_003_LBS_003_Tools/By_Category/AI/Kling.json",
+          "purpose": "Video generation",
+          "usage_frequency": "as_needed",
+          "primary_users": [86246],
+          "is_critical": false
+        }
+      ],
+      "total_tools": 5
+    },
+    "Project_Management_Tools": {
+      "path": "ENTITIES/LIBRARIES/LBS_003_LBS_003_Tools/By_Category/Business/",
+      "description": "Project management and collaboration",
+      "tools": [
+        {
+          "tool_name": "Asana",
+          "tool_file": "ENTITIES/LIBRARIES/LBS_003_LBS_003_Tools/By_Category/Business/Asana.json",
+          "purpose": "Project management",
+          "usage_frequency": "daily",
+          "primary_users": [37226],
+          "is_critical": false
+        },
+        {
+          "tool_name": "Jira",
+          "tool_file": "ENTITIES/LIBRARIES/LBS_003_LBS_003_Tools/By_Category/Business/Jira.json",
+          "purpose": "Project management",
+          "usage_frequency": "daily",
+          "primary_users": [37226],
+          "is_critical": false
+        },
+        {
+          "tool_name": "Notion",
+          "tool_file": "ENTITIES/LIBRARIES/LBS_003_LBS_003_Tools/By_Category/Business/Notion.json",
+          "purpose": "Project management and documentation",
+          "usage_frequency": "daily",
+          "primary_users": [37226],
+          "is_critical": false
+        },
+        {
+          "tool_name": "Trello",
+          "tool_file": "ENTITIES/LIBRARIES/LBS_003_LBS_003_Tools/By_Category/Business/Trello.json",
+          "purpose": "Project management",
+          "usage_frequency": "daily",
+          "primary_users": [37226],
+          "is_critical": false
+        },
+        {
+          "tool_name": "Miro",
+          "tool_file": "ENTITIES/LIBRARIES/LBS_003_LBS_003_Tools/By_Category/Business/Miro.json",
+          "purpose": "Visual collaboration",
+          "usage_frequency": "weekly",
+          "primary_users": [37226],
+          "is_critical": false
+        }
+      ],
+      "total_tools": 5
+    },
+    "Communication_Tools": {
+      "path": "ENTITIES/LIBRARIES/LBS_003_LBS_003_Tools/",
+      "description": "Communication and collaboration",
+      "tools": [
+        {
+          "tool_name": "Discord",
+          "tool_file": "ENTITIES/LIBRARIES/LBS_003_LBS_003_Tools/By_Category/Social_Media/Discord.json",
+          "purpose": "Team communication",
+          "usage_frequency": "daily",
+          "primary_users": [37226, 86246, 86981],
+          "is_critical": true
+        },
+        {
+          "tool_name": "Slack",
+          "tool_file": "ENTITIES/LIBRARIES/LBS_003_LBS_003_Tools/By_Category/Social_Media/Slack.json",
+          "purpose": "Team communication",
+          "usage_frequency": "daily",
+          "primary_users": [37226],
+          "is_critical": false
+        }
+      ],
+      "total_tools": 2
+    },
+    "Other_Tools": {
+      "path": "ENTITIES/LIBRARIES/LBS_003_LBS_003_Tools/",
+      "description": "Other specialized tools",
+      "tools": [
+        {
+          "tool_name": "Whisper Flow",
+          "tool_file": "ENTITIES/LIBRARIES/LBS_003_LBS_003_Tools/By_Category/AI/Whisper_Flow.json",
+          "purpose": "Voice-to-text transcription",
+          "usage_frequency": "daily",
+          "primary_users": [37226, 86246, 86981],
+          "is_critical": true
+        },
+        {
+          "tool_name": "Dropbox",
+          "tool_file": "ENTITIES/LIBRARIES/LBS_003_LBS_003_Tools/File_Management/Dropbox.json",
+          "purpose": "File storage and sync",
+          "usage_frequency": "daily",
+          "primary_users": [37226, 86246, 86981],
+          "is_critical": true
+        },
+        {
+          "tool_name": "Google Workspace",
+          "tool_file": "ENTITIES/LIBRARIES/LBS_003_LBS_003_Tools/By_Category/Business/Google_Workspace.json",
+          "purpose": "Collaboration suite",
+          "usage_frequency": "daily",
+          "primary_users": [37226, 86246, 86981],
+          "is_critical": true
+        },
+        {
+          "tool_name": "Google Calendar",
+          "tool_file": "ENTITIES/LIBRARIES/LBS_003_LBS_003_Tools/By_Category/Business/Google_Calendar.json",
+          "purpose": "Scheduling",
+          "usage_frequency": "daily",
+          "primary_users": [37226],
+          "is_critical": false
+        }
+      ],
+      "total_tools": 4
+    }
+  },
+  
+  "summary": {
+    "total_tools": 29,
+    "critical_tools": 15,
+    "daily_use": 20,
+    "weekly_use": 5,
+    "as_needed": 4
+  }
+}
+

@@ -1,0 +1,76 @@
+{
+  "entity_type": "LIBRARIES",
+  "sub_entity": "Tool",
+  "tool_id": "TOOL-AI-092",
+  "name": "Open WebUI",
+  "vendor": "Open WebUI Community",
+  "category": "AI/Local LLM Platform",
+  "purpose": "ChatGPT-like interface for local LLMs",
+  "description": "Self-hosted ChatGPT-like chat platform for local LLMs. Features custom agents through functions and pipelines, built-in RAG, and runs completely locally. Perfect companion to Ollama for creating a private AI chat experience.",
+  "skill_level_required": "Intermediate",
+  "cost_structure": "Free (Open Source)",
+  "platform_compatibility": [
+    "Linux",
+    "Windows",
+    "Mac",
+    "Docker"
+  ],
+  "integration_capabilities": [
+    "Ollama",
+    "Custom agent functions",
+    "Pipelines",
+    "Built-in RAG",
+    "Multiple LLMs",
+    "Document upload",
+    "Chat history"
+  ],
+  "documentation_url": "https://openwebui.com/",
+  "actual_remote_helpers_usage": {
+    "primary_use": "Local LLM Chat Interface",
+    "users": [],
+    "use_cases": [
+      "chat with local llms",
+      "private ai assistant",
+      "custom agents",
+      "local rag",
+      "offline chat"
+    ],
+    "workflows": []
+  },
+  "strengths": [
+    "ChatGPT-like experience",
+    "Completely local",
+    "Custom agents support",
+    "Built-in RAG",
+    "Feature-rich",
+    "Open-source"
+  ],
+  "limitations": [
+    "Requires local setup",
+    "Depends on Ollama/local LLM"
+  ],
+  "alternatives": [
+    {
+      "name": "AnythingLLM",
+      "comparison": "Good alternative"
+    }
+  ],
+  "departments_using": [],
+  "tags": [
+    "local-llm",
+    "chat-ui",
+    "self-hosting",
+    "rag",
+    "agents",
+    "open-source"
+  ],
+  "discovery_date": "2025-11-13",
+  "discovery_source": "Video_005",
+  "status": "active",
+  "video_source": {
+    "video_id": "Video_005",
+    "video_title": "My Agentic Engineering Tech Stack",
+    "creator": "Cole",
+    "timestamp": "32:11-33:05"
+  }
+}

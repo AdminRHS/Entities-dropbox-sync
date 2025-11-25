@@ -1,0 +1,54 @@
+Category,Type,ID,Department_Code,Department_ISO,Department_Name,Item,Description,Priority,Status,Assignee,Deadline,Notes
+Gap,Research_Gap,LGN-GAP-001,DPT-004,LGN,Lead Generation,Email Enrichment Techniques,Improve enrichment rates from 20-60% to 80%+,High,Open,Davlatmamadova Firuza,2025-11-26,Affects 18 lead generators
+Gap,Research_Gap,AI-GAP-002,DPT-001,AID,AI,MCP Connector Ecosystem,Catalog and understand MCP connectors for automation,Medium,Open,Perederii Vladislav,2025-11-26,Affects 3 AI employees
+Gap,Research_Gap,VID-GAP-001,DPT-006,VID,Video,Video Backlog Clearance,Complete Phase 5-7 for 11 pending videos,High,Open,Multiple,TBD,11 videos containing valuable knowledge
+Gap,Research_Gap,DGN-GAP-001,DPT-005,DGN,Design,AI Design Tools Integration,Integrate AI tools into design workflows,Medium,Open,Shymkevych Iryna or Safonova Eleonora,TBD,Could benefit 19 designers
+Gap,Research_Gap,DEV-GAP-001,DPT-003,DEV,Development,AI-Assisted Coding Workflows,Enhance development with AI coding tools,Medium,Open,Artem Skichko or Klimenko Yaroslav,TBD,Enhancement for 7 developers
+Assignment,Research_Task,RSH-VID-001,DPT-004,LGN,Lead Generation,Video_006 Gap Analysis + Library Mapping,Analyze lead generation methods from Video_006,High,Assigned,Davlatmamadova Firuza (84059),2025-11-26,Addresses LGN-GAP-001 and VID-GAP-001
+Assignment,Research_Task,RSH-VID-002,DPT-001,AID,AI,Video_008 Gap Analysis + Library Mapping,Analyze Claude MCP automation from Video_008,High,Assigned,Perederii Vladislav (86246),2025-11-26,Addresses AI-GAP-002 and VID-GAP-001
+Tool,In_Use,TOL-AID-001,DPT-001,AID,AI,Claude,AI assistant for automation and prompt engineering,N/A,Active,N/A,N/A,Currently in use by AI department
+Tool,In_Use,TOL-AID-002,DPT-001,AID,AI,MCP connectors,Model Context Protocol connectors for automation,N/A,Active,N/A,N/A,Currently in use by AI department
+Activity,Department_Activity,ACT-AID-001,DPT-001,AID,AI,Video processing,Processing and analyzing video transcriptions,N/A,Ongoing,N/A,N/A,Recent activity
+Activity,Department_Activity,ACT-AID-002,DPT-001,AID,AI,ENTITIES integration work,Adapting to new ENTITIES structure,N/A,Ongoing,N/A,N/A,Cross-department trend
+Activity,Department_Activity,ACT-VID-001,DPT-006,VID,Video,Video transcription,18 videos transcribed awaiting analysis,N/A,Completed,N/A,N/A,Knowledge capture in progress
+Trend,Cross_Department,TRD-001,N/A,N/A,Cross-Department,ENTITIES integration ongoing,Multiple departments adapting to new structure,N/A,Ongoing,N/A,N/A,System-wide change
+Trend,Cross_Department,TRD-002,N/A,N/A,Cross-Department,Video processing knowledge capture,18 videos transcribed awaiting analysis,N/A,Ongoing,N/A,N/A,Knowledge management initiative
+Trend,Cross_Department,TRD-003,N/A,N/A,Cross-Department,LIBRARIES recently updated,Skills moved to TALENTS entity,N/A,Completed,N/A,N/A,Structural improvement
+Employee,Available_Resource,EMP-84059,DPT-004,LGN,Lead Generation,Davlatmamadova Firuza,Lead Generator - Available 1.0 rate,N/A,Available,N/A,N/A,High capacity for research
+Employee,Available_Resource,EMP-86246,DPT-001,AID,AI,Perederii Vladislav,Prompt Engineer - Available 1.0 rate,N/A,Available,N/A,N/A,High capacity for research
+Employee,Backup_Resource,EMP-ALT-001,DPT-004,LGN,Lead Generation,Archibong Isaac,Lead Generator - Backup for RSH-VID-001,N/A,Available,N/A,N/A,Backup option
+Employee,Backup_Resource,EMP-ALT-002,DPT-001,AID,AI,Artemchuk Nikolay,AI employee - Backup for RSH-VID-002,N/A,Work,N/A,N/A,Backup option (Work status)
+Employee,Potential_Resource,EMP-POT-001,DPT-005,DGN,Design,Shymkevych Iryna,UI/UX Designer - Potential for DGN-GAP-001,N/A,Available,N/A,N/A,For future assignment
+Employee,Potential_Resource,EMP-POT-002,DPT-005,DGN,Design,Safonova Eleonora,UI/UX Designer - Potential for DGN-GAP-001,N/A,Available,N/A,N/A,For future assignment
+Employee,Potential_Resource,EMP-POT-003,DPT-003,DEV,Development,Artem Skichko,Front End Developer - Potential for DEV-GAP-001,N/A,Available,N/A,N/A,For future assignment
+Employee,Potential_Resource,EMP-POT-004,DPT-003,DEV,Development,Klimenko Yaroslav,Front End Developer - Potential for DEV-GAP-001,N/A,Available,N/A,N/A,For future assignment
+Metric,Department_Stats,STAT-DPT-001,DPT-001,AID,AI,Employee Count,3 AI employees,N/A,N/A,N/A,N/A,Department size
+Metric,Department_Stats,STAT-DPT-003,DPT-003,DEV,Development,Employee Count,7 developers available for research,N/A,N/A,N/A,N/A,Department size
+Metric,Department_Stats,STAT-DPT-004,DPT-004,LGN,Lead Generation,Employee Count,18 employees with high research capacity,N/A,N/A,N/A,N/A,Department size - largest technical team
+Metric,Department_Stats,STAT-DPT-005,DPT-005,DGN,Design,Employee Count,19 employees - largest department,N/A,N/A,N/A,N/A,Department size - largest overall
+Metric,Research_Stats,STAT-RSH-001,N/A,N/A,Research System,Available Employees,16 Available employees for research,N/A,N/A,N/A,N/A,Total research capacity
+Metric,Research_Stats,STAT-RSH-002,N/A,N/A,Research System,Video Backlog,11 videos pending Phase 5-7 analysis,N/A,N/A,N/A,N/A,Knowledge capture backlog
+Metric,Research_Stats,STAT-RSH-003,N/A,N/A,Research System,Videos Transcribed,18 videos transcribed,N/A,N/A,N/A,N/A,Transcription completed
+Metric,Research_Stats,STAT-RSH-004,N/A,N/A,Research System,Total Gaps Identified,24 gaps across 8 departments,N/A,N/A,N/A,N/A,Gap analysis scope
+Metric,Research_Stats,STAT-RSH-005,N/A,N/A,Research System,Top Priority Gaps,5 gaps reviewed for Week 3,N/A,N/A,N/A,N/A,Focus areas
+Goal,Weekly_Target,GOAL-W3-001,N/A,N/A,Research System,Assignments Target,Assign 2 research tasks by Friday Nov 22,High,In Progress,N/A,2025-11-22,Conservative first cycle
+Goal,Weekly_Target,GOAL-W3-002,N/A,N/A,Research System,Expected Completions,2 tasks due by Tuesday November 26,High,Pending,N/A,2025-11-26,First cycle deliverables
+Goal,Weekly_Target,GOAL-W3-003,N/A,N/A,Research System,Gap Closure Target,Partially close 2 gaps by end of next week,Medium,Pending,N/A,2025-11-29,LGN-GAP-001 and AI-GAP-002
+Goal,Weekly_Target,GOAL-W3-004,N/A,N/A,Research System,LIBRARIES Tools Growth,Add 8-15 new tools to LIBRARIES,Medium,Pending,N/A,2025-11-29,5-10 from Video_006 + 3-5 from Video_008
+Goal,Weekly_Target,GOAL-W3-005,N/A,N/A,Research System,LIBRARIES Workflows Growth,Add 4-8 new workflows to LIBRARIES,Medium,Pending,N/A,2025-11-29,2-3 from each video
+Priority,Gap_Ranking,RANK-001,DPT-006,VID,Video,VID-GAP-001 Priority,Priority Score 42 (Urgency 8 × Impact 9),Critical,Open,N/A,N/A,Tied for rank 1
+Priority,Gap_Ranking,RANK-001,DPT-004,LGN,Lead Generation,LGN-GAP-001 Priority,Priority Score 42 (Urgency 8 × Impact 9),Critical,Open,N/A,N/A,Tied for rank 1
+Priority,Gap_Ranking,RANK-002,DPT-005,DGN,Design,DGN-GAP-001 Priority,Priority Score 36 (Urgency 6 × Impact 9),High,Open,N/A,N/A,Rank 2
+Priority,Gap_Ranking,RANK-003,DPT-001,AID,AI,AI-GAP-002 Priority,Priority Score 34 (Urgency 6 × Impact 8),High,Open,N/A,N/A,Rank 3
+Priority,Gap_Ranking,RANK-004,DPT-003,DEV,Development,DEV-GAP-001 Priority,Priority Score 29 (Urgency 5 × Impact 7),Medium,Deferred,N/A,N/A,Rank 4 - deferred to next week
+Resource,Video_Asset,VID-RES-003,DPT-006,VID,Video,Video_003 Transcription,Video transcription awaiting Phase 5-7 analysis,High,Pending,TBD,TBD,Priority video in backlog
+Resource,Video_Asset,VID-RES-004,DPT-006,VID,Video,Video_004 Transcription,Video transcription awaiting Phase 5-7 analysis,High,Pending,TBD,TBD,Priority video in backlog
+Resource,Video_Asset,VID-RES-006,DPT-004,LGN,Lead Generation,Video_006 Transcription,Lead generation methods (12+ techniques),High,Assigned,Davlatmamadova Firuza,2025-11-26,RSH-VID-001 resource
+Resource,Video_Asset,VID-RES-007,DPT-006,VID,Video,Video_007 Transcription,Video transcription awaiting Phase 5-7 analysis,High,Pending,TBD,TBD,Priority video in backlog
+Resource,Video_Asset,VID-RES-008,DPT-001,AID,AI,Video_008 Transcription,Claude MCP connectors and automation workflows,High,Assigned,Perederii Vladislav,2025-11-26,RSH-VID-002 resource
+Deliverable,Expected_Output,DEL-RSH-VID-001-1,DPT-004,LGN,Lead Generation,Gap Analysis Document,Identify what's new vs existing LIBRARIES,High,Pending,Davlatmamadova Firuza,2025-11-26,RSH-VID-001 output
+Deliverable,Expected_Output,DEL-RSH-VID-001-2,DPT-004,LGN,Lead Generation,Library Mapping Report,List tools/workflows to add to LIBRARIES,High,Pending,Davlatmamadova Firuza,2025-11-26,RSH-VID-001 output
+Deliverable,Expected_Output,DEL-RSH-VID-001-3,DPT-004,LGN,Lead Generation,Email Enrichment Recommendations,Specific techniques for improving enrichment rates,High,Pending,Davlatmamadova Firuza,2025-11-26,RSH-VID-001 output
+Deliverable,Expected_Output,DEL-RSH-VID-002-1,DPT-001,AID,AI,Gap Analysis Document,Identify MCP connectors not yet cataloged,High,Pending,Perederii Vladislav,2025-11-26,RSH-VID-002 output
+Deliverable,Expected_Output,DEL-RSH-VID-002-2,DPT-001,AID,AI,Library Mapping Report,List MCP tools and automation workflows,High,Pending,Perederii Vladislav,2025-11-26,RSH-VID-002 output
+Deliverable,Expected_Output,DEL-RSH-VID-002-3,DPT-001,AID,AI,AI Automation Recommendations,Opportunities for AI automation,High,Pending,Perederii Vladislav,2025-11-26,RSH-VID-002 output

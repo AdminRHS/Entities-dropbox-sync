@@ -1,0 +1,52 @@
+{
+  "Actions": "scrape",
+  "Processes": "scraping",
+  "Results": "scraped",
+  "Departments": "managers, developers",
+  "Professions": "lead generator, back end developer, ai engineer",
+  "category": "Data_Operations",
+  "source": "Video_006_Lead_Generation_Analysis",
+  "discovery_date": "2025-11-12",
+  "description": "Extract data from websites, web pages, or online platforms using automated tools or scripts",
+  "typical_use_cases": [
+    "Scrape Google SERP for company domains",
+    "Scrape Google Maps for local business data",
+    "Scrape LinkedIn profiles for lead information",
+    "Scrape social media profiles (Instagram, TikTok)",
+    "Scrape job postings for hiring signals",
+    "Scrape custom platforms for niche leads"
+  ],
+  "common_objects": [
+    "Lead List",
+    "Business Listing",
+    "SERP Result",
+    "Social Profile",
+    "Job Posting",
+    "Company Domain"
+  ],
+  "common_tools": [
+    "Apify",
+    "Vayne",
+    "n8n",
+    "Bright Data",
+    "Custom scrapers"
+  ],
+  "related_actions": [
+    "parse",
+    "extract",
+    "validate",
+    "enrich",
+    "export"
+  ],
+  "workflows": [
+    "Google SERP Scraping → Parse → Enrich",
+    "LinkedIn Sales Navigator → Scrape (Vayne) → Enrich",
+    "Google Maps → Scrape → Parse → Enrich",
+    "Social Media → Scrape → Extract → Enrich"
+  ],
+  "success_metrics": {
+    "volume": "1,000-5,000+ records per scrape",
+    "time": "10-60 minutes depending on source",
+    "quality": "Depends on source and scraper reliability"
+  }
+}

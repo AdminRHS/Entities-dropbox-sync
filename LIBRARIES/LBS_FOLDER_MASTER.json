@@ -1,0 +1,696 @@
+{
+  "entity_type": "LIBRARIES",
+  "naming_convention": "LBS_XXX_Name",
+  "version": "1.0",
+  "created_date": "2025-12-26",
+  "last_updated": "2025-12-26",
+  "description": "Master file documenting all LIBRARIES folders using LBS_XXX_Name naming convention",
+  "folders": [
+    {
+      "folder_id": "LBS_001",
+      "folder_name": "Responsibilities/Actions",
+      "display_name": "Actions",
+      "entity_type": "Actions",
+      "description": "Standardized action verbs for task naming",
+      "old_path": "LIBRARIES/Responsibilities/Actions/",
+      "new_path": "LIBRARIES/Responsibilities/Actions/",
+      "status": "Proposed",
+      "subfolders": [
+        {
+          "name": "Master",
+          "description": "Master action files",
+          "files": [
+            "actions_master.json",
+            "actions_command_verbs.json",
+            "actions_process_verbs.json",
+            "actions_result_verbs.json"
+          ]
+        },
+        {
+          "name": "By_Domain",
+          "description": "Domain-specific actions",
+          "files": [
+            "video_generation_actions.json"
+          ]
+        },
+        {
+          "name": "Data_Operations",
+          "description": "Data operation actions",
+          "files": [
+            "data_operations_index.json",
+            "arbitrage.json",
+            "bill.json",
+            "combine.json",
+            "consume.json",
+            "feed.json",
+            "flatten.json",
+            "lookup.json",
+            "obfuscate.json",
+            "parse.json",
+            "sanitize.json",
+            "scrape.json",
+            "split.json"
+          ]
+        },
+        {
+          "name": "Archive",
+          "description": "Archived action files"
+        }
+      ],
+      "file_count": 429,
+      "iso_code": "ACT"
+    },
+    {
+      "folder_id": "LBS_002",
+      "folder_name": "Responsibilities/Objects",
+      "display_name": "Objects",
+      "entity_type": "Objects",
+      "description": "Business objects and deliverables that actions are performed on",
+      "old_path": "LIBRARIES/Responsibilities/Objects/",
+      "new_path": "LIBRARIES/Responsibilities/Objects/",
+      "status": "Proposed",
+      "subfolders": [
+        {
+          "name": "Master",
+          "description": "Master object files",
+          "files": [
+            "objects_master.json"
+          ]
+        },
+        {
+          "name": "By_Domain",
+          "description": "Objects organized by domain",
+          "subfolders": [
+            {
+              "name": "AI_Objects",
+              "files": [
+                "agentic_engineering_objects.json",
+                "ai_automation_objects.json",
+                "rag_objects.json"
+              ]
+            },
+            {
+              "name": "Development_Objects",
+              "files": [
+                "development_objects.json"
+              ]
+            },
+            {
+              "name": "Design_Objects",
+              "files": [
+                "design_deliverables.json",
+                "interactive_elements.json",
+                "portfolio_deliverables.json",
+                "mascot_sets.json"
+              ]
+            },
+            {
+              "name": "Video_Objects",
+              "files": [
+                "video_deliverables.json",
+                "video_generation_objects.json"
+              ]
+            },
+            {
+              "name": "Marketing_Objects",
+              "files": [
+                "social_media_deliverables.json",
+                "publishing_deliverables.json",
+                "online_academy_lessons.json"
+              ]
+            },
+            {
+              "name": "HR_Objects",
+              "files": [
+                "recruitment_objects.json"
+              ]
+            },
+            {
+              "name": "Lead_Generation_Objects",
+              "files": [
+                "lead_generation_objects.json"
+              ]
+            },
+            {
+              "name": "General_Objects",
+              "files": [
+                "documents.json",
+                "catalog_documentation.json"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Metadata",
+          "description": "Object metadata and classifications",
+          "files": [
+            "object_types.json",
+            "object_variants_map.json"
+          ]
+        }
+      ],
+      "file_count": 110,
+      "iso_code": "OBJ"
+    },
+    {
+      "folder_id": "LBS_003",
+      "folder_name": "LBS_003_Tools",
+      "display_name": "Tools",
+      "entity_type": "Tools",
+      "description": "Software, platforms, and services used across the organization",
+      "old_path": "LIBRARIES/LBS_003_LBS_003_Tools/",
+      "new_path": "LIBRARIES/LBS_003_LBS_003_Tools/",
+      "status": "Proposed",
+      "subfolders": [
+        {
+          "name": "Master",
+          "description": "Master tool listing",
+          "files": [
+            "tools_master_listing.json"
+          ]
+        },
+        {
+          "name": "By_Category",
+          "description": "Tools organized by category",
+          "subfolders": [
+            {
+              "name": "AI",
+              "description": "AI tools and services",
+              "subfolders": [
+                {
+                  "name": "LLM_Services",
+                  "files": [
+                    "claude.json",
+                    "chatgpt.json",
+                    "gemini.json"
+                  ]
+                },
+                {
+                  "name": "Image_Generation",
+                  "files": [
+                    "midjourney.json",
+                    "leonardo_ai.json"
+                  ]
+                },
+                {
+                  "name": "Video_Generation",
+                  "files": [
+                    "runwayml.json",
+                    "synthesia.json"
+                  ]
+                },
+                {
+                  "name": "Code_Assistance",
+                  "files": [
+                    "cursor.json",
+                    "github_copilot.json"
+                  ]
+                },
+                {
+                  "name": "AI_Frameworks",
+                  "files": [
+                    "langgraph.json",
+                    "crewai.json"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Development",
+              "description": "Development tools and platforms",
+              "subfolders": [
+                {
+                  "name": "Code_Editors",
+                  "files": [
+                    "vs_code.json",
+                    "cursor.json"
+                  ]
+                },
+                {
+                  "name": "Frameworks",
+                  "files": [
+                    "react.json",
+                    "fastapi.json"
+                  ]
+                },
+                {
+                  "name": "Databases",
+                  "files": [
+                    "postgresql.json",
+                    "mongodb.json",
+                    "redis.json"
+                  ]
+                },
+                {
+                  "name": "Cloud_Platforms",
+                  "files": [
+                    "aws.json",
+                    "azure.json",
+                    "render.json"
+                  ]
+                },
+                {
+                  "name": "DevOps",
+                  "files": [
+                    "docker.json",
+                    "github_actions.json"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Automation",
+              "description": "Automation platforms",
+              "files": [
+                "n8n.json",
+                "make_com.json"
+              ]
+            },
+            {
+              "name": "Design",
+              "description": "Design tools",
+              "files": [
+                "figma.json"
+              ]
+            },
+            {
+              "name": "Video_Editing",
+              "description": "Video editing software",
+              "files": [
+                "premiere_pro.json"
+              ]
+            },
+            {
+              "name": "Social_Media",
+              "description": "Social media platforms",
+              "files": [
+                "linkedin.json",
+                "twitter.json",
+                "youtube.json"
+              ]
+            },
+            {
+              "name": "Business",
+              "description": "Business tools",
+              "files": [
+                "apollo_io.json",
+                "instantly_ai.json"
+              ]
+            },
+            {
+              "name": "Integrations",
+              "description": "Integration services",
+              "subfolders": [
+                {
+                  "name": "MCP_Services",
+                  "files": []
+                },
+                {
+                  "name": "Connectors",
+                  "files": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Root_Files",
+          "description": "Root-level tool files to be categorized",
+          "files": [
+            "github.json",
+            "linkedin.json"
+          ]
+        }
+      ],
+      "file_count": 164,
+      "iso_code": "TOL"
+    },
+    {
+      "folder_id": "LBS_004",
+      "folder_name": "../TALENTS/Skills",
+      "display_name": "Skills",
+      "entity_type": "Skills",
+      "description": "Skills combining responsibilities (action + object) and tools",
+      "old_path": "LIBRARIES/LBS_004_../TALENTS/Skills/",
+      "new_path": "LIBRARIES/LBS_004_../TALENTS/Skills/",
+      "status": "Proposed",
+      "subfolders": [
+        {
+          "name": "Master",
+          "description": "Master skills catalog",
+          "files": [
+            "all_skills.json",
+            "skills_index.json",
+            "skills_metadata.json"
+          ]
+        },
+        {
+          "name": "By_Department",
+          "description": "Skills organized by department",
+          "files": [
+            "ai_skills.json",
+            "dev_skills.json",
+            "design_skills.json",
+            "hr_skills.json",
+            "lg_skills.json",
+            "sales_skills.json",
+            "video_skills.json"
+          ]
+        },
+        {
+          "name": "By_Profession",
+          "description": "Skills organized by profession",
+          "files": [
+            "ai_engineer.json",
+            "backend_developer.json",
+            "designer.json",
+            "frontend_developer.json",
+            "full_stack_developer.json",
+            "graphic_designer.json",
+            "hr_manager.json",
+            "lead_generator.json",
+            "motion_designer.json",
+            "recruiter.json",
+            "sales_manager.json",
+            "smm.json",
+            "ui_ux_designer.json",
+            "video_editor.json"
+          ]
+        },
+        {
+          "name": "By_Difficulty",
+          "description": "Skills organized by difficulty level",
+          "files": [
+            "beginner.json",
+            "intermediate.json",
+            "advanced.json"
+          ]
+        },
+        {
+          "name": "By_Tool",
+          "description": "Skills organized by tool"
+        },
+        {
+          "name": "Mappings",
+          "description": "Skill mapping files",
+          "files": [
+            "skill_profession_map.json",
+            "skill_tool_map.json"
+          ]
+        },
+        {
+          "name": "Templates",
+          "description": "Skill templates",
+          "files": [
+            "talent_skill_profile.json",
+            "skill_assessment.json",
+            "skill_development_plan.json"
+          ]
+        }
+      ],
+      "file_count": 29,
+      "iso_code": "SKL"
+    },
+    {
+      "folder_id": "LBS_005",
+      "folder_name": "LBS_005_Professions",
+      "display_name": "Professions",
+      "entity_type": "Professions",
+      "description": "Job roles and profession definitions",
+      "old_path": "LIBRARIES/LBS_005_LBS_005_Professions/",
+      "new_path": "LIBRARIES/LBS_005_LBS_005_Professions/",
+      "status": "Proposed",
+      "subfolders": [
+        {
+          "name": "Master",
+          "description": "Master professions file",
+          "files": [
+            "professions.json"
+          ]
+        },
+        {
+          "name": "Individual",
+          "description": "Individual profession files",
+          "files": [
+            "ai_engineer.json",
+            "automation_engineer.json",
+            "automation_specialist.json",
+            "backend_developer.json",
+            "developer.json",
+            "designer.json",
+            "lead_generator.json",
+            "marketer.json",
+            "recruiter.json",
+            "account_executive.json",
+            "customer_success_manager.json",
+            "executive_assistant.json",
+            "operations_manager.json",
+            "sdr.json",
+            "smm_specialist.json",
+            "videographer.json"
+          ]
+        }
+      ],
+      "file_count": 17,
+      "iso_code": "PRF"
+    },
+    {
+      "folder_id": "LBS_006",
+      "folder_name": "LBS_006_Departments",
+      "display_name": "Departments",
+      "entity_type": "Departments",
+      "description": "Organizational units and department definitions",
+      "old_path": "LIBRARIES/LBS_006_Departments/",
+      "new_path": "LIBRARIES/LBS_006_Departments/",
+      "status": "Proposed",
+      "subfolders": [
+        {
+          "name": "Master",
+          "description": "Master departments file",
+          "files": [
+            "departments.json"
+          ]
+        },
+        {
+          "name": "By_Department",
+          "description": "Department-specific data",
+          "subfolders": [
+            {
+              "name": "AI",
+              "files": [
+                "overview.json",
+                "structure.json",
+                "metrics.json",
+                "integration.json",
+                "tools_reference.json",
+                "objects_reference.json",
+                "task_managers_reference.json",
+                "projects.json",
+                "team_composition.json"
+              ]
+            },
+            {
+              "name": "SMM",
+              "files": [
+                "README.md",
+                "INTEGRATION_PLAN.md"
+              ]
+            }
+          ]
+        }
+      ],
+      "file_count": 9,
+      "iso_code": "DPT"
+    },
+    {
+      "folder_id": "LBS_007",
+      "folder_name": "Responsibilities/Parameters",
+      "display_name": "Parameters",
+      "entity_type": "Parameters",
+      "description": "Configuration parameters and settings",
+      "old_path": "LIBRARIES/Responsibilities/Parameters/",
+      "new_path": "LIBRARIES/Responsibilities/Parameters/",
+      "status": "Proposed",
+      "subfolders": [
+        {
+          "name": "Master",
+          "description": "Master parameters file",
+          "files": [
+            "parameters.json"
+          ]
+        },
+        {
+          "name": "By_Profession",
+          "description": "Parameters organized by profession",
+          "files": [
+            "graphic_designer_parameters.json",
+            "backend_developer_parameters.json",
+            "lead_generator_parameters.json",
+            "recruiter_parameters.json",
+            "project_manager_parameters.json",
+            "sales_manager_parameters.json",
+            "seo_manager_parameters.json",
+            "general_parameters.json"
+          ]
+        },
+        {
+          "name": "By_Department",
+          "description": "Parameters organized by department",
+          "files": [
+            "designers_parameters.json",
+            "developers_parameters.json",
+            "managers_parameters.json",
+            "marketers_parameters.json"
+          ]
+        }
+      ],
+      "file_count": 200,
+      "iso_code": "PRM"
+    },
+    {
+      "folder_id": "LBS_008",
+      "folder_name": "Taxonomy",
+      "display_name": "Taxonomy",
+      "entity_type": "Taxonomy",
+      "description": "Taxonomy documentation, master lists, and migration maps",
+      "old_path": "LIBRARIES/Taxonomy/",
+      "new_path": "LIBRARIES/Taxonomy/",
+      "status": "Proposed",
+      "subfolders": [
+        {
+          "name": "Master_Lists",
+          "description": "Master list CSV files",
+          "files": [
+            "libraries_master_list.csv",
+            "libraries_master_list_2025-12-26.csv"
+          ]
+        },
+        {
+          "name": "Documentation",
+          "description": "Taxonomy documentation",
+          "files": [
+            "libraries_iso_code_registry.md",
+            "libraries_hierarchy_tree.md",
+            "libraries_department_distribution.md",
+            "id_and_name_conventions.md"
+          ]
+        },
+        {
+          "name": "Scripts",
+          "description": "Taxonomy generation scripts",
+          "files": [
+            "generate_master_list.py"
+          ]
+        },
+        {
+          "name": "Migrations",
+          "description": "Migration maps and logs",
+          "files": [
+            "libraries_migration_map.json"
+          ]
+        }
+      ],
+      "file_count": 10,
+      "iso_code": "TAX"
+    },
+    {
+      "folder_id": "LBS_009",
+      "folder_name": "Archive",
+      "display_name": "Archive",
+      "entity_type": "Archive",
+      "description": "Archived and legacy files",
+      "old_path": "LIBRARIES/Archive/",
+      "new_path": "LIBRARIES/Archive/",
+      "status": "Proposed",
+      "subfolders": [
+        {
+          "name": "Legacy_Root_Files",
+          "description": "Legacy root-level files",
+          "files": [
+            "actions.json",
+            "objects.json",
+            "tools.json",
+            "MIGRATION_NOTE.md"
+          ]
+        },
+        {
+          "name": "Backups",
+          "description": "Backup folders with dates",
+          "subfolders": [
+            {
+              "name": "actions_backup_20251118",
+              "description": "Actions backup from 2025-11-18"
+            },
+            {
+              "name": "objects_backup_20251118",
+              "description": "Objects backup from 2025-11-18"
+            }
+          ]
+        },
+        {
+          "name": "Deprecated",
+          "description": "Deprecated files and folders"
+        },
+        {
+          "name": "Old_Structure",
+          "description": "Old folder structure after migration",
+          "subfolders": [
+            {
+              "name": "Responsibilities",
+              "description": "Old Responsibilities folder (to be archived)"
+            },
+            {
+              "name": "Tools",
+              "description": "Old Tools folder (to be archived)"
+            },
+            {
+              "name": "Skills",
+              "description": "Old Skills folder (to be archived)"
+            },
+            {
+              "name": "Professions",
+              "description": "Old Professions folder (to be archived)"
+            },
+            {
+              "name": "DEPARTMENTS",
+              "description": "Old DEPARTMENTS folder (to be archived)"
+            },
+            {
+              "name": "Taxonomy",
+              "description": "Old Taxonomy folder (to be archived)"
+            }
+          ]
+        }
+      ],
+      "file_count": 0,
+      "iso_code": "ARC"
+    }
+  ],
+  "statistics": {
+    "total_folders": 9,
+    "total_entities": 959,
+    "breakdown": {
+      "Actions": 429,
+      "Objects": 110,
+      "Tools": 164,
+      "Skills": 29,
+      "Professions": 17,
+      "Departments": 9,
+      "Parameters": 200,
+      "Taxonomy": 10
+    }
+  },
+  "migration_status": {
+    "phase": "Proposal",
+    "status": "Awaiting Approval",
+    "next_steps": [
+      "Review and approve proposal",
+      "Create new folder structure",
+      "Migrate files",
+      "Update all references",
+      "Archive old structure"
+    ]
+  }
+}
+
+

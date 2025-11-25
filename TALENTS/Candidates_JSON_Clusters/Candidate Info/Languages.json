@@ -1,0 +1,76 @@
+{
+  "template_name": "Languages",
+  "description": "Languages array - contains candidate's language proficiencies with levels",
+  "fields": {
+    "hr_languages": {
+      "type": "array",
+      "item_type": "object",
+      "description": "Array of: hr_languages",
+      "item_fields": {
+        "hr_languages[].id": {
+          "type": "int",
+          "description": "Field: id",
+          "example": 184390
+        },
+        "hr_languages[].hr_details_id": {
+          "type": "str",
+          "description": "Field: hr_details_id",
+          "example": "89338"
+        },
+        "hr_languages[].lang_id": {
+          "type": "str",
+          "description": "Field: lang_id",
+          "example": "9"
+        },
+        "hr_languages[].level_id": {
+          "type": "str",
+          "description": "Field: level_id",
+          "example": "3"
+        },
+        "hr_languages[].language": {
+          "type": "object",
+          "fields": {
+            "hr_languages[].language.id": {
+              "type": "int",
+              "description": "Field: id",
+              "example": 9
+            },
+            "hr_languages[].language.name": {
+              "type": "str",
+              "description": "Field: name",
+              "example": "English"
+            }
+          },
+          "description": "Nested object: language"
+        },
+        "hr_languages[].lang_level": {
+          "type": "object",
+          "fields": {
+            "hr_languages[].lang_level.id": {
+              "type": "int",
+              "description": "Field: id",
+              "example": 3
+            },
+            "hr_languages[].lang_level.short_name": {
+              "type": "str",
+              "description": "Field: short_name",
+              "example": "B1"
+            },
+            "hr_languages[].lang_level.ext_name": {
+              "type": "str",
+              "description": "Field: ext_name",
+              "example": "Intermediate"
+            },
+            "hr_languages[].lang_level.name": {
+              "type": "str",
+              "description": "Field: name",
+              "example": "B1 - Intermediate"
+            }
+          },
+          "description": "Nested object: lang_level"
+        }
+      }
+    }
+  }
+}
+

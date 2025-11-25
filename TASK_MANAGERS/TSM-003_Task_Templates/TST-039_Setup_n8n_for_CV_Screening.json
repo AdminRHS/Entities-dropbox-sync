@@ -1,0 +1,334 @@
+{
+  "entity_type": "TASK_MANAGERS",
+  "sub_entity": "Task_Template",
+  "template_id": "Task-Template-039",
+  "task_name": "Setup n8n Automation for Automated CV Screening",
+  "action": "Setup",
+  "object": "n8n Workflow",
+  "context": "for automated CV screening using Gemini AI",
+  "description": "Complete setup of n8n automation platform with Gmail integration and Gemini AI for automated resume screening. Based on Boomi Techie tutorial for processing 50 CVs in 90 minutes vs 20+ hours manually. This task establishes the foundation for Week 1 of the HR automation implementation.",
+  "department": "HR",
+  "profession": "HR Manager / Automation Specialist",
+  "estimated_duration": "2-3 hours (one-time setup)",
+  "status": "Template",
+  "dependencies": [
+    "n8n account created (free tier or paid with EU datacenter)",
+    "Gmail account access for HR recruitment inbox",
+    "Google Gemini API key obtained",
+    "CV Parser v1 prompt available (PRM-HR-001)"
+  ],
+  "tools_required": [
+    "n8n Cloud (EU datacenter for GDPR)",
+    "Gmail",
+    "Google Gemini API",
+    "Google Sheets"
+  ],
+  "success_criteria": [
+    "n8n workflow operational with all nodes configured",
+    "Gmail trigger successfully fires on new CV emails",
+    "Gemini AI analysis produces valid 21-field TSV output",
+    "Google Sheets receives and displays candidate data",
+    "Test run successful with 10 sample resumes",
+    "Screening accuracy >90% validated",
+    "Error handling configured with email alerts"
+  ],
+  "steps": [
+    {
+      "step_number": 1,
+      "name": "Create n8n account with EU datacenter selection",
+      "tool": "n8n Cloud",
+      "responsibility": "HR Manager",
+      "placement": "n8n.io website",
+      "duration": "15 minutes",
+      "dependencies": [],
+      "inputs": [
+        "Company email address",
+        "Password and account details"
+      ],
+      "outputs": [
+        "n8n account activated",
+        "EU datacenter selected (Frankfurt or Amsterdam)"
+      ],
+      "success_criteria": "Account created, EU datacenter confirmed for GDPR compliance"
+    },
+    {
+      "step_number": 2,
+      "name": "Connect Gmail to n8n workflow",
+      "tool": "n8n + Gmail",
+      "responsibility": "HR Manager",
+      "placement": "n8n workflow editor",
+      "duration": "20 minutes",
+      "dependencies": [
+        "Step 1"
+      ],
+      "inputs": [
+        "Gmail account credentials",
+        "OAuth consent for n8n access"
+      ],
+      "outputs": [
+        "Gmail trigger node configured",
+        "Test email successfully triggers workflow"
+      ],
+      "success_criteria": "Gmail trigger node operational, test email received and processed"
+    },
+    {
+      "step_number": 3,
+      "name": "Obtain Google Gemini API key",
+      "tool": "Google AI Studio",
+      "responsibility": "HR Manager",
+      "placement": "ai.google.dev",
+      "duration": "10 minutes",
+      "dependencies": [],
+      "inputs": [
+        "Google account",
+        "Project name for API key"
+      ],
+      "outputs": [
+        "Gemini API key generated",
+        "API key securely saved in n8n credentials"
+      ],
+      "success_criteria": "API key generated, validated, and stored securely"
+    },
+    {
+      "step_number": 4,
+      "name": "Create Google Sheets template for CV data",
+      "tool": "Google Sheets",
+      "responsibility": "HR Manager",
+      "placement": "Google Drive",
+      "duration": "20 minutes",
+      "dependencies": [],
+      "inputs": [
+        "CV Parser v1 field list (21 fields)",
+        "Template structure requirements"
+      ],
+      "outputs": [
+        "Google Sheets template with 21 columns",
+        "Headers: Full_name, Email, Phone, LinkedIn, City, Country, Position_title, Work_experience_years, Total_experience_years, Education_degree, Education_field, Education_university, Languages, English_level, Key_skills, Previous_companies, Previous_industries, Availability_start_date, Salary_expectations, Visa_status, Additional_notes",
+        "Conditional formatting for scoring",
+        "Filter views configured"
+      ],
+      "success_criteria": "Template created with all 21 fields matching CV Parser output format"
+    },
+    {
+      "step_number": 5,
+      "name": "Build n8n workflow nodes for CV processing",
+      "tool": "n8n",
+      "responsibility": "HR Manager",
+      "placement": "n8n workflow editor",
+      "duration": "1.5-2 hours",
+      "dependencies": [
+        "Step 2",
+        "Step 3",
+        "Step 4"
+      ],
+      "inputs": [
+        "Gmail trigger configuration",
+        "Gemini API credentials",
+        "Google Sheets template ID",
+        "CV Parser v1 prompt text"
+      ],
+      "outputs": [
+        "Complete n8n workflow with nodes: Gmail Trigger → Extract Attachment → Convert to Text → Gemini AI Analysis → Parse Response → Google Sheets Write → Notification",
+        "Error handling nodes configured",
+        "Workflow activated and ready"
+      ],
+      "success_criteria": "All nodes connected, workflow executes without errors, test CV processed successfully"
+    },
+    {
+      "step_number": 6,
+      "name": "Test workflow with 10 sample resumes",
+      "tool": "n8n + Gmail + Google Sheets",
+      "responsibility": "HR Manager",
+      "placement": "Complete workflow execution",
+      "duration": "30 minutes",
+      "dependencies": [
+        "Step 5"
+      ],
+      "inputs": [
+        "10 sample CVs (5 strong candidates, 5 weak candidates)",
+        "Expected outcomes for validation"
+      ],
+      "outputs": [
+        "10 CVs processed through workflow",
+        "10 rows in Google Sheets with complete data",
+        "Accuracy report (% fields correctly extracted)",
+        "Processing time per CV measured"
+      ],
+      "success_criteria": "All 10 resumes processed, data in Google Sheets, accuracy >90%, avg processing time <2 minutes per CV"
+    },
+    {
+      "step_number": 7,
+      "name": "Document workflow and create usage guide",
+      "tool": "Notion or Google Docs",
+      "responsibility": "HR Manager",
+      "placement": "HR documentation folder",
+      "duration": "30 minutes",
+      "dependencies": [
+        "Step 6"
+      ],
+      "inputs": [
+        "Workflow screenshots",
+        "Test results data",
+        "Common errors encountered"
+      ],
+      "outputs": [
+        "Step-by-step usage guide",
+        "Screenshots of workflow configuration",
+        "Troubleshooting section",
+        "Contact information for support"
+      ],
+      "success_criteria": "Documentation complete, other team members can operate workflow independently"
+    }
+  ],
+  "checklist": [
+    {
+      "item": "n8n account created with EU datacenter (Frankfurt or Amsterdam)",
+      "guide": "GDPR compliance requirement for Austria/Ukraine operations",
+      "required": true
+    },
+    {
+      "item": "Gmail integration tested with sample email",
+      "guide": "Send test email with CV attachment, verify trigger fires within 1 minute",
+      "required": true
+    },
+    {
+      "item": "Gemini API key valid and working",
+      "guide": "Test with sample CV text, verify AI returns valid TSV response",
+      "required": true
+    },
+    {
+      "item": "Google Sheets template matches CV Parser v1 fields exactly",
+      "guide": "All 21 fields in exact order: Full_name, Email, Phone, LinkedIn, City, Country, Position_title, Work_experience_years, Total_experience_years, Education_degree, Education_field, Education_university, Languages, English_level, Key_skills, Previous_companies, Previous_industries, Availability_start_date, Salary_expectations, Visa_status, Additional_notes",
+      "required": true
+    },
+    {
+      "item": "Error handling configured (email alerts if workflow fails)",
+      "guide": "Add error trigger node sending email to HR team if any step fails",
+      "required": true
+    },
+    {
+      "item": "Test with diverse CV formats (PDF, DOC, DOCX)",
+      "guide": "Ensure workflow handles all common resume formats",
+      "required": true
+    },
+    {
+      "item": "Documentation created and shared with team",
+      "guide": "Other team members can follow guide independently without training",
+      "required": true
+    },
+    {
+      "item": "GDPR compliance verified",
+      "guide": "Data processing in EU, candidate consent obtained, retention policy defined",
+      "required": true
+    }
+  ],
+  "resources": [
+    {
+      "name": "Boomi Techie - n8n + Gemini CV Screening Tutorial",
+      "type": "Video Tutorial",
+      "description": "Primary tutorial for building n8n workflow with Gemini AI for automated CV screening",
+      "duration": "2.5 hours"
+    },
+    {
+      "name": "CV Parser v1 Prompt (PRM-HR-001)",
+      "type": "Prompt Template",
+      "location": "Entities/LIBRARIES/DEPARTMENTS/_SHARED/Prompts/HR_Operations/CV_Parser_v1.md",
+      "description": "Structured prompt for extracting 21 fields from resumes in TSV format"
+    },
+    {
+      "name": "n8n Documentation - Gmail Integration",
+      "type": "Official Documentation",
+      "url": "https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.gmail/",
+      "description": "Official n8n guide for Gmail node configuration"
+    },
+    {
+      "name": "Google Gemini API Documentation",
+      "type": "Official Documentation",
+      "url": "https://ai.google.dev/docs",
+      "description": "Official Google AI Studio and Gemini API documentation"
+    },
+    {
+      "name": "HR Videos Research Report",
+      "type": "Research Document",
+      "location": "Entities/LIBRARIES/DEPARTMENTS/_SHARED/Prompts/Research/Reports/HR videos research.md",
+      "description": "Comprehensive research on HR automation tools and implementation strategies"
+    }
+  ],
+  "roi_metrics": {
+    "time_savings": "From 20+ hours to 1.5 hours for processing 50 CVs (18.5 hours saved)",
+    "time_per_cv": "From 20-30 minutes manual to 90-120 seconds automated",
+    "cost_monthly": "€49/month n8n Cloud + €0 Gemini API (free tier) = €49/month",
+    "cost_per_cv": "€0.02 automated vs €5-10 manual labor",
+    "breakeven": "First recruitment cycle (immediate ROI)",
+    "ongoing_benefit": "15-18 hours saved per 50 CVs processed",
+    "accuracy_improvement": "90%+ AI accuracy vs 85% manual (due to reviewer fatigue)",
+    "annual_savings": "€4,200+ in labor costs (based on 200 CVs/year at €25/hour saved time)"
+  },
+  "related_tasks": [
+    "TASK-TEMPLATE-HR-AUTO-002 (Configure Gemini AI Analysis Parameters)",
+    "TASK-TEMPLATE-HR-AUTO-003 (Build Notion ATS Database)",
+    "TASK-TEMPLATE-HR-006 (Parse Resume Using AI - from existing HR templates)",
+    "TASK-TEMPLATE-HR-007 (Add Candidate to CRM - from existing HR templates)"
+  ],
+  "related_workflows": [
+    "WF-HR-AUTO-001 (Automated CV Screening Workflow)",
+    "WF-HR-AUTO-002 (Complete Recruitment Pipeline)"
+  ],
+  "related_projects": [
+    "Project-Template-003 (Complete HR Automation Implementation - 4 Week Plan)"
+  ],
+  "tags": [
+    "hr",
+    "automation",
+    "n8n",
+    "cv_screening",
+    "gemini_ai",
+    "recruitment",
+    "setup",
+    "week_1",
+    "high_priority"
+  ],
+  "version": "1.0",
+  "created": "2025-11-14",
+  "last_updated": "2025-11-14",
+  "source": "HR videos research.md - Boomi Techie tutorial, Week 1 Implementation Plan",
+  "compliance_notes": "EU datacenter required for GDPR compliance (Austria/Ukraine context). Candidate consent required before processing CVs. Data retention: 90 days maximum per GDPR Article 17. All processing logged in n8n execution history for audit trail.",
+  "troubleshooting": [
+    {
+      "issue": "Gmail trigger not firing",
+      "solution": "Check Gmail label/folder configuration, verify OAuth connection, test with manual trigger first"
+    },
+    {
+      "issue": "Gemini API rate limit exceeded",
+      "solution": "Add delay between requests (5-10 seconds), use batch processing for large volumes, consider paid tier"
+    },
+    {
+      "issue": "CV text extraction fails for certain formats",
+      "solution": "Add OCR fallback for scanned PDFs, use multiple extraction methods, validate output before AI analysis"
+    },
+    {
+      "issue": "Google Sheets write permission denied",
+      "solution": "Verify OAuth scopes include Sheets write access, re-authenticate Google connection, check sheet sharing settings"
+    },
+    {
+      "issue": "AI returns invalid TSV format",
+      "solution": "Refine prompt with explicit TSV formatting instructions, add validation step before Sheets write, use error handling node"
+    }
+  ],
+  "optimization_tips": [
+    "Enable n8n workflow caching to reduce API calls",
+    "Use n8n sub-workflows for reusable components",
+    "Implement parallel processing for multiple CVs",
+    "Add candidate deduplication check before processing",
+    "Create dashboard in Google Sheets for real-time monitoring",
+    "Set up Slack/email notifications for high-scoring candidates (>85 score)"
+  ],
+  "future_enhancements": [
+    "Auto-send interview invitations to top candidates (score >85)",
+    "Integration with Notion ATS for automatic candidate card creation",
+    "Multi-language CV support (currently English-optimized)",
+    "Video CV analysis integration",
+    "Skill matching against job requirements database",
+    "Automated reference checking integration"
+  ]
+}

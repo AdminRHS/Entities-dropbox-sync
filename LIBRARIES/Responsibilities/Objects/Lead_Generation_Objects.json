@@ -1,0 +1,478 @@
+{
+  "entity_type": "LIBRARIES",
+  "sub_entity": "Objects",
+  "category": "Lead_Generation",
+  "objects": [
+    {
+      "object_id": "OBJ-001",
+      "name": "Lead List",
+      "category": "Lead_Generation",
+      "description": "A collection of prospective customers or contacts with associated data",
+      "attributes": [
+        "list_name",
+        "source",
+        "lead_count",
+        "enrichment_status",
+        "enrichment_rate",
+        "creation_date",
+        "last_updated",
+        "target_criteria",
+        "list_quality_score",
+        "cost_per_lead"
+      ],
+      "common_actions": [
+        "Create",
+        "Import",
+        "Enrich",
+        "Export",
+        "Filter",
+        "Deduplicate",
+        "Merge",
+        "Qualify"
+      ],
+      "storage_location": "CRM/Lead_Lists/",
+      "related_entities": [
+        "LIBRARIES/LBS_003_LBS_003_Tools/Data_Tools",
+        "TASK_MANAGERS/LG",
+        "LIBRARIES/LBS_005_LBS_005_Professions/Lead_Generation_Specialist"
+      ],
+      "file_format": "CSV, JSON, XLSX",
+      "example": "Lead_List_AI_Agencies_California_2025_11_12.csv",
+      "tags": ["lead-generation", "b2b", "prospecting", "outbound"],
+      "typical_sources": [
+        "LinkedIn Sales Navigator + Vayne",
+        "Airscale + Anymailfinder",
+        "Apify Scrapers",
+        "Bright Data",
+        "Instantly.ai"
+      ],
+      "success_metrics": {
+        "enrichment_rate": "20-100% depending on source",
+        "cost_per_lead": "$0.0025 - $0.15"
+      }
+    },
+    {
+      "object_id": "OBJ-002",
+      "name": "Email Address",
+      "category": "Lead_Generation",
+      "description": "Enriched email contact for a decision-maker or prospect",
+      "attributes": [
+        "email",
+        "verification_status",
+        "first_name",
+        "last_name",
+        "job_title",
+        "company_name",
+        "company_domain",
+        "source",
+        "enrichment_method",
+        "confidence_score",
+        "last_verified"
+      ],
+      "common_actions": [
+        "Enrich",
+        "Verify",
+        "Validate",
+        "Export",
+        "Send",
+        "Track"
+      ],
+      "storage_location": "CRM/Contacts/",
+      "related_entities": [
+        "LIBRARIES/LBS_003_LBS_003_Tools/Anymailfinder",
+        "TASK_MANAGERS/LG",
+        "LIBRARIES/Processes/Email_Enrichment"
+      ],
+      "file_format": "CSV, JSON",
+      "example": "john.doe@techcorp.com",
+      "tags": ["email", "contact", "enrichment", "verification"],
+      "enrichment_methods": [
+        "Nominative enrichment (Anymailfinder)",
+        "Database purchase (Bright Data, Instantly.ai)",
+        "Scraping + enrichment workflows"
+      ]
+    },
+    {
+      "object_id": "OBJ-003",
+      "name": "Company Domain",
+      "category": "Lead_Generation",
+      "description": "Website domain for a target company, used as input for email enrichment",
+      "attributes": [
+        "domain",
+        "company_name",
+        "industry",
+        "company_size",
+        "location",
+        "revenue_range",
+        "source",
+        "enrichment_potential"
+      ],
+      "common_actions": [
+        "Extract",
+        "Lookup",
+        "Enrich",
+        "Validate",
+        "Export"
+      ],
+      "storage_location": "CRM/Companies/",
+      "related_entities": [
+        "LIBRARIES/LBS_003_LBS_003_Tools/Airscale",
+        "LIBRARIES/LBS_003_LBS_003_Tools/Anymailfinder",
+        "TASK_MANAGERS/LG-004"
+      ],
+      "file_format": "CSV, JSON",
+      "example": "techcorp.com",
+      "tags": ["domain", "company", "b2b", "enrichment"],
+      "typical_sources": [
+        "Airscale company search",
+        "Apify Google SERP scraper",
+        "LinkedIn Sales Navigator export",
+        "Google Maps scraper"
+      ]
+    },
+    {
+      "object_id": "OBJ-004",
+      "name": "Enrichment Pipeline",
+      "category": "Lead_Generation",
+      "description": "Multi-step automated workflow for converting raw lead data into enriched contacts",
+      "attributes": [
+        "pipeline_name",
+        "source_tool",
+        "enrichment_tool",
+        "output_format",
+        "success_rate",
+        "average_time",
+        "cost_per_record",
+        "automation_level",
+        "steps"
+      ],
+      "common_actions": [
+        "Configure",
+        "Run",
+        "Monitor",
+        "Optimize",
+        "Report"
+      ],
+      "storage_location": "TASK_MANAGERS/Workflows/Lead_Enrichment/",
+      "related_entities": [
+        "LIBRARIES/LBS_003_LBS_003_Tools/n8n",
+        "LIBRARIES/LBS_003_LBS_003_Tools/Make_com",
+        "TASK_MANAGERS/LG"
+      ],
+      "file_format": "YAML, JSON",
+      "example": "Pipeline_LinkedIn_Vayne_Anymailfinder.yaml",
+      "tags": ["automation", "workflow", "enrichment", "pipeline"],
+      "common_patterns": [
+        "Source → Scraper → Enrichment → CRM",
+        "Search → Export → Enrich → Outreach",
+        "Multi-Source → Merge → Dedupe → Enrich"
+      ]
+    },
+    {
+      "object_id": "OBJ-005",
+      "name": "Search Query",
+      "category": "Lead_Generation",
+      "description": "Structured search parameters for finding target leads",
+      "attributes": [
+        "query_text",
+        "platform",
+        "filters",
+        "target_count",
+        "location",
+        "industry",
+        "job_titles",
+        "company_size",
+        "keywords"
+      ],
+      "common_actions": [
+        "Create",
+        "Execute",
+        "Refine",
+        "Save",
+        "Share"
+      ],
+      "storage_location": "TASK_MANAGERS/Lead_Queries/",
+      "related_entities": [
+        "LIBRARIES/LBS_003_LBS_003_Tools/LinkedIn_Sales_Navigator",
+        "LIBRARIES/LBS_003_LBS_003_Tools/Airscale",
+        "LIBRARIES/LBS_003_LBS_003_Tools/Apify"
+      ],
+      "file_format": "JSON, URL",
+      "example": "Job Title: SDR, Location: California, Industry: SaaS, Size: 10-50",
+      "tags": ["search", "targeting", "icp", "filters"]
+    },
+    {
+      "object_id": "OBJ-006",
+      "name": "Business Listing",
+      "category": "Lead_Generation",
+      "description": "Local business information scraped from Google Maps or directories",
+      "attributes": [
+        "business_name",
+        "address",
+        "phone",
+        "website",
+        "category",
+        "rating",
+        "review_count",
+        "hours",
+        "location_coords"
+      ],
+      "common_actions": [
+        "Scrape",
+        "Extract",
+        "Enrich",
+        "Validate",
+        "Export"
+      ],
+      "storage_location": "CRM/Leads/Local_Business/",
+      "related_entities": [
+        "LIBRARIES/LBS_003_LBS_003_Tools/Apify_Google_Maps_Scraper",
+        "TASK_MANAGERS/DEV-007"
+      ],
+      "file_format": "CSV, JSON",
+      "example": "Joe's Coffee Shop, 123 Main St, Austin TX, joescoffee.com",
+      "tags": ["local-business", "google-maps", "scraping"],
+      "enrichment_rate": "20-32% with Anymailfinder"
+    },
+    {
+      "object_id": "OBJ-007",
+      "name": "Job Posting (Lead Gen Context)",
+      "category": "Lead_Generation",
+      "description": "LinkedIn job posting indicating hiring intent, used for intent-based lead generation",
+      "attributes": [
+        "job_title",
+        "company_name",
+        "company_domain",
+        "posting_date",
+        "job_poster_name",
+        "job_poster_title",
+        "location",
+        "job_description",
+        "hiring_signal"
+      ],
+      "common_actions": [
+        "Scrape",
+        "Extract",
+        "Analyze",
+        "Enrich",
+        "Target"
+      ],
+      "storage_location": "CRM/Leads/Intent_Based/",
+      "related_entities": [
+        "LIBRARIES/LBS_003_LBS_003_Tools/Apify_LinkedIn_Jobs_Scraper",
+        "TASK_MANAGERS/DEV-009"
+      ],
+      "file_format": "CSV, JSON",
+      "example": "TechCorp hiring SDR, Posted by Sarah Johnson (VP Sales)",
+      "tags": ["intent-based", "hiring-signal", "linkedin-jobs", "warm-leads"],
+      "enrichment_rate": "80-100% (highest intent-based method)"
+    },
+    {
+      "object_id": "OBJ-008",
+      "name": "Social Profile",
+      "category": "Lead_Generation",
+      "description": "Influencer or creator profile from Instagram/TikTok for outreach campaigns",
+      "attributes": [
+        "username",
+        "platform",
+        "follower_count",
+        "engagement_rate",
+        "niche",
+        "bio",
+        "website_link",
+        "contact_info",
+        "profile_url"
+      ],
+      "common_actions": [
+        "Scrape",
+        "Extract",
+        "Analyze",
+        "Enrich",
+        "Contact"
+      ],
+      "storage_location": "CRM/Influencers/",
+      "related_entities": [
+        "LIBRARIES/LBS_003_LBS_003_Tools/Apify_Instagram_Scraper",
+        "LIBRARIES/LBS_003_LBS_003_Tools/Apify_TikTok_Scraper",
+        "TASK_MANAGERS/DEV-008"
+      ],
+      "file_format": "CSV, JSON",
+      "example": "@techinfluencer, 50K followers, Tech niche",
+      "tags": ["influencer", "creator", "social-media", "instagram", "tiktok"],
+      "enrichment_rate": "20-40% with Anymailfinder"
+    },
+    {
+      "object_id": "OBJ-009",
+      "name": "SERP Result",
+      "category": "Lead_Generation",
+      "description": "Search engine result containing company domain and metadata",
+      "attributes": [
+        "search_query",
+        "position",
+        "title",
+        "domain",
+        "url",
+        "snippet",
+        "company_name",
+        "metadata"
+      ],
+      "common_actions": [
+        "Scrape",
+        "Extract",
+        "Parse",
+        "Enrich"
+      ],
+      "storage_location": "CRM/Leads/SERP_Sourced/",
+      "related_entities": [
+        "LIBRARIES/LBS_003_LBS_003_Tools/Apify_Google_SERP_Scraper",
+        "TASK_MANAGERS/DEV-006"
+      ],
+      "file_format": "CSV, JSON",
+      "example": "Query: 'AI agencies California', Result: TechCorp - techcorp.com",
+      "tags": ["serp", "google-search", "domain-discovery"],
+      "enrichment_rate": "40-60% with Anymailfinder"
+    },
+    {
+      "object_id": "OBJ-010",
+      "name": "Pre-Scraped Dataset",
+      "category": "Lead_Generation",
+      "description": "Large purchased dataset from data marketplaces like Bright Data",
+      "attributes": [
+        "dataset_name",
+        "source",
+        "record_count",
+        "purchase_date",
+        "cost",
+        "data_fields",
+        "freshness_date",
+        "quality_score"
+      ],
+      "common_actions": [
+        "Purchase",
+        "Download",
+        "Filter",
+        "Import",
+        "Segment"
+      ],
+      "storage_location": "CRM/Purchased_Leads/",
+      "related_entities": [
+        "LIBRARIES/LBS_003_LBS_003_Tools/Bright_Data",
+        "LIBRARIES/LBS_003_LBS_003_Tools/Instantly_ai",
+        "TASK_MANAGERS/AI-016"
+      ],
+      "file_format": "CSV, JSON",
+      "example": "LinkedIn_600M_Profiles_2025.csv",
+      "tags": ["purchased-data", "bulk-leads", "data-marketplace"],
+      "typical_size": "100K - 600M+ records",
+      "cost_per_record": "$0.0025"
+    },
+    {
+      "object_id": "OBJ-011",
+      "name": "CRM Communication Log",
+      "category": "Lead_Generation",
+      "description": "Structured log of all communications with leads/clients in CRM system",
+      "attributes": [
+        "log_id",
+        "contact_id",
+        "communication_type",
+        "date_time",
+        "channel",
+        "subject",
+        "content",
+        "sender",
+        "response_received",
+        "next_action"
+      ],
+      "common_actions": [
+        "Create",
+        "Log",
+        "Update",
+        "Search",
+        "Export",
+        "Analyze"
+      ],
+      "storage_location": "CRM/Communication_Logs/",
+      "related_entities": [
+        "LIBRARIES/LBS_003_LBS_003_Tools/CRM_System",
+        "TASK_MANAGERS/LG"
+      ],
+      "file_format": "JSON, CSV",
+      "example": "Email_sent_to_john@techcorp.com_2025-11-18.json",
+      "tags": ["crm", "communication", "logging", "lead-nurturing"]
+    },
+    {
+      "object_id": "OBJ-012",
+      "name": "Call Booking Record",
+      "category": "Lead_Generation",
+      "description": "Scheduled sales call or meeting record with lead details",
+      "attributes": [
+        "booking_id",
+        "lead_name",
+        "lead_email",
+        "call_date_time",
+        "timezone",
+        "meeting_type",
+        "calendar_link",
+        "confirmation_sent",
+        "reminder_sent",
+        "status"
+      ],
+      "common_actions": [
+        "Book",
+        "Confirm",
+        "Reschedule",
+        "Cancel",
+        "Complete",
+        "Follow_Up"
+      ],
+      "storage_location": "CRM/Bookings/ or Calendar Integration",
+      "related_entities": [
+        "LIBRARIES/LBS_003_LBS_003_Tools/Calendly",
+        "LIBRARIES/LBS_003_LBS_003_Tools/Google_Calendar_MCP_Connector",
+        "TASK_MANAGERS/SALES"
+      ],
+      "file_format": "JSON, iCal",
+      "example": "Call_with_Sarah_Johnson_2025-11-22_1400.json",
+      "tags": ["booking", "scheduling", "sales-call", "meeting"]
+    },
+    {
+      "object_id": "OBJ-013",
+      "name": "Formatted Chat Transcript",
+      "category": "Lead_Generation",
+      "description": "Cleaned and formatted transcript of sales/support chat for analysis",
+      "attributes": [
+        "transcript_id",
+        "chat_date",
+        "lead_name",
+        "lead_email",
+        "platform",
+        "message_count",
+        "duration",
+        "sentiment_score",
+        "key_topics",
+        "action_items"
+      ],
+      "common_actions": [
+        "Export",
+        "Format",
+        "Clean",
+        "Analyze",
+        "Archive",
+        "Extract_Insights"
+      ],
+      "storage_location": "CRM/Chat_Transcripts/",
+      "related_entities": [
+        "LIBRARIES/LBS_003_LBS_003_Tools/Intercom",
+        "LIBRARIES/LBS_003_LBS_003_Tools/Drift",
+        "TASK_MANAGERS/AI-018"
+      ],
+      "file_format": "TXT, JSON, Markdown",
+      "example": "Chat_TechCorp_Lead_2025-11-18.md",
+      "tags": ["chat", "transcript", "conversation", "analysis"]
+    }
+  ],
+  "version": "1.0",
+  "created": "2025-11-12",
+  "last_updated": "2025-11-18",
+  "source": "Video_006_Lead_Generation_Analysis + Employee Daily Activity Analysis (Nov 17-18, 2025)"
+}

@@ -1,0 +1,134 @@
+{
+  "entity_type": "TASK_MANAGERS",
+  "sub_entity": "Workflow",
+  "workflow_id": "WRF-022",
+  "meta_category": "TSM-006",
+  "name": "Summarize YouTube Video",
+  "legacy_id": "Summarize_YouTube_Video_Workflow",
+  "objective": "Quickly understand key points of a YouTube video without watching the entire content using AI summarization",
+  "description": "A fast workflow for extracting key insights from YouTube videos using Google AI Studio's built-in video analysis capabilities. Simply paste a URL and get structured summaries in bullet points within seconds.",
+  "department": ["AID", "VID", "MKT"],
+  "complexity": "Low",
+  "duration_estimate": "1-2 minutes",
+  "time_saved": "Eliminates need to watch entire video (can save 10-60 minutes per video)",
+  "skills_required": [
+    "Basic Prompt Engineering",
+    "Information Synthesis",
+    "Content Curation"
+  ],
+  "tools_required": [
+    {
+      "tool_id": "TOOL-AI-222",
+      "tool_name": "Google AI Studio",
+      "purpose": "YouTube video analysis and summarization"
+    }
+  ],
+  "tasks": [
+    {
+      "task_id": "TSK-005",
+      "task_name": "Access Google AI Studio Chat tab",
+      "description": "Open Google AI Studio and navigate to the Chat interface",
+      "order": 1,
+      "estimated_time": "10 seconds"
+    },
+    {
+      "task_id": "TSK-006",
+      "task_name": "Paste YouTube video URL",
+      "description": "Insert the target YouTube video URL into the prompt field",
+      "order": 2,
+      "estimated_time": "10 seconds"
+    },
+    {
+      "task_id": "TSK-007",
+      "task_name": "Request structured summary",
+      "description": "Prompt: 'Summarize this video in 5 bullet points' or specify custom format",
+      "order": 3,
+      "estimated_time": "5 seconds"
+    },
+    {
+      "task_id": "TSK-008",
+      "task_name": "Review generated summary",
+      "description": "Read AI-generated summary and extract key insights for use",
+      "order": 4,
+      "estimated_time": "30-60 seconds"
+    }
+  ],
+  "actions": ["Access", "Paste", "Prompt", "Review", "Extract"],
+  "objects_created": [
+    {
+      "object_type": "Video Summary",
+      "description": "Structured bullet-point summary of YouTube video content"
+    }
+  ],
+  "entry_criteria": [
+    "YouTube video URL available",
+    "Access to Google AI Studio",
+    "Clear understanding of what information is needed from the video"
+  ],
+  "exit_criteria": [
+    "Summary generated with key points",
+    "Insights extracted and understood",
+    "No need to watch full video for required information"
+  ],
+  "use_cases": [
+    "Research video content for projects",
+    "Quick learning from tutorial videos",
+    "Content curation for social media",
+    "Competitive analysis of video content",
+    "Educational video summarization",
+    "Meeting/webinar recap",
+    "Product demo analysis"
+  ],
+  "typical_inputs": [
+    "YouTube video URL",
+    "Desired summary format (bullet points, paragraph, etc.)",
+    "Number of key points to extract",
+    "Specific focus areas (technical details, business insights, etc.)"
+  ],
+  "typical_outputs": [
+    "5 bullet point summary (default format)",
+    "Key insights and takeaways",
+    "Main topics covered",
+    "Actionable recommendations (if applicable)",
+    "Technical concepts explained"
+  ],
+  "best_practices": [
+    "Specify exact number of bullet points for consistent output",
+    "Request focus on specific topics if video is long or covers multiple subjects",
+    "Use for videos 5+ minutes long where watching full content isn't necessary",
+    "Review summary for accuracy if critical decisions depend on it",
+    "Combine with timestamp requests for deeper dive into specific sections"
+  ],
+  "common_pitfalls": [
+    "Using with very short videos where watching is faster",
+    "Not specifying summary format, resulting in overly detailed output",
+    "Assuming 100% accuracy without verification for critical information",
+    "Not providing context about what specific information is needed"
+  ],
+  "integration_with_other_workflows": [
+    "WRF-021: Can extract video insights to inform social media caption creation",
+    "Content research workflows for blog posts or articles",
+    "Competitive analysis workflows"
+  ],
+  "tags": [
+    "youtube",
+    "video-analysis",
+    "summarization",
+    "content-curation",
+    "ai-extraction",
+    "google-ai-studio",
+    "research",
+    "time-saving"
+  ],
+  "discovery_source": "Video_023",
+  "video_source": {
+    "video_id": "Video_023",
+    "video_title": "Google AI Studio Full Walkthrough and Tutorial",
+    "creator": "AI for Grownups",
+    "timestamp": "07:25-08:24"
+  },
+  "status": "active",
+  "version": "1.0",
+  "created_date": "2025-11-24",
+  "last_updated": "2025-11-24"
+}

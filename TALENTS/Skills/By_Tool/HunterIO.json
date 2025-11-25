@@ -1,0 +1,25 @@
+{
+  "tool_id": "TOOL-AUTO-002",
+  "tool_name": "Hunter.io",
+  "tool_category": "Automation",
+  "description": "Email finding and verification platform for contact data scraping and lead enrichment",
+  "skills_count": 1,
+  "last_updated": "2025-11-22",
+  "skills": [
+    {
+      "skill_id": "SKL-014",
+      "skill_phrase": "scraped contact data using automation tools",
+      "components": {
+        "action": "scrape",
+        "object": "contact data",
+        "tool": "Hunter.io"
+      },
+      "department": "Lead Generation",
+      "professions": ["lead generator"],
+      "difficulty_level": "intermediate",
+      "frequency": "weekly",
+      "time_estimate_minutes": 60,
+      "automation_potential": "high"
+    }
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "normalize_company_name": {
+    "description": "Clean and normalize company name",
+    "input": "string",
+    "output": "string",
+    "logic": [
+      "Trim whitespace",
+      "Remove special characters (except spaces, hyphens, apostrophes)",
+      "Title case each word",
+      "Handle common abbreviations (LLC, Inc, Ltd)"
+    ],
+    "example": "\"ACME Corp. \" → \"Acme Corp\""
+  },
+  "generate_company_id": {
+    "description": "Generate unique company ID",
+    "input": "none",
+    "output": "string",
+    "logic": [
+      "Format: BUS-YYYY-###",
+      "YYYY = current year (2025)",
+      "### = sequential 3-digit number",
+      "Check uniqueness in registry"
+    ],
+    "example": "→ \"BUS-2025-001\""
+  },
+  "generate_poc_id": {
+    "description": "Generate unique POC ID",
+    "input": "none",
+    "output": "string",
+    "logic": [
+      "Format: POC-###",
+      "### = sequential 3-digit number",
+      "Check uniqueness in registry"
+    ],
+    "example": "→ \"POC-001\""
+  },
+  "normalize_email": {
+    "description": "Validate and normalize email address",
+    "input": "string",
+    "output": "string",
+    "logic": [
+      "Convert to lowercase",
+      "Trim whitespace",
+      "Validate format (basic regex)",
+      "Return null if invalid"
+    ],
+    "example": "\"John.Doe@Example.COM \" → \"john.doe@example.com\""
+  },
+  "clean_url": {
+    "description": "Clean and validate URL",
+    "input": "string",
+    "output": "string",
+    "logic": [
+      "Trim whitespace",
+      "Add https:// if no protocol",
+      "Remove trailing slashes",
+      "Validate basic URL format"
+    ],
+    "example": "\"linkedin.com/company/acme\" → \"https://linkedin.com/company/acme\""
+  },
+  "classify_entity_type": {
+    "description": "Classify as Client/Prospect/Ex_Client",
+    "input": "record object",
+    "output": "string",
+    "logic": [
+      "Check for job_requests → Client",
+      "Check lead_status.type == 'Client' → Client",
+      "Check notes for 'hired' → Client",
+      "Check notes for 'stopped' → Ex_Client",
+      "Default → Prospect"
+    ],
+    "example": "record with job_requests → \"Client\""
+  },
+  "derive_tags": {
+    "description": "Extract tags from record data",
+    "input": "record object",
+    "output": "array of strings",
+    "logic": [
+      "Scan notes for keywords: 'urgent', 'hired', 'lead gen', 'dev', 'ai'",
+      "Add industry as tag",
+      "Add entity_type as tag",
+      "Add lead_status.type as tag"
+    ],
+    "example": "notes: 'urgent dev needs' → ['urgent', 'development', 'active_prospect']"
+  },
+  "calculate_quality_score": {
+    "description": "Calculate data completeness score",
+    "input": "record object",
+    "output": "integer (0-100)",
+    "logic": [
+      "Count total fields in schema",
+      "Count non-null fields in record",
+      "Score = (filled / total) * 100"
+    ],
+    "example": "15/20 fields filled → 75"
+  },
+  "extract_locations": {
+    "description": "Extract company locations from city data",
+    "input": "lead_company_city object",
+    "output": "array of location objects",
+    "logic": [
+      "Map city_id, city_name from lead_company_city",
+      "Map country_id, country_name from city.country",
+      "Set is_primary = true for main location"
+    ],
+    "example": "city object → [{city_id: 123, city_name: 'NYC', country_id: 1, is_primary: true}]"
+  },
+  "extract_industries": {
+    "description": "Extract industries and sub-industries",
+    "input": "lead_company_industry, sub_industries array",
+    "output": "array of industry objects",
+    "logic": [
+      "Map industry_id, industry_name from lead_company_industry",
+      "Iterate sub_industries array",
+      "Map sub_industry_id, sub_industry_name for each",
+      "Return combined array"
+    ],
+    "example": "industry + 2 sub_industries → [{industry_id: 20, industry_name: 'Finance', sub_industry_id: 114, sub_industry_name: 'Financial Services'}]"
+  },
+  "parse_iso_date": {
+    "description": "Parse date to ISO 8601 format",
+    "input": "string (various formats)",
+    "output": "string (ISO 8601)",
+    "logic": [
+      "Try parsing common formats: YYYY-MM-DD, MM/DD/YYYY, DD.MM.YYYY",
+      "Add T00:00:00Z for dates without time",
+      "Return null if unparseable"
+    ],
+    "example": "\"2025-11-22\" → \"2025-11-22T00:00:00Z\""
+  }
+}

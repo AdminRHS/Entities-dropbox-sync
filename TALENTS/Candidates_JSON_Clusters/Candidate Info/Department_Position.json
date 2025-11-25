@@ -1,0 +1,70 @@
+{
+  "template_name": "Department_Position",
+  "description": "Department and position information including nested department details",
+  "fields": {
+    "department_id": {
+      "type": "str",
+      "description": "Field: department_id",
+      "example": "14"
+    },
+    "department": {
+      "type": "object",
+      "fields": {
+        "department.id": {
+          "type": "int",
+          "description": "Field: id",
+          "example": 14
+        },
+        "department.team_name": {
+          "type": "str",
+          "description": "Field: team_name",
+          "example": "Marketers"
+        }
+      },
+      "description": "Nested object: department"
+    },
+    "position_id": {
+      "type": "str",
+      "description": "Field: position_id",
+      "example": "161"
+    },
+    "position": {
+      "type": "object",
+      "fields": {
+        "position.id": {
+          "type": "int",
+          "description": "Field: id",
+          "example": 161
+        },
+        "position.name": {
+          "type": "str",
+          "description": "Field: name",
+          "example": "Media buyer"
+        },
+        "position.department_id": {
+          "type": "str",
+          "description": "Field: department_id",
+          "example": "14"
+        },
+        "position.department": {
+          "type": "object",
+          "fields": {
+            "position.department.id": {
+              "type": "int",
+              "description": "Field: id",
+              "example": 14
+            },
+            "position.department.team_name": {
+              "type": "str",
+              "description": "Field: team_name",
+              "example": "Marketers"
+            }
+          },
+          "description": "Nested object: department"
+        }
+      },
+      "description": "Nested object: position"
+    }
+  }
+}
+

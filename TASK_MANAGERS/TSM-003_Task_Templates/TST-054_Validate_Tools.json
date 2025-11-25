@@ -1,0 +1,98 @@
+{
+  "entity_type": "TASK_MANAGERS",
+  "sub_entity": "Task_Template",
+  "template_id": "Task-Template-054",
+  "version": "1.0",
+  "created_date": "2025-11-17",
+  "last_updated": "2025-11-17",
+  "metadata": {
+    "name": "Validate Tools Against Existing Libraries",
+    "description": "Check extracted tools against existing LIBRARIES/Tools/ to identify new vs existing tools",
+    "action": "Validate",
+    "object": "Tools",
+    "context": "against existing LIBRARIES to identify new vs existing",
+    "department": "All departments (cross-functional)",
+    "complexity": "Low",
+    "estimated_duration": "3-5 minutes",
+    "skill_level_required": "Beginner",
+    "tools_required": [
+      "Tools list from extraction",
+      "Access to ENTITIES/LIBRARIES/Tools/",
+      "Existing tool_mapping.json"
+    ],
+    "prerequisites": [
+      "TASK-TEMPLATE-VIDEO-004 completed",
+      "Tools list extracted and validated",
+      "Access to LIBRARIES file system"
+    ]
+  },
+  "workflow": {
+    "phase": 3,
+    "milestone": "MIL-PROJ-VIDEO-001-003",
+    "project_template": "Project-Template-008",
+    "dependencies": [
+      "TASK-TEMPLATE-VIDEO-004"
+    ],
+    "outputs": [
+      "New vs existing tools identified",
+      "Tools requiring enrichment flagged",
+      "Duplicate tools merged",
+      "Tool validation report generated"
+    ]
+  },
+  "steps": [
+    {
+      "step_number": 1,
+      "step_name": "Check tools against libraries",
+      "description": "For each tool in extraction, search LIBRARIES/Tools/ to see if JSON file exists",
+      "estimated_time": "1-2 minutes",
+      "tools": [
+        "File system"
+      ],
+      "output": "List of tools: new vs existing"
+    },
+    {
+      "step_number": 2,
+      "step_name": "Check tool_mapping.json",
+      "description": "Verify tools against tool_mapping.json for additional matches",
+      "estimated_time": "1 minute",
+      "tools": [],
+      "output": "Additional existing tools identified"
+    },
+    {
+      "step_number": 3,
+      "step_name": "Create validation report",
+      "description": "Document: new tools to create, existing tools to enrich, duplicates to merge",
+      "estimated_time": "1-2 minutes",
+      "tools": [
+        "Text editor"
+      ],
+      "output": "Tool validation report ready for TASK-TEMPLATE-VIDEO-301"
+    }
+  ],
+  "quality_checklist": [
+    "All tools checked against LIBRARIES/Tools/",
+    "All tools checked against tool_mapping.json",
+    "New tools clearly identified",
+    "Existing tools flagged for enrichment",
+    "Duplicate tools identified and merged",
+    "Validation report complete and accurate",
+    "Tool categories preliminary assigned",
+    "Tool names normalized (spelling, casing)"
+  ],
+  "related_entities": {
+    "methodology": "ENTITIES/PROMPTS/Video_Processing/Complete_Video_Workflow_Full_Instructions.md",
+    "short_guide": "ENTITIES/PROMPTS/Video_Processing/Short Complete Video Workflow.md",
+    "libraries_location": "ENTITIES/LIBRARIES/Tools/",
+    "tool_mapping": "ENTITIES/LIBRARIES/tool_mapping.json",
+    "project_template": "Project-Template-008",
+    "milestone": "MIL-PROJ-VIDEO-001-003",
+    "previous_task": "TASK-TEMPLATE-VIDEO-004",
+    "next_task": "TASK-TEMPLATE-VIDEO-301",
+    "step_templates": [
+      "STEP-VIDEO-005-01",
+      "STEP-VIDEO-005-02",
+      "STEP-VIDEO-005-03"
+    ]
+  }
+}

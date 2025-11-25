@@ -1,0 +1,23 @@
+{
+  "task_template_id": "Task-Template-037",
+  "task_template_name": "Recommendations Compilation",
+  "category": "Documentation",
+  "department": "AI",
+  "description": "Compile all findings into actionable recommendations",
+  "estimated_hours": 0.5,
+  "step_templates": [
+    {
+      "step_template_id": "STEP-ANALYSIS-015-01",
+      "step_template_name": "Prioritize findings"
+    },
+    {
+      "step_template_id": "STEP-ANALYSIS-015-02",
+      "step_template_name": "Create action items tracker"
+    },
+    {
+      "step_template_id": "STEP-ANALYSIS-015-03",
+      "step_template_name": "Write executive summary"
+    }
+  ],
+  "version": "1.0"
+}

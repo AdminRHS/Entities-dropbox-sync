@@ -1,0 +1,23 @@
+{
+  "task_template_id": "Task-Template-028",
+  "task_template_name": "Version Control Consistency",
+  "category": "Validation",
+  "department": "AI",
+  "description": "Check version field consistency across all files with versioning",
+  "estimated_hours": 0.5,
+  "step_templates": [
+    {
+      "step_template_id": "STEP-ANALYSIS-006-01",
+      "step_template_name": "Extract version fields"
+    },
+    {
+      "step_template_id": "STEP-ANALYSIS-006-02",
+      "step_template_name": "Validate version formats"
+    },
+    {
+      "step_template_id": "STEP-ANALYSIS-006-03",
+      "step_template_name": "Check update timestamps"
+    }
+  ],
+  "version": "1.0"
+}

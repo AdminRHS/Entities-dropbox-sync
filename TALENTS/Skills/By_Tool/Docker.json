@@ -1,0 +1,25 @@
+{
+  "tool_id": "TOOL-DEVOPS-001",
+  "tool_name": "Docker",
+  "tool_category": "DevOps",
+  "description": "Containerization platform for packaging and deploying applications",
+  "skills_count": 1,
+  "last_updated": "2025-11-22",
+  "skills": [
+    {
+      "skill_id": "SKL-034",
+      "skill_phrase": "deployed applications to production servers",
+      "components": {
+        "action": "deploy",
+        "object": "applications",
+        "tool": "Docker"
+      },
+      "department": "Developers",
+      "professions": ["backend developer", "full stack developer"],
+      "difficulty_level": "advanced",
+      "frequency": "weekly",
+      "time_estimate_minutes": 60,
+      "automation_potential": "high"
+    }
+  ]
+}

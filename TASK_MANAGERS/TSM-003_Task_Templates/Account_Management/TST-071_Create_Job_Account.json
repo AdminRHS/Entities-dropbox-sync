@@ -1,0 +1,276 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "template_id": "TEMPLATE-TASK-ACC-007",
+  "template_name": "Create Job Account",
+  "template_version": "1.0",
+  "entity_type": "TASK_MANAGERS",
+  "sub_entity": "Task_Template",
+  "category": "Account Management",
+  "responsibility_id": "RESP-OPS-ACC-007",
+  "action": "create",
+  "object": "job account",
+  "departments": ["HR"],
+  "description": "Workflow for creating a job posting platform account (Indeed, LinkedIn Jobs, etc.)",
+  "estimated_duration_minutes": 20,
+  "complexity": "medium",
+  "priority": "high",
+  "steps": [
+    {
+      "step_number": 1,
+      "step_name": "Gather Job Account Information",
+      "step_description": "Collect all required information for job account creation",
+      "action": "gather",
+      "object": "job account information",
+      "estimated_time_minutes": 5,
+      "required_inputs": [
+        "Job account name (e.g., 'Indeed - HR Department')",
+        "Job site selection (parent account from ACCOUNTS/Accounts)",
+        "Company name for profile",
+        "Company description",
+        "Industry classification",
+        "Company location",
+        "Account credentials (login/password)",
+        "Account owner (HR employee)"
+      ],
+      "validation_rules": [
+        "Job site account must exist in ACCOUNTS",
+        "Owner must exist in TALENTS/Employees",
+        "Owner must be in HR department",
+        "Password must meet security requirements"
+      ],
+      "is_automated": false,
+      "assigned_to": "hr_manager"
+    },
+    {
+      "step_number": 2,
+      "step_name": "Validate Parent Job Site Account",
+      "step_description": "Verify job site account exists and is active",
+      "action": "validate",
+      "object": "job site account",
+      "estimated_time_minutes": 1,
+      "api_call": {
+        "method": "GET",
+        "endpoint": "/api/accounts/:job_site_id",
+        "validation_checks": [
+          "account_exists",
+          "account_status_active",
+          "account_type_is_job_site"
+        ]
+      },
+      "is_automated": true,
+      "automated_service": "account-api",
+      "on_failure": "notify_user_invalid_job_site"
+    },
+    {
+      "step_number": 3,
+      "step_name": "Validate Against Job Account Schema",
+      "step_description": "Validate job account data against job_accounts_schema.json",
+      "action": "validate",
+      "object": "job account data",
+      "estimated_time_minutes": 1,
+      "validation_endpoint": "/api/validate/job-account",
+      "schema_path": "ENTITIES/ACCOUNTS/job_accounts_schema.json",
+      "is_automated": true,
+      "automated_service": "validation-service",
+      "on_failure": "return_errors_to_hr_manager"
+    },
+    {
+      "step_number": 4,
+      "step_name": "Encrypt Credentials",
+      "step_description": "Encrypt password before storage",
+      "action": "encrypt",
+      "object": "credentials",
+      "estimated_time_minutes": 1,
+      "encryption_method": "AES-256",
+      "fields_to_encrypt": ["password"],
+      "is_automated": true,
+      "automated_service": "encryption-service"
+    },
+    {
+      "step_number": 5,
+      "step_name": "Create Job Account in PostgreSQL",
+      "step_description": "Insert job account record into database",
+      "action": "create",
+      "object": "job account record",
+      "estimated_time_minutes": 2,
+      "api_call": {
+        "method": "POST",
+        "endpoint": "/api/job-accounts",
+        "request_body": "validated_job_account_data"
+      },
+      "is_automated": true,
+      "automated_service": "account-api",
+      "on_success": "generate_job_account_id",
+      "on_failure": "rollback_and_notify"
+    },
+    {
+      "step_number": 6,
+      "step_name": "Set Job Post Limits",
+      "step_description": "Initialize available and active job post counts",
+      "action": "set",
+      "object": "job post limits",
+      "estimated_time_minutes": 1,
+      "default_values": {
+        "available_job_posts": "based_on_job_site_plan",
+        "active_job_posts": 0
+      },
+      "is_automated": true,
+      "automated_service": "account-api"
+    },
+    {
+      "step_number": 7,
+      "step_name": "Populate Company Metadata",
+      "step_description": "Add company information to metadata field",
+      "action": "populate",
+      "object": "company metadata",
+      "estimated_time_minutes": 2,
+      "metadata_fields": {
+        "company_name": "from_input",
+        "company_description": "from_input",
+        "industry": "from_input",
+        "company_size": "from_input_or_default",
+        "location": "from_input",
+        "website": "from_company_records"
+      },
+      "is_automated": true,
+      "automated_service": "account-api"
+    },
+    {
+      "step_number": 8,
+      "step_name": "Sync to ENTITIES JSON",
+      "step_description": "Create JSON file in ENTITIES/ACCOUNTS/JobSites/",
+      "action": "sync",
+      "object": "job account to entities",
+      "estimated_time_minutes": 2,
+      "target_path": "ENTITIES/ACCOUNTS/JobSites/JOB-ACC-{id}.json",
+      "enrichment_required": true,
+      "enrichment_data": [
+        "job_site_details from ACCOUNTS",
+        "owner_details from TALENTS/Employees",
+        "status_details from LIBRARIES/Statuses"
+      ],
+      "is_automated": true,
+      "automated_service": "sync-service"
+    },
+    {
+      "step_number": 9,
+      "step_name": "Check Verification Requirements",
+      "step_description": "Determine if job account requires verification",
+      "action": "check",
+      "object": "verification requirements",
+      "estimated_time_minutes": 1,
+      "verification_logic": {
+        "if_job_site_requires_verification": "set_verification_required_true",
+        "else": "set_verification_not_required"
+      },
+      "is_automated": true,
+      "automated_service": "account-api",
+      "next_step_if_required": "trigger_verification_workflow"
+    },
+    {
+      "step_number": 10,
+      "step_name": "Create Audit Log Entry",
+      "step_description": "Log job account creation",
+      "action": "create",
+      "object": "audit log",
+      "estimated_time_minutes": 1,
+      "log_data": {
+        "event_type": "job_account_created",
+        "job_account_id": "generated_id",
+        "job_site_id": "parent_job_site_id",
+        "created_by": "hr_manager_employee_id",
+        "timestamp": "current_timestamp"
+      },
+      "log_destination": "ANALYTICS/Audit_Logs/Job_Account_Management/",
+      "is_automated": true,
+      "automated_service": "audit-service"
+    },
+    {
+      "step_number": 11,
+      "step_name": "Notify HR Manager",
+      "step_description": "Send confirmation to HR manager",
+      "action": "send",
+      "object": "notification",
+      "estimated_time_minutes": 1,
+      "notification_recipients": ["job_account_owner", "hr_manager"],
+      "notification_template": "job_account_created_notification",
+      "notification_data": {
+        "job_account_id": "generated_id",
+        "job_account_name": "created_name",
+        "available_job_posts": "initial_limit",
+        "next_steps": "verification_required ? 'verify_account' : 'ready_to_post_jobs'"
+      },
+      "notification_channels": ["email", "slack"],
+      "is_automated": true,
+      "automated_service": "notification-service"
+    },
+    {
+      "step_number": 12,
+      "step_name": "Link to Business Entity (Optional)",
+      "step_description": "Link job account to BUSINESSES/Clients if client-specific",
+      "action": "link",
+      "object": "business entity",
+      "estimated_time_minutes": 2,
+      "is_optional": true,
+      "condition": "if_client_specific_job_account",
+      "api_call": {
+        "method": "POST",
+        "endpoint": "/api/job-accounts/:id/link-business",
+        "request_body": {
+          "business_entity_id": "client_id_from_BUSINESSES"
+        }
+      },
+      "is_automated": false,
+      "assigned_to": "hr_manager"
+    }
+  ],
+  "prerequisites": [
+    "Job site account exists in ACCOUNTS",
+    "Owner exists in TALENTS/Employees (HR department)",
+    "User has 'job_account:create' permission",
+    "Company information available"
+  ],
+  "required_permissions": ["job_account:create", "account:write"],
+  "deliverables": [
+    "New job account record in PostgreSQL",
+    "Job account JSON file in ENTITIES/JobSites",
+    "Audit log entry",
+    "Notification sent to HR manager"
+  ],
+  "success_criteria": [
+    "Job account ID generated (JOB-ACC-XXX format)",
+    "Job post limits initialized",
+    "Company metadata populated",
+    "HR manager notified successfully"
+  ],
+  "post_creation_actions": [
+    {
+      "action": "If verification required",
+      "trigger": "TEMPLATE-TASK-ACC-004 (Verify Account)"
+    },
+    {
+      "action": "If ready to use",
+      "trigger": "TEMPLATE-TASK-ACC-017 (Post Job)"
+    }
+  ],
+  "rollback_procedure": {
+    "enabled": true,
+    "steps": [
+      "Delete PostgreSQL job_accounts record",
+      "Remove JSON file from ENTITIES/JobSites",
+      "Log rollback event",
+      "Notify HR manager of failure"
+    ]
+  },
+  "related_templates": [
+    "TEMPLATE-TASK-ACC-004 (Verify Account)",
+    "TEMPLATE-TASK-ACC-017 (Post Job)",
+    "TEMPLATE-TASK-ACC-002 (Update Account)"
+  ],
+  "tags": ["job-account", "hr", "recruitment", "onboarding"],
+  "version": "1.0",
+  "created_date": "2025-11-18",
+  "last_updated": "2025-11-18",
+  "created_by": "System",
+  "is_active": true
+}

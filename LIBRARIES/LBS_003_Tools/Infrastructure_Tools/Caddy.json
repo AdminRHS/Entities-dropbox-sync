@@ -1,0 +1,79 @@
+{
+  "entity_type": "LIBRARIES",
+  "sub_entity": "Tool",
+  "tool_id": "TOOL-INFRA-001",
+  "name": "Caddy",
+  "vendor": "Caddy Community",
+  "category": "Infrastructure/Web Server",
+  "purpose": "Web server with automatic HTTPS and TLS certificate management",
+  "description": "Modern web server and reverse proxy with automatic HTTPS certificate provisioning and renewal. Simplest option for serving self-hosted applications with SSL/TLS encryption. Perfect for domains on self-hosted infrastructure.",
+  "skill_level_required": "Intermediate",
+  "cost_structure": "Free (Open Source)",
+  "platform_compatibility": [
+    "Linux",
+    "Windows",
+    "Mac",
+    "Docker"
+  ],
+  "integration_capabilities": [
+    "Automatic HTTPS",
+    "Let's Encrypt integration",
+    "Reverse proxy",
+    "Load balancing",
+    "Static file serving",
+    "API gateway",
+    "Docker integration"
+  ],
+  "documentation_url": "https://caddyserver.com/",
+  "actual_remote_helpers_usage": {
+    "primary_use": "HTTPS/TLS for Self-Hosted Apps",
+    "users": [],
+    "use_cases": [
+      "serve applications",
+      "automatic https",
+      "reverse proxy",
+      "domain management",
+      "self-hosting"
+    ],
+    "workflows": []
+  },
+  "strengths": [
+    "Automatic HTTPS (simplest)",
+    "Auto certificate renewal",
+    "Simple configuration",
+    "Modern and fast",
+    "Open-source"
+  ],
+  "limitations": [
+    "Smaller community than Nginx",
+    "Less plugins than alternatives"
+  ],
+  "alternatives": [
+    {
+      "name": "Traefik",
+      "comparison": "More complex but feature-rich"
+    },
+    {
+      "name": "Nginx",
+      "comparison": "Industry standard but more manual setup"
+    }
+  ],
+  "departments_using": [],
+  "tags": [
+    "web-server",
+    "https",
+    "tls",
+    "reverse-proxy",
+    "caddy",
+    "self-hosting"
+  ],
+  "discovery_date": "2025-11-13",
+  "discovery_source": "Video_005",
+  "status": "active",
+  "video_source": {
+    "video_id": "Video_005",
+    "video_title": "My Agentic Engineering Tech Stack",
+    "creator": "Cole",
+    "timestamp": "33:05-33:27"
+  }
+}

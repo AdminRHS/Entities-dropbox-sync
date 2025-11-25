@@ -1,0 +1,161 @@
+{
+  "entity_type": "LIBRARIES",
+  "sub_entity": "Tool",
+  "tool_id": "TOOL-VID-002",
+  "tool_name": "Vimeo",
+  "category": "Video Hosting Platform",
+  "description": "Premium video hosting platform for high-quality video content, portfolios, and professional video showcase with ad-free viewing",
+  "primary_use": "Professional video hosting, portfolio showcases, high-quality video delivery",
+  "platform_type": "Video hosting and streaming platform",
+  "pricing": "Freemium (Free tier with limits, paid plans for professionals)",
+  "created": "2025-11-13",
+  "updated": "2025-11-13",
+  "used_by_professions": [
+    "Videographer",
+    "Filmmaker",
+    "Designer",
+    "Creative_Director",
+    "Content_Creator"
+  ],
+  "used_in_workflows": [],
+  "creates_objects": [],
+  "actions": [
+    "upload",
+    "host",
+    "embed",
+    "share",
+    "organize",
+    "customize",
+    "stream",
+    "download"
+  ],
+  "key_features": {
+    "ad_free": "No ads on video playback",
+    "quality": "Up to 8K video support",
+    "privacy": "Granular privacy controls",
+    "customization": "Branded player customization",
+    "portfolios": "Showcase pages for video work",
+    "live_streaming": "Professional live events",
+    "collaboration": "Review and feedback tools",
+    "analytics": "Detailed viewer insights",
+    "video_school": "Educational resources for creators",
+    "stock_footage": "Built-in stock library"
+  },
+  "content_types": {
+    "professional_portfolios": "Showcase reels and best work",
+    "client_work": "Password-protected client reviews",
+    "educational_content": "Courses and tutorials",
+    "creative_projects": "Films, documentaries, shorts",
+    "business_videos": "Corporate and marketing content"
+  },
+  "technical_specs": {
+    "max_resolution": "8K video support (paid plans)",
+    "file_size": "Varies by plan (500MB free, unlimited on paid)",
+    "formats": "MP4, MOV, AVI, WMV, FLV, and more",
+    "aspect_ratios": "16:9, 4:3, 1:1, 9:16 all supported",
+    "compression": "High-quality adaptive streaming",
+    "storage": "Varies by plan (5GB free weekly, up to 7TB)",
+    "bandwidth": "Unlimited on paid plans"
+  },
+  "plan_tiers": {
+    "free": "Basic hosting with Vimeo branding, limited storage",
+    "plus": "Basic tools for casual creators",
+    "pro": "Advanced features for professionals",
+    "business": "Team collaboration and marketing tools",
+    "premium": "Unlimited live streaming and priority support",
+    "enterprise": "Custom solutions for large organizations"
+  },
+  "best_practices": [
+    "Use for portfolio quality work, not casual content",
+    "Leverage ad-free viewing for professional presentation",
+    "Password-protect client work for privacy",
+    "Customize player to match brand identity",
+    "Use privacy controls strategically",
+    "Organize with showcases and collections",
+    "Add detailed video descriptions and tags",
+    "Use chapter markers for long videos",
+    "Enable download for approved users if needed",
+    "Leverage analytics to understand viewer behavior",
+    "Embed on website/portfolio for professional presentation"
+  ],
+  "privacy_options": {
+    "public": "Anyone can find and watch",
+    "private": "Only you can see",
+    "password": "Requires password to view",
+    "hide_from_vimeo": "Unlisted but embeddable",
+    "specific_domains": "Only embed on certain websites",
+    "specific_people": "Share with select Vimeo users"
+  },
+  "performance_metrics": {
+    "total_plays": "Video view count",
+    "unique_viewers": "Individual viewers",
+    "engagement": "Watch time and completion rate",
+    "geographic_data": "Viewer locations",
+    "device_types": "Desktop vs mobile viewing",
+    "referral_sources": "Where viewers came from"
+  },
+  "integration_opportunities": [
+    "Embed on portfolio websites",
+    "Link from Behance projects",
+    "Share on LinkedIn for professional visibility",
+    "Cross-promote on Instagram/Twitter",
+    "Use for client review and approval workflows",
+    "Integrate with marketing automation"
+  ],
+  "common_use_cases": [
+    "Professional video portfolios and demo reels",
+    "Client work review and approval",
+    "Wedding and event videography",
+    "Independent films and documentaries",
+    "Educational courses and tutorials",
+    "Corporate training videos",
+    "Brand videos and commercials",
+    "Creative projects and art films",
+    "Live event streaming (conferences, webinars)",
+    "Password-protected private content"
+  ],
+  "pros": [
+    "Ad-free viewing for professional presentation",
+    "Superior video quality and compression",
+    "Granular privacy controls",
+    "Customizable player branding",
+    "Clean, professional aesthetic",
+    "Strong creator community",
+    "Excellent for portfolios",
+    "Advanced collaboration and review tools",
+    "No algorithmic discovery (pro/con)"
+  ],
+  "cons": [
+    "Limited free tier (storage/bandwidth)",
+    "No built-in audience discovery like YouTube",
+    "Smaller viewer base than YouTube",
+    "Paid plans required for serious use",
+    "Less SEO value than YouTube",
+    "No monetization like YouTube Partner Program",
+    "More expensive than alternatives"
+  ],
+  "alternative_tools": [
+    "TOOL-VID-001 (YouTube) - Larger audience, SEO, free unlimited",
+    "Wistia - Marketing-focused video hosting",
+    "Vidyard - Business and sales video platform",
+    "SproutVideo - Privacy-focused hosting",
+    "Dailymotion - YouTube alternative with ads"
+  ],
+  "vimeo_vs_youtube": {
+    "vimeo_better_for": [
+      "Professional portfolios",
+      "Client work and privacy",
+      "Ad-free presentation",
+      "Brand control and customization",
+      "High-quality video showcase"
+    ],
+    "youtube_better_for": [
+      "Audience growth and discovery",
+      "SEO and search traffic",
+      "Monetization opportunities",
+      "Free unlimited hosting",
+      "Broad reach and virality"
+    ]
+  },
+  "source": "SMM_Research_Document_2_Content_Strategy_Multi_Platform"
+}

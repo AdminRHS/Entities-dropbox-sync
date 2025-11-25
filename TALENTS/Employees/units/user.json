@@ -1,0 +1,132 @@
+{
+  "id": "<number>",
+  "company_id": "<string>",
+  "name": "<string>",
+  "email": "<string>",
+  "image": "<string>",
+  "mobile": "<string>",
+  "gender": "<string>",
+  "locale": "<string>",
+  "status": "<string>",
+  "login": "<string>",
+  "created_at": "<datetime>",
+  "updated_at": "<datetime>",
+  "super_admin": "<string>",
+  "email_notifications": "<string>",
+  "two_factor_confirmed": "<string>",
+  "two_factor_email_confirmed": "<string>",
+  "dark_theme": "<string>",
+  "rtl": "<string>",
+  "admin_approval": "<string>",
+  "permission_sync": "<string>",
+  "google_calendar_status": "<string>",
+  "image_url": "<string>",
+  "_nullable_user_fields": {
+    "onesignal_player_id": null,
+    "email_verification_code": null,
+    "social_token": null,
+    "two_factor_recovery_codes": null,
+    "salutation": null,
+    "two_fa_verify_via": null,
+    "two_factor_code": null,
+    "two_factor_expires_at": null,
+    "country_id": null,
+    "authorize_id": null,
+    "authorize_payment_id": null,
+    "card_brand": null,
+    "card_last_four": null,
+    "last_login": null
+  },
+  "_empty_arrays": {
+    "modules": [],
+    "employee_portfolios": [],
+    "educations": [],
+    "contacts": []
+  },
+  "employee_languages": [
+    {
+      "id": "<number>",
+      "level_id": "<string>",
+      "lang_id": "<string>",
+      "user_id": "<string>",
+      "hr_details_id": "<string>",
+      "presale_id": null,
+      "level": "<string>",
+      "created_at": "<datetime>",
+      "updated_at": "<datetime>"
+    }
+  ],
+  "employee_skills": [
+    {
+      "id": "<number>",
+      "user_id": "<string>",
+      "hr_details_id": "<string>",
+      "presale_id": null,
+      "skill_id": "<string>",
+      "level": "<string>"
+    }
+  ],
+  "employee_departments": [
+    {
+      "id": "<number>",
+      "team_id": "<string>",
+      "user_id": "<string>",
+      "hr_detail_id": "<string>",
+      "presale_id": null
+    }
+  ],
+  "work_experiences": [
+    {
+      "id": "<number>",
+      "user_id": "<string>",
+      "hr_detail_id": null,
+      "presale_id": null,
+      "client_details_id": "<string>",
+      "company_name": "<string>",
+      "position": "<string>",
+      "start_date": "<datetime>",
+      "end_date": "<datetime>",
+      "responsibilities": null,
+      "created_at": "<datetime>",
+      "updated_at": "<datetime>",
+      "industries": []
+    }
+  ],
+  "employee_documents": [
+    {
+      "id": "<number>",
+      "company_id": "<string>",
+      "user_id": "<string>",
+      "presale_id": null,
+      "name": "<string>",
+      "filename": "<string>",
+      "hashname": "<string>",
+      "size": "<string>"
+    }
+  ],
+  "responsibilities": [
+    {
+      "id": "<number>",
+      "company_id": "<string>",
+      "parent_id": null,
+      "product_id": null,
+      "name": "<string>",
+      "responsibility_id": null,
+      "min_hours": null,
+      "max_hours": null,
+      "description": "<string>",
+      "status_id": "<string>",
+      "status_addition": "<string>",
+      "created_at": "<datetime>",
+      "updated_at": "<datetime>"
+    }
+  ],
+  "lead_agent": {
+    "id": "<number>",
+    "company_id": "<string>",
+    "user_id": "<string>",
+    "status": "<string>",
+    "added_by": null,
+    "last_updated_by": null
+  }
+}

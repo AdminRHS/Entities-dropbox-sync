@@ -1,0 +1,31 @@
+{
+  "entity_type": "TASK_MANAGERS",
+  "sub_entity": "Step_Template",
+  "step_id": "VIDEO-VIDEO-003-02",
+  "step_number": 2,
+  "parent_task": "TASK-TEMPLATE-VIDEO-003",
+  "task_name": "Create Brand Logo Animation",
+  "name": "Navigate to Video section in OpenArt",
+  "action": "navigate",
+  "tool": "TOOL-AI-052 (OpenArt)",
+  "responsibility": "Brand Manager",
+  "placement": "OpenArt platform",
+  "duration": "30 seconds",
+  "dependencies": [],
+  "inputs": [
+    "OpenArt account logged in"
+  ],
+  "outputs": [
+    "Video generation interface loaded"
+  ],
+  "success_criteria": "Google Veo 3.1 model available",
+  "implementation_notes": "Google Veo 3.1 model available - Implementation details based on the Create Brand Logo Animation workflow.",
+  "tags": [
+    "navigate",
+    "template-task-video-003"
+  ],
+  "version": "1.0",
+  "created": "2025-11-15",
+  "last_updated": "2025-11-15",
+  "source": "Video_012"
+}

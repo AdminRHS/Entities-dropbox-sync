@@ -1,0 +1,2764 @@
+{
+  "entity_type": "LIBRARIES",
+  "library": "Actions",
+  "source_file": "Actions_Master.json",
+  "view_type": "result_verbs",
+  "total_items": 551,
+  "results": [
+    {
+      "result": "abstracted",
+      "base_action": "abstract",
+      "action_id": "ACTION-001"
+    },
+    {
+      "result": "accessed",
+      "base_action": "access",
+      "action_id": "ACTION-002"
+    },
+    {
+      "result": "acknowledged",
+      "base_action": "acknowledge",
+      "action_id": "ACTION-003"
+    },
+    {
+      "result": "Adapted",
+      "base_action": "adapt",
+      "action_id": "ACTION-004"
+    },
+    {
+      "result": "adapted",
+      "base_action": "adapt",
+      "action_id": "ACTION-004"
+    },
+    {
+      "result": "added",
+      "base_action": "add",
+      "action_id": "ACTION-005"
+    },
+    {
+      "result": "addressed",
+      "base_action": "address",
+      "action_id": "ACTION-006"
+    },
+    {
+      "result": "Adjusted",
+      "base_action": "adjust",
+      "action_id": "ACTION-007"
+    },
+    {
+      "result": "adjusted",
+      "base_action": "adjust",
+      "action_id": "ACTION-007"
+    },
+    {
+      "result": "aggregated",
+      "base_action": "aggregate",
+      "action_id": "ACTION-008"
+    },
+    {
+      "result": "agreed",
+      "base_action": "agree",
+      "action_id": "ACTION-009"
+    },
+    {
+      "result": "Aligned",
+      "base_action": "Align",
+      "action_id": "ACTION-010"
+    },
+    {
+      "result": "aligned",
+      "base_action": "Align",
+      "action_id": "ACTION-010"
+    },
+    {
+      "result": "Allocated",
+      "base_action": "allocate",
+      "action_id": "ACTION-011"
+    },
+    {
+      "result": "allocated",
+      "base_action": "allocate",
+      "action_id": "ACTION-011"
+    },
+    {
+      "result": "Analyzed",
+      "base_action": "analyze",
+      "action_id": "ACTION-012"
+    },
+    {
+      "result": "analyzed",
+      "base_action": "analyze",
+      "action_id": "ACTION-012"
+    },
+    {
+      "result": "animated",
+      "base_action": "animate",
+      "action_id": "ACTION-013"
+    },
+    {
+      "result": "announced",
+      "base_action": "announce",
+      "action_id": "ACTION-014"
+    },
+    {
+      "result": "Applied",
+      "base_action": "apply",
+      "action_id": "ACTION-015"
+    },
+    {
+      "result": "applied",
+      "base_action": "apply",
+      "action_id": "ACTION-015"
+    },
+    {
+      "result": "approved",
+      "base_action": "approve",
+      "action_id": "ACTION-016"
+    },
+    {
+      "result": "archived",
+      "base_action": "archive",
+      "action_id": "ACTION-017"
+    },
+    {
+      "result": "Arranged",
+      "base_action": "arrange",
+      "action_id": "ACTION-018"
+    },
+    {
+      "result": "arranged",
+      "base_action": "arrange",
+      "action_id": "ACTION-018"
+    },
+    {
+      "result": "asked",
+      "base_action": "ask",
+      "action_id": "ACTION-019"
+    },
+    {
+      "result": "Assembled",
+      "base_action": "assemble",
+      "action_id": "ACTION-020"
+    },
+    {
+      "result": "assembled",
+      "base_action": "assemble",
+      "action_id": "ACTION-020"
+    },
+    {
+      "result": "Assessed",
+      "base_action": "assess",
+      "action_id": "ACTION-021"
+    },
+    {
+      "result": "assessed",
+      "base_action": "assess",
+      "action_id": "ACTION-021"
+    },
+    {
+      "result": "assigned",
+      "base_action": "assign",
+      "action_id": "ACTION-022"
+    },
+    {
+      "result": "assisted",
+      "base_action": "assist",
+      "action_id": "ACTION-023"
+    },
+    {
+      "result": "attached",
+      "base_action": "attach",
+      "action_id": "ACTION-024"
+    },
+    {
+      "result": "Audited",
+      "base_action": "audit",
+      "action_id": "ACTION-025"
+    },
+    {
+      "result": "audited",
+      "base_action": "audit",
+      "action_id": "ACTION-025"
+    },
+    {
+      "result": "Automated",
+      "base_action": "automate",
+      "action_id": "ACTION-026"
+    },
+    {
+      "result": "automated",
+      "base_action": "automate",
+      "action_id": "ACTION-026"
+    },
+    {
+      "result": "backed up",
+      "base_action": "back up",
+      "action_id": "ACTION-027"
+    },
+    {
+      "result": "backed up",
+      "base_action": "backup",
+      "action_id": "ACTION-028"
+    },
+    {
+      "result": "balanced",
+      "base_action": "balance",
+      "action_id": "ACTION-029"
+    },
+    {
+      "result": "began",
+      "base_action": "begin",
+      "action_id": "ACTION-030"
+    },
+    {
+      "result": "begun",
+      "base_action": "begin",
+      "action_id": "ACTION-030"
+    },
+    {
+      "result": "bid",
+      "base_action": "bid",
+      "action_id": "ACTION-031"
+    },
+    {
+      "result": "blended",
+      "base_action": "blend",
+      "action_id": "ACTION-032"
+    },
+    {
+      "result": "blocked",
+      "base_action": "block",
+      "action_id": "ACTION-033"
+    },
+    {
+      "result": "boosted",
+      "base_action": "boost",
+      "action_id": "ACTION-034"
+    },
+    {
+      "result": "Brainstormed",
+      "base_action": "brainstorm",
+      "action_id": "ACTION-035"
+    },
+    {
+      "result": "brainstormed",
+      "base_action": "brainstorm",
+      "action_id": "ACTION-035"
+    },
+    {
+      "result": "broken down",
+      "base_action": "break down",
+      "action_id": "ACTION-036"
+    },
+    {
+      "result": "broken down",
+      "base_action": "breakdown",
+      "action_id": "ACTION-037"
+    },
+    {
+      "result": "built",
+      "base_action": "build",
+      "action_id": "ACTION-038"
+    },
+    {
+      "result": "cached",
+      "base_action": "cache",
+      "action_id": "ACTION-039"
+    },
+    {
+      "result": "calculated",
+      "base_action": "calculate",
+      "action_id": "ACTION-040"
+    },
+    {
+      "result": "calibrated",
+      "base_action": "calibrate",
+      "action_id": "ACTION-041"
+    },
+    {
+      "result": "captured",
+      "base_action": "capture",
+      "action_id": "ACTION-042"
+    },
+    {
+      "result": "Categorized",
+      "base_action": "categorize",
+      "action_id": "ACTION-043"
+    },
+    {
+      "result": "categorized",
+      "base_action": "categorize",
+      "action_id": "ACTION-043"
+    },
+    {
+      "result": "celebrated",
+      "base_action": "celebrate",
+      "action_id": "ACTION-044"
+    },
+    {
+      "result": "Checked",
+      "base_action": "check",
+      "action_id": "ACTION-045"
+    },
+    {
+      "result": "checked",
+      "base_action": "check",
+      "action_id": "ACTION-045"
+    },
+    {
+      "result": "Chosen",
+      "base_action": "choose",
+      "action_id": "ACTION-046"
+    },
+    {
+      "result": "chosen",
+      "base_action": "choose",
+      "action_id": "ACTION-046"
+    },
+    {
+      "result": "choreographed",
+      "base_action": "choreograph",
+      "action_id": "ACTION-047"
+    },
+    {
+      "result": "circulated",
+      "base_action": "circulate",
+      "action_id": "ACTION-048"
+    },
+    {
+      "result": "clarified",
+      "base_action": "clarify",
+      "action_id": "ACTION-049"
+    },
+    {
+      "result": "classified",
+      "base_action": "classify",
+      "action_id": "ACTION-050"
+    },
+    {
+      "result": "cleaned up",
+      "base_action": "clean up",
+      "action_id": "ACTION-051"
+    },
+    {
+      "result": "Coded",
+      "base_action": "code",
+      "action_id": "ACTION-052"
+    },
+    {
+      "result": "coded",
+      "base_action": "code",
+      "action_id": "ACTION-052"
+    },
+    {
+      "result": "collaborated",
+      "base_action": "collaborate",
+      "action_id": "ACTION-053"
+    },
+    {
+      "result": "collated",
+      "base_action": "collate",
+      "action_id": "ACTION-054"
+    },
+    {
+      "result": "Collected",
+      "base_action": "collect",
+      "action_id": "ACTION-055"
+    },
+    {
+      "result": "collected",
+      "base_action": "collect",
+      "action_id": "ACTION-055"
+    },
+    {
+      "result": "communicated",
+      "base_action": "communicate",
+      "action_id": "ACTION-056"
+    },
+    {
+      "result": "compared",
+      "base_action": "compare",
+      "action_id": "ACTION-057"
+    },
+    {
+      "result": "Compiled",
+      "base_action": "compile",
+      "action_id": "ACTION-058"
+    },
+    {
+      "result": "compiled",
+      "base_action": "compile",
+      "action_id": "ACTION-058"
+    },
+    {
+      "result": "composed",
+      "base_action": "compose",
+      "action_id": "ACTION-059"
+    },
+    {
+      "result": "composited",
+      "base_action": "composite",
+      "action_id": "ACTION-060"
+    },
+    {
+      "result": "conceptualized",
+      "base_action": "conceptualize",
+      "action_id": "ACTION-061"
+    },
+    {
+      "result": "concluded",
+      "base_action": "conclude",
+      "action_id": "ACTION-062"
+    },
+    {
+      "result": "Conducted",
+      "base_action": "conduct",
+      "action_id": "ACTION-063"
+    },
+    {
+      "result": "conducted",
+      "base_action": "conduct",
+      "action_id": "ACTION-063"
+    },
+    {
+      "result": "Configured",
+      "base_action": "configure",
+      "action_id": "ACTION-064"
+    },
+    {
+      "result": "configured",
+      "base_action": "configure",
+      "action_id": "ACTION-064"
+    },
+    {
+      "result": "confirmed",
+      "base_action": "confirm",
+      "action_id": "ACTION-065"
+    },
+    {
+      "result": "congratulated",
+      "base_action": "congratulate",
+      "action_id": "ACTION-066"
+    },
+    {
+      "result": "considered",
+      "base_action": "consider",
+      "action_id": "ACTION-067"
+    },
+    {
+      "result": "consolidated",
+      "base_action": "consolidate",
+      "action_id": "ACTION-068"
+    },
+    {
+      "result": "constructed",
+      "base_action": "construct",
+      "action_id": "ACTION-069"
+    },
+    {
+      "result": "consulted",
+      "base_action": "consult",
+      "action_id": "ACTION-070"
+    },
+    {
+      "result": "contacted",
+      "base_action": "contact",
+      "action_id": "ACTION-071"
+    },
+    {
+      "result": "Converted",
+      "base_action": "convert",
+      "action_id": "ACTION-072"
+    },
+    {
+      "result": "converted",
+      "base_action": "convert",
+      "action_id": "ACTION-072"
+    },
+    {
+      "result": "coordinated",
+      "base_action": "coordinate",
+      "action_id": "ACTION-073"
+    },
+    {
+      "result": "corrected",
+      "base_action": "correct",
+      "action_id": "ACTION-074"
+    },
+    {
+      "result": "correlated",
+      "base_action": "correlate",
+      "action_id": "ACTION-075"
+    },
+    {
+      "result": "crafted",
+      "base_action": "craft",
+      "action_id": "ACTION-076"
+    },
+    {
+      "result": "Created",
+      "base_action": "create",
+      "action_id": "ACTION-077"
+    },
+    {
+      "result": "created",
+      "base_action": "create",
+      "action_id": "ACTION-077"
+    },
+    {
+      "result": "cross-checked",
+      "base_action": "cross-check",
+      "action_id": "ACTION-078"
+    },
+    {
+      "result": "cross-referenced",
+      "base_action": "cross-reference",
+      "action_id": "ACTION-079"
+    },
+    {
+      "result": "cross-verified",
+      "base_action": "cross-verify",
+      "action_id": "ACTION-080"
+    },
+    {
+      "result": "curated",
+      "base_action": "curate",
+      "action_id": "ACTION-081"
+    },
+    {
+      "result": "Customized",
+      "base_action": "customize",
+      "action_id": "ACTION-082"
+    },
+    {
+      "result": "customized",
+      "base_action": "customize",
+      "action_id": "ACTION-082"
+    },
+    {
+      "result": "decided",
+      "base_action": "decide",
+      "action_id": "ACTION-083"
+    },
+    {
+      "result": "decommissioned",
+      "base_action": "decommission",
+      "action_id": "ACTION-084"
+    },
+    {
+      "result": "deepened",
+      "base_action": "deepen",
+      "action_id": "ACTION-085"
+    },
+    {
+      "result": "Defined",
+      "base_action": "define",
+      "action_id": "ACTION-086"
+    },
+    {
+      "result": "defined",
+      "base_action": "define",
+      "action_id": "ACTION-086"
+    },
+    {
+      "result": "delegated",
+      "base_action": "delegate",
+      "action_id": "ACTION-087"
+    },
+    {
+      "result": "deleted",
+      "base_action": "delete",
+      "action_id": "ACTION-088"
+    },
+    {
+      "result": "delineated",
+      "base_action": "delineate",
+      "action_id": "ACTION-089"
+    },
+    {
+      "result": "demonstrated",
+      "base_action": "demonstrate",
+      "action_id": "ACTION-090"
+    },
+    {
+      "result": "Deployed",
+      "base_action": "deploy",
+      "action_id": "ACTION-091"
+    },
+    {
+      "result": "deployed",
+      "base_action": "deploy",
+      "action_id": "ACTION-091"
+    },
+    {
+      "result": "Described",
+      "base_action": "describe",
+      "action_id": "ACTION-092"
+    },
+    {
+      "result": "described",
+      "base_action": "describe",
+      "action_id": "ACTION-092"
+    },
+    {
+      "result": "Designed",
+      "base_action": "design",
+      "action_id": "ACTION-093"
+    },
+    {
+      "result": "designed",
+      "base_action": "design",
+      "action_id": "ACTION-093"
+    },
+    {
+      "result": "detailed",
+      "base_action": "detail",
+      "action_id": "ACTION-094"
+    },
+    {
+      "result": "detected",
+      "base_action": "detect",
+      "action_id": "ACTION-095"
+    },
+    {
+      "result": "determined",
+      "base_action": "determine",
+      "action_id": "ACTION-096"
+    },
+    {
+      "result": "Developed",
+      "base_action": "develop",
+      "action_id": "ACTION-097"
+    },
+    {
+      "result": "developed",
+      "base_action": "develop",
+      "action_id": "ACTION-097"
+    },
+    {
+      "result": "diagnosed",
+      "base_action": "diagnose",
+      "action_id": "ACTION-098"
+    },
+    {
+      "result": "differentiated",
+      "base_action": "differentiate",
+      "action_id": "ACTION-099"
+    },
+    {
+      "result": "directed",
+      "base_action": "direct",
+      "action_id": "ACTION-100"
+    },
+    {
+      "result": "discovered",
+      "base_action": "discover",
+      "action_id": "ACTION-101"
+    },
+    {
+      "result": "discussed",
+      "base_action": "discuss",
+      "action_id": "ACTION-102"
+    },
+    {
+      "result": "disentangled",
+      "base_action": "disentangle",
+      "action_id": "ACTION-103"
+    },
+    {
+      "result": "dispatched",
+      "base_action": "dispatch",
+      "action_id": "ACTION-104"
+    },
+    {
+      "result": "displayed",
+      "base_action": "display",
+      "action_id": "ACTION-105"
+    },
+    {
+      "result": "dissected",
+      "base_action": "dissect",
+      "action_id": "ACTION-106"
+    },
+    {
+      "result": "disseminated",
+      "base_action": "disseminate",
+      "action_id": "ACTION-107"
+    },
+    {
+      "result": "distilled",
+      "base_action": "distill",
+      "action_id": "ACTION-108"
+    },
+    {
+      "result": "Distributed",
+      "base_action": "distribute",
+      "action_id": "ACTION-109"
+    },
+    {
+      "result": "distributed",
+      "base_action": "distribute",
+      "action_id": "ACTION-109"
+    },
+    {
+      "result": "diversified",
+      "base_action": "diversify",
+      "action_id": "ACTION-110"
+    },
+    {
+      "result": "Documented",
+      "base_action": "document",
+      "action_id": "ACTION-111"
+    },
+    {
+      "result": "documented",
+      "base_action": "document",
+      "action_id": "ACTION-111"
+    },
+    {
+      "result": "double-checked",
+      "base_action": "double-check",
+      "action_id": "ACTION-112"
+    },
+    {
+      "result": "downloaded",
+      "base_action": "download",
+      "action_id": "ACTION-113"
+    },
+    {
+      "result": "Drafted",
+      "base_action": "draft",
+      "action_id": "ACTION-114"
+    },
+    {
+      "result": "drafted",
+      "base_action": "draft",
+      "action_id": "ACTION-114"
+    },
+    {
+      "result": "dramatized",
+      "base_action": "dramatize",
+      "action_id": "ACTION-115"
+    },
+    {
+      "result": "drawn",
+      "base_action": "draw",
+      "action_id": "ACTION-116"
+    },
+    {
+      "result": "driven",
+      "base_action": "drive",
+      "action_id": "ACTION-117"
+    },
+    {
+      "result": "edited",
+      "base_action": "edit",
+      "action_id": "ACTION-118"
+    },
+    {
+      "result": "educated",
+      "base_action": "educate",
+      "action_id": "ACTION-119"
+    },
+    {
+      "result": "elaborated",
+      "base_action": "elaborate",
+      "action_id": "ACTION-120"
+    },
+    {
+      "result": "elevated",
+      "base_action": "elevate",
+      "action_id": "ACTION-121"
+    },
+    {
+      "result": "elucidated",
+      "base_action": "elucidate",
+      "action_id": "ACTION-122"
+    },
+    {
+      "result": "Embedded",
+      "base_action": "embed",
+      "action_id": "ACTION-123"
+    },
+    {
+      "result": "embedded",
+      "base_action": "embed",
+      "action_id": "ACTION-123"
+    },
+    {
+      "result": "embraced",
+      "base_action": "embrace",
+      "action_id": "ACTION-124"
+    },
+    {
+      "result": "Emphasized",
+      "base_action": "emphasize",
+      "action_id": "ACTION-125"
+    },
+    {
+      "result": "emphasized",
+      "base_action": "emphasize",
+      "action_id": "ACTION-125"
+    },
+    {
+      "result": "employed",
+      "base_action": "employ",
+      "action_id": "ACTION-126"
+    },
+    {
+      "result": "empowered",
+      "base_action": "empower",
+      "action_id": "ACTION-127"
+    },
+    {
+      "result": "enabled",
+      "base_action": "enable",
+      "action_id": "ACTION-128"
+    },
+    {
+      "result": "enacted",
+      "base_action": "enact",
+      "action_id": "ACTION-129"
+    },
+    {
+      "result": "encoded",
+      "base_action": "encode",
+      "action_id": "ACTION-130"
+    },
+    {
+      "result": "encouraged",
+      "base_action": "encourage",
+      "action_id": "ACTION-131"
+    },
+    {
+      "result": "encrypted",
+      "base_action": "encrypt",
+      "action_id": "ACTION-132"
+    },
+    {
+      "result": "endorsed",
+      "base_action": "endorse",
+      "action_id": "ACTION-133"
+    },
+    {
+      "result": "Enforced",
+      "base_action": "Enforce",
+      "action_id": "ACTION-134"
+    },
+    {
+      "result": "enforced",
+      "base_action": "Enforce",
+      "action_id": "ACTION-134"
+    },
+    {
+      "result": "Engaged",
+      "base_action": "engage",
+      "action_id": "ACTION-135"
+    },
+    {
+      "result": "engaged",
+      "base_action": "engage",
+      "action_id": "ACTION-135"
+    },
+    {
+      "result": "engineered",
+      "base_action": "engineer",
+      "action_id": "ACTION-136"
+    },
+    {
+      "result": "Enhanced",
+      "base_action": "enhance",
+      "action_id": "ACTION-137"
+    },
+    {
+      "result": "enhanced",
+      "base_action": "enhance",
+      "action_id": "ACTION-137"
+    },
+    {
+      "result": "enlisted",
+      "base_action": "enlist",
+      "action_id": "ACTION-138"
+    },
+    {
+      "result": "enriched",
+      "base_action": "enrich",
+      "action_id": "ACTION-139"
+    },
+    {
+      "result": "Ensured",
+      "base_action": "ensure",
+      "action_id": "ACTION-140"
+    },
+    {
+      "result": "ensured",
+      "base_action": "ensure",
+      "action_id": "ACTION-140"
+    },
+    {
+      "result": "entangled",
+      "base_action": "entangle",
+      "action_id": "ACTION-141"
+    },
+    {
+      "result": "entered",
+      "base_action": "enter",
+      "action_id": "ACTION-142"
+    },
+    {
+      "result": "enumerated",
+      "base_action": "enumerate",
+      "action_id": "ACTION-143"
+    },
+    {
+      "result": "envisioned",
+      "base_action": "envision",
+      "action_id": "ACTION-144"
+    },
+    {
+      "result": "epitomized",
+      "base_action": "epitomize",
+      "action_id": "ACTION-145"
+    },
+    {
+      "result": "equalized",
+      "base_action": "equalize",
+      "action_id": "ACTION-146"
+    },
+    {
+      "result": "eradicated",
+      "base_action": "eradicate",
+      "action_id": "ACTION-147"
+    },
+    {
+      "result": "escalated",
+      "base_action": "escalate",
+      "action_id": "ACTION-148"
+    },
+    {
+      "result": "Established",
+      "base_action": "establish",
+      "action_id": "ACTION-149"
+    },
+    {
+      "result": "established",
+      "base_action": "establish",
+      "action_id": "ACTION-149"
+    },
+    {
+      "result": "estimated",
+      "base_action": "estimate",
+      "action_id": "ACTION-150"
+    },
+    {
+      "result": "Evaluated",
+      "base_action": "evaluate",
+      "action_id": "ACTION-151"
+    },
+    {
+      "result": "evaluated",
+      "base_action": "evaluate",
+      "action_id": "ACTION-151"
+    },
+    {
+      "result": "evolved",
+      "base_action": "evolve",
+      "action_id": "ACTION-152"
+    },
+    {
+      "result": "examined",
+      "base_action": "examine",
+      "action_id": "ACTION-153"
+    },
+    {
+      "result": "exchanged",
+      "base_action": "exchange",
+      "action_id": "ACTION-154"
+    },
+    {
+      "result": "Executed",
+      "base_action": "execute",
+      "action_id": "ACTION-155"
+    },
+    {
+      "result": "executed",
+      "base_action": "execute",
+      "action_id": "ACTION-155"
+    },
+    {
+      "result": "expedited",
+      "base_action": "expedite",
+      "action_id": "ACTION-156"
+    },
+    {
+      "result": "Experimented",
+      "base_action": "experiment",
+      "action_id": "ACTION-157"
+    },
+    {
+      "result": "experimented",
+      "base_action": "experiment",
+      "action_id": "ACTION-157"
+    },
+    {
+      "result": "explained",
+      "base_action": "explain",
+      "action_id": "ACTION-158"
+    },
+    {
+      "result": "explored",
+      "base_action": "explore",
+      "action_id": "ACTION-159"
+    },
+    {
+      "result": "Exported",
+      "base_action": "Export",
+      "action_id": "ACTION-160"
+    },
+    {
+      "result": "expressed",
+      "base_action": "express",
+      "action_id": "ACTION-161"
+    },
+    {
+      "result": "extended",
+      "base_action": "extend",
+      "action_id": "ACTION-162"
+    },
+    {
+      "result": "extracted",
+      "base_action": "extract",
+      "action_id": "ACTION-163"
+    },
+    {
+      "result": "extrapolated",
+      "base_action": "extrapolate",
+      "action_id": "ACTION-164"
+    },
+    {
+      "result": "fabricated",
+      "base_action": "fabricate",
+      "action_id": "ACTION-165"
+    },
+    {
+      "result": "facilitated",
+      "base_action": "facilitate",
+      "action_id": "ACTION-166"
+    },
+    {
+      "result": "Fetched",
+      "base_action": "Fetch",
+      "action_id": "ACTION-167"
+    },
+    {
+      "result": "filed",
+      "base_action": "file",
+      "action_id": "ACTION-168"
+    },
+    {
+      "result": "filled",
+      "base_action": "fill",
+      "action_id": "ACTION-169"
+    },
+    {
+      "result": "filmed",
+      "base_action": "film",
+      "action_id": "ACTION-170"
+    },
+    {
+      "result": "Finalized",
+      "base_action": "finalize",
+      "action_id": "ACTION-171"
+    },
+    {
+      "result": "finalized",
+      "base_action": "finalize",
+      "action_id": "ACTION-171"
+    },
+    {
+      "result": "Fine-tuned",
+      "base_action": "fine-tune",
+      "action_id": "ACTION-172"
+    },
+    {
+      "result": "fine-tuned",
+      "base_action": "fine-tune",
+      "action_id": "ACTION-172"
+    },
+    {
+      "result": "flagged",
+      "base_action": "flag",
+      "action_id": "ACTION-173"
+    },
+    {
+      "result": "Focused",
+      "base_action": "focus",
+      "action_id": "ACTION-174"
+    },
+    {
+      "result": "focused",
+      "base_action": "focus",
+      "action_id": "ACTION-174"
+    },
+    {
+      "result": "followed",
+      "base_action": "follow",
+      "action_id": "ACTION-175"
+    },
+    {
+      "result": "followed up",
+      "base_action": "follow up",
+      "action_id": "ACTION-176"
+    },
+    {
+      "result": "forecasted",
+      "base_action": "forecast",
+      "action_id": "ACTION-177"
+    },
+    {
+      "result": "formed",
+      "base_action": "form",
+      "action_id": "ACTION-178"
+    },
+    {
+      "result": "formalized",
+      "base_action": "formalize",
+      "action_id": "ACTION-179"
+    },
+    {
+      "result": "formatted",
+      "base_action": "format",
+      "action_id": "ACTION-180"
+    },
+    {
+      "result": "formulated",
+      "base_action": "formulate",
+      "action_id": "ACTION-181"
+    },
+    {
+      "result": "fortified",
+      "base_action": "fortify",
+      "action_id": "ACTION-182"
+    },
+    {
+      "result": "fostered",
+      "base_action": "foster",
+      "action_id": "ACTION-183"
+    },
+    {
+      "result": "framed",
+      "base_action": "frame",
+      "action_id": "ACTION-184"
+    },
+    {
+      "result": "fulfilled",
+      "base_action": "fulfill",
+      "action_id": "ACTION-185"
+    },
+    {
+      "result": "gained",
+      "base_action": "gain",
+      "action_id": "ACTION-186"
+    },
+    {
+      "result": "Gathered",
+      "base_action": "gather",
+      "action_id": "ACTION-187"
+    },
+    {
+      "result": "gathered",
+      "base_action": "gather",
+      "action_id": "ACTION-187"
+    },
+    {
+      "result": "gauged",
+      "base_action": "gauge",
+      "action_id": "ACTION-188"
+    },
+    {
+      "result": "Generated",
+      "base_action": "generate",
+      "action_id": "ACTION-189"
+    },
+    {
+      "result": "generated",
+      "base_action": "generate",
+      "action_id": "ACTION-189"
+    },
+    {
+      "result": "Gotten",
+      "base_action": "get",
+      "action_id": "ACTION-190"
+    },
+    {
+      "result": "got",
+      "base_action": "get",
+      "action_id": "ACTION-190"
+    },
+    {
+      "result": "governed",
+      "base_action": "govern",
+      "action_id": "ACTION-191"
+    },
+    {
+      "result": "graded",
+      "base_action": "grade",
+      "action_id": "ACTION-192"
+    },
+    {
+      "result": "grasped",
+      "base_action": "grasp",
+      "action_id": "ACTION-193"
+    },
+    {
+      "result": "guided",
+      "base_action": "guide",
+      "action_id": "ACTION-194"
+    },
+    {
+      "result": "handled",
+      "base_action": "handle",
+      "action_id": "ACTION-195"
+    },
+    {
+      "result": "harnessed",
+      "base_action": "harness",
+      "action_id": "ACTION-196"
+    },
+    {
+      "result": "heightened",
+      "base_action": "heighten",
+      "action_id": "ACTION-197"
+    },
+    {
+      "result": "Highlighted",
+      "base_action": "highlight",
+      "action_id": "ACTION-198"
+    },
+    {
+      "result": "highlighted",
+      "base_action": "highlight",
+      "action_id": "ACTION-198"
+    },
+    {
+      "result": "Held",
+      "base_action": "hold",
+      "action_id": "ACTION-199"
+    },
+    {
+      "result": "held",
+      "base_action": "hold",
+      "action_id": "ACTION-199"
+    },
+    {
+      "result": "hosted",
+      "base_action": "host",
+      "action_id": "ACTION-200"
+    },
+    {
+      "result": "Identified",
+      "base_action": "identify",
+      "action_id": "ACTION-201"
+    },
+    {
+      "result": "identified",
+      "base_action": "identify",
+      "action_id": "ACTION-201"
+    },
+    {
+      "result": "illuminated",
+      "base_action": "illuminate",
+      "action_id": "ACTION-202"
+    },
+    {
+      "result": "Implemented",
+      "base_action": "implement",
+      "action_id": "ACTION-203"
+    },
+    {
+      "result": "implemented",
+      "base_action": "implement",
+      "action_id": "ACTION-203"
+    },
+    {
+      "result": "imported",
+      "base_action": "import",
+      "action_id": "ACTION-204"
+    },
+    {
+      "result": "Improved",
+      "base_action": "Improve",
+      "action_id": "ACTION-205"
+    },
+    {
+      "result": "improved",
+      "base_action": "Improve",
+      "action_id": "ACTION-205"
+    },
+    {
+      "result": "Included",
+      "base_action": "include",
+      "action_id": "ACTION-206"
+    },
+    {
+      "result": "included",
+      "base_action": "include",
+      "action_id": "ACTION-206"
+    },
+    {
+      "result": "Incorporated",
+      "base_action": "incorporate",
+      "action_id": "ACTION-207"
+    },
+    {
+      "result": "incorporated",
+      "base_action": "incorporate",
+      "action_id": "ACTION-207"
+    },
+    {
+      "result": "Increased",
+      "base_action": "Increase",
+      "action_id": "ACTION-208"
+    },
+    {
+      "result": "increased",
+      "base_action": "Increase",
+      "action_id": "ACTION-208"
+    },
+    {
+      "result": "influenced",
+      "base_action": "influence",
+      "action_id": "ACTION-209"
+    },
+    {
+      "result": "informed",
+      "base_action": "inform",
+      "action_id": "ACTION-210"
+    },
+    {
+      "result": "initiated",
+      "base_action": "initiate",
+      "action_id": "ACTION-211"
+    },
+    {
+      "result": "innovated",
+      "base_action": "innovate",
+      "action_id": "ACTION-212"
+    },
+    {
+      "result": "inputted",
+      "base_action": "input",
+      "action_id": "ACTION-213"
+    },
+    {
+      "result": "inspected",
+      "base_action": "inspect",
+      "action_id": "ACTION-214"
+    },
+    {
+      "result": "inspired",
+      "base_action": "inspire",
+      "action_id": "ACTION-215"
+    },
+    {
+      "result": "installed",
+      "base_action": "install",
+      "action_id": "ACTION-216"
+    },
+    {
+      "result": "instructed",
+      "base_action": "instruct",
+      "action_id": "ACTION-217"
+    },
+    {
+      "result": "Integrated",
+      "base_action": "integrate",
+      "action_id": "ACTION-218"
+    },
+    {
+      "result": "integrated",
+      "base_action": "integrate",
+      "action_id": "ACTION-218"
+    },
+    {
+      "result": "interpreted",
+      "base_action": "interpret",
+      "action_id": "ACTION-219"
+    },
+    {
+      "result": "intervened",
+      "base_action": "intervene",
+      "action_id": "ACTION-220"
+    },
+    {
+      "result": "introduced",
+      "base_action": "introduce",
+      "action_id": "ACTION-221"
+    },
+    {
+      "result": "invented",
+      "base_action": "invent",
+      "action_id": "ACTION-222"
+    },
+    {
+      "result": "investigated",
+      "base_action": "investigate",
+      "action_id": "ACTION-223"
+    },
+    {
+      "result": "involved",
+      "base_action": "involve",
+      "action_id": "ACTION-224"
+    },
+    {
+      "result": "isolated",
+      "base_action": "isolate",
+      "action_id": "ACTION-225"
+    },
+    {
+      "result": "issued",
+      "base_action": "issue",
+      "action_id": "ACTION-226"
+    },
+    {
+      "result": "itemized",
+      "base_action": "itemize",
+      "action_id": "ACTION-227"
+    },
+    {
+      "result": "Iterated",
+      "base_action": "iterate",
+      "action_id": "ACTION-228"
+    },
+    {
+      "result": "iterated",
+      "base_action": "iterate",
+      "action_id": "ACTION-228"
+    },
+    {
+      "result": "joined",
+      "base_action": "join",
+      "action_id": "ACTION-229"
+    },
+    {
+      "result": "juxtaposed",
+      "base_action": "juxtapose",
+      "action_id": "ACTION-230"
+    },
+    {
+      "result": "kept",
+      "base_action": "keep",
+      "action_id": "ACTION-231"
+    },
+    {
+      "result": "kickstarted",
+      "base_action": "kickstart",
+      "action_id": "ACTION-232"
+    },
+    {
+      "result": "labeled",
+      "base_action": "label",
+      "action_id": "ACTION-233"
+    },
+    {
+      "result": "launched",
+      "base_action": "launch",
+      "action_id": "ACTION-234"
+    },
+    {
+      "result": "layered",
+      "base_action": "layer",
+      "action_id": "ACTION-235"
+    },
+    {
+      "result": "Layouted",
+      "base_action": "layout",
+      "action_id": "ACTION-236"
+    },
+    {
+      "result": "laid out",
+      "base_action": "layout",
+      "action_id": "ACTION-236"
+    },
+    {
+      "result": "led",
+      "base_action": "lead",
+      "action_id": "ACTION-237"
+    },
+    {
+      "result": "learned",
+      "base_action": "learn",
+      "action_id": "ACTION-238"
+    },
+    {
+      "result": "leveraged",
+      "base_action": "leverage",
+      "action_id": "ACTION-239"
+    },
+    {
+      "result": "liaised",
+      "base_action": "liaise",
+      "action_id": "ACTION-240"
+    },
+    {
+      "result": "lighted",
+      "base_action": "light",
+      "action_id": "ACTION-241"
+    },
+    {
+      "result": "Limited",
+      "base_action": "Limit",
+      "action_id": "ACTION-242"
+    },
+    {
+      "result": "limited",
+      "base_action": "Limit",
+      "action_id": "ACTION-242"
+    },
+    {
+      "result": "linked",
+      "base_action": "link",
+      "action_id": "ACTION-243"
+    },
+    {
+      "result": "listed",
+      "base_action": "list",
+      "action_id": "ACTION-244"
+    },
+    {
+      "result": "listened",
+      "base_action": "listen",
+      "action_id": "ACTION-245"
+    },
+    {
+      "result": "livestreamed",
+      "base_action": "livestream",
+      "action_id": "ACTION-246"
+    },
+    {
+      "result": "Loaded",
+      "base_action": "Load",
+      "action_id": "ACTION-247"
+    },
+    {
+      "result": "located",
+      "base_action": "locate",
+      "action_id": "ACTION-248"
+    },
+    {
+      "result": "locked",
+      "base_action": "lock",
+      "action_id": "ACTION-249"
+    },
+    {
+      "result": "logged",
+      "base_action": "log",
+      "action_id": "ACTION-250"
+    },
+    {
+      "result": "Maintained",
+      "base_action": "maintain",
+      "action_id": "ACTION-251"
+    },
+    {
+      "result": "maintained",
+      "base_action": "maintain",
+      "action_id": "ACTION-251"
+    },
+    {
+      "result": "Made",
+      "base_action": "make",
+      "action_id": "ACTION-252"
+    },
+    {
+      "result": "made",
+      "base_action": "make",
+      "action_id": "ACTION-252"
+    },
+    {
+      "result": "Managed",
+      "base_action": "manage",
+      "action_id": "ACTION-253"
+    },
+    {
+      "result": "managed",
+      "base_action": "manage",
+      "action_id": "ACTION-253"
+    },
+    {
+      "result": "Mapped",
+      "base_action": "map",
+      "action_id": "ACTION-254"
+    },
+    {
+      "result": "mapped",
+      "base_action": "map",
+      "action_id": "ACTION-254"
+    },
+    {
+      "result": "Mapped out",
+      "base_action": "map out",
+      "action_id": "ACTION-255"
+    },
+    {
+      "result": "mapped out",
+      "base_action": "map out",
+      "action_id": "ACTION-255"
+    },
+    {
+      "result": "marked",
+      "base_action": "mark",
+      "action_id": "ACTION-256"
+    },
+    {
+      "result": "masked",
+      "base_action": "mask",
+      "action_id": "ACTION-257"
+    },
+    {
+      "result": "matched",
+      "base_action": "match",
+      "action_id": "ACTION-258"
+    },
+    {
+      "result": "maximized",
+      "base_action": "maximize",
+      "action_id": "ACTION-259"
+    },
+    {
+      "result": "measured",
+      "base_action": "measure",
+      "action_id": "ACTION-260"
+    },
+    {
+      "result": "met",
+      "base_action": "meet",
+      "action_id": "ACTION-261"
+    },
+    {
+      "result": "Merged",
+      "base_action": "Merge",
+      "action_id": "ACTION-262"
+    },
+    {
+      "result": "merged",
+      "base_action": "Merge",
+      "action_id": "ACTION-262"
+    },
+    {
+      "result": "Minimized",
+      "base_action": "Minimize",
+      "action_id": "ACTION-263"
+    },
+    {
+      "result": "minimized",
+      "base_action": "Minimize",
+      "action_id": "ACTION-263"
+    },
+    {
+      "result": "modeled",
+      "base_action": "model",
+      "action_id": "ACTION-264"
+    },
+    {
+      "result": "Modified",
+      "base_action": "modify",
+      "action_id": "ACTION-265"
+    },
+    {
+      "result": "modified",
+      "base_action": "modify",
+      "action_id": "ACTION-265"
+    },
+    {
+      "result": "Monitored",
+      "base_action": "monitor",
+      "action_id": "ACTION-266"
+    },
+    {
+      "result": "monitored",
+      "base_action": "monitor",
+      "action_id": "ACTION-266"
+    },
+    {
+      "result": "morphed",
+      "base_action": "morph",
+      "action_id": "ACTION-267"
+    },
+    {
+      "result": "moved",
+      "base_action": "move",
+      "action_id": "ACTION-268"
+    },
+    {
+      "result": "narrated",
+      "base_action": "narrate",
+      "action_id": "ACTION-269"
+    },
+    {
+      "result": "negotiated",
+      "base_action": "negotiate",
+      "action_id": "ACTION-270"
+    },
+    {
+      "result": "normalized",
+      "base_action": "normalize",
+      "action_id": "ACTION-271"
+    },
+    {
+      "result": "noted",
+      "base_action": "note",
+      "action_id": "ACTION-272"
+    },
+    {
+      "result": "notified",
+      "base_action": "note",
+      "action_id": "ACTION-272"
+    },
+    {
+      "result": "noted",
+      "base_action": "notify",
+      "action_id": "ACTION-273"
+    },
+    {
+      "result": "notified",
+      "base_action": "notify",
+      "action_id": "ACTION-273"
+    },
+    {
+      "result": "obtained",
+      "base_action": "obtain",
+      "action_id": "ACTION-274"
+    },
+    {
+      "result": "offered",
+      "base_action": "offer",
+      "action_id": "ACTION-275"
+    },
+    {
+      "result": "Opened",
+      "base_action": "Open",
+      "action_id": "ACTION-276"
+    },
+    {
+      "result": "Optimized",
+      "base_action": "optimize",
+      "action_id": "ACTION-277"
+    },
+    {
+      "result": "optimized",
+      "base_action": "optimize",
+      "action_id": "ACTION-277"
+    },
+    {
+      "result": "organized",
+      "base_action": "organize",
+      "action_id": "ACTION-278"
+    },
+    {
+      "result": "Outlined",
+      "base_action": "outline",
+      "action_id": "ACTION-279"
+    },
+    {
+      "result": "outlined",
+      "base_action": "outline",
+      "action_id": "ACTION-279"
+    },
+    {
+      "result": "overseen",
+      "base_action": "oversee",
+      "action_id": "ACTION-280"
+    },
+    {
+      "result": "packaged",
+      "base_action": "package",
+      "action_id": "ACTION-281"
+    },
+    {
+      "result": "painted",
+      "base_action": "paint",
+      "action_id": "ACTION-282"
+    },
+    {
+      "result": "Performed",
+      "base_action": "perform",
+      "action_id": "ACTION-283"
+    },
+    {
+      "result": "performed",
+      "base_action": "perform",
+      "action_id": "ACTION-283"
+    },
+    {
+      "result": "personalized",
+      "base_action": "personalize",
+      "action_id": "ACTION-284"
+    },
+    {
+      "result": "piloted",
+      "base_action": "pilot",
+      "action_id": "ACTION-285"
+    },
+    {
+      "result": "pivoted",
+      "base_action": "pivot",
+      "action_id": "ACTION-286"
+    },
+    {
+      "result": "placed",
+      "base_action": "place",
+      "action_id": "ACTION-287"
+    },
+    {
+      "result": "Planned",
+      "base_action": "plan",
+      "action_id": "ACTION-288"
+    },
+    {
+      "result": "planned",
+      "base_action": "plan",
+      "action_id": "ACTION-288"
+    },
+    {
+      "result": "plotted",
+      "base_action": "plot",
+      "action_id": "ACTION-289"
+    },
+    {
+      "result": "positioned",
+      "base_action": "position",
+      "action_id": "ACTION-290"
+    },
+    {
+      "result": "posted",
+      "base_action": "post",
+      "action_id": "ACTION-291"
+    },
+    {
+      "result": "Practiced",
+      "base_action": "Practice",
+      "action_id": "ACTION-292"
+    },
+    {
+      "result": "pre-approved",
+      "base_action": "pre-approve",
+      "action_id": "ACTION-293"
+    },
+    {
+      "result": "predicted",
+      "base_action": "predict",
+      "action_id": "ACTION-294"
+    },
+    {
+      "result": "Prepared",
+      "base_action": "prepare",
+      "action_id": "ACTION-295"
+    },
+    {
+      "result": "prepared",
+      "base_action": "prepare",
+      "action_id": "ACTION-295"
+    },
+    {
+      "result": "Presented",
+      "base_action": "present",
+      "action_id": "ACTION-296"
+    },
+    {
+      "result": "presented",
+      "base_action": "present",
+      "action_id": "ACTION-296"
+    },
+    {
+      "result": "Previewed",
+      "base_action": "preview",
+      "action_id": "ACTION-297"
+    },
+    {
+      "result": "previewed",
+      "base_action": "preview",
+      "action_id": "ACTION-297"
+    },
+    {
+      "result": "prioritized",
+      "base_action": "prioritize",
+      "action_id": "ACTION-298"
+    },
+    {
+      "result": "processed",
+      "base_action": "process",
+      "action_id": "ACTION-299"
+    },
+    {
+      "result": "procured",
+      "base_action": "procure",
+      "action_id": "ACTION-300"
+    },
+    {
+      "result": "produced",
+      "base_action": "produce",
+      "action_id": "ACTION-301"
+    },
+    {
+      "result": "profiled",
+      "base_action": "profile",
+      "action_id": "ACTION-302"
+    },
+    {
+      "result": "programmed",
+      "base_action": "program",
+      "action_id": "ACTION-303"
+    },
+    {
+      "result": "proofread",
+      "base_action": "proofread",
+      "action_id": "ACTION-304"
+    },
+    {
+      "result": "proposed",
+      "base_action": "propose",
+      "action_id": "ACTION-305"
+    },
+    {
+      "result": "Prototyped",
+      "base_action": "prototype",
+      "action_id": "ACTION-306"
+    },
+    {
+      "result": "prototyped",
+      "base_action": "prototype",
+      "action_id": "ACTION-306"
+    },
+    {
+      "result": "Provided",
+      "base_action": "provide",
+      "action_id": "ACTION-307"
+    },
+    {
+      "result": "provided",
+      "base_action": "provide",
+      "action_id": "ACTION-307"
+    },
+    {
+      "result": "Published",
+      "base_action": "publish",
+      "action_id": "ACTION-308"
+    },
+    {
+      "result": "published",
+      "base_action": "publish",
+      "action_id": "ACTION-308"
+    },
+    {
+      "result": "pulled",
+      "base_action": "pull",
+      "action_id": "ACTION-309"
+    },
+    {
+      "result": "Pushed",
+      "base_action": "Push",
+      "action_id": "ACTION-310"
+    },
+    {
+      "result": "re-engaged",
+      "base_action": "re-engage",
+      "action_id": "ACTION-311"
+    },
+    {
+      "result": "re-organized",
+      "base_action": "re-organize",
+      "action_id": "ACTION-312"
+    },
+    {
+      "result": "re-published",
+      "base_action": "re-publish",
+      "action_id": "ACTION-313"
+    },
+    {
+      "result": "re-scripted",
+      "base_action": "re-script",
+      "action_id": "ACTION-314"
+    },
+    {
+      "result": "re-submitted",
+      "base_action": "re-submit",
+      "action_id": "ACTION-315"
+    },
+    {
+      "result": "reached out",
+      "base_action": "reach out",
+      "action_id": "ACTION-316"
+    },
+    {
+      "result": "reallocated",
+      "base_action": "reallocate",
+      "action_id": "ACTION-317"
+    },
+    {
+      "result": "rearranged",
+      "base_action": "rearrange",
+      "action_id": "ACTION-318"
+    },
+    {
+      "result": "reassessed",
+      "base_action": "reassess",
+      "action_id": "ACTION-319"
+    },
+    {
+      "result": "reassigned",
+      "base_action": "reassign",
+      "action_id": "ACTION-320"
+    },
+    {
+      "result": "Received",
+      "base_action": "Receive",
+      "action_id": "ACTION-321"
+    },
+    {
+      "result": "received",
+      "base_action": "Receive",
+      "action_id": "ACTION-321"
+    },
+    {
+      "result": "recommended",
+      "base_action": "recommend",
+      "action_id": "ACTION-322"
+    },
+    {
+      "result": "Recorded",
+      "base_action": "record",
+      "action_id": "ACTION-323"
+    },
+    {
+      "result": "recorded",
+      "base_action": "record",
+      "action_id": "ACTION-323"
+    },
+    {
+      "result": "recruited",
+      "base_action": "recruit",
+      "action_id": "ACTION-324"
+    },
+    {
+      "result": "rectified",
+      "base_action": "rectify",
+      "action_id": "ACTION-325"
+    },
+    {
+      "result": "redefined",
+      "base_action": "redefine",
+      "action_id": "ACTION-326"
+    },
+    {
+      "result": "redesigned",
+      "base_action": "redesign",
+      "action_id": "ACTION-327"
+    },
+    {
+      "result": "redistributed",
+      "base_action": "redistribute",
+      "action_id": "ACTION-328"
+    },
+    {
+      "result": "redrafted",
+      "base_action": "redraft",
+      "action_id": "ACTION-329"
+    },
+    {
+      "result": "Reevaluated",
+      "base_action": "Reevaluate",
+      "action_id": "ACTION-330"
+    },
+    {
+      "result": "Refactored",
+      "base_action": "Refactor",
+      "action_id": "ACTION-331"
+    },
+    {
+      "result": "refactored",
+      "base_action": "Refactor",
+      "action_id": "ACTION-331"
+    },
+    {
+      "result": "Refined",
+      "base_action": "refine",
+      "action_id": "ACTION-332"
+    },
+    {
+      "result": "refined",
+      "base_action": "refine",
+      "action_id": "ACTION-332"
+    },
+    {
+      "result": "reflected",
+      "base_action": "reflect",
+      "action_id": "ACTION-333"
+    },
+    {
+      "result": "Reformatted",
+      "base_action": "Reformat",
+      "action_id": "ACTION-334"
+    },
+    {
+      "result": "refreshed",
+      "base_action": "refresh",
+      "action_id": "ACTION-335"
+    },
+    {
+      "result": "regularly checked",
+      "base_action": "regularly check",
+      "action_id": "ACTION-336"
+    },
+    {
+      "result": "regularly updated",
+      "base_action": "regularly update",
+      "action_id": "ACTION-337"
+    },
+    {
+      "result": "rehearsed",
+      "base_action": "rehearse",
+      "action_id": "ACTION-338"
+    },
+    {
+      "result": "reinforced",
+      "base_action": "reinforce",
+      "action_id": "ACTION-339"
+    },
+    {
+      "result": "reiterated",
+      "base_action": "reiterate",
+      "action_id": "ACTION-340"
+    },
+    {
+      "result": "reminded",
+      "base_action": "remind",
+      "action_id": "ACTION-341"
+    },
+    {
+      "result": "removed",
+      "base_action": "remove",
+      "action_id": "ACTION-342"
+    },
+    {
+      "result": "rendered",
+      "base_action": "render",
+      "action_id": "ACTION-343"
+    },
+    {
+      "result": "replaced",
+      "base_action": "replace",
+      "action_id": "ACTION-344"
+    },
+    {
+      "result": "reported",
+      "base_action": "report",
+      "action_id": "ACTION-345"
+    },
+    {
+      "result": "republished",
+      "base_action": "republish",
+      "action_id": "ACTION-346"
+    },
+    {
+      "result": "requested",
+      "base_action": "request",
+      "action_id": "ACTION-347"
+    },
+    {
+      "result": "Researched",
+      "base_action": "research",
+      "action_id": "ACTION-348"
+    },
+    {
+      "result": "researched",
+      "base_action": "research",
+      "action_id": "ACTION-348"
+    },
+    {
+      "result": "resent",
+      "base_action": "resend",
+      "action_id": "ACTION-349"
+    },
+    {
+      "result": "reserved",
+      "base_action": "reserve",
+      "action_id": "ACTION-350"
+    },
+    {
+      "result": "Resolved",
+      "base_action": "Resolve",
+      "action_id": "ACTION-351"
+    },
+    {
+      "result": "resolved",
+      "base_action": "Resolve",
+      "action_id": "ACTION-351"
+    },
+    {
+      "result": "responded",
+      "base_action": "respond",
+      "action_id": "ACTION-352"
+    },
+    {
+      "result": "restored",
+      "base_action": "restore",
+      "action_id": "ACTION-353"
+    },
+    {
+      "result": "restricted",
+      "base_action": "restrict",
+      "action_id": "ACTION-354"
+    },
+    {
+      "result": "Retained",
+      "base_action": "Retain",
+      "action_id": "ACTION-355"
+    },
+    {
+      "result": "Retested",
+      "base_action": "Retest",
+      "action_id": "ACTION-356"
+    },
+    {
+      "result": "retested",
+      "base_action": "Retest",
+      "action_id": "ACTION-356"
+    },
+    {
+      "result": "Retrieved",
+      "base_action": "retrieve",
+      "action_id": "ACTION-357"
+    },
+    {
+      "result": "retrieved",
+      "base_action": "retrieve",
+      "action_id": "ACTION-357"
+    },
+    {
+      "result": "Reviewed",
+      "base_action": "review",
+      "action_id": "ACTION-358"
+    },
+    {
+      "result": "reviewed",
+      "base_action": "review",
+      "action_id": "ACTION-358"
+    },
+    {
+      "result": "reviewed and adjusted",
+      "base_action": "review and adjust",
+      "action_id": "ACTION-359"
+    },
+    {
+      "result": "Revised",
+      "base_action": "revise",
+      "action_id": "ACTION-360"
+    },
+    {
+      "result": "revised",
+      "base_action": "revise",
+      "action_id": "ACTION-360"
+    },
+    {
+      "result": "revisited",
+      "base_action": "revisit",
+      "action_id": "ACTION-361"
+    },
+    {
+      "result": "rewritten",
+      "base_action": "rewrite",
+      "action_id": "ACTION-362"
+    },
+    {
+      "result": "rigged",
+      "base_action": "rig",
+      "action_id": "ACTION-363"
+    },
+    {
+      "result": "Rolled out",
+      "base_action": "roll out",
+      "action_id": "ACTION-364"
+    },
+    {
+      "result": "rolled out",
+      "base_action": "roll out",
+      "action_id": "ACTION-364"
+    },
+    {
+      "result": "Run",
+      "base_action": "run",
+      "action_id": "ACTION-365"
+    },
+    {
+      "result": "run",
+      "base_action": "run",
+      "action_id": "ACTION-365"
+    },
+    {
+      "result": "saved",
+      "base_action": "save",
+      "action_id": "ACTION-366"
+    },
+    {
+      "result": "scaled",
+      "base_action": "scale",
+      "action_id": "ACTION-367"
+    },
+    {
+      "result": "scheduled",
+      "base_action": "schedule",
+      "action_id": "ACTION-368"
+    },
+    {
+      "result": "scripted",
+      "base_action": "script",
+      "action_id": "ACTION-369"
+    },
+    {
+      "result": "sculpted",
+      "base_action": "sculpt",
+      "action_id": "ACTION-370"
+    },
+    {
+      "result": "secured",
+      "base_action": "secure",
+      "action_id": "ACTION-371"
+    },
+    {
+      "result": "seen",
+      "base_action": "see",
+      "action_id": "ACTION-372"
+    },
+    {
+      "result": "sought",
+      "base_action": "seek",
+      "action_id": "ACTION-373"
+    },
+    {
+      "result": "segmented",
+      "base_action": "segment",
+      "action_id": "ACTION-374"
+    },
+    {
+      "result": "segregated",
+      "base_action": "segregate",
+      "action_id": "ACTION-375"
+    },
+    {
+      "result": "Selected",
+      "base_action": "select",
+      "action_id": "ACTION-376"
+    },
+    {
+      "result": "selected",
+      "base_action": "select",
+      "action_id": "ACTION-376"
+    },
+    {
+      "result": "sent",
+      "base_action": "send",
+      "action_id": "ACTION-377"
+    },
+    {
+      "result": "Sequenced",
+      "base_action": "sequence",
+      "action_id": "ACTION-378"
+    },
+    {
+      "result": "sequenced",
+      "base_action": "sequence",
+      "action_id": "ACTION-378"
+    },
+    {
+      "result": "Set",
+      "base_action": "set",
+      "action_id": "ACTION-379"
+    },
+    {
+      "result": "set",
+      "base_action": "set",
+      "action_id": "ACTION-379"
+    },
+    {
+      "result": "Set up",
+      "base_action": "set up",
+      "action_id": "ACTION-380"
+    },
+    {
+      "result": "set up",
+      "base_action": "set up",
+      "action_id": "ACTION-380"
+    },
+    {
+      "result": "Shared",
+      "base_action": "share",
+      "action_id": "ACTION-381"
+    },
+    {
+      "result": "shared",
+      "base_action": "share",
+      "action_id": "ACTION-381"
+    },
+    {
+      "result": "shot",
+      "base_action": "shoot",
+      "action_id": "ACTION-382"
+    },
+    {
+      "result": "Simplified",
+      "base_action": "simplify",
+      "action_id": "ACTION-383"
+    },
+    {
+      "result": "simplified",
+      "base_action": "simplify",
+      "action_id": "ACTION-383"
+    },
+    {
+      "result": "Simulated",
+      "base_action": "simulate",
+      "action_id": "ACTION-384"
+    },
+    {
+      "result": "simulated",
+      "base_action": "simulate",
+      "action_id": "ACTION-384"
+    },
+    {
+      "result": "Sketched",
+      "base_action": "sketch",
+      "action_id": "ACTION-385"
+    },
+    {
+      "result": "sketched",
+      "base_action": "sketch",
+      "action_id": "ACTION-385"
+    },
+    {
+      "result": "solicited",
+      "base_action": "solicit",
+      "action_id": "ACTION-386"
+    },
+    {
+      "result": "sorted",
+      "base_action": "sort",
+      "action_id": "ACTION-387"
+    },
+    {
+      "result": "sourced",
+      "base_action": "source",
+      "action_id": "ACTION-388"
+    },
+    {
+      "result": "Specified",
+      "base_action": "specify",
+      "action_id": "ACTION-389"
+    },
+    {
+      "result": "specified",
+      "base_action": "specify",
+      "action_id": "ACTION-389"
+    },
+    {
+      "result": "stabilized",
+      "base_action": "stabilize",
+      "action_id": "ACTION-390"
+    },
+    {
+      "result": "Standardized",
+      "base_action": "standardize",
+      "action_id": "ACTION-391"
+    },
+    {
+      "result": "standardized",
+      "base_action": "standardize",
+      "action_id": "ACTION-391"
+    },
+    {
+      "result": "Started",
+      "base_action": "start",
+      "action_id": "ACTION-392"
+    },
+    {
+      "result": "started",
+      "base_action": "start",
+      "action_id": "ACTION-392"
+    },
+    {
+      "result": "stored",
+      "base_action": "store",
+      "action_id": "ACTION-393"
+    },
+    {
+      "result": "storyboarded",
+      "base_action": "storyboard",
+      "action_id": "ACTION-394"
+    },
+    {
+      "result": "Streamlined",
+      "base_action": "Streamline",
+      "action_id": "ACTION-395"
+    },
+    {
+      "result": "streamlined",
+      "base_action": "Streamline",
+      "action_id": "ACTION-395"
+    },
+    {
+      "result": "Structured",
+      "base_action": "Structure",
+      "action_id": "ACTION-396"
+    },
+    {
+      "result": "Studied",
+      "base_action": "study",
+      "action_id": "ACTION-397"
+    },
+    {
+      "result": "studied",
+      "base_action": "study",
+      "action_id": "ACTION-397"
+    },
+    {
+      "result": "Styled",
+      "base_action": "style",
+      "action_id": "ACTION-398"
+    },
+    {
+      "result": "styled",
+      "base_action": "style",
+      "action_id": "ACTION-398"
+    },
+    {
+      "result": "submitted",
+      "base_action": "submit",
+      "action_id": "ACTION-399"
+    },
+    {
+      "result": "suggested",
+      "base_action": "suggest",
+      "action_id": "ACTION-400"
+    },
+    {
+      "result": "summarized",
+      "base_action": "summarize",
+      "action_id": "ACTION-401"
+    },
+    {
+      "result": "Synced",
+      "base_action": "sync",
+      "action_id": "ACTION-402"
+    },
+    {
+      "result": "synced",
+      "base_action": "sync",
+      "action_id": "ACTION-402"
+    },
+    {
+      "result": "Synchronized",
+      "base_action": "synchronize",
+      "action_id": "ACTION-403"
+    },
+    {
+      "result": "synchronized",
+      "base_action": "synchronize",
+      "action_id": "ACTION-403"
+    },
+    {
+      "result": "synthesized",
+      "base_action": "synthesize",
+      "action_id": "ACTION-404"
+    },
+    {
+      "result": "Tailored",
+      "base_action": "tailor",
+      "action_id": "ACTION-405"
+    },
+    {
+      "result": "tailored",
+      "base_action": "tailor",
+      "action_id": "ACTION-405"
+    },
+    {
+      "result": "taken",
+      "base_action": "take",
+      "action_id": "ACTION-406"
+    },
+    {
+      "result": "Tested",
+      "base_action": "test",
+      "action_id": "ACTION-407"
+    },
+    {
+      "result": "tested",
+      "base_action": "test",
+      "action_id": "ACTION-407"
+    },
+    {
+      "result": "thanked",
+      "base_action": "thank",
+      "action_id": "ACTION-408"
+    },
+    {
+      "result": "tracked",
+      "base_action": "track",
+      "action_id": "ACTION-409"
+    },
+    {
+      "result": "Trained",
+      "base_action": "train",
+      "action_id": "ACTION-410"
+    },
+    {
+      "result": "trained",
+      "base_action": "train",
+      "action_id": "ACTION-410"
+    },
+    {
+      "result": "transcribed",
+      "base_action": "transcribe",
+      "action_id": "ACTION-411"
+    },
+    {
+      "result": "transferred",
+      "base_action": "transfer",
+      "action_id": "ACTION-412"
+    },
+    {
+      "result": "translated",
+      "base_action": "translate",
+      "action_id": "ACTION-413"
+    },
+    {
+      "result": "troubleshooted",
+      "base_action": "troubleshoot",
+      "action_id": "ACTION-414"
+    },
+    {
+      "result": "Tweaked",
+      "base_action": "Tweak",
+      "action_id": "ACTION-415"
+    },
+    {
+      "result": "tweaked",
+      "base_action": "Tweak",
+      "action_id": "ACTION-415"
+    },
+    {
+      "result": "understood",
+      "base_action": "understand",
+      "action_id": "ACTION-416"
+    },
+    {
+      "result": "Updated",
+      "base_action": "update",
+      "action_id": "ACTION-417"
+    },
+    {
+      "result": "updated",
+      "base_action": "update",
+      "action_id": "ACTION-417"
+    },
+    {
+      "result": "Uploaded",
+      "base_action": "upload",
+      "action_id": "ACTION-418"
+    },
+    {
+      "result": "uploaded",
+      "base_action": "upload",
+      "action_id": "ACTION-418"
+    },
+    {
+      "result": "upscaled",
+      "base_action": "upscale",
+      "action_id": "ACTION-419"
+    },
+    {
+      "result": "Used",
+      "base_action": "use",
+      "action_id": "ACTION-420"
+    },
+    {
+      "result": "used",
+      "base_action": "use",
+      "action_id": "ACTION-420"
+    },
+    {
+      "result": "Utilized",
+      "base_action": "utilize",
+      "action_id": "ACTION-421"
+    },
+    {
+      "result": "utilized",
+      "base_action": "utilize",
+      "action_id": "ACTION-421"
+    },
+    {
+      "result": "Validated",
+      "base_action": "validate",
+      "action_id": "ACTION-422"
+    },
+    {
+      "result": "validated",
+      "base_action": "validate",
+      "action_id": "ACTION-422"
+    },
+    {
+      "result": "Verified",
+      "base_action": "verify",
+      "action_id": "ACTION-423"
+    },
+    {
+      "result": "verified",
+      "base_action": "verify",
+      "action_id": "ACTION-423"
+    },
+    {
+      "result": "visualized",
+      "base_action": "visualize",
+      "action_id": "ACTION-424"
+    },
+    {
+      "result": "visually highlighted",
+      "base_action": "visually",
+      "action_id": "ACTION-425"
+    },
+    {
+      "result": "watched",
+      "base_action": "watch",
+      "action_id": "ACTION-426"
+    },
+    {
+      "result": "weaved",
+      "base_action": "weave",
+      "action_id": "ACTION-427"
+    },
+    {
+      "result": "workshopped",
+      "base_action": "workshop",
+      "action_id": "ACTION-428"
+    },
+    {
+      "result": "Written",
+      "base_action": "write",
+      "action_id": "ACTION-429"
+    },
+    {
+      "result": "written",
+      "base_action": "write",
+      "action_id": "ACTION-429"
+    },
+    {
+      "result": "wrote",
+      "base_action": "write",
+      "action_id": "ACTION-429"
+    },
+    {
+      "result": "wroten",
+      "base_action": "write",
+      "action_id": "ACTION-429"
+    }
+  ]
+}

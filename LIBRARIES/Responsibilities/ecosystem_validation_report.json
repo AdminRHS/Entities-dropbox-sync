@@ -1,0 +1,43 @@
+{
+  "validation_date": 1763343965.18987,
+  "entities_directory": "C:\\Users\\Dell\\Dropbox\\ENTITIES",
+  "successes": [
+    "Directory exists: LIBRARIES/Responsibilities",
+    "Subdirectory exists: LIBRARIES/Responsibilities/Actions",
+    "Subdirectory exists: LIBRARIES/Responsibilities/Objects",
+    "Subdirectory exists: LIBRARIES/Responsibilities/Parameters",
+    "Subdirectory exists: LIBRARIES/Responsibilities/Core",
+    "File exists: LIBRARIES/Responsibilities/README.md",
+    "File valid: LIBRARIES/Responsibilities/responsibilities.json",
+    "Directory exists: LIBRARIES/Responsibilities/Core",
+    "Subdirectory exists: LIBRARIES/Responsibilities/Core/By_Department",
+    "File valid: LIBRARIES/Responsibilities/Core/responsibilities_master.json",
+    "File valid: LIBRARIES/Responsibilities/Core/phrase_matching_index.json",
+    "File valid: LIBRARIES/Responsibilities/Core/action_variants_map.json",
+    "File valid: LIBRARIES/Responsibilities/Core/object_variants_map.json",
+    "Directory exists: LIBRARIES/Responsibilities/Actions",
+    "Directory exists: LIBRARIES/Responsibilities/Objects",
+    "Directory exists: LIBRARIES/Responsibilities/Parameters",
+    "Actions directory has 27 files",
+    "Objects directory has 13 files",
+    "Parameters directory has 15 files",
+    "Core file valid: responsibilities_master.json",
+    "Core file valid: phrase_matching_index.json",
+    "Core file valid: action_variants_map.json",
+    "Core file valid: object_variants_map.json",
+    "Department file valid: DEV_Responsibilities.json",
+    "Department file valid: HR_Responsibilities.json",
+    "Department file valid: LG_Responsibilities.json"
+  ],
+  "issues": [
+    "Missing file: LIBRARIES/Responsibilities/Actions/action_variants.json",
+    "Missing file: LIBRARIES/Responsibilities/Objects/objects_taxonomy.json",
+    "Invalid department file: AI_Responsibilities.json - Unexpected UTF-8 BOM (decode using utf-8-sig): line 1 column 1 (char 0)"
+  ],
+  "file_counts": {
+    "actions": 27,
+    "objects": 13,
+    "parameters": 15,
+    "department_files": 4
+  }
+}

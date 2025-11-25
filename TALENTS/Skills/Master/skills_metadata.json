@@ -1,0 +1,58 @@
+﻿{
+    "difficulty_distribution":  {
+                                    "expert":  0,
+                                    "intermediate":  11,
+                                    "beginner":  12,
+                                    "advanced":  5
+                                },
+    "version":  "1.0",
+    "total_skills":  28,
+    "migration_date":  "2025-01-16",
+    "professions":  [
+                        "ui/ux designer",
+                        "full stack developer",
+                        "smm",
+                        "video editor",
+                        "motion designer",
+                        "frontend developer",
+                        "graphic designer",
+                        "hr manager",
+                        "sales manager",
+                        "recruiter",
+                        "animator",
+                        "backend developer",
+                        "lead generator"
+                    ],
+    "last_updated":  "2025-11-16",
+    "departments":  [
+                        "Managers (HR)",
+                        "Lead Generation",
+                        "Design",
+                        "Developers",
+                        "Sales",
+                        "Video"
+                    ],
+    "tools":  [
+                  "Gmail",
+                  "Docker",
+                  "CRM",
+                  "Figma",
+                  "Chrome DevTools",
+                  "Google Sheets",
+                  "React",
+                  "Adobe Premiere",
+                  "Canva",
+                  "DocuSign",
+                  "Google Docs",
+                  "Node.js",
+                  "GitHub",
+                  "After Effects",
+                  "Discord",
+                  "n8n",
+                  "Hunter.io",
+                  "Zoom",
+                  "Midjourney",
+                  "LinkedIn"
+              ],
+    "migrated_from":  "LIBRARIES/Skills"
+}

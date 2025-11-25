@@ -1,0 +1,348 @@
+﻿[
+    {
+        "skill_id":  "SKL-002",
+        "skill_phrase":  "conducted video interviews via Zoom",
+        "components":  {
+                           "result":  "conducted",
+                           "action":  "conduct",
+                           "object":  "video interviews",
+                           "object_type":  "video interview, project interview",
+                           "tool":  "Zoom",
+                           "tool_category":  "Video Call"
+                       },
+        "department":  "Managers (HR)",
+        "professions":  [
+                            "recruiter",
+                            "hr manager"
+                        ],
+        "difficulty_level":  "intermediate",
+        "frequency":  "weekly",
+        "time_estimate_minutes":  45,
+        "automation_potential":  "low",
+        "related_skills":  [
+                               "SKL-001",
+                               "SKL-004"
+                           ],
+        "example_tasks":  [
+                              "Conduct behavioral interview with UI/UX Designer candidate",
+                              "Conduct technical interview with Dev Lead for Backend position"
+                          ],
+        "training_resources":  [
+
+                               ]
+    },
+    {
+        "skill_id":  "SKL-005",
+        "skill_phrase":  "analyzed recruitment data in Google Sheets",
+        "components":  {
+                           "result":  "analyzed",
+                           "action":  "analyze",
+                           "object":  "recruitment data",
+                           "object_type":  "daily report, monthly report",
+                           "tool":  "Google Sheets",
+                           "tool_category":  "Spreadsheet"
+                       },
+        "department":  "Managers (HR)",
+        "professions":  [
+                            "recruiter",
+                            "hr manager"
+                        ],
+        "difficulty_level":  "intermediate",
+        "frequency":  "weekly",
+        "time_estimate_minutes":  60,
+        "automation_potential":  "medium",
+        "related_skills":  [
+                               "SKL-004",
+                               "SKL-006"
+                           ],
+        "example_tasks":  [
+                              "Analyze monthly recruitment metrics: time-to-hire, offer acceptance rate",
+                              "Create pivot tables for candidate sources analysis"
+                          ],
+        "training_resources":  [
+
+                               ]
+    },
+    {
+        "skill_id":  "SKL-014",
+        "skill_phrase":  "scraped contact data using automation tools",
+        "components":  {
+                           "result":  "scraped",
+                           "action":  "scrape",
+                           "object":  "contact data",
+                           "object_type":  "valid contacts",
+                           "tool":  "Hunter.io",
+                           "tool_category":  "Automation"
+                       },
+        "department":  "Lead Generation",
+        "professions":  [
+                            "lead generator"
+                        ],
+        "difficulty_level":  "intermediate",
+        "frequency":  "daily",
+        "time_estimate_minutes":  15,
+        "automation_potential":  "high",
+        "related_skills":  [
+                               "SKL-013",
+                               "SKL-015"
+                           ],
+        "example_tasks":  [
+                              "Scrape email addresses for 100 companies using Hunter.io",
+                              "Extract LinkedIn profile data into Google Sheets"
+                          ],
+        "training_resources":  [
+
+                               ]
+    },
+    {
+        "skill_id":  "SKL-020",
+        "skill_phrase":  "created UI mockups in Figma",
+        "components":  {
+                           "result":  "created",
+                           "action":  "create",
+                           "object":  "UI mockups",
+                           "object_type":  "web mockup, mobile mockup",
+                           "tool":  "Figma",
+                           "tool_category":  "Design"
+                       },
+        "department":  "Design",
+        "professions":  [
+                            "ui/ux designer",
+                            "graphic designer"
+                        ],
+        "difficulty_level":  "intermediate",
+        "frequency":  "daily",
+        "time_estimate_minutes":  120,
+        "automation_potential":  "medium",
+        "related_skills":  [
+                               "SKL-021",
+                               "SKL-022"
+                           ],
+        "example_tasks":  [
+                              "Create 3 mobile app screens: Login, Home, Profile",
+                              "Design landing page mockup for Client X"
+                          ],
+        "training_resources":  [
+
+                               ]
+    },
+    {
+        "skill_id":  "SKL-023",
+        "skill_phrase":  "generated AI images using Midjourney",
+        "components":  {
+                           "result":  "generated",
+                           "action":  "generate",
+                           "object":  "AI images",
+                           "object_type":  "background graphics",
+                           "tool":  "Midjourney",
+                           "tool_category":  "AI Tool"
+                       },
+        "department":  "Design",
+        "professions":  [
+                            "graphic designer"
+                        ],
+        "difficulty_level":  "intermediate",
+        "frequency":  "weekly",
+        "time_estimate_minutes":  20,
+        "automation_potential":  "high",
+        "related_skills":  [
+                               "SKL-021",
+                               "SKL-024"
+                           ],
+        "example_tasks":  [
+                              "Generate 10 abstract backgrounds for social media posts",
+                              "Create AI-generated product mockups for presentation"
+                          ],
+        "training_resources":  [
+
+                               ]
+    },
+    {
+        "skill_id":  "SKL-030",
+        "skill_phrase":  "developed features in React",
+        "components":  {
+                           "result":  "developed",
+                           "action":  "develop",
+                           "object":  "features",
+                           "object_type":  "UI components, pages",
+                           "tool":  "React",
+                           "tool_category":  "Development Framework"
+                       },
+        "department":  "Developers",
+        "professions":  [
+                            "frontend developer",
+                            "full stack developer"
+                        ],
+        "difficulty_level":  "intermediate",
+        "frequency":  "daily",
+        "time_estimate_minutes":  240,
+        "automation_potential":  "low",
+        "related_skills":  [
+                               "SKL-031",
+                               "SKL-032"
+                           ],
+        "example_tasks":  [
+                              "Develop user dashboard with data visualization components",
+                              "Create responsive navigation menu with React Router"
+                          ],
+        "training_resources":  [
+
+                               ]
+    },
+    {
+        "skill_id":  "SKL-033",
+        "skill_phrase":  "debugged applications using DevTools",
+        "components":  {
+                           "result":  "debugged",
+                           "action":  "debug",
+                           "object":  "applications",
+                           "object_type":  "bugs, errors, performance issues",
+                           "tool":  "Chrome DevTools",
+                           "tool_category":  "Development Tool"
+                       },
+        "department":  "Developers",
+        "professions":  [
+                            "frontend developer",
+                            "full stack developer"
+                        ],
+        "difficulty_level":  "intermediate",
+        "frequency":  "daily",
+        "time_estimate_minutes":  45,
+        "automation_potential":  "low",
+        "related_skills":  [
+                               "SKL-030",
+                               "SKL-034"
+                           ],
+        "example_tasks":  [
+                              "Identify and fix memory leak using DevTools profiler",
+                              "Debug API response errors in Network tab"
+                          ],
+        "training_resources":  [
+
+                               ]
+    },
+    {
+        "skill_id":  "SKL-040",
+        "skill_phrase":  "conducted discovery calls via Zoom",
+        "components":  {
+                           "result":  "conducted",
+                           "action":  "conduct",
+                           "object":  "discovery calls",
+                           "object_type":  "first call, introductory call",
+                           "tool":  "Zoom",
+                           "tool_category":  "Video Call"
+                       },
+        "department":  "Sales",
+        "professions":  [
+                            "sales manager"
+                        ],
+        "difficulty_level":  "intermediate",
+        "frequency":  "daily",
+        "time_estimate_minutes":  45,
+        "automation_potential":  "low",
+        "related_skills":  [
+                               "SKL-041",
+                               "SKL-042"
+                           ],
+        "example_tasks":  [
+                              "Conduct BANT qualification call with prospective client",
+                              "Present Remote Helpers services to CTO"
+                          ],
+        "training_resources":  [
+
+                               ]
+    },
+    {
+        "skill_id":  "SKL-041",
+        "skill_phrase":  "created proposals in Google Docs",
+        "components":  {
+                           "result":  "created",
+                           "action":  "create",
+                           "object":  "proposals",
+                           "object_type":  "client proposal, project proposal",
+                           "tool":  "Google Docs",
+                           "tool_category":  "Document"
+                       },
+        "department":  "Sales",
+        "professions":  [
+                            "sales manager"
+                        ],
+        "difficulty_level":  "intermediate",
+        "frequency":  "weekly",
+        "time_estimate_minutes":  90,
+        "automation_potential":  "medium",
+        "related_skills":  [
+                               "SKL-040",
+                               "SKL-043"
+                           ],
+        "example_tasks":  [
+                              "Create custom proposal for 2 frontend developers outstaff",
+                              "Draft project scope and pricing for CRM development"
+                          ],
+        "training_resources":  [
+
+                               ]
+    },
+    {
+        "skill_id":  "SKL-044",
+        "skill_phrase":  "analyzed sales data in Google Sheets",
+        "components":  {
+                           "result":  "analyzed",
+                           "action":  "analyze",
+                           "object":  "sales data",
+                           "object_type":  "daily report, monthly report",
+                           "tool":  "Google Sheets",
+                           "tool_category":  "Spreadsheet"
+                       },
+        "department":  "Sales",
+        "professions":  [
+                            "sales manager"
+                        ],
+        "difficulty_level":  "intermediate",
+        "frequency":  "weekly",
+        "time_estimate_minutes":  60,
+        "automation_potential":  "medium",
+        "related_skills":  [
+                               "SKL-042",
+                               "SKL-045"
+                           ],
+        "example_tasks":  [
+                              "Analyze monthly pipeline: conversion rates, average deal size",
+                              "Create sales forecast for next quarter"
+                          ],
+        "training_resources":  [
+
+                               ]
+    },
+    {
+        "skill_id":  "SKL-051",
+        "skill_phrase":  "added subtitles in Adobe Premiere",
+        "components":  {
+                           "result":  "added",
+                           "action":  "add",
+                           "object":  "subtitles",
+                           "object_type":  "translated subtitles, closed caption",
+                           "tool":  "Adobe Premiere",
+                           "tool_category":  "Video Editing"
+                       },
+        "department":  "Video",
+        "professions":  [
+                            "video editor"
+                        ],
+        "difficulty_level":  "intermediate",
+        "frequency":  "daily",
+        "time_estimate_minutes":  45,
+        "automation_potential":  "high",
+        "related_skills":  [
+                               "SKL-050",
+                               "SKL-053"
+                           ],
+        "example_tasks":  [
+                              "Add English subtitles to video CV",
+                              "Create bilingual subtitles for client presentation video"
+                          ],
+        "training_resources":  [
+
+                               ]
+    }
+]

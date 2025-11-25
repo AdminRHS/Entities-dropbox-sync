@@ -1,0 +1,129 @@
+{
+  "milestone_id": "MIL-NMP-002",
+  "milestone_name": "Core Modules Complete",
+  "project_id": "PROJ-001",
+  "phase": 1,
+  "phase_name": "Setup & Infrastructure",
+  "status": "Planned",
+  "priority": "High",
+  "progress_percentage": 0,
+  "description": "Create all 5 core module files in 00_Core/ folder with current, accurate data about company context, employees, projects, and AI instructions.",
+  "target_start_date": "2025-11-17",
+  "target_completion_date": "2025-11-18",
+  "actual_start_date": null,
+  "actual_completion_date": null,
+  "estimated_duration": "1 day",
+  "tasks": [
+    "TASK-NMP-005",
+    "TASK-NMP-006",
+    "TASK-NMP-007"
+  ],
+  "deliverables": [
+    {
+      "id": "DEL-002-01",
+      "name": "01_Purpose_Vision.md",
+      "description": "AI-first organization vision and mission",
+      "status": "Pending"
+    },
+    {
+      "id": "DEL-002-02",
+      "name": "02_Company_Context.md",
+      "description": "7 departments, 32 employees, platforms, OS",
+      "status": "Pending"
+    },
+    {
+      "id": "DEL-002-03",
+      "name": "03_Employee_Directory.md",
+      "description": "Complete directory of 32 employees",
+      "status": "Pending"
+    },
+    {
+      "id": "DEL-002-04",
+      "name": "04_Project_Directory.md",
+      "description": "31+ active projects with details",
+      "status": "Pending"
+    },
+    {
+      "id": "DEL-002-05",
+      "name": "05_AI_Instructions.md",
+      "description": "Core AI processing instructions",
+      "status": "Pending"
+    }
+  ],
+  "success_criteria": {
+    "quantitative": [
+      "All 5 core files created in 00_Core/",
+      "Employee directory contains 32 employees",
+      "Project directory contains 31+ projects",
+      "All department information current"
+    ],
+    "qualitative": [
+      "Data extracted accurately from MAIN_PROMPT_v4.md",
+      "Employee information is up-to-date",
+      "Project information is current",
+      "AI instructions are clear and comprehensive"
+    ]
+  },
+  "acceptance_criteria": [
+    {
+      "criteria": "01_Purpose_Vision.md created with vision statement",
+      "verified": false
+    },
+    {
+      "criteria": "02_Company_Context.md includes all 7 departments",
+      "verified": false
+    },
+    {
+      "criteria": "03_Employee_Directory.md has all 32 employees with correct details",
+      "verified": false
+    },
+    {
+      "criteria": "04_Project_Directory.md has 31+ projects with keywords",
+      "verified": false
+    },
+    {
+      "criteria": "05_AI_Instructions.md provides clear processing guidelines",
+      "verified": false
+    },
+    {
+      "criteria": "Cross-references to Professions library added where appropriate",
+      "verified": false
+    }
+  ],
+  "dependencies": [
+    {
+      "dependency_id": "DEP-MIL-002-01",
+      "description": "MIL-001 complete (folder structure exists)",
+      "type": "Milestone",
+      "status": "Required"
+    },
+    {
+      "dependency_id": "DEP-MIL-002-02",
+      "description": "MAIN_PROMPT_v4.md accessible for data extraction",
+      "type": "Document",
+      "status": "Available"
+    }
+  ],
+  "blockers": [],
+  "risks": [
+    {
+      "risk_id": "RISK-MIL-002-01",
+      "description": "Employee or project information may be outdated in v4",
+      "impact": "Low",
+      "probability": "Medium",
+      "mitigation": "Verify with stakeholders if data appears outdated"
+    }
+  ],
+  "related_milestones": {
+    "prerequisites": [
+      "MIL-001"
+    ],
+    "enables": [
+      "MIL-003"
+    ],
+    "parallel": []
+  },
+  "notes": "Extract data from MAIN_PROMPT_v4.md sections 2-4. Enhance with cross-references to LIBRARIES/Professions where applicable.",
+  "last_updated": "2025-11-15",
+  "version": "1.0"
+}

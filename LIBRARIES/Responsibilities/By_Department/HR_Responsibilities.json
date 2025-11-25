@@ -1,0 +1,188 @@
+[
+  {
+    "id": "RESP-HR-001",
+    "primary_phrase": "create job posting",
+    "action_variants": [
+      "create"
+    ],
+    "object_variants": [
+      "job posting"
+    ],
+    "action_base": "create",
+    "object_base": "job posting",
+    "departments": [
+      "HR"
+    ],
+    "primary_department": "HR",
+    "typical_tools": [],
+    "object_types": [],
+    "description": "Create job posting",
+    "frequency": 1,
+    "usage_examples": [
+      {
+        "task_id": "TEMPLATE-TASK-001",
+        "department": "HR",
+        "level": "task"
+      }
+    ],
+    "is_active": true,
+    "created_at": "2025-11-16T00:34:51.041664",
+    "created_by": "system_migration",
+    "version": "1.0"
+  },
+  {
+    "id": "RESP-HR-002",
+    "primary_phrase": "setup n8n workflow",
+    "action_variants": [
+      "setup"
+    ],
+    "object_variants": [
+      "n8n workflow"
+    ],
+    "action_base": "setup",
+    "object_base": "n8n workflow",
+    "departments": [
+      "HR"
+    ],
+    "primary_department": "HR",
+    "typical_tools": [],
+    "object_types": [],
+    "description": "Setup n8n workflow",
+    "frequency": 1,
+    "usage_examples": [
+      {
+        "task_id": "TEMPLATE-TASK-HR-AUTO-001",
+        "department": "HR",
+        "level": "task"
+      }
+    ],
+    "is_active": true,
+    "created_at": "2025-11-16T00:34:51.041666",
+    "created_by": "system_migration",
+    "version": "1.0"
+  },
+  {
+    "id": "RESP-HR-003",
+    "primary_phrase": "configure gemini ai parameters",
+    "action_variants": [
+      "configure"
+    ],
+    "object_variants": [
+      "gemini ai parameters"
+    ],
+    "action_base": "configure",
+    "object_base": "gemini ai parameters",
+    "departments": [
+      "HR"
+    ],
+    "primary_department": "HR",
+    "typical_tools": [],
+    "object_types": [],
+    "description": "Configure gemini ai parameters",
+    "frequency": 1,
+    "usage_examples": [
+      {
+        "task_id": "TEMPLATE-TASK-HR-AUTO-002",
+        "department": "HR",
+        "level": "task"
+      }
+    ],
+    "is_active": true,
+    "created_at": "2025-11-16T00:34:51.041668",
+    "created_by": "system_migration",
+    "version": "1.0"
+  },
+  {
+    "id": "RESP-HR-004",
+    "primary_phrase": "setup interview scheduling automation",
+    "action_variants": [
+      "setup"
+    ],
+    "object_variants": [
+      "interview scheduling automation"
+    ],
+    "action_base": "setup",
+    "object_base": "interview scheduling automation",
+    "departments": [
+      "HR"
+    ],
+    "primary_department": "HR",
+    "typical_tools": [],
+    "object_types": [],
+    "description": "Setup interview scheduling automation",
+    "frequency": 1,
+    "usage_examples": [
+      {
+        "task_id": "TEMPLATE-TASK-HR-AUTO-004",
+        "department": "HR",
+        "level": "task"
+      }
+    ],
+    "is_active": true,
+    "created_at": "2025-11-16T00:34:51.041670",
+    "created_by": "system_migration",
+    "version": "1.0"
+  },
+  {
+    "id": "RESP-HR-005",
+    "primary_phrase": "configure linkedin automation",
+    "action_variants": [
+      "configure"
+    ],
+    "object_variants": [
+      "linkedin automation"
+    ],
+    "action_base": "configure",
+    "object_base": "linkedin automation",
+    "departments": [
+      "HR"
+    ],
+    "primary_department": "HR",
+    "typical_tools": [],
+    "object_types": [],
+    "description": "Configure linkedin automation",
+    "frequency": 1,
+    "usage_examples": [
+      {
+        "task_id": "TEMPLATE-TASK-HR-AUTO-005",
+        "department": "HR",
+        "level": "task"
+      }
+    ],
+    "is_active": true,
+    "created_at": "2025-11-16T00:34:51.041672",
+    "created_by": "system_migration",
+    "version": "1.0"
+  },
+  {
+    "id": "RESP-HR-006",
+    "primary_phrase": "setup onboarding automation workflow",
+    "action_variants": [
+      "setup"
+    ],
+    "object_variants": [
+      "onboarding automation workflow"
+    ],
+    "action_base": "setup",
+    "object_base": "onboarding automation workflow",
+    "departments": [
+      "HR"
+    ],
+    "primary_department": "HR",
+    "typical_tools": [],
+    "object_types": [],
+    "description": "Setup onboarding automation workflow",
+    "frequency": 1,
+    "usage_examples": [
+      {
+        "task_id": "TEMPLATE-TASK-HR-AUTO-006",
+        "department": "HR",
+        "level": "task"
+      }
+    ],
+    "is_active": true,
+    "created_at": "2025-11-16T00:34:51.041674",
+    "created_by": "system_migration",
+    "version": "1.0"
+  }
+]

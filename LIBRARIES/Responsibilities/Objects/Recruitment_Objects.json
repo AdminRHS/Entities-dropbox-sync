@@ -1,0 +1,160 @@
+{
+  "entity_type": "LIBRARIES",
+  "library": "Objects",
+  "object_category": "Recruitment_Objects",
+  "description": "Objects, deliverables, and documents involved in recruitment and hiring processes",
+  "created": "2025-11-13",
+  "updated": "2025-11-13",
+  "total_objects": 8,
+  "objects": [
+    {
+      "object_id": "OBJ-REC-001",
+      "object_name": "Vacancies",
+      "full_name": "Job Vacancies / Job Postings",
+      "type": "Job Posting",
+      "format": "Text / Document",
+      "description": "Job opening descriptions shared with candidates, including role overview, requirements, and details",
+      "created_with": ["Employer/Company"],
+      "used_by_professions": ["Recruiter", "HR_Manager", "Hiring_Manager"],
+      "created_in_workflows": ["WF-REC-001", "WF-REC-002"],
+      "workflow_context": {
+        "WF-REC-001": "Steps 1 & 7 - Confirm and reconfirm vacancy interest",
+        "WF-REC-002": "Step 1 - Confirm candidate interest in vacancies"
+      },
+      "related_actions": ["confirm", "verify", "share", "post"],
+      "related_objects": ["OBJ-REC-003", "OBJ-REC-004"],
+      "typical_content": ["Role title", "Responsibilities", "Requirements", "Compensation", "Location/Remote info"],
+      "delivery_platforms": ["TOOL-SMM-001 (Instagram DMs)", "Job boards", "Company website"]
+    },
+    {
+      "object_id": "OBJ-REC-002",
+      "object_name": "Interviews",
+      "full_name": "Job Interviews / Interview Appointments",
+      "type": "Scheduled Meeting",
+      "format": "Calendar entry + Virtual meeting link",
+      "description": "Scheduled candidate evaluation sessions, typically virtual for remote hiring",
+      "created_with": ["Recruiter", "Virtual interview platforms"],
+      "used_by_professions": ["Recruiter", "Hiring_Manager", "HR_Specialist"],
+      "created_in_workflows": ["WF-REC-001", "WF-REC-002"],
+      "workflow_context": {
+        "WF-REC-001": "Steps 3 & 4 - Confirm availability, reschedule if necessary",
+        "WF-REC-002": "Step 4 - Schedule interviews for job requests"
+      },
+      "related_actions": ["schedule", "reschedule", "confirm", "coordinate", "conduct"],
+      "related_objects": ["OBJ-REC-007", "OBJ-REC-008"],
+      "typical_components": ["Date/time", "Duration", "Meeting link", "Interviewer names", "Format/structure"],
+      "delivery_platforms": ["TOOL-SMM-001 (Instagram)", "Email", "Calendar invites"]
+    },
+    {
+      "object_id": "OBJ-REC-003",
+      "object_name": "Job Requests",
+      "full_name": "Job Application Requests / Candidate Inquiries",
+      "type": "Application Intent Record",
+      "format": "Text / Inquiry record",
+      "description": "Candidate's expression of interest or inquiry about specific job position",
+      "created_with": ["Candidate (via Instagram ad response or direct inquiry)"],
+      "used_by_professions": ["Recruiter"],
+      "created_in_workflows": ["WF-REC-001", "WF-REC-002"],
+      "workflow_context": {
+        "WF-REC-001": "Step 5 - Provide pre-interview information for job requests",
+        "WF-REC-002": "Step 4 - Schedule interviews for job requests"
+      },
+      "related_actions": ["inquire", "request", "respond", "screen"],
+      "related_objects": ["OBJ-REC-001", "OBJ-REC-004"],
+      "source_channels": ["Instagram ad response", "Direct DM inquiry", "Referral"]
+    },
+    {
+      "object_id": "OBJ-REC-004",
+      "object_name": "Job Applications",
+      "full_name": "Complete Job Application Packages",
+      "type": "Multi-part Application Package",
+      "format": "Combined (CV + profile + communication history)",
+      "description": "Complete candidate application file ready for review, combining all materials and screening notes",
+      "created_with": ["Candidate + Recruiter collaboration"],
+      "used_by_professions": ["Recruiter", "Hiring_Manager"],
+      "created_in_workflows": ["WF-REC-001"],
+      "workflow_context": {
+        "WF-REC-001": "Step 6 - Follow up on candidate profiles for job applications"
+      },
+      "related_actions": ["collect", "review", "assess", "compile"],
+      "related_objects": ["OBJ-REC-005", "OBJ-REC-006", "OBJ-SMM-002", "OBJ-SMM-003"],
+      "typical_components": ["CV/Resume or Video business card", "Communication history", "Language assessment notes", "Screening notes"]
+    },
+    {
+      "object_id": "OBJ-REC-005",
+      "object_name": "Profiles",
+      "full_name": "Candidate Profiles",
+      "type": "Candidate Information Package",
+      "format": "CV (PDF/DOC) OR Video business card (MP4/video)",
+      "description": "Professional background documentation provided by candidate, in traditional (CV) or multimedia (video) format",
+      "created_with": ["Candidate"],
+      "used_by_professions": ["Recruiter", "Hiring_Manager"],
+      "created_in_workflows": ["WF-REC-001", "WF-REC-002"],
+      "workflow_context": {
+        "WF-REC-001": "Step 6 - Follow up on candidate profiles",
+        "WF-REC-002": "Step 3 - Request candidate profiles via CV or video business card"
+      },
+      "related_actions": ["request", "share", "submit", "review"],
+      "related_objects": ["OBJ-REC-006", "OBJ-SMM-003"],
+      "delivery_options": ["Instagram", "Telegram", "Email"],
+      "formats_accepted": ["Traditional CV/Resume", "Video business card (1-3 min)"]
+    },
+    {
+      "object_id": "OBJ-REC-006",
+      "object_name": "CVs/Resumes",
+      "full_name": "Curriculum Vitae / Resumes",
+      "type": "Professional Document",
+      "format": "PDF, DOC, DOCX",
+      "description": "Detailed work history, education, and qualifications document",
+      "typical_size": "1-3 pages",
+      "created_with": ["Candidate"],
+      "used_by_professions": ["Recruiter", "Hiring_Manager", "HR_Specialist"],
+      "created_in_workflows": ["WF-REC-001", "WF-REC-002"],
+      "workflow_context": {
+        "WF-REC-001": "Step 6 - Request resume submission via alternate platform (Telegram)",
+        "WF-REC-002": "Step 3 - Request CV or video introduction"
+      },
+      "related_actions": ["submit", "share", "review", "assess"],
+      "related_objects": ["OBJ-REC-005", "OBJ-SMM-003"],
+      "delivery_platforms": ["TOOL-SMM-002 (Telegram)", "TOOL-SMM-001 (Instagram)", "Email"],
+      "typical_sections": ["Contact info", "Work experience", "Education", "Skills", "Achievements"]
+    },
+    {
+      "object_id": "OBJ-REC-007",
+      "object_name": "Pre-Interview Instructions",
+      "full_name": "Interview Preparation Instructions",
+      "type": "Informational Guide",
+      "format": "Text (via Instagram DM or email)",
+      "description": "Information provided to candidates before interview to help them prepare, including format, topics, and logistics",
+      "created_with": ["Recruiter"],
+      "used_by_professions": ["Recruiter"],
+      "created_in_workflows": ["WF-REC-001"],
+      "workflow_context": {
+        "WF-REC-001": "Step 5 - Provide pre-interview information for job requests"
+      },
+      "related_actions": ["send", "provide", "share", "address"],
+      "related_objects": ["OBJ-REC-002", "OBJ-REC-008"],
+      "typical_content": ["Interview duration", "Format (video call, conversational)", "Topics to be covered", "Technical requirements", "Interviewer names"],
+      "timing": "Sent 24-48 hours before interview"
+    },
+    {
+      "object_id": "OBJ-REC-008",
+      "object_name": "Interview Links",
+      "full_name": "Virtual Interview Meeting Links",
+      "type": "URL / Access Link",
+      "format": "Text URL with optional meeting ID/password",
+      "description": "Virtual meeting platform link provided to candidate for remote interview access",
+      "created_with": ["Recruiter (via virtual interview platform)"],
+      "used_by_professions": ["Recruiter", "Hiring_Manager"],
+      "created_in_workflows": ["WF-REC-001", "WF-REC-002"],
+      "workflow_context": {
+        "WF-REC-001": "Step 3 - Provide the link for the virtual interview",
+        "WF-REC-002": "Step 4 - After confirming availability"
+      },
+      "related_actions": ["send", "share", "provide"],
+      "related_objects": ["OBJ-REC-002", "OBJ-REC-007"],
+      "delivery_platforms": ["TOOL-SMM-001 (Instagram DM)", "Email", "SMS"],
+      "typical_platforms": ["Zoom", "Google Meet", "Microsoft Teams", "Skype (unspecified in workflows)"]
+    }
+  ]
+}

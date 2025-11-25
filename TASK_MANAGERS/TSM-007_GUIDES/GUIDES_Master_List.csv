@@ -1,0 +1,13 @@
+New_ID,Entity_Type,Current_ID,Name,Description,Department,File_Path,Status
+GDS-001,Guide,CRM_ENTITIES_LLM_TAXONOMY_GUIDE,CRM Entities LLM Taxonomy Guide,Guide for CRM entity taxonomy with LLM integration,AID,ENTITIES/TASK_MANAGERS/GUIDES/CRM_ENTITIES_LLM_TAXONOMY_GUIDE.md,Active
+GDS-002,Guide,DATA_EXTRACTION_PROMPT,Data Extraction Prompt,Prompt guide for data extraction processes,AID,ENTITIES/TASK_MANAGERS/GUIDES/DATA_EXTRACTION_PROMPT.md,Active
+GDS-003,Guide,DESIGNER_INTEGRATION_SUMMARY,Designer Integration Summary,Summary guide for designer integration processes,DGN,ENTITIES/TASK_MANAGERS/GUIDES/Framework_Documentation/DESIGNER_INTEGRATION_SUMMARY.md,Active
+GDS-004,Guide,Framework_README,Framework Documentation Overview,Overview documentation for the framework,AID,ENTITIES/TASK_MANAGERS/GUIDES/Framework_Documentation/Framework_README.md,Active
+GDS-005,Guide,Implementation_Checklists,Implementation Checklists,Checklists for implementing various systems,AID,ENTITIES/TASK_MANAGERS/GUIDES/Framework_Documentation/Implementation_Checklists.md,Active
+GDS-006,Guide,Knowledge_Library_Guide,Knowledge Library Guide,Guide for using and managing knowledge libraries,AID,ENTITIES/TASK_MANAGERS/GUIDES/Framework_Documentation/Knowledge_Library_Guide.md,Active
+GDS-007,Guide,Tool_Usage_Organizational_Proposals,Tool Usage Organizational Proposals,Proposals for organizational tool usage,AID,ENTITIES/TASK_MANAGERS/GUIDES/Framework_Documentation/Tool_Usage_Organizational_Proposals.md,Active
+GDS-008,Guide,README_TAXONOMY_GUIDES,Taxonomy Guides Overview,Overview of taxonomy-related guides,AID,ENTITIES/TASK_MANAGERS/GUIDES/README_TAXONOMY_GUIDES.md,Active
+GDS-009,Guide,SMM_Communication_Templates,Social Media Communication Templates,Communication templates for social media management,AID,ENTITIES/TASK_MANAGERS/GUIDES/Communication_Templates/GDS-009_SMM_Communication_Templates.json,Active
+GDS-010,Guide,Quick_Start_PMT032_v2.1,Quick Start Guide - PMT-032 v2.1,Quick start tutorial for daily report submission using PMT-032 framework,AID,ENTITIES/TASK_MANAGERS/TSM-007_GUIDES/GDS-010_Quick_Start_PMT032_v2.1.md,Active
+GDS-011,Guide,Entity_Mapping_Tutorial,Entity Mapping Tutorial,Step-by-step tutorial for mapping tasks to entity IDs (TST/MLT/PRT codes),AID,ENTITIES/TASK_MANAGERS/TSM-007_GUIDES/GDS-011_Entity_Mapping_Tutorial.md,Active
+GDS-012,Guide,Template_Cross_Reference_Guide,Template Cross-Reference Guide,Reference guide for understanding cross-references between guides and templates,AID,ENTITIES/TASK_MANAGERS/TSM-007_GUIDES/GDS-012_Template_Cross_Reference_Guide.md,Active

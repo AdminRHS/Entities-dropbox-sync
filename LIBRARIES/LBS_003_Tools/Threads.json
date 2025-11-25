@@ -1,0 +1,83 @@
+{
+  "entity_type": "LIBRARIES",
+  "sub_entity": "Tool",
+  "tool_id": "TOOL-SMM-008",
+  "tool_name": "Threads",
+  "category": "Social Media - Text-Based Platform",
+  "description": "Meta's text-based conversation platform, integrated with Instagram, positioned as Twitter/X alternative for real-time discussions",
+  "primary_use": "Real-time professional conversations, industry insights, and building thought leadership in text format",
+  "platform_type": "Social media and microblogging platform",
+  "pricing": "Free",
+  "created": "2025-11-14",
+  "updated": "2025-11-14",
+  "used_by_professions": [
+    "Marketer",
+    "Designer",
+    "Developer",
+    "Content_Creator"
+  ],
+  "used_in_workflows": [],
+  "creates_objects": [
+    "OBJ-SMM-015"
+  ],
+  "object_details": {
+    "OBJ-SMM-015": "Threads Post - Text-based post with images/videos, up to 500 characters"
+  },
+  "actions": [
+    "post",
+    "reply",
+    "repost",
+    "like",
+    "quote",
+    "share",
+    "follow"
+  ],
+  "key_features": {
+    "instagram_integration": "Linked to Instagram account",
+    "text_focus": "Up to 500 characters per post",
+    "media_support": "Images, videos, links",
+    "chronological_feed": "Posts shown in time order",
+    "verification": "Instagram verified badge carries over",
+    "cross_posting": "Share to Instagram"
+  },
+  "best_practices": [
+    "Post real-time insights and thoughts",
+    "Engage with trending topics",
+    "Use threads for longer thoughts",
+    "Be authentic and conversational",
+    "Reply to engage (algorithm favors interaction)",
+    "Cross-promote from Instagram",
+    "Post 2-5 times daily for visibility",
+    "Use as Twitter alternative if audience migrated"
+  ],
+  "common_use_cases": [
+    "Real-time industry commentary",
+    "Professional networking",
+    "Thought leadership",
+    "Quick updates and insights",
+    "Engaging in trending discussions",
+    "Building audience from Instagram"
+  ],
+  "pros": [
+    "Instagram follower carry-over",
+    "Clean interface",
+    "Less toxic than Twitter",
+    "Growing user base",
+    "Meta infrastructure",
+    "Verified status from Instagram"
+  ],
+  "cons": [
+    "Smaller audience than Twitter",
+    "Limited features (still evolving)",
+    "Requires Instagram account",
+    "Algorithm still developing",
+    "Less established than competitors",
+    "Feature set incomplete"
+  ],
+  "demographics": {
+    "primary_age": "18-40 (Instagram users)",
+    "profession": "Broad (Instagram crossover)",
+    "geographic": "Global where Instagram is strong"
+  },
+  "source": "SMM_Research_Document_3_EU_Creative_Professionals"
+}

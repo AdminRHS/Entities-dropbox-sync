@@ -1,0 +1,239 @@
+workflow_name: "Instagram Designer Portfolio Workflow"
+workflow_type: "Cyclic"
+workflow_id: "WF-DES-003"
+department: "DESIGN"
+priority: "High"
+description: "Strategic workflow for showcasing design work on Instagram through carousels, reels, and stories for audience building and client acquisition"
+estimated_duration: "60-90 minutes per content piece"
+frequency: "3-5 posts per week + 1-3 stories daily"
+
+steps:
+  - step_number: 1
+    name: "Plan Content Calendar"
+    tool: "Notion, Trello, or spreadsheet"
+    responsibility: "Plan content calendar"
+    placement: "Planning tool"
+    duration: "30 minutes weekly"
+    inputs:
+      - "Recent design projects"
+      - "Educational content ideas"
+      - "Process documentation opportunities"
+    outputs:
+      - "Weekly content calendar with 3-5 posts planned"
+    success_criteria: "Balanced mix of showcase, educational, and process content"
+    content_pillars:
+      - "Showcase (40%): Finished client work and personal projects"
+      - "Educational (30%): Design tips, tutorials, principles"
+      - "Process (30%): Behind-the-scenes, WIP, workflow"
+
+  - step_number: 2
+    name: "Create Visual Content"
+    tool: "Figma, Canva, Photoshop"
+    responsibility: "Create visual content"
+    placement: "Design software"
+    duration: "30-60 minutes"
+    inputs:
+      - "Design project files"
+      - "Brand guidelines"
+      - "Content calendar plan"
+    outputs:
+      - "Instagram-optimized images (1080×1080px or 1080×1350px)"
+      - "Carousel slides (up to 10 slides)"
+      - "Reel video (9:16 vertical, 15-90 seconds)"
+    success_criteria: "Visually compelling, on-brand, optimized for Instagram"
+    formats:
+      - "Feed post: 1080×1080px (1:1) or 1080×1350px (4:5)"
+      - "Carousel: 1080×1080px per slide, up to 10 slides"
+      - "Reel: 1080×1920px (9:16), 15-90 seconds"
+      - "Story: 1080×1920px (9:16), 15 seconds max per slide"
+
+  - step_number: 3
+    name: "Write Caption"
+    tool: "Notes app or caption writer"
+    responsibility: "Write caption"
+    placement: "Caption drafting tool"
+    duration: "10-15 minutes"
+    inputs:
+      - "Visual content"
+      - "Educational hook or story"
+      - "Call to action"
+    outputs:
+      - "Engaging caption (150-300 words)"
+    success_criteria: "Hook in first line, value-driven, includes CTA"
+    caption_structure:
+      - "Hook (first line must grab attention)"
+      - "Value (educational insight, process story, or context)"
+      - "CTA (ask question, encourage saves, invite DMs)"
+      - "Hashtags (3-5 relevant hashtags)"
+      - "Line breaks for readability"
+
+  - step_number: 4
+    name: "Schedule or Post to Instagram"
+    tool: "Instagram app or scheduling tool (Later, Buffer)"
+    responsibility: "Schedule or post to Instagram"
+    placement: "Instagram or scheduling platform"
+    duration: "5-10 minutes"
+    inputs:
+      - "Visual content (image, carousel, or reel)"
+      - "Caption with hashtags"
+      - "Optimal posting time"
+    outputs:
+      - "Published Instagram post"
+    success_criteria: "Posted during optimal engagement window"
+    optimal_times:
+      - "9-11am local time (morning scroll)"
+      - "1-3pm local time (lunch break)"
+      - "7-9pm local time (evening leisure)"
+      - "Experiment and track when YOUR audience is most active"
+
+  - step_number: 5
+    name: "Post to Stories"
+    tool: "Instagram app"
+    responsibility: "Post to stories"
+    placement: "Instagram Stories"
+    duration: "10-15 minutes"
+    inputs:
+      - "Behind-the-scenes content"
+      - "WIP screenshots"
+      - "Poll or question stickers"
+    outputs:
+      - "1-3 story slides daily"
+    success_criteria: "Consistent daily presence, interactive elements"
+    story_content_ideas:
+      - "WIP screenshots with progress updates"
+      - "Quick design tips or tool tricks"
+      - "Polls (Which color palette? A or B?)"
+      - "Questions (Ask me anything about design)"
+      - "Behind-the-scenes workspace or process"
+      - "Repost client testimonials or features"
+
+  - step_number: 6
+    name: "Engage with Community (First Hour)"
+    tool: "Instagram app"
+    responsibility: "Engage with community"
+    placement: "Instagram feed and DMs"
+    duration: "30 minutes immediately after posting"
+    inputs:
+      - "Comments on your post"
+      - "DMs from followers"
+      - "Other designers' content"
+    outputs:
+      - "Responded to all comments and DMs"
+      - "Engaged with 20-30 other posts"
+    success_criteria: "High engagement in first hour boosts algorithm"
+    engagement_tactics:
+      - "Reply to ALL comments within first hour"
+      - "Like and comment on 20-30 posts in your niche"
+      - "Respond to DMs within 2-4 hours"
+      - "Use story replies to build conversations"
+
+  - step_number: 7
+    name: "Daily Engagement Routine"
+    tool: "Instagram app"
+    responsibility: "Maintain daily engagement"
+    placement: "Instagram throughout day"
+    duration: "15-20 minutes, 2-3 times daily"
+    inputs:
+      - "Feed from designers you follow"
+      - "Explore page for discovery"
+      - "Hashtag searches in your niche"
+    outputs:
+      - "Engaged with 50+ posts per day total"
+      - "New connections and follows"
+    success_criteria: "Consistent presence builds community and algorithm favor"
+    daily_routine:
+      - "Morning (10 min): Reply to overnight comments/DMs"
+      - "Midday (10 min): Engage with feed, find new designers"
+      - "Evening (10 min): Post stories, engage with active content"
+
+  - step_number: 8
+    name: "Analyze Performance Weekly"
+    tool: "Instagram Insights"
+    responsibility: "Analyze performance"
+    placement: "Instagram app Insights"
+    duration: "20-30 minutes weekly"
+    inputs:
+      - "Post performance data (likes, saves, shares, comments)"
+      - "Follower growth and demographics"
+      - "Reach and impressions"
+    outputs:
+      - "Performance report identifying top content"
+      - "Insights for next week's content strategy"
+    success_criteria: "Data-driven decisions for content optimization"
+    metrics_to_track:
+      - "Saves (indicates valuable content)"
+      - "Shares (virality indicator)"
+      - "Comments (engagement quality)"
+      - "Reach (new audience discovery)"
+      - "Follower growth rate"
+      - "Profile visits (conversion funnel top)"
+      - "Website clicks (if link in bio)"
+
+content_type_specs:
+  carousels:
+    purpose: "Educational content, design breakdowns, before/after"
+    slides: "5-10 slides per carousel"
+    structure:
+      - "Slide 1: Eye-catching hook (problem or promise)"
+      - "Slides 2-8: Educational content or process steps"
+      - "Slide 9-10: CTA (follow, save, visit link in bio)"
+    performance: "High saves (educational value)"
+
+  reels:
+    purpose: "Process videos, quick tips, trending audio"
+    duration: "15-60 seconds ideal"
+    structure:
+      - "Hook in first 3 seconds"
+      - "Fast-paced editing (attention span)"
+      - "Text overlays for context"
+      - "Trending audio (algorithm boost)"
+    performance: "High reach (algorithm favors reels)"
+
+  feed_posts:
+    purpose: "Showcase work, build aesthetic consistency"
+    format: "Single image or carousel"
+    aesthetic: "Consistent color palette and style"
+    performance: "Moderate reach, builds portfolio aesthetic"
+
+metrics:
+  - "Follower growth rate (100-500/month for growing account)"
+  - "Engagement rate (3-5% is good, 5-10% is excellent)"
+  - "Saves per post (high saves = valuable content)"
+  - "Reach (non-followers reached)"
+  - "Profile visits (conversion funnel)"
+  - "Link clicks (if driving to portfolio/website)"
+  - "DM inquiries (client acquisition)"
+
+dependencies:
+  - "Instagram business/creator account"
+  - "Portfolio of design work to showcase"
+  - "Design software (Figma, Canva, Photoshop)"
+  - "Consistent brand aesthetic"
+
+risks:
+  - "Inconsistent posting (algorithm penalizes inactivity)"
+  - "No engagement (limits reach)"
+  - "Generic content (doesn't stand out)"
+  - "Wrong aspect ratios (cropping issues)"
+  - "Over-posting (audience fatigue)"
+
+best_practices:
+  - "Post 3-5 times per week consistently"
+  - "Stories daily (1-3 slides minimum)"
+  - "Engage in first hour after posting"
+  - "Use hashtags strategically (3-5 niche + broad mix)"
+  - "Create content in batches (efficiency)"
+  - "Experiment with Reels (algorithm favors video)"
+  - "Build personal brand (not just portfolio)"
+  - "Cross-promote to other platforms"
+  - "Save high-performing content to Highlights"
+
+related_workflows:
+  - "WF-DES-001: Dribbble Shot Publishing Workflow"
+  - "WF-SMM-003: Instagram Content Strategy Workflow"
+  - "WF-SMM-007: Short-Form Video Production Workflow"
+  - "WF-SMM-001: Cross-Platform Content Distribution Workflow"
+
+created: "2025-11-14"
+updated: "2025-11-14"
+source: "SMM_Research_Document_3_EU_Creative_Professionals"

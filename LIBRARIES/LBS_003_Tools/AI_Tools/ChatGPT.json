@@ -1,0 +1,158 @@
+{
+  "entity_type": "LIBRARIES",
+  "sub_entity": "Tool",
+  "tool_id": "TOOL-AI-002",
+  "name": "ChatGPT (OpenAI)",
+  "vendor": "OpenAI",
+  "category": "AI/LLM Services",
+  "purpose": "Content generation, message creation, Custom GPT specialized assistants",
+  "description": "Fast and versatile AI for content creation. Primary tool for LG message generation via Custom GPT.",
+  "skill_level_required": "Beginner",
+  "cost_structure": "API-based (usage pricing) + Custom GPT (ChatGPT Plus $20/month)",
+  "platform_compatibility": [
+    "Web",
+    "Mobile",
+    "API"
+  ],
+  "integration_capabilities": [
+    "API",
+    "Custom GPT creation",
+    "n8n integration",
+    "Zapier integration",
+    "Browser extensions"
+  ],
+  "documentation_url": "https://chatgpt.com/?model=gpt-4o",
+  "actual_remote_helpers_usage": {
+    "primary_use": "LG Message Generation & Content Creation",
+    "users": [
+      "LG Team (11 employees)",
+      "Sales",
+      "Marketing",
+      "HR"
+    ],
+    "use_cases": [
+      "generate lg messages",
+      "generate email templates",
+      "create job postings",
+      "draft client proposals",
+      "create marketing content",
+      "create social content",
+      "research quickly",
+      "ideate content",
+      "generate animation instructions",
+      "refine characters for design",
+      "create course content",
+      "generate marketing banners"
+    ],
+    "custom_gpt_configuration": {
+      "name": "LG Message Generator",
+      "context": "Remote Helpers vocabulary, 636 professions list, value propositions",
+      "stop_words": [
+        "elevate",
+        "boost",
+        "supercharge",
+        "generic marketing fluff"
+      ],
+      "character_limit": "600-700 (strictly enforced)",
+      "structure": "Personalization → Pain point → Solution → CTA → Link (rh-s.com)",
+      "quality_control": [
+        "No stop words",
+        "Under 700 characters",
+        "Specific profession mentioned",
+        "Research-based personalization",
+        "Clear CTA"
+      ]
+    },
+    "workflows": [
+      "LG outreach: Research → Custom GPT → Message generation → LinkedIn send",
+      "Email campaigns: Template selection → Personalization → AI drafting",
+      "Job postings: Template → AI customization → Review → Post",
+      "Content creation: Ideation → Generation → Review → Publish"
+    ]
+  },
+  "strengths": [
+    "Fast response time",
+    "Creative content generation",
+    "Custom GPT for specialized tasks",
+    "Cost-effective",
+    "Easy to use"
+  ],
+  "limitations": [
+    "Smaller context window than Claude",
+    "Less reliable for complex analysis",
+    "May hallucinate facts",
+    "Requires prompt engineering"
+  ],
+  "departments_using": [
+    "LG (Primary)",
+    "Sales",
+    "Marketing",
+    "HR",
+    "AI",
+    "Dev",
+    "Design",
+    "Video",
+    "Finance"
+  ],
+  "finance_data": {
+    "subscription_status": "paid",
+    "total_accounts": 2,
+    "paid_accounts": 2,
+    "unpaid_accounts": 0,
+    "latest_valid_until": "2025-11-24",
+    "accounts": [
+      {
+        "email": "niko@rh-s.com",
+        "status": "paid",
+        "paid_date": "2025-10-24",
+        "valid_until": "2025-11-24",
+        "department": "lead generator,sales manager,recruiter,developers,AI,financial manager,designers,videographers"
+      },
+      {
+        "email": "hr@rem-s.com",
+        "status": "paid",
+        "paid_date": "2025-11-03",
+        "valid_until": "2025-12-03",
+        "department": "recruiter"
+      }
+    ],
+    "departments_using": [
+      "AI",
+      "designers",
+      "developers",
+      "financial manager",
+      "lead generator",
+      "recruiter",
+      "sales manager",
+      "videographers"
+    ]
+  },
+  "usage_statistics": {
+    "nov_20_2025": {
+      "references": 6,
+      "tasks_linked": [
+        "TST-076 (Create Course Materials)",
+        "TST-077 (Organize Portfolio)",
+        "TST-078 (Prepare Client Interview)"
+      ],
+      "departments_active": [
+        "All"
+      ],
+      "note": "HIGHEST USAGE - 6 references on Nov 20, used across all departments"
+    }
+  },
+  "tags": [
+    "ai",
+    "llm",
+    "content-generation",
+    "messaging",
+    "custom-gpt",
+    "lg",
+    "high-usage",
+    "cross-department"
+  ],
+  "discovery_date": "2024-01-15",
+  "discovery_source": "Organization_Standard",
+  "status": "active",
+  "last_updated": "2025-11-21"
+}

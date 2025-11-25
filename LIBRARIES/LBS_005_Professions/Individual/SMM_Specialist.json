@@ -1,0 +1,279 @@
+{
+  "entity_type": "LIBRARIES",
+  "sub_entity": "Profession",
+  "profession_name": "smm_specialist",
+  "full_title": "Social Media Marketing Specialist",
+  "department": "AI",
+  "description": "Social media marketing specialist managing multi-platform content strategies, community engagement, analytics, and brand presence across Instagram, TikTok, LinkedIn, and emerging platforms",
+  "created": "2025-11-13",
+  "updated": "2025-11-13",
+  "skills": [
+    "SKL-SMM-001",
+    "SKL-SMM-002",
+    "SKL-SMM-003",
+    "SKL-SMM-004",
+    "SKL-SMM-005",
+    "SKL-SMM-006",
+    "SKL-SMM-007",
+    "SKL-SMM-008"
+  ],
+  "skill_details": {
+    "SKL-SMM-001": {
+      "skill_phrase": "managed cross-platform social media content strategies",
+      "proficiency_level": "advanced",
+      "frequency": "daily"
+    },
+    "SKL-SMM-002": {
+      "skill_phrase": "created viral short-form video content for TikTok and Reels",
+      "proficiency_level": "advanced",
+      "frequency": "daily"
+    },
+    "SKL-SMM-003": {
+      "skill_phrase": "analyzed social media performance metrics and optimized campaigns",
+      "proficiency_level": "advanced",
+      "frequency": "daily"
+    },
+    "SKL-SMM-004": {
+      "skill_phrase": "managed community engagement and response protocols",
+      "proficiency_level": "intermediate",
+      "frequency": "daily"
+    },
+    "SKL-SMM-005": {
+      "skill_phrase": "repurposed content across multiple platform formats",
+      "proficiency_level": "advanced",
+      "frequency": "daily"
+    },
+    "SKL-SMM-006": {
+      "skill_phrase": "scheduled and coordinated multi-platform posting calendars",
+      "proficiency_level": "intermediate",
+      "frequency": "daily"
+    },
+    "SKL-SMM-007": {
+      "skill_phrase": "tracked trending topics and adapted content strategies",
+      "proficiency_level": "intermediate",
+      "frequency": "daily"
+    },
+    "SKL-SMM-008": {
+      "skill_phrase": "integrated AI tools ethically in content creation workflow",
+      "proficiency_level": "intermediate",
+      "frequency": "daily"
+    }
+  },
+  "tools": [
+    "TOOL-SMM-001",
+    "TOOL-SMM-003",
+    "TOOL-SMM-007",
+    "TOOL-VID-001",
+    "TOOL-SMM-006",
+    "TOOL-SMM-004",
+    "TOOL-SMM-005",
+    "TOOL-PUB-001"
+  ],
+  "tool_details": {
+    "TOOL-SMM-001": "Instagram - PRIMARY platform (daily use) - Visual content and community",
+    "TOOL-SMM-003": "TikTok - PRIMARY platform (daily use) - Viral short-form video",
+    "TOOL-SMM-007": "LinkedIn - PRIMARY platform (daily use) - B2B and professional content",
+    "TOOL-VID-001": "YouTube - PRIMARY platform (weekly use) - Long-form video content",
+    "TOOL-SMM-006": "Twitter/X - SECONDARY platform (daily use) - Real-time engagement",
+    "TOOL-SMM-004": "Facebook - SECONDARY platform (daily use) - Community management",
+    "TOOL-SMM-005": "Pinterest - SECONDARY platform (weekly use) - Visual discovery",
+    "TOOL-PUB-001": "Medium - SECONDARY platform (weekly use) - Long-form content"
+  },
+  "workflows": [
+    "WF-SMM-001",
+    "WF-SMM-002",
+    "WF-SMM-003",
+    "WF-SMM-007",
+    "WF-SMM-010"
+  ],
+  "workflow_details": {
+    "WF-SMM-001": "Cross-Platform Content Distribution - Maximize reach across platforms",
+    "WF-SMM-002": "Content Repurposing Pipeline - Transform long-form to multiple variations",
+    "WF-SMM-003": "Instagram Content Strategy - Educational carousels, reels, stories",
+    "WF-SMM-007": "Short-Form Video Production - Daily TikTok, Reels, Shorts creation",
+    "WF-SMM-010": "Facebook Community Management - Daily moderation and engagement"
+  },
+  "objects": [
+    "OBJ-SMM-001",
+    "OBJ-SMM-004",
+    "OBJ-SMM-005",
+    "OBJ-SMM-006",
+    "OBJ-SMM-007",
+    "OBJ-SMM-009",
+    "OBJ-SMM-013"
+  ],
+  "object_details": {
+    "OBJ-SMM-001": "Instagram DMs - Communication and customer engagement",
+    "OBJ-SMM-004": "Instagram Carousel - Educational 5-10 slide posts",
+    "OBJ-SMM-005": "Instagram Reel - Process videos 15-90 seconds",
+    "OBJ-SMM-006": "Instagram Story - Interactive Q&A, polls, BTS content",
+    "OBJ-SMM-007": "TikTok Video - Short-form vertical video (15-60 seconds)",
+    "OBJ-SMM-009": "YouTube Short - Vertical short-form video (60 seconds max)",
+    "OBJ-SMM-013": "Facebook Group Post - Value-first community content"
+  },
+  "actions": [
+    "post",
+    "share",
+    "engage",
+    "monitor",
+    "analyze",
+    "optimize",
+    "schedule",
+    "moderate",
+    "track",
+    "report",
+    "respond",
+    "curate",
+    "repurpose",
+    "trend"
+  ],
+  "communication_templates": [],
+  "template_details": {},
+  "typical_tasks": [
+    "Create 3-5 Instagram posts per week (carousels, reels, stories)",
+    "Produce 5-10 short-form videos daily (TikTok, Reels, Shorts)",
+    "Post daily LinkedIn content (articles, updates, engagement)",
+    "Manage Facebook Group with daily moderation and value posts",
+    "Monitor and respond to comments/DMs within platform-specific timeframes",
+    "Analyze performance metrics daily and optimize strategy",
+    "Repurpose long-form content into 15-20 platform variations",
+    "Schedule content across platforms using batching workflow",
+    "Track trending topics and adapt content strategy real-time",
+    "Create monthly performance reports with insights and recommendations"
+  ],
+  "multi_platform_strategy": {
+    "instagram": {
+      "content_mix": "35% carousels, 25% reels, 20% showcases, 10% stories, 10% engagement",
+      "frequency": "3-5 feed posts/week + 1-3 stories daily",
+      "optimal_times": "Weekdays 11am-1pm, 7-9pm EST",
+      "key_metrics": "Saves (5x weight), Reach, Engagement rate"
+    },
+    "tiktok": {
+      "content_mix": "40% quick tutorials, 30% trend adaptations, 20% BTS, 10% challenges",
+      "frequency": "1-3 videos per day for algorithm favor",
+      "optimal_times": "Weekdays 6-10am, 7-11pm EST",
+      "key_metrics": "Completion rate (PRIMARY), Shares, Follower growth"
+    },
+    "linkedin": {
+      "content_mix": "25% thought leadership, 30% education, 20% case studies, 15% development, 10% updates",
+      "frequency": "Daily activity - Tuesday-Thursday 8-10am, 5-6pm EST",
+      "response_time": "Within 2 hours",
+      "key_metrics": "Impressions, Engagement rate, Clicks, Lead generation"
+    },
+    "youtube": {
+      "content_mix": "35% full tutorials, 25% shorts, 20% series, 10% lives, 10% collaborations",
+      "frequency": "1-2 long-form/week + 1-3 shorts daily",
+      "key_metrics": "Watch time, Retention rate, CTR, Subscribers"
+    },
+    "twitter": {
+      "content_mix": "30% threads, 35% quick tips, 20% engagement, 15% commentary",
+      "frequency": "3-5 tweets daily",
+      "response_time": "Within 30 minutes",
+      "key_metrics": "Engagement rate, Retweets, Profile visits"
+    },
+    "facebook": {
+      "content_mix": "40% group management, 30% page content, 20% challenges, 10% value posts",
+      "frequency": "Daily group activity",
+      "response_time": "Within 4 hours",
+      "key_metrics": "Member engagement, Posts per day, Retention"
+    }
+  },
+  "content_repurposing_strategy": {
+    "step_1": "Create primary long-form content (YouTube, Blog, Behance)",
+    "step_2": "Extract 5-10 key moments for short-form",
+    "step_3": "Edit vertical versions for TikTok, Reels, Shorts",
+    "step_4": "Design visual summaries for Instagram carousels and Pinterest",
+    "step_5": "Write quick tips for Twitter and LinkedIn",
+    "step_6": "Create discussion posts for Facebook Groups",
+    "step_7": "Schedule distribution across all platforms",
+    "step_8": "Monitor performance and optimize based on data"
+  },
+  "performance_metrics": {
+    "instagram_saves": "Primary metric - 5x algorithm weight",
+    "tiktok_completion_rate": "Most important for TikTok algorithm",
+    "youtube_watch_time": "Total minutes watched - primary YouTube metric",
+    "linkedin_impressions": "Total reach for B2B content",
+    "engagement_rate": "Platform-specific (likes + comments + shares) / reach",
+    "follower_growth": "Net new followers across platforms",
+    "website_traffic": "Referrals from social platforms",
+    "lead_generation": "Inquiries and conversions from social"
+  },
+  "best_practices": [
+    "Instagram: Create saveable educational content (5x algorithm weight)",
+    "Instagram: Use 3-5 niche-specific hashtags (not 30 generic)",
+    "TikTok: Hook within first 3 seconds - CRITICAL for completion",
+    "TikTok: Always add text overlays/captions (many watch without sound)",
+    "LinkedIn: Respond to comments within 2 hours to boost engagement",
+    "LinkedIn: Lead with ROI/results for B2B audience credibility",
+    "YouTube: Custom thumbnails A/B tested, keyword-first titles",
+    "YouTube: Always include captions for accessibility",
+    "Twitter: Use 1-3 hashtags (not excessive)",
+    "Twitter: Thread numbering for clarity (1/7, 2/7, etc.)",
+    "Facebook: Native video uploads perform better than links",
+    "Facebook: Welcome new group members daily with personal message",
+    "Cross-platform: Batch content creation for efficiency",
+    "Cross-platform: Monitor analytics daily and optimize weekly",
+    "AI Integration: Always show human + AI collaboration workflow"
+  ],
+  "ai_integration_approach": {
+    "transparency": "Always show human + AI collaboration in content",
+    "process": "Human concept → AI assistance → Human curation → Human refinement",
+    "use_cases": [
+      "Content ideation and research",
+      "Caption writing and optimization",
+      "Trend analysis and insights",
+      "Visual asset generation (with human refinement)",
+      "Performance data analysis"
+    ],
+    "platform_sensitivity": {
+      "general": "AI as assistant narrative, not replacement",
+      "documentation": "Screen record workflows showing human decisions"
+    }
+  },
+  "community_management_protocols": {
+    "response_time_goals": {
+      "instagram": "Within 1 hour",
+      "linkedin": "Within 2 hours",
+      "twitter": "Within 30 minutes",
+      "facebook_groups": "Within 4 hours",
+      "youtube": "Within 24 hours"
+    },
+    "engagement_best_practices": [
+      "Personal, not templated responses",
+      "Add value in every interaction",
+      "Foster community connections",
+      "Recognize active members",
+      "Handle criticism professionally"
+    ]
+  },
+  "analytics_and_reporting": {
+    "daily_monitoring": [
+      "Check engagement metrics across all platforms",
+      "Respond to comments and DMs",
+      "Track trending topics",
+      "Monitor competitor activity"
+    ],
+    "weekly_analysis": [
+      "Review top-performing content",
+      "Identify patterns and trends",
+      "Adjust posting schedule based on data",
+      "Plan content calendar for next week"
+    ],
+    "monthly_reporting": [
+      "Comprehensive performance metrics",
+      "Follower growth and demographics",
+      "Content mix analysis",
+      "ROI and conversion tracking",
+      "Strategic recommendations for next month"
+    ]
+  },
+  "tools_and_software": [
+    "Scheduling tools (Buffer, Hootsuite, Later)",
+    "Analytics platforms (native + third-party)",
+    "Design tools (Canva, Figma, Adobe Suite)",
+    "Video editing (CapCut, Premiere Pro, Final Cut)",
+    "AI tools (ChatGPT, Midjourney, with transparency)",
+    "Link tracking (Bitly, UTM parameters)"
+  ],
+  "source": "SMM_Research_Document_2_Content_Strategy_Multi_Platform"
+}

@@ -1,0 +1,122 @@
+{
+  "timestamp": "2025-11-10T18:33:50.969216",
+  "tools_validated": 0,
+  "tools_incomplete": 10,
+  "validation_results": {
+    "validated": [],
+    "needs_merge": [],
+    "incomplete": [
+      {
+        "tool_id": "TOOL-AI-037",
+        "tool_name": "AI analysis",
+        "category": "AI_Tools",
+        "usage_count": 1,
+        "tasks_using": [],
+        "steps_using": [],
+        "departments": [],
+        "use_cases": [],
+        "is_complete": false
+      },
+      {
+        "tool_id": "TOOL-AI-025",
+        "tool_name": "AI Analysis + Template",
+        "category": "AI_Tools",
+        "usage_count": 1,
+        "tasks_using": [],
+        "steps_using": [],
+        "departments": [],
+        "use_cases": [],
+        "is_complete": false
+      },
+      {
+        "tool_id": "TOOL-AI-031",
+        "tool_name": "AI Classification",
+        "category": "AI_Tools",
+        "usage_count": 1,
+        "tasks_using": [],
+        "steps_using": [],
+        "departments": [],
+        "use_cases": [],
+        "is_complete": false
+      },
+      {
+        "tool_id": "TOOL-AI-030",
+        "tool_name": "AI Generation Guidelines",
+        "category": "AI_Tools",
+        "usage_count": 1,
+        "tasks_using": [],
+        "steps_using": [],
+        "departments": [],
+        "use_cases": [],
+        "is_complete": false
+      },
+      {
+        "tool_id": "TOOL-AI-026",
+        "tool_name": "AI Task",
+        "category": "AI_Tools",
+        "usage_count": 1,
+        "tasks_using": [],
+        "steps_using": [],
+        "departments": [],
+        "use_cases": [],
+        "is_complete": false
+      },
+      {
+        "tool_id": "TOOL-AI-036",
+        "tool_name": "AI task extraction",
+        "category": "AI_Tools",
+        "usage_count": 1,
+        "tasks_using": [],
+        "steps_using": [],
+        "departments": [],
+        "use_cases": [],
+        "is_complete": false
+      },
+      {
+        "tool_id": "TOOL-AI-027",
+        "tool_name": "AI tool + Documentation",
+        "category": "AI_Tools",
+        "usage_count": 1,
+        "tasks_using": [],
+        "steps_using": [],
+        "departments": [],
+        "use_cases": [],
+        "is_complete": false
+      },
+      {
+        "tool_id": "TOOL-AI-024",
+        "tool_name": "AI Translation",
+        "category": "AI_Tools",
+        "usage_count": 1,
+        "tasks_using": [],
+        "steps_using": [],
+        "departments": [],
+        "use_cases": [],
+        "is_complete": false
+      },
+      {
+        "tool_id": "TOOL-AI-033",
+        "tool_name": "Contact Discovery + AI",
+        "category": "AI_Tools",
+        "usage_count": 1,
+        "tasks_using": [],
+        "steps_using": [],
+        "departments": [],
+        "use_cases": [],
+        "is_complete": false
+      },
+      {
+        "tool_id": "TOOL-AI-028",
+        "tool_name": "Manual editing",
+        "category": "AI_Tools",
+        "usage_count": 1,
+        "tasks_using": [],
+        "steps_using": [],
+        "departments": [],
+        "use_cases": [],
+        "is_complete": false
+      }
+    ],
+    "miscategorized": []
+  }
+}

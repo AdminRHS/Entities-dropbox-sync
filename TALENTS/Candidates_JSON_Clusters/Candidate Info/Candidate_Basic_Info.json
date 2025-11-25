@@ -1,0 +1,112 @@
+{
+  "template_name": "Candidate_Basic_Info",
+  "description": "Core candidate identification and basic information fields",
+  "fields": {
+    "id": {
+      "type": "int",
+      "description": "Field: id",
+      "example": 89342
+    },
+    "employee_details_id": {
+      "type": "NoneType",
+      "description": "Field: employee_details_id",
+      "example": null
+    },
+    "presale_id": {
+      "type": "NoneType",
+      "description": "Field: presale_id",
+      "example": null
+    },
+    "source_id": {
+      "type": "str",
+      "description": "Field: source_id",
+      "example": "7"
+    },
+    "name_candidate": {
+      "type": "str",
+      "description": "Field: name_candidate",
+      "example": "Tarasova Valeriia"
+    },
+    "age": {
+      "type": "NoneType",
+      "description": "Field: age",
+      "example": null
+    },
+    "address_id": {
+      "type": "str",
+      "description": "Field: address_id",
+      "example": "91599"
+    },
+    "courses": {
+      "type": "NoneType",
+      "description": "Field: courses",
+      "example": null
+    },
+    "shift_id": {
+      "type": "NoneType",
+      "description": "Field: shift_id",
+      "example": null
+    },
+    "created_by": {
+      "type": "str",
+      "description": "Field: created_by",
+      "example": "8947"
+    },
+    "company_id": {
+      "type": "str",
+      "description": "Field: company_id",
+      "example": "1"
+    },
+    "applied_for": {
+      "type": "str",
+      "description": "Field: applied_for",
+      "example": "1"
+    },
+    "is_crm": {
+      "type": "str",
+      "description": "Field: is_crm",
+      "example": "0"
+    },
+    "empl_protege": {
+      "type": "NoneType",
+      "description": "Field: empl_protege",
+      "example": null
+    },
+    "sub_titles": {
+      "type": "NoneType",
+      "description": "Field: sub_titles",
+      "example": null
+    },
+    "job_site_link": {
+      "type": "NoneType",
+      "description": "Field: job_site_link",
+      "example": null
+    },
+    "last_contact_date": {
+      "type": "str",
+      "description": "Field: last_contact_date",
+      "example": "2025-11-05T00:00:00+00:00"
+    },
+    "follow_up_date": {
+      "type": "NoneType",
+      "description": "Field: follow_up_date",
+      "example": null
+    },
+    "resume_editor": {
+      "type": "str",
+      "description": "Field: resume_editor",
+      "example": "&nbsp;AI, Copywriting, Targeting, YouTube, TikTok, Instagram, Facebook"
+    },
+    "employees_details": {
+      "type": "NoneType",
+      "description": "Field: employees_details",
+      "example": null
+    },
+    "presale_details": {
+      "type": "NoneType",
+      "description": "Field: presale_details",
+      "example": null
+    }
+  }
+}
+

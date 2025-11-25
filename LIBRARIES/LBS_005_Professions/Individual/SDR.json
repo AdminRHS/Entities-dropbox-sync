@@ -1,0 +1,78 @@
+{
+  "entity_type": "LIBRARIES",
+  "sub_entity": "Profession",
+  "profession_name": "sdr",
+  "full_title": "Sales Development Representative",
+  "department": "managers",
+  "description": "Sales professional focused on prospecting, lead qualification, and initial outreach to potential customers",
+  "created": "2025-11-12",
+  "updated": "2025-11-12",
+  "skills": [
+    "SKL-061",
+    "SKL-064"
+  ],
+  "skill_details": {
+    "SKL-061": {
+      "skill_phrase": "enriched emails via Anymailfinder",
+      "proficiency_level": "beginner",
+      "frequency": "daily"
+    },
+    "SKL-064": {
+      "skill_phrase": "executed LinkedIn lead extraction via Vayne",
+      "proficiency_level": "intermediate",
+      "frequency": "weekly"
+    }
+  },
+  "tools": [
+    "TOOL-DATA-007",
+    "TOOL-BUS-002",
+    "TOOL-AUTO-004",
+    "TOOL-BUS-003"
+  ],
+  "tool_details": {
+    "TOOL-DATA-007": "Anymailfinder - Email enrichment (daily use)",
+    "TOOL-BUS-002": "LinkedIn Sales Navigator - Lead sourcing (daily use)",
+    "TOOL-AUTO-004": "Vayne - LinkedIn scraper (weekly use)",
+    "TOOL-BUS-003": "Instantly.ai - Email outreach (daily use)"
+  },
+  "workflows": [
+    "WF-LG-001",
+    "WF-LG-003",
+    "WF-LG-012"
+  ],
+  "workflow_details": {
+    "WF-LG-001": "Anymailfinder Nominative Enrichment",
+    "WF-LG-003": "LinkedIn Sales Navigator Lead Extraction",
+    "WF-LG-012": "Instantly.ai Enrichment"
+  },
+  "objects": [
+    "OBJ-LG-001",
+    "OBJ-LG-003",
+    "OBJ-LG-004",
+    "OBJ-LG-005"
+  ],
+  "object_details": {
+    "OBJ-LG-001": "Lead List",
+    "OBJ-LG-003": "Decision-Maker Email",
+    "OBJ-LG-004": "LinkedIn Profile",
+    "OBJ-LG-005": "Enriched Contact"
+  },
+  "actions": [
+    "enrich",
+    "scrape",
+    "feed",
+    "lookup"
+  ],
+  "typical_tasks": [
+    "Enrich lead lists with decision-maker emails",
+    "Extract LinkedIn Sales Navigator profiles for outreach",
+    "Qualify leads based on company and role criteria",
+    "Prepare enriched contact lists for email campaigns"
+  ],
+  "performance_metrics": {
+    "enrichment_success_rate": "80-100% (LinkedIn Sales Navigator)",
+    "cost_per_lead": "$0.0025-0.15 depending on source",
+    "outreach_volume": "500-1,000 contacts per week"
+  },
+  "source": "Video_006_Lead_Generation_Analysis"
+}

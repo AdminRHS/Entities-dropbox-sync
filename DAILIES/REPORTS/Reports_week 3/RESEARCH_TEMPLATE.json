@@ -1,0 +1,169 @@
+{
+  "_template_info": {
+    "template_name": "AI Tutorial Research Session Template",
+    "version": "1.0",
+    "last_updated": "2025-11-13",
+    "usage": "Copy this template for each new research session. Fill in all fields. Remove this _template_info block in actual research files."
+  },
+  "entity_type": "LIBRARIES",
+  "sub_entity": "Research",
+  "category": "AI_Tutorials",
+  "research_session": {
+    "research_id": "RSH-AI-XXX",
+    "search_date": "YYYY-MM-DD",
+    "search_week": "YYYY-WXX",
+    "search_tool": "Perplexity",
+    "researcher": "Researcher Name or Team",
+    "session_duration_minutes": 0
+  },
+  "search_queries": [
+    {
+      "query": "Your search query here",
+      "query_purpose": "Why you're running this specific query",
+      "results_count": 0,
+      "filtered_count": 0
+    }
+  ],
+  "findings": [
+    {
+      "video_id": "VID-XXX",
+      "video_title": "Full video title from platform",
+      "video_url": "https://youtube.com/watch?v=...",
+      "platform": "YouTube|TikTok|Instagram|LinkedIn|Other",
+      "published_date": "YYYY-MM-DD",
+      "video_duration": "MM:SS or HH:MM:SS",
+      "creator": {
+        "name": "Creator or Channel Name",
+        "channel_url": "https://...",
+        "subscriber_count": 0,
+        "creator_category": "AI Tools Educator|Influencer|Developer|Designer|Marketer|Other",
+        "is_new_influencer": false
+      },
+      "content_analysis": {
+        "primary_category": "AI Coding Tools|AI Content Creation|AI Video/Image Generation|AI Workflow Automation|AI Data Analysis|Multi-tool Integrations|AI for Specific Professions",
+        "secondary_categories": [],
+        "topics_covered": [
+          "Topic 1",
+          "Topic 2"
+        ],
+        "ai_tools_mentioned": [
+          "Tool Name 1",
+          "Tool Name 2"
+        ],
+        "use_cases": [
+          "Use case 1",
+          "Use case 2"
+        ],
+        "professions_relevant": [
+          "Profession 1",
+          "Profession 2"
+        ],
+        "skill_level": "Beginner|Intermediate|Advanced"
+      },
+      "engagement_metrics": {
+        "view_count": 0,
+        "like_count": 0,
+        "comment_count": 0,
+        "engagement_rate": 0.0,
+        "views_per_subscriber": 0.0
+      },
+      "quality_assessment": {
+        "relevance_score": "High|Medium|Low",
+        "tutorial_quality": "High|Medium|Low",
+        "educational_value": "High|Medium|Low",
+        "production_quality": "High|Medium|Low",
+        "transcript_available": false
+      },
+      "taxonomy_mapping": {
+        "tools_in_taxonomy": [
+          "TOOL-AI-XXX"
+        ],
+        "tools_missing": [
+          "New Tool Name"
+        ],
+        "workflows_identified": [
+          "PROC-AI-XXX"
+        ],
+        "new_use_cases": [
+          "New use case description"
+        ]
+      },
+      "next_actions": {
+        "transcribe": false,
+        "transcription_priority": "High|Medium|Low",
+        "add_to_tools": false,
+        "update_existing_tools": [
+          "TOOL-AI-XXX"
+        ],
+        "create_workflow_entry": false
+      }
+    }
+  ],
+  "session_metadata": {
+    "total_results_found": 0,
+    "videos_after_filtering": 0,
+    "high_priority_videos": 0,
+    "medium_priority_videos": 0,
+    "low_priority_videos": 0
+  },
+  "discovery_summary": {
+    "new_tools_discovered": [
+      {
+        "tool_name": "Tool Name",
+        "tool_category": "Category",
+        "mentioned_in_videos": 0,
+        "priority": "High|Medium|Low"
+      }
+    ],
+    "new_influencers_identified": [
+      {
+        "name": "Influencer Name",
+        "platform": "Platform",
+        "subscriber_count": 0,
+        "content_focus": "Focus area",
+        "video_count_found": 0
+      }
+    ],
+    "tool_mentions_summary": {
+      "Tool Name 1": 0,
+      "Tool Name 2": 0
+    },
+    "trending_topics": [
+      "Topic 1",
+      "Topic 2"
+    ]
+  },
+  "gap_analysis": {
+    "tools_to_add": 0,
+    "tools_to_update": 0,
+    "influencers_to_add": 0,
+    "videos_to_transcribe": 0,
+    "workflows_to_document": 0
+  },
+  "next_research_session": {
+    "scheduled_date": "YYYY-MM-DD",
+    "focus_areas": [
+      "Focus area 1",
+      "Focus area 2"
+    ],
+    "query_adjustments": [
+      "Query adjustment 1",
+      "Query adjustment 2"
+    ]
+  },
+  "tags": [
+    "ai-tutorials",
+    "video-content",
+    "influencer-research",
+    "educational",
+    "weekly-research",
+    "YYYY-MM"
+  ],
+  "cross_references": {
+    "perplexity_tool": "../Tools/AI_Tools/Perplexity.json",
+    "transcriptions_library": "./Videos/",
+    "tools_library": "../Tools/AI_Tools/",
+    "processes_library": "../Processes/"
+  }
+}
+

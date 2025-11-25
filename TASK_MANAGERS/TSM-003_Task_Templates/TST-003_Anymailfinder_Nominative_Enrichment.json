@@ -1,0 +1,269 @@
+{
+  "entity_type": "TASK_MANAGERS",
+  "sub_entity": "Task_Template",
+  "template_id": "Task-Template-003",
+  "task_name": "Enrich Lead List via Anymailfinder",
+  "action": "Enrich",
+  "object": "Lead List",
+  "context": "via Anymailfinder nominative enrichment",
+  "description": "Enrich company domains with decision-maker emails using Anymailfinder's nominative enrichment pattern (50-80% success rate, $0.0025 per valid email)",
+  "department": "LG",
+  "profession": "Lead Generator",
+  "priority": "High",
+  "estimated_duration": "10-15 minutes for 40 leads",
+  "status": "Active",
+  "complexity": "Low",
+  "automation_potential": "High (60-80%)",
+  "success_rate": "50-80%",
+  "cost_per_lead": "$0.0025 per valid email found",
+  "dependencies": [
+    "Company domain list prepared (CSV format)",
+    "Anymailfinder account active with credits",
+    "Target decision-maker roles defined (CEO, CTO, etc.)"
+  ],
+  "tools_required": [
+    "TOOL-DATA-007 (Anymailfinder)"
+  ],
+  "skills_required": [
+    "SKL-061 (enriched emails via Anymailfinder)"
+  ],
+  "objects_used": [
+    "OBJ-LG-001 (Lead List)",
+    "OBJ-LG-002 (Company Domain)",
+    "OBJ-LG-003 (Decision-Maker Email)",
+    "OBJ-LG-005 (Enriched Contact)"
+  ],
+  "workflow_reference": "WF-LG-001",
+  "success_criteria": [
+    "Minimum 40 company domains processed",
+    "50-80% enrichment success rate achieved",
+    "All enriched emails exported to CSV",
+    "Results logged with date and success rate",
+    "Only valid emails returned (pay per result)"
+  ],
+  "responsibilities": {
+    "responsible": "Lead Generator",
+    "accountable": "Lead Generation Manager",
+    "consulted": [
+      "Sales Team",
+      "Marketing Team"
+    ],
+    "informed": [
+      "SDR Team",
+      "Sales Manager"
+    ]
+  },
+  "steps": [
+    {
+      "step_number": 1,
+      "name": "Prepare company domain list",
+      "action": "prepare",
+      "tool": "Excel/Google Sheets",
+      "responsibility": "Lead Generator",
+      "placement": "Lead Gen folder - Domain Lists",
+      "duration": "2-3 minutes",
+      "dependencies": [],
+      "inputs": [
+        "Raw company list from any source"
+      ],
+      "outputs": [
+        "Clean domain list (CSV: company_name, domain)"
+      ],
+      "success_criteria": "CSV file with company_name and domain columns, no duplicates",
+      "responsibility_id": "RESP-LG-003",
+      "responsibility_name": "prepare domains",
+      "_original_action": "prepare"
+    },
+    {
+      "step_number": 2,
+      "name": "Upload domain list to Anymailfinder",
+      "action": "upload",
+      "tool": "TOOL-DATA-007 (Anymailfinder)",
+      "responsibility": "Lead Generator",
+      "placement": "Anymailfinder platform - Upload section",
+      "duration": "1 minute",
+      "dependencies": [
+        "Step 1"
+      ],
+      "inputs": [
+        "CSV file with domains"
+      ],
+      "outputs": [
+        "Upload confirmation"
+      ],
+      "success_criteria": "All domains uploaded successfully, no errors",
+      "responsibility_id": "RESP-LG-002",
+      "responsibility_name": "upload domains",
+      "_original_action": "upload"
+    },
+    {
+      "step_number": 3,
+      "name": "Configure nominative enrichment pattern",
+      "action": "configure",
+      "tool": "TOOL-DATA-007 (Anymailfinder)",
+      "responsibility": "Lead Generator",
+      "placement": "Anymailfinder - Enrichment settings",
+      "duration": "1-2 minutes",
+      "dependencies": [
+        "Step 2"
+      ],
+      "inputs": [
+        "Target roles (CEO, CTO, CMO, etc.)"
+      ],
+      "outputs": [
+        "Enrichment pattern configured"
+      ],
+      "success_criteria": "Roles selected, name pattern set (firstname.lastname@domain, etc.)",
+      "responsibility_id": "RESP-LG-018",
+      "responsibility_name": "configure nominative enrichment pattern",
+      "_original_action": "configure"
+    },
+    {
+      "step_number": 4,
+      "name": "Run nominative enrichment",
+      "action": "execute",
+      "tool": "TOOL-DATA-007 (Anymailfinder)",
+      "responsibility": "Lead Generator",
+      "placement": "Anymailfinder - Processing queue",
+      "duration": "5-8 minutes (automated processing)",
+      "dependencies": [
+        "Step 3"
+      ],
+      "inputs": [
+        "Configured enrichment job"
+      ],
+      "outputs": [
+        "Enriched lead list with emails"
+      ],
+      "success_criteria": "Processing complete, 50-80% success rate achieved",
+      "responsibility_id": "RESP-LG-019",
+      "responsibility_name": "execute run nominative enrichment",
+      "_original_action": "execute"
+    },
+    {
+      "step_number": 5,
+      "name": "Export enriched results",
+      "action": "export",
+      "tool": "TOOL-DATA-007 (Anymailfinder)",
+      "responsibility": "Lead Generator",
+      "placement": "Anymailfinder - Export section",
+      "duration": "1 minute",
+      "dependencies": [
+        "Step 4"
+      ],
+      "inputs": [
+        "Enriched data"
+      ],
+      "outputs": [
+        "CSV file with company_name, domain, email, name, title"
+      ],
+      "success_criteria": "All enriched contacts exported to CSV",
+      "responsibility_id": "RESP-LG-005",
+      "responsibility_name": "export enriched results",
+      "_original_action": "export"
+    },
+    {
+      "step_number": 6,
+      "name": "Log results and success rate",
+      "action": "log",
+      "tool": "Excel/Google Sheets",
+      "responsibility": "Lead Generator",
+      "placement": "Campaign tracking spreadsheet",
+      "duration": "1-2 minutes",
+      "dependencies": [
+        "Step 5"
+      ],
+      "inputs": [
+        "Enrichment results",
+        "Success rate metrics"
+      ],
+      "outputs": [
+        "Campaign log updated"
+      ],
+      "success_criteria": "Date, domain count, enriched count, success rate, cost logged",
+      "responsibility_id": "RESP-LG-020",
+      "responsibility_name": "log log results and success rate",
+      "_original_action": "log"
+    }
+  ],
+  "checklist": [
+    {
+      "item": "Domain list cleaned and formatted correctly",
+      "guide": "CSV format with company_name and domain columns, no duplicates",
+      "required": true
+    },
+    {
+      "item": "Target roles match company decision-makers",
+      "guide": "CEO, CTO, CMO, VP Sales for B2B targets",
+      "required": true
+    },
+    {
+      "item": "Anymailfinder credits available",
+      "guide": "Check credit balance before starting, pay only for valid results",
+      "required": true
+    },
+    {
+      "item": "Success rate meets 50-80% target",
+      "guide": "If below 50%, source quality may be poor",
+      "required": true
+    },
+    {
+      "item": "All results exported and logged",
+      "guide": "Export CSV and log campaign metrics for tracking",
+      "required": true
+    }
+  ],
+  "performance_metrics": {
+    "typical_volume": "40 domains per batch",
+    "success_rate": "50-80%",
+    "time_per_batch": "10-15 minutes",
+    "cost": "$0.0025 per valid email",
+    "enrichment_rank": "#3 (medium quality, best cost)"
+  },
+  "best_practices": [
+    "Use for B2B company domains with standard email patterns",
+    "Works best with English-language companies",
+    "50-80% success rate typical for nominative enrichment",
+    "Best ROI tool ($0.0025 per email vs $0.10-0.50 industry average)",
+    "Combine with other sources for higher enrichment rates"
+  ],
+  "common_issues": [
+    {
+      "issue": "Low success rate (<40%)",
+      "solution": "Check domain list quality, try different role titles, verify domains are active"
+    },
+    {
+      "issue": "No credits available",
+      "solution": "Purchase more credits (pay per result model)"
+    },
+    {
+      "issue": "Duplicate emails returned",
+      "solution": "Deduplicate before uploading domain list"
+    }
+  ],
+  "tags": [
+    "lead_generation",
+    "email_enrichment",
+    "anymailfinder",
+    "nominative",
+    "b2b"
+  ],
+  "related_workflows": [
+    "WF-LG-001"
+  ],
+  "related_skills": [
+    "SKL-061"
+  ],
+  "related_professions": [
+    "Lead Generator",
+    "SDR"
+  ],
+  "version": "1.0",
+  "created": "2025-11-12",
+  "last_updated": "2025-11-12",
+  "source": "Video_006_Lead_Generation_Analysis",
+  "responsibility_id": "RESP-LG-010",
+  "responsibility_name": "enrich leads",
+  "_original_action": "Enrich",
+  "_original_object": "Lead List"
+}

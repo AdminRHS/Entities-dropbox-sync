@@ -1,0 +1,28 @@
+{
+  "entity_type": "TASK_MANAGERS",
+  "sub_entity": "Step_Template",
+  "step_id": "VIDEO-VIDEO-001-10",
+  "step_number": 10,
+  "parent_task": "TASK-TEMPLATE-VIDEO-001",
+  "task_name": "Create Multi-Scene Product Commercial",
+  "name": "Create new end frame for Scene 2",
+  "action": "modify",
+  "tool": "TOOL-AI-046 (Nano Banana)",
+  "responsibility": "Product Marketer",
+  "placement": "OpenArt - Image section",
+  "duration": "5 minutes",
+  "dependencies": [9],
+  "inputs": [
+    "Scene 2 start frame"
+  ],
+  "outputs": [
+    "New end frame with different environment (e.g., outer space)"
+  ],
+  "success_criteria": "End frame shows product in new environment",
+  "implementation_notes": "Use Nano Banana to modify the Scene 2 start frame and create a dramatically different end frame (e.g., change environment to outer space, different lighting, etc.).",
+  "tags": ["nano-banana", "end-frame", "environment-change"],
+  "version": "1.0",
+  "created": "2025-11-15",
+  "last_updated": "2025-11-15",
+  "source": "Video_012"
+}

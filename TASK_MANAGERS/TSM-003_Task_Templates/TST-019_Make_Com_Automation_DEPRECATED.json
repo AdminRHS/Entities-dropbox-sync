@@ -1,0 +1,127 @@
+{
+  "entity_type": "TASK_MANAGERS",
+  "sub_entity": "Task_Template",
+  "template_id": "Task-Template-019",
+  "task_name": "Make.com Lead Enrichment Automation (DEPRECATED)",
+  "action": "Automate",
+  "object": "Lead Enrichment",
+  "context": "via Make.com workflows (deprecated - use n8n instead)",
+  "description": "DEPRECATED: Automated lead enrichment using Make.com workflows (60-80% enrichment, 15-20 minutes setup). Deprecated in favor of n8n for better flexibility and cost.",
+  "department": "LG",
+  "profession": "Automation Engineer",
+  "priority": "Deprecated",
+  "estimated_duration": "15-20 minutes execution after setup",
+  "setup_duration": "1-2 hours for workflow",
+  "status": "Deprecated",
+  "deprecated_date": "2024-Q4",
+  "deprecated_reason": "n8n provides better flexibility, lower cost, and more control",
+  "complexity": "Medium",
+  "automation_potential": "Was Medium (40-60%)",
+  "success_rate": "Was 60-80%",
+  "alternatives": [
+    "TASK-TEMPLATE-011 (Custom n8n Scraper) - More flexible",
+    "TASK-TEMPLATE-014 (AI HTML Parsing via n8n) - Advanced"
+  ],
+  "dependencies": [
+    "Make.com account (no longer recommended)",
+    "Historical reference only"
+  ],
+  "tools_required": [
+    "TOOL-AUTO-002 (Make.com - deprecated for lead gen)",
+    "TOOL-AUTO-001 (n8n - recommended replacement)"
+  ],
+  "skills_required": [
+    "SKL-062 (built enrichment pipelines via n8n - updated tool)"
+  ],
+  "objects_used": [
+    "OBJ-LG-009 (n8n Workflow - replacement platform)"
+  ],
+  "workflow_reference": "WF-LG-014",
+  "deprecation_notice": {
+    "status": "DEPRECATED - Use n8n instead",
+    "effective_date": "Q4 2024",
+    "reason": "n8n offers better flexibility, lower cost, more control",
+    "impact": "Make.com still works but not recommended for new workflows",
+    "migration_path": "Migrate to n8n (TASK-TEMPLATE-011 or 014)",
+    "historical_value": "Documented for teams currently using Make.com"
+  },
+  "historical_performance": {
+    "when_active": "Pre-Q4 2024",
+    "success_rate": "60-80% enrichment",
+    "setup_time": "1-2 hours for workflow creation",
+    "execution_time": "15-20 minutes per campaign",
+    "complexity": "Medium"
+  },
+  "why_deprecated": [
+    "n8n offers more flexibility and control",
+    "Make.com pricing higher for automation use cases",
+    "n8n has better community and integrations",
+    "Self-hosted n8n option reduces costs",
+    "n8n more suitable for technical users",
+    "Industry trend toward n8n for lead gen workflows"
+  ],
+  "recommended_alternatives": {
+    "for_flexibility": {
+      "template": "TASK-TEMPLATE-011",
+      "method": "Custom n8n Scraper",
+      "setup_time": "2-4 hours",
+      "why_better": "More control, custom logic, lower cost"
+    },
+    "for_ai_parsing": {
+      "template": "TASK-TEMPLATE-014",
+      "method": "AI HTML Parsing via n8n",
+      "success_rate": "10-20% for difficult sources",
+      "why_better": "Handles unstructured data better"
+    }
+  },
+  "make_com_vs_n8n": {
+    "pricing": "Make.com: Higher per operation | n8n: Lower, self-hosted option",
+    "flexibility": "Make.com: GUI-focused | n8n: More code flexibility",
+    "community": "Make.com: Smaller | n8n: Larger, more active",
+    "use_case_fit": "Make.com: General automation | n8n: Better for lead gen/scraping",
+    "recommendation": "Use n8n for new lead gen workflows"
+  },
+  "migration_guide": {
+    "step_1": "Export Make.com workflow logic",
+    "step_2": "Set up n8n instance (cloud or self-hosted)",
+    "step_3": "Recreate workflow in n8n with improved logic",
+    "step_4": "Test thoroughly before deprecating Make.com workflow",
+    "step_5": "Monitor n8n workflow performance",
+    "estimated_migration_time": "2-4 hours per workflow"
+  },
+  "when_make_com_still_viable": [
+    "Existing workflows already running successfully",
+    "Non-technical users prefer GUI-only interface",
+    "Small-scale automation (< 1,000 operations/month)",
+    "General business automation (not lead gen specific)"
+  ],
+  "lessons_learned": [
+    "Platform selection matters for specific use cases",
+    "n8n better suited for technical automation workflows",
+    "Cost considerations important for high-volume use",
+    "Community size and support matters for long-term success"
+  ],
+  "historical_context": "Make.com (formerly Integromat) was used for lead enrichment automation but teams migrated to n8n for better control and lower costs in lead gen use cases",
+  "tags": [
+    "deprecated",
+    "make_com",
+    "n8n",
+    "workflow_automation",
+    "migration",
+    "historical_reference"
+  ],
+  "related_workflows": [
+    "WF-LG-014"
+  ],
+  "related_skills": [
+    "SKL-062"
+  ],
+  "related_professions": [
+    "Automation Engineer",
+    "Backend Developer"
+  ],
+  "version": "1.0",
+  "created": "2025-11-12",
+  "last_updated": "2025-11-12",
+  "source": "Video_006_Lead_Generation_Analysis"
+}

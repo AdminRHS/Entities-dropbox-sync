@@ -1,0 +1,25 @@
+{
+  "tool_id": "TOOL-SOCIAL-001",
+  "tool_name": "LinkedIn",
+  "tool_category": "Social Network",
+  "description": "Professional networking platform for company research, lead generation, and recruitment",
+  "skills_count": 1,
+  "last_updated": "2025-11-22",
+  "skills": [
+    {
+      "skill_id": "SKL-013",
+      "skill_phrase": "searched companies on LinkedIn",
+      "components": {
+        "action": "search",
+        "object": "companies",
+        "tool": "LinkedIn"
+      },
+      "department": "Lead Generation",
+      "professions": ["lead generator"],
+      "difficulty_level": "beginner",
+      "frequency": "daily",
+      "time_estimate_minutes": 30,
+      "automation_potential": "medium"
+    }
+  ]
+}

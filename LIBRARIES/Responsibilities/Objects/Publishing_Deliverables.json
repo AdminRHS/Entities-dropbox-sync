@@ -1,0 +1,112 @@
+{
+  "entity_type": "LIBRARIES",
+  "library": "Objects",
+  "object_category": "Publishing_Deliverables",
+  "description": "Long-form written content and publishing deliverables for Medium, Substack, blogs, and content platforms",
+  "created": "2025-11-13",
+  "updated": "2025-11-13",
+  "total_objects": 2,
+  "objects": [
+    {
+      "object_id": "OBJ-PUB-001",
+      "object_name": "Medium Article",
+      "full_name": "Medium SEO-Optimized Long-Form Article",
+      "type": "Written Content",
+      "format": "Rich text with images",
+      "description": "2,000+ word SEO-optimized cornerstone guide published on Medium with Hook → Context → Value → CTA structure",
+      "typical_size": "2,000+ words",
+      "created_with": ["TOOL-PUB-001"],
+      "tool_details": {
+        "TOOL-PUB-001": "Medium - Long-form publishing platform"
+      },
+      "used_by_professions": ["Marketer", "Developer", "Designer"],
+      "created_in_workflows": ["WF-SMM-009", "WF-SMM-001", "WF-SMM-002"],
+      "workflow_context": {
+        "WF-SMM-009": "Core output - SEO-optimized long-form article",
+        "WF-SMM-001": "Step 1 - Create long-form primary content",
+        "WF-SMM-002": "Source content for repurposing"
+      },
+      "related_actions": ["research", "write", "publish", "optimize"],
+      "content_structure": {
+        "hook": "Attention-grabbing opening that hooks reader",
+        "context": "Background and problem statement",
+        "value": "Comprehensive guide with actionable insights",
+        "cta": "Call-to-action (newsletter signup, service inquiry, etc.)"
+      },
+      "article_types": {
+        "cornerstone_guides": "40% - 2,000+ word comprehensive resources",
+        "industry_analysis": "30% - Trend reports and insights",
+        "case_studies": "20% - Detailed project breakdowns",
+        "opinion_pieces": "10% - Thought-provoking commentary"
+      },
+      "content_types": [
+        "Comprehensive tutorials",
+        "Industry deep dives",
+        "Case study narratives",
+        "Thought leadership pieces",
+        "Technical explainers"
+      ],
+      "use_cases": [
+        "SEO content marketing",
+        "Thought leadership",
+        "Organic traffic generation",
+        "Email list building",
+        "Authority positioning"
+      ],
+      "best_practices": [
+        "2,000+ words for cornerstone content",
+        "SEO-optimized title and headers",
+        "Insert images, charts, screenshots every 300 words",
+        "Submit to relevant Medium publications",
+        "Include internal and external links",
+        "Add email capture CTA",
+        "1-2 articles per week posting frequency"
+      ],
+      "performance_metrics": ["Views", "Read ratio", "Fans", "Email signups", "External traffic"],
+      "source": "SMM_Research_Document_2_Content_Strategy_Multi_Platform"
+    },
+    {
+      "object_id": "OBJ-PUB-002",
+      "object_name": "Substack Newsletter",
+      "full_name": "Substack Email Newsletter Issue",
+      "type": "Email Content",
+      "format": "Email newsletter (HTML/Rich text)",
+      "description": "Weekly or bi-weekly newsletter issue with deep insights, curated content, and direct email relationship building",
+      "typical_size": "800-1,500 words",
+      "created_with": ["TOOL-PUB-002"],
+      "tool_details": {
+        "TOOL-PUB-002": "Substack - Newsletter publishing platform"
+      },
+      "used_by_professions": ["Marketer", "Designer", "Developer"],
+      "created_in_workflows": ["WF-SMM-009"],
+      "workflow_context": {
+        "WF-SMM-009": "Step 6 - Cross-promote Medium article in newsletter"
+      },
+      "related_actions": ["write", "publish", "send"],
+      "content_types": [
+        "Original long-form essays",
+        "Curated links and insights",
+        "Exclusive subscriber content",
+        "Weekly/bi-weekly updates",
+        "Industry commentary"
+      ],
+      "use_cases": [
+        "Direct audience relationship",
+        "Email list ownership",
+        "Hyper-specific niche building",
+        "Monetization (paid subscriptions)",
+        "Thought leadership"
+      ],
+      "best_practices": [
+        "Consistent weekly or bi-weekly schedule",
+        "Hyper-specific niche focus",
+        "Direct, personal tone",
+        "Exclusive content for subscribers",
+        "Clear value proposition",
+        "Email-first mindset (owned audience)"
+      ],
+      "performance_metrics": ["Open rate", "Click-through rate", "Subscriber growth", "Paid conversion rate (if applicable)"],
+      "source": "SMM_Research_Document_2_Content_Strategy_Multi_Platform"
+    }
+  ]
+}

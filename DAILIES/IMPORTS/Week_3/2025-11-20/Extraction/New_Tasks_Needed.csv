@@ -1,0 +1,11 @@
+Activity_Name,Department,Frequency,Time_hrs,Reusability_Score,Priority,Suggested_TST_ID,Source_Report,Description
+Install and Configure IDE Tool,AID,High,2,95,High,TST-072,AI_Department,Install IDE (Antigravity/Cursor) for team members with proper configuration and model access
+Setup Automation Infrastructure,AID,Medium,3,90,High,TST-073,AI_Department,Create Google Cloud project with service account for automation workflows
+Process Daily Activity Files,AID,Daily,1,100,High,TST-074,AI_Department,Process daily.md and generate plans.md and tasks.md files
+Design Microservice Database Schema,AID/DEV,Medium,2,95,High,TST-075,AI_Department,Design complete database schema for microservice with tool subscriptions
+Create Course Visual Materials,DGN,High,4,90,Medium,TST-076,Design_Department,Create comprehensive visual materials for course modules (covers carousels thumbnails)
+Design Black Friday Marketing Assets,DGN,Seasonal,4,85,Medium,TST-077,Design_Department,Generate multiple banner designs for seasonal marketing campaigns
+Prepare Client Interview Materials,DGN,Medium,2,90,Medium,TST-078,Design_Department,Organize portfolio prepare work samples and conduct client presentation
+Create Animation Instructions,DGN,Medium,1,85,Low,TST-079,Design_Department,Develop Runway animation instruction and course materials
+Train Lead Generator on New Tools,LGN/DGN,Medium,1.5,90,Medium,TST-080,Design_Department,Prepare and conduct training materials for lead generators on creating graphics
+Design Marketing Campaign Assets,DGN/SMM,High,4,90,High,TST-081,Design_Department,Create visual concepts and assets for marketing campaigns

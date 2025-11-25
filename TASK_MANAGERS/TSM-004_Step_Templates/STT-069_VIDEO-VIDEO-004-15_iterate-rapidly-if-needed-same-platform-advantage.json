@@ -1,0 +1,34 @@
+{
+  "entity_type": "TASK_MANAGERS",
+  "sub_entity": "Step_Template",
+  "step_id": "VIDEO-VIDEO-004-15",
+  "step_number": 15,
+  "parent_task": "TASK-TEMPLATE-VIDEO-004",
+  "task_name": "Master Unified Platform Workflow for Video Generation",
+  "name": "Iterate rapidly if needed (same platform advantage)",
+  "action": "iterate",
+  "tool": "TOOL-AI-051 (Google Veo 3.1)",
+  "responsibility": "Video Producer",
+  "placement": "OpenArt - Video section",
+  "duration": "5-10 minutes per iteration",
+  "dependencies": [
+    14
+  ],
+  "inputs": [
+    "Feedback from review",
+    "Original reference images still available"
+  ],
+  "outputs": [
+    "Improved video iteration"
+  ],
+  "success_criteria": "Rapid iteration achieved without platform switching",
+  "implementation_notes": "Rapid iteration achieved without platform switching - Implementation details based on the Master Unified Platform Workflow for Video Generation workflow.",
+  "tags": [
+    "iterate",
+    "template-task-video-004"
+  ],
+  "version": "1.0",
+  "created": "2025-11-15",
+  "last_updated": "2025-11-15",
+  "source": "Video_012"
+}

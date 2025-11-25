@@ -1,0 +1,81 @@
+{
+  "entity_type": "LIBRARIES",
+  "sub_entity": "Tool",
+  "tool_id": "TOOL-AI-088",
+  "name": "Ragas",
+  "vendor": "Exploding Gradients",
+  "category": "AI/RAG Evaluation",
+  "purpose": "Evaluate RAG system performance with specialized metrics",
+  "description": "RAG evaluation framework for setting up evaluation pipelines with specialized metrics like faithfulness and relevance. Provides automated test data set generation and works with any LLM provider. Essential for ensuring RAG system quality and reliability.",
+  "skill_level_required": "Intermediate",
+  "cost_structure": "Free (Open Source)",
+  "platform_compatibility": [
+    "Python"
+  ],
+  "integration_capabilities": [
+    "Multiple LLM providers",
+    "Langfuse integration",
+    "RAG pipelines",
+    "Test data generation",
+    "Faithfulness metrics",
+    "Relevance metrics",
+    "Custom metrics"
+  ],
+  "documentation_url": "https://docs.ragas.io/",
+  "actual_remote_helpers_usage": {
+    "primary_use": "RAG System Evaluation",
+    "users": [],
+    "use_cases": [
+      "evaluate rag quality",
+      "measure faithfulness",
+      "measure relevance",
+      "generate test data",
+      "set up eval pipelines",
+      "rag optimization"
+    ],
+    "workflows": [
+      "WF-RAG-001: Build RAG System"
+    ]
+  },
+  "strengths": [
+    "Specialized RAG metrics",
+    "Automated test generation",
+    "Works with any LLM",
+    "Open-source",
+    "Complements general observability tools"
+  ],
+  "limitations": [
+    "Python only",
+    "Focused only on RAG evaluation",
+    "Requires LLM API for evaluation"
+  ],
+  "alternatives": [
+    {
+      "name": "DeepEval",
+      "comparison": "Good alternative"
+    },
+    {
+      "name": "UpTrain",
+      "comparison": "Another RAG evaluation option"
+    }
+  ],
+  "departments_using": [],
+  "tags": [
+    "rag",
+    "evaluation",
+    "testing",
+    "faithfulness",
+    "relevance",
+    "metrics",
+    "open-source"
+  ],
+  "discovery_date": "2025-11-13",
+  "discovery_source": "Video_005",
+  "status": "active",
+  "video_source": {
+    "video_id": "Video_005",
+    "video_title": "My Agentic Engineering Tech Stack",
+    "creator": "Cole",
+    "timestamp": "17:17-17:56"
+  }
+}

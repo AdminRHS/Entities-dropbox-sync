@@ -1,0 +1,216 @@
+{
+  "entity_type": "LIBRARIES",
+  "sub_entity": "Tool",
+  "tool_id": "TOOL-AI-079",
+  "name": "Gemini File Search API",
+  "vendor": "Google",
+  "category": "AI/Managed RAG Service",
+  "purpose": "Managed Retrieval-Augmented Generation (RAG) that eliminates vector database infrastructure, enabling fast document search and citation-backed answers",
+  "description": "Google's managed RAG solution that automatically handles file upload, chunking, embedding generation, and indexing. Replaces weeks of manual RAG setup with simple API calls. Provides grounded answers with automatic citations.",
+  "skill_level_required": "Intermediate",
+  "cost_structure": {
+    "model": "Freemium",
+    "free_tier": "Limited file uploads and queries",
+    "paid_plans": "Pay-per-use for API calls",
+    "cost_comparison": "Eliminates vector database infrastructure costs ($50-500/month)",
+    "pricing_url": "https://ai.google.dev/pricing"
+  },
+  "platform_compatibility": [
+    "API",
+    "Python SDK",
+    "Node.js SDK",
+    "REST API"
+  ],
+  "integration_capabilities": [
+    "Google Cloud Platform",
+    "Gemini Models (1.5 Pro, 1.5 Flash)",
+    "Automatic file indexing",
+    "Citation generation",
+    "Context caching (cost reduction)",
+    "Multi-file search"
+  ],
+  "documentation_url": "https://ai.google.dev/gemini-api/docs/file-search",
+  "actual_remote_helpers_usage": {
+    "primary_use": "Managed RAG for document search without infrastructure",
+    "users": [
+      "AI Engineers",
+      "Backend Developers",
+      "ML Engineers"
+    ],
+    "use_cases": [
+      "Document Q&A with citations",
+      "Knowledge base search",
+      "Research paper analysis",
+      "Contract and legal document search",
+      "Technical documentation search",
+      "Customer support automation",
+      "Internal knowledge management"
+    ],
+    "workflows": [
+      {
+        "workflow_id": "WF-RAG-001",
+        "name": "Managed RAG Setup (Gemini File Search)",
+        "type": "Automated two-phase process",
+        "complexity": "Low",
+        "setup_time": "Minutes to days (vs weeks/months for traditional RAG)",
+        "phases": [
+          {
+            "phase": "Offline Indexing",
+            "duration": "One-time setup",
+            "steps": [
+              "Create file_store via API",
+              "Upload files (PDF, TXT, DOCX, HTML, MD)",
+              "Gemini automatically: chunks documents, generates embeddings (text-embedding-004), builds searchable index",
+              "Wait for indexing completion"
+            ],
+            "api_calls": 2,
+            "automation": "100% (chunking, embedding, indexing all automated)"
+          },
+          {
+            "phase": "Real-time Querying",
+            "duration": "Ongoing",
+            "steps": [
+              "Send natural language query to Gemini",
+              "Gemini: searches indexed_data, retrieves relevant chunks, generates grounded answer with citations",
+              "Receive response with source references"
+            ],
+            "api_calls": 1,
+            "response_time": "<1 second",
+            "automation": "100%"
+          }
+        ],
+        "total_api_calls": 3,
+        "total_setup_time": "Minutes (for small datasets) to days (for large datasets)",
+        "ongoing_maintenance": "None (fully managed)"
+      },
+      {
+        "workflow_id": "WF-RAG-002",
+        "name": "Traditional RAG Implementation (for comparison)",
+        "type": "Manual multi-stage engineering",
+        "complexity": "Very High",
+        "setup_time": "Weeks to months",
+        "steps": [
+          "Choose and deploy vector database (Pinecone, Weaviate, Chroma, Qdrant)",
+          "Set up infrastructure (servers, networking, backups)",
+          "Implement document chunking logic (semantic boundaries, overlap)",
+          "Select and configure embedding model",
+          "Build embedding generation pipeline",
+          "Implement vector storage and indexing",
+          "Build search and retrieval logic",
+          "Implement LLM integration for answer generation",
+          "Add citation tracking manually",
+          "Set up monitoring and maintenance"
+        ],
+        "api_calls": "20+ manual steps",
+        "ongoing_maintenance": "Weekly (database management, scaling, updates)",
+        "infrastructure_cost": "$50-500/month",
+        "engineering_time": "Weeks/months vs minutes/days"
+      }
+    ],
+    "performance": {
+      "indexing_speed": "Automatic (managed by Google)",
+      "query_latency": "<1 second",
+      "accuracy": "High (grounded in documents)",
+      "citation_quality": "Automatic with source references",
+      "cost_efficiency": "Excellent (eliminates infrastructure)",
+      "scalability": "Automatic (managed service)"
+    }
+  },
+  "strengths": [
+    "Eliminates vector database infrastructure (weeks → days setup)",
+    "Automatic chunking, embedding, indexing",
+    "Built-in citation generation",
+    "Context caching reduces costs by 90%",
+    "Scales automatically",
+    "No ongoing maintenance",
+    "Fast time-to-production",
+    "Cost-effective vs traditional RAG"
+  ],
+  "limitations": [
+    "Less customization than self-hosted RAG",
+    "Vendor lock-in to Google",
+    "File format limitations (PDF, TXT, DOCX, HTML, MD only)",
+    "Limited control over chunking strategy",
+    "Requires Google Cloud account"
+  ],
+  "key_innovation": {
+    "what_it_replaces": "Vector databases (Pinecone, Weaviate, Chroma, Qdrant) + manual chunking/embedding pipelines",
+    "time_saved": "Weeks/months of engineering → Minutes/days",
+    "infrastructure_eliminated": "Vector database servers, backups, scaling, monitoring",
+    "complexity_reduction": "20+ manual steps → 3 API calls",
+    "cost_reduction": "$50-500/month infrastructure → pay-per-use API"
+  },
+  "objects_used": [
+    "OBJ-AI-011: file_store",
+    "OBJ-AI-012: embedding",
+    "OBJ-AI-013: chunk",
+    "OBJ-AI-014: citation",
+    "OBJ-AI-015: indexed_data"
+  ],
+  "objects_replaced": [
+    "OBJ-AI-016: vector_database (eliminated in managed approach)"
+  ],
+  "actions_used": [
+    "upload",
+    "create",
+    "index",
+    "search",
+    "retrieve",
+    "generate",
+    "cite"
+  ],
+  "professions": [
+    "AI Engineer (primary)",
+    "Backend Developer",
+    "ML Engineer",
+    "Full-Stack Developer"
+  ],
+  "departments_using": [
+    "AI Engineering (primary)",
+    "Dev",
+    "Product"
+  ],
+  "related_tools": {
+    "complements": [
+      "TOOL-AI-003: Gemini (base LLM)",
+      "LangChain (for advanced RAG orchestration)",
+      "LlamaIndex (alternative RAG framework)"
+    ],
+    "replaces": [
+      "Pinecone (vector database)",
+      "Weaviate (vector database)",
+      "Chroma (vector database)",
+      "Qdrant (vector database)"
+    ],
+    "alternatives": [
+      "OpenAI Assistants API (similar managed RAG)",
+      "Azure AI Search (Microsoft's managed RAG)",
+      "Self-hosted RAG (more control, more complexity)"
+    ]
+  },
+  "integration_examples": {
+    "python": "from google import genai; client = genai.Client(api_key='...'); file_store = client.files.create_file_store()",
+    "use_case": "Upload 1000 PDFs → Automatic indexing → Query: 'What are the key findings?' → Grounded answer with citations",
+    "context_caching": "Reuse indexed data across queries (90% cost reduction)"
+  },
+  "discovery_source": {
+    "video_id": "Video_002",
+    "video_title": "Google's New Gemini API Changes RAG Forever",
+    "discovery_date": "2025-11-12",
+    "key_insight": "Managed RAG eliminates weeks of infrastructure setup, making RAG accessible to all developers"
+  },
+  "tags": [
+    "rag",
+    "managed-service",
+    "document-search",
+    "embeddings",
+    "citations",
+    "gemini",
+    "vector-search",
+    "ai",
+    "google",
+    "no-infrastructure"
+  ],
+  "last_updated": "2025-11-13",
+  "version": "1.0"
+}

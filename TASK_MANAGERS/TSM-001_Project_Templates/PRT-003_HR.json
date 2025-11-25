@@ -1,0 +1,796 @@
+{
+  "entity_type": "TASK_MANAGERS",
+  "sub_entity": "Project_Template",
+  "template_id": "Project-Template-003",
+  "version": "1.0",
+  "metadata": {
+    "name": "Complete HR Automation Implementation (4-Week Plan)",
+    "description": "End-to-end implementation of HR automation system based on comprehensive YouTube tutorial research. Automates CV screening, recruitment pipeline, interview scheduling, job posting, onboarding, and compliance tracking. Designed for small HR teams (2-5 people) in Austria/Ukraine with GDPR compliance requirements. Achieves 20-30 hours/month time savings and €350+/month cost reduction vs traditional HR tools.",
+    "primary_department": "HR",
+    "departments_involved": [
+      "HR",
+      "OPS",
+      "AI",
+      "ADMIN"
+    ],
+    "project_type": "Complex",
+    "complexity": "High",
+    "estimated_duration": "4 weeks setup + ongoing automation maintenance",
+    "cost_estimate": {
+      "initial_setup": "€200-300 (setup time value + initial tool subscriptions)",
+      "monthly_recurring": "€69-169",
+      "cost_breakdown": [
+        "n8n Cloud (EU datacenter): €49/month OR €0 (self-hosted)",
+        "Claude AI (occasional use): €20/month OR ChatGPT: $20/month",
+        "Google Workspace: Already paid - €0 additional",
+        "Notion: Free tier - €0",
+        "Typeform: Free tier (100 responses/month) - €0",
+        "Pabbly Connect (LinkedIn automation): $19/month (optional)",
+        "Make.com (alternative to Pabbly): €0-99/month (optional)",
+        "Google Gemini API: Free tier - €0"
+      ],
+      "total_monthly_minimum": "€49 (n8n only)",
+      "total_monthly_recommended": "€69-89 (n8n + AI tool)",
+      "total_monthly_full_featured": "€120-169 (all tools)"
+    },
+    "roi_estimate": "20-30 hours/month time savings, €350+/month cost reduction vs traditional ATS (€2,000-5,000/month). ROI breakeven: First recruitment cycle (Month 1). Annual value: €4,200-6,000 in saved labor costs.",
+    "success_criteria": [
+      "CV screening automated: Process 50 CVs in 90 minutes vs 20+ hours manually (18.5 hour savings)",
+      "Recruitment cycle time reduced: 30 days → 20 days average",
+      "Job posting creation time: 1 hour → 30 minutes (AI-assisted)",
+      "Onboarding admin time: 3-5 hours → 30 minutes per new hire",
+      "Compliance monitoring automated with flagging and alerts",
+      "Team fully trained and documentation complete",
+      "All workflows operational and tested",
+      "Measured time savings of 20-30 hours/month achieved"
+    ],
+    "prerequisites": [
+      "HR team buy-in and commitment (minimum 2 team members: Viktoriia - technical, Evgeniya - process)",
+      "Budget approval for tools (€69-169/month ongoing)",
+      "Google Workspace access with admin privileges",
+      "Time allocation: 4 weeks × 8-10 hours/week = 32-40 hours total team investment",
+      "GDPR compliance review completed (legal/compliance sign-off)",
+      "Management approval for AI-assisted hiring processes"
+    ],
+    "best_for": [
+      "Small HR teams (2-5 people) in Austria/Ukraine or other EU countries",
+      "Companies processing 50+ CVs per recruitment cycle",
+      "Organizations wanting to reduce manual HR administrative work by 70%+",
+      "Teams with GDPR/EU data compliance requirements",
+      "Startups and scale-ups with growing hiring needs but limited HR headcount",
+      "Remote-first companies needing automated, async-friendly processes"
+    ],
+    "not_recommended_for": [
+      "Enterprise companies with >1,000 employees (need enterprise ATS)",
+      "Organizations with budget for full-featured HRIS (Workday, SAP, BambooHR)",
+      "Companies with complex compliance needs beyond GDPR (highly regulated industries)",
+      "Teams unwilling to invest time in setup and maintenance",
+      "Organizations without technical team member for workflow troubleshooting"
+    ]
+  },
+  "structure": {
+    "total_phases": 4,
+    "total_milestones": 4,
+    "total_tasks": 6,
+    "total_estimated_steps": 58,
+    "workflow_type": "Sequential with Parallel Opportunities"
+  },
+  "phases": [
+    {
+      "phase_number": 1,
+      "phase_name": "Recruitment Automation (Week 1)",
+      "phase_description": "Automate core CV screening and candidate ranking using n8n automation platform with Google Gemini AI. Establish foundation for automated recruitment pipeline. This is the highest-ROI phase delivering immediate 18.5 hour time savings per 50 CVs processed.",
+      "duration": "1 week (8-10 hours total team time)",
+      "complexity": "High",
+      "dependencies": [],
+      "milestones": [
+        "MIL-PROJ-HR-002-001"
+      ],
+      "output": "Operational automated CV screening system processing CVs from Gmail, analyzing with AI, outputting to Google Sheets with scores and recommendations",
+      "success_criteria": [
+        "n8n workflow operational with all nodes configured",
+        "Gmail trigger reliably fires on new CV emails",
+        "Gemini AI analysis produces valid 21-field TSV output with >90% accuracy",
+        "Google Sheets receives and displays candidate data properly formatted",
+        "Test batch: 50 CVs processed in 90 minutes vs 20+ hours manually",
+        "CV screening accuracy validated: >90% agreement with manual HR review",
+        "Error handling configured with email alerts to HR team",
+        "Documentation created: workflow setup guide and usage instructions"
+      ],
+      "key_activities": [
+        "Setup n8n Cloud account with EU datacenter (GDPR compliance)",
+        "Connect Gmail, obtain Gemini API key, create Google Sheets template",
+        "Build n8n workflow nodes: Gmail → Extract CV → AI Analysis → Sheets Output",
+        "Configure Gemini AI with CV Parser v1 prompt for 21-field extraction",
+        "Optimize AI parameters (temperature, tokens) for consistency",
+        "Test with diverse CV samples, calibrate scoring against manual review",
+        "Implement bias testing and mitigation",
+        "Document workflow and train team"
+      ],
+      "team_allocation": {
+        "Viktoriia_technical": "6-7 hours (n8n setup, API configuration, workflow building, testing)",
+        "Evgeniya_process": "2-3 hours (CV samples preparation, accuracy validation, documentation)"
+      },
+      "risks": [
+        {
+          "risk": "Gemini API rate limits exceeded during testing",
+          "mitigation": "Use free tier conservatively, add delays between requests, plan for paid tier if needed",
+          "impact": "Medium",
+          "probability": "Low"
+        },
+        {
+          "risk": "AI accuracy below 90% threshold",
+          "mitigation": "Prompt engineering iterations, use few-shot examples, fallback to manual review for low-confidence scores",
+          "impact": "High",
+          "probability": "Medium"
+        },
+        {
+          "risk": "Gmail trigger unreliable or delayed",
+          "mitigation": "Use dedicated recruitment inbox, test trigger thoroughly, implement polling backup",
+          "impact": "Medium",
+          "probability": "Low"
+        }
+      ]
+    },
+    {
+      "phase_number": 2,
+      "phase_name": "Complete Recruitment System + Onboarding Start (Week 2)",
+      "phase_description": "Build end-to-end recruitment tracking system using Notion as ATS, integrate Typeform for applications, automate interview scheduling, and initiate onboarding automation design. Creates unified candidate pipeline from application to hire.",
+      "duration": "1 week (8-10 hours total team time)",
+      "complexity": "Medium",
+      "dependencies": [
+        "Phase 1 complete - CV screening operational"
+      ],
+      "milestones": [
+        "MIL-PROJ-HR-002-002"
+      ],
+      "output": "Complete recruitment tracking system: Typeform applications → Notion ATS → Interview scheduling → Onboarding handoff. All candidate data centralized with status tracking and team collaboration.",
+      "success_criteria": [
+        "Notion ATS database created with all 35+ fields and 7+ views",
+        "Typeform application form professional, mobile-friendly, collecting all required data",
+        "n8n integration: Typeform → Notion working (applications auto-create candidate cards)",
+        "CV screening workflow connected to Notion (Gmail CVs also create/update Notion entries)",
+        "Interview scheduling automation operational (Google Calendar or Calendly)",
+        "Test candidate processed end-to-end: application → CV screening → Notion → interview invite",
+        "Team access configured with appropriate permissions (HR full, managers edit, interviewers comment)",
+        "Documentation and training completed"
+      ],
+      "key_activities": [
+        "Design Notion database structure with 35+ properties",
+        "Configure status pipeline (9 stages) and automation",
+        "Create 7+ database views (Board, Table, Calendar, Gallery, List, High Priority, By Position)",
+        "Design candidate card template",
+        "Build Typeform application form with branding",
+        "Create n8n workflow: Typeform → Notion",
+        "Integrate CV screening workflow with Notion",
+        "Setup interview scheduling (Google Calendar or Calendly)",
+        "Configure calendar event creation with video links",
+        "Test complete pipeline end-to-end"
+      ],
+      "team_allocation": {
+        "Viktoriia_technical": "4-5 hours (n8n Typeform/Notion integration, calendar automation)",
+        "Evgeniya_process": "4-5 hours (Notion database design, views, templates, Typeform design, testing)"
+      },
+      "risks": [
+        {
+          "risk": "Notion API rate limits with high application volume",
+          "mitigation": "Add delays in n8n workflow, batch process applications, monitor API usage",
+          "impact": "Medium",
+          "probability": "Low"
+        },
+        {
+          "risk": "Duplicate candidate records created",
+          "mitigation": "Implement deduplication logic in n8n (search by email before creating)",
+          "impact": "Medium",
+          "probability": "Medium"
+        },
+        {
+          "risk": "Team resistance to new ATS system",
+          "mitigation": "Involve team in design, provide training, emphasize time savings, allow feedback period",
+          "impact": "High",
+          "probability": "Low"
+        }
+      ]
+    },
+    {
+      "phase_number": 3,
+      "phase_name": "Content Generation & Communication (Week 3)",
+      "phase_description": "Automate job description creation, interview preparation, and LinkedIn job posting using AI content generation. Streamline communication and reduce time spent on writing and posting.",
+      "duration": "1 week (6-8 hours total team time)",
+      "complexity": "Medium",
+      "dependencies": [
+        "Phase 2 complete - Notion ATS operational"
+      ],
+      "milestones": [
+        "MIL-PROJ-HR-002-003"
+      ],
+      "output": "AI-powered content generation for job postings, interview materials, and LinkedIn automation. Job posting creation time reduced from 1 hour to 30 minutes.",
+      "success_criteria": [
+        "ChatGPT/Claude prompt library created for HR content (10+ prompts)",
+        "Job description generation tested with 10 examples - quality validated",
+        "NotebookLM workflow operational for interview prep materials",
+        "LinkedIn automation configured (Pabbly or Make.com)",
+        "Test job post: Google Sheets → AI generation → LinkedIn published successfully",
+        "Content quality meets brand standards (manual review confirms)",
+        "Time savings measured: 30 minutes per job posting vs 1 hour manual",
+        "Team trained on using AI tools effectively"
+      ],
+      "key_activities": [
+        "Create prompt library: job descriptions, interview questions, communication templates",
+        "Test ChatGPT/Claude for job description generation (10 samples)",
+        "Setup NotebookLM for interview prep from candidate CVs",
+        "Configure Pabbly or Make.com account",
+        "Create Google Sheets template for LinkedIn job data",
+        "Setup AI content generation for LinkedIn posts",
+        "Connect LinkedIn API for auto-publishing",
+        "Build workflow: Sheets → AI → LinkedIn",
+        "Test end-to-end: job posting data → LinkedIn published",
+        "Optimize AI prompts based on output quality"
+      ],
+      "team_allocation": {
+        "Viktoriia_technical": "3-4 hours (Pabbly/Make.com setup, LinkedIn API, workflow integration)",
+        "Evgeniya_process": "3-4 hours (prompt engineering, content testing, brand voice validation)"
+      },
+      "risks": [
+        {
+          "risk": "AI-generated content doesn't match brand voice",
+          "mitigation": "Iterate on prompts with examples, add manual review step, provide style guidelines to AI",
+          "impact": "Medium",
+          "probability": "Medium"
+        },
+        {
+          "risk": "LinkedIn API authentication issues",
+          "mitigation": "Follow official documentation carefully, test with drafts first, have manual posting fallback",
+          "impact": "Low",
+          "probability": "Medium"
+        },
+        {
+          "risk": "Over-reliance on AI reduces personalization",
+          "mitigation": "Use AI for first draft, always review and personalize, maintain human touch",
+          "impact": "Medium",
+          "probability": "Low"
+        }
+      ]
+    },
+    {
+      "phase_number": 4,
+      "phase_name": "Compliance, Optimization & Documentation (Week 4)",
+      "phase_description": "Add compliance tracking layer, measure ROI, optimize workflows based on usage data, complete comprehensive documentation, and conduct team training. Finalize automated onboarding workflow.",
+      "duration": "1 week (8-10 hours total team time)",
+      "complexity": "Medium",
+      "dependencies": [
+        "Phase 3 complete - content generation operational"
+      ],
+      "milestones": [
+        "MIL-PROJ-HR-002-004"
+      ],
+      "output": "Fully documented, compliant, optimized HR automation system ready for ongoing use. Team trained, ROI measured, continuous improvement plan established.",
+      "success_criteria": [
+        "Compliance audit completed for GDPR requirements",
+        "Automated compliance checks configured (data retention, consent tracking, audit logs)",
+        "Onboarding automation operational (welcome emails, folder creation, IT requests)",
+        "ROI measured and documented: 20-30 hours/month saved confirmed",
+        "Complete documentation in Notion playbook: all workflows, troubleshooting, best practices",
+        "Team training completed: all members can operate systems independently",
+        "Feedback survey created for continuous improvement",
+        "Optimization recommendations implemented (error reduction, performance tuning)"
+      ],
+      "key_activities": [
+        "Audit HR processes for GDPR compliance gaps",
+        "Setup automated compliance checks (certifications, document expiry, data retention)",
+        "Build onboarding automation workflow (welcome email, Google Drive folder, IT request)",
+        "Configure preboarding reminders (Day -3, Day -1)",
+        "Measure actual time saved in each process vs estimates",
+        "Create comprehensive Notion playbook with all documentation",
+        "Conduct team training sessions (2 hours total)",
+        "Setup feedback survey for process improvements",
+        "Implement monitoring and alerting for workflow failures",
+        "Optimize workflows based on Week 1-3 learnings"
+      ],
+      "team_allocation": {
+        "Viktoriia_technical": "4-5 hours (compliance automation, onboarding workflow, monitoring setup)",
+        "Evgeniya_process": "4-5 hours (documentation creation, team training, ROI measurement, process optimization)"
+      },
+      "risks": [
+        {
+          "risk": "Compliance gaps discovered late in implementation",
+          "mitigation": "Involve legal/compliance from Week 1, document data processing, maintain audit trails",
+          "impact": "High",
+          "probability": "Low"
+        },
+        {
+          "risk": "Team not fully adopting new systems",
+          "mitigation": "Ongoing support, weekly check-ins, address concerns quickly, celebrate wins",
+          "impact": "High",
+          "probability": "Medium"
+        },
+        {
+          "risk": "Actual time savings below projections",
+          "mitigation": "Track metrics weekly, optimize inefficient steps, realistic expectation setting",
+          "impact": "Medium",
+          "probability": "Low"
+        }
+      ]
+    }
+  ],
+  "milestones": [
+    {
+      "milestone_id": "MIL-PROJ-HR-002-001",
+      "milestone_name": "CV Screening Automation Operational",
+      "phase": 1,
+      "description": "Automated CV screening system processing 50 CVs in 90 minutes with >90% accuracy, fully tested and documented.",
+      "task_templates": [
+        "TASK-TEMPLATE-HR-AUTO-001",
+        "TASK-TEMPLATE-HR-AUTO-002"
+      ],
+      "estimated_duration": "1 week (8-10 hours)",
+      "deliverables": [
+        "n8n workflow: Gmail → Gemini AI → Google Sheets",
+        "CV Parser v1.1 optimized prompt",
+        "Google Sheets candidate database with 21 fields",
+        "Test results: 50 CVs processed successfully",
+        "Accuracy validation report (>90% confirmed)",
+        "Workflow documentation and user guide"
+      ],
+      "success_metrics": {
+        "quantitative": [
+          "Processing time: 90 minutes for 50 CVs (vs 20+ hours manual) = 18.5 hour savings",
+          "Accuracy: >90% field extraction accuracy",
+          "Screening accuracy: >90% agreement with manual HR review",
+          "Cost per CV: €0.02 (automated) vs €5-10 (manual)"
+        ],
+        "qualitative": [
+          "Workflow reliability: zero critical errors in 50-CV test batch",
+          "Team confidence: HR team can operate workflow independently",
+          "Quality: AI scores align with HR hiring standards"
+        ]
+      },
+      "checklist_items": [
+        "CHK-044",
+        "CHK-045",
+        "CHK-046",
+        "CHK-047",
+        "CHK-048",
+        "CHK-049"
+      ]
+    },
+    {
+      "milestone_id": "MIL-PROJ-HR-002-002",
+      "milestone_name": "Complete Recruitment Pipeline Operational",
+      "phase": 2,
+      "description": "End-to-end recruitment tracking from application to interview scheduling, all automated and integrated.",
+      "task_templates": [
+        "TASK-TEMPLATE-HR-AUTO-003",
+        "TASK-TEMPLATE-HR-AUTO-004"
+      ],
+      "estimated_duration": "1 week (8-10 hours)",
+      "deliverables": [
+        "Notion ATS database with 35+ fields and 7+ views",
+        "Typeform application form (branded, professional)",
+        "n8n workflow: Typeform → Notion → Email confirmations",
+        "Interview scheduling automation (Google Calendar or Calendly)",
+        "Integration: CV screening → Notion ATS",
+        "Test results: End-to-end candidate journey successful",
+        "Team training materials and documentation"
+      ],
+      "success_metrics": {
+        "quantitative": [
+          "Application processing time: <5 minutes from submission to Notion entry (automated)",
+          "Interview scheduling time: 30 minutes → 5 minutes per interview (automated invite)",
+          "Recruitment cycle time: 30 days → 20 days average",
+          "Team collaboration: 70% reduction in email back-and-forth"
+        ],
+        "qualitative": [
+          "Candidate experience: positive feedback on application and scheduling process",
+          "Data centralization: all recruitment data in one place (Notion)",
+          "Team adoption: hiring managers actively using Notion ATS"
+        ]
+      },
+      "checklist_items": [
+        "CHK-050",
+        "CHK-051",
+        "CHK-052",
+        "CHK-053",
+        "CHK-054",
+        "CHK-055",
+        "CHK-056"
+      ]
+    },
+    {
+      "milestone_id": "MIL-PROJ-HR-002-003",
+      "milestone_name": "Content Generation Automation Operational",
+      "phase": 3,
+      "description": "AI-powered content generation for job postings, interview materials, and LinkedIn automation functional and tested.",
+      "task_templates": [
+        "TASK-TEMPLATE-HR-AUTO-005"
+      ],
+      "estimated_duration": "1 week (6-8 hours)",
+      "deliverables": [
+        "ChatGPT/Claude prompt library (10+ HR prompts)",
+        "Job description generation workflow (tested with 10 samples)",
+        "NotebookLM interview prep workflow",
+        "LinkedIn automation: Pabbly/Make.com → LinkedIn",
+        "Google Sheets template for job posting data",
+        "Test results: 3 job posts published to LinkedIn successfully",
+        "Content quality validation report"
+      ],
+      "success_metrics": {
+        "quantitative": [
+          "Job posting creation time: 60 minutes → 30 minutes (AI-assisted)",
+          "LinkedIn post engagement: baseline established for future optimization",
+          "Content generation time: <10 minutes for first draft"
+        ],
+        "qualitative": [
+          "Content quality: meets brand standards (validated by HR manager)",
+          "LinkedIn presence: consistent, professional job posting cadence",
+          "Interview prep quality: interviewers find AI-generated materials helpful"
+        ]
+      },
+      "checklist_items": [
+        "CHK-057",
+        "CHK-058",
+        "CHK-059",
+        "CHK-060",
+        "CHK-061",
+        "CHK-062",
+        "CHK-063"
+      ]
+    },
+    {
+      "milestone_id": "MIL-PROJ-HR-002-004",
+      "milestone_name": "System Fully Operational with Compliance & Documentation Complete",
+      "phase": 4,
+      "description": "Complete HR automation system optimized, compliant, documented, and team fully trained. ROI validated.",
+      "task_templates": [
+        "TASK-TEMPLATE-HR-AUTO-006"
+      ],
+      "estimated_duration": "1 week (8-10 hours)",
+      "deliverables": [
+        "GDPR compliance audit report with all checks passed",
+        "Automated compliance monitoring (data retention, consent, audit logs)",
+        "Onboarding automation workflow operational",
+        "Complete Notion playbook (50+ pages of documentation)",
+        "Team training completed (all members certified on systems)",
+        "ROI measurement report: 20-30 hours/month savings confirmed",
+        "Continuous improvement feedback system",
+        "Workflow optimization recommendations implemented"
+      ],
+      "success_metrics": {
+        "quantitative": [
+          "Total time savings: 20-30 hours/month measured and validated",
+          "Onboarding automation: 3-5 hours → 30 minutes per new hire",
+          "Error rate: <2% workflow failures with automated alerts",
+          "Cost savings: €350+/month vs traditional ATS",
+          "ROI: Breakeven achieved in Month 1"
+        ],
+        "qualitative": [
+          "Compliance: GDPR audit passed, all requirements met",
+          "Team competency: all members can operate and troubleshoot systems",
+          "Documentation quality: comprehensive, searchable, maintained",
+          "Sustainability: system ready for ongoing use and scaling"
+        ]
+      },
+      "checklist_items": [
+        "CHK-064",
+        "CHK-065",
+        "CHK-066",
+        "CHK-067",
+        "CHK-068",
+        "CHK-069",
+        "CHK-070",
+        "CHK-071"
+      ]
+    }
+  ],
+  "task_sequence": [
+    {
+      "sequence_number": 1,
+      "task_template_id": "TASK-TEMPLATE-HR-AUTO-001",
+      "task_name": "Setup n8n Automation for CV Screening",
+      "phase": 1,
+      "estimated_duration": "2-3 hours",
+      "dependencies": [],
+      "owner": "Viktoriia (technical lead)"
+    },
+    {
+      "sequence_number": 2,
+      "task_template_id": "TASK-TEMPLATE-HR-AUTO-002",
+      "task_name": "Configure Gemini AI Analysis",
+      "phase": 1,
+      "estimated_duration": "1.5-2 hours",
+      "dependencies": [
+        "Task 1 - n8n setup complete"
+      ],
+      "owner": "Viktoriia + Evgeniya (collaboration on prompt tuning)"
+    },
+    {
+      "sequence_number": 3,
+      "task_template_id": "TASK-TEMPLATE-HR-AUTO-003",
+      "task_name": "Build Notion ATS Database",
+      "phase": 2,
+      "estimated_duration": "2-3 hours",
+      "dependencies": [
+        "Task 1-2 complete (CV screening operational)"
+      ],
+      "owner": "Evgeniya (process lead) + Viktoriia (integration)"
+    },
+    {
+      "sequence_number": 4,
+      "task_template_id": "TASK-TEMPLATE-HR-AUTO-004",
+      "task_name": "Setup Interview Scheduling Automation",
+      "phase": 2,
+      "estimated_duration": "1.5-2 hours",
+      "dependencies": [
+        "Task 3 - Notion ATS operational"
+      ],
+      "owner": "Viktoriia (technical setup)"
+    },
+    {
+      "sequence_number": 5,
+      "task_template_id": "TASK-TEMPLATE-HR-AUTO-005",
+      "task_name": "Configure LinkedIn Automation",
+      "phase": 3,
+      "estimated_duration": "1.5-2 hours",
+      "dependencies": [
+        "Task 3 - Notion ATS operational (optional integration)"
+      ],
+      "owner": "Viktoriia (setup) + Evgeniya (content validation)"
+    },
+    {
+      "sequence_number": 6,
+      "task_template_id": "TASK-TEMPLATE-HR-AUTO-006",
+      "task_name": "Setup Onboarding Workflow Automation",
+      "phase": 4,
+      "estimated_duration": "2-3 hours",
+      "dependencies": [
+        "Task 3 - Notion ATS operational (trigger from hire status)"
+      ],
+      "owner": "Viktoriia (workflow) + Evgeniya (templates and content)"
+    }
+  ],
+  "workflow_diagram": {
+    "ascii_diagram": [
+      "PHASE 1 (Week 1): Recruitment Automation Foundation",
+      "├── Task 1: Setup n8n + Gmail + Gemini + Sheets (2-3h)",
+      "│   └── Output: CV screening automated (50 CVs in 90 min)",
+      "└── Task 2: Optimize Gemini AI parameters (1.5-2h)",
+      "    └── Output: >90% screening accuracy validated",
+      "    └── Milestone 1: CV Screening Operational ✓",
+      "",
+      "PHASE 2 (Week 2): Complete Recruitment System",
+      "├── Task 3: Build Notion ATS + Typeform integration (2-3h)",
+      "│   └── Output: End-to-end application tracking",
+      "└── Task 4: Setup interview scheduling (1.5-2h)",
+      "    └── Output: Automated calendar invites",
+      "    └── Milestone 2: Complete Pipeline Operational ✓",
+      "",
+      "PHASE 3 (Week 3): Content Generation",
+      "└── Task 5: Configure LinkedIn + AI content (1.5-2h)",
+      "    └── Output: Job postings in 30 min vs 1 hour",
+      "    └── Milestone 3: Content Automation Operational ✓",
+      "",
+      "PHASE 4 (Week 4): Compliance & Finalization",
+      "└── Task 6: Setup onboarding + compliance + docs (2-3h)",
+      "    └── Output: Complete system documented, 20-30 hrs/month saved",
+      "    └── Milestone 4: System Fully Operational ✓",
+      "",
+      "TOTAL: 4 weeks, 32-40 hours team time, €69-169/month cost",
+      "ROI: 20-30 hours/month saved, €350+/month cost reduction"
+    ]
+  },
+  "resource_requirements": {
+    "human_resources": {
+      "minimum_team": [
+        "1 HR Manager (Viktoriia) - Technical implementation lead (20-24 hours over 4 weeks)",
+        "1 HR Coordinator (Evgeniya) - Process design and documentation lead (12-16 hours over 4 weeks)"
+      ],
+      "recommended_team": [
+        "2 HR team members (as above)",
+        "1 IT support (optional, 2-4 hours for Google Workspace setup assistance)",
+        "1 Legal/Compliance reviewer (optional, 1-2 hours for GDPR sign-off)"
+      ],
+      "time_investment": "32-40 hours total team time over 4 weeks (8-10 hours per week)",
+      "ongoing_maintenance": "2-3 hours/month (monitoring, optimization, troubleshooting)"
+    },
+    "technical_requirements": {
+      "software_required": [
+        "n8n Cloud (EU datacenter) OR self-hosted n8n",
+        "Claude AI OR ChatGPT (API access)",
+        "Google Gemini API (free tier sufficient for start)",
+        "Notion (free workspace)",
+        "Google Workspace (existing - Gmail, Drive, Sheets, Calendar)",
+        "Typeform (free tier - 100 responses/month)",
+        "Pabbly Connect OR Make.com (optional for LinkedIn automation)",
+        "NotebookLM (free with Google account)"
+      ],
+      "infrastructure": [
+        "Stable internet connection (for cloud tools)",
+        "Modern web browser (Chrome recommended for n8n)",
+        "Google Drive storage (sufficient in free tier for most use cases)",
+        "EU-based server if self-hosting n8n (GDPR requirement)"
+      ],
+      "integrations": [
+        "Gmail API",
+        "Google Drive API",
+        "Google Sheets API",
+        "Google Calendar API",
+        "Notion API",
+        "Typeform Webhooks",
+        "LinkedIn API (optional)",
+        "Gemini AI API",
+        "ChatGPT API OR Claude API"
+      ]
+    },
+    "financial_requirements": {
+      "one_time_costs": "€200-300 (primarily setup time value + first month tool subscriptions)",
+      "monthly_recurring_minimum": "€49 (n8n Cloud only, all other tools free tier)",
+      "monthly_recurring_recommended": "€69-89 (n8n + AI tool subscription)",
+      "monthly_recurring_full_featured": "€120-169 (all tools including LinkedIn automation)",
+      "cost_comparison": "Traditional ATS: €2,000-5,000/month | This system: €69-169/month = €1,831-4,931/month savings",
+      "roi_timeline": "Month 1 (immediate time savings offset costs)",
+      "annual_cost": "€828-2,028 vs €24,000-60,000 traditional ATS = €22,000-58,000 annual savings"
+    }
+  },
+  "risk_assessment": {
+    "high_risks": [
+      {
+        "risk": "Team resistance to AI-assisted hiring and automation",
+        "impact": "High (could derail adoption)",
+        "probability": "Medium",
+        "mitigation": "Involve team from day 1 in design decisions, emphasize time savings and career development opportunities from automation, provide comprehensive training, maintain transparency about AI limitations, allow human override in all decisions",
+        "contingency": "If resistance persists, implement more gradual rollout with manual review steps, collect feedback and adjust"
+      },
+      {
+        "risk": "GDPR compliance issues or data breach",
+        "impact": "Very High (legal/regulatory consequences)",
+        "probability": "Low",
+        "mitigation": "Use EU datacenters for all tools (n8n Frankfurt/Amsterdam), obtain candidate consent before processing, document data processing activities, implement data retention policies (90-day auto-delete), maintain audit trails, involve legal team in review",
+        "contingency": "Immediate data processing halt, legal consultation, incident response plan activation, notification to data protection authority if required"
+      }
+    ],
+    "medium_risks": [
+      {
+        "risk": "AI screening accuracy below acceptable threshold (<90%)",
+        "impact": "High (could miss strong candidates or advance weak ones)",
+        "probability": "Medium",
+        "mitigation": "Extensive prompt engineering with few-shot examples, calibration against manual HR review, bias testing across diverse candidates, continuous monitoring and tuning, fallback to manual review for low-confidence scores",
+        "contingency": "Reduce AI role to pre-screening only, maintain manual review for final decisions, iterate on prompts until accuracy improves"
+      },
+      {
+        "risk": "Tool integration failures or API changes breaking workflows",
+        "impact": "Medium (workflows stop, manual processes resume)",
+        "probability": "Medium",
+        "mitigation": "Implement error handling and notifications in all n8n workflows, maintain backup manual processes documented, monitor tool changelogs, build modular workflows (easy to swap components), test regularly",
+        "contingency": "Revert to manual processes, troubleshoot or rebuild broken integrations, consider alternative tools if API unstable"
+      },
+      {
+        "risk": "Budget constraints lead to tool subscription cancellations",
+        "impact": "Medium (automation stops, revert to manual)",
+        "probability": "Low",
+        "mitigation": "Demonstrate ROI continuously (monthly time tracking reports), use free tiers where possible (Notion, Gemini, Typeform), self-host n8n if budget very tight, prioritize highest-ROI automations",
+        "contingency": "Downgrade to minimum viable automation (n8n only, €49/month), focus on CV screening automation alone (highest ROI)"
+      },
+      {
+        "risk": "Key technical person (Viktoriia) leaves during or after implementation",
+        "impact": "Medium (knowledge loss, maintenance challenges)",
+        "probability": "Low",
+        "mitigation": "Comprehensive documentation from day 1, cross-training (Evgeniya learns basics), video recordings of workflows, external support identified (n8n community, consultants), modular design for easier maintenance",
+        "contingency": "Hire freelance n8n specialist for troubleshooting, simplify workflows to reduce complexity, rely on vendor support where available"
+      }
+    ],
+    "low_risks": [
+      {
+        "risk": "Candidate experience degradation due to over-automation",
+        "impact": "Medium (employer brand damage)",
+        "probability": "Low",
+        "mitigation": "Maintain human touchpoints at key stages, personalize automated communications, fast response times, transparent communication about process, collect candidate feedback",
+        "contingency": "Add more manual review steps, increase personalization, improve communication templates"
+      },
+      {
+        "risk": "Time savings projections not realized (actual <20 hours/month)",
+        "impact": "Low (still positive ROI, just less than expected)",
+        "probability": "Low",
+        "mitigation": "Track time meticulously week-by-week, optimize inefficient workflows, set realistic expectations, focus on highest-ROI automations first",
+        "contingency": "Adjust projections, identify bottlenecks, additional optimization efforts, communicate realistic timeline for full benefits"
+      }
+    ]
+  },
+  "optimization_tips": [
+    "Start with CV screening only (Week 1) - validate ROI before investing in additional automations",
+    "Use free tiers extensively in first month to minimize risk before committing to paid subscriptions",
+    "Build workflows modularly - easier to troubleshoot, update, and swap tools if needed",
+    "Implement monitoring and alerting early - know when workflows break before candidates are affected",
+    "Track metrics from day 1 - time saved, costs, accuracy, candidate satisfaction - use data to optimize",
+    "Over-document during setup - future self will thank you, knowledge transfer easier",
+    "Test with small batches first - 10 CVs before 50, 1 job posting before 10, validate before scaling",
+    "Maintain manual process documentation - need fallback if automation fails",
+    "Schedule weekly check-ins during implementation - course-correct quickly, maintain momentum",
+    "Celebrate small wins - team morale matters, acknowledge progress after each milestone"
+  ],
+  "variation_guidance": {
+    "for_smaller_teams_1_person": {
+      "changes": "Extend timeline to 6-8 weeks, focus on CV screening + Notion ATS only first, skip LinkedIn automation initially, simplify to essentials",
+      "timeline": "6-8 weeks at 5-6 hours/week",
+      "recommended_phases": "Phase 1 (Week 1-2), Phase 2 (Week 3-4), Phase 4 simplified (Week 5-6), Phase 3 optional later"
+    },
+    "for_larger_teams_5plus_people": {
+      "changes": "Add role-based access controls in Notion, implement approval workflows, add team-specific views, consider enterprise tools",
+      "timeline": "4 weeks but with more parallel work",
+      "additional_considerations": "More complex interview scheduling (multiple interviewers), department-specific workflows, reporting dashboards"
+    },
+    "for_non_EU_companies": {
+      "changes": "Can use US-based n8n datacenter, more tool options (Zapier without GDPR concerns), different compliance requirements",
+      "compliance_adjustments": "Follow local data protection laws, adjust consent and retention policies accordingly"
+    },
+    "for_very_high_volume_hiring_500plus_CVs_per_month": {
+      "changes": "Upgrade to paid Gemini API tier, consider dedicated server for n8n, implement batch processing, add quality monitoring",
+      "cost_adjustments": "Budget €200-300/month for API usage, consider enterprise n8n license",
+      "scaling_considerations": "Performance optimization critical, need redundancy and failover, monitoring essential"
+    }
+  },
+  "related_templates": {
+    "prerequisites": [
+      "TASK-TEMPLATE-HR-001 (Create Job Posting - manual process before automating)",
+      "TASK-TEMPLATE-HR-002 (Search for Candidates - manual process to automate)"
+    ],
+    "alternatives": [
+      "TEMPLATE-PROJ-HR-001 (Complete Manual Recruitment Cycle - traditional approach)",
+      "TEMPLATE-PROJ-LG-001 (Lead Generation Automation - similar automation patterns)"
+    ],
+    "follow_ups": [
+      "Performance management automation (Phase 2 of HR automation)",
+      "Analytics dashboard creation for recruitment metrics",
+      "Advanced AI features (candidate matching, predictive hiring)"
+    ]
+  },
+  "success_stories_and_validation": {
+    "research_basis": "Based on analysis of 77+ YouTube tutorials, case studies, and implementation guides published in last 60 days (as of Nov 2025)",
+    "validation_sources": [
+      "Boomi Techie - n8n + Gemini CV screening tutorial (2.5 hours, Nov 2025)",
+      "The AI Doctor - 100% automated recruitment workflow tutorial (Nov 2025)",
+      "Jordan Pieces - Complete hiring system with Notion (Nov 2025)",
+      "ByteWise - CV screening & interview prep with NotebookLM (Nov 2025)",
+      "Redwerk - Smart onboarding automation tutorial (Nov 2025)",
+      "AIHR - AI in HR strategy and compliance frameworks (Nov 2025)",
+      "Pabbly - AI agent for LinkedIn job posts (Nov 2025)"
+    ],
+    "expected_outcomes_based_on_research": {
+      "cv_screening": "50 CVs in 90 min vs 20+ hours manual = 18.5 hour savings per batch",
+      "recruitment_cycle": "30 days → 20 days average (33% faster)",
+      "job_posting": "60 min → 30 min (50% faster)",
+      "onboarding": "3-5 hours → 30 min (90% faster)",
+      "total_monthly_savings": "20-30 hours/month (validated across multiple case studies)",
+      "cost_savings": "€350+/month vs traditional ATS (€2,000-5,000/month)"
+    }
+  },
+  "version_history": {
+    "v1.0": {
+      "date": "2025-11-14",
+      "changes": "Initial Project Template creation based on HR videos research.md",
+      "author": "HR Automation Research Team",
+      "validation": "Based on 77+ tutorials and case studies from last 60 days"
+    }
+  },
+  "tags": [
+    "hr",
+    "automation",
+    "recruitment",
+    "onboarding",
+    "ai",
+    "n8n",
+    "notion",
+    "gemini",
+    "project",
+    "4_week_plan",
+    "high_priority",
+    "high_roi"
+  ],
+  "source": "Entities/LIBRARIES/DEPARTMENTS/_SHARED/Prompts/Research/Reports/HR videos research.md - Complete 4-Week Implementation Roadmap",
+  "related_workflows": [
+    "WF-HR-AUTO-001 (Automated CV Screening Workflow)",
+    "WF-HR-AUTO-002 (Complete Recruitment Pipeline Workflow)",
+    "WF-HR-AUTO-003 (Onboarding Automation Workflow)",
+    "WF-HR-AUTO-004 (LinkedIn Job Posting Workflow)"
+  ],
+  "compliance_notes": "GDPR compliance critical for Austria/Ukraine operations. All tools must use EU datacenters (n8n Frankfurt/Amsterdam required). Candidate consent required before processing CVs. Data retention: 90 days maximum for rejected candidates per GDPR Article 17. Audit trail maintained in n8n execution history and Notion change logs. Right to be forgotten: implement candidate data deletion workflow. Transparent communication: inform candidates about AI-assisted screening in job postings and application forms."
+}

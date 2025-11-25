@@ -1,0 +1,25 @@
+{
+  "tool_id": "TOOL-AUTO-001",
+  "tool_name": "n8n",
+  "tool_category": "Automation",
+  "description": "Workflow automation platform for email campaigns, data processing, and integrations",
+  "skills_count": 1,
+  "last_updated": "2025-11-22",
+  "skills": [
+    {
+      "skill_id": "SKL-011",
+      "skill_phrase": "automated email campaigns using n8n",
+      "components": {
+        "action": "automate",
+        "object": "email campaigns",
+        "tool": "n8n"
+      },
+      "department": "Lead Generation",
+      "professions": ["lead generator"],
+      "difficulty_level": "intermediate",
+      "frequency": "weekly",
+      "time_estimate_minutes": 90,
+      "automation_potential": "high"
+    }
+  ]
+}

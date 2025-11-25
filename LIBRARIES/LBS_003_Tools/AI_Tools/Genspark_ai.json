@@ -1,0 +1,70 @@
+{
+  "entity_type": "LIBRARIES",
+  "sub_entity": "Tool",
+  "tool_id": "TOOL-AI-115",
+  "name": "Genspark.ai",
+  "vendor": "Genspark",
+  "category": "AI/LLM Services",
+  "purpose": "All-in-one AI workspace with multiple AI tools and services",
+  "description": "Comprehensive AI workspace platform offering multiple AI tools and services in one unified interface. Provides various AI capabilities for different use cases.",
+  "skill_level_required": "Beginner",
+  "cost_structure": "TBD",
+  "platform_compatibility": [
+    "Web"
+  ],
+  "integration_capabilities": [
+    "Multiple AI tools",
+    "Unified workspace",
+    "API access (potential)"
+  ],
+  "documentation_url": "https://www.genspark.ai/",
+  "actual_remote_helpers_usage": {
+    "primary_use": "All-in-One AI Workspace",
+    "users": [],
+    "use_cases": [
+      "access ai tools",
+      "unify ai workspace",
+      "execute ai tasks",
+      "integrate workflows"
+    ],
+    "workflows": []
+  },
+  "strengths": [
+    "Multiple tools in one platform",
+    "Unified interface",
+    "Comprehensive AI services",
+    "Easy access"
+  ],
+  "limitations": [
+    "May lack depth in specific areas",
+    "Pricing information not readily available",
+    "Newer platform"
+  ],
+  "departments_using": [],
+  "finance_data": {
+    "subscription_status": "unpaid",
+    "total_accounts": 1,
+    "paid_accounts": 0,
+    "unpaid_accounts": 1,
+    "latest_valid_until": null,
+    "accounts": [
+      {
+        "email": "admin@rh-s.com",
+        "status": "not paid",
+        "paid_date": null,
+        "valid_until": null,
+        "department": ""
+      }
+    ],
+    "departments_using": []
+  },
+  "tags": [
+    "ai-workspace",
+    "multiple-tools",
+    "unified-platform",
+    "ai-services"
+  ],
+  "discovery_date": "2025-01-27",
+  "discovery_source": "user_provided",
+  "status": "discovered_needs_review"
+}

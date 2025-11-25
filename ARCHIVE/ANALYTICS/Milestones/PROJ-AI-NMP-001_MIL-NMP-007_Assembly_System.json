@@ -1,0 +1,161 @@
+{
+  "milestone_id": "MIL-NMP-007",
+  "milestone_name": "Assembly System Complete",
+  "project_id": "PROJ-001",
+  "phase": 4,
+  "phase_name": "Documentation & Assembly",
+  "status": "Planned",
+  "priority": "Medium",
+  "progress_percentage": 0,
+  "description": "Create 4 Python assembly scripts in scripts/ folder for generating monolithic and specialized versions of MAIN_PROMPT v5 from modular files.",
+  "target_start_date": "2025-12-09",
+  "target_completion_date": "2025-12-11",
+  "actual_start_date": null,
+  "actual_completion_date": null,
+  "estimated_duration": "2 days",
+  "tasks": [
+    "TASK-NMP-043"
+  ],
+  "deliverables": [
+    {
+      "id": "DEL-007-00",
+      "name": "README.md",
+      "description": "Assembly scripts usage guide",
+      "status": "Pending"
+    },
+    {
+      "id": "DEL-007-01",
+      "name": "assemble_full_prompt.py",
+      "description": "Combines all modular files into MAIN_PROMPT_v5.md",
+      "status": "Pending"
+    },
+    {
+      "id": "DEL-007-02",
+      "name": "assemble_department.py",
+      "description": "Creates department-specific versions",
+      "status": "Pending"
+    },
+    {
+      "id": "DEL-007-03",
+      "name": "assemble_lightweight.py",
+      "description": "Creates minimal version without extensive examples",
+      "status": "Pending"
+    }
+  ],
+  "success_criteria": {
+    "quantitative": [
+      "All 4 files created in scripts/",
+      "Scripts successfully combine ~50 modular files",
+      "Generated MAIN_PROMPT_v5.md validates as proper markdown",
+      "Scripts work on Windows environment"
+    ],
+    "qualitative": [
+      "Scripts are well-documented and easy to use",
+      "Generated output is properly formatted",
+      "Assembly process is efficient",
+      "Error handling is robust"
+    ]
+  },
+  "acceptance_criteria": [
+    {
+      "criteria": "All 4 files created in scripts/",
+      "verified": false
+    },
+    {
+      "criteria": "assemble_full_prompt.py generates valid MAIN_PROMPT_v5.md",
+      "verified": false
+    },
+    {
+      "criteria": "assemble_full_prompt.py includes TOC and navigation",
+      "verified": false
+    },
+    {
+      "criteria": "assemble_full_prompt.py adds metadata (file count, size, date)",
+      "verified": false
+    },
+    {
+      "criteria": "assemble_department.py accepts --dept parameter",
+      "verified": false
+    },
+    {
+      "criteria": "assemble_department.py filters content by department",
+      "verified": false
+    },
+    {
+      "criteria": "assemble_lightweight.py creates smaller version",
+      "verified": false
+    },
+    {
+      "criteria": "Scripts tested on Windows Python environment",
+      "verified": false
+    },
+    {
+      "criteria": "README.md explains all script usage",
+      "verified": false
+    }
+  ],
+  "dependencies": [
+    {
+      "dependency_id": "DEP-MIL-007-01",
+      "description": "All modular files exist (MIL-002 through MIL-006)",
+      "type": "Milestone",
+      "status": "Required"
+    },
+    {
+      "dependency_id": "DEP-MIL-007-02",
+      "description": "Python 3.x environment available",
+      "type": "Technical",
+      "status": "To be verified"
+    }
+  ],
+  "blockers": [],
+  "risks": [
+    {
+      "risk_id": "RISK-MIL-007-01",
+      "description": "Python may not be available or configured",
+      "impact": "Medium",
+      "probability": "Medium",
+      "mitigation": "Provide manual assembly instructions as fallback"
+    },
+    {
+      "risk_id": "RISK-MIL-007-02",
+      "description": "Path handling may differ across environments",
+      "impact": "Low",
+      "probability": "Medium",
+      "mitigation": "Use pathlib for cross-platform compatibility"
+    }
+  ],
+  "related_milestones": {
+    "prerequisites": [
+      "MIL-002",
+      "MIL-003",
+      "MIL-004",
+      "MIL-005",
+      "MIL-006"
+    ],
+    "enables": [
+      "MIL-008"
+    ],
+    "parallel": [
+      "MIL-006"
+    ]
+  },
+  "technical_requirements": {
+    "python_version": "3.7+",
+    "required_libraries": [
+      "pathlib (built-in)",
+      "os (built-in)",
+      "sys (built-in)",
+      "argparse (built-in)"
+    ],
+    "optional_libraries": [
+      "markdown (for validation)"
+    ],
+    "input_location": "MAIN_PROMPT_v5_Modular/",
+    "output_location": "LIBRARIES/DEPARTMENTS/_SHARED/Prompts/Core/",
+    "file_encoding": "UTF-8"
+  },
+  "notes": "Follow CREATE_MAIN_PROMPT_v5.md Phase 7. Scripts should be simple, well-documented, and use only standard library where possible. Test thoroughly before considering milestone complete.",
+  "last_updated": "2025-11-15",
+  "version": "1.0"
+}

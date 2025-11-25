@@ -1,0 +1,132 @@
+{
+  "entity_type": "LIBRARIES",
+  "sub_entity": "Actions",
+  "category": "Data_Operations",
+  "description": "Actions related to data acquisition, processing, transformation, and management in lead generation and automation workflows",
+  "source": "Video_006_Lead_Generation_Analysis",
+  "created": "2025-11-12",
+  "total_actions": 12,
+  "actions": [
+    {
+      "action_id": "DATA-OP-001",
+      "action": "scrape",
+      "file": "Scrape.json",
+      "priority": "High",
+      "frequency": "Very Common",
+      "description": "Extract data from websites and online platforms"
+    },
+    {
+      "action_id": "DATA-OP-002",
+      "action": "parse",
+      "file": "Parse.json",
+      "priority": "High",
+      "frequency": "Very Common",
+      "description": "Extract structured data from unstructured sources"
+    },
+    {
+      "action_id": "DATA-OP-003",
+      "action": "feed",
+      "file": "Feed.json",
+      "priority": "Medium",
+      "frequency": "Common",
+      "description": "Send data into systems or pipelines"
+    },
+    {
+      "action_id": "DATA-OP-004",
+      "action": "sanitize",
+      "file": "Sanitize.json",
+      "priority": "Medium",
+      "frequency": "Common",
+      "description": "Clean and remove invalid data"
+    },
+    {
+      "action_id": "DATA-OP-005",
+      "action": "split",
+      "file": "Split.json",
+      "priority": "Medium",
+      "frequency": "Common",
+      "description": "Divide data into parts or batches"
+    },
+    {
+      "action_id": "DATA-OP-006",
+      "action": "combine",
+      "file": "Combine.json",
+      "priority": "Medium",
+      "frequency": "Common",
+      "description": "Join multiple datasets together"
+    },
+    {
+      "action_id": "DATA-OP-007",
+      "action": "lookup",
+      "file": "Lookup.json",
+      "priority": "Medium",
+      "frequency": "Common",
+      "description": "Find data values in databases or systems"
+    },
+    {
+      "action_id": "DATA-OP-008",
+      "action": "flatten",
+      "file": "Flatten.json",
+      "priority": "Low",
+      "frequency": "Occasional",
+      "description": "Convert nested data to flat structure"
+    },
+    {
+      "action_id": "DATA-OP-009",
+      "action": "obfuscate",
+      "file": "Obfuscate.json",
+      "priority": "Low",
+      "frequency": "Occasional",
+      "description": "Hide or mask sensitive data"
+    },
+    {
+      "action_id": "DATA-OP-010",
+      "action": "bill",
+      "file": "Bill.json",
+      "priority": "Low",
+      "frequency": "Automatic",
+      "description": "Charge credits or costs for operations"
+    },
+    {
+      "action_id": "DATA-OP-011",
+      "action": "consume",
+      "file": "Consume.json",
+      "priority": "Low",
+      "frequency": "Automatic",
+      "description": "Use up credits or resources"
+    },
+    {
+      "action_id": "DATA-OP-012",
+      "action": "arbitrage",
+      "file": "Arbitrage.json",
+      "priority": "Medium",
+      "frequency": "Strategic",
+      "description": "Optimize costs through price/credit differences"
+    }
+  ],
+  "usage_statistics": {
+    "most_common": ["scrape", "parse", "feed"],
+    "automation_heavy": ["scrape", "parse", "sanitize", "split", "combine"],
+    "business_focused": ["bill", "consume", "arbitrage"],
+    "security_focused": ["sanitize", "obfuscate"]
+  },
+  "departments_using": [
+    "managers",
+    "developers"
+  ],
+  "professions_using": [
+    "lead generator",
+    "back end developer",
+    "ai engineer",
+    "operations manager",
+    "finance manager",
+    "sales manager"
+  ],
+  "common_workflows": [
+    "Scrape → Parse → Sanitize → Feed → Enrich",
+    "Lookup → Feed → Enrich → Export",
+    "Multi-source: Scrape → Combine → Deduplicate → Feed",
+    "Enterprise Arbitrage: Lookup (1 credit) → Get 40 domains → Feed to enrichment"
+  ],
+  "integration_note": "These actions extend the existing LIBRARIES/actions.json with specialized data operations terminology from lead generation workflows. They can be merged into the main actions file or maintained separately."
+}

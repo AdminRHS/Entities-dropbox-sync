@@ -1,0 +1,160 @@
+workflow_name: "Short-Form Video Production"
+workflow_type: "Linear"
+workflow_id: "WF-SMM-007"
+department: "MARKETING"
+priority: "High"
+estimated_duration: "30-60 minutes per video"
+status: "Active"
+
+description: |
+  Create viral short-form vertical videos for TikTok, Instagram Reels, and YouTube Shorts with daily posting schedule.
+  Fast-paced workflow optimized for algorithm favor and maximum reach across vertical video platforms.
+
+steps:
+  - step_number: 1
+    name: "Identify Content Hook"
+    tool: "TikTok, Instagram, YouTube trending page"
+    responsibility: "Identify content hook"
+    placement: "Content planning workspace"
+    duration: "5-10 minutes"
+    dependencies: []
+    inputs:
+      - "Trending sounds and formats"
+      - "Quick tips from expertise area"
+      - "Behind-the-scenes moments"
+    outputs:
+      - "Content hook identified (first 3 seconds)"
+      - "Trending sound or original audio selected"
+      - "Quick tip or value proposition defined"
+    success_criteria: "Strong hook that captures attention in first 3 seconds"
+
+  - step_number: 2
+    name: "Record Vertical Video"
+    tool: "Smartphone camera, CapCut, TikTok app"
+    responsibility: "Record vertical video"
+    placement: "Recording location"
+    duration: "10-15 minutes"
+    dependencies: ["Step 1"]
+    inputs:
+      - "Hook from Step 1"
+      - "Vertical recording setup (9:16)"
+      - "Lighting and audio setup"
+    outputs:
+      - "Vertical video footage (9:16 aspect ratio)"
+      - "15-60 seconds content"
+      - "Immediate attention-grabbing opening"
+    success_criteria: "High-quality vertical video with strong hook in first 3 seconds"
+
+  - step_number: 3
+    name: "Edit with Captions"
+    tool: "CapCut, Premiere Pro, InShot"
+    responsibility: "Edit video with captions"
+    placement: "Video editing workspace"
+    duration: "10-20 minutes"
+    dependencies: ["Step 2"]
+    inputs:
+      - "Raw vertical video from Step 2"
+      - "Trending audio (if applicable)"
+      - "Text overlay templates"
+    outputs:
+      - "Tightly edited short-form video"
+      - "Text overlays and captions added (assume no sound)"
+      - "Trending audio integrated"
+      - "Fast pacing maintained"
+    success_criteria: "Engaging video optimized for completion rate with full captions"
+
+  - step_number: 4
+    name: "Post to All Platforms"
+    tool: "TikTok, Instagram, YouTube"
+    responsibility: "Post video to all platforms"
+    placement: "Multi-platform distribution"
+    duration: "5-10 minutes"
+    dependencies: ["Step 3"]
+    inputs:
+      - "Final edited video from Step 3"
+      - "Platform-specific captions"
+      - "Relevant hashtags (3-5 per platform)"
+    outputs:
+      - "Video posted to TikTok with trending hashtags"
+      - "Video posted to Instagram Reels with niche hashtags"
+      - "Video posted to YouTube Shorts with SEO title"
+      - "Platform-optimized captions for each"
+    success_criteria: "Video live on all three platforms with proper optimization"
+
+  - step_number: 5
+    name: "Engage Immediately"
+    tool: "TikTok, Instagram, YouTube mobile apps"
+    responsibility: "Engage with audience immediately"
+    placement: "Platform apps"
+    duration: "15-30 minutes (ongoing)"
+    dependencies: ["Step 4"]
+    inputs:
+      - "Posted videos from Step 4"
+      - "Platform notifications"
+    outputs:
+      - "Responses to comments within first hour"
+      - "Engagement with similar content"
+      - "Algorithm signals boosted"
+    success_criteria: "Active engagement in first hour to maximize algorithm favor"
+
+performance_metrics:
+  completion_rate: "PRIMARY metric for TikTok - percentage who watch to end"
+  views: "Total video views across platforms"
+  engagement_rate: "(likes + comments + shares) / views"
+  follower_growth: "New followers from video"
+  shares: "Viral potential indicator"
+  saves: "Content value indicator (Instagram)"
+
+posting_strategy:
+  frequency: "1-3 videos per day for algorithm favor"
+  optimal_times:
+    tiktok: "Weekdays 6-10am, 7-11pm EST"
+    instagram: "Weekdays 11am-1pm, 7-9pm EST"
+    youtube_shorts: "Weekdays 3-6pm EST"
+  content_mix: "40% quick tutorials, 30% trend adaptations, 20% BTS, 10% challenges"
+
+technical_specifications:
+  aspect_ratio: "9:16 (vertical)"
+  resolution: "1080×1920px minimum"
+  duration: "15-60 seconds (TikTok), 15-90 seconds (Reels), 60 seconds max (Shorts)"
+  file_format: "MP4"
+  captions: "Always include (many watch without sound)"
+
+best_practices:
+  - "Hook in first 3 seconds - CRITICAL for completion rate"
+  - "Always add text overlays/captions (assume no sound)"
+  - "Use trending audio for algorithm boost (TikTok, Reels)"
+  - "Keep pacing fast with pattern interrupts"
+  - "Post at optimal times for each platform"
+  - "Respond to comments within first hour"
+  - "Use 3-5 relevant hashtags (not excessive)"
+  - "Repurpose same video across all three platforms"
+  - "Batch create content for consistency"
+  - "Monitor analytics and iterate on what works"
+
+content_ideas:
+  quick_tutorials: "15-30 second skill demonstrations"
+  trending_formats: "Participate in viral trends and challenges"
+  behind_the_scenes: "Process videos and work-in-progress"
+  tips_and_tricks: "Quick actionable advice"
+  transformations: "Before/after showcases"
+
+automation_opportunities:
+  - "Template-based video editing"
+  - "Automated caption generation"
+  - "Batch video creation"
+  - "Scheduled cross-platform posting"
+  - "Analytics tracking across platforms"
+
+tags:
+  - video
+  - short_form
+  - tiktok
+  - reels
+  - shorts
+  - viral_content
+  - multi_platform
+
+version: "1.0"
+created: "2025-11-13"
+last_updated: "2025-11-13"

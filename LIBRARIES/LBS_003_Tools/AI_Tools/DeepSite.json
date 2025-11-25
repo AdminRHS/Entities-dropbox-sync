@@ -1,0 +1,56 @@
+{
+  "entity_type": "LIBRARIES",
+  "sub_entity": "Tool",
+  "tool_id": "TOOL-AI-042",
+  "name": "DeepSite",
+  "vendor": "Hugging Face (enzostvs)",
+  "category": "AI/Generative AI",
+  "purpose": "AI-powered website generation using Hugging Face models",
+  "description": "Hugging Face Space providing AI models for website generation. Allows users to experiment with AI-powered website design and generation through accessible interface.",
+  "skill_level_required": "Beginner",
+  "cost_structure": "Free",
+  "platform_compatibility": [
+    "Web"
+  ],
+  "integration_capabilities": [
+    "Hugging Face Spaces",
+    "AI model access",
+    "Website generation"
+  ],
+  "documentation_url": "https://huggingface.co/spaces/enzostvs/deepsite",
+  "actual_remote_helpers_usage": {
+    "primary_use": "AI Website Generation",
+    "users": [],
+    "use_cases": [
+      "generate website designs",
+      "create ai websites",
+      "prototype websites fast",
+      "experiment designs"
+    ],
+    "workflows": []
+  },
+  "strengths": [
+    "Free to use",
+    "Easy access via Hugging Face",
+    "AI-powered generation",
+    "No coding required",
+    "Quick experimentation"
+  ],
+  "limitations": [
+    "Limited customization",
+    "May require refinement",
+    "Dependent on model quality",
+    "Limited support"
+  ],
+  "departments_using": [],
+  "tags": [
+    "website-generation",
+    "hugging-face",
+    "ai-models",
+    "design",
+    "prototyping"
+  ],
+  "discovery_date": "2025-01-27",
+  "discovery_source": "user_provided",
+  "status": "discovered_needs_review"
+}

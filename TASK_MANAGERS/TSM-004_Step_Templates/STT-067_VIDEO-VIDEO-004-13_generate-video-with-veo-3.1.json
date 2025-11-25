@@ -1,0 +1,34 @@
+{
+  "entity_type": "TASK_MANAGERS",
+  "sub_entity": "Step_Template",
+  "step_id": "VIDEO-VIDEO-004-13",
+  "step_number": 13,
+  "parent_task": "TASK-TEMPLATE-VIDEO-004",
+  "task_name": "Master Unified Platform Workflow for Video Generation",
+  "name": "Generate video with Veo 3.1",
+  "action": "generate",
+  "tool": "TOOL-AI-051 (Google Veo 3.1)",
+  "responsibility": "Google Veo 3.1 (automated)",
+  "placement": "OpenArt - Video - Processing",
+  "duration": "5-10 minutes (automated)",
+  "dependencies": [
+    12
+  ],
+  "inputs": [
+    "Reference images",
+    "Video prompt"
+  ],
+  "outputs": [
+    "Professional video output (5-15 seconds)"
+  ],
+  "success_criteria": "Video meets project quality and narrative requirements",
+  "implementation_notes": "Video meets project quality and narrative requirements - Implementation details based on the Master Unified Platform Workflow for Video Generation workflow.",
+  "tags": [
+    "generate",
+    "template-task-video-004"
+  ],
+  "version": "1.0",
+  "created": "2025-11-15",
+  "last_updated": "2025-11-15",
+  "source": "Video_012"
+}

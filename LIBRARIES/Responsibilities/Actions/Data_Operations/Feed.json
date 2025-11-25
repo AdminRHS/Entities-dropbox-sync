@@ -1,0 +1,41 @@
+{
+  "Actions": "feed",
+  "Processes": "feeding",
+  "Results": "fed",
+  "Departments": "developers, managers",
+  "Professions": "back end developer, lead generator, automation engineer",
+  "category": "Data_Operations",
+  "source": "Video_006_Lead_Generation_Analysis",
+  "discovery_date": "2025-11-12",
+  "description": "Send or input data into a system, tool, or pipeline for processing",
+  "typical_use_cases": [
+    "Feed domains into Anymailfinder for enrichment",
+    "Feed lead lists into CRM",
+    "Feed scraped data into enrichment pipeline",
+    "Feed CSV into automation workflow",
+    "Pump data into next stage of pipeline"
+  ],
+  "common_objects": [
+    "Lead List",
+    "Company Domain",
+    "Enrichment Pipeline",
+    "Email Address"
+  ],
+  "common_tools": [
+    "Anymailfinder",
+    "n8n",
+    "Make.com",
+    "CRM platforms"
+  ],
+  "related_actions": [
+    "import",
+    "upload",
+    "send",
+    "process"
+  ],
+  "workflows": [
+    "Scrape → Export → Feed into Anymailfinder",
+    "Parse → Feed into CRM",
+    "Extract domains → Feed into enrichment tool"
+  ]
+}

@@ -1,0 +1,4 @@
+# Resume
+
+**Name:** Davlatdodova Kibriyo
+

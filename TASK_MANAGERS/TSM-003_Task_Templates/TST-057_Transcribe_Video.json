@@ -1,0 +1,152 @@
+﻿{
+  "entity_type": "TASK_MANAGERS",
+  "sub_entity": "Task_Template",
+  "template_id": "Task-Template-057",
+  "version": "2.0",
+  "created_date": "2025-01-27",
+  "last_updated": "2025-11-17",
+  "metadata": {
+    "name": "Transcribe Video Using Standard Methodology",
+    "description": "Transcribe video using Video_Transcription_Custom_Instructions v3.2 methodology with structured format and taxonomy focus",
+    "action": "Transcribe",
+    "object": "Video",
+    "context": "using Video_Transcription_Custom_Instructions v3.2",
+    "department": "All departments (cross-functional)",
+    "complexity": "Medium",
+    "estimated_duration": "20-40 minutes per video",
+    "skill_level_required": "Intermediate",
+    "tools_required": [
+      "Google AI Studio (primary) or Transcribe AI (alternative)",
+      "Claude Desktop or Claude Pro (for taxonomy extraction)",
+      "Text editor with markdown support"
+    ],
+    "prerequisites": [
+      "Video URL selected from Stage 1 Research",
+      "Access to Complete_Video_Workflow_Full_Instructions.md",
+      "Google AI Studio account (free tier)",
+      "Video metadata from Research phase"
+    ]
+  },
+  "workflow": {
+    "phase": 2,
+    "milestone": "MIL-PROJ-VIDEO-001-002",
+    "project_template": "Project-Template-008",
+    "dependencies": [
+      "TASK-TEMPLATE-VIDEO-002"
+    ],
+    "outputs": [
+      "Complete markdown transcription (.md format)",
+      "Metadata section completed",
+      "Video description extracted",
+      "Word-for-word transcription with timestamps"
+    ]
+  },
+  "steps": [
+    {
+      "step_number": 1,
+      "step_name": "Review video metadata and context",
+      "description": "Gather video URL, title, creator, duration, and any relevant context",
+      "estimated_time": "5 minutes",
+      "tools": [],
+      "output": "Video metadata documented"
+    },
+    {
+      "step_number": 2,
+      "step_name": "Load Video_Transcription_Custom_Instructions v3.2 prompt",
+      "description": "Load transcription methodology from Taxonomy_Processing/Methodology/PROMPTS/Transcription/",
+      "estimated_time": "2 minutes",
+      "tools": [
+        "Claude Desktop"
+      ],
+      "output": "Transcription prompt loaded"
+    },
+    {
+      "step_number": 3,
+      "step_name": "Transcribe video with timestamps",
+      "description": "Transcribe video following methodology: word-for-word transcription with 30-60 second timestamp intervals",
+      "estimated_time": "30-60 minutes",
+      "tools": [
+        "Claude Desktop",
+        "Video transcription service"
+      ],
+      "output": "Structured transcription with timestamps"
+    },
+    {
+      "step_number": 4,
+      "step_name": "Extract metadata",
+      "description": "Extract and document: title, URL, duration, creator, description, publication date",
+      "estimated_time": "5 minutes",
+      "tools": [],
+      "output": "Complete metadata section"
+    },
+    {
+      "step_number": 5,
+      "step_name": "Categorize action verbs",
+      "description": "Identify and categorize action verbs into 7 categories: Creation, Modification, Analysis, Organization, Communication, Browser/Agentic Operations, Data Operations",
+      "estimated_time": "10 minutes",
+      "tools": [],
+      "output": "Action verbs categorized"
+    },
+    {
+      "step_number": 6,
+      "step_name": "Identify workflows and tools",
+      "description": "Mark workflows and tools mentioned in video for later extraction",
+      "estimated_time": "10 minutes",
+      "tools": [],
+      "output": "Workflows and tools identified"
+    },
+    {
+      "step_number": 7,
+      "step_name": "Save as Video_XXX.md",
+      "description": "Save transcription to Taxonomy_Processing/Transcriptions/Videos/Video_XXX.md (increment number)",
+      "estimated_time": "2 minutes",
+      "tools": [],
+      "output": "Video_XXX.md file saved"
+    },
+    {
+      "step_number": 8,
+      "step_name": "Update VIDEOS_INDEX.md",
+      "description": "Add entry to Taxonomy_Processing/Transcriptions/INDEX.md with video metadata and status",
+      "estimated_time": "5 minutes",
+      "tools": [],
+      "output": "INDEX.md updated"
+    }
+  ],
+  "quality_checklist": [
+    "Markdown format (.md) NOT JSON - CRITICAL",
+    "Accurate timestamps (30-60 second intervals or at topic changes)",
+    "Complete metadata section (title, URL, duration, creator, dates)",
+    "Full video description extracted with all links",
+    "Word-for-word transcription (include verbal fillers for accuracy)",
+    "On-screen text captured in [TEXT: ...] annotations",
+    "Visual elements noted in [VISUAL: ...] annotations",
+    "Speakers labeled when multiple present",
+    "UTF-8 encoding verified",
+    "No character corruption (if $ symbols cause issues, write out words)"
+  ],
+  "related_entities": {
+    "methodology": "ENTITIES/PROMPTS/Video_Processing/Complete_Video_Workflow_Full_Instructions.md",
+    "short_guide": "ENTITIES/PROMPTS/Video_Processing/Short Complete Video Workflow.md",
+    "project_template": "Project-Template-008",
+    "milestone": "MIL-PROJ-VIDEO-001-002",
+    "next_task": "TASK-TEMPLATE-VIDEO-003",
+    "step_templates": [
+      "STEP-RES-101-01",
+      "STEP-RES-101-02",
+      "STEP-RES-101-03",
+      "STEP-RES-101-04"
+    ]
+  },
+  "version_history": [
+    {
+      "version": "1.0",
+      "date": "2025-01-27",
+      "changes": "Initial template creation"
+    },
+    {
+      "version": "2.0",
+      "date": "2025-11-17",
+      "changes": "Updated for Project-Template-008 integration, adapted for v3.2 methodology, changed from RESEARCH to cross-functional, updated timing (20-40 min), added Google AI Studio as primary tool"
+    }
+  ]
+}

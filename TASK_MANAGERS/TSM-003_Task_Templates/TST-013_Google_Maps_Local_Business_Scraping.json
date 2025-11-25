@@ -1,0 +1,384 @@
+{
+  "entity_type": "TASK_MANAGERS",
+  "sub_entity": "Task_Template",
+  "template_id": "Task-Template-013",
+  "task_name": "Scrape Local Businesses from Google Maps",
+  "action": "Scrape",
+  "object": "Local Business Leads",
+  "context": "via Apify Google Maps Scraper",
+  "description": "Extract 500-2,000 local business listings from Google Maps and enrich with emails (40-60% success rate, 20-30 minutes, perfect for local B2B)",
+  "department": "LG",
+  "profession": "Lead Generator",
+  "priority": "Medium",
+  "estimated_duration": "20-30 minutes",
+  "status": "Active",
+  "complexity": "Medium",
+  "automation_potential": "High (60-80%)",
+  "success_rate": "40-60% enrichment",
+  "volume_capacity": "500-2,000 businesses per scrape",
+  "best_for": "Local B2B targeting, geographic prospecting",
+  "dependencies": [
+    "Apify account with credits",
+    "Anymailfinder account for enrichment",
+    "Target location and business category defined"
+  ],
+  "tools_required": [
+    "TOOL-020 (Apify Platform)",
+    "TOOL-022 (Apify Google Maps Scraper)",
+    "TOOL-DATA-007 (Anymailfinder)"
+  ],
+  "skills_required": [
+    "SKL-060 (scraped lead lists via Apify)",
+    "SKL-061 (enriched emails via Anymailfinder)"
+  ],
+  "objects_used": [
+    "OBJ-LG-001 (Lead List)",
+    "OBJ-LG-007 (Google Maps Checklist-Item-003)",
+    "OBJ-LG-002 (Company Domain)",
+    "OBJ-LG-003 (Decision-Maker Email)"
+  ],
+  "workflow_reference": "WF-LG-007",
+  "success_criteria": [
+    "500-2,000 local business listings scraped",
+    "All listings include: name, address, phone, website",
+    "40-60% email enrichment success",
+    "Geographic targeting accurate (city, region, radius)",
+    "Final lead list exported with contact details"
+  ],
+  "responsibilities": {
+    "responsible": "Lead Generator",
+    "accountable": "Lead Generation Manager",
+    "consulted": [
+      "Sales Team",
+      "Local Sales Reps"
+    ],
+    "informed": [
+      "SDR Team",
+      "Regional Sales Managers"
+    ]
+  },
+  "steps": [
+    {
+      "step_number": 1,
+      "name": "Define target location and business category",
+      "action": "define",
+      "tool": "Google Maps (manual test)",
+      "responsibility": "Lead Generator",
+      "placement": "Google Maps search",
+      "duration": "5 minutes",
+      "dependencies": [],
+      "inputs": [
+        "Business type (e.g., 'restaurants', 'law firms', 'gyms')",
+        "Location (city, zip code, or coordinates)",
+        "Radius (optional)"
+      ],
+      "outputs": [
+        "Search query: 'restaurants in Austin, TX', 'law firms near 90210'"
+      ],
+      "success_criteria": "Manual test shows 500+ results in target area",
+      "responsibility_id": "RESP-LG-037",
+      "responsibility_name": "define define target location and business category",
+      "_original_action": "define"
+    },
+    {
+      "step_number": 2,
+      "name": "Configure Apify Google Maps Scraper",
+      "action": "configure",
+      "tool": "TOOL-022 (Apify Google Maps Scraper)",
+      "responsibility": "Lead Generator",
+      "placement": "Apify platform - Maps scraper settings",
+      "duration": "3 minutes",
+      "dependencies": [
+        "Step 1"
+      ],
+      "inputs": [
+        "Search query",
+        "Location",
+        "Max results (e.g., 1,000)"
+      ],
+      "outputs": [
+        "Scraper configured with geographic parameters"
+      ],
+      "success_criteria": "Query entered, location set, result limit configured",
+      "responsibility_id": "RESP-LG-038",
+      "responsibility_name": "configure apify google maps scraper",
+      "_original_action": "configure"
+    },
+    {
+      "step_number": 3,
+      "name": "Run Apify Maps scraper",
+      "action": "scrape",
+      "tool": "TOOL-022 (Apify Google Maps Scraper)",
+      "responsibility": "Lead Generator",
+      "placement": "Apify platform - Execution",
+      "duration": "10-15 minutes (automated)",
+      "dependencies": [
+        "Step 2"
+      ],
+      "inputs": [
+        "Configured scraper"
+      ],
+      "outputs": [
+        "500-2,000 business listings with name, address, phone, website, rating"
+      ],
+      "success_criteria": "Scraper completes, target volume achieved",
+      "responsibility_id": "RESP-LG-039",
+      "responsibility_name": "scrape run apify maps scraper",
+      "_original_action": "scrape"
+    },
+    {
+      "step_number": 4,
+      "name": "Export and clean business listing data",
+      "action": "export",
+      "tool": "Apify + Excel/Google Sheets",
+      "responsibility": "Lead Generator",
+      "placement": "Apify export → Spreadsheet",
+      "duration": "5 minutes",
+      "dependencies": [
+        "Step 3"
+      ],
+      "inputs": [
+        "Raw scrape results"
+      ],
+      "outputs": [
+        "CSV: business_name, address, phone, website, domain (extracted)"
+      ],
+      "success_criteria": "Domains extracted from websites, duplicates removed",
+      "responsibility_id": "RESP-LG-008",
+      "responsibility_name": "export data",
+      "_original_action": "export"
+    },
+    {
+      "step_number": 5,
+      "name": "Upload domains to Anymailfinder",
+      "action": "upload",
+      "tool": "TOOL-DATA-007 (Anymailfinder)",
+      "responsibility": "Lead Generator",
+      "placement": "Anymailfinder - Upload",
+      "duration": "2 minutes",
+      "dependencies": [
+        "Step 4"
+      ],
+      "inputs": [
+        "Cleaned domain list CSV"
+      ],
+      "outputs": [
+        "Upload confirmation"
+      ],
+      "success_criteria": "All business domains uploaded",
+      "responsibility_id": "RESP-LG-002",
+      "responsibility_name": "upload domains",
+      "_original_action": "upload"
+    },
+    {
+      "step_number": 6,
+      "name": "Run nominative enrichment for business owners/managers",
+      "action": "enrich",
+      "tool": "TOOL-DATA-007 (Anymailfinder)",
+      "responsibility": "Lead Generator",
+      "placement": "Anymailfinder - Processing",
+      "duration": "8-12 minutes (automated)",
+      "dependencies": [
+        "Step 5"
+      ],
+      "inputs": [
+        "Business domains",
+        "Target roles (owner, manager, director)"
+      ],
+      "outputs": [
+        "Enriched emails (40-60% success)"
+      ],
+      "success_criteria": "200-800 valid emails from 500-2,000 businesses",
+      "responsibility_id": "RESP-LG-012",
+      "responsibility_name": "enrich run nominative enrichment",
+      "_original_action": "enrich"
+    },
+    {
+      "step_number": 7,
+      "name": "Export final local business lead list",
+      "action": "export",
+      "tool": "TOOL-DATA-007 (Anymailfinder)",
+      "responsibility": "Lead Generator",
+      "placement": "Anymailfinder - Export",
+      "duration": "2 minutes",
+      "dependencies": [
+        "Step 6"
+      ],
+      "inputs": [
+        "Enriched data"
+      ],
+      "outputs": [
+        "CSV: business_name, address, phone, website, email, contact_name"
+      ],
+      "success_criteria": "All enriched contacts exported with location data",
+      "responsibility_id": "RESP-LG-004",
+      "responsibility_name": "export leads",
+      "_original_action": "export"
+    }
+  ],
+  "checklist": [
+    {
+      "item": "Location targeting accurate (city/region/radius)",
+      "guide": "Test query manually in Google Maps first",
+      "required": true
+    },
+    {
+      "item": "Business category matches ICP",
+      "guide": "Restaurants, law firms, gyms, retail stores, etc.",
+      "required": true
+    },
+    {
+      "item": "Scraper set to 500+ results minimum",
+      "guide": "Higher volume = better ROI on setup time",
+      "required": true
+    },
+    {
+      "item": "Domains extracted from website URLs",
+      "guide": "Clean URLs to domain format before enrichment",
+      "required": true
+    },
+    {
+      "item": "Target roles match local business structure",
+      "guide": "Owner, Manager, Director typical for small businesses",
+      "required": true
+    },
+    {
+      "item": "40-60% enrichment success achieved",
+      "guide": "Local businesses may have lower enrichment than enterprises",
+      "required": true
+    }
+  ],
+  "performance_metrics": {
+    "typical_volume": "500-2,000 businesses per scrape",
+    "success_rate": "40-60% enrichment",
+    "time_per_campaign": "20-30 minutes",
+    "cost": "Apify credits + $0.0025/email (Anymailfinder)",
+    "final_output": "200-800 local business contacts"
+  },
+  "best_practices": [
+    "Perfect for local B2B targeting and geographic prospecting",
+    "Test location query manually in Google Maps first",
+    "Use specific business categories for better results",
+    "Extract domains from websites before enrichment",
+    "Target business owners, managers, directors for local businesses",
+    "Great for field sales teams and regional campaigns"
+  ],
+  "example_searches": [
+    "'restaurants in Austin, TX' → Food service businesses",
+    "'law firms in New York City' → Legal services",
+    "'gyms near Los Angeles' → Fitness centers",
+    "'auto repair shops in Chicago' → Automotive services",
+    "'dentists in Miami' → Healthcare practices",
+    "'real estate agents in Seattle' → Real estate professionals"
+  ],
+  "use_cases": [
+    {
+      "industry": "B2B SaaS for Restaurants",
+      "query": "'restaurants in [City]'",
+      "volume": "1,000 restaurants → 500 contacts",
+      "use": "POS system or delivery platform outreach"
+    },
+    {
+      "industry": "Professional Services",
+      "query": "'law firms in [State]'",
+      "volume": "800 firms → 400 contacts",
+      "use": "Legal tech or practice management software"
+    },
+    {
+      "industry": "Local Marketing Agency",
+      "query": "'retail stores in [Region]'",
+      "volume": "1,500 stores → 700 contacts",
+      "use": "Digital marketing services for local businesses"
+    }
+  ],
+  "when_to_use": [
+    "Targeting local businesses by geography",
+    "Field sales team needs leads in specific territories",
+    "Product/service designed for local businesses",
+    "Need business address and phone in addition to email",
+    "Geographic targeting is key to product-market fit"
+  ],
+  "when_not_to_use": [
+    "Targeting enterprise companies (use LinkedIn instead)",
+    "Need high enrichment rates (>70%) - use other methods",
+    "Product is not location-dependent",
+    "Targeting national/international companies only"
+  ],
+  "geographic_targeting_options": {
+    "by_city": "'restaurants in Austin, TX'",
+    "by_zip_code": "'gyms near 90210'",
+    "by_radius": "'law firms within 25 miles of New York City'",
+    "by_region": "'auto repair shops in Southern California'",
+    "by_landmark": "'hotels near Times Square'"
+  },
+  "common_issues": [
+    {
+      "issue": "Low scrape volume (<500)",
+      "solution": "Broaden search radius, use less specific business category, try adjacent cities"
+    },
+    {
+      "issue": "Many businesses missing websites",
+      "solution": "Expected for some local businesses, enrichment will be lower, consider phone-based outreach"
+    },
+    {
+      "issue": "Enrichment rate very low (<30%)",
+      "solution": "Small local businesses often lack standard email patterns, may need manual research"
+    },
+    {
+      "issue": "Duplicate businesses in different locations",
+      "solution": "Chain businesses may appear multiple times, deduplicate by domain"
+    }
+  ],
+  "data_included": {
+    "always_available": [
+      "Business name",
+      "Address",
+      "Phone",
+      "Rating",
+      "Category"
+    ],
+    "usually_available": [
+      "Website",
+      "Hours",
+      "Review count"
+    ],
+    "sometimes_available": [
+      "Email (via scrape)",
+      "Social media links",
+      "Description"
+    ],
+    "needs_enrichment": [
+      "Decision-maker email",
+      "Contact name",
+      "Job title"
+    ]
+  },
+  "tags": [
+    "lead_generation",
+    "local_business",
+    "google_maps",
+    "geographic_targeting",
+    "b2b_local",
+    "apify"
+  ],
+  "related_workflows": [
+    "WF-LG-007"
+  ],
+  "related_skills": [
+    "SKL-060",
+    "SKL-061"
+  ],
+  "related_professions": [
+    "Lead Generator",
+    "Field Sales Rep",
+    "Regional Sales Manager"
+  ],
+  "version": "1.0",
+  "created": "2025-11-12",
+  "last_updated": "2025-11-12",
+  "source": "Video_006_Lead_Generation_Analysis",
+  "responsibility_id": "RESP-LG-036",
+  "responsibility_name": "scrape leads",
+  "_original_action": "Scrape",
+  "_original_object": "Local Business Leads"
+}

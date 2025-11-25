@@ -1,0 +1,43 @@
+{
+  "template_name": "Status_Information",
+  "description": "Candidate status fields including application status and admin status",
+  "fields": {
+    "status_candidate_id": {
+      "type": "str",
+      "description": "Field: status_candidate_id",
+      "example": "15"
+    },
+    "status_candidate": {
+      "type": "object",
+      "fields": {
+        "status_candidate.id": {
+          "type": "int",
+          "description": "Field: id",
+          "example": 15
+        },
+        "status_candidate.name": {
+          "type": "str",
+          "description": "Field: name",
+          "example": "Application"
+        }
+      },
+      "description": "Nested object: status_candidate"
+    },
+    "status_admin_id": {
+      "type": "NoneType",
+      "description": "Field: status_admin_id",
+      "example": null
+    },
+    "status_admin": {
+      "type": "NoneType",
+      "description": "Field: status_admin",
+      "example": null
+    },
+    "approved_status_team_lead": {
+      "type": "str",
+      "description": "Field: approved_status_team_lead",
+      "example": "0"
+    }
+  }
+}
+

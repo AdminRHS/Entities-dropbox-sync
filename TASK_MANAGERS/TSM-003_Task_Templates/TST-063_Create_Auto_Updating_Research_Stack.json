@@ -1,0 +1,259 @@
+{
+  "entity_type": "TASK_MANAGERS",
+  "sub_entity": "Task_Template",
+  "template_id": "Task-Template-063",
+  "version": "1.0",
+  "created_date": "2025-11-17",
+  "last_updated": "2025-11-17",
+  "metadata": {
+    "name": "Create Auto-Updating Research Stack in Dropbox Dash",
+    "description": "Create a Stack (smart collection) in Dropbox Dash that automatically monitors and aggregates research papers, articles, and internal documents on specific topics",
+    "action": "Create",
+    "object": "Auto-Updating Research Stack",
+    "context": "Research Monitoring with Dropbox Dash Stacks",
+    "department": "Research, Product Management, Competitive Intelligence",
+    "complexity": "Low-Medium",
+    "estimated_duration": "5-10 minutes",
+    "skill_level_required": "Beginner",
+    "tools_required": [
+      "TOOL-112 (Dropbox Dash)",
+      "TOOL-113 (arXiv) - optional integration",
+      "Web Browser"
+    ],
+    "prerequisites": [
+      "Dropbox Dash account with connected applications",
+      "Relevant apps connected (arXiv, Google Drive, Notion, Slack, etc.)",
+      "Clear research topic or monitoring area defined",
+      "Understanding of search query formulation"
+    ]
+  },
+  "workflow": {
+    "phase": "setup",
+    "workflow_id": "WF-PM-010",
+    "dependencies": [],
+    "outputs": [
+      "Stack created with defined search criteria",
+      "Stack automatically updates as new content matches criteria",
+      "Centralized view of research on specific topic",
+      "Time saved on manual research monitoring (2-4 hours/week)"
+    ]
+  },
+  "steps": [
+    {
+      "step_number": 1,
+      "step_id": "STEP-PM-063-01",
+      "step_name": "Define Research Topic and Scope",
+      "description": "Clearly define what topic you want to monitor (e.g., 'retrieval augmented generation', 'product-led growth strategies', 'customer churn analysis'). Determine scope (timeframe, sources, depth)",
+      "estimated_time": "2-3 minutes",
+      "tools": [],
+      "output": "Clear topic definition and monitoring criteria",
+      "tips": [
+        "Be specific enough to avoid noise (not just 'AI')",
+        "Broad enough to capture variants ('RAG' vs 'retrieval augmented generation')",
+        "Consider synonyms and related terms",
+        "Define update frequency (daily, weekly, monthly)"
+      ]
+    },
+    {
+      "step_number": 2,
+      "step_id": "STEP-PM-063-02",
+      "step_name": "Formulate Search Query",
+      "description": "Craft search query that captures your research topic. Use natural language and include key terms, synonyms, and context. Test query first to verify it finds relevant content",
+      "estimated_time": "1-2 minutes",
+      "tools": ["TOOL-112"],
+      "output": "Tested search query that returns relevant results",
+      "examples": [
+        "arXiv papers on vision transformers published after 2023",
+        "internal docs and Slack threads about customer retention strategies",
+        "competitor analysis reports mentioning AI features",
+        "research on multi-modal LLM evaluation methods"
+      ]
+    },
+    {
+      "step_number": 3,
+      "step_id": "STEP-PM-063-03",
+      "step_name": "Execute Initial Search",
+      "description": "Run your search query in Dropbox Dash to verify it returns the type of content you want to monitor. Review first 10-20 results for relevance",
+      "estimated_time": "1-2 minutes",
+      "tools": ["TOOL-112"],
+      "output": "Search results validated for relevance",
+      "success_criteria": "At least 70% of top 20 results are relevant to research topic"
+    },
+    {
+      "step_number": 4,
+      "step_id": "STEP-PM-063-04",
+      "step_name": "Create Stack from Search",
+      "description": "Click 'Save as Stack' or 'Create Stack' button in Dash search results. Give your Stack a descriptive name (e.g., 'RAG Research - arXiv + Internal', 'Customer Churn Analysis')",
+      "estimated_time": "30 seconds",
+      "tools": ["TOOL-112"],
+      "output": "Stack created with initial search criteria",
+      "naming_convention": "[Topic] - [Sources] or [Topic] - [Timeframe]"
+    },
+    {
+      "step_number": 5,
+      "step_id": "STEP-PM-063-05",
+      "step_name": "Configure Stack Settings",
+      "description": "Set Stack update frequency (real-time, daily, weekly), notification preferences, and source filters if needed",
+      "estimated_time": "1-2 minutes",
+      "tools": ["TOOL-112"],
+      "output": "Stack configured with appropriate settings",
+      "options": [
+        "Update frequency: Real-time, Daily digest, Weekly digest",
+        "Notifications: Email, in-app, none",
+        "Source filters: All apps, specific apps only",
+        "Date range: Last week, last month, all time, custom"
+      ]
+    },
+    {
+      "step_number": 6,
+      "step_id": "STEP-PM-063-06",
+      "step_name": "Add to Dashboard or Workspace",
+      "description": "Pin Stack to your Dash homepage or add to relevant workspace for easy access. Organize with other related Stacks if applicable",
+      "estimated_time": "30 seconds",
+      "tools": ["TOOL-112"],
+      "output": "Stack accessible from Dash dashboard"
+    },
+    {
+      "step_number": 7,
+      "step_id": "STEP-PM-063-07",
+      "step_name": "Review and Refine (Week 1)",
+      "description": "After 1 week, review new items added to Stack. Assess signal-to-noise ratio. Refine search query if too many irrelevant results or missing key content",
+      "estimated_time": "10-15 minutes (week 1 review)",
+      "tools": ["TOOL-112"],
+      "output": "Stack optimized for ongoing monitoring",
+      "success_criteria": "70%+ of new items are relevant; no major content gaps identified"
+    },
+    {
+      "step_number": 8,
+      "step_id": "STEP-PM-063-08",
+      "step_name": "Establish Review Cadence",
+      "description": "Set up recurring calendar reminder to review Stack (daily for high-priority topics, weekly for general monitoring). Spend 10-20 minutes scanning new additions",
+      "estimated_time": "2 minutes setup",
+      "tools": ["Calendar app"],
+      "output": "Recurring review cadence established",
+      "recommended_cadence": {
+        "high_priority": "Daily 10-minute review",
+        "medium_priority": "2-3x per week, 15 minutes",
+        "low_priority": "Weekly 20-30 minute review"
+      }
+    }
+  ],
+  "quality_checklist": [
+    "Stack name is descriptive and includes topic + sources/timeframe",
+    "Search query returns 70%+ relevant results",
+    "Stack automatically updates with new matching content",
+    "Notification settings match monitoring urgency",
+    "Stack is easily accessible from Dash dashboard",
+    "Review cadence established (calendar reminder set)",
+    "Initial week review completed with refinements",
+    "Signal-to-noise ratio acceptable (not overwhelming, not missing key content)"
+  ],
+  "stack_creation_best_practices": {
+    "topic_selection": [
+      "Start with 2-3 high-impact research topics (not 20+)",
+      "Choose topics you'll revisit weekly/monthly (not one-off searches)",
+      "Balance specificity (avoid noise) with coverage (don't miss variants)",
+      "Consider creating separate Stacks for different aspects (e.g., 'RAG - Academic Papers' vs 'RAG - Industry Implementations')"
+    ],
+    "query_optimization": [
+      "Use boolean operators if supported (AND, OR, NOT)",
+      "Include timeframe if relevant ('after 2024', 'last 6 months')",
+      "Test with multiple phrasings (technical jargon vs. plain language)",
+      "Combine topic keywords with source-specific terms (e.g., 'arXiv:' prefix if supported)",
+      "Iterate based on week 1 results (add exclusions for common false positives)"
+    ],
+    "organization": [
+      "Group related Stacks in workspaces (e.g., 'AI Research', 'Competitive Intel')",
+      "Use consistent naming conventions across Stacks",
+      "Archive Stacks when topic is no longer relevant (don't delete - future reference)",
+      "Tag Stacks by project, theme, or priority level if Dash supports",
+      "Link Stacks in documentation (e.g., project wiki references relevant Stack)"
+    ]
+  },
+  "example_stack_configurations": [
+    {
+      "stack_name": "Retrieval Augmented Generation (RAG) - Research",
+      "query": "retrieval augmented generation OR RAG OR retrieval-augmented",
+      "sources": "arXiv, Google Drive (internal research folder), Slack #ai-research channel",
+      "update_frequency": "Daily",
+      "review_cadence": "3x per week, 15 minutes",
+      "use_case": "Stay current with RAG research for product feature development"
+    },
+    {
+      "stack_name": "Customer Churn Analysis - Internal + External",
+      "query": "customer churn OR retention strategies OR reduce churn",
+      "sources": "Google Docs, Notion, Slack, saved articles",
+      "update_frequency": "Weekly",
+      "review_cadence": "Weekly 30-minute deep dive",
+      "use_case": "Ongoing monitoring for product retention initiatives"
+    },
+    {
+      "stack_name": "Competitor AI Features - Last 3 Months",
+      "query": "competitor AI features OR [CompetitorName] announcement",
+      "sources": "Web articles, Slack #competitive-intel, Google Drive",
+      "update_frequency": "Real-time",
+      "review_cadence": "2x per week, 20 minutes",
+      "use_case": "Competitive intelligence for product roadmap planning"
+    }
+  ],
+  "time_savings_analysis": {
+    "without_stack": "Manual research monitoring: 2-4 hours/week (visiting multiple sources, searching, aggregating)",
+    "with_stack": "Stack review: 30-60 minutes/week (centralized, pre-aggregated, prioritized)",
+    "time_saved": "1.5-3 hours/week (60-75% reduction)",
+    "monthly_impact": "6-12 hours saved/month",
+    "annual_impact": "75-150 hours/year per Stack",
+    "quality_improvement": "90% less chance of missing important research (automated vs. manual)"
+  },
+  "related_entities": {
+    "workflow": "WF-PM-010 (Create Auto-Updating Research Stack)",
+    "tools": [
+      "TOOL-112 (Dropbox Dash)",
+      "TOOL-113 (arXiv)"
+    ],
+    "related_task_templates": [
+      "Task-Template-062: Conduct Universal Search Across Work Apps",
+      "Task-Template-065: Prepare Meeting Context with Dash Search",
+      "Task-Template-066: Setup Daily AI/ML Research Monitoring"
+    ],
+    "skills_required": [
+      "search query formulation",
+      "information organization",
+      "research methodology",
+      "topic scoping",
+      "pattern recognition"
+    ],
+    "discovery_source": "Video_016.md - Dropbox Dash Interview with Morgan Brown",
+    "step_templates": [
+      "STEP-PM-063-01 through STEP-PM-063-08"
+    ]
+  },
+  "common_monitoring_topics": [
+    "AI/ML research areas (RAG, vision transformers, LLM evaluation, etc.)",
+    "Competitive intelligence (competitor features, announcements, funding)",
+    "Industry trends (product-led growth, AI adoption, remote work tools)",
+    "Customer feedback themes (feature requests, pain points, use cases)",
+    "Internal knowledge (project updates, team learnings, best practices)",
+    "Regulatory and compliance (GDPR updates, AI regulations, data privacy)",
+    "Technology stack and tools (new frameworks, libraries, platforms)"
+  ],
+  "integration_opportunities": {
+    "arxiv_integration": "Connect arXiv to monitor daily submissions in specific categories (cs.AI, cs.LG, etc.)",
+    "slack_integration": "Monitor specific channels (#research, #product, #competitive-intel) for relevant discussions",
+    "notion_integration": "Aggregate research notes, summaries, and team wikis",
+    "google_drive_integration": "Track internal research repos, shared folders, and collaborative docs",
+    "web_articles": "Save articles from RSS feeds, newsletters, or browser extensions to Dash"
+  },
+  "troubleshooting": {
+    "too_many_irrelevant_results": "Narrow query with exclusions (NOT keyword), add specific source filters, refine timeframe",
+    "missing_key_content": "Broaden query with synonyms/variants, check source app connections, verify content has appropriate metadata",
+    "stack_not_updating": "Check update frequency settings, verify source app sync is working, refresh Dash cache",
+    "overwhelming_volume": "Add filters (date range, file type, specific sources), increase review cadence, create sub-Stacks by subtopic"
+  },
+  "version_history": [
+    {
+      "version": "1.0",
+      "date": "2025-11-17",
+      "changes": "Initial template creation from Video_016.md workflow extraction"
+    }
+  ]
+}

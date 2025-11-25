@@ -1,0 +1,220 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "template_id": "TEMPLATE-TASK-ACC-001",
+  "template_name": "Create New Account",
+  "template_version": "1.0",
+  "entity_type": "TASK_MANAGERS",
+  "sub_entity": "Task_Template",
+  "category": "Account Management",
+  "responsibility_id": "RESP-OPS-ACC-001",
+  "action": "create",
+  "object": "account",
+  "departments": ["OPS", "HR"],
+  "description": "Standard workflow for creating a new platform/tool account with proper validation and verification",
+  "estimated_duration_minutes": 15,
+  "complexity": "medium",
+  "priority": "high",
+  "steps": [
+    {
+      "step_number": 1,
+      "step_name": "Gather Account Information",
+      "step_description": "Collect all required information for account creation",
+      "action": "gather",
+      "object": "account information",
+      "estimated_time_minutes": 3,
+      "required_inputs": [
+        "Account name (descriptive)",
+        "Tool/Platform selection (from LIBRARIES/Tools)",
+        "Account owner (from TALENTS/Employees)",
+        "Account type (social_media, crm, email, etc.)",
+        "Initial credentials (login/password)"
+      ],
+      "validation_rules": [
+        "Tool must exist in LIBRARIES/Tools",
+        "Owner must exist in TALENTS/Employees",
+        "Account type must match tool category",
+        "Password must meet security requirements"
+      ],
+      "is_automated": false,
+      "assigned_to": "requester"
+    },
+    {
+      "step_number": 2,
+      "step_name": "Validate Against ENTITIES Schema",
+      "step_description": "Validate account data against accounts_schema.json",
+      "action": "validate",
+      "object": "account data",
+      "estimated_time_minutes": 1,
+      "validation_endpoint": "/api/validate/account",
+      "schema_path": "ENTITIES/ACCOUNTS/accounts_schema.json",
+      "is_automated": true,
+      "automated_service": "validation-service",
+      "on_failure": "return_errors_to_requester"
+    },
+    {
+      "step_number": 3,
+      "step_name": "Check Tool Availability",
+      "step_description": "Verify tool exists and is available for new accounts",
+      "action": "check",
+      "object": "tool availability",
+      "estimated_time_minutes": 1,
+      "api_call": {
+        "method": "GET",
+        "endpoint": "https://libs.anyemp.com/api/v1/tools/:tool_id",
+        "expected_response": "tool_details"
+      },
+      "is_automated": true,
+      "automated_service": "entities-api",
+      "on_failure": "notify_requester_invalid_tool"
+    },
+    {
+      "step_number": 4,
+      "step_name": "Verify Owner Exists",
+      "step_description": "Confirm account owner exists in TALENTS/Employees",
+      "action": "verify",
+      "object": "account owner",
+      "estimated_time_minutes": 1,
+      "api_call": {
+        "method": "GET",
+        "endpoint": "https://libs.anyemp.com/api/v1/employees/:owner_id",
+        "expected_response": "employee_details"
+      },
+      "is_automated": true,
+      "automated_service": "entities-api",
+      "on_failure": "notify_requester_invalid_owner"
+    },
+    {
+      "step_number": 5,
+      "step_name": "Encrypt Credentials",
+      "step_description": "Encrypt password and sensitive data before storage",
+      "action": "encrypt",
+      "object": "credentials",
+      "estimated_time_minutes": 1,
+      "encryption_method": "AES-256",
+      "fields_to_encrypt": ["password", "backup_codes"],
+      "is_automated": true,
+      "automated_service": "encryption-service"
+    },
+    {
+      "step_number": 6,
+      "step_name": "Create Account in PostgreSQL",
+      "step_description": "Insert account record into PostgreSQL database",
+      "action": "create",
+      "object": "account record",
+      "estimated_time_minutes": 2,
+      "api_call": {
+        "method": "POST",
+        "endpoint": "/api/accounts",
+        "request_body": "validated_account_data"
+      },
+      "is_automated": true,
+      "automated_service": "account-api",
+      "on_success": "generate_account_id",
+      "on_failure": "rollback_and_notify"
+    },
+    {
+      "step_number": 7,
+      "step_name": "Sync to ENTITIES JSON",
+      "step_description": "Create JSON file in ENTITIES/ACCOUNTS/Accounts/",
+      "action": "sync",
+      "object": "account to entities",
+      "estimated_time_minutes": 2,
+      "target_path": "ENTITIES/ACCOUNTS/Accounts/ACC-{id}.json",
+      "enrichment_required": true,
+      "enrichment_data": [
+        "tool_details from LIBRARIES/Tools",
+        "owner_details from TALENTS/Employees",
+        "status_details from LIBRARIES/Statuses"
+      ],
+      "is_automated": true,
+      "automated_service": "sync-service"
+    },
+    {
+      "step_number": 8,
+      "step_name": "Set Initial Status",
+      "step_description": "Set account status (typically 'pending_verification' or 'active')",
+      "action": "update",
+      "object": "account status",
+      "estimated_time_minutes": 1,
+      "default_status": "pending_verification",
+      "status_conditions": {
+        "if_verification_required": "pending_verification",
+        "if_no_verification_required": "active"
+      },
+      "is_automated": true,
+      "automated_service": "account-api"
+    },
+    {
+      "step_number": 9,
+      "step_name": "Create Audit Log Entry",
+      "step_description": "Log account creation in audit trail",
+      "action": "create",
+      "object": "audit log",
+      "estimated_time_minutes": 1,
+      "log_data": {
+        "event_type": "account_created",
+        "account_id": "generated_id",
+        "created_by": "requester_employee_id",
+        "timestamp": "current_timestamp"
+      },
+      "log_destination": "ANALYTICS/Audit_Logs/Account_Management/",
+      "is_automated": true,
+      "automated_service": "audit-service"
+    },
+    {
+      "step_number": 10,
+      "step_name": "Notify Stakeholders",
+      "step_description": "Send notification to account owner and requester",
+      "action": "send",
+      "object": "notification",
+      "estimated_time_minutes": 1,
+      "notification_recipients": [
+        "account_owner",
+        "requester (if different from owner)"
+      ],
+      "notification_template": "account_created_notification",
+      "notification_channels": ["email", "slack"],
+      "is_automated": true,
+      "automated_service": "notification-service"
+    }
+  ],
+  "prerequisites": [
+    "Tool exists in LIBRARIES/Tools",
+    "Owner exists in TALENTS/Employees",
+    "User has 'account:create' permission",
+    "Encryption service available"
+  ],
+  "required_permissions": ["account:create", "account:write"],
+  "deliverables": [
+    "New account record in PostgreSQL",
+    "Account JSON file in ENTITIES",
+    "Audit log entry",
+    "Notification sent to stakeholders"
+  ],
+  "success_criteria": [
+    "Account ID generated (ACC-XXX format)",
+    "Account status set correctly",
+    "JSON file created in ENTITIES",
+    "Owner notified successfully"
+  ],
+  "rollback_procedure": {
+    "enabled": true,
+    "steps": [
+      "Delete PostgreSQL record if created",
+      "Remove JSON file if created",
+      "Log rollback event",
+      "Notify requester of failure"
+    ]
+  },
+  "related_templates": [
+    "TEMPLATE-TASK-ACC-004 (Verify Account)",
+    "TEMPLATE-TASK-ACC-002 (Update Account)",
+    "TEMPLATE-TASK-ACC-005 (Assign User to Account)"
+  ],
+  "tags": ["account-creation", "onboarding", "setup"],
+  "version": "1.0",
+  "created_date": "2025-11-18",
+  "last_updated": "2025-11-18",
+  "created_by": "System",
+  "is_active": true
+}

@@ -1,0 +1,132 @@
+{
+  "entity_type": "LIBRARIES",
+  "sub_entity": "Tool",
+  "tool_id": "TOOL-AI-003",
+  "name": "Gemini",
+  "vendor": "Google",
+  "category": "AI/LLM Services",
+  "purpose": "Large dataset processing, LinkedIn account analysis, deep company research",
+  "description": "Google's AI model optimized for processing large datasets. Used for LinkedIn message history analysis (2,000+ accounts) and deep company research.",
+  "skill_level_required": "Intermediate",
+  "cost_structure": "Free tier (3-month promo: $120 value → $80) + paid plans",
+  "platform_compatibility": [
+    "Web",
+    "API"
+  ],
+  "integration_capabilities": [
+    "Google Workspace integration",
+    "API",
+    "n8n integration",
+    "Google Search integration",
+    "Multimodal (text + images)",
+    "Nano Banana integration",
+    "Image upload and processing",
+    "Iterative AI editing workflows"
+  ],
+  "documentation_url": "https://gemini.google.com/app",
+  "actual_remote_helpers_usage": {
+    "primary_use": "Large Dataset Analysis & LinkedIn History Processing",
+    "users": [
+      "LG Team",
+      "AI",
+      "Analytics",
+      "HR Team"
+    ],
+    "use_cases": [
+      "analyze linkedin history",
+      "research companies",
+      "process large datasets",
+      "synthesize data sources",
+      "recognize messaging patterns",
+      "enrich leads",
+      "automate research workflows",
+      "power NotebookLM for CV screening",
+      "generate candidate rankings",
+      "create interview questions",
+      "interface for Nano Banana character transformation",
+      "process uploaded images for AI editing",
+      "create viral hook characters",
+      "iterative AI image refinement"
+    ],
+    "workflows": [
+      "LinkedIn Analysis: Export 2,000+ accounts → Gemini processes → Pattern identification → Template optimization",
+      "Deep Research (n8n): Branch A - Gemini analyzes company website → Company size, industry, tech stack → 2-3 min automated",
+      "Lead Enrichment: Company data → Gemini processing → Structured output → CRM population",
+      "WF-HR-001: NotebookLM (powered by Gemini 2.0) → Screen CVs → Rank candidates with scores",
+      "WF-HR-002: Gemini generates HR interview questions based on JD and candidate profiles",
+      "WF-HR-003: Gemini generates technical interview questions with specific focus areas (e.g., Azure, consulting)",
+      "Viral Hook Character Creation: Video frame uploaded to Gemini → Nano Banana transforms person to AI character → Iterative refinement → Download final character image → Use in Veo 3 animation"
+    ],
+    "performance": {
+      "processing_speed": "Fast for large volumes",
+      "context_window": "Large (multimodal support)",
+      "accuracy": ">95% for research tasks",
+      "cost_efficiency": "Good cost-performance ratio"
+    }
+  },
+  "strengths": [
+    "Excellent for large datasets",
+    "Fast processing speed",
+    "Google Search integration",
+    "Multimodal capabilities",
+    "Good cost-performance"
+  ],
+  "limitations": [
+    "Less creative than ChatGPT",
+    "Newer with fewer integrations",
+    "Sometimes less nuanced than Claude"
+  ],
+  "departments_using": [
+    "LG (Primary)",
+    "AI Engineering",
+    "Dev",
+    "AI",
+    "Design",
+    "Sales",
+    "HR",
+    "Finance",
+    "Video"
+  ],
+  "finance_data": {
+    "subscription_status": "paid",
+    "total_accounts": 1,
+    "paid_accounts": 1,
+    "unpaid_accounts": 0,
+    "latest_valid_until": "2025-12-03",
+    "accounts": [
+      {
+        "email": "niko@rh-s.com",
+        "status": "paid",
+        "paid_date": "2025-11-03",
+        "valid_until": "2025-12-03",
+        "department": "lead generator,sales manager,recruiter,developers,AI,financial manager,designers,videographers"
+      }
+    ],
+    "departments_using": [
+      "AI",
+      "designers",
+      "developers",
+      "financial manager",
+      "lead generator",
+      "recruiter",
+      "sales manager",
+      "videographers"
+    ]
+  },
+  "tags": [
+    "ai",
+    "llm",
+    "large-datasets",
+    "linkedin-analysis",
+    "research",
+    "automation",
+    "multimodal",
+    "image-processing",
+    "nano-banana",
+    "viral-content",
+    "character-transformation"
+  ],
+  "discovery_date": "2024-12-01",
+  "discovery_source": "internal_usage_analysis",
+  "status": "active"
+}

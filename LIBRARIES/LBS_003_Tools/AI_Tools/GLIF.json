@@ -1,0 +1,203 @@
+{
+  "entity_type": "LIBRARIES",
+  "sub_entity": "Tool",
+  "tool_id": "TOOL-AI-045",
+  "name": "GLIF",
+  "vendor": "GLIF",
+  "category": "AI/Workflow Automation",
+  "purpose": "AI workflow automation platform for creative AI tool orchestration and agent-based content generation",
+  "description": "GLIF is an AI workflow automation platform that allows users to create, share, and use AI agents that orchestrate multiple creative AI tools. It automates prompting, formatting, and workflow execution across various generative AI services including image generation, video creation, and audio synthesis. Users can build custom workflows or use pre-built agents to automate complex creative tasks.",
+  "skill_level_required": "Beginner to Advanced",
+  "cost_structure": "Freemium (Free tier available + paid plans)",
+  "platform_compatibility": [
+    "Web",
+    "API"
+  ],
+  "integration_capabilities": [
+    "AI agent creation and management",
+    "Multi-tool workflow orchestration",
+    "Automated prompting and formatting",
+    "Integration with image generation tools (Nano Banana, Midjourney)",
+    "Integration with video generation tools (Kling, Sora, VAYU, Seedream)",
+    "Integration with audio tools (Eleven Labs)",
+    "Integration with research tools (Perplexity)",
+    "Custom workflow builder",
+    "Agent marketplace",
+    "Automated content generation pipelines"
+  ],
+  "documentation_url": "https://glif.app",
+  "actual_remote_helpers_usage": {
+    "primary_use": "Creative AI Workflow Automation and Content Generation at Scale",
+    "users": [
+      "Content Creators",
+      "Video Editors",
+      "Designers",
+      "Marketing Teams",
+      "Social Media Managers"
+    ],
+    "team_members": [
+      "Content creators automating video production",
+      "Designers creating thumbnail variants",
+      "Marketing teams generating campaigns",
+      "Social media managers creating viral content"
+    ],
+    "use_cases": [
+      "generate youtube thumbnails",
+      "create tiltshift documentaries",
+      "automate reddit stories",
+      "generate influencer videos",
+      "create brand mascots",
+      "automate marketing workflows",
+      "generate multi-format content",
+      "automate ctr testing",
+      "build viral workflows",
+      "automate educational content"
+    ],
+    "typical_workflows": [
+      {
+        "task": "Create YouTube Thumbnail with AI Agent",
+        "steps": [
+          "Select or create thumbnail generation agent (e.g., Nano Banana Ultimate)",
+          "Upload reference image or provide description",
+          "Specify style parameters (e.g., 'Mr. Beast style', high CTR, more contrast)",
+          "Agent automatically prompts and formats request",
+          "Review generated thumbnails",
+          "Iterate with refined parameters if needed",
+          "Download final thumbnail"
+        ],
+        "complexity": "Low",
+        "time_estimate": "5-15 minutes"
+      },
+      {
+        "task": "Generate Miniature History Documentary",
+        "steps": [
+          "Select miniature documentary agent",
+          "Input topic or historical event",
+          "Agent uses Perplexity to research facts",
+          "Agent generates script and voiceover (Eleven Labs)",
+          "Agent creates tilt-shift video (Seedream + VAYU 2.2)",
+          "Review 32-second output video",
+          "Download or share"
+        ],
+        "complexity": "Medium",
+        "time_estimate": "10-20 minutes (mostly automated)"
+      },
+      {
+        "task": "Automate Reddit Story TikTok Creation",
+        "steps": [
+          "Select Reddit story TikTok agent",
+          "Input Reddit thread URL or story text",
+          "Agent extracts and formats story",
+          "Agent generates background video (gaming footage style)",
+          "Agent generates narration (Eleven Labs)",
+          "Agent combines elements into TikTok format",
+          "Review and download final video",
+          "Upload to TikTok"
+        ],
+        "complexity": "Low to Medium",
+        "time_estimate": "10-15 minutes"
+      },
+      {
+        "task": "Build Custom AI Workflow",
+        "steps": [
+          "Define workflow objectives",
+          "Select AI tools to integrate",
+          "Create agent in GLIF workflow builder",
+          "Configure prompting logic and parameters",
+          "Set up tool chaining sequence",
+          "Test workflow with sample inputs",
+          "Iterate and optimize",
+          "Save and share agent"
+        ],
+        "complexity": "Advanced",
+        "time_estimate": "1-3 hours"
+      }
+    ],
+    "integration_with_other_tools": [
+      "Nano Banana - Image generation within workflows",
+      "Kling 2.5 - Video generation automation",
+      "Sora 2 - Advanced video content creation",
+      "VAYU 2.2 - Tilt-shift video effects",
+      "Seedream - Miniature-style video generation",
+      "Eleven Labs - Voiceover and audio synthesis",
+      "Perplexity - Research and fact-checking",
+      "Midjourney - Image generation (via Discord integration)",
+      "ChatGPT - Content generation and scripting",
+      "Video editing tools - Export for final editing"
+    ],
+    "internal_platforms_served": [
+      "BZ-V (Business Video) - Automated video content creation",
+      "DGN (Design Services) - Thumbnail and visual content generation",
+      "SMM (Social Media Marketing) - Viral content automation",
+      "Content Creation - Multi-format content workflows",
+      "Marketing - Campaign asset generation",
+      "OAY (Online Academy) - Educational content creation"
+    ]
+  },
+  "strengths": [
+    "Automates complex multi-tool workflows",
+    "No coding required for basic workflows",
+    "Pre-built agent marketplace",
+    "Automatic prompting and formatting",
+    "Integrates multiple AI tools seamlessly",
+    "Fast iteration and testing",
+    "Supports various content types (images, videos, audio)",
+    "Community-driven agent sharing",
+    "Reduces creative AI learning curve",
+    "Enables content creation at scale"
+  ],
+  "limitations": [
+    "Dependent on third-party AI tool availability",
+    "Limited customization in pre-built agents",
+    "Costs can accumulate from multiple tool usage",
+    "Advanced workflows require understanding of AI tools",
+    "Quality depends on underlying AI models",
+    "May require manual refinement of outputs",
+    "Learning curve for custom agent building"
+  ],
+  "departments_using": [
+    "Content Creation",
+    "Video Production",
+    "Design",
+    "Marketing",
+    "Social Media Management"
+  ],
+  "typical_output_formats": [
+    "Images (PNG, JPG)",
+    "Videos (MP4)",
+    "Audio (MP3, WAV)",
+    "Multi-format content packages"
+  ],
+  "workflow_automation_patterns": [
+    "Sequential tool chaining (research → script → video → voiceover)",
+    "Parallel content generation (multiple variants simultaneously)",
+    "Iterative refinement (automatic prompt optimization)",
+    "Conditional workflows (if-then logic based on outputs)",
+    "Batch processing (multiple inputs at scale)"
+  ],
+  "key_concepts": [
+    "AI Agents - Pre-configured workflows that execute specific creative tasks",
+    "Workflow Orchestration - Automated sequencing of multiple AI tools",
+    "Prompt Engineering Automation - Agents handle optimal prompting",
+    "Tool Abstraction - Users don't need to learn each individual tool",
+    "Content Pipeline - End-to-end automation from concept to deliverable"
+  ],
+  "business_value": {
+    "efficiency_gains": "10x faster creative content production",
+    "cost_reduction": "Reduces need for multiple tool subscriptions and expert operators",
+    "scalability": "Enables small teams to produce enterprise-level content volume",
+    "consistency": "Automated workflows ensure brand and quality consistency",
+    "innovation": "Allows rapid testing of creative approaches and formats"
+  },
+  "tags": [
+    "ai",
+    "workflow-automation",
+    "ai-agents",
+    "creative-ai",
+    "content-generation",
+    "video-automation",
+    "image-generation",
+    "orchestration",
+    "no-code"
+  ]
+}

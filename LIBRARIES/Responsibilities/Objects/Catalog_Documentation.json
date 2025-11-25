@@ -1,0 +1,55 @@
+{
+  "entity_type": "LIBRARIES",
+  "sub_entity": "Objects",
+  "category": "Design",
+  "description": "Design catalog documentation and asset inventories",
+  "objects": [
+    {
+      "object_id": "OBJ-DESIGN-006",
+      "name": "Catalog Documentation",
+      "category": "Design / Documentation",
+      "description": "Comprehensive documentation of design assets, inventories, and catalogs with metadata",
+      "attributes": [
+        "catalog_name",
+        "item_count",
+        "structure",
+        "format",
+        "completeness_status",
+        "missing_items",
+        "duplicate_entries",
+        "last_audit_date"
+      ],
+      "common_actions": [
+        "Create",
+        "Review",
+        "Update",
+        "Audit",
+        "Fix",
+        "Export",
+        "Maintain"
+      ],
+      "storage_location": "Design_Documentation/ or Figma",
+      "related_entities": [
+        "LIBRARIES/LBS_003_LBS_003_Tools/Figma",
+        "LIBRARIES/LBS_003_LBS_003_Tools/Design_Systems",
+        "TASK_MANAGERS/DESIGN"
+      ],
+      "file_format": "Markdown, JSON, Excel, Figma",
+      "example": "Icon_Catalog_With_Missing_Duplicate_Tracking",
+      "tags": ["documentation", "catalog", "inventory", "design-assets"],
+      "typical_contents": [
+        "Icon inventory",
+        "Component library index",
+        "Brand asset catalog",
+        "Missing item tracking",
+        "Duplicate detection",
+        "Asset metadata"
+      ]
+    }
+  ],
+  "version": "1.0",
+  "created": "2025-11-18",
+  "last_updated": "2025-11-18",
+  "total_objects": 1,
+  "source": "Employee Daily Activity Analysis (Nov 17-18, 2025) - Kucherenko Iuliia"
+}

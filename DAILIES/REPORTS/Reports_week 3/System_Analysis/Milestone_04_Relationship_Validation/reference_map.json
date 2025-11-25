@@ -1,0 +1,295 @@
+{
+  "tasks_to_steps": [
+    {
+      "source": "TASK_MANAGERS\\Task_Templates\\TASK-TEMPLATE-ANALYSIS-002_Folder_Structure_Mapping.json",
+      "target_id": "STEP-ANALYSIS-002-01"
+    },
+    {
+      "source": "TASK_MANAGERS\\Task_Templates\\TASK-TEMPLATE-ANALYSIS-002_Folder_Structure_Mapping.json",
+      "target_id": "STEP-ANALYSIS-002-02"
+    },
+    {
+      "source": "TASK_MANAGERS\\Task_Templates\\TASK-TEMPLATE-ANALYSIS-002_Folder_Structure_Mapping.json",
+      "target_id": "STEP-ANALYSIS-002-03"
+    },
+    {
+      "source": "TASK_MANAGERS\\Task_Templates\\TASK-TEMPLATE-ANALYSIS-003_File_Size_Analysis.json",
+      "target_id": "STEP-ANALYSIS-003-01"
+    },
+    {
+      "source": "TASK_MANAGERS\\Task_Templates\\TASK-TEMPLATE-ANALYSIS-003_File_Size_Analysis.json",
+      "target_id": "STEP-ANALYSIS-003-02"
+    },
+    {
+      "source": "TASK_MANAGERS\\Task_Templates\\TASK-TEMPLATE-ANALYSIS-003_File_Size_Analysis.json",
+      "target_id": "STEP-ANALYSIS-003-03"
+    },
+    {
+      "source": "TASK_MANAGERS\\Task_Templates\\TASK-TEMPLATE-ANALYSIS-004_Naming_Convention_Audit.json",
+      "target_id": "STEP-ANALYSIS-004-01"
+    },
+    {
+      "source": "TASK_MANAGERS\\Task_Templates\\TASK-TEMPLATE-ANALYSIS-004_Naming_Convention_Audit.json",
+      "target_id": "STEP-ANALYSIS-004-02"
+    },
+    {
+      "source": "TASK_MANAGERS\\Task_Templates\\TASK-TEMPLATE-ANALYSIS-004_Naming_Convention_Audit.json",
+      "target_id": "STEP-ANALYSIS-004-03"
+    },
+    {
+      "source": "TASK_MANAGERS\\Task_Templates\\TASK-TEMPLATE-ANALYSIS-005_JSON_Schema_Validation.json",
+      "target_id": "STEP-ANALYSIS-005-01"
+    },
+    {
+      "source": "TASK_MANAGERS\\Task_Templates\\TASK-TEMPLATE-ANALYSIS-005_JSON_Schema_Validation.json",
+      "target_id": "STEP-ANALYSIS-005-02"
+    },
+    {
+      "source": "TASK_MANAGERS\\Task_Templates\\TASK-TEMPLATE-ANALYSIS-005_JSON_Schema_Validation.json",
+      "target_id": "STEP-ANALYSIS-005-03"
+    },
+    {
+      "source": "TASK_MANAGERS\\Task_Templates\\TASK-TEMPLATE-ANALYSIS-005_JSON_Schema_Validation.json",
+      "target_id": "STEP-ANALYSIS-005-04"
+    },
+    {
+      "source": "TASK_MANAGERS\\Task_Templates\\TASK-TEMPLATE-ANALYSIS-006_Version_Control_Consistency.json",
+      "target_id": "STEP-ANALYSIS-006-01"
+    },
+    {
+      "source": "TASK_MANAGERS\\Task_Templates\\TASK-TEMPLATE-ANALYSIS-006_Version_Control_Consistency.json",
+      "target_id": "STEP-ANALYSIS-006-02"
+    },
+    {
+      "source": "TASK_MANAGERS\\Task_Templates\\TASK-TEMPLATE-ANALYSIS-006_Version_Control_Consistency.json",
+      "target_id": "STEP-ANALYSIS-006-03"
+    },
+    {
+      "source": "TASK_MANAGERS\\Task_Templates\\TASK-TEMPLATE-ANALYSIS-007_Duplicate_Content_Detection.json",
+      "target_id": "STEP-ANALYSIS-007-01"
+    },
+    {
+      "source": "TASK_MANAGERS\\Task_Templates\\TASK-TEMPLATE-ANALYSIS-007_Duplicate_Content_Detection.json",
+      "target_id": "STEP-ANALYSIS-007-02"
+    },
+    {
+      "source": "TASK_MANAGERS\\Task_Templates\\TASK-TEMPLATE-ANALYSIS-007_Duplicate_Content_Detection.json",
+      "target_id": "STEP-ANALYSIS-007-03"
+    },
+    {
+      "source": "TASK_MANAGERS\\Task_Templates\\TASK-TEMPLATE-ANALYSIS-007_Duplicate_Content_Detection.json",
+      "target_id": "STEP-ANALYSIS-007-04"
+    },
+    {
+      "source": "TASK_MANAGERS\\Task_Templates\\TASK-TEMPLATE-ANALYSIS-008_Terminology_Extraction.json",
+      "target_id": "STEP-ANALYSIS-008-01"
+    },
+    {
+      "source": "TASK_MANAGERS\\Task_Templates\\TASK-TEMPLATE-ANALYSIS-008_Terminology_Extraction.json",
+      "target_id": "STEP-ANALYSIS-008-02"
+    },
+    {
+      "source": "TASK_MANAGERS\\Task_Templates\\TASK-TEMPLATE-ANALYSIS-008_Terminology_Extraction.json",
+      "target_id": "STEP-ANALYSIS-008-03"
+    },
+    {
+      "source": "TASK_MANAGERS\\Task_Templates\\TASK-TEMPLATE-ANALYSIS-008_Terminology_Extraction.json",
+      "target_id": "STEP-ANALYSIS-008-04"
+    },
+    {
+      "source": "TASK_MANAGERS\\Task_Templates\\TASK-TEMPLATE-ANALYSIS-008_Terminology_Extraction.json",
+      "target_id": "STEP-ANALYSIS-008-05"
+    },
+    {
+      "source": "TASK_MANAGERS\\Task_Templates\\TASK-TEMPLATE-ANALYSIS-009_Documentation_Completeness.json",
+      "target_id": "STEP-ANALYSIS-009-01"
+    },
+    {
+      "source": "TASK_MANAGERS\\Task_Templates\\TASK-TEMPLATE-ANALYSIS-009_Documentation_Completeness.json",
+      "target_id": "STEP-ANALYSIS-009-02"
+    },
+    {
+      "source": "TASK_MANAGERS\\Task_Templates\\TASK-TEMPLATE-ANALYSIS-009_Documentation_Completeness.json",
+      "target_id": "STEP-ANALYSIS-009-03"
+    },
+    {
+      "source": "TASK_MANAGERS\\Task_Templates\\TASK-TEMPLATE-ANALYSIS-010_Cross_Reference_Validation.json",
+      "target_id": "STEP-ANALYSIS-010-01"
+    },
+    {
+      "source": "TASK_MANAGERS\\Task_Templates\\TASK-TEMPLATE-ANALYSIS-010_Cross_Reference_Validation.json",
+      "target_id": "STEP-ANALYSIS-010-02"
+    },
+    {
+      "source": "TASK_MANAGERS\\Task_Templates\\TASK-TEMPLATE-ANALYSIS-010_Cross_Reference_Validation.json",
+      "target_id": "STEP-ANALYSIS-010-03"
+    },
+    {
+      "source": "TASK_MANAGERS\\Task_Templates\\TASK-TEMPLATE-ANALYSIS-010_Cross_Reference_Validation.json",
+      "target_id": "STEP-ANALYSIS-010-04"
+    },
+    {
+      "source": "TASK_MANAGERS\\Task_Templates\\TASK-TEMPLATE-ANALYSIS-011_Index_Accuracy_Check.json",
+      "target_id": "STEP-ANALYSIS-011-01"
+    },
+    {
+      "source": "TASK_MANAGERS\\Task_Templates\\TASK-TEMPLATE-ANALYSIS-011_Index_Accuracy_Check.json",
+      "target_id": "STEP-ANALYSIS-011-02"
+    },
+    {
+      "source": "TASK_MANAGERS\\Task_Templates\\TASK-TEMPLATE-ANALYSIS-011_Index_Accuracy_Check.json",
+      "target_id": "STEP-ANALYSIS-011-03"
+    },
+    {
+      "source": "TASK_MANAGERS\\Task_Templates\\TASK-TEMPLATE-ANALYSIS-011_Index_Accuracy_Check.json",
+      "target_id": "STEP-ANALYSIS-011-04"
+    },
+    {
+      "source": "TASK_MANAGERS\\Task_Templates\\TASK-TEMPLATE-ANALYSIS-012_Dependency_Flow_Mapping.json",
+      "target_id": "STEP-ANALYSIS-012-01"
+    },
+    {
+      "source": "TASK_MANAGERS\\Task_Templates\\TASK-TEMPLATE-ANALYSIS-012_Dependency_Flow_Mapping.json",
+      "target_id": "STEP-ANALYSIS-012-02"
+    },
+    {
+      "source": "TASK_MANAGERS\\Task_Templates\\TASK-TEMPLATE-ANALYSIS-012_Dependency_Flow_Mapping.json",
+      "target_id": "STEP-ANALYSIS-012-03"
+    },
+    {
+      "source": "TASK_MANAGERS\\Task_Templates\\TASK-TEMPLATE-ANALYSIS-013_Architecture_Documentation.json",
+      "target_id": "STEP-ANALYSIS-013-01"
+    },
+    {
+      "source": "TASK_MANAGERS\\Task_Templates\\TASK-TEMPLATE-ANALYSIS-013_Architecture_Documentation.json",
+      "target_id": "STEP-ANALYSIS-013-02"
+    },
+    {
+      "source": "TASK_MANAGERS\\Task_Templates\\TASK-TEMPLATE-ANALYSIS-013_Architecture_Documentation.json",
+      "target_id": "STEP-ANALYSIS-013-03"
+    },
+    {
+      "source": "TASK_MANAGERS\\Task_Templates\\TASK-TEMPLATE-ANALYSIS-013_Architecture_Documentation.json",
+      "target_id": "STEP-ANALYSIS-013-04"
+    },
+    {
+      "source": "TASK_MANAGERS\\Task_Templates\\TASK-TEMPLATE-ANALYSIS-014_Terminology_Consolidation.json",
+      "target_id": "STEP-ANALYSIS-014-01"
+    },
+    {
+      "source": "TASK_MANAGERS\\Task_Templates\\TASK-TEMPLATE-ANALYSIS-014_Terminology_Consolidation.json",
+      "target_id": "STEP-ANALYSIS-014-02"
+    },
+    {
+      "source": "TASK_MANAGERS\\Task_Templates\\TASK-TEMPLATE-ANALYSIS-014_Terminology_Consolidation.json",
+      "target_id": "STEP-ANALYSIS-014-03"
+    },
+    {
+      "source": "TASK_MANAGERS\\Task_Templates\\TASK-TEMPLATE-ANALYSIS-014_Terminology_Consolidation.json",
+      "target_id": "STEP-ANALYSIS-014-04"
+    },
+    {
+      "source": "TASK_MANAGERS\\Task_Templates\\TASK-TEMPLATE-ANALYSIS-015_Recommendations_Compilation.json",
+      "target_id": "STEP-ANALYSIS-015-01"
+    },
+    {
+      "source": "TASK_MANAGERS\\Task_Templates\\TASK-TEMPLATE-ANALYSIS-015_Recommendations_Compilation.json",
+      "target_id": "STEP-ANALYSIS-015-02"
+    },
+    {
+      "source": "TASK_MANAGERS\\Task_Templates\\TASK-TEMPLATE-ANALYSIS-015_Recommendations_Compilation.json",
+      "target_id": "STEP-ANALYSIS-015-03"
+    },
+    {
+      "source": "TASK_MANAGERS\\Task_Templates\\TASK-TEMPLATE-ANALYSIS-016_Project_Documentation_Creation.json",
+      "target_id": "STEP-ANALYSIS-016-01"
+    },
+    {
+      "source": "TASK_MANAGERS\\Task_Templates\\TASK-TEMPLATE-ANALYSIS-016_Project_Documentation_Creation.json",
+      "target_id": "STEP-ANALYSIS-016-02"
+    },
+    {
+      "source": "TASK_MANAGERS\\Task_Templates\\TASK-TEMPLATE-ANALYSIS-016_Project_Documentation_Creation.json",
+      "target_id": "STEP-ANALYSIS-016-03"
+    },
+    {
+      "source": "TASK_MANAGERS\\Task_Templates\\TEMPLATE-TASK-ANALYSIS-001_File_Count_Distribution.json",
+      "target_id": "STEP-ANALYSIS-001-01"
+    },
+    {
+      "source": "TASK_MANAGERS\\Task_Templates\\TEMPLATE-TASK-ANALYSIS-001_File_Count_Distribution.json",
+      "target_id": "STEP-ANALYSIS-001-02"
+    },
+    {
+      "source": "TASK_MANAGERS\\Task_Templates\\TEMPLATE-TASK-ANALYSIS-001_File_Count_Distribution.json",
+      "target_id": "STEP-ANALYSIS-001-03"
+    }
+  ],
+  "milestones_to_tasks": [
+    {
+      "source": "TASK_MANAGERS\\Milestone_Templates\\MT-Content_Analysis.json",
+      "target_id": "TASK-TEMPLATE-ANALYSIS-007"
+    },
+    {
+      "source": "TASK_MANAGERS\\Milestone_Templates\\MT-Content_Analysis.json",
+      "target_id": "TASK-TEMPLATE-ANALYSIS-008"
+    },
+    {
+      "source": "TASK_MANAGERS\\Milestone_Templates\\MT-Content_Analysis.json",
+      "target_id": "TASK-TEMPLATE-ANALYSIS-009"
+    },
+    {
+      "source": "TASK_MANAGERS\\Milestone_Templates\\MT-Data_Inventory.json",
+      "target_id": "TASK-TEMPLATE-ANALYSIS-001"
+    },
+    {
+      "source": "TASK_MANAGERS\\Milestone_Templates\\MT-Data_Inventory.json",
+      "target_id": "TASK-TEMPLATE-ANALYSIS-002"
+    },
+    {
+      "source": "TASK_MANAGERS\\Milestone_Templates\\MT-Data_Inventory.json",
+      "target_id": "TASK-TEMPLATE-ANALYSIS-003"
+    },
+    {
+      "source": "TASK_MANAGERS\\Milestone_Templates\\MT-Relationship_Validation.json",
+      "target_id": "TASK-TEMPLATE-ANALYSIS-010"
+    },
+    {
+      "source": "TASK_MANAGERS\\Milestone_Templates\\MT-Relationship_Validation.json",
+      "target_id": "TASK-TEMPLATE-ANALYSIS-011"
+    },
+    {
+      "source": "TASK_MANAGERS\\Milestone_Templates\\MT-Relationship_Validation.json",
+      "target_id": "TASK-TEMPLATE-ANALYSIS-012"
+    },
+    {
+      "source": "TASK_MANAGERS\\Milestone_Templates\\MT-Schema_Naming_Validation.json",
+      "target_id": "TASK-TEMPLATE-ANALYSIS-004"
+    },
+    {
+      "source": "TASK_MANAGERS\\Milestone_Templates\\MT-Schema_Naming_Validation.json",
+      "target_id": "TASK-TEMPLATE-ANALYSIS-005"
+    },
+    {
+      "source": "TASK_MANAGERS\\Milestone_Templates\\MT-Schema_Naming_Validation.json",
+      "target_id": "TASK-TEMPLATE-ANALYSIS-006"
+    },
+    {
+      "source": "TASK_MANAGERS\\Milestone_Templates\\MT-Synthesis_Recommendations.json",
+      "target_id": "TASK-TEMPLATE-ANALYSIS-013"
+    },
+    {
+      "source": "TASK_MANAGERS\\Milestone_Templates\\MT-Synthesis_Recommendations.json",
+      "target_id": "TASK-TEMPLATE-ANALYSIS-014"
+    },
+    {
+      "source": "TASK_MANAGERS\\Milestone_Templates\\MT-Synthesis_Recommendations.json",
+      "target_id": "TASK-TEMPLATE-ANALYSIS-015"
+    },
+    {
+      "source": "TASK_MANAGERS\\Milestone_Templates\\MT-Synthesis_Recommendations.json",
+      "target_id": "TASK-TEMPLATE-ANALYSIS-016"
+    }
+  ],
+  "projects_to_milestones": []
+}

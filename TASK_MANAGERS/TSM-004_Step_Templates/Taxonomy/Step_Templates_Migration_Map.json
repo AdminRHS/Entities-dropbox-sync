@@ -1,0 +1,45 @@
+{
+  "migration_metadata": {
+    "entity_type": "Step_Templates",
+    "iso_code": "STT",
+    "migration_date": "2025-11-19",
+    "total_entities": 252,
+    "migrated_from": "Step_Templates folder (JSON and MD files)",
+    "migrated_to": "ENTITIES/TASK_MANAGERS/Step_Templates/",
+    "migration_purpose": "Standardize step template documentation with ISO codes for taxonomy integration",
+    "naming_convention": "STT-XXX (3-digit sequential)",
+    "categorization_scheme": "Department-based organization",
+    "status_distribution": {
+      "Active": 252
+    },
+    "format_distribution": {
+      "JSON": 70,
+      "Markdown": 182
+    }
+  },
+  "department_summary": {
+    "DGN": 61,
+    "VID": 59,
+    "HRM": 42,
+    "DEV": 33,
+    "SLS": 27,
+    "LGN": 21,
+    "AID": 9
+  },
+  "checksums": {
+    "total_step_templates": 252,
+    "active_step_templates": 252,
+    "total_departments": 7,
+    "json_files": 70,
+    "markdown_files": 182
+  },
+  "backwards_compatibility": {
+    "legacy_id_format": "Step-Template-XXX_{Description}",
+    "new_id_format": "STT-XXX (Sequential)",
+    "migration_notes": "All legacy IDs preserved in Current_ID column for reference. File format (JSON/MD) maintained in original locations."
+  },
+  "file_format_notes": {
+    "json_range": "STT-001 to STT-070 - Complex steps with full metadata including execution details, tools, inputs/outputs, success criteria",
+    "markdown_range": "STT-071 to STT-252 - Simpler steps with basic structure using markdown format"
+  }
+}

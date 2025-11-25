@@ -1,0 +1,40 @@
+{
+  "Actions": "sanitize",
+  "Processes": "sanitizing",
+  "Results": "sanitized",
+  "Departments": "developers",
+  "Professions": "back end developer, ai engineer",
+  "category": "Data_Operations",
+  "source": "Video_006_Lead_Generation_Analysis",
+  "discovery_date": "2025-11-12",
+  "description": "Clean data by removing invalid, dangerous, or unwanted content to ensure quality and security",
+  "typical_use_cases": [
+    "Remove invalid email addresses",
+    "Clean HTML/script tags from text",
+    "Remove duplicate entries",
+    "Strip dangerous characters",
+    "Normalize data formats",
+    "Remove PII for compliance"
+  ],
+  "common_objects": [
+    "Lead List",
+    "Email Address",
+    "Business Listing",
+    "Contact data"
+  ],
+  "common_tools": [
+    "n8n",
+    "Custom scripts",
+    "Data validation tools"
+  ],
+  "related_actions": [
+    "validate",
+    "clean",
+    "deduplicate",
+    "normalize"
+  ],
+  "workflows": [
+    "Parse → Sanitize → Validate → Export",
+    "Import → Sanitize → Deduplicate → Feed"
+  ]
+}

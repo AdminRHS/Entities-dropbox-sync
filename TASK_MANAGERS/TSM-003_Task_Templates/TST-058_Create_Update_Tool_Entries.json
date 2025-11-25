@@ -1,0 +1,127 @@
+{
+  "entity_type": "TASK_MANAGERS",
+  "sub_entity": "Task_Template",
+  "template_id": "Task-Template-058",
+  "version": "2.0",
+  "created_date": "2025-01-27",
+  "last_updated": "2025-11-17",
+  "metadata": {
+    "name": "Create and Update Tool Entries in Libraries",
+    "description": "Create new tool JSON files or enrich existing tools in LIBRARIES/Tools/ based on validated tool list from video taxonomy extraction",
+    "action": "Create/Update",
+    "object": "Tool JSON Files",
+    "context": "in LIBRARIES/Tools based on gap analysis",
+    "department": "All departments (cross-functional)",
+    "complexity": "Medium",
+    "estimated_duration": "5-10 minutes per video",
+    "skill_level_required": "Intermediate",
+    "tools_required": [
+      "Text editor with JSON support",
+      "Access to ENTITIES/LIBRARIES/Tools/ directory",
+      "Tool JSON schema reference"
+    ],
+    "prerequisites": [
+      "Tool validation report from TASK-TEMPLATE-VIDEO-005",
+      "Tool data extracted from video transcription",
+      "Access to existing tool_mapping.json"
+    ]
+  },
+  "workflow": {
+    "phase": 3,
+    "milestone": "MIL-PROJ-VIDEO-001-003",
+    "project_template": "Project-Template-008",
+    "dependencies": [
+      "TASK-TEMPLATE-VIDEO-005"
+    ],
+    "outputs": [
+      "New tool JSON files created in LIBRARIES/Tools/",
+      "Existing tool entries enriched with new data",
+      "Tool IDs assigned to all new tools",
+      "Category assignments completed",
+      "JSON schema validation passed"
+    ]
+  },
+  "steps": [
+    {
+      "step_number": 1,
+      "step_name": "Review tool validation report",
+      "description": "Review tool validation report from TASK-TEMPLATE-VIDEO-005 to see which tools are new vs existing",
+      "estimated_time": "1 minute",
+      "tools": [],
+      "output": "Clear list of new tools to create and existing tools to enrich"
+    },
+    {
+      "step_number": 2,
+      "step_name": "Create new tool JSON files",
+      "description": "For each new tool, create JSON file following schema: tool_id, name, category, subcategories, description, key_features, use_cases, integrations, pricing, url, tasks, skills",
+      "estimated_time": "2-5 minutes per tool",
+      "tools": [
+        "Text editor"
+      ],
+      "output": "New tool JSON files created in appropriate category folders"
+    },
+    {
+      "step_number": 3,
+      "step_name": "Enrich existing tool entries",
+      "description": "For existing tools, add new use_cases, integrations, tasks, and skills discovered from video",
+      "estimated_time": "1-2 minutes per tool",
+      "tools": [
+        "Text editor"
+      ],
+      "output": "Existing tool JSON files enriched with new data"
+    },
+    {
+      "step_number": 4,
+      "step_name": "Validate JSON schema",
+      "description": "Validate all created/updated JSON files against LIBRARIES schema, check for proper formatting",
+      "estimated_time": "1 minute",
+      "tools": [
+        "JSON validator"
+      ],
+      "output": "All JSON files validated and properly formatted"
+    }
+  ],
+  "quality_checklist": [
+    "All new tools have JSON files created",
+    "All existing tools enriched with new data",
+    "JSON schema validation passed for all files",
+    "Tool IDs assigned (TOOL_XXX format)",
+    "Primary and secondary categories assigned",
+    "key_features array populated (minimum 3 items)",
+    "use_cases array populated (minimum 2 items)",
+    "integrations array includes tools from our stack",
+    "pricing field accurate (Free/Paid/Freemium)",
+    "url field contains valid tool website",
+    "tasks array references Task Template IDs",
+    "skills array contains skill phrases with tools",
+    "Files saved to correct category subdirectory in LIBRARIES/Tools/"
+  ],
+  "related_entities": {
+    "methodology": "ENTITIES/PROMPTS/Video_Processing/Complete_Video_Workflow_Full_Instructions.md",
+    "short_guide": "ENTITIES/PROMPTS/Video_Processing/Short Complete Video Workflow.md",
+    "output_location": "ENTITIES/LIBRARIES/Tools/",
+    "tool_mapping": "ENTITIES/LIBRARIES/tool_mapping.json",
+    "project_template": "Project-Template-008",
+    "milestone": "MIL-PROJ-VIDEO-001-003",
+    "previous_task": "TASK-TEMPLATE-VIDEO-005",
+    "next_task": "TASK-TEMPLATE-VIDEO-006",
+    "step_templates": [
+      "STEP-VIDEO-301-01",
+      "STEP-VIDEO-301-02",
+      "STEP-VIDEO-301-03",
+      "STEP-VIDEO-301-04"
+    ]
+  },
+  "version_history": [
+    {
+      "version": "1.0",
+      "date": "2025-01-27",
+      "changes": "Initial template creation"
+    },
+    {
+      "version": "2.0",
+      "date": "2025-11-17",
+      "changes": "Updated for Project-Template-008 integration, simplified for Stage 3 population, changed from RESEARCH to cross-functional, reduced complexity and duration (5-10 min), focused on tool JSON creation/enrichment only"
+    }
+  ]
+}

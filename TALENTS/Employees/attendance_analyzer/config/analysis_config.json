@@ -1,0 +1,39 @@
+{
+  "data_source": {
+    "json_file": "../Voice Log Discord/crm_export_2025-11-18.json",
+    "encoding": "utf-8"
+  },
+  "working_hours": {
+    "standard_work_day_hours": 8,
+    "standard_start_time": "09:00",
+    "standard_end_time": "18:00",
+    "lunch_break_minutes": 60
+  },
+  "anomaly_thresholds": {
+    "min_work_hours": 4,
+    "max_work_hours": 12,
+    "very_short_day_hours": 2,
+    "overtime_threshold_hours": 10,
+    "early_arrival_time": "07:00",
+    "late_arrival_time": "10:00",
+    "early_departure_time": "15:00",
+    "late_departure_time": "20:00"
+  },
+  "analysis_settings": {
+    "exclude_no_records": false,
+    "calculate_breaks": true,
+    "assumed_break_minutes": 30,
+    "timezone": "UTC"
+  },
+  "output_paths": {
+    "reports_dir": "../output/reports",
+    "charts_dir": "../output/charts",
+    "summaries_dir": "../output/summaries"
+  },
+  "visualization_settings": {
+    "figure_size": [14, 10],
+    "dpi": 300,
+    "style": "seaborn-v0_8-darkgrid",
+    "color_palette": "Set2"
+  }
+}

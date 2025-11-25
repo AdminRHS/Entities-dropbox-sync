@@ -1,0 +1,35 @@
+{
+  "entity_type": "TASK_MANAGERS",
+  "sub_entity": "Step_Template",
+  "step_id": "VIDEO-VIDEO-003-05",
+  "step_number": 5,
+  "parent_task": "TASK-TEMPLATE-VIDEO-003",
+  "task_name": "Create Brand Logo Animation",
+  "name": "Write animation prompt with camera movements",
+  "action": "write",
+  "tool": "Text prompt",
+  "responsibility": "Brand Manager",
+  "placement": "OpenArt - Prompt field",
+  "duration": "2-3 minutes",
+  "dependencies": [
+    4
+  ],
+  "inputs": [
+    "Desired animation style",
+    "Camera movements",
+    "Effects"
+  ],
+  "outputs": [
+    "Animation prompt describing movement and style"
+  ],
+  "success_criteria": "Clear prompt specifying logo animation, camera work, and atmosphere",
+  "implementation_notes": "Clear prompt specifying logo animation, camera work, and atmosphere - Implementation details based on the Create Brand Logo Animation workflow.",
+  "tags": [
+    "write",
+    "template-task-video-003"
+  ],
+  "version": "1.0",
+  "created": "2025-11-15",
+  "last_updated": "2025-11-15",
+  "source": "Video_012"
+}

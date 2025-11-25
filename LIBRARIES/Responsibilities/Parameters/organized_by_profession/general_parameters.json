@@ -1,0 +1,217 @@
+{
+  "metadata": {
+    "description": "General parameters without specific profession assignment - common parameters across multiple professions",
+    "total_entries": 245,
+    "created_date": "2025-01-19T00:00:00.000Z",
+    "data_source": "parameters.json",
+    "note": "These parameters appear across multiple professions or have general applicability"
+  },
+  "summary": {
+    "common_parameter_categories": [
+      "performance_metrics",
+      "data_management",
+      "communication_quality",
+      "time_tracking",
+      "quality_assessment",
+      "analytics_general"
+    ],
+    "frequently_used_parameters": [
+      "accuracy",
+      "effectiveness",
+      "efficiency", 
+      "engagement",
+      "frequency",
+      "growth rate",
+      "performance",
+      "quality",
+      "response rate",
+      "success rate",
+      "timeliness",
+      "user engagement"
+    ]
+  },
+  "parameters_by_category": {
+    "performance_metrics": [
+      "accuracy",
+      "effectiveness",
+      "efficiency",
+      "performance",
+      "productivity",
+      "quality",
+      "success rate"
+    ],
+    "data_management": [
+      "data accuracy",
+      "data completeness",
+      "data coverage",
+      "data integrity",
+      "update frequency",
+      "access speed"
+    ],
+    "communication_quality": [
+      "clarity",
+      "response rate",
+      "timeliness",
+      "engagement level",
+      "interaction quality"
+    ],
+    "time_tracking": [
+      "duration",
+      "frequency",
+      "response time",
+      "processing time",
+      "completion time"
+    ],
+    "quality_assessment": [
+      "user satisfaction",
+      "feedback quality",
+      "service quality",
+      "content quality",
+      "experience quality"
+    ],
+    "analytics_general": [
+      "growth rate",
+      "trend analysis",
+      "performance metrics",
+      "strategic adjustments",
+      "actionable insights"
+    ]
+  },
+  "common_types": [
+    "daily",
+    "monthly",
+    "by countries",
+    "by industries", 
+    "by manager",
+    "by event",
+    "operational",
+    "analytical",
+    "sector",
+    "industry",
+    "market",
+    "google",
+    "linkedin"
+  ],
+  "entries": [
+    {
+      "Types": "daily",
+      "Parameters": "data accuracy"
+    },
+    {
+      "Types": "daily",
+      "Parameters": "timeliness"
+    },
+    {
+      "Types": "daily",
+      "Parameters": "actionable insights"
+    },
+    {
+      "Types": "monthly",
+      "Parameters": "trend analysis"
+    },
+    {
+      "Types": "monthly",
+      "Parameters": "performance metrics"
+    },
+    {
+      "Types": "monthly",
+      "Parameters": "strategic adjustments"
+    },
+    {
+      "Types": "by countries",
+      "Parameters": "regional performance"
+    },
+    {
+      "Types": "by countries",
+      "Parameters": "market trends"
+    },
+    {
+      "Types": "by countries",
+      "Parameters": "growth opportunities"
+    },
+    {
+      "Types": "by industries",
+      "Parameters": "industry benchmarks"
+    },
+    {
+      "Types": "by industries",
+      "Parameters": "competitive analysis"
+    },
+    {
+      "Types": "by industries", 
+      "Parameters": "market positioning"
+    },
+    {
+      "Types": "by manager",
+      "Parameters": "managerial effectiveness"
+    },
+    {
+      "Types": "by manager",
+      "Parameters": "team performance"
+    },
+    {
+      "Types": "by manager",
+      "Parameters": "operational insights"
+    },
+    {
+      "Types": "by event",
+      "Parameters": "event outcomes"
+    },
+    {
+      "Types": "by event",
+      "Parameters": "ROI measurement"
+    },
+    {
+      "Types": "by event",
+      "Parameters": "future recommendations"
+    },
+    {
+      "Types": "operational",
+      "Parameters": "data integrity"
+    },
+    {
+      "Types": "operational",
+      "Parameters": "access speed"
+    },
+    {
+      "Types": "operational",
+      "Parameters": "update frequency"
+    },
+    {
+      "Types": "analytical",
+      "Parameters": "query performance"
+    },
+    {
+      "Types": "analytical",
+      "Parameters": "insight generation rate"
+    },
+    {
+      "Types": "analytical",
+      "Parameters": "data coverage"
+    },
+    {
+      "Types": "sector",
+      "Parameters": "growth rate"
+    },
+    {
+      "Types": "sector",
+      "Parameters": "market share"
+    },
+    {
+      "Types": "sector",
+      "Parameters": "regulatory impact"
+    },
+    {
+      "Types": "industry",
+      "Parameters": "innovation rate"
+    },
+    {
+      "Types": "industry",
+      "Parameters": "competitor density"
+    },
+    {
+      "Types": "industry",
+      "Parameters": "profit margins"
+    }
+  ]
+}

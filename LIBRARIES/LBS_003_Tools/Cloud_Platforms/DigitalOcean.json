@@ -1,0 +1,83 @@
+{
+  "entity_type": "LIBRARIES",
+  "sub_entity": "Tool",
+  "tool_id": "TOOL-CLOUD-002",
+  "name": "DigitalOcean",
+  "vendor": "DigitalOcean",
+  "category": "Cloud/Infrastructure as a Service",
+  "purpose": "Virtual machine hosting with full infrastructure control",
+  "description": "Cloud infrastructure provider for managing your own virtual machines. Predictable pricing, AI-focused features like app platform for managed DBs, local LLM hosting, and built-in RAG capabilities. Perfect for self-hosting local AI packages and full control deployment.",
+  "skill_level_required": "Intermediate to Advanced",
+  "cost_structure": "Pay-as-you-go (predictable pricing)",
+  "platform_compatibility": [
+    "Linux",
+    "Docker",
+    "Kubernetes"
+  ],
+  "integration_capabilities": [
+    "App Platform",
+    "Managed databases",
+    "Kubernetes",
+    "Load balancers",
+    "Block storage",
+    "Spaces (S3-compatible)",
+    "Local LLM hosting",
+    "RAG platform"
+  ],
+  "documentation_url": "https://www.digitalocean.com/",
+  "actual_remote_helpers_usage": {
+    "primary_use": "VM Hosting & Self-Hosting",
+    "users": [],
+    "use_cases": [
+      "host virtual machines",
+      "self-host applications",
+      "run local ai",
+      "managed databases",
+      "full infrastructure control"
+    ],
+    "workflows": [
+      "WF-AI-001: Develop and Deploy AI Application"
+    ]
+  },
+  "strengths": [
+    "Predictable pricing",
+    "AI-focused features",
+    "App platform for RAG",
+    "Local LLM support",
+    "Full control",
+    "Reliable"
+  ],
+  "limitations": [
+    "Premium pricing vs alternatives",
+    "Requires infrastructure knowledge",
+    "More management overhead"
+  ],
+  "alternatives": [
+    {
+      "name": "Hetzner",
+      "comparison": "More affordable, similar features"
+    },
+    {
+      "name": "Hostinger",
+      "comparison": "Budget alternative with KVM"
+    }
+  ],
+  "departments_using": [],
+  "tags": [
+    "cloud",
+    "vps",
+    "infrastructure",
+    "vm",
+    "self-hosting",
+    "ai-hosting"
+  ],
+  "discovery_date": "2025-11-13",
+  "discovery_source": "Video_005",
+  "status": "active",
+  "video_source": {
+    "video_id": "Video_005",
+    "video_title": "My Agentic Engineering Tech Stack",
+    "creator": "Cole",
+    "timestamp": "28:46-29:26"
+  }
+}

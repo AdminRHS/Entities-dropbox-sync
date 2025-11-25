@@ -1,0 +1,370 @@
+{
+  "listing_metadata": {
+    "department": "HR",
+    "created_date": "2025-11-10",
+    "total_items": 36,
+    "listing_type": "steps"
+  },
+  "steps": [
+    {
+      "id": "STEP-TASK-HR-001-01",
+      "parent_task_id": "STEP-TASK-HR-001",
+      "step_number": 1,
+      "action": "Send",
+      "tool": "Email + HR system",
+      "description": "Send welcome email and gather required information",
+      "location": "Step_Templates/TASK/STEP-TASK-HR-001-01.md",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "STEP-TASK-HR-001-02",
+      "parent_task_id": "STEP-TASK-HR-001",
+      "step_number": 2,
+      "action": "Create",
+      "tool": "Account provisioning scripts",
+      "description": "Create accounts (email, GitHub, project management tools)",
+      "location": "Step_Templates/TASK/STEP-TASK-HR-001-02.md",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "STEP-TASK-HR-001-03",
+      "parent_task_id": "STEP-TASK-HR-001",
+      "step_number": 3,
+      "action": "Assign",
+      "tool": "IT asset management",
+      "description": "Assign equipment and software licenses",
+      "location": "Step_Templates/TASK/STEP-TASK-HR-001-03.md",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "STEP-TASK-HR-001-04",
+      "parent_task_id": "STEP-TASK-HR-001",
+      "step_number": 4,
+      "action": "Schedule",
+      "tool": "Calendar + Meeting scheduler",
+      "description": "Schedule orientation sessions with team leads",
+      "location": "Step_Templates/TASK/STEP-TASK-HR-001-04.md",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "STEP-TASK-HR-001-05",
+      "parent_task_id": "STEP-TASK-HR-001",
+      "step_number": 5,
+      "action": "Provide",
+      "tool": "Knowledge base",
+      "description": "Provide onboarding documentation (company guide, code standards)",
+      "location": "Step_Templates/TASK/STEP-TASK-HR-001-05.md",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "STEP-TASK-HR-001-06",
+      "parent_task_id": "STEP-TASK-HR-001",
+      "step_number": 6,
+      "action": "Assign",
+      "tool": "Project management tool",
+      "description": "Assign first project or learning tasks",
+      "location": "Step_Templates/TASK/STEP-TASK-HR-001-06.md",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "STEP-TASK-HR-001-07",
+      "parent_task_id": "STEP-TASK-HR-001",
+      "step_number": 7,
+      "action": "Schedule",
+      "tool": "Calendar",
+      "description": "Schedule 30-day check-in",
+      "location": "Step_Templates/TASK/STEP-TASK-HR-001-07.md",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "STEP-TASK-HR-002-01",
+      "parent_task_id": "STEP-TASK-HR-002",
+      "step_number": 1,
+      "action": "Outline",
+      "tool": "Documentation planning",
+      "description": "Outline guide structure (welcome, accounts, tools, processes)",
+      "location": "Step_Templates/TASK/STEP-TASK-HR-002-01.md",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "STEP-TASK-HR-002-02",
+      "parent_task_id": "STEP-TASK-HR-002",
+      "step_number": 2,
+      "action": "Document",
+      "tool": "Technical writing + Screenshots",
+      "description": "Document account creation steps (email, GitHub, tools)",
+      "location": "Step_Templates/TASK/STEP-TASK-HR-002-02.md",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "STEP-TASK-HR-002-03",
+      "parent_task_id": "STEP-TASK-HR-002",
+      "step_number": 3,
+      "action": "Document",
+      "tool": "Technical writing + Code examples",
+      "description": "Document development environment setup",
+      "location": "Step_Templates/TASK/STEP-TASK-HR-002-03.md",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "STEP-TASK-HR-002-04",
+      "parent_task_id": "STEP-TASK-HR-002",
+      "step_number": 4,
+      "action": "Create",
+      "tool": "Documentation",
+      "description": "Create code standards and best practices section",
+      "location": "Step_Templates/TASK/STEP-TASK-HR-002-04.md",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "STEP-TASK-HR-002-05",
+      "parent_task_id": "STEP-TASK-HR-002",
+      "step_number": 5,
+      "action": "Add",
+      "tool": "Documentation",
+      "description": "Add team structure and contact information",
+      "location": "Step_Templates/TASK/STEP-TASK-HR-002-05.md",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "STEP-TASK-HR-002-06",
+      "parent_task_id": "STEP-TASK-HR-002",
+      "step_number": 6,
+      "action": "Review",
+      "tool": "Review process",
+      "description": "Review with senior developers and refine",
+      "location": "Step_Templates/TASK/STEP-TASK-HR-002-06.md",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "STEP-TASK-HR-002-07",
+      "parent_task_id": "STEP-TASK-HR-002",
+      "step_number": 7,
+      "action": "Publish",
+      "tool": "Knowledge management system",
+      "description": "Publish to knowledge base",
+      "location": "Step_Templates/TASK/STEP-TASK-HR-002-07.md",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "STEP-TASK-HR-003-01",
+      "parent_task_id": "STEP-TASK-HR-003",
+      "step_number": 1,
+      "action": "Identify",
+      "tool": "Process analysis",
+      "description": "Identify HR processes suitable for automation (account creation, status updates)",
+      "location": "Step_Templates/TASK/STEP-TASK-HR-003-01.md",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "STEP-TASK-HR-003-02",
+      "parent_task_id": "STEP-TASK-HR-003",
+      "step_number": 2,
+      "action": "Design",
+      "tool": "API design",
+      "description": "Design function calling schema",
+      "location": "Step_Templates/TASK/STEP-TASK-HR-003-02.md",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "STEP-TASK-HR-003-03",
+      "parent_task_id": "STEP-TASK-HR-003",
+      "step_number": 3,
+      "action": "Implement",
+      "tool": "Python + AI API",
+      "description": "Implement function calling integration",
+      "location": "Step_Templates/TASK/STEP-TASK-HR-003-03.md",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "STEP-TASK-HR-003-04",
+      "parent_task_id": "STEP-TASK-HR-003",
+      "step_number": 4,
+      "action": "Create",
+      "tool": "Web interface or CLI",
+      "description": "Create HR tool interface",
+      "location": "Step_Templates/TASK/STEP-TASK-HR-003-04.md",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "STEP-TASK-HR-003-05",
+      "parent_task_id": "STEP-TASK-HR-003",
+      "step_number": 5,
+      "action": "Test",
+      "tool": "Testing framework",
+      "description": "Test automation with sample scenarios",
+      "location": "Step_Templates/TASK/STEP-TASK-HR-003-05.md",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "STEP-TASK-HR-003-06",
+      "parent_task_id": "STEP-TASK-HR-003",
+      "step_number": 6,
+      "action": "Document",
+      "tool": "Documentation",
+      "description": "Document usage and troubleshooting",
+      "location": "Step_Templates/TASK/STEP-TASK-HR-003-06.md",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "STEP-TASK-HR-004-01",
+      "parent_task_id": "STEP-TASK-HR-004",
+      "step_number": 1,
+      "action": "Run",
+      "tool": "Automation script",
+      "description": "Run employee folder creation script",
+      "location": "Step_Templates/TASK/STEP-TASK-HR-004-01.md",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "STEP-TASK-HR-004-02",
+      "parent_task_id": "STEP-TASK-HR-004",
+      "step_number": 2,
+      "action": "Verify",
+      "tool": "File system",
+      "description": "Verify 10-folder structure created correctly",
+      "location": "Step_Templates/TASK/STEP-TASK-HR-004-02.md",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "STEP-TASK-HR-004-03",
+      "parent_task_id": "STEP-TASK-HR-004",
+      "step_number": 3,
+      "action": "Set",
+      "tool": "File system",
+      "description": "Set folder permissions",
+      "location": "Step_Templates/TASK/STEP-TASK-HR-004-03.md",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "STEP-TASK-HR-004-04",
+      "parent_task_id": "STEP-TASK-HR-004",
+      "step_number": 4,
+      "action": "Populate",
+      "tool": "File copy automation",
+      "description": "Populate folders with templates",
+      "location": "Step_Templates/TASK/STEP-TASK-HR-004-04.md",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "STEP-TASK-HR-004-05",
+      "parent_task_id": "STEP-TASK-HR-004",
+      "step_number": 5,
+      "action": "Notify",
+      "tool": "Email",
+      "description": "Notify employee of folder location",
+      "location": "Step_Templates/TASK/STEP-TASK-HR-004-05.md",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "STEP-TASK-HR-005-01",
+      "parent_task_id": "STEP-TASK-HR-005",
+      "step_number": 1,
+      "action": "Review",
+      "tool": "Document Review + Spreadsheet",
+      "description": "Review employee status lists in all documentation",
+      "location": "Step_Templates/TASK/STEP-TASK-HR-005-01.md",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "STEP-TASK-HR-005-02",
+      "parent_task_id": "STEP-TASK-HR-005",
+      "step_number": 2,
+      "action": "Identify",
+      "tool": "Data Comparison",
+      "description": "Identify status discrepancies (available vs. on projects)",
+      "location": "Step_Templates/TASK/STEP-TASK-HR-005-02.md",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "STEP-TASK-HR-005-03",
+      "parent_task_id": "STEP-TASK-HR-005",
+      "step_number": 3,
+      "action": "Document",
+      "tool": "Issue Logging",
+      "description": "Document examples of incorrect status",
+      "location": "Step_Templates/TASK/STEP-TASK-HR-005-03.md",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "STEP-TASK-HR-005-04",
+      "parent_task_id": "STEP-TASK-HR-005",
+      "step_number": 4,
+      "action": "Coordinate",
+      "tool": "HR Communication",
+      "description": "Coordinate with HR on accurate status tracking",
+      "location": "Step_Templates/TASK/STEP-TASK-HR-005-04.md",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "STEP-TASK-HR-005-05",
+      "parent_task_id": "STEP-TASK-HR-005",
+      "step_number": 5,
+      "action": "Update",
+      "tool": "Data Update",
+      "description": "Update status records across all systems",
+      "location": "Step_Templates/TASK/STEP-TASK-HR-005-05.md",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "STEP-TASK-HR-005-06",
+      "parent_task_id": "STEP-TASK-HR-005",
+      "step_number": 6,
+      "action": "Establish",
+      "tool": "Process Documentation",
+      "description": "Establish ongoing status accuracy process",
+      "location": "Step_Templates/TASK/STEP-TASK-HR-005-06.md",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "STEP-TASK-HR-006-01",
+      "parent_task_id": "STEP-TASK-HR-006",
+      "step_number": 1,
+      "action": "Define",
+      "tool": "Role Definition Framework + AI Tooling Backlog",
+      "description": "Define Prompt Engineer role requirements and responsibilities",
+      "location": "Step_Templates/TASK/STEP-TASK-HR-006-01.md",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "STEP-TASK-HR-006-02",
+      "parent_task_id": "STEP-TASK-HR-006",
+      "step_number": 2,
+      "action": "Create",
+      "tool": "Job Description Template",
+      "description": "Create job description aligned with AI tooling backlog",
+      "location": "Step_Templates/TASK/STEP-TASK-HR-006-02.md",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "STEP-TASK-HR-006-03",
+      "parent_task_id": "STEP-TASK-HR-006",
+      "step_number": 3,
+      "action": "Publish",
+      "tool": "Recruitment Platform + Social Media",
+      "description": "Publish to recruitment platforms (LinkedIn, job boards, etc.)",
+      "location": "Step_Templates/TASK/STEP-TASK-HR-006-03.md",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "STEP-TASK-HR-006-04",
+      "parent_task_id": "STEP-TASK-HR-006",
+      "step_number": 4,
+      "action": "Set",
+      "tool": "ATS (Applicant Tracking System)",
+      "description": "Set up application tracking and screening criteria",
+      "location": "Step_Templates/TASK/STEP-TASK-HR-006-04.md",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "STEP-TASK-HR-006-05",
+      "parent_task_id": "STEP-TASK-HR-006",
+      "step_number": 5,
+      "action": "Coordinate",
+      "tool": "Interview Planning + Scheduling",
+      "description": "Coordinate with AI team for technical interview process",
+      "location": "Step_Templates/TASK/STEP-TASK-HR-006-05.md",
+      "created_date": "2025-11-10"
+    }
+  ]
+}

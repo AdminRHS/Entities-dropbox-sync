@@ -1,0 +1,157 @@
+﻿[
+    {
+        "skill_id":  "SKL-040",
+        "skill_phrase":  "conducted discovery calls via Zoom",
+        "components":  {
+                           "result":  "conducted",
+                           "action":  "conduct",
+                           "object":  "discovery calls",
+                           "object_type":  "first call, introductory call",
+                           "tool":  "Zoom",
+                           "tool_category":  "Video Call"
+                       },
+        "department":  "Sales",
+        "professions":  [
+                            "sales manager"
+                        ],
+        "difficulty_level":  "intermediate",
+        "frequency":  "daily",
+        "time_estimate_minutes":  45,
+        "automation_potential":  "low",
+        "related_skills":  [
+                               "SKL-041",
+                               "SKL-042"
+                           ],
+        "example_tasks":  [
+                              "Conduct BANT qualification call with prospective client",
+                              "Present Remote Helpers services to CTO"
+                          ],
+        "training_resources":  [
+
+                               ]
+    },
+    {
+        "skill_id":  "SKL-041",
+        "skill_phrase":  "created proposals in Google Docs",
+        "components":  {
+                           "result":  "created",
+                           "action":  "create",
+                           "object":  "proposals",
+                           "object_type":  "client proposal, project proposal",
+                           "tool":  "Google Docs",
+                           "tool_category":  "Document"
+                       },
+        "department":  "Sales",
+        "professions":  [
+                            "sales manager"
+                        ],
+        "difficulty_level":  "intermediate",
+        "frequency":  "weekly",
+        "time_estimate_minutes":  90,
+        "automation_potential":  "medium",
+        "related_skills":  [
+                               "SKL-040",
+                               "SKL-043"
+                           ],
+        "example_tasks":  [
+                              "Create custom proposal for 2 frontend developers outstaff",
+                              "Draft project scope and pricing for CRM development"
+                          ],
+        "training_resources":  [
+
+                               ]
+    },
+    {
+        "skill_id":  "SKL-042",
+        "skill_phrase":  "tracked deals in CRM",
+        "components":  {
+                           "result":  "tracked",
+                           "action":  "track",
+                           "object":  "deals",
+                           "object_type":  "hot leads, interested leads, clients",
+                           "tool":  "CRM",
+                           "tool_category":  "Database"
+                       },
+        "department":  "Sales",
+        "professions":  [
+                            "sales manager"
+                        ],
+        "difficulty_level":  "beginner",
+        "frequency":  "daily",
+        "time_estimate_minutes":  15,
+        "automation_potential":  "high",
+        "related_skills":  [
+                               "SKL-040",
+                               "SKL-041"
+                           ],
+        "example_tasks":  [
+                              "Update deal stage from \u0027Proposal Sent\u0027 to \u0027Negotiation\u0027",
+                              "Log client communication and next steps in CRM"
+                          ],
+        "training_resources":  [
+
+                               ]
+    },
+    {
+        "skill_id":  "SKL-043",
+        "skill_phrase":  "sent contracts via DocuSign",
+        "components":  {
+                           "result":  "sent",
+                           "action":  "send",
+                           "object":  "contracts",
+                           "object_type":  "clients agreements, full-time agreement",
+                           "tool":  "DocuSign",
+                           "tool_category":  "Document"
+                       },
+        "department":  "Sales",
+        "professions":  [
+                            "sales manager"
+                        ],
+        "difficulty_level":  "beginner",
+        "frequency":  "weekly",
+        "time_estimate_minutes":  20,
+        "automation_potential":  "medium",
+        "related_skills":  [
+                               "SKL-041",
+                               "SKL-044"
+                           ],
+        "example_tasks":  [
+                              "Send service agreement to client for e-signature",
+                              "Follow up on pending contract signature"
+                          ],
+        "training_resources":  [
+
+                               ]
+    },
+    {
+        "skill_id":  "SKL-044",
+        "skill_phrase":  "analyzed sales data in Google Sheets",
+        "components":  {
+                           "result":  "analyzed",
+                           "action":  "analyze",
+                           "object":  "sales data",
+                           "object_type":  "daily report, monthly report",
+                           "tool":  "Google Sheets",
+                           "tool_category":  "Spreadsheet"
+                       },
+        "department":  "Sales",
+        "professions":  [
+                            "sales manager"
+                        ],
+        "difficulty_level":  "intermediate",
+        "frequency":  "weekly",
+        "time_estimate_minutes":  60,
+        "automation_potential":  "medium",
+        "related_skills":  [
+                               "SKL-042",
+                               "SKL-045"
+                           ],
+        "example_tasks":  [
+                              "Analyze monthly pipeline: conversion rates, average deal size",
+                              "Create sales forecast for next quarter"
+                          ],
+        "training_resources":  [
+
+                               ]
+    }
+]

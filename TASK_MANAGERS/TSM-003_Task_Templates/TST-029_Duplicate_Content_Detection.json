@@ -1,0 +1,27 @@
+{
+  "task_template_id": "Task-Template-029",
+  "task_template_name": "Duplicate Content Detection",
+  "category": "Analysis",
+  "department": "AI",
+  "description": "Detect duplicate content between JSON and Markdown files",
+  "estimated_hours": 1.5,
+  "step_templates": [
+    {
+      "step_template_id": "STEP-ANALYSIS-007-01",
+      "step_template_name": "Hash all file contents"
+    },
+    {
+      "step_template_id": "STEP-ANALYSIS-007-02",
+      "step_template_name": "Compare JSON vs Markdown"
+    },
+    {
+      "step_template_id": "STEP-ANALYSIS-007-03",
+      "step_template_name": "Identify partial duplicates"
+    },
+    {
+      "step_template_id": "STEP-ANALYSIS-007-04",
+      "step_template_name": "Generate duplicate report"
+    }
+  ],
+  "version": "1.0"
+}

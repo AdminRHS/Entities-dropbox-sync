@@ -1,0 +1,29 @@
+{
+  "entity_type": "TASK_MANAGERS",
+  "sub_entity": "Step_Template",
+  "step_id": "VIDEO-VIDEO-001-06",
+  "step_number": 6,
+  "parent_task": "TASK-TEMPLATE-VIDEO-001",
+  "task_name": "Create Multi-Scene Product Commercial",
+  "name": "Write Scene 1 prompt with camera movements",
+  "action": "write",
+  "tool": "Text prompt",
+  "responsibility": "Product Marketer",
+  "placement": "OpenArt - Prompt field",
+  "duration": "5 minutes",
+  "dependencies": [5],
+  "inputs": [
+    "Product details",
+    "Desired camera movements"
+  ],
+  "outputs": [
+    "Time-based camera prompt (e.g., 'At 2s: camera begins slow dolly-in, At 3s: 180° orbit around product, Finally: zoom out to reveal studio environment')"
+  ],
+  "success_criteria": "Prompt specifies time-based camera movements and environment",
+  "implementation_notes": "Write a detailed prompt that specifies camera movements at specific time markers. Example: 'At 2s: camera begins slow dolly-in, At 3s: 180° orbit around product, Finally: zoom out to reveal studio environment.'",
+  "tags": ["prompt-engineering", "camera-movements", "cinematography"],
+  "version": "1.0",
+  "created": "2025-11-15",
+  "last_updated": "2025-11-15",
+  "source": "Video_012"
+}

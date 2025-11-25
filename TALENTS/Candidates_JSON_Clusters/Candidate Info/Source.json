@@ -1,0 +1,28 @@
+{
+  "template_name": "Source",
+  "description": "Source information indicating where the candidate was found or applied from",
+  "fields": {
+    "source_id": {
+      "type": "str",
+      "description": "Field: source_id",
+      "example": "7"
+    },
+    "source": {
+      "type": "object",
+      "fields": {
+        "source.id": {
+          "type": "int",
+          "description": "Field: id",
+          "example": 7
+        },
+        "source.name": {
+          "type": "str",
+          "description": "Field: name",
+          "example": "Work.ua"
+        }
+      },
+      "description": "Nested object: source"
+    }
+  }
+}
+

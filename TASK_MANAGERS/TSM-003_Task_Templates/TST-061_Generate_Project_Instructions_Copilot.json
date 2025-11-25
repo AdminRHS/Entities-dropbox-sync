@@ -1,0 +1,183 @@
+{
+  "entity_type": "TASK_MANAGERS",
+  "sub_entity": "Task_Template",
+  "template_id": "Task-Template-061",
+  "version": "1.0",
+  "created_date": "2025-11-17",
+  "last_updated": "2025-11-17",
+  "metadata": {
+    "name": "Generate Custom Project Instructions for Copilot",
+    "description": "Automatically analyze codebase and create detailed copilot-instructions.md file to provide AI agent with deep project-specific context",
+    "action": "Generate",
+    "object": "Custom Project Instructions",
+    "context": "Copilot Context Enhancement for Agent Mode",
+    "department": "All",
+    "complexity": "Low",
+    "estimated_duration": "1-5 minutes (depends on project size)",
+    "skill_level_required": "Beginner",
+    "tools_required": [
+      "TOOL-111 (VS Code)",
+      "TOOL-110 (GitHub Copilot)"
+    ],
+    "prerequisites": [
+      "VS Code with GitHub Copilot installed",
+      "Project/codebase open in VS Code",
+      "Copilot has access to read project files"
+    ]
+  },
+  "workflow": {
+    "phase": "setup",
+    "workflow_id": "WF-DEV-007",
+    "dependencies": [],
+    "outputs": [
+      ".github/copilot-instructions.md file created or updated",
+      "File contains project overview",
+      "File contains architecture details",
+      "File contains coding conventions",
+      "File contains developer workflows",
+      "Agent has enhanced project context for future tasks"
+    ]
+  },
+  "steps": [
+    {
+      "step_number": 1,
+      "step_id": "STEP-DEV-061-01",
+      "step_name": "Open Copilot Chat Panel",
+      "description": "Open the Copilot chat panel in VS Code (click Copilot icon in sidebar or use keyboard shortcut)",
+      "estimated_time": "5 seconds",
+      "tools": ["TOOL-110"],
+      "output": "Copilot chat panel open and ready"
+    },
+    {
+      "step_number": 2,
+      "step_id": "STEP-DEV-061-02",
+      "step_name": "Access Settings Menu",
+      "description": "Click the settings/sparkle icon in the Copilot chat interface",
+      "estimated_time": "5 seconds",
+      "tools": ["TOOL-110"],
+      "output": "Settings dropdown menu visible"
+    },
+    {
+      "step_number": 3,
+      "step_id": "STEP-DEV-061-03",
+      "step_name": "Select Generate Instructions",
+      "description": "Click 'Generate Instructions' option from the settings menu",
+      "estimated_time": "5 seconds",
+      "tools": ["TOOL-110"],
+      "output": "Copilot begins analyzing codebase, progress indicator shown"
+    },
+    {
+      "step_number": 4,
+      "step_id": "STEP-DEV-061-04",
+      "step_name": "Wait for Analysis",
+      "description": "Wait for Copilot to analyze the entire codebase (duration varies by project size: 1-5 minutes)",
+      "estimated_time": "1-5 minutes",
+      "tools": ["TOOL-110"],
+      "output": "Analysis complete, file generation in progress"
+    },
+    {
+      "step_number": 5,
+      "step_id": "STEP-DEV-061-05",
+      "step_name": "Review Generated File",
+      "description": "Review the newly created or updated .github/copilot-instructions.md file. Check that it contains: project overview, architecture details, tech stack, coding conventions, setup instructions",
+      "estimated_time": "1-2 minutes",
+      "tools": ["TOOL-111"],
+      "output": "Instructions file reviewed and validated",
+      "success_criteria": "File contains comprehensive project context with accurate information"
+    },
+    {
+      "step_number": 6,
+      "step_id": "STEP-DEV-061-06",
+      "step_name": "Customize if Needed (Optional)",
+      "description": "Edit the generated file to add project-specific details, preferences, or remove inaccurate information",
+      "estimated_time": "2-5 minutes (optional)",
+      "tools": ["TOOL-111"],
+      "output": "Instructions file customized to project needs"
+    },
+    {
+      "step_number": 7,
+      "step_id": "STEP-DEV-061-07",
+      "step_name": "Test Enhanced Context",
+      "description": "Use Agent Mode with a coding task and observe improved context-aware responses referencing project architecture",
+      "estimated_time": "1-2 minutes",
+      "tools": ["TOOL-110"],
+      "output": "Agent demonstrates understanding of project structure and conventions",
+      "success_criteria": "Agent references project-specific details from instructions file"
+    }
+  ],
+  "quality_checklist": [
+    ".github/copilot-instructions.md file exists in project root",
+    "File contains project name and overview",
+    "Tech stack accurately documented",
+    "Architecture patterns described",
+    "Coding conventions listed",
+    "Developer workflow documented",
+    "File is in Markdown format",
+    "Information is accurate (no hallucinations)",
+    "Agent uses context in subsequent interactions"
+  ],
+  "generated_file_structure": {
+    "typical_sections": [
+      "Project Overview",
+      "Technology Stack",
+      "Architecture and Structure",
+      "Data Flow and Models",
+      "API Endpoints and Routes",
+      "Coding Conventions and Style",
+      "Testing Approach",
+      "Deployment and Environments",
+      "Developer Workflows",
+      "Common Tasks and Commands"
+    ],
+    "file_location": ".github/copilot-instructions.md",
+    "format": "Markdown",
+    "typical_length": "200-500 lines for medium projects"
+  },
+  "best_practices": {
+    "when_to_generate": [
+      "At project start (after initial structure is in place)",
+      "After major architectural changes",
+      "When onboarding new team members",
+      "Quarterly for active projects"
+    ],
+    "customization_tips": [
+      "Add team-specific preferences not detected by analysis",
+      "Include links to external documentation",
+      "Document non-obvious design decisions",
+      "Add examples of common patterns used in the project"
+    ],
+    "version_control": "Commit copilot-instructions.md to Git so all team members benefit"
+  },
+  "related_entities": {
+    "workflow": "WF-DEV-007 (Generate Custom Project Instructions for Copilot)",
+    "tools": [
+      "TOOL-111 (VS Code)",
+      "TOOL-110 (GitHub Copilot)"
+    ],
+    "objects_created": [
+      "OBJ-AI-043 (.github/copilot-instructions.md)"
+    ],
+    "skills_required": [
+      "copilot chat navigation",
+      "project context understanding",
+      "markdown editing"
+    ],
+    "discovery_source": "Videos_015.md - VS Code AI Features",
+    "step_templates": [
+      "STEP-DEV-061-01 through STEP-DEV-061-07"
+    ]
+  },
+  "time_savings": {
+    "manual_documentation": "1-2 hours to manually document project context",
+    "automated_generation": "1-5 minutes",
+    "time_saved": "~90-95% reduction",
+    "ongoing_benefit": "Faster onboarding, better AI responses, consistent team understanding"
+  },
+  "version_history": [
+    {
+      "version": "1.0",
+      "date": "2025-11-17",
+      "changes": "Initial template creation from Videos_015.md workflow extraction"
+    }
+  ]
+}

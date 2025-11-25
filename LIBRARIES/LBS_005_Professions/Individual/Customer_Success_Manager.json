@@ -1,0 +1,57 @@
+{
+  "entity_type": "LIBRARIES",
+  "sub_entity": "Profession",
+  "profession_name": "customer success manager",
+  "department": "managers",
+  "description": "Professional focused on customer relationship management, onboarding, retention, and support using automated email workflows",
+  "created": "2025-11-12",
+  "updated": "2025-11-12",
+  "skills": [
+    "SKL-072"
+  ],
+  "skill_details": {
+    "SKL-072": {
+      "skill_phrase": "automated emails via Gmail MCP",
+      "proficiency_level": "beginner",
+      "frequency": "daily"
+    }
+  },
+  "tools": [
+    "TOOL-AI-030",
+    "TOOL-INT-001"
+  ],
+  "tool_details": {
+    "TOOL-AI-030": "Claude Desktop App - Automation platform (daily use)",
+    "TOOL-INT-001": "Gmail MCP Connector - Email automation (daily use)"
+  },
+  "workflows": [
+    "WF-AI-003"
+  ],
+  "workflow_details": {
+    "WF-AI-003": "Automated Morning Email Drafting"
+  },
+  "objects": [
+    "OBJ-AI-007"
+  ],
+  "object_details": {
+    "OBJ-AI-007": "Email Draft"
+  },
+  "actions": [
+    "automate",
+    "generate",
+    "review",
+    "send"
+  ],
+  "typical_tasks": [
+    "Auto-draft customer support responses",
+    "Generate personalized onboarding emails",
+    "Automate follow-up emails to customers",
+    "Review and send automated customer communications"
+  ],
+  "performance_metrics": {
+    "time_savings": "30-60 minutes per day",
+    "setup_time": "6-8 minutes",
+    "success_rate": "90%+ with human review"
+  },
+  "source": "Video_008_MCP_Connector_Tutorial"
+}

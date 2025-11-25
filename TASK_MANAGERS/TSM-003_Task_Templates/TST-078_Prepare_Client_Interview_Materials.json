@@ -1,0 +1,186 @@
+{
+  "entity_type": "TASK_MANAGERS",
+  "sub_entity": "Task_Template",
+  "template_id": "Task-Template-078",
+  "task_name": "Prepare Client Interview Materials and Portfolio Presentation",
+  "action": "Prepare",
+  "object": "Client Interview",
+  "context": "to create compelling presentation materials for client meetings including portfolio samples, case studies, and project proposals",
+  "description": "Preparation of professional materials for client interviews and sales meetings. Includes selecting relevant portfolio samples, creating customized case studies, preparing project proposals, organizing presentation decks, and rehearsing key talking points. Essential for winning new clients and showcasing capabilities effectively.",
+  "department": "Design",
+  "profession": "Designer / Account Manager / Creative Director",
+  "estimated_duration": "1.5 hours (30 min research + 45 min preparation + 15 min rehearsal)",
+  "status": "Template",
+  "dependencies": [
+    "Client brief or RFP received",
+    "Portfolio organized (TST-077 prerequisite)",
+    "Understanding of client industry and needs",
+    "Access to relevant project samples",
+    "Presentation template available"
+  ],
+  "tools_required": [
+    "TOL-058 (Notion) for portfolio database",
+    "TOL-045 (Google Sheets) for project tracking",
+    "Presentation software (PowerPoint, Google Slides, Figma)",
+    "PDF editor for proposal documents",
+    "Video conferencing platform for virtual meetings"
+  ],
+  "success_criteria": [
+    "Client research completed (industry, competitors, needs)",
+    "3-5 relevant portfolio samples selected",
+    "Customized case study created for client's industry",
+    "Presentation deck prepared (10-15 slides)",
+    "Project proposal outline drafted",
+    "Pricing estimate prepared",
+    "Meeting agenda created",
+    "Rehearsal completed with feedback"
+  ],
+  "steps": [
+    {
+      "step_number": 1,
+      "name": "Research client and understand requirements",
+      "duration": "20 minutes",
+      "outputs": [
+        "Client industry and business model understood",
+        "Competitor analysis completed",
+        "Client pain points identified",
+        "Project requirements documented"
+      ]
+    },
+    {
+      "step_number": 2,
+      "name": "Select relevant portfolio samples",
+      "duration": "15 minutes",
+      "outputs": [
+        "3-5 most relevant projects selected",
+        "Projects match client industry or needs",
+        "High-quality images and documentation ready",
+        "Project outcomes and metrics highlighted"
+      ]
+    },
+    {
+      "step_number": 3,
+      "name": "Create customized case study",
+      "duration": "20 minutes",
+      "outputs": [
+        "Case study tailored to client's industry",
+        "Problem-solution-results format",
+        "Visual before/after comparisons",
+        "ROI and impact metrics emphasized"
+      ]
+    },
+    {
+      "step_number": 4,
+      "name": "Prepare presentation deck",
+      "duration": "25 minutes",
+      "outputs": [
+        "Introduction and company overview (2-3 slides)",
+        "Portfolio samples with case studies (4-6 slides)",
+        "Process and methodology (2-3 slides)",
+        "Pricing and next steps (1-2 slides)",
+        "Professional design and branding applied"
+      ]
+    },
+    {
+      "step_number": 5,
+      "name": "Draft project proposal outline",
+      "duration": "15 minutes",
+      "outputs": [
+        "Scope of work outlined",
+        "Timeline and milestones defined",
+        "Deliverables listed",
+        "Pricing structure prepared"
+      ]
+    },
+    {
+      "step_number": 6,
+      "name": "Create meeting agenda and talking points",
+      "duration": "10 minutes",
+      "outputs": [
+        "Meeting agenda with time allocations",
+        "Key talking points documented",
+        "Questions to ask client prepared",
+        "Objection handling strategies noted"
+      ]
+    },
+    {
+      "step_number": 7,
+      "name": "Rehearse presentation and finalize",
+      "duration": "15 minutes",
+      "outputs": [
+        "Presentation rehearsed (timing checked)",
+        "Transitions and flow refined",
+        "Backup materials prepared",
+        "Confidence and readiness confirmed"
+      ]
+    }
+  ],
+  "checklist": [
+    {
+      "item": "Client research completed (industry, needs, competitors)",
+      "required": true
+    },
+    {
+      "item": "3-5 relevant portfolio samples selected",
+      "required": true
+    },
+    {
+      "item": "Customized case study created",
+      "required": true
+    },
+    {
+      "item": "Presentation deck prepared (10-15 slides)",
+      "required": true
+    },
+    {
+      "item": "Project proposal outline drafted",
+      "required": true
+    },
+    {
+      "item": "Pricing estimate prepared",
+      "required": true
+    },
+    {
+      "item": "Meeting agenda and talking points ready",
+      "required": true
+    },
+    {
+      "item": "Presentation rehearsed and timing verified",
+      "required": false
+    }
+  ],
+  "roi_metrics": {
+    "conversion_rate": "Increases client conversion by 40% with professional preparation",
+    "project_value": "Well-prepared presentations command 20-30% higher project fees",
+    "credibility": "Demonstrates professionalism and builds trust with prospects"
+  },
+  "related_tasks": [
+    "TST-076 (Create Course Materials)",
+    "TST-077 (Organize Portfolio)",
+    "TST-079 (Conduct Candidate Interview)"
+  ],
+  "related_workflows": [
+    "Sales and Client Acquisition Workflow",
+    "Proposal Development Process"
+  ],
+  "related_projects": [
+    "Business Development Initiative",
+    "Client Portfolio Expansion"
+  ],
+  "tags": [
+    "client-interview",
+    "sales",
+    "presentation",
+    "portfolio",
+    "case-study",
+    "proposal",
+    "business-development"
+  ],
+  "version": "1.0",
+  "created": "2025-11-21",
+  "last_updated": "2025-11-21",
+  "responsibility_id": "RESP-DGN-XXX",
+  "responsibility_name": "prepare client interview",
+  "_original_action": "Prepare",
+  "_original_object": "Client Interview"
+}

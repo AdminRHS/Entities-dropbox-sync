@@ -1,0 +1,31 @@
+{
+  "task_template_id": "Task-Template-030",
+  "task_template_name": "Terminology Extraction",
+  "category": "Analysis",
+  "department": "AI",
+  "description": "Extract complete terminology from JSON fields, Markdown headings, file names, and script variables",
+  "estimated_hours": 2,
+  "step_templates": [
+    {
+      "step_template_id": "STEP-ANALYSIS-008-01",
+      "step_template_name": "Extract JSON field names"
+    },
+    {
+      "step_template_id": "STEP-ANALYSIS-008-02",
+      "step_template_name": "Extract Markdown headings"
+    },
+    {
+      "step_template_id": "STEP-ANALYSIS-008-03",
+      "step_template_name": "Extract entity names from filenames"
+    },
+    {
+      "step_template_id": "STEP-ANALYSIS-008-04",
+      "step_template_name": "Extract script variables"
+    },
+    {
+      "step_template_id": "STEP-ANALYSIS-008-05",
+      "step_template_name": "Build terminology dictionary"
+    }
+  ],
+  "version": "1.0"
+}

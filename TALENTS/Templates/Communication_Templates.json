@@ -1,0 +1,283 @@
+{
+  "entity_type": "LIBRARIES",
+  "library": "Templates",
+  "category": "Communication_Templates",
+  "description": "Reusable communication templates for social media, recruitment, and professional messaging across various platforms and channels",
+  "created": "2025-11-13",
+  "updated": "2025-11-13",
+  "total_templates": 8,
+  "templates": [
+    {
+      "template_id": "TMPL-REC-001",
+      "template_type": "Initial Contact",
+      "full_name": "Initial Contact - Vacancy Confirmation",
+      "channel": "Instagram DM",
+      "purpose": "Confirm specific vacancy interest and provide role overview",
+      "tone": "Friendly, Professional, Welcoming",
+      "template_text": "Hello [Candidate Name]!\n\nThank you for your interest in our open position. Could you please confirm which specific vacancy you're interested in?\n\nOnce confirmed, I'll be happy to provide you with more details about the role and next steps.\n\nLooking forward to hearing from you!\n\nBest regards,\n[Recruiter Name]",
+      "variables": [
+        "[Candidate Name]",
+        "[Recruiter Name]"
+      ],
+      "context": "First interaction with candidate",
+      "used_in_workflows": [
+        "WF-REC-001",
+        "WF-REC-002"
+      ],
+      "workflow_context": {
+        "WF-REC-001": "Step 1 - Confirm interest in vacancies",
+        "WF-REC-002": "Step 1 - Confirm candidate interest in vacancies"
+      },
+      "follow_up": "If confirmed → proceed to language assessment (TMPL-REC-002)",
+      "timing": "Within 24 hours of candidate inquiry",
+      "related_objects": [
+        "OBJ-REC-001",
+        "OBJ-SMM-001"
+      ],
+      "best_practices": [
+        "Personalize with candidate name",
+        "Keep welcoming and appreciative tone",
+        "Confirm specific vacancy to avoid confusion"
+      ]
+    },
+    {
+      "template_id": "TMPL-REC-002",
+      "template_type": "Language Proficiency Inquiry",
+      "full_name": "Language Proficiency Assessment",
+      "channel": "Instagram DM",
+      "purpose": "Assess candidate language skills for role requirements",
+      "tone": "Professional, Clear, Structured",
+      "template_text": "Hi [Candidate Name],\n\nFor this position, we require [language] proficiency. Could you please let me know your proficiency level?\n\n• Beginner\n• Intermediate\n• Advanced\n\nAlso, do you have any language certifications or relevant experience using [language] in professional settings?\n\nThank you!",
+      "variables": [
+        "[Candidate Name]",
+        "[language]"
+      ],
+      "context": "Early screening after vacancy confirmation",
+      "used_in_workflows": [
+        "WF-REC-001",
+        "WF-REC-002"
+      ],
+      "workflow_context": {
+        "WF-REC-001": "Step 2 - Assess language proficiency",
+        "WF-REC-002": "Step 2 - Assess language skills"
+      },
+      "follow_up": "If proficiency meets requirements → proceed to profile request (TMPL-REC-003) or scheduling (TMPL-REC-004)",
+      "qualification_criteria": "Specify required level for role upfront",
+      "related_objects": [
+        "OBJ-SMM-002",
+        "OBJ-SMM-001"
+      ],
+      "best_practices": [
+        "Provide clear framework (beginner/intermediate/advanced)",
+        "Ask for certifications to validate",
+        "Mention role-specific language requirements"
+      ]
+    },
+    {
+      "template_id": "TMPL-REC-003",
+      "template_type": "CV/Profile Request",
+      "full_name": "Request for CV or Video Business Card",
+      "channel": "Instagram DM",
+      "purpose": "Request candidate professional background materials with flexible format options",
+      "tone": "Friendly, Flexible, Accommodating",
+      "template_text": "Great, thank you for that information!\n\nFor the next step, I'd love to learn more about your professional background. You have two options:\n\n1. Share your CV/resume (via Instagram or Telegram: [Telegram handle])\n2. Record a short video (1-3 minutes) introducing yourself and summarizing your professional experience\n\nWhichever you're more comfortable with works for me!",
+      "variables": [
+        "[Telegram handle]"
+      ],
+      "alternative_version": "Traditional CV Only",
+      "alternative_text": "Great, thank you for that information!\n\nThe next step is to review your professional background. Could you please share your CV/resume?\n\nYou can send it here via Instagram, or if you prefer, you can send it to me via Telegram at [Telegram handle]. Just let me know which works best for you.\n\nI'll confirm receipt once I have it!",
+      "context": "After language proficiency confirmed",
+      "used_in_workflows": [
+        "WF-REC-001",
+        "WF-REC-002"
+      ],
+      "workflow_context": {
+        "WF-REC-001": "Step 6 - Follow up on candidate profiles",
+        "WF-REC-002": "Step 3 - Request candidate profiles"
+      },
+      "follow_up": "Upon receipt → confirm (TMPL-REC-007) and proceed to scheduling (TMPL-REC-004)",
+      "flexibility": "Offer multiple submission methods to reduce friction",
+      "related_objects": [
+        "OBJ-REC-005",
+        "OBJ-REC-006",
+        "OBJ-SMM-003"
+      ],
+      "best_practices": [
+        "Offer both CV and video options",
+        "Provide multiple platform choices (Instagram/Telegram)",
+        "Emphasize candidate comfort and preference"
+      ]
+    },
+    {
+      "template_id": "TMPL-REC-004",
+      "template_type": "Interview Scheduling",
+      "full_name": "Virtual Interview Scheduling",
+      "channel": "Instagram DM",
+      "purpose": "Discuss and confirm interview timing",
+      "tone": "Enthusiastic, Organized, Flexible",
+      "template_text_initial": "Excellent! I've reviewed your [CV/video] and would love to schedule a virtual interview with you.\n\nWhat days and times work best for you this week or next? I'm flexible and want to find a time that's convenient for you.\n\nJust share a few options and we'll get something on the calendar!",
+      "template_text_confirmation": "Perfect! I've scheduled our interview for:\n\n📅 [Day, Date]\n🕐 [Time with timezone]\n🔗 [Virtual interview link]\n\nPlease let me know if you've saved this in your calendar. I'll also send you some preparation information shortly.\n\nSee you then!",
+      "variables": [
+        "[CV/video]",
+        "[Day, Date]",
+        "[Time with timezone]",
+        "[Virtual interview link]"
+      ],
+      "context": "After CV/video received and reviewed",
+      "used_in_workflows": [
+        "WF-REC-001",
+        "WF-REC-002"
+      ],
+      "workflow_context": {
+        "WF-REC-001": "Step 3 - Confirm availability for job interviews",
+        "WF-REC-002": "Step 4 - Schedule interviews"
+      },
+      "follow_up": "After confirmation → send pre-interview instructions (TMPL-REC-006)",
+      "timing": "Schedule within 3-5 days of CV receipt when possible",
+      "related_objects": [
+        "OBJ-REC-002",
+        "OBJ-REC-008"
+      ],
+      "best_practices": [
+        "Express enthusiasm about candidate",
+        "Offer flexibility in scheduling",
+        "Provide clear interview details with timezone",
+        "Include visual elements (emoji) for readability"
+      ]
+    },
+    {
+      "template_id": "TMPL-REC-005",
+      "template_type": "Rescheduling",
+      "full_name": "Interview Rescheduling Accommodation",
+      "channel": "Instagram DM",
+      "purpose": "Accommodate interview rescheduling requests",
+      "tone": "Understanding, Accommodating, Positive",
+      "template_text": "Hi [Candidate Name],\n\nNo problem at all! Life happens, and I appreciate you letting me know.\n\nLet's find a new time that works better for you. What days/times would be more convenient?\n\nLooking forward to connecting soon!",
+      "variables": [
+        "[Candidate Name]"
+      ],
+      "context": "When candidate requests to reschedule interview",
+      "used_in_workflows": [
+        "WF-REC-001"
+      ],
+      "workflow_context": {
+        "WF-REC-001": "Step 4 - Reschedule job interviews if necessary"
+      },
+      "follow_up": "Once new time agreed → send updated confirmation (TMPL-REC-004 confirmation version) with link",
+      "mindset": "Treat rescheduling as normal part of process, not inconvenience",
+      "related_objects": [
+        "OBJ-REC-002"
+      ],
+      "best_practices": [
+        "Show understanding and flexibility",
+        "Don't express frustration",
+        "Make rescheduling easy and quick",
+        "Maintain positive tone"
+      ]
+    },
+    {
+      "template_id": "TMPL-REC-006",
+      "template_type": "Pre-Interview Preparation",
+      "full_name": "Interview Preparation Instructions",
+      "channel": "Instagram DM",
+      "purpose": "Provide candidate with interview preparation information",
+      "tone": "Helpful, Organized, Reassuring",
+      "template_text": "Hi [Candidate Name],\n\nJust wanted to send you some quick information to help you prepare for our interview on [date]:\n\nInterview Format:\n• [Duration - typically 30-45 minutes]\n• [Format - e.g., video call, conversational]\n\nTopics We'll Cover:\n• Your professional background and experience\n• [Specific skill or topic related to role]\n• [Another relevant topic]\n• Your questions about the role and company\n\nFeel free to reach out if you have any questions before our call!\n\nBest,\n[Recruiter Name]",
+      "variables": [
+        "[Candidate Name]",
+        "[date]",
+        "[Duration]",
+        "[Format]",
+        "[Specific skill or topic]",
+        "[Another relevant topic]",
+        "[Recruiter Name]"
+      ],
+      "context": "24-48 hours before scheduled interview",
+      "used_in_workflows": [
+        "WF-REC-001"
+      ],
+      "workflow_context": {
+        "WF-REC-001": "Step 5 - Provide pre-interview information"
+      },
+      "follow_up": "Interview takes place as scheduled",
+      "timing": "Send 24-48 hours before scheduled interview",
+      "related_objects": [
+        "OBJ-REC-007",
+        "OBJ-REC-002"
+      ],
+      "best_practices": [
+        "Provide clear structure and topics",
+        "Reduce candidate anxiety with specifics",
+        "Invite questions",
+        "Send with enough advance notice"
+      ]
+    },
+    {
+      "template_id": "TMPL-REC-007",
+      "template_type": "Document Receipt Confirmation",
+      "full_name": "CV/Document Receipt Confirmation",
+      "channel": "Instagram DM",
+      "purpose": "Confirm receipt of CV/documents sent via alternate platform",
+      "tone": "Professional, Prompt, Appreciative",
+      "template_text": "Hi [Candidate Name]!\n\nJust confirming I received your [CV/resume/video] via [Telegram/Instagram]. Thank you for sending that over!\n\nI'll review it and get back to you within [timeframe] about next steps.\n\nTalk soon!",
+      "variables": [
+        "[Candidate Name]",
+        "[CV/resume/video]",
+        "[Telegram/Instagram]",
+        "[timeframe]"
+      ],
+      "context": "After candidate submits materials via Telegram or other platform",
+      "used_in_workflows": [
+        "WF-REC-001"
+      ],
+      "workflow_context": {
+        "WF-REC-001": "Step 6 - After Telegram submission"
+      },
+      "follow_up": "After review → proceed to scheduling (TMPL-REC-004)",
+      "importance": "Reduces candidate anxiety about whether materials were received",
+      "related_objects": [
+        "OBJ-REC-006",
+        "OBJ-SMM-003"
+      ],
+      "best_practices": [
+        "Confirm promptly (within hours)",
+        "Specify what was received",
+        "Provide timeline for next steps",
+        "Express appreciation"
+      ]
+    },
+    {
+      "template_id": "TMPL-REC-008",
+      "template_type": "Post-Delay Follow-up",
+      "full_name": "Candidate Re-engagement After Delay",
+      "channel": "Instagram DM",
+      "purpose": "Reconfirm interest after candidate indicated delay or travel",
+      "tone": "Friendly, Professional, Non-pushy",
+      "template_text": "Hi [Candidate Name]!\n\nHope you're doing well! I wanted to follow up regarding the [vacancy name] position.\n\nYou had mentioned [travel/timing constraint] previously. Are you now available to move forward with the interview process? I wanted to make sure this opportunity is still of interest to you.\n\nLet me know, and if so, we can get an interview scheduled!\n\nBest,\n[Recruiter Name]",
+      "variables": [
+        "[Candidate Name]",
+        "[vacancy name]",
+        "[travel/timing constraint]",
+        "[Recruiter Name]"
+      ],
+      "context": "1-2 weeks after candidate indicated delay period",
+      "used_in_workflows": [
+        "WF-REC-001"
+      ],
+      "workflow_context": {
+        "WF-REC-001": "Step 7 - Confirm interest post-travel or delay"
+      },
+      "follow_up": "If interested → restart scheduling process (TMPL-REC-004); if not → close application",
+      "timing": "Follow up 1-2 weeks after indicated delay period",
+      "related_objects": [
+        "OBJ-REC-001"
+      ],
+      "best_practices": [
+        "Reference their specific constraint",
+        "Keep tone friendly and non-demanding",
+        "Make it easy to decline",
+        "Show continued interest in candidate"
+      ]
+    }
+  ]
+}

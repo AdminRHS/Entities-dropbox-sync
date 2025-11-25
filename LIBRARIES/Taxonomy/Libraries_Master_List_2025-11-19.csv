@@ -1,0 +1,407 @@
+Entity_ID,Entity_Name,Entity_Type,Department,Category,File_Path,Count,Status,ISO_Code,Notes
+RSP-001,Core Responsibilities,Responsibilities,Multi-Department,Core,LIBRARIES/Responsibilities/Core/responsibilities_master.json,193,Active,RSP,Master responsibilities file
+ACT-001,Actions Master,Actions,Multi-Department,Master,LIBRARIES/Responsibilities/Actions/Master/actions_master.json,429,Active,ACT,Complete actions catalog
+SKL-001,Skills Master,Skills,Multi-Department,Master,LIBRARIES/../TALENTS/Skills/Master/all_skills.json,28,Active,SKL,Complete skills catalog
+TOL-001,AI Tools Master Listing,Tools,AI,Category,LIBRARIES/LBS_003_Tools/By_Category/AI/AI_Tools_Master_Listing.json,80,Active,TOL-AIA,Complete AI tools catalog
+TOOL-AI-071,Adobe Firefly,Tools,AI,AI Platform,LIBRARIES/LBS_003_Tools/By_Category/AI/Adobe_Firefly.json,1,Active,TOOL-AI-071,AI Tool: Adobe Firefly
+TOOL-AI-082,Arcade.ai,Tools,AI,AI Platform,LIBRARIES/LBS_003_Tools/By_Category/AI/Arcade_ai.json,1,Active,TOOL-AI-082,AI Tool: Arcade.ai
+TOOL-AI-097,Archon,Tools,AI,AI Platform,LIBRARIES/LBS_003_Tools/By_Category/AI/Archon.json,1,Active,TOOL-AI-097,AI Tool: Archon
+TOOL-113,arXiv,Tools,AI,AI Platform,LIBRARIES/LBS_003_Tools/By_Category/AI/arXiv.json,1,Active,TOOL-113,AI Tool: arXiv
+TOOL-AI-089,Browserbase,Tools,AI,AI Platform,LIBRARIES/LBS_003_Tools/By_Category/AI/Browserbase.json,1,Active,TOOL-AI-089,AI Tool: Browserbase
+TOOL-AI-057,Bubble.io,Tools,AI,AI Platform,LIBRARIES/LBS_003_Tools/By_Category/AI/Bubble_io.json,1,Active,TOOL-AI-057,AI Tool: Bubble.io
+TOOL-AI-002,ChatGPT (OpenAI),Tools,AI,AI Platform,LIBRARIES/LBS_003_Tools/By_Category/AI/ChatGPT.json,1,Active,TOOL-AI-002,AI Tool: ChatGPT (OpenAI)
+TOOL-AI-029,Claude,Tools,AI,AI Platform,LIBRARIES/LBS_003_Tools/By_Category/AI/Claude.json,1,Active,TOOL-AI-029,AI Tool: Claude
+TOOL-AI-030,Claude Desktop App,Tools,AI,AI Platform,LIBRARIES/LBS_003_Tools/By_Category/AI/Claude_Desktop_App.json,1,Active,TOOL-AI-030,AI Tool: Claude Desktop App
+TOOL-AI-051,Claude Projects,Tools,AI,AI Platform,LIBRARIES/LBS_003_Tools/By_Category/AI/Claude_Projects.json,1,Active,TOOL-AI-051,AI Tool: Claude Projects
+TOOL-AI-090,CodeRabbit,Tools,AI,AI Platform,LIBRARIES/LBS_003_Tools/By_Category/AI/CodeRabbit.json,1,Active,TOOL-AI-090,AI Tool: CodeRabbit
+TOOL-AI-040,ComfyUI,Tools,AI,AI Platform,LIBRARIES/LBS_003_Tools/By_Category/AI/ComfyUI.json,1,Active,TOOL-AI-040,AI Tool: ComfyUI
+TOOL-AI-045,Cove.ai,Tools,AI,AI Platform,LIBRARIES/LBS_003_Tools/By_Category/AI/Cove_ai.json,1,Active,TOOL-AI-045,AI Tool: Cove.ai
+TOOL-AI-085,Crawl4AI,Tools,AI,AI Platform,LIBRARIES/LBS_003_Tools/By_Category/AI/Crawl4AI.json,1,Active,TOOL-AI-085,AI Tool: Crawl4AI
+TOOL-AI-094,CrewAI,Tools,AI,AI Platform,LIBRARIES/LBS_003_Tools/By_Category/AI/CrewAI.json,1,Active,TOOL-AI-094,AI Tool: CrewAI
+TOOL-AI-041,Cursor,Tools,AI,AI Platform,LIBRARIES/LBS_003_Tools/By_Category/AI/Cursor.json,1,Active,TOOL-AI-041,AI Tool: Cursor
+TOOL-116,Custom_Prompt_Templates,Tools,AI,AI Platform,LIBRARIES/LBS_003_Tools/By_Category/AI/Custom_Prompt_Templates.json,1,Active,TOOL-116,AI Tool: Custom_Prompt_Templates
+TOOL-AI-042,DeepSite,Tools,AI,AI Platform,LIBRARIES/LBS_003_Tools/By_Category/AI/DeepSite.json,1,Active,TOOL-AI-042,AI Tool: DeepSite
+TOOL-AI-084,Docling,Tools,AI,AI Platform,LIBRARIES/LBS_003_Tools/By_Category/AI/Docling.json,1,Active,TOOL-AI-084,AI Tool: Docling
+TOOL-DESIGN-001,Dribbble,Tools,AI,AI Platform,LIBRARIES/LBS_003_Tools/By_Category/AI/Dribbble.json,1,Active,TOOL-DESIGN-001,AI Tool: Dribbble
+TOOL-112,Dropbox_Dash,Tools,AI,AI Platform,LIBRARIES/LBS_003_Tools/By_Category/AI/Dropbox_Dash.json,1,Active,TOOL-112,AI Tool: Dropbox_Dash
+TOOL-AI-008,ElevenLabs,Tools,AI,AI Platform,LIBRARIES/LBS_003_Tools/By_Category/AI/ElevenLabs.json,1,Active,TOOL-AI-008,AI Tool: ElevenLabs
+TOOL-AI-073,Envato Elements,Tools,AI,AI Platform,LIBRARIES/LBS_003_Tools/By_Category/AI/Envato_Elements.json,1,Active,TOOL-AI-073,AI Tool: Envato Elements
+TOOL-AI-053,Flux,Tools,AI,AI Platform,LIBRARIES/LBS_003_Tools/By_Category/AI/Flux.json,1,Active,TOOL-AI-053,AI Tool: Flux
+TOOL-AI-054,Flux Kontext,Tools,AI,AI Platform,LIBRARIES/LBS_003_Tools/By_Category/AI/Flux_Kontext.json,1,Active,TOOL-AI-054,AI Tool: Flux Kontext
+TOOL-AI-072,Freepik,Tools,AI,AI Platform,LIBRARIES/LBS_003_Tools/By_Category/AI/Freepik.json,1,Active,TOOL-AI-072,AI Tool: Freepik
+TOOL-AI-044,Gamma.app,Tools,AI,AI Platform,LIBRARIES/LBS_003_Tools/By_Category/AI/Gamma_app.json,1,Active,TOOL-AI-044,AI Tool: Gamma.app
+TOOL-AI-003,Gemini,Tools,AI,AI Platform,LIBRARIES/LBS_003_Tools/By_Category/AI/Gemini.json,1,Active,TOOL-AI-003,AI Tool: Gemini
+TOOL-AI-079,Gemini File Search API,Tools,AI,AI Platform,LIBRARIES/LBS_003_Tools/By_Category/AI/Gemini_File_Search.json,1,Active,TOOL-AI-079,AI Tool: Gemini File Search API
+TOOL-AI-046,Genspark.ai,Tools,AI,AI Platform,LIBRARIES/LBS_003_Tools/By_Category/AI/Genspark_ai.json,1,Active,TOOL-AI-046,AI Tool: Genspark.ai
+TOOL-110,GitHub Copilot,Tools,AI,AI Platform,LIBRARIES/LBS_003_Tools/By_Category/AI/GitHub_Copilot.json,1,Active,TOOL-110,AI Tool: GitHub Copilot
+TOOL-AI-045,GLIF,Tools,AI,AI Platform,LIBRARIES/LBS_003_Tools/By_Category/AI/GLIF.json,1,Active,TOOL-AI-045,AI Tool: GLIF
+TOOL-AI-049,Google AI Studio,Tools,AI,AI Platform,LIBRARIES/LBS_003_Tools/By_Category/AI/Google_AI_Studio.json,1,Active,TOOL-AI-049,AI Tool: Google AI Studio
+TOOL-AI-051,Google Veo 3.1,Tools,AI,AI Platform,LIBRARIES/LBS_003_Tools/By_Category/AI/Google_Veo_3_1.json,1,Active,TOOL-AI-051,AI Tool: Google Veo 3.1
+TOOL-AI-087,Graphiti,Tools,AI,AI Platform,LIBRARIES/LBS_003_Tools/By_Category/AI/Graphiti.json,1,Active,TOOL-AI-087,AI Tool: Graphiti
+TOOL-AI-043,Grok,Tools,AI,AI Platform,LIBRARIES/LBS_003_Tools/By_Category/AI/Grok.json,1,Active,TOOL-AI-043,AI Tool: Grok
+TOOL-AI-083,Langfuse,Tools,AI,AI Platform,LIBRARIES/LBS_003_Tools/By_Category/AI/Langfuse.json,1,Active,TOOL-AI-083,AI Tool: Langfuse
+TOOL-AI-081,LangGraph,Tools,AI,AI Platform,LIBRARIES/LBS_003_Tools/By_Category/AI/LangGraph.json,1,Active,TOOL-AI-081,AI Tool: LangGraph
+TOOL-AI-007,Leonardo.ai,Tools,AI,AI Platform,LIBRARIES/LBS_003_Tools/By_Category/AI/Leonardo_AI.json,1,Active,TOOL-AI-007,AI Tool: Leonardo.ai
+TOOL-115,LLM_as_Judge_Evaluation_Framework,Tools,AI,AI Platform,LIBRARIES/LBS_003_Tools/By_Category/AI/LLM_as_Judge_Evaluation_Framework.json,1,Active,TOOL-115,AI Tool: LLM_as_Judge_Evaluation_Framework
+TOOL-AI-054,Loom,Tools,AI,AI Platform,LIBRARIES/LBS_003_Tools/By_Category/AI/Loom.json,1,Active,TOOL-AI-054,AI Tool: Loom
+TOOL-AI-040,Lovable.dev,Tools,AI,AI Platform,LIBRARIES/LBS_003_Tools/By_Category/AI/Lovable_dev.json,1,Active,TOOL-AI-040,AI Tool: Lovable.dev
+TOOL-AI-059,Maestra.ai,Tools,AI,AI Platform,LIBRARIES/LBS_003_Tools/By_Category/AI/Maestra_ai.json,1,Active,TOOL-AI-059,AI Tool: Maestra.ai
+TOOL-AI-058,Manus.im,Tools,AI,AI Platform,LIBRARIES/LBS_003_Tools/By_Category/AI/Manus_im.json,1,Active,TOOL-AI-058,AI Tool: Manus.im
+TOOL-AI-031,MCP Builder (Skill),Tools,AI,AI Platform,LIBRARIES/LBS_003_Tools/By_Category/AI/MCP_Builder_Skill.json,1,Active,TOOL-AI-031,AI Tool: MCP Builder (Skill)
+TOOL-AI-086,Mem0,Tools,AI,AI Platform,LIBRARIES/LBS_003_Tools/By_Category/AI/Mem0.json,1,Active,TOOL-AI-086,AI Tool: Mem0
+TOOL-AI-006,Midjourney,Tools,AI,AI Platform,LIBRARIES/LBS_003_Tools/By_Category/AI/Midjourney.json,1,Active,TOOL-AI-006,AI Tool: Midjourney
+TOOL-AI-052,MiniMax,Tools,AI,AI Platform,LIBRARIES/LBS_003_Tools/By_Category/AI/MiniMax.json,1,Active,TOOL-AI-052,AI Tool: MiniMax
+TOOL-AI-046,Nano Banana,Tools,AI,AI Platform,LIBRARIES/LBS_003_Tools/By_Category/AI/Nano_Banana.json,1,Active,TOOL-AI-046,AI Tool: Nano Banana
+TOOL-AI-005,NotebookLM,Tools,AI,AI Platform,LIBRARIES/LBS_003_Tools/By_Category/AI/NotebookLM.json,1,Active,TOOL-AI-005,AI Tool: NotebookLM
+TOOL-AI-070,Notion AI,Tools,AI,AI Platform,LIBRARIES/LBS_003_Tools/By_Category/AI/Notion_AI.json,1,Active,TOOL-AI-070,AI Tool: Notion AI
+TOOL-AI-091,Ollama,Tools,AI,AI Platform,LIBRARIES/LBS_003_Tools/By_Category/AI/Ollama.json,1,Active,TOOL-AI-091,AI Tool: Ollama
+TOOL-AI-028,OpenAI GPT-5,Tools,AI,AI Platform,LIBRARIES/LBS_003_Tools/By_Category/AI/OpenAI_GPT5.json,1,Active,TOOL-AI-028,AI Tool: OpenAI GPT-5
+TOOL-AI-052,OpenArt,Tools,AI,AI Platform,LIBRARIES/LBS_003_Tools/By_Category/AI/OpenArt.json,1,Active,TOOL-AI-052,AI Tool: OpenArt
+TOOL-AI-056,OpenArt Photorealistic,Tools,AI,AI Platform,LIBRARIES/LBS_003_Tools/By_Category/AI/OpenArt_Photorealistic.json,1,Active,TOOL-AI-056,AI Tool: OpenArt Photorealistic
+TOOL-AI-066,OpenRouter,Tools,AI,AI Platform,LIBRARIES/LBS_003_Tools/By_Category/AI/OpenRouter.json,1,Active,TOOL-AI-066,AI Tool: OpenRouter
+TOOL-AI-092,Open WebUI,Tools,AI,AI Platform,LIBRARIES/LBS_003_Tools/By_Category/AI/Open_WebUI.json,1,Active,TOOL-AI-092,AI Tool: Open WebUI
+TOOL-AI-004,Perplexity,Tools,AI,AI Platform,LIBRARIES/LBS_003_Tools/By_Category/AI/Perplexity.json,1,Active,TOOL-AI-004,AI Tool: Perplexity
+TOOL-AI-064,Pollo.ai,Tools,AI,AI Platform,LIBRARIES/LBS_003_Tools/By_Category/AI/Pollo_ai.json,1,Active,TOOL-AI-064,AI Tool: Pollo.ai
+TOOL-AI-080,Pydantic AI,Tools,AI,AI Platform,LIBRARIES/LBS_003_Tools/By_Category/AI/Pydantic_AI.json,1,Active,TOOL-AI-080,AI Tool: Pydantic AI
+TOOL-AI-088,Ragas,Tools,AI,AI Platform,LIBRARIES/LBS_003_Tools/By_Category/AI/Ragas.json,1,Active,TOOL-AI-088,AI Tool: Ragas
+TOOL-AI-041,Replit,Tools,AI,AI Platform,LIBRARIES/LBS_003_Tools/By_Category/AI/Replit.json,1,Active,TOOL-AI-041,AI Tool: Replit
+TOOL-AI-051,Runner,Tools,AI,AI Platform,LIBRARIES/LBS_003_Tools/By_Category/AI/Runner.json,1,Active,TOOL-AI-051,AI Tool: Runner
+TOOL-AI-093,SearXNG,Tools,AI,AI Platform,LIBRARIES/LBS_003_Tools/By_Category/AI/SearXNG.json,1,Active,TOOL-AI-093,AI Tool: SearXNG
+TOOL-AI-055,Seedream 4.0,Tools,AI,AI Platform,LIBRARIES/LBS_003_Tools/By_Category/AI/Seedream_4_0.json,1,Active,TOOL-AI-055,AI Tool: Seedream 4.0
+TOOL-AI-047,Smithery.ai,Tools,AI,AI Platform,LIBRARIES/LBS_003_Tools/By_Category/AI/Smithery_ai.json,1,Active,TOOL-AI-047,AI Tool: Smithery.ai
+TOOL-AI-032,Sonnet 4.5,Tools,AI,AI Platform,LIBRARIES/LBS_003_Tools/By_Category/AI/Sonnet_45.json,1,Active,TOOL-AI-032,AI Tool: Sonnet 4.5
+TOOL-AI-060,Suno,Tools,AI,AI Platform,LIBRARIES/LBS_003_Tools/By_Category/AI/Suno.json,1,Active,TOOL-AI-060,AI Tool: Suno
+TOOL-AI-061,TurboScribe,Tools,AI,AI Platform,LIBRARIES/LBS_003_Tools/By_Category/AI/TurboScribe.json,1,Active,TOOL-AI-061,AI Tool: TurboScribe
+TOOL-AI-055,v0.dev,Tools,AI,AI Platform,LIBRARIES/LBS_003_Tools/By_Category/AI/v0_dev.json,1,Active,TOOL-AI-055,AI Tool: v0.dev
+TOOL-AI-065,Vectal Pro,Tools,AI,AI Platform,LIBRARIES/LBS_003_Tools/By_Category/AI/Vectal_Pro.json,1,Active,TOOL-AI-065,AI Tool: Vectal Pro
+TOOL-DEV-001,Vite,Tools,AI,AI Platform,LIBRARIES/LBS_003_Tools/By_Category/AI/Vite.json,1,Active,TOOL-DEV-001,AI Tool: Vite
+TOOL-AI-069,WHALESWING,Tools,AI,AI Platform,LIBRARIES/LBS_003_Tools/By_Category/AI/WHALESWING.json,1,Active,TOOL-AI-069,AI Tool: WHALESWING
+TOOL-AI-062,Wispr Flow,Tools,AI,AI Platform,LIBRARIES/LBS_003_Tools/By_Category/AI/Wispr_Flow.json,1,Active,TOOL-AI-062,AI Tool: Wispr Flow
+TOOL-AI-096,Zep,Tools,AI,AI Platform,LIBRARIES/LBS_003_Tools/By_Category/AI/Zep.json,1,Active,TOOL-AI-096,AI Tool: Zep
+TOOL-AI-071,Adobe Firefly,Tools,Multi-Department,AI,LIBRARIES/LBS_003_Tools/By_Category/AI/Adobe_Firefly.json,1,Active,TOOL-AI-071,Tool: Adobe Firefly
+TOOL-AI-082,Arcade.ai,Tools,Multi-Department,AI,LIBRARIES/LBS_003_Tools/By_Category/AI/Arcade_ai.json,1,Active,TOOL-AI-082,Tool: Arcade.ai
+TOOL-AI-097,Archon,Tools,Multi-Department,AI,LIBRARIES/LBS_003_Tools/By_Category/AI/Archon.json,1,Active,TOOL-AI-097,Tool: Archon
+TOOL-113,arXiv,Tools,Multi-Department,AI,LIBRARIES/LBS_003_Tools/By_Category/AI/arXiv.json,1,Active,TOOL-113,Tool: arXiv
+TOOL-AI-089,Browserbase,Tools,Multi-Department,AI,LIBRARIES/LBS_003_Tools/By_Category/AI/Browserbase.json,1,Active,TOOL-AI-089,Tool: Browserbase
+TOOL-AI-057,Bubble.io,Tools,Multi-Department,AI,LIBRARIES/LBS_003_Tools/By_Category/AI/Bubble_io.json,1,Active,TOOL-AI-057,Tool: Bubble.io
+TOOL-AI-002,ChatGPT (OpenAI),Tools,Multi-Department,AI,LIBRARIES/LBS_003_Tools/By_Category/AI/ChatGPT.json,1,Active,TOOL-AI-002,Tool: ChatGPT (OpenAI)
+TOOL-AI-029,Claude,Tools,Multi-Department,AI,LIBRARIES/LBS_003_Tools/By_Category/AI/Claude.json,1,Active,TOOL-AI-029,Tool: Claude
+TOOL-AI-030,Claude Desktop App,Tools,Multi-Department,AI,LIBRARIES/LBS_003_Tools/By_Category/AI/Claude_Desktop_App.json,1,Active,TOOL-AI-030,Tool: Claude Desktop App
+TOOL-AI-051,Claude Projects,Tools,Multi-Department,AI,LIBRARIES/LBS_003_Tools/By_Category/AI/Claude_Projects.json,1,Active,TOOL-AI-051,Tool: Claude Projects
+TOOL-AI-090,CodeRabbit,Tools,Multi-Department,AI,LIBRARIES/LBS_003_Tools/By_Category/AI/CodeRabbit.json,1,Active,TOOL-AI-090,Tool: CodeRabbit
+TOOL-AI-040,ComfyUI,Tools,Multi-Department,AI,LIBRARIES/LBS_003_Tools/By_Category/AI/ComfyUI.json,1,Active,TOOL-AI-040,Tool: ComfyUI
+TOOL-AI-045,Cove.ai,Tools,Multi-Department,AI,LIBRARIES/LBS_003_Tools/By_Category/AI/Cove_ai.json,1,Active,TOOL-AI-045,Tool: Cove.ai
+TOOL-AI-085,Crawl4AI,Tools,Multi-Department,AI,LIBRARIES/LBS_003_Tools/By_Category/AI/Crawl4AI.json,1,Active,TOOL-AI-085,Tool: Crawl4AI
+TOOL-AI-094,CrewAI,Tools,Multi-Department,AI,LIBRARIES/LBS_003_Tools/By_Category/AI/CrewAI.json,1,Active,TOOL-AI-094,Tool: CrewAI
+TOOL-AI-041,Cursor,Tools,Multi-Department,AI,LIBRARIES/LBS_003_Tools/By_Category/AI/Cursor.json,1,Active,TOOL-AI-041,Tool: Cursor
+TOOL-116,Custom_Prompt_Templates,Tools,Multi-Department,AI,LIBRARIES/LBS_003_Tools/By_Category/AI/Custom_Prompt_Templates.json,1,Active,TOOL-116,Tool: Custom_Prompt_Templates
+TOOL-AI-042,DeepSite,Tools,Multi-Department,AI,LIBRARIES/LBS_003_Tools/By_Category/AI/DeepSite.json,1,Active,TOOL-AI-042,Tool: DeepSite
+TOOL-AI-084,Docling,Tools,Multi-Department,AI,LIBRARIES/LBS_003_Tools/By_Category/AI/Docling.json,1,Active,TOOL-AI-084,Tool: Docling
+TOOL-001,Dribbble,Tools,Multi-Department,AI,LIBRARIES/LBS_003_Tools/By_Category/AI/Dribbble.json,1,Active,TOOL-001,Tool: Dribbble
+TOOL-112,Dropbox_Dash,Tools,Multi-Department,AI,LIBRARIES/LBS_003_Tools/By_Category/AI/Dropbox_Dash.json,1,Active,TOOL-112,Tool: Dropbox_Dash
+TOOL-AI-008,ElevenLabs,Tools,Multi-Department,AI,LIBRARIES/LBS_003_Tools/By_Category/AI/ElevenLabs.json,1,Active,TOOL-AI-008,Tool: ElevenLabs
+TOOL-AI-073,Envato Elements,Tools,Multi-Department,AI,LIBRARIES/LBS_003_Tools/By_Category/AI/Envato_Elements.json,1,Active,TOOL-AI-073,Tool: Envato Elements
+TOOL-AI-053,Flux,Tools,Multi-Department,AI,LIBRARIES/LBS_003_Tools/By_Category/AI/Flux.json,1,Active,TOOL-AI-053,Tool: Flux
+TOOL-AI-054,Flux Kontext,Tools,Multi-Department,AI,LIBRARIES/LBS_003_Tools/By_Category/AI/Flux_Kontext.json,1,Active,TOOL-AI-054,Tool: Flux Kontext
+TOOL-AI-072,Freepik,Tools,Multi-Department,AI,LIBRARIES/LBS_003_Tools/By_Category/AI/Freepik.json,1,Active,TOOL-AI-072,Tool: Freepik
+TOOL-AI-044,Gamma.app,Tools,Multi-Department,AI,LIBRARIES/LBS_003_Tools/By_Category/AI/Gamma_app.json,1,Active,TOOL-AI-044,Tool: Gamma.app
+TOOL-AI-003,Gemini,Tools,Multi-Department,AI,LIBRARIES/LBS_003_Tools/By_Category/AI/Gemini.json,1,Active,TOOL-AI-003,Tool: Gemini
+TOOL-AI-079,Gemini File Search API,Tools,Multi-Department,AI,LIBRARIES/LBS_003_Tools/By_Category/AI/Gemini_File_Search.json,1,Active,TOOL-AI-079,Tool: Gemini File Search API
+TOOL-AI-046,Genspark.ai,Tools,Multi-Department,AI,LIBRARIES/LBS_003_Tools/By_Category/AI/Genspark_ai.json,1,Active,TOOL-AI-046,Tool: Genspark.ai
+TOOL-110,GitHub Copilot,Tools,Multi-Department,AI,LIBRARIES/LBS_003_Tools/By_Category/AI/GitHub_Copilot.json,1,Active,TOOL-110,Tool: GitHub Copilot
+TOOL-AI-045,GLIF,Tools,Multi-Department,AI,LIBRARIES/LBS_003_Tools/By_Category/AI/GLIF.json,1,Active,TOOL-AI-045,Tool: GLIF
+TOOL-AI-049,Google AI Studio,Tools,Multi-Department,AI,LIBRARIES/LBS_003_Tools/By_Category/AI/Google_AI_Studio.json,1,Active,TOOL-AI-049,Tool: Google AI Studio
+TOOL-AI-051,Google Veo 3.1,Tools,Multi-Department,AI,LIBRARIES/LBS_003_Tools/By_Category/AI/Google_Veo_3_1.json,1,Active,TOOL-AI-051,Tool: Google Veo 3.1
+TOOL-AI-087,Graphiti,Tools,Multi-Department,AI,LIBRARIES/LBS_003_Tools/By_Category/AI/Graphiti.json,1,Active,TOOL-AI-087,Tool: Graphiti
+TOOL-AI-043,Grok,Tools,Multi-Department,AI,LIBRARIES/LBS_003_Tools/By_Category/AI/Grok.json,1,Active,TOOL-AI-043,Tool: Grok
+TOOL-AI-083,Langfuse,Tools,Multi-Department,AI,LIBRARIES/LBS_003_Tools/By_Category/AI/Langfuse.json,1,Active,TOOL-AI-083,Tool: Langfuse
+TOOL-AI-081,LangGraph,Tools,Multi-Department,AI,LIBRARIES/LBS_003_Tools/By_Category/AI/LangGraph.json,1,Active,TOOL-AI-081,Tool: LangGraph
+TOOL-AI-007,Leonardo.ai,Tools,Multi-Department,AI,LIBRARIES/LBS_003_Tools/By_Category/AI/Leonardo_AI.json,1,Active,TOOL-AI-007,Tool: Leonardo.ai
+TOOL-115,LLM_as_Judge_Evaluation_Framework,Tools,Multi-Department,AI,LIBRARIES/LBS_003_Tools/By_Category/AI/LLM_as_Judge_Evaluation_Framework.json,1,Active,TOOL-115,Tool: LLM_as_Judge_Evaluation_Framework
+TOOL-AI-054,Loom,Tools,Multi-Department,AI,LIBRARIES/LBS_003_Tools/By_Category/AI/Loom.json,1,Active,TOOL-AI-054,Tool: Loom
+TOOL-AI-040,Lovable.dev,Tools,Multi-Department,AI,LIBRARIES/LBS_003_Tools/By_Category/AI/Lovable_dev.json,1,Active,TOOL-AI-040,Tool: Lovable.dev
+TOOL-AI-059,Maestra.ai,Tools,Multi-Department,AI,LIBRARIES/LBS_003_Tools/By_Category/AI/Maestra_ai.json,1,Active,TOOL-AI-059,Tool: Maestra.ai
+TOOL-AI-058,Manus.im,Tools,Multi-Department,AI,LIBRARIES/LBS_003_Tools/By_Category/AI/Manus_im.json,1,Active,TOOL-AI-058,Tool: Manus.im
+TOOL-AI-031,MCP Builder (Skill),Tools,Multi-Department,AI,LIBRARIES/LBS_003_Tools/By_Category/AI/MCP_Builder_Skill.json,1,Active,TOOL-AI-031,Tool: MCP Builder (Skill)
+TOOL-AI-086,Mem0,Tools,Multi-Department,AI,LIBRARIES/LBS_003_Tools/By_Category/AI/Mem0.json,1,Active,TOOL-AI-086,Tool: Mem0
+TOOL-AI-006,Midjourney,Tools,Multi-Department,AI,LIBRARIES/LBS_003_Tools/By_Category/AI/Midjourney.json,1,Active,TOOL-AI-006,Tool: Midjourney
+TOOL-AI-052,MiniMax,Tools,Multi-Department,AI,LIBRARIES/LBS_003_Tools/By_Category/AI/MiniMax.json,1,Active,TOOL-AI-052,Tool: MiniMax
+TOOL-AI-046,Nano Banana,Tools,Multi-Department,AI,LIBRARIES/LBS_003_Tools/By_Category/AI/Nano_Banana.json,1,Active,TOOL-AI-046,Tool: Nano Banana
+TOOL-AI-005,NotebookLM,Tools,Multi-Department,AI,LIBRARIES/LBS_003_Tools/By_Category/AI/NotebookLM.json,1,Active,TOOL-AI-005,Tool: NotebookLM
+TOOL-AI-070,Notion AI,Tools,Multi-Department,AI,LIBRARIES/LBS_003_Tools/By_Category/AI/Notion_AI.json,1,Active,TOOL-AI-070,Tool: Notion AI
+TOOL-AI-091,Ollama,Tools,Multi-Department,AI,LIBRARIES/LBS_003_Tools/By_Category/AI/Ollama.json,1,Active,TOOL-AI-091,Tool: Ollama
+TOOL-AI-028,OpenAI GPT-5,Tools,Multi-Department,AI,LIBRARIES/LBS_003_Tools/By_Category/AI/OpenAI_GPT5.json,1,Active,TOOL-AI-028,Tool: OpenAI GPT-5
+TOOL-AI-052,OpenArt,Tools,Multi-Department,AI,LIBRARIES/LBS_003_Tools/By_Category/AI/OpenArt.json,1,Active,TOOL-AI-052,Tool: OpenArt
+TOOL-AI-056,OpenArt Photorealistic,Tools,Multi-Department,AI,LIBRARIES/LBS_003_Tools/By_Category/AI/OpenArt_Photorealistic.json,1,Active,TOOL-AI-056,Tool: OpenArt Photorealistic
+TOOL-AI-066,OpenRouter,Tools,Multi-Department,AI,LIBRARIES/LBS_003_Tools/By_Category/AI/OpenRouter.json,1,Active,TOOL-AI-066,Tool: OpenRouter
+TOOL-AI-092,Open WebUI,Tools,Multi-Department,AI,LIBRARIES/LBS_003_Tools/By_Category/AI/Open_WebUI.json,1,Active,TOOL-AI-092,Tool: Open WebUI
+TOOL-AI-004,Perplexity,Tools,Multi-Department,AI,LIBRARIES/LBS_003_Tools/By_Category/AI/Perplexity.json,1,Active,TOOL-AI-004,Tool: Perplexity
+TOOL-AI-064,Pollo.ai,Tools,Multi-Department,AI,LIBRARIES/LBS_003_Tools/By_Category/AI/Pollo_ai.json,1,Active,TOOL-AI-064,Tool: Pollo.ai
+TOOL-AI-080,Pydantic AI,Tools,Multi-Department,AI,LIBRARIES/LBS_003_Tools/By_Category/AI/Pydantic_AI.json,1,Active,TOOL-AI-080,Tool: Pydantic AI
+TOOL-AI-088,Ragas,Tools,Multi-Department,AI,LIBRARIES/LBS_003_Tools/By_Category/AI/Ragas.json,1,Active,TOOL-AI-088,Tool: Ragas
+TOOL-AI-041,Replit,Tools,Multi-Department,AI,LIBRARIES/LBS_003_Tools/By_Category/AI/Replit.json,1,Active,TOOL-AI-041,Tool: Replit
+TOOL-AI-051,Runner,Tools,Multi-Department,AI,LIBRARIES/LBS_003_Tools/By_Category/AI/Runner.json,1,Active,TOOL-AI-051,Tool: Runner
+TOOL-AI-093,SearXNG,Tools,Multi-Department,AI,LIBRARIES/LBS_003_Tools/By_Category/AI/SearXNG.json,1,Active,TOOL-AI-093,Tool: SearXNG
+TOOL-AI-055,Seedream 4.0,Tools,Multi-Department,AI,LIBRARIES/LBS_003_Tools/By_Category/AI/Seedream_4_0.json,1,Active,TOOL-AI-055,Tool: Seedream 4.0
+TOOL-AI-047,Smithery.ai,Tools,Multi-Department,AI,LIBRARIES/LBS_003_Tools/By_Category/AI/Smithery_ai.json,1,Active,TOOL-AI-047,Tool: Smithery.ai
+TOOL-AI-032,Sonnet 4.5,Tools,Multi-Department,AI,LIBRARIES/LBS_003_Tools/By_Category/AI/Sonnet_45.json,1,Active,TOOL-AI-032,Tool: Sonnet 4.5
+TOOL-AI-060,Suno,Tools,Multi-Department,AI,LIBRARIES/LBS_003_Tools/By_Category/AI/Suno.json,1,Active,TOOL-AI-060,Tool: Suno
+TOOL-AI-061,TurboScribe,Tools,Multi-Department,AI,LIBRARIES/LBS_003_Tools/By_Category/AI/TurboScribe.json,1,Active,TOOL-AI-061,Tool: TurboScribe
+TOOL-AI-055,v0.dev,Tools,Multi-Department,AI,LIBRARIES/LBS_003_Tools/By_Category/AI/v0_dev.json,1,Active,TOOL-AI-055,Tool: v0.dev
+TOOL-AI-065,Vectal Pro,Tools,Multi-Department,AI,LIBRARIES/LBS_003_Tools/By_Category/AI/Vectal_Pro.json,1,Active,TOOL-AI-065,Tool: Vectal Pro
+TOOL-DEV-001,Vite,Tools,Multi-Department,AI,LIBRARIES/LBS_003_Tools/By_Category/AI/Vite.json,1,Active,TOOL-DEV-001,Tool: Vite
+TOOL-AI-069,WHALESWING,Tools,Multi-Department,AI,LIBRARIES/LBS_003_Tools/By_Category/AI/WHALESWING.json,1,Active,TOOL-AI-069,Tool: WHALESWING
+TOOL-AI-062,Wispr Flow,Tools,Multi-Department,AI,LIBRARIES/LBS_003_Tools/By_Category/AI/Wispr_Flow.json,1,Active,TOOL-AI-062,Tool: Wispr Flow
+TOOL-AI-096,Zep,Tools,Multi-Department,AI,LIBRARIES/LBS_003_Tools/By_Category/AI/Zep.json,1,Active,TOOL-AI-096,Tool: Zep
+TOOL-AIA-103,AmpleLeads,Tools,Operations,Automation,LIBRARIES/LBS_003_Tools/By_Category/Automation/AmpleLeads.json,1,Active,TOOL-AIA-103,Tool: AmpleLeads
+TOOL-AIA-105,ExportApollo,Tools,Operations,Automation,LIBRARIES/LBS_003_Tools/By_Category/Automation/ExportApollo.json,1,Active,TOOL-AIA-105,Tool: ExportApollo
+TOOL-AIA-104,LeadsRapidly,Tools,Operations,Automation,LIBRARIES/LBS_003_Tools/By_Category/Automation/LeadsRapidly.json,1,Active,TOOL-AIA-104,Tool: LeadsRapidly
+TOOL-AIA-107,Make.com,Tools,Operations,Automation,LIBRARIES/LBS_003_Tools/By_Category/Automation/Make_com.json,1,Active,TOOL-AIA-107,Tool: Make.com
+TOOL-AIA-106,n8n,Tools,Operations,Automation,LIBRARIES/LBS_003_Tools/By_Category/Automation/n8n.json,1,Active,TOOL-AIA-106,Tool: n8n
+TOOL-AIA-102,Vayne,Tools,Operations,Automation,LIBRARIES/LBS_003_Tools/By_Category/Automation/Vayne.json,1,Active,TOOL-AIA-102,Tool: Vayne
+TOOL-SLS-016,Apollo.io,Tools,Operations,Business,LIBRARIES/LBS_003_Tools/By_Category/Business/Apollo_io.json,1,Active,TOOL-SLS-016,Tool: Apollo.io
+TOOL-SLS-050,Discord,Tools,Operations,Business,LIBRARIES/LBS_003_Tools/By_Category/Business/Discord.json,1,Active,TOOL-SLS-050,Tool: Discord
+TOOL-SLS-017,Instantly.ai,Tools,Operations,Business,LIBRARIES/LBS_003_Tools/By_Category/Business/Instantly_ai.json,1,Active,TOOL-SLS-017,Tool: Instantly.ai
+TOOL-DEV-038,Apify,Tools,Development,Development,LIBRARIES/LBS_003_Tools/By_Category/Development/Apify.json,1,Active,TOOL-DEV-038,Tool: Apify
+TOOL-DEV-040,Apify Google Maps Scraper,Tools,Development,Development,LIBRARIES/LBS_003_Tools/By_Category/Development/Apify_Google_Maps_Scraper.json,1,Active,TOOL-DEV-040,Tool: Apify Google Maps Scraper
+TOOL-DEV-039,Apify Google SERP Scraper,Tools,Development,Development,LIBRARIES/LBS_003_Tools/By_Category/Development/Apify_Google_SERP_Scraper.json,1,Active,TOOL-DEV-039,Tool: Apify Google SERP Scraper
+TOOL-DEV-042,Apify Instagram Scraper,Tools,Development,Development,LIBRARIES/LBS_003_Tools/By_Category/Development/Apify_Instagram_Scraper.json,1,Active,TOOL-DEV-042,Tool: Apify Instagram Scraper
+TOOL-DEV-041,Apify LinkedIn Jobs Scraper,Tools,Development,Development,LIBRARIES/LBS_003_Tools/By_Category/Development/Apify_LinkedIn_Jobs_Scraper.json,1,Active,TOOL-DEV-041,Tool: Apify LinkedIn Jobs Scraper
+TOOL-DEV-043,Apify TikTok Scraper,Tools,Development,Development,LIBRARIES/LBS_003_Tools/By_Category/Development/Apify_TikTok_Scraper.json,1,Active,TOOL-DEV-043,Tool: Apify TikTok Scraper
+TOOL-DEV-052,Claude Code,Tools,Development,Development,LIBRARIES/LBS_003_Tools/By_Category/Development/Claude_Code.json,1,Active,TOOL-DEV-052,Tool: Claude Code
+TOOL-DEV-044,Cursor,Tools,Development,Development,LIBRARIES/LBS_003_Tools/By_Category/Development/Cursor.json,1,Active,TOOL-DEV-044,Tool: Cursor
+TOOL-DEV-005,Docker,Tools,Development,Development,LIBRARIES/LBS_003_Tools/By_Category/Development/Docker.json,1,Active,TOOL-DEV-005,Tool: Docker
+TOOL-DEV-002,FastAPI,Tools,Development,Development,LIBRARIES/LBS_003_Tools/By_Category/Development/FastAPI.json,1,Active,TOOL-DEV-002,Tool: FastAPI
+TOOL-DEV-006,GitHub Actions,Tools,Development,Development,LIBRARIES/LBS_003_Tools/By_Category/Development/GitHub_Actions.json,1,Active,TOOL-DEV-006,Tool: GitHub Actions
+TOOL-DEV-045,Google Cloud Console,Tools,Development,Development,LIBRARIES/LBS_003_Tools/By_Category/Development/Google_Cloud_Console.json,1,Active,TOOL-DEV-045,Tool: Google Cloud Console
+TOOL-DEV-008,Jest,Tools,Development,Development,LIBRARIES/LBS_003_Tools/By_Category/Development/Jest.json,1,Active,TOOL-DEV-008,Tool: Jest
+TOOL-DEV-046,MCP (Model Context Protocol),Tools,Development,Development,LIBRARIES/LBS_003_Tools/By_Category/Development/MCP_Protocol.json,1,Active,TOOL-DEV-046,Tool: MCP (Model Context Protocol)
+TOOL-DEV-001,Playwright,Tools,Development,Development,LIBRARIES/LBS_003_Tools/By_Category/Development/Playwright.json,1,Active,TOOL-DEV-001,Tool: Playwright
+TOOL-DEV-007,Pytest,Tools,Development,Development,LIBRARIES/LBS_003_Tools/By_Category/Development/Pytest.json,1,Active,TOOL-DEV-007,Tool: Pytest
+TOOL-DEV-003,React,Tools,Development,Development,LIBRARIES/LBS_003_Tools/By_Category/Development/React.json,1,Active,TOOL-DEV-003,Tool: React
+TOOL-DEV-012,Sentry,Tools,Development,Development,LIBRARIES/LBS_003_Tools/By_Category/Development/Sentry.json,1,Active,TOOL-DEV-012,Tool: Sentry
+TOOL-DEV-010,shadcn/ui,Tools,Development,Development,LIBRARIES/LBS_003_Tools/By_Category/Development/shadcn_ui.json,1,Active,TOOL-DEV-010,Tool: shadcn/ui
+TOOL-DEV-004,Streamlit,Tools,Development,Development,LIBRARIES/LBS_003_Tools/By_Category/Development/Streamlit.json,1,Active,TOOL-DEV-004,Tool: Streamlit
+TOOL-DEV-011,Tailwind CSS,Tools,Development,Development,LIBRARIES/LBS_003_Tools/By_Category/Development/Tailwind_CSS.json,1,Active,TOOL-DEV-011,Tool: Tailwind CSS
+TOOL-DEV-009,Vite,Tools,Development,Development,LIBRARIES/LBS_003_Tools/By_Category/Development/Vite.json,1,Active,TOOL-DEV-009,Tool: Vite
+TOOL-111,Visual Studio Code (VS Code),Tools,Development,Development,LIBRARIES/LBS_003_Tools/By_Category/Development/VS_Code.json,1,Active,TOOL-111,Tool: Visual Studio Code (VS Code)
+TOOL-SMM-001,Instagram,Tools,Marketing,Social Media,LIBRARIES/LBS_003_Tools/By_Category/Social_Media/Instagram.json,1,Active,TOOL-SMM-001,Tool: Instagram
+TOOL-VIDEO-015,Adobe Premiere Pro,Tools,Video Production,Video Editing,LIBRARIES/LBS_003_Tools/By_Category/Video_Editing/Premiere_Pro.json,1,Active,TOOL-VIDEO-015,Tool: Adobe Premiere Pro
+TOOL-DEV-001,Auth0,Tools,Development,Authentication Tools,LIBRARIES/LBS_003_Tools/Authentication_Tools/Auth0.json,1,Active,TOOL-DEV-001,Tool: Auth0
+TOOL-DEV-004,Azure,Tools,Operations,Cloud Platforms,LIBRARIES/LBS_003_Tools/Cloud_Platforms/Azure.json,1,Active,TOOL-DEV-004,Tool: Azure
+TOOL-DEV-002,DigitalOcean,Tools,Operations,Cloud Platforms,LIBRARIES/LBS_003_Tools/Cloud_Platforms/DigitalOcean.json,1,Active,TOOL-DEV-002,Tool: DigitalOcean
+TOOL-DEV-003,Hugging Face,Tools,Operations,Cloud Platforms,LIBRARIES/LBS_003_Tools/Cloud_Platforms/Hugging_Face.json,1,Active,TOOL-DEV-003,Tool: Hugging Face
+TOOL-DEV-004,Model Scope,Tools,Operations,Cloud Platforms,LIBRARIES/LBS_003_Tools/Cloud_Platforms/Model_Scope.json,1,Active,TOOL-DEV-004,Tool: Model Scope
+TOOL-DEV-001,Render,Tools,Operations,Cloud Platforms,LIBRARIES/LBS_003_Tools/Cloud_Platforms/Render.json,1,Active,TOOL-DEV-001,Tool: Render
+TOOL-DEV-003,RunPod,Tools,Operations,Cloud Platforms,LIBRARIES/LBS_003_Tools/Cloud_Platforms/RunPod.json,1,Active,TOOL-DEV-003,Tool: RunPod
+TOOL-DEV-001,Neo4j,Tools,Development,Databases,LIBRARIES/LBS_003_Tools/Databases/Neo4j.json,1,Active,TOOL-DEV-001,Tool: Neo4j
+TOOL-DEV-005,Neon,Tools,Development,Databases,LIBRARIES/LBS_003_Tools/Databases/Neon.json,1,Active,TOOL-DEV-005,Tool: Neon
+TOOL-DEV-006,PGVector,Tools,Development,Databases,LIBRARIES/LBS_003_Tools/Databases/PGVector.json,1,Active,TOOL-DEV-006,Tool: PGVector
+TOOL-DEV-002,PostgreSQL,Tools,Development,Databases,LIBRARIES/LBS_003_Tools/Databases/Postgres.json,1,Active,TOOL-DEV-002,Tool: PostgreSQL
+TOOL-DEV-003,Redis,Tools,Development,Databases,LIBRARIES/LBS_003_Tools/Databases/Redis.json,1,Active,TOOL-DEV-003,Tool: Redis
+TOOL-DEV-004,Supabase,Tools,Development,Databases,LIBRARIES/LBS_003_Tools/Databases/Supabase.json,1,Active,TOOL-DEV-004,Tool: Supabase
+TOOL-DEV-007,Valkey,Tools,Development,Databases,LIBRARIES/LBS_003_Tools/Databases/Valkey.json,1,Active,TOOL-DEV-007,Tool: Valkey
+TOOL-DEV-006,Airscale,Tools,Development,Data Tools,LIBRARIES/LBS_003_Tools/Data_Tools/Airscale.json,1,Active,TOOL-DEV-006,Tool: Airscale
+TOOL-DEV-007,Anymailfinder,Tools,Development,Data Tools,LIBRARIES/LBS_003_Tools/Data_Tools/Anymailfinder.json,1,Active,TOOL-DEV-007,Tool: Anymailfinder
+TOOL-DEV-008,Bright Data,Tools,Development,Data Tools,LIBRARIES/LBS_003_Tools/Data_Tools/Bright_Data.json,1,Active,TOOL-DEV-008,Tool: Bright Data
+TOOL-DEV-001,GitHub,Tools,Multi-Department,Developer Platforms,LIBRARIES/LBS_003_Tools/Developer_Platforms/GitHub.json,1,Active,TOOL-DEV-001,Tool: GitHub
+TOOL-FILE-006,Dropbox,Tools,Operations,File Management,LIBRARIES/LBS_003_Tools/File_Management/Dropbox.json,1,Active,TOOL-FILE-006,Tool: Dropbox
+TOOL-INFRA-001,Caddy,Tools,Multi-Department,Infrastructure Tools,LIBRARIES/LBS_003_Tools/Infrastructure_Tools/Caddy.json,1,Active,TOOL-INFRA-001,Tool: Caddy
+TOOL-DEV-003,CRM MCP Connector (Airtable),Tools,Development,Integration Tools,LIBRARIES/LBS_003_Tools/Integration_Tools/CRM_MCP_Connector.json,1,Active,TOOL-DEV-003,Tool: CRM MCP Connector (Airtable)
+TOOL-DEV-001,Gmail MCP Connector,Tools,Development,Integration Tools,LIBRARIES/LBS_003_Tools/Integration_Tools/Gmail_MCP_Connector.json,1,Active,TOOL-DEV-001,Tool: Gmail MCP Connector
+TOOL-DEV-002,Google Calendar MCP Connector,Tools,Development,Integration Tools,LIBRARIES/LBS_003_Tools/Integration_Tools/Google_Calendar_MCP_Connector.json,1,Active,TOOL-DEV-002,Tool: Google Calendar MCP Connector
+TOOL-118,Product_Management_Decision_Framework,Tools,Multi-Department,Methodologies,LIBRARIES/LBS_003_Tools/Methodologies/Product_Management_Decision_Framework.json,1,Active,TOOL-118,Tool: Product_Management_Decision_Framework
+TOOL-SLS-001,Stripe,Tools,Operations,Payment Tools,LIBRARIES/LBS_003_Tools/Payment_Tools/Stripe.json,1,Active,TOOL-SLS-001,Tool: Stripe
+TOOL-PUB-001,Medium,Tools,Multi-Department,Publishing Platforms,LIBRARIES/LBS_003_Tools/Publishing_Platforms/Medium.json,1,Active,TOOL-PUB-001,Tool: Medium
+TOOL-114,Dropbox_Protect_and_Control,Tools,Operations,Security Tools,LIBRARIES/LBS_003_Tools/Security_Tools/Dropbox_Protect_and_Control.json,1,Active,TOOL-114,Tool: Dropbox_Protect_and_Control
+TOOL-DEV-002,Apify,Tools,Development,Web Tools,LIBRARIES/LBS_003_Tools/Web_Tools/Apify.json,1,Active,TOOL-DEV-002,Tool: Apify
+TOOL-DEV-001,Brave Search,Tools,Development,Web Tools,LIBRARIES/LBS_003_Tools/Web_Tools/Brave_Search.json,1,Active,TOOL-DEV-001,Tool: Brave Search
+TOOL-DEV-003,Firecrawl,Tools,Development,Web Tools,LIBRARIES/LBS_003_Tools/Web_Tools/Firecrawl.json,1,Active,TOOL-DEV-003,Tool: Firecrawl
+TOOL-PORT-002,ArtStation,Tools,Multi-Department,Platform,LIBRARIES/LBS_003_Tools/ArtStation.json,1,Active,TOOL-PORT-002,Tool: ArtStation
+TOOL-DEV-003,Dev.to,Tools,Multi-Department,Platform,LIBRARIES/LBS_003_Tools/Dev_to.json,1,Active,TOOL-DEV-003,Tool: Dev.to
+TOOL-COMM-002,Discord,Tools,Multi-Department,Platform,LIBRARIES/LBS_003_Tools/Discord.json,1,Active,TOOL-COMM-002,Tool: Discord
+TOOL-SMM-004,Facebook,Tools,Multi-Department,Platform,LIBRARIES/LBS_003_Tools/Facebook.json,1,Active,TOOL-SMM-004,Tool: Facebook
+TOOL-DEV-001,GitHub,Tools,Multi-Department,Platform,LIBRARIES/LBS_003_Tools/GitHub.json,1,Active,TOOL-DEV-001,Tool: GitHub
+TOOL-PUB-003,Hashnode,Tools,Multi-Department,Platform,LIBRARIES/LBS_003_Tools/Hashnode.json,1,Active,TOOL-PUB-003,Tool: Hashnode
+TOOL-SMM-007,LinkedIn,Tools,Multi-Department,Platform,LIBRARIES/LBS_003_Tools/LinkedIn.json,1,Active,TOOL-SMM-007,Tool: LinkedIn
+TOOL-BIZ-003,Lunchclub,Tools,Multi-Department,Platform,LIBRARIES/LBS_003_Tools/Lunchclub.json,1,Active,TOOL-BIZ-003,Tool: Lunchclub
+TOOL-PUB-001,Medium,Tools,Multi-Department,Platform,LIBRARIES/LBS_003_Tools/Medium.json,1,Active,TOOL-PUB-001,Tool: Medium
+TOOL-SMM-005,Pinterest,Tools,Multi-Department,Platform,LIBRARIES/LBS_003_Tools/Pinterest.json,1,Active,TOOL-SMM-005,Tool: Pinterest
+TOOL-PUB-004,Quora,Tools,Multi-Department,Platform,LIBRARIES/LBS_003_Tools/Quora.json,1,Active,TOOL-PUB-004,Tool: Quora
+TOOL-DEV-002,Stack Overflow,Tools,Multi-Department,Platform,LIBRARIES/LBS_003_Tools/Stack_Overflow.json,1,Active,TOOL-DEV-002,Tool: Stack Overflow
+TOOL-PUB-002,Substack,Tools,Multi-Department,Platform,LIBRARIES/LBS_003_Tools/Substack.json,1,Active,TOOL-PUB-002,Tool: Substack
+TOOL-COMM-001,Telegram,Tools,Multi-Department,Platform,LIBRARIES/LBS_003_Tools/Telegram.json,1,Active,TOOL-COMM-001,Tool: Telegram
+TOOL-SMM-008,Threads,Tools,Multi-Department,Platform,LIBRARIES/LBS_003_Tools/Threads.json,1,Active,TOOL-SMM-008,Tool: Threads
+TOOL-SMM-003,TikTok,Tools,Multi-Department,Platform,LIBRARIES/LBS_003_Tools/TikTok.json,1,Active,TOOL-SMM-003,Tool: TikTok
+TOOL-215,tool_validation_log_2025-11-10,Tools,Multi-Department,Platform,LIBRARIES/LBS_003_Tools/tool_validation_log_2025-11-10.json,1,Active,TOOL-215,Tool: tool_validation_log_2025-11-10
+TOOL-SMM-006,Twitter/X,Tools,Multi-Department,Platform,LIBRARIES/LBS_003_Tools/Twitter.json,1,Active,TOOL-SMM-006,Tool: Twitter/X
+TOOL-VID-002,Vimeo,Tools,Multi-Department,Platform,LIBRARIES/LBS_003_Tools/Vimeo.json,1,Active,TOOL-VID-002,Tool: Vimeo
+TOOL-VID-001,YouTube,Tools,Multi-Department,Platform,LIBRARIES/LBS_003_Tools/YouTube.json,1,Active,TOOL-VID-001,Tool: YouTube
+SKL-001,screened candidates via CRM,Skills,Managers (HR),Skill,LIBRARIES/../TALENTS/Skills/Master/all_skills.json,1,Active,SKL-001,Skill: screened candidates via CRM
+SKL-002,conducted video interviews via Zoom,Skills,Managers (HR),Skill,LIBRARIES/../TALENTS/Skills/Master/all_skills.json,1,Active,SKL-002,Skill: conducted video interviews via Zoom
+SKL-003,sent job offers via Gmail,Skills,Managers (HR),Skill,LIBRARIES/../TALENTS/Skills/Master/all_skills.json,1,Active,SKL-003,Skill: sent job offers via Gmail
+SKL-004,updated candidate status in CRM,Skills,Managers (HR),Skill,LIBRARIES/../TALENTS/Skills/Master/all_skills.json,1,Active,SKL-004,Skill: updated candidate status in CRM
+SKL-005,analyzed recruitment data in Google Sheets,Skills,Managers (HR),Skill,LIBRARIES/../TALENTS/Skills/Master/all_skills.json,1,Active,SKL-005,Skill: analyzed recruitment data in Google Sheets
+SKL-010,sent cold emails via Gmail,Skills,Lead Generation,Skill,LIBRARIES/../TALENTS/Skills/Master/all_skills.json,1,Active,SKL-010,Skill: sent cold emails via Gmail
+SKL-011,automated email campaigns using n8n,Skills,Lead Generation,Skill,LIBRARIES/../TALENTS/Skills/Master/all_skills.json,1,Active,SKL-011,Skill: automated email campaigns using n8n
+SKL-012,tracked email responses in CRM,Skills,Lead Generation,Skill,LIBRARIES/../TALENTS/Skills/Master/all_skills.json,1,Active,SKL-012,Skill: tracked email responses in CRM
+SKL-013,searched companies on LinkedIn,Skills,Lead Generation,Skill,LIBRARIES/../TALENTS/Skills/Master/all_skills.json,1,Active,SKL-013,Skill: searched companies on LinkedIn
+SKL-014,scraped contact data using automation tools,Skills,Lead Generation,Skill,LIBRARIES/../TALENTS/Skills/Master/all_skills.json,1,Active,SKL-014,Skill: scraped contact data using automation tools
+SKL-020,created UI mockups in Figma,Skills,Design,Skill,LIBRARIES/../TALENTS/Skills/Master/all_skills.json,1,Active,SKL-020,Skill: created UI mockups in Figma
+SKL-021,designed social media posts in Canva,Skills,Design,Skill,LIBRARIES/../TALENTS/Skills/Master/all_skills.json,1,Active,SKL-021,Skill: designed social media posts in Canva
+SKL-022,exported design files from Figma,Skills,Design,Skill,LIBRARIES/../TALENTS/Skills/Master/all_skills.json,1,Active,SKL-022,Skill: exported design files from Figma
+SKL-023,generated AI images using Midjourney,Skills,Design,Skill,LIBRARIES/../TALENTS/Skills/Master/all_skills.json,1,Active,SKL-023,Skill: generated AI images using Midjourney
+SKL-024,shared design previews via Discord,Skills,Design,Skill,LIBRARIES/../TALENTS/Skills/Master/all_skills.json,1,Active,SKL-024,Skill: shared design previews via Discord
+SKL-030,developed features in React,Skills,Developers,Skill,LIBRARIES/../TALENTS/Skills/Master/all_skills.json,1,Active,SKL-030,Skill: developed features in React
+SKL-031,created APIs using Node.js,Skills,Developers,Skill,LIBRARIES/../TALENTS/Skills/Master/all_skills.json,1,Active,SKL-031,Skill: created APIs using Node.js
+SKL-032,managed code via GitHub,Skills,Developers,Skill,LIBRARIES/../TALENTS/Skills/Master/all_skills.json,1,Active,SKL-032,Skill: managed code via GitHub
+SKL-033,debugged applications using DevTools,Skills,Developers,Skill,LIBRARIES/../TALENTS/Skills/Master/all_skills.json,1,Active,SKL-033,Skill: debugged applications using DevTools
+SKL-034,deployed applications to production servers,Skills,Developers,Skill,LIBRARIES/../TALENTS/Skills/Master/all_skills.json,1,Active,SKL-034,Skill: deployed applications to production servers
+SKL-040,conducted discovery calls via Zoom,Skills,Sales,Skill,LIBRARIES/../TALENTS/Skills/Master/all_skills.json,1,Active,SKL-040,Skill: conducted discovery calls via Zoom
+SKL-041,created proposals in Google Docs,Skills,Sales,Skill,LIBRARIES/../TALENTS/Skills/Master/all_skills.json,1,Active,SKL-041,Skill: created proposals in Google Docs
+SKL-042,tracked deals in CRM,Skills,Sales,Skill,LIBRARIES/../TALENTS/Skills/Master/all_skills.json,1,Active,SKL-042,Skill: tracked deals in CRM
+SKL-043,sent contracts via DocuSign,Skills,Sales,Skill,LIBRARIES/../TALENTS/Skills/Master/all_skills.json,1,Active,SKL-043,Skill: sent contracts via DocuSign
+SKL-044,analyzed sales data in Google Sheets,Skills,Sales,Skill,LIBRARIES/../TALENTS/Skills/Master/all_skills.json,1,Active,SKL-044,Skill: analyzed sales data in Google Sheets
+SKL-050,edited videos in Adobe Premiere,Skills,Video,Skill,LIBRARIES/../TALENTS/Skills/Master/all_skills.json,1,Active,SKL-050,Skill: edited videos in Adobe Premiere
+SKL-051,added subtitles in Adobe Premiere,Skills,Video,Skill,LIBRARIES/../TALENTS/Skills/Master/all_skills.json,1,Active,SKL-051,Skill: added subtitles in Adobe Premiere
+SKL-052,created animations in After Effects,Skills,Video,Skill,LIBRARIES/../TALENTS/Skills/Master/all_skills.json,1,Active,SKL-052,Skill: created animations in After Effects
+PRF-001,Account Executive,Professions,Managers,Role,LIBRARIES/LBS_005_Professions/Individual/Account_Executive.json,1,Active,PRF-001,Profession: account executive
+PRF-002,Ai Engineer,Professions,Developers,Role,LIBRARIES/LBS_005_Professions/Individual/AI_Engineer.json,1,Active,PRF-002,Profession: ai engineer
+PRF-003,Automation Engineer,Professions,Developers,Role,LIBRARIES/LBS_005_Professions/Individual/Automation_Engineer.json,1,Active,PRF-003,Profession: automation engineer
+PRF-004,Automation Specialist,Professions,Developers,Role,LIBRARIES/LBS_005_Professions/Individual/Automation_Specialist.json,1,Active,PRF-004,Profession: automation specialist
+PRF-005,Back End Developer,Professions,Developers,Role,LIBRARIES/LBS_005_Professions/Individual/Backend_Developer.json,1,Active,PRF-005,Profession: back end developer
+PRF-006,Customer Success Manager,Professions,Managers,Role,LIBRARIES/LBS_005_Professions/Individual/Customer_Success_Manager.json,1,Active,PRF-006,Profession: customer success manager
+PRF-007,Developer,Professions,Technology,Role,LIBRARIES/LBS_005_Professions/Individual/Developer.json,1,Active,PRF-007,Profession: developer
+PRF-008,Executive Assistant,Professions,Managers,Role,LIBRARIES/LBS_005_Professions/Individual/Executive_Assistant.json,1,Active,PRF-008,Profession: executive assistant
+PRF-009,Lead Generator,Professions,Managers,Role,LIBRARIES/LBS_005_Professions/Individual/Lead_Generator.json,1,Active,PRF-009,Profession: lead generator
+PRF-010,Marketer,Professions,Ai,Role,LIBRARIES/LBS_005_Professions/Individual/Marketer.json,1,Active,PRF-010,Profession: marketer
+PRF-011,Operations Manager,Professions,Managers,Role,LIBRARIES/LBS_005_Professions/Individual/Operations_Manager.json,1,Active,PRF-011,Profession: operations manager
+PRF-012,Recruiter,Professions,Hr,Role,LIBRARIES/LBS_005_Professions/Individual/Recruiter.json,1,Active,PRF-012,Profession: recruiter
+PRF-013,Sdr,Professions,Managers,Role,LIBRARIES/LBS_005_Professions/Individual/SDR.json,1,Active,PRF-013,Profession: sdr
+PRF-014,Smm_Specialist,Professions,Ai,Role,LIBRARIES/LBS_005_Professions/Individual/SMM_Specialist.json,1,Active,PRF-014,Profession: smm_specialist
+PRF-015,Videographer,Professions,Creative,Role,LIBRARIES/LBS_005_Professions/Individual/Videographer.json,1,Active,PRF-015,Profession: videographer
+RESP-001,screen candidates,Responsibilities,Managers (HR),Responsibility,LIBRARIES/Responsibilities/responsibilities.json,1,Active,RESP-001,Responsibility: screen candidates
+RESP-002,generate leads,Responsibilities,Lead Generation,Responsibility,LIBRARIES/Responsibilities/responsibilities.json,1,Active,RESP-002,Responsibility: generate leads
+RESP-003,design UI mockups,Responsibilities,Design,Responsibility,LIBRARIES/Responsibilities/responsibilities.json,1,Active,RESP-003,Responsibility: design UI mockups
+RESP-004,develop frontend features,Responsibilities,Developers,Responsibility,LIBRARIES/Responsibilities/responsibilities.json,1,Active,RESP-004,Responsibility: develop frontend features
+RESP-005,manage sales pipeline,Responsibilities,Sales,Responsibility,LIBRARIES/Responsibilities/responsibilities.json,1,Active,RESP-005,Responsibility: manage sales pipeline
+RESP-006,produce videos,Responsibilities,Video,Responsibility,LIBRARIES/Responsibilities/responsibilities.json,1,Active,RESP-006,Responsibility: produce videos
+OBJ-AI-017,AI Agent,Objects,Agentic_Engineering / AI Systems,Object,LIBRARIES/Responsibilities/Objects/Agentic_Engineering_Objects.json,1,Active,OBJ-AI-017,Object: AI Agent
+OBJ-AI-018,Full Stack Application,Objects,Agentic_Engineering / Deliverables,Object,LIBRARIES/Responsibilities/Objects/Agentic_Engineering_Objects.json,1,Active,OBJ-AI-018,Object: Full Stack Application
+OBJ-AI-019,API Endpoint,Objects,Agentic_Engineering / Backend Components,Object,LIBRARIES/Responsibilities/Objects/Agentic_Engineering_Objects.json,1,Active,OBJ-AI-019,Object: API Endpoint
+OBJ-AI-020,Frontend UI Component,Objects,Agentic_Engineering / Frontend Components,Object,LIBRARIES/Responsibilities/Objects/Agentic_Engineering_Objects.json,1,Active,OBJ-AI-020,Object: Frontend UI Component
+OBJ-AI-021,RAG System,Objects,Agentic_Engineering / AI Systems,Object,LIBRARIES/Responsibilities/Objects/Agentic_Engineering_Objects.json,1,Active,OBJ-AI-021,Object: RAG System
+OBJ-AI-022,Knowledge Graph,Objects,Agentic_Engineering / Data Structures,Object,LIBRARIES/Responsibilities/Objects/Agentic_Engineering_Objects.json,1,Active,OBJ-AI-022,Object: Knowledge Graph
+OBJ-AI-023,Containerized Application,Objects,Agentic_Engineering / Deployment,Object,LIBRARIES/Responsibilities/Objects/Agentic_Engineering_Objects.json,1,Active,OBJ-AI-023,Object: Containerized Application
+OBJ-AI-024,CI/CD Pipeline,Objects,Agentic_Engineering / Automation,Object,LIBRARIES/Responsibilities/Objects/Agentic_Engineering_Objects.json,1,Active,OBJ-AI-024,Object: CI/CD Pipeline
+OBJ-AI-025,Automated Test Suite,Objects,Agentic_Engineering / Quality Assurance,Object,LIBRARIES/Responsibilities/Objects/Agentic_Engineering_Objects.json,1,Active,OBJ-AI-025,Object: Automated Test Suite
+OBJ-AI-026,Multi-Agent System,Objects,Agentic_Engineering / AI Systems,Object,LIBRARIES/Responsibilities/Objects/Agentic_Engineering_Objects.json,1,Active,OBJ-AI-026,Object: Multi-Agent System
+OBJ-AI-027,Evaluation System,Objects,Agentic_Engineering / Quality Assurance,Object,LIBRARIES/Responsibilities/Objects/Agentic_Engineering_Objects.json,1,Active,OBJ-AI-027,Object: Evaluation System
+OBJ-AI-028,Agentic Workflow,Objects,Agentic_Engineering / AI Systems,Object,LIBRARIES/Responsibilities/Objects/Agentic_Engineering_Objects.json,1,Active,OBJ-AI-028,Object: Agentic Workflow
+OBJ-AI-029,Ground Truth Dataset,Objects,Agentic_Engineering / Data,Object,LIBRARIES/Responsibilities/Objects/Agentic_Engineering_Objects.json,1,Active,OBJ-AI-029,Object: Ground Truth Dataset
+OBJ-AI-001,MCP Connector,Objects,AI_Automation,Object,LIBRARIES/Responsibilities/Objects/AI_Automation_Objects.json,1,Active,OBJ-AI-001,Object: MCP Connector
+OBJ-AI-002,Email Draft,Objects,AI_Automation,Object,LIBRARIES/Responsibilities/Objects/AI_Automation_Objects.json,1,Active,OBJ-AI-002,Object: Email Draft
+OBJ-AI-003,Calendar Event,Objects,AI_Automation,Object,LIBRARIES/Responsibilities/Objects/AI_Automation_Objects.json,1,Active,OBJ-AI-003,Object: Calendar Event
+OBJ-AI-004,Meeting Transcript,Objects,AI_Automation,Object,LIBRARIES/Responsibilities/Objects/AI_Automation_Objects.json,1,Active,OBJ-AI-004,Object: Meeting Transcript
+OBJ-AI-005,CRM Record,Objects,AI_Automation,Object,LIBRARIES/Responsibilities/Objects/AI_Automation_Objects.json,1,Active,OBJ-AI-005,Object: CRM Record
+OBJ-AI-006,API Credentials,Objects,AI_Automation,Object,LIBRARIES/Responsibilities/Objects/AI_Automation_Objects.json,1,Active,OBJ-AI-006,Object: API Credentials
+OBJ-AI-007,Automation Workflow,Objects,AI_Automation,Object,LIBRARIES/Responsibilities/Objects/AI_Automation_Objects.json,1,Active,OBJ-AI-007,Object: Automation Workflow
+OBJ-AI-008,Newsletter Subscriber,Objects,AI_Automation,Object,LIBRARIES/Responsibilities/Objects/AI_Automation_Objects.json,1,Active,OBJ-AI-008,Object: Newsletter Subscriber
+OBJ-AI-009,Claude Skill,Objects,AI_Automation,Object,LIBRARIES/Responsibilities/Objects/AI_Automation_Objects.json,1,Active,OBJ-AI-009,Object: Claude Skill
+OBJ-AI-010,Connector Code,Objects,AI_Automation,Object,LIBRARIES/Responsibilities/Objects/AI_Automation_Objects.json,1,Active,OBJ-AI-010,Object: Connector Code
+OBJ-AI-011,Export Folder Structure,Objects,AI_Automation,Object,LIBRARIES/Responsibilities/Objects/AI_Automation_Objects.json,1,Active,OBJ-AI-011,Object: Export Folder Structure
+OBJ-AI-012,Taxonomy Training Material,Objects,AI_Automation,Object,LIBRARIES/Responsibilities/Objects/AI_Automation_Objects.json,1,Active,OBJ-AI-012,Object: Taxonomy Training Material
+OBJ-DESIGN-006,Catalog Documentation,Objects,Design / Documentation,Object,LIBRARIES/Responsibilities/Objects/Catalog_Documentation.json,1,Active,OBJ-DESIGN-006,Object: Catalog Documentation
+OBJ-DEV-001,Dashboard Application,Objects,Development,Object,LIBRARIES/Responsibilities/Objects/Development_Objects.json,1,Active,OBJ-DEV-001,Object: Dashboard Application
+OBJ-DEV-002,Internationalization System,Objects,Development,Object,LIBRARIES/Responsibilities/Objects/Development_Objects.json,1,Active,OBJ-DEV-002,Object: Internationalization System
+OBJ-DEV-003,n8n Workflow,Objects,Development / Automation,Object,LIBRARIES/Responsibilities/Objects/Development_Objects.json,1,Active,OBJ-DEV-003,Object: n8n Workflow
+OBJ-DEV-004,Chart Component Library,Objects,Development / UI Components,Object,LIBRARIES/Responsibilities/Objects/Development_Objects.json,1,Active,OBJ-DEV-004,Object: Chart Component Library
+OBJ-DEV-005,Modal Component System,Objects,Development / UI Components,Object,LIBRARIES/Responsibilities/Objects/Development_Objects.json,1,Active,OBJ-DEV-005,Object: Modal Component System
+OBJ-DEV-006,Theme System,Objects,Development / UI Systems,Object,LIBRARIES/Responsibilities/Objects/Development_Objects.json,1,Active,OBJ-DEV-006,Object: Theme System
+OBJ-DEV-007,Cache System,Objects,Development / Backend,Object,LIBRARIES/Responsibilities/Objects/Development_Objects.json,1,Active,OBJ-DEV-007,Object: Cache System
+OBJ-DEV-008,Bookmarklet,Objects,Development / Browser Tools,Object,LIBRARIES/Responsibilities/Objects/Development_Objects.json,1,Active,OBJ-DEV-008,Object: Bookmarklet
+OBJ-DEV-009,GitHub Repository,Objects,Development / Version Control,Object,LIBRARIES/Responsibilities/Objects/Development_Objects.json,1,Active,OBJ-DEV-009,Object: GitHub Repository
+OBJ-DOC-001,Job Posting,Objects,Documents,Object,LIBRARIES/Responsibilities/Objects/Documents.json,1,Active,OBJ-DOC-001,Object: Job Posting
+OBJ-DOC-002,Client Proposal,Objects,Documents,Object,LIBRARIES/Responsibilities/Objects/Documents.json,1,Active,OBJ-DOC-002,Object: Client Proposal
+OBJ-DOC-003,Report,Objects,Documents,Object,LIBRARIES/Responsibilities/Objects/Documents.json,1,Active,OBJ-DOC-003,Object: Report
+OBJ-DOC-004,Contract,Objects,Documents,Object,LIBRARIES/Responsibilities/Objects/Documents.json,1,Active,OBJ-DOC-004,Object: Contract
+OBJ-DOC-005,Invoice,Objects,Documents,Object,LIBRARIES/Responsibilities/Objects/Documents.json,1,Active,OBJ-DOC-005,Object: Invoice
+OBJ-DESIGN-005,Interactive Element,Objects,Design / UI Components,Object,LIBRARIES/Responsibilities/Objects/Interactive_Elements.json,1,Active,OBJ-DESIGN-005,Object: Interactive Element
+OBJ-001,Lead List,Objects,Lead_Generation,Object,LIBRARIES/Responsibilities/Objects/Lead_Generation_Objects.json,1,Active,OBJ-001,Object: Lead List
+OBJ-002,Email Address,Objects,Lead_Generation,Object,LIBRARIES/Responsibilities/Objects/Lead_Generation_Objects.json,1,Active,OBJ-002,Object: Email Address
+OBJ-003,Company Domain,Objects,Lead_Generation,Object,LIBRARIES/Responsibilities/Objects/Lead_Generation_Objects.json,1,Active,OBJ-003,Object: Company Domain
+OBJ-004,Enrichment Pipeline,Objects,Lead_Generation,Object,LIBRARIES/Responsibilities/Objects/Lead_Generation_Objects.json,1,Active,OBJ-004,Object: Enrichment Pipeline
+OBJ-005,Search Query,Objects,Lead_Generation,Object,LIBRARIES/Responsibilities/Objects/Lead_Generation_Objects.json,1,Active,OBJ-005,Object: Search Query
+OBJ-006,Business Listing,Objects,Lead_Generation,Object,LIBRARIES/Responsibilities/Objects/Lead_Generation_Objects.json,1,Active,OBJ-006,Object: Business Listing
+OBJ-007,Job Posting (Lead Gen Context),Objects,Lead_Generation,Object,LIBRARIES/Responsibilities/Objects/Lead_Generation_Objects.json,1,Active,OBJ-007,Object: Job Posting (Lead Gen Context)
+OBJ-008,Social Profile,Objects,Lead_Generation,Object,LIBRARIES/Responsibilities/Objects/Lead_Generation_Objects.json,1,Active,OBJ-008,Object: Social Profile
+OBJ-009,SERP Result,Objects,Lead_Generation,Object,LIBRARIES/Responsibilities/Objects/Lead_Generation_Objects.json,1,Active,OBJ-009,Object: SERP Result
+OBJ-010,Pre-Scraped Dataset,Objects,Lead_Generation,Object,LIBRARIES/Responsibilities/Objects/Lead_Generation_Objects.json,1,Active,OBJ-010,Object: Pre-Scraped Dataset
+OBJ-011,CRM Communication Log,Objects,Lead_Generation,Object,LIBRARIES/Responsibilities/Objects/Lead_Generation_Objects.json,1,Active,OBJ-011,Object: CRM Communication Log
+OBJ-012,Call Booking Record,Objects,Lead_Generation,Object,LIBRARIES/Responsibilities/Objects/Lead_Generation_Objects.json,1,Active,OBJ-012,Object: Call Booking Record
+OBJ-013,Formatted Chat Transcript,Objects,Lead_Generation,Object,LIBRARIES/Responsibilities/Objects/Lead_Generation_Objects.json,1,Active,OBJ-013,Object: Formatted Chat Transcript
+OBJ-DESIGN-002,Mascot Set,Objects,Design / Brand Assets,Object,LIBRARIES/Responsibilities/Objects/Mascot_Sets.json,1,Active,OBJ-DESIGN-002,Object: Mascot Set
+OBJ-DESIGN-004,Online Academy Lesson,Objects,Design / Educational Content,Object,LIBRARIES/Responsibilities/Objects/Online_Academy_Lessons.json,1,Active,OBJ-DESIGN-004,Object: Online Academy Lesson
+OBJ-PORT-001,,Objects,Multi-Department,Object,LIBRARIES/Responsibilities/Objects/Portfolio_Deliverables.json,1,Active,OBJ-PORT-001,Object: 
+OBJ-PORT-002,,Objects,Multi-Department,Object,LIBRARIES/Responsibilities/Objects/Portfolio_Deliverables.json,1,Active,OBJ-PORT-002,Object: 
+OBJ-PORT-003,,Objects,Multi-Department,Object,LIBRARIES/Responsibilities/Objects/Portfolio_Deliverables.json,1,Active,OBJ-PORT-003,Object: 
+OBJ-PORT-004,,Objects,Multi-Department,Object,LIBRARIES/Responsibilities/Objects/Portfolio_Deliverables.json,1,Active,OBJ-PORT-004,Object: 
+OBJ-PUB-001,,Objects,Multi-Department,Object,LIBRARIES/Responsibilities/Objects/Publishing_Deliverables.json,1,Active,OBJ-PUB-001,Object: 
+OBJ-PUB-002,,Objects,Multi-Department,Object,LIBRARIES/Responsibilities/Objects/Publishing_Deliverables.json,1,Active,OBJ-PUB-002,Object: 
+OBJ-AI-011,file_store,Objects,Data / RAG Infrastructure,Object,LIBRARIES/Responsibilities/Objects/RAG_Objects.json,1,Active,OBJ-AI-011,Object: file_store
+OBJ-AI-012,embedding,Objects,Data / ML Objects,Object,LIBRARIES/Responsibilities/Objects/RAG_Objects.json,1,Active,OBJ-AI-012,Object: embedding
+OBJ-AI-013,chunk,Objects,Data / Document Processing,Object,LIBRARIES/Responsibilities/Objects/RAG_Objects.json,1,Active,OBJ-AI-013,Object: chunk
+OBJ-AI-014,citation,Objects,Data / Documentation,Object,LIBRARIES/Responsibilities/Objects/RAG_Objects.json,1,Active,OBJ-AI-014,Object: citation
+OBJ-AI-015,indexed_data,Objects,Data / Search Infrastructure,Object,LIBRARIES/Responsibilities/Objects/RAG_Objects.json,1,Active,OBJ-AI-015,Object: indexed_data
+OBJ-AI-016,vector_database,Objects,Infrastructure / Traditional RAG,Object,LIBRARIES/Responsibilities/Objects/RAG_Objects.json,1,Active,OBJ-AI-016,Object: vector_database
+OBJ-REC-001,,Objects,Multi-Department,Object,LIBRARIES/Responsibilities/Objects/Recruitment_Objects.json,1,Active,OBJ-REC-001,Object: 
+OBJ-REC-002,,Objects,Multi-Department,Object,LIBRARIES/Responsibilities/Objects/Recruitment_Objects.json,1,Active,OBJ-REC-002,Object: 
+OBJ-REC-003,,Objects,Multi-Department,Object,LIBRARIES/Responsibilities/Objects/Recruitment_Objects.json,1,Active,OBJ-REC-003,Object: 
+OBJ-REC-004,,Objects,Multi-Department,Object,LIBRARIES/Responsibilities/Objects/Recruitment_Objects.json,1,Active,OBJ-REC-004,Object: 
+OBJ-REC-005,,Objects,Multi-Department,Object,LIBRARIES/Responsibilities/Objects/Recruitment_Objects.json,1,Active,OBJ-REC-005,Object: 
+OBJ-REC-006,,Objects,Multi-Department,Object,LIBRARIES/Responsibilities/Objects/Recruitment_Objects.json,1,Active,OBJ-REC-006,Object: 
+OBJ-REC-007,,Objects,Multi-Department,Object,LIBRARIES/Responsibilities/Objects/Recruitment_Objects.json,1,Active,OBJ-REC-007,Object: 
+OBJ-REC-008,,Objects,Multi-Department,Object,LIBRARIES/Responsibilities/Objects/Recruitment_Objects.json,1,Active,OBJ-REC-008,Object: 
+OBJ-SMM-001,,Objects,Multi-Department,Object,LIBRARIES/Responsibilities/Objects/Social_Media_Deliverables.json,1,Active,OBJ-SMM-001,Object: 
+OBJ-SMM-002,,Objects,Multi-Department,Object,LIBRARIES/Responsibilities/Objects/Social_Media_Deliverables.json,1,Active,OBJ-SMM-002,Object: 
+OBJ-SMM-003,,Objects,Multi-Department,Object,LIBRARIES/Responsibilities/Objects/Social_Media_Deliverables.json,1,Active,OBJ-SMM-003,Object: 
+OBJ-SMM-004,,Objects,Multi-Department,Object,LIBRARIES/Responsibilities/Objects/Social_Media_Deliverables.json,1,Active,OBJ-SMM-004,Object: 
+OBJ-SMM-005,,Objects,Multi-Department,Object,LIBRARIES/Responsibilities/Objects/Social_Media_Deliverables.json,1,Active,OBJ-SMM-005,Object: 
+OBJ-SMM-006,,Objects,Multi-Department,Object,LIBRARIES/Responsibilities/Objects/Social_Media_Deliverables.json,1,Active,OBJ-SMM-006,Object: 
+OBJ-SMM-007,,Objects,Multi-Department,Object,LIBRARIES/Responsibilities/Objects/Social_Media_Deliverables.json,1,Active,OBJ-SMM-007,Object: 
+OBJ-SMM-008,,Objects,Multi-Department,Object,LIBRARIES/Responsibilities/Objects/Social_Media_Deliverables.json,1,Active,OBJ-SMM-008,Object: 
+OBJ-SMM-009,,Objects,Multi-Department,Object,LIBRARIES/Responsibilities/Objects/Social_Media_Deliverables.json,1,Active,OBJ-SMM-009,Object: 
+OBJ-SMM-010,,Objects,Multi-Department,Object,LIBRARIES/Responsibilities/Objects/Social_Media_Deliverables.json,1,Active,OBJ-SMM-010,Object: 
+OBJ-SMM-011,,Objects,Multi-Department,Object,LIBRARIES/Responsibilities/Objects/Social_Media_Deliverables.json,1,Active,OBJ-SMM-011,Object: 
+OBJ-SMM-012,,Objects,Multi-Department,Object,LIBRARIES/Responsibilities/Objects/Social_Media_Deliverables.json,1,Active,OBJ-SMM-012,Object: 
+OBJ-SMM-013,,Objects,Multi-Department,Object,LIBRARIES/Responsibilities/Objects/Social_Media_Deliverables.json,1,Active,OBJ-SMM-013,Object: 
+OBJ-SMM-014,,Objects,Multi-Department,Object,LIBRARIES/Responsibilities/Objects/Social_Media_Deliverables.json,1,Active,OBJ-SMM-014,Object: 
+OBJ-VID-001,,Objects,Multi-Department,Object,LIBRARIES/Responsibilities/Objects/Video_Deliverables.json,1,Active,OBJ-VID-001,Object: 
+OBJ-VID-002,,Objects,Multi-Department,Object,LIBRARIES/Responsibilities/Objects/Video_Deliverables.json,1,Active,OBJ-VID-002,Object: 
+OBJ-MEDIA-100,AI Video Model,Objects,Media / AI Asset,Object,LIBRARIES/Responsibilities/Objects/Video_Generation_Objects.json,1,Active,OBJ-MEDIA-100,Object: AI Video Model
+OBJ-DATA-050,Diffusion Model Files,Objects,Data / Model Files,Object,LIBRARIES/Responsibilities/Objects/Video_Generation_Objects.json,1,Active,OBJ-DATA-050,Object: Diffusion Model Files
+OBJ-MEDIA-101,Generated Video,Objects,Media / Video,Object,LIBRARIES/Responsibilities/Objects/Video_Generation_Objects.json,1,Active,OBJ-MEDIA-101,Object: Generated Video
+OBJ-PROC-050,Video Workflow,Objects,Process / Template,Object,LIBRARIES/Responsibilities/Objects/Video_Generation_Objects.json,1,Active,OBJ-PROC-050,Object: Video Workflow
+OBJ-DATA-051,VAE Model,Objects,Data / Model Component,Object,LIBRARIES/Responsibilities/Objects/Video_Generation_Objects.json,1,Active,OBJ-DATA-051,Object: VAE Model
+OBJ-DATA-052,Text Encoder,Objects,Data / Model Component,Object,LIBRARIES/Responsibilities/Objects/Video_Generation_Objects.json,1,Active,OBJ-DATA-052,Object: Text Encoder
+OBJ-DOC-100,Workflow Template,Objects,Document / Template,Object,LIBRARIES/Responsibilities/Objects/Video_Generation_Objects.json,1,Active,OBJ-DOC-100,Object: Workflow Template
+OBJ-MEDIA-102,Product Commercial Video,Objects,Media / Video,Object,LIBRARIES/Responsibilities/Objects/Video_Generation_Objects.json,1,Active,OBJ-MEDIA-102,Object: Product Commercial Video
+OBJ-MEDIA-103,Start Frame,Objects,Media / Image,Object,LIBRARIES/Responsibilities/Objects/Video_Generation_Objects.json,1,Active,OBJ-MEDIA-103,Object: Start Frame
+OBJ-MEDIA-104,End Frame,Objects,Media / Image,Object,LIBRARIES/Responsibilities/Objects/Video_Generation_Objects.json,1,Active,OBJ-MEDIA-104,Object: End Frame
+OBJ-MEDIA-105,Character Portrait,Objects,Media / Image,Object,LIBRARIES/Responsibilities/Objects/Video_Generation_Objects.json,1,Active,OBJ-MEDIA-105,Object: Character Portrait
+OBJ-MEDIA-106,Object Image,Objects,Media / Image,Object,LIBRARIES/Responsibilities/Objects/Video_Generation_Objects.json,1,Active,OBJ-MEDIA-106,Object: Object Image
+OBJ-MEDIA-107,Environment Scene,Objects,Media / Image,Object,LIBRARIES/Responsibilities/Objects/Video_Generation_Objects.json,1,Active,OBJ-MEDIA-107,Object: Environment Scene
+OBJ-DATA-053,Reference Image Set,Objects,Data / Collection,Object,LIBRARIES/Responsibilities/Objects/Video_Generation_Objects.json,1,Active,OBJ-DATA-053,Object: Reference Image Set
+OBJ-MEDIA-108,Brand Logo Animation,Objects,Media / Video,Object,LIBRARIES/Responsibilities/Objects/Video_Generation_Objects.json,1,Active,OBJ-MEDIA-108,Object: Brand Logo Animation
+OBJ-MEDIA-109,Social Media Storytelling Video,Objects,Media / Video,Object,LIBRARIES/Responsibilities/Objects/Video_Generation_Objects.json,1,Active,OBJ-MEDIA-109,Object: Social Media Storytelling Video
+OBJ-DOC-101,Time-Based Camera Prompt,Objects,Document / Instruction,Object,LIBRARIES/Responsibilities/Objects/Video_Generation_Objects.json,1,Active,OBJ-DOC-101,Object: Time-Based Camera Prompt
+OBJ-MEDIA-110,Multi-Scene Video,Objects,Media / Video,Object,LIBRARIES/Responsibilities/Objects/Video_Generation_Objects.json,1,Active,OBJ-MEDIA-110,Object: Multi-Scene Video
+DPT-001,AI Engineers,Departments,AI & Automations Department,Department,LIBRARIES/LBS_006_Departments/Master/departments.json,1,Active,AID,Department: AI & Automations Department
+DPT-002,HR Managers,Departments,Human Resources Management,Department,LIBRARIES/LBS_006_Departments/Master/departments.json,1,Active,HRM,Department: Human Resources Management
+DPT-003,Developers,Departments,Development & Engineering,Department,LIBRARIES/LBS_006_Departments/Master/departments.json,1,Active,DEV,Department: Development & Engineering
+DPT-004,Lead Generators,Departments,Lead Generation,Department,LIBRARIES/LBS_006_Departments/Master/departments.json,1,Active,LGN,Department: Lead Generation
+DPT-005,Designers,Departments,Design & Creative,Department,LIBRARIES/LBS_006_Departments/Master/departments.json,1,Active,DGN,Department: Design & Creative
+DPT-006,Video Editors,Departments,Video Production,Department,LIBRARIES/LBS_006_Departments/Master/departments.json,1,Active,VID,Department: Video Production
+DPT-007,Sales Managers,Departments,Sales & Client Relations,Department,LIBRARIES/LBS_006_Departments/Master/departments.json,1,Active,SLS,Department: Sales & Client Relations
+DPT-008,Social Media Managers,Departments,Social Media Management,Department,LIBRARIES/LBS_006_Departments/Master/departments.json,1,Active,SMM,Department: Social Media Management
+DPT-009,Finance Managers,Departments,Finance & Accounting,Department,LIBRARIES/LBS_006_Departments/Master/departments.json,1,Active,FNC,Department: Finance & Accounting

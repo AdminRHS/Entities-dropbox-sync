@@ -1,0 +1,69 @@
+{
+  "entity_type": "LIBRARIES",
+  "sub_entity": "Profession",
+  "profession_name": "automation specialist",
+  "department": "developers",
+  "description": "Specialist focused on implementing and configuring automation solutions, particularly stacked connector workflows and multi-app integrations",
+  "created": "2025-11-12",
+  "updated": "2025-11-12",
+  "skills": [
+    "SKL-073"
+  ],
+  "skill_details": {
+    "SKL-073": {
+      "skill_phrase": "configured stacked connector workflows",
+      "proficiency_level": "advanced",
+      "frequency": "monthly"
+    }
+  },
+  "tools": [
+    "TOOL-AI-030",
+    "TOOL-INT-001",
+    "TOOL-INT-002",
+    "TOOL-INT-003"
+  ],
+  "tool_details": {
+    "TOOL-AI-030": "Claude Desktop App - MCP platform (weekly use)",
+    "TOOL-INT-001": "Gmail MCP Connector - Email integration (weekly use)",
+    "TOOL-INT-002": "Google Calendar MCP Connector - Calendar integration (weekly use)",
+    "TOOL-INT-003": "CRM MCP Connector - CRM integration (weekly use)"
+  },
+  "workflows": [
+    "WF-AI-005"
+  ],
+  "workflow_details": {
+    "WF-AI-005": "Stacked Connector Post-Meeting Automation"
+  },
+  "objects": [
+    "OBJ-AI-009",
+    "OBJ-AI-005",
+    "OBJ-AI-006",
+    "OBJ-AI-007",
+    "OBJ-AI-008"
+  ],
+  "object_details": {
+    "OBJ-AI-009": "Stacked Connector Workflow",
+    "OBJ-AI-005": "Meeting Transcript",
+    "OBJ-AI-006": "Calendar Event",
+    "OBJ-AI-007": "Email Draft",
+    "OBJ-AI-008": "CRM Record"
+  },
+  "actions": [
+    "configure",
+    "integrate",
+    "automate"
+  ],
+  "typical_tasks": [
+    "Setup post-meeting automation (Meeting → Calendar → Gmail → CRM)",
+    "Configure stacked connector workflow (15 hours/week saved)",
+    "Design multi-app automation sequence",
+    "Test and optimize connector integrations"
+  ],
+  "performance_metrics": {
+    "time_savings": "15+ hours per week",
+    "execution_time": "1-4 minutes automated",
+    "setup_time": "20-30 minutes per workflow",
+    "success_rate": "85%+"
+  },
+  "source": "Video_008_MCP_Connector_Tutorial"
+}

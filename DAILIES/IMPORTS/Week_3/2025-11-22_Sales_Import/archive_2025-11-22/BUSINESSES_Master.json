@@ -1,0 +1,285 @@
+{
+  "entity_type": "BUSINESSES",
+  "total_entities": 40,
+  "last_updated": "2025-11-21 23:56:34",
+  "import_info": {
+    "import_date": "2025-11-21",
+    "source": "Sales Nov25 - client_list.md",
+    "import_phase": "Phase 4 - JSON Generation"
+  },
+  "statistics": {
+    "clients": 5,
+    "prospects": 33,
+    "ex_clients": 2,
+    "by_status": {
+      "Active_Client": 5,
+      "Active_Outreach": 30,
+      "Pipeline_Stage_Qualification": 2,
+      "Unknown_Status": 1,
+      "Reengagement_Queue": 2
+    },
+    "by_industry": {
+      "Unknown": 22,
+      "Technology": 4,
+      "AI": 9,
+      "Research/Academic": 1,
+      "Consulting": 1,
+      "Finance": 1,
+      "Real Estate": 1,
+      "Healthcare": 1
+    },
+    "by_account_manager": {
+      "Kovalska_Anastasiya": 32,
+      "Anush": 3,
+      "9/17/2025": 1,
+      "Unknown": 1
+    },
+    "by_relationship_health": {
+      "Moderate": 29,
+      "Weak": 7,
+      "Unknown": 1
+    }
+  },
+  "entities_by_id": {
+    "BUS-2025-001": {
+      "company_name": "TIAL (The Institutional Architecture Lab)",
+      "sub_entity": "Client",
+      "status": "Active_Client",
+      "file_path": "Clients/BUSINESSES_Client_TIAL_(The_Institutional_Architecture_Lab)_BUS-2025-001.json"
+    },
+    "BUS-2025-002": {
+      "company_name": "DataMining International",
+      "sub_entity": "Client",
+      "status": "Active_Client",
+      "file_path": "Clients/BUSINESSES_Client_DataMining_International_BUS-2025-002.json"
+    },
+    "BUS-2025-003": {
+      "company_name": "Drauschke reserch",
+      "sub_entity": "Client",
+      "status": "Active_Client",
+      "file_path": "Clients/BUSINESSES_Client_Drauschke_reserch_BUS-2025-003.json"
+    },
+    "BUS-2025-004": {
+      "company_name": "SiteBoon AI",
+      "sub_entity": "Client",
+      "status": "Active_Client",
+      "file_path": "Clients/BUSINESSES_Client_SiteBoon_AI_BUS-2025-004.json"
+    },
+    "BUS-2025-005": {
+      "company_name": "Academic Studies Press",
+      "sub_entity": "Prospect",
+      "status": "Active_Outreach",
+      "file_path": "Prospects/BUSINESSES_Prospect_Academic_Studies_Press_BUS-2025-005.json"
+    },
+    "BUS-2025-006": {
+      "company_name": "2B Consulting Services",
+      "sub_entity": "Prospect",
+      "status": "Active_Outreach",
+      "file_path": "Prospects/BUSINESSES_Prospect_2B_Consulting_Services_BUS-2025-006.json"
+    },
+    "BUS-2025-007": {
+      "company_name": "ATASTE",
+      "sub_entity": "Prospect",
+      "status": "Active_Outreach",
+      "file_path": "Prospects/BUSINESSES_Prospect_ATASTE_BUS-2025-007.json"
+    },
+    "BUS-2025-008": {
+      "company_name": "Acuity Research & Practice Ltd",
+      "sub_entity": "Prospect",
+      "status": "Active_Outreach",
+      "file_path": "Prospects/BUSINESSES_Prospect_Acuity_Research_&_Practice_Ltd_BUS-2025-008.json"
+    },
+    "BUS-2025-009": {
+      "company_name": "Acorn Community Bank",
+      "sub_entity": "Client",
+      "status": "Active_Client",
+      "file_path": "Clients/BUSINESSES_Client_Acorn_Community_Bank_BUS-2025-009.json"
+    },
+    "BUS-2025-010": {
+      "company_name": "Honeystone Limited",
+      "sub_entity": "Prospect",
+      "status": "Active_Outreach",
+      "file_path": "Prospects/BUSINESSES_Prospect_Honeystone_Limited_BUS-2025-010.json"
+    },
+    "BUS-2025-011": {
+      "company_name": "Co-gency Corporate Finance",
+      "sub_entity": "Prospect",
+      "status": "Active_Outreach",
+      "file_path": "Prospects/BUSINESSES_Prospect_Co-gency_Corporate_Finance_BUS-2025-011.json"
+    },
+    "BUS-2025-012": {
+      "company_name": "Digital Kidz Suisse",
+      "sub_entity": "Prospect",
+      "status": "Active_Outreach",
+      "file_path": "Prospects/BUSINESSES_Prospect_Digital_Kidz_Suisse_BUS-2025-012.json"
+    },
+    "BUS-2025-013": {
+      "company_name": "Enunda",
+      "sub_entity": "Prospect",
+      "status": "Pipeline_Stage_Qualification",
+      "file_path": "Prospects/BUSINESSES_Prospect_Enunda_BUS-2025-013.json"
+    },
+    "BUS-2025-014": {
+      "company_name": "Sontai",
+      "sub_entity": "Prospect",
+      "status": "Active_Outreach",
+      "file_path": "Prospects/BUSINESSES_Prospect_Sontai_BUS-2025-014.json"
+    },
+    "BUS-2025-015": {
+      "company_name": "Sarsfield Group",
+      "sub_entity": "Prospect",
+      "status": "Active_Outreach",
+      "file_path": "Prospects/BUSINESSES_Prospect_Sarsfield_Group_BUS-2025-015.json"
+    },
+    "BUS-2025-016": {
+      "company_name": "Pubrio",
+      "sub_entity": "Prospect",
+      "status": "Active_Outreach",
+      "file_path": "Prospects/BUSINESSES_Prospect_Pubrio_BUS-2025-016.json"
+    },
+    "BUS-2025-017": {
+      "company_name": "Rift Dynamics",
+      "sub_entity": "Prospect",
+      "status": "Pipeline_Stage_Qualification",
+      "file_path": "Prospects/BUSINESSES_Prospect_Rift_Dynamics_BUS-2025-017.json"
+    },
+    "BUS-2025-018": {
+      "company_name": "Electrão",
+      "sub_entity": "Prospect",
+      "status": "Active_Outreach",
+      "file_path": "Prospects/BUSINESSES_Prospect_Electrão_BUS-2025-018.json"
+    },
+    "BUS-2025-019": {
+      "company_name": "RISK IDENT",
+      "sub_entity": "Prospect",
+      "status": "Active_Outreach",
+      "file_path": "Prospects/BUSINESSES_Prospect_RISK_IDENT_BUS-2025-019.json"
+    },
+    "BUS-2025-020": {
+      "company_name": "NEWWORK Software",
+      "sub_entity": "Prospect",
+      "status": "Active_Outreach",
+      "file_path": "Prospects/BUSINESSES_Prospect_NEWWORK_Software_BUS-2025-020.json"
+    },
+    "BUS-2025-021": {
+      "company_name": "Markewärn Studios",
+      "sub_entity": "Prospect",
+      "status": "Active_Outreach",
+      "file_path": "Prospects/BUSINESSES_Prospect_Markewärn_Studios_BUS-2025-021.json"
+    },
+    "BUS-2025-022": {
+      "company_name": "Arty \\",
+      "sub_entity": "Prospect",
+      "status": "Unknown_Status",
+      "file_path": "Prospects/BUSINESSES_Prospect_Arty_BUS-2025-022.json"
+    },
+    "BUS-2025-023": {
+      "company_name": "Global Wind Service",
+      "sub_entity": "Ex_Client",
+      "status": "Reengagement_Queue",
+      "file_path": "Ex_Clients/BUSINESSES_Ex_Client_Global_Wind_Service_BUS-2025-023.json"
+    },
+    "BUS-2025-024": {
+      "company_name": "Amastar",
+      "sub_entity": "Ex_Client",
+      "status": "Reengagement_Queue",
+      "file_path": "Ex_Clients/BUSINESSES_Ex_Client_Amastar_BUS-2025-024.json"
+    },
+    "BUS-2025-025": {
+      "company_name": "Utemaster Australia Pty Ltd",
+      "sub_entity": "Prospect",
+      "status": "Active_Outreach",
+      "file_path": "Prospects/BUSINESSES_Prospect_Utemaster_Australia_Pty_Ltd_BUS-2025-025.json"
+    },
+    "BUS-2025-026": {
+      "company_name": "Directoffice AB",
+      "sub_entity": "Prospect",
+      "status": "Active_Outreach",
+      "file_path": "Prospects/BUSINESSES_Prospect_Directoffice_AB_BUS-2025-026.json"
+    },
+    "BUS-2025-027": {
+      "company_name": "SAAGA Solve",
+      "sub_entity": "Prospect",
+      "status": "Active_Outreach",
+      "file_path": "Prospects/BUSINESSES_Prospect_SAAGA_Solve_BUS-2025-027.json"
+    },
+    "BUS-2025-028": {
+      "company_name": "Wayne Schmidt (ChangeIS)",
+      "sub_entity": "Prospect",
+      "status": "Active_Outreach",
+      "file_path": "Prospects/BUSINESSES_Prospect_Wayne_Schmidt_(ChangeIS)_BUS-2025-028.json"
+    },
+    "BUS-2025-029": {
+      "company_name": "Farm Fayre",
+      "sub_entity": "Prospect",
+      "status": "Active_Outreach",
+      "file_path": "Prospects/BUSINESSES_Prospect_Farm_Fayre_BUS-2025-029.json"
+    },
+    "BUS-2025-030": {
+      "company_name": "Mtec Sverige AB",
+      "sub_entity": "Prospect",
+      "status": "Active_Outreach",
+      "file_path": "Prospects/BUSINESSES_Prospect_Mtec_Sverige_AB_BUS-2025-030.json"
+    },
+    "BUS-2025-031": {
+      "company_name": "Hallo Heidi LLC Solutions",
+      "sub_entity": "Prospect",
+      "status": "Active_Outreach",
+      "file_path": "Prospects/BUSINESSES_Prospect_Hallo_Heidi_LLC_Solutions_BUS-2025-031.json"
+    },
+    "BUS-2025-032": {
+      "company_name": "Group Eleven Resources Corp",
+      "sub_entity": "Prospect",
+      "status": "Active_Outreach",
+      "file_path": "Prospects/BUSINESSES_Prospect_Group_Eleven_Resources_Corp_BUS-2025-032.json"
+    },
+    "BUS-2025-033": {
+      "company_name": "Marine Health Foods Ltd",
+      "sub_entity": "Prospect",
+      "status": "Active_Outreach",
+      "file_path": "Prospects/BUSINESSES_Prospect_Marine_Health_Foods_Ltd_BUS-2025-033.json"
+    },
+    "BUS-2025-034": {
+      "company_name": "Exofex B.V.",
+      "sub_entity": "Prospect",
+      "status": "Active_Outreach",
+      "file_path": "Prospects/BUSINESSES_Prospect_Exofex_B.V_BUS-2025-034.json"
+    },
+    "BUS-2025-035": {
+      "company_name": "Estia Developments",
+      "sub_entity": "Prospect",
+      "status": "Active_Outreach",
+      "file_path": "Prospects/BUSINESSES_Prospect_Estia_Developments_BUS-2025-035.json"
+    },
+    "BUS-2025-036": {
+      "company_name": "Kemwell PFP Ltd",
+      "sub_entity": "Prospect",
+      "status": "Active_Outreach",
+      "file_path": "Prospects/BUSINESSES_Prospect_Kemwell_PFP_Ltd_BUS-2025-036.json"
+    },
+    "BUS-2025-037": {
+      "company_name": "mySTATINN",
+      "sub_entity": "Prospect",
+      "status": "Active_Outreach",
+      "file_path": "Prospects/BUSINESSES_Prospect_mySTATINN_BUS-2025-037.json"
+    },
+    "BUS-2025-038": {
+      "company_name": "GCO Medienagentur",
+      "sub_entity": "Prospect",
+      "status": "Active_Outreach",
+      "file_path": "Prospects/BUSINESSES_Prospect_GCO_Medienagentur_BUS-2025-038.json"
+    },
+    "BUS-2025-039": {
+      "company_name": "Greenland Commodities",
+      "sub_entity": "Prospect",
+      "status": "Active_Outreach",
+      "file_path": "Prospects/BUSINESSES_Prospect_Greenland_Commodities_BUS-2025-039.json"
+    },
+    "BUS-2025-040": {
+      "company_name": "Marketing BIJ",
+      "sub_entity": "Prospect",
+      "status": "Active_Outreach",
+      "file_path": "Prospects/BUSINESSES_Prospect_Marketing_BIJ_BUS-2025-040.json"
+    }
+  }
+}

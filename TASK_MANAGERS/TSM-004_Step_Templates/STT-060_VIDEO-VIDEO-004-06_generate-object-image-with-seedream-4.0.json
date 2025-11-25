@@ -1,0 +1,34 @@
+{
+  "entity_type": "TASK_MANAGERS",
+  "sub_entity": "Step_Template",
+  "step_id": "VIDEO-VIDEO-004-06",
+  "step_number": 6,
+  "parent_task": "TASK-TEMPLATE-VIDEO-004",
+  "task_name": "Master Unified Platform Workflow for Video Generation",
+  "name": "Generate object image with Seedream 4.0",
+  "action": "generate",
+  "tool": "TOOL-AI-055 (Seedream 4.0)",
+  "responsibility": "Video Producer",
+  "placement": "OpenArt - Image - Seedream model",
+  "duration": "3-4 minutes",
+  "dependencies": [
+    1,
+    5
+  ],
+  "inputs": [
+    "Object description from plan"
+  ],
+  "outputs": [
+    "Detailed object image with proper materials and lighting"
+  ],
+  "success_criteria": "Object image meets quality standards",
+  "implementation_notes": "Object image meets quality standards - Implementation details based on the Master Unified Platform Workflow for Video Generation workflow.",
+  "tags": [
+    "generate",
+    "template-task-video-004"
+  ],
+  "version": "1.0",
+  "created": "2025-11-15",
+  "last_updated": "2025-11-15",
+  "source": "Video_012"
+}

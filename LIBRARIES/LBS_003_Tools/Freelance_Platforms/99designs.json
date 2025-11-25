@@ -1,0 +1,125 @@
+{
+  "entity_type": "LIBRARIES",
+  "sub_entity": "Tool",
+  "tool_id": "TOOL-DESIGN-101",
+  "name": "99designs",
+  "vendor": "99designs (Vistaprint company)",
+  "category": "Specialized Marketplace / Design / Creative Services",
+  "purpose": "Design-focused freelance marketplace specializing in logos, branding, book covers, websites, and other creative services",
+  "description": "99designs is a specialized creative marketplace concentrating exclusively on design work across 90+ distinct design categories. The platform offers three hiring methods: (1) traditional freelance marketplace (list project, receive bids), (2) design contests (multiple designers compete with submissions), and (3) curated designer matching (99designs finds perfect designer for you). Designers are reviewed for legitimacy when joining the site. The platform is known for its collaborative and encouraging environment, ideal for clients with firm design vision. Used by businesses and creatives since launch, offering money-back guarantees depending on package selected.",
+  "skill_level_required": "Beginner",
+  "cost_structure": "Project-based pricing ($100-$5,000+); Design contests ($299-$1,299); Fees charged on completed jobs + extra fees for new client work",
+  "platform_compatibility": ["Web Platform", "Collaborative Design Tools", "Contest Management Interface"],
+  "integration_capabilities": ["Designer portfolios and reviews", "Contest feedback system", "File delivery and management", "Collaborative design tools"],
+  "documentation_url": "https://www.99designs.com",
+  "actual_remote_helpers_usage": {
+    "primary_use": "Design overflow work and client project support for Design department",
+    "users": ["Design Department Lead", "Department Managers needing design support"],
+    "use_cases": [
+      "Outsourcing overflow design work during peak periods (Design dept at capacity)",
+      "Logo design contests for client projects (multiple options to choose from)",
+      "Branding materials for clients or internal use",
+      "Video thumbnails and channel branding (Video dept)",
+      "Presentation design and branded templates (HR dept)"
+    ],
+    "workflows": ["RUN_DESIGN_CONTEST", "OUTSOURCE_OVERFLOW_DESIGN_WORK"],
+    "typical_workflow_pattern": [
+      {
+        "task": "Run Logo Design Contest",
+        "steps": [
+          "Create contest brief (brand guidelines, target audience, preferences, examples)",
+          "Set contest parameters (prize $299-$1,299, timeline 1-2 weeks, finalists count)",
+          "Launch contest on 99designs",
+          "Receive 10-20 logo submissions from multiple designers",
+          "Review submissions and provide feedback for revisions",
+          "Select 3-5 finalists",
+          "Choose winning design",
+          "Award prize and receive final files"
+        ],
+        "complexity": "Medium",
+        "status": "RECOMMENDED_FOR_CLIENT_PROJECTS"
+      },
+      {
+        "task": "Outsource Overflow Design Work",
+        "steps": [
+          "Identify overflow work (Design team at capacity during peak)",
+          "Post project on 99designs marketplace or request curated designer",
+          "Review designer portfolios and select best fit",
+          "Collaborate on design deliverables",
+          "Receive final files within deadline",
+          "Client deadlines met, quality maintained"
+        ],
+        "complexity": "Low-Medium",
+        "status": "COST_EFFECTIVE_VS_FULL_TIME_HIRE"
+      }
+    ]
+  },
+  "strengths": [
+    "Specialized for creative work (design expertise)",
+    "90+ design categories (comprehensive coverage)",
+    "Multiple hiring methods (marketplace, contests, curated matching)",
+    "Design contests allow seeing options before committing",
+    "Free for freelancers to join (attracts talent)",
+    "Designer legitimacy reviews (quality control)",
+    "Collaborative and encouraging environment",
+    "Money-back guarantee (depending on package)"
+  ],
+  "limitations": [
+    "Higher fees (not the cheapest platform)",
+    "Extra fees for new client work (adds cost)",
+    "Focused on design only (not versatile for other needs)",
+    "Contest model can be time-consuming for designers (unpaid if not selected)",
+    "Premium pricing compared to Fiverr"
+  ],
+  "departments_using": ["Design (Primary)", "Video (Secondary)", "Sales (Secondary)", "HR (Secondary)"],
+  "tags": ["design-marketplace", "creative-services", "logo-design", "branding", "design-contests", "graphic-design"],
+  "discovery_date": "2025-11-22",
+  "discovery_source": "Video_019_Freelance_Remote_Hiring_Websites",
+  "status": "recommended_for_design_overflow",
+  "remote_helpers_context": {
+    "relevance_score": 70,
+    "strategic_alignment": "Moderately aligned - useful for Design overflow, not critical given 9-person design team",
+    "implementation_priority": "Low-Medium",
+    "pilot_test_recommendation": "Test with $299-$500 contest for client logo project",
+    "decision_timeline": "Use as needed during peak design periods"
+  },
+  "pricing_examples": {
+    "logo_design_contest": "$299-$1,299 (depending on package)",
+    "website_design": "$500-$2,000+",
+    "branding_package": "$1,000-$5,000+",
+    "quick_graphic_design": "$100-$500"
+  },
+  "design_categories": "90+ categories including logos, branding, book covers, websites, graphic design, packaging, social media graphics, presentation design, and more",
+  "use_cases_by_department": {
+    "Design": "Overflow work during peak periods, logo contests for clients, branding projects",
+    "Sales_Marketing": "Logo design, branding materials, marketing collateral",
+    "Video": "Thumbnail designs, channel branding, graphic overlays for videos",
+    "HR": "Presentation design, branded templates, recruitment materials"
+  },
+  "when_to_use": [
+    "Need for high-quality design work",
+    "Exploring multiple design options (contest model)",
+    "Prefer creative collaboration environment",
+    "Require specialized design expertise (logos, branding, book covers)",
+    "Willing to pay premium for quality",
+    "Design team at capacity, client deadlines approaching"
+  ],
+  "when_not_to_use": [
+    "Budget constraints (Fiverr better for low-cost graphics)",
+    "Need for non-design work",
+    "Require quick, cheap graphics (Fiverr faster and cheaper)",
+    "In-house design team has capacity",
+    "One-off simple graphics (Fiverr more cost-effective)"
+  ],
+  "comparison_with_alternatives": {
+    "vs_Fiverr": "99designs better for design contests with multiple options; Fiverr faster for single designer",
+    "vs_UpWork": "99designs specialized for design (higher quality focus); UpWork more versatile",
+    "vs_Full_Time_Designer": "99designs more flexible (use only when needed); full-time designer fixed cost"
+  },
+  "roi_calculation_design_department": {
+    "current_model": "9-person design team (largest department)",
+    "overflow_work_cost": "$300-$2,000 per project (as needed via 99designs)",
+    "alternative": "Hire additional full-time designer at $3,000-$5,000/month (fixed cost)",
+    "recommendation": "Use 99designs for overflow instead of hiring additional full-time designer (more cost-effective and flexible)"
+  }
+}

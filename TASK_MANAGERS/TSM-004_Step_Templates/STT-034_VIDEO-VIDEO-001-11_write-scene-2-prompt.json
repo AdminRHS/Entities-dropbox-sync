@@ -1,0 +1,29 @@
+{
+  "entity_type": "TASK_MANAGERS",
+  "sub_entity": "Step_Template",
+  "step_id": "VIDEO-VIDEO-001-11",
+  "step_number": 11,
+  "parent_task": "TASK-TEMPLATE-VIDEO-001",
+  "task_name": "Create Multi-Scene Product Commercial",
+  "name": "Write Scene 2 prompt with new camera movements",
+  "action": "write",
+  "tool": "Text prompt",
+  "responsibility": "Product Marketer",
+  "placement": "OpenArt - Prompt field",
+  "duration": "5 minutes",
+  "dependencies": [10],
+  "inputs": [
+    "New environment concept",
+    "Desired camera movements"
+  ],
+  "outputs": [
+    "Scene 2 camera prompt"
+  ],
+  "success_criteria": "Prompt defines transition to new environment with camera movements",
+  "implementation_notes": "Write a new camera movement prompt for Scene 2 that describes the transition from the previous environment to the new environment (e.g., studio to space).",
+  "tags": ["prompt-engineering", "scene-transition", "camera-movements"],
+  "version": "1.0",
+  "created": "2025-11-15",
+  "last_updated": "2025-11-15",
+  "source": "Video_012"
+}

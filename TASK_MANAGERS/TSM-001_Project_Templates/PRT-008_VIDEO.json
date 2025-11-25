@@ -1,0 +1,754 @@
+{
+  "entity_type": "TASK_MANAGERS",
+  "sub_entity": "Project_Template",
+  "template_id": "Project-Template-008",
+  "version": "1.0",
+  "created_date": "2025-11-17",
+  "last_updated": "2025-11-17",
+  "metadata": {
+    "name": "Complete Video Processing Workflow",
+    "description": "End-to-end workflow for discovering, transcribing, analyzing, and integrating educational video content into the knowledge base and tool libraries.",
+    "primary_department": "AI",
+    "departments_involved": [
+      "AI",
+      "VIDEO",
+      "DESIGN",
+      "DEV",
+      "LG",
+      "SALES",
+      "HR"
+    ],
+    "project_type": "Standard",
+    "complexity": "Medium",
+    "estimated_duration": "8-12 hours per week (3-5 videos processed)",
+    "cost_estimate": {
+      "initial_setup": "Time only (no direct costs)",
+      "ongoing": "Time only (automated workflows)",
+      "cost_breakdown": [
+        "Google AI Studio: Free tier (100MB video limit)",
+        "Transcription: Free (Google AI Studio or local Whisper)",
+        "Claude for extraction: Existing subscription"
+      ]
+    },
+    "roi_estimate": "90-95% time savings vs manual processing (4.5-9.5 hours → 50-100 minutes per video)",
+    "success_criteria": [
+      "3-5 videos fully processed weekly",
+      "15-25 new tools discovered and integrated per week",
+      "10-20 Task Templates created per week",
+      "30-50 Step Templates created per week",
+      "15-25 skills identified per week",
+      "All taxonomy data extracted and validated"
+    ],
+    "prerequisites": [
+      "Google AI Studio account (for transcription)",
+      "Claude Desktop or Claude Pro (for taxonomy extraction)",
+      "Access to ENTITIES/LIBRARIES structure",
+      "Access to Complete_Video_Workflow_Full_Instructions.md",
+      "Perplexity AI account (for video research)",
+      "YouTube access for video viewing"
+    ],
+    "best_for": [
+      "Teams building knowledge bases from video content",
+      "Organizations needing systematic tool discovery",
+      "Departments wanting to learn from educational videos",
+      "Teams creating reusable task and Step Templates",
+      "All departments for continuous learning and improvement"
+    ]
+  },
+  "structure": {
+    "total_phases": 3,
+    "total_milestones": 3,
+    "total_tasks": 9,
+    "total_estimated_steps": 28,
+    "workflow_type": "Sequential with quality validation gates"
+  },
+  "phases": [
+    {
+      "phase_number": 1,
+      "phase_name": "Stage 1: Video Discovery & Research",
+      "phase_description": "Identify and score 8-12 relevant videos based on strategic priorities, select top 3-5 for processing",
+      "duration": "2-3 hours per week",
+      "complexity": "Medium",
+      "dependencies": [],
+      "milestones": [
+        "MIL-PROJ-VIDEO-001-001"
+      ],
+      "output": "Research results document with 3-5 scored videos (80+ score)",
+      "success_criteria": [
+        "8-12 videos identified and scored",
+        "Minimum 3 videos with score 80+",
+        "All videos published within last 30-60 days",
+        "Video duration 10-40 minutes (preferred 15-25 min)",
+        "Clear relevance to strategic priorities documented"
+      ]
+    },
+    {
+      "phase_number": 2,
+      "phase_name": "Stage 2: Video Transcription & Taxonomy Extraction",
+      "phase_description": "Transcribe videos and extract all taxonomy data (workflows, tasks, steps, skills, tools) using v3.2 methodology",
+      "duration": "40-80 minutes per video",
+      "complexity": "Medium",
+      "dependencies": [
+        "Phase 1 complete"
+      ],
+      "milestones": [
+        "MIL-PROJ-VIDEO-001-002"
+      ],
+      "output": "Complete markdown document with 14 sections including all taxonomy data",
+      "success_criteria": [
+        "Word-for-word transcription completed",
+        "All workflows identified with departments and tools",
+        "Task Templates extracted with proper naming (ACTION_OBJECT_CONTEXT)",
+        "Step Templates extracted with validation criteria",
+        "Skills identified with tool linkage",
+        "All naming conventions followed (ALL_CAPS for tasks/steps)",
+        "Markdown format validation passed"
+      ]
+    },
+    {
+      "phase_number": 3,
+      "phase_name": "Stage 3: Library Population & Integration",
+      "phase_description": "Validate extracted data, integrate tools into libraries, update mappings, generate gap analysis",
+      "duration": "10-20 minutes per video",
+      "complexity": "Low",
+      "dependencies": [
+        "Phase 2 complete"
+      ],
+      "milestones": [
+        "MIL-PROJ-VIDEO-001-003"
+      ],
+      "output": "Updated LIBRARIES with new/enriched tools, updated mappings, gap analysis report",
+      "success_criteria": [
+        "All tools validated against existing libraries",
+        "New tools added with complete JSON entries",
+        "Existing tools enriched with new data",
+        "tool_mapping.json updated",
+        "Task-to-tool linkages created",
+        "Skill-to-tool linkages created",
+        "Gap analysis report generated"
+      ]
+    }
+  ],
+  "milestones": [
+    {
+      "milestone_id": "MIL-PROJ-VIDEO-001-001",
+      "milestone_name": "Research Complete - Videos Selected",
+      "phase": 1,
+      "description": "8-12 videos researched, scored using 0-100 system, top 3-5 selected for processing",
+      "task_templates": [
+        "TASK-TEMPLATE-VIDEO-001",
+        "TASK-TEMPLATE-VIDEO-002"
+      ],
+      "estimated_duration": "2-3 hours",
+      "deliverables": [
+        "Research_Results_YYYY-MM-DD document",
+        "8-12 videos with full scoring breakdown",
+        "Top 3-5 videos selected (minimum score 80/100)",
+        "Video metadata collected (URL, title, creator, date, duration)",
+        "Department relevance identified for each video",
+        "Implementation priorities assigned"
+      ],
+      "success_metrics": {
+        "quantitative": [
+          "8-12 videos researched",
+          "3-5 videos selected with score >= 80",
+          "100% videos within 30-60 day recency",
+          "100% videos 10-40 minutes duration"
+        ],
+        "qualitative": [
+          "Videos align with strategic priorities",
+          "Scoring justification documented",
+          "Actionable value clearly identified",
+          "Department assignments logical"
+        ]
+      },
+      "checklist_items": [
+        "Checklist-Item-001",
+        "CHK-102",
+        "CHK-103",
+        "CHK-104",
+        "CHK-105",
+        "CHK-106",
+        "CHK-107",
+        "CHK-108",
+        "CHK-109",
+        "CHK-110"
+      ]
+    },
+    {
+      "milestone_id": "MIL-PROJ-VIDEO-001-002",
+      "milestone_name": "Processing Complete - Taxonomy Extracted",
+      "phase": 2,
+      "description": "Videos transcribed and all taxonomy data extracted using v3.2 methodology",
+      "task_templates": [
+        "TASK-TEMPLATE-VIDEO-101",
+        "TASK-TEMPLATE-VIDEO-003",
+        "TASK-TEMPLATE-VIDEO-004"
+      ],
+      "estimated_duration": "40-80 minutes per video",
+      "deliverables": [
+        "Complete markdown transcription document (.md format)",
+        "14 sections completed (Metadata through Gap Analysis)",
+        "Workflows identified with all details",
+        "Task Templates extracted (ACTION_OBJECT_CONTEXT format)",
+        "Step Templates extracted (ACTION_OBJECT_DETAIL format)",
+        "Skills identified (lowercase with tools)",
+        "Tools list compiled",
+        "Naming conventions validated"
+      ],
+      "success_metrics": {
+        "quantitative": [
+          "100% transcription accuracy",
+          "5-8 workflows identified per video",
+          "2-4 Task Templates extracted per video",
+          "6-10 Step Templates extracted per video",
+          "3-5 skills identified per video",
+          "5-8 tools discovered per video"
+        ],
+        "qualitative": [
+          "All naming conventions followed",
+          "Markdown format validation passed",
+          "Taxonomy data complete and structured",
+          "Reusability contexts identified",
+          "Success criteria defined for each template"
+        ]
+      },
+      "checklist_items": [
+        "Checklist-Item-002",
+        "CHK-112",
+        "CHK-113",
+        "CHK-114",
+        "CHK-115",
+        "CHK-116",
+        "CHK-117",
+        "CHK-118",
+        "CHK-119",
+        "CHK-120",
+        "CHK-121",
+        "CHK-122",
+        "CHK-123",
+        "CHK-124",
+        "CHK-125",
+        "CHK-126",
+        "CHK-127",
+        "CHK-128",
+        "CHK-129",
+        "CHK-130"
+      ]
+    },
+    {
+      "milestone_id": "MIL-PROJ-VIDEO-001-003",
+      "milestone_name": "Library Population Complete",
+      "phase": 3,
+      "description": "All extracted data validated, tools integrated into libraries, mappings updated, gap analysis generated",
+      "task_templates": [
+        "TASK-TEMPLATE-VIDEO-005",
+        "TASK-TEMPLATE-VIDEO-301",
+        "TASK-TEMPLATE-VIDEO-006",
+        "TASK-TEMPLATE-VIDEO-007"
+      ],
+      "estimated_duration": "10-20 minutes per video",
+      "deliverables": [
+        "New tool JSON files created in LIBRARIES/Tools/",
+        "Existing tool entries enriched",
+        "tool_mapping.json updated",
+        "Task-to-tool linkages created",
+        "Skill-to-tool linkages created",
+        "Category assignments validated",
+        "Gap analysis report generated"
+      ],
+      "success_metrics": {
+        "quantitative": [
+          "100% tools validated (new vs existing)",
+          "5-8 new/enriched tool entries per video",
+          "100% tool categorization complete",
+          "Tool IDs generated for all new tools",
+          "Mapping updates committed"
+        ],
+        "qualitative": [
+          "JSON schema validation passed",
+          "Tool descriptions clear and complete",
+          "Integration points documented",
+          "Use cases aligned with actual usage",
+          "Gap analysis actionable"
+        ]
+      },
+      "checklist_items": [
+        "CHK-131",
+        "CHK-132",
+        "CHK-133",
+        "CHK-134",
+        "CHK-135",
+        "CHK-136",
+        "CHK-137",
+        "CHK-138",
+        "CHK-139",
+        "CHK-140",
+        "CHK-141",
+        "CHK-142",
+        "CHK-143",
+        "CHK-144",
+        "CHK-145"
+      ]
+    }
+  ],
+  "task_sequence": [
+    {
+      "sequence_number": 1,
+      "task_template_id": "TASK-TEMPLATE-VIDEO-001",
+      "task_name": "Search and Score Videos Using 0-100 System",
+      "phase": 1,
+      "milestone": "MIL-PROJ-VIDEO-001-001",
+      "estimated_duration": "1.5-2 hours",
+      "complexity": "Medium",
+      "department": "AI",
+      "dependencies": [],
+      "inputs_required": [
+        "Strategic priorities from daily reports",
+        "Department needs assessment",
+        "Current focus areas (November 2025)",
+        "Perplexity AI access",
+        "Search query templates"
+      ],
+      "outputs_produced": [
+        "8-12 videos identified",
+        "Full scoring breakdown for each video",
+        "Strategic alignment justification",
+        "Tool/tech relevance analysis",
+        "Actionable value assessment"
+      ],
+      "step_templates": [
+        "STEP-VIDEO-001-01",
+        "STEP-VIDEO-001-02",
+        "STEP-VIDEO-001-03",
+        "STEP-VIDEO-001-04"
+      ]
+    },
+    {
+      "sequence_number": 2,
+      "task_template_id": "TASK-TEMPLATE-VIDEO-002",
+      "task_name": "Select Top Videos and Document Research Results",
+      "phase": 1,
+      "milestone": "MIL-PROJ-VIDEO-001-001",
+      "estimated_duration": "30-60 minutes",
+      "complexity": "Low",
+      "department": "AI",
+      "dependencies": [
+        "TASK-TEMPLATE-VIDEO-001 complete"
+      ],
+      "inputs_required": [
+        "8-12 scored videos from previous task",
+        "Selection criteria (minimum score 80)",
+        "Priority guidelines"
+      ],
+      "outputs_produced": [
+        "Top 3-5 videos selected",
+        "Research_Results document created",
+        "Video assignments (if team-based)",
+        "Processing timeline defined"
+      ],
+      "step_templates": [
+        "STEP-VIDEO-002-01",
+        "STEP-VIDEO-002-02",
+        "STEP-VIDEO-002-03"
+      ]
+    },
+    {
+      "sequence_number": 3,
+      "task_template_id": "TASK-TEMPLATE-VIDEO-101",
+      "task_name": "Transcribe Video Using Standard Methodology",
+      "phase": 2,
+      "milestone": "MIL-PROJ-VIDEO-001-002",
+      "estimated_duration": "20-40 minutes",
+      "complexity": "Medium",
+      "department": "All departments (cross-functional)",
+      "dependencies": [
+        "TASK-TEMPLATE-VIDEO-002 complete"
+      ],
+      "inputs_required": [
+        "Selected video URL",
+        "Google AI Studio access",
+        "Video metadata from research"
+      ],
+      "outputs_produced": [
+        "Word-for-word transcription",
+        "Metadata section completed",
+        "Video description extracted",
+        "Timestamps added",
+        "On-screen text captured"
+      ],
+      "step_templates": [
+        "STEP-RES-101-01",
+        "STEP-RES-101-02",
+        "STEP-RES-101-03",
+        "STEP-RES-101-04"
+      ]
+    },
+    {
+      "sequence_number": 4,
+      "task_template_id": "TASK-TEMPLATE-VIDEO-003",
+      "task_name": "Extract Taxonomy Data from Transcription",
+      "phase": 2,
+      "milestone": "MIL-PROJ-VIDEO-001-002",
+      "estimated_duration": "15-30 minutes",
+      "complexity": "Medium",
+      "department": "All departments (cross-functional)",
+      "dependencies": [
+        "TASK-TEMPLATE-VIDEO-101 complete"
+      ],
+      "inputs_required": [
+        "Completed transcription document",
+        "Taxonomy naming conventions",
+        "Extraction templates from v3.2 instructions"
+      ],
+      "outputs_produced": [
+        "Workflows identified (Section 4)",
+        "Task Templates extracted (Section 4B)",
+        "Step Templates extracted (Section 4C)",
+        "Skills identified (Section 7B)",
+        "Tools list compiled (Section 10)",
+        "All naming conventions validated"
+      ],
+      "step_templates": [
+        "STEP-VIDEO-003-01",
+        "STEP-VIDEO-003-02",
+        "STEP-VIDEO-003-03",
+        "STEP-VIDEO-003-04",
+        "STEP-VIDEO-003-05"
+      ]
+    },
+    {
+      "sequence_number": 5,
+      "task_template_id": "TASK-TEMPLATE-VIDEO-004",
+      "task_name": "Validate Extracted Taxonomy Data",
+      "phase": 2,
+      "milestone": "MIL-PROJ-VIDEO-001-002",
+      "estimated_duration": "5-10 minutes",
+      "complexity": "Low",
+      "department": "All departments (cross-functional)",
+      "dependencies": [
+        "TASK-TEMPLATE-VIDEO-003 complete"
+      ],
+      "inputs_required": [
+        "Extracted taxonomy data",
+        "Validation checklist from v3.2",
+        "Naming convention rules"
+      ],
+      "outputs_produced": [
+        "Validated taxonomy document",
+        "Naming corrections applied",
+        "Format validation passed",
+        "Quality check completed"
+      ],
+      "step_templates": [
+        "STEP-VIDEO-004-01",
+        "STEP-VIDEO-004-02",
+        "STEP-VIDEO-004-03"
+      ]
+    },
+    {
+      "sequence_number": 6,
+      "task_template_id": "TASK-TEMPLATE-VIDEO-005",
+      "task_name": "Validate Tools Against Existing Libraries",
+      "phase": 3,
+      "milestone": "MIL-PROJ-VIDEO-001-003",
+      "estimated_duration": "3-5 minutes",
+      "complexity": "Low",
+      "department": "All departments (cross-functional)",
+      "dependencies": [
+        "TASK-TEMPLATE-VIDEO-004 complete"
+      ],
+      "inputs_required": [
+        "Tools list from extraction",
+        "Access to LIBRARIES/Tools/",
+        "Existing tool_mapping.json"
+      ],
+      "outputs_produced": [
+        "New vs existing tools identified",
+        "Tools requiring enrichment flagged",
+        "Duplicate tools merged",
+        "Tool validation report"
+      ],
+      "step_templates": [
+        "STEP-VIDEO-005-01",
+        "STEP-VIDEO-005-02",
+        "STEP-VIDEO-005-03"
+      ]
+    },
+    {
+      "sequence_number": 7,
+      "task_template_id": "TASK-TEMPLATE-VIDEO-301",
+      "task_name": "Create and Update Tool Entries in Libraries",
+      "phase": 3,
+      "milestone": "MIL-PROJ-VIDEO-001-003",
+      "estimated_duration": "5-10 minutes",
+      "complexity": "Medium",
+      "department": "All departments (cross-functional)",
+      "dependencies": [
+        "TASK-TEMPLATE-VIDEO-005 complete"
+      ],
+      "inputs_required": [
+        "Tool validation report",
+        "Tool JSON schema",
+        "Tool data from extraction"
+      ],
+      "outputs_produced": [
+        "New tool JSON files created",
+        "Existing tool entries enriched",
+        "Tool IDs assigned",
+        "Category assignments completed"
+      ],
+      "step_templates": [
+        "STEP-VIDEO-301-01",
+        "STEP-VIDEO-301-02",
+        "STEP-VIDEO-301-03",
+        "STEP-VIDEO-301-04"
+      ]
+    },
+    {
+      "sequence_number": 8,
+      "task_template_id": "TASK-TEMPLATE-VIDEO-006",
+      "task_name": "Update Mappings and Cross-references",
+      "phase": 3,
+      "milestone": "MIL-PROJ-VIDEO-001-003",
+      "estimated_duration": "3-5 minutes",
+      "complexity": "Low",
+      "department": "All departments (cross-functional)",
+      "dependencies": [
+        "TASK-TEMPLATE-VIDEO-301 complete"
+      ],
+      "inputs_required": [
+        "Updated tool entries",
+        "Task Templates from extraction",
+        "Skills from extraction",
+        "tool_mapping.json"
+      ],
+      "outputs_produced": [
+        "tool_mapping.json updated",
+        "Task-to-tool linkages created",
+        "Skill-to-tool linkages created",
+        "Cross-references validated"
+      ],
+      "step_templates": [
+        "STEP-VIDEO-006-01",
+        "STEP-VIDEO-006-02",
+        "STEP-VIDEO-006-03"
+      ]
+    },
+    {
+      "sequence_number": 9,
+      "task_template_id": "TASK-TEMPLATE-VIDEO-007",
+      "task_name": "Generate Gap Analysis Report",
+      "phase": 3,
+      "milestone": "MIL-PROJ-VIDEO-001-003",
+      "estimated_duration": "2-5 minutes",
+      "complexity": "Low",
+      "department": "All departments (cross-functional)",
+      "dependencies": [
+        "TASK-TEMPLATE-VIDEO-006 complete"
+      ],
+      "inputs_required": [
+        "All populated library data",
+        "Tools mentioned but not added",
+        "Missing integrations identified",
+        "Incomplete documentation flagged"
+      ],
+      "outputs_produced": [
+        "Gap analysis report",
+        "Action items for next cycle",
+        "Missing tool list",
+        "Integration opportunities"
+      ],
+      "step_templates": [
+        "STEP-VIDEO-007-01",
+        "STEP-VIDEO-007-02"
+      ]
+    }
+  ],
+  "workflow_diagram": {
+    "description": "Visual representation of complete video processing workflow",
+    "ascii_diagram": [
+      "STAGE 1: RESEARCH (2-3 hours weekly)",
+      "  ├─> TASK-TEMPLATE-VIDEO-001: Search and Score Videos",
+      "  │   └─> Output: 8-12 videos with 0-100 scores",
+      "  └─> TASK-TEMPLATE-VIDEO-002: Select Top Videos",
+      "      └─> Output: 3-5 videos selected (score 80+)",
+      "",
+      "STAGE 2: PROCESSING (40-80 min per video)",
+      "  ├─> TASK-TEMPLATE-VIDEO-101: Transcribe Video",
+      "  │   └─> Output: Word-for-word transcription + metadata",
+      "  ├─> TASK-TEMPLATE-VIDEO-003: Extract Taxonomy Data",
+      "  │   └─> Output: Workflows, Tasks, Steps, Skills, Tools",
+      "  └─> TASK-TEMPLATE-VIDEO-004: Validate Data",
+      "      └─> Output: Validated taxonomy document (14 sections)",
+      "",
+      "STAGE 3: POPULATION (10-20 min per video)",
+      "  ├─> TASK-TEMPLATE-VIDEO-005: Validate Tools",
+      "  │   └─> Output: New vs existing tools identified",
+      "  ├─> TASK-TEMPLATE-VIDEO-301: Create/Update Tool Entries",
+      "  │   └─> Output: Tool JSON files created/enriched",
+      "  ├─> TASK-TEMPLATE-VIDEO-006: Update Mappings",
+      "  │   └─> Output: tool_mapping.json updated",
+      "  └─> TASK-TEMPLATE-VIDEO-007: Generate Gap Analysis",
+      "      └─> Output: Gap analysis report for next cycle",
+      "",
+      "WEEKLY OUTPUT:",
+      "  • 3-5 videos fully processed",
+      "  • 15-25 tools discovered and integrated",
+      "  • 10-20 Task Templates created",
+      "  • 30-50 Step Templates created",
+      "  • 15-25 skills identified"
+    ]
+  },
+  "resource_requirements": {
+    "human_resources": {
+      "minimum_team": [
+        "1 person from any department (workflow is cross-functional)"
+      ],
+      "optimal_team": [
+        "1 researcher for Stage 1 (any department)",
+        "3-5 processors for Stage 2 (distributed across departments)",
+        "1 librarian for Stage 3 (AI department)"
+      ],
+      "total_time_investment": "8-12 hours per week for 3-5 videos"
+    },
+    "technical_requirements": {
+      "software": [
+        "Google AI Studio (transcription)",
+        "Claude Desktop or Claude Pro (extraction)",
+        "Perplexity AI (research)",
+        "Text editor with markdown support",
+        "File system access to ENTITIES/",
+        "YouTube access"
+      ],
+      "infrastructure": [
+        "Stable internet connection",
+        "Computer with 8GB+ RAM",
+        "50GB+ storage for video files (optional)",
+        "Cloud storage access (Dropbox)"
+      ]
+    },
+    "financial_requirements": {
+      "one_time_costs": "$0 (all free tools)",
+      "recurring_costs": "Optional: Claude Pro ($20/month for faster processing)",
+      "roi_timeline": "Immediate (90-95% time savings from first video)"
+    }
+  },
+  "risk_assessment": {
+    "high_risks": [
+      {
+        "risk": "Taxonomy extraction errors due to incorrect naming",
+        "impact": "High",
+        "probability": "Medium",
+        "mitigation": "Use TASK-TEMPLATE-VIDEO-004 validation step, reference naming conventions constantly"
+      },
+      {
+        "risk": "Video selection not aligned with priorities",
+        "impact": "Medium",
+        "probability": "Low",
+        "mitigation": "Review strategic priorities weekly, use 0-100 scoring system strictly"
+      }
+    ],
+    "medium_risks": [
+      {
+        "risk": "Transcription quality issues with accents or audio",
+        "impact": "Medium",
+        "probability": "Low",
+        "mitigation": "Use Google AI Studio (best accuracy), manual correction if needed"
+      },
+      {
+        "risk": "Tool duplication in libraries",
+        "impact": "Medium",
+        "probability": "Medium",
+        "mitigation": "TASK-TEMPLATE-VIDEO-005 validation catches duplicates before creation"
+      }
+    ],
+    "low_risks": [
+      {
+        "risk": "Videos become outdated (tools change)",
+        "impact": "Low",
+        "probability": "High",
+        "mitigation": "Focus on 30-60 day recency, update tool entries when new info available"
+      }
+    ]
+  },
+  "optimization_tips": [
+    "Process videos in batches during Stage 2 to maintain flow and context",
+    "Use the Short Complete Video Workflow.md for quick reference during processing",
+    "Set up keyboard shortcuts for common taxonomy patterns (ACTION_OBJECT_CONTEXT)",
+    "Create a template repository for frequently used Step Templates",
+    "Run Stage 3 (population) immediately after Stage 2 while context is fresh",
+    "Schedule Stage 1 (research) every Monday to start week with video pipeline",
+    "Use voice-to-text for faster transcription note-taking if needed",
+    "Build a personal checklist of common validation errors to avoid"
+  ],
+  "variation_guidance": {
+    "single_video_mode": {
+      "recommended_phases": [
+        2,
+        3
+      ],
+      "skip_phases": [
+        1
+      ],
+      "rationale": "Process a single known video without research phase",
+      "time_savings": "Saves 2-3 hours, ideal for one-off video processing"
+    },
+    "research_only_mode": {
+      "recommended_phases": [
+        1
+      ],
+      "skip_phases": [
+        2,
+        3
+      ],
+      "rationale": "Build video backlog for future processing",
+      "use_case": "Weekly research sprint to maintain 2-3 week video pipeline"
+    },
+    "bulk_processing_mode": {
+      "recommended_phases": [
+        2,
+        3
+      ],
+      "additional_prerequisites": [
+        "10+ videos pre-researched and scored",
+        "Multiple team members for parallel processing"
+      ],
+      "rationale": "Process 5-10 videos in single session for maximum library growth",
+      "total_investment": "8-15 hours for 5-10 videos (team-based)"
+    }
+  },
+  "related_templates": {
+    "prerequisite_templates": [],
+    "complementary_templates": [
+      "Future: Video Editing and Production workflows",
+      "Future: Knowledge Base Search and Retrieval",
+      "Future: Tool Recommendation Engine based on video analysis"
+    ],
+    "follow_up_templates": [
+      "Future: Automated Video Discovery Agent",
+      "Future: Real-time Tool Integration Pipeline",
+      "Future: Cross-video Analytics and Insights"
+    ]
+  },
+  "version_history": [
+    {
+      "version": "1.0",
+      "date": "2025-11-17",
+      "changes": "Initial template creation from Complete_Video_Workflow_Full_Instructions.md v3.2",
+      "author": "AI Assistant (Claude Sonnet 4.5)"
+    }
+  ],
+  "tags": [
+    "video-processing",
+    "transcription",
+    "taxonomy-extraction",
+    "knowledge-management",
+    "tool-discovery",
+    "library-population",
+    "cross-department",
+    "continuous-learning",
+    "automation",
+    "research-workflow"
+  ]
+}

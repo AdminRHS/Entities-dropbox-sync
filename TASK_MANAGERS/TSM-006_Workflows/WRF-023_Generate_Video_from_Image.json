@@ -1,0 +1,151 @@
+{
+  "entity_type": "TASK_MANAGERS",
+  "sub_entity": "Workflow",
+  "workflow_id": "WRF-023",
+  "meta_category": "TSM-006",
+  "name": "Generate Video from Image",
+  "legacy_id": "Generate_Video_from_Image_Workflow",
+  "objective": "Animate still images into short video clips using AI-powered video generation with Veo",
+  "description": "A creative workflow for transforming static images into animated video content using Google AI Studio's built-in Veo video generator. Upload an image and describe the desired motion to create engaging video clips without video editing software.",
+  "department": ["VID", "SMM", "DGN"],
+  "complexity": "Medium",
+  "duration_estimate": "3-5 minutes",
+  "time_saved": "Eliminates need for complex video editing software and manual animation (saves 30-120 minutes per video)",
+  "skills_required": [
+    "Visual Storytelling",
+    "Prompt Engineering",
+    "Motion Description",
+    "Video Production Basics"
+  ],
+  "tools_required": [
+    {
+      "tool_id": "TOOL-AI-222",
+      "tool_name": "Google AI Studio",
+      "purpose": "AI video generation platform with Veo integration"
+    }
+  ],
+  "tasks": [
+    {
+      "task_id": "TSK-009",
+      "task_name": "Navigate to Generate Media tab",
+      "description": "Open Google AI Studio and access the Generate Media module for Veo video generation",
+      "order": 1,
+      "estimated_time": "10 seconds"
+    },
+    {
+      "task_id": "TSK-010",
+      "task_name": "Upload still image",
+      "description": "Upload the source image to be animated (from local computer or Google Drive)",
+      "order": 2,
+      "estimated_time": "20 seconds"
+    },
+    {
+      "task_id": "TSK-011",
+      "task_name": "Write animation prompt",
+      "description": "Describe desired motion and animation (e.g., 'make the dog stand up and walk away', 'zoom into the building')",
+      "order": 3,
+      "estimated_time": "30-60 seconds"
+    },
+    {
+      "task_id": "TSK-012",
+      "task_name": "Customize video settings",
+      "description": "Adjust aspect ratio, duration, frame rate, and add negative prompts if needed",
+      "order": 4,
+      "estimated_time": "30 seconds"
+    },
+    {
+      "task_id": "TSK-013",
+      "task_name": "Generate and download video",
+      "description": "Run generation, preview output, and download MP4 file",
+      "order": 5,
+      "estimated_time": "90-180 seconds (including processing time)"
+    }
+  ],
+  "actions": ["Navigate", "Upload", "Write", "Customize", "Generate", "Download"],
+  "objects_created": [
+    {
+      "object_type": "Animated Video Clip",
+      "description": "Short MP4 video with AI-generated motion from still image"
+    }
+  ],
+  "entry_criteria": [
+    "Static image file available (JPG, PNG, etc.)",
+    "Clear vision of desired animation/motion",
+    "Access to Google AI Studio",
+    "Understanding of aspect ratio requirements for target platform"
+  ],
+  "exit_criteria": [
+    "Video clip generated successfully",
+    "Animation matches intended motion description",
+    "MP4 file downloaded and ready for use",
+    "Quality meets project requirements"
+  ],
+  "use_cases": [
+    "Animate product photos for social media",
+    "Create dynamic thumbnails from static images",
+    "Add motion to historical or archival photos",
+    "Generate video content for presentations",
+    "Create engaging social media stories",
+    "Prototype video concepts before full production",
+    "Animate illustrations or artwork",
+    "Create cinemagraphs for websites"
+  ],
+  "typical_inputs": [
+    "Source image (still photo or illustration)",
+    "Motion description prompt",
+    "Target aspect ratio (16:9, 9:16, 1:1, etc.)",
+    "Video duration preference",
+    "Negative prompts (unwanted elements)",
+    "Target platform (Instagram, YouTube, Facebook, etc.)"
+  ],
+  "typical_outputs": [
+    "MP4 video file (various aspect ratios)",
+    "Short animated clips (typically 3-8 seconds)",
+    "Multiple generation variants for selection",
+    "Social media-ready video content"
+  ],
+  "best_practices": [
+    "Use high-quality source images for best results",
+    "Be specific in motion descriptions (direction, speed, type of movement)",
+    "Start with simple animations before complex multi-object movements",
+    "Generate multiple variants to compare results",
+    "Use negative prompts to avoid unwanted artifacts",
+    "Match aspect ratio to target platform (vertical for Stories, horizontal for YouTube)",
+    "Review video quality before using in production",
+    "Keep animations natural and realistic for professional content"
+  ],
+  "common_pitfalls": [
+    "Using low-resolution source images resulting in pixelated video",
+    "Vague motion descriptions leading to unpredictable results",
+    "Not specifying aspect ratio, getting wrong format for platform",
+    "Expecting complex multi-step animations in single generation",
+    "Not using negative prompts to filter out unwanted elements",
+    "Insufficient processing time allowance (Veo generation takes 1-3 minutes)"
+  ],
+  "integration_with_other_workflows": [
+    "WRF-021: Generated videos can be used with social media captions",
+    "Image editing workflows (prepare images before animation)",
+    "Social media posting workflows (cross-platform distribution)"
+  ],
+  "tags": [
+    "video-generation",
+    "veo",
+    "image-animation",
+    "ai-video",
+    "motion-graphics",
+    "google-ai-studio",
+    "social-media-content",
+    "creative-automation"
+  ],
+  "discovery_source": "Video_023",
+  "video_source": {
+    "video_id": "Video_023",
+    "video_title": "Google AI Studio Full Walkthrough and Tutorial",
+    "creator": "AI for Grownups",
+    "timestamp": "07:25-08:24"
+  },
+  "status": "active",
+  "version": "1.0",
+  "created_date": "2025-11-24",
+  "last_updated": "2025-11-24"
+}

@@ -1,0 +1,30 @@
+{
+  "entity_type": "LIBRARIES",
+  "sub_entity": "Tool",
+  "tool_id": "TOOL-BUS-016",
+  "name": "Apollo.io",
+  "vendor": "Apollo.io",
+  "category": "Business Tools / Lead Database / Sales Platform",
+  "purpose": "B2B lead database and sales engagement platform",
+  "description": "B2B lead database and sales engagement tool. NOTE: Export functionality via third-party tools (AmpleLeads, LeadsRapidly, ExportApollo) has become UNSTABLE as of Video_006 recording due to Apollo security changes. While the platform remains useful for research and engagement, bulk export workflows are currently deprecated. Historical documentation maintained for reference.",
+  "skill_level_required": "Beginner",
+  "cost_structure": "Freemium + paid tiers",
+  "platform_compatibility": ["Web", "API"],
+  "integration_capabilities": ["CRM integration", "Previously: CSV export via third-party tools (NOW UNSTABLE)"],
+  "documentation_url": "https://apollo.io",
+  "actual_remote_helpers_usage": {
+    "primary_use": "B2B Lead Database (Export functionality deprecated)",
+    "users": ["Lead Generation Specialist", "SDR"],
+    "use_cases": ["lead research", "sales engagement (in-platform)", "DEPRECATED: bulk export workflows"],
+    "workflows": ["DEPRECATED: Apollo export workflows (AmpleLeads/LeadsRapidly/ExportApollo)"],
+    "typical_workflow_pattern": [{"task": "Apollo Export (DEPRECATED)", "steps": ["Search leads in Apollo", "Previously: Use export tool", "NOW: Unstable due to security changes"], "complexity": "N/A", "status": "DEPRECATED"}]
+  },
+  "strengths": ["Large B2B database", "In-platform engagement features"],
+  "limitations": ["Export tools UNSTABLE", "Security changes broke third-party integrations", "Use in-platform features instead"],
+  "departments_using": ["Sales", "LG"],
+  "tags": ["lead-database", "b2b", "sales-engagement", "deprecated-export"],
+  "discovery_date": "2025-11-12",
+  "discovery_source": "Video_006_Lead_Generation_Analysis",
+  "status": "active_platform_deprecated_export",
+  "deprecation_note": "Apollo changed security mid-2024, export tools now unstable per Video_006 ~00:11:50"
+}

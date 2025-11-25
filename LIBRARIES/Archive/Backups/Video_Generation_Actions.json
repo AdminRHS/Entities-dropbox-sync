@@ -1,0 +1,908 @@
+{
+  "entity_type": "LIBRARIES",
+  "sub_entity": "Actions",
+  "category": "Video_Generation",
+  "source": "Video_011, Video_012",
+  "extraction_date": "2025-11-15",
+  "last_updated": "2025-11-15",
+  "actions": [
+    {
+      "action_id": "ACT-CREA-200",
+      "action": "Generate",
+      "action_type": "Creation",
+      "description": "Create or produce video content using AI models from text prompts or images",
+      "common_objects": [
+        "Videos",
+        "AI Models",
+        "Recommendations",
+        "Motion Graphics",
+        "Animations"
+      ],
+      "tool_requirements": [
+        "Wan 2.2",
+        "ComfyUI",
+        "Movie Gen",
+        "AI Video Models"
+      ],
+      "examples": [
+        "Generate video from text prompt using Wan 2.2",
+        "Generate motion from static image using I2V model",
+        "Generate AI recommendations for video improvements"
+      ],
+      "related_processes": [
+        "video-generation",
+        "content-creation",
+        "ai-processing"
+      ],
+      "related_results": [
+        "generated-video",
+        "rendered-content",
+        "created-animation"
+      ],
+      "department_mapping": [
+        "Video",
+        "AI",
+        "Design"
+      ],
+      "profession_mapping": [
+        "Video Editor",
+        "AI Engineer",
+        "Content Creator"
+      ],
+      "tags": [
+        "ai-generation",
+        "video-creation",
+        "text-to-video",
+        "image-to-video"
+      ],
+      "version": "1.0",
+      "created": "2025-11-15",
+      "last_updated": "2025-11-15",
+      "source": "Video_011"
+    },
+    {
+      "action_id": "ACT-PROC-100",
+      "action": "Load",
+      "action_type": "Processing",
+      "description": "Load AI models, components, or workflows into memory or application",
+      "common_objects": [
+        "Diffusion Models",
+        "VAE Models",
+        "Text Encoders",
+        "Workflows",
+        "Templates"
+      ],
+      "tool_requirements": [
+        "ComfyUI",
+        "Python",
+        "File System"
+      ],
+      "examples": [
+        "Load Wan 2.2 diffusion model in ComfyUI",
+        "Load VAE for video decoding",
+        "Load workflow template from library",
+        "Load text encoder (UMT 5 XXL)"
+      ],
+      "related_processes": [
+        "loading",
+        "initializing",
+        "preparing"
+      ],
+      "related_results": [
+        "loaded-model",
+        "initialized-workflow",
+        "ready-for-generation"
+      ],
+      "department_mapping": [
+        "Video",
+        "AI",
+        "Development"
+      ],
+      "profession_mapping": [
+        "AI Engineer",
+        "Video Editor",
+        "Developer"
+      ],
+      "tags": [
+        "model-loading",
+        "initialization",
+        "workflow-setup"
+      ],
+      "version": "1.0",
+      "created": "2025-11-15",
+      "last_updated": "2025-11-15",
+      "source": "Video_011"
+    },
+    {
+      "action_id": "ACT-MGMT-150",
+      "action": "Configure",
+      "action_type": "Management",
+      "description": "Set up parameters, settings, and configurations for AI models or workflows",
+      "common_objects": [
+        "Sampler Settings",
+        "Resolution",
+        "Parameters",
+        "Model Configuration",
+        "Workflow Settings"
+      ],
+      "tool_requirements": [
+        "ComfyUI",
+        "Configuration Files"
+      ],
+      "examples": [
+        "Configure sampler to 30 steps with uni_pc scheduler",
+        "Configure resolution to 720p (736x1280)",
+        "Configure CFG scale to 5 and shift to 8",
+        "Configure KSampler Advanced for two-stage generation"
+      ],
+      "related_processes": [
+        "configuring",
+        "setting-up",
+        "adjusting"
+      ],
+      "related_results": [
+        "configured-workflow",
+        "optimized-settings",
+        "ready-pipeline"
+      ],
+      "department_mapping": [
+        "Video",
+        "AI",
+        "Development"
+      ],
+      "profession_mapping": [
+        "AI Engineer",
+        "Video Editor",
+        "Technical Artist"
+      ],
+      "tags": [
+        "configuration",
+        "parameter-tuning",
+        "workflow-setup"
+      ],
+      "version": "1.0",
+      "created": "2025-11-15",
+      "last_updated": "2025-11-15",
+      "source": "Video_011"
+    },
+    {
+      "action_id": "ACT-ANAL-080",
+      "action": "Compare",
+      "action_type": "Analysis",
+      "description": "Evaluate and contrast different AI models, outputs, or approaches",
+      "common_objects": [
+        "Video Quality",
+        "Model Performance",
+        "Generation Outputs",
+        "Benchmark Results"
+      ],
+      "tool_requirements": [
+        "Multiple AI Models",
+        "Analysis Tools",
+        "Benchmarking Tools"
+      ],
+      "examples": [
+        "Compare Wan 2.2 vs Wan 2.1 video quality",
+        "Compare 5B vs 14B model outputs",
+        "Compare Movie Gen with Wan 2.2 results",
+        "Compare FP16 vs FP8 model quality"
+      ],
+      "related_processes": [
+        "comparing",
+        "evaluating",
+        "benchmarking"
+      ],
+      "related_results": [
+        "comparison-report",
+        "benchmark-results",
+        "evaluation-complete"
+      ],
+      "department_mapping": [
+        "AI",
+        "Video",
+        "Research"
+      ],
+      "profession_mapping": [
+        "AI Researcher",
+        "Video Editor",
+        "Quality Analyst"
+      ],
+      "tags": [
+        "comparison",
+        "benchmarking",
+        "quality-analysis"
+      ],
+      "version": "1.0",
+      "created": "2025-11-15",
+      "last_updated": "2025-11-15",
+      "source": "Video_011"
+    },
+    {
+      "action_id": "ACT-PROC-101",
+      "action": "Download",
+      "action_type": "Processing",
+      "description": "Retrieve model files, templates, or resources from remote repositories",
+      "common_objects": [
+        "Model Files",
+        "Templates",
+        "Workflows",
+        "VAE Files",
+        "Text Encoders"
+      ],
+      "tool_requirements": [
+        "Hugging Face",
+        "Model Scope",
+        "Git",
+        "Web Browser"
+      ],
+      "examples": [
+        "Download Wan 2.2 5B model from Hugging Face",
+        "Download high-noise and low-noise 14B model pair",
+        "Download workflow templates from ComfyUI",
+        "Download VAE models (2.1 and 2.2 versions)"
+      ],
+      "related_processes": [
+        "downloading",
+        "retrieving",
+        "fetching"
+      ],
+      "related_results": [
+        "downloaded-files",
+        "local-models",
+        "ready-for-installation"
+      ],
+      "department_mapping": [
+        "AI",
+        "Video",
+        "Development"
+      ],
+      "profession_mapping": [
+        "AI Engineer",
+        "Developer",
+        "System Administrator"
+      ],
+      "tags": [
+        "download",
+        "model-acquisition",
+        "file-transfer"
+      ],
+      "version": "1.0",
+      "created": "2025-11-15",
+      "last_updated": "2025-11-15",
+      "source": "Video_011"
+    },
+    {
+      "action_id": "ACT-MGMT-151",
+      "action": "Update",
+      "action_type": "Management",
+      "description": "Refresh or upgrade software, models, or configurations to latest versions",
+      "common_objects": [
+        "ComfyUI",
+        "Models",
+        "Configurations",
+        "Dependencies"
+      ],
+      "tool_requirements": [
+        "Git",
+        "Command Line",
+        "Package Managers"
+      ],
+      "examples": [
+        "Update ComfyUI using git pull command",
+        "Update to latest model version",
+        "Update workflow templates",
+        "Update VAE to version 2.2"
+      ],
+      "related_processes": [
+        "updating",
+        "upgrading",
+        "refreshing"
+      ],
+      "related_results": [
+        "updated-software",
+        "latest-version",
+        "refreshed-system"
+      ],
+      "department_mapping": [
+        "Development",
+        "AI",
+        "Video"
+      ],
+      "profession_mapping": [
+        "Developer",
+        "System Administrator",
+        "AI Engineer"
+      ],
+      "tags": [
+        "update",
+        "upgrade",
+        "maintenance"
+      ],
+      "version": "1.0",
+      "created": "2025-11-15",
+      "last_updated": "2025-11-15",
+      "source": "Video_011"
+    },
+    {
+      "action_id": "ACT-CREA-201",
+      "action": "Animate",
+      "action_type": "Creation",
+      "description": "Convert static images into animated videos with motion and camera movements",
+      "common_objects": [
+        "Static Images",
+        "Product Photos",
+        "Reference Images",
+        "Logo Images",
+        "Character Portraits"
+      ],
+      "tool_requirements": [
+        "Google Veo 3.1",
+        "OpenArt",
+        "Image-to-Video Models"
+      ],
+      "examples": [
+        "Animate product image with 360° rotation using Veo 3.1",
+        "Animate brand logo with synchronized movements",
+        "Animate character portrait for storytelling video",
+        "Animate static frame to create video transition"
+      ],
+      "related_processes": [
+        "image-to-video",
+        "animation",
+        "video-generation"
+      ],
+      "related_results": [
+        "animated-video",
+        "motion-video",
+        "video-from-image"
+      ],
+      "department_mapping": [
+        "Video Production",
+        "Marketing",
+        "Brand Management"
+      ],
+      "profession_mapping": [
+        "Video Producer",
+        "Product Marketer",
+        "Brand Manager"
+      ],
+      "tags": [
+        "image-to-video",
+        "animation",
+        "motion-generation",
+        "veo-3.1"
+      ],
+      "version": "1.0",
+      "created": "2025-11-15",
+      "last_updated": "2025-11-15",
+      "source": "Video_012"
+    },
+    {
+      "action_id": "ACT-MGMT-152",
+      "action": "Control Frames",
+      "action_type": "Management",
+      "description": "Set and manage start and end frames to control video beginning and ending precisely",
+      "common_objects": [
+        "Start Frames",
+        "End Frames",
+        "Frame Pairs",
+        "Video Boundaries"
+      ],
+      "tool_requirements": [
+        "Google Veo 3.1",
+        "OpenArt"
+      ],
+      "examples": [
+        "Set product on white background as start frame",
+        "Set product on black background as end frame",
+        "Control video beginning with specific product angle",
+        "Define exact ending frame for scene transition"
+      ],
+      "related_processes": [
+        "frame-control",
+        "video-boundaries",
+        "scene-management"
+      ],
+      "related_results": [
+        "controlled-video",
+        "precise-transitions",
+        "frame-defined-video"
+      ],
+      "department_mapping": [
+        "Video Production",
+        "E-commerce",
+        "Marketing"
+      ],
+      "profession_mapping": [
+        "Video Producer",
+        "Product Marketer",
+        "E-commerce Manager"
+      ],
+      "tags": [
+        "frame-control",
+        "start-end-frames",
+        "video-boundaries",
+        "veo-3.1"
+      ],
+      "version": "1.0",
+      "created": "2025-11-15",
+      "last_updated": "2025-11-15",
+      "source": "Video_012"
+    },
+    {
+      "action_id": "ACT-PROC-102",
+      "action": "Chain Scenes",
+      "action_type": "Processing",
+      "description": "Connect multiple video scenes seamlessly by using end frame of one scene as start frame of next",
+      "common_objects": [
+        "Video Scenes",
+        "Frame Sequences",
+        "Multi-Scene Videos",
+        "Unlimited-Length Videos"
+      ],
+      "tool_requirements": [
+        "Google Veo 3.1",
+        "OpenArt",
+        "Frame Control Feature"
+      ],
+      "examples": [
+        "Chain product commercial scenes for unlimited length video",
+        "Connect studio scene to space scene seamlessly",
+        "Create multi-scene brand video with frame continuity",
+        "Build extended narrative by chaining video segments"
+      ],
+      "related_processes": [
+        "scene-chaining",
+        "frame-swapping",
+        "multi-scene-generation"
+      ],
+      "related_results": [
+        "unlimited-length-video",
+        "seamless-transitions",
+        "multi-scene-commercial"
+      ],
+      "department_mapping": [
+        "Video Production",
+        "Marketing",
+        "Brand Management"
+      ],
+      "profession_mapping": [
+        "Video Producer",
+        "Brand Manager",
+        "Content Creator"
+      ],
+      "tags": [
+        "scene-chaining",
+        "frame-swapping",
+        "unlimited-length",
+        "veo-3.1"
+      ],
+      "version": "1.0",
+      "created": "2025-11-15",
+      "last_updated": "2025-11-15",
+      "source": "Video_012"
+    },
+    {
+      "action_id": "ACT-PROC-103",
+      "action": "Swap Frames",
+      "action_type": "Processing",
+      "description": "Exchange start and end frames to continue video generation from previous ending point",
+      "common_objects": [
+        "Frame Pairs",
+        "Video Continuations",
+        "Scene Transitions"
+      ],
+      "tool_requirements": [
+        "Google Veo 3.1",
+        "OpenArt"
+      ],
+      "examples": [
+        "Swap frames to continue from previous scene ending",
+        "Use previous end frame as new start frame for next scene",
+        "Create frame continuity across multiple generations",
+        "Maintain product consistency across scene changes"
+      ],
+      "related_processes": [
+        "frame-swapping",
+        "scene-continuation",
+        "frame-management"
+      ],
+      "related_results": [
+        "continued-video",
+        "seamless-flow",
+        "frame-continuity"
+      ],
+      "department_mapping": [
+        "Video Production",
+        "E-commerce",
+        "Marketing"
+      ],
+      "profession_mapping": [
+        "Video Producer",
+        "Product Marketer",
+        "Content Creator"
+      ],
+      "tags": [
+        "frame-swapping",
+        "scene-continuation",
+        "frame-management",
+        "veo-3.1"
+      ],
+      "version": "1.0",
+      "created": "2025-11-15",
+      "last_updated": "2025-11-15",
+      "source": "Video_012"
+    },
+    {
+      "action_id": "ACT-CREA-202",
+      "action": "Generate Multi-Image Video",
+      "action_type": "Creation",
+      "description": "Create videos using 1-3 reference images for characters, objects, and environments",
+      "common_objects": [
+        "Character Portraits",
+        "Object Images",
+        "Environment Scenes",
+        "Reference Image Sets",
+        "Elements"
+      ],
+      "tool_requirements": [
+        "Google Veo 3.1",
+        "OpenArt",
+        "Elements Feature"
+      ],
+      "examples": [
+        "Generate video from character portrait + statue + park environment",
+        "Create narrative video using 3 reference images",
+        "Combine character, object, and background references into cohesive video",
+        "Generate social media video from multiple reference elements"
+      ],
+      "related_processes": [
+        "multi-image-generation",
+        "elements-feature",
+        "reference-based-video"
+      ],
+      "related_results": [
+        "multi-reference-video",
+        "cohesive-scene",
+        "elements-video"
+      ],
+      "department_mapping": [
+        "Video Production",
+        "Content Creation",
+        "Social Media"
+      ],
+      "profession_mapping": [
+        "Video Producer",
+        "Content Creator",
+        "Social Media Manager"
+      ],
+      "tags": [
+        "multi-image",
+        "elements-feature",
+        "reference-images",
+        "veo-3.1"
+      ],
+      "version": "1.0",
+      "created": "2025-11-15",
+      "last_updated": "2025-11-15",
+      "source": "Video_012"
+    },
+    {
+      "action_id": "ACT-PROC-104",
+      "action": "Modify Product Image",
+      "action_type": "Processing",
+      "description": "Edit product images by changing backgrounds, rotating products, or modifying environments via text prompts",
+      "common_objects": [
+        "Product Images",
+        "Product Backgrounds",
+        "Product Angles",
+        "End Frames"
+      ],
+      "tool_requirements": [
+        "Nano Banana",
+        "OpenArt",
+        "Image Editing Models"
+      ],
+      "examples": [
+        "Change product background from white to black",
+        "Rotate product 180 degrees for different angle",
+        "Modify product environment for video end frame",
+        "Create matching frames for video continuity"
+      ],
+      "related_processes": [
+        "image-editing",
+        "product-modification",
+        "background-replacement"
+      ],
+      "related_results": [
+        "modified-product-image",
+        "end-frame",
+        "edited-product-photo"
+      ],
+      "department_mapping": [
+        "E-commerce",
+        "Product Marketing",
+        "Video Production"
+      ],
+      "profession_mapping": [
+        "Product Marketer",
+        "E-commerce Manager",
+        "Video Producer"
+      ],
+      "tags": [
+        "product-editing",
+        "background-change",
+        "image-modification",
+        "nano-banana"
+      ],
+      "version": "1.0",
+      "created": "2025-11-15",
+      "last_updated": "2025-11-15",
+      "source": "Video_012"
+    },
+    {
+      "action_id": "ACT-CREA-203",
+      "action": "Generate Reference Images",
+      "action_type": "Creation",
+      "description": "Create character portraits, objects, or environment scenes to use as video generation references",
+      "common_objects": [
+        "Character Portraits",
+        "Object Renders",
+        "Environment Scenes",
+        "Reference Sets"
+      ],
+      "tool_requirements": [
+        "OpenArt Photorealistic",
+        "Seedream 4.0",
+        "Flux",
+        "Flux Kontext"
+      ],
+      "examples": [
+        "Generate character portrait for video Elements feature",
+        "Create marble statue image as object reference",
+        "Generate park environment for video background",
+        "Create brand logo image with thousands of elements"
+      ],
+      "related_processes": [
+        "reference-generation",
+        "image-creation",
+        "element-preparation"
+      ],
+      "related_results": [
+        "reference-images",
+        "character-portraits",
+        "environment-scenes"
+      ],
+      "department_mapping": [
+        "Video Production",
+        "Content Creation",
+        "Marketing"
+      ],
+      "profession_mapping": [
+        "Video Producer",
+        "Content Creator",
+        "Brand Manager"
+      ],
+      "tags": [
+        "reference-images",
+        "character-generation",
+        "environment-creation",
+        "elements-prep"
+      ],
+      "version": "1.0",
+      "created": "2025-11-15",
+      "last_updated": "2025-11-15",
+      "source": "Video_012"
+    },
+    {
+      "action_id": "ACT-MGMT-153",
+      "action": "Specify Camera Movements",
+      "action_type": "Management",
+      "description": "Define time-based camera movements and cinematography in video generation prompts",
+      "common_objects": [
+        "Camera Instructions",
+        "Time-Based Prompts",
+        "Cinematography Specs",
+        "Movement Sequences"
+      ],
+      "tool_requirements": [
+        "Google Veo 3.1",
+        "OpenArt"
+      ],
+      "examples": [
+        "At 2s: camera begins slow dolly-in, At 3s: 180° orbit, Finally: zoom out",
+        "Define camera pull back to reveal environment",
+        "Specify cinematic close-up with shallow depth of field",
+        "Set time-based zoom and rotation sequence"
+      ],
+      "related_processes": [
+        "cinematography",
+        "camera-control",
+        "prompt-engineering"
+      ],
+      "related_results": [
+        "cinematic-video",
+        "controlled-camera-movement",
+        "professional-cinematography"
+      ],
+      "department_mapping": [
+        "Video Production",
+        "Marketing",
+        "Brand Management"
+      ],
+      "profession_mapping": [
+        "Video Producer",
+        "Cinematographer",
+        "Product Marketer"
+      ],
+      "tags": [
+        "camera-movements",
+        "time-based-prompts",
+        "cinematography",
+        "veo-3.1"
+      ],
+      "version": "1.0",
+      "created": "2025-11-15",
+      "last_updated": "2025-11-15",
+      "source": "Video_012"
+    },
+    {
+      "action_id": "ACT-PROC-105",
+      "action": "Switch Models",
+      "action_type": "Processing",
+      "description": "Change between different AI models while preserving prompts and context in unified platform",
+      "common_objects": [
+        "AI Models",
+        "Model Versions",
+        "Saved Prompts",
+        "Generation Settings"
+      ],
+      "tool_requirements": [
+        "OpenArt",
+        "Multiple AI Models"
+      ],
+      "examples": [
+        "Switch from Veo 3.0 to Veo 3.1 with same prompt",
+        "Change from OpenArt Photorealistic to Seedream 4.0",
+        "Switch between Flux variants for comparison",
+        "Change models while maintaining prompt history"
+      ],
+      "related_processes": [
+        "model-switching",
+        "platform-navigation",
+        "workflow-optimization"
+      ],
+      "related_results": [
+        "model-comparison",
+        "optimized-workflow",
+        "preserved-context"
+      ],
+      "department_mapping": [
+        "Video Production",
+        "Content Creation",
+        "AI Research"
+      ],
+      "profession_mapping": [
+        "Video Producer",
+        "Content Creator",
+        "AI Specialist"
+      ],
+      "tags": [
+        "model-switching",
+        "openart",
+        "workflow-optimization",
+        "prompt-preservation"
+      ],
+      "version": "1.0",
+      "created": "2025-11-15",
+      "last_updated": "2025-11-15",
+      "source": "Video_012"
+    },
+    {
+      "action_id": "ACT-ANAL-081",
+      "action": "Compare Model Versions",
+      "action_type": "Analysis",
+      "description": "Evaluate differences between AI model versions (3.0 vs 3.1) for quality and capabilities",
+      "common_objects": [
+        "Model Outputs",
+        "Quality Comparisons",
+        "Feature Assessments",
+        "Performance Metrics"
+      ],
+      "tool_requirements": [
+        "Google Veo 3.0",
+        "Google Veo 3.1",
+        "OpenArt"
+      ],
+      "examples": [
+        "Compare Veo 3.0 vs 3.1 audio quality",
+        "Evaluate visual realism improvements in 3.1",
+        "Compare prompt adherence between versions",
+        "Assess motion smoothness differences"
+      ],
+      "related_processes": [
+        "version-comparison",
+        "quality-assessment",
+        "feature-evaluation"
+      ],
+      "related_results": [
+        "comparison-complete",
+        "version-assessment",
+        "quality-report"
+      ],
+      "department_mapping": [
+        "AI Research",
+        "Video Production",
+        "Quality Assurance"
+      ],
+      "profession_mapping": [
+        "AI Researcher",
+        "Video Producer",
+        "Quality Analyst"
+      ],
+      "tags": [
+        "model-comparison",
+        "version-analysis",
+        "quality-assessment",
+        "veo"
+      ],
+      "version": "1.0",
+      "created": "2025-11-15",
+      "last_updated": "2025-11-15",
+      "source": "Video_012"
+    },
+    {
+      "action_id": "ACT-CREA-204",
+      "action": "Generate Brand Logo Animation",
+      "action_type": "Creation",
+      "description": "Create animated brand logos with complex compositions like crowds forming logo shapes",
+      "common_objects": [
+        "Brand Logos",
+        "Logo Animations",
+        "Complex Compositions",
+        "Brand Videos"
+      ],
+      "tool_requirements": [
+        "Flux Kontext",
+        "Google Veo 3.1",
+        "OpenArt"
+      ],
+      "examples": [
+        "Generate infinity logo formed by thousands of people",
+        "Create logo with synchronized movement animations",
+        "Animate brand mark with creative compositions",
+        "Generate logo commercial with aerial perspective"
+      ],
+      "related_processes": [
+        "brand-animation",
+        "logo-creation",
+        "complex-composition"
+      ],
+      "related_results": [
+        "animated-logo",
+        "brand-commercial",
+        "logo-video"
+      ],
+      "department_mapping": [
+        "Brand Management",
+        "Marketing",
+        "Creative Services"
+      ],
+      "profession_mapping": [
+        "Brand Manager",
+        "Creative Director",
+        "Marketing Creative"
+      ],
+      "tags": [
+        "brand-logo",
+        "animation",
+        "complex-composition",
+        "flux-kontext"
+      ],
+      "version": "1.0",
+      "created": "2025-11-15",
+      "last_updated": "2025-11-15",
+      "source": "Video_012"
+    }
+  ]
+}

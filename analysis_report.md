@@ -1,0 +1,656 @@
+# ENTITIES Data Structure Analysis Report
+
+**Date:** 2025-11-19 18:42:06
+**Files Scanned:** 621
+**Entities Found:** 1590
+
+**⚠️ MIGRATION NOTE (2025-11-22):** This report reflects the structure before the LBS integration. Skills have been migrated from `LIBRARIES/LBS_004_Skills/` to `TALENTS/Skills/`. References to `LBS_004_Skills` in this report should be updated to `TALENTS/Skills`.
+
+## 1. Structural & Consistency Checks
+### Errors
+- **Error** in `LIBRARIES/LBS_003_Tools/AI_Tools/Replit.json`: Duplicate ID found: `TOOL-AI-041`. Also in `LIBRARIES/LBS_003_Tools/AI_Tools/Cursor.json`
+- **Error** in `TASK_MANAGERS/Task_Templates/Task-Template-014_Google_SERP_Lead_Generation.json`: Duplicate ID found: `RESP-LG-040`. Also in `LIBRARIES/Responsibilities/Core/responsibilities_master.json`
+- **Error** in `TASK_MANAGERS/Task_Templates/Task-Template-048_Research_Other_Tools.json`: Duplicate ID found: `RESP-AI-080`. Also in `LIBRARIES/Responsibilities/Core/responsibilities_master.json`
+- **Error** in `TASK_MANAGERS/Task_Templates/Task-Template-011_Enable_Claude_Skills_Feature.json`: Duplicate ID found: `RESP-DEV-027`. Also in `LIBRARIES/Responsibilities/Core/responsibilities_master.json`
+- **Error** in `TASK_MANAGERS/Task_Templates/Task-Template-016_Instantly_AI_Email_Enrichment.json`: Duplicate ID found: `RESP-LG-001`. Also in `LIBRARIES/Responsibilities/Core/responsibilities_master.json`
+- **Error** in `TASK_MANAGERS/Task_Templates/Task-Template-010_Deploy_MCP_Connector_Locally.json`: Duplicate ID found: `RESP-DEV-018`. Also in `LIBRARIES/Responsibilities/Core/responsibilities_master.json`
+- **Error** in `TASK_MANAGERS/Task_Templates/Task-Template-007_Create_Job_Posting_Template.json`: Duplicate ID found: `RESP-HR-001`. Also in `LIBRARIES/Responsibilities/Core/responsibilities_master.json`
+- **Error** in `TASK_MANAGERS/Task_Templates/Task-Template-003_Anymailfinder_Nominative_Enrichment.json`: Duplicate ID found: `RESP-LG-010`. Also in `LIBRARIES/Responsibilities/Core/responsibilities_master.json`
+- **Error** in `TASK_MANAGERS/Task_Templates/Task-Template-008_Create_MCP_Connector.json`: Duplicate ID found: `RESP-DEV-011`. Also in `LIBRARIES/Responsibilities/Core/responsibilities_master.json`
+- **Error** in `TASK_MANAGERS/Task_Templates/Task-Template-015_Instagram_Influencer_Scraping.json`: Duplicate ID found: `RESP-MKT-001`. Also in `LIBRARIES/Responsibilities/Core/responsibilities_master.json`
+- **Error** in `TASK_MANAGERS/Task_Templates/Task-Template-012_Enterprise_Email_Arbitrage.json`: Duplicate ID found: `RESP-LG-011`. Also in `LIBRARIES/Responsibilities/Core/responsibilities_master.json`
+- **Error** in `TASK_MANAGERS/Task_Templates/Task-Template-017_LinkedIn_Jobs_Intent_Based_Scraping.json`: Duplicate ID found: `RESP-LG-050`. Also in `LIBRARIES/Responsibilities/Core/responsibilities_master.json`
+- **Error** in `TASK_MANAGERS/Task_Templates/Task-Template-006_Bright_Data_Email_Enrichment.json`: Duplicate ID found: `RESP-LG-001`. Also in `LIBRARIES/Responsibilities/Core/responsibilities_master.json`
+- **Error** in `TASK_MANAGERS/Task_Templates/Task-Template-002_Airscale_Employee_Enrichment.json`: Duplicate ID found: `RESP-LG-013`. Also in `LIBRARIES/Responsibilities/Core/responsibilities_master.json`
+- **Error** in `TASK_MANAGERS/Task_Templates/Task-Template-046_Research_AI_Platforms.json`: Duplicate ID found: `RESP-AI-079`. Also in `LIBRARIES/Responsibilities/Core/responsibilities_master.json`
+- **Error** in `TASK_MANAGERS/Task_Templates/Task-Template-001_AI_Powered_HTML_Parsing.json`: Duplicate ID found: `RESP-DEV-002`. Also in `LIBRARIES/Responsibilities/Core/responsibilities_master.json`
+- **Error** in `TASK_MANAGERS/Task_Templates/Task-Template-013_Google_Maps_Local_Business_Scraping.json`: Duplicate ID found: `RESP-LG-036`. Also in `LIBRARIES/Responsibilities/Core/responsibilities_master.json`
+- **Error** in `TASK_MANAGERS/Task_Templates/Task-Template-009_Custom_Niche_Platform_Scraping.json`: Duplicate ID found: `RESP-LG-022`. Also in `LIBRARIES/Responsibilities/Core/responsibilities_master.json`
+- **Error** in `TASK_MANAGERS/Task_Templates/Task-Template-047_Research_Development_Tools.json`: Duplicate ID found: `RESP-DEV-034`. Also in `LIBRARIES/Responsibilities/Core/responsibilities_master.json`
+- **Error** in `TASK_MANAGERS/Task_Templates/Task-Template-018_LinkedIn_Sales_Navigator_Lead_Extraction.json`: Duplicate ID found: `RESP-LG-059`. Also in `LIBRARIES/Responsibilities/Core/responsibilities_master.json`
+- **Error** in `TALENTS/Employees/units/empl_content.json`: Duplicate ID found: `<number>`. Also in `TALENTS/Employees/units/employee_unit_core.json`
+- **Error** in `TALENTS/Employees/units/empl_artist.json`: Duplicate ID found: `<number>`. Also in `TALENTS/Employees/units/employee_unit_core.json`
+- **Error** in `TALENTS/Employees/units/candidate.json`: Duplicate ID found: `<number>`. Also in `TALENTS/Employees/units/employee_unit_core.json`
+- **Error** in `TALENTS/Employees/units/position.json`: Duplicate ID found: `<number>`. Also in `TALENTS/Employees/units/employee_unit_core.json`
+- **Error** in `TALENTS/Employees/units/user.json`: Duplicate ID found: `<number>`. Also in `TALENTS/Employees/units/employee_unit_core.json`
+- **Error** in `TALENTS/Employees/units/department.json`: Duplicate ID found: `<number>`. Also in `TALENTS/Employees/units/employee_unit_core.json`
+- **Error** in `TALENTS/Employees/units/designation.json`: Duplicate ID found: `<number>`. Also in `TALENTS/Employees/units/employee_unit_core.json`
+- **Error** in `TALENTS/Employees/units/empaddress.json`: Duplicate ID found: `<number>`. Also in `TALENTS/Employees/units/employee_unit_core.json`
+- **Error** in `TALENTS/Employees/units/emplstatus.json`: Duplicate ID found: `<number>`. Also in `TALENTS/Employees/units/employee_unit_core.json`
+- **Error** in `TALENTS/Employees/units/video_editing.json`: Duplicate ID found: `<number>`. Also in `TALENTS/Employees/units/employee_unit_core.json`
+- **Error** in `ANALYTICS/Projects/PROJ-AI-NMP-001_Next_Main_Prompt_Version/project_instance.json`: Invalid JSON: Invalid \escape: line 57 column 40 (char 2147)
+- **Error** in `ANALYTICS/Milestones/MIL-003_Content_Analysis.json`: Duplicate ID found: `MIL-003`. Also in `ANALYTICS/Projects/PROJ-AI-NMP-001_Next_Main_Prompt_Version/Milestones/MIL-003_Library_Integration_Modules.json`
+
+### Warnings
+- **Warning** in `SETTINGS/Currencies/currencies.json`: Could not identify a primary ID for this file.
+- **Warning** in `SETTINGS/Statuses/statuses.json`: Could not identify a primary ID for this file.
+- **Warning** in `SETTINGS/Countries/countries.json`: Could not identify a primary ID for this file.
+- **Warning** in `BUSINESSES/Products/Products_Master.json`: Could not identify a primary ID for this file.
+- **Warning** in `BUSINESSES/Products/Products_Index.json`: Could not identify a primary ID for this file.
+- **Warning** in `BUSINESSES/Services/Technical_Services.json`: Could not identify a primary ID for this file.
+- **Warning** in `BUSINESSES/Services/Marketing_Services.json`: Could not identify a primary ID for this file.
+- **Warning** in `BUSINESSES/Services/Design_Services.json`: Could not identify a primary ID for this file.
+- **Warning** in `BUSINESSES/Services/SEO_Services.json`: Could not identify a primary ID for this file.
+- **Warning** in `BUSINESSES/Services/Lead_Generation_Services.json`: Could not identify a primary ID for this file.
+- **Warning** in `BUSINESSES/Services/Content_Services.json`: Could not identify a primary ID for this file.
+- **Warning** in `BUSINESSES/Services/Video_Services.json`: Could not identify a primary ID for this file.
+- **Warning** in `LIBRARIES/LBS_FOLDER_MASTER.json`: Could not identify a primary ID for this file.
+- **Warning** in `LIBRARIES/Cross_Reference_Mapping_Video_006_008.json`: Could not identify a primary ID for this file.
+- **Warning** in `LIBRARIES/LBS_006_Departments/Master/departments.json`: Could not identify a primary ID for this file.
+- **Warning** in `LIBRARIES/LBS_006_Departments/By_Department/AI/metrics.json`: Could not identify a primary ID for this file.
+- **Warning** in `LIBRARIES/LBS_006_Departments/By_Department/AI/objects_reference.json`: Could not identify a primary ID for this file.
+- **Warning** in `LIBRARIES/LBS_006_Departments/By_Department/AI/structure.json`: Could not identify a primary ID for this file.
+- **Warning** in `LIBRARIES/LBS_006_Departments/By_Department/AI/projects.json`: Could not identify a primary ID for this file.
+- **Warning** in `LIBRARIES/LBS_006_Departments/By_Department/AI/overview.json`: Could not identify a primary ID for this file.
+- **Warning** in `LIBRARIES/LBS_006_Departments/By_Department/AI/task_managers_reference.json`: Could not identify a primary ID for this file.
+- **Warning** in `LIBRARIES/LBS_006_Departments/By_Department/AI/team_composition.json`: Could not identify a primary ID for this file.
+- **Warning** in `LIBRARIES/LBS_006_Departments/By_Department/AI/tools_reference.json`: Could not identify a primary ID for this file.
+- **Warning** in `LIBRARIES/LBS_006_Departments/By_Department/AI/integration.json`: Could not identify a primary ID for this file.
+- **Warning** in `LIBRARIES/LBS_007_Parameters/parameters.json`: Could not identify a primary ID for this file.
+- **Warning** in `LIBRARIES/LBS_007_Parameters/organized_by_profession/project_manager_parameters.json`: Could not identify a primary ID for this file.
+- **Warning** in `LIBRARIES/LBS_007_Parameters/organized_by_profession/general_parameters.json`: Could not identify a primary ID for this file.
+- **Warning** in `LIBRARIES/LBS_007_Parameters/organized_by_profession/sales_manager_parameters.json`: Could not identify a primary ID for this file.
+- **Warning** in `LIBRARIES/LBS_007_Parameters/organized_by_profession/seo_manager_parameters.json`: Could not identify a primary ID for this file.
+- **Warning** in `LIBRARIES/LBS_007_Parameters/organized_by_profession/lead_generator_parameters.json`: Could not identify a primary ID for this file.
+- **Warning** in `LIBRARIES/LBS_007_Parameters/organized_by_profession/_parameters_organization_summary.json`: Could not identify a primary ID for this file.
+- **Warning** in `LIBRARIES/LBS_007_Parameters/organized_by_profession/back_end_developer_parameters.json`: Could not identify a primary ID for this file.
+- **Warning** in `LIBRARIES/LBS_007_Parameters/organized_by_profession/graphic_designer_parameters.json`: Could not identify a primary ID for this file.
+- **Warning** in `LIBRARIES/LBS_007_Parameters/organized_by_profession/recruiter_parameters.json`: Could not identify a primary ID for this file.
+- **Warning** in `LIBRARIES/LBS_007_Parameters/organized_by_department/marketers_parameters.json`: Could not identify a primary ID for this file.
+- **Warning** in `LIBRARIES/LBS_007_Parameters/organized_by_department/developers_parameters.json`: Could not identify a primary ID for this file.
+- **Warning** in `LIBRARIES/LBS_007_Parameters/organized_by_department/designers_parameters.json`: Could not identify a primary ID for this file.
+- **Warning** in `LIBRARIES/LBS_007_Parameters/organized_by_department/_parameters_organization_summary.json`: Could not identify a primary ID for this file.
+- **Warning** in `LIBRARIES/LBS_007_Parameters/organized_by_department/managers_parameters.json`: Could not identify a primary ID for this file.
+- **Warning** in `LIBRARIES/Responsibilities/Account_Management_Responsibilities.json`: Could not identify a primary ID for this file.
+- **Warning** in `LIBRARIES/Responsibilities/parameter_views_by_profession.json`: Could not identify a primary ID for this file.
+- **Warning** in `LIBRARIES/Responsibilities/parameter_object_mapping.json`: Could not identify a primary ID for this file.
+- **Warning** in `LIBRARIES/Responsibilities/Core/phrase_matching_index.json`: Could not identify a primary ID for this file.
+- **Warning** in `LIBRARIES/Responsibilities/Core/action_variants_map.json`: Could not identify a primary ID for this file.
+- **Warning** in `LIBRARIES/Responsibilities/Core/object_variants_map.json`: Could not identify a primary ID for this file.
+- **Warning** in `LIBRARIES/LBS_008_Taxonomy/Libraries_Migration_Map.json`: Could not identify a primary ID for this file.
+- **Warning** in `LIBRARIES/LBS_002_Objects/Video_Generation_Objects.json`: Could not identify a primary ID for this file.
+- **Warning** in `LIBRARIES/LBS_002_Objects/Interactive_Elements.json`: Could not identify a primary ID for this file.
+- **Warning** in `LIBRARIES/LBS_002_Objects/Mascot_Sets.json`: Could not identify a primary ID for this file.
+- **Warning** in `LIBRARIES/LBS_002_Objects/Catalog_Documentation.json`: Could not identify a primary ID for this file.
+- **Warning** in `LIBRARIES/LBS_002_Objects/Agentic_Engineering_Objects.json`: Could not identify a primary ID for this file.
+- **Warning** in `LIBRARIES/LBS_002_Objects/Online_Academy_Lessons.json`: Could not identify a primary ID for this file.
+- **Warning** in `LIBRARIES/LBS_002_Objects/Development_Objects.json`: Could not identify a primary ID for this file.
+- **Warning** in `LIBRARIES/LBS_002_Objects/AI_Automation_Objects.json`: Could not identify a primary ID for this file.
+- **Warning** in `LIBRARIES/LBS_002_Objects/Lead_Generation_Objects.json`: Could not identify a primary ID for this file.
+- **Warning** in `LIBRARIES/LBS_002_Objects/Design_Deliverables.json`: Could not identify a primary ID for this file.
+- **Warning** in `LIBRARIES/LBS_005_Professions/Individual/Executive_Assistant.json`: Could not identify a primary ID for this file.
+- **Warning** in `LIBRARIES/LBS_005_Professions/Individual/SDR.json`: Could not identify a primary ID for this file.
+- **Warning** in `LIBRARIES/LBS_005_Professions/Individual/Developer.json`: Could not identify a primary ID for this file.
+- **Warning** in `LIBRARIES/LBS_005_Professions/Individual/Operations_Manager.json`: Could not identify a primary ID for this file.
+- **Warning** in `LIBRARIES/LBS_005_Professions/Individual/Automation_Engineer.json`: Could not identify a primary ID for this file.
+- **Warning** in `LIBRARIES/LBS_005_Professions/Individual/Backend_Developer.json`: Could not identify a primary ID for this file.
+- **Warning** in `LIBRARIES/LBS_005_Professions/Individual/Videographer.json`: Could not identify a primary ID for this file.
+- **Warning** in `LIBRARIES/LBS_005_Professions/Individual/SMM_Specialist.json`: Could not identify a primary ID for this file.
+- **Warning** in `LIBRARIES/LBS_005_Professions/Individual/Lead_Generator.json`: Could not identify a primary ID for this file.
+- **Warning** in `LIBRARIES/LBS_005_Professions/Individual/Account_Executive.json`: Could not identify a primary ID for this file.
+- **Warning** in `LIBRARIES/LBS_005_Professions/Individual/Designer.json`: Could not identify a primary ID for this file.
+- **Warning** in `LIBRARIES/LBS_005_Professions/Individual/AI_Engineer.json`: Could not identify a primary ID for this file.
+- **Warning** in `LIBRARIES/LBS_005_Professions/Individual/Marketer.json`: Could not identify a primary ID for this file.
+- **Warning** in `LIBRARIES/LBS_005_Professions/Individual/Automation_Specialist.json`: Could not identify a primary ID for this file.
+- **Warning** in `LIBRARIES/LBS_005_Professions/Individual/Customer_Success_Manager.json`: Could not identify a primary ID for this file.
+- **Warning** in `LIBRARIES/LBS_004_Skills/By_Profession/motion_designer.json`: Could not identify a primary ID for this file.
+- **Warning** in `LIBRARIES/LBS_004_Skills/By_Profession/animator.json`: Could not identify a primary ID for this file.
+- **Warning** in `LIBRARIES/LBS_004_Skills/By_Profession/smm.json`: Could not identify a primary ID for this file.
+- **Warning** in `LIBRARIES/LBS_004_Skills/Master/skills_metadata.json`: Could not identify a primary ID for this file.
+- **Warning** in `LIBRARIES/LBS_004_Skills/Templates/talent_skill_profile.json`: Could not identify a primary ID for this file.
+- **Warning** in `LIBRARIES/LBS_004_Skills/Templates/skill_assessment.json`: Could not identify a primary ID for this file.
+- **Warning** in `LIBRARIES/LBS_004_Skills/Templates/skill_development_plan.json`: Could not identify a primary ID for this file.
+- **Warning** in `LIBRARIES/LBS_003_Tools/Quora.json`: Filename `Quora.json` does not match ID `TOOL-PUB-004`
+- **Warning** in `LIBRARIES/LBS_003_Tools/TikTok.json`: Filename `TikTok.json` does not match ID `TOOL-SMM-003`
+- **Warning** in `LIBRARIES/LBS_003_Tools/Discord.json`: Filename `Discord.json` does not match ID `TOOL-COMM-002`
+- **Warning** in `LIBRARIES/LBS_003_Tools/Behance.json`: Filename `Behance.json` does not match ID `TOOL-PORT-001`
+- **Warning** in `LIBRARIES/LBS_003_Tools/Vimeo.json`: Filename `Vimeo.json` does not match ID `TOOL-VID-002`
+- **Warning** in `LIBRARIES/LBS_003_Tools/Lunchclub.json`: Filename `Lunchclub.json` does not match ID `TOOL-BIZ-003`
+- **Warning** in `LIBRARIES/LBS_003_Tools/Hashnode.json`: Filename `Hashnode.json` does not match ID `TOOL-PUB-003`
+- **Warning** in `LIBRARIES/LBS_003_Tools/YouTube.json`: Filename `YouTube.json` does not match ID `TOOL-VID-001`
+- **Warning** in `LIBRARIES/LBS_003_Tools/Threads.json`: Filename `Threads.json` does not match ID `TOOL-SMM-008`
+- **Warning** in `LIBRARIES/LBS_003_Tools/Telegram.json`: Filename `Telegram.json` does not match ID `TOOL-COMM-001`
+- **Warning** in `LIBRARIES/LBS_003_Tools/ArtStation.json`: Filename `ArtStation.json` does not match ID `TOOL-PORT-002`
+- **Warning** in `LIBRARIES/LBS_003_Tools/Facebook.json`: Filename `Facebook.json` does not match ID `TOOL-SMM-004`
+- **Warning** in `LIBRARIES/LBS_003_Tools/Dev_to.json`: Filename `Dev_to.json` does not match ID `TOOL-DEV-003`
+- **Warning** in `LIBRARIES/LBS_003_Tools/tool_validation_log_2025-11-10.json`: Could not identify a primary ID for this file.
+- **Warning** in `LIBRARIES/LBS_003_Tools/The_Dots.json`: Filename `The_Dots.json` does not match ID `TOOL-BIZ-001`
+- **Warning** in `LIBRARIES/LBS_003_Tools/Twitter.json`: Filename `Twitter.json` does not match ID `TOOL-SMM-006`
+- **Warning** in `LIBRARIES/LBS_003_Tools/Stack_Overflow.json`: Filename `Stack_Overflow.json` does not match ID `TOOL-DEV-002`
+- **Warning** in `LIBRARIES/LBS_003_Tools/Reddit.json`: Filename `Reddit.json` does not match ID `TOOL-COMM-003`
+- **Warning** in `LIBRARIES/LBS_003_Tools/Pinterest.json`: Filename `Pinterest.json` does not match ID `TOOL-SMM-005`
+- **Warning** in `LIBRARIES/LBS_003_Tools/LinkedIn.json`: Filename `LinkedIn.json` does not match ID `TOOL-SMM-007`
+- **Warning** in `LIBRARIES/LBS_003_Tools/Substack.json`: Filename `Substack.json` does not match ID `TOOL-PUB-002`
+- **Warning** in `LIBRARIES/LBS_003_Tools/DeviantArt.json`: Filename `DeviantArt.json` does not match ID `TOOL-PORT-004`
+- **Warning** in `LIBRARIES/LBS_003_Tools/Xing.json`: Filename `Xing.json` does not match ID `TOOL-BIZ-002`
+- **Warning** in `LIBRARIES/LBS_003_Tools/Security_Tools/Dropbox_Protect_and_Control.json`: Filename `Dropbox_Protect_and_Control.json` does not match ID `TOOL-114`
+- **Warning** in `LIBRARIES/LBS_003_Tools/Databases/Neon.json`: Filename `Neon.json` does not match ID `TOOL-DB-005`
+- **Warning** in `LIBRARIES/LBS_003_Tools/Databases/Neo4j.json`: Filename `Neo4j.json` does not match ID `TOOL-DB-001`
+- **Warning** in `LIBRARIES/LBS_003_Tools/Databases/Postgres.json`: Filename `Postgres.json` does not match ID `TOOL-DB-002`
+- **Warning** in `LIBRARIES/LBS_003_Tools/Databases/Redis.json`: Filename `Redis.json` does not match ID `TOOL-DB-003`
+- **Warning** in `LIBRARIES/LBS_003_Tools/Databases/Supabase.json`: Filename `Supabase.json` does not match ID `TOOL-DB-004`
+- **Warning** in `LIBRARIES/LBS_003_Tools/Databases/PGVector.json`: Filename `PGVector.json` does not match ID `TOOL-DB-006`
+- **Warning** in `LIBRARIES/LBS_003_Tools/Databases/Valkey.json`: Filename `Valkey.json` does not match ID `TOOL-DB-007`
+- **Warning** in `LIBRARIES/LBS_003_Tools/Data_Tools/Bright_Data.json`: Filename `Bright_Data.json` does not match ID `TOOL-DATA-008`
+- **Warning** in `LIBRARIES/LBS_003_Tools/Data_Tools/Anymailfinder.json`: Filename `Anymailfinder.json` does not match ID `TOOL-DATA-007`
+- **Warning** in `LIBRARIES/LBS_003_Tools/Data_Tools/Airscale.json`: Filename `Airscale.json` does not match ID `TOOL-DATA-006`
+- **Warning** in `LIBRARIES/LBS_003_Tools/Authentication_Tools/Auth0.json`: Filename `Auth0.json` does not match ID `TOOL-AUTH-001`
+- **Warning** in `LIBRARIES/LBS_003_Tools/Publishing_Platforms/Medium.json`: Filename `Medium.json` does not match ID `TOOL-PUB-001`
+- **Warning** in `LIBRARIES/LBS_003_Tools/Methodologies/Product_Management_Decision_Framework.json`: Filename `Product_Management_Decision_Framework.json` does not match ID `TOOL-118`
+- **Warning** in `LIBRARIES/LBS_003_Tools/File_Management/Dropbox.json`: Filename `Dropbox.json` does not match ID `TOOL-FILE-006`
+- **Warning** in `LIBRARIES/LBS_003_Tools/Cloud_Platforms/Render.json`: Filename `Render.json` does not match ID `TOOL-CLOUD-001`
+- **Warning** in `LIBRARIES/LBS_003_Tools/Cloud_Platforms/Hugging_Face.json`: Filename `Hugging_Face.json` does not match ID `TOOL-CLOUD-003`
+- **Warning** in `LIBRARIES/LBS_003_Tools/Cloud_Platforms/Azure.json`: Filename `Azure.json` does not match ID `TOOL-CLOUD-004`
+- **Warning** in `LIBRARIES/LBS_003_Tools/Cloud_Platforms/DigitalOcean.json`: Filename `DigitalOcean.json` does not match ID `TOOL-CLOUD-002`
+- **Warning** in `LIBRARIES/LBS_003_Tools/Cloud_Platforms/Model_Scope.json`: Filename `Model_Scope.json` does not match ID `TOOL-CLOUD-010`
+- **Warning** in `LIBRARIES/LBS_003_Tools/Cloud_Platforms/RunPod.json`: Filename `RunPod.json` does not match ID `TOOL-CLOUD-011`
+- **Warning** in `LIBRARIES/LBS_003_Tools/Infrastructure_Tools/Caddy.json`: Filename `Caddy.json` does not match ID `TOOL-INFRA-001`
+- **Warning** in `LIBRARIES/LBS_003_Tools/Integration_Tools/Google_Calendar_MCP_Connector.json`: Filename `Google_Calendar_MCP_Connector.json` does not match ID `TOOL-INT-002`
+- **Warning** in `LIBRARIES/LBS_003_Tools/Integration_Tools/CRM_MCP_Connector.json`: Filename `CRM_MCP_Connector.json` does not match ID `TOOL-INT-003`
+- **Warning** in `LIBRARIES/LBS_003_Tools/Integration_Tools/Gmail_MCP_Connector.json`: Filename `Gmail_MCP_Connector.json` does not match ID `TOOL-INT-001`
+- **Warning** in `LIBRARIES/LBS_003_Tools/Developer_Platforms/GitHub.json`: Filename `GitHub.json` does not match ID `TOOL-DEV-001`
+- **Warning** in `LIBRARIES/LBS_003_Tools/Web_Tools/Firecrawl.json`: Filename `Firecrawl.json` does not match ID `TOOL-WEB-003`
+- **Warning** in `LIBRARIES/LBS_003_Tools/Web_Tools/Apify.json`: Filename `Apify.json` does not match ID `TOOL-WEB-002`
+- **Warning** in `LIBRARIES/LBS_003_Tools/Web_Tools/Brave_Search.json`: Filename `Brave_Search.json` does not match ID `TOOL-WEB-001`
+- **Warning** in `LIBRARIES/LBS_003_Tools/Payment_Tools/Stripe.json`: Filename `Stripe.json` does not match ID `TOOL-PAY-001`
+- **Warning** in `LIBRARIES/LBS_003_Tools/AI_Tools/TurboScribe.json`: Filename `TurboScribe.json` does not match ID `TOOL-AI-061`
+- **Warning** in `LIBRARIES/LBS_003_Tools/AI_Tools/Synthesia.json`: Filename `Synthesia.json` does not match ID `TOOL-AI-050`
+- **Warning** in `LIBRARIES/LBS_003_Tools/AI_Tools/GLIF.json`: Filename `GLIF.json` does not match ID `TOOL-AI-045`
+- **Warning** in `LIBRARIES/LBS_003_Tools/AI_Tools/Lovable_dev.json`: Filename `Lovable_dev.json` does not match ID `TOOL-AI-040`
+- **Warning** in `LIBRARIES/LBS_003_Tools/AI_Tools/Cursor.json`: Filename `Cursor.json` does not match ID `TOOL-AI-041`
+- **Warning** in `LIBRARIES/LBS_003_Tools/AI_Tools/Crawl4AI.json`: Filename `Crawl4AI.json` does not match ID `TOOL-AI-085`
+- **Warning** in `LIBRARIES/LBS_003_Tools/AI_Tools/Seedream_4_0.json`: Filename `Seedream_4_0.json` does not match ID `TOOL-AI-100`
+- **Warning** in `LIBRARIES/LBS_003_Tools/AI_Tools/Vozo_AI.json`: Filename `Vozo_AI.json` does not match ID `TOOL-AI-068`
+- **Warning** in `LIBRARIES/LBS_003_Tools/AI_Tools/Claude_Desktop_App.json`: Filename `Claude_Desktop_App.json` does not match ID `TOOL-AI-030`
+- **Warning** in `LIBRARIES/LBS_003_Tools/AI_Tools/Browserbase.json`: Filename `Browserbase.json` does not match ID `TOOL-AI-089`
+- **Warning** in `LIBRARIES/LBS_003_Tools/AI_Tools/Maestra_ai.json`: Filename `Maestra_ai.json` does not match ID `TOOL-AI-059`
+- **Warning** in `LIBRARIES/LBS_003_Tools/AI_Tools/Pydantic_AI.json`: Filename `Pydantic_AI.json` does not match ID `TOOL-AI-080`
+- **Warning** in `LIBRARIES/LBS_003_Tools/AI_Tools/arXiv.json`: Filename `arXiv.json` does not match ID `TOOL-113`
+- **Warning** in `LIBRARIES/LBS_003_Tools/AI_Tools/Archon.json`: Filename `Archon.json` does not match ID `TOOL-AI-097`
+- **Warning** in `LIBRARIES/LBS_003_Tools/AI_Tools/Flux.json`: Filename `Flux.json` does not match ID `TOOL-AI-053`
+- **Warning** in `LIBRARIES/LBS_003_Tools/AI_Tools/Gamma_app.json`: Filename `Gamma_app.json` does not match ID `TOOL-AI-044`
+- **Warning** in `LIBRARIES/LBS_003_Tools/AI_Tools/Manus_im.json`: Filename `Manus_im.json` does not match ID `TOOL-AI-058`
+- **Warning** in `LIBRARIES/LBS_003_Tools/AI_Tools/v0_dev.json`: Filename `v0_dev.json` does not match ID `TOOL-AI-055`
+- **Warning** in `LIBRARIES/LBS_003_Tools/AI_Tools/MiniMax.json`: Filename `MiniMax.json` does not match ID `TOOL-AI-052`
+- **Warning** in `LIBRARIES/LBS_003_Tools/AI_Tools/Langfuse.json`: Filename `Langfuse.json` does not match ID `TOOL-AI-083`
+- **Warning** in `LIBRARIES/LBS_003_Tools/AI_Tools/MCP_Builder_Skill.json`: Filename `MCP_Builder_Skill.json` does not match ID `TOOL-AI-031`
+- **Warning** in `LIBRARIES/LBS_003_Tools/AI_Tools/SearXNG.json`: Filename `SearXNG.json` does not match ID `TOOL-AI-093`
+- **Warning** in `LIBRARIES/LBS_003_Tools/AI_Tools/OpenAI_GPT5.json`: Filename `OpenAI_GPT5.json` does not match ID `TOOL-AI-028`
+- **Warning** in `LIBRARIES/LBS_003_Tools/AI_Tools/Vectal_Pro.json`: Filename `Vectal_Pro.json` does not match ID `TOOL-AI-065`
+- **Warning** in `LIBRARIES/LBS_003_Tools/AI_Tools/Hedra.json`: Filename `Hedra.json` does not match ID `TOOL-AI-101`
+- **Warning** in `LIBRARIES/LBS_003_Tools/AI_Tools/Gemini_File_Search.json`: Filename `Gemini_File_Search.json` does not match ID `TOOL-AI-079`
+- **Warning** in `LIBRARIES/LBS_003_Tools/AI_Tools/CrewAI.json`: Filename `CrewAI.json` does not match ID `TOOL-AI-094`
+- **Warning** in `LIBRARIES/LBS_003_Tools/AI_Tools/RunwayML.json`: Filename `RunwayML.json` does not match ID `TOOL-AI-039`
+- **Warning** in `LIBRARIES/LBS_003_Tools/AI_Tools/Kling.json`: Filename `Kling.json` does not match ID `TOOL-AI-048`
+- **Warning** in `LIBRARIES/LBS_003_Tools/AI_Tools/Grok.json`: Filename `Grok.json` does not match ID `TOOL-AI-043`
+- **Warning** in `LIBRARIES/LBS_003_Tools/AI_Tools/Wispr_Flow.json`: Filename `Wispr_Flow.json` does not match ID `TOOL-AI-062`
+- **Warning** in `LIBRARIES/LBS_003_Tools/AI_Tools/Dribbble.json`: Filename `Dribbble.json` does not match ID `TOOL-DESIGN-001`
+- **Warning** in `LIBRARIES/LBS_003_Tools/AI_Tools/Suno.json`: Filename `Suno.json` does not match ID `TOOL-AI-060`
+- **Warning** in `LIBRARIES/LBS_003_Tools/AI_Tools/Envato_Elements.json`: Filename `Envato_Elements.json` does not match ID `TOOL-AI-073`
+- **Warning** in `LIBRARIES/LBS_003_Tools/AI_Tools/Ollama.json`: Filename `Ollama.json` does not match ID `TOOL-AI-091`
+- **Warning** in `LIBRARIES/LBS_003_Tools/AI_Tools/Seedream.json`: Filename `Seedream.json` does not match ID `TOOL-AI-102`
+- **Warning** in `LIBRARIES/LBS_003_Tools/AI_Tools/Ragas.json`: Filename `Ragas.json` does not match ID `TOOL-AI-088`
+- **Warning** in `LIBRARIES/LBS_003_Tools/AI_Tools/Leonardo_AI.json`: Filename `Leonardo_AI.json` does not match ID `TOOL-AI-007`
+- **Warning** in `LIBRARIES/LBS_003_Tools/AI_Tools/Open_WebUI.json`: Filename `Open_WebUI.json` does not match ID `TOOL-AI-092`
+- **Warning** in `LIBRARIES/LBS_003_Tools/AI_Tools/Zep.json`: Filename `Zep.json` does not match ID `TOOL-AI-096`
+- **Warning** in `LIBRARIES/LBS_003_Tools/AI_Tools/MovieGen.json`: Filename `MovieGen.json` does not match ID `TOOL-AI-103`
+- **Warning** in `LIBRARIES/LBS_003_Tools/AI_Tools/OpenArt.json`: Filename `OpenArt.json` does not match ID `TOOL-AI-104`
+- **Warning** in `LIBRARIES/LBS_003_Tools/AI_Tools/OpenRouter.json`: Filename `OpenRouter.json` does not match ID `TOOL-AI-066`
+- **Warning** in `LIBRARIES/LBS_003_Tools/AI_Tools/Graphiti.json`: Filename `Graphiti.json` does not match ID `TOOL-AI-087`
+- **Warning** in `LIBRARIES/LBS_003_Tools/AI_Tools/Kimi_K2_Thinking.json`: Filename `Kimi_K2_Thinking.json` does not match ID `TOOL-AI-098`
+- **Warning** in `LIBRARIES/LBS_003_Tools/AI_Tools/Google_AI_Studio.json`: Filename `Google_AI_Studio.json` does not match ID `TOOL-AI-049`
+- **Warning** in `LIBRARIES/LBS_003_Tools/AI_Tools/Midjourney.json`: Filename `Midjourney.json` does not match ID `TOOL-AI-006`
+- **Warning** in `LIBRARIES/LBS_003_Tools/AI_Tools/Perplexity.json`: Filename `Perplexity.json` does not match ID `TOOL-AI-004`
+- **Warning** in `LIBRARIES/LBS_003_Tools/AI_Tools/Replit.json`: Filename `Replit.json` does not match ID `TOOL-AI-041`
+- **Warning** in `LIBRARIES/LBS_003_Tools/AI_Tools/VAYU.json`: Filename `VAYU.json` does not match ID `TOOL-AI-106`
+- **Warning** in `LIBRARIES/LBS_003_Tools/AI_Tools/CodeRabbit.json`: Filename `CodeRabbit.json` does not match ID `TOOL-AI-090`
+- **Warning** in `LIBRARIES/LBS_003_Tools/AI_Tools/Bubble_io.json`: Filename `Bubble_io.json` does not match ID `TOOL-AI-057`
+- **Warning** in `LIBRARIES/LBS_003_Tools/AI_Tools/Loom.json`: Filename `Loom.json` does not match ID `TOOL-AI-054`
+- **Warning** in `LIBRARIES/LBS_003_Tools/AI_Tools/Dropbox_Dash.json`: Filename `Dropbox_Dash.json` does not match ID `TOOL-112`
+- **Warning** in `LIBRARIES/LBS_003_Tools/AI_Tools/Docling.json`: Filename `Docling.json` does not match ID `TOOL-AI-084`
+- **Warning** in `LIBRARIES/LBS_003_Tools/AI_Tools/Cdans.json`: Filename `Cdans.json` does not match ID `TOOL-AI-051`
+- **Warning** in `LIBRARIES/LBS_003_Tools/AI_Tools/Runner.json`: Filename `Runner.json` does not match ID `TOOL-AI-107`
+- **Warning** in `LIBRARIES/LBS_003_Tools/AI_Tools/LangGraph.json`: Filename `LangGraph.json` does not match ID `TOOL-AI-081`
+- **Warning** in `LIBRARIES/LBS_003_Tools/AI_Tools/AI_Tools_Master_Listing.json`: Could not identify a primary ID for this file.
+- **Warning** in `LIBRARIES/LBS_003_Tools/AI_Tools/Pollo_ai.json`: Filename `Pollo_ai.json` does not match ID `TOOL-AI-064`
+- **Warning** in `LIBRARIES/LBS_003_Tools/AI_Tools/Wan_2_2.json`: Filename `Wan_2_2.json` does not match ID `TOOL-AI-108`
+- **Warning** in `LIBRARIES/LBS_003_Tools/AI_Tools/Company_Voice_Guide.json`: Filename `Company_Voice_Guide.json` does not match ID `TOOL-117`
+- **Warning** in `LIBRARIES/LBS_003_Tools/AI_Tools/Mem0.json`: Filename `Mem0.json` does not match ID `TOOL-AI-086`
+- **Warning** in `LIBRARIES/LBS_003_Tools/AI_Tools/awesome_copilot.json`: Filename `awesome_copilot.json` does not match ID `TOOL-109`
+- **Warning** in `LIBRARIES/LBS_003_Tools/AI_Tools/Smithery_ai.json`: Filename `Smithery_ai.json` does not match ID `TOOL-AI-047`
+- **Warning** in `LIBRARIES/LBS_003_Tools/AI_Tools/Custom_Prompt_Templates.json`: Filename `Custom_Prompt_Templates.json` does not match ID `TOOL-116`
+- **Warning** in `LIBRARIES/LBS_003_Tools/AI_Tools/Hailo.json`: Filename `Hailo.json` does not match ID `TOOL-AI-067`
+- **Warning** in `LIBRARIES/LBS_003_Tools/AI_Tools/Notion_AI.json`: Filename `Notion_AI.json` does not match ID `TOOL-AI-070`
+- **Warning** in `LIBRARIES/LBS_003_Tools/AI_Tools/Gemini.json`: Filename `Gemini.json` does not match ID `TOOL-AI-003`
+- **Warning** in `LIBRARIES/LBS_003_Tools/AI_Tools/LLM_as_Judge_Evaluation_Framework.json`: Filename `LLM_as_Judge_Evaluation_Framework.json` does not match ID `TOOL-115`
+- **Warning** in `LIBRARIES/LBS_003_Tools/AI_Tools/Sonnet_45.json`: Filename `Sonnet_45.json` does not match ID `TOOL-AI-032`
+- **Warning** in `LIBRARIES/LBS_003_Tools/AI_Tools/DeepSite.json`: Filename `DeepSite.json` does not match ID `TOOL-AI-042`
+- **Warning** in `LIBRARIES/LBS_003_Tools/AI_Tools/ElevenLabs.json`: Filename `ElevenLabs.json` does not match ID `TOOL-AI-008`
+- **Warning** in `LIBRARIES/LBS_003_Tools/AI_Tools/Freepik.json`: Filename `Freepik.json` does not match ID `TOOL-AI-072`
+- **Warning** in `LIBRARIES/LBS_003_Tools/AI_Tools/Flux_Kontext.json`: Filename `Flux_Kontext.json` does not match ID `TOOL-AI-109`
+- **Warning** in `LIBRARIES/LBS_003_Tools/AI_Tools/Nano_Banana.json`: Filename `Nano_Banana.json` does not match ID `TOOL-AI-046`
+- **Warning** in `LIBRARIES/LBS_003_Tools/AI_Tools/ComfyUI.json`: Filename `ComfyUI.json` does not match ID `TOOL-AI-110`
+- **Warning** in `LIBRARIES/LBS_003_Tools/AI_Tools/HeyGen.json`: Filename `HeyGen.json` does not match ID `TOOL-AI-111`
+- **Warning** in `LIBRARIES/LBS_003_Tools/AI_Tools/Claude_Projects.json`: Filename `Claude_Projects.json` does not match ID `TOOL-AI-112`
+- **Warning** in `LIBRARIES/LBS_003_Tools/AI_Tools/Google_Veo_3_1.json`: Filename `Google_Veo_3_1.json` does not match ID `TOOL-AI-113`
+- **Warning** in `LIBRARIES/LBS_003_Tools/AI_Tools/Arcade_ai.json`: Filename `Arcade_ai.json` does not match ID `TOOL-AI-082`
+- **Warning** in `LIBRARIES/LBS_003_Tools/AI_Tools/Cove_ai.json`: Filename `Cove_ai.json` does not match ID `TOOL-AI-114`
+- **Warning** in `LIBRARIES/LBS_003_Tools/AI_Tools/Adobe_Firefly.json`: Filename `Adobe_Firefly.json` does not match ID `TOOL-AI-071`
+- **Warning** in `LIBRARIES/LBS_003_Tools/AI_Tools/WHALESWING.json`: Filename `WHALESWING.json` does not match ID `TOOL-AI-069`
+- **Warning** in `LIBRARIES/LBS_003_Tools/AI_Tools/NotebookLM.json`: Filename `NotebookLM.json` does not match ID `TOOL-AI-005`
+- **Warning** in `LIBRARIES/LBS_003_Tools/AI_Tools/GitHub_Copilot.json`: Filename `GitHub_Copilot.json` does not match ID `TOOL-110`
+- **Warning** in `LIBRARIES/LBS_003_Tools/AI_Tools/Claude.json`: Filename `Claude.json` does not match ID `TOOL-AI-029`
+- **Warning** in `LIBRARIES/LBS_003_Tools/AI_Tools/Genspark_ai.json`: Filename `Genspark_ai.json` does not match ID `TOOL-AI-115`
+- **Warning** in `LIBRARIES/LBS_003_Tools/AI_Tools/Vite.json`: Filename `Vite.json` does not match ID `TOOL-DEV-100`
+- **Warning** in `LIBRARIES/LBS_003_Tools/AI_Tools/ChatGPT.json`: Filename `ChatGPT.json` does not match ID `TOOL-AI-002`
+- **Warning** in `LIBRARIES/LBS_003_Tools/AI_Tools/Sora.json`: Filename `Sora.json` does not match ID `TOOL-AI-116`
+- **Warning** in `LIBRARIES/LBS_003_Tools/AI_Tools/MCP_Servers.json`: Filename `MCP_Servers.json` does not match ID `TOOL-108`
+- **Warning** in `LIBRARIES/LBS_003_Tools/AI_Tools/OpenArt_Photorealistic.json`: Filename `OpenArt_Photorealistic.json` does not match ID `TOOL-AI-056`
+- **Warning** in `LIBRARIES/LBS_003_Tools/AI_Tools/InVideo_AI.json`: Filename `InVideo_AI.json` does not match ID `TOOL-AI-063`
+- **Warning** in `LIBRARIES/LBS_001_Actions/Data_Operations/Bill.json`: Could not identify a primary ID for this file.
+- **Warning** in `LIBRARIES/LBS_001_Actions/Data_Operations/Consume.json`: Could not identify a primary ID for this file.
+- **Warning** in `LIBRARIES/LBS_001_Actions/Data_Operations/Parse.json`: Could not identify a primary ID for this file.
+- **Warning** in `LIBRARIES/LBS_001_Actions/Data_Operations/Arbitrage.json`: Could not identify a primary ID for this file.
+- **Warning** in `LIBRARIES/LBS_001_Actions/Data_Operations/Combine.json`: Could not identify a primary ID for this file.
+- **Warning** in `LIBRARIES/LBS_001_Actions/Data_Operations/Obfuscate.json`: Could not identify a primary ID for this file.
+- **Warning** in `LIBRARIES/LBS_001_Actions/Data_Operations/Sanitize.json`: Could not identify a primary ID for this file.
+- **Warning** in `LIBRARIES/LBS_001_Actions/Data_Operations/Data_Operations_Actions_Index.json`: Could not identify a primary ID for this file.
+- **Warning** in `LIBRARIES/LBS_001_Actions/Data_Operations/Flatten.json`: Could not identify a primary ID for this file.
+- **Warning** in `LIBRARIES/LBS_001_Actions/Data_Operations/Split.json`: Could not identify a primary ID for this file.
+- **Warning** in `LIBRARIES/LBS_001_Actions/Data_Operations/Lookup.json`: Could not identify a primary ID for this file.
+- **Warning** in `LIBRARIES/LBS_001_Actions/Data_Operations/Scrape.json`: Could not identify a primary ID for this file.
+- **Warning** in `LIBRARIES/LBS_001_Actions/Data_Operations/Feed.json`: Could not identify a primary ID for this file.
+- **Warning** in `LIBRARIES/LBS_001_Actions/By_Domain/video_generation_actions.json`: Could not identify a primary ID for this file.
+- **Warning** in `LIBRARIES/LBS_001_Actions/Master/actions_result_verbs.json`: Could not identify a primary ID for this file.
+- **Warning** in `LIBRARIES/LBS_001_Actions/Master/actions_command_verbs.json`: Could not identify a primary ID for this file.
+- **Warning** in `LIBRARIES/LBS_001_Actions/Master/actions_process_verbs.json`: Could not identify a primary ID for this file.
+- **Warning** in `LIBRARIES/LBS_001_Actions/Master/actions_master.json`: Could not identify a primary ID for this file.
+- **Warning** in `TASK_MANAGERS/Step_Templates/Step-Template-046_VIDEO-VIDEO-002-08_generate-video-with-elements.json`: Could not identify a primary ID for this file.
+- **Warning** in `TASK_MANAGERS/Step_Templates/Step-Template-028_VIDEO-VIDEO-001-05_upload-start-end-frames.json`: Could not identify a primary ID for this file.
+- **Warning** in `TASK_MANAGERS/Step_Templates/Step-Template-054_VIDEO-VIDEO-003-07_review-and-download-animation.json`: Could not identify a primary ID for this file.
+- **Warning** in `TASK_MANAGERS/Step_Templates/Step-Template-001_Add_Interview_Subtitles_and_Approve_TEMPLATE-TASK-HR-003.json`: Could not identify a primary ID for this file.
+- **Warning** in `TASK_MANAGERS/Step_Templates/Step-Template-065_VIDEO-VIDEO-004-11_upload-reference-images-to-veo-3.1.json`: Could not identify a primary ID for this file.
+- **Warning** in `TASK_MANAGERS/Step_Templates/Step-Template-016_STEP-VIDEO-003-05_Compile_Tools_List.json`: Could not identify a primary ID for this file.
+- **Warning** in `TASK_MANAGERS/Step_Templates/Step-Template-006_Optimize_YouTube_Metadata_TEMPLATE-TASK-HR-003.json`: Could not identify a primary ID for this file.
+- **Warning** in `TASK_MANAGERS/Step_Templates/Step-Template-022_STEP-VIDEO-301-02_Create_Tool_JSON.json`: Could not identify a primary ID for this file.
+- **Warning** in `TASK_MANAGERS/Step_Templates/Step-Template-009_STEP-VIDEO-001-02_Configure_Perplexity.json`: Could not identify a primary ID for this file.
+- **Warning** in `TASK_MANAGERS/Step_Templates/Step-Template-041_VIDEO-VIDEO-002-03_generate-environment-reference-image.json`: Could not identify a primary ID for this file.
+- **Warning** in `TASK_MANAGERS/Step_Templates/Step-Template-034_VIDEO-VIDEO-001-11_write-scene-2-prompt.json`: Could not identify a primary ID for this file.
+- **Warning** in `TASK_MANAGERS/Step_Templates/Step-Template-060_VIDEO-VIDEO-004-06_generate-object-image-with-seedream-4.0.json`: Could not identify a primary ID for this file.
+- **Warning** in `TASK_MANAGERS/Step_Templates/Step-Template-025_VIDEO-VIDEO-001-02_create-end-frame-nano-banana.json`: Could not identify a primary ID for this file.
+- **Warning** in `TASK_MANAGERS/Step_Templates/Step-Template-029_VIDEO-VIDEO-001-06_write-scene-1-prompt.json`: Could not identify a primary ID for this file.
+- **Warning** in `TASK_MANAGERS/Step_Templates/Step-Template-069_VIDEO-VIDEO-004-15_iterate-rapidly-if-needed-same-platform-advantage.json`: Could not identify a primary ID for this file.
+- **Warning** in `TASK_MANAGERS/Step_Templates/Step-Template-021_STEP-VIDEO-301-01_Review_Validation_Report.json`: Could not identify a primary ID for this file.
+- **Warning** in `TASK_MANAGERS/Step_Templates/Step-Template-023_Scrape_Website_HTML_TEMPLATE-TASK-014.json`: Could not identify a primary ID for this file.
+- **Warning** in `TASK_MANAGERS/Step_Templates/Step-Template-068_VIDEO-VIDEO-004-14_review-output-and-iterate-if-needed.json`: Could not identify a primary ID for this file.
+- **Warning** in `TASK_MANAGERS/Step_Templates/Step-Template-047_VIDEO-VIDEO-002-09_review-and-download-video.json`: Could not identify a primary ID for this file.
+- **Warning** in `TASK_MANAGERS/Step_Templates/Step-Template-062_VIDEO-VIDEO-004-08_optional-use-nano-banana-for-image-modifications.json`: Could not identify a primary ID for this file.
+- **Warning** in `TASK_MANAGERS/Step_Templates/Step-Template-057_VIDEO-VIDEO-004-03_navigate-to-image-section-for-reference-generation.json`: Could not identify a primary ID for this file.
+- **Warning** in `TASK_MANAGERS/Step_Templates/Step-Template-037_VIDEO-VIDEO-001-14_download-all-scenes.json`: Could not identify a primary ID for this file.
+- **Warning** in `TASK_MANAGERS/Step_Templates/Step-Template-013_STEP-VIDEO-003-02_Extract_Tasks.json`: Could not identify a primary ID for this file.
+- **Warning** in `TASK_MANAGERS/Step_Templates/Step-Template-036_VIDEO-VIDEO-001-13_repeat-for-scene-3.json`: Could not identify a primary ID for this file.
+- **Warning** in `TASK_MANAGERS/Step_Templates/Step-Template-048_VIDEO-VIDEO-003-01_prepare-brand-logo-image.json`: Could not identify a primary ID for this file.
+- **Warning** in `TASK_MANAGERS/Step_Templates/Step-Template-044_VIDEO-VIDEO-002-06_upload-reference-images-via-elements-feature.json`: Could not identify a primary ID for this file.
+- **Warning** in `TASK_MANAGERS/Step_Templates/Step-Template-035_VIDEO-VIDEO-001-12_generate-scene-2-video.json`: Could not identify a primary ID for this file.
+- **Warning** in `TASK_MANAGERS/Step_Templates/Step-Template-032_VIDEO-VIDEO-001-09_swap-frames-scene-2.json`: Could not identify a primary ID for this file.
+- **Warning** in `TASK_MANAGERS/Step_Templates/Step-Template-070_VIDEO-VIDEO-004-16_download-final-video.json`: Could not identify a primary ID for this file.
+- **Warning** in `TASK_MANAGERS/Step_Templates/Step-Template-064_VIDEO-VIDEO-004-10_select-google-veo-3.1-for-video-generation.json`: Could not identify a primary ID for this file.
+- **Warning** in `TASK_MANAGERS/Step_Templates/Step-Template-039_VIDEO-VIDEO-002-01_generate-character-portrait-reference-image.json`: Could not identify a primary ID for this file.
+- **Warning** in `TASK_MANAGERS/Step_Templates/Step-Template-017_STEP-VIDEO-004-01_Validate_Naming.json`: Could not identify a primary ID for this file.
+- **Warning** in `TASK_MANAGERS/Step_Templates/Step-Template-050_VIDEO-VIDEO-003-03_select-google-veo-3.1-model.json`: Could not identify a primary ID for this file.
+- **Warning** in `TASK_MANAGERS/Step_Templates/Step-Template-020_STEP-VIDEO-007-01_Identify_Gaps.json`: Could not identify a primary ID for this file.
+- **Warning** in `TASK_MANAGERS/Step_Templates/Step-Template-030_VIDEO-VIDEO-001-07_generate-scene-1-video.json`: Could not identify a primary ID for this file.
+- **Warning** in `TASK_MANAGERS/Step_Templates/Step-Template-058_VIDEO-VIDEO-004-04_generate-character-portrait-with-openart-photorealistic.json`: Could not identify a primary ID for this file.
+- **Warning** in `TASK_MANAGERS/Step_Templates/Step-Template-043_VIDEO-VIDEO-002-05_select-google-veo-3.1-model.json`: Could not identify a primary ID for this file.
+- **Warning** in `TASK_MANAGERS/Step_Templates/Step-Template-005_Identify_Target_Website_TEMPLATE-TASK-014.json`: Could not identify a primary ID for this file.
+- **Warning** in `TASK_MANAGERS/Step_Templates/Step-Template-055_VIDEO-VIDEO-004-01_plan-complete-video-project-requirements.json`: Could not identify a primary ID for this file.
+- **Warning** in `TASK_MANAGERS/Step_Templates/Step-Template-049_VIDEO-VIDEO-003-02_navigate-to-video-section-in-openart.json`: Could not identify a primary ID for this file.
+- **Warning** in `TASK_MANAGERS/Step_Templates/Step-Template-066_VIDEO-VIDEO-004-12_write-video-generation-prompt.json`: Could not identify a primary ID for this file.
+- **Warning** in `TASK_MANAGERS/Step_Templates/Step-Template-063_VIDEO-VIDEO-004-09_navigate-to-video-section-stay-in-openart.json`: Could not identify a primary ID for this file.
+- **Warning** in `TASK_MANAGERS/Step_Templates/Step-Template-056_VIDEO-VIDEO-004-02_log-into-openart-unified-platform.json`: Could not identify a primary ID for this file.
+- **Warning** in `TASK_MANAGERS/Step_Templates/Step-Template-010_STEP-VIDEO-001-03_Search_Videos.json`: Could not identify a primary ID for this file.
+- **Warning** in `TASK_MANAGERS/Step_Templates/Step-Template-026_VIDEO-VIDEO-001-03_navigate-to-video-section.json`: Could not identify a primary ID for this file.
+- **Warning** in `TASK_MANAGERS/Step_Templates/Step-Template-004_Edit_Video_Interview_Footage_TEMPLATE-TASK-HR-003.json`: Could not identify a primary ID for this file.
+- **Warning** in `TASK_MANAGERS/Step_Templates/Listing.json`: Could not identify a primary ID for this file.
+- **Warning** in `TASK_MANAGERS/Step_Templates/Step-Template-052_VIDEO-VIDEO-003-05_write-animation-prompt-with-camera-movements.json`: Could not identify a primary ID for this file.
+- **Warning** in `TASK_MANAGERS/Step_Templates/Step-Template-024_VIDEO-VIDEO-001-01_prepare-start-frame.json`: Could not identify a primary ID for this file.
+- **Warning** in `TASK_MANAGERS/Step_Templates/Step-Template-059_VIDEO-VIDEO-004-05_switch-model-to-seedream-4.0-for-object-generation.json`: Could not identify a primary ID for this file.
+- **Warning** in `TASK_MANAGERS/Step_Templates/Step-Template-008_STEP-VIDEO-001-01_Review_Strategic_Priorities.json`: Could not identify a primary ID for this file.
+- **Warning** in `TASK_MANAGERS/Step_Templates/Step-Template-012_STEP-VIDEO-003-01_Identify_Workflows.json`: Could not identify a primary ID for this file.
+- **Warning** in `TASK_MANAGERS/Step_Templates/Step-Template-011_STEP-VIDEO-001-04_Score_Videos.json`: Could not identify a primary ID for this file.
+- **Warning** in `TASK_MANAGERS/Step_Templates/Step-Template-045_VIDEO-VIDEO-002-07_write-video-generation-prompt-with-storytelling.json`: Could not identify a primary ID for this file.
+- **Warning** in `TASK_MANAGERS/Step_Templates/Step-Template-053_VIDEO-VIDEO-003-06_generate-logo-animation-video.json`: Could not identify a primary ID for this file.
+- **Warning** in `TASK_MANAGERS/Step_Templates/Step-Template-002_Archive_Edited_Video_to_Drive_TEMPLATE-TASK-HR-003.json`: Could not identify a primary ID for this file.
+- **Warning** in `TASK_MANAGERS/Step_Templates/Step-Template-040_VIDEO-VIDEO-002-02_generate-object-reference-image.json`: Could not identify a primary ID for this file.
+- **Warning** in `TASK_MANAGERS/Step_Templates/Step-Template-061_VIDEO-VIDEO-004-07_generate-environment-scene-with-seedream-4.0.json`: Could not identify a primary ID for this file.
+- **Warning** in `TASK_MANAGERS/Step_Templates/Step-Template-027_VIDEO-VIDEO-001-04_select-google-veo-3-1.json`: Could not identify a primary ID for this file.
+- **Warning** in `TASK_MANAGERS/Step_Templates/Step-Template-051_VIDEO-VIDEO-003-04_upload-brand-logo-as-start-frame.json`: Could not identify a primary ID for this file.
+- **Warning** in `TASK_MANAGERS/Step_Templates/Step-Template-003_Create_Employee_Folder_in_Google_Drive_TEMPLATE-TASK-HR-AUTO-006.json`: Could not identify a primary ID for this file.
+- **Warning** in `TASK_MANAGERS/Step_Templates/Step-Template-038_VIDEO-VIDEO-001-15_optional-stitch-scenes.json`: Could not identify a primary ID for this file.
+- **Warning** in `TASK_MANAGERS/Step_Templates/Step-Template-015_STEP-VIDEO-003-04_Identify_Skills.json`: Could not identify a primary ID for this file.
+- **Warning** in `TASK_MANAGERS/Step_Templates/Step-Template-014_STEP-VIDEO-003-03_Extract_Steps.json`: Could not identify a primary ID for this file.
+- **Warning** in `TASK_MANAGERS/Step_Templates/Step-Template-042_VIDEO-VIDEO-002-04_navigate-to-video-section-in-openart.json`: Could not identify a primary ID for this file.
+- **Warning** in `TASK_MANAGERS/Step_Templates/Step-Template-033_VIDEO-VIDEO-001-10_create-new-end-frame-scene-2.json`: Could not identify a primary ID for this file.
+- **Warning** in `TASK_MANAGERS/Step_Templates/Step-Template-018_STEP-VIDEO-005-01_Check_Tools_Against_Libraries.json`: Could not identify a primary ID for this file.
+- **Warning** in `TASK_MANAGERS/Step_Templates/Step-Template-031_VIDEO-VIDEO-001-08_download-scene-1-extract-frame.json`: Could not identify a primary ID for this file.
+- **Warning** in `TASK_MANAGERS/Step_Templates/Step-Template-019_STEP-VIDEO-006-01_Update_Tool_Mapping.json`: Could not identify a primary ID for this file.
+- **Warning** in `TASK_MANAGERS/Step_Templates/Step-Template-007_Publish_Video_Interview_on_YouTube_TEMPLATE-TASK-HR-003.json`: Could not identify a primary ID for this file.
+- **Warning** in `TASK_MANAGERS/Step_Templates/Step-Template-067_VIDEO-VIDEO-004-13_generate-video-with-veo-3.1.json`: Could not identify a primary ID for this file.
+- **Warning** in `TASK_MANAGERS/Step_Templates/DESIGN/Listing.json`: Could not identify a primary ID for this file.
+- **Warning** in `TASK_MANAGERS/Step_Templates/SALES/Listing.json`: Could not identify a primary ID for this file.
+- **Warning** in `TASK_MANAGERS/Step_Templates/Taxonomy/Step_Templates_Migration_Map.json`: Could not identify a primary ID for this file.
+- **Warning** in `TASK_MANAGERS/Step_Templates/HR/Listing.json`: Could not identify a primary ID for this file.
+- **Warning** in `TASK_MANAGERS/Step_Templates/DEV/Listing.json`: Could not identify a primary ID for this file.
+- **Warning** in `TASK_MANAGERS/Step_Templates/LG/Listing.json`: Could not identify a primary ID for this file.
+- **Warning** in `TASK_MANAGERS/Workflows/Workflows_Migration_Map.json`: Could not identify a primary ID for this file.
+- **Warning** in `TASK_MANAGERS/GUIDES/GUIDES_Migration_Map.json`: Could not identify a primary ID for this file.
+- **Warning** in `TASK_MANAGERS/GUIDES/Communication_Templates/GDS-009_SMM_Communication_Templates.json`: Could not identify a primary ID for this file.
+- **Warning** in `TASK_MANAGERS/Task_Templates/Task-Template-014_Google_SERP_Lead_Generation.json`: Filename `Task-Template-014_Google_SERP_Lead_Generation.json` does not match ID `RESP-LG-040`
+- **Warning** in `TASK_MANAGERS/Task_Templates/Task-Template-042_Setup_Interview_Scheduling.json`: Could not identify a primary ID for this file.
+- **Warning** in `TASK_MANAGERS/Task_Templates/Task-Template-105_Behance_Step_06_Publish_and_Promote.json`: Could not identify a primary ID for this file.
+- **Warning** in `TASK_MANAGERS/Task_Templates/Task-Template-101_Behance_Step_02_Write_Project_Description.json`: Could not identify a primary ID for this file.
+- **Warning** in `TASK_MANAGERS/Task_Templates/Task-Template-041_Build_Notion_ATS_Database.json`: Could not identify a primary ID for this file.
+- **Warning** in `TASK_MANAGERS/Task_Templates/Task-Template-048_Research_Other_Tools.json`: Filename `Task-Template-048_Research_Other_Tools.json` does not match ID `RESP-AI-080`
+- **Warning** in `TASK_MANAGERS/Task_Templates/Task-Template-062_Conduct_Universal_Search_Across_Work_Apps.json`: Could not identify a primary ID for this file.
+- **Warning** in `TASK_MANAGERS/Task_Templates/Task-Template-055_Update_Mappings.json`: Could not identify a primary ID for this file.
+- **Warning** in `TASK_MANAGERS/Task_Templates/Task-Template-044_Setup_Onboarding_Workflow.json`: Could not identify a primary ID for this file.
+- **Warning** in `TASK_MANAGERS/Task_Templates/Task-Template-056_Gap_Analysis.json`: Could not identify a primary ID for this file.
+- **Warning** in `TASK_MANAGERS/Task_Templates/Task-Template-011_Enable_Claude_Skills_Feature.json`: Filename `Task-Template-011_Enable_Claude_Skills_Feature.json` does not match ID `RESP-DEV-027`
+- **Warning** in `TASK_MANAGERS/Task_Templates/Task-Template-059_Install_MCP_Server_VS_Code.json`: Could not identify a primary ID for this file.
+- **Warning** in `TASK_MANAGERS/Task_Templates/Task-Template-067_Apply_Decision_Framework_to_Product_Choice.json`: Could not identify a primary ID for this file.
+- **Warning** in `TASK_MANAGERS/Task_Templates/Task-Template-021_Send_Old_Client_Email_Template.json`: Filename `Task-Template-021_Send_Old_Client_Email_Template.json` does not match ID `RESP-OPS-003`
+- **Warning** in `TASK_MANAGERS/Task_Templates/Task-Template-058_Create_Update_Tool_Entries.json`: Could not identify a primary ID for this file.
+- **Warning** in `TASK_MANAGERS/Task_Templates/Task-Template-053_Validate_Taxonomy.json`: Could not identify a primary ID for this file.
+- **Warning** in `TASK_MANAGERS/Task_Templates/Task-Template-016_Instantly_AI_Email_Enrichment.json`: Filename `Task-Template-016_Instantly_AI_Email_Enrichment.json` does not match ID `RESP-LG-001`
+- **Warning** in `TASK_MANAGERS/Task_Templates/Task-Template-010_Deploy_MCP_Connector_Locally.json`: Filename `Task-Template-010_Deploy_MCP_Connector_Locally.json` does not match ID `RESP-DEV-018`
+- **Warning** in `TASK_MANAGERS/Task_Templates/Task-Template-060_Configure_Agent_Command_Allowlist.json`: Could not identify a primary ID for this file.
+- **Warning** in `TASK_MANAGERS/Task_Templates/Task-Template-024_Folder_Structure_Mapping.json`: Could not identify a primary ID for this file.
+- **Warning** in `TASK_MANAGERS/Task_Templates/Task-Template-007_Create_Job_Posting_Template.json`: Filename `Task-Template-007_Create_Job_Posting_Template.json` does not match ID `RESP-HR-001`
+- **Warning** in `TASK_MANAGERS/Task_Templates/Task-Template-100_Behance_Step_01_Select_and_Prepare_Project.json`: Could not identify a primary ID for this file.
+- **Warning** in `TASK_MANAGERS/Task_Templates/Task-Template-003_Anymailfinder_Nominative_Enrichment.json`: Filename `Task-Template-003_Anymailfinder_Nominative_Enrichment.json` does not match ID `RESP-LG-010`
+- **Warning** in `TASK_MANAGERS/Task_Templates/Task-Template-034_Dependency_Flow_Mapping.json`: Could not identify a primary ID for this file.
+- **Warning** in `TASK_MANAGERS/Task_Templates/Task-Template-104_Behance_Step_05_Add_Tags_and_Categories.json`: Could not identify a primary ID for this file.
+- **Warning** in `TASK_MANAGERS/Task_Templates/Task-Template-008_Create_MCP_Connector.json`: Filename `Task-Template-008_Create_MCP_Connector.json` does not match ID `RESP-DEV-011`
+- **Warning** in `TASK_MANAGERS/Task_Templates/Task-Template-027_JSON_Schema_Validation.json`: Could not identify a primary ID for this file.
+- **Warning** in `TASK_MANAGERS/Task_Templates/Task-Template-036_Terminology_Consolidation.json`: Could not identify a primary ID for this file.
+- **Warning** in `TASK_MANAGERS/Task_Templates/Task-Template-015_Instagram_Influencer_Scraping.json`: Filename `Task-Template-015_Instagram_Influencer_Scraping.json` does not match ID `RESP-MKT-001`
+- **Warning** in `TASK_MANAGERS/Task_Templates/Task-Template-012_Enterprise_Email_Arbitrage.json`: Filename `Task-Template-012_Enterprise_Email_Arbitrage.json` does not match ID `RESP-LG-011`
+- **Warning** in `TASK_MANAGERS/Task_Templates/Task-Template-017_LinkedIn_Jobs_Intent_Based_Scraping.json`: Filename `Task-Template-017_LinkedIn_Jobs_Intent_Based_Scraping.json` does not match ID `RESP-LG-050`
+- **Warning** in `TASK_MANAGERS/Task_Templates/Task-Template-054_Validate_Tools.json`: Could not identify a primary ID for this file.
+- **Warning** in `TASK_MANAGERS/Task_Templates/Task-Template-049_Perform_Initial_Video_Analysis.json`: Could not identify a primary ID for this file.
+- **Warning** in `TASK_MANAGERS/Task_Templates/Task-Template-102_Behance_Step_03_Design_Cover_Image.json`: Could not identify a primary ID for this file.
+- **Warning** in `TASK_MANAGERS/Task_Templates/Task-Template-033_Index_Accuracy_Check.json`: Could not identify a primary ID for this file.
+- **Warning** in `TASK_MANAGERS/Task_Templates/Task_Templates_Migration_Map.json`: Could not identify a primary ID for this file.
+- **Warning** in `TASK_MANAGERS/Task_Templates/Task-Template-038_Project_Documentation_Creation.json`: Could not identify a primary ID for this file.
+- **Warning** in `TASK_MANAGERS/Task_Templates/Task-Template-043_Configure_LinkedIn_Automation.json`: Could not identify a primary ID for this file.
+- **Warning** in `TASK_MANAGERS/Task_Templates/Task-Template-050_Search_Score_Videos.json`: Could not identify a primary ID for this file.
+- **Warning** in `TASK_MANAGERS/Task_Templates/Task-Template-057_Transcribe_Video.json`: Could not identify a primary ID for this file.
+- **Warning** in `TASK_MANAGERS/Task_Templates/Task-Template-030_Terminology_Extraction.json`: Could not identify a primary ID for this file.
+- **Warning** in `TASK_MANAGERS/Task_Templates/Task-Template-066_Create_Reusable_Prompt_Template.json`: Could not identify a primary ID for this file.
+- **Warning** in `TASK_MANAGERS/Task_Templates/Task-Template-006_Bright_Data_Email_Enrichment.json`: Filename `Task-Template-006_Bright_Data_Email_Enrichment.json` does not match ID `RESP-LG-001`
+- **Warning** in `TASK_MANAGERS/Task_Templates/Task-Template-035_Architecture_Documentation.json`: Could not identify a primary ID for this file.
+- **Warning** in `TASK_MANAGERS/Task_Templates/Task-Template-028_Version_Control_Consistency.json`: Could not identify a primary ID for this file.
+- **Warning** in `TASK_MANAGERS/Task_Templates/Task-Template-002_Airscale_Employee_Enrichment.json`: Filename `Task-Template-002_Airscale_Employee_Enrichment.json` does not match ID `RESP-LG-013`
+- **Warning** in `TASK_MANAGERS/Task_Templates/Task-Template-046_Research_AI_Platforms.json`: Filename `Task-Template-046_Research_AI_Platforms.json` does not match ID `RESP-AI-079`
+- **Warning** in `TASK_MANAGERS/Task_Templates/Task-Template-103_Behance_Step_04_Upload_Project_Images.json`: Could not identify a primary ID for this file.
+- **Warning** in `TASK_MANAGERS/Task_Templates/Task-Template-039_Setup_n8n_for_CV_Screening.json`: Could not identify a primary ID for this file.
+- **Warning** in `TASK_MANAGERS/Task_Templates/Task-Template-029_Duplicate_Content_Detection.json`: Could not identify a primary ID for this file.
+- **Warning** in `TASK_MANAGERS/Task_Templates/Task-Template-063_Create_Auto_Updating_Research_Stack.json`: Could not identify a primary ID for this file.
+- **Warning** in `TASK_MANAGERS/Task_Templates/Task-Template-045_Research_AI_Video_Tools.json`: Could not identify a primary ID for this file.
+- **Warning** in `TASK_MANAGERS/Task_Templates/Listing.json`: Could not identify a primary ID for this file.
+- **Warning** in `TASK_MANAGERS/Task_Templates/Task-Template-001_AI_Powered_HTML_Parsing.json`: Filename `Task-Template-001_AI_Powered_HTML_Parsing.json` does not match ID `RESP-DEV-002`
+- **Warning** in `TASK_MANAGERS/Task_Templates/Task-Template-025_File_Size_Analysis.json`: Could not identify a primary ID for this file.
+- **Warning** in `TASK_MANAGERS/Task_Templates/Task-Template-065_Design_Multi_Tier_LLM_Evaluation_Pipeline.json`: Could not identify a primary ID for this file.
+- **Warning** in `TASK_MANAGERS/Task_Templates/Task-Template-061_Generate_Project_Instructions_Copilot.json`: Could not identify a primary ID for this file.
+- **Warning** in `TASK_MANAGERS/Task_Templates/Task-Template-013_Google_Maps_Local_Business_Scraping.json`: Filename `Task-Template-013_Google_Maps_Local_Business_Scraping.json` does not match ID `RESP-LG-036`
+- **Warning** in `TASK_MANAGERS/Task_Templates/Task-Template-019_Make_Com_Automation_DEPRECATED.json`: Could not identify a primary ID for this file.
+- **Warning** in `TASK_MANAGERS/Task_Templates/Task-Template-020_Newsletter_Subscriber_Auto_Reply.json`: Filename `Task-Template-020_Newsletter_Subscriber_Auto_Reply.json` does not match ID `RESP-OPS-010`
+- **Warning** in `TASK_MANAGERS/Task_Templates/Task-Template-031_Documentation_Completeness.json`: Could not identify a primary ID for this file.
+- **Warning** in `TASK_MANAGERS/Task_Templates/Task-Template-064_Setup_Company_Voice_Guide.json`: Could not identify a primary ID for this file.
+- **Warning** in `TASK_MANAGERS/Task_Templates/Task-Template-052_Extract_Taxonomy.json`: Could not identify a primary ID for this file.
+- **Warning** in `TASK_MANAGERS/Task_Templates/Task-Template-009_Custom_Niche_Platform_Scraping.json`: Filename `Task-Template-009_Custom_Niche_Platform_Scraping.json` does not match ID `RESP-LG-022`
+- **Warning** in `TASK_MANAGERS/Task_Templates/Task-Template-051_Select_Videos.json`: Could not identify a primary ID for this file.
+- **Warning** in `TASK_MANAGERS/Task_Templates/Task-Template-032_Cross_Reference_Validation.json`: Could not identify a primary ID for this file.
+- **Warning** in `TASK_MANAGERS/Task_Templates/Task-Template-022_Stacked_Connector_Post_Meeting_Automation.json`: Filename `Task-Template-022_Stacked_Connector_Post_Meeting_Automation.json` does not match ID `RESP-OPS-016`
+- **Warning** in `TASK_MANAGERS/Task_Templates/Task-Template-040_Configure_Gemini_AI_Analysis.json`: Could not identify a primary ID for this file.
+- **Warning** in `TASK_MANAGERS/Task_Templates/Task-Template-037_Recommendations_Compilation.json`: Could not identify a primary ID for this file.
+- **Warning** in `TASK_MANAGERS/Task_Templates/Task-Template-047_Research_Development_Tools.json`: Filename `Task-Template-047_Research_Development_Tools.json` does not match ID `RESP-DEV-034`
+- **Warning** in `TASK_MANAGERS/Task_Templates/Task-Template-004_Apollo_IO_Full_Stack_DEPRECATED.json`: Could not identify a primary ID for this file.
+- **Warning** in `TASK_MANAGERS/Task_Templates/Task-Template-005_Automate_Morning_Email_Drafting.json`: Filename `Task-Template-005_Automate_Morning_Email_Drafting.json` does not match ID `RESP-OPS-004`
+- **Warning** in `TASK_MANAGERS/Task_Templates/Task-Template-018_LinkedIn_Sales_Navigator_Lead_Extraction.json`: Filename `Task-Template-018_LinkedIn_Sales_Navigator_Lead_Extraction.json` does not match ID `RESP-LG-059`
+- **Warning** in `TASK_MANAGERS/Task_Templates/Task-Template-023_File_Count_Distribution.json`: Could not identify a primary ID for this file.
+- **Warning** in `TASK_MANAGERS/Task_Templates/Task-Template-026_Naming_Convention_Audit.json`: Could not identify a primary ID for this file.
+- **Warning** in `TASK_MANAGERS/Task_Templates/Account_Management/TEMPLATE-TASK-ACC-007_Create_Job_Account.json`: Filename `TEMPLATE-TASK-ACC-007_Create_Job_Account.json` does not match ID `RESP-OPS-ACC-007`
+- **Warning** in `TASK_MANAGERS/Task_Templates/Account_Management/TEMPLATE-TASK-ACC-001_Create_New_Account.json`: Filename `TEMPLATE-TASK-ACC-001_Create_New_Account.json` does not match ID `RESP-OPS-ACC-001`
+- **Warning** in `TASK_MANAGERS/Task_Templates/Account_Management/TEMPLATE-TASK-ACC-004_Verify_Account.json`: Filename `TEMPLATE-TASK-ACC-004_Verify_Account.json` does not match ID `RESP-OPS-ACC-004`
+- **Warning** in `TASK_MANAGERS/Checklist_Items/Checklist-Item-003_Listing.json`: Could not identify a primary ID for this file.
+- **Warning** in `TASK_MANAGERS/Checklist_Items/Checklist_Items_Migration_Map.json`: Could not identify a primary ID for this file.
+- **Warning** in `TASK_MANAGERS/Checklist_Items/Checklist-Item-004_checklist_items_simple_listing.json`: Could not identify a primary ID for this file.
+- **Warning** in `TASK_MANAGERS/Milestone_Templates/Milestone-Template-002_Data_Inventory.json`: Could not identify a primary ID for this file.
+- **Warning** in `TASK_MANAGERS/Milestone_Templates/Milestone-Template-018_Instagram_Designer_Portfolio.json`: Could not identify a primary ID for this file.
+- **Warning** in `TASK_MANAGERS/Milestone_Templates/Milestone-Template-007_VIDEO-002_Processing_Complete.json`: Could not identify a primary ID for this file.
+- **Warning** in `TASK_MANAGERS/Milestone_Templates/Milestone-Template-008_VIDEO-003_Library_Population_Complete.json`: Could not identify a primary ID for this file.
+- **Warning** in `TASK_MANAGERS/Milestone_Templates/Milestone-Template-020_LinkedIn_B2B_Content_Strategy.json`: Could not identify a primary ID for this file.
+- **Warning** in `TASK_MANAGERS/Milestone_Templates/Milestone-Template-022_Old_Client_Reengagement.json`: Could not identify a primary ID for this file.
+- **Warning** in `TASK_MANAGERS/Milestone_Templates/Milestone-Template-006_VIDEO-001_Research_Complete.json`: Could not identify a primary ID for this file.
+- **Warning** in `TASK_MANAGERS/Milestone_Templates/Milestone-Template-028_YouTube_Tutorial_Production.json`: Could not identify a primary ID for this file.
+- **Warning** in `TASK_MANAGERS/Milestone_Templates/Milestone-Template-021_Medium_Long_Form_Publishing.json`: Could not identify a primary ID for this file.
+- **Warning** in `TASK_MANAGERS/Milestone_Templates/Milestone-Template-024_Pinterest_Traffic_Generation.json`: Could not identify a primary ID for this file.
+- **Warning** in `TASK_MANAGERS/Milestone_Templates/Milestone-Template-009_Behance_Project_Publishing.json`: Could not identify a primary ID for this file.
+- **Warning** in `TASK_MANAGERS/Milestone_Templates/Milestone_Templates_Migration_Map.json`: Could not identify a primary ID for this file.
+- **Warning** in `TASK_MANAGERS/Milestone_Templates/Milestone-Template-004_Schema_Naming_Validation.json`: Could not identify a primary ID for this file.
+- **Warning** in `TASK_MANAGERS/Milestone_Templates/Milestone-Template-019_Lead_Enrichment_Automation.json`: Could not identify a primary ID for this file.
+- **Warning** in `TASK_MANAGERS/Milestone_Templates/Milestone-Template-027_Twitter_Real_Time_Engagement.json`: Could not identify a primary ID for this file.
+- **Warning** in `TASK_MANAGERS/Milestone_Templates/Milestone-Template-005_Synthesis_Recommendations.json`: Could not identify a primary ID for this file.
+- **Warning** in `TASK_MANAGERS/Milestone_Templates/Milestone-Template-025_Short_Form_Video_Production.json`: Could not identify a primary ID for this file.
+- **Warning** in `TASK_MANAGERS/Milestone_Templates/Milestone-Template-023_Pinterest_Discovery_Strategy.json`: Could not identify a primary ID for this file.
+- **Warning** in `TASK_MANAGERS/Milestone_Templates/Milestone-Template-026_Stack_Overflow_Reputation_Building.json`: Could not identify a primary ID for this file.
+- **Warning** in `TASK_MANAGERS/Milestone_Templates/Milestone-Template-003_Relationship_Validation.json`: Could not identify a primary ID for this file.
+- **Warning** in `TASK_MANAGERS/Milestone_Templates/Milestone-Template-017_Instagram_Content_Strategy.json`: Could not identify a primary ID for this file.
+- **Warning** in `TASK_MANAGERS/Milestone_Templates/Milestone-Template-001_Content_Analysis.json`: Could not identify a primary ID for this file.
+- **Warning** in `TASK_MANAGERS/Project_Templates/Project-Template-001_AI.json`: Could not identify a primary ID for this file.
+- **Warning** in `TASK_MANAGERS/Project_Templates/Project_Templates_Migration_Map.json`: Could not identify a primary ID for this file.
+- **Warning** in `TASK_MANAGERS/Project_Templates/Project-Template-003_HR.json`: Could not identify a primary ID for this file.
+- **Warning** in `TASK_MANAGERS/Project_Templates/Project-Template-007_System_Analysis.json`: Could not identify a primary ID for this file.
+- **Warning** in `TASK_MANAGERS/Project_Templates/Project-Template-002_DEV.json`: Could not identify a primary ID for this file.
+- **Warning** in `TASK_MANAGERS/Project_Templates/Project-Template-004_LG.json`: Could not identify a primary ID for this file.
+- **Warning** in `TASK_MANAGERS/Project_Templates/Project-Template-008_VIDEO.json`: Could not identify a primary ID for this file.
+- **Warning** in `TASK_MANAGERS/Project_Templates/Project-Template-005_LG.json`: Could not identify a primary ID for this file.
+- **Warning** in `TASK_MANAGERS/Project_Templates/Project-Template-006_RES.json`: Could not identify a primary ID for this file.
+- **Warning** in `TASK_MANAGERS/Project_Templates/PROJ-LIB-001_Responsibilities_Ecosystem/project_instance.json`: Filename `project_instance.json` does not match ID `PROJ-LIB-001`
+- **Warning** in `TASK_MANAGERS/RESEARCHES/RESEARCH_TEMPLATE.json`: Could not identify a primary ID for this file.
+- **Warning** in `TASK_MANAGERS/RESEARCHES/routing_matrix.json`: Could not identify a primary ID for this file.
+- **Warning** in `TASK_MANAGERS/RESEARCHES/common_index.json`: Could not identify a primary ID for this file.
+- **Warning** in `TASK_MANAGERS/RESEARCHES/EXAMPLE_2025-11-W46_AI_Tutorials_Research.json`: Could not identify a primary ID for this file.
+- **Warning** in `TASK_MANAGERS/RESEARCHES/RESEARCH_INDEX.json`: Could not identify a primary ID for this file.
+- **Warning** in `TASK_MANAGERS/RESEARCHES/Research Reports/Extractions/tool_mapping.json`: Could not identify a primary ID for this file.
+- **Warning** in `TASK_MANAGERS/RESEARCHES/Influencer_Tracking/Influencer_Database.json`: Could not identify a primary ID for this file.
+- **Warning** in `TASK_MANAGERS/RESEARCHES/Influencer_Tracking/YouTube_Channels.json`: Could not identify a primary ID for this file.
+- **Warning** in `TASK_MANAGERS/RESEARCHES/ToDo/Research_ToDo_2025-11-W47_Development_Tools.json`: Could not identify a primary ID for this file.
+- **Warning** in `TASK_MANAGERS/RESEARCHES/ToDo/Research_ToDo_2025-11-W47_AI_Video_Tools.json`: Could not identify a primary ID for this file.
+- **Warning** in `TASK_MANAGERS/RESEARCHES/ToDo/Research_ToDo_2025-11-W47_AI_Platforms.json`: Could not identify a primary ID for this file.
+- **Warning** in `TASK_MANAGERS/RESEARCHES/ToDo/Research_ToDo_2025-11-W47_Other_Tools.json`: Could not identify a primary ID for this file.
+- **Warning** in `TASK_MANAGERS/RESEARCHES/Taxonomy/RESEARCHES_Migration_Map.json`: Could not identify a primary ID for this file.
+- **Warning** in `DAILIES/copy_log.json`: Could not identify a primary ID for this file.
+- **Warning** in `DAILIES/temp/87396_Bindiak_Dana_actions_objects.json`: Could not identify a primary ID for this file.
+- **Warning** in `DAILIES/temp/333_Skrypkar_Vilhelm_tasks_steps.json`: Could not identify a primary ID for this file.
+- **Warning** in `DAILIES/temp/178_Kizilova_Olha_actions_objects.json`: Could not identify a primary ID for this file.
+- **Warning** in `DAILIES/temp/88105_Pasichna_Anastasiia_tasks_steps.json`: Could not identify a primary ID for this file.
+- **Warning** in `DAILIES/temp/299_Podolskyi_Sviatoslav_responsibilities_tools.json`: Could not identify a primary ID for this file.
+- **Warning** in `DAILIES/temp/88853_Artem_Skichko_responsibilities_tools.json`: Could not identify a primary ID for this file.
+- **Warning** in `DAILIES/temp/86478_Klimenko_Yaroslav_actions_objects.json`: Could not identify a primary ID for this file.
+- **Warning** in `DAILIES/temp/178_Kizilova_Olha_responsibilities_tools.json`: Could not identify a primary ID for this file.
+- **Warning** in `DAILIES/temp/87396_Bindiak_Dana_responsibilities_tools.json`: Could not identify a primary ID for this file.
+- **Warning** in `DAILIES/temp/299_Podolskyi_Sviatoslav_tasks_steps.json`: Could not identify a primary ID for this file.
+- **Warning** in `DAILIES/temp/333_Skrypkar_Vilhelm_actions_objects.json`: Could not identify a primary ID for this file.
+- **Warning** in `DAILIES/temp/37226_Artemchuk_Nikolay_tasks_steps.json`: Could not identify a primary ID for this file.
+- **Warning** in `DAILIES/temp/333_Skrypkar_Vilhelm_responsibilities_tools.json`: Could not identify a primary ID for this file.
+- **Warning** in `DAILIES/temp/84138_Burda_Anna_responsibilities_tools.json`: Could not identify a primary ID for this file.
+- **Warning** in `DAILIES/temp/39412_Ponomarova_Kateryna_responsibilities_tools.json`: Could not identify a primary ID for this file.
+- **Warning** in `DAILIES/temp/processing_queue.json`: Could not identify a primary ID for this file.
+- **Warning** in `DAILIES/temp/228_Kucherenko_Iuliia_actions_objects.json`: Could not identify a primary ID for this file.
+- **Warning** in `DAILIES/temp/86478_Klimenko_Yaroslav_tasks_steps.json`: Could not identify a primary ID for this file.
+- **Warning** in `DAILIES/temp/299_Podolskyi_Sviatoslav_actions_objects.json`: Could not identify a primary ID for this file.
+- **Warning** in `DAILIES/temp/88105_Pasichna_Anastasiia_responsibilities_tools.json`: Could not identify a primary ID for this file.
+- **Warning** in `DAILIES/temp/84138_Burda_Anna_actions_objects.json`: Could not identify a primary ID for this file.
+- **Warning** in `DAILIES/temp/88853_Artem_Skichko_tasks_steps.json`: Could not identify a primary ID for this file.
+- **Warning** in `DAILIES/temp/228_Kucherenko_Iuliia_tasks_steps.json`: Could not identify a primary ID for this file.
+- **Warning** in `DAILIES/temp/86478_Klimenko_Yaroslav_responsibilities_tools.json`: Could not identify a primary ID for this file.
+- **Warning** in `DAILIES/temp/37226_Artemchuk_Nikolay_actions_objects.json`: Could not identify a primary ID for this file.
+- **Warning** in `DAILIES/temp/39412_Ponomarova_Kateryna_actions_objects.json`: Could not identify a primary ID for this file.
+- **Warning** in `DAILIES/temp/88105_Pasichna_Anastasiia_actions_objects.json`: Could not identify a primary ID for this file.
+- **Warning** in `DAILIES/temp/228_Kucherenko_Iuliia_responsibilities_tools.json`: Could not identify a primary ID for this file.
+- **Warning** in `DAILIES/temp/88853_Artem_Skichko_actions_objects.json`: Could not identify a primary ID for this file.
+- **Warning** in `DAILIES/temp/37226_Artemchuk_Nikolay_responsibilities_tools.json`: Could not identify a primary ID for this file.
+- **Warning** in `DAILIES/temp/39412_Ponomarova_Kateryna_tasks_steps.json`: Could not identify a primary ID for this file.
+- **Warning** in `DAILIES/temp/84138_Burda_Anna_tasks_steps.json`: Could not identify a primary ID for this file.
+- **Warning** in `DAILIES/temp/87396_Bindiak_Dana_tasks_steps.json`: Could not identify a primary ID for this file.
+- **Warning** in `DAILIES/temp/178_Kizilova_Olha_tasks_steps.json`: Could not identify a primary ID for this file.
+- **Warning** in `DAILIES/scripts/config.json`: Could not identify a primary ID for this file.
+- **Warning** in `DAILIES/scripts/Dropbox/ENTITIES/DAILIES/temp/processing_queue.json`: Could not identify a primary ID for this file.
+- **Warning** in `ACCOUNTS/Accounts/ACC-001.json`: Filename `ACC-001.json` does not match ID `TOOL-Instagram`
+- **Warning** in `ACCOUNTS/JobSites/Eastern_Europe_JobSites.json`: Could not identify a primary ID for this file.
+- **Warning** in `TAXONOMY/LIBRARIES__Taxonomy/Tools_Master_Priority.json`: Could not identify a primary ID for this file.
+- **Warning** in `TAXONOMY/LIBRARIES__Taxonomy/Libraries_Migration_Map.json`: Could not identify a primary ID for this file.
+- **Warning** in `TAXONOMY/TASK_MANAGERS__Taxonomy/Taxonomy_Migration_Map.json`: Could not identify a primary ID for this file.
+- **Warning** in `PROMPTS/PROMPTS_Migration_Map.json`: Could not identify a primary ID for this file.
+- **Warning** in `PROMPTS/DEPARTMENTS/Daily_Reports/Constructor/prompt_parts_structure.json`: Could not identify a primary ID for this file.
+- **Warning** in `PROMPTS/DATA_FIELDS/Prompts_Index.json`: Could not identify a primary ID for this file.
+- **Warning** in `PROMPTS/_INDEX/PROMPTS_INDEX.json`: Could not identify a primary ID for this file.
+- **Warning** in `ASSETS/oa-y/OAY_Asset_Registry.json`: Could not identify a primary ID for this file.
+- **Warning** in `TALENTS/Candidates_JSON_Clusters/candidate_fields_template.json`: Could not identify a primary ID for this file.
+- **Warning** in `TALENTS/Employees/Employee_Unit_Template.json`: Could not identify a primary ID for this file.
+- **Warning** in `TALENTS/Employees/Fields_To_Remove.json`: Could not identify a primary ID for this file.
+- **Warning** in `TALENTS/Employees/attendance_analyzer/config/analysis_config.json`: Could not identify a primary ID for this file.
+- **Warning** in `TALENTS/Employees/units/employee_unit_core.json`: Filename `employee_unit_core.json` does not match ID `<number>`
+- **Warning** in `TALENTS/Employees/units/nullable_fields.json`: Could not identify a primary ID for this file.
+- **Warning** in `TALENTS/Employees/units/candidate.json`: Filename `candidate.json` does not match ID `<number>`
+- **Warning** in `TALENTS/Employees/units/metadata.json`: Could not identify a primary ID for this file.
+- **Warning** in `TALENTS/Employees/units/optional_arrays.json`: Could not identify a primary ID for this file.
+- **Warning** in `TALENTS/Employees/units/position.json`: Filename `position.json` does not match ID `<number>`
+- **Warning** in `TALENTS/Employees/units/user.json`: Filename `user.json` does not match ID `<number>`
+- **Warning** in `TALENTS/Employees/units/department.json`: Filename `department.json` does not match ID `<number>`
+- **Warning** in `TALENTS/Employees/units/manifest.json`: Could not identify a primary ID for this file.
+- **Warning** in `TALENTS/Employees/units/designation.json`: Filename `designation.json` does not match ID `<number>`
+- **Warning** in `TALENTS/Employees/units/empaddress.json`: Filename `empaddress.json` does not match ID `<number>`
+- **Warning** in `TALENTS/Employees/units/emplstatus.json`: Filename `emplstatus.json` does not match ID `<number>`
+- **Warning** in `ANALYTICS/Projects/Images_Generation_Workflow.json`: Could not identify a primary ID for this file.
+- **Warning** in `ANALYTICS/Projects/PROJ-AI-NMP-001_Next_Main_Prompt_Version/Milestones/MIL-003_Library_Integration_Modules.json`: Filename `MIL-003_Library_Integration_Modules.json` does not match ID `MIL-003`
+- **Warning** in `ANALYTICS/Milestones/MIL-002_Schema_Naming.json`: Filename `MIL-002_Schema_Naming.json` does not match ID `MIL-002`
+- **Warning** in `ANALYTICS/Milestones/PROJ-AI-NMP-001_MIL-NMP-006_Usage_Maintenance.json`: Filename `PROJ-AI-NMP-001_MIL-NMP-006_Usage_Maintenance.json` does not match ID `MIL-NMP-006`
+- **Warning** in `ANALYTICS/Milestones/MIL-003_Content_Analysis.json`: Filename `MIL-003_Content_Analysis.json` does not match ID `MIL-003`
+- **Warning** in `ANALYTICS/Milestones/MIL-005_Synthesis.json`: Filename `MIL-005_Synthesis.json` does not match ID `MIL-005`
+- **Warning** in `ANALYTICS/Milestones/PROJ-AI-NMP-001_MIL-NMP-001_Folder_Structure_Creation.json`: Filename `PROJ-AI-NMP-001_MIL-NMP-001_Folder_Structure_Creation.json` does not match ID `MIL-NMP-001`
+- **Warning** in `ANALYTICS/Milestones/MIL-001_Data_Inventory.json`: Filename `MIL-001_Data_Inventory.json` does not match ID `MIL-001`
+- **Warning** in `ANALYTICS/Milestones/PROJ-AI-NMP-001_MIL-NMP-005_Processing_Rules.json`: Filename `PROJ-AI-NMP-001_MIL-NMP-005_Processing_Rules.json` does not match ID `MIL-NMP-005`
+- **Warning** in `ANALYTICS/Milestones/PROJ-AI-NMP-001_MIL-NMP-002_Core_Modules.json`: Filename `PROJ-AI-NMP-001_MIL-NMP-002_Core_Modules.json` does not match ID `MIL-NMP-002`
+- **Warning** in `ANALYTICS/Milestones/PROJ-AI-NMP-001_MIL-NMP-003_Library_Integration_Modules.json`: Filename `PROJ-AI-NMP-001_MIL-NMP-003_Library_Integration_Modules.json` does not match ID `MIL-NMP-003`
+- **Warning** in `ANALYTICS/Milestones/PROJ-AI-NMP-001_MIL-NMP-004_Output_Templates.json`: Filename `PROJ-AI-NMP-001_MIL-NMP-004_Output_Templates.json` does not match ID `MIL-NMP-004`
+- **Warning** in `ANALYTICS/Milestones/MIL-004_Relationship_Validation.json`: Filename `MIL-004_Relationship_Validation.json` does not match ID `MIL-004`
+- **Warning** in `ANALYTICS/Milestones/PROJ-AI-NMP-001_MIL-NMP-007_Assembly_System.json`: Filename `PROJ-AI-NMP-001_MIL-NMP-007_Assembly_System.json` does not match ID `MIL-NMP-007`
+- **Warning** in `ANALYTICS/Milestones/PROJ-AI-NMP-001_MIL-NMP-008_Validation_QA.json`: Filename `PROJ-AI-NMP-001_MIL-NMP-008_Validation_QA.json` does not match ID `MIL-NMP-008`
+- **Warning** in `REPORTS/Remote_Helpers_attendance_2025-11-18.json`: Could not identify a primary ID for this file.
+- **Warning** in `REPORTS/System_Analysis/Milestone_01_Data_Inventory/file_sizes.json`: Could not identify a primary ID for this file.
+- **Warning** in `REPORTS/System_Analysis/Milestone_01_Data_Inventory/milestone_01_summary.json`: Could not identify a primary ID for this file.
+- **Warning** in `REPORTS/System_Analysis/Milestone_01_Data_Inventory/file_distribution.json`: Could not identify a primary ID for this file.
+- **Warning** in `REPORTS/System_Analysis/Milestone_01_Data_Inventory/folder_structure.json`: Could not identify a primary ID for this file.
+- **Warning** in `REPORTS/System_Analysis/Milestone_03_Content_Analysis/json_field_names.json`: Could not identify a primary ID for this file.
+- **Warning** in `REPORTS/System_Analysis/Milestone_03_Content_Analysis/redundant_terms_full.json`: Could not identify a primary ID for this file.
+- **Warning** in `REPORTS/System_Analysis/Milestone_03_Content_Analysis/markdown_headings.json`: Could not identify a primary ID for this file.
+- **Warning** in `REPORTS/System_Analysis/Milestone_03_Content_Analysis/terminology_dictionary.json`: Could not identify a primary ID for this file.
+- **Warning** in `REPORTS/System_Analysis/Milestone_03_Content_Analysis/REP-006_terminology_standards.json`: Could not identify a primary ID for this file.
+- **Warning** in `REPORTS/System_Analysis/Milestone_03_Content_Analysis/milestone_03_summary.json`: Could not identify a primary ID for this file.
+- **Warning** in `REPORTS/System_Analysis/Milestone_03_Content_Analysis/extracted_entity_ids.json`: Could not identify a primary ID for this file.
+- **Warning** in `REPORTS/System_Analysis/Milestone_03_Content_Analysis/python_variables.json`: Could not identify a primary ID for this file.
+- **Warning** in `REPORTS/System_Analysis/Milestone_02_Schema_Naming/milestone_02_summary.json`: Could not identify a primary ID for this file.
+- **Warning** in `REPORTS/System_Analysis/Milestone_02_Schema_Naming/field_usage_stats.json`: Could not identify a primary ID for this file.
+- **Warning** in `REPORTS/System_Analysis/Milestone_04_Relationship_Validation/reference_map.json`: Could not identify a primary ID for this file.
+- **Warning** in `REPORTS/System_Analysis/Milestone_04_Relationship_Validation/milestone_04_summary.json`: Could not identify a primary ID for this file.
+
+## 2. Taxonomy Validation
+No taxonomy violations found.
+
+## 3. Referential Integrity
+Found 25686 missing references:
+- `LIBRARIES/Responsibilities/phrase_combinations.json`: Field `examples[0].task_id` references missing ID `TASK-AI-021`
+- `LIBRARIES/Responsibilities/phrase_combinations.json`: Field `examples[1].task_id` references missing ID `TASK-AI-021`
+- `LIBRARIES/Responsibilities/phrase_combinations.json`: Field `examples[0].task_id` references missing ID `TEMPLATE-TASK-018`
+- `LIBRARIES/Responsibilities/phrase_combinations.json`: Field `examples[1].task_id` references missing ID `TEMPLATE-TASK-019`
+- `LIBRARIES/Responsibilities/phrase_combinations.json`: Field `examples[2].task_id` references missing ID `TEMPLATE-TASK-015`
+- `LIBRARIES/Responsibilities/phrase_combinations.json`: Field `examples[0].task_id` references missing ID `TEMPLATE-TASK-016`
+- `LIBRARIES/Responsibilities/phrase_combinations.json`: Field `examples[1].task_id` references missing ID `TEMPLATE-TASK-009`
+- `LIBRARIES/Responsibilities/phrase_combinations.json`: Field `examples[2].task_id` references missing ID `TEMPLATE-TASK-003`
+- `LIBRARIES/Responsibilities/phrase_combinations.json`: Field `examples[0].task_id` references missing ID `TASK-AI-021`
+- `LIBRARIES/Responsibilities/phrase_combinations.json`: Field `examples[1].task_id` references missing ID `TASK-AI-021`
+- `LIBRARIES/Responsibilities/phrase_combinations.json`: Field `examples[2].task_id` references missing ID `TASK-AI-024`
+- `LIBRARIES/Responsibilities/phrase_combinations.json`: Field `examples[0].task_id` references missing ID `TASK-AI-022`
+- `LIBRARIES/Responsibilities/phrase_combinations.json`: Field `examples[1].task_id` references missing ID `TASK-AI-022`
+- `LIBRARIES/Responsibilities/phrase_combinations.json`: Field `examples.task_id` references missing ID `TASK-AI-029`
+- `LIBRARIES/Responsibilities/phrase_combinations.json`: Field `examples[0].task_id` references missing ID `TEMPLATE-TASK-003`
+- `LIBRARIES/Responsibilities/phrase_combinations.json`: Field `examples[1].task_id` references missing ID `TEMPLATE-TASK-018`
+- `LIBRARIES/Responsibilities/phrase_combinations.json`: Field `examples[2].task_id` references missing ID `TEMPLATE-TASK-019`
+- `LIBRARIES/Responsibilities/phrase_combinations.json`: Field `examples[0].task_id` references missing ID `TEMPLATE-TASK-014`
+- `LIBRARIES/Responsibilities/phrase_combinations.json`: Field `examples[1].task_id` references missing ID `TEMPLATE-TASK-011`
+- `LIBRARIES/Responsibilities/phrase_combinations.json`: Field `examples[2].task_id` references missing ID `TEMPLATE-TASK-HR-AUTO-003`
+- `LIBRARIES/Responsibilities/phrase_combinations.json`: Field `examples[0].task_id` references missing ID `TEMPLATE-TASK-016`
+- `LIBRARIES/Responsibilities/phrase_combinations.json`: Field `examples[1].task_id` references missing ID `TEMPLATE-TASK-009`
+- `LIBRARIES/Responsibilities/phrase_combinations.json`: Field `examples[2].task_id` references missing ID `TEMPLATE-TASK-004`
+- `LIBRARIES/Responsibilities/phrase_combinations.json`: Field `examples[0].task_id` references missing ID `TEMPLATE-TASK-VIDEO-001`
+- `LIBRARIES/Responsibilities/phrase_combinations.json`: Field `examples[1].task_id` references missing ID `TEMPLATE-TASK-VIDEO-002`
+- `LIBRARIES/Responsibilities/phrase_combinations.json`: Field `examples[2].task_id` references missing ID `TEMPLATE-TASK-VIDEO-003`
+- `LIBRARIES/Responsibilities/phrase_combinations.json`: Field `examples[0].task_id` references missing ID `TEMPLATE-TASK-003`
+- `LIBRARIES/Responsibilities/phrase_combinations.json`: Field `examples[1].task_id` references missing ID `TEMPLATE-TASK-018`
+- `LIBRARIES/Responsibilities/phrase_combinations.json`: Field `examples[0].task_id` references missing ID `TEMPLATE-TASK-018`
+- `LIBRARIES/Responsibilities/phrase_combinations.json`: Field `examples[1].task_id` references missing ID `TEMPLATE-TASK-009`
+- `LIBRARIES/Responsibilities/phrase_combinations.json`: Field `examples[0].task_id` references missing ID `TASK-AI-021`
+- `LIBRARIES/Responsibilities/phrase_combinations.json`: Field `examples[1].task_id` references missing ID `TASK-AI-021`
+- `LIBRARIES/Responsibilities/phrase_combinations.json`: Field `examples[0].task_id` references missing ID `TASK-AI-021`
+- `LIBRARIES/Responsibilities/phrase_combinations.json`: Field `examples[1].task_id` references missing ID `TASK-AI-021`
+- `LIBRARIES/Responsibilities/phrase_combinations.json`: Field `examples[0].task_id` references missing ID `TASK-AI-021`
+- `LIBRARIES/Responsibilities/phrase_combinations.json`: Field `examples[1].task_id` references missing ID `TASK-AI-021`
+- `LIBRARIES/Responsibilities/phrase_combinations.json`: Field `examples[0].task_id` references missing ID `TASK-AI-021`
+- `LIBRARIES/Responsibilities/phrase_combinations.json`: Field `examples[1].task_id` references missing ID `TASK-AI-021`
+- `LIBRARIES/Responsibilities/phrase_combinations.json`: Field `examples[0].task_id` references missing ID `TASK-AI-021`
+- `LIBRARIES/Responsibilities/phrase_combinations.json`: Field `examples[1].task_id` references missing ID `TASK-AI-021`
+- `LIBRARIES/Responsibilities/phrase_combinations.json`: Field `examples[0].task_id` references missing ID `TASK-AI-022`
+- `LIBRARIES/Responsibilities/phrase_combinations.json`: Field `examples[1].task_id` references missing ID `TASK-AI-022`
+- `LIBRARIES/Responsibilities/phrase_combinations.json`: Field `examples[0].task_id` references missing ID `TASK-AI-022`
+- `LIBRARIES/Responsibilities/phrase_combinations.json`: Field `examples[1].task_id` references missing ID `TASK-AI-022`
+- `LIBRARIES/Responsibilities/phrase_combinations.json`: Field `examples[0].task_id` references missing ID `TASK-AI-022`
+- `LIBRARIES/Responsibilities/phrase_combinations.json`: Field `examples[1].task_id` references missing ID `TASK-AI-022`
+- `LIBRARIES/Responsibilities/phrase_combinations.json`: Field `examples[0].task_id` references missing ID `TASK-AI-022`
+- `LIBRARIES/Responsibilities/phrase_combinations.json`: Field `examples[1].task_id` references missing ID `TASK-AI-022`
+- `LIBRARIES/Responsibilities/phrase_combinations.json`: Field `examples[0].task_id` references missing ID `TASK-AI-022`
+- `LIBRARIES/Responsibilities/phrase_combinations.json`: Field `examples[1].task_id` references missing ID `TASK-AI-022`
+- ... and 25636 more
+
+## 4. Schema Analysis
+*(Note: Full JSON schema validation requires `jsonschema` library. This analysis focused on structural consistency and references.)*
+
+### Entity Distribution
+| Entity Type | Count |
+|---|---|
+| UNKNOWN | 1428 |
+| LIBRARIES | 153 |
+| TASK_MANAGERS | 7 |
+| ACCOUNTS | 2 |

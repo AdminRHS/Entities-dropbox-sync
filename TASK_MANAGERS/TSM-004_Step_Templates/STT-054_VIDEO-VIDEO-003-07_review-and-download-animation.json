@@ -1,0 +1,33 @@
+{
+  "entity_type": "TASK_MANAGERS",
+  "sub_entity": "Step_Template",
+  "step_id": "VIDEO-VIDEO-003-07",
+  "step_number": 7,
+  "parent_task": "TASK-TEMPLATE-VIDEO-003",
+  "task_name": "Create Brand Logo Animation",
+  "name": "Review and download animation",
+  "action": "download",
+  "tool": "OpenArt download",
+  "responsibility": "Brand Manager",
+  "placement": "Local storage",
+  "duration": "1 minute",
+  "dependencies": [
+    6
+  ],
+  "inputs": [
+    "Generated animation video"
+  ],
+  "outputs": [
+    "Video file ready for use in content"
+  ],
+  "success_criteria": "Animation suitable for video intros, outros, social posts",
+  "implementation_notes": "Animation suitable for video intros, outros, social posts - Implementation details based on the Create Brand Logo Animation workflow.",
+  "tags": [
+    "review",
+    "template-task-video-003"
+  ],
+  "version": "1.0",
+  "created": "2025-11-15",
+  "last_updated": "2025-11-15",
+  "source": "Video_012"
+}

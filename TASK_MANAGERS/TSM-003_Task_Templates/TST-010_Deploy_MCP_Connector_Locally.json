@@ -1,0 +1,360 @@
+{
+  "entity_type": "TASK_MANAGERS",
+  "sub_entity": "Task_Template",
+  "id": "TST-010",
+  "template_id": "Task-Template-010",
+  "task_name": "Deploy MCP Connector Locally",
+  "action": "Deploy",
+  "object": "MCP Connector",
+  "context": "via Cursor AI assistance",
+  "description": "Deploy generated MCP connector code locally with Cursor AI guidance (5 min with AI vs 20-30 min manual, 90%+ success rate)",
+  "department": "Dev",
+  "profession": "AI Engineer",
+  "priority": "High",
+  "estimated_duration": "5-10 minutes with AI assistance",
+  "manual_duration": "20-30 minutes without AI",
+  "status": "Active",
+  "complexity": "Medium",
+  "automation_potential": "High (60-80%)",
+  "success_rate": "90%+",
+  "time_savings": "Reduces deployment from 20-30 min to 5 min",
+  "dependencies": [
+    "MCP connector code generated (TASK-TEMPLATE-006)",
+    "Cursor AI installed and configured",
+    "Node.js or Python installed (depending on connector)",
+    "OAuth credentials prepared (if needed)"
+  ],
+  "tools_required": [
+    "TOOL-DEV-026 (Cursor)",
+    "TOOL-AI-030 (Claude Desktop App)",
+    "TOOL-DEV-027 (Google Cloud Console - for OAuth)"
+  ],
+  "skills_required": [
+    "SKL-071 (deployed MCP connectors via Cursor)",
+    "SKL-075 (configured OAuth for Google APIs - if needed)"
+  ],
+  "objects_used": [
+    "OBJ-AI-001 (MCP Connector)",
+    "OBJ-AI-002 (Connector Code)",
+    "OBJ-AI-003 (API Credentials)"
+  ],
+  "workflow_reference": "WF-AI-006",
+  "success_criteria": [
+    "All dependencies installed successfully",
+    "OAuth credentials configured (if required)",
+    "Connector tested locally and working",
+    "Connector added to Claude Desktop settings",
+    "Connection verified in Claude Desktop"
+  ],
+  "responsibilities": {
+    "responsible": "AI Engineer",
+    "accountable": "Development Lead",
+    "consulted": [
+      "Backend Developer",
+      "Operations Team"
+    ],
+    "informed": [
+      "Automation Team",
+      "End Users"
+    ]
+  },
+  "steps": [
+    {
+      "step_number": 1,
+      "name": "Copy generated connector code to local directory",
+      "action": "copy",
+      "tool": "File system",
+      "responsibility": "AI Engineer",
+      "placement": "~/mcp-connectors/[connector-name]/",
+      "duration": "1 minute",
+      "dependencies": [],
+      "inputs": [
+        "Generated MCP connector code from TASK-TEMPLATE-006"
+      ],
+      "outputs": [
+        "Code files saved in local directory"
+      ],
+      "success_criteria": "All connector files (server.js, package.json, README.md) present",
+      "responsibility_id": "RESP-DEV-019",
+      "responsibility_name": "copy copy generated connector code",
+      "_original_action": "copy"
+    },
+    {
+      "step_number": 2,
+      "name": "Open connector directory in Cursor AI",
+      "action": "open",
+      "tool": "TOOL-DEV-026 (Cursor)",
+      "responsibility": "AI Engineer",
+      "placement": "Cursor IDE",
+      "duration": "30 seconds",
+      "dependencies": [
+        "Step 1"
+      ],
+      "inputs": [
+        "Connector directory path"
+      ],
+      "outputs": [
+        "Directory opened in Cursor"
+      ],
+      "success_criteria": "All files visible in Cursor explorer",
+      "responsibility_id": "RESP-DEV-020",
+      "responsibility_name": "open open connector directory",
+      "_original_action": "open"
+    },
+    {
+      "step_number": 3,
+      "name": "Ask Cursor to explain setup steps",
+      "action": "prompt",
+      "tool": "TOOL-DEV-026 (Cursor)",
+      "responsibility": "AI Engineer",
+      "placement": "Cursor chat",
+      "duration": "30 seconds",
+      "dependencies": [
+        "Step 2"
+      ],
+      "inputs": [
+        "Prompt: 'Explain setup steps for this MCP connector'"
+      ],
+      "outputs": [
+        "Step-by-step setup instructions from Cursor AI"
+      ],
+      "success_criteria": "Cursor provides: dependencies list, config steps, OAuth instructions",
+      "responsibility_id": "RESP-DEV-021",
+      "responsibility_name": "prompt ask cursor",
+      "_original_action": "prompt"
+    },
+    {
+      "step_number": 4,
+      "name": "Install dependencies",
+      "action": "install",
+      "tool": "Terminal (npm install or pip install)",
+      "responsibility": "AI Engineer",
+      "placement": "Connector directory - terminal",
+      "duration": "1-2 minutes",
+      "dependencies": [
+        "Step 3"
+      ],
+      "inputs": [
+        "Cursor's dependency instructions"
+      ],
+      "outputs": [
+        "All packages installed (node_modules or venv)"
+      ],
+      "success_criteria": "npm install or pip install completes without errors",
+      "responsibility_id": "RESP-DEV-022",
+      "responsibility_name": "install install dependencies",
+      "_original_action": "install"
+    },
+    {
+      "step_number": 5,
+      "name": "Configure OAuth credentials (if required)",
+      "action": "configure",
+      "tool": "TOOL-DEV-027 (Google Cloud Console) + .env file",
+      "responsibility": "AI Engineer",
+      "placement": "Google Cloud Console + connector directory",
+      "duration": "5 minutes (if OAuth needed, 0 if not)",
+      "dependencies": [
+        "Step 4"
+      ],
+      "inputs": [
+        "Client ID, Client Secret from Google Cloud Console"
+      ],
+      "outputs": [
+        ".env file with credentials configured"
+      ],
+      "success_criteria": "OAuth credentials saved in .env, file in .gitignore",
+      "responsibility_id": "RESP-DEV-023",
+      "responsibility_name": "configure oauth credentials (if required)",
+      "_original_action": "configure"
+    },
+    {
+      "step_number": 6,
+      "name": "Test connector locally",
+      "action": "test",
+      "tool": "Terminal (npm start or python server.py)",
+      "responsibility": "AI Engineer",
+      "placement": "Connector directory - terminal",
+      "duration": "1-2 minutes",
+      "dependencies": [
+        "Step 5"
+      ],
+      "inputs": [
+        "Configured connector"
+      ],
+      "outputs": [
+        "Connector running locally on specified port"
+      ],
+      "success_criteria": "Server starts without errors, listens on port",
+      "responsibility_id": "RESP-DEV-024",
+      "responsibility_name": "test test connector locally",
+      "_original_action": "test"
+    },
+    {
+      "step_number": 7,
+      "name": "Add connector to Claude Desktop settings",
+      "action": "configure",
+      "tool": "TOOL-AI-030 (Claude Desktop App)",
+      "responsibility": "AI Engineer",
+      "placement": "Claude Desktop - Settings - MCP Servers",
+      "duration": "2 minutes",
+      "dependencies": [
+        "Step 6"
+      ],
+      "inputs": [
+        "Connector name",
+        "Local path to connector"
+      ],
+      "outputs": [
+        "Connector registered in Claude Desktop"
+      ],
+      "success_criteria": "Connector appears in MCP Servers list",
+      "responsibility_id": "RESP-DEV-025",
+      "responsibility_name": "configure add connector",
+      "_original_action": "configure"
+    },
+    {
+      "step_number": 8,
+      "name": "Verify connection in Claude Desktop",
+      "action": "verify",
+      "tool": "TOOL-AI-030 (Claude Desktop App)",
+      "responsibility": "AI Engineer",
+      "placement": "Claude Desktop - Chat",
+      "duration": "1 minute",
+      "dependencies": [
+        "Step 7"
+      ],
+      "inputs": [
+        "Test prompt using connector"
+      ],
+      "outputs": [
+        "Successful response from connector"
+      ],
+      "success_criteria": "Connector responds to Claude prompts, functionality works",
+      "responsibility_id": "RESP-DEV-026",
+      "responsibility_name": "verify verify connection",
+      "_original_action": "verify"
+    }
+  ],
+  "checklist": [
+    {
+      "item": "Cursor AI installed and working",
+      "guide": "Download from cursor.sh if not installed",
+      "required": true
+    },
+    {
+      "item": "Node.js or Python installed (check README)",
+      "guide": "MCP connectors use either Node.js or Python, check generated README",
+      "required": true
+    },
+    {
+      "item": "OAuth credentials configured if needed",
+      "guide": "Gmail, Calendar, CRM connectors need OAuth - follow Google Cloud Console setup",
+      "required": false
+    },
+    {
+      "item": "Connector runs locally without errors",
+      "guide": "Test with npm start or python server.py before adding to Claude",
+      "required": true
+    },
+    {
+      "item": "Connector responds in Claude Desktop",
+      "guide": "Test basic functionality after adding to settings",
+      "required": true
+    },
+    {
+      "item": ".env file added to .gitignore",
+      "guide": "Never commit credentials to version control",
+      "required": true
+    }
+  ],
+  "performance_metrics": {
+    "time_with_ai": "5-10 minutes",
+    "time_without_ai": "20-30 minutes",
+    "time_savings": "15-20 minutes (75% reduction)",
+    "success_rate": "90%+",
+    "accessibility": "Makes MCP deployment accessible to non-developers"
+  },
+  "cursor_ai_benefits": [
+    "Explains setup steps automatically from README",
+    "Guides through dependency installation",
+    "Helps configure OAuth credentials",
+    "Debugs errors if deployment fails",
+    "Reduces deployment time by 75%"
+  ],
+  "best_practices": [
+    "FASTEST deployment: 5 min with Cursor vs 20-30 min manual",
+    "Let Cursor AI guide you through setup steps",
+    "Test connector locally before adding to Claude Desktop",
+    "Keep OAuth credentials in .env file, never commit",
+    "Verify connection with simple test before production use"
+  ],
+  "oauth_setup_connectors": [
+    "Gmail MCP Connector - requires Gmail API OAuth",
+    "Google Calendar MCP Connector - requires Calendar API OAuth",
+    "Google Drive MCP Connector - requires Drive API OAuth",
+    "Other Google services - requires Google Cloud Console setup"
+  ],
+  "non_oauth_connectors": [
+    "Custom API connectors - may use API keys instead",
+    "Internal tools - may not need authentication",
+    "Read-only connectors - may have simplified auth"
+  ],
+  "common_issues": [
+    {
+      "issue": "Dependencies fail to install",
+      "solution": "Check Node.js or Python version, update if needed, run npm cache clean"
+    },
+    {
+      "issue": "OAuth credentials not working",
+      "solution": "Verify Client ID and Secret in .env, check OAuth scopes in Google Cloud Console"
+    },
+    {
+      "issue": "Connector doesn't appear in Claude Desktop",
+      "solution": "Restart Claude Desktop app, check connector path in settings"
+    },
+    {
+      "issue": "Connector returns errors when called",
+      "solution": "Check connector logs, verify API credentials, test API access manually"
+    },
+    {
+      "issue": "Port already in use",
+      "solution": "Change port in connector config, or kill process using that port"
+    }
+  ],
+  "cursor_ai_prompts": [
+    "'Explain setup steps for this MCP connector'",
+    "'What dependencies do I need to install?'",
+    "'How do I configure OAuth for this connector?'",
+    "'Why is the connector failing to start?'",
+    "'How do I test this connector locally?'"
+  ],
+  "accessibility_value": "Cursor AI makes MCP deployment accessible to non-developers - follow AI guidance even without deep technical knowledge",
+  "tags": [
+    "mcp",
+    "deployment",
+    "cursor_ai",
+    "oauth",
+    "local_setup",
+    "ai_assisted"
+  ],
+  "related_workflows": [
+    "WF-AI-002",
+    "WF-AI-006"
+  ],
+  "related_skills": [
+    "SKL-071",
+    "SKL-075"
+  ],
+  "related_professions": [
+    "AI Engineer",
+    "Backend Developer",
+    "Non-developers with AI assistance"
+  ],
+  "version": "1.0",
+  "created": "2025-11-12",
+  "last_updated": "2025-11-12",
+  "source": "Video_008_MCP_Connector_Tutorial",
+  "responsibility_name": "deploy mcp connector",
+  "_original_action": "Deploy",
+  "_original_object": "MCP Connector"
+}

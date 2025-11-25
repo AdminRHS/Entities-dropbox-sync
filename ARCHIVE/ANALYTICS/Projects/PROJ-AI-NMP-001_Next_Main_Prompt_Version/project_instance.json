@@ -1,0 +1,413 @@
+﻿{
+  "project_id": "PROJ-AI-NMP-001",
+  "project_name": "Next Main Prompt Version (v5)",
+  "project_abbreviation": "NMP",
+  "project_type": "AI Development",
+  "department": "AI",
+  "status": "Planned",
+  "priority": "High",
+  "created_date": "2025-11-15",
+  "target_start_date": "2025-11-15",
+  "target_completion_date": "2025-12-15",
+  "actual_start_date": null,
+  "actual_completion_date": null,
+  "progress_percentage": 0,
+
+  "description": "Create MAIN_PROMPT v5 with enhanced modular architecture by systematically building ~50 individual files across 5 folders, integrating all 12 LIBRARIES entities with current statistics and improved cross-referencing.",
+
+  "objectives": [
+    "Transform MAIN_PROMPT v4 monolithic structure into modular v5 architecture",
+    "Create 12 dedicated library integration modules (one per LIBRARIES entity)",
+    "Break down 21 output templates into individual files for better maintainability",
+    "Update all statistics with current library data (429 actions, 10,596 parameters, etc.)",
+    "Implement assembly system for generating monolithic versions",
+    "Provide comprehensive logging and progress tracking"
+  ],
+
+  "scope": {
+    "in_scope": [
+      "Create ~50 modular files across 5 main folders",
+      "Extract and update statistics from all 12 LIBRARIES entities",
+      "Create individual library integration files",
+      "Split output templates into 21 separate files",
+      "Create processing rules modules",
+      "Build assembly scripts for generating combined versions",
+      "Comprehensive documentation and examples",
+      "Migration guide from v4 to v5"
+    ],
+    "out_of_scope": [
+      "Modifications to MAIN_PROMPT v4",
+      "Changes to LIBRARIES structure",
+      "New prompt functionality beyond v4 features",
+      "Deployment automation"
+    ]
+  },
+
+  "stakeholders": {
+    "project_owner": "ALX",
+    "project_manager": "AI",
+    "primary_assignee": "Claude (AI Assistant)",
+    "reviewers": ["ALX", "AI Team"],
+    "stakeholders": ["All Departments"]
+  },
+
+  "reference_documents": [
+    {
+      "name": "CREATE_MAIN_PROMPT_v5.md",
+      "path": "Dropbox\\ENTITIES\\LIBRARIES\\DEPARTMENTS\\_SHARED\\Prompts\\Core\\CREATE_MAIN_PROMPT_v5.md",
+      "type": "Meta-Prompt",
+      "description": "Comprehensive instructions for creating v5"
+    },
+    {
+      "name": "MAIN_PROMPT_v4.md",
+      "path": "Dropbox\\ENTITIES\\LIBRARIES\\DEPARTMENTS\\_SHARED\\Prompts\\Core\\MAIN_PROMPT_v4.md",
+      "type": "Source Document",
+      "description": "Current version to be transformed"
+    },
+    {
+      "name": "LIBRARIES",
+      "path": "Dropbox\\ENTITIES\\LIBRARIES\\",
+      "type": "Data Source",
+      "description": "12 entity libraries with current statistics"
+    }
+  ],
+
+  "deliverables": [
+    {
+      "id": "DEL-001",
+      "name": "Modular Folder Structure",
+      "description": "5 main folders with ~50 files",
+      "milestone_id": "MIL-001",
+      "status": "Pending"
+    },
+    {
+      "id": "DEL-002",
+      "name": "Core Modules",
+      "description": "5 files covering purpose, context, employees, projects, instructions",
+      "milestone_id": "MIL-002",
+      "status": "Pending"
+    },
+    {
+      "id": "DEL-003",
+      "name": "Library Integration Modules",
+      "description": "13 files (12 libraries + taxonomy framework)",
+      "milestone_id": "MIL-NMP-003",
+      "status": "Pending"
+    },
+    {
+      "id": "DEL-004",
+      "name": "Output Templates",
+      "description": "22 files (21 templates + README)",
+      "milestone_id": "MIL-004",
+      "status": "Pending"
+    },
+    {
+      "id": "DEL-005",
+      "name": "Processing Rules",
+      "description": "6 files for entity recognition and processing",
+      "milestone_id": "MIL-005",
+      "status": "Pending"
+    },
+    {
+      "id": "DEL-006",
+      "name": "Usage & Maintenance Docs",
+      "description": "7 files including changelog and migration guide",
+      "milestone_id": "MIL-006",
+      "status": "Pending"
+    },
+    {
+      "id": "DEL-007",
+      "name": "Assembly System",
+      "description": "4 Python scripts for generating combined versions",
+      "milestone_id": "MIL-007",
+      "status": "Pending"
+    },
+    {
+      "id": "DEL-008",
+      "name": "MAIN_PROMPT_v5.md",
+      "description": "Monolithic assembled version",
+      "milestone_id": "MIL-008",
+      "status": "Pending"
+    }
+  ],
+
+  "phases": [
+    {
+      "phase_number": 1,
+      "phase_name": "Setup & Infrastructure",
+      "description": "Create folder structure and core modules",
+      "milestones": ["MIL-001", "MIL-002"],
+      "estimated_duration": "3 days",
+      "status": "Planned"
+    },
+    {
+      "phase_number": 2,
+      "phase_name": "Library Integration",
+      "description": "Create 12 library integration modules with current statistics",
+      "milestones": ["MIL-NMP-003"],
+      "estimated_duration": "7 days",
+      "status": "Planned"
+    },
+    {
+      "phase_number": 3,
+      "phase_name": "Template Creation",
+      "description": "Create 21 individual output template files",
+      "milestones": ["MIL-004", "MIL-005"],
+      "estimated_duration": "10 days",
+      "status": "Planned"
+    },
+    {
+      "phase_number": 4,
+      "phase_name": "Documentation & Assembly",
+      "description": "Create usage docs, assembly scripts, and generate v5",
+      "milestones": ["MIL-006", "MIL-007"],
+      "estimated_duration": "5 days",
+      "status": "Planned"
+    },
+    {
+      "phase_number": 5,
+      "phase_name": "Validation & QA",
+      "description": "Validate all files, test assembly, finalize",
+      "milestones": ["MIL-008"],
+      "estimated_duration": "5 days",
+      "status": "Planned"
+    }
+  ],
+
+  "milestones": [
+    {
+      "milestone_id": "MIL-001",
+      "milestone_name": "Folder Structure Creation",
+      "phase": 1,
+      "description": "Create root folder, 5 main folders, and all README files",
+      "target_date": "2025-11-17",
+      "actual_date": null,
+      "status": "Planned",
+      "deliverables": ["DEL-001"],
+      "success_criteria": [
+        "All 5 folders created (00_Core, 01_Library_Integration, 02_Output_Templates, 03_Processing_Rules, 04_Usage)",
+        "Root README.md with assembly instructions created",
+        "Folder-specific README files created"
+      ]
+    },
+    {
+      "milestone_id": "MIL-002",
+      "milestone_name": "Core Modules Complete",
+      "phase": 1,
+      "description": "Create all 5 core module files with current data",
+      "target_date": "2025-11-18",
+      "actual_date": null,
+      "status": "Planned",
+      "deliverables": ["DEL-002"],
+      "success_criteria": [
+        "All 5 core files created",
+        "Employee directory current (32 employees)",
+        "Project directory current (31+ projects)",
+        "Company context accurate"
+      ]
+    },
+    {
+      "milestone_id": "MIL-NMP-003",
+      "milestone_name": "Library Integration Modules Complete",
+      "phase": 2,
+      "description": "Create 13 library integration files with current statistics from actual library files",
+      "target_date": "2025-11-25",
+      "actual_date": null,
+      "status": "Planned",
+      "deliverables": ["DEL-003"],
+      "success_criteria": [
+        "All 13 files created (12 libraries + taxonomy framework)",
+        "All statistics updated from actual library files",
+        "Recognition patterns documented",
+        "Cross-references validated",
+        "Examples use real entity IDs"
+      ]
+    },
+    {
+      "milestone_id": "MIL-004",
+      "milestone_name": "Output Templates Complete",
+      "phase": 3,
+      "description": "Create all 21 individual output template files plus README",
+      "target_date": "2025-12-04",
+      "actual_date": null,
+      "status": "Planned",
+      "deliverables": ["DEL-004"],
+      "success_criteria": [
+        "All 22 files created",
+        "Each template shows library integration",
+        "Realistic examples provided",
+        "Validation checklists included"
+      ]
+    },
+    {
+      "milestone_id": "MIL-005",
+      "milestone_name": "Processing Rules Complete",
+      "phase": 3,
+      "description": "Create 6 processing rule files for entity recognition",
+      "target_date": "2025-12-06",
+      "actual_date": null,
+      "status": "Planned",
+      "deliverables": ["DEL-005"],
+      "success_criteria": [
+        "All 6 files created",
+        "Recognition patterns comprehensive",
+        "Cross-reference rules validated"
+      ]
+    },
+    {
+      "milestone_id": "MIL-006",
+      "milestone_name": "Usage & Maintenance Docs Complete",
+      "phase": 4,
+      "description": "Create usage instructions, examples, changelog, migration guide",
+      "target_date": "2025-12-09",
+      "actual_date": null,
+      "status": "Planned",
+      "deliverables": ["DEL-006"],
+      "success_criteria": [
+        "All 7 files created",
+        "Changelog updated with v5 changes",
+        "Migration guide complete",
+        "Examples comprehensive"
+      ]
+    },
+    {
+      "milestone_id": "MIL-007",
+      "milestone_name": "Assembly System Complete",
+      "phase": 4,
+      "description": "Create Python assembly scripts and test generation",
+      "target_date": "2025-12-11",
+      "actual_date": null,
+      "status": "Planned",
+      "deliverables": ["DEL-007"],
+      "success_criteria": [
+        "All 4 scripts created",
+        "Scripts tested and working",
+        "Can generate monolithic version",
+        "Can generate department-specific versions"
+      ]
+    },
+    {
+      "milestone_id": "MIL-008",
+      "milestone_name": "Validation & QA Complete",
+      "phase": 5,
+      "description": "Final validation, statistics update, quality assurance",
+      "target_date": "2025-12-15",
+      "actual_date": null,
+      "status": "Planned",
+      "deliverables": ["DEL-008"],
+      "success_criteria": [
+        "All cross-references validated",
+        "Statistics verified against library files",
+        "Monolithic MAIN_PROMPT_v5.md generated",
+        "All quality checks passed",
+        "Project completion report generated"
+      ]
+    }
+  ],
+
+  "task_count": {
+    "total": 40,
+    "completed": 0,
+    "in_progress": 0,
+    "pending": 40
+  },
+
+  "risks": [
+    {
+      "risk_id": "RISK-001",
+      "description": "Library statistics may change during development",
+      "impact": "Medium",
+      "probability": "High",
+      "mitigation": "Final statistics update in validation phase"
+    },
+    {
+      "risk_id": "RISK-002",
+      "description": "Template structure changes from v4",
+      "impact": "Low",
+      "probability": "Low",
+      "mitigation": "Follow v4 structure closely, only enhance"
+    },
+    {
+      "risk_id": "RISK-003",
+      "description": "Assembly scripts may not work cross-platform",
+      "impact": "Medium",
+      "probability": "Medium",
+      "mitigation": "Test on Windows, provide alternative methods"
+    }
+  ],
+
+  "dependencies": [
+    {
+      "dependency_id": "DEP-001",
+      "description": "Access to all LIBRARIES entity files",
+      "type": "Data",
+      "status": "Available"
+    },
+    {
+      "dependency_id": "DEP-002",
+      "description": "MAIN_PROMPT_v4.md as source",
+      "type": "Document",
+      "status": "Available"
+    },
+    {
+      "dependency_id": "DEP-003",
+      "description": "Python environment for assembly scripts",
+      "type": "Technical",
+      "status": "To be verified"
+    }
+  ],
+
+  "success_metrics": {
+    "quantitative": [
+      "~50 files created across 5 folders",
+      "All 12 libraries integrated with current statistics",
+      "21 individual output templates created",
+      "100% of v4 functionality preserved",
+      "Assembly scripts generate valid markdown"
+    ],
+    "qualitative": [
+      "Modular structure improves maintainability",
+      "Documentation is comprehensive and clear",
+      "Examples are realistic and helpful",
+      "Migration from v4 is straightforward"
+    ]
+  },
+
+  "tools_used": [
+    {
+      "tool_name": "Claude Code",
+      "purpose": "AI assistant for file creation and organization",
+      "category": "AI Tools"
+    },
+    {
+      "tool_name": "Python",
+      "purpose": "Assembly scripts",
+      "category": "Development Tools"
+    },
+    {
+      "tool_name": "JSON",
+      "purpose": "Data structure for libraries",
+      "category": "Data Format"
+    },
+    {
+      "tool_name": "Markdown",
+      "purpose": "Documentation format",
+      "category": "Documentation"
+    }
+  ],
+
+  "related_projects": [
+    {
+      "project_id": "PROJ-AI-TAXONOMY",
+      "relationship": "Parent",
+      "description": "Overall taxonomy framework development"
+    }
+  ],
+
+  "tags": ["AI", "Prompt Engineering", "Documentation", "Automation", "Taxonomy", "Modular Architecture"],
+
+  "notes": "This project transforms the monolithic MAIN_PROMPT_v4 into a highly maintainable modular system. Focus on accuracy of library statistics and comprehensive integration examples.",
+
+  "version": "1.0",
+  "last_updated": "2025-11-15"
+}

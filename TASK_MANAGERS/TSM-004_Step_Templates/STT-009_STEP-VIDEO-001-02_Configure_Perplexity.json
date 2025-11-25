@@ -1,0 +1,37 @@
+{
+  "step_template_id": "Step-Template-009",
+  "step_template_name": "Configure Perplexity AI for Video Search",
+  "metadata": {
+    "status": "Active"
+  },
+  "parent_task": {
+    "task_id": "TASK-TEMPLATE-VIDEO-001",
+    "task_name": "Search and Score Videos Using 0-100 System"
+  },
+  "step_details": {
+    "step_number": 2,
+    "order": 2,
+    "action": "configure",
+    "detail": "Set Creativity to 0.5, enable Structure mode, disable Google Search, enable specific search features",
+    "expected_duration": 2
+  },
+  "execution": {
+    "tool_used": "Perplexity AI",
+    "inputs": [
+      "Perplexity AI account"
+    ],
+    "outputs": [
+      "Perplexity AI configured for optimal video search"
+    ],
+    "success_criteria": "Settings: Creativity 0.5, Structure ON, Google Search OFF"
+  },
+  "relationships": {
+    "dependencies": [
+      "STEP-VIDEO-001-01"
+    ],
+    "next_steps": [
+      "STEP-VIDEO-001-03"
+    ],
+    "parallel_steps": []
+  }
+}

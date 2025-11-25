@@ -1,0 +1,187 @@
+workflow_name: "Medium Long-Form Publishing"
+workflow_type: "Linear"
+workflow_id: "WF-SMM-009"
+department: "MARKETING"
+priority: "Medium"
+estimated_duration: "4-6 hours per article"
+status: "Active"
+
+description: |
+  Publish SEO-optimized cornerstone guides on Medium to drive organic traffic and establish thought leadership.
+  Comprehensive workflow for creating high-value long-form content that ranks and converts.
+
+steps:
+  - step_number: 1
+    name: "Research and Outline"
+    tool: "Google, Ahrefs, Medium search"
+    responsibility: "Research topic and create outline"
+    placement: "Research workspace"
+    duration: "60-90 minutes"
+    dependencies: []
+    inputs:
+      - "Topic idea and angle"
+      - "Target keywords"
+      - "Competitor article analysis"
+    outputs:
+      - "Keyword research completed"
+      - "Competitive analysis documented"
+      - "Comprehensive outline (2000+ words planned)"
+      - "Content structure defined"
+    success_criteria: "Clear outline addressing audience needs with SEO optimization"
+
+  - step_number: 2
+    name: "Write Article"
+    tool: "Medium editor, Google Docs"
+    responsibility: "Write comprehensive article"
+    placement: "Writing workspace"
+    duration: "2-3 hours"
+    dependencies: ["Step 1"]
+    inputs:
+      - "Outline from Step 1"
+      - "Research and data"
+      - "Writing templates"
+    outputs:
+      - "Comprehensive guide (2000-5000 words)"
+      - "Hook → Context → Value → CTA structure"
+      - "Clear sections with subheadings"
+      - "Actionable insights and examples"
+    success_criteria: "High-quality article that provides unique value and follows structure"
+
+  - step_number: 3
+    name: "Add Visual Elements"
+    tool: "Canva, Figma, screenshots"
+    responsibility: "Add visual elements"
+    placement: "Content editing workspace"
+    duration: "30-45 minutes"
+    dependencies: ["Step 2"]
+    inputs:
+      - "Written article from Step 2"
+      - "Visual assets and brand guidelines"
+      - "Data for charts/infographics"
+    outputs:
+      - "Featured image created"
+      - "Images/charts inserted every 300 words"
+      - "Screenshots and examples added"
+      - "Visual hierarchy improved"
+    success_criteria: "Visually engaging article with proper image optimization"
+
+  - step_number: 4
+    name: "Optimize SEO"
+    tool: "Medium editor, SEO tools"
+    responsibility: "Optimize article SEO"
+    placement: "Medium platform"
+    duration: "20-30 minutes"
+    dependencies: ["Step 2", "Step 3"]
+    inputs:
+      - "Target keywords from Step 1"
+      - "Completed article with visuals"
+      - "SEO best practices"
+    outputs:
+      - "SEO-optimized title (60 characters)"
+      - "Headers optimized with keywords"
+      - "Meta description (140 characters)"
+      - "Internal and external links added"
+      - "Tags selected (5 relevant tags)"
+    success_criteria: "Fully optimized article for search and Medium discovery"
+
+  - step_number: 5
+    name: "Submit to Publications"
+    tool: "Medium publications"
+    responsibility: "Submit to publications"
+    placement: "Medium platform"
+    duration: "10-15 minutes"
+    dependencies: ["Step 4"]
+    inputs:
+      - "Optimized article from Step 4"
+      - "List of relevant Medium publications"
+      - "Submission guidelines"
+    outputs:
+      - "Article submitted to 2-3 relevant publications"
+      - "Publication editors notified"
+      - "Alternative distribution plan if not accepted"
+    success_criteria: "Article submitted to publications for wider reach"
+
+  - step_number: 6
+    name: "Cross-Promote"
+    tool: "LinkedIn, Twitter, Newsletter"
+    responsibility: "Cross-promote article"
+    placement: "Multi-platform promotion"
+    duration: "20-30 minutes"
+    dependencies: ["Step 5"]
+    inputs:
+      - "Published Medium article link"
+      - "Key excerpts and quotes"
+      - "Social media accounts"
+    outputs:
+      - "Shared on LinkedIn with key excerpt"
+      - "Tweeted with thread of insights"
+      - "Newsletter feature (if applicable)"
+      - "Relevant communities notified"
+    success_criteria: "Article promoted across channels for maximum visibility"
+
+performance_metrics:
+  views: "Total article reads"
+  read_ratio: "Percentage who read to end (aim for >40%)"
+  fans: "Followers gained from article"
+  claps: "Medium engagement metric"
+  comments: "Discussion and feedback"
+  referral_traffic: "Clicks to external links"
+
+content_strategy:
+  posting_frequency: "1-2 cornerstone articles per month"
+  optimal_length: "2000-5000 words for comprehensive guides"
+  content_types: "How-to guides, industry analysis, case studies, opinion pieces"
+  publication_strategy: "Submit to relevant publications for wider reach"
+
+technical_specifications:
+  word_count: "2000-5000 words (comprehensive guides)"
+  featured_image: "1500×750px minimum"
+  in_article_images: "Every 300 words for readability"
+  format: "Headers, subheaders, bullet points, quotes"
+  links: "5-10 external links, internal links to own content"
+
+best_practices:
+  - "Start with compelling hook in first paragraph"
+  - "Use clear headers and subheaders (H2, H3)"
+  - "Add visuals every 300 words"
+  - "Include actionable takeaways"
+  - "Write conversational but authoritative tone"
+  - "Add pull quotes for emphasis"
+  - "Include clear CTA at end"
+  - "Use Medium's formatting tools effectively"
+  - "Submit to publications for distribution boost"
+  - "Cross-promote on other platforms"
+  - "Engage with comments and feedback"
+  - "Update and refresh evergreen content quarterly"
+
+medium_publications:
+  benefits: "Wider distribution, credibility, built-in audience"
+  submission_strategy: "Target publications in your niche"
+  follow_guidelines: "Each publication has submission requirements"
+  relationship_building: "Become regular contributor"
+
+seo_optimization:
+  title: "Keyword-first, under 60 characters"
+  headers: "Include keywords naturally in H2/H3"
+  meta_description: "Compelling summary under 140 characters"
+  tags: "Use all 5 tags - mix broad and niche"
+  internal_links: "Link to own Medium articles"
+  external_links: "Authoritative sources for credibility"
+
+automation_opportunities:
+  - "Template-based article structures"
+  - "SEO checklist automation"
+  - "Scheduled cross-platform promotion"
+  - "Analytics tracking and reporting"
+
+tags:
+  - publishing
+  - medium
+  - long_form
+  - seo
+  - thought_leadership
+  - content_marketing
+
+version: "1.0"
+created: "2025-11-13"
+last_updated: "2025-11-13"

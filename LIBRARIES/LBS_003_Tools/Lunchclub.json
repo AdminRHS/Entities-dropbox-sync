@@ -1,0 +1,85 @@
+{
+  "entity_type": "LIBRARIES",
+  "sub_entity": "Tool",
+  "tool_id": "TOOL-BIZ-003",
+  "tool_name": "Lunchclub",
+  "category": "Professional Networking Platform",
+  "description": "AI-powered networking platform that matches professionals for 1-on-1 video meetings based on goals and interests",
+  "primary_use": "Structured professional networking, making meaningful connections, and discovering opportunities through curated introductions",
+  "platform_type": "Networking and matchmaking platform",
+  "pricing": "Free (Premium features for enhanced matching)",
+  "created": "2025-11-14",
+  "updated": "2025-11-14",
+  "used_by_professions": [
+    "Marketer",
+    "Developer",
+    "Entrepreneur",
+    "Business_Consultant",
+    "Investor"
+  ],
+  "used_in_workflows": [],
+  "creates_objects": [],
+  "actions": [
+    "match",
+    "meet",
+    "network",
+    "connect",
+    "schedule",
+    "follow_up"
+  ],
+  "key_features": {
+    "ai_matching": "Algorithm matches based on goals and interests",
+    "video_meetings": "Structured 45-min 1-on-1 video calls",
+    "icebreakers": "Conversation starters provided",
+    "scheduling": "Integrated calendar scheduling",
+    "goals": "Set networking goals (hiring, fundraising, learning, etc.)",
+    "follow_up": "Post-meeting connection tools",
+    "communities": "Topic-based groups"
+  },
+  "best_practices": [
+    "Complete profile thoroughly (better matches)",
+    "Set clear networking goals",
+    "Show up to scheduled meetings (high show-up rate expected)",
+    "Be prepared with questions and value to offer",
+    "Follow up after meetings",
+    "Update availability regularly",
+    "Provide thoughtful feedback on matches",
+    "Be open to diverse connections",
+    "Block time for meetings (typically 45 min)",
+    "Connect on LinkedIn post-meeting"
+  ],
+  "common_use_cases": [
+    "Expanding professional network",
+    "Finding collaborators or partners",
+    "Learning from others in your field",
+    "Discovering job opportunities",
+    "Getting advice or mentorship",
+    "Finding clients or customers",
+    "Exploring new industries or roles",
+    "Serendipitous connections"
+  ],
+  "pros": [
+    "High-quality matches (curated)",
+    "Structured format (not random)",
+    "Warm introductions (not cold outreach)",
+    "Time-efficient (AI handles matching)",
+    "Video-first (builds stronger connections)",
+    "Professional community",
+    "Free to use"
+  ],
+  "cons": [
+    "Requires time commitment (45 min meetings)",
+    "Match quality varies",
+    "Smaller user base than LinkedIn",
+    "Video call requirement (some prefer async)",
+    "Limited control over matches",
+    "Meetings can feel transactional",
+    "Requires consistent availability"
+  ],
+  "demographics": {
+    "primary_age": "25-45 (professionals mid-career)",
+    "profession": "Entrepreneurs, tech workers, executives, investors",
+    "geographic": "US-heavy, growing globally"
+  },
+  "source": "SMM_Research_Document_3_EU_Creative_Professionals"
+}

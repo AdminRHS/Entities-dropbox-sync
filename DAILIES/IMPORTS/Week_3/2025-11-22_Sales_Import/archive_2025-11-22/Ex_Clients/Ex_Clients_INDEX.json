@@ -1,0 +1,36 @@
+{
+  "sub_entity_type": "Ex_Clients",
+  "total_count": 2,
+  "last_updated": "2025-11-21 23:25:25",
+  "entities": [
+    {
+      "company_id": "BUS-2025-023",
+      "company_name": "Global Wind Service",
+      "status": "Reengagement_Queue",
+      "industry": "Unknown",
+      "account_manager": "Unknown",
+      "relationship_health": "Weak",
+      "tags": [
+        "follow_up_needed",
+        "reengagement",
+        "needs_followup"
+      ],
+      "file_path": "Ex_Clients/BUSINESSES_Ex_Client_Global_Wind_Service_BUS-2025-023.json"
+    },
+    {
+      "company_id": "BUS-2025-024",
+      "company_name": "Amastar",
+      "status": "Reengagement_Queue",
+      "industry": "Unknown",
+      "account_manager": "Kovalska_Anastasiya",
+      "relationship_health": "Weak",
+      "tags": [
+        "dormant",
+        "anastasia_portfolio",
+        "reengagement",
+        "needs_followup"
+      ],
+      "file_path": "Ex_Clients/BUSINESSES_Ex_Client_Amastar_BUS-2025-024.json"
+    }
+  ]
+}

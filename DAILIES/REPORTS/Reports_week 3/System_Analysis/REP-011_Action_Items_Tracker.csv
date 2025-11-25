@@ -1,0 +1,26 @@
+ID,Category,Priority,Action Item,Description,Effort (Hours),Impact,Status,Owner,Due Date,Related Report,Data Source
+AI-001,Terminology,P0 - Critical,Replace generic "id" fields,Replace all generic "id" with "{entity}_template_id" pattern across 29062 instances,4,HIGH,Pending,TBD,2025-12-01,REP-010,json_field_names.json
+AI-002,Terminology,P0 - Critical,Replace generic "name" fields,Replace all generic "name" with "{entity}_template_name" pattern across 14595 instances,3,HIGH,Pending,TBD,2025-12-01,REP-010,json_field_names.json
+AI-003,Terminology,P0 - Critical,Fix top 10 case variations,Standardize case for stepID/taskName/milestoneId and 7 other common variations (205 total patterns),6,HIGH,Pending,TBD,2025-12-01,REP-010,redundant_terms_full.json
+AI-004,Schema,P0 - Critical,Fix project template schemas,Add project_template_id and template_name to 4 project template files,1,HIGH,Pending,TBD,2025-11-24,REP-003,schema_violations.json
+AI-005,Schema,P0 - Critical,Fix task template schemas,Add task_template_id and task_template_name to 34 task template files,4,HIGH,Pending,TBD,2025-12-08,REP-003,schema_violations.json
+AI-006,Schema,P1 - High,Add category field to tasks,Add missing category field to 34 task template files,2,MEDIUM,Pending,TBD,2025-12-15,REP-003,schema_violations.json
+AI-007,Cross-References,P1 - High,Create missing step templates (Phase 1),Create step templates for active projects first (estimated 20 templates),6,HIGH,Pending,TBD,2026-01-15,REP-007,broken_references.json
+AI-008,Cross-References,P2 - Medium,Create missing step templates (Phase 2),Create step templates for frequently-used tasks (estimated 20 templates),6,MEDIUM,Pending,TBD,2026-02-15,REP-007,broken_references.json
+AI-009,Cross-References,P2 - Medium,Create missing step templates (Phase 3),Create remaining step templates as needed (estimated 16 templates),4,MEDIUM,Pending,TBD,2026-03-15,REP-007,broken_references.json
+AI-010,Terminology,P1 - High,Expand abbreviations,Replace desc→description dept→department templ→template cat→category ref→reference (~103 instances),2,MEDIUM,Pending,TBD,2025-12-15,REP-010,terminology_dictionary.json
+AI-011,Terminology,P1 - High,Fix separator variations,Standardize separators: underscores for JSON hyphens for IDs (199 patterns),4,MEDIUM,Pending,TBD,2025-12-15,REP-010,redundant_terms_full.json
+AI-012,Documentation,P2 - Medium,Standardize Markdown headings,Apply standard section structure to template documentation (688 MD files),8,LOW,Pending,TBD,2026-01-31,REP-010,markdown_headings.json
+AI-013,Automation,P0 - Critical,Implement terminology linter,Create pre-commit hook to validate field naming conventions and prevent regressions,16,HIGH,Pending,TBD,2026-01-31,REP-010,REP-006
+AI-014,Automation,P1 - High,Create controlled vocabulary,Document approved and forbidden terms in controlled_vocabulary.json,12,MEDIUM,Pending,TBD,2026-01-15,REP-010,terminology_dictionary.json
+AI-015,Validation,P1 - High,Implement reference validation,Create pre-commit hook to validate cross-references before commits,8,HIGH,Pending,TBD,2026-01-31,REP-007,reference_map.json
+AI-016,Validation,P1 - High,Implement schema validation,Create pre-commit hook to validate required/recommended fields,6,HIGH,Pending,TBD,2026-01-31,REP-003,schema_violations.json
+AI-017,Schema,P2 - Medium,Fix step template schemas,Add step_template_id and step_template_name to 62 step template files,8,MEDIUM,Pending,TBD,2026-02-28,REP-003,schema_violations.json
+AI-018,Schema,P2 - Medium,Add recommended fields,Add description version created last_updated to all templates,8,LOW,Pending,TBD,2026-03-31,REP-003,field_usage_stats.json
+AI-019,Documentation,P2 - Medium,Update schema documentation,Revise schema files to reflect standardized terminology and patterns,4,MEDIUM,Pending,TBD,2026-01-15,REP-006,All schemas
+AI-020,Cleanup,P2 - Medium,Exclude Listing files from validation,Move or rename Listing.json files to prevent false-positive schema violations,1,LOW,Pending,TBD,2025-12-01,REP-003,schema_violations.json
+AI-021,Cleanup,P3 - Low,Archive deprecated templates,Move DEPRECATED templates to _Archive folder,1,LOW,Pending,TBD,2026-02-28,REP-001,file_distribution.json
+AI-022,Index,P2 - Medium,Validate index file accuracy,Check that all index files list current templates accurately,4,MEDIUM,Pending,TBD,2026-02-15,REP-007,index_files.json
+AI-023,Automation,P1 - High,Create step template stub generator,Automate creation of step template stubs from task template references,4,MEDIUM,Pending,TBD,2025-12-31,REP-007,broken_references.json
+AI-024,Reporting,P2 - Medium,Schedule quarterly audits,Set up automated quarterly runs of all analysis milestones,8,MEDIUM,Pending,TBD,2026-03-31,REP-012,All reports
+AI-025,Checklist,P3 - Low,Analyze Checklist_Items,Run full analysis on Checklist_Items entity (not yet analyzed),2,LOW,Pending,TBD,2026-02-28,REP-002,Checklist_Items folder

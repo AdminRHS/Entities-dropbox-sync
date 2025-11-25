@@ -1,0 +1,40 @@
+{
+  "tool_id": "TOOL-DESIGN-001",
+  "tool_name": "Figma",
+  "tool_category": "Design",
+  "description": "Collaborative design platform for creating UI mockups, prototypes, and exporting design assets",
+  "skills_count": 2,
+  "last_updated": "2025-11-22",
+  "skills": [
+    {
+      "skill_id": "SKL-020",
+      "skill_phrase": "created UI mockups in Figma",
+      "components": {
+        "action": "create",
+        "object": "UI mockups",
+        "tool": "Figma"
+      },
+      "department": "Design",
+      "professions": ["ui/ux designer", "graphic designer"],
+      "difficulty_level": "intermediate",
+      "frequency": "daily",
+      "time_estimate_minutes": 120,
+      "automation_potential": "medium"
+    },
+    {
+      "skill_id": "SKL-022",
+      "skill_phrase": "exported design files from Figma",
+      "components": {
+        "action": "export",
+        "object": "design files",
+        "tool": "Figma"
+      },
+      "department": "Design",
+      "professions": ["ui/ux designer", "graphic designer"],
+      "difficulty_level": "beginner",
+      "frequency": "daily",
+      "time_estimate_minutes": 10,
+      "automation_potential": "low"
+    }
+  ]
+}

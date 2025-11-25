@@ -1,0 +1,30 @@
+{
+  "entity_type": "TASK_MANAGERS",
+  "sub_entity": "Step_Template",
+  "step_id": "VIDEO-VIDEO-001-07",
+  "step_number": 7,
+  "parent_task": "TASK-TEMPLATE-VIDEO-001",
+  "task_name": "Create Multi-Scene Product Commercial",
+  "name": "Generate Scene 1 video",
+  "action": "generate",
+  "tool": "TOOL-AI-051 (Google Veo 3.1)",
+  "responsibility": "Google Veo 3.1 (automated)",
+  "placement": "OpenArt - Processing",
+  "duration": "5-10 minutes (automated)",
+  "dependencies": [6],
+  "inputs": [
+    "Start frame",
+    "End frame",
+    "Camera prompt"
+  ],
+  "outputs": [
+    "Scene 1 video (5-15 seconds)"
+  ],
+  "success_criteria": "Video seamlessly transitions from start to end frame with smooth camera movements",
+  "implementation_notes": "Google Veo 3.1 automatically processes the generation based on your frames and prompt. Wait for processing to complete (typically 5-10 minutes).",
+  "tags": ["video-generation", "automated-processing", "scene-creation"],
+  "version": "1.0",
+  "created": "2025-11-15",
+  "last_updated": "2025-11-15",
+  "source": "Video_012"
+}

@@ -1,0 +1,130 @@
+{
+  "entity_type": "TASK_MANAGERS",
+  "sub_entity": "Workflow",
+  "workflow_id": "WRF-021",
+  "meta_category": "TSM-006",
+  "name": "Create Social Media Caption",
+  "legacy_id": "Create_Social_Media_Caption_Workflow",
+  "objective": "Generate a creative and engaging social media caption for an event announcement using AI",
+  "description": "A streamlined workflow for creating event-based social media captions using Google AI Studio. Utilizes AI model temperature control for creative output and generates multiple caption variants with hashtags for selection.",
+  "department": ["SMM", "MKT"],
+  "complexity": "Low",
+  "duration_estimate": "1-2 minutes",
+  "time_saved": "Eliminates 10-15 minutes of manual copywriting and ideation",
+  "skills_required": [
+    "Prompt Engineering",
+    "Social Media Writing",
+    "Event Marketing"
+  ],
+  "tools_required": [
+    {
+      "tool_id": "TOOL-AI-222",
+      "tool_name": "Google AI Studio",
+      "purpose": "AI caption generation"
+    }
+  ],
+  "tasks": [
+    {
+      "task_id": "TSK-001",
+      "task_name": "Define prompt with event details",
+      "description": "Specify event name, artist/speaker, date, time, and location in prompt",
+      "order": 1,
+      "estimated_time": "30 seconds"
+    },
+    {
+      "task_id": "TSK-002",
+      "task_name": "Adjust AI model settings",
+      "description": "Set temperature to 0.9 for more creative output",
+      "order": 2,
+      "estimated_time": "10 seconds"
+    },
+    {
+      "task_id": "TSK-003",
+      "task_name": "Generate caption options",
+      "description": "Run the prompt to get multiple caption variants with hashtags",
+      "order": 3,
+      "estimated_time": "15-30 seconds"
+    },
+    {
+      "task_id": "TSK-004",
+      "task_name": "Select and refine caption",
+      "description": "Choose the best option for the social media post and make minor edits if needed",
+      "order": 4,
+      "estimated_time": "30-45 seconds"
+    }
+  ],
+  "actions": ["Write", "Generate", "Adjust", "Select", "Refine"],
+  "objects_created": [
+    {
+      "object_type": "Social Media Caption",
+      "description": "Event announcement caption with hashtags"
+    }
+  ],
+  "entry_criteria": [
+    "Event details available (name, date, time, location, artist/speaker)",
+    "Access to Google AI Studio",
+    "Understanding of target audience and brand voice"
+  ],
+  "exit_criteria": [
+    "Final social media caption selected",
+    "Caption aligns with brand voice and event tone",
+    "Hashtags included and relevant"
+  ],
+  "use_cases": [
+    "Art exhibition opening announcements",
+    "Concert and performance promotions",
+    "Conference and webinar marketing",
+    "Product launch events",
+    "Community gatherings and meetups"
+  ],
+  "typical_inputs": [
+    "Event name",
+    "Artist/Speaker name",
+    "Date and time",
+    "Venue/Location",
+    "Event type/theme",
+    "Target audience"
+  ],
+  "typical_outputs": [
+    "Multiple caption variants (3-5 options)",
+    "Relevant hashtags (#eventname, #location, #industry)",
+    "Tone-appropriate copy (elegant, casual, professional, etc.)"
+  ],
+  "best_practices": [
+    "Include all essential event details in the prompt",
+    "Specify desired tone and style (elegant, casual, energetic, etc.)",
+    "Set temperature to 0.7-0.9 for creative captions",
+    "Generate multiple options to compare",
+    "Review for brand voice alignment before posting"
+  ],
+  "common_pitfalls": [
+    "Missing critical event details (date, time, location)",
+    "Not specifying tone, resulting in generic output",
+    "Using temperature too low (<0.5), limiting creativity",
+    "Not reviewing for accuracy before posting"
+  ],
+  "integration_with_other_workflows": [
+    "WRF-003: Can be combined with video generation for event visuals",
+    "Instagram/Facebook posting workflows (cross-platform distribution)"
+  ],
+  "tags": [
+    "social-media",
+    "content-creation",
+    "event-marketing",
+    "copywriting",
+    "ai-generation",
+    "google-ai-studio",
+    "caption-writing"
+  ],
+  "discovery_source": "Video_023",
+  "video_source": {
+    "video_id": "Video_023",
+    "video_title": "Google AI Studio Full Walkthrough and Tutorial",
+    "creator": "AI for Grownups",
+    "timestamp": "07:25-08:24"
+  },
+  "status": "active",
+  "version": "1.0",
+  "created_date": "2025-11-24",
+  "last_updated": "2025-11-24"
+}

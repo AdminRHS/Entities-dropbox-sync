@@ -1,0 +1,178 @@
+{
+  "department_id": 1,
+  "department_code": "AI",
+  "last_updated": "2025-11-25",
+  "source_file": "Overview/AI_Department_Deep_Analysis.md",
+  
+  "task_managers_path": "ENTITIES/TASK_MANAGERS",
+  
+  "task_templates": {
+    "listing_file": "ENTITIES/TASK_MANAGERS/Task_Templates/Listing.json",
+    "department_folder": "ENTITIES/TASK_MANAGERS/Task_Templates/AI/",
+    "total_templates": 13,
+    "template_ids": [
+      "TASK-AI-001",
+      "TASK-AI-002",
+      "TASK-AI-003",
+      "TASK-AI-004",
+      "TASK-AI-005",
+      "TASK-AI-006",
+      "TASK-AI-008",
+      "TASK-AI-009",
+      "TASK-AI-010",
+      "TASK-AI-011",
+      "TASK-AI-012",
+      "TASK-AI-013",
+      "TASK-AI-014"
+    ],
+    "summary": {
+      "by_complexity": {
+        "low": 0,
+        "medium": 13,
+        "high": 0
+      },
+      "by_status": {
+        "active": 13,
+        "archived": 0
+      },
+      "total_estimated_hours": 195.0,
+      "average_steps_per_task": 7.5
+    }
+  },
+  
+  "step_templates": {
+    "listing_file": "ENTITIES/TASK_MANAGERS/Step_Templates/Listing.json",
+    "department_folder": "ENTITIES/TASK_MANAGERS/Step_Templates/AI/",
+    "total_steps": 75,
+    "summary": {
+      "by_task": {
+        "TASK-AI-001": 10,
+        "TASK-AI-002": 5,
+        "TASK-AI-003": 8,
+        "TASK-AI-004": 6,
+        "TASK-AI-005": 7,
+        "TASK-AI-006": 5,
+        "TASK-AI-008": 6,
+        "TASK-AI-009": 7,
+        "TASK-AI-010": 5,
+        "TASK-AI-011": 4,
+        "TASK-AI-012": 4,
+        "TASK-AI-013": 4,
+        "TASK-AI-014": 5
+      },
+      "total_steps": 75
+    }
+  },
+  
+  "project_templates": {
+    "department_folder": "ENTITIES/TASK_MANAGERS/Project_Templates/",
+    "templates": [
+      {
+        "id": "TEMPLATE-PROJ-AI-002",
+        "name": "AI Tutorial Research Pipeline",
+        "file": "ENTITIES/TASK_MANAGERS/Project_Templates/TEMPLATE-PROJ-AI-002.json",
+        "total_tasks": 10,
+        "total_phases": 9,
+        "total_milestones": 3
+      }
+    ],
+    "total_templates": 1
+  },
+  
+  "workflows": {
+    "department_folder": "ENTITIES/TASK_MANAGERS/Workflows/",
+    "workflow_files": [],
+    "total_workflows": 0,
+    "note": "AI department workflows are primarily automation-based (n8n, GitHub Actions) rather than Linear workflow definitions"
+  },
+  
+  "milestone_templates": {
+    "department_folder": "ENTITIES/TASK_MANAGERS/Milestone_Templates/",
+    "templates": [],
+    "total_templates": 0
+  },
+  
+  "workflow_patterns": {
+    "daily_documentation_workflow": {
+      "type": "mandatory_system",
+      "description": "Three-file system: daily.md, plans.md, task.md",
+      "frequency": "daily",
+      "compliance_check": {
+        "enabled": true,
+        "time": "11:00 AM",
+        "workflow": "n8n automation",
+        "penalty": "yellow_card",
+        "max_per_month": 3
+      }
+    },
+    "ai_assisted_documentation": {
+      "type": "automated",
+      "description": "Whisper Flow → daily.md → AI processing → plans.md → task.md",
+      "tools": ["Whisper Flow", "VS Code + Claude Code extension", "Cursor IDE", "Claude AI", "ChatGPT"]
+    },
+    "video_transcript_processing": {
+      "type": "4_step_process",
+      "description": "Task-driven video discovery → Transcription → AI Processing → Library Population",
+      "steps": [
+        "Step 0: Task-Driven Video Discovery (Perplexity search)",
+        "Step 1: Transcription (Google AI Studio, Transcribe AI)",
+        "Step 2: AI Processing with specialized prompts",
+        "Step 3: Tool Data Collection",
+        "Step 4: Library Population"
+      ]
+    },
+    "automation_workflows": {
+      "github_actions": {
+        "description": "Employee profile synchronization automation",
+        "frequency": "Daily at 8:00 AM",
+        "coverage": "44 employees"
+      },
+      "n8n_workflows": {
+        "description": "AI Controller for yellow card system",
+        "frequency": "Daily at 11:00 AM",
+        "features": ["Daily file checking", "Discord notifications", "Dashboard API integration", "Fuzzy matching employee identification"]
+      }
+    }
+  },
+  
+  "file_system_structure": {
+    "pattern": "Week_X/DD/",
+    "status": "implemented",
+    "adoption_rate": "100%",
+    "three_file_system": {
+      "enabled": true,
+      "files": [
+        {
+          "name": "daily.md",
+          "purpose": "Daily activity log with timestamps and transcripts",
+          "required": true
+        },
+        {
+          "name": "plans.md",
+          "purpose": "Strategic next-day plan generated from daily.md",
+          "required": true
+        },
+        {
+          "name": "task.md",
+          "purpose": "Detailed actionable steps with links and resources",
+          "required": true
+        }
+      ]
+    }
+  },
+  
+  "quality_control": {
+    "yellow_card_system": {
+      "enabled": true,
+      "max_cards_per_month": 3,
+      "reset_date": "1st of each month",
+      "violations": [
+        "incomplete/missing daily.md",
+        "no plans/tasks",
+        "wrong location",
+        "missing transcripts"
+      ]
+    }
+  }
+}
+

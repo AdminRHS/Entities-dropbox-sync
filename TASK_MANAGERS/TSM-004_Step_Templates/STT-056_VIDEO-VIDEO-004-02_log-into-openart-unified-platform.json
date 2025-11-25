@@ -1,0 +1,31 @@
+{
+  "entity_type": "TASK_MANAGERS",
+  "sub_entity": "Step_Template",
+  "step_id": "VIDEO-VIDEO-004-02",
+  "step_number": 2,
+  "parent_task": "TASK-TEMPLATE-VIDEO-004",
+  "task_name": "Master Unified Platform Workflow for Video Generation",
+  "name": "Log into OpenArt unified platform",
+  "action": "login",
+  "tool": "TOOL-AI-052 (OpenArt)",
+  "responsibility": "Video Producer",
+  "placement": "OpenArt platform",
+  "duration": "30 seconds",
+  "dependencies": [],
+  "inputs": [
+    "OpenArt credentials"
+  ],
+  "outputs": [
+    "Logged into OpenArt with access to Image and Video sections"
+  ],
+  "success_criteria": "Platform loaded, credits visible",
+  "implementation_notes": "Platform loaded, credits visible - Implementation details based on the Master Unified Platform Workflow for Video Generation workflow.",
+  "tags": [
+    "log",
+    "template-task-video-004"
+  ],
+  "version": "1.0",
+  "created": "2025-11-15",
+  "last_updated": "2025-11-15",
+  "source": "Video_012"
+}

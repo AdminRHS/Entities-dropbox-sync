@@ -1,0 +1,1986 @@
+[
+    {
+        "file": "C:\\Users\\Dell\\Dropbox\\Taxonomy\\Entities\\TASK_MANAGERS\\Task_Templates\\Airscale_Employee_Enrichment.json",
+        "task_id": "TEMPLATE-TASK-015",
+        "task_level_mapping": {
+            "action": "Enrich",
+            "object": "Company Employees",
+            "responsibility_id": "RESP-LG-013",
+            "responsibility_name": "enrich company employees"
+        },
+        "step_mappings": [
+            {
+                "step_number": 1,
+                "action": "prepare",
+                "responsibility_id": "RESP-LG-014"
+            },
+            {
+                "step_number": 2,
+                "action": "search",
+                "responsibility_id": "RESP-LG-007"
+            },
+            {
+                "step_number": 3,
+                "action": "review",
+                "responsibility_id": "RESP-LG-015"
+            },
+            {
+                "step_number": 4,
+                "action": "unlock",
+                "responsibility_id": "RESP-LG-016"
+            },
+            {
+                "step_number": 5,
+                "action": "export",
+                "responsibility_id": "RESP-LG-008"
+            },
+            {
+                "step_number": 6,
+                "action": "upload",
+                "responsibility_id": "RESP-LG-017"
+            },
+            {
+                "step_number": 7,
+                "action": "enrich",
+                "responsibility_id": "RESP-LG-001"
+            },
+            {
+                "step_number": 8,
+                "action": "export",
+                "responsibility_id": "RESP-LG-009"
+            }
+        ]
+    },
+    {
+        "file": "C:\\Users\\Dell\\Dropbox\\Taxonomy\\Entities\\TASK_MANAGERS\\Task_Templates\\AI_Powered_HTML_Parsing.json",
+        "task_id": "TEMPLATE-TASK-014",
+        "task_level_mapping": {
+            "action": "Parse",
+            "object": "HTML Data",
+            "responsibility_id": "RESP-DEV-002",
+            "responsibility_name": "parse data"
+        },
+        "step_mappings": [
+            {
+                "step_number": 1,
+                "action": "identify",
+                "responsibility_id": "RESP-DEV-003"
+            },
+            {
+                "step_number": 2,
+                "action": "scrape",
+                "responsibility_id": "RESP-DEV-004"
+            },
+            {
+                "step_number": 3,
+                "action": "design",
+                "responsibility_id": "RESP-DEV-005"
+            },
+            {
+                "step_number": 4,
+                "action": "build",
+                "responsibility_id": "RESP-DEV-006"
+            },
+            {
+                "step_number": 5,
+                "action": "configure",
+                "responsibility_id": "RESP-DEV-007"
+            },
+            {
+                "step_number": 6,
+                "action": "test",
+                "responsibility_id": "RESP-DEV-008"
+            },
+            {
+                "step_number": 7,
+                "action": "build",
+                "responsibility_id": "RESP-DEV-001"
+            },
+            {
+                "step_number": 8,
+                "action": "execute",
+                "responsibility_id": "RESP-DEV-009"
+            },
+            {
+                "step_number": 9,
+                "action": "export",
+                "responsibility_id": "RESP-DEV-010"
+            }
+        ]
+    },
+    {
+        "file": "C:\\Users\\Dell\\Dropbox\\Taxonomy\\Entities\\TASK_MANAGERS\\Task_Templates\\Anymailfinder_Nominative_Enrichment.json",
+        "task_id": "TEMPLATE-TASK-003",
+        "task_level_mapping": {
+            "action": "Enrich",
+            "object": "Lead List",
+            "responsibility_id": "RESP-LG-010",
+            "responsibility_name": "enrich leads"
+        },
+        "step_mappings": [
+            {
+                "step_number": 1,
+                "action": "prepare",
+                "responsibility_id": "RESP-LG-003"
+            },
+            {
+                "step_number": 2,
+                "action": "upload",
+                "responsibility_id": "RESP-LG-002"
+            },
+            {
+                "step_number": 3,
+                "action": "configure",
+                "responsibility_id": "RESP-LG-018"
+            },
+            {
+                "step_number": 4,
+                "action": "execute",
+                "responsibility_id": "RESP-LG-019"
+            },
+            {
+                "step_number": 5,
+                "action": "export",
+                "responsibility_id": "RESP-LG-005"
+            },
+            {
+                "step_number": 6,
+                "action": "log",
+                "responsibility_id": "RESP-LG-020"
+            }
+        ]
+    },
+    {
+        "file": "C:\\Users\\Dell\\Dropbox\\Taxonomy\\Entities\\TASK_MANAGERS\\Task_Templates\\Automate_Morning_Email_Drafting.json",
+        "task_id": "TEMPLATE-TASK-007",
+        "task_level_mapping": {
+            "action": "Automate",
+            "object": "Email Drafts",
+            "responsibility_id": "RESP-OPS-004",
+            "responsibility_name": "automate emails"
+        },
+        "step_mappings": [
+            {
+                "step_number": 1,
+                "action": "open",
+                "responsibility_id": "RESP-OPS-005"
+            },
+            {
+                "step_number": 2,
+                "action": "prompt",
+                "responsibility_id": "RESP-OPS-002"
+            },
+            {
+                "step_number": 3,
+                "action": "read",
+                "responsibility_id": "RESP-OPS-006"
+            },
+            {
+                "step_number": 4,
+                "action": "analyze",
+                "responsibility_id": "RESP-OPS-007"
+            },
+            {
+                "step_number": 5,
+                "action": "generate",
+                "responsibility_id": "RESP-OPS-008"
+            },
+            {
+                "step_number": 6,
+                "action": "review",
+                "responsibility_id": "RESP-OPS-001"
+            },
+            {
+                "step_number": 7,
+                "action": "send",
+                "responsibility_id": "RESP-OPS-009"
+            }
+        ]
+    },
+    {
+        "file": "C:\\Users\\Dell\\Dropbox\\Taxonomy\\Entities\\TASK_MANAGERS\\Task_Templates\\Bright_Data_Email_Enrichment.json",
+        "task_id": "TEMPLATE-TASK-018",
+        "task_level_mapping": {
+            "action": "Enrich",
+            "object": "Email List",
+            "responsibility_id": "RESP-LG-001",
+            "responsibility_name": "enrich emails"
+        },
+        "step_mappings": [
+            {
+                "step_number": 1,
+                "action": "prepare",
+                "responsibility_id": "RESP-LG-003"
+            },
+            {
+                "step_number": 2,
+                "action": "upload",
+                "responsibility_id": "RESP-LG-002"
+            },
+            {
+                "step_number": 3,
+                "action": "configure",
+                "responsibility_id": "RESP-LG-021"
+            },
+            {
+                "step_number": 4,
+                "action": "execute",
+                "responsibility_id": "RESP-LG-011"
+            },
+            {
+                "step_number": 5,
+                "action": "export",
+                "responsibility_id": "RESP-LG-005"
+            },
+            {
+                "step_number": 6,
+                "action": "log",
+                "responsibility_id": "RESP-LG-006"
+            }
+        ]
+    },
+    {
+        "file": "C:\\Users\\Dell\\Dropbox\\Taxonomy\\Entities\\TASK_MANAGERS\\Task_Templates\\Create_Job_Posting_Template.json",
+        "task_id": "TEMPLATE-TASK-001",
+        "task_level_mapping": {
+            "action": "Create",
+            "object": "Job Posting",
+            "responsibility_id": "RESP-HR-001",
+            "responsibility_name": "create job posting"
+        },
+        "step_mappings": []
+    },
+    {
+        "file": "C:\\Users\\Dell\\Dropbox\\Taxonomy\\Entities\\TASK_MANAGERS\\Task_Templates\\Create_MCP_Connector.json",
+        "task_id": "TEMPLATE-TASK-006",
+        "task_level_mapping": {
+            "action": "Generate",
+            "object": "MCP Connector",
+            "responsibility_id": "RESP-DEV-011",
+            "responsibility_name": "generate mcp connector"
+        },
+        "step_mappings": [
+            {
+                "step_number": 1,
+                "action": "enable",
+                "responsibility_id": "RESP-DEV-012"
+            },
+            {
+                "step_number": 2,
+                "action": "write",
+                "responsibility_id": "RESP-DEV-013"
+            },
+            {
+                "step_number": 3,
+                "action": "submit",
+                "responsibility_id": "RESP-DEV-014"
+            },
+            {
+                "step_number": 4,
+                "action": "wait",
+                "responsibility_id": "RESP-DEV-015"
+            },
+            {
+                "step_number": 5,
+                "action": "review",
+                "responsibility_id": "RESP-DEV-016"
+            },
+            {
+                "step_number": 6,
+                "action": "copy",
+                "responsibility_id": "RESP-DEV-017"
+            }
+        ]
+    },
+    {
+        "file": "C:\\Users\\Dell\\Dropbox\\Taxonomy\\Entities\\TASK_MANAGERS\\Task_Templates\\Custom_Niche_Platform_Scraping.json",
+        "task_id": "TEMPLATE-TASK-011",
+        "task_level_mapping": {
+            "action": "Build",
+            "object": "Custom Scraper",
+            "responsibility_id": "RESP-LG-022",
+            "responsibility_name": "build custom scraper"
+        },
+        "step_mappings": [
+            {
+                "step_number": 1,
+                "action": "research",
+                "responsibility_id": "RESP-LG-023"
+            },
+            {
+                "step_number": 2,
+                "action": "analyze",
+                "responsibility_id": "RESP-LG-024"
+            },
+            {
+                "step_number": 3,
+                "action": "design",
+                "responsibility_id": "RESP-LG-025"
+            },
+            {
+                "step_number": 4,
+                "action": "build",
+                "responsibility_id": "RESP-LG-026"
+            },
+            {
+                "step_number": 5,
+                "action": "build",
+                "responsibility_id": "RESP-DEV-001"
+            },
+            {
+                "step_number": 6,
+                "action": "test",
+                "responsibility_id": "RESP-LG-027"
+            },
+            {
+                "step_number": 7,
+                "action": "execute",
+                "responsibility_id": "RESP-LG-028"
+            },
+            {
+                "step_number": 8,
+                "action": "enrich",
+                "responsibility_id": "RESP-LG-010"
+            },
+            {
+                "step_number": 9,
+                "action": "document",
+                "responsibility_id": "RESP-LG-029"
+            }
+        ]
+    },
+    {
+        "file": "C:\\Users\\Dell\\Dropbox\\Taxonomy\\Entities\\TASK_MANAGERS\\Task_Templates\\Deploy_MCP_Connector_Locally.json",
+        "task_id": "TEMPLATE-TASK-010",
+        "task_level_mapping": {
+            "action": "Deploy",
+            "object": "MCP Connector",
+            "responsibility_id": "RESP-DEV-018",
+            "responsibility_name": "deploy mcp connector"
+        },
+        "step_mappings": [
+            {
+                "step_number": 1,
+                "action": "copy",
+                "responsibility_id": "RESP-DEV-019"
+            },
+            {
+                "step_number": 2,
+                "action": "open",
+                "responsibility_id": "RESP-DEV-020"
+            },
+            {
+                "step_number": 3,
+                "action": "prompt",
+                "responsibility_id": "RESP-DEV-021"
+            },
+            {
+                "step_number": 4,
+                "action": "install",
+                "responsibility_id": "RESP-DEV-022"
+            },
+            {
+                "step_number": 5,
+                "action": "configure",
+                "responsibility_id": "RESP-DEV-023"
+            },
+            {
+                "step_number": 6,
+                "action": "test",
+                "responsibility_id": "RESP-DEV-024"
+            },
+            {
+                "step_number": 7,
+                "action": "configure",
+                "responsibility_id": "RESP-DEV-025"
+            },
+            {
+                "step_number": 8,
+                "action": "verify",
+                "responsibility_id": "RESP-DEV-026"
+            }
+        ]
+    },
+    {
+        "file": "C:\\Users\\Dell\\Dropbox\\Taxonomy\\Entities\\TASK_MANAGERS\\Task_Templates\\Enable_Claude_Skills_Feature.json",
+        "task_id": "TEMPLATE-TASK-013",
+        "task_level_mapping": {
+            "action": "Enable",
+            "object": "Claude Skills",
+            "responsibility_id": "RESP-DEV-027",
+            "responsibility_name": "enable claude skills"
+        },
+        "step_mappings": [
+            {
+                "step_number": 1,
+                "action": "open",
+                "responsibility_id": "RESP-DEV-028"
+            },
+            {
+                "step_number": 2,
+                "action": "navigate",
+                "responsibility_id": "RESP-DEV-029"
+            },
+            {
+                "step_number": 3,
+                "action": "locate",
+                "responsibility_id": "RESP-DEV-030"
+            },
+            {
+                "step_number": 4,
+                "action": "enable",
+                "responsibility_id": "RESP-DEV-031"
+            },
+            {
+                "step_number": 5,
+                "action": "verify",
+                "responsibility_id": "RESP-DEV-032"
+            },
+            {
+                "step_number": 6,
+                "action": "test",
+                "responsibility_id": "RESP-DEV-033"
+            }
+        ]
+    },
+    {
+        "file": "C:\\Users\\Dell\\Dropbox\\Taxonomy\\Entities\\TASK_MANAGERS\\Task_Templates\\Enterprise_Email_Arbitrage.json",
+        "task_id": "TEMPLATE-TASK-008",
+        "task_level_mapping": {
+            "action": "Execute",
+            "object": "Email Arbitrage",
+            "responsibility_id": "RESP-LG-011",
+            "responsibility_name": "execute emails"
+        },
+        "step_mappings": [
+            {
+                "step_number": 1,
+                "action": "identify",
+                "responsibility_id": "RESP-LG-030"
+            },
+            {
+                "step_number": 2,
+                "action": "search",
+                "responsibility_id": "RESP-LG-007"
+            },
+            {
+                "step_number": 3,
+                "action": "unlock",
+                "responsibility_id": "RESP-LG-031"
+            },
+            {
+                "step_number": 4,
+                "action": "export",
+                "responsibility_id": "RESP-LG-032"
+            },
+            {
+                "step_number": 5,
+                "action": "upload",
+                "responsibility_id": "RESP-LG-033"
+            },
+            {
+                "step_number": 6,
+                "action": "enrich",
+                "responsibility_id": "RESP-LG-034"
+            },
+            {
+                "step_number": 7,
+                "action": "export",
+                "responsibility_id": "RESP-LG-009"
+            },
+            {
+                "step_number": 8,
+                "action": "calculate",
+                "responsibility_id": "RESP-LG-035"
+            }
+        ]
+    },
+    {
+        "file": "C:\\Users\\Dell\\Dropbox\\Taxonomy\\Entities\\TASK_MANAGERS\\Task_Templates\\Google_Maps_Local_Business_Scraping.json",
+        "task_id": "TEMPLATE-TASK-016",
+        "task_level_mapping": {
+            "action": "Scrape",
+            "object": "Local Business Leads",
+            "responsibility_id": "RESP-LG-036",
+            "responsibility_name": "scrape leads"
+        },
+        "step_mappings": [
+            {
+                "step_number": 1,
+                "action": "define",
+                "responsibility_id": "RESP-LG-037"
+            },
+            {
+                "step_number": 2,
+                "action": "configure",
+                "responsibility_id": "RESP-LG-038"
+            },
+            {
+                "step_number": 3,
+                "action": "scrape",
+                "responsibility_id": "RESP-LG-039"
+            },
+            {
+                "step_number": 4,
+                "action": "export",
+                "responsibility_id": "RESP-LG-008"
+            },
+            {
+                "step_number": 5,
+                "action": "upload",
+                "responsibility_id": "RESP-LG-002"
+            },
+            {
+                "step_number": 6,
+                "action": "enrich",
+                "responsibility_id": "RESP-LG-012"
+            },
+            {
+                "step_number": 7,
+                "action": "export",
+                "responsibility_id": "RESP-LG-004"
+            }
+        ]
+    },
+    {
+        "file": "C:\\Users\\Dell\\Dropbox\\Taxonomy\\Entities\\TASK_MANAGERS\\Task_Templates\\Google_SERP_Lead_Generation.json",
+        "task_id": "TEMPLATE-TASK-009",
+        "task_level_mapping": {
+            "action": "Generate",
+            "object": "Lead List",
+            "responsibility_id": "RESP-LG-040",
+            "responsibility_name": "generate leads"
+        },
+        "step_mappings": [
+            {
+                "step_number": 1,
+                "action": "define",
+                "responsibility_id": "RESP-LG-041"
+            },
+            {
+                "step_number": 2,
+                "action": "configure",
+                "responsibility_id": "RESP-LG-042"
+            },
+            {
+                "step_number": 3,
+                "action": "scrape",
+                "responsibility_id": "RESP-LG-043"
+            },
+            {
+                "step_number": 4,
+                "action": "export",
+                "responsibility_id": "RESP-LG-044"
+            },
+            {
+                "step_number": 5,
+                "action": "upload",
+                "responsibility_id": "RESP-LG-002"
+            },
+            {
+                "step_number": 6,
+                "action": "enrich",
+                "responsibility_id": "RESP-LG-012"
+            },
+            {
+                "step_number": 7,
+                "action": "export",
+                "responsibility_id": "RESP-LG-004"
+            },
+            {
+                "step_number": 8,
+                "action": "log",
+                "responsibility_id": "RESP-LG-006"
+            }
+        ]
+    },
+    {
+        "file": "C:\\Users\\Dell\\Dropbox\\Taxonomy\\Entities\\TASK_MANAGERS\\Task_Templates\\Instagram_Influencer_Scraping.json",
+        "task_id": "TEMPLATE-TASK-020",
+        "task_level_mapping": {
+            "action": "Scrape",
+            "object": "Influencer Profiles",
+            "responsibility_id": "RESP-MKT-001",
+            "responsibility_name": "scrape creators"
+        },
+        "step_mappings": [
+            {
+                "step_number": 1,
+                "action": "define",
+                "responsibility_id": "RESP-MKT-002"
+            },
+            {
+                "step_number": 2,
+                "action": "configure",
+                "responsibility_id": "RESP-MKT-003"
+            },
+            {
+                "step_number": 3,
+                "action": "scrape",
+                "responsibility_id": "RESP-MKT-004"
+            },
+            {
+                "step_number": 4,
+                "action": "extract",
+                "responsibility_id": "RESP-MKT-005"
+            },
+            {
+                "step_number": 5,
+                "action": "enrich",
+                "responsibility_id": "RESP-MKT-006"
+            },
+            {
+                "step_number": 6,
+                "action": "export",
+                "responsibility_id": "RESP-MKT-007"
+            }
+        ]
+    },
+    {
+        "file": "C:\\Users\\Dell\\Dropbox\\Taxonomy\\Entities\\TASK_MANAGERS\\Task_Templates\\Instantly_AI_Email_Enrichment.json",
+        "task_id": "TEMPLATE-TASK-019",
+        "task_level_mapping": {
+            "action": "Enrich",
+            "object": "Email List",
+            "responsibility_id": "RESP-LG-001",
+            "responsibility_name": "enrich emails"
+        },
+        "step_mappings": [
+            {
+                "step_number": 1,
+                "action": "prepare",
+                "responsibility_id": "RESP-LG-003"
+            },
+            {
+                "step_number": 2,
+                "action": "upload",
+                "responsibility_id": "RESP-LG-045"
+            },
+            {
+                "step_number": 3,
+                "action": "configure",
+                "responsibility_id": "RESP-LG-046"
+            },
+            {
+                "step_number": 4,
+                "action": "execute",
+                "responsibility_id": "RESP-LG-047"
+            },
+            {
+                "step_number": 5,
+                "action": "review",
+                "responsibility_id": "RESP-LG-048"
+            },
+            {
+                "step_number": 6,
+                "action": "launch",
+                "responsibility_id": "RESP-LG-049"
+            }
+        ]
+    },
+    {
+        "file": "C:\\Users\\Dell\\Dropbox\\Taxonomy\\Entities\\TASK_MANAGERS\\Task_Templates\\LinkedIn_Jobs_Intent_Based_Scraping.json",
+        "task_id": "TEMPLATE-TASK-017",
+        "task_level_mapping": {
+            "action": "Scrape",
+            "object": "LinkedIn Job Postings",
+            "responsibility_id": "RESP-LG-050",
+            "responsibility_name": "scrape linkedin job postings"
+        },
+        "step_mappings": [
+            {
+                "step_number": 1,
+                "action": "define",
+                "responsibility_id": "RESP-LG-051"
+            },
+            {
+                "step_number": 2,
+                "action": "configure",
+                "responsibility_id": "RESP-LG-052"
+            },
+            {
+                "step_number": 3,
+                "action": "scrape",
+                "responsibility_id": "RESP-LG-053"
+            },
+            {
+                "step_number": 4,
+                "action": "extract",
+                "responsibility_id": "RESP-LG-054"
+            },
+            {
+                "step_number": 5,
+                "action": "research",
+                "responsibility_id": "RESP-LG-055"
+            },
+            {
+                "step_number": 6,
+                "action": "upload",
+                "responsibility_id": "RESP-LG-056"
+            },
+            {
+                "step_number": 7,
+                "action": "enrich",
+                "responsibility_id": "RESP-LG-057"
+            },
+            {
+                "step_number": 8,
+                "action": "export",
+                "responsibility_id": "RESP-LG-058"
+            }
+        ]
+    },
+    {
+        "file": "C:\\Users\\Dell\\Dropbox\\Taxonomy\\Entities\\TASK_MANAGERS\\Task_Templates\\LinkedIn_Sales_Navigator_Lead_Extraction.json",
+        "task_id": "TEMPLATE-TASK-004",
+        "task_level_mapping": {
+            "action": "Extract",
+            "object": "LinkedIn Leads",
+            "responsibility_id": "RESP-LG-059",
+            "responsibility_name": "extract leads"
+        },
+        "step_mappings": [
+            {
+                "step_number": 1,
+                "action": "create",
+                "responsibility_id": "RESP-LG-060"
+            },
+            {
+                "step_number": 2,
+                "action": "extract",
+                "responsibility_id": "RESP-LG-061"
+            },
+            {
+                "step_number": 3,
+                "action": "configure",
+                "responsibility_id": "RESP-LG-062"
+            },
+            {
+                "step_number": 4,
+                "action": "scrape",
+                "responsibility_id": "RESP-LG-063"
+            },
+            {
+                "step_number": 5,
+                "action": "import",
+                "responsibility_id": "RESP-LG-064"
+            },
+            {
+                "step_number": 6,
+                "action": "enrich",
+                "responsibility_id": "RESP-LG-001"
+            },
+            {
+                "step_number": 7,
+                "action": "export",
+                "responsibility_id": "RESP-LG-004"
+            }
+        ]
+    },
+    {
+        "file": "C:\\Users\\Dell\\Dropbox\\Taxonomy\\Entities\\TASK_MANAGERS\\Task_Templates\\Newsletter_Subscriber_Auto_Reply.json",
+        "task_id": "TEMPLATE-TASK-012",
+        "task_level_mapping": {
+            "action": "Automate",
+            "object": "Newsletter Replies",
+            "responsibility_id": "RESP-OPS-010",
+            "responsibility_name": "automate newsletter replies"
+        },
+        "step_mappings": [
+            {
+                "step_number": 1,
+                "action": "identify",
+                "responsibility_id": "RESP-OPS-011"
+            },
+            {
+                "step_number": 2,
+                "action": "activate",
+                "responsibility_id": "RESP-OPS-012"
+            },
+            {
+                "step_number": 3,
+                "action": "prompt",
+                "responsibility_id": "RESP-OPS-002"
+            },
+            {
+                "step_number": 4,
+                "action": "analyze",
+                "responsibility_id": "RESP-OPS-013"
+            },
+            {
+                "step_number": 5,
+                "action": "generate",
+                "responsibility_id": "RESP-OPS-014"
+            },
+            {
+                "step_number": 6,
+                "action": "review",
+                "responsibility_id": "RESP-OPS-001"
+            },
+            {
+                "step_number": 7,
+                "action": "send",
+                "responsibility_id": "RESP-OPS-015"
+            }
+        ]
+    },
+    {
+        "file": "C:\\Users\\Dell\\Dropbox\\Taxonomy\\Entities\\TASK_MANAGERS\\Task_Templates\\Send_Old_Client_Email_Template.json",
+        "task_id": "TEMPLATE-TASK-002",
+        "task_level_mapping": {
+            "action": "Send",
+            "object": "Follow-up Email",
+            "responsibility_id": "RESP-OPS-003",
+            "responsibility_name": "send emails"
+        },
+        "step_mappings": []
+    },
+    {
+        "file": "C:\\Users\\Dell\\Dropbox\\Taxonomy\\Entities\\TASK_MANAGERS\\Task_Templates\\Stacked_Connector_Post_Meeting_Automation.json",
+        "task_id": "TEMPLATE-TASK-005",
+        "task_level_mapping": {
+            "action": "Automate",
+            "object": "Post-Meeting Workflow",
+            "responsibility_id": "RESP-OPS-016",
+            "responsibility_name": "automate post-meeting workflow"
+        },
+        "step_mappings": [
+            {
+                "step_number": 1,
+                "action": "upload",
+                "responsibility_id": "RESP-OPS-017"
+            },
+            {
+                "step_number": 2,
+                "action": "extract",
+                "responsibility_id": "RESP-OPS-018"
+            },
+            {
+                "step_number": 3,
+                "action": "read",
+                "responsibility_id": "RESP-OPS-019"
+            },
+            {
+                "step_number": 4,
+                "action": "generate",
+                "responsibility_id": "RESP-OPS-020"
+            },
+            {
+                "step_number": 5,
+                "action": "update",
+                "responsibility_id": "RESP-OPS-021"
+            },
+            {
+                "step_number": 6,
+                "action": "review",
+                "responsibility_id": "RESP-OPS-022"
+            },
+            {
+                "step_number": 7,
+                "action": "send",
+                "responsibility_id": "RESP-OPS-003"
+            }
+        ]
+    },
+    {
+        "file": "C:\\Users\\Dell\\Dropbox\\Taxonomy\\Entities\\TASK_MANAGERS\\Task_Templates\\TEMPLATE-TASK-RES-002_Research_AI_Platforms.json",
+        "task_id": "TEMPLATE-TASK-RES-002",
+        "task_level_mapping": {
+            "action": "Research",
+            "object": "AI Platforms",
+            "responsibility_id": "RESP-AI-079",
+            "responsibility_name": "research ai platforms"
+        },
+        "step_mappings": []
+    },
+    {
+        "file": "C:\\Users\\Dell\\Dropbox\\Taxonomy\\Entities\\TASK_MANAGERS\\Task_Templates\\TEMPLATE-TASK-RES-003_Research_Development_Tools.json",
+        "task_id": "TEMPLATE-TASK-RES-003",
+        "task_level_mapping": {
+            "action": "Research",
+            "object": "Development Tools",
+            "responsibility_id": "RESP-DEV-034",
+            "responsibility_name": "research development tools"
+        },
+        "step_mappings": []
+    },
+    {
+        "file": "C:\\Users\\Dell\\Dropbox\\Taxonomy\\Entities\\TASK_MANAGERS\\Task_Templates\\TEMPLATE-TASK-RES-004_Research_Other_Tools.json",
+        "task_id": "TEMPLATE-TASK-RES-004",
+        "task_level_mapping": {
+            "action": "Research",
+            "object": "Other Tools",
+            "responsibility_id": "RESP-AI-080",
+            "responsibility_name": "research other tools"
+        },
+        "step_mappings": []
+    },
+    {
+        "file": "C:\\Users\\Dell\\Dropbox\\Taxonomy\\Entities\\TASK_MANAGERS\\Task_Templates\\VIDEO\\TEMPLATE-TASK-VIDEO-001_Create_Multi_Scene_Product_Commercial.json",
+        "task_id": "TEMPLATE-TASK-VIDEO-001",
+        "task_level_mapping": {
+            "action": "Generate",
+            "object": "Product Commercial Video",
+            "responsibility_id": "RESP-ECM-001",
+            "responsibility_name": "generate videos"
+        },
+        "step_mappings": []
+    },
+    {
+        "file": "C:\\Users\\Dell\\Dropbox\\Taxonomy\\Entities\\TASK_MANAGERS\\Task_Templates\\VIDEO\\TEMPLATE-TASK-VIDEO-002_Create_Multi_Image_Reference_Video.json",
+        "task_id": "TEMPLATE-TASK-VIDEO-002",
+        "task_level_mapping": {
+            "action": "Generate",
+            "object": "Social Media Storytelling Video",
+            "responsibility_id": "RESP-ECM-001",
+            "responsibility_name": "generate videos"
+        },
+        "step_mappings": []
+    },
+    {
+        "file": "C:\\Users\\Dell\\Dropbox\\Taxonomy\\Entities\\TASK_MANAGERS\\Task_Templates\\VIDEO\\TEMPLATE-TASK-VIDEO-003_Create_Brand_Logo_Animation.json",
+        "task_id": "TEMPLATE-TASK-VIDEO-003",
+        "task_level_mapping": {
+            "action": "Generate",
+            "object": "Brand Logo Animation Video",
+            "responsibility_id": "RESP-ECM-001",
+            "responsibility_name": "generate videos"
+        },
+        "step_mappings": []
+    },
+    {
+        "file": "C:\\Users\\Dell\\Dropbox\\Taxonomy\\Entities\\TASK_MANAGERS\\Task_Templates\\VIDEO\\TEMPLATE-TASK-VIDEO-004_Unified_Platform_Workflow.json",
+        "task_id": "TEMPLATE-TASK-VIDEO-004",
+        "task_level_mapping": {
+            "action": "Execute",
+            "object": "Complete Video Production Workflow",
+            "responsibility_id": "RESP-MKT-008",
+            "responsibility_name": "execute videos"
+        },
+        "step_mappings": []
+    },
+    {
+        "file": "C:\\Users\\Dell\\Dropbox\\Taxonomy\\Entities\\TASK_MANAGERS\\Task_Templates\\By_Department\\AI_Tasks\\TASK-AI-021.json",
+        "task_id": "TASK-AI-021",
+        "task_level_mapping": {
+            "action": "Discover",
+            "object": "AI Tutorial Videos",
+            "responsibility_id": "RESP-AI-005",
+            "responsibility_name": "discover videos"
+        },
+        "step_mappings": [
+            {
+                "step_number": 1,
+                "action": "copy",
+                "responsibility_id": "RESP-AI-006"
+            },
+            {
+                "step_number": 2,
+                "action": "write",
+                "responsibility_id": "RESP-AI-007"
+            },
+            {
+                "step_number": 3,
+                "action": "search",
+                "responsibility_id": "RESP-AI-008"
+            },
+            {
+                "step_number": 4,
+                "action": "analyze",
+                "responsibility_id": "RESP-AI-002"
+            },
+            {
+                "step_number": 5,
+                "action": "extract",
+                "responsibility_id": "RESP-AI-001"
+            },
+            {
+                "step_number": 6,
+                "action": "document",
+                "responsibility_id": "RESP-AI-009"
+            }
+        ]
+    },
+    {
+        "file": "C:\\Users\\Dell\\Dropbox\\Taxonomy\\Entities\\TASK_MANAGERS\\Task_Templates\\By_Department\\AI_Tasks\\TASK-AI-022.json",
+        "task_id": "TASK-AI-022",
+        "task_level_mapping": {
+            "action": "Track",
+            "object": "AI Tutorial Creators",
+            "responsibility_id": "RESP-AI-010",
+            "responsibility_name": "track tutorials"
+        },
+        "step_mappings": [
+            {
+                "step_number": 1,
+                "action": "extract",
+                "responsibility_id": "RESP-AI-011"
+            },
+            {
+                "step_number": 2,
+                "action": "search",
+                "responsibility_id": "RESP-AI-012"
+            },
+            {
+                "step_number": 3,
+                "action": "research",
+                "responsibility_id": "RESP-AI-013"
+            },
+            {
+                "step_number": 4,
+                "action": "create",
+                "responsibility_id": "RESP-AI-014"
+            },
+            {
+                "step_number": 5,
+                "action": "update",
+                "responsibility_id": "RESP-AI-003"
+            }
+        ]
+    },
+    {
+        "file": "C:\\Users\\Dell\\Dropbox\\Taxonomy\\Entities\\TASK_MANAGERS\\Task_Templates\\By_Department\\AI_Tasks\\TASK-AI-023.json",
+        "task_id": "TASK-AI-023",
+        "task_level_mapping": {
+            "action": "Transcribe",
+            "object": "AI Tutorial Videos",
+            "responsibility_id": "RESP-CNT-001",
+            "responsibility_name": "transcribe videos"
+        },
+        "step_mappings": [
+            {
+                "step_number": 1,
+                "action": "select",
+                "responsibility_id": "RESP-CNT-002"
+            },
+            {
+                "step_number": 2,
+                "action": "create",
+                "responsibility_id": "RESP-AI-004"
+            },
+            {
+                "step_number": 3,
+                "action": "extract",
+                "responsibility_id": "RESP-AI-001"
+            },
+            {
+                "step_number": 4,
+                "action": "format",
+                "responsibility_id": "RESP-CNT-003"
+            },
+            {
+                "step_number": 5,
+                "action": "update",
+                "responsibility_id": "RESP-AI-003"
+            },
+            {
+                "step_number": 6,
+                "action": "update",
+                "responsibility_id": "RESP-CNT-004"
+            },
+            {
+                "step_number": 7,
+                "action": "verify",
+                "responsibility_id": "RESP-CNT-005"
+            }
+        ]
+    },
+    {
+        "file": "C:\\Users\\Dell\\Dropbox\\Taxonomy\\Entities\\TASK_MANAGERS\\Task_Templates\\By_Department\\AI_Tasks\\TASK-AI-024.json",
+        "task_id": "TASK-AI-024",
+        "task_level_mapping": {
+            "action": "Analyze",
+            "object": "Video Transcripts",
+            "responsibility_id": "RESP-AI-002",
+            "responsibility_name": "analyze videos"
+        },
+        "step_mappings": [
+            {
+                "step_number": 1,
+                "action": "read",
+                "responsibility_id": "RESP-AI-015"
+            },
+            {
+                "step_number": 2,
+                "action": "extract",
+                "responsibility_id": "RESP-AI-016"
+            },
+            {
+                "step_number": 3,
+                "action": "extract",
+                "responsibility_id": "RESP-AI-017"
+            },
+            {
+                "step_number": 4,
+                "action": "extract",
+                "responsibility_id": "RESP-AI-018"
+            },
+            {
+                "step_number": 5,
+                "action": "identify",
+                "responsibility_id": "RESP-AI-019"
+            },
+            {
+                "step_number": 6,
+                "action": "document",
+                "responsibility_id": "RESP-AI-020"
+            },
+            {
+                "step_number": 7,
+                "action": "verify",
+                "responsibility_id": "RESP-AI-021"
+            },
+            {
+                "step_number": 8,
+                "action": "save",
+                "responsibility_id": "RESP-AI-022"
+            }
+        ]
+    },
+    {
+        "file": "C:\\Users\\Dell\\Dropbox\\Taxonomy\\Entities\\TASK_MANAGERS\\Task_Templates\\By_Department\\AI_Tasks\\TASK-AI-025.json",
+        "task_id": "TASK-AI-025",
+        "task_level_mapping": {
+            "action": "Analyze",
+            "object": "Taxonomy Gaps",
+            "responsibility_id": "RESP-AI-023",
+            "responsibility_name": "analyze taxonomy gaps"
+        },
+        "step_mappings": [
+            {
+                "step_number": 1,
+                "action": "search",
+                "responsibility_id": "RESP-AI-024"
+            },
+            {
+                "step_number": 2,
+                "action": "search",
+                "responsibility_id": "RESP-AI-025"
+            },
+            {
+                "step_number": 3,
+                "action": "search",
+                "responsibility_id": "RESP-AI-026"
+            },
+            {
+                "step_number": 4,
+                "action": "identify",
+                "responsibility_id": "RESP-AI-027"
+            },
+            {
+                "step_number": 5,
+                "action": "prioritize",
+                "responsibility_id": "RESP-AI-028"
+            },
+            {
+                "step_number": 6,
+                "action": "document",
+                "responsibility_id": "RESP-AI-029"
+            },
+            {
+                "step_number": 7,
+                "action": "plan",
+                "responsibility_id": "RESP-AI-030"
+            }
+        ]
+    },
+    {
+        "file": "C:\\Users\\Dell\\Dropbox\\Taxonomy\\Entities\\TASK_MANAGERS\\Task_Templates\\By_Department\\AI_Tasks\\TASK-AI-026.json",
+        "task_id": "TASK-AI-026",
+        "task_level_mapping": {
+            "action": "Create",
+            "object": "Tool Entries",
+            "responsibility_id": "RESP-AI-031",
+            "responsibility_name": "create tool entries"
+        },
+        "step_mappings": [
+            {
+                "step_number": 1,
+                "action": "select",
+                "responsibility_id": "RESP-AI-032"
+            },
+            {
+                "step_number": 2,
+                "action": "research",
+                "responsibility_id": "RESP-AI-033"
+            },
+            {
+                "step_number": 3,
+                "action": "identify",
+                "responsibility_id": "RESP-AI-034"
+            },
+            {
+                "step_number": 4,
+                "action": "create",
+                "responsibility_id": "RESP-AI-035"
+            },
+            {
+                "step_number": 5,
+                "action": "identify",
+                "responsibility_id": "RESP-AI-036"
+            },
+            {
+                "step_number": 6,
+                "action": "map",
+                "responsibility_id": "RESP-AI-037"
+            },
+            {
+                "step_number": 7,
+                "action": "categorize",
+                "responsibility_id": "RESP-AI-038"
+            },
+            {
+                "step_number": 8,
+                "action": "verify",
+                "responsibility_id": "RESP-AI-039"
+            },
+            {
+                "step_number": 9,
+                "action": "update",
+                "responsibility_id": "RESP-AI-040"
+            },
+            {
+                "step_number": 10,
+                "action": "save",
+                "responsibility_id": "RESP-AI-041"
+            }
+        ]
+    },
+    {
+        "file": "C:\\Users\\Dell\\Dropbox\\Taxonomy\\Entities\\TASK_MANAGERS\\Task_Templates\\By_Department\\AI_Tasks\\TASK-AI-027.json",
+        "task_id": "TASK-AI-027",
+        "task_level_mapping": {
+            "action": "Update",
+            "object": "Objects Library",
+            "responsibility_id": "RESP-AI-042",
+            "responsibility_name": "update objects library"
+        },
+        "step_mappings": [
+            {
+                "step_number": 1,
+                "action": "select",
+                "responsibility_id": "RESP-AI-043"
+            },
+            {
+                "step_number": 2,
+                "action": "identify",
+                "responsibility_id": "RESP-AI-044"
+            },
+            {
+                "step_number": 3,
+                "action": "identify",
+                "responsibility_id": "RESP-AI-045"
+            },
+            {
+                "step_number": 4,
+                "action": "create",
+                "responsibility_id": "RESP-AI-046"
+            },
+            {
+                "step_number": 5,
+                "action": "map",
+                "responsibility_id": "RESP-AI-047"
+            },
+            {
+                "step_number": 6,
+                "action": "verify",
+                "responsibility_id": "RESP-AI-048"
+            }
+        ]
+    },
+    {
+        "file": "C:\\Users\\Dell\\Dropbox\\Taxonomy\\Entities\\TASK_MANAGERS\\Task_Templates\\By_Department\\AI_Tasks\\TASK-AI-028.json",
+        "task_id": "TASK-AI-028",
+        "task_level_mapping": {
+            "action": "Update",
+            "object": "Actions, Processes, Professions Libraries",
+            "responsibility_id": "RESP-AI-049",
+            "responsibility_name": "update actions, processes, professions libraries"
+        },
+        "step_mappings": [
+            {
+                "step_number": 1,
+                "action": "extract",
+                "responsibility_id": "RESP-AI-001"
+            },
+            {
+                "step_number": 2,
+                "action": "identify",
+                "responsibility_id": "RESP-AI-050"
+            },
+            {
+                "step_number": 3,
+                "action": "create",
+                "responsibility_id": "RESP-AI-051"
+            },
+            {
+                "step_number": 4,
+                "action": "search",
+                "responsibility_id": "RESP-AI-052"
+            },
+            {
+                "step_number": 5,
+                "action": "update",
+                "responsibility_id": "RESP-AI-053"
+            },
+            {
+                "step_number": 6,
+                "action": "update",
+                "responsibility_id": "RESP-AI-054"
+            },
+            {
+                "step_number": 7,
+                "action": "document",
+                "responsibility_id": "RESP-AI-055"
+            },
+            {
+                "step_number": 8,
+                "action": "verify",
+                "responsibility_id": "RESP-AI-056"
+            }
+        ]
+    },
+    {
+        "file": "C:\\Users\\Dell\\Dropbox\\Taxonomy\\Entities\\TASK_MANAGERS\\Task_Templates\\By_Department\\AI_Tasks\\TASK-AI-029.json",
+        "task_id": "TASK-AI-029",
+        "task_level_mapping": {
+            "action": "Map",
+            "object": "Entity Relationships",
+            "responsibility_id": "RESP-AI-057",
+            "responsibility_name": "map entity relationships"
+        },
+        "step_mappings": [
+            {
+                "step_number": 1,
+                "action": "map",
+                "responsibility_id": "RESP-AI-058"
+            },
+            {
+                "step_number": 2,
+                "action": "map",
+                "responsibility_id": "RESP-AI-059"
+            },
+            {
+                "step_number": 3,
+                "action": "map",
+                "responsibility_id": "RESP-AI-060"
+            },
+            {
+                "step_number": 4,
+                "action": "map",
+                "responsibility_id": "RESP-AI-061"
+            },
+            {
+                "step_number": 5,
+                "action": "create",
+                "responsibility_id": "RESP-AI-004"
+            },
+            {
+                "step_number": 6,
+                "action": "verify",
+                "responsibility_id": "RESP-AI-062"
+            }
+        ]
+    },
+    {
+        "file": "C:\\Users\\Dell\\Dropbox\\Taxonomy\\Entities\\TASK_MANAGERS\\Task_Templates\\By_Department\\AI_Tasks\\TASK-AI-030.json",
+        "task_id": "TASK-AI-030",
+        "task_level_mapping": {
+            "action": "Generate",
+            "object": "Library Mapping Reports",
+            "responsibility_id": "RESP-AI-063",
+            "responsibility_name": "generate library mapping reports"
+        },
+        "step_mappings": [
+            {
+                "step_number": 1,
+                "action": "collect",
+                "responsibility_id": "RESP-AI-064"
+            },
+            {
+                "step_number": 2,
+                "action": "create",
+                "responsibility_id": "RESP-AI-065"
+            },
+            {
+                "step_number": 3,
+                "action": "update",
+                "responsibility_id": "RESP-AI-066"
+            },
+            {
+                "step_number": 4,
+                "action": "update",
+                "responsibility_id": "RESP-AI-067"
+            },
+            {
+                "step_number": 5,
+                "action": "analyze",
+                "responsibility_id": "RESP-AI-068"
+            }
+        ]
+    },
+    {
+        "file": "C:\\Users\\Dell\\Dropbox\\Taxonomy\\Entities\\TASK_MANAGERS\\Task_Templates\\By_Department\\AI_Tasks\\TASK-AI-031.json",
+        "task_id": "TASK-AI-031",
+        "task_level_mapping": {
+            "action": "Design",
+            "object": "Evaluation System",
+            "responsibility_id": "RESP-AI-069",
+            "responsibility_name": "design evaluation system"
+        },
+        "step_mappings": [
+            {
+                "step_number": 1,
+                "action": "define",
+                "responsibility_id": "RESP-AI-070"
+            },
+            {
+                "step_number": 2,
+                "action": "analyze",
+                "responsibility_id": "RESP-AI-071"
+            },
+            {
+                "step_number": 3,
+                "action": "analyze",
+                "responsibility_id": "RESP-AI-072"
+            },
+            {
+                "step_number": 4,
+                "action": "create",
+                "responsibility_id": "RESP-AI-073"
+            },
+            {
+                "step_number": 5,
+                "action": "create",
+                "responsibility_id": "RESP-AI-074"
+            },
+            {
+                "step_number": 6,
+                "action": "implement",
+                "responsibility_id": "RESP-AI-075"
+            },
+            {
+                "step_number": 7,
+                "action": "run",
+                "responsibility_id": "RESP-AI-076"
+            },
+            {
+                "step_number": 8,
+                "action": "document",
+                "responsibility_id": "RESP-AI-077"
+            }
+        ]
+    },
+    {
+        "file": "C:\\Users\\Dell\\Dropbox\\Taxonomy\\Entities\\TASK_MANAGERS\\Task_Templates\\By_Department\\AI_Tasks\\TASK-AI-021.json",
+        "task_id": "TASK-AI-021",
+        "task_level_mapping": {
+            "action": "Discover",
+            "object": "AI Tutorial Videos",
+            "responsibility_id": "RESP-AI-005",
+            "responsibility_name": "discover videos"
+        },
+        "step_mappings": [
+            {
+                "step_number": 1,
+                "action": "copy",
+                "responsibility_id": "RESP-AI-006"
+            },
+            {
+                "step_number": 2,
+                "action": "write",
+                "responsibility_id": "RESP-AI-007"
+            },
+            {
+                "step_number": 3,
+                "action": "search",
+                "responsibility_id": "RESP-AI-008"
+            },
+            {
+                "step_number": 4,
+                "action": "analyze",
+                "responsibility_id": "RESP-AI-002"
+            },
+            {
+                "step_number": 5,
+                "action": "extract",
+                "responsibility_id": "RESP-AI-001"
+            },
+            {
+                "step_number": 6,
+                "action": "document",
+                "responsibility_id": "RESP-AI-009"
+            }
+        ]
+    },
+    {
+        "file": "C:\\Users\\Dell\\Dropbox\\Taxonomy\\Entities\\TASK_MANAGERS\\Task_Templates\\By_Department\\AI_Tasks\\TASK-AI-022.json",
+        "task_id": "TASK-AI-022",
+        "task_level_mapping": {
+            "action": "Track",
+            "object": "AI Tutorial Creators",
+            "responsibility_id": "RESP-AI-010",
+            "responsibility_name": "track tutorials"
+        },
+        "step_mappings": [
+            {
+                "step_number": 1,
+                "action": "extract",
+                "responsibility_id": "RESP-AI-011"
+            },
+            {
+                "step_number": 2,
+                "action": "search",
+                "responsibility_id": "RESP-AI-012"
+            },
+            {
+                "step_number": 3,
+                "action": "research",
+                "responsibility_id": "RESP-AI-013"
+            },
+            {
+                "step_number": 4,
+                "action": "create",
+                "responsibility_id": "RESP-AI-014"
+            },
+            {
+                "step_number": 5,
+                "action": "update",
+                "responsibility_id": "RESP-AI-003"
+            }
+        ]
+    },
+    {
+        "file": "C:\\Users\\Dell\\Dropbox\\Taxonomy\\Entities\\TASK_MANAGERS\\Task_Templates\\By_Department\\AI_Tasks\\TASK-AI-023.json",
+        "task_id": "TASK-AI-023",
+        "task_level_mapping": {
+            "action": "Transcribe",
+            "object": "AI Tutorial Videos",
+            "responsibility_id": "RESP-CNT-001",
+            "responsibility_name": "transcribe videos"
+        },
+        "step_mappings": [
+            {
+                "step_number": 1,
+                "action": "select",
+                "responsibility_id": "RESP-CNT-002"
+            },
+            {
+                "step_number": 2,
+                "action": "create",
+                "responsibility_id": "RESP-AI-004"
+            },
+            {
+                "step_number": 3,
+                "action": "extract",
+                "responsibility_id": "RESP-AI-001"
+            },
+            {
+                "step_number": 4,
+                "action": "format",
+                "responsibility_id": "RESP-CNT-003"
+            },
+            {
+                "step_number": 5,
+                "action": "update",
+                "responsibility_id": "RESP-AI-003"
+            },
+            {
+                "step_number": 6,
+                "action": "update",
+                "responsibility_id": "RESP-CNT-004"
+            },
+            {
+                "step_number": 7,
+                "action": "verify",
+                "responsibility_id": "RESP-CNT-005"
+            }
+        ]
+    },
+    {
+        "file": "C:\\Users\\Dell\\Dropbox\\Taxonomy\\Entities\\TASK_MANAGERS\\Task_Templates\\By_Department\\AI_Tasks\\TASK-AI-024.json",
+        "task_id": "TASK-AI-024",
+        "task_level_mapping": {
+            "action": "Analyze",
+            "object": "Video Transcripts",
+            "responsibility_id": "RESP-AI-002",
+            "responsibility_name": "analyze videos"
+        },
+        "step_mappings": [
+            {
+                "step_number": 1,
+                "action": "read",
+                "responsibility_id": "RESP-AI-015"
+            },
+            {
+                "step_number": 2,
+                "action": "extract",
+                "responsibility_id": "RESP-AI-016"
+            },
+            {
+                "step_number": 3,
+                "action": "extract",
+                "responsibility_id": "RESP-AI-017"
+            },
+            {
+                "step_number": 4,
+                "action": "extract",
+                "responsibility_id": "RESP-AI-018"
+            },
+            {
+                "step_number": 5,
+                "action": "identify",
+                "responsibility_id": "RESP-AI-019"
+            },
+            {
+                "step_number": 6,
+                "action": "document",
+                "responsibility_id": "RESP-AI-020"
+            },
+            {
+                "step_number": 7,
+                "action": "verify",
+                "responsibility_id": "RESP-AI-021"
+            },
+            {
+                "step_number": 8,
+                "action": "save",
+                "responsibility_id": "RESP-AI-022"
+            }
+        ]
+    },
+    {
+        "file": "C:\\Users\\Dell\\Dropbox\\Taxonomy\\Entities\\TASK_MANAGERS\\Task_Templates\\By_Department\\AI_Tasks\\TASK-AI-025.json",
+        "task_id": "TASK-AI-025",
+        "task_level_mapping": {
+            "action": "Analyze",
+            "object": "Taxonomy Gaps",
+            "responsibility_id": "RESP-AI-023",
+            "responsibility_name": "analyze taxonomy gaps"
+        },
+        "step_mappings": [
+            {
+                "step_number": 1,
+                "action": "search",
+                "responsibility_id": "RESP-AI-024"
+            },
+            {
+                "step_number": 2,
+                "action": "search",
+                "responsibility_id": "RESP-AI-025"
+            },
+            {
+                "step_number": 3,
+                "action": "search",
+                "responsibility_id": "RESP-AI-026"
+            },
+            {
+                "step_number": 4,
+                "action": "identify",
+                "responsibility_id": "RESP-AI-027"
+            },
+            {
+                "step_number": 5,
+                "action": "prioritize",
+                "responsibility_id": "RESP-AI-028"
+            },
+            {
+                "step_number": 6,
+                "action": "document",
+                "responsibility_id": "RESP-AI-029"
+            },
+            {
+                "step_number": 7,
+                "action": "plan",
+                "responsibility_id": "RESP-AI-030"
+            }
+        ]
+    },
+    {
+        "file": "C:\\Users\\Dell\\Dropbox\\Taxonomy\\Entities\\TASK_MANAGERS\\Task_Templates\\By_Department\\AI_Tasks\\TASK-AI-026.json",
+        "task_id": "TASK-AI-026",
+        "task_level_mapping": {
+            "action": "Create",
+            "object": "Tool Entries",
+            "responsibility_id": "RESP-AI-031",
+            "responsibility_name": "create tool entries"
+        },
+        "step_mappings": [
+            {
+                "step_number": 1,
+                "action": "select",
+                "responsibility_id": "RESP-AI-032"
+            },
+            {
+                "step_number": 2,
+                "action": "research",
+                "responsibility_id": "RESP-AI-033"
+            },
+            {
+                "step_number": 3,
+                "action": "identify",
+                "responsibility_id": "RESP-AI-034"
+            },
+            {
+                "step_number": 4,
+                "action": "create",
+                "responsibility_id": "RESP-AI-035"
+            },
+            {
+                "step_number": 5,
+                "action": "identify",
+                "responsibility_id": "RESP-AI-036"
+            },
+            {
+                "step_number": 6,
+                "action": "map",
+                "responsibility_id": "RESP-AI-037"
+            },
+            {
+                "step_number": 7,
+                "action": "categorize",
+                "responsibility_id": "RESP-AI-038"
+            },
+            {
+                "step_number": 8,
+                "action": "verify",
+                "responsibility_id": "RESP-AI-039"
+            },
+            {
+                "step_number": 9,
+                "action": "update",
+                "responsibility_id": "RESP-AI-040"
+            },
+            {
+                "step_number": 10,
+                "action": "save",
+                "responsibility_id": "RESP-AI-041"
+            }
+        ]
+    },
+    {
+        "file": "C:\\Users\\Dell\\Dropbox\\Taxonomy\\Entities\\TASK_MANAGERS\\Task_Templates\\By_Department\\AI_Tasks\\TASK-AI-027.json",
+        "task_id": "TASK-AI-027",
+        "task_level_mapping": {
+            "action": "Update",
+            "object": "Objects Library",
+            "responsibility_id": "RESP-AI-042",
+            "responsibility_name": "update objects library"
+        },
+        "step_mappings": [
+            {
+                "step_number": 1,
+                "action": "select",
+                "responsibility_id": "RESP-AI-043"
+            },
+            {
+                "step_number": 2,
+                "action": "identify",
+                "responsibility_id": "RESP-AI-044"
+            },
+            {
+                "step_number": 3,
+                "action": "identify",
+                "responsibility_id": "RESP-AI-045"
+            },
+            {
+                "step_number": 4,
+                "action": "create",
+                "responsibility_id": "RESP-AI-046"
+            },
+            {
+                "step_number": 5,
+                "action": "map",
+                "responsibility_id": "RESP-AI-047"
+            },
+            {
+                "step_number": 6,
+                "action": "verify",
+                "responsibility_id": "RESP-AI-048"
+            }
+        ]
+    },
+    {
+        "file": "C:\\Users\\Dell\\Dropbox\\Taxonomy\\Entities\\TASK_MANAGERS\\Task_Templates\\By_Department\\AI_Tasks\\TASK-AI-028.json",
+        "task_id": "TASK-AI-028",
+        "task_level_mapping": {
+            "action": "Update",
+            "object": "Actions, Processes, Professions Libraries",
+            "responsibility_id": "RESP-AI-049",
+            "responsibility_name": "update actions, processes, professions libraries"
+        },
+        "step_mappings": [
+            {
+                "step_number": 1,
+                "action": "extract",
+                "responsibility_id": "RESP-AI-001"
+            },
+            {
+                "step_number": 2,
+                "action": "identify",
+                "responsibility_id": "RESP-AI-050"
+            },
+            {
+                "step_number": 3,
+                "action": "create",
+                "responsibility_id": "RESP-AI-051"
+            },
+            {
+                "step_number": 4,
+                "action": "search",
+                "responsibility_id": "RESP-AI-052"
+            },
+            {
+                "step_number": 5,
+                "action": "update",
+                "responsibility_id": "RESP-AI-053"
+            },
+            {
+                "step_number": 6,
+                "action": "update",
+                "responsibility_id": "RESP-AI-054"
+            },
+            {
+                "step_number": 7,
+                "action": "document",
+                "responsibility_id": "RESP-AI-055"
+            },
+            {
+                "step_number": 8,
+                "action": "verify",
+                "responsibility_id": "RESP-AI-056"
+            }
+        ]
+    },
+    {
+        "file": "C:\\Users\\Dell\\Dropbox\\Taxonomy\\Entities\\TASK_MANAGERS\\Task_Templates\\By_Department\\AI_Tasks\\TASK-AI-029.json",
+        "task_id": "TASK-AI-029",
+        "task_level_mapping": {
+            "action": "Map",
+            "object": "Entity Relationships",
+            "responsibility_id": "RESP-AI-057",
+            "responsibility_name": "map entity relationships"
+        },
+        "step_mappings": [
+            {
+                "step_number": 1,
+                "action": "map",
+                "responsibility_id": "RESP-AI-058"
+            },
+            {
+                "step_number": 2,
+                "action": "map",
+                "responsibility_id": "RESP-AI-059"
+            },
+            {
+                "step_number": 3,
+                "action": "map",
+                "responsibility_id": "RESP-AI-060"
+            },
+            {
+                "step_number": 4,
+                "action": "map",
+                "responsibility_id": "RESP-AI-061"
+            },
+            {
+                "step_number": 5,
+                "action": "create",
+                "responsibility_id": "RESP-AI-004"
+            },
+            {
+                "step_number": 6,
+                "action": "verify",
+                "responsibility_id": "RESP-AI-062"
+            }
+        ]
+    },
+    {
+        "file": "C:\\Users\\Dell\\Dropbox\\Taxonomy\\Entities\\TASK_MANAGERS\\Task_Templates\\By_Department\\AI_Tasks\\TASK-AI-030.json",
+        "task_id": "TASK-AI-030",
+        "task_level_mapping": {
+            "action": "Generate",
+            "object": "Library Mapping Reports",
+            "responsibility_id": "RESP-AI-063",
+            "responsibility_name": "generate library mapping reports"
+        },
+        "step_mappings": [
+            {
+                "step_number": 1,
+                "action": "collect",
+                "responsibility_id": "RESP-AI-064"
+            },
+            {
+                "step_number": 2,
+                "action": "create",
+                "responsibility_id": "RESP-AI-065"
+            },
+            {
+                "step_number": 3,
+                "action": "update",
+                "responsibility_id": "RESP-AI-066"
+            },
+            {
+                "step_number": 4,
+                "action": "update",
+                "responsibility_id": "RESP-AI-067"
+            },
+            {
+                "step_number": 5,
+                "action": "analyze",
+                "responsibility_id": "RESP-AI-068"
+            }
+        ]
+    },
+    {
+        "file": "C:\\Users\\Dell\\Dropbox\\Taxonomy\\Entities\\TASK_MANAGERS\\Task_Templates\\By_Department\\AI_Tasks\\TASK-AI-031.json",
+        "task_id": "TASK-AI-031",
+        "task_level_mapping": {
+            "action": "Design",
+            "object": "Evaluation System",
+            "responsibility_id": "RESP-AI-069",
+            "responsibility_name": "design evaluation system"
+        },
+        "step_mappings": [
+            {
+                "step_number": 1,
+                "action": "define",
+                "responsibility_id": "RESP-AI-070"
+            },
+            {
+                "step_number": 2,
+                "action": "analyze",
+                "responsibility_id": "RESP-AI-071"
+            },
+            {
+                "step_number": 3,
+                "action": "analyze",
+                "responsibility_id": "RESP-AI-072"
+            },
+            {
+                "step_number": 4,
+                "action": "create",
+                "responsibility_id": "RESP-AI-073"
+            },
+            {
+                "step_number": 5,
+                "action": "create",
+                "responsibility_id": "RESP-AI-074"
+            },
+            {
+                "step_number": 6,
+                "action": "implement",
+                "responsibility_id": "RESP-AI-075"
+            },
+            {
+                "step_number": 7,
+                "action": "run",
+                "responsibility_id": "RESP-AI-076"
+            },
+            {
+                "step_number": 8,
+                "action": "document",
+                "responsibility_id": "RESP-AI-077"
+            }
+        ]
+    }
+]

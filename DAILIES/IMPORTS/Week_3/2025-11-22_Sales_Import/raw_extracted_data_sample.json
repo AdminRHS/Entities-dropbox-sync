@@ -1,0 +1,2843 @@
+{
+  "extracted_at": "2025-11-22T21:10:57.691863",
+  "note": "First 10 records for review",
+  "records": [
+    {
+      "id": 7079,
+      "client_id": "1145623",
+      "company_id": "1",
+      "user_id": "9245",
+      "created_by": {
+        "id": 9215,
+        "name": "Пасичная Анастасия Владимировна",
+        "email": "anastasiya.pasichnaya@gmail.com",
+        "image_url": "https://crm-s.com/img/default-profile-3.png"
+      },
+      "name": "Thomas Howlett",
+      "company_name": "AICO Solutions",
+      "countries_id": "272",
+      "size_id": "1",
+      "account_id": "75",
+      "industry_id": "20",
+      "website": "https://www.linkedin.com/company/aicosolutions",
+      "email_notifications": "0",
+      "lead_status_id": "20",
+      "type_id": "2",
+      "placement_id": "76",
+      "verified": "0",
+      "sales_manager": "7862",
+      "sales_manager_assistant": {
+        "id": 9215,
+        "name": "Пасичная Анастасия Владимировна",
+        "email": "anastasiya.pasichnaya@gmail.com",
+        "image_url": "https://crm-s.com/img/default-profile-3.png"
+      },
+      "lg_manager_id": "1037",
+      "status_id": "7",
+      "image_url": "https://crm-s.com/img/default-profile-2.png",
+      "user": {
+        "id": 9245,
+        "name": "AICO Solutions",
+        "email": "aico_solutions@mail.com",
+        "image_url": "https://crm-s.com/img/default-profile-3.png"
+      },
+      "project_companies": [
+        {
+          "id": 1,
+          "company_id": "1",
+          "name": "Remote Helpers",
+          "website": "https://www.rh-s.com/",
+          "short_name": "rh-s.com",
+          "updated_at": "2024-01-05T06:56:45.000000Z",
+          "pivot": {
+            "client_details_id": "7079",
+            "project_id": "1"
+          }
+        }
+      ],
+      "lead_source": {
+        "id": 76,
+        "company_id": "1",
+        "name": "LinkedIn Extension",
+        "category_id": "3",
+        "created_at": "2024-01-17T13:26:23.000000Z",
+        "updated_at": "2024-03-04T08:24:11.000000Z"
+      },
+      "lead_agent": {
+        "id": 1037,
+        "company_id": "1",
+        "user_id": "8932",
+        "status": "enabled",
+        "user": {
+          "id": 8932,
+          "name": "Давлатмамадова Фируза",
+          "email": "davlatmamadova.firuza@bk.ru",
+          "image_url": "https://crm-s.com/img/default-profile-3.png"
+        }
+      },
+      "lead_status": {
+        "id": 20,
+        "company_id": "1",
+        "type": "Call",
+        "priority": "8",
+        "default": "0",
+        "label_color": "#ff0000"
+      },
+      "lead_company_size": {
+        "id": 1,
+        "company_id": "1",
+        "title": "2...10",
+        "created_at": "2020-09-04T08:45:50.000000Z",
+        "updated_at": "2020-09-04T08:45:50.000000Z"
+      },
+      "lead_company_industry": {
+        "id": 20,
+        "company_id": "1",
+        "group_id": "20",
+        "status_id": "1",
+        "status_addition": "pending",
+        "title": "Finance",
+        "created_at": "2020-09-04T08:45:50.000000Z",
+        "updated_at": "2020-09-04T08:45:50.000000Z"
+      },
+      "sub_industries": [
+        {
+          "id": 114,
+          "company_id": "1",
+          "name": "Financial Services",
+          "industry_id": "20",
+          "created_at": "2024-12-16T09:34:38.000000Z",
+          "updated_at": "2024-12-16T09:34:38.000000Z",
+          "pivot": {
+            "client_details_id": "7079",
+            "sub_industry_id": "114"
+          }
+        }
+      ],
+      "lead_account": {
+        "id": 75,
+        "company_id": "1",
+        "project_company_id": "1",
+        "name": "Anastasiia Pitsiak",
+        "link": "https://www.linkedin.com/in/anastasiia-pitsiak-a4233a1a4/",
+        "connections": "752",
+        "premium": "0",
+        "linked_login": "pitsiakanastasiia@gmail.com",
+        "linked_password": "62N;L4i#va%d2F",
+        "email_login": "pitsiakanastasiia@gmail.com",
+        "email_password": "62N;L4i#va%d2F",
+        "passport_link": "https://drive.google.com/file/d/1yzs4T154tnoFz-PWleC752e70uJK9qFO/view?usp=sharing",
+        "created_date": "2020-09-04",
+        "agent_id": "1037",
+        "status_id": "4",
+        "country_id": "106",
+        "source_id": "13",
+        "placement_id": "1",
+        "is_approved_manager": "1",
+        "created_at": "2020-09-04T13:03:21.000000Z",
+        "updated_at": "2025-10-14T15:22:00.000000Z",
+        "status": {
+          "id": 4,
+          "company_id": "1",
+          "name": "LG",
+          "created_at": "2020-09-04T13:03:19.000000Z",
+          "updated_at": "2020-09-04T13:03:19.000000Z"
+        },
+        "country": {
+          "id": 106,
+          "name": "Israel",
+          "iso": "IL",
+          "iso3": "IS",
+          "iso_numeric": "0",
+          "phonecode": "0"
+        },
+        "source": {
+          "id": 13,
+          "company_id": "1",
+          "type": "linkedin"
+        },
+        "agent": {
+          "id": 1037,
+          "company_id": "1",
+          "user_id": "8932",
+          "status": "enabled",
+          "user": {
+            "id": 8932,
+            "name": "Давлатмамадова Фируза",
+            "email": "davlatmamadova.firuza@bk.ru",
+            "image_url": "https://crm-s.com/img/default-profile-3.png"
+          }
+        }
+      },
+      "lead_corporation_details": [
+        {
+          "id": 14847032,
+          "company_id": "1",
+          "lead_id": "1145623",
+          "client_details_id": "7079",
+          "contact_type_id": "1",
+          "value": "https://www.linkedin.com/company/aicosolutions",
+          "created_at": "2025-10-13T18:51:32.000000Z",
+          "updated_at": "2025-11-05T08:32:16.000000Z"
+        }
+      ],
+      "country": {
+        "id": 272,
+        "name": "United Kingdom",
+        "iso": "GB",
+        "iso_numeric": "0",
+        "phonecode": "0"
+      },
+      "sales_managers": {
+        "id": 7862,
+        "name": "Ковальская Анастасия Владимировна",
+        "email": "avkovalska23@gmail.com",
+        "image_url": "https://crm-s.com/img/default-profile-3.png"
+      },
+      "status": {
+        "id": 7,
+        "company_id": "1",
+        "name": "Client",
+        "created_at": "2020-10-26T13:09:46.000000Z",
+        "updated_at": "2020-10-26T13:09:46.000000Z"
+      },
+      "lead_id": {
+        "id": 1145623,
+        "company_id": "1",
+        "created_by": "8932",
+        "client_id": "9245",
+        "client_details_id": "7079",
+        "placement_id": "76",
+        "status_id": "20",
+        "column_priority": "0",
+        "type_id": "2",
+        "agent_id": "1037",
+        "company_name": "AICO Solutions",
+        "countries_id": "272",
+        "website": "https://www.linkedin.com/company/aicosolutions",
+        "size_id": "1",
+        "account_id": "75",
+        "industry_id": "20",
+        "next_follow_up": "yes",
+        "year_establishment_company": "2024",
+        "value": "0"
+      },
+      "lead_type": {
+        "id": 2,
+        "company_id": "1",
+        "name": "Customer"
+      },
+      "_source_file": "Client_cluster_0001.json",
+      "_source_type": "crm_export"
+    },
+    {
+      "id": 7078,
+      "client_id": "1134994",
+      "company_id": "1",
+      "user_id": "9244",
+      "created_by": {
+        "id": 9215,
+        "name": "Пасичная Анастасия Владимировна",
+        "email": "anastasiya.pasichnaya@gmail.com",
+        "image_url": "https://crm-s.com/img/default-profile-3.png"
+      },
+      "name": "Alex Clarke",
+      "company_name": "CRL Business Solutions",
+      "countries_id": "102",
+      "size_id": "5",
+      "account_id": "1116",
+      "industry_id": "22",
+      "website": "http://www.crlltd.ie",
+      "email_notifications": "0",
+      "lead_status_id": "20",
+      "type_id": "2",
+      "placement_id": "76",
+      "verified": "0",
+      "sales_manager": "7862",
+      "sales_manager_assistant": {
+        "id": 9215,
+        "name": "Пасичная Анастасия Владимировна",
+        "email": "anastasiya.pasichnaya@gmail.com",
+        "image_url": "https://crm-s.com/img/default-profile-3.png"
+      },
+      "lg_manager_id": "1037",
+      "status_id": "7",
+      "image_url": "https://crm-s.com/img/default-profile-2.png",
+      "user": {
+        "id": 9244,
+        "name": "CRL Business Solutions",
+        "email": "crl_business_solutions@mail.com",
+        "image_url": "https://crm-s.com/img/default-profile-3.png"
+      },
+      "project_companies": [
+        {
+          "id": 1,
+          "company_id": "1",
+          "name": "Remote Helpers",
+          "website": "https://www.rh-s.com/",
+          "short_name": "rh-s.com",
+          "updated_at": "2024-01-05T06:56:45.000000Z",
+          "pivot": {
+            "client_details_id": "7078",
+            "project_id": "1"
+          }
+        }
+      ],
+      "lead_source": {
+        "id": 76,
+        "company_id": "1",
+        "name": "LinkedIn Extension",
+        "category_id": "3",
+        "created_at": "2024-01-17T13:26:23.000000Z",
+        "updated_at": "2024-03-04T08:24:11.000000Z"
+      },
+      "lead_agent": {
+        "id": 1037,
+        "company_id": "1",
+        "user_id": "8932",
+        "status": "enabled",
+        "user": {
+          "id": 8932,
+          "name": "Давлатмамадова Фируза",
+          "email": "davlatmamadova.firuza@bk.ru",
+          "image_url": "https://crm-s.com/img/default-profile-3.png"
+        }
+      },
+      "lead_status": {
+        "id": 20,
+        "company_id": "1",
+        "type": "Call",
+        "priority": "8",
+        "default": "0",
+        "label_color": "#ff0000"
+      },
+      "lead_company_size": {
+        "id": 5,
+        "company_id": "1",
+        "title": "41...50",
+        "created_at": "2020-09-04T08:45:50.000000Z",
+        "updated_at": "2020-09-04T08:45:50.000000Z"
+      },
+      "lead_company_industry": {
+        "id": 22,
+        "company_id": "1",
+        "group_id": "22",
+        "status_id": "1",
+        "status_addition": "pending",
+        "title": "Staffing and Recruiting",
+        "created_at": "2020-09-04T08:45:50.000000Z",
+        "updated_at": "2024-12-27T08:15:20.000000Z"
+      },
+      "lead_account": {
+        "id": 1116,
+        "company_id": "1",
+        "project_company_id": "1",
+        "name": "Oksana Kharchenko",
+        "link": "https://www.linkedin.com/in/oksana-kharchenko/",
+        "connections": "614",
+        "premium": "0",
+        "linked_login": "oksana.kharchenko12@gmail.com",
+        "linked_password": "7Lu9cS9Z7i",
+        "email_login": "oksana.kharchenko12@gmail.com",
+        "email_password": "7Lu9cS9Z7i",
+        "created_date": "2022-04-04",
+        "agent_id": "1037",
+        "status_id": "4",
+        "country_id": "106",
+        "source_id": "13",
+        "placement_id": "1",
+        "is_approved_manager": "1",
+        "created_at": "2022-04-04T08:29:08.000000Z",
+        "updated_at": "2025-10-14T15:21:51.000000Z",
+        "status": {
+          "id": 4,
+          "company_id": "1",
+          "name": "LG",
+          "created_at": "2020-09-04T13:03:19.000000Z",
+          "updated_at": "2020-09-04T13:03:19.000000Z"
+        },
+        "country": {
+          "id": 106,
+          "name": "Israel",
+          "iso": "IL",
+          "iso3": "IS",
+          "iso_numeric": "0",
+          "phonecode": "0"
+        },
+        "source": {
+          "id": 13,
+          "company_id": "1",
+          "type": "linkedin"
+        },
+        "agent": {
+          "id": 1037,
+          "company_id": "1",
+          "user_id": "8932",
+          "status": "enabled",
+          "user": {
+            "id": 8932,
+            "name": "Давлатмамадова Фируза",
+            "email": "davlatmamadova.firuza@bk.ru",
+            "image_url": "https://crm-s.com/img/default-profile-3.png"
+          }
+        }
+      },
+      "lead_corporation_details": [
+        {
+          "id": 14823566,
+          "company_id": "1",
+          "lead_id": "1134994",
+          "client_details_id": "7078",
+          "contact_type_id": "1",
+          "value": "https://www.linkedin.com/company/crlbusinesssolutions",
+          "created_at": "2025-08-14T06:19:52.000000Z",
+          "updated_at": "2025-11-04T11:16:39.000000Z"
+        },
+        {
+          "id": 14823567,
+          "company_id": "1",
+          "lead_id": "1134994",
+          "client_details_id": "7078",
+          "contact_type_id": "19",
+          "value": "https://www.facebook.com/CrlBusinessSolutions",
+          "created_at": "2025-08-14T06:19:52.000000Z",
+          "updated_at": "2025-11-04T11:16:39.000000Z"
+        },
+        {
+          "id": 14823568,
+          "company_id": "1",
+          "lead_id": "1134994",
+          "client_details_id": "7078",
+          "contact_type_id": "13",
+          "value": "https://www.instagram.com/crlbusinesssolutions/",
+          "created_at": "2025-08-14T06:19:52.000000Z",
+          "updated_at": "2025-11-04T11:16:39.000000Z"
+        },
+        {
+          "id": 14823569,
+          "company_id": "1",
+          "lead_id": "1134994",
+          "client_details_id": "7078",
+          "contact_type_id": "20",
+          "value": "353873299481",
+          "created_at": "2025-08-14T06:19:52.000000Z",
+          "updated_at": "2025-11-04T11:16:39.000000Z"
+        }
+      ],
+      "country": {
+        "id": 102,
+        "name": "Ireland",
+        "iso": "IE",
+        "iso3": "IR",
+        "iso_numeric": "0",
+        "phonecode": "0"
+      },
+      "sales_managers": {
+        "id": 7862,
+        "name": "Ковальская Анастасия Владимировна",
+        "email": "avkovalska23@gmail.com",
+        "image_url": "https://crm-s.com/img/default-profile-3.png"
+      },
+      "status": {
+        "id": 7,
+        "company_id": "1",
+        "name": "Client",
+        "created_at": "2020-10-26T13:09:46.000000Z",
+        "updated_at": "2020-10-26T13:09:46.000000Z"
+      },
+      "lead_id": {
+        "id": 1134994,
+        "company_id": "1",
+        "created_by": "8932",
+        "client_id": "9244",
+        "client_details_id": "7078",
+        "placement_id": "76",
+        "status_id": "20",
+        "column_priority": "0",
+        "type_id": "2",
+        "agent_id": "1037",
+        "company_name": "CRL Business Solutions",
+        "countries_id": "102",
+        "website": "http://www.crlltd.ie",
+        "size_id": "5",
+        "account_id": "1116",
+        "industry_id": "22",
+        "next_follow_up": "yes",
+        "year_establishment_company": "2007",
+        "value": "0"
+      },
+      "lead_type": {
+        "id": 2,
+        "company_id": "1",
+        "name": "Customer"
+      },
+      "_source_file": "Client_cluster_0001.json",
+      "_source_type": "crm_export"
+    },
+    {
+      "id": 7077,
+      "client_id": "1146654",
+      "company_id": "1",
+      "user_id": "9243",
+      "created_by": {
+        "id": 7862,
+        "name": "Ковальская Анастасия Владимировна",
+        "email": "avkovalska23@gmail.com",
+        "image_url": "https://crm-s.com/img/default-profile-3.png"
+      },
+      "name": "Matt Turner",
+      "company_name": "Shoredons & Co Legal",
+      "countries_id": "272",
+      "size_id": "1",
+      "account_id": "1015",
+      "industry_id": "1140",
+      "website": "http://www.shoredons.co.uk",
+      "email_notifications": "0",
+      "lead_status_id": "20",
+      "type_id": "2",
+      "placement_id": "76",
+      "verified": "0",
+      "sales_manager": "7862",
+      "lg_manager_id": "1059",
+      "status_id": "7",
+      "image_url": "https://crm-s.com/img/default-profile-2.png",
+      "user": {
+        "id": 9243,
+        "name": "Shoredons & Co Legal",
+        "email": "shoredons_&_co_legal@mail.com",
+        "image_url": "https://crm-s.com/img/default-profile-3.png"
+      },
+      "project_companies": [
+        {
+          "id": 1,
+          "company_id": "1",
+          "name": "Remote Helpers",
+          "website": "https://www.rh-s.com/",
+          "short_name": "rh-s.com",
+          "updated_at": "2024-01-05T06:56:45.000000Z",
+          "pivot": {
+            "client_details_id": "7077",
+            "project_id": "1"
+          }
+        }
+      ],
+      "lead_source": {
+        "id": 76,
+        "company_id": "1",
+        "name": "LinkedIn Extension",
+        "category_id": "3",
+        "created_at": "2024-01-17T13:26:23.000000Z",
+        "updated_at": "2024-03-04T08:24:11.000000Z"
+      },
+      "lead_agent": {
+        "id": 1059,
+        "company_id": "1",
+        "user_id": "9110",
+        "status": "enabled",
+        "user": {
+          "id": 9110,
+          "name": "Айзек Арчибонг",
+          "email": "archibong222@gmail.com",
+          "image_url": "https://crm-s.com/img/default-profile-3.png"
+        }
+      },
+      "lead_status": {
+        "id": 20,
+        "company_id": "1",
+        "type": "Call",
+        "priority": "8",
+        "default": "0",
+        "label_color": "#ff0000"
+      },
+      "lead_company_size": {
+        "id": 1,
+        "company_id": "1",
+        "title": "2...10",
+        "created_at": "2020-09-04T08:45:50.000000Z",
+        "updated_at": "2020-09-04T08:45:50.000000Z"
+      },
+      "lead_company_industry": {
+        "id": 1140,
+        "company_id": "1",
+        "group_id": "1140",
+        "status_id": "1",
+        "status_addition": "pending",
+        "title": "Legal Services",
+        "created_at": "2021-08-27T10:56:40.000000Z",
+        "updated_at": "2021-08-27T10:56:40.000000Z"
+      },
+      "lead_account": {
+        "id": 1015,
+        "company_id": "1",
+        "project_company_id": "1",
+        "name": "Voitovich Lіlіya",
+        "link": "https://www.linkedin.com/in/lilia-voitovych-323a4b22a/",
+        "connections": "1106",
+        "premium": "0",
+        "linked_login": "voytlilia267@gmail.com",
+        "linked_password": "6ppZ772DUy",
+        "email_login": "voytlilia267@gmail.com",
+        "email_password": "6ppZ772DUy",
+        "created_date": "2022-01-17",
+        "agent_id": "1059",
+        "status_id": "4",
+        "country_id": "272",
+        "source_id": "13",
+        "placement_id": "1",
+        "is_approved_manager": "1",
+        "created_at": "2022-01-17T07:59:48.000000Z",
+        "updated_at": "2025-07-17T08:11:00.000000Z",
+        "status": {
+          "id": 4,
+          "company_id": "1",
+          "name": "LG",
+          "created_at": "2020-09-04T13:03:19.000000Z",
+          "updated_at": "2020-09-04T13:03:19.000000Z"
+        },
+        "country": {
+          "id": 272,
+          "name": "United Kingdom",
+          "iso": "GB",
+          "iso_numeric": "0",
+          "phonecode": "0"
+        },
+        "source": {
+          "id": 13,
+          "company_id": "1",
+          "type": "linkedin"
+        },
+        "agent": {
+          "id": 1059,
+          "company_id": "1",
+          "user_id": "9110",
+          "status": "enabled",
+          "user": {
+            "id": 9110,
+            "name": "Айзек Арчибонг",
+            "email": "archibong222@gmail.com",
+            "image_url": "https://crm-s.com/img/default-profile-3.png"
+          }
+        }
+      },
+      "lead_corporation_details": [
+        {
+          "id": 14849367,
+          "company_id": "1",
+          "lead_id": "1146654",
+          "client_details_id": "7077",
+          "contact_type_id": "1",
+          "value": "https://www.linkedin.com/company/shoredons",
+          "created_at": "2025-10-22T06:48:09.000000Z",
+          "updated_at": "2025-10-28T08:41:46.000000Z"
+        },
+        {
+          "id": 14849368,
+          "company_id": "1",
+          "lead_id": "1146654",
+          "client_details_id": "7077",
+          "contact_type_id": "20",
+          "value": "+442037292388",
+          "created_at": "2025-10-22T06:48:09.000000Z",
+          "updated_at": "2025-10-28T08:41:46.000000Z"
+        }
+      ],
+      "country": {
+        "id": 272,
+        "name": "United Kingdom",
+        "iso": "GB",
+        "iso_numeric": "0",
+        "phonecode": "0"
+      },
+      "sales_managers": {
+        "id": 7862,
+        "name": "Ковальская Анастасия Владимировна",
+        "email": "avkovalska23@gmail.com",
+        "image_url": "https://crm-s.com/img/default-profile-3.png"
+      },
+      "status": {
+        "id": 7,
+        "company_id": "1",
+        "name": "Client",
+        "created_at": "2020-10-26T13:09:46.000000Z",
+        "updated_at": "2020-10-26T13:09:46.000000Z"
+      },
+      "lead_id": {
+        "id": 1146654,
+        "company_id": "1",
+        "created_by": "9110",
+        "client_id": "9243",
+        "client_details_id": "7077",
+        "placement_id": "76",
+        "status_id": "20",
+        "column_priority": "0",
+        "type_id": "2",
+        "agent_id": "1059",
+        "company_name": "Shoredons & Co Legal",
+        "countries_id": "272",
+        "website": "http://www.shoredons.co.uk",
+        "size_id": "1",
+        "account_id": "1015",
+        "industry_id": "1140",
+        "next_follow_up": "yes",
+        "year_establishment_company": "2017",
+        "value": "0"
+      },
+      "lead_type": {
+        "id": 2,
+        "company_id": "1",
+        "name": "Customer"
+      },
+      "_source_file": "Client_cluster_0001.json",
+      "_source_type": "crm_export"
+    },
+    {
+      "id": 7076,
+      "client_id": "1147360",
+      "company_id": "1",
+      "user_id": "9242",
+      "created_by": {
+        "id": 7862,
+        "name": "Ковальская Анастасия Владимировна",
+        "email": "avkovalska23@gmail.com",
+        "image_url": "https://crm-s.com/img/default-profile-3.png"
+      },
+      "name": "Florian Petit",
+      "company_name": "ZeroPhase GmbH",
+      "countries_id": "57",
+      "size_id": "1",
+      "account_id": "69",
+      "industry_id": "34",
+      "website": "https://zerophase.de/",
+      "email_notifications": "0",
+      "lead_status_id": "20",
+      "type_id": "2",
+      "placement_id": "1",
+      "verified": "0",
+      "sales_manager": "7862",
+      "lg_manager_id": "898",
+      "status_id": "7",
+      "image_url": "https://crm-s.com/img/default-profile-2.png",
+      "user": {
+        "id": 9242,
+        "name": "ZeroPhase GmbH",
+        "email": "zerophase_gmbh@mail.com",
+        "image_url": "https://crm-s.com/img/default-profile-3.png"
+      },
+      "project_companies": [
+        {
+          "id": 1,
+          "company_id": "1",
+          "name": "Remote Helpers",
+          "website": "https://www.rh-s.com/",
+          "short_name": "rh-s.com",
+          "updated_at": "2024-01-05T06:56:45.000000Z",
+          "pivot": {
+            "client_details_id": "7076",
+            "project_id": "1"
+          }
+        }
+      ],
+      "lead_source": {
+        "id": 1,
+        "company_id": "1",
+        "name": "LinkedIn",
+        "category_id": "2",
+        "created_at": "2020-10-26T13:09:46.000000Z",
+        "updated_at": "2024-01-05T07:05:34.000000Z"
+      },
+      "lead_agent": {
+        "id": 898,
+        "company_id": "1",
+        "user_id": "7862",
+        "status": "enabled",
+        "user": {
+          "id": 7862,
+          "name": "Ковальская Анастасия Владимировна",
+          "email": "avkovalska23@gmail.com",
+          "image_url": "https://crm-s.com/img/default-profile-3.png"
+        }
+      },
+      "lead_status": {
+        "id": 20,
+        "company_id": "1",
+        "type": "Call",
+        "priority": "8",
+        "default": "0",
+        "label_color": "#ff0000"
+      },
+      "lead_company_size": {
+        "id": 1,
+        "company_id": "1",
+        "title": "2...10",
+        "created_at": "2020-09-04T08:45:50.000000Z",
+        "updated_at": "2020-09-04T08:45:50.000000Z"
+      },
+      "lead_company_industry": {
+        "id": 34,
+        "company_id": "1",
+        "group_id": "34",
+        "status_id": "1",
+        "status_addition": "pending",
+        "title": "Telecommunications",
+        "created_at": "2020-09-04T08:45:50.000000Z",
+        "updated_at": "2020-09-04T08:45:50.000000Z"
+      },
+      "lead_account": {
+        "id": 69,
+        "company_id": "1",
+        "project_company_id": "1",
+        "name": "Polina Moshura",
+        "link": "https://www.linkedin.com/in/polina-moshura-853204199/",
+        "connections": "1542",
+        "premium": "1",
+        "linked_login": "polmoshura333try@gmail.com",
+        "linked_password": "Hb48WZYRA9BRqRrXHGvf",
+        "email_login": "polmoshura333try@gmail.com",
+        "email_password": "Hb48WZYRA9BRqRrXHGvf",
+        "passport_link": "https://drive.google.com/file/d/1oftR3c0rbjQHEe4Gew9jgE-4mVtSFoHp/view?usp=sharing",
+        "created_date": "2020-09-04",
+        "agent_id": "898",
+        "status_id": "4",
+        "source_id": "13",
+        "placement_id": "1",
+        "is_approved_manager": "1",
+        "created_at": "2020-09-04T13:03:21.000000Z",
+        "updated_at": "2025-04-14T13:08:34.000000Z",
+        "status": {
+          "id": 4,
+          "company_id": "1",
+          "name": "LG",
+          "created_at": "2020-09-04T13:03:19.000000Z",
+          "updated_at": "2020-09-04T13:03:19.000000Z"
+        },
+        "source": {
+          "id": 13,
+          "company_id": "1",
+          "type": "linkedin"
+        },
+        "agent": {
+          "id": 898,
+          "company_id": "1",
+          "user_id": "7862",
+          "status": "enabled",
+          "user": {
+            "id": 7862,
+            "name": "Ковальская Анастасия Владимировна",
+            "email": "avkovalska23@gmail.com",
+            "image_url": "https://crm-s.com/img/default-profile-3.png"
+          }
+        }
+      },
+      "lead_corporation_details": [
+        {
+          "id": 14850989,
+          "company_id": "1",
+          "lead_id": "1147360",
+          "client_details_id": "7076",
+          "contact_type_id": "1",
+          "value": "https://www.linkedin.com/company/zerophase-defense/about/",
+          "created_at": "2025-10-27T13:13:12.000000Z",
+          "updated_at": "2025-10-28T08:35:54.000000Z"
+        }
+      ],
+      "country": {
+        "id": 57,
+        "name": "Germany",
+        "iso": "DE",
+        "iso3": "DE",
+        "iso_numeric": "0",
+        "phonecode": "0"
+      },
+      "sales_managers": {
+        "id": 7862,
+        "name": "Ковальская Анастасия Владимировна",
+        "email": "avkovalska23@gmail.com",
+        "image_url": "https://crm-s.com/img/default-profile-3.png"
+      },
+      "status": {
+        "id": 7,
+        "company_id": "1",
+        "name": "Client",
+        "created_at": "2020-10-26T13:09:46.000000Z",
+        "updated_at": "2020-10-26T13:09:46.000000Z"
+      },
+      "lead_id": {
+        "id": 1147360,
+        "company_id": "1",
+        "created_by": "7862",
+        "client_id": "9242",
+        "client_details_id": "7076",
+        "placement_id": "1",
+        "status_id": "20",
+        "column_priority": "0",
+        "type_id": "2",
+        "agent_id": "898",
+        "company_name": "ZeroPhase GmbH",
+        "countries_id": "57",
+        "website": "https://zerophase.de/",
+        "size_id": "1",
+        "account_id": "69",
+        "industry_id": "34",
+        "next_follow_up": "yes",
+        "value": "0"
+      },
+      "lead_type": {
+        "id": 2,
+        "company_id": "1",
+        "name": "Customer"
+      },
+      "_source_file": "Client_cluster_0001.json",
+      "_source_type": "crm_export"
+    },
+    {
+      "id": 7075,
+      "client_id": "1141939",
+      "company_id": "1",
+      "user_id": "9240",
+      "created_by": {
+        "id": 7862,
+        "name": "Ковальская Анастасия Владимировна",
+        "email": "avkovalska23@gmail.com",
+        "image_url": "https://crm-s.com/img/default-profile-3.png"
+      },
+      "name": "Alan Thornton",
+      "company_name": "tipcan solutions",
+      "countries_id": "102",
+      "size_id": "1",
+      "account_id": "1116",
+      "industry_id": "1082",
+      "website": "https://www.tipcansolutions.com",
+      "email_notifications": "0",
+      "lead_status_id": "20",
+      "type_id": "2",
+      "placement_id": "76",
+      "verified": "0",
+      "sales_manager": "7862",
+      "lg_manager_id": "1037",
+      "status_id": "7",
+      "image_url": "https://crm-s.com/img/default-profile-2.png",
+      "user": {
+        "id": 9240,
+        "name": "tipcan solutions",
+        "email": "tipcan_solutions@mail.com",
+        "image_url": "https://crm-s.com/img/default-profile-3.png"
+      },
+      "project_companies": [
+        {
+          "id": 1,
+          "company_id": "1",
+          "name": "Remote Helpers",
+          "website": "https://www.rh-s.com/",
+          "short_name": "rh-s.com",
+          "updated_at": "2024-01-05T06:56:45.000000Z",
+          "pivot": {
+            "client_details_id": "7075",
+            "project_id": "1"
+          }
+        }
+      ],
+      "lead_source": {
+        "id": 76,
+        "company_id": "1",
+        "name": "LinkedIn Extension",
+        "category_id": "3",
+        "created_at": "2024-01-17T13:26:23.000000Z",
+        "updated_at": "2024-03-04T08:24:11.000000Z"
+      },
+      "lead_agent": {
+        "id": 1037,
+        "company_id": "1",
+        "user_id": "8932",
+        "status": "enabled",
+        "user": {
+          "id": 8932,
+          "name": "Давлатмамадова Фируза",
+          "email": "davlatmamadova.firuza@bk.ru",
+          "image_url": "https://crm-s.com/img/default-profile-3.png"
+        }
+      },
+      "lead_status": {
+        "id": 20,
+        "company_id": "1",
+        "type": "Call",
+        "priority": "8",
+        "default": "0",
+        "label_color": "#ff0000"
+      },
+      "lead_company_size": {
+        "id": 1,
+        "company_id": "1",
+        "title": "2...10",
+        "created_at": "2020-09-04T08:45:50.000000Z",
+        "updated_at": "2020-09-04T08:45:50.000000Z"
+      },
+      "lead_company_industry": {
+        "id": 1082,
+        "company_id": "1",
+        "group_id": "1082",
+        "status_id": "1",
+        "status_addition": "pending",
+        "title": "Management Consulting",
+        "created_at": "2021-05-31T07:59:18.000000Z",
+        "updated_at": "2021-05-31T07:59:18.000000Z"
+      },
+      "sub_industries": [
+        {
+          "id": 49,
+          "company_id": "1",
+          "name": "Professional Services",
+          "industry_id": "1082",
+          "created_at": "2024-12-16T09:34:37.000000Z",
+          "updated_at": "2024-12-16T09:34:37.000000Z",
+          "pivot": {
+            "client_details_id": "7075",
+            "sub_industry_id": "49"
+          }
+        }
+      ],
+      "lead_account": {
+        "id": 1116,
+        "company_id": "1",
+        "project_company_id": "1",
+        "name": "Oksana Kharchenko",
+        "link": "https://www.linkedin.com/in/oksana-kharchenko/",
+        "connections": "614",
+        "premium": "0",
+        "linked_login": "oksana.kharchenko12@gmail.com",
+        "linked_password": "7Lu9cS9Z7i",
+        "email_login": "oksana.kharchenko12@gmail.com",
+        "email_password": "7Lu9cS9Z7i",
+        "created_date": "2022-04-04",
+        "agent_id": "1037",
+        "status_id": "4",
+        "country_id": "106",
+        "source_id": "13",
+        "placement_id": "1",
+        "is_approved_manager": "1",
+        "created_at": "2022-04-04T08:29:08.000000Z",
+        "updated_at": "2025-10-14T15:21:51.000000Z",
+        "status": {
+          "id": 4,
+          "company_id": "1",
+          "name": "LG",
+          "created_at": "2020-09-04T13:03:19.000000Z",
+          "updated_at": "2020-09-04T13:03:19.000000Z"
+        },
+        "country": {
+          "id": 106,
+          "name": "Israel",
+          "iso": "IL",
+          "iso3": "IS",
+          "iso_numeric": "0",
+          "phonecode": "0"
+        },
+        "source": {
+          "id": 13,
+          "company_id": "1",
+          "type": "linkedin"
+        },
+        "agent": {
+          "id": 1037,
+          "company_id": "1",
+          "user_id": "8932",
+          "status": "enabled",
+          "user": {
+            "id": 8932,
+            "name": "Давлатмамадова Фируза",
+            "email": "davlatmamadova.firuza@bk.ru",
+            "image_url": "https://crm-s.com/img/default-profile-3.png"
+          }
+        }
+      },
+      "lead_corporation_details": [
+        {
+          "id": 14838951,
+          "company_id": "1",
+          "lead_id": "1141939",
+          "client_details_id": "7075",
+          "contact_type_id": "1",
+          "value": "https://www.linkedin.com/company/tipcan-solutions",
+          "created_at": "2025-09-11T19:01:31.000000Z",
+          "updated_at": "2025-10-27T09:27:09.000000Z"
+        },
+        {
+          "id": 14838952,
+          "company_id": "1",
+          "lead_id": "1141939",
+          "client_details_id": "7075",
+          "contact_type_id": "13",
+          "value": "http://www.instagram.com/alanthorntonofficial",
+          "created_at": "2025-09-11T19:01:31.000000Z",
+          "updated_at": "2025-10-27T09:27:09.000000Z"
+        }
+      ],
+      "country": {
+        "id": 102,
+        "name": "Ireland",
+        "iso": "IE",
+        "iso3": "IR",
+        "iso_numeric": "0",
+        "phonecode": "0"
+      },
+      "sales_managers": {
+        "id": 7862,
+        "name": "Ковальская Анастасия Владимировна",
+        "email": "avkovalska23@gmail.com",
+        "image_url": "https://crm-s.com/img/default-profile-3.png"
+      },
+      "status": {
+        "id": 7,
+        "company_id": "1",
+        "name": "Client",
+        "created_at": "2020-10-26T13:09:46.000000Z",
+        "updated_at": "2020-10-26T13:09:46.000000Z"
+      },
+      "lead_id": {
+        "id": 1141939,
+        "company_id": "1",
+        "created_by": "8932",
+        "client_id": "9240",
+        "client_details_id": "7075",
+        "placement_id": "76",
+        "status_id": "20",
+        "column_priority": "0",
+        "type_id": "2",
+        "agent_id": "1037",
+        "company_name": "tipcan solutions",
+        "countries_id": "102",
+        "website": "https://www.tipcansolutions.com",
+        "size_id": "1",
+        "account_id": "1116",
+        "industry_id": "1082",
+        "next_follow_up": "yes",
+        "value": "0"
+      },
+      "lead_type": {
+        "id": 2,
+        "company_id": "1",
+        "name": "Customer"
+      },
+      "_source_file": "Client_cluster_0001.json",
+      "_source_type": "crm_export"
+    },
+    {
+      "id": 3093,
+      "client_id": "136699",
+      "company_id": "1",
+      "user_id": "3161",
+      "name": "Gavin Glick",
+      "email": "gavin@storyboards.io",
+      "company_name": "Thunda/Storyboards LTD",
+      "countries_id": "106",
+      "size_id": "1",
+      "account_id": "76",
+      "industry_id": "2",
+      "website": "https://storyboard.com/",
+      "note": "Gavin. Israel. Thunda helps companies achieve exponential growth by harnessing the power of Facebook’s marketing platform. Their main goal is doing campaigns( FB, email, video). Now they are looking for somebody who can help with the design ( to create posts for different social posts) for email campaigns on full time basis with knowledge of English . We told him all about our services, pricing. He need time to discuss in with his partner and let us know, what they decide.  I send him SV's and all additioanal information by email. Gavin decided to take Marta Vereteno for part time.\n\nКомпания занимается печатью фото на спрессованном PVS, лазерной печатью",
+      "email_notifications": "0",
+      "lead_status_id": "20",
+      "lead_source_id": "13",
+      "placement_id": "1",
+      "verified": "0",
+      "sales_manager": "7862",
+      "lg_manager_id": "18",
+      "status_id": "7",
+      "image_url": "https://crm-s.com/img/default-profile-2.png",
+      "user": {
+        "id": 3161,
+        "name": "Gavin Glick",
+        "email": "gavin@storyboards.io",
+        "image_url": "https://crm-s.com/img/default-profile-3.png"
+      },
+      "project_companies": [
+        {
+          "id": 1,
+          "company_id": "1",
+          "name": "Remote Helpers",
+          "website": "https://www.rh-s.com/",
+          "short_name": "rh-s.com",
+          "updated_at": "2024-01-05T06:56:45.000000Z",
+          "pivot": {
+            "client_details_id": "3093",
+            "project_id": "1"
+          }
+        }
+      ],
+      "client_candidates": [
+        {
+          "id": 1702,
+          "user_id": "381",
+          "client_detail_id": "3093",
+          "status_id": "2",
+          "employment_status_id": "1",
+          "interview_date": "2020-11-09",
+          "time_interview": "2022-02-07T13:00:00.000000Z",
+          "start_date": "2020-11-10",
+          "service_agreement": "https://drive.google.com/file/d/1_IwGkx2rjuiuNDiPdg0TA0-9vKoO8LO4/view?usp=sharing",
+          "price": "571",
+          "is_payment_vacancy": "0",
+          "approved_bonus": "1",
+          "approved_bonus_interview": "1",
+          "created_at": "2020-11-26T17:14:01.000000Z",
+          "updated_at": "2023-02-20T06:35:21.000000Z",
+          "time": "13:00"
+        },
+        {
+          "id": 1786,
+          "user_id": "3775",
+          "client_detail_id": "3093",
+          "status_id": "3",
+          "employment_status_id": "1",
+          "interview_date": "2020-12-22",
+          "time_interview": "2021-12-21T17:00:00.000000Z",
+          "start_date": "2020-12-23",
+          "fire_date": "2021-01-08",
+          "service_agreement": "https://drive.google.com/file/d/1_IwGkx2rjuiuNDiPdg0TA0-9vKoO8LO4/view?usp=sharing",
+          "price": "548",
+          "is_payment_vacancy": "0",
+          "approved_bonus": "1",
+          "approved_bonus_interview": "1",
+          "created_at": "2020-12-23T13:47:59.000000Z",
+          "updated_at": "2023-02-20T06:35:21.000000Z",
+          "time": "17:00"
+        },
+        {
+          "id": 3336,
+          "user_id": "5552",
+          "client_detail_id": "3093",
+          "status_id": "1",
+          "interview_date": "2022-03-21",
+          "time_interview": "2022-03-21T14:00:00.000000Z",
+          "is_payment_vacancy": "0",
+          "approved_bonus": "1",
+          "approved_bonus_interview": "1",
+          "created_at": "2022-03-21T14:57:36.000000Z",
+          "updated_at": "2023-02-20T06:35:22.000000Z",
+          "time": "14:00"
+        },
+        {
+          "id": 3337,
+          "user_id": "4759",
+          "client_detail_id": "3093",
+          "status_id": "2",
+          "employment_status_id": "2",
+          "interview_date": "2022-03-21",
+          "time_interview": "2024-04-17T14:30:00.000000Z",
+          "start_date": "2022-03-22",
+          "service_agreement": "https://drive.google.com/file/d/1KOQCIrLoldqQJUcHzK6cYT-mbqHdQEkO/view?usp=drive_link",
+          "price": "550",
+          "currency_id": "3",
+          "department_id": "23",
+          "position_id": "17",
+          "is_payment_vacancy": "0",
+          "approved_bonus": "1",
+          "approved_bonus_interview": "1",
+          "created_at": "2022-03-21T14:58:29.000000Z",
+          "updated_at": "2024-04-17T09:59:07.000000Z",
+          "time": "14:30"
+        }
+      ],
+      "client_contacts": [
+        {
+          "id": 170458,
+          "name": "Gavin Glick",
+          "job_id": "3",
+          "lead_id": "136699",
+          "client_details_id": "3093",
+          "created_at": "2020-10-29T18:59:34.000000Z",
+          "updated_at": "2024-01-01T20:39:06.000000Z",
+          "job": {
+            "id": 3,
+            "company_id": "1",
+            "type": "Co-Founder",
+            "created_at": "2020-09-04T08:45:50.000000Z",
+            "updated_at": "2020-09-04T08:45:50.000000Z"
+          },
+          "contact_details": [
+            {
+              "id": 2963556,
+              "company_id": "1",
+              "contact_id": "170458",
+              "placement_id": "2",
+              "value": "glickgavin@gmail.com"
+            },
+            {
+              "id": 2963567,
+              "company_id": "1",
+              "contact_id": "170458",
+              "placement_id": "1",
+              "value": "https://www.linkedin.com/in/gavin-glick-667a4a31"
+            }
+          ]
+        },
+        {
+          "id": 1320238,
+          "name": "Gavin Glick2",
+          "job_id": "3",
+          "lead_id": "136699",
+          "client_details_id": "3093",
+          "created_at": "2024-01-01T20:39:06.000000Z",
+          "updated_at": "2024-01-01T20:39:06.000000Z",
+          "job": {
+            "id": 3,
+            "company_id": "1",
+            "type": "Co-Founder",
+            "created_at": "2020-09-04T08:45:50.000000Z",
+            "updated_at": "2020-09-04T08:45:50.000000Z"
+          },
+          "contact_details": [
+            {
+              "id": 21539613,
+              "company_id": "1",
+              "contact_id": "1320238",
+              "placement_id": "2",
+              "value": "gavin@storyboards.io"
+            },
+            {
+              "id": 21539614,
+              "company_id": "1",
+              "contact_id": "1320238",
+              "placement_id": "1",
+              "value": "https://www.linkedin.com/in/gavin-glick-667a4a31/"
+            }
+          ]
+        },
+        {
+          "id": 1320239,
+          "name": "Gavin Glick2",
+          "job_id": "3",
+          "lead_id": "136699",
+          "client_details_id": "3093",
+          "created_at": "2024-01-01T20:39:06.000000Z",
+          "updated_at": "2024-01-01T20:39:06.000000Z",
+          "job": {
+            "id": 3,
+            "company_id": "1",
+            "type": "Co-Founder",
+            "created_at": "2020-09-04T08:45:50.000000Z",
+            "updated_at": "2020-09-04T08:45:50.000000Z"
+          },
+          "contact_details": [
+            {
+              "id": 21539615,
+              "company_id": "1",
+              "contact_id": "1320239",
+              "placement_id": "2",
+              "value": "gavin@storyboards.io"
+            },
+            {
+              "id": 21539616,
+              "company_id": "1",
+              "contact_id": "1320239",
+              "placement_id": "1",
+              "value": "https://www.linkedin.com/in/gavin-glick-667a4a31/"
+            }
+          ]
+        }
+      ],
+      "lead_source": {
+        "id": 1,
+        "company_id": "1",
+        "name": "LinkedIn",
+        "category_id": "2",
+        "created_at": "2020-10-26T13:09:46.000000Z",
+        "updated_at": "2024-01-05T07:05:34.000000Z"
+      },
+      "lead_agent": {
+        "id": 18,
+        "company_id": "1",
+        "user_id": "88",
+        "status": "enabled",
+        "user": {
+          "id": 88,
+          "name": "Бигун Мария Андреевна",
+          "email": "farisey0704@gmail.com",
+          "image_url": "https://crm-s.com/img/default-profile-3.png"
+        }
+      },
+      "lead_status": {
+        "id": 20,
+        "company_id": "1",
+        "type": "Call",
+        "priority": "8",
+        "default": "0",
+        "label_color": "#ff0000"
+      },
+      "lead_company_size": {
+        "id": 1,
+        "company_id": "1",
+        "title": "2...10",
+        "created_at": "2020-09-04T08:45:50.000000Z",
+        "updated_at": "2020-09-04T08:45:50.000000Z"
+      },
+      "lead_company_industry": {
+        "id": 2,
+        "company_id": "1",
+        "group_id": "2",
+        "status_id": "1",
+        "status_addition": "pending",
+        "title": "Marketing",
+        "created_at": "2020-09-04T08:45:50.000000Z",
+        "updated_at": "2024-03-13T11:06:55.000000Z"
+      },
+      "lead_account": {
+        "id": 76,
+        "company_id": "1",
+        "project_company_id": "1",
+        "name": "Yana Yatskova",
+        "link": "https://www.linkedin.com/in/yana-yatskova-7127151a4/",
+        "connections": "3033",
+        "premium": "1",
+        "linked_login": "yanayatskova9@gmail.com",
+        "linked_password": "cicdjiu58ghQHjwH",
+        "email_login": "yanayatskova9@gmail.com",
+        "email_password": "cicdjiu58ghQHjwH",
+        "passport_link": "https://drive.google.com/file/d/1_IjVAmzRS1xK5YnU7dWA8tgDqewZpUzt/view?usp=sharing",
+        "comments": "док просрочен",
+        "created_date": "2020-09-04",
+        "status_id": "3",
+        "country_id": "40",
+        "source_id": "13",
+        "placement_id": "1",
+        "is_approved_manager": "1",
+        "created_at": "2020-09-04T13:03:21.000000Z",
+        "updated_at": "2025-10-08T14:06:28.000000Z",
+        "status": {
+          "id": 3,
+          "company_id": "1",
+          "name": "Free",
+          "created_at": "2020-09-04T13:03:19.000000Z",
+          "updated_at": "2020-09-04T13:03:19.000000Z"
+        },
+        "country": {
+          "id": 40,
+          "name": "Switzerland",
+          "iso": "CH",
+          "iso3": "CH",
+          "iso_numeric": "0",
+          "phonecode": "0"
+        },
+        "source": {
+          "id": 13,
+          "company_id": "1",
+          "type": "linkedin"
+        }
+      },
+      "lead_corporation_details": [
+        {
+          "id": 13710998,
+          "company_id": "1",
+          "lead_id": "136699",
+          "client_details_id": "3093",
+          "contact_type_id": "1",
+          "value": "https://www.linkedin.com/company/storyboard-podcasts/",
+          "created_at": "2024-01-25T11:01:58.000000Z",
+          "updated_at": "2024-01-25T11:01:58.000000Z"
+        }
+      ],
+      "country": {
+        "id": 106,
+        "name": "Israel",
+        "iso": "IL",
+        "iso3": "IS",
+        "iso_numeric": "0",
+        "phonecode": "0"
+      },
+      "sales_managers": {
+        "id": 7862,
+        "name": "Ковальская Анастасия Владимировна",
+        "email": "avkovalska23@gmail.com",
+        "image_url": "https://crm-s.com/img/default-profile-3.png"
+      },
+      "status": {
+        "id": 7,
+        "company_id": "1",
+        "name": "Client",
+        "created_at": "2020-10-26T13:09:46.000000Z",
+        "updated_at": "2020-10-26T13:09:46.000000Z"
+      },
+      "lead_id": {
+        "id": 136699,
+        "company_id": "1",
+        "client_id": "3161",
+        "client_details_id": "3093",
+        "source_id": "13",
+        "placement_id": "1",
+        "status_id": "20",
+        "column_priority": "0",
+        "agent_id": "18",
+        "company_name": "Thunda/Storyboards LTD",
+        "countries_id": "106",
+        "website": "https://storyboard.com/",
+        "size_id": "1",
+        "account_id": "76",
+        "industry_id": "2",
+        "client_name": "Gavin Glick",
+        "note": "Gavin. Israel. Thunda helps companies achieve exponential growth by harnessing the power of Facebook’s marketing platform. Their main goal is doing campaigns( FB, email, video). Now they are looking for somebody who can help with the design ( to create posts for different social posts) for email campaigns on full time basis with knowledge of English . We told him all about our services, pricing. He need time to discuss in with his partner and let us know, what they decide.  I send him SV's and all additioanal information by email. Gavin decided to take Marta Vereteno for part time.\n\nКомпания занимается печатью фото на спрессованном PVS, лазерной печатью",
+        "next_follow_up": "yes",
+        "client_email": "glickgavin@gmail.com",
+        "value": "0"
+      },
+      "client_accounting_note": [
+        {
+          "id": 20,
+          "company_id": "1",
+          "client_details_id": "3093",
+          "user_id": "7404",
+          "note": "15.06.23\nДіяльність компанії - створюють рекламний контент у вигляді анімаційних зображень, відео; героїв ігор;комікси; редагують відео. У СРМ -helps companies achieve exponential growth by harnessing the power of Facebook’s marketing platform. Their main goal is doing campaigns( FB, email, video). Сайт у гуглі: http://storyboardsinc.com/home   Пошта: був лист на запит ще одного працівника \"\"Just wanted to say we are happy with Martha.\nWe are having a lot of orders and wanted to know if there was someone to help us with simple photo editing and cropping for another 4 hours evenry morning.Thanks\"\" але через два тижні надіслав \"\"We have had quite a reduction, and we do not need Natalia services for so many hours. Is it possible to reduce the hours, if not we need to cancel ger services.\"\" і на цьому вона припинила працювати.  Оплата 1-2 тижні.",
+          "created_at": "2023-06-19T07:10:41.000000Z",
+          "updated_at": "2023-06-19T07:10:41.000000Z"
+        }
+      ],
+      "_source_file": "Client_cluster_0001.json",
+      "_source_type": "crm_export"
+    },
+    {
+      "id": 7074,
+      "client_id": "1142224",
+      "company_id": "1",
+      "user_id": "9226",
+      "created_by": {
+        "id": 7862,
+        "name": "Ковальская Анастасия Владимировна",
+        "email": "avkovalska23@gmail.com",
+        "image_url": "https://crm-s.com/img/default-profile-3.png"
+      },
+      "name": "Jeff Freeman",
+      "company_name": "Carbice",
+      "countries_id": "240",
+      "size_id": "5",
+      "account_id": "1245",
+      "industry_id": "1176",
+      "website": "http://www.carbice.com",
+      "email_notifications": "0",
+      "lead_status_id": "20",
+      "type_id": "2",
+      "placement_id": "76",
+      "verified": "0",
+      "sales_manager": "7862",
+      "lg_manager_id": "1059",
+      "status_id": "7",
+      "image_url": "https://crm-s.com/img/default-profile-2.png",
+      "user": {
+        "id": 9226,
+        "name": "Carbice",
+        "email": "carbice@mail.com",
+        "image_url": "https://crm-s.com/img/default-profile-3.png"
+      },
+      "project_companies": [
+        {
+          "id": 1,
+          "company_id": "1",
+          "name": "Remote Helpers",
+          "website": "https://www.rh-s.com/",
+          "short_name": "rh-s.com",
+          "updated_at": "2024-01-05T06:56:45.000000Z",
+          "pivot": {
+            "client_details_id": "7074",
+            "project_id": "1"
+          }
+        }
+      ],
+      "lead_source": {
+        "id": 76,
+        "company_id": "1",
+        "name": "LinkedIn Extension",
+        "category_id": "3",
+        "created_at": "2024-01-17T13:26:23.000000Z",
+        "updated_at": "2024-03-04T08:24:11.000000Z"
+      },
+      "lead_agent": {
+        "id": 1059,
+        "company_id": "1",
+        "user_id": "9110",
+        "status": "enabled",
+        "user": {
+          "id": 9110,
+          "name": "Айзек Арчибонг",
+          "email": "archibong222@gmail.com",
+          "image_url": "https://crm-s.com/img/default-profile-3.png"
+        }
+      },
+      "lead_status": {
+        "id": 20,
+        "company_id": "1",
+        "type": "Call",
+        "priority": "8",
+        "default": "0",
+        "label_color": "#ff0000"
+      },
+      "lead_company_size": {
+        "id": 5,
+        "company_id": "1",
+        "title": "41...50",
+        "created_at": "2020-09-04T08:45:50.000000Z",
+        "updated_at": "2020-09-04T08:45:50.000000Z"
+      },
+      "lead_company_industry": {
+        "id": 1176,
+        "company_id": "1",
+        "group_id": "1176",
+        "status_id": "1",
+        "status_addition": "pending",
+        "title": "Semiconductors",
+        "created_at": "2021-08-27T11:00:50.000000Z",
+        "updated_at": "2021-08-27T11:00:50.000000Z"
+      },
+      "sub_industries": [
+        {
+          "id": 347,
+          "company_id": "1",
+          "name": "Semiconductor Manufacturing",
+          "industry_id": "1176",
+          "created_at": "2024-12-16T09:34:40.000000Z",
+          "updated_at": "2024-12-16T09:34:40.000000Z",
+          "pivot": {
+            "client_details_id": "7074",
+            "sub_industry_id": "347"
+          }
+        }
+      ],
+      "lead_account": {
+        "id": 1245,
+        "company_id": "1",
+        "project_company_id": "1",
+        "name": "Anastasiia Golub",
+        "link": "https://www.linkedin.com/in/anastasiia-golub/",
+        "connections": "1445",
+        "premium": "0",
+        "linked_login": "anastasiia.golubb@gmail.com",
+        "linked_password": "23mCzZ8U6r",
+        "email_login": "anastasiia.golubb@gmail.com",
+        "email_password": "23mCzZ8U6r",
+        "created_date": "2022-05-31",
+        "agent_id": "1059",
+        "status_id": "4",
+        "country_id": "272",
+        "source_id": "13",
+        "placement_id": "1",
+        "is_approved_manager": "1",
+        "created_at": "2022-05-31T09:21:37.000000Z",
+        "updated_at": "2025-10-28T08:01:43.000000Z",
+        "status": {
+          "id": 4,
+          "company_id": "1",
+          "name": "LG",
+          "created_at": "2020-09-04T13:03:19.000000Z",
+          "updated_at": "2020-09-04T13:03:19.000000Z"
+        },
+        "country": {
+          "id": 272,
+          "name": "United Kingdom",
+          "iso": "GB",
+          "iso_numeric": "0",
+          "phonecode": "0"
+        },
+        "source": {
+          "id": 13,
+          "company_id": "1",
+          "type": "linkedin"
+        },
+        "agent": {
+          "id": 1059,
+          "company_id": "1",
+          "user_id": "9110",
+          "status": "enabled",
+          "user": {
+            "id": 9110,
+            "name": "Айзек Арчибонг",
+            "email": "archibong222@gmail.com",
+            "image_url": "https://crm-s.com/img/default-profile-3.png"
+          }
+        }
+      },
+      "lead_corporation_details": [
+        {
+          "id": 14839528,
+          "company_id": "1",
+          "lead_id": "1142224",
+          "client_details_id": "7074",
+          "contact_type_id": "1",
+          "value": "https://www.linkedin.com/company/carbice",
+          "created_at": "2025-09-15T06:55:41.000000Z",
+          "updated_at": "2025-10-16T12:35:28.000000Z"
+        }
+      ],
+      "country": {
+        "id": 240,
+        "name": "USA",
+        "iso": "US",
+        "iso_numeric": "0",
+        "phonecode": "0"
+      },
+      "sales_managers": {
+        "id": 7862,
+        "name": "Ковальская Анастасия Владимировна",
+        "email": "avkovalska23@gmail.com",
+        "image_url": "https://crm-s.com/img/default-profile-3.png"
+      },
+      "status": {
+        "id": 7,
+        "company_id": "1",
+        "name": "Client",
+        "created_at": "2020-10-26T13:09:46.000000Z",
+        "updated_at": "2020-10-26T13:09:46.000000Z"
+      },
+      "lead_id": {
+        "id": 1142224,
+        "company_id": "1",
+        "created_by": "9110",
+        "client_id": "9226",
+        "client_details_id": "7074",
+        "placement_id": "76",
+        "status_id": "20",
+        "column_priority": "0",
+        "type_id": "2",
+        "agent_id": "1059",
+        "company_name": "Carbice",
+        "countries_id": "240",
+        "website": "http://www.carbice.com",
+        "size_id": "5",
+        "account_id": "1245",
+        "industry_id": "1176",
+        "next_follow_up": "yes",
+        "year_establishment_company": "2011",
+        "value": "0"
+      },
+      "lead_type": {
+        "id": 2,
+        "company_id": "1",
+        "name": "Customer"
+      },
+      "_source_file": "Client_cluster_0001.json",
+      "_source_type": "crm_export"
+    },
+    {
+      "id": 7073,
+      "client_id": "1142738",
+      "company_id": "1",
+      "user_id": "9225",
+      "created_by": {
+        "id": 7862,
+        "name": "Ковальская Анастасия Владимировна",
+        "email": "avkovalska23@gmail.com",
+        "image_url": "https://crm-s.com/img/default-profile-3.png"
+      },
+      "name": "Daren Wilson",
+      "company_name": "HealthSeed AG",
+      "countries_id": "40",
+      "size_id": "1",
+      "account_id": "1116",
+      "industry_id": "1190",
+      "website": "https://www.linkedin.com/company/healthseed",
+      "email_notifications": "0",
+      "lead_status_id": "20",
+      "type_id": "2",
+      "placement_id": "76",
+      "verified": "0",
+      "sales_manager": "7862",
+      "lg_manager_id": "1037",
+      "status_id": "7",
+      "image_url": "https://crm-s.com/img/default-profile-2.png",
+      "user": {
+        "id": 9225,
+        "name": "HealthSeed AG",
+        "email": "healthseed_ag@mail.com",
+        "image_url": "https://crm-s.com/img/default-profile-3.png"
+      },
+      "project_companies": [
+        {
+          "id": 1,
+          "company_id": "1",
+          "name": "Remote Helpers",
+          "website": "https://www.rh-s.com/",
+          "short_name": "rh-s.com",
+          "updated_at": "2024-01-05T06:56:45.000000Z",
+          "pivot": {
+            "client_details_id": "7073",
+            "project_id": "1"
+          }
+        }
+      ],
+      "lead_source": {
+        "id": 76,
+        "company_id": "1",
+        "name": "LinkedIn Extension",
+        "category_id": "3",
+        "created_at": "2024-01-17T13:26:23.000000Z",
+        "updated_at": "2024-03-04T08:24:11.000000Z"
+      },
+      "lead_agent": {
+        "id": 1037,
+        "company_id": "1",
+        "user_id": "8932",
+        "status": "enabled",
+        "user": {
+          "id": 8932,
+          "name": "Давлатмамадова Фируза",
+          "email": "davlatmamadova.firuza@bk.ru",
+          "image_url": "https://crm-s.com/img/default-profile-3.png"
+        }
+      },
+      "lead_status": {
+        "id": 20,
+        "company_id": "1",
+        "type": "Call",
+        "priority": "8",
+        "default": "0",
+        "label_color": "#ff0000"
+      },
+      "lead_company_size": {
+        "id": 1,
+        "company_id": "1",
+        "title": "2...10",
+        "created_at": "2020-09-04T08:45:50.000000Z",
+        "updated_at": "2020-09-04T08:45:50.000000Z"
+      },
+      "lead_company_industry": {
+        "id": 1190,
+        "company_id": "1",
+        "group_id": "1190",
+        "status_id": "1",
+        "status_addition": "pending",
+        "title": "Business",
+        "created_at": "2023-07-03T06:15:17.000000Z",
+        "updated_at": "2023-07-03T06:15:17.000000Z"
+      },
+      "sub_industries": [
+        {
+          "id": 147,
+          "company_id": "1",
+          "name": "Business Consulting and Services",
+          "industry_id": "1190",
+          "created_at": "2024-12-16T09:34:38.000000Z",
+          "updated_at": "2025-01-08T07:45:05.000000Z",
+          "pivot": {
+            "client_details_id": "7073",
+            "sub_industry_id": "147"
+          }
+        }
+      ],
+      "lead_account": {
+        "id": 1116,
+        "company_id": "1",
+        "project_company_id": "1",
+        "name": "Oksana Kharchenko",
+        "link": "https://www.linkedin.com/in/oksana-kharchenko/",
+        "connections": "614",
+        "premium": "0",
+        "linked_login": "oksana.kharchenko12@gmail.com",
+        "linked_password": "7Lu9cS9Z7i",
+        "email_login": "oksana.kharchenko12@gmail.com",
+        "email_password": "7Lu9cS9Z7i",
+        "created_date": "2022-04-04",
+        "agent_id": "1037",
+        "status_id": "4",
+        "country_id": "106",
+        "source_id": "13",
+        "placement_id": "1",
+        "is_approved_manager": "1",
+        "created_at": "2022-04-04T08:29:08.000000Z",
+        "updated_at": "2025-10-14T15:21:51.000000Z",
+        "status": {
+          "id": 4,
+          "company_id": "1",
+          "name": "LG",
+          "created_at": "2020-09-04T13:03:19.000000Z",
+          "updated_at": "2020-09-04T13:03:19.000000Z"
+        },
+        "country": {
+          "id": 106,
+          "name": "Israel",
+          "iso": "IL",
+          "iso3": "IS",
+          "iso_numeric": "0",
+          "phonecode": "0"
+        },
+        "source": {
+          "id": 13,
+          "company_id": "1",
+          "type": "linkedin"
+        },
+        "agent": {
+          "id": 1037,
+          "company_id": "1",
+          "user_id": "8932",
+          "status": "enabled",
+          "user": {
+            "id": 8932,
+            "name": "Давлатмамадова Фируза",
+            "email": "davlatmamadova.firuza@bk.ru",
+            "image_url": "https://crm-s.com/img/default-profile-3.png"
+          }
+        }
+      },
+      "lead_corporation_details": [
+        {
+          "id": 14840607,
+          "company_id": "1",
+          "lead_id": "1142738",
+          "client_details_id": "7073",
+          "contact_type_id": "1",
+          "value": "https://www.linkedin.com/company/healthseed",
+          "created_at": "2025-09-16T16:50:02.000000Z",
+          "updated_at": "2025-10-16T11:37:20.000000Z"
+        }
+      ],
+      "country": {
+        "id": 40,
+        "name": "Switzerland",
+        "iso": "CH",
+        "iso3": "CH",
+        "iso_numeric": "0",
+        "phonecode": "0"
+      },
+      "sales_managers": {
+        "id": 7862,
+        "name": "Ковальская Анастасия Владимировна",
+        "email": "avkovalska23@gmail.com",
+        "image_url": "https://crm-s.com/img/default-profile-3.png"
+      },
+      "status": {
+        "id": 7,
+        "company_id": "1",
+        "name": "Client",
+        "created_at": "2020-10-26T13:09:46.000000Z",
+        "updated_at": "2020-10-26T13:09:46.000000Z"
+      },
+      "lead_id": {
+        "id": 1142738,
+        "company_id": "1",
+        "created_by": "8932",
+        "client_id": "9225",
+        "client_details_id": "7073",
+        "placement_id": "76",
+        "status_id": "20",
+        "column_priority": "0",
+        "type_id": "2",
+        "agent_id": "1037",
+        "company_name": "HealthSeed AG",
+        "countries_id": "40",
+        "website": "https://www.linkedin.com/company/healthseed",
+        "size_id": "1",
+        "account_id": "1116",
+        "industry_id": "1190",
+        "next_follow_up": "yes",
+        "year_establishment_company": "2025",
+        "value": "0"
+      },
+      "lead_type": {
+        "id": 2,
+        "company_id": "1",
+        "name": "Customer"
+      },
+      "_source_file": "Client_cluster_0001.json",
+      "_source_type": "crm_export"
+    },
+    {
+      "id": 5473,
+      "client_id": "40088",
+      "company_id": "1",
+      "user_id": "6971",
+      "name": "Martin Reznicek",
+      "email": "reznicek@gco-agentur.de",
+      "company_name": "GCO Medienagentur",
+      "countries_id": "57",
+      "size_id": "1",
+      "account_id": "618",
+      "industry_id": "1",
+      "website": "https://gco-agentur.de",
+      "note": "Updated\nWe are going to discuss options for partnership in managing human resources for GCO Medienagentur in Ukraine. \n\nWebsite: rh-s.com\n\nCompany website: https://gco-agentur.de\n\nComments: Martin Reznicek  \n\n(https://www.linkedin.com/in/martin-reznicek-628798ba/)\n\nThe lead is interested in graphic designers and content managers who speak German, I said that there are none, but asked if an English-speaking employee who would work with a translator would be suitable for them. He said you can try.\n\nManager: Korzhova Liudmyla",
+      "email_notifications": "0",
+      "lead_status_id": "20",
+      "type_id": "2",
+      "lead_source_id": "13",
+      "placement_id": "1",
+      "verified": "0",
+      "sales_manager": "7862",
+      "lg_manager_id": "574",
+      "status_id": "7",
+      "image_url": "https://crm-s.com/img/default-profile-2.png",
+      "user": {
+        "id": 6971,
+        "name": "Martin Reznicek",
+        "email": "reznicek@gco-agentur.de",
+        "image_url": "https://crm-s.com/img/default-profile-3.png"
+      },
+      "project_companies": [
+        {
+          "id": 1,
+          "company_id": "1",
+          "name": "Remote Helpers",
+          "website": "https://www.rh-s.com/",
+          "short_name": "rh-s.com",
+          "updated_at": "2024-01-05T06:56:45.000000Z",
+          "pivot": {
+            "client_details_id": "5473",
+            "project_id": "1"
+          }
+        }
+      ],
+      "client_candidates": [
+        {
+          "id": 4182,
+          "user_id": "3881",
+          "client_detail_id": "5473",
+          "status_id": "1",
+          "interview_date": "2022-11-16",
+          "time_interview": "2022-11-17T15:00:00.000000Z",
+          "comment": "interested",
+          "department_id": "13",
+          "position_id": "159",
+          "is_payment_vacancy": "0",
+          "approved_bonus": "1",
+          "approved_bonus_interview": "1",
+          "created_at": "2022-11-17T12:28:34.000000Z",
+          "updated_at": "2023-02-20T06:35:22.000000Z",
+          "time": "15:00"
+        },
+        {
+          "id": 5408,
+          "user_id": "9033",
+          "client_detail_id": "5473",
+          "status_id": "2",
+          "employment_status_id": "1",
+          "hours": "160",
+          "interview_date": "2025-10-20",
+          "time_interview": "2025-10-27T11:00:00.000000Z",
+          "start_date": "2025-10-23",
+          "price": "1500",
+          "currency_id": "3",
+          "department_id": "23",
+          "position_id": "179",
+          "is_payment_vacancy": "0",
+          "approved_bonus": "1",
+          "approved_bonus_interview": "1",
+          "added_by": "7862",
+          "last_updated_by": "7862",
+          "created_at": "2025-10-27T09:08:38.000000Z",
+          "updated_at": "2025-10-27T09:08:38.000000Z",
+          "time": "11:00"
+        }
+      ],
+      "lead_source": {
+        "id": 1,
+        "company_id": "1",
+        "name": "LinkedIn",
+        "category_id": "2",
+        "created_at": "2020-10-26T13:09:46.000000Z",
+        "updated_at": "2024-01-05T07:05:34.000000Z"
+      },
+      "lead_agent": {
+        "id": 574,
+        "company_id": "1",
+        "user_id": "5972",
+        "status": "enabled",
+        "user": {
+          "id": 5972,
+          "name": "Коржова Людмила Сергеевна",
+          "email": "ludakorzova@gmail.com",
+          "image_url": "https://crm-s.com/img/default-profile-3.png"
+        }
+      },
+      "lead_status": {
+        "id": 20,
+        "company_id": "1",
+        "type": "Call",
+        "priority": "8",
+        "default": "0",
+        "label_color": "#ff0000"
+      },
+      "lead_company_size": {
+        "id": 1,
+        "company_id": "1",
+        "title": "2...10",
+        "created_at": "2020-09-04T08:45:50.000000Z",
+        "updated_at": "2020-09-04T08:45:50.000000Z"
+      },
+      "lead_company_industry": {
+        "id": 1,
+        "company_id": "1",
+        "group_id": "1",
+        "status_id": "1",
+        "status_addition": "pending",
+        "title": "Online Media",
+        "created_at": "2020-09-04T08:45:50.000000Z",
+        "updated_at": "2020-09-04T08:45:50.000000Z"
+      },
+      "lead_account": {
+        "id": 618,
+        "company_id": "1",
+        "project_company_id": "1",
+        "name": "Karabadzhak Valeriia",
+        "link": "https://www.linkedin.com/in/valeriia-karabadzhak-7a712b206/",
+        "connections": "2458",
+        "premium": "0",
+        "linked_login": "valeriia.karabadzhak@gmail.com",
+        "linked_password": "iUd5EF33v2",
+        "email_login": "valeriia.karabadzhak@gmail.com",
+        "email_password": "iUd5EF33v2",
+        "created_date": "2021-02-08",
+        "status_id": "3",
+        "country_id": "57",
+        "source_id": "13",
+        "placement_id": "1",
+        "is_approved_manager": "1",
+        "created_at": "2021-02-08T09:02:17.000000Z",
+        "updated_at": "2025-11-03T15:22:24.000000Z",
+        "status": {
+          "id": 3,
+          "company_id": "1",
+          "name": "Free",
+          "created_at": "2020-09-04T13:03:19.000000Z",
+          "updated_at": "2020-09-04T13:03:19.000000Z"
+        },
+        "country": {
+          "id": 57,
+          "name": "Germany",
+          "iso": "DE",
+          "iso3": "DE",
+          "iso_numeric": "0",
+          "phonecode": "0"
+        },
+        "source": {
+          "id": 13,
+          "company_id": "1",
+          "type": "linkedin"
+        }
+      },
+      "lead_corporation_details": [
+        {
+          "id": 134600,
+          "company_id": "1",
+          "lead_id": "40088",
+          "client_details_id": "5473",
+          "contact_type_id": "1",
+          "value": "https://www.linkedin.com/in/martin-reznicek-628798ba/#experience-section"
+        }
+      ],
+      "country": {
+        "id": 57,
+        "name": "Germany",
+        "iso": "DE",
+        "iso3": "DE",
+        "iso_numeric": "0",
+        "phonecode": "0"
+      },
+      "sales_managers": {
+        "id": 7862,
+        "name": "Ковальская Анастасия Владимировна",
+        "email": "avkovalska23@gmail.com",
+        "image_url": "https://crm-s.com/img/default-profile-3.png"
+      },
+      "status": {
+        "id": 7,
+        "company_id": "1",
+        "name": "Client",
+        "created_at": "2020-10-26T13:09:46.000000Z",
+        "updated_at": "2020-10-26T13:09:46.000000Z"
+      },
+      "need_candidates": [
+        {
+          "id": 3415,
+          "client_detail_id": "5473",
+          "lead_id": "40088",
+          "is_lead": "0",
+          "department_id": "14",
+          "date_open_sales": "2022-11-08T00:00:00.000000Z",
+          "comment_requirements": "good German, cause they have regular meetings in German( ready to wait 2 weeks)",
+          "count_employees": "1",
+          "status_id": "4",
+          "last_updated_by": "7862",
+          "created_at": "2022-11-08T12:41:08.000000Z",
+          "updated_at": "2025-10-27T09:08:38.000000Z",
+          "positions": [
+            {
+              "id": 7,
+              "company_id": "1",
+              "name": "Content manager",
+              "status_addition": "pending",
+              "position_id": "7",
+              "status_id": "1",
+              "full_price": "1750",
+              "part_price": "1100",
+              "minimum_price": "700",
+              "currency_id": "3",
+              "actual": "1",
+              "url_meet": "http://meet.google.com/zqr-rrya-tgr",
+              "created_at": "2020-12-15T09:45:39.000000Z",
+              "updated_at": "2023-12-21T12:38:35.000000Z",
+              "department_id": "14",
+              "pivot": {
+                "client_needed_id": "3415",
+                "position_id": "7"
+              }
+            }
+          ],
+          "last_updated": {
+            "id": 7862,
+            "name": "Ковальская Анастасия Владимировна",
+            "email": "avkovalska23@gmail.com",
+            "image_url": "https://crm-s.com/img/default-profile-3.png"
+          },
+          "client_detail": {
+            "id": 5473,
+            "client_id": "40088",
+            "company_id": "1",
+            "user_id": "6971",
+            "created_by": "5854",
+            "name": "Martin Reznicek",
+            "email": "reznicek@gco-agentur.de",
+            "company_name": "GCO Medienagentur",
+            "countries_id": "57",
+            "size_id": "1",
+            "account_id": "618",
+            "industry_id": "1",
+            "website": "https://gco-agentur.de",
+            "note": "Updated\nWe are going to discuss options for partnership in managing human resources for GCO Medienagentur in Ukraine. \n\nWebsite: rh-s.com\n\nCompany website: https://gco-agentur.de\n\nComments: Martin Reznicek  \n\n(https://www.linkedin.com/in/martin-reznicek-628798ba/)\n\nThe lead is interested in graphic designers and content managers who speak German, I said that there are none, but asked if an English-speaking employee who would work with a translator would be suitable for them. He said you can try.\n\nManager: Korzhova Liudmyla",
+            "email_notifications": "0",
+            "lead_status_id": "20",
+            "type_id": "2",
+            "lead_source_id": "13",
+            "placement_id": "1",
+            "verified": "0",
+            "sales_manager": "7862",
+            "sales_manager_assistant": "5854",
+            "lg_manager_id": "574",
+            "status_id": "7",
+            "image_url": "https://crm-s.com/img/default-profile-2.png"
+          },
+          "teams": {
+            "id": 14,
+            "company_id": "1",
+            "team_name": "Marketers",
+            "status_addition": "pending",
+            "department_id": "14",
+            "status_id": "1"
+          },
+          "client_needed_status": {
+            "id": 4,
+            "company_id": "1",
+            "name": "Closed",
+            "created_at": "2021-08-24T07:51:55.000000Z",
+            "updated_at": "2021-08-24T07:51:55.000000Z"
+          }
+        },
+        {
+          "id": 3416,
+          "client_detail_id": "5473",
+          "lead_id": "40088",
+          "is_lead": "0",
+          "department_id": "13",
+          "date_open_sales": "2022-11-08T00:00:00.000000Z",
+          "comment_requirements": "Good German knowledge.",
+          "count_employees": "1",
+          "status_id": "4",
+          "last_updated_by": "7862",
+          "created_at": "2022-11-08T12:42:32.000000Z",
+          "updated_at": "2025-10-27T09:08:38.000000Z",
+          "skills": [
+            {
+              "id": 1,
+              "company_id": "1",
+              "name": "Illustrator (Ai)",
+              "status_addition": "pending"
+            },
+            {
+              "id": 2,
+              "company_id": "1",
+              "name": "Photoshop (Ps)",
+              "status_addition": "pending"
+            },
+            {
+              "id": 6,
+              "company_id": "1",
+              "name": "wordpress",
+              "status_addition": "pending"
+            }
+          ],
+          "positions": [
+            {
+              "id": 28,
+              "company_id": "1",
+              "name": "Graphic Designer",
+              "status_addition": "pending",
+              "position_id": "28",
+              "status_id": "1",
+              "full_price": "1925",
+              "part_price": "1210",
+              "minimum_price": "770",
+              "currency_id": "3",
+              "actual": "1",
+              "url_meet": "http://meet.google.com/fqf-vxgn-qqs",
+              "created_at": "2021-01-19T05:40:48.000000Z",
+              "updated_at": "2025-06-26T08:46:24.000000Z",
+              "department_id": "13",
+              "pivot": {
+                "client_needed_id": "3416",
+                "position_id": "28"
+              }
+            }
+          ],
+          "last_updated": {
+            "id": 7862,
+            "name": "Ковальская Анастасия Владимировна",
+            "email": "avkovalska23@gmail.com",
+            "image_url": "https://crm-s.com/img/default-profile-3.png"
+          },
+          "client_detail": {
+            "id": 5473,
+            "client_id": "40088",
+            "company_id": "1",
+            "user_id": "6971",
+            "created_by": "5854",
+            "name": "Martin Reznicek",
+            "email": "reznicek@gco-agentur.de",
+            "company_name": "GCO Medienagentur",
+            "countries_id": "57",
+            "size_id": "1",
+            "account_id": "618",
+            "industry_id": "1",
+            "website": "https://gco-agentur.de",
+            "note": "Updated\nWe are going to discuss options for partnership in managing human resources for GCO Medienagentur in Ukraine. \n\nWebsite: rh-s.com\n\nCompany website: https://gco-agentur.de\n\nComments: Martin Reznicek  \n\n(https://www.linkedin.com/in/martin-reznicek-628798ba/)\n\nThe lead is interested in graphic designers and content managers who speak German, I said that there are none, but asked if an English-speaking employee who would work with a translator would be suitable for them. He said you can try.\n\nManager: Korzhova Liudmyla",
+            "email_notifications": "0",
+            "lead_status_id": "20",
+            "type_id": "2",
+            "lead_source_id": "13",
+            "placement_id": "1",
+            "verified": "0",
+            "sales_manager": "7862",
+            "sales_manager_assistant": "5854",
+            "lg_manager_id": "574",
+            "status_id": "7",
+            "image_url": "https://crm-s.com/img/default-profile-2.png"
+          },
+          "teams": {
+            "id": 13,
+            "company_id": "1",
+            "team_name": "Designers",
+            "status_addition": "pending",
+            "department_id": "13",
+            "status_id": "1"
+          },
+          "client_needed_status": {
+            "id": 4,
+            "company_id": "1",
+            "name": "Closed",
+            "created_at": "2021-08-24T07:51:55.000000Z",
+            "updated_at": "2021-08-24T07:51:55.000000Z"
+          }
+        },
+        {
+          "id": 5360,
+          "client_detail_id": "5473",
+          "lead_id": "40088",
+          "is_lead": "0",
+          "department_id": "23",
+          "date_needed": "2025-10-23",
+          "date_open_sales": "2025-10-20T00:00:00.000000Z",
+          "date_close_sales": "2025-10-23T00:00:00.000000Z",
+          "count_employees": "1",
+          "status_id": "5",
+          "employment_status_id": "1",
+          "added_by": "7862",
+          "last_updated_by": "7862",
+          "created_at": "2025-10-27T08:56:54.000000Z",
+          "updated_at": "2025-10-27T09:08:38.000000Z",
+          "positions": [
+            {
+              "id": 179,
+              "company_id": "1",
+              "name": "Data entry specialist",
+              "status_addition": "pending",
+              "position_id": "17",
+              "status_id": "2",
+              "actual": "0",
+              "created_at": "2023-10-11T11:01:13.000000Z",
+              "updated_at": "2023-11-07T12:06:48.000000Z",
+              "department_id": "23",
+              "pivot": {
+                "client_needed_id": "5360",
+                "position_id": "179"
+              }
+            }
+          ],
+          "added": {
+            "id": 7862,
+            "name": "Ковальская Анастасия Владимировна",
+            "email": "avkovalska23@gmail.com",
+            "image_url": "https://crm-s.com/img/default-profile-3.png"
+          },
+          "last_updated": {
+            "id": 7862,
+            "name": "Ковальская Анастасия Владимировна",
+            "email": "avkovalska23@gmail.com",
+            "image_url": "https://crm-s.com/img/default-profile-3.png"
+          },
+          "client_detail": {
+            "id": 5473,
+            "client_id": "40088",
+            "company_id": "1",
+            "user_id": "6971",
+            "created_by": "5854",
+            "name": "Martin Reznicek",
+            "email": "reznicek@gco-agentur.de",
+            "company_name": "GCO Medienagentur",
+            "countries_id": "57",
+            "size_id": "1",
+            "account_id": "618",
+            "industry_id": "1",
+            "website": "https://gco-agentur.de",
+            "note": "Updated\nWe are going to discuss options for partnership in managing human resources for GCO Medienagentur in Ukraine. \n\nWebsite: rh-s.com\n\nCompany website: https://gco-agentur.de\n\nComments: Martin Reznicek  \n\n(https://www.linkedin.com/in/martin-reznicek-628798ba/)\n\nThe lead is interested in graphic designers and content managers who speak German, I said that there are none, but asked if an English-speaking employee who would work with a translator would be suitable for them. He said you can try.\n\nManager: Korzhova Liudmyla",
+            "email_notifications": "0",
+            "lead_status_id": "20",
+            "type_id": "2",
+            "lead_source_id": "13",
+            "placement_id": "1",
+            "verified": "0",
+            "sales_manager": "7862",
+            "sales_manager_assistant": "5854",
+            "lg_manager_id": "574",
+            "status_id": "7",
+            "image_url": "https://crm-s.com/img/default-profile-2.png"
+          },
+          "teams": {
+            "id": 23,
+            "company_id": "1",
+            "team_name": "Managers",
+            "status_addition": "pending",
+            "department_id": "23",
+            "status_id": "1"
+          },
+          "client_needed_status": {
+            "id": 5,
+            "company_id": "1",
+            "name": "Hired",
+            "created_at": "2021-08-24T07:51:55.000000Z",
+            "updated_at": "2021-08-24T07:51:55.000000Z"
+          },
+          "employment_statuses": {
+            "id": 1,
+            "company_id": "1",
+            "name": "Full Time",
+            "description": "(160 hours) 5 days per week,  8 hours per day+1 hour lunch",
+            "created_at": "2021-08-24T05:38:53.000000Z",
+            "updated_at": "2024-02-07T11:19:25.000000Z"
+          },
+          "send_employee": [
+            {
+              "id": 572,
+              "client_needed_id": "5360",
+              "sent_date": "2025-10-20",
+              "user_id": "9033",
+              "status_id": "1",
+              "is_interview_candidate": "1",
+              "created_at": "2025-10-27T08:56:54.000000Z",
+              "updated_at": "2025-10-27T08:56:54.000000Z"
+            }
+          ]
+        }
+      ],
+      "lead_id": {
+        "id": 40088,
+        "company_id": "1",
+        "client_id": "6971",
+        "client_details_id": "5473",
+        "source_id": "13",
+        "placement_id": "1",
+        "status_id": "20",
+        "column_priority": "0",
+        "type_id": "2",
+        "agent_id": "574",
+        "company_name": "GCO Medienagentur",
+        "countries_id": "57",
+        "website": "https://gco-agentur.de",
+        "size_id": "1",
+        "account_id": "618",
+        "industry_id": "1",
+        "client_name": "Martin Reznicek",
+        "note": "Updated\nWe are going to discuss options for partnership in managing human resources for GCO Medienagentur in Ukraine. \n\nWebsite: rh-s.com\n\nCompany website: https://gco-agentur.de\n\nComments: Martin Reznicek  \n\n(https://www.linkedin.com/in/martin-reznicek-628798ba/)\n\nThe lead is interested in graphic designers and content managers who speak German, I said that there are none, but asked if an English-speaking employee who would work with a translator would be suitable for them. He said you can try.\n\nManager: Korzhova Liudmyla",
+        "next_follow_up": "yes",
+        "value": "0"
+      },
+      "lead_type": {
+        "id": 2,
+        "company_id": "1",
+        "name": "Customer"
+      },
+      "_source_file": "Client_cluster_0001.json",
+      "_source_type": "crm_export"
+    },
+    {
+      "id": 6833,
+      "client_id": "1103518",
+      "company_id": "1",
+      "user_id": "8883",
+      "name": "Academic Studies Press",
+      "email": "academic_studies_press@mail.com",
+      "company_name": "Academic Studies Press",
+      "countries_id": "272",
+      "size_id": "1",
+      "account_id": "484",
+      "industry_id": "44",
+      "website": "http://www.academicstudiespress.com",
+      "note": "Yes that should work - could do 11 or 12 (UK time)",
+      "email_notifications": "0",
+      "lead_status_id": "20",
+      "type_id": "2",
+      "placement_id": "76",
+      "verified": "0",
+      "sales_manager": "7862",
+      "lg_manager_id": "980",
+      "status_id": "7",
+      "image_url": "https://crm-s.com/img/default-profile-2.png",
+      "user": {
+        "id": 8883,
+        "name": "Academic Studies Press",
+        "email": "academic_studies_press@mail.com",
+        "image_url": "https://crm-s.com/img/default-profile-3.png"
+      },
+      "project_companies": [
+        {
+          "id": 1,
+          "company_id": "1",
+          "name": "Remote Helpers",
+          "website": "https://www.rh-s.com/",
+          "short_name": "rh-s.com",
+          "updated_at": "2024-01-05T06:56:45.000000Z",
+          "pivot": {
+            "client_details_id": "6833",
+            "project_id": "1"
+          }
+        }
+      ],
+      "client_candidates": [
+        {
+          "id": 5289,
+          "user_id": "4759",
+          "client_detail_id": "6833",
+          "status_id": "2",
+          "employment_status_id": "1",
+          "hours": "160",
+          "interview_date": "2025-01-13",
+          "time_interview": "2025-01-28T13:30:00.000000Z",
+          "start_date": "2025-01-20",
+          "price": "1000",
+          "currency_id": "3",
+          "department_id": "23",
+          "position_id": "17",
+          "is_payment_vacancy": "0",
+          "approved_bonus": "1",
+          "approved_bonus_interview": "1",
+          "added_by": "8709",
+          "last_updated_by": "333",
+          "created_at": "2025-01-13T14:43:57.000000Z",
+          "updated_at": "2025-01-28T07:56:27.000000Z",
+          "time": "13:30"
+        },
+        {
+          "id": 5290,
+          "user_id": "8797",
+          "client_detail_id": "6833",
+          "status_id": "1",
+          "interview_date": "2025-01-13",
+          "time_interview": "2025-01-28T13:30:00.000000Z",
+          "department_id": "23",
+          "position_id": "17",
+          "is_payment_vacancy": "0",
+          "approved_bonus": "1",
+          "approved_bonus_interview": "1",
+          "added_by": "8709",
+          "last_updated_by": "333",
+          "created_at": "2025-01-13T14:46:30.000000Z",
+          "updated_at": "2025-01-28T07:56:27.000000Z",
+          "time": "13:30"
+        }
+      ],
+      "lead_source": {
+        "id": 76,
+        "company_id": "1",
+        "name": "LinkedIn Extension",
+        "category_id": "3",
+        "created_at": "2024-01-17T13:26:23.000000Z",
+        "updated_at": "2024-03-04T08:24:11.000000Z"
+      },
+      "lead_agent": {
+        "id": 980,
+        "company_id": "1",
+        "user_id": "8463",
+        "status": "enabled",
+        "user": {
+          "id": 8463,
+          "name": "Ивженко Данил Андреевич",
+          "email": "ivzhenkodanil@gmail.com",
+          "image_url": "https://crm-s.com/img/default-profile-3.png"
+        }
+      },
+      "lead_status": {
+        "id": 20,
+        "company_id": "1",
+        "type": "Call",
+        "priority": "8",
+        "default": "0",
+        "label_color": "#ff0000"
+      },
+      "lead_company_size": {
+        "id": 1,
+        "company_id": "1",
+        "title": "2...10",
+        "created_at": "2020-09-04T08:45:50.000000Z",
+        "updated_at": "2020-09-04T08:45:50.000000Z"
+      },
+      "lead_company_industry": {
+        "id": 44,
+        "company_id": "1",
+        "group_id": "44",
+        "status_id": "1",
+        "status_addition": "pending",
+        "title": "Publishing",
+        "created_at": "2020-09-04T08:45:50.000000Z",
+        "updated_at": "2020-09-04T08:45:50.000000Z"
+      },
+      "sub_industries": [
+        {
+          "id": 207,
+          "company_id": "1",
+          "name": "Book and Periodical Publishing",
+          "industry_id": "44",
+          "created_at": "2024-12-16T09:34:39.000000Z",
+          "updated_at": "2025-02-17T10:41:09.000000Z",
+          "pivot": {
+            "client_details_id": "6833",
+            "sub_industry_id": "207"
+          }
+        }
+      ],
+      "lead_account": {
+        "id": 484,
+        "company_id": "1",
+        "project_company_id": "1",
+        "name": "Julia Letaeva",
+        "link": "https://www.linkedin.com/in/julia-letaeva-85402b1bb/",
+        "connections": "2285",
+        "premium": "1",
+        "linked_login": "julia.letaeva7@gmail.com",
+        "linked_password": "T89A84Diha",
+        "email_login": "julia.letaeva7@gmail.com",
+        "email_password": "T89A84Diha",
+        "created_date": "2020-11-02",
+        "status_id": "6",
+        "country_id": "40",
+        "source_id": "13",
+        "placement_id": "1",
+        "is_approved_manager": "1",
+        "created_at": "2020-11-02T10:50:50.000000Z",
+        "updated_at": "2025-09-29T07:29:45.000000Z",
+        "status": {
+          "id": 6,
+          "company_id": "1",
+          "name": "Banned",
+          "created_at": "2020-09-04T13:03:22.000000Z",
+          "updated_at": "2020-09-04T13:03:22.000000Z"
+        },
+        "country": {
+          "id": 40,
+          "name": "Switzerland",
+          "iso": "CH",
+          "iso3": "CH",
+          "iso_numeric": "0",
+          "phonecode": "0"
+        },
+        "source": {
+          "id": 13,
+          "company_id": "1",
+          "type": "linkedin"
+        }
+      },
+      "lead_corporation_details": [
+        {
+          "id": 14747653,
+          "company_id": "1",
+          "lead_id": "1103518",
+          "client_details_id": "6833",
+          "contact_type_id": "1",
+          "value": "https://www.linkedin.com/company/academic-studies-press",
+          "created_at": "2025-01-06T10:30:25.000000Z",
+          "updated_at": "2025-01-09T11:49:54.000000Z"
+        },
+        {
+          "id": 14747654,
+          "company_id": "1",
+          "lead_id": "1103518",
+          "client_details_id": "6833",
+          "contact_type_id": "19",
+          "value": "https://www.facebook.com/AcademicStudies/",
+          "created_at": "2025-01-06T10:30:25.000000Z",
+          "updated_at": "2025-01-09T11:49:54.000000Z"
+        },
+        {
+          "id": 14747655,
+          "company_id": "1",
+          "lead_id": "1103518",
+          "client_details_id": "6833",
+          "contact_type_id": "13",
+          "value": "https://www.instagram.com/academicstudiespress/",
+          "created_at": "2025-01-06T10:30:25.000000Z",
+          "updated_at": "2025-01-09T11:49:54.000000Z"
+        }
+      ],
+      "country": {
+        "id": 272,
+        "name": "United Kingdom",
+        "iso": "GB",
+        "iso_numeric": "0",
+        "phonecode": "0"
+      },
+      "sales_managers": {
+        "id": 7862,
+        "name": "Ковальская Анастасия Владимировна",
+        "email": "avkovalska23@gmail.com",
+        "image_url": "https://crm-s.com/img/default-profile-3.png"
+      },
+      "status": {
+        "id": 7,
+        "company_id": "1",
+        "name": "Client",
+        "created_at": "2020-10-26T13:09:46.000000Z",
+        "updated_at": "2020-10-26T13:09:46.000000Z"
+      },
+      "need_candidates": [
+        {
+          "id": 5223,
+          "client_detail_id": "6833",
+          "lead_id": "1103518",
+          "is_lead": "1",
+          "department_id": "23",
+          "demand_date": "2025-01-09T00:00:00.000000Z",
+          "date_open_sales": "2025-01-13T00:00:00.000000Z",
+          "comment_requirements": "Acquisitions Assistant \n\nResponsibilities include:\n\n- Assisting the acquisitions team in acquiring new manuscripts and developing new series: extensive market research for opportunities in several academic fields, contacting potential authors \n- Keeping uptodate identify trends in relevant fields of research and academic publishing in general \n- Preparing P&Ls and ensuring financial viability of projects\n- Assessing submitted manuscripts for quality and completeness \n- researching grant opportunities and preparing applications together with the rest of the team\n- Representing the press at events and conferences in person and online\n- manage correspondence with authors and other departments \n\nCandidate specifications :\n\n- Experience in academic and publishing fields desirable\n- Experience working in an international setting (English-speaking)\n- A relevant degree in the humanities, social sciences, or publishing\n- Business-level written and spoken English \n- Market research experience\n- Comfortable working under pressure, meeting strict deadlines and targets\n- Comfortable communicating at all levels and in an international environment\n- Business acumen and experience in assessing financial viability desirable\n\n\nPublishing Assistant \n\nResponsibilities include:\n\n- Following all pre-production stages of contracted books, from contract signature to production, ensuring timelines are kept, working closely with the editorial team and other teams within the company\n- preparing contract paperwork and invoices \n- Assessing submitted manuscripts for quality and completeness, and arranging their peer review, liaising with series editors (where relevant)\n- finding and assigning peer reviewers, managing peer review process for all manuscripts \n- manage correspondence with authors and other departments \n\nCandidate specifications :\n\n- Experience working in an international setting (English-speaking)\n- excellent time and deadline management skills \n- Business written and spoken English \n- Comfortable working under pressure, meeting strict deadlines and targets, and enforcing them \n- Comfortable working on a variety of tasks at the same time \n- A relevant degree in the humanities or social sciences or publishing an advantage \n- Experience in academic and publishing field desirable\n- chasing team members and authors based on deadlines \n\n---\nFOR BOTH JOBS:\n\nRemote.\nPart time, flexible. Over 50% up to full time would be a combination of the two posts (Acquisitions/Publishing Assistant)\nSalary is the same for both, $1,000 USD pm full time (or pro rata)\nBoth are suitable for fast track to Acquisitions Associate for the right candidate (training provided). \nStart date ASAP.",
+          "count_employees": "1",
+          "status_id": "7",
+          "added_by": "8463",
+          "last_updated_by": "333",
+          "created_at": "2025-01-09T07:29:44.000000Z",
+          "updated_at": "2025-01-14T10:03:20.000000Z",
+          "positions": [
+            {
+              "id": 17,
+              "company_id": "1",
+              "name": "Lead generator",
+              "status_addition": "pending",
+              "position_id": "17",
+              "status_id": "1",
+              "full_price": "1500",
+              "part_price": "1000",
+              "minimum_price": "600",
+              "currency_id": "3",
+              "actual": "1",
+              "url_meet": "http://meet.google.com/aid-xmnk-ktn",
+              "created_at": "2020-12-15T09:45:39.000000Z",
+              "updated_at": "2025-03-31T05:49:23.000000Z",
+              "department_id": "23",
+              "pivot": {
+                "client_needed_id": "5223",
+                "position_id": "17"
+              }
+            }
+          ],
+          "client_detail": {
+            "id": 6833,
+            "client_id": "1103518",
+            "company_id": "1",
+            "user_id": "8883",
+            "created_by": "333",
+            "name": "Academic Studies Press",
+            "email": "academic_studies_press@mail.com",
+            "company_name": "Academic Studies Press",
+            "countries_id": "272",
+            "size_id": "1",
+            "account_id": "484",
+            "industry_id": "44",
+            "website": "http://www.academicstudiespress.com",
+            "note": "Yes that should work - could do 11 or 12 (UK time)",
+            "email_notifications": "0",
+            "lead_status_id": "20",
+            "type_id": "2",
+            "placement_id": "76",
+            "verified": "0",
+            "sales_manager": "7862",
+            "sales_manager_assistant": "5222",
+            "lg_manager_id": "980",
+            "status_id": "7",
+            "image_url": "https://crm-s.com/img/default-profile-2.png"
+          },
+          "teams": {
+            "id": 23,
+            "company_id": "1",
+            "team_name": "Managers",
+            "status_addition": "pending",
+            "department_id": "23",
+            "status_id": "1"
+          },
+          "client_needed_status": {
+            "id": 7,
+            "company_id": "1",
+            "name": "Demand",
+            "updated_at": "2022-09-23T14:09:33.000000Z"
+          },
+          "send_employee": [
+            {
+              "id": 405,
+              "client_needed_id": "5223",
+              "sent_date": "2025-01-13",
+              "user_id": "4759",
+              "status_id": "2",
+              "is_interview_candidate": "1",
+              "created_at": "2025-01-13T14:43:57.000000Z",
+              "updated_at": "2025-01-13T14:43:57.000000Z"
+            },
+            {
+              "id": 406,
+              "client_needed_id": "5223",
+              "sent_date": "2025-01-13",
+              "user_id": "8797",
+              "status_id": "2",
+              "is_interview_candidate": "1",
+              "created_at": "2025-01-13T14:43:57.000000Z",
+              "updated_at": "2025-01-13T14:43:57.000000Z"
+            }
+          ]
+        }
+      ],
+      "lead_id": {
+        "id": 1103518,
+        "company_id": "1",
+        "created_by": "8463",
+        "client_id": "8883",
+        "client_details_id": "6833",
+        "placement_id": "76",
+        "status_id": "20",
+        "column_priority": "0",
+        "type_id": "2",
+        "agent_id": "980",
+        "company_name": "Academic Studies Press",
+        "countries_id": "272",
+        "website": "http://www.academicstudiespress.com",
+        "size_id": "1",
+        "account_id": "484",
+        "industry_id": "44",
+        "note": "Yes that should work - could do 11 or 12 (UK time)",
+        "next_follow_up": "yes",
+        "year_establishment_company": "2007",
+        "value": "0"
+      },
+      "lead_type": {
+        "id": 2,
+        "company_id": "1",
+        "name": "Customer"
+      },
+      "_source_file": "Client_cluster_0001.json",
+      "_source_type": "crm_export"
+    }
+  ]
+}

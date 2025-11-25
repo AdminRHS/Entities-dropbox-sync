@@ -1,0 +1,416 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Account Management Responsibilities",
+  "description": "Action-Object mappings for account management operations integrated with ENTITIES taxonomy",
+  "version": "1.0",
+  "last_updated": "2025-11-18",
+  "category": "Account Management",
+  "responsibilities": [
+    {
+      "responsibility_id": "RESP-OPS-ACC-001",
+      "primary_phrase": "create account",
+      "action_base": "create",
+      "object_base": "account",
+      "departments": ["OPS", "HR"],
+      "description": "Create a new platform/tool account",
+      "complexity": "medium",
+      "estimated_time_minutes": 15,
+      "prerequisites": [
+        "Tool access",
+        "Account credentials",
+        "Owner assignment"
+      ],
+      "required_permissions": ["account:create"],
+      "api_endpoint": "POST /api/accounts",
+      "is_active": true
+    },
+    {
+      "responsibility_id": "RESP-OPS-ACC-002",
+      "primary_phrase": "update account",
+      "action_base": "update",
+      "object_base": "account",
+      "departments": ["OPS", "HR"],
+      "description": "Update existing account information",
+      "complexity": "low",
+      "estimated_time_minutes": 5,
+      "prerequisites": [
+        "Account exists",
+        "Update permissions"
+      ],
+      "required_permissions": ["account:write"],
+      "api_endpoint": "PUT /api/accounts/:id",
+      "is_active": true
+    },
+    {
+      "responsibility_id": "RESP-OPS-ACC-003",
+      "primary_phrase": "delete account",
+      "action_base": "delete",
+      "object_base": "account",
+      "departments": ["OPS"],
+      "description": "Delete or archive an account",
+      "complexity": "medium",
+      "estimated_time_minutes": 10,
+      "prerequisites": [
+        "Account exists",
+        "No active dependencies",
+        "Admin permissions"
+      ],
+      "required_permissions": ["account:delete"],
+      "api_endpoint": "DELETE /api/accounts/:id",
+      "is_active": true
+    },
+    {
+      "responsibility_id": "RESP-OPS-ACC-004",
+      "primary_phrase": "verify account",
+      "action_base": "verify",
+      "object_base": "account",
+      "departments": ["OPS", "HR"],
+      "description": "Verify account using another account (email/phone)",
+      "complexity": "high",
+      "estimated_time_minutes": 20,
+      "prerequisites": [
+        "Verification account exists",
+        "Verification method configured",
+        "Access to verification code"
+      ],
+      "required_permissions": ["account:write", "verification:create"],
+      "api_endpoint": "POST /api/accounts/:id/verifications",
+      "is_active": true
+    },
+    {
+      "responsibility_id": "RESP-OPS-ACC-005",
+      "primary_phrase": "assign user to account",
+      "action_base": "assign",
+      "object_base": "user to account",
+      "departments": ["OPS", "HR"],
+      "description": "Assign employee to account for access management",
+      "complexity": "low",
+      "estimated_time_minutes": 5,
+      "prerequisites": [
+        "Account exists",
+        "Employee exists in TALENTS",
+        "Assignment permissions"
+      ],
+      "required_permissions": ["account:write", "user_assignment:create"],
+      "api_endpoint": "POST /api/accounts/:id/users",
+      "is_active": true
+    },
+    {
+      "responsibility_id": "RESP-OPS-ACC-006",
+      "primary_phrase": "update credentials",
+      "action_base": "update",
+      "object_base": "credentials",
+      "departments": ["OPS", "HR"],
+      "description": "Update account login credentials (password)",
+      "complexity": "medium",
+      "estimated_time_minutes": 10,
+      "prerequisites": [
+        "Account exists",
+        "New credentials available",
+        "Password history tracking enabled"
+      ],
+      "required_permissions": ["account:write", "credentials:update"],
+      "api_endpoint": "PUT /api/accounts/:id/credentials",
+      "is_active": true
+    },
+    {
+      "responsibility_id": "RESP-OPS-ACC-007",
+      "primary_phrase": "create job account",
+      "action_base": "create",
+      "object_base": "job account",
+      "departments": ["HR"],
+      "description": "Create job posting platform account",
+      "complexity": "medium",
+      "estimated_time_minutes": 20,
+      "prerequisites": [
+        "Job site account exists",
+        "Company information ready",
+        "Owner assignment"
+      ],
+      "required_permissions": ["job_account:create"],
+      "api_endpoint": "POST /api/job-accounts",
+      "is_active": true
+    },
+    {
+      "responsibility_id": "RESP-OPS-ACC-008",
+      "primary_phrase": "manage subscription",
+      "action_base": "manage",
+      "object_base": "subscription",
+      "departments": ["OPS", "FIN"],
+      "description": "Manage verification subscription for account",
+      "complexity": "high",
+      "estimated_time_minutes": 15,
+      "prerequisites": [
+        "Verification exists",
+        "Plan selected",
+        "Payment method configured"
+      ],
+      "required_permissions": ["subscription:create", "subscription:update"],
+      "api_endpoint": "POST /api/verifications/:id/subscriptions",
+      "is_active": true
+    },
+    {
+      "responsibility_id": "RESP-FIN-ACC-009",
+      "primary_phrase": "process payment",
+      "action_base": "process",
+      "object_base": "payment",
+      "departments": ["FIN"],
+      "description": "Process subscription payment",
+      "complexity": "high",
+      "estimated_time_minutes": 10,
+      "prerequisites": [
+        "Subscription exists",
+        "Payment details provided",
+        "Payment gateway configured"
+      ],
+      "required_permissions": ["payment:create", "payment:process"],
+      "api_endpoint": "POST /api/subscriptions/:id/payments",
+      "is_active": true
+    },
+    {
+      "responsibility_id": "RESP-OPS-ACC-010",
+      "primary_phrase": "track account usage",
+      "action_base": "track",
+      "object_base": "account usage",
+      "departments": ["OPS", "ANALYTICS"],
+      "description": "Monitor and track account usage metrics",
+      "complexity": "low",
+      "estimated_time_minutes": 5,
+      "prerequisites": [
+        "Account exists",
+        "Usage tracking enabled"
+      ],
+      "required_permissions": ["account:read"],
+      "api_endpoint": "GET /api/accounts/:id/usage",
+      "is_active": true
+    },
+    {
+      "responsibility_id": "RESP-OPS-ACC-011",
+      "primary_phrase": "audit account security",
+      "action_base": "audit",
+      "object_base": "account security",
+      "departments": ["OPS", "SECURITY"],
+      "description": "Perform security audit on account (2FA, password age, etc.)",
+      "complexity": "medium",
+      "estimated_time_minutes": 20,
+      "prerequisites": [
+        "Account exists",
+        "Security policies defined",
+        "Audit permissions"
+      ],
+      "required_permissions": ["account:read", "audit:perform"],
+      "api_endpoint": "GET /api/accounts/:id/security-audit",
+      "is_active": true
+    },
+    {
+      "responsibility_id": "RESP-OPS-ACC-012",
+      "primary_phrase": "upload account document",
+      "action_base": "upload",
+      "object_base": "account document",
+      "departments": ["OPS", "HR"],
+      "description": "Upload account-related document (passport, license, etc.)",
+      "complexity": "medium",
+      "estimated_time_minutes": 10,
+      "prerequisites": [
+        "Account exists",
+        "Document file available",
+        "Document type defined"
+      ],
+      "required_permissions": ["account:write", "document:create"],
+      "api_endpoint": "POST /api/accounts/:id/documents",
+      "is_active": true
+    },
+    {
+      "responsibility_id": "RESP-OPS-ACC-013",
+      "primary_phrase": "check document expiration",
+      "action_base": "check",
+      "object_base": "document expiration",
+      "departments": ["OPS", "HR"],
+      "description": "Monitor and alert on document expiration dates",
+      "complexity": "low",
+      "estimated_time_minutes": 5,
+      "prerequisites": [
+        "Documents exist",
+        "Expiration dates set",
+        "Alert system configured"
+      ],
+      "required_permissions": ["account:read", "document:read"],
+      "api_endpoint": "GET /api/documents/expiring-soon",
+      "is_active": true
+    },
+    {
+      "responsibility_id": "RESP-OPS-ACC-014",
+      "primary_phrase": "renew subscription",
+      "action_base": "renew",
+      "object_base": "subscription",
+      "departments": ["OPS", "FIN"],
+      "description": "Renew expired or expiring subscription",
+      "complexity": "medium",
+      "estimated_time_minutes": 15,
+      "prerequisites": [
+        "Subscription exists",
+        "Payment method available",
+        "Renewal plan selected"
+      ],
+      "required_permissions": ["subscription:update", "payment:create"],
+      "api_endpoint": "POST /api/subscriptions/:id/renew",
+      "is_active": true
+    },
+    {
+      "responsibility_id": "RESP-OPS-ACC-015",
+      "primary_phrase": "suspend account",
+      "action_base": "suspend",
+      "object_base": "account",
+      "departments": ["OPS"],
+      "description": "Temporarily suspend account access",
+      "complexity": "medium",
+      "estimated_time_minutes": 10,
+      "prerequisites": [
+        "Account exists",
+        "Suspension reason documented",
+        "Admin permissions"
+      ],
+      "required_permissions": ["account:write", "account:suspend"],
+      "api_endpoint": "PUT /api/accounts/:id/suspend",
+      "is_active": true
+    },
+    {
+      "responsibility_id": "RESP-OPS-ACC-016",
+      "primary_phrase": "reactivate account",
+      "action_base": "reactivate",
+      "object_base": "account",
+      "departments": ["OPS"],
+      "description": "Reactivate suspended or inactive account",
+      "complexity": "low",
+      "estimated_time_minutes": 5,
+      "prerequisites": [
+        "Account exists",
+        "Account is suspended/inactive",
+        "Reactivation approved"
+      ],
+      "required_permissions": ["account:write", "account:reactivate"],
+      "api_endpoint": "PUT /api/accounts/:id/reactivate",
+      "is_active": true
+    },
+    {
+      "responsibility_id": "RESP-HR-ACC-017",
+      "primary_phrase": "post job",
+      "action_base": "post",
+      "object_base": "job",
+      "departments": ["HR"],
+      "description": "Post job listing using job account",
+      "complexity": "high",
+      "estimated_time_minutes": 30,
+      "prerequisites": [
+        "Job account exists",
+        "Job account active",
+        "Job description ready",
+        "Available job posts > 0"
+      ],
+      "required_permissions": ["job_account:write", "job_post:create"],
+      "api_endpoint": "POST /api/job-accounts/:id/jobs",
+      "is_active": true
+    },
+    {
+      "responsibility_id": "RESP-OPS-ACC-018",
+      "primary_phrase": "migrate account data",
+      "action_base": "migrate",
+      "object_base": "account data",
+      "departments": ["OPS", "DEV"],
+      "description": "Migrate account data from legacy systems to microservice",
+      "complexity": "high",
+      "estimated_time_minutes": 60,
+      "prerequisites": [
+        "Legacy data available",
+        "Migration script ready",
+        "Backup completed",
+        "Admin permissions"
+      ],
+      "required_permissions": ["account:create", "account:write", "migration:execute"],
+      "api_endpoint": "POST /api/migrations/accounts",
+      "is_active": true
+    },
+    {
+      "responsibility_id": "RESP-ANALYTICS-ACC-019",
+      "primary_phrase": "generate account report",
+      "action_base": "generate",
+      "object_base": "account report",
+      "departments": ["ANALYTICS", "OPS"],
+      "description": "Generate usage and analytics reports for accounts",
+      "complexity": "medium",
+      "estimated_time_minutes": 15,
+      "prerequisites": [
+        "Accounts exist",
+        "Report template defined",
+        "Analytics data available"
+      ],
+      "required_permissions": ["account:read", "report:generate"],
+      "api_endpoint": "GET /api/reports/accounts",
+      "is_active": true
+    },
+    {
+      "responsibility_id": "RESP-OPS-ACC-020",
+      "primary_phrase": "sync account to entities",
+      "action_base": "sync",
+      "object_base": "account to entities",
+      "departments": ["OPS", "DEV"],
+      "description": "Sync account data from PostgreSQL to ENTITIES JSON files",
+      "complexity": "medium",
+      "estimated_time_minutes": 10,
+      "prerequisites": [
+        "Account exists in PostgreSQL",
+        "ENTITIES path accessible",
+        "Sync permissions"
+      ],
+      "required_permissions": ["account:read", "sync:execute"],
+      "api_endpoint": "POST /api/sync/accounts/:id",
+      "is_active": true
+    }
+  ],
+  "action_object_matrix": {
+    "create": ["account", "job account", "verification", "subscription", "payment", "document", "job post"],
+    "update": ["account", "job account", "subscription", "credentials", "document"],
+    "delete": ["account", "job account", "verification", "subscription", "document"],
+    "verify": ["account"],
+    "assign": ["user to account"],
+    "manage": ["subscription", "verification"],
+    "process": ["payment"],
+    "track": ["account usage", "subscription status"],
+    "audit": ["account security", "payment history"],
+    "upload": ["account document"],
+    "check": ["document expiration", "subscription expiration"],
+    "renew": ["subscription"],
+    "suspend": ["account", "subscription"],
+    "reactivate": ["account"],
+    "post": ["job"],
+    "migrate": ["account data", "job account data"],
+    "generate": ["account report", "payment report", "usage report"],
+    "sync": ["account to entities", "subscription to entities"]
+  },
+  "integration_points": {
+    "libraries": {
+      "actions": "LIBRARIES/Responsibilities/Actions/Master/actions_master.json",
+      "objects": "LIBRARIES/Responsibilities/Objects/object_types.json",
+      "tools": "LIBRARIES/LBS_003_LBS_003_Tools/",
+      "departments": "LIBRARIES/LBS_006_Departments/Master/departments.json"
+    },
+    "task_managers": {
+      "templates": "TASK_MANAGERS/Task_Templates/Account_Management/",
+      "prompts": "TASK_MANAGERS/PROMPTS/Account_Management/"
+    },
+    "analytics": {
+      "tracking": "ANALYTICS/Tasks/Account_Management/",
+      "reports": "ANALYTICS/Reports/Account_Usage/"
+    }
+  },
+  "metadata": {
+    "total_responsibilities": 20,
+    "departments_involved": ["OPS", "HR", "FIN", "ANALYTICS", "DEV", "SECURITY"],
+    "complexity_distribution": {
+      "low": 6,
+      "medium": 10,
+      "high": 4
+    },
+    "average_time_minutes": 15
+  }
+}

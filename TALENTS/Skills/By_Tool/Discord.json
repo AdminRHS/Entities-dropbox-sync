@@ -1,0 +1,25 @@
+{
+  "tool_id": "TOOL-COMM-001",
+  "tool_name": "Discord",
+  "tool_category": "Communication",
+  "description": "Team communication platform for sharing design previews, collaboration, and client communication",
+  "skills_count": 1,
+  "last_updated": "2025-11-22",
+  "skills": [
+    {
+      "skill_id": "SKL-024",
+      "skill_phrase": "shared design previews via Discord",
+      "components": {
+        "action": "share",
+        "object": "design previews",
+        "tool": "Discord"
+      },
+      "department": "Design",
+      "professions": ["graphic designer"],
+      "difficulty_level": "beginner",
+      "frequency": "weekly",
+      "time_estimate_minutes": 5,
+      "automation_potential": "low"
+    }
+  ]
+}

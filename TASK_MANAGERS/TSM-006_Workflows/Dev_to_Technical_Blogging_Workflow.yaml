@@ -1,0 +1,303 @@
+workflow_name: "Dev.to Technical Blogging Workflow"
+workflow_type: "Cyclic"
+workflow_id: "WF-DEV-003"
+department: "DEVELOPMENT"
+priority: "Medium"
+description: "Weekly workflow for publishing technical tutorials and insights on Dev.to to build authority, attract opportunities, and share knowledge"
+estimated_duration: "3-4 hours per article"
+frequency: "1-2 articles per week"
+
+steps:
+  - step_number: 1
+    name: "Choose Tutorial Topic"
+    tool: "Dev.to, Google Trends, community discussions"
+    responsibility: "Choose tutorial topic"
+    placement: "Research phase"
+    duration: "30 minutes"
+    inputs:
+      - "Recent technical problems you solved"
+      - "Trending topics in your tech stack"
+      - "Questions from Stack Overflow or GitHub"
+    outputs:
+      - "Validated tutorial topic with audience demand"
+    success_criteria: "Topic is specific, solves real problem, has search demand"
+    topic_selection_strategies:
+      - "Recent problem you solved (authentic, detailed)"
+      - "New framework/library features (timely, high demand)"
+      - "Common beginner mistakes (evergreen, helpful)"
+      - "Performance optimization techniques (advanced, valuable)"
+      - "Tool comparisons (e.g., 'React vs Vue for 2025')"
+
+  - step_number: 2
+    name: "Outline Article Structure"
+    tool: "Notion, Markdown editor, or Google Docs"
+    responsibility: "Outline article structure"
+    placement: "Writing tool"
+    duration: "20-30 minutes"
+    inputs:
+      - "Tutorial topic"
+      - "Key points to cover"
+      - "Code examples needed"
+    outputs:
+      - "Article outline with sections"
+    success_criteria: "Clear flow from problem to solution with actionable steps"
+    recommended_structure:
+      - "Hook: Problem statement (why reader should care)"
+      - "Prerequisites: What reader needs to know"
+      - "Step-by-step tutorial: Numbered steps with code"
+      - "Explanation: Why it works"
+      - "Common pitfalls: What to avoid"
+      - "Conclusion: Summary + CTA"
+      - "Resources: Links to docs, repos"
+
+  - step_number: 3
+    name: "Write Draft with Code Examples"
+    tool: "Markdown editor, VS Code"
+    responsibility: "Write draft with code examples"
+    placement: "Local editor"
+    duration: "1.5-2 hours"
+    inputs:
+      - "Article outline"
+      - "Tested code snippets"
+      - "Screenshots if needed"
+    outputs:
+      - "Complete draft in Markdown format"
+    success_criteria: "All code tested and works, clear explanations, proper formatting"
+    writing_best_practices:
+      - "Start with compelling hook (problem reader has)"
+      - "Use second person ('you') for engagement"
+      - "Break text into short paragraphs (2-3 sentences)"
+      - "Code before explanation (show, then explain)"
+      - "Add comments to complex code"
+      - "Use headings (##, ###) for structure"
+      - "Include console output or results"
+
+  - step_number: 4
+    name: "Test All Code Examples"
+    tool: "Code editor, terminal"
+    responsibility: "Test all code examples"
+    placement: "Local development environment"
+    duration: "30-45 minutes"
+    inputs:
+      - "All code snippets from article"
+    outputs:
+      - "Verified working code"
+      - "GitHub repo with full example (optional but recommended)"
+    success_criteria: "Every code snippet runs without errors"
+    testing_checklist:
+      - "Copy/paste each code block into clean project"
+      - "Run and verify output matches article"
+      - "Test edge cases mentioned"
+      - "Create GitHub repo with complete working example"
+      - "Link repo in article for readers to clone"
+
+  - step_number: 5
+    name: "Add Cover Image and Format"
+    tool: "Canva, Unsplash, Dev.to editor"
+    responsibility: "Add cover image and format"
+    placement: "Dev.to article editor"
+    duration: "15-20 minutes"
+    inputs:
+      - "Article draft"
+      - "Cover image (1000×420px recommended)"
+    outputs:
+      - "Formatted article with cover image"
+    success_criteria: "Professional appearance, readable code blocks, proper syntax highlighting"
+    formatting_checklist:
+      - "Cover image (create or use Unsplash)"
+      - "Code blocks with language specified (```javascript)"
+      - "Headings properly nested (##, ###)"
+      - "Links formatted as [text](URL)"
+      - "Bold/italic for emphasis"
+      - "Bullet points for lists"
+      - "Callout boxes for important notes (> quote)"
+
+  - step_number: 6
+    name: "Write SEO-Optimized Title and Tags"
+    tool: "Dev.to metadata"
+    responsibility: "Write SEO-optimized metadata"
+    placement: "Dev.to editor"
+    duration: "10 minutes"
+    inputs:
+      - "Article content"
+      - "Target keywords"
+    outputs:
+      - "Compelling title"
+      - "4 relevant tags"
+      - "Meta description"
+    success_criteria: "Title is clear and includes main keyword, tags are accurate"
+    title_formulas:
+      - "How to [achieve result] with [technology]"
+      - "[Number] Ways to [solve problem] in [language/framework]"
+      - "A Beginner's Guide to [topic]"
+      - "[Technology] Best Practices for [year]"
+      - "Understanding [complex concept] with Examples"
+    tag_strategy:
+      - "Use 4 tags maximum"
+      - "Include main technology (javascript, python, react)"
+      - "Include article type (tutorial, beginners, webdev)"
+      - "Check tag popularity (more followers = more reach)"
+
+  - step_number: 7
+    name: "Publish at Optimal Time"
+    tool: "Dev.to"
+    responsibility: "Publish at optimal time"
+    placement: "Dev.to publish button"
+    duration: "5 minutes"
+    inputs:
+      - "Complete, formatted article"
+      - "Cover image, title, tags"
+    outputs:
+      - "Published article on Dev.to"
+    success_criteria: "Article goes live during high-traffic window"
+    optimal_publishing_times:
+      - "Tuesday-Thursday (mid-week best)"
+      - "8-10am EST (US morning)"
+      - "2-4pm EST (US afternoon)"
+      - "Avoid weekends and Mondays (lower engagement)"
+    publish_checklist:
+      - "Preview article one final time"
+      - "Check all links work"
+      - "Verify code formatting correct"
+      - "Add canonical URL if republishing from own blog"
+      - "Enable email notifications for comments"
+
+  - step_number: 8
+    name: "Cross-Promote Article"
+    tool: "Twitter, LinkedIn, Reddit, newsletter"
+    responsibility: "Cross-promote article"
+    placement: "Social media platforms"
+    duration: "15-20 minutes"
+    inputs:
+      - "Published Dev.to article URL"
+      - "Key takeaway or hook"
+    outputs:
+      - "Social media posts promoting article"
+    success_criteria: "External traffic driven to article"
+    promotion_channels:
+      - "Twitter: Thread summarizing key points + link"
+      - "LinkedIn: Professional context + link"
+      - "Reddit: Relevant subreddits (r/javascript, r/webdev) - follow rules"
+      - "Hacker News: If truly exceptional content"
+      - "Discord/Slack communities: Share in appropriate channels"
+      - "Newsletter: Include in weekly roundup"
+
+  - step_number: 9
+    name: "Engage with Comments"
+    tool: "Dev.to notifications"
+    responsibility: "Engage with comments"
+    placement: "Dev.to article comments"
+    duration: "10-15 minutes, multiple times in first 48 hours"
+    inputs:
+      - "Reader comments and questions"
+    outputs:
+      - "Thoughtful responses to all comments"
+    success_criteria: "All comments answered within 24 hours"
+    engagement_best_practices:
+      - "Reply to every comment in first 48 hours"
+      - "Thank readers for feedback"
+      - "Answer questions thoroughly"
+      - "Clarify if code didn't work for someone"
+      - "Update article if common issues arise"
+      - "Encourage further discussion"
+
+  - step_number: 10
+    name: "Track Performance and Learn"
+    tool: "Dev.to dashboard analytics"
+    responsibility: "Track performance"
+    placement: "Dev.to dashboard"
+    duration: "15 minutes weekly"
+    inputs:
+      - "Views, reactions, comments per article"
+      - "Reading time stats"
+      - "Traffic sources"
+    outputs:
+      - "Performance insights"
+      - "Topics/formats to replicate"
+    success_criteria: "Understand what resonates with audience"
+    metrics_to_track:
+      - "Total views (1000+ is good for new account)"
+      - "Reactions (❤️ unicorn 🦄 bookmark 🔖)"
+      - "Comments (engagement indicator)"
+      - "Reading time (how far people read)"
+      - "Traffic sources (Dev.to, Google, social)"
+      - "Follower growth after article"
+
+article_types:
+  tutorial: "Step-by-step guide to build something (most popular)"
+  explainer: "Deep dive into concept or technology"
+  opinion: "Thoughtful take on industry trend"
+  showcase: "Show off project with technical details"
+  tips_and_tricks: "Quick productivity or coding tips"
+  comparison: "Tool/framework comparisons"
+
+content_calendar_strategy:
+  week_1: "Tutorial on recent project"
+  week_2: "Beginner-friendly guide in main language"
+  week_3: "Advanced technique or optimization"
+  week_4: "Tool comparison or industry opinion"
+  balance: "Mix difficulty levels and formats"
+
+metrics:
+  - "Total article views (10K+ views = strong start)"
+  - "Reactions per article (100+ reactions is excellent)"
+  - "Comments (20+ comments = high engagement)"
+  - "Follower growth (500+ followers = established)"
+  - "DEV top 7 badge (featured on homepage)"
+  - "Cross-platform traffic (Google search rankings)"
+  - "Career opportunities from readers"
+
+dependencies:
+  - "Dev.to account"
+  - "Technical knowledge to share"
+  - "Code examples tested and working"
+  - "Markdown writing skills"
+  - "GitHub repo for code (recommended)"
+
+risks:
+  - "Code doesn't work (damages credibility)"
+  - "Plagiarism (cite sources properly)"
+  - "Too basic (audience loses interest)"
+  - "Too advanced (alienates beginners)"
+  - "Inconsistent publishing (low visibility)"
+
+best_practices:
+  - "Write tutorials you wish existed when you were learning"
+  - "Test EVERY code snippet before publishing"
+  - "Use clear, simple language (avoid jargon)"
+  - "Include TL;DR at top for scanners"
+  - "Link to your other articles (internal linking)"
+  - "Respond to comments promptly"
+  - "Update articles when technology changes"
+  - "Create GitHub repo with working code"
+  - "Publish consistently (1-2x/week ideal)"
+  - "Engage with other Dev.to authors (reciprocity)"
+
+dev_to_algorithm_factors:
+  - "Reactions (❤️ and 🦄 especially)"
+  - "Comments (discussion signals quality)"
+  - "Reading time (articles people finish)"
+  - "Saves/bookmarks (reference-worthy)"
+  - "Freshness (new articles get boost)"
+  - "Author credibility (followers, past performance)"
+  - "Tags (some tags have more visibility)"
+
+career_benefits:
+  - "Builds public portfolio of knowledge"
+  - "Demonstrates communication skills"
+  - "Attracts job opportunities and clients"
+  - "Establishes thought leadership"
+  - "Network with developer community"
+  - "Solidifies your own understanding"
+  - "Google-discoverable content (SEO)"
+  - "Speaking/podcast opportunities"
+
+related_workflows:
+  - "WF-DEV-001: GitHub Open Source Contribution Workflow"
+  - "WF-DEV-002: Stack Overflow Reputation Building Workflow"
+  - "WF-DEV-004: Hashnode Technical Blogging Workflow"
+  - "WF-MKT-004: Medium Long-Form Content Workflow"
+
+created: "2025-11-14"
+updated: "2025-11-14"
+source: "SMM_Research_Document_3_EU_Creative_Professionals"

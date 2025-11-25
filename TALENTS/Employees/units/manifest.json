@@ -1,0 +1,75 @@
+{
+  "source_template": "AI Nov25/Niko AI/Employees/Employee_Unit_Template.json",
+  "units": [
+    {
+      "file": "candidate.json",
+      "relative_path": "units/candidate.json",
+      "description": "subsection"
+    },
+    {
+      "file": "department.json",
+      "relative_path": "units/department.json",
+      "description": "subsection"
+    },
+    {
+      "file": "designation.json",
+      "relative_path": "units/designation.json",
+      "description": "subsection"
+    },
+    {
+      "file": "empaddress.json",
+      "relative_path": "units/empaddress.json",
+      "description": "subsection"
+    },
+    {
+      "file": "empl_artist.json",
+      "relative_path": "units/empl_artist.json",
+      "description": "subsection"
+    },
+    {
+      "file": "empl_content.json",
+      "relative_path": "units/empl_content.json",
+      "description": "subsection"
+    },
+    {
+      "file": "employee_unit_core.json",
+      "relative_path": "units/employee_unit_core.json",
+      "description": "core employee fields"
+    },
+    {
+      "file": "emplstatus.json",
+      "relative_path": "units/emplstatus.json",
+      "description": "subsection"
+    },
+    {
+      "file": "metadata.json",
+      "relative_path": "units/metadata.json",
+      "description": "metadata"
+    },
+    {
+      "file": "nullable_fields.json",
+      "relative_path": "units/nullable_fields.json",
+      "description": "subsection"
+    },
+    {
+      "file": "optional_arrays.json",
+      "relative_path": "units/optional_arrays.json",
+      "description": "subsection"
+    },
+    {
+      "file": "position.json",
+      "relative_path": "units/position.json",
+      "description": "subsection"
+    },
+    {
+      "file": "user.json",
+      "relative_path": "units/user.json",
+      "description": "subsection"
+    },
+    {
+      "file": "video_editing.json",
+      "relative_path": "units/video_editing.json",
+      "description": "subsection"
+    }
+  ]
+}

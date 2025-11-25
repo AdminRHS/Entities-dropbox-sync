@@ -1,0 +1,360 @@
+{
+  "entity_type": "TASK_MANAGERS",
+  "sub_entity": "Task_Template",
+  "template_id": "Task-Template-014",
+  "task_name": "Generate Leads from Google SERP",
+  "action": "Generate",
+  "object": "Lead List",
+  "context": "via Apify Google SERP Scraper",
+  "description": "Scrape 2,000+ company domains from Google Search results and enrich with emails (40-60% success rate, 20-30 minutes execution)",
+  "department": "LG",
+  "profession": "Lead Generator",
+  "priority": "High",
+  "estimated_duration": "20-30 minutes",
+  "status": "Active",
+  "complexity": "Medium",
+  "automation_potential": "High (60-80%)",
+  "success_rate": "40-60% enrichment",
+  "volume_capacity": "2,000+ domains per scrape",
+  "dependencies": [
+    "Apify account with credits",
+    "Anymailfinder account with credits",
+    "Target search query defined (e.g., 'AI agencies California')"
+  ],
+  "tools_required": [
+    "TOOL-020 (Apify Platform)",
+    "TOOL-021 (Apify Google SERP Scraper)",
+    "TOOL-DATA-007 (Anymailfinder)"
+  ],
+  "skills_required": [
+    "SKL-060 (scraped lead lists via Apify)",
+    "SKL-061 (enriched emails via Anymailfinder)"
+  ],
+  "objects_used": [
+    "OBJ-LG-001 (Lead List)",
+    "OBJ-LG-002 (Company Domain)",
+    "OBJ-LG-006 (Google SERP Result)",
+    "OBJ-LG-003 (Decision-Maker Email)",
+    "OBJ-LG-005 (Enriched Contact)"
+  ],
+  "workflow_reference": "WF-LG-006",
+  "success_criteria": [
+    "2,000+ company domains scraped from Google SERP",
+    "Domains cleaned and deduplicated",
+    "40-60% enrichment success rate",
+    "Final lead list exported with emails",
+    "Campaign logged with metrics"
+  ],
+  "responsibilities": {
+    "responsible": "Lead Generator",
+    "accountable": "Lead Generation Manager",
+    "consulted": [
+      "Sales Team for target criteria"
+    ],
+    "informed": [
+      "SDR Team",
+      "Marketing Team"
+    ]
+  },
+  "steps": [
+    {
+      "step_number": 1,
+      "name": "Define Google search query",
+      "action": "define",
+      "tool": "Google Search (manual test)",
+      "responsibility": "Lead Generator",
+      "placement": "Search query document",
+      "duration": "5 minutes",
+      "dependencies": [],
+      "inputs": [
+        "Target industry, location, keywords"
+      ],
+      "outputs": [
+        "Search query: 'AI agencies California', 'SaaS startups Austin', etc."
+      ],
+      "success_criteria": "Query returns 1,000+ relevant results when tested manually",
+      "responsibility_id": "RESP-LG-041",
+      "responsibility_name": "define define google search query",
+      "_original_action": "define"
+    },
+    {
+      "step_number": 2,
+      "name": "Configure Apify Google SERP Scraper",
+      "action": "configure",
+      "tool": "TOOL-021 (Apify Google SERP Scraper)",
+      "responsibility": "Lead Generator",
+      "placement": "Apify platform - SERP scraper settings",
+      "duration": "3 minutes",
+      "dependencies": [
+        "Step 1"
+      ],
+      "inputs": [
+        "Search query",
+        "Number of results (e.g., 2,000)"
+      ],
+      "outputs": [
+        "Scraper configured"
+      ],
+      "success_criteria": "Query entered, result limit set (2,000+), scraper ready",
+      "responsibility_id": "RESP-LG-042",
+      "responsibility_name": "configure apify google serp scraper",
+      "_original_action": "configure"
+    },
+    {
+      "step_number": 3,
+      "name": "Run Apify SERP scraper",
+      "action": "scrape",
+      "tool": "TOOL-021 (Apify Google SERP Scraper)",
+      "responsibility": "Lead Generator",
+      "placement": "Apify platform - Execution",
+      "duration": "10-15 minutes (automated)",
+      "dependencies": [
+        "Step 2"
+      ],
+      "inputs": [
+        "Configured scraper"
+      ],
+      "outputs": [
+        "2,000+ search results with company names, domains, descriptions"
+      ],
+      "success_criteria": "Scraper completes successfully, 2,000+ results returned",
+      "responsibility_id": "RESP-LG-043",
+      "responsibility_name": "scrape run apify serp scraper",
+      "_original_action": "scrape"
+    },
+    {
+      "step_number": 4,
+      "name": "Export and clean domain list",
+      "action": "export",
+      "tool": "Apify + Excel/Google Sheets",
+      "responsibility": "Lead Generator",
+      "placement": "Apify export → Spreadsheet",
+      "duration": "5 minutes",
+      "dependencies": [
+        "Step 3"
+      ],
+      "inputs": [
+        "Raw scrape results"
+      ],
+      "outputs": [
+        "CSV: company_name, domain (cleaned, deduplicated)"
+      ],
+      "success_criteria": "Domains extracted, duplicates removed, invalid domains filtered",
+      "responsibility_id": "RESP-LG-044",
+      "responsibility_name": "export domains",
+      "_original_action": "export"
+    },
+    {
+      "step_number": 5,
+      "name": "Upload domains to Anymailfinder",
+      "action": "upload",
+      "tool": "TOOL-DATA-007 (Anymailfinder)",
+      "responsibility": "Lead Generator",
+      "placement": "Anymailfinder - Upload",
+      "duration": "2 minutes",
+      "dependencies": [
+        "Step 4"
+      ],
+      "inputs": [
+        "Cleaned domain list CSV"
+      ],
+      "outputs": [
+        "Upload confirmation"
+      ],
+      "success_criteria": "All domains uploaded successfully",
+      "responsibility_id": "RESP-LG-002",
+      "responsibility_name": "upload domains",
+      "_original_action": "upload"
+    },
+    {
+      "step_number": 6,
+      "name": "Run nominative enrichment",
+      "action": "enrich",
+      "tool": "TOOL-DATA-007 (Anymailfinder)",
+      "responsibility": "Lead Generator",
+      "placement": "Anymailfinder - Processing",
+      "duration": "10-15 minutes (automated)",
+      "dependencies": [
+        "Step 5"
+      ],
+      "inputs": [
+        "Domain list",
+        "Target roles (CEO, CTO, etc.)"
+      ],
+      "outputs": [
+        "Enriched emails (40-60% success)"
+      ],
+      "success_criteria": "800-1,200 valid emails from 2,000 domains",
+      "responsibility_id": "RESP-LG-012",
+      "responsibility_name": "enrich run nominative enrichment",
+      "_original_action": "enrich"
+    },
+    {
+      "step_number": 7,
+      "name": "Export final enriched lead list",
+      "action": "export",
+      "tool": "TOOL-DATA-007 (Anymailfinder)",
+      "responsibility": "Lead Generator",
+      "placement": "Anymailfinder - Export",
+      "duration": "2 minutes",
+      "dependencies": [
+        "Step 6"
+      ],
+      "inputs": [
+        "Enriched data"
+      ],
+      "outputs": [
+        "CSV: company_name, domain, email, name, title"
+      ],
+      "success_criteria": "All enriched contacts exported",
+      "responsibility_id": "RESP-LG-004",
+      "responsibility_name": "export leads",
+      "_original_action": "export"
+    },
+    {
+      "step_number": 8,
+      "name": "Log campaign metrics",
+      "action": "log",
+      "tool": "Excel/Google Sheets",
+      "responsibility": "Lead Generator",
+      "placement": "Campaign tracking spreadsheet",
+      "duration": "2 minutes",
+      "dependencies": [
+        "Step 7"
+      ],
+      "inputs": [
+        "Scrape volume",
+        "Enrichment success rate",
+        "Costs"
+      ],
+      "outputs": [
+        "Campaign logged with date, query, results, success rate"
+      ],
+      "success_criteria": "All metrics documented for future reference",
+      "responsibility_id": "RESP-LG-006",
+      "responsibility_name": "log log campaign metrics",
+      "_original_action": "log"
+    }
+  ],
+  "checklist": [
+    {
+      "item": "Search query returns 1,000+ relevant results",
+      "guide": "Test query manually in Google before scraping",
+      "required": true
+    },
+    {
+      "item": "Apify scraper set to 2,000+ results",
+      "guide": "Higher volume = better ROI, Apify charges per result",
+      "required": true
+    },
+    {
+      "item": "Domains cleaned and deduplicated",
+      "guide": "Remove duplicates, invalid domains before enrichment",
+      "required": true
+    },
+    {
+      "item": "Target roles defined for enrichment",
+      "guide": "CEO, CTO, CMO, VP Sales - match to ICP",
+      "required": true
+    },
+    {
+      "item": "40-60% enrichment success achieved",
+      "guide": "If below 40%, query may be too broad or low-quality domains",
+      "required": true
+    }
+  ],
+  "performance_metrics": {
+    "typical_volume": "2,000+ domains scraped",
+    "success_rate": "40-60% enrichment",
+    "time_per_campaign": "20-30 minutes",
+    "cost": "Apify credits + $0.0025/email (Anymailfinder)",
+    "final_output": "800-1,200 enriched contacts"
+  },
+  "best_practices": [
+    "High-volume lead generation (2,000+ domains per scrape)",
+    "Test search query manually before scraping",
+    "Clean and deduplicate domains before enrichment",
+    "Use specific queries ('AI agencies California' not just 'agencies')",
+    "Best for broad industry targeting with specific geography"
+  ],
+  "example_queries": [
+    "'AI agencies California' → AI service providers in CA",
+    "'SaaS startups Austin' → Tech startups in Austin",
+    "'law firms New York' → Legal services in NY",
+    "'digital marketing agencies London' → Marketing agencies in UK",
+    "'accounting firms Toronto' → Professional services in Canada"
+  ],
+  "when_to_use": [
+    "Need high volume of leads quickly (2,000+)",
+    "Targeting broad industry categories",
+    "Geographic targeting important",
+    "Building initial prospecting lists",
+    "Testing new markets or industries"
+  ],
+  "common_issues": [
+    {
+      "issue": "Scraper returns low-quality domains",
+      "solution": "Refine search query to be more specific, add quality keywords"
+    },
+    {
+      "issue": "Enrichment rate below 40%",
+      "solution": "Domains may be too generic or non-business, improve query specificity"
+    },
+    {
+      "issue": "Too many duplicates in results",
+      "solution": "Deduplicate before enrichment, scraper may have pagination issues"
+    },
+    {
+      "issue": "Apify scraper fails or times out",
+      "solution": "Reduce result limit, Google may be rate-limiting scraper"
+    }
+  ],
+  "use_case_examples": [
+    {
+      "industry": "B2B SaaS",
+      "query": "'SaaS companies San Francisco'",
+      "volume": "2,000 domains → 1,000 emails",
+      "use": "Build outbound prospecting list"
+    },
+    {
+      "industry": "Professional Services",
+      "query": "'consulting firms Boston'",
+      "volume": "1,500 domains → 700 emails",
+      "use": "Partnership outreach campaign"
+    },
+    {
+      "industry": "Ecommerce",
+      "query": "'online retailers Europe'",
+      "volume": "3,000 domains → 1,500 emails",
+      "use": "Vendor partnership program"
+    }
+  ],
+  "tags": [
+    "lead_generation",
+    "google_serp",
+    "apify",
+    "scraping",
+    "enrichment",
+    "b2b"
+  ],
+  "related_workflows": [
+    "WF-LG-006"
+  ],
+  "related_skills": [
+    "SKL-060",
+    "SKL-061"
+  ],
+  "related_professions": [
+    "Lead Generator",
+    "SDR",
+    "Marketing Manager"
+  ],
+  "version": "1.0",
+  "created": "2025-11-12",
+  "last_updated": "2025-11-12",
+  "source": "Video_006_Lead_Generation_Analysis",
+  "responsibility_id": "RESP-LG-040",
+  "responsibility_name": "generate leads",
+  "_original_action": "Generate",
+  "_original_object": "Lead List"
+}

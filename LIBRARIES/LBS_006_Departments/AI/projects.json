@@ -1,0 +1,301 @@
+{
+  "department_id": 1,
+  "department_code": "AI",
+  "last_updated": "2025-11-25",
+  "source_file": "Overview/AI_Department_Deep_Analysis.md",
+  
+  "total_projects": 18,
+  "active_projects": 18,
+  
+  "projects": [
+    {
+      "project_id": "PROJ-AI-001",
+      "name": "File System Project Rollout",
+      "status": "active",
+      "priority": "CRITICAL",
+      "lead_employee": 37226,
+      "description": "Organization-wide file system rollout. Design completed 100%, LG in progress, targeting 100% by month-end",
+      "departments_involved": ["AI", "DESIGN", "LG", "HR", "DEV"],
+      "key_milestones": [
+        "Design department completed (Nov 4)",
+        "LG department in progress",
+        "HR, Dev, others pending"
+      ],
+      "impact": "60-80% administrative overhead reduction"
+    },
+    {
+      "project_id": "PROJ-AI-002",
+      "name": "LG Department Strategic Evaluation",
+      "status": "active",
+      "priority": "HIGH",
+      "lead_employee": 37226,
+      "description": "Strategic analysis of LG department performance, strategy evaluation, and optimization recommendations",
+      "departments_involved": ["AI", "LG", "FIN"],
+      "key_milestones": [
+        "Performance metrics analysis",
+        "Strategy documentation review",
+        "Budget impact evaluation ($5K/month potential savings)",
+        "Recommendation delivery"
+      ]
+    },
+    {
+      "project_id": "PROJ-AI-003",
+      "name": "Weekly Department Call Structure",
+      "status": "active",
+      "priority": "HIGH",
+      "lead_employee": 37226,
+      "description": "Bi-weekly rotation schedule: Mon: Design, Tue: Automation, Wed: LG, Thu: HR, Fri: Dev",
+      "departments_involved": ["AI", "DESIGN", "LG", "HR", "DEV"],
+      "time_investment": "2-3 hours daily for PM",
+      "frequency": "Bi-weekly (1-1.5 hours per department)"
+    },
+    {
+      "project_id": "PROJ-AI-004",
+      "name": "Main Prompt v4 Compression and Optimization",
+      "status": "active",
+      "priority": "MEDIUM",
+      "lead_employee": 37226,
+      "description": "Compress and optimize MAIN PROMPT v4 (500+ lines) for token efficiency while maintaining functionality",
+      "key_milestones": [
+        "Compression techniques research",
+        "Testing compressed versions",
+        "Validation of functionality",
+        "Deployment"
+      ]
+    },
+    {
+      "project_id": "PROJ-AI-005",
+      "name": "CRM Migration Documentation",
+      "status": "active",
+      "priority": "HIGH",
+      "lead_employee": 37226,
+      "description": "Document CRM migration process, coordinate with Dev and HR departments",
+      "departments_involved": ["AI", "DEV", "HR", "FIN"],
+      "key_milestones": [
+        "Process documentation",
+        "Data export completion",
+        "Progressive feature migration",
+        "Testing and validation"
+      ],
+      "blockers": [
+        "OpenAI API budget approval ($5-20 for testing)",
+        "Data export completion before disabling old functions",
+        "Employee directory completion"
+      ]
+    },
+    {
+      "project_id": "PROJ-AI-006",
+      "name": "RAC (Remote AI Context) Expansion",
+      "status": "active",
+      "priority": "MEDIUM",
+      "lead_employee": 37226,
+      "description": "Expand Remote AI Context GitHub knowledge base with frameworks, templates, prompts, and documentation",
+      "key_milestones": [
+        "Content organization",
+        "Integration with all ENTITIES",
+        "Context template creation",
+        "Documentation updates"
+      ]
+    },
+    {
+      "project_id": "PROJ-AI-007",
+      "name": "Training Video Creation and Distribution",
+      "status": "active",
+      "priority": "CRITICAL",
+      "lead_employee": 37226,
+      "description": "Create and distribute file system training videos (2,490+ line guide with 60+ scenes)",
+      "departments_involved": ["AI", "VIDEO", "DESIGN"],
+      "key_milestones": [
+        "Record training video during live call",
+        "Video team edits for distribution",
+        "AI team distributes via Discord/Email",
+        "Follow-up support sessions"
+      ],
+      "features": [
+        "Axie mascot integration (60+ scenes)",
+        "Character development arc",
+        "NotebookLM-optimized format"
+      ]
+    },
+    {
+      "project_id": "PROJ-AI-008",
+      "name": "PM Methodology Research",
+      "status": "active",
+      "priority": "MEDIUM",
+      "lead_employee": 37226,
+      "description": "Research project management methodologies and create project examples",
+      "key_milestones": [
+        "Methodology research",
+        "Best practices documentation",
+        "Project example creation"
+      ]
+    },
+    {
+      "project_id": "PROJ-AI-009",
+      "name": "Yellow Card System Automation",
+      "status": "active",
+      "priority": "HIGH",
+      "lead_employee": 86981,
+      "description": "n8n workflow automation for daily file checking and yellow card system",
+      "key_milestones": [
+        "n8n workflow development",
+        "Daily file checking automation (11:00 AM)",
+        "Discord notifications",
+        "Dashboard API integration",
+        "Fuzzy matching employee identification"
+      ],
+      "features": [
+        "Automated quality control",
+        "Maximum 3 yellow cards per month",
+        "Monthly reset on 1st",
+        "Management daily monitoring"
+      ]
+    },
+    {
+      "project_id": "PROJ-AI-010",
+      "name": "Employee Profile Synchronization Automation",
+      "status": "active",
+      "priority": "HIGH",
+      "lead_employee": 86981,
+      "description": "GitHub Actions automation for employee profile synchronization from Finance data",
+      "key_milestones": [
+        "GitHub Actions workflow setup",
+        "Dropbox API integration",
+        "Automated file updates (2x daily)",
+        "Complete logging and error handling"
+      ],
+      "frequency": "Daily at 8:00 AM",
+      "coverage": "44 employees"
+    },
+    {
+      "project_id": "PROJ-AI-011",
+      "name": "Video Transcript Processing Workflow",
+      "status": "active",
+      "priority": "MEDIUM",
+      "description": "4-step workflow: Task-driven video discovery → Transcription → AI Processing → Library Population",
+      "key_milestones": [
+        "Perplexity search integration",
+        "Transcription methods (Google AI Studio, Transcribe AI)",
+        "AI processing with specialized prompts",
+        "Tool data collection and library population"
+      ]
+    },
+    {
+      "project_id": "PROJ-AI-012",
+      "name": "Google Maps Scraping System",
+      "status": "active",
+      "priority": "MEDIUM",
+      "lead_employee": 86246,
+      "description": "Two-tier scraping system: Instant Data Scraper + Python for lead generation",
+      "key_milestones": [
+        "System development",
+        "Testing and optimization",
+        "Integration with lead generation workflows"
+      ]
+    },
+    {
+      "project_id": "PROJ-AI-013",
+      "name": "Review Analysis for B2B Client Targeting",
+      "status": "active",
+      "priority": "MEDIUM",
+      "lead_employee": 86246,
+      "description": "NLP analysis for identifying company challenges from reviews",
+      "key_milestones": [
+        "Review data collection",
+        "NLP analysis implementation",
+        "Challenge identification",
+        "B2B targeting optimization"
+      ]
+    },
+    {
+      "project_id": "PROJ-AI-014",
+      "name": "Lead Generation Workflow Optimization",
+      "status": "active",
+      "priority": "MEDIUM",
+      "lead_employee": 86246,
+      "description": "Optimize lead generation workflows using AI automation",
+      "departments_involved": ["AI", "LG"]
+    },
+    {
+      "project_id": "PROJ-AI-015",
+      "name": "Meta Business Manager Automation",
+      "status": "active",
+      "priority": "MEDIUM",
+      "lead_employee": 86246,
+      "description": "Facebook/Instagram Ads automation using Meta Business Manager",
+      "key_milestones": [
+        "Automation setup",
+        "Campaign management",
+        "Performance tracking"
+      ]
+    },
+    {
+      "project_id": "PROJ-AI-016",
+      "name": "Copilot-Style Assistant Development",
+      "status": "active",
+      "priority": "MEDIUM",
+      "lead_employee": 86981,
+      "description": "Develop copilot-style assistants for custom programming languages",
+      "key_milestones": [
+        "Language support development",
+        "Code assistance features",
+        "Custom tool development"
+      ]
+    },
+    {
+      "project_id": "PROJ-AI-017",
+      "name": "Actions Library Integration",
+      "status": "active",
+      "priority": "MEDIUM",
+      "description": "Integration of 429 standardized actions into MAIN PROMPT v4 and ENTITIES system",
+      "key_milestones": [
+        "Action library mapping",
+        "Integration with task templates",
+        "Process and result form tracking"
+      ]
+    },
+    {
+      "project_id": "PROJ-AI-018",
+      "name": "Daily Activity Reporting System",
+      "status": "active",
+      "priority": "HIGH",
+      "description": "Automated daily activity report generation (1,165+ lines avg)",
+      "key_milestones": [
+        "Report template creation",
+        "Automation workflow",
+        "Metrics extraction",
+        "Distribution system"
+      ],
+      "report_sections": [
+        "Executive Summary",
+        "Activity Timeline",
+        "Metrics and Statistics",
+        "Department Impact Distribution",
+        "Challenges and Solutions",
+        "Files Created/Modified Summary",
+        "Recommendations for Follow-up",
+        "Success Indicators"
+      ]
+    }
+  ],
+  
+  "summary": {
+    "by_priority": {
+      "CRITICAL": 2,
+      "HIGH": 5,
+      "MEDIUM": 11
+    },
+    "by_status": {
+      "active": 18,
+      "completed": 0,
+      "on_hold": 0
+    },
+    "by_employee": {
+      "37226": 7,
+      "86246": 4,
+      "86981": 2,
+      "shared": 5
+    }
+  }
+}
+

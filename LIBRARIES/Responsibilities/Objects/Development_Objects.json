@@ -1,0 +1,431 @@
+{
+  "entity_type": "LIBRARIES",
+  "sub_entity": "Objects",
+  "category": "Development",
+  "description": "Objects related to software development, engineering, and technical implementation",
+  "objects": [
+    {
+      "object_id": "OBJ-DEV-001",
+      "name": "Dashboard Application",
+      "category": "Development",
+      "description": "Interactive web-based dashboard for data visualization and management",
+      "attributes": [
+        "dashboard_name",
+        "framework",
+        "charts_included",
+        "data_sources",
+        "user_auth",
+        "deployment_url"
+      ],
+      "common_actions": [
+        "Build",
+        "Deploy",
+        "Update",
+        "Monitor",
+        "Debug"
+      ],
+      "storage_location": "Git repository",
+      "related_entities": [
+        "LIBRARIES/LBS_003_LBS_003_Tools/Web_Development_Tools",
+        "TASK_MANAGERS/DEV"
+      ],
+      "file_format": "React/Vue/Angular project",
+      "example": "Lead_Gen_Analytics_Dashboard",
+      "tags": [
+        "dashboard",
+        "web-app",
+        "data-viz"
+      ]
+    },
+    {
+      "object_id": "OBJ-DEV-002",
+      "name": "Internationalization System",
+      "category": "Development",
+      "description": "i18n/localization system for multi-language application support",
+      "attributes": [
+        "languages_supported",
+        "translation_framework",
+        "locale_files",
+        "fallback_language",
+        "dynamic_loading"
+      ],
+      "common_actions": [
+        "Configure",
+        "Add_Language",
+        "Translate",
+        "Update",
+        "Test"
+      ],
+      "storage_location": "Application codebase /locales/",
+      "related_entities": [
+        "LIBRARIES/LBS_003_LBS_003_Tools/i18n_Libraries",
+        "TASK_MANAGERS/DEV"
+      ],
+      "file_format": "JSON, YAML",
+      "example": "Dashboard_i18n_System_en_uk_ru_de",
+      "tags": [
+        "i18n",
+        "localization",
+        "translation"
+      ]
+    },
+    {
+      "object_id": "OBJ-DEV-003",
+      "name": "n8n Workflow",
+      "category": "Development / Automation",
+      "description": "Visual automation workflow built in n8n platform",
+      "attributes": [
+        "workflow_name",
+        "triggers",
+        "nodes",
+        "credentials",
+        "active_status",
+        "execution_count"
+      ],
+      "common_actions": [
+        "Create",
+        "Configure",
+        "Test",
+        "Activate",
+        "Monitor",
+        "Debug"
+      ],
+      "storage_location": "n8n platform",
+      "related_entities": [
+        "LIBRARIES/LBS_003_LBS_003_Tools/n8n",
+        "TASK_MANAGERS/AI",
+        "TASK_MANAGERS/DEV"
+      ],
+      "file_format": "JSON (n8n workflow export)",
+      "example": "Discord_Voice_Log_Sync_Workflow",
+      "tags": [
+        "automation",
+        "workflow",
+        "n8n",
+        "integration"
+      ]
+    },
+    {
+      "object_id": "OBJ-DEV-004",
+      "name": "Chart Component Library",
+      "category": "Development / UI Components",
+      "description": "Reusable chart components for data visualization (D3, Chart.js, etc.)",
+      "attributes": [
+        "library_name",
+        "chart_types",
+        "framework_compatibility",
+        "customization_level",
+        "responsive"
+      ],
+      "common_actions": [
+        "Create",
+        "Configure",
+        "Integrate",
+        "Update",
+        "Style"
+      ],
+      "storage_location": "Component library /components/charts/",
+      "related_entities": [
+        "LIBRARIES/LBS_003_LBS_003_Tools/Data_Visualization_Tools",
+        "TASK_MANAGERS/DEV"
+      ],
+      "file_format": "JavaScript/TypeScript components",
+      "example": "Dashboard_Chart_Components_D3",
+      "tags": [
+        "charts",
+        "components",
+        "visualization",
+        "ui-library"
+      ]
+    },
+    {
+      "object_id": "OBJ-DEV-005",
+      "name": "Modal Component System",
+      "category": "Development / UI Components",
+      "description": "Reusable modal/dialog component system for user interactions",
+      "attributes": [
+        "modal_types",
+        "animation_enabled",
+        "accessibility_compliant",
+        "responsive",
+        "customizable"
+      ],
+      "common_actions": [
+        "Create",
+        "Configure",
+        "Trigger",
+        "Close",
+        "Style"
+      ],
+      "storage_location": "Component library /components/modals/",
+      "related_entities": [
+        "LIBRARIES/LBS_003_LBS_003_Tools/UI_Component_Libraries",
+        "TASK_MANAGERS/DEV"
+      ],
+      "file_format": "React/Vue components",
+      "example": "Dashboard_Modal_System",
+      "tags": [
+        "modal",
+        "dialog",
+        "components",
+        "ui"
+      ]
+    },
+    {
+      "object_id": "OBJ-DEV-006",
+      "name": "Theme System",
+      "category": "Development / UI Systems",
+      "description": "Design token and theming system for consistent UI styling",
+      "attributes": [
+        "theme_names",
+        "color_palettes",
+        "typography_scales",
+        "spacing_system",
+        "dark_mode"
+      ],
+      "common_actions": [
+        "Create",
+        "Configure",
+        "Apply",
+        "Update",
+        "Switch"
+      ],
+      "storage_location": "Application codebase /themes/",
+      "related_entities": [
+        "LIBRARIES/LBS_003_LBS_003_Tools/CSS_Frameworks",
+        "TASK_MANAGERS/DEV",
+        "TASK_MANAGERS/DESIGN"
+      ],
+      "file_format": "CSS, SCSS, JSON",
+      "example": "Dashboard_Theme_System_Light_Dark",
+      "tags": [
+        "theme",
+        "design-tokens",
+        "styling",
+        "ui-system"
+      ]
+    },
+    {
+      "object_id": "OBJ-DEV-007",
+      "name": "Cache System",
+      "category": "Development / Backend",
+      "description": "Application caching layer (Redis, in-memory, etc.) for performance optimization",
+      "attributes": [
+        "cache_type",
+        "ttl_strategy",
+        "cache_keys",
+        "invalidation_rules",
+        "hit_rate"
+      ],
+      "common_actions": [
+        "Configure",
+        "Set",
+        "Get",
+        "Invalidate",
+        "Monitor"
+      ],
+      "storage_location": "Backend infrastructure",
+      "related_entities": [
+        "LIBRARIES/LBS_003_LBS_003_Tools/Database_Tools",
+        "TASK_MANAGERS/DEV"
+      ],
+      "file_format": "Configuration files + code",
+      "example": "Dashboard_Data_Cache_System",
+      "tags": [
+        "cache",
+        "performance",
+        "redis",
+        "backend"
+      ]
+    },
+    {
+      "object_id": "OBJ-DEV-008",
+      "name": "Bookmarklet",
+      "category": "Development / Browser Tools",
+      "description": "JavaScript bookmarklet for browser-based automation and utilities",
+      "attributes": [
+        "bookmarklet_name",
+        "functionality",
+        "browser_compatibility",
+        "code_minified"
+      ],
+      "common_actions": [
+        "Create",
+        "Test",
+        "Deploy",
+        "Update",
+        "Debug"
+      ],
+      "storage_location": "Browser bookmarks / documentation",
+      "related_entities": [
+        "LIBRARIES/LBS_003_LBS_003_Tools/Browser_Extensions",
+        "TASK_MANAGERS/DEV"
+      ],
+      "file_format": "JavaScript (minified)",
+      "example": "Dropbox_Upload_Bookmarklet",
+      "tags": [
+        "bookmarklet",
+        "browser-tool",
+        "javascript",
+        "automation"
+      ]
+    },
+    {
+      "object_id": "OBJ-DEV-009",
+      "name": "GitHub Repository",
+      "category": "Development / Version Control",
+      "description": "Git repository hosted on GitHub for code collaboration and version control",
+      "attributes": [
+        "repo_name",
+        "visibility",
+        "primary_language",
+        "branches",
+        "contributors",
+        "ci_cd_enabled"
+      ],
+      "common_actions": [
+        "Create",
+        "Clone",
+        "Commit",
+        "Push",
+        "Merge",
+        "Deploy"
+      ],
+      "storage_location": "GitHub platform",
+      "related_entities": [
+        "LIBRARIES/LBS_003_LBS_003_Tools/Git",
+        "LIBRARIES/LBS_003_LBS_003_Tools/GitHub",
+        "TASK_MANAGERS/DEV"
+      ],
+      "file_format": "Git repository",
+      "example": "Online_Academy_Repository",
+      "tags": [
+        "git",
+        "github",
+        "repository",
+        "version-control"
+      ]
+    },
+    {
+      "object_id": "OBJ-DEV-010",
+      "name": "Web Application",
+      "category": "Development / No-Code",
+      "description": "Fully functional web application generated from natural language prompts using Google AI Studio's Build tab, deployed to Google Cloud Run with public URL",
+      "attributes": [
+        "app_name",
+        "app_description",
+        "features",
+        "generated_code",
+        "deployment_url",
+        "cloud_run_instance"
+      ],
+      "common_actions": [
+        "Generate",
+        "Preview",
+        "Iterate",
+        "Deploy",
+        "Publish",
+        "Update"
+      ],
+      "storage_location": "Google Cloud Run",
+      "related_entities": [
+        "LIBRARIES/LBS_003_Tools/AI_Tools/Google_AI_Studio",
+        "TASK_MANAGERS/TSM-006_Workflows/WRF-024",
+        "LIBRARIES/LBS_003_Tools/Cloud_Platforms/Google_Cloud_Run"
+      ],
+      "file_format": "HTML, CSS, JavaScript",
+      "example": "Coffee shop web app with menu and feedback form",
+      "tags": [
+        "no-code",
+        "ai-generation",
+        "web-app",
+        "google-ai-studio",
+        "cloud-run",
+        "deployment"
+      ],
+      "generation_time": "5-10 minutes",
+      "source": "Video_023"
+    },
+    {
+      "object_id": "OBJ-DEV-011",
+      "name": "Source Code",
+      "category": "Development / Generated Code",
+      "description": "AI-generated HTML, CSS, and JavaScript source code for web applications, created via Google AI Studio's Build tab with conversational iteration capabilities",
+      "attributes": [
+        "code_language",
+        "framework",
+        "file_structure",
+        "generated_by",
+        "iteration_count",
+        "code_quality"
+      ],
+      "common_actions": [
+        "Generate",
+        "Review",
+        "Iterate",
+        "Refine",
+        "Download",
+        "Deploy"
+      ],
+      "storage_location": "Google AI Studio workspace / Local download",
+      "related_entities": [
+        "LIBRARIES/LBS_003_Tools/AI_Tools/Google_AI_Studio",
+        "TASK_MANAGERS/TSM-006_Workflows/WRF-024",
+        "OBJ-DEV-010"
+      ],
+      "file_format": "HTML, CSS, JS files",
+      "example": "Generated code for restaurant menu website",
+      "tags": [
+        "source-code",
+        "ai-generated",
+        "html",
+        "css",
+        "javascript",
+        "no-code"
+      ],
+      "source": "Video_023"
+    },
+    {
+      "object_id": "OBJ-DEV-012",
+      "name": "Public URL",
+      "category": "Development / Deployment",
+      "description": "Live public URL for deployed web application on Google Cloud Run, accessible to anyone for sharing, testing, or production use",
+      "attributes": [
+        "url",
+        "domain",
+        "cloud_platform",
+        "deployment_status",
+        "ssl_enabled",
+        "uptime"
+      ],
+      "common_actions": [
+        "Generate",
+        "Share",
+        "Test",
+        "Monitor",
+        "Update"
+      ],
+      "storage_location": "Google Cloud Run hosting",
+      "related_entities": [
+        "LIBRARIES/LBS_003_Tools/Cloud_Platforms/Google_Cloud_Run",
+        "TASK_MANAGERS/TSM-006_Workflows/WRF-024",
+        "OBJ-DEV-010"
+      ],
+      "file_format": "URL string",
+      "example": "https://coffee-shop-app-xyz123.run.app",
+      "tags": [
+        "url",
+        "deployment",
+        "cloud-run",
+        "public-access",
+        "hosting"
+      ],
+      "source": "Video_023"
+    }
+  ],
+  "version": "1.0",
+  "created": "2025-11-18",
+  "last_updated": "2025-11-24",
+  "total_objects": 12,
+  "source": "Employee Daily Activity Analysis (Nov 17-18, 2025)"
+}

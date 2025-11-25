@@ -1,0 +1,194 @@
+{
+  "entity_type": "TASK_MANAGERS",
+  "sub_entity": "Task_Template",
+  "template_id": "Task-Template-062",
+  "version": "1.0",
+  "created_date": "2025-11-17",
+  "last_updated": "2025-11-17",
+  "metadata": {
+    "name": "Conduct Universal Search Across Work Apps",
+    "description": "Use Dropbox Dash to search for information across all connected work applications (Google Drive, Slack, Notion, email, etc.) from a single interface",
+    "action": "Search",
+    "object": "Information Across Connected Apps",
+    "context": "Universal Search with Dropbox Dash",
+    "department": "All",
+    "complexity": "Low",
+    "estimated_duration": "2-5 minutes",
+    "skill_level_required": "Beginner",
+    "tools_required": [
+      "TOOL-112 (Dropbox Dash)",
+      "Web Browser"
+    ],
+    "prerequisites": [
+      "Dropbox Dash account with connected applications",
+      "At least 3-5 work apps connected (Google Drive, Slack, Notion, etc.)",
+      "Browser extension installed (for Cmd+E shortcut)",
+      "Search permissions for connected apps"
+    ]
+  },
+  "workflow": {
+    "phase": "execution",
+    "workflow_id": "WF-PM-009",
+    "dependencies": [],
+    "outputs": [
+      "Relevant information found across multiple applications",
+      "Search results with source attribution",
+      "Quick actions available (open, share, download)",
+      "Time saved vs. manual app-by-app searching"
+    ]
+  },
+  "steps": [
+    {
+      "step_number": 1,
+      "step_id": "STEP-PM-062-01",
+      "step_name": "Access Dash Search Bar",
+      "description": "Open Dropbox Dash search bar via browser extension (Cmd+E or Ctrl+E) or navigate to dash.dropbox.com",
+      "estimated_time": "5 seconds",
+      "tools": ["TOOL-112"],
+      "output": "Dash universal search bar active and ready"
+    },
+    {
+      "step_number": 2,
+      "step_id": "STEP-PM-062-02",
+      "step_name": "Enter Search Query",
+      "description": "Type your search query using natural language (e.g., 'Q3 revenue projections', 'customer feedback on new feature', 'meeting notes with John from last week')",
+      "estimated_time": "10 seconds",
+      "tools": ["TOOL-112"],
+      "output": "Search query entered",
+      "tips": [
+        "Use natural language (not keyword stuffing)",
+        "Include context clues (timeframe, person names, topics)",
+        "Start broad, refine if needed",
+        "Try different phrasings if first attempt doesn't yield results"
+      ]
+    },
+    {
+      "step_number": 3,
+      "step_id": "STEP-PM-062-03",
+      "step_name": "Review Cross-App Results",
+      "description": "Scan results from all connected applications. Dash displays results grouped by source (Google Drive, Slack, Notion, etc.) with preview snippets",
+      "estimated_time": "30-60 seconds",
+      "tools": ["TOOL-112"],
+      "output": "Results reviewed across all apps",
+      "success_criteria": "Relevant results found from 2+ different applications"
+    },
+    {
+      "step_number": 4,
+      "step_id": "STEP-PM-062-04",
+      "step_name": "Filter by Source (Optional)",
+      "description": "If results are overwhelming, filter by specific application (e.g., only show Slack messages or only show Google Docs)",
+      "estimated_time": "10 seconds",
+      "tools": ["TOOL-112"],
+      "output": "Results filtered to specific app(s)"
+    },
+    {
+      "step_number": 5,
+      "step_id": "STEP-PM-062-05",
+      "step_name": "Preview or Open Results",
+      "description": "Click on result to preview in Dash or open directly in source application. Use quick actions (share, download) if needed",
+      "estimated_time": "15-30 seconds per result",
+      "tools": ["TOOL-112"],
+      "output": "Relevant content accessed without switching apps",
+      "actions_available": [
+        "Open in source app",
+        "Preview in Dash",
+        "Share with team members",
+        "Download file",
+        "Copy link"
+      ]
+    },
+    {
+      "step_number": 6,
+      "step_id": "STEP-PM-062-06",
+      "step_name": "Refine Search if Needed",
+      "description": "If results aren't relevant, refine query with more specific terms, date ranges, or people names. Dash learns from your behavior over time",
+      "estimated_time": "20-40 seconds",
+      "tools": ["TOOL-112"],
+      "output": "More targeted results obtained"
+    },
+    {
+      "step_number": 7,
+      "step_id": "STEP-PM-062-07",
+      "step_name": "Save as Stack (Optional)",
+      "description": "If this is a recurring search topic, save it as a Stack (smart collection) that auto-updates as new content matches",
+      "estimated_time": "30 seconds",
+      "tools": ["TOOL-112"],
+      "output": "Stack created for future reference",
+      "when_to_use": "For searches you'll repeat weekly/monthly (e.g., 'customer feedback', 'competitor intel')"
+    }
+  ],
+  "quality_checklist": [
+    "Search query uses natural language (not just keywords)",
+    "Results appear from multiple connected applications",
+    "Relevant results found within top 10 results",
+    "Source attribution clear for each result",
+    "Quick actions (open, share, download) work as expected",
+    "No need to switch to individual apps to find information",
+    "Time saved vs. manual app-by-app search: 60-80%"
+  ],
+  "search_best_practices": {
+    "effective_queries": [
+      "Include context: 'customer feedback from last month' (not just 'feedback')",
+      "Use people names: 'project plan with Sarah' (narrows scope)",
+      "Specify timeframe: 'Q3 revenue projections' or 'meeting notes from last week'",
+      "Try topic + format: 'onboarding video tutorial'",
+      "Use question format: 'What were the action items from marketing meeting?'"
+    ],
+    "advanced_tips": [
+      "Dash learns from your click behavior (results improve over time)",
+      "Connected apps with more metadata (tags, titles) yield better results",
+      "Use Stacks for recurring searches (save query for future use)",
+      "Filter by file type if looking for specific format (PDF, spreadsheet, etc.)",
+      "Combine with AI Answers for synthesis across sources"
+    ]
+  },
+  "time_savings_analysis": {
+    "without_dash": "Manual search across 5 apps: 3-5 minutes per search",
+    "with_dash": "Universal search: 30-60 seconds per search",
+    "time_saved": "2-4 minutes per search (70-85% reduction)",
+    "monthly_impact": "10-20 searches/day × 20 days = 6.5-13 hours saved/month",
+    "annual_impact": "80-160 hours/year per user"
+  },
+  "related_entities": {
+    "workflow": "WF-PM-009 (Conduct Universal Search Across Work Apps)",
+    "tools": [
+      "TOOL-112 (Dropbox Dash)"
+    ],
+    "related_task_templates": [
+      "Task-Template-063: Create Auto-Updating Research Stack",
+      "Task-Template-065: Prepare Meeting Context with Dash Search"
+    ],
+    "skills_required": [
+      "natural language query formulation",
+      "search result evaluation",
+      "keyboard shortcuts (Cmd+E)",
+      "multi-app navigation"
+    ],
+    "discovery_source": "Video_016.md - Dropbox Dash Interview with Morgan Brown",
+    "step_templates": [
+      "STEP-PM-062-01 through STEP-PM-062-07"
+    ]
+  },
+  "common_use_cases": [
+    "Find email thread from 3 months ago about specific project",
+    "Locate presentation deck someone shared in Slack last week",
+    "Search for all documents related to upcoming product launch",
+    "Find meeting notes with specific stakeholder from last quarter",
+    "Discover internal research on competitor analysis",
+    "Locate customer feedback across email, Slack, and support tickets",
+    "Find policy document mentioned in team meeting"
+  ],
+  "troubleshooting": {
+    "no_results_found": "Check app connections in Dash settings; verify you have access to content in source app; try broader search terms",
+    "irrelevant_results": "Add more context to query (names, dates, topics); use filters; refine based on what's appearing",
+    "missing_app_results": "Ensure app is connected in Dash settings; check OAuth permissions; verify content sync is complete",
+    "slow_search": "Check internet connection; some apps may have sync delay (1-5 minutes); try again shortly"
+  },
+  "version_history": [
+    {
+      "version": "1.0",
+      "date": "2025-11-17",
+      "changes": "Initial template creation from Video_016.md workflow extraction"
+    }
+  ]
+}

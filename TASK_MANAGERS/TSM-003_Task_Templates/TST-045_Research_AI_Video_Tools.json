@@ -1,0 +1,400 @@
+{
+  "entity_type": "TASK_MANAGERS",
+  "sub_entity": "Task_Template",
+  "template_id": "Task-Template-045",
+  "task_name": "Research AI Video Tools to Complete Missing Tool Documentation",
+  "action": "Research",
+  "object": "AI Video Tools",
+  "context": "to complete missing documentation for 6 tools with discovered_needs_review status",
+  "description": "Comprehensive research task to complete missing data for 6 AI video tools (Hedra, HeyGen, Synthesia, RunwayML, Vozo AI, Hailo) identified with incomplete taxonomy documentation. Uses YouTube Video Research Prompt methodology aligned with Remote Helpers November 2025 strategic initiatives, focusing on Open-Source Video Generation (WAN 2.2) and video production optimization. Outputs fully documented tool JSON files with all TBD fields populated and integration workflows identified.",
+  "department": "Research / AI / Video",
+  "profession": "AI Researcher / Video Production Specialist",
+  "estimated_duration": "6-9 hours (4-6 hours research + 2-3 hours documentation)",
+  "status": "Template",
+  "dependencies": [
+    "Access to YouTube, Perplexity AI, and Google Search",
+    "YouTube_Video_Research_Prompt_RemoteHelpers_Nov2025.md available",
+    "Research_ToDo_2025-11-W47_AI_Video_Tools.json created",
+    "Access to Entities/LIBRARIES/Tools directory",
+    "Permission to update tool JSON files"
+  ],
+  "tools_required": [
+    "Perplexity AI",
+    "YouTube",
+    "Google Search",
+    "Text editor (VS Code/Cursor)",
+    "Spreadsheet tool (for comparison matrices)"
+  ],
+  "success_criteria": [
+    "All 26 missing data fields across 6 tools populated with specific data",
+    "All TBD values replaced with accurate information",
+    "All empty arrays filled with minimum required items",
+    "8-12 relevant YouTube videos identified and scored (Remote Helpers Relevance Score)",
+    "Top 3-5 videos watched and insights extracted",
+    "Comparison matrix created for video tools (Hedra vs HeyGen vs Synthesia vs RunwayML)",
+    "Integration workflows documented with Remote Helpers tech stack",
+    "Subscription renewal recommendations provided for expired accounts (Vozo AI, Hailo)",
+    "All 6 tool JSON files updated and validated"
+  ],
+  "steps": [
+    {
+      "step_number": 1,
+      "name": "Review research requirements and current tool status",
+      "tool": "Text Editor",
+      "responsibility": "AI Researcher",
+      "placement": "Local filesystem",
+      "duration": "30 minutes",
+      "dependencies": [],
+      "inputs": [
+        "Research_ToDo_2025-11-W47_AI_Video_Tools.json",
+        "6 incomplete tool JSON files",
+        "YouTube_Video_Research_Prompt_RemoteHelpers_Nov2025.md"
+      ],
+      "outputs": [
+        "Complete list of missing data fields per tool",
+        "Research priority order established",
+        "Understanding of Remote Helpers strategic alignment"
+      ],
+      "success_criteria": "Clear understanding of all 26 missing fields and research methodology"
+    },
+    {
+      "step_number": 2,
+      "name": "Execute YouTube video search using Remote Helpers Research Prompt",
+      "tool": "Perplexity AI / YouTube",
+      "responsibility": "AI Researcher",
+      "placement": "Perplexity.ai and YouTube.com",
+      "duration": "60-90 minutes",
+      "dependencies": [
+        "Step 1"
+      ],
+      "inputs": [
+        "8 search queries from Research ToDo",
+        "YouTube_Video_Research_Prompt criteria (30-60 days, 10-40 min videos)",
+        "Preferred creators list (Matthew Berman, Matt Wolfe, WorldofAI)"
+      ],
+      "outputs": [
+        "8-12 relevant videos identified per tool",
+        "Video metadata collected (title, URL, date, duration)",
+        "Initial relevance scoring (0-100 scale)"
+      ],
+      "success_criteria": "Minimum 8 videos found with 60+ relevance scores, at least 3 videos with 80+ scores"
+    },
+    {
+      "step_number": 3,
+      "name": "Watch and extract insights from top-scored videos",
+      "tool": "YouTube",
+      "responsibility": "AI Researcher / Video Specialist",
+      "placement": "YouTube.com",
+      "duration": "2-3 hours",
+      "dependencies": [
+        "Step 2"
+      ],
+      "inputs": [
+        "Top 3-5 videos (80+ relevance scores)",
+        "Research focus areas per tool"
+      ],
+      "outputs": [
+        "Detailed notes on tool capabilities and features",
+        "Use cases and workflow examples",
+        "Strengths and limitations identified",
+        "Pricing information extracted",
+        "Integration patterns noted",
+        "Best practices documented"
+      ],
+      "success_criteria": "Comprehensive notes covering all missing fields for priority tools (Hedra, RunwayML, HeyGen)"
+    },
+    {
+      "step_number": 4,
+      "name": "Conduct supplementary web research for remaining data gaps",
+      "tool": "Google Search / Perplexity / Official Documentation",
+      "responsibility": "AI Researcher",
+      "placement": "Web browsers",
+      "duration": "60-90 minutes",
+      "dependencies": [
+        "Step 3"
+      ],
+      "inputs": [
+        "Official tool documentation URLs",
+        "Remaining missing fields list",
+        "Specific queries for pricing, API docs, integrations"
+      ],
+      "outputs": [
+        "Complete pricing structures",
+        "Platform compatibility details",
+        "API and integration capabilities",
+        "Skill level requirements",
+        "Verified vendor information"
+      ],
+      "success_criteria": "All TBD fields have verified information from official sources"
+    },
+    {
+      "step_number": 5,
+      "name": "Create comparison matrix for video generation tools",
+      "tool": "Spreadsheet / Text Editor",
+      "responsibility": "AI Researcher",
+      "placement": "Google Sheets or local file",
+      "duration": "30 minutes",
+      "dependencies": [
+        "Step 4"
+      ],
+      "inputs": [
+        "Collected data for all 6 tools",
+        "Key comparison dimensions (features, pricing, use cases, quality)"
+      ],
+      "outputs": [
+        "Comparison matrix with 6 tools across 10+ dimensions",
+        "Runway Gen-3 vs WAN 2.2 analysis (open-source alternative)",
+        "HeyGen vs Synthesia enterprise comparison",
+        "ROI analysis per tool"
+      ],
+      "success_criteria": "Clear comparison enabling strategic decisions on tool adoption and renewal"
+    },
+    {
+      "step_number": 6,
+      "name": "Update tool JSON files with complete documentation",
+      "tool": "Text Editor (VS Code/Cursor)",
+      "responsibility": "AI Researcher",
+      "placement": "Entities/LIBRARIES/Tools directory",
+      "duration": "90-120 minutes",
+      "dependencies": [
+        "Step 5"
+      ],
+      "inputs": [
+        "Research notes and findings",
+        "Comparison matrix data",
+        "6 tool JSON files"
+      ],
+      "outputs": [
+        "Updated Hedra.json (11 fields completed)",
+        "Updated HeyGen.json (verification + 7 new fields)",
+        "Updated Synthesia.json (verification + 7 new fields)",
+        "Updated RunwayML.json (8 fields completed)",
+        "Updated Vozo_AI.json (11 fields completed)",
+        "Updated Hailo.json (12 fields completed)"
+      ],
+      "success_criteria": "All 6 JSON files have zero TBD fields, all arrays populated, status changed from discovered_needs_review"
+    },
+    {
+      "step_number": 7,
+      "name": "Document integration workflows and create recommendations",
+      "tool": "Text Editor",
+      "responsibility": "AI Researcher",
+      "placement": "Research report document",
+      "duration": "30-45 minutes",
+      "dependencies": [
+        "Step 6"
+      ],
+      "inputs": [
+        "Updated tool data",
+        "Comparison matrix",
+        "Remote Helpers strategic initiatives context"
+      ],
+      "outputs": [
+        "Integration workflow diagrams (tools + Remote Helpers stack)",
+        "Subscription renewal recommendation: Vozo AI (yes/no + rationale)",
+        "Subscription renewal recommendation: Hailo (yes/no + rationale)",
+        "Synthesia adoption recommendation (yes/no + rationale)",
+        "Runway Gen-3 vs WAN 2.2 use case mapping"
+      ],
+      "success_criteria": "Clear, actionable recommendations with cost-benefit analysis for each decision point"
+    },
+    {
+      "step_number": 8,
+      "name": "Validate JSON files and create summary report",
+      "tool": "JSON Validator / Text Editor",
+      "responsibility": "AI Researcher",
+      "placement": "Development environment",
+      "duration": "30 minutes",
+      "dependencies": [
+        "Step 7"
+      ],
+      "inputs": [
+        "6 updated JSON files",
+        "Research findings and recommendations"
+      ],
+      "outputs": [
+        "JSON validation confirmation (all files valid)",
+        "Summary report with key findings",
+        "Video list with Remote Helpers Relevance Scores",
+        "Next actions and follow-up items"
+      ],
+      "success_criteria": "All JSON files syntactically valid, summary report ready for stakeholder review"
+    }
+  ],
+  "checklist": [
+    {
+      "item": "Research_ToDo_2025-11-W47_AI_Video_Tools.json reviewed",
+      "guide": "Understand all 26 missing fields and research scope",
+      "required": true
+    },
+    {
+      "item": "YouTube Video Research Prompt methodology understood",
+      "guide": "Follow Remote Helpers Nov 2025 strategic alignment scoring",
+      "required": true
+    },
+    {
+      "item": "8-12 relevant videos identified with metadata",
+      "guide": "Published last 30-60 days, 10-40 min duration, 60+ relevance score",
+      "required": true
+    },
+    {
+      "item": "Top 3-5 videos (80+ scores) watched and notes taken",
+      "guide": "Extract capabilities, use cases, strengths, limitations, pricing",
+      "required": true
+    },
+    {
+      "item": "Official documentation reviewed for all 6 tools",
+      "guide": "Verify pricing, features, integrations from official sources",
+      "required": true
+    },
+    {
+      "item": "Comparison matrix created (6 tools x 10+ dimensions)",
+      "guide": "Include Runway Gen-3 vs WAN 2.2 comparison",
+      "required": true
+    },
+    {
+      "item": "All TBD fields replaced in tool JSON files",
+      "guide": "No TBD values remaining, all data verified",
+      "required": true
+    },
+    {
+      "item": "All empty arrays populated with minimum 3-5 items",
+      "guide": "Strengths (5+), limitations (3+), use_cases (5+)",
+      "required": true
+    },
+    {
+      "item": "Integration workflows documented",
+      "guide": "How each tool integrates with Remote Helpers tech stack",
+      "required": true
+    },
+    {
+      "item": "Subscription recommendations provided",
+      "guide": "Vozo AI renewal, Hailo renewal, Synthesia adoption - yes/no + rationale",
+      "required": true
+    },
+    {
+      "item": "JSON files validated for syntax",
+      "guide": "Use JSON linter/validator, ensure proper formatting",
+      "required": true
+    },
+    {
+      "item": "Summary report created with key findings",
+      "guide": "Include video list, relevance scores, recommendations",
+      "required": true
+    }
+  ],
+  "resources": [
+    {
+      "name": "YouTube_Video_Research_Prompt_RemoteHelpers_Nov2025.md",
+      "type": "Research Methodology",
+      "description": "Comprehensive research prompt with Remote Helpers strategic alignment, scoring system, and search criteria",
+      "location": "Entities/LIBRARIES/DEPARTMENTS/_SHARED/Prompts/Research/",
+      "duration": "15 min read"
+    },
+    {
+      "name": "Research_ToDo_2025-11-W47_AI_Video_Tools.json",
+      "type": "Research Specification",
+      "description": "Detailed list of 6 tools to research with missing fields, search queries, and success criteria",
+      "location": "Entities/LIBRARIES/Researches/",
+      "duration": "10 min read"
+    },
+    {
+      "name": "Matthew Berman YouTube Channel",
+      "type": "Video Resources",
+      "description": "Preferred creator for AI model news, benchmarks, and video tool reviews",
+      "url": "https://youtube.com/@matthew_berman",
+      "duration": "Variable"
+    },
+    {
+      "name": "Matt Wolfe YouTube Channel",
+      "type": "Video Resources",
+      "description": "Preferred creator for AI tool demos and practical applications",
+      "url": "https://youtube.com/@mreflow",
+      "duration": "Variable"
+    },
+    {
+      "name": "WorldofAI YouTube Channel",
+      "type": "Video Resources",
+      "description": "Preferred creator for AI news, tools, and video generation updates",
+      "url": "https://youtube.com/@intheworldofai",
+      "duration": "Variable"
+    }
+  ],
+  "roi_metrics": {
+    "time_savings": "Prevents repeated research by future team members - estimated 6-9 hours saved per person",
+    "decision_support": "Enables data-driven decisions on $200-500/month in video tool subscriptions",
+    "strategic_alignment": "Directly supports Open-Source Video Generation initiative (WAN 2.2 evaluation)",
+    "knowledge_capture": "Creates reusable taxonomy documentation for 32 Remote Helpers employees",
+    "workflow_optimization": "Identifies integration patterns for Video department efficiency gains"
+  },
+  "troubleshooting": [
+    {
+      "issue": "Cannot find enough recent videos (30-60 days)",
+      "solution": "Expand date range to 90 days, or search for tool name + '2025' for latest content"
+    },
+    {
+      "issue": "Videos are too technical/not actionable",
+      "solution": "Focus on preferred creators (Matthew Berman, Matt Wolfe) who balance depth with accessibility"
+    },
+    {
+      "issue": "Pricing information not available publicly",
+      "solution": "Check official documentation, contact sales for quote, or note 'Contact for pricing' in cost_structure"
+    },
+    {
+      "issue": "Tool capabilities unclear from videos alone",
+      "solution": "Supplement with official documentation, product demos, or free tier hands-on testing"
+    },
+    {
+      "issue": "Conflicting information across sources",
+      "solution": "Prioritize official documentation > recent videos > older sources; note date of information"
+    }
+  ],
+  "optimization_tips": [
+    "Use Perplexity AI for initial search - faster than manual YouTube searching",
+    "Watch videos at 1.5x or 2x speed for time efficiency",
+    "Take timestamped notes during video watching for easy reference",
+    "Use YouTube auto-generated transcripts to quickly scan content",
+    "Create a shared comparison spreadsheet if working with Video department",
+    "Test free tiers of tools when documentation is insufficient"
+  ],
+  "future_enhancements": [
+    "Automate video discovery using Perplexity API",
+    "Create standardized video evaluation rubric",
+    "Build tool comparison dashboard for visual analysis",
+    "Integrate with Maestra.ai for automatic video transcription",
+    "Create workflow for quarterly tool documentation updates"
+  ],
+  "related_tasks": [
+    "Task-Template-046.json",
+    "Task-Template-047.json",
+    "Task-Template-048.json"
+  ],
+  "related_workflows": [
+    "YouTube Video Research Workflow",
+    "Tool Documentation Update Process",
+    "Strategic Tool Evaluation Workflow"
+  ],
+  "related_projects": [
+    "Open-Source Video Generation (WAN 2.2)",
+    "Video Production Optimization",
+    "Tool Taxonomy Completion"
+  ],
+  "tags": [
+    "research",
+    "ai-video-tools",
+    "video-generation",
+    "tool-documentation",
+    "taxonomy",
+    "hedra",
+    "heygen",
+    "synthesia",
+    "runway-gen3",
+    "vozo-ai",
+    "hailo",
+    "youtube-research"
+  ],
+  "version": "1.0",
+  "created": "2025-11-15",
+  "last_updated": "2025-11-15",
+  "source": "Tool audit process - Research ToDo file generation"
+}

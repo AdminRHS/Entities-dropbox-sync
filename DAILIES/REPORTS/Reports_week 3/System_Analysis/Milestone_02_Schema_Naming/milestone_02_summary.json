@@ -1,0 +1,24 @@
+{
+  "naming": {
+    "total_json_files": 535,
+    "template_ids_found": 26,
+    "violations": 0,
+    "compliance_rate": 100.0
+  },
+  "schema": {
+    "total_violations": 138,
+    "critical_violations": 97,
+    "medium_violations": 41,
+    "template_types_analyzed": [
+      "Milestone_Templates",
+      "Project_Templates",
+      "Step_Templates",
+      "Task_Templates"
+    ]
+  },
+  "versioning": {
+    "files_with_versioning": 167,
+    "files_with_version_field": 150,
+    "format_issues": 0
+  }
+}

@@ -1,0 +1,293 @@
+{
+  "entity_type": "TASK_MANAGERS",
+  "sub_entity": "Task_Template",
+  "template_id": "Task-Template-064",
+  "version": "1.0",
+  "created_date": "2025-11-17",
+  "last_updated": "2025-11-17",
+  "metadata": {
+    "name": "Setup Company Voice Guide for Brand Consistency",
+    "description": "Create and configure Company Voice Guide in Dropbox Dash (or custom AI tools) to ensure all AI-generated content matches brand voice, tone, and terminology",
+    "action": "Setup",
+    "object": "Company Voice Guide",
+    "context": "Brand Consistency for AI-Generated Content",
+    "department": "Marketing, Communications, Product",
+    "complexity": "Medium",
+    "estimated_duration": "2-4 hours (initial creation)",
+    "skill_level_required": "Intermediate",
+    "tools_required": [
+      "TOOL-117 (Company Voice Guide)",
+      "TOOL-112 (Dropbox Dash) - optional",
+      "TOOL-110 (GitHub Copilot) - optional",
+      "Existing brand guidelines (if available)"
+    ],
+    "prerequisites": [
+      "Access to existing brand guidelines, style guides, or marketing materials",
+      "Understanding of company brand personality and values",
+      "Authority to define brand voice standards",
+      "Access to Dropbox Dash (for Dash implementation) or alternative AI tool with custom instructions"
+    ]
+  },
+  "workflow": {
+    "phase": "setup",
+    "workflow_id": "WF-PM-011",
+    "dependencies": [],
+    "outputs": [
+      "Company Voice Guide document created",
+      "Voice Guide integrated with AI tools (Dash, ChatGPT, Copilot, etc.)",
+      "Team trained on using Voice Guide",
+      "AI-generated content matches brand standards (70-90% first-draft accuracy)",
+      "Reduced content revision cycles (30-50% time savings)"
+    ]
+  },
+  "steps": [
+    {
+      "step_number": 1,
+      "step_id": "STEP-WRITE-064-01",
+      "step_name": "Audit Existing Brand Materials",
+      "description": "Collect existing brand guidelines, style guides, marketing copy, customer-facing content, and support templates. Review for patterns in tone, terminology, and style",
+      "estimated_time": "30-60 minutes",
+      "tools": [],
+      "output": "Collection of 10-20 representative brand materials",
+      "what_to_collect": [
+        "Official brand guidelines (if they exist)",
+        "Website copy (homepage, product pages, about page)",
+        "Marketing emails and campaigns",
+        "Social media posts (across platforms)",
+        "Customer support templates",
+        "Product documentation",
+        "Internal communications (all-hands decks, memos)"
+      ]
+    },
+    {
+      "step_number": 2,
+      "step_id": "STEP-WRITE-064-02",
+      "step_name": "Extract Brand Personality Traits",
+      "description": "Analyze materials to identify 3-5 core brand personality traits (e.g., friendly, innovative, trustworthy, playful, professional, empathetic). Document with examples",
+      "estimated_time": "20-30 minutes",
+      "tools": [],
+      "output": "3-5 documented brand personality traits with supporting examples",
+      "example_traits": [
+        "Approachable (not corporate or stuffy)",
+        "Helpful (not condescending)",
+        "Clear (not jargon-heavy)",
+        "Confident (not arrogant)",
+        "Human (not robotic)"
+      ]
+    },
+    {
+      "step_number": 3,
+      "step_id": "STEP-WRITE-064-03",
+      "step_name": "Define Tone Guidelines",
+      "description": "Specify tone for different contexts (marketing vs. support vs. internal docs). Define formality level, emotional tone, and context-specific adjustments",
+      "estimated_time": "20-30 minutes",
+      "tools": [],
+      "output": "Tone guidelines documented for 3-5 content contexts",
+      "example_guidelines": {
+        "marketing": "Warm and conversational, optimistic but not salesy",
+        "customer_support": "Empathetic and helpful, professional but friendly",
+        "product_docs": "Clear and instructional, technical but accessible",
+        "internal_comms": "Transparent and collaborative, informal but respectful"
+      }
+    },
+    {
+      "step_number": 4,
+      "step_id": "STEP-WRITE-064-04",
+      "step_name": "Document Terminology and Word Choices",
+      "description": "Create lists of preferred terms, forbidden words, and industry jargon handling. Be specific about word substitutions (e.g., 'customers' not 'users', 'help' not 'assist')",
+      "estimated_time": "30-40 minutes",
+      "tools": [],
+      "output": "Terminology guide with 15-30 word choice rules",
+      "categories": [
+        "Preferred terms (what we say)",
+        "Forbidden terms (what we avoid)",
+        "Contractions policy (use or avoid)",
+        "Pronoun preferences (we/you/I)",
+        "Jargon handling (explain or avoid)",
+        "Acronym policy (spell out on first use)"
+      ]
+    },
+    {
+      "step_number": 5,
+      "step_id": "STEP-WRITE-064-05",
+      "step_name": "Create Before/After Examples (Critical)",
+      "description": "Write 5-10 side-by-side examples showing on-brand vs. off-brand content. This is the most important step for AI learning. Cover different content types and common mistakes",
+      "estimated_time": "40-60 minutes",
+      "tools": [],
+      "output": "5-10 before/after example pairs with explanations",
+      "success_criteria": "Examples cover diverse scenarios (marketing, support, docs, error messages, CTAs)",
+      "example_format": "✅ On-brand: 'We're here to help!' | ❌ Off-brand: 'Our support team will assist you with your inquiry' | Why: Prefer warm, direct language over formal, passive constructions"
+    },
+    {
+      "step_number": 6,
+      "step_id": "STEP-WRITE-064-06",
+      "step_name": "Compile Voice Guide Document",
+      "description": "Organize all sections into comprehensive Voice Guide document. Use clear headings, bullet points, and examples. Aim for 2-5 pages (concise but complete)",
+      "estimated_time": "30-40 minutes",
+      "tools": [
+        "Google Docs, Notion, or Markdown"
+      ],
+      "output": "Complete Company Voice Guide document (2-5 pages)",
+      "recommended_structure": [
+        "1. Brand Personality (traits + examples)",
+        "2. Tone Guidelines (by context)",
+        "3. Terminology and Word Choice",
+        "4. Grammar and Style Rules",
+        "5. Formatting Conventions",
+        "6. Examples: On-Brand vs. Off-Brand"
+      ]
+    },
+    {
+      "step_number": 7,
+      "step_id": "STEP-WRITE-064-07",
+      "step_name": "Integrate with AI Tools",
+      "description": "Add Voice Guide to AI tools your team uses. For Dropbox Dash: upload to Company Voice Guide feature. For ChatGPT: add to Custom Instructions. For Copilot: add to .github/copilot-instructions.md. For Claude: create Project with guide",
+      "estimated_time": "20-30 minutes",
+      "tools": [
+        "TOOL-112",
+        "TOOL-110",
+        "or other AI tools"
+      ],
+      "output": "Voice Guide integrated with 2-3 primary AI tools",
+      "integration_methods": {
+        "dropbox_dash": "Settings → Company Voice Guide → Upload document",
+        "chatgpt": "Settings → Customization → Custom Instructions (paste guide)",
+        "github_copilot": "Add to .github/copilot-instructions.md in repo",
+        "claude_projects": "Create Project → Add guide to project knowledge",
+        "generic": "Prepend guide to every prompt (manual but universal)"
+      }
+    },
+    {
+      "step_number": 8,
+      "step_id": "STEP-WRITE-064-08",
+      "step_name": "Test with Sample Prompts",
+      "description": "Test Voice Guide integration by generating 5-10 sample content pieces (marketing copy, support response, product description). Evaluate adherence to brand voice",
+      "estimated_time": "20-30 minutes",
+      "tools": [
+        "TOOL-112 or configured AI tool"
+      ],
+      "output": "Test results showing 70-90% brand voice adherence",
+      "test_scenarios": [
+        "Write a product feature announcement",
+        "Draft a customer support response to billing question",
+        "Create social media post about company milestone",
+        "Write error message for failed file upload",
+        "Draft email to inactive users encouraging re-engagement"
+      ]
+    },
+    {
+      "step_number": 9,
+      "step_id": "STEP-WRITE-064-09",
+      "step_name": "Refine Based on Test Results",
+      "description": "Review test outputs for brand voice violations. Identify patterns in mistakes (e.g., AI still using 'users' instead of 'customers'). Strengthen Voice Guide with more explicit rules or additional examples",
+      "estimated_time": "15-20 minutes",
+      "tools": [],
+      "output": "Voice Guide v1.1 with refinements based on AI output testing"
+    },
+    {
+      "step_number": 10,
+      "step_id": "STEP-WRITE-064-10",
+      "step_name": "Train Team and Share",
+      "description": "Share Voice Guide with team via Slack, email, or team meeting. Explain how to use with AI tools. Provide examples of improved outputs. Designate 'brand champion' to maintain guide",
+      "estimated_time": "30 minutes (team meeting) + async",
+      "tools": [
+        "Slack, email, meeting"
+      ],
+      "output": "Team trained on Voice Guide usage; guide accessible in shared location",
+      "training_topics": [
+        "Why brand voice consistency matters",
+        "How to access Voice Guide",
+        "How to use with AI tools (Dash, ChatGPT, etc.)",
+        "Examples of on-brand vs. off-brand AI outputs",
+        "How to report Voice Guide gaps or suggestions",
+        "Review cadence (quarterly)"
+      ]
+    }
+  ],
+  "quality_checklist": [
+    "Voice Guide is 2-5 pages (concise but comprehensive)",
+    "3-5 brand personality traits documented with examples",
+    "Tone guidelines cover 3-5 content contexts",
+    "15-30 terminology/word choice rules specified",
+    "5-10 before/after examples included (critical for AI learning)",
+    "Voice Guide integrated with 2+ AI tools team uses",
+    "Test outputs show 70-90% brand voice adherence",
+    "Team trained on Voice Guide usage",
+    "Guide accessible in shared location (Google Docs, Notion, wiki)",
+    "Brand champion designated for ongoing maintenance"
+  ],
+  "voice_guide_template": {
+    "section_1_brand_personality": "We are [TRAIT 1], [TRAIT 2], and [TRAIT 3]. We are never [ANTI-TRAIT 1] or [ANTI-TRAIT 2]. Example: Our homepage says '[EXAMPLE]' not '[COUNTER-EXAMPLE]'.",
+    "section_2_tone": "Marketing: [DESCRIPTION]. Support: [DESCRIPTION]. Docs: [DESCRIPTION]. Adjust for urgency: [GUIDELINES].",
+    "section_3_terminology": "Say: [LIST]. Avoid: [LIST]. Contractions: [POLICY]. Pronouns: [POLICY]. Jargon: [POLICY].",
+    "section_4_grammar": "Voice: [Active/Passive]. Sentence length: [GUIDELINE]. Punctuation: [RULES].",
+    "section_5_formatting": "Headers: [STYLE]. Lists: [WHEN TO USE]. Bold/Italic: [USAGE]. Emojis: [POLICY].",
+    "section_6_examples": "✅ '[ON-BRAND EXAMPLE]' | ❌ '[OFF-BRAND EXAMPLE]' | Why: [EXPLANATION]. (Repeat 5-10 times)"
+  },
+  "time_savings_analysis": {
+    "without_voice_guide": "Manual editing of AI content for brand voice: 15-30 minutes per piece",
+    "with_voice_guide": "Minimal editing (mostly factual checks): 5-10 minutes per piece",
+    "time_saved": "10-20 minutes per content piece (60-70% reduction)",
+    "monthly_impact": "10 pieces/week × 4 weeks = 6.5-13 hours saved/month (content-heavy roles)",
+    "quality_improvement": "85% reduction in off-brand content (measured by review flags)"
+  },
+  "related_entities": {
+    "workflow": "WF-PM-011 (Generate Brand-Consistent AI Content)",
+    "tools": [
+      "TOOL-117 (Company Voice Guide)",
+      "TOOL-112 (Dropbox Dash)",
+      "TOOL-110 (GitHub Copilot)",
+      "TOOL-116 (Custom Prompt Templates)"
+    ],
+    "related_task_templates": [
+      "Task-Template-061: Generate Custom Project Instructions for Copilot",
+      "Task-Template-070: Create Brand Voice Guide from Existing Materials"
+    ],
+    "skills_required": [
+      "brand strategy",
+      "copywriting",
+      "style guide creation",
+      "content auditing",
+      "documentation writing",
+      "AI tool configuration"
+    ],
+    "discovery_source": "Video_016.md - Dropbox Dash Interview with Morgan Brown",
+    "step_templates": [
+      "STEP-WRITE-064-01 through STEP-WRITE-064-10"
+    ]
+  },
+  "best_practices": {
+    "creation": [
+      "Start with 5-10 core principles (expand later if needed)",
+      "Prioritize examples over rules (AI learns better from examples)",
+      "Use before/after comparisons (highly effective for AI)",
+      "Include context-specific guidelines (marketing vs. support)",
+      "Test with real AI tools before company-wide rollout",
+      "Version the guide (v1.0, v2.0) and date stamp"
+    ],
+    "maintenance": [
+      "Review quarterly or after major brand refreshes",
+      "Track common AI violations (add rules to address patterns)",
+      "Gather team feedback (what's missing? what's unclear?)",
+      "Update examples with real-world AI outputs",
+      "Archive outdated guidelines (keep version history)",
+      "Align with updated brand strategy"
+    ]
+  },
+  "common_mistakes_to_avoid": [
+    "Too vague ('Be friendly' without examples)",
+    "Too long (10+ pages that no one reads)",
+    "All rules, no examples (AI needs examples to learn)",
+    "One-size-fits-all tone (doesn't account for context)",
+    "Set it and forget it (guide needs periodic updates)",
+    "Not testing with AI tools before rollout",
+    "No designated owner (guide becomes stale)"
+  ],
+  "version_history": [
+    {
+      "version": "1.0",
+      "date": "2025-11-17",
+      "changes": "Initial template creation from Video_016.md workflow extraction"
+    }
+  ]
+}

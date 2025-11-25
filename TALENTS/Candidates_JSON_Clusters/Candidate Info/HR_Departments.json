@@ -1,0 +1,13 @@
+{
+  "template_name": "HR_Departments",
+  "description": "HR departments array - contains department associations",
+  "fields": {
+    "hr_departments": {
+      "type": "array",
+      "item_type": "unknown",
+      "description": "Array of: hr_departments",
+      "note": "This field contains an array of HR department objects. The structure may vary and should be validated against actual data."
+    }
+  }
+}
+

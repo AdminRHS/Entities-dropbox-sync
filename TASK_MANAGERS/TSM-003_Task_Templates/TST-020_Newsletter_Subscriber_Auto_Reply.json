@@ -1,0 +1,338 @@
+{
+  "entity_type": "TASK_MANAGERS",
+  "sub_entity": "Task_Template",
+  "template_id": "Task-Template-020",
+  "task_name": "Automate Newsletter Subscriber Replies",
+  "action": "Automate",
+  "object": "Newsletter Replies",
+  "context": "via Gmail MCP connector",
+  "description": "Auto-reply to newsletter subscribers using Gmail MCP connector (20-25 emails every 3-5 days, saves 2-3 hours/week, 95%+ success rate)",
+  "department": "AI",
+  "profession": "Executive Assistant",
+  "priority": "Medium",
+  "estimated_duration": "Auto-generate: <1 minute | Review: 5-10 minutes",
+  "setup_time": "6-8 minutes (one-time)",
+  "status": "Active",
+  "complexity": "Medium",
+  "automation_potential": "Very High (>80%)",
+  "success_rate": "95%+",
+  "time_savings": "2-3 hours per week",
+  "volume": "20-25 emails every 3-5 days",
+  "dependencies": [
+    "Gmail MCP Connector deployed (TOOL-INT-001)",
+    "Claude Desktop App configured (TOOL-AI-030)",
+    "Newsletter subscriber emails identified (label or folder)"
+  ],
+  "tools_required": [
+    "TOOL-AI-030 (Claude Desktop App)",
+    "TOOL-INT-001 (Gmail MCP Connector)"
+  ],
+  "skills_required": [
+    "SKL-072 (automated emails via Gmail MCP)"
+  ],
+  "objects_used": [
+    "OBJ-AI-007 (Email Draft)",
+    "OBJ-AI-010 (Newsletter Subscriber)"
+  ],
+  "workflow_reference": "WF-AI-004",
+  "success_criteria": [
+    "All newsletter subscriber emails identified",
+    "Appropriate responses auto-drafted",
+    "95%+ of drafts acceptable with minimal editing",
+    "All drafts reviewed before sending",
+    "2-3 hours/week time savings achieved"
+  ],
+  "responsibilities": {
+    "responsible": "Executive Assistant",
+    "accountable": "Marketing Manager or Executive",
+    "consulted": [
+      "Content Manager",
+      "Marketing Team"
+    ],
+    "informed": [
+      "Newsletter subscribers"
+    ]
+  },
+  "steps": [
+    {
+      "step_number": 1,
+      "name": "Identify newsletter subscriber emails in inbox",
+      "action": "identify",
+      "tool": "Gmail",
+      "responsibility": "Executive Assistant",
+      "placement": "Gmail - Labels or Folders",
+      "duration": "2 minutes",
+      "dependencies": [],
+      "inputs": [
+        "Inbox with newsletter subscriber messages"
+      ],
+      "outputs": [
+        "20-25 subscriber emails tagged or in dedicated folder"
+      ],
+      "success_criteria": "All subscriber emails identified and organized",
+      "responsibility_id": "RESP-OPS-011",
+      "responsibility_name": "identify emails",
+      "_original_action": "identify"
+    },
+    {
+      "step_number": 2,
+      "name": "Open Claude Desktop and activate Gmail connector",
+      "action": "activate",
+      "tool": "TOOL-AI-030 (Claude Desktop App)",
+      "responsibility": "Executive Assistant",
+      "placement": "Claude Desktop application",
+      "duration": "10 seconds",
+      "dependencies": [
+        "Step 1"
+      ],
+      "inputs": [
+        "Gmail MCP connector configured"
+      ],
+      "outputs": [
+        "Claude Desktop ready with Gmail access"
+      ],
+      "success_criteria": "Gmail connector active and ready",
+      "responsibility_id": "RESP-OPS-012",
+      "responsibility_name": "activate open claude desktop and activate gmail connector",
+      "_original_action": "activate"
+    },
+    {
+      "step_number": 3,
+      "name": "Prompt Claude to read newsletter subscriber emails",
+      "action": "prompt",
+      "tool": "TOOL-AI-030 (Claude Desktop App)",
+      "responsibility": "Executive Assistant",
+      "placement": "Claude chat",
+      "duration": "10 seconds",
+      "dependencies": [
+        "Step 2"
+      ],
+      "inputs": [
+        "Prompt: 'Read newsletter subscriber emails and draft replies'"
+      ],
+      "outputs": [
+        "Claude reads subscriber emails via Gmail connector"
+      ],
+      "success_criteria": "All 20-25 subscriber emails retrieved",
+      "responsibility_id": "RESP-OPS-002",
+      "responsibility_name": "prompt emails",
+      "_original_action": "prompt"
+    },
+    {
+      "step_number": 4,
+      "name": "Analyze subscriber questions and requests",
+      "action": "analyze",
+      "tool": "TOOL-AI-030 (Claude Desktop App)",
+      "responsibility": "Claude AI (automated)",
+      "placement": "Claude processing",
+      "duration": "20-30 seconds (automated)",
+      "dependencies": [
+        "Step 3"
+      ],
+      "inputs": [
+        "Subscriber email content"
+      ],
+      "outputs": [
+        "Context analysis: common questions, resource requests, feedback"
+      ],
+      "success_criteria": "All subscriber intents categorized correctly",
+      "responsibility_id": "RESP-OPS-013",
+      "responsibility_name": "analyze analyze subscriber questions and requests",
+      "_original_action": "analyze"
+    },
+    {
+      "step_number": 5,
+      "name": "Generate personalized reply drafts",
+      "action": "generate",
+      "tool": "TOOL-AI-030 (Claude Desktop App) + TOOL-INT-001",
+      "responsibility": "Claude AI (automated)",
+      "placement": "Gmail Drafts",
+      "duration": "30-40 seconds (automated)",
+      "dependencies": [
+        "Step 4"
+      ],
+      "inputs": [
+        "Subscriber questions",
+        "Standard replies",
+        "Helpful resources"
+      ],
+      "outputs": [
+        "20-25 personalized draft replies in Gmail"
+      ],
+      "success_criteria": "Drafts created for all subscribers, personalized with names and specific answers",
+      "responsibility_id": "RESP-OPS-014",
+      "responsibility_name": "generate generate personalized reply drafts",
+      "_original_action": "generate"
+    },
+    {
+      "step_number": 6,
+      "name": "Review drafts in Gmail",
+      "action": "review",
+      "tool": "Gmail",
+      "responsibility": "Executive Assistant",
+      "placement": "Gmail - Drafts folder",
+      "duration": "5-10 minutes",
+      "dependencies": [
+        "Step 5"
+      ],
+      "inputs": [
+        "AI-generated drafts"
+      ],
+      "outputs": [
+        "Reviewed and edited drafts (if needed)"
+      ],
+      "success_criteria": "All drafts reviewed, 95%+ acceptable with minimal edits",
+      "responsibility_id": "RESP-OPS-001",
+      "responsibility_name": "review drafts",
+      "_original_action": "review"
+    },
+    {
+      "step_number": 7,
+      "name": "Send approved replies",
+      "action": "send",
+      "tool": "Gmail",
+      "responsibility": "Executive Assistant",
+      "placement": "Gmail",
+      "duration": "1-2 minutes",
+      "dependencies": [
+        "Step 6"
+      ],
+      "inputs": [
+        "Approved drafts"
+      ],
+      "outputs": [
+        "Replies sent to all 20-25 subscribers"
+      ],
+      "success_criteria": "All subscriber replies sent successfully",
+      "responsibility_id": "RESP-OPS-015",
+      "responsibility_name": "send send approved replies",
+      "_original_action": "send"
+    }
+  ],
+  "checklist": [
+    {
+      "item": "Newsletter subscribers identified and organized",
+      "guide": "Use Gmail labels or folders to group subscriber emails",
+      "required": true
+    },
+    {
+      "item": "Gmail MCP connector active and working",
+      "guide": "Test connector before batch processing",
+      "required": true
+    },
+    {
+      "item": "Replies address specific subscriber questions",
+      "guide": "Generic replies get low engagement - personalization matters",
+      "required": true
+    },
+    {
+      "item": "Helpful resources included in replies",
+      "guide": "Links to relevant content, tools, or additional newsletter issues",
+      "required": true
+    },
+    {
+      "item": "All drafts reviewed before sending",
+      "guide": "NEVER auto-send without human review, especially to subscribers",
+      "required": true
+    },
+    {
+      "item": "Tone matches newsletter brand voice",
+      "guide": "Warm, helpful, consistent with newsletter style",
+      "required": true
+    }
+  ],
+  "performance_metrics": {
+    "time_savings": "2-3 hours per week",
+    "setup_time": "6-8 minutes (one-time)",
+    "volume": "20-25 emails every 3-5 days",
+    "success_rate": "95%+ drafts acceptable",
+    "roi": "18-36:1 weekly (setup vs time saved)"
+  },
+  "common_subscriber_questions": [
+    "How do I unsubscribe? → Direct to unsubscribe link",
+    "Can I get previous issues? → Link to archive or send specific issues",
+    "Do you offer X topic? → Suggest relevant content or upcoming topics",
+    "Technical issue with newsletter → Troubleshoot or escalate",
+    "Feedback/suggestions → Thank them, note for content team"
+  ],
+  "best_practices": [
+    "Saves 2-3 hours/week on subscriber management",
+    "95%+ success rate - minimal editing needed",
+    "Personalize with subscriber name and specific question",
+    "Include helpful resources and links in replies",
+    "Review all drafts - subscribers are high-value contacts",
+    "Use consistent, warm tone matching newsletter brand"
+  ],
+  "reply_templates_to_include": [
+    "Unsubscribe instructions (legal requirement)",
+    "Archive access for previous issues",
+    "Topic requests and suggestions",
+    "Technical support escalation path",
+    "Thank you for feedback responses"
+  ],
+  "when_to_use": [
+    "Managing 15+ subscriber emails regularly",
+    "Newsletter has engaged subscriber base",
+    "Subscriber questions are somewhat repetitive",
+    "Want to maintain personal touch at scale",
+    "Have 5-10 minutes for review each batch"
+  ],
+  "common_issues": [
+    {
+      "issue": "Drafts too generic, lack personalization",
+      "solution": "Prompt Claude to reference specific subscriber questions, use names"
+    },
+    {
+      "issue": "Missing helpful resources in replies",
+      "solution": "Include standard resource list in prompt to Claude"
+    },
+    {
+      "issue": "Tone doesn't match newsletter brand",
+      "solution": "Provide tone guidelines to Claude (warm, professional, casual, etc.)"
+    },
+    {
+      "issue": "Subscriber question too complex for automation",
+      "solution": "Skip automated draft, handle manually with full context"
+    }
+  ],
+  "email_categorization": {
+    "auto_draft_suitable": [
+      "Common questions (unsubscribe, archive, topic requests)",
+      "Positive feedback (thank you, great content)",
+      "Simple resource requests (links, tools, recommendations)"
+    ],
+    "manual_handling_needed": [
+      "Complex technical issues",
+      "Complaints or negative feedback (needs personal touch)",
+      "Partnership or business inquiries",
+      "Unique requests requiring custom research"
+    ]
+  },
+  "tags": [
+    "email_automation",
+    "newsletter",
+    "subscriber_management",
+    "mcp",
+    "gmail",
+    "content_marketing"
+  ],
+  "related_workflows": [
+    "WF-AI-004"
+  ],
+  "related_skills": [
+    "SKL-072"
+  ],
+  "related_professions": [
+    "Executive Assistant",
+    "Content Manager",
+    "Marketing Manager"
+  ],
+  "version": "1.0",
+  "created": "2025-11-12",
+  "last_updated": "2025-11-12",
+  "source": "Video_008_MCP_Connector_Tutorial",
+  "responsibility_id": "RESP-OPS-010",
+  "responsibility_name": "automate newsletter replies",
+  "_original_action": "Automate",
+  "_original_object": "Newsletter Replies"
+}

@@ -1,0 +1,34 @@
+{
+  "entity_type": "TASK_MANAGERS",
+  "sub_entity": "Step_Template",
+  "step_id": "VIDEO-VIDEO-004-16",
+  "step_number": 16,
+  "parent_task": "TASK-TEMPLATE-VIDEO-004",
+  "task_name": "Master Unified Platform Workflow for Video Generation",
+  "name": "Download final video",
+  "action": "download",
+  "tool": "OpenArt download",
+  "responsibility": "Video Producer",
+  "placement": "Local storage",
+  "duration": "1 minute",
+  "dependencies": [
+    14,
+    15
+  ],
+  "inputs": [
+    "Approved final video"
+  ],
+  "outputs": [
+    "Video file ready for deployment"
+  ],
+  "success_criteria": "High-quality video file suitable for intended use",
+  "implementation_notes": "High-quality video file suitable for intended use - Implementation details based on the Master Unified Platform Workflow for Video Generation workflow.",
+  "tags": [
+    "download",
+    "template-task-video-004"
+  ],
+  "version": "1.0",
+  "created": "2025-11-15",
+  "last_updated": "2025-11-15",
+  "source": "Video_012"
+}

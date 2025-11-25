@@ -1,0 +1,393 @@
+{
+  "entity_type": "TASK_MANAGERS",
+  "sub_entity": "Task_Template",
+  "template_id": "Task-Template-017",
+  "task_name": "Scrape LinkedIn Jobs for Intent-Based Leads",
+  "action": "Scrape",
+  "object": "LinkedIn Job Postings",
+  "context": "via Apify for buying intent signals",
+  "description": "Extract companies posting relevant job openings on LinkedIn to identify buying intent (80-100% enrichment, 20-30 minutes, indicates budget and growth)",
+  "department": "LG",
+  "profession": "Lead Generator",
+  "priority": "High",
+  "estimated_duration": "20-30 minutes",
+  "status": "Active",
+  "complexity": "Medium",
+  "automation_potential": "Very High (>80%)",
+  "success_rate": "80-100% enrichment",
+  "buying_intent_signal": "Job postings indicate budget, growth, and immediate needs",
+  "best_for": "Intent-based targeting, timing-sensitive outreach",
+  "dependencies": [
+    "Apify account with credits",
+    "LinkedIn Jobs search criteria defined",
+    "Anymailfinder account for enrichment"
+  ],
+  "tools_required": [
+    "TOOL-020 (Apify Platform)",
+    "TOOL-023 (Apify LinkedIn Jobs Scraper)",
+    "TOOL-DATA-007 (Anymailfinder)"
+  ],
+  "skills_required": [
+    "SKL-060 (scraped lead lists via Apify)",
+    "SKL-061 (enriched emails via Anymailfinder)"
+  ],
+  "objects_used": [
+    "OBJ-LG-001 (Lead List)",
+    "OBJ-LG-002 (Company Domain)",
+    "OBJ-LG-003 (Decision-Maker Email)",
+    "OBJ-LG-004 (LinkedIn Profile)"
+  ],
+  "workflow_reference": "WF-LG-010",
+  "success_criteria": [
+    "500-2,000 relevant job postings scraped",
+    "Companies extracted with job details (title, department, seniority)",
+    "80-100% enrichment success (high-quality source)",
+    "Buying intent signals identified (budget, growth, needs)",
+    "Final lead list exported with job context"
+  ],
+  "responsibilities": {
+    "responsible": "Lead Generator",
+    "accountable": "Lead Generation Manager",
+    "consulted": [
+      "Sales Team",
+      "Product Marketing"
+    ],
+    "informed": [
+      "SDR Team",
+      "Account Executives"
+    ]
+  },
+  "steps": [
+    {
+      "step_number": 1,
+      "name": "Define job search criteria indicating intent",
+      "action": "define",
+      "tool": "LinkedIn Jobs (manual test)",
+      "responsibility": "Lead Generator",
+      "placement": "LinkedIn Jobs search",
+      "duration": "5 minutes",
+      "dependencies": [],
+      "inputs": [
+        "Job titles indicating your product/service need",
+        "Example: 'Data Engineer' for data tools, 'SDR' for sales software"
+      ],
+      "outputs": [
+        "Search query: 'Data Engineer jobs', 'Marketing Manager positions'"
+      ],
+      "success_criteria": "Manual test shows 500+ relevant job postings",
+      "responsibility_id": "RESP-LG-051",
+      "responsibility_name": "define define job search criteria indicating intent",
+      "_original_action": "define"
+    },
+    {
+      "step_number": 2,
+      "name": "Configure Apify LinkedIn Jobs Scraper",
+      "action": "configure",
+      "tool": "TOOL-023 (Apify LinkedIn Jobs Scraper)",
+      "responsibility": "Lead Generator",
+      "placement": "Apify platform - Jobs scraper settings",
+      "duration": "3 minutes",
+      "dependencies": [
+        "Step 1"
+      ],
+      "inputs": [
+        "Job search query",
+        "Location filters (optional)",
+        "Max results (1,000-2,000)"
+      ],
+      "outputs": [
+        "Scraper configured"
+      ],
+      "success_criteria": "Query entered, filters set, ready to scrape",
+      "responsibility_id": "RESP-LG-052",
+      "responsibility_name": "configure apify linkedin jobs scraper",
+      "_original_action": "configure"
+    },
+    {
+      "step_number": 3,
+      "name": "Run Apify Jobs scraper",
+      "action": "scrape",
+      "tool": "TOOL-023 (Apify LinkedIn Jobs Scraper)",
+      "responsibility": "Lead Generator",
+      "placement": "Apify platform - Execution",
+      "duration": "10-15 minutes (automated)",
+      "dependencies": [
+        "Step 2"
+      ],
+      "inputs": [
+        "Configured scraper"
+      ],
+      "outputs": [
+        "500-2,000 job postings with: job title, company name, posting date, description"
+      ],
+      "success_criteria": "Job postings scraped with company information",
+      "responsibility_id": "RESP-LG-053",
+      "responsibility_name": "scrape run apify jobs scraper",
+      "_original_action": "scrape"
+    },
+    {
+      "step_number": 4,
+      "name": "Extract and deduplicate company list",
+      "action": "extract",
+      "tool": "Excel/Google Sheets",
+      "responsibility": "Lead Generator",
+      "placement": "Spreadsheet processing",
+      "duration": "5 minutes",
+      "dependencies": [
+        "Step 3"
+      ],
+      "inputs": [
+        "Raw job posting data"
+      ],
+      "outputs": [
+        "Unique company list with job context (what role they're hiring)"
+      ],
+      "success_criteria": "100-500 unique companies identified from job postings",
+      "responsibility_id": "RESP-LG-054",
+      "responsibility_name": "extract extract and deduplicate company list",
+      "_original_action": "extract"
+    },
+    {
+      "step_number": 5,
+      "name": "Research company domains",
+      "action": "research",
+      "tool": "Google Search or LinkedIn",
+      "responsibility": "Lead Generator",
+      "placement": "Company research",
+      "duration": "5-10 minutes (or automated via Apify)",
+      "dependencies": [
+        "Step 4"
+      ],
+      "inputs": [
+        "Company names from job postings"
+      ],
+      "outputs": [
+        "Company domains added to list"
+      ],
+      "success_criteria": "Domains found for 90%+ of companies",
+      "responsibility_id": "RESP-LG-055",
+      "responsibility_name": "research domains",
+      "_original_action": "research"
+    },
+    {
+      "step_number": 6,
+      "name": "Upload companies to Anymailfinder for enrichment",
+      "action": "upload",
+      "tool": "TOOL-DATA-007 (Anymailfinder)",
+      "responsibility": "Lead Generator",
+      "placement": "Anymailfinder - Upload",
+      "duration": "2 minutes",
+      "dependencies": [
+        "Step 5"
+      ],
+      "inputs": [
+        "Company domains",
+        "Target roles based on job postings"
+      ],
+      "outputs": [
+        "Upload confirmation"
+      ],
+      "success_criteria": "All companies uploaded for enrichment",
+      "responsibility_id": "RESP-LG-056",
+      "responsibility_name": "upload companies",
+      "_original_action": "upload"
+    },
+    {
+      "step_number": 7,
+      "name": "Run targeted enrichment for decision-makers",
+      "action": "enrich",
+      "tool": "TOOL-DATA-007 (Anymailfinder)",
+      "responsibility": "Lead Generator",
+      "placement": "Anymailfinder - Processing",
+      "duration": "5-10 minutes (automated)",
+      "dependencies": [
+        "Step 6"
+      ],
+      "inputs": [
+        "Company domains",
+        "Relevant roles (hiring managers, VPs, directors)"
+      ],
+      "outputs": [
+        "Enriched emails (80-100% success - high quality source)"
+      ],
+      "success_criteria": "80-100 contacts from 100-500 companies",
+      "responsibility_id": "RESP-LG-057",
+      "responsibility_name": "enrich run targeted enrichment",
+      "_original_action": "enrich"
+    },
+    {
+      "step_number": 8,
+      "name": "Export with job posting context",
+      "action": "export",
+      "tool": "TOOL-DATA-007 (Anymailfinder) + Excel",
+      "responsibility": "Lead Generator",
+      "placement": "Export and merge data",
+      "duration": "3 minutes",
+      "dependencies": [
+        "Step 7"
+      ],
+      "inputs": [
+        "Enriched emails",
+        "Job posting details"
+      ],
+      "outputs": [
+        "CSV: company, email, name, title, job_posting_title, buying_intent_signal"
+      ],
+      "success_criteria": "All contacts exported with context for personalized outreach",
+      "responsibility_id": "RESP-LG-058",
+      "responsibility_name": "export with job posting context",
+      "_original_action": "export"
+    }
+  ],
+  "checklist": [
+    {
+      "item": "Job search query indicates buying intent for your product",
+      "guide": "Example: If selling sales tools, search 'SDR' or 'Sales Manager' jobs",
+      "required": true
+    },
+    {
+      "item": "Scraper configured for 500+ job postings",
+      "guide": "Higher volume = more unique companies",
+      "required": true
+    },
+    {
+      "item": "Companies deduplicated (one entry per company)",
+      "guide": "Companies often post multiple jobs, keep unique list",
+      "required": true
+    },
+    {
+      "item": "Enrichment targets relevant decision-makers",
+      "guide": "If they're hiring SDRs, target VP Sales or Sales Director",
+      "required": true
+    },
+    {
+      "item": "80-100% enrichment rate achieved",
+      "guide": "Job posting source = high quality, should achieve 80%+",
+      "required": true
+    },
+    {
+      "item": "Buying intent context included in export",
+      "guide": "Note what role they're hiring for personalized messaging",
+      "required": true
+    }
+  ],
+  "performance_metrics": {
+    "typical_volume": "100-500 unique companies from 500-2,000 job postings",
+    "success_rate": "80-100% enrichment (high-quality source)",
+    "time_per_campaign": "20-30 minutes",
+    "cost": "Apify credits + $0.0025/email (Anymailfinder)",
+    "enrichment_rank": "#1 tied with LinkedIn Sales Navigator"
+  },
+  "buying_intent_signals": {
+    "hiring_indicates": [
+      "Budget availability (can afford to hire)",
+      "Growth mindset (expanding team)",
+      "Immediate need (posting is recent)",
+      "Department priorities (which teams are growing)"
+    ],
+    "perfect_timing": "Reach out while they're scaling that function",
+    "messaging_advantage": "Reference their job posting in outreach for relevance"
+  },
+  "best_practices": [
+    "HIGHEST ENRICHMENT: 80-100% success (tied with LinkedIn Sales Nav)",
+    "Unique buying intent signal: job postings indicate budget and growth",
+    "Perfect timing: companies actively scaling relevant functions",
+    "Match job search to your product (SDR jobs → sales tools, Data Engineer → data platforms)",
+    "Personalize outreach by referencing their hiring needs",
+    "Target hiring managers or department heads for that function"
+  ],
+  "example_use_cases": [
+    {
+      "product": "Sales automation software",
+      "job_search": "'SDR' or 'Sales Development Representative'",
+      "intent_signal": "Scaling sales team = need for sales tools",
+      "target_contact": "VP Sales, Sales Director",
+      "message_hook": "'Saw you're hiring SDRs - we help teams like yours scale faster'"
+    },
+    {
+      "product": "Data infrastructure tools",
+      "job_search": "'Data Engineer' or 'Data Scientist'",
+      "intent_signal": "Building data team = infrastructure needs",
+      "target_contact": "CTO, VP Engineering, Head of Data",
+      "message_hook": "'Noticed you're expanding your data team - our platform helps...'"
+    },
+    {
+      "product": "HR management software",
+      "job_search": "'HR Manager' or 'Recruiter'",
+      "intent_signal": "Growing HR function = need for HR tools",
+      "target_contact": "VP HR, Chief People Officer",
+      "message_hook": "'Saw you're scaling your HR team - we streamline...'"
+    }
+  ],
+  "when_to_use": [
+    "Product/service directly relates to a specific job function",
+    "Want to target companies with proven budget (they're hiring)",
+    "Timing matters (reach out during growth phase)",
+    "Need strong personalization angle for outreach",
+    "Want highest enrichment rate (80-100%)"
+  ],
+  "when_not_to_use": [
+    "Product doesn't relate to any specific job function",
+    "Targeting companies regardless of hiring status",
+    "Job postings don't indicate relevant buying intent",
+    "Need higher volume (job-based targeting = smaller lists)"
+  ],
+  "intent_scoring": {
+    "recent_posting": "+3 points (posted within 7 days = active need)",
+    "multiple_postings": "+2 points (hiring multiple roles = significant growth)",
+    "senior_role": "+2 points (hiring VP/Director = bigger budget)",
+    "relevant_department": "+3 points (posting matches your product area)"
+  },
+  "common_issues": [
+    {
+      "issue": "Low job posting volume (<500)",
+      "solution": "Broaden search terms, remove location filters, search multiple related job titles"
+    },
+    {
+      "issue": "Many companies missing domains",
+      "solution": "Use Google search or LinkedIn to find company websites"
+    },
+    {
+      "issue": "Job postings from irrelevant companies",
+      "solution": "Add filters: company size, industry, location to refine results"
+    },
+    {
+      "issue": "Duplicate companies",
+      "solution": "Deduplicate by company name before enrichment, keep most senior job posting"
+    }
+  ],
+  "messaging_templates": [
+    "Subject: Saw you're hiring [Role] - here's how we can help",
+    "Opening: 'Noticed your recent [Job Title] posting...'",
+    "Value prop: 'As you scale [Department], [Your Product] helps teams like yours...'",
+    "CTA: 'Would love to show you how [Company] leveraged us during their growth phase'"
+  ],
+  "tags": [
+    "lead_generation",
+    "intent_based",
+    "linkedin_jobs",
+    "buying_signals",
+    "timing",
+    "apify"
+  ],
+  "related_workflows": [
+    "WF-LG-010"
+  ],
+  "related_skills": [
+    "SKL-060",
+    "SKL-061"
+  ],
+  "related_professions": [
+    "Lead Generator",
+    "SDR",
+    "Account Executive"
+  ],
+  "version": "1.0",
+  "created": "2025-11-12",
+  "last_updated": "2025-11-12",
+  "source": "Video_006_Lead_Generation_Analysis",
+  "responsibility_id": "RESP-LG-050",
+  "responsibility_name": "scrape linkedin job postings",
+  "_original_action": "Scrape",
+  "_original_object": "LinkedIn Job Postings"
+}

@@ -1,0 +1,58 @@
+{
+  "entity_type": "LIBRARIES",
+  "sub_entity": "Objects",
+  "category": "Design",
+  "description": "Interactive UI elements and components",
+  "objects": [
+    {
+      "object_id": "OBJ-DESIGN-005",
+      "name": "Interactive Element",
+      "category": "Design / UI Components",
+      "description": "Interactive web UI element with animations, interactivity, and responsive behavior",
+      "attributes": [
+        "element_type",
+        "interactivity_level",
+        "animation_type",
+        "responsiveness",
+        "accessibility",
+        "browser_compatibility",
+        "framework_used",
+        "code_complexity"
+      ],
+      "common_actions": [
+        "Create",
+        "Design",
+        "Code",
+        "Test",
+        "Integrate",
+        "Optimize",
+        "Debug"
+      ],
+      "storage_location": "Component library / Project files",
+      "related_entities": [
+        "LIBRARIES/LBS_003_LBS_003_Tools/Web_Development_Tools",
+        "LIBRARIES/LBS_003_LBS_003_Tools/AI_Code_Generators",
+        "TASK_MANAGERS/DESIGN",
+        "TASK_MANAGERS/DEV"
+      ],
+      "file_format": "HTML, CSS, JavaScript",
+      "example": "Flip_Card_Component_With_Hover_Animation",
+      "tags": ["interactive", "ui-component", "animation", "web-design"],
+      "typical_types": [
+        "Flip cards",
+        "Hover effects",
+        "Scroll animations",
+        "Modal popups",
+        "Carousels",
+        "Accordions",
+        "Tabs",
+        "Dropdown menus"
+      ]
+    }
+  ],
+  "version": "1.0",
+  "created": "2025-11-18",
+  "last_updated": "2025-11-18",
+  "total_objects": 1,
+  "source": "Employee Daily Activity Analysis (Nov 17-18, 2025) - Kucherenko Iuliia"
+}

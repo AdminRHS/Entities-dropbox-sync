@@ -1,0 +1,214 @@
+{
+  "entity_type": "LIBRARIES",
+  "sub_entity": "Objects",
+  "category": "RAG_Objects",
+  "description": "Objects related to Retrieval-Augmented Generation (RAG) systems, document processing, embeddings, and semantic search",
+  "last_updated": "2025-11-13",
+  "source_video": "Video_002 - Google's New Gemini API Changes RAG Forever",
+  "total_objects": 6,
+
+  "objects": [
+    {
+      "object_id": "OBJ-AI-011",
+      "name": "file_store",
+      "description": "Gemini File Search storage container for uploaded documents that are automatically indexed and searchable",
+      "category": "Data / RAG Infrastructure",
+      "attributes": {
+        "store_id": "Unique identifier for the file store",
+        "file_count": "Number of files uploaded to the store",
+        "indexed_status": "Current indexing state (pending, indexing, complete)",
+        "storage_quota": "Storage limit for the file store",
+        "supported_formats": ["PDF", "TXT", "DOCX", "HTML", "Markdown"],
+        "auto_indexing": "Whether files are automatically indexed on upload",
+        "created_date": "Timestamp when file store was created"
+      },
+      "common_actions": ["create", "configure", "upload_to", "manage", "delete", "query"],
+      "used_in_tools": ["TOOL-AI-079: Gemini File Search API"],
+      "used_in_workflows": ["WF-RAG-001: Managed RAG Setup"],
+      "created_by_professions": ["AI Engineer", "Backend Developer", "ML Engineer"],
+      "examples_from_video": [
+        "Gemini File Search file_store that automatically indexes uploaded PDFs",
+        "Storage container managing 1000+ documents for RAG queries"
+      ],
+      "relationships": {
+        "contains": ["embedding", "chunk", "indexed_data"],
+        "enables": ["semantic_search", "citation_generation"],
+        "replaces": ["vector_database (in managed RAG)"]
+      },
+      "tags": ["rag", "storage", "gemini", "managed-service", "document-store"]
+    },
+    {
+      "object_id": "OBJ-AI-012",
+      "name": "embedding",
+      "description": "Numerical vector representation of text that captures semantic meaning, enabling similarity search and retrieval",
+      "category": "Data / ML Objects",
+      "attributes": {
+        "vector_dimensions": "Size of the embedding vector (e.g., 768, 1536)",
+        "text_source": "Original text that was embedded",
+        "similarity_score": "Cosine similarity or distance metric",
+        "model_version": "Embedding model used (e.g., text-embedding-004)",
+        "vector_values": "Array of floating-point numbers",
+        "normalization": "Whether vector is normalized"
+      },
+      "common_actions": ["generate", "store", "search", "retrieve", "compare", "normalize"],
+      "used_in_tools": ["TOOL-AI-079: Gemini File Search API", "Vector Embedding Models"],
+      "used_in_workflows": ["WF-RAG-001: Managed RAG Setup", "WF-RAG-002: Traditional RAG Implementation"],
+      "created_by_professions": ["ML Engineer", "AI Engineer", "Data Scientist"],
+      "examples_from_video": [
+        "Text-embedding-004 model generating 768-dimensional embeddings",
+        "Semantic vectors enabling similar document retrieval"
+      ],
+      "relationships": {
+        "generated_from": ["chunk", "document", "text"],
+        "stored_in": ["file_store", "vector_database"],
+        "enables": ["semantic_search", "similarity_matching"],
+        "compared_using": ["cosine_similarity", "euclidean_distance"]
+      },
+      "tags": ["rag", "ml", "vectors", "semantic-search", "embeddings"]
+    },
+    {
+      "object_id": "OBJ-AI-013",
+      "name": "chunk",
+      "description": "Semantic paragraph or segment from a document, optimized for retrieval and context injection into LLM prompts",
+      "category": "Data / Document Processing",
+      "attributes": {
+        "text_content": "The actual text content of the chunk",
+        "chunk_size": "Number of tokens or characters",
+        "overlap": "Overlap with adjacent chunks (in tokens)",
+        "semantic_boundary": "Whether chunk respects paragraph/section boundaries",
+        "parent_document": "Reference to source document",
+        "chunk_index": "Position in document (1st, 2nd, 3rd chunk)",
+        "metadata": "Additional context (page number, section title)"
+      },
+      "common_actions": ["create", "optimize", "index", "retrieve", "split", "merge"],
+      "used_in_tools": ["TOOL-AI-079: Gemini File Search API", "LangChain", "LlamaIndex"],
+      "used_in_workflows": ["WF-RAG-001: Managed RAG Setup", "WF-RAG-002: Traditional RAG Implementation"],
+      "created_by_professions": ["AI Engineer", "Backend Developer", "ML Engineer"],
+      "examples_from_video": [
+        "Semantic chunks of 1000 tokens with 200 token overlap",
+        "Document paragraphs split at natural boundaries for RAG"
+      ],
+      "relationships": {
+        "extracted_from": ["document", "file"],
+        "generates": ["embedding"],
+        "stored_in": ["file_store", "vector_database"],
+        "retrieved_as": ["context", "citation_source"]
+      },
+      "tags": ["rag", "document-processing", "chunking", "semantic-segmentation"]
+    },
+    {
+      "object_id": "OBJ-AI-014",
+      "name": "citation",
+      "description": "Source reference for AI-generated answer, providing traceability and verification for RAG responses",
+      "category": "Data / Documentation",
+      "attributes": {
+        "source_file": "Document that provided the information",
+        "page_number": "Specific page reference (if applicable)",
+        "chunk_id": "ID of the retrieved chunk",
+        "relevance_score": "How closely the citation matches the query",
+        "quote_text": "Exact text snippet from source",
+        "citation_format": "Display format (APA, MLA, inline, footnote)",
+        "timestamp": "When citation was generated"
+      },
+      "common_actions": ["generate", "provide", "track", "display", "verify", "format"],
+      "used_in_tools": ["TOOL-AI-079: Gemini File Search API"],
+      "used_in_workflows": ["WF-RAG-001: Managed RAG Setup"],
+      "created_by_professions": ["AI Engineer", "Content Writer", "Research Analyst"],
+      "examples_from_video": [
+        "Gemini File Search auto-generating citations for all answers",
+        "Source references linking responses to specific PDF pages"
+      ],
+      "relationships": {
+        "references": ["chunk", "file", "page"],
+        "enables": ["answer_verification", "trust", "fact_checking"],
+        "displayed_in": ["grounded_answer", "response"]
+      },
+      "tags": ["rag", "citations", "traceability", "verification", "grounding"]
+    },
+    {
+      "object_id": "OBJ-AI-015",
+      "name": "indexed_data",
+      "description": "Organized vectors in searchable format, optimized for fast similarity search and retrieval",
+      "category": "Data / Search Infrastructure",
+      "attributes": {
+        "index_id": "Unique identifier for the index",
+        "total_vectors": "Number of vectors in the index",
+        "index_type": "Search algorithm (HNSW, IVF, FLAT)",
+        "search_performance": "Average query latency (ms)",
+        "last_updated": "Timestamp of last index update",
+        "index_size_mb": "Storage size of the index",
+        "refresh_interval": "How often index is rebuilt"
+      },
+      "common_actions": ["create", "update", "search", "maintain", "optimize", "rebuild"],
+      "used_in_tools": ["TOOL-AI-079: Gemini File Search API", "Vector Databases"],
+      "used_in_workflows": ["WF-RAG-001: Managed RAG Setup", "WF-RAG-002: Traditional RAG Implementation"],
+      "created_by_professions": ["ML Engineer", "Backend Developer", "DevOps Engineer"],
+      "examples_from_video": [
+        "Gemini File Search automatically maintaining indexed_data for uploaded files",
+        "Searchable index enabling sub-second retrieval from 1000+ documents"
+      ],
+      "relationships": {
+        "contains": ["embedding"],
+        "enables": ["fast_search", "semantic_retrieval"],
+        "managed_by": ["file_store (in Gemini)", "vector_database (traditional)"]
+      },
+      "tags": ["rag", "indexing", "search-optimization", "vectors", "performance"]
+    },
+    {
+      "object_id": "OBJ-AI-016",
+      "name": "vector_database",
+      "description": "Separate storage system for embeddings in traditional RAG implementations (what Gemini File Search eliminates)",
+      "category": "Infrastructure / Traditional RAG",
+      "attributes": {
+        "database_type": "Database technology (Pinecone, Weaviate, Chroma, Qdrant)",
+        "connection_url": "Database connection string",
+        "vector_count": "Total vectors stored",
+        "cost_per_month": "Monthly infrastructure cost",
+        "uptime_sla": "Service level agreement",
+        "scaling_model": "Horizontal/vertical scaling approach",
+        "backup_frequency": "How often data is backed up"
+      },
+      "common_actions": ["setup", "manage", "scale", "optimize", "maintain", "backup", "query"],
+      "used_in_tools": ["Pinecone", "Weaviate", "Chroma", "Qdrant"],
+      "used_in_workflows": ["WF-RAG-002: Traditional RAG Implementation"],
+      "created_by_professions": ["DevOps Engineer", "ML Engineer", "Backend Developer"],
+      "examples_from_video": [
+        "Pinecone vector database requiring separate infrastructure (vs Gemini managed approach)",
+        "Traditional RAG setup with weeks of vector database configuration"
+      ],
+      "relationships": {
+        "stores": ["embedding", "indexed_data"],
+        "requires": ["infrastructure_setup", "ongoing_maintenance"],
+        "replaced_by": ["file_store (in managed RAG systems)"],
+        "used_in": ["traditional_rag_architecture"]
+      },
+      "tags": ["rag", "infrastructure", "traditional-rag", "vector-storage", "comparison"]
+    }
+  ],
+
+  "cross_references": {
+    "tools": [
+      "TOOL-AI-079: Gemini File Search API"
+    ],
+    "workflows": [
+      "WF-RAG-001: Managed RAG Setup (Gemini File Search)",
+      "WF-RAG-002: Traditional RAG Implementation (Manual)"
+    ],
+    "professions": [
+      "AI Engineer",
+      "ML Engineer",
+      "Backend Developer",
+      "DevOps Engineer",
+      "Data Scientist"
+    ],
+    "videos": [
+      "Video_002"
+    ]
+  },
+
+  "usage_notes": {
+    "managed_rag": "Objects OBJ-AI-011 through OBJ-AI-015 are used in modern managed RAG systems (Gemini File Search)",
+    "traditional_rag": "Object OBJ-AI-016 (vector_database) represents what managed systems eliminate",
+    "key_innovation": "file_store (OBJ-AI-011) replaces vector_database (OBJ-AI-016) + eliminates infrastructure management"
+  }
+}

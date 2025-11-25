@@ -1,0 +1,108 @@
+{
+  "entity_type": "LIBRARIES",
+  "sub_entity": "Tool",
+  "tool_id": "TOOL-HR-101",
+  "name": "UpWork",
+  "vendor": "UpWork Inc.",
+  "category": "Freelance Platform / General Marketplace / HR Tools",
+  "purpose": "General freelance marketplace for hiring across all job categories including marketing, development, design, writing, and data science",
+  "description": "UpWork is one of the largest and most established freelance marketplaces, connecting businesses with millions of freelancers worldwide. The platform covers every conceivable job category with a focus on marketing and software development. Features include detailed freelancer profiles (resume-style with employment history, education, job success score, total earnings), robust work management tools (chat, file exchange, work diary, advanced reports, payroll), payment protection plan, and Talent Scout feature for matching projects to top freelancers. Supports both short-term and long-term contracts with transparent 5% client transaction fees.",
+  "skill_level_required": "Beginner",
+  "cost_structure": "Free to join; 5% transaction fee for clients; sliding scale for freelancers (20% on first $500, 10% on $500-$10K, 5% on $10K+)",
+  "platform_compatibility": ["Web", "Desktop App (freelancers)", "Mobile"],
+  "integration_capabilities": ["Built-in messaging (text/video)", "Work diary and time tracking", "Payment processing", "File exchange", "Payroll integration"],
+  "documentation_url": "https://www.upwork.com",
+  "actual_remote_helpers_usage": {
+    "primary_use": "Potential platform for outsourcing tasks across departments (HR, LG, Dev, Design, Sales)",
+    "users": ["HR Manager", "Department Managers"],
+    "use_cases": ["Hiring data researchers for LG department", "Finding developers for Dev projects", "Social media managers for Sales", "Content writers", "Email marketers", "Recruitment support"],
+    "workflows": ["HIRE_FREELANCER_MARKETPLACE", "POST_JOB_LISTING", "REVIEW_FREELANCER_PROPOSALS", "MANAGE_PROJECT_DELIVERY"],
+    "typical_workflow_pattern": [
+      {
+        "task": "Hire Freelancer via UpWork",
+        "steps": [
+          "Create job posting with requirements and budget",
+          "Review freelancer proposals and portfolios",
+          "Check ratings (4.5+, 90%+ job success score)",
+          "Conduct interviews via platform messaging",
+          "Negotiate rates and timeline",
+          "Award project and monitor via work diary",
+          "Review deliverables and process payment (5% fee)"
+        ],
+        "complexity": "Low-Medium",
+        "status": "RECOMMENDED_FOR_EVALUATION"
+      },
+      {
+        "task": "LG Department Outsourcing (Pilot Test)",
+        "steps": [
+          "Post lead research job ($15-$25/hour)",
+          "Hire 1-2 freelancers for pilot ($1-2K budget)",
+          "Compare performance vs in-house LG team",
+          "Evaluate cost savings ($5K/month in-house vs $2-3.5K freelance)"
+        ],
+        "complexity": "High",
+        "status": "STRATEGIC_DECISION_PENDING"
+      }
+    ]
+  },
+  "strengths": [
+    "Massive talent pool (millions of freelancers)",
+    "Comprehensive freelancer profiles (job success score, earnings, hours worked)",
+    "Robust work management tools",
+    "Payment protection and dispute resolution",
+    "Competitive 5% client fee",
+    "Supports both short and long-term contracts",
+    "Talent Scout for curated matching"
+  ],
+  "limitations": [
+    "Size can be overwhelming (requires time to filter)",
+    "Quality varies widely (user must vet carefully)",
+    "No pre-vetting by platform (unlike specialized platforms)",
+    "Freelancer fees reduce their take-home pay (may affect pricing)"
+  ],
+  "departments_using": ["HR (Primary evaluation)", "Potential: LG, Dev, Sales, Design, Video, AI"],
+  "tags": ["freelance-marketplace", "remote-hiring", "general-purpose", "budget-friendly", "hr-tools", "talent-acquisition"],
+  "discovery_date": "2025-11-22",
+  "discovery_source": "Video_019_Freelance_Remote_Hiring_Websites",
+  "status": "evaluation_recommended",
+  "remote_helpers_context": {
+    "relevance_score": 72,
+    "strategic_alignment": "Moderately aligned with HR needs and LG department evaluation",
+    "implementation_priority": "Medium",
+    "pilot_test_recommendation": "Test with $100-$300 budget for small tasks (social media content, lead research)",
+    "decision_timeline": "Evaluate within 1-2 months"
+  },
+  "pricing_examples": {
+    "freelancer_hourly_rates": "$15-$50/hour (varies by skill)",
+    "client_total_cost": "$15.75-$52.50/hour (including 5% fee)",
+    "part_time_monthly_cost": "$1,260-$4,200 (80 hours/month)",
+    "full_time_monthly_cost": "$2,520-$8,400 (160 hours/month)"
+  },
+  "use_cases_by_department": {
+    "HR": "Recruitment support, HR process automation, job posting copywriting",
+    "LG": "Lead researchers, data specialists, alternative to in-house team ($18K-$36K annual savings potential)",
+    "Sales": "Social media managers, content writers, email marketers",
+    "Dev": "Additional developers for large projects, specialized technical skills",
+    "Design": "Graphic designers for overflow work",
+    "Video": "Video editors during peak periods",
+    "AI": "Prompt engineers, AI/ML developers, AI tool researchers"
+  },
+  "when_to_use": [
+    "Need for diverse skill sets across categories",
+    "Budget-conscious hiring (competitive pricing)",
+    "Both short-term tasks and long-term engagements",
+    "Require detailed freelancer vetting before hiring",
+    "Alternative to in-house hiring for scalability"
+  ],
+  "when_not_to_use": [
+    "Need pre-vetted talent (consider Revelo, MarketerHire instead)",
+    "Extremely tight timelines (Fiverr faster for quick tasks)",
+    "Require agency-like service with account management (consider Mayple)",
+    "Premium quality guarantee required without vetting time"
+  ],
+  "comparison_with_alternatives": {
+    "vs_Fiverr": "UpWork better for complex, hourly work; Fiverr better for quick, fixed-price tasks",
+    "vs_Revelo": "Revelo better for pre-vetted developers with admin support; UpWork more flexible/diverse",
+    "vs_MarketerHire": "MarketerHire better for high-quality marketing specialists; UpWork more affordable"
+  }
+}

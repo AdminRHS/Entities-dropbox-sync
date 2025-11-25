@@ -1,0 +1,1507 @@
+[
+  {
+    "id": "RESP-ECM-001",
+    "primary_phrase": "generate videos",
+    "department": "E-commerce",
+    "usage_count": 3,
+    "is_used": true
+  },
+  {
+    "id": "RESP-AI-001",
+    "primary_phrase": "extract videos",
+    "department": "AI",
+    "usage_count": 2,
+    "is_used": true
+  },
+  {
+    "id": "RESP-AI-002",
+    "primary_phrase": "analyze videos",
+    "department": "AI",
+    "usage_count": 2,
+    "is_used": true
+  },
+  {
+    "id": "RESP-AI-004",
+    "primary_phrase": "create videos",
+    "department": "AI",
+    "usage_count": 2,
+    "is_used": true
+  },
+  {
+    "id": "RESP-AI-005",
+    "primary_phrase": "discover videos",
+    "department": "AI",
+    "usage_count": 2,
+    "is_used": true
+  },
+  {
+    "id": "RESP-AI-010",
+    "primary_phrase": "track tutorials",
+    "department": "AI",
+    "usage_count": 2,
+    "is_used": true
+  },
+  {
+    "id": "RESP-AI-023",
+    "primary_phrase": "analyze taxonomy gaps",
+    "department": "AI",
+    "usage_count": 2,
+    "is_used": true
+  },
+  {
+    "id": "RESP-AI-031",
+    "primary_phrase": "create tool entries",
+    "department": "AI",
+    "usage_count": 2,
+    "is_used": true
+  },
+  {
+    "id": "RESP-AI-042",
+    "primary_phrase": "update objects library",
+    "department": "AI",
+    "usage_count": 2,
+    "is_used": true
+  },
+  {
+    "id": "RESP-AI-049",
+    "primary_phrase": "update actions, processes, professions libraries",
+    "department": "AI",
+    "usage_count": 2,
+    "is_used": true
+  },
+  {
+    "id": "RESP-AI-057",
+    "primary_phrase": "map entity relationships",
+    "department": "AI",
+    "usage_count": 2,
+    "is_used": true
+  },
+  {
+    "id": "RESP-AI-063",
+    "primary_phrase": "generate library mapping reports",
+    "department": "AI",
+    "usage_count": 2,
+    "is_used": true
+  },
+  {
+    "id": "RESP-AI-069",
+    "primary_phrase": "design evaluation system",
+    "department": "AI",
+    "usage_count": 2,
+    "is_used": true
+  },
+  {
+    "id": "RESP-LG-001",
+    "primary_phrase": "enrich emails",
+    "department": "LG",
+    "usage_count": 2,
+    "is_used": true
+  },
+  {
+    "id": "RESP-AI-079",
+    "primary_phrase": "research ai platforms",
+    "department": "Research / AI",
+    "usage_count": 1,
+    "is_used": true
+  },
+  {
+    "id": "RESP-AI-080",
+    "primary_phrase": "research other tools",
+    "department": "Research / AI / Design / Video",
+    "usage_count": 1,
+    "is_used": true
+  },
+  {
+    "id": "RESP-DEV-002",
+    "primary_phrase": "parse data",
+    "department": "Dev",
+    "usage_count": 1,
+    "is_used": true
+  },
+  {
+    "id": "RESP-DEV-011",
+    "primary_phrase": "generate mcp connector",
+    "department": "Dev",
+    "usage_count": 1,
+    "is_used": true
+  },
+  {
+    "id": "RESP-DEV-018",
+    "primary_phrase": "deploy mcp connector",
+    "department": "Dev",
+    "usage_count": 1,
+    "is_used": true
+  },
+  {
+    "id": "RESP-DEV-027",
+    "primary_phrase": "enable claude skills",
+    "department": "Dev",
+    "usage_count": 1,
+    "is_used": true
+  },
+  {
+    "id": "RESP-DEV-034",
+    "primary_phrase": "research development tools",
+    "department": "Research / Dev",
+    "usage_count": 1,
+    "is_used": true
+  },
+  {
+    "id": "RESP-HR-001",
+    "primary_phrase": "create job posting",
+    "department": "HR",
+    "usage_count": 1,
+    "is_used": true
+  },
+  {
+    "id": "RESP-LG-010",
+    "primary_phrase": "enrich leads",
+    "department": "LG",
+    "usage_count": 1,
+    "is_used": true
+  },
+  {
+    "id": "RESP-LG-011",
+    "primary_phrase": "execute emails",
+    "department": "LG",
+    "usage_count": 1,
+    "is_used": true
+  },
+  {
+    "id": "RESP-LG-013",
+    "primary_phrase": "enrich company employees",
+    "department": "LG",
+    "usage_count": 1,
+    "is_used": true
+  },
+  {
+    "id": "RESP-LG-022",
+    "primary_phrase": "build custom scraper",
+    "department": "LG",
+    "usage_count": 1,
+    "is_used": true
+  },
+  {
+    "id": "RESP-LG-036",
+    "primary_phrase": "scrape leads",
+    "department": "LG",
+    "usage_count": 1,
+    "is_used": true
+  },
+  {
+    "id": "RESP-LG-040",
+    "primary_phrase": "generate leads",
+    "department": "LG",
+    "usage_count": 1,
+    "is_used": true
+  },
+  {
+    "id": "RESP-LG-050",
+    "primary_phrase": "scrape linkedin job postings",
+    "department": "LG",
+    "usage_count": 1,
+    "is_used": true
+  },
+  {
+    "id": "RESP-LG-059",
+    "primary_phrase": "extract leads",
+    "department": "LG",
+    "usage_count": 1,
+    "is_used": true
+  },
+  {
+    "id": "RESP-MKT-001",
+    "primary_phrase": "scrape creators",
+    "department": "AI",
+    "usage_count": 1,
+    "is_used": true
+  },
+  {
+    "id": "RESP-MKT-008",
+    "primary_phrase": "execute videos",
+    "department": "AI",
+    "usage_count": 1,
+    "is_used": true
+  },
+  {
+    "id": "RESP-OPS-003",
+    "primary_phrase": "send emails",
+    "department": "AI",
+    "usage_count": 1,
+    "is_used": true
+  },
+  {
+    "id": "RESP-OPS-004",
+    "primary_phrase": "automate emails",
+    "department": "AI",
+    "usage_count": 1,
+    "is_used": true
+  },
+  {
+    "id": "RESP-OPS-010",
+    "primary_phrase": "automate newsletter replies",
+    "department": "AI",
+    "usage_count": 1,
+    "is_used": true
+  },
+  {
+    "id": "RESP-OPS-016",
+    "primary_phrase": "automate post-meeting workflow",
+    "department": "AI",
+    "usage_count": 1,
+    "is_used": true
+  },
+  {
+    "id": "RESP-AI-003",
+    "primary_phrase": "update channels",
+    "department": "AI",
+    "usage_count": 0,
+    "is_used": false
+  },
+  {
+    "id": "RESP-AI-006",
+    "primary_phrase": "copy copy research_template.json",
+    "department": "AI",
+    "usage_count": 0,
+    "is_used": false
+  },
+  {
+    "id": "RESP-AI-007",
+    "primary_phrase": "write formulate search queries",
+    "department": "AI",
+    "usage_count": 0,
+    "is_used": false
+  },
+  {
+    "id": "RESP-AI-008",
+    "primary_phrase": "search execute perplexity searches and collect results",
+    "department": "AI",
+    "usage_count": 0,
+    "is_used": false
+  },
+  {
+    "id": "RESP-AI-009",
+    "primary_phrase": "document document session summary and save research file",
+    "department": "AI",
+    "usage_count": 0,
+    "is_used": false
+  },
+  {
+    "id": "RESP-AI-011",
+    "primary_phrase": "extract creators",
+    "department": "AI",
+    "usage_count": 0,
+    "is_used": false
+  },
+  {
+    "id": "RESP-AI-012",
+    "primary_phrase": "search creators",
+    "department": "AI",
+    "usage_count": 0,
+    "is_used": false
+  },
+  {
+    "id": "RESP-AI-013",
+    "primary_phrase": "research channels",
+    "department": "AI",
+    "usage_count": 0,
+    "is_used": false
+  },
+  {
+    "id": "RESP-AI-014",
+    "primary_phrase": "create creators",
+    "department": "AI",
+    "usage_count": 0,
+    "is_used": false
+  },
+  {
+    "id": "RESP-AI-015",
+    "primary_phrase": "read videos",
+    "department": "AI",
+    "usage_count": 0,
+    "is_used": false
+  },
+  {
+    "id": "RESP-AI-016",
+    "primary_phrase": "extract extract all tools mentioned (primary focus)",
+    "department": "AI",
+    "usage_count": 0,
+    "is_used": false
+  },
+  {
+    "id": "RESP-AI-017",
+    "primary_phrase": "extract data",
+    "department": "AI",
+    "usage_count": 0,
+    "is_used": false
+  },
+  {
+    "id": "RESP-AI-018",
+    "primary_phrase": "extract extract all actions and processes (verbs, workflows)",
+    "department": "AI",
+    "usage_count": 0,
+    "is_used": false
+  },
+  {
+    "id": "RESP-AI-019",
+    "primary_phrase": "identify identify professions and use cases",
+    "department": "AI",
+    "usage_count": 0,
+    "is_used": false
+  },
+  {
+    "id": "RESP-AI-020",
+    "primary_phrase": "document structured inventory document",
+    "department": "AI",
+    "usage_count": 0,
+    "is_used": false
+  },
+  {
+    "id": "RESP-AI-021",
+    "primary_phrase": "verify initial quality check and completeness review",
+    "department": "AI",
+    "usage_count": 0,
+    "is_used": false
+  },
+  {
+    "id": "RESP-AI-022",
+    "primary_phrase": "save save inventory and prepare",
+    "department": "AI",
+    "usage_count": 0,
+    "is_used": false
+  },
+  {
+    "id": "RESP-AI-024",
+    "primary_phrase": "search search tools library",
+    "department": "AI",
+    "usage_count": 0,
+    "is_used": false
+  },
+  {
+    "id": "RESP-AI-025",
+    "primary_phrase": "search search objects library",
+    "department": "AI",
+    "usage_count": 0,
+    "is_used": false
+  },
+  {
+    "id": "RESP-AI-026",
+    "primary_phrase": "search search actions library",
+    "department": "AI",
+    "usage_count": 0,
+    "is_used": false
+  },
+  {
+    "id": "RESP-AI-027",
+    "primary_phrase": "identify check",
+    "department": "AI",
+    "usage_count": 0,
+    "is_used": false
+  },
+  {
+    "id": "RESP-AI-028",
+    "primary_phrase": "prioritize assign priority rankings",
+    "department": "AI",
+    "usage_count": 0,
+    "is_used": false
+  },
+  {
+    "id": "RESP-AI-029",
+    "primary_phrase": "document document gap analysis",
+    "department": "AI",
+    "usage_count": 0,
+    "is_used": false
+  },
+  {
+    "id": "RESP-AI-030",
+    "primary_phrase": "plan videos",
+    "department": "AI",
+    "usage_count": 0,
+    "is_used": false
+  },
+  {
+    "id": "RESP-AI-032",
+    "primary_phrase": "select select high-priority tools",
+    "department": "AI",
+    "usage_count": 0,
+    "is_used": false
+  },
+  {
+    "id": "RESP-AI-033",
+    "primary_phrase": "research research tool details (website, documentation, pricing)",
+    "department": "AI",
+    "usage_count": 0,
+    "is_used": false
+  },
+  {
+    "id": "RESP-AI-034",
+    "primary_phrase": "identify determine next tool-ai-xxx id number",
+    "department": "AI",
+    "usage_count": 0,
+    "is_used": false
+  },
+  {
+    "id": "RESP-AI-035",
+    "primary_phrase": "create data",
+    "department": "AI",
+    "usage_count": 0,
+    "is_used": false
+  },
+  {
+    "id": "RESP-AI-036",
+    "primary_phrase": "identify videos",
+    "department": "AI",
+    "usage_count": 0,
+    "is_used": false
+  },
+  {
+    "id": "RESP-AI-037",
+    "primary_phrase": "map add profession and use case mappings",
+    "department": "AI",
+    "usage_count": 0,
+    "is_used": false
+  },
+  {
+    "id": "RESP-AI-038",
+    "primary_phrase": "categorize assign tags and categories",
+    "department": "AI",
+    "usage_count": 0,
+    "is_used": false
+  },
+  {
+    "id": "RESP-AI-039",
+    "primary_phrase": "verify quality check all tool entries",
+    "department": "AI",
+    "usage_count": 0,
+    "is_used": false
+  },
+  {
+    "id": "RESP-AI-040",
+    "primary_phrase": "update tool index and cross-references",
+    "department": "AI",
+    "usage_count": 0,
+    "is_used": false
+  },
+  {
+    "id": "RESP-AI-041",
+    "primary_phrase": "save save and prepare",
+    "department": "AI",
+    "usage_count": 0,
+    "is_used": false
+  },
+  {
+    "id": "RESP-AI-043",
+    "primary_phrase": "select select new objects",
+    "department": "AI",
+    "usage_count": 0,
+    "is_used": false
+  },
+  {
+    "id": "RESP-AI-044",
+    "primary_phrase": "identify determine appropriate objects category file",
+    "department": "AI",
+    "usage_count": 0,
+    "is_used": false
+  },
+  {
+    "id": "RESP-AI-045",
+    "primary_phrase": "identify determine next obj-{dept}-xxx ids",
+    "department": "AI",
+    "usage_count": 0,
+    "is_used": false
+  },
+  {
+    "id": "RESP-AI-046",
+    "primary_phrase": "create object entries",
+    "department": "AI",
+    "usage_count": 0,
+    "is_used": false
+  },
+  {
+    "id": "RESP-AI-047",
+    "primary_phrase": "map map relationships",
+    "department": "AI",
+    "usage_count": 0,
+    "is_used": false
+  },
+  {
+    "id": "RESP-AI-048",
+    "primary_phrase": "verify quality check and save objects",
+    "department": "AI",
+    "usage_count": 0,
+    "is_used": false
+  },
+  {
+    "id": "RESP-AI-050",
+    "primary_phrase": "identify determine next wf-{dept}-xxx ids",
+    "department": "AI",
+    "usage_count": 0,
+    "is_used": false
+  },
+  {
+    "id": "RESP-AI-051",
+    "primary_phrase": "create workflow entries",
+    "department": "AI",
+    "usage_count": 0,
+    "is_used": false
+  },
+  {
+    "id": "RESP-AI-052",
+    "primary_phrase": "search check",
+    "department": "AI",
+    "usage_count": 0,
+    "is_used": false
+  },
+  {
+    "id": "RESP-AI-053",
+    "primary_phrase": "update add new action verbs",
+    "department": "AI",
+    "usage_count": 0,
+    "is_used": false
+  },
+  {
+    "id": "RESP-AI-054",
+    "primary_phrase": "update profession mappings",
+    "department": "AI",
+    "usage_count": 0,
+    "is_used": false
+  },
+  {
+    "id": "RESP-AI-055",
+    "primary_phrase": "document document use cases and skill requirements",
+    "department": "AI",
+    "usage_count": 0,
+    "is_used": false
+  },
+  {
+    "id": "RESP-AI-056",
+    "primary_phrase": "verify quality check workflows, actions, professions",
+    "department": "AI",
+    "usage_count": 0,
+    "is_used": false
+  },
+  {
+    "id": "RESP-AI-058",
+    "primary_phrase": "map map tool-to-tool relationships",
+    "department": "AI",
+    "usage_count": 0,
+    "is_used": false
+  },
+  {
+    "id": "RESP-AI-059",
+    "primary_phrase": "map map tool-to-workflow connections",
+    "department": "AI",
+    "usage_count": 0,
+    "is_used": false
+  },
+  {
+    "id": "RESP-AI-060",
+    "primary_phrase": "map map profession-to-tool connections",
+    "department": "AI",
+    "usage_count": 0,
+    "is_used": false
+  },
+  {
+    "id": "RESP-AI-061",
+    "primary_phrase": "map map object-to-tool and object-to-action connections",
+    "department": "AI",
+    "usage_count": 0,
+    "is_used": false
+  },
+  {
+    "id": "RESP-AI-062",
+    "primary_phrase": "verify verify bidirectional references are complete",
+    "department": "AI",
+    "usage_count": 0,
+    "is_used": false
+  },
+  {
+    "id": "RESP-AI-064",
+    "primary_phrase": "collect collect metrics",
+    "department": "AI",
+    "usage_count": 0,
+    "is_used": false
+  },
+  {
+    "id": "RESP-AI-065",
+    "primary_phrase": "create generate library mapping report",
+    "department": "AI",
+    "usage_count": 0,
+    "is_used": false
+  },
+  {
+    "id": "RESP-AI-066",
+    "primary_phrase": "update research session json",
+    "department": "AI",
+    "usage_count": 0,
+    "is_used": false
+  },
+  {
+    "id": "RESP-AI-067",
+    "primary_phrase": "update research_index.json",
+    "department": "AI",
+    "usage_count": 0,
+    "is_used": false
+  },
+  {
+    "id": "RESP-AI-068",
+    "primary_phrase": "analyze identify next research cycle priorities",
+    "department": "AI",
+    "usage_count": 0,
+    "is_used": false
+  },
+  {
+    "id": "RESP-AI-070",
+    "primary_phrase": "define define evaluation objectives and metrics",
+    "department": "AI",
+    "usage_count": 0,
+    "is_used": false
+  },
+  {
+    "id": "RESP-AI-071",
+    "primary_phrase": "analyze identify per-example ground truth requirements",
+    "department": "AI",
+    "usage_count": 0,
+    "is_used": false
+  },
+  {
+    "id": "RESP-AI-072",
+    "primary_phrase": "analyze identify universal standard requirements",
+    "department": "AI",
+    "usage_count": 0,
+    "is_used": false
+  },
+  {
+    "id": "RESP-AI-073",
+    "primary_phrase": "create per-example evaluation test cases",
+    "department": "AI",
+    "usage_count": 0,
+    "is_used": false
+  },
+  {
+    "id": "RESP-AI-074",
+    "primary_phrase": "create universal standard validation checks",
+    "department": "AI",
+    "usage_count": 0,
+    "is_used": false
+  },
+  {
+    "id": "RESP-AI-075",
+    "primary_phrase": "implement implement evaluation runner and metrics tracking",
+    "department": "AI",
+    "usage_count": 0,
+    "is_used": false
+  },
+  {
+    "id": "RESP-AI-076",
+    "primary_phrase": "run run evaluation on agent and analyze results",
+    "department": "AI",
+    "usage_count": 0,
+    "is_used": false
+  },
+  {
+    "id": "RESP-AI-077",
+    "primary_phrase": "document document evaluation system and establish baseline",
+    "department": "AI",
+    "usage_count": 0,
+    "is_used": false
+  },
+  {
+    "id": "RESP-AI-078",
+    "primary_phrase": "research videos",
+    "department": "Research / AI / Video",
+    "usage_count": 0,
+    "is_used": false
+  },
+  {
+    "id": "RESP-DEV-001",
+    "primary_phrase": "build data",
+    "department": "Dev",
+    "usage_count": 0,
+    "is_used": false
+  },
+  {
+    "id": "RESP-DEV-003",
+    "primary_phrase": "identify data",
+    "department": "Dev",
+    "usage_count": 0,
+    "is_used": false
+  },
+  {
+    "id": "RESP-DEV-004",
+    "primary_phrase": "scrape scrape website html",
+    "department": "Dev",
+    "usage_count": 0,
+    "is_used": false
+  },
+  {
+    "id": "RESP-DEV-005",
+    "primary_phrase": "design design n8n workflow",
+    "department": "Dev",
+    "usage_count": 0,
+    "is_used": false
+  },
+  {
+    "id": "RESP-DEV-006",
+    "primary_phrase": "build html input node",
+    "department": "Dev",
+    "usage_count": 0,
+    "is_used": false
+  },
+  {
+    "id": "RESP-DEV-007",
+    "primary_phrase": "configure openai parsing node",
+    "department": "Dev",
+    "usage_count": 0,
+    "is_used": false
+  },
+  {
+    "id": "RESP-DEV-008",
+    "primary_phrase": "test test ai parsing on sample html",
+    "department": "Dev",
+    "usage_count": 0,
+    "is_used": false
+  },
+  {
+    "id": "RESP-DEV-009",
+    "primary_phrase": "execute run full html parsing pipeline",
+    "department": "Dev",
+    "usage_count": 0,
+    "is_used": false
+  },
+  {
+    "id": "RESP-DEV-010",
+    "primary_phrase": "export and validate results",
+    "department": "Dev",
+    "usage_count": 0,
+    "is_used": false
+  },
+  {
+    "id": "RESP-DEV-012",
+    "primary_phrase": "enable enable mcp-builder skill",
+    "department": "Dev",
+    "usage_count": 0,
+    "is_used": false
+  },
+  {
+    "id": "RESP-DEV-013",
+    "primary_phrase": "write write 2-sentence connector prompt",
+    "department": "Dev",
+    "usage_count": 0,
+    "is_used": false
+  },
+  {
+    "id": "RESP-DEV-014",
+    "primary_phrase": "submit submit prompt",
+    "department": "Dev",
+    "usage_count": 0,
+    "is_used": false
+  },
+  {
+    "id": "RESP-DEV-015",
+    "primary_phrase": "wait wait",
+    "department": "Dev",
+    "usage_count": 0,
+    "is_used": false
+  },
+  {
+    "id": "RESP-DEV-016",
+    "primary_phrase": "review generated connector code",
+    "department": "Dev",
+    "usage_count": 0,
+    "is_used": false
+  },
+  {
+    "id": "RESP-DEV-017",
+    "primary_phrase": "copy copy code",
+    "department": "Dev",
+    "usage_count": 0,
+    "is_used": false
+  },
+  {
+    "id": "RESP-DEV-019",
+    "primary_phrase": "copy copy generated connector code",
+    "department": "Dev",
+    "usage_count": 0,
+    "is_used": false
+  },
+  {
+    "id": "RESP-DEV-020",
+    "primary_phrase": "open open connector directory",
+    "department": "Dev",
+    "usage_count": 0,
+    "is_used": false
+  },
+  {
+    "id": "RESP-DEV-021",
+    "primary_phrase": "prompt ask cursor",
+    "department": "Dev",
+    "usage_count": 0,
+    "is_used": false
+  },
+  {
+    "id": "RESP-DEV-022",
+    "primary_phrase": "install install dependencies",
+    "department": "Dev",
+    "usage_count": 0,
+    "is_used": false
+  },
+  {
+    "id": "RESP-DEV-023",
+    "primary_phrase": "configure oauth credentials (if required)",
+    "department": "Dev",
+    "usage_count": 0,
+    "is_used": false
+  },
+  {
+    "id": "RESP-DEV-024",
+    "primary_phrase": "test test connector locally",
+    "department": "Dev",
+    "usage_count": 0,
+    "is_used": false
+  },
+  {
+    "id": "RESP-DEV-025",
+    "primary_phrase": "configure add connector",
+    "department": "Dev",
+    "usage_count": 0,
+    "is_used": false
+  },
+  {
+    "id": "RESP-DEV-026",
+    "primary_phrase": "verify verify connection",
+    "department": "Dev",
+    "usage_count": 0,
+    "is_used": false
+  },
+  {
+    "id": "RESP-DEV-028",
+    "primary_phrase": "open open claude desktop app",
+    "department": "Dev",
+    "usage_count": 0,
+    "is_used": false
+  },
+  {
+    "id": "RESP-DEV-029",
+    "primary_phrase": "navigate navigate",
+    "department": "Dev",
+    "usage_count": 0,
+    "is_used": false
+  },
+  {
+    "id": "RESP-DEV-030",
+    "primary_phrase": "locate locate skills section",
+    "department": "Dev",
+    "usage_count": 0,
+    "is_used": false
+  },
+  {
+    "id": "RESP-DEV-031",
+    "primary_phrase": "enable enable skills feature toggle",
+    "department": "Dev",
+    "usage_count": 0,
+    "is_used": false
+  },
+  {
+    "id": "RESP-DEV-032",
+    "primary_phrase": "verify verify mcp-builder skill is available",
+    "department": "Dev",
+    "usage_count": 0,
+    "is_used": false
+  },
+  {
+    "id": "RESP-DEV-033",
+    "primary_phrase": "test test skills feature",
+    "department": "Dev",
+    "usage_count": 0,
+    "is_used": false
+  },
+  {
+    "id": "RESP-HR-002",
+    "primary_phrase": "setup n8n workflow",
+    "department": "HR",
+    "usage_count": 0,
+    "is_used": false
+  },
+  {
+    "id": "RESP-HR-003",
+    "primary_phrase": "configure gemini ai parameters",
+    "department": "HR",
+    "usage_count": 0,
+    "is_used": false
+  },
+  {
+    "id": "RESP-HR-004",
+    "primary_phrase": "setup interview scheduling automation",
+    "department": "HR",
+    "usage_count": 0,
+    "is_used": false
+  },
+  {
+    "id": "RESP-HR-005",
+    "primary_phrase": "configure linkedin automation",
+    "department": "HR",
+    "usage_count": 0,
+    "is_used": false
+  },
+  {
+    "id": "RESP-HR-006",
+    "primary_phrase": "setup onboarding automation workflow",
+    "department": "HR",
+    "usage_count": 0,
+    "is_used": false
+  },
+  {
+    "id": "RESP-LG-002",
+    "primary_phrase": "upload domains",
+    "department": "LG",
+    "usage_count": 0,
+    "is_used": false
+  },
+  {
+    "id": "RESP-LG-003",
+    "primary_phrase": "prepare domains",
+    "department": "LG",
+    "usage_count": 0,
+    "is_used": false
+  },
+  {
+    "id": "RESP-LG-004",
+    "primary_phrase": "export leads",
+    "department": "LG",
+    "usage_count": 0,
+    "is_used": false
+  },
+  {
+    "id": "RESP-LG-005",
+    "primary_phrase": "export enriched results",
+    "department": "LG",
+    "usage_count": 0,
+    "is_used": false
+  },
+  {
+    "id": "RESP-LG-006",
+    "primary_phrase": "log log campaign metrics",
+    "department": "LG",
+    "usage_count": 0,
+    "is_used": false
+  },
+  {
+    "id": "RESP-LG-007",
+    "primary_phrase": "search data",
+    "department": "LG",
+    "usage_count": 0,
+    "is_used": false
+  },
+  {
+    "id": "RESP-LG-008",
+    "primary_phrase": "export data",
+    "department": "LG",
+    "usage_count": 0,
+    "is_used": false
+  },
+  {
+    "id": "RESP-LG-009",
+    "primary_phrase": "export contacts",
+    "department": "LG",
+    "usage_count": 0,
+    "is_used": false
+  },
+  {
+    "id": "RESP-LG-012",
+    "primary_phrase": "enrich run nominative enrichment",
+    "department": "LG",
+    "usage_count": 0,
+    "is_used": false
+  },
+  {
+    "id": "RESP-LG-014",
+    "primary_phrase": "prepare target company list",
+    "department": "LG",
+    "usage_count": 0,
+    "is_used": false
+  },
+  {
+    "id": "RESP-LG-015",
+    "primary_phrase": "review data",
+    "department": "LG",
+    "usage_count": 0,
+    "is_used": false
+  },
+  {
+    "id": "RESP-LG-016",
+    "primary_phrase": "unlock unlock employee list",
+    "department": "LG",
+    "usage_count": 0,
+    "is_used": false
+  },
+  {
+    "id": "RESP-LG-017",
+    "primary_phrase": "upload employees",
+    "department": "LG",
+    "usage_count": 0,
+    "is_used": false
+  },
+  {
+    "id": "RESP-LG-018",
+    "primary_phrase": "configure nominative enrichment pattern",
+    "department": "LG",
+    "usage_count": 0,
+    "is_used": false
+  },
+  {
+    "id": "RESP-LG-019",
+    "primary_phrase": "execute run nominative enrichment",
+    "department": "LG",
+    "usage_count": 0,
+    "is_used": false
+  },
+  {
+    "id": "RESP-LG-020",
+    "primary_phrase": "log log results and success rate",
+    "department": "LG",
+    "usage_count": 0,
+    "is_used": false
+  },
+  {
+    "id": "RESP-LG-021",
+    "primary_phrase": "configure target roles",
+    "department": "LG",
+    "usage_count": 0,
+    "is_used": false
+  },
+  {
+    "id": "RESP-LG-023",
+    "primary_phrase": "research identify and research target niche platform",
+    "department": "LG",
+    "usage_count": 0,
+    "is_used": false
+  },
+  {
+    "id": "RESP-LG-024",
+    "primary_phrase": "analyze analyze http requests using browser devtools",
+    "department": "LG",
+    "usage_count": 0,
+    "is_used": false
+  },
+  {
+    "id": "RESP-LG-025",
+    "primary_phrase": "design design n8n workflow architecture",
+    "department": "LG",
+    "usage_count": 0,
+    "is_used": false
+  },
+  {
+    "id": "RESP-LG-026",
+    "primary_phrase": "build http request nodes",
+    "department": "LG",
+    "usage_count": 0,
+    "is_used": false
+  },
+  {
+    "id": "RESP-LG-027",
+    "primary_phrase": "test data",
+    "department": "LG",
+    "usage_count": 0,
+    "is_used": false
+  },
+  {
+    "id": "RESP-LG-028",
+    "primary_phrase": "execute run full scrape on niche platform",
+    "department": "LG",
+    "usage_count": 0,
+    "is_used": false
+  },
+  {
+    "id": "RESP-LG-029",
+    "primary_phrase": "document document scraper",
+    "department": "LG",
+    "usage_count": 0,
+    "is_used": false
+  },
+  {
+    "id": "RESP-LG-030",
+    "primary_phrase": "identify identify target enterprise companies",
+    "department": "LG",
+    "usage_count": 0,
+    "is_used": false
+  },
+  {
+    "id": "RESP-LG-031",
+    "primary_phrase": "unlock spend 1 airscale credit",
+    "department": "LG",
+    "usage_count": 0,
+    "is_used": false
+  },
+  {
+    "id": "RESP-LG-032",
+    "primary_phrase": "export employee list",
+    "department": "LG",
+    "usage_count": 0,
+    "is_used": false
+  },
+  {
+    "id": "RESP-LG-033",
+    "primary_phrase": "upload employee list",
+    "department": "LG",
+    "usage_count": 0,
+    "is_used": false
+  },
+  {
+    "id": "RESP-LG-034",
+    "primary_phrase": "enrich run nominative enrichment on employees",
+    "department": "LG",
+    "usage_count": 0,
+    "is_used": false
+  },
+  {
+    "id": "RESP-LG-035",
+    "primary_phrase": "calculate calculate and log roi",
+    "department": "LG",
+    "usage_count": 0,
+    "is_used": false
+  },
+  {
+    "id": "RESP-LG-037",
+    "primary_phrase": "define define target location and business category",
+    "department": "LG",
+    "usage_count": 0,
+    "is_used": false
+  },
+  {
+    "id": "RESP-LG-038",
+    "primary_phrase": "configure apify google maps scraper",
+    "department": "LG",
+    "usage_count": 0,
+    "is_used": false
+  },
+  {
+    "id": "RESP-LG-039",
+    "primary_phrase": "scrape run apify maps scraper",
+    "department": "LG",
+    "usage_count": 0,
+    "is_used": false
+  },
+  {
+    "id": "RESP-LG-041",
+    "primary_phrase": "define define google search query",
+    "department": "LG",
+    "usage_count": 0,
+    "is_used": false
+  },
+  {
+    "id": "RESP-LG-042",
+    "primary_phrase": "configure apify google serp scraper",
+    "department": "LG",
+    "usage_count": 0,
+    "is_used": false
+  },
+  {
+    "id": "RESP-LG-043",
+    "primary_phrase": "scrape run apify serp scraper",
+    "department": "LG",
+    "usage_count": 0,
+    "is_used": false
+  },
+  {
+    "id": "RESP-LG-044",
+    "primary_phrase": "export domains",
+    "department": "LG",
+    "usage_count": 0,
+    "is_used": false
+  },
+  {
+    "id": "RESP-LG-045",
+    "primary_phrase": "upload to instantly.ai campaign",
+    "department": "LG",
+    "usage_count": 0,
+    "is_used": false
+  },
+  {
+    "id": "RESP-LG-046",
+    "primary_phrase": "configure enrichment settings",
+    "department": "LG",
+    "usage_count": 0,
+    "is_used": false
+  },
+  {
+    "id": "RESP-LG-047",
+    "primary_phrase": "execute run enrichment within instantly.ai",
+    "department": "LG",
+    "usage_count": 0,
+    "is_used": false
+  },
+  {
+    "id": "RESP-LG-048",
+    "primary_phrase": "review contacts",
+    "department": "LG",
+    "usage_count": 0,
+    "is_used": false
+  },
+  {
+    "id": "RESP-LG-049",
+    "primary_phrase": "launch emails",
+    "department": "LG",
+    "usage_count": 0,
+    "is_used": false
+  },
+  {
+    "id": "RESP-LG-051",
+    "primary_phrase": "define define job search criteria indicating intent",
+    "department": "LG",
+    "usage_count": 0,
+    "is_used": false
+  },
+  {
+    "id": "RESP-LG-052",
+    "primary_phrase": "configure apify linkedin jobs scraper",
+    "department": "LG",
+    "usage_count": 0,
+    "is_used": false
+  },
+  {
+    "id": "RESP-LG-053",
+    "primary_phrase": "scrape run apify jobs scraper",
+    "department": "LG",
+    "usage_count": 0,
+    "is_used": false
+  },
+  {
+    "id": "RESP-LG-054",
+    "primary_phrase": "extract extract and deduplicate company list",
+    "department": "LG",
+    "usage_count": 0,
+    "is_used": false
+  },
+  {
+    "id": "RESP-LG-055",
+    "primary_phrase": "research domains",
+    "department": "LG",
+    "usage_count": 0,
+    "is_used": false
+  },
+  {
+    "id": "RESP-LG-056",
+    "primary_phrase": "upload companies",
+    "department": "LG",
+    "usage_count": 0,
+    "is_used": false
+  },
+  {
+    "id": "RESP-LG-057",
+    "primary_phrase": "enrich run targeted enrichment",
+    "department": "LG",
+    "usage_count": 0,
+    "is_used": false
+  },
+  {
+    "id": "RESP-LG-058",
+    "primary_phrase": "export with job posting context",
+    "department": "LG",
+    "usage_count": 0,
+    "is_used": false
+  },
+  {
+    "id": "RESP-LG-060",
+    "primary_phrase": "create targeted search",
+    "department": "LG",
+    "usage_count": 0,
+    "is_used": false
+  },
+  {
+    "id": "RESP-LG-061",
+    "primary_phrase": "extract extract li_at cookie",
+    "department": "LG",
+    "usage_count": 0,
+    "is_used": false
+  },
+  {
+    "id": "RESP-LG-062",
+    "primary_phrase": "configure vayne scraper",
+    "department": "LG",
+    "usage_count": 0,
+    "is_used": false
+  },
+  {
+    "id": "RESP-LG-063",
+    "primary_phrase": "scrape profiles",
+    "department": "LG",
+    "usage_count": 0,
+    "is_used": false
+  },
+  {
+    "id": "RESP-LG-064",
+    "primary_phrase": "import profiles",
+    "department": "LG",
+    "usage_count": 0,
+    "is_used": false
+  },
+  {
+    "id": "RESP-MKT-002",
+    "primary_phrase": "define creators",
+    "department": "AI",
+    "usage_count": 0,
+    "is_used": false
+  },
+  {
+    "id": "RESP-MKT-003",
+    "primary_phrase": "configure apify instagram scraper",
+    "department": "AI",
+    "usage_count": 0,
+    "is_used": false
+  },
+  {
+    "id": "RESP-MKT-004",
+    "primary_phrase": "scrape run instagram scraper",
+    "department": "AI",
+    "usage_count": 0,
+    "is_used": false
+  },
+  {
+    "id": "RESP-MKT-005",
+    "primary_phrase": "extract contacts",
+    "department": "AI",
+    "usage_count": 0,
+    "is_used": false
+  },
+  {
+    "id": "RESP-MKT-006",
+    "primary_phrase": "enrich profiles",
+    "department": "AI",
+    "usage_count": 0,
+    "is_used": false
+  },
+  {
+    "id": "RESP-MKT-007",
+    "primary_phrase": "export creators",
+    "department": "AI",
+    "usage_count": 0,
+    "is_used": false
+  },
+  {
+    "id": "RESP-OPS-001",
+    "primary_phrase": "review drafts",
+    "department": "AI",
+    "usage_count": 0,
+    "is_used": false
+  },
+  {
+    "id": "RESP-OPS-002",
+    "primary_phrase": "prompt emails",
+    "department": "AI",
+    "usage_count": 0,
+    "is_used": false
+  },
+  {
+    "id": "RESP-OPS-005",
+    "primary_phrase": "open open claude desktop app each morning",
+    "department": "AI",
+    "usage_count": 0,
+    "is_used": false
+  },
+  {
+    "id": "RESP-OPS-006",
+    "primary_phrase": "read emails",
+    "department": "AI",
+    "usage_count": 0,
+    "is_used": false
+  },
+  {
+    "id": "RESP-OPS-007",
+    "primary_phrase": "analyze analyze context and sender relationship",
+    "department": "AI",
+    "usage_count": 0,
+    "is_used": false
+  },
+  {
+    "id": "RESP-OPS-008",
+    "primary_phrase": "generate draft appropriate responses",
+    "department": "AI",
+    "usage_count": 0,
+    "is_used": false
+  },
+  {
+    "id": "RESP-OPS-009",
+    "primary_phrase": "send send approved drafts",
+    "department": "AI",
+    "usage_count": 0,
+    "is_used": false
+  },
+  {
+    "id": "RESP-OPS-011",
+    "primary_phrase": "identify emails",
+    "department": "AI",
+    "usage_count": 0,
+    "is_used": false
+  },
+  {
+    "id": "RESP-OPS-012",
+    "primary_phrase": "activate open claude desktop and activate gmail connector",
+    "department": "AI",
+    "usage_count": 0,
+    "is_used": false
+  },
+  {
+    "id": "RESP-OPS-013",
+    "primary_phrase": "analyze analyze subscriber questions and requests",
+    "department": "AI",
+    "usage_count": 0,
+    "is_used": false
+  },
+  {
+    "id": "RESP-OPS-014",
+    "primary_phrase": "generate generate personalized reply drafts",
+    "department": "AI",
+    "usage_count": 0,
+    "is_used": false
+  },
+  {
+    "id": "RESP-OPS-015",
+    "primary_phrase": "send send approved replies",
+    "department": "AI",
+    "usage_count": 0,
+    "is_used": false
+  },
+  {
+    "id": "RESP-OPS-017",
+    "primary_phrase": "upload meeting transcript",
+    "department": "AI",
+    "usage_count": 0,
+    "is_used": false
+  },
+  {
+    "id": "RESP-OPS-018",
+    "primary_phrase": "extract extract meeting insights",
+    "department": "AI",
+    "usage_count": 0,
+    "is_used": false
+  },
+  {
+    "id": "RESP-OPS-019",
+    "primary_phrase": "read read calendar event",
+    "department": "AI",
+    "usage_count": 0,
+    "is_used": false
+  },
+  {
+    "id": "RESP-OPS-020",
+    "primary_phrase": "generate emails",
+    "department": "AI",
+    "usage_count": 0,
+    "is_used": false
+  },
+  {
+    "id": "RESP-OPS-021",
+    "primary_phrase": "update crm",
+    "department": "AI",
+    "usage_count": 0,
+    "is_used": false
+  },
+  {
+    "id": "RESP-OPS-022",
+    "primary_phrase": "review emails",
+    "department": "AI",
+    "usage_count": 0,
+    "is_used": false
+  }
+]

@@ -1,0 +1,30 @@
+{
+  "entity_type": "LIBRARIES",
+  "sub_entity": "Tool",
+  "tool_id": "TOOL-AUTO-103",
+  "name": "AmpleLeads",
+  "vendor": "AmpleLeads",
+  "category": "Automation Tools / Scraper Tool",
+  "purpose": "Export Apollo.io search results to CSV [DEPRECATED]",
+  "description": "Third-party tool for exporting Apollo.io search results. STATUS: DEPRECATED as of mid-2024 due to Apollo security changes. Tool became unstable and unreliable per Video_006. Maintained for historical reference only.",
+  "skill_level_required": "Beginner",
+  "cost_structure": "Unknown (tool deprecated)",
+  "platform_compatibility": ["Browser Extension (deprecated)"],
+  "integration_capabilities": ["Previously: Apollo.io export", "CSV download"],
+  "documentation_url": "N/A (deprecated)",
+  "actual_remote_helpers_usage": {
+    "primary_use": "DEPRECATED: Apollo Export",
+    "users": ["N/A"],
+    "use_cases": ["DEPRECATED: Export Apollo leads"],
+    "workflows": ["DEPRECATED: Apollo export workflow"]
+  },
+  "strengths": ["Historical: Enabled Apollo bulk export"],
+  "limitations": ["DEPRECATED: No longer functional", "Apollo security changes broke tool"],
+  "departments_using": ["LG (historical)"],
+  "tags": ["deprecated", "apollo-export", "historical"],
+  "discovery_date": "2025-11-12",
+  "discovery_source": "Video_006_Lead_Generation_Analysis",
+  "status": "deprecated",
+  "deprecation_date": "Mid-2024",
+  "deprecation_reason": "Apollo security changes made tool unstable"
+}

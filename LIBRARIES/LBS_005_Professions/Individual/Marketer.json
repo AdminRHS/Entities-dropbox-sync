@@ -1,0 +1,295 @@
+{
+  "entity_type": "LIBRARIES",
+  "sub_entity": "Profession",
+  "profession_name": "marketer",
+  "full_title": "Digital Marketer (Content Marketing & Social Media)",
+  "department": "AI",
+  "description": "Digital marketing professional specializing in content strategy, B2B thought leadership, multi-platform social media management, data-driven campaigns, and ethical marketing practices with focus on LinkedIn, Medium, and community building",
+  "created": "2025-11-13",
+  "updated": "2025-11-13",
+  "skills": [
+    "SKL-MKT-001",
+    "SKL-MKT-002",
+    "SKL-MKT-003",
+    "SKL-MKT-004",
+    "SKL-MKT-005",
+    "SKL-MKT-006",
+    "SKL-MKT-007",
+    "SKL-MKT-008"
+  ],
+  "skill_details": {
+    "SKL-MKT-001": {
+      "skill_phrase": "developed comprehensive content marketing strategies",
+      "proficiency_level": "advanced",
+      "frequency": "monthly"
+    },
+    "SKL-MKT-002": {
+      "skill_phrase": "published B2B thought leadership articles on LinkedIn",
+      "proficiency_level": "advanced",
+      "frequency": "weekly"
+    },
+    "SKL-MKT-003": {
+      "skill_phrase": "analyzed campaign performance with data-driven insights",
+      "proficiency_level": "advanced",
+      "frequency": "daily"
+    },
+    "SKL-MKT-004": {
+      "skill_phrase": "managed Facebook Groups and community engagement",
+      "proficiency_level": "intermediate",
+      "frequency": "daily"
+    },
+    "SKL-MKT-005": {
+      "skill_phrase": "created SEO-optimized long-form content for Medium",
+      "proficiency_level": "intermediate",
+      "frequency": "weekly"
+    },
+    "SKL-MKT-006": {
+      "skill_phrase": "executed cross-platform content distribution strategies",
+      "proficiency_level": "advanced",
+      "frequency": "daily"
+    },
+    "SKL-MKT-007": {
+      "skill_phrase": "conducted A/B testing for content optimization",
+      "proficiency_level": "intermediate",
+      "frequency": "weekly"
+    },
+    "SKL-MKT-008": {
+      "skill_phrase": "implemented ethical marketing and data privacy practices",
+      "proficiency_level": "advanced",
+      "frequency": "daily"
+    }
+  },
+  "tools": [
+    "TOOL-SMM-007",
+    "TOOL-PUB-001",
+    "TOOL-SMM-006",
+    "TOOL-SMM-004",
+    "TOOL-SMM-001",
+    "TOOL-PUB-002",
+    "TOOL-VID-001"
+  ],
+  "tool_details": {
+    "TOOL-SMM-007": "LinkedIn - PRIMARY platform (daily use) - B2B thought leadership, networking",
+    "TOOL-PUB-001": "Medium - PRIMARY platform (weekly use) - Long-form content, SEO strategy",
+    "TOOL-SMM-006": "Twitter/X - SECONDARY platform (daily use) - Real-time engagement, threads",
+    "TOOL-SMM-004": "Facebook - SECONDARY platform (daily use) - Groups, community management",
+    "TOOL-SMM-001": "Instagram - SECONDARY platform (weekly use) - Visual marketing content",
+    "TOOL-PUB-002": "Substack - SECONDARY platform (weekly/bi-weekly) - Newsletter, direct email",
+    "TOOL-VID-001": "YouTube - SECONDARY platform (weekly use) - Video marketing content"
+  },
+  "workflows": [
+    "WF-SMM-008",
+    "WF-SMM-009",
+    "WF-SMM-001",
+    "WF-SMM-002",
+    "WF-SMM-010"
+  ],
+  "workflow_details": {
+    "WF-SMM-008": "LinkedIn B2B Content Strategy - Daily activity mix (articles, posts, engagement)",
+    "WF-SMM-009": "Medium Long-Form Publishing - Weekly 2,000+ word cornerstone guides",
+    "WF-SMM-001": "Cross-Platform Content Distribution - Repurpose blog to LinkedIn/Twitter/Instagram",
+    "WF-SMM-002": "Content Repurposing Pipeline - Transform long-form to multiple platform variations",
+    "WF-SMM-010": "Facebook Community Management - Daily moderation, engagement, value creation"
+  },
+  "objects": [
+    "OBJ-SMM-010",
+    "OBJ-SMM-011",
+    "OBJ-PUB-001",
+    "OBJ-SMM-012",
+    "OBJ-SMM-013",
+    "OBJ-PUB-002"
+  ],
+  "object_details": {
+    "OBJ-SMM-010": "LinkedIn Article - Professional design insights, case study highlights",
+    "OBJ-SMM-011": "LinkedIn Carousel - Data-driven threads (5-10 slides)",
+    "OBJ-PUB-001": "Medium Article - 2,000+ word SEO-optimized cornerstone guide",
+    "OBJ-SMM-012": "Twitter Thread - Educational thread series with numbered tweets",
+    "OBJ-SMM-013": "Facebook Group Post - Value-first community content",
+    "OBJ-PUB-002": "Substack Newsletter - Weekly/bi-weekly email with deep insights"
+  },
+  "actions": [
+    "publish",
+    "analyze",
+    "optimize",
+    "test",
+    "distribute",
+    "engage",
+    "moderate",
+    "schedule",
+    "track",
+    "report",
+    "strategize",
+    "segment",
+    "target",
+    "convert"
+  ],
+  "communication_templates": [
+    "TMPL-MKT-001",
+    "TMPL-MKT-002",
+    "TMPL-MKT-003"
+  ],
+  "template_details": {
+    "TMPL-MKT-001": "LinkedIn Post Template - Thought leadership format with data insights",
+    "TMPL-MKT-002": "Medium Article Template - Hook → Context → Value → CTA structure",
+    "TMPL-MKT-003": "Twitter Thread Template - Numbered series with engagement hooks"
+  },
+  "typical_tasks": [
+    "Publish 1 LinkedIn article per week with thought leadership content",
+    "Post daily LinkedIn updates (alternating types: articles, carousels, videos)",
+    "Write 1 Medium article per week (2,000+ words, SEO-optimized)",
+    "Create 3-5 Twitter threads per week on industry insights",
+    "Manage Facebook Group daily (welcome members, share tips, moderate)",
+    "Analyze campaign performance metrics daily across platforms",
+    "Conduct A/B testing on content formats weekly",
+    "Repurpose long-form content into short-form for cross-platform distribution",
+    "Respond to LinkedIn comments and messages within 2 hours",
+    "Host weekly LinkedIn Live or Facebook Live sessions for community engagement"
+  ],
+  "content_strategy": {
+    "linkedin": {
+      "thought_leadership_articles": "25% - Original insights and expertise",
+      "course_based_education": "30% - Educational content and tutorials",
+      "case_studies_with_metrics": "20% - Data-driven success stories",
+      "professional_development": "15% - Career advice and industry trends",
+      "company_updates": "10% - Announcements and behind-the-scenes"
+    },
+    "medium": {
+      "cornerstone_guides": "40% - 2,000+ word comprehensive resources",
+      "industry_analysis": "30% - Trend reports and insights",
+      "case_studies": "20% - Detailed project breakdowns",
+      "opinion_pieces": "10% - Thought-provoking commentary"
+    },
+    "twitter": {
+      "educational_threads": "30% - Multi-tweet valuable content",
+      "quick_tips_resources": "35% - Single-tweet actionable advice",
+      "community_engagement": "20% - Replies and conversations",
+      "industry_commentary": "15% - Real-time reactions and insights"
+    },
+    "facebook": {
+      "group_management": "40% - Welcome, moderate, facilitate",
+      "page_content": "30% - Native video, events, live Q&A",
+      "community_challenges": "20% - Engagement campaigns",
+      "value_posts": "10% - Tips and resources"
+    }
+  },
+  "performance_metrics": {
+    "linkedin_impressions": "Total reach across posts and articles",
+    "linkedin_engagement_rate": "(Likes + Comments + Shares) / Impressions",
+    "linkedin_click_through": "Clicks on external links - Lead generation metric",
+    "medium_views": "Article views and read ratio",
+    "medium_reads": "Percentage who read to end - Quality indicator",
+    "twitter_engagement": "Likes + Retweets + Replies per tweet",
+    "facebook_group_activity": "Posts per day, member retention rate",
+    "conversion_rate": "Leads generated / Total reach - Business impact",
+    "email_open_rate": "Newsletter subscribers who open (Substack)",
+    "roi": "Return on investment for paid campaigns"
+  },
+  "best_practices": [
+    "LinkedIn: Post daily alternating content types for consistent visibility",
+    "LinkedIn: Respond to comments within 2 hours to boost engagement",
+    "LinkedIn: Use data and metrics in posts to add credibility",
+    "LinkedIn: Tag clients with permission to build social proof",
+    "Medium: Target publication submissions for wider reach",
+    "Medium: Use SEO-optimized titles and headers",
+    "Medium: Include visual elements (images, charts) every 300 words",
+    "Twitter: Use 1-3 hashtags per tweet (not excessive)",
+    "Twitter: Thread numbering for clarity (1/7, 2/7, etc.)",
+    "Twitter: Post across multiple timezones for global reach",
+    "Facebook Groups: Welcome new members daily with personalized message",
+    "Facebook: Native video uploads perform better than YouTube links",
+    "Cross-platform: Repurpose blog content to multiple formats",
+    "Analytics: Review metrics monthly to identify patterns",
+    "A/B Testing: Test one variable at a time for clear insights",
+    "Ethics: Always prioritize data privacy and GDPR compliance",
+    "Community: Add value in every interaction, avoid self-promotion"
+  ],
+  "ai_integration_approach": {
+    "transparency": "Disclose AI assistance in content creation process",
+    "process": "Human strategy → AI-assisted drafting → Human editing → Human approval",
+    "use_cases": [
+      "Content ideation and topic research",
+      "Draft generation for blog posts",
+      "SEO keyword analysis",
+      "A/B test variant creation",
+      "Data analysis and reporting"
+    ],
+    "ethics": "Always maintain human oversight and strategic decision-making"
+  },
+  "platform_priorities": {
+    "primary": [
+      "LinkedIn (daily B2B authority building)",
+      "Medium (weekly long-form thought leadership)"
+    ],
+    "secondary": [
+      "Twitter/X (daily real-time engagement)",
+      "Facebook (daily community management)",
+      "Instagram (weekly visual marketing)"
+    ],
+    "tertiary": [
+      "Substack (weekly/bi-weekly newsletter)",
+      "YouTube (weekly video content)",
+      "Pinterest (weekly visual discovery)"
+    ]
+  },
+  "posting_schedule": {
+    "linkedin": "Daily activity - Tuesday-Thursday 8-10am, 5-6pm EST optimal",
+    "medium": "1-2 articles per week - weekday mornings",
+    "twitter": "3-5 times daily - spread across multiple timezones",
+    "facebook": "Daily group activity - morning welcome posts, evening value content",
+    "substack": "Weekly or bi-weekly - consistent day/time",
+    "response_time_goals": {
+      "linkedin": "Within 2 hours",
+      "twitter": "Within 30 minutes",
+      "facebook_groups": "Within 4 hours"
+    }
+  },
+  "content_repurposing_workflow": {
+    "step_1": "Write comprehensive Medium article (2,000+ words)",
+    "step_2": "Extract key insights for LinkedIn article",
+    "step_3": "Create LinkedIn carousel with data visualizations",
+    "step_4": "Break down into Twitter thread series",
+    "step_5": "Create Instagram quote cards from key points",
+    "step_6": "Share Facebook Group discussion post with highlights",
+    "step_7": "Include summary in Substack newsletter",
+    "step_8": "Track performance across all platforms for optimization"
+  },
+  "community_management_protocols": {
+    "response_priorities": [
+      "1. Customer complaints or issues (immediate)",
+      "2. Direct questions to brand (within 2 hours)",
+      "3. General engagement comments (within 4 hours)",
+      "4. Positive feedback and testimonials (within 24 hours)"
+    ],
+    "moderation_guidelines": [
+      "Remove spam immediately",
+      "Address conflicts professionally and privately",
+      "Enforce community guidelines consistently",
+      "Foster positive member-to-member connections",
+      "Recognize and highlight active community members"
+    ],
+    "engagement_tactics": [
+      "Personal responses, not templated replies",
+      "Add value in every comment",
+      "Ask follow-up questions to deepen conversation",
+      "Share member content (with permission)",
+      "Host regular challenges and campaigns"
+    ]
+  },
+  "ethical_marketing_principles": {
+    "data_privacy": "Always comply with GDPR, CCPA, and platform policies",
+    "transparency": "Clear disclosure of sponsored content and partnerships",
+    "authenticity": "Honest representation of products and services",
+    "inclusivity": "Diverse representation in content and campaigns",
+    "accessibility": "Alt text, captions, and accessible design",
+    "consent": "Explicit permission for data collection and usage",
+    "no_dark_patterns": "Avoid manipulative design or deceptive practices"
+  },
+  "lead_generation_strategy": {
+    "linkedin": "Thought leadership → Profile visits → DM conversations → Calls",
+    "medium": "SEO content → Email capture → Newsletter nurture → Conversions",
+    "facebook_groups": "Value-first participation → Trust building → Private offers",
+    "content_upgrades": "Downloadable resources in exchange for email",
+    "webinars": "LinkedIn Live or Facebook Live with registration"
+  },
+  "source": "SMM_Research_Document_2_Content_Strategy_Multi_Platform"
+}

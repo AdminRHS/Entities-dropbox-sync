@@ -1,0 +1,354 @@
+{
+  "migration_metadata": {
+    "entity_type": "Researches",
+    "iso_code": "RSR",
+    "migration_date": "2025-11-19",
+    "total_entities": 35,
+    "migrated_from": "Various research folders and files",
+    "migrated_to": "ENTITIES/TASK_MANAGERS/RESEARCHES/",
+    "migration_purpose": "Standardize research documentation with ISO codes for taxonomy integration",
+    "naming_convention": "RSR-XXX (3-digit sequential)",
+    "categorization_scheme": "Type-based categories (ToDo, Video, SMM, Influencer, Documentation)",
+    "status_distribution": {
+      "Pending": 4,
+      "Completed": 20,
+      "Active": 10,
+      "Reference": 1
+    }
+  },
+  "mappings": [
+    {
+      "new_id": "RSR-001",
+      "legacy_id": "Research_ToDo_2025-11-W47_AI_Platforms",
+      "entity_type": "Research_ToDo",
+      "category": "AI_Platforms",
+      "status": "Pending",
+      "department": "AID"
+    },
+    {
+      "new_id": "RSR-002",
+      "legacy_id": "Research_ToDo_2025-11-W47_AI_Video_Tools",
+      "entity_type": "Research_ToDo",
+      "category": "AI_Video_Tools",
+      "status": "Pending",
+      "department": "VID"
+    },
+    {
+      "new_id": "RSR-003",
+      "legacy_id": "Research_ToDo_2025-11-W47_Development_Tools",
+      "entity_type": "Research_ToDo",
+      "category": "Development_Tools",
+      "status": "Pending",
+      "department": "DEV"
+    },
+    {
+      "new_id": "RSR-004",
+      "legacy_id": "Research_ToDo_2025-11-W47_Other_Tools",
+      "entity_type": "Research_ToDo",
+      "category": "Other_Tools",
+      "status": "Pending",
+      "department": "AID"
+    },
+    {
+      "new_id": "RSR-005",
+      "legacy_id": "Video_001",
+      "entity_type": "Video_Research",
+      "category": "Video_Analysis",
+      "status": "Completed",
+      "department": "AID"
+    },
+    {
+      "new_id": "RSR-006",
+      "legacy_id": "Video_002",
+      "entity_type": "Video_Research",
+      "category": "Video_Analysis",
+      "status": "Completed",
+      "department": "AID"
+    },
+    {
+      "new_id": "RSR-007",
+      "legacy_id": "Video_003",
+      "entity_type": "Video_Research",
+      "category": "Video_Analysis",
+      "status": "Completed",
+      "department": "AID"
+    },
+    {
+      "new_id": "RSR-008",
+      "legacy_id": "Video_004",
+      "entity_type": "Video_Research",
+      "category": "Video_Analysis",
+      "status": "Completed",
+      "department": "AID"
+    },
+    {
+      "new_id": "RSR-009",
+      "legacy_id": "Video_005",
+      "entity_type": "Video_Research",
+      "category": "Video_Analysis",
+      "status": "Completed",
+      "department": "AID"
+    },
+    {
+      "new_id": "RSR-010",
+      "legacy_id": "Video_006",
+      "entity_type": "Video_Research",
+      "category": "Video_Analysis",
+      "status": "Completed",
+      "department": "AID"
+    },
+    {
+      "new_id": "RSR-011",
+      "legacy_id": "Video_007",
+      "entity_type": "Video_Research",
+      "category": "Video_Analysis",
+      "status": "Completed",
+      "department": "AID"
+    },
+    {
+      "new_id": "RSR-012",
+      "legacy_id": "Video_008",
+      "entity_type": "Video_Research",
+      "category": "Video_Analysis",
+      "status": "Completed",
+      "department": "AID"
+    },
+    {
+      "new_id": "RSR-013",
+      "legacy_id": "Video_009",
+      "entity_type": "Video_Research",
+      "category": "Video_Analysis",
+      "status": "Completed",
+      "department": "AID"
+    },
+    {
+      "new_id": "RSR-014",
+      "legacy_id": "Video_010",
+      "entity_type": "Video_Research",
+      "category": "Video_Analysis",
+      "status": "Completed",
+      "department": "AID"
+    },
+    {
+      "new_id": "RSR-015",
+      "legacy_id": "Video_011",
+      "entity_type": "Video_Research",
+      "category": "Video_Analysis",
+      "status": "Completed",
+      "department": "AID"
+    },
+    {
+      "new_id": "RSR-016",
+      "legacy_id": "Video_012",
+      "entity_type": "Video_Research",
+      "category": "Video_Analysis",
+      "status": "Completed",
+      "department": "AID"
+    },
+    {
+      "new_id": "RSR-017",
+      "legacy_id": "Video_013",
+      "entity_type": "Video_Research",
+      "category": "Video_Analysis",
+      "status": "Completed",
+      "department": "AID"
+    },
+    {
+      "new_id": "RSR-018",
+      "legacy_id": "Video_014",
+      "entity_type": "Video_Research",
+      "category": "Video_Analysis",
+      "status": "Completed",
+      "department": "AID"
+    },
+    {
+      "new_id": "RSR-019",
+      "legacy_id": "Video_016",
+      "entity_type": "Video_Research",
+      "category": "Video_Analysis",
+      "status": "Completed",
+      "department": "AID"
+    },
+    {
+      "new_id": "RSR-020",
+      "legacy_id": "Instagram_DM_Communication",
+      "entity_type": "SMM_Research",
+      "category": "Instagram_Strategy",
+      "status": "Completed",
+      "department": "LGN"
+    },
+    {
+      "new_id": "RSR-021",
+      "legacy_id": "Instagram_DM_Taxonomy_Analysis",
+      "entity_type": "SMM_Research",
+      "category": "Taxonomy_Analysis",
+      "status": "Completed",
+      "department": "LGN"
+    },
+    {
+      "new_id": "RSR-022",
+      "legacy_id": "Content_Strategy_Platforms",
+      "entity_type": "SMM_Research",
+      "category": "Content_Strategy",
+      "status": "Completed",
+      "department": "LGN"
+    },
+    {
+      "new_id": "RSR-023",
+      "legacy_id": "Content_Strategy_Taxonomy_Analysis",
+      "entity_type": "SMM_Research",
+      "category": "Taxonomy_Analysis",
+      "status": "Completed",
+      "department": "LGN"
+    },
+    {
+      "new_id": "RSR-024",
+      "legacy_id": "Social_Media_Strategies_EU_2025",
+      "entity_type": "SMM_Research",
+      "category": "Social_Strategy",
+      "status": "Completed",
+      "department": "LGN"
+    },
+    {
+      "new_id": "RSR-025",
+      "legacy_id": "Document_1_Gap_Analysis",
+      "entity_type": "SMM_Research",
+      "category": "Gap_Analysis",
+      "status": "Completed",
+      "department": "LGN"
+    },
+    {
+      "new_id": "RSR-026",
+      "legacy_id": "Document_1_Integration_Report",
+      "entity_type": "SMM_Research",
+      "category": "Integration_Report",
+      "status": "Completed",
+      "department": "LGN"
+    },
+    {
+      "new_id": "RSR-027",
+      "legacy_id": "Document_2_Integration_Report",
+      "entity_type": "SMM_Research",
+      "category": "Integration_Report",
+      "status": "Completed",
+      "department": "LGN"
+    },
+    {
+      "new_id": "RSR-028",
+      "legacy_id": "Session_Reversal_Prompt",
+      "entity_type": "SMM_Research",
+      "category": "Prompt_Engineering",
+      "status": "Active",
+      "department": "AID"
+    },
+    {
+      "new_id": "RSR-029",
+      "legacy_id": "Upgraded_Initial_Prompt",
+      "entity_type": "SMM_Research",
+      "category": "Prompt_Engineering",
+      "status": "Active",
+      "department": "AID"
+    },
+    {
+      "new_id": "RSR-030",
+      "legacy_id": "Influencer_Database",
+      "entity_type": "Influencer_Tracking",
+      "category": "Influencer_Management",
+      "status": "Active",
+      "department": "LGN"
+    },
+    {
+      "new_id": "RSR-031",
+      "legacy_id": "YouTube_Channels",
+      "entity_type": "Influencer_Tracking",
+      "category": "Channel_Tracking",
+      "status": "Active",
+      "department": "AID"
+    },
+    {
+      "new_id": "RSR-032",
+      "legacy_id": "EXAMPLE_2025-11-W46_AI_Tutorials",
+      "entity_type": "Research_Example",
+      "category": "Reference_Material",
+      "status": "Reference",
+      "department": "AID"
+    },
+    {
+      "new_id": "RSR-033",
+      "legacy_id": "oa-y_Libraries_TaskManagers_Gap_Analysis",
+      "entity_type": "Gap_Analysis",
+      "category": "System_Analysis",
+      "status": "Completed",
+      "department": "AID"
+    },
+    {
+      "new_id": "RSR-034",
+      "legacy_id": "Cloud_AI_Research_Instructions",
+      "entity_type": "Research_Documentation",
+      "category": "Instructions",
+      "status": "Active",
+      "department": "AID"
+    },
+    {
+      "new_id": "RSR-035",
+      "legacy_id": "oa-y_Research_Data_Flow",
+      "entity_type": "Research_Documentation",
+      "category": "Documentation",
+      "status": "Active",
+      "department": "AID"
+    }
+  ],
+  "category_summary": {
+    "Research_ToDo": 4,
+    "Video_Research": 15,
+    "SMM_Research": 10,
+    "Influencer_Tracking": 2,
+    "Research_Example": 1,
+    "Gap_Analysis": 1,
+    "Research_Documentation": 2
+  },
+  "department_mapping": {
+    "AID": ["RSR-001", "RSR-004", "RSR-005", "RSR-006", "RSR-007", "RSR-008", "RSR-009", "RSR-010", "RSR-011", "RSR-012", "RSR-013", "RSR-014", "RSR-015", "RSR-016", "RSR-017", "RSR-018", "RSR-019", "RSR-028", "RSR-029", "RSR-031", "RSR-032", "RSR-033", "RSR-034", "RSR-035"],
+    "VID": ["RSR-002"],
+    "DEV": ["RSR-003"],
+    "LGN": ["RSR-020", "RSR-021", "RSR-022", "RSR-023", "RSR-024", "RSR-025", "RSR-026", "RSR-027", "RSR-030"]
+  },
+  "checksums": {
+    "total_researches": 35,
+    "pending_researches": 4,
+    "completed_researches": 20,
+    "active_researches": 10,
+    "reference_materials": 1,
+    "total_categories": 7,
+    "departments_represented": 4
+  },
+  "backwards_compatibility": {
+    "legacy_id_format": "Descriptive names and file names",
+    "new_id_format": "RSR-XXX (Sequential)",
+    "migration_notes": "All legacy IDs preserved in Current_ID column for reference. Category and type information maintained separately."
+  },
+  "research_workflows": {
+    "todo_to_completed": {
+      "description": "Research items move from ToDo to completion with documented findings",
+      "stages": ["Pending (ToDo)", "In Progress", "Completed (Documented)"],
+      "output_locations": ["Videos/", "SMM/", "Research Reports/"]
+    },
+    "video_research_pipeline": {
+      "description": "Video content research and taxonomy extraction",
+      "count": 15,
+      "status": "All completed",
+      "integration": "Feeds into LIBRARIES taxonomy"
+    },
+    "smm_research_workflow": {
+      "description": "Social media marketing research and strategy development",
+      "count": 10,
+      "focus_areas": ["Instagram", "Content Strategy", "Social Platforms", "EU Market 2025"],
+      "outputs": ["Research documents", "Taxonomy analyses", "Gap analyses", "Integration reports"]
+    },
+    "influencer_tracking": {
+      "description": "Ongoing tracking of influencers and channels for collaboration opportunities",
+      "databases": ["Influencer_Database.json", "YouTube_Channels.json"],
+      "status": "Active monitoring"
+    }
+  }
+}

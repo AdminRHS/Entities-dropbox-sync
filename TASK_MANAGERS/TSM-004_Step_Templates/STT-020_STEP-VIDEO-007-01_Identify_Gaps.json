@@ -1,0 +1,36 @@
+{
+  "step_template_id": "Step-Template-020",
+  "step_template_name": "Identify Gaps in Library Population",
+  "metadata": {
+    "status": "Active"
+  },
+  "parent_task": {
+    "task_id": "TASK-TEMPLATE-VIDEO-007",
+    "task_name": "Generate Gap Analysis Report"
+  },
+  "step_details": {
+    "step_number": 1,
+    "order": 1,
+    "action": "identify",
+    "detail": "Review extraction and identify: tools mentioned but not added, missing integrations, incomplete documentation",
+    "expected_duration": 2
+  },
+  "execution": {
+    "tool_used": "Extraction document, populated libraries",
+    "inputs": [
+      "Complete taxonomy extraction",
+      "Updated LIBRARIES"
+    ],
+    "outputs": [
+      "List of gaps categorized by type"
+    ],
+    "success_criteria": "All gaps identified: missing tools (with reasons), missing integrations, incomplete fields"
+  },
+  "relationships": {
+    "dependencies": [],
+    "next_steps": [
+      "STEP-VIDEO-007-02"
+    ],
+    "parallel_steps": []
+  }
+}

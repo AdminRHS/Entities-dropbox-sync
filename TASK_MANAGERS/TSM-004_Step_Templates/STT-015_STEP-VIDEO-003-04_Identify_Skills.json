@@ -1,0 +1,38 @@
+{
+  "step_template_id": "Step-Template-015",
+  "step_template_name": "Identify Skills with Tool Linkage",
+  "metadata": {
+    "status": "Active"
+  },
+  "parent_task": {
+    "task_id": "TASK-TEMPLATE-VIDEO-003",
+    "task_name": "Extract Taxonomy Data from Transcription"
+  },
+  "step_details": {
+    "step_number": 4,
+    "order": 4,
+    "action": "identify",
+    "detail": "Extract skills in lowercase format with tools (e.g., 'enriched emails via Anymailfinder'), link to tasks",
+    "expected_duration": 3
+  },
+  "execution": {
+    "tool_used": "Claude Desktop or Claude Pro",
+    "inputs": [
+      "Task and Step Templates",
+      "Skills extraction guidelines"
+    ],
+    "outputs": [
+      "Section 7B: Skills identified with task linkage"
+    ],
+    "success_criteria": "Skills in lowercase, past tense action + object + 'via tool', linked to specific Task Templates"
+  },
+  "relationships": {
+    "dependencies": [
+      "STEP-VIDEO-003-03"
+    ],
+    "next_steps": [
+      "STEP-VIDEO-003-05"
+    ],
+    "parallel_steps": []
+  }
+}

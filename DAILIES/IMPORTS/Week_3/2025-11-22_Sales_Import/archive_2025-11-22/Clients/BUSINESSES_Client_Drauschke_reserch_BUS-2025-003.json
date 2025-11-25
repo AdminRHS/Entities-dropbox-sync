@@ -1,0 +1,65 @@
+{
+  "entity_type": "BUSINESSES",
+  "sub_entity": "Client",
+  "company_id": "BUS-2025-003",
+  "company_name": "Drauschke reserch",
+  "status": "Active_Client",
+  "industry": "Technology",
+  "company_size": "Unknown",
+  "location": "Unknown",
+  "relationship_start": "2025-10-02",
+  "lifetime_value": 0,
+  "current_monthly_revenue": 0,
+  "account_manager": "Kovalska_Anastasiya",
+  "decision_makers": [
+    {
+      "name": "Frank Drauschke",
+      "title": "Unknown",
+      "email": "frank@drauschke.de"
+    }
+  ],
+  "active_projects": [
+    "Plamena_80h"
+  ],
+  "relationship_health": "Moderate",
+  "tags": [
+    "active_client",
+    "hired",
+    "anastasia_portfolio",
+    "needs_followup",
+    "development",
+    "social_media",
+    "ai_automation",
+    "needs_immediate_followup"
+  ],
+  "crm_link": "https://crm-s.com/member/client-communications/7072",
+  "transcription_link": "Frank Drauschke - Follow up - 2025/10/09 11:22 EEST - Notes by Gemini",
+  "google_doc": "Drauschke Research",
+  "dropbox_path": "/Dropbox/Clients/Drauschke Research",
+  "last_contact": "2025-10-09",
+  "next_action": "",
+  "communication_history": [
+    {
+      "date": "2025-11-07",
+      "type": "call_transcript",
+      "summary": "Call transcript available",
+      "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Sales Nov25\\Clients\\Drauschke Research\\Frank Drauschke - Follow up - 2025_11_07 12_57 EET - Notes by Gemini.md"
+    }
+  ],
+  "notes": "hired Plamena 80h",
+  "email_content": "",
+  "approved": "FALSE",
+  "services_of_interest": [],
+  "urgency_level": "normal",
+  "budget_info": {
+    "budget_mentioned": false,
+    "estimated_value": null,
+    "currency": null
+  },
+  "next_actions": [],
+  "last_contact_details": {
+    "date": "2025-10-09",
+    "days_ago": 44,
+    "recency": "over_month"
+  }
+}

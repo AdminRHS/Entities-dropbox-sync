@@ -1,0 +1,28 @@
+{
+  "template_name": "Communication",
+  "description": "Preferred communication channel information",
+  "fields": {
+    "communication_id": {
+      "type": "str",
+      "description": "Field: communication_id",
+      "example": "12"
+    },
+    "channel_communication": {
+      "type": "object",
+      "fields": {
+        "channel_communication.id": {
+          "type": "int",
+          "description": "Field: id",
+          "example": 12
+        },
+        "channel_communication.name": {
+          "type": "str",
+          "description": "Field: name",
+          "example": "Telegram"
+        }
+      },
+      "description": "Nested object: channel_communication"
+    }
+  }
+}
+

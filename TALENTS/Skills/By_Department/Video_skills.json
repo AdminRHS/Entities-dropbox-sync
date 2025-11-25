@@ -1,0 +1,96 @@
+﻿[
+    {
+        "skill_id":  "SKL-050",
+        "skill_phrase":  "edited videos in Adobe Premiere",
+        "components":  {
+                           "result":  "edited",
+                           "action":  "edit",
+                           "object":  "videos",
+                           "object_type":  "promotional videos, tutorial videos",
+                           "tool":  "Adobe Premiere",
+                           "tool_category":  "Video Editing"
+                       },
+        "department":  "Video",
+        "professions":  [
+                            "video editor"
+                        ],
+        "difficulty_level":  "advanced",
+        "frequency":  "daily",
+        "time_estimate_minutes":  180,
+        "automation_potential":  "low",
+        "related_skills":  [
+                               "SKL-051",
+                               "SKL-052"
+                           ],
+        "example_tasks":  [
+                              "Edit 5-minute promotional video for Remote Helpers services",
+                              "Cut and splice tutorial video with transitions and effects"
+                          ],
+        "training_resources":  [
+
+                               ]
+    },
+    {
+        "skill_id":  "SKL-051",
+        "skill_phrase":  "added subtitles in Adobe Premiere",
+        "components":  {
+                           "result":  "added",
+                           "action":  "add",
+                           "object":  "subtitles",
+                           "object_type":  "translated subtitles, closed caption",
+                           "tool":  "Adobe Premiere",
+                           "tool_category":  "Video Editing"
+                       },
+        "department":  "Video",
+        "professions":  [
+                            "video editor"
+                        ],
+        "difficulty_level":  "intermediate",
+        "frequency":  "daily",
+        "time_estimate_minutes":  45,
+        "automation_potential":  "high",
+        "related_skills":  [
+                               "SKL-050",
+                               "SKL-053"
+                           ],
+        "example_tasks":  [
+                              "Add English subtitles to video CV",
+                              "Create bilingual subtitles for client presentation video"
+                          ],
+        "training_resources":  [
+
+                               ]
+    },
+    {
+        "skill_id":  "SKL-052",
+        "skill_phrase":  "created animations in After Effects",
+        "components":  {
+                           "result":  "created",
+                           "action":  "create",
+                           "object":  "animations",
+                           "object_type":  "2d animations, 3d animations, motion graphics",
+                           "tool":  "After Effects",
+                           "tool_category":  "Animation"
+                       },
+        "department":  "Video",
+        "professions":  [
+                            "motion designer",
+                            "animator"
+                        ],
+        "difficulty_level":  "advanced",
+        "frequency":  "weekly",
+        "time_estimate_minutes":  240,
+        "automation_potential":  "low",
+        "related_skills":  [
+                               "SKL-050",
+                               "SKL-054"
+                           ],
+        "example_tasks":  [
+                              "Create animated logo intro for company videos",
+                              "Design motion graphics for explainer video"
+                          ],
+        "training_resources":  [
+
+                               ]
+    }
+]

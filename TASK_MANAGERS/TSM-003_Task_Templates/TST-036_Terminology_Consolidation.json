@@ -1,0 +1,27 @@
+{
+  "task_template_id": "Task-Template-036",
+  "task_template_name": "Terminology Consolidation",
+  "category": "Documentation",
+  "department": "AI",
+  "description": "Consolidate extracted terminology and identify redundant variables",
+  "estimated_hours": 1.5,
+  "step_templates": [
+    {
+      "step_template_id": "STEP-ANALYSIS-014-01",
+      "step_template_name": "Merge terminology lists"
+    },
+    {
+      "step_template_id": "STEP-ANALYSIS-014-02",
+      "step_template_name": "Identify synonyms and duplicates"
+    },
+    {
+      "step_template_id": "STEP-ANALYSIS-014-03",
+      "step_template_name": "Create standardization recommendations"
+    },
+    {
+      "step_template_id": "STEP-ANALYSIS-014-04",
+      "step_template_name": "Generate terminology_standards.json"
+    }
+  ],
+  "version": "1.0"
+}

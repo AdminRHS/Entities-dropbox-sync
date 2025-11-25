@@ -1,0 +1,126 @@
+﻿{
+  "project_template_id": "PROJ-TEMPL-001",
+  "template_name": "System Ecosystem Analysis",
+  "template_version": "1.0",
+  "department": "AI",
+  "category": "Analysis",
+  "created_date": "2025-11-17",
+
+  "description": "Reusable template for comprehensive system analysis: consistency validation, duplicate detection, terminology extraction, and architecture documentation.",
+
+  "when_to_use": [
+    "Analyzing folder ecosystems for consistency",
+    "Validating naming conventions and schemas",
+    "Detecting duplicate content across file types",
+    "Extracting and standardizing terminology",
+    "Documenting system architecture"
+  ],
+
+  "estimated_duration": {
+    "total_hours": 14.75,
+    "total_days": 5.5
+  },
+
+  "milestone_templates": [
+    {
+      "milestone_template_id": "MIL-TEMPL-001",
+      "milestone_template_name": "Data Inventory",
+      "reference": "Dropbox/ENTITIES/TASK_MANAGERS/Milestone_Templates/Milestone-Template-002.json"
+    },
+    {
+      "milestone_template_id": "MIL-TEMPL-002",
+      "milestone_template_name": "Schema Naming Validation",
+      "reference": "Dropbox/ENTITIES/TASK_MANAGERS/Milestone_Templates/Milestone-Template-004.json"
+    },
+    {
+      "milestone_template_id": "MIL-TEMPL-003",
+      "milestone_template_name": "Content Analysis",
+      "reference": "Dropbox/ENTITIES/TASK_MANAGERS/Milestone_Templates/Milestone-Template-001.json"
+    },
+    {
+      "milestone_template_id": "MIL-TEMPL-004",
+      "milestone_template_name": "Relationship Validation",
+      "reference": "Dropbox/ENTITIES/TASK_MANAGERS/Milestone_Templates/Milestone-Template-003.json"
+    },
+    {
+      "milestone_template_id": "MIL-TEMPL-005",
+      "milestone_template_name": "Synthesis Recommendations",
+      "reference": "Dropbox/ENTITIES/TASK_MANAGERS/Milestone_Templates/Milestone-Template-005.json"
+    }
+  ],
+
+  "expected_reports": [
+    {
+      "report_id": "REP-001",
+      "report_name": "File Inventory Report",
+      "milestone": "MIL-TEMPL-001"
+    },
+    {
+      "report_id": "REP-002",
+      "report_name": "Naming Convention Audit",
+      "milestone": "MIL-TEMPL-002"
+    },
+    {
+      "report_id": "REP-003",
+      "report_name": "Schema Validation Report",
+      "milestone": "MIL-TEMPL-002"
+    },
+    {
+      "report_id": "REP-004",
+      "report_name": "Duplicate Content Report",
+      "milestone": "MIL-TEMPL-003"
+    },
+    {
+      "report_id": "REP-005",
+      "report_name": "Terminology Extraction Report",
+      "milestone": "MIL-TEMPL-003"
+    },
+    {
+      "report_id": "REP-006",
+      "report_name": "terminology_standards.json",
+      "milestone": "MIL-TEMPL-003"
+    },
+    {
+      "report_id": "REP-007",
+      "report_name": "Cross-Reference Validation Report",
+      "milestone": "MIL-TEMPL-004"
+    },
+    {
+      "report_id": "REP-008",
+      "report_name": "Index Accuracy Report",
+      "milestone": "MIL-TEMPL-004"
+    },
+    {
+      "report_id": "REP-009",
+      "report_name": "Architecture Documentation",
+      "milestone": "MIL-TEMPL-005"
+    },
+    {
+      "report_id": "REP-010",
+      "report_name": "Terminology Consolidation Report",
+      "milestone": "MIL-TEMPL-005"
+    },
+    {
+      "report_id": "REP-011",
+      "report_name": "Action Items Tracker",
+      "milestone": "MIL-TEMPL-005"
+    },
+    {
+      "report_id": "REP-012",
+      "report_name": "Executive Summary",
+      "milestone": "MIL-TEMPL-005"
+    }
+  ],
+
+  "execution_prompts": "Dropbox/ENTITIES/PROMPTS/System_Analysis/",
+
+  "instantiation_instructions": [
+    "Create project: TASK_MANAGERS/Projects/PROJ-{###}_{Name}/",
+    "Create Milestones/ and Logs/ folders",
+    "Create reports: ANALYTICS/REPORTS/{ProjectName}/",
+    "Follow prompts in PROMPTS/System_Analysis/"
+  ],
+
+  "version": "1.0",
+  "last_updated": "2025-11-17"
+}

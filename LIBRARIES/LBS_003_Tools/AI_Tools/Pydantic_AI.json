@@ -1,0 +1,90 @@
+{
+  "entity_type": "LIBRARIES",
+  "sub_entity": "Tool",
+  "tool_id": "TOOL-AI-080",
+  "name": "Pydantic AI",
+  "vendor": "Pydantic",
+  "category": "AI/Agent Framework",
+  "purpose": "Build structured, type-safe AI agents with minimal abstraction",
+  "description": "AI agent framework that makes it easy to build agents without fighting the framework. Supports swapping between different LLM providers while maintaining flexibility and control. Constantly supports new protocols like MCP, A2A, AGIUI, and Vercel data streaming protocol.",
+  "skill_level_required": "Intermediate",
+  "cost_structure": "Free (Open Source)",
+  "platform_compatibility": [
+    "Python"
+  ],
+  "integration_capabilities": [
+    "OpenAI",
+    "Anthropic Claude",
+    "Google Gemini",
+    "Multiple LLM providers",
+    "MCP (Model Context Protocol)",
+    "A2A (Agent-to-Agent)",
+    "AGIUI",
+    "Vercel AI SDK",
+    "Tool calling",
+    "Structured outputs"
+  ],
+  "documentation_url": "https://ai.pydantic.dev/",
+  "actual_remote_helpers_usage": {
+    "primary_use": "Building Single AI Agents",
+    "users": [],
+    "use_cases": [
+      "create ai agents",
+      "swap llm providers",
+      "structure agent outputs",
+      "add tools to agents",
+      "build rag agents",
+      "prototype agents quickly"
+    ],
+    "workflows": [
+      "WF-AI-001: Develop and Deploy AI Application"
+    ]
+  },
+  "strengths": [
+    "No abstraction distraction - easy to customize",
+    "Multi-provider support",
+    "Type-safe with Pydantic validation",
+    "Protocol support (MCP, A2A, AGIUI)",
+    "Flexible and not opinionated",
+    "Easy to integrate with LangGraph for multi-agent"
+  ],
+  "limitations": [
+    "Requires Python knowledge",
+    "Less feature-rich than heavier frameworks",
+    "Newer framework with smaller community"
+  ],
+  "alternatives": [
+    {
+      "name": "Raw LLM calls",
+      "comparison": "More control but more boilerplate code"
+    },
+    {
+      "name": "LangChain",
+      "comparison": "More batteries-included but heavier abstraction"
+    },
+    {
+      "name": "OpenAI Agents SDK",
+      "comparison": "Provider-specific, less flexible"
+    }
+  ],
+  "departments_using": [],
+  "tags": [
+    "ai-agents",
+    "python",
+    "llm-framework",
+    "multi-provider",
+    "mcp",
+    "structured-outputs",
+    "type-safe",
+    "open-source"
+  ],
+  "discovery_date": "2025-11-13",
+  "discovery_source": "Video_005",
+  "status": "active",
+  "video_source": {
+    "video_id": "Video_005",
+    "video_title": "My Agentic Engineering Tech Stack",
+    "creator": "Cole",
+    "timestamp": "06:47-07:49"
+  }
+}

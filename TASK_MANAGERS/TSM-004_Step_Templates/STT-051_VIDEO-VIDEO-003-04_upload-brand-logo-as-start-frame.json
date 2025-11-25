@@ -1,0 +1,34 @@
+{
+  "entity_type": "TASK_MANAGERS",
+  "sub_entity": "Step_Template",
+  "step_id": "VIDEO-VIDEO-003-04",
+  "step_number": 4,
+  "parent_task": "TASK-TEMPLATE-VIDEO-003",
+  "task_name": "Create Brand Logo Animation",
+  "name": "Upload brand logo as start frame",
+  "action": "upload",
+  "tool": "TOOL-AI-051 (Google Veo 3.1)",
+  "responsibility": "Brand Manager",
+  "placement": "OpenArt - Frame control or Elements section",
+  "duration": "1 minute",
+  "dependencies": [
+    1,
+    3
+  ],
+  "inputs": [
+    "Brand logo image"
+  ],
+  "outputs": [
+    "Logo uploaded and visible in interface"
+  ],
+  "success_criteria": "Logo appears in upload preview",
+  "implementation_notes": "Logo appears in upload preview - Implementation details based on the Create Brand Logo Animation workflow.",
+  "tags": [
+    "upload",
+    "template-task-video-003"
+  ],
+  "version": "1.0",
+  "created": "2025-11-15",
+  "last_updated": "2025-11-15",
+  "source": "Video_012"
+}

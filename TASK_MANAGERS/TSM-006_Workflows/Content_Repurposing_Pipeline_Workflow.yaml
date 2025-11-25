@@ -1,0 +1,160 @@
+workflow_name: "Content Repurposing Pipeline"
+workflow_type: "Linear"
+workflow_id: "WF-SMM-002"
+department: "MARKETING"
+priority: "High"
+estimated_duration: "2-3 hours per content transformation"
+status: "Active"
+
+description: |
+  Transform single long-form content into multiple platform-optimized variations to maximize content efficiency.
+  Systematic approach to content adaptation, distribution, and performance tracking.
+
+steps:
+  - step_number: 1
+    name: "Analyze Source Content"
+    tool: "Content analysis tools"
+    responsibility: "Analyze source content structure"
+    placement: "Content review workspace"
+    duration: "15-20 minutes"
+    dependencies: []
+    inputs:
+      - "Original long-form content (video, article, or project)"
+    outputs:
+      - "Key messages identified"
+      - "Visual assets cataloged"
+      - "Repurposing opportunities mapped"
+    success_criteria: "Comprehensive understanding of content structure and key takeaways"
+
+  - step_number: 2
+    name: "Extract Quotable Moments"
+    tool: "Content extraction tools"
+    responsibility: "Extract quotable moments"
+    placement: "Content editing workspace"
+    duration: "20-30 minutes"
+    dependencies: ["Step 1"]
+    inputs:
+      - "Analyzed content from Step 1"
+    outputs:
+      - "Stand-alone quotes identified"
+      - "Statistics and data points extracted"
+      - "Key insights documented"
+    success_criteria: "5-10 shareable moments ready for social media"
+
+  - step_number: 3
+    name: "Create Visual Assets"
+    tool: "Design tools (Canva, Figma, Photoshop)"
+    responsibility: "Create visual assets"
+    placement: "Design workspace"
+    duration: "30-45 minutes"
+    dependencies: ["Step 2"]
+    inputs:
+      - "Quotes and key insights from Step 2"
+      - "Brand visual guidelines"
+    outputs:
+      - "Quote cards designed"
+      - "Instagram Carousels (5-10 slides)"
+      - "Pinterest Infographics (1000x1500px)"
+    success_criteria: "Platform-optimized visual content created"
+
+  - step_number: 4
+    name: "Edit Video Clips"
+    tool: "Video editing tools (CapCut, Premiere Pro)"
+    responsibility: "Edit video clips"
+    placement: "Video editing workspace"
+    duration: "30-45 minutes"
+    dependencies: ["Step 2"]
+    inputs:
+      - "Source video content"
+      - "Key moments identified in Step 2"
+    outputs:
+      - "Instagram Reels (15-90 sec, 9:16)"
+      - "TikTok Videos (15-60 sec, 9:16)"
+      - "YouTube Shorts (60 sec max, 9:16)"
+    success_criteria: "Vertical video clips optimized for each platform"
+
+  - step_number: 5
+    name: "Write Platform-Specific Captions"
+    tool: "Content writing tools"
+    responsibility: "Write platform-specific captions"
+    placement: "Content management system"
+    duration: "20-30 minutes"
+    dependencies: ["Step 3", "Step 4"]
+    inputs:
+      - "Platform requirements and best practices"
+      - "Visual and video assets from Steps 3 & 4"
+    outputs:
+      - "Instagram captions (with 3-5 hashtags)"
+      - "LinkedIn professional context"
+      - "Twitter thread copy"
+      - "TikTok captions with trending elements"
+    success_criteria: "Platform-optimized captions for all content variations"
+
+  - step_number: 6
+    name: "Schedule Distribution"
+    tool: "Scheduling tools (Buffer, Hootsuite, Later)"
+    responsibility: "Schedule content distribution"
+    placement: "Social media management platform"
+    duration: "15-20 minutes"
+    dependencies: ["Step 5"]
+    inputs:
+      - "All content variations with captions"
+      - "Platform optimal posting times"
+    outputs:
+      - "Posting schedule created"
+      - "Content queued for all platforms"
+    success_criteria: "Content scheduled for optimal reach times"
+
+  - step_number: 7
+    name: "Publish Content"
+    tool: "Social media platforms / Scheduling tools"
+    responsibility: "Publish content (automated)"
+    placement: "Multi-platform distribution"
+    duration: "Automated (0-5 minutes manual review)"
+    dependencies: ["Step 6"]
+    inputs:
+      - "Scheduled content from Step 6"
+    outputs:
+      - "Content published across Instagram, TikTok, Twitter, LinkedIn, Pinterest, Facebook"
+    success_criteria: "All content variations successfully published"
+
+  - step_number: 8
+    name: "Track Performance"
+    tool: "Analytics platforms (native + third-party)"
+    responsibility: "Track performance metrics"
+    placement: "Analytics dashboard"
+    duration: "Ongoing monitoring (30 min daily review)"
+    dependencies: ["Step 7"]
+    inputs:
+      - "Published content performance data"
+    outputs:
+      - "Engagement metrics tracked"
+      - "Performance report generated"
+      - "Optimization insights documented"
+    success_criteria: "Data-driven insights for future content optimization"
+
+performance_metrics:
+  repurposing_efficiency: "Number of variations created per source content"
+  time_savings: "Hours saved vs. creating content from scratch"
+  engagement_rate: "Average engagement across all platforms"
+  reach_multiplier: "Total reach vs. single-platform reach"
+  roi: "Return on content investment across platforms"
+
+automation_opportunities:
+  - "AI-powered content extraction"
+  - "Automated caption generation"
+  - "Template-based visual creation"
+  - "Scheduled publishing automation"
+  - "Performance tracking aggregation"
+
+tags:
+  - marketing
+  - content_repurposing
+  - efficiency
+  - multi_platform
+  - smm
+  - automation
+
+version: "1.0"
+created: "2025-11-13"
+last_updated: "2025-11-13"

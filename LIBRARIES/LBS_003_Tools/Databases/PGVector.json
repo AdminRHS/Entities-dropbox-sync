@@ -1,0 +1,83 @@
+{
+  "entity_type": "LIBRARIES",
+  "sub_entity": "Tool",
+  "tool_id": "TOOL-DB-006",
+  "name": "PGVector",
+  "vendor": "PostgreSQL Extension",
+  "category": "Databases/Vector Database Extension",
+  "purpose": "Add vector similarity search to PostgreSQL for RAG",
+  "description": "PostgreSQL extension that adds vector similarity search capabilities, turning Postgres into a vector database. Enables using a single database for both relational data and vector embeddings for RAG. Not as fast as dedicated vector DBs but highly convenient and scalable.",
+  "skill_level_required": "Intermediate",
+  "cost_structure": "Free (Open Source Extension)",
+  "platform_compatibility": [
+    "PostgreSQL",
+    "Neon",
+    "Supabase",
+    "Any Postgres host"
+  ],
+  "integration_capabilities": [
+    "Postgres integration",
+    "Vector similarity search",
+    "Cosine similarity",
+    "L2 distance",
+    "Inner product",
+    "Indexing (IVFFlat, HNSW)",
+    "SQL queries"
+  ],
+  "documentation_url": "https://github.com/pgvector/pgvector",
+  "actual_remote_helpers_usage": {
+    "primary_use": "Vector Search in Postgres",
+    "users": [],
+    "use_cases": [
+      "rag vector storage",
+      "semantic search",
+      "embedding storage",
+      "single db for app+rag",
+      "vector similarity"
+    ],
+    "workflows": [
+      "WF-RAG-001: Build RAG System"
+    ]
+  },
+  "strengths": [
+    "Single DB for app + RAG",
+    "Well integrated with Postgres",
+    "Scales extremely well",
+    "SQL queries for vectors",
+    "Works with Neon/Supabase",
+    "Open-source"
+  ],
+  "limitations": [
+    "Not as fast as dedicated vector DBs",
+    "Requires Postgres",
+    "Index maintenance overhead"
+  ],
+  "alternatives": [
+    {
+      "name": "Qdrant",
+      "comparison": "Dedicated vector DB, faster"
+    },
+    {
+      "name": "Pinecone",
+      "comparison": "Managed vector DB, faster"
+    }
+  ],
+  "departments_using": [],
+  "tags": [
+    "postgres",
+    "vector-database",
+    "rag",
+    "embeddings",
+    "pgvector",
+    "similarity-search"
+  ],
+  "discovery_date": "2025-11-13",
+  "discovery_source": "Video_005",
+  "status": "active",
+  "video_source": {
+    "video_id": "Video_005",
+    "video_title": "My Agentic Engineering Tech Stack",
+    "creator": "Cole",
+    "timestamp": "13:40-14:23"
+  }
+}

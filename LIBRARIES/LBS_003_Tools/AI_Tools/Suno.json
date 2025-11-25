@@ -1,0 +1,79 @@
+{
+  "entity_type": "LIBRARIES",
+  "sub_entity": "Tool",
+  "tool_id": "TOOL-AI-060",
+  "name": "Suno",
+  "vendor": "Suno AI",
+  "category": "AI/Audio Generation",
+  "purpose": "AI music generation and composition",
+  "description": "AI-powered music generation platform that creates original music compositions from text prompts. Used for creating background music, soundtracks, and original compositions for video content.",
+  "skill_level_required": "Beginner",
+  "cost_structure": "Freemium (Free tier available, paid plans available)",
+  "platform_compatibility": [
+    "Web",
+    "API"
+  ],
+  "integration_capabilities": [
+    "Text-to-music generation",
+    "Music composition",
+    "Audio export",
+    "API access"
+  ],
+  "documentation_url": "https://sunoai-music.com/",
+  "actual_remote_helpers_usage": {
+    "primary_use": "AI Music Generation for Video Content",
+    "users": [
+      "Video Editors",
+      "Content Creators"
+    ],
+    "use_cases": [
+      "generate background music",
+      "create soundtracks",
+      "compose original music",
+      "produce video music"
+    ],
+    "workflows": []
+  },
+  "strengths": [
+    "Fast music generation",
+    "Original compositions",
+    "Easy to use",
+    "Multiple music styles"
+  ],
+  "limitations": [
+    "May require refinement",
+    "Limited control over specific elements",
+    "Quality varies by prompt"
+  ],
+  "departments_using": ["Video"],
+  "tags": [
+    "ai",
+    "music-generation",
+    "audio",
+    "composition",
+    "soundtrack"
+  ],
+  "discovery_date": "2025-11-15",
+  "discovery_source": "finance_data",
+  "status": "active",
+  "finance_data": {
+    "subscription_status": "paid",
+    "total_accounts": 1,
+    "paid_accounts": 1,
+    "unpaid_accounts": 0,
+    "latest_valid_until": "2025-11-29",
+    "accounts": [
+      {
+        "email": "admin@rh-s.com",
+        "status": "paid",
+        "paid_date": "2025-10-29",
+        "valid_until": "2025-11-29",
+        "department": "videographers"
+      }
+    ],
+    "departments_using": [
+      "videographers"
+    ]
+  }
+}
+

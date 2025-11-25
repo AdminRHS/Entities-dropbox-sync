@@ -1,0 +1,42 @@
+{
+  "step_template_id": "Step-Template-004",
+  "step_template_name": "Edit Video Interview Footage",
+  "metadata": {
+    "status": "Active"
+  },
+  "parent_task": {
+    "task_id": "TASK-TEMPLATE-HR-003",
+    "task_name": "Conduct Video Interview with Candidate"
+  },
+  "step_details": {
+    "step_number": 1,
+    "order": 1,
+    "action": "edit",
+    "detail": "Cut and refine the raw interview recording, balance audio, apply intros/outros, and export the final MP4 in the approved format",
+    "expected_duration": 180
+  },
+  "execution": {
+    "tool_used": "Adobe Premiere Pro / CapCut / Descript",
+    "inputs": [
+      "Raw interview recording (Google Meet / OBS)",
+      "Interview brief with key talking points",
+      "Timestamp notes from recruiter"
+    ],
+    "outputs": [
+      "Edited MP4 ready for distribution",
+      "Edit log with major adjustments"
+    ],
+    "success_criteria": "Final interview cut exported with clean audio, branded intro/outro, and no rendering errors"
+  },
+  "relationships": {
+    "dependencies": [],
+    "next_steps": [
+      "STEP-HR-003-02"
+    ],
+    "parallel_steps": []
+  },
+  "source_tracking": {
+    "source_file": "AI Nov25/Niko AI/Employees/units/video_editing.json",
+    "extraction_date": "2025-11-07"
+  }
+}

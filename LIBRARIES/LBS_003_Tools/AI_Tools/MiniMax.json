@@ -1,0 +1,55 @@
+{
+  "entity_type": "LIBRARIES",
+  "sub_entity": "Tool",
+  "tool_id": "TOOL-AI-052",
+  "name": "MiniMax",
+  "vendor": "MiniMax",
+  "category": "AI/LLM Services",
+  "purpose": "AI chatbot and agent platform designed to minimize effort and maximize intelligence",
+  "description": "AI chatbot and agent platform offering conversational AI capabilities. Designed to assist users with various tasks through intelligent automation and conversation.",
+  "skill_level_required": "Beginner",
+  "cost_structure": "TBD",
+  "platform_compatibility": [
+    "Web",
+    "API"
+  ],
+  "integration_capabilities": [
+    "API access",
+    "Conversational interface",
+    "Task automation"
+  ],
+  "documentation_url": "https://chat.minimax.io/",
+  "actual_remote_helpers_usage": {
+    "primary_use": "AI Chatbot and Agent Platform",
+    "users": [],
+    "use_cases": [
+      "build conversational ai",
+      "automate tasks",
+      "provide ai assistance",
+      "generate content"
+    ],
+    "workflows": []
+  },
+  "strengths": [
+    "Conversational interface",
+    "Task automation",
+    "Intelligent assistance",
+    "Easy to use"
+  ],
+  "limitations": [
+    "Limited information available",
+    "Pricing not readily available",
+    "Newer platform"
+  ],
+  "departments_using": [],
+  "tags": [
+    "chatbot",
+    "llm",
+    "ai-agent",
+    "conversational-ai",
+    "task-automation"
+  ],
+  "discovery_date": "2025-01-27",
+  "discovery_source": "user_provided",
+  "status": "discovered_needs_review"
+}

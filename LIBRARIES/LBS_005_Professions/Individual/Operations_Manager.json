@@ -1,0 +1,82 @@
+{
+  "entity_type": "LIBRARIES",
+  "sub_entity": "Profession",
+  "profession_name": "operations manager",
+  "department": "managers",
+  "description": "Manager focused on process optimization, workflow automation, and operational efficiency using AI-powered tools",
+  "created": "2025-11-12",
+  "updated": "2025-11-12",
+  "skills": [
+    "SKL-073",
+    "SKL-074"
+  ],
+  "skill_details": {
+    "SKL-073": {
+      "skill_phrase": "configured stacked connector workflows",
+      "proficiency_level": "advanced",
+      "frequency": "monthly"
+    },
+    "SKL-074": {
+      "skill_phrase": "extracted meeting insights via Claude",
+      "proficiency_level": "beginner",
+      "frequency": "daily"
+    }
+  },
+  "tools": [
+    "TOOL-AI-030",
+    "TOOL-INT-001",
+    "TOOL-INT-002",
+    "TOOL-INT-003"
+  ],
+  "tool_details": {
+    "TOOL-AI-030": "Claude Desktop App - Automation platform (daily use)",
+    "TOOL-INT-001": "Gmail MCP Connector - Email automation (daily use)",
+    "TOOL-INT-002": "Google Calendar MCP Connector - Calendar automation (daily use)",
+    "TOOL-INT-003": "CRM MCP Connector - CRM integration (daily use)"
+  },
+  "workflows": [
+    "WF-AI-005"
+  ],
+  "workflow_details": {
+    "WF-AI-005": "Stacked Connector Post-Meeting Automation"
+  },
+  "objects": [
+    "OBJ-AI-005",
+    "OBJ-AI-006",
+    "OBJ-AI-007",
+    "OBJ-AI-008",
+    "OBJ-AI-009"
+  ],
+  "object_details": {
+    "OBJ-AI-005": "Meeting Transcript",
+    "OBJ-AI-006": "Calendar Event",
+    "OBJ-AI-007": "Email Draft",
+    "OBJ-AI-008": "CRM Record",
+    "OBJ-AI-009": "Stacked Connector Workflow"
+  },
+  "actions": [
+    "configure",
+    "extract",
+    "automate",
+    "update"
+  ],
+  "typical_tasks": [
+    "Setup post-meeting automation (Meeting → Calendar → Gmail → CRM)",
+    "Configure stacked connector workflow (15 hours/week saved)",
+    "Design multi-app automation sequence",
+    "Extract action items from meeting transcript",
+    "Identify client wins and update CRM automatically",
+    "Generate meeting summary and next steps"
+  ],
+  "performance_metrics": {
+    "time_savings": "15+ hours per week",
+    "automation_execution_time": "1-4 minutes",
+    "setup_time": "20-30 minutes per workflow",
+    "success_rate": "85%+"
+  },
+  "automation_value": {
+    "connector_stack": "Calendar → Gmail → CRM (3 apps, 1 workflow)",
+    "unique_capability": "Stacked connectors enable complex multi-app workflows"
+  },
+  "source": "Video_008_MCP_Connector_Tutorial"
+}

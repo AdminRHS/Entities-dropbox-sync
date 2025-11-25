@@ -1,0 +1,28 @@
+{
+  "entity_type": "TASK_MANAGERS",
+  "sub_entity": "Step_Template",
+  "step_id": "VIDEO-VIDEO-001-03",
+  "step_number": 3,
+  "parent_task": "TASK-TEMPLATE-VIDEO-001",
+  "task_name": "Create Multi-Scene Product Commercial",
+  "name": "Navigate to Video section in OpenArt",
+  "action": "navigate",
+  "tool": "TOOL-AI-052 (OpenArt)",
+  "responsibility": "Product Marketer",
+  "placement": "OpenArt platform",
+  "duration": "1 minute",
+  "dependencies": [2],
+  "inputs": [
+    "OpenArt account logged in"
+  ],
+  "outputs": [
+    "Video generation interface loaded"
+  ],
+  "success_criteria": "Google Veo 3.1 model available",
+  "implementation_notes": "From the OpenArt platform, navigate from the Image section to the Video section to access video generation capabilities.",
+  "tags": ["navigation", "openart", "platform-workflow"],
+  "version": "1.0",
+  "created": "2025-11-15",
+  "last_updated": "2025-11-15",
+  "source": "Video_012"
+}

@@ -1,0 +1,63 @@
+{
+  "task_id": "TASK-NMP-001",
+  "task_name": "Create Root Folder and Main Folder Structure",
+  "project_id": "PROJ-AI-NMP-001",
+  "milestone_id": "MIL-NMP-001",
+  "status": "In Progress",
+  "priority": "High",
+  "description": "Create the root MAIN_PROMPT_v5_Modular folder and all 6 subfolders (5 main folders + scripts folder) to establish the foundation for the modular prompt system.",
+  "assignee_executor": "Claude",
+  "assignee_controller": "ALX",
+  "created_date": "2025-11-15",
+  "start_date": "2025-11-15",
+  "due_date": "2025-11-17",
+  "completed_date": null,
+  "estimated_duration": "30 minutes",
+  "actual_duration": null,
+  "step_instances": [
+    "STEP-NMP-001-01",
+    "STEP-NMP-001-02",
+    "STEP-NMP-001-03"
+  ],
+  "deliverables": [
+    "Root folder: MAIN_PROMPT_v5_Modular/",
+    "00_Core/ folder",
+    "01_Library_Integration/ folder",
+    "02_Output_Templates/ folder",
+    "03_Processing_Rules/ folder",
+    "04_Usage/ folder",
+    "scripts/ folder"
+  ],
+  "acceptance_criteria": [
+    {
+      "criteria": "Root folder exists at correct path",
+      "verified": false
+    },
+    {
+      "criteria": "All 6 subfolders created",
+      "verified": false
+    },
+    {
+      "criteria": "Folder naming follows conventions (00_ prefix for main folders)",
+      "verified": false
+    },
+    {
+      "criteria": "Folders are empty and ready for content",
+      "verified": false
+    }
+  ],
+  "progress_percentage": 0,
+  "notes": "This is the first task of MIL-001. Foundation task for entire v5 modular system.",
+  "related_tasks": [
+    "TASK-NMP-002",
+    "TASK-NMP-003",
+    "TASK-NMP-004"
+  ],
+  "tags": [
+    "setup",
+    "infrastructure",
+    "folder-structure"
+  ],
+  "last_updated": "2025-11-15",
+  "version": "1.0"
+}

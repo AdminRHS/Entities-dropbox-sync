@@ -1,0 +1,187 @@
+{
+  "entity_type": "TASK_MANAGERS",
+  "sub_entity": "Task_Template",
+  "template_id": "Task-Template-059",
+  "version": "1.0",
+  "created_date": "2025-11-17",
+  "last_updated": "2025-11-17",
+  "metadata": {
+    "name": "Install MCP Server in VS Code Extensions",
+    "description": "Install a Model Context Protocol (MCP) server to extend GitHub Copilot Agent Mode with new tools for external service integration",
+    "action": "Install",
+    "object": "MCP Server",
+    "context": "VS Code Extensions for Agent Mode enhancement",
+    "department": "DEV",
+    "complexity": "Low",
+    "estimated_duration": "2-3 minutes",
+    "skill_level_required": "Beginner",
+    "tools_required": [
+      "TOOL-111 (VS Code)",
+      "TOOL-110 (GitHub Copilot)",
+      "Web Browser"
+    ],
+    "prerequisites": [
+      "VS Code installed",
+      "GitHub Copilot extension installed",
+      "Internet connection"
+    ]
+  },
+  "workflow": {
+    "phase": "setup",
+    "workflow_id": "WF-DEV-005",
+    "project_template": "N/A (standalone task)",
+    "dependencies": [],
+    "outputs": [
+      "MCP server installed and visible in Extensions list",
+      "Server status showing 'Running'",
+      "External service authenticated",
+      "New tools available in Copilot Agent Mode tool selector",
+      "mcp.json configuration file created (workspace or user-level)"
+    ]
+  },
+  "steps": [
+    {
+      "step_number": 1,
+      "step_id": "STEP-DEV-059-01",
+      "step_name": "Navigate to Extensions Tab",
+      "description": "Open the Extensions panel in VS Code by clicking the Extensions icon in the left sidebar (four squares icon)",
+      "estimated_time": "5 seconds",
+      "tools": ["TOOL-111"],
+      "output": "Extensions panel open and active"
+    },
+    {
+      "step_number": 2,
+      "step_id": "STEP-DEV-059-02",
+      "step_name": "Select MCP Servers Section",
+      "description": "Locate and click on the 'MCP SERVERS' section in the Extensions panel",
+      "estimated_time": "10 seconds",
+      "tools": ["TOOL-111"],
+      "output": "MCP Servers section expanded, showing installed servers or 'Browse' link"
+    },
+    {
+      "step_number": 3,
+      "step_id": "STEP-DEV-059-03",
+      "step_name": "Browse MCP Marketplace",
+      "description": "Click the link to browse available MCP servers on the VS Code MCP marketplace website",
+      "estimated_time": "5 seconds",
+      "tools": ["TOOL-111", "Web Browser"],
+      "output": "VS Code MCP marketplace page loaded in web browser"
+    },
+    {
+      "step_number": 4,
+      "step_id": "STEP-DEV-059-04",
+      "step_name": "Select MCP Server",
+      "description": "Choose desired MCP server from marketplace (e.g., GitHub, Notion, Stripe, Zapier, etc.)",
+      "estimated_time": "30 seconds",
+      "tools": ["Web Browser"],
+      "output": "Server details page loaded with Install button visible",
+      "note": "Popular servers: GitHub (repo operations), Notion (docs), Stripe (payments), Zapier (automation)"
+    },
+    {
+      "step_number": 5,
+      "step_id": "STEP-DEV-059-05",
+      "step_name": "Click Install in Browser",
+      "description": "Click the 'Install' button on the server's marketplace page",
+      "estimated_time": "5 seconds",
+      "tools": ["Web Browser"],
+      "output": "Browser prompts to open link in VS Code"
+    },
+    {
+      "step_number": 6,
+      "step_id": "STEP-DEV-059-06",
+      "step_name": "Open in VS Code",
+      "description": "Allow the browser to open the installation link in VS Code application",
+      "estimated_time": "10 seconds",
+      "tools": ["TOOL-111"],
+      "output": "VS Code opens with MCP server extension page displayed"
+    },
+    {
+      "step_number": 7,
+      "step_id": "STEP-DEV-059-07",
+      "step_name": "Confirm Installation",
+      "description": "Click the 'Install' button within the VS Code extension page for the MCP Server",
+      "estimated_time": "10 seconds",
+      "tools": ["TOOL-111"],
+      "output": "Installation progress shown, then server appears in MCP SERVERS list"
+    },
+    {
+      "step_number": 8,
+      "step_id": "STEP-DEV-059-08",
+      "step_name": "Start MCP Server",
+      "description": "Right-click the newly installed server in the MCP SERVERS list and select 'Start Server'",
+      "estimated_time": "15 seconds",
+      "tools": ["TOOL-111"],
+      "output": "Server status changes to 'Running' or authentication prompt appears"
+    },
+    {
+      "step_number": 9,
+      "step_id": "STEP-DEV-059-09",
+      "step_name": "Authenticate External Service",
+      "description": "Complete the authentication flow for the external service (e.g., GitHub login, API key entry, OAuth flow)",
+      "estimated_time": "30-60 seconds",
+      "tools": ["Service-specific auth (GitHub, Notion, etc.)"],
+      "output": "Authentication successful, server status shows 'Connected' or 'Running'",
+      "note": "Authentication method varies by service (OAuth, API key, etc.)"
+    },
+    {
+      "step_number": 10,
+      "step_id": "STEP-DEV-059-10",
+      "step_name": "Verify Tools Available",
+      "description": "Open Copilot chat, check the Tools section to confirm new MCP server tools are visible and selectable",
+      "estimated_time": "15 seconds",
+      "tools": ["TOOL-110"],
+      "output": "New tools from MCP server visible in Copilot Agent Mode tool selector",
+      "success_criteria": "Can select and invoke MCP server tools in agent prompts"
+    }
+  ],
+  "quality_checklist": [
+    "MCP server appears in Extensions > MCP SERVERS list",
+    "Server status shows 'Running' or 'Connected'",
+    "Authentication completed successfully (no error messages)",
+    "New tools visible in Copilot Agent Mode tool selector",
+    "Can invoke MCP server tools in agent chat prompts",
+    "mcp.json file created in appropriate location (.vscode/ or user settings)",
+    "Server logs show no connection errors"
+  ],
+  "troubleshooting": {
+    "server_wont_start": "Check authentication credentials, restart VS Code, verify service status online",
+    "tools_not_visible": "Verify server status is 'Running', refresh Copilot chat, restart VS Code",
+    "authentication_fails": "Re-authenticate service, check API key validity, verify account permissions",
+    "installation_fails": "Check internet connection, verify VS Code version is up-to-date, try user-level install instead of workspace"
+  },
+  "configuration_notes": {
+    "workspace_vs_user": "Workspace: Install in project .vscode/mcp.json for project-specific servers. User: Install globally for all projects.",
+    "recommended_user_level": ["GitHub", "Notion", "Calendar"],
+    "recommended_workspace_level": ["Project-specific databases", "Custom APIs"],
+    "config_file_location_workspace": ".vscode/mcp.json",
+    "config_file_location_user": "VS Code user settings (varies by OS)"
+  },
+  "related_entities": {
+    "workflow": "WF-DEV-005 (Discover and Install an MCP Server)",
+    "tools": [
+      "TOOL-111 (VS Code)",
+      "TOOL-110 (GitHub Copilot)",
+      "TOOL-108 (MCP Servers)"
+    ],
+    "objects_created": [
+      "OBJ-AI-040 (mcp.json configuration file)",
+      "OBJ-AI-041 (MCP Server Tools)"
+    ],
+    "skills_required": [
+      "vs code navigation",
+      "mcp server installation",
+      "service authentication"
+    ],
+    "discovery_source": "Videos_015.md - VS Code AI Features",
+    "step_templates": [
+      "STEP-DEV-059-01 through STEP-DEV-059-10"
+    ]
+  },
+  "version_history": [
+    {
+      "version": "1.0",
+      "date": "2025-11-17",
+      "changes": "Initial template creation from Videos_015.md workflow extraction"
+    }
+  ]
+}

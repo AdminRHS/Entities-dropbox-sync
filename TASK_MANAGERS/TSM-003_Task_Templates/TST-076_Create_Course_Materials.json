@@ -1,0 +1,189 @@
+{
+  "entity_type": "TASK_MANAGERS",
+  "sub_entity": "Task_Template",
+  "template_id": "Task-Template-076",
+  "task_name": "Create Course Covers and Visual Materials with AI Tools",
+  "action": "Create",
+  "object": "Course Materials",
+  "context": "to design professional course covers, thumbnails, and marketing visuals for educational content using AI image generation",
+  "description": "Professional course visual materials creation using AI image generation tools (Midjourney, Leonardo AI, ChatGPT-5). Includes designing course covers, module thumbnails, social media banners, and promotional graphics. Follows brand guidelines and educational design best practices. Supports revenue-generating courses and marketing campaigns with high-quality visuals at scale.",
+  "department": "Design",
+  "profession": "Graphic Designer / Visual Designer",
+  "estimated_duration": "2.5 hours (30 min planning + 1.5 hours generation + 30 min refinement)",
+  "status": "Template",
+  "dependencies": [
+    "Course content outline or brief",
+    "Brand guidelines (colors, fonts, style)",
+    "AI tool subscriptions (Midjourney, Leonardo AI)",
+    "Design specifications (dimensions, formats)",
+    "Stakeholder approval workflow"
+  ],
+  "tools_required": [
+    "TOL-156 (Midjourney) for artistic image generation",
+    "TOL-224 (Leonardo AI) for controlled design generation",
+    "TOL-225 (ChatGPT-5) for prompt engineering and refinement",
+    "Figma or Photoshop for final adjustments",
+    "Canva for layout and text overlays"
+  ],
+  "success_criteria": [
+    "5+ course cover variations created",
+    "Thumbnails for all modules/sections generated",
+    "Brand guidelines followed (colors, typography, style)",
+    "High resolution (minimum 1920x1080 for covers)",
+    "Consistent visual style across all materials",
+    "Stakeholder approval received",
+    "Files delivered in required formats (PNG, JPG, SVG)",
+    "Source files archived for future modifications"
+  ],
+  "steps": [
+    {
+      "step_number": 1,
+      "name": "Review brief and gather design requirements",
+      "duration": "20 minutes",
+      "outputs": [
+        "Course topic and key themes identified",
+        "Target audience understood",
+        "Brand guidelines reviewed",
+        "Design specifications documented (size, format, style)"
+      ]
+    },
+    {
+      "step_number": 2,
+      "name": "Develop AI prompts and visual concepts",
+      "duration": "30 minutes",
+      "outputs": [
+        "AI prompts written (descriptive, style-specific)",
+        "Visual concepts outlined (3-5 directions)",
+        "Mood board created with reference images",
+        "Prompt variations prepared for iteration"
+      ]
+    },
+    {
+      "step_number": 3,
+      "name": "Generate initial designs with Midjourney",
+      "duration": "30 minutes",
+      "outputs": [
+        "20-30 initial image variations generated",
+        "Top 8-10 candidates selected",
+        "Upscaled versions created for selected images",
+        "Style consistency evaluated"
+      ]
+    },
+    {
+      "step_number": 4,
+      "name": "Refine with Leonardo AI for control",
+      "duration": "30 minutes",
+      "outputs": [
+        "Controlled variations with specific adjustments",
+        "Color palette refined to match brand",
+        "Composition optimized for readability",
+        "Final 5 cover options created"
+      ]
+    },
+    {
+      "step_number": 5,
+      "name": "Create thumbnails for course modules",
+      "duration": "20 minutes",
+      "outputs": [
+        "Module thumbnails generated (consistent style)",
+        "Icon variations created",
+        "Section headers designed",
+        "Complete thumbnail set delivered"
+      ]
+    },
+    {
+      "step_number": 6,
+      "name": "Add text overlays and branding",
+      "duration": "20 minutes",
+      "outputs": [
+        "Course titles added to covers",
+        "Brand logo/watermark applied",
+        "Typography adjusted for readability",
+        "Final compositions balanced"
+      ]
+    },
+    {
+      "step_number": 7,
+      "name": "Review, refine, and deliver",
+      "duration": "20 minutes",
+      "outputs": [
+        "Stakeholder feedback incorporated",
+        "Final adjustments made",
+        "Files exported in required formats",
+        "Source files archived with prompts"
+      ]
+    }
+  ],
+  "checklist": [
+    {
+      "item": "Course brief reviewed and requirements documented",
+      "required": true
+    },
+    {
+      "item": "AI prompts written and tested",
+      "required": true
+    },
+    {
+      "item": "5+ cover variations created",
+      "required": true
+    },
+    {
+      "item": "Module thumbnails generated (all modules)",
+      "required": true
+    },
+    {
+      "item": "Brand guidelines followed (colors, fonts, style)",
+      "required": true
+    },
+    {
+      "item": "High-resolution files (1920x1080 minimum)",
+      "required": true
+    },
+    {
+      "item": "Stakeholder approval received",
+      "required": true
+    },
+    {
+      "item": "Files delivered in required formats",
+      "required": true
+    },
+    {
+      "item": "Source files and prompts archived",
+      "required": false
+    }
+  ],
+  "roi_metrics": {
+    "time_savings": "5x faster than traditional design (2.5 hours vs 12+ hours)",
+    "cost_efficiency": "90% cheaper than hiring freelance designers ($20 AI credits vs $200+ designer fee)",
+    "scalability": "Can produce 5+ variations in same time as 1 manual design"
+  },
+  "related_tasks": [
+    "TST-077 (Organize Portfolio)",
+    "TST-078 (Prepare Client Interview Materials)"
+  ],
+  "related_workflows": [
+    "Course Development Workflow",
+    "Marketing Content Creation"
+  ],
+  "related_projects": [
+    "Educational Product Development",
+    "Marketing Campaign Q4 2025"
+  ],
+  "tags": [
+    "design",
+    "course-materials",
+    "ai-image-generation",
+    "midjourney",
+    "leonardo-ai",
+    "graphics",
+    "marketing",
+    "education"
+  ],
+  "version": "1.0",
+  "created": "2025-11-21",
+  "last_updated": "2025-11-21",
+  "responsibility_id": "RESP-DGN-XXX",
+  "responsibility_name": "create course covers, design course materials, generate thumbnails, create carousels",
+  "_original_action": "Create",
+  "_original_object": "Course Materials"
+}

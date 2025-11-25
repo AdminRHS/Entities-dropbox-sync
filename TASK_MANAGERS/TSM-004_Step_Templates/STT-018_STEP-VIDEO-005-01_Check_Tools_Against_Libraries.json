@@ -1,0 +1,36 @@
+{
+  "step_template_id": "Step-Template-018",
+  "step_template_name": "Check Tools Against Existing LIBRARIES/Tools",
+  "metadata": {
+    "status": "Active"
+  },
+  "parent_task": {
+    "task_id": "TASK-TEMPLATE-VIDEO-005",
+    "task_name": "Validate Tools Against Existing Libraries"
+  },
+  "step_details": {
+    "step_number": 1,
+    "order": 1,
+    "action": "check",
+    "detail": "For each tool in extraction, search LIBRARIES/Tools/ by category to see if JSON file exists",
+    "expected_duration": 2
+  },
+  "execution": {
+    "tool_used": "File system search, grep",
+    "inputs": [
+      "Tools list from Section 10",
+      "ENTITIES/LIBRARIES/Tools/ directory"
+    ],
+    "outputs": [
+      "List categorized: NEW tools vs EXISTING tools"
+    ],
+    "success_criteria": "Every tool classified as either NEW (no JSON) or EXISTING (JSON file found)"
+  },
+  "relationships": {
+    "dependencies": [],
+    "next_steps": [
+      "STEP-VIDEO-005-02"
+    ],
+    "parallel_steps": []
+  }
+}

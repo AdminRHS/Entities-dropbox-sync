@@ -1,0 +1,229 @@
+workflow_name: "Pinterest Traffic Generation Workflow"
+workflow_type: "Cyclic"
+workflow_id: "WF-DES-004"
+department: "DESIGN"
+priority: "Medium"
+description: "Long-term SEO workflow for creating evergreen design pins to drive traffic to portfolio and generate passive client leads"
+estimated_duration: "45-60 minutes per pin"
+frequency: "3-5 pins per week"
+
+steps:
+  - step_number: 1
+    name: "Create Pin-Optimized Graphics"
+    tool: "Canva, Photoshop, or Figma"
+    responsibility: "Create pin-optimized graphics"
+    placement: "Design software"
+    duration: "20-30 minutes"
+    inputs:
+      - "Design tips or tutorials"
+      - "Infographics and checklists"
+      - "Portfolio work showcase"
+    outputs:
+      - "Vertical pin image (1000×1500px ideal)"
+    success_criteria: "Eye-catching, text-overlaid, vertical format"
+    pin_specs:
+      - "Dimensions: 1000×1500px (2:3 ratio) - vertical format CRITICAL"
+      - "File format: PNG or JPG"
+      - "Text overlay: Large, readable title on image"
+      - "Brand watermark: Subtle logo or URL"
+      - "Colors: Bright, high-contrast for feed visibility"
+
+  - step_number: 2
+    name: "Write SEO-Optimized Pin Description"
+    tool: "Text editor"
+    responsibility: "Write SEO-optimized description"
+    placement: "Pinterest pin creation"
+    duration: "10 minutes"
+    inputs:
+      - "Target keywords (design tips, UI design, etc.)"
+      - "Pin content summary"
+      - "Link to portfolio or blog post"
+    outputs:
+      - "200-300 character description with keywords"
+    success_criteria: "Keywords in first sentence, clear value proposition"
+    seo_elements:
+      - "Title: Keyword-rich (e.g., 'UI Design Checklist for Web Apps')"
+      - "Description: Include 3-5 keywords naturally"
+      - "Destination URL: Portfolio page or blog post"
+      - "Board: Categorized correctly"
+
+  - step_number: 3
+    name: "Upload Pin to Pinterest"
+    tool: "Pinterest"
+    responsibility: "Upload pin to Pinterest"
+    placement: "Pinterest.com or app"
+    duration: "5 minutes"
+    inputs:
+      - "Pin image (1000×1500px)"
+      - "Pin title and description"
+      - "Destination URL (portfolio or blog)"
+      - "Target board"
+    outputs:
+      - "Published pin"
+    success_criteria: "Pin published with proper metadata and link"
+    best_practices:
+      - "Upload during optimal times (8-11pm EST for US audience)"
+      - "Add to most relevant board first"
+      - "Include alt text for accessibility and SEO"
+
+  - step_number: 4
+    name: "Create and Organize Boards"
+    tool: "Pinterest"
+    responsibility: "Create and organize boards"
+    placement: "Pinterest boards"
+    duration: "15 minutes weekly"
+    inputs:
+      - "Content themes (UI Design, Color Theory, Typography, etc.)"
+      - "Curated pins from other creators"
+    outputs:
+      - "Organized boards (10-20 boards recommended)"
+    success_criteria: "Clear board names, keyword-optimized descriptions"
+    board_strategy:
+      - "Board names: Keyword-rich (e.g., 'UI UX Design Inspiration')"
+      - "Board descriptions: 200-300 characters with keywords"
+      - "Board covers: Branded, cohesive aesthetic"
+      - "Pin frequency: Add 5-10 pins per board weekly"
+      - "Mix: 80% curated content, 20% your own pins"
+
+  - step_number: 5
+    name: "Curate Others' Content"
+    tool: "Pinterest"
+    responsibility: "Curate others' content"
+    placement: "Pinterest feed and search"
+    duration: "15-20 minutes daily"
+    inputs:
+      - "Search for trending design content"
+      - "Follow relevant designers and brands"
+    outputs:
+      - "10-15 curated pins added to boards daily"
+    success_criteria: "Value-adding curation builds board authority"
+    curation_best_practices:
+      - "Pin high-quality content from others (builds board credibility)"
+      - "Add your own pins strategically (don't spam)"
+      - "Repin popular content (Pinterest rewards sharing)"
+      - "Schedule pins throughout day (consistency matters)"
+
+  - step_number: 6
+    name: "Optimize for Pinterest SEO"
+    tool: "Pinterest analytics and keyword research"
+    responsibility: "Optimize for Pinterest SEO"
+    placement: "Pinterest and Google Trends"
+    duration: "30 minutes monthly"
+    inputs:
+      - "Pinterest search bar suggestions"
+      - "Pinterest Trends data"
+      - "Competitor board analysis"
+    outputs:
+      - "Keyword list for titles and descriptions"
+      - "Trending topics to create pins about"
+    success_criteria: "Data-driven keyword targeting"
+    seo_tactics:
+      - "Use Pinterest search bar autocomplete for keywords"
+      - "Check Pinterest Trends for seasonal topics"
+      - "Include keywords in: pin title, description, board name, board description"
+      - "Long-tail keywords (e.g., 'minimalist web design for startups')"
+      - "Update old pins with better keywords"
+
+  - step_number: 7
+    name: "Analyze Performance and Iterate"
+    tool: "Pinterest Analytics"
+    responsibility: "Analyze performance"
+    placement: "Pinterest Analytics dashboard"
+    duration: "20 minutes weekly"
+    inputs:
+      - "Pin impressions, saves, clicks"
+      - "Top-performing pins and boards"
+      - "Audience demographics"
+    outputs:
+      - "Performance report"
+      - "Insights for content optimization"
+    success_criteria: "Identify top performers, replicate success"
+    metrics_to_track:
+      - "Impressions (reach)"
+      - "Saves (virality signal)"
+      - "Outbound clicks (traffic to portfolio)"
+      - "Engagement rate"
+      - "Top pins (replicate format/topic)"
+      - "Audience demographics (target better)"
+
+content_types:
+  infographics:
+    purpose: "Educational, highly shareable"
+    examples:
+      - "Design principles checklist"
+      - "Color psychology guide"
+      - "Typography pairing rules"
+    performance: "High saves, long-term traffic"
+
+  portfolio_showcases:
+    purpose: "Drive traffic to portfolio"
+    examples:
+      - "Before/after design transformations"
+      - "Client project highlights"
+      - "UI component libraries"
+    performance: "Moderate saves, high clicks"
+
+  tutorials:
+    purpose: "Authority building, evergreen traffic"
+    examples:
+      - "How to design accessible UI"
+      - "Figma shortcuts guide"
+      - "Design workflow optimization"
+    performance: "High engagement, long-term value"
+
+pinterest_algorithm_factors:
+  - "Pin quality: High-quality images perform better"
+  - "Freshness: New pins get temporary boost"
+  - "Engagement: Saves signal value (more important than likes)"
+  - "Click-through rate: Links that get clicks rank higher"
+  - "Domain quality: Portfolio/blog domain authority matters"
+  - "Consistency: Regular pinning builds authority"
+  - "Description keywords: SEO-optimized descriptions surface in search"
+
+metrics:
+  - "Monthly impressions (100K+ is strong for growing account)"
+  - "Saves per pin (50+ saves is excellent)"
+  - "Outbound clicks (traffic to portfolio - aim for 500+/month)"
+  - "Engagement rate (saves + clicks / impressions)"
+  - "Follower growth (secondary metric - reach matters more)"
+  - "Top pins (identify patterns for replication)"
+
+dependencies:
+  - "Pinterest business account"
+  - "Portfolio website or blog to drive traffic to"
+  - "Design software for creating pins (Canva, Photoshop)"
+  - "Content library (tips, tutorials, portfolio work)"
+
+risks:
+  - "Wrong aspect ratio (horizontal pins perform poorly)"
+  - "No text overlay (pins blend into feed)"
+  - "Spam behavior (too many pins too fast)"
+  - "No SEO optimization (invisible in search)"
+  - "Broken links (damages domain reputation)"
+
+best_practices:
+  - "Vertical format ALWAYS (1000×1500px ideal)"
+  - "Bold text overlay with clear value proposition"
+  - "Consistent branding (color palette, fonts, logo)"
+  - "Keyword-rich titles and descriptions"
+  - "Link to specific pages (not just homepage)"
+  - "Pin consistently (3-5 new pins per week minimum)"
+  - "Curate 80% others, 20% your content"
+  - "Evergreen content (timeless topics perform long-term)"
+  - "Analyze and double-down on top performers"
+  - "Use Pinterest scheduling tools (Tailwind, Later)"
+
+long_term_strategy:
+  months_1_3: "Build board authority with curated content + 3-5 pins/week"
+  months_4_6: "Increase original pins to 5-10/week, optimize for keywords"
+  months_6_12: "Leverage Pinterest as passive traffic source, focus on evergreen content"
+  year_2_plus: "Pinterest becomes steady lead generation source with minimal maintenance"
+
+related_workflows:
+  - "WF-DES-001: Dribbble Shot Publishing Workflow"
+  - "WF-DES-003: Instagram Designer Portfolio Workflow"
+  - "WF-SMM-001: Cross-Platform Content Distribution Workflow"
+
+created: "2025-11-14"
+updated: "2025-11-14"
+source: "SMM_Research_Document_2_Content_Strategy_Multi_Platform"

@@ -1,0 +1,308 @@
+{
+  "entity_type": "TASK_MANAGERS",
+  "sub_entity": "Task_Template",
+  "template_id": "Task-Template-018",
+  "task_name": "Extract Leads from LinkedIn Sales Navigator",
+  "action": "Extract",
+  "object": "LinkedIn Leads",
+  "context": "via Sales Navigator + Vayne scraper",
+  "description": "Extract 1,000-2,500 LinkedIn Sales Navigator profiles and enrich with emails (80-100% success rate - highest enrichment method)",
+  "department": "LG",
+  "profession": "Lead Generator",
+  "priority": "Critical",
+  "estimated_duration": "20-30 minutes",
+  "status": "Active",
+  "complexity": "Medium",
+  "automation_potential": "Very High (>80%)",
+  "success_rate": "80-100% enrichment (highest method)",
+  "cost_per_lead": "$0.10-0.15 all-in",
+  "dependencies": [
+    "LinkedIn Sales Navigator subscription active",
+    "LI_AT cookie extracted from browser",
+    "Vayne scraper tool configured",
+    "Anymailfinder account with credits"
+  ],
+  "tools_required": [
+    "TOOL-BUS-002 (LinkedIn Sales Navigator)",
+    "TOOL-AUTO-004 (Vayne)",
+    "TOOL-DATA-007 (Anymailfinder)"
+  ],
+  "skills_required": [
+    "SKL-064 (executed LinkedIn lead extraction via Vayne)",
+    "SKL-061 (enriched emails via Anymailfinder)"
+  ],
+  "objects_used": [
+    "OBJ-LG-001 (Lead List)",
+    "OBJ-LG-004 (LinkedIn Profile)",
+    "OBJ-LG-003 (Decision-Maker Email)",
+    "OBJ-LG-005 (Enriched Contact)"
+  ],
+  "workflow_reference": "WF-LG-003",
+  "success_criteria": [
+    "1,000-2,500 LinkedIn profiles scraped successfully",
+    "80-100% enrichment success rate",
+    "All profiles include: Name, Title, Company, Email",
+    "Exported to CSV with full contact details",
+    "Logged in campaign tracking system"
+  ],
+  "responsibilities": {
+    "responsible": "Lead Generator",
+    "accountable": "Lead Generation Manager",
+    "consulted": [
+      "Sales Team for target criteria"
+    ],
+    "informed": [
+      "SDR Team",
+      "Sales Manager"
+    ]
+  },
+  "steps": [
+    {
+      "step_number": 1,
+      "name": "Create targeted search in LinkedIn Sales Navigator",
+      "action": "create",
+      "tool": "TOOL-BUS-002 (LinkedIn Sales Navigator)",
+      "responsibility": "Lead Generator",
+      "placement": "LinkedIn Sales Navigator - Search",
+      "duration": "5 minutes",
+      "dependencies": [],
+      "inputs": [
+        "Target criteria: job titles, industries, company size, location"
+      ],
+      "outputs": [
+        "Sales Navigator search URL with filters applied"
+      ],
+      "success_criteria": "Search returns 1,000+ results matching target criteria",
+      "responsibility_id": "RESP-LG-060",
+      "responsibility_name": "create targeted search",
+      "_original_action": "create"
+    },
+    {
+      "step_number": 2,
+      "name": "Extract LI_AT cookie from browser",
+      "action": "extract",
+      "tool": "Browser DevTools",
+      "responsibility": "Lead Generator",
+      "placement": "Browser - Application/Cookies",
+      "duration": "2 minutes",
+      "dependencies": [
+        "Logged into LinkedIn in browser"
+      ],
+      "inputs": [
+        "Active LinkedIn session"
+      ],
+      "outputs": [
+        "LI_AT cookie value"
+      ],
+      "success_criteria": "Cookie value copied successfully",
+      "responsibility_id": "RESP-LG-061",
+      "responsibility_name": "extract extract li_at cookie",
+      "_original_action": "extract"
+    },
+    {
+      "step_number": 3,
+      "name": "Configure Vayne scraper with search URL and cookie",
+      "action": "configure",
+      "tool": "TOOL-AUTO-004 (Vayne)",
+      "responsibility": "Lead Generator",
+      "placement": "Vayne platform - Configuration",
+      "duration": "3 minutes",
+      "dependencies": [
+        "Step 1",
+        "Step 2"
+      ],
+      "inputs": [
+        "Sales Navigator search URL",
+        "LI_AT cookie"
+      ],
+      "outputs": [
+        "Vayne scraper configured"
+      ],
+      "success_criteria": "URL and cookie validated, ready to scrape",
+      "responsibility_id": "RESP-LG-062",
+      "responsibility_name": "configure vayne scraper",
+      "_original_action": "configure"
+    },
+    {
+      "step_number": 4,
+      "name": "Run Vayne scraper to extract profiles",
+      "action": "scrape",
+      "tool": "TOOL-AUTO-004 (Vayne)",
+      "responsibility": "Lead Generator",
+      "placement": "Vayne platform - Execution",
+      "duration": "15-20 minutes (automated)",
+      "dependencies": [
+        "Step 3"
+      ],
+      "inputs": [
+        "Configured scraper"
+      ],
+      "outputs": [
+        "CSV file with profiles: name, title, company, LinkedIn URL"
+      ],
+      "success_criteria": "1,000-2,500 profiles scraped successfully",
+      "responsibility_id": "RESP-LG-063",
+      "responsibility_name": "scrape profiles",
+      "_original_action": "scrape"
+    },
+    {
+      "step_number": 5,
+      "name": "Import profiles to Anymailfinder for enrichment",
+      "action": "import",
+      "tool": "TOOL-DATA-007 (Anymailfinder)",
+      "responsibility": "Lead Generator",
+      "placement": "Anymailfinder - Upload",
+      "duration": "2 minutes",
+      "dependencies": [
+        "Step 4"
+      ],
+      "inputs": [
+        "CSV with names, titles, companies"
+      ],
+      "outputs": [
+        "Upload confirmation"
+      ],
+      "success_criteria": "All profiles uploaded for enrichment",
+      "responsibility_id": "RESP-LG-064",
+      "responsibility_name": "import profiles",
+      "_original_action": "import"
+    },
+    {
+      "step_number": 6,
+      "name": "Run email enrichment",
+      "action": "enrich",
+      "tool": "TOOL-DATA-007 (Anymailfinder)",
+      "responsibility": "Lead Generator",
+      "placement": "Anymailfinder - Processing",
+      "duration": "5-10 minutes (automated)",
+      "dependencies": [
+        "Step 5"
+      ],
+      "inputs": [
+        "Uploaded profiles"
+      ],
+      "outputs": [
+        "Enriched list with emails"
+      ],
+      "success_criteria": "80-100% enrichment success rate",
+      "responsibility_id": "RESP-LG-001",
+      "responsibility_name": "enrich emails",
+      "_original_action": "enrich"
+    },
+    {
+      "step_number": 7,
+      "name": "Export enriched lead list",
+      "action": "export",
+      "tool": "TOOL-DATA-007 (Anymailfinder)",
+      "responsibility": "Lead Generator",
+      "placement": "Anymailfinder - Export",
+      "duration": "1-2 minutes",
+      "dependencies": [
+        "Step 6"
+      ],
+      "inputs": [
+        "Enriched profiles"
+      ],
+      "outputs": [
+        "CSV: name, title, company, email, LinkedIn URL"
+      ],
+      "success_criteria": "All enriched contacts exported with full details",
+      "responsibility_id": "RESP-LG-004",
+      "responsibility_name": "export leads",
+      "_original_action": "export"
+    }
+  ],
+  "checklist": [
+    {
+      "item": "LinkedIn Sales Navigator subscription active",
+      "guide": "Required for advanced search and profile access",
+      "required": true
+    },
+    {
+      "item": "LI_AT cookie is current and valid",
+      "guide": "Cookie expires periodically, extract fresh cookie if scraper fails",
+      "required": true
+    },
+    {
+      "item": "Search criteria match ICP (Ideal Customer Profile)",
+      "guide": "Job titles, company size, industry filters aligned with target",
+      "required": true
+    },
+    {
+      "item": "Scrape volume stays under 2,500 per session",
+      "guide": "Avoid LinkedIn detection, rotate accounts if needed",
+      "required": true
+    },
+    {
+      "item": "80-100% enrichment rate achieved",
+      "guide": "Highest enrichment method - if below 80%, check profile quality",
+      "required": true
+    }
+  ],
+  "performance_metrics": {
+    "typical_volume": "1,000-2,500 profiles per scrape",
+    "success_rate": "80-100% enrichment",
+    "time_per_batch": "20-30 minutes",
+    "cost": "$0.10-0.15 all-in",
+    "enrichment_rank": "#1 (highest success rate)"
+  },
+  "best_practices": [
+    "Best enrichment method available (80-100% success)",
+    "Use targeted Sales Navigator searches for quality",
+    "Rotate LinkedIn accounts if scraping high volumes",
+    "Extract fresh LI_AT cookie if scraper fails",
+    "Best for B2B prospecting with precise targeting"
+  ],
+  "prerequisites": [
+    "LinkedIn Sales Navigator subscription ($99/month)",
+    "Vayne scraper account",
+    "Anymailfinder credits",
+    "Browser access to extract LI_AT cookie"
+  ],
+  "common_issues": [
+    {
+      "issue": "Scraper fails with authentication error",
+      "solution": "Extract fresh LI_AT cookie from browser, ensure logged into LinkedIn"
+    },
+    {
+      "issue": "Low scrape volume (<1,000)",
+      "solution": "Broaden Sales Navigator search criteria, check account restrictions"
+    },
+    {
+      "issue": "Enrichment rate below 80%",
+      "solution": "Check profile quality, ensure names/companies are accurate in scrape"
+    },
+    {
+      "issue": "LinkedIn account restricted",
+      "solution": "Pause scraping, rotate to backup account, reduce scrape frequency"
+    }
+  ],
+  "tags": [
+    "lead_generation",
+    "linkedin",
+    "sales_navigator",
+    "vayne",
+    "scraping",
+    "enrichment",
+    "b2b"
+  ],
+  "related_workflows": [
+    "WF-LG-003"
+  ],
+  "related_skills": [
+    "SKL-064",
+    "SKL-061"
+  ],
+  "related_professions": [
+    "Lead Generator",
+    "SDR"
+  ],
+  "version": "1.0",
+  "created": "2025-11-12",
+  "last_updated": "2025-11-12",
+  "source": "Video_006_Lead_Generation_Analysis",
+  "responsibility_id": "RESP-LG-059",
+  "responsibility_name": "extract leads",
+  "_original_action": "Extract",
+  "_original_object": "LinkedIn Leads"
+}

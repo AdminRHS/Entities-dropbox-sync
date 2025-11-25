@@ -1,0 +1,13 @@
+{
+  "template_name": "Education",
+  "description": "Education array - contains candidate's educational background",
+  "fields": {
+    "educations": {
+      "type": "array",
+      "item_type": "unknown",
+      "description": "Array of: educations",
+      "note": "This field contains an array of education objects. The structure may vary and should be validated against actual data."
+    }
+  }
+}
+

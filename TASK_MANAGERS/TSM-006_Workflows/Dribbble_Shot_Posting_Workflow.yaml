@@ -1,0 +1,120 @@
+workflow_name: "Dribbble Shot Posting"
+workflow_type: "Linear"
+workflow_id: "WF-SMM-005"
+department: "MARKETING"
+priority: "Medium"
+estimated_duration: "30-45 minutes per shot"
+status: "Active"
+
+description: |
+  Regularly post high-fidelity UI shots and design work to Dribbble for design community engagement.
+  Quick workflow for sharing design explorations, UI components, and creative work.
+
+steps:
+  - step_number: 1
+    name: "Prepare Design Shot"
+    tool: "Figma, Photoshop, Illustrator"
+    responsibility: "Prepare design shot"
+    placement: "Design workspace"
+    duration: "20-30 minutes"
+    dependencies: []
+    inputs:
+      - "High-fidelity UI component or design work"
+      - "Design project files"
+      - "Brand visual guidelines"
+    outputs:
+      - "Dribbble shot prepared (1600×1200px or 4:3 ratio)"
+      - "High-resolution export (JPEG or PNG)"
+      - "Animation prepared (if applicable)"
+    success_criteria: "Polished design shot that showcases best work"
+
+  - step_number: 2
+    name: "Write Shot Description"
+    tool: "Dribbble (text editor)"
+    responsibility: "Write shot description"
+    placement: "Dribbble upload interface"
+    duration: "5-10 minutes"
+    dependencies: ["Step 1"]
+    inputs:
+      - "Design context and objectives"
+      - "Tools used in creation"
+      - "Process notes"
+    outputs:
+      - "Brief process explanation (100-300 words)"
+      - "Tool credits and software used"
+      - "AI transparency note (if AI-assisted)"
+      - "Context about design decisions"
+    success_criteria: "Clear description that adds value beyond the visual"
+
+  - step_number: 3
+    name: "Post and Tag"
+    tool: "Dribbble"
+    responsibility: "Post and tag shot"
+    placement: "Dribbble platform"
+    duration: "5-10 minutes"
+    dependencies: ["Step 1", "Step 2"]
+    inputs:
+      - "Prepared shot and description"
+      - "Relevant design tags"
+      - "Project categories"
+    outputs:
+      - "Shot published on Dribbble"
+      - "Relevant tags applied (UI, Web Design, Mobile, etc.)"
+      - "Categories selected"
+      - "Engagement tracking initiated"
+    success_criteria: "Shot live with proper tags and engaging with community feedback"
+
+performance_metrics:
+  likes: "Community appreciation and engagement"
+  views: "Total shot impressions"
+  saves: "Bookmarks from other designers"
+  followers_gained: "New followers from shot"
+  comments: "Community feedback and discussion"
+  shares: "External sharing and visibility"
+
+posting_strategy:
+  frequency: "2-4 shots per week"
+  optimal_times: "Weekdays 9am-12pm EST (when designers are browsing)"
+  content_mix: "40% UI designs, 30% explorations, 20% icons/illustrations, 10% animations"
+  consistency: "Regular posting schedule for algorithm favor"
+
+content_quality_standards:
+  resolution: "1600×1200px (4:3 ratio) or 800×600px minimum"
+  file_size: "10MB max for static, 20MB for GIF animations"
+  format: "JPEG for photos, PNG for UI with transparency, GIF for animations"
+  visual_polish: "Pixel-perfect, professional presentation"
+  context: "Always show design in realistic mockups or contexts"
+
+best_practices:
+  - "Post consistently 2-4 times per week"
+  - "Engage with other designers' work daily"
+  - "Respond to comments within 24 hours"
+  - "Use 5-10 relevant tags per shot"
+  - "Show work-in-progress for authenticity"
+  - "Credit tools and collaborators"
+  - "If AI-assisted, emphasize human strategy and curation"
+  - "Join design challenges for visibility"
+
+community_engagement:
+  daily_activity: "Like and comment on 10-15 shots from other designers"
+  response_time: "Reply to comments within 24 hours"
+  networking: "Follow designers in similar niche"
+  collaboration: "Engage with design challenges and team shots"
+
+automation_opportunities:
+  - "Scheduled shot publishing"
+  - "Template-based descriptions"
+  - "Analytics tracking and reporting"
+  - "Cross-platform sharing (Instagram, Twitter)"
+
+tags:
+  - portfolio
+  - dribbble
+  - design
+  - ui_design
+  - community_engagement
+  - creative_showcase
+
+version: "1.0"
+created: "2025-11-13"
+last_updated: "2025-11-13"

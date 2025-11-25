@@ -1,0 +1,146 @@
+{
+  "entity_type": "LIBRARIES",
+  "sub_entity": "Profession",
+  "profession_name": "recruiter",
+  "full_title": "Recruiter",
+  "department": "HR",
+  "description": "HR professional specializing in sourcing, screening, and engaging job candidates through various channels including social media platforms, with focus on remote hiring and virtual interview coordination",
+  "created": "2025-11-13",
+  "updated": "2025-11-13",
+  "skills": [
+    "SKL-REC-001",
+    "SKL-REC-002",
+    "SKL-REC-003",
+    "SKL-REC-004",
+    "SKL-REC-005"
+  ],
+  "skill_details": {
+    "SKL-REC-001": {
+      "skill_phrase": "screened candidates via Instagram DMs",
+      "proficiency_level": "intermediate",
+      "frequency": "daily"
+    },
+    "SKL-REC-002": {
+      "skill_phrase": "assessed language proficiency through text communication",
+      "proficiency_level": "intermediate",
+      "frequency": "daily"
+    },
+    "SKL-REC-003": {
+      "skill_phrase": "coordinated virtual interviews across timezones",
+      "proficiency_level": "intermediate",
+      "frequency": "daily"
+    },
+    "SKL-REC-004": {
+      "skill_phrase": "managed multi-platform candidate communication (Instagram + Telegram)",
+      "proficiency_level": "intermediate",
+      "frequency": "daily"
+    },
+    "SKL-REC-005": {
+      "skill_phrase": "evaluated video business cards and CVs",
+      "proficiency_level": "beginner",
+      "frequency": "weekly"
+    }
+  },
+  "tools": [
+    "TOOL-SMM-001",
+    "TOOL-SMM-002"
+  ],
+  "tool_details": {
+    "TOOL-SMM-001": "Instagram - Primary candidate communication platform (daily use)",
+    "TOOL-SMM-002": "Telegram - Document sharing for CV/resume collection (daily use)"
+  },
+  "workflows": [
+    "WF-REC-001",
+    "WF-REC-002"
+  ],
+  "workflow_details": {
+    "WF-REC-001": "Communicate with Remote Candidates via Instagram DMs",
+    "WF-REC-002": "Screen Candidates via Instagram DMs"
+  },
+  "objects": [
+    "OBJ-SMM-001",
+    "OBJ-SMM-002",
+    "OBJ-SMM-003",
+    "OBJ-REC-001",
+    "OBJ-REC-002",
+    "OBJ-REC-003",
+    "OBJ-REC-004",
+    "OBJ-REC-005",
+    "OBJ-REC-006",
+    "OBJ-REC-007",
+    "OBJ-REC-008"
+  ],
+  "object_details": {
+    "OBJ-SMM-001": "Instagram DMs (Direct Messages)",
+    "OBJ-SMM-002": "Communications (dialogue records)",
+    "OBJ-SMM-003": "Video Business Cards",
+    "OBJ-REC-001": "Vacancies (job postings)",
+    "OBJ-REC-002": "Interviews (scheduled appointments)",
+    "OBJ-REC-003": "Job Requests (application inquiries)",
+    "OBJ-REC-004": "Job Applications (complete packages)",
+    "OBJ-REC-005": "Profiles (candidate profiles)",
+    "OBJ-REC-006": "CVs/Resumes",
+    "OBJ-REC-007": "Pre-Interview Instructions",
+    "OBJ-REC-008": "Interview Links"
+  },
+  "actions": [
+    "confirm",
+    "assess",
+    "screen",
+    "schedule",
+    "reschedule",
+    "request",
+    "inquire",
+    "follow-up",
+    "engage",
+    "coordinate",
+    "verify",
+    "reconfirm"
+  ],
+  "typical_tasks": [
+    "Screen 10-15 candidates per day via Instagram DMs",
+    "Assess language proficiency for remote roles",
+    "Schedule 3-5 virtual interviews per week",
+    "Collect CVs and video business cards from candidates",
+    "Maintain ongoing communication with 20-30 active candidates",
+    "Coordinate interview rescheduling as needed",
+    "Follow up with delayed candidates to reconfirm interest"
+  ],
+  "communication_templates": [
+    "TMPL-REC-001",
+    "TMPL-REC-002",
+    "TMPL-REC-003",
+    "TMPL-REC-004",
+    "TMPL-REC-005",
+    "TMPL-REC-006",
+    "TMPL-REC-007",
+    "TMPL-REC-008"
+  ],
+  "template_details": {
+    "TMPL-REC-001": "Initial Contact - Vacancy Confirmation",
+    "TMPL-REC-002": "Language Proficiency Inquiry",
+    "TMPL-REC-003": "CV/Profile Request",
+    "TMPL-REC-004": "Interview Scheduling",
+    "TMPL-REC-005": "Rescheduling Request Handling",
+    "TMPL-REC-006": "Pre-Interview Preparation",
+    "TMPL-REC-007": "Document Receipt Confirmation",
+    "TMPL-REC-008": "Post-Delay Follow-up"
+  },
+  "performance_metrics": {
+    "response_rate": "60-80% (Instagram DMs vs 20-30% email)",
+    "time_per_screening": "15-25 minutes per candidate",
+    "candidate_engagement": "High due to familiar platform",
+    "interview_scheduling_success": "70-85%",
+    "average_time_to_schedule": "2-4 days from first contact"
+  },
+  "best_practices": [
+    "Use Instagram DMs for initial screening to create comfortable first contact",
+    "Offer multiple document submission options (Instagram + Telegram)",
+    "Accept video business cards as CV alternative for lower barrier to entry",
+    "Use conversational scheduling rather than automated calendar links",
+    "Maintain all coordination via Instagram for consistency",
+    "Build in follow-up for delayed candidates",
+    "Respond within 24 hours to maintain candidate interest"
+  ],
+  "source": "SMM_Research_Document_1_Instagram_DM_Recruitment"
+}

@@ -1,0 +1,362 @@
+{
+  "entity_type": "LIBRARIES",
+  "sub_entity": "Objects",
+  "category": "AI_Automation",
+  "objects": [
+    {
+      "object_id": "OBJ-AI-001",
+      "name": "MCP Connector",
+      "category": "AI_Automation",
+      "description": "Model Context Protocol server that connects Claude AI to external applications",
+      "attributes": [
+        "connector_name",
+        "target_application",
+        "capabilities",
+        "authentication_method",
+        "deployment_type",
+        "generation_date",
+        "status",
+        "local_path",
+        "configuration_file"
+      ],
+      "common_actions": [
+        "Generate",
+        "Deploy",
+        "Configure",
+        "Test",
+        "Update",
+        "Enable",
+        "Disable"
+      ],
+      "storage_location": "~/.claude/mcp_connectors/",
+      "related_entities": [
+        "LIBRARIES/LBS_003_LBS_003_Tools/Claude_Desktop_App",
+        "LIBRARIES/LBS_003_LBS_003_Tools/MCP_Builder_Skill",
+        "TASK_MANAGERS/DEV-011"
+      ],
+      "file_format": "Python, JavaScript, JSON",
+      "example": "gmail_mcp_connector/",
+      "tags": ["mcp", "connector", "integration", "ai-automation"],
+      "typical_targets": [
+        "Gmail",
+        "Google Calendar",
+        "CRM (Airtable, HubSpot)",
+        "Custom applications"
+      ],
+      "generation_time": "30-60 seconds via mcp-builder",
+      "deployment_time": "5-10 minutes with Cursor assistance"
+    },
+    {
+      "object_id": "OBJ-AI-002",
+      "name": "Email Draft",
+      "category": "AI_Automation",
+      "description": "AI-generated email response or outreach message",
+      "attributes": [
+        "draft_id",
+        "recipient",
+        "subject",
+        "body",
+        "context",
+        "generation_date",
+        "status",
+        "review_status",
+        "send_status"
+      ],
+      "common_actions": [
+        "Generate",
+        "Review",
+        "Edit",
+        "Approve",
+        "Send",
+        "Delete"
+      ],
+      "storage_location": "Gmail/Drafts/",
+      "related_entities": [
+        "LIBRARIES/LBS_003_LBS_003_Tools/Gmail_MCP_Connector",
+        "LIBRARIES/LBS_003_LBS_003_Tools/Claude",
+        "TASK_MANAGERS/AI-018"
+      ],
+      "file_format": "Email (RFC 5322)",
+      "example": "Re: Partnership Inquiry - Response Draft",
+      "tags": ["email", "automation", "ai-generated", "communication"],
+      "time_savings": "30-60 minutes per day on email drafting"
+    },
+    {
+      "object_id": "OBJ-AI-003",
+      "name": "Calendar Event",
+      "category": "AI_Automation",
+      "description": "Scheduled meeting or appointment in Google Calendar",
+      "attributes": [
+        "event_id",
+        "title",
+        "start_time",
+        "end_time",
+        "attendees",
+        "location",
+        "description",
+        "status",
+        "recurrence"
+      ],
+      "common_actions": [
+        "Create",
+        "Read",
+        "Update",
+        "Delete",
+        "Get_Attendees"
+      ],
+      "storage_location": "Google Calendar",
+      "related_entities": [
+        "LIBRARIES/LBS_003_LBS_003_Tools/Google_Calendar_MCP_Connector",
+        "TASK_MANAGERS/DEV-013",
+        "TASK_MANAGERS/OPS-009"
+      ],
+      "file_format": "iCalendar (RFC 5545)",
+      "example": "Client Meeting - TechCorp Q1 Review",
+      "tags": ["calendar", "meeting", "scheduling", "automation"],
+      "mcp_capabilities": ["read", "write", "delete", "get_attendees"]
+    },
+    {
+      "object_id": "OBJ-AI-004",
+      "name": "Meeting Transcript",
+      "category": "AI_Automation",
+      "description": "Text transcription of a meeting used for AI analysis and automation",
+      "attributes": [
+        "transcript_id",
+        "meeting_title",
+        "meeting_date",
+        "attendees",
+        "transcript_text",
+        "duration",
+        "action_items",
+        "client_wins",
+        "key_decisions"
+      ],
+      "common_actions": [
+        "Upload",
+        "Parse",
+        "Analyze",
+        "Extract_Action_Items",
+        "Extract_Wins",
+        "Archive"
+      ],
+      "storage_location": "TASK_MANAGERS/Meetings/Transcripts/",
+      "related_entities": [
+        "LIBRARIES/LBS_003_LBS_003_Tools/Claude",
+        "TASK_MANAGERS/OPS-009",
+        "LIBRARIES/Objects/CRM_Record"
+      ],
+      "file_format": "TXT, DOCX, VTT",
+      "example": "Meeting_TechCorp_2025_11_12_Transcript.txt",
+      "tags": ["meeting", "transcript", "analysis", "automation"],
+      "automation_trigger": "Stacked connector workflows (15 hrs/week savings)"
+    },
+    {
+      "object_id": "OBJ-AI-005",
+      "name": "CRM Record",
+      "category": "AI_Automation",
+      "description": "Client or contact record in CRM system (Airtable, HubSpot, etc.)",
+      "attributes": [
+        "record_id",
+        "client_name",
+        "contact_person",
+        "email",
+        "phone",
+        "company",
+        "deal_stage",
+        "last_interaction",
+        "notes",
+        "client_wins",
+        "next_steps"
+      ],
+      "common_actions": [
+        "Create",
+        "Read",
+        "Update",
+        "Search",
+        "Log_Interaction",
+        "Track_Win"
+      ],
+      "storage_location": "CRM Platform (Airtable/HubSpot/Salesforce)",
+      "related_entities": [
+        "LIBRARIES/LBS_003_LBS_003_Tools/CRM_MCP_Connector",
+        "TASK_MANAGERS/OPS-009",
+        "LIBRARIES/Objects/Meeting_Transcript"
+      ],
+      "file_format": "JSON, CSV (platform-specific)",
+      "example": "Client_TechCorp_Record.json",
+      "tags": ["crm", "client", "contact", "automation"],
+      "automation_use_case": "Auto-update from meeting transcripts"
+    },
+    {
+      "object_id": "OBJ-AI-006",
+      "name": "API Credentials",
+      "category": "AI_Automation",
+      "description": "OAuth tokens and API keys for MCP connector authentication",
+      "attributes": [
+        "credential_type",
+        "application",
+        "client_id",
+        "client_secret",
+        "access_token",
+        "refresh_token",
+        "expiry_date",
+        "scopes",
+        "status"
+      ],
+      "common_actions": [
+        "Generate",
+        "Configure",
+        "Validate",
+        "Refresh",
+        "Revoke",
+        "Secure_Store"
+      ],
+      "storage_location": "~/.claude/credentials/ (encrypted)",
+      "related_entities": [
+        "LIBRARIES/LBS_003_LBS_003_Tools/Google_Cloud_Console",
+        "LIBRARIES/LBS_003_LBS_003_Tools/Gmail_MCP_Connector",
+        "LIBRARIES/LBS_003_LBS_003_Tools/Google_Calendar_MCP_Connector"
+      ],
+      "file_format": "JSON (encrypted)",
+      "example": "gmail_oauth_credentials.json",
+      "tags": ["security", "oauth", "api", "authentication"],
+      "security_note": "Store encrypted, never commit to git"
+    },
+    {
+      "object_id": "OBJ-AI-007",
+      "name": "Automation Workflow",
+      "category": "AI_Automation",
+      "description": "Stacked connector workflow combining multiple MCPs for complex automation",
+      "attributes": [
+        "workflow_name",
+        "workflow_type",
+        "connectors_used",
+        "trigger_type",
+        "steps",
+        "execution_time",
+        "time_savings",
+        "status"
+      ],
+      "common_actions": [
+        "Design",
+        "Configure",
+        "Test",
+        "Execute",
+        "Monitor",
+        "Optimize"
+      ],
+      "storage_location": "TASK_MANAGERS/Workflows/AI_Automation/",
+      "related_entities": [
+        "LIBRARIES/LBS_003_LBS_003_Tools/Claude_Desktop_App",
+        "TASK_MANAGERS/OPS-009",
+        "LIBRARIES/Objects/MCP_Connector"
+      ],
+      "file_format": "YAML, JSON",
+      "example": "Post_Meeting_Automation_Workflow.yaml",
+      "tags": ["workflow", "automation", "stacked-connector", "productivity"],
+      "stacked_example": "Meeting Transcript → Calendar (attendees) → Gmail (follow-up) → CRM (update)",
+      "time_savings": "15+ hours per week possible"
+    },
+    {
+      "object_id": "OBJ-AI-008",
+      "name": "Newsletter Subscriber",
+      "category": "AI_Automation",
+      "description": "Email subscriber requiring automated personalized response",
+      "attributes": [
+        "subscriber_email",
+        "signup_date",
+        "reply_received",
+        "reply_content",
+        "response_status",
+        "personalization_context",
+        "send_date"
+      ],
+      "common_actions": [
+        "Detect_Reply",
+        "Analyze_Context",
+        "Generate_Response",
+        "Send_Reply",
+        "Track"
+      ],
+      "storage_location": "Gmail/Newsletter_Replies/",
+      "related_entities": [
+        "LIBRARIES/LBS_003_LBS_003_Tools/Gmail_MCP_Connector",
+        "TASK_MANAGERS/AI-019"
+      ],
+      "file_format": "Email",
+      "example": "Subscriber john@example.com replied to newsletter #42",
+      "tags": ["newsletter", "email-automation", "subscriber", "personalization"],
+      "volume": "20-25 emails every 3-5 days",
+      "time_savings": "2-3 hours per week"
+    },
+    {
+      "object_id": "OBJ-AI-009",
+      "name": "Claude Skill",
+      "category": "AI_Automation",
+      "description": "Specialized capability or tool that can be enabled in Claude Desktop",
+      "attributes": [
+        "skill_name",
+        "skill_type",
+        "capabilities",
+        "activation_status",
+        "usage_count",
+        "enabled_date"
+      ],
+      "common_actions": [
+        "Enable",
+        "Disable",
+        "Configure",
+        "Use",
+        "Monitor"
+      ],
+      "storage_location": "Claude Desktop App Settings",
+      "related_entities": [
+        "LIBRARIES/LBS_003_LBS_003_Tools/Claude_Desktop_App",
+        "LIBRARIES/LBS_003_LBS_003_Tools/MCP_Builder_Skill"
+      ],
+      "file_format": "N/A (platform feature)",
+      "example": "mcp-builder skill",
+      "tags": ["claude-skill", "capability", "ai-tool"],
+      "primary_skill": "mcp-builder (connector generation)"
+    },
+    {
+      "object_id": "OBJ-AI-010",
+      "name": "Connector Code",
+      "category": "AI_Automation",
+      "description": "Generated source code for MCP server connector",
+      "attributes": [
+        "language",
+        "target_app",
+        "capabilities",
+        "code_lines",
+        "includes_oauth",
+        "includes_error_handling",
+        "includes_readme",
+        "generation_method"
+      ],
+      "common_actions": [
+        "Generate",
+        "Review",
+        "Deploy",
+        "Test",
+        "Debug",
+        "Update"
+      ],
+      "storage_location": "~/.claude/mcp_connectors/[app_name]/",
+      "related_entities": [
+        "LIBRARIES/LBS_003_LBS_003_Tools/MCP_Builder_Skill",
+        "LIBRARIES/LBS_003_LBS_003_Tools/Cursor",
+        "LIBRARIES/Objects/MCP_Connector"
+      ],
+      "file_format": "Python (.py), JavaScript (.js), TypeScript (.ts)",
+      "example": "gmail_connector.py with OAuth + email sending",
+      "tags": ["code", "mcp", "generated", "connector"],
+      "generation_time": "30-60 seconds",
+      "includes": ["OAuth", "API handlers", "Error handling", "Config", "README"]
+    }
+  ],
+  "version": "1.0",
+  "created": "2025-11-12",
+  "last_updated": "2025-11-12",
+  "source": "Video_008_MCP_Connector_Tutorial"
+}

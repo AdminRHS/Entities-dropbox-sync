@@ -1,0 +1,438 @@
+{
+  "entity_type": "TASK_MANAGERS",
+  "sub_entity": "Task_Template",
+  "template_id": "Task-Template-041",
+  "task_name": "Build Notion ATS Database for Complete Recruitment Tracking",
+  "action": "Build",
+  "object": "Notion ATS Database",
+  "context": "for end-to-end candidate and recruitment pipeline management",
+  "description": "Create comprehensive Notion-based Applicant Tracking System (ATS) database with candidate cards, status tracking, interview scheduling, and team collaboration features. Integrates with Typeform applications and n8n automation. Part of Week 2 implementation for complete recruitment system.",
+  "department": "HR",
+  "profession": "HR Manager / Operations Specialist",
+  "estimated_duration": "2-3 hours",
+  "status": "Template",
+  "dependencies": [
+    "Notion workspace created (free tier acceptable)",
+    "TASK-TEMPLATE-HR-AUTO-001 completed (n8n CV screening operational)",
+    "Team members invited to Notion workspace"
+  ],
+  "tools_required": [
+    "Notion",
+    "Typeform (for application forms)",
+    "n8n (for integration)",
+    "Google Sheets (optional for data migration)"
+  ],
+  "success_criteria": [
+    "Notion database created with all required fields and views",
+    "Status pipeline configured with automation",
+    "Typeform integration working (applications auto-create candidate cards)",
+    "n8n workflow connects CV screening to Notion",
+    "Team access configured with appropriate permissions",
+    "Test candidate processed end-to-end"
+  ],
+  "steps": [
+    {
+      "step_number": 1,
+      "name": "Create Notion database structure",
+      "tool": "Notion",
+      "responsibility": "HR Manager",
+      "placement": "Notion workspace - HR page",
+      "duration": "30 minutes",
+      "dependencies": [],
+      "inputs": [
+        "Database name: Candidate Pipeline",
+        "Required fields list (35+ properties)"
+      ],
+      "outputs": [
+        "Notion database created",
+        "All properties configured (text, select, multi-select, date, URL, files, relation, formula, rollup)"
+      ],
+      "success_criteria": "Database created with all 35+ fields: Full Name, Email, Phone, LinkedIn, Resume (file), Position Applied, Application Date, Status, Stage, Score, Source, Location, Experience Years, Education, Skills, Languages, English Level, Availability, Salary Expectations, Interview Date, Interview Notes, Hiring Manager, HR Owner, Tags, Created Time, Last Updated, Next Action, Priority, Rating (1-5 stars)"
+    },
+    {
+      "step_number": 2,
+      "name": "Configure status pipeline and automation",
+      "tool": "Notion",
+      "responsibility": "HR Manager",
+      "placement": "Notion database - Status field",
+      "duration": "20 minutes",
+      "dependencies": [
+        "Step 1"
+      ],
+      "inputs": [
+        "Status options: New Application, CV Screening, Phone Screen, Interview Scheduled, Interview Complete, Offer Stage, Hired, Rejected, Withdrawn"
+      ],
+      "outputs": [
+        "Status field as select property with color coding",
+        "Board view by Status (Kanban)",
+        "Automation: Status change triggers notification"
+      ],
+      "success_criteria": "Candidates can be moved through pipeline stages with visual tracking"
+    },
+    {
+      "step_number": 3,
+      "name": "Create database views for different use cases",
+      "tool": "Notion",
+      "responsibility": "HR Manager",
+      "placement": "Notion database views",
+      "duration": "30 minutes",
+      "dependencies": [
+        "Step 2"
+      ],
+      "inputs": [
+        "View types needed: Board (by Status), Table (all candidates), Calendar (by Interview Date), Gallery (candidate cards), List (hiring manager view)"
+      ],
+      "outputs": [
+        "5+ database views created:",
+        "1. Board View: Candidates by Status (Kanban)",
+        "2. Table View: All Candidates (sortable, filterable)",
+        "3. Calendar View: Interview Schedule",
+        "4. Gallery View: Candidate Cards with photos/profiles",
+        "5. List View: Active Candidates (Status ≠ Rejected/Hired)",
+        "6. High Priority View: Score >85 or Priority=High",
+        "7. By Position View: Grouped by Position Applied"
+      ],
+      "success_criteria": "All views configured with appropriate filters, sorts, and display properties"
+    },
+    {
+      "step_number": 4,
+      "name": "Design candidate card template",
+      "tool": "Notion",
+      "responsibility": "HR Manager",
+      "placement": "Notion page template",
+      "duration": "20 minutes",
+      "dependencies": [
+        "Step 1"
+      ],
+      "inputs": [
+        "Template sections: Header (photo, name, contact), Summary, Experience, Education, Skills, Interview Notes, Timeline, Attachments"
+      ],
+      "outputs": [
+        "Candidate card template created",
+        "Auto-populated fields from database properties",
+        "Sections for notes, feedback, decision logs"
+      ],
+      "success_criteria": "Template provides comprehensive candidate profile view, easy to navigate"
+    },
+    {
+      "step_number": 5,
+      "name": "Set up Typeform for job applications",
+      "tool": "Typeform",
+      "responsibility": "HR Manager",
+      "placement": "Typeform website",
+      "duration": "30 minutes",
+      "dependencies": [],
+      "inputs": [
+        "Application form fields: Full Name, Email, Phone, LinkedIn URL, Resume Upload, Position Applied, Cover Letter (optional), Availability, Salary Expectations, How did you hear about us?"
+      ],
+      "outputs": [
+        "Typeform application form created",
+        "Branded with company logo and colors",
+        "Thank you page with next steps",
+        "Typeform webhook URL for n8n integration"
+      ],
+      "success_criteria": "Form is professional, mobile-friendly, collects all required data, webhook configured"
+    },
+    {
+      "step_number": 6,
+      "name": "Build n8n integration: Typeform → Notion",
+      "tool": "n8n",
+      "responsibility": "HR Manager",
+      "placement": "n8n workflow editor",
+      "duration": "40 minutes",
+      "dependencies": [
+        "Step 4",
+        "Step 5"
+      ],
+      "inputs": [
+        "Typeform webhook trigger",
+        "Notion database ID",
+        "Field mapping: Typeform fields → Notion properties"
+      ],
+      "outputs": [
+        "n8n workflow: Typeform Webhook → Parse Data → Create Notion Page → Send Confirmation Email",
+        "Field mapping configured",
+        "Error handling for failed submissions"
+      ],
+      "success_criteria": "Test submission creates Notion candidate card with all data populated"
+    },
+    {
+      "step_number": 7,
+      "name": "Connect CV screening workflow to Notion",
+      "tool": "n8n",
+      "responsibility": "HR Manager",
+      "placement": "n8n workflow (from TASK-TEMPLATE-HR-AUTO-001)",
+      "duration": "30 minutes",
+      "dependencies": [
+        "Step 6",
+        "TASK-TEMPLATE-HR-AUTO-001"
+      ],
+      "inputs": [
+        "Existing CV screening workflow (Gmail → Gemini → Google Sheets)",
+        "Notion database ID"
+      ],
+      "outputs": [
+        "Enhanced workflow: Gmail → Gemini → Google Sheets + Notion",
+        "Candidate card auto-created in Notion after CV screening",
+        "Score and AI analysis populated in Notion properties"
+      ],
+      "success_criteria": "CV screening automatically creates or updates Notion candidate card"
+    },
+    {
+      "step_number": 8,
+      "name": "Configure team access and permissions",
+      "tool": "Notion",
+      "responsibility": "HR Manager",
+      "placement": "Notion sharing settings",
+      "duration": "15 minutes",
+      "dependencies": [
+        "Step 1"
+      ],
+      "inputs": [
+        "Team members: HR team (full access), Hiring managers (edit access), Interviewers (comment access)"
+      ],
+      "outputs": [
+        "Team members invited with appropriate permissions",
+        "Workspace organized with clear navigation",
+        "Quick start guide created for new users"
+      ],
+      "success_criteria": "All team members can access database with correct permission levels"
+    },
+    {
+      "step_number": 9,
+      "name": "Test end-to-end workflow",
+      "tool": "Complete system",
+      "responsibility": "HR Manager + Team",
+      "placement": "Full recruitment pipeline",
+      "duration": "30 minutes",
+      "dependencies": [
+        "Step 7",
+        "Step 8"
+      ],
+      "inputs": [
+        "Test scenarios: 1) Typeform application, 2) Email CV submission, 3) Manual candidate entry"
+      ],
+      "outputs": [
+        "3 test candidates processed through complete workflow",
+        "All data populated correctly in Notion",
+        "Status pipeline works smoothly",
+        "Team notifications working"
+      ],
+      "success_criteria": "All 3 test scenarios successful, no data loss, automation functioning"
+    },
+    {
+      "step_number": 10,
+      "name": "Create documentation and team training",
+      "tool": "Notion or Google Docs",
+      "responsibility": "HR Manager",
+      "placement": "HR documentation",
+      "duration": "30 minutes",
+      "dependencies": [
+        "Step 9"
+      ],
+      "inputs": [
+        "Screenshots of workflows",
+        "Step-by-step guides for common tasks",
+        "FAQ section"
+      ],
+      "outputs": [
+        "User guide: How to use Notion ATS",
+        "Quick reference: Common tasks (add candidate, schedule interview, update status, etc.)",
+        "Troubleshooting guide",
+        "Team training session notes"
+      ],
+      "success_criteria": "Documentation complete, team trained and comfortable using system"
+    }
+  ],
+  "checklist": [
+    {
+      "item": "Notion database created with all 35+ required fields",
+      "guide": "See Step 1 for complete field list",
+      "required": true
+    },
+    {
+      "item": "Status pipeline configured with 9 stages",
+      "guide": "New Application → CV Screening → Phone Screen → Interview Scheduled → Interview Complete → Offer Stage → Hired/Rejected/Withdrawn",
+      "required": true
+    },
+    {
+      "item": "At least 5 database views created (Board, Table, Calendar, Gallery, List)",
+      "guide": "Each view serves different team member needs and workflows",
+      "required": true
+    },
+    {
+      "item": "Candidate card template designed and set as default",
+      "guide": "Template provides consistent structure for all candidate profiles",
+      "required": true
+    },
+    {
+      "item": "Typeform application form published and tested",
+      "guide": "Professional, mobile-friendly, collects all required data",
+      "required": true
+    },
+    {
+      "item": "n8n Typeform → Notion integration working",
+      "guide": "Test submission creates candidate card automatically",
+      "required": true
+    },
+    {
+      "item": "CV screening workflow connected to Notion",
+      "guide": "Gmail CV → Gemini AI → Google Sheets + Notion candidate card",
+      "required": true
+    },
+    {
+      "item": "Team access configured with appropriate permissions",
+      "guide": "HR (full), Hiring Managers (edit), Interviewers (comment)",
+      "required": true
+    },
+    {
+      "item": "End-to-end testing completed successfully",
+      "guide": "3 test candidates processed through all entry points",
+      "required": true
+    },
+    {
+      "item": "Documentation created and team trained",
+      "guide": "User guide, quick reference, troubleshooting guide available",
+      "required": true
+    }
+  ],
+  "resources": [
+    {
+      "name": "Notion ATS Template (Official)",
+      "type": "Template",
+      "url": "https://www.notion.so/templates/applicant-tracking-system",
+      "description": "Official Notion ATS template as starting point"
+    },
+    {
+      "name": "Jordan Pieces - Notion Hiring System Tutorial",
+      "type": "Video Tutorial",
+      "description": "YouTube tutorial on building complete hiring system with Notion"
+    },
+    {
+      "name": "HR Videos Research - Notion ATS Section",
+      "type": "Research Document",
+      "location": "Entities/LIBRARIES/DEPARTMENTS/_SHARED/Prompts/Research/Reports/HR videos research.md",
+      "description": "Research findings on Notion as ATS platform"
+    },
+    {
+      "name": "Typeform Documentation - Webhooks",
+      "type": "Official Documentation",
+      "url": "https://developer.typeform.com/webhooks/",
+      "description": "Guide for setting up Typeform webhooks for n8n integration"
+    }
+  ],
+  "roi_metrics": {
+    "setup_time": "2-3 hours one-time investment",
+    "cost": "€0/month (Notion free tier) vs €2,000-5,000/month traditional ATS",
+    "time_savings": "10-15 hours/month in manual tracking and status updates",
+    "candidate_experience": "Improved with automated communication and faster response times",
+    "team_collaboration": "Centralized information, reduced email back-and-forth by 70%",
+    "data_insights": "Real-time pipeline visibility, bottleneck identification, conversion tracking"
+  },
+  "related_tasks": [
+    "TASK-TEMPLATE-HR-AUTO-001 (Setup n8n for CV Screening - integrates with this)",
+    "TASK-TEMPLATE-HR-AUTO-002 (Configure Gemini AI - feeds data to Notion)",
+    "TASK-TEMPLATE-HR-AUTO-004 (Setup Interview Scheduling - next step)",
+    "TASK-TEMPLATE-HR-001 (Create Job Posting - uses Notion database)"
+  ],
+  "related_workflows": [
+    "WF-HR-AUTO-002 (Complete Recruitment Pipeline Workflow)",
+    "WF-HR-AUTO-001 (Automated CV Screening - integrates here)"
+  ],
+  "related_projects": [
+    "Project-Template-003 (Complete HR Automation Implementation - Week 2)"
+  ],
+  "tags": [
+    "hr",
+    "automation",
+    "notion",
+    "ats",
+    "recruitment",
+    "pipeline",
+    "week_2",
+    "high_priority"
+  ],
+  "version": "1.0",
+  "created": "2025-11-14",
+  "last_updated": "2025-11-14",
+  "source": "HR videos research.md - Week 2 Implementation Plan, Jordan Pieces tutorial",
+  "compliance_notes": "GDPR compliance: Notion is GDPR-compliant, but ensure data processing agreement in place. Candidate consent required before storing data. Data retention: configure automatic archival/deletion after 90 days for rejected candidates. Maintain audit log of all data access and changes.",
+  "troubleshooting": [
+    {
+      "issue": "Typeform webhook not triggering n8n workflow",
+      "solution": "Verify webhook URL is correct, check n8n webhook node is active, test with Typeform webhook tester"
+    },
+    {
+      "issue": "Notion API rate limit exceeded",
+      "solution": "Add delay between n8n actions (3-5 seconds), batch process applications, use Notion integration instead of API if available"
+    },
+    {
+      "issue": "Duplicate candidate cards created",
+      "solution": "Add deduplication logic in n8n: search Notion by email before creating, update existing if found"
+    },
+    {
+      "issue": "Resume file upload fails from Typeform",
+      "solution": "Use file URL from Typeform, upload to Google Drive first, then link in Notion (Notion file upload via API has limitations)"
+    },
+    {
+      "issue": "Team members can't see database",
+      "solution": "Check sharing settings, ensure workspace membership, verify page hierarchy (database must be in shared space)"
+    }
+  ],
+  "optimization_tips": [
+    "Use Notion relations to link candidates to job postings (separate Jobs database)",
+    "Create calculated fields: Days in current stage, Time to hire, Source effectiveness",
+    "Set up automated Slack notifications for high-priority candidates",
+    "Use Notion formulas for candidate scoring aggregation",
+    "Create hiring manager dashboard with filtered views of their open positions",
+    "Add interview feedback template linked to candidate cards",
+    "Use Notion buttons for common actions (send rejection email, schedule interview)"
+  ],
+  "notion_database_fields_detailed": [
+    {
+      "category": "Basic Info",
+      "fields": "Full Name (title), Email (email), Phone (phone), LinkedIn (URL), Resume (files), Photo (files)"
+    },
+    {
+      "category": "Application Details",
+      "fields": "Position Applied (select/relation), Application Date (date), Application Source (select: Typeform, Email, LinkedIn, Referral, Job Board), Application Method (select: Online Form, Email CV, Direct Contact)"
+    },
+    {
+      "category": "Status Tracking",
+      "fields": "Status (select: 9 options), Stage (select: Sourcing, Screening, Interviewing, Decision, Closed), Next Action (text), Next Action Date (date), Priority (select: High, Medium, Low), Rating (select: 1-5 stars)"
+    },
+    {
+      "category": "Candidate Profile",
+      "fields": "Location (text), Experience Years (number), Education Degree (text), Education Field (text), University (text), Skills (multi-select), Languages (multi-select), English Level (select: A1, A2, B1, B2, C1, C2, Native)"
+    },
+    {
+      "category": "AI Analysis",
+      "fields": "AI Score (number 0-100), AI Recommendation (select: Reject, Interview, Priority), AI Summary (text), Key Strengths (text)"
+    },
+    {
+      "category": "Logistics",
+      "fields": "Availability Start Date (date), Salary Expectations (text), Visa Status (select: EU Citizen, Work Permit, Requires Visa, Not Applicable), Willing to Relocate (checkbox)"
+    },
+    {
+      "category": "Interview Process",
+      "fields": "Interview Date (date), Interview Time (text), Interview Type (select: Phone, Video, In-person, Technical Test), Interviewer (person), Interview Notes (text), Interview Feedback (text)"
+    },
+    {
+      "category": "Team Collaboration",
+      "fields": "HR Owner (person), Hiring Manager (person), Recruiter (person), Assigned To (person), Tags (multi-select), Internal Notes (text)"
+    },
+    {
+      "category": "System Fields",
+      "fields": "Created Time (created time), Created By (created by), Last Edited Time (last edited time), Last Edited By (last edited by), Candidate ID (formula: auto-generated)"
+    }
+  ],
+  "future_enhancements": [
+    "Email integration: send/receive emails directly from Notion candidate cards",
+    "Calendar sync: two-way sync with Google Calendar for interview scheduling",
+    "Offer letter generation: template + mail merge for offer letters",
+    "Candidate self-service portal: candidates check application status via Notion public page",
+    "Advanced analytics: conversion rates by source, time-to-hire by position, interviewer effectiveness",
+    "Integration with HRIS: sync hired candidates to HR system automatically",
+    "Notion AI features: auto-summarize interview notes, suggest next actions, draft rejection emails"
+  ]
+}

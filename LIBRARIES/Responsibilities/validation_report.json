@@ -1,0 +1,133 @@
+{
+  "validation_date": "2025-11-16",
+  "statistics": {
+    "files_processed": 59,
+    "files_with_errors": 7,
+    "files_with_responsibility": 53,
+    "files_with_valid_responsibility": 53,
+    "total_steps": 371,
+    "steps_with_responsibility": 309
+  },
+  "responsibility_usage": {
+    "RESP-LG-013": 1,
+    "RESP-DEV-002": 1,
+    "RESP-LG-010": 1,
+    "RESP-LG-001": 2,
+    "RESP-HR-001": 1,
+    "RESP-DEV-011": 1,
+    "RESP-LG-022": 1,
+    "RESP-DEV-018": 1,
+    "RESP-DEV-027": 1,
+    "RESP-LG-011": 1,
+    "RESP-LG-036": 1,
+    "RESP-LG-040": 1,
+    "RESP-LG-050": 1,
+    "RESP-LG-059": 1,
+    "RESP-AI-079": 1,
+    "RESP-DEV-034": 1,
+    "RESP-AI-080": 1,
+    "RESP-AI-005": 2,
+    "RESP-AI-010": 2,
+    "RESP-CNT-001": 2,
+    "RESP-AI-002": 2,
+    "RESP-AI-023": 2,
+    "RESP-AI-031": 2,
+    "RESP-AI-042": 2,
+    "RESP-AI-049": 2,
+    "RESP-AI-057": 2,
+    "RESP-AI-063": 2,
+    "RESP-AI-069": 2,
+    "RESP-AI-001": 2,
+    "RESP-AI-004": 2
+  },
+  "issues": [
+    {
+      "file": "C:\\Users\\Dell\\Dropbox\\Taxonomy\\Entities\\TASK_MANAGERS\\Task_Templates\\TEMPLATE-TASK-HR-AUTO-001_Setup_n8n_for_CV_Screening.json",
+      "issues": [
+        "Error reading file: Unexpected UTF-8 BOM (decode using utf-8-sig): line 1 column 1 (char 0)"
+      ]
+    },
+    {
+      "file": "C:\\Users\\Dell\\Dropbox\\Taxonomy\\Entities\\TASK_MANAGERS\\Task_Templates\\TEMPLATE-TASK-HR-AUTO-002_Configure_Gemini_AI_Analysis.json",
+      "issues": [
+        "Error reading file: Unexpected UTF-8 BOM (decode using utf-8-sig): line 1 column 1 (char 0)"
+      ]
+    },
+    {
+      "file": "C:\\Users\\Dell\\Dropbox\\Taxonomy\\Entities\\TASK_MANAGERS\\Task_Templates\\TEMPLATE-TASK-HR-AUTO-003_Build_Notion_ATS_Database.json",
+      "issues": [
+        "Error reading file: Unexpected UTF-8 BOM (decode using utf-8-sig): line 1 column 1 (char 0)"
+      ]
+    },
+    {
+      "file": "C:\\Users\\Dell\\Dropbox\\Taxonomy\\Entities\\TASK_MANAGERS\\Task_Templates\\TEMPLATE-TASK-HR-AUTO-004_Setup_Interview_Scheduling.json",
+      "issues": [
+        "Error reading file: Unexpected UTF-8 BOM (decode using utf-8-sig): line 1 column 1 (char 0)"
+      ]
+    },
+    {
+      "file": "C:\\Users\\Dell\\Dropbox\\Taxonomy\\Entities\\TASK_MANAGERS\\Task_Templates\\TEMPLATE-TASK-HR-AUTO-005_Configure_LinkedIn_Automation.json",
+      "issues": [
+        "Error reading file: Unexpected UTF-8 BOM (decode using utf-8-sig): line 1 column 1 (char 0)"
+      ]
+    },
+    {
+      "file": "C:\\Users\\Dell\\Dropbox\\Taxonomy\\Entities\\TASK_MANAGERS\\Task_Templates\\TEMPLATE-TASK-HR-AUTO-006_Setup_Onboarding_Workflow.json",
+      "issues": [
+        "Error reading file: Unexpected UTF-8 BOM (decode using utf-8-sig): line 1 column 1 (char 0)"
+      ]
+    },
+    {
+      "file": "C:\\Users\\Dell\\Dropbox\\Taxonomy\\Entities\\TASK_MANAGERS\\Task_Templates\\TEMPLATE-TASK-RES-001_Research_AI_Video_Tools.json",
+      "issues": [
+        "Error reading file: Unexpected UTF-8 BOM (decode using utf-8-sig): line 1 column 1 (char 0)"
+      ]
+    },
+    {
+      "file": "C:\\Users\\Dell\\Dropbox\\Taxonomy\\Entities\\TASK_MANAGERS\\Task_Templates\\By_Department\\AI_Tasks\\Refactored\\TASK-AI-021_REFACTORED.json",
+      "issues": [
+        "Invalid step responsibility_id: RESP-AI-001-SUB-001",
+        "Invalid step responsibility_id: RESP-AI-001-SUB-002",
+        "Invalid step responsibility_id: RESP-AI-001-SUB-003",
+        "Invalid step responsibility_id: RESP-AI-001-SUB-004",
+        "Invalid step responsibility_id: RESP-AI-001-SUB-005",
+        "Invalid step responsibility_id: RESP-AI-001-SUB-006"
+      ]
+    },
+    {
+      "file": "C:\\Users\\Dell\\Dropbox\\Taxonomy\\Entities\\TASK_MANAGERS\\Task_Templates\\By_Department\\AI_Tasks\\Refactored\\TASK-AI-031_REFACTORED.json",
+      "issues": [
+        "Invalid step responsibility_id: RESP-AI-004-SUB-001",
+        "Invalid step responsibility_id: RESP-AI-004-SUB-002",
+        "Invalid step responsibility_id: RESP-AI-004-SUB-003",
+        "Invalid step responsibility_id: RESP-AI-004-SUB-004",
+        "Invalid step responsibility_id: RESP-AI-004-SUB-005",
+        "Invalid step responsibility_id: RESP-AI-004-SUB-006",
+        "Invalid step responsibility_id: RESP-AI-004-SUB-008"
+      ]
+    },
+    {
+      "file": "C:\\Users\\Dell\\Dropbox\\Taxonomy\\Entities\\TASK_MANAGERS\\Task_Templates\\By_Department\\AI_Tasks\\Refactored\\TASK-AI-021_REFACTORED.json",
+      "issues": [
+        "Invalid step responsibility_id: RESP-AI-001-SUB-001",
+        "Invalid step responsibility_id: RESP-AI-001-SUB-002",
+        "Invalid step responsibility_id: RESP-AI-001-SUB-003",
+        "Invalid step responsibility_id: RESP-AI-001-SUB-004",
+        "Invalid step responsibility_id: RESP-AI-001-SUB-005",
+        "Invalid step responsibility_id: RESP-AI-001-SUB-006"
+      ]
+    },
+    {
+      "file": "C:\\Users\\Dell\\Dropbox\\Taxonomy\\Entities\\TASK_MANAGERS\\Task_Templates\\By_Department\\AI_Tasks\\Refactored\\TASK-AI-031_REFACTORED.json",
+      "issues": [
+        "Invalid step responsibility_id: RESP-AI-004-SUB-001",
+        "Invalid step responsibility_id: RESP-AI-004-SUB-002",
+        "Invalid step responsibility_id: RESP-AI-004-SUB-003",
+        "Invalid step responsibility_id: RESP-AI-004-SUB-004",
+        "Invalid step responsibility_id: RESP-AI-004-SUB-005",
+        "Invalid step responsibility_id: RESP-AI-004-SUB-006",
+        "Invalid step responsibility_id: RESP-AI-004-SUB-008"
+      ]
+    }
+  ]
+}

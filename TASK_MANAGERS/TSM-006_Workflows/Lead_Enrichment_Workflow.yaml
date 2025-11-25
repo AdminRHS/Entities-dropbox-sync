@@ -1,0 +1,137 @@
+workflow_name: "Lead Enrichment Automation"
+workflow_type: "Parallel Processing"
+workflow_id: "WF-PAR-001"
+department: "LG"
+priority: "High"
+estimated_duration: "5-10 minutes per lead (automated)"
+status: "Active"
+
+description: |
+  Automated lead enrichment workflow that processes multiple data sources in parallel
+  to enrich lead information. Processes 37 job sites via n8n automation.
+  Expected: <5% quality decrease vs manual research (acceptable trade-off).
+
+steps:
+  - step_number: 1
+    name: "Lead captured from source"
+    tool: "n8n workflow trigger"
+    responsibility: "System (automated)"
+    placement: "n8n workflow"
+    duration: "Instant"
+    dependencies: []
+    inputs:
+      - "Lead contact information"
+      - "Lead source"
+    outputs:
+      - "Lead record created"
+    success_criteria: "Lead captured and queued for enrichment"
+
+  - step_number: 2
+    name: "Parallel Processing - Multiple Enrichment Tasks"
+    parallel: true
+    tasks:
+      - task_2a:
+          name: "Company research and analysis"
+          tool: "Gemini, Perplexity, GPT (parallel AI processing)"
+          responsibility: "AI Assistant (automated)"
+          placement: "n8n workflow - AI processing nodes"
+          duration: "2-3 minutes"
+          dependencies: ["Step 1"]
+          inputs:
+            - "Company name"
+            - "Company website"
+          outputs:
+            - "Company size and industry"
+            - "Company description"
+            - "Recent news and updates"
+            - "Pain points identified"
+          success_criteria: "Company profile enriched with key information"
+
+      - task_2b:
+          name: "Contact verification and enrichment"
+          tool: "LinkedIn API, Email verification tools"
+          responsibility: "AI Assistant (automated)"
+          placement: "n8n workflow - Contact enrichment nodes"
+          duration: "2-3 minutes"
+          dependencies: ["Step 1"]
+          inputs:
+            - "Contact name"
+            - "Email address"
+            - "LinkedIn profile URL"
+          outputs:
+            - "Verified email address"
+            - "LinkedIn profile data"
+            - "Job title and role"
+            - "Decision maker status"
+          success_criteria: "Contact information verified and enriched"
+
+      - task_2c:
+          name: "Social profile matching"
+          tool: "Social media APIs, web scraping"
+          responsibility: "AI Assistant (automated)"
+          placement: "n8n workflow - Social enrichment nodes"
+          duration: "2-3 minutes"
+          dependencies: ["Step 1"]
+          inputs:
+            - "Contact name"
+            - "Company name"
+          outputs:
+            - "Social media profiles found"
+            - "Additional contact information"
+            - "Company social presence"
+          success_criteria: "Social profiles matched and documented"
+
+  - step_number: 3
+    name: "Lead scoring and qualification"
+    tool: "Lead scoring algorithm, CRM"
+    responsibility: "AI Assistant (automated)"
+    placement: "CRM - Lead scoring system"
+    duration: "1 minute"
+    dependencies: ["Step 2a", "Step 2b", "Step 2c"]
+    inputs:
+      - "Enriched company data"
+      - "Enriched contact data"
+      - "Social profile data"
+    outputs:
+      - "Lead score (0-100)"
+      - "BANT qualification status"
+      - "MQL/SQL classification"
+      - "ICP match score"
+    success_criteria: "Lead scored and qualified, ready for sales handoff"
+
+automation_details:
+  platform: "n8n"
+  trigger: "New lead captured"
+  parallel_nodes: 3
+  ai_services_used:
+    - "Gemini (large datasets)"
+    - "Perplexity (research)"
+    - "GPT (analysis)"
+  data_sources:
+    - "37 job sites (automated scraping)"
+    - "LinkedIn API"
+    - "Company websites"
+    - "Social media platforms"
+
+quality_metrics:
+  target_quality: ">95% vs manual research"
+  acceptable_decrease: "<5%"
+  validation_method: "Spot checks and manual review"
+
+performance_metrics:
+  time_saved: "4-5 hours/day per LG employee"
+  leads_processed: "150+ qualified leads/day"
+  automation_rate: "100% of deep research automated"
+
+tags:
+  - "lg"
+  - "lead_generation"
+  - "automation"
+  - "parallel"
+  - "n8n"
+  - "enrichment"
+
+version: "1.0"
+created: "2025-11-01"
+last_updated: "2025-11-01"
+

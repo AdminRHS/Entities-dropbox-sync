@@ -1,0 +1,217 @@
+{
+  "entity_type": "LIBRARIES",
+  "sub_entity": "Tool",
+  "tool_id": "TOL-BIZ-004",
+  "name": "Google Sheets",
+  "vendor": "Google (Alphabet Inc.)",
+  "category": "Business Tools / Data Storage / Spreadsheet",
+  "purpose": "Cloud-based spreadsheet platform for data storage, organization, collaboration, and analysis",
+  "description": "Google Sheets is a cloud-based spreadsheet application that allows users to create, edit, and share spreadsheets online. Part of Google Workspace, it provides real-time collaboration, API integration capabilities, formulas, charts, and pivot tables. Widely used across all departments for data storage, analysis, reporting, and as an integration destination for automation tools.",
+  "skill_level_required": "Beginner to Advanced",
+  "cost_structure": "Freemium (Free with Google account, paid Google Workspace plans for business features)",
+  "platform_compatibility": [
+    "Web",
+    "Mobile (iOS, Android)",
+    "Desktop (via browser)",
+    "API"
+  ],
+  "integration_capabilities": [
+    "Google Workspace integration",
+    "API access (Google Sheets API)",
+    "Third-party tool integrations (Zapier, Make, n8n)",
+    "Browse AI direct export",
+    "CSV import/export",
+    "Excel compatibility",
+    "Google Apps Script automation",
+    "Real-time collaboration",
+    "Add-ons marketplace",
+    "Webhooks support"
+  ],
+  "documentation_url": "https://www.google.com/sheets/about/",
+  "actual_remote_helpers_usage": {
+    "primary_use": "Universal Data Storage and Collaboration Platform",
+    "users": [
+      "All departments",
+      "Data Analysts",
+      "Lead Generators",
+      "Project Managers",
+      "Finance Teams",
+      "HR Teams",
+      "Marketing Teams"
+    ],
+    "use_cases": [
+      "store and organize data",
+      "collaborate on spreadsheets in real-time",
+      "analyze data with formulas and pivot tables",
+      "create reports and dashboards",
+      "integrate with automation tools",
+      "receive exported data from web scraping",
+      "track leads and contacts",
+      "manage project data",
+      "create data visualizations",
+      "share data across teams"
+    ],
+    "workflows": [
+      "WRF-AUT-001"
+    ]
+  },
+  "strengths": [
+    "Universal access - works on any device with internet",
+    "Real-time collaboration - multiple users simultaneously",
+    "Free for personal use",
+    "Strong API and integration ecosystem",
+    "Automatic saving and version history",
+    "Google Workspace integration",
+    "Extensive formula library",
+    "Charts and visualization tools",
+    "Add-ons for extended functionality",
+    "Share permissions and access control"
+  ],
+  "limitations": [
+    "Performance degrades with very large datasets (100k+ rows)",
+    "Limited offline functionality",
+    "Less powerful than Excel for complex analysis",
+    "Cell and sheet limits on free accounts",
+    "Requires Google account",
+    "Privacy concerns for sensitive data"
+  ],
+  "departments_using": [
+    "All departments - Universal tool"
+  ],
+  "tags": [
+    "spreadsheet",
+    "data-storage",
+    "collaboration",
+    "google-workspace",
+    "cloud",
+    "data-analysis",
+    "reporting",
+    "integration-platform",
+    "universal-tool"
+  ],
+  "discovery_date": "2025-11-23",
+  "discovery_source": "Video_022",
+  "status": "active",
+  "video_source": {
+    "video_id": "Video_022",
+    "video_title": "This AI Agent Will DO Your Work For You! (Browse AI)",
+    "video_creator": "The AI Advantage (Igor)",
+    "video_url": "https://youtu.be/EYAMZ9aSVh4?si=jGCLbwgNKvCHJA33",
+    "video_duration": "10:53",
+    "video_date": "2022-11-04",
+    "extraction_date": "2025-11-23",
+    "mentions_count": 8,
+    "tool_prominence": "HIGH - Primary export destination",
+    "timestamps": [
+      "09:10",
+      "10:00"
+    ],
+    "context": "Export destination for Browse AI scraped data"
+  },
+  "cross_references": {
+    "workflows": [
+      {
+        "workflow_id": "WRF-AUT-001",
+        "workflow_name": "Automated Web Scraping Pipeline",
+        "role": "Final output destination / Data storage"
+      }
+    ],
+    "milestones": [
+      {
+        "milestone_id": "MLT-031",
+        "milestone_name": "Execute and Export Data",
+        "tasks": ["TST-008"]
+      }
+    ],
+    "tasks": [
+      "TST-008: Export Data"
+    ],
+    "actions": [
+      "ACT-113: Export",
+      "ACT-114: Send",
+      "ACT-001: Create"
+    ],
+    "objects": [
+      "OBJ-002: Spreadsheets",
+      "OBJ-001: Datasets"
+    ],
+    "professions": [
+      "PRF-002: Data Analyst",
+      "PRF-001: Lead Generator",
+      "All professions (universal tool)"
+    ],
+    "related_tools": [
+      {
+        "tool_id": "TOL-AUT-007",
+        "tool_name": "Browse AI",
+        "relationship": "Data source / Integration partner"
+      }
+    ]
+  },
+  "key_features": [
+    {
+      "feature": "Real-Time Collaboration",
+      "description": "Multiple users can edit the same spreadsheet simultaneously",
+      "use_case": "Team collaboration on data analysis and reporting"
+    },
+    {
+      "feature": "Google Sheets API",
+      "description": "Programmatic access to create, read, update spreadsheets",
+      "use_case": "Automate data import/export from external tools"
+    },
+    {
+      "feature": "Formulas and Functions",
+      "description": "Extensive library of built-in formulas for calculations and data manipulation",
+      "use_case": "Data analysis, calculations, lookups, aggregations"
+    },
+    {
+      "feature": "Charts and Visualizations",
+      "description": "Create charts, graphs, and visual representations of data",
+      "use_case": "Dashboard creation and data presentation"
+    },
+    {
+      "feature": "Import/Export",
+      "description": "Import CSV, Excel files; export to multiple formats",
+      "use_case": "Data migration and sharing across platforms"
+    },
+    {
+      "feature": "Version History",
+      "description": "Automatic version control with ability to restore previous versions",
+      "use_case": "Track changes and recover from errors"
+    },
+    {
+      "feature": "Sharing and Permissions",
+      "description": "Granular access control (view, comment, edit)",
+      "use_case": "Controlled data sharing across teams"
+    },
+    {
+      "feature": "Google Apps Script",
+      "description": "JavaScript-based scripting for custom automation",
+      "use_case": "Custom workflows and data processing"
+    }
+  ],
+  "business_value": [
+    "Universal platform accessible across all devices",
+    "Enables real-time team collaboration",
+    "Zero-cost solution for most business needs",
+    "Integration hub for automation workflows",
+    "Reduces dependency on desktop software",
+    "Automatic backup and version control",
+    "Facilitates data sharing across departments",
+    "Supports data-driven decision making"
+  ],
+  "typical_usage_in_video_022": {
+    "role": "Export destination for scraped data",
+    "workflow_position": "Final step of web scraping pipeline",
+    "integration_method": "Direct export from Browse AI",
+    "data_format": "Structured rows and columns from scraped lists",
+    "example": "50 AI tools exported to Google Sheets with Name, Description, Link columns"
+  },
+  "notes": [
+    "Referenced in Video_022 as export destination for Browse AI",
+    "Direct integration eliminates manual CSV download/upload steps",
+    "Already referenced in skill libraries (SKL-005, SKL-044) but no standalone tool entry existed",
+    "Universal tool used across all departments for data storage and collaboration",
+    "Critical integration point for automation workflows"
+  ]
+}

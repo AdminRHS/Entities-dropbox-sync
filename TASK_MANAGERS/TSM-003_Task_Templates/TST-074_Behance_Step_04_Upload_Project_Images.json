@@ -1,0 +1,56 @@
+{
+    "entity_type": "TASK_MANAGERS",
+    "sub_entity": "Task_Template",
+    "task_template_id": "Task-Template-103",
+    "task_template_name": "Upload Project Images to Behance",
+    "action": "Upload",
+    "object": "project images",
+    "context": "Behance project editor",
+    "description": "Upload and sequence high-resolution project images and process documentation to Behance.",
+    "department": "MARKETING",
+    "estimated_duration": "30-45 minutes",
+    "priority": "Medium",
+    "status": "Template",
+    "dependencies": [
+        "Task-Template-100",
+        "Task-Template-102"
+    ],
+    "tools_required": [
+        "Behance (image uploader)"
+    ],
+    "matched_tools": [
+        {
+            "name": "Behance",
+            "libraries_path": "ENTITIES/LIBRARIES/Tools/Behance.json"
+        }
+    ],
+    "checklist": [
+        {
+            "item": "Upload 10–20 high-resolution project images",
+            "guide": "Include final screens, key details, and variations.",
+            "required": true
+        },
+        {
+            "item": "Include process documentation (sketches, wireframes)",
+            "guide": "Show evolution from concept to final design.",
+            "required": true
+        },
+        {
+            "item": "Add captions / annotations where needed",
+            "guide": "Clarify design decisions and context.",
+            "required": false
+        }
+    ],
+    "success_criteria": [
+        "Visual flow clearly shows problem → process → solution.",
+        "Images are sharp, properly cropped, and consistent."
+    ],
+    "tags": [
+        "behance",
+        "portfolio",
+        "image_upload",
+        "process_documentation"
+    ],
+    "source": "Workflows/Behance_Project_Publishing_Workflow.yaml#step_4",
+    "version": "1.0"
+}

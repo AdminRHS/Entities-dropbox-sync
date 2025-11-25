@@ -1,0 +1,23 @@
+{
+  "last_updated": "2025-11-16",
+  "description": "Tracks when a finding in one research area triggers work elsewhere inside TASK_MANAGERS/RESEARCHES/.",
+  "entries": [
+    {
+      "source_scope": "Videos",
+      "target_scopes": [
+        "Influencer_Tracking",
+        "SMM"
+      ],
+      "trigger": "High-performing tutorial flagged for transcription and social amplification",
+      "artifacts": [],
+      "status": "pending",
+      "notes": "Record session IDs, report paths, and any linked task IDs once the pipeline runs."
+    }
+  ],
+  "guidelines": [
+    "Add a new entry whenever research files in one folder require updates in another folder (e.g., Video → Tools, SMM → ToDo).",
+    "Use status values: pending, in-progress, complete.",
+    "Reference artifacts with paths relative to TASK_MANAGERS/RESEARCHES/."
+  ]
+}
+

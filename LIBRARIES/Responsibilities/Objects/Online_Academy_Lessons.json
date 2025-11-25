@@ -1,0 +1,57 @@
+{
+  "entity_type": "LIBRARIES",
+  "sub_entity": "Objects",
+  "category": "Design",
+  "description": "Online Academy educational lesson content",
+  "objects": [
+    {
+      "object_id": "OBJ-DESIGN-004",
+      "name": "Online Academy Lesson",
+      "category": "Design / Educational Content",
+      "description": "Structured educational lesson with full HTML content, interactive elements, and assets",
+      "attributes": [
+        "lesson_title",
+        "lesson_number",
+        "duration",
+        "content_format",
+        "interactive_elements",
+        "assets_included",
+        "language",
+        "difficulty_level",
+        "completion_criteria"
+      ],
+      "common_actions": [
+        "Create",
+        "Structure",
+        "Generate_Code",
+        "Translate",
+        "Preview",
+        "Publish",
+        "Update"
+      ],
+      "storage_location": "GitHub Repository / Online Academy Platform",
+      "related_entities": [
+        "LIBRARIES/LBS_003_LBS_003_Tools/AI_Code_Generators",
+        "LIBRARIES/LBS_003_LBS_003_Tools/GitHub",
+        "LIBRARIES/Objects/GitHub_Repository",
+        "TASK_MANAGERS/DESIGN"
+      ],
+      "file_format": "HTML, CSS, JavaScript, Markdown",
+      "example": "Lesson_03_Interactive_Flip_Cards",
+      "tags": ["education", "lesson", "online-academy", "interactive", "html"],
+      "typical_components": [
+        "Full HTML blocks",
+        "Interactive elements (flip cards, animations)",
+        "CSS styling",
+        "JavaScript functionality",
+        "AI-generated code",
+        "Translated content"
+      ]
+    }
+  ],
+  "version": "1.0",
+  "created": "2025-11-18",
+  "last_updated": "2025-11-18",
+  "total_objects": 1,
+  "source": "Employee Daily Activity Analysis (Nov 17-18, 2025) - Kucherenko Iuliia"
+}

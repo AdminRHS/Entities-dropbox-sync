@@ -1,0 +1,962 @@
+{
+  "entity_type": "LIBRARIES",
+  "sub_entity": "Objects",
+  "category": "Video_Generation",
+  "source": "Video_011, Video_012",
+  "extraction_date": "2025-11-15",
+  "last_updated": "2025-11-15",
+  "objects": [
+    {
+      "object_id": "OBJ-MEDIA-100",
+      "name": "AI Video Model",
+      "category": "Media / AI Asset",
+      "description": "Pre-trained artificial intelligence model capable of generating video content from text prompts or images. Includes architecture, weights, and configuration for video generation tasks.",
+      "attributes": [
+        "parameter_count (5B, 14B, etc.)",
+        "model_type (Text-to-Video, Image-to-Video, Hybrid)",
+        "architecture (MoE, Transformer, etc.)",
+        "quantization (FP16, FP8, GGUF)",
+        "vram_requirements",
+        "resolution_support",
+        "frame_rate"
+      ],
+      "common_actions": [
+        "Load",
+        "Download",
+        "Generate",
+        "Configure",
+        "Update"
+      ],
+      "storage_location": "models/diffusion_models/",
+      "file_format": ".safetensors",
+      "related_entities": [
+        "VAE Model",
+        "Text Encoder",
+        "Workflow Template"
+      ],
+      "related_tools": [
+        "TOOL-AI-039 (Wan 2.2)",
+        "TOOL-AI-040 (ComfyUI)",
+        "TOOL-CLOUD-003 (Hugging Face)"
+      ],
+      "related_workflows": [
+        "PROC-VIDEO-001 (Text-to-Video Generation)",
+        "PROC-VIDEO-002 (Image-to-Video Generation)"
+      ],
+      "department_mapping": [
+        "Video",
+        "AI"
+      ],
+      "profession_mapping": [
+        "AI Engineer",
+        "Video Editor"
+      ],
+      "tags": [
+        "ai-model",
+        "video-generation",
+        "diffusion-model",
+        "neural-network"
+      ],
+      "version": "1.0",
+      "created": "2025-11-15",
+      "last_updated": "2025-11-15",
+      "source": "Video_011"
+    },
+    {
+      "object_id": "OBJ-DATA-050",
+      "name": "Diffusion Model Files",
+      "category": "Data / Model Files",
+      "description": "Binary files containing trained neural network weights for diffusion-based AI models. For MoE models, consists of high-noise and low-noise pairs that work together in two-stage generation.",
+      "attributes": [
+        "file_size (10GB to 60GB)",
+        "precision (FP16, FP8, GGUF)",
+        "model_variant (high-noise, low-noise, hybrid)",
+        "compatibility (ComfyUI version)",
+        "storage_requirements"
+      ],
+      "common_actions": [
+        "Download",
+        "Load",
+        "Store",
+        "Manage"
+      ],
+      "storage_location": "ComfyUI/models/diffusion_models/",
+      "file_format": ".safetensors",
+      "related_entities": [
+        "AI Video Model",
+        "VAE Model"
+      ],
+      "related_tools": [
+        "TOOL-CLOUD-003 (Hugging Face)",
+        "TOOL-AI-040 (ComfyUI)"
+      ],
+      "related_workflows": [
+        "PROC-SETUP-001 (Model Installation)"
+      ],
+      "department_mapping": [
+        "AI",
+        "Video",
+        "Development"
+      ],
+      "profession_mapping": [
+        "AI Engineer",
+        "System Administrator"
+      ],
+      "tags": [
+        "model-files",
+        "neural-network",
+        "binary-data",
+        "safetensors"
+      ],
+      "version": "1.0",
+      "created": "2025-11-15",
+      "last_updated": "2025-11-15",
+      "source": "Video_011"
+    },
+    {
+      "object_id": "OBJ-MEDIA-101",
+      "name": "Generated Video",
+      "category": "Media / Video",
+      "description": "AI-generated video output created from text prompts or source images using diffusion models. Can be raw output or post-processed/upscaled versions.",
+      "attributes": [
+        "resolution (480p, 720p)",
+        "frame_rate (24 FPS)",
+        "duration (seconds)",
+        "quality (raw, upscaled)",
+        "source_type (text-to-video, image-to-video)",
+        "generation_parameters"
+      ],
+      "common_actions": [
+        "Generate",
+        "Export",
+        "Upscale",
+        "Review",
+        "Compare"
+      ],
+      "storage_location": "output/videos/",
+      "file_format": "MP4, MOV",
+      "related_entities": [
+        "AI Video Model",
+        "Video Workflow",
+        "Text Prompt"
+      ],
+      "related_tools": [
+        "TOOL-AI-039 (Wan 2.2)",
+        "TOOL-AI-040 (ComfyUI)"
+      ],
+      "related_workflows": [
+        "PROC-VIDEO-001 (Text-to-Video)",
+        "PROC-VIDEO-002 (Image-to-Video)"
+      ],
+      "department_mapping": [
+        "Video",
+        "Design",
+        "Marketing"
+      ],
+      "profession_mapping": [
+        "Video Editor",
+        "Content Creator",
+        "Designer"
+      ],
+      "tags": [
+        "video-output",
+        "ai-generated",
+        "media-file",
+        "deliverable"
+      ],
+      "version": "1.0",
+      "created": "2025-11-15",
+      "last_updated": "2025-11-15",
+      "source": "Video_011"
+    },
+    {
+      "object_id": "OBJ-PROC-050",
+      "name": "Video Workflow",
+      "category": "Process / Template",
+      "description": "Node-based visual workflow in ComfyUI that connects AI models, samplers, and processors to create a video generation pipeline. Can be saved as templates for reuse.",
+      "attributes": [
+        "node_connections",
+        "sampler_settings",
+        "model_configurations",
+        "workflow_type (T2V, I2V, hybrid)",
+        "complexity_level"
+      ],
+      "common_actions": [
+        "Load",
+        "Configure",
+        "Execute",
+        "Save",
+        "Share"
+      ],
+      "storage_location": "ComfyUI/workflows/",
+      "file_format": "JSON",
+      "related_entities": [
+        "AI Video Model",
+        "Workflow Template",
+        "Sampler Settings"
+      ],
+      "related_tools": [
+        "TOOL-AI-040 (ComfyUI)"
+      ],
+      "related_workflows": [
+        "PROC-VIDEO-001",
+        "PROC-VIDEO-002"
+      ],
+      "department_mapping": [
+        "Video",
+        "AI"
+      ],
+      "profession_mapping": [
+        "AI Engineer",
+        "Video Editor"
+      ],
+      "tags": [
+        "workflow",
+        "pipeline",
+        "template",
+        "comfyui"
+      ],
+      "version": "1.0",
+      "created": "2025-11-15",
+      "last_updated": "2025-11-15",
+      "source": "Video_011"
+    },
+    {
+      "object_id": "OBJ-DATA-051",
+      "name": "VAE Model",
+      "category": "Data / Model Component",
+      "description": "Variational Autoencoder model used to encode/decode latent representations for video generation. Different versions (2.1, 2.2) required for different Wan models.",
+      "attributes": [
+        "version (2.1, 2.2)",
+        "compression_type",
+        "compatibility (model-specific)",
+        "channels (64, etc.)"
+      ],
+      "common_actions": [
+        "Load",
+        "Download",
+        "Decode",
+        "Encode"
+      ],
+      "storage_location": "ComfyUI/models/vae/",
+      "file_format": ".safetensors",
+      "related_entities": [
+        "Diffusion Model Files",
+        "AI Video Model"
+      ],
+      "related_tools": [
+        "TOOL-AI-040 (ComfyUI)",
+        "TOOL-CLOUD-003 (Hugging Face)"
+      ],
+      "related_workflows": [
+        "PROC-VIDEO-001",
+        "PROC-VIDEO-002",
+        "PROC-SETUP-001"
+      ],
+      "department_mapping": [
+        "AI",
+        "Video"
+      ],
+      "profession_mapping": [
+        "AI Engineer"
+      ],
+      "tags": [
+        "vae",
+        "encoder",
+        "decoder",
+        "model-component"
+      ],
+      "version": "1.0",
+      "created": "2025-11-15",
+      "last_updated": "2025-11-15",
+      "source": "Video_011"
+    },
+    {
+      "object_id": "OBJ-DATA-052",
+      "name": "Text Encoder",
+      "category": "Data / Model Component",
+      "description": "Neural network model that converts text prompts into embeddings for AI video generation. UMT 5 XXL is the primary encoder used with Wan 2.2.",
+      "attributes": [
+        "model_name (UMT 5 XXL)",
+        "precision (FP16)",
+        "compatibility",
+        "embedding_size"
+      ],
+      "common_actions": [
+        "Load",
+        "Download",
+        "Encode"
+      ],
+      "storage_location": "ComfyUI/models/text_encoders/",
+      "file_format": ".safetensors",
+      "related_entities": [
+        "AI Video Model",
+        "Text Prompt"
+      ],
+      "related_tools": [
+        "TOOL-AI-040 (ComfyUI)",
+        "TOOL-CLOUD-003 (Hugging Face)"
+      ],
+      "related_workflows": [
+        "PROC-VIDEO-001",
+        "PROC-VIDEO-002"
+      ],
+      "department_mapping": [
+        "AI"
+      ],
+      "profession_mapping": [
+        "AI Engineer"
+      ],
+      "tags": [
+        "text-encoder",
+        "nlp",
+        "embeddings",
+        "model-component"
+      ],
+      "version": "1.0",
+      "created": "2025-11-15",
+      "last_updated": "2025-11-15",
+      "source": "Video_011"
+    },
+    {
+      "object_id": "OBJ-DOC-100",
+      "name": "Workflow Template",
+      "category": "Document / Template",
+      "description": "Pre-configured ComfyUI workflow template for specific video generation tasks. Includes node arrangements, connections, and default settings.",
+      "attributes": [
+        "template_type (5B hybrid, 14B T2V, 14B I2V)",
+        "default_settings",
+        "node_configuration",
+        "use_case"
+      ],
+      "common_actions": [
+        "Load",
+        "Browse",
+        "Customize",
+        "Save",
+        "Share"
+      ],
+      "storage_location": "ComfyUI/templates/",
+      "file_format": "JSON",
+      "related_entities": [
+        "Video Workflow",
+        "AI Video Model"
+      ],
+      "related_tools": [
+        "TOOL-AI-040 (ComfyUI)"
+      ],
+      "related_workflows": [
+        "PROC-VIDEO-001",
+        "PROC-VIDEO-002"
+      ],
+      "department_mapping": [
+        "Video",
+        "AI"
+      ],
+      "profession_mapping": [
+        "Video Editor",
+        "AI Engineer"
+      ],
+      "tags": [
+        "template",
+        "workflow",
+        "preset",
+        "comfyui"
+      ],
+      "version": "1.0",
+      "created": "2025-11-15",
+      "last_updated": "2025-11-15",
+      "source": "Video_011"
+    },
+    {
+      "object_id": "OBJ-MEDIA-102",
+      "name": "Product Commercial Video",
+      "category": "Media / Video",
+      "description": "AI-generated product showcase video created for e-commerce and marketing purposes, featuring product rotations, environment transitions, and cinematographic movements",
+      "attributes": [
+        "product_type",
+        "scene_count",
+        "duration (5-15 seconds per scene)",
+        "resolution (up to 1080p)",
+        "style (minimalist, Apple-commercial, etc.)",
+        "camera_movements (dolly, orbit, zoom)",
+        "environment_transitions"
+      ],
+      "common_actions": [
+        "Generate",
+        "Animate",
+        "Chain Scenes",
+        "Control Frames",
+        "Export"
+      ],
+      "storage_location": "output/commercials/",
+      "file_format": "MP4",
+      "related_entities": [
+        "Start Frame",
+        "End Frame",
+        "Product Image",
+        "Multi-Scene Video"
+      ],
+      "related_tools": [
+        "TOOL-AI-051 (Google Veo 3.1)",
+        "TOOL-AI-052 (OpenArt)",
+        "TOOL-AI-046 (Nano Banana)"
+      ],
+      "related_workflows": [
+        "PROC-VIDEO-001 (Multi-Scene Product Commercial Creation)"
+      ],
+      "department_mapping": [
+        "E-commerce",
+        "Product Marketing",
+        "Video Production"
+      ],
+      "profession_mapping": [
+        "Product Marketer",
+        "E-commerce Manager",
+        "Video Producer"
+      ],
+      "tags": [
+        "product-video",
+        "commercial",
+        "e-commerce",
+        "veo-3.1"
+      ],
+      "version": "1.0",
+      "created": "2025-11-15",
+      "last_updated": "2025-11-15",
+      "source": "Video_012"
+    },
+    {
+      "object_id": "OBJ-MEDIA-103",
+      "name": "Start Frame",
+      "category": "Media / Image",
+      "description": "Static image used to define the exact beginning of an AI-generated video, providing control over initial video state",
+      "attributes": [
+        "image_type (product, character, environment)",
+        "background_color",
+        "product_angle",
+        "resolution",
+        "composition"
+      ],
+      "common_actions": [
+        "Upload",
+        "Set",
+        "Control Frames",
+        "Swap Frames"
+      ],
+      "storage_location": "frames/start/",
+      "file_format": "PNG, JPG",
+      "related_entities": [
+        "End Frame",
+        "Product Commercial Video",
+        "Frame Pair"
+      ],
+      "related_tools": [
+        "TOOL-AI-051 (Google Veo 3.1)",
+        "TOOL-AI-052 (OpenArt)"
+      ],
+      "related_workflows": [
+        "PROC-VIDEO-001 (Multi-Scene Product Commercial Creation)"
+      ],
+      "department_mapping": [
+        "Video Production",
+        "Product Marketing"
+      ],
+      "profession_mapping": [
+        "Video Producer",
+        "Product Marketer"
+      ],
+      "tags": [
+        "frame-control",
+        "start-frame",
+        "video-boundary",
+        "veo-3.1"
+      ],
+      "version": "1.0",
+      "created": "2025-11-15",
+      "last_updated": "2025-11-15",
+      "source": "Video_012"
+    },
+    {
+      "object_id": "OBJ-MEDIA-104",
+      "name": "End Frame",
+      "category": "Media / Image",
+      "description": "Static image used to define the exact ending of an AI-generated video, enabling seamless scene transitions and frame chaining",
+      "attributes": [
+        "image_type (product, character, environment)",
+        "background_color",
+        "product_angle",
+        "resolution",
+        "composition"
+      ],
+      "common_actions": [
+        "Upload",
+        "Set",
+        "Control Frames",
+        "Swap Frames",
+        "Chain Scenes"
+      ],
+      "storage_location": "frames/end/",
+      "file_format": "PNG, JPG",
+      "related_entities": [
+        "Start Frame",
+        "Product Commercial Video",
+        "Frame Pair"
+      ],
+      "related_tools": [
+        "TOOL-AI-051 (Google Veo 3.1)",
+        "TOOL-AI-052 (OpenArt)",
+        "TOOL-AI-046 (Nano Banana)"
+      ],
+      "related_workflows": [
+        "PROC-VIDEO-001 (Multi-Scene Product Commercial Creation)"
+      ],
+      "department_mapping": [
+        "Video Production",
+        "Product Marketing"
+      ],
+      "profession_mapping": [
+        "Video Producer",
+        "Product Marketer"
+      ],
+      "tags": [
+        "frame-control",
+        "end-frame",
+        "video-boundary",
+        "veo-3.1"
+      ],
+      "version": "1.0",
+      "created": "2025-11-15",
+      "last_updated": "2025-11-15",
+      "source": "Video_012"
+    },
+    {
+      "object_id": "OBJ-MEDIA-105",
+      "name": "Character Portrait",
+      "category": "Media / Image",
+      "description": "Photorealistic AI-generated portrait of a human character used as reference for video generation",
+      "attributes": [
+        "demographic_details",
+        "expression",
+        "clothing_style",
+        "lighting",
+        "background_type",
+        "resolution"
+      ],
+      "common_actions": [
+        "Generate Reference Images",
+        "Generate Multi-Image Video",
+        "Upload"
+      ],
+      "storage_location": "references/characters/",
+      "file_format": "PNG, JPG",
+      "related_entities": [
+        "Object Image",
+        "Environment Scene",
+        "Reference Image Set"
+      ],
+      "related_tools": [
+        "TOOL-AI-056 (OpenArt Photorealistic)",
+        "TOOL-AI-051 (Google Veo 3.1)",
+        "TOOL-AI-052 (OpenArt)"
+      ],
+      "related_workflows": [
+        "PROC-VIDEO-002 (Multi-Image Reference Video Generation)"
+      ],
+      "department_mapping": [
+        "Video Production",
+        "Content Creation",
+        "Marketing"
+      ],
+      "profession_mapping": [
+        "Video Producer",
+        "Content Creator",
+        "Brand Manager"
+      ],
+      "tags": [
+        "character-reference",
+        "portrait",
+        "elements-feature",
+        "photorealistic"
+      ],
+      "version": "1.0",
+      "created": "2025-11-15",
+      "last_updated": "2025-11-15",
+      "source": "Video_012"
+    },
+    {
+      "object_id": "OBJ-MEDIA-106",
+      "name": "Object Image",
+      "category": "Media / Image",
+      "description": "AI-generated image of objects (statues, products, furniture) used as reference for video generation",
+      "attributes": [
+        "object_type",
+        "material_details",
+        "texture_quality",
+        "lighting",
+        "background_type",
+        "resolution"
+      ],
+      "common_actions": [
+        "Generate Reference Images",
+        "Generate Multi-Image Video",
+        "Upload"
+      ],
+      "storage_location": "references/objects/",
+      "file_format": "PNG, JPG",
+      "related_entities": [
+        "Character Portrait",
+        "Environment Scene",
+        "Reference Image Set"
+      ],
+      "related_tools": [
+        "TOOL-AI-055 (Seedream 4.0)",
+        "TOOL-AI-051 (Google Veo 3.1)",
+        "TOOL-AI-052 (OpenArt)"
+      ],
+      "related_workflows": [
+        "PROC-VIDEO-002 (Multi-Image Reference Video Generation)"
+      ],
+      "department_mapping": [
+        "Video Production",
+        "Content Creation",
+        "3D Visualization"
+      ],
+      "profession_mapping": [
+        "Video Producer",
+        "3D Artist",
+        "Content Creator"
+      ],
+      "tags": [
+        "object-reference",
+        "elements-feature",
+        "seedream",
+        "reference-image"
+      ],
+      "version": "1.0",
+      "created": "2025-11-15",
+      "last_updated": "2025-11-15",
+      "source": "Video_012"
+    },
+    {
+      "object_id": "OBJ-MEDIA-107",
+      "name": "Environment Scene",
+      "category": "Media / Image",
+      "description": "AI-generated image of environments (parks, interiors, landscapes) used as background reference for video generation",
+      "attributes": [
+        "scene_type (park, interior, landscape)",
+        "time_of_day",
+        "lighting_conditions",
+        "atmospheric_details",
+        "architectural_elements",
+        "resolution"
+      ],
+      "common_actions": [
+        "Generate Reference Images",
+        "Generate Multi-Image Video",
+        "Upload"
+      ],
+      "storage_location": "references/environments/",
+      "file_format": "PNG, JPG",
+      "related_entities": [
+        "Character Portrait",
+        "Object Image",
+        "Reference Image Set"
+      ],
+      "related_tools": [
+        "TOOL-AI-055 (Seedream 4.0)",
+        "TOOL-AI-051 (Google Veo 3.1)",
+        "TOOL-AI-052 (OpenArt)"
+      ],
+      "related_workflows": [
+        "PROC-VIDEO-002 (Multi-Image Reference Video Generation)"
+      ],
+      "department_mapping": [
+        "Video Production",
+        "Content Creation",
+        "Environment Art"
+      ],
+      "profession_mapping": [
+        "Video Producer",
+        "Environment Artist",
+        "Content Creator"
+      ],
+      "tags": [
+        "environment-reference",
+        "elements-feature",
+        "seedream",
+        "background"
+      ],
+      "version": "1.0",
+      "created": "2025-11-15",
+      "last_updated": "2025-11-15",
+      "source": "Video_012"
+    },
+    {
+      "object_id": "OBJ-DATA-053",
+      "name": "Reference Image Set",
+      "category": "Data / Collection",
+      "description": "Collection of 1-3 AI-generated images (character, object, environment) used together in Elements feature for cohesive video generation",
+      "attributes": [
+        "image_count (1-3)",
+        "composition (character + object + environment)",
+        "style_consistency",
+        "resolution_match",
+        "use_case"
+      ],
+      "common_actions": [
+        "Generate Reference Images",
+        "Generate Multi-Image Video",
+        "Upload",
+        "Organize"
+      ],
+      "storage_location": "references/sets/",
+      "file_format": "Folder with PNG/JPG files",
+      "related_entities": [
+        "Character Portrait",
+        "Object Image",
+        "Environment Scene"
+      ],
+      "related_tools": [
+        "TOOL-AI-051 (Google Veo 3.1)",
+        "TOOL-AI-052 (OpenArt)",
+        "TOOL-AI-055 (Seedream 4.0)",
+        "TOOL-AI-056 (OpenArt Photorealistic)"
+      ],
+      "related_workflows": [
+        "PROC-VIDEO-002 (Multi-Image Reference Video Generation)"
+      ],
+      "department_mapping": [
+        "Video Production",
+        "Content Creation"
+      ],
+      "profession_mapping": [
+        "Video Producer",
+        "Content Creator"
+      ],
+      "tags": [
+        "elements-feature",
+        "multi-image",
+        "reference-set",
+        "veo-3.1"
+      ],
+      "version": "1.0",
+      "created": "2025-11-15",
+      "last_updated": "2025-11-15",
+      "source": "Video_012"
+    },
+    {
+      "object_id": "OBJ-MEDIA-108",
+      "name": "Brand Logo Animation",
+      "category": "Media / Video",
+      "description": "AI-generated animated video of brand logos with complex compositions such as crowds forming logo shapes",
+      "attributes": [
+        "logo_complexity (simple, crowd-formed, etc.)",
+        "composition_type (aerial, overhead, etc.)",
+        "element_count (hundreds, thousands)",
+        "animation_style",
+        "duration",
+        "resolution"
+      ],
+      "common_actions": [
+        "Generate Brand Logo Animation",
+        "Animate",
+        "Export"
+      ],
+      "storage_location": "output/brand/",
+      "file_format": "MP4",
+      "related_entities": [
+        "Complex Logo Image",
+        "Brand Commercial"
+      ],
+      "related_tools": [
+        "TOOL-AI-054 (Flux Kontext)",
+        "TOOL-AI-051 (Google Veo 3.1)",
+        "TOOL-AI-052 (OpenArt)"
+      ],
+      "related_workflows": [
+        "PROC-VIDEO-003 (Brand Logo Animation Creation)"
+      ],
+      "department_mapping": [
+        "Brand Management",
+        "Marketing",
+        "Creative Services"
+      ],
+      "profession_mapping": [
+        "Brand Manager",
+        "Creative Director",
+        "Marketing Creative"
+      ],
+      "tags": [
+        "brand-logo",
+        "animation",
+        "complex-composition",
+        "flux-kontext"
+      ],
+      "version": "1.0",
+      "created": "2025-11-15",
+      "last_updated": "2025-11-15",
+      "source": "Video_012"
+    },
+    {
+      "object_id": "OBJ-MEDIA-109",
+      "name": "Social Media Storytelling Video",
+      "category": "Media / Video",
+      "description": "AI-generated narrative video created for social media platforms featuring characters, dialogue, and realistic scenes",
+      "attributes": [
+        "platform_target (Instagram, TikTok, etc.)",
+        "duration",
+        "narrative_type",
+        "character_count",
+        "dialogue_included",
+        "resolution",
+        "style"
+      ],
+      "common_actions": [
+        "Generate Multi-Image Video",
+        "Generate",
+        "Export"
+      ],
+      "storage_location": "output/social_media/",
+      "file_format": "MP4",
+      "related_entities": [
+        "Character Portrait",
+        "Environment Scene",
+        "Reference Image Set"
+      ],
+      "related_tools": [
+        "TOOL-AI-051 (Google Veo 3.1)",
+        "TOOL-AI-052 (OpenArt)",
+        "TOOL-AI-055 (Seedream 4.0)",
+        "TOOL-AI-056 (OpenArt Photorealistic)"
+      ],
+      "related_workflows": [
+        "PROC-VIDEO-002 (Multi-Image Reference Video Generation)"
+      ],
+      "department_mapping": [
+        "Social Media",
+        "Content Creation",
+        "Marketing"
+      ],
+      "profession_mapping": [
+        "Social Media Manager",
+        "Content Creator",
+        "Video Producer"
+      ],
+      "tags": [
+        "social-media",
+        "storytelling",
+        "narrative-video",
+        "elements-feature"
+      ],
+      "version": "1.0",
+      "created": "2025-11-15",
+      "last_updated": "2025-11-15",
+      "source": "Video_012"
+    },
+    {
+      "object_id": "OBJ-DOC-101",
+      "name": "Time-Based Camera Prompt",
+      "category": "Document / Instruction",
+      "description": "Structured text prompt specifying camera movements at specific timestamps for cinematic video generation",
+      "attributes": [
+        "movement_sequence",
+        "timestamp_markers",
+        "camera_types (dolly, orbit, zoom)",
+        "cinematography_style",
+        "complexity_level"
+      ],
+      "common_actions": [
+        "Specify Camera Movements",
+        "Generate",
+        "Save",
+        "Reuse"
+      ],
+      "storage_location": "prompts/camera_movements/",
+      "file_format": "TXT, JSON",
+      "related_entities": [
+        "Product Commercial Video",
+        "Cinematography Specs"
+      ],
+      "related_tools": [
+        "TOOL-AI-051 (Google Veo 3.1)",
+        "TOOL-AI-052 (OpenArt)"
+      ],
+      "related_workflows": [
+        "PROC-VIDEO-001 (Multi-Scene Product Commercial Creation)"
+      ],
+      "department_mapping": [
+        "Video Production",
+        "Marketing"
+      ],
+      "profession_mapping": [
+        "Video Producer",
+        "Cinematographer"
+      ],
+      "tags": [
+        "camera-movements",
+        "time-based-prompts",
+        "cinematography",
+        "prompt-engineering"
+      ],
+      "version": "1.0",
+      "created": "2025-11-15",
+      "last_updated": "2025-11-15",
+      "source": "Video_012"
+    },
+    {
+      "object_id": "OBJ-MEDIA-110",
+      "name": "Multi-Scene Video",
+      "category": "Media / Video",
+      "description": "Unlimited-length video created by chaining multiple AI-generated scenes with seamless frame transitions",
+      "attributes": [
+        "scene_count",
+        "total_duration",
+        "transition_type (frame-chained)",
+        "scene_continuity",
+        "resolution",
+        "use_case"
+      ],
+      "common_actions": [
+        "Chain Scenes",
+        "Swap Frames",
+        "Generate",
+        "Export"
+      ],
+      "storage_location": "output/multi_scene/",
+      "file_format": "MP4",
+      "related_entities": [
+        "Start Frame",
+        "End Frame",
+        "Product Commercial Video"
+      ],
+      "related_tools": [
+        "TOOL-AI-051 (Google Veo 3.1)",
+        "TOOL-AI-052 (OpenArt)"
+      ],
+      "related_workflows": [
+        "PROC-VIDEO-001 (Multi-Scene Product Commercial Creation)"
+      ],
+      "department_mapping": [
+        "Video Production",
+        "Marketing",
+        "Brand Management"
+      ],
+      "profession_mapping": [
+        "Video Producer",
+        "Brand Manager",
+        "Content Creator"
+      ],
+      "tags": [
+        "multi-scene",
+        "frame-chaining",
+        "unlimited-length",
+        "veo-3.1"
+      ],
+      "version": "1.0",
+      "created": "2025-11-15",
+      "last_updated": "2025-11-15",
+      "source": "Video_012"
+    }
+  ]
+}

@@ -1,0 +1,824 @@
+{
+  "variation_guidance": {
+    "full_research_cycle": {
+      "total_investment": "4-6 hours for discovery through reporting",
+      "rationale": "Complete end-to-end workflow for maximum taxonomy enrichment",
+      "recommended_phases": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    "taxonomy_only_cycle": {
+      "time_savings": "Focus 3-4 hours on taxonomy enrichment only",
+      "skip_phases": [
+        0,
+        1,
+        2
+      ],
+      "rationale": "Process backlog of transcribed videos without new discovery",
+      "recommended_phases": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    "light_research_cycle": {
+      "time_savings": "Saves 3-4 hours, builds video library for future analysis",
+      "skip_phases": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "rationale": "Discovery and transcription only, save taxonomy extraction for later batch processing",
+      "recommended_phases": [
+        0,
+        1,
+        2
+      ]
+    }
+  },
+  "structure": {
+    "workflow_type": "Sequential research pipeline with parallel influencer tracking",
+    "total_tasks": 10,
+    "total_estimated_steps": 85,
+    "total_phases": 9,
+    "total_milestones": 3
+  },
+  "tags": [
+    "ai-research",
+    "video-transcription",
+    "taxonomy-extraction",
+    "influencer-tracking",
+    "perplexity-research",
+    "content-discovery",
+    "tool-library",
+    "recurring-workflow",
+    "knowledge-management"
+  ],
+  "milestones": [
+    {
+      "milestone_id": "MIL-PROJ-AI-002-001",
+      "milestone_name": "Tutorial Sources Identified",
+      "phase": "0-1",
+      "description": "New AI tutorial videos discovered via Perplexity and influencers tracked",
+      "task_templates": [
+        "TASK-TEMPLATE-AI-021",
+        "TASK-TEMPLATE-AI-022"
+      ],
+      "estimated_duration": "30-50 minutes",
+      "deliverables": [
+        "Research session JSON file (YYYY-MM-WXX_AI_Tutorials_Research.json)",
+        "10-15 videos identified with URLs, creators, metadata",
+        "Influencer_Database.json updated with new creators",
+        "YouTube_Channels.json updated with metrics"
+      ],
+      "success_metrics": {
+        "quantitative": [
+          "Videos discovered >= 10",
+          "Video recency <= 30 days",
+          "New influencers identified >= 1",
+          "Quality score (relevance + educational value) >= 80%"
+        ],
+        "qualitative": [
+          "Videos match research criteria (AI tutorials, actionable content)",
+          "Creators categorized by content focus",
+          "Monitoring priorities assigned accurately"
+        ]
+      },
+      "checklist_items": [
+        "CHK-009",
+        "CHK-010",
+        "CHK-011",
+        "CHK-012"
+      ]
+    },
+    {
+      "milestone_id": "MIL-PROJ-AI-002-002",
+      "milestone_name": "Videos Transcribed",
+      "phase": "2",
+      "description": "High-priority videos transcribed and stored in Videos library",
+      "task_templates": "TASK-TEMPLATE-AI-023",
+      "estimated_duration": "1.5-2.5 hours (3-5 videos)",
+      "deliverables": [
+        "3-5 Video_XXX.md files with complete transcriptions",
+        "VIDEOS_INDEX.md updated with new entries",
+        "Creator attribution and channel URLs included",
+        "Videos ready for taxonomy extraction"
+      ],
+      "success_metrics": {
+        "quantitative": [
+          "Videos transcribed >= 3",
+          "Transcription accuracy >= 95%",
+          "Metadata completeness >= 100%",
+          "VIDEOS_INDEX.md updated within 24 hours"
+        ],
+        "qualitative": [
+          "Transcripts formatted consistently",
+          "Key timestamps identified",
+          "Creator profiles complete in influencer database"
+        ]
+      },
+      "checklist_items": [
+        "CHK-013",
+        "CHK-014",
+        "CHK-015",
+        "CHK-016"
+      ]
+    },
+    {
+      "milestone_id": "MIL-PROJ-AI-002-003",
+      "milestone_name": "Taxonomy Enriched",
+      "phase": "3-9",
+      "description": "Video content analyzed and taxonomy libraries updated with new entities",
+      "task_templates": [
+        "TASK-TEMPLATE-AI-024",
+        "TASK-TEMPLATE-AI-025",
+        "TASK-TEMPLATE-AI-026",
+        "TASK-TEMPLATE-AI-027",
+        "TASK-TEMPLATE-AI-028",
+        "TASK-TEMPLATE-AI-029",
+        "TASK-TEMPLATE-AI-030"
+      ],
+      "estimated_duration": "3-4 hours",
+      "deliverables": [
+        "Video_XXX_Library_Mapping_Report.md (per video)",
+        "5-10 new tool entries in Tools/AI_Tools/",
+        "Objects library updated with new entities",
+        "3-5 new processes/workflows documented",
+        "Profession mappings updated",
+        "Cross-reference index updated",
+        "Research session summary report"
+      ],
+      "success_metrics": {
+        "quantitative": [
+          "New tools added >= 5",
+          "New processes documented >= 3",
+          "Objects added >= 10",
+          "Cross-references created >= 20",
+          "Library mapping reports completed = 100% of videos"
+        ],
+        "qualitative": [
+          "Tool metadata complete and accurate",
+          "Workflows clearly documented and actionable",
+          "Profession mappings relevant and useful",
+          "Cross-references accurate and bidirectional"
+        ]
+      },
+      "checklist_items": [
+        "CHK-017",
+        "CHK-018",
+        "CHK-019",
+        "CHK-020",
+        "CHK-021",
+        "CHK-022",
+        "CHK-023"
+      ]
+    }
+  ],
+  "created_date": "2025-11-13",
+  "version": "1.0",
+  "metadata": {
+    "description": "Complete workflow for discovering AI tutorial videos via Perplexity, tracking influencers, transcribing content, and extracting taxonomy (tools, objects, actions, processes, professions) to enrich the library system.",
+    "prerequisites": [
+      "Perplexity account (free or Pro)",
+      "Claude Desktop or API access (for taxonomy extraction)",
+      "Video transcription service (YouTube auto-captions or paid service)",
+      "Access to LIBRARIES/Researches/ directory",
+      "Familiarity with taxonomy structure (Tools, Objects, Actions, Processes, Professions)"
+    ],
+    "estimated_duration": "4-6 hours per research cycle (weekly)",
+    "complexity": "High",
+    "cost_estimate": {
+      "initial_setup": "Time only (no cost)",
+      "per_cycle": "Time only (no cost)",
+      "cost_breakdown": [
+        "Perplexity research: 15-30 min (free tier or Pro $20/month)",
+        "Video transcription: 30-45 min (automated via tools)",
+        "Taxonomy extraction: 3-4 hours (manual analysis)",
+        "All tools: Free (Perplexity, YouTube transcription services)"
+      ]
+    },
+    "primary_department": "AI",
+    "name": "AI Tutorial Research to Taxonomy Integration",
+    "success_criteria": [
+      "10-15 new video tutorials discovered per week",
+      "3-5 high-priority videos transcribed per week",
+      "5-10 new tools added to taxonomy per week",
+      "3-5 new workflows/processes documented per week",
+      "Influencer database growth (2-3 new creators/month)",
+      "VIDEOS_INDEX.md maintained current (updated weekly)"
+    ],
+    "roi_estimate": "10-15 new tools/week discovered, 3-5 workflows documented, influencer network growth",
+    "best_for": [
+      "AI research teams tracking emerging tools and techniques",
+      "Content teams building AI tutorial libraries",
+      "Product teams monitoring competitive landscape",
+      "Marketing teams identifying influencer partnerships",
+      "Organizations maintaining comprehensive AI tool taxonomies"
+    ],
+    "departments_involved": [
+      "AI",
+      "MARKETING"
+    ],
+    "project_type": "Recurring Research Workflow"
+  },
+  "task_sequence": [
+    {
+      "sequence_number": 1,
+      "task_template_id": "TASK-TEMPLATE-AI-021",
+      "task_name": "Discover AI Tutorial Content via Perplexity",
+      "phase": 0,
+      "milestone": "MIL-PROJ-AI-002-001",
+      "estimated_duration": "15-30 minutes",
+      "complexity": "Low",
+      "department": "AI",
+      "dependencies": null,
+      "inputs_required": [
+        "Perplexity account (free or Pro)",
+        "Target search queries (AI tutorials, tool names, influencers)",
+        "Date range filters (last 7-30 days)",
+        "Research session template (RESEARCH_TEMPLATE.json)"
+      ],
+      "outputs_produced": [
+        "YYYY-MM-WXX_AI_Tutorials_Research.json with 10-15 videos",
+        "Video metadata (URL, title, creator, publish date, description)",
+        "Quality assessment notes",
+        "Transcription priority rankings"
+      ],
+      "step_templates": [
+        "STEP-TASK-TEMPLATE-AI-021-01",
+        "STEP-TASK-TEMPLATE-AI-021-02",
+        "STEP-TASK-TEMPLATE-AI-021-03",
+        "STEP-TASK-TEMPLATE-AI-021-04",
+        "STEP-TASK-TEMPLATE-AI-021-05",
+        "STEP-TASK-TEMPLATE-AI-021-06"
+      ]
+    },
+    {
+      "sequence_number": 2,
+      "task_template_id": "TASK-TEMPLATE-AI-022",
+      "task_name": "Track AI Tutorial Influencers",
+      "phase": 1,
+      "milestone": "MIL-PROJ-AI-002-001",
+      "estimated_duration": "15-20 minutes",
+      "complexity": "Low",
+      "department": "AI",
+      "dependencies": "TASK-TEMPLATE-AI-021 complete",
+      "inputs_required": [
+        "Discovered videos from Task 1",
+        "Creator names and channel URLs",
+        "Influencer_Database.json",
+        "YouTube_Channels.json"
+      ],
+      "outputs_produced": [
+        "Influencer_Database.json updated",
+        "YouTube_Channels.json updated with metrics",
+        "New creator profiles (1-3 per research cycle)",
+        "Monitoring schedule updated"
+      ],
+      "step_templates": [
+        "STEP-TASK-TEMPLATE-AI-022-01",
+        "STEP-TASK-TEMPLATE-AI-022-02",
+        "STEP-TASK-TEMPLATE-AI-022-03",
+        "STEP-TASK-TEMPLATE-AI-022-04",
+        "STEP-TASK-TEMPLATE-AI-022-05"
+      ]
+    },
+    {
+      "sequence_number": 4,
+      "task_template_id": "TASK-TEMPLATE-AI-024",
+      "task_name": "Initial Video Analysis - Entity Inventory",
+      "phase": 3,
+      "milestone": "MIL-PROJ-AI-002-003",
+      "estimated_duration": "30-45 minutes",
+      "complexity": "High",
+      "department": "AI",
+      "dependencies": "TASK-TEMPLATE-AI-023 complete",
+      "inputs_required": [
+        "Transcribed Video_XXX.md files",
+        "Taxonomy_Analysis_and_Updates_Prompt.md (Phase 1 instructions)",
+        "Existing taxonomy libraries (Tools, Objects, Actions, Processes)"
+      ],
+      "outputs_produced": [
+        "Tools inventory (all tools mentioned)",
+        "Objects inventory (data types, formats, concepts)",
+        "Actions inventory (capabilities, operations)",
+        "Initial categorization by library type"
+      ],
+      "step_templates": [
+        "STEP-TASK-TEMPLATE-AI-024-01",
+        "STEP-TASK-TEMPLATE-AI-024-02",
+        "STEP-TASK-TEMPLATE-AI-024-03",
+        "STEP-TASK-TEMPLATE-AI-024-04",
+        "STEP-TASK-TEMPLATE-AI-024-05",
+        "STEP-TASK-TEMPLATE-AI-024-06",
+        "STEP-TASK-TEMPLATE-AI-024-07",
+        "STEP-TASK-TEMPLATE-AI-024-08"
+      ]
+    },
+    {
+      "sequence_number": 5,
+      "task_template_id": "TASK-TEMPLATE-AI-025",
+      "task_name": "Gap Analysis - New vs. Existing",
+      "phase": 4,
+      "milestone": "MIL-PROJ-AI-002-003",
+      "estimated_duration": "20-30 minutes",
+      "complexity": "Medium",
+      "department": "AI",
+      "dependencies": "TASK-TEMPLATE-AI-024 complete",
+      "inputs_required": [
+        "Entity inventory from Task 4",
+        "Existing taxonomy files (all libraries)",
+        "Taxonomy_Analysis_and_Updates_Prompt.md (Phase 2 instructions)"
+      ],
+      "outputs_produced": [
+        "Gap analysis report (new tools, objects, actions)",
+        "Update requirements list (existing entities to enhance)",
+        "Priority rankings (High/Medium/Low)",
+        "Taxonomy roadmap for this research cycle"
+      ],
+      "step_templates": [
+        "STEP-TASK-TEMPLATE-AI-025-01",
+        "STEP-TASK-TEMPLATE-AI-025-02",
+        "STEP-TASK-TEMPLATE-AI-025-03",
+        "STEP-TASK-TEMPLATE-AI-025-04",
+        "STEP-TASK-TEMPLATE-AI-025-05",
+        "STEP-TASK-TEMPLATE-AI-025-06",
+        "STEP-TASK-TEMPLATE-AI-025-07"
+      ]
+    },
+    {
+      "sequence_number": 6,
+      "task_template_id": "TASK-TEMPLATE-AI-026",
+      "task_name": "Tool Library Creation",
+      "phase": 5,
+      "milestone": "MIL-PROJ-AI-002-003",
+      "estimated_duration": "60-90 minutes",
+      "complexity": "High",
+      "department": "AI",
+      "dependencies": "TASK-TEMPLATE-AI-025 complete",
+      "inputs_required": [
+        "Gap analysis report (new tools list)",
+        "Video transcripts for tool context",
+        "Tool template (TOOL-AI-XXX.json)",
+        "Taxonomy_Analysis_and_Updates_Prompt.md (Phase 3 instructions)"
+      ],
+      "outputs_produced": [
+        "5-10 new tool JSON files",
+        "Complete tool metadata (pricing, features, integrations)",
+        "Use cases documented from videos",
+        "Tool relationships mapped"
+      ],
+      "step_templates": [
+        "STEP-TASK-TEMPLATE-AI-026-01",
+        "STEP-TASK-TEMPLATE-AI-026-02",
+        "STEP-TASK-TEMPLATE-AI-026-03",
+        "STEP-TASK-TEMPLATE-AI-026-04",
+        "STEP-TASK-TEMPLATE-AI-026-05",
+        "STEP-TASK-TEMPLATE-AI-026-06",
+        "STEP-TASK-TEMPLATE-AI-026-07",
+        "STEP-TASK-TEMPLATE-AI-026-08",
+        "STEP-TASK-TEMPLATE-AI-026-09",
+        "STEP-TASK-TEMPLATE-AI-026-10"
+      ]
+    },
+    {
+      "sequence_number": 7,
+      "task_template_id": "TASK-TEMPLATE-AI-027",
+      "task_name": "Objects Library Updates",
+      "phase": 6,
+      "milestone": "MIL-PROJ-AI-002-003",
+      "estimated_duration": "30-45 minutes",
+      "complexity": "Medium",
+      "department": "AI",
+      "dependencies": "TASK-TEMPLATE-AI-025 complete",
+      "inputs_required": [
+        "Objects inventory from Task 4",
+        "Gap analysis (new objects list)",
+        "Taxonomy_Analysis_and_Updates_Prompt.md (Phase 4 instructions)"
+      ],
+      "outputs_produced": [
+        "New object entries in Objects library",
+        "Object definitions and examples",
+        "Relationships to tools and actions"
+      ],
+      "step_templates": [
+        "STEP-TASK-TEMPLATE-AI-027-01",
+        "STEP-TASK-TEMPLATE-AI-027-02",
+        "STEP-TASK-TEMPLATE-AI-027-03",
+        "STEP-TASK-TEMPLATE-AI-027-04",
+        "STEP-TASK-TEMPLATE-AI-027-05",
+        "STEP-TASK-TEMPLATE-AI-027-06"
+      ]
+    },
+    {
+      "sequence_number": 8,
+      "task_template_id": "TASK-TEMPLATE-AI-028",
+      "task_name": "Actions/Processes/Professions Updates",
+      "phase": 7,
+      "milestone": "MIL-PROJ-AI-002-003",
+      "estimated_duration": "45-60 minutes",
+      "complexity": "High",
+      "department": "AI",
+      "dependencies": "TASK-TEMPLATE-AI-026, TASK-TEMPLATE-AI-027 complete",
+      "inputs_required": [
+        "Workflows extracted from videos",
+        "Tool and object updates from Tasks 6-7",
+        "Taxonomy_Analysis_and_Updates_Prompt.md (Phase 5 instructions)"
+      ],
+      "outputs_produced": [
+        "3-5 new process/workflow entries",
+        "Actions library updated",
+        "Profession mappings enhanced",
+        "Use case documentation"
+      ],
+      "step_templates": [
+        "STEP-TASK-TEMPLATE-AI-028-01",
+        "STEP-TASK-TEMPLATE-AI-028-02",
+        "STEP-TASK-TEMPLATE-AI-028-03",
+        "STEP-TASK-TEMPLATE-AI-028-04",
+        "STEP-TASK-TEMPLATE-AI-028-05",
+        "STEP-TASK-TEMPLATE-AI-028-06",
+        "STEP-TASK-TEMPLATE-AI-028-07",
+        "STEP-TASK-TEMPLATE-AI-028-08"
+      ]
+    },
+    {
+      "sequence_number": 9,
+      "task_template_id": "TASK-TEMPLATE-AI-029",
+      "task_name": "Cross-Referencing",
+      "phase": 8,
+      "milestone": "MIL-PROJ-AI-002-003",
+      "estimated_duration": "30-45 minutes",
+      "complexity": "Medium",
+      "department": "AI",
+      "dependencies": "TASK-TEMPLATE-AI-026, AI-027, AI-028 complete",
+      "inputs_required": [
+        "All new taxonomy entries from Tasks 6-8",
+        "Existing taxonomy cross-reference index",
+        "Taxonomy_Analysis_and_Updates_Prompt.md (Phase 6 instructions)"
+      ],
+      "outputs_produced": [
+        "Tool-to-tool relationships mapped",
+        "Tool-to-process connections established",
+        "Profession-to-tool mappings complete",
+        "Integration points documented"
+      ],
+      "step_templates": [
+        "STEP-TASK-TEMPLATE-AI-029-01",
+        "STEP-TASK-TEMPLATE-AI-029-02",
+        "STEP-TASK-TEMPLATE-AI-029-03",
+        "STEP-TASK-TEMPLATE-AI-029-04",
+        "STEP-TASK-TEMPLATE-AI-029-05",
+        "STEP-TASK-TEMPLATE-AI-029-06"
+      ]
+    },
+    {
+      "sequence_number": 10,
+      "task_template_id": "TASK-TEMPLATE-AI-030",
+      "task_name": "Comprehensive Reporting",
+      "phase": 9,
+      "milestone": "MIL-PROJ-AI-002-003",
+      "estimated_duration": "20-30 minutes",
+      "complexity": "Low",
+      "department": "AI",
+      "dependencies": "TASK-TEMPLATE-AI-024 through AI-029 complete",
+      "inputs_required": [
+        "All taxonomy updates from Tasks 4-9",
+        "Research session JSON",
+        "RESEARCH_INDEX.json",
+        "Taxonomy_Analysis_and_Updates_Prompt.md (Phase 7 instructions)"
+      ],
+      "outputs_produced": [
+        "Video_XXX_Library_Mapping_Report.md (per video)",
+        "Research session summary with metrics",
+        "RESEARCH_INDEX.json updated",
+        "Next research cycle priorities"
+      ],
+      "step_templates": [
+        "STEP-TASK-TEMPLATE-AI-030-01",
+        "STEP-TASK-TEMPLATE-AI-030-02",
+        "STEP-TASK-TEMPLATE-AI-030-03",
+        "STEP-TASK-TEMPLATE-AI-030-04",
+        "STEP-TASK-TEMPLATE-AI-030-05"
+      ]
+    }
+  ],
+  "phases": [
+    {
+      "phase_number": 0,
+      "phase_name": "Discovery - Perplexity Research",
+      "phase_description": "Discover newly published AI tutorial videos and emerging influencers via systematic Perplexity searches",
+      "duration": "15-30 minutes",
+      "complexity": "Low",
+      "dependencies": null,
+      "milestones": "MIL-PROJ-AI-002-001",
+      "output": "10-15 high-quality video tutorials identified with metadata",
+      "success_criteria": [
+        "Minimum 10 videos discovered matching quality criteria",
+        "Videos published within last 7-30 days",
+        "Creators identified and categorized",
+        "Research session documented in JSON format"
+      ]
+    },
+    {
+      "phase_number": 1,
+      "phase_name": "Influencer Tracking",
+      "phase_description": "Track and catalog AI tutorial creators across platforms (YouTube primary)",
+      "duration": "15-20 minutes",
+      "complexity": "Low",
+      "dependencies": "Phase 0 complete",
+      "milestones": "MIL-PROJ-AI-002-001",
+      "output": "Influencer database updated with new creators and channel metrics",
+      "success_criteria": [
+        "New influencers added to database with complete profiles",
+        "Existing influencer tracking updated (new videos, metrics)",
+        "YouTube channel metrics current (subscriber counts, upload frequency)",
+        "Monitoring priorities assigned (High/Medium/Low)"
+      ]
+    },
+    {
+      "phase_number": 2,
+      "phase_name": "Video Transcription",
+      "phase_description": "Transcribe selected high-priority videos for taxonomy extraction",
+      "duration": "30-45 minutes per video",
+      "complexity": "Medium",
+      "dependencies": "Phase 0-1 complete",
+      "milestones": "MIL-PROJ-AI-002-002",
+      "output": "3-5 videos transcribed with metadata and stored in Videos library",
+      "success_criteria": [
+        "Minimum 3 videos transcribed per research cycle",
+        "Transcripts formatted consistently (Video_XXX.md template)",
+        "VIDEOS_INDEX.md updated with new entries",
+        "Creator attribution and channel URLs included"
+      ]
+    },
+    {
+      "phase_number": 3,
+      "phase_name": "Initial Video Analysis",
+      "phase_description": "Inventory all tools, objects, and actions mentioned in transcribed videos",
+      "duration": "30-45 minutes",
+      "complexity": "High",
+      "dependencies": "Phase 2 complete",
+      "milestones": "MIL-PROJ-AI-002-003",
+      "output": "Complete inventory of entities mentioned in videos",
+      "success_criteria": [
+        "All tools identified and categorized",
+        "Objects inventory complete",
+        "Actions and processes listed",
+        "Initial categorization by library (Tools/Objects/Actions/Processes/Professions)"
+      ]
+    },
+    {
+      "phase_number": 4,
+      "phase_name": "Gap Analysis",
+      "phase_description": "Compare discovered entities against existing taxonomy to identify gaps",
+      "duration": "20-30 minutes",
+      "complexity": "Medium",
+      "dependencies": "Phase 3 complete",
+      "milestones": "MIL-PROJ-AI-002-003",
+      "output": "Gap analysis report listing new vs. existing entities",
+      "success_criteria": [
+        "New tools identified (not in current taxonomy)",
+        "Existing tools requiring updates identified",
+        "Missing objects, actions, processes documented",
+        "Priority ranking assigned (High/Medium/Low)"
+      ]
+    },
+    {
+      "phase_number": 5,
+      "phase_name": "Tool Library Creation",
+      "phase_description": "Create detailed entries for new tools discovered in videos",
+      "duration": "60-90 minutes",
+      "complexity": "High",
+      "dependencies": "Phase 4 complete",
+      "milestones": "MIL-PROJ-AI-002-003",
+      "output": "5-10 new tool entries created with complete metadata",
+      "success_criteria": [
+        "Each new tool has dedicated JSON file",
+        "Complete metadata (pricing, features, use cases, integrations)",
+        "Tool relationships mapped",
+        "Tags and categories assigned"
+      ]
+    },
+    {
+      "phase_number": 6,
+      "phase_name": "Objects Library Updates",
+      "phase_description": "Add new objects (data types, file formats, concepts) to taxonomy",
+      "duration": "30-45 minutes",
+      "complexity": "Medium",
+      "dependencies": "Phase 4 complete",
+      "milestones": "MIL-PROJ-AI-002-003",
+      "output": "Objects library enriched with video-discovered entities",
+      "success_criteria": [
+        "New objects documented with definitions",
+        "Relationships to tools and actions established",
+        "Examples from videos included"
+      ]
+    },
+    {
+      "phase_number": 7,
+      "phase_name": "Actions/Processes/Professions Updates",
+      "phase_description": "Document workflows, actions, and profession mappings from video tutorials",
+      "duration": "45-60 minutes",
+      "complexity": "High",
+      "dependencies": "Phase 5-6 complete",
+      "milestones": "MIL-PROJ-AI-002-003",
+      "output": "3-5 new processes/workflows documented, profession mappings updated",
+      "success_criteria": [
+        "Workflows extracted from tutorials documented",
+        "Actions library updated with new capabilities",
+        "Professions mapped to relevant tools and workflows",
+        "Use cases clearly documented"
+      ]
+    },
+    {
+      "phase_number": 8,
+      "phase_name": "Cross-Referencing",
+      "phase_description": "Establish relationships between new entities and existing taxonomy",
+      "duration": "30-45 minutes",
+      "complexity": "Medium",
+      "dependencies": "Phase 5-7 complete",
+      "milestones": "MIL-PROJ-AI-002-003",
+      "output": "All new entities cross-referenced with existing taxonomy",
+      "success_criteria": [
+        "Tool-to-tool relationships mapped",
+        "Tool-to-process connections established",
+        "Profession-to-tool mappings complete",
+        "Integration points documented"
+      ]
+    },
+    {
+      "phase_number": 9,
+      "phase_name": "Comprehensive Reporting",
+      "phase_description": "Generate reports summarizing discoveries and taxonomy updates",
+      "duration": "20-30 minutes",
+      "complexity": "Low",
+      "dependencies": "Phase 3-8 complete",
+      "milestones": "MIL-PROJ-AI-002-003",
+      "output": "Video library mapping report and research session summary",
+      "success_criteria": [
+        "Library mapping report created (Video_XXX_Library_Mapping_Report.md)",
+        "Research session JSON updated with metrics",
+        "RESEARCH_INDEX.json updated with cycle summary",
+        "Next research session priorities identified"
+      ]
+    }
+  ],
+  "entity_type": "TASK_MANAGERS",
+  "template_id": "Project-Template-001",
+  "workflow_diagram": {
+    "ascii_diagram": [
+      "=== MILESTONE 1: Tutorial Sources Identified ===",
+      "",
+      "Phase 0: Discovery",
+      "  └─> TASK-TEMPLATE-AI-021 (Perplexity Research)",
+      "      └─> Output: 10-15 videos discovered with metadata",
+      "",
+      "Phase 1: Influencer Tracking (Parallel)",
+      "  └─> TASK-TEMPLATE-AI-022 (Track Influencers)",
+      "      └─> Output: Influencer_Database.json + YouTube_Channels.json updated",
+      "",
+      "=== MILESTONE 2: Videos Transcribed ===",
+      "",
+      "Phase 2: Transcription",
+      "  └─> TASK-TEMPLATE-AI-023 (Transcribe Videos)",
+      "      └─> Output: 3-5 Video_XXX.md files, VIDEOS_INDEX.md updated",
+      "",
+      "=== MILESTONE 3: Taxonomy Enriched ===",
+      "",
+      "Phase 3: Initial Analysis",
+      "  └─> TASK-TEMPLATE-AI-024 (Entity Inventory)",
+      "      └─> Output: Tools, Objects, Actions inventories",
+      "",
+      "Phase 4: Gap Analysis",
+      "  └─> TASK-TEMPLATE-AI-025 (Compare with Existing)",
+      "      └─> Output: Gap report, priority rankings",
+      "",
+      "Phase 5: Tool Creation (Primary)",
+      "  └─> TASK-TEMPLATE-AI-026 (Create Tool Entries)",
+      "      └─> Output: 5-10 new tool JSON files",
+      "",
+      "Phase 6-7: Library Updates (Parallel)",
+      "  ├─> TASK-TEMPLATE-AI-027 (Objects Library)",
+      "  │   └─> Output: Objects library updated",
+      "  └─> TASK-TEMPLATE-AI-028 (Actions/Processes/Professions)",
+      "      └─> Output: 3-5 workflows, profession mappings",
+      "",
+      "Phase 8: Cross-Referencing",
+      "  └─> TASK-TEMPLATE-AI-029 (Map Relationships)",
+      "      └─> Output: Cross-reference index complete",
+      "",
+      "Phase 9: Reporting",
+      "  └─> TASK-TEMPLATE-AI-030 (Generate Reports)",
+      "      └─> Output: Library mapping reports, session summary"
+    ],
+    "description": "Visual representation of AI tutorial research to taxonomy integration"
+  },
+  "last_updated": "2025-11-13",
+  "version_history": {
+    "date": "2025-11-13",
+    "author": "AI Assistant (Claude Sonnet 4.5)",
+    "version": "1.0",
+    "changes": "Initial template creation based on Researches library restructuring and Taxonomy_Analysis_and_Updates_Prompt.md integration"
+  },
+  "sub_entity": "Project_Template",
+  "optimization_tips": [
+    "Run Phases 0-1 (Discovery + Influencer Tracking) together in one session (30-50 min)",
+    "Batch transcription (Phase 2) for multiple videos at once to optimize time",
+    "Use Claude Desktop with Taxonomy_Analysis_and_Updates_Prompt.md for Phases 3-9 to accelerate",
+    "Focus on high-priority videos (3-5 per week) rather than transcribing all discovered videos",
+    "Update RESEARCH_INDEX.json after each complete cycle to track progress over time",
+    "Schedule research cycles weekly (e.g., every Monday) for consistency"
+  ],
+  "related_templates": {
+    "follow_up_templates": [
+      "Future: Automated Video Summarization",
+      "Future: AI Tool Comparison Reports",
+      "Future: Influencer Partnership Outreach"
+    ],
+    "complementary_templates": [
+      "TASK-TEMPLATE-VIDEO-001: Video Transcription (existing, can be referenced for Task 3)",
+      "TASK-TEMPLATE-AI-006: AI Research and Discovery (similar discovery patterns)",
+      "TASK-TEMPLATE-AI-014: Trend Analysis (can be used for quarterly trend reports)"
+    ]
+  },
+  "resource_requirements": {
+    "technical_requirements": {
+      "infrastructure": [
+        "Access to LIBRARIES/Researches/ directory",
+        "File storage for videos and transcripts",
+        "Stable internet connection"
+      ],
+      "software": [
+        "Perplexity (free or Pro subscription $20/month)",
+        "Claude Desktop or API access",
+        "Video transcription service (YouTube auto-captions or paid)",
+        "Text editor (VS Code recommended)",
+        "Git for version control (optional)"
+      ]
+    },
+    "financial_requirements": {
+      "one_time_costs": "$0 (all free tools available)",
+      "roi_timeline": "Immediate (taxonomy enrichment ongoing value)",
+      "recurring_costs": "$0-20/month (Perplexity Pro optional)"
+    },
+    "human_resources": {
+      "total_time_investment": "4-6 hours per research cycle (weekly)",
+      "optimal_team": [
+        "1 AI Research Specialist",
+        "1 Taxonomy Specialist",
+        "1 Content Operations Specialist (video transcription)",
+        "1 Marketing Analyst (influencer tracking)"
+      ],
+      "minimum_team": [
+        "1 AI Research Specialist (Phases 0-2, 9)",
+        "1 Taxonomy Specialist (Phases 3-8)"
+      ]
+    }
+  },
+  "risk_assessment": {
+    "low_risks": {
+      "risk": "Perplexity rate limits hit",
+      "impact": "Low",
+      "probability": "Low",
+      "mitigation": "Upgrade to Pro subscription or spread research across multiple days"
+    },
+    "high_risks": {
+      "risk": "Taxonomy extraction quality inconsistent",
+      "impact": "High",
+      "probability": "Medium",
+      "mitigation": "Follow Taxonomy_Analysis_and_Updates_Prompt.md strictly, use Claude for assistance"
+    },
+    "medium_risks": [
+      {
+        "risk": "Video transcription inaccuracies",
+        "impact": "Medium",
+        "probability": "Low",
+        "mitigation": "Use high-quality transcription services, verify key tool names manually"
+      },
+      {
+        "risk": "Influencer database grows too large to maintain",
+        "impact": "Medium",
+        "probability": "Low",
+        "mitigation": "Prune inactive creators quarterly, focus on high-priority channels"
+      }
+    ]
+  }
+}

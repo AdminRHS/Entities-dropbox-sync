@@ -1,0 +1,24 @@
+Action,Object,Full_Phrase,Department,Frequency,Existing_RSP_ID,Suggested_RSP_ID,Typical_Tools,Source_Activity
+install,ide,install ide,AID,2,NONE,RESP-AID-194,"TOL-221,TOL-201",Antigravity Installation
+configure,ide,configure ide,AID,2,NONE,RESP-AID-195,"TOL-221,TOL-201",IDE Configuration with Models
+create,automation infrastructure,create automation infrastructure,AID,1,NONE,RESP-AID-196,"TOL-081,TOL-119",Cloud Automation Setup
+create,service account,create service account,AID,1,NONE,RESP-AID-197,TOL-081,Google Cloud Service Account Creation
+process,daily files,process daily files,AID,Daily,NONE,RESP-AID-198,NONE,Daily Activity File Processing
+design,database schema,design database schema,AID/DEV,2,NONE,RESP-AID-199,NONE,Microservice Database Schema Design
+create,course covers,create course covers,DGN,2,NONE,RESP-DGN-XXX,"TOL-156,TOL-224",Game Academy Course Visual Design
+generate,marketing banners,generate marketing banners,DGN,1,NONE,RESP-DGN-XXX,"TOL-156,TOL-224",Black Friday Banner Generation
+organize,portfolio,organize portfolio,DGN,2,NONE,RESP-DGN-XXX,TOL-058,Portfolio Preparation for Client Interview
+create,animation instructions,create animation instructions,DGN,1,NONE,RESP-DGN-XXX,TOL-223,Runway Animation Instruction Development
+refine,character designs,refine character designs,DGN,1,NONE,RESP-DGN-XXX,"TOL-225,TOL-156",Character Design Refinement with ChatGPT-5
+prepare,training materials,prepare training materials,DGN/LGN,1,NONE,RESP-DGN-XXX,NONE,Lead Generator Training Materials
+fix,oauth bugs,fix oauth bugs,DEV,1,NONE,RESP-DEV-XXX,TOL-201,Authentication Bug Fixes
+configure,ci/cd pipeline,configure ci/cd pipeline,DEV,1,NONE,RESP-DEV-XXX,NONE,Continuous Integration Setup
+test,api endpoints,test api endpoints,DEV,1,NONE,RESP-DEV-XXX,NONE,API Validation Testing
+create,leads from google maps,create leads from google maps,LGN,Daily,NONE,RESP-LGN-XXX,NONE,Google Maps Lead Sourcing
+send,follow-up messages,send follow-up messages,LGN,Daily,NONE,RESP-LGN-XXX,TOL-092,CRM Outreach Campaigns
+update,crm database,update crm database,LGN,Daily,NONE,RESP-LGN-XXX,NONE,Lead Records Maintenance
+conduct,video interviews,conduct video interviews,HRM,2,NONE,RESP-HRM-XXX,TOL-092,Remote Candidate Interviews
+update,notion ats,update notion ats,HRM,1,NONE,RESP-HRM-XXX,TOL-058,Applicant Tracking System Updates
+track,employee hours,track employee hours,FNC,Daily,NONE,RESP-FNC-XXX,TOL-045,Work Time Monitoring
+design,automation workflow,design automation workflow,FNC/AID,1,NONE,RESP-FNC-XXX,TOL-119,n8n Workflow Planning
+edit,course videos,edit course videos,VID,1,NONE,RESP-VID-XXX,NONE,Educational Video Post-Production

@@ -1,0 +1,31 @@
+{
+  "entity_type": "TASK_MANAGERS",
+  "sub_entity": "Step_Template",
+  "step_id": "VIDEO-VIDEO-002-01",
+  "step_number": 1,
+  "parent_task": "TASK-TEMPLATE-VIDEO-002",
+  "task_name": "Create Multi-Image Reference Video",
+  "name": "Generate character portrait reference image",
+  "action": "generate",
+  "tool": "TOOL-AI-056 (OpenArt Photorealistic)",
+  "responsibility": "Social Media Manager",
+  "placement": "OpenArt - Image section",
+  "duration": "2-3 minutes",
+  "dependencies": [],
+  "inputs": [
+    "Character description (age, gender, appearance, clothing)"
+  ],
+  "outputs": [
+    "Photorealistic character portrait image"
+  ],
+  "success_criteria": "High-quality portrait matching desired character description",
+  "implementation_notes": "High-quality portrait matching desired character description - Implementation details based on the Create Multi-Image Reference Video workflow.",
+  "tags": [
+    "generate",
+    "template-task-video-002"
+  ],
+  "version": "1.0",
+  "created": "2025-11-15",
+  "last_updated": "2025-11-15",
+  "source": "Video_012"
+}

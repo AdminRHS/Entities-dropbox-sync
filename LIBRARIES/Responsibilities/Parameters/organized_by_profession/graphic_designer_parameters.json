@@ -1,0 +1,184 @@
+{
+  "metadata": {
+    "profession_name": "graphic designer",
+    "department": "designers",
+    "created_date": "2025-01-19T00:00:00.000Z",
+    "description": "Parameters specific to graphic designer types and visual design activities",
+    "data_source": "parameters.json", 
+    "organization_method": "type_to_profession_mapping"
+  },
+  "summary": {
+    "unique_types": [
+      "web banner",
+      "social media banner",
+      "email banner",
+      "corporate brandbook",
+      "visual identity guideline",
+      "product brandbook",
+      "personal contact card",
+      "social media business card",
+      "QR code business card",
+      "mascot",
+      "instructional character",
+      "iconic character",
+      "storytelling character",
+      "user avatar",
+      "promotional email template",
+      "newsletter template",
+      "feedback email template"
+    ],
+    "total_parameters": 48,
+    "parameter_categories": ["branding", "visual_design", "character_design", "template_design", "identity_systems"]
+  },
+  "parameters_by_type": {
+    "web_banner": [
+      "image type",
+      "dimension",
+      "font style",
+      "size",
+      "CTA"
+    ],
+    "social_media_banner": [
+      "image type",
+      "dimension", 
+      "font style",
+      "size",
+      "CTA"
+    ],
+    "email_banner": [
+      "image type",
+      "dimension",
+      "image file format",
+      "font style",
+      "font size",
+      "CTA button design",
+      "types of graphic elements"
+    ],
+    "corporate_brandbook": [
+      "font accessibility",
+      "digital UI standard",
+      "image alternative text",
+      "platform consistency"
+    ],
+    "visual_identity_guideline": [
+      "logo placement",
+      "color palette",
+      "typography",
+      "imagery",
+      "composition"
+    ],
+    "product_brandbook": [
+      "content structure",
+      "accessibility standards",
+      "accessibility features",
+      "UI design principles",
+      "brand compliance standards"
+    ],
+    "personal_contact_card": [
+      "name and title",
+      "modern design",
+      "essential contact information"
+    ],
+    "social_media_business_card": [
+      "modern design",
+      "contact information"
+    ],
+    "QR_code_business_card": [
+      "name and title",
+      "contact information",
+      "QR Code placement"
+    ],
+    "mascot": [
+      "character concept",
+      "personality traits"
+    ],
+    "instructional_character": [
+      "educational appeal",
+      "approachability"
+    ],
+    "iconic_character": [
+      "distinctive appearance",
+      "emotional expression", 
+      "timelessness"
+    ],
+    "storytelling_character": [
+      "character background",
+      "visual design",
+      "emotional expression"
+    ],
+    "user_avatar": [
+      "style",
+      "key features",
+      "color scheme",
+      "interactive capabilities"
+    ],
+    "promotional_email_template": [
+      "header",
+      "subject line",
+      "hero image",
+      "headline",
+      "body content",
+      "CTA",
+      "social media links",
+      "footer"
+    ],
+    "newsletter_template": [
+      "Header",
+      "Title/banner",
+      "Introduction section",
+      "Body content", 
+      "CTA",
+      "Footer"
+    ],
+    "feedback_email_template": [
+      "subject line",
+      "personalized greeting",
+      "introduction",
+      "clear Instructions",
+      "CTA",
+      "contact info"
+    ]
+  },
+  "entries": [
+    {
+      "Types": "web banner",
+      "Parameters": "image type"
+    },
+    {
+      "Types": "web banner",
+      "Parameters": "dimension"
+    },
+    {
+      "Types": "web banner",
+      "Parameters": "font style"
+    },
+    {
+      "Types": "web banner",
+      "Parameters": "size"
+    },
+    {
+      "Types": "web banner",
+      "Parameters": "CTA"
+    },
+    {
+      "Types": "corporate brandbook",
+      "Parameters": "font accessibility"
+    },
+    {
+      "Types": "corporate brandbook",
+      "Parameters": "digital UI standard"
+    },
+    {
+      "Types": "corporate brandbook",
+      "Parameters": "image alternative text"
+    },
+    {
+      "Types": "corporate brandbook",
+      "Parameters": "platform consistency"
+    },
+    {
+      "Types": "mascot",
+      "Parameters": "character concept"
+    }
+  ]
+}

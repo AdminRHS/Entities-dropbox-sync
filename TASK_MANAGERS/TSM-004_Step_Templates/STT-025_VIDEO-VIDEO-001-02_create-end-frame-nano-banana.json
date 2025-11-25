@@ -1,0 +1,28 @@
+{
+  "entity_type": "TASK_MANAGERS",
+  "sub_entity": "Step_Template",
+  "step_id": "VIDEO-VIDEO-001-02",
+  "step_number": 2,
+  "parent_task": "TASK-TEMPLATE-VIDEO-001",
+  "task_name": "Create Multi-Scene Product Commercial",
+  "name": "Create end frame with Nano Banana",
+  "action": "modify",
+  "tool": "TOOL-AI-046 (Nano Banana)",
+  "responsibility": "Product Marketer",
+  "placement": "OpenArt - Image section",
+  "duration": "5 minutes",
+  "dependencies": [1],
+  "inputs": [
+    "Start frame image"
+  ],
+  "outputs": [
+    "Modified end frame (black background, rotated product)"
+  ],
+  "success_criteria": "End frame matches start frame product but with different background/angle",
+  "implementation_notes": "Use Nano Banana on OpenArt to modify the start frame image. Change the background (e.g., from white to black) and/or rotate the product to create a visually distinct end frame that maintains product consistency.",
+  "tags": ["nano-banana", "end-frame", "image-modification", "frame-control"],
+  "version": "1.0",
+  "created": "2025-11-15",
+  "last_updated": "2025-11-15",
+  "source": "Video_012"
+}

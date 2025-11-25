@@ -1,0 +1,60 @@
+{
+  "entity_type": "BUSINESSES",
+  "sub_entity": "Ex_Client",
+  "company_id": "BUS-2025-024",
+  "company_name": "Amastar",
+  "status": "Reengagement_Queue",
+  "industry": "Unknown",
+  "company_size": "Unknown",
+  "location": "Unknown",
+  "relationship_start": "2025-09-19",
+  "lifetime_value": 0,
+  "current_monthly_revenue": 0,
+  "account_manager": "Kovalska_Anastasiya",
+  "decision_makers": [
+    {
+      "name": "Stefano",
+      "title": "Unknown",
+      "email": "stefano@amastar.it"
+    }
+  ],
+  "active_projects": [],
+  "relationship_health": "Weak",
+  "tags": [
+    "dormant",
+    "anastasia_portfolio",
+    "reengagement",
+    "needs_followup",
+    "needs_immediate_followup"
+  ],
+  "crm_link": "https://crm-s.com/member/leads/1140578",
+  "transcription_link": "Amastar Srl- Remote Helpers - 2025/09/04 11:51 EEST - Notes by Gemini",
+  "google_doc": "Email for Stefano",
+  "dropbox_path": "/Dropbox/Clients/Amastar Ld/email.md",
+  "last_contact": "2025-09-19",
+  "next_action": "do follow up in 2026",
+  "communication_history": [],
+  "notes": "Had intro call with Plamena, we sent the Agreement",
+  "email_content": "",
+  "approved": "FALSE",
+  "services_of_interest": [],
+  "urgency_level": "medium",
+  "budget_info": {
+    "budget_mentioned": false,
+    "estimated_value": null,
+    "currency": null
+  },
+  "next_actions": [
+    {
+      "action": "do follow up in 2026",
+      "source": "to_do_field",
+      "priority": "high"
+    }
+  ],
+  "last_contact_details": {
+    "date": "2025-09-19",
+    "days_ago": 64,
+    "recency": "stale"
+  },
+  "key_notes": "Had intro call with Plamena, we sent the Agreement"
+}

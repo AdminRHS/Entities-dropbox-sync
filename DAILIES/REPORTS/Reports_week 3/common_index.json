@@ -1,0 +1,28 @@
+{
+  "index_info": {
+    "index_name": "Shared Department Research Index",
+    "version": "1.0",
+    "created": "2025-11-16",
+    "last_updated": "2025-11-16",
+    "description": "Roll-up of research activity across everything stored in TASK_MANAGERS/RESEARCHES/."
+  },
+  "departments": [],
+  "aggregate_metrics": {
+    "sessions_logged": 0,
+    "sessions_integrated": 0,
+    "queue_items_open": 0,
+    "videos_discovered": 0,
+    "videos_transcribed": 0,
+    "tools_discovered": 0,
+    "tools_added": 0,
+    "influencers_tracked": 0
+  },
+  "sla": {
+    "research_to_integration_days_target": 5
+  },
+  "notes": [
+    "Populate the departments array with objects shaped like { \"scope\": \"Videos\", \"path\": \"./Videos\", \"last_synced\": \"YYYY-MM-DD\" }.",
+    "Update aggregate_metrics whenever new sessions are logged or ToDo queues change."
+  ]
+}
+

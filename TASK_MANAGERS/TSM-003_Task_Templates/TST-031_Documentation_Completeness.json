@@ -1,0 +1,23 @@
+{
+  "task_template_id": "Task-Template-031",
+  "task_template_name": "Documentation Completeness",
+  "category": "Analysis",
+  "department": "AI",
+  "description": "Assess completeness of documentation across all entities",
+  "estimated_hours": 0.5,
+  "step_templates": [
+    {
+      "step_template_id": "STEP-ANALYSIS-009-01",
+      "step_template_name": "Check README files"
+    },
+    {
+      "step_template_id": "STEP-ANALYSIS-009-02",
+      "step_template_name": "Verify description fields"
+    },
+    {
+      "step_template_id": "STEP-ANALYSIS-009-03",
+      "step_template_name": "Identify undocumented entities"
+    }
+  ],
+  "version": "1.0"
+}

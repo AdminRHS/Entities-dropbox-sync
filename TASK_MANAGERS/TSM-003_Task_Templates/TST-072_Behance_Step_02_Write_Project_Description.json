@@ -1,0 +1,61 @@
+{
+    "entity_type": "TASK_MANAGERS",
+    "sub_entity": "Task_Template",
+    "task_template_id": "Task-Template-101",
+    "task_template_name": "Write Project Description",
+    "action": "Write",
+    "object": "project description",
+    "context": "Behance portfolio publishing",
+    "description": "Write a compelling project description that explains objectives, process, and results for a Behance case study.",
+    "department": "MARKETING",
+    "estimated_duration": "30-45 minutes",
+    "priority": "High",
+    "status": "Template",
+    "dependencies": [
+        "Task-Template-100"
+    ],
+    "tools_required": [
+        "Behance (text editor)"
+    ],
+    "matched_tools": [
+        {
+            "name": "Behance",
+            "libraries_path": "ENTITIES/LIBRARIES/Tools/Behance.json"
+        }
+    ],
+    "checklist": [
+        {
+            "item": "Project objectives and challenges outlined",
+            "guide": "Include clear problem statements and constraints.",
+            "required": true
+        },
+        {
+            "item": "Design process and methodology described",
+            "guide": "Cover key phases, iterations, and tools used.",
+            "required": true
+        },
+        {
+            "item": "Results and impact documented",
+            "guide": "Highlight business or user outcomes and metrics where possible.",
+            "required": true
+        },
+        {
+            "item": "Narrative length between 500-1000 words",
+            "guide": "Keep content detailed but scannable.",
+            "required": false
+        }
+    ],
+    "success_criteria": [
+        "Clear problem–solution narrative is present.",
+        "Client/project context is understandable to a new reader.",
+        "Description showcases design thinking and problem-solving."
+    ],
+    "tags": [
+        "behance",
+        "portfolio",
+        "case_study",
+        "copywriting"
+    ],
+    "source": "Workflows/Behance_Project_Publishing_Workflow.yaml#step_2",
+    "version": "1.0"
+}

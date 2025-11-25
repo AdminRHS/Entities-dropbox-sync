@@ -1,0 +1,110 @@
+{
+  "entity_type": "TASK_MANAGERS",
+  "sub_entity": "Task_Template",
+  "template_id": "Task-Template-050",
+  "version": "1.0",
+  "created_date": "2025-11-17",
+  "last_updated": "2025-11-17",
+  "metadata": {
+    "name": "Search and Score Videos Using 0-100 System",
+    "description": "Research and score 8-12 videos using Perplexity AI and 0-100 relevance scoring system based on strategic priorities",
+    "action": "Search",
+    "object": "Videos",
+    "context": "using 0-100 scoring system aligned with strategic priorities",
+    "department": "AI",
+    "complexity": "Medium",
+    "estimated_duration": "1.5-2 hours",
+    "skill_level_required": "Intermediate",
+    "tools_required": [
+      "Perplexity AI (Creativity: 0.5, Structure mode ON)",
+      "YouTube (for direct search if needed)",
+      "Complete_Video_Workflow_Full_Instructions.md (scoring criteria)"
+    ],
+    "prerequisites": [
+      "Strategic priorities reviewed (current initiatives)",
+      "Department needs collected",
+      "Critical Priority Topics list (November 2025)",
+      "Preferred creators list"
+    ]
+  },
+  "workflow": {
+    "phase": 1,
+    "milestone": "MIL-PROJ-VIDEO-001-001",
+    "project_template": "Project-Template-008",
+    "dependencies": [],
+    "outputs": [
+      "8-12 videos identified with metadata",
+      "Full scoring breakdown for each video (Strategic + Tech + Actionable)",
+      "Strategic alignment justification",
+      "Tool/tech relevance analysis",
+      "Actionable value assessment"
+    ]
+  },
+  "steps": [
+    {
+      "step_number": 1,
+      "step_name": "Review strategic priorities",
+      "description": "Review daily reports, department needs, and Critical Priority Topics list",
+      "estimated_time": "15 minutes",
+      "tools": [
+        "Daily reports",
+        "Priority documents"
+      ],
+      "output": "List of 3-5 focus areas for video search"
+    },
+    {
+      "step_number": 2,
+      "step_name": "Configure Perplexity AI",
+      "description": "Set Creativity to 0.5, enable Structure mode, disable Google Search, enable specific search features",
+      "estimated_time": "2 minutes",
+      "tools": [
+        "Perplexity AI"
+      ],
+      "output": "Perplexity AI configured for video search"
+    },
+    {
+      "step_number": 3,
+      "step_name": "Search for videos by priority topic",
+      "description": "Use search queries from instructions, filter by last 30-60 days, 10-40 min duration",
+      "estimated_time": "45-60 minutes",
+      "tools": [
+        "Perplexity AI",
+        "YouTube"
+      ],
+      "output": "8-12 videos found with URLs, titles, creators, dates, durations"
+    },
+    {
+      "step_number": 4,
+      "step_name": "Score videos using 0-100 system",
+      "description": "Score each video: Strategic Alignment (0-40), Tool/Tech Relevance (0-30), Actionable Value (0-30)",
+      "estimated_time": "30-40 minutes",
+      "tools": [],
+      "output": "All videos scored with breakdown and justification"
+    }
+  ],
+  "quality_checklist": [
+    "8-12 videos identified",
+    "All videos published within last 30-60 days",
+    "All videos 10-40 minutes duration (preferred 15-25 min)",
+    "Each video scored using 0-100 system",
+    "Score breakdown documented (Strategic + Tech + Actionable)",
+    "Strategic alignment clearly justified",
+    "Tool/tech relevance analyzed (our stack mentioned)",
+    "Actionable value assessed (tutorial vs theory)",
+    "Department relevance identified",
+    "One-sentence value proposition written for each video"
+  ],
+  "related_entities": {
+    "methodology": "ENTITIES/PROMPTS/Video_Processing/Complete_Video_Workflow_Full_Instructions.md",
+    "short_guide": "ENTITIES/PROMPTS/Video_Processing/Short Complete Video Workflow.md",
+    "project_template": "Project-Template-008",
+    "milestone": "MIL-PROJ-VIDEO-001-001",
+    "next_task": "TASK-TEMPLATE-VIDEO-002",
+    "step_templates": [
+      "STEP-VIDEO-001-01",
+      "STEP-VIDEO-001-02",
+      "STEP-VIDEO-001-03",
+      "STEP-VIDEO-001-04"
+    ]
+  }
+}

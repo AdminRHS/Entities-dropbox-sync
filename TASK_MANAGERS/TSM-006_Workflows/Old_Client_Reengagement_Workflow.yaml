@@ -1,0 +1,145 @@
+workflow_name: "Old Client Re-Engagement Campaign"
+workflow_type: "Linear Sequential"
+workflow_id: "WF-LIN-001"
+department: "Sales"
+priority: "High"
+estimated_duration: "4-5 hours for 50 emails"
+status: "Active"
+
+description: |
+  Complete workflow for re-engaging old clients (Ex_Clients) through personalized email campaign.
+  Target: 50 emails/day minimum. Expected: 5-10% response rate, 1-2% reactivation rate.
+  ROI: <$100 reactivation vs $1,000-3,000 new client acquisition.
+
+steps:
+  - step_number: 1
+    name: "Export old client list from CRM"
+    tool: "CRM export function"
+    responsibility: "Sales Manager"
+    placement: "Excel/Google Sheets in Sales folder"
+    duration: "10 minutes"
+    dependencies: []
+    inputs:
+      - "CRM access permissions"
+    outputs:
+      - "CSV/Excel file with Ex_Clients list"
+      - "Contact information (email, name, company)"
+      - "Last contact date"
+      - "Lifetime value"
+    success_criteria: "All former clients (Ex_Clients status) exported with contact info"
+
+  - step_number: 2
+    name: "Research current company status and pain points"
+    tool: "GPT/NotebookLM + web search (automated via n8n)"
+    responsibility: "AI Assistant (automated) or Sales Manager"
+    placement: "Research Notes document per company"
+    duration: "5-10 minutes per company (automated) or 15-20 minutes (manual)"
+    dependencies: ["Step 1"]
+    inputs:
+      - "Company website URL"
+      - "LinkedIn profiles"
+      - "Company name"
+    outputs:
+      - "2-3 sentence summary of current situation"
+      - "Identified pain points"
+      - "Potential needs"
+      - "Decision maker information"
+    success_criteria: "2-3 sentence summary of current situation and potential needs"
+
+  - step_number: 3
+    name: "Generate personalized email using research insights"
+    tool: "Custom GPT (email generation assistant)"
+    responsibility: "Sales Manager"
+    placement: "Email draft in email platform"
+    duration: "2-3 minutes per email (with AI assistance)"
+    dependencies: ["Step 2"]
+    inputs:
+      - "Research notes"
+      - "Email template (reconnection/new offering/project-specific)"
+      - "Company-specific details"
+    outputs:
+      - "Personalized email draft"
+      - "Email ready for review"
+    success_criteria: "Email references specific company details, pain points addressed"
+
+  - step_number: 4
+    name: "Send personalized email from corporate account"
+    tool: "Email platform (Gmail)"
+    responsibility: "Sales Manager"
+    placement: "Sent folder, logged in CRM"
+    duration: "30 seconds per email"
+    dependencies: ["Step 3"]
+    inputs:
+      - "Finalized email"
+      - "Recipient email address"
+    outputs:
+      - "Email sent confirmation"
+      - "Email logged in CRM"
+    success_criteria: "Email sent successfully, logged in CRM with date/status"
+
+  - step_number: 5
+    name: "Monitor inbox for responses and categorize"
+    tool: "Email + CRM"
+    responsibility: "Sales Manager"
+    placement: "CRM pipeline, response tracking spreadsheet"
+    duration: "2-5 minutes per response"
+    dependencies: ["Step 4"]
+    inputs:
+      - "Email responses"
+    outputs:
+      - "Categorized responses (positive/negative/neutral)"
+      - "Next steps assigned"
+      - "CRM updated"
+    success_criteria: "All responses categorized, next steps assigned"
+
+  - step_number: 6
+    name: "Send follow-up email if no response after 5-7 days"
+    tool: "Email automation (n8n) or manual"
+    responsibility: "System (automated) or Sales Manager (manual)"
+    placement: "Automated trigger or calendar reminder"
+    duration: "Automated or 2-3 minutes manual"
+    dependencies: ["Step 4"]
+    inputs:
+      - "No response received within timeframe"
+      - "Follow-up email template"
+    outputs:
+      - "Follow-up email sent"
+      - "CRM updated with next follow-up date"
+    success_criteria: "Follow-up sent, CRM updated with next follow-up date"
+
+automation_opportunities:
+  - step: 2
+    automation: "n8n workflow for deep research automation"
+    benefit: "Saves 4-5 hours/day per LG employee"
+    status: "In Progress"
+
+  - step: 3
+    automation: "Custom GPT for email generation"
+    benefit: "2-3 minutes per email vs 10-15 minutes manual"
+    status: "Active"
+
+  - step: 6
+    automation: "n8n automation for follow-up sequence"
+    benefit: "Automatic follow-up triggers"
+    status: "Planned"
+
+metrics:
+  target_daily_emails: 50
+  expected_response_rate: "5-10%"
+  expected_reactivation_rate: "1-2%"
+  cost_per_reactivation: "<$100"
+  new_client_acquisition_cost: "$1,000-3,000"
+  roi_multiplier: "10-30x"
+
+tags:
+  - "sales"
+  - "re-engagement"
+  - "email"
+  - "old_clients"
+  - "campaign"
+  - "linear"
+
+version: "1.0"
+created: "2025-11-01"
+last_updated: "2025-11-01"
+

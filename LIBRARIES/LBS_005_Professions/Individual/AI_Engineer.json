@@ -1,0 +1,195 @@
+{
+  "entity_type": "LIBRARIES",
+  "sub_entity": "Profession",
+  "profession_name": "ai engineer",
+  "department": "developers",
+  "description": "Engineer specializing in AI model integration, MCP connector development, AI-powered automation workflows, and agentic AI design patterns with systematic evaluation frameworks",
+  "created": "2025-11-12",
+  "updated": "2025-11-15",
+  "skills": [
+    "SKL-063",
+    "SKL-070",
+    "SKL-071",
+    "SKL-075",
+    "SKL-AI-EVAL-001",
+    "SKL-AI-PATTERN-001",
+    "SKL-AI-GROUND-001",
+    "SKL-AI-COORD-001"
+  ],
+  "skill_details": {
+    "SKL-063": {
+      "skill_phrase": "parsed HTML data via OpenAI",
+      "proficiency_level": "advanced",
+      "frequency": "weekly"
+    },
+    "SKL-070": {
+      "skill_phrase": "generated MCP connectors via Claude",
+      "proficiency_level": "intermediate",
+      "frequency": "weekly"
+    },
+    "SKL-071": {
+      "skill_phrase": "deployed MCP connectors via Cursor",
+      "proficiency_level": "intermediate",
+      "frequency": "weekly"
+    },
+    "SKL-075": {
+      "skill_phrase": "configured OAuth for Google APIs",
+      "proficiency_level": "intermediate",
+      "frequency": "monthly"
+    },
+    "SKL-AI-EVAL-001": {
+      "skill_phrase": "designed evaluation systems for AI agents",
+      "proficiency_level": "advanced",
+      "frequency": "weekly"
+    },
+    "SKL-AI-PATTERN-001": {
+      "skill_phrase": "implemented agentic design patterns",
+      "proficiency_level": "advanced",
+      "frequency": "weekly"
+    },
+    "SKL-AI-GROUND-001": {
+      "skill_phrase": "established ground truth datasets for evaluations",
+      "proficiency_level": "intermediate",
+      "frequency": "monthly"
+    },
+    "SKL-AI-COORD-001": {
+      "skill_phrase": "coordinated multi-agent systems",
+      "proficiency_level": "advanced",
+      "frequency": "monthly"
+    }
+  },
+  "tools": [
+    "TOOL-AI-030",
+    "TOOL-AI-031",
+    "TOOL-AI-032",
+    "TOOL-AI-033",
+    "TOOL-AI-034",
+    "TOOL-DEV-026",
+    "TOOL-DEV-027"
+  ],
+  "tool_details": {
+    "TOOL-AI-030": "Claude Desktop App - MCP platform (daily use)",
+    "TOOL-AI-031": "MCP Builder Skill - Connector generation (weekly use)",
+    "TOOL-AI-032": "MCP Protocol - Integration standard (weekly use)",
+    "TOOL-AI-033": "Sonnet 4.5 - AI model (daily use)",
+    "TOOL-AI-034": "OpenAI GPT-5 - HTML parsing & AI tasks (daily use)",
+    "TOOL-DEV-026": "Cursor - AI code editor (daily use)",
+    "TOOL-DEV-027": "Google Cloud Console - OAuth setup (monthly use)"
+  },
+  "workflows": [
+    "WF-LG-008",
+    "WF-AI-001",
+    "WF-AI-002",
+    "WF-AI-006",
+    "WF-AGENTIC-001",
+    "WF-AGENTIC-002",
+    "WF-AGENTIC-003",
+    "WF-AGENTIC-004",
+    "WF-AGENTIC-005",
+    "WF-AGENTIC-006"
+  ],
+  "workflow_details": {
+    "WF-LG-008": "AI-Powered HTML Parsing (OpenAI + n8n)",
+    "WF-AI-001": "Enable Claude Skills Feature",
+    "WF-AI-002": "Create Custom MCP Connector",
+    "WF-AI-006": "Simple Local MCP Connector Deployment",
+    "WF-AGENTIC-001": "Essay Writing (Less Autonomous - Reflection Pattern)",
+    "WF-AGENTIC-002": "Essay Writing (More Autonomous - Tool Use Pattern)",
+    "WF-AGENTIC-003": "Customer Email Response (Tool Use Pattern)",
+    "WF-AGENTIC-004": "Invoice Data Extraction (Tool Use Pattern)",
+    "WF-AGENTIC-005": "Customer Query Answering (Planning Pattern)",
+    "WF-AGENTIC-006": "Multi-Agent Marketing Campaign (Multi-Agent Pattern)"
+  },
+  "objects": [
+    "OBJ-LG-008",
+    "OBJ-AI-001",
+    "OBJ-AI-002",
+    "OBJ-AI-003",
+    "OBJ-AI-004",
+    "OBJ-AI-017",
+    "OBJ-AI-027",
+    "OBJ-AI-028",
+    "OBJ-AI-029"
+  ],
+  "object_details": {
+    "OBJ-LG-008": "Scraped HTML Data",
+    "OBJ-AI-001": "MCP Connector",
+    "OBJ-AI-002": "Connector Code",
+    "OBJ-AI-003": "API Credentials",
+    "OBJ-AI-004": "Claude Skill",
+    "OBJ-AI-017": "AI Agent (autonomous system with tools)",
+    "OBJ-AI-027": "Evaluation System (code-based and LLM-as-a-judge)",
+    "OBJ-AI-028": "Agentic Workflow (Reflection, Tool Use, Planning, Multi-Agent patterns)",
+    "OBJ-AI-029": "Ground Truth Dataset (per-example and universal benchmarks)"
+  },
+  "actions": [
+    "parse",
+    "generate",
+    "deploy",
+    "configure",
+    "enable",
+    "activate",
+    "design",
+    "implement",
+    "evaluate",
+    "measure",
+    "improve",
+    "reflect",
+    "coordinate",
+    "establish"
+  ],
+  "typical_tasks": [
+    "Generate Gmail MCP connector with 2-sentence prompt (30-60 sec)",
+    "Create Google Calendar connector with full read/write/delete access",
+    "Generate custom CRM connector for Airtable",
+    "Deploy MCP connector locally with Cursor AI assistance (5 min)",
+    "Setup OAuth credentials and test connector",
+    "Use AI to structure scraped data into clean JSON",
+    "Parse unstructured website HTML to extract contact information",
+    "Design and implement Reflection pattern workflow for email drafting with self-improvement",
+    "Build Tool Use pattern: customer service agent with database and email access",
+    "Create Planning pattern workflow for dynamic customer query answering",
+    "Coordinate Multi-Agent system: specialized agents for research, design, and writing",
+    "Establish ground truth dataset with 20 verified examples for evaluation",
+    "Implement code-based evaluation to check for unwanted behaviors (competitor mentions, tone issues)",
+    "Design LLM-as-a-judge evaluation system for subjective quality assessment",
+    "Measure agent performance systematically and iterate for improvement"
+  ],
+  "performance_metrics": {
+    "connector_generation_time": "30-60 seconds",
+    "connector_deployment_time": "5-10 minutes",
+    "total_connector_setup": "6-11 minutes per connector",
+    "html_parsing_success_rate": "10-20% email enrichment"
+  },
+  "recommended_models": {
+    "connector_generation": "Sonnet 4.5 (95%+ success rate)",
+    "html_parsing": "OpenAI GPT-5",
+    "agentic_workflows": "LLMs with tool use capabilities (Claude, GPT-4, etc.)",
+    "evaluation_systems": "LLMs for LLM-as-a-judge methods"
+  },
+  "agentic_responsibilities": [
+    "Designing agentic workflows using Andrew Ng's four design patterns (Reflection, Tool Use, Planning, Multi-Agent)",
+    "Building evaluation systems for AI agents using code-based and LLM-as-a-judge methods",
+    "Implementing Reflection pattern for iterative agent self-improvement",
+    "Creating Tool Use patterns by giving agents access to external capabilities (APIs, databases, tools)",
+    "Building Planning patterns where agents dynamically generate and execute multi-step plans",
+    "Coordinating Multi-Agent systems with specialized roles (like a company with different departments)",
+    "Establishing ground truth datasets for objective performance measurement",
+    "Using systematic evaluations to prevent bad agent behaviors and improve quality",
+    "Choosing appropriate autonomy levels (less autonomous with control vs more autonomous with creativity)",
+    "Implementing the building blocks framework: Models + Tools + Evaluations"
+  ],
+  "agentic_design_patterns": {
+    "Reflection": "Agent produces draft, reflects on it, and improves iteratively",
+    "Tool_Use": "Agent given access to external tools/capabilities to extend functionality",
+    "Planning": "Agent creates multi-step plan first, then executes dynamically",
+    "Multi_Agent": "Specialized agents coordinate like a company to produce better results"
+  },
+  "evaluation_expertise": {
+    "code_based_objective": "Write code to check correctness (e.g., date extraction accuracy)",
+    "code_based_universal": "Check universal standards (e.g., no competitor mentions)",
+    "llm_as_a_judge_subjective": "Use LLM to grade qualitative aspects (e.g., essay quality)",
+    "llm_as_a_judge_ground_truth": "LLM checks against verified golden standards"
+  },
+  "source": "Video_006_Lead_Generation_Analysis + Video_008_MCP_Connector_Tutorial + Video_013_Andrew_Ng_Agentic_AI_Course"
+}

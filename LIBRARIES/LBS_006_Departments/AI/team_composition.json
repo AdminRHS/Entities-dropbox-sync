@@ -1,0 +1,121 @@
+{
+  "department_id": 1,
+  "department_code": "AI",
+  "last_updated": "2025-11-25",
+  "source_file": "Overview/AI_Department_Deep_Analysis.md",
+  
+  "team_size": 3,
+  "team_composition": "1 PM + 2 Prompt Engineers",
+  "location": "100% Ukraine-based",
+  
+  "employees": [
+    {
+      "employee_id": 37226,
+      "name": "Artemchuk Nikolay",
+      "role": "Project Manager, Lead Generator",
+      "department_lead": true,
+      "status": "Working",
+      "workload": "VERY HIGH",
+      "background": "Project Management",
+      "location": "Ukraine",
+      
+      "primary_responsibilities": [
+        "Leading AI-first organizational transformation across all departments",
+        "Project management and team coordination",
+        "File system rollout coordination (Design completed, LG next)",
+        "Weekly call structure implementation (bi-weekly rotation)",
+        "Lead Generation department",
+        "RAC (Remote AI Context) expansion and documentation",
+        "Prompt optimization and compression",
+        "Cross-department coordination"
+      ],
+      
+      "current_major_projects": [
+        "File System Project rollout",
+        "LG Department strategic evaluation",
+        "Weekly department call structure (Mon: Design, Tue: Automation, Wed: LG, Thu: HR, Fri: Dev)",
+        "Main Prompt v4 compression and optimization",
+        "CRM migration documentation"
+      ],
+      
+      "skills": {
+        "project_management": ["Agile", "SCRUM", "Kanban", "Waterfall"],
+        "tools": ["Asana", "Jira", "Miro", "Monday", "Notion", "Trello", "Slack"],
+        "ai_tools": ["ChatGPT", "Claude", "Cursor"],
+        "specialties": ["Account Management", "Data Processing", "Personnel Management"]
+      }
+    },
+    {
+      "employee_id": 86246,
+      "name": "Perederii Vladislav",
+      "role": "Prompt Engineer",
+      "status": "Available",
+      "background": "Cybersecurity, Commercial Copywriting",
+      "location": "Ukraine",
+      
+      "primary_responsibilities": [
+        "Prompt engineering for LLMs (ChatGPT, DeepSeek, Gemini)",
+        "AI-powered content creation and automation",
+        "Customer support automation and engagement",
+        "Meta Business Manager and Facebook/Instagram Ads automation",
+        "Commercial copywriting with AI assistance"
+      ],
+      
+      "technical_skills": {
+        "ai_models": ["ChatGPT", "DeepSeek", "Gemini", "Midjourney", "Stable Diffusion", "Veo 2", "Runway", "Kling"],
+        "development": ["Python (basic)"],
+        "tools": ["Cursor", "Claude", "Meta Business Manager"]
+      },
+      
+      "recent_work_focus": [
+        "Google Maps scraping system (two-tier: Instant Data Scraper + Python)",
+        "Lead generation workflow optimization",
+        "Review analysis for B2B client targeting",
+        "NLP analysis for identifying company challenges from reviews"
+      ]
+    },
+    {
+      "employee_id": 86981,
+      "name": "Zasiadko Matvii",
+      "role": "Prompt Engineer",
+      "status": "Available",
+      "background": "Mathematics, NLP, Machine Learning",
+      "location": "Ukraine",
+      
+      "primary_responsibilities": [
+        "Prompt engineering for AI assistants",
+        "Copilot-style assistant development for custom programming languages",
+        "Code assistance and custom AI tool development",
+        "AI integration and automation"
+      ],
+      
+      "technical_skills": {
+        "ai_models": ["ChatGPT", "Claude", "Gemini"],
+        "development": ["Python", "Java", "JavaScript", "GitHub"],
+        "tools": ["Cursor", "Cursor API", "Gemini API", "Langchain"],
+        "specialties": ["NLP", "Machine Learning", "Code Review", "OOP"]
+      },
+      
+      "recent_work_focus": [
+        "n8n workflow automation (AI Controller for yellow card system)",
+        "Dropbox integration and GitHub Actions automation",
+        "Employee profile synchronization automation",
+        "File system automation implementation"
+      ]
+    }
+  ],
+  
+  "leadership_structure": {
+    "department_lead": {
+      "employee_id": 37226,
+      "name": "Artemchuk Nikolay"
+    },
+    "team_leads": []
+  },
+  
+  "roles_summary": {
+    "project_manager": 1,
+    "prompt_engineers": 2
+  }
+}
+

@@ -1,0 +1,579 @@
+{
+  "entity_type": "TASK_MANAGERS",
+  "sub_entity": "Task_Template",
+  "template_id": "Task-Template-001",
+  "task_name": "Parse HTML Data via AI",
+  "action": "Parse",
+  "object": "HTML Data",
+  "context": "via OpenAI + n8n pipeline",
+  "description": "Extract structured data from unstructured HTML using AI-powered parsing (10-20% enrichment for difficult sources, 60-90 minutes execution)",
+  "department": "Dev",
+  "profession": "Backend Developer",
+  "priority": "Medium",
+  "estimated_duration": "60-90 minutes",
+  "setup_duration": "30-45 minutes (pipeline build)",
+  "status": "Active",
+  "complexity": "High",
+  "automation_potential": "High (60-80%)",
+  "success_rate": "10-20% enrichment (difficult sources)",
+  "best_for": "Websites with no public API, unstructured data",
+  "dependencies": [
+    "n8n workflow automation platform",
+    "OpenAI API access (GPT-4 or GPT-5 recommended)",
+    "Apify account for website scraping (optional)",
+    "Target website HTML accessible"
+  ],
+  "tools_required": [
+    "TOOL-AUTO-001 (n8n)",
+    "TOOL-AI-034 (OpenAI GPT-5)",
+    "TOOL-020 (Apify - optional)",
+    "TOOL-DATA-007 (Anymailfinder - optional)"
+  ],
+  "skills_required": [
+    "SKL-063 (parsed HTML data via OpenAI)",
+    "SKL-062 (built enrichment pipelines via n8n)"
+  ],
+  "objects_used": [
+    "OBJ-LG-008 (Scraped HTML Data)",
+    "OBJ-LG-009 (n8n Workflow)",
+    "OBJ-LG-001 (Lead List)"
+  ],
+  "workflow_reference": "WF-LG-008",
+  "success_criteria": [
+    "HTML data successfully scraped from target website",
+    "AI parsing pipeline extracts structured data",
+    "10-20% enrichment achieved (for difficult sources)",
+    "Contact information extracted (emails, names, titles)",
+    "Pipeline documented for reuse"
+  ],
+  "responsibilities": {
+    "responsible": "Backend Developer",
+    "accountable": "Development Lead",
+    "consulted": [
+      "AI Engineer",
+      "Lead Generator"
+    ],
+    "informed": [
+      "Sales Team"
+    ]
+  },
+  "steps": [
+    {
+      "step_number": 1,
+      "name": "Identify target website with unstructured data",
+      "action": "identify",
+      "tool": "Browser research",
+      "responsibility": "Backend Developer",
+      "placement": "Target website",
+      "duration": "10 minutes",
+      "dependencies": [],
+      "inputs": [
+        "Website with contact info but no API or standard structure"
+      ],
+      "outputs": [
+        "Website URL",
+        "Sample HTML structure analyzed"
+      ],
+      "success_criteria": "Confirmed website has extractable contact data in HTML",
+      "responsibility_id": "RESP-DEV-003",
+      "responsibility_name": "identify data",
+      "_original_action": "identify"
+    },
+    {
+      "step_number": 2,
+      "name": "Scrape website HTML via Apify (optional)",
+      "action": "scrape",
+      "tool": "TOOL-020 (Apify) or manual",
+      "responsibility": "Backend Developer",
+      "placement": "Apify platform or browser",
+      "duration": "10-15 minutes",
+      "dependencies": [
+        "Step 1"
+      ],
+      "inputs": [
+        "Website URL",
+        "Pages to scrape"
+      ],
+      "outputs": [
+        "Raw HTML data from target pages"
+      ],
+      "success_criteria": "HTML content extracted successfully",
+      "responsibility_id": "RESP-DEV-004",
+      "responsibility_name": "scrape scrape website html",
+      "_original_action": "scrape"
+    },
+    {
+      "step_number": 3,
+      "name": "Design n8n workflow for AI parsing",
+      "action": "design",
+      "tool": "TOOL-AUTO-001 (n8n)",
+      "responsibility": "Backend Developer",
+      "placement": "n8n workflow canvas",
+      "duration": "15 minutes",
+      "dependencies": [
+        "Step 2"
+      ],
+      "inputs": [
+        "HTML data structure",
+        "Desired output format"
+      ],
+      "outputs": [
+        "Workflow design: HTML Input → OpenAI Parse → Structure → Export"
+      ],
+      "success_criteria": "Pipeline architecture documented",
+      "responsibility_id": "RESP-DEV-005",
+      "responsibility_name": "design design n8n workflow",
+      "_original_action": "design"
+    },
+    {
+      "step_number": 4,
+      "name": "Build HTML input node in n8n",
+      "action": "build",
+      "tool": "TOOL-AUTO-001 (n8n)",
+      "responsibility": "Backend Developer",
+      "placement": "n8n workflow",
+      "duration": "5 minutes",
+      "dependencies": [
+        "Step 3"
+      ],
+      "inputs": [
+        "Scraped HTML"
+      ],
+      "outputs": [
+        "HTML input node configured"
+      ],
+      "success_criteria": "HTML data loaded into workflow",
+      "responsibility_id": "RESP-DEV-006",
+      "responsibility_name": "build html input node",
+      "_original_action": "build"
+    },
+    {
+      "step_number": 5,
+      "name": "Configure OpenAI parsing node",
+      "action": "configure",
+      "tool": "TOOL-AUTO-001 (n8n) + TOOL-AI-034 (OpenAI)",
+      "responsibility": "Backend Developer",
+      "placement": "n8n workflow - OpenAI node",
+      "duration": "15 minutes",
+      "dependencies": [
+        "Step 4"
+      ],
+      "inputs": [
+        "OpenAI API key",
+        "Parsing prompt: 'Extract contact info from this HTML'"
+      ],
+      "outputs": [
+        "OpenAI node configured with parsing instructions"
+      ],
+      "success_criteria": "Node sends HTML to OpenAI and receives structured response",
+      "responsibility_id": "RESP-DEV-007",
+      "responsibility_name": "configure openai parsing node",
+      "_original_action": "configure"
+    },
+    {
+      "step_number": 6,
+      "name": "Test AI parsing on sample HTML",
+      "action": "test",
+      "tool": "TOOL-AUTO-001 (n8n)",
+      "responsibility": "Backend Developer",
+      "placement": "n8n workflow execution",
+      "duration": "10 minutes",
+      "dependencies": [
+        "Step 5"
+      ],
+      "inputs": [
+        "Sample HTML (5-10 pages)"
+      ],
+      "outputs": [
+        "Parsed contact data from sample"
+      ],
+      "success_criteria": "AI successfully extracts names, titles, emails from HTML",
+      "responsibility_id": "RESP-DEV-008",
+      "responsibility_name": "test test ai parsing on sample html",
+      "_original_action": "test"
+    },
+    {
+      "step_number": 7,
+      "name": "Build data cleaning and structuring logic",
+      "action": "build",
+      "tool": "TOOL-AUTO-001 (n8n)",
+      "responsibility": "Backend Developer",
+      "placement": "n8n workflow - Function nodes",
+      "duration": "10 minutes",
+      "dependencies": [
+        "Step 6"
+      ],
+      "inputs": [
+        "Raw AI parsing output"
+      ],
+      "outputs": [
+        "Cleaned, structured contact data"
+      ],
+      "success_criteria": "Data formatted consistently: name, title, company, email",
+      "responsibility_id": "RESP-DEV-001",
+      "responsibility_name": "build data",
+      "_original_action": "build"
+    },
+    {
+      "step_number": 8,
+      "name": "Run full HTML parsing pipeline",
+      "action": "execute",
+      "tool": "TOOL-AUTO-001 (n8n)",
+      "responsibility": "Backend Developer",
+      "placement": "n8n workflow execution",
+      "duration": "30-45 minutes (depending on volume)",
+      "dependencies": [
+        "Step 7"
+      ],
+      "inputs": [
+        "Full HTML dataset"
+      ],
+      "outputs": [
+        "Parsed contact list with 10-20% enrichment"
+      ],
+      "success_criteria": "Pipeline completes, contact data extracted",
+      "responsibility_id": "RESP-DEV-009",
+      "responsibility_name": "execute run full html parsing pipeline",
+      "_original_action": "execute"
+    },
+    {
+      "step_number": 9,
+      "name": "Export and validate results",
+      "action": "export",
+      "tool": "TOOL-AUTO-001 (n8n) + Excel",
+      "responsibility": "Backend Developer",
+      "placement": "Export to CSV",
+      "duration": "5 minutes",
+      "dependencies": [
+        "Step 8"
+      ],
+      "inputs": [
+        "Parsed contact data"
+      ],
+      "outputs": [
+        "CSV file with extracted contacts"
+      ],
+      "success_criteria": "10-20% of difficult sources yielded valid contact data",
+      "responsibility_id": "RESP-DEV-010",
+      "responsibility_name": "export and validate results",
+      "_original_action": "export"
+    }
+  ],
+  "checklist": [
+    {
+      "item": "Target website has contact data in HTML",
+      "guide": "Verify manually that emails/contacts are visible on website",
+      "required": true
+    },
+    {
+      "item": "OpenAI API configured in n8n",
+      "guide": "GPT-4 or GPT-5 recommended for best parsing results",
+      "required": true
+    },
+    {
+      "item": "AI parsing prompt clearly specifies extraction goals",
+      "guide": "Example: 'Extract all email addresses, names, and job titles from this HTML'",
+      "required": true
+    },
+    {
+      "item": "Tested on sample HTML before full run",
+      "guide": "Always test with 5-10 samples to validate parsing logic",
+      "required": true
+    },
+    {
+      "item": "10-20% enrichment rate achieved",
+      "guide": "This is for DIFFICULT sources - if higher, consider simpler methods",
+      "required": true
+    }
+  ],
+  "performance_metrics": {
+    "setup_time": "30-45 minutes (pipeline build)",
+    "execution_time": "60-90 minutes",
+    "success_rate": "10-20% enrichment (difficult sources)",
+    "complexity": "High",
+    "best_for": "Last resort for difficult sources",
+    "cost": "OpenAI API calls (varies by volume)"
+  },
+  "when_to_use": [
+    "Target website has NO API or structured data export",
+    "Contact info embedded in unstructured HTML",
+    "Other enrichment methods failed (<10% success)",
+    "Need to extract from difficult or obscure sources",
+    "Have time for pipeline setup (30-45 min)"
+  ],
+  "when_not_to_use": [
+    "Website has API or CSV export (use that instead)",
+    "Contact info available via standard scraping (simpler methods)",
+    "Need high enrichment rates (>50%) - use LinkedIn or Anymailfinder",
+    "Tight deadline - setup takes 30-45 minutes",
+    "Low budget - OpenAI API costs add up at scale"
+  ],
+  "ai_parsing_prompt_examples": [
+    "'Extract all email addresses, full names, and job titles from this HTML'",
+    "'Find company names and contact information in this unstructured text'",
+    "'Parse this HTML and return a JSON object with: name, email, title, company'",
+    "'Identify decision-makers and their contact details from this website HTML'"
+  ],
+  "best_practices": [
+    "LAST RESORT method for difficult sources (10-20% enrichment)",
+    "Use when no API or structured export available",
+    "Test on samples before full pipeline run",
+    "Use GPT-4 or GPT-5 for best parsing accuracy",
+    "Be specific in AI parsing prompts",
+    "Validate and clean AI output before using"
+  ],
+  "use_case_examples": [
+    {
+      "scenario": "Niche industry directory with contacts in HTML",
+      "challenge": "No API, contacts embedded in custom HTML structure",
+      "solution": "AI parsing extracts 15% of contacts vs 0% with standard scraping",
+      "result": "50 valid contacts from 350 directory listings"
+    },
+    {
+      "scenario": "Company 'About Us' pages with team bios",
+      "challenge": "Team info in paragraphs, no structured format",
+      "solution": "AI extracts names, titles, emails from bio text",
+      "result": "18% extraction rate from difficult source"
+    }
+  ],
+  "common_issues": [
+    {
+      "issue": "AI fails to extract structured data",
+      "solution": "Improve parsing prompt, provide examples, use GPT-5 instead of GPT-4"
+    },
+    {
+      "issue": "Low enrichment rate (<10%)",
+      "solution": "Source may be too difficult, consider alternative sources"
+    },
+    {
+      "issue": "High OpenAI API costs",
+      "solution": "Optimize HTML size before sending to API, use GPT-4 Turbo for cost savings"
+    },
+    {
+      "issue": "Inconsistent parsing results",
+      "solution": "Add validation and cleaning logic, standardize output format"
+    }
+  ],
+  "tags": [
+    "ai_parsing",
+    "html_extraction",
+    "n8n",
+    "openai",
+    "difficult_sources",
+    "lead_generation"
+  ],
+  "related_workflows": [
+    "WF-LG-008"
+  ],
+  "related_skills": [
+    "SKL-063",
+    "SKL-062"
+  ],
+  "related_professions": [
+    "Backend Developer",
+    "AI Engineer",
+    "Automation Engineer""dependencies": [
+      "Step 5"
+    ],
+    "inputs": [
+      "Sample HTML (5-10 pages)"
+    ],
+    "outputs": [
+      "Parsed contact data from sample"
+    ],
+    "success_criteria": "AI successfully extracts names, titles, emails from HTML",
+    "responsibility_id": "RESP-DEV-008",
+    "responsibility_name": "test test ai parsing on sample html",
+    "_original_action": "test"
+  },
+  {
+    "step_number": 7,
+    "name": "Build data cleaning and structuring logic",
+    "action": "build",
+    "tool": "TOOL-AUTO-001 (n8n)",
+    "responsibility": "Backend Developer",
+    "placement": "n8n workflow - Function nodes",
+    "duration": "10 minutes",
+    "dependencies": [
+      "Step 6"
+    ],
+    "inputs": [
+      "Raw AI parsing output"
+    ],
+    "outputs": [
+      "Cleaned, structured contact data"
+    ],
+    "success_criteria": "Data formatted consistently: name, title, company, email",
+    "responsibility_id": "RESP-DEV-001",
+    "responsibility_name": "build data",
+    "_original_action": "build"
+  },
+  {
+    "step_number": 8,
+    "name": "Run full HTML parsing pipeline",
+    "action": "execute",
+    "tool": "TOOL-AUTO-001 (n8n)",
+    "responsibility": "Backend Developer",
+    "placement": "n8n workflow execution",
+    "duration": "30-45 minutes (depending on volume)",
+    "dependencies": [
+      "Step 7"
+    ],
+    "inputs": [
+      "Full HTML dataset"
+    ],
+    "outputs": [
+      "Parsed contact list with 10-20% enrichment"
+    ],
+    "success_criteria": "Pipeline completes, contact data extracted",
+    "responsibility_id": "RESP-DEV-009",
+    "responsibility_name": "execute run full html parsing pipeline",
+    "_original_action": "execute"
+  },
+  {
+    "step_number": 9,
+    "name": "Export and validate results",
+    "action": "export",
+    "tool": "TOOL-AUTO-001 (n8n) + Excel",
+    "responsibility": "Backend Developer",
+    "placement": "Export to CSV",
+    "duration": "5 minutes",
+    "dependencies": [
+      "Step 8"
+    ],
+    "inputs": [
+      "Parsed contact data"
+    ],
+    "outputs": [
+      "CSV file with extracted contacts"
+    ],
+    "success_criteria": "10-20% of difficult sources yielded valid contact data",
+    "responsibility_id": "RESP-DEV-010",
+    "responsibility_name": "export and validate results",
+    "_original_action": "export"
+  }
+],
+"checklist": [
+  {
+    "item": "Target website has contact data in HTML",
+    "guide": "Verify manually that emails/contacts are visible on website",
+    "required": true
+  },
+  {
+    "item": "OpenAI API configured in n8n",
+    "guide": "GPT-4 or GPT-5 recommended for best parsing results",
+    "required": true
+  },
+  {
+    "item": "AI parsing prompt clearly specifies extraction goals",
+    "guide": "Example: 'Extract all email addresses, names, and job titles from this HTML'",
+    "required": true
+  },
+  {
+    "item": "Tested on sample HTML before full run",
+    "guide": "Always test with 5-10 samples to validate parsing logic",
+    "required": true
+  },
+  {
+    "item": "10-20% enrichment rate achieved",
+    "guide": "This is for DIFFICULT sources - if higher, consider simpler methods",
+    "required": true
+  }
+],
+"performance_metrics": {
+  "setup_time": "30-45 minutes (pipeline build)",
+  "execution_time": "60-90 minutes",
+  "success_rate": "10-20% enrichment (difficult sources)",
+  "complexity": "High",
+  "best_for": "Last resort for difficult sources",
+  "cost": "OpenAI API calls (varies by volume)"
+},
+"when_to_use": [
+  "Target website has NO API or structured data export",
+  "Contact info embedded in unstructured HTML",
+  "Other enrichment methods failed (<10% success)",
+  "Need to extract from difficult or obscure sources",
+  "Have time for pipeline setup (30-45 min)"
+],
+"when_not_to_use": [
+  "Website has API or CSV export (use that instead)",
+  "Contact info available via standard scraping (simpler methods)",
+  "Need high enrichment rates (>50%) - use LinkedIn or Anymailfinder",
+  "Tight deadline - setup takes 30-45 minutes",
+  "Low budget - OpenAI API costs add up at scale"
+],
+"ai_parsing_prompt_examples": [
+  "'Extract all email addresses, full names, and job titles from this HTML'",
+  "'Find company names and contact information in this unstructured text'",
+  "'Parse this HTML and return a JSON object with: name, email, title, company'",
+  "'Identify decision-makers and their contact details from this website HTML'"
+],
+"best_practices": [
+  "LAST RESORT method for difficult sources (10-20% enrichment)",
+  "Use when no API or structured export available",
+  "Test on samples before full pipeline run",
+  "Use GPT-4 or GPT-5 for best parsing accuracy",
+  "Be specific in AI parsing prompts",
+  "Validate and clean AI output before using"
+],
+"use_case_examples": [
+  {
+    "scenario": "Niche industry directory with contacts in HTML",
+    "challenge": "No API, contacts embedded in custom HTML structure",
+    "solution": "AI parsing extracts 15% of contacts vs 0% with standard scraping",
+    "result": "50 valid contacts from 350 directory listings"
+  },
+  {
+    "scenario": "Company 'About Us' pages with team bios",
+    "challenge": "Team info in paragraphs, no structured format",
+    "solution": "AI extracts names, titles, emails from bio text",
+    "result": "18% extraction rate from difficult source"
+  }
+],
+"common_issues": [
+  {
+    "issue": "AI fails to extract structured data",
+    "solution": "Improve parsing prompt, provide examples, use GPT-5 instead of GPT-4"
+  },
+  {
+    "issue": "Low enrichment rate (<10%)",
+    "solution": "Source may be too difficult, consider alternative sources"
+  },
+  {
+    "issue": "High OpenAI API costs",
+    "solution": "Optimize HTML size before sending to API, use GPT-4 Turbo for cost savings"
+  },
+  {
+    "issue": "Inconsistent parsing results",
+    "solution": "Add validation and cleaning logic, standardize output format"
+  }
+],
+"tags": [
+  "ai_parsing",
+  "html_extraction",
+  "n8n",
+  "openai",
+  "difficult_sources",
+  "lead_generation"
+],
+"related_workflows": [
+  "WF-LG-008"
+],
+"related_skills": [
+  "SKL-063",
+  "SKL-062"
+],
+"related_professions": [
+  "Backend Developer",
+  "AI Engineer",
+  "Automation Engineer"
+],
+"version": "1.0",
+"created": "2025-11-12",
+"last_updated": "2025-11-12",
+"source": "Video_006_Lead_Generation_Analysis",
+"responsibility_id": "TST-001",
+"responsibility_name": "parse data",
+"_original_action": "Parse",
+"_original_object": "HTML Data"
+}

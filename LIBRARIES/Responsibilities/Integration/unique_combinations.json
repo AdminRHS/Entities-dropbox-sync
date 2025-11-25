@@ -1,0 +1,1943 @@
+[
+  {
+    "combination": "prepare + prepare company domain list",
+    "action": "prepare",
+    "object": "prepare company domain list",
+    "frequency": 2,
+    "examples": [
+      {
+        "task_id": "TEMPLATE-TASK-003",
+        "department": "LG",
+        "level": "step"
+      },
+      {
+        "task_id": "TEMPLATE-TASK-018",
+        "department": "LG",
+        "level": "step"
+      }
+    ]
+  },
+  {
+    "combination": "export + export enriched results",
+    "action": "export",
+    "object": "export enriched results",
+    "frequency": 2,
+    "examples": [
+      {
+        "task_id": "TEMPLATE-TASK-003",
+        "department": "LG",
+        "level": "step"
+      },
+      {
+        "task_id": "TEMPLATE-TASK-018",
+        "department": "LG",
+        "level": "step"
+      }
+    ]
+  },
+  {
+    "combination": "review + review drafts in gmail",
+    "action": "review",
+    "object": "review drafts in gmail",
+    "frequency": 2,
+    "examples": [
+      {
+        "task_id": "TEMPLATE-TASK-007",
+        "department": "AI",
+        "level": "step"
+      },
+      {
+        "task_id": "TEMPLATE-TASK-012",
+        "department": "AI",
+        "level": "step"
+      }
+    ]
+  },
+  {
+    "combination": "enrich + email list",
+    "action": "enrich",
+    "object": "email list",
+    "frequency": 2,
+    "examples": [
+      {
+        "task_id": "TEMPLATE-TASK-018",
+        "department": "LG",
+        "level": "task"
+      },
+      {
+        "task_id": "TEMPLATE-TASK-019",
+        "department": "LG",
+        "level": "task"
+      }
+    ]
+  },
+  {
+    "combination": "log + log campaign metrics",
+    "action": "log",
+    "object": "log campaign metrics",
+    "frequency": 2,
+    "examples": [
+      {
+        "task_id": "TEMPLATE-TASK-018",
+        "department": "LG",
+        "level": "step"
+      },
+      {
+        "task_id": "TEMPLATE-TASK-009",
+        "department": "LG",
+        "level": "step"
+      }
+    ]
+  },
+  {
+    "combination": "upload + upload domains to anymailfinder",
+    "action": "upload",
+    "object": "upload domains to anymailfinder",
+    "frequency": 2,
+    "examples": [
+      {
+        "task_id": "TEMPLATE-TASK-016",
+        "department": "LG",
+        "level": "step"
+      },
+      {
+        "task_id": "TEMPLATE-TASK-009",
+        "department": "LG",
+        "level": "step"
+      }
+    ]
+  },
+  {
+    "combination": "enrich + company employees",
+    "action": "enrich",
+    "object": "company employees",
+    "frequency": 1,
+    "examples": [
+      {
+        "task_id": "TEMPLATE-TASK-015",
+        "department": "LG",
+        "level": "task"
+      }
+    ]
+  },
+  {
+    "combination": "prepare + prepare target company list",
+    "action": "prepare",
+    "object": "prepare target company list",
+    "frequency": 1,
+    "examples": [
+      {
+        "task_id": "TEMPLATE-TASK-015",
+        "department": "LG",
+        "level": "step"
+      }
+    ]
+  },
+  {
+    "combination": "search + search companies in airscale database",
+    "action": "search",
+    "object": "search companies in airscale database",
+    "frequency": 1,
+    "examples": [
+      {
+        "task_id": "TEMPLATE-TASK-015",
+        "department": "LG",
+        "level": "step"
+      }
+    ]
+  },
+  {
+    "combination": "review + review employee count and preview data",
+    "action": "review",
+    "object": "review employee count and preview data",
+    "frequency": 1,
+    "examples": [
+      {
+        "task_id": "TEMPLATE-TASK-015",
+        "department": "LG",
+        "level": "step"
+      }
+    ]
+  },
+  {
+    "combination": "unlock + unlock employee list with airscale credit",
+    "action": "unlock",
+    "object": "unlock employee list with airscale credit",
+    "frequency": 1,
+    "examples": [
+      {
+        "task_id": "TEMPLATE-TASK-015",
+        "department": "LG",
+        "level": "step"
+      }
+    ]
+  },
+  {
+    "combination": "export + export employee data from airscale",
+    "action": "export",
+    "object": "export employee data from airscale",
+    "frequency": 1,
+    "examples": [
+      {
+        "task_id": "TEMPLATE-TASK-015",
+        "department": "LG",
+        "level": "step"
+      }
+    ]
+  },
+  {
+    "combination": "upload + upload employees to anymailfinder for enrichment",
+    "action": "upload",
+    "object": "upload employees to anymailfinder for enrichment",
+    "frequency": 1,
+    "examples": [
+      {
+        "task_id": "TEMPLATE-TASK-015",
+        "department": "LG",
+        "level": "step"
+      }
+    ]
+  },
+  {
+    "combination": "enrich + run nominative email enrichment",
+    "action": "enrich",
+    "object": "run nominative email enrichment",
+    "frequency": 1,
+    "examples": [
+      {
+        "task_id": "TEMPLATE-TASK-015",
+        "department": "LG",
+        "level": "step"
+      }
+    ]
+  },
+  {
+    "combination": "export + export final enriched contact list",
+    "action": "export",
+    "object": "export final enriched contact list",
+    "frequency": 1,
+    "examples": [
+      {
+        "task_id": "TEMPLATE-TASK-015",
+        "department": "LG",
+        "level": "step"
+      }
+    ]
+  },
+  {
+    "combination": "parse + html data",
+    "action": "parse",
+    "object": "html data",
+    "frequency": 1,
+    "examples": [
+      {
+        "task_id": "TEMPLATE-TASK-014",
+        "department": "Dev",
+        "level": "task"
+      }
+    ]
+  },
+  {
+    "combination": "identify + identify target website with unstructured data",
+    "action": "identify",
+    "object": "identify target website with unstructured data",
+    "frequency": 1,
+    "examples": [
+      {
+        "task_id": "TEMPLATE-TASK-014",
+        "department": "Dev",
+        "level": "step"
+      }
+    ]
+  },
+  {
+    "combination": "scrape + scrape website html via apify (optional)",
+    "action": "scrape",
+    "object": "scrape website html via apify (optional)",
+    "frequency": 1,
+    "examples": [
+      {
+        "task_id": "TEMPLATE-TASK-014",
+        "department": "Dev",
+        "level": "step"
+      }
+    ]
+  },
+  {
+    "combination": "design + design n8n workflow for ai parsing",
+    "action": "design",
+    "object": "design n8n workflow for ai parsing",
+    "frequency": 1,
+    "examples": [
+      {
+        "task_id": "TEMPLATE-TASK-014",
+        "department": "Dev",
+        "level": "step"
+      }
+    ]
+  },
+  {
+    "combination": "build + build html input node in n8n",
+    "action": "build",
+    "object": "build html input node in n8n",
+    "frequency": 1,
+    "examples": [
+      {
+        "task_id": "TEMPLATE-TASK-014",
+        "department": "Dev",
+        "level": "step"
+      }
+    ]
+  },
+  {
+    "combination": "configure + configure openai parsing node",
+    "action": "configure",
+    "object": "configure openai parsing node",
+    "frequency": 1,
+    "examples": [
+      {
+        "task_id": "TEMPLATE-TASK-014",
+        "department": "Dev",
+        "level": "step"
+      }
+    ]
+  },
+  {
+    "combination": "test + test ai parsing on sample html",
+    "action": "test",
+    "object": "test ai parsing on sample html",
+    "frequency": 1,
+    "examples": [
+      {
+        "task_id": "TEMPLATE-TASK-014",
+        "department": "Dev",
+        "level": "step"
+      }
+    ]
+  },
+  {
+    "combination": "build + build data cleaning and structuring logic",
+    "action": "build",
+    "object": "build data cleaning and structuring logic",
+    "frequency": 1,
+    "examples": [
+      {
+        "task_id": "TEMPLATE-TASK-014",
+        "department": "Dev",
+        "level": "step"
+      }
+    ]
+  },
+  {
+    "combination": "execute + run full html parsing pipeline",
+    "action": "execute",
+    "object": "run full html parsing pipeline",
+    "frequency": 1,
+    "examples": [
+      {
+        "task_id": "TEMPLATE-TASK-014",
+        "department": "Dev",
+        "level": "step"
+      }
+    ]
+  },
+  {
+    "combination": "export + export and validate results",
+    "action": "export",
+    "object": "export and validate results",
+    "frequency": 1,
+    "examples": [
+      {
+        "task_id": "TEMPLATE-TASK-014",
+        "department": "Dev",
+        "level": "step"
+      }
+    ]
+  },
+  {
+    "combination": "enrich + lead list",
+    "action": "enrich",
+    "object": "lead list",
+    "frequency": 1,
+    "examples": [
+      {
+        "task_id": "TEMPLATE-TASK-003",
+        "department": "LG",
+        "level": "task"
+      }
+    ]
+  },
+  {
+    "combination": "upload + upload domain list to anymailfinder",
+    "action": "upload",
+    "object": "upload domain list to anymailfinder",
+    "frequency": 1,
+    "examples": [
+      {
+        "task_id": "TEMPLATE-TASK-003",
+        "department": "LG",
+        "level": "step"
+      }
+    ]
+  },
+  {
+    "combination": "configure + configure nominative enrichment pattern",
+    "action": "configure",
+    "object": "configure nominative enrichment pattern",
+    "frequency": 1,
+    "examples": [
+      {
+        "task_id": "TEMPLATE-TASK-003",
+        "department": "LG",
+        "level": "step"
+      }
+    ]
+  },
+  {
+    "combination": "execute + run nominative enrichment",
+    "action": "execute",
+    "object": "run nominative enrichment",
+    "frequency": 1,
+    "examples": [
+      {
+        "task_id": "TEMPLATE-TASK-003",
+        "department": "LG",
+        "level": "step"
+      }
+    ]
+  },
+  {
+    "combination": "log + log results and success rate",
+    "action": "log",
+    "object": "log results and success rate",
+    "frequency": 1,
+    "examples": [
+      {
+        "task_id": "TEMPLATE-TASK-003",
+        "department": "LG",
+        "level": "step"
+      }
+    ]
+  },
+  {
+    "combination": "automate + email drafts",
+    "action": "automate",
+    "object": "email drafts",
+    "frequency": 1,
+    "examples": [
+      {
+        "task_id": "TEMPLATE-TASK-007",
+        "department": "AI",
+        "level": "task"
+      }
+    ]
+  },
+  {
+    "combination": "open + open claude desktop app each morning",
+    "action": "open",
+    "object": "open claude desktop app each morning",
+    "frequency": 1,
+    "examples": [
+      {
+        "task_id": "TEMPLATE-TASK-007",
+        "department": "AI",
+        "level": "step"
+      }
+    ]
+  },
+  {
+    "combination": "prompt + prompt claude to check unread emails",
+    "action": "prompt",
+    "object": "prompt claude to check unread emails",
+    "frequency": 1,
+    "examples": [
+      {
+        "task_id": "TEMPLATE-TASK-007",
+        "department": "AI",
+        "level": "step"
+      }
+    ]
+  },
+  {
+    "combination": "read + read unread emails via gmail connector",
+    "action": "read",
+    "object": "read unread emails via gmail connector",
+    "frequency": 1,
+    "examples": [
+      {
+        "task_id": "TEMPLATE-TASK-007",
+        "department": "AI",
+        "level": "step"
+      }
+    ]
+  },
+  {
+    "combination": "analyze + analyze context and sender relationship",
+    "action": "analyze",
+    "object": "analyze context and sender relationship",
+    "frequency": 1,
+    "examples": [
+      {
+        "task_id": "TEMPLATE-TASK-007",
+        "department": "AI",
+        "level": "step"
+      }
+    ]
+  },
+  {
+    "combination": "generate + draft appropriate responses",
+    "action": "generate",
+    "object": "draft appropriate responses",
+    "frequency": 1,
+    "examples": [
+      {
+        "task_id": "TEMPLATE-TASK-007",
+        "department": "AI",
+        "level": "step"
+      }
+    ]
+  },
+  {
+    "combination": "send + send approved drafts",
+    "action": "send",
+    "object": "send approved drafts",
+    "frequency": 1,
+    "examples": [
+      {
+        "task_id": "TEMPLATE-TASK-007",
+        "department": "AI",
+        "level": "step"
+      }
+    ]
+  },
+  {
+    "combination": "upload + upload domain list to bright data",
+    "action": "upload",
+    "object": "upload domain list to bright data",
+    "frequency": 1,
+    "examples": [
+      {
+        "task_id": "TEMPLATE-TASK-018",
+        "department": "LG",
+        "level": "step"
+      }
+    ]
+  },
+  {
+    "combination": "configure + configure target roles for enrichment",
+    "action": "configure",
+    "object": "configure target roles for enrichment",
+    "frequency": 1,
+    "examples": [
+      {
+        "task_id": "TEMPLATE-TASK-018",
+        "department": "LG",
+        "level": "step"
+      }
+    ]
+  },
+  {
+    "combination": "execute + run email enrichment",
+    "action": "execute",
+    "object": "run email enrichment",
+    "frequency": 1,
+    "examples": [
+      {
+        "task_id": "TEMPLATE-TASK-018",
+        "department": "LG",
+        "level": "step"
+      }
+    ]
+  },
+  {
+    "combination": "create + job posting",
+    "action": "create",
+    "object": "job posting",
+    "frequency": 1,
+    "examples": [
+      {
+        "task_id": "TEMPLATE-TASK-001",
+        "department": "HR",
+        "level": "task"
+      }
+    ]
+  },
+  {
+    "combination": "generate + mcp connector",
+    "action": "generate",
+    "object": "mcp connector",
+    "frequency": 1,
+    "examples": [
+      {
+        "task_id": "TEMPLATE-TASK-006",
+        "department": "Dev",
+        "level": "task"
+      }
+    ]
+  },
+  {
+    "combination": "enable + enable mcp-builder skill in claude desktop",
+    "action": "enable",
+    "object": "enable mcp-builder skill in claude desktop",
+    "frequency": 1,
+    "examples": [
+      {
+        "task_id": "TEMPLATE-TASK-006",
+        "department": "Dev",
+        "level": "step"
+      }
+    ]
+  },
+  {
+    "combination": "write + write 2-sentence connector prompt",
+    "action": "write",
+    "object": "write 2-sentence connector prompt",
+    "frequency": 1,
+    "examples": [
+      {
+        "task_id": "TEMPLATE-TASK-006",
+        "department": "Dev",
+        "level": "step"
+      }
+    ]
+  },
+  {
+    "combination": "submit + submit prompt to mcp-builder skill",
+    "action": "submit",
+    "object": "submit prompt to mcp-builder skill",
+    "frequency": 1,
+    "examples": [
+      {
+        "task_id": "TEMPLATE-TASK-006",
+        "department": "Dev",
+        "level": "step"
+      }
+    ]
+  },
+  {
+    "combination": "wait + wait for connector code generation",
+    "action": "wait",
+    "object": "wait for connector code generation",
+    "frequency": 1,
+    "examples": [
+      {
+        "task_id": "TEMPLATE-TASK-006",
+        "department": "Dev",
+        "level": "step"
+      }
+    ]
+  },
+  {
+    "combination": "review + review generated connector code",
+    "action": "review",
+    "object": "review generated connector code",
+    "frequency": 1,
+    "examples": [
+      {
+        "task_id": "TEMPLATE-TASK-006",
+        "department": "Dev",
+        "level": "step"
+      }
+    ]
+  },
+  {
+    "combination": "copy + copy code to local directory",
+    "action": "copy",
+    "object": "copy code to local directory",
+    "frequency": 1,
+    "examples": [
+      {
+        "task_id": "TEMPLATE-TASK-006",
+        "department": "Dev",
+        "level": "step"
+      }
+    ]
+  },
+  {
+    "combination": "build + custom scraper",
+    "action": "build",
+    "object": "custom scraper",
+    "frequency": 1,
+    "examples": [
+      {
+        "task_id": "TEMPLATE-TASK-011",
+        "department": "LG",
+        "level": "task"
+      }
+    ]
+  },
+  {
+    "combination": "research + identify and research target niche platform",
+    "action": "research",
+    "object": "identify and research target niche platform",
+    "frequency": 1,
+    "examples": [
+      {
+        "task_id": "TEMPLATE-TASK-011",
+        "department": "LG",
+        "level": "step"
+      }
+    ]
+  },
+  {
+    "combination": "analyze + analyze http requests using browser devtools",
+    "action": "analyze",
+    "object": "analyze http requests using browser devtools",
+    "frequency": 1,
+    "examples": [
+      {
+        "task_id": "TEMPLATE-TASK-011",
+        "department": "LG",
+        "level": "step"
+      }
+    ]
+  },
+  {
+    "combination": "design + design n8n workflow architecture",
+    "action": "design",
+    "object": "design n8n workflow architecture",
+    "frequency": 1,
+    "examples": [
+      {
+        "task_id": "TEMPLATE-TASK-011",
+        "department": "LG",
+        "level": "step"
+      }
+    ]
+  },
+  {
+    "combination": "build + build http request nodes in n8n",
+    "action": "build",
+    "object": "build http request nodes in n8n",
+    "frequency": 1,
+    "examples": [
+      {
+        "task_id": "TEMPLATE-TASK-011",
+        "department": "LG",
+        "level": "step"
+      }
+    ]
+  },
+  {
+    "combination": "build + build data parsing and cleaning logic",
+    "action": "build",
+    "object": "build data parsing and cleaning logic",
+    "frequency": 1,
+    "examples": [
+      {
+        "task_id": "TEMPLATE-TASK-011",
+        "department": "LG",
+        "level": "step"
+      }
+    ]
+  },
+  {
+    "combination": "test + test scraper on sample data",
+    "action": "test",
+    "object": "test scraper on sample data",
+    "frequency": 1,
+    "examples": [
+      {
+        "task_id": "TEMPLATE-TASK-011",
+        "department": "LG",
+        "level": "step"
+      }
+    ]
+  },
+  {
+    "combination": "execute + run full scrape on niche platform",
+    "action": "execute",
+    "object": "run full scrape on niche platform",
+    "frequency": 1,
+    "examples": [
+      {
+        "task_id": "TEMPLATE-TASK-011",
+        "department": "LG",
+        "level": "step"
+      }
+    ]
+  },
+  {
+    "combination": "enrich + enrich leads with emails via anymailfinder",
+    "action": "enrich",
+    "object": "enrich leads with emails via anymailfinder",
+    "frequency": 1,
+    "examples": [
+      {
+        "task_id": "TEMPLATE-TASK-011",
+        "department": "LG",
+        "level": "step"
+      }
+    ]
+  },
+  {
+    "combination": "document + document scraper for future use",
+    "action": "document",
+    "object": "document scraper for future use",
+    "frequency": 1,
+    "examples": [
+      {
+        "task_id": "TEMPLATE-TASK-011",
+        "department": "LG",
+        "level": "step"
+      }
+    ]
+  },
+  {
+    "combination": "deploy + mcp connector",
+    "action": "deploy",
+    "object": "mcp connector",
+    "frequency": 1,
+    "examples": [
+      {
+        "task_id": "TEMPLATE-TASK-010",
+        "department": "Dev",
+        "level": "task"
+      }
+    ]
+  },
+  {
+    "combination": "copy + copy generated connector code to local directory",
+    "action": "copy",
+    "object": "copy generated connector code to local directory",
+    "frequency": 1,
+    "examples": [
+      {
+        "task_id": "TEMPLATE-TASK-010",
+        "department": "Dev",
+        "level": "step"
+      }
+    ]
+  },
+  {
+    "combination": "open + open connector directory in cursor ai",
+    "action": "open",
+    "object": "open connector directory in cursor ai",
+    "frequency": 1,
+    "examples": [
+      {
+        "task_id": "TEMPLATE-TASK-010",
+        "department": "Dev",
+        "level": "step"
+      }
+    ]
+  },
+  {
+    "combination": "prompt + ask cursor to explain setup steps",
+    "action": "prompt",
+    "object": "ask cursor to explain setup steps",
+    "frequency": 1,
+    "examples": [
+      {
+        "task_id": "TEMPLATE-TASK-010",
+        "department": "Dev",
+        "level": "step"
+      }
+    ]
+  },
+  {
+    "combination": "install + install dependencies",
+    "action": "install",
+    "object": "install dependencies",
+    "frequency": 1,
+    "examples": [
+      {
+        "task_id": "TEMPLATE-TASK-010",
+        "department": "Dev",
+        "level": "step"
+      }
+    ]
+  },
+  {
+    "combination": "configure + configure oauth credentials (if required)",
+    "action": "configure",
+    "object": "configure oauth credentials (if required)",
+    "frequency": 1,
+    "examples": [
+      {
+        "task_id": "TEMPLATE-TASK-010",
+        "department": "Dev",
+        "level": "step"
+      }
+    ]
+  },
+  {
+    "combination": "test + test connector locally",
+    "action": "test",
+    "object": "test connector locally",
+    "frequency": 1,
+    "examples": [
+      {
+        "task_id": "TEMPLATE-TASK-010",
+        "department": "Dev",
+        "level": "step"
+      }
+    ]
+  },
+  {
+    "combination": "configure + add connector to claude desktop settings",
+    "action": "configure",
+    "object": "add connector to claude desktop settings",
+    "frequency": 1,
+    "examples": [
+      {
+        "task_id": "TEMPLATE-TASK-010",
+        "department": "Dev",
+        "level": "step"
+      }
+    ]
+  },
+  {
+    "combination": "verify + verify connection in claude desktop",
+    "action": "verify",
+    "object": "verify connection in claude desktop",
+    "frequency": 1,
+    "examples": [
+      {
+        "task_id": "TEMPLATE-TASK-010",
+        "department": "Dev",
+        "level": "step"
+      }
+    ]
+  },
+  {
+    "combination": "enable + claude skills",
+    "action": "enable",
+    "object": "claude skills",
+    "frequency": 1,
+    "examples": [
+      {
+        "task_id": "TEMPLATE-TASK-013",
+        "department": "Dev",
+        "level": "task"
+      }
+    ]
+  },
+  {
+    "combination": "open + open claude desktop app",
+    "action": "open",
+    "object": "open claude desktop app",
+    "frequency": 1,
+    "examples": [
+      {
+        "task_id": "TEMPLATE-TASK-013",
+        "department": "Dev",
+        "level": "step"
+      }
+    ]
+  },
+  {
+    "combination": "navigate + navigate to settings",
+    "action": "navigate",
+    "object": "navigate to settings",
+    "frequency": 1,
+    "examples": [
+      {
+        "task_id": "TEMPLATE-TASK-013",
+        "department": "Dev",
+        "level": "step"
+      }
+    ]
+  },
+  {
+    "combination": "locate + locate skills section in settings",
+    "action": "locate",
+    "object": "locate skills section in settings",
+    "frequency": 1,
+    "examples": [
+      {
+        "task_id": "TEMPLATE-TASK-013",
+        "department": "Dev",
+        "level": "step"
+      }
+    ]
+  },
+  {
+    "combination": "enable + enable skills feature toggle",
+    "action": "enable",
+    "object": "enable skills feature toggle",
+    "frequency": 1,
+    "examples": [
+      {
+        "task_id": "TEMPLATE-TASK-013",
+        "department": "Dev",
+        "level": "step"
+      }
+    ]
+  },
+  {
+    "combination": "verify + verify mcp-builder skill is available",
+    "action": "verify",
+    "object": "verify mcp-builder skill is available",
+    "frequency": 1,
+    "examples": [
+      {
+        "task_id": "TEMPLATE-TASK-013",
+        "department": "Dev",
+        "level": "step"
+      }
+    ]
+  },
+  {
+    "combination": "test + test skills feature with simple prompt",
+    "action": "test",
+    "object": "test skills feature with simple prompt",
+    "frequency": 1,
+    "examples": [
+      {
+        "task_id": "TEMPLATE-TASK-013",
+        "department": "Dev",
+        "level": "step"
+      }
+    ]
+  },
+  {
+    "combination": "execute + email arbitrage",
+    "action": "execute",
+    "object": "email arbitrage",
+    "frequency": 1,
+    "examples": [
+      {
+        "task_id": "TEMPLATE-TASK-008",
+        "department": "LG",
+        "level": "task"
+      }
+    ]
+  },
+  {
+    "combination": "identify + identify target enterprise companies",
+    "action": "identify",
+    "object": "identify target enterprise companies",
+    "frequency": 1,
+    "examples": [
+      {
+        "task_id": "TEMPLATE-TASK-008",
+        "department": "LG",
+        "level": "step"
+      }
+    ]
+  },
+  {
+    "combination": "search + search company in airscale database",
+    "action": "search",
+    "object": "search company in airscale database",
+    "frequency": 1,
+    "examples": [
+      {
+        "task_id": "TEMPLATE-TASK-008",
+        "department": "LG",
+        "level": "step"
+      }
+    ]
+  },
+  {
+    "combination": "unlock + spend 1 airscale credit to unlock employee list",
+    "action": "unlock",
+    "object": "spend 1 airscale credit to unlock employee list",
+    "frequency": 1,
+    "examples": [
+      {
+        "task_id": "TEMPLATE-TASK-008",
+        "department": "LG",
+        "level": "step"
+      }
+    ]
+  },
+  {
+    "combination": "export + export employee list from airscale",
+    "action": "export",
+    "object": "export employee list from airscale",
+    "frequency": 1,
+    "examples": [
+      {
+        "task_id": "TEMPLATE-TASK-008",
+        "department": "LG",
+        "level": "step"
+      }
+    ]
+  },
+  {
+    "combination": "upload + upload employee list to anymailfinder",
+    "action": "upload",
+    "object": "upload employee list to anymailfinder",
+    "frequency": 1,
+    "examples": [
+      {
+        "task_id": "TEMPLATE-TASK-008",
+        "department": "LG",
+        "level": "step"
+      }
+    ]
+  },
+  {
+    "combination": "enrich + run nominative enrichment on employees",
+    "action": "enrich",
+    "object": "run nominative enrichment on employees",
+    "frequency": 1,
+    "examples": [
+      {
+        "task_id": "TEMPLATE-TASK-008",
+        "department": "LG",
+        "level": "step"
+      }
+    ]
+  },
+  {
+    "combination": "export + export enriched contact list",
+    "action": "export",
+    "object": "export enriched contact list",
+    "frequency": 1,
+    "examples": [
+      {
+        "task_id": "TEMPLATE-TASK-008",
+        "department": "LG",
+        "level": "step"
+      }
+    ]
+  },
+  {
+    "combination": "calculate + calculate and log roi",
+    "action": "calculate",
+    "object": "calculate and log roi",
+    "frequency": 1,
+    "examples": [
+      {
+        "task_id": "TEMPLATE-TASK-008",
+        "department": "LG",
+        "level": "step"
+      }
+    ]
+  },
+  {
+    "combination": "scrape + local business leads",
+    "action": "scrape",
+    "object": "local business leads",
+    "frequency": 1,
+    "examples": [
+      {
+        "task_id": "TEMPLATE-TASK-016",
+        "department": "LG",
+        "level": "task"
+      }
+    ]
+  },
+  {
+    "combination": "define + define target location and business category",
+    "action": "define",
+    "object": "define target location and business category",
+    "frequency": 1,
+    "examples": [
+      {
+        "task_id": "TEMPLATE-TASK-016",
+        "department": "LG",
+        "level": "step"
+      }
+    ]
+  },
+  {
+    "combination": "configure + configure apify google maps scraper",
+    "action": "configure",
+    "object": "configure apify google maps scraper",
+    "frequency": 1,
+    "examples": [
+      {
+        "task_id": "TEMPLATE-TASK-016",
+        "department": "LG",
+        "level": "step"
+      }
+    ]
+  },
+  {
+    "combination": "scrape + run apify maps scraper",
+    "action": "scrape",
+    "object": "run apify maps scraper",
+    "frequency": 1,
+    "examples": [
+      {
+        "task_id": "TEMPLATE-TASK-016",
+        "department": "LG",
+        "level": "step"
+      }
+    ]
+  },
+  {
+    "combination": "export + export and clean business listing data",
+    "action": "export",
+    "object": "export and clean business listing data",
+    "frequency": 1,
+    "examples": [
+      {
+        "task_id": "TEMPLATE-TASK-016",
+        "department": "LG",
+        "level": "step"
+      }
+    ]
+  },
+  {
+    "combination": "enrich + run nominative enrichment for business owners/managers",
+    "action": "enrich",
+    "object": "run nominative enrichment for business owners/managers",
+    "frequency": 1,
+    "examples": [
+      {
+        "task_id": "TEMPLATE-TASK-016",
+        "department": "LG",
+        "level": "step"
+      }
+    ]
+  },
+  {
+    "combination": "export + export final local business lead list",
+    "action": "export",
+    "object": "export final local business lead list",
+    "frequency": 1,
+    "examples": [
+      {
+        "task_id": "TEMPLATE-TASK-016",
+        "department": "LG",
+        "level": "step"
+      }
+    ]
+  },
+  {
+    "combination": "generate + lead list",
+    "action": "generate",
+    "object": "lead list",
+    "frequency": 1,
+    "examples": [
+      {
+        "task_id": "TEMPLATE-TASK-009",
+        "department": "LG",
+        "level": "task"
+      }
+    ]
+  },
+  {
+    "combination": "define + define google search query",
+    "action": "define",
+    "object": "define google search query",
+    "frequency": 1,
+    "examples": [
+      {
+        "task_id": "TEMPLATE-TASK-009",
+        "department": "LG",
+        "level": "step"
+      }
+    ]
+  },
+  {
+    "combination": "configure + configure apify google serp scraper",
+    "action": "configure",
+    "object": "configure apify google serp scraper",
+    "frequency": 1,
+    "examples": [
+      {
+        "task_id": "TEMPLATE-TASK-009",
+        "department": "LG",
+        "level": "step"
+      }
+    ]
+  },
+  {
+    "combination": "scrape + run apify serp scraper",
+    "action": "scrape",
+    "object": "run apify serp scraper",
+    "frequency": 1,
+    "examples": [
+      {
+        "task_id": "TEMPLATE-TASK-009",
+        "department": "LG",
+        "level": "step"
+      }
+    ]
+  },
+  {
+    "combination": "export + export and clean domain list",
+    "action": "export",
+    "object": "export and clean domain list",
+    "frequency": 1,
+    "examples": [
+      {
+        "task_id": "TEMPLATE-TASK-009",
+        "department": "LG",
+        "level": "step"
+      }
+    ]
+  },
+  {
+    "combination": "enrich + run nominative enrichment",
+    "action": "enrich",
+    "object": "run nominative enrichment",
+    "frequency": 1,
+    "examples": [
+      {
+        "task_id": "TEMPLATE-TASK-009",
+        "department": "LG",
+        "level": "step"
+      }
+    ]
+  },
+  {
+    "combination": "export + export final enriched lead list",
+    "action": "export",
+    "object": "export final enriched lead list",
+    "frequency": 1,
+    "examples": [
+      {
+        "task_id": "TEMPLATE-TASK-009",
+        "department": "LG",
+        "level": "step"
+      }
+    ]
+  },
+  {
+    "combination": "scrape + influencer profiles",
+    "action": "scrape",
+    "object": "influencer profiles",
+    "frequency": 1,
+    "examples": [
+      {
+        "task_id": "TEMPLATE-TASK-020",
+        "department": "AI",
+        "level": "task"
+      }
+    ]
+  },
+  {
+    "combination": "define + define influencer search criteria",
+    "action": "define",
+    "object": "define influencer search criteria",
+    "frequency": 1,
+    "examples": [
+      {
+        "task_id": "TEMPLATE-TASK-020",
+        "department": "AI",
+        "level": "step"
+      }
+    ]
+  },
+  {
+    "combination": "configure + configure apify instagram scraper",
+    "action": "configure",
+    "object": "configure apify instagram scraper",
+    "frequency": 1,
+    "examples": [
+      {
+        "task_id": "TEMPLATE-TASK-020",
+        "department": "AI",
+        "level": "step"
+      }
+    ]
+  },
+  {
+    "combination": "scrape + run instagram scraper",
+    "action": "scrape",
+    "object": "run instagram scraper",
+    "frequency": 1,
+    "examples": [
+      {
+        "task_id": "TEMPLATE-TASK-020",
+        "department": "AI",
+        "level": "step"
+      }
+    ]
+  },
+  {
+    "combination": "extract + extract contact information from bios",
+    "action": "extract",
+    "object": "extract contact information from bios",
+    "frequency": 1,
+    "examples": [
+      {
+        "task_id": "TEMPLATE-TASK-020",
+        "department": "AI",
+        "level": "step"
+      }
+    ]
+  },
+  {
+    "combination": "enrich + enrich remaining profiles via anymailfinder (optional)",
+    "action": "enrich",
+    "object": "enrich remaining profiles via anymailfinder (optional)",
+    "frequency": 1,
+    "examples": [
+      {
+        "task_id": "TEMPLATE-TASK-020",
+        "department": "AI",
+        "level": "step"
+      }
+    ]
+  },
+  {
+    "combination": "export + export influencer list with metrics",
+    "action": "export",
+    "object": "export influencer list with metrics",
+    "frequency": 1,
+    "examples": [
+      {
+        "task_id": "TEMPLATE-TASK-020",
+        "department": "AI",
+        "level": "step"
+      }
+    ]
+  },
+  {
+    "combination": "prepare + prepare domain list",
+    "action": "prepare",
+    "object": "prepare domain list",
+    "frequency": 1,
+    "examples": [
+      {
+        "task_id": "TEMPLATE-TASK-019",
+        "department": "LG",
+        "level": "step"
+      }
+    ]
+  },
+  {
+    "combination": "upload + upload to instantly.ai campaign",
+    "action": "upload",
+    "object": "upload to instantly.ai campaign",
+    "frequency": 1,
+    "examples": [
+      {
+        "task_id": "TEMPLATE-TASK-019",
+        "department": "LG",
+        "level": "step"
+      }
+    ]
+  },
+  {
+    "combination": "configure + configure enrichment settings",
+    "action": "configure",
+    "object": "configure enrichment settings",
+    "frequency": 1,
+    "examples": [
+      {
+        "task_id": "TEMPLATE-TASK-019",
+        "department": "LG",
+        "level": "step"
+      }
+    ]
+  },
+  {
+    "combination": "execute + run enrichment within instantly.ai",
+    "action": "execute",
+    "object": "run enrichment within instantly.ai",
+    "frequency": 1,
+    "examples": [
+      {
+        "task_id": "TEMPLATE-TASK-019",
+        "department": "LG",
+        "level": "step"
+      }
+    ]
+  },
+  {
+    "combination": "review + review enriched contacts",
+    "action": "review",
+    "object": "review enriched contacts",
+    "frequency": 1,
+    "examples": [
+      {
+        "task_id": "TEMPLATE-TASK-019",
+        "department": "LG",
+        "level": "step"
+      }
+    ]
+  },
+  {
+    "combination": "launch + launch email campaign (optional)",
+    "action": "launch",
+    "object": "launch email campaign (optional)",
+    "frequency": 1,
+    "examples": [
+      {
+        "task_id": "TEMPLATE-TASK-019",
+        "department": "LG",
+        "level": "step"
+      }
+    ]
+  },
+  {
+    "combination": "scrape + linkedin job postings",
+    "action": "scrape",
+    "object": "linkedin job postings",
+    "frequency": 1,
+    "examples": [
+      {
+        "task_id": "TEMPLATE-TASK-017",
+        "department": "LG",
+        "level": "task"
+      }
+    ]
+  },
+  {
+    "combination": "define + define job search criteria indicating intent",
+    "action": "define",
+    "object": "define job search criteria indicating intent",
+    "frequency": 1,
+    "examples": [
+      {
+        "task_id": "TEMPLATE-TASK-017",
+        "department": "LG",
+        "level": "step"
+      }
+    ]
+  },
+  {
+    "combination": "configure + configure apify linkedin jobs scraper",
+    "action": "configure",
+    "object": "configure apify linkedin jobs scraper",
+    "frequency": 1,
+    "examples": [
+      {
+        "task_id": "TEMPLATE-TASK-017",
+        "department": "LG",
+        "level": "step"
+      }
+    ]
+  },
+  {
+    "combination": "scrape + run apify jobs scraper",
+    "action": "scrape",
+    "object": "run apify jobs scraper",
+    "frequency": 1,
+    "examples": [
+      {
+        "task_id": "TEMPLATE-TASK-017",
+        "department": "LG",
+        "level": "step"
+      }
+    ]
+  },
+  {
+    "combination": "extract + extract and deduplicate company list",
+    "action": "extract",
+    "object": "extract and deduplicate company list",
+    "frequency": 1,
+    "examples": [
+      {
+        "task_id": "TEMPLATE-TASK-017",
+        "department": "LG",
+        "level": "step"
+      }
+    ]
+  },
+  {
+    "combination": "research + research company domains",
+    "action": "research",
+    "object": "research company domains",
+    "frequency": 1,
+    "examples": [
+      {
+        "task_id": "TEMPLATE-TASK-017",
+        "department": "LG",
+        "level": "step"
+      }
+    ]
+  },
+  {
+    "combination": "upload + upload companies to anymailfinder for enrichment",
+    "action": "upload",
+    "object": "upload companies to anymailfinder for enrichment",
+    "frequency": 1,
+    "examples": [
+      {
+        "task_id": "TEMPLATE-TASK-017",
+        "department": "LG",
+        "level": "step"
+      }
+    ]
+  },
+  {
+    "combination": "enrich + run targeted enrichment for decision-makers",
+    "action": "enrich",
+    "object": "run targeted enrichment for decision-makers",
+    "frequency": 1,
+    "examples": [
+      {
+        "task_id": "TEMPLATE-TASK-017",
+        "department": "LG",
+        "level": "step"
+      }
+    ]
+  },
+  {
+    "combination": "export + export with job posting context",
+    "action": "export",
+    "object": "export with job posting context",
+    "frequency": 1,
+    "examples": [
+      {
+        "task_id": "TEMPLATE-TASK-017",
+        "department": "LG",
+        "level": "step"
+      }
+    ]
+  },
+  {
+    "combination": "extract + linkedin leads",
+    "action": "extract",
+    "object": "linkedin leads",
+    "frequency": 1,
+    "examples": [
+      {
+        "task_id": "TEMPLATE-TASK-004",
+        "department": "LG",
+        "level": "task"
+      }
+    ]
+  },
+  {
+    "combination": "create + create targeted search in linkedin sales navigator",
+    "action": "create",
+    "object": "create targeted search in linkedin sales navigator",
+    "frequency": 1,
+    "examples": [
+      {
+        "task_id": "TEMPLATE-TASK-004",
+        "department": "LG",
+        "level": "step"
+      }
+    ]
+  },
+  {
+    "combination": "extract + extract li_at cookie from browser",
+    "action": "extract",
+    "object": "extract li_at cookie from browser",
+    "frequency": 1,
+    "examples": [
+      {
+        "task_id": "TEMPLATE-TASK-004",
+        "department": "LG",
+        "level": "step"
+      }
+    ]
+  },
+  {
+    "combination": "configure + configure vayne scraper with search url and cookie",
+    "action": "configure",
+    "object": "configure vayne scraper with search url and cookie",
+    "frequency": 1,
+    "examples": [
+      {
+        "task_id": "TEMPLATE-TASK-004",
+        "department": "LG",
+        "level": "step"
+      }
+    ]
+  },
+  {
+    "combination": "scrape + run vayne scraper to extract profiles",
+    "action": "scrape",
+    "object": "run vayne scraper to extract profiles",
+    "frequency": 1,
+    "examples": [
+      {
+        "task_id": "TEMPLATE-TASK-004",
+        "department": "LG",
+        "level": "step"
+      }
+    ]
+  },
+  {
+    "combination": "import + import profiles to anymailfinder for enrichment",
+    "action": "import",
+    "object": "import profiles to anymailfinder for enrichment",
+    "frequency": 1,
+    "examples": [
+      {
+        "task_id": "TEMPLATE-TASK-004",
+        "department": "LG",
+        "level": "step"
+      }
+    ]
+  },
+  {
+    "combination": "enrich + run email enrichment",
+    "action": "enrich",
+    "object": "run email enrichment",
+    "frequency": 1,
+    "examples": [
+      {
+        "task_id": "TEMPLATE-TASK-004",
+        "department": "LG",
+        "level": "step"
+      }
+    ]
+  },
+  {
+    "combination": "export + export enriched lead list",
+    "action": "export",
+    "object": "export enriched lead list",
+    "frequency": 1,
+    "examples": [
+      {
+        "task_id": "TEMPLATE-TASK-004",
+        "department": "LG",
+        "level": "step"
+      }
+    ]
+  },
+  {
+    "combination": "automate + newsletter replies",
+    "action": "automate",
+    "object": "newsletter replies",
+    "frequency": 1,
+    "examples": [
+      {
+        "task_id": "TEMPLATE-TASK-012",
+        "department": "AI",
+        "level": "task"
+      }
+    ]
+  },
+  {
+    "combination": "identify + identify newsletter subscriber emails in inbox",
+    "action": "identify",
+    "object": "identify newsletter subscriber emails in inbox",
+    "frequency": 1,
+    "examples": [
+      {
+        "task_id": "TEMPLATE-TASK-012",
+        "department": "AI",
+        "level": "step"
+      }
+    ]
+  },
+  {
+    "combination": "activate + open claude desktop and activate gmail connector",
+    "action": "activate",
+    "object": "open claude desktop and activate gmail connector",
+    "frequency": 1,
+    "examples": [
+      {
+        "task_id": "TEMPLATE-TASK-012",
+        "department": "AI",
+        "level": "step"
+      }
+    ]
+  },
+  {
+    "combination": "prompt + prompt claude to read newsletter subscriber emails",
+    "action": "prompt",
+    "object": "prompt claude to read newsletter subscriber emails",
+    "frequency": 1,
+    "examples": [
+      {
+        "task_id": "TEMPLATE-TASK-012",
+        "department": "AI",
+        "level": "step"
+      }
+    ]
+  },
+  {
+    "combination": "analyze + analyze subscriber questions and requests",
+    "action": "analyze",
+    "object": "analyze subscriber questions and requests",
+    "frequency": 1,
+    "examples": [
+      {
+        "task_id": "TEMPLATE-TASK-012",
+        "department": "AI",
+        "level": "step"
+      }
+    ]
+  },
+  {
+    "combination": "generate + generate personalized reply drafts",
+    "action": "generate",
+    "object": "generate personalized reply drafts",
+    "frequency": 1,
+    "examples": [
+      {
+        "task_id": "TEMPLATE-TASK-012",
+        "department": "AI",
+        "level": "step"
+      }
+    ]
+  },
+  {
+    "combination": "send + send approved replies",
+    "action": "send",
+    "object": "send approved replies",
+    "frequency": 1,
+    "examples": [
+      {
+        "task_id": "TEMPLATE-TASK-012",
+        "department": "AI",
+        "level": "step"
+      }
+    ]
+  },
+  {
+    "combination": "send + follow-up email",
+    "action": "send",
+    "object": "follow-up email",
+    "frequency": 1,
+    "examples": [
+      {
+        "task_id": "TEMPLATE-TASK-002",
+        "department": "Sales",
+        "level": "task"
+      }
+    ]
+  },
+  {
+    "combination": "automate + post-meeting workflow",
+    "action": "automate",
+    "object": "post-meeting workflow",
+    "frequency": 1,
+    "examples": [
+      {
+        "task_id": "TEMPLATE-TASK-005",
+        "department": "AI",
+        "level": "task"
+      }
+    ]
+  },
+  {
+    "combination": "upload + upload meeting transcript to claude desktop",
+    "action": "upload",
+    "object": "upload meeting transcript to claude desktop",
+    "frequency": 1,
+    "examples": [
+      {
+        "task_id": "TEMPLATE-TASK-005",
+        "department": "AI",
+        "level": "step"
+      }
+    ]
+  },
+  {
+    "combination": "extract + extract meeting insights via claude",
+    "action": "extract",
+    "object": "extract meeting insights via claude",
+    "frequency": 1,
+    "examples": [
+      {
+        "task_id": "TEMPLATE-TASK-005",
+        "department": "AI",
+        "level": "step"
+      }
+    ]
+  },
+  {
+    "combination": "read + read calendar event to get meeting attendees",
+    "action": "read",
+    "object": "read calendar event to get meeting attendees",
+    "frequency": 1,
+    "examples": [
+      {
+        "task_id": "TEMPLATE-TASK-005",
+        "department": "AI",
+        "level": "step"
+      }
+    ]
+  },
+  {
+    "combination": "generate + draft follow-up emails for each attendee",
+    "action": "generate",
+    "object": "draft follow-up emails for each attendee",
+    "frequency": 1,
+    "examples": [
+      {
+        "task_id": "TEMPLATE-TASK-005",
+        "department": "AI",
+        "level": "step"
+      }
+    ]
+  },
+  {
+    "combination": "update + update crm with meeting notes and client wins",
+    "action": "update",
+    "object": "update crm with meeting notes and client wins",
+    "frequency": 1,
+    "examples": [
+      {
+        "task_id": "TEMPLATE-TASK-005",
+        "department": "AI",
+        "level": "step"
+      }
+    ]
+  },
+  {
+    "combination": "review + review email drafts and crm updates",
+    "action": "review",
+    "object": "review email drafts and crm updates",
+    "frequency": 1,
+    "examples": [
+      {
+        "task_id": "TEMPLATE-TASK-005",
+        "department": "AI",
+        "level": "step"
+      }
+    ]
+  },
+  {
+    "combination": "send + send approved follow-up emails",
+    "action": "send",
+    "object": "send approved follow-up emails",
+    "frequency": 1,
+    "examples": [
+      {
+        "task_id": "TEMPLATE-TASK-005",
+        "department": "AI",
+        "level": "step"
+      }
+    ]
+  },
+  {
+    "combination": "generate + product commercial video",
+    "action": "generate",
+    "object": "product commercial video",
+    "frequency": 1,
+    "examples": [
+      {
+        "task_id": "TEMPLATE-TASK-VIDEO-001",
+        "department": "E-commerce",
+        "level": "task"
+      }
+    ]
+  },
+  {
+    "combination": "generate + social media storytelling video",
+    "action": "generate",
+    "object": "social media storytelling video",
+    "frequency": 1,
+    "examples": [
+      {
+        "task_id": "TEMPLATE-TASK-VIDEO-002",
+        "department": "AI",
+        "level": "task"
+      }
+    ]
+  },
+  {
+    "combination": "generate + brand logo animation video",
+    "action": "generate",
+    "object": "brand logo animation video",
+    "frequency": 1,
+    "examples": [
+      {
+        "task_id": "TEMPLATE-TASK-VIDEO-003",
+        "department": "AI",
+        "level": "task"
+      }
+    ]
+  },
+  {
+    "combination": "execute + complete video production workflow",
+    "action": "execute",
+    "object": "complete video production workflow",
+    "frequency": 1,
+    "examples": [
+      {
+        "task_id": "TEMPLATE-TASK-VIDEO-004",
+        "department": "AI",
+        "level": "task"
+      }
+    ]
+  }
+]

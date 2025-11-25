@@ -1,0 +1,132 @@
+{
+  "entity_type": "LIBRARIES",
+  "sub_entity": "Tool",
+  "tool_id": "TOOL-SALES-101",
+  "name": "MarketerHire",
+  "vendor": "MarketerHire Inc.",
+  "category": "Specialized Talent Platform / Marketing / HR Tools",
+  "purpose": "Specialized freelance marketplace for connecting businesses with pre-vetted top-tier marketing talent",
+  "description": "MarketerHire is a dedicated platform launched in October 2018 for hiring high-quality marketing specialists. The platform features a rigorous vetting process including active talent scouting across Facebook groups, forums, and LinkedIn, professional experience review, skill-specific assessments, and video interviews to gauge communication skills and professionalism. Matching is fast (48 hours to ideal marketer). Covers wide range of marketing roles including content marketers, email marketers, growth marketers, paid search/social marketers, SEO specialists, and niche experts like Amazon/Shopify marketers, CMOs, and marketing interns. No upfront recruiting or contract fees; freelancers set their own rates ($80-$160/hour) with $1,500/month soft commitment.",
+  "skill_level_required": "Beginner",
+  "cost_structure": "No upfront fees; $80-$160/hour (freelancer-set rates); $1,500/month soft commitment; discounts for part-time/full-time",
+  "platform_compatibility": ["Web Platform", "Matching Interface", "Interview Scheduling"],
+  "integration_capabilities": ["Fast matching (48 hours)", "Communication tools", "Contract management"],
+  "documentation_url": "https://www.marketerhire.com",
+  "actual_remote_helpers_usage": {
+    "primary_use": "Potential platform for hiring SMM manager, email marketer, or content creator for Sales department",
+    "users": ["Sales Department Manager", "HR Manager"],
+    "use_cases": [
+      "Hiring part-time SMM manager to free up Sales employee time ($6K-$8K/month)",
+      "Email marketing specialist for campaign creation and automation",
+      "Content marketers for blog writing and LinkedIn posts",
+      "SEO specialist for organic growth",
+      "Growth marketers for user acquisition experiments"
+    ],
+    "workflows": ["HIRE_SPECIALIST_CURATED_PLATFORM", "HIRE_SMM_FREELANCER", "HIRE_EMAIL_MARKETER"],
+    "typical_workflow_pattern": [
+      {
+        "task": "Hire SMM Manager via MarketerHire",
+        "steps": [
+          "Submit SMM requirements (content strategy, platforms, goals)",
+          "MarketerHire matches with ideal SMM specialist (48 hours)",
+          "Interview matched candidate",
+          "Negotiate rates ($80-$160/hour) and commitment (part-time/full-time)",
+          "Onboard SMM manager (no recruiting fees)",
+          "SMM specialist creates content calendar and manages social media",
+          "Sales employee freed to focus on sales activities"
+        ],
+        "complexity": "Medium",
+        "status": "HIGH_VALUE_FOR_SALES_SCALING"
+      },
+      {
+        "task": "Evaluate ROI of SMM Outsourcing",
+        "steps": [
+          "Current: Sales employee spends 33% time on SMM",
+          "Hire part-time SMM via MarketerHire ($6-8K/month)",
+          "Sales employee reallocates 10-15 hours/week to sales",
+          "If 1 additional client closed/month ($3-5K profit), ROI breaks even or positive"
+        ],
+        "complexity": "High",
+        "status": "STRATEGIC_EVALUATION_RECOMMENDED"
+      }
+    ]
+  },
+  "strengths": [
+    "Highly vetted marketing talent (rigorous multi-step evaluation)",
+    "48-hour matching (very fast turnaround)",
+    "No upfront recruiting or contract fees",
+    "Wide range of marketing specializations",
+    "Part-time and full-time flexibility",
+    "Designed for high-growth businesses (aligned with scaling needs)",
+    "Active talent scouting (proactive vs reactive)",
+    "Video interviews ensure communication quality"
+  ],
+  "limitations": [
+    "Higher hourly rates ($80-$160/hour) vs general platforms",
+    "$1,500/month minimum (not for small, one-off tasks)",
+    "Not suitable for bootstrap-stage companies or quick fixes",
+    "Focused specialization (marketing only)",
+    "Premium pricing compared to UpWork/Fiverr"
+  ],
+  "departments_using": ["Sales (Primary)", "Marketing (if created)"],
+  "tags": ["marketing-talent", "pre-vetted", "smm", "email-marketing", "content-marketing", "seo", "paid-ads", "hr-tools"],
+  "discovery_date": "2025-11-22",
+  "discovery_source": "Video_019_Freelance_Remote_Hiring_Websites",
+  "status": "recommended_for_sales_smm_needs",
+  "remote_helpers_context": {
+    "relevance_score": 78,
+    "strategic_alignment": "Highly aligned with Sales department SMM support needs",
+    "implementation_priority": "Medium-High",
+    "pilot_test_recommendation": "Consider if Sales department growth requires dedicated SMM specialist",
+    "decision_timeline": "Evaluate based on sales growth and resource constraints"
+  },
+  "pricing_examples": {
+    "hourly_rate_range": "$80-$160/hour",
+    "part_time_smm_monthly": "$6,400-$12,800 (20 hours/week at $80-160/hour)",
+    "full_time_marketer_monthly": "$12,800-$25,600 (40 hours/week)",
+    "email_marketer_part_time": "$3,600 (10 hours/week at $90/hour)",
+    "seo_specialist_part_time": "$6,600 (15 hours/week at $110/hour)"
+  },
+  "marketing_specializations": {
+    "content_marketers": "Blog writing, content strategy, editorial calendars",
+    "email_marketers": "Email campaigns, automation, segmentation",
+    "growth_marketers": "User acquisition, retention, experimentation",
+    "paid_search_marketers": "Google Ads, Bing Ads, PPC campaigns",
+    "paid_social_marketers": "Facebook Ads, Instagram Ads, LinkedIn Ads",
+    "seo_marketers": "On-page, off-page, technical SEO, link building",
+    "social_media_managers": "Community management, content posting, engagement",
+    "niche_specialists": "Amazon marketers, Shopify marketers, brand marketers, CMOs, marketing interns"
+  },
+  "use_cases_by_department": {
+    "Sales": "Part-time SMM manager ($6-8K/month), email marketer ($3-6K/month), content creator for LinkedIn/blog",
+    "Company_Wide": "Fractional CMO for strategic marketing leadership, growth marketer for scaling initiatives"
+  },
+  "when_to_use": [
+    "Need for high-quality marketing expertise",
+    "Willing to commit $1,500+/month",
+    "Require specialized marketing skills (SEO, paid ads, email)",
+    "Prefer vetted talent over marketplace searching",
+    "Scaling marketing efforts during growth phases",
+    "Sales employee overwhelmed with SMM tasks"
+  ],
+  "when_not_to_use": [
+    "Small budget (<$1,500/month) - Fiverr better",
+    "One-off content needs - UpWork/Fiverr more cost-effective",
+    "Need for non-marketing skills",
+    "Testing marketing channels without commitment",
+    "Bootstrap-stage company with tight budget"
+  ],
+  "comparison_with_alternatives": {
+    "vs_Fiverr": "MarketerHire for ongoing marketing expertise; Fiverr for one-off content",
+    "vs_UpWork": "MarketerHire for pre-vetted specialists (faster, higher quality); UpWork more affordable",
+    "vs_Mayple": "MarketerHire faster (48 hours) and more flexible; Mayple requires 3-month commitment",
+    "vs_Full_Time_Hire": "MarketerHire flexible (scale up/down); full-time hire fixed cost but dedicated"
+  },
+  "roi_calculation_sales_department": {
+    "current_model": "Sales employee spends 33% time on SMM (10-15 hours/week)",
+    "marketer_hire_cost": "$6,000-$8,000/month (part-time SMM)",
+    "sales_employee_time_freed": "10-15 hours/week for sales activities",
+    "potential_revenue_increase": "If 1 additional client closed/month at $3-5K profit, ROI positive",
+    "decision": "Evaluate if sales employee's time better spent on sales vs SMM"
+  }
+}

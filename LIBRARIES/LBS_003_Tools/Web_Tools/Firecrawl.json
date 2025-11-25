@@ -1,0 +1,71 @@
+{
+  "entity_type": "LIBRARIES",
+  "sub_entity": "Tool",
+  "tool_id": "TOOL-WEB-003",
+  "name": "Firecrawl",
+  "vendor": "Firecrawl",
+  "category": "Web/Crawling & Scraping",
+  "purpose": "Web crawling and data extraction for AI applications",
+  "description": "Alternative to Crawl4AI for web data extraction. Good for scraping and crawling websites for AI agents and RAG systems. Crawl4AI preferred due to being open-source and feature-rich, but Firecrawl is a solid commercial alternative.",
+  "skill_level_required": "Intermediate",
+  "cost_structure": "Commercial (API-based)",
+  "platform_compatibility": [
+    "API",
+    "Python",
+    "JavaScript"
+  ],
+  "integration_capabilities": [
+    "Web crawling",
+    "Data extraction",
+    "API access",
+    "AI agent tools",
+    "Structured data output"
+  ],
+  "documentation_url": "https://firecrawl.dev/",
+  "actual_remote_helpers_usage": {
+    "primary_use": "Web Crawling & Extraction",
+    "users": [],
+    "use_cases": [
+      "crawl websites",
+      "extract web data",
+      "agent web access",
+      "rag data collection",
+      "web scraping"
+    ],
+    "workflows": []
+  },
+  "strengths": [
+    "Managed service",
+    "Good extraction quality",
+    "Reliable infrastructure",
+    "API-based"
+  ],
+  "limitations": [
+    "Commercial pricing",
+    "Not open-source like Crawl4AI",
+    "Requires API access"
+  ],
+  "alternatives": [
+    {
+      "name": "Crawl4AI",
+      "comparison": "Open-source, preferred alternative"
+    }
+  ],
+  "departments_using": [],
+  "tags": [
+    "crawling",
+    "scraping",
+    "web-extraction",
+    "api",
+    "data-collection"
+  ],
+  "discovery_date": "2025-11-13",
+  "discovery_source": "Video_005",
+  "status": "active",
+  "video_source": {
+    "video_id": "Video_005",
+    "video_title": "My Agentic Engineering Tech Stack",
+    "creator": "Cole",
+    "timestamp": "19:18-20:03"
+  }
+}

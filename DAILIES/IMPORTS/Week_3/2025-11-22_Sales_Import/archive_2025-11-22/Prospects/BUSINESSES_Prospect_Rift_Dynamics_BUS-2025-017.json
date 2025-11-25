@@ -1,0 +1,61 @@
+{
+  "entity_type": "BUSINESSES",
+  "sub_entity": "Prospect",
+  "company_id": "BUS-2025-017",
+  "company_name": "Rift Dynamics",
+  "status": "Pipeline_Stage_Qualification",
+  "industry": "Unknown",
+  "company_size": "Unknown",
+  "location": "Unknown",
+  "relationship_start": "2025-09-22",
+  "lifetime_value": 0,
+  "current_monthly_revenue": 0,
+  "account_manager": "Anush",
+  "decision_makers": [
+    {
+      "name": "Pal",
+      "title": "Unknown",
+      "email": "pk@riftdynamics.io"
+    }
+  ],
+  "active_projects": [],
+  "relationship_health": "Weak",
+  "tags": [
+    "dormant",
+    "needs_followup",
+    "qualification",
+    "active_prospect",
+    "anush_portfolio",
+    "needs_immediate_followup"
+  ],
+  "crm_link": "https://crm-s.com/member/leads/1142091",
+  "transcription_link": "",
+  "google_doc": "email for Pal",
+  "dropbox_path": "/Dropbox/Clients/Rift Dynamics/email.md",
+  "last_contact": "2025-09-12",
+  "next_action": "he asked of hubspot specialists",
+  "communication_history": [],
+  "notes": "he did not reply regarding rescheduling the call",
+  "email_content": "",
+  "approved": "FALSE",
+  "services_of_interest": [],
+  "urgency_level": "normal",
+  "budget_info": {
+    "budget_mentioned": false,
+    "estimated_value": null,
+    "currency": null
+  },
+  "next_actions": [
+    {
+      "action": "he asked of hubspot specialists",
+      "source": "to_do_field",
+      "priority": "high"
+    }
+  ],
+  "last_contact_details": {
+    "date": "2025-09-12",
+    "days_ago": 71,
+    "recency": "stale"
+  },
+  "key_notes": "he did not reply regarding rescheduling the call"
+}

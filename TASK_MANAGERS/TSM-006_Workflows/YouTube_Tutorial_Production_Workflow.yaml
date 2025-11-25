@@ -1,0 +1,194 @@
+workflow_name: "YouTube Tutorial Production"
+workflow_type: "Linear"
+workflow_id: "WF-SMM-006"
+department: "MARKETING"
+priority: "High"
+estimated_duration: "8-12 hours per tutorial"
+status: "Active"
+
+description: |
+  Create comprehensive educational video tutorials for YouTube with SEO optimization and multi-platform distribution.
+  High-quality production workflow for long-form educational content with maximum reach and engagement.
+
+steps:
+  - step_number: 1
+    name: "Research and Script"
+    tool: "YouTube, Google Docs"
+    responsibility: "Research topic and write script"
+    placement: "Content planning workspace"
+    duration: "2-3 hours"
+    dependencies: []
+    inputs:
+      - "Tutorial topic and learning objectives"
+      - "Audience research and keyword analysis"
+      - "Competitor video analysis"
+    outputs:
+      - "Comprehensive script (Hook → Problem → Solution → Examples → CTA)"
+      - "Content outline with timestamps"
+      - "Key teaching points identified"
+      - "SEO keywords researched"
+    success_criteria: "Clear, well-structured script that addresses audience needs"
+
+  - step_number: 2
+    name: "Record Tutorial"
+    tool: "OBS, Camtasia, or screen recording software"
+    responsibility: "Record tutorial footage"
+    placement: "Recording workspace"
+    duration: "2-4 hours"
+    dependencies: ["Step 1"]
+    inputs:
+      - "Script from Step 1"
+      - "Screen recording setup"
+      - "Audio recording equipment"
+    outputs:
+      - "Raw tutorial footage (1080p-4K quality)"
+      - "Screen recordings with voiceover"
+      - "Talking head footage (if applicable)"
+      - "B-roll and supplementary footage"
+    success_criteria: "High-quality video and audio recordings with clear demonstrations"
+
+  - step_number: 3
+    name: "Edit Video"
+    tool: "Premiere Pro, Final Cut Pro, DaVinci Resolve"
+    responsibility: "Edit video content"
+    placement: "Video editing workspace"
+    duration: "3-5 hours"
+    dependencies: ["Step 2"]
+    inputs:
+      - "Raw footage from Step 2"
+      - "Brand graphics and assets"
+      - "Music and sound effects"
+    outputs:
+      - "Fully edited YouTube tutorial"
+      - "Captions/subtitles added"
+      - "Graphics and transitions integrated"
+      - "Pacing optimized for engagement"
+      - "Intro and outro included"
+    success_criteria: "Professional, engaging video with strong pacing and visual clarity"
+
+  - step_number: 4
+    name: "Design Thumbnail"
+    tool: "Photoshop, Canva, Figma"
+    responsibility: "Design custom thumbnail"
+    placement: "Design workspace"
+    duration: "30-45 minutes"
+    dependencies: ["Step 3"]
+    inputs:
+      - "Key frame from video"
+      - "Brand visual guidelines"
+      - "Thumbnail best practices"
+    outputs:
+      - "Custom thumbnail (1280×720px)"
+      - "Text overlay with high contrast"
+      - "A/B test variations (2-3 options)"
+      - "Mobile-optimized design"
+    success_criteria: "Eye-catching thumbnail that accurately represents content and stands out in feed"
+
+  - step_number: 5
+    name: "Optimize SEO"
+    tool: "YouTube Studio, TubeBuddy, VidIQ"
+    responsibility: "Optimize video SEO"
+    placement: "YouTube optimization workspace"
+    duration: "30-60 minutes"
+    dependencies: ["Step 3", "Step 4"]
+    inputs:
+      - "Keyword research from Step 1"
+      - "Completed video and thumbnail"
+      - "Target audience insights"
+    outputs:
+      - "Keyword-first title (60 characters max)"
+      - "Comprehensive description (200+ words with timestamps)"
+      - "Relevant tags (10-15 tags)"
+      - "Category and playlist assignment"
+      - "End screens and cards configured"
+    success_criteria: "Fully optimized metadata for maximum discoverability"
+
+  - step_number: 6
+    name: "Upload and Schedule"
+    tool: "YouTube Studio"
+    responsibility: "Upload and schedule video"
+    placement: "YouTube platform"
+    duration: "15-30 minutes"
+    dependencies: ["Step 3", "Step 4", "Step 5"]
+    inputs:
+      - "Final edited video"
+      - "Thumbnail and metadata"
+      - "Publishing schedule"
+    outputs:
+      - "Video uploaded to YouTube"
+      - "Scheduled for optimal time (weekdays 2-4pm EST)"
+      - "Visibility set (Public/Unlisted/Scheduled)"
+      - "Monetization settings configured"
+    success_criteria: "Video uploaded successfully and scheduled for maximum reach"
+
+  - step_number: 7
+    name: "Promote and Engage"
+    tool: "YouTube, Instagram, LinkedIn, Twitter"
+    responsibility: "Promote video and engage audience"
+    placement: "Multi-platform promotion"
+    duration: "Ongoing (1-2 hours initial, then monitoring)"
+    dependencies: ["Step 6"]
+    inputs:
+      - "Published video link"
+      - "Social media accounts"
+      - "Promotional copy"
+    outputs:
+      - "Shared on Instagram (Stories, Reels teaser, link in bio)"
+      - "Posted on LinkedIn with professional context"
+      - "Tweeted with key takeaways"
+      - "Pinned comment added to video"
+      - "Community tab post created"
+      - "Responses to comments (first 1-2 hours critical)"
+    success_criteria: "Video promoted across platforms, active engagement in first 48 hours"
+
+performance_metrics:
+  watch_time: "Total minutes watched - PRIMARY YouTube metric"
+  average_view_duration: "Retention rate throughout video"
+  click_through_rate: "Thumbnail CTR (aim for >10%)"
+  engagement_rate: "Likes + comments + shares / views"
+  subscriber_growth: "New subscribers from video"
+  traffic_sources: "Where viewers are finding the video"
+
+content_strategy:
+  posting_frequency: "1-2 long-form tutorials per week"
+  optimal_length: "10-20 minutes for tutorials (aim for 8+ minute watch time)"
+  content_pillars: "Educational tutorials, how-to guides, problem-solving content"
+  series_strategy: "Group related tutorials into playlists"
+
+technical_specifications:
+  video_resolution: "1080p minimum (4K recommended)"
+  aspect_ratio: "16:9 (horizontal)"
+  file_format: "MP4 (H.264 codec)"
+  thumbnail: "1280×720px (JPG or PNG, under 2MB)"
+  captions: "Always include for accessibility"
+
+best_practices:
+  - "Hook viewers in first 15 seconds"
+  - "Include pattern interrupts every 30-60 seconds"
+  - "Always add captions for accessibility"
+  - "Use custom thumbnails (never auto-generated)"
+  - "Write keyword-first titles"
+  - "Add timestamps in description"
+  - "Respond to comments in first 1-2 hours"
+  - "Pin best comment to encourage engagement"
+  - "Use end screens to promote next video"
+  - "Create playlists for binge-watching"
+
+automation_opportunities:
+  - "Template-based video editing"
+  - "Automated caption generation"
+  - "Batch thumbnail creation"
+  - "Scheduled cross-platform promotion"
+  - "Analytics tracking and reporting"
+
+tags:
+  - video
+  - youtube
+  - tutorial
+  - education
+  - content_creation
+  - seo_optimization
+
+version: "1.0"
+created: "2025-11-13"
+last_updated: "2025-11-13"

@@ -1,0 +1,618 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "created": "2025-11-25",
+    "purpose": "JSON structure defining prompt parts formation rules and classifications for department-specific daily report prompts",
+    "author": "AI Assistant",
+    "last_updated": "2025-11-25"
+  },
+  "prompt_structure": {
+    "sections": [
+      {
+        "id": "purpose",
+        "name": "Purpose",
+        "classification": "header",
+        "category": "introduction",
+        "required": true,
+        "order": 1,
+        "template": "This prompt is specifically designed for the **{department_name} Department** to process call transcriptions and generate daily activity reports. It combines the comprehensive call organization framework with {department_name}-specific context, employee directory, and daily report automation.",
+        "variables": ["department_name"],
+        "format": "markdown",
+        "validation_rules": {
+          "min_length": 50,
+          "max_length": 200,
+          "must_contain": ["department", "daily", "report"]
+        }
+      },
+      {
+        "id": "department_context",
+        "name": "Department Context",
+        "classification": "context",
+        "category": "department_specific",
+        "required": true,
+        "order": 2,
+        "subsections": [
+          {
+            "id": "department_overview",
+            "name": "Department Overview",
+            "required": true,
+            "fields": [
+              {
+                "name": "mission",
+                "type": "text",
+                "required": true,
+                "format": "**Mission:** {mission_text}",
+                "max_length": 150
+              },
+              {
+                "name": "team_size",
+                "type": "number",
+                "required": true,
+                "format": "**Team Size:** {count} employees"
+              },
+              {
+                "name": "key_responsibilities",
+                "type": "array",
+                "required": true,
+                "format": "bullet_list",
+                "min_items": 3,
+                "max_items": 10
+              }
+            ]
+          },
+          {
+            "id": "department_employees",
+            "name": "Department Employees",
+            "required": true,
+            "source": "employee_directory",
+            "filter": {
+              "field": "department",
+              "value": "{department_name}"
+            },
+            "format": "**{employee_name}** (ID: {employee_id}) - {profession} | {location} | @{telegram} | {email} | Status: {status}",
+            "fields": [
+              "employee_name",
+              "employee_id",
+              "profession",
+              "location",
+              "telegram",
+              "email",
+              "status",
+              "rate"
+            ]
+          },
+          {
+            "id": "department_projects",
+            "name": "Department-Specific Projects",
+            "required": true,
+            "source": "project_directory",
+            "filter": {
+              "field": "department",
+              "value": "{department_name}"
+            },
+            "format": "- **{project_name}** - {project_description}",
+            "min_items": 2,
+            "max_items": 10
+          },
+          {
+            "id": "department_tools",
+            "name": "Department-Specific Tools",
+            "required": true,
+            "source": "tools_library",
+            "filter": {
+              "field": "departments",
+              "contains": "{department_name}"
+            },
+            "format": "- **{tool_name}** - {tool_description} - {tool_url}",
+            "categories": [
+              "ai_tools",
+              "traditional_tools",
+              "communication_tools",
+              "documentation_tools"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "base_context_integration",
+        "name": "Base Context Integration",
+        "classification": "reference",
+        "category": "integration",
+        "required": true,
+        "order": 3,
+        "template": "This prompt integrates two core documents:\n\n1. **MAIN PROMPT v3.md** - Complete call organization framework with:\n   - Company context (Remote Helpers - AI-First organization)\n   - Employee Directory (32 employees across 7 departments)\n   - Project Directory (31+ active projects)\n   - 21 comprehensive extraction sections\n   - Intelligent participant and project matching\n   - Template-driven operations framework\n\n2. **PROMPT_Daily_Report_Collection.md** - Daily report automation with:\n   - Report template structure (11 sections)\n   - Folder organization (`/Nov25/{department_folder}/Reports/{DAY}/`)\n   - Metrics and statistics extraction",
+        "variables": ["department_folder"],
+        "references": [
+          {
+            "file": "MAIN PROMPT v3.md",
+            "type": "framework",
+            "required": true
+          },
+          {
+            "file": "PROMPT_Daily_Report_Collection.md",
+            "type": "template",
+            "required": true
+          }
+        ]
+      },
+      {
+        "id": "department_instructions",
+        "name": "Department-Specific Instructions",
+        "classification": "instructions",
+        "category": "department_specific",
+        "required": true,
+        "order": 4,
+        "subsections": [
+          {
+            "id": "step_1_read_log",
+            "name": "Step 1: Read Department Prompt Log",
+            "required": true,
+            "template": "Read the {department_name} department prompt log file:\n- `Dropbox/Nov25/{department_folder}/{department_name} prompt log.md`",
+            "variables": ["department_name", "department_folder"]
+          },
+          {
+            "id": "step_2_process_transcripts",
+            "name": "Step 2: Process Call Transcripts",
+            "required": true,
+            "conditional": true,
+            "template": "When processing {department_name}-related call transcripts, focus on:\n\n**{department_name}-Specific Sections to Emphasize:**\n\n#### Section {section_number}: {section_name}\n- **{section_focus}:**\n  - {section_details}",
+            "variables": ["department_name", "section_number", "section_name", "section_focus", "section_details"],
+            "section_mapping": {
+              "HR": [20, 16, 3],
+              "AI": [8, 9, 11, 3],
+              "Video": [18, 8, 3],
+              "Sales": [17, 3],
+              "Design": [18, 8, 3],
+              "Dev": [19, 9, 3],
+              "LG": [17, 3]
+            }
+          },
+          {
+            "id": "step_3_generate_report",
+            "name": "Step 3: Generate Department Daily Activity Report",
+            "required": true,
+            "template": "**File Location:** `/Nov25/{department_folder}/Reports/{DAY}/Daily_Activity_Report_Nov{DAY}_2025.md`\n\n**{department_name}-Specific Report Sections:**",
+            "variables": ["department_folder", "DAY", "department_name"],
+            "report_sections": {
+              "required": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14],
+              "section_templates": {
+                "1": {
+                  "name": "Executive Summary",
+                  "fields": ["report_period", "department", "team_size", "total_activities", "overall_status"]
+                },
+                "2": {
+                  "name": "Department Activities",
+                  "type": "department_specific",
+                  "customizable": true
+                },
+                "3": {
+                  "name": "Tool Integration Activities",
+                  "type": "department_specific",
+                  "customizable": true
+                },
+                "4": {
+                  "name": "Deliverables",
+                  "type": "department_specific",
+                  "customizable": true
+                },
+                "5": {
+                  "name": "Metrics and Statistics",
+                  "type": "department_specific",
+                  "customizable": true
+                },
+                "6": {
+                  "name": "Key Deliverables",
+                  "type": "standard",
+                  "format": "list"
+                },
+                "7": {
+                  "name": "Department Impact Analysis",
+                  "type": "standard",
+                  "fields": ["impact_level", "improvements", "benefits", "categories"]
+                },
+                "8": {
+                  "name": "Technical Achievements",
+                  "type": "standard",
+                  "fields": ["system_improvements", "tool_integrations", "process_optimizations"]
+                },
+                "9": {
+                  "name": "Challenges and Solutions",
+                  "type": "standard",
+                  "format": "list"
+                },
+                "10": {
+                  "name": "Files Created/Modified Summary",
+                  "type": "standard",
+                  "format": "list"
+                },
+                "11": {
+                  "name": "Recommendations for Follow-up",
+                  "type": "standard",
+                  "format": "list"
+                },
+                "12": {
+                  "name": "Success Indicators",
+                  "type": "standard",
+                  "format": "checkboxes"
+                },
+                "13": {
+                  "name": "Conclusion",
+                  "type": "standard",
+                  "fields": ["summary", "achievements", "impact", "status"]
+                },
+                "14": {
+                  "name": "Report Footer",
+                  "type": "standard",
+                  "template": "---\n**Report Generated:** [Date]\n**Department:** {department_name}\n**Team Size:** {team_size}\n**Report Status:** Complete\n---\n*End of Report*"
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "department_vocabulary",
+        "name": "Department-Specific Vocabulary",
+        "classification": "reference",
+        "category": "department_specific",
+        "required": true,
+        "order": 5,
+        "source": "vocabulary_library",
+        "filter": {
+          "field": "department",
+          "value": "{department_name}"
+        },
+        "format": "**{category_name} Terms:**\n- {term_1}\n- {term_2}\n- {term_3}",
+        "categories": {
+          "HR": ["Recruitment Terms", "Onboarding Terms", "Employee Management Terms"],
+          "AI": ["AI & LLM Terms", "Framework Terms", "Technical Terms"],
+          "Video": ["Video Production Terms", "AI Video Terms", "Video Formats"],
+          "Sales": ["Sales Terms", "Pipeline Terms"],
+          "Design": ["Design Terms", "Design Process Terms"],
+          "Dev": ["Development Terms", "Technical Terms"],
+          "LG": ["Lead Generation Terms", "Data & Research Terms"]
+        }
+      },
+      {
+        "id": "project_matching",
+        "name": "Department-Specific Project Matching",
+        "classification": "reference",
+        "category": "department_specific",
+        "required": true,
+        "order": 6,
+        "source": "project_directory",
+        "filter": {
+          "field": "department",
+          "value": "{department_name}"
+        },
+        "template": "When processing transcripts, automatically identify {department_name}-related projects:\n\n**{department_name} Projects:**\n- **{project_name}** - {project_description}",
+        "variables": ["department_name", "project_name", "project_description"]
+      },
+      {
+        "id": "quality_standards",
+        "name": "Department-Specific Quality Standards",
+        "classification": "standards",
+        "category": "standard",
+        "required": true,
+        "order": 7,
+        "subsections": [
+          {
+            "id": "content_requirements",
+            "name": "Content Requirements",
+            "required": true,
+            "format": "checklist",
+            "items": [
+              "All {department_activities} included",
+              "All {tool_usage} documented",
+              "All {deliverables} tracked",
+              "Metrics and statistics calculated",
+              "Impact analysis provided"
+            ],
+            "variables": ["department_activities", "tool_usage", "deliverables"]
+          },
+          {
+            "id": "formatting_requirements",
+            "name": "Formatting Requirements",
+            "required": true,
+            "format": "checklist",
+            "items": [
+              "Markdown format with proper headers",
+              "Tables for statistics and metrics",
+              "Bullet lists for achievements",
+              "Checkboxes for completed items",
+              "Consistent section structure"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "example_usage",
+        "name": "Example Usage",
+        "classification": "example",
+        "category": "standard",
+        "required": true,
+        "order": 8,
+        "template": "### Command to AI Assistant:\n\n```\nProcess {department_name} department activities and create comprehensive daily activity report for November [DAY], 2025.\n\n1. Read {department_name} prompt log: Dropbox/Nov25/{department_folder}/{department_name} prompt log.md\n2. Process any {department_name}-related call transcripts using MAIN PROMPT v3.md framework\n3. Create Reports/{DAY} folder in {department_name} department\n4. Generate detailed {department_name} activity report following {department_name}-specific template\n\nFocus on:\n- {focus_area_1}\n- {focus_area_2}\n- {focus_area_3}\n```",
+        "variables": ["department_name", "department_folder", "DAY", "focus_area_1", "focus_area_2", "focus_area_3"]
+      },
+      {
+        "id": "version_history",
+        "name": "Version History",
+        "classification": "metadata",
+        "category": "standard",
+        "required": true,
+        "order": 9,
+        "template": "**v1.0** - November 25, 2025\n- Initial {department_name}-specific prompt creation\n- Integrated MAIN PROMPT v3.md context\n- Integrated PROMPT_Daily_Report_Collection.md context\n- Added {department_name}-specific employees and context\n- Customized report template for {department_name} department",
+        "variables": ["department_name"]
+      },
+      {
+        "id": "footer",
+        "name": "Footer",
+        "classification": "metadata",
+        "category": "standard",
+        "required": true,
+        "order": 10,
+        "template": "---\n\n*Last Updated: November 25, 2025*\n*Department: {department_name}*",
+        "variables": ["department_name"]
+      }
+    ]
+  },
+  "classifications": {
+    "by_type": {
+      "header": ["purpose"],
+      "context": ["department_context", "base_context_integration"],
+      "instructions": ["department_instructions"],
+      "reference": ["department_vocabulary", "project_matching"],
+      "standards": ["quality_standards"],
+      "example": ["example_usage"],
+      "metadata": ["version_history", "footer"]
+    },
+    "by_category": {
+      "introduction": ["purpose"],
+      "department_specific": [
+        "department_context",
+        "department_instructions",
+        "department_vocabulary",
+        "project_matching"
+      ],
+      "integration": ["base_context_integration"],
+      "standard": ["quality_standards", "example_usage", "version_history", "footer"]
+    },
+    "by_requirement": {
+      "required": [
+        "purpose",
+        "department_context",
+        "base_context_integration",
+        "department_instructions",
+        "department_vocabulary",
+        "project_matching",
+        "quality_standards",
+        "example_usage",
+        "version_history",
+        "footer"
+      ],
+      "optional": []
+    }
+  },
+  "formation_rules": {
+    "section_order": {
+      "rule": "sections must follow the order specified in the 'order' field",
+      "enforcement": "strict"
+    },
+    "variable_substitution": {
+      "rule": "all variables in templates must be replaced with actual values",
+      "format": "{variable_name}",
+      "required_variables": {
+        "department_name": "required",
+        "department_folder": "required",
+        "DAY": "required",
+        "team_size": "required"
+      }
+    },
+    "dependency_rules": {
+      "department_context": {
+        "depends_on": ["employee_directory", "project_directory", "tools_library"],
+        "required": true
+      },
+      "department_instructions": {
+        "depends_on": ["department_context"],
+        "required": true
+      },
+      "department_vocabulary": {
+        "depends_on": ["vocabulary_library"],
+        "required": true
+      },
+      "project_matching": {
+        "depends_on": ["project_directory"],
+        "required": true
+      }
+    },
+    "validation_rules": {
+      "min_sections": 10,
+      "max_sections": 10,
+      "required_sections": [
+        "purpose",
+        "department_context",
+        "base_context_integration",
+        "department_instructions",
+        "department_vocabulary",
+        "project_matching",
+        "quality_standards",
+        "example_usage",
+        "version_history",
+        "footer"
+      ],
+      "section_completeness": {
+        "department_context": {
+          "required_subsections": ["department_overview", "department_employees", "department_projects", "department_tools"]
+        },
+        "department_instructions": {
+          "required_subsections": ["step_1_read_log", "step_2_process_transcripts", "step_3_generate_report"]
+        }
+      }
+    }
+  },
+  "data_sources": {
+    "employee_directory": {
+      "file": "November 2025 - Employees_Public.md",
+      "format": "markdown_table",
+      "fields": ["employee_id", "employee_name", "status", "rate", "profession"],
+      "filter_fields": ["profession", "status"]
+    },
+    "project_directory": {
+      "file": "MAIN PROMPT v3.md",
+      "section": "Project Directory Reference",
+      "format": "structured_list",
+      "fields": ["project_name", "description", "resources", "keywords"]
+    },
+    "tools_library": {
+      "file": "MAIN PROMPT v3.md",
+      "section": "Comprehensive AI Tools Directory",
+      "format": "structured_list",
+      "fields": ["tool_name", "description", "url", "responsibilities", "departments"]
+    },
+    "vocabulary_library": {
+      "file": "MAIN PROMPT v3.md",
+      "section": "Company-Specific Vocabulary Recognition",
+      "format": "categorized_list",
+      "categories": ["Lead Generation & Sales Terms", "AI & LLM Terms", "Design Terms", "Development Terms", "General Business Terms"]
+    }
+  },
+  "department_configurations": {
+    "HR": {
+      "department_folder": "HR Nov25",
+      "section_mapping": [20, 16, 3],
+      "focus_areas": [
+        "Recruitment activities (CVs, interviews, job postings)",
+        "Onboarding activities (training, documentation, tool setup)",
+        "Employee management (directory updates, status changes)",
+        "HR-specific metrics and statistics"
+      ],
+      "activities": "recruitment and onboarding activities",
+      "tool_usage": "HR tool usage",
+      "deliverables": "HR deliverables"
+    },
+    "AI": {
+      "department_folder": "AI Nov25",
+      "section_mapping": [8, 9, 11, 3],
+      "focus_areas": [
+        "Infrastructure and system tasks",
+        "Tool integrations",
+        "Framework enhancements",
+        "Prompt engineering activities"
+      ],
+      "activities": "infrastructure and tool integration activities",
+      "tool_usage": "AI tool usage",
+      "deliverables": "technical deliverables"
+    },
+    "Video": {
+      "department_folder": "Video Nov25",
+      "section_mapping": [18, 8, 3],
+      "focus_areas": [
+        "Video production activities",
+        "AI video tool usage",
+        "Creative deliverables",
+        "Video tool integrations"
+      ],
+      "activities": "video production activities",
+      "tool_usage": "AI video tool usage",
+      "deliverables": "creative deliverables"
+    },
+    "Sales": {
+      "department_folder": "Sales Nov25",
+      "section_mapping": [17, 3],
+      "focus_areas": [
+        "Sales activities (contacts, proposals, demos)",
+        "Pipeline management",
+        "Client management",
+        "Sales metrics and conversion rates"
+      ],
+      "activities": "sales activities",
+      "tool_usage": "sales tool usage",
+      "deliverables": "sales deliverables"
+    },
+    "Design": {
+      "department_folder": "Design Nov25",
+      "section_mapping": [18, 8, 3],
+      "focus_areas": [
+        "Design production activities",
+        "AI design tool usage",
+        "Creative deliverables",
+        "Design tool integrations"
+      ],
+      "activities": "design production activities",
+      "tool_usage": "AI design tool usage",
+      "deliverables": "creative deliverables"
+    },
+    "Dev": {
+      "department_folder": "Dev Nov25",
+      "section_mapping": [19, 9, 3],
+      "focus_areas": [
+        "Development activities (code, features, bugs)",
+        "AI development tool usage",
+        "Technical deliverables",
+        "Development tool integrations"
+      ],
+      "activities": "development activities",
+      "tool_usage": "AI development tool usage",
+      "deliverables": "technical deliverables"
+    },
+    "LG": {
+      "department_folder": "LG Nov25",
+      "section_mapping": [17, 3],
+      "focus_areas": [
+        "Lead generation activities",
+        "Lead qualification activities",
+        "Outreach activities",
+        "LG metrics and conversion rates"
+      ],
+      "activities": "lead generation activities",
+      "tool_usage": "LG tool usage",
+      "deliverables": "LG deliverables"
+    }
+  },
+  "templates": {
+    "section_templates": {
+      "purpose": {
+        "template": "## Purpose\nThis prompt is specifically designed for the **{department_name} Department** to process call transcriptions and generate daily activity reports. It combines the comprehensive call organization framework with {department_name}-specific context, employee directory, and daily report automation.",
+        "variables": ["department_name"]
+      },
+      "department_overview": {
+        "template": "### Department Overview\n**Mission:** {mission}\n**Team Size:** {team_size} employees\n**Key Responsibilities:**\n{responsibilities_list}",
+        "variables": ["mission", "team_size", "responsibilities_list"]
+      },
+      "employee_entry": {
+        "template": "**{employee_name}** (ID: {employee_id}) - {profession} | {location} | @{telegram} | {email} | Status: {status}",
+        "variables": ["employee_name", "employee_id", "profession", "location", "telegram", "email", "status"]
+      },
+      "project_entry": {
+        "template": "- **{project_name}** - {project_description}",
+        "variables": ["project_name", "project_description"]
+      },
+      "tool_entry": {
+        "template": "- **{tool_name}** - {tool_description} - {tool_url}",
+        "variables": ["tool_name", "tool_description", "tool_url"]
+      }
+    }
+  },
+  "generation_rules": {
+    "prompt_construction": {
+      "step_1": "Load base templates and department configuration",
+      "step_2": "Fetch department-specific data from sources",
+      "step_3": "Substitute variables in templates",
+      "step_4": "Validate section completeness",
+      "step_5": "Assemble sections in correct order",
+      "step_6": "Validate final prompt structure",
+      "step_7": "Generate markdown file"
+    },
+    "validation_checks": [
+      "All required sections present",
+      "All variables substituted",
+      "All dependencies resolved",
+      "Section order correct",
+      "Formatting consistent",
+      "Links and references valid"
+    ]
+  }
+}
+

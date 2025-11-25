@@ -1,0 +1,142 @@
+{
+  "template_name": "Skill Development Plan",
+  "description": "Template for planning employee skill development and training",
+  "version": "1.0",
+  "plan_id": "DEVPLAN-YYYY-NNN",
+  "created_date": "YYYY-MM-DD",
+  "talent_id": "EMP-YYYY-NNN",
+  "talent_name": "First Last",
+  "department": "Department",
+  "profession": "Profession Title",
+  "manager_id": "EMP-YYYY-NNN",
+  "manager_name": "Manager Name",
+  "plan_period": {
+    "start_date": "YYYY-MM-DD",
+    "end_date": "YYYY-MM-DD",
+    "review_frequency": "monthly | quarterly | bi-annually"
+  },
+  "target_role": {
+    "role_title": "Target Profession/Role",
+    "department": "Target Department",
+    "required_skills": ["SKL-XXX", "SKL-XXX", "SKL-XXX"],
+    "desired_proficiency": "intermediate | advanced | expert"
+  },
+  "skills_to_develop": [
+    {
+      "skill_id": "SKL-XXX",
+      "skill_phrase": "action + object + via/using/in + tool",
+      "current_level": "none | beginner | intermediate | advanced",
+      "target_level": "beginner | intermediate | advanced | expert",
+      "priority": "high | medium | low",
+      "reason": "Why this skill is important for the talent",
+      "timeline": {
+        "start_date": "YYYY-MM-DD",
+        "target_completion": "YYYY-MM-DD",
+        "estimated_hours": 0
+      },
+      "learning_resources": [
+        {
+          "resource_type": "course | tutorial | documentation | mentorship | practice_tasks",
+          "resource_name": "Resource Title",
+          "resource_link": "https://...",
+          "estimated_duration_hours": 0,
+          "cost": 0.0,
+          "currency": "USD"
+        }
+      ],
+      "milestones": [
+        {
+          "milestone_id": "M1",
+          "description": "Complete basic training",
+          "target_date": "YYYY-MM-DD",
+          "completion_criteria": "Pass assessment with score >= 3.0",
+          "status": "not_started | in_progress | completed",
+          "completed_date": "YYYY-MM-DD"
+        }
+      ],
+      "practice_opportunities": [
+        {
+          "opportunity_type": "project | internal_task | client_work | mentoring",
+          "description": "Apply skill in real work context",
+          "assigned_date": "YYYY-MM-DD",
+          "completion_date": "YYYY-MM-DD"
+        }
+      ],
+      "assessment_plan": {
+        "assessment_method": "practical_test | task_review | project_review",
+        "assessment_date": "YYYY-MM-DD",
+        "assessor_id": "EMP-YYYY-NNN",
+        "assessor_name": "Assessor Name",
+        "success_criteria": "Criteria for passing assessment"
+      },
+      "progress_tracking": {
+        "current_progress_percent": 0,
+        "hours_completed": 0,
+        "hours_remaining": 0,
+        "status": "not_started | in_progress | completed | delayed",
+        "blockers": ["Blocker 1", "Blocker 2"],
+        "notes": "Progress notes"
+      }
+    }
+  ],
+  "development_summary": {
+    "total_skills_to_develop": 0,
+    "high_priority_skills": 0,
+    "medium_priority_skills": 0,
+    "low_priority_skills": 0,
+    "completed_skills": 0,
+    "in_progress_skills": 0,
+    "not_started_skills": 0,
+    "total_estimated_hours": 0,
+    "total_hours_completed": 0,
+    "overall_progress_percent": 0,
+    "estimated_completion_date": "YYYY-MM-DD"
+  },
+  "budget": {
+    "total_budget": 0.0,
+    "currency": "USD",
+    "spent_to_date": 0.0,
+    "remaining": 0.0,
+    "breakdown": [
+      {
+        "category": "courses | certifications | tools | mentorship",
+        "amount": 0.0
+      }
+    ]
+  },
+  "support_required": {
+    "manager_support": "Description of manager support needed",
+    "mentor_assigned": false,
+    "mentor_id": "EMP-YYYY-NNN",
+    "mentor_name": "Mentor Name",
+    "time_allocation": "X hours per week for skill development",
+    "tools_needed": ["Tool 1", "Tool 2"],
+    "additional_resources": "Any additional support needed"
+  },
+  "review_history": [
+    {
+      "review_date": "YYYY-MM-DD",
+      "reviewer_id": "EMP-YYYY-NNN",
+      "reviewer_name": "Reviewer Name",
+      "progress_summary": "Summary of progress since last review",
+      "achievements": ["Achievement 1", "Achievement 2"],
+      "challenges": ["Challenge 1", "Challenge 2"],
+      "plan_adjustments": "Any changes to the plan",
+      "next_steps": ["Next step 1", "Next step 2"]
+    }
+  ],
+  "success_metrics": {
+    "target_proficiency_achieved": false,
+    "target_role_ready": false,
+    "skills_applied_in_work": 0,
+    "client_projects_completed": 0,
+    "peer_feedback_score": 0.0,
+    "manager_satisfaction_score": 0.0
+  },
+  "notes": [
+    "Development plans should be created collaboratively between talent and manager",
+    "Plans should be reviewed regularly (monthly or quarterly)",
+    "Budget approval required for training costs over threshold",
+    "Completed skills should be added to talent's skill profile with verification"
+  ]
+}

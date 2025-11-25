@@ -1,0 +1,96 @@
+{
+  "metadata": {
+    "version": "1.1.0",
+    "generated": "2025-11-18",
+    "last_updated": "2025-11-20",
+    "entity": "Project_Templates",
+    "meta_category": "TSM-001",
+    "description": "ISO code migration mapping for Project Templates from legacy Project-Template-### format to standardized PRT-### format, organized under TSM-001 meta-category",
+    "naming_convention": "PRT (Project Template) - 3-letter consonant code ending with 'T' for templates",
+    "total_entities_mapped": 9
+  },
+  "iso_code_derivation": {
+    "entity_name": "Project Template",
+    "iso_code": "PRT",
+    "derivation_logic": "PRoject Template → PRT (consonants only, ends with T for templates)",
+    "alternative_considered": "PRJ",
+    "reason_for_selection": "PRT maintains template suffix convention (T) for consistency with other template entities"
+  },
+  "meta_category": {
+    "TSM-001": {
+      "category_name": "Project Templates",
+      "organizes": "PRT",
+      "instance_count": 9,
+      "id_range": "PRT-001 to PRT-009",
+      "description": "Meta-level category organizing all Project Template entities"
+    }
+  },
+  "entity_type_iso_codes": {
+    "PRT": {
+      "full_name": "Project Template",
+      "description": "Strategic project templates representing complete initiatives with milestones and tasks",
+      "meta_parent": "TSM-001",
+      "range": "PRT-001 to PRT-009",
+      "total_count": 9,
+      "template_suffix": true
+    }
+  },
+  "project_template_mappings": [
+    {"legacy_id": "Project-Template-001", "new_id": "PRT-001", "name": "AI Tutorial Research to Taxonomy Integration", "department": "AID", "project_type": "Recurring Research Workflow"},
+    {"legacy_id": "Project-Template-002", "new_id": "PRT-002", "name": "Complete MCP Automation Stack Setup", "department": "DEV", "project_type": "Development Project"},
+    {"legacy_id": "Project-Template-003", "new_id": "PRT-003", "name": "Complete HR Automation Implementation", "department": "HRM", "project_type": "Automation Implementation"},
+    {"legacy_id": "Project-Template-004", "new_id": "PRT-004", "name": "Complete Lead Generation to Customer Conversion", "department": "LGN", "project_type": "Campaign Project"},
+    {"legacy_id": "Project-Template-005", "new_id": "PRT-005", "name": "Enterprise Account-Based Marketing Campaign", "department": "LGN", "project_type": "ABM Campaign"},
+    {"legacy_id": "Project-Template-006", "new_id": "PRT-006", "name": "Research to Taxonomy Integration Pipeline", "department": "AID", "project_type": "Research Pipeline"},
+    {"legacy_id": "Project-Template-007", "new_id": "PRT-007", "name": "System Analysis", "department": "AID", "project_type": "Analysis Project"},
+    {"legacy_id": "Project-Template-008", "new_id": "PRT-008", "name": "VIDEO Production", "department": "VID", "project_type": "Production Project"}
+  ],
+  "validation_checksums": {
+    "total_project_templates": 9,
+    "meta_category": "TSM-001",
+    "by_department": {
+      "AID": 3,
+      "LGN": 2,
+      "DEV": 1,
+      "HRM": 1,
+      "VID": 1,
+      "MISSING": 1
+    },
+    "note": "PRT-009 placeholder reserved for future use"
+  },
+  "department_code_registry": {
+    "AID": "AI Department (includes Automations, Operations, Administration)",
+    "HRM": "Human Resource Management",
+    "DEV": "Development & Engineering",
+    "LGN": "Lead Generation & Marketing",
+    "DGN": "Design & Creative",
+    "VID": "Video Production",
+    "SLS": "Sales & Client Relations"
+  },
+  "iso_code_rules": {
+    "template_suffix": "All Template entities end with 'T' (PRT)",
+    "consonant_only": "All codes use only consonants (no vowels A, E, I, O, U) where possible",
+    "three_letters": "All codes are exactly 3 letters",
+    "uppercase": "All codes are uppercase",
+    "memorable": "Codes derived from entity type names for easy recall"
+  },
+  "migration_status": {
+    "migration_started": "2025-11-18",
+    "migration_completed": "2025-11-18",
+    "last_update": "2025-11-20",
+    "total_entities_migrated": 8,
+    "meta_category_added": "2025-11-20",
+    "legacy_format": "Project-Template-###",
+    "new_format": "PRT-###",
+    "meta_organization": "TSM-001 (Task System Meta - Project Templates)",
+    "backwards_compatibility": "Legacy Project-Template IDs preserved in Current_ID field for reference"
+  },
+  "hierarchy_position": {
+    "level": 1,
+    "meta_level": 0,
+    "meta_parent": "TSM-001 (Project Templates Meta-Category)",
+    "parent_entity": null,
+    "child_entity": "Milestone Template (MLT)",
+    "description": "Projects are the top-level strategic entities containing multiple milestones, organized under TSM-001 meta-category"
+  }
+}

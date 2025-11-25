@@ -1,0 +1,63 @@
+{
+  "phase": "Phase 0 - Cleanup & Archive",
+  "executed_at": "2025-11-22T20:51:45.245944",
+  "status": "completed",
+  "summary": {
+    "archived_items": 4,
+    "folders_created": 20
+  },
+  "archived_items": [
+    {
+      "item": "Clients",
+      "type": "directory",
+      "archived_at": "2025-11-22T20:51:45.245944",
+      "original_path": "C:\\Users\\Dell\\Dropbox\\ENTITIES\\BUSINESSES\\Clients",
+      "archive_path": "C:\\Users\\Dell\\Dropbox\\ENTITIES\\IMPORTS\\2025-11-22_Sales_Import\\archive_2025-11-22\\Clients"
+    },
+    {
+      "item": "Prospects",
+      "type": "directory",
+      "archived_at": "2025-11-22T20:51:45.245944",
+      "original_path": "C:\\Users\\Dell\\Dropbox\\ENTITIES\\BUSINESSES\\Prospects",
+      "archive_path": "C:\\Users\\Dell\\Dropbox\\ENTITIES\\IMPORTS\\2025-11-22_Sales_Import\\archive_2025-11-22\\Prospects"
+    },
+    {
+      "item": "Ex_Clients",
+      "type": "directory",
+      "archived_at": "2025-11-22T20:51:45.245944",
+      "original_path": "C:\\Users\\Dell\\Dropbox\\ENTITIES\\BUSINESSES\\Ex_Clients",
+      "archive_path": "C:\\Users\\Dell\\Dropbox\\ENTITIES\\IMPORTS\\2025-11-22_Sales_Import\\archive_2025-11-22\\Ex_Clients"
+    },
+    {
+      "item": "BUSINESSES_Master.json",
+      "type": "file",
+      "archived_at": "2025-11-22T20:51:45.245944",
+      "original_path": "C:\\Users\\Dell\\Dropbox\\ENTITIES\\BUSINESSES\\BUSINESSES_Master.json",
+      "archive_path": "C:\\Users\\Dell\\Dropbox\\ENTITIES\\IMPORTS\\2025-11-22_Sales_Import\\archive_2025-11-22\\BUSINESSES_Master.json"
+    }
+  ],
+  "created_folders": [
+    "Clients",
+    "Prospects",
+    "Ex_Clients",
+    "schemas",
+    "Industries",
+    "SubIndustries",
+    "Positions",
+    "CompanySizes",
+    "LeadStatuses",
+    "LeadSources",
+    "Countries",
+    "ContactTypes",
+    "Templates",
+    "JobRequests",
+    "JobRequests/Professions",
+    "JobRequests/Rates",
+    "JobRequests/Shifts",
+    "JobRequests/Tools",
+    "JobRequests/Languages",
+    "JobRequests/LanguageLevels"
+  ],
+  "archive_location": "C:\\Users\\Dell\\Dropbox\\ENTITIES\\IMPORTS\\2025-11-22_Sales_Import\\archive_2025-11-22",
+  "businesses_location": "C:\\Users\\Dell\\Dropbox\\ENTITIES\\BUSINESSES"
+}

@@ -1,0 +1,35 @@
+{
+  "entity_type": "TASK_MANAGERS",
+  "sub_entity": "Step_Template",
+  "step_id": "VIDEO-VIDEO-002-04",
+  "step_number": 4,
+  "parent_task": "TASK-TEMPLATE-VIDEO-002",
+  "task_name": "Create Multi-Image Reference Video",
+  "name": "Navigate to Video section in OpenArt",
+  "action": "navigate",
+  "tool": "TOOL-AI-052 (OpenArt)",
+  "responsibility": "Social Media Manager",
+  "placement": "OpenArt platform",
+  "duration": "30 seconds",
+  "dependencies": [
+    1,
+    2,
+    3
+  ],
+  "inputs": [
+    "OpenArt account logged in"
+  ],
+  "outputs": [
+    "Video generation interface loaded"
+  ],
+  "success_criteria": "Google Veo 3.1 model available",
+  "implementation_notes": "Google Veo 3.1 model available - Implementation details based on the Create Multi-Image Reference Video workflow.",
+  "tags": [
+    "navigate",
+    "template-task-video-002"
+  ],
+  "version": "1.0",
+  "created": "2025-11-15",
+  "last_updated": "2025-11-15",
+  "source": "Video_012"
+}

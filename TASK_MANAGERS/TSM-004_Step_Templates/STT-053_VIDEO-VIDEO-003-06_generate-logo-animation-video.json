@@ -1,0 +1,34 @@
+{
+  "entity_type": "TASK_MANAGERS",
+  "sub_entity": "Step_Template",
+  "step_id": "VIDEO-VIDEO-003-06",
+  "step_number": 6,
+  "parent_task": "TASK-TEMPLATE-VIDEO-003",
+  "task_name": "Create Brand Logo Animation",
+  "name": "Generate logo animation video",
+  "action": "generate",
+  "tool": "TOOL-AI-051 (Google Veo 3.1)",
+  "responsibility": "Google Veo 3.1 (automated)",
+  "placement": "OpenArt - Processing",
+  "duration": "5-10 minutes (automated)",
+  "dependencies": [
+    5
+  ],
+  "inputs": [
+    "Logo image",
+    "Animation prompt"
+  ],
+  "outputs": [
+    "Animated logo video (5-10 seconds)"
+  ],
+  "success_criteria": "Logo animates smoothly with desired camera movements and effects",
+  "implementation_notes": "Logo animates smoothly with desired camera movements and effects - Implementation details based on the Create Brand Logo Animation workflow.",
+  "tags": [
+    "generate",
+    "template-task-video-003"
+  ],
+  "version": "1.0",
+  "created": "2025-11-15",
+  "last_updated": "2025-11-15",
+  "source": "Video_012"
+}

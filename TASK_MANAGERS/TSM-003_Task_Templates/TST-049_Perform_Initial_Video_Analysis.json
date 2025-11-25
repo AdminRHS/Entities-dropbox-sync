@@ -1,0 +1,124 @@
+﻿{
+  "entity_type": "TASK_MANAGERS",
+  "sub_entity": "Task_Template",
+  "template_id": "Task-Template-049",
+  "version": "1.0",
+  "created_date": "2025-01-27",
+  "last_updated": "2025-01-27",
+  "metadata": {
+    "name": "Perform Initial Video Analysis",
+    "description": "Analyze video transcription extracting tools, workflows, actions, objects using Video_Analysis_Prompt methodology",
+    "action": "Analyze",
+    "object": "Video Transcription",
+    "context": "extracting tools, workflows, actions, objects",
+    "department": "RESEARCH",
+    "complexity": "High",
+    "estimated_duration": "1-2 hours per video",
+    "skill_level_required": "Advanced",
+    "tools_required": [
+      "Claude Desktop or API",
+      "Access to LIBRARIES structure"
+    ],
+    "prerequisites": [
+      "Video_XXX.md transcription file",
+      "Access to Taxonomy_Processing/Methodology/PROMPTS/Analysis/Video_Analysis_Prompt.md"
+    ]
+  },
+  "workflow": {
+    "phase": 3,
+    "milestone": "MIL-RES-003",
+    "project_template": "Project-Template-006",
+    "dependencies": [
+      "TASK-TEMPLATE-RES-101",
+      "TASK-TEMPLATE-RES-102"
+    ],
+    "outputs": [
+      "Extraction inventory with structured data",
+      "Tools matrix",
+      "Workflows identified"
+    ]
+  },
+  "steps": [
+    {
+      "step_number": 1,
+      "step_name": "Load Video_Analysis_Prompt",
+      "description": "Load analysis methodology from Taxonomy_Processing/Methodology/PROMPTS/Analysis/",
+      "estimated_time": "2 minutes",
+      "tools": [
+        "Claude Desktop"
+      ],
+      "output": "Analysis prompt loaded"
+    },
+    {
+      "step_number": 2,
+      "step_name": "Extract tools mentioned",
+      "description": "Identify all tools mentioned in video with: name, vendor, category, purpose, use cases",
+      "estimated_time": "20 minutes",
+      "tools": [],
+      "output": "Tools matrix created"
+    },
+    {
+      "step_number": 3,
+      "step_name": "Extract workflows",
+      "description": "Identify workflows with structured format: objective, steps, duration, tools used, input/output formats",
+      "estimated_time": "30 minutes",
+      "tools": [],
+      "output": "Workflows extracted with structured format"
+    },
+    {
+      "step_number": 4,
+      "step_name": "Categorize action verbs",
+      "description": "Categorize action verbs into 5 categories: Creation, Modification, Analysis, Organization, Communication",
+      "estimated_time": "15 minutes",
+      "tools": [],
+      "output": "Action verbs categorized"
+    },
+    {
+      "step_number": 5,
+      "step_name": "Identify task chains",
+      "description": "Document sequential task chains showing flow: [Step 1] → [Step 2] → [Step 3] → [Output]",
+      "estimated_time": "15 minutes",
+      "tools": [],
+      "output": "Task chains documented"
+    },
+    {
+      "step_number": 6,
+      "step_name": "Extract responsibilities vocabulary",
+      "description": "Identify role names, activity phrases, and skill mentions",
+      "estimated_time": "10 minutes",
+      "tools": [],
+      "output": "Responsibilities vocabulary extracted"
+    },
+    {
+      "step_number": 7,
+      "step_name": "Document integration patterns",
+      "description": "Document tool combinations, data flow between tools, common automation patterns",
+      "estimated_time": "10 minutes",
+      "tools": [],
+      "output": "Integration patterns documented"
+    },
+    {
+      "step_number": 8,
+      "step_name": "Create extraction inventory",
+      "description": "Compile all extracted elements into structured extraction inventory",
+      "estimated_time": "10 minutes",
+      "tools": [],
+      "output": "Extraction inventory created"
+    }
+  ],
+  "quality_checklist": [
+    "All mentioned tools identified",
+    "Workflows have structured format (objective, steps, duration, tools, I/O)",
+    "Action verbs categorized into 5 groups",
+    "Task chains show clear sequential flow",
+    "Responsibilities vocabulary extracted",
+    "Integration patterns documented",
+    "Timestamps provided for key concepts"
+  ],
+  "related_entities": {
+    "methodology": "Taxonomy_Processing/Methodology/PROMPTS/Analysis/Video_Analysis_Prompt.md",
+    "input_location": "Taxonomy_Processing/Transcriptions/Videos/",
+    "output_location": "Taxonomy_Processing/Analysis/Extraction_Inventories/",
+    "next_task": "TASK-TEMPLATE-RES-202"
+  }
+}

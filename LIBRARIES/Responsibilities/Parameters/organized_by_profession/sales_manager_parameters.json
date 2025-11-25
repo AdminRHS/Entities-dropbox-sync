@@ -1,0 +1,232 @@
+{
+  "metadata": {
+    "profession_name": "sales manager",
+    "department": "managers",
+    "created_date": "2025-01-19T00:00:00.000Z",
+    "description": "Parameters specific to sales manager types and activities",
+    "data_source": "parameters.json",
+    "organization_method": "type_to_profession_mapping"
+  },
+  "summary": {
+    "unique_types": [
+      "linkedin accounts",
+      "email accounts", 
+      "whatsapp group accounts",
+      "first call",
+      "second call",
+      "interview",
+      "introductory call",
+      "project call",
+      "ex-clients",
+      "current clients",
+      "text communication",
+      "voice communication",
+      "employees database",
+      "clients database",
+      "leads database",
+      "invoices",
+      "agreements",
+      "40-hour agreement",
+      "10-hour free agreement",
+      "scripts",
+      "full-time agreement",
+      "part-time agreement",
+      "available employee",
+      "presale employee",
+      "hired employee"
+    ],
+    "total_parameters": 95,
+    "parameter_categories": ["account_management", "communication", "client_relations", "documentation", "employee_management"]
+  },
+  "parameters_by_type": {
+    "linkedin_accounts": [
+      "connection",
+      "message", 
+      "follow-up",
+      "call set-up"
+    ],
+    "email_accounts": [
+      "status",
+      "template",
+      "spam",
+      "personal",
+      "corporate"
+    ],
+    "whatsapp_group_accounts": [
+      "message",
+      "report",
+      "feed back",
+      "project",
+      "client",
+      "employee"
+    ],
+    "first_call": [
+      "date",
+      "notification",
+      "follow-up",
+      "presentation",
+      "introduction",
+      "performance",
+      "skill",
+      "trial",
+      "test task",
+      "lead",
+      "sales assistant",
+      "trascribator",
+      "report",
+      "sales manager"
+    ],
+    "second_call": [
+      "follow-up",
+      "notification", 
+      "trascribator",
+      "candidate",
+      "task",
+      "CV",
+      "discussion",
+      "sales manager",
+      "sales assistant"
+    ],
+    "interview": [
+      "candidate",
+      "status",
+      "date",
+      "call",
+      "introduction",
+      "portfolio"
+    ],
+    "introductory_call": [
+      "candidate",
+      "client",
+      "instruction",
+      "date",
+      "onboarding"
+    ],
+    "project_call": [
+      "candidate",
+      "client",
+      "performance",
+      "date",
+      "feedback"
+    ],
+    "ex_clients": [
+      "date",
+      "project",
+      "interview",
+      "candidate",
+      "skill",
+      "full-time",
+      "part-time",
+      "40-hour"
+    ],
+    "current_clients": [
+      "status",
+      "upsell",
+      "project",
+      "candidate",
+      "invoice",
+      "follow-up",
+      "accounting"
+    ],
+    "text_communication": [
+      "response",
+      "follow-up",
+      "presentation",
+      "template",
+      "CV",
+      "candidate",
+      "report"
+    ],
+    "voice_communication": [
+      "duration",
+      "software",
+      "status",
+      "agreement",
+      "report",
+      "date"
+    ],
+    "employees_database": [
+      "skill",
+      "contact information",
+      "availability",
+      "portfolio"
+    ],
+    "clients_database": [
+      "client",
+      "ex-client",
+      "affiliate",
+      "status",
+      "manager",
+      "assistant"
+    ],
+    "leads_database": [
+      "status",
+      "manager",
+      "assistant",
+      "follow-up",
+      "messages"
+    ]
+  },
+  "entries": [
+    {
+      "Types": "linkedin accounts",
+      "Parameters": "connection"
+    },
+    {
+      "Types": "linkedin accounts", 
+      "Parameters": "message"
+    },
+    {
+      "Types": "linkedin accounts",
+      "Parameters": "follow-up"
+    },
+    {
+      "Types": "linkedin accounts",
+      "Parameters": "call set-up"
+    },
+    {
+      "Types": "email accounts",
+      "Parameters": "status"
+    },
+    {
+      "Types": "email accounts",
+      "Parameters": "template"
+    },
+    {
+      "Types": "email accounts",
+      "Parameters": "spam"
+    },
+    {
+      "Types": "email accounts",
+      "Parameters": "personal"
+    },
+    {
+      "Types": "email accounts",
+      "Parameters": "corporate"
+    },
+    {
+      "Types": "first call",
+      "Parameters": "date"
+    },
+    {
+      "Types": "first call",
+      "Parameters": "notification"
+    },
+    {
+      "Types": "first call",
+      "Parameters": "follow-up"
+    },
+    {
+      "Types": "first call",
+      "Parameters": "presentation"
+    },
+    {
+      "Types": "first call",
+      "Parameters": "introduction"
+    },
+    {
+      "Types": "first call",
+      "Parameters": "performance"
+    }
+  ]
+}

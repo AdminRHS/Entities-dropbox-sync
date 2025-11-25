@@ -1,0 +1,25 @@
+{
+  "tool_id": "TOOL-DEV-003",
+  "tool_name": "GitHub",
+  "tool_category": "Version Control",
+  "description": "Git repository hosting platform for code collaboration and version control",
+  "skills_count": 1,
+  "last_updated": "2025-11-22",
+  "skills": [
+    {
+      "skill_id": "SKL-032",
+      "skill_phrase": "managed code via GitHub",
+      "components": {
+        "action": "manage",
+        "object": "code",
+        "tool": "GitHub"
+      },
+      "department": "Developers",
+      "professions": ["backend developer", "frontend developer", "full stack developer"],
+      "difficulty_level": "beginner",
+      "frequency": "daily",
+      "time_estimate_minutes": 20,
+      "automation_potential": "medium"
+    }
+  ]
+}

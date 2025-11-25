@@ -1,0 +1,183 @@
+workflow_name: "Dribbble Shot Publishing Workflow"
+workflow_type: "Cyclic"
+workflow_id: "WF-DES-001"
+department: "DESIGN"
+priority: "High"
+description: "High-frequency workflow for publishing polished UI/UX design shots to Dribbble for portfolio building and client acquisition"
+estimated_duration: "45-60 minutes per shot"
+frequency: "2-4 times per week"
+
+steps:
+  - step_number: 1
+    name: "Select Best Work"
+    tool: "Portfolio Review"
+    responsibility: "Select best work"
+    placement: "Local design files"
+    duration: "10 minutes"
+    inputs:
+      - "Recent design projects"
+      - "Completed UI components"
+      - "Client work (if approved to share)"
+    outputs:
+      - "Selected design piece for showcase"
+    success_criteria: "Piece demonstrates craft quality and is visually compelling"
+
+  - step_number: 2
+    name: "Prepare Shot at 1600×1200px"
+    tool: "Figma, Photoshop, or Illustrator"
+    responsibility: "Prepare shot at exact dimensions"
+    placement: "Design software"
+    duration: "15-20 minutes"
+    inputs:
+      - "Selected design piece"
+      - "Brand guidelines (if applicable)"
+    outputs:
+      - "1600×1200px PNG or JPG (under 10MB)"
+    success_criteria: "Clean presentation, correct dimensions, optimized file size"
+    technical_requirements:
+      - "Exact dimensions: 1600×1200px (4:3 ratio)"
+      - "File format: PNG (preferred) or JPG"
+      - "File size: Under 10 MB"
+      - "Color mode: RGB"
+      - "Resolution: 72-150 DPI"
+
+  - step_number: 3
+    name: "Create Animated GIF (Optional)"
+    tool: "Principle, After Effects, or Figma with plugins"
+    responsibility: "Create animated GIF"
+    placement: "Animation software"
+    duration: "20-30 minutes (if creating animation)"
+    inputs:
+      - "UI component with interaction"
+      - "Storyboard for micro-interaction"
+    outputs:
+      - "2-4 second looping GIF (under 5MB)"
+    success_criteria: "Smooth animation showcasing micro-interaction"
+    notes: "Optional but highly engaging for UI work"
+
+  - step_number: 4
+    name: "Write Shot Description"
+    tool: "Text editor"
+    responsibility: "Write shot description"
+    placement: "Dribbble upload form"
+    duration: "5-10 minutes"
+    inputs:
+      - "Design context and goals"
+      - "Tools used"
+      - "Link to full case study (if applicable)"
+    outputs:
+      - "2-4 sentence description"
+    success_criteria: "Brief, describes design challenge, mentions tools, includes CTA"
+    template:
+      - "Design challenge or goal"
+      - "Tools used (Figma, Photoshop, etc.)"
+      - "Link to portfolio or case study"
+      - "Call to action (feedback welcome, available for work)"
+
+  - step_number: 5
+    name: "Upload to Dribbble"
+    tool: "Dribbble"
+    responsibility: "Upload to Dribbble"
+    placement: "Dribbble.com"
+    duration: "5-10 minutes"
+    inputs:
+      - "1600×1200px shot image"
+      - "Shot description"
+      - "Tags (3-10 tags)"
+      - "Attachments (optional additional images)"
+    outputs:
+      - "Published Dribbble shot"
+    success_criteria: "Shot live on profile with proper tags and description"
+    best_practices:
+      - "Use descriptive title (e.g., 'Dashboard UI for SaaS Analytics')"
+      - "Add 3-10 accurate tags (UI, UX, Web Design, Figma, etc.)"
+      - "Include attachments showing variations or context"
+      - "Post during optimal times (9-11am or 2-4pm EST, Tue-Thu)"
+
+  - step_number: 6
+    name: "Submit to Groups"
+    tool: "Dribbble Groups"
+    responsibility: "Submit to groups"
+    placement: "Dribbble group pages"
+    duration: "5 minutes"
+    inputs:
+      - "Published shot"
+      - "List of relevant groups"
+    outputs:
+      - "Shot submitted to 5-10 groups"
+    success_criteria: "Wider distribution beyond personal followers"
+    notes: "Groups amplify reach significantly"
+
+  - step_number: 7
+    name: "Cross-Promote on Social Media"
+    tool: "Instagram, Twitter, LinkedIn"
+    responsibility: "Cross-promote on social media"
+    placement: "Social media platforms"
+    duration: "5-10 minutes"
+    inputs:
+      - "Dribbble shot link"
+      - "Shot image (cropped for each platform)"
+    outputs:
+      - "Social media posts with Dribbble link"
+    success_criteria: "External traffic driven to Dribbble shot"
+    platforms:
+      - "Instagram: Crop to 1:1 or 4:5, link in bio or story"
+      - "Twitter: Share with design community hashtags"
+      - "LinkedIn: Professional context and process insights"
+
+  - step_number: 8
+    name: "Engage with Community"
+    tool: "Dribbble"
+    responsibility: "Engage with community"
+    placement: "Dribbble feed and comments"
+    duration: "15-20 minutes"
+    inputs:
+      - "Comments on your shot"
+      - "Other designers' shots in your niche"
+    outputs:
+      - "Responded to all comments"
+      - "Faved and commented on 10-20 other shots"
+    success_criteria: "Active community participation increases visibility"
+    engagement_tactics:
+      - "Reply to all comments within 24 hours"
+      - "Fave 10-20 shots daily in your niche"
+      - "Leave thoughtful comments (not just 'Nice!')"
+      - "Follow designers whose work you admire"
+
+metrics:
+  - "Favorites (aim for 50+ for growing account)"
+  - "Views (1000+ views = good reach)"
+  - "Comments (10+ comments = strong engagement)"
+  - "Saves (high saves = reference-worthy)"
+  - "Profile views from shot"
+  - "Follower growth"
+  - "Job inquiries or client messages"
+
+dependencies:
+  - "Dribbble account (Pro recommended for analytics)"
+  - "Portfolio of polished design work"
+  - "Design software (Figma, Photoshop, etc.)"
+
+risks:
+  - "Wrong dimensions (must be exactly 1600×1200px)"
+  - "Low-quality image (pixelated or blurry)"
+  - "Inconsistent posting (sporadic uploads)"
+  - "No community engagement (limits reach)"
+
+best_practices:
+  - "Focus on craft quality - single component over full screens"
+  - "Use clean, minimal backgrounds"
+  - "Show micro-interactions via animated GIFs when possible"
+  - "Post at consistent times to build audience habit"
+  - "Quality over quantity - 2-4 shots/week is ideal"
+  - "Engage with community daily (fave, comment)"
+  - "Use Pro account for analytics and discoverability"
+
+related_workflows:
+  - "WF-SMM-004: Behance Project Publishing Workflow"
+  - "WF-DES-003: Instagram Designer Portfolio Workflow"
+  - "WF-SMM-001: Cross-Platform Content Distribution Workflow"
+
+created: "2025-11-14"
+updated: "2025-11-14"
+source: "SMM_Research_Document_3_EU_Creative_Professionals"

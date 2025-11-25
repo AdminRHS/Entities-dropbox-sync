@@ -1,0 +1,85 @@
+{
+  "entity_type": "LIBRARIES",
+  "sub_entity": "Tool",
+  "tool_id": "TOOL-PAY-001",
+  "name": "Stripe",
+  "vendor": "Stripe, Inc.",
+  "category": "Payments/Payment Processing",
+  "purpose": "Online payment processing and subscription management",
+  "description": "Industry-leading payment processing platform for accepting online payments, managing subscriptions, and handling complex billing. Best developer experience with fantastic documentation. Standard choice for SaaS and e-commerce applications.",
+  "skill_level_required": "Intermediate",
+  "cost_structure": "Transaction-based (2.9% + $0.30 per transaction)",
+  "platform_compatibility": [
+    "Web",
+    "Mobile",
+    "Python",
+    "JavaScript",
+    "Ruby",
+    "PHP",
+    "Most languages"
+  ],
+  "integration_capabilities": [
+    "Payment processing",
+    "Subscriptions",
+    "Invoicing",
+    "Customer portal",
+    "Checkout",
+    "Payment links",
+    "Webhooks",
+    "Fraud detection"
+  ],
+  "documentation_url": "https://stripe.com/",
+  "actual_remote_helpers_usage": {
+    "primary_use": "Payment Processing",
+    "users": [],
+    "use_cases": [
+      "accept payments",
+      "manage subscriptions",
+      "process transactions",
+      "handle billing",
+      "create customer portals"
+    ],
+    "workflows": [
+      "WF-AI-001: Develop and Deploy AI Application"
+    ]
+  },
+  "strengths": [
+    "Best developer experience",
+    "Fantastic documentation",
+    "Comprehensive features",
+    "Global support",
+    "Robust API",
+    "Industry standard"
+  ],
+  "limitations": [
+    "Transaction fees",
+    "Some features require higher tiers"
+  ],
+  "alternatives": [
+    {
+      "name": "Lemon Squeezy",
+      "comparison": "Alternative option"
+    },
+    {
+      "name": "Paddle",
+      "comparison": "Merchant of record model"
+    }
+  ],
+  "departments_using": [],
+  "tags": [
+    "payments",
+    "stripe",
+    "billing",
+    "subscriptions",
+    "e-commerce"
+  ],
+  "discovery_date": "2025-11-13",
+  "discovery_source": "Video_005",
+  "status": "active",
+  "video_source": {
+    "video_id": "Video_005",
+    "video_title": "My Agentic Engineering Tech Stack",
+    "creator": "Cole",
+    "timestamp": "27:03-27:51"
+  }
+}

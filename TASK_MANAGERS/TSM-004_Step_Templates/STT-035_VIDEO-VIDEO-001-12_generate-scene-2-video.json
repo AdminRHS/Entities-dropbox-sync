@@ -1,0 +1,29 @@
+{
+  "entity_type": "TASK_MANAGERS",
+  "sub_entity": "Step_Template",
+  "step_id": "VIDEO-VIDEO-001-12",
+  "step_number": 12,
+  "parent_task": "TASK-TEMPLATE-VIDEO-001",
+  "task_name": "Create Multi-Scene Product Commercial",
+  "name": "Generate Scene 2 video",
+  "action": "generate",
+  "tool": "TOOL-AI-051 (Google Veo 3.1)",
+  "responsibility": "Google Veo 3.1 (automated)",
+  "placement": "OpenArt - Processing",
+  "duration": "5-10 minutes (automated)",
+  "dependencies": [11],
+  "inputs": [
+    "Scene 2 start/end frames",
+    "Camera prompt"
+  ],
+  "outputs": [
+    "Scene 2 video with seamless transition from Scene 1"
+  ],
+  "success_criteria": "Seamless continuation from Scene 1 ending",
+  "implementation_notes": "Google Veo 3.1 processes Scene 2 generation. The video should seamlessly continue from where Scene 1 ended, thanks to frame chaining.",
+  "tags": ["video-generation", "scene-2", "automated-processing"],
+  "version": "1.0",
+  "created": "2025-11-15",
+  "last_updated": "2025-11-15",
+  "source": "Video_012"
+}

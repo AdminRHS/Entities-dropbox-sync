@@ -1,0 +1,14 @@
+{
+    "milestone_template_id": "Milestone-Template-021",
+    "name": "Medium Long-Form Publishing Workflow",
+    "category": "Workflow Migration",
+    "department": "SMM",
+    "description": "Migrated from Workflows/Medium_Long_Form_Publishing_Workflow.yaml. Milestone representing the long-form publishing workflow on Medium.",
+    "phase": "Content & Distribution",
+    "can_run_parallel": false,
+    "dependencies": [],
+    "task_templates": [],
+    "expected_reports": [],
+    "version": "1.0",
+    "source_workflow_file": "ENTITIES/TASK_MANAGERS/Workflows/Medium_Long_Form_Publishing_Workflow.yaml"
+}

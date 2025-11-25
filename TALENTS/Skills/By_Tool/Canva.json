@@ -1,0 +1,25 @@
+{
+  "tool_id": "TOOL-DESIGN-002",
+  "tool_name": "Canva",
+  "tool_category": "Design",
+  "description": "User-friendly design platform for creating social media graphics, presentations, and marketing materials",
+  "skills_count": 1,
+  "last_updated": "2025-11-22",
+  "skills": [
+    {
+      "skill_id": "SKL-021",
+      "skill_phrase": "designed social media posts in Canva",
+      "components": {
+        "action": "design",
+        "object": "social media posts",
+        "tool": "Canva"
+      },
+      "department": "Design",
+      "professions": ["smm"],
+      "difficulty_level": "beginner",
+      "frequency": "daily",
+      "time_estimate_minutes": 15,
+      "automation_potential": "low"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "entity_type": "TASK_MANAGERS",
+  "sub_entity": "Task_Template",
+  "task_template_id": "Task-Template-100",
+  "task_template_name": "Select and Prepare Project",
+  "action": "Select and prepare",
+  "object": "design project",
+  "context": "Behance portfolio publishing",
+  "description": "Select a completed design project, prepare high-resolution files, and document scope/objectives before publishing on Behance.",
+  "department": "MARKETING",
+  "estimated_duration": "20-30 minutes",
+  "priority": "High",
+  "status": "Template",
+  "dependencies": [],
+  "tools_required": [
+    "Behance (project planning)"
+  ],
+  "matched_tools": [
+    {
+      "name": "Behance",
+      "libraries_path": "ENTITIES/LIBRARIES/Tools/Behance.json"
+    }
+  ],
+  "checklist": [
+    {
+      "item": "Completed design project is selected",
+      "guide": "Ensure project is representative of current portfolio quality.",
+      "required": true
+    },
+    {
+      "item": "Project files and assets prepared in high resolution",
+      "guide": "Export final assets suitable for Behance presentation.",
+      "required": true
+    },
+    {
+      "item": "Client approval obtained (if applicable)",
+      "guide": "Confirm that publishing rights and NDAs are respected.",
+      "required": false
+    },
+    {
+      "item": "Project scope and objectives documented",
+      "guide": "Capture goals, constraints, and key challenges.",
+      "required": true
+    }
+  ],
+  "success_criteria": [
+    "Project meets internal portfolio quality standards.",
+    "Story of the project can be told end-to-end.",
+    "All required assets are prepared for upload."
+  ],
+  "tags": [
+    "behance",
+    "portfolio",
+    "design",
+    "project_selection"
+  ],
+  "source": "Workflows/Behance_Project_Publishing_Workflow.yaml#step_1",
+  "version": "1.0"
+}

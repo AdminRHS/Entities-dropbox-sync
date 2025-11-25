@@ -1,0 +1,254 @@
+{
+  "entity_type": "LIBRARIES",
+  "sub_entity": "Workflows",
+  "category": "Design_Systems",
+  "source": "Video_009_Design_System_Analysis",
+  "created": "2025-11-13",
+  "total_workflows": 1,
+  "description": "AI-assisted workflows for generating design systems from inspiration images using multi-model AI prompts in Cursor",
+  "workflows": [
+    {
+      "workflow_id": "WF-DESIGN-001",
+      "name": "AI-Assisted Design System Generation (3-Prompt Methodology)",
+      "description": "Complete workflow for extracting design styles from inspiration images and generating comprehensive, AI-readable design system documentation using sequential AI prompts with model specialization",
+      "complexity": "Medium",
+      "duration": "10-20 minutes (less than 1 hour total)",
+      "time_saved": "95%+ reduction vs. manual design system creation (days/weeks → under 1 hour)",
+      "success_rate": "High (generates designs matching professional Dribbble quality)",
+      "business_value": "Ensures consistent, high-quality AI-generated UI design; prevents generic 'purple gradient' outputs; enables scalable design consistency across unlimited features",
+      "phases": [
+        {
+          "phase": 1,
+          "name": "Design Style Extraction and Analysis",
+          "description": "Extract high-level design principles from inspiration screenshot",
+          "prompt_number": 1,
+          "ai_model": "GPT-5",
+          "tool": "Cursor",
+          "duration": "1-2 minutes",
+          "complexity": "Low",
+          "steps": [
+            "Search Dribbble for 'design system' keyword",
+            "Select 'flat' design system screenshot (not poster-like)",
+            "Ensure UI components are clearly visible without extraneous elements",
+            "Copy screenshot to clipboard",
+            "Open Cursor and create new agent",
+            "Set model to GPT-5",
+            "Paste screenshot into chat",
+            "Execute Prompt 1: 'Deeply analyze the design of the attached screenshot to create a design.json file that describes the style and design of every component needed in a design system, a high level like a creative director. Capture high-level guidelines for structure, spacing, fonts, colors, design style and design principles so I can use this file as the design guidelines for my app. The goal with this file is to instruct AI to be able to replicate this look easily in a project.'",
+            "Review generated design.json (50-100 lines)",
+            "Click 'Keep All' to save file to project"
+          ],
+          "input": "Dribbble design system screenshot (PNG/JPG)",
+          "output": "design.json (high-level style guide, 50-100 lines)",
+          "output_contents": [
+            "Brand essence, tone of voice, keywords",
+            "Design language description",
+            "Style principles",
+            "Border radius, breakpoints, grids",
+            "Color palette (neutral and accent colors)",
+            "Typography options"
+          ],
+          "key_principle": "Stay high-level to avoid AI overfitting; let AI intelligently fill gaps"
+        },
+        {
+          "phase": 2,
+          "name": "Component Showcase Application Generation",
+          "description": "Build working Vite+React+Tailwind app with all UI components",
+          "prompt_number": 2,
+          "ai_model": "Claude/Sonnet 4.5",
+          "tool": "Cursor",
+          "duration": "5-10 minutes",
+          "complexity": "Medium to High",
+          "steps": [
+            "Create NEW agent/chat in Cursor (clears previous context)",
+            "Set model to Claude/Sonnet 4.5",
+            "Execute Prompt 2: 'Let's create a simple screen that contains every UI component that would exist in a design system on a mock dashboard following the design style outlined in @design.json. Build this as a Vite app using React and translate all styling into Tailwind version 3. Just run this locally.'",
+            "Reference design.json using @ symbol in Cursor",
+            "Approve terminal commands to set up Vite project",
+            "AI generates complete React component files (15-30 files)",
+            "AI runs localhost development server (e.g., :5173)",
+            "Open built-in browser in Cursor",
+            "Navigate to localhost URL",
+            "Preview all UI components (buttons, cards, calendars, forms, etc.)",
+            "Optional: Iterate on design tweaks before Phase 3",
+            "Click 'Keep All' to save all generated files"
+          ],
+          "input": "design.json from Phase 1",
+          "output": "UI Component Showcase Application (Vite+React+Tailwind, running locally)",
+          "tech_stack": ["Vite", "React", "Tailwind CSS v3"],
+          "output_components": [
+            "Buttons (primary, secondary, tertiary, success, ghost, icon)",
+            "Cards with hover states",
+            "Avatars and avatar stacks",
+            "Progress indicators",
+            "Calendar components",
+            "Forms and inputs",
+            "Typography scales",
+            "Color palette examples",
+            "Mock dashboard layout"
+          ],
+          "success_criteria": "Generated showcase is 'almost identical' to source Dribbble inspiration",
+          "key_principle": "New agent/chat for fresh context; Claude/Sonnet better for code generation"
+        },
+        {
+          "phase": 3,
+          "name": "Comprehensive Design System Documentation",
+          "description": "Create detailed, AI-consumable design-system.json guide",
+          "prompt_number": 3,
+          "ai_model": "GPT-5",
+          "tool": "Cursor",
+          "duration": "2-5 minutes",
+          "complexity": "Medium",
+          "steps": [
+            "Create NEW agent/chat in Cursor (clears previous context)",
+            "Set model to GPT-5",
+            "Execute Prompt 3: 'In this project, create a folder named 'design' and create a design-system.json file in this folder that outlines the exact styling for all components and styles in this app, along with a high-level design guidelines. The goal with this file is to create a comprehensive guide for AI to follow when building new features in this app.'",
+            "AI analyzes design.json + all showcase app code",
+            "AI generates comprehensive design-system.json (646+ lines)",
+            "Review comprehensive specifications",
+            "Click 'Keep All' to save final guide",
+            "File is now ready for use in any AI coding tool"
+          ],
+          "input": [
+            "design.json (from Phase 1)",
+            "Complete showcase app codebase (from Phase 2)"
+          ],
+          "output": "design-system.json (comprehensive guide, 646+ lines)",
+          "output_contents": [
+            "All component definitions with complete specifications",
+            "Complete Tailwind CSS styling rules",
+            "Detailed spacing, fonts, colors",
+            "Accessibility guidelines",
+            "Motion and interaction patterns",
+            "Data visualization rules",
+            "Content guidelines",
+            "Do's and don'ts",
+            "Structure and hierarchy rules"
+          ],
+          "usage": "Reference in all future AI prompts for consistent feature development",
+          "deployment_options": [
+            "Continue building in Cursor with same project",
+            "Copy to Lovable/Bolt Knowledge section",
+            "Paste into prompts when building new features",
+            "Use to refactor existing app UI: 'Refactor the entire UI of my app. Do not change anything functional but follow these exact design guidelines [paste design-system.json]'"
+          ],
+          "key_principle": "GPT-5 better for comprehensive documentation; new agent for fresh perspective"
+        }
+      ],
+      "tools": [
+        "Dribbble",
+        "Cursor",
+        "GPT-5",
+        "Claude/Sonnet 4.5",
+        "Vite",
+        "React",
+        "Tailwind CSS"
+      ],
+      "objects": [
+        "Dribbble Design System Screenshot",
+        "design.json",
+        "UI Component Showcase Application",
+        "design-system.json"
+      ],
+      "actions": [
+        "search",
+        "select",
+        "analyze",
+        "extract",
+        "generate",
+        "build",
+        "create",
+        "document",
+        "reference"
+      ],
+      "departments": ["Design", "Dev", "AI"],
+      "professions": [
+        "UI/UX Designer",
+        "Frontend Developer",
+        "Design Systems Engineer",
+        "AI Prompt Engineer"
+      ],
+      "automation_potential": "Very High 80%+ (AI handles all generation)",
+      "prerequisites": [
+        "Cursor installed",
+        "Access to GPT-5 and Claude/Sonnet 4.5 models in Cursor",
+        "Dribbble access (free browsing)"
+      ],
+      "skills_required": [
+        "analyze design styles via Cursor",
+        "generate UI components via Cursor",
+        "create design systems via GPT-5"
+      ],
+      "best_practices": [
+        {
+          "practice": "Model Specialization",
+          "description": "Use GPT-5 for visual analysis and documentation; Claude/Sonnet for code generation",
+          "rationale": "GPT-5 excels at visual interpretation and detailed docs; Claude/Sonnet excels at structured code"
+        },
+        {
+          "practice": "Context Management",
+          "description": "Create new agent/chat for each prompt phase",
+          "rationale": "Clears previous context to prevent AI confusion and ensures focused output"
+        },
+        {
+          "practice": "Input Quality",
+          "description": "Select 'flat' design system screenshots without extraneous elements",
+          "rationale": "Clean input prevents AI from misinterpreting decorative elements as design patterns"
+        },
+        {
+          "practice": "Abstraction Levels",
+          "description": "Phase 1: High-level → Phase 2: Implementation → Phase 3: Ultra-detailed",
+          "rationale": "Progressive detail prevents overfitting in Phase 1 while ensuring completeness in Phase 3"
+        },
+        {
+          "practice": "Optional Refinement",
+          "description": "Iterate on showcase app before Phase 3 if needed",
+          "rationale": "Ensures design-system.json documents your desired final state"
+        }
+      ],
+      "success_metrics": {
+        "design_quality": "Matches professional Dribbble inspiration",
+        "consistency": "AI follows design system step-by-step in all new features",
+        "speed": "Complete system setup in under 1 hour vs. days/weeks manually",
+        "roi": "95%+ time savings; unlimited reuse for consistent feature generation"
+      },
+      "output_usage": {
+        "immediate": "Use design-system.json to guide current project development in Cursor",
+        "lovable_bolt": "Add to Knowledge section for automatic design adherence",
+        "refactoring": "Apply to existing apps with refactor prompt",
+        "scaling": "One design system guides unlimited AI-generated features"
+      },
+      "pattern_type": "Multistage Prompt Methodology",
+      "reusability": {
+        "direct": "Apply same 3-prompt pattern to any design system extraction",
+        "adaptations": [
+          "Logo design extraction and variation",
+          "Brand style guide generation",
+          "UI refactoring for consistency",
+          "Component library documentation"
+        ]
+      },
+      "discovery_source": "Video_009",
+      "video_creator": "Chris Ashby",
+      "video_title": "3 Prompts To Get INCREDIBLE App Designs From AI"
+    }
+  ],
+  "related_patterns": [
+    "Multistage AI prompt workflows",
+    "Model specialization strategies",
+    "Design system extraction methodologies"
+  ],
+  "tags": [
+    "design-systems",
+    "ai-assisted-design",
+    "cursor",
+    "gpt-5",
+    "claude-sonnet",
+    "multi-prompt",
+    "vite",
+    "react",
+    "tailwind",
+    "ui-components",
+    "design-extraction"
+  ]
+}

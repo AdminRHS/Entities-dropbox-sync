@@ -1,0 +1,91 @@
+{
+  "metadata": {
+    "version": "1.1.0",
+    "generated": "2025-11-18",
+    "last_updated": "2025-11-20",
+    "entity": "Task_Templates",
+    "meta_category": "TSM-003",
+    "description": "ISO code migration mapping for Task Templates from legacy Task-Template-### format to standardized TST-### format, organized under TSM-003 meta-category",
+    "naming_convention": "TST (Task Template) - 3-letter consonant code ending with 'T' for templates",
+    "total_entities_mapped": 71
+  },
+  "iso_code_derivation": {
+    "entity_name": "Task Template",
+    "iso_code": "TST",
+    "derivation_logic": "TaSk Template → TST (consonants only, ends with T for templates)",
+    "alternative_considered": "TSK",
+    "reason_for_selection": "TST maintains template suffix convention (T) for consistency with other template entities"
+  },
+  "meta_category": {
+    "TSM-003": {
+      "category_name": "Task Templates",
+      "organizes": "TST",
+      "instance_count": 71,
+      "id_range": "TST-001 to TST-071",
+      "description": "Meta-level category organizing all Task Template entities"
+    }
+  },
+  "entity_type_iso_codes": {
+    "TST": {
+      "full_name": "Task Template",
+      "description": "Task templates representing specific deliverables within milestones containing multiple steps",
+      "meta_parent": "TSM-003",
+      "range": "TST-001 to TST-100",
+      "total_count": 71,
+      "template_suffix": true
+    }
+  },
+  "validation_checksums": {
+    "total_task_templates": 68,
+    "active_templates": 66,
+    "deprecated_templates": 2,
+    "by_department": {
+      "AID": 28,
+      "LGN": 13,
+      "VID": 10,
+      "DEV": 9,
+      "HRM": 6,
+      "SLS": 1,
+      "DGN": 1
+    }
+  },
+  "department_code_registry": {
+    "AID": "AI Department (includes Automations, Operations, Administration)",
+    "HRM": "Human Resource Management",
+    "DEV": "Development & Engineering",
+    "LGN": "Lead Generation & Marketing",
+    "DGN": "Design & Creative",
+    "VID": "Video Production",
+    "SLS": "Sales & Client Relations"
+  },
+  "iso_code_rules": {
+    "template_suffix": "All Template entities end with 'T' (TST)",
+    "consonant_only": "All codes use only consonants (no vowels A, E, I, O, U) where possible",
+    "three_letters": "All codes are exactly 3 letters",
+    "uppercase": "All codes are uppercase",
+    "memorable": "Codes derived from entity type names for easy recall"
+  },
+  "migration_status": {
+    "migration_started": "2025-11-18",
+    "migration_completed": "2025-11-18",
+    "total_entities_migrated": 68,
+    "legacy_format": "Task-Template-###",
+    "new_format": "TST-###",
+    "backwards_compatibility": "Legacy Task-Template IDs preserved in Current_ID field for reference"
+  },
+  "hierarchy_position": {
+    "level": 3,
+    "parent_entity": "Milestone Template (MLT)",
+    "child_entity": "Step Template (STT)",
+    "description": "Tasks are specific deliverables within milestones containing multiple procedural steps"
+  },
+  "task_categories": {
+    "lead_generation": ["TST-002", "TST-003", "TST-006", "TST-009", "TST-012", "TST-013", "TST-014", "TST-015", "TST-016", "TST-017", "TST-018"],
+    "development": ["TST-005", "TST-008", "TST-010", "TST-011", "TST-022", "TST-047", "TST-059", "TST-060", "TST-061"],
+    "system_analysis": ["TST-023", "TST-024", "TST-025", "TST-026", "TST-027", "TST-028", "TST-029", "TST-030", "TST-031", "TST-032", "TST-033", "TST-034", "TST-035", "TST-036", "TST-037", "TST-038"],
+    "hr_automation": ["TST-007", "TST-039", "TST-040", "TST-041", "TST-042", "TST-043", "TST-044"],
+    "video_production": ["TST-045", "TST-049", "TST-050", "TST-051", "TST-052", "TST-053", "TST-054", "TST-055", "TST-056", "TST-057", "TST-058"],
+    "research": ["TST-046", "TST-047", "TST-048", "TST-062", "TST-063"],
+    "ai_automation": ["TST-001", "TST-019", "TST-020", "TST-064", "TST-065", "TST-066", "TST-067"]
+  }
+}

@@ -1,0 +1,219 @@
+{
+  "entity_type": "LIBRARIES",
+  "library": "Processes",
+  "category": "Recruitment_Workflows",
+  "description": "Recruitment and hiring workflows, particularly focused on social media and remote hiring processes",
+  "created": "2025-11-13",
+  "updated": "2025-11-13",
+  "total_workflows": 2,
+  "workflows": [
+    {
+      "workflow_id": "WF-REC-001",
+      "workflow_name": "Communicate with Remote Candidates via Instagram DMs",
+      "objective": "Facilitate comprehensive communication with job candidates through Instagram DMs, covering all stages from vacancy confirmation to interview scheduling and follow-up",
+      "complexity": "Medium",
+      "duration": "20-40 minutes per candidate (across multiple interactions)",
+      "platform": ["Instagram", "Telegram"],
+      "primary_platform": "Instagram",
+      "total_steps": 7,
+      "steps": [
+        {
+          "step_number": 1,
+          "step_name": "Confirm Interest in Vacancies",
+          "action": "confirm",
+          "tool": "TOOL-SMM-001",
+          "object": "OBJ-REC-001",
+          "description": "Verify vacancy interest - Begin by confirming the specific vacancy the candidate is interested in and provide an overview of the role",
+          "format": "Text (Instagram DM)",
+          "template": "TMPL-REC-001"
+        },
+        {
+          "step_number": 2,
+          "step_name": "Assess Language Proficiency for Communications",
+          "action": "assess",
+          "tool": "TOOL-SMM-001",
+          "object": "OBJ-SMM-002",
+          "description": "Inquire about language skills - Ask candidates about their language skills, specifying the level of proficiency needed for the role",
+          "format": "Text (Instagram DM)",
+          "template": "TMPL-REC-002"
+        },
+        {
+          "step_number": 3,
+          "step_name": "Confirm Availability for Job Interviews",
+          "action": "schedule",
+          "tool": "TOOL-SMM-001",
+          "object": "OBJ-REC-002",
+          "description": "Check interview timing preferences and confirm final interview time - Discuss potential interview timings, offer alternatives, confirm appointment and provide virtual interview link",
+          "format": "Text (Instagram DM)",
+          "template": "TMPL-REC-004"
+        },
+        {
+          "step_number": 4,
+          "step_name": "Reschedule Job Interviews if Necessary",
+          "action": "reschedule",
+          "tool": "TOOL-SMM-001",
+          "object": "OBJ-REC-002",
+          "description": "Handle rescheduling requests - If candidate requests a change, negotiate a new interview time that suits both parties and ensure timely updates to all involved",
+          "format": "Text (Instagram DM)",
+          "template": "TMPL-REC-005"
+        },
+        {
+          "step_number": 5,
+          "step_name": "Provide Pre-Interview Information for Job Requests",
+          "action": "provide",
+          "tool": "TOOL-SMM-001",
+          "object": "OBJ-REC-007",
+          "description": "Send pre-interview instructions - Address candidate questions regarding interview preparation, provide specific instructions on expected topics or general format",
+          "format": "Text (Instagram DM)",
+          "template": "TMPL-REC-006"
+        },
+        {
+          "step_number": 6,
+          "step_name": "Follow Up on Candidate Profiles for Job Applications",
+          "action": "request",
+          "tool": ["TOOL-SMM-001", "TOOL-SMM-002"],
+          "object": ["OBJ-REC-005", "OBJ-REC-006"],
+          "description": "Request resume submission - Ask candidate to submit resume via alternate platform (Telegram) if not provided yet, confirm receipt before interview",
+          "format": "File transfer via Telegram, confirmation via Instagram",
+          "template": "TMPL-REC-003"
+        },
+        {
+          "step_number": 7,
+          "step_name": "Confirm Interest in Vacancies Post-Travel or Delay",
+          "action": "reconfirm",
+          "tool": "TOOL-SMM-001",
+          "object": "OBJ-REC-001",
+          "description": "Reconfirm interest in the role - If candidate previously indicated a delay, follow up to confirm ongoing interest in the vacancy and potential readiness for next steps",
+          "format": "Text (Instagram DM)",
+          "template": "TMPL-REC-008"
+        }
+      ],
+      "input": "Initial candidate inquiry or ongoing candidate relationship",
+      "output": [
+        "Confirmed interview schedule",
+        "Collected candidate materials (CV/resume or video business card)",
+        "Maintained candidate engagement throughout process"
+      ],
+      "tools_used": [
+        "TOOL-SMM-001",
+        "TOOL-SMM-002"
+      ],
+      "tool_details": {
+        "TOOL-SMM-001": "Instagram - Primary communication platform",
+        "TOOL-SMM-002": "Telegram - Document sharing for resumes"
+      },
+      "actions_used": [
+        "confirm",
+        "assess",
+        "schedule",
+        "reschedule",
+        "provide",
+        "request",
+        "reconfirm",
+        "follow-up",
+        "inquire"
+      ],
+      "objects_involved": [
+        "OBJ-REC-001",
+        "OBJ-SMM-002",
+        "OBJ-REC-002",
+        "OBJ-REC-007",
+        "OBJ-REC-005",
+        "OBJ-REC-006"
+      ],
+      "professions": [
+        "Recruiter"
+      ],
+      "use_case": "Remote recruitment, ongoing candidate relationship management",
+      "best_for": "Candidates requiring multi-touch engagement, remote hiring, geographically distributed talent",
+      "source": "SMM_Research_Document_1_Instagram_DM_Recruitment"
+    },
+    {
+      "workflow_id": "WF-REC-002",
+      "workflow_name": "Screen Candidates via Instagram DMs",
+      "objective": "Engage with candidates responding to Instagram ads by confirming application details, assessing language proficiency, and requesting relevant application materials before scheduling an interview",
+      "complexity": "Medium",
+      "duration": "15-25 minutes per candidate (single screening session)",
+      "platform": ["Instagram"],
+      "primary_platform": "Instagram",
+      "total_steps": 4,
+      "steps": [
+        {
+          "step_number": 1,
+          "step_name": "Confirm Candidate Interest in Vacancies",
+          "action": "verify",
+          "tool": "TOOL-SMM-001",
+          "object": "OBJ-REC-001",
+          "description": "Verify vacancy interest - Begin conversation by greeting the candidate and confirming which specific vacancy they are interested in to ensure clarity on the role they are applying for",
+          "format": "Text (Instagram DM)",
+          "template": "TMPL-REC-001"
+        },
+        {
+          "step_number": 2,
+          "step_name": "Assess Language Skills for Communications",
+          "action": "assess",
+          "tool": "TOOL-SMM-001",
+          "object": "OBJ-SMM-002",
+          "description": "Inquire about language proficiency - Ask candidate about proficiency level in required language(s), provide framework for response (beginner/intermediate/advanced), ask for language certifications or experiences",
+          "format": "Text (Instagram DM)",
+          "template": "TMPL-REC-002"
+        },
+        {
+          "step_number": 3,
+          "step_name": "Request Candidate Profiles via CV or Video Business Card",
+          "action": "request",
+          "tool": "TOOL-SMM-001",
+          "object": ["OBJ-REC-005", "OBJ-REC-006", "OBJ-SMM-003"],
+          "description": "Request CV or video introduction - Ask candidate to share CV or video business card introducing themselves and summarizing professional background, provide instructions for sending via Instagram or another platform if needed",
+          "format": "Text request (Instagram), file delivery (Instagram or Telegram), video delivery (Instagram)",
+          "template": "TMPL-REC-003"
+        },
+        {
+          "step_number": 4,
+          "step_name": "Schedule Interviews for Job Requests",
+          "action": "schedule",
+          "tool": "TOOL-SMM-001",
+          "object": "OBJ-REC-002",
+          "description": "Confirm interview availability - Once language proficiency and CV/video business card are gathered, confirm candidate interest in proceeding and request availability for virtual interview",
+          "format": "Text (Instagram DM)",
+          "template": "TMPL-REC-004"
+        }
+      ],
+      "input": "Candidate response to Instagram recruitment advertisement",
+      "output": [
+        "Qualified candidate profile",
+        "Scheduled virtual interview",
+        "Collected application materials (CV or video business card)"
+      ],
+      "tools_used": [
+        "TOOL-SMM-001"
+      ],
+      "tool_details": {
+        "TOOL-SMM-001": "Instagram - Screening and communication platform"
+      },
+      "actions_used": [
+        "verify",
+        "assess",
+        "request",
+        "schedule",
+        "inquire",
+        "engage"
+      ],
+      "objects_involved": [
+        "OBJ-REC-001",
+        "OBJ-SMM-002",
+        "OBJ-REC-005",
+        "OBJ-REC-006",
+        "OBJ-SMM-003",
+        "OBJ-REC-002"
+      ],
+      "professions": [
+        "Recruiter"
+      ],
+      "use_case": "Initial candidate screening from social media advertising campaigns",
+      "best_for": "High-volume candidate screening, Instagram ad campaigns, quick qualification",
+      "integration_pattern": "Instagram ad campaign → DM response → Screening (WF-REC-002) → Interview → Ongoing engagement (WF-REC-001 if needed)",
+      "source": "SMM_Research_Document_1_Instagram_DM_Recruitment"
+    }
+  ]
+}

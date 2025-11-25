@@ -1,0 +1,127 @@
+{
+  "entity_type": "LIBRARIES",
+  "sub_entity": "Profession",
+  "profession_name": "lead generator",
+  "department": "managers",
+  "description": "Specialist in identifying, sourcing, and enriching lead lists for B2B sales prospecting",
+  "created": "2025-11-12",
+  "updated": "2025-11-12",
+  "skills": [
+    "SKL-060",
+    "SKL-061",
+    "SKL-064",
+    "SKL-065"
+  ],
+  "skill_details": {
+    "SKL-060": {
+      "skill_phrase": "scraped lead lists via Apify",
+      "proficiency_level": "intermediate",
+      "frequency": "daily"
+    },
+    "SKL-061": {
+      "skill_phrase": "enriched emails via Anymailfinder",
+      "proficiency_level": "beginner",
+      "frequency": "daily"
+    },
+    "SKL-064": {
+      "skill_phrase": "executed LinkedIn lead extraction via Vayne",
+      "proficiency_level": "intermediate",
+      "frequency": "weekly"
+    },
+    "SKL-065": {
+      "skill_phrase": "optimized lead costs via arbitrage",
+      "proficiency_level": "intermediate",
+      "frequency": "monthly"
+    }
+  },
+  "tools": [
+    "TOOL-DATA-007",
+    "TOOL-DATA-008",
+    "TOOL-BUS-002",
+    "TOOL-AUTO-004",
+    "TOOL-DEV-020",
+    "TOOL-DEV-021",
+    "TOOL-DEV-022",
+    "TOOL-DEV-023",
+    "TOOL-DEV-024",
+    "TOOL-DEV-025"
+  ],
+  "tool_details": {
+    "TOOL-DATA-007": "Anymailfinder - Email enrichment (daily use)",
+    "TOOL-DATA-008": "Airscale - Company database (weekly use)",
+    "TOOL-BUS-002": "LinkedIn Sales Navigator - Lead sourcing (daily use)",
+    "TOOL-AUTO-004": "Vayne - LinkedIn scraper (weekly use)",
+    "TOOL-DEV-020": "Apify - Web scraping platform (daily use)",
+    "TOOL-DEV-021": "Apify Google SERP Scraper (weekly use)",
+    "TOOL-DEV-022": "Apify Google Maps Scraper (weekly use)",
+    "TOOL-DEV-023": "Apify LinkedIn Jobs Scraper (weekly use)",
+    "TOOL-DEV-024": "Apify Instagram Scraper (monthly use)",
+    "TOOL-DEV-025": "Apify YouTube Scraper (monthly use)"
+  },
+  "workflows": [
+    "WF-LG-001",
+    "WF-LG-002",
+    "WF-LG-003",
+    "WF-LG-004",
+    "WF-LG-006",
+    "WF-LG-007",
+    "WF-LG-009",
+    "WF-LG-010",
+    "WF-LG-013",
+    "WF-LG-014"
+  ],
+  "workflow_details": {
+    "WF-LG-001": "Anymailfinder Nominative Enrichment",
+    "WF-LG-002": "Airscale Employee Enrichment",
+    "WF-LG-003": "LinkedIn Sales Navigator Lead Extraction",
+    "WF-LG-004": "Enterprise Email Arbitrage",
+    "WF-LG-006": "Google SERP Lead Generation",
+    "WF-LG-007": "Google Maps Local Business Scraping",
+    "WF-LG-009": "Instagram Influencer Scraping",
+    "WF-LG-010": "LinkedIn Jobs Intent-Based Scraping",
+    "WF-LG-013": "Custom Niche Platform Scraping",
+    "WF-LG-014": "Apollo.io Legacy Workflow"
+  },
+  "objects": [
+    "OBJ-LG-001",
+    "OBJ-LG-002",
+    "OBJ-LG-003",
+    "OBJ-LG-004",
+    "OBJ-LG-005",
+    "OBJ-LG-006",
+    "OBJ-LG-007"
+  ],
+  "object_details": {
+    "OBJ-LG-001": "Lead List",
+    "OBJ-LG-002": "Company Domain",
+    "OBJ-LG-003": "Decision-Maker Email",
+    "OBJ-LG-004": "LinkedIn Profile",
+    "OBJ-LG-005": "Enriched Contact",
+    "OBJ-LG-006": "Google SERP Result",
+    "OBJ-LG-007": "Google Maps Listing"
+  },
+  "actions": [
+    "scrape",
+    "enrich",
+    "feed",
+    "sanitize",
+    "split",
+    "combine",
+    "lookup",
+    "arbitrage"
+  ],
+  "typical_tasks": [
+    "Scrape 2,000 company domains from Google SERP",
+    "Enrich 40 company domains with decision-maker emails",
+    "Extract 1,000 LinkedIn Sales Navigator profiles",
+    "Execute enterprise email arbitrage (1 credit → 40 emails)",
+    "Scrape 500 local businesses from Google Maps"
+  ],
+  "performance_metrics": {
+    "enrichment_success_rate": "20-100% depending on source",
+    "cost_per_valid_email": "$0.0025 (Anymailfinder)",
+    "volume_capacity": "1,000-5,000 leads per day",
+    "time_per_workflow": "10-30 minutes average"
+  },
+  "source": "Video_006_Lead_Generation_Analysis"
+}

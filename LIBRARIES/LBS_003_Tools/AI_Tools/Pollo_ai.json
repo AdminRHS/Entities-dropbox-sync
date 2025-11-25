@@ -1,0 +1,50 @@
+{
+  "entity_type": "LIBRARIES",
+  "sub_entity": "Tool",
+  "tool_id": "TOOL-AI-064",
+  "name": "Pollo.ai",
+  "vendor": "Pollo",
+  "category": "AI/Tools",
+  "purpose": "AI platform for various applications (details TBD)",
+  "description": "AI platform offering various AI solutions and services. Specific capabilities and use cases to be determined through further research and usage.",
+  "skill_level_required": "TBD",
+  "cost_structure": "TBD",
+  "platform_compatibility": [
+    "Web"
+  ],
+  "integration_capabilities": [],
+  "documentation_url": "https://pollo.ai/home",
+  "actual_remote_helpers_usage": {
+    "primary_use": "TBD",
+    "users": [],
+    "use_cases": [],
+    "workflows": []
+  },
+  "strengths": [],
+  "limitations": [],
+  "departments_using": [],
+  "tags": [
+    "ai-platform"
+  ],
+  "discovery_date": "2025-11-15",
+  "discovery_source": "finance_data",
+  "status": "discovered_needs_review",
+  "finance_data": {
+    "subscription_status": "unpaid",
+    "total_accounts": 1,
+    "paid_accounts": 0,
+    "unpaid_accounts": 1,
+    "latest_valid_until": "2025-07-12",
+    "accounts": [
+      {
+        "email": "admin@rh-s.com",
+        "status": "not paid",
+        "paid_date": "2025-06-12",
+        "valid_until": "2025-07-12",
+        "department": ""
+      }
+    ],
+    "departments_using": []
+  }
+}
+

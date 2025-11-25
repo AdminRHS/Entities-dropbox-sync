@@ -1,0 +1,27 @@
+{
+  "task_template_id": "Task-Template-035",
+  "task_template_name": "Architecture Documentation",
+  "category": "Documentation",
+  "department": "AI",
+  "description": "Create comprehensive architecture documentation with diagrams",
+  "estimated_hours": 2,
+  "step_templates": [
+    {
+      "step_template_id": "STEP-ANALYSIS-013-01",
+      "step_template_name": "Document entity relationships"
+    },
+    {
+      "step_template_id": "STEP-ANALYSIS-013-02",
+      "step_template_name": "Create system diagrams"
+    },
+    {
+      "step_template_id": "STEP-ANALYSIS-013-03",
+      "step_template_name": "Document data flows"
+    },
+    {
+      "step_template_id": "STEP-ANALYSIS-013-04",
+      "step_template_name": "Write architecture overview"
+    }
+  ],
+  "version": "1.0"
+}

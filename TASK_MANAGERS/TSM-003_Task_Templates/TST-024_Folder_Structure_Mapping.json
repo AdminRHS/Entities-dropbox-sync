@@ -1,0 +1,23 @@
+{
+  "task_template_id": "Task-Template-024",
+  "task_template_name": "Folder Structure Mapping",
+  "category": "Analysis",
+  "department": "AI",
+  "description": "Map complete folder hierarchy and identify structural patterns and anomalies",
+  "estimated_hours": 0.25,
+  "step_templates": [
+    {
+      "step_template_id": "STEP-ANALYSIS-002-01",
+      "step_template_name": "Map hierarchy depth"
+    },
+    {
+      "step_template_id": "STEP-ANALYSIS-002-02",
+      "step_template_name": "Identify folder patterns"
+    },
+    {
+      "step_template_id": "STEP-ANALYSIS-002-03",
+      "step_template_name": "Find structural anomalies"
+    }
+  ],
+  "version": "1.0"
+}

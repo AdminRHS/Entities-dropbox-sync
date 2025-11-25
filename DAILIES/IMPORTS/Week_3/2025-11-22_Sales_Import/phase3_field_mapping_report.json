@@ -1,0 +1,392 @@
+{
+  "phase": "Phase 3 - Field Classification & Mapping",
+  "executed_at": "2025-11-22T21:07:56.780789",
+  "status": "completed",
+  "summary": {
+    "sub_entities_mapped": 7,
+    "transformation_functions": 11,
+    "unmapped_fields": 113
+  },
+  "field_mapping": {
+    "company": {
+      "id": {
+        "source": "generated",
+        "format": "BUS-YYYY-###",
+        "transformation": "generate_company_id()"
+      },
+      "name": {
+        "source": "company_name",
+        "transformation": "normalize_company_name(company_name)"
+      },
+      "website": {
+        "source": "website",
+        "transformation": "clean_url(website)"
+      },
+      "size_id": {
+        "source": "lead_company_size.id",
+        "transformation": "direct_map"
+      },
+      "size_label": {
+        "source": "lead_company_size.title",
+        "transformation": "direct_map"
+      },
+      "year_established": {
+        "source": "not_available",
+        "transformation": "null"
+      },
+      "note": {
+        "source": "multiple",
+        "fields": [
+          "notes",
+          "description"
+        ],
+        "transformation": "combine_notes()"
+      },
+      "locations": {
+        "source": "lead_company_city",
+        "transformation": "extract_locations(lead_company_city)"
+      },
+      "industries": {
+        "source": "multiple",
+        "fields": [
+          "lead_company_industry",
+          "sub_industries"
+        ],
+        "transformation": "extract_industries(lead_company_industry, sub_industries)"
+      }
+    },
+    "pocs": {
+      "id": {
+        "source": "generated",
+        "format": "POC-###",
+        "transformation": "generate_poc_id()"
+      },
+      "name": {
+        "source": "pocs[].name",
+        "transformation": "normalize_name(name)"
+      },
+      "position_id": {
+        "source": "pocs[].position.id",
+        "transformation": "direct_map"
+      },
+      "position_title": {
+        "source": "pocs[].position.title",
+        "transformation": "direct_map"
+      },
+      "email": {
+        "source": "pocs[].email",
+        "transformation": "normalize_email(email)"
+      },
+      "phone": {
+        "source": "pocs[].phone",
+        "transformation": "normalize_phone(phone)"
+      },
+      "linkedin_url": {
+        "source": "pocs[].linkedin_url",
+        "transformation": "clean_url(linkedin_url)"
+      },
+      "is_primary": {
+        "source": "pocs[].is_primary",
+        "transformation": "boolean_conversion(is_primary)"
+      },
+      "notes": {
+        "source": "pocs[].notes",
+        "transformation": "direct_map"
+      }
+    },
+    "business_relationship": {
+      "entity_type": {
+        "source": "derived",
+        "transformation": "classify_entity_type(record)"
+      },
+      "status_id": {
+        "source": "lead_status.id",
+        "transformation": "direct_map"
+      },
+      "status_type": {
+        "source": "lead_status.type",
+        "transformation": "direct_map"
+      },
+      "source_id": {
+        "source": "lead_source.id",
+        "transformation": "direct_map"
+      },
+      "source_name": {
+        "source": "lead_source.name",
+        "transformation": "direct_map"
+      },
+      "priority": {
+        "source": "lead_status.priority",
+        "transformation": "integer_conversion(priority)"
+      }
+    },
+    "communication_history": {
+      "total_interactions": {
+        "source": "calculated",
+        "transformation": "count_interactions()"
+      },
+      "last_contact_date": {
+        "source": "communications[].created_at",
+        "transformation": "max_date(communications)"
+      },
+      "interactions": {
+        "source": "communications[]",
+        "transformation": "extract_communications(communications)"
+      }
+    },
+    "assigned_users": {
+      "sales_manager_id": {
+        "source": "sales_manager",
+        "transformation": "integer_conversion(sales_manager)"
+      },
+      "sales_manager_name": {
+        "source": "sales_manager_assistant.name",
+        "transformation": "direct_map"
+      },
+      "lead_agent_id": {
+        "source": "lead_agent.id",
+        "transformation": "direct_map"
+      },
+      "created_by_id": {
+        "source": "created_by.id",
+        "transformation": "direct_map"
+      },
+      "created_by_name": {
+        "source": "created_by.name",
+        "transformation": "direct_map"
+      }
+    },
+    "references": {
+      "crm_link": {
+        "source": "calculated",
+        "transformation": "generate_crm_link(client_id)"
+      },
+      "crm_id": {
+        "source": "client_id",
+        "transformation": "direct_map"
+      },
+      "dropbox_path": {
+        "source": "generated",
+        "transformation": "generate_dropbox_path(company_name, entity_type)"
+      }
+    },
+    "metadata": {
+      "schema_version": {
+        "source": "constant",
+        "value": "1.0.0"
+      },
+      "tags": {
+        "source": "derived",
+        "transformation": "derive_tags(record)"
+      },
+      "created_at": {
+        "source": "generated",
+        "transformation": "current_timestamp()"
+      },
+      "updated_at": {
+        "source": "generated",
+        "transformation": "current_timestamp()"
+      },
+      "source_file": {
+        "source": "tracking",
+        "transformation": "record_source_file()"
+      },
+      "import_batch": {
+        "source": "constant",
+        "value": "2025-11-22_Sales_Import"
+      },
+      "data_quality_score": {
+        "source": "calculated",
+        "transformation": "calculate_quality_score(record)"
+      }
+    }
+  },
+  "transformation_functions": {
+    "normalize_company_name": {
+      "description": "Clean and normalize company name",
+      "input": "string",
+      "output": "string",
+      "logic": [
+        "Trim whitespace",
+        "Remove special characters (except spaces, hyphens, apostrophes)",
+        "Title case each word",
+        "Handle common abbreviations (LLC, Inc, Ltd)"
+      ],
+      "example": "\"ACME Corp. \" → \"Acme Corp\""
+    },
+    "generate_company_id": {
+      "description": "Generate unique company ID",
+      "input": "none",
+      "output": "string",
+      "logic": [
+        "Format: BUS-YYYY-###",
+        "YYYY = current year (2025)",
+        "### = sequential 3-digit number",
+        "Check uniqueness in registry"
+      ],
+      "example": "→ \"BUS-2025-001\""
+    },
+    "generate_poc_id": {
+      "description": "Generate unique POC ID",
+      "input": "none",
+      "output": "string",
+      "logic": [
+        "Format: POC-###",
+        "### = sequential 3-digit number",
+        "Check uniqueness in registry"
+      ],
+      "example": "→ \"POC-001\""
+    },
+    "normalize_email": {
+      "description": "Validate and normalize email address",
+      "input": "string",
+      "output": "string",
+      "logic": [
+        "Convert to lowercase",
+        "Trim whitespace",
+        "Validate format (basic regex)",
+        "Return null if invalid"
+      ],
+      "example": "\"John.Doe@Example.COM \" → \"john.doe@example.com\""
+    },
+    "clean_url": {
+      "description": "Clean and validate URL",
+      "input": "string",
+      "output": "string",
+      "logic": [
+        "Trim whitespace",
+        "Add https:// if no protocol",
+        "Remove trailing slashes",
+        "Validate basic URL format"
+      ],
+      "example": "\"linkedin.com/company/acme\" → \"https://linkedin.com/company/acme\""
+    },
+    "classify_entity_type": {
+      "description": "Classify as Client/Prospect/Ex_Client",
+      "input": "record object",
+      "output": "string",
+      "logic": [
+        "Check for job_requests → Client",
+        "Check lead_status.type == 'Client' → Client",
+        "Check notes for 'hired' → Client",
+        "Check notes for 'stopped' → Ex_Client",
+        "Default → Prospect"
+      ],
+      "example": "record with job_requests → \"Client\""
+    },
+    "derive_tags": {
+      "description": "Extract tags from record data",
+      "input": "record object",
+      "output": "array of strings",
+      "logic": [
+        "Scan notes for keywords: 'urgent', 'hired', 'lead gen', 'dev', 'ai'",
+        "Add industry as tag",
+        "Add entity_type as tag",
+        "Add lead_status.type as tag"
+      ],
+      "example": "notes: 'urgent dev needs' → ['urgent', 'development', 'active_prospect']"
+    },
+    "calculate_quality_score": {
+      "description": "Calculate data completeness score",
+      "input": "record object",
+      "output": "integer (0-100)",
+      "logic": [
+        "Count total fields in schema",
+        "Count non-null fields in record",
+        "Score = (filled / total) * 100"
+      ],
+      "example": "15/20 fields filled → 75"
+    },
+    "extract_locations": {
+      "description": "Extract company locations from city data",
+      "input": "lead_company_city object",
+      "output": "array of location objects",
+      "logic": [
+        "Map city_id, city_name from lead_company_city",
+        "Map country_id, country_name from city.country",
+        "Set is_primary = true for main location"
+      ],
+      "example": "city object → [{city_id: 123, city_name: 'NYC', country_id: 1, is_primary: true}]"
+    },
+    "extract_industries": {
+      "description": "Extract industries and sub-industries",
+      "input": "lead_company_industry, sub_industries array",
+      "output": "array of industry objects",
+      "logic": [
+        "Map industry_id, industry_name from lead_company_industry",
+        "Iterate sub_industries array",
+        "Map sub_industry_id, sub_industry_name for each",
+        "Return combined array"
+      ],
+      "example": "industry + 2 sub_industries → [{industry_id: 20, industry_name: 'Finance', sub_industry_id: 114, sub_industry_name: 'Financial Services'}]"
+    },
+    "parse_iso_date": {
+      "description": "Parse date to ISO 8601 format",
+      "input": "string (various formats)",
+      "output": "string (ISO 8601)",
+      "logic": [
+        "Try parsing common formats: YYYY-MM-DD, MM/DD/YYYY, DD.MM.YYYY",
+        "Add T00:00:00Z for dates without time",
+        "Return null if unparseable"
+      ],
+      "example": "\"2025-11-22\" → \"2025-11-22T00:00:00Z\""
+    }
+  },
+  "unmapped_fields": [
+    "company_id",
+    "user_id",
+    "countries_id",
+    "size_id",
+    "account_id",
+    "industry_id",
+    "email_notifications",
+    "lead_status_id",
+    "type_id",
+    "placement_id",
+    "verified",
+    "lg_manager_id",
+    "status_id",
+    "image_url",
+    "user",
+    "user.id",
+    "user.name",
+    "user.email",
+    "user.image_url",
+    "project_companies",
+    "project_companies[].id",
+    "project_companies[].company_id",
+    "project_companies[].name",
+    "project_companies[].short_name",
+    "project_companies[].updated_at",
+    "project_companies[].pivot",
+    "project_companies[].pivot.client_details_id",
+    "project_companies[].pivot.project_id",
+    "lead_account",
+    "lead_account.id",
+    "lead_account.company_id",
+    "lead_account.project_company_id",
+    "lead_account.name",
+    "lead_account.link",
+    "lead_account.connections",
+    "lead_account.premium",
+    "lead_account.linked_login",
+    "lead_account.linked_password",
+    "lead_account.email_login",
+    "lead_account.email_password",
+    "lead_account.passport_link",
+    "lead_account.created_date",
+    "lead_account.agent_id",
+    "lead_account.status_id",
+    "lead_account.country_id",
+    "lead_account.source_id",
+    "lead_account.placement_id",
+    "lead_account.is_approved_manager",
+    "lead_account.created_at",
+    "lead_account.updated_at"
+  ],
+  "sample_crm_record": {
+    "id": 7079,
+    "company_name": "AICO Solutions",
+    "name": "Thomas Howlett"
+  }
+}

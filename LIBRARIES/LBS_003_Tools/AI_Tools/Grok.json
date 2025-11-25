@@ -1,0 +1,78 @@
+{
+  "entity_type": "LIBRARIES",
+  "sub_entity": "Tool",
+  "tool_id": "TOOL-AI-043",
+  "name": "Grok",
+  "vendor": "xAI",
+  "category": "AI/LLM Services",
+  "purpose": "AI chatbot with real-time information access via X (Twitter)",
+  "description": "AI chatbot developed by xAI (Elon Musk's company) with real-time access to X (Twitter) platform. Designed for conversational AI, research assistance, and information synthesis with up-to-date data.",
+  "skill_level_required": "Beginner",
+  "cost_structure": "Subscription-based (X Premium required, $16/month or $168/year)",
+  "platform_compatibility": [
+    "Web",
+    "Mobile",
+    "X (Twitter) integration"
+  ],
+  "integration_capabilities": [
+    "X (Twitter) integration",
+    "Real-time information access",
+    "API access (planned)",
+    "Conversational interface"
+  ],
+  "documentation_url": "https://grok.com/",
+  "actual_remote_helpers_usage": {
+    "primary_use": "AI Chatbot with Real-Time Information",
+    "users": [],
+    "use_cases": [
+      "build conversational ai",
+      "assist research",
+      "access realtime info",
+      "generate content",
+      "analyze social insights"
+    ],
+    "workflows": []
+  },
+  "strengths": [
+    "Real-time X (Twitter) access",
+    "Up-to-date information",
+    "Conversational interface",
+    "Uncensored responses",
+    "Integration with X platform"
+  ],
+  "limitations": [
+    "Requires X Premium subscription",
+    "Limited to X platform data",
+    "Newer platform with fewer features",
+    "May have accuracy issues"
+  ],
+  "departments_using": [],
+  "finance_data": {
+    "subscription_status": "unpaid",
+    "total_accounts": 1,
+    "paid_accounts": 0,
+    "unpaid_accounts": 1,
+    "latest_valid_until": "2025-10-26",
+    "accounts": [
+      {
+        "email": "admin@rh-s.com",
+        "status": "not paid",
+        "paid_date": "2025-09-26",
+        "valid_until": "2025-10-26",
+        "department": ""
+      }
+    ],
+    "departments_using": []
+  },
+  "tags": [
+    "chatbot",
+    "llm",
+    "real-time",
+    "twitter",
+    "conversational-ai",
+    "research"
+  ],
+  "discovery_date": "2025-01-27",
+  "discovery_source": "user_provided",
+  "status": "discovered_needs_review"
+}

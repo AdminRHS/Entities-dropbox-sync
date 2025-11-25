@@ -1,0 +1,560 @@
+{
+  "entity_type": "TASK_MANAGERS",
+  "sub_entity": "Task_Template",
+  "template_id": "Task-Template-002",
+  "task_name": "Enrich Company Employees via Airscale",
+  "action": "Enrich",
+  "object": "Company Employees",
+  "context": "via Airscale database lookup",
+  "description": "Unlock company employee lists from Airscale database and enrich with emails (50-80% success rate, 15-20 minutes execution, great for enterprise targeting)",
+  "department": "LG",
+  "profession": "Lead Generator",
+  "priority": "High",
+  "estimated_duration": "15-20 minutes",
+  "status": "Active",
+  "complexity": "Medium",
+  "automation_potential": "High (60-80%)",
+  "success_rate": "50-80%",
+  "cost_structure": "Credit-based (1 credit per company unlock)",
+  "best_for": "Enterprise employee discovery + email enrichment",
+  "dependencies": [
+    "Airscale account with credits",
+    "Anymailfinder account for email enrichment",
+    "Target company list prepared"
+  ],
+  "tools_required": [
+    "TOOL-DATA-008 (Airscale)",
+    "TOOL-DATA-007 (Anymailfinder)"
+  ],
+  "skills_required": [
+    "SKL-061 (enriched emails via Anymailfinder)"
+  ],
+  "objects_used": [
+    "OBJ-LG-001 (Lead List)",
+    "OBJ-LG-002 (Company Domain)",
+    "OBJ-LG-003 (Decision-Maker Email)",
+    "OBJ-LG-005 (Enriched Contact)"
+  ],
+  "workflow_reference": "WF-LG-002",
+  "success_criteria": [
+    "Target companies found in Airscale database",
+    "Employee lists unlocked successfully",
+    "50-80% email enrichment achieved",
+    "All enriched contacts exported to CSV",
+    "Campaign metrics logged"
+  ],
+  "responsibilities": {
+    "responsible": "Lead Generator",
+    "accountable": "Lead Generation Manager",
+    "consulted": [
+      "Sales Team"
+    ],
+    "informed": [
+      "SDR Team"
+    ]
+  },
+  "steps": [
+    {
+      "step_number": 1,
+      "name": "Prepare target company list",
+      "action": "prepare",
+      "tool": "Excel/Google Sheets",
+      "responsibility": "Lead Generator",
+      "placement": "Company research spreadsheet",
+      "duration": "3-5 minutes",
+      "dependencies": [],
+      "inputs": [
+        "Company names or domains to research"
+      ],
+      "outputs": [
+        "List of 5-10 target companies"
+      ],
+      "success_criteria": "Company list ready with names or domains",
+      "responsibility_id": "RESP-LG-014",
+      "responsibility_name": "prepare target company list",
+      "_original_action": "prepare"
+    },
+    {
+      "step_number": 2,
+      "name": "Search companies in Airscale database",
+      "action": "search",
+      "tool": "TOOL-DATA-008 (Airscale)",
+      "responsibility": "Lead Generator",
+      "placement": "Airscale platform - Company search",
+      "duration": "2 minutes per company",
+      "dependencies": [
+        "Step 1"
+      ],
+      "inputs": [
+        "Company name or domain"
+      ],
+      "outputs": [
+        "Company profile with employee count preview"
+      ],
+      "success_criteria": "Companies found in Airscale with employee data available",
+      "responsibility_id": "RESP-LG-007",
+      "responsibility_name": "search data",
+      "_original_action": "search"
+    },
+    {
+      "step_number": 3,
+      "name": "Review employee count and preview data",
+      "action": "review",
+      "tool": "TOOL-DATA-008 (Airscale)",
+      "responsibility": "Lead Generator",
+      "placement": "Airscale - Company profile preview",
+      "duration": "1 minute per company",
+      "dependencies": [
+        "Step 2"
+      ],
+      "inputs": [
+        "Company profile preview"
+      ],
+      "outputs": [
+        "Decision to unlock or skip company"
+      ],
+      "success_criteria": "Confirmed company has sufficient employees (20+ recommended)",
+      "responsibility_id": "RESP-LG-015",
+      "responsibility_name": "review data",
+      "_original_action": "review"
+    },
+    {
+      "step_number": 4,
+      "name": "Unlock employee list with Airscale credit",
+      "action": "unlock",
+      "tool": "TOOL-DATA-008 (Airscale)",
+      "responsibility": "Lead Generator",
+      "placement": "Airscale - Company profile",
+      "duration": "1 minute per company",
+      "dependencies": [
+        "Step 3"
+      ],
+      "inputs": [
+        "1 Airscale credit per company"
+      ],
+      "outputs": [
+        "Employee list: names, titles, company domain"
+      ],
+      "success_criteria": "20-50 employees unlocked per company",
+      "responsibility_id": "RESP-LG-016",
+      "responsibility_name": "unlock unlock employee list",
+      "_original_action": "unlock"
+    },
+    {
+      "step_number": 5,
+      "name": "Export employee data from Airscale",
+      "action": "export",
+      "tool": "TOOL-DATA-008 (Airscale)",
+      "responsibility": "Lead Generator",
+      "placement": "Airscale - Export function",
+      "duration": "1 minute",
+      "dependencies": [
+        "Step 4"
+      ],
+      "inputs": [
+        "Unlocked employee lists"
+      ],
+      "outputs": [
+        "CSV: employee_name, title, company_name, domain"
+      ],
+      "success_criteria": "All employees exported successfully",
+      "responsibility_id": "RESP-LG-008",
+      "responsibility_name": "export data",
+      "_original_action": "export"
+    },
+    {
+      "step_number": 6,
+      "name": "Upload employees to Anymailfinder for enrichment",
+      "action": "upload",
+      "tool": "TOOL-DATA-007 (Anymailfinder)",
+      "responsibility": "Lead Generator",
+      "placement": "Anymailfinder - Upload",
+      "duration": "2 minutes",
+      "dependencies": [
+        "Step 5"
+      ],
+      "inputs": [
+        "CSV with employee names, titles, domains"
+      ],
+      "outputs": [
+        "Upload confirmation"
+      ],
+      "success_criteria": "All employees uploaded for enrichment",
+      "responsibility_id": "RESP-LG-017",
+      "responsibility_name": "upload employees",
+      "_original_action": "upload"
+    },
+    {
+      "step_number": 7,
+      "name": "Run nominative email enrichment",
+      "action": "enrich",
+      "tool": "TOOL-DATA-007 (Anymailfinder)",
+      "responsibility": "Lead Generator",
+      "placement": "Anymailfinder - Processing",
+      "duration": "5-8 minutes (automated)",
+      "dependencies": [
+        "Step 6"
+      ],
+      "inputs": [
+        "Employee names, titles, company domains"
+      ],
+      "outputs": [
+        "Enriched emails (50-80% success rate)"
+      ],
+      "success_criteria": "50-80% of employees have valid emails found",
+      "responsibility_id": "RESP-LG-001",
+      "responsibility_name": "enrich emails",
+      "_original_action": "enrich"
+    },
+    {
+      "step_number": 8,
+      "name": "Export final enriched contact list",
+      "action": "export",
+      "tool": "TOOL-DATA-007 (Anymailfinder)",
+      "responsibility": "Lead Generator",
+      "placement": "Anymailfinder - Export",
+      "duration": "1-2 minutes",
+      "dependencies": [
+        "Step 7"
+      ],
+      "inputs": [
+        "Enriched employee data"
+      ],
+      "outputs": [
+        "CSV: name, title, company, email, domain"
+      ],
+      "success_criteria": "All enriched contacts exported with complete details",
+      "responsibility_id": "RESP-LG-009",
+      "responsibility_name": "export contacts",
+      "_original_action": "export"
+    }
+  ],
+  "checklist": [
+    {
+      "item": "Companies have 20+ employees before unlocking",
+      "guide": "Check preview to ensure ROI on credit spent",
+      "required": true
+    },
+    {
+      "item": "Airscale credits available for target companies",
+      "guide": "1 credit per company unlock",
+      "required": true
+    },
+    {
+      "item": "Employee data includes names and titles",
+      "guide": "Needed for successful Anymailfinder enrichment",
+      "required": true
+    },
+    {
+      "item": "50-80% enrichment rate achieved",
+      "guide": "Success rate should be in this range for good sources",
+      "required": true
+    },
+    {
+      "item": "Campaign metrics logged",
+      "guide": "Track credits spent, employees found, emails enriched",
+      "required": true
+    }
+  ],
+  "performance_metrics": {
+    "typical_volume": "20-50 employees per company",
+    "success_rate": "50-80% enrichment",
+    "time_per_company": "15-20 minutes",
+    "cost": "1 Airscale credit + $0.0025/email (Anymailfinder)",
+    "companies_per_hour": "3-4 companies"
+  },
+  "best_practices": [
+    "Good balance of speed and quality (50-80% enrichment)",
+    "Preview employee count before spending credit",
+    "Target companies with 20+ employees minimum",
+    "Excellent for enterprise employee discovery",
+    "Combine with Anymailfinder for complete workflow",
+    "Works great for multi-contact account-based marketing"
+  ],
+  "use_cases": [
+    {
+      "scenario": "Enterprise account targeting",
+      "approach": "Unlock 5-10 key accounts, enrich all employees",
+      "result": "100-300 contacts across target accounts",
+      "value": "Multi-threaded account penetration"
+    },
+    {
+      "scenario": "Decision-maker mapping",
+      "approach": "Identify C-level and VP titles in target companies",
+      "result": "Executive contact lists for ABM campaigns",
+      "value": "Direct access to decision-makers"
+    },
+    {
+      "scenario": "Sales intelligence",
+      "approach": "Research company org structure before outreach",
+      "result": "Complete employee directory with contacts",
+      "value": "Better targeting and messaging"
+    }
+  ],
+  "when_to_use": [
+    "Targeting enterprise accounts with multiple contacts needed",
+    "Building account-based marketing (ABM) lists",
+    "Need to map company organizational structure",
+    "Want 50-80% enrichment success rate",
+    "Have Airscale credits available"
+  ],
+  "when_not_to_use": [
+    "Targeting small companies (<20 employees) - low ROI",
+    "Need highest enrichment rate (use LinkedIn Sales Navigator instead)",
+    "Budget very limited (LinkedIn method may be more cost-effective)",
+    "Only need 1-2 contacts per company (use direct enrichment)"
+  ],
+  "cost_comparison": {
+    "airscale_method": "1 credit → 30-50 employees → 15-40 emails (this method)",
+    "linkedin_sales_nav": "$0.10-0.15 per lead (higher success rate 80-100%)",
+    "direct_anymailfinder": "$0.0025 per email attempt (need domain list first)",
+    "best_for": "Multi-contact enterprise targeting, ABM campaigns"
+  },
+  "common_issues": [
+    {
+      "issue": "Low enrichment rate (<40%)",
+      "solution": "Check employee data quality from Airscale, verify domains are accurate"
+    },
+    {
+      "issue": "Company not found in Airscale",
+      "solution": "Try alternative company names, check spelling, or use different source"
+    },
+    {
+      "issue": "Few employees returned after unlock",
+      "solution": "Some companies have limited data in Airscale, check preview first"
+    },
+    {
+      "issue": "Anymailfinder can't find emails for employees",
+      "solution": "Company may use non-standard email patterns, try manual research"
+    }
+  ],
+  "airscale_database_notes": {
+    "coverage": "Strong coverage of US and European companies",
+    "data_quality": "Generally good for mid-size to enterprise companies",
+    "employee_counts": "Typically 20-500 employees per company unlock",
+    "update_frequency": "Database updated regularly but not real-time",
+    "best_regions": "North America, Western Europe"
+  },
+  "tags": [
+    "lead_generation",
+    "employee_discovery",
+    "airscale",
+    "enrichment",
+    "enterprise",
+    "abm"
+  ],
+  "related_workflows": [
+    "WF-LG-002",
+    "WF-LG-004"
+  ],
+  "related_skills": [
+    "SKL-061"
+  ],
+  "related_professions": [
+    "Lead Generator",
+    "SDR",
+    "Account Executive""responsibility_name": "export data",
+    "_original_action": "export"
+  },
+  {
+    "step_number": 6,
+    "name": "Upload employees to Anymailfinder for enrichment",
+    "action": "upload",
+    "tool": "TOOL-DATA-007 (Anymailfinder)",
+    "responsibility": "Lead Generator",
+    "placement": "Anymailfinder - Upload",
+    "duration": "2 minutes",
+    "dependencies": [
+      "Step 5"
+    ],
+    "inputs": [
+      "CSV with employee names, titles, domains"
+    ],
+    "outputs": [
+      "Upload confirmation"
+    ],
+    "success_criteria": "All employees uploaded for enrichment",
+    "responsibility_id": "RESP-LG-017",
+    "responsibility_name": "upload employees",
+    "_original_action": "upload"
+  },
+  {
+    "step_number": 7,
+    "name": "Run nominative email enrichment",
+    "action": "enrich",
+    "tool": "TOOL-DATA-007 (Anymailfinder)",
+    "responsibility": "Lead Generator",
+    "placement": "Anymailfinder - Processing",
+    "duration": "5-8 minutes (automated)",
+    "dependencies": [
+      "Step 6"
+    ],
+    "inputs": [
+      "Employee names, titles, company domains"
+    ],
+    "outputs": [
+      "Enriched emails (50-80% success rate)"
+    ],
+    "success_criteria": "50-80% of employees have valid emails found",
+    "responsibility_id": "RESP-LG-001",
+    "responsibility_name": "enrich emails",
+    "_original_action": "enrich"
+  },
+  {
+    "step_number": 8,
+    "name": "Export final enriched contact list",
+    "action": "export",
+    "tool": "TOOL-DATA-007 (Anymailfinder)",
+    "responsibility": "Lead Generator",
+    "placement": "Anymailfinder - Export",
+    "duration": "1-2 minutes",
+    "dependencies": [
+      "Step 7"
+    ],
+    "inputs": [
+      "Enriched employee data"
+    ],
+    "outputs": [
+      "CSV: name, title, company, email, domain"
+    ],
+    "success_criteria": "All enriched contacts exported with complete details",
+    "responsibility_id": "RESP-LG-009",
+    "responsibility_name": "export contacts",
+    "_original_action": "export"
+  }
+],
+"checklist": [
+  {
+    "item": "Companies have 20+ employees before unlocking",
+    "guide": "Check preview to ensure ROI on credit spent",
+    "required": true
+  },
+  {
+    "item": "Airscale credits available for target companies",
+    "guide": "1 credit per company unlock",
+    "required": true
+  },
+  {
+    "item": "Employee data includes names and titles",
+    "guide": "Needed for successful Anymailfinder enrichment",
+    "required": true
+  },
+  {
+    "item": "50-80% enrichment rate achieved",
+    "guide": "Success rate should be in this range for good sources",
+    "required": true
+  },
+  {
+    "item": "Campaign metrics logged",
+    "guide": "Track credits spent, employees found, emails enriched",
+    "required": true
+  }
+],
+"performance_metrics": {
+  "typical_volume": "20-50 employees per company",
+  "success_rate": "50-80% enrichment",
+  "time_per_company": "15-20 minutes",
+  "cost": "1 Airscale credit + $0.0025/email (Anymailfinder)",
+  "companies_per_hour": "3-4 companies"
+},
+"best_practices": [
+  "Good balance of speed and quality (50-80% enrichment)",
+  "Preview employee count before spending credit",
+  "Target companies with 20+ employees minimum",
+  "Excellent for enterprise employee discovery",
+  "Combine with Anymailfinder for complete workflow",
+  "Works great for multi-contact account-based marketing"
+],
+"use_cases": [
+  {
+    "scenario": "Enterprise account targeting",
+    "approach": "Unlock 5-10 key accounts, enrich all employees",
+    "result": "100-300 contacts across target accounts",
+    "value": "Multi-threaded account penetration"
+  },
+  {
+    "scenario": "Decision-maker mapping",
+    "approach": "Identify C-level and VP titles in target companies",
+    "result": "Executive contact lists for ABM campaigns",
+    "value": "Direct access to decision-makers"
+  },
+  {
+    "scenario": "Sales intelligence",
+    "approach": "Research company org structure before outreach",
+    "result": "Complete employee directory with contacts",
+    "value": "Better targeting and messaging"
+  }
+],
+"when_to_use": [
+  "Targeting enterprise accounts with multiple contacts needed",
+  "Building account-based marketing (ABM) lists",
+  "Need to map company organizational structure",
+  "Want 50-80% enrichment success rate",
+  "Have Airscale credits available"
+],
+"when_not_to_use": [
+  "Targeting small companies (<20 employees) - low ROI",
+  "Need highest enrichment rate (use LinkedIn Sales Navigator instead)",
+  "Budget very limited (LinkedIn method may be more cost-effective)",
+  "Only need 1-2 contacts per company (use direct enrichment)"
+],
+"cost_comparison": {
+  "airscale_method": "1 credit → 30-50 employees → 15-40 emails (this method)",
+  "linkedin_sales_nav": "$0.10-0.15 per lead (higher success rate 80-100%)",
+  "direct_anymailfinder": "$0.0025 per email attempt (need domain list first)",
+  "best_for": "Multi-contact enterprise targeting, ABM campaigns"
+},
+"common_issues": [
+  {
+    "issue": "Low enrichment rate (<40%)",
+    "solution": "Check employee data quality from Airscale, verify domains are accurate"
+  },
+  {
+    "issue": "Company not found in Airscale",
+    "solution": "Try alternative company names, check spelling, or use different source"
+  },
+  {
+    "issue": "Few employees returned after unlock",
+    "solution": "Some companies have limited data in Airscale, check preview first"
+  },
+  {
+    "issue": "Anymailfinder can't find emails for employees",
+    "solution": "Company may use non-standard email patterns, try manual research"
+  }
+],
+"airscale_database_notes": {
+  "coverage": "Strong coverage of US and European companies",
+  "data_quality": "Generally good for mid-size to enterprise companies",
+  "employee_counts": "Typically 20-500 employees per company unlock",
+  "update_frequency": "Database updated regularly but not real-time",
+  "best_regions": "North America, Western Europe"
+},
+"tags": [
+  "lead_generation",
+  "employee_discovery",
+  "airscale",
+  "enrichment",
+  "enterprise",
+  "abm"
+],
+"related_workflows": [
+  "WF-LG-002",
+  "WF-LG-004"
+],
+"related_skills": [
+  "SKL-061"
+],
+"related_professions": [
+  "Lead Generator",
+  "SDR",
+  "Account Executive"
+],
+"version": "1.0",
+"created": "2025-11-12",
+"last_updated": "2025-11-12",
+"source": "Video_006_Lead_Generation_Analysis",
+"responsibility_id": "TST-002",
+"responsibility_name": "enrich company employees",
+"_original_action": "Enrich",
+"_original_object": "Company Employees"
+}

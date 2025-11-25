@@ -1,0 +1,11 @@
+Folder_ID,Folder_Name,Display_Name,Entity_Type,Description,Old_Path,New_Path,Status,ISO_Code,File_Count,Subfolders
+LBS_001,Responsibilities/Actions,Actions,Actions,Standardized action verbs for task naming,LIBRARIES/Responsibilities/Actions/,LIBRARIES/Responsibilities/Actions/,Proposed,ACT,429,"Master, By_Domain, Data_Operations, Archive"
+LBS_002,Responsibilities/Objects,Objects,Objects,Business objects and deliverables,LIBRARIES/Responsibilities/Objects/,LIBRARIES/Responsibilities/Objects/,Proposed,OBJ,110,"Master, By_Domain, Metadata"
+LBS_003,LBS_003_Tools,Tools,Tools,Software platforms and services,LIBRARIES/LBS_003_Tools/,LIBRARIES/LBS_003_Tools/,Proposed,TOL,164,"Master, By_Category, Root_Files"
+LBS_004,../TALENTS/Skills,Skills,Skills,Responsibility + Tool combinations,TALENTS/Skills/,TALENTS/Skills/,Migrated,SKL,29,"Master, By_Department, By_Profession, By_Difficulty, By_Tool, Mappings, Templates"
+LBS_005,LBS_005_Professions,Professions,Professions,Job roles and profession definitions,LIBRARIES/LBS_005_Professions/,LIBRARIES/LBS_005_Professions/,Proposed,PRF,17,"Master, Individual"
+LBS_006,LBS_006_Departments,Departments,Departments,Organizational units,LIBRARIES/LBS_006_Departments/,LIBRARIES/LBS_006_Departments/,Proposed,DPT,9,"Master, By_Department"
+LBS_007,Responsibilities/Parameters,Parameters,Parameters,Configuration parameters,LIBRARIES/Responsibilities/Parameters/,LIBRARIES/Responsibilities/Parameters/,Proposed,PRM,200,"Master, By_Profession, By_Department"
+LBS_008,Taxonomy,Taxonomy,Taxonomy,Documentation and master lists,LIBRARIES/Taxonomy/,LIBRARIES/Taxonomy/,Proposed,TAX,10,"Master_Lists, Documentation, Scripts, Migrations"
+LBS_009,Archive,Archive,Archive,Archived and legacy files,LIBRARIES/Archive/,LIBRARIES/Archive/,Proposed,ARC,0,"Legacy_Root_Files, Backups, Deprecated, Old_Structure"
+

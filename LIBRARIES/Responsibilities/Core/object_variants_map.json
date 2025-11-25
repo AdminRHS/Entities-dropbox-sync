@@ -1,0 +1,583 @@
+{
+  "actions, processes, professions libraries": [
+    "actions, processes, professions libraries"
+  ],
+  "add connector": [
+    "add connector to claude desktop settings"
+  ],
+  "add new action verbs": [
+    "add new action verbs to appropriate category"
+  ],
+  "add profession and use case mappings": [
+    "add profession and use case mappings"
+  ],
+  "ai platforms": [
+    "ai platforms"
+  ],
+  "analyze context and sender relationship": [
+    "analyze context and sender relationship"
+  ],
+  "analyze http requests using browser devtools": [
+    "analyze http requests using browser devtools"
+  ],
+  "analyze subscriber questions and requests": [
+    "analyze subscriber questions and requests"
+  ],
+  "and validate results": [
+    "export and validate results"
+  ],
+  "apify google maps scraper": [
+    "configure apify google maps scraper"
+  ],
+  "apify google serp scraper": [
+    "configure apify google serp scraper"
+  ],
+  "apify instagram scraper": [
+    "configure apify instagram scraper"
+  ],
+  "apify linkedin jobs scraper": [
+    "configure apify linkedin jobs scraper"
+  ],
+  "ask cursor": [
+    "ask cursor to explain setup steps"
+  ],
+  "assign priority rankings": [
+    "assign priority rankings to new entities"
+  ],
+  "assign tags and categories": [
+    "assign tags and categories"
+  ],
+  "calculate and log roi": [
+    "calculate and log roi"
+  ],
+  "channels": [
+    "add creator attribution and channel url",
+    "gather channel metrics for new creators",
+    "update youtube_channels.json with channel-specific data"
+  ],
+  "check": [
+    "check for new action verbs not in actions library",
+    "check for workflows/processes patterns"
+  ],
+  "claude skills": [
+    "claude skills"
+  ],
+  "collect metrics": [
+    "collect metrics from all taxonomy phases"
+  ],
+  "companies": [
+    "upload companies to anymailfinder for enrichment"
+  ],
+  "company employees": [
+    "company employees"
+  ],
+  "contacts": [
+    "export enriched contact list",
+    "export final enriched contact list",
+    "extract contact information from bios",
+    "review enriched contacts"
+  ],
+  "copy code": [
+    "copy code to local directory"
+  ],
+  "copy generated connector code": [
+    "copy generated connector code to local directory"
+  ],
+  "copy research_template.json": [
+    "copy research_template.json to new session file"
+  ],
+  "creators": [
+    "check if creators already exist in database",
+    "create full influencer profiles for new creators",
+    "define influencer search criteria",
+    "export influencer list with metrics",
+    "extract unique creators from research session",
+    "influencer profiles"
+  ],
+  "crm": [
+    "update crm with meeting notes and client wins"
+  ],
+  "custom scraper": [
+    "custom scraper"
+  ],
+  "data": [
+    "build data cleaning and structuring logic",
+    "build data parsing and cleaning logic",
+    "create tool json files with complete metadata",
+    "export and clean business listing data",
+    "export employee data from airscale",
+    "extract all objects (deliverables, data types, concepts)",
+    "format transcript with timestamps and metadata",
+    "html data",
+    "identify target website with unstructured data",
+    "notion ats database",
+    "review employee count and preview data",
+    "search companies in airscale database",
+    "search company in airscale database",
+    "test scraper on sample data"
+  ],
+  "define evaluation objectives and metrics": [
+    "define evaluation objectives and metrics"
+  ],
+  "define google search query": [
+    "define google search query"
+  ],
+  "define job search criteria indicating intent": [
+    "define job search criteria indicating intent"
+  ],
+  "define target location and business category": [
+    "define target location and business category"
+  ],
+  "design n8n workflow": [
+    "design n8n workflow for ai parsing"
+  ],
+  "design n8n workflow architecture": [
+    "design n8n workflow architecture"
+  ],
+  "determine appropriate objects category file": [
+    "determine appropriate objects category file"
+  ],
+  "determine next obj-{dept}-xxx ids": [
+    "determine next obj-{dept}-xxx ids"
+  ],
+  "determine next tool-ai-xxx id number": [
+    "determine next tool-ai-xxx id number"
+  ],
+  "determine next wf-{dept}-xxx ids": [
+    "determine next wf-{dept}-xxx ids"
+  ],
+  "development tools": [
+    "development tools"
+  ],
+  "document evaluation system and establish baseline": [
+    "document evaluation system and establish baseline"
+  ],
+  "document gap analysis": [
+    "document gap analysis with recommendations"
+  ],
+  "document scraper": [
+    "document scraper for future use"
+  ],
+  "document session summary and save research file": [
+    "document session summary and save research file"
+  ],
+  "document use cases and skill requirements": [
+    "document use cases and skill requirements"
+  ],
+  "domains": [
+    "export and clean domain list",
+    "prepare company domain list",
+    "prepare domain list",
+    "research company domains",
+    "upload domain list to anymailfinder",
+    "upload domain list to bright data",
+    "upload domains to anymailfinder"
+  ],
+  "draft appropriate responses": [
+    "draft appropriate responses"
+  ],
+  "drafts": [
+    "review drafts in gmail"
+  ],
+  "emails": [
+    "draft follow-up emails for each attendee",
+    "email arbitrage",
+    "email drafts",
+    "email list",
+    "follow-up email",
+    "identify newsletter subscriber emails in inbox",
+    "launch email campaign (optional)",
+    "prompt claude to check unread emails",
+    "prompt claude to read newsletter subscriber emails",
+    "read unread emails via gmail connector",
+    "review email drafts and crm updates",
+    "run email enrichment",
+    "run nominative email enrichment",
+    "send approved follow-up emails"
+  ],
+  "employee list": [
+    "export employee list from airscale",
+    "upload employee list to anymailfinder"
+  ],
+  "employees": [
+    "upload employees to anymailfinder for enrichment"
+  ],
+  "enable mcp-builder skill": [
+    "enable mcp-builder skill in claude desktop"
+  ],
+  "enable skills feature toggle": [
+    "enable skills feature toggle"
+  ],
+  "enriched results": [
+    "export enriched results"
+  ],
+  "enrichment settings": [
+    "configure enrichment settings"
+  ],
+  "entity relationships": [
+    "entity relationships"
+  ],
+  "evaluation system": [
+    "evaluation system"
+  ],
+  "execute perplexity searches and collect results": [
+    "execute perplexity searches and collect results"
+  ],
+  "extract all actions and processes (verbs, workflows)": [
+    "extract all actions and processes (verbs, workflows)"
+  ],
+  "extract all tools mentioned (primary focus)": [
+    "extract all tools mentioned (primary focus)"
+  ],
+  "extract and deduplicate company list": [
+    "extract and deduplicate company list"
+  ],
+  "extract li_at cookie": [
+    "extract li_at cookie from browser"
+  ],
+  "extract meeting insights": [
+    "extract meeting insights via claude"
+  ],
+  "formulate search queries": [
+    "formulate search queries for this research cycle"
+  ],
+  "gemini ai parameters": [
+    "gemini ai parameters"
+  ],
+  "generate library mapping report": [
+    "generate library mapping report from template"
+  ],
+  "generate personalized reply drafts": [
+    "generate personalized reply drafts"
+  ],
+  "generated connector code": [
+    "review generated connector code"
+  ],
+  "html input node": [
+    "build html input node in n8n"
+  ],
+  "http request nodes": [
+    "build http request nodes in n8n"
+  ],
+  "identify and research target niche platform": [
+    "identify and research target niche platform"
+  ],
+  "identify next research cycle priorities": [
+    "identify next research cycle priorities"
+  ],
+  "identify per-example ground truth requirements": [
+    "identify per-example ground truth requirements"
+  ],
+  "identify professions and use cases": [
+    "identify professions and use cases"
+  ],
+  "identify target enterprise companies": [
+    "identify target enterprise companies"
+  ],
+  "identify universal standard requirements": [
+    "identify universal standard requirements"
+  ],
+  "implement evaluation runner and metrics tracking": [
+    "implement evaluation runner and metrics tracking"
+  ],
+  "initial quality check and completeness review": [
+    "initial quality check and completeness review"
+  ],
+  "install dependencies": [
+    "install dependencies"
+  ],
+  "interview scheduling automation": [
+    "interview scheduling automation"
+  ],
+  "job posting": [
+    "job posting",
+    "job ad",
+    "job listing",
+    "vacancy",
+    "position opening"
+  ],
+  "leads": [
+    "enrich leads with emails via anymailfinder",
+    "export enriched lead list",
+    "export final enriched lead list",
+    "export final local business lead list",
+    "lead list",
+    "linkedin leads",
+    "local business leads"
+  ],
+  "library mapping reports": [
+    "library mapping reports"
+  ],
+  "linkedin automation": [
+    "linkedin automation"
+  ],
+  "linkedin job postings": [
+    "linkedin job postings"
+  ],
+  "locate skills section": [
+    "locate skills section in settings"
+  ],
+  "log campaign metrics": [
+    "log campaign metrics"
+  ],
+  "log results and success rate": [
+    "log results and success rate"
+  ],
+  "map object-to-tool and object-to-action connections": [
+    "map object-to-tool and object-to-action connections"
+  ],
+  "map profession-to-tool connections": [
+    "map profession-to-tool connections"
+  ],
+  "map relationships": [
+    "map relationships to tools and actions"
+  ],
+  "map tool-to-tool relationships": [
+    "map tool-to-tool relationships"
+  ],
+  "map tool-to-workflow connections": [
+    "map tool-to-workflow connections"
+  ],
+  "mcp connector": [
+    "mcp connector"
+  ],
+  "meeting transcript": [
+    "upload meeting transcript to claude desktop"
+  ],
+  "n8n workflow": [
+    "n8n workflow"
+  ],
+  "navigate": [
+    "navigate to settings"
+  ],
+  "newsletter replies": [
+    "newsletter replies"
+  ],
+  "nominative enrichment pattern": [
+    "configure nominative enrichment pattern"
+  ],
+  "oauth credentials (if required)": [
+    "configure oauth credentials (if required)"
+  ],
+  "object entries": [
+    "create object entries with definitions"
+  ],
+  "objects library": [
+    "objects library"
+  ],
+  "onboarding automation workflow": [
+    "onboarding automation workflow"
+  ],
+  "open claude desktop and activate gmail connector": [
+    "open claude desktop and activate gmail connector"
+  ],
+  "open claude desktop app": [
+    "open claude desktop app"
+  ],
+  "open claude desktop app each morning": [
+    "open claude desktop app each morning"
+  ],
+  "open connector directory": [
+    "open connector directory in cursor ai"
+  ],
+  "openai parsing node": [
+    "configure openai parsing node"
+  ],
+  "other tools": [
+    "other tools"
+  ],
+  "per-example evaluation test cases": [
+    "create per-example evaluation test cases"
+  ],
+  "post-meeting workflow": [
+    "post-meeting workflow"
+  ],
+  "profession mappings": [
+    "update profession mappings with tools and workflows"
+  ],
+  "profiles": [
+    "enrich remaining profiles via anymailfinder (optional)",
+    "import profiles to anymailfinder for enrichment",
+    "run vayne scraper to extract profiles"
+  ],
+  "quality check all tool entries": [
+    "quality check all tool entries"
+  ],
+  "quality check and save objects": [
+    "quality check and save objects"
+  ],
+  "quality check transcripts and index": [
+    "quality check transcripts and index"
+  ],
+  "quality check workflows, actions, professions": [
+    "quality check workflows, actions, professions"
+  ],
+  "read calendar event": [
+    "read calendar event to get meeting attendees"
+  ],
+  "research session json": [
+    "update research session json with taxonomy results"
+  ],
+  "research tool details (website, documentation, pricing)": [
+    "research tool details (website, documentation, pricing)"
+  ],
+  "research_index.json": [
+    "update research_index.json with cycle summary"
+  ],
+  "run apify jobs scraper": [
+    "run apify jobs scraper"
+  ],
+  "run apify maps scraper": [
+    "run apify maps scraper"
+  ],
+  "run apify serp scraper": [
+    "run apify serp scraper"
+  ],
+  "run enrichment within instantly.ai": [
+    "run enrichment within instantly.ai"
+  ],
+  "run evaluation on agent and analyze results": [
+    "run evaluation on agent and analyze results"
+  ],
+  "run full html parsing pipeline": [
+    "run full html parsing pipeline"
+  ],
+  "run full scrape on niche platform": [
+    "run full scrape on niche platform"
+  ],
+  "run instagram scraper": [
+    "run instagram scraper"
+  ],
+  "run nominative enrichment": [
+    "run nominative enrichment",
+    "run nominative enrichment for business owners/managers"
+  ],
+  "run nominative enrichment on employees": [
+    "run nominative enrichment on employees"
+  ],
+  "run targeted enrichment": [
+    "run targeted enrichment for decision-makers"
+  ],
+  "save and prepare": [
+    "save and prepare for objects/actions phases"
+  ],
+  "save inventory and prepare": [
+    "save inventory and prepare for gap analysis"
+  ],
+  "scrape website html": [
+    "scrape website html via apify (optional)"
+  ],
+  "search actions library": [
+    "search actions library for each extracted action"
+  ],
+  "search objects library": [
+    "search objects library for each extracted object"
+  ],
+  "search tools library": [
+    "search tools library for each extracted tool"
+  ],
+  "select high-priority tools": [
+    "select high-priority tools from gap analysis"
+  ],
+  "select new objects": [
+    "select new objects from gap analysis"
+  ],
+  "send approved drafts": [
+    "send approved drafts"
+  ],
+  "send approved replies": [
+    "send approved replies"
+  ],
+  "spend 1 airscale credit": [
+    "spend 1 airscale credit to unlock employee list"
+  ],
+  "structured inventory document": [
+    "create structured inventory document"
+  ],
+  "submit prompt": [
+    "submit prompt to mcp-builder skill"
+  ],
+  "target company list": [
+    "prepare target company list"
+  ],
+  "target roles": [
+    "configure target roles for enrichment"
+  ],
+  "targeted search": [
+    "create targeted search in linkedin sales navigator"
+  ],
+  "taxonomy gaps": [
+    "taxonomy gaps"
+  ],
+  "test ai parsing on sample html": [
+    "test ai parsing on sample html"
+  ],
+  "test connector locally": [
+    "test connector locally"
+  ],
+  "test skills feature": [
+    "test skills feature with simple prompt"
+  ],
+  "to instantly.ai campaign": [
+    "upload to instantly.ai campaign"
+  ],
+  "tool entries": [
+    "tool entries"
+  ],
+  "tool index and cross-references": [
+    "update tool index and cross-references"
+  ],
+  "tutorials": [
+    "ai tutorial creators"
+  ],
+  "universal standard validation checks": [
+    "create universal standard validation checks"
+  ],
+  "unlock employee list": [
+    "unlock employee list with airscale credit"
+  ],
+  "vayne scraper": [
+    "configure vayne scraper with search url and cookie"
+  ],
+  "verify bidirectional references are complete": [
+    "verify bidirectional references are complete"
+  ],
+  "verify connection": [
+    "verify connection in claude desktop"
+  ],
+  "verify mcp-builder skill is available": [
+    "verify mcp-builder skill is available"
+  ],
+  "videos": [
+    "ai tutorial videos",
+    "ai video tools",
+    "brand logo animation video",
+    "complete video production workflow",
+    "create cross-reference index for this video",
+    "create taxonomy roadmap for this video",
+    "determine next video_xxx number and create file",
+    "extract complete metadata for each video",
+    "extract tool relationships from video context",
+    "extract video transcript using youtube auto-captions",
+    "extract workflows from video transcript",
+    "filter and assess video quality",
+    "product commercial video",
+    "read video transcript thoroughly",
+    "select high-priority videos for transcription",
+    "social media storytelling video",
+    "update videos_index.md with new entries",
+    "video transcripts"
+  ],
+  "wait": [
+    "wait for connector code generation"
+  ],
+  "with job posting context": [
+    "export with job posting context"
+  ],
+  "workflow entries": [
+    "create workflow entries with complete documentation"
+  ],
+  "write 2-sentence connector prompt": [
+    "write 2-sentence connector prompt"
+  ]
+}

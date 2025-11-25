@@ -1,0 +1,152 @@
+{
+  "entity_type": "LIBRARIES",
+  "sub_entity": "Tool",
+  "tool_id": "TOOL-AI-112",
+  "name": "Claude Projects",
+  "vendor": "Anthropic",
+  "category": "AI Tools / Project Management",
+  "purpose": "Organize AI workflows with custom knowledge, instructions, and team collaboration",
+  "description": "Claude Projects is a feature within Claude that allows users to create dedicated workspaces with custom knowledge bases, specific instructions, and conversation history. Each project can have up to 200,000 tokens of context (knowledge docs, style guides, code repos), custom instructions for behavior, and shared team access. Used for organizing complex workflows, maintaining context across sessions, and collaborating on AI-assisted tasks with consistent behavior.",
+  "skill_level_required": "Beginner to Intermediate",
+  "cost_structure": "Included with Claude Pro subscription ($20/month) and Team plans",
+  "platform_compatibility": [
+    "Web (claude.ai)",
+    "Claude Desktop App"
+  ],
+  "integration_capabilities": [
+    "Custom knowledge base (up to 200K tokens)",
+    "Project-specific instructions",
+    "Conversation history per project",
+    "File uploads (PDFs, docs, code files)",
+    "Team collaboration and sharing",
+    "API access for projects",
+    "Integration with MCP connectors",
+    "Code generation and analysis",
+    "Meeting transcript processing"
+  ],
+  "documentation_url": "https://claude.ai/projects",
+  "actual_remote_helpers_usage": {
+    "primary_use": "AI Project Organization & Context Management",
+    "users": [
+      "AI Engineer",
+      "Project Manager",
+      "Operations Manager",
+      "Content Writer",
+      "Developer",
+      "Researcher",
+      "Team leads"
+    ],
+    "use_cases": [
+      "organize AI workflows by project",
+      "maintain custom knowledge base per project",
+      "set project-specific AI behavior instructions",
+      "extract meeting insights with context",
+      "process transcripts with consistent formatting",
+      "collaborate on AI tasks with team",
+      "maintain conversation history per project",
+      "organize documentation analysis",
+      "code generation with project context",
+      "research synthesis with custom guidelines"
+    ],
+    "workflows": [
+      "Meeting insights extraction (SKL-074)",
+      "Document analysis with custom knowledge",
+      "Team collaboration on AI-assisted tasks",
+      "Code generation with project standards",
+      "Content creation with style guidelines"
+    ],
+    "typical_workflow_pattern": [
+      {
+        "task": "Extract Meeting Insights with Claude Projects",
+        "steps": [
+          "Create project for meeting analysis",
+          "Upload knowledge docs (meeting formats, action item templates)",
+          "Set custom instructions (extract action items, format as markdown)",
+          "Upload meeting transcript",
+          "Ask Claude to extract insights following project instructions",
+          "Claude uses project context to format consistently",
+          "Share project with team for collaboration"
+        ],
+        "complexity": "Low to Medium",
+        "time_estimate": "5-10 minutes for setup, 2-3 minutes per transcript analysis",
+        "time_saved": "30+ minutes per meeting (vs manual note-taking and formatting)"
+      }
+    ],
+    "integration_with_other_tools": [
+      "Claude Desktop App (MCP platform)",
+      "MCP connectors (Gmail, Calendar, CRM)",
+      "Google Drive (file uploads)",
+      "Notion (documentation)",
+      "GitHub (code repos)",
+      "Loom (transcript processing)",
+      "NotebookLM (research synthesis)"
+    ]
+  },
+  "strengths": [
+    "200K token context window per project",
+    "Custom instructions for consistent behavior",
+    "Team collaboration and sharing",
+    "Maintains conversation history",
+    "Organizes complex workflows",
+    "File upload support (multiple formats)",
+    "Project-specific knowledge base",
+    "Reduces context repetition",
+    "Enables AI workflow standardization",
+    "Improves team AI collaboration"
+  ],
+  "limitations": [
+    "Requires Claude Pro or Team subscription",
+    "200K token limit per project",
+    "Web-based only (no mobile app)",
+    "Limited file format support",
+    "Projects not shareable outside team"
+  ],
+  "key_features": {
+    "custom_knowledge": "Upload docs, style guides, code repos (up to 200K tokens)",
+    "custom_instructions": "Define AI behavior, output format, role",
+    "conversation_history": "Maintain context across sessions",
+    "team_collaboration": "Share projects with team members",
+    "file_uploads": "PDFs, docs, code files, transcripts"
+  },
+  "use_case_examples": [
+    {
+      "use_case": "Meeting Insights Extraction (SKL-074)",
+      "description": "Create project with meeting format templates, upload transcripts, extract action items with consistent formatting",
+      "time_savings": "30+ minutes per meeting"
+    },
+    {
+      "use_case": "Code Generation with Project Standards",
+      "description": "Upload code style guide, set instructions for coding standards, generate code following project conventions",
+      "time_savings": "15+ minutes per coding task"
+    },
+    {
+      "use_case": "Content Creation with Brand Voice",
+      "description": "Upload brand guidelines, tone of voice docs, generate content matching brand style",
+      "time_savings": "20+ minutes per content piece"
+    }
+  ],
+  "departments_using": [
+    "AI",
+    "OPS",
+    "Dev",
+    "Marketing",
+    "Product",
+    "HR",
+    "Sales"
+  ],
+  "tags": [
+    "ai-projects",
+    "context-management",
+    "knowledge-base",
+    "team-collaboration",
+    "custom-instructions",
+    "workflow-organization",
+    "meeting-insights",
+    "claude",
+    "anthropic"
+  ],
+  "discovery_date": "2025-11-12",
+  "discovery_source": "Video_008_MCP_Connector_Tutorial",
+  "status": "active",
+  "recommended_for": "Organizing complex AI workflows, maintaining project context, and team collaboration on AI tasks"
+}

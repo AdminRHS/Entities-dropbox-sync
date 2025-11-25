@@ -1,0 +1,187 @@
+{
+  "entity_type": "LIBRARIES",
+  "sub_entity": "Tool",
+  "tool_id": "TOL-012",
+  "name": "Cursor",
+  "vendor": "Anysphere (Cursor)",
+  "category": "AI Tools / Code Editors / Development Environment",
+  "purpose": "AI-first code editor with integrated multiple LLM models for AI-assisted development, design system generation, and codebase-aware coding",
+  "description": "Cursor is an AI-powered code editor built specifically for AI-first development workflows. It integrates multiple AI models (GPT-5, Claude/Sonnet 4.5, Composer) and provides specialized features like Agents view, file-aware context with @ symbol referencing, and built-in browser for local development. Central tool for the 3-prompt design system generation methodology, enabling visual design analysis (GPT-5), component implementation (Claude/Sonnet), and comprehensive documentation (GPT-5) all in one environment.",
+  "skill_level_required": "Beginner to Advanced",
+  "cost_structure": "Subscription-based (free tier available, Pro tier for advanced features)",
+  "platform_compatibility": ["Windows", "macOS", "Linux"],
+  "integration_capabilities": [
+    "Multi-model AI integration (GPT-5, Claude/Sonnet 4.5, Composer)",
+    "Agents view for task-based workflows",
+    "File referencing with @ symbol",
+    "Built-in browser for localhost preview",
+    "Codebase-aware context",
+    "Git integration",
+    "Terminal integration",
+    "Context management across chats"
+  ],
+  "documentation_url": "https://cursor.com",
+  "actual_remote_helpers_usage": {
+    "primary_use": "AI-Assisted Development and Design System Generation",
+    "users": [
+      "Frontend Developer",
+      "Full-Stack Developer",
+      "UI/UX Designer",
+      "AI Prompt Engineer",
+      "Design Systems Engineer"
+    ],
+    "use_cases": [
+      "analyze design styles from screenshots",
+      "generate UI components with AI",
+      "create design systems via multi-prompt workflows",
+      "build web applications with React/Vite/Tailwind",
+      "refactor code with AI assistance",
+      "implement design-system.json guidelines",
+      "translate design.json into working components"
+    ],
+    "workflows": [
+      "AI-Assisted Design System Generation (3-prompt methodology)",
+      "Design style extraction from inspiration images",
+      "Component showcase app generation",
+      "Comprehensive design documentation creation"
+    ],
+    "typical_workflow_pattern": [
+      {
+        "task": "Design System Generation (3-Prompt Workflow)",
+        "steps": [
+          "Prompt 1 (GPT-5): Analyze Dribbble screenshot → create design.json",
+          "Prompt 2 (Claude/Sonnet): Build Vite+React+Tailwind showcase app from design.json",
+          "Prompt 3 (GPT-5): Generate comprehensive design-system.json (646+ lines)"
+        ],
+        "complexity": "Medium",
+        "duration": "10-20 minutes (less than 1 hour total)",
+        "model_switching": "GPT-5 for analysis/docs, Claude/Sonnet for code generation",
+        "context_management": "New agent/chat for each prompt to clear context",
+        "success_rate": "High (matches professional Dribbble designs)"
+      }
+    ]
+  },
+  "strengths": [
+    "Multi-model support (switch between GPT-5, Claude, Composer)",
+    "Agents view for organized task management",
+    "Codebase-aware AI suggestions",
+    "Built-in localhost browser preview",
+    "File referencing with @ symbol",
+    "Superior for design system workflows",
+    "Context management across multiple chats",
+    "Fast model switching for task specialization"
+  ],
+  "limitations": [
+    "Requires subscription for advanced features",
+    "Learning curve for multi-model workflows",
+    "Context window limitations per model",
+    "Requires understanding of model specialization (when to use GPT vs Claude)"
+  ],
+  "model_specialization": {
+    "GPT-5": "Better for visual analysis, design extraction, detailed documentation",
+    "Claude_Sonnet_4.5": "Better for structured code generation, component architecture, complex coding tasks",
+    "Composer": "Fast for quick fixes, bug fixes, small straightforward tasks"
+  },
+  "departments_using": ["Dev", "Design", "AI", "LG", "Sales", "HR", "Finance"],
+  "finance_data": {
+    "subscription_status": "partial",
+    "total_accounts": 8,
+    "paid_accounts": 7,
+    "unpaid_accounts": 1,
+    "latest_valid_until": "2025-12-06",
+    "accounts": [
+      {
+        "email": "admin@rh-s.com",
+        "status": "paid",
+        "paid_date": "2025-10-15",
+        "valid_until": "2025-11-15",
+        "department": "AI"
+      },
+      {
+        "email": "dev@rh-s.com",
+        "status": "paid",
+        "paid_date": "2025-11-06",
+        "valid_until": "2025-12-06",
+        "department": "developers"
+      },
+      {
+        "email": "niko@rh-s.com",
+        "status": "paid",
+        "paid_date": "2025-10-15",
+        "valid_until": "2025-11-15",
+        "department": "financial manager"
+      },
+      {
+        "email": "dd@rh-s.com",
+        "status": "not paid",
+        "paid_date": "2025-07-23",
+        "valid_until": "2025-08-23",
+        "department": "designers"
+      },
+      {
+        "email": "lg@rh-s.com",
+        "status": "paid",
+        "paid_date": "2025-10-15",
+        "valid_until": "2025-11-15",
+        "department": "lead generator"
+      },
+      {
+        "email": "sales@rh-s.com",
+        "status": "paid",
+        "paid_date": "2025-11-06",
+        "valid_until": "2025-12-06",
+        "department": "sales manager"
+      },
+      {
+        "email": "hr@remotemployees.com",
+        "status": "paid",
+        "paid_date": "2025-11-05",
+        "valid_until": "2025-12-05",
+        "department": "recruiter"
+      },
+      {
+        "email": "hr@rem-s.com",
+        "status": "paid",
+        "paid_date": "2025-11-10",
+        "valid_until": "2025-11-17",
+        "department": "recruiter"
+      }
+    ],
+    "departments_using": [
+      "AI",
+      "developers",
+      "financial manager",
+      "designers",
+      "lead generator",
+      "sales manager",
+      "recruiter"
+    ]
+  },
+  "tags": [
+    "ai",
+    "code-editor",
+    "cursor",
+    "ai-assistant",
+    "multi-model",
+    "gpt-5",
+    "claude",
+    "sonnet",
+    "design-systems",
+    "react",
+    "vite",
+    "tailwind",
+    "development-environment",
+    "ai-first"
+  ],
+  "discovery_date": "2025-11-13",
+  "discovery_source": "Video_009_Design_System_Analysis",
+  "related_tools": ["OpenAI GPT-5", "Claude/Sonnet 4.5", "Vite", "React", "Tailwind CSS", "Lovable", "Bolt"],
+  "related_objects": ["design.json", "design-system.json", "UI Component Showcase App"],
+  "related_skills": [
+    "analyze design styles via Cursor",
+    "generate UI components via Cursor",
+    "create design systems via GPT-5"
+  ],
+  "related_workflows": ["AI-Assisted Design System Generation"],
+  "status": "active"
+}

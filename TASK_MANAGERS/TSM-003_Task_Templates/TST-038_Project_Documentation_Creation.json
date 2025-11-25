@@ -1,0 +1,23 @@
+{
+  "task_template_id": "Task-Template-038",
+  "task_template_name": "Project Documentation Creation",
+  "category": "Documentation",
+  "department": "AI",
+  "description": "Create final project documentation package",
+  "estimated_hours": 0,
+  "step_templates": [
+    {
+      "step_template_id": "STEP-ANALYSIS-016-01",
+      "step_template_name": "Organize all reports"
+    },
+    {
+      "step_template_id": "STEP-ANALYSIS-016-02",
+      "step_template_name": "Create project README"
+    },
+    {
+      "step_template_id": "STEP-ANALYSIS-016-03",
+      "step_template_name": "Archive project artifacts"
+    }
+  ],
+  "version": "1.0"
+}

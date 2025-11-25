@@ -1,0 +1,280 @@
+{
+  "listing_metadata": {
+    "department": "SALES",
+    "created_date": "2025-11-10",
+    "total_items": 27,
+    "listing_type": "steps"
+  },
+  "steps": [
+    {
+      "id": "STEP-TASK-SALES-001-01",
+      "parent_task_id": "STEP-TASK-SALES-001",
+      "step_number": 1,
+      "action": "Extract",
+      "tool": "CRM API or export",
+      "description": "Extract lead visibility data from CRM",
+      "location": "Step_Templates/TASK/STEP-TASK-SALES-001-01.md",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "STEP-TASK-SALES-001-02",
+      "parent_task_id": "STEP-TASK-SALES-001",
+      "step_number": 2,
+      "action": "Analyze",
+      "tool": "Excel, analytics tools",
+      "description": "Analyze lead visibility patterns",
+      "location": "Step_Templates/TASK/STEP-TASK-SALES-001-02.md",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "STEP-TASK-SALES-001-03",
+      "parent_task_id": "STEP-TASK-SALES-001",
+      "step_number": 3,
+      "action": "Identify",
+      "tool": "Data analysis",
+      "description": "Identify trends (e.g., from 1 lead to 7 leads visible)",
+      "location": "Step_Templates/TASK/STEP-TASK-SALES-001-03.md",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "STEP-TASK-SALES-001-04",
+      "parent_task_id": "STEP-TASK-SALES-001",
+      "step_number": 4,
+      "action": "Generate",
+      "tool": "Analysis framework",
+      "description": "Generate insights on lead quality and conversion",
+      "location": "Step_Templates/TASK/STEP-TASK-SALES-001-04.md",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "STEP-TASK-SALES-001-05",
+      "parent_task_id": "STEP-TASK-SALES-001",
+      "step_number": 5,
+      "action": "Create",
+      "tool": "Strategic planning",
+      "description": "Create actionable recommendations",
+      "location": "Step_Templates/TASK/STEP-TASK-SALES-001-05.md",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "STEP-TASK-SALES-001-06",
+      "parent_task_id": "STEP-TASK-SALES-001",
+      "step_number": 6,
+      "action": "Document",
+      "tool": "Documentation tool",
+      "description": "Document findings in report",
+      "location": "Step_Templates/TASK/STEP-TASK-SALES-001-06.md",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "STEP-TASK-SALES-001-07",
+      "parent_task_id": "STEP-TASK-SALES-001",
+      "step_number": 7,
+      "action": "Present",
+      "tool": "Presentation software",
+      "description": "Present to sales team",
+      "location": "Step_Templates/TASK/STEP-TASK-SALES-001-07.md",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "STEP-TASK-SALES-002-01",
+      "parent_task_id": "STEP-TASK-SALES-002",
+      "step_number": 1,
+      "action": "Identify",
+      "tool": "Metrics definition",
+      "description": "Identify key CRM metrics for daily tracking",
+      "location": "Step_Templates/TASK/STEP-TASK-SALES-002-01.md",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "STEP-TASK-SALES-002-02",
+      "parent_task_id": "STEP-TASK-SALES-002",
+      "step_number": 2,
+      "action": "Set",
+      "tool": "CRM dashboard configuration",
+      "description": "Set up CRM dashboards",
+      "location": "Step_Templates/TASK/STEP-TASK-SALES-002-02.md",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "STEP-TASK-SALES-002-03",
+      "parent_task_id": "STEP-TASK-SALES-002",
+      "step_number": 3,
+      "action": "Configure",
+      "tool": "CRM automation",
+      "description": "Configure automated alerts",
+      "location": "Step_Templates/TASK/STEP-TASK-SALES-002-03.md",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "STEP-TASK-SALES-002-04",
+      "parent_task_id": "STEP-TASK-SALES-002",
+      "step_number": 4,
+      "action": "Create",
+      "tool": "Process documentation",
+      "description": "Create daily workflow checklist",
+      "location": "Step_Templates/TASK/STEP-TASK-SALES-002-04.md",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "STEP-TASK-SALES-002-05",
+      "parent_task_id": "STEP-TASK-SALES-002",
+      "step_number": 5,
+      "action": "Train",
+      "tool": "Training sessions",
+      "description": "Train sales team on new workflow",
+      "location": "Step_Templates/TASK/STEP-TASK-SALES-002-05.md",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "STEP-TASK-SALES-002-06",
+      "parent_task_id": "STEP-TASK-SALES-002",
+      "step_number": 6,
+      "action": "Monitor",
+      "tool": "Usage analytics",
+      "description": "Monitor adoption and refine",
+      "location": "Step_Templates/TASK/STEP-TASK-SALES-002-06.md",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "STEP-TASK-SALES-003-01",
+      "parent_task_id": "STEP-TASK-SALES-003",
+      "step_number": 1,
+      "action": "Define",
+      "tool": "Business analysis",
+      "description": "Define analysis objectives and use cases",
+      "location": "Step_Templates/TASK/STEP-TASK-SALES-003-01.md",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "STEP-TASK-SALES-003-02",
+      "parent_task_id": "STEP-TASK-SALES-003",
+      "step_number": 2,
+      "action": "Select",
+      "tool": "Metrics framework",
+      "description": "Select key CRM metrics and KPIs",
+      "location": "Step_Templates/TASK/STEP-TASK-SALES-003-02.md",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "STEP-TASK-SALES-003-03",
+      "parent_task_id": "STEP-TASK-SALES-003",
+      "step_number": 3,
+      "action": "Design",
+      "tool": "Analytical framework",
+      "description": "Design analysis methodology",
+      "location": "Step_Templates/TASK/STEP-TASK-SALES-003-03.md",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "STEP-TASK-SALES-003-04",
+      "parent_task_id": "STEP-TASK-SALES-003",
+      "step_number": 4,
+      "action": "Create",
+      "tool": "Template design",
+      "description": "Create analysis templates",
+      "location": "Step_Templates/TASK/STEP-TASK-SALES-003-04.md",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "STEP-TASK-SALES-003-05",
+      "parent_task_id": "STEP-TASK-SALES-003",
+      "step_number": 5,
+      "action": "Document",
+      "tool": "Documentation",
+      "description": "Document framework and usage guidelines",
+      "location": "Step_Templates/TASK/STEP-TASK-SALES-003-05.md",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "STEP-TASK-SALES-003-06",
+      "parent_task_id": "STEP-TASK-SALES-003",
+      "step_number": 6,
+      "action": "Validate",
+      "tool": "Testing",
+      "description": "Validate framework with sample analysis",
+      "location": "Step_Templates/TASK/STEP-TASK-SALES-003-06.md",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "STEP-TASK-SALES-003-07",
+      "parent_task_id": "STEP-TASK-SALES-003",
+      "step_number": 7,
+      "action": "Train",
+      "tool": "Training",
+      "description": "Train sales team on framework usage",
+      "location": "Step_Templates/TASK/STEP-TASK-SALES-003-07.md",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "STEP-TASK-SALES-004-01",
+      "parent_task_id": "STEP-TASK-SALES-004",
+      "step_number": 1,
+      "action": "Define",
+      "tool": "Business research",
+      "description": "Define target industries and search criteria",
+      "location": "Step_Templates/TASK/STEP-TASK-SALES-004-01.md",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "STEP-TASK-SALES-004-02",
+      "parent_task_id": "STEP-TASK-SALES-004",
+      "step_number": 2,
+      "action": "Configure",
+      "tool": "Web scraper configuration",
+      "description": "Configure web scraper for Google Maps or other sources",
+      "location": "Step_Templates/TASK/STEP-TASK-SALES-004-02.md",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "STEP-TASK-SALES-004-03",
+      "parent_task_id": "STEP-TASK-SALES-004",
+      "step_number": 3,
+      "action": "Execute",
+      "tool": "Scraping automation",
+      "description": "Execute scraping campaign",
+      "location": "Step_Templates/TASK/STEP-TASK-SALES-004-03.md",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "STEP-TASK-SALES-004-04",
+      "parent_task_id": "STEP-TASK-SALES-004",
+      "step_number": 4,
+      "action": "Apply",
+      "tool": "NLP + AI analysis",
+      "description": "Apply NLP analysis for lead qualification",
+      "location": "Step_Templates/TASK/STEP-TASK-SALES-004-04.md",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "STEP-TASK-SALES-004-05",
+      "parent_task_id": "STEP-TASK-SALES-004",
+      "step_number": 5,
+      "action": "Extract",
+      "tool": "Contact discovery tools",
+      "description": "Extract decision-maker information",
+      "location": "Step_Templates/TASK/STEP-TASK-SALES-004-05.md",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "STEP-TASK-SALES-004-06",
+      "parent_task_id": "STEP-TASK-SALES-004",
+      "step_number": 6,
+      "action": "Import",
+      "tool": "CRM integration",
+      "description": "Import qualified leads to CRM",
+      "location": "Step_Templates/TASK/STEP-TASK-SALES-004-06.md",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "STEP-TASK-SALES-004-07",
+      "parent_task_id": "STEP-TASK-SALES-004",
+      "step_number": 7,
+      "action": "Assign",
+      "tool": "Lead distribution",
+      "description": "Assign leads to sales team",
+      "location": "Step_Templates/TASK/STEP-TASK-SALES-004-07.md",
+      "created_date": "2025-11-10"
+    }
+  ]
+}

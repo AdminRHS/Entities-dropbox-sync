@@ -1,0 +1,66 @@
+{
+  "entity_type": "LIBRARIES",
+  "sub_entity": "Profession",
+  "profession_name": "account executive",
+  "department": "managers",
+  "description": "Sales professional managing client accounts, closing deals, and maintaining relationships using meeting automation and insights extraction",
+  "created": "2025-11-12",
+  "updated": "2025-11-12",
+  "skills": [
+    "SKL-074"
+  ],
+  "skill_details": {
+    "SKL-074": {
+      "skill_phrase": "extracted meeting insights via Claude",
+      "proficiency_level": "beginner",
+      "frequency": "daily"
+    }
+  },
+  "tools": [
+    "TOOL-AI-030",
+    "TOOL-INT-001",
+    "TOOL-INT-002",
+    "TOOL-INT-003"
+  ],
+  "tool_details": {
+    "TOOL-AI-030": "Claude Desktop App - AI platform (daily use)",
+    "TOOL-INT-001": "Gmail MCP Connector - Email automation (daily use)",
+    "TOOL-INT-002": "Google Calendar MCP Connector - Meeting coordination (daily use)",
+    "TOOL-INT-003": "CRM MCP Connector - CRM updates (daily use)"
+  },
+  "workflows": [
+    "WF-AI-005"
+  ],
+  "workflow_details": {
+    "WF-AI-005": "Stacked Connector Post-Meeting Automation"
+  },
+  "objects": [
+    "OBJ-AI-005",
+    "OBJ-AI-006",
+    "OBJ-AI-007",
+    "OBJ-AI-008"
+  ],
+  "object_details": {
+    "OBJ-AI-005": "Meeting Transcript",
+    "OBJ-AI-006": "Calendar Event",
+    "OBJ-AI-007": "Email Draft",
+    "OBJ-AI-008": "CRM Record"
+  },
+  "actions": [
+    "extract",
+    "update",
+    "generate"
+  ],
+  "typical_tasks": [
+    "Extract action items from client meeting transcript",
+    "Identify client wins and update CRM automatically",
+    "Generate meeting summary and next steps",
+    "Draft follow-up emails to meeting attendees"
+  ],
+  "performance_metrics": {
+    "time_savings": "15+ hours per week",
+    "automation_execution_time": "1-4 minutes",
+    "success_rate": "85%+"
+  },
+  "source": "Video_008_MCP_Connector_Tutorial"
+}

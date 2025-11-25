@@ -1,0 +1,78 @@
+{
+  "phase": "phase_2",
+  "timestamp": "2025-11-22T21:05:34.927633",
+  "status": "completed",
+  "can_rollback": true,
+  "rollback_instructions": "Delete lookup table files and re-run phase2_lookup_population.py",
+  "stats": {
+    "tables_populated": 13,
+    "total_files_created": 285,
+    "tables": [
+      {
+        "name": "Industries",
+        "files_created": 118,
+        "source": "CRM Extract"
+      },
+      {
+        "name": "SubIndustries",
+        "files_created": 56,
+        "source": "CRM Extract"
+      },
+      {
+        "name": "CompanySizes",
+        "files_created": 19,
+        "source": "CRM Extract"
+      },
+      {
+        "name": "LeadStatuses",
+        "files_created": 8,
+        "source": "CRM Extract"
+      },
+      {
+        "name": "Countries",
+        "files_created": 37,
+        "source": "CRM Extract"
+      },
+      {
+        "name": "ContactTypes",
+        "files_created": 6,
+        "source": "Default"
+      },
+      {
+        "name": "LeadSources",
+        "files_created": 6,
+        "source": "Default"
+      },
+      {
+        "name": "JobRequests/Professions",
+        "files_created": 6,
+        "source": "Default"
+      },
+      {
+        "name": "JobRequests/Rates",
+        "files_created": 6,
+        "source": "Default"
+      },
+      {
+        "name": "JobRequests/Shifts",
+        "files_created": 5,
+        "source": "Default"
+      },
+      {
+        "name": "JobRequests/Tools",
+        "files_created": 6,
+        "source": "Default"
+      },
+      {
+        "name": "JobRequests/Languages",
+        "files_created": 6,
+        "source": "Default"
+      },
+      {
+        "name": "JobRequests/LanguageLevels",
+        "files_created": 6,
+        "source": "Default"
+      }
+    ]
+  }
+}

@@ -1,0 +1,162 @@
+﻿[
+    {
+        "skill_id":  "SKL-001",
+        "skill_phrase":  "screened candidates via CRM",
+        "components":  {
+                           "result":  "screened",
+                           "action":  "screen",
+                           "object":  "candidates",
+                           "object_type":  "needed candidates, applied candidates, found candidates",
+                           "tool":  "CRM",
+                           "tool_category":  "Communication"
+                       },
+        "department":  "Managers (HR)",
+        "professions":  [
+                            "recruiter",
+                            "hr manager"
+                        ],
+        "difficulty_level":  "beginner",
+        "frequency":  "daily",
+        "time_estimate_minutes":  15,
+        "automation_potential":  "medium",
+        "related_skills":  [
+                               "SKL-002",
+                               "SKL-003"
+                           ],
+        "example_tasks":  [
+                              "Screen 20 candidate resumes using CRM filters",
+                              "Screen applied candidates for Frontend Developer position"
+                          ],
+        "training_resources":  [
+
+                               ]
+    },
+    {
+        "skill_id":  "SKL-002",
+        "skill_phrase":  "conducted video interviews via Zoom",
+        "components":  {
+                           "result":  "conducted",
+                           "action":  "conduct",
+                           "object":  "video interviews",
+                           "object_type":  "video interview, project interview",
+                           "tool":  "Zoom",
+                           "tool_category":  "Video Call"
+                       },
+        "department":  "Managers (HR)",
+        "professions":  [
+                            "recruiter",
+                            "hr manager"
+                        ],
+        "difficulty_level":  "intermediate",
+        "frequency":  "weekly",
+        "time_estimate_minutes":  45,
+        "automation_potential":  "low",
+        "related_skills":  [
+                               "SKL-001",
+                               "SKL-004"
+                           ],
+        "example_tasks":  [
+                              "Conduct behavioral interview with UI/UX Designer candidate",
+                              "Conduct technical interview with Dev Lead for Backend position"
+                          ],
+        "training_resources":  [
+
+                               ]
+    },
+    {
+        "skill_id":  "SKL-003",
+        "skill_phrase":  "sent job offers via Gmail",
+        "components":  {
+                           "result":  "sent",
+                           "action":  "send",
+                           "object":  "job offers",
+                           "object_type":  "initial job offers, revised job offers",
+                           "tool":  "Gmail",
+                           "tool_category":  "Communication"
+                       },
+        "department":  "Managers (HR)",
+        "professions":  [
+                            "recruiter",
+                            "hr manager"
+                        ],
+        "difficulty_level":  "beginner",
+        "frequency":  "weekly",
+        "time_estimate_minutes":  10,
+        "automation_potential":  "medium",
+        "related_skills":  [
+                               "SKL-002",
+                               "SKL-005"
+                           ],
+        "example_tasks":  [
+                              "Send job offer email to selected candidate with salary details",
+                              "Send revised offer after negotiation"
+                          ],
+        "training_resources":  [
+
+                               ]
+    },
+    {
+        "skill_id":  "SKL-004",
+        "skill_phrase":  "updated candidate status in CRM",
+        "components":  {
+                           "result":  "updated",
+                           "action":  "update",
+                           "object":  "candidate status",
+                           "object_type":  "candidates database",
+                           "tool":  "CRM",
+                           "tool_category":  "Database"
+                       },
+        "department":  "Managers (HR)",
+        "professions":  [
+                            "recruiter",
+                            "hr manager"
+                        ],
+        "difficulty_level":  "beginner",
+        "frequency":  "daily",
+        "time_estimate_minutes":  5,
+        "automation_potential":  "high",
+        "related_skills":  [
+                               "SKL-001",
+                               "SKL-003"
+                           ],
+        "example_tasks":  [
+                              "Update candidate status from \u0027Interview\u0027 to \u0027Offer Extended\u0027",
+                              "Mark candidate as \u0027Hired\u0027 after contract signing"
+                          ],
+        "training_resources":  [
+
+                               ]
+    },
+    {
+        "skill_id":  "SKL-005",
+        "skill_phrase":  "analyzed recruitment data in Google Sheets",
+        "components":  {
+                           "result":  "analyzed",
+                           "action":  "analyze",
+                           "object":  "recruitment data",
+                           "object_type":  "daily report, monthly report",
+                           "tool":  "Google Sheets",
+                           "tool_category":  "Spreadsheet"
+                       },
+        "department":  "Managers (HR)",
+        "professions":  [
+                            "recruiter",
+                            "hr manager"
+                        ],
+        "difficulty_level":  "intermediate",
+        "frequency":  "weekly",
+        "time_estimate_minutes":  60,
+        "automation_potential":  "medium",
+        "related_skills":  [
+                               "SKL-004",
+                               "SKL-006"
+                           ],
+        "example_tasks":  [
+                              "Analyze monthly recruitment metrics: time-to-hire, offer acceptance rate",
+                              "Create pivot tables for candidate sources analysis"
+                          ],
+        "training_resources":  [
+
+                               ]
+    }
+]

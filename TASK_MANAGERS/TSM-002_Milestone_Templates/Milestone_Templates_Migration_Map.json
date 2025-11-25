@@ -1,0 +1,94 @@
+{
+  "metadata": {
+    "version": "1.1.0",
+    "generated": "2025-11-18",
+    "last_updated": "2025-11-20",
+    "entity": "Milestone_Templates",
+    "meta_category": "TSM-002",
+    "description": "ISO code migration mapping for Milestone Templates from legacy Milestone-Template-### format to standardized MLT-### format, organized under TSM-002 meta-category",
+    "naming_convention": "MLT (Milestone Template) - 3-letter consonant code ending with 'T' for templates",
+    "total_entities_mapped": 28
+  },
+  "iso_code_derivation": {
+    "entity_name": "Milestone Template",
+    "iso_code": "MLT",
+    "derivation_logic": "MiLestone Template → MLT (consonants only, ends with T for templates)",
+    "alternative_considered": "MLS",
+    "reason_for_selection": "MLT maintains template suffix convention (T) for consistency with other template entities"
+  },
+  "meta_category": {
+    "TSM-002": {
+      "category_name": "Milestone Templates",
+      "organizes": "MLT",
+      "instance_count": 28,
+      "id_range": "MLT-001 to MLT-028",
+      "description": "Meta-level category organizing all Milestone Template entities"
+    }
+  },
+  "entity_type_iso_codes": {
+    "MLT": {
+      "full_name": "Milestone Template",
+      "description": "Milestone templates representing major phases or checkpoints within projects",
+      "meta_parent": "TSM-002",
+      "range": "MLT-001 to MLT-028",
+      "total_count": 28,
+      "template_suffix": true
+    }
+  },
+  "milestone_template_mappings": [
+    {"legacy_id": "Milestone-Template-001", "new_id": "MLT-001", "name": "Content Analysis", "department": "AID", "category": "Analysis"},
+    {"legacy_id": "Milestone-Template-002", "new_id": "MLT-002", "name": "Data Inventory", "department": "AID", "category": "Analysis"},
+    {"legacy_id": "Milestone-Template-003", "new_id": "MLT-003", "name": "Relationship Validation", "department": "AID", "category": "Analysis"},
+    {"legacy_id": "Milestone-Template-004", "new_id": "MLT-004", "name": "Schema Naming Validation", "department": "AID", "category": "Analysis"},
+    {"legacy_id": "Milestone-Template-005", "new_id": "MLT-005", "name": "Synthesis Recommendations", "department": "AID", "category": "Analysis"},
+    {"legacy_id": "Milestone-Template-006", "new_id": "MLT-006", "name": "VIDEO-001 Research Complete", "department": "VID", "category": "Research"},
+    {"legacy_id": "Milestone-Template-007", "new_id": "MLT-007", "name": "VIDEO-002 Processing Complete", "department": "VID", "category": "Processing"},
+    {"legacy_id": "Milestone-Template-008", "new_id": "MLT-008", "name": "VIDEO-003 Library Population Complete", "department": "VID", "category": "Integration"},
+    {"legacy_id": "Milestone-Template-009", "new_id": "MLT-009", "name": "Behance Project Publishing Workflow", "department": "DGN", "category": "Workflow Migration"}
+  ],
+  "validation_checksums": {
+    "total_milestone_templates": 9,
+    "by_department": {
+      "AID": 5,
+      "VID": 3,
+      "DGN": 1
+    },
+    "by_category": {
+      "Analysis": 5,
+      "Research": 1,
+      "Processing": 1,
+      "Integration": 1,
+      "Workflow Migration": 1
+    }
+  },
+  "department_code_registry": {
+    "AID": "AI Department (includes Automations, Operations, Administration)",
+    "HRM": "Human Resource Management",
+    "DEV": "Development & Engineering",
+    "LGN": "Lead Generation & Marketing",
+    "DGN": "Design & Creative",
+    "VID": "Video Production",
+    "SLS": "Sales & Client Relations"
+  },
+  "iso_code_rules": {
+    "template_suffix": "All Template entities end with 'T' (MLT)",
+    "consonant_only": "All codes use only consonants (no vowels A, E, I, O, U) where possible",
+    "three_letters": "All codes are exactly 3 letters",
+    "uppercase": "All codes are uppercase",
+    "memorable": "Codes derived from entity type names for easy recall"
+  },
+  "migration_status": {
+    "migration_started": "2025-11-18",
+    "migration_completed": "2025-11-18",
+    "total_entities_migrated": 9,
+    "legacy_format": "Milestone-Template-###",
+    "new_format": "MLT-###",
+    "backwards_compatibility": "Legacy Milestone-Template IDs preserved in Current_ID field for reference"
+  },
+  "hierarchy_position": {
+    "level": 2,
+    "parent_entity": "Project Template (PRT)",
+    "child_entity": "Task Template (TST)",
+    "description": "Milestones are major phases within projects that contain multiple tasks"
+  }
+}
