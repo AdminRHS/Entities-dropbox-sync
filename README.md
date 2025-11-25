@@ -1,6 +1,6 @@
-# ENTITIES - Система Управления Сущностями и Знаниями
+# ENTITIES - Knowledge and Operations Management System
 
-> **Централизованная экосистема для управления знаниями, операциями, талантами и бизнес-процессами**
+> **Centralized ecosystem for managing knowledge, operations, talent, and business processes**
 
 [![Sync Status](https://img.shields.io/badge/sync-automatic-green)](https://github.com/AdminRHS/Entities-dropbox-sync/actions)
 [![Last Sync](https://img.shields.io/badge/last_sync-24h_ago-blue)]()
@@ -8,93 +8,93 @@
 
 ---
 
-## 🎯 Что Это?
+## 🎯 What Is This?
 
-**ENTITIES** — это комплексная система управления знаниями и операциями, которая объединяет все аспекты работы организации в единую структурированную экосистему. Система синхронизируется из Dropbox в GitHub для версионного контроля и совместной работы.
+**ENTITIES** is a comprehensive knowledge and operations management system that unifies all aspects of organizational work into a single structured ecosystem. The system syncs from Dropbox to GitHub for version control and collaborative work.
 
-### Ключевые Возможности
+### Key Features
 
-- 📚 **Централизованная база знаний** — все определения, стандарты и библиотеки в одном месте
-- 🔄 **Автоматизированные рабочие процессы** — шаблоны задач, проектов и процессов
-- 👥 **Управление талантами** — полный жизненный цикл от кандидата до сотрудника
-- 🏢 **Управление клиентами** — отслеживание бизнес-отношений и проектов
-- 🤖 **AI-интеграция** — промпты и автоматизация для всех процессов
-- 📊 **Аналитика и отчетность** — отслеживание производительности и метрик
+- 📚 **Centralized Knowledge Base** — all definitions, standards, and libraries in one place
+- 🔄 **Automated Workflows** — task, project, and process templates
+- 👥 **Talent Management** — complete lifecycle from candidate to employee
+- 🏢 **Client Management** — tracking business relationships and projects
+- 🤖 **AI Integration** — prompts and automation for all processes
+- 📊 **Analytics & Reporting** — performance tracking and metrics
 
 ---
 
-## 🏗️ Архитектура Системы
+## 🏗️ System Architecture
 
-### Основные Сущности (Entities)
+### Core Entities
 
-Система состоит из **8 основных сущностей**, каждая из которых отвечает за свою область:
+The system consists of **8 core entities**, each responsible for its own domain:
 
 ```
 ENTITIES/
-├── 📚 LIBRARIES      → База знаний и стандартов
-├── ⚙️  TASK_MANAGERS → Операционные процессы и шаблоны
-├── 👥 TALENTS        → Управление талантами
-├── 🏢 BUSINESSES     → Управление клиентами
-├── 💼 JOBS           → Вакансии и подбор
-├── 🤖 PROMPTS        → AI-промпты и инструкции
-├── ⚙️  SETTINGS       → Системные настройки
-└── 🏷️  TAXONOMY      → Классификация и ID-системы
+├── 📚 LIBRARIES      → Knowledge base and standards
+├── ⚙️  TASK_MANAGERS → Operational processes and templates
+├── 👥 TALENTS        → Talent management
+├── 🏢 BUSINESSES     → Client management
+├── 💼 JOBS           → Job postings and recruitment
+├── 🤖 PROMPTS        → AI prompts and instructions
+├── ⚙️  SETTINGS       → System settings
+└── 🏷️  TAXONOMY      → Classification and ID systems
 ```
 
 ---
 
-## 📚 LIBRARIES — База Знаний
+## 📚 LIBRARIES — Knowledge Base
 
-**Назначение:** Централизованное хранилище переиспользуемых компонентов, определений и стандартов
+**Purpose:** Centralized repository of reusable components, definitions, and standards
 
-**Что содержит:**
-- **Actions (429)** — стандартизированные глаголы действий (Create, Update, Analyze, Send...)
-- **Objects (50+)** — бизнес-объекты (Job Posting, Email, Report, Video CV...)
-- **Tools (176+)** — инструменты и платформы (Claude, Figma, n8n, Cursor...)
-- **Professions (17)** — профессии и роли (Frontend Developer, AI Engineer, Designer...)
-- **Responsibilities (377)** — обязанности по ролям и отделам
-- **Skills (28+)** — навыки (комбинация Responsibility + Tool)
-- **Processes (428)** — процессы в форме герундия (creating, analyzing, managing...)
-- **Results (432)** — результаты в форме причастия (created, analyzed, managed...)
+**Contains:**
+- **Actions (429)** — standardized action verbs (Create, Update, Analyze, Send...)
+- **Objects (50+)** — business objects (Job Posting, Email, Report, Video CV...)
+- **Tools (176+)** — tools and platforms (Claude, Figma, n8n, Cursor...)
+- **Professions (17)** — job roles (Frontend Developer, AI Engineer, Designer...)
+- **Responsibilities (377)** — role and department-based duties
+- **Skills (28+)** — skills (combination of Responsibility + Tool)
+- **Processes (428)** — processes in gerund form (creating, analyzing, managing...)
+- **Results (432)** — results in past participle form (created, analyzed, managed...)
 
-**Ключевые особенности:**
-- 🌐 **Микросервис:** [https://libs.anyemp.com/](https://libs.anyemp.com/) — живой API доступ
-- 🔗 **Взаимосвязи:** Actions + Objects = Tasks, Tools + Responsibilities = Skills
-- 📊 **Статистика:** 1,000+ сущностей в 6 типах
+**Key Features:**
+- 🌐 **Microservice:** [https://libs.anyemp.com/](https://libs.anyemp.com/) — live API access
+- 🔗 **Relationships:** Actions + Objects = Tasks, Tools + Responsibilities = Skills
+- 📊 **Statistics:** 1,000+ entities across 6 types
 
-**Пример использования:**
+**Usage Example:**
 ```
-Задача = Action + Object + Context
+Task = Action + Object + Context
 "Create" + "Job Posting" + "for Frontend Developer"
 ```
 
-**Структура:**
+**Structure:**
 ```
 LIBRARIES/
 ├── Responsibilities/
-│   ├── Actions/          # 429 действий
-│   ├── Objects/          # 50+ объектов
-│   └── Parameters/       # Параметры конфигурации
-├── LBS_003_Tools/        # 176+ инструментов
-├── LBS_005_Professions/  # 17 профессий
-└── LBS_006_Departments/ # Отделы
+│   ├── Actions/          # 429 actions
+│   ├── Objects/          # 50+ objects
+│   └── Parameters/       # Configuration parameters
+├── LBS_003_Tools/        # 176+ tools
+├── LBS_005_Professions/  # 17 professions
+└── LBS_006_Departments/ # Departments
 ```
 
 ---
 
-## ⚙️ TASK_MANAGERS — Операционный Движок
+## ⚙️ TASK_MANAGERS — Operational Engine
 
-**Назначение:** Оркестрация выполнения работы через шаблоны и процессы
+**Purpose:** Orchestrates work execution through templates and processes
 
-**Что содержит:**
-- **Project Templates (3)** — шаблоны проектов (Lead Generation, MCP Automation, ABM Campaign)
-- **Milestone Templates (28)** — шаблоны этапов (Content Analysis, Video Processing, Publishing...)
-- **Task Templates (93)** — шаблоны задач (Create Job Posting, Send Email, Analyze Data...)
-- **Step Templates (264)** — шаблоны шагов (детальные инструкции)
-- **Workflows (31)** — автоматизированные процессы (YAML определения)
-- **Guides (34)** — руководства и документация
+**Contains:**
+- **Project Templates (3)** — project templates (Lead Generation, MCP Automation, ABM Campaign)
+- **Milestone Templates (28)** — milestone templates (Content Analysis, Video Processing, Publishing...)
+- **Task Templates (93)** — task templates (Create Job Posting, Send Email, Analyze Data...)
+- **Step Templates (264)** — step templates (detailed instructions)
+- **Workflows (31)** — automated processes (YAML definitions)
+- **Guides (34)** — guides and documentation
 
-**Иерархия:**
+**Hierarchy:**
 ```
 Project Template
   └── Milestone Template
@@ -103,13 +103,13 @@ Project Template
               └── Checklist Item
 ```
 
-**Ключевые особенности:**
-- 📋 **Шаблонный подход** — устраняет необходимость принимать решения каждый раз
-- ⏱️ **Оценка времени** — исторические данные для точного планирования
-- 📊 **Отслеживание производительности** — метрики команды и индивидуальные показатели
-- 🔄 **Автоматизация** — интеграция с n8n для автоматизации процессов
+**Key Features:**
+- 📋 **Template-Driven** — eliminates decision fatigue
+- ⏱️ **Time Estimation** — historical data for accurate planning
+- 📊 **Performance Tracking** — team and individual metrics
+- 🔄 **Automation** — n8n integration for process automation
 
-**Пример:**
+**Example:**
 ```json
 {
   "task_name": "Create Job Posting for Frontend Developer",
@@ -123,33 +123,33 @@ Project Template
 
 ---
 
-## 👥 TALENTS — Управление Талантами
+## 👥 TALENTS — Talent Management
 
-**Назначение:** Полный жизненный цикл талантов от заявки до трудоустройства
+**Purpose:** Complete talent lifecycle from application to employment
 
-**Что содержит:**
-- **Employees (32)** — текущие сотрудники по отделам
-- **Candidates** — кандидаты в процессе найма
-- **Job Applications** — заявки на вакансии
-- **Skills (28+)** — каталог навыков для сопоставления
-- **Presales** — материалы для презентации клиентам (Video CVs, портфолио)
+**Contains:**
+- **Employees (32)** — current employees by department
+- **Candidates** — candidates in hiring pipeline
+- **Job Applications** — job applications
+- **Skills (28+)** — skills catalog for matching
+- **Presales** — client presentation materials (Video CVs, portfolios)
 
-**Отделы:**
-- **HR:** 2 сотрудника
-- **AI:** 3 сотрудника
-- **Video:** 3 сотрудника
-- **Sales:** 1 сотрудник
-- **Design:** 9 сотрудников
-- **Dev:** 3 сотрудника
-- **LG:** 11 сотрудников
+**Departments:**
+- **HR:** 2 employees
+- **AI:** 3 employees
+- **Video:** 3 employees
+- **Sales:** 1 employee
+- **Design:** 9 employees
+- **Dev:** 3 employees
+- **LG:** 11 employees
 
-**Ключевые особенности:**
-- 🎥 **Video-first подход** — видео-резюме как конкурентное преимущество
-- 🎯 **Быстрое сопоставление** — AI-сопоставление талантов и вакансий
-- 📈 **Анализ навыков** — выявление пробелов для обучения
-- 📊 **Отслеживание производительности** — метрики на основе данных
+**Key Features:**
+- 🎥 **Video-First Approach** — video CVs as competitive advantage
+- 🎯 **Rapid Matching** — AI-powered talent-job matching
+- 📈 **Skills Gap Analysis** — identifies training needs
+- 📊 **Performance Tracking** — data-driven metrics
 
-**Структура навыков:**
+**Skills Structure:**
 ```
 Skill = Responsibility + Tool
 "send cold emails via Gmail" = "send cold emails" + "Gmail"
@@ -158,88 +158,88 @@ Skill = Responsibility + Tool
 
 ---
 
-## 🏢 BUSINESSES — Управление Клиентами
+## 🏢 BUSINESSES — Client Management
 
-**Назначение:** Управление жизненным циклом клиентов и бизнес-отношениями
+**Purpose:** Manages client lifecycle and business relationships
 
-**Что содержит:**
-- **Clients (2,374+)** — активные клиенты с полными профилями
-- **Prospects** — потенциальные клиенты
-- **Ex_Clients** — бывшие клиенты
-- **Products (39)** — AI-оптимизированные продукты и услуги
-- **Services** — каталог услуг
+**Contains:**
+- **Clients (2,374+)** — active clients with full profiles
+- **Prospects** — potential clients
+- **Ex_Clients** — former clients
+- **Products (39)** — AI-optimized products and services
+- **Services** — services catalog
 
-**Категории продуктов:**
-- SEO Services (6 продуктов)
-- Lead Generation Services (9 продуктов)
-- Design Services (3 продукта)
-- Content Services (4 продукта)
-- Marketing Services (8 продуктов)
-- Video Services (5 продуктов)
-- Technical Services (4 продукта)
+**Product Categories:**
+- SEO Services (6 products)
+- Lead Generation Services (9 products)
+- Design Services (3 products)
+- Content Services (4 products)
+- Marketing Services (8 products)
+- Video Services (5 products)
+- Technical Services (4 products)
 
-**Ключевые особенности:**
-- 🤖 **AI-first принцип** — все продукты используют AI-инструменты
-- 💰 **Интеллектуальное ценообразование** — формула на основе часов и ставки
-- 📊 **Отслеживание отношений** — полная история взаимодействий
-- 🎯 **Автоматизация продаж** — интеграция с процессами Lead Generation
-
----
-
-## 💼 JOBS — Рынок Талантов
-
-**Назначение:** Управление вакансиями, требованиями и сопоставлением талантов
-
-**Что содержит:**
-- **Job Postings** — активные вакансии
-- **Job Requirements** — структурированные требования к навыкам
-- **Job Templates** — переиспользуемые шаблоны вакансий
-- **Job Categories** — классификация по категориям
-
-**Ключевые особенности:**
-- 📋 **Стандартизация** — единый формат вакансий
-- 🤖 **AI-сопоставление** — автоматическое сопоставление кандидатов
-- 📊 **Отслеживание эффективности** — метрики воронки найма
-- 🌐 **Мультиплатформенность** — публикация на нескольких платформах
+**Key Features:**
+- 🤖 **AI-First Principle** — all products use AI tools
+- 💰 **Intelligent Pricing** — formula based on hours and rate
+- 📊 **Relationship Tracking** — complete interaction history
+- 🎯 **Sales Automation** — integration with Lead Generation processes
 
 ---
 
-## 🤖 PROMPTS — AI-Инструкции
+## 💼 JOBS — Talent Marketplace
 
-**Назначение:** Централизованное хранилище AI-промптов и инструкций
+**Purpose:** Manages job postings, requirements, and talent matching
 
-**Что содержит:**
-- **Core System Prompts (3)** — основные системные промпты (v4, v6)
-- **Video Processing (12)** — обработка видео и транскрипция
-- **Daily Reports (11)** — ежедневные отчеты по отделам
-- **Taxonomy & System (13)** — построение таксономии и анализ системы
-- **Research (9)** — исследовательские промпты
-- **HR Operations (5)** — HR-операции
-- **Workflows (11)** — операционные процессы
+**Contains:**
+- **Job Postings** — active job openings
+- **Job Requirements** — structured skill requirements
+- **Job Templates** — reusable job templates
+- **Job Categories** — classification by categories
 
-**Всего:** 71 промпт с уникальными ID (PMT-001 до PMT-071)
-
-**Ключевые особенности:**
-- 🆔 **Уникальные ID** — каждый промпт имеет PMT-### идентификатор
-- 📝 **Версионность** — контроль версий для всех промптов
-- 🔄 **Переиспользование** — стандартизированные инструкции
-- 📊 **Каталогизация** — полный каталог в CSV и JSON
+**Key Features:**
+- 📋 **Standardization** — consistent job posting format
+- 🤖 **AI Matching** — automated candidate matching
+- 📊 **Pipeline Efficiency** — hiring funnel metrics
+- 🌐 **Multi-Platform** — distribution across multiple platforms
 
 ---
 
-## ⚙️ SETTINGS — Системные Настройки
+## 🤖 PROMPTS — AI Instructions
 
-**Назначение:** Централизованное управление настройками и конфигурациями
+**Purpose:** Centralized repository of AI prompts and instructions
 
-**Что содержит:**
-- **Countries/Cities/Languages** — географические и языковые справочники
-- **Currencies/Rates** — валюты и курсы обмена
-- **Permissions** — система прав доступа
-- **Notifications** — настройки уведомлений
-- **Calendar Configurations** — календарные настройки
+**Contains:**
+- **Core System Prompts (3)** — main system prompts (v4, v6)
+- **Video Processing (12)** — video processing and transcription
+- **Daily Reports (11)** — daily reports by department
+- **Taxonomy & System (13)** — taxonomy building and system analysis
+- **Research (9)** — research prompts
+- **HR Operations (5)** — HR operations
+- **Workflows (11)** — operational processes
 
-**Поддерживаемые языки:**
-- English (основной бизнес-язык)
+**Total:** 71 prompts with unique IDs (PMT-001 through PMT-071)
+
+**Key Features:**
+- 🆔 **Unique IDs** — each prompt has PMT-### identifier
+- 📝 **Version Control** — version tracking for all prompts
+- 🔄 **Reusability** — standardized instructions
+- 📊 **Cataloging** — complete catalog in CSV and JSON
+
+---
+
+## ⚙️ SETTINGS — System Settings
+
+**Purpose:** Centralized management of settings and configurations
+
+**Contains:**
+- **Countries/Cities/Languages** — geographic and language references
+- **Currencies/Rates** — currencies and exchange rates
+- **Permissions** — access control system
+- **Notifications** — notification settings
+- **Calendar Configurations** — calendar settings
+
+**Supported Languages:**
+- English (primary business language)
 - Russian
 - Ukrainian
 - Polish
@@ -247,30 +247,30 @@ Skill = Responsibility + Tool
 
 ---
 
-## 🏷️ TAXONOMY — Классификация и ID-Системы
+## 🏷️ TAXONOMY — Classification and ID Systems
 
-**Назначение:** Центральный хаб для ID, иерархий и ISO-кодов
+**Purpose:** Central hub for IDs, hierarchies, and ISO codes
 
-**Что содержит:**
-- **LIBRARIES Taxonomy** — ID для Actions, Objects, Tools, Professions (RSP, ACT, OBJ, TOL, PRF...)
-- **TASK_MANAGERS Taxonomy** — ID для Projects, Tasks, Workflows (PRT, MLT, TSK, WRF...)
-- **Video Processing Integration** — интеграция видео-процессов с таксономией
-- **Entity Integration** — стандартные процессы интеграции новых сущностей
+**Contains:**
+- **LIBRARIES Taxonomy** — IDs for Actions, Objects, Tools, Professions (RSP, ACT, OBJ, TOL, PRF...)
+- **TASK_MANAGERS Taxonomy** — IDs for Projects, Tasks, Workflows (PRT, MLT, TSK, WRF...)
+- **Video Processing Integration** — video process integration with taxonomy
+- **Entity Integration** — standard processes for integrating new entities
 
-**Система ID:**
+**ID Systems:**
 - **LIBRARIES:** RSP-001, ACT-001, OBJ-001, TOL-001, PRF-001...
 - **TASK_MANAGERS:** PRT-001, MLT-001, TSK-001, WRF-001...
 - **PROMPTS:** PMT-001, PMT-002, PMT-003...
 
 ---
 
-## 🔗 Взаимосвязи Сущностей
+## 🔗 Entity Relationships
 
-### Основная Схема Взаимосвязей
+### Core Relationship Schema
 
 ```
 ┌─────────────┐
-│  LIBRARIES  │ ← Центр знаний
+│  LIBRARIES  │ ← Knowledge center
 └──────┬──────┘
        │
        ├──→ TASK_MANAGERS (Tasks = Actions + Objects)
@@ -279,7 +279,7 @@ Skill = Responsibility + Tool
        └──→ BUSINESSES (Products reference Tools + Objects)
        
 ┌─────────────┐
-│TASK_MANAGERS│ ← Операции
+│TASK_MANAGERS│ ← Operations
 └──────┬──────┘
        │
        ├──→ TALENTS (Tasks assigned to Employees)
@@ -287,7 +287,7 @@ Skill = Responsibility + Tool
        └──→ LIBRARIES (Tasks use Actions + Objects)
 
 ┌─────────────┐
-│   TALENTS   │ ← Люди
+│   TALENTS   │ ← People
 └──────┬──────┘
        │
        ├──→ JOBS (Apply to jobs)
@@ -296,7 +296,7 @@ Skill = Responsibility + Tool
        └──→ LIBRARIES (Have Professions + Skills)
 
 ┌─────────────┐
-│  BUSINESSES │ ← Клиенты
+│  BUSINESSES │ ← Clients
 └──────┬──────┘
        │
        ├──→ TALENTS (Get assigned talent)
@@ -304,202 +304,202 @@ Skill = Responsibility + Tool
        └──→ TASK_MANAGERS (Client-related tasks)
 ```
 
-### Детальные Взаимосвязи
+### Detailed Relationships
 
 #### 1. LIBRARIES ↔ TASK_MANAGERS
-- **Задачи состоят из:** Actions + Objects
-- **Задачи требуют:** Tools
-- **Задачи назначаются на основе:** Responsibilities
-- **Пример:** Task "Create Job Posting" = Action "Create" + Object "Job Posting" + Tool "Notion"
+- **Tasks consist of:** Actions + Objects
+- **Tasks require:** Tools
+- **Tasks assigned based on:** Responsibilities
+- **Example:** Task "Create Job Posting" = Action "Create" + Object "Job Posting" + Tool "Notion"
 
 #### 2. LIBRARIES ↔ TALENTS
-- **Навыки определяются:** Responsibilities (Action + Object) + Tools
-- **Профессии определяют:** Требуемые навыки и инструменты
-- **Сотрудники имеют:** Профили навыков с уровнями владения инструментами
-- **Пример:** Skill "send cold emails via Gmail" = Responsibility "send cold emails" + Tool "Gmail"
+- **Skills defined as:** Responsibilities (Action + Object) + Tools
+- **Professions define:** Required skills and tools
+- **Employees have:** Skill profiles with tool proficiency levels
+- **Example:** Skill "send cold emails via Gmail" = Responsibility "send cold emails" + Tool "Gmail"
 
 #### 3. TALENTS ↔ TASK_MANAGERS
-- **Сотрудники назначаются:** На задачи
-- **Задачи требуют:** Определенные профессиональные возможности
-- **Производительность отслеживается:** Через выполнение задач
-- **Пример:** Employee "Artemchuk Nikolay" assigned to Task "Create Job Posting"
+- **Employees assigned:** To tasks
+- **Tasks require:** Specific profession capabilities
+- **Performance tracked:** Through task completion
+- **Example:** Employee "Artemchuk Nikolay" assigned to Task "Create Job Posting"
 
 #### 4. TALENTS ↔ JOBS
-- **Таланты подают заявки:** На вакансии
-- **Вакансии требуют:** Определенные навыки талантов
-- **Сопоставление использует:** Матрицу навыков
-- **Пример:** Job "Frontend Developer" requires Skills ["React", "TypeScript"] → Match with Talents having these skills
+- **Talents apply:** To jobs
+- **Jobs require:** Specific talent skills
+- **Matching uses:** Skills matrix
+- **Example:** Job "Frontend Developer" requires Skills ["React", "TypeScript"] → Match with Talents having these skills
 
 #### 5. BUSINESSES ↔ TALENTS
-- **Таланты назначаются:** На клиентские проекты
-- **Отзывы клиентов влияют:** На метрики производительности талантов
-- **Video-first презентация:** Конкурентное преимущество
-- **Пример:** Client "ABC Corp" gets assigned Talent "Shelep Olha" for Design project
+- **Talents assigned:** To client projects
+- **Client feedback affects:** Talent performance metrics
+- **Video-first presentation:** Competitive advantage
+- **Example:** Client "ABC Corp" gets assigned Talent "Shelep Olha" for Design project
 
-#### 6. PROMPTS ↔ Все Сущности
-- **Промпты обрабатывают:** Данные из всех сущностей
-- **Промпты создают:** Новые сущности и обновляют существующие
-- **Промпты интегрируют:** Видео-контент в таксономию
-- **Пример:** PMT-004 (Video Transcription) → Extracts Tasks → Updates TASK_MANAGERS
-
----
-
-## 📊 Статистика Системы
-
-### Общая Статистика
-- **Всего элементов:** 5,321
-- **Всего файлов:** 3,871
-- **Всего директорий:** 1,450
-- **Общий размер:** 78.81 MB
-- **Мастер-файлы:** 1,049
-- **Документация (.md):** 1,534
-
-### Распределение по Типам Файлов
-- **JSON:** 2,163 файла
-- **Markdown:** 1,534 файла
-- **Python:** 83 файла
-- **CSV:** 33 файла
-- **YAML:** 21 файл
-
-### Распределение по Сущностям
-- **BUSINESSES:** 2,374 элемента
-- **DAILIES:** 545 элементов
-- **TASK_MANAGERS:** 525 элементов
-- **LIBRARIES:** 482 элемента
-- **PROMPTS:** 251 элемент
-- **RESEARCHES:** 238 элементов
-- **TALENTS:** 215 элементов
-- **REPORTS:** 212 элементов
+#### 6. PROMPTS ↔ All Entities
+- **Prompts process:** Data from all entities
+- **Prompts create:** New entities and update existing ones
+- **Prompts integrate:** Video content into taxonomy
+- **Example:** PMT-004 (Video Transcription) → Extracts Tasks → Updates TASK_MANAGERS
 
 ---
 
-## 🔄 Как Работает Система
+## 📊 System Statistics
 
-### Пример Полного Цикла
+### Overall Statistics
+- **Total Items:** 5,321
+- **Total Files:** 3,871
+- **Total Directories:** 1,450
+- **Total Size:** 78.81 MB
+- **Master Files:** 1,049
+- **Documentation (.md):** 1,534
 
-**Сценарий:** Создание вакансии и найм сотрудника
+### File Type Distribution
+- **JSON:** 2,163 files
+- **Markdown:** 1,534 files
+- **Python:** 83 files
+- **CSV:** 33 files
+- **YAML:** 21 files
 
-1. **LIBRARIES** → Определяем требования:
+### Distribution by Entity
+- **BUSINESSES:** 2,374 items
+- **DAILIES:** 545 items
+- **TASK_MANAGERS:** 525 items
+- **LIBRARIES:** 482 items
+- **PROMPTS:** 251 items
+- **RESEARCHES:** 238 items
+- **TALENTS:** 215 items
+- **REPORTS:** 212 items
+
+---
+
+## 🔄 How The System Works
+
+### Complete Cycle Example
+
+**Scenario:** Creating a job posting and hiring an employee
+
+1. **LIBRARIES** → Define requirements:
    - Profession: "Frontend Developer" (PRF-001)
    - Required Skills: ["React", "TypeScript"] (SKL-030, SKL-032)
    - Required Tools: ["VS Code", "Git"] (TOL-045, TOL-067)
 
-2. **JOBS** → Создаем вакансию:
+2. **JOBS** → Create job posting:
    - Task: "Create Job Posting" (TSK-001)
-   - Используем шаблон из TASK_MANAGERS
+   - Use template from TASK_MANAGERS
    - Action: "Create" + Object: "Job Posting"
 
-3. **TALENTS** → Ищем кандидатов:
-   - Ищем сотрудников с Skills ["React", "TypeScript"]
-   - Проверяем Tool Proficiency ["VS Code", "Git"]
-   - Сопоставляем с Job Requirements
+3. **TALENTS** → Find candidates:
+   - Search employees with Skills ["React", "TypeScript"]
+   - Check Tool Proficiency ["VS Code", "Git"]
+   - Match with Job Requirements
 
-4. **TASK_MANAGERS** → Управляем процессом:
+4. **TASK_MANAGERS** → Manage process:
    - Project: "Hiring Frontend Developer"
    - Milestones: Application Review → Technical Test → Interview → Offer
    - Tasks assigned to HR team
 
-5. **BUSINESSES** → Если для клиента:
+5. **BUSINESSES** → If for client:
    - Client gets assigned Talent
    - Project created in BUSINESSES
    - Tasks tracked in TASK_MANAGERS
 
-6. **PROMPTS** → Автоматизация:
+6. **PROMPTS** → Automation:
    - PMT-053 (CV Parser) → Processes applications
    - PMT-056 (Interview Conductor) → Conducts interviews
    - PMT-032 (Daily Reports) → Tracks progress
 
 ---
 
-## 🎯 Ключевые Принципы
+## 🎯 Key Principles
 
-### 1. Централизация Знаний
-Все определения, стандарты и библиотеки хранятся в **LIBRARIES**, обеспечивая единообразие по всей организации.
+### 1. Knowledge Centralization
+All definitions, standards, and libraries are stored in **LIBRARIES**, ensuring consistency across the organization.
 
-### 2. Шаблонный Подход
-**TASK_MANAGERS** использует шаблоны для устранения необходимости принимать решения каждый раз заново.
+### 2. Template-Driven Approach
+**TASK_MANAGERS** uses templates to eliminate the need to make decisions every time.
 
-### 3. Композиция Сущностей
-Сложные сущности строятся из простых:
+### 3. Entity Composition
+Complex entities are built from simple ones:
 - **Task** = Action + Object + Context
 - **Skill** = Responsibility + Tool
 - **Responsibility** = Process + Object
 
-### 4. Версионность и Отслеживание
-Все изменения отслеживаются через:
-- Git версионный контроль
-- Changelog автоматически генерируется
-- Миграционные карты для обновлений
+### 4. Versioning and Tracking
+All changes are tracked through:
+- Git version control
+- Automatically generated changelog
+- Migration maps for updates
 
-### 5. AI-First Подход
-- Все продукты используют AI-инструменты
-- Промпты стандартизированы и каталогизированы
-- Автоматизация через n8n workflows
+### 5. AI-First Approach
+- All products use AI tools
+- Prompts are standardized and cataloged
+- Automation through n8n workflows
 
 ---
 
-## 📖 Быстрый Старт
+## 📖 Quick Start
 
-### Для Новых Пользователей
+### For New Users
 
-1. **Изучите структуру:**
-   - Начните с `LIBRARIES/README.md` — понимание базовых компонентов
-   - Затем `TASK_MANAGERS/README.md` — как работают процессы
-   - `TALENTS/README.md` — управление людьми
+1. **Study the structure:**
+   - Start with `LIBRARIES/README.md` — understanding basic components
+   - Then `TASK_MANAGERS/README.md` — how processes work
+   - `TALENTS/README.md` — managing people
 
-2. **Используйте поиск:**
-   - Ищите по ID (например, "ACT-001", "TSK-001")
-   - Ищите по названию сущности
-   - Используйте Master Lists для навигации
+2. **Use search:**
+   - Search by ID (e.g., "ACT-001", "TSK-001")
+   - Search by entity name
+   - Use Master Lists for navigation
 
-3. **Следуйте шаблонам:**
-   - Используйте существующие шаблоны задач
-   - Создавайте новые на основе существующих
-   - Обновляйте документацию при изменениях
+3. **Follow templates:**
+   - Use existing task templates
+   - Create new ones based on existing
+   - Update documentation when making changes
 
-### Для Разработчиков
+### For Developers
 
-1. **API Доступ:**
+1. **API Access:**
    - LIBRARIES: [https://libs.anyemp.com/](https://libs.anyemp.com/)
-   - Используйте Master Lists (CSV/JSON) для интеграции
+   - Use Master Lists (CSV/JSON) for integration
 
-2. **ID Системы:**
-   - Следуйте ISO-кодам из TAXONOMY
-   - Используйте Master Lists для присвоения новых ID
-   - Обновляйте регистры при добавлении новых сущностей
+2. **ID Systems:**
+   - Follow ISO codes from TAXONOMY
+   - Use Master Lists to assign new IDs
+   - Update registries when adding new entities
 
-3. **Автоматизация:**
-   - Используйте PROMPTS для AI-обработки
-   - Интегрируйте с n8n через Workflows
-   - Используйте скрипты из `scripts/` для массовых операций
+3. **Automation:**
+   - Use PROMPTS for AI processing
+   - Integrate with n8n through Workflows
+   - Use scripts from `scripts/` for bulk operations
 
 ---
 
-## 🔍 Навигация по Системе
+## 🔍 System Navigation
 
-### Поиск по Типу Сущности
+### Search by Entity Type
 
-**Actions (Действия):**
+**Actions:**
 - `LIBRARIES/Responsibilities/Actions/Actions_Master.json`
-- 429 действий в 3 категориях (Command, Process, Result)
+- 429 actions in 3 categories (Command, Process, Result)
 
-**Objects (Объекты):**
+**Objects:**
 - `LIBRARIES/Responsibilities/Objects/`
-- 50+ объектов в 13 доменных коллекциях
+- 50+ objects in 13 domain collections
 
-**Tools (Инструменты):**
+**Tools:**
 - `LIBRARIES/LBS_003_Tools/`
-- 176+ инструментов по категориям
+- 176+ tools by category
 
-**Tasks (Задачи):**
+**Tasks:**
 - `TASK_MANAGERS/TSM-003_Task_Templates/`
-- 93 шаблона задач
+- 93 task templates
 
-**Skills (Навыки):**
+**Skills:**
 - `TALENTS/Skills/Master/all_skills.json`
-- 28+ навыков по отделам и профессиям
+- 28+ skills by department and profession
 
-### Поиск по Отделу
+### Search by Department
 
 **AI & Automation:**
 - LIBRARIES: 80 Responsibilities
@@ -518,44 +518,44 @@ Skill = Responsibility + Tool
 
 ---
 
-## 🛠️ Технические Детали
+## 🛠️ Technical Details
 
-### Форматы Данных
+### Data Formats
 
-**JSON** — основной формат для структурированных данных:
+**JSON** — primary format for structured data:
 - Actions, Objects, Tools, Professions
 - Task Templates, Project Templates
 - Employee Profiles, Client Data
 
-**Markdown** — документация и описания:
-- README файлы для каждой сущности
-- Guides и инструкции
-- Changelog и отчеты
+**Markdown** — documentation and descriptions:
+- README files for each entity
+- Guides and instructions
+- Changelog and reports
 
-**CSV** — Master Lists для каталогизации:
+**CSV** — Master Lists for cataloging:
 - Libraries_Master_List.csv
 - Taxonomy_Master_List.csv
 - PMT_Master_List.csv
 
-**YAML** — Workflow определения:
-- n8n workflow конфигурации
+**YAML** — Workflow definitions:
+- n8n workflow configurations
 - Automation pipelines
 
-### Система Именования
+### Naming Conventions
 
-**Файлы:**
+**Files:**
 ```
 {ENTITY}_{Type}_{Name}_{Version}.{ext}
-Примеры:
+Examples:
 - LIBRARIES_Action_Create_v1.json
 - TASK_MANAGERS_Task_Task-Template-007.json
 - TALENTS_Employee_Artemchuk_Nikolay_Profile.md
 ```
 
-**ID Форматы:**
+**ID Formats:**
 ```
 {ISO_CODE}-{###}
-Примеры:
+Examples:
 - ACT-001 (Action)
 - TSK-001 (Task)
 - PRF-001 (Profession)
@@ -564,129 +564,129 @@ Skill = Responsibility + Tool
 
 ---
 
-## 📚 Дополнительные Ресурсы
+## 📚 Additional Resources
 
-### Документация по Сущностям
-- [LIBRARIES/README.md](LIBRARIES/README.md) — Полная документация библиотек
-- [TASK_MANAGERS/README.md](TASK_MANAGERS/README.md) — Документация операций
-- [TALENTS/README.md](TALENTS/README.md) — Документация талантов
-- [PROMPTS/README.md](PROMPTS/README.md) — Документация промптов
-- [TAXONOMY/README.md](TAXONOMY/README.md) — Документация таксономии
+### Entity Documentation
+- [LIBRARIES/README.md](LIBRARIES/README.md) — Complete libraries documentation
+- [TASK_MANAGERS/README.md](TASK_MANAGERS/README.md) — Operations documentation
+- [TALENTS/README.md](TALENTS/README.md) — Talent documentation
+- [PROMPTS/README.md](PROMPTS/README.md) — Prompts documentation
+- [TAXONOMY/README.md](TAXONOMY/README.md) — Taxonomy documentation
 
-### Индексы и Мастер-Списки
-- [ENTITIES_MASTER_LIST.csv](ENTITIES_MASTER_LIST.csv) — Полный каталог всех сущностей
-- [TASK_MANAGERS/INDEX.md](TASK_MANAGERS/INDEX.md) — Индекс всех шаблонов
-- [LIBRARIES/LBS_FOLDER_MASTER.md](LIBRARIES/LBS_FOLDER_MASTER.md) — Мастер-список библиотек
+### Indexes and Master Lists
+- [ENTITIES_MASTER_LIST.csv](ENTITIES_MASTER_LIST.csv) — Complete catalog of all entities
+- [TASK_MANAGERS/INDEX.md](TASK_MANAGERS/INDEX.md) — Index of all templates
+- [LIBRARIES/LBS_FOLDER_MASTER.md](LIBRARIES/LBS_FOLDER_MASTER.md) — Libraries master list
 
-### Миграция и История
-- [FINAL_MIGRATION_SUMMARY_2025-11-17.md](FINAL_MIGRATION_SUMMARY_2025-11-17.md) — История миграций
-- [ARCHITECTURE_UPDATE_PLAN.md](ARCHITECTURE_UPDATE_PLAN.md) — Планы обновлений
-
----
-
-## 🔄 Синхронизация с GitHub
-
-Этот репозиторий автоматически синхронизируется из Dropbox каждые 24 часа.
-
-**Расписание:** Каждый день в 2:00 AM UTC
-
-**Процесс:**
-1. GitHub Actions запускается по расписанию
-2. Подключается к Dropbox через API
-3. Сканирует папку `/ENTITIES`
-4. Сравнивает с текущим git репозиторием
-5. Загружает новые и измененные файлы
-6. Удаляет удаленные файлы
-7. Генерирует changelog
-8. Коммитит и пушит изменения
-
-**Ручной запуск:** Можно запустить вручную через GitHub Actions → "Run workflow"
+### Migration and History
+- [FINAL_MIGRATION_SUMMARY_2025-11-17.md](FINAL_MIGRATION_SUMMARY_2025-11-17.md) — Migration history
+- [ARCHITECTURE_UPDATE_PLAN.md](ARCHITECTURE_UPDATE_PLAN.md) — Update plans
 
 ---
 
-## 🎓 Примеры Использования
+## 🔄 GitHub Sync
 
-### Пример 1: Создание Задачи
+This repository automatically syncs from Dropbox every 24 hours.
 
-**Задача:** Создать вакансию для Frontend Developer
+**Schedule:** Daily at 2:00 AM UTC
 
-1. **Найти Action:** `LIBRARIES/Responsibilities/Actions/` → "Create"
-2. **Найти Object:** `LIBRARIES/Responsibilities/Objects/` → "Job Posting"
-3. **Найти Template:** `TASK_MANAGERS/TSM-003_Task_Templates/` → Task-Template-007.json
-4. **Использовать Template:** Следовать шагам из Step Templates
-5. **Создать Job:** `JOBS/Job_Postings/` → Новый файл с требованиями
+**Process:**
+1. GitHub Actions runs on schedule
+2. Connects to Dropbox via API
+3. Scans `/ENTITIES` folder
+4. Compares with current git repository
+5. Downloads new and modified files
+6. Removes deleted files
+7. Generates changelog
+8. Commits and pushes changes
 
-### Пример 2: Поиск Таланта
+**Manual Trigger:** Can be triggered manually via GitHub Actions → "Run workflow"
 
-**Задача:** Найти Frontend Developer с навыками React
+---
 
-1. **Определить Requirements:** 
+## 🎓 Usage Examples
+
+### Example 1: Creating a Task
+
+**Task:** Create a job posting for Frontend Developer
+
+1. **Find Action:** `LIBRARIES/Responsibilities/Actions/` → "Create"
+2. **Find Object:** `LIBRARIES/Responsibilities/Objects/` → "Job Posting"
+3. **Find Template:** `TASK_MANAGERS/TSM-003_Task_Templates/` → Task-Template-007.json
+4. **Use Template:** Follow steps from Step Templates
+5. **Create Job:** `JOBS/Job_Postings/` → New file with requirements
+
+### Example 2: Finding Talent
+
+**Task:** Find Frontend Developer with React skills
+
+1. **Define Requirements:** 
    - Profession: "Frontend Developer" (PRF-001)
    - Skills: ["React"] (SKL-030)
    - Tools: ["VS Code"] (TOL-045)
 
-2. **Искать в TALENTS:**
-   - `TALENTS/Employees/` → Фильтр по Profession
-   - Проверить Skills в профилях
-   - Проверить Tool Proficiency
+2. **Search in TALENTS:**
+   - `TALENTS/Employees/` → Filter by Profession
+   - Check Skills in profiles
+   - Check Tool Proficiency
 
-3. **Сопоставить:**
-   - Использовать Skills matrix для сопоставления
-   - Проверить Availability
-   - Проверить Performance metrics
+3. **Match:**
+   - Use Skills matrix for matching
+   - Check Availability
+   - Check Performance metrics
 
-### Пример 3: Обработка Видео
+### Example 3: Video Processing
 
-**Задача:** Обработать видео и извлечь задачи
+**Task:** Process video and extract tasks
 
-1. **Использовать Prompt:** PMT-004 (Video Transcription)
-2. **Обработать:** Видео транскрибируется
-3. **Извлечь Entities:** Actions, Objects, Tasks из транскрипции
-4. **Обновить LIBRARIES:** Новые Actions/Objects добавляются
-5. **Создать Tasks:** В TASK_MANAGERS на основе извлеченных данных
-6. **Обновить TAXONOMY:** Новые ID присваиваются
-
----
-
-## 🚀 Будущее Развитие
-
-### Планируемые Улучшения
-
-- **PostgreSQL Integration** — миграция данных в базу данных
-- **API Gateway** — единая точка доступа ко всем сущностям
-- **Real-time Sync** — синхронизация в реальном времени
-- **Advanced Analytics** — расширенная аналитика и отчетность
-- **Mobile App** — мобильное приложение для доступа
-
-### Текущие Проекты
-
-- **Taxonomy Standardization** — стандартизация всех ID систем
-- **Workflow Automation** — автоматизация через n8n
-- **Skills Development** — развитие системы навыков
-- **Client Integration** — интеграция с CRM системами
+1. **Use Prompt:** PMT-004 (Video Transcription)
+2. **Process:** Video is transcribed
+3. **Extract Entities:** Actions, Objects, Tasks from transcription
+4. **Update LIBRARIES:** New Actions/Objects added
+5. **Create Tasks:** In TASK_MANAGERS based on extracted data
+6. **Update TAXONOMY:** New IDs assigned
 
 ---
 
-## 📞 Контакты и Поддержка
+## 🚀 Future Development
 
-**Владелец Системы:** AI & Automation Department  
-**Архитектура:** Framework Architecture Team  
-**Вопросы:** Обращайтесь к системным администраторам
+### Planned Improvements
+
+- **PostgreSQL Integration** — migrate data to database
+- **API Gateway** — single access point for all entities
+- **Real-time Sync** — real-time synchronization
+- **Advanced Analytics** — enhanced analytics and reporting
+- **Mobile App** — mobile app for access
+
+### Current Projects
+
+- **Taxonomy Standardization** — standardizing all ID systems
+- **Workflow Automation** — automation through n8n
+- **Skills Development** — developing skills system
+- **Client Integration** — integration with CRM systems
 
 ---
 
-## 📝 Лицензия и Статус
+## 📞 Contact & Support
 
-**Статус:** Активная разработка  
-**Версия:** 2.0  
-**Последнее обновление:** Ноябрь 2025
+**System Owner:** AI & Automation Department  
+**Architecture:** Framework Architecture Team  
+**Issues:** Report to system administrators
 
 ---
 
-**🎉 Добро пожаловать в мир ENTITIES!**
+## 📝 License & Status
 
-Эта система — живой организм, который постоянно развивается и улучшается. Каждая сущность связана с другими, создавая мощную экосистему для управления знаниями и операциями.
+**Status:** Active Development  
+**Version:** 2.0  
+**Last Updated:** November 2025
 
-**Начните с изучения LIBRARIES** — это основа всей системы. Затем переходите к TASK_MANAGERS для понимания процессов, и далее к другим сущностям по мере необходимости.
+---
 
-**Удачи в исследовании! 🚀**
+**🎉 Welcome to the ENTITIES World!**
+
+This system is a living organism that constantly evolves and improves. Each entity is connected to others, creating a powerful ecosystem for knowledge and operations management.
+
+**Start by exploring LIBRARIES** — this is the foundation of the entire system. Then move to TASK_MANAGERS to understand processes, and continue to other entities as needed.
+
+**Happy exploring! 🚀**
