@@ -165,11 +165,43 @@ class DropboxToGitHubSync:
         """Calculate SHA256 hash of file content"""
         return hashlib.sha256(content).hexdigest()
     
+    def redact_secrets(self, content: bytes, file_path: str) -> bytes:
+        """Redact common secret patterns from file content"""
+        try:
+            # Only process text files
+            if not file_path.endswith(('.md', '.txt', '.py', '.json', '.yaml', '.yml', '.csv', '.log')):
+                return content
+            
+            text = content.decode('utf-8', errors='ignore')
+            original_text = text
+            
+            # Redact GitHub Personal Access Tokens (ghp_...)
+            import re
+            text = re.sub(r'ghp_[A-Za-z0-9]{36,}', 'ghp_[REDACTED]', text)
+            
+            # Redact other common token patterns
+            text = re.sub(r'sl\.u\.[A-Za-z0-9_-]{200,}', 'sl.u.[REDACTED]', text)  # Dropbox tokens
+            text = re.sub(r'xox[baprs]-[0-9A-Za-z-]{27,}', 'xox[baprs]-[REDACTED]', text)  # Slack tokens
+            text = re.sub(r'sk-[A-Za-z0-9]{32,}', 'sk-[REDACTED]', text)  # Stripe/OpenAI keys
+            
+            # Only return modified content if changes were made
+            if text != original_text:
+                self.log(f"Redacted secrets from {file_path}", "WARN")
+                return text.encode('utf-8')
+            
+            return content
+        except Exception as e:
+            self.log(f"Error redacting secrets from {file_path}: {e}", "WARN")
+            return content
+    
     def download_file(self, dropbox_path: str) -> Optional[Tuple[bytes, Dict]]:
         """Download file from Dropbox with metadata"""
         try:
             metadata, response = self.dbx.files_download(dropbox_path)
             content = response.content
+            
+            # Redact secrets before returning content
+            content = self.redact_secrets(content, dropbox_path)
             
             # Try to get file history for author information
             author = "Unknown"
@@ -472,6 +504,7 @@ class DropboxToGitHubSync:
             if result:
                 content, metadata = result
                 file_info["author"] = metadata.get("author", "Unknown")
+                # Content already redacted in download_file
                 self.save_file_locally(dropbox_path, content, local_path)
                 self.file_hashes[local_path] = self.get_file_hash(content)
                 self.file_metadata[local_path] = metadata
