@@ -8,6 +8,8 @@
 
 ## Contact Information
 
+- **Nov25 Folder:** /Dropbox/Nov25/Design/Shelep Olha
+
 - **Personal Email:** shelep.olya@gmail.com
 - **Work Email:** olyashelep@gmail.com
 - **Discord ID:** Not specified

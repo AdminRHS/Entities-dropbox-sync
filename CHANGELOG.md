@@ -1,3 +1,3365 @@
+# Changelog - 2025-11-26
+
+**Sync Date:** 2025-11-26 04:01:54 UTC
+**Total Changes:** 1612 files
+
+## Summary
+
+- **Added:** 961 files
+- **Modified:** 99 files
+- **Deleted:** 552 files
+
+## Changes by Category
+
+### "DAILIES
+
+**Total changes:** 3 files
+
+**Deleted (3 files):**
+- `BUSINESSES_Prospect_Markew\303\244rn_Studios_BUS-2025-021.json"`
+- `BUSINESSES_Prospect_Electr\303\243o_BUS-2025-018.json"`
+- `TODO.md"`
+
+
+### "TALENTS
+
+**Total changes:** 2 files
+
+**Deleted (2 files):**
+- `Profile Video Editor Azanova Dar\312\274ya.md"`
+- `Azanova Dar\312\274ya.md"`
+
+
+### "TASK_MANAGERS
+
+**Total changes:** 1 files
+
+**Deleted (1 files):**
+- `Video_024 (\320\241\320\277\321\226\321\200\320\275\320\260 \320\272\320\276\320\277\321\226\321\217 \320\272\320\276\321\200\320\270\321\201\321\202\321\203\320\262\320\260\321\207\320\260 HR RemotEmployees 2025-11-25).md"`
+
+
+### DAILIES
+
+**Total changes:** 655 files
+
+**Added (401 files):**
+- `TODO.md` → `Week3/20/Azanova Darʼya_Week_3/TODO.md` (1.57 KB, modified: 2025-11-19T18:27:13, by: Dropbox User)
+- `BUSINESSES_Prospect_Electrão_BUS-2025-018.json` → `IMPORTS/Week_3/2025-11-22_Sales_Import/archive_2025-11-22/Prospects/BUSINESSES_Prospect_Electrão_BUS-2025-018.json` (1.56 KB, modified: 2025-11-21T23:49:35, by: Dropbox User)
+- `BUSINESSES_Prospect_Markewärn_Studios_BUS-2025-021.json` → `IMPORTS/Week_3/2025-11-22_Sales_Import/archive_2025-11-22/Prospects/BUSINESSES_Prospect_Markewärn_Studios_BUS-2025-021.json` (4.26 KB, modified: 2025-11-21T23:49:35, by: Dropbox User)
+- `README.md` → `Daily_Processing/README.md` (3.53 KB, modified: 2025-11-25T14:02:11, by: Dropbox User)
+- `Daily_Processing_Workflow_Simple.md` → `PLANS/Week_4/Daily_Processing_Workflow_Simple.md` (6.08 KB, modified: 2025-11-25T14:13:24, by: Dropbox User)
+- `GDS-001_Daily_Task_Processing_Instructions.md` → `Daily_Processing/Daily_Processing_Workflow/Guides/GDS-001_Daily_Task_Processing_Instructions.md` (34.32 KB, modified: 2025-11-25T14:21:31, by: Dropbox User)
+- `Task_Assignment_Rules.json` → `Daily_Processing/Daily_Processing_Workflow/Support_Files/Task_Assignment_Rules.json` (7.46 KB, modified: 2025-11-25T12:33:56, by: Dropbox User)
+- `Daily_Processing_Master.csv` → `Daily_Processing/Daily_Processing_Workflow/Support_Files/Daily_Processing_Master.csv` (131 bytes, modified: 2025-11-25T12:34:14, by: Dropbox User)
+- `Processing_Metrics.csv` → `Daily_Processing/Daily_Processing_Workflow/Support_Files/Processing_Metrics.csv` (266 bytes, modified: 2025-11-25T12:34:15, by: Dropbox User)
+- `README.md` → `Daily_Processing/Daily_Processing_Workflow/README.md` (6.49 KB, modified: 2025-11-25T14:01:54, by: Dropbox User)
+- `MLT-001_Setup.md` → `PLANS/Week_4/MLT-001_Setup.md` (5.40 KB, modified: 2025-11-25T14:59:21, by: Dropbox User)
+- `MLT-002_Collection.md` → `PLANS/Week_4/MLT-002_Collection.md` (7.80 KB, modified: 2025-11-25T15:03:12, by: Dropbox User)
+- `MLT-003_Entity_Extraction.md` → `PLANS/Week_4/MLT-003_Entity_Extraction.md` (9.00 KB, modified: 2025-11-25T15:04:07, by: Dropbox User)
+- `MLT-004_Gap_Analysis.md` → `PLANS/Week_4/MLT-004_Gap_Analysis.md` (9.22 KB, modified: 2025-11-25T15:05:04, by: Dropbox User)
+- `MLT-005_Template_Creation.md` → `PLANS/Week_4/MLT-005_Template_Creation.md` (10.45 KB, modified: 2025-11-25T15:06:19, by: Dropbox User)
+- `MLT-006_Task_Assignment_Planning.md` → `PLANS/Week_4/MLT-006_Task_Assignment_Planning.md` (14.39 KB, modified: 2025-11-25T15:07:45, by: Dropbox User)
+- `MLT-007_Task_Distribution.md` → `PLANS/Week_4/MLT-007_Task_Distribution.md` (13.14 KB, modified: 2025-11-25T15:09:17, by: Dropbox User)
+- `MLT-008_Quality_Assurance.md` → `PLANS/Week_4/MLT-008_Quality_Assurance.md` (12.16 KB, modified: 2025-11-25T15:10:37, by: Dropbox User)
+- `MLT-009_Archival_Reporting.md` → `PLANS/Week_4/MLT-009_Archival_Reporting.md` (12.37 KB, modified: 2025-11-25T15:12:04, by: Dropbox User)
+- `00_Daily_Processing_Milestones_Index.md` → `PLANS/Week_4/00_Daily_Processing_Milestones_Index.md` (14.19 KB, modified: 2025-11-25T15:13:36, by: Dropbox User)
+- `collect_daily_files.py` → `Daily_Processing/Daily_Processing_Workflow/Scripts/collect_daily_files.py` (11.22 KB, modified: 2025-11-25T15:26:42, by: Dropbox User)
+- `extract_tasks_batch.py` → `Daily_Processing/Daily_Processing_Workflow/Scripts/extract_tasks_batch.py` (13.93 KB, modified: 2025-11-25T15:31:01, by: Dropbox User)
+- `assign_tasks.py` → `Daily_Processing/Daily_Processing_Workflow/Scripts/assign_tasks.py` (18.10 KB, modified: 2025-11-25T15:32:21, by: Dropbox User)
+- `distribute_tasks.py` → `Daily_Processing/Daily_Processing_Workflow/Scripts/distribute_tasks.py` (13.50 KB, modified: 2025-11-25T15:33:21, by: Dropbox User)
+- `README.md` → `Daily_Processing/Daily_Processing_Workflow/Scripts/README.md` (13.23 KB, modified: 2025-11-25T15:37:06, by: Dropbox User)
+- `run_daily_processing.py` → `Daily_Processing/Daily_Processing_Workflow/Scripts/run_daily_processing.py` (10.31 KB, modified: 2025-11-25T15:34:32, by: Dropbox User)
+- `Automation_Completion_Report.md` → `PLANS/Week_4/Automation_Completion_Report.md` (12.40 KB, modified: 2025-11-25T15:41:45, by: Dropbox User)
+- `INSTALLATION.md` → `Daily_Processing/Daily_Processing_Workflow/Scripts/INSTALLATION.md` (10.58 KB, modified: 2025-11-25T15:42:45, by: Dropbox User)
+- `Video_002_Gap_Analysis.md` → `REPORTS/Week_3/Reports_week 3_Source/ARCHIVE/Videos/Reports/Video_002_Gap_Analysis.md` (35.42 KB, modified: 2025-11-13T18:40:34, by: Dropbox User)
+- `Video_009_Gap_Analysis.md` → `REPORTS/Week_3/Reports_week 3_Source/ARCHIVE/Videos/Reports/Video_009_Gap_Analysis.md` (22.28 KB, modified: 2025-11-13T18:40:42, by: Dropbox User)
+- `Video_009_Library_Mapping_Report.md` → `REPORTS/Week_3/Reports_week 3_Source/ARCHIVE/Videos/Reports/Video_009_Library_Mapping_Report.md` (21.00 KB, modified: 2025-11-16T17:20:17, by: Dropbox User)
+- `Video_002_Extraction_Inventory.md` → `REPORTS/Week_3/Reports_week 3_Source/ARCHIVE/Videos/Reports/Video_002_Extraction_Inventory.md` (15.04 KB, modified: 2025-11-13T18:40:34, by: Dropbox User)
+- `Video_001_Library_Mapping_Report.md` → `REPORTS/Week_3/Reports_week 3_Source/ARCHIVE/Videos/Reports/Video_001_Library_Mapping_Report.md` (18.01 KB, modified: 2025-11-13T18:40:34, by: Dropbox User)
+- `Video_005_Library_Mapping_Report.md` → `REPORTS/Week_3/Reports_week 3_Source/ARCHIVE/Videos/Reports/Video_005_Library_Mapping_Report.md` (20.65 KB, modified: 2025-11-13T23:04:53, by: Dropbox User)
+- `Video_002_Library_Mapping_Report.md` → `REPORTS/Week_3/Reports_week 3_Source/ARCHIVE/Videos/Reports/Video_002_Library_Mapping_Report.md` (11.22 KB, modified: 2025-11-13T22:14:46, by: Dropbox User)
+- `Video_017_Library_Mapping_Report.md` → `REPORTS/Week_3/Reports_week 3_Source/ARCHIVE/Videos/Reports/Video_017_Library_Mapping_Report.md` (20.22 KB, modified: 2025-11-21T14:58:17, by: Dropbox User)
+- `Video_018_Library_Mapping_Report.md` → `REPORTS/Week_3/Reports_week 3_Source/ARCHIVE/Videos/Reports/Video_018_Library_Mapping_Report.md` (23.73 KB, modified: 2025-11-21T15:25:41, by: Dropbox User)
+- `Video_002.md` → `REPORTS/Week_3/Reports_week 3_Source/ARCHIVE/Videos/Video_002.md` (37.11 KB, modified: 2025-11-13T18:39:35, by: Dropbox User)
+- `Video_001.md` → `REPORTS/Week_3/Reports_week 3_Source/ARCHIVE/Videos/Video_001.md` (20.52 KB, modified: 2025-11-13T18:39:34, by: Dropbox User)
+- `Video_009.md` → `REPORTS/Week_3/Reports_week 3_Source/ARCHIVE/Videos/Video_009.md` (47.90 KB, modified: 2025-11-13T18:39:58, by: Dropbox User)
+- `Video_003.md` → `REPORTS/Week_3/Reports_week 3_Source/ARCHIVE/Videos/Video_003.md` (23.76 KB, modified: 2025-11-13T18:39:35, by: Dropbox User)
+- `README.md` → `REPORTS/Week_3/Reports_week 3_Source/ARCHIVE/Videos/README.md` (24.50 KB, modified: 2025-11-16T15:42:19, by: Dropbox User)
+- `Video_006.md` → `REPORTS/Week_3/Reports_week 3_Source/ARCHIVE/Videos/Video_006.md` (83.62 KB, modified: 2025-11-13T18:39:47, by: Dropbox User)
+- `Video_005.md` → `REPORTS/Week_3/Reports_week 3_Source/ARCHIVE/Videos/Video_005.md` (54.44 KB, modified: 2025-11-13T18:39:47, by: Dropbox User)
+- `Video_008.md` → `REPORTS/Week_3/Reports_week 3_Source/ARCHIVE/Videos/Video_008.md` (29.51 KB, modified: 2025-11-13T18:39:58, by: Dropbox User)
+- `Video_Discovery_Pipeline.md` → `REPORTS/Week_3/Reports_week 3_Source/ARCHIVE/Videos/Video_Discovery_Pipeline.md` (16.69 KB, modified: 2025-11-14T00:20:05, by: Dropbox User)
+- `Video_004.md` → `REPORTS/Week_3/Reports_week 3_Source/ARCHIVE/Videos/Video_004.md` (52.30 KB, modified: 2025-11-13T18:39:47, by: Dropbox User)
+- `Video_007.md` → `REPORTS/Week_3/Reports_week 3_Source/ARCHIVE/Videos/Video_007.md` (176.38 KB, modified: 2025-11-13T18:39:58, by: Dropbox User)
+- `Video_014.md` → `REPORTS/Week_3/Reports_week 3_Source/ARCHIVE/Videos/Video_014.md` (30.56 KB, modified: 2025-11-17T15:12:24, by: Dropbox User)
+- `Video_010.md` → `REPORTS/Week_3/Reports_week 3_Source/ARCHIVE/Videos/Video_010.md` (28.21 KB, modified: 2025-11-14T16:25:47, by: Dropbox User)
+- `Video_011.md` → `REPORTS/Week_3/Reports_week 3_Source/ARCHIVE/Videos/Video_011.md` (39.51 KB, modified: 2025-11-15T12:33:48, by: Dropbox User)
+- `Video_012.md` → `REPORTS/Week_3/Reports_week 3_Source/ARCHIVE/Videos/Video_012.md` (26.59 KB, modified: 2025-11-15T15:06:44, by: Dropbox User)
+- `Video_013.md` → `REPORTS/Week_3/Reports_week 3_Source/ARCHIVE/Videos/Video_013.md` (53.42 KB, modified: 2025-11-15T17:04:24, by: Dropbox User)
+- `Videos_015.md` → `REPORTS/Week_3/Reports_week 3_Source/ARCHIVE/Videos/Videos_015.md` (32.25 KB, modified: 2025-11-17T17:36:18, by: Dropbox User)
+- `Videos_015_Processing_Summary.md` → `REPORTS/Week_3/Reports_week 3_Source/ARCHIVE/Videos/Videos_015_Processing_Summary.md` (13.18 KB, modified: 2025-11-17T19:28:37, by: Dropbox User)
+- `Videos_015_Final_Summary.md` → `REPORTS/Week_3/Reports_week 3_Source/ARCHIVE/Videos/Videos_015_Final_Summary.md` (9.10 KB, modified: 2025-11-17T19:36:31, by: Dropbox User)
+- `Videos_015_Hybrid_Population_Plan.md` → `REPORTS/Week_3/Reports_week 3_Source/ARCHIVE/Videos/Videos_015_Hybrid_Population_Plan.md` (17.55 KB, modified: 2025-11-17T19:44:27, by: Dropbox User)
+- `Video_016.md` → `REPORTS/Week_3/Reports_week 3_Source/ARCHIVE/Videos/Video_016.md` (65.50 KB, modified: 2025-11-17T20:16:20, by: Dropbox User)
+- `Video_016_Processing_Summary.md` → `REPORTS/Week_3/Reports_week 3_Source/ARCHIVE/Videos/Video_016_Processing_Summary.md` (15.65 KB, modified: 2025-11-17T20:43:34, by: Dropbox User)
+- `Video_017.md` → `REPORTS/Week_3/Reports_week 3_Source/ARCHIVE/Videos/Video_017.md` (26.52 KB, modified: 2025-11-21T14:59:08, by: Dropbox User)
+- `VIDEOS_INDEX.md` → `REPORTS/Week_3/Reports_week 3_Source/ARCHIVE/Videos/VIDEOS_INDEX.md` (33.38 KB, modified: 2025-11-21T15:06:48, by: Dropbox User)
+- `Video_018.md` → `REPORTS/Week_3/Reports_week 3_Source/ARCHIVE/Videos/Video_018.md` (82.07 KB, modified: 2025-11-21T15:27:51, by: Dropbox User)
+- `Video_Queue_Tracker.md` → `REPORTS/Week_3/Reports_week 3_Source/ARCHIVE/Videos/Video_Queue_Tracker.md` (5.77 KB, modified: 2025-11-21T15:28:28, by: Dropbox User)
+- `AI_Department_Report_2025-11-20.md` → `REPORTS/Week_3/Reports_week 3_Source/2025-11-20/Departments/AI_Department_Report_2025-11-20.md` (22.21 KB, modified: 2025-11-20T23:26:53, by: Dropbox User)
+- `Design_Department_Report_2025-11-20.md` → `REPORTS/Week_3/Reports_week 3_Source/2025-11-20/Departments/Design_Department_Report_2025-11-20.md` (27.20 KB, modified: 2025-11-21T20:27:37, by: Dropbox User)
+- `Dev_Department_Report_2025-11-20.md` → `REPORTS/Week_3/Reports_week 3_Source/2025-11-20/Departments/Dev_Department_Report_2025-11-20.md` (23.71 KB, modified: 2025-11-21T20:27:37, by: Dropbox User)
+- `HR_Department_Report_2025-11-20.md` → `REPORTS/Week_3/Reports_week 3_Source/2025-11-20/Departments/HR_Department_Report_2025-11-20.md` (12.11 KB, modified: 2025-11-21T20:27:37, by: Dropbox User)
+- `LG_Department_Report_2025-11-20.md` → `REPORTS/Week_3/Reports_week 3_Source/2025-11-20/Departments/LG_Department_Report_2025-11-20.md` (9.35 KB, modified: 2025-11-21T20:27:37, by: Dropbox User)
+- `Sales_Department_Report_2025-11-20.md` → `REPORTS/Week_3/Reports_week 3_Source/2025-11-20/Departments/Sales_Department_Report_2025-11-20.md` (4.78 KB, modified: 2025-11-21T20:27:37, by: Dropbox User)
+- `Video_Department_Report_2025-11-20.md` → `REPORTS/Week_3/Reports_week 3_Source/2025-11-20/Departments/Video_Department_Report_2025-11-20.md` (5.39 KB, modified: 2025-11-21T20:27:37, by: Dropbox User)
+- `01_Framework_Implementation.md` → `REPORTS/Week_3/Reports_week 3_Source/2025-11-20/Executive Report/01_Framework_Implementation.md` (22.81 KB, modified: 2025-11-16T17:43:53, by: Dropbox User)
+- `03_Team_Training_Development.md` → `REPORTS/Week_3/Reports_week 3_Source/2025-11-20/Executive Report/03_Team_Training_Development.md` (10.98 KB, modified: 2025-11-20T21:07:35, by: Dropbox User)
+- `04_Automation_Integration.md` → `REPORTS/Week_3/Reports_week 3_Source/2025-11-20/Executive Report/04_Automation_Integration.md` (8.79 KB, modified: 2025-11-20T21:18:03, by: Dropbox User)
+- `05_Performance_Management.md` → `REPORTS/Week_3/Reports_week 3_Source/2025-11-20/Executive Report/05_Performance_Management.md` (8.81 KB, modified: 2025-11-20T21:30:07, by: Dropbox User)
+- `08_Strategic_Decisions_Cultural_Shifts.md` → `REPORTS/Week_3/Reports_week 3_Source/2025-11-20/Executive Report/08_Strategic_Decisions_Cultural_Shifts.md` (10.88 KB, modified: 2025-11-20T21:42:56, by: Dropbox User)
+- `09_Foundational_Systems_W1.md` → `REPORTS/Week_3/Reports_week 3_Source/2025-11-20/Executive Report/09_Foundational_Systems_W1.md` (12.42 KB, modified: 2025-11-20T23:27:28, by: Dropbox User)
+- `10_Tools_Ecosystem_Catalog.md` → `REPORTS/Week_3/Reports_week 3_Source/2025-11-20/Executive Report/10_Tools_Ecosystem_Catalog.md` (9.41 KB, modified: 2025-11-20T23:32:05, by: Dropbox User)
+- `README.md` → `REPORTS/Week_3/Reports_week 3_Source/2025-11-20/Executive Report/README.md` (6.93 KB, modified: 2025-11-20T23:39:48, by: Dropbox User)
+- `06_Video_Processing_Knowledge_Capture.md` → `REPORTS/Week_3/Reports_week 3_Source/2025-11-20/Executive Report/06_Video_Processing_Knowledge_Capture.md` (9.06 KB, modified: 2025-11-23T23:52:17, by: Dropbox User)
+- `07_Technical_Guides_Best_Practices.md` → `REPORTS/Week_3/Reports_week 3_Source/2025-11-20/Executive Report/07_Technical_Guides_Best_Practices.md` (8.90 KB, modified: 2025-11-25T14:02:23, by: Dropbox User)
+- `02_RAG_Systems_Knowledge_Management.md` → `REPORTS/Week_3/Reports_week 3_Source/2025-11-20/Executive Report/02_RAG_Systems_Knowledge_Management.md` (11.43 KB, modified: 2025-11-25T14:02:22, by: Dropbox User)
+- `AID_Department_Report_2025-11-20.md` → `REPORTS/Week_3/Reports_week 3_Source/2025-11-20/Departments_Processed_TM/AID_Department_Report_2025-11-20.md` (22.28 KB, modified: 2025-11-21T00:44:42, by: Dropbox User)
+- `DEV_Department_Report_2025-11-20.md` → `REPORTS/Week_3/Reports_week 3_Source/2025-11-20/Departments_Processed_TM/DEV_Department_Report_2025-11-20.md` (23.77 KB, modified: 2025-11-21T00:44:42, by: Dropbox User)
+- `SLS_Department_Report_2025-11-20.md` → `REPORTS/Week_3/Reports_week 3_Source/2025-11-20/Departments_Processed_TM/SLS_Department_Report_2025-11-20.md` (4.85 KB, modified: 2025-11-21T00:44:42, by: Dropbox User)
+- `DGN_Department_Report_2025-11-20.md` → `REPORTS/Week_3/Reports_week 3_Source/2025-11-20/Departments_Processed_TM/DGN_Department_Report_2025-11-20.md` (27.27 KB, modified: 2025-11-21T00:44:42, by: Dropbox User)
+- `LGN_Department_Report_2025-11-20.md` → `REPORTS/Week_3/Reports_week 3_Source/2025-11-20/Departments_Processed_TM/LGN_Department_Report_2025-11-20.md` (9.42 KB, modified: 2025-11-21T00:44:42, by: Dropbox User)
+- `HRM_Department_Report_2025-11-20.md` → `REPORTS/Week_3/Reports_week 3_Source/2025-11-20/Departments_Processed_TM/HRM_Department_Report_2025-11-20.md` (12.18 KB, modified: 2025-11-21T00:44:42, by: Dropbox User)
+- `VID_Department_Report_2025-11-20.md` → `REPORTS/Week_3/Reports_week 3_Source/2025-11-20/Departments_Processed_TM/VID_Department_Report_2025-11-20.md` (5.46 KB, modified: 2025-11-21T00:44:42, by: Dropbox User)
+- `analyze_report_patterns.py` → `REPORTS/Week_3/Reports_week 3_Source/2025-11-20/analyze_report_patterns.py` (12.53 KB, modified: 2025-11-21T00:45:00, by: Dropbox User)
+- `AI_Department_Report_2025-11-19.md` → `REPORTS/Week_3/Reports_week 3_Source/2025-11-19/Departments/AI_Department_Report_2025-11-19.md` (37.65 KB, modified: 2025-11-24T06:03:06, by: Dropbox User)
+- `Dev_Department_Report_2025-11-19.md` → `REPORTS/Week_3/Reports_week 3_Source/2025-11-19/Departments/Dev_Department_Report_2025-11-19.md` (65.30 KB, modified: 2025-11-24T06:25:40, by: Dropbox User)
+- `Design_Department_Report_2025-11-19.md` → `REPORTS/Week_3/Reports_week 3_Source/2025-11-19/Departments/Design_Department_Report_2025-11-19.md` (15.11 KB, modified: 2025-11-24T07:29:03, by: Dropbox User)
+- `Processing_Log_2025-11-19.md` → `REPORTS/Week_3/Reports_week 3_Source/2025-11-19/Processing_Log_2025-11-19.md` (8.91 KB, modified: 2025-11-21T13:03:15, by: Dropbox User)
+- `Processing_Summary_2025-11-19.md` → `REPORTS/Week_3/Reports_week 3_Source/2025-11-19/Processing_Summary_2025-11-19.md` (11.37 KB, modified: 2025-11-21T18:48:25, by: Dropbox User)
+- `README.md` → `REPORTS/Week_3/Reports_week 3_Source/2025-11-19/README.md` (2.24 KB, modified: 2025-11-21T18:48:56, by: Dropbox User)
+- `HR_Department_Report_2025-11-21.md` → `REPORTS/Week_3/Reports_week 3_Source/2025-11-21/Departments/HR_Department_Report_2025-11-21.md` (22.97 KB, modified: 2025-11-21T21:50:15, by: Dropbox User)
+- `Video_Department_Report_2025-11-21.md` → `REPORTS/Week_3/Reports_week 3_Source/2025-11-21/Departments/Video_Department_Report_2025-11-21.md` (15.73 KB, modified: 2025-11-21T21:59:32, by: Dropbox User)
+- `AI_Department_Report_2025-11-21.md` → `REPORTS/Week_3/Reports_week 3_Source/2025-11-21/Departments/AI_Department_Report_2025-11-21.md` (29.74 KB, modified: 2025-11-21T22:55:56, by: Dropbox User)
+- `Dev_Department_Report_2025-11-21.md` → `REPORTS/Week_3/Reports_week 3_Source/2025-11-21/Departments/Dev_Department_Report_2025-11-21.md` (27.21 KB, modified: 2025-11-21T23:43:34, by: Dropbox User)
+- `Sales_Department_Report_2025-11-21.md` → `REPORTS/Week_3/Reports_week 3_Source/2025-11-21/Departments/Sales_Department_Report_2025-11-21.md` (20.52 KB, modified: 2025-11-21T23:47:38, by: Dropbox User)
+- `LG_Department_Report_2025-11-21.md` → `REPORTS/Week_3/Reports_week 3_Source/2025-11-21/Departments/LG_Department_Report_2025-11-21.md` (31.44 KB, modified: 2025-11-22T12:17:27, by: Dropbox User)
+- `Design_Department_Report_2025-11-21.md` → `REPORTS/Week_3/Reports_week 3_Source/2025-11-21/Departments/Design_Department_Report_2025-11-21.md` (37.87 KB, modified: 2025-11-22T13:52:16, by: Dropbox User)
+- `README.md` → `REPORTS/Week_3/Reports_week 3_Source/2025-11-21/README.md` (3.48 KB, modified: 2025-11-21T19:19:04, by: Dropbox User)
+- `Niko_November_21_Strategic_Session.md` → `REPORTS/Week_3/Reports_week 3_Source/2025-11-21/Niko_November_21_Strategic_Session.md` (18.91 KB, modified: 2025-11-21T19:20:47, by: Dropbox User)
+- `Processing_Summary_2025-11-21.md` → `REPORTS/Week_3/Reports_week 3_Source/2025-11-21/Processing_Summary_2025-11-21.md` (9.77 KB, modified: 2025-11-21T20:20:00, by: Dropbox User)
+- `Processing_Summary_2025-11-18.md` → `REPORTS/Week_3/Reports_week 3_Source/2025-11-18/Processing_Summary_2025-11-18.md` (8.28 KB, modified: 2025-11-23T23:26:45, by: Dropbox User)
+- `Processing_Log_2025-11-18.md` → `REPORTS/Week_3/Reports_week 3_Source/2025-11-18/Processing_Log_2025-11-18.md` (6.56 KB, modified: 2025-11-23T23:26:45, by: Dropbox User)
+- `README.md` → `REPORTS/Week_3/Reports_week 3_Source/2025-11-18/README.md` (2.15 KB, modified: 2025-11-23T23:26:45, by: Dropbox User)
+- `Processing_Summary_2025-11-17.md` → `REPORTS/Week_3/Reports_week 3_Source/2025-11-17/Processing_Summary_2025-11-17.md` (10.28 KB, modified: 2025-11-22T21:04:20, by: Dropbox User)
+- `Processing_Log_2025-11-17.md` → `REPORTS/Week_3/Reports_week 3_Source/2025-11-17/Processing_Log_2025-11-17.md` (6.82 KB, modified: 2025-11-23T23:26:45, by: Dropbox User)
+- `README.md` → `REPORTS/Week_3/Reports_week 3_Source/2025-11-17/README.md` (2.68 KB, modified: 2025-11-23T23:26:45, by: Dropbox User)
+- `Phase_3B_Video_Queue_System_Completion_Report.md` → `REPORTS/Week_3/Reports_week 3_Source/2025-11-24/System_Rebuild/Phase_3B_Video_Queue_System_Completion_Report.md` (16.46 KB, modified: 2025-11-23T23:43:12, by: Dropbox User)
+- `file_distribution.csv` → `REPORTS/Week_3/Reports_week 3_Source/System_Analysis/Milestone_01_Data_Inventory/file_distribution.csv` (143 bytes, modified: 2025-11-17T01:41:58, by: Dropbox User)
+- `folder_structure.txt` → `REPORTS/Week_3/Reports_week 3_Source/System_Analysis/Milestone_01_Data_Inventory/folder_structure.txt` (139.93 KB, modified: 2025-11-17T01:42:07, by: Dropbox User)
+- `file_distribution.json` → `REPORTS/Week_3/Reports_week 3_Source/System_Analysis/Milestone_01_Data_Inventory/file_distribution.json` (165 bytes, modified: 2025-11-17T01:55:00, by: Dropbox User)
+- `file_sizes.json` → `REPORTS/Week_3/Reports_week 3_Source/System_Analysis/Milestone_01_Data_Inventory/file_sizes.json` (2.29 KB, modified: 2025-11-17T01:55:00, by: Dropbox User)
+- `folder_structure.json` → `REPORTS/Week_3/Reports_week 3_Source/System_Analysis/Milestone_01_Data_Inventory/folder_structure.json` (16.79 KB, modified: 2025-11-17T01:55:00, by: Dropbox User)
+- `milestone_01_summary.json` → `REPORTS/Week_3/Reports_week 3_Source/System_Analysis/Milestone_01_Data_Inventory/milestone_01_summary.json` (556 bytes, modified: 2025-11-17T01:55:00, by: Dropbox User)
+- `REP-001_File_Inventory_Report.md` → `REPORTS/Week_3/Reports_week 3_Source/System_Analysis/Milestone_01_Data_Inventory/REP-001_File_Inventory_Report.md` (5.75 KB, modified: 2025-11-17T02:05:36, by: Dropbox User)
+- `naming_violations.json` → `REPORTS/Week_3/Reports_week 3_Source/System_Analysis/Milestone_02_Schema_Naming/naming_violations.json` (2 bytes, modified: 2025-11-17T02:26:58, by: Dropbox User)
+- `naming_patterns.json` → `REPORTS/Week_3/Reports_week 3_Source/System_Analysis/Milestone_02_Schema_Naming/naming_patterns.json` (6.12 KB, modified: 2025-11-17T02:26:58, by: Dropbox User)
+- `schema_violations.json` → `REPORTS/Week_3/Reports_week 3_Source/System_Analysis/Milestone_02_Schema_Naming/schema_violations.json` (33.29 KB, modified: 2025-11-17T02:26:58, by: Dropbox User)
+- `field_usage_stats.json` → `REPORTS/Week_3/Reports_week 3_Source/System_Analysis/Milestone_02_Schema_Naming/field_usage_stats.json` (5.64 KB, modified: 2025-11-17T02:26:58, by: Dropbox User)
+- `milestone_02_summary.json` → `REPORTS/Week_3/Reports_week 3_Source/System_Analysis/Milestone_02_Schema_Naming/milestone_02_summary.json` (520 bytes, modified: 2025-11-17T02:26:59, by: Dropbox User)
+- `version_inventory.json` → `REPORTS/Week_3/Reports_week 3_Source/System_Analysis/Milestone_02_Schema_Naming/version_inventory.json` (38.89 KB, modified: 2025-11-17T02:26:59, by: Dropbox User)
+- `version_issues.json` → `REPORTS/Week_3/Reports_week 3_Source/System_Analysis/Milestone_02_Schema_Naming/version_issues.json` (2 bytes, modified: 2025-11-17T02:26:59, by: Dropbox User)
+- `REP-002_Naming_Convention_Audit.md` → `REPORTS/Week_3/Reports_week 3_Source/System_Analysis/Milestone_02_Schema_Naming/REP-002_Naming_Convention_Audit.md` (4.74 KB, modified: 2025-11-17T12:46:00, by: Dropbox User)
+- `json_field_names.json` → `REPORTS/Week_3/Reports_week 3_Source/System_Analysis/Milestone_03_Content_Analysis/json_field_names.json` (133.73 KB, modified: 2025-11-17T02:38:43, by: Dropbox User)
+- `extracted_entity_ids.json` → `REPORTS/Week_3/Reports_week 3_Source/System_Analysis/Milestone_03_Content_Analysis/extracted_entity_ids.json` (654 bytes, modified: 2025-11-17T02:38:44, by: Dropbox User)
+- `milestone_03_summary.json` → `REPORTS/Week_3/Reports_week 3_Source/System_Analysis/Milestone_03_Content_Analysis/milestone_03_summary.json` (411 bytes, modified: 2025-11-17T02:38:44, by: Dropbox User)
+- `python_variables.json` → `REPORTS/Week_3/Reports_week 3_Source/System_Analysis/Milestone_03_Content_Analysis/python_variables.json` (7.41 KB, modified: 2025-11-17T02:38:44, by: Dropbox User)
+- `redundant_terms_full.json` → `REPORTS/Week_3/Reports_week 3_Source/System_Analysis/Milestone_03_Content_Analysis/redundant_terms_full.json` (25.75 KB, modified: 2025-11-17T02:38:44, by: Dropbox User)
+- `terminology_dictionary.json` → `REPORTS/Week_3/Reports_week 3_Source/System_Analysis/Milestone_03_Content_Analysis/terminology_dictionary.json` (13.94 KB, modified: 2025-11-17T02:38:44, by: Dropbox User)
+- `markdown_headings.json` → `REPORTS/Week_3/Reports_week 3_Source/System_Analysis/Milestone_03_Content_Analysis/markdown_headings.json` (2566.63 KB, modified: 2025-11-17T02:38:44, by: Dropbox User)
+- `REP-006_terminology_standards.json` → `REPORTS/Week_3/Reports_week 3_Source/System_Analysis/Milestone_03_Content_Analysis/REP-006_terminology_standards.json` (9.17 KB, modified: 2025-11-17T03:03:40, by: Dropbox User)
+- `broken_references.json` → `REPORTS/Week_3/Reports_week 3_Source/System_Analysis/Milestone_04_Relationship_Validation/broken_references.json` (11.77 KB, modified: 2025-11-17T03:01:31, by: Dropbox User)
+- `index_files.json` → `REPORTS/Week_3/Reports_week 3_Source/System_Analysis/Milestone_04_Relationship_Validation/index_files.json` (458 bytes, modified: 2025-11-17T03:01:31, by: Dropbox User)
+- `reference_map.json` → `REPORTS/Week_3/Reports_week 3_Source/System_Analysis/Milestone_04_Relationship_Validation/reference_map.json` (11.52 KB, modified: 2025-11-17T03:01:31, by: Dropbox User)
+- `milestone_04_summary.json` → `REPORTS/Week_3/Reports_week 3_Source/System_Analysis/Milestone_04_Relationship_Validation/milestone_04_summary.json` (59 bytes, modified: 2025-11-17T03:01:31, by: Dropbox User)
+- `Milestones_02_03_Summary.md` → `REPORTS/Week_3/Reports_week 3_Source/System_Analysis/Milestones_02_03_Summary.md` (1.59 KB, modified: 2025-11-17T02:57:34, by: Dropbox User)
+- `REP-003_Schema_Validation_Report.md` → `REPORTS/Week_3/Reports_week 3_Source/System_Analysis/REP-003_Schema_Validation_Report.md` (10.24 KB, modified: 2025-11-17T03:25:04, by: Dropbox User)
+- `REP-007_Cross_Reference_Validation.md` → `REPORTS/Week_3/Reports_week 3_Source/System_Analysis/REP-007_Cross_Reference_Validation.md` (10.99 KB, modified: 2025-11-17T03:28:50, by: Dropbox User)
+- `REP-010_Terminology_Consolidation.md` → `REPORTS/Week_3/Reports_week 3_Source/System_Analysis/REP-010_Terminology_Consolidation.md` (13.91 KB, modified: 2025-11-17T03:29:12, by: Dropbox User)
+- `REP-011_Action_Items_Tracker.csv` → `REPORTS/Week_3/Reports_week 3_Source/System_Analysis/REP-011_Action_Items_Tracker.csv` (4.79 KB, modified: 2025-11-17T10:14:30, by: Dropbox User)
+- `milestone_01_inventory.py` → `REPORTS/Week_3/Reports_week 3_Source/System_Analysis/milestone_01_inventory.py` (3.77 KB, modified: 2025-11-17T12:45:46, by: Dropbox User)
+- `milestone_02_schema_naming.py` → `REPORTS/Week_3/Reports_week 3_Source/System_Analysis/milestone_02_schema_naming.py` (8.60 KB, modified: 2025-11-17T12:45:46, by: Dropbox User)
+- `milestone_03_terminology.py` → `REPORTS/Week_3/Reports_week 3_Source/System_Analysis/milestone_03_terminology.py` (10.74 KB, modified: 2025-11-17T12:45:47, by: Dropbox User)
+- `milestone_04_relationships.py` → `REPORTS/Week_3/Reports_week 3_Source/System_Analysis/milestone_04_relationships.py` (4.58 KB, modified: 2025-11-17T12:45:48, by: Dropbox User)
+- `REP-009_Architecture_Documentation.md` → `REPORTS/Week_3/Reports_week 3_Source/System_Analysis/REP-009_Architecture_Documentation.md` (12.48 KB, modified: 2025-11-17T12:45:57, by: Dropbox User)
+- `REP-012_Executive_Summary.md` → `REPORTS/Week_3/Reports_week 3_Source/System_Analysis/REP-012_Executive_Summary.md` (15.01 KB, modified: 2025-11-17T12:45:58, by: Dropbox User)
+- `RESEARCHES_Master_List.csv` → `REPORTS/Week_3/Reports_week 3_Source/Taxonomy/RESEARCHES_Master_List.csv` (6.93 KB, modified: 2025-11-19T02:37:18, by: Dropbox User)
+- `RESEARCHES_Migration_Map.json` → `REPORTS/Week_3/Reports_week 3_Source/Taxonomy/RESEARCHES_Migration_Map.json` (10.20 KB, modified: 2025-11-19T02:38:04, by: Dropbox User)
+- `RESEARCHES_ISO_Code_Registry.md` → `REPORTS/Week_3/Reports_week 3_Source/Taxonomy/RESEARCHES_ISO_Code_Registry.md` (3.51 KB, modified: 2025-11-19T02:38:33, by: Dropbox User)
+- `RESEARCHES_Hierarchy_Tree.md` → `REPORTS/Week_3/Reports_week 3_Source/Taxonomy/RESEARCHES_Hierarchy_Tree.md` (4.08 KB, modified: 2025-11-19T02:39:10, by: Dropbox User)
+- `RESEARCHES_Department_Distribution.md` → `REPORTS/Week_3/Reports_week 3_Source/Taxonomy/RESEARCHES_Department_Distribution.md` (3.21 KB, modified: 2025-11-19T02:39:12, by: Dropbox User)
+- `Employee_Activity_Report_2025-11-18.md` → `REPORTS/Week_3/Reports_week 3_Source/DATA/Employee_Activity_Report_2025-11-18.md` (17.40 KB, modified: 2025-11-19T19:34:34, by: Dropbox User)
+- `Remote_Helpers_attendance_2025-11-18.json` → `REPORTS/Week_3/Reports_week 3_Source/DATA/Remote_Helpers_attendance_2025-11-18.json` (82.25 KB, modified: 2025-11-19T09:41:18, by: Dropbox User)
+- `Remote_Helpers_Attendance_2025-11-18.md` → `REPORTS/Week_3/Reports_week 3_Source/DATA/Remote_Helpers_Attendance_2025-11-18.md` (36.88 KB, modified: 2025-11-19T09:45:15, by: Dropbox User)
+- `discord_voice_2025-11-18_summary.md` → `REPORTS/Week_3/Reports_week 3_Source/DATA/discord_voice_2025-11-18_summary.md` (5.17 KB, modified: 2025-11-19T19:59:37, by: Dropbox User)
+- `discord_voice_2025-11-18_summary.csv` → `REPORTS/Week_3/Reports_week 3_Source/DATA/discord_voice_2025-11-18_summary.csv` (847 bytes, modified: 2025-11-19T19:59:13, by: Dropbox User)
+- `PARSE_AND_REORGANIZE_PLAN.md` → `REPORTS/Week_3/Reports_week 3_Source/DOCS/PARSE_AND_REORGANIZE_PLAN.md` (18.26 KB, modified: 2025-11-17T12:42:12, by: Dropbox User)
+- `Remote_Helpers_Attendance_example.md` → `REPORTS/Week_3/Reports_week 3_Source/DOCS/Remote_Helpers_Attendance_example.md` (4.27 KB, modified: 2025-11-19T09:01:17, by: Dropbox User)
+- `Phase_0_Template.md` → `REPORTS/Week_3/Reports_week 3_Source/Weekly_Analysis/Phase_0_Template.md` (11.35 KB, modified: 2025-11-23T00:31:45, by: Dropbox User)
+- `November_2025_Week_3_Analysis.md` → `REPORTS/Week_3/Reports_week 3_Source/Weekly_Analysis/November_2025_Week_3_Analysis.md` (12.71 KB, modified: 2025-11-23T01:01:23, by: Dropbox User)
+- `Phase_0_Analysis_Prompt.md` → `REPORTS/Week_3/Reports_week 3_Source/Weekly_Analysis/Phase_0_Analysis_Prompt.md` (14.27 KB, modified: 2025-11-22T22:56:56, by: Dropbox User)
+- `November_2025_Week_3_Masterlist.csv` → `REPORTS/Week_3/Reports_week 3_Source/Weekly_Analysis/November_2025_Week_3_Masterlist.csv` (8.96 KB, modified: 2025-11-23T01:02:23, by: Dropbox User)
+- `README.md` → `REPORTS/Week_3/Reports_week 3_Source/Weekly_Analysis/README.md` (9.60 KB, modified: 2025-11-24T00:16:17, by: Dropbox User)
+- `Video_Processing_Stages_Report.md` → `REPORTS/Week_3/Reports_week 3_Source/2025-11-22/Video_Processing_Stages_Report.md` (7.41 KB, modified: 2025-11-23T23:43:12, by: Dropbox User)
+- `ByTool_Population_Complete_2025-11-22.md` → `REPORTS/Week_3/Reports_week 3_Source/ByTool_Population_Complete_2025-11-22.md` (10.53 KB, modified: 2025-11-22T20:50:44, by: Dropbox User)
+- `routing_matrix.json` → `REPORTS/Week_3/Reports_week 3_Source/routing_matrix.json` (859 bytes, modified: 2025-11-17T14:38:24, by: Dropbox User)
+- `Cloud_AI_Research_Instructions.md` → `REPORTS/Week_3/Reports_week 3_Source/Cloud_AI_Research_Instructions.md` (11.82 KB, modified: 2025-11-16T17:19:17, by: Dropbox User)
+- `Research_Prompt_Schema.md` → `REPORTS/Week_3/Reports_week 3_Source/Research_Prompt_Schema.md` (5.91 KB, modified: 2025-11-23T23:39:19, by: Dropbox User)
+- `Research_Report_Schema.md` → `REPORTS/Week_3/Reports_week 3_Source/Research_Report_Schema.md` (5.09 KB, modified: 2025-11-23T23:39:19, by: Dropbox User)
+- `TAXONOMY.md` → `REPORTS/Week_3/Reports_week 3_Source/TAXONOMY.md` (871 bytes, modified: 2025-11-19T20:54:44, by: Dropbox User)
+- `Example_Design_Daily_Activity_Report_Nov19_2025.md` → `REPORTS/Week_3/Reports_week 3_Source/Example_Design_Daily_Activity_Report_Nov19_2025.md` (20.65 KB, modified: 2025-11-19T23:45:07, by: Dropbox User)
+- `Personal_Prompts_Integration_Report_2025-11-21.md` → `REPORTS/Week_3/Reports_week 3_Source/Personal_Prompts_Integration_Report_2025-11-21.md` (16.27 KB, modified: 2025-11-23T23:52:17, by: Dropbox User)
+- `LBS_Integration_Summary_2025-11-22.md` → `REPORTS/Week_3/Reports_week 3_Source/LBS_Integration_Summary_2025-11-22.md` (14.88 KB, modified: 2025-11-22T18:47:55, by: Dropbox User)
+- `MIGRATED_TO_DEPARTMENTS.md` → `REPORTS/Week_3/Reports_week 3_Source/MIGRATED_TO_DEPARTMENTS.md` (5.12 KB, modified: 2025-11-17T14:38:46, by: Dropbox User)
+- `PROJECT_LOG_2025-11-13.md` → `REPORTS/Week_3/Reports_week 3_Source/PROJECT_LOG_2025-11-13.md` (20.43 KB, modified: 2025-11-23T23:39:19, by: Dropbox User)
+- `RESEARCH_INDEX.json` → `REPORTS/Week_3/Reports_week 3_Source/RESEARCH_INDEX.json` (1.57 KB, modified: 2025-11-16T01:07:40, by: Dropbox User)
+- `Skills_Integration_Final_2025-11-22.md` → `REPORTS/Week_3/Reports_week 3_Source/Skills_Integration_Final_2025-11-22.md` (8.63 KB, modified: 2025-11-22T20:03:48, by: Dropbox User)
+- `Example_AI_Daily_Activity_Report_Nov19_2025.md` → `REPORTS/Week_3/Reports_week 3_Source/Example_AI_Daily_Activity_Report_Nov19_2025.md` (22.81 KB, modified: 2025-11-20T00:07:23, by: Dropbox User)
+- `EXAMPLE_2025-11-W46_AI_Tutorials_Research.json` → `REPORTS/Week_3/Reports_week 3_Source/EXAMPLE_2025-11-W46_AI_Tutorials_Research.json` (16.12 KB, modified: 2025-11-16T01:07:40, by: Dropbox User)
+- `common_index.json` → `REPORTS/Week_3/Reports_week 3_Source/common_index.json` (881 bytes, modified: 2025-11-17T14:38:22, by: Dropbox User)
+- `RESEARCH_TEMPLATE.json` → `REPORTS/Week_3/Reports_week 3_Source/RESEARCH_TEMPLATE.json` (4.67 KB, modified: 2025-11-16T01:07:40, by: Dropbox User)
+- `Executive_All_Tasks.csv` → `REPORTS/Week_3/Week_3_Analysis/01_Source_Data/Executive_Strategic/Executive_All_Tasks.csv` (64.47 KB, modified: 2025-11-24T06:33:12, by: Dropbox User)
+- `Executive_Categories.csv` → `REPORTS/Week_3/Week_3_Analysis/01_Source_Data/Executive_Strategic/Executive_Categories.csv` (982 bytes, modified: 2025-11-24T06:33:12, by: Dropbox User)
+- `Executive_Connections.csv` → `REPORTS/Week_3/Week_3_Analysis/01_Source_Data/Executive_Strategic/Executive_Connections.csv` (7.50 KB, modified: 2025-11-24T06:33:12, by: Dropbox User)
+- `Executive_Departments.csv` → `REPORTS/Week_3/Week_3_Analysis/01_Source_Data/Executive_Strategic/Executive_Departments.csv` (499 bytes, modified: 2025-11-24T06:33:12, by: Dropbox User)
+- `Executive_Hierarchy.json` → `REPORTS/Week_3/Week_3_Analysis/01_Source_Data/Executive_Strategic/Executive_Hierarchy.json` (66.08 KB, modified: 2025-11-24T06:33:12, by: Dropbox User)
+- `Executive_Milestones.csv` → `REPORTS/Week_3/Week_3_Analysis/01_Source_Data/Executive_Strategic/Executive_Milestones.csv` (1.40 KB, modified: 2025-11-24T06:33:12, by: Dropbox User)
+- `Executive_Projects.csv` → `REPORTS/Week_3/Week_3_Analysis/01_Source_Data/Executive_Strategic/Executive_Projects.csv` (3.11 KB, modified: 2025-11-24T06:33:12, by: Dropbox User)
+- `Executive_Tasks.csv` → `REPORTS/Week_3/Week_3_Analysis/01_Source_Data/Executive_Strategic/Executive_Tasks.csv` (60.22 KB, modified: 2025-11-24T06:33:12, by: Dropbox User)
+- `README.md` → `REPORTS/Week_3/Week_3_Analysis/01_Source_Data/Executive_Strategic/README.md` (7.94 KB, modified: 2025-11-24T06:34:13, by: Dropbox User)
+- `Department_Workload_Analysis.csv` → `REPORTS/Week_3/Week_3_Analysis/02_Delegation_Mapping/Delegation/Department_Workload_Analysis.csv` (1.14 KB, modified: 2025-11-24T09:53:24, by: Dropbox User)
+- `README.md` → `REPORTS/Week_3/Week_3_Analysis/02_Delegation_Mapping/Delegation/README.md` (4.96 KB, modified: 2025-11-24T09:53:24, by: Dropbox User)
+- `merge_nov20_tasks.py` → `REPORTS/Week_3/Week_3_Analysis/03_Scripts/merge_nov20_tasks.py` (2.01 KB, modified: 2025-11-24T09:40:26, by: Dropbox User)
+- `SUMMARY_STATISTICS.txt` → `REPORTS/Week_3/Week_3_Analysis/SUMMARY_STATISTICS.txt` (1.44 KB, modified: 2025-11-25T20:21:35, by: Dropbox User)
+- `README.md` → `REPORTS/Week_3/Week_3_Analysis/README.md` (6.68 KB, modified: 2025-11-25T20:21:35, by: Dropbox User)
+- `AI_Automation_Tasks_Week4.csv` → `REPORTS/Week_3/Week_3_Next_Step/AI_Automation_Tasks_Week4.csv` (1.10 KB, modified: 2025-11-24T06:17:27, by: Dropbox User)
+- `Design_Tasks_Week4.csv` → `REPORTS/Week_3/Week_3_Next_Step/Design_Tasks_Week4.csv` (3.71 KB, modified: 2025-11-24T06:17:27, by: Dropbox User)
+- `Development_Tasks_Week4.csv` → `REPORTS/Week_3/Week_3_Next_Step/Development_Tasks_Week4.csv` (1.57 KB, modified: 2025-11-24T06:17:27, by: Dropbox User)
+- `HR_Tasks_Week4.csv` → `REPORTS/Week_3/Week_3_Next_Step/HR_Tasks_Week4.csv` (1.49 KB, modified: 2025-11-24T06:17:27, by: Dropbox User)
+- `LeadGen_Tasks_Week4.csv` → `REPORTS/Week_3/Week_3_Next_Step/LeadGen_Tasks_Week4.csv` (2.22 KB, modified: 2025-11-24T06:17:27, by: Dropbox User)
+- `Sales_Tasks_Week4.csv` → `REPORTS/Week_3/Week_3_Next_Step/Sales_Tasks_Week4.csv` (1.36 KB, modified: 2025-11-24T06:17:27, by: Dropbox User)
+- `Video_Tasks_Week4.csv` → `REPORTS/Week_3/Week_3_Next_Step/Video_Tasks_Week4.csv` (616 bytes, modified: 2025-11-24T06:17:27, by: Dropbox User)
+- `EXC_Tasks_Week4.csv` → `REPORTS/Week_3/Week_3_Next_Step/EXC_Tasks_Week4.csv` (62.29 KB, modified: 2025-11-24T06:29:51, by: Dropbox User)
+- `Projects_Milestones_Week4.csv` → `REPORTS/Week_3/Week_3_Next_Step/Projects_Milestones_Week4.csv` (2.72 KB, modified: 2025-11-24T06:29:51, by: Dropbox User)
+- `Executive_All_Tasks.csv` → `REPORTS/Week_3/Week_3_Next_Step/Executive_Strategic/Executive_All_Tasks.csv` (64.47 KB, modified: 2025-11-24T06:32:58, by: Dropbox User)
+- `Executive_Categories.csv` → `REPORTS/Week_3/Week_3_Next_Step/Executive_Strategic/Executive_Categories.csv` (982 bytes, modified: 2025-11-24T06:32:58, by: Dropbox User)
+- `Executive_Connections.csv` → `REPORTS/Week_3/Week_3_Next_Step/Executive_Strategic/Executive_Connections.csv` (7.50 KB, modified: 2025-11-24T06:32:58, by: Dropbox User)
+- `Executive_Departments.csv` → `REPORTS/Week_3/Week_3_Next_Step/Executive_Strategic/Executive_Departments.csv` (499 bytes, modified: 2025-11-24T06:32:58, by: Dropbox User)
+- `Executive_Hierarchy.json` → `REPORTS/Week_3/Week_3_Next_Step/Executive_Strategic/Executive_Hierarchy.json` (66.08 KB, modified: 2025-11-24T06:32:58, by: Dropbox User)
+- `Executive_Milestones.csv` → `REPORTS/Week_3/Week_3_Next_Step/Executive_Strategic/Executive_Milestones.csv` (1.40 KB, modified: 2025-11-24T06:32:58, by: Dropbox User)
+- `Executive_Projects.csv` → `REPORTS/Week_3/Week_3_Next_Step/Executive_Strategic/Executive_Projects.csv` (3.11 KB, modified: 2025-11-24T06:32:58, by: Dropbox User)
+- `Executive_Tasks.csv` → `REPORTS/Week_3/Week_3_Next_Step/Executive_Strategic/Executive_Tasks.csv` (60.22 KB, modified: 2025-11-24T06:32:58, by: Dropbox User)
+- `README.md` → `REPORTS/Week_3/Week_3_Next_Step/Executive_Strategic/README.md` (7.94 KB, modified: 2025-11-24T06:34:13, by: Dropbox User)
+- `README.md` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/README.md` (4.96 KB, modified: 2025-11-24T09:53:24, by: Dropbox User)
+- `Department_Workload_Analysis.csv` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Department_Workload_Analysis.csv` (1.14 KB, modified: 2025-11-24T09:53:24, by: Dropbox User)
+- `README.md` → `REPORTS/Week_3/Scripts/README.md` (4.20 KB, modified: 2025-11-17T21:02:12, by: Dropbox User)
+- `create_delegation_mapping.py` → `REPORTS/Week_3/Scripts/create_delegation_mapping.py` (36.08 KB, modified: 2025-11-24T07:28:34, by: Dropbox User)
+- `merge_nov20_tasks.py` → `REPORTS/Week_3/Scripts/merge_nov20_tasks.py` (2.01 KB, modified: 2025-11-24T09:40:26, by: Dropbox User)
+- `package_week3_analysis.py` → `REPORTS/Week_3/Scripts/package_week3_analysis.py` (11.03 KB, modified: 2025-11-25T20:21:29, by: Dropbox User)
+- `241125_Analysis_COMPREHENSIVE.md` → `REPORTS/241125_Analysis_COMPREHENSIVE.md` (48.38 KB, modified: 2025-11-25T20:43:52, by: Dropbox User)
+- `251125_Analysis_COMPREHENSIVE.md` → `REPORTS/251125_Analysis_COMPREHENSIVE.md` (55.35 KB, modified: 2025-11-25T21:00:42, by: Dropbox User)
+- `01_Framework_Implementation.md` → `REPORTS/Niko Oct Reports/01_Framework_Implementation.md` (22.81 KB, modified: 2025-11-16T17:43:53, by: Dropbox User)
+- `03_Team_Training_Development.md` → `REPORTS/Niko Oct Reports/03_Team_Training_Development.md` (10.98 KB, modified: 2025-11-20T21:07:35, by: Dropbox User)
+- `04_Automation_Integration.md` → `REPORTS/Niko Oct Reports/04_Automation_Integration.md` (8.79 KB, modified: 2025-11-20T21:18:03, by: Dropbox User)
+- `05_Performance_Management.md` → `REPORTS/Niko Oct Reports/05_Performance_Management.md` (8.81 KB, modified: 2025-11-20T21:30:07, by: Dropbox User)
+- `08_Strategic_Decisions_Cultural_Shifts.md` → `REPORTS/Niko Oct Reports/08_Strategic_Decisions_Cultural_Shifts.md` (10.88 KB, modified: 2025-11-20T21:42:56, by: Dropbox User)
+- `09_Foundational_Systems_W1.md` → `REPORTS/Niko Oct Reports/09_Foundational_Systems_W1.md` (12.42 KB, modified: 2025-11-20T23:27:28, by: Dropbox User)
+- `10_Tools_Ecosystem_Catalog.md` → `REPORTS/Niko Oct Reports/10_Tools_Ecosystem_Catalog.md` (9.41 KB, modified: 2025-11-20T23:32:05, by: Dropbox User)
+- `11_October_Foundation_Origins.md` → `REPORTS/Niko Oct Reports/11_October_Foundation_Origins.md` (10.56 KB, modified: 2025-11-21T00:18:04, by: Dropbox User)
+- `12_October_Microservices_Technical.md` → `REPORTS/Niko Oct Reports/12_October_Microservices_Technical.md` (10.93 KB, modified: 2025-11-21T00:19:00, by: Dropbox User)
+- `README.md` → `REPORTS/Niko Oct Reports/README.md` (7.29 KB, modified: 2025-11-21T00:19:53, by: Dropbox User)
+- `13_September_Early_Foundations.md` → `REPORTS/Niko Oct Reports/13_September_Early_Foundations.md` (11.62 KB, modified: 2025-11-21T10:50:37, by: Dropbox User)
+- `14_November_21_Strategic_Session.md` → `REPORTS/Niko Oct Reports/14_November_21_Strategic_Session.md` (18.91 KB, modified: 2025-11-21T19:20:47, by: Dropbox User)
+- `06_Video_Processing_Knowledge_Capture.md` → `REPORTS/Niko Oct Reports/06_Video_Processing_Knowledge_Capture.md` (9.06 KB, modified: 2025-11-23T23:52:17, by: Dropbox User)
+- `02_RAG_Systems_Knowledge_Management.md` → `REPORTS/Niko Oct Reports/02_RAG_Systems_Knowledge_Management.md` (11.43 KB, modified: 2025-11-25T14:02:20, by: Dropbox User)
+- `07_Technical_Guides_Best_Practices.md` → `REPORTS/Niko Oct Reports/07_Technical_Guides_Best_Practices.md` (8.90 KB, modified: 2025-11-25T14:02:20, by: Dropbox User)
+- `221125_PROCESSED.md` → `REPORTS/Niko_Nov_Notes_Summary/221125_PROCESSED.md` (29.26 KB, modified: 2025-11-25T14:02:23, by: Dropbox User)
+- `201125_PROCESSED.md` → `REPORTS/Niko_Nov_Notes_Summary/201125_PROCESSED.md` (34.79 KB, modified: 2025-11-25T14:02:23, by: Dropbox User)
+- `231125_PROCESSED.md` → `REPORTS/Niko_Nov_Notes_Summary/231125_PROCESSED.md` (10.44 KB, modified: 2025-11-25T14:02:23, by: Dropbox User)
+- `WFC-001_Develop_USER_Entities.md` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Workflow_Flow_Documents/WFC-001_Develop_USER_Entities.md` (650 bytes, modified: 2025-11-26T00:08:09, by: Dropbox User)
+- `WFC-002_Prospects_Architecture_Improvement.md` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Workflow_Flow_Documents/WFC-002_Prospects_Architecture_Improvement.md` (1.83 KB, modified: 2025-11-26T00:08:09, by: Dropbox User)
+- `WFC-003_Populate_Business_Entity_from_Sales.md` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Workflow_Flow_Documents/WFC-003_Populate_Business_Entity_from_Sales.md` (671 bytes, modified: 2025-11-26T00:08:09, by: Dropbox User)
+- `WFC-004_Find_historical_search_queries_file_on_Google_Drive.md` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Workflow_Flow_Documents/WFC-004_Find_historical_search_queries_file_on_Google_Drive.md` (2.51 KB, modified: 2025-11-26T00:08:09, by: Dropbox User)
+- `WFC-005_Document_scraping_system_(20%_checkpoint).md` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Workflow_Flow_Documents/WFC-005_Document_scraping_system_(20%_checkpoint).md` (2.42 KB, modified: 2025-11-26T00:08:09, by: Dropbox User)
+- `WFC-006_Create_Job_Sites_folder_in_ENTITIES_ACCOUNTS.md` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Workflow_Flow_Documents/WFC-006_Create_Job_Sites_folder_in_ENTITIES_ACCOUNTS.md` (1.94 KB, modified: 2025-11-26T00:08:09, by: Dropbox User)
+- `WFC-007_Deploy_v1.0_to_Vercel.md` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Workflow_Flow_Documents/WFC-007_Deploy_v1.0_to_Vercel.md` (1.73 KB, modified: 2025-11-26T00:08:09, by: Dropbox User)
+- `WFC-008_Teach_Vilhelm_video_parsing_workflow.md` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Workflow_Flow_Documents/WFC-008_Teach_Vilhelm_video_parsing_workflow.md` (2.25 KB, modified: 2025-11-26T00:08:09, by: Dropbox User)
+- `WFC-009_Document_current_AI_tools_tracking_system.md` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Workflow_Flow_Documents/WFC-009_Document_current_AI_tools_tracking_system.md` (1.75 KB, modified: 2025-11-26T00:08:09, by: Dropbox User)
+- `WFC-010_Design_single_task_page_layout.md` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Workflow_Flow_Documents/WFC-010_Design_single_task_page_layout.md` (1.29 KB, modified: 2025-11-26T00:08:09, by: Dropbox User)
+- `README.md` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Workflow_Flow_Documents/README.md` (11.50 KB, modified: 2025-11-26T00:15:00, by: Dropbox User)
+- `INDEX.md` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Workflow_Flow_Documents/INDEX.md` (6.99 KB, modified: 2025-11-26T00:16:51, by: Dropbox User)
+- `Finance_Department_Report_2025-11-20.md` → `REPORTS/Week_3/Reports_week 3_Source/2025-11-20/Departments/Finance_Department_Report_2025-11-20.md` (15.20 KB, modified: 2025-11-26T00:19:20, by: Dropbox User)
+- `MASTER_REPORT_2025-11-20.md` → `REPORTS/Week_3/Reports_week 3_Source/2025-11-20/MASTER_REPORT_2025-11-20.md` (18.90 KB, modified: 2025-11-26T00:19:20, by: Dropbox User)
+- `DAY_OF_WEEK_INTEGRATION.md` → `REPORTS/Week_3/Reports_week 3_Source/2025-11-20/Departments_Processed_TM/DAY_OF_WEEK_INTEGRATION.md` (6.09 KB, modified: 2025-11-26T00:19:20, by: Dropbox User)
+- `191125_Niko_PROCESSED.md` → `REPORTS/Niko_Nov_Notes_Summary/191125_Niko_PROCESSED.md` (12.75 KB, modified: 2025-11-26T00:19:20, by: Dropbox User)
+- `211125_PROCESSED.md` → `REPORTS/Niko_Nov_Notes_Summary/211125_PROCESSED.md` (47.90 KB, modified: 2025-11-26T00:19:20, by: Dropbox User)
+- `181125_Niko_PROCESSED.md` → `REPORTS/Niko_Nov_Notes_Summary/181125_Niko_PROCESSED.md` (20.10 KB, modified: 2025-11-26T00:19:20, by: Dropbox User)
+- `171125_Niko_PROCESSED.md` → `REPORTS/Niko_Nov_Notes_Summary/171125_Niko_PROCESSED.md` (24.91 KB, modified: 2025-11-26T00:19:20, by: Dropbox User)
+- `Processing_Log_2025-11-20.md` → `REPORTS/Week_3/Reports_week 3_Source/2025-11-20/Processing_Log_2025-11-20.md` (5.73 KB, modified: 2025-11-26T00:19:20, by: Dropbox User)
+- `process_reports_for_tm.py` → `REPORTS/Week_3/Reports_week 3_Source/2025-11-20/process_reports_for_tm.py` (11.39 KB, modified: 2025-11-26T00:19:20, by: Dropbox User)
+- `Pattern_Analysis_Report.md` → `REPORTS/Week_3/Reports_week 3_Source/2025-11-20/Departments_Processed_TM/Pattern_Analysis_Report.md` (2.95 KB, modified: 2025-11-26T00:19:20, by: Dropbox User)
+- `Department_Report_Generation_Workflow.md` → `REPORTS/Week_3/Reports_week 3_Source/2025-11-21/Department_Report_Generation_Workflow.md` (13.88 KB, modified: 2025-11-26T00:19:20, by: Dropbox User)
+- `MASTER_ACTIVITY_LISTING_2025-11-21.csv` → `REPORTS/Week_3/Reports_week 3_Source/2025-11-21/MASTER_ACTIVITY_LISTING_2025-11-21.csv` (17.08 KB, modified: 2025-11-26T00:19:20, by: Dropbox User)
+- `ALL_TASKS_CONSOLIDATED_WITH_NOV20.csv` → `REPORTS/Week_3/Week_3_Next_Step/ALL_TASKS_CONSOLIDATED_WITH_NOV20.csv` (93.08 KB, modified: 2025-11-26T00:19:19, by: Dropbox User)
+- `ALL_TASKS_CONSOLIDATED_WITH_NOV20.csv` → `REPORTS/Week_3/Week_3_Analysis/01_Source_Data/ALL_TASKS_CONSOLIDATED_WITH_NOV20.csv` (93.08 KB, modified: 2025-11-26T00:19:20, by: Dropbox User)
+- `Finance_Department_Report_2025-11-21.md` → `REPORTS/Week_3/Reports_week 3_Source/2025-11-21/Departments/Finance_Department_Report_2025-11-21.md` (19.34 KB, modified: 2025-11-26T00:19:20, by: Dropbox User)
+- `MASTER_REPORT_2025-11-21.md` → `REPORTS/Week_3/Reports_week 3_Source/2025-11-21/MASTER_REPORT_2025-11-21.md` (20.22 KB, modified: 2025-11-26T00:19:20, by: Dropbox User)
+- `PMT-094_Weekly_Report_Gap_Analysis.md` → `REPORTS/Week_3/Reports_week 3_Source/Weekly_Analysis/PMT-094_Weekly_Report_Gap_Analysis.md` (12.71 KB, modified: 2025-11-26T00:19:20, by: Dropbox User)
+- `extract_2025_11_20_tasks.py` → `REPORTS/Week_3/Week_3_Analysis/03_Scripts/extract_2025_11_20_tasks.py` (6.31 KB, modified: 2025-11-26T00:19:20, by: Dropbox User)
+- `create_delegation_mapping_v2.py` → `REPORTS/Week_3/Week_3_Analysis/03_Scripts/create_delegation_mapping_v2.py` (45.57 KB, modified: 2025-11-26T00:19:20, by: Dropbox User)
+- `PROMPTS_Entity_Analysis_2025-11-19.md` → `REPORTS/Week_3/Reports_week 3_Source/System_Analysis/PROMPTS_Entity_Analysis_2025-11-19.md` (41.74 KB, modified: 2025-11-26T00:19:20, by: Dropbox User)
+- `2025-11-21_Entity_Import_Execution_Report.md` → `REPORTS/Week_3/Reports_week 3_Source/2025-11-21_Entity_Import_Execution_Report.md` (27.46 KB, modified: 2025-11-26T00:19:20, by: Dropbox User)
+- `2025-11-21_PROJECT_COMPLETION_REPORT.md` → `REPORTS/Week_3/Reports_week 3_Source/2025-11-21_PROJECT_COMPLETION_REPORT.md` (20.15 KB, modified: 2025-11-26T00:19:20, by: Dropbox User)
+- `2025-11-21_IMPORT_COMPLETE.md` → `REPORTS/Week_3/Reports_week 3_Source/2025-11-21_IMPORT_COMPLETE.md` (14.62 KB, modified: 2025-11-26T00:19:20, by: Dropbox User)
+- `Weekly_Gap_Analysis_2025-11-21.md` → `REPORTS/Week_3/Reports_week 3_Source/Weekly_Analysis/Weekly_Gap_Analysis_2025-11-21.md` (28.26 KB, modified: 2025-11-26T00:19:20, by: Dropbox User)
+- `extract_weekly_tasks.py` → `REPORTS/Week_3/Scripts/extract_weekly_tasks.py` (16.45 KB, modified: 2025-11-26T00:19:20, by: Dropbox User)
+- `ALL_TASKS_CONSOLIDATED.csv` → `REPORTS/Week_3/Week_3_Next_Step/ALL_TASKS_CONSOLIDATED.csv` (74.70 KB, modified: 2025-11-26T00:19:19, by: Dropbox User)
+- `extract_executive_notes.py` → `REPORTS/Week_3/Scripts/extract_executive_notes.py` (22.79 KB, modified: 2025-11-26T00:19:20, by: Dropbox User)
+- `Team_Assignment_Matrix.csv` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Team_Assignment_Matrix.csv` (65.71 KB, modified: 2025-11-26T00:19:19, by: Dropbox User)
+- `Workflow_Clustering.csv` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Workflow_Clustering.csv` (7.00 KB, modified: 2025-11-26T00:19:19, by: Dropbox User)
+- `Assignment_Priority_Queue.csv` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Assignment_Priority_Queue.csv` (65.57 KB, modified: 2025-11-26T00:19:19, by: Dropbox User)
+- `Task_Template_Mapping.csv` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Task_Template_Mapping.csv` (121.73 KB, modified: 2025-11-26T00:19:19, by: Dropbox User)
+- `create_delegation_mapping_v2.py` → `REPORTS/Week_3/Scripts/create_delegation_mapping_v2.py` (45.57 KB, modified: 2025-11-26T00:19:20, by: Dropbox User)
+- `extract_2025_11_20_tasks.py` → `REPORTS/Week_3/Scripts/extract_2025_11_20_tasks.py` (6.31 KB, modified: 2025-11-26T00:19:20, by: Dropbox User)
+- `Tasks_2025_11_20.csv` → `REPORTS/Week_3/Week_3_Next_Step/Tasks_2025_11_20.csv` (17.51 KB, modified: 2025-11-26T00:19:19, by: Dropbox User)
+- `Task_Template_Mapping.csv` → `REPORTS/Week_3/Week_3_Analysis/02_Delegation_Mapping/Delegation/Task_Template_Mapping.csv` (121.73 KB, modified: 2025-11-26T00:19:20, by: Dropbox User)
+- `extract_executive_notes.py` → `REPORTS/Week_3/Week_3_Analysis/03_Scripts/extract_executive_notes.py` (22.79 KB, modified: 2025-11-26T00:19:19, by: Dropbox User)
+- `Workflow_Clustering.csv` → `REPORTS/Week_3/Week_3_Analysis/02_Delegation_Mapping/Delegation/Workflow_Clustering.csv` (7.00 KB, modified: 2025-11-26T00:19:20, by: Dropbox User)
+- `Assignment_Priority_Queue.csv` → `REPORTS/Week_3/Week_3_Analysis/02_Delegation_Mapping/Delegation/Assignment_Priority_Queue.csv` (65.57 KB, modified: 2025-11-26T00:19:20, by: Dropbox User)
+- `Team_Assignment_Matrix.csv` → `REPORTS/Week_3/Week_3_Analysis/02_Delegation_Mapping/Delegation/Team_Assignment_Matrix.csv` (65.71 KB, modified: 2025-11-26T00:19:20, by: Dropbox User)
+- `Tasks_2025_11_20.csv` → `REPORTS/Week_3/Week_3_Analysis/01_Source_Data/Tasks_2025_11_20.csv` (17.51 KB, modified: 2025-11-26T00:19:20, by: Dropbox User)
+- `extract_weekly_tasks.py` → `REPORTS/Week_3/Week_3_Analysis/03_Scripts/extract_weekly_tasks.py` (16.45 KB, modified: 2025-11-26T00:19:19, by: Dropbox User)
+- `Department_Workflows_Summary.md` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Workflow_Flow_Documents/Department_Workflows_Summary.md` (17.55 KB, modified: 2025-11-26T00:19:19, by: Dropbox User)
+- `Master_Task_List_Week4.csv` → `REPORTS/Week_3/Week_3_Next_Step/Master_Task_List_Week4.csv` (74.70 KB, modified: 2025-11-26T00:19:19, by: Dropbox User)
+- `Finance_Tasks_Week4.csv` → `REPORTS/Week_3/Week_3_Next_Step/Finance_Tasks_Week4.csv` (1.45 KB, modified: 2025-11-26T00:19:19, by: Dropbox User)
+- `Summary_By_Department.csv` → `REPORTS/Week_3/Week_3_Next_Step/Summary_By_Department.csv` (456 bytes, modified: 2025-11-26T00:19:19, by: Dropbox User)
+- `EXTRACTION_SUMMARY.md` → `REPORTS/Week_3/Week_3_Next_Step/EXTRACTION_SUMMARY.md` (9.05 KB, modified: 2025-11-26T00:19:19, by: Dropbox User)
+- `Workflow_Clustering_Enhanced.csv` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Workflow_Clustering_Enhanced.csv` (27.47 KB, modified: 2025-11-26T00:19:19, by: Dropbox User)
+- `FIN_Department_Report_2025-11-20.md` → `REPORTS/Week_3/Reports_week 3_Source/2025-11-20/Departments_Processed_TM/FIN_Department_Report_2025-11-20.md` (15.27 KB, modified: 2025-11-26T00:19:20, by: Dropbox User)
+- `Department_Report_Mapping.json` → `REPORTS/Week_3/Reports_week 3_Source/2025-11-20/Departments_Processed_TM/Department_Report_Mapping.json` (3.68 KB, modified: 2025-11-26T00:19:52, by: Dropbox User)
+- `README.md` → `REPORTS/Week_3/Reports_week 3_Source/2025-11-20/Departments_Processed_TM/README.md` (4.20 KB, modified: 2025-11-26T00:19:52, by: Dropbox User)
+- `PROCESSING_SUMMARY.md` → `REPORTS/Week_3/Reports_week 3_Source/2025-11-20/Departments_Processed_TM/PROCESSING_SUMMARY.md` (3.58 KB, modified: 2025-11-26T00:19:52, by: Dropbox User)
+- `Pattern_Analysis_Data.json` → `REPORTS/Week_3/Reports_week 3_Source/2025-11-20/Departments_Processed_TM/Pattern_Analysis_Data.json` (10.42 KB, modified: 2025-11-26T00:19:52, by: Dropbox User)
+- `WRF-020_Design_-_Design_Tasks.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Workflows/WRF-020_Design_-_Design_Tasks.json` (1.23 KB, modified: 2025-11-26T00:40:48, by: Dropbox User)
+- `WRF-021_Design_-_Development_Tasks.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Workflows/WRF-021_Design_-_Development_Tasks.json` (1.27 KB, modified: 2025-11-26T00:40:48, by: Dropbox User)
+- `WRF-022_Design_-_Documentation_Tasks.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Workflows/WRF-022_Design_-_Documentation_Tasks.json` (1.17 KB, modified: 2025-11-26T00:40:48, by: Dropbox User)
+- `WRF-023_Design_-_Research_Tasks.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Workflows/WRF-023_Design_-_Research_Tasks.json` (1.12 KB, modified: 2025-11-26T00:40:48, by: Dropbox User)
+- `WRF-024_Design_-_Task_Tasks.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Workflows/WRF-024_Design_-_Task_Tasks.json` (1.34 KB, modified: 2025-11-26T00:40:48, by: Dropbox User)
+- `WRF-025_Development_-_Development_Tasks.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Workflows/WRF-025_Development_-_Development_Tasks.json` (1.27 KB, modified: 2025-11-26T00:40:48, by: Dropbox User)
+- `WRF-026_Development_-_Documentation_Tasks.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Workflows/WRF-026_Development_-_Documentation_Tasks.json` (1.14 KB, modified: 2025-11-26T00:40:48, by: Dropbox User)
+- `WRF-027_Development_-_Integration_Tasks.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Workflows/WRF-027_Development_-_Integration_Tasks.json` (1.15 KB, modified: 2025-11-26T00:40:48, by: Dropbox User)
+- `WRF-028_Development_-_Research_Tasks.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Workflows/WRF-028_Development_-_Research_Tasks.json` (1.12 KB, modified: 2025-11-26T00:40:48, by: Dropbox User)
+- `WRF-029_Development_-_Task_Tasks.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Workflows/WRF-029_Development_-_Task_Tasks.json` (1.26 KB, modified: 2025-11-26T00:40:48, by: Dropbox User)
+- `WRF-030_Finance_-_Development_Tasks.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Workflows/WRF-030_Finance_-_Development_Tasks.json` (1.18 KB, modified: 2025-11-26T00:40:48, by: Dropbox User)
+- `WRF-031_Finance_-_Maintenance_Tasks.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Workflows/WRF-031_Finance_-_Maintenance_Tasks.json` (1.13 KB, modified: 2025-11-26T00:40:48, by: Dropbox User)
+- `WRF-032_Finance_-_Research_Tasks.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Workflows/WRF-032_Finance_-_Research_Tasks.json` (1.15 KB, modified: 2025-11-26T00:40:48, by: Dropbox User)
+- `WRF-033_Finance_-_Task_Tasks.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Workflows/WRF-033_Finance_-_Task_Tasks.json` (1.24 KB, modified: 2025-11-26T00:40:48, by: Dropbox User)
+- `WRF-034_HR_-_Development_Tasks.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Workflows/WRF-034_HR_-_Development_Tasks.json` (1.26 KB, modified: 2025-11-26T00:40:48, by: Dropbox User)
+- `WRF-035_HR_-_Documentation_Tasks.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Workflows/WRF-035_HR_-_Documentation_Tasks.json` (1.13 KB, modified: 2025-11-26T00:40:48, by: Dropbox User)
+- `WRF-036_HR_-_Integration_Tasks.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Workflows/WRF-036_HR_-_Integration_Tasks.json` (1.16 KB, modified: 2025-11-26T00:40:48, by: Dropbox User)
+- `WRF-037_HR_-_Research_Tasks.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Workflows/WRF-037_HR_-_Research_Tasks.json` (1.13 KB, modified: 2025-11-26T00:40:48, by: Dropbox User)
+- `WRF-038_HR_-_Task_Tasks.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Workflows/WRF-038_HR_-_Task_Tasks.json` (1.24 KB, modified: 2025-11-26T00:40:48, by: Dropbox User)
+- `WRF-039_Lead_Generation_-_Task_Tasks.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Workflows/WRF-039_Lead_Generation_-_Task_Tasks.json` (1.25 KB, modified: 2025-11-26T00:40:48, by: Dropbox User)
+- `WRF-040_SMM_-_Development_Tasks.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Workflows/WRF-040_SMM_-_Development_Tasks.json` (1.16 KB, modified: 2025-11-26T00:40:48, by: Dropbox User)
+- `WRF-041_SMM_-_Research_Tasks.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Workflows/WRF-041_SMM_-_Research_Tasks.json` (1.11 KB, modified: 2025-11-26T00:40:48, by: Dropbox User)
+- `WRF-042_Sales_-_Design_Tasks.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Workflows/WRF-042_Sales_-_Design_Tasks.json` (1.11 KB, modified: 2025-11-26T00:40:48, by: Dropbox User)
+- `WRF-043_Sales_-_Development_Tasks.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Workflows/WRF-043_Sales_-_Development_Tasks.json` (1.16 KB, modified: 2025-11-26T00:40:48, by: Dropbox User)
+- `WRF-044_Sales_-_Documentation_Tasks.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Workflows/WRF-044_Sales_-_Documentation_Tasks.json` (1.13 KB, modified: 2025-11-26T00:40:48, by: Dropbox User)
+- `WRF-045_Sales_-_Research_Tasks.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Workflows/WRF-045_Sales_-_Research_Tasks.json` (1.12 KB, modified: 2025-11-26T00:40:48, by: Dropbox User)
+- `WRF-046_Sales_-_Task_Tasks.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Workflows/WRF-046_Sales_-_Task_Tasks.json` (1.24 KB, modified: 2025-11-26T00:40:48, by: Dropbox User)
+- `WRF-047_Video_-_Development_Tasks.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Workflows/WRF-047_Video_-_Development_Tasks.json` (1.18 KB, modified: 2025-11-26T00:40:48, by: Dropbox User)
+- `WRF-048_Video_-_Documentation_Tasks.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Workflows/WRF-048_Video_-_Documentation_Tasks.json` (1.14 KB, modified: 2025-11-26T00:40:48, by: Dropbox User)
+- `WRF-049_Video_-_Research_Tasks.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Workflows/WRF-049_Video_-_Research_Tasks.json` (1.13 KB, modified: 2025-11-26T00:40:48, by: Dropbox User)
+- `WRF-050_Video_-_Task_Tasks.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Workflows/WRF-050_Video_-_Task_Tasks.json` (1.27 KB, modified: 2025-11-26T00:40:48, by: Dropbox User)
+- `WRF-013_AI_-_Documentation_Tasks.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Workflows/WRF-013_AI_-_Documentation_Tasks.json` (1.20 KB, modified: 2025-11-26T01:01:08, by: Dropbox User)
+- `WRF-016_AI_-_Maintenance_Tasks.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Workflows/WRF-016_AI_-_Maintenance_Tasks.json` (1.16 KB, modified: 2025-11-26T01:01:08, by: Dropbox User)
+- `WRF-018_AI_-_Task_Tasks.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Workflows/WRF-018_AI_-_Task_Tasks.json` (1.23 KB, modified: 2025-11-26T01:01:08, by: Dropbox User)
+- `WRF-005_Document_scraping_system_(20%_checkpoint).json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Workflows/WRF-005_Document_scraping_system_(20%_checkpoint).json` (1.79 KB, modified: 2025-11-26T01:01:08, by: Dropbox User)
+- `WRF-002_Prospects_Architecture_Improvement.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Workflows/WRF-002_Prospects_Architecture_Improvement.json` (1.32 KB, modified: 2025-11-26T01:01:08, by: Dropbox User)
+- `WRF-006_Create_Job_Sites_folder_in_ENTITIES_ACCOUNTS.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Workflows/WRF-006_Create_Job_Sites_folder_in_ENTITIES_ACCOUNTS.json` (1.28 KB, modified: 2025-11-26T01:01:08, by: Dropbox User)
+- `WRF-008_Teach_Vilhelm_video_parsing_workflow.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Workflows/WRF-008_Teach_Vilhelm_video_parsing_workflow.json` (1.38 KB, modified: 2025-11-26T01:01:08, by: Dropbox User)
+- `WRF-010_Design_single_task_page_layout.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Workflows/WRF-010_Design_single_task_page_layout.json` (1.25 KB, modified: 2025-11-26T01:01:08, by: Dropbox User)
+- `WRF-007_Deploy_v1.0_to_Vercel.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Workflows/WRF-007_Deploy_v1.0_to_Vercel.json` (1.33 KB, modified: 2025-11-26T01:01:08, by: Dropbox User)
+- `WRF-004_Find_historical_search_queries_file_on_Google_Drive.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Workflows/WRF-004_Find_historical_search_queries_file_on_Google_Drive.json` (1.39 KB, modified: 2025-11-26T01:01:08, by: Dropbox User)
+- `WRF-003_Populate_Business_Entity_from_Sales.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Workflows/WRF-003_Populate_Business_Entity_from_Sales.json` (1.16 KB, modified: 2025-11-26T01:01:08, by: Dropbox User)
+- `WRF-009_Document_current_AI_tools_tracking_system.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Workflows/WRF-009_Document_current_AI_tools_tracking_system.json` (1.31 KB, modified: 2025-11-26T01:01:08, by: Dropbox User)
+- `WRF-011_AI_-_Design_Tasks.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Workflows/WRF-011_AI_-_Design_Tasks.json` (1.10 KB, modified: 2025-11-26T01:01:08, by: Dropbox User)
+- `WRF-012_AI_-_Development_Tasks.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Workflows/WRF-012_AI_-_Development_Tasks.json` (1.26 KB, modified: 2025-11-26T01:01:08, by: Dropbox User)
+- `WRF-017_AI_-_Research_Tasks.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Workflows/WRF-017_AI_-_Research_Tasks.json` (1.25 KB, modified: 2025-11-26T01:01:08, by: Dropbox User)
+- `WRF-014_AI_-_Infrastructure_Tasks.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Workflows/WRF-014_AI_-_Infrastructure_Tasks.json` (1.28 KB, modified: 2025-11-26T01:01:08, by: Dropbox User)
+- `WRF-019_AI_-_Testing_Tasks.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Workflows/WRF-019_AI_-_Testing_Tasks.json` (1.16 KB, modified: 2025-11-26T01:01:08, by: Dropbox User)
+- `WRF-015_AI_-_Integration_Tasks.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Workflows/WRF-015_AI_-_Integration_Tasks.json` (1.23 KB, modified: 2025-11-26T01:01:08, by: Dropbox User)
+- `WRF-001_Develop_USER_Entities.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Workflows/WRF-001_Develop_USER_Entities.json` (1.13 KB, modified: 2025-11-26T01:01:08, by: Dropbox User)
+- `WFC_to_WRF_Migration_Map.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Workflows/WFC_to_WRF_Migration_Map.json` (12.29 KB, modified: 2025-11-26T01:01:26, by: Dropbox User)
+- `TAXONOMY_COMPLIANCE_README.md` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Workflows/TAXONOMY_COMPLIANCE_README.md` (5.81 KB, modified: 2025-11-26T01:05:55, by: Dropbox User)
+- `TST-395_REVOKE_exposed_GitHub_token_immediately.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-395_REVOKE_exposed_GitHub_token_immediately.json` (1.14 KB, modified: 2025-11-26T01:15:33, by: Dropbox User)
+- `TST-396_Generate_new_GitHub_token.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-396_Generate_new_GitHub_token.json` (1.11 KB, modified: 2025-11-26T01:15:33, by: Dropbox User)
+- `TST-397_Audit_all_files_for_exposed_credentials.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-397_Audit_all_files_for_exposed_credentials.json` (1.14 KB, modified: 2025-11-26T01:15:33, by: Dropbox User)
+- `TST-398_Implement_secret_scanning_in_repos.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-398_Implement_secret_scanning_in_repos.json` (1.14 KB, modified: 2025-11-26T01:15:33, by: Dropbox User)
+- `TST-399_Conduct_deep_research_on_Desert_Greener.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-399_Conduct_deep_research_on_Desert_Greener.json` (1.15 KB, modified: 2025-11-26T01:15:33, by: Dropbox User)
+- `TST-400_Prepare_pre-meeting_research_template.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-400_Prepare_pre-meeting_research_template.json` (1.27 KB, modified: 2025-11-26T01:15:33, by: Dropbox User)
+- `TST-401_Schedule_WhatsApp_call_with_Wilhelm.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-401_Schedule_WhatsApp_call_with_Wilhelm.json` (1.13 KB, modified: 2025-11-26T01:15:33, by: Dropbox User)
+- `TST-402_Fix_email_personalization_-_add_LinkedIn_context.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-402_Fix_email_personalization_-_add_LinkedIn_context.json` (1.34 KB, modified: 2025-11-26T01:15:33, by: Dropbox User)
+- `TST-403_Create_email_template_with_conversation_references.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-403_Create_email_template_with_conversation_references.json` (1.17 KB, modified: 2025-11-26T01:15:33, by: Dropbox User)
+- `TST-404_Implement_deep_research_before_email_sending.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-404_Implement_deep_research_before_email_sending.json` (1.16 KB, modified: 2025-11-26T01:15:33, by: Dropbox User)
+- `TST-405_Add_clear_next-step_instructions_for_clients.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-405_Add_clear_next-step_instructions_for_clients.json` (1.19 KB, modified: 2025-11-26T01:15:33, by: Dropbox User)
+- `TST-406_Find_substitute_person_for_Vamos_project.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-406_Find_substitute_person_for_Vamos_project.json` (1.14 KB, modified: 2025-11-26T01:15:33, by: Dropbox User)
+- `TST-407_Talk_to_Dasha_about_retention.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-407_Talk_to_Dasha_about_retention.json` (1.18 KB, modified: 2025-11-26T01:15:33, by: Dropbox User)
+- `TST-408_Identify_issues_causing_quit_desire.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-408_Identify_issues_causing_quit_desire.json` (1.17 KB, modified: 2025-11-26T01:15:33, by: Dropbox User)
+- `TST-409_Create_retention_strategy.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-409_Create_retention_strategy.json` (1.16 KB, modified: 2025-11-26T01:15:33, by: Dropbox User)
+- `TST-410_Retain_Vamos_employee_(2_years_tenure).json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-410_Retain_Vamos_employee_(2_years_tenure).json` (1.20 KB, modified: 2025-11-26T01:15:33, by: Dropbox User)
+- `TST-411_Resolve_accounting_payment_issues.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-411_Resolve_accounting_payment_issues.json` (1.29 KB, modified: 2025-11-26T01:15:33, by: Dropbox User)
+- `TST-412_Document_retention_process.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-412_Document_retention_process.json` (1.20 KB, modified: 2025-11-26T01:15:33, by: Dropbox User)
+- `TST-413_Communicate_final_decision_to_MASEK_client.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-413_Communicate_final_decision_to_MASEK_client.json` (1.18 KB, modified: 2025-11-26T01:15:33, by: Dropbox User)
+- `TST-414_Document_client_termination_policy.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-414_Document_client_termination_policy.json` (1.18 KB, modified: 2025-11-26T01:15:33, by: Dropbox User)
+- `MLT-030_Develop_USER_Entities.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Milestone_Templates/MLT-030_Develop_USER_Entities.json` (1.41 KB, modified: 2025-11-26T01:16:01, by: Dropbox User)
+- `MLT-031_Prospects_Architecture_Improvement.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Milestone_Templates/MLT-031_Prospects_Architecture_Improvement.json` (1.48 KB, modified: 2025-11-26T01:16:01, by: Dropbox User)
+- `MLT-032_Populate_Business_Entity_from_Sales.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Milestone_Templates/MLT-032_Populate_Business_Entity_from_Sales.json` (1.45 KB, modified: 2025-11-26T01:16:01, by: Dropbox User)
+- `MLT-033_Find_historical_search_queries_file_on_G.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Milestone_Templates/MLT-033_Find_historical_search_queries_file_on_G.json` (1.53 KB, modified: 2025-11-26T01:16:01, by: Dropbox User)
+- `MLT-034_Document_scraping_system_(20%_checkpoint.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Milestone_Templates/MLT-034_Document_scraping_system_(20%_checkpoint.json` (1.50 KB, modified: 2025-11-26T01:16:01, by: Dropbox User)
+- `MLT-035_Create_Job_Sites_folder_in_ENTITIES_ACCO.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Milestone_Templates/MLT-035_Create_Job_Sites_folder_in_ENTITIES_ACCO.json` (1.51 KB, modified: 2025-11-26T01:16:01, by: Dropbox User)
+- `MLT-036_Deploy_v1.0_to_Vercel.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Milestone_Templates/MLT-036_Deploy_v1.0_to_Vercel.json` (1.42 KB, modified: 2025-11-26T01:16:01, by: Dropbox User)
+- `MLT-037_Teach_Vilhelm_video_parsing_workflow.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Milestone_Templates/MLT-037_Teach_Vilhelm_video_parsing_workflow.json` (1.46 KB, modified: 2025-11-26T01:16:01, by: Dropbox User)
+- `MLT-038_Document_current_AI_tools_tracking_syste.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Milestone_Templates/MLT-038_Document_current_AI_tools_tracking_syste.json` (1.47 KB, modified: 2025-11-26T01:16:01, by: Dropbox User)
+- `MLT-039_Design_single_task_page_layout.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Milestone_Templates/MLT-039_Design_single_task_page_layout.json` (1.44 KB, modified: 2025-11-26T01:16:01, by: Dropbox User)
+- `PRT-005_Develop_USER_Entities.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Project_Templates/PRT-005_Develop_USER_Entities.json` (1.86 KB, modified: 2025-11-26T01:17:03, by: Dropbox User)
+- `PRT-009_Prospects_Architecture_Improvement.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Project_Templates/PRT-009_Prospects_Architecture_Improvement.json` (2.00 KB, modified: 2025-11-26T01:17:03, by: Dropbox User)
+- `PRT-010_Populate_Business_Entity_from_Sales.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Project_Templates/PRT-010_Populate_Business_Entity_from_Sales.json` (1.93 KB, modified: 2025-11-26T01:17:03, by: Dropbox User)
+- `PRT-011_Find_historical_search_queries_file_on_G.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Project_Templates/PRT-011_Find_historical_search_queries_file_on_G.json` (2.05 KB, modified: 2025-11-26T01:17:03, by: Dropbox User)
+- `PRT-012_Document_scraping_system_(20%_checkpoint.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Project_Templates/PRT-012_Document_scraping_system_(20%_checkpoint.json` (2.03 KB, modified: 2025-11-26T01:17:03, by: Dropbox User)
+- `PRT-013_Create_Job_Sites_folder_in_ENTITIES_ACCO.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Project_Templates/PRT-013_Create_Job_Sites_folder_in_ENTITIES_ACCO.json` (2.00 KB, modified: 2025-11-26T01:17:03, by: Dropbox User)
+- `PRT-014_Deploy_v1.0_to_Vercel.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Project_Templates/PRT-014_Deploy_v1.0_to_Vercel.json` (1.91 KB, modified: 2025-11-26T01:17:03, by: Dropbox User)
+- `PRT-015_Teach_Vilhelm_video_parsing_workflow.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Project_Templates/PRT-015_Teach_Vilhelm_video_parsing_workflow.json` (2.00 KB, modified: 2025-11-26T01:17:03, by: Dropbox User)
+- `PRT-016_Document_current_AI_tools_tracking_syste.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Project_Templates/PRT-016_Document_current_AI_tools_tracking_syste.json` (1.99 KB, modified: 2025-11-26T01:17:03, by: Dropbox User)
+- `PRT-017_Design_single_task_page_layout.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Project_Templates/PRT-017_Design_single_task_page_layout.json` (1.92 KB, modified: 2025-11-26T01:17:03, by: Dropbox User)
+- `Template_Cross_Reference_Map.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Template_Cross_Reference_Map.json` (2.57 KB, modified: 2025-11-26T01:17:43, by: Dropbox User)
+- `INTEGRATION_README.md` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/INTEGRATION_README.md` (10.72 KB, modified: 2025-11-26T01:22:20, by: Dropbox User)
+
+**Modified (16 files):**
+- `PLAN_Employee_Dailies_Processing_System.md` → `PLANS/Week_3/PLAN_Employee_Dailies_Processing_System.md` (27.56 KB, rev: 016446bb..., modified: 2025-11-25T14:02:11, by: Dropbox User)
+- `PROGRESS_Summary.md` → `PLANS/Week_3/PROGRESS_Summary.md` (11.28 KB, rev: 016446bb..., modified: 2025-11-25T14:02:11, by: Dropbox User)
+- `Daily_Reports_v2.1_Implementation_Session_Nov19_2025.md` → `LOG/Week_3/Daily_Reports_v2.1_Implementation_Session_Nov19_2025.md` (17.96 KB, rev: 01644745..., modified: 2025-11-26T00:19:18, by: Dropbox User)
+- `2025-11-22_Daily_Reports_Generation_Session.md` → `LOG/Week_3/2025-11-22_Daily_Reports_Generation_Session.md` (8.79 KB, rev: 01644745..., modified: 2025-11-26T00:19:18, by: Dropbox User)
+- `Entity_Import_Schema_Restructuring_2025-11-21.md` → `PLANS/Week_3/Entity_Import_Schema_Restructuring_2025-11-21.md` (24.53 KB, rev: 01644745..., modified: 2025-11-26T00:19:19, by: Dropbox User)
+- `2025-11-22_Database_Architecture_Design_Session.md` → `LOG/Week_3/2025-11-22_Database_Architecture_Design_Session.md` (13.47 KB, rev: 01644745..., modified: 2025-11-26T00:19:18, by: Dropbox User)
+- `Daily_Reports_v2.1_Implementation_FINAL_Nov19_2025.md` → `LOG/Week_3/Daily_Reports_v2.1_Implementation_FINAL_Nov19_2025.md` (33.81 KB, rev: 01644745..., modified: 2025-11-26T00:19:18, by: Dropbox User)
+- `PHASE_3_Prove_Cycling.md` → `PLANS/Week_3/Research_System_Activation/PHASE_3_Prove_Cycling.md` (14.68 KB, rev: 01644745..., modified: 2025-11-26T00:19:18, by: Dropbox User)
+- `PHASE_1_Activate_Engine.md` → `PLANS/Week_3/Research_System_Activation/PHASE_1_Activate_Engine.md` (38.04 KB, rev: 01644745..., modified: 2025-11-26T00:19:19, by: Dropbox User)
+- `Tool_References.csv` → `IMPORTS/Week_3/2025-11-20/Extraction/Tool_References.csv` (1.92 KB, rev: 01644745..., modified: 2025-11-26T00:19:19, by: Dropbox User)
+- `Responsibilities_New.csv` → `IMPORTS/Week_3/2025-11-20/Extraction/Responsibilities_New.csv` (2.58 KB, rev: 01644745..., modified: 2025-11-26T00:19:19, by: Dropbox User)
+- `IMPORT_SUMMARY_Nov20_Entities.md` → `IMPORTS/Week_3/2025-11-20/IMPORT_SUMMARY_Nov20_Entities.md` (11.05 KB, rev: 01644745..., modified: 2025-11-26T00:19:19, by: Dropbox User)
+- `Tool_References.md` → `IMPORTS/Week_3/2025-11-20/Extraction/Tool_References.md` (7.37 KB, rev: 01644745..., modified: 2025-11-26T00:19:19, by: Dropbox User)
+- `Responsibilities_New.md` → `IMPORTS/Week_3/2025-11-20/Extraction/Responsibilities_New.md` (10.46 KB, rev: 01644745..., modified: 2025-11-26T00:19:19, by: Dropbox User)
+- `Entities_Extracted.md` → `IMPORTS/Week_3/2025-11-20/Extraction/Entities_Extracted.md` (19.59 KB, rev: 01644745..., modified: 2025-11-26T00:19:19, by: Dropbox User)
+- `FINAL_IMPORT_SUMMARY_Nov20.md` → `IMPORTS/Week_3/2025-11-20/FINAL_IMPORT_SUMMARY_Nov20.md` (17.22 KB, rev: 01644745..., modified: 2025-11-26T00:19:19, by: Dropbox User)
+
+**Deleted (238 files):**
+- `milestone_03_summary.json`
+- `HR_Department_Report_2025-11-21.md`
+- `09_Foundational_Systems_W1.md`
+- `ALL_TASKS_CONSOLIDATED_WITH_NOV20.csv`
+- `Team_Assignment_Matrix.csv`
+- `Video_Department_Report_2025-11-20.md`
+- `milestone_03_terminology.py`
+- `REP-007_Cross_Reference_Validation.md`
+- `Niko_November_21_Strategic_Session.md`
+- `01_Framework_Implementation.md`
+- `05_Performance_Management.md`
+- `Video_002_Extraction_Inventory.md`
+- `Sales_Department_Report_2025-11-21.md`
+- `MASTER_REPORT_2025-11-21.md`
+- `Finance_Department_Report_2025-11-20.md`
+- `TAXONOMY.md`
+- `PROCESSING_SUMMARY.md`
+- `Video_Department_Report_2025-11-21.md`
+- `README.md`
+- `Development_Tasks_Week4.csv`
+- `Executive_Categories.csv`
+- `RESEARCH_INDEX.json`
+- `Executive_Milestones.csv`
+- `13_September_Early_Foundations.md`
+- `Personal_Prompts_Integration_Report_2025-11-21.md`
+- `version_issues.json`
+- `Processing_Summary_2025-11-21.md`
+- `MASTER_REPORT_2025-11-20.md`
+- `Phase_0_Analysis_Prompt.md`
+- `field_usage_stats.json`
+- `analyze_report_patterns.py`
+- `Skills_Integration_Final_2025-11-22.md`
+- `README.md`
+- `191225_Niko_PROCESSED.md`
+- `RESEARCHES_Migration_Map.json`
+- `AI_Automation_Tasks_Week4.csv`
+- `routing_matrix.json`
+- `Assignment_Priority_Queue.csv`
+- `naming_violations.json`
+- `README.md`
+- `Design_Department_Report_2025-11-20.md`
+- `version_inventory.json`
+- `08_Strategic_Decisions_Cultural_Shifts.md`
+- `milestone_01_inventory.py`
+- `milestone_01_summary.json`
+- `Videos_015.md`
+- `Video_018_Library_Mapping_Report.md`
+- `PROJECT_LOG_2025-11-13.md`
+- `EXAMPLE_2025-11-W46_AI_Tutorials_Research.json`
+- `Dev_Department_Report_2025-11-20.md`
+- `Example_AI_Daily_Activity_Report_Nov19_2025.md`
+- `Tasks_2025_11_20.csv`
+- `12_October_Microservices_Technical.md`
+- `Executive_All_Tasks.csv`
+- `MIGRATED_TO_DEPARTMENTS.md`
+- `Projects_Milestones_Week4.csv`
+- `01_Framework_Implementation.md`
+- `RESEARCH_TEMPLATE.json`
+- `Summary_By_Department.csv`
+- `folder_structure.json`
+- `AID_Department_Report_2025-11-20.md`
+- `RESEARCHES_ISO_Code_Registry.md`
+- `FNC_Department_Report_2025-11-20.md`
+- `221125_PROCESSED.md`
+- `Executive_Connections.csv`
+- `merge_nov20_tasks.py`
+- `milestone_04_summary.json`
+- `Video_013.md`
+- `Design_Department_Report_2025-11-21.md`
+- `README.md`
+- `file_distribution.json`
+- `REP-012_Executive_Summary.md`
+- `Video_009_Gap_Analysis.md`
+- `LG_Department_Report_2025-11-21.md`
+- `Video_Tasks_Week4.csv`
+- `README.md`
+- `RESEARCHES_Hierarchy_Tree.md`
+- `README.md`
+- `2025-11-21_PROJECT_COMPLETION_REPORT.md`
+- `Video_016_Processing_Summary.md`
+- `REP-003_Schema_Validation_Report.md`
+- `02_RAG_Systems_Knowledge_Management.md`
+- `Sales_Department_Report_2025-11-20.md`
+- `extract_2025_11_20_tasks.py`
+- `ALL_TASKS_CONSOLIDATED.csv`
+- `SLS_Department_Report_2025-11-20.md`
+- `Video_017.md`
+- `README.md`
+- `index_files.json`
+- `DEV_Department_Report_2025-11-20.md`
+- `json_field_names.json`
+- `Design_Department_Report_2025-11-19.md`
+- `Processing_Log_2025-11-19.md`
+- `Finance_Tasks_Week4.csv`
+- `Video_008.md`
+- `REP-001_File_Inventory_Report.md`
+- `AI_Department_Report_2025-11-19.md`
+- `Processing_Summary_2025-11-18.md`
+- `HRM_Department_Report_2025-11-20.md`
+- `Example_Design_Daily_Activity_Report_Nov19_2025.md`
+- `common_index.json`
+- `MASTER_ACTIVITY_LISTING_2025-11-21.csv`
+- `file_distribution.csv`
+- `Research_Report_Schema.md`
+- `04_Automation_Integration.md`
+- `Executive_Projects.csv`
+- `Workflow_Clustering.csv`
+- `LG_Department_Report_2025-11-20.md`
+- `Video_002.md`
+- `AI_Department_Report_2025-11-20.md`
+- `Video_Processing_Stages_Report.md`
+- `ByTool_Population_Complete_2025-11-22.md`
+- `Research_Prompt_Schema.md`
+- `DGN_Department_Report_2025-11-20.md`
+- `AI_Department_Report_2025-11-21.md`
+- `Video_Discovery_Pipeline.md`
+- `Remote_Helpers_Attendance_2025-11-18.md`
+- `Milestones_02_03_Summary.md`
+- `markdown_headings.json`
+- `milestone_02_schema_naming.py`
+- `extracted_entity_ids.json`
+- `Pattern_Analysis_Report.md`
+- `Department_Report_Mapping.json`
+- `03_Team_Training_Development.md`
+- `2025-11-21_IMPORT_COMPLETE.md`
+- `python_variables.json`
+- `LBS_Integration_Summary_2025-11-22.md`
+- `folder_structure.txt`
+- `Sales_Tasks_Week4.csv`
+- `02_RAG_Systems_Knowledge_Management.md`
+- `README.md`
+- `Video_012.md`
+- `November_2025_Week_3_Masterlist.csv`
+- `Video_009.md`
+- `Processing_Log_2025-11-17.md`
+- `PARSE_AND_REORGANIZE_PLAN.md`
+- `EXTRACTION_SUMMARY.md`
+- `README.md`
+- `VIDEOS_INDEX.md`
+- `LeadGen_Tasks_Week4.csv`
+- `Video_016.md`
+- `Weekly_Gap_Analysis_2025-11-21.md`
+- `README.md`
+- `10_Tools_Ecosystem_Catalog.md`
+- `PROMPTS_Entity_Analysis_2025-11-19.md`
+- `04_Automation_Integration.md`
+- `06_Video_Processing_Knowledge_Capture.md`
+- `Video_Queue_Tracker.md`
+- `HR_Department_Report_2025-11-20.md`
+- `RESEARCHES_Department_Distribution.md`
+- `Video_007.md`
+- `Video_006.md`
+- `extract_executive_notes.py`
+- `RESEARCHES_Master_List.csv`
+- `Master_Task_List_Week4.csv`
+- `HR_Tasks_Week4.csv`
+- `2025-11-21_Entity_Import_Execution_Report.md`
+- `Video_009_Library_Mapping_Report.md`
+- `Phase_3B_Video_Queue_System_Completion_Report.md`
+- `Video_002_Library_Mapping_Report.md`
+- `Processing_Summary_2025-11-19.md`
+- `211225_PROCESSED.md`
+- `Pattern_Analysis_Data.json`
+- `REP-011_Action_Items_Tracker.csv`
+- `Video_001.md`
+- `extract_weekly_tasks.py`
+- `Video_005.md`
+- `Video_011.md`
+- `Employee_Activity_Report_2025-11-18.md`
+- `create_delegation_mapping.py`
+- `14_November_21_Strategic_Session.md`
+- `Processing_Summary_2025-11-17.md`
+- `07_Technical_Guides_Best_Practices.md`
+- `Executive_Departments.csv`
+- `Remote_Helpers_attendance_2025-11-18.json`
+- `Video_018.md`
+- `terminology_dictionary.json`
+- `Dev_Department_Report_2025-11-19.md`
+- `Design_Tasks_Week4.csv`
+- `README.md`
+- `Video_004.md`
+- `Department_Report_Generation_Workflow.md`
+- `broken_references.json`
+- `Executive_Hierarchy.json`
+- `07_Technical_Guides_Best_Practices.md`
+- `06_Video_Processing_Knowledge_Capture.md`
+- `discord_voice_2025-11-18_summary.csv`
+- `naming_patterns.json`
+- `171125_Niko_PROCESSED.md`
+- `Videos_015_Processing_Summary.md`
+- `201125_PROCESSED.md`
+- `Videos_015_Hybrid_Population_Plan.md`
+- `10_Tools_Ecosystem_Catalog.md`
+- `Dev_Department_Report_2025-11-21.md`
+- `REP-006_terminology_standards.json`
+- `REP-010_Terminology_Consolidation.md`
+- `Department_Workload_Analysis.csv`
+- `REP-009_Architecture_Documentation.md`
+- `process_reports_for_tm.py`
+- `Video_010.md`
+- `schema_violations.json`
+- `Task_Template_Mapping.csv`
+- `milestone_04_relationships.py`
+- `EXC_Tasks_Week4.csv`
+- `milestone_02_summary.json`
+- `231225_PROCESSED.md`
+- `Finance_Department_Report_2025-11-21.md`
+- `PMT-094_Weekly_Report_Gap_Analysis.md`
+- `README.md`
+- `08_Strategic_Decisions_Cultural_Shifts.md`
+- `redundant_terms_full.json`
+- `09_Foundational_Systems_W1.md`
+- `file_sizes.json`
+- `LGN_Department_Report_2025-11-20.md`
+- `Phase_0_Template.md`
+- `reference_map.json`
+- `Processing_Log_2025-11-18.md`
+- `Remote_Helpers_Attendance_example.md`
+- `discord_voice_2025-11-18_summary.md`
+- `181225_Niko_PROCESSED.md`
+- `Cloud_AI_Research_Instructions.md`
+- `03_Team_Training_Development.md`
+- `Processing_Log_2025-11-20.md`
+- `Executive_Tasks.csv`
+- `REP-002_Naming_Convention_Audit.md`
+- `11_October_Foundation_Origins.md`
+- `Videos_015_Final_Summary.md`
+- `05_Performance_Management.md`
+- `Video_005_Library_Mapping_Report.md`
+- `Video_001_Library_Mapping_Report.md`
+- `create_delegation_mapping_v2.py`
+- `VID_Department_Report_2025-11-20.md`
+- `Video_017_Library_Mapping_Report.md`
+- `Video_002_Gap_Analysis.md`
+- `Video_014.md`
+- `November_2025_Week_3_Analysis.md`
+- `Video_003.md`
+- `DAY_OF_WEEK_INTEGRATION.md`
+
+
+### DEV
+
+**Total changes:** 3 files
+
+**Added (3 files):**
+- `PR_INFO.md` (14.88 KB, modified: 2025-11-25T14:56:12, by: Dropbox User)
+- `file_structure.md` (507.29 KB, modified: 2025-11-26T00:19:51, by: Dropbox User)
+- `structure.txt` (711.14 KB, modified: 2025-11-26T00:20:17, by: Dropbox User)
+
+
+### ENTITIES_MASTER_LIST.csv
+
+**Total changes:** 1 files
+
+**Modified (1 files):**
+- `ENTITIES_MASTER_LIST.csv` (1355.85 KB, rev: 01644745..., modified: 2025-11-26T00:19:52, by: Dropbox User)
+
+
+### LIBRARIES
+
+**Total changes:** 479 files
+
+**Added (311 files):**
+- `MIGRATION_README.md` → `LBS_003_Tools/MIGRATION_README.md` (11.96 KB, modified: 2025-11-25T14:14:01, by: Dropbox User)
+- `migrate_tools_to_tol.py` → `LBS_003_Tools/migrate_tools_to_tol.py` (35.17 KB, modified: 2025-11-25T13:47:19, by: Dropbox User)
+- `phase4_update_cross_references.py` → `LBS_003_Tools/phase4_update_cross_references.py` (8.84 KB, modified: 2025-11-25T14:09:28, by: Dropbox User)
+- `phase5_rollback_migration.py` → `LBS_003_Tools/phase5_rollback_migration.py` (12.65 KB, modified: 2025-11-25T14:10:33, by: Dropbox User)
+- `run_complete_migration.py` → `LBS_003_Tools/run_complete_migration.py` (3.07 KB, modified: 2025-11-25T14:12:42, by: Dropbox User)
+- `all_json_files.txt` → `LBS_003_Tools/all_json_files.txt` (439 bytes, modified: 2025-11-26T00:53:47, by: Dropbox User)
+- `restructure_tools.py` → `LBS_003_Tools/restructure_tools.py` (11.59 KB, modified: 2025-11-26T01:01:14, by: Dropbox User)
+- `TOL-019_Browse_AI.json` → `LBS_003_Tools/TOL-019_Browse_AI.json` (9.09 KB, modified: 2025-11-26T01:01:31, by: Dropbox User)
+- `TOL-021_Browserbase.json` → `LBS_003_Tools/TOL-021_Browserbase.json` (2.48 KB, modified: 2025-11-26T01:01:31, by: Dropbox User)
+- `TOL-022_Bubble_io.json` → `LBS_003_Tools/TOL-022_Bubble_io.json` (2.01 KB, modified: 2025-11-26T01:01:31, by: Dropbox User)
+- `TOL-023_Caddy.json` → `LBS_003_Tools/TOL-023_Caddy.json` (2.27 KB, modified: 2025-11-26T01:01:31, by: Dropbox User)
+- `TOL-024_Cdans.json` → `LBS_003_Tools/TOL-024_Cdans.json` (8.46 KB, modified: 2025-11-26T01:01:31, by: Dropbox User)
+- `TOL-025_ChatGPT.json` → `LBS_003_Tools/TOL-025_ChatGPT.json` (4.59 KB, modified: 2025-11-26T01:01:31, by: Dropbox User)
+- `TOL-026_Claude.json` → `LBS_003_Tools/TOL-026_Claude.json` (7.11 KB, modified: 2025-11-26T01:01:31, by: Dropbox User)
+- `TOL-027_Claude_Desktop_App.json` → `LBS_003_Tools/TOL-027_Claude_Desktop_App.json` (5.00 KB, modified: 2025-11-26T01:01:31, by: Dropbox User)
+- `TOL-028_Claude_Projects.json` → `LBS_003_Tools/TOL-028_Claude_Projects.json` (6.16 KB, modified: 2025-11-26T01:01:31, by: Dropbox User)
+- `TOL-029_CloudTask.json` → `LBS_003_Tools/TOL-029_CloudTask.json` (6.96 KB, modified: 2025-11-26T01:01:31, by: Dropbox User)
+- `TOL-030_CodeRabbit.json` → `LBS_003_Tools/TOL-030_CodeRabbit.json` (2.24 KB, modified: 2025-11-26T01:01:31, by: Dropbox User)
+- `TOL-031_ComfyUI.json` → `LBS_003_Tools/TOL-031_ComfyUI.json` (3.95 KB, modified: 2025-11-26T01:01:31, by: Dropbox User)
+- `TOL-034_Crawl4AI.json` → `LBS_003_Tools/TOL-034_Crawl4AI.json` (2.56 KB, modified: 2025-11-26T01:01:31, by: Dropbox User)
+- `TOL-036_CRM_MCP_Connector.json` → `LBS_003_Tools/TOL-036_CRM_MCP_Connector.json` (2.81 KB, modified: 2025-11-26T01:01:31, by: Dropbox User)
+- `TOL-042_DigitalOcean.json` → `LBS_003_Tools/TOL-042_DigitalOcean.json` (2.48 KB, modified: 2025-11-26T01:01:31, by: Dropbox User)
+- `TOL-044_Docling.json` → `LBS_003_Tools/TOL-044_Docling.json` (2.51 KB, modified: 2025-11-26T01:01:31, by: Dropbox User)
+- `TOL-049_ElevenLabs.json` → `LBS_003_Tools/TOL-049_ElevenLabs.json` (7.37 KB, modified: 2025-11-26T01:01:31, by: Dropbox User)
+- `TOL-050_Envato_Elements.json` → `LBS_003_Tools/TOL-050_Envato_Elements.json` (2.47 KB, modified: 2025-11-26T01:01:31, by: Dropbox User)
+- `TOL-055_Flux_Kontext.json` → `LBS_003_Tools/TOL-055_Flux_Kontext.json` (15.25 KB, modified: 2025-11-26T01:01:31, by: Dropbox User)
+- `TOL-057_Gamma_app.json` → `LBS_003_Tools/TOL-057_Gamma_app.json` (2.39 KB, modified: 2025-11-26T01:01:31, by: Dropbox User)
+- `TOL-058_Gemini.json` → `LBS_003_Tools/TOL-058_Gemini.json` (4.50 KB, modified: 2025-11-26T01:01:31, by: Dropbox User)
+- `TOL-059_Gemini_File_Search.json` → `LBS_003_Tools/TOL-059_Gemini_File_Search.json` (8.03 KB, modified: 2025-11-26T01:01:31, by: Dropbox User)
+- `TOL-063_GLIF.json` → `LBS_003_Tools/TOL-063_GLIF.json` (8.23 KB, modified: 2025-11-26T01:01:31, by: Dropbox User)
+- `TOL-064_Gmail_MCP_Connector.json` → `LBS_003_Tools/TOL-064_Gmail_MCP_Connector.json` (5.23 KB, modified: 2025-11-26T01:01:31, by: Dropbox User)
+- `TOL-065_Google_AI_Studio.json` → `LBS_003_Tools/TOL-065_Google_AI_Studio.json` (16.22 KB, modified: 2025-11-26T01:01:31, by: Dropbox User)
+- `TOL-067_Google_Cloud_Run.json` → `LBS_003_Tools/TOL-067_Google_Cloud_Run.json` (4.56 KB, modified: 2025-11-26T01:01:31, by: Dropbox User)
+- `TOL-070_Google_Veo_3_1.json` → `LBS_003_Tools/TOL-070_Google_Veo_3_1.json` (19.71 KB, modified: 2025-11-26T01:01:31, by: Dropbox User)
+- `TOL-071_Graphiti.json` → `LBS_003_Tools/TOL-071_Graphiti.json` (2.47 KB, modified: 2025-11-26T01:01:31, by: Dropbox User)
+- `TOL-072_Grok.json` → `LBS_003_Tools/TOL-072_Grok.json` (2.39 KB, modified: 2025-11-26T01:01:31, by: Dropbox User)
+- `TOL-033_Cove_ai.json` → `LBS_003_Tools/TOL-033_Cove_ai.json` (1.09 KB, modified: 2025-11-26T01:01:31, by: Dropbox User)
+- `TOL-035_CrewAI.json` → `LBS_003_Tools/TOL-035_CrewAI.json` (2.29 KB, modified: 2025-11-26T01:01:31, by: Dropbox User)
+- `TOL-037_Cursor.json` → `LBS_003_Tools/TOL-037_Cursor.json` (7.14 KB, modified: 2025-11-26T01:01:31, by: Dropbox User)
+- `TOL-039_DeepSite.json` → `LBS_003_Tools/TOL-039_DeepSite.json` (1.75 KB, modified: 2025-11-26T01:01:31, by: Dropbox User)
+- `TOL-045_Dribbble.json` → `LBS_003_Tools/TOL-045_Dribbble.json` (4.76 KB, modified: 2025-11-26T01:01:31, by: Dropbox User)
+- `TOL-046_Dropbox.json` → `LBS_003_Tools/TOL-046_Dropbox.json` (3.61 KB, modified: 2025-11-26T01:01:31, by: Dropbox User)
+- `TOL-052_Firecrawl.json` → `LBS_003_Tools/TOL-052_Firecrawl.json` (2.08 KB, modified: 2025-11-26T01:01:31, by: Dropbox User)
+- `TOL-053_Fiverr.json` → `LBS_003_Tools/TOL-053_Fiverr.json` (7.02 KB, modified: 2025-11-26T01:01:31, by: Dropbox User)
+- `TOL-054_Flux.json` → `LBS_003_Tools/TOL-054_Flux.json` (16.21 KB, modified: 2025-11-26T01:01:31, by: Dropbox User)
+- `TOL-056_Freepik.json` → `LBS_003_Tools/TOL-056_Freepik.json` (2.30 KB, modified: 2025-11-26T01:01:31, by: Dropbox User)
+- `TOL-060_Genspark_ai.json` → `LBS_003_Tools/TOL-060_Genspark_ai.json` (2.05 KB, modified: 2025-11-26T01:01:31, by: Dropbox User)
+- `TOL-062_GitHub_Copilot.json` → `LBS_003_Tools/TOL-062_GitHub_Copilot.json` (9.18 KB, modified: 2025-11-26T01:01:31, by: Dropbox User)
+- `TOL-066_Google_Calendar_MCP_Connector.json` → `LBS_003_Tools/TOL-066_Google_Calendar_MCP_Connector.json` (5.89 KB, modified: 2025-11-26T01:01:31, by: Dropbox User)
+- `TOL-068_Google_Sheets.json` → `LBS_003_Tools/TOL-068_Google_Sheets.json` (7.81 KB, modified: 2025-11-26T01:01:31, by: Dropbox User)
+- `TOL-073_Hailo.json` → `LBS_003_Tools/TOL-073_Hailo.json` (1.74 KB, modified: 2025-11-26T01:01:31, by: Dropbox User)
+- `TOL-075_Hedra.json` → `LBS_003_Tools/TOL-075_Hedra.json` (1.60 KB, modified: 2025-11-26T01:01:31, by: Dropbox User)
+- `TOL-076_HeyGen.json` → `LBS_003_Tools/TOL-076_HeyGen.json` (2.47 KB, modified: 2025-11-26T01:01:31, by: Dropbox User)
+- `TOL-103_Neon.json` → `LBS_003_Tools/TOL-103_Neon.json` (2.22 KB, modified: 2025-11-26T01:01:31, by: Dropbox User)
+- `TOL-005_Antigravity.json` → `LBS_003_Tools/TOL-005_Antigravity.json` (2.37 KB, modified: 2025-11-26T01:01:31, by: Dropbox User)
+- `TOL-008_Apify.json` → `LBS_003_Tools/TOL-008_Apify.json` (2.28 KB, modified: 2025-11-26T01:01:31, by: Dropbox User)
+- `TOL-009_Arcade_ai.json` → `LBS_003_Tools/TOL-009_Arcade_ai.json` (2.45 KB, modified: 2025-11-26T01:01:31, by: Dropbox User)
+- `TOL-004_Airscale.json` → `LBS_003_Tools/TOL-004_Airscale.json` (3.65 KB, modified: 2025-11-26T01:01:31, by: Dropbox User)
+- `TOL-001_99designs.json` → `LBS_003_Tools/TOL-001_99designs.json` (7.45 KB, modified: 2025-11-26T01:01:31, by: Dropbox User)
+- `TOL-013_Auth0.json` → `LBS_003_Tools/TOL-013_Auth0.json` (2.53 KB, modified: 2025-11-26T01:01:31, by: Dropbox User)
+- `TOL-010_Archon.json` → `LBS_003_Tools/TOL-010_Archon.json` (2.34 KB, modified: 2025-11-26T01:01:31, by: Dropbox User)
+- `TOL-017_Brave_Search.json` → `LBS_003_Tools/TOL-017_Brave_Search.json` (2.18 KB, modified: 2025-11-26T01:01:31, by: Dropbox User)
+- `TOL-002_Adobe_Firefly.json` → `LBS_003_Tools/TOL-002_Adobe_Firefly.json` (2.62 KB, modified: 2025-11-26T01:01:31, by: Dropbox User)
+- `TOL-006_Antigravity_IDE.json` → `LBS_003_Tools/TOL-006_Antigravity_IDE.json` (4.96 KB, modified: 2025-11-26T01:01:31, by: Dropbox User)
+- `TOL-018_Bright_Data.json` → `LBS_003_Tools/TOL-018_Bright_Data.json` (4.08 KB, modified: 2025-11-26T01:01:31, by: Dropbox User)
+- `TOL-015_Azure.json` → `LBS_003_Tools/TOL-015_Azure.json` (3.65 KB, modified: 2025-11-26T01:01:31, by: Dropbox User)
+- `TOL-007_Anymailfinder.json` → `LBS_003_Tools/TOL-007_Anymailfinder.json` (5.65 KB, modified: 2025-11-26T01:01:31, by: Dropbox User)
+- `TOL-077_Hugging_Face.json` → `LBS_003_Tools/TOL-077_Hugging_Face.json` (4.00 KB, modified: 2025-11-26T01:01:31, by: Dropbox User)
+- `TOL-078_InVideo_AI.json` → `LBS_003_Tools/TOL-078_InVideo_AI.json` (2.25 KB, modified: 2025-11-26T01:01:31, by: Dropbox User)
+- `TOL-079_Kimi_K2_Thinking.json` → `LBS_003_Tools/TOL-079_Kimi_K2_Thinking.json` (11.02 KB, modified: 2025-11-26T01:01:31, by: Dropbox User)
+- `TOL-080_Kling.json` → `LBS_003_Tools/TOL-080_Kling.json` (7.91 KB, modified: 2025-11-26T01:01:31, by: Dropbox User)
+- `TOL-081_Langfuse.json` → `LBS_003_Tools/TOL-081_Langfuse.json` (2.86 KB, modified: 2025-11-26T01:01:31, by: Dropbox User)
+- `TOL-082_LangGraph.json` → `LBS_003_Tools/TOL-082_LangGraph.json` (2.85 KB, modified: 2025-11-26T01:01:31, by: Dropbox User)
+- `TOL-083_Leonardo_AI.json` → `LBS_003_Tools/TOL-083_Leonardo_AI.json` (4.45 KB, modified: 2025-11-26T01:01:31, by: Dropbox User)
+- `TOL-086_Loom.json` → `LBS_003_Tools/TOL-086_Loom.json` (2.40 KB, modified: 2025-11-26T01:01:31, by: Dropbox User)
+- `TOL-087_Lovable_dev.json` → `LBS_003_Tools/TOL-087_Lovable_dev.json` (2.53 KB, modified: 2025-11-26T01:01:31, by: Dropbox User)
+- `TOL-089_Maestra_ai.json` → `LBS_003_Tools/TOL-089_Maestra_ai.json` (2.01 KB, modified: 2025-11-26T01:01:31, by: Dropbox User)
+- `TOL-090_Manus_im.json` → `LBS_003_Tools/TOL-090_Manus_im.json` (1.50 KB, modified: 2025-11-26T01:01:31, by: Dropbox User)
+- `TOL-091_MarketerHire.json` → `LBS_003_Tools/TOL-091_MarketerHire.json` (7.92 KB, modified: 2025-11-26T01:01:31, by: Dropbox User)
+- `TOL-092_Mayple.json` → `LBS_003_Tools/TOL-092_Mayple.json` (6.99 KB, modified: 2025-11-26T01:01:31, by: Dropbox User)
+- `TOL-093_MCP_Builder_Skill.json` → `LBS_003_Tools/TOL-093_MCP_Builder_Skill.json` (5.57 KB, modified: 2025-11-26T01:01:31, by: Dropbox User)
+- `TOL-096_Mem0.json` → `LBS_003_Tools/TOL-096_Mem0.json` (2.48 KB, modified: 2025-11-26T01:01:31, by: Dropbox User)
+- `TOL-097_Midjourney.json` → `LBS_003_Tools/TOL-097_Midjourney.json` (26.61 KB, modified: 2025-11-26T01:01:31, by: Dropbox User)
+- `TOL-098_MiniMax.json` → `LBS_003_Tools/TOL-098_MiniMax.json` (1.68 KB, modified: 2025-11-26T01:01:31, by: Dropbox User)
+- `TOL-099_Model_Scope.json` → `LBS_003_Tools/TOL-099_Model_Scope.json` (2.48 KB, modified: 2025-11-26T01:01:31, by: Dropbox User)
+- `TOL-100_MovieGen.json` → `LBS_003_Tools/TOL-100_MovieGen.json` (2.36 KB, modified: 2025-11-26T01:01:31, by: Dropbox User)
+- `TOL-101_Nano_Banana.json` → `LBS_003_Tools/TOL-101_Nano_Banana.json` (12.06 KB, modified: 2025-11-26T01:01:31, by: Dropbox User)
+- `TOL-102_Neo4j.json` → `LBS_003_Tools/TOL-102_Neo4j.json` (2.63 KB, modified: 2025-11-26T01:01:31, by: Dropbox User)
+- `TOL-104_NotebookLM.json` → `LBS_003_Tools/TOL-104_NotebookLM.json` (2.64 KB, modified: 2025-11-26T01:01:31, by: Dropbox User)
+- `TOL-105_Notion_AI.json` → `LBS_003_Tools/TOL-105_Notion_AI.json` (2.60 KB, modified: 2025-11-26T01:01:31, by: Dropbox User)
+- `TOL-106_Ollama.json` → `LBS_003_Tools/TOL-106_Ollama.json` (2.22 KB, modified: 2025-11-26T01:01:31, by: Dropbox User)
+- `TOL-107_Open_WebUI.json` → `LBS_003_Tools/TOL-107_Open_WebUI.json` (2.11 KB, modified: 2025-11-26T01:01:31, by: Dropbox User)
+- `TOL-108_OpenAI_GPT5.json` → `LBS_003_Tools/TOL-108_OpenAI_GPT5.json` (5.45 KB, modified: 2025-11-26T01:01:31, by: Dropbox User)
+- `TOL-109_OpenArt.json` → `LBS_003_Tools/TOL-109_OpenArt.json` (17.46 KB, modified: 2025-11-26T01:01:31, by: Dropbox User)
+- `TOL-110_OpenArt_Photorealistic.json` → `LBS_003_Tools/TOL-110_OpenArt_Photorealistic.json` (16.25 KB, modified: 2025-11-26T01:01:31, by: Dropbox User)
+- `TOL-111_OpenRouter.json` → `LBS_003_Tools/TOL-111_OpenRouter.json` (2.19 KB, modified: 2025-11-26T01:01:31, by: Dropbox User)
+- `TOL-112_Perplexity.json` → `LBS_003_Tools/TOL-112_Perplexity.json` (5.26 KB, modified: 2025-11-26T01:01:31, by: Dropbox User)
+- `TOL-113_PGVector.json` → `LBS_003_Tools/TOL-113_PGVector.json` (2.49 KB, modified: 2025-11-26T01:01:31, by: Dropbox User)
+- `TOL-115_Pollo_ai.json` → `LBS_003_Tools/TOL-115_Pollo_ai.json` (1.51 KB, modified: 2025-11-26T01:01:31, by: Dropbox User)
+- `TOL-116_Postgres.json` → `LBS_003_Tools/TOL-116_Postgres.json` (2.62 KB, modified: 2025-11-26T01:01:31, by: Dropbox User)
+- `TOL-118_Pydantic_AI.json` → `LBS_003_Tools/TOL-118_Pydantic_AI.json` (2.80 KB, modified: 2025-11-26T01:01:31, by: Dropbox User)
+- `TOL-120_Ragas.json` → `LBS_003_Tools/TOL-120_Ragas.json` (2.38 KB, modified: 2025-11-26T01:01:31, by: Dropbox User)
+- `TOL-122_Redis.json` → `LBS_003_Tools/TOL-122_Redis.json` (2.32 KB, modified: 2025-11-26T01:01:31, by: Dropbox User)
+- `TOL-123_Render.json` → `LBS_003_Tools/TOL-123_Render.json` (2.46 KB, modified: 2025-11-26T01:01:31, by: Dropbox User)
+- `TOL-124_Replit.json` → `LBS_003_Tools/TOL-124_Replit.json` (2.41 KB, modified: 2025-11-26T01:01:31, by: Dropbox User)
+- `TOL-125_Revelo.json` → `LBS_003_Tools/TOL-125_Revelo.json` (7.76 KB, modified: 2025-11-26T01:01:31, by: Dropbox User)
+- `TOL-126_Runner.json` → `LBS_003_Tools/TOL-126_Runner.json` (1.10 KB, modified: 2025-11-26T01:01:31, by: Dropbox User)
+- `TOL-127_RunPod.json` → `LBS_003_Tools/TOL-127_RunPod.json` (2.26 KB, modified: 2025-11-26T01:01:31, by: Dropbox User)
+- `TOL-128_RunwayML.json` → `LBS_003_Tools/TOL-128_RunwayML.json` (3.74 KB, modified: 2025-11-26T01:01:31, by: Dropbox User)
+- `TOL-129_SearXNG.json` → `LBS_003_Tools/TOL-129_SearXNG.json` (2.10 KB, modified: 2025-11-26T01:01:31, by: Dropbox User)
+- `TOL-130_Seedream.json` → `LBS_003_Tools/TOL-130_Seedream.json` (9.90 KB, modified: 2025-11-26T01:01:31, by: Dropbox User)
+- `TOL-131_Seedream_4_0.json` → `LBS_003_Tools/TOL-131_Seedream_4_0.json` (14.44 KB, modified: 2025-11-26T01:01:31, by: Dropbox User)
+- `TOL-132_Smithery_ai.json` → `LBS_003_Tools/TOL-132_Smithery_ai.json` (1.09 KB, modified: 2025-11-26T01:01:31, by: Dropbox User)
+- `TOL-133_Sonnet_45.json` → `LBS_003_Tools/TOL-133_Sonnet_45.json` (1.82 KB, modified: 2025-11-26T01:01:31, by: Dropbox User)
+- `TOL-134_Sora.json` → `LBS_003_Tools/TOL-134_Sora.json` (7.70 KB, modified: 2025-11-26T01:01:31, by: Dropbox User)
+- `TOL-136_Stripe.json` → `LBS_003_Tools/TOL-136_Stripe.json` (2.39 KB, modified: 2025-11-26T01:01:31, by: Dropbox User)
+- `TOL-138_Suno.json` → `LBS_003_Tools/TOL-138_Suno.json` (2.25 KB, modified: 2025-11-26T01:01:31, by: Dropbox User)
+- `TOL-139_Supabase.json` → `LBS_003_Tools/TOL-139_Supabase.json` (2.74 KB, modified: 2025-11-26T01:01:31, by: Dropbox User)
+- `TOL-140_Synthesia.json` → `LBS_003_Tools/TOL-140_Synthesia.json` (2.05 KB, modified: 2025-11-26T01:01:31, by: Dropbox User)
+- `TOL-145_TurboScribe.json` → `LBS_003_Tools/TOL-145_TurboScribe.json` (2.30 KB, modified: 2025-11-26T01:01:31, by: Dropbox User)
+- `TOL-147_UpWork.json` → `LBS_003_Tools/TOL-147_UpWork.json` (6.56 KB, modified: 2025-11-26T01:01:31, by: Dropbox User)
+- `TOL-148_v0_dev.json` → `LBS_003_Tools/TOL-148_v0_dev.json` (1.81 KB, modified: 2025-11-26T01:01:31, by: Dropbox User)
+- `TOL-149_Valkey.json` → `LBS_003_Tools/TOL-149_Valkey.json` (2.25 KB, modified: 2025-11-26T01:01:31, by: Dropbox User)
+- `TOL-150_VAYU.json` → `LBS_003_Tools/TOL-150_VAYU.json` (8.50 KB, modified: 2025-11-26T01:01:31, by: Dropbox User)
+- `TOL-153_Vite.json` → `LBS_003_Tools/TOL-153_Vite.json` (4.11 KB, modified: 2025-11-26T01:01:31, by: Dropbox User)
+- `TOL-154_Vozo_AI.json` → `LBS_003_Tools/TOL-154_Vozo_AI.json` (1.60 KB, modified: 2025-11-26T01:01:31, by: Dropbox User)
+- `TOL-155_Wan_2_2.json` → `LBS_003_Tools/TOL-155_Wan_2_2.json` (4.20 KB, modified: 2025-11-26T01:01:31, by: Dropbox User)
+- `TOL-156_WHALESWING.json` → `LBS_003_Tools/TOL-156_WHALESWING.json` (1.50 KB, modified: 2025-11-26T01:01:31, by: Dropbox User)
+- `TOL-157_Wispr_Flow.json` → `LBS_003_Tools/TOL-157_Wispr_Flow.json` (2.74 KB, modified: 2025-11-26T01:01:31, by: Dropbox User)
+- `TOL-160_Zep.json` → `LBS_003_Tools/TOL-160_Zep.json` (2.09 KB, modified: 2025-11-26T01:01:31, by: Dropbox User)
+- `TOL-151_Vectal_Pro.json` → `LBS_003_Tools/TOL-151_Vectal_Pro.json` (1.49 KB, modified: 2025-11-26T01:01:31, by: Dropbox User)
+- `Adobe_Firefly.json` → `LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/AI_Tools/Adobe_Firefly.json` (2.35 KB, modified: 2025-11-15T13:53:56, by: Dropbox User)
+- `Arcade_ai.json` → `LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/AI_Tools/Arcade_ai.json` (2.20 KB, modified: 2025-11-13T22:32:49, by: Dropbox User)
+- `Archon.json` → `LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/AI_Tools/Archon.json` (2.10 KB, modified: 2025-11-13T22:57:09, by: Dropbox User)
+- `Browserbase.json` → `LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/AI_Tools/Browserbase.json` (2.22 KB, modified: 2025-11-13T22:35:22, by: Dropbox User)
+- `Bubble_io.json` → `LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/AI_Tools/Bubble_io.json` (1.77 KB, modified: 2025-11-11T22:57:16, by: Dropbox User)
+- `Claude.json` → `LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/AI_Tools/Claude.json` (6.69 KB, modified: 2025-11-15T13:51:40, by: Dropbox User)
+- `Claude_Desktop_App.json` → `LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/AI_Tools/Claude_Desktop_App.json` (4.67 KB, modified: 2025-11-12T07:08:42, by: Dropbox User)
+- `Claude_Projects.json` → `LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/AI_Tools/Claude_Projects.json` (5.83 KB, modified: 2025-11-19T16:41:24, by: Dropbox User)
+- `ComfyUI.json` → `LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/AI_Tools/ComfyUI.json` (3.68 KB, modified: 2025-11-19T16:41:18, by: Dropbox User)
+- `Cove_ai.json` → `LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/AI_Tools/Cove_ai.json` (905 bytes, modified: 2025-11-19T16:41:30, by: Dropbox User)
+- `Cursor.json` → `LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/AI_Tools/Cursor.json` (6.66 KB, modified: 2025-11-19T20:58:00, by: Dropbox User)
+- `Custom_Prompt_Templates.json` → `LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/AI_Tools/Custom_Prompt_Templates.json` (13.95 KB, modified: 2025-11-17T20:31:33, by: Dropbox User)
+- `Docling.json` → `LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/AI_Tools/Docling.json` (2.26 KB, modified: 2025-11-13T22:33:23, by: Dropbox User)
+- `Dribbble.json` → `LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/AI_Tools/Dribbble.json` (4.39 KB, modified: 2025-11-13T15:29:42, by: Dropbox User)
+- `ElevenLabs.json` → `LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/AI_Tools/ElevenLabs.json` (7.00 KB, modified: 2025-11-18T08:41:18, by: Dropbox User)
+- `Freepik.json` → `LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/AI_Tools/Freepik.json` (2.04 KB, modified: 2025-11-15T13:54:38, by: Dropbox User)
+- `Gamma_app.json` → `LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/AI_Tools/Gamma_app.json` (2.12 KB, modified: 2025-11-15T13:52:36, by: Dropbox User)
+- `Gemini.json` → `LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/AI_Tools/Gemini.json` (4.20 KB, modified: 2025-11-18T08:43:05, by: Dropbox User)
+- `Gemini_File_Search.json` → `LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/AI_Tools/Gemini_File_Search.json` (7.64 KB, modified: 2025-11-13T22:13:25, by: Dropbox User)
+- `Google_AI_Studio.json` → `LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/AI_Tools/Google_AI_Studio.json` (15.64 KB, modified: 2025-11-23T23:27:24, by: Dropbox User)
+- `Google_Veo_3_1.json` → `LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/AI_Tools/Google_Veo_3_1.json` (19.17 KB, modified: 2025-11-19T16:41:27, by: Dropbox User)
+- `Graphiti.json` → `LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/AI_Tools/Graphiti.json` (2.22 KB, modified: 2025-11-13T22:34:42, by: Dropbox User)
+- `Hailo.json` → `LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/AI_Tools/Hailo.json` (1.51 KB, modified: 2025-11-15T13:54:29, by: Dropbox User)
+- `Hedra.json` → `LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/AI_Tools/Hedra.json` (1.38 KB, modified: 2025-11-19T16:40:55, by: Dropbox User)
+- `InVideo_AI.json` → `LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/AI_Tools/InVideo_AI.json` (1.99 KB, modified: 2025-11-15T13:53:39, by: Dropbox User)
+- `Kimi_K2_Thinking.json` → `LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/AI_Tools/Kimi_K2_Thinking.json` (10.58 KB, modified: 2025-11-19T15:45:22, by: Dropbox User)
+- `Kling.json` → `LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/AI_Tools/Kling.json` (7.53 KB, modified: 2025-11-11T22:57:16, by: Dropbox User)
+- `LangGraph.json` → `LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/AI_Tools/LangGraph.json` (2.59 KB, modified: 2025-11-13T22:32:25, by: Dropbox User)
+- `Langfuse.json` → `LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/AI_Tools/Langfuse.json` (2.59 KB, modified: 2025-11-13T22:33:06, by: Dropbox User)
+- `Lovable_dev.json` → `LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/AI_Tools/Lovable_dev.json` (2.26 KB, modified: 2025-11-15T13:52:29, by: Dropbox User)
+- `MCP_Builder_Skill.json` → `LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/AI_Tools/MCP_Builder_Skill.json` (5.20 KB, modified: 2025-11-12T07:09:34, by: Dropbox User)
+- `MCP_Servers.json` → `LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/AI_Tools/MCP_Servers.json` (10.33 KB, modified: 2025-11-19T15:48:34, by: Dropbox User)
+- `Maestra_ai.json` → `LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/AI_Tools/Maestra_ai.json` (1.77 KB, modified: 2025-11-11T22:57:16, by: Dropbox User)
+- `Manus_im.json` → `LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/AI_Tools/Manus_im.json` (1.28 KB, modified: 2025-11-15T13:52:48, by: Dropbox User)
+- `MiniMax.json` → `LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/AI_Tools/MiniMax.json` (1.45 KB, modified: 2025-11-11T22:57:16, by: Dropbox User)
+- `Notion_AI.json` → `LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/AI_Tools/Notion_AI.json` (2.33 KB, modified: 2025-11-15T13:53:48, by: Dropbox User)
+- `Ollama.json` → `LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/AI_Tools/Ollama.json` (1.97 KB, modified: 2025-11-13T22:39:42, by: Dropbox User)
+- `OpenRouter.json` → `LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/AI_Tools/OpenRouter.json` (1.94 KB, modified: 2025-11-15T13:54:03, by: Dropbox User)
+- `Open_WebUI.json` → `LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/AI_Tools/Open_WebUI.json` (1.86 KB, modified: 2025-11-13T22:40:02, by: Dropbox User)
+- `Pollo_ai.json` → `LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/AI_Tools/Pollo_ai.json` (1.29 KB, modified: 2025-11-15T13:54:08, by: Dropbox User)
+- `Pydantic_AI.json` → `LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/AI_Tools/Pydantic_AI.json` (2.53 KB, modified: 2025-11-13T22:32:05, by: Dropbox User)
+- `Replit.json` → `LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/AI_Tools/Replit.json` (2.16 KB, modified: 2025-11-19T20:58:02, by: Dropbox User)
+- `Runner.json` → `LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/AI_Tools/Runner.json` (921 bytes, modified: 2025-11-19T16:41:09, by: Dropbox User)
+- `RunwayML.json` → `LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/AI_Tools/RunwayML.json` (3.44 KB, modified: 2025-11-21T13:50:49, by: Dropbox User)
+- `Sonnet_45.json` → `LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/AI_Tools/Sonnet_45.json` (1.46 KB, modified: 2025-11-12T07:40:56, by: Dropbox User)
+- `Suno.json` → `LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/AI_Tools/Suno.json` (2.00 KB, modified: 2025-11-15T13:53:18, by: Dropbox User)
+- `Vozo_AI.json` → `LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/AI_Tools/Vozo_AI.json` (1.37 KB, modified: 2025-11-15T13:54:18, by: Dropbox User)
+- `WHALESWING.json` → `LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/AI_Tools/WHALESWING.json` (1.27 KB, modified: 2025-11-15T13:54:23, by: Dropbox User)
+- `Wan_2_2.json` → `LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/AI_Tools/Wan_2_2.json` (3.93 KB, modified: 2025-11-19T16:41:12, by: Dropbox User)
+- `Wispr_Flow.json` → `LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/AI_Tools/Wispr_Flow.json` (2.46 KB, modified: 2025-11-15T13:53:33, by: Dropbox User)
+- `AI_Tools_Master_Listing.json` → `LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/AI_Tools/AI_Tools_Master_Listing.json` (6.63 KB, modified: 2025-11-15T13:55:42, by: Dropbox User)
+- `Antigravity.json` → `LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/AI_Tools/Antigravity.json` (2.19 KB, modified: 2025-11-19T20:01:34, by: Dropbox User)
+- `Browse_AI.json` → `LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/AI_Tools/Browse_AI.json` (3.72 KB, modified: 2025-11-25T22:48:50, by: Dropbox User)
+- `Cdans.json` → `LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/AI_Tools/Cdans.json` (8.05 KB, modified: 2025-11-11T22:57:16, by: Dropbox User)
+- `ChatGPT.json` → `LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/AI_Tools/ChatGPT.json` (4.26 KB, modified: 2025-11-21T13:51:43, by: Dropbox User)
+- `CodeRabbit.json` → `LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/AI_Tools/CodeRabbit.json` (1.99 KB, modified: 2025-11-13T22:36:01, by: Dropbox User)
+- `Company_Voice_Guide.json` → `LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/AI_Tools/Company_Voice_Guide.json` (12.82 KB, modified: 2025-11-19T15:45:25, by: Dropbox User)
+- `Crawl4AI.json` → `LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/AI_Tools/Crawl4AI.json` (2.31 KB, modified: 2025-11-13T22:33:45, by: Dropbox User)
+- `CrewAI.json` → `LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/AI_Tools/CrewAI.json` (2.04 KB, modified: 2025-11-13T22:55:44, by: Dropbox User)
+- `DeepSite.json` → `LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/AI_Tools/DeepSite.json` (1.52 KB, modified: 2025-11-11T22:57:16, by: Dropbox User)
+- `Dropbox_Dash.json` → `LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/AI_Tools/Dropbox_Dash.json` (10.89 KB, modified: 2025-11-17T20:26:49, by: Dropbox User)
+- `Envato_Elements.json` → `LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/AI_Tools/Envato_Elements.json` (2.20 KB, modified: 2025-11-15T13:54:46, by: Dropbox User)
+- `Flux.json` → `LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/AI_Tools/Flux.json` (15.71 KB, modified: 2025-11-15T15:44:10, by: Dropbox User)
+- `Flux_Kontext.json` → `LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/AI_Tools/Flux_Kontext.json` (14.81 KB, modified: 2025-11-19T16:41:15, by: Dropbox User)
+- `GLIF.json` → `LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/AI_Tools/GLIF.json` (7.86 KB, modified: 2025-11-11T22:57:16, by: Dropbox User)
+- `Genspark_ai.json` → `LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/AI_Tools/Genspark_ai.json` (1.81 KB, modified: 2025-11-19T16:41:33, by: Dropbox User)
+- `GitHub_Copilot.json` → `LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/AI_Tools/GitHub_Copilot.json` (8.63 KB, modified: 2025-11-17T19:34:48, by: Dropbox User)
+- `Grok.json` → `LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/AI_Tools/Grok.json` (2.14 KB, modified: 2025-11-15T13:52:41, by: Dropbox User)
+- `HeyGen.json` → `LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/AI_Tools/HeyGen.json` (2.21 KB, modified: 2025-11-19T16:41:21, by: Dropbox User)
+- `LLM_as_Judge_Evaluation_Framework.json` → `LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/AI_Tools/LLM_as_Judge_Evaluation_Framework.json` (12.87 KB, modified: 2025-11-17T20:30:12, by: Dropbox User)
+- `Leonardo_AI.json` → `LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/AI_Tools/Leonardo_AI.json` (4.13 KB, modified: 2025-11-21T13:51:14, by: Dropbox User)
+- `Loom.json` → `LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/AI_Tools/Loom.json` (2.14 KB, modified: 2025-11-15T13:52:34, by: Dropbox User)
+- `Mem0.json` → `LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/AI_Tools/Mem0.json` (2.23 KB, modified: 2025-11-13T22:34:04, by: Dropbox User)
+- `Midjourney.json` → `LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/AI_Tools/Midjourney.json` (25.54 KB, modified: 2025-11-21T15:22:59, by: Dropbox User)
+- `MovieGen.json` → `LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/AI_Tools/MovieGen.json` (2.11 KB, modified: 2025-11-19T16:41:01, by: Dropbox User)
+- `Nano_Banana.json` → `LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/AI_Tools/Nano_Banana.json` (11.60 KB, modified: 2025-11-18T08:42:25, by: Dropbox User)
+- `NotebookLM.json` → `LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/AI_Tools/NotebookLM.json` (2.39 KB, modified: 2025-11-17T19:08:00, by: Dropbox User)
+- `OpenAI_GPT5.json` → `LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/AI_Tools/OpenAI_GPT5.json` (4.83 KB, modified: 2025-11-13T15:46:49, by: Dropbox User)
+- `OpenArt.json` → `LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/AI_Tools/OpenArt.json` (16.95 KB, modified: 2025-11-19T16:41:04, by: Dropbox User)
+- `OpenArt_Photorealistic.json` → `LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/AI_Tools/OpenArt_Photorealistic.json` (15.78 KB, modified: 2025-11-15T16:44:19, by: Dropbox User)
+- `Perplexity.json` → `LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/AI_Tools/Perplexity.json` (4.92 KB, modified: 2025-11-15T13:52:04, by: Dropbox User)
+- `README.md` → `LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/AI_Tools/README.md` (7.93 KB, modified: 2025-11-19T04:54:11, by: Dropbox User)
+- `Ragas.json` → `LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/AI_Tools/Ragas.json` (2.13 KB, modified: 2025-11-13T22:35:06, by: Dropbox User)
+- `SearXNG.json` → `LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/AI_Tools/SearXNG.json` (1.86 KB, modified: 2025-11-13T22:54:02, by: Dropbox User)
+- `Seedream.json` → `LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/AI_Tools/Seedream.json` (9.46 KB, modified: 2025-11-19T16:40:58, by: Dropbox User)
+- `Seedream_4_0.json` → `LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/AI_Tools/Seedream_4_0.json` (13.99 KB, modified: 2025-11-19T16:40:52, by: Dropbox User)
+- `Smithery_ai.json` → `LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/AI_Tools/Smithery_ai.json` (905 bytes, modified: 2025-11-11T22:57:16, by: Dropbox User)
+- `Sora.json` → `LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/AI_Tools/Sora.json` (7.32 KB, modified: 2025-11-19T16:41:38, by: Dropbox User)
+- `Synthesia.json` → `LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/AI_Tools/Synthesia.json` (1.81 KB, modified: 2025-11-11T22:57:16, by: Dropbox User)
+- `TurboScribe.json` → `LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/AI_Tools/TurboScribe.json` (2.03 KB, modified: 2025-11-15T13:53:25, by: Dropbox User)
+- `VAYU.json` → `LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/AI_Tools/VAYU.json` (8.11 KB, modified: 2025-11-19T16:41:07, by: Dropbox User)
+- `Vectal_Pro.json` → `LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/AI_Tools/Vectal_Pro.json` (1.27 KB, modified: 2025-11-15T13:54:13, by: Dropbox User)
+- `Video generation.md` → `LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/AI_Tools/Video generation.md` (14.14 KB, modified: 2025-11-19T04:54:11, by: Dropbox User)
+- `Vite.json` → `LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/AI_Tools/Vite.json` (3.82 KB, modified: 2025-11-19T16:41:35, by: Dropbox User)
+- `Zep.json` → `LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/AI_Tools/Zep.json` (1.85 KB, modified: 2025-11-13T22:56:23, by: Dropbox User)
+- `arXiv.json` → `LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/AI_Tools/arXiv.json` (10.70 KB, modified: 2025-11-17T20:27:51, by: Dropbox User)
+- `awesome_copilot.json` → `LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/AI_Tools/awesome_copilot.json` (11.74 KB, modified: 2025-11-19T15:48:30, by: Dropbox User)
+- `v0_dev.json` → `LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/AI_Tools/v0_dev.json` (1.58 KB, modified: 2025-11-11T22:57:16, by: Dropbox User)
+- `Auth0.json` → `LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/Authentication_Tools/Auth0.json` (2.28 KB, modified: 2025-11-13T22:53:21, by: Dropbox User)
+- `Azure.json` → `LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/Cloud_Platforms/Azure.json` (3.38 KB, modified: 2025-11-17T18:49:55, by: Dropbox User)
+- `DigitalOcean.json` → `LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/Cloud_Platforms/DigitalOcean.json` (2.22 KB, modified: 2025-11-13T22:39:02, by: Dropbox User)
+- `Google_Cloud_Run.json` → `LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/Cloud_Platforms/Google_Cloud_Run.json` (4.36 KB, modified: 2025-11-24T00:11:45, by: Dropbox User)
+- `Hugging_Face.json` → `LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/Cloud_Platforms/Hugging_Face.json` (3.72 KB, modified: 2025-11-15T13:55:05, by: Dropbox User)
+- `Model_Scope.json` → `LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/Cloud_Platforms/Model_Scope.json` (2.24 KB, modified: 2025-11-19T16:40:46, by: Dropbox User)
+- `Render.json` → `LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/Cloud_Platforms/Render.json` (2.21 KB, modified: 2025-11-13T22:38:47, by: Dropbox User)
+- `RunPod.json` → `LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/Cloud_Platforms/RunPod.json` (2.01 KB, modified: 2025-11-19T16:40:49, by: Dropbox User)
+- `Airscale.json` → `LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/Data_Tools/Airscale.json` (3.38 KB, modified: 2025-11-12T07:08:40, by: Dropbox User)
+- `Anymailfinder.json` → `LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/Data_Tools/Anymailfinder.json` (5.34 KB, modified: 2025-11-12T07:07:54, by: Dropbox User)
+- `Bright_Data.json` → `LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/Data_Tools/Bright_Data.json` (3.75 KB, modified: 2025-11-12T07:39:08, by: Dropbox User)
+- `Google_Sheets.json` → `LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/Data_Tools/Google_Sheets.json` (3.99 KB, modified: 2025-11-26T00:19:18, by: Dropbox User)
+- `Neo4j.json` → `LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/Databases/Neo4j.json` (2.37 KB, modified: 2025-11-13T22:34:23, by: Dropbox User)
+- `Neon.json` → `LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/Databases/Neon.json` (1.98 KB, modified: 2025-11-13T22:40:44, by: Dropbox User)
+- `PGVector.json` → `LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/Databases/PGVector.json` (2.23 KB, modified: 2025-11-13T22:55:04, by: Dropbox User)
+- `Postgres.json` → `LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/Databases/Postgres.json` (2.35 KB, modified: 2025-11-13T22:36:28, by: Dropbox User)
+- `Redis.json` → `LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/Databases/Redis.json` (2.07 KB, modified: 2025-11-13T22:36:43, by: Dropbox User)
+- `Supabase.json` → `LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/Databases/Supabase.json` (2.47 KB, modified: 2025-11-15T13:55:03, by: Dropbox User)
+- `Valkey.json` → `LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/Databases/Valkey.json` (2.00 KB, modified: 2025-11-13T22:55:23, by: Dropbox User)
+- `Dropbox.json` → `LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/File_Management/Dropbox.json` (3.31 KB, modified: 2025-11-15T13:55:19, by: Dropbox User)
+- `99designs.json` → `LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/Freelance_Platforms/99designs.json` (7.01 KB, modified: 2025-11-22T11:55:36, by: Dropbox User)
+- `CloudTask.json` → `LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/Freelance_Platforms/CloudTask.json` (6.55 KB, modified: 2025-11-22T11:55:38, by: Dropbox User)
+- `Fiverr.json` → `LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/Freelance_Platforms/Fiverr.json` (6.58 KB, modified: 2025-11-22T11:52:07, by: Dropbox User)
+- `MarketerHire.json` → `LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/Freelance_Platforms/MarketerHire.json` (7.47 KB, modified: 2025-11-22T11:53:38, by: Dropbox User)
+- `Mayple.json` → `LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/Freelance_Platforms/Mayple.json` (6.60 KB, modified: 2025-11-22T11:55:33, by: Dropbox User)
+- `README.md` → `LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/Freelance_Platforms/README.md` (8.02 KB, modified: 2025-11-23T23:43:12, by: Dropbox User)
+- `Revelo.json` → `LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/Freelance_Platforms/Revelo.json` (7.29 KB, modified: 2025-11-22T11:53:36, by: Dropbox User)
+- `UpWork.json` → `LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/Freelance_Platforms/UpWork.json` (6.08 KB, modified: 2025-11-22T11:52:05, by: Dropbox User)
+- `Antigravity_IDE.json` → `LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/Developer_Tools/Antigravity_IDE.json` (4.63 KB, modified: 2025-11-21T10:46:36, by: Dropbox User)
+- `Caddy.json` → `LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/Infrastructure_Tools/Caddy.json` (2.02 KB, modified: 2025-11-13T22:53:47, by: Dropbox User)
+- `GitHub.json` → `LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/Developer_Platforms/GitHub.json` (6.96 KB, modified: 2025-11-13T19:52:37, by: Dropbox User)
+- `CRM_MCP_Connector.json` → `LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/Integration_Tools/CRM_MCP_Connector.json` (2.26 KB, modified: 2025-11-12T07:40:09, by: Dropbox User)
+- `Gmail_MCP_Connector.json` → `LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/Integration_Tools/Gmail_MCP_Connector.json` (4.88 KB, modified: 2025-11-12T07:09:36, by: Dropbox User)
+- `Google_Calendar_MCP_Connector.json` → `LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/Integration_Tools/Google_Calendar_MCP_Connector.json` (5.47 KB, modified: 2025-11-12T07:34:41, by: Dropbox User)
+- `Dropbox_Protect_and_Control.json` → `LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/Security_Tools/Dropbox_Protect_and_Control.json` (11.78 KB, modified: 2025-11-17T20:28:54, by: Dropbox User)
+- `Product_Management_Decision_Framework.json` → `LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/Methodologies/Product_Management_Decision_Framework.json` (14.30 KB, modified: 2025-11-17T20:34:06, by: Dropbox User)
+- `Medium.json` → `LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/Publishing_Platforms/Medium.json` (9.53 KB, modified: 2025-11-13T19:53:31, by: Dropbox User)
+- `Apify.json` → `LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/Web_Tools/Apify.json` (2.03 KB, modified: 2025-11-13T22:54:44, by: Dropbox User)
+- `Brave_Search.json` → `LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/Web_Tools/Brave_Search.json` (1.93 KB, modified: 2025-11-13T22:54:27, by: Dropbox User)
+- `Firecrawl.json` → `LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/Web_Tools/Firecrawl.json` (1.83 KB, modified: 2025-11-13T22:56:03, by: Dropbox User)
+- `Stripe.json` → `LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/Payment_Tools/Stripe.json` (2.14 KB, modified: 2025-11-13T22:53:02, by: Dropbox User)
+- `RESTRUCTURE_COMPLETION_REPORT.md` → `LBS_003_Tools/RESTRUCTURE_COMPLETION_REPORT.md` (8.03 KB, modified: 2025-11-26T01:03:20, by: Dropbox User)
+- `fix_duplicates_and_csv.py` → `LBS_003_Tools/fix_duplicates_and_csv.py` (8.01 KB, modified: 2025-11-26T01:09:09, by: Dropbox User)
+- `TOL-020_Browse_AI.json` → `LBS_003_Tools/_ARCHIVE/removed_duplicates_2025-11-26/TOL-020_Browse_AI.json` (4.01 KB, modified: 2025-11-26T01:01:31, by: Dropbox User)
+- `TOL-069_Google_Sheets.json` → `LBS_003_Tools/_ARCHIVE/removed_duplicates_2025-11-26/TOL-069_Google_Sheets.json` (4.15 KB, modified: 2025-11-26T01:01:31, by: Dropbox User)
+- `fix_missing_names.py` → `LBS_003_Tools/fix_missing_names.py` (8.54 KB, modified: 2025-11-26T01:16:07, by: Dropbox User)
+- `TOL-012_arXiv.json` → `LBS_003_Tools/TOL-012_arXiv.json` (11.14 KB, modified: 2025-11-26T01:16:15, by: Dropbox User)
+- `TOL-016_Behance.json` → `LBS_003_Tools/TOL-016_Behance.json` (12.55 KB, modified: 2025-11-26T01:16:15, by: Dropbox User)
+- `TOL-011_ArtStation.json` → `LBS_003_Tools/TOL-011_ArtStation.json` (6.47 KB, modified: 2025-11-26T01:16:15, by: Dropbox User)
+- `TOL-003_AI_Tools_Master_Listing.json` → `LBS_003_Tools/TOL-003_AI_Tools_Master_Listing.json` (7.40 KB, modified: 2025-11-26T01:16:15, by: Dropbox User)
+- `TOL-014_awesome_copilot.json` → `LBS_003_Tools/TOL-014_awesome_copilot.json` (12.20 KB, modified: 2025-11-26T01:16:15, by: Dropbox User)
+- `TOL-032_Company_Voice_Guide.json` → `LBS_003_Tools/TOL-032_Company_Voice_Guide.json` (13.32 KB, modified: 2025-11-26T01:16:15, by: Dropbox User)
+- `TOL-041_DeviantArt.json` → `LBS_003_Tools/TOL-041_DeviantArt.json` (16.54 KB, modified: 2025-11-26T01:16:15, by: Dropbox User)
+- `TOL-061_GitHub.json` → `LBS_003_Tools/TOL-061_GitHub.json` (7.34 KB, modified: 2025-11-26T01:16:15, by: Dropbox User)
+- `TOL-051_Facebook.json` → `LBS_003_Tools/TOL-051_Facebook.json` (5.50 KB, modified: 2025-11-26T01:16:15, by: Dropbox User)
+- `TOL-048_Dropbox_Protect_and_Control.json` → `LBS_003_Tools/TOL-048_Dropbox_Protect_and_Control.json` (12.28 KB, modified: 2025-11-26T01:16:15, by: Dropbox User)
+- `TOL-043_Discord.json` → `LBS_003_Tools/TOL-043_Discord.json` (3.88 KB, modified: 2025-11-26T01:16:15, by: Dropbox User)
+- `TOL-047_Dropbox_Dash.json` → `LBS_003_Tools/TOL-047_Dropbox_Dash.json` (11.36 KB, modified: 2025-11-26T01:16:15, by: Dropbox User)
+- `TOL-040_Dev_to.json` → `LBS_003_Tools/TOL-040_Dev_to.json` (6.75 KB, modified: 2025-11-26T01:16:15, by: Dropbox User)
+- `TOL-038_Custom_Prompt_Templates.json` → `LBS_003_Tools/TOL-038_Custom_Prompt_Templates.json` (14.43 KB, modified: 2025-11-26T01:16:15, by: Dropbox User)
+- `TOL-084_LinkedIn.json` → `LBS_003_Tools/TOL-084_LinkedIn.json` (11.50 KB, modified: 2025-11-26T01:16:15, by: Dropbox User)
+- `TOL-074_Hashnode.json` → `LBS_003_Tools/TOL-074_Hashnode.json` (12.74 KB, modified: 2025-11-26T01:16:15, by: Dropbox User)
+- `TOL-095_Medium.json` → `LBS_003_Tools/TOL-095_Medium.json` (9.97 KB, modified: 2025-11-26T01:16:15, by: Dropbox User)
+- `TOL-114_Pinterest.json` → `LBS_003_Tools/TOL-114_Pinterest.json` (5.84 KB, modified: 2025-11-26T01:16:15, by: Dropbox User)
+- `TOL-088_Lunchclub.json` → `LBS_003_Tools/TOL-088_Lunchclub.json` (3.19 KB, modified: 2025-11-26T01:16:15, by: Dropbox User)
+- `TOL-094_MCP_Servers.json` → `LBS_003_Tools/TOL-094_MCP_Servers.json` (10.75 KB, modified: 2025-11-26T01:16:15, by: Dropbox User)
+- `TOL-085_LLM_as_Judge_Evaluation_Framework.json` → `LBS_003_Tools/TOL-085_LLM_as_Judge_Evaluation_Framework.json` (13.38 KB, modified: 2025-11-26T01:16:15, by: Dropbox User)
+- `TOL-119_Quora.json` → `LBS_003_Tools/TOL-119_Quora.json` (12.61 KB, modified: 2025-11-26T01:16:15, by: Dropbox User)
+- `TOL-117_Product_Management_Decision_Framework.json` → `LBS_003_Tools/TOL-117_Product_Management_Decision_Framework.json` (14.86 KB, modified: 2025-11-26T01:16:15, by: Dropbox User)
+- `TOL-152_Vimeo.json` → `LBS_003_Tools/TOL-152_Vimeo.json` (6.17 KB, modified: 2025-11-26T01:16:15, by: Dropbox User)
+- `TOL-141_Telegram.json` → `LBS_003_Tools/TOL-141_Telegram.json` (3.17 KB, modified: 2025-11-26T01:16:15, by: Dropbox User)
+- `TOL-142_The_Dots.json` → `LBS_003_Tools/TOL-142_The_Dots.json` (15.98 KB, modified: 2025-11-26T01:16:15, by: Dropbox User)
+- `TOL-143_Threads.json` → `LBS_003_Tools/TOL-143_Threads.json` (2.81 KB, modified: 2025-11-26T01:16:15, by: Dropbox User)
+- `TOL-144_TikTok.json` → `LBS_003_Tools/TOL-144_TikTok.json` (11.97 KB, modified: 2025-11-26T01:16:15, by: Dropbox User)
+- `TOL-146_Twitter.json` → `LBS_003_Tools/TOL-146_Twitter.json` (5.09 KB, modified: 2025-11-26T01:16:15, by: Dropbox User)
+- `TOL-159_YouTube.json` → `LBS_003_Tools/TOL-159_YouTube.json` (10.12 KB, modified: 2025-11-26T01:16:15, by: Dropbox User)
+- `TOL-158_Xing.json` → `LBS_003_Tools/TOL-158_Xing.json` (15.41 KB, modified: 2025-11-26T01:16:15, by: Dropbox User)
+- `TOL-121_Reddit.json` → `LBS_003_Tools/TOL-121_Reddit.json` (13.33 KB, modified: 2025-11-26T01:16:15, by: Dropbox User)
+- `TOL-137_Substack.json` → `LBS_003_Tools/TOL-137_Substack.json` (6.58 KB, modified: 2025-11-26T01:16:15, by: Dropbox User)
+- `TOL-135_Stack_Overflow.json` → `LBS_003_Tools/TOL-135_Stack_Overflow.json` (5.94 KB, modified: 2025-11-26T01:16:15, by: Dropbox User)
+- `Tools_Master_Inventory.csv` → `LBS_003_Tools/Tools_Master_Inventory.csv` (57.17 KB, modified: 2025-11-26T01:16:16, by: Dropbox User)
+- `FINAL_RESTRUCTURE_SUMMARY.md` → `LBS_003_Tools/FINAL_RESTRUCTURE_SUMMARY.md` (7.43 KB, modified: 2025-11-26T01:17:21, by: Dropbox User)
+
+**Modified (5 files):**
+- `departments.json` → `LBS_006_Departments/Master/departments.json` (2.58 KB, rev: 01644745..., modified: 2025-11-26T00:19:18, by: Dropbox User)
+- `Libraries_Master_List_2025-11-19.csv` → `Taxonomy/Libraries_Master_List_2025-11-19.csv` (60.92 KB, rev: 01644745..., modified: 2025-11-26T00:19:18, by: Dropbox User)
+- `Libraries_Master_List_2025-12-26.csv` → `Taxonomy/Libraries_Master_List_2025-12-26.csv` (53.30 KB, rev: 01644745..., modified: 2025-11-26T00:19:18, by: Dropbox User)
+- `LBS_FOLDER_MASTER.md` (10.30 KB, rev: 01644745..., modified: 2025-11-26T00:19:18, by: Dropbox User)
+- `ID_AND_NAME_CONVENTIONS.md` → `Archive/ID_AND_NAME_CONVENTIONS.md` (11.91 KB, rev: 01644745..., modified: 2025-11-26T00:19:19, by: Dropbox User)
+
+**Deleted (163 files):**
+- `ElevenLabs.json`
+- `Wispr_Flow.json`
+- `RunPod.json`
+- `CRM_MCP_Connector.json`
+- `Valkey.json`
+- `Revelo.json`
+- `Midjourney.json`
+- `Crawl4AI.json`
+- `Smithery_ai.json`
+- `Seedream_4_0.json`
+- `Bright_Data.json`
+- `TOL-AUT-007_Browse_AI.json`
+- `Bubble_io.json`
+- `Fiverr.json`
+- `TOL-BIZ-004_Google_Sheets.json`
+- `DeviantArt.json`
+- `Neo4j.json`
+- `Cdans.json`
+- `Lovable_dev.json`
+- `NotebookLM.json`
+- `ArtStation.json`
+- `Ragas.json`
+- `Maestra_ai.json`
+- `Zep.json`
+- `Synthesia.json`
+- `Perplexity.json`
+- `Firecrawl.json`
+- `Vozo_AI.json`
+- `Dropbox_Protect_and_Control.json`
+- `VAYU.json`
+- `YouTube.json`
+- `Redis.json`
+- `OpenArt_Photorealistic.json`
+- `Auth0.json`
+- `Seedream.json`
+- `Apify.json`
+- `Mayple.json`
+- `Airscale.json`
+- `Render.json`
+- `MarketerHire.json`
+- `Flux_Kontext.json`
+- `Vectal_Pro.json`
+- `OpenRouter.json`
+- `Dropbox_Dash.json`
+- `Freepik.json`
+- `Leonardo_AI.json`
+- `InVideo_AI.json`
+- `Postgres.json`
+- `OpenArt.json`
+- `Mem0.json`
+- `README.md`
+- `Vimeo.json`
+- `99designs.json`
+- `awesome_copilot.json`
+- `Video generation.md`
+- `TurboScribe.json`
+- `Stripe.json`
+- `Notion_AI.json`
+- `Manus_im.json`
+- `Flux.json`
+- `Caddy.json`
+- `Google_AI_Studio.json`
+- `ComfyUI.json`
+- `Dribbble.json`
+- `Antigravity.json`
+- `Cove_ai.json`
+- `Google_Cloud_Run.json`
+- `SearXNG.json`
+- `AI_Tools_Master_Listing.json`
+- `Browse_AI.json`
+- `Anymailfinder.json`
+- `Hedra.json`
+- `CloudTask.json`
+- `Kling.json`
+- `Brave_Search.json`
+- `Product_Management_Decision_Framework.json`
+- `Sonnet_45.json`
+- `CodeRabbit.json`
+- `Medium.json`
+- `GitHub.json`
+- `LangGraph.json`
+- `Telegram.json`
+- `Grok.json`
+- `Dev_to.json`
+- `PGVector.json`
+- `UpWork.json`
+- `Model_Scope.json`
+- `Browserbase.json`
+- `Twitter.json`
+- `DeepSite.json`
+- `Claude_Desktop_App.json`
+- `Antigravity_IDE.json`
+- `DigitalOcean.json`
+- `Graphiti.json`
+- `GLIF.json`
+- `Behance.json`
+- `ChatGPT.json`
+- `LinkedIn.json`
+- `Xing.json`
+- `Quora.json`
+- `Langfuse.json`
+- `Replit.json`
+- `Hashnode.json`
+- `Open_WebUI.json`
+- `Gamma_app.json`
+- `Genspark_ai.json`
+- `MiniMax.json`
+- `LLM_as_Judge_Evaluation_Framework.json`
+- `WHALESWING.json`
+- `arXiv.json`
+- `Hugging_Face.json`
+- `Reddit.json`
+- `Loom.json`
+- `Cursor.json`
+- `Gemini.json`
+- `GitHub_Copilot.json`
+- `Company_Voice_Guide.json`
+- `The_Dots.json`
+- `Hailo.json`
+- `Azure.json`
+- `README.md`
+- `Dropbox.json`
+- `Supabase.json`
+- `Claude_Projects.json`
+- `Arcade_ai.json`
+- `Gmail_MCP_Connector.json`
+- `CrewAI.json`
+- `Vite.json`
+- `Nano_Banana.json`
+- `Facebook.json`
+- `Neon.json`
+- `Runner.json`
+- `Pinterest.json`
+- `MovieGen.json`
+- `Kimi_K2_Thinking.json`
+- `Suno.json`
+- `Wan_2_2.json`
+- `Ollama.json`
+- `Custom_Prompt_Templates.json`
+- `Stack_Overflow.json`
+- `Google_Veo_3_1.json`
+- `Gemini_File_Search.json`
+- `Discord.json`
+- `MCP_Servers.json`
+- `Google_Sheets.json`
+- `OpenAI_GPT5.json`
+- `Adobe_Firefly.json`
+- `Docling.json`
+- `HeyGen.json`
+- `Archon.json`
+- `TikTok.json`
+- `Threads.json`
+- `Sora.json`
+- `v0_dev.json`
+- `Pydantic_AI.json`
+- `Substack.json`
+- `Pollo_ai.json`
+- `Claude.json`
+- `Lunchclub.json`
+- `MCP_Builder_Skill.json`
+- `RunwayML.json`
+- `Envato_Elements.json`
+- `Google_Calendar_MCP_Connector.json`
+
+
+### PROMPTS
+
+**Total changes:** 368 files
+
+**Added (214 files):**
+- `IMPLEMENTATION_PLAN_Core_Identity_Update.md` → `Core/MAIN_PROMPT_v6/IMPLEMENTATION_PLAN_Core_Identity_Update.md` (13.24 KB, modified: 2025-11-26T00:02:34, by: Dropbox User)
+- `01_Core_Identity.md` → `Core/MAIN_PROMPT_v6/01_Core_Identity.md` (8.14 KB, modified: 2025-11-26T00:17:47, by: Dropbox User)
+- `CHANGELOG_Core_Identity_v6.1_to_v6.2.md` → `Core/MAIN_PROMPT_v6/CHANGELOG_Core_Identity_v6.1_to_v6.2.md` (8.82 KB, modified: 2025-11-26T00:18:57, by: Dropbox User)
+- `FILES_LIST.md` → `Core/MAIN_PROMPT_v6/FILES_LIST.md` (8.48 KB, modified: 2025-11-26T00:19:19, by: Dropbox User)
+- `INCONSISTENCY_ANALYSIS.md` → `Core/MAIN_PROMPT_v6/INCONSISTENCY_ANALYSIS.md` (23.40 KB, modified: 2025-11-26T00:19:19, by: Dropbox User)
+- `00_MASTER_INDEX.md` → `Core/MAIN_PROMPT_v6/00_MASTER_INDEX.md` (3.80 KB, modified: 2025-11-26T00:19:19, by: Dropbox User)
+- `update_master_list.py` (6.34 KB, modified: 2025-11-26T00:19:18, by: Dropbox User)
+- `ANALYSIS_REPORT.md` → `Core/MAIN_PROMPT_v6/ANALYSIS_REPORT.md` (17.41 KB, modified: 2025-11-26T00:19:52, by: Dropbox User)
+- `CHANGELOG_Entity_Taxonomy_v6.0_to_v6.1.md` → `Core/MAIN_PROMPT_v6/CHANGELOG_Entity_Taxonomy_v6.0_to_v6.1.md` (6.77 KB, modified: 2025-11-26T00:23:33, by: Dropbox User)
+- `show_summary.py` (832 bytes, modified: 2025-11-26T00:28:08, by: Dropbox User)
+- `compile_prompt_system.py` (10.25 KB, modified: 2025-11-26T00:41:32, by: Dropbox User)
+- `00_MASTER_INDEX.md` → `Core/COMPILED_PROMPT_SYSTEM/00_MASTER_INDEX.md` (2.00 KB, modified: 2025-11-26T00:41:45, by: Dropbox User)
+- `01_FULL_COMPILATION.md` → `Core/COMPILED_PROMPT_SYSTEM/01_FULL_COMPILATION.md` (38.63 KB, modified: 2025-11-26T00:41:45, by: Dropbox User)
+- `02_STATISTICS.md` → `Core/COMPILED_PROMPT_SYSTEM/02_STATISTICS.md` (1.20 KB, modified: 2025-11-26T00:41:45, by: Dropbox User)
+- `AUTOMATION.md` → `Core/COMPILED_PROMPT_SYSTEM/AUTOMATION.md` (636 bytes, modified: 2025-11-26T00:41:45, by: Dropbox User)
+- `CORE.md` → `Core/COMPILED_PROMPT_SYSTEM/CORE.md` (1.11 KB, modified: 2025-11-26T00:41:45, by: Dropbox User)
+- `CREATIVES.md` → `Core/COMPILED_PROMPT_SYSTEM/CREATIVES.md` (1.99 KB, modified: 2025-11-26T00:41:45, by: Dropbox User)
+- `DAILY_REPORTS.md` → `Core/COMPILED_PROMPT_SYSTEM/DAILY_REPORTS.md` (7.30 KB, modified: 2025-11-26T00:41:45, by: Dropbox User)
+- `HR.md` → `Core/COMPILED_PROMPT_SYSTEM/HR.md` (3.83 KB, modified: 2025-11-26T00:41:45, by: Dropbox User)
+- `LIBRARIES.md` → `Core/COMPILED_PROMPT_SYSTEM/LIBRARIES.md` (1,014 bytes, modified: 2025-11-26T00:41:45, by: Dropbox User)
+- `OTHER.md` → `Core/COMPILED_PROMPT_SYSTEM/OTHER.md` (3.98 KB, modified: 2025-11-26T00:41:45, by: Dropbox User)
+- `RESEARCH.md` → `Core/COMPILED_PROMPT_SYSTEM/RESEARCH.md` (2.07 KB, modified: 2025-11-26T00:41:45, by: Dropbox User)
+- `TAXONOMY.md` → `Core/COMPILED_PROMPT_SYSTEM/TAXONOMY.md` (10.20 KB, modified: 2025-11-26T00:41:45, by: Dropbox User)
+- `UTILITIES.md` → `Core/COMPILED_PROMPT_SYSTEM/UTILITIES.md` (2.16 KB, modified: 2025-11-26T00:41:45, by: Dropbox User)
+- `VIDEO.md` → `Core/COMPILED_PROMPT_SYSTEM/VIDEO.md` (3.90 KB, modified: 2025-11-26T00:41:45, by: Dropbox User)
+- `WORKFLOWS.md` → `Core/COMPILED_PROMPT_SYSTEM/WORKFLOWS.md` (3.75 KB, modified: 2025-11-26T00:41:45, by: Dropbox User)
+- `README.md` → `Core/COMPILED_PROMPT_SYSTEM/README.md` (6.27 KB, modified: 2025-11-26T00:42:41, by: Dropbox User)
+- `02_Entity_Taxonomy.md` → `Core/MAIN_PROMPT_v6/02_Entity_Taxonomy.md` (6.69 KB, modified: 2025-11-26T00:43:37, by: Dropbox User)
+- `03_Workflow_Execution.md` → `Core/MAIN_PROMPT_v6/03_Workflow_Execution.md` (3.23 KB, modified: 2025-11-26T00:44:10, by: Dropbox User)
+- `NEW_SESSION_PROMPT.md` → `Core/MAIN_PROMPT_v6/NEW_SESSION_PROMPT.md` (5.49 KB, modified: 2025-11-26T00:54:53, by: Dropbox User)
+- `restructure_prompts.py` (14.05 KB, modified: 2025-11-26T00:58:41, by: Dropbox User)
+- `RESTRUCTURING_SUMMARY.md` (3.35 KB, modified: 2025-11-26T00:58:56, by: Dropbox User)
+- `PROMPTS_Master_List_BACKUP.csv` (31.27 KB, modified: 2025-11-26T00:17:44, by: Dropbox User)
+- `Mascot_Prompting_Documents_Index.md` → `_ARCHIVE/CREATIVES/Mascot_Prompting_Documents_Index.md` (10.50 KB, modified: 2025-11-20T22:56:22, by: Dropbox User)
+- `script_copy_dailies.py` → `_ARCHIVE/Automation/script_copy_dailies.py` (13.69 KB, modified: 2025-11-21T20:27:37, by: Dropbox User)
+- `Cross_Reference_Map.json` → `_ARCHIVE/DATA_FIELDS/Cross_Reference_Map.json` (14.03 KB, modified: 2025-11-21T10:48:38, by: Dropbox User)
+- `Entity_Schema_Registry.json` → `_ARCHIVE/DATA_FIELDS/Entity_Schema_Registry.json` (17.83 KB, modified: 2025-11-26T00:19:19, by: Dropbox User)
+- `PMT_Master_List (Remote Helpers's conflicted copy 2025-11-21).csv` → `_ARCHIVE/DATA_FIELDS/PMT_Master_List (Remote Helpers's conflicted copy 2025-11-21).csv` (15.73 KB, modified: 2025-11-26T00:19:19, by: Dropbox User)
+- `PMT_Master_List.csv` → `_ARCHIVE/DATA_FIELDS/PMT_Master_List.csv` (16.07 KB, modified: 2025-11-26T00:19:19, by: Dropbox User)
+- `Prompts_Index.json` → `_ARCHIVE/DATA_FIELDS/Prompts_Index.json` (19.08 KB, modified: 2025-11-26T00:19:19, by: Dropbox User)
+- `IMPLEMENTATION_COMPLETE_v2.1.md` → `_ARCHIVE/DEPARTMENTS/Daily_Reports/IMPLEMENTATION_COMPLETE_v2.1.md` (19.04 KB, modified: 2025-11-26T00:19:19, by: Dropbox User)
+- `IMPLEMENTATION_PLAN_v2.1.md` → `_ARCHIVE/DEPARTMENTS/Daily_Reports/IMPLEMENTATION_PLAN_v2.1.md` (4.91 KB, modified: 2025-11-26T00:19:19, by: Dropbox User)
+- `PHASE_1_COMPLETE_SUMMARY.md` → `_ARCHIVE/DEPARTMENTS/Daily_Reports/PHASE_1_COMPLETE_SUMMARY.md` (3.99 KB, modified: 2025-11-26T00:19:19, by: Dropbox User)
+- `IMPLEMENTATION_SUMMARY.md` → `_ARCHIVE/DEPARTMENTS/Daily_Reports/Constructor/IMPLEMENTATION_SUMMARY.md` (16.31 KB, modified: 2025-11-17T17:14:18, by: Dropbox User)
+- `README.md` → `_ARCHIVE/DEPARTMENTS/Daily_Reports/Constructor/README.md` (11.44 KB, modified: 2025-11-17T23:20:59, by: Dropbox User)
+- `README_Enhanced_v2.md` → `_ARCHIVE/DEPARTMENTS/Daily_Reports/Constructor/README_Enhanced_v2.md` (19.43 KB, modified: 2025-11-17T17:14:18, by: Dropbox User)
+- `TEMPLATE_Enhanced_Department_Prompt.md` → `_ARCHIVE/DEPARTMENTS/Daily_Reports/Constructor/TEMPLATE_Enhanced_Department_Prompt.md` (17.17 KB, modified: 2025-11-16T22:40:47, by: Dropbox User)
+- `TEMPLATE_VARIABLE_MAPPING.md` → `_ARCHIVE/DEPARTMENTS/Daily_Reports/Constructor/TEMPLATE_VARIABLE_MAPPING.md` (17.23 KB, modified: 2025-11-17T17:55:43, by: Dropbox User)
+- `classification_summary.md` → `_ARCHIVE/DEPARTMENTS/Daily_Reports/Constructor/classification_summary.md` (21.88 KB, modified: 2025-11-17T17:14:18, by: Dropbox User)
+- `prompt_parts_structure.json` → `_ARCHIVE/DEPARTMENTS/Daily_Reports/Constructor/prompt_parts_structure.json` (23.68 KB, modified: 2025-11-16T22:41:33, by: Dropbox User)
+- `Department_Prompts_Index.md` → `_ARCHIVE/DEPARTMENTS/Daily_Reports/Department_Prompts/Department_Prompts_Index.md` (7.75 KB, modified: 2025-11-19T23:27:25, by: Dropbox User)
+- `REMAINING_PROMPTS_IMPLEMENTATION_GUIDE.md` → `_ARCHIVE/DEPARTMENTS/Daily_Reports/Department_Prompts/REMAINING_PROMPTS_IMPLEMENTATION_GUIDE.md` (17.72 KB, modified: 2025-11-20T00:16:17, by: Dropbox User)
+- `archive_v1.ps1` → `_ARCHIVE/DEPARTMENTS/Daily_Reports/Department_Prompts/archive_v1.ps1` (880 bytes, modified: 2025-11-20T19:34:09, by: Dropbox User)
+- `README.md` → `_ARCHIVE/DEPARTMENTS/Daily_Reports/Constructor/docs/README.md` (11.44 KB, modified: 2025-11-17T23:20:59, by: Dropbox User)
+- `DEPARTMENT_IMPORT_TEMPLATE.md` → `_ARCHIVE/DEPARTMENT_IMPORT_TEMPLATE.md` (8.76 KB, modified: 2025-11-21T23:04:27, by: Dropbox User)
+- `PROMPTS_Master_List.csv` → `_ARCHIVE/PROMPTS_Master_List.csv` (31.27 KB, modified: 2025-11-26T00:17:44, by: Dropbox User)
+- `PROMPTS_Migration_Map.json` → `_ARCHIVE/PROMPTS_Migration_Map.json` (14.05 KB, modified: 2025-11-19T01:56:37, by: Dropbox User)
+- `README_PROMPTS.md` → `_ARCHIVE/README_PROMPTS.md` (12.68 KB, modified: 2025-11-21T23:05:41, by: Dropbox User)
+- `PHASE_2_3_COMPLETE_SUMMARY.md` → `_ARCHIVE/DEPARTMENTS/Daily_Reports/PHASE_2_3_COMPLETE_SUMMARY.md` (13.83 KB, modified: 2025-11-26T00:19:19, by: Dropbox User)
+- `README.md` → `_ARCHIVE/DEPARTMENTS/Daily_Reports/README.md` (2.13 KB, modified: 2025-11-17T17:55:43, by: Dropbox User)
+- `SCHEMA_REVISION_SUMMARY_v2.1.md` → `_ARCHIVE/DEPARTMENTS/Daily_Reports/SCHEMA_REVISION_SUMMARY_v2.1.md` (10.94 KB, modified: 2025-11-19T22:48:48, by: Dropbox User)
+- `compile_prompt_system.py` → `_ARCHIVE/compile_prompt_system.py` (10.25 KB, modified: 2025-11-26T00:41:32, by: Dropbox User)
+- `restructure_prompts.py` → `_ARCHIVE/restructure_prompts.py` (14.05 KB, modified: 2025-11-26T00:58:41, by: Dropbox User)
+- `show_summary.py` → `_ARCHIVE/show_summary.py` (832 bytes, modified: 2025-11-26T00:28:08, by: Dropbox User)
+- `update_master_list.py` → `_ARCHIVE/update_master_list.py` (6.34 KB, modified: 2025-11-26T00:19:18, by: Dropbox User)
+- `PMT-055_Communication_Templates.md` → `_ARCHIVE/DEPARTMENTS/HR_Operations/PMT-055_Communication_Templates.md` (8.15 KB, modified: 2025-11-17T16:18:14, by: Dropbox User)
+- `README.md` → `_ARCHIVE/DEPARTMENTS/HR_Operations/README.md` (9.79 KB, modified: 2025-11-17T23:21:18, by: Dropbox User)
+- `README.md` → `_ARCHIVE/WORKFLOWS/README.md` (2.40 KB, modified: 2025-11-17T14:29:03, by: Dropbox User)
+- `PROMPTS_INDEX.json` → `_ARCHIVE/_INDEX/PROMPTS_INDEX.json` (38.78 KB, modified: 2025-11-17T23:21:18, by: Dropbox User)
+- `README.md` → `_ARCHIVE/_INDEX/README.md` (18.66 KB, modified: 2025-11-23T23:52:17, by: Dropbox User)
+- `Prompts_Master_List.csv` → `_ARCHIVE/SYSTEM/Taxonomy/Prompts_Master_List.csv` (5.71 KB, modified: 2025-11-23T23:52:17, by: Dropbox User)
+- `TSM-001_Project_Templates_Import_Guide.md` → `_ARCHIVE/SYSTEM/IMPORT_GUIDES/TSM-001_Project_Templates_Import_Guide.md` (23.74 KB, modified: 2025-11-21T12:30:05, by: Dropbox User)
+- `TSM-002_Milestone_Templates_Import_Guide.md` → `_ARCHIVE/SYSTEM/IMPORT_GUIDES/TSM-002_Milestone_Templates_Import_Guide.md` (26.64 KB, modified: 2025-11-21T12:32:41, by: Dropbox User)
+- `README.md` → `_ARCHIVE/WORKFLOWS/Library_Processing/README.md` (1.78 KB, modified: 2025-11-17T17:14:18, by: Dropbox User)
+- `README.md` → `_ARCHIVE/SYSTEM/Automation 2/README.md` (940 bytes, modified: 2025-11-15T21:09:50, by: Dropbox User)
+- `script_copy_dailies.py` → `_ARCHIVE/SYSTEM/Automation 2/script_copy_dailies.py` (14.08 KB, modified: 2025-11-18T23:41:01, by: Dropbox User)
+- `README.md` → `_ARCHIVE/SYSTEM/System_Analysis/README.md` (9.47 KB, modified: 2025-11-17T17:55:44, by: Dropbox User)
+- `README.md` → `_ARCHIVE/UTILITIES/Communication/README.md` (600 bytes, modified: 2025-11-15T21:09:50, by: Dropbox User)
+- `RESTRUCTURING_COMPLETE.md` (10.30 KB, modified: 2025-11-26T01:00:36, by: Dropbox User)
+- `04_Department_Operations.md` → `Core/MAIN_PROMPT_v6/04_Department_Operations.md` (3.17 KB, modified: 2025-11-26T01:00:44, by: Dropbox User)
+- `CHANGELOG_Department_Operations_v6.0_to_v6.1.md` → `Core/MAIN_PROMPT_v6/CHANGELOG_Department_Operations_v6.0_to_v6.1.md` (13.03 KB, modified: 2025-11-26T01:02:02, by: Dropbox User)
+- `05_File_Operations.md` → `Core/MAIN_PROMPT_v6/05_File_Operations.md` (1.97 KB, modified: 2025-11-26T01:09:16, by: Dropbox User)
+- `CHANGELOG_File_Operations_v6.1_to_v6.2.md` → `Core/MAIN_PROMPT_v6/CHANGELOG_File_Operations_v6.1_to_v6.2.md` (1.53 KB, modified: 2025-11-26T01:09:36, by: Dropbox User)
+- `cleanup_old_folders.py` (2.28 KB, modified: 2025-11-26T01:15:24, by: Dropbox User)
+- `06_Prompt_Reference.md` → `Core/MAIN_PROMPT_v6/06_Prompt_Reference.md` (1.44 KB, modified: 2025-11-26T01:15:48, by: Dropbox User)
+- `cleanup_remaining_folders.bat` (1.25 KB, modified: 2025-11-26T01:15:54, by: Dropbox User)
+- `07_Quality_Validation.md` → `Core/MAIN_PROMPT_v6/07_Quality_Validation.md` (1.06 KB, modified: 2025-11-26T01:16:20, by: Dropbox User)
+- `FINAL_STATUS.md` (4.68 KB, modified: 2025-11-26T01:16:47, by: Dropbox User)
+- `08_External_Modules.md` → `Core/MAIN_PROMPT_v6/08_External_Modules.md` (1.73 KB, modified: 2025-11-26T01:16:51, by: Dropbox User)
+- `PROGRESS_TRACKING.md` → `Core/MAIN_PROMPT_v6/PROGRESS_TRACKING.md` (3.67 KB, modified: 2025-11-26T01:17:39, by: Dropbox User)
+- `01_Core_Workflow.md` → `Core/MAIN_PROMPT_v7/01_Core_Workflow.md` (4.08 KB, modified: 2025-11-26T01:19:14, by: Dropbox User)
+- `02_Entity_Reference.md` → `Core/MAIN_PROMPT_v7/02_Entity_Reference.md` (3.25 KB, modified: 2025-11-26T01:19:44, by: Dropbox User)
+- `03_Department_Operations.md` → `Core/MAIN_PROMPT_v7/03_Department_Operations.md` (2.48 KB, modified: 2025-11-26T01:20:09, by: Dropbox User)
+- `04_Running_Projects.md` → `Core/MAIN_PROMPT_v7/04_Running_Projects.md` (3.31 KB, modified: 2025-11-26T01:20:37, by: Dropbox User)
+- `05_Quick_Reference.md` → `Core/MAIN_PROMPT_v7/05_Quick_Reference.md` (3.24 KB, modified: 2025-11-26T01:21:10, by: Dropbox User)
+- `README.md` → `Core/MAIN_PROMPT_v7/README.md` (3.94 KB, modified: 2025-11-26T01:21:43, by: Dropbox User)
+- `CLEANUP_VERIFICATION.md` (4.50 KB, modified: 2025-11-26T01:22:07, by: Dropbox User)
+- `CHANGELOG_v6_to_v7.md` → `Core/MAIN_PROMPT_v7/CHANGELOG_v6_to_v7.md` (5.48 KB, modified: 2025-11-26T01:22:23, by: Dropbox User)
+- `fix_restructure.py` (3.14 KB, modified: 2025-11-26T01:22:30, by: Dropbox User)
+- `01_employee_directory_guidance.md` (7.45 KB, modified: 2025-11-20T18:49:39, by: Dropbox User)
+- `02_project_directory_guidance.md` (10.20 KB, modified: 2025-11-17T17:55:43, by: Dropbox User)
+- `03_vocabulary_standards.md` (11.89 KB, modified: 2025-11-17T17:55:43, by: Dropbox User)
+- `04_task_object_framework.md` (17.42 KB, modified: 2025-11-17T17:55:43, by: Dropbox User)
+- `05_21_section_framework.md` (16.87 KB, modified: 2025-11-07T13:27:57, by: Dropbox User)
+- `06_department_specific_patterns.md` (17.38 KB, modified: 2025-11-20T18:49:42, by: Dropbox User)
+- `AutoGenerate_Weekly_Plans_Prompt_1.md` (21.81 KB, modified: 2025-11-21T20:14:14, by: Dropbox User)
+- `BUSINESSES_IMPORT_PROMPT_1.md` (9.08 KB, modified: 2025-11-21T23:03:42, by: Dropbox User)
+- `CORRECTIONS_REQUIRED.md` (2.29 KB, modified: 2025-11-19T20:40:24, by: Dropbox User)
+- `Entity_Integration_Prompts_1.md` (3.79 KB, modified: 2025-11-19T22:59:05, by: Dropbox User)
+- `MAIN_PROMPT_v4_vs_v6_Comparison.md` (12.10 KB, modified: 2025-11-26T00:19:18, by: Dropbox User)
+- `MAIN_PROMPT_v5_Modular_vs_v6_UltraCondensed_Comparison.md` (36.49 KB, modified: 2025-11-26T00:19:18, by: Dropbox User)
+- `MIGRATION_LOG.md` (8.10 KB, modified: 2025-11-18T22:31:32, by: Dropbox User)
+- `Mascot_Life_Environment_Weekly_Overview_Prompt.md` (21.73 KB, modified: 2025-11-20T22:56:10, by: Dropbox User)
+- `Mascot_Story_Scenarios_Guide.md` (24.40 KB, modified: 2025-11-21T20:27:37, by: Dropbox User)
+- `Mascot_Story_Scenarios_Quick_Reference.md` (6.13 KB, modified: 2025-11-20T23:23:20, by: Dropbox User)
+- `ENTITY_MAPPING_GUIDE_v2.1.md` (10.89 KB, modified: 2025-11-26T00:19:19, by: Dropbox User)
+- `PMT-004_Video_Transcription_v4.1_1.md` (44.28 KB, modified: 2025-11-26T00:19:18, by: Dropbox User)
+- `PMT-005_Video_Naming_Alternatives_1.md` (16.67 KB, modified: 2025-11-21T14:30:33, by: Dropbox User)
+- `PMT-006_Video_Analysis_1.md` (37.81 KB, modified: 2025-11-21T14:30:33, by: Dropbox User)
+- `PMT-007_Objects_Library_Extraction_1.md` (38.85 KB, modified: 2025-11-26T00:19:19, by: Dropbox User)
+- `PMT-008_Video_Analysis_Improvements_1.md` (17.44 KB, modified: 2025-11-21T14:30:33, by: Dropbox User)
+- `PMT-009_Taxonomy_Integration_1.md` (47.12 KB, modified: 2025-11-26T00:19:19, by: Dropbox User)
+- `PMT-010_Complete_Workflow_Full_1.md` (146.51 KB, modified: 2025-11-21T14:30:33, by: Dropbox User)
+- `PMT-011_Complete_Workflow_Short_1.md` (7.89 KB, modified: 2025-11-21T14:30:33, by: Dropbox User)
+- `PMT-012_Transcript_Processing_Workflow_1.md` (45.31 KB, modified: 2025-11-23T23:52:18, by: Dropbox User)
+- `PMT-014_Build_Taxonomy_ID_System.md` (10.08 KB, modified: 2025-11-18T20:23:57, by: Dropbox User)
+- `PMT-015_Optimize_Video_Transcription.md` (36.49 KB, modified: 2025-11-26T00:19:19, by: Dropbox User)
+- `PMT-016_Build_LIBRARIES_Taxonomy.md` (21.86 KB, modified: 2025-11-26T00:19:19, by: Dropbox User)
+- `PMT-017_Initial_ID_List.md` (18.77 KB, modified: 2025-11-26T00:19:19, by: Dropbox User)
+- `PMT-018_Employee_Profile_Schema.md` (14.76 KB, modified: 2025-11-18T17:41:01, by: Dropbox User)
+- `PMT-019_Restructure_Employee_Profile.md` (18.95 KB, modified: 2025-11-18T21:50:27, by: Dropbox User)
+- `PMT-020_Taxonomy_Entities_Collection.md` (5.76 KB, modified: 2025-11-23T23:52:17, by: Dropbox User)
+- `PMT-021_Ecosystem_Analysis_Overview.md` (11.98 KB, modified: 2025-11-17T17:55:44, by: Dropbox User)
+- `PMT-022_Data_Inventory.md` (22.71 KB, modified: 2025-11-17T23:20:59, by: Dropbox User)
+- `PMT-023_Schema_Validation.md` (8.26 KB, modified: 2025-11-17T12:45:51, by: Dropbox User)
+- `PMT-024_Content_Analysis.md` (14.58 KB, modified: 2025-11-17T12:45:52, by: Dropbox User)
+- `PMT-025_Relationship_Validation.md` (15.76 KB, modified: 2025-11-17T17:14:18, by: Dropbox User)
+- `PMT-026_Synthesis_Recommendations.md` (21.80 KB, modified: 2025-11-17T17:14:18, by: Dropbox User)
+- `PMT-027_Data_Consistency.md` (25.01 KB, modified: 2025-11-17T23:20:59, by: Dropbox User)
+- `PMT-028_Folder_Reorganization.md` (16.44 KB, modified: 2025-11-23T23:52:17, by: Dropbox User)
+- `PMT-029_System_Health_Review.md` (17.00 KB, modified: 2025-11-16T17:20:17, by: Dropbox User)
+- `PMT-030_Architecture_Learning_Guide.md` (21.27 KB, modified: 2025-11-17T17:14:18, by: Dropbox User)
+- `PMT-031_Architecture_Merge_Planning.md` (24.12 KB, modified: 2025-11-17T23:20:18, by: Dropbox User)
+- `PMT-033_AI_Daily_Report_v2.1.md` (21.93 KB, modified: 2025-11-20T18:33:48, by: Dropbox User)
+- `PMT-034_Content_Daily_Report_v2.1.md` (3.69 KB, modified: 2025-11-20T01:13:05, by: Dropbox User)
+- `PMT-035_Design_Daily_Report_v2.1.md` (23.40 KB, modified: 2025-11-19T23:43:03, by: Dropbox User)
+- `PMT-036_Dev_Daily_Report_v2.1.md` (12.83 KB, modified: 2025-11-20T01:10:29, by: Dropbox User)
+- `PMT-038_HR_Daily_Report_v2.1.md` (5.14 KB, modified: 2025-11-20T01:14:45, by: Dropbox User)
+- `PMT-039_LG_Daily_Report_v2.1.md` (3.92 KB, modified: 2025-11-20T01:14:36, by: Dropbox User)
+- `PMT-040_Marketing_Daily_Report_v2.1.md` (3.83 KB, modified: 2025-11-20T01:14:39, by: Dropbox User)
+- `PMT-041_Sales_Daily_Report_v2.1.md` (3.98 KB, modified: 2025-11-20T01:14:42, by: Dropbox User)
+- `PMT-042_SMM_Daily_Report_v2.1.md` (4.17 KB, modified: 2025-11-20T01:13:08, by: Dropbox User)
+- `PMT-043_Video_Daily_Report_v2.1.md` (14.62 KB, modified: 2025-11-20T01:12:09, by: Dropbox User)
+- `PMT-053_CV_Parser_v1.md` (3.07 KB, modified: 2025-11-14T13:48:22, by: Dropbox User)
+- `PMT-058_Call_Organizer_v4.md` (15.42 KB, modified: 2025-11-17T17:55:44, by: Dropbox User)
+- `PMT-032_Daily_Report_Collection_v2.1.md` (31.78 KB, modified: 2025-11-26T00:19:19, by: Dropbox User)
+- `PMT-037_Finance_Daily_Report_v2.1.md` (23.95 KB, modified: 2025-11-26T00:19:19, by: Dropbox User)
+- `PMT-054_CRM_Data_Entry.md` (12.28 KB, modified: 2025-11-17T17:55:44, by: Dropbox User)
+- `PMT-056_Interview_Conductor.md` (13.38 KB, modified: 2025-11-17T17:55:44, by: Dropbox User)
+- `PMT-057_Job_Sites_Research.md` (73.19 KB, modified: 2025-11-17T17:55:44, by: Dropbox User)
+- `PMT-059_Document_Finished_Project.md` (17.53 KB, modified: 2025-11-17T17:14:18, by: Dropbox User)
+- `PMT-060_Products_Integration.md` (21.35 KB, modified: 2025-11-17T12:37:10, by: Dropbox User)
+- `PMT-061_Task_Manager_Entity_Filling.md` (32.77 KB, modified: 2025-11-17T23:21:18, by: Dropbox User)
+- `PMT-062_Tools_Collection_Matching.md` (25.94 KB, modified: 2025-11-17T17:55:44, by: Dropbox User)
+- `PMT-063_Account_Creation_Validation.md` (8.57 KB, modified: 2025-11-18T12:19:10, by: Dropbox User)
+- `PMT-064_Account_Security_Audit.md` (12.06 KB, modified: 2025-11-18T12:20:09, by: Dropbox User)
+- `PMT-065_Subscription_Renewal_Alert.md` (12.79 KB, modified: 2025-11-18T12:21:18, by: Dropbox User)
+- `PMT-066_Script_Copy_Dailies.md` (3.33 KB, modified: 2025-11-18T23:33:14, by: Dropbox User)
+- `PMT-067_Rules_Automation.md` (1.13 KB, modified: 2025-11-06T09:28:18, by: Dropbox User)
+- `PMT-068_Version_Control_Automation.md` (7.83 KB, modified: 2025-11-06T08:17:28, by: Dropbox User)
+- `PMT-069_Version_Control_Main.md` (17.91 KB, modified: 2025-11-16T17:20:17, by: Dropbox User)
+- `PMT-070_Daily_Report_Entity_Mapping_v2.1.md` (21.47 KB, modified: 2025-11-26T00:19:18, by: Dropbox User)
+- `PMT-070_Entity_Identification_v1.md` (75.70 KB, modified: 2025-11-19T01:56:32, by: Dropbox User)
+- `PMT-070_Entity_Identification_v1_3.md` (20.93 KB, modified: 2025-11-19T04:51:00, by: Dropbox User)
+- `PMT-070_Entity_Identification_v2_0.md` (23.92 KB, modified: 2025-11-26T00:19:18, by: Dropbox User)
+- `PMT-070_Phase_1_Action_Tagging.md` (24.17 KB, modified: 2025-11-19T20:50:44, by: Dropbox User)
+- `PMT-070_Phase_2_Object_Tagging.md` (17.14 KB, modified: 2025-11-19T20:52:51, by: Dropbox User)
+- `PMT-070_Phase_3_Data_Structuring.md` (18.09 KB, modified: 2025-11-19T21:40:16, by: Dropbox User)
+- `PMT-070_Phase_4_Task_Hierarchy.md` (13.59 KB, modified: 2025-11-20T01:08:43, by: Dropbox User)
+- `PMT-071_Actions_Library_Extraction_1.md` (49.51 KB, modified: 2025-11-23T23:52:18, by: Dropbox User)
+- `PMT-072_PROMPTS_Critical_Fixes.md` (15.14 KB, modified: 2025-11-23T23:52:17, by: Dropbox User)
+- `PMT-074_Data_Architect_Master.md` (27.49 KB, modified: 2025-11-26T00:19:19, by: Dropbox User)
+- `PMT-075_Data_Integrity_Manager.md` (27.48 KB, modified: 2025-11-26T00:19:19, by: Dropbox User)
+- `PMT-076_Import_Validation_Pipeline.md` (27.17 KB, modified: 2025-11-21T01:41:45, by: Dropbox User)
+- `PMT-077_Employee_Activity_Analyzer.md` (14.62 KB, modified: 2025-11-21T01:45:06, by: Dropbox User)
+- `PMT-078_Cross_Entity_Search.md` (15.28 KB, modified: 2025-11-21T01:46:25, by: Dropbox User)
+- `PMT-079_Prompt_Taxonomy_Sync.md` (16.21 KB, modified: 2025-11-21T01:47:52, by: Dropbox User)
+- `PMT-080_Token_Optimization_Analyzer.md` (17.30 KB, modified: 2025-11-21T01:49:29, by: Dropbox User)
+- `PMT-081_Integrate_Personal_Prompts_1.md` (23.83 KB, modified: 2025-11-26T00:19:18, by: Dropbox User)
+- `PMT-084_Brochure_Design_Generation.md` (2.90 KB, modified: 2025-11-21T11:53:55, by: Dropbox User)
+- `PMT-086_Game_Academy_Cover_Redesign.md` (4.80 KB, modified: 2025-11-21T11:57:19, by: Dropbox User)
+- `PMT-087_Daily_Report_Processing_Workflow.md` (4.01 KB, modified: 2025-11-21T11:59:14, by: Dropbox User)
+- `PMT-088_Subscription_Announcement_Creation.md` (4.39 KB, modified: 2025-11-21T11:52:45, by: Dropbox User)
+- `PMT-090_YouTube_Video_Processing_1.md` (3.63 KB, modified: 2025-11-21T14:30:33, by: Dropbox User)
+- `PMT-091_Social_Media_Graphics_Creation.md` (5.81 KB, modified: 2025-11-21T11:52:45, by: Dropbox User)
+- `PMT-092_Daily_Report_Processing_v2.md` (4.04 KB, modified: 2025-11-21T11:58:59, by: Dropbox User)
+- `PROMPTS_Folder_ID_Registry.md` (14.21 KB, modified: 2025-11-19T04:34:33, by: Dropbox User)
+- `PROMPTS_Hierarchy_Tree.md` (14.29 KB, modified: 2025-11-19T02:08:08, by: Dropbox User)
+- `PROMPTS_ISO_Code_Registry.md` (9.80 KB, modified: 2025-11-19T02:00:39, by: Dropbox User)
+- `Prompt_Locations_in_Nov25.md` (15.59 KB, modified: 2025-11-19T23:18:26, by: Dropbox User)
+- `Prompts_ISO_Code_Registry_1.md` (10.30 KB, modified: 2025-11-18T22:37:20, by: Dropbox User)
+- `REPORT_OUTPUT_SCHEMA_v2.1.md` (15.13 KB, modified: 2025-11-26T00:19:19, by: Dropbox User)
+- `REPORT_OUTPUT_SCHEMA_v2.1_REVISED.md` (29.81 KB, modified: 2025-11-26T00:19:19, by: Dropbox User)
+- `RESEARCHES_Entity_Integration_Prompt_1.md` (8.87 KB, modified: 2025-11-23T23:56:33, by: Dropbox User)
+- `TASK_MANAGERS_Import_Guide_Master.md` (22.49 KB, modified: 2025-11-21T12:27:41, by: Dropbox User)
+- `TAXONOMY_AUDIT_REPORT_2025-11-23_1.md` (18.00 KB, modified: 2025-11-26T00:19:18, by: Dropbox User)
+- `Week4_AutoPlanning_Prompt.md` (4.03 KB, modified: 2025-11-21T19:47:52, by: Dropbox User)
+- `YouTube_Video_Tutorial_Search_Prompts_Consolidated_1.md` (44.51 KB, modified: 2025-11-23T23:56:33, by: Dropbox User)
+- `RESTRUCTURE_FINAL.md` (4.50 KB, modified: 2025-11-26T01:23:29, by: Dropbox User)
+- `MAIN_PROMPT_v7.md` → `Core/MAIN_PROMPT_v7.md` (16.19 KB, modified: 2025-11-26T01:25:28, by: Dropbox User)
+- `simplify_master_csv.py` (3.82 KB, modified: 2025-11-26T01:26:05, by: Dropbox User)
+- `PROMPTS_Master_List_BACKUP_FULL.csv` (30.98 KB, modified: 2025-11-26T00:58:56, by: Dropbox User)
+- `PROMPTS_Master_List_OLD.csv` (30.98 KB, modified: 2025-11-26T00:58:56, by: Dropbox User)
+- `MASTER_CSV_SIMPLIFIED.md` (4.31 KB, modified: 2025-11-26T01:28:11, by: Dropbox User)
+
+**Modified (11 files):**
+- `PMT-073_Create_Main_Prompt_v6.md` → `Core/PMT-073_Create_Main_Prompt_v6.md` (18.30 KB, rev: 01644745..., modified: 2025-11-26T00:19:19, by: Dropbox User)
+- `MAIN_PROMPT_v6.md` → `Core/MAIN_PROMPT_v6.md` (19.94 KB, rev: 01644745..., modified: 2025-11-26T00:19:19, by: Dropbox User)
+- `MAIN_PROMPT_v6_backUp.md` → `Core/MAIN_PROMPT_v6_backUp.md` (19.94 KB, rev: 01644745..., modified: 2025-11-26T00:19:19, by: Dropbox User)
+- `PMT-009_Taxonomy_Integration.md` (47.12 KB, rev: 01644745..., modified: 2025-11-26T00:19:19, by: Dropbox User)
+- `README.md` (9.57 KB, rev: 01644745..., modified: 2025-11-26T00:19:19, by: Dropbox User)
+- `PMT-081_Integrate_Personal_Prompts.md` (23.83 KB, rev: 01644745..., modified: 2025-11-26T00:19:18, by: Dropbox User)
+- `PMT-004_Video_Transcription_v4.1.md` (44.28 KB, rev: 01644745..., modified: 2025-11-26T00:19:18, by: Dropbox User)
+- `PMT-007_Objects_Library_Extraction.md` (38.85 KB, rev: 01644745..., modified: 2025-11-26T00:19:19, by: Dropbox User)
+- `TAXONOMY_AUDIT_REPORT_2025-11-23.md` (18.00 KB, rev: 01644745..., modified: 2025-11-26T00:19:18, by: Dropbox User)
+- `README.md` → `_ARCHIVE/README.md` (9.57 KB, rev: 0164474e..., modified: 2025-11-26T00:19:19, by: Dropbox User)
+- `PROMPTS_Master_List.csv` (18.53 KB, rev: 01644754..., modified: 2025-11-26T01:26:12, by: Dropbox User)
+
+**Deleted (143 files):**
+- `PMT-014_Build_Taxonomy_ID_System.md`
+- `ENTITY_MAPPING_GUIDE_v2.1.md`
+- `PMT-023_Schema_Validation.md`
+- `PMT-072_PROMPTS_Critical_Fixes.md`
+- `PMT-024_Content_Analysis.md`
+- `IMPLEMENTATION_PLAN_v2_Upgrade.md`
+- `PMT-064_Account_Security_Audit.md`
+- `PMT-033_AI_Daily_Report_v1.0.md`
+- `PMT-056_Interview_Conductor.md`
+- `README.md`
+- `script_copy_dailies.py`
+- `README.md`
+- `PMT-079_Prompt_Taxonomy_Sync.md`
+- `PMT-075_Data_Integrity_Manager.md`
+- `CORRECTIONS_REQUIRED.md`
+- `PMT-088_Subscription_Announcement_Creation.md`
+- `05_21_section_framework.md`
+- `PMT-059_Document_Finished_Project.md`
+- `PMT-069_Version_Control_Main.md`
+- `PMT-025_Relationship_Validation.md`
+- `PROMPTS_INDEX.json`
+- `Mascot_Story_Scenarios_Quick_Reference.md`
+- `PMT-040_Marketing_Daily_Report_v1.0.md`
+- `PMT-034_Content_Daily_Report_v2.1.md`
+- `ENTITY_MAPPING_GUIDE.md`
+- `PMT-031_Architecture_Merge_Planning.md`
+- `TEMPLATE_Enhanced_Department_Prompt.md`
+- `PMT-032_Daily_Report_Collection_v1.1.md`
+- `PMT-066_Script_Copy_Dailies.md`
+- `PMT-039_LG_Daily_Report_v2.1.md`
+- `PMT-036_Dev_Daily_Report_v2.1.md`
+- `REMAINING_PROMPTS_IMPLEMENTATION_GUIDE.md`
+- `PROMPTS_Folder_ID_Registry.md`
+- `PMT-068_Version_Control_Automation.md`
+- `PMT_Master_List.csv`
+- `PMT-043_Video_Daily_Report_v1.0.md`
+- `PMT-037_Finance_Daily_Report_v1.0.md`
+- `PMT-035_Design_Daily_Report_v1.0.md`
+- `PMT-070_Phase_2_Object_Tagging.md`
+- `REPORT_OUTPUT_SCHEMA_v2.1_REVISED.md`
+- `PROMPTS_ISO_Code_Registry.md`
+- `PMT-070_Entity_Identification_v1_3.md`
+- `Prompts_Index.json`
+- `Entity_Schema_Registry.json`
+- `PMT-019_Restructure_Employee_Profile.md`
+- `script_copy_dailies.py`
+- `PMT-078_Cross_Entity_Search.md`
+- `Prompts_Master_List.csv`
+- `PMT-016_Build_LIBRARIES_Taxonomy.md`
+- `Department_Prompts_Index.md`
+- `PMT-055_Communication_Templates.md`
+- `PMT-054_CRM_Data_Entry.md`
+- `PMT-015_Optimize_Video_Transcription.md`
+- `REPORT_OUTPUT_SCHEMA_v2.1.md`
+- `MAIN_PROMPT_v4_vs_v6_Comparison.md`
+- `IMPLEMENTATION_SUMMARY.md`
+- `MIGRATION_LOG.md`
+- `archive_v1.ps1`
+- `Week4_AutoPlanning_Prompt.md`
+- `PMT-070_Phase_3_Data_Structuring.md`
+- `04_task_object_framework.md`
+- `PMT-034_Content_Daily_Report_v1.0.md`
+- `PMT-070_Entity_Identification_v2_0.md`
+- `README.md`
+- `PMT-027_Data_Consistency.md`
+- `02_project_directory_guidance.md`
+- `PMT-053_CV_Parser_v1.md`
+- `PMT-028_Folder_Reorganization.md`
+- `PMT-038_HR_Daily_Report_v2.1.md`
+- `SCHEMA_REVISION_SUMMARY_v2.1.md`
+- `PMT-022_Data_Inventory.md`
+- `PMT-057_Job_Sites_Research.md`
+- `PMT-041_Sales_Daily_Report_v2.1.md`
+- `PMT-036_Dev_Daily_Report_v1.0.md`
+- `Mascot_Story_Scenarios_Guide.md`
+- `PMT-060_Products_Integration.md`
+- `PMT-077_Employee_Activity_Analyzer.md`
+- `PMT-017_Initial_ID_List.md`
+- `TSM-002_Milestone_Templates_Import_Guide.md`
+- `PMT-067_Rules_Automation.md`
+- `PMT-032_Daily_Report_Collection_v2.1.md`
+- `README.md`
+- `TASK_MANAGERS_Import_Guide_Master.md`
+- `01_employee_directory_guidance.md`
+- `README.md`
+- `PMT-070_Phase_4_Task_Hierarchy.md`
+- `PROMPTS_Hierarchy_Tree.md`
+- `PMT-041_Sales_Daily_Report_v1.0.md`
+- `REPORT_OUTPUT_SCHEMA_v2.md`
+- `PMT-092_Daily_Report_Processing_v2.md`
+- `PMT-040_Marketing_Daily_Report_v2.1.md`
+- `README.md`
+- `PMT-037_Finance_Daily_Report_v2.1.md`
+- `PMT-091_Social_Media_Graphics_Creation.md`
+- `Prompts_ISO_Code_Registry.md`
+- `Cross_Reference_Map.json`
+- `README.md`
+- `Prompt_Locations_in_Nov25.md`
+- `classification_summary.md`
+- `IMPLEMENTATION_COMPLETE_v2.1.md`
+- `README.md`
+- `PMT-065_Subscription_Renewal_Alert.md`
+- `PMT-030_Architecture_Learning_Guide.md`
+- `PMT-033_AI_Daily_Report_v2.1.md`
+- `PMT-070_Daily_Report_Entity_Mapping_v2.1.md`
+- `PMT-080_Token_Optimization_Analyzer.md`
+- `PMT-084_Brochure_Design_Generation.md`
+- `PMT_Master_List (Remote Helpers's conflicted copy 2025-11-21).csv`
+- `PHASE_2_3_COMPLETE_SUMMARY.md`
+- `PMT-061_Task_Manager_Entity_Filling.md`
+- `PMT-062_Tools_Collection_Matching.md`
+- `PMT-070_Phase_1_Action_Tagging.md`
+- `06_department_specific_patterns.md`
+- `PMT-029_System_Health_Review.md`
+- `README.md`
+- `PMT-018_Employee_Profile_Schema.md`
+- `PMT-058_Call_Organizer_v4.md`
+- `PMT-042_SMM_Daily_Report_v2.1.md`
+- `PMT-086_Game_Academy_Cover_Redesign.md`
+- `PMT-035_Design_Daily_Report_v2.1.md`
+- `Mascot_Prompting_Documents_Index.md`
+- `Mascot_Life_Environment_Weekly_Overview_Prompt.md`
+- `PMT-087_Daily_Report_Processing_Workflow.md`
+- `PMT-026_Synthesis_Recommendations.md`
+- `PHASE_1_COMPLETE_SUMMARY.md`
+- `PMT-039_LG_Daily_Report_v1.0.md`
+- `PMT-074_Data_Architect_Master.md`
+- `TEMPLATE_VARIABLE_MAPPING.md`
+- `TSM-001_Project_Templates_Import_Guide.md`
+- `PMT-021_Ecosystem_Analysis_Overview.md`
+- `IMPLEMENTATION_PLAN_v2.1.md`
+- `README_Enhanced_v2.md`
+- `PMT-076_Import_Validation_Pipeline.md`
+- `PMT-043_Video_Daily_Report_v2.1.md`
+- `03_vocabulary_standards.md`
+- `MAIN_PROMPT_v5_Modular_vs_v6_UltraCondensed_Comparison.md`
+- `prompt_parts_structure.json`
+- `PMT-038_HR_Daily_Report_v1.0.md`
+- `PMT-042_SMM_Daily_Report_v1.0.md`
+- `README.md`
+- `PMT-063_Account_Creation_Validation.md`
+- `PMT-020_Taxonomy_Entities_Collection.md`
+- `PMT-070_Entity_Identification_v1.md`
+
+
+### README.md
+
+**Total changes:** 1 files
+
+**Deleted (1 files):**
+- `README.md`
+
+
+### RESEARCHES
+
+**Total changes:** 1 files
+
+**Modified (1 files):**
+- `Video_022_Gap_Analysis.md` → `VIDEO_RESEARCHES/03_ANALYSIS/Gap_Analysis/Video_022_Gap_Analysis.md` (15.51 KB, rev: 01644745..., modified: 2025-11-26T00:19:18, by: Dropbox User)
+
+
+### TALENTS
+
+**Total changes:** 68 files
+
+**Added (13 files):**
+- `corepack.js` → `Employees/Artemchuk Nikolay/Employees attendance/.node/lib/node_modules/corepack/dist/corepack.js` (81 bytes, modified: 2023-08-09T00:23:24, by: Dropbox User)
+- `npm.js` → `Employees/Artemchuk Nikolay/Employees attendance/.node/lib/node_modules/corepack/dist/npm.js` (93 bytes, modified: 2023-08-09T00:23:24, by: Dropbox User)
+- `npx.js` → `Employees/Artemchuk Nikolay/Employees attendance/.node/lib/node_modules/corepack/dist/npx.js` (93 bytes, modified: 2023-08-09T00:23:24, by: Dropbox User)
+- `pnpm.js` → `Employees/Artemchuk Nikolay/Employees attendance/.node/lib/node_modules/corepack/dist/pnpm.js` (94 bytes, modified: 2023-08-09T00:23:24, by: Dropbox User)
+- `pnpx.js` → `Employees/Artemchuk Nikolay/Employees attendance/.node/lib/node_modules/corepack/dist/pnpx.js` (94 bytes, modified: 2023-08-09T00:23:24, by: Dropbox User)
+- `yarn.js` → `Employees/Artemchuk Nikolay/Employees attendance/.node/lib/node_modules/corepack/dist/yarn.js` (94 bytes, modified: 2023-08-09T00:23:24, by: Dropbox User)
+- `yarnpkg.js` → `Employees/Artemchuk Nikolay/Employees attendance/.node/lib/node_modules/corepack/dist/yarnpkg.js` (97 bytes, modified: 2023-08-09T00:23:24, by: Dropbox User)
+- `corepack.cjs` → `Employees/Artemchuk Nikolay/Employees attendance/.node/lib/node_modules/corepack/dist/lib/corepack.cjs` (2263.85 KB, modified: 2023-11-22T08:06:28, by: Dropbox User)
+- `Azanova Darʼya.md` → `Employees/profiles/Resumes/Azanova Darʼya.md` (37 bytes, modified: 2025-11-24T14:04:53, by: Dropbox User)
+- `Profile Designer Kushnirenko Veronika.md` → `Employees/profiles/Available/Design/Profile Designer Kushnirenko Veronika.md` (585 bytes, modified: 2025-11-25T14:53:31, by: Dropbox User)
+- `Profile Full Stack Developer Marynenko Dmitriy.md` → `Employees/profiles/Work/Dev/Profile Full Stack Developer Marynenko Dmitriy.md` (2.05 KB, modified: 2025-11-25T14:53:32, by: Dropbox User)
+- `Profile Developer Makovska Anna.md` → `Employees/profiles/Available/Dev/Profile Developer Makovska Anna.md` (569 bytes, modified: 2025-11-25T14:53:33, by: Dropbox User)
+- `Profile Video Editor Azanova Darʼya.md` → `Employees/profiles/Available/Video/Profile Video Editor Azanova Darʼya.md` (1.42 KB, modified: 2025-11-25T14:53:35, by: Dropbox User)
+
+**Modified (55 files):**
+- `Profile Lead generator Joy Edem Asuquo.md` → `Employees/profiles/Left/LG/Profile Lead generator Joy Edem Asuquo.md` (1.97 KB, rev: 016446c7..., modified: 2025-11-25T14:53:35, by: Dropbox User)
+- `Profile Graphic Designer, Web Designer Kucherenko Iuliia.md` → `Employees/profiles/Full_Project___Part_Time/Design/Profile Graphic Designer, Web Designer Kucherenko Iuliia.md` (1.06 KB, rev: 016446c7..., modified: 2025-11-25T14:53:35, by: Dropbox User)
+- `Profile Ui Ux Designer Mazyickevych Maryna.md` → `Employees/profiles/Project/Design/Profile Ui Ux Designer Mazyickevych Maryna.md` (583 bytes, rev: 016446c7..., modified: 2025-11-25T14:53:35, by: Dropbox User)
+- `Profile Ui Ux Designer Bykova Anastasiia.md` → `Employees/profiles/Project/Design/Profile Ui Ux Designer Bykova Anastasiia.md` (581 bytes, rev: 016446c7..., modified: 2025-11-25T14:53:35, by: Dropbox User)
+- `Profile Lead generator, Prompt engineer Archibong Isaac.md` → `Employees/profiles/Available/LG/Profile Lead generator, Prompt engineer Archibong Isaac.md` (1.89 KB, rev: 016446c7..., modified: 2025-11-25T14:53:35, by: Dropbox User)
+- `Profile Lead generator, Translator Bindiak Dana.md` → `Employees/profiles/Available/LG/Profile Lead generator, Translator Bindiak Dana.md` (1.62 KB, rev: 016446c7..., modified: 2025-11-25T14:53:35, by: Dropbox User)
+- `Profile Project manager, Lead generator Artemchuk Nikolay.md` → `Employees/profiles/Work/AI/Profile Project manager, Lead generator Artemchuk Nikolay.md` (1.26 KB, rev: 016446c7..., modified: 2025-11-25T14:53:35, by: Dropbox User)
+- `Profile Illustrator, Graphic Designer, Project manager Hlushko Mariia.md` → `Employees/profiles/Project/Design/Profile Illustrator, Graphic Designer, Project manager Hlushko Mariia.md` (1.96 KB, rev: 016446c7..., modified: 2025-11-25T14:53:35, by: Dropbox User)
+- `Profile UI UX designer, Graphic Designer Chobotar Yuliia.md` → `Employees/profiles/Fired/Design/Profile UI UX designer, Graphic Designer Chobotar Yuliia.md` (1.79 KB, rev: 016446c7..., modified: 2025-11-25T14:53:35, by: Dropbox User)
+- `Profile Graphic Designer Rotar Olga.md` → `Employees/profiles/Project/Design/Profile Graphic Designer Rotar Olga.md` (1.79 KB, rev: 016446c7..., modified: 2025-11-25T14:53:35, by: Dropbox User)
+- `Profile UI UX designer Bogun Polina.md` → `Employees/profiles/Part_Project___Part_Time/Design/Profile UI UX designer Bogun Polina.md` (1.28 KB, rev: 016446c7..., modified: 2025-11-25T14:53:35, by: Dropbox User)
+- `Profile Back End Developer Kizilova Olha.md` → `Employees/profiles/Work/Dev/Profile Back End Developer Kizilova Olha.md` (603 bytes, rev: 016446c7..., modified: 2025-11-25T14:53:35, by: Dropbox User)
+- `Profile Front End Developer Klimenko Yaroslav.md` → `Employees/profiles/Available/Dev/Profile Front End Developer Klimenko Yaroslav.md` (1.56 KB, rev: 016446c7..., modified: 2025-11-25T14:53:35, by: Dropbox User)
+- `Profile Front End Developer Artem Skichko.md` → `Employees/profiles/Available/Dev/Profile Front End Developer Artem Skichko.md` (577 bytes, rev: 016446c7..., modified: 2025-11-25T14:53:35, by: Dropbox User)
+- `Profile Lead generator Peneva Plamena.md` → `Employees/profiles/Part_Project___Part_Time/LG/Profile Lead generator Peneva Plamena.md` (575 bytes, rev: 016446c7..., modified: 2025-11-25T14:53:35, by: Dropbox User)
+- `Profile Lead generator Cynthia Aninwezi.md` → `Employees/profiles/Available/LG/Profile Lead generator Cynthia Aninwezi.md` (3.45 KB, rev: 016446c7..., modified: 2025-11-25T14:53:35, by: Dropbox User)
+- `Profile Lead generator Joy Edem Asuquo.md` → `Employees/profiles/Available/LG/Profile Lead generator Joy Edem Asuquo.md` (1.97 KB, rev: 016446c7..., modified: 2025-11-25T14:53:35, by: Dropbox User)
+- `Profile Lead generator Kachailo Anna.md` → `Employees/profiles/Project/LG/Profile Lead generator Kachailo Anna.md` (2.05 KB, rev: 016446c7..., modified: 2025-11-25T14:53:35, by: Dropbox User)
+- `Profile Lead generator, Translator, Sales Manager Burda Anna.md` → `Employees/profiles/Work/LG/Profile Lead generator, Translator, Sales Manager Burda Anna.md` (1.36 KB, rev: 016446c7..., modified: 2025-11-25T14:53:35, by: Dropbox User)
+- `Profile Lead Generator Kamenskaya Alina.md` → `Employees/profiles/Project/LG/Profile Lead Generator Kamenskaya Alina.md` (575 bytes, rev: 016446c7..., modified: 2025-11-25T14:53:35, by: Dropbox User)
+- `Profile Lead generator, Translator, Personal Assistant Shkinder Kseniia.md` → `Employees/profiles/Work/LG/Profile Lead generator, Translator, Personal Assistant Shkinder Kseniia.md` (1.68 KB, rev: 016446c7..., modified: 2025-11-25T14:53:35, by: Dropbox User)
+- `Profile Lead Generator Cynthia Chinemerem Uzoh.md` → `Employees/profiles/Available/LG/Profile Lead Generator Cynthia Chinemerem Uzoh.md` (580 bytes, rev: 016446c7..., modified: 2025-11-25T14:53:35, by: Dropbox User)
+- `Profile Graphic designer Vereteno Marta.md` → `Employees/profiles/Part_Project___Part_Project/Design/Profile Graphic designer Vereteno Marta.md` (575 bytes, rev: 016446c7..., modified: 2025-11-25T14:53:35, by: Dropbox User)
+- `Profile Lead generator Alakbarova Ulviyya Javid.md` → `Employees/profiles/Available/LG/Profile Lead generator Alakbarova Ulviyya Javid.md` (1.74 KB, rev: 016446c7..., modified: 2025-11-25T14:53:35, by: Dropbox User)
+- `Profile Full Stack Developer Lychagin Roman.md` → `Employees/profiles/Project/Dev/Profile Full Stack Developer Lychagin Roman.md` (580 bytes, rev: 016446c7..., modified: 2025-11-25T14:53:35, by: Dropbox User)
+- `Profile Full Stack Developer Danylenko Liliia.md` → `Employees/profiles/Work/Dev/Profile Full Stack Developer Danylenko Liliia.md` (579 bytes, rev: 016446c7..., modified: 2025-11-25T14:53:35, by: Dropbox User)
+- `Profile UI UX designer Safonova Eleonora.md` → `Employees/profiles/Available/Design/Profile UI UX designer Safonova Eleonora.md` (1.29 KB, rev: 016446c7..., modified: 2025-11-25T14:53:35, by: Dropbox User)
+- `Profile UI UX designer Yarmachenko Kristina.md` → `Employees/profiles/Project/Design/Profile UI UX designer Yarmachenko Kristina.md` (2.56 KB, rev: 016446c7..., modified: 2025-11-25T14:53:35, by: Dropbox User)
+- `Profile UI UX designer Syrotiuk Mariia.md` → `Employees/profiles/Project/Design/Profile UI UX designer Syrotiuk Mariia.md` (557 bytes, rev: 016446c7..., modified: 2025-11-25T14:53:35, by: Dropbox User)
+- `Profile Video Editor, Graphic Designer Podolskyi Sviatoslav.md` → `Employees/profiles/Work/Video/Profile Video Editor, Graphic Designer Podolskyi Sviatoslav.md` (996 bytes, rev: 016446c7..., modified: 2025-11-25T14:53:35, by: Dropbox User)
+- `Profile Ui Ux Designer Birook Melese.md` → `Employees/profiles/Pending/Design/Profile Ui Ux Designer Birook Melese.md` (573 bytes, rev: 016446c7..., modified: 2025-11-25T14:53:35, by: Dropbox User)
+- `Profile Front End Developer Okunievskyi Volodymyr.md` → `Employees/profiles/Project/Dev/Profile Front End Developer Okunievskyi Volodymyr.md` (591 bytes, rev: 016446c7..., modified: 2025-11-25T14:53:35, by: Dropbox User)
+- `Profile Prompt engineer Perederii Vladislav.md` → `Employees/profiles/Available/AI/Profile Prompt engineer Perederii Vladislav.md` (1.42 KB, rev: 016446c7..., modified: 2025-11-25T14:53:35, by: Dropbox User)
+- `Profile Graphic Designer Litvinova Natalia.md` → `Employees/profiles/Project/Design/Profile Graphic Designer Litvinova Natalia.md` (1.79 KB, rev: 016446c7..., modified: 2025-11-25T14:53:35, by: Dropbox User)
+- `Profile Graphic Designer Potapchuk Anastasiya.md` → `Employees/profiles/Project/Design/Profile Graphic Designer Potapchuk Anastasiya.md` (589 bytes, rev: 016446c7..., modified: 2025-11-25T14:53:35, by: Dropbox User)
+- `Profile Chat operator Aledare Adedoiin Bridjet.md` → `Employees/profiles/Available/LG/Profile Chat operator Aledare Adedoiin Bridjet.md` (3.12 KB, rev: 016446c7..., modified: 2025-11-25T14:53:35, by: Dropbox User)
+- `Profile Full Stack Developer Azar Imranov.md` → `Employees/profiles/Available/Dev/Profile Full Stack Developer Azar Imranov.md` (576 bytes, rev: 016446c7..., modified: 2025-11-25T14:53:35, by: Dropbox User)
+- `Profile Employee Olikh Victoriia.md` → `Employees/profiles/Project/LG/Profile Employee Olikh Victoriia.md` (630 bytes, rev: 016446c7..., modified: 2025-11-25T14:53:35, by: Dropbox User)
+- `Profile Lead generator Hryhorchuk Vasyl.md` → `Employees/profiles/Project/LG/Profile Lead generator Hryhorchuk Vasyl.md` (2.98 KB, rev: 016446c7..., modified: 2025-11-25T14:53:35, by: Dropbox User)
+- `Profile Illustrator, Graphic Designer Skrypkar Vilhelm.md` → `Employees/profiles/Available/Design/Profile Illustrator, Graphic Designer Skrypkar Vilhelm.md` (1.07 KB, rev: 016446c7..., modified: 2025-11-25T14:53:35, by: Dropbox User)
+- `Profile Lead Generator Petrova Evelina.md` → `Employees/profiles/Project/LG/Profile Lead Generator Petrova Evelina.md` (575 bytes, rev: 016446c7..., modified: 2025-11-25T14:53:35, by: Dropbox User)
+- `Profile Lead generator, Chat operator Davlatmamadova Firuza.md` → `Employees/profiles/Available/LG/Profile Lead generator, Chat operator Davlatmamadova Firuza.md` (1.08 KB, rev: 016446c7..., modified: 2025-11-25T14:53:35, by: Dropbox User)
+- `Profile Lead Generator Berdychevska Anastasiia.md` → `Employees/profiles/Project/LG/Profile Lead Generator Berdychevska Anastasiia.md` (587 bytes, rev: 016446c7..., modified: 2025-11-25T14:53:35, by: Dropbox User)
+- `Profile Lead generator, Personal Assistant Hanan Zaheur.md` → `Employees/profiles/Available/LG/Profile Lead generator, Personal Assistant Hanan Zaheur.md` (1.59 KB, rev: 016446c7..., modified: 2025-11-25T14:53:35, by: Dropbox User)
+- `Profile Sales Manager, Personal Assistant Iskandarova Anush.md` → `Employees/profiles/Project/LG/Profile Sales Manager, Personal Assistant Iskandarova Anush.md` (1.68 KB, rev: 016446c7..., modified: 2025-11-25T14:53:35, by: Dropbox User)
+- `Profile Lead generator Krasnojon Darina.md` → `Employees/profiles/Project/LG/Profile Lead generator Krasnojon Darina.md` (1.10 KB, rev: 016446c7..., modified: 2025-11-25T14:53:35, by: Dropbox User)
+- `Profile Lead Generator Tsyupko Myroslava.md` → `Employees/profiles/Pending/LG/Profile Lead Generator Tsyupko Myroslava.md` (575 bytes, rev: 016446c7..., modified: 2025-11-25T14:53:35, by: Dropbox User)
+- `Profile Graphic designer Teselko Anastasiya.md` → `Employees/profiles/Project/Design/Profile Graphic designer Teselko Anastasiya.md` (1.02 KB, rev: 016446c7..., modified: 2025-11-25T14:53:35, by: Dropbox User)
+- `Profile UI UX designer Shymkevych Iryna.md` → `Employees/profiles/Available/Design/Profile UI UX designer Shymkevych Iryna.md` (1.17 KB, rev: 016446c7..., modified: 2025-11-25T14:53:35, by: Dropbox User)
+- `Profile UI UX designer Shelep Olha.md` → `Employees/profiles/Project/Design/Profile UI UX designer Shelep Olha.md` (551 bytes, rev: 016446c7..., modified: 2025-11-25T14:53:35, by: Dropbox User)
+- `Profile UI UX designer Shtepa Yuliia.md` → `Employees/profiles/Project/Design/Profile UI UX designer Shtepa Yuliia.md` (2.44 KB, rev: 016446c7..., modified: 2025-11-25T14:53:35, by: Dropbox User)
+- `COPY_SUMMARY.md` → `Employees/profiles/COPY_SUMMARY.md` (1.29 KB, rev: 01644731..., modified: 2025-11-25T22:48:50, by: Dropbox User)
+- `ORGANIZATION_SUMMARY.md` → `Employees/profiles/ORGANIZATION_SUMMARY.md` (2.02 KB, rev: 01644731..., modified: 2025-11-25T22:48:50, by: Dropbox User)
+- `STATUS_ORGANIZATION_COMPLETE.md` → `Employees/profiles/STATUS_ORGANIZATION_COMPLETE.md` (1.94 KB, rev: 01644731..., modified: 2025-11-25T22:48:50, by: Dropbox User)
+- `FINAL_ORGANIZATION.md` → `Employees/profiles/FINAL_ORGANIZATION.md` (2.88 KB, rev: 01644731..., modified: 2025-11-25T22:48:50, by: Dropbox User)
+
+
+### TASK_MANAGERS
+
+**Total changes:** 29 files
+
+**Added (19 files):**
+- `calculate_priority.cpython-313.pyc` → `RESEARCHES/01_VIDEO_QUEUE/scripts/__pycache__/calculate_priority.cpython-313.pyc` (6.88 KB, modified: 2025-11-23T23:34:07, by: Dropbox User)
+- `config.cpython-313.pyc` → `RESEARCHES/scripts/__pycache__/config.cpython-313.pyc` (3.80 KB, modified: 2025-11-24T00:49:06, by: Dropbox User)
+- `markdown_parser.cpython-313.pyc` → `RESEARCHES/scripts/__pycache__/markdown_parser.cpython-313.pyc` (24.72 KB, modified: 2025-11-24T01:16:32, by: Dropbox User)
+- `video_gap_analyzer.cpython-313.pyc` → `RESEARCHES/scripts/__pycache__/video_gap_analyzer.cpython-313.pyc` (30.36 KB, modified: 2025-11-24T01:16:32, by: Dropbox User)
+- `video_id_scanner.cpython-313.pyc` → `RESEARCHES/scripts/__pycache__/video_id_scanner.cpython-313.pyc` (17.41 KB, modified: 2025-11-24T01:16:32, by: Dropbox User)
+- `video_integration_reporter.cpython-313.pyc` → `RESEARCHES/scripts/__pycache__/video_integration_reporter.cpython-313.pyc` (20.35 KB, modified: 2025-11-24T01:16:32, by: Dropbox User)
+- `video_json_updater.cpython-313.pyc` → `RESEARCHES/scripts/__pycache__/video_json_updater.cpython-313.pyc` (24.04 KB, modified: 2025-11-24T01:16:32, by: Dropbox User)
+- `utils.cpython-313.pyc` → `RESEARCHES/scripts/__pycache__/utils.cpython-313.pyc` (15.44 KB, modified: 2025-11-24T01:17:05, by: Dropbox User)
+- `process.log` → `RESEARCHES/scripts/process.log` (51.20 KB, modified: 2025-11-24T01:17:05, by: Dropbox User)
+- `Video_024 (Спірна копія користувача HR RemotEmployees 2025-11-25).md` → `RESEARCHES/02_TRANSCRIPTIONS/Video_024 (Спірна копія користувача HR RemotEmployees 2025-11-25).md` (44.35 KB, modified: 2025-11-24T18:05:26, by: Dropbox User)
+- `VIDEO_PROCESSING_Milestones_Master.md` → `TSM-002_Milestone_Templates/VIDEO_PROCESSING_Milestones_Master.md` (8.96 KB, modified: 2025-11-23T23:56:34, by: Dropbox User)
+- `MILESTONE_REGISTRY.md` → `TSM-007_GUIDES/MILESTONE_REGISTRY.md` (6.78 KB, modified: 2025-11-25T14:01:55, by: Dropbox User)
+- `GDS-002_Video_Transcript_Processing_Instructions.md` → `TSM-007_GUIDES/GDS-002_Video_Transcript_Processing_Instructions.md` (20.36 KB, modified: 2025-11-25T14:17:19, by: Dropbox User)
+- `README.md` → `TSM-007_GUIDES/README.md` (11.42 KB, modified: 2025-11-25T14:27:02, by: Dropbox User)
+- `PHASE_0.MD` → `RESEARCHES/05_NEXT_DEVELOPMENT/ARCHITECTURE_PLAN/PHASE_0.MD` (15.90 KB, modified: 2025-11-25T22:13:36, by: Dropbox User)
+- `PHASE_1.MD` → `RESEARCHES/05_NEXT_DEVELOPMENT/ARCHITECTURE_PLAN/PHASE_1.MD` (31.43 KB, modified: 2025-11-25T22:17:45, by: Dropbox User)
+- `PHASE_2.MD` → `RESEARCHES/05_NEXT_DEVELOPMENT/ARCHITECTURE_PLAN/PHASE_2.MD` (41.88 KB, modified: 2025-11-25T22:21:14, by: Dropbox User)
+- `README.MD` → `RESEARCHES/05_NEXT_DEVELOPMENT/ARCHITECTURE_PLAN/README.MD` (6.29 KB, modified: 2025-11-25T22:26:00, by: Dropbox User)
+- `SUMMARY.MD` → `RESEARCHES/05_NEXT_DEVELOPMENT/ARCHITECTURE_PLAN/SUMMARY.MD` (21.49 KB, modified: 2025-11-25T22:25:10, by: Dropbox User)
+
+**Modified (9 files):**
+- `TST-081_Design_Financial_Automation_Workflow.json` → `TSM-003_Task_Templates/TST-081_Design_Financial_Automation_Workflow.json` (6.21 KB, rev: 01644745..., modified: 2025-11-26T00:19:19, by: Dropbox User)
+- `SCHEMA_OVERVIEW.md` → `TSM-007_GUIDES/Database_Architecture_Preview/SCHEMA_OVERVIEW.md` (14.15 KB, rev: 01644745..., modified: 2025-11-26T00:19:18, by: Dropbox User)
+- `TABLE_guides.md` → `TSM-007_GUIDES/Database_Architecture_Preview/TABLE_guides.md` (10.96 KB, rev: 01644745..., modified: 2025-11-26T00:19:18, by: Dropbox User)
+- `Video_022_Gap_Analysis.md` → `RESEARCHES/03_ANALYSIS/Gap_Analysis/Video_022_Gap_Analysis.md` (15.51 KB, rev: 01644745..., modified: 2025-11-26T00:19:19, by: Dropbox User)
+- `XREF_Guides_to_Templates_Matrix.md` → `TSM-007_GUIDES/Cross_Reference_Maps/XREF_Guides_to_Templates_Matrix.md` (8.57 KB, rev: 01644745..., modified: 2025-11-26T00:19:18, by: Dropbox User)
+- `XREF_Department_Guide_Coverage.md` → `TSM-007_GUIDES/Cross_Reference_Maps/XREF_Department_Guide_Coverage.md` (11.10 KB, rev: 01644745..., modified: 2025-11-26T00:19:18, by: Dropbox User)
+- `Video_022_Phase3_Analysis.md` → `RESEARCHES/03_ANALYSIS/Extractions/Video_022_Phase3_Analysis.md` (12.10 KB, rev: 01644745..., modified: 2025-11-26T00:19:19, by: Dropbox User)
+- `TAXONOMY_CONSISTENCY_REPORT.md` → `RESEARCHES/REPORTS/TAXONOMY_CONSISTENCY_REPORT.md` (15.24 KB, rev: 01644745..., modified: 2025-11-26T00:19:19, by: Dropbox User)
+- `check_prompts_compliance.py` → `RESEARCHES/scripts/check_prompts_compliance.py` (12.74 KB, rev: 01644745..., modified: 2025-11-26T00:19:19, by: Dropbox User)
+
+**Deleted (1 files):**
+- `VIDEO_PROCESSING_Milestones_Master.md`
+
+
+### TAXONOMY
+
+**Total changes:** 1 files
+
+**Modified (1 files):**
+- `PMT-009_Taxonomy_Integration.md` → `TAX-003_Video_Processing/PMT-009_Taxonomy_Integration.md` (47.12 KB, rev: 01644745..., modified: 2025-11-26T00:19:18, by: Dropbox User)
+
+
+## All Changes
+
+### Added Files
+
+- `DAILIES/Week3/20/Azanova Darʼya_Week_3/TODO.md`
+- `DAILIES/IMPORTS/Week_3/2025-11-22_Sales_Import/archive_2025-11-22/Prospects/BUSINESSES_Prospect_Electrão_BUS-2025-018.json`
+- `DAILIES/IMPORTS/Week_3/2025-11-22_Sales_Import/archive_2025-11-22/Prospects/BUSINESSES_Prospect_Markewärn_Studios_BUS-2025-021.json`
+- `TASK_MANAGERS/RESEARCHES/01_VIDEO_QUEUE/scripts/__pycache__/calculate_priority.cpython-313.pyc`
+- `TASK_MANAGERS/RESEARCHES/scripts/__pycache__/config.cpython-313.pyc`
+- `TASK_MANAGERS/RESEARCHES/scripts/__pycache__/markdown_parser.cpython-313.pyc`
+- `TASK_MANAGERS/RESEARCHES/scripts/__pycache__/video_gap_analyzer.cpython-313.pyc`
+- `TASK_MANAGERS/RESEARCHES/scripts/__pycache__/video_id_scanner.cpython-313.pyc`
+- `TASK_MANAGERS/RESEARCHES/scripts/__pycache__/video_integration_reporter.cpython-313.pyc`
+- `TASK_MANAGERS/RESEARCHES/scripts/__pycache__/video_json_updater.cpython-313.pyc`
+- `TASK_MANAGERS/RESEARCHES/scripts/__pycache__/utils.cpython-313.pyc`
+- `TASK_MANAGERS/RESEARCHES/scripts/process.log`
+- `TALENTS/Employees/Artemchuk Nikolay/Employees attendance/.node/lib/node_modules/corepack/dist/corepack.js`
+- `TALENTS/Employees/Artemchuk Nikolay/Employees attendance/.node/lib/node_modules/corepack/dist/npm.js`
+- `TALENTS/Employees/Artemchuk Nikolay/Employees attendance/.node/lib/node_modules/corepack/dist/npx.js`
+- `TALENTS/Employees/Artemchuk Nikolay/Employees attendance/.node/lib/node_modules/corepack/dist/pnpm.js`
+- `TALENTS/Employees/Artemchuk Nikolay/Employees attendance/.node/lib/node_modules/corepack/dist/pnpx.js`
+- `TALENTS/Employees/Artemchuk Nikolay/Employees attendance/.node/lib/node_modules/corepack/dist/yarn.js`
+- `TALENTS/Employees/Artemchuk Nikolay/Employees attendance/.node/lib/node_modules/corepack/dist/yarnpkg.js`
+- `TALENTS/Employees/Artemchuk Nikolay/Employees attendance/.node/lib/node_modules/corepack/dist/lib/corepack.cjs`
+- `TALENTS/Employees/profiles/Resumes/Azanova Darʼya.md`
+- `TASK_MANAGERS/RESEARCHES/02_TRANSCRIPTIONS/Video_024 (Спірна копія користувача HR RemotEmployees 2025-11-25).md`
+- `TASK_MANAGERS/TSM-002_Milestone_Templates/VIDEO_PROCESSING_Milestones_Master.md`
+- `TASK_MANAGERS/TSM-007_GUIDES/MILESTONE_REGISTRY.md`
+- `DAILIES/Daily_Processing/README.md`
+- `DAILIES/PLANS/Week_4/Daily_Processing_Workflow_Simple.md`
+- `TASK_MANAGERS/TSM-007_GUIDES/GDS-002_Video_Transcript_Processing_Instructions.md`
+- `DAILIES/Daily_Processing/Daily_Processing_Workflow/Guides/GDS-001_Daily_Task_Processing_Instructions.md`
+- `DAILIES/Daily_Processing/Daily_Processing_Workflow/Support_Files/Task_Assignment_Rules.json`
+- `DAILIES/Daily_Processing/Daily_Processing_Workflow/Support_Files/Daily_Processing_Master.csv`
+- `DAILIES/Daily_Processing/Daily_Processing_Workflow/Support_Files/Processing_Metrics.csv`
+- `DAILIES/Daily_Processing/Daily_Processing_Workflow/README.md`
+- `TASK_MANAGERS/TSM-007_GUIDES/README.md`
+- `LIBRARIES/LBS_003_Tools/MIGRATION_README.md`
+- `LIBRARIES/LBS_003_Tools/migrate_tools_to_tol.py`
+- `LIBRARIES/LBS_003_Tools/phase4_update_cross_references.py`
+- `LIBRARIES/LBS_003_Tools/phase5_rollback_migration.py`
+- `LIBRARIES/LBS_003_Tools/run_complete_migration.py`
+- `TALENTS/Employees/profiles/Available/Design/Profile Designer Kushnirenko Veronika.md`
+- `TALENTS/Employees/profiles/Work/Dev/Profile Full Stack Developer Marynenko Dmitriy.md`
+- `TALENTS/Employees/profiles/Available/Dev/Profile Developer Makovska Anna.md`
+- `TALENTS/Employees/profiles/Available/Video/Profile Video Editor Azanova Darʼya.md`
+- `DEV/PR_INFO.md`
+- `DAILIES/PLANS/Week_4/MLT-001_Setup.md`
+- `DAILIES/PLANS/Week_4/MLT-002_Collection.md`
+- `DAILIES/PLANS/Week_4/MLT-003_Entity_Extraction.md`
+- `DAILIES/PLANS/Week_4/MLT-004_Gap_Analysis.md`
+- `DAILIES/PLANS/Week_4/MLT-005_Template_Creation.md`
+- `DAILIES/PLANS/Week_4/MLT-006_Task_Assignment_Planning.md`
+- `DAILIES/PLANS/Week_4/MLT-007_Task_Distribution.md`
+- `DAILIES/PLANS/Week_4/MLT-008_Quality_Assurance.md`
+- `DAILIES/PLANS/Week_4/MLT-009_Archival_Reporting.md`
+- `DAILIES/PLANS/Week_4/00_Daily_Processing_Milestones_Index.md`
+- `DAILIES/Daily_Processing/Daily_Processing_Workflow/Scripts/collect_daily_files.py`
+- `DAILIES/Daily_Processing/Daily_Processing_Workflow/Scripts/extract_tasks_batch.py`
+- `DAILIES/Daily_Processing/Daily_Processing_Workflow/Scripts/assign_tasks.py`
+- `DAILIES/Daily_Processing/Daily_Processing_Workflow/Scripts/distribute_tasks.py`
+- `DAILIES/Daily_Processing/Daily_Processing_Workflow/Scripts/README.md`
+- `DAILIES/Daily_Processing/Daily_Processing_Workflow/Scripts/run_daily_processing.py`
+- `DAILIES/PLANS/Week_4/Automation_Completion_Report.md`
+- `DAILIES/Daily_Processing/Daily_Processing_Workflow/Scripts/INSTALLATION.md`
+- `DAILIES/REPORTS/Week_3/Reports_week 3_Source/ARCHIVE/Videos/Reports/Video_002_Gap_Analysis.md`
+- `DAILIES/REPORTS/Week_3/Reports_week 3_Source/ARCHIVE/Videos/Reports/Video_009_Gap_Analysis.md`
+- `DAILIES/REPORTS/Week_3/Reports_week 3_Source/ARCHIVE/Videos/Reports/Video_009_Library_Mapping_Report.md`
+- `DAILIES/REPORTS/Week_3/Reports_week 3_Source/ARCHIVE/Videos/Reports/Video_002_Extraction_Inventory.md`
+- `DAILIES/REPORTS/Week_3/Reports_week 3_Source/ARCHIVE/Videos/Reports/Video_001_Library_Mapping_Report.md`
+- `DAILIES/REPORTS/Week_3/Reports_week 3_Source/ARCHIVE/Videos/Reports/Video_005_Library_Mapping_Report.md`
+- `DAILIES/REPORTS/Week_3/Reports_week 3_Source/ARCHIVE/Videos/Reports/Video_002_Library_Mapping_Report.md`
+- `DAILIES/REPORTS/Week_3/Reports_week 3_Source/ARCHIVE/Videos/Reports/Video_017_Library_Mapping_Report.md`
+- `DAILIES/REPORTS/Week_3/Reports_week 3_Source/ARCHIVE/Videos/Reports/Video_018_Library_Mapping_Report.md`
+- `DAILIES/REPORTS/Week_3/Reports_week 3_Source/ARCHIVE/Videos/Video_002.md`
+- `DAILIES/REPORTS/Week_3/Reports_week 3_Source/ARCHIVE/Videos/Video_001.md`
+- `DAILIES/REPORTS/Week_3/Reports_week 3_Source/ARCHIVE/Videos/Video_009.md`
+- `DAILIES/REPORTS/Week_3/Reports_week 3_Source/ARCHIVE/Videos/Video_003.md`
+- `DAILIES/REPORTS/Week_3/Reports_week 3_Source/ARCHIVE/Videos/README.md`
+- `DAILIES/REPORTS/Week_3/Reports_week 3_Source/ARCHIVE/Videos/Video_006.md`
+- `DAILIES/REPORTS/Week_3/Reports_week 3_Source/ARCHIVE/Videos/Video_005.md`
+- `DAILIES/REPORTS/Week_3/Reports_week 3_Source/ARCHIVE/Videos/Video_008.md`
+- `DAILIES/REPORTS/Week_3/Reports_week 3_Source/ARCHIVE/Videos/Video_Discovery_Pipeline.md`
+- `DAILIES/REPORTS/Week_3/Reports_week 3_Source/ARCHIVE/Videos/Video_004.md`
+- `DAILIES/REPORTS/Week_3/Reports_week 3_Source/ARCHIVE/Videos/Video_007.md`
+- `DAILIES/REPORTS/Week_3/Reports_week 3_Source/ARCHIVE/Videos/Video_014.md`
+- `DAILIES/REPORTS/Week_3/Reports_week 3_Source/ARCHIVE/Videos/Video_010.md`
+- `DAILIES/REPORTS/Week_3/Reports_week 3_Source/ARCHIVE/Videos/Video_011.md`
+- `DAILIES/REPORTS/Week_3/Reports_week 3_Source/ARCHIVE/Videos/Video_012.md`
+- `DAILIES/REPORTS/Week_3/Reports_week 3_Source/ARCHIVE/Videos/Video_013.md`
+- `DAILIES/REPORTS/Week_3/Reports_week 3_Source/ARCHIVE/Videos/Videos_015.md`
+- `DAILIES/REPORTS/Week_3/Reports_week 3_Source/ARCHIVE/Videos/Videos_015_Processing_Summary.md`
+- `DAILIES/REPORTS/Week_3/Reports_week 3_Source/ARCHIVE/Videos/Videos_015_Final_Summary.md`
+- `DAILIES/REPORTS/Week_3/Reports_week 3_Source/ARCHIVE/Videos/Videos_015_Hybrid_Population_Plan.md`
+- `DAILIES/REPORTS/Week_3/Reports_week 3_Source/ARCHIVE/Videos/Video_016.md`
+- `DAILIES/REPORTS/Week_3/Reports_week 3_Source/ARCHIVE/Videos/Video_016_Processing_Summary.md`
+- `DAILIES/REPORTS/Week_3/Reports_week 3_Source/ARCHIVE/Videos/Video_017.md`
+- `DAILIES/REPORTS/Week_3/Reports_week 3_Source/ARCHIVE/Videos/VIDEOS_INDEX.md`
+- `DAILIES/REPORTS/Week_3/Reports_week 3_Source/ARCHIVE/Videos/Video_018.md`
+- `DAILIES/REPORTS/Week_3/Reports_week 3_Source/ARCHIVE/Videos/Video_Queue_Tracker.md`
+- `DAILIES/REPORTS/Week_3/Reports_week 3_Source/2025-11-20/Departments/AI_Department_Report_2025-11-20.md`
+- `DAILIES/REPORTS/Week_3/Reports_week 3_Source/2025-11-20/Departments/Design_Department_Report_2025-11-20.md`
+- `DAILIES/REPORTS/Week_3/Reports_week 3_Source/2025-11-20/Departments/Dev_Department_Report_2025-11-20.md`
+- `DAILIES/REPORTS/Week_3/Reports_week 3_Source/2025-11-20/Departments/HR_Department_Report_2025-11-20.md`
+- `DAILIES/REPORTS/Week_3/Reports_week 3_Source/2025-11-20/Departments/LG_Department_Report_2025-11-20.md`
+- `DAILIES/REPORTS/Week_3/Reports_week 3_Source/2025-11-20/Departments/Sales_Department_Report_2025-11-20.md`
+- `DAILIES/REPORTS/Week_3/Reports_week 3_Source/2025-11-20/Departments/Video_Department_Report_2025-11-20.md`
+- `DAILIES/REPORTS/Week_3/Reports_week 3_Source/2025-11-20/Executive Report/01_Framework_Implementation.md`
+- `DAILIES/REPORTS/Week_3/Reports_week 3_Source/2025-11-20/Executive Report/03_Team_Training_Development.md`
+- `DAILIES/REPORTS/Week_3/Reports_week 3_Source/2025-11-20/Executive Report/04_Automation_Integration.md`
+- `DAILIES/REPORTS/Week_3/Reports_week 3_Source/2025-11-20/Executive Report/05_Performance_Management.md`
+- `DAILIES/REPORTS/Week_3/Reports_week 3_Source/2025-11-20/Executive Report/08_Strategic_Decisions_Cultural_Shifts.md`
+- `DAILIES/REPORTS/Week_3/Reports_week 3_Source/2025-11-20/Executive Report/09_Foundational_Systems_W1.md`
+- `DAILIES/REPORTS/Week_3/Reports_week 3_Source/2025-11-20/Executive Report/10_Tools_Ecosystem_Catalog.md`
+- `DAILIES/REPORTS/Week_3/Reports_week 3_Source/2025-11-20/Executive Report/README.md`
+- `DAILIES/REPORTS/Week_3/Reports_week 3_Source/2025-11-20/Executive Report/06_Video_Processing_Knowledge_Capture.md`
+- `DAILIES/REPORTS/Week_3/Reports_week 3_Source/2025-11-20/Executive Report/07_Technical_Guides_Best_Practices.md`
+- `DAILIES/REPORTS/Week_3/Reports_week 3_Source/2025-11-20/Executive Report/02_RAG_Systems_Knowledge_Management.md`
+- `DAILIES/REPORTS/Week_3/Reports_week 3_Source/2025-11-20/Departments_Processed_TM/AID_Department_Report_2025-11-20.md`
+- `DAILIES/REPORTS/Week_3/Reports_week 3_Source/2025-11-20/Departments_Processed_TM/DEV_Department_Report_2025-11-20.md`
+- `DAILIES/REPORTS/Week_3/Reports_week 3_Source/2025-11-20/Departments_Processed_TM/SLS_Department_Report_2025-11-20.md`
+- `DAILIES/REPORTS/Week_3/Reports_week 3_Source/2025-11-20/Departments_Processed_TM/DGN_Department_Report_2025-11-20.md`
+- `DAILIES/REPORTS/Week_3/Reports_week 3_Source/2025-11-20/Departments_Processed_TM/LGN_Department_Report_2025-11-20.md`
+- `DAILIES/REPORTS/Week_3/Reports_week 3_Source/2025-11-20/Departments_Processed_TM/HRM_Department_Report_2025-11-20.md`
+- `DAILIES/REPORTS/Week_3/Reports_week 3_Source/2025-11-20/Departments_Processed_TM/VID_Department_Report_2025-11-20.md`
+- `DAILIES/REPORTS/Week_3/Reports_week 3_Source/2025-11-20/analyze_report_patterns.py`
+- `DAILIES/REPORTS/Week_3/Reports_week 3_Source/2025-11-19/Departments/AI_Department_Report_2025-11-19.md`
+- `DAILIES/REPORTS/Week_3/Reports_week 3_Source/2025-11-19/Departments/Dev_Department_Report_2025-11-19.md`
+- `DAILIES/REPORTS/Week_3/Reports_week 3_Source/2025-11-19/Departments/Design_Department_Report_2025-11-19.md`
+- `DAILIES/REPORTS/Week_3/Reports_week 3_Source/2025-11-19/Processing_Log_2025-11-19.md`
+- `DAILIES/REPORTS/Week_3/Reports_week 3_Source/2025-11-19/Processing_Summary_2025-11-19.md`
+- `DAILIES/REPORTS/Week_3/Reports_week 3_Source/2025-11-19/README.md`
+- `DAILIES/REPORTS/Week_3/Reports_week 3_Source/2025-11-21/Departments/HR_Department_Report_2025-11-21.md`
+- `DAILIES/REPORTS/Week_3/Reports_week 3_Source/2025-11-21/Departments/Video_Department_Report_2025-11-21.md`
+- `DAILIES/REPORTS/Week_3/Reports_week 3_Source/2025-11-21/Departments/AI_Department_Report_2025-11-21.md`
+- `DAILIES/REPORTS/Week_3/Reports_week 3_Source/2025-11-21/Departments/Dev_Department_Report_2025-11-21.md`
+- `DAILIES/REPORTS/Week_3/Reports_week 3_Source/2025-11-21/Departments/Sales_Department_Report_2025-11-21.md`
+- `DAILIES/REPORTS/Week_3/Reports_week 3_Source/2025-11-21/Departments/LG_Department_Report_2025-11-21.md`
+- `DAILIES/REPORTS/Week_3/Reports_week 3_Source/2025-11-21/Departments/Design_Department_Report_2025-11-21.md`
+- `DAILIES/REPORTS/Week_3/Reports_week 3_Source/2025-11-21/README.md`
+- `DAILIES/REPORTS/Week_3/Reports_week 3_Source/2025-11-21/Niko_November_21_Strategic_Session.md`
+- `DAILIES/REPORTS/Week_3/Reports_week 3_Source/2025-11-21/Processing_Summary_2025-11-21.md`
+- `DAILIES/REPORTS/Week_3/Reports_week 3_Source/2025-11-18/Processing_Summary_2025-11-18.md`
+- `DAILIES/REPORTS/Week_3/Reports_week 3_Source/2025-11-18/Processing_Log_2025-11-18.md`
+- `DAILIES/REPORTS/Week_3/Reports_week 3_Source/2025-11-18/README.md`
+- `DAILIES/REPORTS/Week_3/Reports_week 3_Source/2025-11-17/Processing_Summary_2025-11-17.md`
+- `DAILIES/REPORTS/Week_3/Reports_week 3_Source/2025-11-17/Processing_Log_2025-11-17.md`
+- `DAILIES/REPORTS/Week_3/Reports_week 3_Source/2025-11-17/README.md`
+- `DAILIES/REPORTS/Week_3/Reports_week 3_Source/2025-11-24/System_Rebuild/Phase_3B_Video_Queue_System_Completion_Report.md`
+- `DAILIES/REPORTS/Week_3/Reports_week 3_Source/System_Analysis/Milestone_01_Data_Inventory/file_distribution.csv`
+- `DAILIES/REPORTS/Week_3/Reports_week 3_Source/System_Analysis/Milestone_01_Data_Inventory/folder_structure.txt`
+- `DAILIES/REPORTS/Week_3/Reports_week 3_Source/System_Analysis/Milestone_01_Data_Inventory/file_distribution.json`
+- `DAILIES/REPORTS/Week_3/Reports_week 3_Source/System_Analysis/Milestone_01_Data_Inventory/file_sizes.json`
+- `DAILIES/REPORTS/Week_3/Reports_week 3_Source/System_Analysis/Milestone_01_Data_Inventory/folder_structure.json`
+- `DAILIES/REPORTS/Week_3/Reports_week 3_Source/System_Analysis/Milestone_01_Data_Inventory/milestone_01_summary.json`
+- `DAILIES/REPORTS/Week_3/Reports_week 3_Source/System_Analysis/Milestone_01_Data_Inventory/REP-001_File_Inventory_Report.md`
+- `DAILIES/REPORTS/Week_3/Reports_week 3_Source/System_Analysis/Milestone_02_Schema_Naming/naming_violations.json`
+- `DAILIES/REPORTS/Week_3/Reports_week 3_Source/System_Analysis/Milestone_02_Schema_Naming/naming_patterns.json`
+- `DAILIES/REPORTS/Week_3/Reports_week 3_Source/System_Analysis/Milestone_02_Schema_Naming/schema_violations.json`
+- `DAILIES/REPORTS/Week_3/Reports_week 3_Source/System_Analysis/Milestone_02_Schema_Naming/field_usage_stats.json`
+- `DAILIES/REPORTS/Week_3/Reports_week 3_Source/System_Analysis/Milestone_02_Schema_Naming/milestone_02_summary.json`
+- `DAILIES/REPORTS/Week_3/Reports_week 3_Source/System_Analysis/Milestone_02_Schema_Naming/version_inventory.json`
+- `DAILIES/REPORTS/Week_3/Reports_week 3_Source/System_Analysis/Milestone_02_Schema_Naming/version_issues.json`
+- `DAILIES/REPORTS/Week_3/Reports_week 3_Source/System_Analysis/Milestone_02_Schema_Naming/REP-002_Naming_Convention_Audit.md`
+- `DAILIES/REPORTS/Week_3/Reports_week 3_Source/System_Analysis/Milestone_03_Content_Analysis/json_field_names.json`
+- `DAILIES/REPORTS/Week_3/Reports_week 3_Source/System_Analysis/Milestone_03_Content_Analysis/extracted_entity_ids.json`
+- `DAILIES/REPORTS/Week_3/Reports_week 3_Source/System_Analysis/Milestone_03_Content_Analysis/milestone_03_summary.json`
+- `DAILIES/REPORTS/Week_3/Reports_week 3_Source/System_Analysis/Milestone_03_Content_Analysis/python_variables.json`
+- `DAILIES/REPORTS/Week_3/Reports_week 3_Source/System_Analysis/Milestone_03_Content_Analysis/redundant_terms_full.json`
+- `DAILIES/REPORTS/Week_3/Reports_week 3_Source/System_Analysis/Milestone_03_Content_Analysis/terminology_dictionary.json`
+- `DAILIES/REPORTS/Week_3/Reports_week 3_Source/System_Analysis/Milestone_03_Content_Analysis/markdown_headings.json`
+- `DAILIES/REPORTS/Week_3/Reports_week 3_Source/System_Analysis/Milestone_03_Content_Analysis/REP-006_terminology_standards.json`
+- `DAILIES/REPORTS/Week_3/Reports_week 3_Source/System_Analysis/Milestone_04_Relationship_Validation/broken_references.json`
+- `DAILIES/REPORTS/Week_3/Reports_week 3_Source/System_Analysis/Milestone_04_Relationship_Validation/index_files.json`
+- `DAILIES/REPORTS/Week_3/Reports_week 3_Source/System_Analysis/Milestone_04_Relationship_Validation/reference_map.json`
+- `DAILIES/REPORTS/Week_3/Reports_week 3_Source/System_Analysis/Milestone_04_Relationship_Validation/milestone_04_summary.json`
+- `DAILIES/REPORTS/Week_3/Reports_week 3_Source/System_Analysis/Milestones_02_03_Summary.md`
+- `DAILIES/REPORTS/Week_3/Reports_week 3_Source/System_Analysis/REP-003_Schema_Validation_Report.md`
+- `DAILIES/REPORTS/Week_3/Reports_week 3_Source/System_Analysis/REP-007_Cross_Reference_Validation.md`
+- `DAILIES/REPORTS/Week_3/Reports_week 3_Source/System_Analysis/REP-010_Terminology_Consolidation.md`
+- `DAILIES/REPORTS/Week_3/Reports_week 3_Source/System_Analysis/REP-011_Action_Items_Tracker.csv`
+- `DAILIES/REPORTS/Week_3/Reports_week 3_Source/System_Analysis/milestone_01_inventory.py`
+- `DAILIES/REPORTS/Week_3/Reports_week 3_Source/System_Analysis/milestone_02_schema_naming.py`
+- `DAILIES/REPORTS/Week_3/Reports_week 3_Source/System_Analysis/milestone_03_terminology.py`
+- `DAILIES/REPORTS/Week_3/Reports_week 3_Source/System_Analysis/milestone_04_relationships.py`
+- `DAILIES/REPORTS/Week_3/Reports_week 3_Source/System_Analysis/REP-009_Architecture_Documentation.md`
+- `DAILIES/REPORTS/Week_3/Reports_week 3_Source/System_Analysis/REP-012_Executive_Summary.md`
+- `DAILIES/REPORTS/Week_3/Reports_week 3_Source/Taxonomy/RESEARCHES_Master_List.csv`
+- `DAILIES/REPORTS/Week_3/Reports_week 3_Source/Taxonomy/RESEARCHES_Migration_Map.json`
+- `DAILIES/REPORTS/Week_3/Reports_week 3_Source/Taxonomy/RESEARCHES_ISO_Code_Registry.md`
+- `DAILIES/REPORTS/Week_3/Reports_week 3_Source/Taxonomy/RESEARCHES_Hierarchy_Tree.md`
+- `DAILIES/REPORTS/Week_3/Reports_week 3_Source/Taxonomy/RESEARCHES_Department_Distribution.md`
+- `DAILIES/REPORTS/Week_3/Reports_week 3_Source/DATA/Employee_Activity_Report_2025-11-18.md`
+- `DAILIES/REPORTS/Week_3/Reports_week 3_Source/DATA/Remote_Helpers_attendance_2025-11-18.json`
+- `DAILIES/REPORTS/Week_3/Reports_week 3_Source/DATA/Remote_Helpers_Attendance_2025-11-18.md`
+- `DAILIES/REPORTS/Week_3/Reports_week 3_Source/DATA/discord_voice_2025-11-18_summary.md`
+- `DAILIES/REPORTS/Week_3/Reports_week 3_Source/DATA/discord_voice_2025-11-18_summary.csv`
+- `DAILIES/REPORTS/Week_3/Reports_week 3_Source/DOCS/PARSE_AND_REORGANIZE_PLAN.md`
+- `DAILIES/REPORTS/Week_3/Reports_week 3_Source/DOCS/Remote_Helpers_Attendance_example.md`
+- `DAILIES/REPORTS/Week_3/Reports_week 3_Source/Weekly_Analysis/Phase_0_Template.md`
+- `DAILIES/REPORTS/Week_3/Reports_week 3_Source/Weekly_Analysis/November_2025_Week_3_Analysis.md`
+- `DAILIES/REPORTS/Week_3/Reports_week 3_Source/Weekly_Analysis/Phase_0_Analysis_Prompt.md`
+- `DAILIES/REPORTS/Week_3/Reports_week 3_Source/Weekly_Analysis/November_2025_Week_3_Masterlist.csv`
+- `DAILIES/REPORTS/Week_3/Reports_week 3_Source/Weekly_Analysis/README.md`
+- `DAILIES/REPORTS/Week_3/Reports_week 3_Source/2025-11-22/Video_Processing_Stages_Report.md`
+- `DAILIES/REPORTS/Week_3/Reports_week 3_Source/ByTool_Population_Complete_2025-11-22.md`
+- `DAILIES/REPORTS/Week_3/Reports_week 3_Source/routing_matrix.json`
+- `DAILIES/REPORTS/Week_3/Reports_week 3_Source/Cloud_AI_Research_Instructions.md`
+- `DAILIES/REPORTS/Week_3/Reports_week 3_Source/Research_Prompt_Schema.md`
+- `DAILIES/REPORTS/Week_3/Reports_week 3_Source/Research_Report_Schema.md`
+- `DAILIES/REPORTS/Week_3/Reports_week 3_Source/TAXONOMY.md`
+- `DAILIES/REPORTS/Week_3/Reports_week 3_Source/Example_Design_Daily_Activity_Report_Nov19_2025.md`
+- `DAILIES/REPORTS/Week_3/Reports_week 3_Source/Personal_Prompts_Integration_Report_2025-11-21.md`
+- `DAILIES/REPORTS/Week_3/Reports_week 3_Source/LBS_Integration_Summary_2025-11-22.md`
+- `DAILIES/REPORTS/Week_3/Reports_week 3_Source/MIGRATED_TO_DEPARTMENTS.md`
+- `DAILIES/REPORTS/Week_3/Reports_week 3_Source/PROJECT_LOG_2025-11-13.md`
+- `DAILIES/REPORTS/Week_3/Reports_week 3_Source/RESEARCH_INDEX.json`
+- `DAILIES/REPORTS/Week_3/Reports_week 3_Source/Skills_Integration_Final_2025-11-22.md`
+- `DAILIES/REPORTS/Week_3/Reports_week 3_Source/Example_AI_Daily_Activity_Report_Nov19_2025.md`
+- `DAILIES/REPORTS/Week_3/Reports_week 3_Source/EXAMPLE_2025-11-W46_AI_Tutorials_Research.json`
+- `DAILIES/REPORTS/Week_3/Reports_week 3_Source/common_index.json`
+- `DAILIES/REPORTS/Week_3/Reports_week 3_Source/RESEARCH_TEMPLATE.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Analysis/01_Source_Data/Executive_Strategic/Executive_All_Tasks.csv`
+- `DAILIES/REPORTS/Week_3/Week_3_Analysis/01_Source_Data/Executive_Strategic/Executive_Categories.csv`
+- `DAILIES/REPORTS/Week_3/Week_3_Analysis/01_Source_Data/Executive_Strategic/Executive_Connections.csv`
+- `DAILIES/REPORTS/Week_3/Week_3_Analysis/01_Source_Data/Executive_Strategic/Executive_Departments.csv`
+- `DAILIES/REPORTS/Week_3/Week_3_Analysis/01_Source_Data/Executive_Strategic/Executive_Hierarchy.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Analysis/01_Source_Data/Executive_Strategic/Executive_Milestones.csv`
+- `DAILIES/REPORTS/Week_3/Week_3_Analysis/01_Source_Data/Executive_Strategic/Executive_Projects.csv`
+- `DAILIES/REPORTS/Week_3/Week_3_Analysis/01_Source_Data/Executive_Strategic/Executive_Tasks.csv`
+- `DAILIES/REPORTS/Week_3/Week_3_Analysis/01_Source_Data/Executive_Strategic/README.md`
+- `DAILIES/REPORTS/Week_3/Week_3_Analysis/02_Delegation_Mapping/Delegation/Department_Workload_Analysis.csv`
+- `DAILIES/REPORTS/Week_3/Week_3_Analysis/02_Delegation_Mapping/Delegation/README.md`
+- `DAILIES/REPORTS/Week_3/Week_3_Analysis/03_Scripts/merge_nov20_tasks.py`
+- `DAILIES/REPORTS/Week_3/Week_3_Analysis/SUMMARY_STATISTICS.txt`
+- `DAILIES/REPORTS/Week_3/Week_3_Analysis/README.md`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/AI_Automation_Tasks_Week4.csv`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Design_Tasks_Week4.csv`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Development_Tasks_Week4.csv`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/HR_Tasks_Week4.csv`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/LeadGen_Tasks_Week4.csv`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Sales_Tasks_Week4.csv`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Video_Tasks_Week4.csv`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/EXC_Tasks_Week4.csv`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Projects_Milestones_Week4.csv`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Executive_Strategic/Executive_All_Tasks.csv`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Executive_Strategic/Executive_Categories.csv`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Executive_Strategic/Executive_Connections.csv`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Executive_Strategic/Executive_Departments.csv`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Executive_Strategic/Executive_Hierarchy.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Executive_Strategic/Executive_Milestones.csv`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Executive_Strategic/Executive_Projects.csv`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Executive_Strategic/Executive_Tasks.csv`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Executive_Strategic/README.md`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/README.md`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Department_Workload_Analysis.csv`
+- `DAILIES/REPORTS/Week_3/Scripts/README.md`
+- `DAILIES/REPORTS/Week_3/Scripts/create_delegation_mapping.py`
+- `DAILIES/REPORTS/Week_3/Scripts/merge_nov20_tasks.py`
+- `DAILIES/REPORTS/Week_3/Scripts/package_week3_analysis.py`
+- `DAILIES/REPORTS/241125_Analysis_COMPREHENSIVE.md`
+- `DAILIES/REPORTS/251125_Analysis_COMPREHENSIVE.md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/ARCHITECTURE_PLAN/PHASE_0.MD`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/ARCHITECTURE_PLAN/PHASE_1.MD`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/ARCHITECTURE_PLAN/PHASE_2.MD`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/ARCHITECTURE_PLAN/README.MD`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/ARCHITECTURE_PLAN/SUMMARY.MD`
+- `DAILIES/REPORTS/Niko Oct Reports/01_Framework_Implementation.md`
+- `DAILIES/REPORTS/Niko Oct Reports/03_Team_Training_Development.md`
+- `DAILIES/REPORTS/Niko Oct Reports/04_Automation_Integration.md`
+- `DAILIES/REPORTS/Niko Oct Reports/05_Performance_Management.md`
+- `DAILIES/REPORTS/Niko Oct Reports/08_Strategic_Decisions_Cultural_Shifts.md`
+- `DAILIES/REPORTS/Niko Oct Reports/09_Foundational_Systems_W1.md`
+- `DAILIES/REPORTS/Niko Oct Reports/10_Tools_Ecosystem_Catalog.md`
+- `DAILIES/REPORTS/Niko Oct Reports/11_October_Foundation_Origins.md`
+- `DAILIES/REPORTS/Niko Oct Reports/12_October_Microservices_Technical.md`
+- `DAILIES/REPORTS/Niko Oct Reports/README.md`
+- `DAILIES/REPORTS/Niko Oct Reports/13_September_Early_Foundations.md`
+- `DAILIES/REPORTS/Niko Oct Reports/14_November_21_Strategic_Session.md`
+- `DAILIES/REPORTS/Niko Oct Reports/06_Video_Processing_Knowledge_Capture.md`
+- `DAILIES/REPORTS/Niko Oct Reports/02_RAG_Systems_Knowledge_Management.md`
+- `DAILIES/REPORTS/Niko Oct Reports/07_Technical_Guides_Best_Practices.md`
+- `DAILIES/REPORTS/Niko_Nov_Notes_Summary/221125_PROCESSED.md`
+- `DAILIES/REPORTS/Niko_Nov_Notes_Summary/201125_PROCESSED.md`
+- `DAILIES/REPORTS/Niko_Nov_Notes_Summary/231125_PROCESSED.md`
+- `PROMPTS/Core/MAIN_PROMPT_v6/IMPLEMENTATION_PLAN_Core_Identity_Update.md`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Workflow_Flow_Documents/WFC-001_Develop_USER_Entities.md`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Workflow_Flow_Documents/WFC-002_Prospects_Architecture_Improvement.md`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Workflow_Flow_Documents/WFC-003_Populate_Business_Entity_from_Sales.md`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Workflow_Flow_Documents/WFC-004_Find_historical_search_queries_file_on_Google_Drive.md`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Workflow_Flow_Documents/WFC-005_Document_scraping_system_(20%_checkpoint).md`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Workflow_Flow_Documents/WFC-006_Create_Job_Sites_folder_in_ENTITIES_ACCOUNTS.md`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Workflow_Flow_Documents/WFC-007_Deploy_v1.0_to_Vercel.md`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Workflow_Flow_Documents/WFC-008_Teach_Vilhelm_video_parsing_workflow.md`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Workflow_Flow_Documents/WFC-009_Document_current_AI_tools_tracking_system.md`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Workflow_Flow_Documents/WFC-010_Design_single_task_page_layout.md`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Workflow_Flow_Documents/README.md`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Workflow_Flow_Documents/INDEX.md`
+- `PROMPTS/Core/MAIN_PROMPT_v6/01_Core_Identity.md`
+- `PROMPTS/Core/MAIN_PROMPT_v6/CHANGELOG_Core_Identity_v6.1_to_v6.2.md`
+- `PROMPTS/Core/MAIN_PROMPT_v6/FILES_LIST.md`
+- `PROMPTS/Core/MAIN_PROMPT_v6/INCONSISTENCY_ANALYSIS.md`
+- `DAILIES/REPORTS/Week_3/Reports_week 3_Source/2025-11-20/Departments/Finance_Department_Report_2025-11-20.md`
+- `DAILIES/REPORTS/Week_3/Reports_week 3_Source/2025-11-20/MASTER_REPORT_2025-11-20.md`
+- `DAILIES/REPORTS/Week_3/Reports_week 3_Source/2025-11-20/Departments_Processed_TM/DAY_OF_WEEK_INTEGRATION.md`
+- `DAILIES/REPORTS/Niko_Nov_Notes_Summary/191125_Niko_PROCESSED.md`
+- `DAILIES/REPORTS/Niko_Nov_Notes_Summary/211125_PROCESSED.md`
+- `DAILIES/REPORTS/Niko_Nov_Notes_Summary/181125_Niko_PROCESSED.md`
+- `DAILIES/REPORTS/Niko_Nov_Notes_Summary/171125_Niko_PROCESSED.md`
+- `DAILIES/REPORTS/Week_3/Reports_week 3_Source/2025-11-20/Processing_Log_2025-11-20.md`
+- `DAILIES/REPORTS/Week_3/Reports_week 3_Source/2025-11-20/process_reports_for_tm.py`
+- `DAILIES/REPORTS/Week_3/Reports_week 3_Source/2025-11-20/Departments_Processed_TM/Pattern_Analysis_Report.md`
+- `DAILIES/REPORTS/Week_3/Reports_week 3_Source/2025-11-21/Department_Report_Generation_Workflow.md`
+- `DAILIES/REPORTS/Week_3/Reports_week 3_Source/2025-11-21/MASTER_ACTIVITY_LISTING_2025-11-21.csv`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/ALL_TASKS_CONSOLIDATED_WITH_NOV20.csv`
+- `DAILIES/REPORTS/Week_3/Week_3_Analysis/01_Source_Data/ALL_TASKS_CONSOLIDATED_WITH_NOV20.csv`
+- `DAILIES/REPORTS/Week_3/Reports_week 3_Source/2025-11-21/Departments/Finance_Department_Report_2025-11-21.md`
+- `DAILIES/REPORTS/Week_3/Reports_week 3_Source/2025-11-21/MASTER_REPORT_2025-11-21.md`
+- `DAILIES/REPORTS/Week_3/Reports_week 3_Source/Weekly_Analysis/PMT-094_Weekly_Report_Gap_Analysis.md`
+- `DAILIES/REPORTS/Week_3/Week_3_Analysis/03_Scripts/extract_2025_11_20_tasks.py`
+- `DAILIES/REPORTS/Week_3/Week_3_Analysis/03_Scripts/create_delegation_mapping_v2.py`
+- `DAILIES/REPORTS/Week_3/Reports_week 3_Source/System_Analysis/PROMPTS_Entity_Analysis_2025-11-19.md`
+- `DAILIES/REPORTS/Week_3/Reports_week 3_Source/2025-11-21_Entity_Import_Execution_Report.md`
+- `DAILIES/REPORTS/Week_3/Reports_week 3_Source/2025-11-21_PROJECT_COMPLETION_REPORT.md`
+- `DAILIES/REPORTS/Week_3/Reports_week 3_Source/2025-11-21_IMPORT_COMPLETE.md`
+- `DAILIES/REPORTS/Week_3/Reports_week 3_Source/Weekly_Analysis/Weekly_Gap_Analysis_2025-11-21.md`
+- `DAILIES/REPORTS/Week_3/Scripts/extract_weekly_tasks.py`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/ALL_TASKS_CONSOLIDATED.csv`
+- `DAILIES/REPORTS/Week_3/Scripts/extract_executive_notes.py`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Team_Assignment_Matrix.csv`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Workflow_Clustering.csv`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Assignment_Priority_Queue.csv`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Task_Template_Mapping.csv`
+- `DAILIES/REPORTS/Week_3/Scripts/create_delegation_mapping_v2.py`
+- `DAILIES/REPORTS/Week_3/Scripts/extract_2025_11_20_tasks.py`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Tasks_2025_11_20.csv`
+- `DAILIES/REPORTS/Week_3/Week_3_Analysis/02_Delegation_Mapping/Delegation/Task_Template_Mapping.csv`
+- `DAILIES/REPORTS/Week_3/Week_3_Analysis/03_Scripts/extract_executive_notes.py`
+- `DAILIES/REPORTS/Week_3/Week_3_Analysis/02_Delegation_Mapping/Delegation/Workflow_Clustering.csv`
+- `DAILIES/REPORTS/Week_3/Week_3_Analysis/02_Delegation_Mapping/Delegation/Assignment_Priority_Queue.csv`
+- `DAILIES/REPORTS/Week_3/Week_3_Analysis/02_Delegation_Mapping/Delegation/Team_Assignment_Matrix.csv`
+- `DAILIES/REPORTS/Week_3/Week_3_Analysis/01_Source_Data/Tasks_2025_11_20.csv`
+- `DAILIES/REPORTS/Week_3/Week_3_Analysis/03_Scripts/extract_weekly_tasks.py`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Workflow_Flow_Documents/Department_Workflows_Summary.md`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Master_Task_List_Week4.csv`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Finance_Tasks_Week4.csv`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Summary_By_Department.csv`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/EXTRACTION_SUMMARY.md`
+- `PROMPTS/Core/MAIN_PROMPT_v6/00_MASTER_INDEX.md`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Workflow_Clustering_Enhanced.csv`
+- `DAILIES/REPORTS/Week_3/Reports_week 3_Source/2025-11-20/Departments_Processed_TM/FIN_Department_Report_2025-11-20.md`
+- `PROMPTS/update_master_list.py`
+- `DAILIES/REPORTS/Week_3/Reports_week 3_Source/2025-11-20/Departments_Processed_TM/Department_Report_Mapping.json`
+- `DAILIES/REPORTS/Week_3/Reports_week 3_Source/2025-11-20/Departments_Processed_TM/README.md`
+- `DAILIES/REPORTS/Week_3/Reports_week 3_Source/2025-11-20/Departments_Processed_TM/PROCESSING_SUMMARY.md`
+- `DAILIES/REPORTS/Week_3/Reports_week 3_Source/2025-11-20/Departments_Processed_TM/Pattern_Analysis_Data.json`
+- `PROMPTS/Core/MAIN_PROMPT_v6/ANALYSIS_REPORT.md`
+- `DEV/file_structure.md`
+- `DEV/structure.txt`
+- `PROMPTS/Core/MAIN_PROMPT_v6/CHANGELOG_Entity_Taxonomy_v6.0_to_v6.1.md`
+- `PROMPTS/show_summary.py`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Workflows/WRF-020_Design_-_Design_Tasks.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Workflows/WRF-021_Design_-_Development_Tasks.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Workflows/WRF-022_Design_-_Documentation_Tasks.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Workflows/WRF-023_Design_-_Research_Tasks.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Workflows/WRF-024_Design_-_Task_Tasks.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Workflows/WRF-025_Development_-_Development_Tasks.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Workflows/WRF-026_Development_-_Documentation_Tasks.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Workflows/WRF-027_Development_-_Integration_Tasks.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Workflows/WRF-028_Development_-_Research_Tasks.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Workflows/WRF-029_Development_-_Task_Tasks.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Workflows/WRF-030_Finance_-_Development_Tasks.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Workflows/WRF-031_Finance_-_Maintenance_Tasks.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Workflows/WRF-032_Finance_-_Research_Tasks.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Workflows/WRF-033_Finance_-_Task_Tasks.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Workflows/WRF-034_HR_-_Development_Tasks.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Workflows/WRF-035_HR_-_Documentation_Tasks.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Workflows/WRF-036_HR_-_Integration_Tasks.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Workflows/WRF-037_HR_-_Research_Tasks.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Workflows/WRF-038_HR_-_Task_Tasks.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Workflows/WRF-039_Lead_Generation_-_Task_Tasks.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Workflows/WRF-040_SMM_-_Development_Tasks.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Workflows/WRF-041_SMM_-_Research_Tasks.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Workflows/WRF-042_Sales_-_Design_Tasks.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Workflows/WRF-043_Sales_-_Development_Tasks.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Workflows/WRF-044_Sales_-_Documentation_Tasks.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Workflows/WRF-045_Sales_-_Research_Tasks.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Workflows/WRF-046_Sales_-_Task_Tasks.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Workflows/WRF-047_Video_-_Development_Tasks.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Workflows/WRF-048_Video_-_Documentation_Tasks.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Workflows/WRF-049_Video_-_Research_Tasks.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Workflows/WRF-050_Video_-_Task_Tasks.json`
+- `PROMPTS/compile_prompt_system.py`
+- `PROMPTS/Core/COMPILED_PROMPT_SYSTEM/00_MASTER_INDEX.md`
+- `PROMPTS/Core/COMPILED_PROMPT_SYSTEM/01_FULL_COMPILATION.md`
+- `PROMPTS/Core/COMPILED_PROMPT_SYSTEM/02_STATISTICS.md`
+- `PROMPTS/Core/COMPILED_PROMPT_SYSTEM/AUTOMATION.md`
+- `PROMPTS/Core/COMPILED_PROMPT_SYSTEM/CORE.md`
+- `PROMPTS/Core/COMPILED_PROMPT_SYSTEM/CREATIVES.md`
+- `PROMPTS/Core/COMPILED_PROMPT_SYSTEM/DAILY_REPORTS.md`
+- `PROMPTS/Core/COMPILED_PROMPT_SYSTEM/HR.md`
+- `PROMPTS/Core/COMPILED_PROMPT_SYSTEM/LIBRARIES.md`
+- `PROMPTS/Core/COMPILED_PROMPT_SYSTEM/OTHER.md`
+- `PROMPTS/Core/COMPILED_PROMPT_SYSTEM/RESEARCH.md`
+- `PROMPTS/Core/COMPILED_PROMPT_SYSTEM/TAXONOMY.md`
+- `PROMPTS/Core/COMPILED_PROMPT_SYSTEM/UTILITIES.md`
+- `PROMPTS/Core/COMPILED_PROMPT_SYSTEM/VIDEO.md`
+- `PROMPTS/Core/COMPILED_PROMPT_SYSTEM/WORKFLOWS.md`
+- `PROMPTS/Core/COMPILED_PROMPT_SYSTEM/README.md`
+- `PROMPTS/Core/MAIN_PROMPT_v6/02_Entity_Taxonomy.md`
+- `PROMPTS/Core/MAIN_PROMPT_v6/03_Workflow_Execution.md`
+- `LIBRARIES/LBS_003_Tools/all_json_files.txt`
+- `PROMPTS/Core/MAIN_PROMPT_v6/NEW_SESSION_PROMPT.md`
+- `PROMPTS/restructure_prompts.py`
+- `PROMPTS/RESTRUCTURING_SUMMARY.md`
+- `PROMPTS/PROMPTS_Master_List_BACKUP.csv`
+- `PROMPTS/_ARCHIVE/CREATIVES/Mascot_Prompting_Documents_Index.md`
+- `PROMPTS/_ARCHIVE/Automation/script_copy_dailies.py`
+- `PROMPTS/_ARCHIVE/DATA_FIELDS/Cross_Reference_Map.json`
+- `PROMPTS/_ARCHIVE/DATA_FIELDS/Entity_Schema_Registry.json`
+- `PROMPTS/_ARCHIVE/DATA_FIELDS/PMT_Master_List (Remote Helpers's conflicted copy 2025-11-21).csv`
+- `PROMPTS/_ARCHIVE/DATA_FIELDS/PMT_Master_List.csv`
+- `PROMPTS/_ARCHIVE/DATA_FIELDS/Prompts_Index.json`
+- `PROMPTS/_ARCHIVE/DEPARTMENTS/Daily_Reports/IMPLEMENTATION_COMPLETE_v2.1.md`
+- `PROMPTS/_ARCHIVE/DEPARTMENTS/Daily_Reports/IMPLEMENTATION_PLAN_v2.1.md`
+- `PROMPTS/_ARCHIVE/DEPARTMENTS/Daily_Reports/PHASE_1_COMPLETE_SUMMARY.md`
+- `PROMPTS/_ARCHIVE/DEPARTMENTS/Daily_Reports/Constructor/IMPLEMENTATION_SUMMARY.md`
+- `PROMPTS/_ARCHIVE/DEPARTMENTS/Daily_Reports/Constructor/README.md`
+- `PROMPTS/_ARCHIVE/DEPARTMENTS/Daily_Reports/Constructor/README_Enhanced_v2.md`
+- `PROMPTS/_ARCHIVE/DEPARTMENTS/Daily_Reports/Constructor/TEMPLATE_Enhanced_Department_Prompt.md`
+- `PROMPTS/_ARCHIVE/DEPARTMENTS/Daily_Reports/Constructor/TEMPLATE_VARIABLE_MAPPING.md`
+- `PROMPTS/_ARCHIVE/DEPARTMENTS/Daily_Reports/Constructor/classification_summary.md`
+- `PROMPTS/_ARCHIVE/DEPARTMENTS/Daily_Reports/Constructor/prompt_parts_structure.json`
+- `PROMPTS/_ARCHIVE/DEPARTMENTS/Daily_Reports/Department_Prompts/Department_Prompts_Index.md`
+- `PROMPTS/_ARCHIVE/DEPARTMENTS/Daily_Reports/Department_Prompts/REMAINING_PROMPTS_IMPLEMENTATION_GUIDE.md`
+- `PROMPTS/_ARCHIVE/DEPARTMENTS/Daily_Reports/Department_Prompts/archive_v1.ps1`
+- `PROMPTS/_ARCHIVE/DEPARTMENTS/Daily_Reports/Constructor/docs/README.md`
+- `PROMPTS/_ARCHIVE/DEPARTMENT_IMPORT_TEMPLATE.md`
+- `PROMPTS/_ARCHIVE/PROMPTS_Master_List.csv`
+- `PROMPTS/_ARCHIVE/PROMPTS_Migration_Map.json`
+- `PROMPTS/_ARCHIVE/README_PROMPTS.md`
+- `PROMPTS/_ARCHIVE/DEPARTMENTS/Daily_Reports/PHASE_2_3_COMPLETE_SUMMARY.md`
+- `PROMPTS/_ARCHIVE/DEPARTMENTS/Daily_Reports/README.md`
+- `PROMPTS/_ARCHIVE/DEPARTMENTS/Daily_Reports/SCHEMA_REVISION_SUMMARY_v2.1.md`
+- `PROMPTS/_ARCHIVE/compile_prompt_system.py`
+- `PROMPTS/_ARCHIVE/restructure_prompts.py`
+- `PROMPTS/_ARCHIVE/show_summary.py`
+- `PROMPTS/_ARCHIVE/update_master_list.py`
+- `PROMPTS/_ARCHIVE/DEPARTMENTS/HR_Operations/PMT-055_Communication_Templates.md`
+- `PROMPTS/_ARCHIVE/DEPARTMENTS/HR_Operations/README.md`
+- `PROMPTS/_ARCHIVE/WORKFLOWS/README.md`
+- `PROMPTS/_ARCHIVE/_INDEX/PROMPTS_INDEX.json`
+- `PROMPTS/_ARCHIVE/_INDEX/README.md`
+- `PROMPTS/_ARCHIVE/SYSTEM/Taxonomy/Prompts_Master_List.csv`
+- `PROMPTS/_ARCHIVE/SYSTEM/IMPORT_GUIDES/TSM-001_Project_Templates_Import_Guide.md`
+- `PROMPTS/_ARCHIVE/SYSTEM/IMPORT_GUIDES/TSM-002_Milestone_Templates_Import_Guide.md`
+- `PROMPTS/_ARCHIVE/WORKFLOWS/Library_Processing/README.md`
+- `PROMPTS/_ARCHIVE/SYSTEM/Automation 2/README.md`
+- `PROMPTS/_ARCHIVE/SYSTEM/Automation 2/script_copy_dailies.py`
+- `PROMPTS/_ARCHIVE/SYSTEM/System_Analysis/README.md`
+- `PROMPTS/_ARCHIVE/UTILITIES/Communication/README.md`
+- `PROMPTS/RESTRUCTURING_COMPLETE.md`
+- `PROMPTS/Core/MAIN_PROMPT_v6/04_Department_Operations.md`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Workflows/WRF-013_AI_-_Documentation_Tasks.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Workflows/WRF-016_AI_-_Maintenance_Tasks.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Workflows/WRF-018_AI_-_Task_Tasks.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Workflows/WRF-005_Document_scraping_system_(20%_checkpoint).json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Workflows/WRF-002_Prospects_Architecture_Improvement.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Workflows/WRF-006_Create_Job_Sites_folder_in_ENTITIES_ACCOUNTS.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Workflows/WRF-008_Teach_Vilhelm_video_parsing_workflow.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Workflows/WRF-010_Design_single_task_page_layout.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Workflows/WRF-007_Deploy_v1.0_to_Vercel.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Workflows/WRF-004_Find_historical_search_queries_file_on_Google_Drive.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Workflows/WRF-003_Populate_Business_Entity_from_Sales.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Workflows/WRF-009_Document_current_AI_tools_tracking_system.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Workflows/WRF-011_AI_-_Design_Tasks.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Workflows/WRF-012_AI_-_Development_Tasks.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Workflows/WRF-017_AI_-_Research_Tasks.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Workflows/WRF-014_AI_-_Infrastructure_Tasks.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Workflows/WRF-019_AI_-_Testing_Tasks.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Workflows/WRF-015_AI_-_Integration_Tasks.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Workflows/WRF-001_Develop_USER_Entities.json`
+- `LIBRARIES/LBS_003_Tools/restructure_tools.py`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Workflows/WFC_to_WRF_Migration_Map.json`
+- `LIBRARIES/LBS_003_Tools/TOL-019_Browse_AI.json`
+- `LIBRARIES/LBS_003_Tools/TOL-021_Browserbase.json`
+- `LIBRARIES/LBS_003_Tools/TOL-022_Bubble_io.json`
+- `LIBRARIES/LBS_003_Tools/TOL-023_Caddy.json`
+- `LIBRARIES/LBS_003_Tools/TOL-024_Cdans.json`
+- `LIBRARIES/LBS_003_Tools/TOL-025_ChatGPT.json`
+- `LIBRARIES/LBS_003_Tools/TOL-026_Claude.json`
+- `LIBRARIES/LBS_003_Tools/TOL-027_Claude_Desktop_App.json`
+- `LIBRARIES/LBS_003_Tools/TOL-028_Claude_Projects.json`
+- `LIBRARIES/LBS_003_Tools/TOL-029_CloudTask.json`
+- `LIBRARIES/LBS_003_Tools/TOL-030_CodeRabbit.json`
+- `LIBRARIES/LBS_003_Tools/TOL-031_ComfyUI.json`
+- `LIBRARIES/LBS_003_Tools/TOL-034_Crawl4AI.json`
+- `LIBRARIES/LBS_003_Tools/TOL-036_CRM_MCP_Connector.json`
+- `LIBRARIES/LBS_003_Tools/TOL-042_DigitalOcean.json`
+- `LIBRARIES/LBS_003_Tools/TOL-044_Docling.json`
+- `LIBRARIES/LBS_003_Tools/TOL-049_ElevenLabs.json`
+- `LIBRARIES/LBS_003_Tools/TOL-050_Envato_Elements.json`
+- `LIBRARIES/LBS_003_Tools/TOL-055_Flux_Kontext.json`
+- `LIBRARIES/LBS_003_Tools/TOL-057_Gamma_app.json`
+- `LIBRARIES/LBS_003_Tools/TOL-058_Gemini.json`
+- `LIBRARIES/LBS_003_Tools/TOL-059_Gemini_File_Search.json`
+- `LIBRARIES/LBS_003_Tools/TOL-063_GLIF.json`
+- `LIBRARIES/LBS_003_Tools/TOL-064_Gmail_MCP_Connector.json`
+- `LIBRARIES/LBS_003_Tools/TOL-065_Google_AI_Studio.json`
+- `LIBRARIES/LBS_003_Tools/TOL-067_Google_Cloud_Run.json`
+- `LIBRARIES/LBS_003_Tools/TOL-070_Google_Veo_3_1.json`
+- `LIBRARIES/LBS_003_Tools/TOL-071_Graphiti.json`
+- `LIBRARIES/LBS_003_Tools/TOL-072_Grok.json`
+- `LIBRARIES/LBS_003_Tools/TOL-033_Cove_ai.json`
+- `LIBRARIES/LBS_003_Tools/TOL-035_CrewAI.json`
+- `LIBRARIES/LBS_003_Tools/TOL-037_Cursor.json`
+- `LIBRARIES/LBS_003_Tools/TOL-039_DeepSite.json`
+- `LIBRARIES/LBS_003_Tools/TOL-045_Dribbble.json`
+- `LIBRARIES/LBS_003_Tools/TOL-046_Dropbox.json`
+- `LIBRARIES/LBS_003_Tools/TOL-052_Firecrawl.json`
+- `LIBRARIES/LBS_003_Tools/TOL-053_Fiverr.json`
+- `LIBRARIES/LBS_003_Tools/TOL-054_Flux.json`
+- `LIBRARIES/LBS_003_Tools/TOL-056_Freepik.json`
+- `LIBRARIES/LBS_003_Tools/TOL-060_Genspark_ai.json`
+- `LIBRARIES/LBS_003_Tools/TOL-062_GitHub_Copilot.json`
+- `LIBRARIES/LBS_003_Tools/TOL-066_Google_Calendar_MCP_Connector.json`
+- `LIBRARIES/LBS_003_Tools/TOL-068_Google_Sheets.json`
+- `LIBRARIES/LBS_003_Tools/TOL-073_Hailo.json`
+- `LIBRARIES/LBS_003_Tools/TOL-075_Hedra.json`
+- `LIBRARIES/LBS_003_Tools/TOL-076_HeyGen.json`
+- `LIBRARIES/LBS_003_Tools/TOL-103_Neon.json`
+- `LIBRARIES/LBS_003_Tools/TOL-005_Antigravity.json`
+- `LIBRARIES/LBS_003_Tools/TOL-008_Apify.json`
+- `LIBRARIES/LBS_003_Tools/TOL-009_Arcade_ai.json`
+- `LIBRARIES/LBS_003_Tools/TOL-004_Airscale.json`
+- `LIBRARIES/LBS_003_Tools/TOL-001_99designs.json`
+- `LIBRARIES/LBS_003_Tools/TOL-013_Auth0.json`
+- `LIBRARIES/LBS_003_Tools/TOL-010_Archon.json`
+- `LIBRARIES/LBS_003_Tools/TOL-017_Brave_Search.json`
+- `LIBRARIES/LBS_003_Tools/TOL-002_Adobe_Firefly.json`
+- `LIBRARIES/LBS_003_Tools/TOL-006_Antigravity_IDE.json`
+- `LIBRARIES/LBS_003_Tools/TOL-018_Bright_Data.json`
+- `LIBRARIES/LBS_003_Tools/TOL-015_Azure.json`
+- `LIBRARIES/LBS_003_Tools/TOL-007_Anymailfinder.json`
+- `LIBRARIES/LBS_003_Tools/TOL-077_Hugging_Face.json`
+- `LIBRARIES/LBS_003_Tools/TOL-078_InVideo_AI.json`
+- `LIBRARIES/LBS_003_Tools/TOL-079_Kimi_K2_Thinking.json`
+- `LIBRARIES/LBS_003_Tools/TOL-080_Kling.json`
+- `LIBRARIES/LBS_003_Tools/TOL-081_Langfuse.json`
+- `LIBRARIES/LBS_003_Tools/TOL-082_LangGraph.json`
+- `LIBRARIES/LBS_003_Tools/TOL-083_Leonardo_AI.json`
+- `LIBRARIES/LBS_003_Tools/TOL-086_Loom.json`
+- `LIBRARIES/LBS_003_Tools/TOL-087_Lovable_dev.json`
+- `LIBRARIES/LBS_003_Tools/TOL-089_Maestra_ai.json`
+- `LIBRARIES/LBS_003_Tools/TOL-090_Manus_im.json`
+- `LIBRARIES/LBS_003_Tools/TOL-091_MarketerHire.json`
+- `LIBRARIES/LBS_003_Tools/TOL-092_Mayple.json`
+- `LIBRARIES/LBS_003_Tools/TOL-093_MCP_Builder_Skill.json`
+- `LIBRARIES/LBS_003_Tools/TOL-096_Mem0.json`
+- `LIBRARIES/LBS_003_Tools/TOL-097_Midjourney.json`
+- `LIBRARIES/LBS_003_Tools/TOL-098_MiniMax.json`
+- `LIBRARIES/LBS_003_Tools/TOL-099_Model_Scope.json`
+- `LIBRARIES/LBS_003_Tools/TOL-100_MovieGen.json`
+- `LIBRARIES/LBS_003_Tools/TOL-101_Nano_Banana.json`
+- `LIBRARIES/LBS_003_Tools/TOL-102_Neo4j.json`
+- `LIBRARIES/LBS_003_Tools/TOL-104_NotebookLM.json`
+- `LIBRARIES/LBS_003_Tools/TOL-105_Notion_AI.json`
+- `LIBRARIES/LBS_003_Tools/TOL-106_Ollama.json`
+- `LIBRARIES/LBS_003_Tools/TOL-107_Open_WebUI.json`
+- `LIBRARIES/LBS_003_Tools/TOL-108_OpenAI_GPT5.json`
+- `LIBRARIES/LBS_003_Tools/TOL-109_OpenArt.json`
+- `LIBRARIES/LBS_003_Tools/TOL-110_OpenArt_Photorealistic.json`
+- `LIBRARIES/LBS_003_Tools/TOL-111_OpenRouter.json`
+- `LIBRARIES/LBS_003_Tools/TOL-112_Perplexity.json`
+- `LIBRARIES/LBS_003_Tools/TOL-113_PGVector.json`
+- `LIBRARIES/LBS_003_Tools/TOL-115_Pollo_ai.json`
+- `LIBRARIES/LBS_003_Tools/TOL-116_Postgres.json`
+- `LIBRARIES/LBS_003_Tools/TOL-118_Pydantic_AI.json`
+- `LIBRARIES/LBS_003_Tools/TOL-120_Ragas.json`
+- `LIBRARIES/LBS_003_Tools/TOL-122_Redis.json`
+- `LIBRARIES/LBS_003_Tools/TOL-123_Render.json`
+- `LIBRARIES/LBS_003_Tools/TOL-124_Replit.json`
+- `LIBRARIES/LBS_003_Tools/TOL-125_Revelo.json`
+- `LIBRARIES/LBS_003_Tools/TOL-126_Runner.json`
+- `LIBRARIES/LBS_003_Tools/TOL-127_RunPod.json`
+- `LIBRARIES/LBS_003_Tools/TOL-128_RunwayML.json`
+- `LIBRARIES/LBS_003_Tools/TOL-129_SearXNG.json`
+- `LIBRARIES/LBS_003_Tools/TOL-130_Seedream.json`
+- `LIBRARIES/LBS_003_Tools/TOL-131_Seedream_4_0.json`
+- `LIBRARIES/LBS_003_Tools/TOL-132_Smithery_ai.json`
+- `LIBRARIES/LBS_003_Tools/TOL-133_Sonnet_45.json`
+- `LIBRARIES/LBS_003_Tools/TOL-134_Sora.json`
+- `LIBRARIES/LBS_003_Tools/TOL-136_Stripe.json`
+- `LIBRARIES/LBS_003_Tools/TOL-138_Suno.json`
+- `LIBRARIES/LBS_003_Tools/TOL-139_Supabase.json`
+- `LIBRARIES/LBS_003_Tools/TOL-140_Synthesia.json`
+- `LIBRARIES/LBS_003_Tools/TOL-145_TurboScribe.json`
+- `LIBRARIES/LBS_003_Tools/TOL-147_UpWork.json`
+- `LIBRARIES/LBS_003_Tools/TOL-148_v0_dev.json`
+- `LIBRARIES/LBS_003_Tools/TOL-149_Valkey.json`
+- `LIBRARIES/LBS_003_Tools/TOL-150_VAYU.json`
+- `LIBRARIES/LBS_003_Tools/TOL-153_Vite.json`
+- `LIBRARIES/LBS_003_Tools/TOL-154_Vozo_AI.json`
+- `LIBRARIES/LBS_003_Tools/TOL-155_Wan_2_2.json`
+- `LIBRARIES/LBS_003_Tools/TOL-156_WHALESWING.json`
+- `LIBRARIES/LBS_003_Tools/TOL-157_Wispr_Flow.json`
+- `LIBRARIES/LBS_003_Tools/TOL-160_Zep.json`
+- `LIBRARIES/LBS_003_Tools/TOL-151_Vectal_Pro.json`
+- `LIBRARIES/LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/AI_Tools/Adobe_Firefly.json`
+- `LIBRARIES/LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/AI_Tools/Arcade_ai.json`
+- `LIBRARIES/LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/AI_Tools/Archon.json`
+- `LIBRARIES/LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/AI_Tools/Browserbase.json`
+- `LIBRARIES/LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/AI_Tools/Bubble_io.json`
+- `LIBRARIES/LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/AI_Tools/Claude.json`
+- `LIBRARIES/LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/AI_Tools/Claude_Desktop_App.json`
+- `LIBRARIES/LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/AI_Tools/Claude_Projects.json`
+- `LIBRARIES/LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/AI_Tools/ComfyUI.json`
+- `LIBRARIES/LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/AI_Tools/Cove_ai.json`
+- `LIBRARIES/LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/AI_Tools/Cursor.json`
+- `LIBRARIES/LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/AI_Tools/Custom_Prompt_Templates.json`
+- `LIBRARIES/LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/AI_Tools/Docling.json`
+- `LIBRARIES/LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/AI_Tools/Dribbble.json`
+- `LIBRARIES/LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/AI_Tools/ElevenLabs.json`
+- `LIBRARIES/LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/AI_Tools/Freepik.json`
+- `LIBRARIES/LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/AI_Tools/Gamma_app.json`
+- `LIBRARIES/LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/AI_Tools/Gemini.json`
+- `LIBRARIES/LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/AI_Tools/Gemini_File_Search.json`
+- `LIBRARIES/LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/AI_Tools/Google_AI_Studio.json`
+- `LIBRARIES/LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/AI_Tools/Google_Veo_3_1.json`
+- `LIBRARIES/LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/AI_Tools/Graphiti.json`
+- `LIBRARIES/LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/AI_Tools/Hailo.json`
+- `LIBRARIES/LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/AI_Tools/Hedra.json`
+- `LIBRARIES/LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/AI_Tools/InVideo_AI.json`
+- `LIBRARIES/LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/AI_Tools/Kimi_K2_Thinking.json`
+- `LIBRARIES/LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/AI_Tools/Kling.json`
+- `LIBRARIES/LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/AI_Tools/LangGraph.json`
+- `LIBRARIES/LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/AI_Tools/Langfuse.json`
+- `LIBRARIES/LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/AI_Tools/Lovable_dev.json`
+- `LIBRARIES/LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/AI_Tools/MCP_Builder_Skill.json`
+- `LIBRARIES/LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/AI_Tools/MCP_Servers.json`
+- `LIBRARIES/LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/AI_Tools/Maestra_ai.json`
+- `LIBRARIES/LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/AI_Tools/Manus_im.json`
+- `LIBRARIES/LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/AI_Tools/MiniMax.json`
+- `LIBRARIES/LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/AI_Tools/Notion_AI.json`
+- `LIBRARIES/LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/AI_Tools/Ollama.json`
+- `LIBRARIES/LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/AI_Tools/OpenRouter.json`
+- `LIBRARIES/LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/AI_Tools/Open_WebUI.json`
+- `LIBRARIES/LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/AI_Tools/Pollo_ai.json`
+- `LIBRARIES/LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/AI_Tools/Pydantic_AI.json`
+- `LIBRARIES/LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/AI_Tools/Replit.json`
+- `LIBRARIES/LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/AI_Tools/Runner.json`
+- `LIBRARIES/LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/AI_Tools/RunwayML.json`
+- `LIBRARIES/LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/AI_Tools/Sonnet_45.json`
+- `LIBRARIES/LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/AI_Tools/Suno.json`
+- `LIBRARIES/LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/AI_Tools/Vozo_AI.json`
+- `LIBRARIES/LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/AI_Tools/WHALESWING.json`
+- `LIBRARIES/LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/AI_Tools/Wan_2_2.json`
+- `LIBRARIES/LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/AI_Tools/Wispr_Flow.json`
+- `LIBRARIES/LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/AI_Tools/AI_Tools_Master_Listing.json`
+- `LIBRARIES/LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/AI_Tools/Antigravity.json`
+- `LIBRARIES/LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/AI_Tools/Browse_AI.json`
+- `LIBRARIES/LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/AI_Tools/Cdans.json`
+- `LIBRARIES/LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/AI_Tools/ChatGPT.json`
+- `LIBRARIES/LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/AI_Tools/CodeRabbit.json`
+- `LIBRARIES/LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/AI_Tools/Company_Voice_Guide.json`
+- `LIBRARIES/LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/AI_Tools/Crawl4AI.json`
+- `LIBRARIES/LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/AI_Tools/CrewAI.json`
+- `LIBRARIES/LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/AI_Tools/DeepSite.json`
+- `LIBRARIES/LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/AI_Tools/Dropbox_Dash.json`
+- `LIBRARIES/LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/AI_Tools/Envato_Elements.json`
+- `LIBRARIES/LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/AI_Tools/Flux.json`
+- `LIBRARIES/LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/AI_Tools/Flux_Kontext.json`
+- `LIBRARIES/LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/AI_Tools/GLIF.json`
+- `LIBRARIES/LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/AI_Tools/Genspark_ai.json`
+- `LIBRARIES/LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/AI_Tools/GitHub_Copilot.json`
+- `LIBRARIES/LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/AI_Tools/Grok.json`
+- `LIBRARIES/LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/AI_Tools/HeyGen.json`
+- `LIBRARIES/LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/AI_Tools/LLM_as_Judge_Evaluation_Framework.json`
+- `LIBRARIES/LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/AI_Tools/Leonardo_AI.json`
+- `LIBRARIES/LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/AI_Tools/Loom.json`
+- `LIBRARIES/LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/AI_Tools/Mem0.json`
+- `LIBRARIES/LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/AI_Tools/Midjourney.json`
+- `LIBRARIES/LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/AI_Tools/MovieGen.json`
+- `LIBRARIES/LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/AI_Tools/Nano_Banana.json`
+- `LIBRARIES/LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/AI_Tools/NotebookLM.json`
+- `LIBRARIES/LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/AI_Tools/OpenAI_GPT5.json`
+- `LIBRARIES/LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/AI_Tools/OpenArt.json`
+- `LIBRARIES/LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/AI_Tools/OpenArt_Photorealistic.json`
+- `LIBRARIES/LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/AI_Tools/Perplexity.json`
+- `LIBRARIES/LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/AI_Tools/README.md`
+- `LIBRARIES/LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/AI_Tools/Ragas.json`
+- `LIBRARIES/LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/AI_Tools/SearXNG.json`
+- `LIBRARIES/LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/AI_Tools/Seedream.json`
+- `LIBRARIES/LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/AI_Tools/Seedream_4_0.json`
+- `LIBRARIES/LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/AI_Tools/Smithery_ai.json`
+- `LIBRARIES/LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/AI_Tools/Sora.json`
+- `LIBRARIES/LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/AI_Tools/Synthesia.json`
+- `LIBRARIES/LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/AI_Tools/TurboScribe.json`
+- `LIBRARIES/LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/AI_Tools/VAYU.json`
+- `LIBRARIES/LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/AI_Tools/Vectal_Pro.json`
+- `LIBRARIES/LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/AI_Tools/Video generation.md`
+- `LIBRARIES/LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/AI_Tools/Vite.json`
+- `LIBRARIES/LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/AI_Tools/Zep.json`
+- `LIBRARIES/LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/AI_Tools/arXiv.json`
+- `LIBRARIES/LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/AI_Tools/awesome_copilot.json`
+- `LIBRARIES/LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/AI_Tools/v0_dev.json`
+- `LIBRARIES/LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/Authentication_Tools/Auth0.json`
+- `LIBRARIES/LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/Cloud_Platforms/Azure.json`
+- `LIBRARIES/LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/Cloud_Platforms/DigitalOcean.json`
+- `LIBRARIES/LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/Cloud_Platforms/Google_Cloud_Run.json`
+- `LIBRARIES/LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/Cloud_Platforms/Hugging_Face.json`
+- `LIBRARIES/LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/Cloud_Platforms/Model_Scope.json`
+- `LIBRARIES/LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/Cloud_Platforms/Render.json`
+- `LIBRARIES/LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/Cloud_Platforms/RunPod.json`
+- `LIBRARIES/LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/Data_Tools/Airscale.json`
+- `LIBRARIES/LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/Data_Tools/Anymailfinder.json`
+- `LIBRARIES/LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/Data_Tools/Bright_Data.json`
+- `LIBRARIES/LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/Data_Tools/Google_Sheets.json`
+- `LIBRARIES/LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/Databases/Neo4j.json`
+- `LIBRARIES/LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/Databases/Neon.json`
+- `LIBRARIES/LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/Databases/PGVector.json`
+- `LIBRARIES/LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/Databases/Postgres.json`
+- `LIBRARIES/LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/Databases/Redis.json`
+- `LIBRARIES/LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/Databases/Supabase.json`
+- `LIBRARIES/LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/Databases/Valkey.json`
+- `LIBRARIES/LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/File_Management/Dropbox.json`
+- `LIBRARIES/LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/Freelance_Platforms/99designs.json`
+- `LIBRARIES/LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/Freelance_Platforms/CloudTask.json`
+- `LIBRARIES/LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/Freelance_Platforms/Fiverr.json`
+- `LIBRARIES/LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/Freelance_Platforms/MarketerHire.json`
+- `LIBRARIES/LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/Freelance_Platforms/Mayple.json`
+- `LIBRARIES/LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/Freelance_Platforms/README.md`
+- `LIBRARIES/LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/Freelance_Platforms/Revelo.json`
+- `LIBRARIES/LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/Freelance_Platforms/UpWork.json`
+- `LIBRARIES/LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/Developer_Tools/Antigravity_IDE.json`
+- `LIBRARIES/LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/Infrastructure_Tools/Caddy.json`
+- `LIBRARIES/LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/Developer_Platforms/GitHub.json`
+- `LIBRARIES/LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/Integration_Tools/CRM_MCP_Connector.json`
+- `LIBRARIES/LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/Integration_Tools/Gmail_MCP_Connector.json`
+- `LIBRARIES/LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/Integration_Tools/Google_Calendar_MCP_Connector.json`
+- `LIBRARIES/LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/Security_Tools/Dropbox_Protect_and_Control.json`
+- `LIBRARIES/LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/Methodologies/Product_Management_Decision_Framework.json`
+- `LIBRARIES/LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/Publishing_Platforms/Medium.json`
+- `LIBRARIES/LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/Web_Tools/Apify.json`
+- `LIBRARIES/LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/Web_Tools/Brave_Search.json`
+- `LIBRARIES/LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/Web_Tools/Firecrawl.json`
+- `LIBRARIES/LBS_003_Tools/_ARCHIVE/pre_migration_2025-11-26/Payment_Tools/Stripe.json`
+- `PROMPTS/Core/MAIN_PROMPT_v6/CHANGELOG_Department_Operations_v6.0_to_v6.1.md`
+- `LIBRARIES/LBS_003_Tools/RESTRUCTURE_COMPLETION_REPORT.md`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Workflows/TAXONOMY_COMPLIANCE_README.md`
+- `LIBRARIES/LBS_003_Tools/fix_duplicates_and_csv.py`
+- `PROMPTS/Core/MAIN_PROMPT_v6/05_File_Operations.md`
+- `LIBRARIES/LBS_003_Tools/_ARCHIVE/removed_duplicates_2025-11-26/TOL-020_Browse_AI.json`
+- `LIBRARIES/LBS_003_Tools/_ARCHIVE/removed_duplicates_2025-11-26/TOL-069_Google_Sheets.json`
+- `PROMPTS/Core/MAIN_PROMPT_v6/CHANGELOG_File_Operations_v6.1_to_v6.2.md`
+- `PROMPTS/cleanup_old_folders.py`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-395_REVOKE_exposed_GitHub_token_immediately.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-396_Generate_new_GitHub_token.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-397_Audit_all_files_for_exposed_credentials.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-398_Implement_secret_scanning_in_repos.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-399_Conduct_deep_research_on_Desert_Greener.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-400_Prepare_pre-meeting_research_template.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-401_Schedule_WhatsApp_call_with_Wilhelm.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-402_Fix_email_personalization_-_add_LinkedIn_context.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-403_Create_email_template_with_conversation_references.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-404_Implement_deep_research_before_email_sending.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-405_Add_clear_next-step_instructions_for_clients.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-406_Find_substitute_person_for_Vamos_project.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-407_Talk_to_Dasha_about_retention.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-408_Identify_issues_causing_quit_desire.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-409_Create_retention_strategy.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-410_Retain_Vamos_employee_(2_years_tenure).json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-411_Resolve_accounting_payment_issues.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-412_Document_retention_process.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-413_Communicate_final_decision_to_MASEK_client.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-414_Document_client_termination_policy.json`
+- `PROMPTS/Core/MAIN_PROMPT_v6/06_Prompt_Reference.md`
+- `PROMPTS/cleanup_remaining_folders.bat`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Milestone_Templates/MLT-030_Develop_USER_Entities.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Milestone_Templates/MLT-031_Prospects_Architecture_Improvement.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Milestone_Templates/MLT-032_Populate_Business_Entity_from_Sales.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Milestone_Templates/MLT-033_Find_historical_search_queries_file_on_G.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Milestone_Templates/MLT-034_Document_scraping_system_(20%_checkpoint.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Milestone_Templates/MLT-035_Create_Job_Sites_folder_in_ENTITIES_ACCO.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Milestone_Templates/MLT-036_Deploy_v1.0_to_Vercel.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Milestone_Templates/MLT-037_Teach_Vilhelm_video_parsing_workflow.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Milestone_Templates/MLT-038_Document_current_AI_tools_tracking_syste.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Milestone_Templates/MLT-039_Design_single_task_page_layout.json`
+- `LIBRARIES/LBS_003_Tools/fix_missing_names.py`
+- `LIBRARIES/LBS_003_Tools/TOL-012_arXiv.json`
+- `LIBRARIES/LBS_003_Tools/TOL-016_Behance.json`
+- `LIBRARIES/LBS_003_Tools/TOL-011_ArtStation.json`
+- `LIBRARIES/LBS_003_Tools/TOL-003_AI_Tools_Master_Listing.json`
+- `LIBRARIES/LBS_003_Tools/TOL-014_awesome_copilot.json`
+- `LIBRARIES/LBS_003_Tools/TOL-032_Company_Voice_Guide.json`
+- `LIBRARIES/LBS_003_Tools/TOL-041_DeviantArt.json`
+- `LIBRARIES/LBS_003_Tools/TOL-061_GitHub.json`
+- `LIBRARIES/LBS_003_Tools/TOL-051_Facebook.json`
+- `LIBRARIES/LBS_003_Tools/TOL-048_Dropbox_Protect_and_Control.json`
+- `LIBRARIES/LBS_003_Tools/TOL-043_Discord.json`
+- `LIBRARIES/LBS_003_Tools/TOL-047_Dropbox_Dash.json`
+- `LIBRARIES/LBS_003_Tools/TOL-040_Dev_to.json`
+- `LIBRARIES/LBS_003_Tools/TOL-038_Custom_Prompt_Templates.json`
+- `LIBRARIES/LBS_003_Tools/TOL-084_LinkedIn.json`
+- `LIBRARIES/LBS_003_Tools/TOL-074_Hashnode.json`
+- `LIBRARIES/LBS_003_Tools/TOL-095_Medium.json`
+- `LIBRARIES/LBS_003_Tools/TOL-114_Pinterest.json`
+- `LIBRARIES/LBS_003_Tools/TOL-088_Lunchclub.json`
+- `LIBRARIES/LBS_003_Tools/TOL-094_MCP_Servers.json`
+- `LIBRARIES/LBS_003_Tools/TOL-085_LLM_as_Judge_Evaluation_Framework.json`
+- `LIBRARIES/LBS_003_Tools/TOL-119_Quora.json`
+- `LIBRARIES/LBS_003_Tools/TOL-117_Product_Management_Decision_Framework.json`
+- `LIBRARIES/LBS_003_Tools/TOL-152_Vimeo.json`
+- `LIBRARIES/LBS_003_Tools/TOL-141_Telegram.json`
+- `LIBRARIES/LBS_003_Tools/TOL-142_The_Dots.json`
+- `LIBRARIES/LBS_003_Tools/TOL-143_Threads.json`
+- `LIBRARIES/LBS_003_Tools/TOL-144_TikTok.json`
+- `LIBRARIES/LBS_003_Tools/TOL-146_Twitter.json`
+- `LIBRARIES/LBS_003_Tools/TOL-159_YouTube.json`
+- `LIBRARIES/LBS_003_Tools/TOL-158_Xing.json`
+- `LIBRARIES/LBS_003_Tools/TOL-121_Reddit.json`
+- `LIBRARIES/LBS_003_Tools/TOL-137_Substack.json`
+- `LIBRARIES/LBS_003_Tools/TOL-135_Stack_Overflow.json`
+- `LIBRARIES/LBS_003_Tools/Tools_Master_Inventory.csv`
+- `PROMPTS/Core/MAIN_PROMPT_v6/07_Quality_Validation.md`
+- `PROMPTS/FINAL_STATUS.md`
+- `PROMPTS/Core/MAIN_PROMPT_v6/08_External_Modules.md`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Project_Templates/PRT-005_Develop_USER_Entities.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Project_Templates/PRT-009_Prospects_Architecture_Improvement.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Project_Templates/PRT-010_Populate_Business_Entity_from_Sales.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Project_Templates/PRT-011_Find_historical_search_queries_file_on_G.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Project_Templates/PRT-012_Document_scraping_system_(20%_checkpoint.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Project_Templates/PRT-013_Create_Job_Sites_folder_in_ENTITIES_ACCO.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Project_Templates/PRT-014_Deploy_v1.0_to_Vercel.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Project_Templates/PRT-015_Teach_Vilhelm_video_parsing_workflow.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Project_Templates/PRT-016_Document_current_AI_tools_tracking_syste.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Project_Templates/PRT-017_Design_single_task_page_layout.json`
+- `LIBRARIES/LBS_003_Tools/FINAL_RESTRUCTURE_SUMMARY.md`
+- `PROMPTS/Core/MAIN_PROMPT_v6/PROGRESS_TRACKING.md`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Template_Cross_Reference_Map.json`
+- `PROMPTS/Core/MAIN_PROMPT_v7/01_Core_Workflow.md`
+- `PROMPTS/Core/MAIN_PROMPT_v7/02_Entity_Reference.md`
+- `PROMPTS/Core/MAIN_PROMPT_v7/03_Department_Operations.md`
+- `PROMPTS/Core/MAIN_PROMPT_v7/04_Running_Projects.md`
+- `PROMPTS/Core/MAIN_PROMPT_v7/05_Quick_Reference.md`
+- `PROMPTS/Core/MAIN_PROMPT_v7/README.md`
+- `PROMPTS/CLEANUP_VERIFICATION.md`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/INTEGRATION_README.md`
+- `PROMPTS/Core/MAIN_PROMPT_v7/CHANGELOG_v6_to_v7.md`
+- `PROMPTS/fix_restructure.py`
+- `PROMPTS/01_employee_directory_guidance.md`
+- `PROMPTS/02_project_directory_guidance.md`
+- `PROMPTS/03_vocabulary_standards.md`
+- `PROMPTS/04_task_object_framework.md`
+- `PROMPTS/05_21_section_framework.md`
+- `PROMPTS/06_department_specific_patterns.md`
+- `PROMPTS/AutoGenerate_Weekly_Plans_Prompt_1.md`
+- `PROMPTS/BUSINESSES_IMPORT_PROMPT_1.md`
+- `PROMPTS/CORRECTIONS_REQUIRED.md`
+- `PROMPTS/Entity_Integration_Prompts_1.md`
+- `PROMPTS/MAIN_PROMPT_v4_vs_v6_Comparison.md`
+- `PROMPTS/MAIN_PROMPT_v5_Modular_vs_v6_UltraCondensed_Comparison.md`
+- `PROMPTS/MIGRATION_LOG.md`
+- `PROMPTS/Mascot_Life_Environment_Weekly_Overview_Prompt.md`
+- `PROMPTS/Mascot_Story_Scenarios_Guide.md`
+- `PROMPTS/Mascot_Story_Scenarios_Quick_Reference.md`
+- `PROMPTS/ENTITY_MAPPING_GUIDE_v2.1.md`
+- `PROMPTS/PMT-004_Video_Transcription_v4.1_1.md`
+- `PROMPTS/PMT-005_Video_Naming_Alternatives_1.md`
+- `PROMPTS/PMT-006_Video_Analysis_1.md`
+- `PROMPTS/PMT-007_Objects_Library_Extraction_1.md`
+- `PROMPTS/PMT-008_Video_Analysis_Improvements_1.md`
+- `PROMPTS/PMT-009_Taxonomy_Integration_1.md`
+- `PROMPTS/PMT-010_Complete_Workflow_Full_1.md`
+- `PROMPTS/PMT-011_Complete_Workflow_Short_1.md`
+- `PROMPTS/PMT-012_Transcript_Processing_Workflow_1.md`
+- `PROMPTS/PMT-014_Build_Taxonomy_ID_System.md`
+- `PROMPTS/PMT-015_Optimize_Video_Transcription.md`
+- `PROMPTS/PMT-016_Build_LIBRARIES_Taxonomy.md`
+- `PROMPTS/PMT-017_Initial_ID_List.md`
+- `PROMPTS/PMT-018_Employee_Profile_Schema.md`
+- `PROMPTS/PMT-019_Restructure_Employee_Profile.md`
+- `PROMPTS/PMT-020_Taxonomy_Entities_Collection.md`
+- `PROMPTS/PMT-021_Ecosystem_Analysis_Overview.md`
+- `PROMPTS/PMT-022_Data_Inventory.md`
+- `PROMPTS/PMT-023_Schema_Validation.md`
+- `PROMPTS/PMT-024_Content_Analysis.md`
+- `PROMPTS/PMT-025_Relationship_Validation.md`
+- `PROMPTS/PMT-026_Synthesis_Recommendations.md`
+- `PROMPTS/PMT-027_Data_Consistency.md`
+- `PROMPTS/PMT-028_Folder_Reorganization.md`
+- `PROMPTS/PMT-029_System_Health_Review.md`
+- `PROMPTS/PMT-030_Architecture_Learning_Guide.md`
+- `PROMPTS/PMT-031_Architecture_Merge_Planning.md`
+- `PROMPTS/PMT-033_AI_Daily_Report_v2.1.md`
+- `PROMPTS/PMT-034_Content_Daily_Report_v2.1.md`
+- `PROMPTS/PMT-035_Design_Daily_Report_v2.1.md`
+- `PROMPTS/PMT-036_Dev_Daily_Report_v2.1.md`
+- `PROMPTS/PMT-038_HR_Daily_Report_v2.1.md`
+- `PROMPTS/PMT-039_LG_Daily_Report_v2.1.md`
+- `PROMPTS/PMT-040_Marketing_Daily_Report_v2.1.md`
+- `PROMPTS/PMT-041_Sales_Daily_Report_v2.1.md`
+- `PROMPTS/PMT-042_SMM_Daily_Report_v2.1.md`
+- `PROMPTS/PMT-043_Video_Daily_Report_v2.1.md`
+- `PROMPTS/PMT-053_CV_Parser_v1.md`
+- `PROMPTS/PMT-058_Call_Organizer_v4.md`
+- `PROMPTS/PMT-032_Daily_Report_Collection_v2.1.md`
+- `PROMPTS/PMT-037_Finance_Daily_Report_v2.1.md`
+- `PROMPTS/PMT-054_CRM_Data_Entry.md`
+- `PROMPTS/PMT-056_Interview_Conductor.md`
+- `PROMPTS/PMT-057_Job_Sites_Research.md`
+- `PROMPTS/PMT-059_Document_Finished_Project.md`
+- `PROMPTS/PMT-060_Products_Integration.md`
+- `PROMPTS/PMT-061_Task_Manager_Entity_Filling.md`
+- `PROMPTS/PMT-062_Tools_Collection_Matching.md`
+- `PROMPTS/PMT-063_Account_Creation_Validation.md`
+- `PROMPTS/PMT-064_Account_Security_Audit.md`
+- `PROMPTS/PMT-065_Subscription_Renewal_Alert.md`
+- `PROMPTS/PMT-066_Script_Copy_Dailies.md`
+- `PROMPTS/PMT-067_Rules_Automation.md`
+- `PROMPTS/PMT-068_Version_Control_Automation.md`
+- `PROMPTS/PMT-069_Version_Control_Main.md`
+- `PROMPTS/PMT-070_Daily_Report_Entity_Mapping_v2.1.md`
+- `PROMPTS/PMT-070_Entity_Identification_v1.md`
+- `PROMPTS/PMT-070_Entity_Identification_v1_3.md`
+- `PROMPTS/PMT-070_Entity_Identification_v2_0.md`
+- `PROMPTS/PMT-070_Phase_1_Action_Tagging.md`
+- `PROMPTS/PMT-070_Phase_2_Object_Tagging.md`
+- `PROMPTS/PMT-070_Phase_3_Data_Structuring.md`
+- `PROMPTS/PMT-070_Phase_4_Task_Hierarchy.md`
+- `PROMPTS/PMT-071_Actions_Library_Extraction_1.md`
+- `PROMPTS/PMT-072_PROMPTS_Critical_Fixes.md`
+- `PROMPTS/PMT-074_Data_Architect_Master.md`
+- `PROMPTS/PMT-075_Data_Integrity_Manager.md`
+- `PROMPTS/PMT-076_Import_Validation_Pipeline.md`
+- `PROMPTS/PMT-077_Employee_Activity_Analyzer.md`
+- `PROMPTS/PMT-078_Cross_Entity_Search.md`
+- `PROMPTS/PMT-079_Prompt_Taxonomy_Sync.md`
+- `PROMPTS/PMT-080_Token_Optimization_Analyzer.md`
+- `PROMPTS/PMT-081_Integrate_Personal_Prompts_1.md`
+- `PROMPTS/PMT-084_Brochure_Design_Generation.md`
+- `PROMPTS/PMT-086_Game_Academy_Cover_Redesign.md`
+- `PROMPTS/PMT-087_Daily_Report_Processing_Workflow.md`
+- `PROMPTS/PMT-088_Subscription_Announcement_Creation.md`
+- `PROMPTS/PMT-090_YouTube_Video_Processing_1.md`
+- `PROMPTS/PMT-091_Social_Media_Graphics_Creation.md`
+- `PROMPTS/PMT-092_Daily_Report_Processing_v2.md`
+- `PROMPTS/PROMPTS_Folder_ID_Registry.md`
+- `PROMPTS/PROMPTS_Hierarchy_Tree.md`
+- `PROMPTS/PROMPTS_ISO_Code_Registry.md`
+- `PROMPTS/Prompt_Locations_in_Nov25.md`
+- `PROMPTS/Prompts_ISO_Code_Registry_1.md`
+- `PROMPTS/REPORT_OUTPUT_SCHEMA_v2.1.md`
+- `PROMPTS/REPORT_OUTPUT_SCHEMA_v2.1_REVISED.md`
+- `PROMPTS/RESEARCHES_Entity_Integration_Prompt_1.md`
+- `PROMPTS/TASK_MANAGERS_Import_Guide_Master.md`
+- `PROMPTS/TAXONOMY_AUDIT_REPORT_2025-11-23_1.md`
+- `PROMPTS/Week4_AutoPlanning_Prompt.md`
+- `PROMPTS/YouTube_Video_Tutorial_Search_Prompts_Consolidated_1.md`
+- `PROMPTS/RESTRUCTURE_FINAL.md`
+- `PROMPTS/Core/MAIN_PROMPT_v7.md`
+- `PROMPTS/simplify_master_csv.py`
+- `PROMPTS/PROMPTS_Master_List_BACKUP_FULL.csv`
+- `PROMPTS/PROMPTS_Master_List_OLD.csv`
+- `PROMPTS/MASTER_CSV_SIMPLIFIED.md`
+
+### Modified Files
+
+- `DAILIES/PLANS/Week_3/PLAN_Employee_Dailies_Processing_System.md`
+- `DAILIES/PLANS/Week_3/PROGRESS_Summary.md`
+- `TALENTS/Employees/profiles/Left/LG/Profile Lead generator Joy Edem Asuquo.md`
+- `TALENTS/Employees/profiles/Full_Project___Part_Time/Design/Profile Graphic Designer, Web Designer Kucherenko Iuliia.md`
+- `TALENTS/Employees/profiles/Project/Design/Profile Ui Ux Designer Mazyickevych Maryna.md`
+- `TALENTS/Employees/profiles/Project/Design/Profile Ui Ux Designer Bykova Anastasiia.md`
+- `TALENTS/Employees/profiles/Available/LG/Profile Lead generator, Prompt engineer Archibong Isaac.md`
+- `TALENTS/Employees/profiles/Available/LG/Profile Lead generator, Translator Bindiak Dana.md`
+- `TALENTS/Employees/profiles/Work/AI/Profile Project manager, Lead generator Artemchuk Nikolay.md`
+- `TALENTS/Employees/profiles/Project/Design/Profile Illustrator, Graphic Designer, Project manager Hlushko Mariia.md`
+- `TALENTS/Employees/profiles/Fired/Design/Profile UI UX designer, Graphic Designer Chobotar Yuliia.md`
+- `TALENTS/Employees/profiles/Project/Design/Profile Graphic Designer Rotar Olga.md`
+- `TALENTS/Employees/profiles/Part_Project___Part_Time/Design/Profile UI UX designer Bogun Polina.md`
+- `TALENTS/Employees/profiles/Work/Dev/Profile Back End Developer Kizilova Olha.md`
+- `TALENTS/Employees/profiles/Available/Dev/Profile Front End Developer Klimenko Yaroslav.md`
+- `TALENTS/Employees/profiles/Available/Dev/Profile Front End Developer Artem Skichko.md`
+- `TALENTS/Employees/profiles/Part_Project___Part_Time/LG/Profile Lead generator Peneva Plamena.md`
+- `TALENTS/Employees/profiles/Available/LG/Profile Lead generator Cynthia Aninwezi.md`
+- `TALENTS/Employees/profiles/Available/LG/Profile Lead generator Joy Edem Asuquo.md`
+- `TALENTS/Employees/profiles/Project/LG/Profile Lead generator Kachailo Anna.md`
+- `TALENTS/Employees/profiles/Work/LG/Profile Lead generator, Translator, Sales Manager Burda Anna.md`
+- `TALENTS/Employees/profiles/Project/LG/Profile Lead Generator Kamenskaya Alina.md`
+- `TALENTS/Employees/profiles/Work/LG/Profile Lead generator, Translator, Personal Assistant Shkinder Kseniia.md`
+- `TALENTS/Employees/profiles/Available/LG/Profile Lead Generator Cynthia Chinemerem Uzoh.md`
+- `TALENTS/Employees/profiles/Part_Project___Part_Project/Design/Profile Graphic designer Vereteno Marta.md`
+- `TALENTS/Employees/profiles/Available/LG/Profile Lead generator Alakbarova Ulviyya Javid.md`
+- `TALENTS/Employees/profiles/Project/Dev/Profile Full Stack Developer Lychagin Roman.md`
+- `TALENTS/Employees/profiles/Work/Dev/Profile Full Stack Developer Danylenko Liliia.md`
+- `TALENTS/Employees/profiles/Available/Design/Profile UI UX designer Safonova Eleonora.md`
+- `TALENTS/Employees/profiles/Project/Design/Profile UI UX designer Yarmachenko Kristina.md`
+- `TALENTS/Employees/profiles/Project/Design/Profile UI UX designer Syrotiuk Mariia.md`
+- `TALENTS/Employees/profiles/Work/Video/Profile Video Editor, Graphic Designer Podolskyi Sviatoslav.md`
+- `TALENTS/Employees/profiles/Pending/Design/Profile Ui Ux Designer Birook Melese.md`
+- `TALENTS/Employees/profiles/Project/Dev/Profile Front End Developer Okunievskyi Volodymyr.md`
+- `TALENTS/Employees/profiles/Available/AI/Profile Prompt engineer Perederii Vladislav.md`
+- `TALENTS/Employees/profiles/Project/Design/Profile Graphic Designer Litvinova Natalia.md`
+- `TALENTS/Employees/profiles/Project/Design/Profile Graphic Designer Potapchuk Anastasiya.md`
+- `TALENTS/Employees/profiles/Available/LG/Profile Chat operator Aledare Adedoiin Bridjet.md`
+- `TALENTS/Employees/profiles/Available/Dev/Profile Full Stack Developer Azar Imranov.md`
+- `TALENTS/Employees/profiles/Project/LG/Profile Employee Olikh Victoriia.md`
+- `TALENTS/Employees/profiles/Project/LG/Profile Lead generator Hryhorchuk Vasyl.md`
+- `TALENTS/Employees/profiles/Available/Design/Profile Illustrator, Graphic Designer Skrypkar Vilhelm.md`
+- `TALENTS/Employees/profiles/Project/LG/Profile Lead Generator Petrova Evelina.md`
+- `TALENTS/Employees/profiles/Available/LG/Profile Lead generator, Chat operator Davlatmamadova Firuza.md`
+- `TALENTS/Employees/profiles/Project/LG/Profile Lead Generator Berdychevska Anastasiia.md`
+- `TALENTS/Employees/profiles/Available/LG/Profile Lead generator, Personal Assistant Hanan Zaheur.md`
+- `TALENTS/Employees/profiles/Project/LG/Profile Sales Manager, Personal Assistant Iskandarova Anush.md`
+- `TALENTS/Employees/profiles/Project/LG/Profile Lead generator Krasnojon Darina.md`
+- `TALENTS/Employees/profiles/Pending/LG/Profile Lead Generator Tsyupko Myroslava.md`
+- `TALENTS/Employees/profiles/Project/Design/Profile Graphic designer Teselko Anastasiya.md`
+- `TALENTS/Employees/profiles/Available/Design/Profile UI UX designer Shymkevych Iryna.md`
+- `TALENTS/Employees/profiles/Project/Design/Profile UI UX designer Shelep Olha.md`
+- `TALENTS/Employees/profiles/Project/Design/Profile UI UX designer Shtepa Yuliia.md`
+- `TALENTS/Employees/profiles/COPY_SUMMARY.md`
+- `TALENTS/Employees/profiles/ORGANIZATION_SUMMARY.md`
+- `TALENTS/Employees/profiles/STATUS_ORGANIZATION_COMPLETE.md`
+- `TALENTS/Employees/profiles/FINAL_ORGANIZATION.md`
+- `LIBRARIES/LBS_006_Departments/Master/departments.json`
+- `LIBRARIES/Taxonomy/Libraries_Master_List_2025-11-19.csv`
+- `LIBRARIES/Taxonomy/Libraries_Master_List_2025-12-26.csv`
+- `PROMPTS/Core/PMT-073_Create_Main_Prompt_v6.md`
+- `LIBRARIES/LBS_FOLDER_MASTER.md`
+- `PROMPTS/Core/MAIN_PROMPT_v6.md`
+- `PROMPTS/Core/MAIN_PROMPT_v6_backUp.md`
+- `DAILIES/LOG/Week_3/Daily_Reports_v2.1_Implementation_Session_Nov19_2025.md`
+- `DAILIES/LOG/Week_3/2025-11-22_Daily_Reports_Generation_Session.md`
+- `DAILIES/PLANS/Week_3/Entity_Import_Schema_Restructuring_2025-11-21.md`
+- `DAILIES/LOG/Week_3/2025-11-22_Database_Architecture_Design_Session.md`
+- `DAILIES/LOG/Week_3/Daily_Reports_v2.1_Implementation_FINAL_Nov19_2025.md`
+- `DAILIES/PLANS/Week_3/Research_System_Activation/PHASE_3_Prove_Cycling.md`
+- `DAILIES/PLANS/Week_3/Research_System_Activation/PHASE_1_Activate_Engine.md`
+- `DAILIES/IMPORTS/Week_3/2025-11-20/Extraction/Tool_References.csv`
+- `DAILIES/IMPORTS/Week_3/2025-11-20/Extraction/Responsibilities_New.csv`
+- `DAILIES/IMPORTS/Week_3/2025-11-20/IMPORT_SUMMARY_Nov20_Entities.md`
+- `DAILIES/IMPORTS/Week_3/2025-11-20/Extraction/Tool_References.md`
+- `DAILIES/IMPORTS/Week_3/2025-11-20/Extraction/Responsibilities_New.md`
+- `DAILIES/IMPORTS/Week_3/2025-11-20/Extraction/Entities_Extracted.md`
+- `DAILIES/IMPORTS/Week_3/2025-11-20/FINAL_IMPORT_SUMMARY_Nov20.md`
+- `PROMPTS/PMT-009_Taxonomy_Integration.md`
+- `LIBRARIES/Archive/ID_AND_NAME_CONVENTIONS.md`
+- `PROMPTS/README.md`
+- `PROMPTS/PMT-081_Integrate_Personal_Prompts.md`
+- `PROMPTS/PMT-004_Video_Transcription_v4.1.md`
+- `PROMPTS/PMT-007_Objects_Library_Extraction.md`
+- `PROMPTS/TAXONOMY_AUDIT_REPORT_2025-11-23.md`
+- `TAXONOMY/TAX-003_Video_Processing/PMT-009_Taxonomy_Integration.md`
+- `RESEARCHES/VIDEO_RESEARCHES/03_ANALYSIS/Gap_Analysis/Video_022_Gap_Analysis.md`
+- `TASK_MANAGERS/TSM-003_Task_Templates/TST-081_Design_Financial_Automation_Workflow.json`
+- `TASK_MANAGERS/TSM-007_GUIDES/Database_Architecture_Preview/SCHEMA_OVERVIEW.md`
+- `TASK_MANAGERS/TSM-007_GUIDES/Database_Architecture_Preview/TABLE_guides.md`
+- `TASK_MANAGERS/RESEARCHES/03_ANALYSIS/Gap_Analysis/Video_022_Gap_Analysis.md`
+- `TASK_MANAGERS/TSM-007_GUIDES/Cross_Reference_Maps/XREF_Guides_to_Templates_Matrix.md`
+- `TASK_MANAGERS/TSM-007_GUIDES/Cross_Reference_Maps/XREF_Department_Guide_Coverage.md`
+- `TASK_MANAGERS/RESEARCHES/03_ANALYSIS/Extractions/Video_022_Phase3_Analysis.md`
+- `TASK_MANAGERS/RESEARCHES/REPORTS/TAXONOMY_CONSISTENCY_REPORT.md`
+- `TASK_MANAGERS/RESEARCHES/scripts/check_prompts_compliance.py`
+- `ENTITIES_MASTER_LIST.csv`
+- `PROMPTS/_ARCHIVE/README.md`
+- `PROMPTS/PROMPTS_Master_List.csv`
+
+### Deleted Files
+
+- `LIBRARIES/LBS_003_Tools/AI_Tools/ElevenLabs.json`
+- `PROMPTS/SYSTEM/Taxonomy/PMT-014_Build_Taxonomy_ID_System.md`
+- `DAILIES/REPORTS/Reports_week 3/System_Analysis/Milestone_03_Content_Analysis/milestone_03_summary.json`
+- `DAILIES/REPORTS/Reports_week 3/2025-11-21/Departments/HR_Department_Report_2025-11-21.md`
+- `DAILIES/REPORTS/Reports_week 3/2025-11-20/Executive Report/09_Foundational_Systems_W1.md`
+- `LIBRARIES/LBS_003_Tools/AI_Tools/Wispr_Flow.json`
+- `DAILIES/REPORTS/Week_4/ALL_TASKS_CONSOLIDATED_WITH_NOV20.csv`
+- `LIBRARIES/LBS_003_Tools/Cloud_Platforms/RunPod.json`
+- `PROMPTS/DEPARTMENTS/Daily_Reports/ENTITY_MAPPING_GUIDE_v2.1.md`
+- `DAILIES/REPORTS/Week_4/Delegation/Team_Assignment_Matrix.csv`
+- `DAILIES/REPORTS/Reports_week 3/2025-11-20/Departments/Video_Department_Report_2025-11-20.md`
+- `PROMPTS/SYSTEM/System_Analysis/PMT-023_Schema_Validation.md`
+- `LIBRARIES/LBS_003_Tools/Integration_Tools/CRM_MCP_Connector.json`
+- `LIBRARIES/LBS_003_Tools/Databases/Valkey.json`
+- `DAILIES/REPORTS/Reports_week 3/System_Analysis/milestone_03_terminology.py`
+- `DAILIES/REPORTS/Reports_week 3/System_Analysis/REP-007_Cross_Reference_Validation.md`
+- `PROMPTS/SYSTEM/PMT-072_PROMPTS_Critical_Fixes.md`
+- `LIBRARIES/LBS_003_Tools/Freelance_Platforms/Revelo.json`
+- `DAILIES/REPORTS/Reports_week 3/2025-11-21/Niko_November_21_Strategic_Session.md`
+- `LIBRARIES/LBS_003_Tools/AI_Tools/Midjourney.json`
+- `LIBRARIES/LBS_003_Tools/AI_Tools/Crawl4AI.json`
+- `LIBRARIES/LBS_003_Tools/AI_Tools/Smithery_ai.json`
+- `PROMPTS/SYSTEM/System_Analysis/PMT-024_Content_Analysis.md`
+- `PROMPTS/DEPARTMENTS/Daily_Reports/_ARCHIVE/IMPLEMENTATION_PLAN_v2_Upgrade.md`
+- `DAILIES/REPORTS/Reports_week 3/Niko Reports/01_Framework_Implementation.md`
+- `DAILIES/REPORTS/Reports_week 3/2025-11-20/Executive Report/05_Performance_Management.md`
+- `DAILIES/REPORTS/Reports_week 3/ARCHIVE/Videos/Reports/Video_002_Extraction_Inventory.md`
+- `DAILIES/REPORTS/Reports_week 3/2025-11-21/Departments/Sales_Department_Report_2025-11-21.md`
+- `DAILIES/REPORTS/Reports_week 3/2025-11-21/MASTER_REPORT_2025-11-21.md`
+- `DAILIES/REPORTS/Reports_week 3/2025-11-20/Departments/Finance_Department_Report_2025-11-20.md`
+- `PROMPTS/WORKFLOWS/Account_Management/PMT-064_Account_Security_Audit.md`
+- `PROMPTS/DEPARTMENTS/Daily_Reports/Department_Prompts/_ARCHIVE/PMT-033_AI_Daily_Report_v1.0.md`
+- `"DAILIES/IMPORTS/Week_3/2025-11-22_Sales_Import/archive_2025-11-22/Prospects/BUSINESSES_Prospect_Markew\303\244rn_Studios_BUS-2025-021.json"`
+- `DAILIES/REPORTS/Reports_week 3/TAXONOMY.md`
+- `PROMPTS/DEPARTMENTS/HR_Operations/PMT-056_Interview_Conductor.md`
+- `LIBRARIES/LBS_003_Tools/AI_Tools/Seedream_4_0.json`
+- `DAILIES/REPORTS/Reports_week 3/2025-11-20/Departments_Processed_TM/PROCESSING_SUMMARY.md`
+- `DAILIES/REPORTS/Reports_week 3/2025-11-21/Departments/Video_Department_Report_2025-11-21.md`
+- `PROMPTS/SYSTEM/Automation 2/README.md`
+- `PROMPTS/Automation/script_copy_dailies.py`
+- `DAILIES/REPORTS/Reports_week 3/Weekly_Analysis/README.md`
+- `DAILIES/REPORTS/Week_4/Development_Tasks_Week4.csv`
+- `"DAILIES/IMPORTS/Week_3/2025-11-22_Sales_Import/archive_2025-11-22/Prospects/BUSINESSES_Prospect_Electr\303\243o_BUS-2025-018.json"`
+- `PROMPTS/DEPARTMENTS/Daily_Reports/README.md`
+- `PROMPTS/SYSTEM/DATA_ARCHITECTURE/PMT-079_Prompt_Taxonomy_Sync.md`
+- `DAILIES/REPORTS/Week_4/Executive_Strategic/Executive_Categories.csv`
+- `DAILIES/REPORTS/Reports_week 3/RESEARCH_INDEX.json`
+- `LIBRARIES/LBS_003_Tools/Data_Tools/Bright_Data.json`
+- `DAILIES/REPORTS/Week_4/Executive_Strategic/Executive_Milestones.csv`
+- `LIBRARIES/LBS_003_Tools/TOL-AUT-007_Browse_AI.json`
+- `LIBRARIES/LBS_003_Tools/AI_Tools/Bubble_io.json`
+- `PROMPTS/SYSTEM/DATA_ARCHITECTURE/PMT-075_Data_Integrity_Manager.md`
+- `DAILIES/REPORTS/Reports_week 3/Niko Reports/13_September_Early_Foundations.md`
+- `DAILIES/REPORTS/Reports_week 3/Personal_Prompts_Integration_Report_2025-11-21.md`
+- `LIBRARIES/LBS_003_Tools/Freelance_Platforms/Fiverr.json`
+- `DAILIES/REPORTS/Reports_week 3/System_Analysis/Milestone_02_Schema_Naming/version_issues.json`
+- `LIBRARIES/LBS_003_Tools/TOL-BIZ-004_Google_Sheets.json`
+- `PROMPTS/DEPARTMENTS/Daily_Reports/CORRECTIONS_REQUIRED.md`
+- `PROMPTS/CREATIVES/PMT-088_Subscription_Announcement_Creation.md`
+- `PROMPTS/DEPARTMENTS/Daily_Reports/Constructor/docs/05_21_section_framework.md`
+- `DAILIES/REPORTS/Reports_week 3/2025-11-21/Processing_Summary_2025-11-21.md`
+- `DAILIES/REPORTS/Reports_week 3/2025-11-20/MASTER_REPORT_2025-11-20.md`
+- `DAILIES/REPORTS/Reports_week 3/Weekly_Analysis/Phase_0_Analysis_Prompt.md`
+- `PROMPTS/WORKFLOWS/PMT-059_Document_Finished_Project.md`
+- `LIBRARIES/LBS_003_Tools/DeviantArt.json`
+- `LIBRARIES/LBS_003_Tools/Databases/Neo4j.json`
+- `DAILIES/REPORTS/Reports_week 3/System_Analysis/Milestone_02_Schema_Naming/field_usage_stats.json`
+- `PROMPTS/SYSTEM/Automation 2/PMT-069_Version_Control_Main.md`
+- `LIBRARIES/LBS_003_Tools/AI_Tools/Cdans.json`
+- `PROMPTS/SYSTEM/System_Analysis/PMT-025_Relationship_Validation.md`
+- `DAILIES/REPORTS/Reports_week 3/2025-11-20/analyze_report_patterns.py`
+- `DAILIES/REPORTS/Reports_week 3/Skills_Integration_Final_2025-11-22.md`
+- `DAILIES/REPORTS/Reports_week 3/2025-11-17/README.md`
+- `LIBRARIES/LBS_003_Tools/AI_Tools/Lovable_dev.json`
+- `DAILIES/REPORTS/Reports_week 3/Niko_Notes_Summary/191225_Niko_PROCESSED.md`
+- `PROMPTS/_INDEX/PROMPTS_INDEX.json`
+- `PROMPTS/CREATIVES/Mascot_Story_Scenarios_Quick_Reference.md`
+- `DAILIES/REPORTS/Reports_week 3/Taxonomy/RESEARCHES_Migration_Map.json`
+- `DAILIES/REPORTS/Week_4/AI_Automation_Tasks_Week4.csv`
+- `DAILIES/REPORTS/Reports_week 3/routing_matrix.json`
+- `DAILIES/REPORTS/Week_4/Delegation/Assignment_Priority_Queue.csv`
+- `LIBRARIES/LBS_003_Tools/AI_Tools/NotebookLM.json`
+- `DAILIES/REPORTS/Reports_week 3/System_Analysis/Milestone_02_Schema_Naming/naming_violations.json`
+- `DAILIES/REPORTS/Reports_week 3/2025-11-20/Executive Report/README.md`
+- `DAILIES/REPORTS/Reports_week 3/2025-11-20/Departments/Design_Department_Report_2025-11-20.md`
+- `LIBRARIES/LBS_003_Tools/ArtStation.json`
+- `DAILIES/REPORTS/Reports_week 3/System_Analysis/Milestone_02_Schema_Naming/version_inventory.json`
+- `DAILIES/REPORTS/Reports_week 3/Niko Reports/08_Strategic_Decisions_Cultural_Shifts.md`
+- `PROMPTS/DEPARTMENTS/Daily_Reports/Department_Prompts/_ARCHIVE/PMT-040_Marketing_Daily_Report_v1.0.md`
+- `LIBRARIES/LBS_003_Tools/AI_Tools/Ragas.json`
+- `DAILIES/REPORTS/Reports_week 3/System_Analysis/milestone_01_inventory.py`
+- `LIBRARIES/LBS_003_Tools/AI_Tools/Maestra_ai.json`
+- `DAILIES/REPORTS/Reports_week 3/System_Analysis/Milestone_01_Data_Inventory/milestone_01_summary.json`
+- `DAILIES/REPORTS/Reports_week 3/ARCHIVE/Videos/Videos_015.md`
+- `DAILIES/REPORTS/Reports_week 3/ARCHIVE/Videos/Reports/Video_018_Library_Mapping_Report.md`
+- `DAILIES/REPORTS/Reports_week 3/PROJECT_LOG_2025-11-13.md`
+- `LIBRARIES/LBS_003_Tools/AI_Tools/Zep.json`
+- `PROMPTS/DEPARTMENTS/Daily_Reports/Department_Prompts/PMT-034_Content_Daily_Report_v2.1.md`
+- `LIBRARIES/LBS_003_Tools/AI_Tools/Synthesia.json`
+- `DAILIES/REPORTS/Reports_week 3/EXAMPLE_2025-11-W46_AI_Tutorials_Research.json`
+- `PROMPTS/DEPARTMENTS/Daily_Reports/_ARCHIVE/ENTITY_MAPPING_GUIDE.md`
+- `DAILIES/REPORTS/Reports_week 3/2025-11-20/Departments/Dev_Department_Report_2025-11-20.md`
+- `LIBRARIES/LBS_003_Tools/AI_Tools/Perplexity.json`
+- `PROMPTS/SYSTEM/Architecture_Guides/PMT-031_Architecture_Merge_Planning.md`
+- `DAILIES/REPORTS/Reports_week 3/Example_AI_Daily_Activity_Report_Nov19_2025.md`
+- `LIBRARIES/LBS_003_Tools/Web_Tools/Firecrawl.json`
+- `DAILIES/REPORTS/Week_4/Tasks_2025_11_20.csv`
+- `PROMPTS/DEPARTMENTS/Daily_Reports/Constructor/TEMPLATE_Enhanced_Department_Prompt.md`
+- `PROMPTS/DEPARTMENTS/Daily_Reports/_ARCHIVE/PMT-032_Daily_Report_Collection_v1.1.md`
+- `DAILIES/REPORTS/Reports_week 3/Niko Reports/12_October_Microservices_Technical.md`
+- `PROMPTS/SYSTEM/Automation 2/PMT-066_Script_Copy_Dailies.md`
+- `LIBRARIES/LBS_003_Tools/AI_Tools/Vozo_AI.json`
+- `DAILIES/REPORTS/Week_4/Executive_Strategic/Executive_All_Tasks.csv`
+- `DAILIES/REPORTS/Reports_week 3/MIGRATED_TO_DEPARTMENTS.md`
+- `PROMPTS/DEPARTMENTS/Daily_Reports/Department_Prompts/PMT-039_LG_Daily_Report_v2.1.md`
+- `LIBRARIES/LBS_003_Tools/Security_Tools/Dropbox_Protect_and_Control.json`
+- `LIBRARIES/LBS_003_Tools/AI_Tools/VAYU.json`
+- `PROMPTS/DEPARTMENTS/Daily_Reports/Department_Prompts/PMT-036_Dev_Daily_Report_v2.1.md`
+- `LIBRARIES/LBS_003_Tools/YouTube.json`
+- `PROMPTS/DEPARTMENTS/Daily_Reports/Department_Prompts/REMAINING_PROMPTS_IMPLEMENTATION_GUIDE.md`
+- `PROMPTS/_INDEX/PROMPTS_Folder_ID_Registry.md`
+- `LIBRARIES/LBS_003_Tools/Databases/Redis.json`
+- `LIBRARIES/LBS_003_Tools/AI_Tools/OpenArt_Photorealistic.json`
+- `PROMPTS/SYSTEM/Automation 2/PMT-068_Version_Control_Automation.md`
+- `DAILIES/REPORTS/Week_4/Projects_Milestones_Week4.csv`
+- `PROMPTS/DATA_FIELDS/PMT_Master_List.csv`
+- `PROMPTS/DEPARTMENTS/Daily_Reports/Department_Prompts/_ARCHIVE/PMT-043_Video_Daily_Report_v1.0.md`
+- `DAILIES/REPORTS/Reports_week 3/2025-11-20/Executive Report/01_Framework_Implementation.md`
+- `LIBRARIES/LBS_003_Tools/Authentication_Tools/Auth0.json`
+- `DAILIES/REPORTS/Reports_week 3/RESEARCH_TEMPLATE.json`
+- `LIBRARIES/LBS_003_Tools/AI_Tools/Seedream.json`
+- `LIBRARIES/LBS_003_Tools/Web_Tools/Apify.json`
+- `PROMPTS/DEPARTMENTS/Daily_Reports/Department_Prompts/_ARCHIVE/PMT-037_Finance_Daily_Report_v1.0.md`
+- `DAILIES/REPORTS/Week_4/Summary_By_Department.csv`
+- `LIBRARIES/LBS_003_Tools/Freelance_Platforms/Mayple.json`
+- `PROMPTS/DEPARTMENTS/Daily_Reports/Department_Prompts/_ARCHIVE/PMT-035_Design_Daily_Report_v1.0.md`
+- `LIBRARIES/LBS_003_Tools/Data_Tools/Airscale.json`
+- `PROMPTS/UTILITIES/Daily_Updates/PMT-070_Phase_2_Object_Tagging.md`
+- `PROMPTS/DEPARTMENTS/Daily_Reports/REPORT_OUTPUT_SCHEMA_v2.1_REVISED.md`
+- `LIBRARIES/LBS_003_Tools/Cloud_Platforms/Render.json`
+- `LIBRARIES/LBS_003_Tools/Freelance_Platforms/MarketerHire.json`
+- `DAILIES/REPORTS/Reports_week 3/System_Analysis/Milestone_01_Data_Inventory/folder_structure.json`
+- `PROMPTS/_INDEX/PROMPTS_ISO_Code_Registry.md`
+- `DAILIES/REPORTS/Reports_week 3/2025-11-20/Departments_Processed_TM/AID_Department_Report_2025-11-20.md`
+- `PROMPTS/UTILITIES/Daily_Updates/PMT-070_Entity_Identification_v1_3.md`
+- `LIBRARIES/LBS_003_Tools/AI_Tools/Flux_Kontext.json`
+- `DAILIES/REPORTS/Reports_week 3/Taxonomy/RESEARCHES_ISO_Code_Registry.md`
+- `DAILIES/REPORTS/Reports_week 3/2025-11-20/Departments_Processed_TM/FNC_Department_Report_2025-11-20.md`
+- `LIBRARIES/LBS_003_Tools/AI_Tools/Vectal_Pro.json`
+- `DAILIES/REPORTS/Reports_week 3/Niko_Notes_Summary/221125_PROCESSED.md`
+- `LIBRARIES/LBS_003_Tools/AI_Tools/OpenRouter.json`
+- `LIBRARIES/LBS_003_Tools/AI_Tools/Dropbox_Dash.json`
+- `DAILIES/REPORTS/Week_4/Executive_Strategic/Executive_Connections.csv`
+- `LIBRARIES/LBS_003_Tools/AI_Tools/Freepik.json`
+- `PROMPTS/DATA_FIELDS/Prompts_Index.json`
+- `LIBRARIES/LBS_003_Tools/AI_Tools/Leonardo_AI.json`
+- `LIBRARIES/LBS_003_Tools/AI_Tools/InVideo_AI.json`
+- `PROMPTS/DATA_FIELDS/Entity_Schema_Registry.json`
+- `DAILIES/REPORTS/merge_nov20_tasks.py`
+- `DAILIES/REPORTS/Reports_week 3/System_Analysis/Milestone_04_Relationship_Validation/milestone_04_summary.json`
+- `PROMPTS/SYSTEM/Taxonomy/PMT-019_Restructure_Employee_Profile.md`
+- `DAILIES/REPORTS/Reports_week 3/ARCHIVE/Videos/Video_013.md`
+- `PROMPTS/SYSTEM/Automation 2/script_copy_dailies.py`
+- `DAILIES/REPORTS/Reports_week 3/2025-11-21/Departments/Design_Department_Report_2025-11-21.md`
+- `LIBRARIES/LBS_003_Tools/Databases/Postgres.json`
+- `LIBRARIES/LBS_003_Tools/AI_Tools/OpenArt.json`
+- `DAILIES/REPORTS/Reports_week 3/2025-11-21/README.md`
+- `DAILIES/REPORTS/Reports_week 3/System_Analysis/Milestone_01_Data_Inventory/file_distribution.json`
+- `DAILIES/REPORTS/Reports_week 3/System_Analysis/REP-012_Executive_Summary.md`
+- `PROMPTS/SYSTEM/DATA_ARCHITECTURE/PMT-078_Cross_Entity_Search.md`
+- `LIBRARIES/LBS_003_Tools/AI_Tools/Mem0.json`
+- `DAILIES/REPORTS/Reports_week 3/ARCHIVE/Videos/Reports/Video_009_Gap_Analysis.md`
+- `PROMPTS/SYSTEM/Taxonomy/Prompts_Master_List.csv`
+- `DAILIES/REPORTS/Reports_week 3/2025-11-21/Departments/LG_Department_Report_2025-11-21.md`
+- `LIBRARIES/LBS_003_Tools/AI_Tools/README.md`
+- `DAILIES/REPORTS/Week_4/Video_Tasks_Week4.csv`
+- `DAILIES/REPORTS/Week_4/Executive_Strategic/README.md`
+- `LIBRARIES/LBS_003_Tools/Vimeo.json`
+- `LIBRARIES/LBS_003_Tools/Freelance_Platforms/99designs.json`
+- `DAILIES/REPORTS/Reports_week 3/Taxonomy/RESEARCHES_Hierarchy_Tree.md`
+- `DAILIES/REPORTS/Week_4/Delegation/README.md`
+- `DAILIES/REPORTS/Reports_week 3/2025-11-21_PROJECT_COMPLETION_REPORT.md`
+- `PROMPTS/SYSTEM/Taxonomy/PMT-016_Build_LIBRARIES_Taxonomy.md`
+- `LIBRARIES/LBS_003_Tools/AI_Tools/awesome_copilot.json`
+- `LIBRARIES/LBS_003_Tools/AI_Tools/Video generation.md`
+- `LIBRARIES/LBS_003_Tools/AI_Tools/TurboScribe.json`
+- `DAILIES/REPORTS/Reports_week 3/ARCHIVE/Videos/Video_016_Processing_Summary.md`
+- `LIBRARIES/LBS_003_Tools/Payment_Tools/Stripe.json`
+- `LIBRARIES/LBS_003_Tools/AI_Tools/Notion_AI.json`
+- `PROMPTS/DEPARTMENTS/Daily_Reports/Department_Prompts/Department_Prompts_Index.md`
+- `LIBRARIES/LBS_003_Tools/AI_Tools/Manus_im.json`
+- `DAILIES/REPORTS/Reports_week 3/System_Analysis/REP-003_Schema_Validation_Report.md`
+- `PROMPTS/DEPARTMENTS/HR_Operations/PMT-055_Communication_Templates.md`
+- `LIBRARIES/LBS_003_Tools/AI_Tools/Flux.json`
+- `PROMPTS/DEPARTMENTS/HR_Operations/PMT-054_CRM_Data_Entry.md`
+- `DAILIES/REPORTS/Reports_week 3/2025-11-20/Executive Report/02_RAG_Systems_Knowledge_Management.md`
+- `DAILIES/REPORTS/Reports_week 3/2025-11-20/Departments/Sales_Department_Report_2025-11-20.md`
+- `PROMPTS/SYSTEM/Taxonomy/PMT-015_Optimize_Video_Transcription.md`
+- `DAILIES/REPORTS/extract_2025_11_20_tasks.py`
+- `LIBRARIES/LBS_003_Tools/Infrastructure_Tools/Caddy.json`
+- `DAILIES/REPORTS/Week_4/ALL_TASKS_CONSOLIDATED.csv`
+- `PROMPTS/DEPARTMENTS/Daily_Reports/REPORT_OUTPUT_SCHEMA_v2.1.md`
+- `DAILIES/REPORTS/Reports_week 3/2025-11-20/Departments_Processed_TM/SLS_Department_Report_2025-11-20.md`
+- `DAILIES/REPORTS/Reports_week 3/ARCHIVE/Videos/Video_017.md`
+- `LIBRARIES/LBS_003_Tools/AI_Tools/Google_AI_Studio.json`
+- `DAILIES/REPORTS/Reports_week 3/ARCHIVE/Videos/README.md`
+- `LIBRARIES/LBS_003_Tools/AI_Tools/ComfyUI.json`
+- `LIBRARIES/LBS_003_Tools/AI_Tools/Dribbble.json`
+- `DAILIES/REPORTS/Reports_week 3/System_Analysis/Milestone_04_Relationship_Validation/index_files.json`
+- `DAILIES/REPORTS/Reports_week 3/2025-11-20/Departments_Processed_TM/DEV_Department_Report_2025-11-20.md`
+- `DAILIES/REPORTS/Reports_week 3/System_Analysis/Milestone_03_Content_Analysis/json_field_names.json`
+- `DAILIES/REPORTS/Reports_week 3/2025-11-19/Departments/Design_Department_Report_2025-11-19.md`
+- `PROMPTS/_INDEX/MAIN_PROMPT_v4_vs_v6_Comparison.md`
+- `DAILIES/REPORTS/Reports_week 3/2025-11-19/Processing_Log_2025-11-19.md`
+- `DAILIES/REPORTS/Week_4/Finance_Tasks_Week4.csv`
+- `PROMPTS/DEPARTMENTS/Daily_Reports/Constructor/IMPLEMENTATION_SUMMARY.md`
+- `DAILIES/REPORTS/Reports_week 3/ARCHIVE/Videos/Video_008.md`
+- `LIBRARIES/LBS_003_Tools/AI_Tools/Antigravity.json`
+- `LIBRARIES/LBS_003_Tools/AI_Tools/Cove_ai.json`
+- `PROMPTS/_INDEX/MIGRATION_LOG.md`
+- `LIBRARIES/LBS_003_Tools/Cloud_Platforms/Google_Cloud_Run.json`
+- `DAILIES/REPORTS/Reports_week 3/System_Analysis/Milestone_01_Data_Inventory/REP-001_File_Inventory_Report.md`
+- `PROMPTS/DEPARTMENTS/Daily_Reports/Department_Prompts/archive_v1.ps1`
+- `DAILIES/REPORTS/Reports_week 3/2025-11-19/Departments/AI_Department_Report_2025-11-19.md`
+- `DAILIES/REPORTS/Reports_week 3/2025-11-18/Processing_Summary_2025-11-18.md`
+- `PROMPTS/Automation/Week4_AutoPlanning_Prompt.md`
+- `LIBRARIES/LBS_003_Tools/AI_Tools/SearXNG.json`
+- `DAILIES/REPORTS/Reports_week 3/2025-11-20/Departments_Processed_TM/HRM_Department_Report_2025-11-20.md`
+- `DAILIES/REPORTS/Reports_week 3/Example_Design_Daily_Activity_Report_Nov19_2025.md`
+- `DAILIES/REPORTS/Reports_week 3/common_index.json`
+- `PROMPTS/UTILITIES/Daily_Updates/PMT-070_Phase_3_Data_Structuring.md`
+- `LIBRARIES/LBS_003_Tools/AI_Tools/AI_Tools_Master_Listing.json`
+- `DAILIES/REPORTS/Reports_week 3/2025-11-21/MASTER_ACTIVITY_LISTING_2025-11-21.csv`
+- `LIBRARIES/LBS_003_Tools/AI_Tools/Browse_AI.json`
+- `DAILIES/REPORTS/Reports_week 3/System_Analysis/Milestone_01_Data_Inventory/file_distribution.csv`
+- `LIBRARIES/LBS_003_Tools/Data_Tools/Anymailfinder.json`
+- `DAILIES/REPORTS/Reports_week 3/Research_Report_Schema.md`
+- `PROMPTS/DEPARTMENTS/Daily_Reports/Constructor/docs/04_task_object_framework.md`
+- `DAILIES/REPORTS/Reports_week 3/Niko Reports/04_Automation_Integration.md`
+- `PROMPTS/DEPARTMENTS/Daily_Reports/Department_Prompts/_ARCHIVE/PMT-034_Content_Daily_Report_v1.0.md`
+- `LIBRARIES/LBS_003_Tools/AI_Tools/Hedra.json`
+- `DAILIES/REPORTS/Week_4/Executive_Strategic/Executive_Projects.csv`
+- `LIBRARIES/LBS_003_Tools/Freelance_Platforms/CloudTask.json`
+- `DAILIES/REPORTS/Week_4/Delegation/Workflow_Clustering.csv`
+- `PROMPTS/UTILITIES/Daily_Updates/PMT-070_Entity_Identification_v2_0.md`
+- `DAILIES/REPORTS/Reports_week 3/2025-11-20/Departments/LG_Department_Report_2025-11-20.md`
+- `DAILIES/REPORTS/Reports_week 3/ARCHIVE/Videos/Video_002.md`
+- `DAILIES/REPORTS/Reports_week 3/2025-11-20/Departments/AI_Department_Report_2025-11-20.md`
+- `LIBRARIES/LBS_003_Tools/AI_Tools/Kling.json`
+- `DAILIES/REPORTS/Reports_week 3/2025-11-22/Video_Processing_Stages_Report.md`
+- `DAILIES/REPORTS/Reports_week 3/ByTool_Population_Complete_2025-11-22.md`
+- `LIBRARIES/LBS_003_Tools/Web_Tools/Brave_Search.json`
+- `LIBRARIES/LBS_003_Tools/Methodologies/Product_Management_Decision_Framework.json`
+- `DAILIES/REPORTS/Reports_week 3/Research_Prompt_Schema.md`
+- `DAILIES/REPORTS/Reports_week 3/2025-11-20/Departments_Processed_TM/DGN_Department_Report_2025-11-20.md`
+- `DAILIES/REPORTS/Reports_week 3/2025-11-21/Departments/AI_Department_Report_2025-11-21.md`
+- `DAILIES/REPORTS/Reports_week 3/ARCHIVE/Videos/Video_Discovery_Pipeline.md`
+- `LIBRARIES/LBS_003_Tools/AI_Tools/Sonnet_45.json`
+- `PROMPTS/DEPARTMENTS/Daily_Reports/Constructor/README.md`
+- `LIBRARIES/LBS_003_Tools/AI_Tools/CodeRabbit.json`
+- `PROMPTS/SYSTEM/PMT-027_Data_Consistency.md`
+- `LIBRARIES/LBS_003_Tools/Publishing_Platforms/Medium.json`
+- `PROMPTS/DEPARTMENTS/Daily_Reports/Constructor/docs/02_project_directory_guidance.md`
+- `DAILIES/REPORTS/Reports_week 3/DATA/Remote_Helpers_Attendance_2025-11-18.md`
+- `DAILIES/REPORTS/Reports_week 3/System_Analysis/Milestones_02_03_Summary.md`
+- `DAILIES/REPORTS/Reports_week 3/System_Analysis/Milestone_03_Content_Analysis/markdown_headings.json`
+- `LIBRARIES/LBS_003_Tools/Developer_Platforms/GitHub.json`
+- `LIBRARIES/LBS_003_Tools/AI_Tools/LangGraph.json`
+- `DAILIES/REPORTS/Reports_week 3/System_Analysis/milestone_02_schema_naming.py`
+- `LIBRARIES/LBS_003_Tools/Telegram.json`
+- `PROMPTS/DEPARTMENTS/HR_Operations/PMT-053_CV_Parser_v1.md`
+- `LIBRARIES/LBS_003_Tools/AI_Tools/Grok.json`
+- `DAILIES/REPORTS/Reports_week 3/System_Analysis/Milestone_03_Content_Analysis/extracted_entity_ids.json`
+- `PROMPTS/SYSTEM/PMT-028_Folder_Reorganization.md`
+- `LIBRARIES/LBS_003_Tools/Dev_to.json`
+- `DAILIES/REPORTS/Reports_week 3/2025-11-20/Departments_Processed_TM/Pattern_Analysis_Report.md`
+- `LIBRARIES/LBS_003_Tools/Databases/PGVector.json`
+- `DAILIES/REPORTS/Reports_week 3/2025-11-20/Departments_Processed_TM/Department_Report_Mapping.json`
+- `PROMPTS/DEPARTMENTS/Daily_Reports/Department_Prompts/PMT-038_HR_Daily_Report_v2.1.md`
+- `DAILIES/REPORTS/Reports_week 3/Niko Reports/03_Team_Training_Development.md`
+- `LIBRARIES/LBS_003_Tools/Freelance_Platforms/UpWork.json`
+- `DAILIES/REPORTS/Reports_week 3/2025-11-21_IMPORT_COMPLETE.md`
+- `DAILIES/REPORTS/Reports_week 3/System_Analysis/Milestone_03_Content_Analysis/python_variables.json`
+- `DAILIES/REPORTS/Reports_week 3/LBS_Integration_Summary_2025-11-22.md`
+- `PROMPTS/DEPARTMENTS/Daily_Reports/SCHEMA_REVISION_SUMMARY_v2.1.md`
+- `DAILIES/REPORTS/Reports_week 3/System_Analysis/Milestone_01_Data_Inventory/folder_structure.txt`
+- `DAILIES/REPORTS/Week_4/Sales_Tasks_Week4.csv`
+- `DAILIES/REPORTS/Reports_week 3/Niko Reports/02_RAG_Systems_Knowledge_Management.md`
+- `PROMPTS/SYSTEM/System_Analysis/PMT-022_Data_Inventory.md`
+- `DAILIES/REPORTS/Reports_week 3/2025-11-19/README.md`
+- `DAILIES/REPORTS/Reports_week 3/ARCHIVE/Videos/Video_012.md`
+- `PROMPTS/DEPARTMENTS/HR_Operations/PMT-057_Job_Sites_Research.md`
+- `DAILIES/REPORTS/Reports_week 3/Weekly_Analysis/November_2025_Week_3_Masterlist.csv`
+- `LIBRARIES/LBS_003_Tools/Cloud_Platforms/Model_Scope.json`
+- `DAILIES/REPORTS/Reports_week 3/ARCHIVE/Videos/Video_009.md`
+- `DAILIES/REPORTS/Reports_week 3/2025-11-17/Processing_Log_2025-11-17.md`
+- `PROMPTS/DEPARTMENTS/Daily_Reports/Department_Prompts/PMT-041_Sales_Daily_Report_v2.1.md`
+- `DAILIES/REPORTS/Reports_week 3/DOCS/PARSE_AND_REORGANIZE_PLAN.md`
+- `PROMPTS/DEPARTMENTS/Daily_Reports/Department_Prompts/_ARCHIVE/PMT-036_Dev_Daily_Report_v1.0.md`
+- `DAILIES/REPORTS/Week_4/EXTRACTION_SUMMARY.md`
+- `PROMPTS/CREATIVES/Mascot_Story_Scenarios_Guide.md`
+- `LIBRARIES/LBS_003_Tools/AI_Tools/Browserbase.json`
+- `DAILIES/REPORTS/Reports_week 3/2025-11-20/Departments_Processed_TM/README.md`
+- `DAILIES/REPORTS/Reports_week 3/ARCHIVE/Videos/VIDEOS_INDEX.md`
+- `PROMPTS/WORKFLOWS/Library_Processing/PMT-060_Products_Integration.md`
+- `DAILIES/REPORTS/Week_4/LeadGen_Tasks_Week4.csv`
+- `LIBRARIES/LBS_003_Tools/Twitter.json`
+- `LIBRARIES/LBS_003_Tools/AI_Tools/DeepSite.json`
+- `LIBRARIES/LBS_003_Tools/AI_Tools/Claude_Desktop_App.json`
+- `PROMPTS/SYSTEM/DATA_ARCHITECTURE/PMT-077_Employee_Activity_Analyzer.md`
+- `LIBRARIES/LBS_003_Tools/Developer_Tools/Antigravity_IDE.json`
+- `LIBRARIES/LBS_003_Tools/Cloud_Platforms/DigitalOcean.json`
+- `PROMPTS/SYSTEM/Taxonomy/PMT-017_Initial_ID_List.md`
+- `LIBRARIES/LBS_003_Tools/AI_Tools/Graphiti.json`
+- `PROMPTS/SYSTEM/IMPORT_GUIDES/TSM-002_Milestone_Templates_Import_Guide.md`
+- `LIBRARIES/LBS_003_Tools/AI_Tools/GLIF.json`
+- `DAILIES/REPORTS/Reports_week 3/ARCHIVE/Videos/Video_016.md`
+- `DAILIES/REPORTS/Reports_week 3/Weekly_Analysis/Weekly_Gap_Analysis_2025-11-21.md`
+- `LIBRARIES/LBS_003_Tools/Behance.json`
+- `DAILIES/REPORTS/Reports_week 3/2025-11-18/README.md`
+- `LIBRARIES/LBS_003_Tools/AI_Tools/ChatGPT.json`
+- `LIBRARIES/LBS_003_Tools/LinkedIn.json`
+- `LIBRARIES/LBS_003_Tools/Xing.json`
+- `PROMPTS/SYSTEM/Automation 2/PMT-067_Rules_Automation.md`
+- `DAILIES/REPORTS/Reports_week 3/2025-11-20/Executive Report/10_Tools_Ecosystem_Catalog.md`
+- `DAILIES/REPORTS/Reports_week 3/System_Analysis/PROMPTS_Entity_Analysis_2025-11-19.md`
+- `PROMPTS/DEPARTMENTS/Daily_Reports/PMT-032_Daily_Report_Collection_v2.1.md`
+- `LIBRARIES/LBS_003_Tools/Quora.json`
+- `PROMPTS/WORKFLOWS/README.md`
+- `DAILIES/REPORTS/Reports_week 3/2025-11-20/Executive Report/04_Automation_Integration.md`
+- `DAILIES/REPORTS/Reports_week 3/Niko Reports/06_Video_Processing_Knowledge_Capture.md`
+- `LIBRARIES/LBS_003_Tools/AI_Tools/Langfuse.json`
+- `PROMPTS/SYSTEM/IMPORT_GUIDES/TASK_MANAGERS_Import_Guide_Master.md`
+- `PROMPTS/DEPARTMENTS/Daily_Reports/Constructor/docs/01_employee_directory_guidance.md`
+- `TASK_MANAGERS/TSM-001_Templates/Milestones/VIDEO_PROCESSING_Milestones_Master.md`
+- `DAILIES/REPORTS/Reports_week 3/ARCHIVE/Videos/Video_Queue_Tracker.md`
+- `LIBRARIES/LBS_003_Tools/AI_Tools/Replit.json`
+- `LIBRARIES/LBS_003_Tools/Hashnode.json`
+- `DAILIES/REPORTS/Reports_week 3/2025-11-20/Departments/HR_Department_Report_2025-11-20.md`
+- `DAILIES/REPORTS/Reports_week 3/Taxonomy/RESEARCHES_Department_Distribution.md`
+- `PROMPTS/_INDEX/README.md`
+- `DAILIES/REPORTS/Reports_week 3/ARCHIVE/Videos/Video_007.md`
+- `DAILIES/REPORTS/Reports_week 3/ARCHIVE/Videos/Video_006.md`
+- `"TALENTS/Employees/profiles/Available/Video/Profile Video Editor Azanova Dar\312\274ya.md"`
+- `DAILIES/REPORTS/extract_executive_notes.py`
+- `LIBRARIES/LBS_003_Tools/AI_Tools/Open_WebUI.json`
+- `DAILIES/REPORTS/Reports_week 3/Taxonomy/RESEARCHES_Master_List.csv`
+- `PROMPTS/UTILITIES/Daily_Updates/PMT-070_Phase_4_Task_Hierarchy.md`
+- `DAILIES/REPORTS/Week_4/Master_Task_List_Week4.csv`
+- `LIBRARIES/LBS_003_Tools/AI_Tools/Gamma_app.json`
+- `DAILIES/REPORTS/Week_4/HR_Tasks_Week4.csv`
+- `LIBRARIES/LBS_003_Tools/AI_Tools/Genspark_ai.json`
+- `DAILIES/REPORTS/Reports_week 3/2025-11-21_Entity_Import_Execution_Report.md`
+- `DAILIES/REPORTS/Reports_week 3/ARCHIVE/Videos/Reports/Video_009_Library_Mapping_Report.md`
+- `LIBRARIES/LBS_003_Tools/AI_Tools/MiniMax.json`
+- `DAILIES/REPORTS/Reports_week 3/2025-11-24/System_Rebuild/Phase_3B_Video_Queue_System_Completion_Report.md`
+- `PROMPTS/_INDEX/PROMPTS_Hierarchy_Tree.md`
+- `DAILIES/REPORTS/Reports_week 3/ARCHIVE/Videos/Reports/Video_002_Library_Mapping_Report.md`
+- `LIBRARIES/LBS_003_Tools/AI_Tools/LLM_as_Judge_Evaluation_Framework.json`
+- `DAILIES/REPORTS/Reports_week 3/2025-11-19/Processing_Summary_2025-11-19.md`
+- `DAILIES/REPORTS/Reports_week 3/Niko_Notes_Summary/211225_PROCESSED.md`
+- `PROMPTS/DEPARTMENTS/Daily_Reports/Department_Prompts/_ARCHIVE/PMT-041_Sales_Daily_Report_v1.0.md`
+- `DAILIES/REPORTS/Reports_week 3/2025-11-20/Departments_Processed_TM/Pattern_Analysis_Data.json`
+- `LIBRARIES/LBS_003_Tools/AI_Tools/WHALESWING.json`
+- `LIBRARIES/LBS_003_Tools/AI_Tools/arXiv.json`
+- `PROMPTS/DEPARTMENTS/Daily_Reports/_ARCHIVE/REPORT_OUTPUT_SCHEMA_v2.md`
+- `PROMPTS/WORKFLOWS/Operational_Workflows/PMT-092_Daily_Report_Processing_v2.md`
+- `PROMPTS/DEPARTMENTS/Daily_Reports/Department_Prompts/PMT-040_Marketing_Daily_Report_v2.1.md`
+- `LIBRARIES/LBS_003_Tools/Cloud_Platforms/Hugging_Face.json`
+- `LIBRARIES/LBS_003_Tools/Reddit.json`
+- `PROMPTS/DEPARTMENTS/Daily_Reports/Constructor/docs/README.md`
+- `DAILIES/REPORTS/Reports_week 3/System_Analysis/REP-011_Action_Items_Tracker.csv`
+- `PROMPTS/DEPARTMENTS/Daily_Reports/Department_Prompts/PMT-037_Finance_Daily_Report_v2.1.md`
+- `DAILIES/REPORTS/Reports_week 3/ARCHIVE/Videos/Video_001.md`
+- `PROMPTS/CREATIVES/PMT-091_Social_Media_Graphics_Creation.md`
+- `DAILIES/REPORTS/extract_weekly_tasks.py`
+- `LIBRARIES/LBS_003_Tools/AI_Tools/Loom.json`
+- `PROMPTS/SYSTEM/Taxonomy/Prompts_ISO_Code_Registry.md`
+- `DAILIES/REPORTS/Reports_week 3/ARCHIVE/Videos/Video_005.md`
+- `README.md`
+- `PROMPTS/DATA_FIELDS/Cross_Reference_Map.json`
+- `DAILIES/REPORTS/Reports_week 3/ARCHIVE/Videos/Video_011.md`
+- `DAILIES/REPORTS/Reports_week 3/DATA/Employee_Activity_Report_2025-11-18.md`
+- `DAILIES/REPORTS/create_delegation_mapping.py`
+- `LIBRARIES/LBS_003_Tools/AI_Tools/Cursor.json`
+- `PROMPTS/WORKFLOWS/Library_Processing/README.md`
+- `DAILIES/REPORTS/Reports_week 3/Niko Reports/14_November_21_Strategic_Session.md`
+- `PROMPTS/DEPARTMENTS/Daily_Reports/Department_Prompts/Prompt_Locations_in_Nov25.md`
+- `DAILIES/REPORTS/Reports_week 3/2025-11-17/Processing_Summary_2025-11-17.md`
+- `DAILIES/REPORTS/Reports_week 3/Niko Reports/07_Technical_Guides_Best_Practices.md`
+- `DAILIES/REPORTS/Week_4/Executive_Strategic/Executive_Departments.csv`
+- `PROMPTS/DEPARTMENTS/Daily_Reports/Constructor/classification_summary.md`
+- `DAILIES/REPORTS/Reports_week 3/DATA/Remote_Helpers_attendance_2025-11-18.json`
+- `PROMPTS/DEPARTMENTS/Daily_Reports/IMPLEMENTATION_COMPLETE_v2.1.md`
+- `LIBRARIES/LBS_003_Tools/AI_Tools/Gemini.json`
+- `LIBRARIES/LBS_003_Tools/AI_Tools/GitHub_Copilot.json`
+- `DAILIES/REPORTS/Reports_week 3/ARCHIVE/Videos/Video_018.md`
+- `PROMPTS/UTILITIES/Communication/README.md`
+- `DAILIES/REPORTS/Reports_week 3/System_Analysis/Milestone_03_Content_Analysis/terminology_dictionary.json`
+- `LIBRARIES/LBS_003_Tools/AI_Tools/Company_Voice_Guide.json`
+- `LIBRARIES/LBS_003_Tools/The_Dots.json`
+- `PROMPTS/WORKFLOWS/Account_Management/PMT-065_Subscription_Renewal_Alert.md`
+- `LIBRARIES/LBS_003_Tools/AI_Tools/Hailo.json`
+- `PROMPTS/SYSTEM/Architecture_Guides/PMT-030_Architecture_Learning_Guide.md`
+- `PROMPTS/DEPARTMENTS/Daily_Reports/Department_Prompts/PMT-033_AI_Daily_Report_v2.1.md`
+- `PROMPTS/UTILITIES/Daily_Updates/PMT-070_Daily_Report_Entity_Mapping_v2.1.md`
+- `PROMPTS/SYSTEM/DATA_ARCHITECTURE/PMT-080_Token_Optimization_Analyzer.md`
+- `LIBRARIES/LBS_003_Tools/Cloud_Platforms/Azure.json`
+- `DAILIES/REPORTS/Reports_week 3/2025-11-19/Departments/Dev_Department_Report_2025-11-19.md`
+- `LIBRARIES/LBS_003_Tools/Freelance_Platforms/README.md`
+- `DAILIES/REPORTS/Week_4/Design_Tasks_Week4.csv`
+- `PROMPTS/CREATIVES/PMT-084_Brochure_Design_Generation.md`
+- `DAILIES/REPORTS/Reports_week 3/Niko Reports/README.md`
+- `LIBRARIES/LBS_003_Tools/File_Management/Dropbox.json`
+- `DAILIES/REPORTS/Reports_week 3/ARCHIVE/Videos/Video_004.md`
+- `DAILIES/REPORTS/Reports_week 3/2025-11-21/Department_Report_Generation_Workflow.md`
+- `DAILIES/REPORTS/Reports_week 3/System_Analysis/Milestone_04_Relationship_Validation/broken_references.json`
+- `PROMPTS/DATA_FIELDS/PMT_Master_List (Remote Helpers's conflicted copy 2025-11-21).csv`
+- `PROMPTS/DEPARTMENTS/Daily_Reports/PHASE_2_3_COMPLETE_SUMMARY.md`
+- `PROMPTS/WORKFLOWS/Library_Processing/PMT-061_Task_Manager_Entity_Filling.md`
+- `PROMPTS/WORKFLOWS/Library_Processing/PMT-062_Tools_Collection_Matching.md`
+- `PROMPTS/UTILITIES/Daily_Updates/PMT-070_Phase_1_Action_Tagging.md`
+- `PROMPTS/DEPARTMENTS/Daily_Reports/Constructor/docs/06_department_specific_patterns.md`
+- `LIBRARIES/LBS_003_Tools/Databases/Supabase.json`
+- `LIBRARIES/LBS_003_Tools/AI_Tools/Claude_Projects.json`
+- `DAILIES/REPORTS/Week_4/Executive_Strategic/Executive_Hierarchy.json`
+- `DAILIES/REPORTS/Reports_week 3/2025-11-20/Executive Report/07_Technical_Guides_Best_Practices.md`
+- `PROMPTS/SYSTEM/PMT-029_System_Health_Review.md`
+- `PROMPTS/SYSTEM/System_Analysis/README.md`
+- `DAILIES/REPORTS/Reports_week 3/2025-11-20/Executive Report/06_Video_Processing_Knowledge_Capture.md`
+- `DAILIES/REPORTS/Reports_week 3/DATA/discord_voice_2025-11-18_summary.csv`
+- `PROMPTS/SYSTEM/Taxonomy/PMT-018_Employee_Profile_Schema.md`
+- `PROMPTS/WORKFLOWS/PMT-058_Call_Organizer_v4.md`
+- `LIBRARIES/LBS_003_Tools/AI_Tools/Arcade_ai.json`
+- `DAILIES/REPORTS/Reports_week 3/System_Analysis/Milestone_02_Schema_Naming/naming_patterns.json`
+- `LIBRARIES/LBS_003_Tools/Integration_Tools/Gmail_MCP_Connector.json`
+- `LIBRARIES/LBS_003_Tools/AI_Tools/CrewAI.json`
+- `LIBRARIES/LBS_003_Tools/AI_Tools/Vite.json`
+- `PROMPTS/DEPARTMENTS/Daily_Reports/Department_Prompts/PMT-042_SMM_Daily_Report_v2.1.md`
+- `DAILIES/REPORTS/Reports_week 3/Niko_Notes_Summary/171125_Niko_PROCESSED.md`
+- `LIBRARIES/LBS_003_Tools/AI_Tools/Nano_Banana.json`
+- `PROMPTS/CREATIVES/PMT-086_Game_Academy_Cover_Redesign.md`
+- `LIBRARIES/LBS_003_Tools/Facebook.json`
+- `PROMPTS/DEPARTMENTS/Daily_Reports/Department_Prompts/PMT-035_Design_Daily_Report_v2.1.md`
+- `LIBRARIES/LBS_003_Tools/Databases/Neon.json`
+- `DAILIES/REPORTS/Reports_week 3/ARCHIVE/Videos/Videos_015_Processing_Summary.md`
+- `PROMPTS/CREATIVES/Mascot_Prompting_Documents_Index.md`
+- `LIBRARIES/LBS_003_Tools/AI_Tools/Runner.json`
+- `DAILIES/REPORTS/Reports_week 3/Niko_Notes_Summary/201125_PROCESSED.md`
+- `LIBRARIES/LBS_003_Tools/Pinterest.json`
+- `PROMPTS/CREATIVES/Mascot_Life_Environment_Weekly_Overview_Prompt.md`
+- `PROMPTS/WORKFLOWS/Operational_Workflows/PMT-087_Daily_Report_Processing_Workflow.md`
+- `LIBRARIES/LBS_003_Tools/AI_Tools/MovieGen.json`
+- `PROMPTS/SYSTEM/System_Analysis/PMT-026_Synthesis_Recommendations.md`
+- `PROMPTS/DEPARTMENTS/Daily_Reports/PHASE_1_COMPLETE_SUMMARY.md`
+- `DAILIES/REPORTS/Reports_week 3/ARCHIVE/Videos/Videos_015_Hybrid_Population_Plan.md`
+- `PROMPTS/DEPARTMENTS/Daily_Reports/Department_Prompts/_ARCHIVE/PMT-039_LG_Daily_Report_v1.0.md`
+- `DAILIES/REPORTS/Reports_week 3/Niko Reports/10_Tools_Ecosystem_Catalog.md`
+- `DAILIES/REPORTS/Reports_week 3/2025-11-21/Departments/Dev_Department_Report_2025-11-21.md`
+- `LIBRARIES/LBS_003_Tools/AI_Tools/Kimi_K2_Thinking.json`
+- `DAILIES/REPORTS/Reports_week 3/System_Analysis/Milestone_03_Content_Analysis/REP-006_terminology_standards.json`
+- `PROMPTS/SYSTEM/DATA_ARCHITECTURE/PMT-074_Data_Architect_Master.md`
+- `LIBRARIES/LBS_003_Tools/AI_Tools/Suno.json`
+- `PROMPTS/DEPARTMENTS/Daily_Reports/Constructor/TEMPLATE_VARIABLE_MAPPING.md`
+- `PROMPTS/SYSTEM/IMPORT_GUIDES/TSM-001_Project_Templates_Import_Guide.md`
+- `DAILIES/REPORTS/Reports_week 3/System_Analysis/REP-010_Terminology_Consolidation.md`
+- `DAILIES/REPORTS/Week_4/Delegation/Department_Workload_Analysis.csv`
+- `LIBRARIES/LBS_003_Tools/AI_Tools/Wan_2_2.json`
+- `DAILIES/REPORTS/Reports_week 3/System_Analysis/REP-009_Architecture_Documentation.md`
+- `LIBRARIES/LBS_003_Tools/AI_Tools/Ollama.json`
+- `PROMPTS/SYSTEM/System_Analysis/PMT-021_Ecosystem_Analysis_Overview.md`
+- `"TALENTS/Employees/profiles/Resumes/Azanova Dar\312\274ya.md"`
+- `DAILIES/REPORTS/Reports_week 3/2025-11-20/process_reports_for_tm.py`
+- `LIBRARIES/LBS_003_Tools/AI_Tools/Custom_Prompt_Templates.json`
+- `DAILIES/REPORTS/Reports_week 3/ARCHIVE/Videos/Video_010.md`
+- `DAILIES/REPORTS/Reports_week 3/System_Analysis/Milestone_02_Schema_Naming/schema_violations.json`
+- `DAILIES/REPORTS/Week_4/Delegation/Task_Template_Mapping.csv`
+- `DAILIES/REPORTS/Reports_week 3/System_Analysis/milestone_04_relationships.py`
+- `DAILIES/REPORTS/Week_4/EXC_Tasks_Week4.csv`
+- `PROMPTS/DEPARTMENTS/Daily_Reports/IMPLEMENTATION_PLAN_v2.1.md`
+- `PROMPTS/DEPARTMENTS/Daily_Reports/Constructor/README_Enhanced_v2.md`
+- `LIBRARIES/LBS_003_Tools/Stack_Overflow.json`
+- `LIBRARIES/LBS_003_Tools/AI_Tools/Google_Veo_3_1.json`
+- `DAILIES/REPORTS/Reports_week 3/System_Analysis/Milestone_02_Schema_Naming/milestone_02_summary.json`
+- `"TASK_MANAGERS/RESEARCHES/02_TRANSCRIPTIONS/Video_024 (\320\241\320\277\321\226\321\200\320\275\320\260 \320\272\320\276\320\277\321\226\321\217 \320\272\320\276\321\200\320\270\321\201\321\202\321\203\320\262\320\260\321\207\320\260 HR RemotEmployees 2025-11-25).md"`
+- `LIBRARIES/LBS_003_Tools/AI_Tools/Gemini_File_Search.json`
+- `PROMPTS/SYSTEM/DATA_ARCHITECTURE/PMT-076_Import_Validation_Pipeline.md`
+- `DAILIES/REPORTS/Reports_week 3/Niko_Notes_Summary/231225_PROCESSED.md`
+- `PROMPTS/DEPARTMENTS/Daily_Reports/Department_Prompts/PMT-043_Video_Daily_Report_v2.1.md`
+- `DAILIES/REPORTS/Reports_week 3/2025-11-21/Departments/Finance_Department_Report_2025-11-21.md`
+- `PROMPTS/DEPARTMENTS/Daily_Reports/Constructor/docs/03_vocabulary_standards.md`
+- `DAILIES/REPORTS/Reports_week 3/Weekly_Analysis/PMT-094_Weekly_Report_Gap_Analysis.md`
+- `LIBRARIES/LBS_003_Tools/Discord.json`
+- `DAILIES/REPORTS/README.md`
+- `DAILIES/REPORTS/Reports_week 3/2025-11-20/Executive Report/08_Strategic_Decisions_Cultural_Shifts.md`
+- `PROMPTS/_INDEX/MAIN_PROMPT_v5_Modular_vs_v6_UltraCondensed_Comparison.md`
+- `DAILIES/REPORTS/Reports_week 3/System_Analysis/Milestone_03_Content_Analysis/redundant_terms_full.json`
+- `PROMPTS/DEPARTMENTS/Daily_Reports/Constructor/prompt_parts_structure.json`
+- `LIBRARIES/LBS_003_Tools/AI_Tools/MCP_Servers.json`
+- `LIBRARIES/LBS_003_Tools/Data_Tools/Google_Sheets.json`
+- `DAILIES/REPORTS/Reports_week 3/Niko Reports/09_Foundational_Systems_W1.md`
+- `DAILIES/REPORTS/Reports_week 3/System_Analysis/Milestone_01_Data_Inventory/file_sizes.json`
+- `LIBRARIES/LBS_003_Tools/AI_Tools/OpenAI_GPT5.json`
+- `LIBRARIES/LBS_003_Tools/AI_Tools/Adobe_Firefly.json`
+- `DAILIES/REPORTS/Reports_week 3/2025-11-20/Departments_Processed_TM/LGN_Department_Report_2025-11-20.md`
+- `DAILIES/REPORTS/Reports_week 3/Weekly_Analysis/Phase_0_Template.md`
+- `LIBRARIES/LBS_003_Tools/AI_Tools/Docling.json`
+- `DAILIES/REPORTS/Reports_week 3/System_Analysis/Milestone_04_Relationship_Validation/reference_map.json`
+- `DAILIES/REPORTS/Reports_week 3/2025-11-18/Processing_Log_2025-11-18.md`
+- `LIBRARIES/LBS_003_Tools/AI_Tools/HeyGen.json`
+- `DAILIES/REPORTS/Reports_week 3/DOCS/Remote_Helpers_Attendance_example.md`
+- `DAILIES/REPORTS/Reports_week 3/DATA/discord_voice_2025-11-18_summary.md`
+- `DAILIES/REPORTS/Reports_week 3/Niko_Notes_Summary/181225_Niko_PROCESSED.md`
+- `PROMPTS/DEPARTMENTS/Daily_Reports/Department_Prompts/_ARCHIVE/PMT-038_HR_Daily_Report_v1.0.md`
+- `LIBRARIES/LBS_003_Tools/AI_Tools/Archon.json`
+- `LIBRARIES/LBS_003_Tools/TikTok.json`
+- `LIBRARIES/LBS_003_Tools/Threads.json`
+- `DAILIES/REPORTS/Reports_week 3/Cloud_AI_Research_Instructions.md`
+- `DAILIES/REPORTS/Reports_week 3/2025-11-20/Executive Report/03_Team_Training_Development.md`
+- `DAILIES/REPORTS/Reports_week 3/2025-11-20/Processing_Log_2025-11-20.md`
+- `LIBRARIES/LBS_003_Tools/AI_Tools/Sora.json`
+- `DAILIES/REPORTS/Week_4/Executive_Strategic/Executive_Tasks.csv`
+- `LIBRARIES/LBS_003_Tools/AI_Tools/v0_dev.json`
+- `PROMPTS/DEPARTMENTS/Daily_Reports/Department_Prompts/_ARCHIVE/PMT-042_SMM_Daily_Report_v1.0.md`
+- `LIBRARIES/LBS_003_Tools/AI_Tools/Pydantic_AI.json`
+- `DAILIES/REPORTS/Reports_week 3/System_Analysis/Milestone_02_Schema_Naming/REP-002_Naming_Convention_Audit.md`
+- `DAILIES/REPORTS/Reports_week 3/Niko Reports/11_October_Foundation_Origins.md`
+- `DAILIES/REPORTS/Reports_week 3/ARCHIVE/Videos/Videos_015_Final_Summary.md`
+- `LIBRARIES/LBS_003_Tools/Substack.json`
+- `DAILIES/REPORTS/Reports_week 3/Niko Reports/05_Performance_Management.md`
+- `"DAILIES/Week3/20/Azanova Dar\312\274ya_Week_3/TODO.md"`
+- `DAILIES/REPORTS/Reports_week 3/ARCHIVE/Videos/Reports/Video_005_Library_Mapping_Report.md`
+- `LIBRARIES/LBS_003_Tools/AI_Tools/Pollo_ai.json`
+- `DAILIES/REPORTS/Reports_week 3/ARCHIVE/Videos/Reports/Video_001_Library_Mapping_Report.md`
+- `DAILIES/REPORTS/create_delegation_mapping_v2.py`
+- `LIBRARIES/LBS_003_Tools/AI_Tools/Claude.json`
+- `LIBRARIES/LBS_003_Tools/Lunchclub.json`
+- `LIBRARIES/LBS_003_Tools/AI_Tools/MCP_Builder_Skill.json`
+- `DAILIES/REPORTS/Reports_week 3/2025-11-20/Departments_Processed_TM/VID_Department_Report_2025-11-20.md`
+- `DAILIES/REPORTS/Reports_week 3/ARCHIVE/Videos/Reports/Video_017_Library_Mapping_Report.md`
+- `DAILIES/REPORTS/Reports_week 3/ARCHIVE/Videos/Reports/Video_002_Gap_Analysis.md`
+- `PROMPTS/DEPARTMENTS/HR_Operations/README.md`
+- `LIBRARIES/LBS_003_Tools/AI_Tools/RunwayML.json`
+- `DAILIES/REPORTS/Reports_week 3/ARCHIVE/Videos/Video_014.md`
+- `DAILIES/REPORTS/Reports_week 3/Weekly_Analysis/November_2025_Week_3_Analysis.md`
+- `PROMPTS/WORKFLOWS/Account_Management/PMT-063_Account_Creation_Validation.md`
+- `LIBRARIES/LBS_003_Tools/AI_Tools/Envato_Elements.json`
+- `DAILIES/REPORTS/Reports_week 3/ARCHIVE/Videos/Video_003.md`
+- `DAILIES/REPORTS/Reports_week 3/2025-11-20/Departments_Processed_TM/DAY_OF_WEEK_INTEGRATION.md`
+- `PROMPTS/SYSTEM/Taxonomy/PMT-020_Taxonomy_Entities_Collection.md`
+- `LIBRARIES/LBS_003_Tools/Integration_Tools/Google_Calendar_MCP_Connector.json`
+- `PROMPTS/UTILITIES/Daily_Updates/PMT-070_Entity_Identification_v1.md`
+
+
+---
+*Generated automatically by Dropbox to GitHub sync*
+
+
 # Changelog - 2025-11-25
 
 **Sync Date:** 2025-11-25 09:21:45 UTC

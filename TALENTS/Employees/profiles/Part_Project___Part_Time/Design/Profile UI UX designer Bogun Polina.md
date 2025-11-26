@@ -8,6 +8,8 @@
 
 ## Contact Information
 
+- **Nov25 Folder:** /Dropbox/Nov25/Design/Bogun Polina
+
 - **Personal Email:** pollybogun@gmail.com
 - **Work Email:** polinabogun.rh@gmail.com
 - **Discord ID:** 677608728362483713

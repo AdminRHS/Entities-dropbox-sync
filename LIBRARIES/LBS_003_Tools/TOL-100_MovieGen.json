@@ -1,0 +1,77 @@
+{
+  "entity_type": "LIBRARIES",
+  "sub_entity": "Tool",
+  "tool_id": "TOL-100",
+  "name": "Movie Gen",
+  "vendor": "Meta / Facebook",
+  "category": "AI_Tools / Video Generation",
+  "purpose": "AI-powered video generation from text prompts and images",
+  "description": "Movie Gen is Meta's AI video generation model capable of creating videos from text descriptions and images. It uses a 14 billion parameter model architecture and is used in Wan 2.1 for comparison benchmarks. Movie Gen focuses on motion generation and scene creation with emphasis on fast-motion sequences.",
+  "skill_level_required": "Intermediate",
+  "cost_structure": "TBD",
+  "platform_compatibility": [
+    "API",
+    "ComfyUI"
+  ],
+  "integration_capabilities": [
+    "ComfyUI",
+    "Wan 2.1 integration"
+  ],
+  "documentation_url": "TBD",
+  "actual_remote_helpers_usage": {
+    "primary_use": "Benchmark comparison for AI video generation quality",
+    "users": [
+      "Video Department",
+      "AI Department"
+    ],
+    "use_cases": [
+      "Generate fast-motion video sequences",
+      "Create comparative benchmarks for video quality",
+      "Test video generation capabilities"
+    ],
+    "workflows": [
+      "AI Video Generation Benchmarking",
+      "Motion sequence generation"
+    ]
+  },
+  "key_features": {
+    "model_size": "14 billion parameters",
+    "generation_type": "Text-to-video, Image-to-video",
+    "motion_focus": "Fast motion sequences",
+    "integration": "Wan 2.1 compatible"
+  },
+  "strengths": [
+    "14B parameter model for high quality",
+    "Good for fast motion sequences",
+    "Compatible with existing workflows"
+  ],
+  "limitations": [
+    "Less detailed than Wan 2.2 in raw output",
+    "May lack detail on objects in motion",
+    "Physics accuracy can be inconsistent"
+  ],
+  "departments_using": [
+    "Video",
+    "AI"
+  ],
+  "tags": [
+    "ai-video",
+    "meta",
+    "14b-model",
+    "video-generation",
+    "benchmark"
+  ],
+  "discovery_date": "2025-11-15",
+  "discovery_source": "Video_011 transcription analysis",
+  "status": "active",
+  "version": "1.0",
+  "created": "2025-11-15",
+  "last_updated": "2025-11-15",
+  "source": "Video_011",
+  "_migration": {
+    "date": "2025-11-26T02:01:31.273251",
+    "old_tool_id": "TOL-100",
+    "old_path": "TOL-100_MovieGen.json",
+    "migrated_by": "restructure_tools_v1"
+  }
+}

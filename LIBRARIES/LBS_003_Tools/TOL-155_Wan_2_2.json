@@ -1,0 +1,107 @@
+{
+  "entity_type": "LIBRARIES",
+  "sub_entity": "Tool",
+  "tool_id": "TOL-155",
+  "name": "Wan 2.2",
+  "vendor": "Wan AI",
+  "category": "AI_Tools / Video Generation",
+  "purpose": "Open-source AI video generation from text prompts or images",
+  "description": "Wan 2.2 is an open-source AI video generation model released under Apache 2.0 license. It supports text-to-video and image-to-video generation with advanced features including lighting control, camera angle adjustments, time-of-day variations, and saturation control. Available in three model types: 14B parameter Mixture of Experts (MoE) for text-to-video, 14B MoE for image-to-video, and 5B parameter hybrid model supporting both modes.",
+  "skill_level_required": "Intermediate",
+  "cost_structure": "Free (Open Source - Apache 2.0 License)",
+  "platform_compatibility": [
+    "Desktop",
+    "API",
+    "Python"
+  ],
+  "integration_capabilities": [
+    "ComfyUI",
+    "Diffusers (Hugging Face)",
+    "Python API"
+  ],
+  "documentation_url": "https://huggingface.co/Wan-AI",
+  "actual_remote_helpers_usage": {
+    "primary_use": "AI-powered video generation for content creation, demonstrations, and prototyping",
+    "users": [
+      "Video Department",
+      "AI Department",
+      "Design Department"
+    ],
+    "use_cases": [
+      "Generate product demonstration videos from text descriptions",
+      "Create animated content from static images",
+      "Produce concept videos for client presentations",
+      "Generate video variations with different lighting and camera angles",
+      "Create motion graphics for marketing materials"
+    ],
+    "workflows": [
+      "Text-to-Video Generation (5B Hybrid Model)",
+      "Image-to-Video Generation (14B MoE Model)",
+      "Video Content Prototyping"
+    ]
+  },
+  "key_features": {
+    "model_types": "Text-to-Video (14B MoE), Image-to-Video (14B MoE), Hybrid (5B)",
+    "lighting_control": "Built-in lighting variations without additional LoRA",
+    "camera_angles": "Native camera angle control and movement",
+    "time_control": "Day/night time switching capabilities",
+    "saturation_control": "High/low saturation adjustments",
+    "composition_control": "Enhanced object composition in videos",
+    "resolution_support": "480p and 720p (736x1280) output",
+    "frame_rate": "24 FPS default",
+    "vram_requirements": "5B: ~10GB, 14B FP8: ~30GB, 14B FP16: ~60GB",
+    "quantization_support": "FP16, FP8, GGUF quantized versions"
+  },
+  "strengths": [
+    "Open-source with commercial-use license (Apache 2.0)",
+    "No additional LoRA required for lighting/camera control",
+    "Multiple model sizes for different hardware capabilities",
+    "Integrated into ComfyUI with official support",
+    "Superior physics and motion quality vs predecessors",
+    "Better lighting and shadow rendering",
+    "MoE architecture enables efficient processing",
+    "Supports both text-to-video and image-to-video",
+    "Quantization options reduce VRAM requirements"
+  ],
+  "limitations": [
+    "14B models require significant VRAM (30-60GB)",
+    "720p resolution maximum (no 1080p native support)",
+    "Slower generation times for 14B models (6-10 minutes)",
+    "Different VAE requirements for different model types (2.1 VAE for 14B, 2.2 VAE for 5B)",
+    "Two-stage sampling required for 14B MoE models",
+    "Model files are large (10-60GB storage needed)",
+    "480p resolution can be pixelated for detailed work",
+    "Requires technical setup knowledge for ComfyUI"
+  ],
+  "departments_using": [
+    "Video",
+    "AI",
+    "Design",
+    "Marketing"
+  ],
+  "tags": [
+    "ai-video-generation",
+    "text-to-video",
+    "image-to-video",
+    "open-source",
+    "comfyui",
+    "diffusion-model",
+    "moe-architecture",
+    "video-ai",
+    "content-creation",
+    "apache-license"
+  ],
+  "discovery_date": "2025-11-15",
+  "discovery_source": "Video_011 transcription analysis",
+  "status": "active",
+  "version": "2.2",
+  "created": "2025-11-15",
+  "last_updated": "2025-11-15",
+  "source": "Video_011",
+  "_migration": {
+    "date": "2025-11-26T02:01:31.372013",
+    "old_tool_id": "TOL-155",
+    "old_path": "TOL-155_Wan_2_2.json",
+    "migrated_by": "restructure_tools_v1"
+  }
+}

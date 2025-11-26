@@ -1,0 +1,92 @@
+{
+  "entity_type": "LIBRARIES",
+  "sub_entity": "Tool",
+  "tool_id": "TOL-050",
+  "name": "Envato Elements",
+  "vendor": "Envato",
+  "category": "Design Resources",
+  "purpose": "Unlimited downloads of design assets, templates, and resources",
+  "description": "Subscription service providing unlimited downloads of premium design assets including graphics, templates, fonts, videos, music, and more. Used by designers for accessing professional design resources.",
+  "skill_level_required": "Beginner",
+  "cost_structure": "Subscription-based (monthly or annual plans)",
+  "platform_compatibility": [
+    "Web"
+  ],
+  "integration_capabilities": [
+    "Unlimited downloads",
+    "Asset library access",
+    "Template downloads",
+    "Font library",
+    "Video and audio assets"
+  ],
+  "documentation_url": "https://elements.envato.com/",
+  "actual_remote_helpers_usage": {
+    "primary_use": "Design Asset Subscription Service",
+    "users": [
+      "Graphic Designers",
+      "UI/UX Designers",
+      "Video Editors",
+      "Content Creators"
+    ],
+    "use_cases": [
+      "download design templates",
+      "access premium graphics",
+      "get fonts and typography",
+      "download video assets",
+      "access music and audio",
+      "use stock photos"
+    ],
+    "workflows": []
+  },
+  "strengths": [
+    "Unlimited downloads",
+    "Large asset library",
+    "Premium quality",
+    "Multiple asset types",
+    "Commercial license included"
+  ],
+  "limitations": [
+    "Subscription required",
+    "Monthly/annual commitment",
+    "Asset quality varies"
+  ],
+  "departments_using": [
+    "Design"
+  ],
+  "tags": [
+    "design-resources",
+    "templates",
+    "graphics",
+    "fonts",
+    "video-assets",
+    "subscription"
+  ],
+  "discovery_date": "2025-11-15",
+  "discovery_source": "finance_data",
+  "status": "active",
+  "finance_data": {
+    "subscription_status": "paid",
+    "total_accounts": 1,
+    "paid_accounts": 1,
+    "unpaid_accounts": 0,
+    "latest_valid_until": "2026-08-07",
+    "accounts": [
+      {
+        "email": "",
+        "status": "paid",
+        "paid_date": "2025-08-07",
+        "valid_until": "2026-08-07",
+        "department": "designers"
+      }
+    ],
+    "departments_using": [
+      "designers"
+    ]
+  },
+  "_migration": {
+    "date": "2025-11-26T02:01:31.186435",
+    "old_tool_id": "TOL-050",
+    "old_path": "TOL-050_Envato_Elements.json",
+    "migrated_by": "restructure_tools_v1"
+  }
+}

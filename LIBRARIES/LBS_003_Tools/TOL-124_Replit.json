@@ -1,0 +1,87 @@
+{
+  "entity_type": "LIBRARIES",
+  "sub_entity": "Tool",
+  "tool_id": "TOL-124",
+  "name": "Replit",
+  "vendor": "Replit",
+  "category": "AI/Development Tools",
+  "purpose": "Online IDE with AI assistance for building apps and websites",
+  "description": "Collaborative online integrated development environment (IDE) that supports multiple programming languages with AI coding assistance. Enables rapid prototyping, collaborative coding, and app deployment.",
+  "skill_level_required": "Intermediate",
+  "cost_structure": "Freemium (Free tier available, paid plans from $7/month)",
+  "platform_compatibility": [
+    "Web",
+    "Mobile"
+  ],
+  "integration_capabilities": [
+    "AI code assistant",
+    "Multi-language support",
+    "Collaborative coding",
+    "Git integration",
+    "Package management",
+    "Deployment tools"
+  ],
+  "documentation_url": "https://replit.com/",
+  "actual_remote_helpers_usage": {
+    "primary_use": "AI-Assisted Collaborative Coding",
+    "users": [],
+    "use_cases": [
+      "prototype rapidly",
+      "co-build solutions",
+      "generate code",
+      "learn programming",
+      "develop apps",
+      "build websites"
+    ],
+    "workflows": []
+  },
+  "strengths": [
+    "AI coding assistant",
+    "Collaborative features",
+    "Multi-language support",
+    "Built-in deployment",
+    "No setup required",
+    "Real-time collaboration"
+  ],
+  "limitations": [
+    "Resource limits on free tier",
+    "Internet connection required",
+    "Limited offline capabilities"
+  ],
+  "departments_using": [],
+  "finance_data": {
+    "subscription_status": "unpaid",
+    "total_accounts": 1,
+    "paid_accounts": 0,
+    "unpaid_accounts": 1,
+    "latest_valid_until": "2025-09-30",
+    "accounts": [
+      {
+        "email": "admin@rh-s.com",
+        "status": "not paid",
+        "paid_date": "2025-08-30",
+        "valid_until": "2025-09-30",
+        "department": ""
+      }
+    ],
+    "departments_using": []
+  },
+  "tags": [
+    "ide",
+    "coding",
+    "ai-assistant",
+    "collaboration",
+    "multi-language",
+    "rapid-prototyping",
+    "app-development"
+  ],
+  "discovery_date": "2025-01-27",
+  "discovery_source": "user_provided",
+  "status": "discovered_needs_review",
+  "_migration": {
+    "date": "2025-11-26T02:01:31.315070",
+    "old_tool_id": "TOL-124",
+    "old_path": "TOL-124_Replit.json",
+    "migrated_by": "restructure_tools_v1"
+  }
+}

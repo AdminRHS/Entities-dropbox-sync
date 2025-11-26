@@ -1,0 +1,226 @@
+{
+  "entity_type": "LIBRARIES",
+  "sub_entity": "Tool",
+  "tool_id": "TOL-080",
+  "name": "Kling",
+  "vendor": "Kuaishou Technology",
+  "category": "AI/Video Generation",
+  "purpose": "AI-powered video generation platform for creating high-quality videos from text and images",
+  "description": "Kling (currently version 2.5) is an advanced AI video generation platform developed by Kuaishou Technology. It specializes in creating realistic and creative video content from text prompts or images. Known for excellent motion quality, temporal consistency, and the ability to generate complex scenes with realistic physics. Popular for content creation, marketing videos, and creative projects.",
+  "skill_level_required": "Beginner to Intermediate",
+  "cost_structure": "Freemium (Free credits available + paid plans)",
+  "platform_compatibility": [
+    "Web",
+    "API",
+    "GLIF Integration"
+  ],
+  "integration_capabilities": [
+    "Text-to-video generation",
+    "Image-to-video conversion",
+    "High-quality motion generation",
+    "Temporal consistency",
+    "Camera control and movement",
+    "Multiple aspect ratios",
+    "Variable video lengths",
+    "Style customization",
+    "Integration with workflow automation tools (GLIF)",
+    "Batch processing capabilities"
+  ],
+  "documentation_url": "https://klingai.com",
+  "actual_remote_helpers_usage": {
+    "primary_use": "AI Video Content Generation for Social Media, Marketing, and Creative Projects",
+    "users": [
+      "Content Creators",
+      "Video Producers",
+      "Social Media Managers",
+      "Marketing Teams",
+      "Creative Directors"
+    ],
+    "team_members": [
+      "Social media managers creating engaging video content",
+      "Content creators producing YouTube and TikTok videos",
+      "Marketing teams generating promotional content",
+      "Creative directors exploring video concepts",
+      "Video producers creating B-roll and supplementary footage"
+    ],
+    "use_cases": [
+      "produce social videos",
+      "produce marketing videos",
+      "produce demo videos",
+      "create influencer videos",
+      "generate b-roll",
+      "produce experimental videos",
+      "automate video workflows",
+      "visualize stories",
+      "test concepts",
+      "produce explainer videos",
+      "concept music videos",
+      "create ad content"
+    ],
+    "typical_workflows": [
+      {
+        "task": "Generate Social Media Video from Text",
+        "steps": [
+          "Access Kling 2.5 platform or GLIF integration",
+          "Write descriptive video prompt",
+          "Select aspect ratio (9:16 for TikTok, 16:9 for YouTube, etc.)",
+          "Set video duration (typically 5-10 seconds)",
+          "Generate video",
+          "Review output",
+          "Refine prompt if needed and regenerate",
+          "Download video",
+          "Add captions/audio in editor if needed",
+          "Upload to social platforms"
+        ],
+        "complexity": "Low",
+        "time_estimate": "5-15 minutes"
+      },
+      {
+        "task": "Create Video from Image with Kling",
+        "steps": [
+          "Upload reference image or product photo",
+          "Describe desired motion and camera movement",
+          "Select video parameters (duration, style)",
+          "Generate video",
+          "Preview and iterate",
+          "Download final output",
+          "Use in marketing or content creation"
+        ],
+        "complexity": "Low to Medium",
+        "time_estimate": "10-20 minutes"
+      },
+      {
+        "task": "Automated Video Creation via GLIF",
+        "steps": [
+          "Set up Kling workflow in GLIF",
+          "Connect to content pipeline (script, voiceover, etc.)",
+          "Input content concept",
+          "GLIF agent automates Kling prompting",
+          "Review generated videos",
+          "Batch process multiple variants",
+          "Select best outputs",
+          "Export for distribution"
+        ],
+        "complexity": "Low (automated)",
+        "time_estimate": "10-20 minutes for batch"
+      }
+    ],
+    "integration_with_other_tools": [
+      "GLIF - Workflow automation and agent integration",
+      "CapCut - Video editing and post-production",
+      "Premiere Pro - Professional video editing",
+      "After Effects - Visual effects",
+      "Eleven Labs - Voiceover integration",
+      "ChatGPT - Prompt and script generation",
+      "Canva - Add text and graphics overlays",
+      "Social media platforms - Direct publishing",
+      "Marketing automation tools - Campaign integration"
+    ],
+    "internal_platforms_served": [
+      "SMM (Social Media Marketing) - Short-form video content",
+      "BZ-V (Business Video) - Marketing videos",
+      "Content Creation - Multi-platform video content",
+      "Marketing - Advertising and promotional content",
+      "DGN (Design Services) - Creative video concepts",
+      "E-commerce - Product demonstration videos"
+    ]
+  },
+  "strengths": [
+    "Excellent motion quality and realism",
+    "Strong temporal consistency",
+    "Fast generation speed compared to competitors",
+    "Good understanding of physics and natural motion",
+    "Multiple aspect ratio support",
+    "Competitive pricing with free tier",
+    "High-quality output (Kling 2.5 improvements)",
+    "Effective for social media content",
+    "Integration with automation platforms",
+    "User-friendly interface"
+  ],
+  "limitations": [
+    "Video length limitations (typically 5-10 seconds per generation)",
+    "May struggle with very complex multi-character scenes",
+    "Limited fine control over specific movements",
+    "Free tier has credit limitations",
+    "Generation queue wait times during peak usage",
+    "Less established than OpenAI Sora",
+    "Some content policy restrictions",
+    "Occasional artifacts in complex scenes"
+  ],
+  "departments_using": [
+    "Social Media Management",
+    "Content Creation",
+    "Marketing",
+    "Video Production",
+    "E-commerce"
+  ],
+  "typical_output_formats": [
+    "MP4",
+    "Various resolutions (720p to 1080p)",
+    "Multiple aspect ratios"
+  ],
+  "video_specifications": {
+    "typical_duration": "5-10 seconds per generation",
+    "resolution": "Up to 1080p",
+    "aspect_ratios": [
+      "16:9 (landscape)",
+      "9:16 (portrait/vertical)",
+      "1:1 (square)"
+    ],
+    "motion_types": [
+      "Camera movements",
+      "Object motion",
+      "Character animation",
+      "Environmental effects"
+    ],
+    "output_quality": "High-definition, commercially viable"
+  },
+  "best_use_cases": [
+    "Short-form social media content (primary strength)",
+    "Product videos with motion and rotation",
+    "Nature and environmental scenes",
+    "Character movements and actions",
+    "Abstract and artistic videos",
+    "Marketing teasers and hooks",
+    "Looping animations",
+    "B-roll footage generation"
+  ],
+  "prompt_tips": [
+    "Be specific about camera angle and movement",
+    "Describe motion clearly (speed, direction)",
+    "Include lighting and atmosphere details",
+    "Specify style (realistic, cinematic, artistic)",
+    "Keep prompts focused on single clear action",
+    "Use descriptive adjectives for mood",
+    "Reference time of day for outdoor scenes",
+    "Iterate based on outputs"
+  ],
+  "version_info": {
+    "current_version": "Kling 2.5",
+    "improvements": [
+      "Enhanced motion quality",
+      "Better temporal consistency",
+      "Improved physics simulation",
+      "Faster generation times",
+      "Higher resolution output"
+    ]
+  },
+  "tags": [
+    "ai",
+    "video-generation",
+    "kling",
+    "social-media",
+    "content-creation",
+    "text-to-video",
+    "image-to-video",
+    "marketing-video",
+    "tiktok",
+    "short-form-video"
+  ],
+  "_migration": {
+    "date": "2025-11-26T02:01:31.240552",
+    "old_tool_id": "TOL-080",
+    "old_path": "TOL-080_Kling.json",
+    "migrated_by": "restructure_tools_v1"
+  }
+}

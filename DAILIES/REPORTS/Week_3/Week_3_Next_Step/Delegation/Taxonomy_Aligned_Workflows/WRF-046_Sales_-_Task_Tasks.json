@@ -1,0 +1,56 @@
+{
+  "entity_type": "TASK_MANAGERS",
+  "sub_entity": "Workflow",
+  "workflow_id": "WRF-046",
+  "metadata": {
+    "workflow_name": "Sales - Task Tasks",
+    "description": "Execution phase workflow for SLS department - Task category",
+    "primary_department": "SLS",
+    "departments_involved": [
+      "SLS"
+    ],
+    "workflow_type": "Parallel",
+    "execution_phase": "Execution",
+    "category": "Task",
+    "priority": "Medium",
+    "estimated_duration": "40.0h",
+    "complexity": "Medium",
+    "status": "Active",
+    "created_date": "2025-11-26",
+    "version": "1.0"
+  },
+  "tasks": {
+    "total_count": 19,
+    "task_ids": [
+      "TST-405",
+      "TST-413",
+      "TST-339",
+      "TST-278",
+      "TST-281",
+      "TST-307",
+      "TST-314",
+      "TST-315",
+      "TST-185",
+      "..."
+    ],
+    "execution_type": "Parallel"
+  },
+  "performance_metrics": {
+    "total_estimated_hours": 40.0,
+    "task_count": 19
+  },
+  "tags": [
+    "execution",
+    "parallel",
+    "sls",
+    "task"
+  ],
+  "version": "1.0",
+  "created": "2025-11-26",
+  "last_updated": "2025-11-26",
+  "migration_notes": {
+    "original_id": "WFC-046",
+    "converted_from": "WFC format",
+    "conversion_date": "2025-11-26"
+  }
+}

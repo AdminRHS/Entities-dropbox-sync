@@ -1,0 +1,119 @@
+{
+  "entity_type": "LIBRARIES",
+  "sub_entity": "Tool",
+  "tool_id": "TOL-077",
+  "name": "Hugging Face",
+  "vendor": "Hugging Face Inc.",
+  "category": "Cloud_Platforms / Model Hub",
+  "purpose": "AI model hosting, distribution, and collaboration platform",
+  "description": "Hugging Face is the leading platform for hosting, sharing, and distributing AI models, datasets, and spaces. It provides infrastructure for downloading pre-trained models, accessing model documentation, and integrating AI models into applications. Primary source for downloading Wan 2.2 models and other open-source AI tools.",
+  "skill_level_required": "Beginner",
+  "cost_structure": "Free tier available, paid plans for enterprise features",
+  "platform_compatibility": [
+    "Web",
+    "API",
+    "Python",
+    "Command Line"
+  ],
+  "integration_capabilities": [
+    "Diffusers library",
+    "Transformers library",
+    "Python API",
+    "Git LFS",
+    "Model download and versioning",
+    "Datasets API"
+  ],
+  "documentation_url": "https://huggingface.co/docs",
+  "actual_remote_helpers_usage": {
+    "primary_use": "Download and manage AI models for video generation and other AI tasks",
+    "users": [
+      "AI Department",
+      "Video Department",
+      "Development Department"
+    ],
+    "use_cases": [
+      "Download Wan 2.2 model files (diffusion models, VAE, text encoders)",
+      "Access AI model documentation and specifications",
+      "Browse available AI models and versions",
+      "Download model variants (FP16, FP8, GGUF quantized)",
+      "Check model file sizes and VRAM requirements",
+      "Access model repositories and version history"
+    ],
+    "workflows": [
+      "Model Installation and Setup",
+      "AI Model Discovery and Selection",
+      "Model Version Management"
+    ]
+  },
+  "key_features": {
+    "model_hosting": "Host and distribute AI models of any size",
+    "version_control": "Git-based versioning for models and datasets",
+    "file_browser": "Web interface for browsing model files and structure",
+    "documentation": "Model cards with usage instructions and specifications",
+    "community": "Large community of AI researchers and developers",
+    "api_access": "Python API for programmatic model downloading",
+    "spaces": "Host interactive AI demos and applications"
+  },
+  "strengths": [
+    "Largest repository of open-source AI models",
+    "Easy model discovery and download",
+    "Comprehensive documentation for models",
+    "Active community support",
+    "Free hosting for open-source models",
+    "Git-based workflow familiar to developers",
+    "Support for large file storage (Git LFS)",
+    "Integration with popular AI libraries"
+  ],
+  "limitations": [
+    "Large model files require significant bandwidth",
+    "Download speeds depend on internet connection",
+    "Some models require acceptance of terms/licenses",
+    "Storage quotas on free tier",
+    "Large files require Git LFS setup"
+  ],
+  "departments_using": [
+    "AI",
+    "Video",
+    "Development",
+    "Design"
+  ],
+  "finance_data": {
+    "subscription_status": "unpaid",
+    "total_accounts": 1,
+    "paid_accounts": 0,
+    "unpaid_accounts": 1,
+    "latest_valid_until": null,
+    "accounts": [
+      {
+        "email": "admin@rh-s.com",
+        "status": "not paid",
+        "paid_date": null,
+        "valid_until": null,
+        "department": ""
+      }
+    ],
+    "departments_using": []
+  },
+  "tags": [
+    "model-hub",
+    "ai-models",
+    "cloud-platform",
+    "open-source",
+    "model-distribution",
+    "machine-learning",
+    "diffusion-models"
+  ],
+  "discovery_date": "2025-11-15",
+  "discovery_source": "Video_011 transcription analysis",
+  "status": "active",
+  "version": "1.0",
+  "created": "2025-11-15",
+  "last_updated": "2025-11-15",
+  "source": "Video_011",
+  "_migration": {
+    "date": "2025-11-26T02:01:31.235467",
+    "old_tool_id": "TOL-077",
+    "old_path": "TOL-077_Hugging_Face.json",
+    "migrated_by": "restructure_tools_v1"
+  }
+}

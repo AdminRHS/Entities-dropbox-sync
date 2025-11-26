@@ -1,0 +1,48 @@
+{
+  "entity_type": "TASK_MANAGERS",
+  "sub_entity": "Workflow",
+  "workflow_id": "WRF-026",
+  "metadata": {
+    "workflow_name": "Development - Documentation Tasks",
+    "description": "Execution phase workflow for DEV department - Documentation category",
+    "primary_department": "DEV",
+    "departments_involved": [
+      "DEV"
+    ],
+    "workflow_type": "Parallel",
+    "execution_phase": "Execution",
+    "category": "Documentation",
+    "priority": "Medium",
+    "estimated_duration": "12.0h",
+    "complexity": "Medium",
+    "status": "Active",
+    "created_date": "2025-11-26",
+    "version": "1.0"
+  },
+  "tasks": {
+    "total_count": 2,
+    "task_ids": [
+      "TST-178",
+      "TST-230"
+    ],
+    "execution_type": "Parallel"
+  },
+  "performance_metrics": {
+    "total_estimated_hours": 12.0,
+    "task_count": 2
+  },
+  "tags": [
+    "execution",
+    "parallel",
+    "dev",
+    "documentation"
+  ],
+  "version": "1.0",
+  "created": "2025-11-26",
+  "last_updated": "2025-11-26",
+  "migration_notes": {
+    "original_id": "WFC-026",
+    "converted_from": "WFC format",
+    "conversion_date": "2025-11-26"
+  }
+}

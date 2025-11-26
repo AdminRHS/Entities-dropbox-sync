@@ -1,0 +1,644 @@
+{
+  "entity_type": "LIBRARIES",
+  "sub_entity": "Tool",
+  "tool_id": "TOL-097",
+  "name": "Midjourney",
+  "vendor": "Midjourney Inc.",
+  "category": "AI/Generative AI",
+  "purpose": "AI image generation for concept art, illustrations, and visual ideation",
+  "description": "AI-powered text-to-image generation tool accessed via Discord and web interface. Advanced platform offering extensive control over image generation through parameters, seed references, image references, remix features, and built-in editor. Used for banners, icons, flat illustrations, concept exploration, visual references, pattern creation, and professional design workflows. Features comprehensive organization tools including smart folders, filters, and community features.",
+  "skill_level_required": "Intermediate (requires prompt engineering skills)",
+  "cost_structure": "Subscription-based ($10/month Basic, $30/month Standard, $60/month Pro, $120/month Mega)",
+  "platform_compatibility": [
+    "Discord bot",
+    "Web interface (midjourney.com)"
+  ],
+  "integration_capabilities": [
+    "Discord integration",
+    "Web interface (midjourney.com)",
+    "Image prompting (--cref)",
+    "Style references (--sref) with style weights (--sw 0-1000)",
+    "Image references (character, style, image, prompt) with image weights (--iw 0-1000)",
+    "Seed references (SREF) for style consistency",
+    "Parameter customization (AR, stylize, weird, chaos, speed, stealth, stop, tile, --no)",
+    "Upscaling and variations (subtle/strong, subtle/creative)",
+    "Remix feature for combining multiple references",
+    "Built-in editor for fine-tuning",
+    "Smart folders with automatic organization",
+    "Filter system (liked, unrated, hidden, types, aspect ratios, versions)",
+    "Frame-to-frame video generation",
+    "Start/end frame control",
+    "High motion settings",
+    "HD video output",
+    "Zoom and pan features",
+    "Pattern creation (tile parameter)"
+  ],
+  "documentation_url": "https://docs.midjourney.com/",
+  "actual_remote_helpers_usage": {
+    "primary_use": "AI Image Generation for Design Concepts",
+    "users": [
+      "Design Team (9 designers)",
+      "Primarily Graphic Designers",
+      "Content Creators",
+      "YouTube Creators"
+    ],
+    "team_members": [
+      "All designers for concept exploration",
+      "Illustrators for reference imagery",
+      "Graphic designers for banner concepts",
+      "Content creators for thumbnail generation",
+      "Social media managers for engaging visuals"
+    ],
+    "use_cases": [
+      "ideate banners",
+      "explore flat illustrations",
+      "ideate icons",
+      "ideate characters",
+      "create composite backgrounds",
+      "create visual references",
+      "explore moodboards",
+      "generate marketing imagery",
+      "design youtube thumbnails",
+      "optimize thumbnail styles",
+      "create social visuals",
+      "create brand mascots",
+      "ideate creator thumbnails",
+      "create frame-to-frame transition videos",
+      "generate character transformation transitions",
+      "create person-to-AI-character morphing videos",
+      "produce high-motion transition effects"
+    ],
+    "typical_workflows": [
+      {
+        "task": "Generate Banner Concept with Midjourney",
+        "steps": [
+          "Craft detailed prompt with visual style, composition, colors",
+          "Use --cref for reference image consistency",
+          "Use parameters (--ar 16:9 for banner aspect ratio, --v 6 for latest model)",
+          "Generate multiple variations",
+          "Upscale selected concept",
+          "Import into Photoshop or Figma for refinement",
+          "Add text, branding, and final touches"
+        ],
+        "complexity": "Medium",
+        "time_estimate": "30 minutes - 2 hours"
+      },
+      {
+        "task": "Create Illustration Reference",
+        "steps": [
+          "Define illustration style in prompt (flat, isometric, etc.)",
+          "Use --sref for style consistency across series",
+          "Generate variations",
+          "Select best concepts",
+          "Use as reference for manual illustration in Illustrator"
+        ],
+        "complexity": "Low to Medium",
+        "time_estimate": "20-60 minutes"
+      },
+      {
+        "task": "Generate YouTube Thumbnail (High CTR)",
+        "steps": [
+          "Define thumbnail concept with high-impact visuals",
+          "Use prompt specifying 'bold text area', 'high contrast', 'dramatic composition'",
+          "Reference successful thumbnail styles (e.g., Mr. Beast style) with --sref",
+          "Use aspect ratio --ar 16:9 for YouTube format",
+          "Generate multiple variations for A/B testing",
+          "Upscale best options",
+          "Import to Photoshop to add bold text overlay",
+          "Optimize for click-through rate (vibrant colors, clear focal point)",
+          "Export and test performance"
+        ],
+        "complexity": "Medium",
+        "time_estimate": "30-60 minutes"
+      },
+      {
+        "task": "Create Frame-to-Frame Transition Video for Viral Hook",
+        "steps": [
+          "Export end frame from original video (person)",
+          "Export start frame from AI-animated video (character)",
+          "Navigate to Midjourney frame-to-frame feature",
+          "Upload original frame as 'Starting Frame'",
+          "Upload AI character frame as 'Ending Frame'",
+          "Write transformation prompt (e.g., 'his skin turns blue and then he turns into an alien. No talking.')",
+          "Set motion to 'High' for dynamic transitions",
+          "Set resolution to 'HD' to avoid post-upscaling",
+          "Generate transition video",
+          "Download best result",
+          "Import to Premiere Pro and speed up (5 sec → 1 sec compression) for smoothness"
+        ],
+        "complexity": "Medium",
+        "time_estimate": "15-25 minutes",
+        "tools_involved": "Midjourney, Premiere Pro, Veo 3, Nano Banana"
+      },
+      {
+        "task": "Generate Image Using Multiple References (Remix Feature)",
+        "steps": [
+          "Browse Explore page for inspiration",
+          "Select character reference image",
+          "Select style reference image(s)",
+          "Optionally add seed reference (SREF)",
+          "Enter simple text prompt",
+          "Click and drag references to prompt bar",
+          "Choose reference types (character, style, image, prompt)",
+          "Submit remix generation",
+          "Review combined result",
+          "Optionally refine with variations or upscaling"
+        ],
+        "complexity": "Medium",
+        "time_estimate": "2-3 minutes"
+      },
+      {
+        "task": "Create Style-Consistent Image Series Using Seeds",
+        "steps": [
+          "Find style seed code from Explore page or chat",
+          "Copy seed (SREF code)",
+          "Enter new prompt",
+          "Add seed reference (--sref [seed_code])",
+          "Set style weight (--sw 0-1000)",
+          "Optionally add image reference with image weight (--iw 0-1000)",
+          "Submit generation",
+          "Review style consistency",
+          "Generate series maintaining same seed",
+          "Organize in smart folder"
+        ],
+        "complexity": "Medium to High",
+        "time_estimate": "2-3 minutes per image"
+      },
+      {
+        "task": "Advanced Prompting with Custom Parameters",
+        "steps": [
+          "Enter detailed text prompt",
+          "Add aspect ratio parameter (--ar 16:9 or custom)",
+          "Set stylization parameter (--stylize 10-100, default 100)",
+          "Set weirdness parameter (--weird 0-3000, default 0)",
+          "Set chaos parameter (--chaos 0-1000, default 10)",
+          "Set speed parameter (fast/slow)",
+          "Set stealth mode (optional)",
+          "Use curly brackets for multiple parameter values {0.1, 0.2, 0.3}",
+          "Submit generation",
+          "Compare results with different parameter values"
+        ],
+        "complexity": "Medium",
+        "time_estimate": "2-3 minutes (including experimentation)"
+      },
+      {
+        "task": "Edit Generated Image Using Built-in Editor",
+        "steps": [
+          "Select image to edit",
+          "Click 'Rerun' → 'Editor'",
+          "Adjust brush size and scale",
+          "Erase unwanted elements",
+          "Optionally restore erased elements",
+          "Modify edit prompt if needed",
+          "Change aspect ratio if needed",
+          "Submit edited generation",
+          "Review refined results"
+        ],
+        "complexity": "Medium",
+        "time_estimate": "3-5 minutes"
+      },
+      {
+        "task": "Create Seamless Pattern Using Tile Parameter",
+        "steps": [
+          "Generate or select base image",
+          "Add reference (style or image)",
+          "Add tile parameter (--tile)",
+          "Optionally add stop parameter (--stop 90) for softer look",
+          "Set aspect ratio",
+          "Submit generation",
+          "Review tiled pattern result",
+          "Export pattern for use in design projects"
+        ],
+        "complexity": "Low to Medium",
+        "time_estimate": "1-2 minutes"
+      },
+      {
+        "task": "Organize Generated Images with Smart Folders",
+        "steps": [
+          "Navigate to Organize tab",
+          "Create smart folder with search terms",
+          "Set filter criteria (liked, unrated, hidden, types, aspect ratios, versions)",
+          "Use view options to adjust layout",
+          "Select multiple images for batch actions",
+          "Download, publish, or organize into folders",
+          "Use filters to find specific image types"
+        ],
+        "complexity": "Low",
+        "time_estimate": "5-10 minutes (initial setup), ongoing"
+      },
+      {
+        "task": "Generate Image with Concept Separation",
+        "steps": [
+          "Enter prompt with concepts separated by ::",
+          "Set weight ratios (e.g., fire::4 truck::1)",
+          "Use two colons to separate concepts",
+          "Adjust weights to control concept prominence",
+          "Submit generation",
+          "Review concept balance",
+          "Adjust weights if needed"
+        ],
+        "complexity": "Medium",
+        "time_estimate": "1-2 minutes"
+      },
+      {
+        "task": "Generate Image with Exclusion Function",
+        "steps": [
+          "Enter main prompt",
+          "Add exclusion parameter (--no [element])",
+          "Specify unwanted elements",
+          "Submit generation",
+          "Verify excluded elements are not present",
+          "Optionally combine with other parameters"
+        ],
+        "complexity": "Low",
+        "time_estimate": "1-2 minutes"
+      },
+      {
+        "task": "Create Moodboard for Consistent Style",
+        "steps": [
+          "Navigate to Personalize page",
+          "Click Create Moodboard",
+          "Add 7-20 images from gallery, computer, or web links",
+          "Select images with similar visual style",
+          "Name the moodboard",
+          "Click Copy Code to get profile code",
+          "Use code in prompt with --profile parameter",
+          "Adjust stylize value (--s 0-1000) to control moodboard influence",
+          "View Creations to see all images made with that moodboard"
+        ],
+        "complexity": "Medium",
+        "time_estimate": "20-30 minutes (initial creation), 1 minute (subsequent use)",
+        "source": "Video_018"
+      },
+      {
+        "task": "Create Standard Profile by Ranking Images",
+        "steps": [
+          "Navigate to Personalize page",
+          "Click Create Standard Profile",
+          "Rank image pairs (left vs right)",
+          "Rank minimum 40 pairs to unlock first profile code",
+          "Continue ranking for more refined personalization (100+ recommended)",
+          "Copy profile code",
+          "Use code in prompt with --profile parameter",
+          "Test with various prompts to see personalized style"
+        ],
+        "complexity": "Medium",
+        "time_estimate": "45-60 minutes (initial 40+ rankings), ongoing refinement",
+        "note": "Moodboards recommended over Standard Profiles for better control",
+        "source": "Video_018"
+      },
+      {
+        "task": "Maintain Character Consistency with Character Reference",
+        "steps": [
+          "Generate or select base character image (must be Midjourney-generated)",
+          "Upload image or select from gallery",
+          "Add image to prompt box",
+          "Select 'Character Reference' option",
+          "Write prompt describing new scene/outfit",
+          "Add character weight parameter (--cw 0-100)",
+          "Use --cw 0 for face-only consistency (recommended)",
+          "Use --cw 100 for full character including clothing/hair",
+          "Submit generation",
+          "Review character consistency across images"
+        ],
+        "complexity": "Advanced",
+        "time_estimate": "10-15 minutes per scene",
+        "limitations": "Works best with Midjourney-generated images, not real photos",
+        "source": "Video_018"
+      },
+      {
+        "task": "Retexture Image While Preserving Structure",
+        "steps": [
+          "Generate or select base image",
+          "Click More Options → Open in Full Editor",
+          "Select Retexture feature",
+          "Enter new style prompt (e.g., '1990s anime look', 'watercolor style')",
+          "Submit generation",
+          "Review 4 retextured variations",
+          "Select favorite version",
+          "Upscale if needed"
+        ],
+        "complexity": "Intermediate",
+        "time_estimate": "5-10 minutes",
+        "requirements": "Full Editor access (10,000+ images, 12-month subscription, or annual plan)",
+        "source": "Video_018"
+      },
+      {
+        "task": "Apply Triple Triple Technique for Unique Results",
+        "steps": [
+          "Select 3 different images from Explore or gallery",
+          "Drag first image to prompt box",
+          "Add second and third images",
+          "Hold Shift key and click all three reference types for each image",
+          "Apply: Image Prompt + Style Reference + Character Reference",
+          "Write simple prompt (e.g., 'Ya' or single word)",
+          "Submit generation",
+          "Review unique mashup results"
+        ],
+        "complexity": "Advanced",
+        "time_estimate": "5-10 minutes",
+        "note": "Results are highly experimental and unpredictable",
+        "source": "Video_018"
+      }
+    ],
+    "prompt_best_practices": [
+      "Include specific visual style (flat, isometric, photorealistic, etc.)",
+      "Specify composition and framing",
+      "Use --no parameter to exclude unwanted elements",
+      "Reference existing images with --cref for consistency",
+      "Use --ow (organization weight) for brand consistency",
+      "For thumbnails: specify 'high contrast', 'dramatic', 'bold composition'",
+      "For CTR optimization: request 'eye-catching', 'vibrant colors', 'clear focal point'",
+      "Use --ar 16:9 for YouTube thumbnails",
+      "Reference viral thumbnail styles with --sref for proven formats",
+      "For frame-to-frame transitions: use 'High' motion setting for dynamic effects",
+      "For transitions: select HD output to avoid post-upscaling",
+      "For transitions: add 'No talking' to prompts if dialogue not needed",
+      "Speed up generated transitions in post-production (5 sec → 1 sec) for smoother morphs",
+      "Use seed references (--sref) with style weights (--sw 0-1000) for style consistency",
+      "Combine multiple image references (character, style, image) for complex compositions",
+      "Use remix feature for combining references without complex prompting",
+      "Use curly brackets {value1, value2, value3} to test multiple parameter values",
+      "Separate concepts using :: (two colons) with weight ratios (concept1::4 concept2::1)",
+      "Use --stop parameter (0-100) for softer, blurrier effects (useful for backgrounds)",
+      "Use --tile parameter for seamless pattern generation",
+      "Use image weights (--iw 0-1000) to control reference influence",
+      "Lock references in prompt bar to prevent accidental changes",
+      "Use smart folders with search terms for automatic organization",
+      "Filter images by liked, unrated, hidden, types, aspect ratios, or versions",
+      "Use editor for fine-tuning specific parts without regenerating entire image"
+    ],
+    "parameters_reference": {
+      "aspect_ratio": {
+        "parameter": "--ar or AR",
+        "values": "Any ratio (e.g., 16:9, 3:4, 1:1, custom numbers)",
+        "description": "Controls image dimensions and aspect ratio",
+        "example": "--ar 16:9"
+      },
+      "stylization": {
+        "parameter": "--stylize or --stylize",
+        "values": "0-1000 (default: 100)",
+        "description": "Controls how strongly Midjourney aesthetics are applied",
+        "example": "--stylize 50 (less stylized), --stylize 200 (more stylized)"
+      },
+      "weirdness": {
+        "parameter": "--weird or --weird",
+        "values": "0-3000 (default: 0)",
+        "description": "Controls how quirky and creative generations are",
+        "example": "--weird 10 (subtle), --weird 3000 (extreme creativity)"
+      },
+      "chaos": {
+        "parameter": "--chaos or -C",
+        "values": "0-1000 (default: 10)",
+        "description": "Controls variation between the 4 generated images",
+        "example": "--chaos 100 (more variation), --chaos 0 (similar images)"
+      },
+      "speed": {
+        "parameter": "fast/slow",
+        "values": "fast (default, less detail) or slow (more detail)",
+        "description": "Controls generation speed vs quality trade-off",
+        "example": "Use slow for detailed images, fast for quick iterations"
+      },
+      "stealth": {
+        "parameter": "--stealth",
+        "values": "on/off",
+        "description": "Hides image from public Explore page",
+        "example": "--stealth (for private work)"
+      },
+      "stop": {
+        "parameter": "--stop",
+        "values": "0-100",
+        "description": "Stops generation early for softer, blurrier effects",
+        "example": "--stop 50 (softer), --stop 90 (more detail)"
+      },
+      "tile": {
+        "parameter": "--tile",
+        "values": "on/off",
+        "description": "Creates seamless tiling pattern",
+        "example": "--tile (for pattern generation)"
+      },
+      "exclusion": {
+        "parameter": "--no",
+        "values": "element name",
+        "description": "Excludes specific elements from generation",
+        "example": "--no cow (excludes cows from image)"
+      },
+      "style_weight": {
+        "parameter": "--sw or --style-weight",
+        "values": "0-1000",
+        "description": "Controls influence of style reference (SREF)",
+        "example": "--sw 500 (moderate influence), --sw 1000 (maximum influence)"
+      },
+      "image_weight": {
+        "parameter": "--iw or --image-weight",
+        "values": "0-1000",
+        "description": "Controls influence of image reference",
+        "example": "--iw 500 (moderate influence), --iw 1000 (maximum influence)"
+      },
+      "seed_reference": {
+        "parameter": "--sref",
+        "values": "seed code or 'random'",
+        "description": "Uses specific seed for style consistency",
+        "example": "--sref [seed_code] or --sref random"
+      },
+      "concept_separation": {
+        "parameter": "::",
+        "values": "concept1::weight1 concept2::weight2",
+        "description": "Separates concepts with weight ratios",
+        "example": "fire::4 truck::1 (more fire, less truck)"
+      },
+      "character_reference": {
+        "parameter": "--cref",
+        "values": "image URL or uploaded image",
+        "description": "Maintains character consistency across generations",
+        "example": "--cref [image_url]",
+        "limitations": "Works best with Midjourney-generated images, not real photos",
+        "source": "Video_018"
+      },
+      "character_weight": {
+        "parameter": "--cw",
+        "values": "0-100 (default: 100)",
+        "description": "Controls character reference influence (0=face only, 100=full character)",
+        "example": "--cw 0 (face only, recommended), --cw 100 (face+clothing+hair)",
+        "source": "Video_018"
+      },
+      "profile": {
+        "parameter": "--profile or --p",
+        "values": "profile code from moodboard or standard profile",
+        "description": "Applies personalized style from moodboards or ranked preferences",
+        "example": "--p [profile_code]",
+        "source": "Video_018"
+      }
+    },
+    "advanced_features": {
+      "remix_feature": {
+        "description": "Combines multiple image references (character, style, seed) with simple prompt",
+        "use_case": "Complex image creation without extensive prompt engineering",
+        "workflow": "Select references → Enter simple prompt → Generate combined result"
+      },
+      "editor": {
+        "description": "Built-in editor for fine-tuning specific parts of generated images",
+        "capabilities": [
+          "Erase elements",
+          "Restore erased elements",
+          "Adjust brush size",
+          "Change aspect ratio",
+          "Scale image"
+        ],
+        "access": "Available to all users (full editor requires yearly subscription)",
+        "use_case": "Fix specific issues without regenerating entire image"
+      },
+      "smart_folders": {
+        "description": "Automatic organization using search terms",
+        "capabilities": [
+          "Auto-detection of image content",
+          "Search term filtering",
+          "Automatic categorization"
+        ],
+        "use_case": "Managing large collections of generated images"
+      },
+      "filters": {
+        "description": "Filter images by various criteria",
+        "options": [
+          "Liked",
+          "Unrated",
+          "Hidden",
+          "Types (grids, upscaled)",
+          "Aspect ratios",
+          "Versions (v4, v5, v6, Niji)",
+          "Published/Unpublished",
+          "Tiled",
+          "Raw"
+        ],
+        "use_case": "Quickly find specific images in large collections"
+      },
+      "zoom_pan": {
+        "description": "Zoom into or pan around generated images",
+        "capabilities": [
+          "Zoom in (2x, 5x)",
+          "Pan (up, down, left, right)",
+          "Focus on specific areas"
+        ],
+        "use_case": "Exploring details or creating variations of specific areas"
+      },
+      "personalization": {
+        "description": "AI learns your preferences after rating 40 images",
+        "capabilities": [
+          "Global profile",
+          "Standard profiles (multiple styles)",
+          "Style pattern recognition"
+        ],
+        "unlock_requirement": "Rate 40 images",
+        "use_case": "Maintain consistent style across generations"
+      }
+    },
+    "internal_platforms_served": [
+      "DGN (Design Services) - Concept art, portfolio pieces",
+      "BZ-V (Business Video) - Background imagery, concepts, transition videos",
+      "REMS (Recruiting) - Visual content for job market insights",
+      "All platforms - Rapid visual ideation",
+      "Viral Content Creation - Frame-to-frame character transformation videos"
+    ]
+  },
+  "strengths": [
+    "Extremely fast concept generation",
+    "High-quality, artistic outputs",
+    "Great for visual exploration",
+    "Excellent for mood boards",
+    "Reduces initial sketching time",
+    "Style consistency with parameters, seeds, and references",
+    "Comprehensive parameter control (AR, stylize, weird, chaos, etc.)",
+    "Remix feature for complex image creation",
+    "Built-in editor for fine-tuning",
+    "Smart folders and filters for organization",
+    "Seed reference system for style consistency",
+    "Pattern creation with tile parameter",
+    "Concept separation with weight ratios",
+    "Exclusion function for unwanted elements",
+    "Zoom and pan features",
+    "Personalization profiles for style consistency",
+    "Moodboard system for custom style collections (7-20 images)",
+    "Standard profiles via image ranking (40+ pairs minimum)",
+    "Character reference system for consistent characters (--cref, --cw)",
+    "Retexture feature for style transformation while preserving structure",
+    "Triple triple technique for experimental multi-reference combinations",
+    "Community features (chat, tasks, profiles)",
+    "Frame-to-frame transition video generation",
+    "High motion control for dynamic transitions",
+    "HD video output without post-upscaling needed",
+    "Both Discord and web interface access"
+  ],
+  "limitations": [
+    "Requires prompt engineering skills",
+    "Can't generate specific text reliably",
+    "Requires refinement in traditional tools",
+    "Subscription cost",
+    "Limited control vs manual design",
+    "Ethical considerations (AI-generated content)",
+    "Full editor requires yearly subscription and usage threshold",
+    "Learning curve for advanced parameters",
+    "Parameter experimentation can be time-consuming",
+    "Seed discovery requires research or experimentation",
+    "Remix feature may not always combine references perfectly",
+    "Editor has limitations compared to professional image editing software"
+  ],
+  "departments_using": [
+    "Designers (PRIMARY)",
+    "Marketing",
+    "Video Production",
+    "Viral Content Creators"
+  ],
+  "finance_data": {
+    "subscription_status": "paid",
+    "total_accounts": 1,
+    "paid_accounts": 1,
+    "unpaid_accounts": 0,
+    "latest_valid_until": "2025-11-15",
+    "accounts": [
+      {
+        "email": "dd@rh-s.com",
+        "status": "paid",
+        "paid_date": "2025-10-15",
+        "valid_until": "2025-11-15",
+        "department": "designers"
+      }
+    ],
+    "departments_using": [
+      "designers"
+    ]
+  },
+  "typical_output_formats": [
+    "PNG",
+    "JPG",
+    "MP4 (for frame-to-frame transitions)"
+  ],
+  "tags": [
+    "ai",
+    "generative-ai",
+    "image-generation",
+    "concept-art",
+    "illustrations",
+    "design-exploration",
+    "pattern-generation",
+    "style-consistency",
+    "seed-references",
+    "remix-feature",
+    "image-editing",
+    "organization-tools",
+    "video-generation",
+    "frame-to-frame-transitions",
+    "character-transformation",
+    "viral-content",
+    "parameter-control",
+    "advanced-prompting"
+  ],
+  "discovery_date": "2024-09-15",
+  "discovery_source": "design_team_adoption",
+  "status": "active",
+  "_migration": {
+    "date": "2025-11-26T02:01:31.267780",
+    "old_tool_id": "TOL-097",
+    "old_path": "TOL-097_Midjourney.json",
+    "migrated_by": "restructure_tools_v1"
+  }
+}

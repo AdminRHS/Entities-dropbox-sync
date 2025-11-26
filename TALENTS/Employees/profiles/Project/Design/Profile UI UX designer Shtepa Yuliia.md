@@ -8,6 +8,8 @@
 
 ## Contact Information
 
+- **Nov25 Folder:** /Dropbox/Nov25/Design/Shtepa Yuliia
+
 - **Personal Email:** shtepayulia2002@gmail.com
 - **Work Email:** yuliia.shtepa23@gmail.com
 - **Discord ID:** Not specified

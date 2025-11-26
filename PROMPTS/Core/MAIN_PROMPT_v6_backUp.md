@@ -154,7 +154,7 @@ PMT-004 (Transcribe) → PMT-006 (Analyze) → PMT-007 (Extract Objects)
 **Daily Ops Workflow:**
 ```bash
 # Run all department reports
-for dept in AID DGN DEV FNC HRM LGN MKT SLS SMM VID; do
+for dept in AID DGN DEV FIN HRM LGN MKT SLS SMM VID; do
   execute_prompt "PMT-0XX_${dept}_Daily_Report" >> daily_reports/$(date +%Y-%m-%d)_${dept}.md
 done
 
@@ -226,7 +226,7 @@ execute_prompt "PMT-032" >> daily_reports/$(date +%Y-%m-%d)_COLLECTION.md
 | **MKT** | Marketing | PMT-040 | PMT-034 (Content) | Campaigns, content strategy |
 | **SLS** | Sales | PMT-041 | PMT-044 | Pipeline management, research |
 | **SMM** | Social Media | PMT-042 | PMT-045 | Content, engagement, community |
-| **FNC** | Finance | PMT-037 | - | Reporting, compliance, budgets |
+| **FIN** | Finance | PMT-037 | - | Reporting, compliance, budgets |
 
 ### COLLABORATION PATTERNS
 

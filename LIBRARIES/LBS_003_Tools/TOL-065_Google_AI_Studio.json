@@ -1,0 +1,412 @@
+{
+  "entity_type": "LIBRARIES",
+  "sub_entity": "Tool",
+  "tool_id": "TOL-065",
+  "name": "Google AI Studio",
+  "vendor": "Google",
+  "category": "AI Tools / AI Development Platform / AI Workbench",
+  "purpose": "Unified platform for generative AI tasks including chat, media generation (Veo video), web app building, and real-time AI collaboration",
+  "description": "Google's official comprehensive AI workbench for experimenting with Gemini AI models. Features four core modules: Chat (structured AI conversations with system instructions), Stream (real-time voice/webcam/screen-sharing collaboration), Generate Media (Veo AI video generation from text/images), and Build (no-code web app generation with Cloud Run deployment). Provides browser-based interface for testing prompts, comparing model outputs, building AI applications, and accessing Gemini API. Includes advanced features like temperature control, thinking mode, code execution, function calling, Google Search grounding, and multimodal support (text, images, video, audio). Free tier with generous quotas for development and testing.",
+  "skill_level_required": "Beginner to Advanced",
+  "cost_structure": "Free tier with usage limits, Pay-per-use for API calls beyond free tier",
+  "platform_compatibility": [
+    "Web Browser (primary interface)",
+    "API (REST)",
+    "Python SDK",
+    "Node.js SDK",
+    "Mobile SDKs",
+    "Google Cloud Run (deployment)"
+  ],
+  "core_features": {
+    "chat_tab": {
+      "name": "Chat",
+      "description": "Structured AI conversations with file upload, YouTube video summarization, and system instructions",
+      "capabilities": [
+        "Direct prompting with Gemini models",
+        "File uploads from Google Drive or local computer",
+        "YouTube video URL summarization",
+        "Audio file processing",
+        "Webcam image capture",
+        "Sample media library access",
+        "System instructions for persistent AI behavior",
+        "Temperature and token control",
+        "Safety settings configuration"
+      ],
+      "use_cases": [
+        "Social media caption generation",
+        "YouTube video summarization (5 bullet points format)",
+        "Content drafting and ideation",
+        "Document analysis",
+        "Multimodal content processing"
+      ]
+    },
+    "stream_tab": {
+      "name": "Stream",
+      "description": "Real-time AI collaboration using voice, webcam, and screen sharing",
+      "capabilities": [
+        "Voice conversation with AI (microphone input)",
+        "Webcam visual analysis (mobile device optimized)",
+        "Screen sharing for context-aware assistance",
+        "Real-time object/symbol recognition",
+        "Step-by-step guided workflows",
+        "Design tool integration support (e.g., Canva, Google Docs)",
+        "Live coding assistance",
+        "Interactive problem-solving"
+      ],
+      "use_cases": [
+        "Real-time design assistance",
+        "QR code generation guidance",
+        "Software troubleshooting",
+        "Document editing support",
+        "Visual learning and analysis",
+        "Hands-free AI interaction"
+      ]
+    },
+    "generate_media_tab": {
+      "name": "Generate Media",
+      "description": "AI-powered media creation using Veo video generator",
+      "capabilities": [
+        "Text-to-video generation",
+        "Image-to-video animation",
+        "Still image animation with motion prompts",
+        "Aspect ratio customization",
+        "Video duration control",
+        "Negative prompt filtering",
+        "Multiple output generation",
+        "MP4 export"
+      ],
+      "use_cases": [
+        "Animate still images (e.g., 'make the dog stand up and walk away')",
+        "Create short video clips from text descriptions",
+        "Social media content creation",
+        "Prototype video concepts",
+        "Visual storytelling"
+      ],
+      "veo_integration": "Built-in Veo AI video generator with simple text prompts or image uploads"
+    },
+    "build_tab": {
+      "name": "Build",
+      "description": "No-code web application generation from natural language prompts",
+      "capabilities": [
+        "Web app generation from text descriptions",
+        "Live code preview",
+        "Real-time iteration via chat",
+        "Instant Cloud Run deployment",
+        "Code assistant panel showing generation steps",
+        "Public URL publishing",
+        "Feature modification through conversation"
+      ],
+      "use_cases": [
+        "Create web apps (e.g., coffee shop menu with feedback form)",
+        "Rapid prototyping",
+        "No-code tool development",
+        "Client demos",
+        "MVP creation"
+      ],
+      "deployment": "One-click deploy to Google Cloud Run for public access"
+    }
+  },
+  "advanced_settings": {
+    "model_selection": "Gemini 2.5 Pro (recommended for complex tasks), Gemini 2.0 Flash (for speed), multiple models with hover-over specs",
+    "temperature_control": "0.0 (focused) to 1.0 (creative) - controls output randomness",
+    "token_management": "Usage tracking, output length control (up to 65,536 tokens)",
+    "thinking_mode": "Reflective multi-step reasoning toggle",
+    "thinking_budget": "Computational effort slider for task complexity",
+    "tools": [
+      "Structured output (JSON, tables, lists)",
+      "Code execution (Python behind the scenes)",
+      "Function calling (trigger custom functions)",
+      "Google Search grounding (real-time fact checking)",
+      "URL context (analyze live web pages)"
+    ],
+    "safety_settings": "Customizable content filters for sensitive/inappropriate output",
+    "stop_sequences": "Define custom stopping points for generation",
+    "top_p_sampling": "0.95 default - balances creativity and coherence"
+  },
+  "integration_capabilities": [
+    "Gemini API access (all models: Flash, Pro, Ultra)",
+    "Veo video generation API",
+    "Function calling and tool use",
+    "Multimodal processing (text, image, video, audio)",
+    "Prompt engineering workspace",
+    "Code generation for integrations",
+    "Google Cloud Run deployment",
+    "Google Cloud integration",
+    "Vertex AI connection",
+    "Custom application embedding",
+    "YouTube video analysis",
+    "Real-time web context (URL fetching)",
+    "Screen sharing API"
+  ],
+  "documentation_url": "https://aistudio.google.com",
+  "actual_remote_helpers_usage": {
+    "primary_use": "Comprehensive AI Workbench for Multi-Department Tasks",
+    "users": [
+      "AI Engineers",
+      "Software Developers",
+      "Content Creators",
+      "Social Media Managers",
+      "Video Editors",
+      "Designers",
+      "Small Business Owners",
+      "Automation Specialists"
+    ],
+    "use_cases": [
+      "Social media caption generation for events",
+      "YouTube video summarization (5 bullet points)",
+      "AI-generated video clips from images",
+      "No-code web app creation and deployment",
+      "Real-time design assistance via screen sharing",
+      "Test Gemini models before integration",
+      "Generate API keys for applications",
+      "Prototype AI features",
+      "Compare model performance (Flash vs Pro)",
+      "Build multimodal applications",
+      "Develop automation workflows",
+      "Create function-calling agents",
+      "Experiment with prompt engineering",
+      "QR code generation guidance"
+    ],
+    "workflows": [
+      "WRF-001: Create Social Media Caption (1-2 min, Low complexity, SMM)",
+      "WRF-002: Summarize YouTube Video (1-2 min, Low complexity, AID/VID/MKT)",
+      "WRF-003: Generate Video from Image (3-5 min, Medium complexity, VID/SMM)",
+      "WRF-004: Build and Deploy a Web App (5-10 min, High complexity, DEV/AID)",
+      "Gemini API setup for applications",
+      "Model evaluation and selection",
+      "Prototype development",
+      "Integration testing"
+    ],
+    "typical_workflow_pattern": [
+      {
+        "task": "Create Social Media Caption for Event",
+        "steps": [
+          "Access Google AI Studio Chat tab",
+          "Write prompt with event details (name, artist, date, time, location)",
+          "Set temperature to 0.9 for creative output",
+          "Run prompt to generate multiple caption options with hashtags",
+          "Select and refine best caption"
+        ],
+        "complexity": "Low",
+        "time_estimate": "1-2 minutes",
+        "time_saved": "Eliminates manual copywriting and ideation time",
+        "department": "SMM"
+      },
+      {
+        "task": "Summarize YouTube Video",
+        "steps": [
+          "Access Google AI Studio Chat tab",
+          "Paste YouTube video URL",
+          "Prompt: 'Summarize this video in 5 bullet points'",
+          "Run to extract key insights",
+          "Review generated summary"
+        ],
+        "complexity": "Low",
+        "time_estimate": "1-2 minutes",
+        "time_saved": "Avoids watching entire video, instant comprehension",
+        "department": "AID, VID, MKT"
+      },
+      {
+        "task": "Generate Video from Image",
+        "steps": [
+          "Navigate to Generate Media tab",
+          "Upload still image",
+          "Write animation prompt (e.g., 'make the dog stand up and walk away')",
+          "Customize video settings (aspect ratio, duration, frame rate)",
+          "Generate and download MP4"
+        ],
+        "complexity": "Medium",
+        "time_estimate": "3-5 minutes",
+        "time_saved": "No need for video editing software or manual animation",
+        "department": "VID, SMM"
+      },
+      {
+        "task": "Build and Deploy a Web App",
+        "steps": [
+          "Navigate to Build tab",
+          "Write descriptive prompt (e.g., 'create a coffee shop web app with menu and feedback form. Don't include pictures.')",
+          "Generate application and observe code generation",
+          "Preview and iterate using chat (e.g., 'Add a matcha latte to the menu')",
+          "Deploy to Cloud Run for live public URL"
+        ],
+        "complexity": "High",
+        "time_estimate": "5-10 minutes",
+        "time_saved": "Eliminates hours of manual coding and deployment setup",
+        "department": "DEV, AID"
+      },
+      {
+        "task": "Set Up Gemini API for Application",
+        "steps": [
+          "Access Google AI Studio (ai.google.dev)",
+          "Create new API key",
+          "Test prompts in playground",
+          "Select appropriate model (Flash for speed, Pro for quality)",
+          "Generate integration code (Python/JavaScript)",
+          "Test API calls with sample data",
+          "Deploy to production application"
+        ],
+        "complexity": "Low to Medium",
+        "time_estimate": "30-60 minutes",
+        "time_saved": "Eliminates trial-and-error with direct API integration",
+        "department": "AI, DEV"
+      }
+    ],
+    "integration_with_other_tools": [
+      "Veo (TOL-VEO-001) - built-in video generation",
+      "Gemini 2.5 Pro (TOL-AI-003) - production usage",
+      "Google Cloud Run (TOL-CLOUD-001) - web app deployment",
+      "NotebookLM (TOL-AI-004) - comparison/alternative for research",
+      "TOL-081 (Google Cloud) for deployment",
+      "TOL-119 (n8n) for automation workflows",
+      "TOL-045 (Google Sheets) for data processing",
+      "Python/JavaScript development environments",
+      "Canva (design tool integration via screen sharing)",
+      "YouTube (video analysis integration)"
+    ]
+  },
+  "strengths": [
+    "Unified platform with 4 distinct AI workspaces (Chat, Stream, Generate Media, Build)",
+    "Free tier with generous quotas",
+    "Direct access to latest Gemini models (2.5 Pro, 2.0 Flash)",
+    "Multimodal capabilities (text, image, video, audio)",
+    "Fast response times (especially Flash models)",
+    "Excellent prompt engineering interface with system instructions",
+    "Built-in Veo video generation (text-to-video, image-to-video)",
+    "No-code web app builder with instant deployment",
+    "Real-time collaboration (voice, webcam, screen sharing)",
+    "YouTube video summarization built-in",
+    "Built-in code generation",
+    "Seamless Google Cloud Run integration",
+    "No credit card required for free tier",
+    "Comprehensive run settings (temperature, thinking mode, safety)",
+    "Advanced tools (code execution, function calling, grounding)"
+  ],
+  "limitations": [
+    "Rate limits on free tier",
+    "Less prompt flexibility than some competitors",
+    "Primarily Google ecosystem focused",
+    "API changes frequently with model updates",
+    "Veo video generation limited to short clips",
+    "Build tab primarily for simple web apps (not complex enterprise software)"
+  ],
+  "comparison_with_alternatives": {
+    "vs_notebooklm": "AI Studio is for 'launching' (creating, building, deploying), NotebookLM is for 'learning' (researching, analyzing uploaded documents). AI Studio is production-ready, NotebookLM is research-focused.",
+    "vs_chatgpt": "AI Studio offers integrated video generation (Veo), no-code app building, and real-time screen sharing - broader creative toolkit beyond chat.",
+    "vs_claude": "AI Studio has built-in deployment (Cloud Run), media generation, and Google ecosystem integration."
+  },
+  "departments_using": [
+    "AI",
+    "Dev",
+    "SMM",
+    "VID",
+    "DGN",
+    "MKT"
+  ],
+  "finance_data": {
+    "subscription_status": "free_tier",
+    "total_accounts": 2,
+    "paid_accounts": 0,
+    "unpaid_accounts": 2,
+    "latest_valid_until": "N/A (free tier)",
+    "accounts": [
+      {
+        "email": "dev@rh-s.com",
+        "status": "active",
+        "tier": "free",
+        "department": "AI"
+      },
+      {
+        "email": "admin@rh-s.com",
+        "status": "active",
+        "tier": "free",
+        "department": "Dev"
+      }
+    ],
+    "departments_using": [
+      "AI",
+      "Dev",
+      "SMM",
+      "VID",
+      "DGN",
+      "MKT"
+    ]
+  },
+  "usage_statistics": {
+    "nov_20_2025": {
+      "references": 2,
+      "tasks_linked": [
+        "TST-073 (Setup Automation Infrastructure)",
+        "TST-075 (Design Database Schema)"
+      ],
+      "departments_active": [
+        "AI",
+        "Dev"
+      ]
+    },
+    "nov_24_2025": {
+      "references": 1,
+      "video_source": "Video_023",
+      "entities_extracted": 37,
+      "workflows_documented": 4,
+      "departments_active": [
+        "AID",
+        "DEV",
+        "SMM",
+        "VID",
+        "DGN",
+        "MKT"
+      ]
+    }
+  },
+  "tags": [
+    "ai",
+    "gemini",
+    "api-development",
+    "google",
+    "multimodal",
+    "prompt-engineering",
+    "ai-development",
+    "free-tier",
+    "video-generation",
+    "veo",
+    "no-code",
+    "web-app-builder",
+    "cloud-run",
+    "screen-sharing",
+    "real-time-collaboration",
+    "youtube-summarization",
+    "system-instructions",
+    "ai-workbench"
+  ],
+  "discovery_date": "2025-11-20",
+  "discovery_source": "Daily_Report_AI_Department",
+  "status": "active",
+  "recommended_model": "Gemini 2.5 Pro for complex tasks, Gemini 2.0 Flash for speed",
+  "video_sources": [
+    {
+      "video_id": "Video_023",
+      "video_title": "Google AI Studio Full Walkthrough and Tutorial",
+      "creator": "AI for Grownups",
+      "duration": "21:07",
+      "extraction_date": "2025-11-24",
+      "entities_extracted": 37,
+      "key_contributions": [
+        "Comprehensive 4-tab feature breakdown (Chat, Stream, Generate Media, Build)",
+        "4 complete workflows with step-by-step instructions",
+        "Advanced settings documentation (temperature, thinking mode, tools)",
+        "Real-world use cases across 6 departments",
+        "Comparison with NotebookLM",
+        "Veo video generation integration details",
+        "Cloud Run deployment workflow"
+      ]
+    }
+  ],
+  "last_updated": "2025-11-24",
+  "update_notes": "Major update from Video_023: Added comprehensive feature documentation for all 4 tabs (Chat, Stream, Generate Media, Build), 4 new workflows, advanced settings details, real-time collaboration features, Veo integration, and multi-department use cases. Expanded from API-focused to full AI workbench documentation.",
+  "_migration": {
+    "date": "2025-11-26T02:01:31.213602",
+    "old_tool_id": "TOL-065",
+    "old_path": "TOL-065_Google_AI_Studio.json",
+    "migrated_by": "restructure_tools_v1"
+  }
+}

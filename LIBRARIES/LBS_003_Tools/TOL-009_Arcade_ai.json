@@ -1,0 +1,84 @@
+{
+  "entity_type": "LIBRARIES",
+  "sub_entity": "Tool",
+  "tool_id": "TOL-009",
+  "name": "Arcade.ai",
+  "vendor": "Arcade",
+  "category": "AI/Agent Authorization & Security",
+  "purpose": "Secure agent authorization and tool security with OAuth flows",
+  "description": "Platform for handling AI agent authorization and tool security. Enables agents to access user accounts (Gmail, Slack, Reddit, etc.) through secure OAuth flows. Includes MCP Server SDK for building secure MCP servers with built-in authorization.",
+  "skill_level_required": "Intermediate",
+  "cost_structure": "Commercial (Pricing not specified)",
+  "platform_compatibility": [
+    "Python",
+    "TypeScript",
+    "MCP Servers"
+  ],
+  "integration_capabilities": [
+    "OAuth 2.0",
+    "Gmail API",
+    "Slack API",
+    "Reddit API",
+    "Multiple third-party services",
+    "MCP Server SDK",
+    "LangGraph integration",
+    "Fast MCP compatibility",
+    "Tool authorization",
+    "Granular permissions"
+  ],
+  "documentation_url": "https://arcade.ai/",
+  "actual_remote_helpers_usage": {
+    "primary_use": "Agent Authorization & Tool Security",
+    "users": [],
+    "use_cases": [
+      "authorize agent access",
+      "implement oauth flows",
+      "secure agent tools",
+      "build secure mcp servers",
+      "access user accounts safely",
+      "manage tool permissions"
+    ],
+    "workflows": [
+      "WF-AI-001: Develop and Deploy AI Application"
+    ]
+  },
+  "strengths": [
+    "Solves complex agent authorization problem",
+    "MCP Server SDK included",
+    "Granular permission control",
+    "Secure OAuth implementation",
+    "Works with LangGraph",
+    "No alternatives that do it the same way"
+  ],
+  "limitations": [
+    "Commercial pricing",
+    "Newer platform",
+    "Requires understanding of OAuth"
+  ],
+  "alternatives": [],
+  "departments_using": [],
+  "tags": [
+    "agent-security",
+    "oauth",
+    "authorization",
+    "mcp-servers",
+    "tool-security",
+    "permissions",
+    "agent-tools"
+  ],
+  "discovery_date": "2025-11-13",
+  "discovery_source": "Video_005",
+  "status": "active",
+  "video_source": {
+    "video_id": "Video_005",
+    "video_title": "My Agentic Engineering Tech Stack",
+    "creator": "Cole",
+    "timestamp": "08:45-10:19"
+  },
+  "_migration": {
+    "date": "2025-11-26T02:01:31.124343",
+    "old_tool_id": "TOL-009",
+    "old_path": "TOL-009_Arcade_ai.json",
+    "migrated_by": "restructure_tools_v1"
+  }
+}

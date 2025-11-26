@@ -8,6 +8,8 @@
 
 ## Contact Information
 
+- **Nov25 Folder:** /Dropbox/Nov25/Design/Shymkevych Iryna
+
 - **Personal Email:** shymkevychiryna@gmail.com
 - **Work Email:** irynashymkevych.rh@gmail.com
 - **Discord ID:** 1424404981586460692

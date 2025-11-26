@@ -1,0 +1,58 @@
+{
+  "entity_type": "TASK_MANAGERS",
+  "sub_entity": "Milestone_Template",
+  "template_id": "Milestone-Template-039",
+  "milestone_template_id": "MLT-039",
+  "metadata": {
+    "milestone_name": "Design single task page layout",
+    "description": "Milestone for Design single task page layout within PRT-017",
+    "primary_department": "AID",
+    "related_project": "PRT-017",
+    "phase": "Planning",
+    "execution_type": "Parallel",
+    "priority": "High",
+    "estimated_duration": "0.7h",
+    "status": "Active",
+    "created_date": "2025-11-26",
+    "version": "1.0"
+  },
+  "tasks": {
+    "total_task_count": 6,
+    "task_template_ids": []
+  },
+  "deliverables": [
+    "Completed Design single task page layout"
+  ],
+  "success_criteria": {
+    "quantitative": [
+      "6 tasks completed",
+      "All deliverables reviewed and approved"
+    ],
+    "qualitative": [
+      "Milestone objectives achieved",
+      "Quality standards met"
+    ]
+  },
+  "dependencies": {
+    "prerequisite_milestones": [],
+    "blocking": false
+  },
+  "performance_metrics": {
+    "estimated_hours": 0.7,
+    "task_count": 6
+  },
+  "tags": [
+    "planning",
+    "parallel",
+    "aid",
+    "prt-017"
+  ],
+  "version": "1.0",
+  "created": "2025-11-26",
+  "last_updated": "2025-11-26",
+  "migration_notes": {
+    "original_workflow_id": "WFC-010",
+    "converted_from": "Workflow_Clustering.csv",
+    "conversion_date": "2025-11-26"
+  }
+}

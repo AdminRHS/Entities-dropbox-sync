@@ -23,12 +23,12 @@
 | TOL ID | Tool Name | Category | Departments Using | Usage Count | Status |
 |--------|-----------|----------|-------------------|-------------|--------|
 | TOL-081 | Google Cloud Console | Cloud_Platforms | AID, DEV | 2 | EXISTING |
-| TOL-045 | Google Sheets | Productivity | AID, FNC | 2 | EXISTING |
+| TOL-045 | Google Sheets | Productivity | AID, FIN | 2 | EXISTING |
 | TOL-156 | Midjourney | AI_Image_Generation | DGN | 2 | EXISTING |
 | TOL-148 | Perplexity AI | AI_Tools | AID | 1 | EXISTING |
 | TOL-092 | Discord | Communication | AID, LGN | 2 | EXISTING |
 | TOL-058 | Notion | Productivity | HRM | 1 | EXISTING |
-| TOL-119 | n8n | Automation | FNC | 1 | EXISTING |
+| TOL-119 | n8n | Automation | FIN | 1 | EXISTING |
 | TOL-201 | Cursor | Development_Tools | AID | 1 | EXISTING |
 | TOL-003 | Gemini 3 Pro | AI_Tools | AID, DGN | 2 | EXISTING |
 | TOL-002 | Claude | AI_Tools | AID | 1 | EXISTING |
@@ -138,7 +138,7 @@
 - **VID (Video):** 2 tools referenced
 - **LGN (Lead Generation):** 1 tool referenced
 - **HRM (HR):** 1 tool referenced
-- **FNC (Finance):** 2 tools referenced
+- **FIN (Finance):** 2 tools referenced
 - **SLS (Sales):** 1 tool referenced
 
 ### By Usage Frequency

@@ -87,7 +87,7 @@ Successfully completed comprehensive upgrade of Daily Reports system across all 
 3. **Department-Specific Patterns (10 departments)**
    - AI (AID): Infrastructure → Operational, Prompt engineering → PRT-001/PRT-006
    - Design (DGN): Client work → DGN-CLIENT-###, Design system → TST-009
-   - Finance (FNC): 80-90% Operational, occasional automation projects
+   - Finance (FIN): 80-90% Operational, occasional automation projects
    - [Patterns for all 10 active departments documented]
 
 4. **Special Case Handling**
@@ -138,7 +138,7 @@ Successfully completed comprehensive upgrade of Daily Reports system across all 
    - Section 10: Metrics and Deliverables (enhanced with entity data)
 
 4. **All 10 Active Departments**
-   - AID, HRM, DEV, LGN, DGN, VID, SLS, SMM, FNC, CNT
+   - AID, HRM, DEV, LGN, DGN, VID, SLS, SMM, FIN, CNT
    - MKT deprecated (noted in documentation)
    - Department-specific extraction patterns documented
 
@@ -193,7 +193,7 @@ Successfully completed comprehensive upgrade of Daily Reports system across all 
 
 **3. PMT-037_Finance_Daily_Report.md (Operational Template)**
 - Location: `ENTITIES/PROMPTS/DEPARTMENTS/Daily_Reports/Department_Prompts/PMT-037_Finance_Daily_Report.md`
-- Department: Finance (FNC)
+- Department: Finance (FIN)
 - Team: 2 employees (Shyiko Viktoriia, +1)
 - Section 6: "Financial Operations and Reporting"
 - Projects: Mostly Operational/Maintenance (80-90%), occasional automation projects
@@ -522,7 +522,7 @@ ENTITIES/PROMPTS/DEPARTMENTS/Daily_Reports/
 - [x] VID (Video Production) - active
 - [x] SLS (Sales) - active
 - [x] SMM (Social Media Marketing) - active
-- [x] FNC (Finance) - active
+- [x] FIN (Finance) - active
 - [x] CNT (Content) - active
 - [x] MKT (Marketing) - deprecated (noted in docs)
 

@@ -8,6 +8,8 @@
 
 ## Contact Information
 
+- **Nov25 Folder:** /Dropbox/Nov25/AI/Artemchuk Nikolay
+
 - **Personal Email:** artemchuknn@gmail.com
 - **Work Email:** Not specified
 - **Discord ID:** 910144676881903646

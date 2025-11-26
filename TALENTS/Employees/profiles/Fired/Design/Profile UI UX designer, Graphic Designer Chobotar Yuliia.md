@@ -8,6 +8,8 @@
 
 ## Contact Information
 
+- **Nov25 Folder:** /Dropbox/Nov25/Design/Chobotar Yuliia
+
 - **Personal Email:** chobotar.ly@gmail.com
 - **Work Email:** yuliiachobotar.rh@gmail.com
 - **Discord ID:** 1408457298401169559

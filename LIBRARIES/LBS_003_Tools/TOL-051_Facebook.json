@@ -1,0 +1,152 @@
+{
+  "entity_type": "LIBRARIES",
+  "sub_entity": "Tool",
+  "tool_id": "TOL-051",
+  "tool_name": "Facebook",
+  "category": "Social Media Platform",
+  "description": "Community-focused social media platform for building and managing Facebook Groups, Pages, and fostering engaged communities",
+  "primary_use": "Community building, group management, member engagement, brand pages",
+  "platform_type": "Social media with groups, pages, events, and marketplace",
+  "pricing": "Free (Ad platform separate)",
+  "created": "2025-11-13",
+  "updated": "2025-11-13",
+  "used_by_professions": [
+    "Marketer",
+    "Content_Creator",
+    "SMM_Specialist",
+    "Community_Manager"
+  ],
+  "used_in_workflows": [
+    "WF-SMM-001",
+    "WF-SMM-010"
+  ],
+  "creates_objects": [
+    "OBJ-SMM-013"
+  ],
+  "object_details": {
+    "OBJ-SMM-013": "Facebook Group Post - Community discussion posts and value content"
+  },
+  "actions": [
+    "welcome",
+    "post",
+    "moderate",
+    "engage",
+    "organize",
+    "share",
+    "create",
+    "invite"
+  ],
+  "key_features": {
+    "groups": "Private or public community spaces",
+    "pages": "Business and brand presence",
+    "events": "Event creation and management",
+    "marketplace": "Buy/sell functionality",
+    "stories": "24-hour ephemeral content",
+    "live_video": "Live streaming to followers",
+    "watch_party": "Group video viewing",
+    "polls": "Community feedback and engagement"
+  },
+  "content_types": {
+    "group_management": "40% - Daily moderation and member support",
+    "page_content": "30% - Business page posts and updates",
+    "community_challenges": "20% - Engagement campaigns and events",
+    "value_posts": "10% - Tips, resources, educational content"
+  },
+  "technical_specs": {
+    "image_size": "1200×630px recommended for link previews",
+    "video_length": "Up to 240 minutes",
+    "cover_photo": "820×312px (desktop), 640×360px (mobile)",
+    "profile_picture": "170×170px minimum",
+    "group_cover": "1640×856px"
+  },
+  "optimal_posting": {
+    "frequency": "1-2 posts daily in groups, multiple daily moderations",
+    "best_times": [
+      "12-1pm (lunch)",
+      "5-6pm (after work)",
+      "7-9pm (evening prime time)"
+    ],
+    "response_time_goal": "Within 4 hours for community engagement"
+  },
+  "algorithm_factors": {
+    "meaningful_interactions": "Comments and shares weighted more than likes",
+    "group_engagement": "Active discussions boost visibility",
+    "video_content": "Native video uploads prioritized over links",
+    "recency": "Recent engagement signals",
+    "friend_interactions": "Content from friends and family prioritized"
+  },
+  "group_management_best_practices": [
+    "Welcome every new member personally",
+    "Post valuable content daily",
+    "Respond to comments within 4 hours",
+    "Remove spam immediately",
+    "Address conflicts privately via DM",
+    "Highlight and celebrate member contributions",
+    "Run regular challenges to drive participation",
+    "Facilitate member-to-member connections",
+    "Enforce community guidelines consistently",
+    "Use post approval for new members if needed"
+  ],
+  "moderation_guidelines": {
+    "spam_policy": "Remove immediately and ban repeat offenders",
+    "conflict_resolution": "Address privately, never public call-outs",
+    "content_approval": "Optional for new members",
+    "guidelines_enforcement": "Consistent, fair, transparent",
+    "member_privacy": "Protect information and confidentiality"
+  },
+  "performance_metrics": {
+    "member_growth": "New members joining group",
+    "engagement_rate": "Posts per member per day",
+    "post_reach": "Members seeing content",
+    "comments_per_post": "Discussion depth",
+    "member_retention": "Percentage staying active",
+    "response_time": "Average time to respond"
+  },
+  "integration_opportunities": [
+    "Cross-promote from other platforms",
+    "Email list building from group members",
+    "Product launches to engaged community",
+    "Customer support via groups",
+    "Beta testing with community members"
+  ],
+  "common_use_cases": [
+    "Private community building for courses/memberships",
+    "Brand loyalty and customer communities",
+    "Industry-specific networking groups",
+    "Support and troubleshooting communities",
+    "Local community organization",
+    "Event coordination and RSVP management",
+    "Peer-to-peer learning and support",
+    "Challenge and accountability groups"
+  ],
+  "pros": [
+    "Strong community features with groups",
+    "High engagement potential in active groups",
+    "Excellent for building loyal communities",
+    "Wide demographic reach",
+    "Robust moderation and admin tools",
+    "Native live video and events"
+  ],
+  "cons": [
+    "Declining organic reach on Pages",
+    "Algorithm changes affect visibility",
+    "Time-intensive community management",
+    "Privacy concerns may deter some users",
+    "Younger demographics moving to other platforms",
+    "Pay-to-play for significant Page reach"
+  ],
+  "alternative_tools": [
+    "Discord - More for gaming/tech communities",
+    "Slack - For professional communities",
+    "Circle - Modern community platform",
+    "TOOL-SMM-007 (LinkedIn) - Professional networking"
+  ],
+  "source": "SMM_Research_Document_2_Content_Strategy_Multi_Platform",
+  "_migration": {
+    "date": "2025-11-26T02:01:31.188373",
+    "old_tool_id": "TOL-051",
+    "old_path": "TOL-051_Facebook.json",
+    "migrated_by": "restructure_tools_v1"
+  },
+  "name": "Facebook"
+}

@@ -12,7 +12,7 @@
 | AID | AI Department | 11 | 91.7% | Excellent |
 | DGN | Design | 1 | 8.3% | Critical Gap |
 | DEV | Development | 0 | 0% | Critical Gap |
-| FNC | Finance | 0 | 0% | Critical Gap |
+| FIN | Finance | 0 | 0% | Critical Gap |
 | HRM | Human Resources | 0 | 0% | Critical Gap |
 | LGN | Lead Generation | 0 | 0% | Critical Gap |
 | SLS | Sales | 0 | 0% | Critical Gap |
@@ -122,7 +122,7 @@
 
 ---
 
-## Finance Department (FNC) - 0 Guides ⚠️
+## Finance Department (FIN) - 0 Guides ⚠️
 
 ### Critical Gaps
 
@@ -304,7 +304,7 @@
 
 **Critical Gaps - Create First:**
 1. DEV department basics (GDS-030, GDS-031)
-2. FNC expense/invoice guides (GDS-040, GDS-041)
+2. FIN expense/invoice guides (GDS-040, GDS-041)
 3. HRM onboarding (GDS-050)
 4. LGN lead research (GDS-060, GDS-061)
 5. SLS pipeline management (GDS-070)
@@ -367,7 +367,7 @@
 | AID | Current team | Continue expansion |
 | DGN | Design lead + AID | Tool tutorials |
 | DEV | Dev lead + AID | Technical docs |
-| FNC | Finance lead + AID | Process docs |
+| FIN | Finance lead + AID | Process docs |
 | HRM | HR lead + AID | Policy docs |
 | LGN | LG lead + AID | CRM/process |
 | SLS | Sales lead + AID | CRM/communication |

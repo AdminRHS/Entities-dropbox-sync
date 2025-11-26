@@ -1,0 +1,250 @@
+{
+  "entity_type": "LIBRARIES",
+  "sub_entity": "Tool",
+  "tool_id": "TOL-159",
+  "tool_name": "YouTube",
+  "category": "Video Hosting & Social Platform",
+  "description": "World's largest video-sharing platform for long-form tutorials, educational content, and video discovery with powerful SEO and monetization capabilities",
+  "primary_use": "Video tutorials, educational content, thought leadership, audience building, monetization",
+  "platform_type": "Video hosting and social media platform",
+  "pricing": "Free (with ads), YouTube Premium (ad-free), YouTube Partner Program (monetization)",
+  "created": "2025-11-13",
+  "updated": "2025-11-13",
+  "used_by_professions": [
+    "Videographer",
+    "Marketer",
+    "SMM_Specialist",
+    "Designer",
+    "Developer",
+    "Content_Creator"
+  ],
+  "used_in_workflows": [
+    "WF-SMM-006",
+    "WF-SMM-007",
+    "WF-SMM-001"
+  ],
+  "creates_objects": [
+    "OBJ-SMM-008",
+    "OBJ-SMM-009"
+  ],
+  "object_details": {
+    "OBJ-SMM-008": "YouTube Tutorial - Long-form educational video (10-45 min, 16:9)",
+    "OBJ-SMM-009": "YouTube Short - Vertical short-form video (60 sec max, 9:16)"
+  },
+  "actions": [
+    "upload",
+    "edit",
+    "optimize",
+    "schedule",
+    "monetize",
+    "promote",
+    "engage",
+    "analyze",
+    "stream"
+  ],
+  "key_features": {
+    "long_form_video": "10 seconds to 12 hours (most: 10-45 min tutorials)",
+    "shorts": "Vertical videos up to 60 seconds",
+    "live_streaming": "Real-time broadcasts with chat",
+    "community_tab": "Post updates, polls, images for subscribers",
+    "playlists": "Organize videos into series",
+    "chapters": "Timestamp-based video navigation",
+    "cards_end_screens": "In-video CTAs and suggestions",
+    "youtube_studio": "Analytics and video management",
+    "monetization": "Ad revenue, memberships, Super Chat, merch",
+    "seo_power": "Second-largest search engine globally"
+  },
+  "content_types": {
+    "tutorials": "How-to guides and educational content",
+    "vlogs": "Personal or business updates",
+    "reviews": "Product or service reviews",
+    "entertainment": "Comedy, music, entertainment",
+    "shorts": "Quick tips, trending content",
+    "live_streams": "Real-time events, Q&A",
+    "interviews": "Conversations and podcasts"
+  },
+  "technical_specs": {
+    "resolution": "1080p minimum (4K recommended for premium)",
+    "aspect_ratio": "16:9 (horizontal) for long-form, 9:16 (vertical) for Shorts",
+    "max_file_size": "256 GB or 12 hours (whichever less)",
+    "formats": "MP4, MOV, MPEG4, AVI, WMV, MPEGPS, FLV, 3GPP, WebM",
+    "thumbnail": "1280×720px (JPG, GIF, PNG, under 2MB)",
+    "shorts_specs": "9:16 vertical, max 60 seconds, 1080×1920px",
+    "bitrate": "8-12 Mbps for 1080p, 35-45 Mbps for 4K",
+    "frame_rate": "24-60 fps"
+  },
+  "optimal_posting": {
+    "frequency": "1-2 long-form videos per week, daily Shorts optional",
+    "best_times": [
+      "Weekdays 2-4pm EST (after school/work)",
+      "Weekdays 7-9pm EST (prime time)",
+      "Weekends 9-11am EST (morning browsing)"
+    ],
+    "consistency": "Regular upload schedule trains audience and algorithm"
+  },
+  "algorithm_factors": {
+    "watch_time": "PRIMARY metric - total minutes watched",
+    "average_view_duration": "Retention rate throughout video",
+    "click_through_rate": "Thumbnail CTR (aim for >10%)",
+    "engagement": "Likes, comments, shares",
+    "session_time": "Keep viewers on YouTube longer",
+    "velocity": "Views in first 24-48 hours",
+    "seo": "Title, description, tags keyword optimization"
+  },
+  "best_practices": [
+    "Hook viewers in first 15 seconds",
+    "Aim for 8+ minute watch time (ideal for algorithm)",
+    "Custom thumbnails (never auto-generated) with faces and text",
+    "Keyword-first titles (front-load important terms)",
+    "200+ word descriptions with timestamps",
+    "Always add captions for accessibility",
+    "Use end screens to promote next video",
+    "Create playlists for binge-watching",
+    "Respond to comments in first 1-2 hours",
+    "Pin best comment to encourage engagement",
+    "Use chapters for long videos (10+ min)",
+    "Consistent branding and upload schedule",
+    "Cross-promote on other platforms",
+    "Analyze retention graphs to improve content"
+  ],
+  "seo_optimization": {
+    "title": "Keyword-first, under 60 characters, compelling",
+    "description": "200-500 words, front-load keywords, add timestamps",
+    "tags": "10-15 relevant tags (mix broad and specific)",
+    "thumbnail": "High contrast, readable text, faces perform well",
+    "filename": "Rename video file with keywords before upload",
+    "captions": "Upload SRT file or use auto-generated (edit for accuracy)",
+    "cards": "Add at least 1-2 cards linking to related content",
+    "end_screens": "Always use for playlist/subscribe/video promotion"
+  },
+  "content_strategy": {
+    "long_form": "10-20 minutes for tutorials (sweet spot for watch time)",
+    "shorts": "Hook in 3 seconds, trending topics, vertical only",
+    "playlists": "Group series for higher session time",
+    "series_strategy": "Weekly series build anticipation",
+    "pillar_content": "Evergreen videos that continue driving traffic",
+    "trending": "React to trending topics in your niche",
+    "collaborations": "Cross-promote with other creators"
+  },
+  "performance_metrics": {
+    "watch_time": "Total minutes watched (PRIMARY YouTube metric)",
+    "average_view_duration": "Retention rate (percentage watched)",
+    "impressions_ctr": "Thumbnail click-through rate",
+    "views": "Total video views",
+    "engagement_rate": "(likes + comments + shares) / views",
+    "subscriber_growth": "Net new subscribers from video",
+    "traffic_sources": "Where viewers find your videos",
+    "audience_retention": "When viewers drop off (improve content)"
+  },
+  "monetization": {
+    "youtube_partner_program": "Ad revenue (need 1000 subs + 4000 watch hours)",
+    "channel_memberships": "Monthly subscriptions for perks",
+    "super_chat_stickers": "Live stream donations",
+    "merchandise_shelf": "Sell products directly",
+    "youtube_premium_revenue": "Share of Premium subscription fees",
+    "sponsorships": "Brand deals and integrations",
+    "affiliate_links": "Product recommendations in description"
+  },
+  "integration_opportunities": [
+    "Cross-promote on Instagram (Stories, Reels teaser)",
+    "Share on LinkedIn for professional visibility",
+    "Embed on blog/website",
+    "Create Twitter threads with key takeaways",
+    "Pin to Pinterest with video thumbnail",
+    "Repurpose as podcast audio",
+    "Cut into Shorts for multi-platform distribution",
+    "Use timestamps in blog posts linking to specific sections"
+  ],
+  "common_use_cases": [
+    "Educational tutorials and courses",
+    "Product reviews and unboxings",
+    "Vlogs and behind-the-scenes",
+    "Thought leadership and industry insights",
+    "Live Q&A and webinars",
+    "Portfolio showcases for creative work",
+    "Brand building and audience growth",
+    "SEO and organic traffic generation",
+    "Monetization via ads and memberships",
+    "Community building"
+  ],
+  "youtube_shorts_specifics": {
+    "duration": "Up to 60 seconds",
+    "aspect_ratio": "9:16 (vertical only)",
+    "discovery": "Dedicated Shorts shelf on YouTube",
+    "algorithm": "Separate from long-form (different metrics)",
+    "monetization": "Shorts Fund ($100M+ distribution), ads coming",
+    "best_practices": [
+      "Hook in first 3 seconds",
+      "Vertical video only (shot on phone or cropped)",
+      "Trending sounds boost discovery",
+      "Loop-able content performs well",
+      "Text overlays for no-sound viewing",
+      "Call to action in last 5 seconds"
+    ]
+  },
+  "pros": [
+    "Largest video platform globally (2B+ users)",
+    "Best SEO of any social platform (Google integration)",
+    "Evergreen content continues driving traffic for years",
+    "Multiple monetization options",
+    "Free unlimited hosting",
+    "Powerful analytics in YouTube Studio",
+    "Built-in audience discovery",
+    "Live streaming capabilities",
+    "Community features for audience engagement",
+    "Cross-platform embeddable"
+  ],
+  "cons": [
+    "Highly competitive (requires quality and consistency)",
+    "Algorithm changes can impact reach",
+    "Time-intensive content creation (video production)",
+    "High quality bar for success",
+    "Monetization threshold (1000 subs, 4000 hours)",
+    "Comment moderation can be challenging",
+    "Shorts compete with TikTok/Reels",
+    "Ad revenue declining in some niches",
+    "Stricter content policies than other platforms"
+  ],
+  "alternative_tools": [
+    "TOOL-VID-002 (Vimeo) - Ad-free, premium hosting",
+    "TOOL-SMM-003 (TikTok) - Short-form only, younger audience",
+    "TOOL-SMM-001 (Instagram) - Reels for short-form",
+    "Wistia - Business-focused video hosting",
+    "Dailymotion - YouTube alternative"
+  ],
+  "youtube_vs_competitors": {
+    "youtube_better_for": [
+      "Long-form educational content",
+      "SEO and search traffic",
+      "Monetization at scale",
+      "Evergreen content strategy",
+      "Tutorial and how-to content",
+      "Building authority in niche"
+    ],
+    "tiktok_better_for": [
+      "Viral short-form content",
+      "Younger demographics (Gen Z)",
+      "Trending audio and challenges",
+      "Fast growth and discovery",
+      "Entertainment over education"
+    ]
+  },
+  "youtube_studio_features": {
+    "analytics": "Detailed metrics, retention graphs, traffic sources",
+    "video_editor": "Basic trim, blur, audio swap",
+    "monetization_tab": "Track revenue and eligibility",
+    "comments": "Filter, pin, heart, moderate",
+    "subtitles": "Upload or edit auto-generated",
+    "end_screens": "Add clickable elements last 5-20 seconds",
+    "cards": "Pop-up CTAs during video",
+    "community": "Post updates, polls, images"
+  },
+  "source": "SMM_Research_Document_2_Content_Strategy_Multi_Platform",
+  "_migration": {
+    "date": "2025-11-26T02:01:31.379609",
+    "old_tool_id": "TOL-159",
+    "old_path": "TOL-159_YouTube.json",
+    "migrated_by": "restructure_tools_v1"
+  },
+  "name": "YouTube"
+}

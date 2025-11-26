@@ -1,0 +1,45 @@
+{
+  "entity_type": "TASK_MANAGERS",
+  "sub_entity": "Task_Template",
+  "template_id": "Task-Template-409",
+  "task_template_id": "TST-409",
+  "metadata": {
+    "task_name": "Create retention strategy",
+    "description": "Create retention strategy",
+    "department": "HRM",
+    "category": "Development",
+    "priority": "High",
+    "complexity": "N/A",
+    "status": "Active",
+    "estimated_duration": "2-3 hours",
+    "profession": "HR Manager / Operations Specialist",
+    "created_date": "2025-11-26",
+    "version": "1.0"
+  },
+  "execution": {
+    "matched_template": "Task-Template-041",
+    "match_confidence": "Medium",
+    "business_impact": "Internal",
+    "quick_win": false
+  },
+  "tools_required": [],
+  "skills_required": [],
+  "steps": [],
+  "performance_metrics": {
+    "estimated_duration": "2-3 hours",
+    "complexity_score": "N/A"
+  },
+  "tags": [
+    "hrm",
+    "development",
+    "high"
+  ],
+  "version": "1.0",
+  "created": "2025-11-26",
+  "last_updated": "2025-11-26",
+  "migration_notes": {
+    "original_id": "TSK-409",
+    "converted_from": "Task_Template_Mapping.csv",
+    "conversion_date": "2025-11-26"
+  }
+}

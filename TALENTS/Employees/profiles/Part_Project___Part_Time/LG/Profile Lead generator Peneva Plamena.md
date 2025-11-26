@@ -8,6 +8,8 @@
 
 ## Contact Information
 
+- **Nov25 Folder:** /Dropbox/Nov25/LG/Peneva Plamena
+
 - **Personal Email:** plamenapeneva1206@gmail.com
 - **Work Email:** plamsi1206@gmail.com
 - **Discord ID:** Not specified

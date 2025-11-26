@@ -1,0 +1,78 @@
+{
+  "entity_type": "TASK_MANAGERS",
+  "sub_entity": "Project_Template",
+  "template_id": "Project-Template-016",
+  "project_template_id": "PRT-016",
+  "metadata": {
+    "name": "Document current AI tools tracking system",
+    "description": "Week 3 strategic project: Document current AI tools tracking system",
+    "primary_department": "DEV",
+    "departments_involved": [
+      "AID",
+      "DEV",
+      "SLS"
+    ],
+    "project_type": "Strategic Initiative",
+    "estimated_duration": "13.1h",
+    "complexity": "Medium",
+    "status": "Active",
+    "priority": "High",
+    "created_date": "2025-11-26",
+    "version": "1.0"
+  },
+  "structure": {
+    "workflow_type": "Parallel",
+    "total_tasks": 7,
+    "total_milestones": 1,
+    "total_phases": 1
+  },
+  "milestones": [
+    {
+      "milestone_id": "MLT-030",
+      "milestone_name": "Document current AI tools tracking system",
+      "phase": "1",
+      "description": "Document current AI tools tracking system",
+      "task_count": 7,
+      "estimated_duration": "13.1h",
+      "execution_type": "Parallel",
+      "dependencies": null
+    }
+  ],
+  "phases": [
+    {
+      "phase_number": 1,
+      "phase_name": "Implementation",
+      "phase_description": "Complete Document current AI tools tracking system",
+      "duration": "13.1h",
+      "complexity": "Medium",
+      "dependencies": null,
+      "milestones": "MLT-030",
+      "success_criteria": [
+        "All milestones completed",
+        "All deliverables approved",
+        "Project objectives achieved"
+      ]
+    }
+  ],
+  "performance_metrics": {
+    "estimated_hours": 13.1,
+    "task_count": 7,
+    "milestone_count": 1
+  },
+  "tags": [
+    "week-3",
+    "strategic",
+    "planning",
+    "dev"
+  ],
+  "version": "1.0",
+  "created": "2025-11-26",
+  "last_updated": "2025-11-26",
+  "migration_notes": {
+    "source": "Week 3 Workflow Clustering",
+    "conversion_date": "2025-11-26",
+    "workflows_included": [
+      "WFC-009"
+    ]
+  }
+}

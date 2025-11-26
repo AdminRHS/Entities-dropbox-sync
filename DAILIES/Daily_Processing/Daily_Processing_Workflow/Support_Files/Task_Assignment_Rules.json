@@ -1,0 +1,262 @@
+{
+  "version": "1.0",
+  "last_updated": "2025-11-25",
+  "description": "Assignment algorithm rules for daily task processing",
+
+  "scoring_weights": {
+    "profession_match": {
+      "weight": 40,
+      "description": "How well employee profession matches task requirements"
+    },
+    "department_match": {
+      "weight": 20,
+      "description": "How well employee department aligns with task department"
+    },
+    "skill_level_match": {
+      "weight": 20,
+      "description": "How well task complexity matches employee experience"
+    },
+    "workload_balance": {
+      "weight": 20,
+      "description": "Current workload of employee"
+    }
+  },
+
+  "profession_scoring": {
+    "perfect_match": {
+      "points": 40,
+      "criteria": "Task profession exactly matches employee profession",
+      "examples": [
+        "Task requires 'Lead Generator' → Employee is 'Lead Generator'",
+        "Task requires 'AI Specialist' → Employee is 'AI Specialist'"
+      ]
+    },
+    "partial_match": {
+      "points": 30,
+      "criteria": "Task profession is similar to employee profession",
+      "examples": [
+        "Task requires 'Designer' → Employee is 'Graphic Designer'",
+        "Task requires 'Developer' → Employee is 'Full Stack Developer'"
+      ]
+    },
+    "transferable": {
+      "points": 20,
+      "criteria": "Task could be done by employee with different but related profession",
+      "examples": [
+        "Task requires 'Data Analyst' → Employee is 'Sales Manager' (both work with data)",
+        "Task requires 'Content Writer' → Employee is 'Social Media Manager' (both create content)"
+      ]
+    },
+    "no_match": {
+      "points": 0,
+      "criteria": "Task requires completely different skills",
+      "examples": [
+        "Task requires 'Video Editor' → Employee is 'Accountant'"
+      ]
+    }
+  },
+
+  "department_scoring": {
+    "same_department": {
+      "points": 20,
+      "criteria": "Task department matches employee department exactly"
+    },
+    "related_department": {
+      "points": 10,
+      "criteria": "Task department is related to employee department",
+      "related_clusters": {
+        "technical": ["AI", "Dev"],
+        "creative": ["Design", "Video"],
+        "sales_marketing": ["LG", "Sales", "SMM", "Marketing"],
+        "operations": ["HR", "Finance", "Operations"]
+      }
+    },
+    "unrelated": {
+      "points": 0,
+      "criteria": "No department relationship"
+    }
+  },
+
+  "skill_level_scoring": {
+    "complexity_experience_match": {
+      "low_complexity": {
+        "junior": 20,
+        "intermediate": 20,
+        "senior": 20
+      },
+      "medium_complexity": {
+        "junior": 10,
+        "intermediate": 20,
+        "senior": 20
+      },
+      "high_complexity": {
+        "junior": -10,
+        "intermediate": 10,
+        "senior": 20
+      },
+      "very_high_complexity": {
+        "junior": -10,
+        "intermediate": -10,
+        "senior": 20
+      }
+    },
+    "experience_levels": {
+      "junior": "0-1 year in role",
+      "intermediate": "2-3 years in role",
+      "senior": "4+ years in role"
+    }
+  },
+
+  "workload_scoring": {
+    "0-2_tasks": {
+      "points": 20,
+      "status": "Light load - can take more"
+    },
+    "3-5_tasks": {
+      "points": 15,
+      "status": "Moderate load - ideal range"
+    },
+    "6-8_tasks": {
+      "points": 10,
+      "status": "Heavy load - approaching limit"
+    },
+    "9-10_tasks": {
+      "points": 5,
+      "status": "Near capacity - caution"
+    },
+    "over_10_tasks": {
+      "points": 0,
+      "status": "At capacity - do not assign more",
+      "exclude": true
+    }
+  },
+
+  "workload_limits": {
+    "maximum_tasks_per_day": 10,
+    "preferred_tasks_per_day": 5,
+    "target_variance": "< 20% across department"
+  },
+
+  "profession_to_task_mapping": {
+    "AI_Automation": {
+      "professions": ["AI Specialist", "Automation Engineer", "Project Manager"],
+      "departments": ["AI", "Dev"],
+      "task_examples": [
+        "Process daily files",
+        "Create MCP connector",
+        "Automate workflows",
+        "AI model integration"
+      ]
+    },
+    "Design": {
+      "professions": ["UI/UX Designer", "Graphic Designer", "Illustrator", "Motion Designer"],
+      "departments": ["Design"],
+      "task_examples": [
+        "Create UI mockups",
+        "Design graphics",
+        "Illustrator work",
+        "Brand assets"
+      ]
+    },
+    "Development": {
+      "professions": ["Front End Developer", "Back End Developer", "Full Stack Developer"],
+      "departments": ["Dev"],
+      "task_examples": [
+        "Build features",
+        "Fix bugs",
+        "Code review",
+        "Deploy applications"
+      ]
+    },
+    "Lead_Generation": {
+      "professions": ["Lead Generator", "Data Researcher", "Sales Manager"],
+      "departments": ["LG", "Sales"],
+      "task_examples": [
+        "LinkedIn scraping",
+        "Email enrichment",
+        "Prospect research",
+        "CRM updates"
+      ]
+    },
+    "Video": {
+      "professions": ["Video Editor", "AI Specialist", "Animator"],
+      "departments": ["Video", "AI"],
+      "task_examples": [
+        "Video transcription",
+        "Transcript processing",
+        "Video editing",
+        "Animation"
+      ]
+    },
+    "HR": {
+      "professions": ["HR Manager", "Recruiter"],
+      "departments": ["HR"],
+      "task_examples": [
+        "Job posting creation",
+        "Interview scheduling",
+        "Candidate screening",
+        "Onboarding"
+      ]
+    },
+    "Social_Media": {
+      "professions": ["Social Media Manager", "Content Manager", "SMM Specialist"],
+      "departments": ["SMM", "Marketing"],
+      "task_examples": [
+        "Content creation",
+        "Post scheduling",
+        "Community engagement",
+        "Analytics reporting"
+      ]
+    }
+  },
+
+  "override_rules": {
+    "priority_tasks": {
+      "enabled": true,
+      "description": "Critical/urgent tasks can override workload limits",
+      "criteria": ["CRITICAL priority", "URGENT deadline"]
+    },
+    "workload_balancing": {
+      "enabled": true,
+      "description": "Distribute tasks more evenly if one employee would get 15+ tasks",
+      "action": "Redistribute to maintain 0-10 range, prefer 2-5 range"
+    },
+    "learning_assignments": {
+      "enabled": true,
+      "description": "Occasionally assign slightly harder task to junior employee for growth",
+      "requirement": "Must have senior support available"
+    },
+    "specialization": {
+      "enabled": true,
+      "description": "Assign to employee with unique expertise even if algorithm suggests otherwise",
+      "requirement": "Document reasoning in assignment plan"
+    }
+  },
+
+  "documentation_requirements": {
+    "assignment_plan": {
+      "required_fields": [
+        "Task name and ID",
+        "Assigned employee",
+        "Total score breakdown",
+        "Alternatives considered",
+        "Reasoning for selection"
+      ]
+    },
+    "manual_overrides": {
+      "required_documentation": [
+        "Algorithm suggested employee and score",
+        "Actually assigned employee and score",
+        "Reason for override",
+        "Approval (if required)"
+      ]
+    }
+  },
+
+  "quality_metrics": {
+    "target_assignment_accuracy": "> 90%",
+    "target_workload_variance": "< 20%",
+    "target_completion_rate": "> 95%",
+    "target_employee_satisfaction": "Positive feedback"
+  }
+}

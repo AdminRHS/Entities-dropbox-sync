@@ -1,0 +1,50 @@
+{
+  "entity_type": "TASK_MANAGERS",
+  "sub_entity": "Workflow",
+  "workflow_id": "WRF-036",
+  "metadata": {
+    "workflow_name": "HR - Integration Tasks",
+    "description": "Execution phase workflow for HRM department - Integration category",
+    "primary_department": "HRM",
+    "departments_involved": [
+      "HRM"
+    ],
+    "workflow_type": "Parallel",
+    "execution_phase": "Execution",
+    "category": "Integration",
+    "priority": "Medium",
+    "estimated_duration": "8.0h",
+    "complexity": "Medium",
+    "status": "Active",
+    "created_date": "2025-11-26",
+    "version": "1.0"
+  },
+  "tasks": {
+    "total_count": 4,
+    "task_ids": [
+      "TST-337",
+      "TST-374",
+      "TST-299",
+      "TST-033"
+    ],
+    "execution_type": "Parallel"
+  },
+  "performance_metrics": {
+    "total_estimated_hours": 8.0,
+    "task_count": 4
+  },
+  "tags": [
+    "execution",
+    "parallel",
+    "hrm",
+    "integration"
+  ],
+  "version": "1.0",
+  "created": "2025-11-26",
+  "last_updated": "2025-11-26",
+  "migration_notes": {
+    "original_id": "WFC-036",
+    "converted_from": "WFC format",
+    "conversion_date": "2025-11-26"
+  }
+}

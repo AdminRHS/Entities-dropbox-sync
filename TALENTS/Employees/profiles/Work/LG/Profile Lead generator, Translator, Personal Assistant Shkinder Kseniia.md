@@ -8,6 +8,8 @@
 
 ## Contact Information
 
+- **Nov25 Folder:** /Dropbox/Nov25/LG/Shkinder Kseniia
+
 - **Personal Email:** k49209700@gmail.com
 - **Work Email:** sennya.mail@gmail.com
 - **Discord ID:** 1308907068585148449

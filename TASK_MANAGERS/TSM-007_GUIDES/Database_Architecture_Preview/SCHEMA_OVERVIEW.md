@@ -286,7 +286,7 @@ When a guide is linked to a Project Template, it can optionally cascade to:
 - **Guides**: 12 guides (GDS-001 to GDS-012)
 - **Formats**: 8 format types
 - **Template Links**: ~30-50 cross-references
-- **Departments**: 8 departments (AID, DGN, DEV, HRM, LGN, SLS, VID, FNC)
+- **Departments**: 8 departments (AID, DGN, DEV, HRM, LGN, SLS, VID, FIN)
 
 ### Projected Scale (Year 1)
 - **Guides**: 50-100 guides

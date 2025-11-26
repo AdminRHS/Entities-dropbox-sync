@@ -191,7 +191,7 @@ Create comparison section:
 **From DEPARTMENT_GAP_ANALYSIS:**
 - AI-GAP-001: Advanced AI Model Integration → RSH-AI-006 (lower priority, defer)
 - DEV-GAP-001: IndexedDB research → RSH-DEV-004 (if Artem has capacity)
-- FNC-GAP-001: Finance automation → RSH-FNC-001 (defer to next week)
+- FIN-GAP-001: Finance automation → RSH-FIN-001 (defer to next week)
 
 **New Priorities This Week:**
 1. **Continue video backlog:** Assign RSH-VID-003 and RSH-VID-004

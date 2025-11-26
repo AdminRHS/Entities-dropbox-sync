@@ -8,6 +8,8 @@
 
 ## Contact Information
 
+- **Nov25 Folder:** /Dropbox/Nov25/LG/Bindiak Dana
+
 - **Personal Email:** bindyak.dv09@gmail.com
 - **Work Email:** danabindiak.rh@gmail.com
 - **Discord ID:** 1413175594262200355

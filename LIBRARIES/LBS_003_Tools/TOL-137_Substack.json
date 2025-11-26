@@ -1,0 +1,179 @@
+{
+  "entity_type": "LIBRARIES",
+  "sub_entity": "Tool",
+  "tool_id": "TOL-137",
+  "tool_name": "Substack",
+  "category": "Newsletter Publishing Platform",
+  "description": "Newsletter platform for writers to publish content, build subscriber base, and monetize through paid subscriptions",
+  "primary_use": "Newsletter publishing, email list building, subscription monetization",
+  "platform_type": "Newsletter and blog platform",
+  "pricing": "Free (10% fee on paid subscriptions)",
+  "created": "2025-11-13",
+  "updated": "2025-11-13",
+  "used_by_professions": [
+    "Writer",
+    "Journalist",
+    "Marketer",
+    "Content_Creator",
+    "Thought_Leader"
+  ],
+  "used_in_workflows": [
+    "WF-SMM-009"
+  ],
+  "creates_objects": [],
+  "actions": [
+    "write",
+    "publish",
+    "subscribe",
+    "monetize",
+    "email",
+    "engage",
+    "archive"
+  ],
+  "key_features": {
+    "email_delivery": "Direct to subscriber inboxes",
+    "web_archive": "Public archive of posts",
+    "paid_subscriptions": "Monthly/annual monetization",
+    "free_trial": "Offer paid trial periods",
+    "comments": "Subscriber discussions",
+    "recommendations": "Cross-promotion with other writers",
+    "analytics": "Subscriber and engagement metrics",
+    "podcast_hosting": "Audio content support",
+    "mobile_app": "iOS/Android reader apps",
+    "custom_domain": "Use own domain name"
+  },
+  "content_types": {
+    "newsletters": "Regular email publications",
+    "essays": "Long-form writing",
+    "podcasts": "Audio content with transcripts",
+    "community_threads": "Discussion posts for subscribers",
+    "paid_content": "Subscriber-only premium posts"
+  },
+  "technical_specs": {
+    "formatting": "Simple rich text editor with markdown support",
+    "image_support": "Inline images and cover photos",
+    "video_embeds": "YouTube, Vimeo, and others",
+    "audio_hosting": "Podcast MP3 hosting included",
+    "custom_domain": "Available on all plans",
+    "export": "Full subscriber list export anytime"
+  },
+  "monetization_model": {
+    "free_tier": "100% free to publish, no limits",
+    "paid_subscriptions": "Set your own monthly/annual price",
+    "substack_fee": "10% of subscription revenue",
+    "stripe_fee": "~2.9% + $0.30 per transaction",
+    "founder_pledges": "Pre-launch subscriber commitments",
+    "recommendations": "Cross-promotion network"
+  },
+  "best_practices": [
+    "Publish consistently (weekly or bi-weekly)",
+    "Start with free content to build audience",
+    "Offer paid tier once you have 1000+ free subscribers",
+    "Write compelling subject lines (email open rates)",
+    "Front-load value in first paragraph",
+    "Use subheadings for scannability",
+    "Engage with comments to build community",
+    "Cross-promote on social media",
+    "Leverage recommendations network",
+    "Offer free trial for paid subscriptions",
+    "Archive posts for SEO value",
+    "Build email list, you own your audience"
+  ],
+  "pricing_strategy": {
+    "typical_pricing": "$5-10/month, $50-80/year",
+    "free_posts": "Majority should be free for growth",
+    "paid_posts": "Premium deep-dives, exclusives",
+    "trial_offers": "7-day or 30-day free trials",
+    "founder_pricing": "Discounted lifetime rates for early supporters"
+  },
+  "performance_metrics": {
+    "subscriber_count": "Total free + paid subscribers",
+    "open_rate": "Email open percentage",
+    "click_rate": "Link clicks in emails",
+    "paid_conversion": "Free to paid subscriber rate",
+    "churn_rate": "Subscription cancellations",
+    "recommendation_traffic": "Subscribers from other Substacks"
+  },
+  "integration_opportunities": [
+    "Cross-promote on Twitter/LinkedIn",
+    "Repurpose Medium articles as newsletter",
+    "Share newsletter archive posts on social",
+    "Embed podcast episodes in posts",
+    "Link from blog to Substack",
+    "Use as email list for course launches"
+  ],
+  "common_use_cases": [
+    "Independent journalism and reporting",
+    "Industry analysis and commentary",
+    "Creative writing and fiction",
+    "Technical deep-dives and tutorials",
+    "Business insights and case studies",
+    "Personal essays and storytelling",
+    "Niche expertise sharing",
+    "Course and community building",
+    "Building audience before book launch",
+    "Alternative to traditional media"
+  ],
+  "algorithm_factors": {
+    "email_delivery": "Direct to inbox, no algorithm",
+    "recommendations": "Substack network cross-promotion",
+    "web_archive_seo": "Posts indexed by Google",
+    "mobile_app": "Featured in Substack reader app",
+    "social_shares": "Amplification via social media"
+  },
+  "pros": [
+    "Simple, distraction-free writing interface",
+    "Own your audience (exportable email list)",
+    "No upfront costs or platform fees (only % of paid)",
+    "Direct relationship with subscribers",
+    "Built-in monetization",
+    "Email delivery bypasses social algorithms",
+    "Growing recommendation network",
+    "Podcast hosting included",
+    "Custom domain support",
+    "Clean, reader-friendly design"
+  ],
+  "cons": [
+    "10% platform fee can add up",
+    "Limited design customization",
+    "No built-in audience discovery (must build from scratch)",
+    "Growing competition on platform",
+    "Email deliverability depends on your content quality",
+    "Limited analytics compared to dedicated tools",
+    "Subscriber management less robust than ConvertKit",
+    "Platform risk (owning your own site is safer long-term)"
+  ],
+  "alternative_tools": [
+    "Ghost - Self-hosted, more control",
+    "ConvertKit - Email marketing focused",
+    "Beehiiv - Similar to Substack with better analytics",
+    "Medium - Larger built-in audience",
+    "TOOL-PUB-001 (Medium) - Better for discovery",
+    "Patreon - Membership platform with more features",
+    "Mailchimp - Traditional email marketing"
+  ],
+  "substack_vs_medium": {
+    "substack_better_for": [
+      "Building owned email list",
+      "Direct subscriber monetization",
+      "Regular newsletter cadence",
+      "Reader relationship building",
+      "Long-term audience ownership"
+    ],
+    "medium_better_for": [
+      "Content discovery and reach",
+      "SEO and search traffic",
+      "Quick audience growth",
+      "One-off article publishing",
+      "Partner Program passive income"
+    ]
+  },
+  "source": "SMM_Research_Document_2_Content_Strategy_Multi_Platform",
+  "_migration": {
+    "date": "2025-11-26T02:01:31.339003",
+    "old_tool_id": "TOL-137",
+    "old_path": "TOL-137_Substack.json",
+    "migrated_by": "restructure_tools_v1"
+  },
+  "name": "Substack"
+}

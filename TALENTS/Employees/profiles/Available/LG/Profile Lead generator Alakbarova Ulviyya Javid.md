@@ -8,6 +8,8 @@
 
 ## Contact Information
 
+- **Nov25 Folder:** /Dropbox/Nov25/LG/Alakbarova Ulviyya Javid
+
 - **Personal Email:** ulviyyelekberova@gmail.com
 - **Work Email:** ulviyalakbarova.rh@gmail.com
 - **Discord ID:** 1424427349406908527

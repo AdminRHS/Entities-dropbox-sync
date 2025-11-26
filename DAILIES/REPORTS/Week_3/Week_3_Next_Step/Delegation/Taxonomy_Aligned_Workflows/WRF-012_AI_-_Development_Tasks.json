@@ -1,0 +1,56 @@
+{
+  "entity_type": "TASK_MANAGERS",
+  "sub_entity": "Workflow",
+  "workflow_id": "WRF-012",
+  "metadata": {
+    "workflow_name": "AI - Development Tasks",
+    "description": "Execution phase workflow for AIA department - Development category",
+    "primary_department": "AID",
+    "departments_involved": [
+      "AID"
+    ],
+    "workflow_type": "Parallel",
+    "execution_phase": "Execution",
+    "category": "Development",
+    "priority": "Medium",
+    "estimated_duration": "2.0h",
+    "complexity": "Medium",
+    "status": "Active",
+    "created_date": "2025-11-26",
+    "version": "1.0"
+  },
+  "tasks": {
+    "total_count": 56,
+    "task_ids": [
+      "TST-398",
+      "TST-403",
+      "TST-404",
+      "TST-415",
+      "TST-417",
+      "TST-421",
+      "TST-424",
+      "TST-429",
+      "TST-438",
+      "..."
+    ],
+    "execution_type": "Parallel"
+  },
+  "performance_metrics": {
+    "total_estimated_hours": 2.0,
+    "task_count": 56
+  },
+  "tags": [
+    "execution",
+    "parallel",
+    "aid",
+    "development"
+  ],
+  "version": "1.0",
+  "created": "2025-11-26",
+  "last_updated": "2025-11-26",
+  "migration_notes": {
+    "original_id": "WFC-012",
+    "converted_from": "WFC format",
+    "conversion_date": "2025-11-26"
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "entity_type": "LIBRARIES",
+  "sub_entity": "Tool",
+  "tool_id": "TOL-031",
+  "name": "ComfyUI",
+  "vendor": "ComfyUI Development Team",
+  "category": "AI_Tools / User Interface",
+  "purpose": "Node-based graphical interface for running AI diffusion models",
+  "description": "ComfyUI is a powerful and modular node-based GUI for running AI image and video generation models. It provides a visual workflow builder where users can connect different components (models, samplers, encoders) to create custom generation pipelines. Particularly popular for AI video generation workflows like Wan 2.2, it offers pre-built templates and extensive customization options.",
+  "skill_level_required": "Intermediate",
+  "cost_structure": "Free (Open Source)",
+  "platform_compatibility": [
+    "Windows",
+    "Mac",
+    "Linux",
+    "Desktop"
+  ],
+  "integration_capabilities": [
+    "Git updates",
+    "Custom nodes",
+    "Workflow templates",
+    "Model loading (Diffusion, VAE, Text Encoders)",
+    "Sampler configuration",
+    "Python backend"
+  ],
+  "documentation_url": "https://www.comfy.org/",
+  "actual_remote_helpers_usage": {
+    "primary_use": "User-friendly interface for running complex AI video and image generation workflows",
+    "users": [
+      "Video Department",
+      "AI Department",
+      "Design Department"
+    ],
+    "use_cases": [
+      "Run Wan 2.2 video generation workflows",
+      "Configure AI model parameters visually",
+      "Load and manage multiple AI models",
+      "Create custom generation pipelines",
+      "Test different sampler configurations",
+      "Batch process video/image generation"
+    ],
+    "workflows": [
+      "Text-to-Video Generation (5B Hybrid Model)",
+      "Image-to-Video Generation (14B MoE Model)",
+      "Model Installation and Setup",
+      "Custom AI pipeline creation"
+    ]
+  },
+  "key_features": {
+    "node_based_interface": "Visual drag-and-drop workflow builder",
+    "workflow_templates": "Pre-built templates for common tasks (Wan 2.2, Stable Diffusion, etc.)",
+    "model_management": "Easy loading of diffusion models, VAE, text encoders",
+    "sampler_configuration": "Advanced sampler settings (steps, CFG, schedulers)",
+    "multi_stage_workflows": "Support for complex multi-stage generation (MoE models)",
+    "git_updates": "Easy updates via git pull command",
+    "custom_nodes": "Extensible with community-created nodes",
+    "local_processing": "All processing done locally on user hardware"
+  },
+  "strengths": [
+    "Intuitive visual interface for complex AI workflows",
+    "Official integration with major AI models (Wan 2.2, Stable Diffusion)",
+    "Highly modular and customizable",
+    "Active community and template library",
+    "No cloud dependencies - fully local",
+    "Supports multiple AI model architectures",
+    "Regular updates and new model support",
+    "Free and open-source"
+  ],
+  "limitations": [
+    "Requires local hardware (GPU with sufficient VRAM)",
+    "Learning curve for node-based workflow system",
+    "Manual model file management required",
+    "Can be resource-intensive",
+    "Setup requires technical knowledge (Git, file paths)",
+    "No built-in model downloading (must download separately)",
+    "VRAM limitations affect which models can be run"
+  ],
+  "departments_using": [
+    "Video",
+    "AI",
+    "Design"
+  ],
+  "tags": [
+    "ai-interface",
+    "node-based",
+    "workflow-builder",
+    "diffusion-models",
+    "video-generation",
+    "image-generation",
+    "open-source",
+    "local-processing",
+    "gui"
+  ],
+  "discovery_date": "2025-11-15",
+  "discovery_source": "Video_011 transcription analysis",
+  "status": "active",
+  "version": "1.0",
+  "created": "2025-11-15",
+  "last_updated": "2025-11-15",
+  "source": "Video_011",
+  "_migration": {
+    "date": "2025-11-26T02:01:31.154589",
+    "old_tool_id": "TOL-031",
+    "old_path": "TOL-031_ComfyUI.json",
+    "migrated_by": "restructure_tools_v1"
+  }
+}

@@ -8,6 +8,8 @@
 
 ## Contact Information
 
+- **Nov25 Folder:** /Dropbox/Nov25/Design/Rotar Olga
+
 - **Personal Email:** torbasplin@gmail.com
 - **Work Email:** torbasplin@gmail.com
 - **Discord ID:** Not specified

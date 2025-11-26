@@ -217,7 +217,7 @@ PRT-001 (Daily Report Collection) [Recommended]
 - TST-070, TST-075, TST-080 (Video production tasks)
 - TST-085, TST-090, TST-095 (Finance/HR tasks)
 
-**Recommendation:** Create department-specific guides for DEV, VID, FNC, HRM
+**Recommendation:** Create department-specific guides for DEV, VID, FIN, HRM
 
 ### Over-Linked Templates
 - None currently; all linkages are appropriate

@@ -8,6 +8,8 @@
 
 ## Contact Information
 
+- **Nov25 Folder:** /Dropbox/Nov25/Video/Azanova Darʼya
+
 - **Personal Email:** azanova1997@gmail.com
 - **Work Email:** Not specified
 - **Discord ID:** 1285110685092675608

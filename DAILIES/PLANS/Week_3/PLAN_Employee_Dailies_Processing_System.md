@@ -261,7 +261,7 @@ This system splits the PMT-070 Entity Identification prompt into **8 modular Pyt
      - Shared tools
      - Logical workflow sequence
    - Format: ACTION + OBJECT + CONTEXT
-   - Assign task IDs (TSK-###)
+   - Assign task IDs (TST-###)
    - Link tools and responsibilities
 
 2. **Steps Breakdown**:
@@ -465,7 +465,7 @@ This system splits the PMT-070 Entity Identification prompt into **8 modular Pyt
    - Collect all entities from previous stages
    - Assign unique IDs following format:
      - MLS-### (Milestones)
-     - TSK-### (Tasks)
+     - TST-### (Tasks)
      - STP-### (Steps)
      - ACT-### (Actions)
      - OBJ-### (Objects)

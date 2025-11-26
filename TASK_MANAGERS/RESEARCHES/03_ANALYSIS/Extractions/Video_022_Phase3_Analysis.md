@@ -52,7 +52,7 @@ Phase 3 analysis extracts all tools, workflows, and action patterns from Video_0
 - AID (Artificial Intelligence Department) - Primary
 - LGN (Lead Generation) - Lead extraction
 - MKT (Marketing) - Competitive intelligence
-- FNC (Finance) - Price monitoring
+- FIN (Finance) - Price monitoring
 
 **Cross-references**:
 - All 3 milestones (MLS-001, MLS-002, MLS-003)
@@ -89,7 +89,7 @@ Phase 3 analysis extracts all tools, workflows, and action patterns from Video_0
 
 **Department Applicability**:
 - All departments (universal data storage tool)
-- AID, LGN, MKT, FNC (mentioned specifically)
+- AID, LGN, MKT, FIN (mentioned specifically)
 
 **Cross-references**:
 - TSK-008 (Export Data)

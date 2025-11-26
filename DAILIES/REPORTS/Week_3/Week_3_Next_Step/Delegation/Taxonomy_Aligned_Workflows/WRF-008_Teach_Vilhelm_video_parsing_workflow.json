@@ -1,0 +1,63 @@
+{
+  "entity_type": "TASK_MANAGERS",
+  "sub_entity": "Workflow",
+  "workflow_id": "WRF-008",
+  "metadata": {
+    "workflow_name": "Teach Vilhelm video parsing workflow",
+    "description": "Week 3 workflow for Teach Vilhelm video parsing workflow",
+    "primary_department": "AID",
+    "departments_involved": [
+      "AID",
+      "LGN",
+      "SMM",
+      "SLS",
+      "VID"
+    ],
+    "workflow_type": "Parallel",
+    "execution_phase": "Planning",
+    "priority": "High",
+    "estimated_duration": "16.0h",
+    "complexity": "Medium",
+    "status": "Active",
+    "created_date": "2025-11-26",
+    "version": "1.0"
+  },
+  "related_project": {
+    "project_id": "PRT-015",
+    "milestone_dependencies": null
+  },
+  "tasks": {
+    "total_count": 10,
+    "task_ids": [
+      "TST-140",
+      "TST-141",
+      "TST-142",
+      "TST-143",
+      "TST-144",
+      "TST-145",
+      "TST-146",
+      "TST-147",
+      "TST-148",
+      "TST-149"
+    ],
+    "execution_type": "Parallel"
+  },
+  "steps": [],
+  "performance_metrics": {
+    "total_estimated_hours": 16.0,
+    "task_count": 10
+  },
+  "tags": [
+    "planning",
+    "parallel",
+    "aid"
+  ],
+  "version": "1.0",
+  "created": "2025-11-26",
+  "last_updated": "2025-11-26",
+  "migration_notes": {
+    "original_id": "WFC-008",
+    "converted_from": "WFC format",
+    "conversion_date": "2025-11-26"
+  }
+}

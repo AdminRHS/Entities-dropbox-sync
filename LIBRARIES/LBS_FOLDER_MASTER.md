@@ -173,7 +173,7 @@ This document provides a complete reference for all LIBRARIES folders using the 
 - VID - Video Production
 - SLS - Sales
 - SMM - Social Media Management
-- FNC - Finance
+- FIN - Finance
 
 ---
 

@@ -1,0 +1,10 @@
+Department,Total_Tasks_Assigned,Reclassified_Tasks,Total_Estimated_Hours,Critical_Priority_Count,High_Priority_Count,Average_Complexity,Top_Categories,Resource_Status,Recommended_Action
+AI,228,5,19.1,4,219,2.00,"Task(94), Development(66), Research(17)",Balanced,Current capacity sufficient
+Design,62,53,32.3,0,59,2.00,"Development(35), Design(11), Task(10)",Balanced,Current capacity sufficient
+Development,38,27,50.5,1,32,1.87,"Task(15), Development(11), Integration(4)",Balanced,Current capacity sufficient
+Finance,22,20,62.0,0,22,2.00,"Task(9), Development(5), Research(4)",Balanced,Current capacity sufficient
+HR,55,41,88.0,0,53,2.00,"Task(27), Development(18), Integration(4)",High Load,Monitor workload distribution
+Lead Generation,21,19,53.0,1,19,2.00,"Task(10), Development(5), Research(2)",Balanced,Current capacity sufficient
+SMM,11,11,54.0,0,11,2.00,"Development(5), Research(3), Documentation(1)",Balanced,Current capacity sufficient
+Sales,38,36,112.7,1,35,2.00,"Task(22), Development(6), Research(2)",High Load,Monitor workload distribution
+Video,26,21,60.2,0,22,1.96,"Task(14), Development(5), Research(3)",Balanced,Current capacity sufficient

@@ -143,7 +143,7 @@ Use this prompt to guide your weekly research priority analysis.
 ### Development Department (DPT-003 - DEV)
 [Same questions...]
 
-### Finance Department (DPT-009 - FNC)
+### Finance Department (DPT-009 - FIN)
 [Same questions...]
 
 ### HR Department (DPT-002 - HRM)

@@ -1,0 +1,45 @@
+{
+  "entity_type": "TASK_MANAGERS",
+  "sub_entity": "Task_Template",
+  "template_id": "Task-Template-405",
+  "task_template_id": "TST-405",
+  "metadata": {
+    "task_name": "Add clear next-step instructions for clients",
+    "description": "Add clear next-step instructions for clients",
+    "department": "SLS",
+    "category": "Task",
+    "priority": "High",
+    "complexity": "N/A",
+    "status": "Active",
+    "estimated_duration": "4-5 hours for 50 emails",
+    "profession": "Sales Manager",
+    "created_date": "2025-11-26",
+    "version": "1.0"
+  },
+  "execution": {
+    "matched_template": "Task-Template-021",
+    "match_confidence": "Medium",
+    "business_impact": "Internal",
+    "quick_win": false
+  },
+  "tools_required": [],
+  "skills_required": [],
+  "steps": [],
+  "performance_metrics": {
+    "estimated_duration": "4-5 hours for 50 emails",
+    "complexity_score": "N/A"
+  },
+  "tags": [
+    "sls",
+    "task",
+    "high"
+  ],
+  "version": "1.0",
+  "created": "2025-11-26",
+  "last_updated": "2025-11-26",
+  "migration_notes": {
+    "original_id": "TSK-405",
+    "converted_from": "Task_Template_Mapping.csv",
+    "conversion_date": "2025-11-26"
+  }
+}

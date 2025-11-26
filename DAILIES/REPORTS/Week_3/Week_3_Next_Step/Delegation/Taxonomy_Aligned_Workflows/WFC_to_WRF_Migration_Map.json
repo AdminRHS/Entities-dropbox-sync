@@ -1,0 +1,427 @@
+{
+  "migration_metadata": {
+    "migration_date": "2025-11-26",
+    "source_format": "WFC (Workflow Cluster)",
+    "target_format": "WRF (Workflow - TAX-002 Compliant)",
+    "total_workflows": 50,
+    "taxonomy_version": "TAX-002",
+    "notes": "Migrated Week 3 workflow clustering to TAX-002_Task_Managers taxonomy compliance"
+  },
+  "id_mappings": {
+    "WFC-001": {
+      "new_id": "WRF-001",
+      "workflow_name": "Develop USER Entities",
+      "execution_phase": "Planning",
+      "related_project": "PRT-005",
+      "task_count": 1,
+      "department": "AI"
+    },
+    "WFC-002": {
+      "new_id": "WRF-002",
+      "workflow_name": "Prospects Architecture Improvement",
+      "execution_phase": "Planning",
+      "related_project": "PRT-009",
+      "task_count": 6,
+      "department": "AI, Design, Development, Lead Generation, Sales"
+    },
+    "WFC-003": {
+      "new_id": "WRF-003",
+      "workflow_name": "Populate Business Entity from Sales",
+      "execution_phase": "Planning",
+      "related_project": "PRT-010",
+      "task_count": 1,
+      "department": "AI"
+    },
+    "WFC-004": {
+      "new_id": "WRF-004",
+      "workflow_name": "Find historical search queries file on Google Drive",
+      "execution_phase": "Planning",
+      "related_project": "PRT-011",
+      "task_count": 15,
+      "department": "AI, Lead Generation, Sales"
+    },
+    "WFC-005": {
+      "new_id": "WRF-005",
+      "workflow_name": "Document scraping system (20% checkpoint)",
+      "execution_phase": "Planning",
+      "related_project": "PRT-012",
+      "task_count": 13,
+      "department": "AI, Design, Development, Lead Generation, SMM"
+    },
+    "WFC-006": {
+      "new_id": "WRF-006",
+      "workflow_name": "Create Job Sites folder in ENTITIES/ACCOUNTS",
+      "execution_phase": "Planning",
+      "related_project": "PRT-013",
+      "task_count": 5,
+      "department": "AI, Lead Generation"
+    },
+    "WFC-007": {
+      "new_id": "WRF-007",
+      "workflow_name": "Deploy v1.0 to Vercel",
+      "execution_phase": "Planning",
+      "related_project": "PRT-014",
+      "task_count": 12,
+      "department": "AI, Design, Development, HR"
+    },
+    "WFC-008": {
+      "new_id": "WRF-008",
+      "workflow_name": "Teach Vilhelm video parsing workflow",
+      "execution_phase": "Planning",
+      "related_project": "PRT-015",
+      "task_count": 10,
+      "department": "AI, Lead Generation, SMM, Sales, Video"
+    },
+    "WFC-009": {
+      "new_id": "WRF-009",
+      "workflow_name": "Document current AI tools tracking system",
+      "execution_phase": "Planning",
+      "related_project": "PRT-016",
+      "task_count": 7,
+      "department": "AI, Development, Sales"
+    },
+    "WFC-010": {
+      "new_id": "WRF-010",
+      "workflow_name": "Design single task page layout",
+      "execution_phase": "Planning",
+      "related_project": "PRT-017",
+      "task_count": 6,
+      "department": "AI, Design"
+    },
+    "WFC-011": {
+      "new_id": "WRF-011",
+      "workflow_name": "AI - Design Tasks",
+      "execution_phase": "Execution",
+      "related_project": null,
+      "task_count": 2,
+      "department": "AI"
+    },
+    "WFC-012": {
+      "new_id": "WRF-012",
+      "workflow_name": "AI - Development Tasks",
+      "execution_phase": "Execution",
+      "related_project": null,
+      "task_count": 56,
+      "department": "AI"
+    },
+    "WFC-013": {
+      "new_id": "WRF-013",
+      "workflow_name": "AI - Documentation Tasks",
+      "execution_phase": "Execution",
+      "related_project": null,
+      "task_count": 6,
+      "department": "AI"
+    },
+    "WFC-014": {
+      "new_id": "WRF-014",
+      "workflow_name": "AI - Infrastructure Tasks",
+      "execution_phase": "Execution",
+      "related_project": null,
+      "task_count": 10,
+      "department": "AI"
+    },
+    "WFC-015": {
+      "new_id": "WRF-015",
+      "workflow_name": "AI - Integration Tasks",
+      "execution_phase": "Execution",
+      "related_project": null,
+      "task_count": 8,
+      "department": "AI"
+    },
+    "WFC-016": {
+      "new_id": "WRF-016",
+      "workflow_name": "AI - Maintenance Tasks",
+      "execution_phase": "Execution",
+      "related_project": null,
+      "task_count": 4,
+      "department": "AI"
+    },
+    "WFC-017": {
+      "new_id": "WRF-017",
+      "workflow_name": "AI - Research Tasks",
+      "execution_phase": "Execution",
+      "related_project": null,
+      "task_count": 13,
+      "department": "AI"
+    },
+    "WFC-018": {
+      "new_id": "WRF-018",
+      "workflow_name": "AI - Task Tasks",
+      "execution_phase": "Execution",
+      "related_project": null,
+      "task_count": 83,
+      "department": "AI"
+    },
+    "WFC-019": {
+      "new_id": "WRF-019",
+      "workflow_name": "AI - Testing Tasks",
+      "execution_phase": "Execution",
+      "related_project": null,
+      "task_count": 5,
+      "department": "AI"
+    },
+    "WFC-020": {
+      "new_id": "WRF-020",
+      "workflow_name": "Design - Design Tasks",
+      "execution_phase": "Execution",
+      "related_project": null,
+      "task_count": 9,
+      "department": "Design"
+    },
+    "WFC-021": {
+      "new_id": "WRF-021",
+      "workflow_name": "Design - Development Tasks",
+      "execution_phase": "Execution",
+      "related_project": null,
+      "task_count": 31,
+      "department": "Design"
+    },
+    "WFC-022": {
+      "new_id": "WRF-022",
+      "workflow_name": "Design - Documentation Tasks",
+      "execution_phase": "Execution",
+      "related_project": null,
+      "task_count": 4,
+      "department": "Design"
+    },
+    "WFC-023": {
+      "new_id": "WRF-023",
+      "workflow_name": "Design - Research Tasks",
+      "execution_phase": "Execution",
+      "related_project": null,
+      "task_count": 2,
+      "department": "Design"
+    },
+    "WFC-024": {
+      "new_id": "WRF-024",
+      "workflow_name": "Design - Task Tasks",
+      "execution_phase": "Execution",
+      "related_project": null,
+      "task_count": 10,
+      "department": "Design"
+    },
+    "WFC-025": {
+      "new_id": "WRF-025",
+      "workflow_name": "Development - Development Tasks",
+      "execution_phase": "Execution",
+      "related_project": null,
+      "task_count": 11,
+      "department": "Development"
+    },
+    "WFC-026": {
+      "new_id": "WRF-026",
+      "workflow_name": "Development - Documentation Tasks",
+      "execution_phase": "Execution",
+      "related_project": null,
+      "task_count": 2,
+      "department": "Development"
+    },
+    "WFC-027": {
+      "new_id": "WRF-027",
+      "workflow_name": "Development - Integration Tasks",
+      "execution_phase": "Execution",
+      "related_project": null,
+      "task_count": 3,
+      "department": "Development"
+    },
+    "WFC-028": {
+      "new_id": "WRF-028",
+      "workflow_name": "Development - Research Tasks",
+      "execution_phase": "Execution",
+      "related_project": null,
+      "task_count": 2,
+      "department": "Development"
+    },
+    "WFC-029": {
+      "new_id": "WRF-029",
+      "workflow_name": "Development - Task Tasks",
+      "execution_phase": "Execution",
+      "related_project": null,
+      "task_count": 13,
+      "department": "Development"
+    },
+    "WFC-030": {
+      "new_id": "WRF-030",
+      "workflow_name": "Finance - Development Tasks",
+      "execution_phase": "Execution",
+      "related_project": null,
+      "task_count": 5,
+      "department": "Finance"
+    },
+    "WFC-031": {
+      "new_id": "WRF-031",
+      "workflow_name": "Finance - Maintenance Tasks",
+      "execution_phase": "Execution",
+      "related_project": null,
+      "task_count": 2,
+      "department": "Finance"
+    },
+    "WFC-032": {
+      "new_id": "WRF-032",
+      "workflow_name": "Finance - Research Tasks",
+      "execution_phase": "Execution",
+      "related_project": null,
+      "task_count": 4,
+      "department": "Finance"
+    },
+    "WFC-033": {
+      "new_id": "WRF-033",
+      "workflow_name": "Finance - Task Tasks",
+      "execution_phase": "Execution",
+      "related_project": null,
+      "task_count": 9,
+      "department": "Finance"
+    },
+    "WFC-034": {
+      "new_id": "WRF-034",
+      "workflow_name": "HR - Development Tasks",
+      "execution_phase": "Execution",
+      "related_project": null,
+      "task_count": 17,
+      "department": "HR"
+    },
+    "WFC-035": {
+      "new_id": "WRF-035",
+      "workflow_name": "HR - Documentation Tasks",
+      "execution_phase": "Execution",
+      "related_project": null,
+      "task_count": 2,
+      "department": "HR"
+    },
+    "WFC-036": {
+      "new_id": "WRF-036",
+      "workflow_name": "HR - Integration Tasks",
+      "execution_phase": "Execution",
+      "related_project": null,
+      "task_count": 4,
+      "department": "HR"
+    },
+    "WFC-037": {
+      "new_id": "WRF-037",
+      "workflow_name": "HR - Research Tasks",
+      "execution_phase": "Execution",
+      "related_project": null,
+      "task_count": 3,
+      "department": "HR"
+    },
+    "WFC-038": {
+      "new_id": "WRF-038",
+      "workflow_name": "HR - Task Tasks",
+      "execution_phase": "Execution",
+      "related_project": null,
+      "task_count": 27,
+      "department": "HR"
+    },
+    "WFC-039": {
+      "new_id": "WRF-039",
+      "workflow_name": "Lead Generation - Task Tasks",
+      "execution_phase": "Execution",
+      "related_project": null,
+      "task_count": 6,
+      "department": "Lead Generation"
+    },
+    "WFC-040": {
+      "new_id": "WRF-040",
+      "workflow_name": "SMM - Development Tasks",
+      "execution_phase": "Execution",
+      "related_project": null,
+      "task_count": 4,
+      "department": "SMM"
+    },
+    "WFC-041": {
+      "new_id": "WRF-041",
+      "workflow_name": "SMM - Research Tasks",
+      "execution_phase": "Execution",
+      "related_project": null,
+      "task_count": 2,
+      "department": "SMM"
+    },
+    "WFC-042": {
+      "new_id": "WRF-042",
+      "workflow_name": "Sales - Design Tasks",
+      "execution_phase": "Execution",
+      "related_project": null,
+      "task_count": 2,
+      "department": "Sales"
+    },
+    "WFC-043": {
+      "new_id": "WRF-043",
+      "workflow_name": "Sales - Development Tasks",
+      "execution_phase": "Execution",
+      "related_project": null,
+      "task_count": 4,
+      "department": "Sales"
+    },
+    "WFC-044": {
+      "new_id": "WRF-044",
+      "workflow_name": "Sales - Documentation Tasks",
+      "execution_phase": "Execution",
+      "related_project": null,
+      "task_count": 2,
+      "department": "Sales"
+    },
+    "WFC-045": {
+      "new_id": "WRF-045",
+      "workflow_name": "Sales - Research Tasks",
+      "execution_phase": "Execution",
+      "related_project": null,
+      "task_count": 2,
+      "department": "Sales"
+    },
+    "WFC-046": {
+      "new_id": "WRF-046",
+      "workflow_name": "Sales - Task Tasks",
+      "execution_phase": "Execution",
+      "related_project": null,
+      "task_count": 19,
+      "department": "Sales"
+    },
+    "WFC-047": {
+      "new_id": "WRF-047",
+      "workflow_name": "Video - Development Tasks",
+      "execution_phase": "Execution",
+      "related_project": null,
+      "task_count": 5,
+      "department": "Video"
+    },
+    "WFC-048": {
+      "new_id": "WRF-048",
+      "workflow_name": "Video - Documentation Tasks",
+      "execution_phase": "Execution",
+      "related_project": null,
+      "task_count": 2,
+      "department": "Video"
+    },
+    "WFC-049": {
+      "new_id": "WRF-049",
+      "workflow_name": "Video - Research Tasks",
+      "execution_phase": "Execution",
+      "related_project": null,
+      "task_count": 3,
+      "department": "Video"
+    },
+    "WFC-050": {
+      "new_id": "WRF-050",
+      "workflow_name": "Video - Task Tasks",
+      "execution_phase": "Execution",
+      "related_project": null,
+      "task_count": 11,
+      "department": "Video"
+    }
+  },
+  "department_mappings": {
+    "AI": "AID",
+    "Design": "DGN",
+    "Development": "DEV",
+    "Finance": "FIN",
+    "HR": "HRM",
+    "Lead Generation": "LGN",
+    "Sales": "SLS",
+    "SMM": "SMM",
+    "Video": "VID"
+  },
+  "task_id_conversions": {
+    "pattern": "TSK-### -> TST-###",
+    "note": "Simple numeric TSK IDs converted to TST format per TAX-002 taxonomy"
+  }
+}

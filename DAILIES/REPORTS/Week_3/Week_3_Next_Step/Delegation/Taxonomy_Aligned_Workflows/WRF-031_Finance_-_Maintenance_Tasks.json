@@ -1,0 +1,48 @@
+{
+  "entity_type": "TASK_MANAGERS",
+  "sub_entity": "Workflow",
+  "workflow_id": "WRF-031",
+  "metadata": {
+    "workflow_name": "Finance - Maintenance Tasks",
+    "description": "Execution phase workflow for FIN department - Maintenance category",
+    "primary_department": "FIN",
+    "departments_involved": [
+      "FIN"
+    ],
+    "workflow_type": "Parallel",
+    "execution_phase": "Execution",
+    "category": "Maintenance",
+    "priority": "Medium",
+    "estimated_duration": "6.0h",
+    "complexity": "Medium",
+    "status": "Active",
+    "created_date": "2025-11-26",
+    "version": "1.0"
+  },
+  "tasks": {
+    "total_count": 2,
+    "task_ids": [
+      "TST-411",
+      "TST-392"
+    ],
+    "execution_type": "Parallel"
+  },
+  "performance_metrics": {
+    "total_estimated_hours": 6.0,
+    "task_count": 2
+  },
+  "tags": [
+    "execution",
+    "parallel",
+    "fin",
+    "maintenance"
+  ],
+  "version": "1.0",
+  "created": "2025-11-26",
+  "last_updated": "2025-11-26",
+  "migration_notes": {
+    "original_id": "WFC-031",
+    "converted_from": "WFC format",
+    "conversion_date": "2025-11-26"
+  }
+}

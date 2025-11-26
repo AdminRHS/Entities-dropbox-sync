@@ -1,0 +1,80 @@
+{
+  "entity_type": "TASK_MANAGERS",
+  "sub_entity": "Project_Template",
+  "template_id": "Project-Template-012",
+  "project_template_id": "PRT-012",
+  "metadata": {
+    "name": "Document scraping system (20% checkpoint)",
+    "description": "Week 3 strategic project: Document scraping system (20% checkpoint)",
+    "primary_department": "DGN",
+    "departments_involved": [
+      "AID",
+      "DEV",
+      "DGN",
+      "LGN",
+      "SMM"
+    ],
+    "project_type": "Strategic Initiative",
+    "estimated_duration": "21.3h",
+    "complexity": "High",
+    "status": "Active",
+    "priority": "High",
+    "created_date": "2025-11-26",
+    "version": "1.0"
+  },
+  "structure": {
+    "workflow_type": "Sequential",
+    "total_tasks": 13,
+    "total_milestones": 1,
+    "total_phases": 1
+  },
+  "milestones": [
+    {
+      "milestone_id": "MLT-030",
+      "milestone_name": "Document scraping system (20% checkpoint)",
+      "phase": "1",
+      "description": "Document scraping system (20% checkpoint)",
+      "task_count": 13,
+      "estimated_duration": "21.3h",
+      "execution_type": "Sequential",
+      "dependencies": "MLT-039"
+    }
+  ],
+  "phases": [
+    {
+      "phase_number": 1,
+      "phase_name": "Implementation",
+      "phase_description": "Complete Document scraping system (20% checkpoint)",
+      "duration": "21.3h",
+      "complexity": "High",
+      "dependencies": null,
+      "milestones": "MLT-030",
+      "success_criteria": [
+        "All milestones completed",
+        "All deliverables approved",
+        "Project objectives achieved"
+      ]
+    }
+  ],
+  "performance_metrics": {
+    "estimated_hours": 21.3,
+    "task_count": 13,
+    "milestone_count": 1
+  },
+  "tags": [
+    "week-3",
+    "strategic",
+    "planning",
+    "dgn"
+  ],
+  "version": "1.0",
+  "created": "2025-11-26",
+  "last_updated": "2025-11-26",
+  "migration_notes": {
+    "source": "Week 3 Workflow Clustering",
+    "conversion_date": "2025-11-26",
+    "workflows_included": [
+      "WFC-005"
+    ]
+  }
+}

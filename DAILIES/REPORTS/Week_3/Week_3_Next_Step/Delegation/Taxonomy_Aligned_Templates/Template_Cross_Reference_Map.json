@@ -1,0 +1,113 @@
+{
+  "metadata": {
+    "created_date": "2025-11-26",
+    "description": "Cross-reference mapping for all TAX-002 templates extracted from Week 3",
+    "total_projects": 10,
+    "total_milestones": 11,
+    "total_task_templates": 20,
+    "total_workflows": 50
+  },
+  "hierarchy": {
+    "PRT (Projects)": {
+      "count": 10,
+      "ids": [
+        "PRT-005",
+        "PRT-009",
+        "PRT-010",
+        "PRT-011",
+        "PRT-012",
+        "PRT-013",
+        "PRT-014",
+        "PRT-015",
+        "PRT-016",
+        "PRT-017"
+      ],
+      "contains": "MLT (Milestones)"
+    },
+    "MLT (Milestones)": {
+      "count": 11,
+      "ids": [
+        "MLT-030",
+        "MLT-031",
+        "MLT-032",
+        "MLT-033",
+        "MLT-034",
+        "MLT-035",
+        "MLT-036",
+        "MLT-037",
+        "MLT-038",
+        "MLT-039"
+      ],
+      "contains": "TST (Task Templates)",
+      "belongs_to": "PRT (Projects)"
+    },
+    "TST (Task Templates)": {
+      "count": "20 created (426 total available)",
+      "sample_ids": [
+        "TST-395",
+        "TST-396",
+        "TST-397",
+        "TST-398",
+        "TST-399"
+      ],
+      "contains": "STT (Step Templates)",
+      "belongs_to": "MLT (Milestones)"
+    },
+    "WRF (Workflows)": {
+      "count": 50,
+      "planning_phase": "WRF-001 to WRF-010",
+      "execution_phase": "WRF-011 to WRF-050",
+      "references": "PRT, MLT, TST"
+    }
+  },
+  "project_milestone_mapping": {
+    "PRT-005": [
+      "MLT-030"
+    ],
+    "PRT-009": [
+      "MLT-031"
+    ],
+    "PRT-010": [
+      "MLT-032"
+    ],
+    "PRT-011": [
+      "MLT-033"
+    ],
+    "PRT-012": [
+      "MLT-034"
+    ],
+    "PRT-013": [
+      "MLT-035"
+    ],
+    "PRT-014": [
+      "MLT-036"
+    ],
+    "PRT-015": [
+      "MLT-037"
+    ],
+    "PRT-016": [
+      "MLT-038"
+    ],
+    "PRT-017": [
+      "MLT-039"
+    ]
+  },
+  "workflow_project_mapping": {
+    "WRF-001": "PRT-005",
+    "WRF-002": "PRT-009",
+    "WRF-003": "PRT-010",
+    "WRF-004": "PRT-011",
+    "WRF-005": "PRT-012",
+    "WRF-006": "PRT-013",
+    "WRF-007": "PRT-014",
+    "WRF-008": "PRT-015",
+    "WRF-009": "PRT-016",
+    "WRF-010": "PRT-017"
+  },
+  "files_created": {
+    "task_templates": "Taxonomy_Aligned_Templates/Task_Templates/ (20 TST-###.json files)",
+    "milestone_templates": "Taxonomy_Aligned_Templates/Milestone_Templates/ (11 MLT-###.json files)",
+    "project_templates": "Taxonomy_Aligned_Templates/Project_Templates/ (10 PRT-###.json files)",
+    "workflows": "Taxonomy_Aligned_Workflows/ (50 WRF-###.json files)"
+  }
+}

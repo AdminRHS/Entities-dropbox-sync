@@ -26,7 +26,7 @@ This catalog contains all entities extracted from November 20, 2025 daily activi
 - **Design Department (DGN):** 3 tasks, 11 responsibilities
 - **HR Department (HRM):** 1 task, 4 responsibilities
 - **Lead Generation (LGN):** 1 task, 1 responsibility
-- **Finance (FNC):** 1 task, 1 responsibility
+- **Finance (FIN):** 1 task, 1 responsibility
 
 ---
 
@@ -163,7 +163,7 @@ This catalog contains all entities extracted from November 20, 2025 daily activi
 - **Status:** Ready for import
 
 #### TST-081: Design Financial Automation Workflow
-- **Department:** Finance (FNC)
+- **Department:** Finance (FIN)
 - **Estimated Duration:** 3 hours
 - **Reusability Score:** 85%
 - **Frequency:** Medium
@@ -284,7 +284,7 @@ This catalog contains all entities extracted from November 20, 2025 daily activi
 
 | ID | Action | Object | Phrase | Frequency | Tools |
 |----|--------|--------|--------|-----------|-------|
-| RESP-FNC-XXX | design | automation workflow | design automation workflow | 1 | TOL-119, TOL-045 |
+| RESP-FIN-XXX | design | automation workflow | design automation workflow | 1 | TOL-119, TOL-045 |
 
 ---
 
@@ -295,12 +295,12 @@ These tools were already in use and referenced in the reports:
 | Tool ID | Tool Name | Category | Usage Count | Departments |
 |---------|-----------|----------|-------------|-------------|
 | TOL-002 | Claude | AI Assistant | 15+ | All |
-| TOL-003 | Gemini 3 Pro | AI Assistant | 12+ | AID, DEV, FNC |
+| TOL-003 | Gemini 3 Pro | AI Assistant | 12+ | AID, DEV, FIN |
 | TOL-045 | Google Sheets | Productivity | 20+ | All |
 | TOL-058 | Notion | Project Management | 18+ | All |
 | TOL-081 | Google Cloud | Cloud Platform | 5 | AID, DEV |
 | TOL-092 | Discord | Communication | 10+ | All |
-| TOL-119 | n8n | Automation | 3 | AID, FNC |
+| TOL-119 | n8n | Automation | 3 | AID, FIN |
 | TOL-156 | Midjourney | AI Image Gen | 8 | DGN, SMM |
 | TOL-201 | Cursor | IDE | 4 | AID, DEV |
 | TOL-??? | CRM System | Sales/Marketing | 6 | LGN, SLS |
@@ -347,7 +347,7 @@ These tools were already in use and referenced in the reports:
 - RESP-LGN-XXX (generate leads)
 
 **TST-081 (Financial Automation)**
-- RESP-FNC-XXX (design automation workflow)
+- RESP-FIN-XXX (design automation workflow)
 
 ### Task → Tool Dependencies
 
@@ -395,7 +395,7 @@ These tools were already in use and referenced in the reports:
 | DGN | 3 | 11 | 42% |
 | HRM | 1 | 4 | 8% |
 | LGN | 1 | 1 | 4% |
-| FNC | 1 | 1 | 8% |
+| FIN | 1 | 1 | 8% |
 
 **Key Insight:** AI and Design departments generate the most reusable entities, accounting for 80% of total extracted entities.
 

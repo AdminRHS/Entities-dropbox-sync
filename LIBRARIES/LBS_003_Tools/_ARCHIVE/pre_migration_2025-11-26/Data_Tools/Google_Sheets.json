@@ -1,0 +1,135 @@
+{
+  "entity_type": "LIBRARIES",
+  "sub_entity": "Tool",
+  "tool_id": "TOOL-DATA-006",
+  "name": "Google Sheets",
+  "vendor": "Google (Alphabet Inc.)",
+  "category": "Data Storage / Spreadsheet Platform",
+  "purpose": "Cloud-based spreadsheet platform for data storage, organization, and collaboration",
+  "description": "Google Sheets is a cloud-based spreadsheet application that enables users to create, edit, and collaborate on spreadsheets in real-time. It supports data import/export, API integration, automation via Google Apps Script, and seamless integration with other Google Workspace tools. Widely used for data storage, analysis, reporting, and as a destination for automated data exports from various tools and platforms.",
+  "skill_level_required": "Beginner",
+  "cost_structure": "Free (Personal) / Google Workspace (Business plans available)",
+  "platform_compatibility": [
+    "Web",
+    "Mobile (iOS, Android)",
+    "Desktop (Chrome OS)",
+    "API"
+  ],
+  "integration_capabilities": [
+    "Google Workspace Integration",
+    "API Access",
+    "Google Apps Script Automation",
+    "n8n Integration",
+    "Make.com Integration",
+    "Zapier Integration",
+    "Browse AI Integration (Direct Export)",
+    "CSV Import/Export",
+    "Google Drive Integration"
+  ],
+  "documentation_url": "https://support.google.com/sheets",
+  "actual_remote_helpers_usage": {
+    "primary_use": "Data Storage and Organization",
+    "users": [
+      "All Departments",
+      "Lead Generation Team",
+      "Marketing Team",
+      "Finance Team",
+      "HR Team"
+    ],
+    "use_cases": [
+      "Store scraped data from Browse AI",
+      "Organize lead lists",
+      "Track recruitment data",
+      "Analyze sales data",
+      "Collaborative data editing",
+      "Data export destination",
+      "Report generation",
+      "Data analysis and visualization"
+    ],
+    "workflows": [
+      "MLS-003: Execute and Export Data (Video_022)",
+      "TSK-008: Export Data (Video_022)",
+      "STP-016: Export to Google Sheets (Video_022)"
+    ]
+  },
+  "strengths": [
+    "Free for personal use",
+    "Real-time collaboration",
+    "Cloud-based (accessible anywhere)",
+    "API access for automation",
+    "Google Apps Script for custom automation",
+    "Wide integration ecosystem",
+    "Mobile apps available",
+    "Version history and revision tracking"
+  ],
+  "limitations": [
+    "Limited offline functionality",
+    "Performance issues with very large datasets",
+    "Less powerful than Excel for complex calculations",
+    "Requires Google account"
+  ],
+  "alternatives": [
+    {
+      "name": "Microsoft Excel",
+      "comparison": "Excel is more powerful but requires Office subscription, less collaborative"
+    },
+    {
+      "name": "Airtable",
+      "comparison": "Airtable is more database-like, better for complex relationships"
+    },
+    {
+      "name": "Notion",
+      "comparison": "Notion is more document-focused, less spreadsheet-oriented"
+    }
+  ],
+  "departments_using": [
+    "AID",
+    "LGN",
+    "MKT",
+    "FIN",
+    "HRM",
+    "SLS"
+  ],
+  "tags": [
+    "spreadsheet",
+    "data-storage",
+    "collaboration",
+    "cloud",
+    "google-workspace",
+    "data-export",
+    "api",
+    "automation",
+    "free"
+  ],
+  "discovery_date": "2025-01-27",
+  "discovery_source": "Video_022",
+  "status": "active",
+  "video_source": {
+    "video_id": "Video_022",
+    "video_title": "This AI Agent Will DO Your Work For You! (Browse AI)",
+    "creator": "The AI Advantage (Igor)",
+    "timestamp": "09:10-10:00"
+  },
+  "related_tools": [
+    {
+      "tool_id": "TOOL-AI-074",
+      "tool_name": "Browse AI",
+      "relationship": "Direct export integration"
+    },
+    {
+      "tool_id": "TOOL-AUTO-001",
+      "tool_name": "n8n",
+      "relationship": "Workflow automation integration"
+    }
+  ],
+  "skills_referenced": [
+    "SKL-005: analyzed recruitment data in Google Sheets",
+    "SKL-044: analyzed sales data in Google Sheets"
+  ]
+}
+
+
+
+
+
+

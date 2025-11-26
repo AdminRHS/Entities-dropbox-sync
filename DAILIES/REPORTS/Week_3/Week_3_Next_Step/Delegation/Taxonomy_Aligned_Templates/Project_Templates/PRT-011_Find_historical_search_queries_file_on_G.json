@@ -1,0 +1,78 @@
+{
+  "entity_type": "TASK_MANAGERS",
+  "sub_entity": "Project_Template",
+  "template_id": "Project-Template-011",
+  "project_template_id": "PRT-011",
+  "metadata": {
+    "name": "Find historical search queries file on Google Drive",
+    "description": "Week 3 strategic project: Find historical search queries file on Google Drive",
+    "primary_department": "AID",
+    "departments_involved": [
+      "AID",
+      "LGN",
+      "SLS"
+    ],
+    "project_type": "Strategic Initiative",
+    "estimated_duration": "24.0h",
+    "complexity": "High",
+    "status": "Active",
+    "priority": "High",
+    "created_date": "2025-11-26",
+    "version": "1.0"
+  },
+  "structure": {
+    "workflow_type": "Sequential",
+    "total_tasks": 15,
+    "total_milestones": 1,
+    "total_phases": 1
+  },
+  "milestones": [
+    {
+      "milestone_id": "MLT-030",
+      "milestone_name": "Find historical search queries file on Google Drive",
+      "phase": "1",
+      "description": "Find historical search queries file on Google Drive",
+      "task_count": 15,
+      "estimated_duration": "24.0h",
+      "execution_type": "Sequential",
+      "dependencies": "MLT-033"
+    }
+  ],
+  "phases": [
+    {
+      "phase_number": 1,
+      "phase_name": "Implementation",
+      "phase_description": "Complete Find historical search queries file on Google Drive",
+      "duration": "24.0h",
+      "complexity": "High",
+      "dependencies": null,
+      "milestones": "MLT-030",
+      "success_criteria": [
+        "All milestones completed",
+        "All deliverables approved",
+        "Project objectives achieved"
+      ]
+    }
+  ],
+  "performance_metrics": {
+    "estimated_hours": 24.0,
+    "task_count": 15,
+    "milestone_count": 1
+  },
+  "tags": [
+    "week-3",
+    "strategic",
+    "planning",
+    "aid"
+  ],
+  "version": "1.0",
+  "created": "2025-11-26",
+  "last_updated": "2025-11-26",
+  "migration_notes": {
+    "source": "Week 3 Workflow Clustering",
+    "conversion_date": "2025-11-26",
+    "workflows_included": [
+      "WFC-004"
+    ]
+  }
+}

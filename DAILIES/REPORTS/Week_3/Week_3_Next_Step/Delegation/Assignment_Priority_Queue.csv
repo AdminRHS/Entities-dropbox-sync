@@ -1,0 +1,502 @@
+Queue_Position,Task_ID,Task_Name,Priority,Reclassified_Department,Category,Blocking_Dependencies,Assigned_To,Estimated_Duration,Business_Impact,Complexity_Score,Quick_Win_Flag,Match_Confidence,Matched_Template
+1,PRT-011,Google Maps Scraping System,Critical,Lead Generation,Infrastructure,,Lead Generation Specialist / Sales Development Rep,3 hours (1 hour research + 1.5 hours data entry + 30 min qualification),Infrastructure,2,Yes,High,Task-Template-080
+2,PRT-014,HR Attendance Dashboard,Critical,Development,Infrastructure,,DevOps Engineer / Cloud Engineer,4 hours (1 hour planning + 2 hours implementation + 1 hour testing),Infrastructure,2,Yes,Medium,Task-Template-073
+3,PRT-015,Vilhelm Onboarding & Video Processing Training,Critical,AI,Infrastructure,,Executive Assistant,Auto-generate: <1 minute | Review: 5-10 minutes,Infrastructure,2,Yes,High,Task-Template-020
+4,PRT-012,Reviews Scraping & Analysis System,Critical,AI,Infrastructure,,TBD,TBD,Infrastructure,2,No,High,CUSTOM
+5,PRT-016,AI Tools & Accounts Management System,Critical,AI,Infrastructure,,AI Engineer / Data Analyst,1.5 hours (30 min automation run + 45 min validation + 15 min reporting),Infrastructure,2,No,High,Task-Template-074
+6,PRT-009,PROSPECTS → Populate Data with AI Research,Critical,Sales,Infrastructure,,Sales Manager,4-5 hours for 50 emails,Infrastructure,2,No,High,Task-Template-021
+7,PRT-002,Entity System Cleanup,Critical,AI,Infrastructure,,TBD,TBD,Infrastructure,2,No,High,Project-Template-002
+8,TSK-448,Create CRM API integration,High,Development,Development,,AI Engineer,1-2 minutes,Internal,1,Yes,Medium,Task-Template-011
+9,TSK-347,Implement profession/role-based permissions,High,Development,Development,,AI Engineer,1-2 minutes,Internal,1,Yes,Medium,Task-Template-011
+10,TSK-380,Create task template schema,High,Development,Development,,AI Engineer,1-2 minutes,Internal,1,Yes,Medium,Task-Template-011
+11,TSK-390,Create dynamic Postgres generation,High,Development,Development,,AI Engineer,1-2 minutes,Internal,1,Yes,Medium,Task-Template-011
+12,TSK-279,Create reusable microservice template,High,Development,Development,,AI Engineer,1-2 minutes,Internal,1,Yes,Medium,Task-Template-011
+13,TSK-402,Fix email personalization - add LinkedIn context,High,Lead Generation,Maintenance,,Lead Generation Specialist / Sales Development Rep,3 hours (1 hour research + 1.5 hours data entry + 30 min qualification),Internal,2,Yes,Medium,Task-Template-080
+14,TSK-416,Build intermediate export folders structure,High,Design,Development,,TBD,20-30 minutes,Internal,2,Yes,High,CUSTOM
+15,TSK-430,Build reports in ANALYTICS folder,High,Design,Development,,TBD,20-30 minutes,Internal,2,Yes,High,CUSTOM
+16,TSK-439,Decide: Team leads vs direct rollout,High,Lead Generation,Task,,Lead Generation Specialist / Sales Development Rep,3 hours (1 hour research + 1.5 hours data entry + 30 min qualification),Internal,2,Yes,High,Task-Template-080
+17,TSK-449,Build Discord voice log export,High,Design,Development,,TBD,20-30 minutes,Internal,2,Yes,High,CUSTOM
+18,TSK-456,Build similar/connected words in LIBRARIES,High,Design,Development,,TBD,20-30 minutes,Internal,2,Yes,High,CUSTOM
+19,TSK-462,Build research prompts for developer tutorials,High,Design,Development,,TBD,20-30 minutes,Internal,2,Yes,High,CUSTOM
+20,TSK-471,Build matching schemas for consistency,High,Design,Development,,TBD,20-30 minutes,Internal,2,Yes,High,CUSTOM
+21,TSK-475,Build central IDs with names center,High,Design,Development,,TBD,20-30 minutes,Internal,2,Yes,High,CUSTOM
+22,TSK-332,Build index files for machine/AI access,High,Design,Development,,TBD,20-30 minutes,Internal,2,Yes,High,CUSTOM
+23,TSK-334,Sync Task Template to backend,High,Development,Integration,,AI Engineer,5-10 minutes with AI assistance,Internal,2,Yes,Medium,Task-Template-010
+24,TSK-340,Design country-based job account permissions,High,Sales,Design,,TBD,20-30 minutes,Internal,2,Yes,Medium,CUSTOM
+25,TSK-341,Implement team lead access limits,High,Lead Generation,Development,,AI Engineer / DevOps Engineer,2 hours (30 min install + 1 hour config + 30 min testing),Internal,2,Yes,Medium,Task-Template-072
+26,TSK-344,Add Balkans as region in system,High,Design,Task,,TBD,20-30 minutes,Internal,2,Yes,High,CUSTOM
+27,TSK-345,Design permission system architecture,High,Design,Design,,TBD,20-30 minutes,Internal,2,Yes,High,CUSTOM
+28,TSK-367,Build Google Sheets integration workflow,High,Design,Development,,TBD,20-30 minutes,Internal,2,Yes,High,CUSTOM
+29,TSK-369,Build AI agent for n8n analysis,High,Design,Development,,TBD,20-30 minutes,Internal,2,Yes,High,CUSTOM
+30,TSK-370,Generate n8n workflow from Claude,High,AI,Task,,Operations Manager,1-4 minutes (automated execution),Internal,2,Yes,High,Task-Template-022
+31,TSK-377,Build action/object extraction from daily notes,High,Design,Development,,TBD,20-30 minutes,Internal,2,Yes,High,CUSTOM
+32,TSK-385,Build automated posting workflow,High,Design,Development,,TBD,20-30 minutes,Internal,2,Yes,High,CUSTOM
+33,TSK-386,Design step-by-step content templates,High,Design,Design,,TBD,20-30 minutes,Internal,2,Yes,High,CUSTOM
+34,TSK-387,Design microservice methodology,High,Design,Design,,TBD,20-30 minutes,Internal,2,Yes,High,CUSTOM
+35,TSK-389,Build GitHub-Dropbox sync for backend,High,Development,Development,,AI Engineer / DevOps Engineer,2 hours (30 min install + 1 hour config + 30 min testing),Internal,2,Yes,Medium,Task-Template-072
+36,TSK-322,Deploy Google AntiGravity for team,High,Development,Task,,AI Engineer,5-10 minutes with AI assistance,Internal,2,Yes,Medium,Task-Template-010
+37,TSK-234,Build starting point reference guides,High,Design,Development,,TBD,20-30 minutes,Internal,2,Yes,High,CUSTOM
+38,TSK-237,Find and download Google Drive guides in Markdown,High,Design,Design,,TBD,20-30 minutes,Internal,2,Yes,High,CUSTOM
+39,TSK-249,Store Online Academy links in guides,High,Design,Design,,TBD,20-30 minutes,Internal,2,Yes,High,CUSTOM
+40,TSK-253,Build progress tracking via task IDs in reports,High,Design,Development,,TBD,20-30 minutes,Internal,2,Yes,High,CUSTOM
+41,TSK-277,Build user login system with gmail,High,Design,Development,,TBD,20-30 minutes,Internal,2,Yes,High,CUSTOM
+42,TSK-282,Create clear file location guidance,High,Design,Development,,TBD,20-30 minutes,Internal,2,Yes,High,CUSTOM
+43,TSK-283,Build progress count updating script,High,Design,Development,,TBD,20-30 minutes,Internal,2,Yes,High,CUSTOM
+44,TSK-284,Create tasks import guide,High,Design,Development,,TBD,20-30 minutes,Internal,2,Yes,High,CUSTOM
+45,TSK-294,Build execution tracking system,High,Design,Development,,TBD,20-30 minutes,Internal,2,Yes,High,CUSTOM
+46,TSK-295,Create execution update guides,High,Design,Development,,TBD,20-30 minutes,Internal,2,Yes,High,CUSTOM
+47,TSK-303,Build automation posting,High,Design,Development,,TBD,20-30 minutes,Internal,2,Yes,High,CUSTOM
+48,TSK-304,Train AI to build research tasks for people,High,Design,Development,,TBD,20-30 minutes,Internal,2,Yes,High,CUSTOM
+49,TSK-107,Reformat LinkedIn queries for Google Maps,High,Lead Generation,Task,PRT-011,Lead Generation Specialist / Sales Development Rep,3 hours (1 hour research + 1.5 hours data entry + 30 min qualification),Internal,2,Yes,Medium,Task-Template-080
+50,TSK-113,Test scraping with 3-4 videos about Google Maps scraping,High,Lead Generation,Testing,PRT-011,Lead Generation Specialist / Sales Development Rep,3 hours (1 hour research + 1.5 hours data entry + 30 min qualification),Internal,2,Yes,Medium,Task-Template-080
+51,TSK-114,"Allocate 5 lead generators, 1-2 hours/day for Google Maps",High,Lead Generation,Task,PRT-011,Lead Generation Specialist / Sales Development Rep,3 hours (1 hour research + 1.5 hours data entry + 30 min qualification),Internal,2,Yes,Medium,Task-Template-080
+52,TSK-115,Create attractive offer for leads (20 Google vs 5 LinkedIn),High,Lead Generation,Development,PRT-011,Lead Generation Specialist / Sales Development Rep,3 hours (1 hour research + 1.5 hours data entry + 30 min qualification),Internal,2,Yes,High,Task-Template-080
+53,TSK-118,Create guidelines for reviews scraping direction,High,Design,Development,PRT-012,TBD,20-30 minutes,Internal,2,Yes,High,CUSTOM
+54,TSK-119,Add source marking for Google Maps data,High,Lead Generation,Task,PRT-012,Lead Generation Specialist / Sales Development Rep,3 hours (1 hour research + 1.5 hours data entry + 30 min qualification),Internal,2,Yes,Medium,Task-Template-080
+55,TSK-123,Create Job Sites folder in ENTITIES/ACCOUNTS,High,Lead Generation,Development,PRT-013,Lead Generation Specialist / Sales Development Rep,3 hours (1 hour research + 1.5 hours data entry + 30 min qualification),Internal,2,Yes,Medium,Task-Template-080
+56,TSK-125,Build Job Sites entity structure,High,Lead Generation,Development,PRT-013,Lead Generation Specialist / Sales Development Rep,3 hours (1 hour research + 1.5 hours data entry + 30 min qualification),Internal,2,Yes,Medium,Task-Template-080
+57,TSK-126,Create Master JSON for Job Sites,High,Lead Generation,Development,PRT-013,Lead Generation Specialist / Sales Development Rep,3 hours (1 hour research + 1.5 hours data entry + 30 min qualification),Internal,2,Yes,Medium,Task-Template-080
+58,TSK-127,Document Job Sites entity,High,Lead Generation,Documentation,PRT-013,Lead Generation Specialist / Sales Development Rep,3 hours (1 hour research + 1.5 hours data entry + 30 min qualification),Internal,2,Yes,Medium,Task-Template-080
+59,TSK-128,Deploy v1.0 to Vercel,High,Development,Task,PRT-014,AI Engineer,5-10 minutes with AI assistance,Internal,2,Yes,Medium,Task-Template-010
+60,TSK-134,Integrate UI Kit from Eleanor's work,High,Design,Design,PRT-014,TBD,20-30 minutes,Internal,2,Yes,High,CUSTOM
+61,TSK-136,Build API for dashboard data,High,Design,Development,PRT-014,TBD,20-30 minutes,Internal,2,Yes,High,CUSTOM
+62,TSK-141,Set up Vilhelm's VS Code with Claude Extension,High,AI,Task,PRT-015,Executive Assistant,Auto-draft: <1 minute | Review: 10 minutes,Internal,2,Yes,High,Task-Template-005
+63,TSK-155,Sync Dropbox Tools to libdev.com,High,Development,Integration,PRT-016,AI Engineer,5-10 minutes with AI assistance,Internal,2,Yes,Medium,Task-Template-010
+64,TSK-157,Design single task page layout,High,Design,Design,PRT-017,TBD,20-30 minutes,Internal,2,Yes,High,CUSTOM
+65,TSK-159,Build HTML template for single task,High,Design,Development,PRT-017,TBD,20-30 minutes,Internal,2,Yes,High,CUSTOM
+66,TSK-189,Create guidelines per profession,High,Design,Development,,TBD,20-30 minutes,Internal,2,Yes,High,CUSTOM
+67,TSK-190,Build AI assistant framework,High,Design,Development,,TBD,20-30 minutes,Internal,2,Yes,High,CUSTOM
+68,TSK-191,Design InnerClient concept,High,Sales,Design,,TBD,20-30 minutes,Internal,2,Yes,Medium,CUSTOM
+69,TSK-195,Sync Dropbox Tools library to libdev.com,High,Development,Integration,,AI Engineer,5-10 minutes with AI assistance,Internal,2,Yes,Medium,Task-Template-010
+70,TSK-197,Build manual sync script (fallback),High,Design,Development,,TBD,20-30 minutes,Internal,2,Yes,High,CUSTOM
+71,TSK-200,Monday call at 9 AM,High,Design,Task,,TBD,20-30 minutes,Internal,2,Yes,High,CUSTOM
+72,TSK-201,Vilhelm + Yulya: Collect designer works,High,Design,Design,,TBD,20-30 minutes,Internal,2,Yes,High,CUSTOM
+73,TSK-202,Implement designer work storage in Dropbox,High,Design,Development,,TBD,20-30 minutes,Internal,2,Yes,High,CUSTOM
+74,TSK-204,Create plans for next stage,High,Design,Development,,TBD,20-30 minutes,Internal,2,Yes,High,CUSTOM
+75,TSK-206,Mandate Dropbox work storage for designers,High,Design,Design,,TBD,20-30 minutes,Internal,2,Yes,High,CUSTOM
+76,TSK-207,Create daily work documentation requirement,High,Design,Development,,TBD,20-30 minutes,Internal,2,Yes,High,CUSTOM
+77,TSK-208,Diversify designer portfolios,High,Design,Design,,TBD,20-30 minutes,Internal,2,Yes,High,CUSTOM
+78,TSK-209,Build case studies library,High,Design,Development,,TBD,20-30 minutes,Internal,2,Yes,High,CUSTOM
+79,TSK-218,Build structured guidelines for manual assignment,High,Design,Development,,TBD,20-30 minutes,Internal,2,Yes,High,CUSTOM
+80,TSK-222,Build AI prompt for task distribution,High,Design,Development,,TBD,20-30 minutes,Internal,2,Yes,High,CUSTOM
+81,TSK-039,Populate leads with classifications,High,Lead Generation,Task,PRT-009,Lead Generation Specialist / Sales Development Rep,3 hours (1 hour research + 1.5 hours data entry + 30 min qualification),Internal,2,Yes,High,Task-Template-080
+82,TSK-056,n8n Image Generation Guide,High,Design,Design,,TBD,20-30 minutes,Internal,2,Yes,High,CUSTOM
+83,TSK-074,Portfolio Diversification Strategy,High,Design,Task,,TBD,20-30 minutes,Internal,2,Yes,High,CUSTOM
+84,TSK-077,Media Library Development,High,AI,Development,,AI Engineer / DevOps Engineer,2 hours (30 min install + 1 hour config + 30 min testing),Internal,2,Yes,High,Task-Template-072
+85,ARC-005,Integrate Log System,High,AI,Integration,,Executive Assistant,Auto-draft: <1 minute | Review: 10 minutes,Internal,2,Yes,High,Task-Template-005
+86,PRT-013,Job Sites Entity Creation,High,AI,Automation,,Executive Assistant,Auto-draft: <1 minute | Review: 10 minutes,Internal,2,Yes,High,Task-Template-005
+87,PRT-005,GitHub Entities Repository Integration,High,AI,Integration,,Executive Assistant,Auto-draft: <1 minute | Review: 10 minutes,Internal,2,Yes,High,Task-Template-005
+88,TSK-DEV-2025-11-20-007,Dashboard/Courses UI Improvements,High,Design,Task,,TBD,20-30 minutes,Internal,2,Yes,High,CUSTOM
+89,TSK-395,REVOKE exposed GitHub token immediately,High,Development,Task,,TBD,TBD,Internal,2,No,Medium,CUSTOM
+90,TSK-396,Generate new GitHub token,High,Development,Task,,TBD,TBD,Internal,2,No,Medium,CUSTOM
+91,TSK-397,Audit all files for exposed credentials,High,AI,Task,,TBD,TBD,Internal,2,No,High,CUSTOM
+92,TSK-398,Implement secret scanning in repos,High,AI,Development,,TBD,TBD,Internal,2,No,High,CUSTOM
+93,TSK-399,Conduct deep research on Desert Greener,High,AI,Research,,TBD,TBD,Internal,2,No,High,CUSTOM
+94,TSK-400,Prepare pre-meeting research template,High,Sales,Research,,AI Researcher / Video Production Specialist,6-9 hours (4-6 hours research + 2-3 hours documentation),Internal,2,No,Medium,Task-Template-045
+95,TSK-401,Schedule WhatsApp call with Wilhelm,High,AI,Task,,TBD,TBD,Internal,2,No,High,CUSTOM
+96,TSK-403,Create email template with conversation references,High,AI,Development,,TBD,TBD,Internal,2,No,High,CUSTOM
+97,TSK-404,Implement deep research before email sending,High,AI,Development,,TBD,TBD,Internal,2,No,High,CUSTOM
+98,TSK-405,Add clear next-step instructions for clients,High,Sales,Task,,Sales Manager,4-5 hours for 50 emails,Internal,2,No,Medium,Task-Template-021
+99,TSK-406,Find substitute person for Vamos project,High,AI,Task,,TBD,TBD,Internal,2,No,High,CUSTOM
+100,TSK-407,Talk to Dasha about retention,High,HR,Task,,HR Manager / Automation Specialist,2-3 hours (one-time setup),Internal,2,No,Medium,Task-Template-039
+101,TSK-408,Identify issues causing quit desire,High,HR,Design,,HR Manager / Operations Specialist,2-3 hours,Internal,2,No,Medium,Task-Template-041
+102,TSK-409,Create retention strategy,High,HR,Development,,HR Manager / Operations Specialist,2-3 hours,Internal,2,No,Medium,Task-Template-041
+103,TSK-410,Retain Vamos employee (2 years tenure),High,HR,Task,,HR Manager / Automation Specialist,2-3 hours (one-time setup),Internal,2,No,Medium,Task-Template-039
+104,TSK-411,Resolve accounting/payment issues,High,Finance,Maintenance,,Finance Manager / Automation Specialist,3 hours (45 min requirements + 1.5 hours design + 45 min testing),Internal,2,No,Medium,Task-Template-081
+105,TSK-412,Document retention process,High,HR,Documentation,,HR Manager / Automation Specialist,2-3 hours (one-time setup),Internal,2,No,Medium,Task-Template-039
+106,TSK-413,Communicate final decision to MASEK client,High,Sales,Task,,Sales Manager,4-5 hours for 50 emails,Internal,2,No,Medium,Task-Template-021
+107,TSK-414,Document client termination policy,High,Sales,Documentation,,Sales Manager,4-5 hours for 50 emails,Internal,2,No,Medium,Task-Template-021
+108,TSK-415,Create script for daily notes action extraction,High,AI,Development,,TBD,TBD,Internal,2,No,High,CUSTOM
+109,TSK-417,Implement object extraction after actions,High,AI,Development,,TBD,TBD,Internal,2,No,High,CUSTOM
+110,TSK-418,Reduce token consumption via scripting,High,AI,Task,,TBD,TBD,Internal,2,No,High,CUSTOM
+111,TSK-419,Integrate multiple AI platforms for processing,High,AI,Integration,,TBD,TBD,Internal,2,No,High,CUSTOM
+112,TSK-420,Continue data structuring work,High,AI,Task,,TBD,TBD,Internal,2,No,High,CUSTOM
+113,TSK-421,Create deep research template (10-15 pages),High,AI,Development,,TBD,TBD,Internal,2,No,High,CUSTOM
+114,TSK-422,Build social media checklist (15 networks),High,SMM,Development,,AI Researcher / Developer,6-9 hours (4-6 hours research + 2-3 hours documentation),Internal,2,No,Medium,Task-Template-047
+115,TSK-423,Integrate company context into research,High,AI,Research,,TBD,TBD,Internal,2,No,High,CUSTOM
+116,TSK-424,"Create ""new lesson of the week"" system",High,AI,Development,,TBD,TBD,Internal,2,No,High,CUSTOM
+117,TSK-425,Document deep research in client folders,High,Sales,Research,,AI Researcher / Video Production Specialist,6-9 hours (4-6 hours research + 2-3 hours documentation),Internal,2,No,Medium,Task-Template-045
+118,TSK-426,Export Week 2 tasks list,High,AI,Task,,TBD,TBD,Internal,2,No,High,CUSTOM
+119,TSK-427,Deprecate old workflow system,High,AI,Task,,TBD,TBD,Internal,2,No,High,CUSTOM
+120,TSK-428,Structure financial folder architecture,High,Finance,Task,,Finance Manager / Automation Specialist,3 hours (45 min requirements + 1.5 hours design + 45 min testing),Internal,2,No,Medium,Task-Template-081
+121,TSK-429,Create research list for Finance 2025,High,AI,Development,,TBD,TBD,Internal,2,No,High,CUSTOM
+122,TSK-431,Generate prompts for financial analysis,High,Finance,Task,,Finance Manager / Automation Specialist,3 hours (45 min requirements + 1.5 hours design + 45 min testing),Internal,2,No,Medium,Task-Template-081
+123,TSK-432,Create employee 1:1 session template,High,HR,Development,,HR Manager / Operations Specialist,2-3 hours,Internal,2,No,Medium,Task-Template-041
+124,TSK-433,Export daily CRM attendance data,High,HR,Task,,HR Manager / Automation Specialist,2-3 hours (one-time setup),Internal,2,No,Medium,Task-Template-039
+125,TSK-434,Build script to check employee file status,High,HR,Development,,HR Manager / Operations Specialist,2-3 hours,Internal,2,No,High,Task-Template-041
+126,TSK-435,Verify Dropbox + VSCode + Extensions for all,High,AI,Testing,,TBD,TBD,Internal,2,No,High,CUSTOM
+127,TSK-436,Conduct manual verification by end of week,High,HR,Task,,HR Manager / Automation Specialist,2-3 hours (one-time setup),Internal,2,No,Medium,Task-Template-039
+128,TSK-437,Use Overview folder data for analysis,High,AI,Task,,TBD,TBD,Internal,2,No,High,CUSTOM
+129,TSK-438,Create innovation rollout process,High,AI,Development,,TBD,TBD,Internal,2,No,High,CUSTOM
+130,TSK-440,Create Cursor/Windsurf instructions,High,AI,Development,,TBD,TBD,Internal,2,No,High,CUSTOM
+131,TSK-441,Build employee verification shifts,High,HR,Development,,HR Manager / Operations Specialist,2-3 hours,Internal,2,No,High,Task-Template-041
+132,TSK-442,Assign department checkers,High,AI,Task,,TBD,TBD,Internal,2,No,High,CUSTOM
+133,TSK-443,Create 2-week rollout timeline,High,AI,Development,,TBD,TBD,Internal,2,No,High,CUSTOM
+134,TSK-444,Export Loom video titles,High,Video,Task,,TBD,TBD,Internal,2,No,Medium,CUSTOM
+135,TSK-445,Export Loom transcriptions,High,Video,Task,,TBD,TBD,Internal,2,No,Medium,CUSTOM
+136,TSK-446,Add remoteemployees.com content to assets,High,HR,Task,,HR Manager / Automation Specialist,2-3 hours (one-time setup),Internal,2,No,Medium,Task-Template-039
+137,TSK-447,Build attendance statistics export system,High,HR,Development,,HR Manager / Operations Specialist,2-3 hours,Internal,2,No,High,Task-Template-041
+138,TSK-450,Parse and analyze daily attendance,High,HR,Research,,AI Researcher / Video Production Specialist,6-9 hours (4-6 hours research + 2-3 hours documentation),Internal,2,No,Medium,Task-Template-045
+139,TSK-451,Create Discord tools documentation,High,AI,Development,,TBD,TBD,Internal,2,No,High,CUSTOM
+140,TSK-452,Reverse name conventions in Task Manager,High,AI,Task,,TBD,TBD,Internal,2,No,High,CUSTOM
+141,TSK-453,Remove department letters from filenames,High,AI,Task,,TBD,TBD,Internal,2,No,High,CUSTOM
+142,TSK-454,Update data integrity hierarchy,High,AI,Task,,TBD,TBD,Internal,2,No,High,CUSTOM
+143,TSK-455,Update all prompts with old naming,High,AI,Task,,TBD,TBD,Internal,2,No,High,CUSTOM
+144,TSK-457,Create AI Catalog markdown file,High,AI,Development,,TBD,TBD,Internal,2,No,High,CUSTOM
+145,TSK-458,Add AI Catalog to Assets index,High,AI,Task,,TBD,TBD,Internal,2,No,High,CUSTOM
+146,TSK-459,Document AI Catalog content,High,SMM,Documentation,,AI Researcher / Video Production Specialist,6-9 hours (4-6 hours research + 2-3 hours documentation),Internal,2,No,Medium,Task-Template-045
+147,TSK-460,Perform oa-y/Libraries/Task Managers gap analysis,High,AI,Task,,TBD,TBD,Internal,2,No,High,CUSTOM
+148,TSK-461,Create cross-reference index (tool→lesson→template),High,AI,Development,,TBD,TBD,Internal,2,No,High,CUSTOM
+149,TSK-463,Create File System research prompt v2,High,AI,Development,,TBD,TBD,Internal,2,No,High,CUSTOM
+150,TSK-464,Add training/learning responsibilities to Libraries,High,AI,Task,,TBD,TBD,Internal,2,No,High,CUSTOM
+151,TSK-465,Create weekly AI tutorial research template,High,AI,Development,,TBD,TBD,Internal,2,No,High,CUSTOM
+152,TSK-466,Convert SMM research into Task Templates,High,SMM,Research,,AI Researcher / Video Production Specialist,6-9 hours (4-6 hours research + 2-3 hours documentation),Internal,2,No,Medium,Task-Template-045
+153,TSK-467,Create unified research prompt schema,High,Development,Development,,AI Researcher / Developer,6-9 hours (4-6 hours research + 2-3 hours documentation),Internal,2,No,Medium,Task-Template-047
+154,TSK-468,Integrate Research ID system (RES-###),High,AI,Research,,TBD,TBD,Internal,2,No,High,CUSTOM
+155,TSK-469,Add ISO 3-letter codes to research,High,AI,Research,,TBD,TBD,Internal,2,No,High,CUSTOM
+156,TSK-470,Test entity upload to Postgres,High,AI,Testing,,TBD,TBD,Internal,2,No,High,CUSTOM
+157,TSK-472,Define deliverables as milestone templates,High,AI,Task,,TBD,TBD,Internal,2,No,High,CUSTOM
+158,TSK-473,Maintain central listings while splitting by dept,High,AI,Task,,TBD,TBD,Internal,2,No,High,CUSTOM
+159,TSK-474,Create ID and name control scripts,High,AI,Development,,TBD,TBD,Internal,2,No,High,CUSTOM
+160,TSK-331,Create AI routes inside entity folders,High,AI,Development,,TBD,TBD,Internal,2,No,High,CUSTOM
+161,TSK-333,Save schemas inside folders with field definitions,High,Development,Task,,TBD,TBD,Internal,2,No,Medium,CUSTOM
+162,TSK-335,Create backend for DropBox SubEntity,High,Development,Development,,AI Engineer / Data Analyst,1.5 hours (30 min automation run + 45 min validation + 15 min reporting),Internal,2,No,Medium,Task-Template-074
+163,TSK-336,Build alert system for fired/left employees,High,HR,Development,,HR Manager / Operations Specialist,2-3 hours,Internal,2,No,High,Task-Template-041
+164,TSK-337,Connect Accounts to Talents profiles,High,HR,Integration,,HR Manager / Automation Specialist,2-3 hours (one-time setup),Internal,2,No,Medium,Task-Template-039
+165,TSK-338,Implement automatic access closure alerts,High,AI,Development,,TBD,TBD,Internal,2,No,High,CUSTOM
+166,TSK-339,Track secondary accounts (not just main emails),High,Sales,Task,,Sales Manager,4-5 hours for 50 emails,Internal,2,No,Medium,Task-Template-021
+167,TSK-342,Build role-based account access system,High,Sales,Development,,Sales Manager,4-5 hours for 50 emails,Internal,2,No,Medium,Task-Template-021
+168,TSK-343,Create account manager interface,High,Sales,Development,,Sales Manager,4-5 hours for 50 emails,Internal,2,No,Medium,Task-Template-021
+169,TSK-346,Implement employee-based permissions,High,HR,Development,,HR Manager / Operations Specialist,2-3 hours,Internal,2,No,Medium,Task-Template-041
+170,TSK-348,Create Auth User Service documentation,High,Development,Development,,AI Researcher / Developer,6-9 hours (4-6 hours research + 2-3 hours documentation),Internal,2,No,Medium,Task-Template-047
+171,TSK-349,Review GPT usage and costs,High,Finance,Research,,AI Researcher / Content Specialist,5-8 hours (3-5 hours research + 2-3 hours documentation),Internal,2,No,High,Task-Template-048
+172,TSK-350,Identify cost-cutting opportunities,High,Finance,Task,,Finance Manager / Automation Specialist,3 hours (45 min requirements + 1.5 hours design + 45 min testing),Internal,2,No,Medium,Task-Template-081
+173,TSK-351,Create taxonomy initial ID inventory,High,Finance,Development,,Finance Manager / Automation Specialist,3 hours (45 min requirements + 1.5 hours design + 45 min testing),Internal,2,No,Medium,Task-Template-081
+174,TSK-352,Generate JSON with all entities and sub-entities,High,AI,Task,,TBD,TBD,Internal,2,No,High,CUSTOM
+175,TSK-353,Add 3-letter ISO codes to entities,High,AI,Task,,TBD,TBD,Internal,2,No,High,CUSTOM
+176,TSK-354,Cross-validate with existing listings,High,AI,Testing,,TBD,TBD,Internal,2,No,High,CUSTOM
+177,TSK-355,Document deprecated/archived entities,High,AI,Documentation,,TBD,TBD,Internal,2,No,High,CUSTOM
+178,TSK-356,Update milestone prefix from MLS-### to MLST-###,High,AI,Maintenance,,TBD,TBD,Internal,2,No,High,CUSTOM
+179,TSK-357,Filter daily notes by taxonomy,High,Finance,Task,,Finance Manager / Automation Specialist,3 hours (45 min requirements + 1.5 hours design + 45 min testing),Internal,2,No,Medium,Task-Template-081
+180,TSK-358,Build parsing extraction taxonomy,High,AI,Development,,TBD,TBD,Internal,2,No,High,CUSTOM
+181,TSK-359,Identify repetitions in daily notes,High,AI,Task,,TBD,TBD,Internal,2,No,High,CUSTOM
+182,TSK-360,Create PLANS entity folder,High,AI,Development,,TBD,TBD,Internal,2,No,High,CUSTOM
+183,TSK-361,Create YouTube channels list,High,Video,Development,,AI Researcher / Developer,6-9 hours (4-6 hours research + 2-3 hours documentation),Internal,2,No,Medium,Task-Template-047
+184,TSK-362,Parse latest videos from channels,High,Video,Testing,,TBD,TBD,Internal,2,No,Medium,CUSTOM
+185,TSK-363,Analyze video relevancy,High,Video,Research,,AI Researcher / Video Production Specialist,6-9 hours (4-6 hours research + 2-3 hours documentation),Internal,2,No,High,Task-Template-045
+186,TSK-364,Build YouTube research milestone template,High,Video,Development,,AI Researcher / Developer,6-9 hours (4-6 hours research + 2-3 hours documentation),Internal,2,No,Medium,Task-Template-047
+187,TSK-365,Log all n8n automations,High,AI,Task,,TBD,TBD,Internal,2,No,High,CUSTOM
+188,TSK-366,Create n8n workflow documentation,High,AI,Development,,TBD,TBD,Internal,2,No,High,CUSTOM
+189,TSK-368,Create bot as separate milestone template,High,AI,Development,,TBD,TBD,Internal,2,No,High,CUSTOM
+190,TSK-371,Create 10+ example n8n projects,High,AI,Development,,TBD,TBD,Internal,2,No,High,CUSTOM
+191,TSK-372,Implement daily analysis prompt reminder,High,AI,Development,,TBD,TBD,Internal,2,No,High,CUSTOM
+192,TSK-373,Build continuous employee profile improvement system,High,HR,Development,,HR Manager / Operations Specialist,2-3 hours,Internal,2,No,High,Task-Template-041
+193,TSK-374,Integrate attendance with employee profiles,High,HR,Integration,,HR Manager / Automation Specialist,2-3 hours (one-time setup),Internal,2,No,Medium,Task-Template-039
+194,TSK-375,Analyze employee daily records,High,HR,Research,,AI Researcher / Video Production Specialist,6-9 hours (4-6 hours research + 2-3 hours documentation),Internal,2,No,Medium,Task-Template-045
+195,TSK-376,Create data injection scripts for daily notes,High,AI,Development,,TBD,TBD,Internal,2,No,High,CUSTOM
+196,TSK-378,Update employee profiles automatically,High,HR,Task,,HR Manager / Automation Specialist,2-3 hours (one-time setup),Internal,2,No,Medium,Task-Template-039
+197,TSK-379,Update Prompt 6 for daily analysis,High,AI,Task,,TBD,TBD,Internal,2,No,High,CUSTOM
+198,TSK-381,Link actions/objects to responsibilities,High,AI,Task,,TBD,TBD,Internal,2,No,High,CUSTOM
+199,TSK-382,Match research prompt naming conventions,High,AI,Research,,TBD,TBD,Internal,2,No,High,CUSTOM
+200,TSK-383,Parse recent videos for LinkedIn content,High,Video,Task,,TBD,TBD,Internal,2,No,Medium,CUSTOM
+201,TSK-384,Create carousel posts from video content,High,SMM,Development,,AI Researcher / Developer,6-9 hours (4-6 hours research + 2-3 hours documentation),Internal,2,No,Medium,Task-Template-047
+202,TSK-388,Test backend generation on small entity,High,AI,Testing,,TBD,TBD,Internal,2,No,High,CUSTOM
+203,TSK-391,Organize API tokens management,High,Development,Task,,TBD,TBD,Internal,2,No,Medium,CUSTOM
+204,TSK-392,Fix taxonomy location (move if needed),High,Finance,Maintenance,,Finance Manager / Automation Specialist,3 hours (45 min requirements + 1.5 hours design + 45 min testing),Internal,2,No,Medium,Task-Template-081
+205,TSK-393,Integrate checklist items into task system,High,AI,Integration,,TBD,TBD,Internal,2,No,High,CUSTOM
+206,TSK-394,Fix cursor flickering issue,High,AI,Maintenance,,TBD,TBD,Internal,2,No,High,CUSTOM
+207,TSK-320,Implement Entity Identification System v1.0,High,AI,Development,,TBD,TBD,Internal,2,No,High,CUSTOM
+208,TSK-321,Set up multi-instance AI tool workflow,High,AI,Task,,TBD,TBD,Internal,2,No,High,CUSTOM
+209,TSK-323,Automate daily employee task assignment,High,HR,Task,,HR Manager / Automation Specialist,2-3 hours (one-time setup),Internal,2,No,Medium,Task-Template-039
+210,TSK-324,Build employee choice/selection system,High,HR,Development,,HR Manager / Operations Specialist,2-3 hours,Internal,2,No,High,Task-Template-041
+211,TSK-325,Collect Discord voice logs for analytics,High,AI,Task,,TBD,TBD,Internal,2,No,High,CUSTOM
+212,TSK-326,Process department prompt logs daily,High,AI,Task,,TBD,TBD,Internal,2,No,High,CUSTOM
+213,TSK-327,Convert Workflows to Projects in TASK_MANAGERS,High,AI,Task,,TBD,TBD,Internal,2,No,High,CUSTOM
+214,TSK-328,Assign IDs to all ENTITIES folders,High,AI,Task,,TBD,TBD,Internal,2,No,High,CUSTOM
+215,TSK-329,"Create MCP agent system (employees, libs, academy)",High,HR,Development,,HR Manager / Operations Specialist,1.5-2 hours,Internal,2,No,High,Task-Template-042
+216,TSK-330,Build screenshot verification automation,High,HR,Development,,HR Manager / Operations Specialist,2-3 hours,Internal,2,No,High,Task-Template-041
+217,TSK-233,Create department-specific daily analysis prompts,High,AI,Development,,TBD,TBD,Internal,2,No,High,CUSTOM
+218,TSK-235,Iterate prompts for better report quality,High,AI,Task,,TBD,TBD,Internal,2,No,High,CUSTOM
+219,TSK-236,Process tutorials from Department DropBox,High,AI,Task,,TBD,TBD,Internal,2,No,High,CUSTOM
+220,TSK-238,Export and process from Online Academy,High,AI,Task,,TBD,TBD,Internal,2,No,High,CUSTOM
+221,TSK-239,Create REPORTS folder in ENTITIES,High,AI,Development,,TBD,TBD,Internal,2,No,High,CUSTOM
+222,TSK-240,Add taxonomy for REPORTS entity,High,AI,Task,,TBD,TBD,Internal,2,No,High,CUSTOM
+223,TSK-241,Integrate IDS system (RPT-###),High,AI,Integration,,TBD,TBD,Internal,2,No,High,CUSTOM
+224,TSK-242,Import example reports,High,AI,Task,,TBD,TBD,Internal,2,No,High,CUSTOM
+225,TSK-243,Create report classification system,High,AI,Development,,TBD,TBD,Internal,2,No,High,CUSTOM
+226,TSK-244,Update master taxonomy,High,Finance,Task,,Finance Manager / Automation Specialist,3 hours (45 min requirements + 1.5 hours design + 45 min testing),Internal,2,No,Medium,Task-Template-081
+227,TSK-245,Create Tasks folder in Dailies,High,AI,Development,,TBD,TBD,Internal,2,No,High,CUSTOM
+228,TSK-246,Create Plans folder in Dailies,High,AI,Development,,TBD,TBD,Internal,2,No,High,CUSTOM
+229,TSK-247,Add employee identification system,High,HR,Task,,HR Manager / Operations Specialist,1.5-2 hours,Internal,2,No,Medium,Task-Template-042
+230,TSK-248,Cross-reference Task Manager with Online Academy,High,AI,Task,,TBD,TBD,Internal,2,No,High,CUSTOM
+231,TSK-250,Add IDs to Online Academy content,High,SMM,Task,,TBD,TBD,Internal,2,No,Medium,CUSTOM
+232,TSK-251,Apply taxonomy to Academy structure,High,Finance,Task,,Finance Manager / Automation Specialist,3 hours (45 min requirements + 1.5 hours design + 45 min testing),Internal,2,No,Medium,Task-Template-081
+233,TSK-252,Create detailed onboarding tasks with steps,High,HR,Development,,HR Manager / Operations Specialist,2-3 hours,Internal,2,No,Medium,Task-Template-041
+234,TSK-254,Create data flow clarification project,High,AI,Development,,TBD,TBD,Internal,2,No,High,CUSTOM
+235,TSK-255,Run methodologies skill-up project research,High,AI,Research,,TBD,TBD,Internal,2,No,High,CUSTOM
+236,TSK-256,Create VS Code instruction tutorials,High,AI,Development,,TBD,TBD,Internal,2,No,High,CUSTOM
+237,TSK-257,Implement logging to LOG folder during data population,High,AI,Development,,TBD,TBD,Internal,2,No,High,CUSTOM
+238,TSK-258,Implement TSM-### ID system,High,AI,Development,,TBD,TBD,Internal,2,No,High,CUSTOM
+239,TSK-259,Create TSM-001_Project_Template,High,AI,Development,,TBD,TBD,Internal,2,No,High,CUSTOM
+240,TSK-260,Document data import flows,High,AI,Documentation,,TBD,TBD,Internal,2,No,High,CUSTOM
+241,TSK-261,Define structured vs unstructured data handling,High,AI,Task,,TBD,TBD,Internal,2,No,High,CUSTOM
+242,TSK-262,"Create input type taxonomy (Research, Video, etc.)",High,Finance,Development,,Finance Manager / Automation Specialist,3 hours (45 min requirements + 1.5 hours design + 45 min testing),Internal,2,No,Medium,Task-Template-081
+243,TSK-263,Create employee TODO file system,High,HR,Development,,HR Manager / Operations Specialist,1.5-2 hours,Internal,2,No,High,Task-Template-042
+244,TSK-264,Write learning materials generation guide,High,Design,Documentation,,Designer / Developer / Creative Professional,2 hours (45 min organization + 45 min documentation + 30 min updates),Internal,2,No,High,Task-Template-077
+245,TSK-265,"Enforce ""prompt-first"" rule",High,AI,Task,,TBD,TBD,Internal,2,No,High,CUSTOM
+246,TSK-266,Create taxonomy introduction materials,High,Finance,Development,,Finance Manager / Automation Specialist,3 hours (45 min requirements + 1.5 hours design + 45 min testing),Internal,2,No,Medium,Task-Template-081
+247,TSK-267,Update daily review prompts,High,AI,Research,,TBD,TBD,Internal,2,No,High,CUSTOM
+248,TSK-268,Locate all department prompts in Nov25 folders,High,AI,Task,,TBD,TBD,Internal,2,No,High,CUSTOM
+249,TSK-269,Consolidate prompts to ENTITIES/PROMPTS,High,AI,Task,,TBD,TBD,Internal,2,No,High,CUSTOM
+250,TSK-270,Create data import scripts,High,AI,Development,,TBD,TBD,Internal,2,No,High,CUSTOM
+251,TSK-271,Research AirTable integration options,High,Development,Research,,AI Researcher / Video Production Specialist,6-9 hours (4-6 hours research + 2-3 hours documentation),Internal,2,No,Medium,Task-Template-045
+252,TSK-272,Design Task Manager choice/selection system,High,AI,Design,,TBD,TBD,Internal,2,No,High,CUSTOM
+253,TSK-273,Import accounts to ENTITIES,High,AI,Task,,TBD,TBD,Internal,2,No,High,CUSTOM
+254,TSK-274,Create accounts microservice,High,Sales,Development,,Sales Manager,4-5 hours for 50 emails,Internal,2,No,Medium,Task-Template-021
+255,TSK-275,Bind gmails to tools,High,AI,Task,,TBD,TBD,Internal,2,No,High,CUSTOM
+256,TSK-276,Integrate accounts into AI Catalog,High,Sales,Integration,,Sales Manager,4-5 hours for 50 emails,Internal,2,No,Medium,Task-Template-021
+257,TSK-278,Set up database for accounts,High,Sales,Task,,Sales Manager,4-5 hours for 50 emails,Internal,2,No,Medium,Task-Template-021
+258,TSK-280,Document departments folder architecture,High,AI,Documentation,,TBD,TBD,Internal,2,No,High,CUSTOM
+259,TSK-281,Restore data processes pipelines,High,Sales,Task,,Sales Manager,4-5 hours for 50 emails,Internal,2,No,Medium,Task-Template-021
+260,TSK-285,Add dates to Activity 3,High,AI,Task,,TBD,TBD,Internal,2,No,High,CUSTOM
+261,TSK-286,Verify LG data in DropBox,High,AI,Testing,,TBD,TBD,Internal,2,No,High,CUSTOM
+262,TSK-287,Process items in IMPORTS folder,High,AI,Task,,TBD,TBD,Internal,2,No,High,CUSTOM
+263,TSK-288,Create list of reserved names in ENTITIES,High,AI,Development,,TBD,TBD,Internal,2,No,High,CUSTOM
+264,TSK-289,Create list of videos to transcribe,High,Video,Development,,AI Researcher / Developer,6-9 hours (4-6 hours research + 2-3 hours documentation),Internal,2,No,Medium,Task-Template-047
+265,TSK-290,Put video transcriptions into people tasks,High,Video,Task,,TBD,TBD,Internal,2,No,Medium,CUSTOM
+266,TSK-291,Run prompts for video search,High,Video,Task,,TBD,TBD,Internal,2,No,Medium,CUSTOM
+267,TSK-292,Purchase Gemini Ultra on Admin account,High,AI,Task,,TBD,TBD,Internal,2,No,High,CUSTOM
+268,TSK-293,Create transcription execution list with IDs,High,Video,Development,,AI Researcher / Developer,6-9 hours (4-6 hours research + 2-3 hours documentation),Internal,2,No,Medium,Task-Template-047
+269,TSK-296,Define next milestone triggers (Data Population),High,AI,Task,,TBD,TBD,Internal,2,No,High,CUSTOM
+270,TSK-297,Create Content Entity,High,AI,Development,,TBD,TBD,Internal,2,No,High,CUSTOM
+271,TSK-298,Create Content Department,High,SMM,Development,,AI Researcher / Developer,6-9 hours (4-6 hours research + 2-3 hours documentation),Internal,2,No,Medium,Task-Template-047
+272,TSK-299,Integrate shifts management,High,HR,Integration,,HR Manager / Automation Specialist,2-3 hours (one-time setup),Internal,2,No,Medium,Task-Template-039
+273,TSK-300,Create shortcuts lesson/post,High,AI,Development,,TBD,TBD,Internal,2,No,High,CUSTOM
+274,TSK-301,Prepare list of researches for Entity: Researches,High,AI,Research,,TBD,TBD,Internal,2,No,High,CUSTOM
+275,TSK-302,Research YouTube videos for transcription,High,Video,Research,,AI Researcher / Video Production Specialist,6-9 hours (4-6 hours research + 2-3 hours documentation),Internal,2,No,High,Task-Template-045
+276,TSK-305,List automations to learn or integrate,High,AI,Integration,,TBD,TBD,Internal,2,No,High,CUSTOM
+277,TSK-306,Task: Search for videos (template),High,Video,Task,,TBD,TBD,Internal,2,No,Medium,CUSTOM
+278,TSK-307,Hosting in Vercel (Dev account),High,Sales,Task,,Sales Manager,4-5 hours for 50 emails,Internal,2,No,Medium,Task-Template-021
+279,TSK-308,Automate library update,High,AI,Task,,TBD,TBD,Internal,2,No,High,CUSTOM
+280,TSK-309,Canva download/integration,High,Development,Task,,TBD,TBD,Internal,2,No,Medium,CUSTOM
+281,TSK-310,Create six must-have files list,High,AI,Development,,TBD,TBD,Internal,2,No,High,CUSTOM
+282,TSK-311,Design core documents,High,Design,Documentation,,Designer / Developer / Creative Professional,2 hours (45 min organization + 45 min documentation + 30 min updates),Internal,2,No,High,Task-Template-077
+283,TSK-312,Create Pre-Sale candidate tracking system,High,HR,Development,,HR Manager / Operations Specialist,2-3 hours,Internal,2,No,High,Task-Template-041
+284,TSK-313,Add Ukandu Christopher to Pre-Sale list,High,HR,Task,,HR Manager / Automation Specialist,2-3 hours (one-time setup),Internal,2,No,Medium,Task-Template-039
+285,TSK-314,Sign contract with Borovik for client interview,High,Sales,Task,,Sales Manager,4-5 hours for 50 emails,Internal,2,No,Medium,Task-Template-021
+286,TSK-315,Prepare Borovik for tomorrow's client interview,High,Sales,Task,,Sales Manager,4-5 hours for 50 emails,Internal,2,No,Medium,Task-Template-021
+287,TSK-316,Create candidate warming system for hot list,High,HR,Development,,HR Manager / Operations Specialist,1.5-2 hours,Internal,2,No,High,Task-Template-042
+288,TSK-317,Document interview requirements checklist,High,HR,Documentation,,HR Manager / Operations Specialist,1.5-2 hours,Internal,2,No,Medium,Task-Template-042
+289,TSK-318,Create interview scoring rubric,High,HR,Development,,HR Manager / Operations Specialist,1.5-2 hours,Internal,2,No,High,Task-Template-042
+290,TSK-319,Follow up with Valeriia on trial terms,High,HR,Task,,HR Manager / Automation Specialist,2-3 hours (one-time setup),Internal,2,No,Medium,Task-Template-039
+291,TSK-106,Find historical search queries file on Google Drive,High,AI,Task,PRT-011,TBD,TBD,Internal,2,No,High,CUSTOM
+292,TSK-108,Create detailed prompt for query generation (Column H),High,AI,Development,PRT-011,TBD,TBD,Internal,2,No,High,CUSTOM
+293,TSK-109,Build URL parsing script,High,AI,Development,PRT-011,TBD,TBD,Internal,2,No,High,CUSTOM
+294,TSK-110,Extract company name from URLs,High,AI,Task,PRT-011,TBD,TBD,Internal,2,No,High,CUSTOM
+295,TSK-111,Connect scraper to CRM automation,High,Sales,Integration,PRT-011,Sales Manager,4-5 hours for 50 emails,Internal,2,No,High,Task-Template-021
+296,TSK-112,Implement duplicate checking against CRM,High,Sales,Development,PRT-011,Sales Manager,4-5 hours for 50 emails,Internal,2,No,High,Task-Template-021
+297,TSK-116,Document scraping system (20% checkpoint),High,Development,Documentation,PRT-012,AI Researcher / Video Production Specialist,6-9 hours (4-6 hours research + 2-3 hours documentation),Internal,2,No,Medium,Task-Template-045
+298,TSK-117,Research world methodologies on Google Maps scraping,High,Lead Generation,Research,PRT-012,AI Researcher / Video Production Specialist,6-9 hours (4-6 hours research + 2-3 hours documentation),Internal,2,No,Medium,Task-Template-045
+299,TSK-120,Implement social media scraping,High,SMM,Development,PRT-012,AI Researcher / Developer,6-9 hours (4-6 hours research + 2-3 hours documentation),Internal,2,No,Medium,Task-Template-047
+300,TSK-121,Test review system with live data,High,AI,Research,PRT-012,TBD,TBD,Internal,2,No,High,CUSTOM
+301,TSK-122,Launch system with LGN team,High,AI,Task,PRT-012,TBD,TBD,Internal,2,No,High,CUSTOM
+302,TSK-124,Review other entities' taxonomy,High,AI,Research,PRT-013,TBD,TBD,Internal,2,No,High,CUSTOM
+303,TSK-129,Share dashboard access with all departments,High,AI,Task,PRT-014,TBD,TBD,Internal,2,No,High,CUSTOM
+304,TSK-130,Fix white text display,High,AI,Maintenance,PRT-014,TBD,TBD,Internal,2,No,High,CUSTOM
+305,TSK-131,Add tool filtering feature,High,AI,Task,PRT-014,TBD,TBD,Internal,2,No,High,CUSTOM
+306,TSK-132,Implement user login tracking,High,AI,Development,PRT-014,TBD,TBD,Internal,2,No,High,CUSTOM
+307,TSK-133,Create user assignment system,High,AI,Development,PRT-014,TBD,TBD,Internal,2,No,High,CUSTOM
+308,TSK-135,Add calendar feature,High,AI,Task,PRT-014,TBD,TBD,Internal,2,No,High,CUSTOM
+309,TSK-137,Integrate with LibDev catalog,High,AI,Integration,PRT-014,TBD,TBD,Internal,2,No,High,CUSTOM
+310,TSK-138,Document dashboard usage,High,AI,Documentation,PRT-014,TBD,TBD,Internal,2,No,High,CUSTOM
+311,TSK-139,Create employee training materials,High,HR,Development,PRT-014,HR Manager / Operations Specialist,2-3 hours,Internal,2,No,Medium,Task-Template-041
+312,TSK-140,Teach Vilhelm video parsing workflow,High,Video,Task,PRT-015,TBD,TBD,Internal,2,No,Medium,CUSTOM
+313,TSK-142,Configure Vilhelm's key bindings,High,Video,Task,PRT-015,TBD,TBD,Internal,2,No,Medium,CUSTOM
+314,TSK-143,Introduce Vilhelm to ENTITIES structure,High,AI,Task,PRT-015,TBD,TBD,Internal,2,No,High,CUSTOM
+315,TSK-144,Assign Vilhelm accounts with limits,High,Sales,Task,PRT-015,Sales Manager,4-5 hours for 50 emails,Internal,2,No,Medium,Task-Template-021
+316,TSK-145,Vilhelm: Research YouTube channels on Google Maps scraping,High,Lead Generation,Research,PRT-015,AI Researcher / Video Production Specialist,6-9 hours (4-6 hours research + 2-3 hours documentation),Internal,2,No,Medium,Task-Template-045
+317,TSK-146,Vilhelm: Parse 3-4 videos by Monday,High,Video,Task,PRT-015,TBD,TBD,Internal,2,No,Medium,CUSTOM
+318,TSK-147,"Vilhelm: Create ""Deep Research"" task",High,AI,Development,PRT-015,TBD,TBD,Internal,2,No,High,CUSTOM
+319,TSK-148,Vilhelm: Check Online Academy for Deep Research content,High,SMM,Research,PRT-015,AI Researcher / Video Production Specialist,6-9 hours (4-6 hours research + 2-3 hours documentation),Internal,2,No,Medium,Task-Template-045
+320,TSK-149,Vilhelm: Integrate prompts into ENTITIES ecosystem,High,AI,Integration,PRT-015,TBD,TBD,Internal,2,No,High,CUSTOM
+321,TSK-150,Document current AI tools tracking system,High,AI,Documentation,PRT-016,AI Researcher / Content Specialist,5-8 hours (3-5 hours research + 2-3 hours documentation),Internal,2,No,High,Task-Template-048
+322,TSK-151,Add user assignment field to accounts,High,Sales,Task,PRT-016,Sales Manager,4-5 hours for 50 emails,Internal,2,No,Medium,Task-Template-021
+323,TSK-152,Implement login session tracking,High,AI,Development,PRT-016,TBD,TBD,Internal,2,No,High,CUSTOM
+324,TSK-153,Create token usage alerts,High,AI,Development,PRT-016,TBD,TBD,Internal,2,No,High,CUSTOM
+325,TSK-154,Purchase additional AI tool accounts,High,AI,Task,PRT-016,TBD,TBD,Internal,2,No,High,CUSTOM
+326,TSK-156,Build account rotation recommendations,High,Sales,Development,PRT-016,Sales Manager,4-5 hours for 50 emails,Internal,2,No,Medium,Task-Template-021
+327,TSK-158,Create prompt for task page generation,High,AI,Development,PRT-017,TBD,TBD,Internal,2,No,High,CUSTOM
+328,TSK-160,Test with Deep Research task,High,AI,Research,PRT-017,TBD,TBD,Internal,2,No,High,CUSTOM
+329,TSK-161,Create research queue/line system,High,AI,Development,PRT-017,TBD,TBD,Internal,2,No,High,CUSTOM
+330,TSK-162,Integrate with TASK_MANAGERS data,High,AI,Integration,PRT-017,TBD,TBD,Internal,2,No,High,CUSTOM
+331,TSK-163,Create CONTENT entity folder,High,AI,Development,,TBD,TBD,Internal,2,No,High,CUSTOM
+332,TSK-164,Define CONTENT entity taxonomy,High,AI,Task,,TBD,TBD,Internal,2,No,High,CUSTOM
+333,TSK-165,Create Master CSV for CONTENT,High,SMM,Development,,AI Researcher / Developer,6-9 hours (4-6 hours research + 2-3 hours documentation),Internal,2,No,Medium,Task-Template-047
+334,TSK-166,Populate with existing tutorials,High,AI,Task,,TBD,TBD,Internal,2,No,High,CUSTOM
+335,TSK-167,Research Figma AI tutorial videos,High,Video,Research,,AI Researcher / Video Production Specialist,6-9 hours (4-6 hours research + 2-3 hours documentation),Internal,2,No,High,Task-Template-045
+336,TSK-168,Build video catalog app,High,Video,Development,,AI Researcher / Developer,6-9 hours (4-6 hours research + 2-3 hours documentation),Internal,2,No,Medium,Task-Template-047
+337,TSK-169,Implement clickable timestamps,High,AI,Development,,TBD,TBD,Internal,2,No,High,CUSTOM
+338,TSK-170,Create minimum parse list,High,AI,Development,,TBD,TBD,Internal,2,No,High,CUSTOM
+339,TSK-171,Review current video processing taxonomy,High,Finance,Research,,AI Researcher / Video Production Specialist,6-9 hours (4-6 hours research + 2-3 hours documentation),Internal,2,No,Medium,Task-Template-045
+340,TSK-172,Identify taxonomy improvements,High,Finance,Task,,Finance Manager / Automation Specialist,3 hours (45 min requirements + 1.5 hours design + 45 min testing),Internal,2,No,Medium,Task-Template-081
+341,TSK-173,Implement taxonomy upgrades,High,Finance,Development,,Finance Manager / Automation Specialist,3 hours (45 min requirements + 1.5 hours design + 45 min testing),Internal,2,No,Medium,Task-Template-081
+342,TSK-174,Document video editor processed works,High,Video,Documentation,,AI Researcher / Video Production Specialist,6-9 hours (4-6 hours research + 2-3 hours documentation),Internal,2,No,High,Task-Template-045
+343,TSK-175,Define Google Drive storage locations,High,Video,Task,,TBD,TBD,Internal,2,No,Medium,CUSTOM
+344,TSK-176,Research Gravity AI tool capabilities,High,AI,Research,,AI Researcher / Content Specialist,5-8 hours (3-5 hours research + 2-3 hours documentation),Internal,2,No,High,Task-Template-048
+345,TSK-177,Integrate Responsibilities into LBS taxonomy,High,Finance,Integration,,Finance Manager / Automation Specialist,3 hours (45 min requirements + 1.5 hours design + 45 min testing),Internal,2,No,Medium,Task-Template-081
+346,TSK-178,Document Gravity integration,High,Development,Documentation,,AI Researcher / Video Production Specialist,6-9 hours (4-6 hours research + 2-3 hours documentation),Internal,2,No,Medium,Task-Template-045
+347,TSK-179,Prepare shifts management system,High,HR,Task,,HR Manager / Operations Specialist,1.5-2 hours,Internal,2,No,Medium,Task-Template-042
+348,TSK-180,Document schedule management techniques,High,AI,Documentation,,TBD,TBD,Internal,2,No,High,CUSTOM
+349,TSK-181,Connect research to posting schedule,High,SMM,Research,,AI Researcher / Video Production Specialist,6-9 hours (4-6 hours research + 2-3 hours documentation),Internal,2,No,Medium,Task-Template-045
+350,TSK-182,Create BUSINESSES entity folder,High,AI,Development,,TBD,TBD,Internal,2,No,High,CUSTOM
+351,TSK-183,Define BUSINESSES entity taxonomy,High,AI,Task,,TBD,TBD,Internal,2,No,High,CUSTOM
+352,TSK-184,Document client interview process,High,Sales,Documentation,,Sales Manager,4-5 hours for 50 emails,Internal,2,No,Medium,Task-Template-021
+353,TSK-185,Track Friday client scheduling,High,Sales,Task,,Sales Manager,4-5 hours for 50 emails,Internal,2,No,Medium,Task-Template-021
+354,TSK-186,Store interview recordings/notes,High,HR,Task,,HR Manager / Operations Specialist,1.5-2 hours,Internal,2,No,Medium,Task-Template-042
+355,TSK-187,Define profession categories,High,AI,Task,,TBD,TBD,Internal,2,No,High,CUSTOM
+356,TSK-188,Populate tutorials per profession,High,AI,Task,,TBD,TBD,Internal,2,No,High,CUSTOM
+357,TSK-192,Define pricing per profession,High,Finance,Task,,Finance Manager / Automation Specialist,3 hours (45 min requirements + 1.5 hours design + 45 min testing),Internal,2,No,Medium,Task-Template-081
+358,TSK-193,Create UI for InnerClient system,High,Sales,Development,,Sales Manager,4-5 hours for 50 emails,Internal,2,No,Medium,Task-Template-021
+359,TSK-194,Set up human curation process,High,AI,Task,,TBD,TBD,Internal,2,No,High,CUSTOM
+360,TSK-196,Research Dropbox API synchronization,High,Development,Research,,AI Researcher / Video Production Specialist,6-9 hours (4-6 hours research + 2-3 hours documentation),Internal,2,No,Medium,Task-Template-045
+361,TSK-198,Create knowledge gap identification process,High,AI,Development,,TBD,TBD,Internal,2,No,High,CUSTOM
+362,TSK-199,Implement Read/Write/Save reminder system,High,AI,Development,,TBD,TBD,Internal,2,No,High,CUSTOM
+363,TSK-203,Document Monday progress,High,Design,Documentation,,Designer / Developer / Creative Professional,2 hours (45 min organization + 45 min documentation + 30 min updates),Internal,2,No,High,Task-Template-077
+364,TSK-205,Review all designer portfolios,High,Design,Research,,AI Researcher / Content Specialist,5-8 hours (3-5 hours research + 2-3 hours documentation),Internal,2,No,High,Task-Template-048
+365,TSK-210,Train designers on AI tools,High,AI,Design,,TBD,TBD,Internal,2,No,High,CUSTOM
+366,TSK-211,Design financial framework structure,High,Finance,Design,,Finance Manager / Automation Specialist,3 hours (45 min requirements + 1.5 hours design + 45 min testing),Internal,2,No,High,Task-Template-081
+367,TSK-212,Create data sets for financial wiki,High,Finance,Development,,Finance Manager / Automation Specialist,3 hours (45 min requirements + 1.5 hours design + 45 min testing),Internal,2,No,Medium,Task-Template-081
+368,TSK-213,Document calculation sources,High,AI,Documentation,,TBD,TBD,Internal,2,No,High,CUSTOM
+369,TSK-214,Collect employee profiles for Talents,High,HR,Task,,HR Manager / Automation Specialist,2-3 hours (one-time setup),Internal,2,No,Medium,Task-Template-039
+370,TSK-215,Create modified public profiles,High,AI,Development,,TBD,TBD,Internal,2,No,High,CUSTOM
+371,TSK-216,Implement log files in every entity folder,High,AI,Development,,TBD,TBD,Internal,2,No,High,CUSTOM
+372,TSK-217,Create main researchers' log,High,AI,Development,,TBD,TBD,Internal,2,No,High,CUSTOM
+373,TSK-219,Create step-by-step documentation templates,High,AI,Development,,TBD,TBD,Internal,2,No,High,CUSTOM
+374,TSK-220,Identify department data gaps,High,AI,Task,,TBD,TBD,Internal,2,No,High,CUSTOM
+375,TSK-221,Create TODO file system,High,AI,Development,,TBD,TBD,Internal,2,No,High,CUSTOM
+376,TSK-223,Implement daily TODO generation,High,AI,Development,,TBD,TBD,Internal,2,No,High,CUSTOM
+377,TSK-224,Document transcription best practices,High,Video,Documentation,,AI Researcher / Video Production Specialist,6-9 hours (4-6 hours research + 2-3 hours documentation),Internal,2,No,Medium,Task-Template-045
+378,TSK-225,Improve dictation-to-entity workflow,High,AI,Task,,TBD,TBD,Internal,2,No,High,CUSTOM
+379,TSK-226,Fix unpredictable save locations,High,AI,Maintenance,,TBD,TBD,Internal,2,No,High,CUSTOM
+380,TSK-227,Standardize report storage paths,High,AI,Task,,TBD,TBD,Internal,2,No,High,CUSTOM
+381,TSK-228,Document report generation process,High,AI,Documentation,,TBD,TBD,Internal,2,No,High,CUSTOM
+382,TSK-229,Create attendance_dashboard asset,High,HR,Development,,HR Manager / Operations Specialist,2-3 hours,Internal,2,No,Medium,Task-Template-041
+383,TSK-230,Write README with all links,High,Development,Documentation,,AI Researcher / Video Production Specialist,6-9 hours (4-6 hours research + 2-3 hours documentation),Internal,2,No,Medium,Task-Template-045
+384,TSK-231,Set up version tracking,High,Development,Task,,TBD,TBD,Internal,2,No,Medium,CUSTOM
+385,TSK-232,Document design updates log,High,Design,Documentation,,Designer / Developer / Creative Professional,2 hours (45 min organization + 45 min documentation + 30 min updates),Internal,2,No,High,Task-Template-077
+386,TSK-030,Interviews Lists to MD Files,High,HR,Task,,HR Manager / Automation Specialist,2-3 hours (one-time setup),Internal,2,No,Medium,Task-Template-039
+387,TSK-031,Clear Lists of Candidates Sources,High,HR,Task,,HR Manager / Automation Specialist,2-3 hours (one-time setup),Internal,2,No,Medium,Task-Template-039
+388,TSK-032,HR Onboarding preparation,High,HR,Task,,HR Manager / Operations Specialist,2-3 hours,Internal,2,No,Medium,Task-Template-044
+389,TSK-033,Integrate Individual Employee Testing,High,HR,Integration,,HR Manager / Automation Specialist,2-3 hours (one-time setup),Internal,2,No,Medium,Task-Template-039
+390,TSK-034,Discord Bot notifications,High,HR,Task,,HR Manager / Automation Specialist,2-3 hours (one-time setup),Internal,2,No,Medium,Task-Template-039
+391,TSK-035,Expand Industries,High,AI,Task,,TBD,TBD,Internal,2,No,High,CUSTOM
+392,TSK-036,LG Message Templates,High,AI,Task,,TBD,TBD,Internal,2,No,High,CUSTOM
+393,TSK-037,Prospects Architecture Improvement,High,Sales,Task,PRT-009,Sales Manager,4-5 hours for 50 emails,Internal,2,No,Medium,Task-Template-021
+394,TSK-038,Feed database: 300 new leads daily,High,Development,Task,PRT-009,TBD,TBD,Internal,2,No,Medium,CUSTOM
+395,TSK-040,Target audience analysis,High,AI,Task,PRT-009,TBD,TBD,Internal,2,No,High,CUSTOM
+396,TSK-041,Extract/analyze LG conversations,High,AI,Research,PRT-009,AI Researcher / Video Production Specialist,6-9 hours (4-6 hours research + 2-3 hours documentation),Internal,2,No,High,Task-Template-045
+397,TSK-042,Build look-alike auditory,High,Design,Development,PRT-009,HR Manager / Operations Specialist,1.5-2 hours,Internal,2,No,High,Task-Template-042
+398,TSK-043,Testing Individual Scraping Techniques,High,Development,Testing,,HR Manager / Social Media Specialist,1.5-2 hours,Internal,2,No,Medium,Task-Template-043
+399,TSK-044,LG Department Core Principles Doc,High,AI,Task,,TBD,TBD,Internal,2,No,High,CUSTOM
+400,TSK-045,Obligatory: Save 5 Templates + Screenshot,High,AI,Task,,TBD,TBD,Internal,2,No,High,CUSTOM
+401,TSK-046,Sales Email Templates,High,AI,Task,,TBD,TBD,Internal,2,No,High,CUSTOM
+402,TSK-047,Connect to Google Calendar,High,AI,Integration,,TBD,TBD,Internal,2,No,High,CUSTOM
+403,TSK-048,Scrape Event Metadata,High,AI,Task,,TBD,TBD,Internal,2,No,High,CUSTOM
+404,TSK-049,Populate Business Entity from Sales,High,AI,Task,PRT-010,TBD,TBD,Internal,2,No,High,CUSTOM
+405,TSK-050,Get CRM Data on Daily LeadGen Cards,High,Sales,Task,,TBD,TBD,Internal,2,No,High,Task-Template-050
+406,TSK-051,Learning Flow Step-by-Step Development,High,Development,Development,,TBD,TBD,Internal,2,No,High,Task-Template-051
+407,TSK-052,Track Task Completions via Microservices,High,Development,Task,,TBD,TBD,Internal,2,No,High,Task-Template-052
+408,TSK-053,Synchronize Libs with Online Academy,High,Development,Integration,,TBD,TBD,Internal,2,No,High,Task-Template-053
+409,TSK-054,Connect Task Managers to Libs,High,AI,Integration,,TBD,TBD,Internal,2,No,High,Task-Template-054
+410,TSK-055,Task Manager Dashboard with Database,High,AI,Task,,TBD,TBD,Internal,2,No,High,Task-Template-055
+411,TSK-057,Frontend OAuth Implementation,High,Development,Development,,TBD,TBD,Internal,2,No,Medium,Task-Template-052
+412,TSK-058,Personal Task Manager Web Pages,High,AI,Task,,TBD,TBD,Internal,2,No,High,Task-Template-058
+413,TSK-059,Add Rules for AI in Each Folder,High,AI,Task,,TBD,TBD,Internal,2,No,High,Task-Template-059
+414,TSK-060,Log Entity Integration,High,AI,Task,,TBD,TBD,Internal,2,No,High,Task-Template-060
+415,TSK-061,Keep Logs Longer,High,AI,Task,,TBD,TBD,Internal,2,No,High,Task-Template-061
+416,TSK-062,Develop USER Entities,High,AI,Development,PRT-005,TBD,TBD,Internal,2,No,High,Task-Template-062
+417,TSK-063,Review TALENTS match with Database,High,HR,Research,,TBD,TBD,Internal,2,No,High,Task-Template-063
+418,TSK-064,Prepare DB EXPORT Folder: LIBRARIES,High,AI,Task,,TBD,TBD,Internal,2,No,High,Task-Template-064
+419,TSK-065,Text Researches Recognition & Import,High,AI,Research,,TBD,TBD,Internal,2,No,High,Task-Template-065
+420,TSK-066,Core System Taxonomy Architecture Review,High,Finance,Research,,TBD,TBD,Internal,2,No,High,Task-Template-066
+421,TSK-067,Prompt for Transcription Export,High,AI,Task,,TBD,TBD,Internal,2,No,High,Task-Template-067
+422,TSK-068,Prompts for Weekly Analysis,High,AI,Task,,TBD,TBD,Internal,2,No,High,CUSTOM
+423,TSK-069,Prompts for Daily Analysis,High,AI,Task,,TBD,TBD,Internal,2,No,High,CUSTOM
+424,TSK-070,Researches Dashboard,High,AI,Research,,TBD,TBD,Internal,2,No,High,CUSTOM
+425,TSK-071,Export Dailies Summaries to ToDo App,High,AI,Task,,TBD,TBD,Internal,2,No,High,CUSTOM
+426,TSK-072,Tasks Templates Execution System,High,AI,Task,,TBD,TBD,Internal,2,No,High,CUSTOM
+427,TSK-073,Steps Confirmation System,High,AI,Task,,TBD,TBD,Internal,2,No,High,CUSTOM
+428,TSK-075,Create More Case Studies,High,AI,Development,,TBD,TBD,Internal,2,No,High,CUSTOM
+429,TSK-076,Deep Research Designer Task,High,Design,Research,,Graphic Designer / Visual Designer,2.5 hours (30 min planning + 1.5 hours generation + 30 min refinement),Internal,2,No,High,Task-Template-076
+430,ARC-001,Add Employees Folders Relative Path,High,HR,Task,,TBD,TBD,Internal,2,No,High,Project-Template-001
+431,ARC-002,Expand Employees Profiles,High,HR,Task,,TBD,TBD,Internal,2,No,High,Project-Template-002
+432,ARC-003,Copy All Employees Profiles into Talents,High,HR,Task,,TBD,TBD,Internal,2,No,High,Project-Template-003
+433,ARC-004,Consider Entities v2 Architecture,High,AI,Task,,TBD,TBD,Internal,2,No,High,Project-Template-004
+434,ARC-006,Block/Fields Sub System (Similarities),High,AI,Task,,TBD,TBD,Internal,2,No,High,CUSTOM
+435,TSK-066,Core System Taxonomy Architecture Review,High,Finance,Research,,TBD,TBD,Internal,2,No,High,Task-Template-066
+436,TSK-067,Prompt for Transcription Export,High,AI,Task,,TBD,TBD,Internal,2,No,High,Task-Template-067
+437,TSK-068,Prompts for Weekly Analysis,High,AI,Task,,TBD,TBD,Internal,2,No,High,CUSTOM
+438,TSK-069,Prompts for Daily Analysis,High,AI,Task,,TBD,TBD,Internal,2,No,High,CUSTOM
+439,TSK-070,Researches Dashboard,High,AI,Research,,TBD,TBD,Internal,2,No,High,CUSTOM
+440,TSK-071,Export Dailies Summaries to ToDo App,High,AI,Task,,TBD,TBD,Internal,2,No,High,CUSTOM
+441,TSK-001,Research to Task Manager integration,High,AI,Research,,TBD,TBD,Internal,2,No,High,Project-Template-001
+442,TSK-002,Pack all dailies into Week3 folder,High,AI,Task,,TBD,TBD,Internal,2,No,High,Project-Template-002
+443,FIX-001,Resolve duplicates in TSM-006_Workflows,High,AI,Maintenance,,TBD,TBD,Internal,2,No,High,Project-Template-001
+444,PRT-004,Single Sign-In Distribution System,High,AI,Infrastructure,,TBD,TBD,Infrastructure,2,No,High,Project-Template-004
+445,PRT-006,ID System for Services,High,AI,Infrastructure,,TBD,TBD,Infrastructure,2,No,High,CUSTOM
+446,PRT-008,Researches Dashboard,High,AI,Infrastructure,,TBD,TBD,Infrastructure,2,No,High,Project-Template-008
+447,PRT-001,Video Processing Automation,High,Video,Automation,,TBD,TBD,Internal,2,No,High,Project-Template-001
+448,MLT-029,Search Query System,High,AI,Milestone,PRT-011,TBD,TBD,Internal,2,No,High,CUSTOM
+449,MLT-030,Scraper Automation,High,AI,Milestone,PRT-011,TBD,TBD,Internal,2,No,High,CUSTOM
+450,MLT-031,Data Processing,High,AI,Milestone,PRT-011,TBD,TBD,Internal,2,No,High,CUSTOM
+451,MLT-032,CRM Integration,High,Sales,Milestone,PRT-011,Sales Manager,4-5 hours for 50 emails,Internal,2,No,High,Task-Template-021
+452,MLT-033,Testing & Analytics,High,AI,Milestone,PRT-011,TBD,TBD,Internal,2,No,High,CUSTOM
+453,MLT-034,Company & Reviews Data Collection,High,AI,Milestone,PRT-012,TBD,TBD,Internal,2,No,High,CUSTOM
+454,MLT-035,Semantic Analysis Setup,High,AI,Milestone,PRT-012,TBD,TBD,Internal,2,No,High,CUSTOM
+455,MLT-036,Problem Score Algorithm,High,AI,Milestone,PRT-012,TBD,TBD,Internal,2,No,High,CUSTOM
+456,MLT-037,Recommendation Engine,High,AI,Milestone,PRT-012,TBD,TBD,Internal,2,No,High,CUSTOM
+457,MLT-038,Social Media Integration,High,SMM,Milestone,PRT-012,TBD,TBD,Internal,2,No,Medium,CUSTOM
+458,MLT-039,Source Tracking & Documentation,High,AI,Milestone,PRT-012,TBD,TBD,Internal,2,No,High,CUSTOM
+459,TSK-AID-2025-11-20-001,Antigravity Installation and Configuration,High,Design,Task,,TBD,TBD,Internal,2,No,High,Project-Template-001
+460,TSK-AID-2025-11-20-002,Attendants Automation Infrastructure Setup,High,Sales,Task,,TBD,TBD,Internal,2,No,High,Project-Template-002
+461,TSK-AID-2025-11-20-004,Account Microservice Database Schema Design,High,Development,Task,,TBD,TBD,Internal,2,No,High,Project-Template-004
+462,TSK-DEV-2025-11-20-002,lead_gen_analytics Bug Fixes,High,Lead Generation,Task,,TBD,TBD,Internal,2,No,High,Project-Template-002
+463,TSK-DEV-2025-11-20-006,upload_crms OAuth Implementation,High,Sales,Task,,Sales Manager,4-5 hours for 50 emails,Internal,2,No,High,Task-Template-021
+464,TSK-DGN-2025-11-20-001,Game Academy Course Covers Delivery,High,Design,Task,,TBD,TBD,Internal,2,No,High,Project-Template-001
+465,TSK-DGN-2025-11-20-002,Client Interview Preparation and Participation,High,Sales,Task,,TBD,TBD,Internal,2,No,High,Project-Template-002
+466,TSK-DGN-2025-11-20-003,Black Friday Banner Generation,High,Lead Generation,Task,,TBD,TBD,Internal,2,No,High,Project-Template-003
+467,TSK-DGN-2025-11-20-004,Course Visual Materials Creation (Module 1),High,Design,Task,,TBD,TBD,Internal,2,No,High,Project-Template-004
+468,TSK-DGN-2025-11-20-007,Lead Generator Training Preparation,High,Lead Generation,Task,,TBD,TBD,Internal,2,No,Medium,Project-Template-002
+469,TSK-FIN-2025-11-20-001,Employee Working Hours Verification,High,HR,Task,,TBD,TBD,Internal,2,No,High,Project-Template-001
+470,TSK-FIN-2025-11-20-002,December 2025 Financial Processing Sheet Preparation Plan,High,Finance,Task,,TBD,TBD,Internal,2,No,High,Project-Template-002
+471,TSK-HRM-2025-11-20-001,Interview Checklist Creation,High,HR,Task,,TBD,TBD,Internal,2,No,High,Project-Template-001
+472,TSK-HRM-2025-11-20-002,Candidate Interviews,High,HR,Task,,TBD,TBD,Internal,2,No,High,Project-Template-002
+473,TSK-HRM-2025-11-20-003,Candidate Approval and Transfer,High,HR,Task,,TBD,TBD,Internal,2,No,High,Project-Template-003
+474,TSK-HRM-2025-11-20-004,Contract Sending,High,HR,Task,,TBD,TBD,Internal,2,No,High,Project-Template-004
+475,TSK-LGN-2025-11-20-001,Lead Generation - Job Sites and CRM,High,Lead Generation,Task,,TBD,TBD,Internal,2,No,High,Project-Template-001
+476,TSK-LGN-2025-11-20-002,Follow-Up Messages,High,Sales,Task,,TBD,TBD,Internal,2,No,High,Project-Template-002
+477,TSK-LGN-2025-11-20-004,Job Sites and Pipeline Building,High,Sales,Task,,TBD,TBD,Internal,2,No,High,Project-Template-004
+478,TSK-SLS-2025-11-20-001,Daily Tasks Completion,High,Sales,Task,,TBD,TBD,Internal,2,No,High,Project-Template-001
+479,TSK-VID-2025-11-20-001,Video Animation Work,High,Sales,Task,,TBD,TBD,Internal,2,No,High,Project-Template-001
+480,TSK-DGN-2025-11-20-006,Runway Animation Course Creation,Medium,Video,Task,,Lead Generator,10-15 minutes,Internal,1,Yes,Medium,Task-Template-006
+481,TSK-DGN-2025-11-20-010,Course Module Images and Animation,Medium,Video,Task,,AI Engineer,5-10 minutes with AI assistance,Internal,2,Yes,Medium,Task-Template-010
+482,PRT-017,Task Manager Dashboard (Single Task View),Medium,AI,Infrastructure,,TBD,TBD,Infrastructure,2,No,High,CUSTOM
+483,PRT-007,Research Integration with Google TODO,Medium,Development,Automation,,TBD,TBD,Internal,2,No,Medium,Project-Template-002
+484,TSK-AID-2025-11-20-003,Daily File Processing and Documentation,Medium,AI,Task,,TBD,TBD,Internal,2,No,High,Project-Template-003
+485,TSK-AID-2025-11-20-005,Account Microservice Schema Refinement,Medium,Development,Task,,TBD,TBD,Internal,2,No,High,Project-Template-005
+486,TSK-DEV-2025-11-20-001,Code Cleanup and Configuration Centralization,Medium,Development,Task,,TBD,TBD,Internal,2,No,High,Project-Template-001
+487,TSK-DEV-2025-11-20-003,UI Enhancement - Hover Effects,Medium,Design,Task,,TBD,TBD,Internal,2,No,High,Project-Template-003
+488,TSK-DGN-2025-11-20-005,Runway Animation Instruction Creation,Medium,Video,Task,,TBD,TBD,Internal,2,No,High,Project-Template-005
+489,TSK-DGN-2025-11-20-008,Antigravity Installation and Setup,Medium,Design,Task,,TBD,TBD,Internal,2,No,High,Project-Template-008
+490,TSK-DGN-2025-11-20-009,HTML Course Thumbnail Creation,Medium,AI,Task,,TBD,TBD,Internal,2,No,High,CUSTOM
+491,TSK-FIN-2025-11-20-003,n8n Automation Workflow Design,Medium,HR,Task,,TBD,TBD,Internal,2,No,High,Project-Template-003
+492,TSK-HRM-2025-11-20-005,Employee Day-Off Request Processing,Medium,HR,Task,,TBD,TBD,Internal,2,No,High,Project-Template-005
+493,TSK-LGN-2025-11-20-003,Website Streaming and Account Management,Medium,Sales,Task,,TBD,TBD,Internal,2,No,High,Project-Template-003
+494,TSK-LGN-2025-11-20-005,Lead Generation Training,Medium,Lead Generation,Task,,TBD,TBD,Internal,2,No,High,Project-Template-005
+495,TSK-SLS-2025-11-20-002,Tomorrow's Priorities Planning,Medium,Sales,Task,,TBD,TBD,Internal,2,No,High,Project-Template-002
+496,TSK-VID-2025-11-20-002,Portfolio Organization,Medium,Video,Task,,TBD,TBD,Internal,2,No,High,Project-Template-002
+497,TSK-VID-2025-11-20-003,Team Coordination,Medium,Design,Task,,TBD,TBD,Internal,2,No,High,Project-Template-003
+498,PRT-010,Affiliation Department Creation,Low,AI,Infrastructure,,TBD,TBD,Infrastructure,2,No,High,CUSTOM
+499,PRT-003,Research Integration Pipeline,Low,AI,Infrastructure,,TBD,TBD,Infrastructure,2,No,High,Project-Template-003
+500,TSK-DEV-2025-11-20-004,Antigravity IDE Analysis,Low,Development,Task,,TBD,TBD,Internal,2,No,High,Project-Template-004
+501,TSK-DEV-2025-11-20-005,SSH Authentication Setup,Low,Development,Task,,TBD,TBD,Internal,2,No,High,Project-Template-005

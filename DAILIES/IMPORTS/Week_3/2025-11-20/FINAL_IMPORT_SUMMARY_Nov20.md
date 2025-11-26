@@ -303,7 +303,7 @@ All 10 task template JSON files created and ready for import:
 
 | RSP ID | Action | Object | Phrase |
 |--------|--------|--------|--------|
-| RESP-FNC-216 | design | automation workflow | design automation workflow |
+| RESP-FIN-216 | design | automation workflow | design automation workflow |
 
 ---
 
@@ -475,7 +475,7 @@ Choice of format:
 
 - **Average Task Reusability:** 91% (excellent)
 - **Average Task Duration:** 2.4 hours (reasonable)
-- **Department Coverage:** 5 departments (AID, DGN, HRM, LGN, FNC)
+- **Department Coverage:** 5 departments (AID, DGN, HRM, LGN, FIN)
 - **Tool Usage Tracking:** 15 tools identified (5 new, 10 existing)
 
 ### Time Savings Potential

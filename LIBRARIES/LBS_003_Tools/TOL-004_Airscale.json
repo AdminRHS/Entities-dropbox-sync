@@ -1,0 +1,103 @@
+{
+  "entity_type": "LIBRARIES",
+  "sub_entity": "Tool",
+  "tool_id": "TOL-004",
+  "name": "Airscale",
+  "vendor": "Airscale",
+  "category": "Data Tools / Company Database",
+  "purpose": "Find companies by location, size, keywords and extract domains",
+  "description": "Company database and domain lookup tool for B2B lead generation. Allows searching for target companies by criteria (location, company size, keywords, industry) and exports company domains for further enrichment. Features enterprise arbitrage capability where searching for 1 company can return up to 40 email addresses.",
+  "skill_level_required": "Beginner",
+  "cost_structure": "Credit-based, enterprise arbitrage: 1:40 ratio (1 credit = up to 40 emails)",
+  "platform_compatibility": [
+    "Web",
+    "API"
+  ],
+  "integration_capabilities": [
+    "CSV export",
+    "API integration",
+    "Direct integration with Anymailfinder",
+    "Integration with Clay (mentioned as alternative)",
+    "Bulk company search",
+    "Domain extraction"
+  ],
+  "documentation_url": "https://airscale.io",
+  "actual_remote_helpers_usage": {
+    "primary_use": "Target Company Discovery and Domain Extraction",
+    "users": [
+      "Lead Generation Specialist",
+      "SDR (Sales Development Representative)",
+      "Outbound Marketer",
+      "Sales Operations"
+    ],
+    "use_cases": [
+      "find target companies by criteria",
+      "extract company domains for enrichment",
+      "build ICP-based prospect lists",
+      "discover companies in specific locations",
+      "filter companies by size and industry",
+      "enterprise email arbitrage"
+    ],
+    "workflows": [
+      "Multi-Source Lead Enrichment Pipeline (Airscale → Anymailfinder → 50-80% enrichment)"
+    ],
+    "typical_workflow_pattern": [
+      {
+        "task": "Company Domain Lookup for Lead Enrichment",
+        "steps": [
+          "Define search criteria (location, size, keywords, industry)",
+          "Run company search query",
+          "Export company list with domains to CSV",
+          "Import CSV into Anymailfinder",
+          "Enrich with decision-maker emails (50-80% success rate)",
+          "Download final enriched lead list"
+        ],
+        "complexity": "Low",
+        "time_estimate": "5-10 minutes for initial search, 10-15 min for enrichment",
+        "success_rate": "50-80% email enrichment rate"
+      }
+    ],
+    "integration_with_other_tools": [
+      "Anymailfinder (primary integration for email enrichment)",
+      "Clay (mentioned as alternative platform)",
+      "Google Sheets (data management)"
+    ]
+  },
+  "strengths": [
+    "Enterprise arbitrage: 1:40 credit-to-email ratio",
+    "Easy-to-use search interface",
+    "High-quality company data",
+    "Reliable domain extraction",
+    "Good integration with Anymailfinder",
+    "Cost-effective for large companies",
+    "ICP-based filtering capabilities"
+  ],
+  "limitations": [
+    "Requires clear ICP definition for best results",
+    "Credit system may be expensive for small companies",
+    "Limited to company-level data (needs Anymailfinder for contacts)"
+  ],
+  "departments_using": [
+    "LG",
+    "Sales",
+    "Marketing"
+  ],
+  "tags": [
+    "company-database",
+    "domain-lookup",
+    "lead-generation",
+    "b2b-prospecting",
+    "enterprise-arbitrage",
+    "icp-targeting",
+    "company-discovery"
+  ],
+  "discovery_date": "2025-11-12",
+  "discovery_source": "Video_006_Lead_Generation_Analysis",
+  "status": "active",
+  "_migration": {
+    "date": "2025-11-26T02:01:31.118148",
+    "old_tool_id": "TOL-004",
+    "old_path": "TOL-004_Airscale.json",
+    "migrated_by": "restructure_tools_v1"
+  }
+}

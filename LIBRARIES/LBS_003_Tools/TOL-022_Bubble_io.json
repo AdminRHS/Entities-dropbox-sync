@@ -1,0 +1,70 @@
+{
+  "entity_type": "LIBRARIES",
+  "sub_entity": "Tool",
+  "tool_id": "TOL-022",
+  "name": "Bubble.io",
+  "vendor": "Bubble",
+  "category": "AI/Development Tools",
+  "purpose": "No-code platform for building web applications with visual programming",
+  "description": "Visual, no-code platform for building web applications without coding. Enables users to create complex applications through visual programming interface with AI integration capabilities.",
+  "skill_level_required": "Beginner",
+  "cost_structure": "Freemium (Free tier available, paid plans from $29/month)",
+  "platform_compatibility": [
+    "Web"
+  ],
+  "integration_capabilities": [
+    "API integration",
+    "Database management",
+    "Payment processing",
+    "Third-party services",
+    "AI plugin integration",
+    "Custom code injection"
+  ],
+  "documentation_url": "https://bubble.io/",
+  "actual_remote_helpers_usage": {
+    "primary_use": "No-Code Web Application Development",
+    "users": [],
+    "use_cases": [
+      "develop webapps",
+      "create mvps",
+      "build prototypes",
+      "build saas",
+      "build marketplaces",
+      "build custom webapps"
+    ],
+    "workflows": []
+  },
+  "strengths": [
+    "No coding required",
+    "Visual programming",
+    "Powerful features",
+    "Scalable platform",
+    "Large plugin ecosystem",
+    "AI integration support"
+  ],
+  "limitations": [
+    "Learning curve",
+    "Performance limitations for complex apps",
+    "Vendor lock-in",
+    "Limited customization in some areas",
+    "Cost can escalate"
+  ],
+  "departments_using": [],
+  "tags": [
+    "no-code",
+    "web-development",
+    "visual-programming",
+    "app-development",
+    "saas",
+    "prototyping"
+  ],
+  "discovery_date": "2025-01-27",
+  "discovery_source": "user_provided",
+  "status": "discovered_needs_review",
+  "_migration": {
+    "date": "2025-11-26T02:01:31.140952",
+    "old_tool_id": "TOL-022",
+    "old_path": "TOL-022_Bubble_io.json",
+    "migrated_by": "restructure_tools_v1"
+  }
+}

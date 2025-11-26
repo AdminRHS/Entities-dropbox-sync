@@ -8,6 +8,8 @@
 
 ## Contact Information
 
+- **Nov25 Folder:** /Dropbox/Nov25/LG/Berdychevska Anastasiia
+
 - **Personal Email:** Not specified
 - **Work Email:** Not specified
 - **Discord ID:** Not specified

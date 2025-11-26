@@ -1,0 +1,71 @@
+{
+  "entity_type": "LIBRARIES",
+  "sub_entity": "Tool",
+  "tool_id": "TOL-089",
+  "name": "Maestra.ai",
+  "vendor": "Maestra",
+  "category": "AI/Video Tools",
+  "purpose": "AI transcription, subtitling, and video translation platform",
+  "description": "AI-powered platform for transcribing audio and video files, generating subtitles, and translating content into multiple languages. Used for video localization, accessibility, and content translation.",
+  "skill_level_required": "Beginner",
+  "cost_structure": "Freemium (Free trial available, paid plans from $6/month)",
+  "platform_compatibility": [
+    "Web",
+    "API"
+  ],
+  "integration_capabilities": [
+    "API access",
+    "Video file upload",
+    "Audio transcription",
+    "Subtitle generation",
+    "Translation services",
+    "Video dubbing"
+  ],
+  "documentation_url": "https://maestra.ai/",
+  "actual_remote_helpers_usage": {
+    "primary_use": "AI Transcription and Video Translation",
+    "users": [],
+    "use_cases": [
+      "transcribe videos",
+      "generate subtitles",
+      "translate videos",
+      "dub videos",
+      "ensure accessibility",
+      "localize content"
+    ],
+    "workflows": []
+  },
+  "strengths": [
+    "Accurate transcription",
+    "Multiple language support",
+    "Video dubbing",
+    "Subtitle generation",
+    "Easy to use",
+    "API access"
+  ],
+  "limitations": [
+    "Processing time for long videos",
+    "Accuracy varies by language",
+    "Cost for high volume",
+    "Limited features in free tier"
+  ],
+  "departments_using": [],
+  "tags": [
+    "transcription",
+    "subtitles",
+    "translation",
+    "video-dubbing",
+    "accessibility",
+    "localization",
+    "video-processing"
+  ],
+  "discovery_date": "2025-01-27",
+  "discovery_source": "user_provided",
+  "status": "discovered_needs_review",
+  "_migration": {
+    "date": "2025-11-26T02:01:31.255316",
+    "old_tool_id": "TOL-089",
+    "old_path": "TOL-089_Maestra_ai.json",
+    "migrated_by": "restructure_tools_v1"
+  }
+}

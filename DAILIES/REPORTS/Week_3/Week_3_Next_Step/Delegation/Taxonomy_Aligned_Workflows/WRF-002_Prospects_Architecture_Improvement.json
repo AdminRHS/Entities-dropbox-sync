@@ -1,0 +1,59 @@
+{
+  "entity_type": "TASK_MANAGERS",
+  "sub_entity": "Workflow",
+  "workflow_id": "WRF-002",
+  "metadata": {
+    "workflow_name": "Prospects Architecture Improvement",
+    "description": "Week 3 workflow for Prospects Architecture Improvement",
+    "primary_department": "AID",
+    "departments_involved": [
+      "AID",
+      "DGN",
+      "DEV",
+      "LGN",
+      "SLS"
+    ],
+    "workflow_type": "Sequential",
+    "execution_phase": "Planning",
+    "priority": "High",
+    "estimated_duration": "14.0h",
+    "complexity": "Medium",
+    "status": "Active",
+    "created_date": "2025-11-26",
+    "version": "1.0"
+  },
+  "related_project": {
+    "project_id": "PRT-009",
+    "milestone_dependencies": "MLT-022"
+  },
+  "tasks": {
+    "total_count": 6,
+    "task_ids": [
+      "TST-037",
+      "TST-038",
+      "TST-039",
+      "TST-040",
+      "TST-041",
+      "TST-042"
+    ],
+    "execution_type": "Sequential"
+  },
+  "steps": [],
+  "performance_metrics": {
+    "total_estimated_hours": 14.0,
+    "task_count": 6
+  },
+  "tags": [
+    "planning",
+    "sequential",
+    "aid"
+  ],
+  "version": "1.0",
+  "created": "2025-11-26",
+  "last_updated": "2025-11-26",
+  "migration_notes": {
+    "original_id": "WFC-002",
+    "converted_from": "WFC format",
+    "conversion_date": "2025-11-26"
+  }
+}

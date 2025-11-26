@@ -1,0 +1,88 @@
+﻿PMT_ID,Entity_Type,Name,Description,Category,Department,File_Path,Status,Version,Last_Updated
+PMT-001,Prompt,Main Prompt v4,Core system prompt for all AI operations,CORE,Multi,Core/PMT-001_Main_Prompt_v4.md,Active,4.0,2025-11-18
+PMT-002,Prompt,Main Prompt v6,Ultra-condensed main prompt (73% reduction from v4),CORE,Multi,Core/MAIN_PROMPT_v6.md,Active,6.0,2025-11-19
+PMT-003,Prompt,Create Main Prompt v5,Utility prompt for generating v5 modular structure,CORE,Multi,Core/PMT-003_Create_Main_Prompt_v5.md,Utility,5.0,2025-11-18
+PMT-004,Prompt,Video Transcription v4.1,TASK_MANAGERS entity extraction from video transcriptions,VIDEO,VID,PROMPTS/Transcription/PMT-004_Video_Transcription_v4.1.md,Active,4.1,2025-11-19
+PMT-005,Prompt,Video Naming Alternatives,Generate business-oriented alternative names for videos,VIDEO,VID,PROMPTS/Transcription/PMT-005_Video_Naming_Alternatives.md,Active,1.0,2025-11-18
+PMT-006,Prompt,Video Analysis,Comprehensive video content analysis and extraction,VIDEO,VID,PROMPTS/Analysis/PMT-006_Video_Analysis.md,Active,1.0,2025-11-18
+PMT-007,Prompt,Objects Library Extraction,Extract LIBRARIES objects (OBJ-###) from video content,VIDEO,VID,PROMPTS/Analysis/PMT-007_Objects_Library_Extraction.md,Active,1.0,2025-11-18
+PMT-008,Prompt,Video Analysis Improvements,Analysis and improvement recommendations for video processing,VIDEO,VID,PROMPTS/Analysis/PMT-008_Video_Analysis_Improvements.md,Active,1.0,2025-11-18
+PMT-009,Prompt,Taxonomy Integration,Integrate video entities into taxonomy system,VIDEO,VID,PROMPTS/Taxonomy_Integration/PMT-009_Taxonomy_Integration.md,Active,1.0,2025-11-18
+PMT-010,Prompt,Complete Workflow Full,Comprehensive 7-phase video processing workflow,VIDEO,VID,PROMPTS/Workflows/PMT-010_Complete_Workflow_Full.md,Active,1.0,2025-11-18
+PMT-011,Prompt,Complete Workflow Short,Abbreviated video processing workflow guide,VIDEO,VID,PROMPTS/Workflows/PMT-011_Complete_Workflow_Short.md,Active,1.0,2025-11-18
+PMT-012,Prompt,Transcript Processing Workflow,Workflow for processing video transcripts,VIDEO,VID,PROMPTS/Workflows/PMT-012_Transcript_Processing_Workflow.md,Active,1.0,2025-11-18
+PMT-013,Prompt,Merge Transcriptions Research,Merge video transcriptions with research integration,VIDEO,VID,WORKFLOWS/Video_Processing/PMT-013_Merge_Transcriptions_Research.md,Active,1.0,2025-11-18
+PMT-014,Prompt,Build Taxonomy ID System,Create and implement taxonomy ID architecture,TAXONOMY,AID,Taxonomy/PMT-014_Build_Taxonomy_ID_System.md,Active,1.0,2025-11-18
+PMT-015,Prompt,Optimize Video Transcription,Optimize video transcription for taxonomy extraction,TAXONOMY,VID,Taxonomy/PMT-015_Optimize_Video_Transcription.md,Active,1.0,2025-11-19
+PMT-016,Prompt,Build LIBRARIES Taxonomy,Build comprehensive LIBRARIES taxonomy system,TAXONOMY,AID,Taxonomy/PMT-016_Build_LIBRARIES_Taxonomy.md,Active,1.0,2025-11-18
+PMT-017,Prompt,Initial ID List,Generate initial taxonomy ID list for LIBRARIES,TAXONOMY,AID,Taxonomy/PMT-017_Initial_ID_List.md,Active,1.0,2025-11-18
+PMT-018,Prompt,Employee Profile Schema,Build employee profile schema workflow,TAXONOMY,HRM,Taxonomy/PMT-018_Employee_Profile_Schema.md,Active,1.0,2025-11-18
+PMT-019,Prompt,Restructure Employee Profile,Restructure employee profiles for TASK_MANAGERS,TAXONOMY,HRM,Taxonomy/PMT-019_Restructure_Employee_Profile.md,Active,1.0,2025-11-18
+PMT-020,Prompt,Taxonomy Entities Collection,Collect and organize taxonomy entities,TAXONOMY,AID,Taxonomy/PMT-020_Taxonomy_Entities_Collection.md,Active,1.0,2025-11-18
+PMT-021,Prompt,Ecosystem Analysis Overview,Main ecosystem analysis and validation overview,SYSTEM,AID,SYSTEM/System_Analysis/PMT-021_Ecosystem_Analysis_Overview.md,Active,1.0,2025-11-18
+PMT-022,Prompt,Data Inventory,Milestone-based data inventory analysis,SYSTEM,AID,SYSTEM/System_Analysis/PMT-022_Data_Inventory.md,Active,1.0,2025-11-18
+PMT-023,Prompt,Schema Validation,Schema naming and structure validation,SYSTEM,AID,SYSTEM/System_Analysis/PMT-023_Schema_Validation.md,Active,1.0,2025-11-18
+PMT-024,Prompt,Content Analysis,Milestone content analysis and extraction,SYSTEM,AID,SYSTEM/System_Analysis/PMT-024_Content_Analysis.md,Active,1.0,2025-11-18
+PMT-025,Prompt,Relationship Validation,Validate entity relationships and dependencies,SYSTEM,AID,SYSTEM/System_Analysis/PMT-025_Relationship_Validation.md,Active,1.0,2025-11-18
+PMT-026,Prompt,Synthesis Recommendations,Synthesis and improvement recommendations,SYSTEM,AID,SYSTEM/System_Analysis/PMT-026_Synthesis_Recommendations.md,Active,1.0,2025-11-18
+PMT-027,Prompt,Data Consistency,Data consistency and knowledge integration,SYSTEM,AID,SYSTEM/PMT-027_Data_Consistency.md,Active,1.0,2025-11-18
+PMT-028,Prompt,Folder Reorganization,Folder structure reorganization guide,SYSTEM,AID,SYSTEM/PMT-028_Folder_Reorganization.md,Active,1.0,2025-11-18
+PMT-029,Prompt,System Health Review,System health review and diagnostics,SYSTEM,AID,SYSTEM/PMT-029_System_Health_Review.md,Active,1.0,2025-11-18
+PMT-030,Prompt,Architecture Learning Guide,Learn and understand system architecture,SYSTEM,AID,SYSTEM/Architecture_Guides/PMT-030_Architecture_Learning_Guide.md,Active,1.0,2025-11-18
+PMT-031,Prompt,Architecture Merge Planning,Plan architecture merges and integrations,SYSTEM,AID,SYSTEM/Architecture_Guides/PMT-031_Architecture_Merge_Planning.md,Active,1.0,2025-11-18
+PMT-032,Prompt,Daily Report Collection v2.1,Collect and aggregate all department daily reports with TASK_MANAGERS integration,REPORTS,Multi,DEPARTMENTS/Daily_Reports/PMT-032_Daily_Report_Collection_v2.1.md,Active,2.1,2025-11-19
+PMT-033,Prompt,AI Daily Report v2.1,AI & Automation department daily report with entity mapping,REPORTS,AID,DEPARTMENTS/Daily_Reports/Department_Prompts/PMT-033_AI_Daily_Report_v2.1.md,Active,2.1,2025-11-19
+PMT-034,Prompt,Content Daily Report v2.1,Content department daily report with entity mapping,REPORTS,CNT,DEPARTMENTS/Daily_Reports/Department_Prompts/PMT-034_Content_Daily_Report_v2.1.md,Active,2.1,2025-11-19
+PMT-035,Prompt,Design Daily Report v2.1,Design department daily report with entity mapping,REPORTS,DGN,DEPARTMENTS/Daily_Reports/Department_Prompts/PMT-035_Design_Daily_Report_v2.1.md,Active,2.1,2025-11-19
+PMT-036,Prompt,Dev Daily Report v2.1,Development department daily report with entity mapping,REPORTS,DEV,DEPARTMENTS/Daily_Reports/Department_Prompts/PMT-036_Dev_Daily_Report_v2.1.md,Active,2.1,2025-11-19
+PMT-037,Prompt,Finance Daily Report v2.1,Finance department daily report with entity mapping,REPORTS,FIN,DEPARTMENTS/Daily_Reports/Department_Prompts/PMT-037_Finance_Daily_Report_v2.1.md,Active,2.1,2025-11-19
+PMT-038,Prompt,HR Daily Report v2.1,Human Resources department daily report with entity mapping,REPORTS,HRM,DEPARTMENTS/Daily_Reports/Department_Prompts/PMT-038_HR_Daily_Report_v2.1.md,Active,2.1,2025-11-19
+PMT-039,Prompt,LG Daily Report v2.1,Lead Generation department daily report with entity mapping,REPORTS,LGN,DEPARTMENTS/Daily_Reports/Department_Prompts/PMT-039_LG_Daily_Report_v2.1.md,Active,2.1,2025-11-19
+PMT-040,Prompt,Marketing Daily Report v2.1,Marketing department daily report with entity mapping,REPORTS,MKT,DEPARTMENTS/Daily_Reports/Department_Prompts/PMT-040_Marketing_Daily_Report_v2.1.md,Active,2.1,2025-11-19
+PMT-041,Prompt,Sales Daily Report v2.1,Sales department daily report with entity mapping,REPORTS,SLS,DEPARTMENTS/Daily_Reports/Department_Prompts/PMT-041_Sales_Daily_Report_v2.1.md,Active,2.1,2025-11-19
+PMT-042,Prompt,SMM Daily Report v2.1,Social Media Management daily report with entity mapping,REPORTS,SMM,DEPARTMENTS/Daily_Reports/Department_Prompts/PMT-042_SMM_Daily_Report_v2.1.md,Active,2.1,2025-11-19
+PMT-043,Prompt,Video Daily Report v2.1,Video Production department daily report with entity mapping,REPORTS,VID,DEPARTMENTS/Daily_Reports/Department_Prompts/PMT-043_Video_Daily_Report_v2.1.md,Active,2.1,2025-11-19
+PMT-044,Prompt,Sales Department Research,Research prompt for sales department operations,RESEARCH,SLS,RESEARCH/Research_Prompts/PMT-044_Sales_Department_Research.md,Active,1.0,2025-11-18
+PMT-045,Prompt,SMM Document Processing,Social media management document processing instructions,RESEARCH,SMM,RESEARCH/Research_Prompts/PMT-045_SMM_Document_Processing.md,Active,1.0,2025-11-18
+PMT-046,Prompt,VSCode Agent HQ Research,Research VSCode agent capabilities and integrations,RESEARCH,DEV,RESEARCH/Research_Prompts/PMT-046_VSCode_Agent_HQ_Research.md,Active,1.0,2025-11-18
+PMT-047,Prompt,YouTube AI HR Tutorials,Research YouTube AI tutorials for HR automation,RESEARCH,HRM,RESEARCH/Research_Prompts/PMT-047_YouTube_AI_HR_Tutorials.md,Active,1.0,2025-11-18
+PMT-048,Prompt,YouTube AI Tools Daily,Daily AI tools research from YouTube content,RESEARCH,AID,RESEARCH/Research_Prompts/PMT-048_YouTube_AI_Tools_Daily.md,Active,1.0,2025-11-18
+PMT-049,Prompt,YouTube HR Automation,Research HR automation techniques from YouTube,RESEARCH,HRM,RESEARCH/Research_Prompts/PMT-049_YouTube_HR_Automation.md,Active,1.0,2025-11-18
+PMT-050,Prompt,YouTube Remote Helpers,YouTube video research for Remote Helpers company,RESEARCH,Multi,RESEARCH/Research_Prompts/PMT-050_YouTube_Remote_Helpers.md,Active,1.0,2025-11-18
+PMT-051,Prompt,Department Research Integration,Integrate department research findings,RESEARCH,Multi,RESEARCH/PMT-051_Department_Research_Integration.md,Active,1.0,2025-11-18
+PMT-052,Prompt,VSCode AI Extensions,Research VSCode AI extensions and capabilities,RESEARCH,DEV,RESEARCH/PMT-052_VSCode_AI_Extensions.md,Active,1.0,2025-11-18
+PMT-053,Prompt,CV Parser v1,Parse and extract structured data from CVs/resumes,HR,HRM,DEPARTMENTS/HR_Operations/PMT-053_CV_Parser_v1.md,Active,1.0,2025-11-18
+PMT-054,Prompt,CRM Data Entry,Automate CRM data entry from multiple sources,HR,HRM,DEPARTMENTS/HR_Operations/PMT-054_CRM_Data_Entry.md,Active,1.0,2025-11-18
+PMT-055,Prompt,Communication Templates,HR communication templates for candidate outreach,HR,HRM,DEPARTMENTS/HR_Operations/PMT-055_Communication_Templates.md,Active,1.0,2025-11-18
+PMT-056,Prompt,Interview Conductor,Conduct structured interviews with candidates,HR,HRM,DEPARTMENTS/HR_Operations/PMT-056_Interview_Conductor.md,Active,1.0,2025-11-18
+PMT-057,Prompt,Job Sites Research,Deep research of job sites for recruitment,HR,HRM,DEPARTMENTS/HR_Operations/PMT-057_Job_Sites_Research.md,Active,1.0,2025-11-18
+PMT-058,Prompt,Call Organizer v4,Organize and structure call transcripts and notes,WORKFLOW,Multi,WORKFLOWS/Operational_Workflows/PMT-058_Call_Organizer_v4.md,Active,4.0,2025-11-18
+PMT-059,Prompt,Document Finished Project,Document completed projects for knowledge base,WORKFLOW,Multi,WORKFLOWS/Operational_Workflows/PMT-059_Document_Finished_Project.md,Active,1.0,2025-11-18
+PMT-060,Prompt,Products Integration,Integrate products into LIBRARIES system,LIBRARY,AID,WORKFLOWS/Library_Processing/PMT-060_Products_Integration.md,Active,1.0,2025-11-18
+PMT-061,Prompt,Task Manager Entity Filling,Fill TASK_MANAGERS entities with data,LIBRARY,AID,WORKFLOWS/Library_Processing/PMT-061_Task_Manager_Entity_Filling.md,Active,1.0,2025-11-18
+PMT-062,Prompt,Tools Collection Matching,Collect and match tools to LIBRARIES,LIBRARY,AID,WORKFLOWS/Library_Processing/PMT-062_Tools_Collection_Matching.md,Active,1.0,2025-11-18
+PMT-063,Prompt,Account Creation Validation,Validate new account creation process,ACCOUNT,OPS,WORKFLOWS/Account_Management/PMT-063_Account_Creation_Validation.md,Active,1.0,2025-11-18
+PMT-064,Prompt,Account Security Audit,Audit account security and permissions,ACCOUNT,OPS,WORKFLOWS/Account_Management/PMT-064_Account_Security_Audit.md,Active,1.0,2025-11-18
+PMT-065,Prompt,Subscription Renewal Alert,Alert system for subscription renewals,ACCOUNT,OPS,WORKFLOWS/Account_Management/PMT-065_Subscription_Renewal_Alert.md,Active,1.0,2025-11-18
+PMT-066,Prompt,Script Copy Dailies,Create script to copy daily report files,AUTOMATION,AID,SYSTEM/Automation/PMT-066_Script_Copy_Dailies.md,Active,1.0,2025-11-18
+PMT-067,Prompt,Rules Automation,Automate business rules and workflows,AUTOMATION,AID,SYSTEM/Automation/PMT-067_Rules_Automation.md,Active,1.0,2025-11-18
+PMT-068,Prompt,Version Control Automation,Automate version control operations,AUTOMATION,DEV,SYSTEM/Automation/PMT-068_Version_Control_Automation.md,Active,1.0,2025-11-18
+PMT-069,Prompt,Version Control Main,Main version control workflow and guidelines,AUTOMATION,DEV,SYSTEM/Automation/PMT-069_Version_Control_Main.md,Active,1.0,2025-11-18
+PMT-070,Prompt,Daily Report Entity Mapping v2.1,Map daily activities to TASK_MANAGERS entities with token-efficient format,UPDATES,Multi,UTILITIES/Daily_Updates/PMT-070_Daily_Report_Entity_Mapping_v2.1.md,Active,2.1,2025-11-19
+PMT-071,Prompt,Actions Library Extraction,Extract and cross-reference action verbs from video content,VIDEO,VID,PROMPTS/Analysis/PMT-071_Actions_Library_Extraction.md,Active,1.0,2025-11-19
+PMT-072,Prompt,PROMPTS Critical Fixes,Execute critical fixes from analysis report to resolve breaking issues,SYSTEM,AID,SYSTEM/PMT-072_PROMPTS_Critical_Fixes.md,Active,1.0,2025-11-19
+PMT-073,Prompt,Create Main Prompt v6,Generate ultra-condensed Main Prompt v6 with 70% size reduction,CORE,Multi,Core/PMT-073_Create_Main_Prompt_v6.md,Active,1.0,2025-11-19
+PMT-074,Prompt,Data Architect Master,Master orchestration prompt for scaling data processing with routing to specialized sub-prompts,DATA_ARCHITECTURE,AID,SYSTEM/DATA_ARCHITECTURE/PMT-074_Data_Architect_Master.md,Active,1.0,2025-11-21
+PMT-075,Prompt,Data Integrity Manager,Internal data integrity validation with schema checks cross-references and duplicate detection,DATA_ARCHITECTURE,AID,SYSTEM/DATA_ARCHITECTURE/PMT-075_Data_Integrity_Manager.md,Active,1.0,2025-11-21
+PMT-076,Prompt,Import Validation Pipeline,Unified import processing with 4-stage workflow staging validation transformation integration,DATA_ARCHITECTURE,AID,SYSTEM/DATA_ARCHITECTURE/PMT-076_Import_Validation_Pipeline.md,Active,1.0,2025-11-21
+PMT-077,Prompt,Employee Activity Analyzer,External monitoring of employee daily files with completeness tracking and pattern detection,DATA_ARCHITECTURE,AID,SYSTEM/DATA_ARCHITECTURE/PMT-077_Employee_Activity_Analyzer.md,Active,1.0,2025-11-21
+PMT-078,Prompt,Cross Entity Search,Unified search across all 21 entities with relationship traversal and context-aware results,DATA_ARCHITECTURE,AID,SYSTEM/DATA_ARCHITECTURE/PMT-078_Cross_Entity_Search.md,Active,1.0,2025-11-21
+PMT-079,Prompt,Prompt Taxonomy Sync,Automated prompt synchronization to update outdated references and extract new entities,DATA_ARCHITECTURE,AID,SYSTEM/DATA_ARCHITECTURE/PMT-079_Prompt_Taxonomy_Sync.md,Active,1.0,2025-11-21
+PMT-080,Prompt,Token Optimization Analyzer,Token measurement and optimization with redundancy detection and compression recommendations,DATA_ARCHITECTURE,AID,SYSTEM/DATA_ARCHITECTURE/PMT-080_Token_Optimization_Analyzer.md,Active,1.0,2025-11-21
+PMT-074,Prompt,Data Architect Master,Master orchestration prompt for scaling data processing with routing to specialized sub-prompts,DATA_ARCHITECTURE,AID,SYSTEM/DATA_ARCHITECTURE/PMT-074_Data_Architect_Master.md,Active,1.0,2025-11-21
+PMT-075,Prompt,Data Integrity Manager,Internal data integrity validation with schema checks cross-references and duplicate detection,DATA_ARCHITECTURE,AID,SYSTEM/DATA_ARCHITECTURE/PMT-075_Data_Integrity_Manager.md,Active,1.0,2025-11-21
+PMT-076,Prompt,Import Validation Pipeline,Unified import processing with 4-stage workflow staging validation transformation integration,DATA_ARCHITECTURE,AID,SYSTEM/DATA_ARCHITECTURE/PMT-076_Import_Validation_Pipeline.md,Active,1.0,2025-11-21
+PMT-077,Prompt,Employee Activity Analyzer,External monitoring of employee daily files with completeness tracking and pattern detection,DATA_ARCHITECTURE,AID,SYSTEM/DATA_ARCHITECTURE/PMT-077_Employee_Activity_Analyzer.md,Active,1.0,2025-11-21
+PMT-078,Prompt,Cross Entity Search,Unified search across all 21 entities with relationship traversal and context-aware results,DATA_ARCHITECTURE,AID,SYSTEM/DATA_ARCHITECTURE/PMT-078_Cross_Entity_Search.md,Active,1.0,2025-11-21
+PMT-079,Prompt,Prompt Taxonomy Sync,Automated prompt synchronization to update outdated references and extract new entities,DATA_ARCHITECTURE,AID,SYSTEM/DATA_ARCHITECTURE/PMT-079_Prompt_Taxonomy_Sync.md,Active,1.0,2025-11-21
+PMT-080,Prompt,Token Optimization Analyzer,Token measurement and optimization with redundancy detection and compression recommendations,DATA_ARCHITECTURE,AID,SYSTEM/DATA_ARCHITECTURE/PMT-080_Token_Optimization_Analyzer.md,Active,1.0,2025-11-21

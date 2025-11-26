@@ -164,13 +164,13 @@
 | AID | AI Department | 11 | 91.7% |
 | DGN | Design | 1 | 8.3% |
 | DEV | Development | 0 | 0% |
-| FNC | Finance | 0 | 0% |
+| FIN | Finance | 0 | 0% |
 | HRM | Human Resources | 0 | 0% |
 | LGN | Lead Generation | 0 | 0% |
 | SLS | Sales | 0 | 0% |
 | VID | Video Production | 0 | 0% |
 
-**Expansion Opportunities:** Create guides for DEV, FNC, HRM, LGN, SLS, VID departments.
+**Expansion Opportunities:** Create guides for DEV, FIN, HRM, LGN, SLS, VID departments.
 
 ---
 

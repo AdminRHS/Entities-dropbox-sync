@@ -8,6 +8,8 @@
 
 ## Contact Information
 
+- **Nov25 Folder:** /Dropbox/Nov25/Design/Litvinova Natalia
+
 - **Personal Email:** litvin1128@gmail.com
 - **Work Email:** natalya.rhs@gmail.com
 - **Discord ID:** Not specified

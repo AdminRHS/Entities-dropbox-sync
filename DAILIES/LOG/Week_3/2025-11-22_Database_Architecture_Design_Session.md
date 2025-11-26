@@ -325,7 +325,7 @@ formats (
 
 **Priority Departments:**
 1. Development (DEV) - 6 guides needed
-2. Finance (FNC) - 5 guides needed
+2. Finance (FIN) - 5 guides needed
 3. HR (HRM) - 5 guides needed
 4. Lead Generation (LGN) - 5 guides needed
 5. Sales (SLS) - 5 guides needed

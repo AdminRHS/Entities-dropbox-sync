@@ -1,0 +1,58 @@
+{
+  "entity_type": "TASK_MANAGERS",
+  "sub_entity": "Workflow",
+  "workflow_id": "WRF-009",
+  "metadata": {
+    "workflow_name": "Document current AI tools tracking system",
+    "description": "Week 3 workflow for Document current AI tools tracking system",
+    "primary_department": "AID",
+    "departments_involved": [
+      "AID",
+      "DEV",
+      "SLS"
+    ],
+    "workflow_type": "Parallel",
+    "execution_phase": "Planning",
+    "priority": "High",
+    "estimated_duration": "13.1h",
+    "complexity": "Medium",
+    "status": "Active",
+    "created_date": "2025-11-26",
+    "version": "1.0"
+  },
+  "related_project": {
+    "project_id": "PRT-016",
+    "milestone_dependencies": null
+  },
+  "tasks": {
+    "total_count": 7,
+    "task_ids": [
+      "TST-150",
+      "TST-151",
+      "TST-152",
+      "TST-153",
+      "TST-154",
+      "TST-155",
+      "TST-156"
+    ],
+    "execution_type": "Parallel"
+  },
+  "steps": [],
+  "performance_metrics": {
+    "total_estimated_hours": 13.1,
+    "task_count": 7
+  },
+  "tags": [
+    "planning",
+    "parallel",
+    "aid"
+  ],
+  "version": "1.0",
+  "created": "2025-11-26",
+  "last_updated": "2025-11-26",
+  "migration_notes": {
+    "original_id": "WFC-009",
+    "converted_from": "WFC format",
+    "conversion_date": "2025-11-26"
+  }
+}

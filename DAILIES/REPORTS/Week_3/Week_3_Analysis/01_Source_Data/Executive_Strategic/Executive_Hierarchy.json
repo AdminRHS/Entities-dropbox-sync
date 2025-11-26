@@ -1,0 +1,2651 @@
+{
+  "projects": [
+    {
+      "id": "PRT-011",
+      "name": "Google Maps Scraping System",
+      "department": "AI",
+      "category": "Infrastructure",
+      "milestones": [
+        {
+          "id": "MLT-029",
+          "name": "Search Query System",
+          "tasks": []
+        },
+        {
+          "id": "MLT-030",
+          "name": "Scraper Automation",
+          "tasks": []
+        },
+        {
+          "id": "MLT-031",
+          "name": "Data Processing",
+          "tasks": []
+        },
+        {
+          "id": "MLT-032",
+          "name": "CRM Integration",
+          "tasks": []
+        },
+        {
+          "id": "MLT-033",
+          "name": "Testing & Analytics",
+          "tasks": [
+            {
+              "id": "TSK-106",
+              "name": "Find historical search queries file on Google Drive",
+              "category": "Task"
+            },
+            {
+              "id": "TSK-107",
+              "name": "Reformat LinkedIn queries for Google Maps",
+              "category": "Task"
+            },
+            {
+              "id": "TSK-108",
+              "name": "Create detailed prompt for query generation (Column H)",
+              "category": "Development"
+            },
+            {
+              "id": "TSK-109",
+              "name": "Build URL parsing script",
+              "category": "Development"
+            },
+            {
+              "id": "TSK-110",
+              "name": "Extract company name from URLs",
+              "category": "Task"
+            },
+            {
+              "id": "TSK-111",
+              "name": "Connect scraper to CRM automation",
+              "category": "Integration"
+            },
+            {
+              "id": "TSK-112",
+              "name": "Implement duplicate checking against CRM",
+              "category": "Development"
+            },
+            {
+              "id": "TSK-113",
+              "name": "Test scraping with 3-4 videos about Google Maps scraping",
+              "category": "Testing"
+            },
+            {
+              "id": "TSK-114",
+              "name": "Allocate 5 lead generators, 1-2 hours/day for Google Maps",
+              "category": "Task"
+            },
+            {
+              "id": "TSK-115",
+              "name": "Create attractive offer for leads (20 Google vs 5 LinkedIn)",
+              "category": "Development"
+            }
+          ]
+        }
+      ],
+      "tasks": []
+    },
+    {
+      "id": "PRT-012",
+      "name": "Reviews Scraping & Analysis System",
+      "department": "AI",
+      "category": "Infrastructure",
+      "milestones": [
+        {
+          "id": "MLT-034",
+          "name": "Company & Reviews Data Collection",
+          "tasks": []
+        },
+        {
+          "id": "MLT-035",
+          "name": "Semantic Analysis Setup",
+          "tasks": []
+        },
+        {
+          "id": "MLT-036",
+          "name": "Problem Score Algorithm",
+          "tasks": []
+        },
+        {
+          "id": "MLT-037",
+          "name": "Recommendation Engine",
+          "tasks": []
+        },
+        {
+          "id": "MLT-038",
+          "name": "Social Media Integration",
+          "tasks": []
+        },
+        {
+          "id": "MLT-039",
+          "name": "Source Tracking & Documentation",
+          "tasks": [
+            {
+              "id": "TSK-116",
+              "name": "Document scraping system (20% checkpoint)",
+              "category": "Documentation"
+            },
+            {
+              "id": "TSK-117",
+              "name": "Research world methodologies on Google Maps scraping",
+              "category": "Research"
+            },
+            {
+              "id": "TSK-118",
+              "name": "Create guidelines for reviews scraping direction",
+              "category": "Development"
+            },
+            {
+              "id": "TSK-119",
+              "name": "Add source marking for Google Maps data",
+              "category": "Task"
+            },
+            {
+              "id": "TSK-120",
+              "name": "Implement social media scraping",
+              "category": "Development"
+            },
+            {
+              "id": "TSK-121",
+              "name": "Test review system with live data",
+              "category": "Research"
+            },
+            {
+              "id": "TSK-122",
+              "name": "Launch system with LGN team",
+              "category": "Task"
+            },
+            {
+              "id": "TSK-123",
+              "name": "Create Job Sites folder in ENTITIES/ACCOUNTS",
+              "category": "Development"
+            },
+            {
+              "id": "TSK-124",
+              "name": "Review other entities' taxonomy",
+              "category": "Research"
+            },
+            {
+              "id": "TSK-125",
+              "name": "Build Job Sites entity structure",
+              "category": "Development"
+            },
+            {
+              "id": "TSK-126",
+              "name": "Create Master JSON for Job Sites",
+              "category": "Development"
+            },
+            {
+              "id": "TSK-127",
+              "name": "Document Job Sites entity",
+              "category": "Documentation"
+            }
+          ]
+        }
+      ],
+      "tasks": []
+    },
+    {
+      "id": "PRT-013",
+      "name": "Job Sites Entity Creation",
+      "department": "AI",
+      "category": "Automation",
+      "milestones": [],
+      "tasks": []
+    },
+    {
+      "id": "PRT-014",
+      "name": "HR Attendance Dashboard",
+      "department": "AI",
+      "category": "Infrastructure",
+      "milestones": [],
+      "tasks": [
+        {
+          "id": "TSK-128",
+          "name": "Deploy v1.0 to Vercel",
+          "category": "Task"
+        },
+        {
+          "id": "TSK-129",
+          "name": "Share dashboard access with all departments",
+          "category": "Task"
+        },
+        {
+          "id": "TSK-130",
+          "name": "Fix white text display",
+          "category": "Maintenance"
+        },
+        {
+          "id": "TSK-131",
+          "name": "Add tool filtering feature",
+          "category": "Task"
+        },
+        {
+          "id": "TSK-132",
+          "name": "Implement user login tracking",
+          "category": "Development"
+        },
+        {
+          "id": "TSK-133",
+          "name": "Create user assignment system",
+          "category": "Development"
+        },
+        {
+          "id": "TSK-134",
+          "name": "Integrate UI Kit from Eleanor's work",
+          "category": "Design"
+        },
+        {
+          "id": "TSK-135",
+          "name": "Add calendar feature",
+          "category": "Task"
+        },
+        {
+          "id": "TSK-136",
+          "name": "Build API for dashboard data",
+          "category": "Development"
+        },
+        {
+          "id": "TSK-137",
+          "name": "Integrate with LibDev catalog",
+          "category": "Integration"
+        },
+        {
+          "id": "TSK-138",
+          "name": "Document dashboard usage",
+          "category": "Documentation"
+        },
+        {
+          "id": "TSK-139",
+          "name": "Create employee training materials",
+          "category": "Development"
+        }
+      ]
+    },
+    {
+      "id": "PRT-015",
+      "name": "Vilhelm Onboarding & Video Processing Training",
+      "department": "AI",
+      "category": "Infrastructure",
+      "milestones": [],
+      "tasks": [
+        {
+          "id": "TSK-140",
+          "name": "Teach Vilhelm video parsing workflow",
+          "category": "Task"
+        },
+        {
+          "id": "TSK-141",
+          "name": "Set up Vilhelm's VS Code with Claude Extension",
+          "category": "Task"
+        },
+        {
+          "id": "TSK-142",
+          "name": "Configure Vilhelm's key bindings",
+          "category": "Task"
+        },
+        {
+          "id": "TSK-143",
+          "name": "Introduce Vilhelm to ENTITIES structure",
+          "category": "Task"
+        },
+        {
+          "id": "TSK-144",
+          "name": "Assign Vilhelm accounts with limits",
+          "category": "Task"
+        },
+        {
+          "id": "TSK-145",
+          "name": "Vilhelm: Research YouTube channels on Google Maps scraping",
+          "category": "Research"
+        },
+        {
+          "id": "TSK-146",
+          "name": "Vilhelm: Parse 3-4 videos by Monday",
+          "category": "Task"
+        },
+        {
+          "id": "TSK-147",
+          "name": "Vilhelm: Create \"Deep Research\" task",
+          "category": "Development"
+        },
+        {
+          "id": "TSK-148",
+          "name": "Vilhelm: Check Online Academy for Deep Research content",
+          "category": "Research"
+        },
+        {
+          "id": "TSK-149",
+          "name": "Vilhelm: Integrate prompts into ENTITIES ecosystem",
+          "category": "Integration"
+        }
+      ]
+    },
+    {
+      "id": "PRT-016",
+      "name": "AI Tools & Accounts Management System",
+      "department": "AI",
+      "category": "Infrastructure",
+      "milestones": [],
+      "tasks": [
+        {
+          "id": "TSK-150",
+          "name": "Document current AI tools tracking system",
+          "category": "Documentation"
+        },
+        {
+          "id": "TSK-151",
+          "name": "Add user assignment field to accounts",
+          "category": "Task"
+        },
+        {
+          "id": "TSK-152",
+          "name": "Implement login session tracking",
+          "category": "Development"
+        },
+        {
+          "id": "TSK-153",
+          "name": "Create token usage alerts",
+          "category": "Development"
+        },
+        {
+          "id": "TSK-154",
+          "name": "Purchase additional AI tool accounts",
+          "category": "Task"
+        },
+        {
+          "id": "TSK-155",
+          "name": "Sync Dropbox Tools to libdev.com",
+          "category": "Integration"
+        },
+        {
+          "id": "TSK-156",
+          "name": "Build account rotation recommendations",
+          "category": "Development"
+        }
+      ]
+    },
+    {
+      "id": "PRT-017",
+      "name": "Task Manager Dashboard (Single Task View)",
+      "department": "AI",
+      "category": "Infrastructure",
+      "milestones": [],
+      "tasks": [
+        {
+          "id": "TSK-157",
+          "name": "Design single task page layout",
+          "category": "Design"
+        },
+        {
+          "id": "TSK-158",
+          "name": "Create prompt for task page generation",
+          "category": "Development"
+        },
+        {
+          "id": "TSK-159",
+          "name": "Build HTML template for single task",
+          "category": "Development"
+        },
+        {
+          "id": "TSK-160",
+          "name": "Test with Deep Research task",
+          "category": "Research"
+        },
+        {
+          "id": "TSK-161",
+          "name": "Create research queue/line system",
+          "category": "Development"
+        },
+        {
+          "id": "TSK-162",
+          "name": "Integrate with TASK_MANAGERS data",
+          "category": "Integration"
+        }
+      ]
+    },
+    {
+      "id": "PRT-004",
+      "name": "Single Sign-In Distribution System",
+      "department": "AI",
+      "category": "Infrastructure",
+      "milestones": [],
+      "tasks": []
+    },
+    {
+      "id": "PRT-005",
+      "name": "GitHub Entities Repository Integration",
+      "department": "AI",
+      "category": "Integration",
+      "milestones": [],
+      "tasks": [
+        {
+          "id": "TSK-062",
+          "name": "Develop USER Entities",
+          "category": "Development"
+        }
+      ]
+    },
+    {
+      "id": "PRT-006",
+      "name": "ID System for Services",
+      "department": "AI",
+      "category": "Infrastructure",
+      "milestones": [],
+      "tasks": []
+    },
+    {
+      "id": "PRT-007",
+      "name": "Research Integration with Google TODO",
+      "department": "AI",
+      "category": "Automation",
+      "milestones": [],
+      "tasks": []
+    },
+    {
+      "id": "PRT-008",
+      "name": "Researches Dashboard",
+      "department": "AI",
+      "category": "Infrastructure",
+      "milestones": [],
+      "tasks": []
+    },
+    {
+      "id": "PRT-009",
+      "name": "PROSPECTS → Populate Data with AI Research",
+      "department": "AI",
+      "category": "Infrastructure",
+      "milestones": [],
+      "tasks": []
+    },
+    {
+      "id": "PRT-010",
+      "name": "Affiliation Department Creation",
+      "department": "AI",
+      "category": "Infrastructure",
+      "milestones": [],
+      "tasks": [
+        {
+          "id": "TSK-049",
+          "name": "Populate Business Entity from Sales",
+          "category": "Task"
+        }
+      ]
+    },
+    {
+      "id": "PRT-001",
+      "name": "Video Processing Automation",
+      "department": "AI",
+      "category": "Automation",
+      "milestones": [],
+      "tasks": []
+    },
+    {
+      "id": "PRT-002",
+      "name": "Entity System Cleanup",
+      "department": "AI",
+      "category": "Infrastructure",
+      "milestones": [],
+      "tasks": []
+    },
+    {
+      "id": "PRT-003",
+      "name": "Research Integration Pipeline",
+      "department": "AI",
+      "category": "Infrastructure",
+      "milestones": [],
+      "tasks": []
+    }
+  ],
+  "standalone_milestones": [],
+  "standalone_tasks": [
+    {
+      "id": "TSK-395",
+      "name": "REVOKE exposed GitHub token immediately",
+      "category": "Task",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-396",
+      "name": "Generate new GitHub token",
+      "category": "Task",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-397",
+      "name": "Audit all files for exposed credentials",
+      "category": "Task",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-398",
+      "name": "Implement secret scanning in repos",
+      "category": "Development",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-399",
+      "name": "Conduct deep research on Desert Greener",
+      "category": "Research",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-400",
+      "name": "Prepare pre-meeting research template",
+      "category": "Research",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-401",
+      "name": "Schedule WhatsApp call with Wilhelm",
+      "category": "Task",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-402",
+      "name": "Fix email personalization - add LinkedIn context",
+      "category": "Maintenance",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-403",
+      "name": "Create email template with conversation references",
+      "category": "Development",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-404",
+      "name": "Implement deep research before email sending",
+      "category": "Development",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-405",
+      "name": "Add clear next-step instructions for clients",
+      "category": "Task",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-406",
+      "name": "Find substitute person for Vamos project",
+      "category": "Task",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-407",
+      "name": "Talk to Dasha about retention",
+      "category": "Task",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-408",
+      "name": "Identify issues causing quit desire",
+      "category": "Design",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-409",
+      "name": "Create retention strategy",
+      "category": "Development",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-410",
+      "name": "Retain Vamos employee (2 years tenure)",
+      "category": "Task",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-411",
+      "name": "Resolve accounting/payment issues",
+      "category": "Maintenance",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-412",
+      "name": "Document retention process",
+      "category": "Documentation",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-413",
+      "name": "Communicate final decision to MASEK client",
+      "category": "Task",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-414",
+      "name": "Document client termination policy",
+      "category": "Documentation",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-415",
+      "name": "Create script for daily notes action extraction",
+      "category": "Development",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-416",
+      "name": "Build intermediate export folders structure",
+      "category": "Development",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-417",
+      "name": "Implement object extraction after actions",
+      "category": "Development",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-418",
+      "name": "Reduce token consumption via scripting",
+      "category": "Task",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-419",
+      "name": "Integrate multiple AI platforms for processing",
+      "category": "Integration",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-420",
+      "name": "Continue data structuring work",
+      "category": "Task",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-421",
+      "name": "Create deep research template (10-15 pages)",
+      "category": "Development",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-422",
+      "name": "Build social media checklist (15 networks)",
+      "category": "Development",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-423",
+      "name": "Integrate company context into research",
+      "category": "Research",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-424",
+      "name": "Create \"new lesson of the week\" system",
+      "category": "Development",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-425",
+      "name": "Document deep research in client folders",
+      "category": "Research",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-426",
+      "name": "Export Week 2 tasks list",
+      "category": "Task",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-427",
+      "name": "Deprecate old workflow system",
+      "category": "Task",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-428",
+      "name": "Structure financial folder architecture",
+      "category": "Task",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-429",
+      "name": "Create research list for Finance 2025",
+      "category": "Development",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-430",
+      "name": "Build reports in ANALYTICS folder",
+      "category": "Development",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-431",
+      "name": "Generate prompts for financial analysis",
+      "category": "Task",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-432",
+      "name": "Create employee 1:1 session template",
+      "category": "Development",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-433",
+      "name": "Export daily CRM attendance data",
+      "category": "Task",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-434",
+      "name": "Build script to check employee file status",
+      "category": "Development",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-435",
+      "name": "Verify Dropbox + VSCode + Extensions for all",
+      "category": "Testing",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-436",
+      "name": "Conduct manual verification by end of week",
+      "category": "Task",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-437",
+      "name": "Use Overview folder data for analysis",
+      "category": "Task",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-438",
+      "name": "Create innovation rollout process",
+      "category": "Development",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-439",
+      "name": "Decide: Team leads vs direct rollout",
+      "category": "Task",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-440",
+      "name": "Create Cursor/Windsurf instructions",
+      "category": "Development",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-441",
+      "name": "Build employee verification shifts",
+      "category": "Development",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-442",
+      "name": "Assign department checkers",
+      "category": "Task",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-443",
+      "name": "Create 2-week rollout timeline",
+      "category": "Development",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-444",
+      "name": "Export Loom video titles",
+      "category": "Task",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-445",
+      "name": "Export Loom transcriptions",
+      "category": "Task",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-446",
+      "name": "Add remoteemployees.com content to assets",
+      "category": "Task",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-447",
+      "name": "Build attendance statistics export system",
+      "category": "Development",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-448",
+      "name": "Create CRM API integration",
+      "category": "Development",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-449",
+      "name": "Build Discord voice log export",
+      "category": "Development",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-450",
+      "name": "Parse and analyze daily attendance",
+      "category": "Research",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-451",
+      "name": "Create Discord tools documentation",
+      "category": "Development",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-452",
+      "name": "Reverse name conventions in Task Manager",
+      "category": "Task",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-453",
+      "name": "Remove department letters from filenames",
+      "category": "Task",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-454",
+      "name": "Update data integrity hierarchy",
+      "category": "Task",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-455",
+      "name": "Update all prompts with old naming",
+      "category": "Task",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-456",
+      "name": "Build similar/connected words in LIBRARIES",
+      "category": "Development",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-457",
+      "name": "Create AI Catalog markdown file",
+      "category": "Development",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-458",
+      "name": "Add AI Catalog to Assets index",
+      "category": "Task",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-459",
+      "name": "Document AI Catalog content",
+      "category": "Documentation",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-460",
+      "name": "Perform oa-y/Libraries/Task Managers gap analysis",
+      "category": "Task",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-461",
+      "name": "Create cross-reference index (tool→lesson→template)",
+      "category": "Development",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-462",
+      "name": "Build research prompts for developer tutorials",
+      "category": "Development",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-463",
+      "name": "Create File System research prompt v2",
+      "category": "Development",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-464",
+      "name": "Add training/learning responsibilities to Libraries",
+      "category": "Task",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-465",
+      "name": "Create weekly AI tutorial research template",
+      "category": "Development",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-466",
+      "name": "Convert SMM research into Task Templates",
+      "category": "Research",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-467",
+      "name": "Create unified research prompt schema",
+      "category": "Development",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-468",
+      "name": "Integrate Research ID system (RES-###)",
+      "category": "Research",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-469",
+      "name": "Add ISO 3-letter codes to research",
+      "category": "Research",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-470",
+      "name": "Test entity upload to Postgres",
+      "category": "Testing",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-471",
+      "name": "Build matching schemas for consistency",
+      "category": "Development",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-472",
+      "name": "Define deliverables as milestone templates",
+      "category": "Task",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-473",
+      "name": "Maintain central listings while splitting by dept",
+      "category": "Task",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-474",
+      "name": "Create ID and name control scripts",
+      "category": "Development",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-475",
+      "name": "Build central IDs with names center",
+      "category": "Development",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-331",
+      "name": "Create AI routes inside entity folders",
+      "category": "Development",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-332",
+      "name": "Build index files for machine/AI access",
+      "category": "Development",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-333",
+      "name": "Save schemas inside folders with field definitions",
+      "category": "Task",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-334",
+      "name": "Sync Task Template to backend",
+      "category": "Integration",
+      "department": "Development"
+    },
+    {
+      "id": "TSK-335",
+      "name": "Create backend for DropBox SubEntity",
+      "category": "Development",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-336",
+      "name": "Build alert system for fired/left employees",
+      "category": "Development",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-337",
+      "name": "Connect Accounts to Talents profiles",
+      "category": "Integration",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-338",
+      "name": "Implement automatic access closure alerts",
+      "category": "Development",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-339",
+      "name": "Track secondary accounts (not just main emails)",
+      "category": "Task",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-340",
+      "name": "Design country-based job account permissions",
+      "category": "Design",
+      "department": "Development"
+    },
+    {
+      "id": "TSK-341",
+      "name": "Implement team lead access limits",
+      "category": "Development",
+      "department": "Development"
+    },
+    {
+      "id": "TSK-342",
+      "name": "Build role-based account access system",
+      "category": "Development",
+      "department": "Development"
+    },
+    {
+      "id": "TSK-343",
+      "name": "Create account manager interface",
+      "category": "Development",
+      "department": "Development"
+    },
+    {
+      "id": "TSK-344",
+      "name": "Add Balkans as region in system",
+      "category": "Task",
+      "department": "Design"
+    },
+    {
+      "id": "TSK-345",
+      "name": "Design permission system architecture",
+      "category": "Design",
+      "department": "Development"
+    },
+    {
+      "id": "TSK-346",
+      "name": "Implement employee-based permissions",
+      "category": "Development",
+      "department": "Development"
+    },
+    {
+      "id": "TSK-347",
+      "name": "Implement profession/role-based permissions",
+      "category": "Development",
+      "department": "Development"
+    },
+    {
+      "id": "TSK-348",
+      "name": "Create Auth User Service documentation",
+      "category": "Development",
+      "department": "Development"
+    },
+    {
+      "id": "TSK-349",
+      "name": "Review GPT usage and costs",
+      "category": "Research",
+      "department": "Development"
+    },
+    {
+      "id": "TSK-350",
+      "name": "Identify cost-cutting opportunities",
+      "category": "Task",
+      "department": "Finance"
+    },
+    {
+      "id": "TSK-351",
+      "name": "Create taxonomy initial ID inventory",
+      "category": "Development",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-352",
+      "name": "Generate JSON with all entities and sub-entities",
+      "category": "Task",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-353",
+      "name": "Add 3-letter ISO codes to entities",
+      "category": "Task",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-354",
+      "name": "Cross-validate with existing listings",
+      "category": "Testing",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-355",
+      "name": "Document deprecated/archived entities",
+      "category": "Documentation",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-356",
+      "name": "Update milestone prefix from MLS-### to MLST-###",
+      "category": "Maintenance",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-357",
+      "name": "Filter daily notes by taxonomy",
+      "category": "Task",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-358",
+      "name": "Build parsing extraction taxonomy",
+      "category": "Development",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-359",
+      "name": "Identify repetitions in daily notes",
+      "category": "Task",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-360",
+      "name": "Create PLANS entity folder",
+      "category": "Development",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-361",
+      "name": "Create YouTube channels list",
+      "category": "Development",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-362",
+      "name": "Parse latest videos from channels",
+      "category": "Testing",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-363",
+      "name": "Analyze video relevancy",
+      "category": "Research",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-364",
+      "name": "Build YouTube research milestone template",
+      "category": "Development",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-365",
+      "name": "Log all n8n automations",
+      "category": "Task",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-366",
+      "name": "Create n8n workflow documentation",
+      "category": "Development",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-367",
+      "name": "Build Google Sheets integration workflow",
+      "category": "Development",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-368",
+      "name": "Create bot as separate milestone template",
+      "category": "Development",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-369",
+      "name": "Build AI agent for n8n analysis",
+      "category": "Development",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-370",
+      "name": "Generate n8n workflow from Claude",
+      "category": "Task",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-371",
+      "name": "Create 10+ example n8n projects",
+      "category": "Development",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-372",
+      "name": "Implement daily analysis prompt reminder",
+      "category": "Development",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-373",
+      "name": "Build continuous employee profile improvement system",
+      "category": "Development",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-374",
+      "name": "Integrate attendance with employee profiles",
+      "category": "Integration",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-375",
+      "name": "Analyze employee daily records",
+      "category": "Research",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-376",
+      "name": "Create data injection scripts for daily notes",
+      "category": "Development",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-377",
+      "name": "Build action/object extraction from daily notes",
+      "category": "Development",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-378",
+      "name": "Update employee profiles automatically",
+      "category": "Task",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-379",
+      "name": "Update Prompt 6 for daily analysis",
+      "category": "Task",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-380",
+      "name": "Create task template schema",
+      "category": "Development",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-381",
+      "name": "Link actions/objects to responsibilities",
+      "category": "Task",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-382",
+      "name": "Match research prompt naming conventions",
+      "category": "Research",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-383",
+      "name": "Parse recent videos for LinkedIn content",
+      "category": "Task",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-384",
+      "name": "Create carousel posts from video content",
+      "category": "Development",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-385",
+      "name": "Build automated posting workflow",
+      "category": "Development",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-386",
+      "name": "Design step-by-step content templates",
+      "category": "Design",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-387",
+      "name": "Design microservice methodology",
+      "category": "Design",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-388",
+      "name": "Test backend generation on small entity",
+      "category": "Testing",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-389",
+      "name": "Build GitHub-Dropbox sync for backend",
+      "category": "Development",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-390",
+      "name": "Create dynamic Postgres generation",
+      "category": "Development",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-391",
+      "name": "Organize API tokens management",
+      "category": "Task",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-392",
+      "name": "Fix taxonomy location (move if needed)",
+      "category": "Maintenance",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-393",
+      "name": "Integrate checklist items into task system",
+      "category": "Integration",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-394",
+      "name": "Fix cursor flickering issue",
+      "category": "Maintenance",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-320",
+      "name": "Implement Entity Identification System v1.0",
+      "category": "Development",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-321",
+      "name": "Set up multi-instance AI tool workflow",
+      "category": "Task",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-322",
+      "name": "Deploy Google AntiGravity for team",
+      "category": "Task",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-323",
+      "name": "Automate daily employee task assignment",
+      "category": "Task",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-324",
+      "name": "Build employee choice/selection system",
+      "category": "Development",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-325",
+      "name": "Collect Discord voice logs for analytics",
+      "category": "Task",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-326",
+      "name": "Process department prompt logs daily",
+      "category": "Task",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-327",
+      "name": "Convert Workflows to Projects in TASK_MANAGERS",
+      "category": "Task",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-328",
+      "name": "Assign IDs to all ENTITIES folders",
+      "category": "Task",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-329",
+      "name": "Create MCP agent system (employees, libs, academy)",
+      "category": "Development",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-330",
+      "name": "Build screenshot verification automation",
+      "category": "Development",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-233",
+      "name": "Create department-specific daily analysis prompts",
+      "category": "Development",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-234",
+      "name": "Build starting point reference guides",
+      "category": "Development",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-235",
+      "name": "Iterate prompts for better report quality",
+      "category": "Task",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-236",
+      "name": "Process tutorials from Department DropBox",
+      "category": "Task",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-237",
+      "name": "Find and download Google Drive guides in Markdown",
+      "category": "Design",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-238",
+      "name": "Export and process from Online Academy",
+      "category": "Task",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-239",
+      "name": "Create REPORTS folder in ENTITIES",
+      "category": "Development",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-240",
+      "name": "Add taxonomy for REPORTS entity",
+      "category": "Task",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-241",
+      "name": "Integrate IDS system (RPT-###)",
+      "category": "Integration",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-242",
+      "name": "Import example reports",
+      "category": "Task",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-243",
+      "name": "Create report classification system",
+      "category": "Development",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-244",
+      "name": "Update master taxonomy",
+      "category": "Task",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-245",
+      "name": "Create Tasks folder in Dailies",
+      "category": "Development",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-246",
+      "name": "Create Plans folder in Dailies",
+      "category": "Development",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-247",
+      "name": "Add employee identification system",
+      "category": "Task",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-248",
+      "name": "Cross-reference Task Manager with Online Academy",
+      "category": "Task",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-249",
+      "name": "Store Online Academy links in guides",
+      "category": "Design",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-250",
+      "name": "Add IDs to Online Academy content",
+      "category": "Task",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-251",
+      "name": "Apply taxonomy to Academy structure",
+      "category": "Task",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-252",
+      "name": "Create detailed onboarding tasks with steps",
+      "category": "Development",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-253",
+      "name": "Build progress tracking via task IDs in reports",
+      "category": "Development",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-254",
+      "name": "Create data flow clarification project",
+      "category": "Development",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-255",
+      "name": "Run methodologies skill-up project research",
+      "category": "Research",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-256",
+      "name": "Create VS Code instruction tutorials",
+      "category": "Development",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-257",
+      "name": "Implement logging to LOG folder during data population",
+      "category": "Development",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-258",
+      "name": "Implement TSM-### ID system",
+      "category": "Development",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-259",
+      "name": "Create TSM-001_Project_Template",
+      "category": "Development",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-260",
+      "name": "Document data import flows",
+      "category": "Documentation",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-261",
+      "name": "Define structured vs unstructured data handling",
+      "category": "Task",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-262",
+      "name": "Create input type taxonomy (Research, Video, etc.)",
+      "category": "Development",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-263",
+      "name": "Create employee TODO file system",
+      "category": "Development",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-264",
+      "name": "Write learning materials generation guide",
+      "category": "Documentation",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-265",
+      "name": "Enforce \"prompt-first\" rule",
+      "category": "Task",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-266",
+      "name": "Create taxonomy introduction materials",
+      "category": "Development",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-267",
+      "name": "Update daily review prompts",
+      "category": "Research",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-268",
+      "name": "Locate all department prompts in Nov25 folders",
+      "category": "Task",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-269",
+      "name": "Consolidate prompts to ENTITIES/PROMPTS",
+      "category": "Task",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-270",
+      "name": "Create data import scripts",
+      "category": "Development",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-271",
+      "name": "Research AirTable integration options",
+      "category": "Research",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-272",
+      "name": "Design Task Manager choice/selection system",
+      "category": "Design",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-273",
+      "name": "Import accounts to ENTITIES",
+      "category": "Task",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-274",
+      "name": "Create accounts microservice",
+      "category": "Development",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-275",
+      "name": "Bind gmails to tools",
+      "category": "Task",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-276",
+      "name": "Integrate accounts into AI Catalog",
+      "category": "Integration",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-277",
+      "name": "Build user login system with gmail",
+      "category": "Development",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-278",
+      "name": "Set up database for accounts",
+      "category": "Task",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-279",
+      "name": "Create reusable microservice template",
+      "category": "Development",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-280",
+      "name": "Document departments folder architecture",
+      "category": "Documentation",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-281",
+      "name": "Restore data processes pipelines",
+      "category": "Task",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-282",
+      "name": "Create clear file location guidance",
+      "category": "Development",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-283",
+      "name": "Build progress count updating script",
+      "category": "Development",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-284",
+      "name": "Create tasks import guide",
+      "category": "Development",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-285",
+      "name": "Add dates to Activity 3",
+      "category": "Task",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-286",
+      "name": "Verify LG data in DropBox",
+      "category": "Testing",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-287",
+      "name": "Process items in IMPORTS folder",
+      "category": "Task",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-288",
+      "name": "Create list of reserved names in ENTITIES",
+      "category": "Development",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-289",
+      "name": "Create list of videos to transcribe",
+      "category": "Development",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-290",
+      "name": "Put video transcriptions into people tasks",
+      "category": "Task",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-291",
+      "name": "Run prompts for video search",
+      "category": "Task",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-292",
+      "name": "Purchase Gemini Ultra on Admin account",
+      "category": "Task",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-293",
+      "name": "Create transcription execution list with IDs",
+      "category": "Development",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-294",
+      "name": "Build execution tracking system",
+      "category": "Development",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-295",
+      "name": "Create execution update guides",
+      "category": "Development",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-296",
+      "name": "Define next milestone triggers (Data Population)",
+      "category": "Task",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-297",
+      "name": "Create Content Entity",
+      "category": "Development",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-298",
+      "name": "Create Content Department",
+      "category": "Development",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-299",
+      "name": "Integrate shifts management",
+      "category": "Integration",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-300",
+      "name": "Create shortcuts lesson/post",
+      "category": "Development",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-301",
+      "name": "Prepare list of researches for Entity: Researches",
+      "category": "Research",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-302",
+      "name": "Research YouTube videos for transcription",
+      "category": "Research",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-303",
+      "name": "Build automation posting",
+      "category": "Development",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-304",
+      "name": "Train AI to build research tasks for people",
+      "category": "Development",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-305",
+      "name": "List automations to learn or integrate",
+      "category": "Integration",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-306",
+      "name": "Task: Search for videos (template)",
+      "category": "Task",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-307",
+      "name": "Hosting in Vercel (Dev account)",
+      "category": "Task",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-308",
+      "name": "Automate library update",
+      "category": "Task",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-309",
+      "name": "Canva download/integration",
+      "category": "Task",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-310",
+      "name": "Create six must-have files list",
+      "category": "Development",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-311",
+      "name": "Design core documents",
+      "category": "Documentation",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-312",
+      "name": "Create Pre-Sale candidate tracking system",
+      "category": "Development",
+      "department": "HR"
+    },
+    {
+      "id": "TSK-313",
+      "name": "Add Ukandu Christopher to Pre-Sale list",
+      "category": "Task",
+      "department": "HR"
+    },
+    {
+      "id": "TSK-314",
+      "name": "Sign contract with Borovik for client interview",
+      "category": "Task",
+      "department": "HR"
+    },
+    {
+      "id": "TSK-315",
+      "name": "Prepare Borovik for tomorrow's client interview",
+      "category": "Task",
+      "department": "HR"
+    },
+    {
+      "id": "TSK-316",
+      "name": "Create candidate warming system for hot list",
+      "category": "Development",
+      "department": "HR"
+    },
+    {
+      "id": "TSK-317",
+      "name": "Document interview requirements checklist",
+      "category": "Documentation",
+      "department": "HR"
+    },
+    {
+      "id": "TSK-318",
+      "name": "Create interview scoring rubric",
+      "category": "Development",
+      "department": "HR"
+    },
+    {
+      "id": "TSK-319",
+      "name": "Follow up with Valeriia on trial terms",
+      "category": "Task",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-163",
+      "name": "Create CONTENT entity folder",
+      "category": "Development",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-164",
+      "name": "Define CONTENT entity taxonomy",
+      "category": "Task",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-165",
+      "name": "Create Master CSV for CONTENT",
+      "category": "Development",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-166",
+      "name": "Populate with existing tutorials",
+      "category": "Task",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-167",
+      "name": "Research Figma AI tutorial videos",
+      "category": "Research",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-168",
+      "name": "Build video catalog app",
+      "category": "Development",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-169",
+      "name": "Implement clickable timestamps",
+      "category": "Development",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-170",
+      "name": "Create minimum parse list",
+      "category": "Development",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-171",
+      "name": "Review current video processing taxonomy",
+      "category": "Research",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-172",
+      "name": "Identify taxonomy improvements",
+      "category": "Task",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-173",
+      "name": "Implement taxonomy upgrades",
+      "category": "Development",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-174",
+      "name": "Document video editor processed works",
+      "category": "Documentation",
+      "department": "Video"
+    },
+    {
+      "id": "TSK-175",
+      "name": "Define Google Drive storage locations",
+      "category": "Task",
+      "department": "Video"
+    },
+    {
+      "id": "TSK-176",
+      "name": "Research Gravity AI tool capabilities",
+      "category": "Research",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-177",
+      "name": "Integrate Responsibilities into LBS taxonomy",
+      "category": "Integration",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-178",
+      "name": "Document Gravity integration",
+      "category": "Documentation",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-179",
+      "name": "Prepare shifts management system",
+      "category": "Task",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-180",
+      "name": "Document schedule management techniques",
+      "category": "Documentation",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-181",
+      "name": "Connect research to posting schedule",
+      "category": "Research",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-182",
+      "name": "Create BUSINESSES entity folder",
+      "category": "Development",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-183",
+      "name": "Define BUSINESSES entity taxonomy",
+      "category": "Task",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-184",
+      "name": "Document client interview process",
+      "category": "Documentation",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-185",
+      "name": "Track Friday client scheduling",
+      "category": "Task",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-186",
+      "name": "Store interview recordings/notes",
+      "category": "Task",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-187",
+      "name": "Define profession categories",
+      "category": "Task",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-188",
+      "name": "Populate tutorials per profession",
+      "category": "Task",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-189",
+      "name": "Create guidelines per profession",
+      "category": "Development",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-190",
+      "name": "Build AI assistant framework",
+      "category": "Development",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-191",
+      "name": "Design InnerClient concept",
+      "category": "Design",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-192",
+      "name": "Define pricing per profession",
+      "category": "Task",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-193",
+      "name": "Create UI for InnerClient system",
+      "category": "Development",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-194",
+      "name": "Set up human curation process",
+      "category": "Task",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-195",
+      "name": "Sync Dropbox Tools library to libdev.com",
+      "category": "Integration",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-196",
+      "name": "Research Dropbox API synchronization",
+      "category": "Research",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-197",
+      "name": "Build manual sync script (fallback)",
+      "category": "Development",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-198",
+      "name": "Create knowledge gap identification process",
+      "category": "Development",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-199",
+      "name": "Implement Read/Write/Save reminder system",
+      "category": "Development",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-200",
+      "name": "Monday call at 9 AM",
+      "category": "Task",
+      "department": "Design"
+    },
+    {
+      "id": "TSK-201",
+      "name": "Vilhelm + Yulya: Collect designer works",
+      "category": "Design",
+      "department": "Design"
+    },
+    {
+      "id": "TSK-202",
+      "name": "Implement designer work storage in Dropbox",
+      "category": "Development",
+      "department": "Design"
+    },
+    {
+      "id": "TSK-203",
+      "name": "Document Monday progress",
+      "category": "Documentation",
+      "department": "Design"
+    },
+    {
+      "id": "TSK-204",
+      "name": "Create plans for next stage",
+      "category": "Development",
+      "department": "Design"
+    },
+    {
+      "id": "TSK-205",
+      "name": "Review all designer portfolios",
+      "category": "Research",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-206",
+      "name": "Mandate Dropbox work storage for designers",
+      "category": "Design",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-207",
+      "name": "Create daily work documentation requirement",
+      "category": "Development",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-208",
+      "name": "Diversify designer portfolios",
+      "category": "Design",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-209",
+      "name": "Build case studies library",
+      "category": "Development",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-210",
+      "name": "Train designers on AI tools",
+      "category": "Design",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-211",
+      "name": "Design financial framework structure",
+      "category": "Design",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-212",
+      "name": "Create data sets for financial wiki",
+      "category": "Development",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-213",
+      "name": "Document calculation sources",
+      "category": "Documentation",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-214",
+      "name": "Collect employee profiles for Talents",
+      "category": "Task",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-215",
+      "name": "Create modified public profiles",
+      "category": "Development",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-216",
+      "name": "Implement log files in every entity folder",
+      "category": "Development",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-217",
+      "name": "Create main researchers' log",
+      "category": "Development",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-218",
+      "name": "Build structured guidelines for manual assignment",
+      "category": "Development",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-219",
+      "name": "Create step-by-step documentation templates",
+      "category": "Development",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-220",
+      "name": "Identify department data gaps",
+      "category": "Task",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-221",
+      "name": "Create TODO file system",
+      "category": "Development",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-222",
+      "name": "Build AI prompt for task distribution",
+      "category": "Development",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-223",
+      "name": "Implement daily TODO generation",
+      "category": "Development",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-224",
+      "name": "Document transcription best practices",
+      "category": "Documentation",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-225",
+      "name": "Improve dictation-to-entity workflow",
+      "category": "Task",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-226",
+      "name": "Fix unpredictable save locations",
+      "category": "Maintenance",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-227",
+      "name": "Standardize report storage paths",
+      "category": "Task",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-228",
+      "name": "Document report generation process",
+      "category": "Documentation",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-229",
+      "name": "Create attendance_dashboard asset",
+      "category": "Development",
+      "department": "Development"
+    },
+    {
+      "id": "TSK-230",
+      "name": "Write README with all links",
+      "category": "Documentation",
+      "department": "Development"
+    },
+    {
+      "id": "TSK-231",
+      "name": "Set up version tracking",
+      "category": "Task",
+      "department": "Development"
+    },
+    {
+      "id": "TSK-232",
+      "name": "Document design updates log",
+      "category": "Documentation",
+      "department": "Development"
+    },
+    {
+      "id": "TSK-046",
+      "name": "Sales Email Templates",
+      "category": "Task",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-047",
+      "name": "Connect to Google Calendar",
+      "category": "Integration",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-048",
+      "name": "Scrape Event Metadata",
+      "category": "Task",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-050",
+      "name": "Get CRM Data on Daily LeadGen Cards",
+      "category": "Task",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-051",
+      "name": "Learning Flow Step-by-Step Development",
+      "category": "Development",
+      "department": "Development"
+    },
+    {
+      "id": "TSK-052",
+      "name": "Track Task Completions via Microservices",
+      "category": "Task",
+      "department": "Development"
+    },
+    {
+      "id": "TSK-053",
+      "name": "Synchronize Libs with Online Academy",
+      "category": "Integration",
+      "department": "Development"
+    },
+    {
+      "id": "TSK-054",
+      "name": "Connect Task Managers to Libs",
+      "category": "Integration",
+      "department": "Development"
+    },
+    {
+      "id": "TSK-055",
+      "name": "Task Manager Dashboard with Database",
+      "category": "Task",
+      "department": "Development"
+    },
+    {
+      "id": "TSK-056",
+      "name": "n8n Image Generation Guide",
+      "category": "Design",
+      "department": "Development"
+    },
+    {
+      "id": "TSK-057",
+      "name": "Frontend OAuth Implementation",
+      "category": "Development",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-058",
+      "name": "Personal Task Manager Web Pages",
+      "category": "Task",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-059",
+      "name": "Add Rules for AI in Each Folder",
+      "category": "Task",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-060",
+      "name": "Log Entity Integration",
+      "category": "Task",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-061",
+      "name": "Keep Logs Longer",
+      "category": "Task",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-063",
+      "name": "Review TALENTS match with Database",
+      "category": "Research",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-064",
+      "name": "Prepare DB EXPORT Folder: LIBRARIES",
+      "category": "Task",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-065",
+      "name": "Text Researches Recognition & Import",
+      "category": "Research",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-066",
+      "name": "Core System Taxonomy Architecture Review",
+      "category": "Research",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-067",
+      "name": "Prompt for Transcription Export",
+      "category": "Task",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-068",
+      "name": "Prompts for Weekly Analysis",
+      "category": "Task",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-069",
+      "name": "Prompts for Daily Analysis",
+      "category": "Task",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-070",
+      "name": "Researches Dashboard",
+      "category": "Research",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-071",
+      "name": "Export Dailies Summaries to ToDo App",
+      "category": "Task",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-072",
+      "name": "Tasks Templates Execution System",
+      "category": "Task",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-073",
+      "name": "Steps Confirmation System",
+      "category": "Task",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-074",
+      "name": "Portfolio Diversification Strategy",
+      "category": "Task",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-075",
+      "name": "Create More Case Studies",
+      "category": "Development",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-076",
+      "name": "Deep Research Designer Task",
+      "category": "Research",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-077",
+      "name": "Media Library Development",
+      "category": "Development",
+      "department": "AI"
+    },
+    {
+      "id": "ARC-001",
+      "name": "Add Employees Folders Relative Path",
+      "category": "Task",
+      "department": "AI"
+    },
+    {
+      "id": "ARC-002",
+      "name": "Expand Employees Profiles",
+      "category": "Task",
+      "department": "AI"
+    },
+    {
+      "id": "ARC-003",
+      "name": "Copy All Employees Profiles into Talents",
+      "category": "Task",
+      "department": "AI"
+    },
+    {
+      "id": "ARC-004",
+      "name": "Consider Entities v2 Architecture",
+      "category": "Task",
+      "department": "AI"
+    },
+    {
+      "id": "ARC-005",
+      "name": "Integrate Log System",
+      "category": "Integration",
+      "department": "AI"
+    },
+    {
+      "id": "ARC-006",
+      "name": "Block/Fields Sub System (Similarities)",
+      "category": "Task",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-066",
+      "name": "Core System Taxonomy Architecture Review",
+      "category": "Research",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-067",
+      "name": "Prompt for Transcription Export",
+      "category": "Task",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-068",
+      "name": "Prompts for Weekly Analysis",
+      "category": "Task",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-069",
+      "name": "Prompts for Daily Analysis",
+      "category": "Task",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-070",
+      "name": "Researches Dashboard",
+      "category": "Research",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-071",
+      "name": "Export Dailies Summaries to ToDo App",
+      "category": "Task",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-001",
+      "name": "Research to Task Manager integration",
+      "category": "Research",
+      "department": "AI"
+    },
+    {
+      "id": "TSK-002",
+      "name": "Pack all dailies into Week3 folder",
+      "category": "Task",
+      "department": "AI"
+    },
+    {
+      "id": "FIX-001",
+      "name": "Resolve duplicates in TSM-006_Workflows",
+      "category": "Maintenance",
+      "department": "AI"
+    }
+  ]
+}

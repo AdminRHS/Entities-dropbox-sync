@@ -1,0 +1,50 @@
+{
+  "entity_type": "TASK_MANAGERS",
+  "sub_entity": "Workflow",
+  "workflow_id": "WRF-032",
+  "metadata": {
+    "workflow_name": "Finance - Research Tasks",
+    "description": "Execution phase workflow for FIN department - Research category",
+    "primary_department": "FIN",
+    "departments_involved": [
+      "FIN"
+    ],
+    "workflow_type": "Parallel",
+    "execution_phase": "Execution",
+    "category": "Research",
+    "priority": "Medium",
+    "estimated_duration": "11.0h",
+    "complexity": "Medium",
+    "status": "Active",
+    "created_date": "2025-11-26",
+    "version": "1.0"
+  },
+  "tasks": {
+    "total_count": 4,
+    "task_ids": [
+      "TST-349",
+      "TST-171",
+      "TST-066",
+      "TST-066"
+    ],
+    "execution_type": "Parallel"
+  },
+  "performance_metrics": {
+    "total_estimated_hours": 11.0,
+    "task_count": 4
+  },
+  "tags": [
+    "execution",
+    "parallel",
+    "fin",
+    "research"
+  ],
+  "version": "1.0",
+  "created": "2025-11-26",
+  "last_updated": "2025-11-26",
+  "migration_notes": {
+    "original_id": "WFC-032",
+    "converted_from": "WFC format",
+    "conversion_date": "2025-11-26"
+  }
+}

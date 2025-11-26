@@ -228,8 +228,8 @@
 - RESP-HRM-XXX: update notion ats
 
 **Finance Department (2 new):**
-- RESP-FNC-XXX: track employee hours
-- RESP-FNC-XXX: design automation workflow
+- RESP-FIN-XXX: track employee hours
+- RESP-FIN-XXX: design automation workflow
 
 **Video Department (1 new):**
 - RESP-VID-XXX: edit course videos
@@ -336,7 +336,7 @@ ENTITIES/IMPORTS/2025-11-20/
 - Development (DEV): 1 task (shared), 3 responsibilities
 - Lead Generation (LGN): 1 task (shared), 3 responsibilities
 - HR (HRM): 0 tasks, 2 responsibilities
-- Finance (FNC): 0 tasks, 2 responsibilities
+- Finance (FIN): 0 tasks, 2 responsibilities
 - Video (VID): 0 tasks, 1 responsibility
 
 **Reusability Score Average:** 91%

@@ -1,0 +1,51 @@
+{
+  "entity_type": "TASK_MANAGERS",
+  "sub_entity": "Workflow",
+  "workflow_id": "WRF-047",
+  "metadata": {
+    "workflow_name": "Video - Development Tasks",
+    "description": "Execution phase workflow for VID department - Development category",
+    "primary_department": "VID",
+    "departments_involved": [
+      "VID"
+    ],
+    "workflow_type": "Parallel",
+    "execution_phase": "Execution",
+    "category": "Development",
+    "priority": "Medium",
+    "estimated_duration": "30.0h",
+    "complexity": "Medium",
+    "status": "Active",
+    "created_date": "2025-11-26",
+    "version": "1.0"
+  },
+  "tasks": {
+    "total_count": 5,
+    "task_ids": [
+      "TST-361",
+      "TST-364",
+      "TST-289",
+      "TST-293",
+      "TST-168"
+    ],
+    "execution_type": "Parallel"
+  },
+  "performance_metrics": {
+    "total_estimated_hours": 30.0,
+    "task_count": 5
+  },
+  "tags": [
+    "execution",
+    "parallel",
+    "vid",
+    "development"
+  ],
+  "version": "1.0",
+  "created": "2025-11-26",
+  "last_updated": "2025-11-26",
+  "migration_notes": {
+    "original_id": "WFC-047",
+    "converted_from": "WFC format",
+    "conversion_date": "2025-11-26"
+  }
+}

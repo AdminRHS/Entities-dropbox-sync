@@ -1,0 +1,50 @@
+Week 3 Analysis - Summary Statistics
+Generated: 2025-11-25 21:21:35
+
+TASK EXTRACTION
+===============
+Executive Strategic Tasks: 461
+  - Projects (PRT): 17
+  - Milestones (MLT): 11
+  - Tasks (TSK/ARC/FIX): 433
+  - Connections: 224
+
+Operational Tasks (Nov 20): 40
+  - Design: 10
+  - Development: 7
+  - AI: 5
+  - HR: 5
+  - Lead Gen: 5
+  - Finance: 3
+  - Video: 3
+  - Sales: 2
+
+Total Tasks: 501 (mapped for delegation)
+
+DELEGATION MAPPING
+==================
+Total Tasks Analyzed: 501
+Department Reclassifications: 233 (46.5%)
+Template Match Rate: 91% (High/Medium confidence)
+Templates Loaded: 83
+
+DEPARTMENT WORKLOAD
+===================
+AI:            228 tasks,  19.1 hours  [Balanced]
+Sales:          38 tasks, 112.7 hours  [High Load] ⚠️
+Design:         62 tasks,  32.3 hours  [Balanced]
+HR:             55 tasks,  88.0 hours  [High Load] ⚠️
+Development:    38 tasks,  50.5 hours  [Balanced]
+Finance:        22 tasks,  62.0 hours  [Balanced]
+Video:          26 tasks,  60.2 hours  [Balanced]
+Lead Gen:       21 tasks,  53.0 hours  [Balanced]
+SMM:            11 tasks,  54.0 hours  [Balanced]
+
+KEY IMPROVEMENTS
+================
+[OK] Department reclassification (client → Sales, employee → HR)
+[OK] ID-proximity matching (TSK-066 <-> TST-066)
+[OK] LIBRARIES/Responsibilities integration
+[OK] RACI-based team assignments
+[OK] Workload analysis with capacity warnings
+[OK] Priority queue for systematic task distribution

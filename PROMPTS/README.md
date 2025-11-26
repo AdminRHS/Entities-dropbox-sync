@@ -177,7 +177,7 @@ PMT-{###}_{Descriptive_Name}.md
 | **SMM** | Social Media | 2 |
 | **LGN** | Lead Generation | 1 |
 | **DGN** | Design | 1 |
-| **FNC** | Finance | 1 |
+| **FIN** | Finance | 1 |
 | **MKT** | Marketing | 2 |
 | **OPS** | Operations | 3 |
 

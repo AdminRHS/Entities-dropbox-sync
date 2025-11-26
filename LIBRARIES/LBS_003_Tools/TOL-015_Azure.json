@@ -1,0 +1,112 @@
+{
+  "entity_type": "LIBRARIES",
+  "sub_entity": "Tool",
+  "tool_id": "TOL-015",
+  "name": "Azure",
+  "vendor": "Microsoft",
+  "category": "Cloud/Platform as a Service",
+  "purpose": "Enterprise cloud platform for data analytics, AI/ML, and application hosting",
+  "description": "Microsoft's comprehensive cloud computing platform offering services for data analytics, AI/ML, application development, and enterprise infrastructure. Features Azure Data Factory, Azure Synapse Analytics, Azure Machine Learning, and extensive AI/cognitive services. Widely used for enterprise-grade data platforms and cloud-native application development.",
+  "skill_level_required": "Intermediate to Advanced",
+  "cost_structure": "Pay-as-you-go + Reserved instances + Free tier",
+  "platform_compatibility": [
+    "Windows",
+    "Linux",
+    "Docker containers",
+    "Kubernetes",
+    ".NET",
+    "Python",
+    "Node.js",
+    "Java",
+    "Go"
+  ],
+  "integration_capabilities": [
+    "Azure Data Factory",
+    "Azure Synapse Analytics",
+    "Azure Machine Learning",
+    "Azure Cognitive Services",
+    "Azure DevOps",
+    "Power BI",
+    "Microsoft 365 integration",
+    "Active Directory integration",
+    "Terraform",
+    "ARM templates"
+  ],
+  "documentation_url": "https://azure.microsoft.com/",
+  "actual_remote_helpers_usage": {
+    "primary_use": "Enterprise Data Analytics & Cloud Infrastructure",
+    "users": [
+      "Data Analytics Team",
+      "HR (candidate skill assessment)"
+    ],
+    "use_cases": [
+      "data analytics platform development",
+      "cloud-native application hosting",
+      "AI/ML model deployment",
+      "enterprise data warehousing",
+      "technical interview skill assessment"
+    ],
+    "workflows": [
+      "WF-HR-003: Technical Interview Question Generation (Azure-focused questions)"
+    ],
+    "context": "Used as a key technical skill requirement in Data & Analytics Consulting Manager role; NotebookLM generates Azure-specific interview questions to assess candidate expertise"
+  },
+  "strengths": [
+    "Comprehensive enterprise services",
+    "Excellent data analytics tools",
+    "Strong Microsoft ecosystem integration",
+    "Enterprise-grade security and compliance",
+    "Hybrid cloud capabilities",
+    "Extensive AI/ML services"
+  ],
+  "limitations": [
+    "Complex pricing structure",
+    "Steeper learning curve than simpler PaaS",
+    "Can be expensive for small projects",
+    "Less developer-friendly than some alternatives"
+  ],
+  "alternatives": [
+    {
+      "name": "AWS",
+      "comparison": "Broader service catalog, more market share"
+    },
+    {
+      "name": "Google Cloud Platform",
+      "comparison": "Better for data analytics and AI/ML"
+    },
+    {
+      "name": "DigitalOcean",
+      "comparison": "Simpler, cheaper for small projects"
+    }
+  ],
+  "departments_using": [
+    "Data Analytics",
+    "HR"
+  ],
+  "tags": [
+    "cloud",
+    "enterprise",
+    "data-analytics",
+    "azure",
+    "microsoft",
+    "paas",
+    "iaas",
+    "ml"
+  ],
+  "discovery_date": "2025-11-14",
+  "discovery_source": "Video_010",
+  "status": "active",
+  "video_source": {
+    "video_id": "Video_010",
+    "video_title": "Using Google's NotebookLM to Screen CVs and Prepare for Interviews",
+    "creator": "Unknown",
+    "timestamp": "06:12-06:45",
+    "context": "Azure mentioned as a key technical skill for Data & Analytics Consulting Manager role; used as focus area for technical interview questions"
+  },
+  "_migration": {
+    "date": "2025-11-26T02:01:31.132378",
+    "old_tool_id": "TOL-015",
+    "old_path": "TOL-015_Azure.json",
+    "migrated_by": "restructure_tools_v1"
+  }
+}

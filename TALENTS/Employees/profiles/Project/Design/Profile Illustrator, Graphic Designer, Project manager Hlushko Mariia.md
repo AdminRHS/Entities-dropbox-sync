@@ -8,6 +8,8 @@
 
 ## Contact Information
 
+- **Nov25 Folder:** /Dropbox/Nov25/Design/Hlushko Mariia
+
 - **Personal Email:** mariiahlushko9@gmail.com
 - **Work Email:** mariiahlushko.rh@gmail.com
 - **Discord ID:** 660069181328457728

@@ -8,6 +8,8 @@
 
 ## Contact Information
 
+- **Nov25 Folder:** /Dropbox/Nov25/LG/Hryhorchuk Vasyl
+
 - **Personal Email:** vasyll.hryhorchuk@gmail.com
 - **Work Email:** vasyll.rem@gmail.com
 - **Discord ID:** Not specified

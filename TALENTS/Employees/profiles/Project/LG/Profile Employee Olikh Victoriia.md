@@ -8,6 +8,8 @@
 
 ## Contact Information
 
+- **Nov25 Folder:** /Dropbox/Nov25/LG/Olikh Victoriia
+
 - **Personal Email:** viktoriaolikh1@gmail.com
 - **Work Email:** Not specified
 - **Discord ID:** Not specified

@@ -174,7 +174,7 @@
 
 **Required Features**:
 - Collect all entities from previous outputs
-- Assign unique IDs (MLS-###, TSK-###, etc.)
+- Assign unique IDs (MLS-###, TST-###, etc.)
 - Create master table
 - Calculate enrichment statistics
 - Generate library addition recommendations

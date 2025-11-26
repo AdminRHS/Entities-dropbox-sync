@@ -1,0 +1,131 @@
+{
+  "entity_type": "LIBRARIES",
+  "sub_entity": "Tool",
+  "tool_id": "TOL-045",
+  "name": "Dribbble",
+  "vendor": "Dribbble Inc.",
+  "category": "Design Tools / Inspiration / Community Platform",
+  "purpose": "Design inspiration platform and community for discovering high-quality UI/UX designs, design systems, and visual work",
+  "description": "Dribbble is a community platform where designers showcase their work, providing a rich source of design inspiration for UI/UX, branding, illustration, and more. The platform is particularly valuable for AI-assisted design workflows as a source of high-quality design system screenshots that can be analyzed and extracted by AI models like GPT-5. Users search for 'design system' keywords to find flat, clear UI component layouts that serve as inspiration sources for the 3-prompt design system generation methodology. Dribbble's focus on apps and user interfaces makes it ideal for finding comprehensive design system examples.",
+  "skill_level_required": "Beginner (for browsing), Intermediate (for curation)",
+  "cost_structure": "Free browsing, Pro membership for advanced features ($12-15/month)",
+  "platform_compatibility": [
+    "Web-based",
+    "iOS app",
+    "Android app"
+  ],
+  "integration_capabilities": [
+    "Search and browse functionality",
+    "Collections and boards",
+    "Designer profiles",
+    "Screenshot downloads",
+    "Design system galleries",
+    "Community interactions"
+  ],
+  "documentation_url": "https://dribbble.com",
+  "actual_remote_helpers_usage": {
+    "primary_use": "Design System Inspiration Source for AI Analysis",
+    "users": [
+      "UI/UX Designer",
+      "Graphic Designer",
+      "Design Systems Engineer",
+      "AI Prompt Engineer",
+      "Frontend Developer"
+    ],
+    "use_cases": [
+      "find design system inspiration",
+      "search for UI component layouts",
+      "discover color palettes and typography",
+      "source design patterns",
+      "screenshot design systems for AI extraction"
+    ],
+    "workflows": [
+      "AI-Assisted Design System Generation (Prompt 1 input source)",
+      "Design research and curation",
+      "Visual style exploration"
+    ],
+    "typical_workflow_pattern": [
+      {
+        "task": "Design Inspiration Sourcing (Pre-Prompt 1)",
+        "steps": [
+          "Search Dribbble for 'design system'",
+          "Filter for 'flat' design system screenshots (not posters)",
+          "Select clear UI component layouts without extraneous elements",
+          "Ensure components are visible at good scale",
+          "Copy screenshot to clipboard",
+          "Paste into Cursor for GPT-5 analysis"
+        ],
+        "complexity": "Low",
+        "duration": "2-5 minutes",
+        "selection_criteria": [
+          "Pretty flat (not poster-like)",
+          "Clear UI components visible",
+          "No dashed borders or extra decorative elements",
+          "Good resolution and scale",
+          "Multiple component types shown"
+        ]
+      }
+    ]
+  },
+  "strengths": [
+    "High-quality design inspiration",
+    "Large community of professional designers",
+    "Searchable by keywords (design system, UI, etc.)",
+    "Wide variety of styles and approaches",
+    "Clear, professional screenshots",
+    "Free browsing access"
+  ],
+  "limitations": [
+    "Quality varies (need to curate)",
+    "Some designs are conceptual (not production-ready)",
+    "Download restrictions on free tier",
+    "Not all designs are design systems (requires filtering)"
+  ],
+  "search_tips": [
+    "Search 'design system' for component layouts",
+    "Add color keywords (e.g., 'design system blue') for specific palettes",
+    "Filter by popularity for high-quality examples",
+    "Look for 'flat' layouts, avoid 'poster' styles",
+    "Check that components are clearly visible"
+  ],
+  "departments_using": [
+    "Design",
+    "Dev (for research)"
+  ],
+  "tags": [
+    "dribbble",
+    "design-inspiration",
+    "design-systems",
+    "ui-ux",
+    "community",
+    "screenshots",
+    "visual-research",
+    "design-research"
+  ],
+  "discovery_date": "2025-11-13",
+  "discovery_source": "Video_009_Design_System_Analysis",
+  "related_tools": [
+    "Cursor",
+    "GPT-5",
+    "Figma",
+    "Adobe Illustrator"
+  ],
+  "related_objects": [
+    "Dribbble Design System Screenshot",
+    "design.json"
+  ],
+  "related_skills": [
+    "analyze design styles via Cursor"
+  ],
+  "related_workflows": [
+    "AI-Assisted Design System Generation"
+  ],
+  "typical_output": "Screenshot (PNG/JPG) of design system for AI analysis",
+  "status": "active",
+  "_migration": {
+    "date": "2025-11-26T02:01:31.176666",
+    "old_tool_id": "TOL-045",
+    "old_path": "TOL-045_Dribbble.json",
+    "migrated_by": "restructure_tools_v1"
+  }
+}

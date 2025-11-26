@@ -8,6 +8,8 @@
 
 ## Contact Information
 
+- **Nov25 Folder:** /Dropbox/Nov25/Design/Safonova Eleonora
+
 - **Personal Email:** ellesafonova@gmail.com
 - **Work Email:** eleonorasafonova.rh@gmail.com
 - **Discord ID:** 1426898924047831102

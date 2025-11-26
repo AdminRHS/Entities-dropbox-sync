@@ -8,6 +8,8 @@
 
 ## Contact Information
 
+- **Nov25 Folder:** /Dropbox/Nov25/LG/Davlatmamadova Firuza
+
 - **Personal Email:** davlatmamadova.firuza@bk.ru
 - **Work Email:** Not specified
 - **Discord ID:** 1336629524627980351

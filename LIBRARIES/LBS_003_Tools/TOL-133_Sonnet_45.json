@@ -1,0 +1,62 @@
+{
+  "entity_type": "LIBRARIES",
+  "sub_entity": "Tool",
+  "tool_id": "TOL-133",
+  "name": "Sonnet 4.5",
+  "vendor": "Anthropic",
+  "category": "AI Tools / LLM Model",
+  "purpose": "Advanced Claude model recommended for code generation and tool calling",
+  "description": "Claude's most advanced model specifically recommended for MCP connector code generation and tool calling workflows. Provides superior performance for technical tasks like generating MCP server code via mcp-builder skill.",
+  "skill_level_required": "N/A (model selection)",
+  "cost_structure": "Higher API cost than other Claude models",
+  "platform_compatibility": [
+    "Claude API",
+    "Claude Desktop App"
+  ],
+  "integration_capabilities": [
+    "Code generation",
+    "Tool calling",
+    "MCP connector generation"
+  ],
+  "documentation_url": "https://claude.ai/models",
+  "actual_remote_helpers_usage": {
+    "primary_use": "Recommended Model for MCP Connector Generation",
+    "users": [
+      "AI Engineer",
+      "Developer"
+    ],
+    "use_cases": [
+      "generate MCP connector code",
+      "complex tool calling",
+      "technical code generation"
+    ],
+    "workflows": [
+      "All MCP connector generation workflows"
+    ]
+  },
+  "strengths": [
+    "Best for code generation",
+    "Superior tool calling",
+    "Recommended for mcp-builder"
+  ],
+  "departments_using": [
+    "AI",
+    "Dev"
+  ],
+  "tags": [
+    "ai-model",
+    "claude",
+    "code-generation",
+    "mcp"
+  ],
+  "discovery_date": "2025-11-12",
+  "discovery_source": "Video_008_MCP_Connector_Tutorial",
+  "status": "active",
+  "model_type": "Claude Advanced Model",
+  "_migration": {
+    "date": "2025-11-26T02:01:31.331617",
+    "old_tool_id": "TOL-133",
+    "old_path": "TOL-133_Sonnet_45.json",
+    "migrated_by": "restructure_tools_v1"
+  }
+}

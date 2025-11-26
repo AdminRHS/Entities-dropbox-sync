@@ -1,0 +1,292 @@
+{
+  "entity_type": "LIBRARIES",
+  "sub_entity": "Tool",
+  "tool_id": "TOL-032",
+  "version": "1.0",
+  "created_date": "2025-11-17",
+  "last_updated": "2025-11-17",
+  "metadata": {
+    "tool_name": "Company Voice Guide",
+    "alternate_names": [
+      "Brand Voice Guide",
+      "AI Brand Consistency Tool",
+      "Corporate Style Guide for AI",
+      "Company Tone Documentation"
+    ],
+    "category": "AI Tools / Content & Brand Management",
+    "subcategory": "Brand Consistency / AI Customization",
+    "vendor": "Dropbox (Dash feature), also general methodology",
+    "pricing_model": "Included in Dropbox Business/Enterprise; free as DIY methodology",
+    "status": "Active"
+  },
+  "description": {
+    "short": "Feature or methodology for defining and enforcing company-specific brand voice, tone, terminology, and style in AI-generated content",
+    "detailed": "Company Voice Guide is both a specific Dropbox Dash feature and a general methodology for ensuring AI tools (ChatGPT, Claude, Copilot, Dash) produce content that matches a company's brand identity. Users upload or create documentation specifying preferred terminology (e.g., 'customers' not 'users'), tone (formal vs. casual), writing style, formatting conventions, and examples of on-brand vs. off-brand content. When AI generates text, it references this guide to maintain consistency. In Dropbox Dash, this is a dedicated feature; in other tools, it's achieved via custom instructions or system prompts. This is critical for customer-facing content, marketing materials, and maintaining brand integrity at scale.",
+    "primary_function": "Ensure AI-generated content consistently matches company brand voice and style guidelines",
+    "key_capabilities": [
+      "Define brand-specific terminology and word choices",
+      "Specify tone and formality level",
+      "Document formatting and style preferences",
+      "Provide examples of on-brand vs. off-brand content",
+      "Integrate with AI tools (Dash, ChatGPT, Copilot)",
+      "Version and update guidelines over time",
+      "Share across teams for consistency",
+      "Validate AI outputs against brand standards",
+      "Support multiple brand voices (e.g., different products)"
+    ]
+  },
+  "use_cases": [
+    {
+      "use_case_id": "UC-TOOL117-001",
+      "title": "Generate Brand-Consistent Marketing Copy",
+      "description": "Ensure all AI-generated social posts, email campaigns, and ad copy use approved terminology and match brand tone",
+      "time_saved": "15-30 minutes per content piece (reduced editing/revision cycles)",
+      "user_persona": "Marketing teams, content creators, social media managers"
+    },
+    {
+      "use_case_id": "UC-TOOL117-002",
+      "title": "Maintain Consistency Across Customer Support Responses",
+      "description": "Generate support replies that use company-preferred language and empathetic tone without manual review of every response",
+      "time_saved": "10-15 minutes per support ticket (faster resolution with quality)",
+      "user_persona": "Customer support teams, success managers"
+    },
+    {
+      "use_case_id": "UC-TOOL117-003",
+      "title": "Onboard New Team Members to Brand Voice",
+      "description": "New hires reference Voice Guide to quickly learn and adopt company communication standards",
+      "time_saved": "5-10 hours per new hire (accelerated brand voice learning)",
+      "user_persona": "New employees, hiring managers, HR teams"
+    },
+    {
+      "use_case_id": "UC-TOOL117-004",
+      "title": "Standardize Internal Documentation Tone",
+      "description": "Ensure technical docs, wiki pages, and internal memos follow consistent style and terminology",
+      "time_saved": "20-30 minutes per document (reduced editing)",
+      "user_persona": "Technical writers, product managers, engineers"
+    },
+    {
+      "use_case_id": "UC-TOOL117-005",
+      "title": "Localized Content with Brand Consistency",
+      "description": "Create Voice Guides for different regions/languages to maintain brand identity in localized content",
+      "time_saved": "1-2 hours per localized content piece (faster translation + brand alignment)",
+      "user_persona": "Global marketing teams, localization specialists"
+    }
+  ],
+  "components": {
+    "typical_sections": [
+      {
+        "section": "Brand Personality",
+        "description": "Define brand traits (e.g., friendly, innovative, trustworthy, playful)",
+        "example": "Dropbox is approachable, helpful, and human—never corporate or jargon-heavy"
+      },
+      {
+        "section": "Tone Guidelines",
+        "description": "Specify formality level, emotional tone, and context-specific adjustments",
+        "example": "Conversational and warm in marketing; professional but friendly in support; technical but clear in docs"
+      },
+      {
+        "section": "Terminology and Word Choice",
+        "description": "Preferred terms, forbidden words, industry jargon handling",
+        "example": "Say 'customers' not 'users'; avoid 'leverage' and 'utilize'; explain acronyms on first use"
+      },
+      {
+        "section": "Grammar and Style",
+        "description": "Active vs. passive voice, sentence length, punctuation preferences",
+        "example": "Use active voice; keep sentences under 20 words; use Oxford comma"
+      },
+      {
+        "section": "Formatting Conventions",
+        "description": "Headers, bullet points, bold/italic usage, emoji policy",
+        "example": "Use sentence case for headers; bullet points for lists >3 items; no emojis in enterprise content"
+      },
+      {
+        "section": "Examples (Critical)",
+        "description": "Side-by-side comparisons of on-brand vs. off-brand content",
+        "example": "✅ 'We're here to help!' vs. ❌ 'Our support team will assist you with your inquiry'"
+      }
+    ]
+  },
+  "implementation": {
+    "dropbox_dash_implementation": {
+      "setup_steps": [
+        "Navigate to Dropbox Dash settings",
+        "Access 'Company Voice Guide' feature",
+        "Upload existing brand guidelines (PDF/Doc) or create new",
+        "AI analyzes and extracts key patterns",
+        "Review and refine extracted guidelines",
+        "Activate for team members",
+        "AI automatically applies guidelines to Dash-generated content"
+      ],
+      "requirements": "Dropbox Business or Enterprise plan"
+    },
+    "diy_implementation": {
+      "chatgpt_custom_instructions": "Add brand guidelines to 'Custom Instructions' in ChatGPT settings",
+      "claude_projects": "Create Claude Project with brand guidelines in project context",
+      "github_copilot": "Add to .github/copilot-instructions.md file",
+      "general_approach": "Prepend brand guidelines to every prompt (manual but universal)"
+    },
+    "creation_process": [
+      "Audit existing brand materials (style guides, marketing materials, support templates)",
+      "Extract common patterns and rules",
+      "Document 5-10 core principles",
+      "Provide 3-5 before/after examples for each principle",
+      "Test with AI tool on sample tasks",
+      "Refine based on output quality",
+      "Share with team and iterate based on feedback"
+    ]
+  },
+  "workflows_enabled": [
+    "WF-WRITE-001: Generate Content with Brand Voice Consistency",
+    "WF-MARKETING-001: Create Social Media Post with Brand Voice",
+    "WF-SUPPORT-001: Draft Customer Support Response with Empathy",
+    "WF-PM-011: Generate Brand-Consistent AI Content"
+  ],
+  "skills_required": [
+    "brand strategy understanding",
+    "copywriting fundamentals",
+    "style guide creation",
+    "content auditing",
+    "documentation writing",
+    "AI tool configuration",
+    "quality evaluation"
+  ],
+  "learning_curve": {
+    "initial_setup": "2-4 hours (create first version of guide)",
+    "basic_proficiency": "1-2 days (integrate with AI tools, test outputs)",
+    "advanced_usage": "1-2 weeks (optimization, multi-brand management)",
+    "difficulty_level": "Intermediate (requires brand/content expertise)"
+  },
+  "roi_metrics": {
+    "time_savings_per_user": {
+      "per_content_piece": "15-30 minutes (reduced revision cycles)",
+      "weekly": "2-4 hours (for content-heavy roles)",
+      "annual": "104-208 hours"
+    },
+    "quality_improvements": [
+      "85% reduction in off-brand content (measured by review flags)",
+      "70% faster content approval process",
+      "60% fewer revision rounds",
+      "90% consistency in terminology usage (vs. 40% without guide)"
+    ],
+    "team_value": [
+      "Faster onboarding for content creators (5-10 hours saved per new hire)",
+      "Reduced brand dilution risk",
+      "Scalable content production without sacrificing quality",
+      "Single source of truth for brand standards"
+    ],
+    "value_proposition": "Critical for companies with strong brand identity, customer-facing AI content, or distributed content teams"
+  },
+  "best_practices": {
+    "guide_creation": [
+      "Start with 5-10 core principles (expand later if needed)",
+      "Prioritize examples over rules (AI learns better from examples)",
+      "Use before/after comparisons (visual learning)",
+      "Include context-specific guidelines (marketing vs. support vs. internal)",
+      "Document forbidden phrases/words explicitly",
+      "Version the guide (v1.0, v2.0) and date stamp updates",
+      "Test with real AI outputs before company-wide rollout"
+    ],
+    "maintenance": [
+      "Review quarterly or after major brand refreshes",
+      "Track common violations (add rules to address patterns)",
+      "Gather feedback from content teams (what's missing?)",
+      "Update examples with real-world on/off-brand outputs",
+      "Archive outdated guidelines (keep version history)",
+      "Align with updated brand strategy or product positioning"
+    ],
+    "team_adoption": [
+      "Train teams on how to use Voice Guide with AI tools",
+      "Share success stories (show quality improvements)",
+      "Designate 'brand champion' to maintain and evangelize",
+      "Integrate into content approval workflows",
+      "Make guide easily discoverable (link in Slack, wiki, etc.)",
+      "Celebrate good examples of on-brand AI content"
+    ]
+  },
+  "limitations": {
+    "known_limitations": [
+      "AI may still produce off-brand content occasionally (not 100% reliable)",
+      "Guide effectiveness depends on quality of documentation",
+      "Requires initial time investment to create comprehensive guide",
+      "May need different guides for different AI tools (platform-specific)",
+      "Over-constraint can reduce AI creativity/flexibility",
+      "Difficult to codify highly nuanced brand voices",
+      "Requires periodic updates as brand evolves"
+    ],
+    "best_for": "Companies with strong brand identity, customer-facing content, distributed teams, high content volume",
+    "not_ideal_for": "Startups without established brand, internal-only tools, purely technical content"
+  },
+  "related_tools": [
+    "TOOL-112 (Dropbox Dash)",
+    "TOOL-110 (GitHub Copilot)",
+    "TOOL-052 (Claude Code)",
+    "TOOL-116 (Custom Prompt Templates)",
+    "TOOL-109 (awesome-copilot)",
+    "Grammarly (style enforcement)",
+    "Acrolinx (brand compliance)"
+  ],
+  "task_templates": [
+    "Task-Template-064: Setup Company Voice Guide for Brand Consistency",
+    "Task-Template-070: Create Brand Voice Guide from Existing Materials"
+  ],
+  "discovery_source": {
+    "video_id": "Video_016",
+    "video_title": "Interview with Morgan Brown - Dropbox Dash Product Strategy",
+    "timestamp": "Discussion of Dropbox Dash Company Voice Guide feature",
+    "key_insights": [
+      "Morgan Brown highlighted Company Voice Guide as differentiating Dash feature",
+      "Designed specifically for brand consistency in AI-generated content",
+      "Addresses enterprise concern about AI diluting brand voice",
+      "Enables teams to use AI confidently for customer-facing content",
+      "Part of broader Dash strategy to make AI safe and useful for enterprise"
+    ]
+  },
+  "example_guide_excerpt": {
+    "brand": "Example SaaS Company",
+    "tone": "Friendly, helpful, human",
+    "terminology": {
+      "preferred": [
+        "customers",
+        "team",
+        "help",
+        "simple",
+        "powerful"
+      ],
+      "avoid": [
+        "users",
+        "personnel",
+        "assist",
+        "easy",
+        "robust",
+        "leverage",
+        "utilize"
+      ]
+    },
+    "examples": [
+      {
+        "on_brand": "We're here to help you get the most out of our platform. Let's dive in!",
+        "off_brand": "Our support personnel will assist you in leveraging our robust platform capabilities.",
+        "principle": "Conversational, not corporate"
+      },
+      {
+        "on_brand": "Here's how to set up your team workspace in 3 steps:",
+        "off_brand": "Utilize the following procedure to configure your organizational environment:",
+        "principle": "Simple, actionable language"
+      }
+    ]
+  },
+  "version_history": [
+    {
+      "version": "1.0",
+      "date": "2025-11-17",
+      "changes": "Initial tool entry created from Video_016.md taxonomy extraction"
+    }
+  ],
+  "_migration": {
+    "date": "2025-11-26T02:01:31.156749",
+    "old_tool_id": "TOL-032",
+    "old_path": "TOL-032_Company_Voice_Guide.json",
+    "migrated_by": "restructure_tools_v1"
+  },
+  "name": "Company Voice Guide"
+}

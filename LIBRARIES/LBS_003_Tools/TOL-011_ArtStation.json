@@ -1,0 +1,183 @@
+{
+  "entity_type": "LIBRARIES",
+  "sub_entity": "Tool",
+  "tool_id": "TOL-011",
+  "tool_name": "ArtStation",
+  "category": "Digital Art Portfolio Platform",
+  "description": "Portfolio platform for game, film, media, and entertainment artists to showcase work, find jobs, and connect with industry professionals",
+  "primary_use": "Digital art portfolios, game/film industry networking, freelance work discovery",
+  "platform_type": "Portfolio and job platform for entertainment artists",
+  "pricing": "Free (Pro subscription for enhanced features)",
+  "created": "2025-11-13",
+  "updated": "2025-11-13",
+  "used_by_professions": [
+    "Concept_Artist",
+    "3D_Artist",
+    "Character_Designer",
+    "Environment_Artist",
+    "Game_Designer",
+    "VFX_Artist",
+    "Illustrator"
+  ],
+  "used_in_workflows": [],
+  "creates_objects": [
+    "OBJ-PORT-002"
+  ],
+  "object_details": {
+    "OBJ-PORT-002": "ArtStation Project - Digital art portfolio showcase with process documentation"
+  },
+  "actions": [
+    "upload",
+    "showcase",
+    "organize",
+    "tag",
+    "share",
+    "like",
+    "comment",
+    "follow"
+  ],
+  "key_features": {
+    "portfolio": "Professional project showcases",
+    "marketplace": "Sell digital assets and prints",
+    "learning": "Educational courses and tutorials",
+    "jobs": "Industry job listings",
+    "challenges": "Art competitions and themes",
+    "magazines": "Featured artist publications",
+    "live_streams": "Broadcasting work-in-progress",
+    "pro_features": "Enhanced profile customization",
+    "prints": "Print-on-demand art sales",
+    "blog": "Artist blogs and process posts"
+  },
+  "content_types": {
+    "project_showcases": "Full projects with multiple images",
+    "wip_posts": "Work-in-progress updates",
+    "challenges": "Contest and theme submissions",
+    "tutorials": "Process breakdowns and techniques",
+    "prints": "Art available for purchase"
+  },
+  "technical_specs": {
+    "image_size": "Max 50MB per image",
+    "image_format": "JPG, PNG, GIF",
+    "video_support": "Yes, embedded or uploaded",
+    "3d_viewer": "Marmoset and Sketchfab integration",
+    "cover_image": "1920×1080px minimum recommended",
+    "thumbnail": "Auto-generated from first image"
+  },
+  "best_practices": [
+    "Upload high-resolution, professional work only",
+    "Show process and breakdowns, not just finals",
+    "Write detailed project descriptions",
+    "Tag work accurately by software, genre, and style",
+    "Organize into clear project categories",
+    "Update portfolio regularly (consistency matters)",
+    "Engage with community by liking and commenting",
+    "Participate in challenges for visibility",
+    "Include wireframes and process for 3D work",
+    "Use cover images that stand out in feeds",
+    "Link to other portfolios and social media",
+    "Curate quality over quantity"
+  ],
+  "project_structure": {
+    "cover_image": "Hero shot that captures attention",
+    "project_images": "5-15 images showing range and detail",
+    "description": "Context, tools used, process notes",
+    "tags": "Software, genre, style tags",
+    "process_documentation": "WIP, breakdowns, wireframes"
+  },
+  "performance_metrics": {
+    "likes": "Community appreciation",
+    "views": "Project page impressions",
+    "comments": "Feedback and engagement",
+    "followers": "Artist profile followers",
+    "job_inquiries": "Professional opportunities"
+  },
+  "integration_opportunities": [
+    "Link from LinkedIn profile",
+    "Share projects on Twitter/Instagram",
+    "Cross-promote with Behance portfolio",
+    "Include in job applications",
+    "Link from personal website",
+    "Embed in online resumes"
+  ],
+  "common_use_cases": [
+    "Game art and concept portfolios",
+    "Film and VFX artist showcases",
+    "Character design and illustration",
+    "Environment and prop design",
+    "3D modeling and sculpting",
+    "Texture and material art",
+    "Finding freelance and full-time work",
+    "Industry networking and visibility",
+    "Selling digital assets and prints",
+    "Participating in art challenges"
+  ],
+  "algorithm_factors": {
+    "likes": "Popular work gets boosted",
+    "recency": "New uploads get initial visibility",
+    "engagement": "Comments and shares increase reach",
+    "trending": "Trending tags and topics",
+    "featured": "Editorial team features exceptional work",
+    "challenges": "Challenge participation boosts visibility"
+  },
+  "pros": [
+    "Industry-standard for game/film art portfolios",
+    "Direct hiring pipeline to studios",
+    "Strong, engaged community",
+    "Excellent for specific niches (game, film, concept art)",
+    "Built-in job board with major studios",
+    "Marketplace for asset sales",
+    "Educational resources and courses",
+    "Clean, professional presentation",
+    "3D viewer integration"
+  ],
+  "cons": [
+    "Very competitive (high quality bar)",
+    "Niche-specific (not for all design types)",
+    "Algorithm can bury work without early engagement",
+    "Pro features require subscription",
+    "Marketplace takes commission on sales",
+    "Less suitable for UI/UX or graphic design",
+    "Can feel intimidating for beginners"
+  ],
+  "alternative_tools": [
+    "TOOL-PORT-001 (Behance) - Broader design disciplines",
+    "TOOL-DESIGN-001 (Dribbble) - UI/UX focus",
+    "CGSociety - Digital art community",
+    "DeviantArt - General art community",
+    "Cara - Artist-friendly alternative",
+    "Personal portfolio website - Full control"
+  ],
+  "artstation_vs_behance": {
+    "artstation_better_for": [
+      "Game and entertainment industry",
+      "3D art and modeling",
+      "Concept art and character design",
+      "Film and VFX work",
+      "Finding industry jobs"
+    ],
+    "behance_better_for": [
+      "Graphic design and branding",
+      "UI/UX design",
+      "Broader creative disciplines",
+      "Adobe ecosystem integration",
+      "Client-facing portfolios"
+    ]
+  },
+  "target_industries": [
+    "Video game development",
+    "Film and television",
+    "Animation studios",
+    "VFX and post-production",
+    "Toy and collectible design",
+    "Book and comic illustration",
+    "Advertising and marketing (entertainment)"
+  ],
+  "source": "SMM_Research_Document_2_Content_Strategy_Multi_Platform",
+  "_migration": {
+    "date": "2025-11-26T02:01:31.126619",
+    "old_tool_id": "TOL-011",
+    "old_path": "TOL-011_ArtStation.json",
+    "migrated_by": "restructure_tools_v1"
+  },
+  "name": "ArtStation"
+}

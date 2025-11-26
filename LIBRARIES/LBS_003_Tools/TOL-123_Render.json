@@ -1,0 +1,92 @@
+{
+  "entity_type": "LIBRARIES",
+  "sub_entity": "Tool",
+  "tool_id": "TOL-123",
+  "name": "Render",
+  "vendor": "Render",
+  "category": "Cloud/Platform as a Service",
+  "purpose": "Simple deployment platform for web apps and services",
+  "description": "Simplest deployment platform for applications. Features infrastructure-as-code (YAML), Git-based auto-deployment, free frontend hosting with infinite scaling via CDN, background workers, and cron jobs. Perfect for most projects unless enterprise SLAs or compliance required.",
+  "skill_level_required": "Beginner to Intermediate",
+  "cost_structure": "Free tier + Pay-as-you-go",
+  "platform_compatibility": [
+    "Docker containers",
+    "Python",
+    "Node.js",
+    "Go",
+    "Ruby",
+    "Static sites"
+  ],
+  "integration_capabilities": [
+    "GitHub integration",
+    "GitLab integration",
+    "Infrastructure as Code (YAML)",
+    "Auto-deployment",
+    "CDN",
+    "Background workers",
+    "Cron jobs",
+    "PostgreSQL",
+    "Redis"
+  ],
+  "documentation_url": "https://render.com/",
+  "actual_remote_helpers_usage": {
+    "primary_use": "Simple Application Deployment",
+    "users": [],
+    "use_cases": [
+      "deploy web apps",
+      "host frontends",
+      "run background jobs",
+      "schedule cron tasks",
+      "auto-deploy from git"
+    ],
+    "workflows": [
+      "WF-AI-001: Develop and Deploy AI Application"
+    ]
+  },
+  "strengths": [
+    "Simplest to use",
+    "Infrastructure as code",
+    "Git-based deployment",
+    "Free frontend hosting",
+    "CDN with infinite scaling",
+    "Background workers"
+  ],
+  "limitations": [
+    "Not true serverless",
+    "No enterprise SLAs",
+    "Limited compliance features"
+  ],
+  "alternatives": [
+    {
+      "name": "Fly.io",
+      "comparison": "Similar PaaS option"
+    },
+    {
+      "name": "Netlify",
+      "comparison": "Frontend-focused alternative"
+    }
+  ],
+  "departments_using": [],
+  "tags": [
+    "deployment",
+    "paas",
+    "hosting",
+    "ci-cd",
+    "cloud"
+  ],
+  "discovery_date": "2025-11-13",
+  "discovery_source": "Video_005",
+  "status": "active",
+  "video_source": {
+    "video_id": "Video_005",
+    "video_title": "My Agentic Engineering Tech Stack",
+    "creator": "Cole",
+    "timestamp": "27:03-27:51"
+  },
+  "_migration": {
+    "date": "2025-11-26T02:01:31.313269",
+    "old_tool_id": "TOL-123",
+    "old_path": "TOL-123_Render.json",
+    "migrated_by": "restructure_tools_v1"
+  }
+}

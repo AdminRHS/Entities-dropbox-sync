@@ -9,7 +9,7 @@
 ## Summary Statistics
 
 - **Total New Responsibilities:** 23
-- **Departments Covered:** 5 (AID, DGN, HRM, LGN, FNC)
+- **Departments Covered:** 5 (AID, DGN, HRM, LGN, FIN)
 - **Average Frequency:** 1.8 uses per responsibility
 - **High Frequency (≥2 uses):** 8 responsibilities (35%)
 - **Single Use:** 15 responsibilities (65%)
@@ -93,11 +93,11 @@
 
 ---
 
-### Finance Department (FNC) - 1 Responsibility
+### Finance Department (FIN) - 1 Responsibility
 
 | RSP ID | Action | Object | Full Phrase | Frequency | Typical Tools |
 |--------|--------|--------|-------------|-----------|---------------|
-| RESP-FNC-XXX | design | automation workflow | design automation workflow | 1 | TOL-119, TOL-045 |
+| RESP-FIN-XXX | design | automation workflow | design automation workflow | 1 | TOL-119, TOL-045 |
 
 **Key Insights:**
 - Focus on automation for financial processes

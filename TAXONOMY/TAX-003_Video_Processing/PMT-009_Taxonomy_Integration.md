@@ -319,7 +319,7 @@ Each object must link to:
   - Professions that work with it (with PRF-### IDs)
   - Skills that involve it (with SKL-### IDs)
   - Workflows that produce it (with WRF-### IDs)
-  - Department codes (ISO format: AID, DEV, HRM, LGN, DGN, VID, SLS, SMM, FNC)
+  - Department codes (ISO format: AID, DEV, HRM, LGN, DGN, VID, SLS, SMM, FIN)
 ```
 
 #### 2.3 Actions Gap Analysis

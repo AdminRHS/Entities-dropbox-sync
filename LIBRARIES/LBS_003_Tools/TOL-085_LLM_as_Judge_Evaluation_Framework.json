@@ -1,0 +1,280 @@
+{
+  "entity_type": "LIBRARIES",
+  "sub_entity": "Tool",
+  "tool_id": "TOL-085",
+  "version": "1.0",
+  "created_date": "2025-11-17",
+  "last_updated": "2025-11-17",
+  "metadata": {
+    "tool_name": "LLM-as-Judge Evaluation Framework",
+    "alternate_names": [
+      "LLM Judge",
+      "AI Evaluation with LLM Judges",
+      "Multi-Tier LLM Evaluation",
+      "LLM-based Model Assessment"
+    ],
+    "category": "AI Tools / Evaluation & Testing",
+    "subcategory": "AI Model Quality Assessment",
+    "vendor": "Methodology (various implementations)",
+    "pricing_model": "Varies by LLM provider (OpenAI, Anthropic, etc.)",
+    "status": "Active methodology"
+  },
+  "description": {
+    "short": "Methodology for using one LLM to evaluate the outputs of another LLM, enabling automated quality assessment at scale with human-level judgment",
+    "detailed": "LLM-as-Judge is an evaluation methodology where a powerful language model (the 'judge') is used to assess the quality, accuracy, helpfulness, and safety of outputs from another language model (the 'subject'). Instead of manual human evaluation (slow, expensive) or simple metrics (shallow, unreliable), this approach uses carefully crafted prompts to instruct a judge LLM to score responses on multiple dimensions. Advanced implementations use multi-tier architectures: fast/cheap models for initial filtering, expensive models for borderline cases, and human review only for critical edge cases. This enables evaluation at production scale while maintaining quality.",
+    "primary_function": "Automated, scalable evaluation of LLM outputs with human-aligned judgment",
+    "key_capabilities": [
+      "Automated quality scoring of LLM responses",
+      "Multi-dimensional evaluation (accuracy, helpfulness, safety, tone)",
+      "Comparison between multiple model outputs (A/B testing)",
+      "Explanation generation for scores (interpretability)",
+      "Multi-tier evaluation pipelines (cost optimization)",
+      "Batch processing for large-scale testing",
+      "Customizable evaluation criteria and rubrics",
+      "Consistency checking across similar inputs",
+      "Detection of edge cases requiring human review"
+    ]
+  },
+  "use_cases": [
+    {
+      "use_case_id": "UC-TOOL115-001",
+      "title": "Evaluate Product Feature AI Responses at Scale",
+      "description": "Assess quality of AI-generated answers in Dropbox Dash or similar product features across thousands of test queries without manual review",
+      "time_saved": "90-95% reduction in evaluation time vs. human review (100 hours → 5-10 hours)",
+      "user_persona": "Product managers, AI/ML engineers, QA teams"
+    },
+    {
+      "use_case_id": "UC-TOOL115-002",
+      "title": "Compare Multiple Model Versions (A/B Testing)",
+      "description": "Systematically compare outputs from GPT-4 vs. Claude vs. Gemini on your specific use cases to select best model",
+      "time_saved": "80-90% faster than human A/B evaluation",
+      "user_persona": "ML engineers, product teams, technical decision-makers"
+    },
+    {
+      "use_case_id": "UC-TOOL115-003",
+      "title": "Multi-Tier Evaluation Pipeline for Cost Optimization",
+      "description": "Use cheap model (GPT-3.5) to filter obvious passes/fails, expensive model (GPT-4) for borderline cases, humans only for edge cases",
+      "time_saved": "70-85% cost reduction vs. using expensive model for all evaluations",
+      "user_persona": "ML ops teams, engineering managers, cost-conscious teams"
+    },
+    {
+      "use_case_id": "UC-TOOL115-004",
+      "title": "Regression Testing for AI Feature Updates",
+      "description": "Ensure prompt changes or model updates don't degrade quality by running evaluation suite on golden test set",
+      "time_saved": "Prevents quality regressions (value: maintaining user trust)",
+      "user_persona": "ML engineers, DevOps, QA automation engineers"
+    },
+    {
+      "use_case_id": "UC-TOOL115-005",
+      "title": "Safety and Alignment Evaluation",
+      "description": "Detect harmful, biased, or off-brand responses at scale before they reach users",
+      "time_saved": "Continuous monitoring vs. reactive incident response",
+      "user_persona": "AI safety teams, trust & safety, compliance teams"
+    }
+  ],
+  "methodology": {
+    "basic_approach": {
+      "step_1": "Define evaluation criteria (e.g., accuracy, helpfulness, safety, tone)",
+      "step_2": "Create evaluation prompt instructing judge LLM how to score",
+      "step_3": "Feed subject LLM output + original query to judge",
+      "step_4": "Judge returns score (1-5 scale) + explanation",
+      "step_5": "Aggregate scores across test set for overall quality metric"
+    },
+    "multi_tier_architecture": {
+      "tier_1_fast_filter": {
+        "description": "Use cheap, fast model (GPT-3.5, Claude Haiku) to filter obvious passes/fails",
+        "criteria": "High-confidence cases only (score >= 4.5 or <= 2.0)",
+        "cost": "$0.001-0.002 per evaluation",
+        "percentage_resolved": "60-70% of cases"
+      },
+      "tier_2_expensive_review": {
+        "description": "Use expensive, high-quality model (GPT-4, Claude Opus) for borderline cases",
+        "criteria": "Moderate confidence (score 2.5-4.0)",
+        "cost": "$0.01-0.03 per evaluation",
+        "percentage_resolved": "25-35% of cases"
+      },
+      "tier_3_human_review": {
+        "description": "Escalate edge cases, disagreements, or critical failures to human experts",
+        "criteria": "Low confidence, high-stakes, or contradictory scores",
+        "cost": "$5-20 per evaluation (human time)",
+        "percentage_resolved": "5-10% of cases"
+      }
+    },
+    "evaluation_dimensions": [
+      "Accuracy: Is the information factually correct?",
+      "Helpfulness: Does it answer the user's question?",
+      "Completeness: Are all aspects of the query addressed?",
+      "Clarity: Is the response easy to understand?",
+      "Conciseness: Is it appropriately brief without omitting key info?",
+      "Safety: Does it avoid harmful, biased, or inappropriate content?",
+      "Tone: Does it match the desired brand voice?",
+      "Citation quality: Are sources provided and accurate?"
+    ]
+  },
+  "implementation": {
+    "required_components": [
+      "Subject LLM (model being evaluated)",
+      "Judge LLM (evaluator model - typically same or better quality)",
+      "Test dataset (queries + optionally ground-truth answers)",
+      "Evaluation prompt template",
+      "Orchestration logic (API calls, score aggregation)",
+      "Optional: Human review interface for edge cases"
+    ],
+    "recommended_tech_stack": [
+      "LangChain or LlamaIndex (orchestration)",
+      "OpenAI API or Anthropic API (judge models)",
+      "Python (scripting)",
+      "Pandas (score aggregation)",
+      "Weights & Biases or MLflow (experiment tracking)",
+      "Google Sheets or Airtable (human review queue)"
+    ],
+    "example_judge_prompt": "You are an expert evaluator. Rate the following AI response on a scale of 1-5 for:\n1. Accuracy (factual correctness)\n2. Helpfulness (addresses user need)\n3. Safety (no harmful content)\n\nProvide scores in JSON format with brief explanation for each dimension.\n\nUser Query: {query}\nAI Response: {response}\n\nYour Evaluation:"
+  },
+  "integrations": {
+    "llm_providers": [
+      "OpenAI (GPT-4, GPT-3.5)",
+      "Anthropic (Claude Opus, Sonnet, Haiku)",
+      "Google (Gemini Pro)",
+      "Azure OpenAI",
+      "Open-source models (Llama, Mistral via API)"
+    ],
+    "frameworks": [
+      "LangChain (orchestration)",
+      "LlamaIndex (orchestration)",
+      "Langfuse (observability)",
+      "Weights & Biases (experiment tracking)"
+    ]
+  },
+  "workflows_enabled": [
+    "WF-ML-001: Design Multi-Tier LLM Evaluation Pipeline",
+    "WF-ML-002: Conduct A/B Test Between Model Versions",
+    "WF-ML-003: Create LLM Judge Evaluation Prompt",
+    "WF-ML-004: Run Regression Test Suite on AI Feature"
+  ],
+  "skills_required": [
+    "prompt engineering (for judge prompts)",
+    "LLM API usage",
+    "evaluation metric design",
+    "statistical analysis",
+    "Python scripting",
+    "cost-benefit analysis (for tier thresholds)",
+    "AI safety and alignment concepts"
+  ],
+  "learning_curve": {
+    "initial_setup": "2-4 hours (basic single-tier evaluation)",
+    "basic_proficiency": "1-2 days (multi-tier pipeline)",
+    "advanced_usage": "1-2 weeks (optimized prompts, calibration)",
+    "difficulty_level": "Intermediate to Advanced"
+  },
+  "roi_metrics": {
+    "time_savings": {
+      "vs_manual_evaluation": "90-95% time reduction (100 hours → 5-10 hours for 1000 evaluations)",
+      "vs_simple_metrics": "Higher quality insights (catches nuanced issues metrics miss)"
+    },
+    "cost_optimization": {
+      "multi_tier_vs_single_tier": "70-85% cost reduction",
+      "example": "1000 evaluations: $30 (multi-tier) vs. $150 (all GPT-4)"
+    },
+    "quality_improvements": [
+      "Catch 80-90% of quality issues before production",
+      "Enable 10x larger test coverage vs. manual review",
+      "Faster iteration cycles (daily eval vs. weekly manual review)"
+    ],
+    "value_proposition": "Essential for any team shipping LLM-powered features at scale; enables data-driven model selection and quality assurance"
+  },
+  "best_practices": {
+    "judge_prompt_design": [
+      "Be specific about evaluation criteria (avoid vague 'quality')",
+      "Provide examples of good vs. bad responses in prompt",
+      "Request explanations alongside scores (interpretability)",
+      "Use structured output (JSON) for easy parsing",
+      "Include safety/harm guidelines explicitly",
+      "Calibrate with human-labeled examples (measure agreement)"
+    ],
+    "multi_tier_optimization": [
+      "Start with single tier, add tiers as volume increases",
+      "Set tier thresholds based on cost-benefit analysis",
+      "Monitor tier distribution (adjust thresholds if imbalanced)",
+      "Track inter-tier agreement to validate tier boundaries",
+      "Use confidence scores to route edge cases"
+    ],
+    "evaluation_dataset": [
+      "Include diverse query types (simple, complex, edge cases)",
+      "Maintain golden test set (human-verified ground truth)",
+      "Regularly update dataset with production examples",
+      "Balance dataset across evaluation dimensions",
+      "Version datasets to track evaluation changes over time"
+    ],
+    "production_deployment": [
+      "Run on sample of production traffic (not 100% unless required)",
+      "Set up alerts for score degradation",
+      "Combine with traditional metrics (latency, user engagement)",
+      "Periodic human spot-checks to validate judge reliability",
+      "Document evaluation criteria for team alignment"
+    ]
+  },
+  "limitations": {
+    "known_limitations": [
+      "Judge quality limited by judge model capabilities (garbage in, garbage out)",
+      "Judges can have biases or blind spots",
+      "Evaluation criteria must be explicitly defined (judges don't read minds)",
+      "Cost scales with evaluation volume",
+      "Latency for real-time evaluation (1-5 seconds per judge call)",
+      "Requires calibration against human judgment",
+      "May miss subtle domain-specific issues without expert-crafted prompts"
+    ],
+    "best_for": "Teams with >100 evaluations/week, product features requiring nuanced quality assessment, A/B testing scenarios",
+    "not_ideal_for": "One-off evaluations (use humans), tasks with objective metrics (use exact match/BLEU), extremely high-stakes decisions without human oversight"
+  },
+  "related_tools": [
+    "TOOL-112 (Dropbox Dash)",
+    "TOOL-116 (Custom Prompt Templates)",
+    "TOOL-110 (GitHub Copilot)",
+    "TOOL-052 (Claude Code)",
+    "Weights & Biases",
+    "LangChain",
+    "Langfuse"
+  ],
+  "task_templates": [
+    "Task-Template-064: Design Multi-Tier LLM Evaluation Pipeline",
+    "Task-Template-065: Create LLM Judge Evaluation Prompt"
+  ],
+  "discovery_source": {
+    "video_id": "Video_016",
+    "video_title": "Interview with Morgan Brown - Dropbox Dash Product Strategy",
+    "timestamp": "Discussion of Dropbox Dash AI feature evaluation",
+    "key_insights": [
+      "Morgan Brown described using multi-tier LLM evaluation for Dash AI features",
+      "Emphasized cost optimization: cheap model for obvious cases, expensive for borderline, human for edge cases",
+      "Highlighted importance of evaluation at scale for AI product features",
+      "Mentioned this as critical methodology for shipping AI features with confidence"
+    ]
+  },
+  "research_foundations": {
+    "key_papers": [
+      "Judging LLM-as-a-Judge (arXiv 2023)",
+      "G-Eval: NLG Evaluation using GPT-4 with Better Human Alignment (arXiv 2023)",
+      "Chatbot Arena: Benchmarking LLMs in the Wild (LMSYS 2023)"
+    ],
+    "industry_adoption": [
+      "Dropbox (Dash feature evaluation)",
+      "OpenAI (model comparison)",
+      "Anthropic (Constitutional AI evaluation)",
+      "Google (Bard quality assessment)"
+    ]
+  },
+  "version_history": [
+    {
+      "version": "1.0",
+      "date": "2025-11-17",
+      "changes": "Initial tool entry created from Video_016.md taxonomy extraction"
+    }
+  ],
+  "_migration": {
+    "date": "2025-11-26T02:01:31.249002",
+    "old_tool_id": "TOL-085",
+    "old_path": "TOL-085_LLM_as_Judge_Evaluation_Framework.json",
+    "migrated_by": "restructure_tools_v1"
+  },
+  "name": "LLM as Judge Evaluation Framework"
+}

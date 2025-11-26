@@ -90,7 +90,7 @@ def extract_references(content):
 
     # Department codes
     dept_patterns = [
-        r'\b(AID|DEV|HRM|LGN|DGN|VID|SLS|SMM|FNC|MKT)\b',
+        r'\b(AID|DEV|HRM|LGN|DGN|VID|SLS|SMM|FIN|MKT)\b',
         r'Department:\s*([A-Z]{3})',
     ]
     for pattern in dept_patterns:

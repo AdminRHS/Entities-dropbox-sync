@@ -1,0 +1,50 @@
+{
+  "entity_type": "TASK_MANAGERS",
+  "sub_entity": "Workflow",
+  "workflow_id": "WRF-016",
+  "metadata": {
+    "workflow_name": "AI - Maintenance Tasks",
+    "description": "Execution phase workflow for AIA department - Maintenance category",
+    "primary_department": "AID",
+    "departments_involved": [
+      "AID"
+    ],
+    "workflow_type": "Parallel",
+    "execution_phase": "Execution",
+    "category": "Maintenance",
+    "priority": "Medium",
+    "estimated_duration": "0.0h",
+    "complexity": "Medium",
+    "status": "Active",
+    "created_date": "2025-11-26",
+    "version": "1.0"
+  },
+  "tasks": {
+    "total_count": 4,
+    "task_ids": [
+      "TST-356",
+      "TST-394",
+      "TST-226",
+      "FIX-001"
+    ],
+    "execution_type": "Parallel"
+  },
+  "performance_metrics": {
+    "total_estimated_hours": 0.0,
+    "task_count": 4
+  },
+  "tags": [
+    "execution",
+    "parallel",
+    "aid",
+    "maintenance"
+  ],
+  "version": "1.0",
+  "created": "2025-11-26",
+  "last_updated": "2025-11-26",
+  "migration_notes": {
+    "original_id": "WFC-016",
+    "converted_from": "WFC format",
+    "conversion_date": "2025-11-26"
+  }
+}

@@ -1,0 +1,136 @@
+{
+  "entity_type": "LIBRARIES",
+  "sub_entity": "Tool",
+  "tool_id": "TOL-067",
+  "name": "Google Cloud Run",
+  "vendor": "Google Cloud",
+  "category": "Cloud/Serverless Platform",
+  "purpose": "Serverless platform for deploying and scaling containerized applications with automatic HTTPS and instant deployment",
+  "description": "Google Cloud's fully managed serverless platform that runs stateless containers via HTTP. Integrated with Google AI Studio's Build tab for one-click deployment of AI-generated web applications. Features automatic scaling from zero to N, pay-per-use pricing, custom domains, HTTPS by default, and seamless integration with Google Cloud ecosystem.",
+  "skill_level_required": "Beginner to Intermediate",
+  "cost_structure": "Pay-per-use (request-based pricing)",
+  "platform_compatibility": [
+    "Docker containers",
+    "Any language/framework that runs in containers",
+    "Google AI Studio generated apps",
+    "Node.js",
+    "Python",
+    "Go",
+    "Java",
+    "Static sites"
+  ],
+  "integration_capabilities": [
+    "Google AI Studio Build tab (one-click deploy)",
+    "Google Cloud Console",
+    "gcloud CLI",
+    "Cloud Build",
+    "Artifact Registry",
+    "Cloud Functions",
+    "Cloud Storage",
+    "Cloud SQL",
+    "Identity Platform",
+    "Custom domains",
+    "HTTPS/SSL automatic"
+  ],
+  "documentation_url": "https://cloud.google.com/run/docs",
+  "actual_remote_helpers_usage": {
+    "primary_use": "No-Code Web App Deployment via Google AI Studio",
+    "users": [],
+    "use_cases": [
+      "deploy AI-generated web apps from Google AI Studio",
+      "host serverless applications",
+      "run containerized microservices",
+      "create instant public URLs for prototypes",
+      "deploy MVPs without infrastructure management"
+    ],
+    "workflows": [
+      "WRF-024: Build and Deploy Web App"
+    ]
+  },
+  "strengths": [
+    "One-click deployment from Google AI Studio Build tab",
+    "True serverless - scales to zero when not in use",
+    "Automatic HTTPS with Google-managed certificates",
+    "Instant public URLs for sharing",
+    "Pay only for actual request time (not idle time)",
+    "No infrastructure management required",
+    "Fast cold starts",
+    "Global load balancing",
+    "Integrated with Google Cloud ecosystem"
+  ],
+  "limitations": [
+    "Request timeout limits (default 60s, max 60 min)",
+    "Stateless only (no persistent local storage)",
+    "Cold start latency for infrequently accessed services",
+    "Requires Google Cloud account",
+    "Pricing can increase with high traffic"
+  ],
+  "pricing_model": {
+    "free_tier": "2 million requests per month",
+    "cpu_pricing": "Per vCPU-second during request",
+    "memory_pricing": "Per GB-second during request",
+    "networking": "Egress charges apply",
+    "note": "Only billed for actual request duration, not idle time"
+  },
+  "google_ai_studio_integration": {
+    "feature": "Build Tab - One-Click Deployment",
+    "workflow": "Generate app → Preview → Deploy button → Instant public URL",
+    "deployment_time": "90-120 seconds",
+    "url_format": "https://[app-name]-[hash].run.app",
+    "benefits": [
+      "No manual configuration required",
+      "Automatic containerization",
+      "Instant HTTPS",
+      "No deployment scripts needed",
+      "Perfect for prototypes and MVPs"
+    ]
+  },
+  "alternatives": [
+    {
+      "name": "Vercel",
+      "comparison": "Better for Next.js/React, but Cloud Run supports any language"
+    },
+    {
+      "name": "AWS Lambda",
+      "comparison": "Similar serverless, but Cloud Run handles containers vs functions"
+    },
+    {
+      "name": "Netlify",
+      "comparison": "Frontend-focused, Cloud Run handles full-stack apps"
+    },
+    {
+      "name": "Render",
+      "comparison": "Similar PaaS, but Cloud Run has better Google ecosystem integration"
+    }
+  ],
+  "departments_using": [
+    "DEV",
+    "AID",
+    "DGN"
+  ],
+  "tags": [
+    "deployment",
+    "serverless",
+    "cloud",
+    "containers",
+    "no-code",
+    "google-cloud",
+    "google-ai-studio",
+    "web-hosting"
+  ],
+  "discovery_date": "2025-11-24",
+  "discovery_source": "Video_023",
+  "status": "active",
+  "video_source": {
+    "video_id": "Video_023",
+    "video_title": "Google AI Studio Full Walkthrough and Tutorial",
+    "creator": "AI for Grownups",
+    "timestamp": "14:48-19:30"
+  },
+  "_migration": {
+    "date": "2025-11-26T02:01:31.217895",
+    "old_tool_id": "TOL-067",
+    "old_path": "TOL-067_Google_Cloud_Run.json",
+    "migrated_by": "restructure_tools_v1"
+  }
+}

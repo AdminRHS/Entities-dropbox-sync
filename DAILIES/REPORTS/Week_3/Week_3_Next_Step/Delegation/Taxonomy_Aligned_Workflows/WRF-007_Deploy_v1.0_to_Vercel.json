@@ -1,0 +1,62 @@
+{
+  "entity_type": "TASK_MANAGERS",
+  "sub_entity": "Workflow",
+  "workflow_id": "WRF-007",
+  "metadata": {
+    "workflow_name": "Deploy v1.0 to Vercel",
+    "description": "Week 3 workflow for Deploy v1.0 to Vercel",
+    "primary_department": "AID",
+    "departments_involved": [
+      "AID",
+      "DGN",
+      "DEV",
+      "HRM"
+    ],
+    "workflow_type": "Parallel",
+    "execution_phase": "Planning",
+    "priority": "High",
+    "estimated_duration": "2.8h",
+    "complexity": "Medium",
+    "status": "Active",
+    "created_date": "2025-11-26",
+    "version": "1.0"
+  },
+  "related_project": {
+    "project_id": "PRT-014",
+    "milestone_dependencies": null
+  },
+  "tasks": {
+    "total_count": 12,
+    "task_ids": [
+      "TST-128",
+      "TST-129",
+      "TST-130",
+      "TST-131",
+      "TST-132",
+      "TST-133",
+      "TST-134",
+      "TST-135",
+      "TST-136",
+      "..."
+    ],
+    "execution_type": "Parallel"
+  },
+  "steps": [],
+  "performance_metrics": {
+    "total_estimated_hours": 2.8,
+    "task_count": 12
+  },
+  "tags": [
+    "planning",
+    "parallel",
+    "aid"
+  ],
+  "version": "1.0",
+  "created": "2025-11-26",
+  "last_updated": "2025-11-26",
+  "migration_notes": {
+    "original_id": "WFC-007",
+    "converted_from": "WFC format",
+    "conversion_date": "2025-11-26"
+  }
+}

@@ -1,0 +1,360 @@
+{
+  "entity_type": "LIBRARIES",
+  "sub_entity": "Tool",
+  "tool_id": "TOL-121",
+  "tool_name": "Reddit",
+  "category": "Community Forum Platform",
+  "description": "Massive community-driven platform with topic-specific subreddits for discussion, knowledge sharing, and authentic engagement",
+  "primary_use": "Participating in niche communities, sharing expertise, getting feedback, and building reputation through authentic engagement",
+  "platform_type": "Community forum and discussion platform",
+  "pricing": "Free (Reddit Premium $5.99/month for ad-free)",
+  "created": "2025-11-14",
+  "updated": "2025-11-14",
+  "used_by_professions": [
+    "Developer",
+    "Marketer",
+    "Designer",
+    "Entrepreneur",
+    "Creative_Professional"
+  ],
+  "used_in_workflows": [
+    "WF-DEV-008"
+  ],
+  "creates_objects": [
+    "OBJ-COMM-001",
+    "OBJ-COMM-002"
+  ],
+  "object_details": {
+    "OBJ-COMM-001": "Reddit Post - Text, link, image, or video post in subreddit",
+    "OBJ-COMM-002": "Reddit Comment - Reply or discussion contribution"
+  },
+  "actions": [
+    "post",
+    "comment",
+    "upvote",
+    "downvote",
+    "share",
+    "award",
+    "crosspost",
+    "subscribe",
+    "save",
+    "report"
+  ],
+  "key_features": {
+    "subreddits": "Topic-specific communities (100K+ subreddits)",
+    "voting_system": "Upvote/downvote determines visibility",
+    "karma_system": "Reputation score from votes",
+    "post_types": "Text, link, image, video, poll",
+    "comments": "Nested discussion threads",
+    "awards": "Give awards to great content",
+    "moderation": "Community moderators enforce rules",
+    "anonymity": "Pseudonymous accounts (not real names)",
+    "ama": "Ask Me Anything sessions",
+    "crossposting": "Share posts across subreddits"
+  },
+  "content_types": {
+    "discussions": "Text posts asking questions or starting conversations (40%)",
+    "helpful_resources": "Guides, tutorials, tool recommendations (30%)",
+    "project_showcases": "Sharing work for feedback (20%)",
+    "news_sharing": "Industry news and trends (10%)"
+  },
+  "technical_specs": {
+    "post_title": "300 character limit",
+    "text_post": "40,000 character limit",
+    "images": "PNG, JPG (20MB max)",
+    "videos": "MP4, MOV (1GB max, 15 min max)",
+    "links": "External links allowed (subreddit rules vary)",
+    "markdown": "Full markdown formatting support"
+  },
+  "optimal_posting": {
+    "frequency": "Quality over quantity - engage daily, post 1-2x/week",
+    "best_days": [
+      "Monday-Wednesday (active discussion days)",
+      "Weekends (hobby subreddits peak)"
+    ],
+    "best_times": [
+      "6-8am EST (early risers, US morning)",
+      "12-2pm EST (lunch break)",
+      "5-7pm EST (after work, highest traffic)"
+    ],
+    "consistency": "Regular participation more important than posting"
+  },
+  "algorithm_factors": {
+    "upvotes": "PRIMARY ranking - more upvotes = higher visibility",
+    "engagement_velocity": "Fast upvotes in first hour = hot",
+    "comments": "Discussion signals quality",
+    "downvotes": "Negative votes reduce visibility",
+    "time_decay": "Posts drop over time (hot → rising → new)",
+    "subreddit_size": "Easier to rank in smaller subs",
+    "account_karma": "Higher karma = slight boost (anti-spam)"
+  },
+  "best_practices": [
+    "Read subreddit rules BEFORE posting (each sub is different)",
+    "Lurk before participating (understand community culture)",
+    "Be authentic and helpful (anti-promotion culture)",
+    "Engage in comments more than you post",
+    "Upvote content you like (karma reciprocity)",
+    "Use descriptive titles (not clickbait)",
+    "Provide value first, promote never (or very subtly)",
+    "Respond to comments on your posts",
+    "Use search to avoid reposting",
+    "Format posts well (markdown, paragraphs, bullets)",
+    "Give credit when sharing others' work",
+    "Be respectful in disagreements",
+    "Use throwaway account if discussing sensitive topics",
+    "Build karma before self-promotion",
+    "Follow reddiquette (unofficial guidelines)"
+  ],
+  "subreddit_discovery": {
+    "finding_relevant_subs": [
+      "Search by topic or profession",
+      "Check sidebar of related subreddits",
+      "r/findareddit - ask for subreddit recommendations",
+      "Browse r/all by topic",
+      "Look at where competitors post"
+    ],
+    "evaluation": [
+      "Check subscriber count (>10K active is good)",
+      "Read rules thoroughly",
+      "Check post frequency (active vs dead)",
+      "Look at top posts (quality level)",
+      "Read mod announcements"
+    ]
+  },
+  "key_subreddits_by_profession": {
+    "developers": [
+      "r/programming",
+      "r/webdev",
+      "r/javascript",
+      "r/learnprogramming",
+      "r/cscareerquestions",
+      "r/coding",
+      "r/reactjs",
+      "r/python"
+    ],
+    "designers": [
+      "r/graphic_design",
+      "r/design_critiques",
+      "r/UI_Design",
+      "r/web_design",
+      "r/logodesign",
+      "r/typography",
+      "r/designjobs"
+    ],
+    "marketers": [
+      "r/marketing",
+      "r/digital_marketing",
+      "r/SEO",
+      "r/socialmedia",
+      "r/content_marketing",
+      "r/PPC",
+      "r/entrepreneur"
+    ],
+    "general_creative": [
+      "r/freelance",
+      "r/entrepreneur",
+      "r/smallbusiness",
+      "r/SideProject",
+      "r/startups"
+    ]
+  },
+  "karma_building_strategy": {
+    "what_is_karma": "Points from upvotes (post karma + comment karma)",
+    "why_it_matters": "High karma = credibility, avoids spam filters",
+    "how_to_build": [
+      "Comment thoughtfully on rising posts",
+      "Answer questions in your expertise",
+      "Share helpful resources",
+      "Be early to good discussions",
+      "Avoid controversial hot takes initially"
+    ],
+    "thresholds": [
+      "100 karma: Basic credibility",
+      "1000 karma: Established user",
+      "10000+ karma: Respected contributor"
+    ]
+  },
+  "self_promotion_rules": {
+    "reddit_hates_spam": "Self-promotion is generally NOT allowed",
+    "9_to_1_rule": "9 helpful posts/comments for every 1 self-promotional",
+    "provide_value_first": "Be genuinely helpful before promoting",
+    "some_subs_allow": "Check rules - some have self-promotion days",
+    "subtle_approaches": [
+      "Link in profile bio",
+      "Answer questions, mention tool naturally",
+      "Showcase saturday threads (many subs)",
+      "Genuine help, not sales pitches"
+    ],
+    "consequences": "Downvotes, mod removal, shadowban, account ban"
+  },
+  "post_types_and_strategy": {
+    "text_posts": "Discussions, questions, guides (highest engagement)",
+    "link_posts": "Share articles, projects (can seem spammy if self-promotional)",
+    "image_posts": "Showcases, infographics (visual subs)",
+    "video_posts": "Tutorials, demos (growing format)",
+    "poll_posts": "Community surveys (engagement)",
+    "crosspost": "Share from one sub to another (follow rules)"
+  },
+  "comment_strategy": {
+    "where_to_comment": "Rising posts (high visibility, less competition)",
+    "what_to_say": "Thoughtful, helpful, adds to discussion",
+    "timing": "Early comments on rising posts get visibility",
+    "tone": "Friendly, casual, not overly formal",
+    "formatting": "Use line breaks, bold key points",
+    "avoid": "One-word replies, being argumentative, self-promotion"
+  },
+  "ama_strategy": {
+    "what_is_ama": "Ask Me Anything - interactive Q&A session",
+    "when_to_do": "When you have expertise or unique story",
+    "where": "Relevant subreddits (requires mod approval usually)",
+    "preparation": [
+      "Get mod approval first",
+      "Prepare proof of expertise",
+      "Block 2-3 hours for responses",
+      "Promote beforehand"
+    ],
+    "benefit": "Massive visibility and authority building"
+  },
+  "performance_metrics": {
+    "upvotes": "Post/comment score",
+    "comments": "Discussion generated",
+    "karma": "Total account reputation",
+    "awards": "Reddit Gold, Silver, etc. (community appreciation)",
+    "impressions": "How many saw your content",
+    "engagement_rate": "Upvotes + comments / views"
+  },
+  "reddit_culture": {
+    "authenticity_valued": "Genuine over polished marketing",
+    "anti_corporate": "Skeptical of brands and promotion",
+    "expertise_rewarded": "Deep knowledge gets upvotes",
+    "humor_appreciated": "Wit and memes are currency",
+    "op_delivers": "Follow through on promises",
+    "edit_etiquette": "Note edits with 'Edit:' explanation",
+    "downvote_culture": "Disagree button (unfortunately)",
+    "inside_jokes": "Each subreddit has its own culture"
+  },
+  "moderation_and_rules": {
+    "each_sub_different": "Every subreddit has unique rules",
+    "read_sidebar": "Rules, guidelines, wiki in sidebar",
+    "mod_discretion": "Mods can remove anything",
+    "shadowbans": "Reddit-wide bans for spam",
+    "automod": "Automated removal based on karma, account age, keywords",
+    "appeals": "Can appeal to mods if post removed",
+    "respect_mods": "They're volunteers, be polite"
+  },
+  "integration_opportunities": [
+    "Share blog posts (carefully, follow rules)",
+    "Get feedback on projects",
+    "Answer questions, link to portfolio in profile",
+    "Research audience pain points",
+    "Test content ideas (what gets upvotes)",
+    "Cross-post to Twitter/LinkedIn",
+    "Use discussions as blog/video content",
+    "Build email list (subtle, in flair or profile)"
+  ],
+  "common_use_cases": [
+    "Getting feedback on projects and ideas",
+    "Participating in professional communities",
+    "Researching industry trends and pain points",
+    "Building reputation through helpful contributions",
+    "Networking with peers (developers, designers, etc.)",
+    "Staying current on industry news",
+    "Learning and asking questions",
+    "Showcasing work (in appropriate subreddits)",
+    "Finding collaborators or job opportunities",
+    "Market research for products/services"
+  ],
+  "content_ideas": {
+    "helpful_guides": "How-to posts solving common problems",
+    "resource_roundups": "Tools, articles, libraries",
+    "project_showcases": "Show off work (with context)",
+    "discussions": "Thought-provoking questions",
+    "amas": "Share expertise through Q&A",
+    "feedback_requests": "Genuine requests for critique",
+    "news_sharing": "Industry news with commentary"
+  },
+  "pros": [
+    "Massive engaged communities (430M+ users)",
+    "Niche subreddits for every topic",
+    "High Google search rankings (SEO benefit)",
+    "Authentic, honest discussions",
+    "Anonymous participation (lower risk)",
+    "Free to use",
+    "Detailed community guidelines",
+    "Upvote system surfaces best content",
+    "AMAs for direct engagement",
+    "Active moderation (quality control)",
+    "Real-time industry news",
+    "Valuable market research"
+  ],
+  "cons": [
+    "Anti-promotion culture (self-promotion banned most places)",
+    "Can be harsh/negative community",
+    "Time-consuming to participate properly",
+    "Downvotes can be demotivating",
+    "Strict moderation (posts removed easily)",
+    "Anonymity enables trolling",
+    "Difficult to drive traffic directly",
+    "Each subreddit has different rules (confusing)",
+    "Karma requirements for posting (some subs)",
+    "No direct monetization",
+    "Content ownership issues",
+    "Can be addictive time sink"
+  ],
+  "alternative_tools": [
+    "Discord - Real-time community chat",
+    "Slack communities - Professional communities",
+    "Quora - Q&A with professional profiles",
+    "Hacker News - Tech-focused news and discussion",
+    "Facebook Groups - Less anonymous communities"
+  ],
+  "reddit_vs_discord": {
+    "reddit_better_for": [
+      "Asynchronous discussion",
+      "SEO and discoverability",
+      "Upvote system for quality",
+      "Larger audience reach",
+      "Archived searchable content"
+    ],
+    "discord_better_for": [
+      "Real-time conversation",
+      "Building tight-knit community",
+      "Voice/video chat",
+      "Faster feedback loops",
+      "More personal connections"
+    ]
+  },
+  "common_mistakes_to_avoid": [
+    "Posting without reading rules (instant removal)",
+    "Self-promoting too early (shadowban risk)",
+    "Being argumentative (downvote magnet)",
+    "Posting low-effort content",
+    "Not engaging with comments on your posts",
+    "Using clickbait titles",
+    "Reposting content",
+    "Ignoring subreddit culture",
+    "Taking downvotes personally",
+    "Spamming multiple subreddits"
+  ],
+  "time_investment": {
+    "daily_minimum": "15-30 minutes (read, comment)",
+    "ideal": "60 minutes (engage, post occasionally)",
+    "lurking_phase": "First week - observe before participating",
+    "active_participation": "After understanding community norms"
+  },
+  "demographics": {
+    "primary_age": "18-35 (skews younger, tech-savvy)",
+    "profession": "Broad (tech workers heavily represented)",
+    "experience_level": "All levels (subreddits for beginners to experts)",
+    "geographic": "Global, strongest in US (48%), UK, Canada, Australia",
+    "interests": "Technology, gaming, memes, news, niche hobbies"
+  },
+  "source": "SMM_Research_Document_3_EU_Creative_Professionals",
+  "_migration": {
+    "date": "2025-11-26T02:01:31.308450",
+    "old_tool_id": "TOL-121",
+    "old_path": "TOL-121_Reddit.json",
+    "migrated_by": "restructure_tools_v1"
+  },
+  "name": "Reddit"
+}

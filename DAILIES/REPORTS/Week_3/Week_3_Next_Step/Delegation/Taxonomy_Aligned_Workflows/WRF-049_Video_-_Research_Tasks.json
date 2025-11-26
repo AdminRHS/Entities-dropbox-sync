@@ -1,0 +1,49 @@
+{
+  "entity_type": "TASK_MANAGERS",
+  "sub_entity": "Workflow",
+  "workflow_id": "WRF-049",
+  "metadata": {
+    "workflow_name": "Video - Research Tasks",
+    "description": "Execution phase workflow for VID department - Research category",
+    "primary_department": "VID",
+    "departments_involved": [
+      "VID"
+    ],
+    "workflow_type": "Parallel",
+    "execution_phase": "Execution",
+    "category": "Research",
+    "priority": "Medium",
+    "estimated_duration": "18.0h",
+    "complexity": "Medium",
+    "status": "Active",
+    "created_date": "2025-11-26",
+    "version": "1.0"
+  },
+  "tasks": {
+    "total_count": 3,
+    "task_ids": [
+      "TST-363",
+      "TST-302",
+      "TST-167"
+    ],
+    "execution_type": "Parallel"
+  },
+  "performance_metrics": {
+    "total_estimated_hours": 18.0,
+    "task_count": 3
+  },
+  "tags": [
+    "execution",
+    "parallel",
+    "vid",
+    "research"
+  ],
+  "version": "1.0",
+  "created": "2025-11-26",
+  "last_updated": "2025-11-26",
+  "migration_notes": {
+    "original_id": "WFC-049",
+    "converted_from": "WFC format",
+    "conversion_date": "2025-11-26"
+  }
+}

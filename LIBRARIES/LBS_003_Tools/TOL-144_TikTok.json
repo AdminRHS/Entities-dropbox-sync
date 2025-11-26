@@ -1,0 +1,304 @@
+{
+  "entity_type": "LIBRARIES",
+  "sub_entity": "Tool",
+  "tool_id": "TOL-144",
+  "tool_name": "TikTok",
+  "category": "Short-Form Video Platform",
+  "description": "Leading short-form video platform for viral content, entertainment, and rapid audience growth with powerful recommendation algorithm",
+  "primary_use": "Short-form video content, viral marketing, trend participation, brand awareness, younger demographics",
+  "platform_type": "Short-form video social media platform",
+  "pricing": "Free (TikTok Ads platform separate)",
+  "created": "2025-11-13",
+  "updated": "2025-11-13",
+  "used_by_professions": [
+    "Videographer",
+    "SMM_Specialist",
+    "Content_Creator",
+    "Marketer",
+    "Designer",
+    "Influencer"
+  ],
+  "used_in_workflows": [
+    "WF-SMM-007",
+    "WF-SMM-001"
+  ],
+  "creates_objects": [
+    "OBJ-SMM-007"
+  ],
+  "object_details": {
+    "OBJ-SMM-007": "TikTok Video - Vertical short-form video (15-60 sec, 9:16 aspect ratio)"
+  },
+  "actions": [
+    "record",
+    "edit",
+    "post",
+    "duet",
+    "stitch",
+    "comment",
+    "share",
+    "like",
+    "follow",
+    "trend"
+  ],
+  "key_features": {
+    "for_you_page": "Personalized content feed driven by AI",
+    "trending_sounds": "Viral audio clips for content creation",
+    "effects_filters": "AR effects and video filters",
+    "duet_stitch": "Collaborate with other creators' videos",
+    "live_streaming": "Go live for real-time engagement",
+    "tiktok_shop": "In-app shopping and product links",
+    "creator_fund": "Monetization for eligible creators",
+    "analytics": "TikTok Creator Portal insights",
+    "hashtag_challenges": "Branded and organic challenges",
+    "green_screen": "Custom background effects",
+    "voiceover": "Add narration to videos",
+    "text_to_speech": "Automated voice narration"
+  },
+  "content_types": {
+    "quick_tutorials": "15-30 second skill demonstrations (40%)",
+    "trending_formats": "Viral trends and challenges (30%)",
+    "behind_the_scenes": "Process videos and BTS content (20%)",
+    "entertainment": "Comedy, dance, lip-sync (10%)"
+  },
+  "technical_specs": {
+    "video_length": "15 seconds, 60 seconds, or 3 minutes (up to 10 min for some accounts)",
+    "optimal_length": "21-34 seconds (highest completion rate)",
+    "aspect_ratio": "9:16 (vertical)",
+    "resolution": "1080×1920px minimum",
+    "file_size": "Max 287.6 MB (iOS), 72 MB (Android)",
+    "formats": "MP4, MOV",
+    "frame_rate": "30 fps or 60 fps",
+    "bit_rate": "Standard video bitrate"
+  },
+  "optimal_posting": {
+    "frequency": "1-3 videos per day for algorithm favor",
+    "best_times": [
+      "Weekdays 6-10am EST (morning scroll)",
+      "Weekdays 7-11pm EST (evening entertainment)",
+      "Saturday 9am-11am EST (weekend browsing)"
+    ],
+    "consistency": "Daily posting trains audience and algorithm"
+  },
+  "algorithm_factors": {
+    "completion_rate": "PRIMARY metric - did viewers watch to the end?",
+    "rewatches": "Loop count signals engaging content",
+    "shares": "Strong virality signal",
+    "comments": "Engagement indicates discussion-worthy",
+    "likes": "Basic engagement signal",
+    "watch_time": "Total time spent on video",
+    "trending_sounds": "Using trending audio boosts discovery",
+    "hashtags": "3-5 relevant hashtags for categorization",
+    "post_frequency": "Consistent posting favored"
+  },
+  "best_practices": [
+    "Hook in first 3 seconds - CRITICAL for completion rate",
+    "Use trending sounds/audio for algorithm boost",
+    "Always add text overlays/captions (many watch without sound)",
+    "Keep videos 21-34 seconds for optimal completion",
+    "Post 1-3 times daily for consistent growth",
+    "Vertical video only (9:16 aspect ratio)",
+    "Film in good lighting (natural light best)",
+    "Use 3-5 relevant hashtags (not excessive)",
+    "Jump cuts and fast pacing maintain attention",
+    "End with CTA (follow, like, comment question)",
+    "Respond to comments quickly for engagement boost",
+    "Duet/Stitch trending videos in your niche",
+    "Participate in hashtag challenges",
+    "Show face (human connection increases engagement)",
+    "Use native TikTok editing tools (algorithm favor)"
+  ],
+  "content_strategy": {
+    "hook_types": [
+      "Question (make viewer curious)",
+      "Bold statement (controversial or surprising)",
+      "Visual pattern interrupt (unexpected action)",
+      "Relatable scenario (viewer sees themselves)"
+    ],
+    "video_structure": "Hook (3 sec) → Value (15-25 sec) → CTA (3-5 sec)",
+    "trending_audio": "Browse Discover page daily for trending sounds",
+    "niche_focus": "Consistent niche helps algorithm categorize",
+    "serial_content": "Series format encourages followers",
+    "duets_stitches": "Engage with trending content in your niche"
+  },
+  "performance_metrics": {
+    "completion_rate": "% who watched to end (PRIMARY TikTok metric)",
+    "average_watch_time": "How long viewers stay",
+    "likes": "Basic engagement",
+    "comments": "Discussion quality",
+    "shares": "Viral indicator",
+    "saves": "Valuable content (recipes, tutorials)",
+    "profile_visits": "Interest in creator",
+    "follower_growth": "Audience building",
+    "for_you_page": "Appearing on FYP = success"
+  },
+  "trending_sounds_strategy": {
+    "discovery": "Browse Discover page and For You feed",
+    "early_adoption": "Use sounds when they're trending up (not peaked)",
+    "relevance": "Match sound to your niche and content",
+    "original_sounds": "Create own sounds for potential virality",
+    "sound_credit": "Always credit original creators",
+    "trending_window": "Sounds trend for 3-7 days typically"
+  },
+  "hashtag_strategy": {
+    "quantity": "3-5 hashtags optimal (not 30)",
+    "types": "1 trending + 2-3 niche + 1 broad",
+    "avoid_spam": "Don't use irrelevant trending tags",
+    "challenges": "Participate in relevant hashtag challenges",
+    "branded": "Create own hashtags for campaigns",
+    "research": "Check hashtag views before using"
+  },
+  "duet_and_stitch_strategy": {
+    "duet": "Side-by-side reaction or addition to another video",
+    "stitch": "Use up to 5 seconds of another video, add yours",
+    "use_cases": [
+      "React to trending content",
+      "Add expertise to viral videos",
+      "Collaborate with other creators",
+      "Answer questions from community",
+      "Build on educational content"
+    ],
+    "permissions": "Respect creator settings (some disable duet/stitch)"
+  },
+  "integration_opportunities": [
+    "Cross-post to Instagram Reels and YouTube Shorts",
+    "Tease long-form YouTube content",
+    "Drive traffic to link in bio (Linktree, etc.)",
+    "Promote products via TikTok Shop",
+    "Repurpose from longer content",
+    "Build audience for other platforms",
+    "Collaborate with other TikTok creators"
+  ],
+  "common_use_cases": [
+    "Viral brand awareness campaigns",
+    "Product demonstrations and unboxings",
+    "Educational quick tips and tutorials",
+    "Behind-the-scenes and process videos",
+    "Trend participation and challenges",
+    "Entertainment and comedy content",
+    "Dance and music videos",
+    "Influencer marketing and sponsorships",
+    "User-generated content campaigns",
+    "Community building and engagement",
+    "Driving traffic to other platforms",
+    "E-commerce via TikTok Shop"
+  ],
+  "monetization": {
+    "creator_fund": "Earn based on views (need 10K+ followers, 100K views/30 days)",
+    "tiktok_shop": "Sell products directly in-app",
+    "live_gifts": "Receive virtual gifts during live streams",
+    "brand_partnerships": "Sponsored content and collaborations",
+    "affiliate_links": "Commissions on product promotions",
+    "tips": "Viewers can tip creators",
+    "creator_marketplace": "Connect with brands for campaigns"
+  },
+  "demographics": {
+    "primary_age": "16-24 (Gen Z core audience)",
+    "growing_age": "25-34 (Millennials increasing)",
+    "gender": "Relatively balanced (slight female skew)",
+    "geographic": "Global (especially strong in US, Europe, Southeast Asia)",
+    "psychographic": "Entertainment-seeking, trend-conscious, authentic content preference"
+  },
+  "tiktok_live_strategy": {
+    "requirements": "1,000+ followers to go live",
+    "frequency": "Weekly or more for community building",
+    "format": "Q&A, tutorials, BTS, challenges",
+    "engagement": "Respond to comments in real-time",
+    "gifts": "Viewers can send virtual gifts (monetization)",
+    "promotion": "Announce live session in advance via posts"
+  },
+  "tiktok_shop_integration": {
+    "product_showcase": "Add products to profile",
+    "video_tagging": "Tag products in videos",
+    "live_shopping": "Sell during live streams",
+    "commission": "TikTok takes percentage of sales",
+    "fulfillment": "Manage orders through TikTok",
+    "analytics": "Track product performance"
+  },
+  "pros": [
+    "Best algorithm for content discovery (not follower-dependent)",
+    "Fastest organic growth potential",
+    "Younger demographics (Gen Z)",
+    "High engagement rates",
+    "Viral potential for any account size",
+    "Powerful editing tools built-in",
+    "Trending audio boosts discoverability",
+    "Lower production quality acceptable (authenticity valued)",
+    "Creative and experimental culture",
+    "Strong for brand awareness"
+  ],
+  "cons": [
+    "Very competitive (requires daily posting)",
+    "Younger skewing audience (less B2B)",
+    "Short content lifespan (hours, not days)",
+    "Time-intensive content creation",
+    "Algorithm unpredictable",
+    "Difficult to drive external traffic (links restricted)",
+    "Platform controversies (data privacy concerns)",
+    "Creator Fund payouts relatively low",
+    "Constant need to follow trends",
+    "Less evergreen content value"
+  ],
+  "alternative_tools": [
+    "TOOL-SMM-001 (Instagram Reels) - Similar format, older audience",
+    "TOOL-VID-001 (YouTube Shorts) - Similar format, SEO benefit",
+    "Snapchat Spotlight - Short-form video alternative",
+    "Triller - Music-focused short videos"
+  ],
+  "tiktok_vs_instagram_reels": {
+    "tiktok_better_for": [
+      "Younger demographics (Gen Z)",
+      "Viral discovery (algorithm favors new creators)",
+      "Trend participation",
+      "Fast organic growth",
+      "Entertainment-first content",
+      "Creative experimentation"
+    ],
+    "reels_better_for": [
+      "Existing Instagram audience",
+      "Millennials and Gen X",
+      "Visual aesthetics",
+      "Brand integration with feed/stories",
+      "Link in bio traffic",
+      "Professional content"
+    ]
+  },
+  "tiktok_analytics": {
+    "creator_portal": "Desktop analytics dashboard",
+    "metrics_tracked": [
+      "Video views and watch time",
+      "Profile views and followers",
+      "Engagement (likes, comments, shares)",
+      "Audience demographics",
+      "Trending content in your niche",
+      "Sound performance",
+      "Traffic sources"
+    ],
+    "insights": "7-day, 28-day, 60-day windows"
+  },
+  "content_ideas": {
+    "tutorials": "Quick how-to in 30 seconds",
+    "before_after": "Transformation showcases",
+    "day_in_life": "Behind-the-scenes content",
+    "challenges": "Participate in trending challenges",
+    "reactions": "Duet/stitch with commentary",
+    "tips_tricks": "Quick valuable insights",
+    "storytelling": "Short narrative arcs",
+    "comedy": "Relatable humor in niche"
+  },
+  "caption_best_practices": {
+    "length": "Keep concise (150 characters recommended)",
+    "hook": "Start with attention-grabbing line",
+    "cta": "End with question or action",
+    "emojis": "Use sparingly for emphasis",
+    "hashtags": "3-5 relevant, placed at end",
+    "accessibility": "Describe visual elements for screen readers"
+  },
+  "source": "SMM_Research_Document_2_Content_Strategy_Multi_Platform",
+  "_migration": {
+    "date": "2025-11-26T02:01:31.351205",
+    "old_tool_id": "TOL-144",
+    "old_path": "TOL-144_TikTok.json",
+    "migrated_by": "restructure_tools_v1"
+  },
+  "name": "TikTok"
+}

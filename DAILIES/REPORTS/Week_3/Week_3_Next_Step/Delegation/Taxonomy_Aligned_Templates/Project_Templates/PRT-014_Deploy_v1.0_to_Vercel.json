@@ -1,0 +1,79 @@
+{
+  "entity_type": "TASK_MANAGERS",
+  "sub_entity": "Project_Template",
+  "template_id": "Project-Template-014",
+  "project_template_id": "PRT-014",
+  "metadata": {
+    "name": "Deploy v1.0 to Vercel",
+    "description": "Week 3 strategic project: Deploy v1.0 to Vercel",
+    "primary_department": "HRM",
+    "departments_involved": [
+      "AID",
+      "DEV",
+      "DGN",
+      "HRM"
+    ],
+    "project_type": "Strategic Initiative",
+    "estimated_duration": "2.8h",
+    "complexity": "Medium",
+    "status": "Active",
+    "priority": "High",
+    "created_date": "2025-11-26",
+    "version": "1.0"
+  },
+  "structure": {
+    "workflow_type": "Parallel",
+    "total_tasks": 12,
+    "total_milestones": 1,
+    "total_phases": 1
+  },
+  "milestones": [
+    {
+      "milestone_id": "MLT-030",
+      "milestone_name": "Deploy v1.0 to Vercel",
+      "phase": "1",
+      "description": "Deploy v1.0 to Vercel",
+      "task_count": 12,
+      "estimated_duration": "2.8h",
+      "execution_type": "Parallel",
+      "dependencies": null
+    }
+  ],
+  "phases": [
+    {
+      "phase_number": 1,
+      "phase_name": "Implementation",
+      "phase_description": "Complete Deploy v1.0 to Vercel",
+      "duration": "2.8h",
+      "complexity": "Medium",
+      "dependencies": null,
+      "milestones": "MLT-030",
+      "success_criteria": [
+        "All milestones completed",
+        "All deliverables approved",
+        "Project objectives achieved"
+      ]
+    }
+  ],
+  "performance_metrics": {
+    "estimated_hours": 2.8,
+    "task_count": 12,
+    "milestone_count": 1
+  },
+  "tags": [
+    "week-3",
+    "strategic",
+    "planning",
+    "hrm"
+  ],
+  "version": "1.0",
+  "created": "2025-11-26",
+  "last_updated": "2025-11-26",
+  "migration_notes": {
+    "source": "Week 3 Workflow Clustering",
+    "conversion_date": "2025-11-26",
+    "workflows_included": [
+      "WFC-007"
+    ]
+  }
+}

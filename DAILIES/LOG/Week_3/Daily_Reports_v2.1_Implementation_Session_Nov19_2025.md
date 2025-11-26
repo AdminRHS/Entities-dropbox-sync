@@ -89,7 +89,7 @@ Implemented comprehensive upgrade of Daily Reports system from 14-section to str
 - ✅ Pre-execution entity data loading (Step 0: Load TASK_MANAGERS CSVs)
 - ✅ Entity mapping integration (invoke PMT-070 for each activity)
 - ✅ 10-section v2.1 schema implementation
-- ✅ All 10 active departments supported (AID, HRM, DEV, DGN, VID, LGN, SLS, SMM, FNC, CNT)
+- ✅ All 10 active departments supported (AID, HRM, DEV, DGN, VID, LGN, SLS, SMM, FIN, CNT)
 - ✅ Entity validation process (5-point validation per entity)
 - ✅ Department extraction patterns documented
 - ✅ Quality standards enhanced
@@ -221,7 +221,7 @@ ENTITIES/TASK_MANAGERS/Step_Templates/Taxonomy/Step_Templates_Master_List.csv
 ```
 
 ### ✅ Department Codes
-**Active:** AID, HRM, DEV, LGN, DGN, VID, SLS, SMM, FNC, CNT
+**Active:** AID, HRM, DEV, LGN, DGN, VID, SLS, SMM, FIN, CNT
 **Removed:** MKT (deprecated)
 
 ### ✅ 10-Section Schema

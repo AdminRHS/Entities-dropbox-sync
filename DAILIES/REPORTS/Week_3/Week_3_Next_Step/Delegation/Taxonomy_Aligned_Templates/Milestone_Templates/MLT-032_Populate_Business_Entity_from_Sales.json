@@ -1,0 +1,58 @@
+{
+  "entity_type": "TASK_MANAGERS",
+  "sub_entity": "Milestone_Template",
+  "template_id": "Milestone-Template-032",
+  "milestone_template_id": "MLT-032",
+  "metadata": {
+    "milestone_name": "Populate Business Entity from Sales",
+    "description": "Milestone for Populate Business Entity from Sales within PRT-010",
+    "primary_department": "AID",
+    "related_project": "PRT-010",
+    "phase": "Planning",
+    "execution_type": "Parallel",
+    "priority": "High",
+    "estimated_duration": "0.0h",
+    "status": "Active",
+    "created_date": "2025-11-26",
+    "version": "1.0"
+  },
+  "tasks": {
+    "total_task_count": 1,
+    "task_template_ids": []
+  },
+  "deliverables": [
+    "Completed Populate Business Entity from Sales"
+  ],
+  "success_criteria": {
+    "quantitative": [
+      "1 tasks completed",
+      "All deliverables reviewed and approved"
+    ],
+    "qualitative": [
+      "Milestone objectives achieved",
+      "Quality standards met"
+    ]
+  },
+  "dependencies": {
+    "prerequisite_milestones": [],
+    "blocking": false
+  },
+  "performance_metrics": {
+    "estimated_hours": 0.0,
+    "task_count": 1
+  },
+  "tags": [
+    "planning",
+    "parallel",
+    "aid",
+    "prt-010"
+  ],
+  "version": "1.0",
+  "created": "2025-11-26",
+  "last_updated": "2025-11-26",
+  "migration_notes": {
+    "original_workflow_id": "WFC-003",
+    "converted_from": "Workflow_Clustering.csv",
+    "conversion_date": "2025-11-26"
+  }
+}

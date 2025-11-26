@@ -86,7 +86,7 @@ Video_022 demonstrates **Browse AI**, a no-code web scraping and automation tool
   - Direct export destination for Browse AI scraped data
   - Data storage and organization
   - Integration via Browse AI platform
-- **Department Applicability**: AID, LGN, MKT, FNC (data storage across departments)
+- **Department Applicability**: AID, LGN, MKT, FIN (data storage across departments)
 - **Cross-references**: TSK-008 (Export Data), STP-016 (Export to Google Sheets), MLS-003
 - **Related Tools**: Browse AI (integration source), n8n (potential automation integration)
 - **File Location**: `ENTITIES/LIBRARIES/LBS_003_Tools/Business_Tools/Google_Sheets.json`
@@ -435,6 +435,8 @@ Video_022 demonstrates **Browse AI**, a no-code web scraping and automation tool
 ---
 
 **Document Status**: READY FOR TAXONOMY UPDATES (Phase 6)
+
+
 
 
 

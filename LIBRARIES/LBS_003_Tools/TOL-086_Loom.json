@@ -1,0 +1,91 @@
+{
+  "entity_type": "LIBRARIES",
+  "sub_entity": "Tool",
+  "tool_id": "TOL-086",
+  "name": "Loom",
+  "vendor": "Loom",
+  "category": "AI/Video Tools",
+  "purpose": "Video messaging and screen recording for work communication",
+  "description": "Video messaging platform enabling users to record and share videos instantly. Used for asynchronous communication, screen recording, tutorials, and team collaboration.",
+  "skill_level_required": "Beginner",
+  "cost_structure": "Freemium (Free tier available, paid plans from $8/month)",
+  "platform_compatibility": [
+    "Web",
+    "Desktop",
+    "Mobile"
+  ],
+  "integration_capabilities": [
+    "Screen recording",
+    "Video sharing",
+    "Team collaboration",
+    "Integration with productivity tools",
+    "Video analytics"
+  ],
+  "documentation_url": "https://www.loom.com/looms/videos",
+  "actual_remote_helpers_usage": {
+    "primary_use": "Video Messaging and Screen Recording",
+    "users": [],
+    "use_cases": [
+      "enable async communication",
+      "record screens",
+      "create tutorials",
+      "collaborate teams",
+      "review videos",
+      "produce training videos"
+    ],
+    "workflows": []
+  },
+  "strengths": [
+    "Easy to use",
+    "Quick recording",
+    "Instant sharing",
+    "Screen recording",
+    "Team collaboration",
+    "Mobile support"
+  ],
+  "limitations": [
+    "Video length limits in free tier",
+    "Storage limits",
+    "Limited editing features",
+    "Requires internet for sharing"
+  ],
+  "departments_using": [
+    "AI"
+  ],
+  "finance_data": {
+    "subscription_status": "paid",
+    "total_accounts": 1,
+    "paid_accounts": 1,
+    "unpaid_accounts": 0,
+    "latest_valid_until": "2025-11-18",
+    "accounts": [
+      {
+        "email": "admin@rh-s.com",
+        "status": "paid",
+        "paid_date": "2025-10-18",
+        "valid_until": "2025-11-18",
+        "department": "AI"
+      }
+    ],
+    "departments_using": [
+      "AI"
+    ]
+  },
+  "tags": [
+    "video-messaging",
+    "screen-recording",
+    "communication",
+    "collaboration",
+    "tutorials",
+    "asynchronous"
+  ],
+  "discovery_date": "2025-01-27",
+  "discovery_source": "user_provided",
+  "status": "discovered_needs_review",
+  "_migration": {
+    "date": "2025-11-26T02:01:31.250691",
+    "old_tool_id": "TOL-086",
+    "old_path": "TOL-086_Loom.json",
+    "migrated_by": "restructure_tools_v1"
+  }
+}

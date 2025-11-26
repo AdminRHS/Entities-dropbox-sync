@@ -1,0 +1,289 @@
+{
+  "entity_type": "LIBRARIES",
+  "sub_entity": "Tool",
+  "tool_id": "TOL-131",
+  "name": "Seedream 4.0",
+  "vendor": "OpenArt / Seedream",
+  "category": "AI/Image Generation",
+  "purpose": "Specialized AI image generation model optimized for objects and environment scenes, accessible via OpenArt platform",
+  "description": "Seedream 4.0 is an AI image generation model accessible through the OpenArt platform, particularly optimized for generating high-quality object images and environmental scenes. In the demonstrated use case (Video 012), Seedream 4.0 successfully generated a marble statue and a park environment scene, both used as reference images for Google Veo 3.1's multi-image video generation feature (Elements). The model appears to excel at creating detailed objects with realistic textures and natural environments with proper lighting, making it ideal for creating reference images for video production workflows, product visualization, and scene composition.",
+  "skill_level_required": "Beginner to Intermediate",
+  "cost_structure": "Accessed via OpenArt platform credits/subscription",
+  "platform_compatibility": [
+    "Web (via OpenArt exclusively)"
+  ],
+  "integration_capabilities": [
+    "OpenArt platform integration",
+    "Google Veo 3.1 (generated images used as video reference frames via Elements feature)",
+    "OpenArt video workflow integration",
+    "Export to external tools (download)",
+    "Multi-image reference workflows"
+  ],
+  "documentation_url": "https://openart.ai (Seedream 4.0 access)",
+  "version": "4.0",
+  "actual_remote_helpers_usage": {
+    "primary_use": "Object & Environment Reference Image Generation for Video Production",
+    "users": [
+      "Video Producers",
+      "Content Creators",
+      "3D Artists",
+      "Product Designers",
+      "Environment Artists",
+      "Marketing Creatives",
+      "Social Media Managers"
+    ],
+    "use_cases": [
+      "generate object reference images for video production (statues, furniture, products)",
+      "create environment scenes for video backgrounds (parks, interiors, landscapes)",
+      "generate multiple reference images for multi-image video workflows (Veo 3.1 Elements)",
+      "create product visualization concepts",
+      "generate scene compositions for storyboarding",
+      "create reference images for 3D modeling",
+      "generate marketing visual assets",
+      "create social media background images"
+    ],
+    "typical_workflows": [
+      {
+        "task": "Multi-Image Reference Generation for Video",
+        "steps": [
+          "Navigate to Image section in OpenArt",
+          "Select Seedream 4.0 model from dropdown",
+          "Write detailed prompt for object (e.g., 'A beautifully weathered marble statue of [subject]')",
+          "Include: material details (marble, weathered), style, lighting, specific features",
+          "Click generate",
+          "Download object image",
+          "Switch prompt for environment scene (e.g., 'A serene park at sunset with [features]')",
+          "Generate environment image",
+          "Download environment image",
+          "Use both images as references in Veo 3.1 Elements feature for video generation"
+        ],
+        "complexity": "Low to Medium",
+        "time_estimate": "10-15 minutes (for 2-3 reference images)",
+        "example": "Video 012 [03:43-05:12] - Marble statue + park environment for social media video"
+      },
+      {
+        "task": "Product Visualization Concept",
+        "steps": [
+          "Define product concept and visual requirements",
+          "Write prompt describing product with material, lighting, context details",
+          "Generate with Seedream 4.0",
+          "Iterate if needed with refined prompts",
+          "Use for presentations, mockups, or video references"
+        ],
+        "complexity": "Low",
+        "time_estimate": "5-10 minutes per image"
+      }
+    ],
+    "integration_with_other_tools": [
+      "OpenArt (exclusive platform)",
+      "Google Veo 3.1 (use generated images as video reference frames in Elements feature)",
+      "OpenArt Photorealistic (combine character + object + environment references)",
+      "Photoshop (optional post-processing)",
+      "3D modeling tools (reference images)",
+      "Video editing tools (concept references)",
+      "Presentation tools (product concept visuals)"
+    ]
+  },
+  "key_features": [
+    "Object Generation Specialization - Optimized for detailed objects with realistic materials",
+    "Environment Scene Creation - Strong at generating natural and built environments",
+    "Realistic Texture Rendering - Handles materials like marble, wood, metal effectively",
+    "Lighting Mastery - Generates appropriate lighting for time of day and environment type",
+    "Detail Retention - Maintains fine details in weathering, textures, and features",
+    "Integrated OpenArt Workflow - Seamless transition to video generation with same assets",
+    "Multi-Image Reference Support - Images work well in Veo 3.1 Elements feature",
+    "Flexible Aspect Ratios - Supports various image dimensions"
+  ],
+  "strengths": [
+    "Excellent for object generation with realistic materials (marble, stone, metal)",
+    "Strong environment scene generation (parks, landscapes, interiors)",
+    "Integrated with OpenArt platform for seamless image-to-video workflows",
+    "Good prompt adherence for object and scene descriptions",
+    "Handles lighting complexity well (sunset, golden hour, atmospheric effects)",
+    "Creates professional-quality outputs suitable for reference images",
+    "Works seamlessly with Veo 3.1 Elements feature for multi-image video generation",
+    "Fast generation suitable for rapid iteration"
+  ],
+  "limitations": [
+    "Exclusive to OpenArt platform - not available as standalone or via other services",
+    "Pricing tied to OpenArt credits/subscription (less flexible than standalone APIs)",
+    "Limited documentation specific to Seedream 4.0 capabilities and differences from other models",
+    "May have platform-specific usage limits or quotas",
+    "Requires OpenArt account and internet connection",
+    "Uncertain how Seedream 4.0 differs technically from other image generation models",
+    "Less information available about optimal prompting strategies compared to major models like Midjourney"
+  ],
+  "specialized_capabilities": {
+    "object_generation": {
+      "description": "Generate detailed objects with realistic materials and textures",
+      "use_cases": [
+        "Statues and sculptures (marble, bronze, stone)",
+        "Furniture and decor items",
+        "Product concepts and visualizations",
+        "Props for video reference",
+        "Architectural elements"
+      ],
+      "example": "Video 012 [03:43]: Marble statue with weathered texture"
+    },
+    "environment_generation": {
+      "description": "Create natural and built environment scenes with proper lighting",
+      "use_cases": [
+        "Parks and outdoor spaces",
+        "Interior scenes",
+        "Landscape backgrounds",
+        "Urban environments",
+        "Video background references"
+      ],
+      "example": "Video 012 [04:32]: Park at sunset for video background"
+    },
+    "reference_image_creation": {
+      "description": "Generate images optimized for use as video generation references",
+      "use_cases": [
+        "Multi-image video workflows (Veo 3.1 Elements)",
+        "Video background plates",
+        "Character environment references",
+        "Product placement contexts",
+        "Scene composition planning"
+      ]
+    }
+  },
+  "business_value": [
+    "Eliminates need for stock photography for object and environment references",
+    "Enables rapid concept visualization for video planning",
+    "Integrates seamlessly with video workflow (image → Veo 3.1 Elements)",
+    "Cost-effective compared to custom photography or 3D rendering",
+    "Allows creative experimentation without budget constraints",
+    "Speeds up video pre-production with quick reference generation",
+    "Professional quality suitable for commercial video production references",
+    "Reduces dependency on location scouting for environment concepts"
+  ],
+  "use_case_examples": [
+    {
+      "use_case": "Social Media Storytelling Video (Multi-Image Reference)",
+      "scenario": "Create video of person discussing statue in park using 3 reference images",
+      "workflow": "Generate character portrait (OpenArt Photorealistic) → Generate statue (Seedream 4.0) → Generate park environment (Seedream 4.0) → Combine in Veo 3.1 Elements",
+      "seedream_contribution": "Provided statue and park environment references",
+      "outcome": "Realistic social media video with cohesive visual elements across all 3 references",
+      "timestamp": "Video 012 [03:43-05:12]",
+      "time_to_create": "~20 minutes total (5-7 minutes for Seedream images)",
+      "traditional_alternative": "Stock photography search + licensing = hours + $50-200"
+    },
+    {
+      "use_case": "Product Context Visualization",
+      "scenario": "Generate product placement concept showing product in various environments",
+      "workflow": "Use Seedream 4.0 to generate multiple environment options → Review with stakeholders → Select best for video production",
+      "outcome": "Quick concept validation before expensive video production",
+      "business_impact": "Reduces creative direction risk, speeds stakeholder alignment"
+    }
+  ],
+  "prompt_engineering_tips": [
+    "For objects: Specify material ('marble', 'weathered bronze', 'polished wood')",
+    "Include texture details ('weathered', 'polished', 'rough-hewn', 'smooth')",
+    "Define lighting ('soft golden light', 'dramatic side lighting', 'diffused sunlight')",
+    "For environments: Specify time of day ('sunset', 'golden hour', 'midday', 'dusk')",
+    "Include atmospheric details ('misty', 'clear', 'hazy', 'crisp autumn air')",
+    "Describe composition ('serene park', 'bustling urban square', 'quiet forest clearing')",
+    "Add specific features for environments ('winding stone path', 'modern architecture', 'ancient trees')",
+    "For reference images: Be specific about what elements need to be consistent with other references"
+  ],
+  "comparison_to_other_models": {
+    "vs_openart_photorealistic": {
+      "seedream_strength": "Better for objects and environments",
+      "photorealistic_strength": "Better for human portraits and characters",
+      "use_together": "Combine character portraits (Photorealistic) with object/environment scenes (Seedream) in Elements workflow"
+    },
+    "vs_flux_kontext": {
+      "seedream_strength": "Optimized for single objects and natural environments",
+      "flux_kontext_strength": "Better for complex scenes with many elements (crowds, brand logos)",
+      "use_case_split": "Seedream for simple scenes, Flux Kontext for complex multi-element compositions"
+    }
+  },
+  "departments_using": [
+    "Video Production",
+    "Content Creation",
+    "Marketing",
+    "Product Design",
+    "3D Visualization",
+    "Social Media",
+    "Creative Services"
+  ],
+  "professions_using": [
+    "Video Producer",
+    "Content Creator",
+    "3D Artist",
+    "Product Designer",
+    "Environment Artist",
+    "Marketing Creative",
+    "Social Media Manager",
+    "Concept Artist",
+    "Storyboard Artist"
+  ],
+  "skills_required": [
+    "Prompt engineering for objects and environments (beginner to intermediate)",
+    "Material and texture understanding (beginner)",
+    "Lighting concepts (beginner)",
+    "Environment composition knowledge (beginner to intermediate)",
+    "Creative concept development (intermediate)"
+  ],
+  "objects_created": [
+    "Object reference images (statues, furniture, products)",
+    "Environment scene images (parks, interiors, landscapes)",
+    "Video reference images (for Veo 3.1 Elements)",
+    "Product visualization concepts",
+    "Background plates for video",
+    "Scene composition references",
+    "Marketing visual assets"
+  ],
+  "tags": [
+    "ai",
+    "image-generation",
+    "object-generation",
+    "environment-scenes",
+    "reference-images",
+    "video-references",
+    "openart-exclusive",
+    "seedream",
+    "commercial-use",
+    "texture-rendering"
+  ],
+  "discovery_date": "2025-11-15",
+  "discovery_source": "Video_012_transcription_analysis",
+  "status": "active",
+  "related_workflows": [
+    "Multi-Image Reference Video Generation (PROC-VIDEO-002)",
+    "Video Reference Image Creation",
+    "Product Context Visualization",
+    "Scene Composition Planning"
+  ],
+  "related_tools": [
+    "OpenArt (exclusive platform - TOOL-AI-052)",
+    "Google Veo 3.1 (uses Seedream images for video Elements feature - TOOL-AI-051)",
+    "OpenArt Photorealistic (combine for multi-image workflows - TOOL-AI-056)",
+    "Flux Kontext (alternative for complex scenes - TOOL-AI-054)",
+    "Flux (base model family - TOOL-AI-053)"
+  ],
+  "video_references": [
+    {
+      "video_id": "Video_012",
+      "title": "Google Veo 3.1: A Deep Dive into New Features and Workflows via OpenArt",
+      "key_timestamps": [
+        "[03:43] - Seedream 4.0 selected in image section",
+        "[04:17] - Marble statue prompt written and generated",
+        "[04:32] - Park environment prompt written and generated",
+        "[05:04] - Both Seedream images used in Veo 3.1 Elements feature"
+      ],
+      "demonstrated_prompts": [
+        "Marble statue (object generation)",
+        "Park at sunset (environment generation)"
+      ],
+      "result": "Both images successfully integrated into video generation workflow"
+    }
+  ],
+  "research_notes": "Seedream 4.0 appears to be an OpenArt-specific image generation model. The exact technical specifications, training differences, or optimizations compared to other image models are not publicly documented. It may be: (1) A proprietary OpenArt model, (2) A fine-tuned version of an existing open-source model, or (3) A licensed model with OpenArt branding. The demonstrated capability (realistic marble statue with weathering, natural park environment) suggests strong object and environment generation capabilities. Further research into OpenArt's model catalog and Seedream-specific features would provide clarity. Version history (previous Seedream versions 1.0-3.0) should be investigated to understand model evolution.",
+  "_migration": {
+    "date": "2025-11-26T02:01:31.327532",
+    "old_tool_id": "TOL-131",
+    "old_path": "TOL-131_Seedream_4_0.json",
+    "migrated_by": "restructure_tools_v1"
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "entity_type": "LIBRARIES",
+  "sub_entity": "Tool",
+  "tool_id": "TOL-139",
+  "name": "Supabase",
+  "vendor": "Supabase",
+  "category": "Databases/Backend as a Service",
+  "purpose": "Hosted Postgres with simple authentication",
+  "description": "Backend-as-a-Service platform hosting Postgres with built-in authentication, row-level security, and real-time subscriptions. Perfect for simple auth needs. Integrates with Auth0 for enterprise requirements while maintaining Postgres compatibility. Used longer than Neon in the tech stack.",
+  "skill_level_required": "Beginner to Intermediate",
+  "cost_structure": "Free tier + Pay-as-you-go",
+  "platform_compatibility": [
+    "Web",
+    "Python",
+    "TypeScript",
+    "Mobile"
+  ],
+  "integration_capabilities": [
+    "Postgres database",
+    "Built-in authentication",
+    "Row-level security",
+    "Auth0 integration",
+    "Real-time subscriptions",
+    "Storage buckets",
+    "Edge functions"
+  ],
+  "documentation_url": "https://supabase.com/",
+  "actual_remote_helpers_usage": {
+    "primary_use": "Database + Simple Auth",
+    "users": [],
+    "use_cases": [
+      "host postgres",
+      "user authentication",
+      "store app data",
+      "row-level security",
+      "real-time data"
+    ],
+    "workflows": [
+      "WF-AI-001: Develop and Deploy AI Application"
+    ]
+  },
+  "strengths": [
+    "Simple authentication",
+    "Postgres hosting",
+    "Row-level security",
+    "Auth0 integration",
+    "Free tier generous",
+    "Real-time features"
+  ],
+  "limitations": [
+    "Less scalable than Neon",
+    "Limited enterprise features alone"
+  ],
+  "alternatives": [
+    {
+      "name": "Neon",
+      "comparison": "Better scalability, experimenting more recently"
+    }
+  ],
+  "departments_using": [],
+  "finance_data": {
+    "subscription_status": "unpaid",
+    "total_accounts": 1,
+    "paid_accounts": 0,
+    "unpaid_accounts": 1,
+    "latest_valid_until": "2025-10-08",
+    "accounts": [
+      {
+        "email": "admin@rh-s.com",
+        "status": "not paid",
+        "paid_date": "2025-09-08",
+        "valid_until": "2025-10-08",
+        "department": ""
+      }
+    ],
+    "departments_using": []
+  },
+  "tags": [
+    "postgres",
+    "baas",
+    "authentication",
+    "database",
+    "real-time"
+  ],
+  "discovery_date": "2025-11-13",
+  "discovery_source": "Video_005",
+  "status": "active",
+  "video_source": {
+    "video_id": "Video_005",
+    "video_title": "My Agentic Engineering Tech Stack",
+    "creator": "Cole",
+    "timestamp": "02:57-23:20"
+  },
+  "_migration": {
+    "date": "2025-11-26T02:01:31.342508",
+    "old_tool_id": "TOL-139",
+    "old_path": "TOL-139_Supabase.json",
+    "migrated_by": "restructure_tools_v1"
+  }
+}

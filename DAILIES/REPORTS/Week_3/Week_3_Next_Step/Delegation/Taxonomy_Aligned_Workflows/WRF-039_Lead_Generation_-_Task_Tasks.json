@@ -1,0 +1,52 @@
+{
+  "entity_type": "TASK_MANAGERS",
+  "sub_entity": "Workflow",
+  "workflow_id": "WRF-039",
+  "metadata": {
+    "workflow_name": "Lead Generation - Task Tasks",
+    "description": "Execution phase workflow for LGN department - Task category",
+    "primary_department": "LGN",
+    "departments_involved": [
+      "LGN"
+    ],
+    "workflow_type": "Parallel",
+    "execution_phase": "Execution",
+    "category": "Task",
+    "priority": "Medium",
+    "estimated_duration": "3.0h",
+    "complexity": "Medium",
+    "status": "Active",
+    "created_date": "2025-11-26",
+    "version": "1.0"
+  },
+  "tasks": {
+    "total_count": 6,
+    "task_ids": [
+      "TST-439",
+      "TSK-DEV-2025-11-20-002",
+      "TSK-DGN-2025-11-20-003",
+      "TSK-DGN-2025-11-20-007",
+      "TSK-LGN-2025-11-20-001",
+      "TSK-LGN-2025-11-20-005"
+    ],
+    "execution_type": "Parallel"
+  },
+  "performance_metrics": {
+    "total_estimated_hours": 3.0,
+    "task_count": 6
+  },
+  "tags": [
+    "execution",
+    "parallel",
+    "lgn",
+    "task"
+  ],
+  "version": "1.0",
+  "created": "2025-11-26",
+  "last_updated": "2025-11-26",
+  "migration_notes": {
+    "original_id": "WFC-039",
+    "converted_from": "WFC format",
+    "conversion_date": "2025-11-26"
+  }
+}

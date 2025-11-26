@@ -1,0 +1,95 @@
+{
+  "entity_type": "LIBRARIES",
+  "sub_entity": "Tool",
+  "tool_id": "TOL-082",
+  "name": "LangGraph",
+  "vendor": "LangChain",
+  "category": "AI/Multi-Agent Framework",
+  "purpose": "Orchestrate complex multi-agent workflows with state management and human-in-the-loop",
+  "description": "Multi-agent orchestration framework for connecting AI agents in complex workflows. Provides state management, agent routing, graph persistence, human-in-the-loop capabilities, and visual graph builder. Most mature framework for handling complex multi-agent systems.",
+  "skill_level_required": "Intermediate to Advanced",
+  "cost_structure": "Free (Open Source)",
+  "platform_compatibility": [
+    "Python",
+    "TypeScript"
+  ],
+  "integration_capabilities": [
+    "Pydantic AI agents",
+    "LangChain agents",
+    "Custom agent frameworks",
+    "State persistence",
+    "Human-in-the-loop",
+    "Graph visualization",
+    "Arcade (authorization)",
+    "Langfuse (observability)",
+    "Multiple LLM providers"
+  ],
+  "documentation_url": "https://langchain-ai.github.io/langgraph/",
+  "actual_remote_helpers_usage": {
+    "primary_use": "Multi-Agent Orchestration",
+    "users": [],
+    "use_cases": [
+      "connect multiple agents",
+      "manage agent state",
+      "route between agents",
+      "implement human-in-the-loop",
+      "persist agent graphs",
+      "visualize agent workflows",
+      "coordinate complex workflows"
+    ],
+    "workflows": [
+      "WF-AI-001: Develop and Deploy AI Application"
+    ]
+  },
+  "strengths": [
+    "Most mature multi-agent framework",
+    "Excellent state management",
+    "Built-in human-in-the-loop",
+    "Visual graph builder UI",
+    "Graph persistence",
+    "Strong community support",
+    "Works with any agent framework"
+  ],
+  "limitations": [
+    "Overkill for simple single-agent use cases",
+    "Steeper learning curve",
+    "Can be complex for beginners"
+  ],
+  "alternatives": [
+    {
+      "name": "CrewAI",
+      "comparison": "Popular but less mature for complex workflows"
+    },
+    {
+      "name": "Pydantic AI Graphs",
+      "comparison": "Same framework for single and multi-agent, but less mature"
+    }
+  ],
+  "departments_using": [],
+  "tags": [
+    "multi-agent",
+    "orchestration",
+    "state-management",
+    "human-in-loop",
+    "graph-workflows",
+    "agent-routing",
+    "python",
+    "typescript",
+    "open-source"
+  ],
+  "discovery_date": "2025-11-13",
+  "discovery_source": "Video_005",
+  "status": "active",
+  "video_source": {
+    "video_id": "Video_005",
+    "video_title": "My Agentic Engineering Tech Stack",
+    "creator": "Cole",
+    "timestamp": "07:49-08:26"
+  },
+  "_migration": {
+    "date": "2025-11-26T02:01:31.243856",
+    "old_tool_id": "TOL-082",
+    "old_path": "TOL-082_LangGraph.json",
+    "migrated_by": "restructure_tools_v1"
+  }
+}

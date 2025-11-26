@@ -8,6 +8,8 @@
 
 ## Contact Information
 
+- **Nov25 Folder:** /Dropbox/Nov25/Design/Kucherenko Iuliia
+
 - **Personal Email:** viligosh17@gmail.com
 - **Work Email:** julia.k.rhs@gmail.com
 - **Discord ID:** 997499428682334278

@@ -8,6 +8,8 @@
 
 ## Contact Information
 
+- **Nov25 Folder:** /Dropbox/Nov25/LG/Iskandarova Anush
+
 - **Personal Email:** nushnushok@icloud.com
 - **Work Email:** Not specified
 - **Discord ID:** 1126539079484457100

@@ -1,0 +1,60 @@
+{
+  "entity_type": "TASK_MANAGERS",
+  "sub_entity": "Milestone_Template",
+  "template_id": "Milestone-Template-035",
+  "milestone_template_id": "MLT-035",
+  "metadata": {
+    "milestone_name": "Create Job Sites folder in ENTITIES/ACCOUNTS",
+    "description": "Milestone for Create Job Sites folder in ENTITIES/ACCOUNTS within PRT-013",
+    "primary_department": "AID",
+    "related_project": "PRT-013",
+    "phase": "Planning",
+    "execution_type": "Sequential",
+    "priority": "High",
+    "estimated_duration": "12.0h",
+    "status": "Active",
+    "created_date": "2025-11-26",
+    "version": "1.0"
+  },
+  "tasks": {
+    "total_task_count": 5,
+    "task_template_ids": []
+  },
+  "deliverables": [
+    "Completed Create Job Sites folder in ENTITIES/ACCOUNTS"
+  ],
+  "success_criteria": {
+    "quantitative": [
+      "5 tasks completed",
+      "All deliverables reviewed and approved"
+    ],
+    "qualitative": [
+      "Milestone objectives achieved",
+      "Quality standards met"
+    ]
+  },
+  "dependencies": {
+    "prerequisite_milestones": [
+      "MLT-039"
+    ],
+    "blocking": false
+  },
+  "performance_metrics": {
+    "estimated_hours": 12.0,
+    "task_count": 5
+  },
+  "tags": [
+    "planning",
+    "sequential",
+    "aid",
+    "prt-013"
+  ],
+  "version": "1.0",
+  "created": "2025-11-26",
+  "last_updated": "2025-11-26",
+  "migration_notes": {
+    "original_workflow_id": "WFC-006",
+    "converted_from": "Workflow_Clustering.csv",
+    "conversion_date": "2025-11-26"
+  }
+}

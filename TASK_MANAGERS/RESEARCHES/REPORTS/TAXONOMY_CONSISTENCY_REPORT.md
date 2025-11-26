@@ -100,7 +100,7 @@ Copy-paste error in November_2025_Week_3_Analysis.md that propagated to Phase_0_
 ```
 DPT-002 → HR Department (ISO: HRM)
 DPT-007 → Sales Department (ISO: SLS)
-DPT-009 → Finance Department (ISO: FNC)
+DPT-009 → Finance Department (ISO: FIN)
 ```
 
 ---
@@ -186,7 +186,7 @@ Update all department headers in Phase_0_Template.md to include ISO codes for co
 ✓ Video Department (DPT-006 - VID)
 ✓ Sales Department (DPT-007 - SLS)
 ✓ SMM Department (DPT-008 - SMM)
-✓ Finance Department (DPT-009 - FNC)
+✓ Finance Department (DPT-009 - FIN)
 ```
 
 ---
@@ -205,7 +205,7 @@ Update all department headers in Phase_0_Template.md to include ISO codes for co
 | DPT-006 | Video Department | VID | Video Production Department |
 | DPT-007 | Sales Department | SLS | Sales Department |
 | DPT-008 | SMM Department | SMM | Social Media Management Department |
-| DPT-009 | Finance Department | FNC | Finance Department |
+| DPT-009 | Finance Department | FIN | Finance Department |
 
 **⚠️ No department should use another department's number!**
 
@@ -262,7 +262,7 @@ This file demonstrates **perfect taxonomy usage**:
 ### AI Department (DPT-001 - AID)           ✓ CORRECT
 ### Design Department (DPT-005 - DGN)       ✓ CORRECT
 ### Development Department (DPT-003 - DEV)  ✓ CORRECT
-### Finance Department (DPT-009 - FNC)      ✓ CORRECT
+### Finance Department (DPT-009 - FIN)      ✓ CORRECT
 ### HR Department (DPT-002 - HRM)           ✓ CORRECT
 ### Lead Generation Department (DPT-004 - LGN) ✓ CORRECT
 ### Sales Department (DPT-007 - SLS)        ✓ CORRECT
@@ -359,7 +359,7 @@ Use this checklist when creating or reviewing RESEARCHES documents:
 - [ ] DPT-006 = Video Department (ISO: VID)
 - [ ] DPT-007 = Sales Department (ISO: SLS) ← Often confused with DPT-009
 - [ ] DPT-008 = SMM Department (ISO: SMM)
-- [ ] DPT-009 = Finance Department (ISO: FNC) ← Only Finance!
+- [ ] DPT-009 = Finance Department (ISO: FIN) ← Only Finance!
 
 **Format Standards:**
 - [ ] Use format: `[Department Name] (DPT-XXX - ISO)`

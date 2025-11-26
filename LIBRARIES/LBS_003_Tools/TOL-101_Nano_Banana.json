@@ -1,0 +1,295 @@
+{
+  "entity_type": "LIBRARIES",
+  "sub_entity": "Tool",
+  "tool_id": "TOL-101",
+  "name": "Nano Banana",
+  "vendor": "Nano Banana",
+  "category": "AI/Generative AI (Images)",
+  "purpose": "AI image generation and manipulation for creative content, thumbnails, and style-specific imagery",
+  "description": "Nano Banana is an AI image generation and editing tool specialized in creating high-quality visuals with specific style applications. Accessible through multiple platforms including GLIF (via Nano Banana Ultimate agent), Gemini/AI Studio, and OpenArt. Particularly effective for YouTube thumbnail generation, marketing imagery, style transfer applications (e.g., Mr. Beast style optimization), and product image editing. On OpenArt, Nano Banana functions as an image editing model for modifying existing images via text prompts, especially useful for creating product video end frames by changing backgrounds, rotating products, and modifying environments while maintaining subject consistency.",
+  "skill_level_required": "Beginner to Intermediate",
+  "cost_structure": "Usage-based (typically accessed via GLIF platform)",
+  "platform_compatibility": [
+    "Web",
+    "API",
+    "GLIF Integration",
+    "Gemini",
+    "AI Studio",
+    "OpenArt Platform"
+  ],
+  "integration_capabilities": [
+    "Text-to-image generation",
+    "Image-to-image editing (OpenArt)",
+    "Image-to-image style transfer",
+    "Style-specific optimization (Mr. Beast style, high CTR designs)",
+    "Thumbnail generation",
+    "Marketing visual creation",
+    "Brand mascot design",
+    "Icon generation",
+    "Reference image processing",
+    "Automated prompting via GLIF agents",
+    "Product image background replacement (OpenArt)",
+    "Product rotation and repositioning (OpenArt)",
+    "Environment modification while maintaining subject (OpenArt)",
+    "Video frame creation for Google Veo 3.1 (OpenArt)"
+  ],
+  "documentation_url": "https://glif.app (accessed via GLIF agents)",
+  "actual_remote_helpers_usage": {
+    "primary_use": "YouTube Thumbnail Generation and Marketing Visual Creation",
+    "users": [
+      "Content Creators",
+      "YouTube Creators",
+      "Designers",
+      "Marketing Teams",
+      "Social Media Managers",
+      "Video Producers",
+      "Product Marketers",
+      "E-commerce Managers"
+    ],
+    "team_members": [
+      "YouTube content creators optimizing thumbnails",
+      "Marketing designers creating ad visuals",
+      "Social media managers generating engaging graphics",
+      "Brand designers creating mascots and icons"
+    ],
+    "use_cases": [
+      "optimize youtube thumbnails",
+      "optimize thumbnails",
+      "generate marketing visuals",
+      "create mascots",
+      "design icons",
+      "generate reference images",
+      "design social graphics",
+      "test thumbnails",
+      "transfer brand style",
+      "create ad visuals",
+      "create product video end frames",
+      "change product image backgrounds",
+      "rotate and reposition products in images",
+      "modify product environments for video transitions",
+      "create matching frames for video continuity",
+      "edit product images for e-commerce",
+      "transform people into AI characters for viral hooks",
+      "create alien character transformations",
+      "generate robot character variations",
+      "design superhero transformations",
+      "iterative character refinement"
+    ],
+    "typical_workflows": [
+      {
+        "task": "Create High-CTR YouTube Thumbnail",
+        "steps": [
+          "Access Nano Banana Ultimate agent in GLIF",
+          "Upload reference thumbnail or describe concept",
+          "Specify style parameters (e.g., 'Mr. Beast style', 'high CTR', 'more contrast', 'fresher')",
+          "Agent auto-generates optimized prompts",
+          "Review generated thumbnail variants",
+          "Select best option or iterate with refined parameters",
+          "Download final thumbnail (PNG/JPG)",
+          "Upload to YouTube"
+        ],
+        "complexity": "Low",
+        "time_estimate": "5-15 minutes"
+      },
+      {
+        "task": "Generate Brand Mascot",
+        "steps": [
+          "Define mascot concept and brand identity",
+          "Input description into Nano Banana (via GLIF)",
+          "Specify style, color palette, and character attributes",
+          "Generate multiple mascot variants",
+          "Review and select preferred design",
+          "Refine with additional prompts",
+          "Export for brand usage",
+          "Create variations for different contexts"
+        ],
+        "complexity": "Medium",
+        "time_estimate": "20-40 minutes"
+      },
+      {
+        "task": "Create Marketing Visual Set",
+        "steps": [
+          "Define campaign theme and visual requirements",
+          "Set up batch generation in GLIF workflow",
+          "Generate multiple marketing visuals (banners, ads, social posts)",
+          "Review consistency across variants",
+          "Select best performers",
+          "Export in required formats",
+          "Deploy across marketing channels"
+        ],
+        "complexity": "Medium",
+        "time_estimate": "30-60 minutes"
+      },
+      {
+        "task": "Create Product Video End Frame (OpenArt)",
+        "steps": [
+          "Start with existing product image (e.g., product on white background)",
+          "Navigate to Image section in OpenArt",
+          "Import/upload product image",
+          "Select Nano Banana model",
+          "Write modification prompt: 'Change the product environment to [new background] and [rotation/position change]'",
+          "Example: 'Change the product environment to a solid black background and turn the headphones around'",
+          "Generate modified image",
+          "Download modified image as end frame",
+          "Use original (start frame) + modified (end frame) in Google Veo 3.1 for seamless transition video"
+        ],
+        "complexity": "Low",
+        "time_estimate": "5-10 minutes",
+        "platform": "OpenArt",
+        "use_case": "Product commercial video frame creation",
+        "video_reference": "Video_012 [08:02-08:28]"
+      },
+      {
+        "task": "Create AI Character from Video Frame for Viral Hook",
+        "steps": [
+          "Export last frame from original video clip as image",
+          "Upload image to Gemini",
+          "Access Nano Banana within Gemini interface",
+          "Describe desired character transformation (e.g., 'turn me into a bright pink alien with 2 antennas')",
+          "Allow Nano Banana to edit the image",
+          "Review generated character",
+          "Re-prompt if realism needs improvement",
+          "Iterate multiple times for best results",
+          "Select best variation",
+          "Download final character image in full size"
+        ],
+        "complexity": "Low to Medium",
+        "time_estimate": "5-15 minutes",
+        "platform": "Gemini",
+        "use_case": "Character transformation for viral video hooks"
+      }
+    ],
+    "integration_with_other_tools": [
+      "GLIF - Primary workflow platform (Nano Banana Ultimate agent)",
+      "OpenArt - Image editing and product frame modification",
+      "Google Veo 3.1 - Uses Nano Banana frames for video generation",
+      "Gemini - AI model platform access and character transformation interface",
+      "AI Studio - Model interface access",
+      "Photoshop - Post-processing and refinement",
+      "Canva - Template integration",
+      "Figma - Design system integration",
+      "YouTube Studio - Direct thumbnail upload",
+      "Social media platforms - Content publishing",
+      "Marketing automation tools - Campaign integration",
+      "E-commerce platforms - Product image variations",
+      "Premiere Pro - Frame export for character transformation",
+      "Veo 3 - Animates character images",
+      "Midjourney - Transition videos between character states",
+      "ElevenLabs - Audio for character transformation videos"
+    ],
+    "internal_platforms_served": [
+      "BZ-V (Business Video) - Thumbnail creation for video content",
+      "DGN (Design Services) - Marketing visual generation",
+      "SMM (Social Media Marketing) - Social graphics creation",
+      "Marketing - Campaign asset generation",
+      "Brand Development - Mascot and icon creation",
+      "Content Creation - Visual content for various channels",
+      "Viral Content Creation - Character transformation for viral video hooks"
+    ]
+  },
+  "strengths": [
+    "Excellent for YouTube thumbnail optimization",
+    "Style-specific generation (Mr. Beast style, high CTR designs)",
+    "Fast generation speed",
+    "Integrated with GLIF for automated workflows",
+    "Good for A/B testing visual variants",
+    "Effective CTR optimization capabilities",
+    "Suitable for marketing and advertising visuals",
+    "User-friendly via GLIF agents (no complex prompting needed)",
+    "Maintains product consistency during image editing (OpenArt)",
+    "Simple text-prompt interface for image modifications",
+    "Perfect for video frame workflows with Google Veo 3.1",
+    "Multi-platform accessibility (GLIF, Gemini, AI Studio, OpenArt)",
+    "Effective for character transformation from photos",
+    "Iterative refinement support for realistic results"
+  ],
+  "limitations": [
+    "Primary access through GLIF platform",
+    "Limited standalone documentation",
+    "Style transfer quality varies by complexity",
+    "May require iteration for perfect results",
+    "Less control than traditional design tools",
+    "Dependent on GLIF platform availability",
+    "Usage costs through GLIF credits"
+  ],
+  "departments_using": [
+    "Content Creation",
+    "Marketing",
+    "Design",
+    "Social Media Management",
+    "Video Production",
+    "Viral Content Creators"
+  ],
+  "typical_output_formats": [
+    "PNG",
+    "JPG",
+    "High-resolution images"
+  ],
+  "style_specializations": [
+    "Mr. Beast style thumbnails (bold text, high contrast, dramatic visuals)",
+    "High CTR optimization (attention-grabbing designs)",
+    "YouTube thumbnail best practices",
+    "Social media graphic styles",
+    "Marketing banner aesthetics",
+    "Brand-consistent visuals"
+  ],
+  "best_practices": [
+    "Use specific style references (e.g., 'Mr. Beast style') for better results",
+    "Specify CTR optimization goals in prompts",
+    "Request 'more contrast' and 'fresher' for engaging visuals",
+    "Generate multiple variants for A/B testing",
+    "Combine with analytics to identify winning thumbnail styles",
+    "Iterate based on performance metrics",
+    "Use reference images when available"
+  ],
+  "tags": [
+    "ai",
+    "image-generation",
+    "image-editing",
+    "thumbnails",
+    "youtube",
+    "marketing-visuals",
+    "ctr-optimization",
+    "glif-integration",
+    "style-transfer",
+    "content-creation",
+    "product-images",
+    "video-frames",
+    "openart",
+    "gemini",
+    "ai-studio",
+    "character-transformation",
+    "viral-content",
+    "ai-characters"
+  ],
+  "video_references": [
+    {
+      "video_id": "Video_012",
+      "title": "Google Veo 3.1: A Deep Dive into New Features and Workflows via OpenArt",
+      "key_timestamps": [
+        "[08:02] - Nano Banana used for product image modification in OpenArt",
+        "[08:02-08:28] - Demonstration of changing product background and rotation",
+        "[08:28] - Modified image used as end frame for video generation"
+      ],
+      "demonstrated_use_case": "Creating matching end frame for AirPods Max commercial (white studio → black backdrop + rotation)"
+    }
+  ],
+  "related_tools": [
+    "GLIF (TOOL-AI-XXX)",
+    "OpenArt (TOOL-AI-052)",
+    "Google Veo 3.1 (TOOL-AI-051)",
+    "Gemini",
+    "AI Studio"
+  ],
+  "related_workflows": [
+    "Multi-Scene Product Commercial Creation (PROC-VIDEO-001)",
+    "YouTube Thumbnail Optimization",
+    "Product Image Editing for E-commerce"
+  ],
+  "_migration": {
+    "date": "2025-11-26T02:01:31.274607",
+    "old_tool_id": "TOL-101",
+    "old_path": "TOL-101_Nano_Banana.json",
+    "migrated_by": "restructure_tools_v1"
+  }
+}

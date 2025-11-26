@@ -8,6 +8,8 @@
 
 ## Contact Information
 
+- **Nov25 Folder:** /Dropbox/Nov25/Design/Yarmachenko Kristina
+
 - **Personal Email:** kk.yarmachenko@gmail.com
 - **Work Email:** Not specified
 - **Discord ID:** Not specified

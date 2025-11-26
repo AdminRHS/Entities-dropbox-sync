@@ -1,0 +1,167 @@
+{
+  "entity_type": "LIBRARIES",
+  "sub_entity": "Tool",
+  "tool_id": "TOL-125",
+  "name": "Revelo",
+  "vendor": "Revelo Inc.",
+  "category": "Specialized Talent Platform / Software Development / HR Tools",
+  "purpose": "Platform for hiring pre-vetted, English-speaking remote software developers from Latin America with end-to-end administrative support",
+  "description": "Revelo is a comprehensive remote-first staffing solution specializing in connecting companies with high-quality software developers from Latin America. The platform features the largest network of pre-vetted English-speaking developers (300,000+ pool), all in the same time zone as the United States. Revelo handles all administrative tasks including payroll, benefits, taxes, and local compliance, making it a hassle-free experience for companies. The rigorous vetting process assesses technical skills, English proficiency, and soft skills. Matching is fast (3-5 days for shortlist) and includes a dedicated matching team. Offers 14-day no-cost guarantee with replacement if unsatisfied.",
+  "skill_level_required": "Intermediate",
+  "cost_structure": "Custom quotes (estimated $30-$70/hour); all-inclusive pricing covers developer salary + payroll/benefits/taxes/compliance management",
+  "platform_compatibility": [
+    "Web Platform",
+    "Interview Scheduling Tools",
+    "Contract Management Dashboard"
+  ],
+  "integration_capabilities": [
+    "Payroll management",
+    "Benefits administration",
+    "Tax handling",
+    "Local compliance",
+    "Interview scheduling",
+    "Contract tracking"
+  ],
+  "documentation_url": "https://www.revelo.com",
+  "actual_remote_helpers_usage": {
+    "primary_use": "Potential platform for scaling Dev and AI departments with long-term developer hires",
+    "users": [
+      "Dev Department Lead",
+      "AI Department Lead",
+      "HR Manager"
+    ],
+    "use_cases": [
+      "Hiring additional developers for large client projects",
+      "Building remote development team with administrative ease",
+      "Accessing specialized AI/ML developers for automation projects",
+      "Scaling development capacity without in-house hiring overhead"
+    ],
+    "workflows": [
+      "HIRE_SPECIALIST_CURATED_PLATFORM",
+      "SUBMIT_HIRING_REQUIREMENTS",
+      "INTERVIEW_SHORTLISTED_CANDIDATES"
+    ],
+    "typical_workflow_pattern": [
+      {
+        "task": "Hire Remote Developer via Revelo",
+        "steps": [
+          "Access Revelo platform (free)",
+          "Specify candidate requirements (skills, experience, availability)",
+          "Revelo matching team sources from 300K+ pool",
+          "Receive shortlist of 3-5 best-fit candidates (3-5 days)",
+          "Schedule interviews directly through platform",
+          "Select ideal candidate",
+          "Revelo assists with salary negotiation",
+          "Contract process managed within platform",
+          "Developer onboarded with payroll/benefits/taxes handled by Revelo"
+        ],
+        "complexity": "Medium",
+        "status": "RECOMMENDED_FOR_LONG_TERM_HIRES"
+      },
+      {
+        "task": "Scale Dev Team for Large Project",
+        "steps": [
+          "Identify project needs (e.g., 2 additional full-stack developers)",
+          "Submit requirements to Revelo",
+          "Interview shortlist within 1 week",
+          "Hire developers with 14-day trial (no-cost guarantee)",
+          "Revelo handles all admin (payroll, compliance, benefits)",
+          "Focus on project delivery, not HR overhead"
+        ],
+        "complexity": "Medium-High",
+        "status": "STRATEGIC_OPTION_FOR_SCALING"
+      }
+    ]
+  },
+  "strengths": [
+    "Pre-vetted talent pool (300K+ developers, rigorous assessment)",
+    "English-speaking developers (seamless communication)",
+    "Same time zone as U.S. (real-time collaboration)",
+    "End-to-end administrative support (payroll, benefits, taxes, compliance)",
+    "Fast matching (3-5 days for shortlist)",
+    "14-day no-cost guarantee (risk-free trial)",
+    "Dedicated matching team (not self-service)",
+    "Ongoing engagement and retention support",
+    "Removes HR overhead for international hiring"
+  ],
+  "limitations": [
+    "Specialized for software development only (not generalist)",
+    "Geographic limitation (Latin America only)",
+    "Likely higher cost than general platforms (premium service)",
+    "Requires commitment (not for one-off tasks)",
+    "Custom pricing (not transparent upfront)"
+  ],
+  "departments_using": [
+    "Dev (Primary)",
+    "AI (Secondary)",
+    "HR (Administrative)"
+  ],
+  "tags": [
+    "software-development",
+    "remote-developers",
+    "latin-america",
+    "pre-vetted",
+    "payroll-management",
+    "hr-tools",
+    "talent-platform"
+  ],
+  "discovery_date": "2025-11-22",
+  "discovery_source": "Video_019_Freelance_Remote_Hiring_Websites",
+  "status": "strategic_option_for_dev_scaling",
+  "remote_helpers_context": {
+    "relevance_score": 68,
+    "strategic_alignment": "Aligned with Dev department scaling needs for large projects",
+    "implementation_priority": "Medium",
+    "pilot_test_recommendation": "Consider when Dev team needs 1+ additional developers for 3+ month project",
+    "decision_timeline": "Evaluate during next large client project requiring additional dev capacity"
+  },
+  "pricing_examples": {
+    "estimated_hourly_rate": "$30-$70/hour",
+    "part_time_monthly_cost": "$2,400-$5,600 (80 hours/month)",
+    "full_time_monthly_cost": "$4,800-$11,200 (160 hours/month)",
+    "value_proposition": "No HR overhead for payroll/benefits/compliance (included in pricing)"
+  },
+  "vetting_process": {
+    "technical_skills": "Coding challenges, technical interviews, portfolio review, problem-solving tests",
+    "english_proficiency": "Written and verbal communication tests",
+    "soft_skills": "Communication style, teamwork, professionalism, cultural fit",
+    "result": "Only highly qualified professionals make it to platform"
+  },
+  "use_cases_by_department": {
+    "Dev": "Scaling development team for large projects, accessing specialized skills (blockchain, microservices)",
+    "AI": "Hiring AI/ML developers for specialized automation projects, model development",
+    "HR": "Simplified international hiring with payroll/compliance handled by Revelo"
+  },
+  "when_to_use": [
+    "Need for dedicated, full-time or part-time developers",
+    "Prefer pre-vetted talent over marketplace vetting",
+    "Require same time zone for real-time collaboration (U.S. hours)",
+    "Want administrative burden (payroll, taxes) handled by platform",
+    "Building long-term remote development team (3+ months)",
+    "Large project requiring additional dev capacity"
+  ],
+  "when_not_to_use": [
+    "One-off tasks or short-term projects (<3 months) - UpWork better",
+    "Need for non-development skills - use general marketplace",
+    "Geographic preference outside Latin America",
+    "Tight budget constraints - UpWork may be more affordable",
+    "Require diverse skill sets beyond software development"
+  ],
+  "comparison_with_alternatives": {
+    "vs_UpWork": "Revelo better for pre-vetted devs with admin support; UpWork more flexible/affordable for short-term",
+    "vs_Fiverr": "Revelo for long-term developers; Fiverr for quick dev tasks",
+    "vs_MarketerHire": "Different specialization (dev vs marketing); similar vetting quality and speed"
+  },
+  "revelo_guarantee": {
+    "duration": "14 days",
+    "terms": "If unsatisfied within first 14 days, no charges incurred",
+    "replacement": "Revelo finds replacement at no additional cost",
+    "risk": "Minimal (try before committing)"
+  },
+  "_migration": {
+    "date": "2025-11-26T02:01:31.316705",
+    "old_tool_id": "TOL-125",
+    "old_path": "TOL-125_Revelo.json",
+    "migrated_by": "restructure_tools_v1"
+  }
+}

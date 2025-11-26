@@ -8,6 +8,8 @@
 
 ## Contact Information
 
+- **Nov25 Folder:** /Dropbox/Nov25/AI/Perederii Vladislav
+
 - **Personal Email:** vladyslav.perederii@nure.ua
 - **Work Email:** vladyslav.perederii.rh@gmail.com
 - **Discord ID:** 1381247747650486312

@@ -1,0 +1,155 @@
+{
+  "entity_type": "LIBRARIES",
+  "sub_entity": "Tool",
+  "tool_id": "TOL-083",
+  "name": "Leonardo.ai",
+  "vendor": "Leonardo.Ai",
+  "category": "AI/Generative AI",
+  "purpose": "AI image creation with artistic styles and controlnets",
+  "description": "AI image generation platform with fine-tuned models, style presets, and control tools. Alternative/complement to Midjourney with more direct control and customization options.",
+  "skill_level_required": "Intermediate",
+  "cost_structure": "Freemium (Free tier + paid plans $10-$48/month)",
+  "platform_compatibility": [
+    "Web"
+  ],
+  "integration_capabilities": [
+    "Multiple AI models (Leonardo Phoenix, SDXL, etc.)",
+    "Style presets and fine-tuned models",
+    "ControlNet (pose, edge, depth)",
+    "Image-to-image generation",
+    "Upscaling",
+    "Background removal",
+    "API access"
+  ],
+  "documentation_url": "https://app.leonardo.ai/image-generation",
+  "actual_remote_helpers_usage": {
+    "primary_use": "AI Image Creation with Artistic Styles",
+    "users": [
+      "Design Team",
+      "Graphic Designers",
+      "Illustrators"
+    ],
+    "team_members": [
+      "Designers for stylized imagery",
+      "Illustrators for artistic reference",
+      "Graphic designers for marketing visuals"
+    ],
+    "use_cases": [
+      "create artistic images",
+      "generate course covers",
+      "design course materials",
+      "generate thumbnails",
+      "generate character poses",
+      "refine characters",
+      "create design backgrounds",
+      "concept product visuals",
+      "stylize marketing imagery",
+      "iterate images",
+      "explore project styles"
+    ],
+    "typical_workflows": [
+      {
+        "task": "Generate Styled Marketing Image",
+        "steps": [
+          "Select appropriate fine-tuned model (e.g., Leonardo Anime XL, Leonardo Diffusion XL)",
+          "Craft prompt with artistic style, subject, composition",
+          "Use ControlNet if specific pose/structure needed",
+          "Generate variations",
+          "Select best output",
+          "Upscale if needed",
+          "Import to Photoshop/Figma for final editing"
+        ],
+        "complexity": "Medium",
+        "time_estimate": "30-90 minutes"
+      }
+    ],
+    "advantages_over_midjourney": [
+      "More control with ControlNet",
+      "Variety of fine-tuned models",
+      "Image-to-image workflows",
+      "Background removal tool",
+      "Better for consistent character generation",
+      "Free tier available"
+    ],
+    "internal_platforms_served": [
+      "DGN (Design Services) - Artistic portfolio pieces",
+      "All platforms - Stylized marketing imagery"
+    ]
+  },
+  "strengths": [
+    "Multiple specialized models",
+    "ControlNet for precise control",
+    "Free tier for experimentation",
+    "Image-to-image workflows",
+    "Good for character consistency",
+    "Background removal included"
+  ],
+  "limitations": [
+    "Interface can be complex",
+    "Quality varies by model",
+    "Requires experimentation",
+    "Output quality sometimes below Midjourney",
+    "Limited prompt tokens on free tier"
+  ],
+  "departments_using": [
+    "Design",
+    "SMM"
+  ],
+  "usage_statistics": {
+    "nov_20_2025": {
+      "references": 4,
+      "tasks_linked": [
+        "TST-076 (Create Course Materials)"
+      ],
+      "departments_active": [
+        "Design",
+        "SMM"
+      ],
+      "note": "HIGH USAGE - 4 references on Nov 20"
+    }
+  },
+  "finance_data": {
+    "subscription_status": "paid",
+    "total_accounts": 2,
+    "paid_accounts": 2,
+    "unpaid_accounts": 0,
+    "latest_valid_until": "2025-12-20",
+    "accounts": [
+      {
+        "email": "design@rh-s.com",
+        "status": "paid",
+        "tier": "pro",
+        "department": "Design"
+      },
+      {
+        "email": "smm@rh-s.com",
+        "status": "paid",
+        "tier": "pro",
+        "department": "SMM"
+      }
+    ]
+  },
+  "typical_output_formats": [
+    "PNG",
+    "JPG"
+  ],
+  "tags": [
+    "ai",
+    "generative-ai",
+    "image-generation",
+    "artistic-styles",
+    "controlnet",
+    "course-materials",
+    "high-usage"
+  ],
+  "discovery_date": "2025-01-27",
+  "discovery_source": "Daily_Reports",
+  "status": "active",
+  "last_updated": "2025-11-21",
+  "_migration": {
+    "date": "2025-11-26T02:01:31.245066",
+    "old_tool_id": "TOL-083",
+    "old_path": "TOL-083_Leonardo_AI.json",
+    "migrated_by": "restructure_tools_v1"
+  }
+}

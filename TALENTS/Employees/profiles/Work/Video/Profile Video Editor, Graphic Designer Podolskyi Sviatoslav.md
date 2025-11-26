@@ -8,6 +8,8 @@
 
 ## Contact Information
 
+- **Nov25 Folder:** /Dropbox/Nov25/Video/Podolskyi Sviatoslav
+
 - **Personal Email:** neozoy.x@gmail.com
 - **Work Email:** Not specified
 - **Discord ID:** 918515751177060363

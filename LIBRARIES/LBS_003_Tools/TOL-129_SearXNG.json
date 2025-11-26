@@ -1,0 +1,77 @@
+{
+  "entity_type": "LIBRARIES",
+  "sub_entity": "Tool",
+  "tool_id": "TOL-129",
+  "name": "SearXNG",
+  "vendor": "SearXNG Community",
+  "category": "AI/Local Web Search",
+  "purpose": "Privacy-focused self-hosted metasearch engine",
+  "description": "Completely local, privacy-focused metasearch engine that aggregates results from multiple search engines. Self-hostable alternative to Brave Search or Perplexity for AI agents. Perfect for private, local web search capabilities without tracking.",
+  "skill_level_required": "Intermediate",
+  "cost_structure": "Free (Open Source)",
+  "platform_compatibility": [
+    "Linux",
+    "Docker",
+    "Self-hosted"
+  ],
+  "integration_capabilities": [
+    "Multiple search engines",
+    "REST API",
+    "AI agent integration",
+    "Privacy-focused",
+    "Customizable sources",
+    "No tracking",
+    "Docker deployment"
+  ],
+  "documentation_url": "https://docs.searxng.org/",
+  "actual_remote_helpers_usage": {
+    "primary_use": "Local Private Web Search",
+    "users": [],
+    "use_cases": [
+      "private web search",
+      "agent web access",
+      "local search",
+      "self-hosted search",
+      "privacy-focused search"
+    ],
+    "workflows": []
+  },
+  "strengths": [
+    "Completely local",
+    "Privacy-focused",
+    "No tracking",
+    "Aggregates multiple sources",
+    "Self-hostable",
+    "Open-source"
+  ],
+  "limitations": [
+    "Requires self-hosting",
+    "Setup complexity",
+    "Depends on upstream engines"
+  ],
+  "alternatives": [],
+  "departments_using": [],
+  "tags": [
+    "search",
+    "privacy",
+    "self-hosting",
+    "metasearch",
+    "local",
+    "open-source"
+  ],
+  "discovery_date": "2025-11-13",
+  "discovery_source": "Video_005",
+  "status": "active",
+  "video_source": {
+    "video_id": "Video_005",
+    "video_title": "My Agentic Engineering Tech Stack",
+    "creator": "Cole",
+    "timestamp": "32:11-33:05"
+  },
+  "_migration": {
+    "date": "2025-11-26T02:01:31.323723",
+    "old_tool_id": "TOL-129",
+    "old_path": "TOL-129_SearXNG.json",
+    "migrated_by": "restructure_tools_v1"
+  }
+}

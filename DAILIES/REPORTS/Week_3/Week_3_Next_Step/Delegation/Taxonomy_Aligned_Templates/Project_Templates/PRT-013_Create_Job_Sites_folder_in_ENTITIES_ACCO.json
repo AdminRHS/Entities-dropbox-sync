@@ -1,0 +1,77 @@
+{
+  "entity_type": "TASK_MANAGERS",
+  "sub_entity": "Project_Template",
+  "template_id": "Project-Template-013",
+  "project_template_id": "PRT-013",
+  "metadata": {
+    "name": "Create Job Sites folder in ENTITIES/ACCOUNTS",
+    "description": "Week 3 strategic project: Create Job Sites folder in ENTITIES/ACCOUNTS",
+    "primary_department": "AID",
+    "departments_involved": [
+      "AID",
+      "LGN"
+    ],
+    "project_type": "Strategic Initiative",
+    "estimated_duration": "12.0h",
+    "complexity": "Medium",
+    "status": "Active",
+    "priority": "High",
+    "created_date": "2025-11-26",
+    "version": "1.0"
+  },
+  "structure": {
+    "workflow_type": "Sequential",
+    "total_tasks": 5,
+    "total_milestones": 1,
+    "total_phases": 1
+  },
+  "milestones": [
+    {
+      "milestone_id": "MLT-030",
+      "milestone_name": "Create Job Sites folder in ENTITIES/ACCOUNTS",
+      "phase": "1",
+      "description": "Create Job Sites folder in ENTITIES/ACCOUNTS",
+      "task_count": 5,
+      "estimated_duration": "12.0h",
+      "execution_type": "Sequential",
+      "dependencies": "MLT-039"
+    }
+  ],
+  "phases": [
+    {
+      "phase_number": 1,
+      "phase_name": "Implementation",
+      "phase_description": "Complete Create Job Sites folder in ENTITIES/ACCOUNTS",
+      "duration": "12.0h",
+      "complexity": "Medium",
+      "dependencies": null,
+      "milestones": "MLT-030",
+      "success_criteria": [
+        "All milestones completed",
+        "All deliverables approved",
+        "Project objectives achieved"
+      ]
+    }
+  ],
+  "performance_metrics": {
+    "estimated_hours": 12.0,
+    "task_count": 5,
+    "milestone_count": 1
+  },
+  "tags": [
+    "week-3",
+    "strategic",
+    "planning",
+    "aid"
+  ],
+  "version": "1.0",
+  "created": "2025-11-26",
+  "last_updated": "2025-11-26",
+  "migration_notes": {
+    "source": "Week 3 Workflow Clustering",
+    "conversion_date": "2025-11-26",
+    "workflows_included": [
+      "WFC-006"
+    ]
+  }
+}

@@ -1,0 +1,276 @@
+{
+  "entity_type": "LIBRARIES",
+  "sub_entity": "Tool",
+  "tool_id": "TOL-047",
+  "version": "1.0",
+  "created_date": "2025-11-17",
+  "last_updated": "2025-11-17",
+  "metadata": {
+    "tool_name": "Dropbox Dash",
+    "alternate_names": [
+      "Dash",
+      "Dropbox Universal Search",
+      "Dropbox AI Search"
+    ],
+    "category": "AI Search & Organization",
+    "subcategory": "Universal Workspace Search",
+    "vendor": "Dropbox",
+    "website": "https://www.dropbox.com/dash",
+    "pricing_model": "Subscription (included with Dropbox plans)",
+    "status": "Active"
+  },
+  "description": {
+    "short": "AI-powered universal search that connects and searches across 100+ cloud applications, files, and tools from a single interface",
+    "detailed": "Dropbox Dash is an AI-powered universal search and organization tool that allows users to search across all their connected work applications (Google Drive, Slack, Notion, Gmail, etc.) from a single search bar. It uses AI to understand context, surface relevant information, and provide answers with source citations. Dash includes features like Company Voice Guide (brand consistency), Stacks (smart collections), and AI-powered summaries.",
+    "primary_function": "Universal search across disconnected SaaS tools and cloud storage",
+    "key_capabilities": [
+      "Search across 100+ connected applications simultaneously",
+      "AI-powered answer generation with source citations",
+      "Company Voice Guide for brand-consistent AI responses",
+      "Stacks: Smart collections that auto-update based on search criteria",
+      "Browser extension for universal search bar (Cmd+E)",
+      "File preview and quick actions without switching apps",
+      "Intelligent summarization of documents and conversations",
+      "Secure credential management for connected apps"
+    ]
+  },
+  "use_cases": [
+    {
+      "use_case_id": "UC-TOOL112-001",
+      "title": "Find Information Across All Work Apps",
+      "description": "Search for a topic (e.g., 'Q3 revenue projections') and get results from Google Drive, Slack, Notion, email, and other connected apps in one view",
+      "time_saved": "15-30 minutes per search vs. manual app switching",
+      "user_persona": "Knowledge workers, managers, executives"
+    },
+    {
+      "use_case_id": "UC-TOOL112-002",
+      "title": "Generate Answers with Citations",
+      "description": "Ask Dash a question and receive AI-generated answers with links to source documents across all connected tools",
+      "time_saved": "20-40 minutes vs. manual research and synthesis",
+      "user_persona": "Researchers, analysts, content creators"
+    },
+    {
+      "use_case_id": "UC-TOOL112-003",
+      "title": "Maintain Brand Voice Consistency",
+      "description": "Use Company Voice Guide to ensure AI-generated content matches company style, tone, and terminology",
+      "time_saved": "10-15 minutes per content piece on style alignment",
+      "user_persona": "Marketing teams, communications teams, customer support"
+    },
+    {
+      "use_case_id": "UC-TOOL112-004",
+      "title": "Create Auto-Updating Collections (Stacks)",
+      "description": "Create a Stack with search criteria (e.g., 'all customer feedback from last month') that automatically updates as new content matches",
+      "time_saved": "30-60 minutes per week on manual list maintenance",
+      "user_persona": "Product managers, project managers, team leads"
+    },
+    {
+      "use_case_id": "UC-TOOL112-005",
+      "title": "Monitor Industry Research Automatically",
+      "description": "Set up Stacks to monitor arXiv, industry publications, and internal research repos for specific topics",
+      "time_saved": "2-4 hours per week on research scanning",
+      "user_persona": "AI/ML engineers, researchers, product strategists"
+    }
+  ],
+  "integrations": {
+    "supported_platforms": [
+      "Google Drive",
+      "Google Docs",
+      "Google Sheets",
+      "Gmail",
+      "Google Calendar",
+      "Slack",
+      "Notion",
+      "Asana",
+      "Trello",
+      "Microsoft OneDrive",
+      "Microsoft Outlook",
+      "Microsoft Teams",
+      "Salesforce",
+      "HubSpot",
+      "Jira",
+      "Confluence",
+      "Dropbox",
+      "Box",
+      "Figma",
+      "GitHub",
+      "Zoom",
+      "arXiv (research repository)"
+    ],
+    "total_integrations": "100+",
+    "integration_method": "OAuth-based secure connections",
+    "data_sync": "Real-time indexing"
+  },
+  "features": {
+    "core_features": [
+      {
+        "feature_name": "Universal Search Bar",
+        "description": "Browser extension (Cmd+E shortcut) provides instant search across all connected apps from anywhere",
+        "availability": "All plans"
+      },
+      {
+        "feature_name": "AI Answers with Citations",
+        "description": "Get AI-generated answers to questions with links to source documents for verification",
+        "availability": "Premium plans"
+      },
+      {
+        "feature_name": "Company Voice Guide",
+        "description": "Upload brand guidelines to ensure AI responses match company tone, style, and terminology",
+        "availability": "Business/Enterprise plans"
+      },
+      {
+        "feature_name": "Stacks (Smart Collections)",
+        "description": "Create collections based on search criteria that automatically update as new content matches",
+        "availability": "All plans"
+      },
+      {
+        "feature_name": "Quick Actions",
+        "description": "Perform actions (open, share, download) directly from search results without switching apps",
+        "availability": "All plans"
+      },
+      {
+        "feature_name": "Document Summarization",
+        "description": "AI-powered summaries of documents, emails, and conversations",
+        "availability": "Premium plans"
+      },
+      {
+        "feature_name": "Secure Credential Management",
+        "description": "Centralized, secure storage of authentication credentials for connected apps",
+        "availability": "All plans"
+      }
+    ],
+    "ai_capabilities": [
+      "Natural language query understanding",
+      "Multi-source semantic search",
+      "Answer synthesis from multiple documents",
+      "Source attribution and citation",
+      "Brand voice customization",
+      "Automatic content categorization",
+      "Intelligent summarization"
+    ]
+  },
+  "workflows_enabled": [
+    "WF-PM-009: Conduct Universal Search Across Work Apps",
+    "WF-PM-010: Create Auto-Updating Research Stack",
+    "WF-PM-011: Generate Brand-Consistent AI Content",
+    "WF-PM-012: Prepare for Meeting with Stakeholder Context"
+  ],
+  "skills_required": [
+    "universal search strategy",
+    "OAuth app connection",
+    "search query formulation",
+    "stack creation and management",
+    "brand voice documentation",
+    "keyboard shortcuts (Cmd+E)"
+  ],
+  "learning_curve": {
+    "initial_setup": "15-30 minutes (connect apps)",
+    "basic_proficiency": "1-2 hours",
+    "advanced_usage": "1 week (Stacks, Company Voice)",
+    "difficulty_level": "Beginner-friendly"
+  },
+  "roi_metrics": {
+    "time_savings_per_user": {
+      "daily": "30-60 minutes",
+      "weekly": "2.5-5 hours",
+      "annual": "130-260 hours"
+    },
+    "efficiency_gains": [
+      "85% reduction in time spent switching between apps",
+      "70% faster information retrieval",
+      "60% reduction in 'where is that file?' questions",
+      "50% faster onboarding for new team members"
+    ],
+    "value_proposition": "For teams using 10+ SaaS tools, Dash becomes the single source of truth and access point, eliminating context-switching overhead"
+  },
+  "security_privacy": {
+    "data_handling": "Dropbox indexes metadata and content with user permission; does not store credentials in plaintext",
+    "compliance": [
+      "SOC 2 Type II",
+      "GDPR compliant",
+      "HIPAA available for Enterprise"
+    ],
+    "access_control": "User-level permissions inherited from source applications",
+    "encryption": "AES 256-bit encryption at rest and in transit"
+  },
+  "limitations": {
+    "known_limitations": [
+      "Requires OAuth connection for each app (initial setup time)",
+      "Search quality depends on source app's API and data structure",
+      "Company Voice Guide requires manual upload of brand guidelines",
+      "Some niche apps may not have integrations yet",
+      "Real-time sync may have 1-5 minute delay for some platforms"
+    ],
+    "best_for": "Teams using 5+ cloud applications, distributed teams, knowledge-intensive work",
+    "not_ideal_for": "Single-app users, highly regulated industries with strict data residency requirements"
+  },
+  "related_tools": [
+    "TOOL-110 (GitHub Copilot)",
+    "TOOL-108 (MCP Servers)",
+    "TOOL-052 (Claude Code)",
+    "TOOL-113 (arXiv)",
+    "TOOL-114 (Dropbox Protect and Control)"
+  ],
+  "task_templates": [
+    "Task-Template-062: Conduct Universal Search Across Work Apps",
+    "Task-Template-063: Create Auto-Updating Research Stack",
+    "Task-Template-064: Setup Company Voice Guide for Brand Consistency",
+    "Task-Template-065: Prepare Meeting Context with Dash Search"
+  ],
+  "discovery_source": {
+    "video_id": "Video_016",
+    "video_title": "Interview with Morgan Brown - Dropbox Dash Product Strategy",
+    "timestamp": "Multiple segments throughout interview",
+    "key_insights": [
+      "Morgan Brown (VP Product at Dropbox) discusses Dash as solution to app proliferation problem",
+      "Company Voice Guide feature specifically designed for brand consistency",
+      "Stacks feature enables 'living documents' that auto-update",
+      "Integration with arXiv mentioned as example of research workflow",
+      "Emphasis on search as fundamental interface for knowledge work"
+    ]
+  },
+  "competitive_landscape": {
+    "similar_tools": [
+      "Glean (enterprise search)",
+      "Notion AI (workspace search with AI)",
+      "Microsoft 365 Copilot (Microsoft ecosystem)",
+      "Google Workspace search"
+    ],
+    "differentiators": [
+      "100+ integrations (broader than most competitors)",
+      "Company Voice Guide (unique brand consistency feature)",
+      "Stacks with auto-update capability",
+      "Browser-level universal search bar (Cmd+E anywhere)",
+      "Dropbox integration for file-centric workflows"
+    ]
+  },
+  "best_practices": {
+    "setup_recommendations": [
+      "Connect highest-usage apps first (email, chat, docs)",
+      "Create Stacks for recurring searches (e.g., 'weekly team updates')",
+      "Upload brand guidelines to Company Voice Guide early",
+      "Train team on Cmd+E keyboard shortcut",
+      "Set up monitoring Stacks for industry research"
+    ],
+    "usage_patterns": [
+      "Use natural language queries (not keyword stuffing)",
+      "Leverage AI answers for synthesis, verify with source citations",
+      "Create Stacks for projects/topics you revisit weekly",
+      "Use Company Voice for external-facing content",
+      "Combine with Dropbox file storage for centralized workflow"
+    ]
+  },
+  "version_history": [
+    {
+      "version": "1.0",
+      "date": "2025-11-17",
+      "changes": "Initial tool entry created from Video_016.md taxonomy extraction"
+    }
+  ],
+  "_migration": {
+    "date": "2025-11-26T02:01:31.179986",
+    "old_tool_id": "TOL-047",
+    "old_path": "TOL-047_Dropbox_Dash.json",
+    "migrated_by": "restructure_tools_v1"
+  },
+  "name": "Dropbox Dash"
+}

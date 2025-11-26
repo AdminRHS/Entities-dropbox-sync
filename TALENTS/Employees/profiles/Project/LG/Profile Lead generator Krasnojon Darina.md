@@ -8,6 +8,8 @@
 
 ## Contact Information
 
+- **Nov25 Folder:** /Dropbox/Nov25/LG/Krasnojon Darina
+
 - **Personal Email:** azzaz632azzaz@gmail.com
 - **Work Email:** krasnozhondaryna11@gmail.com
 - **Discord ID:** Not specified

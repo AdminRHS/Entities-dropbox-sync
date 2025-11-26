@@ -178,7 +178,7 @@ AI Assistant for Remote Helpers | Entity-Aware | Taxonomy-Driven | Automation-Fi
 
 ```bash
 # Execute all department reports
-for dept in AID DGN DEV HRM LGN MKT SLS SMM VID FNC; do
+for dept in AID DGN DEV HRM LGN MKT SLS SMM VID FIN; do
   run_prompt "PMT-0XX_${dept}_Daily_Report" >> daily_reports/$(date +%Y-%m-%d)_${dept}.md
 done
 # Aggregate with PMT-032
@@ -233,7 +233,7 @@ Research (YouTube/Web) → Extract entities → Cross-ref LIBRARIES → Update t
 | **MKT** | Marketing | PMT-034, PMT-040, PMT-042 | Content, campaigns, social |
 | **SLS** | Sales | PMT-041, PMT-044 | Pipeline, research |
 | **SMM** | Social Media | PMT-042, PMT-045 | Content, engagement |
-| **FNC** | Finance | PMT-037 | Reporting, compliance |
+| **FIN** | Finance | PMT-037 | Reporting, compliance |
 
 **Daily Ops:** Run dept report (PMT-0XX) → Extract entities → Update CSVs → Archive to /REPORTS/
 **Collaboration:** Cross-dept entities link via shared LIBRARIES (ACT/OBJ/TOL)

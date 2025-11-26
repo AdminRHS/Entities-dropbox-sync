@@ -63,7 +63,7 @@ When department codes are included in IDs, they use the 3-letter ISO format:
 - `VID` - Video Production
 - `SLS` - Sales
 - `SMM` - Social Media Management
-- `FNC` - Finance
+- `FIN` - Finance
 
 ---
 
@@ -186,7 +186,7 @@ When department codes are included in IDs, they use the 3-letter ISO format:
 | `VID` | Video_Tasks | Video Production |
 | `SLS` | Sales_Tasks | Sales |
 | `SMM` | SMM_Tasks | Social Media Management |
-| `FNC` | Finance_Tasks | Finance & Accounting |
+| `FIN` | Finance_Tasks | Finance & Accounting |
 
 **Note:** All department codes are 3-letter, consonant-only, uppercase.
 
@@ -387,7 +387,7 @@ When department codes are included in IDs, they use the 3-letter ISO format:
 - **lowercase:** Professions, Actions, Skills, Responsibilities → `"ai engineer"`, `"create"`, `"screened candidates via CRM"`
 
 ### ISO Code Patterns
-- **3-letter, uppercase, consonants only** → `AIA`, `DEV`, `HRM`, `LGN`, `DGN`, `VID`, `SLS`, `SMM`, `FNC`
+- **3-letter, uppercase, consonants only** → `AIA`, `DEV`, `HRM`, `LGN`, `DGN`, `VID`, `SLS`, `SMM`, `FIN`
 
 ---
 

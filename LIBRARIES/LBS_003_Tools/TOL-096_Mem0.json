@@ -1,0 +1,88 @@
+{
+  "entity_type": "LIBRARIES",
+  "sub_entity": "Tool",
+  "tool_id": "TOL-096",
+  "name": "Mem0",
+  "vendor": "Mem0",
+  "category": "AI/Long-Term Memory",
+  "purpose": "Add long-term memory to AI agents",
+  "description": "Long-term memory framework for AI agents. Implements RAG for agent memory, allowing agents to remember information across sessions. Integrates with any database (including PGVector) and can be sandwiched around any agent framework. Open-source and very easy to integrate.",
+  "skill_level_required": "Intermediate",
+  "cost_structure": "Free (Open Source)",
+  "platform_compatibility": [
+    "Python"
+  ],
+  "integration_capabilities": [
+    "PGVector integration",
+    "Postgres integration",
+    "Multiple vector databases",
+    "Pydantic AI compatibility",
+    "LangChain compatibility",
+    "Any agent framework",
+    "Memory search",
+    "Memory extraction"
+  ],
+  "documentation_url": "https://mem0.ai/",
+  "actual_remote_helpers_usage": {
+    "primary_use": "Agent Long-Term Memory",
+    "users": [],
+    "use_cases": [
+      "remember user preferences",
+      "persist agent memory",
+      "search past conversations",
+      "extract memories",
+      "inject context",
+      "personalize agents"
+    ],
+    "workflows": [
+      "WF-RAG-001: Build RAG System",
+      "WF-AI-001: Develop and Deploy AI Application"
+    ]
+  },
+  "strengths": [
+    "Works with any agent framework",
+    "Integrates with PGVector",
+    "Open-source",
+    "Easy to sandwich around agents",
+    "Flexible database support"
+  ],
+  "limitations": [
+    "Python only",
+    "Long-term memory is just RAG implementation",
+    "Requires database setup"
+  ],
+  "alternatives": [
+    {
+      "name": "Zep",
+      "comparison": "Not open-source like Mem0"
+    },
+    {
+      "name": "Leda",
+      "comparison": "Full AI agent framework, not standalone memory"
+    }
+  ],
+  "departments_using": [],
+  "tags": [
+    "memory",
+    "long-term-memory",
+    "rag",
+    "agent-memory",
+    "open-source",
+    "personalization"
+  ],
+  "discovery_date": "2025-11-13",
+  "discovery_source": "Video_005",
+  "status": "active",
+  "video_source": {
+    "video_id": "Video_005",
+    "video_title": "My Agentic Engineering Tech Stack",
+    "creator": "Cole",
+    "timestamp": "15:28-16:20"
+  },
+  "_migration": {
+    "date": "2025-11-26T02:01:31.266118",
+    "old_tool_id": "TOL-096",
+    "old_path": "TOL-096_Mem0.json",
+    "migrated_by": "restructure_tools_v1"
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "entity_type": "LIBRARIES",
+  "sub_entity": "Tool",
+  "tool_id": "TOL-102",
+  "name": "Neo4j",
+  "vendor": "Neo4j, Inc.",
+  "category": "Databases/Graph Database",
+  "purpose": "Store and query graph data for knowledge graphs",
+  "description": "Leading graph database for storing entities and relationships. Features beautiful UI for visualizing graphs, easy querying through Cypher, high speed, and excellent scalability. Supported by most knowledge graph libraries. Essential for advanced RAG implementations with knowledge graphs.",
+  "skill_level_required": "Intermediate to Advanced",
+  "cost_structure": "Free (Community Edition) + Commercial (Enterprise)",
+  "platform_compatibility": [
+    "Linux",
+    "Windows",
+    "Mac",
+    "Cloud (Aura)",
+    "Docker"
+  ],
+  "integration_capabilities": [
+    "Graphiti integration",
+    "LightRAG integration",
+    "Cypher query language",
+    "REST API",
+    "Python driver",
+    "JavaScript driver",
+    "Java driver",
+    "LLM integrations"
+  ],
+  "documentation_url": "https://neo4j.com/",
+  "actual_remote_helpers_usage": {
+    "primary_use": "Knowledge Graph Storage",
+    "users": [],
+    "use_cases": [
+      "store knowledge graphs",
+      "query relationships",
+      "visualize entity connections",
+      "advanced rag",
+      "entity extraction",
+      "relationship mapping"
+    ],
+    "workflows": [
+      "WF-RAG-001: Build RAG System"
+    ]
+  },
+  "strengths": [
+    "Beautiful visualization UI",
+    "High performance and scalable",
+    "Most popular graph database",
+    "Excellent library support",
+    "Cypher query language is powerful",
+    "Open-source community edition"
+  ],
+  "limitations": [
+    "Licensing not ideal for commercial use",
+    "Requires separate database setup",
+    "Learning curve for Cypher"
+  ],
+  "alternatives": [
+    {
+      "name": "Memgraph",
+      "comparison": "Good alternative with better licensing"
+    },
+    {
+      "name": "FalkorDB",
+      "comparison": "Lighter-weight option"
+    }
+  ],
+  "departments_using": [],
+  "tags": [
+    "graph-database",
+    "knowledge-graph",
+    "rag",
+    "relationships",
+    "entities",
+    "cypher",
+    "open-source"
+  ],
+  "discovery_date": "2025-11-13",
+  "discovery_source": "Video_005",
+  "status": "active",
+  "video_source": {
+    "video_id": "Video_005",
+    "video_title": "My Agentic Engineering Tech Stack",
+    "creator": "Cole",
+    "timestamp": "15:28-16:20"
+  },
+  "_migration": {
+    "date": "2025-11-26T02:01:31.276484",
+    "old_tool_id": "TOL-102",
+    "old_path": "TOL-102_Neo4j.json",
+    "migrated_by": "restructure_tools_v1"
+  }
+}

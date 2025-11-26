@@ -1,0 +1,48 @@
+{
+  "entity_type": "TASK_MANAGERS",
+  "sub_entity": "Workflow",
+  "workflow_id": "WRF-035",
+  "metadata": {
+    "workflow_name": "HR - Documentation Tasks",
+    "description": "Execution phase workflow for HRM department - Documentation category",
+    "primary_department": "HRM",
+    "departments_involved": [
+      "HRM"
+    ],
+    "workflow_type": "Parallel",
+    "execution_phase": "Execution",
+    "category": "Documentation",
+    "priority": "Medium",
+    "estimated_duration": "3.0h",
+    "complexity": "Medium",
+    "status": "Active",
+    "created_date": "2025-11-26",
+    "version": "1.0"
+  },
+  "tasks": {
+    "total_count": 2,
+    "task_ids": [
+      "TST-412",
+      "TST-317"
+    ],
+    "execution_type": "Parallel"
+  },
+  "performance_metrics": {
+    "total_estimated_hours": 3.0,
+    "task_count": 2
+  },
+  "tags": [
+    "execution",
+    "parallel",
+    "hrm",
+    "documentation"
+  ],
+  "version": "1.0",
+  "created": "2025-11-26",
+  "last_updated": "2025-11-26",
+  "migration_notes": {
+    "original_id": "WFC-035",
+    "converted_from": "WFC format",
+    "conversion_date": "2025-11-26"
+  }
+}

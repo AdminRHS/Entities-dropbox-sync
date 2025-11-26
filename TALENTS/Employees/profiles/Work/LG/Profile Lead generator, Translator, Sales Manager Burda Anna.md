@@ -8,6 +8,8 @@
 
 ## Contact Information
 
+- **Nov25 Folder:** /Dropbox/Nov25/LG/Burda Anna
+
 - **Personal Email:** burdaanna8@gmail.com
 - **Work Email:** Not specified
 - **Discord ID:** 1340940267217227796

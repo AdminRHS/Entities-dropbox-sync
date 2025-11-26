@@ -8,6 +8,8 @@
 
 ## Contact Information
 
+- **Nov25 Folder:** /Dropbox/Nov25/Design/Skrypkar Vilhelm
+
 - **Personal Email:** ntwilson666@gmail.com
 - **Work Email:** vilhelm.s@rh-s.com
 - **Discord ID:** 732843109389697114

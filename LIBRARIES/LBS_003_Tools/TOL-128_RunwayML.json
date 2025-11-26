@@ -1,0 +1,128 @@
+{
+  "entity_type": "LIBRARIES",
+  "sub_entity": "Tool",
+  "tool_id": "TOL-128",
+  "name": "RunwayML",
+  "vendor": "Runway",
+  "category": "AI/Video Tools",
+  "purpose": "AI-powered video generation, editing, and manipulation",
+  "description": "Professional AI video editing platform offering video generation, image-to-video conversion, video editing tools, and AI-powered effects. Used for creative video production and content creation.",
+  "skill_level_required": "Intermediate",
+  "cost_structure": "Subscription-based (Free tier available, paid plans from $12/month)",
+  "platform_compatibility": [
+    "Web",
+    "API"
+  ],
+  "integration_capabilities": [
+    "API access",
+    "Video editing workflows",
+    "Image-to-video conversion",
+    "Video generation from text"
+  ],
+  "documentation_url": "https://app.runwayml.com/video-tools/teams/admin04665/ai-tools/generate?mode=tools",
+  "actual_remote_helpers_usage": {
+    "primary_use": "AI Video Generation and Editing for Course Materials",
+    "users": [
+      "Design Team",
+      "Video Team"
+    ],
+    "use_cases": [
+      "generate video content",
+      "create animation instructions",
+      "edit videos for courses",
+      "convert images to video",
+      "produce creative videos",
+      "create marketing videos",
+      "course content animations"
+    ],
+    "workflows": [
+      "Course content creation workflow",
+      "Animation generation for courses"
+    ],
+    "typical_workflow_pattern": [
+      {
+        "task": "Create Course Animations",
+        "steps": [
+          "Generate animation instructions with ChatGPT-5",
+          "Use Runway to create video from text/images",
+          "Edit and refine video output",
+          "Export final course animation"
+        ],
+        "complexity": "Medium",
+        "time_estimate": "30-45 minutes per animation",
+        "time_saved": "Hours compared to traditional animation"
+      }
+    ],
+    "integration_with_other_tools": [
+      "TOL-225 (ChatGPT-5) for script generation",
+      "TOL-156 (Midjourney) for image generation",
+      "TOL-224 (Leonardo AI) for character design",
+      "Video editing software for final polish"
+    ]
+  },
+  "strengths": [
+    "Professional video editing capabilities",
+    "AI-powered effects and generation",
+    "Multiple video editing tools",
+    "Image-to-video conversion",
+    "High-quality output"
+  ],
+  "limitations": [
+    "Subscription required for full features",
+    "Learning curve for advanced features",
+    "Processing time for complex videos"
+  ],
+  "departments_using": [
+    "Design",
+    "Video"
+  ],
+  "usage_statistics": {
+    "nov_20_2025": {
+      "references": 2,
+      "tasks_linked": [
+        "TST-076 (Create Course Materials)"
+      ],
+      "departments_active": [
+        "Design",
+        "Video"
+      ]
+    }
+  },
+  "finance_data": {
+    "subscription_status": "paid",
+    "total_accounts": 1,
+    "paid_accounts": 1,
+    "unpaid_accounts": 0,
+    "latest_valid_until": "2025-11-23",
+    "accounts": [
+      {
+        "email": "admin@rh-s.com",
+        "status": "paid",
+        "paid_date": "2025-10-23",
+        "valid_until": "2025-11-23",
+        "department": "designers project"
+      }
+    ],
+    "departments_using": [
+      "designers project"
+    ]
+  },
+  "tags": [
+    "video",
+    "video-generation",
+    "video-editing",
+    "ai-effects",
+    "image-to-video",
+    "creative-tools"
+  ],
+  "discovery_date": "2025-01-27",
+  "discovery_source": "user_provided",
+  "status": "active",
+  "last_updated": "2025-11-21",
+  "_migration": {
+    "date": "2025-11-26T02:01:31.322015",
+    "old_tool_id": "TOL-128",
+    "old_path": "TOL-128_RunwayML.json",
+    "migrated_by": "restructure_tools_v1"
+  }
+}

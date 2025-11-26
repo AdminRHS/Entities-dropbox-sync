@@ -1,0 +1,58 @@
+{
+  "entity_type": "TASK_MANAGERS",
+  "sub_entity": "Milestone_Template",
+  "template_id": "Milestone-Template-036",
+  "milestone_template_id": "MLT-036",
+  "metadata": {
+    "milestone_name": "Deploy v1.0 to Vercel",
+    "description": "Milestone for Deploy v1.0 to Vercel within PRT-014",
+    "primary_department": "AID",
+    "related_project": "PRT-014",
+    "phase": "Planning",
+    "execution_type": "Parallel",
+    "priority": "High",
+    "estimated_duration": "2.8h",
+    "status": "Active",
+    "created_date": "2025-11-26",
+    "version": "1.0"
+  },
+  "tasks": {
+    "total_task_count": 12,
+    "task_template_ids": []
+  },
+  "deliverables": [
+    "Completed Deploy v1.0 to Vercel"
+  ],
+  "success_criteria": {
+    "quantitative": [
+      "12 tasks completed",
+      "All deliverables reviewed and approved"
+    ],
+    "qualitative": [
+      "Milestone objectives achieved",
+      "Quality standards met"
+    ]
+  },
+  "dependencies": {
+    "prerequisite_milestones": [],
+    "blocking": false
+  },
+  "performance_metrics": {
+    "estimated_hours": 2.8,
+    "task_count": 12
+  },
+  "tags": [
+    "planning",
+    "parallel",
+    "aid",
+    "prt-014"
+  ],
+  "version": "1.0",
+  "created": "2025-11-26",
+  "last_updated": "2025-11-26",
+  "migration_notes": {
+    "original_workflow_id": "WFC-007",
+    "converted_from": "Workflow_Clustering.csv",
+    "conversion_date": "2025-11-26"
+  }
+}

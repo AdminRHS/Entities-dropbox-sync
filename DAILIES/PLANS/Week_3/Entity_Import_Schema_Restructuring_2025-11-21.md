@@ -443,8 +443,8 @@ Based on action-object patterns from reports:
 17. RESP-HRM-XXX: "update notion ats" (Maintain applicant tracking system)
 
 **Finance:**
-18. RESP-FNC-XXX: "track employee hours" (Monitor work time)
-19. RESP-FNC-XXX: "process expense reports" (Handle financial submissions)
+18. RESP-FIN-XXX: "track employee hours" (Monitor work time)
+19. RESP-FIN-XXX: "process expense reports" (Handle financial submissions)
 
 **Video:**
 20. RESP-VID-XXX: "edit course videos" (Post-production for educational content)
@@ -778,7 +778,7 @@ Instructions for:
 - RESP-DEV-XXX (~3 Dev responsibilities)
 - RESP-LGN-XXX (~3 LG responsibilities)
 - RESP-HRM-XXX (~2 HR responsibilities)
-- RESP-FNC-XXX (~2 Finance responsibilities)
+- RESP-FIN-XXX (~2 Finance responsibilities)
 - RESP-VID-XXX (~1 Video responsibility)
 
 ---

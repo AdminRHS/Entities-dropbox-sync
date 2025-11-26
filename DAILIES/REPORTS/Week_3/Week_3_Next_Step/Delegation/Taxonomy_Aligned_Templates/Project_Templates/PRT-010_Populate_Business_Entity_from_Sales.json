@@ -1,0 +1,76 @@
+{
+  "entity_type": "TASK_MANAGERS",
+  "sub_entity": "Project_Template",
+  "template_id": "Project-Template-010",
+  "project_template_id": "PRT-010",
+  "metadata": {
+    "name": "Populate Business Entity from Sales",
+    "description": "Week 3 strategic project: Populate Business Entity from Sales",
+    "primary_department": "AID",
+    "departments_involved": [
+      "AID"
+    ],
+    "project_type": "Strategic Initiative",
+    "estimated_duration": "0.0h",
+    "complexity": "Medium",
+    "status": "Active",
+    "priority": "High",
+    "created_date": "2025-11-26",
+    "version": "1.0"
+  },
+  "structure": {
+    "workflow_type": "Parallel",
+    "total_tasks": 1,
+    "total_milestones": 1,
+    "total_phases": 1
+  },
+  "milestones": [
+    {
+      "milestone_id": "MLT-030",
+      "milestone_name": "Populate Business Entity from Sales",
+      "phase": "1",
+      "description": "Populate Business Entity from Sales",
+      "task_count": 1,
+      "estimated_duration": "0.0h",
+      "execution_type": "Parallel",
+      "dependencies": null
+    }
+  ],
+  "phases": [
+    {
+      "phase_number": 1,
+      "phase_name": "Implementation",
+      "phase_description": "Complete Populate Business Entity from Sales",
+      "duration": "0.0h",
+      "complexity": "Medium",
+      "dependencies": null,
+      "milestones": "MLT-030",
+      "success_criteria": [
+        "All milestones completed",
+        "All deliverables approved",
+        "Project objectives achieved"
+      ]
+    }
+  ],
+  "performance_metrics": {
+    "estimated_hours": 0.0,
+    "task_count": 1,
+    "milestone_count": 1
+  },
+  "tags": [
+    "week-3",
+    "strategic",
+    "planning",
+    "aid"
+  ],
+  "version": "1.0",
+  "created": "2025-11-26",
+  "last_updated": "2025-11-26",
+  "migration_notes": {
+    "source": "Week 3 Workflow Clustering",
+    "conversion_date": "2025-11-26",
+    "workflows_included": [
+      "WFC-003"
+    ]
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "entity_type": "TASK_MANAGERS",
+  "sub_entity": "Task_Template",
+  "template_id": "Task-Template-411",
+  "task_template_id": "TST-411",
+  "metadata": {
+    "task_name": "Resolve accounting/payment issues",
+    "description": "Resolve accounting/payment issues",
+    "department": "FIN",
+    "category": "Maintenance",
+    "priority": "High",
+    "complexity": "N/A",
+    "status": "Active",
+    "estimated_duration": "3 hours (45 min requirements + 1.5 hours design + 45 min testing)",
+    "profession": "Finance Manager / Automation Specialist",
+    "created_date": "2025-11-26",
+    "version": "1.0"
+  },
+  "execution": {
+    "matched_template": "Task-Template-081",
+    "match_confidence": "Medium",
+    "business_impact": "Internal",
+    "quick_win": false
+  },
+  "tools_required": [],
+  "skills_required": [],
+  "steps": [],
+  "performance_metrics": {
+    "estimated_duration": "3 hours (45 min requirements + 1.5 hours design + 45 min testing)",
+    "complexity_score": "N/A"
+  },
+  "tags": [
+    "fin",
+    "maintenance",
+    "high"
+  ],
+  "version": "1.0",
+  "created": "2025-11-26",
+  "last_updated": "2025-11-26",
+  "migration_notes": {
+    "original_id": "TSK-411",
+    "converted_from": "Task_Template_Mapping.csv",
+    "conversion_date": "2025-11-26"
+  }
+}

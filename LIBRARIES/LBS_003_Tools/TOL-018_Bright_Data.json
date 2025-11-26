@@ -1,0 +1,123 @@
+{
+  "entity_type": "LIBRARIES",
+  "sub_entity": "Tool",
+  "tool_id": "TOL-018",
+  "name": "Bright Data",
+  "vendor": "Bright Data Ltd.",
+  "category": "Data Tools / Data Marketplace",
+  "purpose": "Purchase pre-scraped datasets including 600M+ LinkedIn profiles",
+  "description": "Data marketplace providing access to massive pre-scraped datasets. Offers 600M+ LinkedIn profiles, Crunchbase company data, and other B2B datasets ready for immediate use. Bypass scraping entirely by purchasing pre-collected, verified data. Cost-effective at $0.0025 per record for large-volume lead acquisition.",
+  "skill_level_required": "Beginner",
+  "cost_structure": "$0.0025 per record (600M+ LinkedIn profiles available)",
+  "platform_compatibility": [
+    "Web",
+    "API",
+    "CSV Download"
+  ],
+  "integration_capabilities": [
+    "Direct CSV download",
+    "API access",
+    "Bulk data purchase",
+    "Filtered dataset queries",
+    "Crunchbase data integration",
+    "LinkedIn profile data",
+    "Custom data requests"
+  ],
+  "documentation_url": "https://brightdata.com",
+  "actual_remote_helpers_usage": {
+    "primary_use": "Large-Volume Pre-Scraped Lead Database Purchase",
+    "users": [
+      "Lead Generation Specialist",
+      "Sales Operations",
+      "Data Analyst",
+      "Marketing Operations"
+    ],
+    "use_cases": [
+      "purchase large lead databases instantly",
+      "bypass scraping time and complexity",
+      "access 600M+ LinkedIn profiles",
+      "buy Crunchbase company lists",
+      "acquire verified B2B contact data",
+      "scale lead generation quickly"
+    ],
+    "workflows": [
+      "Multi-Source Lead Database Purchase (Bright Data → filter → download → use immediately)"
+    ],
+    "typical_workflow_pattern": [
+      {
+        "task": "Purchase Large Lead Database",
+        "steps": [
+          "Define target criteria (industry, location, title, etc.)",
+          "Search Bright Data marketplace",
+          "Select dataset (e.g., 100K LinkedIn profiles)",
+          "Purchase at $0.0025/record ($250 for 100K)",
+          "Download CSV immediately",
+          "Import to CRM or outreach platform",
+          "No scraping or enrichment needed"
+        ],
+        "complexity": "Low",
+        "time_estimate": "10-15 minutes",
+        "volume": "100K+ leads typical purchase",
+        "cost_per_lead": "$0.0025"
+      }
+    ],
+    "integration_with_other_tools": [
+      "CRM platforms (direct import)",
+      "Outreach platforms",
+      "Google Sheets",
+      "Data analysis tools",
+      "Crunchbase (data source)"
+    ]
+  },
+  "strengths": [
+    "Instant access to 600M+ LinkedIn profiles",
+    "No scraping setup required",
+    "Cost-effective: $0.0025 per record",
+    "Pre-verified data",
+    "Massive scale (100K+ leads in minutes)",
+    "Includes Crunchbase company data",
+    "Bypass scraping legal/technical issues",
+    "Immediate availability"
+  ],
+  "limitations": [
+    "Data may be less fresh than real-time scraping",
+    "Still requires filtering and segmentation",
+    "Upfront cost for large datasets",
+    "Data quality varies by source",
+    "Ethical/compliance considerations with purchased data"
+  ],
+  "cost_analysis": {
+    "per_record": "$0.0025",
+    "100k_leads": "$250",
+    "comparison": "Similar to enrichment cost but includes full profiles"
+  },
+  "available_datasets": [
+    "LinkedIn profiles (600M+)",
+    "Crunchbase companies",
+    "B2B contact databases",
+    "Industry-specific datasets"
+  ],
+  "departments_using": [
+    "LG",
+    "Sales",
+    "Marketing"
+  ],
+  "tags": [
+    "data-marketplace",
+    "lead-database",
+    "linkedin-profiles",
+    "bulk-data",
+    "pre-scraped",
+    "b2b-data"
+  ],
+  "discovery_date": "2025-11-12",
+  "discovery_source": "Video_006_Lead_Generation_Analysis",
+  "status": "active",
+  "use_case": "High-volume lead generation without scraping infrastructure",
+  "_migration": {
+    "date": "2025-11-26T02:01:31.136123",
+    "old_tool_id": "TOL-018",
+    "old_path": "TOL-018_Bright_Data.json",
+    "migrated_by": "restructure_tools_v1"
+  }
+}

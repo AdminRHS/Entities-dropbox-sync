@@ -1,0 +1,56 @@
+{
+  "entity_type": "TASK_MANAGERS",
+  "sub_entity": "Workflow",
+  "workflow_id": "WRF-024",
+  "metadata": {
+    "workflow_name": "Design - Task Tasks",
+    "description": "Execution phase workflow for DGN department - Task category",
+    "primary_department": "DGN",
+    "departments_involved": [
+      "DGN"
+    ],
+    "workflow_type": "Parallel",
+    "execution_phase": "Execution",
+    "category": "Task",
+    "priority": "Medium",
+    "estimated_duration": "0.0h",
+    "complexity": "Medium",
+    "status": "Active",
+    "created_date": "2025-11-26",
+    "version": "1.0"
+  },
+  "tasks": {
+    "total_count": 10,
+    "task_ids": [
+      "TST-344",
+      "TST-200",
+      "TST-074",
+      "TSK-AID-2025-11-20-001",
+      "TSK-DEV-2025-11-20-003",
+      "TSK-DEV-2025-11-20-007",
+      "TSK-DGN-2025-11-20-001",
+      "TSK-DGN-2025-11-20-004",
+      "TSK-DGN-2025-11-20-008",
+      "TSK-VID-2025-11-20-003"
+    ],
+    "execution_type": "Parallel"
+  },
+  "performance_metrics": {
+    "total_estimated_hours": 0.0,
+    "task_count": 10
+  },
+  "tags": [
+    "execution",
+    "parallel",
+    "dgn",
+    "task"
+  ],
+  "version": "1.0",
+  "created": "2025-11-26",
+  "last_updated": "2025-11-26",
+  "migration_notes": {
+    "original_id": "WFC-024",
+    "converted_from": "WFC format",
+    "conversion_date": "2025-11-26"
+  }
+}

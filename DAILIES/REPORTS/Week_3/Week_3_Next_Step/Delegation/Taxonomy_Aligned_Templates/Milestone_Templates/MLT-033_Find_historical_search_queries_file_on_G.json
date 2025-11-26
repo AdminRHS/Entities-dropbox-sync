@@ -1,0 +1,60 @@
+{
+  "entity_type": "TASK_MANAGERS",
+  "sub_entity": "Milestone_Template",
+  "template_id": "Milestone-Template-033",
+  "milestone_template_id": "MLT-033",
+  "metadata": {
+    "milestone_name": "Find historical search queries file on Google Drive",
+    "description": "Milestone for Find historical search queries file on Google Drive within PRT-011",
+    "primary_department": "AID",
+    "related_project": "PRT-011",
+    "phase": "Planning",
+    "execution_type": "Sequential",
+    "priority": "High",
+    "estimated_duration": "24.0h",
+    "status": "Active",
+    "created_date": "2025-11-26",
+    "version": "1.0"
+  },
+  "tasks": {
+    "total_task_count": 15,
+    "task_template_ids": []
+  },
+  "deliverables": [
+    "Completed Find historical search queries file on Google Drive"
+  ],
+  "success_criteria": {
+    "quantitative": [
+      "15 tasks completed",
+      "All deliverables reviewed and approved"
+    ],
+    "qualitative": [
+      "Milestone objectives achieved",
+      "Quality standards met"
+    ]
+  },
+  "dependencies": {
+    "prerequisite_milestones": [
+      "MLT-033"
+    ],
+    "blocking": false
+  },
+  "performance_metrics": {
+    "estimated_hours": 24.0,
+    "task_count": 15
+  },
+  "tags": [
+    "planning",
+    "sequential",
+    "aid",
+    "prt-011"
+  ],
+  "version": "1.0",
+  "created": "2025-11-26",
+  "last_updated": "2025-11-26",
+  "migration_notes": {
+    "original_workflow_id": "WFC-004",
+    "converted_from": "Workflow_Clustering.csv",
+    "conversion_date": "2025-11-26"
+  }
+}

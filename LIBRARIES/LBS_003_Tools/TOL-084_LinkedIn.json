@@ -1,0 +1,289 @@
+{
+  "entity_type": "LIBRARIES",
+  "sub_entity": "Tool",
+  "tool_id": "TOL-084",
+  "tool_name": "LinkedIn",
+  "category": "Professional Social Network",
+  "description": "B2B professional networking platform for thought leadership, lead generation, and business development through content and connections",
+  "primary_use": "B2B networking, thought leadership, lead generation, professional branding, recruitment",
+  "platform_type": "Professional social media and networking platform",
+  "pricing": "Freemium (Free + Premium tiers: Career, Business, Sales Navigator, Recruiter)",
+  "created": "2025-11-13",
+  "updated": "2025-11-13",
+  "used_by_professions": [
+    "Marketer",
+    "Designer",
+    "Videographer",
+    "SMM_Specialist",
+    "Developer",
+    "Sales_Professional",
+    "Recruiter"
+  ],
+  "used_in_workflows": [
+    "WF-SMM-008",
+    "WF-SMM-001"
+  ],
+  "creates_objects": [
+    "OBJ-SMM-010",
+    "OBJ-SMM-011"
+  ],
+  "object_details": {
+    "OBJ-SMM-010": "LinkedIn Article - Long-form published article (1000+ words)",
+    "OBJ-SMM-011": "LinkedIn Carousel - PDF multi-page post for educational content"
+  },
+  "actions": [
+    "post",
+    "publish",
+    "share",
+    "comment",
+    "connect",
+    "engage",
+    "message",
+    "endorse",
+    "recommend",
+    "stream"
+  ],
+  "key_features": {
+    "feed_posts": "Text, image, video, document posts",
+    "articles": "Long-form publishing (1000+ words)",
+    "carousels": "PDF uploads (slides, infographics)",
+    "video": "Native video uploads (up to 10 min)",
+    "linkedin_live": "Live streaming for events and Q&A",
+    "stories": "24-hour ephemeral content",
+    "polls": "Audience feedback and engagement",
+    "newsletters": "Subscriber-based regular publications",
+    "connections": "Professional network building",
+    "inmail": "Direct messaging (Premium feature)",
+    "company_pages": "Business presence and updates",
+    "groups": "Industry-specific communities"
+  },
+  "content_types": {
+    "thought_leadership": "Industry insights and trends (25%)",
+    "educational": "How-to guides and expertise (30%)",
+    "case_studies": "Results and ROI demonstrations (20%)",
+    "professional_development": "Career and skill insights (15%)",
+    "company_updates": "News and announcements (10%)"
+  },
+  "technical_specs": {
+    "post_character_limit": "3000 characters (truncated at 210 in feed)",
+    "article_length": "No limit (1000-3000 words recommended)",
+    "image_size": "1200×627px (1.91:1 ratio recommended)",
+    "video_length": "3 seconds to 10 minutes",
+    "video_resolution": "1080p recommended",
+    "carousel_pdf": "Max 300 MB, up to 100 pages",
+    "profile_photo": "400×400px minimum",
+    "cover_image": "1584×396px"
+  },
+  "optimal_posting": {
+    "frequency": "Daily activity - 1 post per weekday minimum",
+    "best_times": [
+      "Tuesday-Thursday 8-10am EST (morning coffee browsing)",
+      "Tuesday-Thursday 5-6pm EST (end of workday)",
+      "Wednesday at 12pm EST (midweek peak)"
+    ],
+    "response_time_goal": "Within 2 hours to boost engagement"
+  },
+  "algorithm_factors": {
+    "dwell_time": "How long people spend reading your post",
+    "engagement": "Comments weighted more than likes",
+    "early_engagement": "First hour critical for reach",
+    "relevance_score": "Connection strength and interests",
+    "content_quality": "Algorithm detects clickbait/low-quality",
+    "reshares": "Strong signal of valuable content",
+    "profile_completeness": "Complete profiles get more reach"
+  },
+  "best_practices": [
+    "Lead with business value and ROI for credibility",
+    "Use line breaks for readability (avoid text walls)",
+    "First 150 characters critical (above 'see more')",
+    "Ask engaging questions to drive comments",
+    "Use 3-5 relevant hashtags (not excessive)",
+    "Tag relevant people sparingly (2-3 max)",
+    "Native video performs better than links",
+    "Carousels get high engagement (swipeable content)",
+    "Respond to comments within 2 hours",
+    "Post Tuesday-Thursday for best reach",
+    "Share personal insights, not just facts",
+    "Use data and statistics to back claims",
+    "Write in first person for authenticity"
+  ],
+  "content_strategy": {
+    "post_length": "150-300 characters for algorithm favor (long-form in articles)",
+    "hooks": "Start with ROI, results, or bold statement",
+    "storytelling": "Personal experiences resonate on LinkedIn",
+    "value_first": "Always provide actionable takeaways",
+    "authenticity": "Behind-the-scenes and lessons learned",
+    "consistency": "Daily presence builds authority"
+  },
+  "linkedin_articles_strategy": {
+    "when_to_use": "In-depth thought leadership (1000-3000 words)",
+    "frequency": "Weekly or bi-weekly for quality",
+    "structure": "Hook → Context → Value → Examples → CTA",
+    "seo_benefit": "Articles indexed by Google",
+    "distribution": "Share article in post for visibility",
+    "newsletter_option": "Convert to subscriber newsletter"
+  },
+  "linkedin_carousels_strategy": {
+    "format": "PDF upload (Canva design or PowerPoint export)",
+    "optimal_length": "8-12 slides",
+    "content_types": "Tips, frameworks, case studies, checklists",
+    "design": "Bold headlines, minimal text per slide",
+    "engagement": "High saves rate (valuable reference content)",
+    "cta": "Last slide with clear next step"
+  },
+  "linkedin_live_strategy": {
+    "frequency": "Weekly or bi-weekly",
+    "optimal_days": "Tuesday-Thursday",
+    "optimal_times": "12pm or 5pm EST",
+    "session_types": [
+      "Q&A sessions",
+      "Office hours",
+      "Industry panels",
+      "Product demos",
+      "Thought leadership discussions"
+    ],
+    "promotion": "Announce 3-5 days in advance",
+    "engagement": "Respond to comments during stream"
+  },
+  "performance_metrics": {
+    "impressions": "Total reach for B2B content",
+    "engagement_rate": "(likes + comments + shares) / impressions",
+    "click_through_rate": "Links to website or offerings",
+    "profile_visits": "Interest in your expertise",
+    "connection_requests": "Network growth and lead quality",
+    "direct_messages": "Warm leads and inquiries",
+    "follower_growth": "Audience building",
+    "lead_conversion": "Actual business generated"
+  },
+  "lead_generation_tactics": {
+    "profile_optimization": "Keyword-rich headline and about section",
+    "featured_section": "Showcase best work and lead magnets",
+    "call_to_action": "Clear next steps in posts and articles",
+    "link_strategy": "Strategic use in featured section and articles",
+    "connection_requests": "Personalized messages to ideal prospects",
+    "engagement_strategy": "Build relationships before pitching",
+    "inmail_campaigns": "Premium feature for direct outreach",
+    "lead_gen_forms": "Capture info without leaving LinkedIn"
+  },
+  "integration_opportunities": [
+    "Cross-promote YouTube videos",
+    "Share Medium articles",
+    "Promote webinars and events",
+    "Link to portfolio work (Behance, personal site)",
+    "Drive traffic to blog/newsletter",
+    "Recruit talent and build team",
+    "Partner with other businesses"
+  ],
+  "common_use_cases": [
+    "B2B lead generation and prospecting",
+    "Thought leadership and authority building",
+    "Professional networking and connections",
+    "Content marketing and brand building",
+    "Recruitment and talent acquisition",
+    "Partnership and business development",
+    "Industry news and insights sharing",
+    "Course and webinar promotion",
+    "Client testimonials and case studies",
+    "Job search and career development"
+  ],
+  "linkedin_premium_tiers": {
+    "career": "Job search, learning, InMail credits",
+    "business": "Lead generation, insights, InMail",
+    "sales_navigator": "Advanced lead search and tracking",
+    "recruiter": "Talent search and candidate management",
+    "free_vs_premium": "Free sufficient for most content creators"
+  },
+  "hashtag_strategy": {
+    "quantity": "3-5 hashtags per post (algorithm favor)",
+    "types": "Mix industry hashtags + niche hashtags",
+    "placement": "End of post or integrated naturally",
+    "research": "Follow hashtags to see volume",
+    "avoid": "Overly generic (#marketing) or excessive (10+)"
+  },
+  "commenting_strategy": {
+    "value_first": "Add insight, not just 'Great post!'",
+    "visibility": "Comment on influencer posts for exposure",
+    "engagement": "Ask follow-up questions",
+    "timing": "Early comments get more visibility",
+    "authenticity": "Be genuine, not salesy"
+  },
+  "pros": [
+    "Best B2B platform for professional networking",
+    "High-intent audience (decision makers)",
+    "Long content lifespan (weeks vs hours)",
+    "Strong for thought leadership and authority",
+    "Professional context for content",
+    "Powerful for lead generation",
+    "Higher engagement quality than other platforms",
+    "Multiple content formats (posts, articles, video, live)",
+    "Built-in resume and portfolio features",
+    "Excellent for recruiting and partnerships"
+  ],
+  "cons": [
+    "Primarily B2B (less effective for B2C)",
+    "Algorithm can be unpredictable",
+    "Premium features require subscription",
+    "Less viral potential than TikTok/Instagram",
+    "Connection limits (30,000 max)",
+    "Slower growth than entertainment platforms",
+    "Professional tone required (less casual)",
+    "Increasing spam and low-quality content",
+    "Feed can feel oversaturated"
+  ],
+  "alternative_tools": [
+    "TOOL-SMM-006 (Twitter/X) - Real-time professional updates",
+    "TOOL-SMM-004 (Facebook) - Community groups for professionals",
+    "Xing - European professional network",
+    "AngelList - Startup ecosystem networking"
+  ],
+  "linkedin_vs_twitter": {
+    "linkedin_better_for": [
+      "B2B lead generation",
+      "Long-form thought leadership",
+      "Professional branding",
+      "Recruitment and hiring",
+      "Partnership development",
+      "Enterprise sales"
+    ],
+    "twitter_better_for": [
+      "Real-time updates and news",
+      "Quick insights and tips",
+      "Tech and startup community",
+      "Viral potential",
+      "Fast-paced discussion",
+      "Global reach beyond professionals"
+    ]
+  },
+  "linkedin_content_formats": {
+    "text_only": "High engagement if well-written, personal",
+    "image_post": "Visual + caption, infographics work well",
+    "video_post": "Native uploads favored, subtitles essential",
+    "document_post": "PDFs for carousels (high saves)",
+    "article": "Long-form for comprehensive topics",
+    "poll": "Quick engagement, audience insights",
+    "live_video": "Real-time Q&A and events",
+    "story": "Behind-the-scenes, less formal"
+  },
+  "linkedin_algorithm_tips": {
+    "post_when_active": "When your network is online",
+    "engage_first": "Comment on others before posting",
+    "native_content": "No external links in initial post",
+    "edit_to_add_link": "Post, then edit to add link in first comment",
+    "avoid_clickbait": "Algorithm detects and suppresses",
+    "encourage_comments": "Ask questions, spark discussion",
+    "reshare_strategically": "Add commentary when sharing",
+    "tag_sparingly": "2-3 relevant people max"
+  },
+  "source": "SMM_Research_Document_2_Content_Strategy_Multi_Platform",
+  "similars": [
+    "linkedin.com",
+    "professional network"
+  ],
+  "_migration": {
+    "date": "2025-11-26T02:01:31.246697",
+    "old_tool_id": "TOL-084",
+    "old_path": "TOL-084_LinkedIn.json",
+    "migrated_by": "restructure_tools_v1"
+  },
+  "name": "LinkedIn"
+}

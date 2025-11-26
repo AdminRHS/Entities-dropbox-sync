@@ -31,7 +31,7 @@
 | AI (AID) | AI_Department_Report_2025-11-21.md | ✅ Processed | 12 | 24.5 |
 | Design (DGN) | Design_Department_Report_2025-11-21.md | ✅ Processed | 14 | 28.0 |
 | Development (DEV) | Dev_Department_Report_2025-11-21.md | ✅ Processed | 8 | 16.0 |
-| Finance (FNC) | Finance_Department_Report_2025-11-21.md | ✅ Processed | 4 | 8.0 |
+| Finance (FIN) | Finance_Department_Report_2025-11-21.md | ✅ Processed | 4 | 8.0 |
 | HR (HRM) | HR_Department_Report_2025-11-21.md | ✅ Processed | 5 | 10.0 |
 | Lead Gen (LGN) | LG_Department_Report_2025-11-21.md | ✅ Processed | 10 | 20.0 |
 | Sales (SLS) | Sales_Department_Report_2025-11-21.md | ✅ Processed | 12 | 24.0 |

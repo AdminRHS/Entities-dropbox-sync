@@ -8,6 +8,8 @@
 
 ## Contact Information
 
+- **Nov25 Folder:** /Dropbox/Nov25/LG/Aledare Adedoiin Bridjet
+
 - **Personal Email:** Aledareade@gmail.com
 - **Work Email:** bridgetaledare.rh@gmail.com
 - **Discord ID:** Not specified

@@ -1,0 +1,157 @@
+{
+  "entity_type": "LIBRARIES",
+  "sub_entity": "Tool",
+  "tool_id": "TOL-006",
+  "name": "Antigravity IDE",
+  "vendor": "Antigravity",
+  "category": "Developer Tools / IDE",
+  "purpose": "Modern IDE with AI-powered code completion, debugging, and collaboration features",
+  "description": "Next-generation integrated development environment with built-in AI coding assistant, intelligent code completion, real-time collaboration, and seamless integrations with modern development workflows. Designed for productivity with AI-first features that understand context across entire codebases. Supports multiple programming languages and frameworks with extensible plugin ecosystem.",
+  "skill_level_required": "Beginner to Advanced",
+  "cost_structure": "Subscription-based (monthly/annual plans)",
+  "platform_compatibility": [
+    "Windows",
+    "macOS",
+    "Linux"
+  ],
+  "integration_capabilities": [
+    "Git and GitHub integration",
+    "AI coding assistants (Claude, Gemini, GPT)",
+    "Version control systems",
+    "Remote development",
+    "Docker and container support",
+    "CI/CD pipelines",
+    "Extension marketplace",
+    "Team collaboration features"
+  ],
+  "documentation_url": "https://antigravity.com/docs",
+  "actual_remote_helpers_usage": {
+    "primary_use": "Primary Development Environment for AI, Dev, and Design Teams",
+    "users": [
+      "AI Engineers",
+      "Software Developers",
+      "Frontend Developers",
+      "Backend Developers",
+      "Sales Team (for demos)"
+    ],
+    "use_cases": [
+      "Full-stack development",
+      "AI/ML model development",
+      "Microservices development",
+      "Frontend UI development",
+      "API development",
+      "Code review and collaboration",
+      "Debugging and testing",
+      "Database schema development"
+    ],
+    "workflows": [
+      "New employee onboarding (install and configure IDE)",
+      "Daily development tasks",
+      "Code review workflows",
+      "Pair programming sessions",
+      "Sprint development cycles"
+    ],
+    "typical_workflow_pattern": [
+      {
+        "task": "Install and Configure for New Team Member",
+        "steps": [
+          "Download Antigravity IDE installer",
+          "Install with admin privileges",
+          "Configure AI assistant with API keys",
+          "Set up Git integration with SSH keys",
+          "Install required extensions (Python, JavaScript, etc.)",
+          "Import team settings and workspace",
+          "Test with sample project"
+        ],
+        "complexity": "Medium",
+        "time_estimate": "2 hours (install + configuration + testing)",
+        "time_saved": "4-6 hours vs manual setup without guidance"
+      }
+    ],
+    "integration_with_other_tools": [
+      "TOL-002 (Claude) for AI code assistance",
+      "TOL-003 (Gemini) for code generation",
+      "GitHub for version control",
+      "TOL-081 (Google Cloud) for deployment",
+      "Docker for containerization",
+      "TOL-119 (n8n) for workflow automation"
+    ]
+  },
+  "strengths": [
+    "AI-powered code completion and generation",
+    "Fast and responsive interface",
+    "Excellent multi-language support",
+    "Built-in collaboration features",
+    "Extensive plugin ecosystem",
+    "Intuitive user interface",
+    "Seamless Git integration",
+    "Smart debugging capabilities"
+  ],
+  "limitations": [
+    "Subscription cost for premium features",
+    "Learning curve for advanced features",
+    "Requires good hardware for optimal performance",
+    "Some plugins may have compatibility issues"
+  ],
+  "departments_using": [
+    "AI",
+    "Dev",
+    "Design",
+    "Sales"
+  ],
+  "finance_data": {
+    "subscription_status": "paid",
+    "total_accounts": 3,
+    "paid_accounts": 3,
+    "unpaid_accounts": 0,
+    "latest_valid_until": "2026-01-20",
+    "accounts": [
+      {
+        "email": "dev@rh-s.com",
+        "status": "paid",
+        "paid_date": "2025-10-20",
+        "valid_until": "2026-01-20",
+        "department": "AI"
+      },
+      {
+        "email": "dd@rh-s.com",
+        "status": "paid",
+        "paid_date": "2025-10-20",
+        "valid_until": "2026-01-20",
+        "department": "Design"
+      },
+      {
+        "email": "sales@rh-s.com",
+        "status": "paid",
+        "paid_date": "2025-10-20",
+        "valid_until": "2026-01-20",
+        "department": "Sales"
+      }
+    ],
+    "departments_using": [
+      "AI",
+      "Design",
+      "Sales"
+    ]
+  },
+  "tags": [
+    "ide",
+    "development",
+    "code-editor",
+    "ai-coding",
+    "productivity",
+    "collaboration",
+    "debugging",
+    "onboarding"
+  ],
+  "discovery_date": "2025-11-20",
+  "discovery_source": "Daily_Report_AI_Department",
+  "status": "active",
+  "recommended_use": "Primary IDE for all development teams",
+  "_migration": {
+    "date": "2025-11-26T02:01:31.120680",
+    "old_tool_id": "TOL-006",
+    "old_path": "TOL-006_Antigravity_IDE.json",
+    "migrated_by": "restructure_tools_v1"
+  }
+}
