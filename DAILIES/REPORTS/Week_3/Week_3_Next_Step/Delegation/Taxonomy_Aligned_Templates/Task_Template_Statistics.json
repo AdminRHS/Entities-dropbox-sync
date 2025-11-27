@@ -1,0 +1,36 @@
+{
+  "total_templates": 421,
+  "by_department": {
+    "AID": 196,
+    "HRM": 45,
+    "SLS": 27,
+    "DEV": 31,
+    "LGN": 15,
+    "DGN": 55,
+    "FIN": 21,
+    "SMM": 10,
+    "VID": 21
+  },
+  "by_category": {
+    "Research": 36,
+    "Task": 153,
+    "Integration": 20,
+    "Development": 156,
+    "Testing": 8,
+    "Design": 17,
+    "Documentation": 23,
+    "Maintenance": 8
+  },
+  "by_priority": {
+    "High": 421
+  },
+  "by_complexity": {
+    "Medium": 420,
+    "N/A": 1
+  },
+  "quick_wins": 0,
+  "by_template_type": {
+    "CUSTOM": 420,
+    "Task-Template-081": 1
+  }
+}

@@ -3,7 +3,7 @@
 extract_tasks_batch.py - Batch Task Extraction Script
 
 Purpose: Extract tasks, actions, objects, tools from collected employee files
-         using MAIN_PROMPT_v6.md methodology with AI assistance.
+         using MAIN_PROMPT_v7.md methodology with AI assistance.
 
 Milestone: MLT-003 (Entity Extraction)
 Time Savings: 60 min manual → 10 min automated (50 min saved)
@@ -44,12 +44,12 @@ BATCH_SIZE = 5  # Process N files at once
 MAX_TOKENS = 4096
 
 # ============================================================================
-# MAIN_PROMPT_v6 Extraction Template
+# MAIN_PROMPT_v7 Extraction Template
 # ============================================================================
 
 EXTRACTION_PROMPT_TEMPLATE = """You are an entity extraction assistant. Extract structured task information from employee daily files.
 
-**Output Format (from MAIN_PROMPT_v6.md line 42):**
+**Output Format (from MAIN_PROMPT_v7.md):**
 - Tasks with MLT-### (Milestones), TST-### (Task Templates)
 - Actions: ACT-### (verbs like Create, Update, Generate, Analyze)
 - Objects: OBJ-### (nouns like Report, Design, Video, Lead List)

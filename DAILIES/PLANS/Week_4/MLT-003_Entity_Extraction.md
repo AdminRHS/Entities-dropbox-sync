@@ -10,17 +10,17 @@
 
 ## Overview
 
-Extract tasks, actions, objects, tools, and other entities from all collected employee files using MAIN_PROMPT_v6.md. Process ~150-250 files to identify 50-100 tasks for assignment.
+Extract tasks, actions, objects, tools, and other entities from all collected employee files using MAIN_PROMPT_v7.md. Process ~150-250 files to identify 50-100 tasks for assignment.
 
 ---
 
 ## What You'll Do
 
-### 1. Use MAIN_PROMPT_v6.md
+### 1. Use MAIN_PROMPT_v7.md
 
 **Prompt Location:**
 ```
-/ENTITIES/PROMPTS/Core/MAIN_PROMPT_v6.md
+/ENTITIES/PROMPTS/Core/MAIN_PROMPT_v7.md
 ```
 
 **Key Extraction Line (Line 42):**
@@ -59,12 +59,12 @@ TOL-### (Tools), SKL-### (Skills)
 
 **AI Department Example:**
 - Read: `AI_Artemchuk_Nikolay_daily.md`
-- Extract entities using MAIN_PROMPT_v6.md
+- Extract entities using MAIN_PROMPT_v7.md
 - Save to: `AI_Artemchuk_Nikolay_extracted.md`
 
 **Design Department Example:**
 - Read: `Design_Bogun_Polina_daily.md`
-- Extract entities using MAIN_PROMPT_v6.md
+- Extract entities using MAIN_PROMPT_v7.md
 - Save to: `Design_Bogun_Polina_extracted.md`
 
 ---
@@ -242,7 +242,7 @@ Common tools by category:
 ### Option 1: Manual Sequential Processing
 1. Open employee file
 2. Read content
-3. Apply MAIN_PROMPT_v6.md
+3. Apply MAIN_PROMPT_v7.md
 4. Write extraction file
 5. Repeat for next employee
 
@@ -250,7 +250,7 @@ Common tools by category:
 
 ### Option 2: Batch with Claude/ChatGPT
 1. Load 10 employee files
-2. Send batch to AI with MAIN_PROMPT_v6.md
+2. Send batch to AI with MAIN_PROMPT_v7.md
 3. Review and save 10 extractions
 4. Repeat for next batch
 
@@ -263,7 +263,7 @@ Common tools by category:
 # Pseudo-code
 input_dir = '01_Collected_Files/'
 output_dir = '02_Extracted_Tasks/'
-prompt = load('MAIN_PROMPT_v6.md')
+prompt = load('MAIN_PROMPT_v7.md')
 
 for file in input_dir:
     content = read(file)
@@ -277,7 +277,7 @@ for file in input_dir:
 
 ## Checklist
 
-- [ ] Load MAIN_PROMPT_v6.md prompt
+- [ ] Load MAIN_PROMPT_v7.md prompt
 - [ ] Process AI department files (~10 employees)
 - [ ] Process Design department files (~15 employees)
 - [ ] Process Lead Generation files (~20 employees)
@@ -334,7 +334,7 @@ Update `06_Processing_Log.md`:
 ## Related Documentation
 
 - **Main Guide:** [GDS-001 Daily Task Processing Instructions](../../Daily_Processing/Daily_Processing_Workflow/Guides/GDS-001_Daily_Task_Processing_Instructions.md)
-- **Extraction Prompt:** [MAIN_PROMPT_v6.md](../../../PROMPTS/Core/MAIN_PROMPT_v6.md)
+- **Extraction Prompt:** [MAIN_PROMPT_v7.md](../../../PROMPTS/Core/MAIN_PROMPT_v7.md)
 - **Action Taxonomy:** [TAX-001 Libraries ISO Registry](../../../TAXONOMY/TAX-001_Libraries/Libraries_ISO_Code_Registry.md)
 - **Task Template Format:** [TSM-003 Task Templates](../../../TASK_MANAGERS/TSM-003_Task_Templates/)
 

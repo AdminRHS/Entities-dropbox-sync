@@ -1,0 +1,34 @@
+{
+  "generation_date": "2025-11-26",
+  "total_tasks_in_csv": 501,
+  "simple_numeric_tasks": 426,
+  "templates_generated": 426,
+  "excluded_task_patterns": {
+    "ARC (already correct)": 6,
+    "FIX (already correct)": 1,
+    "PRT (already correct)": 17,
+    "MLT (already correct)": 11,
+    "AID-date-based": 5,
+    "DEV-date-based": 7,
+    "DGN-date-based": 10,
+    "FIN-date-based": 3,
+    "HRM-date-based": 5,
+    "LGN-date-based": 5,
+    "SLS-date-based": 2,
+    "VID-date-based": 3
+  },
+  "errors": [],
+  "output_directory": "C:\\Users\\Dell\\Dropbox\\ENTITIES\\DAILIES\\REPORTS\\Week_3\\Week_3_Next_Step\\Delegation\\Taxonomy_Aligned_Templates\\Task_Templates",
+  "department_mapping": {
+    "AI": "AID",
+    "Design": "DGN",
+    "Development": "DEV",
+    "Finance": "FIN",
+    "HR": "HRM",
+    "Lead Generation": "LGN",
+    "Sales": "SLS",
+    "SMM": "SMM",
+    "Video": "VID"
+  },
+  "conversion_pattern": "TSK-### -> TST-###"
+}

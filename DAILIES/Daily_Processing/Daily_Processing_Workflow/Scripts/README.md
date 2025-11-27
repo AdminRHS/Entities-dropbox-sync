@@ -120,7 +120,7 @@ python3 collect_daily_files.py --dry-run
 
 ### 2. extract_tasks_batch.py
 
-**Purpose:** Extract tasks from collected files using AI and MAIN_PROMPT_v6.md methodology
+**Purpose:** Extract tasks from collected files using AI and MAIN_PROMPT_v7.md methodology
 
 **Milestone:** MLT-003 (Entity Extraction)
 
@@ -150,7 +150,7 @@ python3 extract_tasks_batch.py --dry-run
 
 **What it does:**
 - Reads collected files from `01_Collected_Files/`
-- Sends each file to AI with MAIN_PROMPT_v6 extraction template
+- Sends each file to AI with MAIN_PROMPT_v7 extraction template
 - Extracts: tasks, actions (ACT), objects (OBJ), tools (TOL), skills, professions, departments
 - Saves extraction JSON for each employee: `{DeptCode}_{Employee}_extracted.json`
 - Saves extraction summary: `_extraction_summary.json`

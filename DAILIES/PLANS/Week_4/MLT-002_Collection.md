@@ -255,7 +255,7 @@ When naming collected files, use ISO department codes:
 
 ## Next Milestone
 
-**→ [MLT-003: Entity Extraction](MLT-003_Entity_Extraction.md)** - Extract tasks from ALL collected files using MAIN_PROMPT_v6.md (60 minutes)
+**→ [MLT-003: Entity Extraction](MLT-003_Entity_Extraction.md)** - Extract tasks from ALL collected files using MAIN_PROMPT_v7.md (60 minutes)
 
 ---
 

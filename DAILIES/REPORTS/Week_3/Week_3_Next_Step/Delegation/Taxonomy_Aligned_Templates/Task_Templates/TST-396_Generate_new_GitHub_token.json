@@ -9,30 +9,26 @@
     "department": "DEV",
     "category": "Task",
     "priority": "High",
-    "complexity": "N/A",
+    "complexity": "Medium",
     "status": "Active",
-    "estimated_duration": "TBD",
-    "profession": "N/A",
+    "estimated_duration": "N/A",
+    "business_impact": "Medium",
     "created_date": "2025-11-26",
     "version": "1.0"
   },
   "execution": {
-    "matched_template": "TST-023_File_Count_Distribution",
-    "match_confidence": "Medium",
-    "business_impact": "Internal",
-    "quick_win": false
+    "matched_template": "CUSTOM",
+    "quick_win": false,
+    "blocking_dependencies": []
   },
-  "tools_required": [],
-  "skills_required": [],
+  "assignment": {
+    "assigned_to": "TBD",
+    "queue_position": ""
+  },
   "steps": [],
-  "performance_metrics": {
-    "estimated_duration": "TBD",
-    "complexity_score": "N/A"
-  },
   "tags": [
-    "dev",
     "task",
-    "high"
+    "dev"
   ],
   "version": "1.0",
   "created": "2025-11-26",
@@ -40,6 +36,7 @@
   "migration_notes": {
     "original_id": "TSK-396",
     "converted_from": "Task_Template_Mapping.csv",
-    "conversion_date": "2025-11-26"
+    "conversion_date": "2025-11-26",
+    "source": "Week 3 Task Mapping"
   }
 }

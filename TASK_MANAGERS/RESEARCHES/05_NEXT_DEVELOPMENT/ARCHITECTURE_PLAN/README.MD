@@ -236,3 +236,105 @@ pytest tests/
 **Last Updated:** 2025-11-26
 **Next Review:** After Phase 0 completion
 **Status:** Ready for stakeholder review
+
+
+### Inventory run 2025-11-26 13:00:23
+```text
+researches: rows=25, src_headers=['RSR_ID', 'Name', 'Description', 'Department', 'Category', 'File_Path', 'Status'], out=DATA\RESEARCHES_Master_List_normalized.csv
+videos: rows=5, src_headers=['Queue_ID', 'Video_ID', 'Video_Title', 'Channel_Name', 'Channel_URL', 'Video_URL', 'Views', 'Likes', 'Comments', 'Publish_Date', 'Duration', 'Added_By', 'Added_Date', 'Status', 'Selected_By', 'Selected_Date', 'Parsed_Date', 'Topic_Category', 'Research_Source', 'Priority_Score', 'Notes'], out=DATA\01_VIDEO_QUEUE\Video_Queue_Master_normalized.csv
+search_queue: rows=0, src_headers=['Search_ID', 'Employee', 'Department', 'Topic', 'Search_Query', 'Status', 'Videos_Found', 'Date_Assigned', 'Date_Completed', 'Notes'], out=DATA\00_SEARCH_QUEUE\Search_Queue_Master_normalized.csv
+```
+
+### Inventory run 2025-11-26 13:15:36
+```text
+normalize_researches: missing file ([Errno 2] No such file or directory: 'G:\\Job\\REMS\\apps\\data\\DATA\\RESEARCHES_Master_List.csv')
+videos: rows=5, src_headers=['Queue_ID', 'Video_ID', 'Video_Title', 'Channel_Name', 'Channel_URL', 'Video_URL', 'Views', 'Likes', 'Comments', 'Publish_Date', 'Duration', 'Added_By', 'Added_Date', 'Status', 'Selected_By', 'Selected_Date', 'Parsed_Date', 'Topic_Category', 'Research_Source', 'Priority_Score', 'Notes'], out=DEV\05_NEXT_DEVELOPMENT\_normalized\01_VIDEO_QUEUE\Video_Queue_Master_normalized.csv
+search_queue: rows=0, src_headers=['Search_ID', 'Employee', 'Department', 'Topic', 'Search_Query', 'Status', 'Videos_Found', 'Date_Assigned', 'Date_Completed', 'Notes'], out=DEV\05_NEXT_DEVELOPMENT\_normalized\00_SEARCH_QUEUE\Search_Queue_Master_normalized.csv
+```
+
+### Inventory run 2025-11-26 13:16:30
+```text
+researches: rows=25, src_headers=['RSR_ID', 'Name', 'Description', 'Department', 'Category', 'File_Path', 'Status'], out=DEV\05_NEXT_DEVELOPMENT\_normalized\RESEARCHES_Master_List_normalized.csv
+videos: rows=5, src_headers=['Queue_ID', 'Video_ID', 'Video_Title', 'Channel_Name', 'Channel_URL', 'Video_URL', 'Views', 'Likes', 'Comments', 'Publish_Date', 'Duration', 'Added_By', 'Added_Date', 'Status', 'Selected_By', 'Selected_Date', 'Parsed_Date', 'Topic_Category', 'Research_Source', 'Priority_Score', 'Notes'], out=DEV\05_NEXT_DEVELOPMENT\_normalized\01_VIDEO_QUEUE\Video_Queue_Master_normalized.csv
+search_queue: rows=0, src_headers=['Search_ID', 'Employee', 'Department', 'Topic', 'Search_Query', 'Status', 'Videos_Found', 'Date_Assigned', 'Date_Completed', 'Notes'], out=DEV\05_NEXT_DEVELOPMENT\_normalized\00_SEARCH_QUEUE\Search_Queue_Master_normalized.csv
+```
+
+### Last inventory run 2025-11-26T13:36:19.628074Z
+```text
+inventory pipeline finished
+py G:\Job\REMS\apps\data\DEV\05_NEXT_DEVELOPMENT\scripts\normalize_csv_phase0.py -> code=0
+py G:\Job\REMS\apps\data\DEV\05_NEXT_DEVELOPMENT\scripts\normalize_json_phase0.py -> code=0
+py G:\Job\REMS\apps\data\DEV\05_NEXT_DEVELOPMENT\scripts\md_inventory.py -> code=0
+py G:\Job\REMS\apps\data\DEV\05_NEXT_DEVELOPMENT\scripts\aggregate_data_listings.py -> code=0
+stderr: G:\Job\REMS\apps\data\DEV\05_NEXT_DEVELOPMENT\scripts\aggregate_data_listings.py:139: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  "generated_at": dt.datetime.utcnow().isoformat() + "Z",
+G:\Job\REMS\apps\data\DEV\05_NEXT_DEVELOPMENT\scripts\aggregate_data_listings.py:149: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  "generated_at": dt.datetime.utcnow().isoformat() + "Z",
+counts: {'researches': 25, 'video_queue': 5, 'search_queue': 0, 'influencers': 0, 'youtube_channels': 0, 'tool_mapping': 237, 'discovered_tools': 253, 'markdown_files': 191}
+video_status: {'queued': 3, 'analyzing': 1, 'completed': 1}
+research_status: {'active': 25}
+```
+
+### Last inventory run 2025-11-26T13:52:30.876975Z
+```text
+inventory pipeline finished
+py G:\Job\REMS\apps\data\DEV\05_NEXT_DEVELOPMENT\scripts\normalize_csv_phase0.py -> code=0
+py G:\Job\REMS\apps\data\DEV\05_NEXT_DEVELOPMENT\scripts\normalize_json_phase0.py -> code=0
+py G:\Job\REMS\apps\data\DEV\05_NEXT_DEVELOPMENT\scripts\md_inventory.py -> code=0
+py G:\Job\REMS\apps\data\DEV\05_NEXT_DEVELOPMENT\scripts\aggregate_data_listings.py -> code=0
+stderr: G:\Job\REMS\apps\data\DEV\05_NEXT_DEVELOPMENT\scripts\aggregate_data_listings.py:139: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  "generated_at": dt.datetime.utcnow().isoformat() + "Z",
+G:\Job\REMS\apps\data\DEV\05_NEXT_DEVELOPMENT\scripts\aggregate_data_listings.py:149: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  "generated_at": dt.datetime.utcnow().isoformat() + "Z",
+counts: {'researches': 25, 'video_queue': 5, 'search_queue': 0, 'influencers': 0, 'youtube_channels': 0, 'tool_mapping': 237, 'discovered_tools': 253, 'markdown_files': 191}
+video_status: {'queued': 3, 'analyzing': 1, 'completed': 1}
+research_status: {'active': 25}
+```
+
+### Last inventory run 2025-11-26T13:54:19.100945+00:00
+```text
+inventory pipeline finished
+py G:\Job\REMS\apps\data\DEV\05_NEXT_DEVELOPMENT\scripts\normalize_csv_phase0.py -> code=0
+py G:\Job\REMS\apps\data\DEV\05_NEXT_DEVELOPMENT\scripts\normalize_json_phase0.py -> code=0
+py G:\Job\REMS\apps\data\DEV\05_NEXT_DEVELOPMENT\scripts\md_inventory.py -> code=0
+py G:\Job\REMS\apps\data\DEV\05_NEXT_DEVELOPMENT\scripts\aggregate_data_listings.py -> code=0
+counts: {'researches': 25, 'video_queue': 5, 'search_queue': 0, 'influencers': 0, 'youtube_channels': 0, 'tool_mapping': 237, 'discovered_tools': 253, 'markdown_files': 191}
+video_status: {'queued': 3, 'analyzing': 1, 'completed': 1}
+research_status: {'active': 25}
+```
+
+### Last inventory run 2025-11-26T13:58:09.929810+00:00
+```text
+inventory pipeline finished
+py G:\Job\REMS\apps\data\DEV\05_NEXT_DEVELOPMENT\scripts\normalize_csv_phase0.py -> code=0
+py G:\Job\REMS\apps\data\DEV\05_NEXT_DEVELOPMENT\scripts\normalize_json_phase0.py -> code=0
+py G:\Job\REMS\apps\data\DEV\05_NEXT_DEVELOPMENT\scripts\md_inventory.py -> code=0
+py G:\Job\REMS\apps\data\DEV\05_NEXT_DEVELOPMENT\scripts\aggregate_data_listings.py -> code=0
+counts: {'researches': 25, 'video_queue': 5, 'search_queue': 0, 'influencers': 0, 'youtube_channels': 0, 'tool_mapping': 237, 'discovered_tools': 253, 'markdown_files': 191}
+video_status: {'queued': 3, 'analyzing': 1, 'completed': 1}
+research_status: {'active': 25}
+```
+
+### Last inventory run 2025-11-26T15:30:33.328412+00:00
+```text
+inventory pipeline finished
+py G:\Job\REMS\apps\data\DEV\05_NEXT_DEVELOPMENT\scripts\normalize_csv_phase0.py -> code=0
+py G:\Job\REMS\apps\data\DEV\05_NEXT_DEVELOPMENT\scripts\normalize_json_phase0.py -> code=0
+py G:\Job\REMS\apps\data\DEV\05_NEXT_DEVELOPMENT\scripts\md_inventory.py -> code=0
+py G:\Job\REMS\apps\data\DEV\05_NEXT_DEVELOPMENT\scripts\aggregate_data_listings.py -> code=0
+counts: {'researches': 25, 'video_queue': 5, 'search_queue': 0, 'influencers': 0, 'youtube_channels': 0, 'tool_mapping': 237, 'discovered_tools': 253, 'markdown_files': 192}
+video_status: {'queued': 3, 'analyzing': 1, 'completed': 1}
+research_status: {'active': 25}
+```
+
+### Last inventory run 2025-11-26T15:36:04.172739+00:00
+```text
+inventory pipeline finished
+py G:\Job\REMS\apps\data\DEV\05_NEXT_DEVELOPMENT\scripts\normalize_csv_phase0.py -> code=0
+py G:\Job\REMS\apps\data\DEV\05_NEXT_DEVELOPMENT\scripts\normalize_json_phase0.py -> code=0
+py G:\Job\REMS\apps\data\DEV\05_NEXT_DEVELOPMENT\scripts\md_inventory.py -> code=0
+py G:\Job\REMS\apps\data\DEV\05_NEXT_DEVELOPMENT\scripts\aggregate_data_listings.py -> code=0
+counts: {'researches': 25, 'video_queue': 5, 'search_queue': 0, 'influencers': 0, 'youtube_channels': 0, 'tool_mapping': 237, 'discovered_tools': 253, 'markdown_files': 192}
+video_status: {'queued': 3, 'analyzing': 1, 'completed': 1}
+research_status: {'active': 25}
+```

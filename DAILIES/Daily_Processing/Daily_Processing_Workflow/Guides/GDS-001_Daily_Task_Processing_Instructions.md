@@ -31,7 +31,7 @@ This guide provides step-by-step instructions for processing all employees' dail
 ### What You'll Do
 
 1. Collect ALL files from ~60 employees' today's folders (daily.md, plans.md, tasks.md, etc.)
-2. Extract tasks using MAIN_PROMPT_v6.md from all collected files
+2. Extract tasks using MAIN_PROMPT_v7.md from all collected files
 3. Perform gap analysis using RESEARCHES/Gap_Analysis methodology
 4. Create new task templates (TST-###) for identified gaps
 5. Assign tasks based on profession, department, skills, and workload
@@ -71,7 +71,7 @@ This guide provides step-by-step instructions for processing all employees' dail
 
 ### Files You'll Need
 
-- **MAIN_PROMPT_v6.md:** `/ENTITIES/PROMPTS/Core/MAIN_PROMPT_v6.md`
+- **MAIN_PROMPT_v7.md:** `/ENTITIES/PROMPTS/Core/MAIN_PROMPT_v7.md`
 - **Gap Analysis Examples:** `/ENTITIES/TASK_MANAGERS/RESEARCHES/03_ANALYSIS/Gap_Analysis/`
 - **Task Templates Master List:** `/ENTITIES/TASK_MANAGERS/TSM-003_Task_Templates/Task_Templates_Master_List.csv`
 - **Employee Profiles:** `/ENTITIES/TALENTS/Employees/profiles/Work/`
@@ -83,7 +83,7 @@ This guide provides step-by-step instructions for processing all employees' dail
 - **Text editor** (for viewing/editing markdown and JSON files)
 - **File manager** (for copying files)
 - **Spreadsheet app** (for viewing CSV files)
-- **AI assistant** (Claude, ChatGPT with MAIN_PROMPT_v6.md loaded)
+- **AI assistant** (Claude, ChatGPT with MAIN_PROMPT_v7.md loaded)
 
 ---
 
@@ -288,7 +288,7 @@ Missing folders:
 ### Milestone MLT-003: Entity Extraction (60 minutes)
 
 #### Goal
-Extract tasks and entities from **ALL collected files** (not just daily.md) using MAIN_PROMPT_v6.md
+Extract tasks and entities from **ALL collected files** (not just daily.md) using MAIN_PROMPT_v7.md
 
 **IMPORTANT:** Process daily.md, plans.md, tasks.md, and any other .md files found in each employee's folder.
 
@@ -304,9 +304,9 @@ Extract tasks and entities from **ALL collected files** (not just daily.md) usin
 
 #### Process
 
-**1. Load MAIN_PROMPT_v6.md**
+**1. Load MAIN_PROMPT_v7.md**
 
-Open: `/ENTITIES/PROMPTS/Core/MAIN_PROMPT_v6.md`
+Open: `/ENTITIES/PROMPTS/Core/MAIN_PROMPT_v7.md`
 
 This is your reference for entity extraction logic.
 
@@ -325,7 +325,7 @@ Process each file found:
 
 **4. Extract Entities from ALL Files Combined**
 
-Apply MAIN_PROMPT_v6 logic to identify tasks from ALL files:
+Apply MAIN_PROMPT_v7 logic to identify tasks from ALL files:
 
 **From daily.md:**
 - What tasks did the employee actually do?
@@ -519,7 +519,7 @@ For each extracted file, verify:
 #### Tips
 
 - Process similar departments together
-- Use AI assistant (Claude/ChatGPT) with MAIN_PROMPT_v6.md loaded
+- Use AI assistant (Claude/ChatGPT) with MAIN_PROMPT_v7.md loaded
 - When extracting from plans.md, look for "Кто (Who)" to identify assignees
 - From tasks.md, extract the detailed step breakdowns
 - Combine information from all files for comprehensive understanding
@@ -865,7 +865,7 @@ Also save copy to workspace:
   ],
   "dependencies": [
     "Access to all employee daily files",
-    "MAIN_PROMPT_v6.md loaded",
+    "MAIN_PROMPT_v7.md loaded",
     "Employee profiles available"
   ],
   "success_criteria": [
@@ -1207,7 +1207,7 @@ Libraries:
   └── LBS_004_Skills/
 
 Main Prompt:
-/ENTITIES/PROMPTS/Core/MAIN_PROMPT_v6.md
+/ENTITIES/PROMPTS/Core/MAIN_PROMPT_v7.md
 ```
 
 ### Gap Type Quick Reference

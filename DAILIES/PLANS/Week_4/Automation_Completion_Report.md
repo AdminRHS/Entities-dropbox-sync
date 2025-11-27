@@ -61,7 +61,7 @@ python3 collect_daily_files.py --week 4 --day 24 --dry-run
 **Features:**
 - Batch processes collected files using AI
 - Supports both Claude (Anthropic) and OpenAI APIs
-- Extracts structured task data following MAIN_PROMPT_v6.md
+- Extracts structured task data following MAIN_PROMPT_v7.md
 - Identifies: tasks, actions (ACT), objects (OBJ), tools (TOL), skills, professions, departments
 - Saves extraction JSON per employee
 - Generates extraction summary with statistics

@@ -1,0 +1,180 @@
+ID,Name,Category,File_Path,Status
+PRM-001,Video Transcription Custom Instructions,Video & Analysis,ENTITIES/PROMPTS/Video_Transcription_Custom_Instructions.md,Active
+PRM-002,Video Naming Business Alternatives,Video & Analysis,ENTITIES/PROMPTS/Video_Naming_Business_Alternatives_Prompt.md,Active
+PRM-003,Video Analysis Prompt,Video & Analysis,ENTITIES/PROMPTS/Video_Analysis_Prompt.md,Active
+PRM-004,Objects Library Extraction Prompt,Video & Analysis,ENTITIES/PROMPTS/Objects_Library_Extraction_Prompt.md,Active
+PRM-005,Taxonomy Analysis and Updates Prompt,AID,ENTITIES/PROMPTS/Taxonomy_Analysis_and_Updates_Prompt.md,Active
+PRM-006,Tools Collection and Matching Prompt,AID,ENTITIES/PROMPTS/Tools_Collection_and_Matching_Prompt.md,Active
+PRM-007,Products Integration Prompt,AID,ENTITIES/PROMPTS/Products_Integration_Prompt.md,Active
+PRM-008,Task Manager Entity Filling Prompt,AID,ENTITIES/PROMPTS/Task_Manager_Entity_Filling_Prompt.md,Active
+PRM-009,VSCode Agent HQ Research Prompt,AID,ENTITIES/PROMPTS/VSCode_Agent_HQ_Research_Prompt.md,Active
+PRM-010,YouTube AI HR Tutorials Research Prompt,HRM,ENTITIES/PROMPTS/YouTube_AI_HR_Tutorials_Research_Prompt.md,Active
+PRM-011,YouTube AI Tools Daily Research Prompt,AID,ENTITIES/PROMPTS/YouTube_AI_Tools_Daily_Research_Prompt.md,Active
+PRM-012,YouTube HR Automation Research Prompt,HRM,ENTITIES/PROMPTS/YouTube_HR_Automation_Research_Prompt.md,Active
+PRM-013,Sales Department Research Prompt,SLS,ENTITIES/PROMPTS/Sales_Department_Research_Prompt.md,Active
+PRM-014,YouTube Video Research RemoteHelpers Nov2025,AID,ENTITIES/PROMPTS/YouTube_Video_Research_Prompt_RemoteHelpers_Nov2025.md,Active
+PRM-015,CV Parser v1,HR Operations,ENTITIES/PROMPTS/CV_Parser_v1.md,Active
+PRM-016,Communication Templates Prompt,HR Operations,ENTITIES/PROMPTS/Communication_Templates_Prompt.md,Active
+PRM-017,CRM Data Entry Prompt,HR Operations,ENTITIES/PROMPTS/CRM_Data_Entry_Prompt.md,Active
+PRM-018,Interview Conductor Prompt,HR Operations,ENTITIES/PROMPTS/Interview_Conductor_Prompt.md,Active
+PRM-019,Job Sites Deep Research Prompt,HR Operations,ENTITIES/PROMPTS/Job_Sites_Deep_Research_Prompt.md,Active
+PRM-020,Document Finished Project,Workflows,ENTITIES/PROMPTS/PROMPT_Document_Finished_Project.md,Active
+PRM-021,AI Daily Report,Daily Reports,ENTITIES/PROMPTS/PROMPT_AI_Daily_Report.md,Active
+PRM-022,Development Daily Report,Daily Reports,ENTITIES/PROMPTS/PROMPT_Dev_Daily_Report.md,Active
+PRM-023,Design Daily Report,Daily Reports,ENTITIES/PROMPTS/PROMPT_Design_Daily_Report.md,Active
+PRM-024,HR Daily Report,Daily Reports,ENTITIES/PROMPTS/PROMPT_HR_Daily_Report.md,Active
+PRM-025,Lead Generation Daily Report,Daily Reports,ENTITIES/PROMPTS/PROMPT_LG_Daily_Report.md,Active
+PRM-026,Marketing Daily Report,Daily Reports,ENTITIES/PROMPTS/PROMPT_Marketing_Daily_Report.md,Active
+PRM-027,Sales Daily Report,Daily Reports,ENTITIES/PROMPTS/PROMPT_Sales_Daily_Report.md,Active
+PRM-028,Social Media Daily Report,Daily Reports,ENTITIES/PROMPTS/PROMPT_SMM_Daily_Report.md,Active
+PRM-029,Video Daily Report,Daily Reports,ENTITIES/PROMPTS/PROMPT_Video_Daily_Report.md,Active
+PRM-030,Finance Daily Report,Daily Reports,ENTITIES/PROMPTS/PROMPT_Finance_Daily_Report.md,Active
+PRM-031,Content Daily Report,Daily Reports,ENTITIES/PROMPTS/PROMPT_Content_Daily_Report.md,Active
+PRM-032,Daily Report Collection,Daily Reports,ENTITIES/PROMPTS/PROMPT_Daily_Report_Collection.md,Active
+PRM-033,Enhanced Department Prompt Template,Daily Reports,ENTITIES/PROMPTS/TEMPLATE_Enhanced_Department_Prompt.md,Active
+PRM-034,Main Prompt v2,Core System,ENTITIES/PROMPTS/Core/MAIN_PROMPT_v2.md,Deprecated
+PRM-035,Main Prompt v3,Core System,ENTITIES/PROMPTS/Core/MAIN_PROMPT_v3.md,Deprecated
+PRM-036,Main Prompt v4,Core System,ENTITIES/PROMPTS/Core/MAIN_PROMPT_v4.md,Active
+PRM-037,Main Prompt v5,Core System,ENTITIES/PROMPTS/Core/MAIN_PROMPT_v5_Modular/,Active
+PRM-038,Main Prompt v6 Draft,Core System,ENTITIES/PROMPTS/Core/MAIN_PROMPT_v6_DRAFT.md,Draft
+PRM-039,Create Main Prompt v5,Core System,ENTITIES/PROMPTS/Core/CREATE_MAIN_PROMPT_v5.md,Active
+PRM-040,Reverse Prompt Engineering Analysis,Core System,ENTITIES/PROMPTS/Core/MAIN_PROMPT_v5_Modular/REVERSE_PROMPT_ENGINEERING_Analysis.md,Active
+PRM-041,Build Taxonomy ID System,Taxonomy,ENTITIES/PROMPTS/PROMPT_Build_Taxonomy_ID_System.md,Active
+PRM-042,Build Employee Profile Schema Workflow,Taxonomy,ENTITIES/PROMPTS/PROMPT_Build_Employee_Profile_Schema_Workflow.md,Active
+PRM-043,Restructure Employee Profile to Task Managers,Taxonomy,ENTITIES/PROMPTS/PROMPT_Restructure_Employee_Profile_to_Task_Managers.md,Active
+PRM-044,Build LIBRARIES Taxonomy,Taxonomy,ENTITIES/PROMPTS/PROMPT_Build_LIBRARIES_Taxonomy.md,Active
+PRM-045,LIBRARIES Taxonomy Initial ID List,Taxonomy,ENTITIES/PROMPTS/LIBRARIES_Taxonomy_Initial_ID_List_Prompt.md,Active
+PRM-046,Optimize Video Transcription Instructions,Taxonomy,ENTITIES/PROMPTS/PROMPT_Optimize_Video_Transcription_Instructions.md,Active
+PRM-047,Prompts ISO Code Registry,Taxonomy,ENTITIES/PROMPTS/Prompts_ISO_Code_Registry.md,Active
+PRM-048,Taxonomy Entities Collection,Taxonomy,ENTITIES/PROMPTS/PROMPT_Taxonomy_Entities_Collection.md,Active
+PRM-049,ENTITIES Data Synchronization Architecture,Taxonomy,ENTITIES/PROMPTS/Depricated_PROMPT_ENTITIES_Data_Synchronization_Architecture.md,Deprecated
+PRM-050,Account Creation Validation,AID,ENTITIES/PROMPTS/PROMPT_Account_Creation_Validation.md,Active
+PRM-051,Account Security Audit,AID,ENTITIES/PROMPTS/PROMPT_Account_Security_Audit.md,Active
+PRM-052,Subscription Renewal Alert,AID,ENTITIES/PROMPTS/PROMPT_Subscription_Renewal_Alert.md,Active
+PRM-053,Create Script Copy Dailies,Automation,ENTITIES/PROMPTS/PROMPT_Create_script_copy_dailies.md,Active
+PRM-054,Data Consistency and Knowledge Integration,System,ENTITIES/PROMPTS/PROMPT_Data_Consistency_and_Knowledge_Integration.md,Active
+PRM-055,Department Researches Integration,System,ENTITIES/PROMPTS/PROMPT_Department_Researches_Integration.md,Active
+PRM-056,Folder Reorganization,System,ENTITIES/PROMPTS/PROMPT_Folder_Reorganization.md,Active
+PRM-057,Merge Transcriptions and Research Integration,System,ENTITIES/PROMPTS/PROMPT_Merge_Transcribations_and_Research_Integration.md,Active
+PRM-058,System Health Review Prompt,System,ENTITIES/PROMPTS/System_Health_Review_Prompt.md,Active
+PRM-059,Architecture Merge Planning Prompt,System,ENTITIES/PROMPTS/Architecture_Merge_Planning_Prompt.md,Active
+PRM-060,VSCode AI Extensions Research,System,ENTITIES/PROMPTS/vscode_ai_extensions_research.md,Active
+PRM-061,Architecture Learning Guide,System,ENTITIES/PROMPTS/Architecture_Learning_Guide.md,Active
+PRM-062,Prompt Analysis and Improvements,AID,ENTITIES/PROMPTS/PROMPT_ANALYSIS_AND_IMPROVEMENTS.md,Active
+PRM-063,AutoGenerate Weekly Plans Prompt,AID,ENTITIES/PROMPTS/AutoGenerate_Weekly_Plans_Prompt.md,Active
+PRM-064,BUSINESSES IMPORT PROMPT,AID,ENTITIES/PROMPTS/BUSINESSES_IMPORT_PROMPT.md,Active
+PRM-065,Entity Integration Prompts,AID,ENTITIES/PROMPTS/Entity_Integration_Prompts.md,Active
+PRM-066,Video Transcription,Video & Analysis,ENTITIES/PROMPTS/PMT-004_Video_Transcription_v4.1.md,Active
+PRM-067,Video Naming Alternatives,Video & Analysis,ENTITIES/PROMPTS/PMT-005_Video_Naming_Alternatives.md,Active
+PRM-068,Video Analysis,Video & Analysis,ENTITIES/PROMPTS/PMT-006_Video_Analysis.md,Active
+PRM-069,Objects Library Extraction,Video & Analysis,ENTITIES/PROMPTS/PMT-007_Objects_Library_Extraction.md,Active
+PRM-070,Video Analysis Improvements,Video & Analysis,ENTITIES/PROMPTS/PMT-008_Video_Analysis_Improvements.md,Active
+PRM-071,Taxonomy Integration,Video & Analysis,ENTITIES/PROMPTS/PMT-009_Taxonomy_Integration.md,Active
+PRM-072,Complete Workflow Full,Video & Analysis,ENTITIES/PROMPTS/PMT-010_Complete_Workflow_Full.md,Active
+PRM-073,Complete Workflow Short,Video & Analysis,ENTITIES/PROMPTS/PMT-011_Complete_Workflow_Short.md,Active
+PRM-074,Transcript Processing Workflow,Video & Analysis,ENTITIES/PROMPTS/PMT-012_Transcript_Processing_Workflow.md,Active
+PRM-075,Actions Library Extraction,AID,ENTITIES/PROMPTS/PMT-071_Actions_Library_Extraction.md,Active
+PRM-076,Integrate Personal Prompts,System & Integration,ENTITIES/PROMPTS/PMT-081_Integrate_Personal_Prompts.md,Active
+PRM-077,YouTube Video Processing,System & Integration,ENTITIES/PROMPTS/PMT-090_YouTube_Video_Processing.md,Active
+PRM-078,RESEARCHES Entity Integration Prompt,AID,ENTITIES/PROMPTS/RESEARCHES_Entity_Integration_Prompt.md,Active
+PRM-079,TAXONOMY AUDIT REPORT 2025-11-23,AID,ENTITIES/PROMPTS/TAXONOMY_AUDIT_REPORT_2025-11-23.md,Active
+PRM-080,YouTube Video Tutorial Search Prompts Consolidated,Video & Analysis,ENTITIES/PROMPTS/YouTube_Video_Tutorial_Search_Prompts_Consolidated.md,Active
+PRM-081,Week4 AutoPlanning Prompt,AID,ENTITIES/PROMPTS/Week4_AutoPlanning_Prompt.md,Active
+PRM-082,Mascot Life Environment Weekly Overview Prompt,AID,ENTITIES/PROMPTS/Mascot_Life_Environment_Weekly_Overview_Prompt.md,Active
+PRM-083,Mascot Story Scenarios Guide,AID,ENTITIES/PROMPTS/Mascot_Story_Scenarios_Guide.md,Active
+PRM-084,Mascot Story Scenarios Quick Reference,AID,ENTITIES/PROMPTS/Mascot_Story_Scenarios_Quick_Reference.md,Active
+PRM-085,Brochure Design Generation,System & Integration,ENTITIES/PROMPTS/PMT-084_Brochure_Design_Generation.md,Active
+PRM-086,Game Academy Cover Redesign,System & Integration,ENTITIES/PROMPTS/PMT-086_Game_Academy_Cover_Redesign.md,Active
+PRM-087,Subscription Announcement Creation,System & Integration,ENTITIES/PROMPTS/PMT-088_Subscription_Announcement_Creation.md,Active
+PRM-088,Social Media Graphics Creation,System & Integration,ENTITIES/PROMPTS/PMT-091_Social_Media_Graphics_Creation.md,Active
+PRM-089,CORRECTIONS REQUIRED,AID,ENTITIES/PROMPTS/CORRECTIONS_REQUIRED.md,Active
+PRM-090,ENTITY MAPPING GUIDE,AID,ENTITIES/PROMPTS/ENTITY_MAPPING_GUIDE_v2.1.md,Active
+PRM-091,Daily Report Collection,Daily Reports,ENTITIES/PROMPTS/PMT-032_Daily_Report_Collection_v2.1.md,Active
+PRM-092,REPORT OUTPUT SCHEMA,AID,ENTITIES/PROMPTS/REPORT_OUTPUT_SCHEMA_v2.1.md,Active
+PRM-093,REPORT OUTPUT SCHEMA REVISED,AID,ENTITIES/PROMPTS/REPORT_OUTPUT_SCHEMA_v2.1_REVISED.md,Active
+PRM-094,AI Daily Report,Daily Reports,ENTITIES/PROMPTS/PMT-033_AI_Daily_Report_v2.1.md,Active
+PRM-095,Content Daily Report,Daily Reports,ENTITIES/PROMPTS/PMT-034_Content_Daily_Report_v2.1.md,Active
+PRM-096,Design Daily Report,Daily Reports,ENTITIES/PROMPTS/PMT-035_Design_Daily_Report_v2.1.md,Active
+PRM-097,Dev Daily Report,Daily Reports,ENTITIES/PROMPTS/PMT-036_Dev_Daily_Report_v2.1.md,Active
+PRM-098,Finance Daily Report,Daily Reports,ENTITIES/PROMPTS/PMT-037_Finance_Daily_Report_v2.1.md,Active
+PRM-099,HR Daily Report,Daily Reports,ENTITIES/PROMPTS/PMT-038_HR_Daily_Report_v2.1.md,Active
+PRM-100,LG Daily Report,Daily Reports,ENTITIES/PROMPTS/PMT-039_LG_Daily_Report_v2.1.md,Active
+PRM-101,Marketing Daily Report,Daily Reports,ENTITIES/PROMPTS/PMT-040_Marketing_Daily_Report_v2.1.md,Active
+PRM-102,Sales Daily Report,Daily Reports,ENTITIES/PROMPTS/PMT-041_Sales_Daily_Report_v2.1.md,Active
+PRM-103,SMM Daily Report,Daily Reports,ENTITIES/PROMPTS/PMT-042_SMM_Daily_Report_v2.1.md,Active
+PRM-104,Video Daily Report,Daily Reports,ENTITIES/PROMPTS/PMT-043_Video_Daily_Report_v2.1.md,Active
+PRM-105,Prompt Locations in Nov25,AID,ENTITIES/PROMPTS/Prompt_Locations_in_Nov25.md,Active
+PRM-106,AI Daily Report,Daily Reports,ENTITIES/PROMPTS/PMT-033_AI_Daily_Report_v1.0.md,Deprecated
+PRM-107,Content Daily Report,Daily Reports,ENTITIES/PROMPTS/PMT-034_Content_Daily_Report_v1.0.md,Deprecated
+PRM-108,Design Daily Report,Daily Reports,ENTITIES/PROMPTS/PMT-035_Design_Daily_Report_v1.0.md,Deprecated
+PRM-109,Dev Daily Report,Daily Reports,ENTITIES/PROMPTS/PMT-036_Dev_Daily_Report_v1.0.md,Deprecated
+PRM-110,Finance Daily Report,Daily Reports,ENTITIES/PROMPTS/PMT-037_Finance_Daily_Report_v1.0.md,Deprecated
+PRM-111,HR Daily Report,Daily Reports,ENTITIES/PROMPTS/PMT-038_HR_Daily_Report_v1.0.md,Deprecated
+PRM-112,LG Daily Report,Daily Reports,ENTITIES/PROMPTS/PMT-039_LG_Daily_Report_v1.0.md,Deprecated
+PRM-113,Marketing Daily Report,Daily Reports,ENTITIES/PROMPTS/PMT-040_Marketing_Daily_Report_v1.0.md,Deprecated
+PRM-114,Sales Daily Report,Daily Reports,ENTITIES/PROMPTS/PMT-041_Sales_Daily_Report_v1.0.md,Deprecated
+PRM-115,SMM Daily Report,Daily Reports,ENTITIES/PROMPTS/PMT-042_SMM_Daily_Report_v1.0.md,Deprecated
+PRM-116,Video Daily Report,Daily Reports,ENTITIES/PROMPTS/PMT-043_Video_Daily_Report_v1.0.md,Deprecated
+PRM-117,ENTITY MAPPING GUIDE,AID,ENTITIES/PROMPTS/ENTITY_MAPPING_GUIDE.md,Deprecated
+PRM-118,Daily Report Collection,Daily Reports,ENTITIES/PROMPTS/PMT-032_Daily_Report_Collection_v1.1.md,Deprecated
+PRM-119,REPORT OUTPUT SCHEMA,AID,ENTITIES/PROMPTS/REPORT_OUTPUT_SCHEMA_v2.md,Deprecated
+PRM-120,CV Parser,HR Operations,ENTITIES/PROMPTS/PMT-053_CV_Parser_v1.md,Active
+PRM-121,CRM Data Entry,HR Operations,ENTITIES/PROMPTS/PMT-054_CRM_Data_Entry.md,Active
+PRM-122,Interview Conductor,HR Operations,ENTITIES/PROMPTS/PMT-056_Interview_Conductor.md,Active
+PRM-123,Job Sites Research,HR Operations,ENTITIES/PROMPTS/PMT-057_Job_Sites_Research.md,Active
+PRM-124,Data Consistency,System Analysis,ENTITIES/PROMPTS/PMT-027_Data_Consistency.md,Active
+PRM-125,Folder Reorganization,System Analysis,ENTITIES/PROMPTS/PMT-028_Folder_Reorganization.md,Active
+PRM-126,System Health Review,System Analysis,ENTITIES/PROMPTS/PMT-029_System_Health_Review.md,Active
+PRM-127,PROMPTS Critical Fixes,AID,ENTITIES/PROMPTS/PMT-072_PROMPTS_Critical_Fixes.md,Active
+PRM-128,Architecture Learning Guide,System Analysis,ENTITIES/PROMPTS/PMT-030_Architecture_Learning_Guide.md,Active
+PRM-129,Architecture Merge Planning,System Analysis,ENTITIES/PROMPTS/PMT-031_Architecture_Merge_Planning.md,Active
+PRM-130,Script Copy Dailies,Automation,ENTITIES/PROMPTS/PMT-066_Script_Copy_Dailies.md,Active
+PRM-131,Rules Automation,Automation,ENTITIES/PROMPTS/PMT-067_Rules_Automation.md,Active
+PRM-132,Version Control Automation,Automation,ENTITIES/PROMPTS/PMT-068_Version_Control_Automation.md,Active
+PRM-133,Version Control Main,Automation,ENTITIES/PROMPTS/PMT-069_Version_Control_Main.md,Active
+PRM-134,Data Architect Master,Data Architecture,ENTITIES/PROMPTS/PMT-074_Data_Architect_Master.md,Active
+PRM-135,Data Integrity Manager,Data Architecture,ENTITIES/PROMPTS/PMT-075_Data_Integrity_Manager.md,Active
+PRM-136,Import Validation Pipeline,Data Architecture,ENTITIES/PROMPTS/PMT-076_Import_Validation_Pipeline.md,Active
+PRM-137,Employee Activity Analyzer,Data Architecture,ENTITIES/PROMPTS/PMT-077_Employee_Activity_Analyzer.md,Active
+PRM-138,Cross Entity Search,Data Architecture,ENTITIES/PROMPTS/PMT-078_Cross_Entity_Search.md,Active
+PRM-139,Prompt Taxonomy Sync,Data Architecture,ENTITIES/PROMPTS/PMT-079_Prompt_Taxonomy_Sync.md,Active
+PRM-140,Token Optimization Analyzer,Data Architecture,ENTITIES/PROMPTS/PMT-080_Token_Optimization_Analyzer.md,Active
+PRM-141,TASK MANAGERS Import Guide Master,AID,ENTITIES/PROMPTS/TASK_MANAGERS_Import_Guide_Master.md,Active
+PRM-142,Ecosystem Analysis Overview,System Analysis,ENTITIES/PROMPTS/PMT-021_Ecosystem_Analysis_Overview.md,Active
+PRM-143,Data Inventory,System Analysis,ENTITIES/PROMPTS/PMT-022_Data_Inventory.md,Active
+PRM-144,Schema Validation,System Analysis,ENTITIES/PROMPTS/PMT-023_Schema_Validation.md,Active
+PRM-145,Content Analysis,System Analysis,ENTITIES/PROMPTS/PMT-024_Content_Analysis.md,Active
+PRM-146,Relationship Validation,System Analysis,ENTITIES/PROMPTS/PMT-025_Relationship_Validation.md,Active
+PRM-147,Synthesis Recommendations,System Analysis,ENTITIES/PROMPTS/PMT-026_Synthesis_Recommendations.md,Active
+PRM-148,Build Taxonomy ID System,Taxonomy,ENTITIES/PROMPTS/PMT-014_Build_Taxonomy_ID_System.md,Active
+PRM-149,Optimize Video Transcription,Taxonomy,ENTITIES/PROMPTS/PMT-015_Optimize_Video_Transcription.md,Active
+PRM-150,Build LIBRARIES Taxonomy,Taxonomy,ENTITIES/PROMPTS/PMT-016_Build_LIBRARIES_Taxonomy.md,Active
+PRM-151,Initial ID List,Taxonomy,ENTITIES/PROMPTS/PMT-017_Initial_ID_List.md,Active
+PRM-152,Employee Profile Schema,Taxonomy,ENTITIES/PROMPTS/PMT-018_Employee_Profile_Schema.md,Active
+PRM-153,Restructure Employee Profile,Taxonomy,ENTITIES/PROMPTS/PMT-019_Restructure_Employee_Profile.md,Active
+PRM-154,Taxonomy Entities Collection,Taxonomy,ENTITIES/PROMPTS/PMT-020_Taxonomy_Entities_Collection.md,Active
+PRM-155,Prompts ISO Code Registry,AID,ENTITIES/PROMPTS/Prompts_ISO_Code_Registry.md,Active
+PRM-156,Daily Report Entity Mapping,Utilities,ENTITIES/PROMPTS/PMT-070_Daily_Report_Entity_Mapping_v2.1.md,Active
+PRM-157,Entity Identification,Utilities,ENTITIES/PROMPTS/PMT-070_Entity_Identification_v1.md,Active
+PRM-158,Entity Identification 3,Utilities,ENTITIES/PROMPTS/PMT-070_Entity_Identification_v1_3.md,Active
+PRM-159,Entity Identification 0,Utilities,ENTITIES/PROMPTS/PMT-070_Entity_Identification_v2_0.md,Active
+PRM-160,Phase 1 Action Tagging,Utilities,ENTITIES/PROMPTS/PMT-070_Phase_1_Action_Tagging.md,Active
+PRM-161,Phase 2 Object Tagging,Utilities,ENTITIES/PROMPTS/PMT-070_Phase_2_Object_Tagging.md,Active
+PRM-162,Phase 3 Data Structuring,Utilities,ENTITIES/PROMPTS/PMT-070_Phase_3_Data_Structuring.md,Active
+PRM-163,Phase 4 Task Hierarchy,Utilities,ENTITIES/PROMPTS/PMT-070_Phase_4_Task_Hierarchy.md,Active
+PRM-164,Call Organizer,Workflows,ENTITIES/PROMPTS/PMT-058_Call_Organizer_v4.md,Active
+PRM-165,Document Finished Project,Workflows,ENTITIES/PROMPTS/PMT-059_Document_Finished_Project.md,Active
+PRM-166,Account Creation Validation,Workflows,ENTITIES/PROMPTS/PMT-063_Account_Creation_Validation.md,Active
+PRM-167,Account Security Audit,Workflows,ENTITIES/PROMPTS/PMT-064_Account_Security_Audit.md,Active
+PRM-168,Subscription Renewal Alert,Workflows,ENTITIES/PROMPTS/PMT-065_Subscription_Renewal_Alert.md,Active
+PRM-169,Products Integration,Workflows,ENTITIES/PROMPTS/PMT-060_Products_Integration.md,Active
+PRM-170,Task Manager Entity Filling,Workflows,ENTITIES/PROMPTS/PMT-061_Task_Manager_Entity_Filling.md,Active
+PRM-171,Tools Collection Matching,Workflows,ENTITIES/PROMPTS/PMT-062_Tools_Collection_Matching.md,Active
+PRM-172,Daily Report Processing Workflow,System & Integration,ENTITIES/PROMPTS/PMT-087_Daily_Report_Processing_Workflow.md,Active
+PRM-173,Daily Report Processing,System & Integration,ENTITIES/PROMPTS/PMT-092_Daily_Report_Processing_v2.md,Active
+PRM-174,Call Organizer,AID,ENTITIES/PROMPTS/Call_Organizer_v2.md,Deprecated
+PRM-175,Call Organizer,AID,ENTITIES/PROMPTS/Call_Organizer_v3.md,Deprecated
+PRM-176,Depricated PROMPT ENTITIES Data Synchronization Architecture,HRM,ENTITIES/PROMPTS/Depricated_PROMPT_ENTITIES_Data_Synchronization_Architecture.md,Deprecated
+PRM-177,MAIN PROMPT,AID,ENTITIES/PROMPTS/MAIN_PROMPT_v2.md,Deprecated
+PRM-178,MAIN PROMPT,AID,ENTITIES/PROMPTS/MAIN_PROMPT_v3.md,Deprecated
+PRM-179,Video Transcription Custom Instructions,Video & Analysis,ENTITIES/PROMPTS/Video_Transcription_Custom_Instructions_v3.2.md,Deprecated

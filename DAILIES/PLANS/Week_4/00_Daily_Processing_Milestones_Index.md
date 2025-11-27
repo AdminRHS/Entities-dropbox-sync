@@ -53,7 +53,7 @@ This index provides quick access to all 9 milestones in the Daily Processing wor
 
 ### [MLT-003: Entity Extraction](MLT-003_Entity_Extraction.md) ⏱️ 60 min
 
-**What:** Extract tasks, actions, objects, tools from all files using MAIN_PROMPT_v6.md
+**What:** Extract tasks, actions, objects, tools from all files using MAIN_PROMPT_v7.md
 
 **Deliverables:**
 - 60+ extraction files in `02_Extracted_Tasks/`
@@ -61,7 +61,7 @@ This index provides quick access to all 9 milestones in the Daily Processing wor
 - All tasks tagged with ACT, OBJ, TOL, SKL, PRF, DPT codes
 
 **Key Data:**
-- MAIN_PROMPT_v6.md extraction format
+- MAIN_PROMPT_v7.md extraction format
 - Actions taxonomy (429 actions)
 - Objects taxonomy (50+ objects)
 - Tools taxonomy (200+ tools)
@@ -335,7 +335,7 @@ MLT-009 (Archival & Reporting) ← Archives all outputs
 ### Priority Scripts to Create
 
 1. **collect_daily_files.py** - Auto-collect from employee folders (saves 28 min)
-2. **extract_tasks_batch.py** - Batch extraction with MAIN_PROMPT_v6.md (saves 50 min)
+2. **extract_tasks_batch.py** - Batch extraction with MAIN_PROMPT_v7.md (saves 50 min)
 3. **assign_tasks.py** - Apply assignment algorithm (saves 35 min)
 4. **distribute_tasks.py** - Auto-create tasks.md files (saves 25 min)
 
@@ -356,7 +356,7 @@ MLT-009 (Archival & Reporting) ← Archives all outputs
 
 **Step 4:** Prepare resources
 - Load employee profiles: `/ENTITIES/TALENTS/Employees/profiles/Work/`
-- Load MAIN_PROMPT_v6.md: `/ENTITIES/PROMPTS/Core/MAIN_PROMPT_v6.md`
+- Load MAIN_PROMPT_v7.md: `/ENTITIES/PROMPTS/Core/MAIN_PROMPT_v7.md`
 - Load assignment rules: [Task_Assignment_Rules.json](../../Daily_Processing/Daily_Processing_Workflow/Support_Files/Task_Assignment_Rules.json)
 
 **Step 5:** Start with pilot

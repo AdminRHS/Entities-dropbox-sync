@@ -1,0 +1,159 @@
+Category,TOL_ID,Name,Description,Cost,Status
+AI Tools,TOL-002,Adobe Firefly,Adobe's AI image generation tool integrated with Photoshop and other Creative Cloud applications.,Subscription-based (Adobe Creative Cloud subscript...,Active
+AI Tools,TOL-009,Arcade.ai,Platform for handling AI agent authorization and tool security.,Commercial (Pricing not specified),Active
+AI Tools,TOL-010,Archon,Open-source project that enhances AI coding assistants (especially Claude Code) with knowledge manag...,Free (Open Source),Active
+AI Tools,TOL-014,Awesome Copilot,"A curated GitHub repository containing custom chat modes, project instructions, and prompt templates...",N/A,Active
+AI Tools,TOL-021,Browserbase,Managed infrastructure for AI agents to control browsers with natural language.,Commercial (Managed Service),Active
+AI Tools,TOL-022,Bubble.io,"Visual, no-code platform for building web applications without coding.","Freemium (Free tier available, paid plans from $29...",Discovered Needs Review
+AI Tools,TOL-024,C dans,C dans (also referenced as C dans light) is an AI video animation tool used for creating animated vi...,Usage-based (freemium model with paid tiers),Active
+AI Tools,TOL-025,ChatGPT (OpenAI),Fast and versatile AI for content creation.,API-based (usage pricing) + Custom GPT (ChatGPT Pl...,Active
+AI Tools,TOL-026,Claude,Advanced AI language model with 200K+ token context window.,"API-based (usage pricing), Subscription for Pro fe...",Active
+AI Tools,TOL-027,Claude Desktop App,Desktop application interface for Claude AI that enables running custom local MCP (Model Context Pro...,"Free application, requires Claude API subscription",Active
+AI Tools,TOL-028,Claude Projects,Claude Projects is a feature within Claude that allows users to create dedicated workspaces with cus...,Included with Claude Pro subscription ($20/month) ...,Active
+AI Tools,TOL-030,CodeRabbit,AI-powered code review tool that automatically reviews every pull request.,Free (Open Source Repos) + Commercial (Private Rep...,Active
+AI Tools,TOL-031,ComfyUI,ComfyUI is a powerful and modular node-based GUI for running AI image and video generation models.,Free (Open Source),Active
+AI Tools,TOL-033,Cove.ai,AI platform offering various AI solutions and services.,TBD,Discovered Needs Review
+AI Tools,TOL-034,Crawl4AI,"Fast, efficient web crawler and scraper designed for AI applications.",Free (Open Source),Active
+AI Tools,TOL-035,CrewAI,Popular multi-agent framework that emphasizes role-based agents working as a crew.,Free (Open Source),Active
+AI Tools,TOL-037,Cursor,Cursor is an AI-powered code editor built specifically for AI-first development workflows.,"Subscription-based (free tier available, Pro tier ...",Active
+AI Tools,TOL-039,DeepSite,Hugging Face Space providing AI models for website generation.,Free,Discovered Needs Review
+AI Tools,TOL-044,Docling,"Framework for extracting data from complex documents like PDFs with diagrams, Excel files, and other...",Free (Open Source),Active
+AI Tools,TOL-049,ElevenLabs,Advanced AI voice generation platform.,Freemium (Free tier 10k chars/month + paid plans $...,Active
+AI Tools,TOL-054,Flux,Flux is a family of state-of-the-art text-to-image generation models developed by Black Forest Labs ...,"Varies by platform - Free (Flux Schnell), API cred...",Active
+AI Tools,TOL-055,Flux Kontext,"Flux Kontext is a specialized variant of the Flux image generation model, accessible exclusively thr...",Accessed via OpenArt platform credits/subscription,Active
+AI Tools,TOL-063,GLIF,"GLIF is an AI workflow automation platform that allows users to create, share, and use AI agents tha...",Freemium (Free tier available + paid plans),Active
+AI Tools,TOL-057,Gamma.app,"AI-powered platform for creating presentations, websites, and documents effortlessly.","Freemium (Free tier available, paid plans from $8/...",Discovered Needs Review
+AI Tools,TOL-058,Gemini,Google's AI model optimized for processing large datasets.,Free tier (3-month promo: $120 value → $80) + paid...,Active
+AI Tools,TOL-059,Gemini File Search API,"Google's managed RAG solution that automatically handles file upload, chunking, embedding generation...","{'model': 'Freemium', 'free_tier': 'Limited file u...",Active
+AI Tools,TOL-060,Genspark.ai,Comprehensive AI workspace platform offering multiple AI tools and services in one unified interface...,TBD,Discovered Needs Review
+AI Tools,TOL-062,GitHub Copilot,GitHub Copilot is an AI pair programmer that offers autocomplete-style code suggestions and autonomo...,"Free for students/educators/open-source, $10/month...",Active
+AI Tools,TOL-065,Google AI Studio,Google's official comprehensive AI workbench for experimenting with Gemini AI models.,"Free tier with usage limits, Pay-per-use for API c...",Active
+AI Tools,TOL-070,Google Veo 3.1,Google Veo 3.,Usage-based (accessed via OpenArt platform - prici...,Active
+AI Tools,TOL-071,Graphiti,Library for inserting data into knowledge graphs and searching them.,Free (Open Source),Active
+AI Tools,TOL-072,Grok,AI chatbot developed by xAI (Elon Musk's company) with real-time access to X (Twitter) platform.,"Subscription-based (X Premium required, $16/month ...",Discovered Needs Review
+AI Tools,TOL-073,Hailo,AI video platform offering various video-related AI tools and services.,TBD,Discovered Needs Review
+AI Tools,TOL-075,Hedra,AI video platform offering various video-related AI tools and services.,TBD,Discovered Needs Review
+AI Tools,TOL-076,HeyGen,"AI-powered video generation platform that creates videos with realistic AI avatars, voice cloning, a...","Freemium (Free tier available, paid plans from $24...",Discovered Needs Review
+AI Tools,TOL-078,InVideo AI,AI video creation platform that generates videos from text prompts.,"Freemium (Free tier available, paid plans availabl...",Active
+AI Tools,TOL-079,Kimi K2 Thinking,"Kimi K2 Thinking is a frontier-level, open-source, open-weights AI model from Chinese AI company Moo...",N/A,Active
+AI Tools,TOL-080,Kling,Kling (currently version 2.,Freemium (Free credits available + paid plans),Active
+AI Tools,TOL-082,LangGraph,Multi-agent orchestration framework for connecting AI agents in complex workflows.,Free (Open Source),Active
+AI Tools,TOL-081,Langfuse,Agent observability platform for monitoring AI agents in production.,Free (Open Source) + Cloud Hosting Option,Active
+AI Tools,TOL-083,Leonardo.ai,"AI image generation platform with fine-tuned models, style presets, and control tools.",Freemium (Free tier + paid plans $10-$48/month),Active
+AI Tools,TOL-086,Loom,Video messaging platform enabling users to record and share videos instantly.,"Freemium (Free tier available, paid plans from $8/...",Discovered Needs Review
+AI Tools,TOL-087,Lovable.dev,AI-powered platform that enables users to build applications and websites by chatting with AI.,"Freemium (Free tier available, paid plans for adva...",Discovered Needs Review
+AI Tools,TOL-093,MCP Builder (Skill),Claude skill that auto-generates Model Context Protocol (MCP) server code for connecting Claude to a...,Included with Claude subscription (part of Claude ...,Active
+AI Tools,TOL-094,MCP Servers,Model Context Protocol (MCP) servers are extensions that provide AI agents like GitHub Copilot's Age...,N/A,Active
+AI Tools,TOL-089,Maestra.ai,"AI-powered platform for transcribing audio and video files, generating subtitles, and translating co...","Freemium (Free trial available, paid plans from $6...",Discovered Needs Review
+AI Tools,TOL-090,Manus.im,AI platform offering various AI solutions and services.,TBD,Discovered Needs Review
+AI Tools,TOL-092,Mayple,Mayple is an innovative AI-driven marketing talent platform operating more like a digital marketing ...,"Premium pricing (estimated $5,000-$15,000+/month);...",Not Recommended Current Needs
+AI Tools,TOL-096,Mem0,Long-term memory framework for AI agents.,Free (Open Source),Active
+AI Tools,TOL-097,Midjourney,AI-powered text-to-image generation tool accessed via Discord and web interface.,"Subscription-based ($10/month Basic, $30/month Sta...",Active
+AI Tools,TOL-098,MiniMax,AI chatbot and agent platform offering conversational AI capabilities.,TBD,Discovered Needs Review
+AI Tools,TOL-100,Movie Gen,Movie Gen is Meta's AI video generation model capable of creating videos from text descriptions and ...,TBD,Active
+AI Tools,TOL-101,Nano Banana,Nano Banana is an AI image generation and editing tool specialized in creating high-quality visuals ...,Usage-based (typically accessed via GLIF platform),Active
+AI Tools,TOL-104,NotebookLM,Google's AI research assistant that can synthesize information from multiple uploaded sources.,Free (Google account required),Active
+AI Tools,TOL-105,Notion AI,"AI-enhanced workspace platform that combines notes, databases, wikis, and AI assistance.","Subscription-based (Free tier available, AI featur...",Active
+AI Tools,TOL-106,Ollama,Easiest way to run open-source LLMs locally.,Free (Open Source),Active
+AI Tools,TOL-107,Open WebUI,Self-hosted ChatGPT-like chat platform for local LLMs.,Free (Open Source),Active
+AI Tools,TOL-108,OpenAI GPT-5,"Large language model with strong capabilities in visual interpretation, unstructured data parsing, a...",API-based usage pricing,Active
+AI Tools,TOL-109,OpenArt,OpenArt is a comprehensive AI content creation platform that aggregates and provides access to the l...,"Freemium model (free tier available, paid plans fo...",Active
+AI Tools,TOL-110,OpenArt Photorealistic,OpenArt Photorealistic is an AI image generation model accessible exclusively through the OpenArt pl...,Accessed via OpenArt platform credits/subscription,Active
+AI Tools,TOL-111,OpenRouter,"API platform that provides unified access to multiple AI models including GPT-4, Claude, Gemini, and...",Usage-based pricing,Discovered Needs Review
+AI Tools,TOL-112,Perplexity,AI research assistant with real-time web search capabilities.,Freemium (Free tier + Pro $20/month),Active
+AI Tools,TOL-115,Pollo.ai,AI platform offering various AI solutions and services.,TBD,Discovered Needs Review
+AI Tools,TOL-118,Pydantic AI,AI agent framework that makes it easy to build agents without fighting the framework.,Free (Open Source),Active
+AI Tools,TOL-120,Ragas,RAG evaluation framework for setting up evaluation pipelines with specialized metrics like faithfuln...,Free (Open Source),Active
+AI Tools,TOL-124,Replit,Collaborative online integrated development environment (IDE) that supports multiple programming lan...,"Freemium (Free tier available, paid plans from $7/...",Discovered Needs Review
+AI Tools,TOL-126,Runner,AI platform by H Company offering various AI solutions and services.,TBD,Discovered Needs Review
+AI Tools,TOL-128,RunwayML,"Professional AI video editing platform offering video generation, image-to-video conversion, video e...","Subscription-based (Free tier available, paid plan...",Active
+AI Tools,TOL-129,SearXNG,"Completely local, privacy-focused metasearch engine that aggregates results from multiple search eng...",Free (Open Source),Active
+AI Tools,TOL-130,Seedream,Seedream is an AI video generation tool specializing in tilt-shift effects and miniature-world video...,Usage-based (typically accessed via GLIF workflows...,Active
+AI Tools,TOL-131,Seedream 4.0,Seedream 4.,Accessed via OpenArt platform credits/subscription,Active
+AI Tools,TOL-132,Smithery.ai,AI platform offering various AI solutions and services.,TBD,Discovered Needs Review
+AI Tools,TOL-133,Sonnet 4.5,Claude's most advanced model specifically recommended for MCP connector code generation and tool cal...,Higher API cost than other Claude models,Active
+AI Tools,TOL-134,Sora,Sora is OpenAI's state-of-the-art video generation model (Sora 2 being the latest version) that crea...,"Subscription-based (OpenAI pricing, typically bund...",Active
+AI Tools,TOL-138,Suno,AI-powered music generation platform that creates original music compositions from text prompts.,"Freemium (Free tier available, paid plans availabl...",Active
+AI Tools,TOL-140,Synthesia,"Enterprise-grade AI video generation platform creating professional videos with AI avatars, multilin...",Subscription-based (Plans from $22/month per user),Discovered Needs Review
+AI Tools,TOL-145,TurboScribe,AI transcription service that converts audio and video files to text with high accuracy.,Subscription-based,Active
+AI Tools,TOL-150,VAYU,VAYU (currently version 2.,Usage-based (typically accessed via GLIF workflows...,Active
+AI Tools,TOL-151,Vectal Pro,AI platform offering various AI solutions and services.,TBD,Discovered Needs Review
+AI Tools,TOL-154,Vozo AI,AI video platform offering various video-related AI tools and services.,TBD,Discovered Needs Review
+AI Tools,TOL-156,WHALESWING,AI platform offering various AI solutions and services.,TBD,Discovered Needs Review
+AI Tools,TOL-155,Wan 2.2,Wan 2.,Free (Open Source - Apache 2.0 License),Active
+AI Tools,TOL-157,Wispr Flow,AI workflow automation platform that helps automate tasks and processes across departments.,Subscription-based,Active
+AI Tools,TOL-160,Zep,Alternative to Mem0 for AI agent memory management.,Commercial (Cloud) + Self-hosted option,Active
+AI Tools,TOL-148,v0.dev,Vercel's AI-powered platform for generating React UI components from text prompts.,Free (with Vercel account),Discovered Needs Review
+Cloud & Infrastructure,TOL-015,Azure,"Microsoft's comprehensive cloud computing platform offering services for data analytics, AI/ML, appl...",Pay-as-you-go + Reserved instances + Free tier,Active
+Cloud & Infrastructure,TOL-042,DigitalOcean,Cloud infrastructure provider for managing your own virtual machines.,Pay-as-you-go (predictable pricing),Active
+Cloud & Infrastructure,TOL-046,Dropbox,Cloud-based file storage and synchronization service.,"Freemium (Free tier 2GB, paid plans from $9.99/mon...",Active
+Cloud & Infrastructure,TOL-067,Google Cloud Run,Google Cloud's fully managed serverless platform that runs stateless containers via HTTP.,Pay-per-use (request-based pricing),Active
+Cloud & Infrastructure,TOL-077,Hugging Face,"Hugging Face is the leading platform for hosting, sharing, and distributing AI models, datasets, and...","Free tier available, paid plans for enterprise fea...",Active
+Cloud & Infrastructure,TOL-099,Model Scope,"Model Scope is an AI model hosting platform, primarily popular in Asian markets, that serves as an a...",Free,Active
+Cloud & Infrastructure,TOL-123,Render,Simplest deployment platform for applications.,Free tier + Pay-as-you-go,Active
+Cloud & Infrastructure,TOL-127,RunPod,Most affordable and reliable GPU cloud platform for running local AI in the cloud.,Pay-per-use + Spot instances,Active
+Data & Analytics,TOL-007,Anymailfinder,Email enrichment service that finds decision-maker emails by combining first/last names with company...,$0.0025 per valid email found (pay only for result...,Active
+Data & Analytics,TOL-008,Apify,"Web scraping and automation platform specialized for social platforms like LinkedIn, X (Twitter), In...",Free tier + Pay-per-use,Active
+Data & Analytics,TOL-017,Brave Search,Privacy-focused search engine with API access for AI agents.,API-based pricing,Active
+Data & Analytics,TOL-019,Browse AI,Browse AI is a no-code web scraping and automation tool that allows users to build robots to extract...,"Freemium (Free tier available, paid plans for adva...",Active
+Data & Analytics,TOL-023,Caddy,Modern web server and reverse proxy with automatic HTTPS certificate provisioning and renewal.,Free (Open Source),Active
+Data & Analytics,TOL-052,Firecrawl,Alternative to Crawl4AI for web data extraction.,Commercial (API-based),Active
+Data Services & Marketplaces,TOL-018,Bright Data,Data marketplace providing access to massive pre-scraped datasets.,$0.0025 per record (600M+ LinkedIn profiles availa...,Active
+Database & Storage,TOL-004,Airscale,Company database and domain lookup tool for B2B lead generation.,"Credit-based, enterprise arbitrage: 1:40 ratio (1 ...",Active
+Database & Storage,TOL-068,Google Sheets,"Google Sheets is a cloud-based spreadsheet application that allows users to create, edit, and share ...","Freemium (Free with Google account, paid Google Wo...",Active
+Database & Storage,TOL-102,Neo4j,Leading graph database for storing entities and relationships.,Free (Community Edition) + Commercial (Enterprise),Active
+Database & Storage,TOL-103,Neon,Serverless Postgres platform with exceptional scalability.,Free tier + Pay-as-you-go,Active
+Database & Storage,TOL-113,PGVector,"PostgreSQL extension that adds vector similarity search capabilities, turning Postgres into a vector...",Free (Open Source Extension),Active
+Database & Storage,TOL-116,PostgreSQL,Most popular open-source relational database.,Free (Open Source),Active
+Database & Storage,TOL-122,Redis,In-memory data store for caching and performance optimization.,Free (Open Source) + Commercial (Hosted/Enterprise...,Active
+Database & Storage,TOL-139,Supabase,"Backend-as-a-Service platform hosting Postgres with built-in authentication, row-level security, and...",Free tier + Pay-as-you-go,Active
+Database & Storage,TOL-149,Valkey,Open-source fork of Redis that is 100% compatible with Redis.,Free (Open Source),Active
+Design Assets & Resources,TOL-050,Envato Elements,"Subscription service providing unlimited downloads of premium design assets including graphics, temp...",Subscription-based (monthly or annual plans),Active
+Design Assets & Resources,TOL-056,Freepik,"Platform providing free and premium stock graphics, images, vectors, icons, and design resources.","Freemium (Free tier with attribution, paid plans f...",Active
+Development & Code Management,TOL-061,GitHub,"Code hosting and version control platform for developers with repository management, collaboration f...",N/A,Active
+Development Tools,TOL-005,Antigravity,Antigravity is a humorous Easter egg module included in Python's standard library since Python 3.,Free (included with Python standard library),Active
+Development Tools,TOL-006,Antigravity IDE,"Next-generation integrated development environment with built-in AI coding assistant, intelligent co...",Subscription-based (monthly/annual plans),Active
+Development Tools,TOL-074,Hashnode,"Developer-focused blogging platform with custom domain support, built-in community, and developer-fr...",N/A,Active
+Development Tools,TOL-125,Revelo,Revelo is a comprehensive remote-first staffing solution specializing in connecting companies with h...,Custom quotes (estimated $30-$70/hour); all-inclus...,Strategic Option For Dev Scaling
+Development Tools,TOL-135,Stack Overflow,"Question-and-answer platform for developers to solve coding problems, build reputation, and contribu...",N/A,Active
+Development Tools,TOL-153,Vite,Vite is a next-generation frontend build tool that provides extremely fast development server startu...,Free and open-source,Active
+Documentation & Resources,TOL-003,AI Tools Master Listing,No description,N/A,Active
+Documentation & Resources,TOL-032,Company Voice Guide,"Feature or methodology for defining and enforcing company-specific brand voice, tone, terminology, a...",N/A,Active
+Documentation & Resources,TOL-038,Custom Prompt Templates,"Methodology of creating, storing, and reusing pre-crafted, optimized prompts for recurring AI tasks ...",N/A,Active
+Documentation & Resources,TOL-085,LLM as Judge Evaluation Framework,"Methodology for using one LLM to evaluate the outputs of another LLM, enabling automated quality ass...",N/A,Active
+Documentation & Resources,TOL-117,Product Management Decision Framework,"Methodology for making product decisions based on explicit, documented principles rather than intuit...",N/A,Active
+Freelance & Talent - Design Services,TOL-001,99designs,99designs is a specialized creative marketplace concentrating exclusively on design work across 90+ ...,"Project-based pricing ($100-$5,000+); Design conte...",Recommended For Design Overflow
+Freelance & Talent - General,TOL-053,Fiverr,Fiverr is a well-known freelance platform offering thousands of freelancers across 200+ categories w...,5.5% transaction fee + small order fee for orders ...,Recommended For Quick Tasks
+Freelance & Talent - General,TOL-147,UpWork,"UpWork is one of the largest and most established freelance marketplaces, connecting businesses with...",Free to join; 5% transaction fee for clients; slid...,Evaluation Recommended
+Freelance & Talent - Marketing,TOL-091,MarketerHire,MarketerHire is a dedicated platform launched in October 2018 for hiring high-quality marketing spec...,No upfront fees; $80-$160/hour (freelancer-set rat...,Recommended For Sales Smm Needs
+Freelance & Talent - Offshore/RevOps,TOL-029,CloudTask,CloudTask is a forward-thinking platform designed to streamline hiring remote talent for revenue ope...,Variable pricing (estimated $15-$40/hour for offsh...,Option For Offshore Revops Needs
+Integration & Connectors,TOL-036,CRM MCP Connector (Airtable),Custom MCP connector for CRM platforms (Airtable demonstrated in Video_008).,Free (requires Claude + CRM subscription),Active
+Integration & Connectors,TOL-064,Gmail MCP Connector,Custom MCP (Model Context Protocol) connector that enables Claude AI to interact with Gmail.,Free (requires Claude subscription + Google accoun...,Active
+Integration & Connectors,TOL-066,Google Calendar MCP Connector,Custom MCP (Model Context Protocol) connector that enables Claude AI to interact with Google Calenda...,Free (requires Claude subscription + Google accoun...,Active
+Payment & Financial,TOL-136,Stripe,"Industry-leading payment processing platform for accepting online payments, managing subscriptions, ...",Transaction-based (2.9% + $0.30 per transaction),Active
+Portfolio & Creative Showcase,TOL-011,ArtStation,"Portfolio platform for game, film, media, and entertainment artists to showcase work, find jobs, and...",N/A,Active
+Portfolio & Creative Showcase,TOL-016,Behance,"Adobe's professional portfolio platform for designers and creative professionals to showcase work, g...",N/A,Active
+Productivity & Search,TOL-047,Dropbox Dash,"AI-powered universal search that connects and searches across 100+ cloud applications, files, and to...",N/A,Active
+Publishing & Content,TOL-095,Medium,"Long-form publishing platform for thought leadership, SEO-optimized articles, and professional writi...",N/A,Active
+Publishing & Content,TOL-137,Substack,"Newsletter platform for writers to publish content, build subscriber base, and monetize through paid...",N/A,Active
+Research & Academic,TOL-012,arXiv,"Open-access repository of 2+ million scholarly articles in physics, mathematics, computer science, A...",N/A,Active
+Security & Authentication,TOL-013,Auth0,"Enterprise authentication platform providing MFA, universal login with multiple providers, enterpris...",Free tier + Commercial (Enterprise features),Active
+Security & Authentication,TOL-048,Dropbox Protect & Control,"Enterprise data governance and security platform providing visibility, access controls, and complian...",N/A,Active
+Social & Discovery,TOL-114,Pinterest,"Visual discovery and bookmarking platform for evergreen content, long-term traffic generation, and s...",N/A,Active
+Social & Discovery,TOL-144,TikTok,"Leading short-form video platform for viral content, entertainment, and rapid audience growth with p...",N/A,Active
+Social Network & Communication,TOL-040,Dev.to,"Community platform for developers to share articles, tutorials, and engage in discussions about soft...",N/A,Active
+Social Network & Communication,TOL-041,DeviantArt,"Long-established online art community for artists to showcase work, share tutorials, engage in chall...",N/A,Active
+Social Network & Communication,TOL-043,Discord,"Real-time chat and community platform with voice/video capabilities, widely used for developer commu...",N/A,Active
+Social Network & Communication,TOL-045,Dribbble,"Dribbble is a community platform where designers showcase their work, providing a rich source of des...","Free browsing, Pro membership for advanced feature...",Active
+Social Network & Communication,TOL-051,Facebook,"Community-focused social media platform for building and managing Facebook Groups, Pages, and foster...",N/A,Active
+Social Network & Communication,TOL-084,LinkedIn,"B2B professional networking platform for thought leadership, lead generation, and business developme...",N/A,Active
+Social Network & Communication,TOL-088,Lunchclub,AI-powered networking platform that matches professionals for 1-on-1 video meetings based on goals a...,N/A,Active
+Social Network & Communication,TOL-119,Quora,"Large Q&A platform where users ask questions and experts provide detailed answers, useful for though...",N/A,Active
+Social Network & Communication,TOL-121,Reddit,"Massive community-driven platform with topic-specific subreddits for discussion, knowledge sharing, ...",N/A,Active
+Social Network & Communication,TOL-141,Telegram,"Cloud-based instant messaging platform with channels, groups, and bots for community building and co...",N/A,Active
+Social Network & Communication,TOL-142,The Dots,Visual LinkedIn for creatives - UK/EU-focused professional network connecting creative talent with c...,N/A,Active
+Social Network & Communication,TOL-143,Threads,"Meta's text-based conversation platform, integrated with Instagram, positioned as Twitter/X alternat...",N/A,Active
+Social Network & Communication,TOL-146,Twitter,"Real-time social media platform for short-form content, educational threads, and industry commentary...",N/A,Active
+Social Network & Communication,TOL-158,Xing,Germany's leading professional networking platform - LinkedIn alternative for German-speaking market...,N/A,Active
+Social Network & Communication,TOL-159,YouTube,"World's largest video-sharing platform for long-form tutorials, educational content, and video disco...",N/A,Active
+Video & Media Hosting,TOL-152,Vimeo,"Premium video hosting platform for high-quality video content, portfolios, and professional video sh...",N/A,Active

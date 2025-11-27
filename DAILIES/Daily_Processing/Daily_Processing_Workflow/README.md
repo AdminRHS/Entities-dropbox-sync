@@ -67,7 +67,7 @@ Complete step-by-step workflow for processing all employees' daily files.
 
 ### Milestone-Based Workflow
 
-The daily processing follows a 9-milestone workflow (MLT-001 through MLT-009) aligned with the system's standard Milestone Template (MLT-###) taxonomy defined in MAIN_PROMPT_v6.md.
+The daily processing follows a 9-milestone workflow (MLT-001 through MLT-009) aligned with the system's standard Milestone Template (MLT-###) taxonomy defined in MAIN_PROMPT_v7.md.
 
 ### Gap Analysis Methodology
 
@@ -159,7 +159,7 @@ Daily_Processing/
 
 ### Immediate Python Scripts (saves 2 hours/day)
 1. `collect_daily_files.py` - Auto-scan and collect (saves 20 min)
-2. `extract_tasks_batch.py` - Batch MAIN_PROMPT_v6 processing (saves 30 min)
+2. `extract_tasks_batch.py` - Batch MAIN_PROMPT_v7 processing (saves 30 min)
 3. `assign_tasks.py` - Apply assignment algorithm (saves 30 min)
 4. `distribute_tasks.py` - Create tasks.md files (saves 20 min)
 5. `generate_report.py` - Auto-generate reports (saves 10 min)
@@ -176,7 +176,7 @@ Daily_Processing/
 ## Critical Files Reference
 
 ### For Entity Extraction
-- **MAIN_PROMPT_v6.md:** `/ENTITIES/PROMPTS/Core/MAIN_PROMPT_v6.md`
+- **MAIN_PROMPT_v7.md:** `/ENTITIES/PROMPTS/Core/MAIN_PROMPT_v7.md`
 
 ### For Gap Analysis
 - **Gap Analysis Examples:** `/ENTITIES/TASK_MANAGERS/RESEARCHES/03_ANALYSIS/Gap_Analysis/`

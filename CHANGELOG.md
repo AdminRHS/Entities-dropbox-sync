@@ -1,3 +1,1879 @@
+# Changelog - 2025-11-27
+
+**Sync Date:** 2025-11-27 04:01:34 UTC
+**Total Changes:** 886 files
+
+## Summary
+
+- **Added:** 749 files
+- **Modified:** 43 files
+- **Deleted:** 94 files
+
+## Changes by Category
+
+### "DAILIES
+
+**Total changes:** 3 files
+
+**Deleted (3 files):**
+- `BUSINESSES_Prospect_Electr\303\243o_BUS-2025-018.json"`
+- `TODO.md"`
+- `BUSINESSES_Prospect_Markew\303\244rn_Studios_BUS-2025-021.json"`
+
+
+### "TALENTS
+
+**Total changes:** 2 files
+
+**Deleted (2 files):**
+- `Profile Video Editor Azanova Dar\312\274ya.md"`
+- `Azanova Dar\312\274ya.md"`
+
+
+### "TASK_MANAGERS
+
+**Total changes:** 1 files
+
+**Deleted (1 files):**
+- `Video_024 (\320\241\320\277\321\226\321\200\320\275\320\260 \320\272\320\276\320\277\321\226\321\217 \320\272\320\276\321\200\320\270\321\201\321\202\321\203\320\262\320\260\321\207\320\260 HR RemotEmployees 2025-11-25).md"`
+
+
+### DAILIES
+
+**Total changes:** 448 files
+
+**Added (418 files):**
+- `TODO.md` → `Week3/20/Azanova Darʼya_Week_3/TODO.md` (1.57 KB, modified: 2025-11-19T18:27:13, by: Dropbox User)
+- `BUSINESSES_Prospect_Electrão_BUS-2025-018.json` → `IMPORTS/Week_3/2025-11-22_Sales_Import/archive_2025-11-22/Prospects/BUSINESSES_Prospect_Electrão_BUS-2025-018.json` (1.56 KB, modified: 2025-11-21T23:49:35, by: Dropbox User)
+- `BUSINESSES_Prospect_Markewärn_Studios_BUS-2025-021.json` → `IMPORTS/Week_3/2025-11-22_Sales_Import/archive_2025-11-22/Prospects/BUSINESSES_Prospect_Markewärn_Studios_BUS-2025-021.json` (4.26 KB, modified: 2025-11-21T23:49:35, by: Dropbox User)
+- `generate_all_task_templates.py` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/generate_all_task_templates.py` (6.84 KB, modified: 2025-11-26T11:23:19, by: Dropbox User)
+- `TST-411_Resolve_accountingpayment_issues.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-411_Resolve_accountingpayment_issues.json` (1.11 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-415_Create_script_for_daily_notes_action_extraction.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-415_Create_script_for_daily_notes_action_extraction.json` (1.08 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-416_Build_intermediate_export_folders_structure.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-416_Build_intermediate_export_folders_structure.json` (1.08 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-417_Implement_object_extraction_after_actions.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-417_Implement_object_extraction_after_actions.json` (1.06 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-418_Reduce_token_consumption_via_scripting.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-418_Reduce_token_consumption_via_scripting.json` (1.04 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-419_Integrate_multiple_AI_platforms_for_processing.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-419_Integrate_multiple_AI_platforms_for_processing.json` (1.07 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-420_Continue_data_structuring_work.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-420_Continue_data_structuring_work.json` (1.03 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-421_Create_deep_research_template_(10-15_pages).json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-421_Create_deep_research_template_(10-15_pages).json` (1.07 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-422_Build_social_media_checklist_(15_networks).json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-422_Build_social_media_checklist_(15_networks).json` (1.12 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-423_Integrate_company_context_into_research.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-423_Integrate_company_context_into_research.json` (1.05 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-424_Create_new_lesson_of_the_week_system.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-424_Create_new_lesson_of_the_week_system.json` (1.06 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-425_Document_deep_research_in_client_folders.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-425_Document_deep_research_in_client_folders.json` (1.11 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-426_Export_Week_2_tasks_list.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-426_Export_Week_2_tasks_list.json` (1.02 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-427_Deprecate_old_workflow_system.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-427_Deprecate_old_workflow_system.json` (1.03 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-428_Structure_financial_folder_architecture.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-428_Structure_financial_folder_architecture.json` (1.11 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-429_Create_research_list_for_Finance_2025.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-429_Create_research_list_for_Finance_2025.json` (1.06 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-430_Build_reports_in_ANALYTICS_folder.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-430_Build_reports_in_ANALYTICS_folder.json` (1.06 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-431_Generate_prompts_for_financial_analysis.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-431_Generate_prompts_for_financial_analysis.json` (1.11 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-432_Create_employee_11_session_template.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-432_Create_employee_11_session_template.json` (1.06 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-433_Export_daily_CRM_attendance_data.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-433_Export_daily_CRM_attendance_data.json` (1.05 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-434_Build_script_to_check_employee_file_status.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-434_Build_script_to_check_employee_file_status.json` (1.07 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-106_Find_historical_search_queries_file_on_Google_Drive.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-106_Find_historical_search_queries_file_on_Google_Drive.json` (1.07 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-107_Reformat_LinkedIn_queries_for_Google_Maps.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-107_Reformat_LinkedIn_queries_for_Google_Maps.json` (1.12 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-108_Create_detailed_prompt_for_query_generation_(Column_H).json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-108_Create_detailed_prompt_for_query_generation_(Column_H).json` (1.09 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-109_Build_URL_parsing_script.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-109_Build_URL_parsing_script.json` (1.03 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-110_Extract_company_name_from_URLs.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-110_Extract_company_name_from_URLs.json` (1.03 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-111_Connect_scraper_to_CRM_automation.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-111_Connect_scraper_to_CRM_automation.json` (1.07 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-112_Implement_duplicate_checking_against_CRM.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-112_Implement_duplicate_checking_against_CRM.json` (1.08 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-113_Test_scraping_with_3-4_videos_about_Google_Maps_scraping.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-113_Test_scraping_with_3-4_videos_about_Google_Maps_scraping.json` (1.15 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-114_Allocate_5_lead_generators,_1-2_hoursday_for_Google_Maps.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-114_Allocate_5_lead_generators,_1-2_hoursday_for_Google_Maps.json` (1.15 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-115_Create_attractive_offer_for_leads_(20_Google_vs_5_LinkedIn).json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-115_Create_attractive_offer_for_leads_(20_Google_vs_5_LinkedIn).json` (1.17 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-116_Document_scraping_system_(20%_checkpoint).json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-116_Document_scraping_system_(20%_checkpoint).json` (1.12 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-117_Research_world_methodologies_on_Google_Maps_scraping.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-117_Research_world_methodologies_on_Google_Maps_scraping.json` (1.13 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-118_Create_guidelines_for_reviews_scraping_direction.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-118_Create_guidelines_for_reviews_scraping_direction.json` (1.09 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-119_Add_source_marking_for_Google_Maps_data.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-119_Add_source_marking_for_Google_Maps_data.json` (1.11 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-120_Implement_social_media_scraping.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-120_Implement_social_media_scraping.json` (1.10 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-121_Test_review_system_with_live_data.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-121_Test_review_system_with_live_data.json` (1.04 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-122_Launch_system_with_LGN_team.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-122_Launch_system_with_LGN_team.json` (1.02 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-123_Create_Job_Sites_folder_in_ENTITIESACCOUNTS.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-123_Create_Job_Sites_folder_in_ENTITIESACCOUNTS.json` (1.14 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-124_Review_other_entities'_taxonomy.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-124_Review_other_entities'_taxonomy.json` (1.04 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-125_Build_Job_Sites_entity_structure.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-125_Build_Job_Sites_entity_structure.json` (1.11 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-126_Create_Master_JSON_for_Job_Sites.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-126_Create_Master_JSON_for_Job_Sites.json` (1.11 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-127_Document_Job_Sites_entity.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-127_Document_Job_Sites_entity.json` (1.10 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-233_Create_department-specific_daily_analysis_prompts.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-233_Create_department-specific_daily_analysis_prompts.json` (1.08 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-234_Build_starting_point_reference_guides.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-234_Build_starting_point_reference_guides.json` (1.07 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-235_Iterate_prompts_for_better_report_quality.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-235_Iterate_prompts_for_better_report_quality.json` (1.05 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-236_Process_tutorials_from_Department_DropBox.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-236_Process_tutorials_from_Department_DropBox.json` (1.05 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-237_Find_and_download_Google_Drive_guides_in_Markdown.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-237_Find_and_download_Google_Drive_guides_in_Markdown.json` (1.08 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-238_Export_and_process_from_Online_Academy.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-238_Export_and_process_from_Online_Academy.json` (1.04 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-239_Create_REPORTS_folder_in_ENTITIES.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-239_Create_REPORTS_folder_in_ENTITIES.json` (1.05 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-240_Add_taxonomy_for_REPORTS_entity.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-240_Add_taxonomy_for_REPORTS_entity.json` (1.03 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-241_Integrate_IDS_system_(RPT-###).json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-241_Integrate_IDS_system_(RPT-###).json` (1.04 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-242_Import_example_reports.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-242_Import_example_reports.json` (1.01 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-243_Create_report_classification_system.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-243_Create_report_classification_system.json` (1.05 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-244_Update_master_taxonomy.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-244_Update_master_taxonomy.json` (1.07 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-245_Create_Tasks_folder_in_Dailies.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-245_Create_Tasks_folder_in_Dailies.json` (1.04 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-246_Create_Plans_folder_in_Dailies.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-246_Create_Plans_folder_in_Dailies.json` (1.04 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-247_Add_employee_identification_system.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-247_Add_employee_identification_system.json` (1.04 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-248_Cross-reference_Task_Manager_with_Online_Academy.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-248_Cross-reference_Task_Manager_with_Online_Academy.json` (1.06 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-249_Store_Online_Academy_links_in_guides.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-249_Store_Online_Academy_links_in_guides.json` (1.05 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-001_Research_to_Task_Manager_integration.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-001_Research_to_Task_Manager_integration.json` (1.05 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-002_Pack_all_dailies_into_Week3_folder.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-002_Pack_all_dailies_into_Week3_folder.json` (1.04 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-030_Interviews_Lists_to_MD_Files.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-030_Interviews_Lists_to_MD_Files.json` (1.05 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-031_Clear_Lists_of_Candidates_Sources.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-031_Clear_Lists_of_Candidates_Sources.json` (1.06 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-032_HR_Onboarding_preparation.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-032_HR_Onboarding_preparation.json` (1.02 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-033_Integrate_Individual_Employee_Testing.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-033_Integrate_Individual_Employee_Testing.json` (1.08 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-034_Discord_Bot_notifications.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-034_Discord_Bot_notifications.json` (1.04 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-035_Expand_Industries.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-035_Expand_Industries.json` (1.00 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-036_LG_Message_Templates.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-036_LG_Message_Templates.json` (1.01 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-037_Prospects_Architecture_Improvement.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-037_Prospects_Architecture_Improvement.json` (1.06 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-038_Feed_database_300_new_leads_daily.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-038_Feed_database_300_new_leads_daily.json` (1.04 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-039_Populate_leads_with_classifications.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-039_Populate_leads_with_classifications.json` (1.10 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-040_Target_audience_analysis.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-040_Target_audience_analysis.json` (1.02 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-041_Extractanalyze_LG_conversations.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-041_Extractanalyze_LG_conversations.json` (1.09 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-042_Build_look-alike_auditory.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-042_Build_look-alike_auditory.json` (1.04 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-043_Testing_Individual_Scraping_Techniques.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-043_Testing_Individual_Scraping_Techniques.json` (1.06 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-044_LG_Department_Core_Principles_Doc.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-044_LG_Department_Core_Principles_Doc.json` (1.03 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-045_Obligatory_Save_5_Templates_+_Screenshot.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-045_Obligatory_Save_5_Templates_+_Screenshot.json` (1.05 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-046_Sales_Email_Templates.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-046_Sales_Email_Templates.json` (1.01 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-047_Connect_to_Google_Calendar.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-047_Connect_to_Google_Calendar.json` (1.03 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-048_Scrape_Event_Metadata.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-048_Scrape_Event_Metadata.json` (1.01 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-049_Populate_Business_Entity_from_Sales.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-049_Populate_Business_Entity_from_Sales.json` (1.04 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-050_Get_CRM_Data_on_Daily_LeadGen_Cards.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-050_Get_CRM_Data_on_Daily_LeadGen_Cards.json` (1.04 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-051_Learning_Flow_Step-by-Step_Development.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-051_Learning_Flow_Step-by-Step_Development.json` (1.06 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-052_Track_Task_Completions_via_Microservices.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-052_Track_Task_Completions_via_Microservices.json` (1.05 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-053_Synchronize_Libs_with_Online_Academy.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-053_Synchronize_Libs_with_Online_Academy.json` (1.05 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-054_Connect_Task_Managers_to_Libs.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-054_Connect_Task_Managers_to_Libs.json` (1.04 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-055_Task_Manager_Dashboard_with_Database.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-055_Task_Manager_Dashboard_with_Database.json` (1.04 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-056_n8n_Image_Generation_Guide.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-056_n8n_Image_Generation_Guide.json` (1.03 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-057_Frontend_OAuth_Implementation.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-057_Frontend_OAuth_Implementation.json` (1.04 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-058_Personal_Task_Manager_Web_Pages.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-058_Personal_Task_Manager_Web_Pages.json` (1.03 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-059_Add_Rules_for_AI_in_Each_Folder.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-059_Add_Rules_for_AI_in_Each_Folder.json` (1.03 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-060_Log_Entity_Integration.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-060_Log_Entity_Integration.json` (1.01 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-061_Keep_Logs_Longer.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-061_Keep_Logs_Longer.json` (1.00 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-062_Develop_USER_Entities.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-062_Develop_USER_Entities.json` (1.02 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-063_Review_TALENTS_match_with_Database.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-063_Review_TALENTS_match_with_Database.json` (1.04 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-064_Prepare_DB_EXPORT_Folder_LIBRARIES.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-064_Prepare_DB_EXPORT_Folder_LIBRARIES.json` (1.04 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-065_Text_Researches_Recognition_&_Import.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-065_Text_Researches_Recognition_&_Import.json` (1.05 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-066_Core_System_Taxonomy_Architecture_Review.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-066_Core_System_Taxonomy_Architecture_Review.json` (1.06 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-067_Prompt_for_Transcription_Export.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-067_Prompt_for_Transcription_Export.json` (1.03 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-068_Prompts_for_Weekly_Analysis.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-068_Prompts_for_Weekly_Analysis.json` (1.02 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-069_Prompts_for_Daily_Analysis.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-069_Prompts_for_Daily_Analysis.json` (1.02 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-070_Researches_Dashboard.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-070_Researches_Dashboard.json` (1.02 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-071_Export_Dailies_Summaries_to_ToDo_App.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-071_Export_Dailies_Summaries_to_ToDo_App.json` (1.04 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-072_Tasks_Templates_Execution_System.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-072_Tasks_Templates_Execution_System.json` (1.03 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-073_Steps_Confirmation_System.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-073_Steps_Confirmation_System.json` (1.02 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-074_Portfolio_Diversification_Strategy.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-074_Portfolio_Diversification_Strategy.json` (1.05 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-075_Create_More_Case_Studies.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-075_Create_More_Case_Studies.json` (1.03 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-076_Deep_Research_Designer_Task.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-076_Deep_Research_Designer_Task.json` (1.10 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-077_Media_Library_Development.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-077_Media_Library_Development.json` (1.08 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-128_Deploy_v1.0_to_Vercel.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-128_Deploy_v1.0_to_Vercel.json` (1.04 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-129_Share_dashboard_access_with_all_departments.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-129_Share_dashboard_access_with_all_departments.json` (1.05 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-130_Fix_white_text_display.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-130_Fix_white_text_display.json` (1.03 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-131_Add_tool_filtering_feature.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-131_Add_tool_filtering_feature.json` (1.02 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-132_Implement_user_login_tracking.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-132_Implement_user_login_tracking.json` (1.04 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-133_Create_user_assignment_system.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-133_Create_user_assignment_system.json` (1.04 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-134_Integrate_UI_Kit_from_Eleanor's_work.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-134_Integrate_UI_Kit_from_Eleanor's_work.json` (1.05 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-135_Add_calendar_feature.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-135_Add_calendar_feature.json` (1.01 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-136_Build_API_for_dashboard_data.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-136_Build_API_for_dashboard_data.json` (1.05 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-138_Document_dashboard_usage.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-138_Document_dashboard_usage.json` (1.03 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-141_Set_up_Vilhelm's_VS_Code_with_Claude_Extension.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-141_Set_up_Vilhelm's_VS_Code_with_Claude_Extension.json` (1.10 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-147_Vilhelm_Create_Deep_Research_task.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-147_Vilhelm_Create_Deep_Research_task.json` (1.06 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-153_Create_token_usage_alerts.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-153_Create_token_usage_alerts.json` (1.03 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-154_Purchase_additional_AI_tool_accounts.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-154_Purchase_additional_AI_tool_accounts.json` (1.04 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-137_Integrate_with_LibDev_catalog.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-137_Integrate_with_LibDev_catalog.json` (1.04 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-139_Create_employee_training_materials.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-139_Create_employee_training_materials.json` (1.06 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-140_Teach_Vilhelm_video_parsing_workflow.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-140_Teach_Vilhelm_video_parsing_workflow.json` (1.04 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-142_Configure_Vilhelm's_key_bindings.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-142_Configure_Vilhelm's_key_bindings.json` (1.03 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-143_Introduce_Vilhelm_to_ENTITIES_structure.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-143_Introduce_Vilhelm_to_ENTITIES_structure.json` (1.05 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-144_Assign_Vilhelm_accounts_with_limits.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-144_Assign_Vilhelm_accounts_with_limits.json` (1.06 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-145_Vilhelm_Research_YouTube_channels_on_Google_Maps_scraping.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-145_Vilhelm_Research_YouTube_channels_on_Google_Maps_scraping.json` (1.14 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-146_Vilhelm_Parse_3-4_videos_by_Monday.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-146_Vilhelm_Parse_3-4_videos_by_Monday.json` (1.04 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-148_Vilhelm_Check_Online_Academy_for_Deep_Research_content.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-148_Vilhelm_Check_Online_Academy_for_Deep_Research_content.json` (1.14 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-149_Vilhelm_Integrate_prompts_into_ENTITIES_ecosystem.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-149_Vilhelm_Integrate_prompts_into_ENTITIES_ecosystem.json` (1.08 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-150_Document_current_AI_tools_tracking_system.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-150_Document_current_AI_tools_tracking_system.json` (1.12 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-151_Add_user_assignment_field_to_accounts.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-151_Add_user_assignment_field_to_accounts.json` (1.06 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-152_Implement_login_session_tracking.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-152_Implement_login_session_tracking.json` (1.05 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-155_Sync_Dropbox_Tools_to_libdev.com.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-155_Sync_Dropbox_Tools_to_libdev.com.json` (1.07 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-156_Build_account_rotation_recommendations.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-156_Build_account_rotation_recommendations.json` (1.08 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-157_Design_single_task_page_layout.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-157_Design_single_task_page_layout.json` (1.04 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-158_Create_prompt_for_task_page_generation.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-158_Create_prompt_for_task_page_generation.json` (1.06 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-159_Build_HTML_template_for_single_task.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-159_Build_HTML_template_for_single_task.json` (1.06 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-160_Test_with_Deep_Research_task.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-160_Test_with_Deep_Research_task.json` (1.03 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-161_Create_research_queueline_system.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-161_Create_research_queueline_system.json` (1.05 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-162_Integrate_with_TASK_MANAGERS_data.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-162_Integrate_with_TASK_MANAGERS_data.json` (1.05 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-163_Create_CONTENT_entity_folder.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-163_Create_CONTENT_entity_folder.json` (1.04 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-164_Define_CONTENT_entity_taxonomy.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-164_Define_CONTENT_entity_taxonomy.json` (1.03 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-165_Create_Master_CSV_for_CONTENT.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-165_Create_Master_CSV_for_CONTENT.json` (1.09 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-166_Populate_with_existing_tutorials.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-166_Populate_with_existing_tutorials.json` (1.03 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-167_Research_Figma_AI_tutorial_videos.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-167_Research_Figma_AI_tutorial_videos.json` (1.09 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-168_Build_video_catalog_app.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-168_Build_video_catalog_app.json` (1.08 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-169_Implement_clickable_timestamps.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-169_Implement_clickable_timestamps.json` (1.04 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-170_Create_minimum_parse_list.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-170_Create_minimum_parse_list.json` (1.03 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-171_Review_current_video_processing_taxonomy.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-171_Review_current_video_processing_taxonomy.json` (1.11 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-172_Identify_taxonomy_improvements.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-172_Identify_taxonomy_improvements.json` (1.09 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-173_Implement_taxonomy_upgrades.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-173_Implement_taxonomy_upgrades.json` (1.10 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-174_Document_video_editor_processed_works.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-174_Document_video_editor_processed_works.json` (1.11 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-175_Define_Google_Drive_storage_locations.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-175_Define_Google_Drive_storage_locations.json` (1.04 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-176_Research_Gravity_AI_tool_capabilities.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-176_Research_Gravity_AI_tool_capabilities.json` (1.10 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-177_Integrate_Responsibilities_into_LBS_taxonomy.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-177_Integrate_Responsibilities_into_LBS_taxonomy.json` (1.13 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-178_Document_Gravity_integration.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-178_Document_Gravity_integration.json` (1.09 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-179_Prepare_shifts_management_system.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-179_Prepare_shifts_management_system.json` (1.04 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-180_Document_schedule_management_techniques.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-180_Document_schedule_management_techniques.json` (1.06 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-181_Connect_research_to_posting_schedule.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-181_Connect_research_to_posting_schedule.json` (1.10 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-182_Create_BUSINESSES_entity_folder.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-182_Create_BUSINESSES_entity_folder.json` (1.04 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-183_Define_BUSINESSES_entity_taxonomy.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-183_Define_BUSINESSES_entity_taxonomy.json` (1.03 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-184_Document_client_interview_process.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-184_Document_client_interview_process.json` (1.07 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-185_Track_Friday_client_scheduling.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-185_Track_Friday_client_scheduling.json` (1.05 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-186_Store_interview_recordingsnotes.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-186_Store_interview_recordingsnotes.json` (1.04 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-187_Define_profession_categories.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-187_Define_profession_categories.json` (1.02 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-188_Populate_tutorials_per_profession.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-188_Populate_tutorials_per_profession.json` (1.03 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-189_Create_guidelines_per_profession.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-189_Create_guidelines_per_profession.json` (1.06 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-190_Build_AI_assistant_framework.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-190_Build_AI_assistant_framework.json` (1.05 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-191_Design_InnerClient_concept.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-191_Design_InnerClient_concept.json` (1.03 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-192_Define_pricing_per_profession.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-192_Define_pricing_per_profession.json` (1.09 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-193_Create_UI_for_InnerClient_system.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-193_Create_UI_for_InnerClient_system.json` (1.07 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-194_Set_up_human_curation_process.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-194_Set_up_human_curation_process.json` (1.03 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-195_Sync_Dropbox_Tools_library_to_libdev.com.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-195_Sync_Dropbox_Tools_library_to_libdev.com.json` (1.09 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-196_Research_Dropbox_API_synchronization.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-196_Research_Dropbox_API_synchronization.json` (1.10 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-197_Build_manual_sync_script_(fallback).json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-197_Build_manual_sync_script_(fallback).json` (1.06 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-198_Create_knowledge_gap_identification_process.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-198_Create_knowledge_gap_identification_process.json` (1.07 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-199_Implement_ReadWriteSave_reminder_system.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-199_Implement_ReadWriteSave_reminder_system.json` (1.06 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-200_Monday_call_at_9_AM.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-200_Monday_call_at_9_AM.json` (1.02 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-201_Vilhelm_+_Yulya_Collect_designer_works.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-201_Vilhelm_+_Yulya_Collect_designer_works.json` (1.06 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-202_Implement_designer_work_storage_in_Dropbox.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-202_Implement_designer_work_storage_in_Dropbox.json` (1.08 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-203_Document_Monday_progress.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-203_Document_Monday_progress.json` (1.10 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-204_Create_plans_for_next_stage.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-204_Create_plans_for_next_stage.json` (1.05 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-205_Review_all_designer_portfolios.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-205_Review_all_designer_portfolios.json` (1.09 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-206_Mandate_Dropbox_work_storage_for_designers.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-206_Mandate_Dropbox_work_storage_for_designers.json` (1.07 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-207_Create_daily_work_documentation_requirement.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-207_Create_daily_work_documentation_requirement.json` (1.08 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-208_Diversify_designer_portfolios.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-208_Diversify_designer_portfolios.json` (1.04 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-210_Train_designers_on_AI_tools.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-210_Train_designers_on_AI_tools.json` (1.03 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-211_Design_financial_framework_structure.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-211_Design_financial_framework_structure.json` (1.10 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-212_Create_data_sets_for_financial_wiki.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-212_Create_data_sets_for_financial_wiki.json` (1.11 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-213_Document_calculation_sources.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-213_Document_calculation_sources.json` (1.04 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-214_Collect_employee_profiles_for_Talents.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-214_Collect_employee_profiles_for_Talents.json` (1.06 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-215_Create_modified_public_profiles.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-215_Create_modified_public_profiles.json` (1.04 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-216_Implement_log_files_in_every_entity_folder.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-216_Implement_log_files_in_every_entity_folder.json` (1.07 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-209_Build_case_studies_library.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-209_Build_case_studies_library.json` (1.04 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-217_Create_main_researchers'_log.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-217_Create_main_researchers'_log.json` (1.04 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-218_Build_structured_guidelines_for_manual_assignment.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-218_Build_structured_guidelines_for_manual_assignment.json` (1.09 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-219_Create_step-by-step_documentation_templates.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-219_Create_step-by-step_documentation_templates.json` (1.07 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-220_Identify_department_data_gaps.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-220_Identify_department_data_gaps.json` (1.03 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-221_Create_TODO_file_system.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-221_Create_TODO_file_system.json` (1.03 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-222_Build_AI_prompt_for_task_distribution.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-222_Build_AI_prompt_for_task_distribution.json` (1.07 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-223_Implement_daily_TODO_generation.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-223_Implement_daily_TODO_generation.json` (1.04 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-224_Document_transcription_best_practices.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-224_Document_transcription_best_practices.json` (1.11 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-225_Improve_dictation-to-entity_workflow.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-225_Improve_dictation-to-entity_workflow.json` (1.04 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-226_Fix_unpredictable_save_locations.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-226_Fix_unpredictable_save_locations.json` (1.05 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-227_Standardize_report_storage_paths.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-227_Standardize_report_storage_paths.json` (1.03 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-228_Document_report_generation_process.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-228_Document_report_generation_process.json` (1.05 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-229_Create_attendance_dashboard_asset.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-229_Create_attendance_dashboard_asset.json` (1.05 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-230_Write_README_with_all_links.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-230_Write_README_with_all_links.json` (1.09 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-231_Set_up_version_tracking.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-231_Set_up_version_tracking.json` (1.01 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-232_Document_design_updates_log.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-232_Document_design_updates_log.json` (1.10 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-250_Add_IDs_to_Online_Academy_content.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-250_Add_IDs_to_Online_Academy_content.json` (1.03 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-251_Apply_taxonomy_to_Academy_structure.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-251_Apply_taxonomy_to_Academy_structure.json` (1.10 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-252_Create_detailed_onboarding_tasks_with_steps.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-252_Create_detailed_onboarding_tasks_with_steps.json` (1.07 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-253_Build_progress_tracking_via_task_IDs_in_reports.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-253_Build_progress_tracking_via_task_IDs_in_reports.json` (1.08 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-254_Create_data_flow_clarification_project.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-254_Create_data_flow_clarification_project.json` (1.06 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-255_Run_methodologies_skill-up_project_research.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-255_Run_methodologies_skill-up_project_research.json` (1.06 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-256_Create_VS_Code_instruction_tutorials.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-256_Create_VS_Code_instruction_tutorials.json` (1.05 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-257_Implement_logging_to_LOG_folder_during_data_population.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-257_Implement_logging_to_LOG_folder_during_data_population.json` (1.09 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-258_Implement_TSM-###_ID_system.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-258_Implement_TSM-###_ID_system.json` (1.04 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-259_Create_TSM-001_Project_Template.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-259_Create_TSM-001_Project_Template.json` (1.04 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-260_Document_data_import_flows.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-260_Document_data_import_flows.json` (1.04 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-261_Define_structured_vs_unstructured_data_handling.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-261_Define_structured_vs_unstructured_data_handling.json` (1.06 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-262_Create_input_type_taxonomy_(Research,_Video,_etc.).json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-262_Create_input_type_taxonomy_(Research,_Video,_etc.).json` (1.14 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-263_Create_employee_TODO_file_system.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-263_Create_employee_TODO_file_system.json` (1.05 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-264_Write_learning_materials_generation_guide.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-264_Write_learning_materials_generation_guide.json` (1.13 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-265_Enforce_prompt-first_rule.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-265_Enforce_prompt-first_rule.json` (1.03 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-266_Create_taxonomy_introduction_materials.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-266_Create_taxonomy_introduction_materials.json` (1.12 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-267_Update_daily_review_prompts.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-267_Update_daily_review_prompts.json` (1.03 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-268_Locate_all_department_prompts_in_Nov25_folders.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-268_Locate_all_department_prompts_in_Nov25_folders.json` (1.06 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-269_Consolidate_prompts_to_ENTITIESPROMPTS.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-269_Consolidate_prompts_to_ENTITIESPROMPTS.json` (1.05 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-270_Create_data_import_scripts.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-270_Create_data_import_scripts.json` (1.03 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-271_Research_AirTable_integration_options.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-271_Research_AirTable_integration_options.json` (1.10 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-272_Design_Task_Manager_choiceselection_system.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-272_Design_Task_Manager_choiceselection_system.json` (1.06 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-273_Import_accounts_to_ENTITIES.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-273_Import_accounts_to_ENTITIES.json` (1.02 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-274_Create_accounts_microservice.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-274_Create_accounts_microservice.json` (1.06 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-275_Bind_gmails_to_tools.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-275_Bind_gmails_to_tools.json` (1.01 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-276_Integrate_accounts_into_AI_Catalog.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-276_Integrate_accounts_into_AI_Catalog.json` (1.07 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-277_Build_user_login_system_with_gmail.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-277_Build_user_login_system_with_gmail.json` (1.06 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-278_Set_up_database_for_accounts.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-278_Set_up_database_for_accounts.json` (1.04 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-279_Create_reusable_microservice_template.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-279_Create_reusable_microservice_template.json` (1.06 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-280_Document_departments_folder_architecture.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-280_Document_departments_folder_architecture.json` (1.07 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-281_Restore_data_processes_pipelines.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-281_Restore_data_processes_pipelines.json` (1.05 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-282_Create_clear_file_location_guidance.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-282_Create_clear_file_location_guidance.json` (1.06 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-283_Build_progress_count_updating_script.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-283_Build_progress_count_updating_script.json` (1.06 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-284_Create_tasks_import_guide.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-284_Create_tasks_import_guide.json` (1.04 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-285_Add_dates_to_Activity_3.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-285_Add_dates_to_Activity_3.json` (1.01 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-286_Verify_LG_data_in_DropBox.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-286_Verify_LG_data_in_DropBox.json` (1.02 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-287_Process_items_in_IMPORTS_folder.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-287_Process_items_in_IMPORTS_folder.json` (1.03 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-288_Create_list_of_reserved_names_in_ENTITIES.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-288_Create_list_of_reserved_names_in_ENTITIES.json` (1.06 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-289_Create_list_of_videos_to_transcribe.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-289_Create_list_of_videos_to_transcribe.json` (1.10 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-290_Put_video_transcriptions_into_people_tasks.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-290_Put_video_transcriptions_into_people_tasks.json` (1.05 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-291_Run_prompts_for_video_search.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-291_Run_prompts_for_video_search.json` (1.02 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-292_Purchase_Gemini_Ultra_on_Admin_account.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-292_Purchase_Gemini_Ultra_on_Admin_account.json` (1.04 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-293_Create_transcription_execution_list_with_IDs.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-293_Create_transcription_execution_list_with_IDs.json` (1.12 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-294_Build_execution_tracking_system.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-294_Build_execution_tracking_system.json` (1.05 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-295_Create_execution_update_guides.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-295_Create_execution_update_guides.json` (1.05 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-296_Define_next_milestone_triggers_(Data_Population).json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-296_Define_next_milestone_triggers_(Data_Population).json` (1.06 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-297_Create_Content_Entity.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-297_Create_Content_Entity.json` (1.02 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-298_Create_Content_Department.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-298_Create_Content_Department.json` (1.08 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-299_Integrate_shifts_management.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-299_Integrate_shifts_management.json` (1.06 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-300_Create_shortcuts_lessonpost.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-300_Create_shortcuts_lessonpost.json` (1.04 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-301_Prepare_list_of_researches_for_Entity_Researches.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-301_Prepare_list_of_researches_for_Entity_Researches.json` (1.07 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-302_Research_YouTube_videos_for_transcription.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-302_Research_YouTube_videos_for_transcription.json` (1.11 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-303_Build_automation_posting.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-303_Build_automation_posting.json` (1.04 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-304_Train_AI_to_build_research_tasks_for_people.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-304_Train_AI_to_build_research_tasks_for_people.json` (1.08 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-305_List_automations_to_learn_or_integrate.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-305_List_automations_to_learn_or_integrate.json` (1.06 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-306_Task_Search_for_videos_(template).json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-306_Task_Search_for_videos_(template).json` (1.04 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-307_Hosting_in_Vercel_(Dev_account).json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-307_Hosting_in_Vercel_(Dev_account).json` (1.05 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-308_Automate_library_update.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-308_Automate_library_update.json` (1.01 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-309_Canva_downloadintegration.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-309_Canva_downloadintegration.json` (1.02 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-310_Create_six_must-have_files_list.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-310_Create_six_must-have_files_list.json` (1.04 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-311_Design_core_documents.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-311_Design_core_documents.json` (1.09 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-312_Create_Pre-Sale_candidate_tracking_system.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-312_Create_Pre-Sale_candidate_tracking_system.json` (1.07 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-313_Add_Ukandu_Christopher_to_Pre-Sale_list.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-313_Add_Ukandu_Christopher_to_Pre-Sale_list.json` (1.07 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-314_Sign_contract_with_Borovik_for_client_interview.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-314_Sign_contract_with_Borovik_for_client_interview.json` (1.08 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-315_Prepare_Borovik_for_tomorrow's_client_interview.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-315_Prepare_Borovik_for_tomorrow's_client_interview.json` (1.08 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-316_Create_candidate_warming_system_for_hot_list.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-316_Create_candidate_warming_system_for_hot_list.json` (1.08 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-317_Document_interview_requirements_checklist.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-317_Document_interview_requirements_checklist.json` (1.08 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-318_Create_interview_scoring_rubric.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-318_Create_interview_scoring_rubric.json` (1.05 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-319_Follow_up_with_Valeriia_on_trial_terms.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-319_Follow_up_with_Valeriia_on_trial_terms.json` (1.07 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-320_Implement_Entity_Identification_System_v1.0.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-320_Implement_Entity_Identification_System_v1.0.json` (1.07 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-321_Set_up_multi-instance_AI_tool_workflow.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-321_Set_up_multi-instance_AI_tool_workflow.json` (1.04 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-322_Deploy_Google_AntiGravity_for_team.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-322_Deploy_Google_AntiGravity_for_team.json` (1.06 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-323_Automate_daily_employee_task_assignment.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-323_Automate_daily_employee_task_assignment.json` (1.07 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-324_Build_employee_choiceselection_system.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-324_Build_employee_choiceselection_system.json` (1.06 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-325_Collect_Discord_voice_logs_for_analytics.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-325_Collect_Discord_voice_logs_for_analytics.json` (1.05 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-326_Process_department_prompt_logs_daily.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-326_Process_department_prompt_logs_daily.json` (1.04 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-327_Convert_Workflows_to_Projects_in_TASK_MANAGERS.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-327_Convert_Workflows_to_Projects_in_TASK_MANAGERS.json` (1.06 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-328_Assign_IDs_to_all_ENTITIES_folders.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-328_Assign_IDs_to_all_ENTITIES_folders.json` (1.04 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-329_Create_MCP_agent_system_(employees,_libs,_academy).json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-329_Create_MCP_agent_system_(employees,_libs,_academy).json` (1.09 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-330_Build_screenshot_verification_automation.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-330_Build_screenshot_verification_automation.json` (1.07 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-331_Create_AI_routes_inside_entity_folders.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-331_Create_AI_routes_inside_entity_folders.json` (1.06 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-332_Build_index_files_for_machineAI_access.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-332_Build_index_files_for_machineAI_access.json` (1.07 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-333_Save_schemas_inside_folders_with_field_definitions.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-333_Save_schemas_inside_folders_with_field_definitions.json` (1.07 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-334_Sync_Task_Template_to_backend.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-334_Sync_Task_Template_to_backend.json` (1.07 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-335_Create_backend_for_DropBox_SubEntity.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-335_Create_backend_for_DropBox_SubEntity.json` (1.12 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-337_Connect_Accounts_to_Talents_profiles.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-337_Connect_Accounts_to_Talents_profiles.json` (1.08 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-338_Implement_automatic_access_closure_alerts.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-338_Implement_automatic_access_closure_alerts.json` (1.06 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-341_Implement_team_lead_access_limits.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-341_Implement_team_lead_access_limits.json` (1.10 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-345_Design_permission_system_architecture.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-345_Design_permission_system_architecture.json` (1.06 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-336_Build_alert_system_for_firedleft_employees.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-336_Build_alert_system_for_firedleft_employees.json` (1.07 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-339_Track_secondary_accounts_(not_just_main_emails).json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-339_Track_secondary_accounts_(not_just_main_emails).json` (1.08 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-340_Design_country-based_job_account_permissions.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-340_Design_country-based_job_account_permissions.json` (1.07 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-342_Build_role-based_account_access_system.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-342_Build_role-based_account_access_system.json` (1.08 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-343_Create_account_manager_interface.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-343_Create_account_manager_interface.json` (1.07 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-344_Add_Balkans_as_region_in_system.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-344_Add_Balkans_as_region_in_system.json` (1.04 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-346_Implement_employee-based_permissions.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-346_Implement_employee-based_permissions.json` (1.06 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-347_Implement_professionrole-based_permissions.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-347_Implement_professionrole-based_permissions.json` (1.08 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-348_Create_Auth_User_Service_documentation.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-348_Create_Auth_User_Service_documentation.json` (1.11 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-349_Review_GPT_usage_and_costs.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-349_Review_GPT_usage_and_costs.json` (1.08 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-350_Identify_cost-cutting_opportunities.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-350_Identify_cost-cutting_opportunities.json` (1.10 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-351_Create_taxonomy_initial_ID_inventory.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-351_Create_taxonomy_initial_ID_inventory.json` (1.11 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-352_Generate_JSON_with_all_entities_and_sub-entities.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-352_Generate_JSON_with_all_entities_and_sub-entities.json` (1.06 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-353_Add_3-letter_ISO_codes_to_entities.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-353_Add_3-letter_ISO_codes_to_entities.json` (1.04 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-354_Cross-validate_with_existing_listings.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-354_Cross-validate_with_existing_listings.json` (1.05 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-355_Document_deprecatedarchived_entities.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-355_Document_deprecatedarchived_entities.json` (1.06 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-356_Update_milestone_prefix_from_MLS-###_to_MLST-###.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-356_Update_milestone_prefix_from_MLS-###_to_MLST-###.json` (1.08 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-357_Filter_daily_notes_by_taxonomy.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-357_Filter_daily_notes_by_taxonomy.json` (1.09 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-358_Build_parsing_extraction_taxonomy.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-358_Build_parsing_extraction_taxonomy.json` (1.05 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-359_Identify_repetitions_in_daily_notes.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-359_Identify_repetitions_in_daily_notes.json` (1.04 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-360_Create_PLANS_entity_folder.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-360_Create_PLANS_entity_folder.json` (1.03 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-361_Create_YouTube_channels_list.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-361_Create_YouTube_channels_list.json` (1.09 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-362_Parse_latest_videos_from_channels.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-362_Parse_latest_videos_from_channels.json` (1.04 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-363_Analyze_video_relevancy.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-363_Analyze_video_relevancy.json` (1.07 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-364_Build_YouTube_research_milestone_template.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-364_Build_YouTube_research_milestone_template.json` (1.12 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-365_Log_all_n8n_automations.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-365_Log_all_n8n_automations.json` (1.01 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-366_Create_n8n_workflow_documentation.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-366_Create_n8n_workflow_documentation.json` (1.05 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-367_Build_Google_Sheets_integration_workflow.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-367_Build_Google_Sheets_integration_workflow.json` (1.07 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-368_Create_bot_as_separate_milestone_template.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-368_Create_bot_as_separate_milestone_template.json` (1.06 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-369_Build_AI_agent_for_n8n_analysis.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-369_Build_AI_agent_for_n8n_analysis.json` (1.05 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-370_Generate_n8n_workflow_from_Claude.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-370_Generate_n8n_workflow_from_Claude.json` (1.06 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-371_Create_10+_example_n8n_projects.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-371_Create_10+_example_n8n_projects.json` (1.04 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-372_Implement_daily_analysis_prompt_reminder.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-372_Implement_daily_analysis_prompt_reminder.json` (1.06 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-373_Build_continuous_employee_profile_improvement_system.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-373_Build_continuous_employee_profile_improvement_system.json` (1.09 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-374_Integrate_attendance_with_employee_profiles.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-374_Integrate_attendance_with_employee_profiles.json` (1.09 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-375_Analyze_employee_daily_records.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-375_Analyze_employee_daily_records.json` (1.09 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-376_Create_data_injection_scripts_for_daily_notes.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-376_Create_data_injection_scripts_for_daily_notes.json` (1.07 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-377_Build_actionobject_extraction_from_daily_notes.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-377_Build_actionobject_extraction_from_daily_notes.json` (1.08 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-378_Update_employee_profiles_automatically.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-378_Update_employee_profiles_automatically.json` (1.07 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-379_Update_Prompt_6_for_daily_analysis.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-379_Update_Prompt_6_for_daily_analysis.json` (1.04 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-380_Create_task_template_schema.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-380_Create_task_template_schema.json` (1.04 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-381_Link_actionsobjects_to_responsibilities.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-381_Link_actionsobjects_to_responsibilities.json` (1.05 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-382_Match_research_prompt_naming_conventions.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-382_Match_research_prompt_naming_conventions.json` (1.06 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-383_Parse_recent_videos_for_LinkedIn_content.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-383_Parse_recent_videos_for_LinkedIn_content.json` (1.05 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-384_Create_carousel_posts_from_video_content.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-384_Create_carousel_posts_from_video_content.json` (1.11 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-385_Build_automated_posting_workflow.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-385_Build_automated_posting_workflow.json` (1.06 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-386_Design_step-by-step_content_templates.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-386_Design_step-by-step_content_templates.json` (1.06 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-387_Design_microservice_methodology.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-387_Design_microservice_methodology.json` (1.04 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-388_Test_backend_generation_on_small_entity.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-388_Test_backend_generation_on_small_entity.json` (1.05 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-389_Build_GitHub-Dropbox_sync_for_backend.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-389_Build_GitHub-Dropbox_sync_for_backend.json` (1.11 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-390_Create_dynamic_Postgres_generation.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-390_Create_dynamic_Postgres_generation.json` (1.06 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-391_Organize_API_tokens_management.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-391_Organize_API_tokens_management.json` (1.03 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-392_Fix_taxonomy_location_(move_if_needed).json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-392_Fix_taxonomy_location_(move_if_needed).json` (1.12 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-393_Integrate_checklist_items_into_task_system.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-393_Integrate_checklist_items_into_task_system.json` (1.07 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-394_Fix_cursor_flickering_issue.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-394_Fix_cursor_flickering_issue.json` (1.04 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-435_Verify_Dropbox_+_VSCode_+_Extensions_for_all.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-435_Verify_Dropbox_+_VSCode_+_Extensions_for_all.json` (1.06 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-436_Conduct_manual_verification_by_end_of_week.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-436_Conduct_manual_verification_by_end_of_week.json` (1.07 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-437_Use_Overview_folder_data_for_analysis.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-437_Use_Overview_folder_data_for_analysis.json` (1.04 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-438_Create_innovation_rollout_process.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-438_Create_innovation_rollout_process.json` (1.05 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-439_Decide_Team_leads_vs_direct_rollout.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-439_Decide_Team_leads_vs_direct_rollout.json` (1.11 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-440_Create_CursorWindsurf_instructions.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-440_Create_CursorWindsurf_instructions.json` (1.05 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-441_Build_employee_verification_shifts.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-441_Build_employee_verification_shifts.json` (1.06 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-442_Assign_department_checkers.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-442_Assign_department_checkers.json` (1.02 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-443_Create_2-week_rollout_timeline.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-443_Create_2-week_rollout_timeline.json` (1.04 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-444_Export_Loom_video_titles.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-444_Export_Loom_video_titles.json` (1.02 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-445_Export_Loom_transcriptions.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-445_Export_Loom_transcriptions.json` (1.02 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-446_Add_remoteemployees.com_content_to_assets.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-446_Add_remoteemployees.com_content_to_assets.json` (1.07 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-447_Build_attendance_statistics_export_system.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-447_Build_attendance_statistics_export_system.json` (1.07 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-448_Create_CRM_API_integration.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-448_Create_CRM_API_integration.json` (1.04 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-449_Build_Discord_voice_log_export.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-449_Build_Discord_voice_log_export.json` (1.05 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-450_Parse_and_analyze_daily_attendance.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-450_Parse_and_analyze_daily_attendance.json` (1.10 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-451_Create_Discord_tools_documentation.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-451_Create_Discord_tools_documentation.json` (1.05 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-452_Reverse_name_conventions_in_Task_Manager.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-452_Reverse_name_conventions_in_Task_Manager.json` (1.05 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-453_Remove_department_letters_from_filenames.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-453_Remove_department_letters_from_filenames.json` (1.05 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-454_Update_data_integrity_hierarchy.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-454_Update_data_integrity_hierarchy.json` (1.03 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-455_Update_all_prompts_with_old_naming.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-455_Update_all_prompts_with_old_naming.json` (1.04 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-456_Build_similarconnected_words_in_LIBRARIES.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-456_Build_similarconnected_words_in_LIBRARIES.json` (1.08 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-457_Create_AI_Catalog_markdown_file.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-457_Create_AI_Catalog_markdown_file.json` (1.04 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-458_Add_AI_Catalog_to_Assets_index.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-458_Add_AI_Catalog_to_Assets_index.json` (1.03 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-459_Document_AI_Catalog_content.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-459_Document_AI_Catalog_content.json` (1.09 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-460_Perform_oa-yLibrariesTask_Managers_gap_analysis.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-460_Perform_oa-yLibrariesTask_Managers_gap_analysis.json` (1.07 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-461_Create_cross-reference_index_(tool→lesson→template).json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-461_Create_cross-reference_index_(tool→lesson→template).json` (1.09 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-462_Build_research_prompts_for_developer_tutorials.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-462_Build_research_prompts_for_developer_tutorials.json` (1.08 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-463_Create_File_System_research_prompt_v2.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-463_Create_File_System_research_prompt_v2.json` (1.06 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-464_Add_traininglearning_responsibilities_to_Libraries.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-464_Add_traininglearning_responsibilities_to_Libraries.json` (1.07 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-465_Create_weekly_AI_tutorial_research_template.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-465_Create_weekly_AI_tutorial_research_template.json` (1.07 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-466_Convert_SMM_research_into_Task_Templates.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-466_Convert_SMM_research_into_Task_Templates.json` (1.11 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-467_Create_unified_research_prompt_schema.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-467_Create_unified_research_prompt_schema.json` (1.11 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-468_Integrate_Research_ID_system_(RES-###).json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-468_Integrate_Research_ID_system_(RES-###).json` (1.05 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-469_Add_ISO_3-letter_codes_to_research.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-469_Add_ISO_3-letter_codes_to_research.json` (1.04 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-470_Test_entity_upload_to_Postgres.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-470_Test_entity_upload_to_Postgres.json` (1.03 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-471_Build_matching_schemas_for_consistency.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-471_Build_matching_schemas_for_consistency.json` (1.07 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-472_Define_deliverables_as_milestone_templates.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-472_Define_deliverables_as_milestone_templates.json` (1.05 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-473_Maintain_central_listings_while_splitting_by_dept.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-473_Maintain_central_listings_while_splitting_by_dept.json` (1.07 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-474_Create_ID_and_name_control_scripts.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-474_Create_ID_and_name_control_scripts.json` (1.05 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-475_Build_central_IDs_with_names_center.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-475_Build_central_IDs_with_names_center.json` (1.06 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `_GENERATION_SUMMARY.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/_GENERATION_SUMMARY.json` (968 bytes, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `create_task_catalog.py` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/create_task_catalog.py` (10.66 KB, modified: 2025-11-26T12:26:57, by: Dropbox User)
+- `TASK_TEMPLATE_INDEX.md` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/TASK_TEMPLATE_INDEX.md` (18.80 KB, modified: 2025-11-26T12:27:07, by: Dropbox User)
+- `Task_Template_Catalog.csv` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Template_Catalog.csv` (70.00 KB, modified: 2025-11-26T12:27:07, by: Dropbox User)
+- `Task_Template_Statistics.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Template_Statistics.json` (606 bytes, modified: 2025-11-26T12:27:07, by: Dropbox User)
+- `validate_task_templates.py` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/validate_task_templates.py` (8.27 KB, modified: 2025-11-26T12:42:42, by: Dropbox User)
+- `VALIDATION_REPORT.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/VALIDATION_REPORT.json` (244 bytes, modified: 2025-11-26T12:57:59, by: Dropbox User)
+- `update_cross_reference.py` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/update_cross_reference.py` (7.11 KB, modified: 2025-11-26T13:02:36, by: Dropbox User)
+- `COMPLETION_SUMMARY.md` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/COMPLETION_SUMMARY.md` (10.17 KB, modified: 2025-11-26T13:09:46, by: Dropbox User)
+- `FIN_Department_Nov24-25_Report.md` → `REPORTS/Week_4/FIN_Department_Nov24-25_Report.md` (43.29 KB, modified: 2025-11-26T14:41:24, by: Dropbox User)
+- `HRM_Department_Nov24-25_Report.md` → `REPORTS/Week_4/HRM_Department_Nov24-25_Report.md` (89.64 KB, modified: 2025-11-26T14:41:34, by: Dropbox User)
+- `DGN_Department_Nov24-25_Report.md` → `REPORTS/Week_4/DGN_Department_Nov24-25_Report.md` (26.11 KB, modified: 2025-11-26T14:41:45, by: Dropbox User)
+- `WEEK4_SUMMARY_STATUS.md` → `REPORTS/Week_4/WEEK4_SUMMARY_STATUS.md` (7.63 KB, modified: 2025-11-26T14:46:59, by: Dropbox User)
+
+**Modified (30 files):**
+- `extract_tasks_batch.py` → `Daily_Processing/Daily_Processing_Workflow/Scripts/extract_tasks_batch.py` (13.92 KB, rev: 016447b4..., modified: 2025-11-26T08:37:42, by: Dropbox User)
+- `README.md` → `Daily_Processing/Daily_Processing_Workflow/Scripts/README.md` (13.23 KB, rev: 016447b5..., modified: 2025-11-26T08:38:01, by: Dropbox User)
+- `MLT-003_Entity_Extraction.md` → `PLANS/Week_4/MLT-003_Entity_Extraction.md` (9.00 KB, rev: 016447b5..., modified: 2025-11-26T08:38:17, by: Dropbox User)
+- `Daily_Processing_Workflow_Simple.md` → `PLANS/Week_4/Daily_Processing_Workflow_Simple.md` (6.08 KB, rev: 016447b5..., modified: 2025-11-26T08:38:27, by: Dropbox User)
+- `MLT-002_Collection.md` → `PLANS/Week_4/MLT-002_Collection.md` (7.80 KB, rev: 016447b5..., modified: 2025-11-26T08:38:27, by: Dropbox User)
+- `00_Daily_Processing_Milestones_Index.md` → `PLANS/Week_4/00_Daily_Processing_Milestones_Index.md` (14.19 KB, rev: 016447b5..., modified: 2025-11-26T08:38:27, by: Dropbox User)
+- `Automation_Completion_Report.md` → `PLANS/Week_4/Automation_Completion_Report.md` (12.40 KB, rev: 016447b5..., modified: 2025-11-26T08:38:27, by: Dropbox User)
+- `GDS-001_Daily_Task_Processing_Instructions.md` → `Daily_Processing/Daily_Processing_Workflow/Guides/GDS-001_Daily_Task_Processing_Instructions.md` (34.32 KB, rev: 016447b5..., modified: 2025-11-26T08:38:41, by: Dropbox User)
+- `README.md` → `Daily_Processing/Daily_Processing_Workflow/README.md` (6.49 KB, rev: 016447b5..., modified: 2025-11-26T08:38:41, by: Dropbox User)
+- `TST-409_Create_retention_strategy.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-409_Create_retention_strategy.json` (1.04 KB, rev: 016447da..., modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-412_Document_retention_process.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-412_Document_retention_process.json` (1.06 KB, rev: 016447da..., modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-402_Fix_email_personalization_-_add_LinkedIn_context.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-402_Fix_email_personalization_-_add_LinkedIn_context.json` (1.14 KB, rev: 016447da..., modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-414_Document_client_termination_policy.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-414_Document_client_termination_policy.json` (1.07 KB, rev: 016447da..., modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-413_Communicate_final_decision_to_MASEK_client.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-413_Communicate_final_decision_to_MASEK_client.json` (1.07 KB, rev: 016447da..., modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-407_Talk_to_Dasha_about_retention.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-407_Talk_to_Dasha_about_retention.json` (1.05 KB, rev: 016447da..., modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-395_REVOKE_exposed_GitHub_token_immediately.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-395_REVOKE_exposed_GitHub_token_immediately.json` (1.05 KB, rev: 016447da..., modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-396_Generate_new_GitHub_token.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-396_Generate_new_GitHub_token.json` (1.02 KB, rev: 016447da..., modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-397_Audit_all_files_for_exposed_credentials.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-397_Audit_all_files_for_exposed_credentials.json` (1.05 KB, rev: 016447da..., modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-401_Schedule_WhatsApp_call_with_Wilhelm.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-401_Schedule_WhatsApp_call_with_Wilhelm.json` (1.04 KB, rev: 016447da..., modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-406_Find_substitute_person_for_Vamos_project.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-406_Find_substitute_person_for_Vamos_project.json` (1.05 KB, rev: 016447da..., modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-398_Implement_secret_scanning_in_repos.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-398_Implement_secret_scanning_in_repos.json` (1.05 KB, rev: 016447da..., modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-404_Implement_deep_research_before_email_sending.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-404_Implement_deep_research_before_email_sending.json` (1.07 KB, rev: 016447da..., modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-405_Add_clear_next-step_instructions_for_clients.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-405_Add_clear_next-step_instructions_for_clients.json` (1.08 KB, rev: 016447da..., modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-408_Identify_issues_causing_quit_desire.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-408_Identify_issues_causing_quit_desire.json` (1.05 KB, rev: 016447da..., modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-410_Retain_Vamos_employee_(2_years_tenure).json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-410_Retain_Vamos_employee_(2_years_tenure).json` (1.07 KB, rev: 016447da..., modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-399_Conduct_deep_research_on_Desert_Greener.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-399_Conduct_deep_research_on_Desert_Greener.json` (1.05 KB, rev: 016447da..., modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-403_Create_email_template_with_conversation_references.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-403_Create_email_template_with_conversation_references.json` (1.08 KB, rev: 016447da..., modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-400_Prepare_pre-meeting_research_template.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-400_Prepare_pre-meeting_research_template.json` (1.10 KB, rev: 016447da..., modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `TST-411_Resolve_accounting_payment_issues.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-411_Resolve_accounting_payment_issues.json` (1.29 KB, rev: 016447ef..., modified: 2025-11-26T12:57:51, by: Dropbox User)
+- `Template_Cross_Reference_Map.json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Template_Cross_Reference_Map.json` (18.95 KB, rev: 016447f0..., modified: 2025-11-26T13:02:44, by: Dropbox User)
+
+
+### LIBRARIES
+
+**Total changes:** 12 files
+
+**Added (11 files):**
+- `RUN_DRY_RUN.bat` → `LBS_003_Tools/RUN_DRY_RUN.bat` (1.39 KB, modified: 2025-11-26T09:02:54, by: Dropbox User)
+- `RUN_ACTUAL_MIGRATION.bat` → `LBS_003_Tools/RUN_ACTUAL_MIGRATION.bat` (1.01 KB, modified: 2025-11-26T09:03:37, by: Dropbox User)
+- `EXECUTE_ME.md` → `LBS_003_Tools/EXECUTE_ME.md` (5.50 KB, modified: 2025-11-26T09:23:42, by: Dropbox User)
+- `final_cleanup_and_tracking.py` → `LBS_003_Tools/final_cleanup_and_tracking.py` (19.35 KB, modified: 2025-11-26T12:16:54, by: Dropbox User)
+- `Tools_Mentions_Tracking.csv` → `LBS_003_Tools/Tools_Mentions_Tracking.csv` (39.62 KB, modified: 2025-11-26T12:18:17, by: Dropbox User)
+- `Tools_Usage_Analysis.md` → `LBS_003_Tools/Tools_Usage_Analysis.md` (4.67 KB, modified: 2025-11-26T12:18:17, by: Dropbox User)
+- `COMPLETE_RESTRUCTURING_SUMMARY.md` → `LBS_003_Tools/COMPLETE_RESTRUCTURING_SUMMARY.md` (8.26 KB, modified: 2025-11-26T12:27:32, by: Dropbox User)
+- `recategorize_other.py` → `LBS_003_Tools/recategorize_other.py` (4.71 KB, modified: 2025-11-26T12:57:29, by: Dropbox User)
+- `Tools_By_Category.csv` → `LBS_003_Tools/Tools_By_Category.csv` (25.47 KB, modified: 2025-11-26T12:57:38, by: Dropbox User)
+- `RECATEGORIZATION_SUMMARY.md` → `LBS_003_Tools/RECATEGORIZATION_SUMMARY.md` (6.80 KB, modified: 2025-11-26T13:20:11, by: Dropbox User)
+- `assign_departments.py` → `LBS_003_Tools/assign_departments.py` (13.28 KB, modified: 2025-11-26T14:22:30, by: Dropbox User)
+
+**Modified (1 files):**
+- `Tools_Master_Inventory.csv` → `LBS_003_Tools/Tools_Master_Inventory.csv` (60.32 KB, rev: 016447ef..., modified: 2025-11-26T12:57:38, by: Dropbox User)
+
+
+### PROMPTS
+
+**Total changes:** 162 files
+
+**Added (68 files):**
+- `REPORT_OUTPUT_SCHEMA_v2.1_REVISED.md` → `_ARCHIVE/REPORT_OUTPUT_SCHEMA_v2.1_REVISED.md` (29.81 KB, modified: 2025-11-26T00:19:19, by: Dropbox User)
+- `RESTRUCTURING_SUMMARY.md` → `_ARCHIVE/RESTRUCTURING_SUMMARY.md` (3.35 KB, modified: 2025-11-26T00:58:56, by: Dropbox User)
+- `Prompt_Locations_in_Nov25.md` → `_ARCHIVE/Prompt_Locations_in_Nov25.md` (15.59 KB, modified: 2025-11-19T23:18:26, by: Dropbox User)
+- `REPORT_OUTPUT_SCHEMA_v2.1.md` → `_ARCHIVE/REPORT_OUTPUT_SCHEMA_v2.1.md` (15.13 KB, modified: 2025-11-26T00:19:19, by: Dropbox User)
+- `MAIN_PROMPT_v4_vs_v6_Comparison.md` → `_ARCHIVE/MAIN_PROMPT_v4_vs_v6_Comparison.md` (12.10 KB, modified: 2025-11-26T00:19:18, by: Dropbox User)
+- `MIGRATION_LOG.md` → `_ARCHIVE/MIGRATION_LOG.md` (8.10 KB, modified: 2025-11-18T22:31:32, by: Dropbox User)
+- `MAIN_PROMPT_v5_Modular_vs_v6_UltraCondensed_Comparison.md` → `_ARCHIVE/MAIN_PROMPT_v5_Modular_vs_v6_UltraCondensed_Comparison.md` (36.49 KB, modified: 2025-11-26T00:19:18, by: Dropbox User)
+- `PROMPTS_Master_List_BACKUP.csv` → `_ARCHIVE/PROMPTS_Master_List_BACKUP.csv` (31.27 KB, modified: 2025-11-26T00:17:44, by: Dropbox User)
+- `RESTRUCTURING_COMPLETE.md` → `_ARCHIVE/RESTRUCTURING_COMPLETE.md` (10.30 KB, modified: 2025-11-26T01:00:36, by: Dropbox User)
+- `FINAL_STATUS.md` → `_ARCHIVE/FINAL_STATUS.md` (4.68 KB, modified: 2025-11-26T01:16:47, by: Dropbox User)
+- `02_project_directory_guidance.md` → `_ARCHIVE/02_project_directory_guidance.md` (10.20 KB, modified: 2025-11-17T17:55:43, by: Dropbox User)
+- `CLEANUP_VERIFICATION.md` → `_ARCHIVE/CLEANUP_VERIFICATION.md` (4.50 KB, modified: 2025-11-26T01:22:07, by: Dropbox User)
+- `04_task_object_framework.md` → `_ARCHIVE/04_task_object_framework.md` (17.42 KB, modified: 2025-11-17T17:55:43, by: Dropbox User)
+- `ENTITY_MAPPING_GUIDE_v2.1.md` → `_ARCHIVE/ENTITY_MAPPING_GUIDE_v2.1.md` (10.89 KB, modified: 2025-11-26T00:19:19, by: Dropbox User)
+- `03_vocabulary_standards.md` → `_ARCHIVE/03_vocabulary_standards.md` (11.89 KB, modified: 2025-11-17T17:55:43, by: Dropbox User)
+- `CORRECTIONS_REQUIRED.md` → `_ARCHIVE/CORRECTIONS_REQUIRED.md` (2.29 KB, modified: 2025-11-19T20:40:24, by: Dropbox User)
+- `05_21_section_framework.md` → `_ARCHIVE/05_21_section_framework.md` (16.87 KB, modified: 2025-11-07T13:27:57, by: Dropbox User)
+- `01_employee_directory_guidance.md` → `_ARCHIVE/01_employee_directory_guidance.md` (7.45 KB, modified: 2025-11-20T18:49:39, by: Dropbox User)
+- `06_department_specific_patterns.md` → `_ARCHIVE/06_department_specific_patterns.md` (17.38 KB, modified: 2025-11-20T18:49:42, by: Dropbox User)
+- `RESTRUCTURE_FINAL.md` → `_ARCHIVE/RESTRUCTURE_FINAL.md` (4.50 KB, modified: 2025-11-26T01:23:29, by: Dropbox User)
+- `PROMPTS_Master_List_BACKUP_FULL.csv` → `_ARCHIVE/PROMPTS_Master_List_BACKUP_FULL.csv` (30.98 KB, modified: 2025-11-26T00:58:56, by: Dropbox User)
+- `PROMPTS_Master_List_OLD.csv` → `_ARCHIVE/PROMPTS_Master_List_OLD.csv` (30.98 KB, modified: 2025-11-26T00:58:56, by: Dropbox User)
+- `MASTER_CSV_SIMPLIFIED.md` → `_ARCHIVE/MASTER_CSV_SIMPLIFIED.md` (4.31 KB, modified: 2025-11-26T01:28:11, by: Dropbox User)
+- `FINAL_CLEAN_STATUS.md` → `_ARCHIVE/FINAL_CLEAN_STATUS.md` (5.07 KB, modified: 2025-11-26T09:03:28, by: Dropbox User)
+- `cleanup_old_folders.py` → `_ARCHIVE/cleanup_old_folders.py` (2.28 KB, modified: 2025-11-26T01:15:24, by: Dropbox User)
+- `cleanup_remaining_folders.bat` → `_ARCHIVE/cleanup_remaining_folders.bat` (1.25 KB, modified: 2025-11-26T01:15:54, by: Dropbox User)
+- `fix_restructure.py` → `_ARCHIVE/fix_restructure.py` (3.14 KB, modified: 2025-11-26T01:22:30, by: Dropbox User)
+- `simplify_master_csv.py` → `_ARCHIVE/simplify_master_csv.py` (3.82 KB, modified: 2025-11-26T01:26:05, by: Dropbox User)
+- `archive_non_prompts.py` → `_ARCHIVE/archive_non_prompts.py` (3.15 KB, modified: 2025-11-26T09:06:19, by: Dropbox User)
+- `ARCHIVING_SUMMARY.md` → `_ARCHIVE/ARCHIVING_SUMMARY.md` (3.09 KB, modified: 2025-11-26T09:14:32, by: Dropbox User)
+- `PMT-031_Architecture_Merge_Planning.md` → `Last_Week/PMT-031_Architecture_Merge_Planning.md` (24.12 KB, modified: 2025-11-17T23:20:18, by: Dropbox User)
+- `PROMPTS_Hierarchy_Tree.md` → `Last_Week/PROMPTS_Hierarchy_Tree.md` (14.29 KB, modified: 2025-11-19T02:08:08, by: Dropbox User)
+- `PMT-063_Account_Creation_Validation.md` → `Last_Week/PMT-063_Account_Creation_Validation.md` (8.57 KB, modified: 2025-11-18T12:19:10, by: Dropbox User)
+- `PMT-065_Subscription_Renewal_Alert.md` → `Last_Week/PMT-065_Subscription_Renewal_Alert.md` (12.79 KB, modified: 2025-11-18T12:21:18, by: Dropbox User)
+- `PMT-061_Task_Manager_Entity_Filling.md` → `Last_Week/PMT-061_Task_Manager_Entity_Filling.md` (32.77 KB, modified: 2025-11-17T23:21:18, by: Dropbox User)
+- `PMT-064_Account_Security_Audit.md` → `Last_Week/PMT-064_Account_Security_Audit.md` (12.06 KB, modified: 2025-11-18T12:20:09, by: Dropbox User)
+- `PMT-057_Job_Sites_Research.md` → `Last_Week/PMT-057_Job_Sites_Research.md` (73.19 KB, modified: 2025-11-17T17:55:44, by: Dropbox User)
+- `PMT-026_Synthesis_Recommendations.md` → `Last_Week/PMT-026_Synthesis_Recommendations.md` (21.80 KB, modified: 2025-11-17T17:14:18, by: Dropbox User)
+- `PMT-025_Relationship_Validation.md` → `Last_Week/PMT-025_Relationship_Validation.md` (15.76 KB, modified: 2025-11-17T17:14:18, by: Dropbox User)
+- `PMT-019_Restructure_Employee_Profile.md` → `Last_Week/PMT-019_Restructure_Employee_Profile.md` (18.95 KB, modified: 2025-11-18T21:50:27, by: Dropbox User)
+- `PMT-070_Entity_Identification_v1.md` → `Last_Week/PMT-070_Entity_Identification_v1.md` (75.70 KB, modified: 2025-11-19T01:56:32, by: Dropbox User)
+- `PMT-018_Employee_Profile_Schema.md` → `Last_Week/PMT-018_Employee_Profile_Schema.md` (14.76 KB, modified: 2025-11-18T17:41:01, by: Dropbox User)
+- `PMT-060_Products_Integration.md` → `Last_Week/PMT-060_Products_Integration.md` (21.35 KB, modified: 2025-11-17T12:37:10, by: Dropbox User)
+- `PMT-021_Ecosystem_Analysis_Overview.md` → `Last_Week/PMT-021_Ecosystem_Analysis_Overview.md` (11.98 KB, modified: 2025-11-17T17:55:44, by: Dropbox User)
+- `PMT-058_Call_Organizer_v4.md` → `Last_Week/PMT-058_Call_Organizer_v4.md` (15.42 KB, modified: 2025-11-17T17:55:44, by: Dropbox User)
+- `PMT-062_Tools_Collection_Matching.md` → `Last_Week/PMT-062_Tools_Collection_Matching.md` (25.94 KB, modified: 2025-11-17T17:55:44, by: Dropbox User)
+- `PMT-056_Interview_Conductor.md` → `Last_Week/PMT-056_Interview_Conductor.md` (13.38 KB, modified: 2025-11-17T17:55:44, by: Dropbox User)
+- `PMT-066_Script_Copy_Dailies.md` → `Last_Week/PMT-066_Script_Copy_Dailies.md` (3.33 KB, modified: 2025-11-18T23:33:14, by: Dropbox User)
+- `PMT-024_Content_Analysis.md` → `Last_Week/PMT-024_Content_Analysis.md` (14.58 KB, modified: 2025-11-17T12:45:52, by: Dropbox User)
+- `PMT-068_Version_Control_Automation.md` → `Old/PMT-068_Version_Control_Automation.md` (7.83 KB, modified: 2025-11-06T08:17:28, by: Dropbox User)
+- `PMT-053_CV_Parser_v1.md` → `Last_Week/PMT-053_CV_Parser_v1.md` (3.07 KB, modified: 2025-11-14T13:48:22, by: Dropbox User)
+- `PMT-069_Version_Control_Main.md` → `Last_Week/PMT-069_Version_Control_Main.md` (17.91 KB, modified: 2025-11-16T17:20:17, by: Dropbox User)
+- `PMT-029_System_Health_Review.md` → `Last_Week/PMT-029_System_Health_Review.md` (17.00 KB, modified: 2025-11-16T17:20:17, by: Dropbox User)
+- `PMT-022_Data_Inventory.md` → `Last_Week/PMT-022_Data_Inventory.md` (22.71 KB, modified: 2025-11-17T23:20:59, by: Dropbox User)
+- `PMT-023_Schema_Validation.md` → `Last_Week/PMT-023_Schema_Validation.md` (8.26 KB, modified: 2025-11-17T12:45:51, by: Dropbox User)
+- `PMT-067_Rules_Automation.md` → `Old/PMT-067_Rules_Automation.md` (1.13 KB, modified: 2025-11-06T09:28:18, by: Dropbox User)
+- `PMT-027_Data_Consistency.md` → `Last_Week/PMT-027_Data_Consistency.md` (25.01 KB, modified: 2025-11-17T23:20:59, by: Dropbox User)
+- `PMT-030_Architecture_Learning_Guide.md` → `Last_Week/PMT-030_Architecture_Learning_Guide.md` (21.27 KB, modified: 2025-11-17T17:14:18, by: Dropbox User)
+- `PMT-059_Document_Finished_Project.md` → `Last_Week/PMT-059_Document_Finished_Project.md` (17.53 KB, modified: 2025-11-17T17:14:18, by: Dropbox User)
+- `PROMPTS_Folder_ID_Registry.md` → `Last_Week/PROMPTS_Folder_ID_Registry.md` (14.21 KB, modified: 2025-11-19T04:34:33, by: Dropbox User)
+- `PMT-014_Build_Taxonomy_ID_System.md` → `Last_Week/PMT-014_Build_Taxonomy_ID_System.md` (10.08 KB, modified: 2025-11-18T20:23:57, by: Dropbox User)
+- `PMT-054_CRM_Data_Entry.md` → `Last_Week/PMT-054_CRM_Data_Entry.md` (12.28 KB, modified: 2025-11-17T17:55:44, by: Dropbox User)
+- `PROMPTS_ISO_Code_Registry.md` → `Last_Week/PROMPTS_ISO_Code_Registry.md` (9.80 KB, modified: 2025-11-19T02:00:39, by: Dropbox User)
+- `PROMPTS_Master_List_BACKUP_AGE_ORG.csv` → `_ARCHIVE/PROMPTS_Master_List_BACKUP_AGE_ORG.csv` (18.53 KB, modified: 2025-11-26T01:26:12, by: Dropbox User)
+- `organize_by_age.py` → `_ARCHIVE/organize_by_age.py` (3.60 KB, modified: 2025-11-26T13:09:37, by: Dropbox User)
+- `update_csv_for_age_folders.py` → `_ARCHIVE/update_csv_for_age_folders.py` (2.83 KB, modified: 2025-11-26T13:13:10, by: Dropbox User)
+- `AGE_ORGANIZATION_SUMMARY.md` → `_ARCHIVE/AGE_ORGANIZATION_SUMMARY.md` (7.39 KB, modified: 2025-11-26T13:19:31, by: Dropbox User)
+- `MAIN_PROMPT_v7.1.md` → `Core/MAIN_PROMPT_v7.1.md` (38.44 KB, modified: 2025-11-26T14:50:38, by: Dropbox User)
+
+**Modified (6 files):**
+- `01_Core_Workflow.md` → `Core/MAIN_PROMPT_v7/01_Core_Workflow.md` (6.02 KB, rev: 016447f0..., modified: 2025-11-26T13:03:54, by: Dropbox User)
+- `PROMPTS_Master_List.csv` (18.81 KB, rev: 016447f2..., modified: 2025-11-26T13:13:17, by: Dropbox User)
+- `02_Entity_Reference.md` → `Core/MAIN_PROMPT_v7/02_Entity_Reference.md` (11.99 KB, rev: 016447f3..., modified: 2025-11-26T13:18:12, by: Dropbox User)
+- `03_Department_Operations.md` → `Core/MAIN_PROMPT_v7/03_Department_Operations.md` (9.42 KB, rev: 016447f4..., modified: 2025-11-26T13:19:51, by: Dropbox User)
+- `04_Running_Projects.md` → `Core/MAIN_PROMPT_v7/04_Running_Projects.md` (5.40 KB, rev: 016447f4..., modified: 2025-11-26T13:23:25, by: Dropbox User)
+- `05_Quick_Reference.md` → `Core/MAIN_PROMPT_v7/05_Quick_Reference.md` (3.46 KB, rev: 016447f4..., modified: 2025-11-26T13:24:00, by: Dropbox User)
+
+**Deleted (88 files):**
+- `PMT-023_Schema_Validation.md`
+- `PMT-014_Build_Taxonomy_ID_System.md`
+- `PMT-007_Objects_Library_Extraction_1.md`
+- `PMT-006_Video_Analysis_1.md`
+- `PMT-019_Restructure_Employee_Profile.md`
+- `MAIN_PROMPT_v5_Modular_vs_v6_UltraCondensed_Comparison.md`
+- `Prompt_Locations_in_Nov25.md`
+- `PMT-065_Subscription_Renewal_Alert.md`
+- `FINAL_STATUS.md`
+- `PROMPTS_Master_List_OLD.csv`
+- `PMT-067_Rules_Automation.md`
+- `PMT-012_Transcript_Processing_Workflow_1.md`
+- `PMT-029_System_Health_Review.md`
+- `06_department_specific_patterns.md`
+- `PMT-005_Video_Naming_Alternatives_1.md`
+- `README.md`
+- `PMT-008_Video_Analysis_Improvements_1.md`
+- `04_task_object_framework.md`
+- `MAIN_PROMPT_v4_vs_v6_Comparison.md`
+- `PROMPTS_Master_List_BACKUP.csv`
+- `Prompts_ISO_Code_Registry_1.md`
+- `PMT-070_Entity_Identification_v1.md`
+- `TAXONOMY_AUDIT_REPORT_2025-11-23_1.md`
+- `PMT-004_Video_Transcription_v4.1_1.md`
+- `PMT-053_CV_Parser_v1.md`
+- `PMT-068_Version_Control_Automation.md`
+- `PMT-025_Relationship_Validation.md`
+- `BUSINESSES_IMPORT_PROMPT_1.md`
+- `PMT-024_Content_Analysis.md`
+- `PROMPTS_ISO_Code_Registry.md`
+- `Entity_Integration_Prompts_1.md`
+- `PMT-058_Call_Organizer_v4.md`
+- `ENTITY_MAPPING_GUIDE_v2.1.md`
+- `PMT-010_Complete_Workflow_Full_1.md`
+- `DEPARTMENT_IMPORT_TEMPLATE.md`
+- `03_vocabulary_standards.md`
+- `PMT-031_Architecture_Merge_Planning.md`
+- `PMT-022_Data_Inventory.md`
+- `PMT-021_Ecosystem_Analysis_Overview.md`
+- `PMT-027_Data_Consistency.md`
+- `PMT-081_Integrate_Personal_Prompts_1.md`
+- `PMT-070_Entity_Identification_v2_0.md`
+- `PMT-066_Script_Copy_Dailies.md`
+- `01_employee_directory_guidance.md`
+- `MIGRATION_LOG.md`
+- `PMT-062_Tools_Collection_Matching.md`
+- `PMT-061_Task_Manager_Entity_Filling.md`
+- `RESTRUCTURING_COMPLETE.md`
+- `CLEANUP_VERIFICATION.md`
+- `PMT-009_Taxonomy_Integration_1.md`
+- `PMT-071_Actions_Library_Extraction_1.md`
+- `PMT-054_CRM_Data_Entry.md`
+- `PMT-026_Synthesis_Recommendations.md`
+- `RESTRUCTURING_SUMMARY.md`
+- `CORRECTIONS_REQUIRED.md`
+- `PROMPTS_Master_List_BACKUP_FULL.csv`
+- `PMT-030_Architecture_Learning_Guide.md`
+- `PROMPTS_Folder_ID_Registry.md`
+- `PMT-056_Interview_Conductor.md`
+- `REPORT_OUTPUT_SCHEMA_v2.1_REVISED.md`
+- `PMT-090_YouTube_Video_Processing_1.md`
+- `cleanup_remaining_folders.bat`
+- `02_project_directory_guidance.md`
+- `PMT-011_Complete_Workflow_Short_1.md`
+- `PMT-070_Entity_Identification_v1_3.md`
+- `PMT-069_Version_Control_Main.md`
+- `RESEARCHES_Entity_Integration_Prompt_1.md`
+- `update_master_list.py`
+- `MASTER_CSV_SIMPLIFIED.md`
+- `simplify_master_csv.py`
+- `PMT-059_Document_Finished_Project.md`
+- `PMT-063_Account_Creation_Validation.md`
+- `compile_prompt_system.py`
+- `RESTRUCTURE_FINAL.md`
+- `PROMPTS_Migration_Map.json`
+- `PMT-057_Job_Sites_Research.md`
+- `PMT-064_Account_Security_Audit.md`
+- `YouTube_Video_Tutorial_Search_Prompts_Consolidated_1.md`
+- `cleanup_old_folders.py`
+- `05_21_section_framework.md`
+- `PROMPTS_Hierarchy_Tree.md`
+- `AutoGenerate_Weekly_Plans_Prompt_1.md`
+- `PMT-060_Products_Integration.md`
+- `fix_restructure.py`
+- `restructure_prompts.py`
+- `PMT-018_Employee_Profile_Schema.md`
+- `REPORT_OUTPUT_SCHEMA_v2.1.md`
+- `show_summary.py`
+
+
+### RESEARCHES
+
+**Total changes:** 1 files
+
+**Modified (1 files):**
+- `Video_022_Gap_Analysis.md` → `VIDEO_RESEARCHES/03_ANALYSIS/Gap_Analysis/Video_022_Gap_Analysis.md` (15.51 KB, rev: 016447bb..., modified: 2025-11-26T09:05:36, by: Dropbox User)
+
+
+### TALENTS
+
+**Total changes:** 20 files
+
+**Added (16 files):**
+- `corepack.js` → `Employees/Artemchuk Nikolay/Employees attendance/.node/lib/node_modules/corepack/dist/corepack.js` (81 bytes, modified: 2023-08-09T00:23:24, by: Dropbox User)
+- `npm.js` → `Employees/Artemchuk Nikolay/Employees attendance/.node/lib/node_modules/corepack/dist/npm.js` (93 bytes, modified: 2023-08-09T00:23:24, by: Dropbox User)
+- `npx.js` → `Employees/Artemchuk Nikolay/Employees attendance/.node/lib/node_modules/corepack/dist/npx.js` (93 bytes, modified: 2023-08-09T00:23:24, by: Dropbox User)
+- `pnpm.js` → `Employees/Artemchuk Nikolay/Employees attendance/.node/lib/node_modules/corepack/dist/pnpm.js` (94 bytes, modified: 2023-08-09T00:23:24, by: Dropbox User)
+- `pnpx.js` → `Employees/Artemchuk Nikolay/Employees attendance/.node/lib/node_modules/corepack/dist/pnpx.js` (94 bytes, modified: 2023-08-09T00:23:24, by: Dropbox User)
+- `yarn.js` → `Employees/Artemchuk Nikolay/Employees attendance/.node/lib/node_modules/corepack/dist/yarn.js` (94 bytes, modified: 2023-08-09T00:23:24, by: Dropbox User)
+- `yarnpkg.js` → `Employees/Artemchuk Nikolay/Employees attendance/.node/lib/node_modules/corepack/dist/yarnpkg.js` (97 bytes, modified: 2023-08-09T00:23:24, by: Dropbox User)
+- `corepack.cjs` → `Employees/Artemchuk Nikolay/Employees attendance/.node/lib/node_modules/corepack/dist/lib/corepack.cjs` (2263.85 KB, modified: 2023-11-22T08:06:28, by: Dropbox User)
+- `Azanova Darʼya.md` → `Employees/profiles/Resumes/Azanova Darʼya.md` (37 bytes, modified: 2025-11-24T14:04:53, by: Dropbox User)
+- `Profile Video Editor Azanova Darʼya.md` → `Employees/profiles/Available/Video/Profile Video Editor Azanova Darʼya.md` (1.42 KB, modified: 2025-11-25T14:53:35, by: Dropbox User)
+- `attendance_report_2025-11-25.json` → `Employees/Voice Log Discord/attendance_report_2025-11-25.json` (7.23 KB, modified: 2025-11-26T05:02:31, by: Dropbox User)
+- `final_audit_2025-11-25.json` → `Employees/Merged final report/final_audit_2025-11-25.json` (123.50 KB, modified: 2025-11-26T05:02:40, by: Dropbox User)
+- `crm_export_2025-11-25.json` → `Employees/crm_export_Attendance/crm_export_2025-11-25.json` (115.93 KB, modified: 2025-11-26T05:02:46, by: Dropbox User)
+- `employee_audit_analyzer.py` → `Employees/Merged final report/employee_audit_analyzer.py` (45.04 KB, modified: 2025-11-26T10:00:31, by: Dropbox User)
+- `employee_hours_analysis_report.md` → `Employees/Merged final report/employee_hours_analysis_report.md` (18.71 KB, modified: 2025-11-26T10:00:39, by: Dropbox User)
+- `under_performers_summary.md` → `Employees/Merged final report/under_performers_summary.md` (7.18 KB, modified: 2025-11-26T10:01:06, by: Dropbox User)
+
+**Modified (4 files):**
+- `COPY_SUMMARY.md` → `Employees/profiles/COPY_SUMMARY.md` (1.29 KB, rev: 016447bb..., modified: 2025-11-26T09:05:36, by: Dropbox User)
+- `ORGANIZATION_SUMMARY.md` → `Employees/profiles/ORGANIZATION_SUMMARY.md` (2.02 KB, rev: 016447bb..., modified: 2025-11-26T09:05:36, by: Dropbox User)
+- `STATUS_ORGANIZATION_COMPLETE.md` → `Employees/profiles/STATUS_ORGANIZATION_COMPLETE.md` (1.95 KB, rev: 016447bb..., modified: 2025-11-26T09:05:36, by: Dropbox User)
+- `FINAL_ORGANIZATION.md` → `Employees/profiles/FINAL_ORGANIZATION.md` (2.88 KB, rev: 016447bb..., modified: 2025-11-26T09:05:36, by: Dropbox User)
+
+
+### TASK_MANAGERS
+
+**Total changes:** 237 files
+
+**Added (236 files):**
+- `calculate_priority.cpython-313.pyc` → `RESEARCHES/01_VIDEO_QUEUE/scripts/__pycache__/calculate_priority.cpython-313.pyc` (6.88 KB, modified: 2025-11-23T23:34:07, by: Dropbox User)
+- `config.cpython-313.pyc` → `RESEARCHES/scripts/__pycache__/config.cpython-313.pyc` (3.80 KB, modified: 2025-11-24T00:49:06, by: Dropbox User)
+- `markdown_parser.cpython-313.pyc` → `RESEARCHES/scripts/__pycache__/markdown_parser.cpython-313.pyc` (24.72 KB, modified: 2025-11-24T01:16:32, by: Dropbox User)
+- `video_gap_analyzer.cpython-313.pyc` → `RESEARCHES/scripts/__pycache__/video_gap_analyzer.cpython-313.pyc` (30.36 KB, modified: 2025-11-24T01:16:32, by: Dropbox User)
+- `video_id_scanner.cpython-313.pyc` → `RESEARCHES/scripts/__pycache__/video_id_scanner.cpython-313.pyc` (17.41 KB, modified: 2025-11-24T01:16:32, by: Dropbox User)
+- `video_integration_reporter.cpython-313.pyc` → `RESEARCHES/scripts/__pycache__/video_integration_reporter.cpython-313.pyc` (20.35 KB, modified: 2025-11-24T01:16:32, by: Dropbox User)
+- `video_json_updater.cpython-313.pyc` → `RESEARCHES/scripts/__pycache__/video_json_updater.cpython-313.pyc` (24.04 KB, modified: 2025-11-24T01:16:32, by: Dropbox User)
+- `utils.cpython-313.pyc` → `RESEARCHES/scripts/__pycache__/utils.cpython-313.pyc` (15.44 KB, modified: 2025-11-24T01:17:05, by: Dropbox User)
+- `process.log` → `RESEARCHES/scripts/process.log` (51.20 KB, modified: 2025-11-24T01:17:05, by: Dropbox User)
+- `Video_024 (Спірна копія користувача HR RemotEmployees 2025-11-25).md` → `RESEARCHES/02_TRANSCRIPTIONS/Video_024 (Спірна копія користувача HR RemotEmployees 2025-11-25).md` (44.35 KB, modified: 2025-11-24T18:05:26, by: Dropbox User)
+- `md_listing.json` → `RESEARCHES/05_NEXT_DEVELOPMENT/md_listing.json` (47.88 KB, modified: 2025-11-26T15:36:04, by: Dropbox User)
+- `CHANGELOG.md` → `RESEARCHES/05_NEXT_DEVELOPMENT/CHANGELOG.md` (1.90 KB, modified: 2025-11-26T15:51:12, by: Dropbox User)
+- `md_listing.csv` → `RESEARCHES/05_NEXT_DEVELOPMENT/md_listing.csv` (19.63 KB, modified: 2025-11-26T15:36:04, by: Dropbox User)
+- `DATA_LISTINGS.md` → `RESEARCHES/05_NEXT_DEVELOPMENT/ARCHITECTURE_PLAN/DATA_LISTINGS.md` (15.12 KB, modified: 2025-11-26T09:38:05, by: Dropbox User)
+- `data_listing_markdown.json` → `RESEARCHES/05_NEXT_DEVELOPMENT/ARCHITECTURE_PLAN/data_listing_markdown.json` (51.34 KB, modified: 2025-11-26T15:36:04, by: Dropbox User)
+- `data_listing_structured.json` → `RESEARCHES/05_NEXT_DEVELOPMENT/ARCHITECTURE_PLAN/data_listing_structured.json` (120.72 KB, modified: 2025-11-26T15:36:04, by: Dropbox User)
+- `inventory_run.md` → `RESEARCHES/05_NEXT_DEVELOPMENT/ARCHITECTURE_PLAN/reports/inventory_run.md` (674 bytes, modified: 2025-11-26T15:36:04, by: Dropbox User)
+- `csv_normalization_report.md` → `RESEARCHES/05_NEXT_DEVELOPMENT/reports/csv_normalization_report.md` (6.40 KB, modified: 2025-11-26T15:36:03, by: Dropbox User)
+- `id_and_status_rules.md` → `RESEARCHES/05_NEXT_DEVELOPMENT/reports/id_and_status_rules.md` (3.62 KB, modified: 2025-11-26T14:56:33, by: Dropbox User)
+- `json_normalization_report.md` → `RESEARCHES/05_NEXT_DEVELOPMENT/reports/json_normalization_report.md` (3.88 KB, modified: 2025-11-26T15:36:03, by: Dropbox User)
+- `md_inventory_report.md` → `RESEARCHES/05_NEXT_DEVELOPMENT/reports/md_inventory_report.md` (798 bytes, modified: 2025-11-26T15:36:04, by: Dropbox User)
+- `aggregate_data_listings.py` → `RESEARCHES/05_NEXT_DEVELOPMENT/scripts/aggregate_data_listings.py` (4.37 KB, modified: 2025-11-26T13:53:37, by: Dropbox User)
+- `md_inventory.py` → `RESEARCHES/05_NEXT_DEVELOPMENT/scripts/md_inventory.py` (4.56 KB, modified: 2025-11-26T11:57:09, by: Dropbox User)
+- `normalize_csv_phase0.py` → `RESEARCHES/05_NEXT_DEVELOPMENT/scripts/normalize_csv_phase0.py` (7.58 KB, modified: 2025-11-26T11:35:27, by: Dropbox User)
+- `normalize_json_phase0.py` → `RESEARCHES/05_NEXT_DEVELOPMENT/scripts/normalize_json_phase0.py` (4.66 KB, modified: 2025-11-26T11:35:52, by: Dropbox User)
+- `run_inventory.py` → `RESEARCHES/05_NEXT_DEVELOPMENT/scripts/run_inventory.py` (5.75 KB, modified: 2025-11-26T13:53:52, by: Dropbox User)
+- `DATA_md_content_templates.md` → `RESEARCHES/05_NEXT_DEVELOPMENT/standarts/DATA_md_content_templates.md` (6.70 KB, modified: 2025-11-26T14:50:53, by: Dropbox User)
+- `DATA_md_structure_standard.md` → `RESEARCHES/05_NEXT_DEVELOPMENT/standarts/DATA_md_structure_standard.md` (9.02 KB, modified: 2025-11-26T14:46:10, by: Dropbox User)
+- `DASHBOARD_PROMPT.md` → `RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/DASHBOARD_PROMPT.md` (3.60 KB, modified: 2025-11-26T14:56:50, by: Dropbox User)
+- `README.md` → `RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/README.md` (6.74 KB, modified: 2025-11-26T14:56:50, by: Dropbox User)
+- `SCRIPTS_INVENTORY.md` → `RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/SCRIPTS_INVENTORY.md` (10.77 KB, modified: 2025-11-26T14:56:50, by: Dropbox User)
+- `SYSTEM_OVERVIEW.md` → `RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/SYSTEM_OVERVIEW.md` (20.74 KB, modified: 2025-11-26T14:56:50, by: Dropbox User)
+- `TSM_TAXONOMY_INTEGRATION_SUMMARY.md` → `RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/TSM_TAXONOMY_INTEGRATION_SUMMARY.md` (8.90 KB, modified: 2025-11-26T14:56:50, by: Dropbox User)
+- `id_and_status_rules.md` → `RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/id_and_status_rules.md` (4.04 KB, modified: 2025-11-26T14:56:50, by: Dropbox User)
+- `README.md` → `RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/00_SEARCH_QUEUE/README.md` (1.43 KB, modified: 2025-11-26T14:56:50, by: Dropbox User)
+- `Queue_Integration_Guide.md` → `RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/01_VIDEO_QUEUE/Queue_Integration_Guide.md` (10.53 KB, modified: 2025-11-26T14:56:50, by: Dropbox User)
+- `Queue_System_README.md` → `RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/01_VIDEO_QUEUE/Queue_System_README.md` (4.76 KB, modified: 2025-11-26T14:56:50, by: Dropbox User)
+- `README.md` → `RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/01_VIDEO_QUEUE/README.md` (9.65 KB, modified: 2025-11-26T14:56:50, by: Dropbox User)
+- `Transcription_Queue.md` → `RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/01_VIDEO_QUEUE/Transcription_Queue.md` (3.28 KB, modified: 2025-11-26T14:56:50, by: Dropbox User)
+- `Video_Queue_Tracker.md` → `RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/01_VIDEO_QUEUE/Video_Queue_Tracker.md` (6.72 KB, modified: 2025-11-26T14:56:50, by: Dropbox User)
+- `Video_001.md` → `RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/02_TRANSCRIPTIONS/Video_001.md` (20.92 KB, modified: 2025-11-26T14:56:50, by: Dropbox User)
+- `Video_003.md` → `RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/02_TRANSCRIPTIONS/Video_003.md` (24.17 KB, modified: 2025-11-26T14:56:50, by: Dropbox User)
+- `Video_010.md` → `RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/02_TRANSCRIPTIONS/Video_010.md` (28.62 KB, modified: 2025-11-26T14:56:50, by: Dropbox User)
+- `Video_012.md` → `RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/02_TRANSCRIPTIONS/Video_012.md` (27.00 KB, modified: 2025-11-26T14:56:50, by: Dropbox User)
+- `Video_016_Processing_Summary.md` → `RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/02_TRANSCRIPTIONS/Video_016_Processing_Summary.md` (16.11 KB, modified: 2025-11-26T14:56:50, by: Dropbox User)
+- `Video_017.md` → `RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/02_TRANSCRIPTIONS/Video_017.md` (26.93 KB, modified: 2025-11-26T14:56:50, by: Dropbox User)
+- `Video_021.md` → `RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/02_TRANSCRIPTIONS/Video_021.md` (28.22 KB, modified: 2025-11-26T14:56:50, by: Dropbox User)
+- `Video_022.md` → `RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/02_TRANSCRIPTIONS/Video_022.md` (16.54 KB, modified: 2025-11-26T14:56:50, by: Dropbox User)
+- `Video_023.md` → `RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/02_TRANSCRIPTIONS/Video_023.md` (19.00 KB, modified: 2025-11-26T14:56:50, by: Dropbox User)
+- `Video_025.md` → `RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/02_TRANSCRIPTIONS/Video_025.md` (7.90 KB, modified: 2025-11-26T14:56:50, by: Dropbox User)
+- `Video_026.md` → `RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/02_TRANSCRIPTIONS/Video_026.md` (14.58 KB, modified: 2025-11-26T14:56:50, by: Dropbox User)
+- `Video_19.md` → `RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/02_TRANSCRIPTIONS/Video_19.md` (17.84 KB, modified: 2025-11-26T14:56:50, by: Dropbox User)
+- `Video_19_Processing_Summary.md` → `RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/02_TRANSCRIPTIONS/Video_19_Processing_Summary.md` (14.44 KB, modified: 2025-11-26T14:56:50, by: Dropbox User)
+- `Video_20.md` → `RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/02_TRANSCRIPTIONS/Video_20.md` (23.87 KB, modified: 2025-11-26T14:56:50, by: Dropbox User)
+- `Video_Discovery_Pipeline.md` → `RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/02_TRANSCRIPTIONS/Video_Discovery_Pipeline.md` (17.14 KB, modified: 2025-11-26T14:56:50, by: Dropbox User)
+- `Video_Queue_Tracker.md` → `RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/02_TRANSCRIPTIONS/Video_Queue_Tracker.md` (6.21 KB, modified: 2025-11-26T14:56:50, by: Dropbox User)
+- `Video_024_Execution_Plan.md` → `RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/03_ANALYSIS/Video_024_Execution_Plan.md` (28.74 KB, modified: 2025-11-26T14:56:50, by: Dropbox User)
+- `gap_analysis_Video_022_20251124_021632.md` → `RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/03_ANALYSIS/gap_analysis_Video_022_20251124_021632.md` (1.57 KB, modified: 2025-11-26T14:56:50, by: Dropbox User)
+- `gap_analysis_Video_022_20251124_021705.md` → `RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/03_ANALYSIS/gap_analysis_Video_022_20251124_021705.md` (1.57 KB, modified: 2025-11-26T14:56:50, by: Dropbox User)
+- `RESEARCHES_Master_List_normalized.csv` → `RESEARCHES/05_NEXT_DEVELOPMENT/_normalized/RESEARCHES_Master_List_normalized.csv` (4.96 KB, modified: 2025-11-26T15:36:03, by: Dropbox User)
+- `README.md` → `RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/02_TRANSCRIPTIONS/README.md` (24.90 KB, modified: 2025-11-26T14:56:50, by: Dropbox User)
+- `README.md` → `RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/ARCHIVE/04_INFLUENCER_DATA/README.md` (11.16 KB, modified: 2025-11-26T14:56:50, by: Dropbox User)
+- `Phase_System_Overview.md` → `RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/ARCHIVE/00_PHASES/Phase_System_Overview.md` (6.37 KB, modified: 2025-11-26T14:56:50, by: Dropbox User)
+- `Video_017_Library_Mapping_Report.md` → `RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/03_ANALYSIS/Library_Mapping/Video_017_Library_Mapping_Report.md` (20.70 KB, modified: 2025-11-26T14:56:50, by: Dropbox User)
+- `Video_024_Gap_Analysis.md` → `RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/03_ANALYSIS/Gap_Analysis/Video_024_Gap_Analysis.md` (5.09 KB, modified: 2025-11-26T14:56:50, by: Dropbox User)
+- `Video_024_Taxonomy_Integration.md` → `RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/03_ANALYSIS/Integration/Video_024_Taxonomy_Integration.md` (5.68 KB, modified: 2025-11-26T14:56:50, by: Dropbox User)
+- `Tool_Validation_Report_Video_006_008.md` → `RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/03_ANALYSIS/Validation/Tool_Validation_Report_Video_006_008.md` (11.26 KB, modified: 2025-11-26T14:56:50, by: Dropbox User)
+- `Video_002_Extraction_Inventory.md` → `RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/03_ANALYSIS/Extractions/Video_002_Extraction_Inventory.md` (15.51 KB, modified: 2025-11-26T14:56:50, by: Dropbox User)
+- `Video_022_Phase4_Objects.md` → `RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/03_ANALYSIS/Extractions/Video_022_Phase4_Objects.md` (16.54 KB, modified: 2025-11-26T14:56:50, by: Dropbox User)
+- `Video_024_Phase3_Analysis.md` → `RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/03_ANALYSIS/Extractions/Video_024_Phase3_Analysis.md` (9.04 KB, modified: 2025-11-26T14:56:50, by: Dropbox User)
+- `Video_024_Phase4_Objects.md` → `RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/03_ANALYSIS/Extractions/Video_024_Phase4_Objects.md` (7.74 KB, modified: 2025-11-26T14:56:50, by: Dropbox User)
+- `VIDEO_RESEARCHES_Source_Mapping.md` → `RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/ARCHIVE/MAPPINGS/VIDEO_RESEARCHES_Source_Mapping.md` (4.49 KB, modified: 2025-11-26T14:56:50, by: Dropbox User)
+- `Key_Biddings_VS_code.md` → `RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/ARCHIVE/Pre_Taxonomy_Cleanup/Key_Biddings_VS_code.md` (2.35 KB, modified: 2025-11-26T14:56:50, by: Dropbox User)
+- `MIGRATION_COMPLETE.md` → `RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/ARCHIVE/Pre_Taxonomy_Cleanup/MIGRATION_COMPLETE.md` (8.15 KB, modified: 2025-11-26T14:56:50, by: Dropbox User)
+- `MIGRATION_LOG.md` → `RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/ARCHIVE/Pre_Taxonomy_Cleanup/MIGRATION_LOG.md` (6.60 KB, modified: 2025-11-26T14:56:50, by: Dropbox User)
+- `README_Library.md` → `RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/ARCHIVE/Pre_Taxonomy_Cleanup/README_Library.md` (11.31 KB, modified: 2025-11-26T14:56:50, by: Dropbox User)
+- `TASK.md` → `RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/ARCHIVE/Pre_Taxonomy_Cleanup/TASK.md` (3.28 KB, modified: 2025-11-26T14:56:50, by: Dropbox User)
+- `oa-y_Libraries_TaskManagers_Gap_Analysis.md` → `RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/ARCHIVE/Pre_Taxonomy_Cleanup/oa-y_Libraries_TaskManagers_Gap_Analysis.md` (11.08 KB, modified: 2025-11-26T14:56:50, by: Dropbox User)
+- `Search_Queue_Master_normalized.csv` → `RESEARCHES/05_NEXT_DEVELOPMENT/_normalized/00_SEARCH_QUEUE/Search_Queue_Master_normalized.csv` (132 bytes, modified: 2025-11-26T15:36:03, by: Dropbox User)
+- `RSH-VID-001_AI_Video_Tools_Research.md` → `RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/DATA/RSH-VID-001_AI_Video_Tools_Research.md` (7.40 KB, modified: 2025-11-26T14:56:51, by: Dropbox User)
+- `Video_Search_Prompt_n8n_OpenAI_Google.md` → `RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/DATA/Video_Search_Prompt_n8n_OpenAI_Google.md` (7.60 KB, modified: 2025-11-26T14:56:51, by: Dropbox User)
+- `CONSOLIDATION_COMPLETE.md` → `RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/REPORTS/CONSOLIDATION_COMPLETE.md` (6.92 KB, modified: 2025-11-26T14:56:51, by: Dropbox User)
+- `Phase_Redundancy_Analysis_2025-11-24.md` → `RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/REPORTS/Phase_Redundancy_Analysis_2025-11-24.md` (12.25 KB, modified: 2025-11-26T14:56:51, by: Dropbox User)
+- `Phase_Restructure_Plan_2025-11-24.md` → `RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/REPORTS/Phase_Restructure_Plan_2025-11-24.md` (14.01 KB, modified: 2025-11-26T14:56:51, by: Dropbox User)
+- `Phase_Restructure_Summary_2025-11-24.md` → `RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/REPORTS/Phase_Restructure_Summary_2025-11-24.md` (8.55 KB, modified: 2025-11-26T14:56:51, by: Dropbox User)
+- `TAXONOMY_CONSISTENCY_REPORT.md` → `RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/REPORTS/TAXONOMY_CONSISTENCY_REPORT.md` (15.69 KB, modified: 2025-11-26T14:56:51, by: Dropbox User)
+- `TSM_TAXONOMY_INTEGRATION_SUMMARY.md` → `RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/REPORTS/TSM_TAXONOMY_INTEGRATION_SUMMARY.md` (8.90 KB, modified: 2025-11-26T14:56:51, by: Dropbox User)
+- `VIDEO_RESEARCHES_Example_Report.md` → `RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/REPORTS/VIDEO_RESEARCHES_Example_Report.md` (1.65 KB, modified: 2025-11-26T14:56:51, by: Dropbox User)
+- `Video_022_Processing_Flow_Verification.md` → `RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/REPORTS/Video_022_Processing_Flow_Verification.md` (13.99 KB, modified: 2025-11-26T14:56:51, by: Dropbox User)
+- `Video_Processing_README.md` → `RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/REPORTS/Video_Processing_README.md` (2.82 KB, modified: 2025-11-26T14:56:51, by: Dropbox User)
+- `Video_Processing_README_MIGRATION.md` → `RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/REPORTS/Video_Processing_README_MIGRATION.md` (2.14 KB, modified: 2025-11-26T14:56:51, by: Dropbox User)
+- `Video_Search_Prompts_Complete_Index.md` → `RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/REPORTS/Video_Search_Prompts_Complete_Index.md` (11.02 KB, modified: 2025-11-26T14:56:51, by: Dropbox User)
+- `integration_report_Video_022_20251124_021632.md` → `RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/REPORTS/integration_report_Video_022_20251124_021632.md` (1.90 KB, modified: 2025-11-26T14:56:51, by: Dropbox User)
+- `PMT-046_VSCode_Agent_HQ_Research.md` → `RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/PROMPTS/PMT-046_VSCode_Agent_HQ_Research.md` (9.63 KB, modified: 2025-11-26T14:56:51, by: Dropbox User)
+- `PMT-048_YouTube_AI_Tools_Daily.md` → `RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/PROMPTS/PMT-048_YouTube_AI_Tools_Daily.md` (18.91 KB, modified: 2025-11-26T14:56:51, by: Dropbox User)
+- `PMT-051_Department_Research_Integration.md` → `RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/PROMPTS/PMT-051_Department_Research_Integration.md` (14.13 KB, modified: 2025-11-26T14:56:51, by: Dropbox User)
+- `PMT-052_VSCode_AI_Extensions.md` → `RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/PROMPTS/PMT-052_VSCode_AI_Extensions.md` (4.94 KB, modified: 2025-11-26T14:56:51, by: Dropbox User)
+- `PMT-052_YouTube_Management_Documentation.md` → `RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/PROMPTS/PMT-052_YouTube_Management_Documentation.md` (20.62 KB, modified: 2025-11-26T14:56:51, by: Dropbox User)
+- `PMT-083_GenSpark_Course_Creation.md` → `RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/PROMPTS/PMT-083_GenSpark_Course_Creation.md` (3.78 KB, modified: 2025-11-26T14:56:51, by: Dropbox User)
+- `PMT-085_Photo_Editing_AI_Research.md` → `RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/PROMPTS/PMT-085_Photo_Editing_AI_Research.md` (3.59 KB, modified: 2025-11-26T14:56:51, by: Dropbox User)
+- `PMT-089_YouTube_AI_Tutorials_Research.md` → `RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/PROMPTS/PMT-089_YouTube_AI_Tutorials_Research.md` (3.49 KB, modified: 2025-11-26T14:56:51, by: Dropbox User)
+- `PMT-093_Design_AI_Video_Discovery.md` → `RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/PROMPTS/PMT-093_Design_AI_Video_Discovery.md` (12.18 KB, modified: 2025-11-26T14:56:51, by: Dropbox User)
+- `README_MIGRATION.md` → `RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/PROMPTS/README_MIGRATION.md` (1.86 KB, modified: 2025-11-26T14:56:51, by: Dropbox User)
+- `Universal Research Prompt.md` → `RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/PROMPTS/Universal Research Prompt.md` (7.06 KB, modified: 2025-11-26T14:56:51, by: Dropbox User)
+- `VIDEO_RESEARCHES_Prompt_Examples.md` → `RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/PROMPTS/VIDEO_RESEARCHES_Prompt_Examples.md` (1.89 KB, modified: 2025-11-26T14:56:51, by: Dropbox User)
+- `Video_001_Library_Mapping_Report.md` → `RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/03_ANALYSIS/Library_Mapping/Video_001_Library_Mapping_Report.md` (18.49 KB, modified: 2025-11-26T14:56:50, by: Dropbox User)
+- `Video_002_Library_Mapping_Report.md` → `RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/03_ANALYSIS/Library_Mapping/Video_002_Library_Mapping_Report.md` (11.70 KB, modified: 2025-11-26T14:56:50, by: Dropbox User)
+- `Video_024_Library_Mapping_Report.md` → `RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/03_ANALYSIS/Library_Mapping/Video_024_Library_Mapping_Report.md` (3.93 KB, modified: 2025-11-26T14:56:50, by: Dropbox User)
+- `Video_022_Gap_Analysis.md` → `RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/03_ANALYSIS/Gap_Analysis/Video_022_Gap_Analysis.md` (15.95 KB, modified: 2025-11-26T14:56:50, by: Dropbox User)
+- `Video_022_Phase3_Analysis.md` → `RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/03_ANALYSIS/Extractions/Video_022_Phase3_Analysis.md` (12.55 KB, modified: 2025-11-26T14:56:50, by: Dropbox User)
+- `Video_022_Phase6_Integration_Summary.md` → `RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/03_ANALYSIS/Phase_Reports/Video_022_Phase6_Integration_Summary.md` (13.75 KB, modified: 2025-11-26T14:56:50, by: Dropbox User)
+- `FILES.md` → `RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/ARCHIVE/Pre_Taxonomy_Cleanup/FILES.md` (3.52 KB, modified: 2025-11-26T14:56:50, by: Dropbox User)
+- `n8n_similar_platforms_research_prompt.md` → `RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/ARCHIVE/Pre_Taxonomy_Cleanup/n8n_similar_platforms_research_prompt.md` (7.17 KB, modified: 2025-11-26T14:56:50, by: Dropbox User)
+- `oa-y_Research_Data_Flow_Notes.md` → `RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/ARCHIVE/Pre_Taxonomy_Cleanup/oa-y_Research_Data_Flow_Notes.md` (9.15 KB, modified: 2025-11-26T14:56:50, by: Dropbox User)
+- `Video_Queue_Master_normalized.csv` → `RESEARCHES/05_NEXT_DEVELOPMENT/_normalized/01_VIDEO_QUEUE/Video_Queue_Master_normalized.csv` (1.79 KB, modified: 2025-11-26T15:36:03, by: Dropbox User)
+- `ACTIVE_EMPLOYEES_LIST.md` → `RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/ARCHIVE/Pre_Taxonomy_Cleanup/LOGS/ACTIVE_EMPLOYEES_LIST.md` (11.78 KB, modified: 2025-11-26T14:56:50, by: Dropbox User)
+- `ASSIGNMENT_GUIDELINES.md` → `RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/ARCHIVE/Pre_Taxonomy_Cleanup/LOGS/ASSIGNMENT_GUIDELINES.md` (15.11 KB, modified: 2025-11-26T14:56:50, by: Dropbox User)
+- `DEPARTMENT_GAP_ANALYSIS.md` → `RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/ARCHIVE/Pre_Taxonomy_Cleanup/LOGS/DEPARTMENT_GAP_ANALYSIS.md` (14.67 KB, modified: 2025-11-26T14:56:50, by: Dropbox User)
+- `EMPLOYEE_RESEARCH_HISTORY.md` → `RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/ARCHIVE/Pre_Taxonomy_Cleanup/LOGS/EMPLOYEE_RESEARCH_HISTORY.md` (9.03 KB, modified: 2025-11-26T14:56:50, by: Dropbox User)
+- `HOW_TO_ASSIGN_RESEARCH.md` → `RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/ARCHIVE/Pre_Taxonomy_Cleanup/LOGS/HOW_TO_ASSIGN_RESEARCH.md` (16.63 KB, modified: 2025-11-26T14:56:50, by: Dropbox User)
+- `QUALITY_REVIEW_PROCESS.md` → `RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/ARCHIVE/Pre_Taxonomy_Cleanup/LOGS/QUALITY_REVIEW_PROCESS.md` (13.90 KB, modified: 2025-11-26T14:56:50, by: Dropbox User)
+- `RESEARCH_ASSIGNMENT_LOG.md` → `RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/ARCHIVE/Pre_Taxonomy_Cleanup/LOGS/RESEARCH_ASSIGNMENT_LOG.md` (3.84 KB, modified: 2025-11-26T14:56:50, by: Dropbox User)
+- `RESEARCH_COMPLETION_TRACKER.md` → `RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/ARCHIVE/Pre_Taxonomy_Cleanup/LOGS/RESEARCH_COMPLETION_TRACKER.md` (11.74 KB, modified: 2025-11-26T14:56:50, by: Dropbox User)
+- `RESEARCH_WORKFLOW.md` → `RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/ARCHIVE/Pre_Taxonomy_Cleanup/LOGS/RESEARCH_WORKFLOW.md` (2.54 KB, modified: 2025-11-26T14:56:50, by: Dropbox User)
+- `README.md` → `RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/ARCHIVE/Pre_Taxonomy_Cleanup/24/README.md` (1.60 KB, modified: 2025-11-26T14:56:50, by: Dropbox User)
+- `Department_Consolidation_Report_2025-11-17.md` → `RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/ARCHIVE/Pre_Taxonomy_Cleanup/Research_Reports/Department_Consolidation_Report_2025-11-17.md` (12.40 KB, modified: 2025-11-26T14:56:50, by: Dropbox User)
+- `HR videos research.md` → `RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/ARCHIVE/Pre_Taxonomy_Cleanup/Research_Reports/HR videos research.md` (18.24 KB, modified: 2025-11-26T14:56:50, by: Dropbox User)
+- `README.md` → `RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/ARCHIVE/Pre_Taxonomy_Cleanup/Research_Reports/README.md` (2.85 KB, modified: 2025-11-26T14:56:50, by: Dropbox User)
+- `Tool_Validation_Report_Video_006_008.md` → `RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/ARCHIVE/Pre_Taxonomy_Cleanup/Research_Reports/Tool_Validation_Report_Video_006_008.md` (11.27 KB, modified: 2025-11-26T14:56:50, by: Dropbox User)
+- `Video_006_Library_Mapping_Report.md` → `RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/ARCHIVE/Pre_Taxonomy_Cleanup/Research_Reports/Video_006_Library_Mapping_Report.md` (15.59 KB, modified: 2025-11-26T14:56:50, by: Dropbox User)
+- `Video_008_Library_Mapping_Report.md` → `RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/ARCHIVE/Pre_Taxonomy_Cleanup/Research_Reports/Video_008_Library_Mapping_Report.md` (19.75 KB, modified: 2025-11-26T14:56:50, by: Dropbox User)
+- `Video_20.md` → `RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/ARCHIVE/Pre_Taxonomy_Cleanup/Research_Reports/Video_20.md` (7.88 KB, modified: 2025-11-26T14:56:50, by: Dropbox User)
+- `Developer_Tools_and_MCP_Research_Prompt_v2.md` → `RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/ARCHIVE/Pre_Taxonomy_Cleanup/Schema_Aligned/Developer_Tools_and_MCP_Research_Prompt_v2.md` (5.83 KB, modified: 2025-11-26T14:56:50, by: Dropbox User)
+- `File_System_and_Productivity_Research_Prompt_v2.md` → `RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/ARCHIVE/Pre_Taxonomy_Cleanup/Schema_Aligned/File_System_and_Productivity_Research_Prompt_v2.md` (5.25 KB, modified: 2025-11-26T14:56:50, by: Dropbox User)
+- `SMM_Research_Document_Processing_Instructions_v2.md` → `RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/ARCHIVE/Pre_Taxonomy_Cleanup/Schema_Aligned/SMM_Research_Document_Processing_Instructions_v2.md` (5.56 KB, modified: 2025-11-26T14:56:50, by: Dropbox User)
+- `Sales_Department_Research_Prompt_v2.md` → `RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/ARCHIVE/Pre_Taxonomy_Cleanup/Schema_Aligned/Sales_Department_Research_Prompt_v2.md` (5.29 KB, modified: 2025-11-26T14:56:50, by: Dropbox User)
+- `VSCode_Agent_HQ_Research_Prompt_v2.md` → `RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/ARCHIVE/Pre_Taxonomy_Cleanup/Schema_Aligned/VSCode_Agent_HQ_Research_Prompt_v2.md` (6.33 KB, modified: 2025-11-26T14:56:51, by: Dropbox User)
+- `YouTube_AI_Tools_Daily_Research_Prompt_v2.md` → `RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/ARCHIVE/Pre_Taxonomy_Cleanup/Schema_Aligned/YouTube_AI_Tools_Daily_Research_Prompt_v2.md` (8.69 KB, modified: 2025-11-26T14:56:51, by: Dropbox User)
+- `oa-y_AI_Tools_Alignment_Research_Prompt_v2.md` → `RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/ARCHIVE/Pre_Taxonomy_Cleanup/Schema_Aligned/oa-y_AI_Tools_Alignment_Research_Prompt_v2.md` (5.94 KB, modified: 2025-11-26T14:56:50, by: Dropbox User)
+- `VIDEO-020_Task_Manager_App_ExecutionFlow.md` → `RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/ARCHIVE/Pre_Taxonomy_Cleanup/TSM-008_Video_Queue/VIDEO-020_Task_Manager_App_ExecutionFlow.md` (5.99 KB, modified: 2025-11-26T14:56:51, by: Dropbox User)
+- `Master_Video_Status_Overview_2025-11-24.md` → `RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/REPORTS/Master_Video_Status_Overview_2025-11-24.md` (18.73 KB, modified: 2025-11-26T14:56:51, by: Dropbox User)
+- `PROCESSING_STATUS_REPORT.md` → `RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/REPORTS/PROCESSING_STATUS_REPORT.md` (7.97 KB, modified: 2025-11-26T14:56:51, by: Dropbox User)
+- `Transcription_Queue.md` → `RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/REPORTS/Transcription_Queue.md` (3.28 KB, modified: 2025-11-26T14:56:51, by: Dropbox User)
+- `Video_023_Integration_Report.md` → `RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/REPORTS/Video_023_Integration_Report.md` (13.95 KB, modified: 2025-11-26T14:56:51, by: Dropbox User)
+- `integration_report_Video_022_20251124_021705.md` → `RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/REPORTS/integration_report_Video_022_20251124_021705.md` (1.90 KB, modified: 2025-11-26T14:56:51, by: Dropbox User)
+- `PMT-052_Design_AI_Tutorials_Perplexity_Prompt.md` → `RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/PROMPTS/PMT-052_Design_AI_Tutorials_Perplexity_Prompt.md` (18.47 KB, modified: 2025-11-26T14:56:51, by: Dropbox User)
+- `PMT-082_Advanced_Prompting_Course_Creation.md` → `RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/PROMPTS/PMT-082_Advanced_Prompting_Course_Creation.md` (3.47 KB, modified: 2025-11-26T14:56:51, by: Dropbox User)
+- `PMT-097_YouTube_AI_Models_Deep_Research.md` → `RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/PROMPTS/PMT-097_YouTube_AI_Models_Deep_Research.md` (10.28 KB, modified: 2025-11-26T14:56:51, by: Dropbox User)
+- `PMT-098_OpenAI_Automation_Examples_Company_Adoption.md` → `RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/PROMPTS/PMT-098_OpenAI_Automation_Examples_Company_Adoption.md` (14.33 KB, modified: 2025-11-26T14:56:51, by: Dropbox User)
+- `README.md` → `RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/PROMPTS/README.md` (5.41 KB, modified: 2025-11-26T14:56:51, by: Dropbox User)
+- `RESEARCHES_Taxonomy_DRAFT.md` → `RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/TAXONOMY/RESEARCHES_Taxonomy_DRAFT.md` (2.04 KB, modified: 2025-11-26T14:56:51, by: Dropbox User)
+- `TAXONOMY.md` → `RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/TAXONOMY/TAXONOMY.md` (7.91 KB, modified: 2025-11-26T14:56:51, by: Dropbox User)
+- `PHASE0_TO_TABLES_CHECKLIST.md` → `RESEARCHES/05_NEXT_DEVELOPMENT/test/PHASE0_TO_TABLES_CHECKLIST.md` (3.71 KB, modified: 2025-11-26T15:48:35, by: Dropbox User)
+- `data_listing_markdown.json` → `RESEARCHES/05_NEXT_DEVELOPMENT/test/data_listing_markdown.json` (51.34 KB, modified: 2025-11-26T15:36:04, by: Dropbox User)
+- `load_to_db.py` → `RESEARCHES/05_NEXT_DEVELOPMENT/test/load_to_db.py` (4.00 KB, modified: 2025-11-26T15:48:03, by: Dropbox User)
+- `schema.sql` → `RESEARCHES/05_NEXT_DEVELOPMENT/test/schema.sql` (2.41 KB, modified: 2025-11-26T15:42:55, by: Dropbox User)
+- `README.md` → `RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/scripts/README.md` (17.62 KB, modified: 2025-11-26T14:56:51, by: Dropbox User)
+- `CSV_NORMALIZATION.md` → `RESEARCHES/05_NEXT_DEVELOPMENT/tasks/CSV_NORMALIZATION.md` (1.22 KB, modified: 2025-11-26T11:49:51, by: Dropbox User)
+- `DATA_LISTINGS.md` → `RESEARCHES/05_NEXT_DEVELOPMENT/tasks/DATA_LISTINGS.md` (1.21 KB, modified: 2025-11-26T13:48:27, by: Dropbox User)
+- `JSON_NORMALIZATION.md` → `RESEARCHES/05_NEXT_DEVELOPMENT/tasks/JSON_NORMALIZATION.md` (743 bytes, modified: 2025-11-26T11:47:15, by: Dropbox User)
+- `MD_INVENTORY.md` → `RESEARCHES/05_NEXT_DEVELOPMENT/tasks/MD_INVENTORY.md` (1.06 KB, modified: 2025-11-26T13:12:41, by: Dropbox User)
+- `Video_014.md` → `RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/02_TRANSCRIPTIONS/Video_014.md` (30.97 KB, modified: 2025-11-26T14:56:50, by: Dropbox User)
+- `Video_024.md` → `RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/02_TRANSCRIPTIONS/Video_024.md` (26.91 KB, modified: 2025-11-26T14:56:50, by: Dropbox User)
+- `Video_005_Library_Mapping_Report.md` → `RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/03_ANALYSIS/Library_Mapping/Video_005_Library_Mapping_Report.md` (21.13 KB, modified: 2025-11-26T14:56:50, by: Dropbox User)
+- `Video_018_Library_Mapping_Report.md` → `RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/03_ANALYSIS/Library_Mapping/Video_018_Library_Mapping_Report.md` (24.21 KB, modified: 2025-11-26T14:56:50, by: Dropbox User)
+- `Phase_9_Completion_Report.md` → `RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/03_ANALYSIS/Phase_Reports/Phase_9_Completion_Report.md` (21.55 KB, modified: 2025-11-26T14:56:50, by: Dropbox User)
+- `LIBRARIES_UPDATE_PROCESS.md` → `RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/ARCHIVE/Pre_Taxonomy_Cleanup/LOGS/LIBRARIES_UPDATE_PROCESS.md` (15.66 KB, modified: 2025-11-26T14:56:50, by: Dropbox User)
+- `WEEKLY_RESEARCH_PLAN.md` → `RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/ARCHIVE/Pre_Taxonomy_Cleanup/LOGS/WEEKLY_RESEARCH_PLAN.md` (8.67 KB, modified: 2025-11-26T14:56:50, by: Dropbox User)
+- `AI_Research_Log.md` → `RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/ARCHIVE/Pre_Taxonomy_Cleanup/LOGS/By_Department/AI_Research_Log.md` (6.56 KB, modified: 2025-11-26T14:56:50, by: Dropbox User)
+- `Design_Research_Log.md` → `RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/ARCHIVE/Pre_Taxonomy_Cleanup/LOGS/By_Department/Design_Research_Log.md` (2.62 KB, modified: 2025-11-26T14:56:50, by: Dropbox User)
+- `Development_Research_Log.md` → `RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/ARCHIVE/Pre_Taxonomy_Cleanup/LOGS/By_Department/Development_Research_Log.md` (2.82 KB, modified: 2025-11-26T14:56:50, by: Dropbox User)
+- `HR_Research_Log.md` → `RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/ARCHIVE/Pre_Taxonomy_Cleanup/LOGS/By_Department/HR_Research_Log.md` (3.21 KB, modified: 2025-11-26T14:56:50, by: Dropbox User)
+- `LG_Research_Log.md` → `RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/ARCHIVE/Pre_Taxonomy_Cleanup/LOGS/By_Department/LG_Research_Log.md` (3.83 KB, modified: 2025-11-26T14:56:50, by: Dropbox User)
+- `SMM_Research_Log.md` → `RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/ARCHIVE/Pre_Taxonomy_Cleanup/LOGS/By_Department/SMM_Research_Log.md` (3.99 KB, modified: 2025-11-26T14:56:50, by: Dropbox User)
+- `Sales_Research_Log.md` → `RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/ARCHIVE/Pre_Taxonomy_Cleanup/LOGS/By_Department/Sales_Research_Log.md` (2.98 KB, modified: 2025-11-26T14:56:50, by: Dropbox User)
+- `Video_Research_Log.md` → `RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/ARCHIVE/Pre_Taxonomy_Cleanup/LOGS/By_Department/Video_Research_Log.md` (5.41 KB, modified: 2025-11-26T14:56:50, by: Dropbox User)
+- `tool_mapping_conflicts.json` → `RESEARCHES/05_NEXT_DEVELOPMENT/_normalized/DATA/ARCHIVE/Pre_Taxonomy_Cleanup/Research_Reports/Extractions/tool_mapping_conflicts.json` (7.57 KB, modified: 2025-11-26T15:36:03, by: Dropbox User)
+- `Naming_Convention_Migration_Report_2025-11-17.md` → `RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/ARCHIVE/Pre_Taxonomy_Cleanup/Research_Reports/Naming_Convention_Migration_Report_2025-11-17.md` (20.24 KB, modified: 2025-11-26T14:56:50, by: Dropbox User)
+- `Phase_7_Completion_Report.md` → `RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/ARCHIVE/Pre_Taxonomy_Cleanup/Research_Reports/Phase_7_Completion_Report.md` (22.63 KB, modified: 2025-11-26T14:56:50, by: Dropbox User)
+- `EXTRACTION_SUMMARY.md` → `RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/ARCHIVE/Pre_Taxonomy_Cleanup/Research_Reports/Extractions/EXTRACTION_SUMMARY.md` (6.95 KB, modified: 2025-11-26T14:56:50, by: Dropbox User)
+- `Extracted_Project_Templates.md` → `RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/ARCHIVE/Pre_Taxonomy_Cleanup/Research_Reports/Extractions/Extracted_Project_Templates.md` (24.04 KB, modified: 2025-11-26T14:56:50, by: Dropbox User)
+- `Phase1_Projects_Extraction.md` → `RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/ARCHIVE/Pre_Taxonomy_Cleanup/Research_Reports/Extractions/Phase1_Projects_Extraction.md` (24.70 KB, modified: 2025-11-26T14:56:50, by: Dropbox User)
+- `Phase3_Integration_Summary.md` → `RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/ARCHIVE/Pre_Taxonomy_Cleanup/Research_Reports/Extractions/Phase3_Integration_Summary.md` (8.65 KB, modified: 2025-11-26T14:56:50, by: Dropbox User)
+- `Phase4_Consolidation_Extraction.md` → `RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/ARCHIVE/Pre_Taxonomy_Cleanup/Research_Reports/Extractions/Phase4_Consolidation_Extraction.md` (26.71 KB, modified: 2025-11-26T14:56:50, by: Dropbox User)
+- `NAMING_SIMPLIFICATION_SUMMARY.md` → `RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/ARCHIVE/Pre_Taxonomy_Cleanup/Research_Reports/Summaries/NAMING_SIMPLIFICATION_SUMMARY.md` (7.79 KB, modified: 2025-11-26T14:56:50, by: Dropbox User)
+- `RESTRUCTURE_SUMMARY.md` → `RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/ARCHIVE/Pre_Taxonomy_Cleanup/Research_Reports/Summaries/RESTRUCTURE_SUMMARY.md` (7.72 KB, modified: 2025-11-26T14:56:50, by: Dropbox User)
+- `RESTRUCTURING_COMPLETE_SUMMARY.md` → `RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/ARCHIVE/Pre_Taxonomy_Cleanup/Research_Reports/Summaries/RESTRUCTURING_COMPLETE_SUMMARY.md` (10.68 KB, modified: 2025-11-26T14:56:50, by: Dropbox User)
+- `YouTube_HR_Automation_Research_Prompt_v2.md` → `RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/ARCHIVE/Pre_Taxonomy_Cleanup/Schema_Aligned/YouTube_HR_Automation_Research_Prompt_v2.md` (7.01 KB, modified: 2025-11-26T14:56:51, by: Dropbox User)
+- `Video_Assignment_Log.md` → `RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/ARCHIVE/Pre_Taxonomy_Cleanup/VIDEO_RESEARCHES_LOGS/Video_Assignment_Log.md` (7.95 KB, modified: 2025-11-26T14:56:51, by: Dropbox User)
+- `PMT-045_SMM_Document_Processing.md` → `RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/PROMPTS/PMT-045_SMM_Document_Processing.md` (21.66 KB, modified: 2025-11-26T14:56:51, by: Dropbox User)
+- `PMT-047_YouTube_AI_HR_Tutorials.md` → `RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/PROMPTS/PMT-047_YouTube_AI_HR_Tutorials.md` (27.69 KB, modified: 2025-11-26T14:56:51, by: Dropbox User)
+- `PMT-050_YouTube_Remote_Helpers.md` → `RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/PROMPTS/PMT-050_YouTube_Remote_Helpers.md` (21.49 KB, modified: 2025-11-26T14:56:51, by: Dropbox User)
+- `docker-compose.yml` → `RESEARCHES/05_NEXT_DEVELOPMENT/test/docker-compose.yml` (557 bytes, modified: 2025-11-26T15:56:25, by: Dropbox User)
+- `VIDEOS_INDEX.md` → `RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/02_TRANSCRIPTIONS/VIDEOS_INDEX.md` (51.15 KB, modified: 2025-11-26T14:56:50, by: Dropbox User)
+- `Video_004.md` → `RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/02_TRANSCRIPTIONS/Video_004.md` (52.71 KB, modified: 2025-11-26T14:56:50, by: Dropbox User)
+- `Video_005.md` → `RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/02_TRANSCRIPTIONS/Video_005.md` (54.85 KB, modified: 2025-11-26T14:56:50, by: Dropbox User)
+- `Video_011.md` → `RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/02_TRANSCRIPTIONS/Video_011.md` (39.92 KB, modified: 2025-11-26T14:56:50, by: Dropbox User)
+- `Video_025_Execution_Plan.md` → `RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/03_ANALYSIS/Video_025_Execution_Plan.md` (34.04 KB, modified: 2025-11-26T14:56:50, by: Dropbox User)
+- `Video_009_Library_Mapping_Report.md` → `RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/03_ANALYSIS/Library_Mapping/Video_009_Library_Mapping_Report.md` (21.48 KB, modified: 2025-11-26T14:56:50, by: Dropbox User)
+- `Video_002_Gap_Analysis.md` → `RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/03_ANALYSIS/Gap_Analysis/Video_002_Gap_Analysis.md` (35.86 KB, modified: 2025-11-26T14:56:50, by: Dropbox User)
+- `Phase_7_Completion_Report.md` → `RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/03_ANALYSIS/Phase_Reports/Phase_7_Completion_Report.md` (22.62 KB, modified: 2025-11-26T14:56:50, by: Dropbox User)
+- `discovered_tools_structured.json` → `RESEARCHES/05_NEXT_DEVELOPMENT/_normalized/DATA/ARCHIVE/Pre_Taxonomy_Cleanup/Research_Reports/Extractions/discovered_tools_structured.json` (39.23 KB, modified: 2025-11-26T15:36:03, by: Dropbox User)
+- `tool_mapping_normalized.json` → `RESEARCHES/05_NEXT_DEVELOPMENT/_normalized/DATA/ARCHIVE/Pre_Taxonomy_Cleanup/Research_Reports/Extractions/tool_mapping_normalized.json` (58.35 KB, modified: 2025-11-26T15:36:03, by: Dropbox User)
+- `Phase_9_Completion_Report.md` → `RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/ARCHIVE/Pre_Taxonomy_Cleanup/Research_Reports/Phase_9_Completion_Report.md` (21.56 KB, modified: 2025-11-26T14:56:50, by: Dropbox User)
+- `Video_013_Library_Mapping_Report.md` → `RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/ARCHIVE/Pre_Taxonomy_Cleanup/Research_Reports/Video_013_Library_Mapping_Report.md` (38.70 KB, modified: 2025-11-26T14:56:50, by: Dropbox User)
+- `Video_19_Gap_Analysis.md` → `RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/ARCHIVE/Pre_Taxonomy_Cleanup/Research_Reports/Video_19_Gap_Analysis.md` (29.90 KB, modified: 2025-11-26T14:56:50, by: Dropbox User)
+- `DATA_EXTRACTION_LOG_2025-11-10.md` → `RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/ARCHIVE/Pre_Taxonomy_Cleanup/Research_Reports/Extractions/DATA_EXTRACTION_LOG_2025-11-10.md` (41.08 KB, modified: 2025-11-26T14:56:50, by: Dropbox User)
+- `Video_021_Work_Log_2025-11-22.md` → `RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/ARCHIVE/Work_Logs/Video_021_Work_Log_2025-11-22.md` (50.53 KB, modified: 2025-11-26T14:56:51, by: Dropbox User)
+- `QUALIFICATION_STAGES.md` → `RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/REPORTS/QUALIFICATION_STAGES.md` (32.50 KB, modified: 2025-11-26T14:56:51, by: Dropbox User)
+- `PMT-049_YouTube_HR_Automation.md` → `RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/PROMPTS/PMT-049_YouTube_HR_Automation.md` (51.34 KB, modified: 2025-11-26T14:56:51, by: Dropbox User)
+- `PMT-051_YouTube_AI_Design_Tools_Workflows.md` → `RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/PROMPTS/PMT-051_YouTube_AI_Design_Tools_Workflows.md` (41.13 KB, modified: 2025-11-26T14:56:51, by: Dropbox User)
+- `PMT-051_YouTube_AI_Design_Tools_Workflows_CONFLICT_2025-11-21.md` → `RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/PROMPTS/PMT-051_YouTube_AI_Design_Tools_Workflows_CONFLICT_2025-11-21.md` (41.60 KB, modified: 2025-11-26T14:56:51, by: Dropbox User)
+- `PMT-052_YouTube_Management_Discovery.md` → `RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/PROMPTS/PMT-052_YouTube_Management_Discovery.md` (21.71 KB, modified: 2025-11-26T14:56:51, by: Dropbox User)
+- `PMT-052_YouTube_Management_Leadership_Workflows.md` → `RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/PROMPTS/PMT-052_YouTube_Management_Leadership_Workflows.md` (45.63 KB, modified: 2025-11-26T14:56:51, by: Dropbox User)
+- `data_listing_structured.json` → `RESEARCHES/05_NEXT_DEVELOPMENT/test/data_listing_structured.json` (120.72 KB, modified: 2025-11-26T15:36:04, by: Dropbox User)
+- `Video_009_Gap_Analysis.md` → `RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/03_ANALYSIS/Gap_Analysis/Video_009_Gap_Analysis.md` (22.72 KB, modified: 2025-11-26T14:56:50, by: Dropbox User)
+- `Video_008.md` → `RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/02_TRANSCRIPTIONS/Video_008.md` (29.92 KB, modified: 2025-11-26T14:56:50, by: Dropbox User)
+- `Video_19_Taxonomy_Extraction.md` → `RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/02_TRANSCRIPTIONS/Video_19_Taxonomy_Extraction.md` (30.85 KB, modified: 2025-11-26T14:56:50, by: Dropbox User)
+- `Video_013_Gap_Analysis.md` → `RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/ARCHIVE/Pre_Taxonomy_Cleanup/Research_Reports/Video_013_Gap_Analysis.md` (29.31 KB, modified: 2025-11-26T14:56:50, by: Dropbox User)
+- `VIDEO_METADATA_TRACKER.md` → `RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/REPORTS/VIDEO_METADATA_TRACKER.md` (23.96 KB, modified: 2025-11-26T14:56:51, by: Dropbox User)
+- `Video_002.md` → `RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/02_TRANSCRIPTIONS/Video_002.md` (37.52 KB, modified: 2025-11-26T14:56:50, by: Dropbox User)
+- `Video_009.md` → `RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/02_TRANSCRIPTIONS/Video_009.md` (48.30 KB, modified: 2025-11-26T14:56:50, by: Dropbox User)
+- `Video_013.md` → `RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/02_TRANSCRIPTIONS/Video_013.md` (53.83 KB, modified: 2025-11-26T14:56:50, by: Dropbox User)
+- `Video_016.md` → `RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/02_TRANSCRIPTIONS/Video_016.md` (65.91 KB, modified: 2025-11-26T14:56:50, by: Dropbox User)
+- `Video_024 (Спірна копія користувача HR RemotEmployees 2025-11-25).md` → `RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/02_TRANSCRIPTIONS/Video_024 (Спірна копія користувача HR RemotEmployees 2025-11-25).md` (44.98 KB, modified: 2025-11-26T14:56:50, by: Dropbox User)
+- `Video_19_ExecutionFlow.md` → `RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/02_TRANSCRIPTIONS/Video_19_ExecutionFlow.md` (59.28 KB, modified: 2025-11-26T14:56:50, by: Dropbox User)
+- `Video_026_Execution_Plan.md` → `RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/03_ANALYSIS/Video_026_Execution_Plan.md` (44.46 KB, modified: 2025-11-26T14:56:50, by: Dropbox User)
+- `Extracted_Task_Templates.md` → `RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/ARCHIVE/Pre_Taxonomy_Cleanup/Research_Reports/Extractions/Extracted_Task_Templates.md` (65.01 KB, modified: 2025-11-26T14:56:50, by: Dropbox User)
+- `Phase1_Tasks_Skills_Extraction.md` → `RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/ARCHIVE/Pre_Taxonomy_Cleanup/Research_Reports/Extractions/Phase1_Tasks_Skills_Extraction.md` (59.34 KB, modified: 2025-11-26T14:56:50, by: Dropbox User)
+- `Phase2_Infrastructure_Extraction.md` → `RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/ARCHIVE/Pre_Taxonomy_Cleanup/Research_Reports/Extractions/Phase2_Infrastructure_Extraction.md` (60.17 KB, modified: 2025-11-26T14:56:50, by: Dropbox User)
+- `Phase3_Client_Deliverables_Extraction.md` → `RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/ARCHIVE/Pre_Taxonomy_Cleanup/Research_Reports/Extractions/Phase3_Client_Deliverables_Extraction.md` (75.94 KB, modified: 2025-11-26T14:56:50, by: Dropbox User)
+- `PMT-044_Sales_Department_Research.md` → `RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/PROMPTS/PMT-044_Sales_Department_Research.md` (37.50 KB, modified: 2025-11-26T14:56:51, by: Dropbox User)
+- `Video_006.md` → `RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/02_TRANSCRIPTIONS/Video_006.md` (84.03 KB, modified: 2025-11-26T14:56:50, by: Dropbox User)
+- `Video_007.md` → `RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/02_TRANSCRIPTIONS/Video_007.md` (176.79 KB, modified: 2025-11-26T14:56:50, by: Dropbox User)
+- `Video_018.md` → `RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/02_TRANSCRIPTIONS/Video_018.md` (82.48 KB, modified: 2025-11-26T14:56:50, by: Dropbox User)
+- `VIDEO-001_ToDo_List_Tutorial_ExecutionFlow.md` → `RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/ARCHIVE/Pre_Taxonomy_Cleanup/TSM-008_Video_Queue/VIDEO-001_ToDo_List_Tutorial_ExecutionFlow.md` (85.85 KB, modified: 2025-11-26T14:56:51, by: Dropbox User)
+
+**Modified (1 files):**
+- `README.MD` → `RESEARCHES/05_NEXT_DEVELOPMENT/ARCHITECTURE_PLAN/README.MD` (14.51 KB, rev: 01644818..., modified: 2025-11-26T15:36:04, by: Dropbox User)
+
+
+## All Changes
+
+### Added Files
+
+- `DAILIES/Week3/20/Azanova Darʼya_Week_3/TODO.md`
+- `DAILIES/IMPORTS/Week_3/2025-11-22_Sales_Import/archive_2025-11-22/Prospects/BUSINESSES_Prospect_Electrão_BUS-2025-018.json`
+- `DAILIES/IMPORTS/Week_3/2025-11-22_Sales_Import/archive_2025-11-22/Prospects/BUSINESSES_Prospect_Markewärn_Studios_BUS-2025-021.json`
+- `TASK_MANAGERS/RESEARCHES/01_VIDEO_QUEUE/scripts/__pycache__/calculate_priority.cpython-313.pyc`
+- `TASK_MANAGERS/RESEARCHES/scripts/__pycache__/config.cpython-313.pyc`
+- `TASK_MANAGERS/RESEARCHES/scripts/__pycache__/markdown_parser.cpython-313.pyc`
+- `TASK_MANAGERS/RESEARCHES/scripts/__pycache__/video_gap_analyzer.cpython-313.pyc`
+- `TASK_MANAGERS/RESEARCHES/scripts/__pycache__/video_id_scanner.cpython-313.pyc`
+- `TASK_MANAGERS/RESEARCHES/scripts/__pycache__/video_integration_reporter.cpython-313.pyc`
+- `TASK_MANAGERS/RESEARCHES/scripts/__pycache__/video_json_updater.cpython-313.pyc`
+- `TASK_MANAGERS/RESEARCHES/scripts/__pycache__/utils.cpython-313.pyc`
+- `TASK_MANAGERS/RESEARCHES/scripts/process.log`
+- `TALENTS/Employees/Artemchuk Nikolay/Employees attendance/.node/lib/node_modules/corepack/dist/corepack.js`
+- `TALENTS/Employees/Artemchuk Nikolay/Employees attendance/.node/lib/node_modules/corepack/dist/npm.js`
+- `TALENTS/Employees/Artemchuk Nikolay/Employees attendance/.node/lib/node_modules/corepack/dist/npx.js`
+- `TALENTS/Employees/Artemchuk Nikolay/Employees attendance/.node/lib/node_modules/corepack/dist/pnpm.js`
+- `TALENTS/Employees/Artemchuk Nikolay/Employees attendance/.node/lib/node_modules/corepack/dist/pnpx.js`
+- `TALENTS/Employees/Artemchuk Nikolay/Employees attendance/.node/lib/node_modules/corepack/dist/yarn.js`
+- `TALENTS/Employees/Artemchuk Nikolay/Employees attendance/.node/lib/node_modules/corepack/dist/yarnpkg.js`
+- `TALENTS/Employees/Artemchuk Nikolay/Employees attendance/.node/lib/node_modules/corepack/dist/lib/corepack.cjs`
+- `TALENTS/Employees/profiles/Resumes/Azanova Darʼya.md`
+- `TASK_MANAGERS/RESEARCHES/02_TRANSCRIPTIONS/Video_024 (Спірна копія користувача HR RemotEmployees 2025-11-25).md`
+- `TALENTS/Employees/profiles/Available/Video/Profile Video Editor Azanova Darʼya.md`
+- `TALENTS/Employees/Voice Log Discord/attendance_report_2025-11-25.json`
+- `TALENTS/Employees/Merged final report/final_audit_2025-11-25.json`
+- `TALENTS/Employees/crm_export_Attendance/crm_export_2025-11-25.json`
+- `LIBRARIES/LBS_003_Tools/RUN_DRY_RUN.bat`
+- `LIBRARIES/LBS_003_Tools/RUN_ACTUAL_MIGRATION.bat`
+- `PROMPTS/_ARCHIVE/REPORT_OUTPUT_SCHEMA_v2.1_REVISED.md`
+- `PROMPTS/_ARCHIVE/RESTRUCTURING_SUMMARY.md`
+- `PROMPTS/_ARCHIVE/Prompt_Locations_in_Nov25.md`
+- `PROMPTS/_ARCHIVE/REPORT_OUTPUT_SCHEMA_v2.1.md`
+- `PROMPTS/_ARCHIVE/MAIN_PROMPT_v4_vs_v6_Comparison.md`
+- `PROMPTS/_ARCHIVE/MIGRATION_LOG.md`
+- `PROMPTS/_ARCHIVE/MAIN_PROMPT_v5_Modular_vs_v6_UltraCondensed_Comparison.md`
+- `PROMPTS/_ARCHIVE/PROMPTS_Master_List_BACKUP.csv`
+- `PROMPTS/_ARCHIVE/RESTRUCTURING_COMPLETE.md`
+- `PROMPTS/_ARCHIVE/FINAL_STATUS.md`
+- `PROMPTS/_ARCHIVE/02_project_directory_guidance.md`
+- `PROMPTS/_ARCHIVE/CLEANUP_VERIFICATION.md`
+- `PROMPTS/_ARCHIVE/04_task_object_framework.md`
+- `PROMPTS/_ARCHIVE/ENTITY_MAPPING_GUIDE_v2.1.md`
+- `PROMPTS/_ARCHIVE/03_vocabulary_standards.md`
+- `PROMPTS/_ARCHIVE/CORRECTIONS_REQUIRED.md`
+- `PROMPTS/_ARCHIVE/05_21_section_framework.md`
+- `PROMPTS/_ARCHIVE/01_employee_directory_guidance.md`
+- `PROMPTS/_ARCHIVE/06_department_specific_patterns.md`
+- `PROMPTS/_ARCHIVE/RESTRUCTURE_FINAL.md`
+- `PROMPTS/_ARCHIVE/PROMPTS_Master_List_BACKUP_FULL.csv`
+- `PROMPTS/_ARCHIVE/PROMPTS_Master_List_OLD.csv`
+- `PROMPTS/_ARCHIVE/MASTER_CSV_SIMPLIFIED.md`
+- `PROMPTS/_ARCHIVE/FINAL_CLEAN_STATUS.md`
+- `PROMPTS/_ARCHIVE/cleanup_old_folders.py`
+- `PROMPTS/_ARCHIVE/cleanup_remaining_folders.bat`
+- `PROMPTS/_ARCHIVE/fix_restructure.py`
+- `PROMPTS/_ARCHIVE/simplify_master_csv.py`
+- `PROMPTS/_ARCHIVE/archive_non_prompts.py`
+- `PROMPTS/_ARCHIVE/ARCHIVING_SUMMARY.md`
+- `LIBRARIES/LBS_003_Tools/EXECUTE_ME.md`
+- `TALENTS/Employees/Merged final report/employee_audit_analyzer.py`
+- `TALENTS/Employees/Merged final report/employee_hours_analysis_report.md`
+- `TALENTS/Employees/Merged final report/under_performers_summary.md`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/generate_all_task_templates.py`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-411_Resolve_accountingpayment_issues.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-415_Create_script_for_daily_notes_action_extraction.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-416_Build_intermediate_export_folders_structure.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-417_Implement_object_extraction_after_actions.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-418_Reduce_token_consumption_via_scripting.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-419_Integrate_multiple_AI_platforms_for_processing.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-420_Continue_data_structuring_work.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-421_Create_deep_research_template_(10-15_pages).json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-422_Build_social_media_checklist_(15_networks).json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-423_Integrate_company_context_into_research.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-424_Create_new_lesson_of_the_week_system.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-425_Document_deep_research_in_client_folders.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-426_Export_Week_2_tasks_list.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-427_Deprecate_old_workflow_system.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-428_Structure_financial_folder_architecture.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-429_Create_research_list_for_Finance_2025.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-430_Build_reports_in_ANALYTICS_folder.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-431_Generate_prompts_for_financial_analysis.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-432_Create_employee_11_session_template.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-433_Export_daily_CRM_attendance_data.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-434_Build_script_to_check_employee_file_status.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-106_Find_historical_search_queries_file_on_Google_Drive.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-107_Reformat_LinkedIn_queries_for_Google_Maps.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-108_Create_detailed_prompt_for_query_generation_(Column_H).json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-109_Build_URL_parsing_script.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-110_Extract_company_name_from_URLs.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-111_Connect_scraper_to_CRM_automation.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-112_Implement_duplicate_checking_against_CRM.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-113_Test_scraping_with_3-4_videos_about_Google_Maps_scraping.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-114_Allocate_5_lead_generators,_1-2_hoursday_for_Google_Maps.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-115_Create_attractive_offer_for_leads_(20_Google_vs_5_LinkedIn).json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-116_Document_scraping_system_(20%_checkpoint).json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-117_Research_world_methodologies_on_Google_Maps_scraping.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-118_Create_guidelines_for_reviews_scraping_direction.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-119_Add_source_marking_for_Google_Maps_data.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-120_Implement_social_media_scraping.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-121_Test_review_system_with_live_data.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-122_Launch_system_with_LGN_team.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-123_Create_Job_Sites_folder_in_ENTITIESACCOUNTS.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-124_Review_other_entities'_taxonomy.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-125_Build_Job_Sites_entity_structure.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-126_Create_Master_JSON_for_Job_Sites.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-127_Document_Job_Sites_entity.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-233_Create_department-specific_daily_analysis_prompts.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-234_Build_starting_point_reference_guides.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-235_Iterate_prompts_for_better_report_quality.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-236_Process_tutorials_from_Department_DropBox.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-237_Find_and_download_Google_Drive_guides_in_Markdown.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-238_Export_and_process_from_Online_Academy.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-239_Create_REPORTS_folder_in_ENTITIES.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-240_Add_taxonomy_for_REPORTS_entity.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-241_Integrate_IDS_system_(RPT-###).json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-242_Import_example_reports.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-243_Create_report_classification_system.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-244_Update_master_taxonomy.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-245_Create_Tasks_folder_in_Dailies.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-246_Create_Plans_folder_in_Dailies.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-247_Add_employee_identification_system.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-248_Cross-reference_Task_Manager_with_Online_Academy.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-249_Store_Online_Academy_links_in_guides.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-001_Research_to_Task_Manager_integration.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-002_Pack_all_dailies_into_Week3_folder.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-030_Interviews_Lists_to_MD_Files.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-031_Clear_Lists_of_Candidates_Sources.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-032_HR_Onboarding_preparation.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-033_Integrate_Individual_Employee_Testing.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-034_Discord_Bot_notifications.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-035_Expand_Industries.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-036_LG_Message_Templates.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-037_Prospects_Architecture_Improvement.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-038_Feed_database_300_new_leads_daily.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-039_Populate_leads_with_classifications.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-040_Target_audience_analysis.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-041_Extractanalyze_LG_conversations.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-042_Build_look-alike_auditory.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-043_Testing_Individual_Scraping_Techniques.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-044_LG_Department_Core_Principles_Doc.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-045_Obligatory_Save_5_Templates_+_Screenshot.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-046_Sales_Email_Templates.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-047_Connect_to_Google_Calendar.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-048_Scrape_Event_Metadata.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-049_Populate_Business_Entity_from_Sales.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-050_Get_CRM_Data_on_Daily_LeadGen_Cards.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-051_Learning_Flow_Step-by-Step_Development.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-052_Track_Task_Completions_via_Microservices.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-053_Synchronize_Libs_with_Online_Academy.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-054_Connect_Task_Managers_to_Libs.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-055_Task_Manager_Dashboard_with_Database.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-056_n8n_Image_Generation_Guide.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-057_Frontend_OAuth_Implementation.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-058_Personal_Task_Manager_Web_Pages.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-059_Add_Rules_for_AI_in_Each_Folder.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-060_Log_Entity_Integration.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-061_Keep_Logs_Longer.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-062_Develop_USER_Entities.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-063_Review_TALENTS_match_with_Database.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-064_Prepare_DB_EXPORT_Folder_LIBRARIES.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-065_Text_Researches_Recognition_&_Import.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-066_Core_System_Taxonomy_Architecture_Review.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-067_Prompt_for_Transcription_Export.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-068_Prompts_for_Weekly_Analysis.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-069_Prompts_for_Daily_Analysis.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-070_Researches_Dashboard.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-071_Export_Dailies_Summaries_to_ToDo_App.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-072_Tasks_Templates_Execution_System.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-073_Steps_Confirmation_System.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-074_Portfolio_Diversification_Strategy.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-075_Create_More_Case_Studies.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-076_Deep_Research_Designer_Task.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-077_Media_Library_Development.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-128_Deploy_v1.0_to_Vercel.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-129_Share_dashboard_access_with_all_departments.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-130_Fix_white_text_display.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-131_Add_tool_filtering_feature.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-132_Implement_user_login_tracking.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-133_Create_user_assignment_system.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-134_Integrate_UI_Kit_from_Eleanor's_work.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-135_Add_calendar_feature.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-136_Build_API_for_dashboard_data.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-138_Document_dashboard_usage.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-141_Set_up_Vilhelm's_VS_Code_with_Claude_Extension.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-147_Vilhelm_Create_Deep_Research_task.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-153_Create_token_usage_alerts.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-154_Purchase_additional_AI_tool_accounts.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-137_Integrate_with_LibDev_catalog.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-139_Create_employee_training_materials.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-140_Teach_Vilhelm_video_parsing_workflow.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-142_Configure_Vilhelm's_key_bindings.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-143_Introduce_Vilhelm_to_ENTITIES_structure.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-144_Assign_Vilhelm_accounts_with_limits.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-145_Vilhelm_Research_YouTube_channels_on_Google_Maps_scraping.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-146_Vilhelm_Parse_3-4_videos_by_Monday.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-148_Vilhelm_Check_Online_Academy_for_Deep_Research_content.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-149_Vilhelm_Integrate_prompts_into_ENTITIES_ecosystem.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-150_Document_current_AI_tools_tracking_system.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-151_Add_user_assignment_field_to_accounts.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-152_Implement_login_session_tracking.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-155_Sync_Dropbox_Tools_to_libdev.com.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-156_Build_account_rotation_recommendations.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-157_Design_single_task_page_layout.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-158_Create_prompt_for_task_page_generation.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-159_Build_HTML_template_for_single_task.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-160_Test_with_Deep_Research_task.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-161_Create_research_queueline_system.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-162_Integrate_with_TASK_MANAGERS_data.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-163_Create_CONTENT_entity_folder.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-164_Define_CONTENT_entity_taxonomy.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-165_Create_Master_CSV_for_CONTENT.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-166_Populate_with_existing_tutorials.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-167_Research_Figma_AI_tutorial_videos.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-168_Build_video_catalog_app.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-169_Implement_clickable_timestamps.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-170_Create_minimum_parse_list.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-171_Review_current_video_processing_taxonomy.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-172_Identify_taxonomy_improvements.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-173_Implement_taxonomy_upgrades.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-174_Document_video_editor_processed_works.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-175_Define_Google_Drive_storage_locations.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-176_Research_Gravity_AI_tool_capabilities.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-177_Integrate_Responsibilities_into_LBS_taxonomy.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-178_Document_Gravity_integration.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-179_Prepare_shifts_management_system.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-180_Document_schedule_management_techniques.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-181_Connect_research_to_posting_schedule.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-182_Create_BUSINESSES_entity_folder.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-183_Define_BUSINESSES_entity_taxonomy.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-184_Document_client_interview_process.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-185_Track_Friday_client_scheduling.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-186_Store_interview_recordingsnotes.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-187_Define_profession_categories.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-188_Populate_tutorials_per_profession.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-189_Create_guidelines_per_profession.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-190_Build_AI_assistant_framework.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-191_Design_InnerClient_concept.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-192_Define_pricing_per_profession.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-193_Create_UI_for_InnerClient_system.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-194_Set_up_human_curation_process.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-195_Sync_Dropbox_Tools_library_to_libdev.com.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-196_Research_Dropbox_API_synchronization.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-197_Build_manual_sync_script_(fallback).json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-198_Create_knowledge_gap_identification_process.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-199_Implement_ReadWriteSave_reminder_system.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-200_Monday_call_at_9_AM.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-201_Vilhelm_+_Yulya_Collect_designer_works.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-202_Implement_designer_work_storage_in_Dropbox.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-203_Document_Monday_progress.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-204_Create_plans_for_next_stage.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-205_Review_all_designer_portfolios.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-206_Mandate_Dropbox_work_storage_for_designers.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-207_Create_daily_work_documentation_requirement.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-208_Diversify_designer_portfolios.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-210_Train_designers_on_AI_tools.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-211_Design_financial_framework_structure.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-212_Create_data_sets_for_financial_wiki.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-213_Document_calculation_sources.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-214_Collect_employee_profiles_for_Talents.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-215_Create_modified_public_profiles.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-216_Implement_log_files_in_every_entity_folder.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-209_Build_case_studies_library.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-217_Create_main_researchers'_log.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-218_Build_structured_guidelines_for_manual_assignment.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-219_Create_step-by-step_documentation_templates.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-220_Identify_department_data_gaps.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-221_Create_TODO_file_system.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-222_Build_AI_prompt_for_task_distribution.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-223_Implement_daily_TODO_generation.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-224_Document_transcription_best_practices.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-225_Improve_dictation-to-entity_workflow.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-226_Fix_unpredictable_save_locations.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-227_Standardize_report_storage_paths.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-228_Document_report_generation_process.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-229_Create_attendance_dashboard_asset.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-230_Write_README_with_all_links.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-231_Set_up_version_tracking.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-232_Document_design_updates_log.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-250_Add_IDs_to_Online_Academy_content.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-251_Apply_taxonomy_to_Academy_structure.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-252_Create_detailed_onboarding_tasks_with_steps.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-253_Build_progress_tracking_via_task_IDs_in_reports.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-254_Create_data_flow_clarification_project.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-255_Run_methodologies_skill-up_project_research.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-256_Create_VS_Code_instruction_tutorials.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-257_Implement_logging_to_LOG_folder_during_data_population.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-258_Implement_TSM-###_ID_system.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-259_Create_TSM-001_Project_Template.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-260_Document_data_import_flows.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-261_Define_structured_vs_unstructured_data_handling.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-262_Create_input_type_taxonomy_(Research,_Video,_etc.).json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-263_Create_employee_TODO_file_system.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-264_Write_learning_materials_generation_guide.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-265_Enforce_prompt-first_rule.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-266_Create_taxonomy_introduction_materials.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-267_Update_daily_review_prompts.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-268_Locate_all_department_prompts_in_Nov25_folders.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-269_Consolidate_prompts_to_ENTITIESPROMPTS.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-270_Create_data_import_scripts.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-271_Research_AirTable_integration_options.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-272_Design_Task_Manager_choiceselection_system.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-273_Import_accounts_to_ENTITIES.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-274_Create_accounts_microservice.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-275_Bind_gmails_to_tools.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-276_Integrate_accounts_into_AI_Catalog.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-277_Build_user_login_system_with_gmail.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-278_Set_up_database_for_accounts.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-279_Create_reusable_microservice_template.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-280_Document_departments_folder_architecture.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-281_Restore_data_processes_pipelines.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-282_Create_clear_file_location_guidance.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-283_Build_progress_count_updating_script.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-284_Create_tasks_import_guide.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-285_Add_dates_to_Activity_3.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-286_Verify_LG_data_in_DropBox.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-287_Process_items_in_IMPORTS_folder.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-288_Create_list_of_reserved_names_in_ENTITIES.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-289_Create_list_of_videos_to_transcribe.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-290_Put_video_transcriptions_into_people_tasks.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-291_Run_prompts_for_video_search.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-292_Purchase_Gemini_Ultra_on_Admin_account.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-293_Create_transcription_execution_list_with_IDs.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-294_Build_execution_tracking_system.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-295_Create_execution_update_guides.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-296_Define_next_milestone_triggers_(Data_Population).json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-297_Create_Content_Entity.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-298_Create_Content_Department.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-299_Integrate_shifts_management.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-300_Create_shortcuts_lessonpost.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-301_Prepare_list_of_researches_for_Entity_Researches.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-302_Research_YouTube_videos_for_transcription.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-303_Build_automation_posting.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-304_Train_AI_to_build_research_tasks_for_people.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-305_List_automations_to_learn_or_integrate.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-306_Task_Search_for_videos_(template).json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-307_Hosting_in_Vercel_(Dev_account).json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-308_Automate_library_update.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-309_Canva_downloadintegration.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-310_Create_six_must-have_files_list.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-311_Design_core_documents.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-312_Create_Pre-Sale_candidate_tracking_system.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-313_Add_Ukandu_Christopher_to_Pre-Sale_list.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-314_Sign_contract_with_Borovik_for_client_interview.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-315_Prepare_Borovik_for_tomorrow's_client_interview.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-316_Create_candidate_warming_system_for_hot_list.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-317_Document_interview_requirements_checklist.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-318_Create_interview_scoring_rubric.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-319_Follow_up_with_Valeriia_on_trial_terms.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-320_Implement_Entity_Identification_System_v1.0.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-321_Set_up_multi-instance_AI_tool_workflow.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-322_Deploy_Google_AntiGravity_for_team.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-323_Automate_daily_employee_task_assignment.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-324_Build_employee_choiceselection_system.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-325_Collect_Discord_voice_logs_for_analytics.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-326_Process_department_prompt_logs_daily.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-327_Convert_Workflows_to_Projects_in_TASK_MANAGERS.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-328_Assign_IDs_to_all_ENTITIES_folders.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-329_Create_MCP_agent_system_(employees,_libs,_academy).json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-330_Build_screenshot_verification_automation.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-331_Create_AI_routes_inside_entity_folders.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-332_Build_index_files_for_machineAI_access.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-333_Save_schemas_inside_folders_with_field_definitions.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-334_Sync_Task_Template_to_backend.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-335_Create_backend_for_DropBox_SubEntity.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-337_Connect_Accounts_to_Talents_profiles.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-338_Implement_automatic_access_closure_alerts.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-341_Implement_team_lead_access_limits.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-345_Design_permission_system_architecture.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-336_Build_alert_system_for_firedleft_employees.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-339_Track_secondary_accounts_(not_just_main_emails).json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-340_Design_country-based_job_account_permissions.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-342_Build_role-based_account_access_system.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-343_Create_account_manager_interface.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-344_Add_Balkans_as_region_in_system.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-346_Implement_employee-based_permissions.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-347_Implement_professionrole-based_permissions.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-348_Create_Auth_User_Service_documentation.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-349_Review_GPT_usage_and_costs.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-350_Identify_cost-cutting_opportunities.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-351_Create_taxonomy_initial_ID_inventory.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-352_Generate_JSON_with_all_entities_and_sub-entities.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-353_Add_3-letter_ISO_codes_to_entities.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-354_Cross-validate_with_existing_listings.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-355_Document_deprecatedarchived_entities.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-356_Update_milestone_prefix_from_MLS-###_to_MLST-###.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-357_Filter_daily_notes_by_taxonomy.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-358_Build_parsing_extraction_taxonomy.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-359_Identify_repetitions_in_daily_notes.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-360_Create_PLANS_entity_folder.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-361_Create_YouTube_channels_list.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-362_Parse_latest_videos_from_channels.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-363_Analyze_video_relevancy.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-364_Build_YouTube_research_milestone_template.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-365_Log_all_n8n_automations.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-366_Create_n8n_workflow_documentation.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-367_Build_Google_Sheets_integration_workflow.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-368_Create_bot_as_separate_milestone_template.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-369_Build_AI_agent_for_n8n_analysis.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-370_Generate_n8n_workflow_from_Claude.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-371_Create_10+_example_n8n_projects.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-372_Implement_daily_analysis_prompt_reminder.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-373_Build_continuous_employee_profile_improvement_system.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-374_Integrate_attendance_with_employee_profiles.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-375_Analyze_employee_daily_records.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-376_Create_data_injection_scripts_for_daily_notes.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-377_Build_actionobject_extraction_from_daily_notes.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-378_Update_employee_profiles_automatically.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-379_Update_Prompt_6_for_daily_analysis.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-380_Create_task_template_schema.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-381_Link_actionsobjects_to_responsibilities.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-382_Match_research_prompt_naming_conventions.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-383_Parse_recent_videos_for_LinkedIn_content.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-384_Create_carousel_posts_from_video_content.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-385_Build_automated_posting_workflow.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-386_Design_step-by-step_content_templates.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-387_Design_microservice_methodology.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-388_Test_backend_generation_on_small_entity.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-389_Build_GitHub-Dropbox_sync_for_backend.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-390_Create_dynamic_Postgres_generation.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-391_Organize_API_tokens_management.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-392_Fix_taxonomy_location_(move_if_needed).json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-393_Integrate_checklist_items_into_task_system.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-394_Fix_cursor_flickering_issue.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-435_Verify_Dropbox_+_VSCode_+_Extensions_for_all.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-436_Conduct_manual_verification_by_end_of_week.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-437_Use_Overview_folder_data_for_analysis.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-438_Create_innovation_rollout_process.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-439_Decide_Team_leads_vs_direct_rollout.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-440_Create_CursorWindsurf_instructions.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-441_Build_employee_verification_shifts.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-442_Assign_department_checkers.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-443_Create_2-week_rollout_timeline.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-444_Export_Loom_video_titles.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-445_Export_Loom_transcriptions.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-446_Add_remoteemployees.com_content_to_assets.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-447_Build_attendance_statistics_export_system.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-448_Create_CRM_API_integration.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-449_Build_Discord_voice_log_export.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-450_Parse_and_analyze_daily_attendance.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-451_Create_Discord_tools_documentation.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-452_Reverse_name_conventions_in_Task_Manager.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-453_Remove_department_letters_from_filenames.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-454_Update_data_integrity_hierarchy.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-455_Update_all_prompts_with_old_naming.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-456_Build_similarconnected_words_in_LIBRARIES.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-457_Create_AI_Catalog_markdown_file.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-458_Add_AI_Catalog_to_Assets_index.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-459_Document_AI_Catalog_content.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-460_Perform_oa-yLibrariesTask_Managers_gap_analysis.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-461_Create_cross-reference_index_(tool→lesson→template).json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-462_Build_research_prompts_for_developer_tutorials.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-463_Create_File_System_research_prompt_v2.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-464_Add_traininglearning_responsibilities_to_Libraries.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-465_Create_weekly_AI_tutorial_research_template.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-466_Convert_SMM_research_into_Task_Templates.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-467_Create_unified_research_prompt_schema.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-468_Integrate_Research_ID_system_(RES-###).json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-469_Add_ISO_3-letter_codes_to_research.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-470_Test_entity_upload_to_Postgres.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-471_Build_matching_schemas_for_consistency.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-472_Define_deliverables_as_milestone_templates.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-473_Maintain_central_listings_while_splitting_by_dept.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-474_Create_ID_and_name_control_scripts.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-475_Build_central_IDs_with_names_center.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/_GENERATION_SUMMARY.json`
+- `LIBRARIES/LBS_003_Tools/final_cleanup_and_tracking.py`
+- `LIBRARIES/LBS_003_Tools/Tools_Mentions_Tracking.csv`
+- `LIBRARIES/LBS_003_Tools/Tools_Usage_Analysis.md`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/create_task_catalog.py`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/TASK_TEMPLATE_INDEX.md`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Template_Catalog.csv`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Template_Statistics.json`
+- `LIBRARIES/LBS_003_Tools/COMPLETE_RESTRUCTURING_SUMMARY.md`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/validate_task_templates.py`
+- `LIBRARIES/LBS_003_Tools/recategorize_other.py`
+- `LIBRARIES/LBS_003_Tools/Tools_By_Category.csv`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/VALIDATION_REPORT.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/update_cross_reference.py`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/COMPLETION_SUMMARY.md`
+- `PROMPTS/Last_Week/PMT-031_Architecture_Merge_Planning.md`
+- `PROMPTS/Last_Week/PROMPTS_Hierarchy_Tree.md`
+- `PROMPTS/Last_Week/PMT-063_Account_Creation_Validation.md`
+- `PROMPTS/Last_Week/PMT-065_Subscription_Renewal_Alert.md`
+- `PROMPTS/Last_Week/PMT-061_Task_Manager_Entity_Filling.md`
+- `PROMPTS/Last_Week/PMT-064_Account_Security_Audit.md`
+- `PROMPTS/Last_Week/PMT-057_Job_Sites_Research.md`
+- `PROMPTS/Last_Week/PMT-026_Synthesis_Recommendations.md`
+- `PROMPTS/Last_Week/PMT-025_Relationship_Validation.md`
+- `PROMPTS/Last_Week/PMT-019_Restructure_Employee_Profile.md`
+- `PROMPTS/Last_Week/PMT-070_Entity_Identification_v1.md`
+- `PROMPTS/Last_Week/PMT-018_Employee_Profile_Schema.md`
+- `PROMPTS/Last_Week/PMT-060_Products_Integration.md`
+- `PROMPTS/Last_Week/PMT-021_Ecosystem_Analysis_Overview.md`
+- `PROMPTS/Last_Week/PMT-058_Call_Organizer_v4.md`
+- `PROMPTS/Last_Week/PMT-062_Tools_Collection_Matching.md`
+- `PROMPTS/Last_Week/PMT-056_Interview_Conductor.md`
+- `PROMPTS/Last_Week/PMT-066_Script_Copy_Dailies.md`
+- `PROMPTS/Last_Week/PMT-024_Content_Analysis.md`
+- `PROMPTS/Old/PMT-068_Version_Control_Automation.md`
+- `PROMPTS/Last_Week/PMT-053_CV_Parser_v1.md`
+- `PROMPTS/Last_Week/PMT-069_Version_Control_Main.md`
+- `PROMPTS/Last_Week/PMT-029_System_Health_Review.md`
+- `PROMPTS/Last_Week/PMT-022_Data_Inventory.md`
+- `PROMPTS/Last_Week/PMT-023_Schema_Validation.md`
+- `PROMPTS/Old/PMT-067_Rules_Automation.md`
+- `PROMPTS/Last_Week/PMT-027_Data_Consistency.md`
+- `PROMPTS/Last_Week/PMT-030_Architecture_Learning_Guide.md`
+- `PROMPTS/Last_Week/PMT-059_Document_Finished_Project.md`
+- `PROMPTS/Last_Week/PROMPTS_Folder_ID_Registry.md`
+- `PROMPTS/Last_Week/PMT-014_Build_Taxonomy_ID_System.md`
+- `PROMPTS/Last_Week/PMT-054_CRM_Data_Entry.md`
+- `PROMPTS/Last_Week/PROMPTS_ISO_Code_Registry.md`
+- `PROMPTS/_ARCHIVE/PROMPTS_Master_List_BACKUP_AGE_ORG.csv`
+- `PROMPTS/_ARCHIVE/organize_by_age.py`
+- `PROMPTS/_ARCHIVE/update_csv_for_age_folders.py`
+- `PROMPTS/_ARCHIVE/AGE_ORGANIZATION_SUMMARY.md`
+- `LIBRARIES/LBS_003_Tools/RECATEGORIZATION_SUMMARY.md`
+- `LIBRARIES/LBS_003_Tools/assign_departments.py`
+- `DAILIES/REPORTS/Week_4/FIN_Department_Nov24-25_Report.md`
+- `DAILIES/REPORTS/Week_4/HRM_Department_Nov24-25_Report.md`
+- `DAILIES/REPORTS/Week_4/DGN_Department_Nov24-25_Report.md`
+- `DAILIES/REPORTS/Week_4/WEEK4_SUMMARY_STATUS.md`
+- `PROMPTS/Core/MAIN_PROMPT_v7.1.md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/md_listing.json`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/CHANGELOG.md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/md_listing.csv`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/ARCHITECTURE_PLAN/DATA_LISTINGS.md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/ARCHITECTURE_PLAN/data_listing_markdown.json`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/ARCHITECTURE_PLAN/data_listing_structured.json`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/ARCHITECTURE_PLAN/reports/inventory_run.md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/reports/csv_normalization_report.md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/reports/id_and_status_rules.md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/reports/json_normalization_report.md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/reports/md_inventory_report.md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/scripts/aggregate_data_listings.py`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/scripts/md_inventory.py`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/scripts/normalize_csv_phase0.py`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/scripts/normalize_json_phase0.py`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/scripts/run_inventory.py`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/standarts/DATA_md_content_templates.md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/standarts/DATA_md_structure_standard.md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/DASHBOARD_PROMPT.md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/README.md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/SCRIPTS_INVENTORY.md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/SYSTEM_OVERVIEW.md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/TSM_TAXONOMY_INTEGRATION_SUMMARY.md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/id_and_status_rules.md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/00_SEARCH_QUEUE/README.md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/01_VIDEO_QUEUE/Queue_Integration_Guide.md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/01_VIDEO_QUEUE/Queue_System_README.md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/01_VIDEO_QUEUE/README.md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/01_VIDEO_QUEUE/Transcription_Queue.md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/01_VIDEO_QUEUE/Video_Queue_Tracker.md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/02_TRANSCRIPTIONS/Video_001.md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/02_TRANSCRIPTIONS/Video_003.md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/02_TRANSCRIPTIONS/Video_010.md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/02_TRANSCRIPTIONS/Video_012.md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/02_TRANSCRIPTIONS/Video_016_Processing_Summary.md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/02_TRANSCRIPTIONS/Video_017.md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/02_TRANSCRIPTIONS/Video_021.md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/02_TRANSCRIPTIONS/Video_022.md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/02_TRANSCRIPTIONS/Video_023.md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/02_TRANSCRIPTIONS/Video_025.md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/02_TRANSCRIPTIONS/Video_026.md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/02_TRANSCRIPTIONS/Video_19.md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/02_TRANSCRIPTIONS/Video_19_Processing_Summary.md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/02_TRANSCRIPTIONS/Video_20.md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/02_TRANSCRIPTIONS/Video_Discovery_Pipeline.md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/02_TRANSCRIPTIONS/Video_Queue_Tracker.md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/03_ANALYSIS/Video_024_Execution_Plan.md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/03_ANALYSIS/gap_analysis_Video_022_20251124_021632.md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/03_ANALYSIS/gap_analysis_Video_022_20251124_021705.md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/_normalized/RESEARCHES_Master_List_normalized.csv`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/02_TRANSCRIPTIONS/README.md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/ARCHIVE/04_INFLUENCER_DATA/README.md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/ARCHIVE/00_PHASES/Phase_System_Overview.md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/03_ANALYSIS/Library_Mapping/Video_017_Library_Mapping_Report.md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/03_ANALYSIS/Gap_Analysis/Video_024_Gap_Analysis.md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/03_ANALYSIS/Integration/Video_024_Taxonomy_Integration.md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/03_ANALYSIS/Validation/Tool_Validation_Report_Video_006_008.md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/03_ANALYSIS/Extractions/Video_002_Extraction_Inventory.md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/03_ANALYSIS/Extractions/Video_022_Phase4_Objects.md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/03_ANALYSIS/Extractions/Video_024_Phase3_Analysis.md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/03_ANALYSIS/Extractions/Video_024_Phase4_Objects.md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/ARCHIVE/MAPPINGS/VIDEO_RESEARCHES_Source_Mapping.md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/ARCHIVE/Pre_Taxonomy_Cleanup/Key_Biddings_VS_code.md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/ARCHIVE/Pre_Taxonomy_Cleanup/MIGRATION_COMPLETE.md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/ARCHIVE/Pre_Taxonomy_Cleanup/MIGRATION_LOG.md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/ARCHIVE/Pre_Taxonomy_Cleanup/README_Library.md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/ARCHIVE/Pre_Taxonomy_Cleanup/TASK.md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/ARCHIVE/Pre_Taxonomy_Cleanup/oa-y_Libraries_TaskManagers_Gap_Analysis.md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/_normalized/00_SEARCH_QUEUE/Search_Queue_Master_normalized.csv`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/DATA/RSH-VID-001_AI_Video_Tools_Research.md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/DATA/Video_Search_Prompt_n8n_OpenAI_Google.md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/REPORTS/CONSOLIDATION_COMPLETE.md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/REPORTS/Phase_Redundancy_Analysis_2025-11-24.md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/REPORTS/Phase_Restructure_Plan_2025-11-24.md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/REPORTS/Phase_Restructure_Summary_2025-11-24.md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/REPORTS/TAXONOMY_CONSISTENCY_REPORT.md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/REPORTS/TSM_TAXONOMY_INTEGRATION_SUMMARY.md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/REPORTS/VIDEO_RESEARCHES_Example_Report.md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/REPORTS/Video_022_Processing_Flow_Verification.md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/REPORTS/Video_Processing_README.md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/REPORTS/Video_Processing_README_MIGRATION.md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/REPORTS/Video_Search_Prompts_Complete_Index.md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/REPORTS/integration_report_Video_022_20251124_021632.md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/PROMPTS/PMT-046_VSCode_Agent_HQ_Research.md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/PROMPTS/PMT-048_YouTube_AI_Tools_Daily.md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/PROMPTS/PMT-051_Department_Research_Integration.md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/PROMPTS/PMT-052_VSCode_AI_Extensions.md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/PROMPTS/PMT-052_YouTube_Management_Documentation.md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/PROMPTS/PMT-083_GenSpark_Course_Creation.md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/PROMPTS/PMT-085_Photo_Editing_AI_Research.md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/PROMPTS/PMT-089_YouTube_AI_Tutorials_Research.md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/PROMPTS/PMT-093_Design_AI_Video_Discovery.md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/PROMPTS/README_MIGRATION.md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/PROMPTS/Universal Research Prompt.md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/PROMPTS/VIDEO_RESEARCHES_Prompt_Examples.md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/03_ANALYSIS/Library_Mapping/Video_001_Library_Mapping_Report.md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/03_ANALYSIS/Library_Mapping/Video_002_Library_Mapping_Report.md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/03_ANALYSIS/Library_Mapping/Video_024_Library_Mapping_Report.md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/03_ANALYSIS/Gap_Analysis/Video_022_Gap_Analysis.md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/03_ANALYSIS/Extractions/Video_022_Phase3_Analysis.md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/03_ANALYSIS/Phase_Reports/Video_022_Phase6_Integration_Summary.md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/ARCHIVE/Pre_Taxonomy_Cleanup/FILES.md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/ARCHIVE/Pre_Taxonomy_Cleanup/n8n_similar_platforms_research_prompt.md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/ARCHIVE/Pre_Taxonomy_Cleanup/oa-y_Research_Data_Flow_Notes.md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/_normalized/01_VIDEO_QUEUE/Video_Queue_Master_normalized.csv`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/ARCHIVE/Pre_Taxonomy_Cleanup/LOGS/ACTIVE_EMPLOYEES_LIST.md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/ARCHIVE/Pre_Taxonomy_Cleanup/LOGS/ASSIGNMENT_GUIDELINES.md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/ARCHIVE/Pre_Taxonomy_Cleanup/LOGS/DEPARTMENT_GAP_ANALYSIS.md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/ARCHIVE/Pre_Taxonomy_Cleanup/LOGS/EMPLOYEE_RESEARCH_HISTORY.md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/ARCHIVE/Pre_Taxonomy_Cleanup/LOGS/HOW_TO_ASSIGN_RESEARCH.md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/ARCHIVE/Pre_Taxonomy_Cleanup/LOGS/QUALITY_REVIEW_PROCESS.md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/ARCHIVE/Pre_Taxonomy_Cleanup/LOGS/RESEARCH_ASSIGNMENT_LOG.md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/ARCHIVE/Pre_Taxonomy_Cleanup/LOGS/RESEARCH_COMPLETION_TRACKER.md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/ARCHIVE/Pre_Taxonomy_Cleanup/LOGS/RESEARCH_WORKFLOW.md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/ARCHIVE/Pre_Taxonomy_Cleanup/24/README.md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/ARCHIVE/Pre_Taxonomy_Cleanup/Research_Reports/Department_Consolidation_Report_2025-11-17.md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/ARCHIVE/Pre_Taxonomy_Cleanup/Research_Reports/HR videos research.md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/ARCHIVE/Pre_Taxonomy_Cleanup/Research_Reports/README.md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/ARCHIVE/Pre_Taxonomy_Cleanup/Research_Reports/Tool_Validation_Report_Video_006_008.md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/ARCHIVE/Pre_Taxonomy_Cleanup/Research_Reports/Video_006_Library_Mapping_Report.md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/ARCHIVE/Pre_Taxonomy_Cleanup/Research_Reports/Video_008_Library_Mapping_Report.md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/ARCHIVE/Pre_Taxonomy_Cleanup/Research_Reports/Video_20.md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/ARCHIVE/Pre_Taxonomy_Cleanup/Schema_Aligned/Developer_Tools_and_MCP_Research_Prompt_v2.md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/ARCHIVE/Pre_Taxonomy_Cleanup/Schema_Aligned/File_System_and_Productivity_Research_Prompt_v2.md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/ARCHIVE/Pre_Taxonomy_Cleanup/Schema_Aligned/SMM_Research_Document_Processing_Instructions_v2.md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/ARCHIVE/Pre_Taxonomy_Cleanup/Schema_Aligned/Sales_Department_Research_Prompt_v2.md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/ARCHIVE/Pre_Taxonomy_Cleanup/Schema_Aligned/VSCode_Agent_HQ_Research_Prompt_v2.md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/ARCHIVE/Pre_Taxonomy_Cleanup/Schema_Aligned/YouTube_AI_Tools_Daily_Research_Prompt_v2.md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/ARCHIVE/Pre_Taxonomy_Cleanup/Schema_Aligned/oa-y_AI_Tools_Alignment_Research_Prompt_v2.md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/ARCHIVE/Pre_Taxonomy_Cleanup/TSM-008_Video_Queue/VIDEO-020_Task_Manager_App_ExecutionFlow.md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/REPORTS/Master_Video_Status_Overview_2025-11-24.md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/REPORTS/PROCESSING_STATUS_REPORT.md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/REPORTS/Transcription_Queue.md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/REPORTS/Video_023_Integration_Report.md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/REPORTS/integration_report_Video_022_20251124_021705.md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/PROMPTS/PMT-052_Design_AI_Tutorials_Perplexity_Prompt.md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/PROMPTS/PMT-082_Advanced_Prompting_Course_Creation.md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/PROMPTS/PMT-097_YouTube_AI_Models_Deep_Research.md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/PROMPTS/PMT-098_OpenAI_Automation_Examples_Company_Adoption.md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/PROMPTS/README.md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/TAXONOMY/RESEARCHES_Taxonomy_DRAFT.md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/TAXONOMY/TAXONOMY.md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/test/PHASE0_TO_TABLES_CHECKLIST.md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/test/data_listing_markdown.json`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/test/load_to_db.py`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/test/schema.sql`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/scripts/README.md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/tasks/CSV_NORMALIZATION.md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/tasks/DATA_LISTINGS.md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/tasks/JSON_NORMALIZATION.md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/tasks/MD_INVENTORY.md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/02_TRANSCRIPTIONS/Video_014.md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/02_TRANSCRIPTIONS/Video_024.md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/03_ANALYSIS/Library_Mapping/Video_005_Library_Mapping_Report.md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/03_ANALYSIS/Library_Mapping/Video_018_Library_Mapping_Report.md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/03_ANALYSIS/Phase_Reports/Phase_9_Completion_Report.md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/ARCHIVE/Pre_Taxonomy_Cleanup/LOGS/LIBRARIES_UPDATE_PROCESS.md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/ARCHIVE/Pre_Taxonomy_Cleanup/LOGS/WEEKLY_RESEARCH_PLAN.md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/ARCHIVE/Pre_Taxonomy_Cleanup/LOGS/By_Department/AI_Research_Log.md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/ARCHIVE/Pre_Taxonomy_Cleanup/LOGS/By_Department/Design_Research_Log.md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/ARCHIVE/Pre_Taxonomy_Cleanup/LOGS/By_Department/Development_Research_Log.md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/ARCHIVE/Pre_Taxonomy_Cleanup/LOGS/By_Department/HR_Research_Log.md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/ARCHIVE/Pre_Taxonomy_Cleanup/LOGS/By_Department/LG_Research_Log.md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/ARCHIVE/Pre_Taxonomy_Cleanup/LOGS/By_Department/SMM_Research_Log.md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/ARCHIVE/Pre_Taxonomy_Cleanup/LOGS/By_Department/Sales_Research_Log.md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/ARCHIVE/Pre_Taxonomy_Cleanup/LOGS/By_Department/Video_Research_Log.md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/_normalized/DATA/ARCHIVE/Pre_Taxonomy_Cleanup/Research_Reports/Extractions/tool_mapping_conflicts.json`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/ARCHIVE/Pre_Taxonomy_Cleanup/Research_Reports/Naming_Convention_Migration_Report_2025-11-17.md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/ARCHIVE/Pre_Taxonomy_Cleanup/Research_Reports/Phase_7_Completion_Report.md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/ARCHIVE/Pre_Taxonomy_Cleanup/Research_Reports/Extractions/EXTRACTION_SUMMARY.md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/ARCHIVE/Pre_Taxonomy_Cleanup/Research_Reports/Extractions/Extracted_Project_Templates.md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/ARCHIVE/Pre_Taxonomy_Cleanup/Research_Reports/Extractions/Phase1_Projects_Extraction.md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/ARCHIVE/Pre_Taxonomy_Cleanup/Research_Reports/Extractions/Phase3_Integration_Summary.md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/ARCHIVE/Pre_Taxonomy_Cleanup/Research_Reports/Extractions/Phase4_Consolidation_Extraction.md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/ARCHIVE/Pre_Taxonomy_Cleanup/Research_Reports/Summaries/NAMING_SIMPLIFICATION_SUMMARY.md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/ARCHIVE/Pre_Taxonomy_Cleanup/Research_Reports/Summaries/RESTRUCTURE_SUMMARY.md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/ARCHIVE/Pre_Taxonomy_Cleanup/Research_Reports/Summaries/RESTRUCTURING_COMPLETE_SUMMARY.md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/ARCHIVE/Pre_Taxonomy_Cleanup/Schema_Aligned/YouTube_HR_Automation_Research_Prompt_v2.md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/ARCHIVE/Pre_Taxonomy_Cleanup/VIDEO_RESEARCHES_LOGS/Video_Assignment_Log.md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/PROMPTS/PMT-045_SMM_Document_Processing.md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/PROMPTS/PMT-047_YouTube_AI_HR_Tutorials.md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/PROMPTS/PMT-050_YouTube_Remote_Helpers.md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/test/docker-compose.yml`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/02_TRANSCRIPTIONS/VIDEOS_INDEX.md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/02_TRANSCRIPTIONS/Video_004.md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/02_TRANSCRIPTIONS/Video_005.md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/02_TRANSCRIPTIONS/Video_011.md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/03_ANALYSIS/Video_025_Execution_Plan.md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/03_ANALYSIS/Library_Mapping/Video_009_Library_Mapping_Report.md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/03_ANALYSIS/Gap_Analysis/Video_002_Gap_Analysis.md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/03_ANALYSIS/Phase_Reports/Phase_7_Completion_Report.md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/_normalized/DATA/ARCHIVE/Pre_Taxonomy_Cleanup/Research_Reports/Extractions/discovered_tools_structured.json`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/_normalized/DATA/ARCHIVE/Pre_Taxonomy_Cleanup/Research_Reports/Extractions/tool_mapping_normalized.json`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/ARCHIVE/Pre_Taxonomy_Cleanup/Research_Reports/Phase_9_Completion_Report.md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/ARCHIVE/Pre_Taxonomy_Cleanup/Research_Reports/Video_013_Library_Mapping_Report.md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/ARCHIVE/Pre_Taxonomy_Cleanup/Research_Reports/Video_19_Gap_Analysis.md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/ARCHIVE/Pre_Taxonomy_Cleanup/Research_Reports/Extractions/DATA_EXTRACTION_LOG_2025-11-10.md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/ARCHIVE/Work_Logs/Video_021_Work_Log_2025-11-22.md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/REPORTS/QUALIFICATION_STAGES.md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/PROMPTS/PMT-049_YouTube_HR_Automation.md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/PROMPTS/PMT-051_YouTube_AI_Design_Tools_Workflows.md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/PROMPTS/PMT-051_YouTube_AI_Design_Tools_Workflows_CONFLICT_2025-11-21.md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/PROMPTS/PMT-052_YouTube_Management_Discovery.md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/PROMPTS/PMT-052_YouTube_Management_Leadership_Workflows.md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/test/data_listing_structured.json`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/03_ANALYSIS/Gap_Analysis/Video_009_Gap_Analysis.md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/02_TRANSCRIPTIONS/Video_008.md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/02_TRANSCRIPTIONS/Video_19_Taxonomy_Extraction.md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/ARCHIVE/Pre_Taxonomy_Cleanup/Research_Reports/Video_013_Gap_Analysis.md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/REPORTS/VIDEO_METADATA_TRACKER.md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/02_TRANSCRIPTIONS/Video_002.md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/02_TRANSCRIPTIONS/Video_009.md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/02_TRANSCRIPTIONS/Video_013.md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/02_TRANSCRIPTIONS/Video_016.md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/02_TRANSCRIPTIONS/Video_024 (Спірна копія користувача HR RemotEmployees 2025-11-25).md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/02_TRANSCRIPTIONS/Video_19_ExecutionFlow.md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/03_ANALYSIS/Video_026_Execution_Plan.md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/ARCHIVE/Pre_Taxonomy_Cleanup/Research_Reports/Extractions/Extracted_Task_Templates.md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/ARCHIVE/Pre_Taxonomy_Cleanup/Research_Reports/Extractions/Phase1_Tasks_Skills_Extraction.md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/ARCHIVE/Pre_Taxonomy_Cleanup/Research_Reports/Extractions/Phase2_Infrastructure_Extraction.md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/ARCHIVE/Pre_Taxonomy_Cleanup/Research_Reports/Extractions/Phase3_Client_Deliverables_Extraction.md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/PROMPTS/PMT-044_Sales_Department_Research.md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/02_TRANSCRIPTIONS/Video_006.md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/02_TRANSCRIPTIONS/Video_007.md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/02_TRANSCRIPTIONS/Video_018.md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/ARCHIVE/Pre_Taxonomy_Cleanup/TSM-008_Video_Queue/VIDEO-001_ToDo_List_Tutorial_ExecutionFlow.md`
+
+### Modified Files
+
+- `DAILIES/Daily_Processing/Daily_Processing_Workflow/Scripts/extract_tasks_batch.py`
+- `DAILIES/Daily_Processing/Daily_Processing_Workflow/Scripts/README.md`
+- `DAILIES/PLANS/Week_4/MLT-003_Entity_Extraction.md`
+- `DAILIES/PLANS/Week_4/Daily_Processing_Workflow_Simple.md`
+- `DAILIES/PLANS/Week_4/MLT-002_Collection.md`
+- `DAILIES/PLANS/Week_4/00_Daily_Processing_Milestones_Index.md`
+- `DAILIES/PLANS/Week_4/Automation_Completion_Report.md`
+- `DAILIES/Daily_Processing/Daily_Processing_Workflow/Guides/GDS-001_Daily_Task_Processing_Instructions.md`
+- `DAILIES/Daily_Processing/Daily_Processing_Workflow/README.md`
+- `TALENTS/Employees/profiles/COPY_SUMMARY.md`
+- `RESEARCHES/VIDEO_RESEARCHES/03_ANALYSIS/Gap_Analysis/Video_022_Gap_Analysis.md`
+- `TALENTS/Employees/profiles/ORGANIZATION_SUMMARY.md`
+- `TALENTS/Employees/profiles/STATUS_ORGANIZATION_COMPLETE.md`
+- `TALENTS/Employees/profiles/FINAL_ORGANIZATION.md`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-409_Create_retention_strategy.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-412_Document_retention_process.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-402_Fix_email_personalization_-_add_LinkedIn_context.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-414_Document_client_termination_policy.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-413_Communicate_final_decision_to_MASEK_client.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-407_Talk_to_Dasha_about_retention.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-395_REVOKE_exposed_GitHub_token_immediately.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-396_Generate_new_GitHub_token.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-397_Audit_all_files_for_exposed_credentials.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-401_Schedule_WhatsApp_call_with_Wilhelm.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-406_Find_substitute_person_for_Vamos_project.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-398_Implement_secret_scanning_in_repos.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-404_Implement_deep_research_before_email_sending.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-405_Add_clear_next-step_instructions_for_clients.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-408_Identify_issues_causing_quit_desire.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-410_Retain_Vamos_employee_(2_years_tenure).json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-399_Conduct_deep_research_on_Desert_Greener.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-403_Create_email_template_with_conversation_references.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-400_Prepare_pre-meeting_research_template.json`
+- `LIBRARIES/LBS_003_Tools/Tools_Master_Inventory.csv`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-411_Resolve_accounting_payment_issues.json`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Template_Cross_Reference_Map.json`
+- `PROMPTS/Core/MAIN_PROMPT_v7/01_Core_Workflow.md`
+- `PROMPTS/PROMPTS_Master_List.csv`
+- `PROMPTS/Core/MAIN_PROMPT_v7/02_Entity_Reference.md`
+- `PROMPTS/Core/MAIN_PROMPT_v7/03_Department_Operations.md`
+- `PROMPTS/Core/MAIN_PROMPT_v7/04_Running_Projects.md`
+- `PROMPTS/Core/MAIN_PROMPT_v7/05_Quick_Reference.md`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/ARCHITECTURE_PLAN/README.MD`
+
+### Deleted Files
+
+- `PROMPTS/PMT-023_Schema_Validation.md`
+- `"TASK_MANAGERS/RESEARCHES/02_TRANSCRIPTIONS/Video_024 (\320\241\320\277\321\226\321\200\320\275\320\260 \320\272\320\276\320\277\321\226\321\217 \320\272\320\276\321\200\320\270\321\201\321\202\321\203\320\262\320\260\321\207\320\260 HR RemotEmployees 2025-11-25).md"`
+- `PROMPTS/PMT-014_Build_Taxonomy_ID_System.md`
+- `"TALENTS/Employees/profiles/Available/Video/Profile Video Editor Azanova Dar\312\274ya.md"`
+- `PROMPTS/PMT-007_Objects_Library_Extraction_1.md`
+- `PROMPTS/PMT-006_Video_Analysis_1.md`
+- `PROMPTS/PMT-019_Restructure_Employee_Profile.md`
+- `PROMPTS/MAIN_PROMPT_v5_Modular_vs_v6_UltraCondensed_Comparison.md`
+- `PROMPTS/Prompt_Locations_in_Nov25.md`
+- `PROMPTS/PMT-065_Subscription_Renewal_Alert.md`
+- `PROMPTS/FINAL_STATUS.md`
+- `PROMPTS/PROMPTS_Master_List_OLD.csv`
+- `PROMPTS/PMT-067_Rules_Automation.md`
+- `PROMPTS/PMT-012_Transcript_Processing_Workflow_1.md`
+- `PROMPTS/PMT-029_System_Health_Review.md`
+- `PROMPTS/06_department_specific_patterns.md`
+- `PROMPTS/PMT-005_Video_Naming_Alternatives_1.md`
+- `PROMPTS/README.md`
+- `PROMPTS/PMT-008_Video_Analysis_Improvements_1.md`
+- `PROMPTS/04_task_object_framework.md`
+- `PROMPTS/MAIN_PROMPT_v4_vs_v6_Comparison.md`
+- `PROMPTS/PROMPTS_Master_List_BACKUP.csv`
+- `PROMPTS/Prompts_ISO_Code_Registry_1.md`
+- `PROMPTS/PMT-070_Entity_Identification_v1.md`
+- `PROMPTS/TAXONOMY_AUDIT_REPORT_2025-11-23_1.md`
+- `PROMPTS/PMT-004_Video_Transcription_v4.1_1.md`
+- `PROMPTS/PMT-053_CV_Parser_v1.md`
+- `PROMPTS/PMT-068_Version_Control_Automation.md`
+- `PROMPTS/PMT-025_Relationship_Validation.md`
+- `PROMPTS/BUSINESSES_IMPORT_PROMPT_1.md`
+- `"DAILIES/IMPORTS/Week_3/2025-11-22_Sales_Import/archive_2025-11-22/Prospects/BUSINESSES_Prospect_Electr\303\243o_BUS-2025-018.json"`
+- `PROMPTS/PMT-024_Content_Analysis.md`
+- `PROMPTS/PROMPTS_ISO_Code_Registry.md`
+- `PROMPTS/Entity_Integration_Prompts_1.md`
+- `PROMPTS/PMT-058_Call_Organizer_v4.md`
+- `PROMPTS/ENTITY_MAPPING_GUIDE_v2.1.md`
+- `PROMPTS/PMT-010_Complete_Workflow_Full_1.md`
+- `PROMPTS/DEPARTMENT_IMPORT_TEMPLATE.md`
+- `PROMPTS/03_vocabulary_standards.md`
+- `PROMPTS/PMT-031_Architecture_Merge_Planning.md`
+- `PROMPTS/PMT-022_Data_Inventory.md`
+- `PROMPTS/PMT-021_Ecosystem_Analysis_Overview.md`
+- `PROMPTS/PMT-027_Data_Consistency.md`
+- `"DAILIES/Week3/20/Azanova Dar\312\274ya_Week_3/TODO.md"`
+- `PROMPTS/PMT-081_Integrate_Personal_Prompts_1.md`
+- `PROMPTS/PMT-070_Entity_Identification_v2_0.md`
+- `PROMPTS/PMT-066_Script_Copy_Dailies.md`
+- `"DAILIES/IMPORTS/Week_3/2025-11-22_Sales_Import/archive_2025-11-22/Prospects/BUSINESSES_Prospect_Markew\303\244rn_Studios_BUS-2025-021.json"`
+- `PROMPTS/01_employee_directory_guidance.md`
+- `PROMPTS/MIGRATION_LOG.md`
+- `PROMPTS/PMT-062_Tools_Collection_Matching.md`
+- `PROMPTS/PMT-061_Task_Manager_Entity_Filling.md`
+- `PROMPTS/RESTRUCTURING_COMPLETE.md`
+- `PROMPTS/CLEANUP_VERIFICATION.md`
+- `PROMPTS/PMT-009_Taxonomy_Integration_1.md`
+- `PROMPTS/PMT-071_Actions_Library_Extraction_1.md`
+- `PROMPTS/PMT-054_CRM_Data_Entry.md`
+- `PROMPTS/PMT-026_Synthesis_Recommendations.md`
+- `PROMPTS/RESTRUCTURING_SUMMARY.md`
+- `PROMPTS/CORRECTIONS_REQUIRED.md`
+- `PROMPTS/PROMPTS_Master_List_BACKUP_FULL.csv`
+- `PROMPTS/PMT-030_Architecture_Learning_Guide.md`
+- `PROMPTS/PROMPTS_Folder_ID_Registry.md`
+- `PROMPTS/PMT-056_Interview_Conductor.md`
+- `PROMPTS/REPORT_OUTPUT_SCHEMA_v2.1_REVISED.md`
+- `PROMPTS/PMT-090_YouTube_Video_Processing_1.md`
+- `PROMPTS/cleanup_remaining_folders.bat`
+- `PROMPTS/02_project_directory_guidance.md`
+- `PROMPTS/PMT-011_Complete_Workflow_Short_1.md`
+- `PROMPTS/PMT-070_Entity_Identification_v1_3.md`
+- `PROMPTS/PMT-069_Version_Control_Main.md`
+- `PROMPTS/RESEARCHES_Entity_Integration_Prompt_1.md`
+- `PROMPTS/update_master_list.py`
+- `PROMPTS/MASTER_CSV_SIMPLIFIED.md`
+- `PROMPTS/simplify_master_csv.py`
+- `PROMPTS/PMT-059_Document_Finished_Project.md`
+- `PROMPTS/PMT-063_Account_Creation_Validation.md`
+- `PROMPTS/compile_prompt_system.py`
+- `PROMPTS/RESTRUCTURE_FINAL.md`
+- `PROMPTS/PROMPTS_Migration_Map.json`
+- `PROMPTS/PMT-057_Job_Sites_Research.md`
+- `PROMPTS/PMT-064_Account_Security_Audit.md`
+- `PROMPTS/YouTube_Video_Tutorial_Search_Prompts_Consolidated_1.md`
+- `PROMPTS/cleanup_old_folders.py`
+- `PROMPTS/05_21_section_framework.md`
+- `PROMPTS/PROMPTS_Hierarchy_Tree.md`
+- `PROMPTS/AutoGenerate_Weekly_Plans_Prompt_1.md`
+- `PROMPTS/PMT-060_Products_Integration.md`
+- `PROMPTS/fix_restructure.py`
+- `PROMPTS/restructure_prompts.py`
+- `PROMPTS/PMT-018_Employee_Profile_Schema.md`
+- `PROMPTS/REPORT_OUTPUT_SCHEMA_v2.1.md`
+- `"TALENTS/Employees/profiles/Resumes/Azanova Dar\312\274ya.md"`
+- `PROMPTS/show_summary.py`
+
+
+---
+*Generated automatically by Dropbox to GitHub sync*
+
+
 # Changelog - 2025-11-26
 
 **Sync Date:** 2025-11-26 04:01:54 UTC

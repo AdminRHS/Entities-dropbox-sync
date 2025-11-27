@@ -1,0 +1,42 @@
+{
+  "entity_type": "TASK_MANAGERS",
+  "sub_entity": "Task_Template",
+  "template_id": "Task-Template-126",
+  "task_template_id": "TST-126",
+  "metadata": {
+    "task_name": "Create Master JSON for Job Sites",
+    "description": "Create Master JSON for Job Sites",
+    "department": "LGN",
+    "category": "Development",
+    "priority": "High",
+    "complexity": "Medium",
+    "status": "Active",
+    "estimated_duration": "3 hours (1 hour research + 1.5 hours data entry + 30 min qualification)",
+    "business_impact": "Medium",
+    "created_date": "2025-11-26",
+    "version": "1.0"
+  },
+  "execution": {
+    "matched_template": "CUSTOM",
+    "quick_win": false,
+    "blocking_dependencies": []
+  },
+  "assignment": {
+    "assigned_to": "TBD",
+    "queue_position": ""
+  },
+  "steps": [],
+  "tags": [
+    "development",
+    "lgn"
+  ],
+  "version": "1.0",
+  "created": "2025-11-26",
+  "last_updated": "2025-11-26",
+  "migration_notes": {
+    "original_id": "TSK-126",
+    "converted_from": "Task_Template_Mapping.csv",
+    "conversion_date": "2025-11-26",
+    "source": "Week 3 Task Mapping"
+  }
+}

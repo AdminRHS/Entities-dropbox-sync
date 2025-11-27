@@ -1,0 +1,1733 @@
+{
+  "generated_at": "2025-11-26T15:36:04.155249+00:00",
+  "markdown_listing": [
+    {
+      "path": "DATA/DASHBOARD_PROMPT.md",
+      "entity_id": "",
+      "entity_type": "other",
+      "department": "DASHBOARD_PROMPT.md",
+      "status": "Active",
+      "phase": "",
+      "last_modified": "1763967840.0"
+    },
+    {
+      "path": "DATA/id_and_status_rules.md",
+      "entity_id": "RSH-VID-001",
+      "entity_type": "other",
+      "department": "id_and_status_rules.md",
+      "status": "Active",
+      "phase": "",
+      "last_modified": "1764168993.4225972"
+    },
+    {
+      "path": "DATA/README.md",
+      "entity_id": "",
+      "entity_type": "other",
+      "department": "README.md",
+      "status": "Active",
+      "phase": "",
+      "last_modified": "1763967934.0"
+    },
+    {
+      "path": "DATA/SCRIPTS_INVENTORY.md",
+      "entity_id": "",
+      "entity_type": "other",
+      "department": "SCRIPTS_INVENTORY.md",
+      "status": "",
+      "phase": "",
+      "last_modified": "1763965119.0"
+    },
+    {
+      "path": "DATA/SYSTEM_OVERVIEW.md",
+      "entity_id": "Video_001",
+      "entity_type": "other",
+      "department": "SYSTEM_OVERVIEW.md",
+      "status": "Active",
+      "phase": "",
+      "last_modified": "1763968049.0"
+    },
+    {
+      "path": "DATA/TSM_TAXONOMY_INTEGRATION_SUMMARY.md",
+      "entity_id": "RSR-001",
+      "entity_type": "other",
+      "department": "TSM_TAXONOMY_INTEGRATION_SUMMARY.md",
+      "status": "Archived",
+      "phase": "",
+      "last_modified": "1763945654.0"
+    },
+    {
+      "path": "DATA/00_SEARCH_QUEUE/README.md",
+      "entity_id": "",
+      "entity_type": "queue",
+      "department": "00_SEARCH_QUEUE",
+      "status": "Active",
+      "phase": "",
+      "last_modified": "1763944848.0"
+    },
+    {
+      "path": "DATA/01_VIDEO_QUEUE/Queue_Integration_Guide.md",
+      "entity_id": "",
+      "entity_type": "queue",
+      "department": "01_VIDEO_QUEUE",
+      "status": "Archived",
+      "phase": "",
+      "last_modified": "1763941393.0"
+    },
+    {
+      "path": "DATA/01_VIDEO_QUEUE/Queue_System_README.md",
+      "entity_id": "",
+      "entity_type": "queue",
+      "department": "01_VIDEO_QUEUE",
+      "status": "Active",
+      "phase": "",
+      "last_modified": "1763941393.0"
+    },
+    {
+      "path": "DATA/01_VIDEO_QUEUE/README.md",
+      "entity_id": "",
+      "entity_type": "queue",
+      "department": "01_VIDEO_QUEUE",
+      "status": "Archived",
+      "phase": "",
+      "last_modified": "1763941393.0"
+    },
+    {
+      "path": "DATA/01_VIDEO_QUEUE/Transcription_Queue.md",
+      "entity_id": "",
+      "entity_type": "queue",
+      "department": "01_VIDEO_QUEUE",
+      "status": "Archived",
+      "phase": "",
+      "last_modified": "1763941938.0"
+    },
+    {
+      "path": "DATA/01_VIDEO_QUEUE/Video_Queue_Tracker.md",
+      "entity_id": "Video_018",
+      "entity_type": "queue",
+      "department": "01_VIDEO_QUEUE",
+      "status": "Active",
+      "phase": "",
+      "last_modified": "1763811992.0"
+    },
+    {
+      "path": "DATA/02_TRANSCRIPTIONS/README.md",
+      "entity_id": "Video_001",
+      "entity_type": "video",
+      "department": "02_TRANSCRIPTIONS",
+      "status": "Active",
+      "phase": "",
+      "last_modified": "1763754976.0"
+    },
+    {
+      "path": "DATA/02_TRANSCRIPTIONS/VIDEOS_INDEX.md",
+      "entity_id": "Video_001",
+      "entity_type": "video",
+      "department": "02_TRANSCRIPTIONS",
+      "status": "Active",
+      "phase": "",
+      "last_modified": "1763996368.0"
+    },
+    {
+      "path": "DATA/02_TRANSCRIPTIONS/Video_001.md",
+      "entity_id": "Video_001",
+      "entity_type": "video",
+      "department": "02_TRANSCRIPTIONS",
+      "status": "",
+      "phase": "",
+      "last_modified": "1763754965.0"
+    },
+    {
+      "path": "DATA/02_TRANSCRIPTIONS/Video_002.md",
+      "entity_id": "Video_002",
+      "entity_type": "video",
+      "department": "02_TRANSCRIPTIONS",
+      "status": "",
+      "phase": "",
+      "last_modified": "1763754965.0"
+    },
+    {
+      "path": "DATA/02_TRANSCRIPTIONS/Video_003.md",
+      "entity_id": "Video_003",
+      "entity_type": "video",
+      "department": "02_TRANSCRIPTIONS",
+      "status": "Active",
+      "phase": "",
+      "last_modified": "1763754965.0"
+    },
+    {
+      "path": "DATA/02_TRANSCRIPTIONS/Video_004.md",
+      "entity_id": "Video_004",
+      "entity_type": "video",
+      "department": "02_TRANSCRIPTIONS",
+      "status": "Draft",
+      "phase": "",
+      "last_modified": "1763754965.0"
+    },
+    {
+      "path": "DATA/02_TRANSCRIPTIONS/Video_005.md",
+      "entity_id": "Video_005",
+      "entity_type": "video",
+      "department": "02_TRANSCRIPTIONS",
+      "status": "Active",
+      "phase": "",
+      "last_modified": "1763754965.0"
+    },
+    {
+      "path": "DATA/02_TRANSCRIPTIONS/Video_006.md",
+      "entity_id": "Video_006",
+      "entity_type": "video",
+      "department": "02_TRANSCRIPTIONS",
+      "status": "Active",
+      "phase": "",
+      "last_modified": "1763754965.0"
+    },
+    {
+      "path": "DATA/02_TRANSCRIPTIONS/Video_007.md",
+      "entity_id": "Video_007",
+      "entity_type": "video",
+      "department": "02_TRANSCRIPTIONS",
+      "status": "",
+      "phase": "",
+      "last_modified": "1763754965.0"
+    },
+    {
+      "path": "DATA/02_TRANSCRIPTIONS/Video_008.md",
+      "entity_id": "Video_008",
+      "entity_type": "video",
+      "department": "02_TRANSCRIPTIONS",
+      "status": "Draft",
+      "phase": "",
+      "last_modified": "1763754965.0"
+    },
+    {
+      "path": "DATA/02_TRANSCRIPTIONS/Video_009.md",
+      "entity_id": "Video_009",
+      "entity_type": "video",
+      "department": "02_TRANSCRIPTIONS",
+      "status": "",
+      "phase": "",
+      "last_modified": "1763754965.0"
+    },
+    {
+      "path": "DATA/02_TRANSCRIPTIONS/Video_010.md",
+      "entity_id": "Video_010",
+      "entity_type": "video",
+      "department": "02_TRANSCRIPTIONS",
+      "status": "",
+      "phase": "",
+      "last_modified": "1763754965.0"
+    },
+    {
+      "path": "DATA/02_TRANSCRIPTIONS/Video_011.md",
+      "entity_id": "Video_011",
+      "entity_type": "video",
+      "department": "02_TRANSCRIPTIONS",
+      "status": "",
+      "phase": "",
+      "last_modified": "1763754965.0"
+    },
+    {
+      "path": "DATA/02_TRANSCRIPTIONS/Video_012.md",
+      "entity_id": "Video_012",
+      "entity_type": "video",
+      "department": "02_TRANSCRIPTIONS",
+      "status": "",
+      "phase": "",
+      "last_modified": "1763754965.0"
+    },
+    {
+      "path": "DATA/02_TRANSCRIPTIONS/Video_013.md",
+      "entity_id": "Video_013",
+      "entity_type": "video",
+      "department": "02_TRANSCRIPTIONS",
+      "status": "Draft",
+      "phase": "",
+      "last_modified": "1763754965.0"
+    },
+    {
+      "path": "DATA/02_TRANSCRIPTIONS/Video_014.md",
+      "entity_id": "Video_014",
+      "entity_type": "video",
+      "department": "02_TRANSCRIPTIONS",
+      "status": "",
+      "phase": "",
+      "last_modified": "1763754965.0"
+    },
+    {
+      "path": "DATA/02_TRANSCRIPTIONS/Video_016.md",
+      "entity_id": "Video_016",
+      "entity_type": "video",
+      "department": "02_TRANSCRIPTIONS",
+      "status": "Draft",
+      "phase": "",
+      "last_modified": "1763754965.0"
+    },
+    {
+      "path": "DATA/02_TRANSCRIPTIONS/Video_016_Processing_Summary.md",
+      "entity_id": "Video_016",
+      "entity_type": "video",
+      "department": "02_TRANSCRIPTIONS",
+      "status": "",
+      "phase": "",
+      "last_modified": "1763754965.0"
+    },
+    {
+      "path": "DATA/02_TRANSCRIPTIONS/Video_017.md",
+      "entity_id": "Video_017",
+      "entity_type": "video",
+      "department": "02_TRANSCRIPTIONS",
+      "status": "Draft",
+      "phase": "",
+      "last_modified": "1763754965.0"
+    },
+    {
+      "path": "DATA/02_TRANSCRIPTIONS/Video_018.md",
+      "entity_id": "Video_018",
+      "entity_type": "video",
+      "department": "02_TRANSCRIPTIONS",
+      "status": "Draft",
+      "phase": "",
+      "last_modified": "1763754965.0"
+    },
+    {
+      "path": "DATA/02_TRANSCRIPTIONS/Video_021.md",
+      "entity_id": "Video_021",
+      "entity_type": "video",
+      "department": "02_TRANSCRIPTIONS",
+      "status": "",
+      "phase": "",
+      "last_modified": "1763814731.0"
+    },
+    {
+      "path": "DATA/02_TRANSCRIPTIONS/Video_022.md",
+      "entity_id": "Video_022",
+      "entity_type": "video",
+      "department": "02_TRANSCRIPTIONS",
+      "status": "",
+      "phase": "",
+      "last_modified": "1763852327.0"
+    },
+    {
+      "path": "DATA/02_TRANSCRIPTIONS/Video_023.md",
+      "entity_id": "Video_023",
+      "entity_type": "video",
+      "department": "02_TRANSCRIPTIONS",
+      "status": "",
+      "phase": "",
+      "last_modified": "1763939852.0"
+    },
+    {
+      "path": "DATA/02_TRANSCRIPTIONS/Video_024 (Спірна копія користувача HR RemotEmployees 2025-11-25).md",
+      "entity_id": "Video_024",
+      "entity_type": "video",
+      "department": "02_TRANSCRIPTIONS",
+      "status": "Active",
+      "phase": "",
+      "last_modified": "1764007526.0"
+    },
+    {
+      "path": "DATA/02_TRANSCRIPTIONS/Video_024.md",
+      "entity_id": "Video_024",
+      "entity_type": "video",
+      "department": "02_TRANSCRIPTIONS",
+      "status": "Active",
+      "phase": "",
+      "last_modified": "1763995133.0"
+    },
+    {
+      "path": "DATA/02_TRANSCRIPTIONS/Video_025.md",
+      "entity_id": "Video_025",
+      "entity_type": "video",
+      "department": "02_TRANSCRIPTIONS",
+      "status": "Draft",
+      "phase": "",
+      "last_modified": "1764008728.0"
+    },
+    {
+      "path": "DATA/02_TRANSCRIPTIONS/Video_026.md",
+      "entity_id": "Video_026",
+      "entity_type": "video",
+      "department": "02_TRANSCRIPTIONS",
+      "status": "Active",
+      "phase": "",
+      "last_modified": "1764010259.0"
+    },
+    {
+      "path": "DATA/02_TRANSCRIPTIONS/Video_19.md",
+      "entity_id": "Video_19",
+      "entity_type": "video",
+      "department": "02_TRANSCRIPTIONS",
+      "status": "",
+      "phase": "",
+      "last_modified": "1763811345.0"
+    },
+    {
+      "path": "DATA/02_TRANSCRIPTIONS/Video_19_ExecutionFlow.md",
+      "entity_id": "Video_19",
+      "entity_type": "video",
+      "department": "02_TRANSCRIPTIONS",
+      "status": "Active",
+      "phase": "",
+      "last_modified": "1763941393.0"
+    },
+    {
+      "path": "DATA/02_TRANSCRIPTIONS/Video_19_Processing_Summary.md",
+      "entity_id": "Video_19",
+      "entity_type": "video",
+      "department": "02_TRANSCRIPTIONS",
+      "status": "",
+      "phase": "",
+      "last_modified": "1763941393.0"
+    },
+    {
+      "path": "DATA/02_TRANSCRIPTIONS/Video_19_Taxonomy_Extraction.md",
+      "entity_id": "Video_19",
+      "entity_type": "video",
+      "department": "02_TRANSCRIPTIONS",
+      "status": "Draft",
+      "phase": "",
+      "last_modified": "1763812217.0"
+    },
+    {
+      "path": "DATA/02_TRANSCRIPTIONS/Video_20.md",
+      "entity_id": "Video_20",
+      "entity_type": "video",
+      "department": "02_TRANSCRIPTIONS",
+      "status": "",
+      "phase": "",
+      "last_modified": "1763809795.0"
+    },
+    {
+      "path": "DATA/02_TRANSCRIPTIONS/Video_Discovery_Pipeline.md",
+      "entity_id": "Video_005",
+      "entity_type": "video",
+      "department": "02_TRANSCRIPTIONS",
+      "status": "Active",
+      "phase": "",
+      "last_modified": "1763754965.0"
+    },
+    {
+      "path": "DATA/02_TRANSCRIPTIONS/Video_Queue_Tracker.md",
+      "entity_id": "Video_018",
+      "entity_type": "video",
+      "department": "02_TRANSCRIPTIONS",
+      "status": "Active",
+      "phase": "",
+      "last_modified": "1763754965.0"
+    },
+    {
+      "path": "DATA/03_ANALYSIS/gap_analysis_Video_022_20251124_021632.md",
+      "entity_id": "Video_022",
+      "entity_type": "analysis",
+      "department": "03_ANALYSIS",
+      "status": "",
+      "phase": "",
+      "last_modified": "1763946992.0"
+    },
+    {
+      "path": "DATA/03_ANALYSIS/gap_analysis_Video_022_20251124_021705.md",
+      "entity_id": "Video_022",
+      "entity_type": "analysis",
+      "department": "03_ANALYSIS",
+      "status": "",
+      "phase": "",
+      "last_modified": "1763947025.0"
+    },
+    {
+      "path": "DATA/03_ANALYSIS/Video_024_Execution_Plan.md",
+      "entity_id": "Video_024",
+      "entity_type": "analysis",
+      "department": "03_ANALYSIS",
+      "status": "Draft",
+      "phase": "",
+      "last_modified": "1764007946.0"
+    },
+    {
+      "path": "DATA/03_ANALYSIS/Video_025_Execution_Plan.md",
+      "entity_id": "Video_025",
+      "entity_type": "analysis",
+      "department": "03_ANALYSIS",
+      "status": "Draft",
+      "phase": "",
+      "last_modified": "1764009091.0"
+    },
+    {
+      "path": "DATA/03_ANALYSIS/Video_026_Execution_Plan.md",
+      "entity_id": "Video_026",
+      "entity_type": "analysis",
+      "department": "03_ANALYSIS",
+      "status": "Active",
+      "phase": "",
+      "last_modified": "1764010565.0"
+    },
+    {
+      "path": "DATA/DATA/RSH-VID-001_AI_Video_Tools_Research.md",
+      "entity_id": "RSH-VID-001",
+      "entity_type": "other",
+      "department": "DATA",
+      "status": "",
+      "phase": "",
+      "last_modified": "1763941160.0"
+    },
+    {
+      "path": "DATA/DATA/Video_Search_Prompt_n8n_OpenAI_Google.md",
+      "entity_id": "",
+      "entity_type": "other",
+      "department": "DATA",
+      "status": "",
+      "phase": "",
+      "last_modified": "1763735433.0"
+    },
+    {
+      "path": "DATA/PROMPTS/PMT-044_Sales_Department_Research.md",
+      "entity_id": "",
+      "entity_type": "prompt",
+      "department": "PROMPTS",
+      "status": "Active",
+      "phase": "",
+      "last_modified": "1763738693.0"
+    },
+    {
+      "path": "DATA/PROMPTS/PMT-045_SMM_Document_Processing.md",
+      "entity_id": "",
+      "entity_type": "prompt",
+      "department": "PROMPTS",
+      "status": "Draft",
+      "phase": "",
+      "last_modified": "1763738693.0"
+    },
+    {
+      "path": "DATA/PROMPTS/PMT-046_VSCode_Agent_HQ_Research.md",
+      "entity_id": "",
+      "entity_type": "prompt",
+      "department": "PROMPTS",
+      "status": "",
+      "phase": "",
+      "last_modified": "1763738693.0"
+    },
+    {
+      "path": "DATA/PROMPTS/PMT-047_YouTube_AI_HR_Tutorials.md",
+      "entity_id": "",
+      "entity_type": "prompt",
+      "department": "PROMPTS",
+      "status": "Active",
+      "phase": "",
+      "last_modified": "1763738693.0"
+    },
+    {
+      "path": "DATA/PROMPTS/PMT-048_YouTube_AI_Tools_Daily.md",
+      "entity_id": "",
+      "entity_type": "prompt",
+      "department": "PROMPTS",
+      "status": "Active",
+      "phase": "",
+      "last_modified": "1763738693.0"
+    },
+    {
+      "path": "DATA/PROMPTS/PMT-049_YouTube_HR_Automation.md",
+      "entity_id": "TASK-TEMPLATE-001",
+      "entity_type": "prompt",
+      "department": "PROMPTS",
+      "status": "Active",
+      "phase": "",
+      "last_modified": "1763738693.0"
+    },
+    {
+      "path": "DATA/PROMPTS/PMT-050_YouTube_Remote_Helpers.md",
+      "entity_id": "",
+      "entity_type": "prompt",
+      "department": "PROMPTS",
+      "status": "Active",
+      "phase": "",
+      "last_modified": "1763738693.0"
+    },
+    {
+      "path": "DATA/PROMPTS/PMT-051_Department_Research_Integration.md",
+      "entity_id": "TASK-VIDEO-004",
+      "entity_type": "prompt",
+      "department": "PROMPTS",
+      "status": "Active",
+      "phase": "",
+      "last_modified": "1763941160.0"
+    },
+    {
+      "path": "DATA/PROMPTS/PMT-051_YouTube_AI_Design_Tools_Workflows.md",
+      "entity_id": "",
+      "entity_type": "prompt",
+      "department": "PROMPTS",
+      "status": "Active",
+      "phase": "",
+      "last_modified": "1763741758.0"
+    },
+    {
+      "path": "DATA/PROMPTS/PMT-051_YouTube_AI_Design_Tools_Workflows_CONFLICT_2025-11-21.md",
+      "entity_id": "",
+      "entity_type": "prompt",
+      "department": "PROMPTS",
+      "status": "Active",
+      "phase": "",
+      "last_modified": "1763741758.0"
+    },
+    {
+      "path": "DATA/PROMPTS/PMT-052_Design_AI_Tutorials_Perplexity_Prompt.md",
+      "entity_id": "",
+      "entity_type": "prompt",
+      "department": "PROMPTS",
+      "status": "Active",
+      "phase": "",
+      "last_modified": "1763741758.0"
+    },
+    {
+      "path": "DATA/PROMPTS/PMT-052_VSCode_AI_Extensions.md",
+      "entity_id": "",
+      "entity_type": "prompt",
+      "department": "PROMPTS",
+      "status": "Active",
+      "phase": "",
+      "last_modified": "1763738693.0"
+    },
+    {
+      "path": "DATA/PROMPTS/PMT-052_YouTube_Management_Discovery.md",
+      "entity_id": "",
+      "entity_type": "prompt",
+      "department": "PROMPTS",
+      "status": "Active",
+      "phase": "",
+      "last_modified": "1763741758.0"
+    },
+    {
+      "path": "DATA/PROMPTS/PMT-052_YouTube_Management_Documentation.md",
+      "entity_id": "",
+      "entity_type": "prompt",
+      "department": "PROMPTS",
+      "status": "Active",
+      "phase": "",
+      "last_modified": "1763741758.0"
+    },
+    {
+      "path": "DATA/PROMPTS/PMT-052_YouTube_Management_Leadership_Workflows.md",
+      "entity_id": "",
+      "entity_type": "prompt",
+      "department": "PROMPTS",
+      "status": "",
+      "phase": "",
+      "last_modified": "1763741758.0"
+    },
+    {
+      "path": "DATA/PROMPTS/PMT-082_Advanced_Prompting_Course_Creation.md",
+      "entity_id": "",
+      "entity_type": "prompt",
+      "department": "PROMPTS",
+      "status": "Active",
+      "phase": "",
+      "last_modified": "1763741758.0"
+    },
+    {
+      "path": "DATA/PROMPTS/PMT-083_GenSpark_Course_Creation.md",
+      "entity_id": "",
+      "entity_type": "prompt",
+      "department": "PROMPTS",
+      "status": "Active",
+      "phase": "",
+      "last_modified": "1763741758.0"
+    },
+    {
+      "path": "DATA/PROMPTS/PMT-085_Photo_Editing_AI_Research.md",
+      "entity_id": "",
+      "entity_type": "prompt",
+      "department": "PROMPTS",
+      "status": "Active",
+      "phase": "",
+      "last_modified": "1763741758.0"
+    },
+    {
+      "path": "DATA/PROMPTS/PMT-089_YouTube_AI_Tutorials_Research.md",
+      "entity_id": "",
+      "entity_type": "prompt",
+      "department": "PROMPTS",
+      "status": "Active",
+      "phase": "",
+      "last_modified": "1763741758.0"
+    },
+    {
+      "path": "DATA/PROMPTS/PMT-093_Design_AI_Video_Discovery.md",
+      "entity_id": "",
+      "entity_type": "prompt",
+      "department": "PROMPTS",
+      "status": "Active",
+      "phase": "",
+      "last_modified": "1763741758.0"
+    },
+    {
+      "path": "DATA/PROMPTS/PMT-097_YouTube_AI_Models_Deep_Research.md",
+      "entity_id": "",
+      "entity_type": "prompt",
+      "department": "PROMPTS",
+      "status": "Active",
+      "phase": "",
+      "last_modified": "1763941393.0"
+    },
+    {
+      "path": "DATA/PROMPTS/PMT-098_OpenAI_Automation_Examples_Company_Adoption.md",
+      "entity_id": "RSH-AI-002",
+      "entity_type": "prompt",
+      "department": "PROMPTS",
+      "status": "Active",
+      "phase": "",
+      "last_modified": "1763846022.0"
+    },
+    {
+      "path": "DATA/PROMPTS/README.md",
+      "entity_id": "Video_006",
+      "entity_type": "prompt",
+      "department": "PROMPTS",
+      "status": "Active",
+      "phase": "",
+      "last_modified": "1763941160.0"
+    },
+    {
+      "path": "DATA/PROMPTS/README_MIGRATION.md",
+      "entity_id": "",
+      "entity_type": "prompt",
+      "department": "PROMPTS",
+      "status": "Archived",
+      "phase": "",
+      "last_modified": "1763751427.0"
+    },
+    {
+      "path": "DATA/PROMPTS/Universal Research Prompt.md",
+      "entity_id": "",
+      "entity_type": "prompt",
+      "department": "PROMPTS",
+      "status": "",
+      "phase": "",
+      "last_modified": "1763860622.0"
+    },
+    {
+      "path": "DATA/PROMPTS/VIDEO_RESEARCHES_Prompt_Examples.md",
+      "entity_id": "RSH-VID-001",
+      "entity_type": "prompt",
+      "department": "PROMPTS",
+      "status": "",
+      "phase": "",
+      "last_modified": "1763941393.0"
+    },
+    {
+      "path": "DATA/REPORTS/CONSOLIDATION_COMPLETE.md",
+      "entity_id": "Video_001",
+      "entity_type": "report",
+      "department": "REPORTS",
+      "status": "",
+      "phase": "",
+      "last_modified": "1763941393.0"
+    },
+    {
+      "path": "DATA/REPORTS/integration_report_Video_022_20251124_021632.md",
+      "entity_id": "Video_022",
+      "entity_type": "report",
+      "department": "REPORTS",
+      "status": "",
+      "phase": "",
+      "last_modified": "1763946992.0"
+    },
+    {
+      "path": "DATA/REPORTS/integration_report_Video_022_20251124_021705.md",
+      "entity_id": "Video_022",
+      "entity_type": "report",
+      "department": "REPORTS",
+      "status": "",
+      "phase": "",
+      "last_modified": "1763947025.0"
+    },
+    {
+      "path": "DATA/REPORTS/Master_Video_Status_Overview_2025-11-24.md",
+      "entity_id": "Video_022",
+      "entity_type": "report",
+      "department": "REPORTS",
+      "status": "",
+      "phase": "",
+      "last_modified": "1763977374.0"
+    },
+    {
+      "path": "DATA/REPORTS/Phase_Redundancy_Analysis_2025-11-24.md",
+      "entity_id": "Video_001",
+      "entity_type": "report",
+      "department": "REPORTS",
+      "status": "Active",
+      "phase": "",
+      "last_modified": "1763965150.0"
+    },
+    {
+      "path": "DATA/REPORTS/Phase_Restructure_Plan_2025-11-24.md",
+      "entity_id": "",
+      "entity_type": "report",
+      "department": "REPORTS",
+      "status": "Active",
+      "phase": "",
+      "last_modified": "1763964915.0"
+    },
+    {
+      "path": "DATA/REPORTS/Phase_Restructure_Summary_2025-11-24.md",
+      "entity_id": "Video_001",
+      "entity_type": "report",
+      "department": "REPORTS",
+      "status": "Active",
+      "phase": "",
+      "last_modified": "1763966044.0"
+    },
+    {
+      "path": "DATA/REPORTS/PROCESSING_STATUS_REPORT.md",
+      "entity_id": "Video_001",
+      "entity_type": "report",
+      "department": "REPORTS",
+      "status": "Archived",
+      "phase": "",
+      "last_modified": "1763941393.0"
+    },
+    {
+      "path": "DATA/REPORTS/QUALIFICATION_STAGES.md",
+      "entity_id": "Video_001",
+      "entity_type": "report",
+      "department": "REPORTS",
+      "status": "Active",
+      "phase": "",
+      "last_modified": "1763941393.0"
+    },
+    {
+      "path": "DATA/REPORTS/TAXONOMY_CONSISTENCY_REPORT.md",
+      "entity_id": "",
+      "entity_type": "report",
+      "department": "REPORTS",
+      "status": "Active",
+      "phase": "",
+      "last_modified": "1763943378.0"
+    },
+    {
+      "path": "DATA/REPORTS/Transcription_Queue.md",
+      "entity_id": "",
+      "entity_type": "report",
+      "department": "REPORTS",
+      "status": "Archived",
+      "phase": "",
+      "last_modified": "1763941938.0"
+    },
+    {
+      "path": "DATA/REPORTS/TSM_TAXONOMY_INTEGRATION_SUMMARY.md",
+      "entity_id": "RSR-001",
+      "entity_type": "report",
+      "department": "REPORTS",
+      "status": "Archived",
+      "phase": "",
+      "last_modified": "1763945090.0"
+    },
+    {
+      "path": "DATA/REPORTS/Video_022_Processing_Flow_Verification.md",
+      "entity_id": "Video_022",
+      "entity_type": "report",
+      "department": "REPORTS",
+      "status": "",
+      "phase": "",
+      "last_modified": "1763941393.0"
+    },
+    {
+      "path": "DATA/REPORTS/Video_023_Integration_Report.md",
+      "entity_id": "Video_023",
+      "entity_type": "report",
+      "department": "REPORTS",
+      "status": "",
+      "phase": "",
+      "last_modified": "1763943195.0"
+    },
+    {
+      "path": "DATA/REPORTS/VIDEO_METADATA_TRACKER.md",
+      "entity_id": "Video_001",
+      "entity_type": "report",
+      "department": "REPORTS",
+      "status": "Archived",
+      "phase": "",
+      "last_modified": "1763941393.0"
+    },
+    {
+      "path": "DATA/REPORTS/Video_Processing_README.md",
+      "entity_id": "",
+      "entity_type": "report",
+      "department": "REPORTS",
+      "status": "Active",
+      "phase": "",
+      "last_modified": "1763735433.0"
+    },
+    {
+      "path": "DATA/REPORTS/Video_Processing_README_MIGRATION.md",
+      "entity_id": "",
+      "entity_type": "report",
+      "department": "REPORTS",
+      "status": "Archived",
+      "phase": "",
+      "last_modified": "1763941938.0"
+    },
+    {
+      "path": "DATA/REPORTS/VIDEO_RESEARCHES_Example_Report.md",
+      "entity_id": "RSH-VID-001",
+      "entity_type": "report",
+      "department": "REPORTS",
+      "status": "",
+      "phase": "",
+      "last_modified": "1763675197.0"
+    },
+    {
+      "path": "DATA/REPORTS/Video_Search_Prompts_Complete_Index.md",
+      "entity_id": "",
+      "entity_type": "report",
+      "department": "REPORTS",
+      "status": "Active",
+      "phase": "",
+      "last_modified": "1763942194.0"
+    },
+    {
+      "path": "DATA/scripts/README.md",
+      "entity_id": "Video_024",
+      "entity_type": "other",
+      "department": "scripts",
+      "status": "",
+      "phase": "",
+      "last_modified": "1763946967.0"
+    },
+    {
+      "path": "DATA/TAXONOMY/RESEARCHES_Taxonomy_DRAFT.md",
+      "entity_id": "",
+      "entity_type": "other",
+      "department": "TAXONOMY",
+      "status": "Draft",
+      "phase": "",
+      "last_modified": "1763941160.0"
+    },
+    {
+      "path": "DATA/TAXONOMY/TAXONOMY.md",
+      "entity_id": "Video_001",
+      "entity_type": "other",
+      "department": "TAXONOMY",
+      "status": "",
+      "phase": "",
+      "last_modified": "1763941393.0"
+    },
+    {
+      "path": "DATA/ARCHIVE/00_PHASES/Phase_System_Overview.md",
+      "entity_id": "",
+      "entity_type": "archive",
+      "department": "ARCHIVE",
+      "status": "Active",
+      "phase": "",
+      "last_modified": "1763941938.0"
+    },
+    {
+      "path": "DATA/ARCHIVE/04_INFLUENCER_DATA/README.md",
+      "entity_id": "",
+      "entity_type": "archive",
+      "department": "ARCHIVE",
+      "status": "Active",
+      "phase": "",
+      "last_modified": "1763755081.0"
+    },
+    {
+      "path": "DATA/ARCHIVE/MAPPINGS/VIDEO_RESEARCHES_Source_Mapping.md",
+      "entity_id": "Video_001",
+      "entity_type": "archive",
+      "department": "ARCHIVE",
+      "status": "Active",
+      "phase": "",
+      "last_modified": "1763941393.0"
+    },
+    {
+      "path": "DATA/ARCHIVE/Pre_Taxonomy_Cleanup/FILES.md",
+      "entity_id": "Video_20",
+      "entity_type": "archive",
+      "department": "ARCHIVE",
+      "status": "Active",
+      "phase": "",
+      "last_modified": "1763941393.0"
+    },
+    {
+      "path": "DATA/ARCHIVE/Pre_Taxonomy_Cleanup/Key_Biddings_VS_code.md",
+      "entity_id": "",
+      "entity_type": "archive",
+      "department": "ARCHIVE",
+      "status": "",
+      "phase": "",
+      "last_modified": "1763680025.0"
+    },
+    {
+      "path": "DATA/ARCHIVE/Pre_Taxonomy_Cleanup/MIGRATION_COMPLETE.md",
+      "entity_id": "",
+      "entity_type": "archive",
+      "department": "ARCHIVE",
+      "status": "",
+      "phase": "",
+      "last_modified": "1763941393.0"
+    },
+    {
+      "path": "DATA/ARCHIVE/Pre_Taxonomy_Cleanup/MIGRATION_LOG.md",
+      "entity_id": "",
+      "entity_type": "archive",
+      "department": "ARCHIVE",
+      "status": "",
+      "phase": "",
+      "last_modified": "1763941938.0"
+    },
+    {
+      "path": "DATA/ARCHIVE/Pre_Taxonomy_Cleanup/n8n_similar_platforms_research_prompt.md",
+      "entity_id": "",
+      "entity_type": "archive",
+      "department": "ARCHIVE",
+      "status": "",
+      "phase": "",
+      "last_modified": "1763835737.0"
+    },
+    {
+      "path": "DATA/ARCHIVE/Pre_Taxonomy_Cleanup/oa-y_Libraries_TaskManagers_Gap_Analysis.md",
+      "entity_id": "Video_005",
+      "entity_type": "archive",
+      "department": "ARCHIVE",
+      "status": "",
+      "phase": "",
+      "last_modified": "1763941160.0"
+    },
+    {
+      "path": "DATA/ARCHIVE/Pre_Taxonomy_Cleanup/oa-y_Research_Data_Flow_Notes.md",
+      "entity_id": "Video_006",
+      "entity_type": "archive",
+      "department": "ARCHIVE",
+      "status": "",
+      "phase": "",
+      "last_modified": "1763941160.0"
+    },
+    {
+      "path": "DATA/ARCHIVE/Pre_Taxonomy_Cleanup/README_Library.md",
+      "entity_id": "Video_001",
+      "entity_type": "archive",
+      "department": "ARCHIVE",
+      "status": "Active",
+      "phase": "",
+      "last_modified": "1763390328.0"
+    },
+    {
+      "path": "DATA/ARCHIVE/Pre_Taxonomy_Cleanup/TASK.md",
+      "entity_id": "RSH-AI-002",
+      "entity_type": "archive",
+      "department": "ARCHIVE",
+      "status": "Active",
+      "phase": "",
+      "last_modified": "1763941393.0"
+    },
+    {
+      "path": "DATA/ARCHIVE/Work_Logs/Video_021_Work_Log_2025-11-22.md",
+      "entity_id": "Video_021",
+      "entity_type": "archive",
+      "department": "ARCHIVE",
+      "status": "Active",
+      "phase": "",
+      "last_modified": "1763941393.0"
+    },
+    {
+      "path": "DATA/ARCHIVE/Pre_Taxonomy_Cleanup/24/README.md",
+      "entity_id": "Video_006",
+      "entity_type": "archive",
+      "department": "ARCHIVE",
+      "status": "Archived",
+      "phase": "",
+      "last_modified": "1763941159.0"
+    },
+    {
+      "path": "DATA/ARCHIVE/Pre_Taxonomy_Cleanup/LOGS/ACTIVE_EMPLOYEES_LIST.md",
+      "entity_id": "RSH-AI-001",
+      "entity_type": "archive",
+      "department": "ARCHIVE",
+      "status": "Active",
+      "phase": "",
+      "last_modified": "1763765476.0"
+    },
+    {
+      "path": "DATA/ARCHIVE/Pre_Taxonomy_Cleanup/LOGS/ASSIGNMENT_GUIDELINES.md",
+      "entity_id": "Video_006",
+      "entity_type": "archive",
+      "department": "ARCHIVE",
+      "status": "Active",
+      "phase": "",
+      "last_modified": "1763941160.0"
+    },
+    {
+      "path": "DATA/ARCHIVE/Pre_Taxonomy_Cleanup/LOGS/DEPARTMENT_GAP_ANALYSIS.md",
+      "entity_id": "RSH-AI-001",
+      "entity_type": "archive",
+      "department": "ARCHIVE",
+      "status": "",
+      "phase": "",
+      "last_modified": "1763941160.0"
+    },
+    {
+      "path": "DATA/ARCHIVE/Pre_Taxonomy_Cleanup/LOGS/EMPLOYEE_RESEARCH_HISTORY.md",
+      "entity_id": "",
+      "entity_type": "archive",
+      "department": "ARCHIVE",
+      "status": "Active",
+      "phase": "",
+      "last_modified": "1763941160.0"
+    },
+    {
+      "path": "DATA/ARCHIVE/Pre_Taxonomy_Cleanup/LOGS/HOW_TO_ASSIGN_RESEARCH.md",
+      "entity_id": "RSH-VID-001",
+      "entity_type": "archive",
+      "department": "ARCHIVE",
+      "status": "Active",
+      "phase": "",
+      "last_modified": "1763941938.0"
+    },
+    {
+      "path": "DATA/ARCHIVE/Pre_Taxonomy_Cleanup/LOGS/LIBRARIES_UPDATE_PROCESS.md",
+      "entity_id": "Video_006",
+      "entity_type": "archive",
+      "department": "ARCHIVE",
+      "status": "Active",
+      "phase": "",
+      "last_modified": "1763941160.0"
+    },
+    {
+      "path": "DATA/ARCHIVE/Pre_Taxonomy_Cleanup/LOGS/QUALITY_REVIEW_PROCESS.md",
+      "entity_id": "",
+      "entity_type": "archive",
+      "department": "ARCHIVE",
+      "status": "",
+      "phase": "",
+      "last_modified": "1763941160.0"
+    },
+    {
+      "path": "DATA/ARCHIVE/Pre_Taxonomy_Cleanup/LOGS/RESEARCH_ASSIGNMENT_LOG.md",
+      "entity_id": "Video_006",
+      "entity_type": "archive",
+      "department": "ARCHIVE",
+      "status": "Active",
+      "phase": "",
+      "last_modified": "1763941160.0"
+    },
+    {
+      "path": "DATA/ARCHIVE/Pre_Taxonomy_Cleanup/LOGS/RESEARCH_COMPLETION_TRACKER.md",
+      "entity_id": "Video_006",
+      "entity_type": "archive",
+      "department": "ARCHIVE",
+      "status": "Archived",
+      "phase": "",
+      "last_modified": "1763941393.0"
+    },
+    {
+      "path": "DATA/ARCHIVE/Pre_Taxonomy_Cleanup/LOGS/RESEARCH_WORKFLOW.md",
+      "entity_id": "",
+      "entity_type": "archive",
+      "department": "ARCHIVE",
+      "status": "",
+      "phase": "",
+      "last_modified": "1763943378.0"
+    },
+    {
+      "path": "DATA/ARCHIVE/Pre_Taxonomy_Cleanup/LOGS/WEEKLY_RESEARCH_PLAN.md",
+      "entity_id": "Video_006",
+      "entity_type": "archive",
+      "department": "ARCHIVE",
+      "status": "Active",
+      "phase": "",
+      "last_modified": "1763941160.0"
+    },
+    {
+      "path": "DATA/ARCHIVE/Pre_Taxonomy_Cleanup/Research_Reports/Department_Consolidation_Report_2025-11-17.md",
+      "entity_id": "Task-Template-005",
+      "entity_type": "archive",
+      "department": "ARCHIVE",
+      "status": "Active",
+      "phase": "",
+      "last_modified": "1763402295.0"
+    },
+    {
+      "path": "DATA/ARCHIVE/Pre_Taxonomy_Cleanup/Research_Reports/HR videos research.md",
+      "entity_id": "",
+      "entity_type": "archive",
+      "department": "ARCHIVE",
+      "status": "Draft",
+      "phase": "",
+      "last_modified": "1763135028.0"
+    },
+    {
+      "path": "DATA/ARCHIVE/Pre_Taxonomy_Cleanup/Research_Reports/Naming_Convention_Migration_Report_2025-11-17.md",
+      "entity_id": "Task-Template-039",
+      "entity_type": "archive",
+      "department": "ARCHIVE",
+      "status": "Draft",
+      "phase": "",
+      "last_modified": "1763400250.0"
+    },
+    {
+      "path": "DATA/ARCHIVE/Pre_Taxonomy_Cleanup/Research_Reports/Phase_7_Completion_Report.md",
+      "entity_id": "TASK-TEMPLATE-009",
+      "entity_type": "archive",
+      "department": "ARCHIVE",
+      "status": "",
+      "phase": "7",
+      "last_modified": "1763402143.0"
+    },
+    {
+      "path": "DATA/ARCHIVE/Pre_Taxonomy_Cleanup/Research_Reports/Phase_9_Completion_Report.md",
+      "entity_id": "Video_006",
+      "entity_type": "archive",
+      "department": "ARCHIVE",
+      "status": "",
+      "phase": "9",
+      "last_modified": "1763402143.0"
+    },
+    {
+      "path": "DATA/ARCHIVE/Pre_Taxonomy_Cleanup/Research_Reports/README.md",
+      "entity_id": "",
+      "entity_type": "archive",
+      "department": "ARCHIVE",
+      "status": "Archived",
+      "phase": "",
+      "last_modified": "1763400822.0"
+    },
+    {
+      "path": "DATA/ARCHIVE/Pre_Taxonomy_Cleanup/Research_Reports/Tool_Validation_Report_Video_006_008.md",
+      "entity_id": "Video_006",
+      "entity_type": "archive",
+      "department": "ARCHIVE",
+      "status": "",
+      "phase": "",
+      "last_modified": "1762931181.0"
+    },
+    {
+      "path": "DATA/ARCHIVE/Pre_Taxonomy_Cleanup/Research_Reports/Video_006_Library_Mapping_Report.md",
+      "entity_id": "Video_006",
+      "entity_type": "archive",
+      "department": "ARCHIVE",
+      "status": "",
+      "phase": "",
+      "last_modified": "1763482078.0"
+    },
+    {
+      "path": "DATA/ARCHIVE/Pre_Taxonomy_Cleanup/Research_Reports/Video_008_Library_Mapping_Report.md",
+      "entity_id": "Video_008",
+      "entity_type": "archive",
+      "department": "ARCHIVE",
+      "status": "Draft",
+      "phase": "",
+      "last_modified": "1763402143.0"
+    },
+    {
+      "path": "DATA/ARCHIVE/Pre_Taxonomy_Cleanup/Research_Reports/Video_013_Gap_Analysis.md",
+      "entity_id": "Video_013",
+      "entity_type": "archive",
+      "department": "ARCHIVE",
+      "status": "Draft",
+      "phase": "",
+      "last_modified": "1763402144.0"
+    },
+    {
+      "path": "DATA/ARCHIVE/Pre_Taxonomy_Cleanup/Research_Reports/Video_013_Library_Mapping_Report.md",
+      "entity_id": "Video_013",
+      "entity_type": "archive",
+      "department": "ARCHIVE",
+      "status": "Draft",
+      "phase": "",
+      "last_modified": "1763402144.0"
+    },
+    {
+      "path": "DATA/ARCHIVE/Pre_Taxonomy_Cleanup/Research_Reports/Video_19_Gap_Analysis.md",
+      "entity_id": "Video_19",
+      "entity_type": "archive",
+      "department": "ARCHIVE",
+      "status": "Draft",
+      "phase": "",
+      "last_modified": "1763812775.0"
+    },
+    {
+      "path": "DATA/ARCHIVE/Pre_Taxonomy_Cleanup/Research_Reports/Video_20.md",
+      "entity_id": "Video_20",
+      "entity_type": "archive",
+      "department": "ARCHIVE",
+      "status": "Draft",
+      "phase": "",
+      "last_modified": "1763941393.0"
+    },
+    {
+      "path": "DATA/ARCHIVE/Pre_Taxonomy_Cleanup/Schema_Aligned/Developer_Tools_and_MCP_Research_Prompt_v2.md",
+      "entity_id": "Video_013",
+      "entity_type": "archive",
+      "department": "ARCHIVE",
+      "status": "Active",
+      "phase": "",
+      "last_modified": "1763941160.0"
+    },
+    {
+      "path": "DATA/ARCHIVE/Pre_Taxonomy_Cleanup/Schema_Aligned/File_System_and_Productivity_Research_Prompt_v2.md",
+      "entity_id": "",
+      "entity_type": "archive",
+      "department": "ARCHIVE",
+      "status": "",
+      "phase": "",
+      "last_modified": "1763941160.0"
+    },
+    {
+      "path": "DATA/ARCHIVE/Pre_Taxonomy_Cleanup/Schema_Aligned/oa-y_AI_Tools_Alignment_Research_Prompt_v2.md",
+      "entity_id": "Video_005",
+      "entity_type": "archive",
+      "department": "ARCHIVE",
+      "status": "",
+      "phase": "",
+      "last_modified": "1763941160.0"
+    },
+    {
+      "path": "DATA/ARCHIVE/Pre_Taxonomy_Cleanup/Schema_Aligned/Sales_Department_Research_Prompt_v2.md",
+      "entity_id": "",
+      "entity_type": "archive",
+      "department": "ARCHIVE",
+      "status": "",
+      "phase": "",
+      "last_modified": "1763941160.0"
+    },
+    {
+      "path": "DATA/ARCHIVE/Pre_Taxonomy_Cleanup/Schema_Aligned/SMM_Research_Document_Processing_Instructions_v2.md",
+      "entity_id": "",
+      "entity_type": "archive",
+      "department": "ARCHIVE",
+      "status": "",
+      "phase": "",
+      "last_modified": "1763941160.0"
+    },
+    {
+      "path": "DATA/ARCHIVE/Pre_Taxonomy_Cleanup/Schema_Aligned/VSCode_Agent_HQ_Research_Prompt_v2.md",
+      "entity_id": "",
+      "entity_type": "archive",
+      "department": "ARCHIVE",
+      "status": "Active",
+      "phase": "",
+      "last_modified": "1763412941.0"
+    },
+    {
+      "path": "DATA/ARCHIVE/Pre_Taxonomy_Cleanup/Schema_Aligned/YouTube_AI_Tools_Daily_Research_Prompt_v2.md",
+      "entity_id": "Video_005",
+      "entity_type": "archive",
+      "department": "ARCHIVE",
+      "status": "",
+      "phase": "",
+      "last_modified": "1763941160.0"
+    },
+    {
+      "path": "DATA/ARCHIVE/Pre_Taxonomy_Cleanup/Schema_Aligned/YouTube_HR_Automation_Research_Prompt_v2.md",
+      "entity_id": "",
+      "entity_type": "archive",
+      "department": "ARCHIVE",
+      "status": "",
+      "phase": "",
+      "last_modified": "1763941160.0"
+    },
+    {
+      "path": "DATA/ARCHIVE/Pre_Taxonomy_Cleanup/TSM-008_Video_Queue/VIDEO-001_ToDo_List_Tutorial_ExecutionFlow.md",
+      "entity_id": "Video_20",
+      "entity_type": "archive",
+      "department": "ARCHIVE",
+      "status": "Active",
+      "phase": "",
+      "last_modified": "1763811056.0"
+    },
+    {
+      "path": "DATA/ARCHIVE/Pre_Taxonomy_Cleanup/TSM-008_Video_Queue/VIDEO-020_Task_Manager_App_ExecutionFlow.md",
+      "entity_id": "Video_020",
+      "entity_type": "archive",
+      "department": "ARCHIVE",
+      "status": "Active",
+      "phase": "",
+      "last_modified": "1763941393.0"
+    },
+    {
+      "path": "DATA/ARCHIVE/Pre_Taxonomy_Cleanup/VIDEO_RESEARCHES_LOGS/Video_Assignment_Log.md",
+      "entity_id": "RSH-VID-001",
+      "entity_type": "archive",
+      "department": "ARCHIVE",
+      "status": "Active",
+      "phase": "",
+      "last_modified": "1763941393.0"
+    },
+    {
+      "path": "DATA/ARCHIVE/Pre_Taxonomy_Cleanup/Research_Reports/Extractions/DATA_EXTRACTION_LOG_2025-11-10.md",
+      "entity_id": "TASK-LG-001",
+      "entity_type": "archive",
+      "department": "ARCHIVE",
+      "status": "Active",
+      "phase": "",
+      "last_modified": "1763402144.0"
+    },
+    {
+      "path": "DATA/ARCHIVE/Pre_Taxonomy_Cleanup/Research_Reports/Extractions/Extracted_Project_Templates.md",
+      "entity_id": "",
+      "entity_type": "archive",
+      "department": "ARCHIVE",
+      "status": "Active",
+      "phase": "",
+      "last_modified": "1763402144.0"
+    },
+    {
+      "path": "DATA/ARCHIVE/Pre_Taxonomy_Cleanup/Research_Reports/Extractions/Extracted_Task_Templates.md",
+      "entity_id": "TASK-LG-001",
+      "entity_type": "archive",
+      "department": "ARCHIVE",
+      "status": "Active",
+      "phase": "",
+      "last_modified": "1763402144.0"
+    },
+    {
+      "path": "DATA/ARCHIVE/Pre_Taxonomy_Cleanup/Research_Reports/Extractions/EXTRACTION_SUMMARY.md",
+      "entity_id": "TASK-AI-001",
+      "entity_type": "archive",
+      "department": "ARCHIVE",
+      "status": "Active",
+      "phase": "",
+      "last_modified": "1763402144.0"
+    },
+    {
+      "path": "DATA/ARCHIVE/Pre_Taxonomy_Cleanup/Research_Reports/Extractions/Phase1_Projects_Extraction.md",
+      "entity_id": "TASK-AI-002",
+      "entity_type": "archive",
+      "department": "ARCHIVE",
+      "status": "Active",
+      "phase": "1",
+      "last_modified": "1763402144.0"
+    },
+    {
+      "path": "DATA/ARCHIVE/Pre_Taxonomy_Cleanup/Research_Reports/Extractions/Phase1_Tasks_Skills_Extraction.md",
+      "entity_id": "TASK-AI-001",
+      "entity_type": "archive",
+      "department": "ARCHIVE",
+      "status": "Active",
+      "phase": "1",
+      "last_modified": "1763402144.0"
+    },
+    {
+      "path": "DATA/ARCHIVE/Pre_Taxonomy_Cleanup/Research_Reports/Extractions/Phase2_Infrastructure_Extraction.md",
+      "entity_id": "TASK-AI-008",
+      "entity_type": "archive",
+      "department": "ARCHIVE",
+      "status": "Active",
+      "phase": "2",
+      "last_modified": "1763402144.0"
+    },
+    {
+      "path": "DATA/ARCHIVE/Pre_Taxonomy_Cleanup/Research_Reports/Extractions/Phase3_Client_Deliverables_Extraction.md",
+      "entity_id": "TASK-AI-011",
+      "entity_type": "archive",
+      "department": "ARCHIVE",
+      "status": "Active",
+      "phase": "3",
+      "last_modified": "1763402144.0"
+    },
+    {
+      "path": "DATA/ARCHIVE/Pre_Taxonomy_Cleanup/Research_Reports/Extractions/Phase3_Integration_Summary.md",
+      "entity_id": "TASK-AI-011",
+      "entity_type": "archive",
+      "department": "ARCHIVE",
+      "status": "",
+      "phase": "3",
+      "last_modified": "1763402144.0"
+    },
+    {
+      "path": "DATA/ARCHIVE/Pre_Taxonomy_Cleanup/Research_Reports/Extractions/Phase4_Consolidation_Extraction.md",
+      "entity_id": "TASK-AI-001",
+      "entity_type": "archive",
+      "department": "ARCHIVE",
+      "status": "Active",
+      "phase": "4",
+      "last_modified": "1763402144.0"
+    },
+    {
+      "path": "DATA/ARCHIVE/Pre_Taxonomy_Cleanup/Research_Reports/Summaries/NAMING_SIMPLIFICATION_SUMMARY.md",
+      "entity_id": "TASK-AI-006",
+      "entity_type": "archive",
+      "department": "ARCHIVE",
+      "status": "",
+      "phase": "",
+      "last_modified": "1763400822.0"
+    },
+    {
+      "path": "DATA/ARCHIVE/Pre_Taxonomy_Cleanup/Research_Reports/Summaries/RESTRUCTURE_SUMMARY.md",
+      "entity_id": "TASK-AI-001",
+      "entity_type": "archive",
+      "department": "ARCHIVE",
+      "status": "",
+      "phase": "",
+      "last_modified": "1763402144.0"
+    },
+    {
+      "path": "DATA/ARCHIVE/Pre_Taxonomy_Cleanup/Research_Reports/Summaries/RESTRUCTURING_COMPLETE_SUMMARY.md",
+      "entity_id": "TASK-HR-001",
+      "entity_type": "archive",
+      "department": "ARCHIVE",
+      "status": "",
+      "phase": "",
+      "last_modified": "1763402144.0"
+    },
+    {
+      "path": "DATA/ARCHIVE/Pre_Taxonomy_Cleanup/LOGS/By_Department/AI_Research_Log.md",
+      "entity_id": "RSH-AI-001",
+      "entity_type": "archive",
+      "department": "ARCHIVE",
+      "status": "Active",
+      "phase": "",
+      "last_modified": "1763941159.0"
+    },
+    {
+      "path": "DATA/ARCHIVE/Pre_Taxonomy_Cleanup/LOGS/By_Department/Design_Research_Log.md",
+      "entity_id": "RSH-DGN-001",
+      "entity_type": "archive",
+      "department": "ARCHIVE",
+      "status": "Active",
+      "phase": "",
+      "last_modified": "1763941159.0"
+    },
+    {
+      "path": "DATA/ARCHIVE/Pre_Taxonomy_Cleanup/LOGS/By_Department/Development_Research_Log.md",
+      "entity_id": "RSH-DEV-001",
+      "entity_type": "archive",
+      "department": "ARCHIVE",
+      "status": "Active",
+      "phase": "",
+      "last_modified": "1763941160.0"
+    },
+    {
+      "path": "DATA/ARCHIVE/Pre_Taxonomy_Cleanup/LOGS/By_Department/HR_Research_Log.md",
+      "entity_id": "RSH-HRM-001",
+      "entity_type": "archive",
+      "department": "ARCHIVE",
+      "status": "Active",
+      "phase": "",
+      "last_modified": "1763941160.0"
+    },
+    {
+      "path": "DATA/ARCHIVE/Pre_Taxonomy_Cleanup/LOGS/By_Department/LG_Research_Log.md",
+      "entity_id": "RSH-LGN-001",
+      "entity_type": "archive",
+      "department": "ARCHIVE",
+      "status": "Active",
+      "phase": "",
+      "last_modified": "1763941160.0"
+    },
+    {
+      "path": "DATA/ARCHIVE/Pre_Taxonomy_Cleanup/LOGS/By_Department/Sales_Research_Log.md",
+      "entity_id": "RSH-SLS-001",
+      "entity_type": "archive",
+      "department": "ARCHIVE",
+      "status": "Active",
+      "phase": "",
+      "last_modified": "1763941160.0"
+    },
+    {
+      "path": "DATA/ARCHIVE/Pre_Taxonomy_Cleanup/LOGS/By_Department/SMM_Research_Log.md",
+      "entity_id": "RSH-SMM-001",
+      "entity_type": "archive",
+      "department": "ARCHIVE",
+      "status": "Active",
+      "phase": "",
+      "last_modified": "1763941393.0"
+    },
+    {
+      "path": "DATA/ARCHIVE/Pre_Taxonomy_Cleanup/LOGS/By_Department/Video_Research_Log.md",
+      "entity_id": "RSH-VID-001",
+      "entity_type": "archive",
+      "department": "ARCHIVE",
+      "status": "Active",
+      "phase": "",
+      "last_modified": "1763941160.0"
+    },
+    {
+      "path": "DATA/03_ANALYSIS/Extractions/Video_002_Extraction_Inventory.md",
+      "entity_id": "Video_002",
+      "entity_type": "analysis",
+      "department": "03_ANALYSIS",
+      "status": "",
+      "phase": "",
+      "last_modified": "1763755047.0"
+    },
+    {
+      "path": "DATA/03_ANALYSIS/Extractions/Video_022_Phase3_Analysis.md",
+      "entity_id": "Video_022",
+      "entity_type": "analysis",
+      "department": "03_ANALYSIS",
+      "status": "",
+      "phase": "3",
+      "last_modified": "1763856423.0"
+    },
+    {
+      "path": "DATA/03_ANALYSIS/Extractions/Video_022_Phase4_Objects.md",
+      "entity_id": "Video_022",
+      "entity_type": "analysis",
+      "department": "03_ANALYSIS",
+      "status": "",
+      "phase": "4",
+      "last_modified": "1763857937.0"
+    },
+    {
+      "path": "DATA/03_ANALYSIS/Extractions/Video_024_Phase3_Analysis.md",
+      "entity_id": "Video_024",
+      "entity_type": "analysis",
+      "department": "03_ANALYSIS",
+      "status": "",
+      "phase": "3",
+      "last_modified": "1763995852.0"
+    },
+    {
+      "path": "DATA/03_ANALYSIS/Extractions/Video_024_Phase4_Objects.md",
+      "entity_id": "Video_024",
+      "entity_type": "analysis",
+      "department": "03_ANALYSIS",
+      "status": "",
+      "phase": "4",
+      "last_modified": "1763996125.0"
+    },
+    {
+      "path": "DATA/03_ANALYSIS/Gap_Analysis/Video_002_Gap_Analysis.md",
+      "entity_id": "Video_002",
+      "entity_type": "analysis",
+      "department": "03_ANALYSIS",
+      "status": "",
+      "phase": "",
+      "last_modified": "1763755034.0"
+    },
+    {
+      "path": "DATA/03_ANALYSIS/Gap_Analysis/Video_009_Gap_Analysis.md",
+      "entity_id": "Video_009",
+      "entity_type": "analysis",
+      "department": "03_ANALYSIS",
+      "status": "",
+      "phase": "",
+      "last_modified": "1763755034.0"
+    },
+    {
+      "path": "DATA/03_ANALYSIS/Gap_Analysis/Video_022_Gap_Analysis.md",
+      "entity_id": "Video_022",
+      "entity_type": "analysis",
+      "department": "03_ANALYSIS",
+      "status": "",
+      "phase": "",
+      "last_modified": "1763940405.0"
+    },
+    {
+      "path": "DATA/03_ANALYSIS/Gap_Analysis/Video_024_Gap_Analysis.md",
+      "entity_id": "Video_024",
+      "entity_type": "analysis",
+      "department": "03_ANALYSIS",
+      "status": "",
+      "phase": "",
+      "last_modified": "1763996177.0"
+    },
+    {
+      "path": "DATA/03_ANALYSIS/Integration/Video_024_Taxonomy_Integration.md",
+      "entity_id": "Video_024",
+      "entity_type": "analysis",
+      "department": "03_ANALYSIS",
+      "status": "",
+      "phase": "",
+      "last_modified": "1763996272.0"
+    },
+    {
+      "path": "DATA/03_ANALYSIS/Library_Mapping/Video_001_Library_Mapping_Report.md",
+      "entity_id": "Video_001",
+      "entity_type": "analysis",
+      "department": "03_ANALYSIS",
+      "status": "",
+      "phase": "",
+      "last_modified": "1763755017.0"
+    },
+    {
+      "path": "DATA/03_ANALYSIS/Library_Mapping/Video_002_Library_Mapping_Report.md",
+      "entity_id": "Video_002",
+      "entity_type": "analysis",
+      "department": "03_ANALYSIS",
+      "status": "",
+      "phase": "",
+      "last_modified": "1763755017.0"
+    },
+    {
+      "path": "DATA/03_ANALYSIS/Library_Mapping/Video_005_Library_Mapping_Report.md",
+      "entity_id": "Video_005",
+      "entity_type": "analysis",
+      "department": "03_ANALYSIS",
+      "status": "",
+      "phase": "",
+      "last_modified": "1763755017.0"
+    },
+    {
+      "path": "DATA/03_ANALYSIS/Library_Mapping/Video_009_Library_Mapping_Report.md",
+      "entity_id": "Video_009",
+      "entity_type": "analysis",
+      "department": "03_ANALYSIS",
+      "status": "",
+      "phase": "",
+      "last_modified": "1763755017.0"
+    },
+    {
+      "path": "DATA/03_ANALYSIS/Library_Mapping/Video_017_Library_Mapping_Report.md",
+      "entity_id": "Video_017",
+      "entity_type": "analysis",
+      "department": "03_ANALYSIS",
+      "status": "",
+      "phase": "",
+      "last_modified": "1763755018.0"
+    },
+    {
+      "path": "DATA/03_ANALYSIS/Library_Mapping/Video_018_Library_Mapping_Report.md",
+      "entity_id": "Video_018",
+      "entity_type": "analysis",
+      "department": "03_ANALYSIS",
+      "status": "",
+      "phase": "",
+      "last_modified": "1763755018.0"
+    },
+    {
+      "path": "DATA/03_ANALYSIS/Library_Mapping/Video_024_Library_Mapping_Report.md",
+      "entity_id": "Video_024",
+      "entity_type": "analysis",
+      "department": "03_ANALYSIS",
+      "status": "",
+      "phase": "",
+      "last_modified": "1763996246.0"
+    },
+    {
+      "path": "DATA/03_ANALYSIS/Phase_Reports/Phase_7_Completion_Report.md",
+      "entity_id": "TASK-TEMPLATE-009",
+      "entity_type": "analysis",
+      "department": "03_ANALYSIS",
+      "status": "",
+      "phase": "7",
+      "last_modified": "1763755071.0"
+    },
+    {
+      "path": "DATA/03_ANALYSIS/Phase_Reports/Phase_9_Completion_Report.md",
+      "entity_id": "Video_006",
+      "entity_type": "analysis",
+      "department": "03_ANALYSIS",
+      "status": "",
+      "phase": "9",
+      "last_modified": "1763755071.0"
+    },
+    {
+      "path": "DATA/03_ANALYSIS/Phase_Reports/Video_022_Phase6_Integration_Summary.md",
+      "entity_id": "Video_022",
+      "entity_type": "analysis",
+      "department": "03_ANALYSIS",
+      "status": "",
+      "phase": "6",
+      "last_modified": "1763941393.0"
+    },
+    {
+      "path": "DATA/03_ANALYSIS/Validation/Tool_Validation_Report_Video_006_008.md",
+      "entity_id": "Video_006",
+      "entity_type": "analysis",
+      "department": "03_ANALYSIS",
+      "status": "",
+      "phase": "",
+      "last_modified": "1763755076.0"
+    }
+  ]
+}

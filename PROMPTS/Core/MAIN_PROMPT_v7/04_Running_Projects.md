@@ -36,6 +36,67 @@
 
 ---
 
+## PROJECT TYPES DISTINCTION
+
+### Internal PRT-### Projects (Remote Helpers Initiatives)
+
+**Characteristics:**
+- **Full control**: Remote Helpers defines scope, milestones, timelines
+- **Strategic initiatives**: Company-wide improvements, automations, internal tools
+- **Multi-week duration**: Planned milestones and deliverables
+- **Progress tracking**: % completion, milestone completion, blockers
+
+**Examples:**
+- PRT-003: Complete HR Automation Implementation
+- PRT-007: Lead Generation Pipeline Optimization
+- PRT-### : Company Website Redesign
+
+**How to track:**
+- Create PRT-### with clear milestones (MLT-###)
+- Track progress with completion percentages
+- Link tasks (TST-###) and steps (STT-###)
+- Monitor blockers and dependencies
+
+---
+
+### Client Projects (External Client Work)
+
+**Characteristics:**
+- **Limited employee control**: Client defines scope, deadlines, requirements
+- **Service delivery**: Employee executes client-defined work
+- **Variable duration**: Client-managed timeline
+- **Task-based tracking**: Focus on deliverables, not milestone management
+
+**Examples:**
+- Website design for Acme Corp (Designer assigned, client manages project)
+- Social media campaign for XYZ Company (SMM specialist executes, client directs)
+- Development work for external platform (Developer implements client specs)
+
+**How to track:**
+- **Do NOT create PRT-###** for client projects
+- Extract TST-### (individual tasks) from daily reports
+- Note client name in task description
+- Link employee (Employee ID) and tools (TOL-###)
+- Track deliverables and completion status
+
+**Client Project Task Example:**
+```
+TST-###: Design homepage mockup for Acme Corp
+- Employee: 228 (Kucherenko Iuliia)
+- Client: Acme Corp
+- Tools: TOL-### (Figma), TOL-### (Adobe Illustrator)
+- Status: 🔄 In Progress
+- Deliverable: High-fidelity homepage mockup
+- NOT linked to internal PRT-### (client manages overall project)
+```
+
+**When processing daily reports:**
+- Identify if work is for client or internal initiative
+- Client work → Extract TST-###, note client name
+- Internal work → Map to existing PRT-001 to PRT-009 or propose new PRT-###
+
+---
+
 ## CREATING NEW PROJECTS
 
 **When to create PRT-010+:**

@@ -1,0 +1,1424 @@
+[
+  {
+    "name": "documentation tool",
+    "tool_id": "TOOL-DOC-040",
+    "category": "Documentation_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Documentation_Tools\\Documentation_tool.json"
+  },
+  {
+    "name": "email + onboarding materials",
+    "tool_id": "TOOL-COMM-019",
+    "category": "Communication_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Communication_Tools\\Email_and_Onboarding_materials.json"
+  },
+  {
+    "name": "file system + audit script",
+    "tool_id": "TOOL-AUTO-097",
+    "category": "Automation_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Automation_Tools\\File_system.json"
+  },
+  {
+    "name": "file naming script or template",
+    "tool_id": "TOOL-AUTO-098",
+    "category": "Automation_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Automation_Tools\\File_naming.json"
+  },
+  {
+    "name": "dashboard tool",
+    "tool_id": "TOOL-ANALYTICS-012",
+    "category": "Analytics_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Analytics_Tools\\Dashboard_tool.json"
+  },
+  {
+    "name": "ai translation",
+    "tool_id": "TOOL-AI-024",
+    "category": "AI_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\AI_Tools\\AI_Translation.json"
+  },
+  {
+    "name": "transcript processing",
+    "tool_id": "TOOL-AUTO-099",
+    "category": "Automation_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Automation_Tools\\Transcript_Processing.json"
+  },
+  {
+    "name": "ai analysis + template",
+    "tool_id": "TOOL-AI-025",
+    "category": "AI_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\AI_Tools\\AI_Analysis_and_Template.json"
+  },
+  {
+    "name": "ai task extraction + template",
+    "tool_id": "TOOL-AI-026",
+    "category": "AI_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\AI_Tools\\AI_Task.json"
+  },
+  {
+    "name": "quality assurance",
+    "tool_id": "TOOL-TEST-012",
+    "category": "Testing_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Testing_Tools\\Quality_Assurance.json"
+  },
+  {
+    "name": "test case documentation",
+    "tool_id": "TOOL-DOC-041",
+    "category": "Documentation_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Documentation_Tools\\Test_case_documentation.json"
+  },
+  {
+    "name": "ai model api, testing framework",
+    "tool_id": "TOOL-DEV-034",
+    "category": "Development_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Development_Tools\\AI_model.json"
+  },
+  {
+    "name": "test validation set",
+    "tool_id": "TOOL-TEST-013",
+    "category": "Testing_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Testing_Tools\\Test_validation_set.json"
+  },
+  {
+    "name": "markdown, documentation tool",
+    "tool_id": "TOOL-DOC-042",
+    "category": "Documentation_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Documentation_Tools\\Markdown,_documentation_tool.json"
+  },
+  {
+    "name": "git, deployment system",
+    "tool_id": "TOOL-DEV-035",
+    "category": "Development_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Development_Tools\\Git,_deployment_system.json"
+  },
+  {
+    "name": "mcp admin panel",
+    "tool_id": "TOOL-AUTO-100",
+    "category": "Automation_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Automation_Tools\\MCP_admin_panel.json"
+  },
+  {
+    "name": "mcp api + python script",
+    "tool_id": "TOOL-DEV-036",
+    "category": "Development_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Development_Tools\\MCP_API.json"
+  },
+  {
+    "name": "python data processing",
+    "tool_id": "TOOL-DEV-037",
+    "category": "Development_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Development_Tools\\Python_data_processing.json"
+  },
+  {
+    "name": "data validation script",
+    "tool_id": "TOOL-AUTO-101",
+    "category": "Automation_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Automation_Tools\\Data_validation_script.json"
+  },
+  {
+    "name": "file system",
+    "tool_id": "TOOL-FILE-006",
+    "category": "File_Management",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\File_Management\\File_system.json"
+  },
+  {
+    "name": "script design",
+    "tool_id": "TOOL-AUTO-102",
+    "category": "Automation_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Automation_Tools\\Script_design.json"
+  },
+  {
+    "name": "python + ci tool or mcp",
+    "tool_id": "TOOL-DEV-038",
+    "category": "Development_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Development_Tools\\Python_CI.json"
+  },
+  {
+    "name": "reporting system + notifications",
+    "tool_id": "TOOL-ANALYTICS-013",
+    "category": "Analytics_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Analytics_Tools\\Reporting_system_and_Notifications.json"
+  },
+  {
+    "name": "test files + validation",
+    "tool_id": "TOOL-AUTO-103",
+    "category": "Automation_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Automation_Tools\\Test_files_and_Validation.json"
+  },
+  {
+    "name": "scheduler + alert system",
+    "tool_id": "TOOL-AUTO-104",
+    "category": "Automation_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Automation_Tools\\Scheduler_and_Alert_system.json"
+  },
+  {
+    "name": "crm or notes",
+    "tool_id": "TOOL-COMM-020",
+    "category": "Communication_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Communication_Tools\\CRM_or_notes.json"
+  },
+  {
+    "name": "task assignment system",
+    "tool_id": "TOOL-COLLAB-011",
+    "category": "Collaboration_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Collaboration_Tools\\Task_assignment_system.json"
+  },
+  {
+    "name": "file attachment + crm",
+    "tool_id": "TOOL-COMM-021",
+    "category": "Communication_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Communication_Tools\\File_attachment_and_CRM.json"
+  },
+  {
+    "name": "ai tool + documentation",
+    "tool_id": "TOOL-AI-027",
+    "category": "AI_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\AI_Tools\\AI_tool_and_Documentation.json"
+  },
+  {
+    "name": "file download",
+    "tool_id": "TOOL-FILE-007",
+    "category": "File_Management",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\File_Management\\File_download.json"
+  },
+  {
+    "name": "manual editing + ai assistance",
+    "tool_id": "TOOL-AI-028",
+    "category": "AI_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\AI_Tools\\Manual_editing.json"
+  },
+  {
+    "name": "rag pipeline integration",
+    "tool_id": "TOOL-AI-029",
+    "category": "AI_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\AI_Tools\\RAG_pipeline_integration.json"
+  },
+  {
+    "name": "validation checklist",
+    "tool_id": "TOOL-AUTO-105",
+    "category": "Automation_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Automation_Tools\\Validation_checklist.json"
+  },
+  {
+    "name": "knowledge base + tagging",
+    "tool_id": "TOOL-DOC-043",
+    "category": "Documentation_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Documentation_Tools\\Knowledge_base_and_Tagging.json"
+  },
+  {
+    "name": "documentation",
+    "tool_id": "TOOL-DOC-044",
+    "category": "Documentation_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Documentation_Tools\\Documentation.json"
+  },
+  {
+    "name": "review process",
+    "tool_id": "TOOL-AUTO-106",
+    "category": "Automation_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Automation_Tools\\Review_process.json"
+  },
+  {
+    "name": "framework system",
+    "tool_id": "TOOL-AUTO-107",
+    "category": "Automation_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Automation_Tools\\Framework_System.json"
+  },
+  {
+    "name": "json editor",
+    "tool_id": "TOOL-AUTO-108",
+    "category": "Automation_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Automation_Tools\\JSON_Editor.json"
+  },
+  {
+    "name": "markdown editor",
+    "tool_id": "TOOL-DOC-045",
+    "category": "Documentation_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Documentation_Tools\\Markdown_Editor.json"
+  },
+  {
+    "name": "knowledge management system",
+    "tool_id": "TOOL-DOC-046",
+    "category": "Documentation_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Documentation_Tools\\Knowledge_Management_System.json"
+  },
+  {
+    "name": "system diagnostics",
+    "tool_id": "TOOL-ANALYTICS-014",
+    "category": "Analytics_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Analytics_Tools\\System_Diagnostics.json"
+  },
+  {
+    "name": "troubleshooting process",
+    "tool_id": "TOOL-AUTO-109",
+    "category": "Automation_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Automation_Tools\\Troubleshooting_Process.json"
+  },
+  {
+    "name": "package manager",
+    "tool_id": "TOOL-DEV-039",
+    "category": "Development_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Development_Tools\\Package_Manager.json"
+  },
+  {
+    "name": "integration testing",
+    "tool_id": "TOOL-TEST-014",
+    "category": "Testing_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Testing_Tools\\Integration_Testing.json"
+  },
+  {
+    "name": "web research + tool discovery",
+    "tool_id": "TOOL-AUTO-110",
+    "category": "Automation_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Automation_Tools\\Web_Research.json"
+  },
+  {
+    "name": "documentation system",
+    "tool_id": "TOOL-DOC-047",
+    "category": "Documentation_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Documentation_Tools\\Documentation_System.json"
+  },
+  {
+    "name": "taxonomy framework",
+    "tool_id": "TOOL-AUTO-111",
+    "category": "Automation_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Automation_Tools\\Taxonomy_Framework.json"
+  },
+  {
+    "name": "video planning framework",
+    "tool_id": "TOOL-VIDEO-008",
+    "category": "Video_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Video_Tools\\Video_Planning_Framework.json"
+  },
+  {
+    "name": "character development guide",
+    "tool_id": "TOOL-AUTO-112",
+    "category": "Automation_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Automation_Tools\\Character_Development_Guide.json"
+  },
+  {
+    "name": "scene template + markdown",
+    "tool_id": "TOOL-DOC-048",
+    "category": "Documentation_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Documentation_Tools\\Scene_Template_and_Markdown.json"
+  },
+  {
+    "name": "ai generation guidelines",
+    "tool_id": "TOOL-AI-030",
+    "category": "AI_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\AI_Tools\\AI_Generation_Guidelines.json"
+  },
+  {
+    "name": "visual documentation",
+    "tool_id": "TOOL-DOC-049",
+    "category": "Documentation_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Documentation_Tools\\Visual_Documentation.json"
+  },
+  {
+    "name": "audio/video production guide",
+    "tool_id": "TOOL-VIDEO-009",
+    "category": "Video_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Video_Tools\\Audio_Video_Production_Guide.json"
+  },
+  {
+    "name": "dropbox developer console",
+    "tool_id": "TOOL-FILE-008",
+    "category": "File_Management",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\File_Management\\Dropbox_Developer_Console.json"
+  },
+  {
+    "name": "github platform",
+    "tool_id": "TOOL-DEV-040",
+    "category": "Development_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Development_Tools\\GitHub_Platform.json"
+  },
+  {
+    "name": "python + dropbox api",
+    "tool_id": "TOOL-DEV-041",
+    "category": "Development_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Development_Tools\\Python_and_Dropbox_API.json"
+  },
+  {
+    "name": "github actions yaml",
+    "tool_id": "TOOL-DEV-042",
+    "category": "Development_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Development_Tools\\GitHub_Actions_YAML.json"
+  },
+  {
+    "name": "test environment",
+    "tool_id": "TOOL-TEST-015",
+    "category": "Testing_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Testing_Tools\\Test_Environment.json"
+  },
+  {
+    "name": "github actions logs",
+    "tool_id": "TOOL-DEV-043",
+    "category": "Development_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Development_Tools\\GitHub_Actions_Logs.json"
+  },
+  {
+    "name": "framework design + documentation",
+    "tool_id": "TOOL-DOC-050",
+    "category": "Documentation_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Documentation_Tools\\Framework_Design_and_Documentation.json"
+  },
+  {
+    "name": "action taxonomy + classification system",
+    "tool_id": "TOOL-AUTO-113",
+    "category": "Automation_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Automation_Tools\\Action_Taxonomy.json"
+  },
+  {
+    "name": "template generation + workflow engine",
+    "tool_id": "TOOL-AUTO-114",
+    "category": "Automation_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Automation_Tools\\Template_Generation.json"
+  },
+  {
+    "name": "classification algorithm + task parser",
+    "tool_id": "TOOL-AUTO-115",
+    "category": "Automation_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Automation_Tools\\Classification_Algorithm.json"
+  },
+  {
+    "name": "reporting system + dashboard",
+    "tool_id": "TOOL-ANALYTICS-015",
+    "category": "Analytics_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Analytics_Tools\\Reporting_System_and_Dashboard.json"
+  },
+  {
+    "name": "logging system + analytics",
+    "tool_id": "TOOL-ANALYTICS-016",
+    "category": "Analytics_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Analytics_Tools\\Logging_System_and_Analytics.json"
+  },
+  {
+    "name": "scope definition + search planning",
+    "tool_id": "TOOL-AUTO-116",
+    "category": "Automation_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Automation_Tools\\Scope_Definition.json"
+  },
+  {
+    "name": "file search tools + glob + grep",
+    "tool_id": "TOOL-AUTO-117",
+    "category": "Automation_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Automation_Tools\\File_Search.json"
+  },
+  {
+    "name": "ai classification + metadata extraction",
+    "tool_id": "TOOL-AI-031",
+    "category": "AI_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\AI_Tools\\AI_Classification.json"
+  },
+  {
+    "name": "manual review + quality framework",
+    "tool_id": "TOOL-AUTO-118",
+    "category": "Automation_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Automation_Tools\\Manual_Review.json"
+  },
+  {
+    "name": "knowledge management system + library structure",
+    "tool_id": "TOOL-DOC-051",
+    "category": "Documentation_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Documentation_Tools\\Knowledge_Management.json"
+  },
+  {
+    "name": "pipeline configuration + integration",
+    "tool_id": "TOOL-AUTO-119",
+    "category": "Automation_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Automation_Tools\\Pipeline_Configuration_and_Integration.json"
+  },
+  {
+    "name": "documentation + index creation",
+    "tool_id": "TOOL-DOC-052",
+    "category": "Documentation_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Documentation_Tools\\Documentation_and_Index_Creation.json"
+  },
+  {
+    "name": "web research, design inspiration sites",
+    "tool_id": "TOOL-DESIGN-015",
+    "category": "Design_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Design_Tools\\Web_research.json"
+  },
+  {
+    "name": "web browser + design tools",
+    "tool_id": "TOOL-DESIGN-016",
+    "category": "Design_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Design_Tools\\Web_Browser.json"
+  },
+  {
+    "name": "requirements analysis",
+    "tool_id": "TOOL-AUTO-120",
+    "category": "Automation_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Automation_Tools\\Requirements_Analysis.json"
+  },
+  {
+    "name": "question documentation",
+    "tool_id": "TOOL-DOC-053",
+    "category": "Documentation_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Documentation_Tools\\Question_Documentation.json"
+  },
+  {
+    "name": "project planning",
+    "tool_id": "TOOL-COLLAB-012",
+    "category": "Collaboration_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Collaboration_Tools\\Project_Planning.json"
+  },
+  {
+    "name": "issue analysis",
+    "tool_id": "TOOL-AUTO-121",
+    "category": "Automation_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Automation_Tools\\Issue_Analysis.json"
+  },
+  {
+    "name": "policy documentation",
+    "tool_id": "TOOL-DOC-054",
+    "category": "Documentation_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Documentation_Tools\\Policy_Documentation.json"
+  },
+  {
+    "name": "client communication",
+    "tool_id": "TOOL-COMM-022",
+    "category": "Communication_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Communication_Tools\\Client_Communication.json"
+  },
+  {
+    "name": "process optimization",
+    "tool_id": "TOOL-AUTO-122",
+    "category": "Automation_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Automation_Tools\\Process_Optimization.json"
+  },
+  {
+    "name": "client agreement",
+    "tool_id": "TOOL-AUTO-123",
+    "category": "Automation_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Automation_Tools\\Client_Agreement.json"
+  },
+  {
+    "name": "document review + spreadsheet",
+    "tool_id": "TOOL-DATA-006",
+    "category": "Data_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Data_Tools\\Document_Review_and_Spreadsheet.json"
+  },
+  {
+    "name": "data comparison",
+    "tool_id": "TOOL-DATA-007",
+    "category": "Data_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Data_Tools\\Data_Comparison.json"
+  },
+  {
+    "name": "issue logging",
+    "tool_id": "TOOL-AUTO-124",
+    "category": "Automation_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Automation_Tools\\Issue_Logging.json"
+  },
+  {
+    "name": "hr communication",
+    "tool_id": "TOOL-COMM-023",
+    "category": "Communication_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Communication_Tools\\HR_Communication.json"
+  },
+  {
+    "name": "data update",
+    "tool_id": "TOOL-DATA-008",
+    "category": "Data_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Data_Tools\\Data_Update.json"
+  },
+  {
+    "name": "process documentation",
+    "tool_id": "TOOL-DOC-055",
+    "category": "Documentation_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Documentation_Tools\\Process_Documentation.json"
+  },
+  {
+    "name": "brand strategy framework",
+    "tool_id": "TOOL-AUTO-125",
+    "category": "Automation_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Automation_Tools\\Brand_Strategy_Framework.json"
+  },
+  {
+    "name": "design documentation",
+    "tool_id": "TOOL-DOC-056",
+    "category": "Documentation_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Documentation_Tools\\Design_Documentation.json"
+  },
+  {
+    "name": "accessibility guidelines",
+    "tool_id": "TOOL-AUTO-126",
+    "category": "Automation_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Automation_Tools\\Accessibility_Guidelines.json"
+  },
+  {
+    "name": "content design guide",
+    "tool_id": "TOOL-AUTO-127",
+    "category": "Automation_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Automation_Tools\\Content_Design_Guide.json"
+  },
+  {
+    "name": "brand guidelines",
+    "tool_id": "TOOL-AUTO-128",
+    "category": "Automation_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Automation_Tools\\Brand_Guidelines.json"
+  },
+  {
+    "name": "responsive design system",
+    "tool_id": "TOOL-DESIGN-017",
+    "category": "Design_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Design_Tools\\Responsive_Design_System.json"
+  },
+  {
+    "name": "project management",
+    "tool_id": "TOOL-COLLAB-013",
+    "category": "Collaboration_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Collaboration_Tools\\Project_Management.json"
+  },
+  {
+    "name": "component library",
+    "tool_id": "TOOL-DESIGN-018",
+    "category": "Design_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Design_Tools\\Component_Library.json"
+  },
+  {
+    "name": "collaboration tools",
+    "tool_id": "TOOL-COLLAB-014",
+    "category": "Collaboration_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Collaboration_Tools\\Collaboration_Tools.json"
+  },
+  {
+    "name": "resource planning",
+    "tool_id": "TOOL-AUTO-129",
+    "category": "Automation_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Automation_Tools\\Resource_Planning.json"
+  },
+  {
+    "name": "design software",
+    "tool_id": "TOOL-DESIGN-019",
+    "category": "Design_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Design_Tools\\Design_Software.json"
+  },
+  {
+    "name": "requirements documentation",
+    "tool_id": "TOOL-DOC-057",
+    "category": "Documentation_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Documentation_Tools\\Requirements_Documentation.json"
+  },
+  {
+    "name": "responsive design techniques",
+    "tool_id": "TOOL-DESIGN-020",
+    "category": "Design_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Design_Tools\\Responsive_Design_Techniques.json"
+  },
+  {
+    "name": "preview tools",
+    "tool_id": "TOOL-DESIGN-021",
+    "category": "Design_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Design_Tools\\Preview_Tools.json"
+  },
+  {
+    "name": "export automation",
+    "tool_id": "TOOL-AUTO-130",
+    "category": "Automation_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Automation_Tools\\Export_Automation.json"
+  },
+  {
+    "name": "business communication",
+    "tool_id": "TOOL-COMM-024",
+    "category": "Communication_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Communication_Tools\\Business_Communication.json"
+  },
+  {
+    "name": "web browser + design review",
+    "tool_id": "TOOL-DESIGN-022",
+    "category": "Design_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Design_Tools\\Web_Browser.json"
+  },
+  {
+    "name": "python + selenium",
+    "tool_id": "TOOL-DEV-044",
+    "category": "Development_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Development_Tools\\Python_and_Selenium.json"
+  },
+  {
+    "name": "selenium webdriver + beautifulsoup",
+    "tool_id": "TOOL-DEV-045",
+    "category": "Development_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Development_Tools\\Selenium_WebDriver_and_BeautifulSoup.json"
+  },
+  {
+    "name": "python exception handling",
+    "tool_id": "TOOL-DEV-046",
+    "category": "Development_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Development_Tools\\Python_exception_handling.json"
+  },
+  {
+    "name": "python threading",
+    "tool_id": "TOOL-DEV-047",
+    "category": "Development_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Development_Tools\\Python_threading.json"
+  },
+  {
+    "name": "proxy management service",
+    "tool_id": "TOOL-AUTO-131",
+    "category": "Automation_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Automation_Tools\\Proxy_management_service.json"
+  },
+  {
+    "name": "profiling tools",
+    "tool_id": "TOOL-DEV-048",
+    "category": "Development_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Development_Tools\\Profiling_tools.json"
+  },
+  {
+    "name": "qa testing",
+    "tool_id": "TOOL-TEST-016",
+    "category": "Testing_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Testing_Tools\\QA_testing.json"
+  },
+  {
+    "name": "configuration file",
+    "tool_id": "TOOL-AUTO-132",
+    "category": "Automation_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Automation_Tools\\Configuration_file.json"
+  },
+  {
+    "name": "python + mcp sdk",
+    "tool_id": "TOOL-DEV-050",
+    "category": "Development_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Development_Tools\\Python_and_MCP_SDK.json"
+  },
+  {
+    "name": "debugging tools",
+    "tool_id": "TOOL-DEV-051",
+    "category": "Development_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Development_Tools\\Debugging_tools.json"
+  },
+  {
+    "name": "docker",
+    "tool_id": "TOOL-DEV-052",
+    "category": "Development_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Development_Tools\\Docker.json"
+  },
+  {
+    "name": "docker secrets",
+    "tool_id": "TOOL-DEV-053",
+    "category": "Development_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Development_Tools\\Docker_secrets.json"
+  },
+  {
+    "name": "docker cli",
+    "tool_id": "TOOL-DEV-054",
+    "category": "Development_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Development_Tools\\Docker_CLI.json"
+  },
+  {
+    "name": "cloud platform",
+    "tool_id": "TOOL-CLOUD-003",
+    "category": "Cloud_Services",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Cloud_Services\\Cloud_platform.json"
+  },
+  {
+    "name": "docker deployment",
+    "tool_id": "TOOL-DEV-055",
+    "category": "Development_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Development_Tools\\Docker_deployment.json"
+  },
+  {
+    "name": "monitoring tools",
+    "tool_id": "TOOL-ANALYTICS-017",
+    "category": "Analytics_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Analytics_Tools\\Monitoring_tools.json"
+  },
+  {
+    "name": "devops documentation",
+    "tool_id": "TOOL-DOC-058",
+    "category": "Documentation_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Documentation_Tools\\DevOps_documentation.json"
+  },
+  {
+    "name": "selenium + python",
+    "tool_id": "TOOL-DEV-056",
+    "category": "Development_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Development_Tools\\Selenium_and_Python.json"
+  },
+  {
+    "name": "nlp analysis + dictionary",
+    "tool_id": "TOOL-AI-032",
+    "category": "AI_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\AI_Tools\\NLP_Analysis_and_Dictionary.json"
+  },
+  {
+    "name": "contact discovery + ai",
+    "tool_id": "TOOL-AI-033",
+    "category": "AI_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\AI_Tools\\Contact_Discovery_and_AI.json"
+  },
+  {
+    "name": "technical analysis",
+    "tool_id": "TOOL-AUTO-134",
+    "category": "Automation_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Automation_Tools\\Technical_Analysis.json"
+  },
+  {
+    "name": "local docker environment",
+    "tool_id": "TOOL-DEV-058",
+    "category": "Development_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Development_Tools\\Local_Docker_Environment.json"
+  },
+  {
+    "name": "email + hr system",
+    "tool_id": "TOOL-COMM-025",
+    "category": "Communication_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Communication_Tools\\Email_and_HR_system.json"
+  },
+  {
+    "name": "account provisioning scripts",
+    "tool_id": "TOOL-AUTO-135",
+    "category": "Automation_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Automation_Tools\\Account_provisioning_scripts.json"
+  },
+  {
+    "name": "it asset management",
+    "tool_id": "TOOL-AUTO-136",
+    "category": "Automation_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Automation_Tools\\IT_asset_management.json"
+  },
+  {
+    "name": "calendar + meeting scheduler",
+    "tool_id": "TOOL-COLLAB-015",
+    "category": "Collaboration_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Collaboration_Tools\\Calendar_and_Meeting_scheduler.json"
+  },
+  {
+    "name": "knowledge base",
+    "tool_id": "TOOL-DOC-060",
+    "category": "Documentation_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Documentation_Tools\\Knowledge_base.json"
+  },
+  {
+    "name": "project management tool",
+    "tool_id": "TOOL-COLLAB-016",
+    "category": "Collaboration_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Collaboration_Tools\\Project_management_tool.json"
+  },
+  {
+    "name": "calendar",
+    "tool_id": "TOOL-COLLAB-017",
+    "category": "Collaboration_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Collaboration_Tools\\Calendar.json"
+  },
+  {
+    "name": "documentation planning",
+    "tool_id": "TOOL-DOC-061",
+    "category": "Documentation_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Documentation_Tools\\Documentation_planning.json"
+  },
+  {
+    "name": "technical writing + screenshots",
+    "tool_id": "TOOL-DOC-062",
+    "category": "Documentation_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Documentation_Tools\\Technical_writing_and_Screenshots.json"
+  },
+  {
+    "name": "technical writing + code examples",
+    "tool_id": "TOOL-DOC-063",
+    "category": "Documentation_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Documentation_Tools\\Technical_writing.json"
+  },
+  {
+    "name": "process analysis",
+    "tool_id": "TOOL-AUTO-137",
+    "category": "Automation_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Automation_Tools\\Process_analysis.json"
+  },
+  {
+    "name": "api design",
+    "tool_id": "TOOL-AUTO-138",
+    "category": "Automation_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Automation_Tools\\API_design.json"
+  },
+  {
+    "name": "python + ai api",
+    "tool_id": "TOOL-AI-034",
+    "category": "AI_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\AI_Tools\\Python_and_AI_API.json"
+  },
+  {
+    "name": "web interface or cli",
+    "tool_id": "TOOL-AUTO-139",
+    "category": "Automation_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Automation_Tools\\Web_interface_or_CLI.json"
+  },
+  {
+    "name": "testing framework",
+    "tool_id": "TOOL-DEV-060",
+    "category": "Development_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Development_Tools\\Testing_framework.json"
+  },
+  {
+    "name": "automation script",
+    "tool_id": "TOOL-AUTO-140",
+    "category": "Automation_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Automation_Tools\\Automation_script.json"
+  },
+  {
+    "name": "file copy automation",
+    "tool_id": "TOOL-AUTO-141",
+    "category": "Automation_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Automation_Tools\\File_copy_automation.json"
+  },
+  {
+    "name": "email",
+    "tool_id": "TOOL-COMM-026",
+    "category": "Communication_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Communication_Tools\\Email.json"
+  },
+  {
+    "name": "role definition framework + ai tooling backlog",
+    "tool_id": "TOOL-AI-035",
+    "category": "AI_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\AI_Tools\\Role_Definition.json"
+  },
+  {
+    "name": "job description template",
+    "tool_id": "TOOL-AUTO-142",
+    "category": "Automation_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Automation_Tools\\Job_Description_Template.json"
+  },
+  {
+    "name": "recruitment platform + social media",
+    "tool_id": "TOOL-AUTO-143",
+    "category": "Automation_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Automation_Tools\\Recruitment_Platform.json"
+  },
+  {
+    "name": "ats (applicant tracking system)",
+    "tool_id": "TOOL-AUTO-144",
+    "category": "Automation_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Automation_Tools\\ATS_(Applicant.json"
+  },
+  {
+    "name": "interview planning + scheduling",
+    "tool_id": "TOOL-AUTO-145",
+    "category": "Automation_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Automation_Tools\\Interview_Planning_and_Scheduling.json"
+  },
+  {
+    "name": "spreadsheet, crm, project management tools",
+    "tool_id": "TOOL-COMM-027",
+    "category": "Communication_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Communication_Tools\\Spreadsheet_CRM.json"
+  },
+  {
+    "name": "excel, analytics tools",
+    "tool_id": "TOOL-ANALYTICS-019",
+    "category": "Analytics_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Analytics_Tools\\Excel,_analytics_tools.json"
+  },
+  {
+    "name": "data visualization",
+    "tool_id": "TOOL-ANALYTICS-020",
+    "category": "Analytics_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Analytics_Tools\\Data_visualization.json"
+  },
+  {
+    "name": "analysis framework",
+    "tool_id": "TOOL-AUTO-146",
+    "category": "Automation_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Automation_Tools\\Analysis_framework.json"
+  },
+  {
+    "name": "presentation software",
+    "tool_id": "TOOL-AUTO-147",
+    "category": "Automation_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Automation_Tools\\Presentation_software.json"
+  },
+  {
+    "name": "problem-solution documentation",
+    "tool_id": "TOOL-DOC-065",
+    "category": "Documentation_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Documentation_Tools\\Problem-solution_documentation.json"
+  },
+  {
+    "name": "summary template",
+    "tool_id": "TOOL-AUTO-148",
+    "category": "Automation_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Automation_Tools\\Summary_template.json"
+  },
+  {
+    "name": "user testing",
+    "tool_id": "TOOL-TEST-018",
+    "category": "Testing_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Testing_Tools\\User_testing.json"
+  },
+  {
+    "name": "technical writing",
+    "tool_id": "TOOL-DOC-067",
+    "category": "Documentation_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Documentation_Tools\\Technical_Writing.json"
+  },
+  {
+    "name": "screenshot tools",
+    "tool_id": "TOOL-DOC-068",
+    "category": "Documentation_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Documentation_Tools\\Screenshot_Tools.json"
+  },
+  {
+    "name": "markdown formatting",
+    "tool_id": "TOOL-DOC-070",
+    "category": "Documentation_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Documentation_Tools\\Markdown_Formatting.json"
+  },
+  {
+    "name": "communication analysis",
+    "tool_id": "TOOL-COMM-028",
+    "category": "Communication_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Communication_Tools\\Communication_analysis.json"
+  },
+  {
+    "name": "template design",
+    "tool_id": "TOOL-AUTO-150",
+    "category": "Automation_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Automation_Tools\\Template_design.json"
+  },
+  {
+    "name": "channel mapping",
+    "tool_id": "TOOL-COMM-029",
+    "category": "Communication_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Communication_Tools\\Channel_mapping.json"
+  },
+  {
+    "name": "best practices documentation",
+    "tool_id": "TOOL-DOC-072",
+    "category": "Documentation_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Documentation_Tools\\Best_practices_documentation.json"
+  },
+  {
+    "name": "testing process",
+    "tool_id": "TOOL-TEST-020",
+    "category": "Testing_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Testing_Tools\\Testing_process.json"
+  },
+  {
+    "name": "file analysis",
+    "tool_id": "TOOL-FILE-009",
+    "category": "File_Management",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\File_Management\\File_analysis.json"
+  },
+  {
+    "name": "architecture design",
+    "tool_id": "TOOL-AUTO-151",
+    "category": "Automation_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Automation_Tools\\Architecture_design.json"
+  },
+  {
+    "name": "python scripting",
+    "tool_id": "TOOL-DEV-061",
+    "category": "Development_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Development_Tools\\Python_scripting.json"
+  },
+  {
+    "name": "testing environment",
+    "tool_id": "TOOL-TEST-021",
+    "category": "Testing_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Testing_Tools\\Testing_environment.json"
+  },
+  {
+    "name": "migration script",
+    "tool_id": "TOOL-AUTO-152",
+    "category": "Automation_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Automation_Tools\\Migration_script.json"
+  },
+  {
+    "name": "verification script",
+    "tool_id": "TOOL-AUTO-153",
+    "category": "Automation_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Automation_Tools\\Verification_script.json"
+  },
+  {
+    "name": "stakeholder interviews",
+    "tool_id": "TOOL-COMM-030",
+    "category": "Communication_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Communication_Tools\\Stakeholder_interviews.json"
+  },
+  {
+    "name": "architecture documentation",
+    "tool_id": "TOOL-DOC-073",
+    "category": "Documentation_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Documentation_Tools\\Architecture_documentation.json"
+  },
+  {
+    "name": "presentation + feedback",
+    "tool_id": "TOOL-AUTO-155",
+    "category": "Automation_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Automation_Tools\\Presentation_and_Feedback.json"
+  },
+  {
+    "name": "request management system",
+    "tool_id": "TOOL-AUTO-156",
+    "category": "Automation_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Automation_Tools\\Request_management_system.json"
+  },
+  {
+    "name": "validation script",
+    "tool_id": "TOOL-AUTO-157",
+    "category": "Automation_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Automation_Tools\\Validation_script.json"
+  },
+  {
+    "name": "metadata extraction",
+    "tool_id": "TOOL-DATA-009",
+    "category": "Data_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Data_Tools\\Metadata_extraction.json"
+  },
+  {
+    "name": "categorization engine",
+    "tool_id": "TOOL-AUTO-158",
+    "category": "Automation_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Automation_Tools\\Categorization_engine.json"
+  },
+  {
+    "name": "import automation",
+    "tool_id": "TOOL-AUTO-159",
+    "category": "Automation_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Automation_Tools\\Import_automation.json"
+  },
+  {
+    "name": "index update",
+    "tool_id": "TOOL-AUTO-160",
+    "category": "Automation_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Automation_Tools\\Index_update.json"
+  },
+  {
+    "name": "notification system",
+    "tool_id": "TOOL-AUTO-161",
+    "category": "Automation_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Automation_Tools\\Notification_system.json"
+  },
+  {
+    "name": "document review",
+    "tool_id": "TOOL-AUTO-162",
+    "category": "Automation_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Automation_Tools\\Document_review.json"
+  },
+  {
+    "name": "categorization system",
+    "tool_id": "TOOL-AUTO-163",
+    "category": "Automation_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Automation_Tools\\Categorization_system.json"
+  },
+  {
+    "name": "tagging system",
+    "tool_id": "TOOL-AUTO-164",
+    "category": "Automation_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Automation_Tools\\Tagging_system.json"
+  },
+  {
+    "name": "library structure",
+    "tool_id": "TOOL-AUTO-165",
+    "category": "Automation_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Automation_Tools\\Library_structure.json"
+  },
+  {
+    "name": "index management",
+    "tool_id": "TOOL-AUTO-166",
+    "category": "Automation_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Automation_Tools\\Index_management.json"
+  },
+  {
+    "name": "ai task extraction",
+    "tool_id": "TOOL-AI-036",
+    "category": "AI_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\AI_Tools\\AI_task_extraction.json"
+  },
+  {
+    "name": "ai analysis",
+    "tool_id": "TOOL-AI-037",
+    "category": "AI_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\AI_Tools\\AI_analysis.json"
+  },
+  {
+    "name": "assignment logic",
+    "tool_id": "TOOL-AUTO-167",
+    "category": "Automation_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Automation_Tools\\Assignment_logic.json"
+  },
+  {
+    "name": "task management system",
+    "tool_id": "TOOL-COLLAB-018",
+    "category": "Collaboration_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Collaboration_Tools\\Task_management_system.json"
+  },
+  {
+    "name": "task management api",
+    "tool_id": "TOOL-AUTO-168",
+    "category": "Automation_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Automation_Tools\\Task_management_API.json"
+  },
+  {
+    "name": "reminder automation",
+    "tool_id": "TOOL-AUTO-169",
+    "category": "Automation_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Automation_Tools\\Reminder_automation.json"
+  },
+  {
+    "name": "workflow design",
+    "tool_id": "TOOL-COLLAB-019",
+    "category": "Collaboration_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Collaboration_Tools\\Workflow_design.json"
+  },
+  {
+    "name": "web development",
+    "tool_id": "TOOL-DEV-062",
+    "category": "Development_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Development_Tools\\Web_development.json"
+  },
+  {
+    "name": "backend development",
+    "tool_id": "TOOL-DEV-063",
+    "category": "Development_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Development_Tools\\Backend_development.json"
+  },
+  {
+    "name": "api integration",
+    "tool_id": "TOOL-DEV-064",
+    "category": "Development_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Development_Tools\\API_integration.json"
+  },
+  {
+    "name": "deployment + training",
+    "tool_id": "TOOL-AUTO-170",
+    "category": "Automation_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Automation_Tools\\Deployment_and_Training.json"
+  },
+  {
+    "name": "crm api or export",
+    "tool_id": "TOOL-COMM-031",
+    "category": "Communication_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Communication_Tools\\CRM_API_or_export.json"
+  },
+  {
+    "name": "data analysis",
+    "tool_id": "TOOL-DATA-010",
+    "category": "Data_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Data_Tools\\Data_analysis.json"
+  },
+  {
+    "name": "strategic planning",
+    "tool_id": "TOOL-AUTO-171",
+    "category": "Automation_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Automation_Tools\\Strategic_planning.json"
+  },
+  {
+    "name": "metrics definition",
+    "tool_id": "TOOL-AUTO-172",
+    "category": "Automation_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Automation_Tools\\Metrics_definition.json"
+  },
+  {
+    "name": "crm dashboard configuration",
+    "tool_id": "TOOL-COMM-032",
+    "category": "Communication_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Communication_Tools\\CRM_dashboard_configuration.json"
+  },
+  {
+    "name": "crm automation",
+    "tool_id": "TOOL-COMM-033",
+    "category": "Communication_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Communication_Tools\\CRM_automation.json"
+  },
+  {
+    "name": "training sessions",
+    "tool_id": "TOOL-AUTO-173",
+    "category": "Automation_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Automation_Tools\\Training_sessions.json"
+  },
+  {
+    "name": "usage analytics",
+    "tool_id": "TOOL-ANALYTICS-021",
+    "category": "Analytics_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Analytics_Tools\\Usage_analytics.json"
+  },
+  {
+    "name": "business analysis",
+    "tool_id": "TOOL-AUTO-174",
+    "category": "Automation_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Automation_Tools\\Business_analysis.json"
+  },
+  {
+    "name": "metrics framework",
+    "tool_id": "TOOL-ANALYTICS-022",
+    "category": "Analytics_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Analytics_Tools\\Metrics_framework.json"
+  },
+  {
+    "name": "analytical framework",
+    "tool_id": "TOOL-AUTO-175",
+    "category": "Automation_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Automation_Tools\\Analytical_framework.json"
+  },
+  {
+    "name": "testing",
+    "tool_id": "TOOL-TEST-022",
+    "category": "Testing_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Testing_Tools\\Testing.json"
+  },
+  {
+    "name": "training",
+    "tool_id": "TOOL-AUTO-176",
+    "category": "Automation_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Automation_Tools\\Training.json"
+  },
+  {
+    "name": "business research",
+    "tool_id": "TOOL-AUTO-177",
+    "category": "Automation_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Automation_Tools\\Business_research.json"
+  },
+  {
+    "name": "web scraper configuration",
+    "tool_id": "TOOL-AUTO-178",
+    "category": "Automation_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Automation_Tools\\Web_scraper_configuration.json"
+  },
+  {
+    "name": "scraping automation",
+    "tool_id": "TOOL-AUTO-179",
+    "category": "Automation_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Automation_Tools\\Scraping_automation.json"
+  },
+  {
+    "name": "nlp + ai analysis",
+    "tool_id": "TOOL-AI-038",
+    "category": "AI_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\AI_Tools\\NLP_and_AI_analysis.json"
+  },
+  {
+    "name": "contact discovery tools",
+    "tool_id": "TOOL-AUTO-180",
+    "category": "Automation_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Automation_Tools\\Contact_discovery_tools.json"
+  },
+  {
+    "name": "crm integration",
+    "tool_id": "TOOL-COMM-034",
+    "category": "Communication_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Communication_Tools\\CRM_integration.json"
+  },
+  {
+    "name": "lead distribution",
+    "tool_id": "TOOL-AUTO-181",
+    "category": "Automation_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Automation_Tools\\Lead_distribution.json"
+  },
+  {
+    "name": "transcription api (whisper, rev, etc.)",
+    "tool_id": "TOOL-AUTO-182",
+    "category": "Automation_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Automation_Tools\\Transcription_API.json"
+  },
+  {
+    "name": "automated transcription",
+    "tool_id": "TOOL-AUTO-183",
+    "category": "Automation_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Automation_Tools\\Automated_transcription.json"
+  },
+  {
+    "name": "text editor",
+    "tool_id": "TOOL-DOC-074",
+    "category": "Documentation_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Documentation_Tools\\Text_editor.json"
+  },
+  {
+    "name": "transcription editor",
+    "tool_id": "TOOL-AUTO-184",
+    "category": "Automation_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Automation_Tools\\Transcription_editor.json"
+  },
+  {
+    "name": "markdown formatter",
+    "tool_id": "TOOL-DOC-075",
+    "category": "Documentation_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Documentation_Tools\\Markdown_formatter.json"
+  },
+  {
+    "name": "content management",
+    "tool_id": "TOOL-AUTO-185",
+    "category": "Automation_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Automation_Tools\\Content_management.json"
+  },
+  {
+    "name": "prioritization framework",
+    "tool_id": "TOOL-AUTO-186",
+    "category": "Automation_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Automation_Tools\\Prioritization_framework.json"
+  },
+  {
+    "name": "compression configuration",
+    "tool_id": "TOOL-AUTO-187",
+    "category": "Automation_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Automation_Tools\\Compression_configuration.json"
+  },
+  {
+    "name": "ffmpeg or video compression tool",
+    "tool_id": "TOOL-VIDEO-010",
+    "category": "Video_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Video_Tools\\FFmpeg_video.json"
+  },
+  {
+    "name": "visual review",
+    "tool_id": "TOOL-AUTO-188",
+    "category": "Automation_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Automation_Tools\\Visual_review.json"
+  },
+  {
+    "name": "file management",
+    "tool_id": "TOOL-FILE-010",
+    "category": "File_Management",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\File_Management\\File_management.json"
+  },
+  {
+    "name": "hr system",
+    "tool_id": "TOOL-AUTO-189",
+    "category": "Automation_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Automation_Tools\\HR_system.json"
+  },
+  {
+    "name": "access management",
+    "tool_id": "TOOL-AUTO-190",
+    "category": "Automation_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Automation_Tools\\Access_management.json"
+  },
+  {
+    "name": "communication platform",
+    "tool_id": "TOOL-COMM-035",
+    "category": "Communication_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Communication_Tools\\Communication_platform.json"
+  },
+  {
+    "name": "format guidelines",
+    "tool_id": "TOOL-AUTO-191",
+    "category": "Automation_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Automation_Tools\\Format_Guidelines.json"
+  },
+  {
+    "name": "platform guidelines + video editing",
+    "tool_id": "TOOL-VIDEO-011",
+    "category": "Video_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Video_Tools\\Platform_Guidelines.json"
+  },
+  {
+    "name": "platform guidelines + trend analysis",
+    "tool_id": "TOOL-VIDEO-012",
+    "category": "Video_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Video_Tools\\Platform_Guidelines.json"
+  },
+  {
+    "name": "platform guidelines + tutorial structure",
+    "tool_id": "TOOL-VIDEO-013",
+    "category": "Video_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Video_Tools\\Platform_Guidelines.json"
+  },
+  {
+    "name": "platform guidelines + professional content",
+    "tool_id": "TOOL-VIDEO-014",
+    "category": "Video_Tools",
+    "file_path": "C:\\Users\\Dell\\Dropbox\\Nov25\\Taxonomy\\Entities\\LIBRARIES\\Tools\\Video_Tools\\Platform_Guidelines.json"
+  }
+]

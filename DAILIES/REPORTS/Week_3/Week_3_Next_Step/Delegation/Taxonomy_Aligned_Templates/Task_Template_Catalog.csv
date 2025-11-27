@@ -1,0 +1,422 @@
+task_template_id,task_name,department,category,priority,complexity,estimated_duration,business_impact,quick_win,matched_template,assigned_to,original_id,filename
+TST-001,Research to Task Manager integration,AID,Research,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-001,TST-001_Research_to_Task_Manager_integration.json
+TST-002,Pack all dailies into Week3 folder,AID,Task,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-002,TST-002_Pack_all_dailies_into_Week3_folder.json
+TST-030,Interviews Lists to MD Files,HRM,Task,High,Medium,2-3 hours (one-time setup),Medium,False,CUSTOM,TBD,TSK-030,TST-030_Interviews_Lists_to_MD_Files.json
+TST-031,Clear Lists of Candidates Sources,HRM,Task,High,Medium,2-3 hours (one-time setup),Medium,False,CUSTOM,TBD,TSK-031,TST-031_Clear_Lists_of_Candidates_Sources.json
+TST-032,HR Onboarding preparation,HRM,Task,High,Medium,2-3 hours,Medium,False,CUSTOM,TBD,TSK-032,TST-032_HR_Onboarding_preparation.json
+TST-033,Integrate Individual Employee Testing,HRM,Integration,High,Medium,2-3 hours (one-time setup),Medium,False,CUSTOM,TBD,TSK-033,TST-033_Integrate_Individual_Employee_Testing.json
+TST-034,Discord Bot notifications,HRM,Task,High,Medium,2-3 hours (one-time setup),Medium,False,CUSTOM,TBD,TSK-034,TST-034_Discord_Bot_notifications.json
+TST-035,Expand Industries,AID,Task,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-035,TST-035_Expand_Industries.json
+TST-036,LG Message Templates,AID,Task,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-036,TST-036_LG_Message_Templates.json
+TST-037,Prospects Architecture Improvement,SLS,Task,High,Medium,4-5 hours for 50 emails,Medium,False,CUSTOM,TBD,TSK-037,TST-037_Prospects_Architecture_Improvement.json
+TST-038,Feed database: 300 new leads daily,DEV,Task,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-038,TST-038_Feed_database_300_new_leads_daily.json
+TST-039,Populate leads with classifications,LGN,Task,High,Medium,3 hours (1 hour research + 1.5 hours data entry + 30 min qualification),Medium,False,CUSTOM,TBD,TSK-039,TST-039_Populate_leads_with_classifications.json
+TST-040,Target audience analysis,AID,Task,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-040,TST-040_Target_audience_analysis.json
+TST-041,Extract/analyze LG conversations,AID,Research,High,Medium,6-9 hours (4-6 hours research + 2-3 hours documentation),Medium,False,CUSTOM,TBD,TSK-041,TST-041_Extractanalyze_LG_conversations.json
+TST-042,Build look-alike auditory,DGN,Development,High,Medium,1.5-2 hours,Medium,False,CUSTOM,TBD,TSK-042,TST-042_Build_look-alike_auditory.json
+TST-043,Testing Individual Scraping Techniques,DEV,Testing,High,Medium,1.5-2 hours,Medium,False,CUSTOM,TBD,TSK-043,TST-043_Testing_Individual_Scraping_Techniques.json
+TST-044,LG Department Core Principles Doc,AID,Task,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-044,TST-044_LG_Department_Core_Principles_Doc.json
+TST-045,Obligatory: Save 5 Templates + Screenshot,AID,Task,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-045,TST-045_Obligatory_Save_5_Templates_+_Screenshot.json
+TST-046,Sales Email Templates,AID,Task,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-046,TST-046_Sales_Email_Templates.json
+TST-047,Connect to Google Calendar,AID,Integration,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-047,TST-047_Connect_to_Google_Calendar.json
+TST-048,Scrape Event Metadata,AID,Task,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-048,TST-048_Scrape_Event_Metadata.json
+TST-049,Populate Business Entity from Sales,AID,Task,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-049,TST-049_Populate_Business_Entity_from_Sales.json
+TST-050,Get CRM Data on Daily LeadGen Cards,SLS,Task,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-050,TST-050_Get_CRM_Data_on_Daily_LeadGen_Cards.json
+TST-051,Learning Flow Step-by-Step Development,DEV,Development,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-051,TST-051_Learning_Flow_Step-by-Step_Development.json
+TST-052,Track Task Completions via Microservices,DEV,Task,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-052,TST-052_Track_Task_Completions_via_Microservices.json
+TST-053,Synchronize Libs with Online Academy,DEV,Integration,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-053,TST-053_Synchronize_Libs_with_Online_Academy.json
+TST-054,Connect Task Managers to Libs,AID,Integration,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-054,TST-054_Connect_Task_Managers_to_Libs.json
+TST-055,Task Manager Dashboard with Database,AID,Task,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-055,TST-055_Task_Manager_Dashboard_with_Database.json
+TST-056,n8n Image Generation Guide,DGN,Design,High,Medium,20-30 minutes,Medium,False,CUSTOM,TBD,TSK-056,TST-056_n8n_Image_Generation_Guide.json
+TST-057,Frontend OAuth Implementation,DEV,Development,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-057,TST-057_Frontend_OAuth_Implementation.json
+TST-058,Personal Task Manager Web Pages,AID,Task,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-058,TST-058_Personal_Task_Manager_Web_Pages.json
+TST-059,Add Rules for AI in Each Folder,AID,Task,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-059,TST-059_Add_Rules_for_AI_in_Each_Folder.json
+TST-060,Log Entity Integration,AID,Task,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-060,TST-060_Log_Entity_Integration.json
+TST-061,Keep Logs Longer,AID,Task,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-061,TST-061_Keep_Logs_Longer.json
+TST-062,Develop USER Entities,AID,Development,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-062,TST-062_Develop_USER_Entities.json
+TST-063,Review TALENTS match with Database,HRM,Research,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-063,TST-063_Review_TALENTS_match_with_Database.json
+TST-064,Prepare DB EXPORT Folder: LIBRARIES,AID,Task,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-064,TST-064_Prepare_DB_EXPORT_Folder_LIBRARIES.json
+TST-065,Text Researches Recognition & Import,AID,Research,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-065,TST-065_Text_Researches_Recognition_&_Import.json
+TST-066,Core System Taxonomy Architecture Review,FIN,Research,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-066,TST-066_Core_System_Taxonomy_Architecture_Review.json
+TST-067,Prompt for Transcription Export,AID,Task,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-067,TST-067_Prompt_for_Transcription_Export.json
+TST-068,Prompts for Weekly Analysis,AID,Task,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-068,TST-068_Prompts_for_Weekly_Analysis.json
+TST-069,Prompts for Daily Analysis,AID,Task,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-069,TST-069_Prompts_for_Daily_Analysis.json
+TST-070,Researches Dashboard,AID,Research,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-070,TST-070_Researches_Dashboard.json
+TST-071,Export Dailies Summaries to ToDo App,AID,Task,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-071,TST-071_Export_Dailies_Summaries_to_ToDo_App.json
+TST-072,Tasks Templates Execution System,AID,Task,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-072,TST-072_Tasks_Templates_Execution_System.json
+TST-073,Steps Confirmation System,AID,Task,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-073,TST-073_Steps_Confirmation_System.json
+TST-074,Portfolio Diversification Strategy,DGN,Task,High,Medium,20-30 minutes,Medium,False,CUSTOM,TBD,TSK-074,TST-074_Portfolio_Diversification_Strategy.json
+TST-075,Create More Case Studies,AID,Development,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-075,TST-075_Create_More_Case_Studies.json
+TST-076,Deep Research Designer Task,DGN,Research,High,Medium,2.5 hours (30 min planning + 1.5 hours generation + 30 min refinement),Medium,False,CUSTOM,TBD,TSK-076,TST-076_Deep_Research_Designer_Task.json
+TST-077,Media Library Development,AID,Development,High,Medium,2 hours (30 min install + 1 hour config + 30 min testing),Medium,False,CUSTOM,TBD,TSK-077,TST-077_Media_Library_Development.json
+TST-106,Find historical search queries file on Google Drive,AID,Task,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-106,TST-106_Find_historical_search_queries_file_on_Google_Drive.json
+TST-107,Reformat LinkedIn queries for Google Maps,LGN,Task,High,Medium,3 hours (1 hour research + 1.5 hours data entry + 30 min qualification),Medium,False,CUSTOM,TBD,TSK-107,TST-107_Reformat_LinkedIn_queries_for_Google_Maps.json
+TST-108,Create detailed prompt for query generation (Column H),AID,Development,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-108,TST-108_Create_detailed_prompt_for_query_generation_(Column_H).json
+TST-109,Build URL parsing script,AID,Development,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-109,TST-109_Build_URL_parsing_script.json
+TST-110,Extract company name from URLs,AID,Task,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-110,TST-110_Extract_company_name_from_URLs.json
+TST-111,Connect scraper to CRM automation,SLS,Integration,High,Medium,4-5 hours for 50 emails,Medium,False,CUSTOM,TBD,TSK-111,TST-111_Connect_scraper_to_CRM_automation.json
+TST-112,Implement duplicate checking against CRM,SLS,Development,High,Medium,4-5 hours for 50 emails,Medium,False,CUSTOM,TBD,TSK-112,TST-112_Implement_duplicate_checking_against_CRM.json
+TST-113,Test scraping with 3-4 videos about Google Maps scraping,LGN,Testing,High,Medium,3 hours (1 hour research + 1.5 hours data entry + 30 min qualification),Medium,False,CUSTOM,TBD,TSK-113,TST-113_Test_scraping_with_3-4_videos_about_Google_Maps_scraping.json
+TST-114,"Allocate 5 lead generators, 1-2 hours/day for Google Maps",LGN,Task,High,Medium,3 hours (1 hour research + 1.5 hours data entry + 30 min qualification),Medium,False,CUSTOM,TBD,TSK-114,"TST-114_Allocate_5_lead_generators,_1-2_hoursday_for_Google_Maps.json"
+TST-115,Create attractive offer for leads (20 Google vs 5 LinkedIn),LGN,Development,High,Medium,3 hours (1 hour research + 1.5 hours data entry + 30 min qualification),Medium,False,CUSTOM,TBD,TSK-115,TST-115_Create_attractive_offer_for_leads_(20_Google_vs_5_LinkedIn).json
+TST-116,Document scraping system (20% checkpoint),DEV,Documentation,High,Medium,6-9 hours (4-6 hours research + 2-3 hours documentation),Medium,False,CUSTOM,TBD,TSK-116,TST-116_Document_scraping_system_(20%_checkpoint).json
+TST-117,Research world methodologies on Google Maps scraping,LGN,Research,High,Medium,6-9 hours (4-6 hours research + 2-3 hours documentation),Medium,False,CUSTOM,TBD,TSK-117,TST-117_Research_world_methodologies_on_Google_Maps_scraping.json
+TST-118,Create guidelines for reviews scraping direction,DGN,Development,High,Medium,20-30 minutes,Medium,False,CUSTOM,TBD,TSK-118,TST-118_Create_guidelines_for_reviews_scraping_direction.json
+TST-119,Add source marking for Google Maps data,LGN,Task,High,Medium,3 hours (1 hour research + 1.5 hours data entry + 30 min qualification),Medium,False,CUSTOM,TBD,TSK-119,TST-119_Add_source_marking_for_Google_Maps_data.json
+TST-120,Implement social media scraping,SMM,Development,High,Medium,6-9 hours (4-6 hours research + 2-3 hours documentation),Medium,False,CUSTOM,TBD,TSK-120,TST-120_Implement_social_media_scraping.json
+TST-121,Test review system with live data,AID,Research,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-121,TST-121_Test_review_system_with_live_data.json
+TST-122,Launch system with LGN team,AID,Task,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-122,TST-122_Launch_system_with_LGN_team.json
+TST-123,Create Job Sites folder in ENTITIES/ACCOUNTS,LGN,Development,High,Medium,3 hours (1 hour research + 1.5 hours data entry + 30 min qualification),Medium,False,CUSTOM,TBD,TSK-123,TST-123_Create_Job_Sites_folder_in_ENTITIESACCOUNTS.json
+TST-124,Review other entities' taxonomy,AID,Research,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-124,TST-124_Review_other_entities'_taxonomy.json
+TST-125,Build Job Sites entity structure,LGN,Development,High,Medium,3 hours (1 hour research + 1.5 hours data entry + 30 min qualification),Medium,False,CUSTOM,TBD,TSK-125,TST-125_Build_Job_Sites_entity_structure.json
+TST-126,Create Master JSON for Job Sites,LGN,Development,High,Medium,3 hours (1 hour research + 1.5 hours data entry + 30 min qualification),Medium,False,CUSTOM,TBD,TSK-126,TST-126_Create_Master_JSON_for_Job_Sites.json
+TST-127,Document Job Sites entity,LGN,Documentation,High,Medium,3 hours (1 hour research + 1.5 hours data entry + 30 min qualification),Medium,False,CUSTOM,TBD,TSK-127,TST-127_Document_Job_Sites_entity.json
+TST-128,Deploy v1.0 to Vercel,DEV,Task,High,Medium,5-10 minutes with AI assistance,Medium,False,CUSTOM,TBD,TSK-128,TST-128_Deploy_v1.0_to_Vercel.json
+TST-129,Share dashboard access with all departments,AID,Task,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-129,TST-129_Share_dashboard_access_with_all_departments.json
+TST-130,Fix white text display,AID,Maintenance,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-130,TST-130_Fix_white_text_display.json
+TST-131,Add tool filtering feature,AID,Task,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-131,TST-131_Add_tool_filtering_feature.json
+TST-132,Implement user login tracking,AID,Development,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-132,TST-132_Implement_user_login_tracking.json
+TST-133,Create user assignment system,AID,Development,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-133,TST-133_Create_user_assignment_system.json
+TST-134,Integrate UI Kit from Eleanor's work,DGN,Design,High,Medium,20-30 minutes,Medium,False,CUSTOM,TBD,TSK-134,TST-134_Integrate_UI_Kit_from_Eleanor's_work.json
+TST-135,Add calendar feature,AID,Task,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-135,TST-135_Add_calendar_feature.json
+TST-136,Build API for dashboard data,DGN,Development,High,Medium,20-30 minutes,Medium,False,CUSTOM,TBD,TSK-136,TST-136_Build_API_for_dashboard_data.json
+TST-137,Integrate with LibDev catalog,AID,Integration,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-137,TST-137_Integrate_with_LibDev_catalog.json
+TST-138,Document dashboard usage,AID,Documentation,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-138,TST-138_Document_dashboard_usage.json
+TST-139,Create employee training materials,HRM,Development,High,Medium,2-3 hours,Medium,False,CUSTOM,TBD,TSK-139,TST-139_Create_employee_training_materials.json
+TST-140,Teach Vilhelm video parsing workflow,VID,Task,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-140,TST-140_Teach_Vilhelm_video_parsing_workflow.json
+TST-141,Set up Vilhelm's VS Code with Claude Extension,AID,Task,High,Medium,Auto-draft: <1 minute | Review: 10 minutes,Medium,False,CUSTOM,TBD,TSK-141,TST-141_Set_up_Vilhelm's_VS_Code_with_Claude_Extension.json
+TST-142,Configure Vilhelm's key bindings,VID,Task,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-142,TST-142_Configure_Vilhelm's_key_bindings.json
+TST-143,Introduce Vilhelm to ENTITIES structure,AID,Task,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-143,TST-143_Introduce_Vilhelm_to_ENTITIES_structure.json
+TST-144,Assign Vilhelm accounts with limits,SLS,Task,High,Medium,4-5 hours for 50 emails,Medium,False,CUSTOM,TBD,TSK-144,TST-144_Assign_Vilhelm_accounts_with_limits.json
+TST-145,Vilhelm: Research YouTube channels on Google Maps scraping,LGN,Research,High,Medium,6-9 hours (4-6 hours research + 2-3 hours documentation),Medium,False,CUSTOM,TBD,TSK-145,TST-145_Vilhelm_Research_YouTube_channels_on_Google_Maps_scraping.json
+TST-146,Vilhelm: Parse 3-4 videos by Monday,VID,Task,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-146,TST-146_Vilhelm_Parse_3-4_videos_by_Monday.json
+TST-147,"Vilhelm: Create ""Deep Research"" task",AID,Development,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-147,TST-147_Vilhelm_Create_Deep_Research_task.json
+TST-148,Vilhelm: Check Online Academy for Deep Research content,SMM,Research,High,Medium,6-9 hours (4-6 hours research + 2-3 hours documentation),Medium,False,CUSTOM,TBD,TSK-148,TST-148_Vilhelm_Check_Online_Academy_for_Deep_Research_content.json
+TST-149,Vilhelm: Integrate prompts into ENTITIES ecosystem,AID,Integration,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-149,TST-149_Vilhelm_Integrate_prompts_into_ENTITIES_ecosystem.json
+TST-150,Document current AI tools tracking system,AID,Documentation,High,Medium,5-8 hours (3-5 hours research + 2-3 hours documentation),Medium,False,CUSTOM,TBD,TSK-150,TST-150_Document_current_AI_tools_tracking_system.json
+TST-151,Add user assignment field to accounts,SLS,Task,High,Medium,4-5 hours for 50 emails,Medium,False,CUSTOM,TBD,TSK-151,TST-151_Add_user_assignment_field_to_accounts.json
+TST-152,Implement login session tracking,AID,Development,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-152,TST-152_Implement_login_session_tracking.json
+TST-153,Create token usage alerts,AID,Development,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-153,TST-153_Create_token_usage_alerts.json
+TST-154,Purchase additional AI tool accounts,AID,Task,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-154,TST-154_Purchase_additional_AI_tool_accounts.json
+TST-155,Sync Dropbox Tools to libdev.com,DEV,Integration,High,Medium,5-10 minutes with AI assistance,Medium,False,CUSTOM,TBD,TSK-155,TST-155_Sync_Dropbox_Tools_to_libdev.com.json
+TST-156,Build account rotation recommendations,SLS,Development,High,Medium,4-5 hours for 50 emails,Medium,False,CUSTOM,TBD,TSK-156,TST-156_Build_account_rotation_recommendations.json
+TST-157,Design single task page layout,DGN,Design,High,Medium,20-30 minutes,Medium,False,CUSTOM,TBD,TSK-157,TST-157_Design_single_task_page_layout.json
+TST-158,Create prompt for task page generation,AID,Development,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-158,TST-158_Create_prompt_for_task_page_generation.json
+TST-159,Build HTML template for single task,DGN,Development,High,Medium,20-30 minutes,Medium,False,CUSTOM,TBD,TSK-159,TST-159_Build_HTML_template_for_single_task.json
+TST-160,Test with Deep Research task,AID,Research,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-160,TST-160_Test_with_Deep_Research_task.json
+TST-161,Create research queue/line system,AID,Development,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-161,TST-161_Create_research_queueline_system.json
+TST-162,Integrate with TASK_MANAGERS data,AID,Integration,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-162,TST-162_Integrate_with_TASK_MANAGERS_data.json
+TST-163,Create CONTENT entity folder,AID,Development,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-163,TST-163_Create_CONTENT_entity_folder.json
+TST-164,Define CONTENT entity taxonomy,AID,Task,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-164,TST-164_Define_CONTENT_entity_taxonomy.json
+TST-165,Create Master CSV for CONTENT,SMM,Development,High,Medium,6-9 hours (4-6 hours research + 2-3 hours documentation),Medium,False,CUSTOM,TBD,TSK-165,TST-165_Create_Master_CSV_for_CONTENT.json
+TST-166,Populate with existing tutorials,AID,Task,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-166,TST-166_Populate_with_existing_tutorials.json
+TST-167,Research Figma AI tutorial videos,VID,Research,High,Medium,6-9 hours (4-6 hours research + 2-3 hours documentation),Medium,False,CUSTOM,TBD,TSK-167,TST-167_Research_Figma_AI_tutorial_videos.json
+TST-168,Build video catalog app,VID,Development,High,Medium,6-9 hours (4-6 hours research + 2-3 hours documentation),Medium,False,CUSTOM,TBD,TSK-168,TST-168_Build_video_catalog_app.json
+TST-169,Implement clickable timestamps,AID,Development,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-169,TST-169_Implement_clickable_timestamps.json
+TST-170,Create minimum parse list,AID,Development,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-170,TST-170_Create_minimum_parse_list.json
+TST-171,Review current video processing taxonomy,FIN,Research,High,Medium,6-9 hours (4-6 hours research + 2-3 hours documentation),Medium,False,CUSTOM,TBD,TSK-171,TST-171_Review_current_video_processing_taxonomy.json
+TST-172,Identify taxonomy improvements,FIN,Task,High,Medium,3 hours (45 min requirements + 1.5 hours design + 45 min testing),Medium,False,CUSTOM,TBD,TSK-172,TST-172_Identify_taxonomy_improvements.json
+TST-173,Implement taxonomy upgrades,FIN,Development,High,Medium,3 hours (45 min requirements + 1.5 hours design + 45 min testing),Medium,False,CUSTOM,TBD,TSK-173,TST-173_Implement_taxonomy_upgrades.json
+TST-174,Document video editor processed works,VID,Documentation,High,Medium,6-9 hours (4-6 hours research + 2-3 hours documentation),Medium,False,CUSTOM,TBD,TSK-174,TST-174_Document_video_editor_processed_works.json
+TST-175,Define Google Drive storage locations,VID,Task,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-175,TST-175_Define_Google_Drive_storage_locations.json
+TST-176,Research Gravity AI tool capabilities,AID,Research,High,Medium,5-8 hours (3-5 hours research + 2-3 hours documentation),Medium,False,CUSTOM,TBD,TSK-176,TST-176_Research_Gravity_AI_tool_capabilities.json
+TST-177,Integrate Responsibilities into LBS taxonomy,FIN,Integration,High,Medium,3 hours (45 min requirements + 1.5 hours design + 45 min testing),Medium,False,CUSTOM,TBD,TSK-177,TST-177_Integrate_Responsibilities_into_LBS_taxonomy.json
+TST-178,Document Gravity integration,DEV,Documentation,High,Medium,6-9 hours (4-6 hours research + 2-3 hours documentation),Medium,False,CUSTOM,TBD,TSK-178,TST-178_Document_Gravity_integration.json
+TST-179,Prepare shifts management system,HRM,Task,High,Medium,1.5-2 hours,Medium,False,CUSTOM,TBD,TSK-179,TST-179_Prepare_shifts_management_system.json
+TST-180,Document schedule management techniques,AID,Documentation,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-180,TST-180_Document_schedule_management_techniques.json
+TST-181,Connect research to posting schedule,SMM,Research,High,Medium,6-9 hours (4-6 hours research + 2-3 hours documentation),Medium,False,CUSTOM,TBD,TSK-181,TST-181_Connect_research_to_posting_schedule.json
+TST-182,Create BUSINESSES entity folder,AID,Development,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-182,TST-182_Create_BUSINESSES_entity_folder.json
+TST-183,Define BUSINESSES entity taxonomy,AID,Task,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-183,TST-183_Define_BUSINESSES_entity_taxonomy.json
+TST-184,Document client interview process,SLS,Documentation,High,Medium,4-5 hours for 50 emails,Medium,False,CUSTOM,TBD,TSK-184,TST-184_Document_client_interview_process.json
+TST-185,Track Friday client scheduling,SLS,Task,High,Medium,4-5 hours for 50 emails,Medium,False,CUSTOM,TBD,TSK-185,TST-185_Track_Friday_client_scheduling.json
+TST-186,Store interview recordings/notes,HRM,Task,High,Medium,1.5-2 hours,Medium,False,CUSTOM,TBD,TSK-186,TST-186_Store_interview_recordingsnotes.json
+TST-187,Define profession categories,AID,Task,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-187,TST-187_Define_profession_categories.json
+TST-188,Populate tutorials per profession,AID,Task,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-188,TST-188_Populate_tutorials_per_profession.json
+TST-189,Create guidelines per profession,DGN,Development,High,Medium,20-30 minutes,Medium,False,CUSTOM,TBD,TSK-189,TST-189_Create_guidelines_per_profession.json
+TST-190,Build AI assistant framework,DGN,Development,High,Medium,20-30 minutes,Medium,False,CUSTOM,TBD,TSK-190,TST-190_Build_AI_assistant_framework.json
+TST-191,Design InnerClient concept,SLS,Design,High,Medium,20-30 minutes,Medium,False,CUSTOM,TBD,TSK-191,TST-191_Design_InnerClient_concept.json
+TST-192,Define pricing per profession,FIN,Task,High,Medium,3 hours (45 min requirements + 1.5 hours design + 45 min testing),Medium,False,CUSTOM,TBD,TSK-192,TST-192_Define_pricing_per_profession.json
+TST-193,Create UI for InnerClient system,SLS,Development,High,Medium,4-5 hours for 50 emails,Medium,False,CUSTOM,TBD,TSK-193,TST-193_Create_UI_for_InnerClient_system.json
+TST-194,Set up human curation process,AID,Task,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-194,TST-194_Set_up_human_curation_process.json
+TST-195,Sync Dropbox Tools library to libdev.com,DEV,Integration,High,Medium,5-10 minutes with AI assistance,Medium,False,CUSTOM,TBD,TSK-195,TST-195_Sync_Dropbox_Tools_library_to_libdev.com.json
+TST-196,Research Dropbox API synchronization,DEV,Research,High,Medium,6-9 hours (4-6 hours research + 2-3 hours documentation),Medium,False,CUSTOM,TBD,TSK-196,TST-196_Research_Dropbox_API_synchronization.json
+TST-197,Build manual sync script (fallback),DGN,Development,High,Medium,20-30 minutes,Medium,False,CUSTOM,TBD,TSK-197,TST-197_Build_manual_sync_script_(fallback).json
+TST-198,Create knowledge gap identification process,AID,Development,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-198,TST-198_Create_knowledge_gap_identification_process.json
+TST-199,Implement Read/Write/Save reminder system,AID,Development,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-199,TST-199_Implement_ReadWriteSave_reminder_system.json
+TST-200,Monday call at 9 AM,DGN,Task,High,Medium,20-30 minutes,Medium,False,CUSTOM,TBD,TSK-200,TST-200_Monday_call_at_9_AM.json
+TST-201,Vilhelm + Yulya: Collect designer works,DGN,Design,High,Medium,20-30 minutes,Medium,False,CUSTOM,TBD,TSK-201,TST-201_Vilhelm_+_Yulya_Collect_designer_works.json
+TST-202,Implement designer work storage in Dropbox,DGN,Development,High,Medium,20-30 minutes,Medium,False,CUSTOM,TBD,TSK-202,TST-202_Implement_designer_work_storage_in_Dropbox.json
+TST-203,Document Monday progress,DGN,Documentation,High,Medium,2 hours (45 min organization + 45 min documentation + 30 min updates),Medium,False,CUSTOM,TBD,TSK-203,TST-203_Document_Monday_progress.json
+TST-204,Create plans for next stage,DGN,Development,High,Medium,20-30 minutes,Medium,False,CUSTOM,TBD,TSK-204,TST-204_Create_plans_for_next_stage.json
+TST-205,Review all designer portfolios,DGN,Research,High,Medium,5-8 hours (3-5 hours research + 2-3 hours documentation),Medium,False,CUSTOM,TBD,TSK-205,TST-205_Review_all_designer_portfolios.json
+TST-206,Mandate Dropbox work storage for designers,DGN,Design,High,Medium,20-30 minutes,Medium,False,CUSTOM,TBD,TSK-206,TST-206_Mandate_Dropbox_work_storage_for_designers.json
+TST-207,Create daily work documentation requirement,DGN,Development,High,Medium,20-30 minutes,Medium,False,CUSTOM,TBD,TSK-207,TST-207_Create_daily_work_documentation_requirement.json
+TST-208,Diversify designer portfolios,DGN,Design,High,Medium,20-30 minutes,Medium,False,CUSTOM,TBD,TSK-208,TST-208_Diversify_designer_portfolios.json
+TST-209,Build case studies library,DGN,Development,High,Medium,20-30 minutes,Medium,False,CUSTOM,TBD,TSK-209,TST-209_Build_case_studies_library.json
+TST-210,Train designers on AI tools,AID,Design,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-210,TST-210_Train_designers_on_AI_tools.json
+TST-211,Design financial framework structure,FIN,Design,High,Medium,3 hours (45 min requirements + 1.5 hours design + 45 min testing),Medium,False,CUSTOM,TBD,TSK-211,TST-211_Design_financial_framework_structure.json
+TST-212,Create data sets for financial wiki,FIN,Development,High,Medium,3 hours (45 min requirements + 1.5 hours design + 45 min testing),Medium,False,CUSTOM,TBD,TSK-212,TST-212_Create_data_sets_for_financial_wiki.json
+TST-213,Document calculation sources,AID,Documentation,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-213,TST-213_Document_calculation_sources.json
+TST-214,Collect employee profiles for Talents,HRM,Task,High,Medium,2-3 hours (one-time setup),Medium,False,CUSTOM,TBD,TSK-214,TST-214_Collect_employee_profiles_for_Talents.json
+TST-215,Create modified public profiles,AID,Development,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-215,TST-215_Create_modified_public_profiles.json
+TST-216,Implement log files in every entity folder,AID,Development,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-216,TST-216_Implement_log_files_in_every_entity_folder.json
+TST-217,Create main researchers' log,AID,Development,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-217,TST-217_Create_main_researchers'_log.json
+TST-218,Build structured guidelines for manual assignment,DGN,Development,High,Medium,20-30 minutes,Medium,False,CUSTOM,TBD,TSK-218,TST-218_Build_structured_guidelines_for_manual_assignment.json
+TST-219,Create step-by-step documentation templates,AID,Development,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-219,TST-219_Create_step-by-step_documentation_templates.json
+TST-220,Identify department data gaps,AID,Task,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-220,TST-220_Identify_department_data_gaps.json
+TST-221,Create TODO file system,AID,Development,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-221,TST-221_Create_TODO_file_system.json
+TST-222,Build AI prompt for task distribution,DGN,Development,High,Medium,20-30 minutes,Medium,False,CUSTOM,TBD,TSK-222,TST-222_Build_AI_prompt_for_task_distribution.json
+TST-223,Implement daily TODO generation,AID,Development,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-223,TST-223_Implement_daily_TODO_generation.json
+TST-224,Document transcription best practices,VID,Documentation,High,Medium,6-9 hours (4-6 hours research + 2-3 hours documentation),Medium,False,CUSTOM,TBD,TSK-224,TST-224_Document_transcription_best_practices.json
+TST-225,Improve dictation-to-entity workflow,AID,Task,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-225,TST-225_Improve_dictation-to-entity_workflow.json
+TST-226,Fix unpredictable save locations,AID,Maintenance,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-226,TST-226_Fix_unpredictable_save_locations.json
+TST-227,Standardize report storage paths,AID,Task,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-227,TST-227_Standardize_report_storage_paths.json
+TST-228,Document report generation process,AID,Documentation,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-228,TST-228_Document_report_generation_process.json
+TST-229,Create attendance_dashboard asset,HRM,Development,High,Medium,2-3 hours,Medium,False,CUSTOM,TBD,TSK-229,TST-229_Create_attendance_dashboard_asset.json
+TST-230,Write README with all links,DEV,Documentation,High,Medium,6-9 hours (4-6 hours research + 2-3 hours documentation),Medium,False,CUSTOM,TBD,TSK-230,TST-230_Write_README_with_all_links.json
+TST-231,Set up version tracking,DEV,Task,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-231,TST-231_Set_up_version_tracking.json
+TST-232,Document design updates log,DGN,Documentation,High,Medium,2 hours (45 min organization + 45 min documentation + 30 min updates),Medium,False,CUSTOM,TBD,TSK-232,TST-232_Document_design_updates_log.json
+TST-233,Create department-specific daily analysis prompts,AID,Development,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-233,TST-233_Create_department-specific_daily_analysis_prompts.json
+TST-234,Build starting point reference guides,DGN,Development,High,Medium,20-30 minutes,Medium,False,CUSTOM,TBD,TSK-234,TST-234_Build_starting_point_reference_guides.json
+TST-235,Iterate prompts for better report quality,AID,Task,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-235,TST-235_Iterate_prompts_for_better_report_quality.json
+TST-236,Process tutorials from Department DropBox,AID,Task,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-236,TST-236_Process_tutorials_from_Department_DropBox.json
+TST-237,Find and download Google Drive guides in Markdown,DGN,Design,High,Medium,20-30 minutes,Medium,False,CUSTOM,TBD,TSK-237,TST-237_Find_and_download_Google_Drive_guides_in_Markdown.json
+TST-238,Export and process from Online Academy,AID,Task,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-238,TST-238_Export_and_process_from_Online_Academy.json
+TST-239,Create REPORTS folder in ENTITIES,AID,Development,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-239,TST-239_Create_REPORTS_folder_in_ENTITIES.json
+TST-240,Add taxonomy for REPORTS entity,AID,Task,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-240,TST-240_Add_taxonomy_for_REPORTS_entity.json
+TST-241,Integrate IDS system (RPT-###),AID,Integration,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-241,TST-241_Integrate_IDS_system_(RPT-###).json
+TST-242,Import example reports,AID,Task,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-242,TST-242_Import_example_reports.json
+TST-243,Create report classification system,AID,Development,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-243,TST-243_Create_report_classification_system.json
+TST-244,Update master taxonomy,FIN,Task,High,Medium,3 hours (45 min requirements + 1.5 hours design + 45 min testing),Medium,False,CUSTOM,TBD,TSK-244,TST-244_Update_master_taxonomy.json
+TST-245,Create Tasks folder in Dailies,AID,Development,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-245,TST-245_Create_Tasks_folder_in_Dailies.json
+TST-246,Create Plans folder in Dailies,AID,Development,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-246,TST-246_Create_Plans_folder_in_Dailies.json
+TST-247,Add employee identification system,HRM,Task,High,Medium,1.5-2 hours,Medium,False,CUSTOM,TBD,TSK-247,TST-247_Add_employee_identification_system.json
+TST-248,Cross-reference Task Manager with Online Academy,AID,Task,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-248,TST-248_Cross-reference_Task_Manager_with_Online_Academy.json
+TST-249,Store Online Academy links in guides,DGN,Design,High,Medium,20-30 minutes,Medium,False,CUSTOM,TBD,TSK-249,TST-249_Store_Online_Academy_links_in_guides.json
+TST-250,Add IDs to Online Academy content,SMM,Task,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-250,TST-250_Add_IDs_to_Online_Academy_content.json
+TST-251,Apply taxonomy to Academy structure,FIN,Task,High,Medium,3 hours (45 min requirements + 1.5 hours design + 45 min testing),Medium,False,CUSTOM,TBD,TSK-251,TST-251_Apply_taxonomy_to_Academy_structure.json
+TST-252,Create detailed onboarding tasks with steps,HRM,Development,High,Medium,2-3 hours,Medium,False,CUSTOM,TBD,TSK-252,TST-252_Create_detailed_onboarding_tasks_with_steps.json
+TST-253,Build progress tracking via task IDs in reports,DGN,Development,High,Medium,20-30 minutes,Medium,False,CUSTOM,TBD,TSK-253,TST-253_Build_progress_tracking_via_task_IDs_in_reports.json
+TST-254,Create data flow clarification project,AID,Development,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-254,TST-254_Create_data_flow_clarification_project.json
+TST-255,Run methodologies skill-up project research,AID,Research,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-255,TST-255_Run_methodologies_skill-up_project_research.json
+TST-256,Create VS Code instruction tutorials,AID,Development,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-256,TST-256_Create_VS_Code_instruction_tutorials.json
+TST-257,Implement logging to LOG folder during data population,AID,Development,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-257,TST-257_Implement_logging_to_LOG_folder_during_data_population.json
+TST-258,Implement TSM-### ID system,AID,Development,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-258,TST-258_Implement_TSM-###_ID_system.json
+TST-259,Create TSM-001_Project_Template,AID,Development,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-259,TST-259_Create_TSM-001_Project_Template.json
+TST-260,Document data import flows,AID,Documentation,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-260,TST-260_Document_data_import_flows.json
+TST-261,Define structured vs unstructured data handling,AID,Task,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-261,TST-261_Define_structured_vs_unstructured_data_handling.json
+TST-262,"Create input type taxonomy (Research, Video, etc.)",FIN,Development,High,Medium,3 hours (45 min requirements + 1.5 hours design + 45 min testing),Medium,False,CUSTOM,TBD,TSK-262,"TST-262_Create_input_type_taxonomy_(Research,_Video,_etc.).json"
+TST-263,Create employee TODO file system,HRM,Development,High,Medium,1.5-2 hours,Medium,False,CUSTOM,TBD,TSK-263,TST-263_Create_employee_TODO_file_system.json
+TST-264,Write learning materials generation guide,DGN,Documentation,High,Medium,2 hours (45 min organization + 45 min documentation + 30 min updates),Medium,False,CUSTOM,TBD,TSK-264,TST-264_Write_learning_materials_generation_guide.json
+TST-265,"Enforce ""prompt-first"" rule",AID,Task,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-265,TST-265_Enforce_prompt-first_rule.json
+TST-266,Create taxonomy introduction materials,FIN,Development,High,Medium,3 hours (45 min requirements + 1.5 hours design + 45 min testing),Medium,False,CUSTOM,TBD,TSK-266,TST-266_Create_taxonomy_introduction_materials.json
+TST-267,Update daily review prompts,AID,Research,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-267,TST-267_Update_daily_review_prompts.json
+TST-268,Locate all department prompts in Nov25 folders,AID,Task,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-268,TST-268_Locate_all_department_prompts_in_Nov25_folders.json
+TST-269,Consolidate prompts to ENTITIES/PROMPTS,AID,Task,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-269,TST-269_Consolidate_prompts_to_ENTITIESPROMPTS.json
+TST-270,Create data import scripts,AID,Development,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-270,TST-270_Create_data_import_scripts.json
+TST-271,Research AirTable integration options,DEV,Research,High,Medium,6-9 hours (4-6 hours research + 2-3 hours documentation),Medium,False,CUSTOM,TBD,TSK-271,TST-271_Research_AirTable_integration_options.json
+TST-272,Design Task Manager choice/selection system,AID,Design,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-272,TST-272_Design_Task_Manager_choiceselection_system.json
+TST-273,Import accounts to ENTITIES,AID,Task,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-273,TST-273_Import_accounts_to_ENTITIES.json
+TST-274,Create accounts microservice,SLS,Development,High,Medium,4-5 hours for 50 emails,Medium,False,CUSTOM,TBD,TSK-274,TST-274_Create_accounts_microservice.json
+TST-275,Bind gmails to tools,AID,Task,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-275,TST-275_Bind_gmails_to_tools.json
+TST-276,Integrate accounts into AI Catalog,SLS,Integration,High,Medium,4-5 hours for 50 emails,Medium,False,CUSTOM,TBD,TSK-276,TST-276_Integrate_accounts_into_AI_Catalog.json
+TST-277,Build user login system with gmail,DGN,Development,High,Medium,20-30 minutes,Medium,False,CUSTOM,TBD,TSK-277,TST-277_Build_user_login_system_with_gmail.json
+TST-278,Set up database for accounts,SLS,Task,High,Medium,4-5 hours for 50 emails,Medium,False,CUSTOM,TBD,TSK-278,TST-278_Set_up_database_for_accounts.json
+TST-279,Create reusable microservice template,DEV,Development,High,Medium,1-2 minutes,Medium,False,CUSTOM,TBD,TSK-279,TST-279_Create_reusable_microservice_template.json
+TST-280,Document departments folder architecture,AID,Documentation,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-280,TST-280_Document_departments_folder_architecture.json
+TST-281,Restore data processes pipelines,SLS,Task,High,Medium,4-5 hours for 50 emails,Medium,False,CUSTOM,TBD,TSK-281,TST-281_Restore_data_processes_pipelines.json
+TST-282,Create clear file location guidance,DGN,Development,High,Medium,20-30 minutes,Medium,False,CUSTOM,TBD,TSK-282,TST-282_Create_clear_file_location_guidance.json
+TST-283,Build progress count updating script,DGN,Development,High,Medium,20-30 minutes,Medium,False,CUSTOM,TBD,TSK-283,TST-283_Build_progress_count_updating_script.json
+TST-284,Create tasks import guide,DGN,Development,High,Medium,20-30 minutes,Medium,False,CUSTOM,TBD,TSK-284,TST-284_Create_tasks_import_guide.json
+TST-285,Add dates to Activity 3,AID,Task,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-285,TST-285_Add_dates_to_Activity_3.json
+TST-286,Verify LG data in DropBox,AID,Testing,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-286,TST-286_Verify_LG_data_in_DropBox.json
+TST-287,Process items in IMPORTS folder,AID,Task,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-287,TST-287_Process_items_in_IMPORTS_folder.json
+TST-288,Create list of reserved names in ENTITIES,AID,Development,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-288,TST-288_Create_list_of_reserved_names_in_ENTITIES.json
+TST-289,Create list of videos to transcribe,VID,Development,High,Medium,6-9 hours (4-6 hours research + 2-3 hours documentation),Medium,False,CUSTOM,TBD,TSK-289,TST-289_Create_list_of_videos_to_transcribe.json
+TST-290,Put video transcriptions into people tasks,VID,Task,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-290,TST-290_Put_video_transcriptions_into_people_tasks.json
+TST-291,Run prompts for video search,VID,Task,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-291,TST-291_Run_prompts_for_video_search.json
+TST-292,Purchase Gemini Ultra on Admin account,AID,Task,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-292,TST-292_Purchase_Gemini_Ultra_on_Admin_account.json
+TST-293,Create transcription execution list with IDs,VID,Development,High,Medium,6-9 hours (4-6 hours research + 2-3 hours documentation),Medium,False,CUSTOM,TBD,TSK-293,TST-293_Create_transcription_execution_list_with_IDs.json
+TST-294,Build execution tracking system,DGN,Development,High,Medium,20-30 minutes,Medium,False,CUSTOM,TBD,TSK-294,TST-294_Build_execution_tracking_system.json
+TST-295,Create execution update guides,DGN,Development,High,Medium,20-30 minutes,Medium,False,CUSTOM,TBD,TSK-295,TST-295_Create_execution_update_guides.json
+TST-296,Define next milestone triggers (Data Population),AID,Task,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-296,TST-296_Define_next_milestone_triggers_(Data_Population).json
+TST-297,Create Content Entity,AID,Development,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-297,TST-297_Create_Content_Entity.json
+TST-298,Create Content Department,SMM,Development,High,Medium,6-9 hours (4-6 hours research + 2-3 hours documentation),Medium,False,CUSTOM,TBD,TSK-298,TST-298_Create_Content_Department.json
+TST-299,Integrate shifts management,HRM,Integration,High,Medium,2-3 hours (one-time setup),Medium,False,CUSTOM,TBD,TSK-299,TST-299_Integrate_shifts_management.json
+TST-300,Create shortcuts lesson/post,AID,Development,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-300,TST-300_Create_shortcuts_lessonpost.json
+TST-301,Prepare list of researches for Entity: Researches,AID,Research,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-301,TST-301_Prepare_list_of_researches_for_Entity_Researches.json
+TST-302,Research YouTube videos for transcription,VID,Research,High,Medium,6-9 hours (4-6 hours research + 2-3 hours documentation),Medium,False,CUSTOM,TBD,TSK-302,TST-302_Research_YouTube_videos_for_transcription.json
+TST-303,Build automation posting,DGN,Development,High,Medium,20-30 minutes,Medium,False,CUSTOM,TBD,TSK-303,TST-303_Build_automation_posting.json
+TST-304,Train AI to build research tasks for people,DGN,Development,High,Medium,20-30 minutes,Medium,False,CUSTOM,TBD,TSK-304,TST-304_Train_AI_to_build_research_tasks_for_people.json
+TST-305,List automations to learn or integrate,AID,Integration,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-305,TST-305_List_automations_to_learn_or_integrate.json
+TST-306,Task: Search for videos (template),VID,Task,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-306,TST-306_Task_Search_for_videos_(template).json
+TST-307,Hosting in Vercel (Dev account),SLS,Task,High,Medium,4-5 hours for 50 emails,Medium,False,CUSTOM,TBD,TSK-307,TST-307_Hosting_in_Vercel_(Dev_account).json
+TST-308,Automate library update,AID,Task,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-308,TST-308_Automate_library_update.json
+TST-309,Canva download/integration,DEV,Task,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-309,TST-309_Canva_downloadintegration.json
+TST-310,Create six must-have files list,AID,Development,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-310,TST-310_Create_six_must-have_files_list.json
+TST-311,Design core documents,DGN,Documentation,High,Medium,2 hours (45 min organization + 45 min documentation + 30 min updates),Medium,False,CUSTOM,TBD,TSK-311,TST-311_Design_core_documents.json
+TST-312,Create Pre-Sale candidate tracking system,HRM,Development,High,Medium,2-3 hours,Medium,False,CUSTOM,TBD,TSK-312,TST-312_Create_Pre-Sale_candidate_tracking_system.json
+TST-313,Add Ukandu Christopher to Pre-Sale list,HRM,Task,High,Medium,2-3 hours (one-time setup),Medium,False,CUSTOM,TBD,TSK-313,TST-313_Add_Ukandu_Christopher_to_Pre-Sale_list.json
+TST-314,Sign contract with Borovik for client interview,SLS,Task,High,Medium,4-5 hours for 50 emails,Medium,False,CUSTOM,TBD,TSK-314,TST-314_Sign_contract_with_Borovik_for_client_interview.json
+TST-315,Prepare Borovik for tomorrow's client interview,SLS,Task,High,Medium,4-5 hours for 50 emails,Medium,False,CUSTOM,TBD,TSK-315,TST-315_Prepare_Borovik_for_tomorrow's_client_interview.json
+TST-316,Create candidate warming system for hot list,HRM,Development,High,Medium,1.5-2 hours,Medium,False,CUSTOM,TBD,TSK-316,TST-316_Create_candidate_warming_system_for_hot_list.json
+TST-317,Document interview requirements checklist,HRM,Documentation,High,Medium,1.5-2 hours,Medium,False,CUSTOM,TBD,TSK-317,TST-317_Document_interview_requirements_checklist.json
+TST-318,Create interview scoring rubric,HRM,Development,High,Medium,1.5-2 hours,Medium,False,CUSTOM,TBD,TSK-318,TST-318_Create_interview_scoring_rubric.json
+TST-319,Follow up with Valeriia on trial terms,HRM,Task,High,Medium,2-3 hours (one-time setup),Medium,False,CUSTOM,TBD,TSK-319,TST-319_Follow_up_with_Valeriia_on_trial_terms.json
+TST-320,Implement Entity Identification System v1.0,AID,Development,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-320,TST-320_Implement_Entity_Identification_System_v1.0.json
+TST-321,Set up multi-instance AI tool workflow,AID,Task,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-321,TST-321_Set_up_multi-instance_AI_tool_workflow.json
+TST-322,Deploy Google AntiGravity for team,DEV,Task,High,Medium,5-10 minutes with AI assistance,Medium,False,CUSTOM,TBD,TSK-322,TST-322_Deploy_Google_AntiGravity_for_team.json
+TST-323,Automate daily employee task assignment,HRM,Task,High,Medium,2-3 hours (one-time setup),Medium,False,CUSTOM,TBD,TSK-323,TST-323_Automate_daily_employee_task_assignment.json
+TST-324,Build employee choice/selection system,HRM,Development,High,Medium,2-3 hours,Medium,False,CUSTOM,TBD,TSK-324,TST-324_Build_employee_choiceselection_system.json
+TST-325,Collect Discord voice logs for analytics,AID,Task,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-325,TST-325_Collect_Discord_voice_logs_for_analytics.json
+TST-326,Process department prompt logs daily,AID,Task,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-326,TST-326_Process_department_prompt_logs_daily.json
+TST-327,Convert Workflows to Projects in TASK_MANAGERS,AID,Task,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-327,TST-327_Convert_Workflows_to_Projects_in_TASK_MANAGERS.json
+TST-328,Assign IDs to all ENTITIES folders,AID,Task,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-328,TST-328_Assign_IDs_to_all_ENTITIES_folders.json
+TST-329,"Create MCP agent system (employees, libs, academy)",HRM,Development,High,Medium,1.5-2 hours,Medium,False,CUSTOM,TBD,TSK-329,"TST-329_Create_MCP_agent_system_(employees,_libs,_academy).json"
+TST-330,Build screenshot verification automation,HRM,Development,High,Medium,2-3 hours,Medium,False,CUSTOM,TBD,TSK-330,TST-330_Build_screenshot_verification_automation.json
+TST-331,Create AI routes inside entity folders,AID,Development,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-331,TST-331_Create_AI_routes_inside_entity_folders.json
+TST-332,Build index files for machine/AI access,DGN,Development,High,Medium,20-30 minutes,Medium,False,CUSTOM,TBD,TSK-332,TST-332_Build_index_files_for_machineAI_access.json
+TST-333,Save schemas inside folders with field definitions,DEV,Task,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-333,TST-333_Save_schemas_inside_folders_with_field_definitions.json
+TST-334,Sync Task Template to backend,DEV,Integration,High,Medium,5-10 minutes with AI assistance,Medium,False,CUSTOM,TBD,TSK-334,TST-334_Sync_Task_Template_to_backend.json
+TST-335,Create backend for DropBox SubEntity,DEV,Development,High,Medium,1.5 hours (30 min automation run + 45 min validation + 15 min reporting),Medium,False,CUSTOM,TBD,TSK-335,TST-335_Create_backend_for_DropBox_SubEntity.json
+TST-336,Build alert system for fired/left employees,HRM,Development,High,Medium,2-3 hours,Medium,False,CUSTOM,TBD,TSK-336,TST-336_Build_alert_system_for_firedleft_employees.json
+TST-337,Connect Accounts to Talents profiles,HRM,Integration,High,Medium,2-3 hours (one-time setup),Medium,False,CUSTOM,TBD,TSK-337,TST-337_Connect_Accounts_to_Talents_profiles.json
+TST-338,Implement automatic access closure alerts,AID,Development,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-338,TST-338_Implement_automatic_access_closure_alerts.json
+TST-339,Track secondary accounts (not just main emails),SLS,Task,High,Medium,4-5 hours for 50 emails,Medium,False,CUSTOM,TBD,TSK-339,TST-339_Track_secondary_accounts_(not_just_main_emails).json
+TST-340,Design country-based job account permissions,SLS,Design,High,Medium,20-30 minutes,Medium,False,CUSTOM,TBD,TSK-340,TST-340_Design_country-based_job_account_permissions.json
+TST-341,Implement team lead access limits,LGN,Development,High,Medium,2 hours (30 min install + 1 hour config + 30 min testing),Medium,False,CUSTOM,TBD,TSK-341,TST-341_Implement_team_lead_access_limits.json
+TST-342,Build role-based account access system,SLS,Development,High,Medium,4-5 hours for 50 emails,Medium,False,CUSTOM,TBD,TSK-342,TST-342_Build_role-based_account_access_system.json
+TST-343,Create account manager interface,SLS,Development,High,Medium,4-5 hours for 50 emails,Medium,False,CUSTOM,TBD,TSK-343,TST-343_Create_account_manager_interface.json
+TST-344,Add Balkans as region in system,DGN,Task,High,Medium,20-30 minutes,Medium,False,CUSTOM,TBD,TSK-344,TST-344_Add_Balkans_as_region_in_system.json
+TST-345,Design permission system architecture,DGN,Design,High,Medium,20-30 minutes,Medium,False,CUSTOM,TBD,TSK-345,TST-345_Design_permission_system_architecture.json
+TST-346,Implement employee-based permissions,HRM,Development,High,Medium,2-3 hours,Medium,False,CUSTOM,TBD,TSK-346,TST-346_Implement_employee-based_permissions.json
+TST-347,Implement profession/role-based permissions,DEV,Development,High,Medium,1-2 minutes,Medium,False,CUSTOM,TBD,TSK-347,TST-347_Implement_professionrole-based_permissions.json
+TST-348,Create Auth User Service documentation,DEV,Development,High,Medium,6-9 hours (4-6 hours research + 2-3 hours documentation),Medium,False,CUSTOM,TBD,TSK-348,TST-348_Create_Auth_User_Service_documentation.json
+TST-349,Review GPT usage and costs,FIN,Research,High,Medium,5-8 hours (3-5 hours research + 2-3 hours documentation),Medium,False,CUSTOM,TBD,TSK-349,TST-349_Review_GPT_usage_and_costs.json
+TST-350,Identify cost-cutting opportunities,FIN,Task,High,Medium,3 hours (45 min requirements + 1.5 hours design + 45 min testing),Medium,False,CUSTOM,TBD,TSK-350,TST-350_Identify_cost-cutting_opportunities.json
+TST-351,Create taxonomy initial ID inventory,FIN,Development,High,Medium,3 hours (45 min requirements + 1.5 hours design + 45 min testing),Medium,False,CUSTOM,TBD,TSK-351,TST-351_Create_taxonomy_initial_ID_inventory.json
+TST-352,Generate JSON with all entities and sub-entities,AID,Task,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-352,TST-352_Generate_JSON_with_all_entities_and_sub-entities.json
+TST-353,Add 3-letter ISO codes to entities,AID,Task,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-353,TST-353_Add_3-letter_ISO_codes_to_entities.json
+TST-354,Cross-validate with existing listings,AID,Testing,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-354,TST-354_Cross-validate_with_existing_listings.json
+TST-355,Document deprecated/archived entities,AID,Documentation,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-355,TST-355_Document_deprecatedarchived_entities.json
+TST-356,Update milestone prefix from MLS-### to MLST-###,AID,Maintenance,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-356,TST-356_Update_milestone_prefix_from_MLS-###_to_MLST-###.json
+TST-357,Filter daily notes by taxonomy,FIN,Task,High,Medium,3 hours (45 min requirements + 1.5 hours design + 45 min testing),Medium,False,CUSTOM,TBD,TSK-357,TST-357_Filter_daily_notes_by_taxonomy.json
+TST-358,Build parsing extraction taxonomy,AID,Development,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-358,TST-358_Build_parsing_extraction_taxonomy.json
+TST-359,Identify repetitions in daily notes,AID,Task,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-359,TST-359_Identify_repetitions_in_daily_notes.json
+TST-360,Create PLANS entity folder,AID,Development,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-360,TST-360_Create_PLANS_entity_folder.json
+TST-361,Create YouTube channels list,VID,Development,High,Medium,6-9 hours (4-6 hours research + 2-3 hours documentation),Medium,False,CUSTOM,TBD,TSK-361,TST-361_Create_YouTube_channels_list.json
+TST-362,Parse latest videos from channels,VID,Testing,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-362,TST-362_Parse_latest_videos_from_channels.json
+TST-363,Analyze video relevancy,VID,Research,High,Medium,6-9 hours (4-6 hours research + 2-3 hours documentation),Medium,False,CUSTOM,TBD,TSK-363,TST-363_Analyze_video_relevancy.json
+TST-364,Build YouTube research milestone template,VID,Development,High,Medium,6-9 hours (4-6 hours research + 2-3 hours documentation),Medium,False,CUSTOM,TBD,TSK-364,TST-364_Build_YouTube_research_milestone_template.json
+TST-365,Log all n8n automations,AID,Task,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-365,TST-365_Log_all_n8n_automations.json
+TST-366,Create n8n workflow documentation,AID,Development,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-366,TST-366_Create_n8n_workflow_documentation.json
+TST-367,Build Google Sheets integration workflow,DGN,Development,High,Medium,20-30 minutes,Medium,False,CUSTOM,TBD,TSK-367,TST-367_Build_Google_Sheets_integration_workflow.json
+TST-368,Create bot as separate milestone template,AID,Development,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-368,TST-368_Create_bot_as_separate_milestone_template.json
+TST-369,Build AI agent for n8n analysis,DGN,Development,High,Medium,20-30 minutes,Medium,False,CUSTOM,TBD,TSK-369,TST-369_Build_AI_agent_for_n8n_analysis.json
+TST-370,Generate n8n workflow from Claude,AID,Task,High,Medium,1-4 minutes (automated execution),Medium,False,CUSTOM,TBD,TSK-370,TST-370_Generate_n8n_workflow_from_Claude.json
+TST-371,Create 10+ example n8n projects,AID,Development,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-371,TST-371_Create_10+_example_n8n_projects.json
+TST-372,Implement daily analysis prompt reminder,AID,Development,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-372,TST-372_Implement_daily_analysis_prompt_reminder.json
+TST-373,Build continuous employee profile improvement system,HRM,Development,High,Medium,2-3 hours,Medium,False,CUSTOM,TBD,TSK-373,TST-373_Build_continuous_employee_profile_improvement_system.json
+TST-374,Integrate attendance with employee profiles,HRM,Integration,High,Medium,2-3 hours (one-time setup),Medium,False,CUSTOM,TBD,TSK-374,TST-374_Integrate_attendance_with_employee_profiles.json
+TST-375,Analyze employee daily records,HRM,Research,High,Medium,6-9 hours (4-6 hours research + 2-3 hours documentation),Medium,False,CUSTOM,TBD,TSK-375,TST-375_Analyze_employee_daily_records.json
+TST-376,Create data injection scripts for daily notes,AID,Development,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-376,TST-376_Create_data_injection_scripts_for_daily_notes.json
+TST-377,Build action/object extraction from daily notes,DGN,Development,High,Medium,20-30 minutes,Medium,False,CUSTOM,TBD,TSK-377,TST-377_Build_actionobject_extraction_from_daily_notes.json
+TST-378,Update employee profiles automatically,HRM,Task,High,Medium,2-3 hours (one-time setup),Medium,False,CUSTOM,TBD,TSK-378,TST-378_Update_employee_profiles_automatically.json
+TST-379,Update Prompt 6 for daily analysis,AID,Task,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-379,TST-379_Update_Prompt_6_for_daily_analysis.json
+TST-380,Create task template schema,DEV,Development,High,Medium,1-2 minutes,Medium,False,CUSTOM,TBD,TSK-380,TST-380_Create_task_template_schema.json
+TST-381,Link actions/objects to responsibilities,AID,Task,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-381,TST-381_Link_actionsobjects_to_responsibilities.json
+TST-382,Match research prompt naming conventions,AID,Research,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-382,TST-382_Match_research_prompt_naming_conventions.json
+TST-383,Parse recent videos for LinkedIn content,VID,Task,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-383,TST-383_Parse_recent_videos_for_LinkedIn_content.json
+TST-384,Create carousel posts from video content,SMM,Development,High,Medium,6-9 hours (4-6 hours research + 2-3 hours documentation),Medium,False,CUSTOM,TBD,TSK-384,TST-384_Create_carousel_posts_from_video_content.json
+TST-385,Build automated posting workflow,DGN,Development,High,Medium,20-30 minutes,Medium,False,CUSTOM,TBD,TSK-385,TST-385_Build_automated_posting_workflow.json
+TST-386,Design step-by-step content templates,DGN,Design,High,Medium,20-30 minutes,Medium,False,CUSTOM,TBD,TSK-386,TST-386_Design_step-by-step_content_templates.json
+TST-387,Design microservice methodology,DGN,Design,High,Medium,20-30 minutes,Medium,False,CUSTOM,TBD,TSK-387,TST-387_Design_microservice_methodology.json
+TST-388,Test backend generation on small entity,AID,Testing,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-388,TST-388_Test_backend_generation_on_small_entity.json
+TST-389,Build GitHub-Dropbox sync for backend,DEV,Development,High,Medium,2 hours (30 min install + 1 hour config + 30 min testing),Medium,False,CUSTOM,TBD,TSK-389,TST-389_Build_GitHub-Dropbox_sync_for_backend.json
+TST-390,Create dynamic Postgres generation,DEV,Development,High,Medium,1-2 minutes,Medium,False,CUSTOM,TBD,TSK-390,TST-390_Create_dynamic_Postgres_generation.json
+TST-391,Organize API tokens management,DEV,Task,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-391,TST-391_Organize_API_tokens_management.json
+TST-392,Fix taxonomy location (move if needed),FIN,Maintenance,High,Medium,3 hours (45 min requirements + 1.5 hours design + 45 min testing),Medium,False,CUSTOM,TBD,TSK-392,TST-392_Fix_taxonomy_location_(move_if_needed).json
+TST-393,Integrate checklist items into task system,AID,Integration,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-393,TST-393_Integrate_checklist_items_into_task_system.json
+TST-394,Fix cursor flickering issue,AID,Maintenance,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-394,TST-394_Fix_cursor_flickering_issue.json
+TST-395,REVOKE exposed GitHub token immediately,DEV,Task,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-395,TST-395_REVOKE_exposed_GitHub_token_immediately.json
+TST-396,Generate new GitHub token,DEV,Task,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-396,TST-396_Generate_new_GitHub_token.json
+TST-397,Audit all files for exposed credentials,AID,Task,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-397,TST-397_Audit_all_files_for_exposed_credentials.json
+TST-398,Implement secret scanning in repos,AID,Development,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-398,TST-398_Implement_secret_scanning_in_repos.json
+TST-399,Conduct deep research on Desert Greener,AID,Research,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-399,TST-399_Conduct_deep_research_on_Desert_Greener.json
+TST-400,Prepare pre-meeting research template,SLS,Research,High,Medium,6-9 hours (4-6 hours research + 2-3 hours documentation),Medium,False,CUSTOM,TBD,TSK-400,TST-400_Prepare_pre-meeting_research_template.json
+TST-401,Schedule WhatsApp call with Wilhelm,AID,Task,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-401,TST-401_Schedule_WhatsApp_call_with_Wilhelm.json
+TST-402,Fix email personalization - add LinkedIn context,LGN,Maintenance,High,Medium,3 hours (1 hour research + 1.5 hours data entry + 30 min qualification),Medium,False,CUSTOM,TBD,TSK-402,TST-402_Fix_email_personalization_-_add_LinkedIn_context.json
+TST-403,Create email template with conversation references,AID,Development,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-403,TST-403_Create_email_template_with_conversation_references.json
+TST-404,Implement deep research before email sending,AID,Development,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-404,TST-404_Implement_deep_research_before_email_sending.json
+TST-405,Add clear next-step instructions for clients,SLS,Task,High,Medium,4-5 hours for 50 emails,Medium,False,CUSTOM,TBD,TSK-405,TST-405_Add_clear_next-step_instructions_for_clients.json
+TST-406,Find substitute person for Vamos project,AID,Task,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-406,TST-406_Find_substitute_person_for_Vamos_project.json
+TST-407,Talk to Dasha about retention,HRM,Task,High,Medium,2-3 hours (one-time setup),Medium,False,CUSTOM,TBD,TSK-407,TST-407_Talk_to_Dasha_about_retention.json
+TST-408,Identify issues causing quit desire,HRM,Design,High,Medium,2-3 hours,Medium,False,CUSTOM,TBD,TSK-408,TST-408_Identify_issues_causing_quit_desire.json
+TST-409,Create retention strategy,HRM,Development,High,Medium,2-3 hours,Medium,False,CUSTOM,TBD,TSK-409,TST-409_Create_retention_strategy.json
+TST-410,Retain Vamos employee (2 years tenure),HRM,Task,High,Medium,2-3 hours (one-time setup),Medium,False,CUSTOM,TBD,TSK-410,TST-410_Retain_Vamos_employee_(2_years_tenure).json
+TST-411,Resolve accounting/payment issues,FIN,Maintenance,High,N/A,3 hours (45 min requirements + 1.5 hours design + 45 min testing),Medium,False,Task-Template-081,TBD,TSK-411,TST-411_Resolve_accounting_payment_issues.json
+TST-411,Resolve accounting/payment issues,FIN,Maintenance,High,Medium,3 hours (45 min requirements + 1.5 hours design + 45 min testing),Medium,False,CUSTOM,TBD,TSK-411,TST-411_Resolve_accountingpayment_issues.json
+TST-412,Document retention process,HRM,Documentation,High,Medium,2-3 hours (one-time setup),Medium,False,CUSTOM,TBD,TSK-412,TST-412_Document_retention_process.json
+TST-413,Communicate final decision to MASEK client,SLS,Task,High,Medium,4-5 hours for 50 emails,Medium,False,CUSTOM,TBD,TSK-413,TST-413_Communicate_final_decision_to_MASEK_client.json
+TST-414,Document client termination policy,SLS,Documentation,High,Medium,4-5 hours for 50 emails,Medium,False,CUSTOM,TBD,TSK-414,TST-414_Document_client_termination_policy.json
+TST-415,Create script for daily notes action extraction,AID,Development,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-415,TST-415_Create_script_for_daily_notes_action_extraction.json
+TST-416,Build intermediate export folders structure,DGN,Development,High,Medium,20-30 minutes,Medium,False,CUSTOM,TBD,TSK-416,TST-416_Build_intermediate_export_folders_structure.json
+TST-417,Implement object extraction after actions,AID,Development,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-417,TST-417_Implement_object_extraction_after_actions.json
+TST-418,Reduce token consumption via scripting,AID,Task,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-418,TST-418_Reduce_token_consumption_via_scripting.json
+TST-419,Integrate multiple AI platforms for processing,AID,Integration,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-419,TST-419_Integrate_multiple_AI_platforms_for_processing.json
+TST-420,Continue data structuring work,AID,Task,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-420,TST-420_Continue_data_structuring_work.json
+TST-421,Create deep research template (10-15 pages),AID,Development,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-421,TST-421_Create_deep_research_template_(10-15_pages).json
+TST-422,Build social media checklist (15 networks),SMM,Development,High,Medium,6-9 hours (4-6 hours research + 2-3 hours documentation),Medium,False,CUSTOM,TBD,TSK-422,TST-422_Build_social_media_checklist_(15_networks).json
+TST-423,Integrate company context into research,AID,Research,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-423,TST-423_Integrate_company_context_into_research.json
+TST-424,"Create ""new lesson of the week"" system",AID,Development,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-424,TST-424_Create_new_lesson_of_the_week_system.json
+TST-425,Document deep research in client folders,SLS,Research,High,Medium,6-9 hours (4-6 hours research + 2-3 hours documentation),Medium,False,CUSTOM,TBD,TSK-425,TST-425_Document_deep_research_in_client_folders.json
+TST-426,Export Week 2 tasks list,AID,Task,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-426,TST-426_Export_Week_2_tasks_list.json
+TST-427,Deprecate old workflow system,AID,Task,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-427,TST-427_Deprecate_old_workflow_system.json
+TST-428,Structure financial folder architecture,FIN,Task,High,Medium,3 hours (45 min requirements + 1.5 hours design + 45 min testing),Medium,False,CUSTOM,TBD,TSK-428,TST-428_Structure_financial_folder_architecture.json
+TST-429,Create research list for Finance 2025,AID,Development,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-429,TST-429_Create_research_list_for_Finance_2025.json
+TST-430,Build reports in ANALYTICS folder,DGN,Development,High,Medium,20-30 minutes,Medium,False,CUSTOM,TBD,TSK-430,TST-430_Build_reports_in_ANALYTICS_folder.json
+TST-431,Generate prompts for financial analysis,FIN,Task,High,Medium,3 hours (45 min requirements + 1.5 hours design + 45 min testing),Medium,False,CUSTOM,TBD,TSK-431,TST-431_Generate_prompts_for_financial_analysis.json
+TST-432,Create employee 1:1 session template,HRM,Development,High,Medium,2-3 hours,Medium,False,CUSTOM,TBD,TSK-432,TST-432_Create_employee_11_session_template.json
+TST-433,Export daily CRM attendance data,HRM,Task,High,Medium,2-3 hours (one-time setup),Medium,False,CUSTOM,TBD,TSK-433,TST-433_Export_daily_CRM_attendance_data.json
+TST-434,Build script to check employee file status,HRM,Development,High,Medium,2-3 hours,Medium,False,CUSTOM,TBD,TSK-434,TST-434_Build_script_to_check_employee_file_status.json
+TST-435,Verify Dropbox + VSCode + Extensions for all,AID,Testing,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-435,TST-435_Verify_Dropbox_+_VSCode_+_Extensions_for_all.json
+TST-436,Conduct manual verification by end of week,HRM,Task,High,Medium,2-3 hours (one-time setup),Medium,False,CUSTOM,TBD,TSK-436,TST-436_Conduct_manual_verification_by_end_of_week.json
+TST-437,Use Overview folder data for analysis,AID,Task,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-437,TST-437_Use_Overview_folder_data_for_analysis.json
+TST-438,Create innovation rollout process,AID,Development,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-438,TST-438_Create_innovation_rollout_process.json
+TST-439,Decide: Team leads vs direct rollout,LGN,Task,High,Medium,3 hours (1 hour research + 1.5 hours data entry + 30 min qualification),Medium,False,CUSTOM,TBD,TSK-439,TST-439_Decide_Team_leads_vs_direct_rollout.json
+TST-440,Create Cursor/Windsurf instructions,AID,Development,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-440,TST-440_Create_CursorWindsurf_instructions.json
+TST-441,Build employee verification shifts,HRM,Development,High,Medium,2-3 hours,Medium,False,CUSTOM,TBD,TSK-441,TST-441_Build_employee_verification_shifts.json
+TST-442,Assign department checkers,AID,Task,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-442,TST-442_Assign_department_checkers.json
+TST-443,Create 2-week rollout timeline,AID,Development,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-443,TST-443_Create_2-week_rollout_timeline.json
+TST-444,Export Loom video titles,VID,Task,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-444,TST-444_Export_Loom_video_titles.json
+TST-445,Export Loom transcriptions,VID,Task,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-445,TST-445_Export_Loom_transcriptions.json
+TST-446,Add remoteemployees.com content to assets,HRM,Task,High,Medium,2-3 hours (one-time setup),Medium,False,CUSTOM,TBD,TSK-446,TST-446_Add_remoteemployees.com_content_to_assets.json
+TST-447,Build attendance statistics export system,HRM,Development,High,Medium,2-3 hours,Medium,False,CUSTOM,TBD,TSK-447,TST-447_Build_attendance_statistics_export_system.json
+TST-448,Create CRM API integration,DEV,Development,High,Medium,1-2 minutes,Medium,False,CUSTOM,TBD,TSK-448,TST-448_Create_CRM_API_integration.json
+TST-449,Build Discord voice log export,DGN,Development,High,Medium,20-30 minutes,Medium,False,CUSTOM,TBD,TSK-449,TST-449_Build_Discord_voice_log_export.json
+TST-450,Parse and analyze daily attendance,HRM,Research,High,Medium,6-9 hours (4-6 hours research + 2-3 hours documentation),Medium,False,CUSTOM,TBD,TSK-450,TST-450_Parse_and_analyze_daily_attendance.json
+TST-451,Create Discord tools documentation,AID,Development,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-451,TST-451_Create_Discord_tools_documentation.json
+TST-452,Reverse name conventions in Task Manager,AID,Task,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-452,TST-452_Reverse_name_conventions_in_Task_Manager.json
+TST-453,Remove department letters from filenames,AID,Task,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-453,TST-453_Remove_department_letters_from_filenames.json
+TST-454,Update data integrity hierarchy,AID,Task,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-454,TST-454_Update_data_integrity_hierarchy.json
+TST-455,Update all prompts with old naming,AID,Task,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-455,TST-455_Update_all_prompts_with_old_naming.json
+TST-456,Build similar/connected words in LIBRARIES,DGN,Development,High,Medium,20-30 minutes,Medium,False,CUSTOM,TBD,TSK-456,TST-456_Build_similarconnected_words_in_LIBRARIES.json
+TST-457,Create AI Catalog markdown file,AID,Development,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-457,TST-457_Create_AI_Catalog_markdown_file.json
+TST-458,Add AI Catalog to Assets index,AID,Task,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-458,TST-458_Add_AI_Catalog_to_Assets_index.json
+TST-459,Document AI Catalog content,SMM,Documentation,High,Medium,6-9 hours (4-6 hours research + 2-3 hours documentation),Medium,False,CUSTOM,TBD,TSK-459,TST-459_Document_AI_Catalog_content.json
+TST-460,Perform oa-y/Libraries/Task Managers gap analysis,AID,Task,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-460,TST-460_Perform_oa-yLibrariesTask_Managers_gap_analysis.json
+TST-461,Create cross-reference index (tool→lesson→template),AID,Development,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-461,TST-461_Create_cross-reference_index_(tool→lesson→template).json
+TST-462,Build research prompts for developer tutorials,DGN,Development,High,Medium,20-30 minutes,Medium,False,CUSTOM,TBD,TSK-462,TST-462_Build_research_prompts_for_developer_tutorials.json
+TST-463,Create File System research prompt v2,AID,Development,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-463,TST-463_Create_File_System_research_prompt_v2.json
+TST-464,Add training/learning responsibilities to Libraries,AID,Task,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-464,TST-464_Add_traininglearning_responsibilities_to_Libraries.json
+TST-465,Create weekly AI tutorial research template,AID,Development,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-465,TST-465_Create_weekly_AI_tutorial_research_template.json
+TST-466,Convert SMM research into Task Templates,SMM,Research,High,Medium,6-9 hours (4-6 hours research + 2-3 hours documentation),Medium,False,CUSTOM,TBD,TSK-466,TST-466_Convert_SMM_research_into_Task_Templates.json
+TST-467,Create unified research prompt schema,DEV,Development,High,Medium,6-9 hours (4-6 hours research + 2-3 hours documentation),Medium,False,CUSTOM,TBD,TSK-467,TST-467_Create_unified_research_prompt_schema.json
+TST-468,Integrate Research ID system (RES-###),AID,Research,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-468,TST-468_Integrate_Research_ID_system_(RES-###).json
+TST-469,Add ISO 3-letter codes to research,AID,Research,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-469,TST-469_Add_ISO_3-letter_codes_to_research.json
+TST-470,Test entity upload to Postgres,AID,Testing,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-470,TST-470_Test_entity_upload_to_Postgres.json
+TST-471,Build matching schemas for consistency,DGN,Development,High,Medium,20-30 minutes,Medium,False,CUSTOM,TBD,TSK-471,TST-471_Build_matching_schemas_for_consistency.json
+TST-472,Define deliverables as milestone templates,AID,Task,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-472,TST-472_Define_deliverables_as_milestone_templates.json
+TST-473,Maintain central listings while splitting by dept,AID,Task,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-473,TST-473_Maintain_central_listings_while_splitting_by_dept.json
+TST-474,Create ID and name control scripts,AID,Development,High,Medium,N/A,Medium,False,CUSTOM,TBD,TSK-474,TST-474_Create_ID_and_name_control_scripts.json
+TST-475,Build central IDs with names center,DGN,Development,High,Medium,20-30 minutes,Medium,False,CUSTOM,TBD,TSK-475,TST-475_Build_central_IDs_with_names_center.json

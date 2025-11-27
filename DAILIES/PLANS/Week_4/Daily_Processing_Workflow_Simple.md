@@ -57,7 +57,7 @@ Process all employees' daily files → extract tasks → create missing template
 **What:** Read all collected files and extract task information
 
 **Use this prompt:**
-- `/ENTITIES/PROMPTS/Core/MAIN_PROMPT_v6.md`
+- `/ENTITIES/PROMPTS/Core/MAIN_PROMPT_v7.md`
 
 **Save results to:**
 - `/ENTITIES/DAILIES/Daily_Processing/2025-11-25_Collection/02_Extracted_Tasks/`

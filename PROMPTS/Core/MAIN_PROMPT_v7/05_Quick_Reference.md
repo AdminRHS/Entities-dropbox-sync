@@ -13,6 +13,12 @@ C:\Users\Dell\Dropbox\Nov25\           # November department reports
 C:\Users\Dell\Dropbox\Finance 2025\    # Finance department data
 ```
 
+**Employee Directory:**
+```
+C:\Users\Dell\Dropbox\Nov25\Fin Nov25\Public\Employees_Public_Nov25.md  # 79 employees (13 active)
+C:\Users\Dell\Dropbox\Nov25\Fin Nov25\Public\Nov 25 - Employees_Work.md # Work status details
+```
+
 **Master Data:**
 ```
 ENTITIES/TASK_MANAGERS/

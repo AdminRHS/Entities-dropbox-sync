@@ -1,0 +1,471 @@
+TOL_ID,Tool_Name,Mention_Count,Reports_Count,Last_Mentioned,Departments,Sample_Reports,Sample_Context
+TOL-095,Medium,900,145,Unknown,"AI, Unknown",REPORTS\Week_3\Reports_week 3_Source\System_Analysis\REP-003_Schema_Validation_Report.md; REPORTS\Week_3\Reports_week 3_Source\2025-11-20\Departments_Processed_TM\DGN_Department_Report_2025-11-20.md; REPORTS\Week_3\Reports_week 3_Source\2025-11-20\Departments_Processed_TM\HRM_Department_Report_2025-11-20.md,"md
+- [ ] Create Tools Master File CSV
+- [ ] Fix IDs inside JSON files (tools)
+
+**Employee Profiles:*"
+TOL-046,Dropbox,664,115,Unknown,"AI, Unknown",REPORTS\Week_3\Reports_week 3_Source\Personal_Prompts_Integration_Report_2025-11-21.md; REPORTS\Week_3\Reports_week 3_Source\2025-11-20\Departments_Processed_TM\DGN_Department_Report_2025-11-20.md; REPORTS\Week_3\Reports_week 3_Source\2025-11-20\Executive Report\09_Foundational_Systems_W1.md,"1 PROFILE STRUCTURE
+
+**What's Needed:**
+```
+Employee Profile Structure:
+  - Employee ID (EMP-###)
+  "
+TOL-026,Claude,607,80,Unknown,"AI, Unknown",REPORTS\Week_3\Reports_week 3_Source\Personal_Prompts_Integration_Report_2025-11-21.md; REPORTS\Week_3\Reports_week 3_Source\2025-11-20\Departments_Processed_TM\DGN_Department_Report_2025-11-20.md; REPORTS\Week_3\Reports_week 3_Source\2025-11-20\Executive Report\09_Foundational_Systems_W1.md,"1 PROFILE STRUCTURE
+
+**What's Needed:**
+```
+Employee Profile Structure:
+  - Employee ID (EMP-###)
+  "
+TOL-037,Cursor,379,64,Unknown,"AI, Unknown",REPORTS\Week_3\Reports_week 3_Source\Personal_Prompts_Integration_Report_2025-11-21.md; REPORTS\Week_3\Reports_week 3_Source\2025-11-20\Departments_Processed_TM\DGN_Department_Report_2025-11-20.md; PLANS\Week_3\BUG_FIXES_Complete_Summary.md,"Cursor (admin account) - paid
+2"
+TOL-058,Gemini,345,58,Unknown,"AI, Unknown",REPORTS\Week_3\Reports_week 3_Source\Personal_Prompts_Integration_Report_2025-11-21.md; REPORTS\Week_3\Reports_week 3_Source\2025-11-20\Departments_Processed_TM\DGN_Department_Report_2025-11-20.md; PLANS\Week_3\System_Rebuild_2025-11\Phase_3_Context_Research.md,"weeks/months of manual work)
+```
+
+**Content Formats to Generate:**
+- **Portfolio Pieces:** ""How to d"
+TOL-043,Discord,337,70,Unknown,"AI, Unknown",REPORTS\Week_3\Reports_week 3_Source\Weekly_Analysis\Weekly_Gap_Analysis_2025-11-21.md; REPORTS\Niko Oct Reports\14_November_21_Strategic_Session.md; REPORTS\Week_3\Reports_week 3_Source\DOCS\Remote_Helpers_Attendance_example.md,"2 FILE DELIVERY ISSUES
+
+**Problem:** Video files too large for Discord
+- Discord limit: Originally 2"
+TOL-061,GitHub,297,45,Unknown,"AI, Unknown",REPORTS\Niko Oct Reports\14_November_21_Strategic_Session.md; REPORTS\Week_3\Reports_week 3_Source\DOCS\Remote_Helpers_Attendance_example.md; REPORTS\Week_3\Reports_week 3_Source\ARCHIVE\Videos\Video_004.md,"1 URGENT TASKS IDENTIFIED
+
+**Employee Data Management:**
+```markdown
+## Task Template: Collect all e"
+TOL-097,Midjourney,264,21,Unknown,"AI, Unknown",REPORTS\Week_3\Reports_week 3_Source\Personal_Prompts_Integration_Report_2025-11-21.md; REPORTS\Week_3\Reports_week 3_Source\2025-11-21\Processing_Summary_2025-11-21.md; REPORTS\Week_3\Reports_week 3_Source\ARCHIVE\Videos\Video_017.md,"3 VERIFICATION TABLE CONCEPT
+
+**CEO's Vision:**
+```
+Like Video Verification Table:
+  - Video 023 ext"
+TOL-005,Antigravity,241,24,Unknown,"AI, Unknown",REPORTS\Week_3\Reports_week 3_Source\2025-11-20\Departments_Processed_TM\DGN_Department_Report_2025-11-20.md; REPORTS\Week_3\Reports_week 3_Source\2025-11-20\Departments_Processed_TM\AID_Department_Report_2025-11-20.md; REPORTS\Week_3\Reports_week 3_Source\2025-11-20\Departments\AI_Department_Report_2025-11-20.md,"CORE SYSTEMS & TOOLS
+
+**AI Tools Configuration:**
+- **VS Code** with Claude Code Extension
+- **Curso"
+TOL-084,LinkedIn,228,51,Unknown,"AI, Unknown",REPORTS\Week_3\Reports_week 3_Source\2025-11-20\Departments_Processed_TM\DGN_Department_Report_2025-11-20.md; PLANS\Week_4\MLT-004_Gap_Analysis.md; REPORTS\Week_3\Reports_week 3_Source\Weekly_Analysis\Weekly_Gap_Analysis_2025-11-21.md,"3 Department-Specific Library Subsets
+
+**Design Department Example:**
+- Actions: Create, Design, Upd"
+TOL-159,YouTube,227,54,Unknown,Unknown,REPORTS\Week_3\Reports_week 3_Source\Personal_Prompts_Integration_Report_2025-11-21.md; PLANS\Week_4\MLT-004_Gap_Analysis.md; PLANS\Week_4\MLT-005_Template_Creation.md,"1 Research Prompts Location
+
+**Central:** `ENTITIES/TASK_MANAGERS/PROMPTS/Research_Prompts/`
+
+**Cate"
+TOL-112,Perplexity,185,45,Unknown,"AI, Unknown",REPORTS\Week_3\Reports_week 3_Source\Personal_Prompts_Integration_Report_2025-11-21.md; PLANS\Week_3\System_Rebuild_2025-11\Phase_3_Context_Research.md; REPORTS\Week_3\Reports_week 3_Source\Weekly_Analysis\Weekly_Gap_Analysis_2025-11-21.md,"1 Complete Library Listing
+
+| # | Library | Count | Purpose | Example |
+|---|---------|-------|-----"
+TOL-068,Google Sheets,131,34,Unknown,"AI, Unknown",REPORTS\Week_3\Reports_week 3_Source\2025-11-20\Departments_Processed_TM\AID_Department_Report_2025-11-20.md; REPORTS\Niko Oct Reports\14_November_21_Strategic_Session.md; PLANS\Week_4\MLT-005_Template_Creation.md,")
+- **Master Lists** = CSV/JSON files containing all IDs of entity type
+
+### Russian/Ukrainian Terms"
+TOL-007,Anymailfinder,88,2,Unknown,Unknown,REPORTS\Week_3\Reports_week 3_Source\ARCHIVE\Videos\VIDEOS_INDEX.md; REPORTS\Week_3\Reports_week 3_Source\ARCHIVE\Videos\Video_006.md,"Multi-Source Lead Enrichment Pipeline (Airscale + Anymailfinder)
+4"
+TOL-153,Vite,84,7,Unknown,Unknown,REPORTS\Week_3\Reports_week 3_Source\ARCHIVE\Videos\Reports\Video_005_Library_Mapping_Report.md; REPORTS\Week_3\Reports_week 3_Source\ARCHIVE\Videos\Video_005.md; REPORTS\Week_3\Reports_week 3_Source\ARCHIVE\Videos\Reports\Video_009_Library_Mapping_Report.md,"**Deployment**: CI/CD, testing, code review, hosting platforms
+
+**Tools Created (44):**
+- **AI Agent"
+TOL-063,GLIF,82,5,Unknown,Unknown,REPORTS\Week_3\Reports_week 3_Source\ARCHIVE\Videos\Reports\Video_001_Library_Mapping_Report.md; REPORTS\Week_3\Reports_week 3_Source\ARCHIVE\Videos\Video_001.md; REPORTS\Week_3\Reports_week 3_Source\ARCHIVE\Videos\VIDEOS_INDEX.md,"md` | Transcription | ""How To Use AI Agents to 10x Your Creative AI Game"" (GLIF Tutorial) | 21 KB |
+"
+TOL-006,Antigravity IDE,60,15,Unknown,"AI, Unknown",REPORTS\Week_3\Reports_week 3_Source\2025-11-20\Departments\Sales_Department_Report_2025-11-20.md; REPORTS\Week_3\Reports_week 3_Source\2025-11-20\Departments_Processed_TM\DGN_Department_Report_2025-11-20.md; REPORTS\Week_3\Reports_week 3_Source\2025-11-20\Departments_Processed_TM\AID_Department_Report_2025-11-20.md,"### Key Deliverables
+
+- ✅ **10 Task Template JSON Files** - Ready for immediate import
+- ✅ **1 Tool "
+TOL-045,Dribbble,52,5,Unknown,Unknown,REPORTS\Week_3\Reports_week 3_Source\ARCHIVE\Videos\Reports\Video_009_Library_Mapping_Report.md; REPORTS\Week_3\Reports_week 3_Source\2025-11-21_Entity_Import_Execution_Report.md; REPORTS\251125_Analysis_COMPREHENSIVE.md,"Once normalized → publishable to:
+   - Company websites
+   - Social media (8+ platforms: ArtStation,"
+TOL-121,Reddit,52,7,Unknown,Unknown,REPORTS\Week_3\Reports_week 3_Source\ARCHIVE\Videos\Video_005.md; REPORTS\Week_3\Reports_week 3_Source\ARCHIVE\Videos\Video_004.md; REPORTS\Week_3\Reports_week 3_Source\ARCHIVE\Videos\Video_Discovery_Pipeline.md,"Beast style)
+- Automated TikTok generation from Reddit stories
+- AI influencer creation
+- Miniature "
+TOL-079,Kimi K2 Thinking,51,6,Unknown,Unknown,REPORTS\Week_3\Reports_week 3_Source\ARCHIVE\Videos\Video_Queue_Tracker.md; REPORTS\Week_3\Reports_week 3_Source\ARCHIVE\Videos\Video_Discovery_Pipeline.md; PLANS\Week_3\Research_System_Activation\PHASE_3_Prove_Cycling.md,"md` | Transcription | Kimi K2 Thinking AI Model | 24 KB |
+| `Video_004"
+TOL-008,Apify,50,5,Unknown,Unknown,REPORTS\Week_3\Reports_week 3_Source\ARCHIVE\Videos\Reports\Video_005_Library_Mapping_Report.md; REPORTS\Week_3\Reports_week 3_Source\ARCHIVE\Videos\Video_005.md; REPORTS\Week_3\Reports_week 3_Source\Cloud_AI_Research_Instructions.md,"io, Airscale, LinkedIn Sales Navigator
+- Web scraping (Apify, Octoparse)
+- Email outreach automation"
+TOL-086,Loom,46,15,Unknown,Unknown,REPORTS\Week_3\Reports_week 3_Source\2025-11-20\Executive Report\01_Framework_Implementation.md; REPORTS\Week_3\Reports_week 3_Source\2025-11-20\Executive Report\03_Team_Training_Development.md; REPORTS\Week_3\Reports_week 3_Source\DATA\Remote_Helpers_Attendance_2025-11-18.md,"3 Department-Specific Library Subsets
+
+**Design Department Example:**
+- Actions: Create, Design, Upd"
+TOL-101,Nano Banana,40,7,Unknown,Unknown,REPORTS\Week_3\Reports_week 3_Source\ARCHIVE\Videos\Reports\Video_001_Library_Mapping_Report.md; REPORTS\Week_3\Reports_week 3_Source\ARCHIVE\Videos\Video_001.md; REPORTS\Week_3\Reports_week 3_Source\ARCHIVE\Videos\VIDEOS_INDEX.md,"Tools & Technologies
+**What to extract**:
+- Tool names and vendors
+- Purpose and capabilities
+- Inte"
+TOL-051,Facebook,38,9,Unknown,Unknown,REPORTS\Week_3\Reports_week 3_Source\ARCHIVE\Videos\Video_004.md; REPORTS\Niko_Nov_Notes_Summary\201125_PROCESSED.md; LOG\Week_3\Daily_Reports_v2.1_Implementation_FINAL_Nov19_2025.md,"com (Intermediate)
+
+**Music References:**
+- Adele - ""Is It Me You're Looking For""
+- Lionel Richie - "
+TOL-109,OpenArt,37,1,Unknown,Unknown,REPORTS\Week_3\Reports_week 3_Source\ARCHIVE\Videos\Video_012.md,"1: A Deep Dive into New Features and Workflows via OpenArt
+
+### 1"
+TOL-062,GitHub Copilot,35,6,Unknown,Unknown,REPORTS\Niko_Nov_Notes_Summary\201125_PROCESSED.md; REPORTS\Week_3\Reports_week 3_Source\Cloud_AI_Research_Instructions.md; REPORTS\Week_3\Reports_week 3_Source\ARCHIVE\Videos\Videos_015_Processing_Summary.md,"""
+
+**Status:** 🔶 MAYBE (1 year agreement, 1-2 month to start)
+
+---
+
+### Candidate 6: Akinyi Vanessa
+"
+TOL-094,MCP Servers,34,6,Unknown,Unknown,REPORTS\Week_3\Reports_week 3_Source\ARCHIVE\Videos\Video_005.md; REPORTS\Week_3\Reports_week 3_Source\ARCHIVE\Videos\Videos_015_Processing_Summary.md; REPORTS\Week_3\Reports_week 3_Source\ARCHIVE\Videos\Videos_015_Final_Summary.md,"It covers how to discover and install MCP Servers to extend agent capabilities, how to configure age"
+TOL-104,NotebookLM,34,3,Unknown,Unknown,REPORTS\Week_3\Reports_week 3_Source\DATA\Remote_Helpers_Attendance_2025-11-18.md; REPORTS\Week_3\Reports_week 3_Source\Cloud_AI_Research_Instructions.md; REPORTS\Week_3\Reports_week 3_Source\ARCHIVE\Videos\Video_010.md,"AI Models & Platforms
+- Claude, GPT-4, Gemini, Kimi K2
+- Perplexity, NotebookLM
+- LLM integrations, "
+TOL-155,Wan 2.2,34,2,Unknown,Unknown,REPORTS\Week_3\Reports_week 3_Source\Cloud_AI_Research_Instructions.md; REPORTS\Week_3\Reports_week 3_Source\ARCHIVE\Videos\Video_011.md,N/A
+TOL-118,Pydantic AI,32,5,Unknown,Unknown,REPORTS\Week_3\Reports_week 3_Source\ARCHIVE\Videos\Reports\Video_005_Library_Mapping_Report.md; REPORTS\Week_3\Reports_week 3_Source\ARCHIVE\Videos\Video_005.md; REPORTS\Week_3\Reports_week 3_Source\2025-11-20\Executive Report\10_Tools_Ecosystem_Catalog.md,"1 Under Evaluation
+
+- **Neon** - Postgres platform for RAG
+- **dockling** - Hybrid chunking library
+"
+TOL-130,Seedream,31,6,Unknown,Unknown,REPORTS\Week_3\Reports_week 3_Source\ARCHIVE\Videos\Reports\Video_001_Library_Mapping_Report.md; REPORTS\Week_3\Reports_week 3_Source\ARCHIVE\Videos\Video_001.md; REPORTS\Week_3\Reports_week 3_Source\ARCHIVE\Videos\VIDEOS_INDEX.md,"Tools & Technologies
+**What to extract**:
+- Tool names and vendors
+- Purpose and capabilities
+- Inte"
+TOL-004,Airscale,30,4,Unknown,Unknown,REPORTS\Week_3\Reports_week 3_Source\ARCHIVE\Videos\VIDEOS_INDEX.md; REPORTS\Week_3\Reports_week 3_Source\ARCHIVE\Videos\Video_006.md; REPORTS\Week_3\Reports_week 3_Source\ARCHIVE\Videos\Video_018.md,"io, Airscale, LinkedIn Sales Navigator
+- Web scraping (Apify, Octoparse)
+- Email outreach automation"
+TOL-150,VAYU,30,5,Unknown,Unknown,REPORTS\Week_3\Reports_week 3_Source\ARCHIVE\Videos\Reports\Video_001_Library_Mapping_Report.md; REPORTS\Week_3\Reports_week 3_Source\ARCHIVE\Videos\Video_001.md; REPORTS\Week_3\Reports_week 3_Source\ARCHIVE\Videos\VIDEOS_INDEX.md,"Tools & Technologies
+**What to extract**:
+- Tool names and vendors
+- Purpose and capabilities
+- Inte"
+TOL-082,LangGraph,29,4,Unknown,Unknown,REPORTS\Week_3\Reports_week 3_Source\ARCHIVE\Videos\Reports\Video_005_Library_Mapping_Report.md; REPORTS\Week_3\Reports_week 3_Source\ARCHIVE\Videos\VIDEOS_INDEX.md; REPORTS\Week_3\Reports_week 3_Source\ARCHIVE\Videos\Video_005.md,"Multi-Agent AI Systems (NEW)
+- **Agent orchestration**: LangChain, CrewAI, AutoGen, LangGraph
+- **Bu"
+TOL-134,Sora,29,7,Unknown,Unknown,REPORTS\Week_3\Reports_week 3_Source\ARCHIVE\Videos\Video_Discovery_Pipeline.md; REPORTS\Week_3\Reports_week 3_Source\ARCHIVE\Videos\Reports\Video_001_Library_Mapping_Report.md; REPORTS\Week_3\Reports_week 3_Source\ARCHIVE\Videos\Video_001.md,"Tools & Technologies
+**What to extract**:
+- Tool names and vendors
+- Purpose and capabilities
+- Inte"
+TOL-144,TikTok,29,8,Unknown,Unknown,REPORTS\Week_3\Reports_week 3_Source\ARCHIVE\Videos\Video_004.md; REPORTS\Niko_Nov_Notes_Summary\201125_PROCESSED.md; REPORTS\Week_3\Reports_week 3_Source\ARCHIVE\Videos\Reports\Video_001_Library_Mapping_Report.md,"""
+
+**Status:** ❌ REJECTED (Language barrier)
+
+---
+
+### Candidate 4: Mihailo (Mikhail)
+
+**Profile:**
+"
+TOL-070,Google Veo 3.1,27,1,Unknown,Unknown,REPORTS\Week_3\Reports_week 3_Source\ARCHIVE\Videos\Video_012.md,N/A
+TOL-133,Sonnet 4.5,27,9,Unknown,Unknown,REPORTS\Week_3\Reports_week 3_Source\MIGRATED_TO_DEPARTMENTS.md; REPORTS\Week_3\Reports_week 3_Source\ARCHIVE\Videos\Reports\Video_009_Library_Mapping_Report.md; REPORTS\Week_3\Reports_week 3_Source\ARCHIVE\Videos\Reports\Video_002_Library_Mapping_Report.md,N/A
+TOL-080,Kling,26,6,Unknown,Unknown,REPORTS\251125_Analysis_COMPREHENSIVE.md; REPORTS\Week_3\Reports_week 3_Source\ARCHIVE\Videos\Reports\Video_001_Library_Mapping_Report.md; REPORTS\Week_3\Reports_week 3_Source\ARCHIVE\Videos\Video_001.md,"Hicksfield Research:**
+```
+Tool Discovered: Hicksfield (combines multiple AI models: Kling, MiniMax,"
+TOL-116,PostgreSQL,26,13,Unknown,"AI, Unknown",REPORTS\Week_3\Reports_week 3_Source\ARCHIVE\Videos\Reports\Video_005_Library_Mapping_Report.md; REPORTS\Week_3\Reports_week 3_Source\2025-11-20\Executive Report\02_RAG_Systems_Knowledge_Management.md; REPORTS\Niko Oct Reports\02_RAG_Systems_Knowledge_Management.md,"1 TOOLS MENTIONED
+
+**AI Tools:**
+- Cursor (primary, multiple accounts)
+- Claude (direct API, multipl"
+TOL-123,Render,25,6,Unknown,Unknown,REPORTS\Week_3\Reports_week 3_Source\ARCHIVE\Videos\Reports\Video_005_Library_Mapping_Report.md; REPORTS\Week_3\Reports_week 3_Source\ARCHIVE\Videos\Video_005.md; REPORTS\Week_3\Reports_week 3_Source\2025-11-21\Departments\Dev_Department_Report_2025-11-21.md,"**Deployment**: CI/CD, testing, code review, hosting platforms
+
+**Tools Created (44):**
+- **AI Agent"
+TOL-065,Google AI Studio,24,14,Unknown,"AI, Unknown",REPORTS\Week_3\Reports_week 3_Source\2025-11-21\Processing_Summary_2025-11-21.md; REPORTS\Niko Oct Reports\14_November_21_Strategic_Session.md; REPORTS\Week_3\Reports_week 3_Source\DATA\Remote_Helpers_Attendance_2025-11-18.md,"2 CONTRAST: VIDEO RESEARCH SYSTEM (WORKING)
+
+**Why Video Research Works:**
+
+CEO describes a **phased"
+TOL-146,Twitter,24,10,Unknown,Unknown,REPORTS\Week_3\Reports_week 3_Source\ARCHIVE\Videos\Video_004.md; REPORTS\Niko_Nov_Notes_Summary\201125_PROCESSED.md; REPORTS\Week_3\Reports_week 3_Source\ARCHIVE\Videos\Video_Discovery_Pipeline.md,"Pudge Bank (Financial Institution):**
+- **Role:** Created website from scratch
+- **Started:** Organi"
+TOL-044,Docling,23,7,Unknown,Unknown,REPORTS\Week_3\Reports_week 3_Source\ARCHIVE\Videos\Reports\Video_005_Library_Mapping_Report.md; REPORTS\Week_3\Reports_week 3_Source\ARCHIVE\Videos\Video_005.md; REPORTS\Niko Oct Reports\02_RAG_Systems_Knowledge_Management.md,"2 Milestone-Based Structure
+
+```
+MLS-001 (Multi-Scene Commercial Production)
+├── TSK-001 (Generate P"
+TOL-081,Langfuse,23,5,Unknown,"AI, Unknown",REPORTS\Week_3\Reports_week 3_Source\ARCHIVE\Videos\Reports\Video_005_Library_Mapping_Report.md; REPORTS\Week_3\Reports_week 3_Source\ARCHIVE\Videos\Video_005.md; REPORTS\Week_3\Reports_week 3_Source\2025-11-21_Entity_Import_Execution_Report.md,"json
+- **Department:** AI & Automation
+- **Duration:** 4 hours
+- **Reusability:** 90%
+- **Frequency:"
+TOL-096,Mem0,23,3,Unknown,Unknown,REPORTS\Week_3\Reports_week 3_Source\ARCHIVE\Videos\Reports\Video_005_Library_Mapping_Report.md; REPORTS\Week_3\Reports_week 3_Source\ARCHIVE\Videos\VIDEOS_INDEX.md; REPORTS\Week_3\Reports_week 3_Source\ARCHIVE\Videos\Video_005.md,"md)
+
+**Description:** Comprehensive overview of an AI-first tech stack for building agentic applicat"
+TOL-124,Replit,23,6,Unknown,Unknown,PLANS\Week_3\BUG_FIXES_Complete_Summary.md; REPORTS\Week_3\Reports_week 3_Source\ARCHIVE\Videos\Videos_015.md; REPORTS\Week_3\Reports_week 3_Source\Cloud_AI_Research_Instructions.md,"AI Development Tools
+- Cursor, Windsurf, Claude Code, GitHub Copilot Workspace
+- Replit Agent, Bolt"
+TOL-001,99designs,21,3,Unknown,Unknown,PLANS\Week_3\System_Rebuild_2025-11\Phase_1_Context_Cleanup.md; REPORTS\Week_3\Reports_week 3_Source\ARCHIVE\Videos\Video_017.md; REPORTS\Week_3\Reports_week 3_Source\ARCHIVE\Videos\Video_018.md,"STP-003: Apply Negative Constraints - ACT-003 (Exclude)
+DURATION: 5 minutes
+TOOLS_REQUIRED: TOL-001 "
+TOL-102,Neo4j,21,3,Unknown,Unknown,REPORTS\Week_3\Reports_week 3_Source\ARCHIVE\Videos\Reports\Video_005_Library_Mapping_Report.md; REPORTS\Week_3\Reports_week 3_Source\ARCHIVE\Videos\VIDEOS_INDEX.md; REPORTS\Week_3\Reports_week 3_Source\ARCHIVE\Videos\Video_005.md,"**Deployment**: CI/CD, testing, code review, hosting platforms
+
+**Tools Created (44):**
+- **AI Agent"
+TOL-103,Neon,20,7,Unknown,Unknown,REPORTS\Week_3\Reports_week 3_Source\ARCHIVE\Videos\Video_005.md; REPORTS\Week_3\Reports_week 3_Source\ARCHIVE\Videos\Reports\Video_005_Library_Mapping_Report.md; REPORTS\Week_3\Reports_week 3_Source\2025-11-20\Executive Report\10_Tools_Ecosystem_Catalog.md,"1 Under Evaluation
+
+- **Neon** - Postgres platform for RAG
+- **dockling** - Hybrid chunking library
+"
+TOL-012,arXiv,19,5,Unknown,Unknown,PLANS\Week_3\BUG_FIXES_Complete_Summary.md; REPORTS\Week_3\Reports_week 3_Source\ARCHIVE\Videos\Video_016_Processing_Summary.md; PLANS\Week_3\VERIFICATION_Final_State.md,"json` | AI Search & Organization |
+| **TOOL-113** | arXiv | `ENTITIES/LIBRARIES/Tools/AI_Tools/arXiv"
+TOL-002,Adobe Firefly,18,6,Unknown,Unknown,REPORTS\Week_3\Reports_week 3_Source\ARCHIVE\Videos\Video_018.md; REPORTS\Week_3\Reports_week 3_Source\2025-11-19\Departments\Design_Department_Report_2025-11-19.md; REPORTS\Week_3\Reports_week 3_Source\Example_Design_Daily_Activity_Report_Nov19_2025.md,"json
+- **Department:** AI & Automation
+- **Duration:** 2 hours
+- **Reusability:** 95%
+- **Frequency:"
+TOL-010,Archon,18,3,Unknown,Unknown,REPORTS\Week_3\Reports_week 3_Source\ARCHIVE\Videos\Reports\Video_005_Library_Mapping_Report.md; REPORTS\Week_3\Reports_week 3_Source\ARCHIVE\Videos\VIDEOS_INDEX.md; REPORTS\Week_3\Reports_week 3_Source\ARCHIVE\Videos\Video_005.md,"md)
+
+**Description:** Comprehensive overview of an AI-first tech stack for building agentic applicat"
+TOL-031,ComfyUI,17,1,Unknown,Unknown,REPORTS\Week_3\Reports_week 3_Source\ARCHIVE\Videos\Video_011.md,"It covers the new features, different model versions, and how to run them using ComfyUI"
+TOL-071,Graphiti,16,3,Unknown,Unknown,REPORTS\Week_3\Reports_week 3_Source\ARCHIVE\Videos\Reports\Video_005_Library_Mapping_Report.md; REPORTS\Week_3\Reports_week 3_Source\ARCHIVE\Videos\VIDEOS_INDEX.md; REPORTS\Week_3\Reports_week 3_Source\ARCHIVE\Videos\Video_005.md,"**Deployment**: CI/CD, testing, code review, hosting platforms
+
+**Tools Created (44):**
+- **AI Agent"
+TOL-113,PGVector,16,3,Unknown,Unknown,REPORTS\Week_3\Reports_week 3_Source\ARCHIVE\Videos\Reports\Video_005_Library_Mapping_Report.md; REPORTS\Week_3\Reports_week 3_Source\ARCHIVE\Videos\VIDEOS_INDEX.md; REPORTS\Week_3\Reports_week 3_Source\ARCHIVE\Videos\Video_005.md,"**Deployment**: CI/CD, testing, code review, hosting platforms
+
+**Tools Created (44):**
+- **AI Agent"
+TOL-015,Azure,15,5,Unknown,Unknown,REPORTS\Week_3\Reports_week 3_Source\2025-11-20\Executive Report\02_RAG_Systems_Knowledge_Management.md; REPORTS\Niko Oct Reports\02_RAG_Systems_Knowledge_Management.md; REPORTS\Week_3\Reports_week 3_Source\ARCHIVE\Videos\Reports\Video_002_Library_Mapping_Report.md,"json:**
+```json
+{
+  ""tool_to_responsibilities"": {
+    ""TOL-089"": [""RSP-045"", ""RSP-067""]
+  },
+  ""resp"
+TOL-018,Bright Data,15,3,Unknown,Unknown,REPORTS\Week_3\Reports_week 3_Source\ARCHIVE\Videos\VIDEOS_INDEX.md; REPORTS\Week_3\Reports_week 3_Source\ARCHIVE\Videos\Video_005.md; REPORTS\Week_3\Reports_week 3_Source\ARCHIVE\Videos\Video_006.md,"io, Bright Data, Instantly"
+TOL-120,Ragas,15,3,Unknown,Unknown,REPORTS\Week_3\Reports_week 3_Source\ARCHIVE\Videos\Reports\Video_005_Library_Mapping_Report.md; REPORTS\Week_3\Reports_week 3_Source\ARCHIVE\Videos\VIDEOS_INDEX.md; REPORTS\Week_3\Reports_week 3_Source\ARCHIVE\Videos\Video_005.md,"**Deployment**: CI/CD, testing, code review, hosting platforms
+
+**Tools Created (44):**
+- **AI Agent"
+TOL-093,MCP Builder (Skill),13,4,Unknown,Unknown,PLANS\Week_3\BUG_FIXES_Phase1_Complete.md; PLANS\Week_3\BUG_FIXES_Complete_Summary.md; PLANS\Week_3\VERIFICATION_Final_State.md,"**Duplicate Tool IDs** - Cursor & Replit
+   - Aligned IDs with master list
+   - ✅ TOL-012 (Cursor), "
+TOL-021,Browserbase,12,3,Unknown,Unknown,REPORTS\Week_3\Reports_week 3_Source\ARCHIVE\Videos\Reports\Video_005_Library_Mapping_Report.md; REPORTS\Week_3\Reports_week 3_Source\ARCHIVE\Videos\VIDEOS_INDEX.md; REPORTS\Week_3\Reports_week 3_Source\ARCHIVE\Videos\Video_005.md,"**Deployment**: CI/CD, testing, code review, hosting platforms
+
+**Tools Created (44):**
+- **AI Agent"
+TOL-034,Crawl4AI,12,3,Unknown,Unknown,REPORTS\Week_3\Reports_week 3_Source\ARCHIVE\Videos\Reports\Video_005_Library_Mapping_Report.md; REPORTS\Week_3\Reports_week 3_Source\ARCHIVE\Videos\VIDEOS_INDEX.md; REPORTS\Week_3\Reports_week 3_Source\ARCHIVE\Videos\Video_005.md,"**Deployment**: CI/CD, testing, code review, hosting platforms
+
+**Tools Created (44):**
+- **AI Agent"
+TOL-042,DigitalOcean,12,4,Unknown,Unknown,REPORTS\Week_3\Reports_week 3_Source\ARCHIVE\Videos\Reports\Video_005_Library_Mapping_Report.md; REPORTS\Week_3\Reports_week 3_Source\ARCHIVE\Videos\VIDEOS_INDEX.md; REPORTS\Week_3\Reports_week 3_Source\ARCHIVE\Videos\Video_005.md,"**Deployment**: CI/CD, testing, code review, hosting platforms
+
+**Tools Created (44):**
+- **AI Agent"
+TOL-077,Hugging Face,12,2,Unknown,Unknown,REPORTS\Week_3\Reports_week 3_Source\ARCHIVE\Videos\Video_011.md; REPORTS\Week_3\Reports_week 3_Source\ARCHIVE\Videos\Videos_015.md,"Now, there's of course tons available out there, but it's kind of a curated list of things like GitH"
+TOL-139,Supabase,12,4,Unknown,Unknown,REPORTS\Week_3\Reports_week 3_Source\ARCHIVE\Videos\Reports\Video_005_Library_Mapping_Report.md; REPORTS\Week_3\Reports_week 3_Source\ARCHIVE\Videos\VIDEOS_INDEX.md; REPORTS\Week_3\Reports_week 3_Source\ARCHIVE\Videos\Video_005.md,"""
+
+**Database Benefits (once implemented):**
+- **Web-based GPT:** Connect Supabase/GraphDB to ChatGP"
+TOL-013,Auth0,11,3,Unknown,Unknown,REPORTS\Week_3\Reports_week 3_Source\ARCHIVE\Videos\Reports\Video_005_Library_Mapping_Report.md; REPORTS\Week_3\Reports_week 3_Source\ARCHIVE\Videos\VIDEOS_INDEX.md; REPORTS\Week_3\Reports_week 3_Source\ARCHIVE\Videos\Video_005.md,"**Deployment**: CI/CD, testing, code review, hosting platforms
+
+**Tools Created (44):**
+- **AI Agent"
+TOL-030,CodeRabbit,11,3,Unknown,Unknown,REPORTS\Week_3\Reports_week 3_Source\ARCHIVE\Videos\Reports\Video_005_Library_Mapping_Report.md; REPORTS\Week_3\Reports_week 3_Source\ARCHIVE\Videos\VIDEOS_INDEX.md; REPORTS\Week_3\Reports_week 3_Source\ARCHIVE\Videos\Video_005.md,"**Deployment**: CI/CD, testing, code review, hosting platforms
+
+**Tools Created (44):**
+- **AI Agent"
+TOL-122,Redis,11,3,Unknown,Unknown,REPORTS\Week_3\Reports_week 3_Source\ARCHIVE\Videos\Reports\Video_005_Library_Mapping_Report.md; REPORTS\Week_3\Reports_week 3_Source\ARCHIVE\Videos\VIDEOS_INDEX.md; REPORTS\Week_3\Reports_week 3_Source\ARCHIVE\Videos\Video_005.md,"md)
+
+**Description:** Comprehensive overview of an AI-first tech stack for building agentic applicat"
+TOL-003,AI Tools Master Listing,10,2,Unknown,Unknown,REPORTS\Week_3\Reports_week 3_Source\2025-11-21_Entity_Import_Execution_Report.md; REPORTS\Week_3\Reports_week 3_Source\ARCHIVE\Videos\Video_018.md,"json
+- **Department:** AI & Automation
+- **Duration:** 2 hours
+- **Reusability:** 95%
+- **Frequency:"
+TOL-035,CrewAI,10,4,Unknown,Unknown,REPORTS\Week_3\Reports_week 3_Source\ARCHIVE\Videos\Reports\Video_005_Library_Mapping_Report.md; REPORTS\Week_3\Reports_week 3_Source\ARCHIVE\Videos\VIDEOS_INDEX.md; REPORTS\Week_3\Reports_week 3_Source\ARCHIVE\Videos\Video_005.md,"Multi-Agent AI Systems (NEW)
+- **Agent orchestration**: LangChain, CrewAI, AutoGen, LangGraph
+- **Bu"
+TOL-072,Grok,10,3,Unknown,Unknown,REPORTS\Week_3\Reports_week 3_Source\ARCHIVE\Videos\Video_003.md; REPORTS\Week_3\Reports_week 3_Source\ARCHIVE\Videos\Video_004.md; REPORTS\Niko Oct Reports\13_September_Early_Foundations.md,"1 Course Catalog
+
+**45+ Courses Created** (September):
+
+**Onboarding Fundamentals:**
+- CRM onboardin"
+TOL-027,Claude Desktop App,9,3,Unknown,Unknown,PLANS\Week_3\PROCESSING_RESULTS_191225_Niko.md; REPORTS\Week_3\Reports_week 3_Source\ARCHIVE\Videos\VIDEOS_INDEX.md; REPORTS\Week_3\Reports_week 3_Source\ARCHIVE\Videos\Video_008.md,"md)
+**Analysis:** Full taxonomy extraction complete
+
+**Description:** Tutorial on connecting Claude "
+TOL-106,Ollama,9,4,Unknown,Unknown,REPORTS\Week_3\Reports_week 3_Source\ARCHIVE\Videos\Reports\Video_005_Library_Mapping_Report.md; REPORTS\Week_3\Reports_week 3_Source\ARCHIVE\Videos\VIDEOS_INDEX.md; REPORTS\Week_3\Reports_week 3_Source\ARCHIVE\Videos\Video_005.md,"**Deployment**: CI/CD, testing, code review, hosting platforms
+
+**Tools Created (44):**
+- **AI Agent"
+TOL-023,Caddy,8,3,Unknown,Unknown,REPORTS\Week_3\Reports_week 3_Source\ARCHIVE\Videos\Reports\Video_005_Library_Mapping_Report.md; REPORTS\Week_3\Reports_week 3_Source\ARCHIVE\Videos\VIDEOS_INDEX.md; REPORTS\Week_3\Reports_week 3_Source\ARCHIVE\Videos\Video_005.md,"**Deployment**: CI/CD, testing, code review, hosting platforms
+
+**Tools Created (44):**
+- **AI Agent"
+TOL-059,Gemini File Search API,8,3,Unknown,Unknown,REPORTS\Week_3\Reports_week 3_Source\ARCHIVE\Videos\Reports\Video_002_Extraction_Inventory.md; REPORTS\Week_3\Reports_week 3_Source\ARCHIVE\Videos\Reports\Video_002_Gap_Analysis.md; REPORTS\Week_3\Reports_week 3_Source\ARCHIVE\Videos\Reports\Video_002_Library_Mapping_Report.md,"# Video_002 Taxonomy Extraction Inventory
+
+**Video Title:** Google's New Gemini API Changes RAG Fore"
+TOL-089,Maestra.ai,8,4,Unknown,Unknown,REPORTS\Week_3\Reports_week 3_Source\2025-11-20\Executive Report\06_Video_Processing_Knowledge_Capture.md; REPORTS\Week_3\Reports_week 3_Source\2025-11-20\Executive Report\02_RAG_Systems_Knowledge_Management.md; REPORTS\Niko Oct Reports\02_RAG_Systems_Knowledge_Management.md,"1 Seven-Step Methodology
+
+**Step 1: Action Word Tagging**
+- Extract verbs from daily notes
+- Match t"
+TOL-032,Company Voice Guide,7,1,Unknown,Unknown,REPORTS\Week_3\Reports_week 3_Source\ARCHIVE\Videos\Video_016_Processing_Summary.md,"json` | AI Tools / Productivity Methodology |
+| **TOOL-117** | Company Voice Guide | `ENTITIES/LIBRA"
+TOL-047,Dropbox Dash,7,1,Unknown,Unknown,REPORTS\Week_3\Reports_week 3_Source\ARCHIVE\Videos\Video_016_Processing_Summary.md,"# Video_016 Processing - Final Summary
+
+**Video:** Interview with Morgan Brown - Dropbox Dash Produc"
+TOL-127,RunPod,7,3,Unknown,Unknown,REPORTS\Week_3\Reports_week 3_Source\ARCHIVE\Videos\Reports\Video_005_Library_Mapping_Report.md; REPORTS\Week_3\Reports_week 3_Source\ARCHIVE\Videos\VIDEOS_INDEX.md; REPORTS\Week_3\Reports_week 3_Source\ARCHIVE\Videos\Video_005.md,"**Deployment**: CI/CD, testing, code review, hosting platforms
+
+**Tools Created (44):**
+- **AI Agent"
+TOL-131,Seedream 4.0,7,1,Unknown,Unknown,REPORTS\Week_3\Reports_week 3_Source\ARCHIVE\Videos\Video_012.md,N/A
+TOL-136,Stripe,7,4,Unknown,Unknown,REPORTS\Week_3\Reports_week 3_Source\ARCHIVE\Videos\Reports\Video_005_Library_Mapping_Report.md; REPORTS\Week_3\Reports_week 3_Source\ARCHIVE\Videos\VIDEOS_INDEX.md; REPORTS\Week_3\Reports_week 3_Source\ARCHIVE\Videos\Video_005.md,"Now, there's of course tons available out there, but it's kind of a curated list of things like GitH"
+TOL-149,Valkey,7,3,Unknown,Unknown,REPORTS\Week_3\Reports_week 3_Source\ARCHIVE\Videos\Reports\Video_005_Library_Mapping_Report.md; REPORTS\Week_3\Reports_week 3_Source\ARCHIVE\Videos\VIDEOS_INDEX.md; REPORTS\Week_3\Reports_week 3_Source\ARCHIVE\Videos\Video_005.md,"**Core Infrastructure**: Postgres (Neon/Supabase), Redis/Valkey, Claude Code, n8n
+2"
+TOL-052,Firecrawl,6,4,Unknown,Unknown,REPORTS\Week_3\Reports_week 3_Source\ARCHIVE\Videos\Reports\Video_005_Library_Mapping_Report.md; REPORTS\Week_3\Reports_week 3_Source\ARCHIVE\Videos\VIDEOS_INDEX.md; REPORTS\Week_3\Reports_week 3_Source\ARCHIVE\Videos\Video_005.md,"Now, there's of course tons available out there, but it's kind of a curated list of things like GitH"
+TOL-076,HeyGen,6,4,Unknown,Unknown,LOG\Week_3\Daily_Reports_v2.1_Implementation_FINAL_Nov19_2025.md; REPORTS\Week_3\Reports_week 3_Source\ARCHIVE\Videos\Video_004.md; REPORTS\Niko_Nov_Notes_Summary\201125_PROCESSED.md,"""
+
+**Status:** ❌ REJECTED (Language + Junior level)
+
+---
+
+# PART 3: INTERVIEW SESSION 2 🎤
+
+**Intervi"
+TOL-128,RunwayML,6,3,Unknown,Unknown,REPORTS\Week_3\Reports_week 3_Source\2025-11-21_PROJECT_COMPLETION_REPORT.md; REPORTS\Week_3\Reports_week 3_Source\2025-11-21_Entity_Import_Execution_Report.md; REPORTS\Week_3\Reports_week 3_Source\ARCHIVE\Videos\Reports\Video_001_Library_Mapping_Report.md,"json`
+- **Location:** `C:\Users\Dell\Dropbox\ENTITIES\LIBRARIES\LBS_003_Tools\Developer_Tools\`
+- **"
+TOL-129,SearXNG,6,3,Unknown,Unknown,REPORTS\Week_3\Reports_week 3_Source\ARCHIVE\Videos\Reports\Video_005_Library_Mapping_Report.md; REPORTS\Week_3\Reports_week 3_Source\ARCHIVE\Videos\VIDEOS_INDEX.md; REPORTS\Week_3\Reports_week 3_Source\ARCHIVE\Videos\Video_005.md,"**Deployment**: CI/CD, testing, code review, hosting platforms
+
+**Tools Created (44):**
+- **AI Agent"
+TOL-141,Telegram,6,3,Unknown,Unknown,REPORTS\Niko Oct Reports\13_September_Early_Foundations.md; REPORTS\Week_3\Reports_week 3_Source\DATA\Remote_Helpers_Attendance_2025-11-18.md; REPORTS\Week_3\Reports_week 3_Source\2025-11-21\Departments\HR_Department_Report_2025-11-21.md,"1 Talent CRM Workflow
+
+**Candidate Journey:**
+```
+Intake via Telegram
+  ↓
+Initial status
+  ↓
+Video i"
+TOL-038,Custom Prompt Templates,5,1,Unknown,Unknown,REPORTS\Week_3\Reports_week 3_Source\ARCHIVE\Videos\Video_016_Processing_Summary.md,"json` | AI Tools / Evaluation & Testing |
+| **TOOL-116** | Custom Prompt Templates | `ENTITIES/LIBRA"
+TOL-049,ElevenLabs,5,2,Unknown,Unknown,REPORTS\Week_3\Reports_week 3_Source\ARCHIVE\Videos\Video_Discovery_Pipeline.md; REPORTS\Week_3\Reports_week 3_Source\ARCHIVE\Videos\Reports\Video_001_Library_Mapping_Report.md,"**AI Voice/Audio Tools** - Speechify, ElevenLabs, Whisper, etc"
+TOL-108,OpenAI GPT-5,5,3,Unknown,Unknown,REPORTS\Week_3\Reports_week 3_Source\ARCHIVE\Videos\Reports\Video_009_Gap_Analysis.md; REPORTS\Week_3\Reports_week 3_Source\ARCHIVE\Videos\VIDEOS_INDEX.md; REPORTS\Week_3\Reports_week 3_Source\ARCHIVE\Videos\Video_006.md,"com, Zapier, Playwright
+- **AI Integration:** OpenAI GPT-5
+- **Data Management:** Google Sheets
+- **"
+TOL-110,OpenArt Photorealistic,5,1,Unknown,Unknown,REPORTS\Week_3\Reports_week 3_Source\ARCHIVE\Videos\Video_012.md,"I'll switch over to the image section, and for this first one, I'll select the OpenArt Photorealisti"
+TOL-160,Zep,5,3,Unknown,Unknown,REPORTS\Week_3\Reports_week 3_Source\ARCHIVE\Videos\Reports\Video_005_Library_Mapping_Report.md; REPORTS\Week_3\Reports_week 3_Source\ARCHIVE\Videos\VIDEOS_INDEX.md; REPORTS\Week_3\Reports_week 3_Source\ARCHIVE\Videos\Video_005.md,"**Deployment**: CI/CD, testing, code review, hosting platforms
+
+**Tools Created (44):**
+- **AI Agent"
+TOL-100,Movie Gen,4,1,Unknown,Unknown,REPORTS\Week_3\Reports_week 3_Source\ARCHIVE\Videos\Video_011.md,"[21:00] Here, I have my previous text prompt that I've been testing for Movie Gen, which generated t"
+TOL-107,Open WebUI,4,3,Unknown,Unknown,REPORTS\Week_3\Reports_week 3_Source\ARCHIVE\Videos\Reports\Video_005_Library_Mapping_Report.md; REPORTS\Week_3\Reports_week 3_Source\ARCHIVE\Videos\VIDEOS_INDEX.md; REPORTS\Week_3\Reports_week 3_Source\ARCHIVE\Videos\Video_005.md,"**Deployment**: CI/CD, testing, code review, hosting platforms
+
+**Tools Created (44):**
+- **AI Agent"
+TOL-157,Wispr Flow,4,4,Unknown,Unknown,REPORTS\Niko_Nov_Notes_Summary\201125_PROCESSED.md; REPORTS\Week_3\Reports_week 3_Source\2025-11-20\Executive Report\09_Foundational_Systems_W1.md; REPORTS\Niko Oct Reports\09_Foundational_Systems_W1.md,"3 Wispr Flow Commands
+
+**Hotkeys:**
+- `Win+H` - Rapid dictation
+- `Win+V` - Clipboard history
+- `Ctr"
+TOL-024,C dans,3,1,Unknown,Unknown,REPORTS\Week_3\Reports_week 3_Source\ARCHIVE\Videos\Reports\Video_001_Library_Mapping_Report.md,"json
+- **Tool ID**: TOOL-AI-051
+- **Category**: AI/Video Animation
+- **Purpose**: AI video animation"
+TOL-098,MiniMax,3,2,Unknown,Unknown,REPORTS\251125_Analysis_COMPREHENSIVE.md; REPORTS\Week_3\Reports_week 3_Source\ARCHIVE\Videos\Video_011.md,"Hicksfield Research:**
+```
+Tool Discovered: Hicksfield (combines multiple AI models: Kling, MiniMax,"
+TOL-111,OpenRouter,3,1,Unknown,Unknown,REPORTS\Niko_Nov_Notes_Summary\181125_Niko_PROCESSED.md,"""
+
+**n8n Workflow Ideas:**
+- Google Sheets integration
+- Bot creation as separate milestone
+- Need 1"
+TOL-140,Synthesia,3,2,Unknown,Unknown,LOG\Week_3\Daily_Reports_v2.1_Implementation_FINAL_Nov19_2025.md; REPORTS\Week_3\Reports_week 3_Source\Cloud_AI_Research_Instructions.md,"AI Video Tools
+- Runway Gen-3, HeyGen, Synthesia, Hedra
+- WAN 2"
+TOL-011,ArtStation,2,1,Unknown,Unknown,REPORTS\251125_Analysis_COMPREHENSIVE.md,"Once normalized → publishable to:
+   - Company websites
+   - Social media (8+ platforms: ArtStation,"
+TOL-017,Brave Search,2,2,Unknown,Unknown,REPORTS\Week_3\Reports_week 3_Source\ARCHIVE\Videos\VIDEOS_INDEX.md; REPORTS\Week_3\Reports_week 3_Source\ARCHIVE\Videos\Reports\Video_005_Library_Mapping_Report.md,"**Deployment**: CI/CD, testing, code review, hosting platforms
+
+**Tools Created (44):**
+- **AI Agent"
+TOL-039,DeepSite,2,2,Unknown,Unknown,REPORTS\251125_Analysis_COMPREHENSIVE.md; REPORTS\241125_Analysis_COMPREHENSIVE.md,"Assign ID (TOL-039, EMP-042, SKL-020)
+3"
+TOL-075,Hedra,2,2,Unknown,Unknown,LOG\Week_3\Daily_Reports_v2.1_Implementation_FINAL_Nov19_2025.md; REPORTS\Week_3\Reports_week 3_Source\Cloud_AI_Research_Instructions.md,"AI Video Tools
+- Runway Gen-3, HeyGen, Synthesia, Hedra
+- WAN 2"
+TOL-083,Leonardo.ai,2,2,Unknown,Unknown,REPORTS\Niko Oct Reports\11_October_Foundation_Origins.md; REPORTS\Niko Oct Reports\12_October_Microservices_Technical.md,N/A
+TOL-087,Lovable.dev,2,2,Unknown,Unknown,REPORTS\Week_3\Reports_week 3_Source\ARCHIVE\Videos\Reports\Video_005_Library_Mapping_Report.md; REPORTS\Week_3\Reports_week 3_Source\Cloud_AI_Research_Instructions.md,N/A
+TOL-092,Mayple,2,1,2025-11-21,Unknown,REPORTS\Week_3\Reports_week 3_Source\2025-11-21_Entity_Import_Execution_Report.md,"json
+- **Department:** HR
+- **Duration:** 2 hours
+- **Reusability:** 95%
+- **Frequency:** High (acti"
+TOL-117,Product Management Decision Framework,2,1,Unknown,Unknown,REPORTS\Week_3\Reports_week 3_Source\ARCHIVE\Videos\Video_016_Processing_Summary.md,"json` | AI Tools / Content & Brand Management |
+| **TOOL-118** | Product Management Decision Framewo"
+TOL-119,Quora,2,1,2025-11-21,Unknown,REPORTS\Week_3\Reports_week 3_Source\2025-11-21_Entity_Import_Execution_Report.md,"json
+- **Department:** AI & Automation
+- **Duration:** 4 hours
+- **Reusability:** 90%
+- **Frequency:"
+TOL-126,Runner,2,2,Unknown,Unknown,REPORTS\Week_3\Reports_week 3_Source\System_Analysis\PROMPTS_Entity_Analysis_2025-11-19.md; PLANS\Week_3\Research_System_Activation\CYCLING_SCHEDULE.md,"txt""
+    expected_fields:
+      - ""probability""
+      - ""confidence""
+
+  - name: ""Handles empty input"
+TOL-148,v0.dev,2,2,Unknown,Unknown,REPORTS\Week_3\Reports_week 3_Source\ARCHIVE\Videos\Video_005.md; REPORTS\Week_3\Reports_week 3_Source\Cloud_AI_Research_Instructions.md,N/A
+TOL-009,Arcade.ai,1,1,Unknown,Unknown,REPORTS\Week_3\Reports_week 3_Source\ARCHIVE\Videos\Reports\Video_005_Library_Mapping_Report.md,N/A
+TOL-014,Awesome Copilot,1,1,Unknown,Unknown,REPORTS\Week_3\Reports_week 3_Source\ARCHIVE\Videos\Videos_015.md,"1 BEAST MODE]
+[07:07] Okay, the last thing I want to talk about is the awesome copilot repo on the G"
+TOL-028,Claude Projects,1,1,Unknown,Unknown,REPORTS\Week_3\Reports_week 3_Source\ARCHIVE\Videos\Video_008.md,"And finally, the most important thing is you want to stack connectors in projects, so Claude project"
+TOL-054,Flux,1,1,Unknown,Unknown,REPORTS\Week_3\Reports_week 3_Source\ARCHIVE\Videos\Video_012.md,"| OpenArt                 |
+| Flux Kontext            | AI Image Generation  | Model within OpenArt "
+TOL-055,Flux Kontext,1,1,Unknown,Unknown,REPORTS\Week_3\Reports_week 3_Source\ARCHIVE\Videos\Video_012.md,"| OpenArt                 |
+| Flux Kontext            | AI Image Generation  | Model within OpenArt "
+TOL-099,Model Scope,1,1,Unknown,Unknown,REPORTS\Week_3\Reports_week 3_Source\ARCHIVE\Videos\Video_011.md,2 open source AI video model has been released on hugging face and in model scope
+TOL-105,Notion AI,1,1,Unknown,Unknown,PLANS\Week_4\MLT-007_Task_Distribution.md,"Open Notion AI Projects database (5 min)
+2"
+TOL-143,Threads,1,1,2025-11-21,Unknown,REPORTS\Week_3\Reports_week 3_Source\2025-11-21\Departments\LG_Department_Report_2025-11-21.md,"5 hours
+- **Status:** Completed ✅
+- **Confidence:** 85%
+- **Priority:** Medium
+- **Employees:** Hana"
+TOL-156,WHALESWING,1,1,2025-11-21,Unknown,REPORTS\Week_3\Reports_week 3_Source\2025-11-21_Entity_Import_Execution_Report.md,"5 hours
+- **Reusability:** 90%
+- **Frequency:** High
+- **Description:** Create course covers, thumbn"
+TOL-016,Behance,0,0,Never,None,None,Not mentioned
+TOL-019,Browse AI,0,0,Never,None,None,Not mentioned
+TOL-022,Bubble.io,0,0,Never,None,None,Not mentioned
+TOL-025,ChatGPT (OpenAI),0,0,Never,None,None,Not mentioned
+TOL-029,CloudTask,0,0,Never,None,None,Not mentioned
+TOL-033,Cove.ai,0,0,Never,None,None,Not mentioned
+TOL-036,CRM MCP Connector (Airtable),0,0,Never,None,None,Not mentioned
+TOL-040,Dev.to,0,0,Never,None,None,Not mentioned
+TOL-041,DeviantArt,0,0,Never,None,None,Not mentioned
+TOL-048,Dropbox Protect & Control,0,0,Never,None,None,Not mentioned
+TOL-050,Envato Elements,0,0,Never,None,None,Not mentioned
+TOL-053,Fiverr,0,0,Never,None,None,Not mentioned
+TOL-056,Freepik,0,0,Never,None,None,Not mentioned
+TOL-057,Gamma.app,0,0,Never,None,None,Not mentioned
+TOL-060,Genspark.ai,0,0,Never,None,None,Not mentioned
+TOL-064,Gmail MCP Connector,0,0,Never,None,None,Not mentioned
+TOL-066,Google Calendar MCP Connector,0,0,Never,None,None,Not mentioned
+TOL-067,Google Cloud Run,0,0,Never,None,None,Not mentioned
+TOL-073,Hailo,0,0,Never,None,None,Not mentioned
+TOL-074,Hashnode,0,0,Never,None,None,Not mentioned
+TOL-078,InVideo AI,0,0,Never,None,None,Not mentioned
+TOL-085,LLM as Judge Evaluation Framework,0,0,Never,None,None,Not mentioned
+TOL-088,Lunchclub,0,0,Never,None,None,Not mentioned
+TOL-090,Manus.im,0,0,Never,None,None,Not mentioned
+TOL-091,MarketerHire,0,0,Never,None,None,Not mentioned
+TOL-114,Pinterest,0,0,Never,None,None,Not mentioned
+TOL-115,Pollo.ai,0,0,Never,None,None,Not mentioned
+TOL-125,Revelo,0,0,Never,None,None,Not mentioned
+TOL-132,Smithery.ai,0,0,Never,None,None,Not mentioned
+TOL-135,Stack Overflow,0,0,Never,None,None,Not mentioned
+TOL-137,Substack,0,0,Never,None,None,Not mentioned
+TOL-138,Suno,0,0,Never,None,None,Not mentioned
+TOL-142,The Dots,0,0,Never,None,None,Not mentioned
+TOL-145,TurboScribe,0,0,Never,None,None,Not mentioned
+TOL-147,UpWork,0,0,Never,None,None,Not mentioned
+TOL-151,Vectal Pro,0,0,Never,None,None,Not mentioned
+TOL-152,Vimeo,0,0,Never,None,None,Not mentioned
+TOL-154,Vozo AI,0,0,Never,None,None,Not mentioned
+TOL-158,Xing,0,0,Never,None,None,Not mentioned
