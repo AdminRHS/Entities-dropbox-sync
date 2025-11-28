@@ -1,3 +1,480 @@
+# Changelog - 2025-11-28
+
+**Sync Date:** 2025-11-28 04:02:30 UTC
+**Total Changes:** 185 files
+
+## Summary
+
+- **Added:** 155 files
+- **Modified:** 7 files
+- **Deleted:** 23 files
+
+## Changes by Category
+
+### "DAILIES
+
+**Total changes:** 4 files
+
+**Deleted (4 files):**
+- `BUSINESSES_Prospect_Markew\303\244rn_Studios_BUS-2025-021.json"`
+- `TODO.md"`
+- `BUSINESSES_Prospect_Electr\303\243o_BUS-2025-018.json"`
+- `TST-461_Create_cross-reference_index_(tool\342\206\222lesson\342\206\222template).json"`
+
+
+### "TALENTS
+
+**Total changes:** 2 files
+
+**Deleted (2 files):**
+- `Profile Video Editor Azanova Dar\312\274ya.md"`
+- `Azanova Dar\312\274ya.md"`
+
+
+### "TASK_MANAGERS
+
+**Total changes:** 2 files
+
+**Deleted (2 files):**
+- `Video_024 (\320\241\320\277\321\226\321\200\320\275\320\260 \320\272\320\276\320\277\321\226\321\217 \320\272\320\276\321\200\320\270\321\201\321\202\321\203\320\262\320\260\321\207\320\260 HR RemotEmployees 2025-11-25).md"`
+- `Video_024 (\320\241\320\277\321\226\321\200\320\275\320\260 \320\272\320\276\320\277\321\226\321\217 \320\272\320\276\321\200\320\270\321\201\321\202\321\203\320\262\320\260\321\207\320\260 HR RemotEmployees 2025-11-25).md"`
+
+
+### DAILIES
+
+**Total changes:** 100 files
+
+**Added (98 files):**
+- `TODO.md` → `Week3/20/Azanova Darʼya_Week_3/TODO.md` (1.57 KB, modified: 2025-11-19T18:27:13, by: Dropbox User)
+- `BUSINESSES_Prospect_Electrão_BUS-2025-018.json` → `IMPORTS/Week_3/2025-11-22_Sales_Import/archive_2025-11-22/Prospects/BUSINESSES_Prospect_Electrão_BUS-2025-018.json` (1.56 KB, modified: 2025-11-21T23:49:35, by: Dropbox User)
+- `BUSINESSES_Prospect_Markewärn_Studios_BUS-2025-021.json` → `IMPORTS/Week_3/2025-11-22_Sales_Import/archive_2025-11-22/Prospects/BUSINESSES_Prospect_Markewärn_Studios_BUS-2025-021.json` (4.26 KB, modified: 2025-11-21T23:49:35, by: Dropbox User)
+- `TST-461_Create_cross-reference_index_(tool→lesson→template).json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-461_Create_cross-reference_index_(tool→lesson→template).json` (1.09 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `Strapi_VSCode_Integration_Research.md` → `REPORTS/Week_4/Strapi_VSCode_Integration_Research.md` (37.11 KB, modified: 2025-11-27T20:12:44, by: Dropbox User)
+- `Bykova_Anastasiia_Employee_Summary_Week4.md` → `REPORTS/Employee_Summaries_Week4/Bykova_Anastasiia_Employee_Summary_Week4.md` (6.30 KB, modified: 2025-11-27T21:37:26, by: Dropbox User)
+- `261125_Analysis_COMPREHENSIVE.md` → `REPORTS/Niko_Nov_Notes_Summary/261125_Analysis_COMPREHENSIVE.md` (87.90 KB, modified: 2025-11-27T20:56:34, by: Dropbox User)
+- `251125_Analysis_COMPREHENSIVE.md` → `REPORTS/Niko_Nov_Notes_Summary/251125_Analysis_COMPREHENSIVE.md` (55.35 KB, modified: 2025-11-25T21:00:42, by: Dropbox User)
+- `241125_Analysis_COMPREHENSIVE.md` → `REPORTS/Niko_Nov_Notes_Summary/241125_Analysis_COMPREHENSIVE.md` (48.38 KB, modified: 2025-11-25T20:43:52, by: Dropbox User)
+- `Assignment_Priority_Queue.csv` → `REPORTS/Week_4/Delegation/Assignment_Priority_Queue.csv` (49.20 KB, modified: 2025-11-27T22:24:56, by: Dropbox User)
+- `241127_Research_App_Planning_ChatLog.md` → `LOG/Week_4/241127_Research_App_Planning_ChatLog.md` (11.91 KB, modified: 2025-11-27T23:04:03, by: Dropbox User)
+- `Kucherenko_Iuliia_Employee_Summary_Week4.md` → `REPORTS/Week_4/designers/Kucherenko_Iuliia_Employee_Summary_Week4.md` (6.76 KB, modified: 2025-11-27T23:31:28, by: Dropbox User)
+- `Kucherenko_Iuliia_Week4_Plan.md` → `REPORTS/Week_4/designers/Kucherenko_Iuliia_Week4_Plan.md` (9.22 KB, modified: 2025-11-27T23:24:45, by: Dropbox User)
+- `Mazyickevych_Maryna_Week4_Plan.md` → `REPORTS/Week_4/designers/Mazyickevych_Maryna_Week4_Plan.md` (1.64 KB, modified: 2025-11-27T23:24:46, by: Dropbox User)
+- `Potapchuk_Anastasiya_Week4_Plan.md` → `REPORTS/Week_4/designers/Potapchuk_Anastasiya_Week4_Plan.md` (1.55 KB, modified: 2025-11-27T23:24:46, by: Dropbox User)
+- `Rotar_Olga_Week4_Plan.md` → `REPORTS/Week_4/designers/Rotar_Olga_Week4_Plan.md` (1.55 KB, modified: 2025-11-27T23:25:18, by: Dropbox User)
+- `Yarmachenko_Kristina_Week4_Plan.md` → `REPORTS/Week_4/designers/Yarmachenko_Kristina_Week4_Plan.md` (1.58 KB, modified: 2025-11-27T23:26:20, by: Dropbox User)
+- `Teselko_Anastasiya_Week4_Plan.md` → `REPORTS/Week_4/designers/Teselko_Anastasiya_Week4_Plan.md` (1.55 KB, modified: 2025-11-27T23:25:53, by: Dropbox User)
+- `Bykova_Anastasiia_Week4_Plan.md` → `REPORTS/Week_4/designers/Bykova_Anastasiia_Week4_Plan.md` (2.37 KB, modified: 2025-11-27T23:23:38, by: Dropbox User)
+- `Olha_Shelep_Week4_Plan.md` → `REPORTS/Week_4/designers/Olha_Shelep_Week4_Plan.md` (4.37 KB, modified: 2025-11-27T23:25:19, by: Dropbox User)
+- `Shelep_Olha_Week4_Plan.md` → `REPORTS/Week_4/designers/Shelep_Olha_Week4_Plan.md` (1.53 KB, modified: 2025-11-27T23:25:18, by: Dropbox User)
+- `Syrotiuk_Mariia_Week4_Plan.md` → `REPORTS/Week_4/designers/Syrotiuk_Mariia_Week4_Plan.md` (1.55 KB, modified: 2025-11-27T23:25:53, by: Dropbox User)
+- `Bykova_Anastasiia_Employee_Summary_Week4.md` → `REPORTS/Week_4/designers/Bykova_Anastasiia_Employee_Summary_Week4.md` (6.30 KB, modified: 2025-11-27T23:31:28, by: Dropbox User)
+- `Shelep_Olha_Employee_Summary_Week4.md` → `REPORTS/Week_4/designers/Shelep_Olha_Employee_Summary_Week4.md` (2.13 KB, modified: 2025-11-27T23:32:09, by: Dropbox User)
+- `Litvinova_Natalia_Employee_Summary_Week4.md` → `REPORTS/Week_4/designers/Litvinova_Natalia_Employee_Summary_Week4.md` (4.08 KB, modified: 2025-11-27T23:32:09, by: Dropbox User)
+- `Bogun_Polina_Week4_Plan.md` → `REPORTS/Week_4/designers/Bogun_Polina_Week4_Plan.md` (2.50 KB, modified: 2025-11-27T23:23:38, by: Dropbox User)
+- `Hlushko_Mariia_Week4_Plan.md` → `REPORTS/Week_4/designers/Hlushko_Mariia_Week4_Plan.md` (1.99 KB, modified: 2025-11-27T23:24:45, by: Dropbox User)
+- `Litvinova_Natalia_Week4_Plan.md` → `REPORTS/Week_4/designers/Litvinova_Natalia_Week4_Plan.md` (1.84 KB, modified: 2025-11-27T23:24:46, by: Dropbox User)
+- `Shtepa_Yuliia_Week4_Plan.md` → `REPORTS/Week_4/designers/Shtepa_Yuliia_Week4_Plan.md` (1.54 KB, modified: 2025-11-27T23:25:53, by: Dropbox User)
+- `Vereteno_Marta_Week4_Plan.md` → `REPORTS/Week_4/designers/Vereteno_Marta_Week4_Plan.md` (1.54 KB, modified: 2025-11-27T23:25:53, by: Dropbox User)
+- `Bogun_Polina_Employee_Summary_Week4.md` → `REPORTS/Week_4/designers/Bogun_Polina_Employee_Summary_Week4.md` (6.85 KB, modified: 2025-11-27T23:31:28, by: Dropbox User)
+- `Shtepa_Yuliia_Employee_Summary_Week4.md` → `REPORTS/Week_4/designers/Shtepa_Yuliia_Employee_Summary_Week4.md` (4.64 KB, modified: 2025-11-27T23:32:09, by: Dropbox User)
+- `Skrypkar_Vilhelm_Employee_Summary_Week4.md` → `REPORTS/Week_4/designers/Skrypkar_Vilhelm_Employee_Summary_Week4.md` (5.94 KB, modified: 2025-11-27T23:32:52, by: Dropbox User)
+- `Skrypkar_Vilhelm_Week4_Plan.md` → `REPORTS/Week_4/designers/Skrypkar_Vilhelm_Week4_Plan.md` (6.28 KB, modified: 2025-11-27T23:25:19, by: Dropbox User)
+- `Safonova_Eleonora_Week4_Plan.md` → `REPORTS/Week_4/designers/Safonova_Eleonora_Week4_Plan.md` (1.52 KB, modified: 2025-11-27T23:25:18, by: Dropbox User)
+- `Shymkevych_Iryna_Week4_Plan.md` → `REPORTS/Week_4/designers/Shymkevych_Iryna_Week4_Plan.md` (1.53 KB, modified: 2025-11-27T23:25:53, by: Dropbox User)
+- `Safonova_Eleonora_Employee_Summary_Week4.md` → `REPORTS/Week_4/designers/Safonova_Eleonora_Employee_Summary_Week4.md` (4.09 KB, modified: 2025-11-27T23:32:09, by: Dropbox User)
+- `Shymkevych_Iryna_Employee_Summary_Week4.md` → `REPORTS/Week_4/designers/Shymkevych_Iryna_Employee_Summary_Week4.md` (5.85 KB, modified: 2025-11-27T23:32:09, by: Dropbox User)
+- `Okunievskyi_Volodymyr_Week4_Plan.md` → `REPORTS/Week_4/developers/Okunievskyi_Volodymyr_Week4_Plan.md` (1.85 KB, modified: 2025-11-27T23:26:48, by: Dropbox User)
+- `Azar_Imranov_Week4_Plan.md` → `REPORTS/Week_4/developers/Azar_Imranov_Week4_Plan.md` (2.21 KB, modified: 2025-11-27T23:26:20, by: Dropbox User)
+- `Artem_Skichko_Week4_Plan.md` → `REPORTS/Week_4/developers/Artem_Skichko_Week4_Plan.md` (2.78 KB, modified: 2025-11-27T23:26:20, by: Dropbox User)
+- `Danylenko_Liliia_Week4_Plan.md` → `REPORTS/Week_4/developers/Danylenko_Liliia_Week4_Plan.md` (1.93 KB, modified: 2025-11-27T23:26:20, by: Dropbox User)
+- `Klimenko_Yaroslav_Week4_Plan.md` → `REPORTS/Week_4/developers/Klimenko_Yaroslav_Week4_Plan.md` (1.80 KB, modified: 2025-11-27T23:26:20, by: Dropbox User)
+- `Artem_Skichko_Employee_Summary_Week4.md` → `REPORTS/Week_4/developers/Artem_Skichko_Employee_Summary_Week4.md` (5.60 KB, modified: 2025-11-27T23:32:52, by: Dropbox User)
+- `Azar_Imranov_Employee_Summary_Week4.md` → `REPORTS/Week_4/developers/Azar_Imranov_Employee_Summary_Week4.md` (1.61 KB, modified: 2025-11-27T23:32:52, by: Dropbox User)
+- `Danylenko_Liliia_Employee_Summary_Week4.md` → `REPORTS/Week_4/developers/Danylenko_Liliia_Employee_Summary_Week4.md` (8.49 KB, modified: 2025-11-27T23:32:52, by: Dropbox User)
+- `Klimenko_Yaroslav_Employee_Summary_Week4.md` → `REPORTS/Week_4/developers/Klimenko_Yaroslav_Employee_Summary_Week4.md` (4.13 KB, modified: 2025-11-27T23:32:52, by: Dropbox User)
+- `Kizilova_Olha_Week4_Plan.md` → `REPORTS/Week_4/crm/Kizilova_Olha_Week4_Plan.md` (8.84 KB, modified: 2025-11-27T23:26:48, by: Dropbox User)
+- `Lychagin_Roman_Week4_Plan.md` → `REPORTS/Week_4/crm/Lychagin_Roman_Week4_Plan.md` (1.65 KB, modified: 2025-11-27T23:26:48, by: Dropbox User)
+- `Kizilova_Olha_Employee_Summary_Week4.md` → `REPORTS/Week_4/crm/Kizilova_Olha_Employee_Summary_Week4.md` (5.02 KB, modified: 2025-11-27T23:33:42, by: Dropbox User)
+- `Azanova_Darya_Week4_Plan.md` → `REPORTS/Week_4/videographers/Azanova_Darya_Week4_Plan.md` (3.00 KB, modified: 2025-11-27T23:30:07, by: Dropbox User)
+- `Podolskyi_Sviatoslav_Week4_Plan.md` → `REPORTS/Week_4/videographers/Podolskyi_Sviatoslav_Week4_Plan.md` (9.84 KB, modified: 2025-11-27T23:30:07, by: Dropbox User)
+- `Azanova_Darya_Employee_Summary_Week4.md` → `REPORTS/Week_4/videographers/Azanova_Darya_Employee_Summary_Week4.md` (6.96 KB, modified: 2025-11-27T23:34:30, by: Dropbox User)
+- `Podolskyi_Sviatoslav_Employee_Summary_Week4.md` → `REPORTS/Week_4/videographers/Podolskyi_Sviatoslav_Employee_Summary_Week4.md` (5.08 KB, modified: 2025-11-27T23:34:41, by: Dropbox User)
+- `Artemchuk_Nikolay_Week4_Plan.md` → `REPORTS/Week_4/marketers/Artemchuk_Nikolay_Week4_Plan.md` (9.23 KB, modified: 2025-11-27T23:23:38, by: Dropbox User)
+- `Perederii_Vladislav_Week4_Plan.md` → `REPORTS/Week_4/marketers/Perederii_Vladislav_Week4_Plan.md` (2.64 KB, modified: 2025-11-27T23:23:38, by: Dropbox User)
+- `salesnov25_Week4_Plan.md` → `REPORTS/Week_4/marketers/salesnov25_Week4_Plan.md` (2.25 KB, modified: 2025-11-27T23:23:38, by: Dropbox User)
+- `Perederii_Vladislav_Employee_Summary_Week4.md` → `REPORTS/Week_4/marketers/Perederii_Vladislav_Employee_Summary_Week4.md` (6.75 KB, modified: 2025-11-27T23:31:28, by: Dropbox User)
+- `Berdychevska_Anastasiia_Week4_Plan.md` → `REPORTS/Week_4/managers/Berdychevska_Anastasiia_Week4_Plan.md` (1.39 KB, modified: 2025-11-27T23:27:15, by: Dropbox User)
+- `Hryhorchuk_Vasyl_Week4_Plan.md` → `REPORTS/Week_4/managers/Hryhorchuk_Vasyl_Week4_Plan.md` (1.25 KB, modified: 2025-11-27T23:27:45, by: Dropbox User)
+- `Krasnojon_Darina_Week4_Plan.md` → `REPORTS/Week_4/managers/Krasnojon_Darina_Week4_Plan.md` (1.24 KB, modified: 2025-11-27T23:28:21, by: Dropbox User)
+- `Olikh_Victoriia_Week4_Plan.md` → `REPORTS/Week_4/managers/Olikh_Victoriia_Week4_Plan.md` (1.24 KB, modified: 2025-11-27T23:29:02, by: Dropbox User)
+- `Petrova_Evelina_Week4_Plan.md` → `REPORTS/Week_4/managers/Petrova_Evelina_Week4_Plan.md` (1.23 KB, modified: 2025-11-27T23:29:02, by: Dropbox User)
+- `Kamenskaya_Alina_Week4_Plan.md` → `REPORTS/Week_4/managers/Kamenskaya_Alina_Week4_Plan.md` (1.22 KB, modified: 2025-11-27T23:28:21, by: Dropbox User)
+- `Kovalska_Anastasiya_Week4_Plan.md` → `REPORTS/Week_4/managers/Kovalska_Anastasiya_Week4_Plan.md` (10.31 KB, modified: 2025-11-27T23:29:45, by: Dropbox User)
+- `Nealova_Evgeniya_Week4_Plan.md` → `REPORTS/Week_4/managers/Nealova_Evgeniya_Week4_Plan.md` (9.64 KB, modified: 2025-11-27T23:26:48, by: Dropbox User)
+- `Iskandarova_Anush_Week4_Plan.md` → `REPORTS/Week_4/managers/Iskandarova_Anush_Week4_Plan.md` (1.23 KB, modified: 2025-11-27T23:28:21, by: Dropbox User)
+- `Peneva_Plamena_Week4_Plan.md` → `REPORTS/Week_4/managers/Peneva_Plamena_Week4_Plan.md` (1.22 KB, modified: 2025-11-27T23:29:02, by: Dropbox User)
+- `Nealova_Evgeniya_Employee_Summary_Week4.md` → `REPORTS/Week_4/managers/Nealova_Evgeniya_Employee_Summary_Week4.md` (6.14 KB, modified: 2025-11-27T23:33:42, by: Dropbox User)
+- `Peneva_Plamena_Employee_Summary_Week4.md` → `REPORTS/Week_4/managers/Peneva_Plamena_Employee_Summary_Week4.md` (4.90 KB, modified: 2025-11-27T23:34:30, by: Dropbox User)
+- `Pasichna_Anastasiia_Employee_Summary_Week4.md` → `REPORTS/Week_4/managers/Pasichna_Anastasiia_Employee_Summary_Week4.md` (5.77 KB, modified: 2025-11-27T23:33:42, by: Dropbox User)
+- `Burda_Anna_Week4_Plan.md` → `REPORTS/Week_4/managers/Burda_Anna_Week4_Plan.md` (7.62 KB, modified: 2025-11-27T23:27:45, by: Dropbox User)
+- `Pasichna_Anastasiia_Week4_Plan.md` → `REPORTS/Week_4/managers/Pasichna_Anastasiia_Week4_Plan.md` (2.19 KB, modified: 2025-11-27T23:26:48, by: Dropbox User)
+- `Rekonvald_Viktoriya_Week4_Plan.md` → `REPORTS/Week_4/managers/Rekonvald_Viktoriya_Week4_Plan.md` (1.87 KB, modified: 2025-11-27T23:27:15, by: Dropbox User)
+- `Shkinder_Kseniia_Week4_Plan.md` → `REPORTS/Week_4/managers/Shkinder_Kseniia_Week4_Plan.md` (7.60 KB, modified: 2025-11-27T23:29:45, by: Dropbox User)
+- `Pasichna_Anastasiya_Week4_Plan.md` → `REPORTS/Week_4/managers/Pasichna_Anastasiya_Week4_Plan.md` (1.99 KB, modified: 2025-11-27T23:29:45, by: Dropbox User)
+- `Rekonvald_Viktoriya_Employee_Summary_Week4.md` → `REPORTS/Week_4/managers/Rekonvald_Viktoriya_Employee_Summary_Week4.md` (8.34 KB, modified: 2025-11-27T23:33:42, by: Dropbox User)
+- `Burda_Anna_Employee_Summary_Week4.md` → `REPORTS/Week_4/managers/Burda_Anna_Employee_Summary_Week4.md` (4.13 KB, modified: 2025-11-27T23:33:43, by: Dropbox User)
+- `Shkinder_Kseniia_Employee_Summary_Week4.md` → `REPORTS/Week_4/managers/Shkinder_Kseniia_Employee_Summary_Week4.md` (4.21 KB, modified: 2025-11-27T23:34:30, by: Dropbox User)
+- `Archibong_Isaac_Week4_Plan.md` → `REPORTS/Week_4/managers/Archibong_Isaac_Week4_Plan.md` (1.92 KB, modified: 2025-11-27T23:27:15, by: Dropbox User)
+- `Alakbarova_Ulviyya_Javid_Week4_Plan.md` → `REPORTS/Week_4/managers/Alakbarova_Ulviyya_Javid_Week4_Plan.md` (2.64 KB, modified: 2025-11-27T23:27:15, by: Dropbox User)
+- `Bindiak_Dana_Week4_Plan.md` → `REPORTS/Week_4/managers/Bindiak_Dana_Week4_Plan.md` (9.91 KB, modified: 2025-11-27T23:27:15, by: Dropbox User)
+- `Cynthia_Aninwezi_Week4_Plan.md` → `REPORTS/Week_4/managers/Cynthia_Aninwezi_Week4_Plan.md` (1.31 KB, modified: 2025-11-27T23:27:45, by: Dropbox User)
+- `Davlatmamadova_Firuza_Week4_Plan.md` → `REPORTS/Week_4/managers/Davlatmamadova_Firuza_Week4_Plan.md` (1.40 KB, modified: 2025-11-27T23:27:45, by: Dropbox User)
+- `Cynthia_Aninwezi_Employee_Summary_Week4.md` → `REPORTS/Week_4/managers/Cynthia_Aninwezi_Employee_Summary_Week4.md` (6.73 KB, modified: 2025-11-27T23:34:30, by: Dropbox User)
+- `Davlatmamadova_Firuza_Employee_Summary_Week4.md` → `REPORTS/Week_4/managers/Davlatmamadova_Firuza_Employee_Summary_Week4.md` (3.52 KB, modified: 2025-11-27T23:34:30, by: Dropbox User)
+- `Cynthia_Uzoh_Week4_Plan.md` → `REPORTS/Week_4/managers/Cynthia_Uzoh_Week4_Plan.md` (1.22 KB, modified: 2025-11-27T23:27:45, by: Dropbox User)
+- `Kachailo_Anna_Week4_Plan.md` → `REPORTS/Week_4/managers/Kachailo_Anna_Week4_Plan.md` (1.23 KB, modified: 2025-11-27T23:28:21, by: Dropbox User)
+- `Aledare_Adedoiin_Bridjet_Week4_Plan.md` → `REPORTS/Week_4/managers/Aledare_Adedoiin_Bridjet_Week4_Plan.md` (1.89 KB, modified: 2025-11-27T23:28:21, by: Dropbox User)
+- `Cynthia_Chinemerem_Uzoh_Week4_Plan.md` → `REPORTS/Week_4/managers/Cynthia_Chinemerem_Uzoh_Week4_Plan.md` (1.24 KB, modified: 2025-11-27T23:29:02, by: Dropbox User)
+- `Hanan_Zaheur_Week4_Plan.md` → `REPORTS/Week_4/managers/Hanan_Zaheur_Week4_Plan.md` (1.24 KB, modified: 2025-11-27T23:29:02, by: Dropbox User)
+- `Bessarab_Valeriia_Week4_Plan.md` → `REPORTS/Week_4/managers/Bessarab_Valeriia_Week4_Plan.md` (3.55 KB, modified: 2025-11-27T23:29:45, by: Dropbox User)
+- `Tsyupko_Myroslava_Week4_Plan.md` → `REPORTS/Week_4/managers/Tsyupko_Myroslava_Week4_Plan.md` (1.24 KB, modified: 2025-11-27T23:29:45, by: Dropbox User)
+- `Artemchuk_Nikolay_Employee_Summary_Week4.md` → `REPORTS/Week_4/marketers/Artemchuk_Nikolay_Employee_Summary_Week4.md` (9.08 KB, modified: 2025-11-27T23:31:28, by: Dropbox User)
+- `241125_Analysis_COMPREHENSIVE.md` → `REPORTS/Week_4/Executives/241125_Analysis_COMPREHENSIVE.md` (48.38 KB, modified: 2025-11-25T20:43:52, by: Dropbox User)
+- `251125_Analysis_COMPREHENSIVE.md` → `REPORTS/Week_4/Executives/251125_Analysis_COMPREHENSIVE.md` (55.35 KB, modified: 2025-11-25T21:00:42, by: Dropbox User)
+- `271125_Analysis_v7.1_COMPREHENSIVE.md` → `REPORTS/Week_4/Executives/271125_Analysis_v7.1_COMPREHENSIVE.md` (54.39 KB, modified: 2025-11-27T23:13:53, by: Dropbox User)
+- `261125_Analysis_COMPREHENSIVE.md` → `REPORTS/Week_4/Executives/261125_Analysis_COMPREHENSIVE.md` (87.90 KB, modified: 2025-11-27T20:56:34, by: Dropbox User)
+
+**Deleted (2 files):**
+- `251125_Analysis_COMPREHENSIVE.md`
+- `241125_Analysis_COMPREHENSIVE.md`
+
+
+### LIBRARIES
+
+**Total changes:** 4 files
+
+**Added (2 files):**
+- `DEPARTMENT_ASSIGNMENT_SUMMARY.md` → `LBS_003_Tools/DEPARTMENT_ASSIGNMENT_SUMMARY.md` (4.81 KB, modified: 2025-11-27T12:05:47, by: Dropbox User)
+- `Tools_By_Department.csv` → `LBS_003_Tools/Tools_By_Department.csv` (31.22 KB, modified: 2025-11-27T12:05:47, by: Dropbox User)
+
+**Modified (2 files):**
+- `assign_departments.py` → `LBS_003_Tools/assign_departments.py` (11.30 KB, rev: 01644925..., modified: 2025-11-27T12:05:38, by: Dropbox User)
+- `Tools_Master_Inventory.csv` → `LBS_003_Tools/Tools_Master_Inventory.csv` (61.31 KB, rev: 01644925..., modified: 2025-11-27T12:05:47, by: Dropbox User)
+
+
+### PROMPTS
+
+**Total changes:** 22 files
+
+**Added (22 files):**
+- `01_Supabase_Database_Schema_Prompt.md` → `research_app/01_Supabase_Database_Schema_Prompt.md` (28.04 KB, modified: 2025-11-27T23:22:59, by: Dropbox User)
+- `DESIGN_ASSETS_REFERENCE.md` → `research_app/DESIGN_ASSETS_REFERENCE.md` (10.37 KB, modified: 2025-11-28T00:18:39, by: Dropbox User)
+- `TECHNICAL_SPECS_INTEGRATION_SUMMARY.md` → `research_app/TECHNICAL_SPECS_INTEGRATION_SUMMARY.md` (9.59 KB, modified: 2025-11-28T00:38:43, by: Dropbox User)
+- `02_Queue_Management_Web_App_Prompt.md` → `research_app/02_Queue_Management_Web_App_Prompt.md` (56.68 KB, modified: 2025-11-28T00:40:22, by: Dropbox User)
+- `00_PROCESSING_AUTOMATION_LOGIC.md` → `research_app/00_PROCESSING_AUTOMATION_LOGIC.md` (14.73 KB, modified: 2025-11-28T00:43:28, by: Dropbox User)
+- `03_Video_Processing_Web_App_Prompt.md` → `research_app/03_Video_Processing_Web_App_Prompt.md` (53.72 KB, modified: 2025-11-28T00:44:08, by: Dropbox User)
+- `INTEGRATION_COMPLETE_SUMMARY.md` → `research_app/INTEGRATION_COMPLETE_SUMMARY.md` (10.59 KB, modified: 2025-11-28T00:45:21, by: Dropbox User)
+- `LOVABLE_INITIATION_PHRASE.md` → `research_app/LOVABLE_INITIATION_PHRASE.md` (3.51 KB, modified: 2025-11-28T01:22:55, by: Dropbox User)
+- `README.md` → `research_app/screen_apps/README.md` (7.52 KB, modified: 2025-11-28T02:05:31, by: Dropbox User)
+- `CREATION_STATUS.md` → `research_app/screen_apps/CREATION_STATUS.md` (1.94 KB, modified: 2025-11-28T02:28:16, by: Dropbox User)
+- `prompt.md` → `research_app/screen_apps/04_dashboard_stats/prompt.md` (10.26 KB, modified: 2025-11-28T02:29:46, by: Dropbox User)
+- `prompt.md` → `research_app/screen_apps/09_cost_tracker_widget/prompt.md` (10.83 KB, modified: 2025-11-28T02:29:49, by: Dropbox User)
+- `01_project_setup.md` → `research_app/screen_apps/custom_instructions/01_project_setup.md` (5.56 KB, modified: 2025-11-28T02:30:59, by: Dropbox User)
+- `02_design_system_reference.md` → `research_app/screen_apps/custom_instructions/02_design_system_reference.md` (4.59 KB, modified: 2025-11-28T02:31:02, by: Dropbox User)
+- `FINAL_STATUS.md` → `research_app/screen_apps/FINAL_STATUS.md` (3.13 KB, modified: 2025-11-28T02:31:33, by: Dropbox User)
+- `prompt.md` → `research_app/screen_apps/02_search_queue_screen/prompt.md` (8.89 KB, modified: 2025-11-28T02:35:49, by: Dropbox User)
+- `PROGRESS_SUMMARY.md` → `research_app/screen_apps/PROGRESS_SUMMARY.md` (1.60 KB, modified: 2025-11-28T02:36:10, by: Dropbox User)
+- `COMPLETION_NOTES.md` → `research_app/screen_apps/COMPLETION_NOTES.md` (1.42 KB, modified: 2025-11-28T02:52:59, by: Dropbox User)
+- `START_HERE.md` → `research_app/screen_apps/START_HERE.md` (3.78 KB, modified: 2025-11-28T02:53:38, by: Dropbox User)
+- `PROMPT_TEMPLATE.md` → `research_app/screen_apps/PROMPT_TEMPLATE.md` (3.93 KB, modified: 2025-11-28T02:59:23, by: Dropbox User)
+- `CURRENT_STATUS_FINAL.md` → `research_app/screen_apps/CURRENT_STATUS_FINAL.md` (3.45 KB, modified: 2025-11-28T03:03:06, by: Dropbox User)
+- `ALL_REMAINING_PROMPTS.md` → `research_app/screen_apps/ALL_REMAINING_PROMPTS.md` (9.09 KB, modified: 2025-11-28T03:09:15, by: Dropbox User)
+
+
+### README.md
+
+**Total changes:** 1 files
+
+**Deleted (1 files):**
+- `README.md`
+
+
+### RESEARCHES
+
+**Total changes:** 1 files
+
+**Modified (1 files):**
+- `Video_022_Gap_Analysis.md` → `VIDEO_RESEARCHES/03_ANALYSIS/Gap_Analysis/Video_022_Gap_Analysis.md` (15.51 KB, rev: 01644930..., modified: 2025-11-27T12:56:56, by: Dropbox User)
+
+
+### TALENTS
+
+**Total changes:** 37 files
+
+**Added (21 files):**
+- `corepack.js` → `Employees/Artemchuk Nikolay/Employees attendance/.node/lib/node_modules/corepack/dist/corepack.js` (81 bytes, modified: 2023-08-09T00:23:24, by: Dropbox User)
+- `npm.js` → `Employees/Artemchuk Nikolay/Employees attendance/.node/lib/node_modules/corepack/dist/npm.js` (93 bytes, modified: 2023-08-09T00:23:24, by: Dropbox User)
+- `npx.js` → `Employees/Artemchuk Nikolay/Employees attendance/.node/lib/node_modules/corepack/dist/npx.js` (93 bytes, modified: 2023-08-09T00:23:24, by: Dropbox User)
+- `pnpm.js` → `Employees/Artemchuk Nikolay/Employees attendance/.node/lib/node_modules/corepack/dist/pnpm.js` (94 bytes, modified: 2023-08-09T00:23:24, by: Dropbox User)
+- `pnpx.js` → `Employees/Artemchuk Nikolay/Employees attendance/.node/lib/node_modules/corepack/dist/pnpx.js` (94 bytes, modified: 2023-08-09T00:23:24, by: Dropbox User)
+- `yarn.js` → `Employees/Artemchuk Nikolay/Employees attendance/.node/lib/node_modules/corepack/dist/yarn.js` (94 bytes, modified: 2023-08-09T00:23:24, by: Dropbox User)
+- `yarnpkg.js` → `Employees/Artemchuk Nikolay/Employees attendance/.node/lib/node_modules/corepack/dist/yarnpkg.js` (97 bytes, modified: 2023-08-09T00:23:24, by: Dropbox User)
+- `corepack.cjs` → `Employees/Artemchuk Nikolay/Employees attendance/.node/lib/node_modules/corepack/dist/lib/corepack.cjs` (2263.85 KB, modified: 2023-11-22T08:06:28, by: Dropbox User)
+- `Azanova Darʼya.md` → `Employees/profiles/Resumes/Azanova Darʼya.md` (37 bytes, modified: 2025-11-24T14:04:53, by: Dropbox User)
+- `Profile Video Editor Azanova Darʼya.md` → `Employees/profiles/Available/Video/Profile Video Editor Azanova Darʼya.md` (1.42 KB, modified: 2025-11-25T14:53:35, by: Dropbox User)
+- `attendance_report_2025-11-26.json` → `Employees/Voice Log Discord/attendance_report_2025-11-26.json` (6.83 KB, modified: 2025-11-27T05:02:41, by: Dropbox User)
+- `final_audit_2025-11-26.json` → `Employees/Merged final report/final_audit_2025-11-26.json` (172.59 KB, modified: 2025-11-27T05:02:49, by: Dropbox User)
+- `crm_export_2025-11-26.json` → `Employees/crm_export_Attendance/crm_export_2025-11-26.json` (166.74 KB, modified: 2025-11-27T05:02:55, by: Dropbox User)
+- `Profile Lead Generator Cynthia Chinemerem Uzoh.md` → `Employees/profiles/Fired/LG/Profile Lead Generator Cynthia Chinemerem Uzoh.md` (580 bytes, modified: 2025-11-25T14:53:35, by: Dropbox User)
+- `Profile Chat Operator Aledare Adedoiin Bridjet.md` → `Employees/profiles/Fired/LG/Profile Chat Operator Aledare Adedoiin Bridjet.md` (3.12 KB, modified: 2025-11-25T14:53:35, by: Dropbox User)
+- `Profile Lead Generator Bessarab Valeriia.md` → `Employees/profiles/Fired/Sales/Profile Lead Generator Bessarab Valeriia.md` (2.98 KB, modified: 2025-11-11T11:54:58, by: Dropbox User)
+- `Profile Full Stack Developer Azar Imranov.md` → `Employees/profiles/Fired/Dev/Profile Full Stack Developer Azar Imranov.md` (576 bytes, modified: 2025-11-25T14:53:35, by: Dropbox User)
+- `Profile Lead generator, Personal Assistant Hanan Zaheur.md` → `Employees/profiles/Fired/LG/Profile Lead generator, Personal Assistant Hanan Zaheur.md` (1.59 KB, modified: 2025-11-25T14:53:35, by: Dropbox User)
+- `Profile Lead generator Kachailo Anna.md` → `Employees/profiles/Left/LG/Profile Lead generator Kachailo Anna.md` (2.05 KB, modified: 2025-11-25T14:53:35, by: Dropbox User)
+- `Profile Designer Kushnirenko Veronika.md` → `Employees/profiles/Left/Design/Profile Designer Kushnirenko Veronika.md` (585 bytes, modified: 2025-11-25T14:53:31, by: Dropbox User)
+- `Profile Full Stack Developer Marynenko Dmitriy.md` → `Employees/profiles/Available/Dev/Profile Full Stack Developer Marynenko Dmitriy.md` (2.05 KB, modified: 2025-11-25T14:53:32, by: Dropbox User)
+
+**Modified (4 files):**
+- `COPY_SUMMARY.md` → `Employees/profiles/COPY_SUMMARY.md` (1.29 KB, rev: 01644930..., modified: 2025-11-27T12:56:56, by: Dropbox User)
+- `ORGANIZATION_SUMMARY.md` → `Employees/profiles/ORGANIZATION_SUMMARY.md` (2.02 KB, rev: 01644930..., modified: 2025-11-27T12:56:56, by: Dropbox User)
+- `STATUS_ORGANIZATION_COMPLETE.md` → `Employees/profiles/STATUS_ORGANIZATION_COMPLETE.md` (1.95 KB, rev: 01644930..., modified: 2025-11-27T12:56:56, by: Dropbox User)
+- `FINAL_ORGANIZATION.md` → `Employees/profiles/FINAL_ORGANIZATION.md` (2.88 KB, rev: 01644930..., modified: 2025-11-27T12:56:56, by: Dropbox User)
+
+**Deleted (12 files):**
+- `Profile Lead generator Bessarab Valeriia.md`
+- `Profile Full Stack Developer Azar Imranov.md`
+- `Profile Lead generator Joy Edem Asuquo.md`
+- `Profile Lead generator Kachailo Anna.md`
+- `Profile Lead generator, Personal Assistant Hanan Zaheur.md`
+- `Profile Lead Generator Polina Nastich.md`
+- `Profile Designer Kushnirenko Veronika.md`
+- `Profile Lead generator Bessarab Valeriia.md`
+- `Profile Lead Generator Cynthia Chinemerem Uzoh.md`
+- `Profile Lead generator Davlatdodova Kibriyo.md`
+- `Profile Chat operator Aledare Adedoiin Bridjet.md`
+- `Profile Full Stack Developer Marynenko Dmitriy.md`
+
+
+### TASK_MANAGERS
+
+**Total changes:** 12 files
+
+**Added (12 files):**
+- `calculate_priority.cpython-313.pyc` → `RESEARCHES/01_VIDEO_QUEUE/scripts/__pycache__/calculate_priority.cpython-313.pyc` (6.88 KB, modified: 2025-11-23T23:34:07, by: Dropbox User)
+- `config.cpython-313.pyc` → `RESEARCHES/scripts/__pycache__/config.cpython-313.pyc` (3.80 KB, modified: 2025-11-24T00:49:06, by: Dropbox User)
+- `markdown_parser.cpython-313.pyc` → `RESEARCHES/scripts/__pycache__/markdown_parser.cpython-313.pyc` (24.72 KB, modified: 2025-11-24T01:16:32, by: Dropbox User)
+- `video_gap_analyzer.cpython-313.pyc` → `RESEARCHES/scripts/__pycache__/video_gap_analyzer.cpython-313.pyc` (30.36 KB, modified: 2025-11-24T01:16:32, by: Dropbox User)
+- `video_id_scanner.cpython-313.pyc` → `RESEARCHES/scripts/__pycache__/video_id_scanner.cpython-313.pyc` (17.41 KB, modified: 2025-11-24T01:16:32, by: Dropbox User)
+- `video_integration_reporter.cpython-313.pyc` → `RESEARCHES/scripts/__pycache__/video_integration_reporter.cpython-313.pyc` (20.35 KB, modified: 2025-11-24T01:16:32, by: Dropbox User)
+- `video_json_updater.cpython-313.pyc` → `RESEARCHES/scripts/__pycache__/video_json_updater.cpython-313.pyc` (24.04 KB, modified: 2025-11-24T01:16:32, by: Dropbox User)
+- `utils.cpython-313.pyc` → `RESEARCHES/scripts/__pycache__/utils.cpython-313.pyc` (15.44 KB, modified: 2025-11-24T01:17:05, by: Dropbox User)
+- `process.log` → `RESEARCHES/scripts/process.log` (51.20 KB, modified: 2025-11-24T01:17:05, by: Dropbox User)
+- `Video_024 (Спірна копія користувача HR RemotEmployees 2025-11-25).md` → `RESEARCHES/02_TRANSCRIPTIONS/Video_024 (Спірна копія користувача HR RemotEmployees 2025-11-25).md` (44.35 KB, modified: 2025-11-24T18:05:26, by: Dropbox User)
+- `Video_024 (Спірна копія користувача HR RemotEmployees 2025-11-25).md` → `RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/02_TRANSCRIPTIONS/Video_024 (Спірна копія користувача HR RemotEmployees 2025-11-25).md` (44.98 KB, modified: 2025-11-26T14:56:50, by: Dropbox User)
+- `App_Development_Prompt.md` → `RESEARCHES/App_Development_Prompt.md` (72.67 KB, modified: 2025-11-27T22:10:59, by: Dropbox User)
+
+
+## All Changes
+
+### Added Files
+
+- `DAILIES/Week3/20/Azanova Darʼya_Week_3/TODO.md`
+- `DAILIES/IMPORTS/Week_3/2025-11-22_Sales_Import/archive_2025-11-22/Prospects/BUSINESSES_Prospect_Electrão_BUS-2025-018.json`
+- `DAILIES/IMPORTS/Week_3/2025-11-22_Sales_Import/archive_2025-11-22/Prospects/BUSINESSES_Prospect_Markewärn_Studios_BUS-2025-021.json`
+- `TASK_MANAGERS/RESEARCHES/01_VIDEO_QUEUE/scripts/__pycache__/calculate_priority.cpython-313.pyc`
+- `TASK_MANAGERS/RESEARCHES/scripts/__pycache__/config.cpython-313.pyc`
+- `TASK_MANAGERS/RESEARCHES/scripts/__pycache__/markdown_parser.cpython-313.pyc`
+- `TASK_MANAGERS/RESEARCHES/scripts/__pycache__/video_gap_analyzer.cpython-313.pyc`
+- `TASK_MANAGERS/RESEARCHES/scripts/__pycache__/video_id_scanner.cpython-313.pyc`
+- `TASK_MANAGERS/RESEARCHES/scripts/__pycache__/video_integration_reporter.cpython-313.pyc`
+- `TASK_MANAGERS/RESEARCHES/scripts/__pycache__/video_json_updater.cpython-313.pyc`
+- `TASK_MANAGERS/RESEARCHES/scripts/__pycache__/utils.cpython-313.pyc`
+- `TASK_MANAGERS/RESEARCHES/scripts/process.log`
+- `TALENTS/Employees/Artemchuk Nikolay/Employees attendance/.node/lib/node_modules/corepack/dist/corepack.js`
+- `TALENTS/Employees/Artemchuk Nikolay/Employees attendance/.node/lib/node_modules/corepack/dist/npm.js`
+- `TALENTS/Employees/Artemchuk Nikolay/Employees attendance/.node/lib/node_modules/corepack/dist/npx.js`
+- `TALENTS/Employees/Artemchuk Nikolay/Employees attendance/.node/lib/node_modules/corepack/dist/pnpm.js`
+- `TALENTS/Employees/Artemchuk Nikolay/Employees attendance/.node/lib/node_modules/corepack/dist/pnpx.js`
+- `TALENTS/Employees/Artemchuk Nikolay/Employees attendance/.node/lib/node_modules/corepack/dist/yarn.js`
+- `TALENTS/Employees/Artemchuk Nikolay/Employees attendance/.node/lib/node_modules/corepack/dist/yarnpkg.js`
+- `TALENTS/Employees/Artemchuk Nikolay/Employees attendance/.node/lib/node_modules/corepack/dist/lib/corepack.cjs`
+- `TALENTS/Employees/profiles/Resumes/Azanova Darʼya.md`
+- `TASK_MANAGERS/RESEARCHES/02_TRANSCRIPTIONS/Video_024 (Спірна копія користувача HR RemotEmployees 2025-11-25).md`
+- `TALENTS/Employees/profiles/Available/Video/Profile Video Editor Azanova Darʼya.md`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-461_Create_cross-reference_index_(tool→lesson→template).json`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/02_TRANSCRIPTIONS/Video_024 (Спірна копія користувача HR RemotEmployees 2025-11-25).md`
+- `TALENTS/Employees/Voice Log Discord/attendance_report_2025-11-26.json`
+- `TALENTS/Employees/Merged final report/final_audit_2025-11-26.json`
+- `TALENTS/Employees/crm_export_Attendance/crm_export_2025-11-26.json`
+- `LIBRARIES/LBS_003_Tools/DEPARTMENT_ASSIGNMENT_SUMMARY.md`
+- `LIBRARIES/LBS_003_Tools/Tools_By_Department.csv`
+- `DAILIES/REPORTS/Week_4/Strapi_VSCode_Integration_Research.md`
+- `DAILIES/REPORTS/Employee_Summaries_Week4/Bykova_Anastasiia_Employee_Summary_Week4.md`
+- `DAILIES/REPORTS/Niko_Nov_Notes_Summary/261125_Analysis_COMPREHENSIVE.md`
+- `DAILIES/REPORTS/Niko_Nov_Notes_Summary/251125_Analysis_COMPREHENSIVE.md`
+- `DAILIES/REPORTS/Niko_Nov_Notes_Summary/241125_Analysis_COMPREHENSIVE.md`
+- `TASK_MANAGERS/RESEARCHES/App_Development_Prompt.md`
+- `DAILIES/REPORTS/Week_4/Delegation/Assignment_Priority_Queue.csv`
+- `DAILIES/LOG/Week_4/241127_Research_App_Planning_ChatLog.md`
+- `PROMPTS/research_app/01_Supabase_Database_Schema_Prompt.md`
+- `PROMPTS/research_app/DESIGN_ASSETS_REFERENCE.md`
+- `DAILIES/REPORTS/Week_4/designers/Kucherenko_Iuliia_Employee_Summary_Week4.md`
+- `DAILIES/REPORTS/Week_4/designers/Kucherenko_Iuliia_Week4_Plan.md`
+- `DAILIES/REPORTS/Week_4/designers/Mazyickevych_Maryna_Week4_Plan.md`
+- `DAILIES/REPORTS/Week_4/designers/Potapchuk_Anastasiya_Week4_Plan.md`
+- `DAILIES/REPORTS/Week_4/designers/Rotar_Olga_Week4_Plan.md`
+- `DAILIES/REPORTS/Week_4/designers/Yarmachenko_Kristina_Week4_Plan.md`
+- `DAILIES/REPORTS/Week_4/designers/Teselko_Anastasiya_Week4_Plan.md`
+- `DAILIES/REPORTS/Week_4/designers/Bykova_Anastasiia_Week4_Plan.md`
+- `DAILIES/REPORTS/Week_4/designers/Olha_Shelep_Week4_Plan.md`
+- `DAILIES/REPORTS/Week_4/designers/Shelep_Olha_Week4_Plan.md`
+- `DAILIES/REPORTS/Week_4/designers/Syrotiuk_Mariia_Week4_Plan.md`
+- `DAILIES/REPORTS/Week_4/designers/Bykova_Anastasiia_Employee_Summary_Week4.md`
+- `DAILIES/REPORTS/Week_4/designers/Shelep_Olha_Employee_Summary_Week4.md`
+- `DAILIES/REPORTS/Week_4/designers/Litvinova_Natalia_Employee_Summary_Week4.md`
+- `DAILIES/REPORTS/Week_4/designers/Bogun_Polina_Week4_Plan.md`
+- `DAILIES/REPORTS/Week_4/designers/Hlushko_Mariia_Week4_Plan.md`
+- `DAILIES/REPORTS/Week_4/designers/Litvinova_Natalia_Week4_Plan.md`
+- `DAILIES/REPORTS/Week_4/designers/Shtepa_Yuliia_Week4_Plan.md`
+- `DAILIES/REPORTS/Week_4/designers/Vereteno_Marta_Week4_Plan.md`
+- `DAILIES/REPORTS/Week_4/designers/Bogun_Polina_Employee_Summary_Week4.md`
+- `DAILIES/REPORTS/Week_4/designers/Shtepa_Yuliia_Employee_Summary_Week4.md`
+- `DAILIES/REPORTS/Week_4/designers/Skrypkar_Vilhelm_Employee_Summary_Week4.md`
+- `DAILIES/REPORTS/Week_4/designers/Skrypkar_Vilhelm_Week4_Plan.md`
+- `DAILIES/REPORTS/Week_4/designers/Safonova_Eleonora_Week4_Plan.md`
+- `DAILIES/REPORTS/Week_4/designers/Shymkevych_Iryna_Week4_Plan.md`
+- `DAILIES/REPORTS/Week_4/designers/Safonova_Eleonora_Employee_Summary_Week4.md`
+- `DAILIES/REPORTS/Week_4/designers/Shymkevych_Iryna_Employee_Summary_Week4.md`
+- `DAILIES/REPORTS/Week_4/developers/Okunievskyi_Volodymyr_Week4_Plan.md`
+- `DAILIES/REPORTS/Week_4/developers/Azar_Imranov_Week4_Plan.md`
+- `DAILIES/REPORTS/Week_4/developers/Artem_Skichko_Week4_Plan.md`
+- `DAILIES/REPORTS/Week_4/developers/Danylenko_Liliia_Week4_Plan.md`
+- `DAILIES/REPORTS/Week_4/developers/Klimenko_Yaroslav_Week4_Plan.md`
+- `DAILIES/REPORTS/Week_4/developers/Artem_Skichko_Employee_Summary_Week4.md`
+- `DAILIES/REPORTS/Week_4/developers/Azar_Imranov_Employee_Summary_Week4.md`
+- `DAILIES/REPORTS/Week_4/developers/Danylenko_Liliia_Employee_Summary_Week4.md`
+- `DAILIES/REPORTS/Week_4/developers/Klimenko_Yaroslav_Employee_Summary_Week4.md`
+- `DAILIES/REPORTS/Week_4/crm/Kizilova_Olha_Week4_Plan.md`
+- `DAILIES/REPORTS/Week_4/crm/Lychagin_Roman_Week4_Plan.md`
+- `DAILIES/REPORTS/Week_4/crm/Kizilova_Olha_Employee_Summary_Week4.md`
+- `DAILIES/REPORTS/Week_4/videographers/Azanova_Darya_Week4_Plan.md`
+- `DAILIES/REPORTS/Week_4/videographers/Podolskyi_Sviatoslav_Week4_Plan.md`
+- `DAILIES/REPORTS/Week_4/videographers/Azanova_Darya_Employee_Summary_Week4.md`
+- `DAILIES/REPORTS/Week_4/videographers/Podolskyi_Sviatoslav_Employee_Summary_Week4.md`
+- `DAILIES/REPORTS/Week_4/marketers/Artemchuk_Nikolay_Week4_Plan.md`
+- `DAILIES/REPORTS/Week_4/marketers/Perederii_Vladislav_Week4_Plan.md`
+- `DAILIES/REPORTS/Week_4/marketers/salesnov25_Week4_Plan.md`
+- `DAILIES/REPORTS/Week_4/marketers/Perederii_Vladislav_Employee_Summary_Week4.md`
+- `DAILIES/REPORTS/Week_4/managers/Berdychevska_Anastasiia_Week4_Plan.md`
+- `DAILIES/REPORTS/Week_4/managers/Hryhorchuk_Vasyl_Week4_Plan.md`
+- `DAILIES/REPORTS/Week_4/managers/Krasnojon_Darina_Week4_Plan.md`
+- `DAILIES/REPORTS/Week_4/managers/Olikh_Victoriia_Week4_Plan.md`
+- `DAILIES/REPORTS/Week_4/managers/Petrova_Evelina_Week4_Plan.md`
+- `DAILIES/REPORTS/Week_4/managers/Kamenskaya_Alina_Week4_Plan.md`
+- `DAILIES/REPORTS/Week_4/managers/Kovalska_Anastasiya_Week4_Plan.md`
+- `DAILIES/REPORTS/Week_4/managers/Nealova_Evgeniya_Week4_Plan.md`
+- `DAILIES/REPORTS/Week_4/managers/Iskandarova_Anush_Week4_Plan.md`
+- `DAILIES/REPORTS/Week_4/managers/Peneva_Plamena_Week4_Plan.md`
+- `DAILIES/REPORTS/Week_4/managers/Nealova_Evgeniya_Employee_Summary_Week4.md`
+- `DAILIES/REPORTS/Week_4/managers/Peneva_Plamena_Employee_Summary_Week4.md`
+- `DAILIES/REPORTS/Week_4/managers/Pasichna_Anastasiia_Employee_Summary_Week4.md`
+- `DAILIES/REPORTS/Week_4/managers/Burda_Anna_Week4_Plan.md`
+- `DAILIES/REPORTS/Week_4/managers/Pasichna_Anastasiia_Week4_Plan.md`
+- `DAILIES/REPORTS/Week_4/managers/Rekonvald_Viktoriya_Week4_Plan.md`
+- `DAILIES/REPORTS/Week_4/managers/Shkinder_Kseniia_Week4_Plan.md`
+- `DAILIES/REPORTS/Week_4/managers/Pasichna_Anastasiya_Week4_Plan.md`
+- `DAILIES/REPORTS/Week_4/managers/Rekonvald_Viktoriya_Employee_Summary_Week4.md`
+- `DAILIES/REPORTS/Week_4/managers/Burda_Anna_Employee_Summary_Week4.md`
+- `DAILIES/REPORTS/Week_4/managers/Shkinder_Kseniia_Employee_Summary_Week4.md`
+- `DAILIES/REPORTS/Week_4/managers/Archibong_Isaac_Week4_Plan.md`
+- `DAILIES/REPORTS/Week_4/managers/Alakbarova_Ulviyya_Javid_Week4_Plan.md`
+- `DAILIES/REPORTS/Week_4/managers/Bindiak_Dana_Week4_Plan.md`
+- `DAILIES/REPORTS/Week_4/managers/Cynthia_Aninwezi_Week4_Plan.md`
+- `DAILIES/REPORTS/Week_4/managers/Davlatmamadova_Firuza_Week4_Plan.md`
+- `DAILIES/REPORTS/Week_4/managers/Cynthia_Aninwezi_Employee_Summary_Week4.md`
+- `DAILIES/REPORTS/Week_4/managers/Davlatmamadova_Firuza_Employee_Summary_Week4.md`
+- `DAILIES/REPORTS/Week_4/managers/Cynthia_Uzoh_Week4_Plan.md`
+- `DAILIES/REPORTS/Week_4/managers/Kachailo_Anna_Week4_Plan.md`
+- `DAILIES/REPORTS/Week_4/managers/Aledare_Adedoiin_Bridjet_Week4_Plan.md`
+- `DAILIES/REPORTS/Week_4/managers/Cynthia_Chinemerem_Uzoh_Week4_Plan.md`
+- `DAILIES/REPORTS/Week_4/managers/Hanan_Zaheur_Week4_Plan.md`
+- `DAILIES/REPORTS/Week_4/managers/Bessarab_Valeriia_Week4_Plan.md`
+- `DAILIES/REPORTS/Week_4/managers/Tsyupko_Myroslava_Week4_Plan.md`
+- `PROMPTS/research_app/TECHNICAL_SPECS_INTEGRATION_SUMMARY.md`
+- `DAILIES/REPORTS/Week_4/marketers/Artemchuk_Nikolay_Employee_Summary_Week4.md`
+- `PROMPTS/research_app/02_Queue_Management_Web_App_Prompt.md`
+- `PROMPTS/research_app/00_PROCESSING_AUTOMATION_LOGIC.md`
+- `PROMPTS/research_app/03_Video_Processing_Web_App_Prompt.md`
+- `PROMPTS/research_app/INTEGRATION_COMPLETE_SUMMARY.md`
+- `TALENTS/Employees/profiles/Fired/LG/Profile Lead Generator Cynthia Chinemerem Uzoh.md`
+- `TALENTS/Employees/profiles/Fired/LG/Profile Chat Operator Aledare Adedoiin Bridjet.md`
+- `TALENTS/Employees/profiles/Fired/Sales/Profile Lead Generator Bessarab Valeriia.md`
+- `TALENTS/Employees/profiles/Fired/Dev/Profile Full Stack Developer Azar Imranov.md`
+- `TALENTS/Employees/profiles/Fired/LG/Profile Lead generator, Personal Assistant Hanan Zaheur.md`
+- `TALENTS/Employees/profiles/Left/LG/Profile Lead generator Kachailo Anna.md`
+- `TALENTS/Employees/profiles/Left/Design/Profile Designer Kushnirenko Veronika.md`
+- `TALENTS/Employees/profiles/Available/Dev/Profile Full Stack Developer Marynenko Dmitriy.md`
+- `PROMPTS/research_app/LOVABLE_INITIATION_PHRASE.md`
+- `PROMPTS/research_app/screen_apps/README.md`
+- `DAILIES/REPORTS/Week_4/Executives/241125_Analysis_COMPREHENSIVE.md`
+- `DAILIES/REPORTS/Week_4/Executives/251125_Analysis_COMPREHENSIVE.md`
+- `DAILIES/REPORTS/Week_4/Executives/271125_Analysis_v7.1_COMPREHENSIVE.md`
+- `DAILIES/REPORTS/Week_4/Executives/261125_Analysis_COMPREHENSIVE.md`
+- `PROMPTS/research_app/screen_apps/CREATION_STATUS.md`
+- `PROMPTS/research_app/screen_apps/04_dashboard_stats/prompt.md`
+- `PROMPTS/research_app/screen_apps/09_cost_tracker_widget/prompt.md`
+- `PROMPTS/research_app/screen_apps/custom_instructions/01_project_setup.md`
+- `PROMPTS/research_app/screen_apps/custom_instructions/02_design_system_reference.md`
+- `PROMPTS/research_app/screen_apps/FINAL_STATUS.md`
+- `PROMPTS/research_app/screen_apps/02_search_queue_screen/prompt.md`
+- `PROMPTS/research_app/screen_apps/PROGRESS_SUMMARY.md`
+- `PROMPTS/research_app/screen_apps/COMPLETION_NOTES.md`
+- `PROMPTS/research_app/screen_apps/START_HERE.md`
+- `PROMPTS/research_app/screen_apps/PROMPT_TEMPLATE.md`
+- `PROMPTS/research_app/screen_apps/CURRENT_STATUS_FINAL.md`
+- `PROMPTS/research_app/screen_apps/ALL_REMAINING_PROMPTS.md`
+
+### Modified Files
+
+- `LIBRARIES/LBS_003_Tools/assign_departments.py`
+- `LIBRARIES/LBS_003_Tools/Tools_Master_Inventory.csv`
+- `TALENTS/Employees/profiles/COPY_SUMMARY.md`
+- `RESEARCHES/VIDEO_RESEARCHES/03_ANALYSIS/Gap_Analysis/Video_022_Gap_Analysis.md`
+- `TALENTS/Employees/profiles/ORGANIZATION_SUMMARY.md`
+- `TALENTS/Employees/profiles/STATUS_ORGANIZATION_COMPLETE.md`
+- `TALENTS/Employees/profiles/FINAL_ORGANIZATION.md`
+
+### Deleted Files
+
+- `"TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/02_TRANSCRIPTIONS/Video_024 (\320\241\320\277\321\226\321\200\320\275\320\260 \320\272\320\276\320\277\321\226\321\217 \320\272\320\276\321\200\320\270\321\201\321\202\321\203\320\262\320\260\321\207\320\260 HR RemotEmployees 2025-11-25).md"`
+- `README.md`
+- `TALENTS/Employees/profiles/Left/Sales/Profile Lead generator Bessarab Valeriia.md`
+- `TALENTS/Employees/profiles/Available/Dev/Profile Full Stack Developer Azar Imranov.md`
+- `TALENTS/Employees/profiles/Left/LG/Profile Lead generator Joy Edem Asuquo.md`
+- `TALENTS/Employees/profiles/Project/LG/Profile Lead generator Kachailo Anna.md`
+- `TALENTS/Employees/profiles/Available/LG/Profile Lead generator, Personal Assistant Hanan Zaheur.md`
+- `TALENTS/Employees/profiles/Left/LG/Profile Lead Generator Polina Nastich.md`
+- `"DAILIES/IMPORTS/Week_3/2025-11-22_Sales_Import/archive_2025-11-22/Prospects/BUSINESSES_Prospect_Markew\303\244rn_Studios_BUS-2025-021.json"`
+- `TALENTS/Employees/profiles/Available/Design/Profile Designer Kushnirenko Veronika.md`
+- `"TALENTS/Employees/profiles/Available/Video/Profile Video Editor Azanova Dar\312\274ya.md"`
+- `TALENTS/Employees/profiles/Work/Sales/Profile Lead generator Bessarab Valeriia.md`
+- `"TALENTS/Employees/profiles/Resumes/Azanova Dar\312\274ya.md"`
+- `TALENTS/Employees/profiles/Available/LG/Profile Lead Generator Cynthia Chinemerem Uzoh.md`
+- `TALENTS/Employees/profiles/Left/LG/Profile Lead generator Davlatdodova Kibriyo.md`
+- `"DAILIES/Week3/20/Azanova Dar\312\274ya_Week_3/TODO.md"`
+- `DAILIES/REPORTS/251125_Analysis_COMPREHENSIVE.md`
+- `TALENTS/Employees/profiles/Available/LG/Profile Chat operator Aledare Adedoiin Bridjet.md`
+- `DAILIES/REPORTS/241125_Analysis_COMPREHENSIVE.md`
+- `"TASK_MANAGERS/RESEARCHES/02_TRANSCRIPTIONS/Video_024 (\320\241\320\277\321\226\321\200\320\275\320\260 \320\272\320\276\320\277\321\226\321\217 \320\272\320\276\321\200\320\270\321\201\321\202\321\203\320\262\320\260\321\207\320\260 HR RemotEmployees 2025-11-25).md"`
+- `TALENTS/Employees/profiles/Work/Dev/Profile Full Stack Developer Marynenko Dmitriy.md`
+- `"DAILIES/IMPORTS/Week_3/2025-11-22_Sales_Import/archive_2025-11-22/Prospects/BUSINESSES_Prospect_Electr\303\243o_BUS-2025-018.json"`
+- `"DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-461_Create_cross-reference_index_(tool\342\206\222lesson\342\206\222template).json"`
+
+
+---
+*Generated automatically by Dropbox to GitHub sync*
+
+
 # Changelog - 2025-11-27
 
 **Sync Date:** 2025-11-27 04:01:34 UTC
