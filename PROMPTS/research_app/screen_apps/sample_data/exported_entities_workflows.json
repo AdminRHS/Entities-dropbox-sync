@@ -1,0 +1,99 @@
+[
+  {
+    "id": "10",
+    "entity_type": "WORKFLOW",
+    "entity_name": "MCP Server Setup Process",
+    "entity_id": "WRF-026",
+    "classification": "NEW",
+    "description": "Complete workflow for setting up MCP servers in Claude Desktop including installation, configuration, and testing",
+    "video_id": "video_1",
+    "video_title": "Claude Desktop MCP Setup Tutorial",
+    "extracted_at": "2025-11-28T10:00:00Z",
+    "steps_count": 8,
+    "estimated_time_minutes": 15,
+    "difficulty": "Medium",
+    "prerequisites": [
+      "Claude Desktop installed",
+      "Node.js v18+",
+      "Code editor",
+      "Basic JSON knowledge"
+    ],
+    "outputs": [
+      "Configured MCP servers",
+      "Working tool integrations",
+      "Configuration file"
+    ]
+  },
+  {
+    "id": "11",
+    "entity_type": "WORKFLOW",
+    "entity_name": "n8n Automation Workflow Creation",
+    "entity_id": "WRF-027",
+    "classification": "NEW",
+    "description": "Process for creating automated workflows in n8n from trigger to execution with error handling",
+    "video_id": "video_2",
+    "video_title": "n8n Workflow Automation",
+    "extracted_at": "2025-11-28T11:00:00Z",
+    "steps_count": 12,
+    "estimated_time_minutes": 30,
+    "difficulty": "Hard",
+    "prerequisites": [
+      "n8n instance running",
+      "API credentials",
+      "Understanding of webhooks"
+    ],
+    "outputs": [
+      "Deployed workflow",
+      "Automated data sync",
+      "Error notifications"
+    ]
+  },
+  {
+    "id": "12",
+    "entity_type": "WORKFLOW",
+    "entity_name": "Supabase Row Level Security Setup",
+    "entity_id": "WRF-028",
+    "classification": "NEW",
+    "description": "Step-by-step process for implementing Row Level Security policies in Supabase for multi-tenant applications",
+    "video_id": "video_6",
+    "video_title": "Advanced Supabase Security",
+    "extracted_at": "2025-11-28T13:00:00Z",
+    "steps_count": 10,
+    "estimated_time_minutes": 45,
+    "difficulty": "Hard",
+    "prerequisites": [
+      "Supabase project",
+      "PostgreSQL knowledge",
+      "Auth system configured"
+    ],
+    "outputs": [
+      "RLS policies",
+      "Secure data access",
+      "User isolation"
+    ]
+  },
+  {
+    "id": "13",
+    "entity_type": "WORKFLOW",
+    "entity_name": "Figma to React Component Conversion",
+    "entity_id": "WRF-029",
+    "classification": "UPDATE",
+    "description": "Modern workflow for converting Figma designs to React components using design tokens and component libraries",
+    "video_id": "video_4",
+    "video_title": "Figma to React Component Tutorial",
+    "extracted_at": "2025-11-28T12:00:00Z",
+    "steps_count": 7,
+    "estimated_time_minutes": 25,
+    "difficulty": "Medium",
+    "prerequisites": [
+      "Figma design file",
+      "React project setup",
+      "Design system tokens"
+    ],
+    "outputs": [
+      "React components",
+      "TypeScript types",
+      "Storybook stories"
+    ]
+  }
+]

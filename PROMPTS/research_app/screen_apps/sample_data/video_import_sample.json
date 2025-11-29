@@ -1,0 +1,52 @@
+[
+  {
+    "video_url": "https://youtube.com/watch?v=abc123",
+    "video_title": "Claude Desktop MCP Setup Tutorial",
+    "channel_name": "AI Explained",
+    "duration_minutes": 15,
+    "priority": "high",
+    "department": "DEV",
+    "assigned_to": "alex@remotehelpers.com",
+    "notes": "Great tutorial on MCP connectors and server setup"
+  },
+  {
+    "video_url": "https://youtube.com/watch?v=xyz789",
+    "video_title": "n8n Workflow Automation for Developers",
+    "channel_name": "Automation Pro",
+    "duration_minutes": 22,
+    "priority": "medium",
+    "department": "DEV",
+    "assigned_to": "maria@remotehelpers.com",
+    "notes": "Comprehensive automation guide with practical examples"
+  },
+  {
+    "video_url": "https://youtube.com/watch?v=def456",
+    "video_title": "AI Caption Generator Tools Review",
+    "channel_name": "Social Media Masters",
+    "duration_minutes": 18,
+    "priority": "high",
+    "department": "SMM",
+    "assigned_to": "jordan@remotehelpers.com",
+    "notes": "Comparison of 5 AI caption tools for social media"
+  },
+  {
+    "video_url": "https://youtube.com/watch?v=ghi789",
+    "video_title": "Figma to React Component Tutorial",
+    "channel_name": "Design Systems",
+    "duration_minutes": 25,
+    "priority": "medium",
+    "department": "DGN",
+    "assigned_to": "sam@remotehelpers.com",
+    "notes": "Component architecture patterns and best practices"
+  },
+  {
+    "video_url": "https://youtube.com/watch?v=jkl012",
+    "video_title": "Marketing Analytics Dashboard Setup",
+    "channel_name": "Data Insights",
+    "duration_minutes": 30,
+    "priority": "low",
+    "department": "MKT",
+    "assigned_to": "taylor@remotehelpers.com",
+    "notes": "Google Analytics integration guide with real-time data"
+  }
+]

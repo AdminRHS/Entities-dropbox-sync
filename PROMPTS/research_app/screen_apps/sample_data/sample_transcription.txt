@@ -1,0 +1,69 @@
+Claude Desktop MCP Setup Tutorial - Full Transcription
+
+00:00:00 - Introduction
+Hello everyone, and welcome to this comprehensive tutorial on setting up MCP servers in Claude Desktop. Today, we're going to walk through the entire process from installation to configuration.
+
+00:00:15 - What is MCP?
+The Model Context Protocol, or MCP, allows Claude Desktop to connect to external tools and data sources. This opens up powerful capabilities for automation and integration with your existing workflows.
+
+00:00:45 - Prerequisites
+Before we begin, make sure you have the following installed:
+- Claude Desktop application (latest version)
+- Node.js version 18 or higher
+- A code editor like VS Code
+- Basic understanding of JSON configuration files
+
+00:01:20 - Installing Your First MCP Server
+Let's start by installing a simple file system MCP server. Open your terminal and navigate to your Claude Desktop configuration directory. On Mac, this is typically located at ~/Library/Application Support/Claude/
+
+00:02:00 - Configuration File Setup
+Now we need to create or edit the claude_desktop_config.json file. This is where we'll define our MCP servers. Let me show you the structure of this configuration file.
+
+00:02:45 - Adding the File System Server
+Here's what the configuration looks like for a basic file system server. We specify the command to run, which is typically npx, followed by the package name and any necessary arguments.
+
+00:03:30 - Testing Your Connection
+Once you've saved your configuration, restart Claude Desktop. You should now see your MCP server listed in the tools menu. Let's test it by trying to read a file from your system.
+
+00:04:15 - Common Troubleshooting Tips
+If your server doesn't appear, check these common issues:
+1. Make sure Node.js is installed and accessible from your command line
+2. Verify the configuration file syntax is valid JSON
+3. Check that the server package is properly installed
+4. Look for error messages in the Claude Desktop logs
+
+00:05:00 - Advanced Configuration Options
+Now that you have a basic server running, let's explore some advanced configuration options. You can specify environment variables, working directories, and custom arguments for your servers.
+
+00:06:00 - Multiple Server Setup
+You can run multiple MCP servers simultaneously. This is useful when you want to integrate different tools and services. I'll show you how to configure multiple servers in the same config file.
+
+00:07:15 - Security Considerations
+It's important to understand the security implications of MCP servers. Only install servers from trusted sources, and be aware of what permissions you're granting to these tools.
+
+00:08:00 - Popular MCP Servers
+Let me show you some popular MCP servers that the community has created:
+- File system server for local file access
+- GitHub server for repository management
+- PostgreSQL server for database queries
+- Google Drive server for cloud storage
+
+00:09:30 - Creating Custom MCP Servers
+If you want to create your own MCP server, you'll need to follow the MCP protocol specification. The basic structure involves implementing a JSON-RPC interface with specific methods.
+
+00:11:00 - Best Practices
+Here are some best practices when working with MCP servers:
+- Keep your servers updated to the latest versions
+- Document your configuration for team members
+- Test servers in isolation before adding multiple
+- Monitor resource usage of running servers
+
+00:12:30 - Real-World Use Cases
+Let me share some real-world examples of how teams are using MCP servers to enhance their productivity with Claude Desktop.
+
+00:14:00 - Conclusion and Next Steps
+That wraps up our tutorial on MCP server setup. I encourage you to experiment with different servers and see what works best for your workflow. Check the links in the description for additional resources.
+
+00:15:00 - End
+
+Thank you for watching! Don't forget to subscribe for more tutorials on Claude Desktop and AI automation.

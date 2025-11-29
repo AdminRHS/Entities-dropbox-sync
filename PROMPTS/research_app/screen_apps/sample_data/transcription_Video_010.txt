@@ -1,0 +1,291 @@
+Video Title: Using Google's NotebookLM to Screen CVs and Prepare for Interviews
+Channel: Unknown
+Duration: 10:23
+URL: Not provided
+
+---
+
+## Description
+
+Practical demonstration of using Google's NotebookLM (powered by Gemini 2.0) as an AI research assistant for recruitment. Shows how to upload multiple candidate CVs and a job description to screen, rank, and generate tailored interview questions for hiring processes.
+
+---
+
+## Key Topics
+
+- NotebookLM for Recruitment
+- CV Screening and Candidate Ranking
+- Automated Shortlisting
+- HR Interview Question Generation
+- Technical Interview Preparation
+- Consulting Skills Assessment
+- AI-Powered Hiring Workflows
+- Gemini 2.0 Application
+
+---
+
+## Tools Mentioned
+
+### Primary Tool
+- **Google NotebookLM** - AI research assistant
+- **Gemini 2.0** - Underlying AI model
+
+### Data Sources
+- **PDF CVs** - Candidate resumes
+- **Job Description (JD)** - Role requirements document
+
+### Potential Integrations (Mentioned)
+- **LinkedIn** - Auto-fetch CVs from job posts
+- **Frontier AI Models** - For production recruitment app
+
+---
+
+## Workflows Identified
+
+### WORKFLOW 1: AI-Powered Candidate Screening
+**OBJECTIVE**: Screen, rank, and shortlist candidates by comparing multiple CVs against a job description
+
+**STEPS**:
+1. Upload multiple candidate CVs as PDF files into NotebookLM
+2. Upload the Job Description (JD) document
+3. Prompt: "Use JD and benchmark and screen attached CVs against the JD. Give me top five candidates suitable for the role. Please give me a score for each candidate along with strengths and weaknesses."
+4. NotebookLM extracts data from PDFs and stores in database
+5. AI analyzes each CV against JD requirements
+6. Generates ranked list of top 5 candidates
+7. Provides suitability score (0-100) for each candidate
+8. Lists strengths and weaknesses for each candidate
+9. Review analysis to identify best-fit candidates
+
+**DURATION**: A few minutes
+**COMPLEXITY**: Low
+**TOOLS USED**: NotebookLM, Gemini 2.0, PDF files
+**INPUT**: Folder with multiple CVs (PDFs) + Job Description document
+**OUTPUT**: Ranked top 5 candidates with scores (e.g., 88/100, 85/100, 82/100, 80/100, 78/100), strengths, and weaknesses
+
+### WORKFLOW 2: HR Interview Question Generation
+**OBJECTIVE**: Automatically generate relevant HR interview questions for shortlisted candidates
+
+**STEPS**:
+1. Use existing context of uploaded CVs and JD
+2. Prompt: "Based on the JD, can you please prepare HR interview questions for the shortlisted candidates?"
+3. AI generates two types of questions:
+   - **General HR questions** (applicable to all candidates)
+   - **Candidate-specific questions** (based on individual CV details)
+4. Review generated questions
+
+**DURATION**: Under 1 minute
+**COMPLEXITY**: Low
+**INPUT**: Context from previous screening workflow
+**OUTPUT**:
+- General questions: "Where do you see yourself professionally in next 3-5 years?", "What is your motivation?", "Tell us about your career trajectory"
+- Specific questions: Tailored to each candidate's experience and background
+
+### WORKFLOW 3: Technical Interview Preparation
+**OBJECTIVE**: Generate technical interview questions focused on specific technologies (e.g., Azure cloud stack)
+
+**STEPS**:
+1. Build on existing context
+2. Prompt: "Can you now prepare questions for technical interview for all these candidates? Keep a focus on Azure cloud stack."
+3. AI generates:
+   - General technical questions for all candidates
+   - Candidate-specific technical questions based on CV experience
+4. Review questions
+
+**DURATION**: Under 1 minute
+**COMPLEXITY**: Medium
+**INPUT**: Context + technology focus (Azure)
+**OUTPUT**:
+- General: "Can you describe your experience with Azure cloud services relevant to data analytics?"
+- Specific: "You mentioned experience with Azure, can you describe a specific Azure project where you were involved in data analysis and building data models?"
+
+### WORKFLOW 4: Final Round Consulting Interview
+**OBJECTIVE**: Prepare final interview questions with focus on consulting skills
+
+**STEPS**:
+1. Continue with existing context
+2. Prompt: "Can you please prepare questions for final interview and keep focus on consulting skills?"
+3. AI generates consulting-focused questions for each candidate
+4. Review and customize as needed
+
+**DURATION**: Under 1 minute
+**COMPLEXITY**: Medium
+**OUTPUT**: Questions like "Explain a complex data analytics concept to a non-technical stakeholder"
+
+---
+
+## Example Job Description Used
+
+**Role**: Data and Analytics Consulting Manager
+
+**Key Sections**:
+- Qualification requirements
+- Key responsibilities
+- Required skill set
+- Experience level
+- Technical competencies
+
+---
+
+## Candidate Scoring Example
+
+### Top 5 Candidates (from demo):
+1. **Candidate 1**: 88/100
+   - **Strengths**: Extensive experience in data analysis and leadership roles, experience with cloud technologies, experience in data strategy and insights
+
+2. **Candidate 2**: 85/100
+
+3. **Candidate 3**: 82/100
+
+4. **Candidate 4**: 80/100
+
+5. **Candidate 5**: 78/100
+
+---
+
+## Interview Question Categories
+
+### General HR Questions
+- Professional goals (3-5 years)
+- Career motivation
+- Career trajectory
+- Leadership style
+- Team collaboration
+
+### Candidate-Specific Questions
+- Based on CV details
+- Experience verification
+- Project-specific inquiries
+- Skill depth assessment
+
+### Technical Questions (Azure Focus)
+- Azure cloud services experience
+- Data analytics on Azure
+- Data model building
+- Azure-specific project examples
+
+### Consulting Skills Questions
+- Communicating with non-technical stakeholders
+- Client management
+- Problem-solving approach
+- Consulting project examples
+
+---
+
+## Use Cases
+
+### For Hiring Managers
+- Quickly screen 100+ CVs per role
+- Objective candidate ranking
+- Time savings on initial screening
+- Consistent evaluation criteria
+
+### For HR Teams
+- Standardized interview preparation
+- Tailored questions for each candidate
+- Multi-stage interview planning
+- Reduced manual CV review time
+
+### Potential Applications
+- **Recruitment App**: Auto-fetch CVs from LinkedIn, compare to JD, shortlist candidates
+- **Talent Acquisition**: High-volume screening
+- **Executive Search**: Detailed analysis for senior roles
+- **Internal Promotions**: Compare internal candidates objectively
+
+---
+
+## NotebookLM Features Used
+
+### Data Extraction
+- PDF parsing
+- Multi-document analysis
+- Database storage
+- Context retention across queries
+
+### Analysis Capabilities
+- Benchmarking CVs against JD
+- Scoring algorithms
+- Strengths/weaknesses identification
+- Context-aware question generation
+
+### Free Tier
+- ✅ Free to use
+- No usage limits mentioned
+- Suitable for individual hiring managers
+
+---
+
+## Productivity Impact
+
+**Time Savings**:
+- Manual screening: ~2-3 hours for 20-25 CVs
+- With NotebookLM: ~5-10 minutes
+- **Estimated savings**: 90%+ time reduction
+
+**Quality Improvements**:
+- Objective scoring
+- Consistent evaluation
+- Comprehensive question preparation
+- Less human bias
+
+---
+
+## Future Enhancement Ideas
+
+### Potential Features
+1. **LinkedIn Integration**: Auto-import CVs from job posts
+2. **ATS Integration**: Connect with Applicant Tracking Systems
+3. **Custom Scoring Models**: Adjust weighting for different criteria
+4. **Video Interview Prep**: Generate video interview questions
+5. **Offer Letter Generation**: Auto-draft offers for selected candidates
+
+### Production App Architecture
+- Frontend: Web/mobile interface
+- Backend: Gemini or frontier AI model
+- Integrations: LinkedIn, ATS, Email
+- Features: Auto-fetch, compare, shortlist, notify
+
+---
+
+## Best Practices
+
+### For Best Results
+1. **Clear Job Description**: Well-defined requirements improve matching
+2. **Consistent CV Format**: PDFs work best
+3. **Specific Prompts**: Be clear about what you want (e.g., "top 5", "with scores")
+4. **Review AI Output**: Always verify AI recommendations
+5. **Customize Questions**: Tailor AI-generated questions to your needs
+
+### What to Avoid
+- Relying solely on AI scores without human review
+- Uploading sensitive data without permission
+- Using AI for final hiring decisions (use as assistant, not decision-maker)
+
+---
+
+## Other NotebookLM Use Cases Mentioned
+
+### Financial Statement Analysis
+- Upload financial documents
+- Generate analysis reports
+- Compare multiple periods
+- Identify trends
+
+(Covered in another video by creator)
+
+---
+
+## Department
+
+MKT (Marketing) / AID (AI & Automation)
+
+---
+
+## Priority
+
+Medium-High
+
+---
+
+## Notes
+
+Excellent practical demonstration of NotebookLM for recruitment workflows. Free tool with powerful CV screening capabilities. Key strength: Generates both general and candidate-specific interview questions based on actual CV content. Objective scoring (0-100) reduces human bias. Time savings: 90%+ for initial screening. Perfect for hiring managers with high-volume recruitment. Limitations: Still requires human judgment for final decisions. Potential: Could be developed into full recruitment SaaS with LinkedIn integration. Use cases extend beyond hiring (financial analysis, research, etc.). Gemini 2.0 performs well on document analysis and context retention. No coding required - simple prompt-based workflow.

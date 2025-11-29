@@ -1,0 +1,158 @@
+========================================
+WEEK 4 INDIVIDUAL PLANS GENERATION SUMMARY
+Generated: November 28, 2025
+========================================
+
+TOTAL EMPLOYEES WITH PLANS: 10
+TOTAL PLANS.MD FILES CREATED: 10
+SUCCESS RATE: 100%
+
+========================================
+SUCCESSFULLY CREATED FILES:
+========================================
+
+1. KIZILOVA OLHA (Employee ID: 178)
+   Department: CRM (Dev Nov25)
+   File: C:\Users\Dell\Dropbox\Nov25\Dev Nov25\Olya\Week_4\28\plans.md
+   Total Tasks: 3 (HIGH: 1, MEDIUM: 2, LOW: 0)
+   Status: 2 Not Started, 1 In Progress
+
+2. ARTEMCHUK NIKOLAY (Employee ID: 37226)
+   Department: Marketing (Marketing Nov25)
+   File: C:\Users\Dell\Dropbox\Nov25\Marketing Nov25\Nikolay\Week_4\28\plans.md
+   Total Tasks: 15 (HIGH: 7, MEDIUM: 6, LOW: 2)
+   Status: 8 Not Started, 6 In Progress, 1 Completed
+
+3. SKRYPKAR VILHELM (Employee ID: 333)
+   Department: Designers (Design Nov25)
+   File: C:\Users\Dell\Dropbox\Nov25\Design Nov25\Vilhelm\Week_4\28\plans.md
+   Total Tasks: 4 (HIGH: 0, MEDIUM: 3, LOW: 1)
+   Status: 4 Not Started
+
+4. PODOLSKYI SVIATOSLAV (Employee ID: 299)
+   Department: Videographers (Video Nov25)
+   File: C:\Users\Dell\Dropbox\Nov25\Video Nov25\Sviatoslav\Week_4\28\plans.md
+   Total Tasks: 2 (HIGH: 0, MEDIUM: 2, LOW: 0)
+   Status: 2 Not Started
+
+5. KOVALSKA ANASTASIYA (Employee ID: 45405)
+   Department: Managers - HR (HRM Nov25)
+   File: C:\Users\Dell\Dropbox\Nov25\HRM Nov25\Anastasiya\Week_4\28\plans.md
+   Total Tasks: 6 (HIGH: 2, MEDIUM: 4, LOW: 0)
+   Status: 6 Not Started
+
+6. DANYLENKO LILIIA (Employee ID: 72754)
+   Department: Developers (Dev Nov25)
+   File: C:\Users\Dell\Dropbox\Nov25\Dev Nov25\Liliia\Week_4\28\plans.md
+   Total Tasks: 5 (HIGH: 2, MEDIUM: 2, LOW: 1)
+   Status: 4 Not Started, 1 In Progress
+
+7. PEREDERII VLADISLAV (Employee ID: 86246)
+   Department: Marketers (Marketing Nov25)
+   File: C:\Users\Dell\Dropbox\Nov25\Marketing Nov25\Vladislav\Week_4\28\plans.md
+   Total Tasks: 3 (HIGH: 0, MEDIUM: 3, LOW: 0)
+   Status: 1 Not Started, 2 In Progress
+
+8. BURDA ANNA (Employee ID: 84138)
+   Department: Managers - Lead Gen (LG Nov25)
+   File: C:\Users\Dell\Dropbox\Nov25\LG Nov25\Anna\Week_4\28\plans.md
+   Total Tasks: 1 (HIGH: 0, MEDIUM: 1, LOW: 0)
+   Status: 1 Not Started
+
+9. SHKINDER KSENIIA (Employee ID: 87157)
+   Department: Managers - Lead Gen (LG Nov25)
+   File: C:\Users\Dell\Dropbox\Nov25\LG Nov25\Ksenia\Week_4\28\plans.md
+   Total Tasks: 1 (HIGH: 0, MEDIUM: 1, LOW: 0)
+   Status: 1 Not Started
+
+10. BINDIAK DANA (Employee ID: 87396)
+    Department: Managers - Lead Gen (LG Nov25)
+    File: C:\Users\Dell\Dropbox\Nov25\LG Nov25\Dana\Week_4\28\plans.md
+    Total Tasks: 1 (HIGH: 0, MEDIUM: 1, LOW: 0)
+    Status: 1 Not Started
+
+========================================
+DEPARTMENT BREAKDOWN:
+========================================
+
+Marketing Nov25: 2 employees (Nikolay, Vladislav)
+Dev Nov25: 2 employees (Olya, Liliia)
+Design Nov25: 1 employee (Vilhelm)
+Video Nov25: 1 employee (Sviatoslav)
+HRM Nov25: 1 employee (Anastasiya)
+LG Nov25: 3 employees (Anna, Ksenia, Dana)
+
+========================================
+TASK STATISTICS SUMMARY:
+========================================
+
+TOTAL TASKS ACROSS ALL EMPLOYEES: 41
+
+Priority Distribution:
+- HIGH Priority: 14 tasks (34.1%)
+- MEDIUM Priority: 23 tasks (56.1%)
+- LOW Priority: 4 tasks (9.8%)
+
+Status Distribution:
+- Not Started: 30 tasks (73.2%)
+- In Progress: 10 tasks (24.4%)
+- Completed: 1 task (2.4%)
+
+========================================
+CRITICAL FRIDAY DEADLINES (281125):
+========================================
+
+EMPLOYEES WITH TODAY DEADLINES:
+1. Artemchuk Nikolay - EXEC-PRIORITY-1: Split Taxonomy into People File (HIGH - DUE TODAY)
+2. Kovalska Anastasiya - HRM-EXEC-1: Send Onboarding Letters (HIGH - DUE FRIDAY)
+3. Kovalska Anastasiya - TSK-023: Send Onboarding Letter Before Start (HIGH - DUE FRIDAY)
+4. Danylenko Liliia - DEV-EXEC-2: Identify Available Developers (HIGH - DUE FRIDAY AFTERNOON)
+
+========================================
+BLOCKING TASKS IDENTIFIED:
+========================================
+
+1. TSK-002 (Olya) - Blocks employee integration system
+2. EXEC-PRIORITY-1 (Nikolay) - Blocks employee directory matching
+3. TSK-020 (Liliia) - Blocks TSK-019 (Vilhelm's website design)
+4. DEV-EXEC-1 (Liliia) - Blocks Research App development
+5. TSK-014 (Vilhelm) - Blocks TSK-015 (Sviatoslav's video production)
+6. TSK-018 (Anastasiya) - Blocks TSK-022 (candidate listings)
+
+========================================
+CROSS-DEPARTMENT DEPENDENCIES:
+========================================
+
+Design → Development:
+- Vilhelm (TSK-019) waiting on Liliia (TSK-020) sitemap export
+
+Design → Video:
+- Sviatoslav (TSK-015) waiting on Vilhelm (TSK-014) illustrations
+
+Marketing → HR → Design → Dev:
+- Website update project (rem-s.com) requires coordination across all departments
+
+========================================
+NOTES:
+========================================
+
+- All files created successfully in existing directory structures
+- No folder creation issues encountered
+- No fallback locations needed
+- All plans.md files follow standardized template format
+- Each file includes task summaries, priority breakdowns, and Monday carryforward notes
+- Critical deadlines and blockers clearly highlighted for each employee
+
+========================================
+NEXT ACTIONS:
+========================================
+
+1. Distribute plans.md files to respective employees
+2. Monitor Friday deadline compliance for 4 critical tasks
+3. Follow up on blocking tasks to prevent workflow bottlenecks
+4. Review cross-department dependencies for coordination needs
+5. Update on Monday, December 2, 2025
+
+========================================
+FILE GENERATION COMPLETED: November 28, 2025
+========================================

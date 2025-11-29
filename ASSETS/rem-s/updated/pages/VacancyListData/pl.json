@@ -1,0 +1,101 @@
+{
+  "title": "Aktualne oferty pracy zdalnej",
+  "createdAt": "2023-05-11T13:01:42.736Z",
+  "updatedAt": "2025-11-28T13:33:05.608Z",
+  "locale": "pl",
+  "placeholder": "Poszukiwania pracy",
+  "headerPlaceholder": "Szukanie słowa kluczowego. Na przykład specjalista SEO",
+  "mobileHeaderPlaceholder": "Szukaj według specjalności",
+  "categoriesTitle": "Wybierz kategorię",
+  "salary": "Wynagrodzenie uzależnione od wyników rozmowy kwalifikacyjnej",
+  "button": "Więcej",
+  "isHotValue": "Gorąca",
+  "hotVacancies": "Gorący",
+  "allVacancies": "Wszystko",
+  "oopsTitle": null,
+  "oopsDescription": null,
+  "localizations": {
+    "data": [
+      {
+        "id": 5,
+        "attributes": {
+          "title": "Aktuálne voľné miesta na diaľku",
+          "createdAt": "2023-05-12T08:58:50.220Z",
+          "updatedAt": "2023-05-12T08:58:50.220Z",
+          "locale": "sk",
+          "placeholder": "Hľadanie práce",
+          "headerPlaceholder": "Vyhľadávanie podľa kľúčových slov. Napríklad SEO špecialista",
+          "mobileHeaderPlaceholder": "Hľadajte podľa špecializácie",
+          "categoriesTitle": "Vyberte kategóriu",
+          "salary": "Plat na základe výsledkov pohovoru",
+          "button": "Viac",
+          "isHotValue": "Horúce",
+          "hotVacancies": "Horúce",
+          "allVacancies": "Všetko",
+          "oopsTitle": null,
+          "oopsDescription": null
+        }
+      },
+      {
+        "id": 1,
+        "attributes": {
+          "title": "Текущие удаленные вакансии",
+          "createdAt": "2023-04-18T01:00:00.104Z",
+          "updatedAt": "2025-11-28T13:33:06.223Z",
+          "locale": "ru",
+          "placeholder": "Поиск работы",
+          "headerPlaceholder": "Поиск по ключевым словам. Например, SEO специалист",
+          "mobileHeaderPlaceholder": "Поиск по специальности",
+          "categoriesTitle": "Выберите категорию",
+          "salary": "Заработная плата по результатам собеседования",
+          "button": "Подробнее",
+          "isHotValue": "Горячая",
+          "hotVacancies": "Горячие",
+          "allVacancies": "Все",
+          "oopsTitle": "Упсс!",
+          "oopsDescription": "Похоже, что по твоему запросу ничего не найдено"
+        }
+      },
+      {
+        "id": 2,
+        "attributes": {
+          "title": "Поточні віддалені вакансії",
+          "createdAt": "2023-04-18T01:00:17.739Z",
+          "updatedAt": "2025-11-28T13:33:04.990Z",
+          "locale": "uk",
+          "placeholder": "Пошук роботи",
+          "headerPlaceholder": "Пошук за ключовими словами. Наприклад, SEO спеціаліст",
+          "mobileHeaderPlaceholder": "Пошук за спеціалізацією",
+          "categoriesTitle": "Оберіть категорію",
+          "salary": "Заробітна плата за результатами співбесіди",
+          "button": "Детальніше",
+          "isHotValue": "Гаряча",
+          "hotVacancies": "Гарячі",
+          "allVacancies": "Усі",
+          "oopsTitle": "Упсс!",
+          "oopsDescription": "Схоже, що за твоїм запитом нічого не знайдено"
+        }
+      },
+      {
+        "id": 3,
+        "attributes": {
+          "title": "Current remote vacancies",
+          "createdAt": "2023-04-18T03:01:10.013Z",
+          "updatedAt": "2025-11-28T13:33:04.376Z",
+          "locale": "en",
+          "placeholder": "Job search",
+          "headerPlaceholder": "Search by keywords. For example, SEO specialist",
+          "mobileHeaderPlaceholder": "Search by specialization",
+          "categoriesTitle": "Choose category",
+          "salary": "Salary according to interview results",
+          "button": "View details",
+          "isHotValue": "Hot",
+          "hotVacancies": "Hot",
+          "allVacancies": "All",
+          "oopsTitle": "Oops!",
+          "oopsDescription": "It seems, that there is no matches by your request"
+        }
+      }
+    ]
+  }
+}

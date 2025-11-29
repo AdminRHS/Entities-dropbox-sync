@@ -1,0 +1,656 @@
+WEEK 4 EXECUTIVE REPORTS - RAW EXTRACTION LOG
+Date: 2025-11-28 (Friday)
+Framework: MAIN_PROMPT_v7.1
+Processor: AI Analysis System
+
+================================================================================
+REPORTS PROCESSED
+================================================================================
+
+Report 1: 241125_Analysis_COMPREHENSIVE.md
+Status: NOT FOUND
+Tasks: 0
+
+Report 2: 251125_Analysis_COMPREHENSIVE.md
+Status: NOT FOUND
+Tasks: 0
+
+Report 3: 261125_Analysis_COMPREHENSIVE.md
+Status: NOT FOUND
+Tasks: 0
+
+Report 4: 271125_Analysis_v7.1_COMPREHENSIVE.md
+Status: PROCESSED
+Lines: 1,504
+Tasks: 47 (32 TSK + 8 MLT + 7 PRT)
+
+Report 5: 281125.md
+Status: PROCESSED
+Lines: 1,370
+Tasks: 24 (4 EXEC-PRIORITY + 4 EXECUTIVE + 4 INITIATIVE + 12 Dept-EXEC)
+
+================================================================================
+EMPLOYEE DIRECTORY ANALYSIS
+================================================================================
+
+Total Employees: 79
+Status Breakdown:
+- Work: 13 employees
+- Project: 30 employees
+- Available: 14 employees
+- Part Project + Part Project: 2 employees
+- Part Project + Part Time: 2 employees
+- Full Project + Part Time: 1 employee
+- Left: 3 employees
+- Fired: 12 employees
+- Pending: 2 employees
+
+Active Employees Used (Status = "Work"):
+1. 178 - Kizilova Olha - CRM/Developers - Back End Developer, Head of
+2. 299 - Podolskyi Sviatoslav - Videographers - Video Editor, Team Lead
+3. 37226 - Artemchuk Nikolay - Marketing - Project Manager, Head of
+4. 39412 - Ponomarova Kateryna - Managers - Financial Manager
+5. 45810 - Yelisieieva Daria - Managers - Financial Manager, Team Lead
+6. 45405 - Kovalska Anastasiya - Managers - Sales Manager
+7. 72754 - Danylenko Liliia - Developers - Full Stack Developer
+8. 72889 - Nealova Evgeniya - Managers - Recruiter
+9. 88105 - Pasichna Anastasiia - Managers - Recruiter
+10. 83953 - Rekonvald Viktoriya - Managers - Recruiter
+11. 84138 - Burda Anna - Managers - Lead Generator, Team Lead
+12. 87157 - Shkinder Kseniia - Managers - Lead Generator, Team Lead
+
+Additional "Available" Used:
+13. 333 - Skrypkar Vilhelm - Designers - Illustrator, Team Lead
+14. 86246 - Perederii Vladislav - Marketers - Prompt Engineer
+15. 87396 - Bindiak Dana - Managers - Lead Generator, Team Lead
+
+================================================================================
+TASK EXTRACTION - 271125 REPORT
+================================================================================
+
+TSK-001: Share Accounts Entity with Olya (Dropbox)
+- Department: HRM + AID
+- Status: New / Assigned
+- Evidence: Line 2
+- Priority: MEDIUM
+
+TSK-002: Start Integrating Separate Dropboxes for Employees
+- Department: AID + HRM
+- Status: In Progress
+- Evidence: Lines 3, 22 (Next Day Tasks)
+- Priority: HIGH
+
+TSK-003: Start Distributing Tasks Among Employees
+- Department: AID + All Departments
+- Status: New
+- Evidence: Line 4
+- Substeps: Lines 5-7 (verify, generate, upload)
+- Priority: MEDIUM
+
+TSK-004: Start Integrating Personal Accounts for Employees
+- Department: AID + HRM
+- Status: New
+- Evidence: Line 8
+- Priority: MEDIUM
+
+TSK-005: Start Asking to Open Specific Emails from Employees
+- Department: AID + HRM
+- Status: New
+- Evidence: Line 9
+- Purpose: Email warm-up system
+- Priority: MEDIUM
+
+TSK-006: LinkedIn Automations Research
+- Department: MKT + AID
+- Status: In Progress
+- Evidence: Lines 13-16
+- Steps: Posting, Receiving Messages, Scraping
+- Priority: MEDIUM
+
+TSK-007: GPT Agent Creation (Additional Research)
+- Department: AID + DEV
+- Status: New
+- Evidence: Lines 17-18
+- Priority: LOW
+
+TSK-008: VS Code Agent Mode Research
+- Department: DEV + AID
+- Status: New
+- Evidence: Line 75
+- Priority: LOW
+
+TSK-009: Browser Control Deep Research
+- Department: DEV + AID
+- Status: New
+- Evidence: Line 59
+- Priority: LOW
+
+TSK-010: Strapi-VSCode Connection Research
+- Department: DEV
+- Status: New
+- Evidence: Line 60
+- Priority: LOW
+
+TSK-011: Google AI Studio Research (Gemini 3 Pro)
+- Department: DEV + AID
+- Status: New
+- Evidence: Lines 77-80
+- Priority: LOW
+
+TSK-012: Extract Taxonomy by Department
+- Department: AID + All Departments
+- Status: COMPLETED ✅
+- Evidence: Lines 29-32
+- Deliverable: 7 files created
+- Priority: MEDIUM
+
+TSK-013: Create Prompt for Terminology Analysis
+- Department: AID
+- Status: COMPLETED ✅
+- Evidence: Line 30
+- Deliverable: AI_PROMPT_For_Content_Generation.md (529 lines)
+- Priority: MEDIUM
+
+TSK-014: Create Posts Based on Terminology
+- Department: DGN (Design) + MKT
+- Status: New (Ready for execution)
+- Evidence: Lines 35-37
+- Steps: Department Style, Mascot Assignments (5 mascots)
+- Priority: MEDIUM
+
+TSK-015: Create Videos With Terminology
+- Department: VID (Videographers)
+- Status: New
+- Evidence: Line 42
+- Reference: Video script templates
+- Priority: MEDIUM
+
+TSK-016: Illustrate Each Terminology Concept (Designers)
+- Department: DGN
+- Status: New
+- Evidence: Line 101-104 (Russian transcript)
+- Purpose: Visual learning, memory retention
+- Priority: MEDIUM
+
+TSK-017: Update Website rem-s.com
+- Department: HRM + DGN + DEV
+- Status: In Progress
+- Evidence: Line 45
+- Priority: MEDIUM
+
+TSK-018: HR - Choose Pages for Website
+- Department: HRM
+- Status: New
+- Evidence: Line 46
+- Substep: Create Plan what is needed
+- Priority: MEDIUM
+
+TSK-019: Designers - Update Designs on REMS
+- Department: DGN
+- Status: New
+- Evidence: Lines 49-50
+- Prep: Export Site Map (Line 51)
+- Priority: MEDIUM
+
+TSK-020: Export WordPress Sitemap
+- Department: DEV
+- Status: New
+- Evidence: Lines 152-154
+- Priority: MEDIUM
+
+TSK-021: Rewrite All Website Content
+- Department: MKT + HRM
+- Status: New
+- Evidence: Lines 147-148
+- Goal: Make site "delicious"
+- Priority: MEDIUM
+
+TSK-022: Expand Candidate Listings on Website
+- Department: HRM
+- Status: New
+- Evidence: Lines 147-148
+- Requirement: 10+ candidates per request
+- Priority: MEDIUM
+
+TSK-023: Send Onboarding Letter Before Start
+- Department: HRM
+- Status: New / Assigned
+- Evidence: Interviews.md lines 37-39
+- Applies To: 11 new candidates (271125)
+- Priority: HIGH
+
+TSK-024: Download and Use Comet Browser (All Staff)
+- Department: All Departments
+- Status: New / Company-Wide
+- Evidence: Line 39
+- Note: ALL: company-wide requirement
+- Priority: MEDIUM
+
+TSK-025: Create Plan Distribution Table (Task Tracking)
+- Department: AID
+- Status: New
+- Evidence: Line 150
+- Purpose: Track progress
+- Priority: MEDIUM
+
+TSK-026: Create Daily Report Processing Cycle
+- Department: AID
+- Status: In Progress
+- Evidence: Lines 181-182
+- Context: Tomorrow create cycle
+- Priority: HIGH (CRITICAL)
+
+TSK-027: Develop Company Email Warm Up System
+- Department: DEV + AID
+- Status: New
+- Evidence: Lines 70-72
+- Steps: Send warm up emails, reminders with tasks
+- Priority: MEDIUM
+
+TSK-028: Get Trial Modes on Emails (GPT Agent LinkedIn Trial)
+- Department: AID
+- Status: New
+- Evidence: Lines 66-67
+- Priority: LOW
+
+TSK-029: Create Prompt for Building Research App
+- Department: DEV + AID
+- Status: New
+- Evidence: Lines 77-80
+- Platform: Google AI Studio, Gemini 3 Pro
+- Priority: MEDIUM
+
+TSK-030: MCP Integration with VSCode Research
+- Department: DEV
+- Status: New
+- Evidence: Line 158
+- Purpose: Model Context Protocol
+- Priority: LOW
+
+TSK-031: Pack Steps and CheckLists into Guides
+- Department: AID + All Departments
+- Status: New
+- Evidence: Lines 183-184
+- Purpose: Reusable guide templates (GDS-###)
+- Priority: LOW
+
+TSK-032: Create HR Experiments - Event Days and Weeks
+- Department: HRM + AID
+- Status: New
+- Evidence: Lines 186-192
+- Examples: Quiet Wednesday, Friday Weekly Planning
+- Priority: LOW
+
+MILESTONES (8 MLT-###):
+
+MLT-NEW-001: Marketing Automation Research
+- Project: PRT-NEW-004
+- Department: MKT + AID
+- Contains: TSK-006, TSK-028
+- Status: In Progress
+- Duration: 2-3 weeks
+
+MLT-NEW-002: Terminology Content Creation
+- Project: PRT-NEW-001
+- Department: DGN + VID + MKT
+- Contains: TSK-012 ✅, TSK-013 ✅, TSK-014, TSK-015, TSK-016
+- Status: Partially Complete (2 of 5)
+- Duration: 1-2 weeks
+
+MLT-NEW-003: Website Overhaul (rem-s.com)
+- Project: PRT-NEW-002
+- Department: HRM + DGN + DEV
+- Contains: TSK-017, TSK-018, TSK-019, TSK-020, TSK-021, TSK-022
+- Status: In Progress
+- Duration: 3-4 weeks
+
+MLT-NEW-004: Candidate Onboarding Nov 2025
+- Project: PRT-NEW-005
+- Department: HRM
+- Contains: TSK-023
+- Candidates: 11 total
+- Status: New
+- Duration: 1 week
+
+MLT-NEW-005: Email Automation System
+- Project: PRT-NEW-006
+- Department: DEV + AID
+- Contains: TSK-027, TSK-028
+- Status: New
+- Duration: 2 weeks
+
+MLT-NEW-006: Task Manager Architecture Enhancement
+- Project: PRT-NEW-007
+- Department: AID + All Departments
+- Contains: TSK-031, TSK-032
+- Status: New
+- Duration: 2-3 weeks
+
+MLT-NEW-007: Deep Research Initiatives
+- Project: PRT-NEW-004
+- Department: DEV + AID
+- Contains: TSK-007, TSK-008, TSK-009, TSK-010, TSK-011, TSK-029, TSK-030
+- Status: New
+- Duration: 4-6 weeks
+
+MLT-NEW-008: Employee System Integration
+- Project: PRT-NEW-003
+- Department: AID + HRM
+- Contains: TSK-001, TSK-002, TSK-003, TSK-004, TSK-005, TSK-024, TSK-025, TSK-026
+- Status: In Progress
+- Duration: 2-3 weeks
+
+PROJECTS (7 PRT-###):
+
+PRT-NEW-001: Terminology Teaching Program
+- Status: COMPLETED ✅
+- Owner: AID + DGN + All Departments
+- Deliverables: 7 markdown files
+- Date: 271125
+
+PRT-NEW-002: Website Update (rem-s.com)
+- Status: In Progress
+- Owner: HRM + DGN + DEV
+- Purpose: Recruitment site overhaul
+
+PRT-NEW-003: Employee Account Integration System
+- Status: In Progress
+- Owner: AID + HRM
+- Purpose: Separate Dropbox, task distribution
+
+PRT-NEW-004: Research Initiatives
+- Status: In Progress
+- Owner: DEV + AID
+- Multiple research tasks
+
+PRT-NEW-005: HR Onboarding
+- Status: New
+- Owner: HRM
+- 11 candidates
+
+PRT-NEW-006: Email Systems
+- Status: New
+- Owner: DEV + AID
+- Email automation
+
+PRT-NEW-007: Task Manager Enhancement
+- Status: New
+- Owner: AID + All Departments
+- Architecture improvements
+
+================================================================================
+TASK EXTRACTION - 281125 REPORT (FRIDAY PLANNING)
+================================================================================
+
+EXECUTIVE DEPARTMENT TASKS:
+
+EXECUTIVE-1: Build Executive Department Structure
+- Participants: Niko, Stas, Kolya Artemchuk, Olya + Secondary Dept Staff
+- Status: New - Starting today
+- Priority: HIGH (PRIMARY FOCUS)
+- Deliverables: Org chart, role definitions, authority matrix
+
+EXECUTIVE-2: Weekly Summary and Planning Session
+- Participants: Executive Team
+- Status: Recurring - Every Friday
+- Source: GDS-004
+- Priority: HIGH (FRIDAY RITUAL)
+- Output: Week_4_Summary.md, Week_5_Plan.md
+
+EXECUTIVE-3: Review & Process Week 4 Daily Reports
+- Assignee: Niko (Executive oversight)
+- Status: In Progress - Critical Friday
+- Steps: Copy summaries, match plans, extract knowledge
+- Priority: HIGH
+
+EXECUTIVE-4: Daily Report Processing Cycle Implementation (TSK-026)
+- Assignee: Niko
+- Status: Critical - Must implement today
+- Context: Create cycle for report → task generation
+- Priority: HIGH (CRITICAL)
+
+EXECUTIVE PRIORITIES (Niko):
+
+EXEC-PRIORITY-1: Taxonomy People File Split
+- Assignee: Niko
+- Status: DATE-SPECIFIC (281125)
+- Purpose: Separate employee data from taxonomy
+- Priority: HIGH
+
+EXEC-PRIORITY-2: Put Overview into Stas Folder
+- Assignee: Niko
+- Status: New
+- Purpose: Concise TODO plans for Stas
+- Priority: MEDIUM
+
+EXEC-PRIORITY-3: Week 4 Daily Reports Review
+- Assignee: Niko
+- Source: Notes.md Lines 46-50
+- Status: In Progress
+- Priority: HIGH
+
+EXEC-PRIORITY-4: System Prompt Upgrade (MainPrompt_v7.2)
+- Assignee: Niko
+- Updates: Conciseness rule, chat log storage
+- Priority: MEDIUM
+
+STRATEGIC INITIATIVES:
+
+INITIATIVE-1: Online Academy Platform
+- Owner: Niko (Executive/AID)
+- Status: New - Planning phase
+- Components: 5 (ShortCuts, Screenshots Recogniser, WorkSpace Editor, Lovable Apps, AI Studio Sketches)
+- Priority: LOW
+
+INITIATIVE-2: Prompts Ecosystem Development
+- Owner: Niko
+- Location: ENTITIES\PROMPTS
+- Status: New - Development planning
+- Purpose: Track prompt creation
+- Priority: LOW
+
+INITIATIVE-3: Research App - Enhanced Specification
+- Owner: Kolya Artemchuk + Dev Lead
+- Status: In Progress - Requirements finalization
+- Platform: Desktop (Windows preferred) vs Web vs Mobile
+- Components: Queue Management + Video Processing
+- Priority: MEDIUM
+
+INITIATIVE-4: All Employees - MainPrompt 7.1 Upgrade
+- Owner: Niko
+- Status: Critical - Friday implementation
+- Task: Add Chat Log Contents to MainPrompt 7.1
+- Priority: HIGH
+
+DEPARTMENT EXECUTIVE TASKS:
+
+HRM-EXEC-1: Send Onboarding Letters to 11 Candidates
+- Assignee: Olya + HR Team
+- Deadline: Before end of day Friday
+- Status: Urgent
+- Priority: HIGH (URGENT)
+
+HRM-EXEC-2: Process 24.11 Interview Transcriptions
+- Assignee: Olya (Executive oversight)
+- Task: 14 days of calls
+- Steps: Download, create prompt, store
+- Priority: MEDIUM
+
+HRM-EXEC-3: Website Planning - Executive Strategy Session
+- Assignee: Olya + Lead Gen Team Leads
+- Source: Notes.md Line 24
+- Task: View REM-S.com update plan
+- Priority: MEDIUM
+
+DGN-EXEC-1: Terminology Content Planning Session
+- Assignee: Design Team Lead
+- Status: Friday Planning (Not Execution)
+- Review: Terminology Teaching materials
+- Priority: MEDIUM
+
+DGN-EXEC-2: Design Department Documentation Requirements
+- Assignee: Design Team Lead
+- Status: New - Friday planning
+- Task: Define design dept documentation
+- Priority: LOW
+
+DEV-EXEC-1: Research App Requirements Definition
+- Assignee: Niko + Kolya Artemchuk
+- Friday: Platform decision needed
+- Platform: Desktop vs Web vs Mobile
+- Priority: HIGH
+
+DEV-EXEC-2: Identify Available Developers for Next Week
+- Assignee: Kolya Artemchuk
+- Status: Friday Afternoon Priority
+- Task: Check directory, match skills, assign
+- Priority: HIGH (FRIDAY AFTERNOON)
+
+DEV-EXEC-3: Prompts App Integration Planning
+- Assignee: TBD Friday + Niko
+- Location: ENTITIES\PROMPTS
+- Status: New - Week 5 planning
+- Priority: MEDIUM
+
+LGN-EXEC-1: Website Update Plan (RH-S.com + REM-S.com)
+- Assignee: Anna Burda, Ksenia, Diana (Team Leads)
+- Task: Build Site Map with AI
+- Priority: MEDIUM
+
+LGN-EXEC-2: Sales Trainee Organization
+- Assignee: LG Team Leads
+- Task: Assign sales trainees, add profession
+- Priority: MEDIUM
+
+VID-EXEC-1: Terminology Video Series Planning
+- Assignee: Video Team Lead
+- Status: Friday Planning (Execution Monday)
+- Review: PMT-003, PMT-009
+- 10-Video Series
+- Priority: MEDIUM
+
+MKT-EXEC-1: LinkedIn Automation Research Summary
+- Assignee: Marketing Team Lead
+- Task: Consolidate week's research
+- Present: Monday to executive team
+- Priority: MEDIUM
+
+SMM-EXEC-1: Content Development Plan from OAY
+- Assignee: SMM Team Lead
+- Source: Notes.md Lines 25-33
+- Task: Source content from Online Academy
+- Priority: MEDIUM
+
+SMM-EXEC-2: Video Tutorials Research Assignment
+- Assignee: SMM Team
+- Source: Notes.md Lines 20-22
+- Task: Artlist.io tutorials research
+- Link: https://artlist.io/
+- Priority: LOW
+
+ALL-EXEC-1: Comet Browser Rollout
+- Assignee: Niko (directive) - All staff
+- Task: Company-wide download
+- Deadline: Monday
+- Priority: MEDIUM
+
+================================================================================
+ASSIGNMENT SUMMARY
+================================================================================
+
+ASSIGNED TASKS (45):
+- Kizilova Olha (178): 3 tasks
+- Podolskyi Sviatoslav (299): 2 tasks
+- Artemchuk Nikolay (37226): 19 tasks (Executive + MKT)
+- Kovalska Anastasiya (45405): 6 tasks (HRM)
+- Danylenko Liliia (72754): 5 tasks (DEV)
+- Skrypkar Vilhelm (333): 4 tasks (DGN)
+- Perederii Vladislav (86246): 3 tasks (MKT)
+- Burda Anna (84138): 1 task (LGN)
+- Shkinder Kseniia (87157): 1 task (LGN)
+- Bindiak Dana (87396): 1 task (LGN)
+
+UNASSIGNED TASKS (26):
+- AID department: 8 tasks (no active employees)
+- SMM department: 2 tasks (need assignment)
+- ALL company-wide: 2 tasks
+- DEV unassigned: 3 tasks (need developer)
+- HRM unassigned: 1 task
+- Milestones/Projects: 8 tasks
+- LGN unassigned: 1 task
+- Future planning: 1 task
+
+================================================================================
+PRIORITY BREAKDOWN
+================================================================================
+
+HIGH PRIORITY (22 tasks):
+- Friday deadline or critical
+- Executive priorities
+- URGENT onboarding
+- Critical dependencies
+
+MEDIUM PRIORITY (36 tasks):
+- Week 5 deadline
+- Department planning
+- Content creation
+- Website updates
+
+LOW PRIORITY (13 tasks):
+- Future planning
+- Deep research
+- Strategic initiatives
+
+================================================================================
+STATUS BREAKDOWN
+================================================================================
+
+Not Started: 60 tasks (85%)
+In Progress: 9 tasks (13%)
+Completed: 2 tasks (3%)
+
+================================================================================
+DEPENDENCIES
+================================================================================
+
+CRITICAL BLOCKERS:
+- TSK-026 blocks automated task distribution
+- TSK-002 blocks employee account integration
+- EXEC-PRIORITY-1 blocks employee matching
+- EXECUTIVE-1 blocks secondary department assignments
+- DEV-EXEC-2 blocks development projects
+- TSK-014 blocks video production
+
+SEQUENTIAL:
+- TSK-020 → TSK-019 → TSK-021 (Website)
+- TSK-012/13 → TSK-014 → TSK-015 (Content)
+
+================================================================================
+FILES CREATED
+================================================================================
+
+1. Master_Employee_Assignment_Tracker.csv
+   Location: C:\Users\Dell\Dropbox\ENTITIES\DAILIES\PLANS\Week_4\
+   Records: 45 assigned tasks
+
+2. Unassigned_Tasks.csv
+   Location: C:\Users\Dell\Dropbox\ENTITIES\DAILIES\PLANS\Week_4\
+   Records: 26 unassigned tasks
+
+3. 281125_Assignment_Process_Log.md
+   Location: C:\Users\Dell\Dropbox\ENTITIES\DAILIES\LOG\Week_4\
+   Content: Detailed narrative log (~3,500 words)
+
+4. 281125_Extraction_Log.txt
+   Location: C:\Users\Dell\Dropbox\ENTITIES\DAILIES\LOG\Week_4\
+   Content: Raw extraction notes (this file)
+
+================================================================================
+END OF EXTRACTION LOG
+================================================================================
+Date: 2025-11-28
+Time: [Current Time]
+Framework: MAIN_PROMPT_v7.1
+Total Tasks: 71
+Assigned: 45
+Unassigned: 26

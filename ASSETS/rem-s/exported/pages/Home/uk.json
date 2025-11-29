@@ -1,0 +1,874 @@
+{
+  "mainScreenTitle": "Хочеш Працювати у сфері IT віддалено?",
+  "mainScreenParagraph": "Аутстафінгова компанія **Remote Employees** пропонує Вам віддалену роботу в нашій компанії з перспективою працевлаштування на міжнародних проєктах. Ми дамо Вам можливість працювати з будь-якої точки світу вже зараз!",
+  "createdAt": "2022-10-28T07:34:29.554Z",
+  "updatedAt": "2025-11-28T14:15:26.998Z",
+  "locale": "uk",
+  "mainScreenButton": "Отримати роботу",
+  "faqTitle": "Запитання - Відповідь",
+  "spheresTitle": "Наші основні сфери діяльності",
+  "partnersTitle": "Компанії, з якими ми працюємо",
+  "testimonialsTitle": "Відгуки",
+  "Faq_Question": [
+    {
+      "id": 2,
+      "Question": "Що таке аутстафінг, аутсорсинг?",
+      "Answer": "Аутстафінг і аутсорсинг - це бізнес-моделі, в яких компанія залучає команду або людину для роботи над конкретним проєктом. В обох випадках фахівці працюють віддалено. Основна відмінність полягає в тому, що під аутсорсингом розуміють підтримку всього проєкту, а під аутстафінгом - наймання та обслуговування окремих співробітників."
+    },
+    {
+      "id": 1,
+      "Question": "Чи потрібен досвід чи профосвіта?",
+      "Answer": "Буде перевагою"
+    },
+    {
+      "id": 3,
+      "Question": "Який рівень англійської потрібен для роботи?",
+      "Answer": "А2 і вище"
+    },
+    {
+      "id": 4,
+      "Question": "Який час роботи?",
+      "Answer": "В нас є денна зміна з 09:00 - 18:00, нічна з 15:00 - 00:00"
+    },
+    {
+      "id": 5,
+      "Question": "Що таке іноземний проєкт і як на нього потрапити?",
+      "Answer": "Наша аутстафінгова компанія надає співробітників на іноземні проєкти. Вони можуть бути різні, починаючи від маркетингу, закінчуючи розробкою – це залежить від замовлення нашого клієнта. Щоб потрапити на нього, насамперед потрібно пройти співбесіду. Для цього потрібен гарний рівень англійської мови, уміння працювати в команді, стресостійкість та досвід роботи на певній посаді. Після того, як пройдете співбесіду, компанія-клієнт видасть вам завдання. Ми допоможемо, направимо і підготуємо вас до проєкту, а наші тімліди завжди готові підказати та надати підтримку."
+    }
+  ],
+  "Testimonials": [
+    {
+      "id": 1,
+      "name": "Тетяна",
+      "Specialization": "Copywriter",
+      "Position": null,
+      "Description": "Робота у Remote Employees дозволила мені значно покращити навички володіння іноземними мовами. Дружній колектив, комфортна атмосфера в офісі, можливість самовдосконалення та гідна винагорода – все це дарує гарний настрій та бажання розвиватись!"
+    },
+    {
+      "id": 2,
+      "name": "Тімур",
+      "Specialization": "Seo Specialist",
+      "Position": null,
+      "Description": "Робота в компанії Remote Employees принесла мені багато позитивних емоцій і колосальний досвід. Дружньо налаштований, молодий колектив дизайнерів, розробників, перекладачів тощо завжди готовий прийти на допомогу незалежно від ситуації. Я впевнений – цей колектив і ця компанія саме те, що необхідно для впевненого швидкого професійного та особистісного росту."
+    },
+    {
+      "id": 3,
+      "name": "Елйар",
+      "Specialization": "Project Manager",
+      "Position": null,
+      "Description": "Приємна атмосфера, доброзичливий та чуйний колектив, до якого ти швидко звикаєш і вже за тиждень почуваєшся як удома. Розуміюче керівництво, з яким можна обговорити будь-яку проблему. Тебе вислухають і завжди підкажуть як вийти із конкретної ситуації. Все це надає впевненості та бажання рухатися вперед."
+    },
+    {
+      "id": 28,
+      "name": "Аліна",
+      "Specialization": "LeadGen",
+      "Position": null,
+      "Description": "Робота в команді Remote Employees дала безцінний досвід, нові знання, нові знайомства. Дуже комфортно працювати з людьми, які з тобою на одній хвилі, завжди тебе зрозуміють, підтримають та допоможуть. Завдяки різним проектам твій рівень англійської стрімко росте, оскільки ти щодня спілкуєшся з іноземними клієнтами. Для себе ти береш в цій компанії максимум можливостей та досвіду, який буде необхідним в кар’єрному рості!"
+    },
+    {
+      "id": 24,
+      "name": "Юля",
+      "Specialization": "Head Of",
+      "Position": null,
+      "Description": "Я потрапила в компанію у пошуках нової роботи, йдучи сюди була не впевнена, бо зовсім не знала що робити, та й формат роботи вдома не вселяв довіри. Як я помилялася)\nЗараз я керівник двох відділів. Мій шлях від звичайного лідген менеджера до тим ліда відділу лідогенерації, потім сейлз менеджера і хед офа був стрімкий, у чому я дуже вдячна компанії та керівництву.\nНе бійтеся пробувати нові професії – бійтеся зненавидженої роботи!\nЯ займаюся роботою, яка приносить мені задоволення, а не тому, що так треба... І звичайно ж це приносить мені стабільний дохід і додатковий бонус, ніж я мотивую себе та свою команду йти далі!)"
+    },
+    {
+      "id": 25,
+      "name": "Юля",
+      "Specialization": "SMM",
+      "Position": null,
+      "Description": "Для мене Remote Employees стала потужною точкою росту. Не перебільшу, коли напишу, що компанія надає просто шалені можливості для професіонального розвитку. Як бонус, ви матимете змогу працювати віддалено в улюбленій піжамці:)) \n\nМолодий колектив, стабільні та гарантовані виплати ЗП, підтримка від керівництва компанії - це все про Remote Employees. Рада бути частинкою вашої компанії уже майже впродовж 2-х років❤️"
+    },
+    {
+      "id": 26,
+      "name": "Інна",
+      "Specialization": "Sales Assistant",
+      "Position": null,
+      "Description": "Працюю у Remote Employees майже 2 роки. Зізнаюся чесно, не думала що затримаюся тут довго, як спочатку не сприймала все всерйоз, + ніколи до цього не працювала віддалено. Починала з лідгена, зараз працюю в сейлз відділі, сейлзи як універсальні солдати – вміють усі! Ця робота виховує в нас відмінні якості, такі як відповідальність, диспілінцю, пунктуальність.\nЯ вважаю, що найкрутіша і відмінна риса нашої компанії це прагнення людей розвиватися і ніколи не стояти на місці! Дуже рада бути тут та працювати з такими крутими людьми!"
+    },
+    {
+      "id": 27,
+      "name": "Данило",
+      "Specialization": "Illustrator",
+      "Position": null,
+      "Description": "Робота в компанії Remote Employees дала мені можливість займатися улюбленою справою у зручному, віддаленому форматі, і при тому бути впевненим у стабільному прибутку. Молодий і дружелюбний колектив, нехай і віддалений, дозволяє позбутись відчуття “самотнього фрілансера на безлюдному острові” - вам завжди є до кого звернутися за порадою і обговорити те, що вас цікавить. А найголовніше те, що компанія Remote Employees дає працівникам можливість працювати із закордонними замовниками - це дуже цікавий і цінний досвід. \n"
+    },
+    {
+      "id": 29,
+      "name": "Анна",
+      "Specialization": "SMM",
+      "Position": null,
+      "Description": "Робота в Remote Employees дала мені дуже багато можливостей для саморозвитку. Я мала змогу розвинути нові навички працюючи як на міжнародних проєктах, так і на внутрішніх, а також завжди знаходила підтримку та взаємопоміч в колективі. Працюючи в компанії я зустріла дуже багато цікавих людей та здобула неоціненний досвід!"
+    },
+    {
+      "id": 30,
+      "name": "Марина",
+      "Specialization": "Recruiter",
+      "Position": null,
+      "Description": "Хочу подякувати компанії Remote Employees за чудовий досвід, мотивуючих керівників, та найкращий колектив! Прийшла в цю компанію на посаду лідогенератора, отримавши знання на цій позиції, компанія та керівники дали мені можливість спробувати себе в відділі рекрутингу, за що я дуже вдячна! У відділі навчили всього з нуля, дали віру в себе, та закохали в цю роботу! До всього цього - завжди вчасно виплачена заробітна платня, що в нинішній час вкрай важливо, як гарант завтрашнього дня. Можу зробити підсумок - дякую компанії, та людям, які в ній працюють."
+    },
+    {
+      "id": 31,
+      "name": "Денис",
+      "Specialization": "LeadGen",
+      "Position": null,
+      "Description": "Дякуємо великої компанії за наданий досвід, нові знайомства, та впевненість у завтрашньому дні. За час роботи побував на багатьох проектах, що допомогло мені охопити більший спектр можливостей та розвинути в собі нові здібності, що надалі [я впевнений] знадобляться у роботі та житті.\nБуду коротко - ДЯКУЮ!"
+    },
+    {
+      "id": 33,
+      "name": "Тетяна",
+      "Specialization": " LeadGen",
+      "Position": null,
+      "Description": "Коли я прийшла в Remote Employees, не було розуміння того чим все ж так займається лідогенератор, але можливість використовувати англійську мову було для мене значним плюсом. Я дуже вдячна компанії за те, що допомогли розібратись в роботі, завдяки чому я маю змогу працювати із закордонними замовниками, що дало мені дуже багато досвіду і навичок, а також впевненості в тому що я зможу це зробити. А безкоштовні уроки англійскої мови дали мені змогу сміливо спілкуватись з замовникоми."
+    },
+    {
+      "id": 45,
+      "name": "Микола",
+      "Specialization": "LeadGen",
+      "Position": null,
+      "Description": "Дуже дякую компанію Remote Employees за те, що допомогла мені освоїти фактично нову професію, а також зробити суттєвий ривок у своїй кар’єрі. Я можу назвати багато переваг роботи у цій компанії, такі як стабільний робочий графік без переробок, стабільна виплата заробітної плати, різноманітні майстер-класи та освітні програми. Окремо хочу подякувати за можливість вивчати англійську мову на базі курсів, що проводяться у цій компанії. Вона допомогла мені підтримати наявні навички і не витрачати кошти на дорогі курси. Одним словом, дякую"
+    },
+    {
+      "id": 46,
+      "name": "Христина",
+      "Specialization": "LeadGen",
+      "Position": null,
+      "Description": "Вдячна компанії за безцінний досвід у сфері лідогенерації, усій команді, яка допомагала мені вчитись,та зробила з мене справжнього профі лід гену :)\nДякую за розуміння та завжди велике терпіння, люди які тут працюють чудові!\nТакож плюсом є вивчення англійської мови що дуже потрібно коли ти працюєш в такій сфері.\nЗвичайно що є як і недоліки як і у всіх  так і плюси але плюси тут переважають тому що коли ви прийдете сюди вам вже не захочеться йти кудись ще. Тому не ходіть по інших компаніях, велкам ту Remote Employees :)"
+    }
+  ],
+  "partnersSlider": {
+    "data": [
+      {
+        "id": 367,
+        "attributes": {
+          "name": "logo_1.png",
+          "alternativeText": "logo_1.png",
+          "caption": "logo_1.png",
+          "width": 432,
+          "height": 240,
+          "formats": {
+            "thumbnail": {
+              "ext": ".png",
+              "url": "/uploads/thumbnail_logo_1_3841e90d66.png",
+              "hash": "thumbnail_logo_1_3841e90d66",
+              "mime": "image/png",
+              "name": "thumbnail_logo_1.png",
+              "path": null,
+              "size": 17.49,
+              "width": 245,
+              "height": 136
+            }
+          },
+          "hash": "logo_1_3841e90d66",
+          "ext": ".png",
+          "mime": "image/png",
+          "size": 11.69,
+          "url": "/uploads/logo_1_3841e90d66.png",
+          "previewUrl": null,
+          "provider": "local",
+          "provider_metadata": null,
+          "createdAt": "2023-04-21T00:50:18.835Z",
+          "updatedAt": "2023-04-21T00:50:18.835Z"
+        }
+      },
+      {
+        "id": 307,
+        "attributes": {
+          "name": "q-online_hor.png",
+          "alternativeText": "q-online_hor.png",
+          "caption": "q-online_hor.png",
+          "width": 285,
+          "height": 70,
+          "formats": {
+            "thumbnail": {
+              "ext": ".png",
+              "url": "/uploads/thumbnail_q_online_hor_6966ea65c7.png",
+              "hash": "thumbnail_q_online_hor_6966ea65c7",
+              "mime": "image/png",
+              "name": "thumbnail_q-online_hor.png",
+              "path": null,
+              "size": 25.32,
+              "width": 245,
+              "height": 60
+            }
+          },
+          "hash": "q_online_hor_6966ea65c7",
+          "ext": ".png",
+          "mime": "image/png",
+          "size": 16.36,
+          "url": "/uploads/q_online_hor_6966ea65c7.png",
+          "previewUrl": null,
+          "provider": "local",
+          "provider_metadata": null,
+          "createdAt": "2023-04-11T06:44:13.140Z",
+          "updatedAt": "2023-04-11T06:44:13.140Z"
+        }
+      },
+      {
+        "id": 306,
+        "attributes": {
+          "name": "Finance4Learning.png",
+          "alternativeText": "Finance4Learning.png",
+          "caption": "Finance4Learning.png",
+          "width": 285,
+          "height": 34,
+          "formats": {
+            "thumbnail": {
+              "ext": ".png",
+              "url": "/uploads/thumbnail_Finance4_Learning_1eb7c53cea.png",
+              "hash": "thumbnail_Finance4_Learning_1eb7c53cea",
+              "mime": "image/png",
+              "name": "thumbnail_Finance4Learning.png",
+              "path": null,
+              "size": 11.2,
+              "width": 245,
+              "height": 29
+            }
+          },
+          "hash": "Finance4_Learning_1eb7c53cea",
+          "ext": ".png",
+          "mime": "image/png",
+          "size": 5.61,
+          "url": "/uploads/Finance4_Learning_1eb7c53cea.png",
+          "previewUrl": null,
+          "provider": "local",
+          "provider_metadata": null,
+          "createdAt": "2023-04-11T06:44:12.874Z",
+          "updatedAt": "2023-04-11T06:44:12.874Z"
+        }
+      },
+      {
+        "id": 305,
+        "attributes": {
+          "name": "Outstandly-logo.png",
+          "alternativeText": "Outstandly-logo.png",
+          "caption": "Outstandly-logo.png",
+          "width": 948,
+          "height": 204,
+          "formats": {
+            "small": {
+              "ext": ".png",
+              "url": "/uploads/small_Outstandly_logo_0c6eedc76b.png",
+              "hash": "small_Outstandly_logo_0c6eedc76b",
+              "mime": "image/png",
+              "name": "small_Outstandly-logo.png",
+              "path": null,
+              "size": 32.6,
+              "width": 500,
+              "height": 108
+            },
+            "medium": {
+              "ext": ".png",
+              "url": "/uploads/medium_Outstandly_logo_0c6eedc76b.png",
+              "hash": "medium_Outstandly_logo_0c6eedc76b",
+              "mime": "image/png",
+              "name": "medium_Outstandly-logo.png",
+              "path": null,
+              "size": 55.14,
+              "width": 750,
+              "height": 161
+            },
+            "thumbnail": {
+              "ext": ".png",
+              "url": "/uploads/thumbnail_Outstandly_logo_0c6eedc76b.png",
+              "hash": "thumbnail_Outstandly_logo_0c6eedc76b",
+              "mime": "image/png",
+              "name": "thumbnail_Outstandly-logo.png",
+              "path": null,
+              "size": 12.35,
+              "width": 245,
+              "height": 53
+            }
+          },
+          "hash": "Outstandly_logo_0c6eedc76b",
+          "ext": ".png",
+          "mime": "image/png",
+          "size": 31.82,
+          "url": "/uploads/Outstandly_logo_0c6eedc76b.png",
+          "previewUrl": null,
+          "provider": "local",
+          "provider_metadata": null,
+          "createdAt": "2023-04-11T06:36:32.242Z",
+          "updatedAt": "2023-04-11T06:36:32.242Z"
+        }
+      },
+      {
+        "id": 304,
+        "attributes": {
+          "name": "Pennypop-logo.png",
+          "alternativeText": "Pennypop-logo.png",
+          "caption": "Pennypop-logo.png",
+          "width": 1499,
+          "height": 399,
+          "formats": {
+            "large": {
+              "ext": ".png",
+              "url": "/uploads/large_Pennypop_logo_4318f49bd1.png",
+              "hash": "large_Pennypop_logo_4318f49bd1",
+              "mime": "image/png",
+              "name": "large_Pennypop-logo.png",
+              "path": null,
+              "size": 61.26,
+              "width": 1000,
+              "height": 266
+            },
+            "small": {
+              "ext": ".png",
+              "url": "/uploads/small_Pennypop_logo_4318f49bd1.png",
+              "hash": "small_Pennypop_logo_4318f49bd1",
+              "mime": "image/png",
+              "name": "small_Pennypop-logo.png",
+              "path": null,
+              "size": 23.9,
+              "width": 500,
+              "height": 133
+            },
+            "medium": {
+              "ext": ".png",
+              "url": "/uploads/medium_Pennypop_logo_4318f49bd1.png",
+              "hash": "medium_Pennypop_logo_4318f49bd1",
+              "mime": "image/png",
+              "name": "medium_Pennypop-logo.png",
+              "path": null,
+              "size": 41.25,
+              "width": 750,
+              "height": 200
+            },
+            "thumbnail": {
+              "ext": ".png",
+              "url": "/uploads/thumbnail_Pennypop_logo_4318f49bd1.png",
+              "hash": "thumbnail_Pennypop_logo_4318f49bd1",
+              "mime": "image/png",
+              "name": "thumbnail_Pennypop-logo.png",
+              "path": null,
+              "size": 10.02,
+              "width": 245,
+              "height": 65
+            }
+          },
+          "hash": "Pennypop_logo_4318f49bd1",
+          "ext": ".png",
+          "mime": "image/png",
+          "size": 37.56,
+          "url": "/uploads/Pennypop_logo_4318f49bd1.png",
+          "previewUrl": null,
+          "provider": "local",
+          "provider_metadata": null,
+          "createdAt": "2023-04-11T06:36:32.219Z",
+          "updatedAt": "2023-04-11T06:36:32.219Z"
+        }
+      },
+      {
+        "id": 303,
+        "attributes": {
+          "name": "CygobelLogo-1.png",
+          "alternativeText": "CygobelLogo-1.png",
+          "caption": "CygobelLogo-1.png",
+          "width": 285,
+          "height": 65,
+          "formats": {
+            "thumbnail": {
+              "ext": ".png",
+              "url": "/uploads/thumbnail_Cygobel_Logo_1_06f4e945d1.png",
+              "hash": "thumbnail_Cygobel_Logo_1_06f4e945d1",
+              "mime": "image/png",
+              "name": "thumbnail_CygobelLogo-1.png",
+              "path": null,
+              "size": 28.28,
+              "width": 245,
+              "height": 56
+            }
+          },
+          "hash": "Cygobel_Logo_1_06f4e945d1",
+          "ext": ".png",
+          "mime": "image/png",
+          "size": 19.93,
+          "url": "/uploads/Cygobel_Logo_1_06f4e945d1.png",
+          "previewUrl": null,
+          "provider": "local",
+          "provider_metadata": null,
+          "createdAt": "2023-04-11T06:36:31.684Z",
+          "updatedAt": "2023-04-11T06:36:31.684Z"
+        }
+      },
+      {
+        "id": 302,
+        "attributes": {
+          "name": "onward-click.png",
+          "alternativeText": "onward-click.png",
+          "caption": "onward-click.png",
+          "width": 285,
+          "height": 102,
+          "formats": {
+            "thumbnail": {
+              "ext": ".png",
+              "url": "/uploads/thumbnail_onward_click_63a7457842.png",
+              "hash": "thumbnail_onward_click_63a7457842",
+              "mime": "image/png",
+              "name": "thumbnail_onward-click.png",
+              "path": null,
+              "size": 14.73,
+              "width": 245,
+              "height": 88
+            }
+          },
+          "hash": "onward_click_63a7457842",
+          "ext": ".png",
+          "mime": "image/png",
+          "size": 7.57,
+          "url": "/uploads/onward_click_63a7457842.png",
+          "previewUrl": null,
+          "provider": "local",
+          "provider_metadata": null,
+          "createdAt": "2023-04-11T06:36:31.670Z",
+          "updatedAt": "2023-04-11T06:36:31.670Z"
+        }
+      },
+      {
+        "id": 301,
+        "attributes": {
+          "name": "client-luxchemtech-e1661977505644.png",
+          "alternativeText": "client-luxchemtech-e1661977505644.png",
+          "caption": "client-luxchemtech-e1661977505644.png",
+          "width": 236,
+          "height": 84,
+          "formats": null,
+          "hash": "client_luxchemtech_e1661977505644_5bb338196b",
+          "ext": ".png",
+          "mime": "image/png",
+          "size": 11.06,
+          "url": "/uploads/client_luxchemtech_e1661977505644_5bb338196b.png",
+          "previewUrl": null,
+          "provider": "local",
+          "provider_metadata": null,
+          "createdAt": "2023-04-11T06:36:31.646Z",
+          "updatedAt": "2023-04-11T06:36:31.646Z"
+        }
+      },
+      {
+        "id": 87,
+        "attributes": {
+          "name": "Terranova.svg",
+          "alternativeText": "Terranova.svg",
+          "caption": "Terranova.svg",
+          "width": 360,
+          "height": 360,
+          "formats": null,
+          "hash": "Terranova_d87ab24616",
+          "ext": ".svg",
+          "mime": "image/svg+xml",
+          "size": 54.56,
+          "url": "/uploads/Terranova_d87ab24616.svg",
+          "previewUrl": null,
+          "provider": "local",
+          "provider_metadata": null,
+          "createdAt": "2023-03-16T04:13:32.052Z",
+          "updatedAt": "2023-03-16T04:13:32.052Z"
+        }
+      },
+      {
+        "id": 85,
+        "attributes": {
+          "name": "Online.svg",
+          "alternativeText": "Online.svg",
+          "caption": "Online.svg",
+          "width": 285,
+          "height": 70,
+          "formats": null,
+          "hash": "Online_1787e96773",
+          "ext": ".svg",
+          "mime": "image/svg+xml",
+          "size": 27.79,
+          "url": "/uploads/Online_1787e96773.svg",
+          "previewUrl": null,
+          "provider": "local",
+          "provider_metadata": null,
+          "createdAt": "2023-03-16T04:13:32.025Z",
+          "updatedAt": "2023-03-16T04:13:32.025Z"
+        }
+      },
+      {
+        "id": 86,
+        "attributes": {
+          "name": "Silicon.svg",
+          "alternativeText": "Silicon.svg",
+          "caption": "Silicon.svg",
+          "width": 285,
+          "height": 62,
+          "formats": null,
+          "hash": "Silicon_2dd5632cc9",
+          "ext": ".svg",
+          "mime": "image/svg+xml",
+          "size": 19.21,
+          "url": "/uploads/Silicon_2dd5632cc9.svg",
+          "previewUrl": null,
+          "provider": "local",
+          "provider_metadata": null,
+          "createdAt": "2023-03-16T04:13:32.024Z",
+          "updatedAt": "2023-03-16T04:13:32.024Z"
+        }
+      },
+      {
+        "id": 84,
+        "attributes": {
+          "name": "TakeTask.svg",
+          "alternativeText": "TakeTask.svg",
+          "caption": "TakeTask.svg",
+          "width": 285,
+          "height": 70,
+          "formats": null,
+          "hash": "Take_Task_d073732159",
+          "ext": ".svg",
+          "mime": "image/svg+xml",
+          "size": 18.5,
+          "url": "/uploads/Take_Task_d073732159.svg",
+          "previewUrl": null,
+          "provider": "local",
+          "provider_metadata": null,
+          "createdAt": "2023-03-16T04:13:32.020Z",
+          "updatedAt": "2023-03-16T04:13:32.020Z"
+        }
+      },
+      {
+        "id": 83,
+        "attributes": {
+          "name": "Metropolitans.svg",
+          "alternativeText": "Metropolitans.svg",
+          "caption": "Metropolitans.svg",
+          "width": 768,
+          "height": 170,
+          "formats": null,
+          "hash": "Metropolitans_b69e197bb0",
+          "ext": ".svg",
+          "mime": "image/svg+xml",
+          "size": 94.55,
+          "url": "/uploads/Metropolitans_b69e197bb0.svg",
+          "previewUrl": null,
+          "provider": "local",
+          "provider_metadata": null,
+          "createdAt": "2023-03-16T04:13:31.687Z",
+          "updatedAt": "2023-03-16T04:13:31.687Z"
+        }
+      },
+      {
+        "id": 82,
+        "attributes": {
+          "name": "Itica.png",
+          "alternativeText": "Itica.png",
+          "caption": "Itica.png",
+          "width": 230,
+          "height": 82,
+          "formats": null,
+          "hash": "Itica_b85ecab837",
+          "ext": ".png",
+          "mime": "image/png",
+          "size": 10.14,
+          "url": "/uploads/Itica_b85ecab837.png",
+          "previewUrl": null,
+          "provider": "local",
+          "provider_metadata": null,
+          "createdAt": "2023-03-16T04:13:31.674Z",
+          "updatedAt": "2023-03-16T04:13:31.674Z"
+        }
+      },
+      {
+        "id": 80,
+        "attributes": {
+          "name": "Eurekos.svg",
+          "alternativeText": "Eurekos.svg",
+          "caption": "Eurekos.svg",
+          "width": 300,
+          "height": 81,
+          "formats": null,
+          "hash": "Eurekos_d9455cd434",
+          "ext": ".svg",
+          "mime": "image/svg+xml",
+          "size": 23.78,
+          "url": "/uploads/Eurekos_d9455cd434.svg",
+          "previewUrl": null,
+          "provider": "local",
+          "provider_metadata": null,
+          "createdAt": "2023-03-16T04:13:31.640Z",
+          "updatedAt": "2023-03-16T04:13:31.640Z"
+        }
+      },
+      {
+        "id": 81,
+        "attributes": {
+          "name": "FancyGames.svg",
+          "alternativeText": "FancyGames.svg",
+          "caption": "FancyGames.svg",
+          "width": 285,
+          "height": 71,
+          "formats": null,
+          "hash": "Fancy_Games_69bb3e650e",
+          "ext": ".svg",
+          "mime": "image/svg+xml",
+          "size": 30.44,
+          "url": "/uploads/Fancy_Games_69bb3e650e.svg",
+          "previewUrl": null,
+          "provider": "local",
+          "provider_metadata": null,
+          "createdAt": "2023-03-16T04:13:31.633Z",
+          "updatedAt": "2023-03-16T04:13:31.633Z"
+        }
+      },
+      {
+        "id": 79,
+        "attributes": {
+          "name": "EvolutionU.svg",
+          "alternativeText": "EvolutionU.svg",
+          "caption": "EvolutionU.svg",
+          "width": 285,
+          "height": 65,
+          "formats": null,
+          "hash": "Evolution_U_039173756d",
+          "ext": ".svg",
+          "mime": "image/svg+xml",
+          "size": 21.81,
+          "url": "/uploads/Evolution_U_039173756d.svg",
+          "previewUrl": null,
+          "provider": "local",
+          "provider_metadata": null,
+          "createdAt": "2023-03-16T04:13:31.624Z",
+          "updatedAt": "2023-03-16T04:13:31.624Z"
+        }
+      },
+      {
+        "id": 78,
+        "attributes": {
+          "name": "LearnerOn.svg",
+          "alternativeText": "LearnerOn.svg",
+          "caption": "LearnerOn.svg",
+          "width": 236,
+          "height": 71,
+          "formats": null,
+          "hash": "Learner_On_7cad7b6c58",
+          "ext": ".svg",
+          "mime": "image/svg+xml",
+          "size": 11.83,
+          "url": "/uploads/Learner_On_7cad7b6c58.svg",
+          "previewUrl": null,
+          "provider": "local",
+          "provider_metadata": null,
+          "createdAt": "2023-03-16T04:13:31.623Z",
+          "updatedAt": "2023-03-16T04:13:31.623Z"
+        }
+      },
+      {
+        "id": 77,
+        "attributes": {
+          "name": "Clevver.png",
+          "alternativeText": "Clevver.png",
+          "caption": "Clevver.png",
+          "width": 252,
+          "height": 179,
+          "formats": {
+            "thumbnail": {
+              "ext": ".png",
+              "url": "/uploads/thumbnail_Clevver_c9f58d6a17.png",
+              "hash": "thumbnail_Clevver_c9f58d6a17",
+              "mime": "image/png",
+              "name": "thumbnail_Clevver.png",
+              "path": null,
+              "size": 27.4,
+              "width": 220,
+              "height": 156
+            }
+          },
+          "hash": "Clevver_c9f58d6a17",
+          "ext": ".png",
+          "mime": "image/png",
+          "size": 11.92,
+          "url": "/uploads/Clevver_c9f58d6a17.png",
+          "previewUrl": null,
+          "provider": "local",
+          "provider_metadata": null,
+          "createdAt": "2023-03-16T04:13:31.183Z",
+          "updatedAt": "2023-03-16T04:13:31.183Z"
+        }
+      },
+      {
+        "id": 76,
+        "attributes": {
+          "name": "Collectmedia.svg",
+          "alternativeText": "Collectmedia.svg",
+          "caption": "Collectmedia.svg",
+          "width": 335,
+          "height": 88,
+          "formats": null,
+          "hash": "Collectmedia_148bdeafd8",
+          "ext": ".svg",
+          "mime": "image/svg+xml",
+          "size": 28.26,
+          "url": "/uploads/Collectmedia_148bdeafd8.svg",
+          "previewUrl": null,
+          "provider": "local",
+          "provider_metadata": null,
+          "createdAt": "2023-03-16T04:13:31.129Z",
+          "updatedAt": "2023-03-16T04:13:31.129Z"
+        }
+      },
+      {
+        "id": 74,
+        "attributes": {
+          "name": "Convertise.svg",
+          "alternativeText": "Convertise.svg",
+          "caption": "Convertise.svg",
+          "width": 300,
+          "height": 88,
+          "formats": null,
+          "hash": "Convertise_3ee5b35967",
+          "ext": ".svg",
+          "mime": "image/svg+xml",
+          "size": 22.77,
+          "url": "/uploads/Convertise_3ee5b35967.svg",
+          "previewUrl": null,
+          "provider": "local",
+          "provider_metadata": null,
+          "createdAt": "2023-03-16T04:13:31.121Z",
+          "updatedAt": "2023-03-16T04:13:31.121Z"
+        }
+      },
+      {
+        "id": 75,
+        "attributes": {
+          "name": "Chiko.svg",
+          "alternativeText": "Chiko.svg",
+          "caption": "Chiko.svg",
+          "width": 149,
+          "height": 88,
+          "formats": null,
+          "hash": "Chiko_648ee68f25",
+          "ext": ".svg",
+          "mime": "image/svg+xml",
+          "size": 36.66,
+          "url": "/uploads/Chiko_648ee68f25.svg",
+          "previewUrl": null,
+          "provider": "local",
+          "provider_metadata": null,
+          "createdAt": "2023-03-16T04:13:31.120Z",
+          "updatedAt": "2023-03-16T04:13:31.120Z"
+        }
+      },
+      {
+        "id": 72,
+        "attributes": {
+          "name": "3Dgency.svg",
+          "alternativeText": "3Dgency.svg",
+          "caption": "3Dgency.svg",
+          "width": 285,
+          "height": 71,
+          "formats": null,
+          "hash": "3_Dgency_99d9cafda2",
+          "ext": ".svg",
+          "mime": "image/svg+xml",
+          "size": 13.04,
+          "url": "/uploads/3_Dgency_99d9cafda2.svg",
+          "previewUrl": null,
+          "provider": "local",
+          "provider_metadata": null,
+          "createdAt": "2023-03-16T04:13:31.075Z",
+          "updatedAt": "2023-03-16T04:13:31.075Z"
+        }
+      },
+      {
+        "id": 73,
+        "attributes": {
+          "name": "Change-Consulting.svg",
+          "alternativeText": "Change-Consulting.svg",
+          "caption": "Change-Consulting.svg",
+          "width": 216,
+          "height": 95,
+          "formats": null,
+          "hash": "Change_Consulting_f27c0435fb",
+          "ext": ".svg",
+          "mime": "image/svg+xml",
+          "size": 30.35,
+          "url": "/uploads/Change_Consulting_f27c0435fb.svg",
+          "previewUrl": null,
+          "provider": "local",
+          "provider_metadata": null,
+          "createdAt": "2023-03-16T04:13:31.072Z",
+          "updatedAt": "2023-03-16T04:13:31.072Z"
+        }
+      }
+    ]
+  },
+  "heroStats": [
+    {
+      "id": 5,
+      "heroStatValue": "100%",
+      "heroStatText": "Задоволених співробітників"
+    },
+    {
+      "id": 6,
+      "heroStatValue": "90+",
+      "heroStatText": "Віддалених вакансій"
+    }
+  ],
+  "localizations": {
+    "data": [
+      {
+        "id": 5,
+        "attributes": {
+          "mainScreenTitle": "Chcesz pracować zdalnie w IT?",
+          "mainScreenParagraph": "Firma outstaffowa **Remote Employees** oferuje Ci pracę zdalną przy międzynarodowych projektach. Damy Ci możliwość pracy z dowolnego miejsca na świecie już teraz!\n",
+          "createdAt": "2023-03-23T09:43:20.499Z",
+          "updatedAt": "2025-11-28T14:20:14.984Z",
+          "locale": "pl",
+          "mainScreenButton": "Dostać pracę",
+          "faqTitle": "FAQ",
+          "spheresTitle": "Nasze główne obszary działalności",
+          "partnersTitle": "Nasi partnerzy",
+          "testimonialsTitle": "Recenzje"
+        }
+      },
+      {
+        "id": 4,
+        "attributes": {
+          "mainScreenTitle": "Hľadáte prácu na diaľku v IT a marketingu?",
+          "mainScreenParagraph": "Outstaffingová spoločnosť RemotEmployees vám ponúka prácu na diaľku na medzinárodných projektoch. Dáme vám teraz možnosť pracovať odkiaľkoľvek na svete!\n",
+          "createdAt": "2023-03-23T03:42:04.098Z",
+          "updatedAt": "2023-05-12T08:44:35.670Z",
+          "locale": "sk",
+          "mainScreenButton": "Dostať prácu",
+          "faqTitle": "Často kladené otázky",
+          "spheresTitle": "Pozrite si aktuálne voľné miesta podľa špecializácie",
+          "partnersTitle": "Naši partneri",
+          "testimonialsTitle": "Spätná väzba od zamestnancov RemotEmployees"
+        }
+      },
+      {
+        "id": 2,
+        "attributes": {
+          "mainScreenTitle": "Do you want to work remotely in IT?",
+          "mainScreenParagraph": "Outstaffing company **Remote Employees** offers You remote work in our company with the prospect of employment in international projects. We will give You the opportunity to work from anywhere in the world right now!",
+          "createdAt": "2022-10-31T09:12:00.113Z",
+          "updatedAt": "2025-11-28T14:14:27.558Z",
+          "locale": "en",
+          "mainScreenButton": "Get a job",
+          "faqTitle": "Question - Answer",
+          "spheresTitle": "Our main areas of activity",
+          "partnersTitle": "The companies we work with",
+          "testimonialsTitle": "Testimonials"
+        }
+      },
+      {
+        "id": 3,
+        "attributes": {
+          "mainScreenTitle": "Хочешь работать удаленно в IT?",
+          "mainScreenParagraph": "Аутстаффинговая компания **Remote Employees** предлагает Вам удаленную работу в нашей компании с перспективой трудоустройства на международных проектах. Мы предоставим Вам возможность работать из любой точки мира прямо сейчас!",
+          "createdAt": "2023-03-16T02:49:45.883Z",
+          "updatedAt": "2025-11-28T14:13:24.571Z",
+          "locale": "ru",
+          "mainScreenButton": "Получить работу",
+          "faqTitle": "Вопрос - Ответ",
+          "spheresTitle": "Наши основные сферы деятельности",
+          "partnersTitle": "Наши партнеры",
+          "testimonialsTitle": "Отзывы"
+        }
+      }
+    ]
+  }
+}

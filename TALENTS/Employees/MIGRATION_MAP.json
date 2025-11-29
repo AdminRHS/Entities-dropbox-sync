@@ -1,0 +1,1087 @@
+{
+  "migration_date": "2025-11-28T17:03:18.124979",
+  "statistics": {
+    "total": 144,
+    "successful": 65,
+    "orphaned": 75,
+    "duplicates": 4,
+    "to_profiles": 52,
+    "to_left": 13,
+    "errors": []
+  },
+  "mappings": [
+    {
+      "source": "/Users/nikolay/Library/CloudStorage/Dropbox/automations/entities-dropbox-sync/TALENTS/Employees/Profiles/Available/Design/Profile UI UX designer Safonova Eleonora.md",
+      "destination": "/Users/nikolay/Library/CloudStorage/Dropbox/ENTITIES/TALENTS/Employees/Profiles/EMP-87995.md",
+      "emp_id": "87995",
+      "formatted_id": "EMP-87995",
+      "status": "success",
+      "in_finance": true
+    },
+    {
+      "source": "/Users/nikolay/Library/CloudStorage/Dropbox/automations/entities-dropbox-sync/TALENTS/Employees/Profiles/Available/Design/Profile UI UX designer Shymkevych Iryna.md",
+      "destination": "/Users/nikolay/Library/CloudStorage/Dropbox/ENTITIES/TALENTS/Employees/Profiles/EMP-88357.md",
+      "emp_id": "88357",
+      "formatted_id": "EMP-88357",
+      "status": "success",
+      "in_finance": true
+    },
+    {
+      "source": "/Users/nikolay/Library/CloudStorage/Dropbox/automations/entities-dropbox-sync/TALENTS/Employees/Profiles/Available/Design/Profile Designer Kushnirenko Veronika.md",
+      "destination": "/Users/nikolay/Library/CloudStorage/Dropbox/ENTITIES/TALENTS/Employees/Left/EMP-89040.md",
+      "emp_id": "89040",
+      "formatted_id": "EMP-89040",
+      "status": "success",
+      "in_finance": true
+    },
+    {
+      "source": "/Users/nikolay/Library/CloudStorage/Dropbox/automations/entities-dropbox-sync/TALENTS/Employees/Profiles/Available/Design/Profile Illustrator, Graphic Designer Skrypkar Vilhelm.md",
+      "destination": "/Users/nikolay/Library/CloudStorage/Dropbox/ENTITIES/TALENTS/Employees/Profiles/EMP-00333.md",
+      "emp_id": "333",
+      "formatted_id": "EMP-00333",
+      "status": "success",
+      "in_finance": true
+    },
+    {
+      "source": "/Users/nikolay/Library/CloudStorage/Dropbox/automations/entities-dropbox-sync/TALENTS/Employees/Profiles/Available/Video/Profile Video Editor Azanova Darʼya.md",
+      "destination": "/Users/nikolay/Library/CloudStorage/Dropbox/ENTITIES/TALENTS/Employees/Profiles/EMP-80190.md",
+      "emp_id": "80190",
+      "formatted_id": "EMP-80190",
+      "status": "success",
+      "in_finance": true
+    },
+    {
+      "source": "/Users/nikolay/Library/CloudStorage/Dropbox/automations/entities-dropbox-sync/TALENTS/Employees/Profiles/Available/AI/Profile Prompt engineer Perederii Vladislav.md",
+      "destination": "/Users/nikolay/Library/CloudStorage/Dropbox/ENTITIES/TALENTS/Employees/Profiles/EMP-86246.md",
+      "emp_id": "86246",
+      "formatted_id": "EMP-86246",
+      "status": "success",
+      "in_finance": true
+    },
+    {
+      "source": "/Users/nikolay/Library/CloudStorage/Dropbox/automations/entities-dropbox-sync/TALENTS/Employees/Profiles/Available/Dev/Profile Front End Developer Artem Skichko.md",
+      "destination": "/Users/nikolay/Library/CloudStorage/Dropbox/ENTITIES/TALENTS/Employees/Profiles/EMP-88853.md",
+      "emp_id": "88853",
+      "formatted_id": "EMP-88853",
+      "status": "success",
+      "in_finance": true
+    },
+    {
+      "source": "/Users/nikolay/Library/CloudStorage/Dropbox/automations/entities-dropbox-sync/TALENTS/Employees/Profiles/Available/Dev/Profile Developer Makovska Anna.md",
+      "destination": "/Users/nikolay/Library/CloudStorage/Dropbox/ENTITIES/TALENTS/Employees/Profiles/EMP-88928.md",
+      "emp_id": "88928",
+      "formatted_id": "EMP-88928",
+      "status": "success",
+      "in_finance": true
+    },
+    {
+      "source": "/Users/nikolay/Library/CloudStorage/Dropbox/automations/entities-dropbox-sync/TALENTS/Employees/Profiles/Available/Dev/Profile Full Stack Developer Azar Imranov.md",
+      "destination": "/Users/nikolay/Library/CloudStorage/Dropbox/ENTITIES/TALENTS/Employees/Left/EMP-88645.md",
+      "emp_id": "88645",
+      "formatted_id": "EMP-88645",
+      "status": "success",
+      "in_finance": true
+    },
+    {
+      "source": "/Users/nikolay/Library/CloudStorage/Dropbox/automations/entities-dropbox-sync/TALENTS/Employees/Profiles/Available/Dev/Profile Front End Developer Klimenko Yaroslav.md",
+      "destination": "/Users/nikolay/Library/CloudStorage/Dropbox/ENTITIES/TALENTS/Employees/Profiles/EMP-86478.md",
+      "emp_id": "86478",
+      "formatted_id": "EMP-86478",
+      "status": "success",
+      "in_finance": true
+    },
+    {
+      "source": "/Users/nikolay/Library/CloudStorage/Dropbox/automations/entities-dropbox-sync/TALENTS/Employees/Profiles/Available/LG/Profile Lead generator Joy Edem Asuquo.md",
+      "destination": "/Users/nikolay/Library/CloudStorage/Dropbox/ENTITIES/TALENTS/Employees/Profiles/EMP-88110.md",
+      "emp_id": "88110",
+      "formatted_id": "EMP-88110",
+      "status": "success",
+      "in_finance": true
+    },
+    {
+      "source": "/Users/nikolay/Library/CloudStorage/Dropbox/automations/entities-dropbox-sync/TALENTS/Employees/Profiles/Available/LG/Profile Lead Generator Cynthia Chinemerem Uzoh.md",
+      "destination": "/Users/nikolay/Library/CloudStorage/Dropbox/ENTITIES/TALENTS/Employees/Left/EMP-86241.md",
+      "emp_id": "86241",
+      "formatted_id": "EMP-86241",
+      "status": "success",
+      "in_finance": true
+    },
+    {
+      "source": "/Users/nikolay/Library/CloudStorage/Dropbox/automations/entities-dropbox-sync/TALENTS/Employees/Profiles/Available/LG/Profile Lead generator, Translator Bindiak Dana.md",
+      "destination": "/Users/nikolay/Library/CloudStorage/Dropbox/ENTITIES/TALENTS/Employees/Profiles/EMP-87396.md",
+      "emp_id": "87396",
+      "formatted_id": "EMP-87396",
+      "status": "success",
+      "in_finance": true
+    },
+    {
+      "source": "/Users/nikolay/Library/CloudStorage/Dropbox/automations/entities-dropbox-sync/TALENTS/Employees/Profiles/Available/LG/Profile Lead generator, Personal Assistant Hanan Zaheur.md",
+      "destination": "/Users/nikolay/Library/CloudStorage/Dropbox/ENTITIES/TALENTS/Employees/Left/EMP-87984.md",
+      "emp_id": "87984",
+      "formatted_id": "EMP-87984",
+      "status": "success",
+      "in_finance": true
+    },
+    {
+      "source": "/Users/nikolay/Library/CloudStorage/Dropbox/automations/entities-dropbox-sync/TALENTS/Employees/Profiles/Available/LG/Profile Chat operator Aledare Adedoiin Bridjet.md",
+      "destination": "/Users/nikolay/Library/CloudStorage/Dropbox/ENTITIES/TALENTS/Employees/Left/EMP-86940.md",
+      "emp_id": "86940",
+      "formatted_id": "EMP-86940",
+      "status": "success",
+      "in_finance": true
+    },
+    {
+      "source": "/Users/nikolay/Library/CloudStorage/Dropbox/automations/entities-dropbox-sync/TALENTS/Employees/Profiles/Available/LG/Profile Lead generator, Prompt engineer Archibong Isaac.md",
+      "destination": "/Users/nikolay/Library/CloudStorage/Dropbox/ENTITIES/TALENTS/Employees/Profiles/EMP-86453.md",
+      "emp_id": "86453",
+      "formatted_id": "EMP-86453",
+      "status": "success",
+      "in_finance": true
+    },
+    {
+      "source": "/Users/nikolay/Library/CloudStorage/Dropbox/automations/entities-dropbox-sync/TALENTS/Employees/Profiles/Available/LG/Profile Lead generator Cynthia Aninwezi.md",
+      "destination": "/Users/nikolay/Library/CloudStorage/Dropbox/ENTITIES/TALENTS/Employees/Profiles/EMP-87511.md",
+      "emp_id": "87511",
+      "formatted_id": "EMP-87511",
+      "status": "success",
+      "in_finance": true
+    },
+    {
+      "source": "/Users/nikolay/Library/CloudStorage/Dropbox/automations/entities-dropbox-sync/TALENTS/Employees/Profiles/Available/LG/Profile Lead generator, Chat operator Davlatmamadova Firuza.md",
+      "destination": "/Users/nikolay/Library/CloudStorage/Dropbox/ENTITIES/TALENTS/Employees/Profiles/EMP-84059.md",
+      "emp_id": "84059",
+      "formatted_id": "EMP-84059",
+      "status": "success",
+      "in_finance": true
+    },
+    {
+      "source": "/Users/nikolay/Library/CloudStorage/Dropbox/automations/entities-dropbox-sync/TALENTS/Employees/Profiles/Available/LG/Profile Lead generator Alakbarova Ulviyya Javid.md",
+      "destination": "/Users/nikolay/Library/CloudStorage/Dropbox/ENTITIES/TALENTS/Employees/Profiles/EMP-88270.md",
+      "emp_id": "88270",
+      "formatted_id": "EMP-88270",
+      "status": "success",
+      "in_finance": true
+    },
+    {
+      "source": "/Users/nikolay/Library/CloudStorage/Dropbox/automations/entities-dropbox-sync/TALENTS/Employees/Profiles/Left/Video/Profile Video Editor Panchenko Diana.md",
+      "destination": "/Users/nikolay/Library/CloudStorage/Dropbox/ENTITIES/TALENTS/Employees/Left/EMP-39273.md",
+      "emp_id": "39273",
+      "formatted_id": "EMP-39273",
+      "status": "success",
+      "in_finance": false
+    },
+    {
+      "source": "/Users/nikolay/Library/CloudStorage/Dropbox/automations/entities-dropbox-sync/TALENTS/Employees/Profiles/Left/Sales/Profile Lead generator Bessarab Valeriia.md",
+      "destination": "/Users/nikolay/Library/CloudStorage/Dropbox/ENTITIES/TALENTS/Employees/Left/EMP-88972.md",
+      "emp_id": "88972",
+      "formatted_id": "EMP-88972",
+      "status": "success",
+      "in_finance": true
+    },
+    {
+      "source": "/Users/nikolay/Library/CloudStorage/Dropbox/automations/entities-dropbox-sync/TALENTS/Employees/Profiles/Left/AI/Profile Prompt engineer Zasiadko Matvii.md",
+      "destination": "/Users/nikolay/Library/CloudStorage/Dropbox/ENTITIES/TALENTS/Employees/Left/EMP-86981.md",
+      "emp_id": "86981",
+      "formatted_id": "EMP-86981",
+      "status": "success",
+      "in_finance": true
+    },
+    {
+      "source": "/Users/nikolay/Library/CloudStorage/Dropbox/automations/entities-dropbox-sync/TALENTS/Employees/Profiles/Left/LG/Profile Lead generator Joy Edem Asuquo.md",
+      "destination": "/Users/nikolay/Library/CloudStorage/Dropbox/ENTITIES/TALENTS/Employees/ORPHANED/DUPLICATE_EMP-88110_Profile Lead generator Joy Edem Asuquo.md",
+      "emp_id": "88110",
+      "status": "duplicate",
+      "reason": "Duplicate of /Users/nikolay/Library/CloudStorage/Dropbox/automations/entities-dropbox-sync/TALENTS/Employees/Profiles/Available/LG/Profile Lead generator Joy Edem Asuquo.md"
+    },
+    {
+      "source": "/Users/nikolay/Library/CloudStorage/Dropbox/automations/entities-dropbox-sync/TALENTS/Employees/Profiles/Left/LG/Profile Lead generator Davlatdodova Kibriyo.md",
+      "destination": "/Users/nikolay/Library/CloudStorage/Dropbox/ENTITIES/TALENTS/Employees/Left/EMP-88209.md",
+      "emp_id": "88209",
+      "formatted_id": "EMP-88209",
+      "status": "success",
+      "in_finance": true
+    },
+    {
+      "source": "/Users/nikolay/Library/CloudStorage/Dropbox/automations/entities-dropbox-sync/TALENTS/Employees/Profiles/Left/LG/Profile Lead Generator Polina Nastich.md",
+      "destination": "/Users/nikolay/Library/CloudStorage/Dropbox/ENTITIES/TALENTS/Employees/Left/EMP-88795.md",
+      "emp_id": "88795",
+      "formatted_id": "EMP-88795",
+      "status": "success",
+      "in_finance": true
+    },
+    {
+      "source": "/Users/nikolay/Library/CloudStorage/Dropbox/automations/entities-dropbox-sync/TALENTS/Employees/Profiles/Resumes/Iskandarova Anush.md",
+      "destination": "/Users/nikolay/Library/CloudStorage/Dropbox/ENTITIES/TALENTS/Employees/ORPHANED/Iskandarova Anush.md",
+      "emp_id": null,
+      "status": "orphaned",
+      "reason": "No ID found"
+    },
+    {
+      "source": "/Users/nikolay/Library/CloudStorage/Dropbox/automations/entities-dropbox-sync/TALENTS/Employees/Profiles/Resumes/Potapchuk Anastasiya.md",
+      "destination": "/Users/nikolay/Library/CloudStorage/Dropbox/ENTITIES/TALENTS/Employees/ORPHANED/Potapchuk Anastasiya.md",
+      "emp_id": null,
+      "status": "orphaned",
+      "reason": "No ID found"
+    },
+    {
+      "source": "/Users/nikolay/Library/CloudStorage/Dropbox/automations/entities-dropbox-sync/TALENTS/Employees/Profiles/Resumes/Mazyickevych Maryna.md",
+      "destination": "/Users/nikolay/Library/CloudStorage/Dropbox/ENTITIES/TALENTS/Employees/ORPHANED/Mazyickevych Maryna.md",
+      "emp_id": null,
+      "status": "orphaned",
+      "reason": "No ID found"
+    },
+    {
+      "source": "/Users/nikolay/Library/CloudStorage/Dropbox/automations/entities-dropbox-sync/TALENTS/Employees/Profiles/Resumes/Klimenko Yaroslav.md",
+      "destination": "/Users/nikolay/Library/CloudStorage/Dropbox/ENTITIES/TALENTS/Employees/ORPHANED/Klimenko Yaroslav.md",
+      "emp_id": null,
+      "status": "orphaned",
+      "reason": "No ID found"
+    },
+    {
+      "source": "/Users/nikolay/Library/CloudStorage/Dropbox/automations/entities-dropbox-sync/TALENTS/Employees/Profiles/Resumes/Kucherenko Iuliia.md",
+      "destination": "/Users/nikolay/Library/CloudStorage/Dropbox/ENTITIES/TALENTS/Employees/ORPHANED/Kucherenko Iuliia.md",
+      "emp_id": null,
+      "status": "orphaned",
+      "reason": "No ID found"
+    },
+    {
+      "source": "/Users/nikolay/Library/CloudStorage/Dropbox/automations/entities-dropbox-sync/TALENTS/Employees/Profiles/Resumes/Rotar Olga.md",
+      "destination": "/Users/nikolay/Library/CloudStorage/Dropbox/ENTITIES/TALENTS/Employees/ORPHANED/Rotar Olga.md",
+      "emp_id": null,
+      "status": "orphaned",
+      "reason": "No ID found"
+    },
+    {
+      "source": "/Users/nikolay/Library/CloudStorage/Dropbox/automations/entities-dropbox-sync/TALENTS/Employees/Profiles/Resumes/Yarmachenko Kristina.md",
+      "destination": "/Users/nikolay/Library/CloudStorage/Dropbox/ENTITIES/TALENTS/Employees/ORPHANED/Yarmachenko Kristina.md",
+      "emp_id": null,
+      "status": "orphaned",
+      "reason": "No ID found"
+    },
+    {
+      "source": "/Users/nikolay/Library/CloudStorage/Dropbox/automations/entities-dropbox-sync/TALENTS/Employees/Profiles/Resumes/Kamenskaya Alina.md",
+      "destination": "/Users/nikolay/Library/CloudStorage/Dropbox/ENTITIES/TALENTS/Employees/ORPHANED/Kamenskaya Alina.md",
+      "emp_id": null,
+      "status": "orphaned",
+      "reason": "No ID found"
+    },
+    {
+      "source": "/Users/nikolay/Library/CloudStorage/Dropbox/automations/entities-dropbox-sync/TALENTS/Employees/Profiles/Resumes/Vereteno Marta.md",
+      "destination": "/Users/nikolay/Library/CloudStorage/Dropbox/ENTITIES/TALENTS/Employees/ORPHANED/Vereteno Marta.md",
+      "emp_id": null,
+      "status": "orphaned",
+      "reason": "No ID found"
+    },
+    {
+      "source": "/Users/nikolay/Library/CloudStorage/Dropbox/automations/entities-dropbox-sync/TALENTS/Employees/Profiles/Resumes/Litvinova Natalia.md",
+      "destination": "/Users/nikolay/Library/CloudStorage/Dropbox/ENTITIES/TALENTS/Employees/ORPHANED/Litvinova Natalia.md",
+      "emp_id": null,
+      "status": "orphaned",
+      "reason": "No ID found"
+    },
+    {
+      "source": "/Users/nikolay/Library/CloudStorage/Dropbox/automations/entities-dropbox-sync/TALENTS/Employees/Profiles/Resumes/Petrova Evelina.md",
+      "destination": "/Users/nikolay/Library/CloudStorage/Dropbox/ENTITIES/TALENTS/Employees/ORPHANED/Petrova Evelina.md",
+      "emp_id": null,
+      "status": "orphaned",
+      "reason": "No ID found"
+    },
+    {
+      "source": "/Users/nikolay/Library/CloudStorage/Dropbox/automations/entities-dropbox-sync/TALENTS/Employees/Profiles/Resumes/Chobotar Yuliia.md",
+      "destination": "/Users/nikolay/Library/CloudStorage/Dropbox/ENTITIES/TALENTS/Employees/ORPHANED/Chobotar Yuliia.md",
+      "emp_id": null,
+      "status": "orphaned",
+      "reason": "No ID found"
+    },
+    {
+      "source": "/Users/nikolay/Library/CloudStorage/Dropbox/automations/entities-dropbox-sync/TALENTS/Employees/Profiles/Resumes/Pasichna Anastasiia.md",
+      "destination": "/Users/nikolay/Library/CloudStorage/Dropbox/ENTITIES/TALENTS/Employees/ORPHANED/Pasichna Anastasiia.md",
+      "emp_id": null,
+      "status": "orphaned",
+      "reason": "No ID found"
+    },
+    {
+      "source": "/Users/nikolay/Library/CloudStorage/Dropbox/automations/entities-dropbox-sync/TALENTS/Employees/Profiles/Resumes/Rekonvald Viktoriya.md",
+      "destination": "/Users/nikolay/Library/CloudStorage/Dropbox/ENTITIES/TALENTS/Employees/ORPHANED/Rekonvald Viktoriya.md",
+      "emp_id": null,
+      "status": "orphaned",
+      "reason": "No ID found"
+    },
+    {
+      "source": "/Users/nikolay/Library/CloudStorage/Dropbox/automations/entities-dropbox-sync/TALENTS/Employees/Profiles/Resumes/Azanova Darʼya.md",
+      "destination": "/Users/nikolay/Library/CloudStorage/Dropbox/ENTITIES/TALENTS/Employees/ORPHANED/Azanova Darʼya.md",
+      "emp_id": null,
+      "status": "orphaned",
+      "reason": "No ID found"
+    },
+    {
+      "source": "/Users/nikolay/Library/CloudStorage/Dropbox/automations/entities-dropbox-sync/TALENTS/Employees/Profiles/Resumes/Ponomarova Kateryna.md",
+      "destination": "/Users/nikolay/Library/CloudStorage/Dropbox/ENTITIES/TALENTS/Employees/ORPHANED/Ponomarova Kateryna.md",
+      "emp_id": null,
+      "status": "orphaned",
+      "reason": "No ID found"
+    },
+    {
+      "source": "/Users/nikolay/Library/CloudStorage/Dropbox/automations/entities-dropbox-sync/TALENTS/Employees/Profiles/Resumes/Polina Nastich.md",
+      "destination": "/Users/nikolay/Library/CloudStorage/Dropbox/ENTITIES/TALENTS/Employees/ORPHANED/Polina Nastich.md",
+      "emp_id": null,
+      "status": "orphaned",
+      "reason": "No ID found"
+    },
+    {
+      "source": "/Users/nikolay/Library/CloudStorage/Dropbox/automations/entities-dropbox-sync/TALENTS/Employees/Profiles/Resumes/Adesina Oluwamayomiposi Elizabeth.md",
+      "destination": "/Users/nikolay/Library/CloudStorage/Dropbox/ENTITIES/TALENTS/Employees/ORPHANED/Adesina Oluwamayomiposi Elizabeth.md",
+      "emp_id": null,
+      "status": "orphaned",
+      "reason": "No ID found"
+    },
+    {
+      "source": "/Users/nikolay/Library/CloudStorage/Dropbox/automations/entities-dropbox-sync/TALENTS/Employees/Profiles/Resumes/AMONDE Vanessa Akinyi.md",
+      "destination": "/Users/nikolay/Library/CloudStorage/Dropbox/ENTITIES/TALENTS/Employees/ORPHANED/AMONDE Vanessa Akinyi.md",
+      "emp_id": null,
+      "status": "orphaned",
+      "reason": "No ID found"
+    },
+    {
+      "source": "/Users/nikolay/Library/CloudStorage/Dropbox/automations/entities-dropbox-sync/TALENTS/Employees/Profiles/Resumes/Tymokhin Anton.md",
+      "destination": "/Users/nikolay/Library/CloudStorage/Dropbox/ENTITIES/TALENTS/Employees/ORPHANED/Tymokhin Anton.md",
+      "emp_id": null,
+      "status": "orphaned",
+      "reason": "No ID found"
+    },
+    {
+      "source": "/Users/nikolay/Library/CloudStorage/Dropbox/automations/entities-dropbox-sync/TALENTS/Employees/Profiles/Resumes/Makovska Anna.md",
+      "destination": "/Users/nikolay/Library/CloudStorage/Dropbox/ENTITIES/TALENTS/Employees/ORPHANED/Makovska Anna.md",
+      "emp_id": null,
+      "status": "orphaned",
+      "reason": "No ID found"
+    },
+    {
+      "source": "/Users/nikolay/Library/CloudStorage/Dropbox/automations/entities-dropbox-sync/TALENTS/Employees/Profiles/Resumes/Bykova Anastasiia.md",
+      "destination": "/Users/nikolay/Library/CloudStorage/Dropbox/ENTITIES/TALENTS/Employees/ORPHANED/Bykova Anastasiia.md",
+      "emp_id": null,
+      "status": "orphaned",
+      "reason": "No ID found"
+    },
+    {
+      "source": "/Users/nikolay/Library/CloudStorage/Dropbox/automations/entities-dropbox-sync/TALENTS/Employees/Profiles/Resumes/Olikh Victoriia.md",
+      "destination": "/Users/nikolay/Library/CloudStorage/Dropbox/ENTITIES/TALENTS/Employees/ORPHANED/Olikh Victoriia.md",
+      "emp_id": null,
+      "status": "orphaned",
+      "reason": "No ID found"
+    },
+    {
+      "source": "/Users/nikolay/Library/CloudStorage/Dropbox/automations/entities-dropbox-sync/TALENTS/Employees/Profiles/Resumes/Shymkevych Iryna.md",
+      "destination": "/Users/nikolay/Library/CloudStorage/Dropbox/ENTITIES/TALENTS/Employees/ORPHANED/Shymkevych Iryna.md",
+      "emp_id": null,
+      "status": "orphaned",
+      "reason": "No ID found"
+    },
+    {
+      "source": "/Users/nikolay/Library/CloudStorage/Dropbox/automations/entities-dropbox-sync/TALENTS/Employees/Profiles/Resumes/Nealova Evgeniya.md",
+      "destination": "/Users/nikolay/Library/CloudStorage/Dropbox/ENTITIES/TALENTS/Employees/ORPHANED/Nealova Evgeniya.md",
+      "emp_id": null,
+      "status": "orphaned",
+      "reason": "No ID found"
+    },
+    {
+      "source": "/Users/nikolay/Library/CloudStorage/Dropbox/automations/entities-dropbox-sync/TALENTS/Employees/Profiles/Resumes/Danylenko Liliia.md",
+      "destination": "/Users/nikolay/Library/CloudStorage/Dropbox/ENTITIES/TALENTS/Employees/ORPHANED/Danylenko Liliia.md",
+      "emp_id": null,
+      "status": "orphaned",
+      "reason": "No ID found"
+    },
+    {
+      "source": "/Users/nikolay/Library/CloudStorage/Dropbox/automations/entities-dropbox-sync/TALENTS/Employees/Profiles/Resumes/Yelisieieva Daria.md",
+      "destination": "/Users/nikolay/Library/CloudStorage/Dropbox/ENTITIES/TALENTS/Employees/ORPHANED/Yelisieieva Daria.md",
+      "emp_id": null,
+      "status": "orphaned",
+      "reason": "No ID found"
+    },
+    {
+      "source": "/Users/nikolay/Library/CloudStorage/Dropbox/automations/entities-dropbox-sync/TALENTS/Employees/Profiles/Resumes/Zasiadko Matvii.md",
+      "destination": "/Users/nikolay/Library/CloudStorage/Dropbox/ENTITIES/TALENTS/Employees/ORPHANED/Zasiadko Matvii.md",
+      "emp_id": null,
+      "status": "orphaned",
+      "reason": "No ID found"
+    },
+    {
+      "source": "/Users/nikolay/Library/CloudStorage/Dropbox/automations/entities-dropbox-sync/TALENTS/Employees/Profiles/Resumes/Hryhorchuk Vasyl.md",
+      "destination": "/Users/nikolay/Library/CloudStorage/Dropbox/ENTITIES/TALENTS/Employees/ORPHANED/Hryhorchuk Vasyl.md",
+      "emp_id": null,
+      "status": "orphaned",
+      "reason": "No ID found"
+    },
+    {
+      "source": "/Users/nikolay/Library/CloudStorage/Dropbox/automations/entities-dropbox-sync/TALENTS/Employees/Profiles/Resumes/Burda Anna.md",
+      "destination": "/Users/nikolay/Library/CloudStorage/Dropbox/ENTITIES/TALENTS/Employees/ORPHANED/Burda Anna.md",
+      "emp_id": null,
+      "status": "orphaned",
+      "reason": "No ID found"
+    },
+    {
+      "source": "/Users/nikolay/Library/CloudStorage/Dropbox/automations/entities-dropbox-sync/TALENTS/Employees/Profiles/Resumes/Shkinder Kseniia.md",
+      "destination": "/Users/nikolay/Library/CloudStorage/Dropbox/ENTITIES/TALENTS/Employees/ORPHANED/Shkinder Kseniia.md",
+      "emp_id": null,
+      "status": "orphaned",
+      "reason": "No ID found"
+    },
+    {
+      "source": "/Users/nikolay/Library/CloudStorage/Dropbox/automations/entities-dropbox-sync/TALENTS/Employees/Profiles/Resumes/Archibong Isaac.md",
+      "destination": "/Users/nikolay/Library/CloudStorage/Dropbox/ENTITIES/TALENTS/Employees/ORPHANED/Archibong Isaac.md",
+      "emp_id": null,
+      "status": "orphaned",
+      "reason": "No ID found"
+    },
+    {
+      "source": "/Users/nikolay/Library/CloudStorage/Dropbox/automations/entities-dropbox-sync/TALENTS/Employees/Profiles/Resumes/Aledare Adedoiin Bridjet.md",
+      "destination": "/Users/nikolay/Library/CloudStorage/Dropbox/ENTITIES/TALENTS/Employees/ORPHANED/Aledare Adedoiin Bridjet.md",
+      "emp_id": null,
+      "status": "orphaned",
+      "reason": "No ID found"
+    },
+    {
+      "source": "/Users/nikolay/Library/CloudStorage/Dropbox/automations/entities-dropbox-sync/TALENTS/Employees/Profiles/Resumes/Safonova Eleonora.md",
+      "destination": "/Users/nikolay/Library/CloudStorage/Dropbox/ENTITIES/TALENTS/Employees/ORPHANED/Safonova Eleonora.md",
+      "emp_id": null,
+      "status": "orphaned",
+      "reason": "No ID found"
+    },
+    {
+      "source": "/Users/nikolay/Library/CloudStorage/Dropbox/automations/entities-dropbox-sync/TALENTS/Employees/Profiles/Resumes/Joy Edem Asuquo.md",
+      "destination": "/Users/nikolay/Library/CloudStorage/Dropbox/ENTITIES/TALENTS/Employees/ORPHANED/Joy Edem Asuquo.md",
+      "emp_id": null,
+      "status": "orphaned",
+      "reason": "No ID found"
+    },
+    {
+      "source": "/Users/nikolay/Library/CloudStorage/Dropbox/automations/entities-dropbox-sync/TALENTS/Employees/Profiles/Resumes/Perederii Vladislav.md",
+      "destination": "/Users/nikolay/Library/CloudStorage/Dropbox/ENTITIES/TALENTS/Employees/ORPHANED/Perederii Vladislav.md",
+      "emp_id": null,
+      "status": "orphaned",
+      "reason": "No ID found"
+    },
+    {
+      "source": "/Users/nikolay/Library/CloudStorage/Dropbox/automations/entities-dropbox-sync/TALENTS/Employees/Profiles/Resumes/Skrypkar Vilhelm.md",
+      "destination": "/Users/nikolay/Library/CloudStorage/Dropbox/ENTITIES/TALENTS/Employees/ORPHANED/Skrypkar Vilhelm.md",
+      "emp_id": null,
+      "status": "orphaned",
+      "reason": "No ID found"
+    },
+    {
+      "source": "/Users/nikolay/Library/CloudStorage/Dropbox/automations/entities-dropbox-sync/TALENTS/Employees/Profiles/Resumes/Syrotiuk Mariia.md",
+      "destination": "/Users/nikolay/Library/CloudStorage/Dropbox/ENTITIES/TALENTS/Employees/ORPHANED/Syrotiuk Mariia.md",
+      "emp_id": null,
+      "status": "orphaned",
+      "reason": "No ID found"
+    },
+    {
+      "source": "/Users/nikolay/Library/CloudStorage/Dropbox/automations/entities-dropbox-sync/TALENTS/Employees/Profiles/Resumes/Artem Skichko.md",
+      "destination": "/Users/nikolay/Library/CloudStorage/Dropbox/ENTITIES/TALENTS/Employees/ORPHANED/Artem Skichko.md",
+      "emp_id": null,
+      "status": "orphaned",
+      "reason": "No ID found"
+    },
+    {
+      "source": "/Users/nikolay/Library/CloudStorage/Dropbox/automations/entities-dropbox-sync/TALENTS/Employees/Profiles/Resumes/Davlatdodova Kibriyo.md",
+      "destination": "/Users/nikolay/Library/CloudStorage/Dropbox/ENTITIES/TALENTS/Employees/ORPHANED/Davlatdodova Kibriyo.md",
+      "emp_id": null,
+      "status": "orphaned",
+      "reason": "No ID found"
+    },
+    {
+      "source": "/Users/nikolay/Library/CloudStorage/Dropbox/automations/entities-dropbox-sync/TALENTS/Employees/Profiles/Resumes/Kizilova Olha.md",
+      "destination": "/Users/nikolay/Library/CloudStorage/Dropbox/ENTITIES/TALENTS/Employees/ORPHANED/Kizilova Olha.md",
+      "emp_id": null,
+      "status": "orphaned",
+      "reason": "No ID found"
+    },
+    {
+      "source": "/Users/nikolay/Library/CloudStorage/Dropbox/automations/entities-dropbox-sync/TALENTS/Employees/Profiles/Resumes/Hanan Zaheur.md",
+      "destination": "/Users/nikolay/Library/CloudStorage/Dropbox/ENTITIES/TALENTS/Employees/ORPHANED/Hanan Zaheur.md",
+      "emp_id": null,
+      "status": "orphaned",
+      "reason": "No ID found"
+    },
+    {
+      "source": "/Users/nikolay/Library/CloudStorage/Dropbox/automations/entities-dropbox-sync/TALENTS/Employees/Profiles/Resumes/Cynthia Chinemerem Uzoh.md",
+      "destination": "/Users/nikolay/Library/CloudStorage/Dropbox/ENTITIES/TALENTS/Employees/ORPHANED/Cynthia Chinemerem Uzoh.md",
+      "emp_id": null,
+      "status": "orphaned",
+      "reason": "No ID found"
+    },
+    {
+      "source": "/Users/nikolay/Library/CloudStorage/Dropbox/automations/entities-dropbox-sync/TALENTS/Employees/Profiles/Resumes/Podolskyi Sviatoslav.md",
+      "destination": "/Users/nikolay/Library/CloudStorage/Dropbox/ENTITIES/TALENTS/Employees/ORPHANED/Podolskyi Sviatoslav.md",
+      "emp_id": null,
+      "status": "orphaned",
+      "reason": "No ID found"
+    },
+    {
+      "source": "/Users/nikolay/Library/CloudStorage/Dropbox/automations/entities-dropbox-sync/TALENTS/Employees/Profiles/Resumes/Bosakovska Nataliia.md",
+      "destination": "/Users/nikolay/Library/CloudStorage/Dropbox/ENTITIES/TALENTS/Employees/ORPHANED/Bosakovska Nataliia.md",
+      "emp_id": null,
+      "status": "orphaned",
+      "reason": "No ID found"
+    },
+    {
+      "source": "/Users/nikolay/Library/CloudStorage/Dropbox/automations/entities-dropbox-sync/TALENTS/Employees/Profiles/Resumes/Artemchuk Nikolay.md",
+      "destination": "/Users/nikolay/Library/CloudStorage/Dropbox/ENTITIES/TALENTS/Employees/ORPHANED/Artemchuk Nikolay.md",
+      "emp_id": null,
+      "status": "orphaned",
+      "reason": "No ID found"
+    },
+    {
+      "source": "/Users/nikolay/Library/CloudStorage/Dropbox/automations/entities-dropbox-sync/TALENTS/Employees/Profiles/Resumes/Alakbarova Ulviyya Javid.md",
+      "destination": "/Users/nikolay/Library/CloudStorage/Dropbox/ENTITIES/TALENTS/Employees/ORPHANED/Alakbarova Ulviyya Javid.md",
+      "emp_id": null,
+      "status": "orphaned",
+      "reason": "No ID found"
+    },
+    {
+      "source": "/Users/nikolay/Library/CloudStorage/Dropbox/automations/entities-dropbox-sync/TALENTS/Employees/Profiles/Resumes/Shelep Olha.md",
+      "destination": "/Users/nikolay/Library/CloudStorage/Dropbox/ENTITIES/TALENTS/Employees/ORPHANED/Shelep Olha.md",
+      "emp_id": null,
+      "status": "orphaned",
+      "reason": "No ID found"
+    },
+    {
+      "source": "/Users/nikolay/Library/CloudStorage/Dropbox/automations/entities-dropbox-sync/TALENTS/Employees/Profiles/Resumes/Zuyeva Anna.md",
+      "destination": "/Users/nikolay/Library/CloudStorage/Dropbox/ENTITIES/TALENTS/Employees/ORPHANED/Zuyeva Anna.md",
+      "emp_id": null,
+      "status": "orphaned",
+      "reason": "No ID found"
+    },
+    {
+      "source": "/Users/nikolay/Library/CloudStorage/Dropbox/automations/entities-dropbox-sync/TALENTS/Employees/Profiles/Resumes/Marynenko Dmitriy.md",
+      "destination": "/Users/nikolay/Library/CloudStorage/Dropbox/ENTITIES/TALENTS/Employees/ORPHANED/Marynenko Dmitriy.md",
+      "emp_id": null,
+      "status": "orphaned",
+      "reason": "No ID found"
+    },
+    {
+      "source": "/Users/nikolay/Library/CloudStorage/Dropbox/automations/entities-dropbox-sync/TALENTS/Employees/Profiles/Resumes/Shtepa Yuliia.md",
+      "destination": "/Users/nikolay/Library/CloudStorage/Dropbox/ENTITIES/TALENTS/Employees/ORPHANED/Shtepa Yuliia.md",
+      "emp_id": null,
+      "status": "orphaned",
+      "reason": "No ID found"
+    },
+    {
+      "source": "/Users/nikolay/Library/CloudStorage/Dropbox/automations/entities-dropbox-sync/TALENTS/Employees/Profiles/Resumes/Krasnojon Darina.md",
+      "destination": "/Users/nikolay/Library/CloudStorage/Dropbox/ENTITIES/TALENTS/Employees/ORPHANED/Krasnojon Darina.md",
+      "emp_id": null,
+      "status": "orphaned",
+      "reason": "No ID found"
+    },
+    {
+      "source": "/Users/nikolay/Library/CloudStorage/Dropbox/automations/entities-dropbox-sync/TALENTS/Employees/Profiles/Resumes/Tsyupko Myroslava.md",
+      "destination": "/Users/nikolay/Library/CloudStorage/Dropbox/ENTITIES/TALENTS/Employees/ORPHANED/Tsyupko Myroslava.md",
+      "emp_id": null,
+      "status": "orphaned",
+      "reason": "No ID found"
+    },
+    {
+      "source": "/Users/nikolay/Library/CloudStorage/Dropbox/automations/entities-dropbox-sync/TALENTS/Employees/Profiles/Resumes/Berdychevska Anastasiia.md",
+      "destination": "/Users/nikolay/Library/CloudStorage/Dropbox/ENTITIES/TALENTS/Employees/ORPHANED/Berdychevska Anastasiia.md",
+      "emp_id": null,
+      "status": "orphaned",
+      "reason": "No ID found"
+    },
+    {
+      "source": "/Users/nikolay/Library/CloudStorage/Dropbox/automations/entities-dropbox-sync/TALENTS/Employees/Profiles/Resumes/Bessarab Valeriia.md",
+      "destination": "/Users/nikolay/Library/CloudStorage/Dropbox/ENTITIES/TALENTS/Employees/ORPHANED/Bessarab Valeriia.md",
+      "emp_id": null,
+      "status": "orphaned",
+      "reason": "No ID found"
+    },
+    {
+      "source": "/Users/nikolay/Library/CloudStorage/Dropbox/automations/entities-dropbox-sync/TALENTS/Employees/Profiles/Resumes/Melnychuk Olena.md",
+      "destination": "/Users/nikolay/Library/CloudStorage/Dropbox/ENTITIES/TALENTS/Employees/ORPHANED/Melnychuk Olena.md",
+      "emp_id": null,
+      "status": "orphaned",
+      "reason": "No ID found"
+    },
+    {
+      "source": "/Users/nikolay/Library/CloudStorage/Dropbox/automations/entities-dropbox-sync/TALENTS/Employees/Profiles/Resumes/Goloshchapova Maiia.md",
+      "destination": "/Users/nikolay/Library/CloudStorage/Dropbox/ENTITIES/TALENTS/Employees/ORPHANED/Goloshchapova Maiia.md",
+      "emp_id": null,
+      "status": "orphaned",
+      "reason": "No ID found"
+    },
+    {
+      "source": "/Users/nikolay/Library/CloudStorage/Dropbox/automations/entities-dropbox-sync/TALENTS/Employees/Profiles/Resumes/Peneva Plamena.md",
+      "destination": "/Users/nikolay/Library/CloudStorage/Dropbox/ENTITIES/TALENTS/Employees/ORPHANED/Peneva Plamena.md",
+      "emp_id": null,
+      "status": "orphaned",
+      "reason": "No ID found"
+    },
+    {
+      "source": "/Users/nikolay/Library/CloudStorage/Dropbox/automations/entities-dropbox-sync/TALENTS/Employees/Profiles/Resumes/Novikova Tatiana.md",
+      "destination": "/Users/nikolay/Library/CloudStorage/Dropbox/ENTITIES/TALENTS/Employees/ORPHANED/Novikova Tatiana.md",
+      "emp_id": null,
+      "status": "orphaned",
+      "reason": "No ID found"
+    },
+    {
+      "source": "/Users/nikolay/Library/CloudStorage/Dropbox/automations/entities-dropbox-sync/TALENTS/Employees/Profiles/Resumes/Okunievskyi Volodymyr.md",
+      "destination": "/Users/nikolay/Library/CloudStorage/Dropbox/ENTITIES/TALENTS/Employees/ORPHANED/Okunievskyi Volodymyr.md",
+      "emp_id": null,
+      "status": "orphaned",
+      "reason": "No ID found"
+    },
+    {
+      "source": "/Users/nikolay/Library/CloudStorage/Dropbox/automations/entities-dropbox-sync/TALENTS/Employees/Profiles/Resumes/Teselko Anastasiya.md",
+      "destination": "/Users/nikolay/Library/CloudStorage/Dropbox/ENTITIES/TALENTS/Employees/ORPHANED/Teselko Anastasiya.md",
+      "emp_id": null,
+      "status": "orphaned",
+      "reason": "No ID found"
+    },
+    {
+      "source": "/Users/nikolay/Library/CloudStorage/Dropbox/automations/entities-dropbox-sync/TALENTS/Employees/Profiles/Resumes/Todoriuk Sergii.md",
+      "destination": "/Users/nikolay/Library/CloudStorage/Dropbox/ENTITIES/TALENTS/Employees/ORPHANED/Todoriuk Sergii.md",
+      "emp_id": null,
+      "status": "orphaned",
+      "reason": "No ID found"
+    },
+    {
+      "source": "/Users/nikolay/Library/CloudStorage/Dropbox/automations/entities-dropbox-sync/TALENTS/Employees/Profiles/Resumes/Malitska Dana.md",
+      "destination": "/Users/nikolay/Library/CloudStorage/Dropbox/ENTITIES/TALENTS/Employees/ORPHANED/Malitska Dana.md",
+      "emp_id": null,
+      "status": "orphaned",
+      "reason": "No ID found"
+    },
+    {
+      "source": "/Users/nikolay/Library/CloudStorage/Dropbox/automations/entities-dropbox-sync/TALENTS/Employees/Profiles/Resumes/Lychagin Roman.md",
+      "destination": "/Users/nikolay/Library/CloudStorage/Dropbox/ENTITIES/TALENTS/Employees/ORPHANED/Lychagin Roman.md",
+      "emp_id": null,
+      "status": "orphaned",
+      "reason": "No ID found"
+    },
+    {
+      "source": "/Users/nikolay/Library/CloudStorage/Dropbox/automations/entities-dropbox-sync/TALENTS/Employees/Profiles/Resumes/Davlatmamadova Firuza.md",
+      "destination": "/Users/nikolay/Library/CloudStorage/Dropbox/ENTITIES/TALENTS/Employees/ORPHANED/Davlatmamadova Firuza.md",
+      "emp_id": null,
+      "status": "orphaned",
+      "reason": "No ID found"
+    },
+    {
+      "source": "/Users/nikolay/Library/CloudStorage/Dropbox/automations/entities-dropbox-sync/TALENTS/Employees/Profiles/Resumes/Birook Melese.md",
+      "destination": "/Users/nikolay/Library/CloudStorage/Dropbox/ENTITIES/TALENTS/Employees/ORPHANED/Birook Melese.md",
+      "emp_id": null,
+      "status": "orphaned",
+      "reason": "No ID found"
+    },
+    {
+      "source": "/Users/nikolay/Library/CloudStorage/Dropbox/automations/entities-dropbox-sync/TALENTS/Employees/Profiles/Resumes/Cynthia Aninwezi.md",
+      "destination": "/Users/nikolay/Library/CloudStorage/Dropbox/ENTITIES/TALENTS/Employees/ORPHANED/Cynthia Aninwezi.md",
+      "emp_id": null,
+      "status": "orphaned",
+      "reason": "No ID found"
+    },
+    {
+      "source": "/Users/nikolay/Library/CloudStorage/Dropbox/automations/entities-dropbox-sync/TALENTS/Employees/Profiles/Resumes/Petrov Danylo.md",
+      "destination": "/Users/nikolay/Library/CloudStorage/Dropbox/ENTITIES/TALENTS/Employees/ORPHANED/Petrov Danylo.md",
+      "emp_id": null,
+      "status": "orphaned",
+      "reason": "No ID found"
+    },
+    {
+      "source": "/Users/nikolay/Library/CloudStorage/Dropbox/automations/entities-dropbox-sync/TALENTS/Employees/Profiles/Resumes/Dvoretska Sofia.md",
+      "destination": "/Users/nikolay/Library/CloudStorage/Dropbox/ENTITIES/TALENTS/Employees/ORPHANED/Dvoretska Sofia.md",
+      "emp_id": null,
+      "status": "orphaned",
+      "reason": "No ID found"
+    },
+    {
+      "source": "/Users/nikolay/Library/CloudStorage/Dropbox/automations/entities-dropbox-sync/TALENTS/Employees/Profiles/Resumes/Bindiak Dana.md",
+      "destination": "/Users/nikolay/Library/CloudStorage/Dropbox/ENTITIES/TALENTS/Employees/ORPHANED/Bindiak Dana.md",
+      "emp_id": null,
+      "status": "orphaned",
+      "reason": "No ID found"
+    },
+    {
+      "source": "/Users/nikolay/Library/CloudStorage/Dropbox/automations/entities-dropbox-sync/TALENTS/Employees/Profiles/Resumes/Bogun Polina.md",
+      "destination": "/Users/nikolay/Library/CloudStorage/Dropbox/ENTITIES/TALENTS/Employees/ORPHANED/Bogun Polina.md",
+      "emp_id": null,
+      "status": "orphaned",
+      "reason": "No ID found"
+    },
+    {
+      "source": "/Users/nikolay/Library/CloudStorage/Dropbox/automations/entities-dropbox-sync/TALENTS/Employees/Profiles/Resumes/Kushnirenko Veronika.md",
+      "destination": "/Users/nikolay/Library/CloudStorage/Dropbox/ENTITIES/TALENTS/Employees/ORPHANED/Kushnirenko Veronika.md",
+      "emp_id": null,
+      "status": "orphaned",
+      "reason": "No ID found"
+    },
+    {
+      "source": "/Users/nikolay/Library/CloudStorage/Dropbox/automations/entities-dropbox-sync/TALENTS/Employees/Profiles/Resumes/Kachailo Anna.md",
+      "destination": "/Users/nikolay/Library/CloudStorage/Dropbox/ENTITIES/TALENTS/Employees/ORPHANED/Kachailo Anna.md",
+      "emp_id": null,
+      "status": "orphaned",
+      "reason": "No ID found"
+    },
+    {
+      "source": "/Users/nikolay/Library/CloudStorage/Dropbox/automations/entities-dropbox-sync/TALENTS/Employees/Profiles/Resumes/Hlushko Mariia.md",
+      "destination": "/Users/nikolay/Library/CloudStorage/Dropbox/ENTITIES/TALENTS/Employees/ORPHANED/Hlushko Mariia.md",
+      "emp_id": null,
+      "status": "orphaned",
+      "reason": "No ID found"
+    },
+    {
+      "source": "/Users/nikolay/Library/CloudStorage/Dropbox/automations/entities-dropbox-sync/TALENTS/Employees/Profiles/Resumes/Kovalska Anastasiya.md",
+      "destination": "/Users/nikolay/Library/CloudStorage/Dropbox/ENTITIES/TALENTS/Employees/ORPHANED/Kovalska Anastasiya.md",
+      "emp_id": null,
+      "status": "orphaned",
+      "reason": "No ID found"
+    },
+    {
+      "source": "/Users/nikolay/Library/CloudStorage/Dropbox/automations/entities-dropbox-sync/TALENTS/Employees/Profiles/Project/Design/Profile Graphic Designer Potapchuk Anastasiya.md",
+      "destination": "/Users/nikolay/Library/CloudStorage/Dropbox/ENTITIES/TALENTS/Employees/Profiles/EMP-76120.md",
+      "emp_id": "76120",
+      "formatted_id": "EMP-76120",
+      "status": "success",
+      "in_finance": true
+    },
+    {
+      "source": "/Users/nikolay/Library/CloudStorage/Dropbox/automations/entities-dropbox-sync/TALENTS/Employees/Profiles/Project/Design/Profile Graphic Designer Rotar Olga.md",
+      "destination": "/Users/nikolay/Library/CloudStorage/Dropbox/ENTITIES/TALENTS/Employees/Profiles/EMP-00633.md",
+      "emp_id": "633",
+      "formatted_id": "EMP-00633",
+      "status": "success",
+      "in_finance": true
+    },
+    {
+      "source": "/Users/nikolay/Library/CloudStorage/Dropbox/automations/entities-dropbox-sync/TALENTS/Employees/Profiles/Project/Design/Profile Ui Ux Designer Bykova Anastasiia.md",
+      "destination": "/Users/nikolay/Library/CloudStorage/Dropbox/ENTITIES/TALENTS/Employees/Profiles/EMP-87767.md",
+      "emp_id": "87767",
+      "formatted_id": "EMP-87767",
+      "status": "success",
+      "in_finance": true
+    },
+    {
+      "source": "/Users/nikolay/Library/CloudStorage/Dropbox/automations/entities-dropbox-sync/TALENTS/Employees/Profiles/Project/Design/Profile UI UX designer Syrotiuk Mariia.md",
+      "destination": "/Users/nikolay/Library/CloudStorage/Dropbox/ENTITIES/TALENTS/Employees/Profiles/EMP-81607.md",
+      "emp_id": "81607",
+      "formatted_id": "EMP-81607",
+      "status": "success",
+      "in_finance": true
+    },
+    {
+      "source": "/Users/nikolay/Library/CloudStorage/Dropbox/automations/entities-dropbox-sync/TALENTS/Employees/Profiles/Project/Design/Profile UI UX designer Shtepa Yuliia.md",
+      "destination": "/Users/nikolay/Library/CloudStorage/Dropbox/ENTITIES/TALENTS/Employees/Profiles/EMP-86669.md",
+      "emp_id": "86669",
+      "formatted_id": "EMP-86669",
+      "status": "success",
+      "in_finance": true
+    },
+    {
+      "source": "/Users/nikolay/Library/CloudStorage/Dropbox/automations/entities-dropbox-sync/TALENTS/Employees/Profiles/Project/Design/Profile UI UX designer Yarmachenko Kristina.md",
+      "destination": "/Users/nikolay/Library/CloudStorage/Dropbox/ENTITIES/TALENTS/Employees/Profiles/EMP-80123.md",
+      "emp_id": "80123",
+      "formatted_id": "EMP-80123",
+      "status": "success",
+      "in_finance": true
+    },
+    {
+      "source": "/Users/nikolay/Library/CloudStorage/Dropbox/automations/entities-dropbox-sync/TALENTS/Employees/Profiles/Project/Design/Profile UI UX designer Shelep Olha.md",
+      "destination": "/Users/nikolay/Library/CloudStorage/Dropbox/ENTITIES/TALENTS/Employees/Profiles/EMP-86641.md",
+      "emp_id": "86641",
+      "formatted_id": "EMP-86641",
+      "status": "success",
+      "in_finance": true
+    },
+    {
+      "source": "/Users/nikolay/Library/CloudStorage/Dropbox/automations/entities-dropbox-sync/TALENTS/Employees/Profiles/Project/Design/Profile Graphic designer Teselko Anastasiya.md",
+      "destination": "/Users/nikolay/Library/CloudStorage/Dropbox/ENTITIES/TALENTS/Employees/Profiles/EMP-81013.md",
+      "emp_id": "81013",
+      "formatted_id": "EMP-81013",
+      "status": "success",
+      "in_finance": true
+    },
+    {
+      "source": "/Users/nikolay/Library/CloudStorage/Dropbox/automations/entities-dropbox-sync/TALENTS/Employees/Profiles/Project/Design/Profile Graphic Designer Litvinova Natalia.md",
+      "destination": "/Users/nikolay/Library/CloudStorage/Dropbox/ENTITIES/TALENTS/Employees/Profiles/EMP-00026.md",
+      "emp_id": "26",
+      "formatted_id": "EMP-00026",
+      "status": "success",
+      "in_finance": true
+    },
+    {
+      "source": "/Users/nikolay/Library/CloudStorage/Dropbox/automations/entities-dropbox-sync/TALENTS/Employees/Profiles/Project/Design/Profile Illustrator, Graphic Designer, Project manager Hlushko Mariia.md",
+      "destination": "/Users/nikolay/Library/CloudStorage/Dropbox/ENTITIES/TALENTS/Employees/Profiles/EMP-88626.md",
+      "emp_id": "88626",
+      "formatted_id": "EMP-88626",
+      "status": "success",
+      "in_finance": true
+    },
+    {
+      "source": "/Users/nikolay/Library/CloudStorage/Dropbox/automations/entities-dropbox-sync/TALENTS/Employees/Profiles/Project/Design/Profile Ui Ux Designer Mazyickevych Maryna.md",
+      "destination": "/Users/nikolay/Library/CloudStorage/Dropbox/ENTITIES/TALENTS/Employees/Profiles/EMP-00491.md",
+      "emp_id": "491",
+      "formatted_id": "EMP-00491",
+      "status": "success",
+      "in_finance": true
+    },
+    {
+      "source": "/Users/nikolay/Library/CloudStorage/Dropbox/automations/entities-dropbox-sync/TALENTS/Employees/Profiles/Project/Dev/Profile Full Stack Developer Lychagin Roman.md",
+      "destination": "/Users/nikolay/Library/CloudStorage/Dropbox/ENTITIES/TALENTS/Employees/Profiles/EMP-00148.md",
+      "emp_id": "148",
+      "formatted_id": "EMP-00148",
+      "status": "success",
+      "in_finance": true
+    },
+    {
+      "source": "/Users/nikolay/Library/CloudStorage/Dropbox/automations/entities-dropbox-sync/TALENTS/Employees/Profiles/Project/Dev/Profile Front End Developer Okunievskyi Volodymyr.md",
+      "destination": "/Users/nikolay/Library/CloudStorage/Dropbox/ENTITIES/TALENTS/Employees/Profiles/EMP-65361.md",
+      "emp_id": "65361",
+      "formatted_id": "EMP-65361",
+      "status": "success",
+      "in_finance": true
+    },
+    {
+      "source": "/Users/nikolay/Library/CloudStorage/Dropbox/automations/entities-dropbox-sync/TALENTS/Employees/Profiles/Project/LG/Profile Lead Generator Berdychevska Anastasiia.md",
+      "destination": "/Users/nikolay/Library/CloudStorage/Dropbox/ENTITIES/TALENTS/Employees/Profiles/EMP-00443.md",
+      "emp_id": "443",
+      "formatted_id": "EMP-00443",
+      "status": "success",
+      "in_finance": true
+    },
+    {
+      "source": "/Users/nikolay/Library/CloudStorage/Dropbox/automations/entities-dropbox-sync/TALENTS/Employees/Profiles/Project/LG/Profile Employee Olikh Victoriia.md",
+      "destination": "/Users/nikolay/Library/CloudStorage/Dropbox/ENTITIES/TALENTS/Employees/Profiles/EMP-58904.md",
+      "emp_id": "58904",
+      "formatted_id": "EMP-58904",
+      "status": "success",
+      "in_finance": true
+    },
+    {
+      "source": "/Users/nikolay/Library/CloudStorage/Dropbox/automations/entities-dropbox-sync/TALENTS/Employees/Profiles/Project/LG/Profile Lead generator Hryhorchuk Vasyl.md",
+      "destination": "/Users/nikolay/Library/CloudStorage/Dropbox/ENTITIES/TALENTS/Employees/Profiles/EMP-57346.md",
+      "emp_id": "57346",
+      "formatted_id": "EMP-57346",
+      "status": "success",
+      "in_finance": true
+    },
+    {
+      "source": "/Users/nikolay/Library/CloudStorage/Dropbox/automations/entities-dropbox-sync/TALENTS/Employees/Profiles/Project/LG/Profile Sales Manager, Personal Assistant Iskandarova Anush.md",
+      "destination": "/Users/nikolay/Library/CloudStorage/Dropbox/ENTITIES/TALENTS/Employees/Profiles/EMP-85829.md",
+      "emp_id": "85829",
+      "formatted_id": "EMP-85829",
+      "status": "success",
+      "in_finance": true
+    },
+    {
+      "source": "/Users/nikolay/Library/CloudStorage/Dropbox/automations/entities-dropbox-sync/TALENTS/Employees/Profiles/Project/LG/Profile Lead Generator Kamenskaya Alina.md",
+      "destination": "/Users/nikolay/Library/CloudStorage/Dropbox/ENTITIES/TALENTS/Employees/Profiles/EMP-85166.md",
+      "emp_id": "85166",
+      "formatted_id": "EMP-85166",
+      "status": "success",
+      "in_finance": true
+    },
+    {
+      "source": "/Users/nikolay/Library/CloudStorage/Dropbox/automations/entities-dropbox-sync/TALENTS/Employees/Profiles/Project/LG/Profile Lead Generator Petrova Evelina.md",
+      "destination": "/Users/nikolay/Library/CloudStorage/Dropbox/ENTITIES/TALENTS/Employees/Profiles/EMP-38390.md",
+      "emp_id": "38390",
+      "formatted_id": "EMP-38390",
+      "status": "success",
+      "in_finance": true
+    },
+    {
+      "source": "/Users/nikolay/Library/CloudStorage/Dropbox/automations/entities-dropbox-sync/TALENTS/Employees/Profiles/Project/LG/Profile Lead generator Kachailo Anna.md",
+      "destination": "/Users/nikolay/Library/CloudStorage/Dropbox/ENTITIES/TALENTS/Employees/Left/EMP-62346.md",
+      "emp_id": "62346",
+      "formatted_id": "EMP-62346",
+      "status": "success",
+      "in_finance": true
+    },
+    {
+      "source": "/Users/nikolay/Library/CloudStorage/Dropbox/automations/entities-dropbox-sync/TALENTS/Employees/Profiles/Project/LG/Profile Lead Generation Manager Todoriuk Sergii.md",
+      "destination": "/Users/nikolay/Library/CloudStorage/Dropbox/ENTITIES/TALENTS/Employees/Profiles/EMP-53065.md",
+      "emp_id": "53065",
+      "formatted_id": "EMP-53065",
+      "status": "success",
+      "in_finance": true
+    },
+    {
+      "source": "/Users/nikolay/Library/CloudStorage/Dropbox/automations/entities-dropbox-sync/TALENTS/Employees/Profiles/Project/LG/Profile Lead generator Krasnojon Darina.md",
+      "destination": "/Users/nikolay/Library/CloudStorage/Dropbox/ENTITIES/TALENTS/Employees/Profiles/EMP-62843.md",
+      "emp_id": "62843",
+      "formatted_id": "EMP-62843",
+      "status": "success",
+      "in_finance": true
+    },
+    {
+      "source": "/Users/nikolay/Library/CloudStorage/Dropbox/automations/entities-dropbox-sync/TALENTS/Employees/Profiles/Fired/Design/Profile UI UX designer, Graphic Designer Chobotar Yuliia.md",
+      "destination": "/Users/nikolay/Library/CloudStorage/Dropbox/ENTITIES/TALENTS/Employees/Left/EMP-87826.md",
+      "emp_id": "87826",
+      "formatted_id": "EMP-87826",
+      "status": "success",
+      "in_finance": true
+    },
+    {
+      "source": "/Users/nikolay/Library/CloudStorage/Dropbox/automations/entities-dropbox-sync/TALENTS/Employees/Profiles/Fired/LG/Profile Lead generator Davlatdodova Kibriyo.md",
+      "destination": "/Users/nikolay/Library/CloudStorage/Dropbox/ENTITIES/TALENTS/Employees/ORPHANED/DUPLICATE_EMP-88209_Profile Lead generator Davlatdodova Kibriyo.md",
+      "emp_id": "88209",
+      "status": "duplicate",
+      "reason": "Duplicate of /Users/nikolay/Library/CloudStorage/Dropbox/automations/entities-dropbox-sync/TALENTS/Employees/Profiles/Left/LG/Profile Lead generator Davlatdodova Kibriyo.md"
+    },
+    {
+      "source": "/Users/nikolay/Library/CloudStorage/Dropbox/automations/entities-dropbox-sync/TALENTS/Employees/Profiles/Fired/LG/Profile Lead generator Adesina Oluwamayomiposi Elizabeth.md",
+      "destination": "/Users/nikolay/Library/CloudStorage/Dropbox/ENTITIES/TALENTS/Employees/Left/EMP-08791.md",
+      "emp_id": "8791",
+      "formatted_id": "EMP-08791",
+      "status": "success",
+      "in_finance": true
+    },
+    {
+      "source": "/Users/nikolay/Library/CloudStorage/Dropbox/automations/entities-dropbox-sync/TALENTS/Employees/Profiles/Fired/LG/Profile Lead Generator Polina Nastich.md",
+      "destination": "/Users/nikolay/Library/CloudStorage/Dropbox/ENTITIES/TALENTS/Employees/ORPHANED/DUPLICATE_EMP-88795_Profile Lead Generator Polina Nastich.md",
+      "emp_id": "88795",
+      "status": "duplicate",
+      "reason": "Duplicate of /Users/nikolay/Library/CloudStorage/Dropbox/automations/entities-dropbox-sync/TALENTS/Employees/Profiles/Left/LG/Profile Lead Generator Polina Nastich.md"
+    },
+    {
+      "source": "/Users/nikolay/Library/CloudStorage/Dropbox/automations/entities-dropbox-sync/TALENTS/Employees/Profiles/Work/Video/Profile Video Editor, Graphic Designer Podolskyi Sviatoslav.md",
+      "destination": "/Users/nikolay/Library/CloudStorage/Dropbox/ENTITIES/TALENTS/Employees/Profiles/EMP-00299.md",
+      "emp_id": "299",
+      "formatted_id": "EMP-00299",
+      "status": "success",
+      "in_finance": true
+    },
+    {
+      "source": "/Users/nikolay/Library/CloudStorage/Dropbox/automations/entities-dropbox-sync/TALENTS/Employees/Profiles/Work/Sales/Profile Sales Manager, Social Media Manager, Personal Assistant Kovalska Anastasiya.md",
+      "destination": "/Users/nikolay/Library/CloudStorage/Dropbox/ENTITIES/TALENTS/Employees/Profiles/EMP-45405.md",
+      "emp_id": "45405",
+      "formatted_id": "EMP-45405",
+      "status": "success",
+      "in_finance": true
+    },
+    {
+      "source": "/Users/nikolay/Library/CloudStorage/Dropbox/automations/entities-dropbox-sync/TALENTS/Employees/Profiles/Work/Sales/Profile Lead generator Bessarab Valeriia.md",
+      "destination": "/Users/nikolay/Library/CloudStorage/Dropbox/ENTITIES/TALENTS/Employees/ORPHANED/DUPLICATE_EMP-88972_Profile Lead generator Bessarab Valeriia.md",
+      "emp_id": "88972",
+      "status": "duplicate",
+      "reason": "Duplicate of /Users/nikolay/Library/CloudStorage/Dropbox/automations/entities-dropbox-sync/TALENTS/Employees/Profiles/Left/Sales/Profile Lead generator Bessarab Valeriia.md"
+    },
+    {
+      "source": "/Users/nikolay/Library/CloudStorage/Dropbox/automations/entities-dropbox-sync/TALENTS/Employees/Profiles/Work/AI/Profile Project manager, Lead generator Artemchuk Nikolay.md",
+      "destination": "/Users/nikolay/Library/CloudStorage/Dropbox/ENTITIES/TALENTS/Employees/Profiles/EMP-37226.md",
+      "emp_id": "37226",
+      "formatted_id": "EMP-37226",
+      "status": "success",
+      "in_finance": true
+    },
+    {
+      "source": "/Users/nikolay/Library/CloudStorage/Dropbox/automations/entities-dropbox-sync/TALENTS/Employees/Profiles/Work/HR/Profile Recruiter Nealova Evgeniya.md",
+      "destination": "/Users/nikolay/Library/CloudStorage/Dropbox/ENTITIES/TALENTS/Employees/Profiles/EMP-72889.md",
+      "emp_id": "72889",
+      "formatted_id": "EMP-72889",
+      "status": "success",
+      "in_finance": true
+    },
+    {
+      "source": "/Users/nikolay/Library/CloudStorage/Dropbox/automations/entities-dropbox-sync/TALENTS/Employees/Profiles/Work/Dev/Profile Full Stack Developer Marynenko Dmitriy.md",
+      "destination": "/Users/nikolay/Library/CloudStorage/Dropbox/ENTITIES/TALENTS/Employees/Profiles/EMP-89270.md",
+      "emp_id": "89270",
+      "formatted_id": "EMP-89270",
+      "status": "success",
+      "in_finance": true
+    },
+    {
+      "source": "/Users/nikolay/Library/CloudStorage/Dropbox/automations/entities-dropbox-sync/TALENTS/Employees/Profiles/Work/Dev/Profile Full Stack Developer Danylenko Liliia.md",
+      "destination": "/Users/nikolay/Library/CloudStorage/Dropbox/ENTITIES/TALENTS/Employees/Profiles/EMP-72754.md",
+      "emp_id": "72754",
+      "formatted_id": "EMP-72754",
+      "status": "success",
+      "in_finance": true
+    },
+    {
+      "source": "/Users/nikolay/Library/CloudStorage/Dropbox/automations/entities-dropbox-sync/TALENTS/Employees/Profiles/Work/Dev/Profile Back End Developer Kizilova Olha.md",
+      "destination": "/Users/nikolay/Library/CloudStorage/Dropbox/ENTITIES/TALENTS/Employees/Profiles/EMP-00178.md",
+      "emp_id": "178",
+      "formatted_id": "EMP-00178",
+      "status": "success",
+      "in_finance": true
+    },
+    {
+      "source": "/Users/nikolay/Library/CloudStorage/Dropbox/automations/entities-dropbox-sync/TALENTS/Employees/Profiles/Work/Finance/Profile Personal Assistant, Financial manager Pasichna Anastasiia.md",
+      "destination": "/Users/nikolay/Library/CloudStorage/Dropbox/ENTITIES/TALENTS/Employees/Profiles/EMP-88105.md",
+      "emp_id": "88105",
+      "formatted_id": "EMP-88105",
+      "status": "success",
+      "in_finance": true
+    },
+    {
+      "source": "/Users/nikolay/Library/CloudStorage/Dropbox/automations/entities-dropbox-sync/TALENTS/Employees/Profiles/Work/LG/Profile Lead generator, Translator, Sales Manager Burda Anna.md",
+      "destination": "/Users/nikolay/Library/CloudStorage/Dropbox/ENTITIES/TALENTS/Employees/Profiles/EMP-84138.md",
+      "emp_id": "84138",
+      "formatted_id": "EMP-84138",
+      "status": "success",
+      "in_finance": true
+    },
+    {
+      "source": "/Users/nikolay/Library/CloudStorage/Dropbox/automations/entities-dropbox-sync/TALENTS/Employees/Profiles/Work/LG/Profile Lead generator, Translator, Personal Assistant Shkinder Kseniia.md",
+      "destination": "/Users/nikolay/Library/CloudStorage/Dropbox/ENTITIES/TALENTS/Employees/Profiles/EMP-87157.md",
+      "emp_id": "87157",
+      "formatted_id": "EMP-87157",
+      "status": "success",
+      "in_finance": true
+    },
+    {
+      "source": "/Users/nikolay/Library/CloudStorage/Dropbox/automations/entities-dropbox-sync/TALENTS/Employees/Profiles/Work/LG/Profile Recruiter, Lead generator Rekonvald Viktoriya.md",
+      "destination": "/Users/nikolay/Library/CloudStorage/Dropbox/ENTITIES/TALENTS/Employees/Profiles/EMP-83953.md",
+      "emp_id": "83953",
+      "formatted_id": "EMP-83953",
+      "status": "success",
+      "in_finance": true
+    },
+    {
+      "source": "/Users/nikolay/Library/CloudStorage/Dropbox/automations/entities-dropbox-sync/TALENTS/Employees/Profiles/Full_Project___Part_Time/Design/Profile Graphic Designer, Web Designer Kucherenko Iuliia.md",
+      "destination": "/Users/nikolay/Library/CloudStorage/Dropbox/ENTITIES/TALENTS/Employees/Profiles/EMP-00228.md",
+      "emp_id": "228",
+      "formatted_id": "EMP-00228",
+      "status": "success",
+      "in_finance": true
+    },
+    {
+      "source": "/Users/nikolay/Library/CloudStorage/Dropbox/automations/entities-dropbox-sync/TALENTS/Employees/Profiles/Part_Project___Part_Project/Design/Profile Graphic designer Vereteno Marta.md",
+      "destination": "/Users/nikolay/Library/CloudStorage/Dropbox/ENTITIES/TALENTS/Employees/Profiles/EMP-00626.md",
+      "emp_id": "626",
+      "formatted_id": "EMP-00626",
+      "status": "success",
+      "in_finance": true
+    },
+    {
+      "source": "/Users/nikolay/Library/CloudStorage/Dropbox/automations/entities-dropbox-sync/TALENTS/Employees/Profiles/Part_Project___Part_Time/Design/Profile UI UX designer Bogun Polina.md",
+      "destination": "/Users/nikolay/Library/CloudStorage/Dropbox/ENTITIES/TALENTS/Employees/Profiles/EMP-87537.md",
+      "emp_id": "87537",
+      "formatted_id": "EMP-87537",
+      "status": "success",
+      "in_finance": true
+    },
+    {
+      "source": "/Users/nikolay/Library/CloudStorage/Dropbox/automations/entities-dropbox-sync/TALENTS/Employees/Profiles/Part_Project___Part_Time/LG/Profile Lead generator Peneva Plamena.md",
+      "destination": "/Users/nikolay/Library/CloudStorage/Dropbox/ENTITIES/TALENTS/Employees/Profiles/EMP-86297.md",
+      "emp_id": "86297",
+      "formatted_id": "EMP-86297",
+      "status": "success",
+      "in_finance": true
+    },
+    {
+      "source": "/Users/nikolay/Library/CloudStorage/Dropbox/automations/entities-dropbox-sync/TALENTS/Employees/Profiles/Pending/Design/Profile Ui Ux Designer Birook Melese.md",
+      "destination": "/Users/nikolay/Library/CloudStorage/Dropbox/ENTITIES/TALENTS/Employees/Profiles/EMP-88137.md",
+      "emp_id": "88137",
+      "formatted_id": "EMP-88137",
+      "status": "success",
+      "in_finance": true
+    },
+    {
+      "source": "/Users/nikolay/Library/CloudStorage/Dropbox/automations/entities-dropbox-sync/TALENTS/Employees/Profiles/Pending/LG/Profile Lead Generator Tsyupko Myroslava.md",
+      "destination": "/Users/nikolay/Library/CloudStorage/Dropbox/ENTITIES/TALENTS/Employees/Profiles/EMP-00753.md",
+      "emp_id": "753",
+      "formatted_id": "EMP-00753",
+      "status": "success",
+      "in_finance": true
+    }
+  ]
+}

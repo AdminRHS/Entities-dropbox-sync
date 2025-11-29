@@ -1,0 +1,71 @@
+{
+  "createdAt": "2023-03-14T05:29:51.851Z",
+  "updatedAt": "2025-11-28T13:32:32.811Z",
+  "locale": "uk",
+  "title": "Наша команда",
+  "description": null,
+  "Recruiters": [
+    {
+      "id": 25,
+      "name": "Євгенія",
+      "telegramNickname": "RemotEmployees_Ievgeniia",
+      "phoneNumber": "+380634174771"
+    },
+    {
+      "id": 5,
+      "name": "Вікторія",
+      "telegramNickname": "RemotEmployees_Viktoriia",
+      "phoneNumber": "+380666146404"
+    },
+    {
+      "id": 6,
+      "name": "Елвіра",
+      "telegramNickname": "RemotEmployees_Elvira",
+      "phoneNumber": "+380936658501"
+    }
+  ],
+  "localizations": {
+    "data": [
+      {
+        "id": 5,
+        "attributes": {
+          "createdAt": "2023-05-12T08:24:11.553Z",
+          "updatedAt": "2025-08-14T11:35:35.439Z",
+          "locale": "sk",
+          "title": "Náš tím",
+          "description": "Pomôžeme vám adaptovať sa na prácu v našom tíme a predstavíme vám tím."
+        }
+      },
+      {
+        "id": 1,
+        "attributes": {
+          "createdAt": "2023-03-14T05:13:58.351Z",
+          "updatedAt": "2025-11-28T13:32:34.056Z",
+          "locale": "ru",
+          "title": "Наша команда",
+          "description": "Мы поможем Вам адаптироваться к работе в нашей команде и познакомим с коллективом."
+        }
+      },
+      {
+        "id": 3,
+        "attributes": {
+          "createdAt": "2023-05-03T11:31:51.224Z",
+          "updatedAt": "2025-11-28T13:32:32.184Z",
+          "locale": "en",
+          "title": "Our team",
+          "description": null
+        }
+      },
+      {
+        "id": 4,
+        "attributes": {
+          "createdAt": "2023-05-11T12:17:01.327Z",
+          "updatedAt": "2025-11-28T13:32:33.435Z",
+          "locale": "pl",
+          "title": "Nasz zespół",
+          "description": "Pomożemy Ci dostosować się do pracy w naszym zespole i przedstawimy Ci zespół."
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,337 @@
+Video Title: 3 Prompts To Get INCREDIBLE App Designs From AI
+Channel: Chris Ashby
+Duration: Not specified (estimated 12-13 minutes)
+URL: Not provided
+
+---
+
+## Description
+
+Three-prompt process for generating high-quality app designs using AI. Shows how to extract design style from inspiration images, create comprehensive design system guides, and build showcase apps that AI coding tools can follow.
+
+---
+
+## Key Topics
+
+- AI-Assisted Design System Generation
+- Design System Extraction from Screenshots
+- Dribbble for Design Inspiration
+- JSON Design Documentation
+- Cursor AI Coding Tool
+- GPT-5 for Visual Analysis
+- Claude Sonnet 4.5 for Code Generation
+- Vite + React + Tailwind CSS
+- Design-to-Code Workflow
+- Component Library Creation
+
+---
+
+## Tools Mentioned
+
+### Design Tools
+- **Dribbble** - Visual inspiration and design system search
+- **Figma** (implied) - Original source of design systems
+
+### AI Coding Tools
+- **Cursor** - Primary tool for workflow (with Agent mode)
+- **GPT-5** - Visual design analysis and style extraction
+- **Claude Sonnet 4.5** - Code generation and component building
+- **Composer (Cursor 2.0)** - Fast bug fixes and small tasks
+
+### Alternative Tools
+- **Lovable** - Alternative AI coding platform
+- **Bolt** - Alternative AI coding platform
+
+### Tech Stack
+- **Vite** - Build tool and dev server
+- **React 18** - Component framework
+- **Tailwind CSS v3** - Styling framework
+- **JSON** - Structured data format for design systems
+
+---
+
+## Three-Prompt Framework
+
+### PROMPT 1: Extract High-Level Design Style
+**Objective**: Analyze screenshot and create initial design.json with high-level guidelines
+
+**Prompt**:
+```
+Deeply analyze the design of the attached screenshot to create a design.json file in this project that describes the style and design of every component needed in a design system at a high level like a creative director.
+
+Capture high level guidelines for structure, spacing, fonts, colors, design style and design principles so I can use this file as the design guidelines for my app.
+
+The goal with this file is to instruct AI to be able to replicate this look easily in a project.
+```
+
+**Model**: GPT-5 (better at visual/UI analysis)
+**Output**: design.json file with brand essence, tone, colors, typography
+
+### PROMPT 2: Build Showcase App
+**Objective**: Create visual representation of all components
+
+**Prompt**:
+```
+Let's create a simple screen that contains every UI component that would exist in a design system on a mock dashboard following the design style outlined in design.json.
+
+Build this as a Vite app using React and translate all styling into Tailwind version 3. Just run this locally.
+```
+
+**Model**: Sonnet 4.5 (better for coding tasks)
+**Output**: Complete Vite app with all UI components rendered
+
+### PROMPT 3: Create Comprehensive Design System
+**Objective**: Generate detailed design-system.json from built components
+
+**Prompt**:
+```
+In this project, create a folder named 'design' and create a design-system.json file in this folder that outlines the exact styling for all components and styles in this app, along with a high-level design guidelines.
+
+The goal with this file is to create a comprehensive guide for AI to follow when building new features in this app.
+```
+
+**Model**: GPT-5 (better for UI documentation)
+**Output**: design-system.json with 646 lines of detailed component specs
+
+---
+
+## Workflow: AI-Assisted Design System Generation
+
+**DEPARTMENT**: Design / Development
+**OBJECTIVE**: Extract design style from visual inspiration and generate comprehensive, reusable design system framework
+
+**STEPS**:
+1. Search Dribbble for "design system" inspiration
+2. Select flat, clear screenshot with UI components
+3. Paste screenshot into Cursor Agent mode
+4. Execute Prompt 1 (GPT-5) → creates design.json
+5. Execute Prompt 2 (Sonnet 4.5) → builds showcase app
+6. Review components in Cursor browser tab
+7. Make any design tweaks (optional)
+8. Execute Prompt 3 (GPT-5) → creates comprehensive design-system.json
+9. Use design-system.json in future projects
+
+**DURATION**: 15-20 minutes total
+**COMPLEXITY**: Medium
+**TOOLS USED**: Dribbble, Cursor, GPT-5, Claude Sonnet 4.5, Vite, React, Tailwind CSS
+
+**INPUT**: Screenshot of design system from Dribbble
+**OUTPUT**:
+- design.json (high-level guide)
+- Complete showcase app (Vite + React)
+- design-system.json (646-line comprehensive spec)
+
+---
+
+## Design.json Structure (Output of Prompt 1)
+
+```json
+{
+  "brand": {
+    "essence": "optimistic, clear, helpful",
+    "tone_of_voice": "friendly, professional",
+    "keywords": ["clean", "approachable"]
+  },
+  "style": {
+    "design_language": "soft round white surfaces floating on citrus canvas with subtle shadows",
+    "primary_accent": "vivid purple",
+    "positive_action": "lime green"
+  },
+  "principles": [
+    "softness over sharpness",
+    "generous border radius and pill shapes",
+    "airy spacing",
+    "hierarchy",
+    "low contrast",
+    "human first visuals",
+    "clarity and restraint"
+  ],
+  "border_radius": "...",
+  "breakpoints": "...",
+  "colors": "...",
+  "typography": "..."
+}
+```
+
+---
+
+## Showcase App Components
+
+Built in Prompt 2:
+- Avatar
+- Buttons (primary, secondary, tertiary, icon buttons)
+- Cards
+- Progress bars
+- Calendar views
+- Profile summary
+- Typography scale
+- Color palette examples
+- Hover states
+- Toggle switches
+- Pills/badges
+- Icon buttons
+- Avatar stacks
+
+---
+
+## Design-System.json Structure (Output of Prompt 3)
+
+**646 lines** of detailed specifications:
+- Brand information
+- Meta information
+- All component definitions
+- Variables and tokens
+- Tailwind-specific styling
+- Guidelines:
+  - Structure
+  - Spacing
+  - Fonts
+  - Colors
+  - Style
+  - Accessibility
+  - Motion
+  - Interaction
+  - Data visualization
+  - Content
+  - Do's and don'ts
+
+---
+
+## Best Practices
+
+### Finding Inspiration on Dribbble
+✅ **Good Screenshot Qualities**:
+- Flat layout with clear components
+- Multiple UI elements visible
+- No excessive annotations or borders
+- Clean, single-purpose showcase
+- High clarity/resolution
+
+❌ **Avoid**:
+- Poster-style layouts
+- Too-small components
+- Heavy annotations (purple dashed borders, etc.)
+- Complex backgrounds
+- Multi-page screenshots
+
+### Model Selection
+- **GPT-5**: Visual tasks, UI analysis, design documentation
+- **Sonnet 4.5**: Code generation, component building
+- **Composer**: Quick fixes, small tweaks (not for initial design system)
+
+### Resolution Considerations
+- **480p**: Fast generation but pixelated faces/details
+- **720p**: Recommended for production work (736 x 1,280 in Cursor)
+- Use higher resolution for character-focused or detailed work
+
+### Using the Design System
+
+**In Cursor**:
+- Reference `@design-system.json` in prompts
+- Keep design system file in project
+- Update file as you make design tweaks
+
+**In Lovable/Bolt**:
+- Copy entire design-system.json into first prompt, OR
+- Add to Knowledge section in settings, OR
+- Use refactor prompt: "Refactor the entire UI of my app. Do not change anything functional but follow these exact design guidelines: [paste design-system.json]"
+
+---
+
+## Advanced Tips
+
+### Cursor Browser Tab
+- Click web icon in chat
+- Open browser tab to view localhost
+- No need to leave Cursor
+- Select elements for targeted tweaks
+
+### Agent Mode in Cursor
+- Use "New Agent" for new tasks
+- Clear chat context between different features
+- Keeps AI focused on current task
+
+### Incremental Refinement
+After Prompt 2:
+- Make design tweaks before Prompt 3
+- Ensure all components are exactly as desired
+- Update spacing, colors, typography
+- Then run Prompt 3 to lock in final system
+
+---
+
+## Comparison to Manual Screenshot Copying
+
+### Traditional Approach:
+- Drop screenshot → "Copy this design"
+- AI generalizes and fills gaps
+- Defaults to basic styling
+- Inconsistent results
+
+### Three-Prompt Framework:
+- High-level style extraction first
+- Build all components visually
+- Comprehensive documentation
+- Step-by-step guidance for AI
+- Reusable across projects
+
+---
+
+## Use Cases
+
+1. **Starting New Projects**: Begin with design system, then build features
+2. **Redesigning Existing Apps**: Refactor UI without breaking functionality
+3. **Team Collaboration**: Share design-system.json for consistency
+4. **Multi-Platform Apps**: Reuse system across web, mobile
+5. **Client Work**: Fast design system setup from client inspiration
+
+---
+
+## Community
+
+**AI App Builders Academy**: skool.com/aiapps
+- Learn to build apps with AI in 21 days
+- Mobile app development
+- AI agent building
+- $3M+ in AI deals (zero-cost start)
+- Weekly Q&A sessions
+- VIP plan: group coaching, demo days
+- Price increases every 50 members
+
+---
+
+## Timestamps (Estimated)
+
+00:00 - Introduction and problem statement
+00:43 - Finding inspiration on Dribbble
+01:50 - What is a design system?
+03:47 - Setting up Cursor project
+04:39 - Prompt 1: Extract design style (GPT-5)
+08:32 - Reviewing design.json output
+10:18 - Prompt 2: Build showcase app (Sonnet 4.5)
+10:56 - Community ad break (AI App Builders Academy)
+12:07 - Reviewing showcase app in browser
+18:47 - Comparing 5B vs 14B model outputs
+19:45 - Prompt 3: Create comprehensive design system
+22:29 - Reviewing design-system.json (646 lines)
+24:51 - Using design system in future builds
+25:47 - Summary of three-prompt framework
+26:10 - Closing + community link
+
+---
+
+## Department
+
+DGN (Design) / DEV (Development)
+
+---
+
+## Priority
+
+High
+
+---
+
+## Notes
+
+Excellent systematic approach to design system generation with AI. Three-prompt framework separates concerns: 1) High-level extraction, 2) Visual component building, 3) Comprehensive documentation. GPT-5 for visual analysis, Sonnet 4.5 for code. Output is production-ready design-system.json (646 lines) usable in Cursor, Lovable, or Bolt. Avoids common pitfall of screenshot-only copying where AI fills gaps poorly. Dribbble as primary inspiration source. Vite + React + Tailwind ensures compatibility with modern AI coding tools. Design system is reusable, editable, and AI-friendly structured data (JSON). Time investment: 15-20 minutes for complete system. Ideal for starting projects with strong visual foundation.

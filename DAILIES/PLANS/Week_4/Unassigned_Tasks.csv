@@ -1,0 +1,26 @@
+Employee_ID,Employee_Name,Department,Department_Code,Task_ID,Task_Title,Priority,Status,Source_Date,Deadline,Deliverables_Count,Has_Dependencies,Blocking_Other_Tasks,Assigned_By,File_Location,Notes
+,,,AID,TSK-003,Start Distributing Tasks Among Employees,MEDIUM,Not Started,271125,Week 5,3,Yes,Yes,Executive Team,Nov25\AID Nov25\[Unassigned]\Week_4\28\plans.md,Verify if item is task - generate instructions - upload to Task Manager
+,,,AID,TSK-005,Start Asking to Open Specific Emails from Employees,MEDIUM,Not Started,271125,Week 5,1,No,No,Executive Team,Nov25\AID Nov25\[Unassigned]\Week_4\28\plans.md,Likely for email warm-up system
+,,,AID,TSK-007,GPT Agent Creation Additional Research,LOW,Not Started,271125,Future,1,No,No,Executive Team,Nov25\AID Nov25\[Unassigned]\Week_4\28\plans.md,Create One more Research - ongoing research series
+,,,DEV,TSK-008,VS Code Agent Mode Research,LOW,Not Started,271125,Week 5,1,No,No,Executive Team,Nov25\Dev Nov25\[Unassigned]\Week_4\28\plans.md,Research task for development team
+,,,DEV,TSK-009,Browser Control Deep Research,LOW,Not Started,271125,Week 5,1,No,No,Executive Team,Nov25\Dev Nov25\[Unassigned]\Week_4\28\plans.md,Deep research category
+,,,DEV,TSK-010,Strapi-VSCode Connection Research,LOW,Not Started,271125,Week 5,1,No,No,Executive Team,Nov25\Dev Nov25\[Unassigned]\Week_4\28\plans.md,Build prompt for deep research Strapi to VSCode
+,,,DEV,TSK-011,Google AI Studio Research Gemini 3 Pro,LOW,Not Started,271125,Week 5,1,No,No,Executive Team,Nov25\Dev Nov25\[Unassigned]\Week_4\28\plans.md,Building research app in Build Mode
+,,,ALL,TSK-024,Download and Use Comet Browser All Staff,MEDIUM,Not Started,271125,Monday,1,No,No,Executive Team,Nov25\ALL Nov25\[Company-Wide]\Week_4\28\plans.md,ALL: Company-wide requirement - mandatory download
+,,,AID,TSK-025,Create Plan Distribution Table Task Tracking,MEDIUM,Not Started,271125,Week 5,1,No,No,Executive Team,Nov25\AID Nov25\[Unassigned]\Week_4\28\plans.md,Table for tracking task progress
+,,,AID,TSK-027,Develop Company Email Warm Up System,MEDIUM,Not Started,271125,Week 5,2,No,No,Executive Team,Nov25\AID Nov25\[Unassigned]\Week_4\28\plans.md,Send warm up emails with daily tasks and reminders
+,,,AID,TSK-028,Get Trial Modes on Emails GPT Agent LinkedIn,LOW,Not Started,271125,Future,1,No,No,Executive Team,Nov25\AID Nov25\[Unassigned]\Week_4\28\plans.md,Email trials setup
+,,,AID,TSK-031,Pack Steps and CheckLists into Guides,LOW,Not Started,271125,Future,Multiple,No,No,Executive Team,Nov25\AID Nov25\[Unassigned]\Week_4\28\plans.md,Create reusable guide templates GDS-### from patterns
+,,,HRM,TSK-032,Create HR Experiments Event Days and Weeks,LOW,Not Started,271125,Future,Multiple,No,No,Executive Team,Nov25\HRM Nov25\[Unassigned]\Week_4\28\plans.md,Quiet Wednesday - Friday Weekly Packing planning
+,,,SMM,SMM-EXEC-1,Source Content from OAY for Announcements,MEDIUM,Not Started,281125,Week 5,Multiple,Yes,No,Executive Team,Nov25\SMM Nov25\[Unassigned]\Week_4\28\plans.md,MCP OAY resource - build announcements post in Discord
+,,,SMM,SMM-EXEC-2,Video Tutorials Research Artlist.io,LOW,Not Started,281125,Week 5,1,No,No,Executive Team,Nov25\SMM Nov25\[Unassigned]\Week_4\28\plans.md,Find and evaluate video tutorials on Artlist.io
+,,,DEV,DEV-EXEC-3,Prompts App Integration Planning,MEDIUM,Not Started,281125,Week 5,1,Yes,No,Executive Team,Nov25\Dev Nov25\[Unassigned]\Week_4\28\plans.md,Track prompts creation - ENTITIES\PROMPTS location
+,,,LGN,LGN-EXEC-2,Sales Trainee Organization,MEDIUM,Not Started,281125,Week 5,Multiple,No,No,Lead Gen Team,Nov25\LGN Nov25\[Unassigned]\Week_4\28\plans.md,Assign sales trainees add profession to profiles
+,,,PRT,MLT-NEW-001,Marketing Automation Research,MEDIUM,In Progress,271125,Week 5,2,No,No,Executive Team,Nov25\MKT Nov25\[Unassigned]\Week_4\28\plans.md,Contains TSK-006 TSK-028
+,,,PRT,MLT-NEW-002,Terminology Content Creation,MEDIUM,In Progress,271125,Week 5,5,Yes,Yes,Executive Team,Nov25\ALL Nov25\[Multiple Depts]\Week_4\28\plans.md,2 of 5 tasks done - DGN VID MKT involved
+,,,PRT,MLT-NEW-003,Website Overhaul rem-s.com,MEDIUM,In Progress,271125,Week 5,6,Yes,Yes,Executive Team,Nov25\ALL Nov25\[Multiple Depts]\Week_4\28\plans.md,HRM DGN DEV - 6 tasks total
+,,,PRT,MLT-NEW-004,Candidate Onboarding Nov 2025,HIGH,Not Started,271125,Friday,1,No,Yes,Executive Team,Nov25\HRM Nov25\[Unassigned]\Week_4\28\plans.md,11 candidates - TSK-023
+,,,PRT,MLT-NEW-005,Email Automation System,MEDIUM,Not Started,271125,Week 5,2,No,No,Executive Team,Nov25\AID Nov25\[Unassigned]\Week_4\28\plans.md,DEV AID - TSK-027 TSK-028
+,,,PRT,MLT-NEW-006,Task Manager Architecture Enhancement,LOW,Not Started,271125,Future,2,No,No,Executive Team,Nov25\AID Nov25\[Unassigned]\Week_4\28\plans.md,AID All Depts - TSK-031 TSK-032
+,,,PRT,MLT-NEW-007,Deep Research Initiatives,LOW,Not Started,271125,Future,7,No,No,Executive Team,Nov25\DEV Nov25\[Unassigned]\Week_4\28\plans.md,DEV AID - 7 research tasks
+,,,PRT,MLT-NEW-008,Employee System Integration,HIGH,In Progress,271125,Week 5,8,Yes,Yes,Executive Team,Nov25\AID Nov25\[Unassigned]\Week_4\28\plans.md,AID HRM - 8 tasks 2 in progress

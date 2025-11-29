@@ -1,0 +1,82 @@
+Decision_ID,Task_ID,Decision_Type,Decision,Rationale,Decision_Maker,Alternative_Considered,Final_Assignment,Notes
+D001,TSK-001,Employee_Match,Assign to Kizilova Olha (178),Explicitly named as Olya in task,AI System,Could be unassigned,178 - Kizilova Olha,Possible match - Olya mentioned in 271125.md line 2
+D002,TSK-002,Priority_Level,Set to HIGH,Listed in Next Day Tasks line 22,AI System,MEDIUM priority,HIGH,Critical for employee account separation
+D003,TSK-003,Assignment,Leave Unassigned,No active AID employees in directory,AI System,Assign to Niko (not in directory),Unassigned,AID department tasks need executive decision
+D004,TSK-004,Dependency,Yes - Depends on TSK-002,Personal accounts after Dropbox separation,AI System,No dependency,Yes,Sequential task flow
+D005,TSK-005,Assignment,Leave Unassigned,AID department - no active employees,AI System,Assign to dev team,Unassigned,Email warm-up system unclear ownership
+D006,TSK-006,Employee_Match,Assign to Perederii Vladislav (86246),Prompt Engineer - Available status,AI System,Leave unassigned,86246 - Perederii Vladislav,Marketing research - matched to prompt engineer
+D007,TSK-006,Status,Set to In Progress,Evidence from 271125 lines 13-16,AI System,Not Started,In Progress,Research already initiated
+D008,TSK-007 to TSK-011,Assignment,Leave Unassigned,Deep research - need developer assignment,AI System,Assign to Danylenko,Unassigned,Wait for DEV-EXEC-2 completion
+D009,TSK-012,Status,Set to Completed,Evidence: 7 files created,AI System,In Progress,Completed,Clear completion evidence from 271125
+D010,TSK-013,Status,Set to Completed,Deliverable: 529-line prompt file,AI System,In Progress,Completed,AI_PROMPT_For_Content_Generation.md exists
+D011,TSK-014,Employee_Match,Assign to Skrypkar Vilhelm (333),Design Team Lead - Available status,AI System,Leave unassigned,333 - Skrypkar Vilhelm,Design tasks - used Available team lead
+D012,TSK-014,Dependency,Yes - Depends on TSK-012/013,Need taxonomy and prompts first,AI System,No dependency,Yes,Sequential content creation
+D013,TSK-015,Employee_Match,Assign to Podolskyi Sviatoslav (299),Video Team Lead - Work status,AI System,Leave unassigned,299 - Podolskyi Sviatoslav,VID department clear match
+D014,TSK-016,Employee_Match,Assign to Skrypkar Vilhelm (333),Design Team Lead for illustrations,AI System,Assign to different designer,333 - Skrypkar Vilhelm,Visual learning task
+D015,TSK-017,Status,Set to In Progress,Website update ongoing,AI System,Not Started,In Progress,Evidence from 271125 line 45
+D016,TSK-018,Employee_Match,Assign to Kovalska Anastasiya (45405),Sales Manager - Work status,AI System,Assign to recruiter,45405 - Kovalska Anastasiya,HRM tasks to sales manager
+D017,TSK-020,Employee_Match,Assign to Danylenko Liliia (72754),Full Stack Developer - Work status,AI System,Assign to Kizilova,72754 - Danylenko Liliia,WordPress/dev task
+D018,TSK-021,Employee_Match,Assign to Perederii Vladislav (86246),Prompt Engineer for content,AI System,Assign to copywriter,86246 - Perederii Vladislav,Content rewrite - marketing
+D019,TSK-022,Employee_Match,Assign to Kovalska Anastasiya (45405),Sales Manager - recruitment focus,AI System,Assign to recruiter,45405 - Kovalska Anastasiya,Candidate listings - HRM
+D020,TSK-023,Priority_Level,Set to HIGH,Friday deadline + 11 candidates,AI System,MEDIUM,HIGH,URGENT - same as HRM-EXEC-1
+D021,TSK-024,Assignment,Leave Unassigned,Company-wide ALL employees,AI System,Assign to each employee,Unassigned,ALL-EXEC-1 - broadcast task
+D022,TSK-025,Assignment,Leave Unassigned,AID department - strategic planning,AI System,Assign to Niko,Unassigned,Task tracking system - executive
+D023,TSK-026,Priority_Level,Set to HIGH CRITICAL,Friday implementation required,AI System,MEDIUM,HIGH,Evidence: Tomorrow (281125) line 181-182
+D024,TSK-026,Employee_Match,Assign to Artemchuk Nikolay (37226),Executive role - head of marketing,AI System,Assign to Niko (not in dir),37226 - Artemchuk Nikolay,Executive task - confirmed employee
+D025,TSK-027 to TSK-028,Assignment,Leave Unassigned,Email systems - need dev assignment,AI System,Assign to Danylenko,Unassigned,DEV + AID - unclear ownership
+D026,TSK-029,Employee_Match,Assign to Danylenko Liliia (72754),Full stack dev - React skills,AI System,Leave unassigned,72754 - Danylenko Liliia,Research app development
+D027,TSK-030,Assignment,Leave Unassigned,MCP research - future priority,AI System,Assign to Danylenko,Unassigned,LOW priority - Week 5+
+D028,TSK-031 to TSK-032,Assignment,Leave Unassigned,Future planning - not immediate,AI System,Assign to departments,Unassigned,LOW priority tasks
+D029,EXEC-PRIORITY-1,Priority_Level,Set to HIGH,DATE-SPECIFIC 281125,AI System,MEDIUM,HIGH,Must be done today
+D030,EXEC-PRIORITY-1,Employee_Match,Assign to Artemchuk Nikolay (37226),Executive team member,AI System,Assign to Niko,37226 - Artemchuk Nikolay,Niko's task - assigned to confirmed exec
+D031,EXEC-PRIORITY-3,Priority_Level,Set to HIGH,Friday critical - Week 4 summary,AI System,MEDIUM,HIGH,Blocks Week 5 planning
+D032,EXECUTIVE-1,Priority_Level,Set to HIGH,PRIMARY FOCUS Friday,AI System,MEDIUM,HIGH,281125.md line 30 - main objective
+D033,EXECUTIVE-1,Blocking,Set to Yes,Blocks secondary dept assignments,AI System,No,Yes,Org structure needed first
+D034,EXECUTIVE-2,Status,Set to In Progress,Friday ritual ongoing,AI System,Not Started,In Progress,GDS-004 - recurring task
+D035,EXECUTIVE-4,Task_Merge,Same as TSK-026,Both are daily report cycle,AI System,Keep separate,Merged in assignment,TSK-026 = EXECUTIVE-4
+D036,HRM-EXEC-1,Priority_Level,Set to HIGH URGENT,Before end of day Friday,AI System,MEDIUM,HIGH,11 candidates waiting
+D037,HRM-EXEC-1,Task_Merge,Same as TSK-023,Both onboarding letters,AI System,Keep separate,Merged in assignment,TSK-023 = HRM-EXEC-1
+D038,HRM-EXEC-2,Employee_Match,Assign to Kovalska Anastasiya (45405),Sales manager oversight,AI System,Assign to recruiter,45405 - Kovalska Anastasiya,HR interview processing
+D039,DGN-EXEC-1,Employee_Match,Assign to Skrypkar Vilhelm (333),Design Team Lead,AI System,Leave unassigned,333 - Skrypkar Vilhelm,Planning session - team lead
+D040,DGN-EXEC-2,Priority_Level,Set to LOW,Future planning - Week 5,AI System,MEDIUM,LOW,Not immediate execution
+D041,DEV-EXEC-1,Priority_Level,Set to HIGH,Friday executive discussion,AI System,MEDIUM,HIGH,Platform decision critical
+D042,DEV-EXEC-1,Employee_Match,Assign to Danylenko Liliia (72754),Full stack dev - React,AI System,Assign to Kizilova,72754 - Danylenko Liliia,Research app requirements
+D043,DEV-EXEC-2,Priority_Level,Set to HIGH,Friday Afternoon Priority,AI System,MEDIUM,HIGH,281125.md lines 38-39 - blocks Monday
+D044,DEV-EXEC-2,Blocking,Set to Yes,Blocks project assignments,AI System,No,Yes,Developer availability needed
+D045,DEV-EXEC-3,Assignment,Leave Unassigned,TBD Friday - no dev assigned yet,AI System,Assign to Danylenko,Unassigned,Depends on DEV-EXEC-2
+D046,LGN-EXEC-1,Employee_Match,Assign to 3 team leads,Anna Burda Ksenia Diana,AI System,Assign to one lead,84138 87157 87396,Team leads collaboration
+D047,LGN-EXEC-2,Assignment,Leave Unassigned,Sales trainee organization - need list,AI System,Assign to team leads,Unassigned,Unclear specific assignment
+D048,VID-EXEC-1,Employee_Match,Assign to Podolskyi Sviatoslav (299),Video Team Lead - Work status,AI System,Leave unassigned,299 - Podolskyi Sviatoslav,Video planning - clear match
+D049,MKT-EXEC-1,Employee_Match,Assign to Perederii Vladislav (86246),Marketing research - Prompt Engineer,AI System,Assign to Artemchuk,86246 - Perederii Vladislav,LinkedIn research consolidation
+D050,SMM-EXEC-1 to SMM-EXEC-2,Assignment,Leave Unassigned,SMM department - no active employees,AI System,Assign to marketing,Unassigned,Social media - need assignment
+D051,ALL-EXEC-1,Assignment,Leave Unassigned,Company-wide broadcast,AI System,Assign to all,Unassigned,Comet Browser - all staff
+D052,INITIATIVE-1,Priority_Level,Set to LOW,Future strategic - no immediate action,AI System,MEDIUM,LOW,Online Academy planning
+D053,INITIATIVE-2,Priority_Level,Set to LOW,Week 5 planning,AI System,MEDIUM,LOW,Prompts ecosystem
+D054,INITIATIVE-3,Priority_Level,Set to MEDIUM,In Progress - Friday finalization,AI System,HIGH,MEDIUM,Research app spec
+D055,INITIATIVE-4,Priority_Level,Set to HIGH,Company-wide Friday implementation,AI System,MEDIUM,HIGH,MainPrompt 7.1 upgrade
+D056,PRT-NEW-001,Status,Set to Completed,7 files delivered,AI System,In Progress,Completed,Terminology Teaching finished
+D057,PRT-NEW-002,Status,Set to In Progress,Website update ongoing,AI System,Not Started,In Progress,Multiple tasks in flight
+D058,PRT-NEW-003,Priority_Level,Set to HIGH,Critical employee systems,AI System,MEDIUM,HIGH,Account integration strategic
+D059,MLT-NEW-001 to MLT-NEW-008,Assignment,Leave Unassigned,Milestones - not individual tasks,AI System,Assign to leads,Unassigned,Milestone tracking only
+D060,Status_Work_Only,Filter_Decision,Use only Status = Work,13 employees vs 79 total,AI System,Use all employees,Work status only,Active employees filter
+D061,Available_TeamLeads,Exception_Decision,Use Available for team leads,Team leads needed for dept tasks,AI System,Leave unassigned,Include Available,Vilhelm Vladislav Dana used
+D062,Executive_NotInDir,Assignment_Challenge,Assign to Artemchuk Nikolay,Niko Stas not in directory,AI System,Leave all unassigned,37226 - Artemchuk Nikolay,Best available executive match
+D063,AID_Department,Assignment_Challenge,Leave AID tasks unassigned,No active AID employees,AI System,Assign to Artemchuk,Unassigned,12 tasks - executive decision needed
+D064,241125_Report,Missing_File,Skip - Not Found,File not accessible,AI System,Search for file,Skipped,No content to extract
+D065,251125_Report,Missing_File,Skip - Not Found,File not accessible,AI System,Search for file,Skipped,No content to extract
+D066,261125_Report,Missing_File,Skip - Not Found,File not accessible,AI System,Search for file,Skipped,No content to extract
+D067,FileLocation_Pattern,Naming_Decision,Use Nov25\[Dept] Nov25\[Name]\Week_4\28\plans.md,Consistent with v7.1 framework,AI System,Use different pattern,Pattern chosen,Standard file structure
+D068,Deadline_Friday,Priority_Logic,Set to HIGH priority,Same-day completion needed,AI System,Keep MEDIUM,HIGH for Friday,15 tasks Friday deadline
+D069,Deadline_Monday,Priority_Logic,Set to MEDIUM priority,Next business day,AI System,Set to HIGH,MEDIUM for Monday,8 tasks Monday deadline
+D070,Deadline_Week5,Priority_Logic,Set to MEDIUM priority,1-week execution window,AI System,Set to LOW,MEDIUM for Week 5,35 tasks Week 5
+D071,Deadline_Future,Priority_Logic,Set to LOW priority,No immediate deadline,AI System,Set to MEDIUM,LOW for Future,13 tasks Future
+D072,TSK-002_Dependency,Blocking_Logic,Blocks TSK-004 and TSK-005,Sequential employee integration,AI System,No blocking,Yes - blocks 2 tasks,Dropbox first then accounts/email
+D073,TSK-026_Dependency,Blocking_Logic,Blocks automated task distribution,Daily report cycle prerequisite,AI System,No blocking,Yes - blocks automation,Critical dependency
+D074,EXECUTIVE-1_Dependency,Blocking_Logic,Blocks secondary dept assignments,Org structure needed,AI System,No blocking,Yes - blocks assignments,Clarifies roles
+D075,DEV-EXEC-2_Dependency,Blocking_Logic,Blocks project starts,Developer identification needed,AI System,No blocking,Yes - blocks 2 projects,Research App + Prompts App wait
+D076,TSK-014_Dependency,Blocking_Logic,Blocks TSK-015 video production,Design posts before videos,AI System,No blocking,Yes - blocks 1 task,Sequential content creation
+D077,NewCandidates_11,Data_Challenge,Cannot assign Employee IDs,Not yet in directory,AI System,Create temp IDs,Not assigned,Wait for directory update
+D078,Olya_Ambiguity,Employee_Match,Match to Kizilova Olha (178),CRM/Dev - best match,AI System,Leave as unknown,178 - Kizilova Olha,Possible match - needs confirmation
+D079,Niko_NotFound,Employee_Match,Assign tasks to Artemchuk,Niko not in directory,AI System,Leave unassigned,37226 - Artemchuk Nikolay,CEO/Strategic Lead - proxy assignment
+D080,Stas_NotFound,Data_Challenge,Cannot assign tasks,Not in directory,AI System,Create custom ID,Skip Stas tasks,Executive - no match found
+D081,CSV_Columns,Format_Decision,Use 15 columns as specified,Matches user requirements,AI System,Add more columns,15 columns used,Employee_ID through Notes

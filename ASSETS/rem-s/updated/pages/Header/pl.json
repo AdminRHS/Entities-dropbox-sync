@@ -1,0 +1,276 @@
+{
+  "createdAt": "2023-03-01T05:50:21.869Z",
+  "updatedAt": "2025-11-28T14:39:28.829Z",
+  "locale": "pl",
+  "allVacanciesValue": "Wszystkie wolne miejsca",
+  "backValue": "Powrót do menu",
+  "isHotValue": "Gorący",
+  "commonVacancyDetails": null,
+  "menuValue": "Menu",
+  "categoryButton": "Do zastosowania",
+  "seeMore": "Zobacz więcej",
+  "meta": "Outstaffingowa firma z Ukrainy, działająca w dziedzinie marketingu, tworzenia i projektowania stron internetowych, oferuje obiecującą pracę w IT zdalnie.",
+  "chooseLangValue": "Wybierz język",
+  "footerContacts": "Kontakty",
+  "footerAdress": "Warszawa, Polska",
+  "footerNumber": "+380936000278",
+  "footerMail": "hr@remotemployees.com",
+  "footerInsta": "https://www.instagram.com/remotemployees/",
+  "footerFB": "https://fb.com/remotemployees",
+  "footerNumberPl": "+48506668747",
+  "menu": [
+    {
+      "id": 28,
+      "path_id": " ",
+      "title": "Golowna"
+    },
+    {
+      "id": 24,
+      "path_id": "vacancies",
+      "title": "Oferty pracy"
+    },
+    {
+      "id": 25,
+      "path_id": "about",
+      "title": "O nas"
+    },
+    {
+      "id": 26,
+      "path_id": "contacts",
+      "title": "Kontakty"
+    },
+    {
+      "id": 27,
+      "path_id": "videointerview",
+      "title": "Wywiad wideo"
+    }
+  ],
+  "languagesList": [
+    {
+      "id": 547,
+      "locale": "en",
+      "language": "English"
+    },
+    {
+      "id": 548,
+      "locale": "ua",
+      "language": "Українська"
+    },
+    {
+      "id": 549,
+      "locale": "pl",
+      "language": "Polski"
+    },
+    {
+      "id": 550,
+      "locale": "ru",
+      "language": "Русский"
+    }
+  ],
+  "mainCat": {
+    "data": {
+      "id": 735,
+      "attributes": {
+        "name": "video-cat.png",
+        "alternativeText": "video-cat.png",
+        "caption": "video-cat.png",
+        "width": 440,
+        "height": 496,
+        "formats": {
+          "thumbnail": {
+            "name": "thumbnail_video-cat.png",
+            "hash": "thumbnail_video_cat_743eae5ff0",
+            "ext": ".png",
+            "mime": "image/png",
+            "path": null,
+            "width": 138,
+            "height": 156,
+            "size": 29.74,
+            "url": "/uploads/thumbnail_video_cat_743eae5ff0.png"
+          }
+        },
+        "hash": "video_cat_743eae5ff0",
+        "ext": ".png",
+        "mime": "image/png",
+        "size": 32.86,
+        "url": "/uploads/video_cat_743eae5ff0.png",
+        "previewUrl": null,
+        "provider": "local",
+        "provider_metadata": null,
+        "createdAt": "2023-06-07T06:56:58.807Z",
+        "updatedAt": "2023-06-07T06:57:12.276Z"
+      }
+    }
+  },
+  "vacancyCat": {
+    "data": {
+      "id": 736,
+      "attributes": {
+        "name": "vacancy-cat.png",
+        "alternativeText": "vacancy-cat.png",
+        "caption": "vacancy-cat.png",
+        "width": 365,
+        "height": 450,
+        "formats": {
+          "thumbnail": {
+            "name": "thumbnail_vacancy-cat.png",
+            "hash": "thumbnail_vacancy_cat_8472c1cf85",
+            "ext": ".png",
+            "mime": "image/png",
+            "path": null,
+            "width": 127,
+            "height": 156,
+            "size": 24.38,
+            "url": "/uploads/thumbnail_vacancy_cat_8472c1cf85.png"
+          }
+        },
+        "hash": "vacancy_cat_8472c1cf85",
+        "ext": ".png",
+        "mime": "image/png",
+        "size": 24.99,
+        "url": "/uploads/vacancy_cat_8472c1cf85.png",
+        "previewUrl": null,
+        "provider": "local",
+        "provider_metadata": null,
+        "createdAt": "2023-06-07T06:56:58.822Z",
+        "updatedAt": "2023-06-07T06:56:58.822Z"
+      }
+    }
+  },
+  "videoCat": {
+    "data": {
+      "id": 738,
+      "attributes": {
+        "name": "video-cat.png",
+        "alternativeText": "video-cat.png",
+        "caption": "video-cat.png",
+        "width": 415,
+        "height": 337,
+        "formats": {
+          "thumbnail": {
+            "name": "thumbnail_video-cat.png",
+            "hash": "thumbnail_video_cat_d3b974a463",
+            "ext": ".png",
+            "mime": "image/png",
+            "path": null,
+            "width": 192,
+            "height": 156,
+            "size": 32.14,
+            "url": "/uploads/thumbnail_video_cat_d3b974a463.png"
+          }
+        },
+        "hash": "video_cat_d3b974a463",
+        "ext": ".png",
+        "mime": "image/png",
+        "size": 23.61,
+        "url": "/uploads/video_cat_d3b974a463.png",
+        "previewUrl": null,
+        "provider": "local",
+        "provider_metadata": null,
+        "createdAt": "2023-06-07T06:57:37.418Z",
+        "updatedAt": "2023-06-07T06:57:37.418Z"
+      }
+    }
+  },
+  "footerData": null,
+  "localizations": {
+    "data": [
+      {
+        "id": 6,
+        "attributes": {
+          "createdAt": "2023-03-15T03:15:42.341Z",
+          "updatedAt": "2025-11-28T14:39:28.644Z",
+          "locale": "ru",
+          "allVacanciesValue": "Все вакансии",
+          "backValue": "Назад",
+          "isHotValue": "Горячая",
+          "commonVacancyDetails": "",
+          "menuValue": "Меню",
+          "categoryButton": "Подать заявку",
+          "seeMore": "Смотреть больше",
+          "meta": "Аутстаффинговая компания Украины, работающая в сфере маркетинга, web разработки и дизайна предлагает Вам перспективную работу в IT удаленно.",
+          "chooseLangValue": "Выберите язык",
+          "footerContacts": "Контакты",
+          "footerAdress": "Варшава, Польша",
+          "footerNumber": "+380936000278",
+          "footerMail": "hr@remotemployees.com",
+          "footerInsta": "https://www.instagram.com/remotemployees/",
+          "footerFB": "https://fb.com/remotemployees",
+          "footerNumberPl": "+48506668747"
+        }
+      },
+      {
+        "id": 1,
+        "attributes": {
+          "createdAt": "2022-11-02T11:22:50.007Z",
+          "updatedAt": "2025-11-28T14:39:28.824Z",
+          "locale": "uk",
+          "allVacanciesValue": "Усі вакансії",
+          "backValue": "Назад до меню",
+          "isHotValue": "Гаряча",
+          "commonVacancyDetails": null,
+          "menuValue": "Меню",
+          "categoryButton": "Подати заявку",
+          "seeMore": "Дивитися більше",
+          "meta": "Аутстафінгова компанія України, працює в сфері маркетингу, web розробки та дизайну пропонує Вам перспективну роботу в IT віддалено.",
+          "chooseLangValue": "Оберіть мову",
+          "footerContacts": "Контакти",
+          "footerAdress": "Варшава, Польща",
+          "footerNumber": "+380936000278",
+          "footerMail": "hr@remotemployees.com",
+          "footerInsta": "https://www.instagram.com/remotemployees/",
+          "footerFB": "https://fb.com/remotemployees",
+          "footerNumberPl": "+48506668747"
+        }
+      },
+      {
+        "id": 4,
+        "attributes": {
+          "createdAt": "2023-03-01T05:54:33.822Z",
+          "updatedAt": "2025-11-28T14:39:28.822Z",
+          "locale": "sk",
+          "allVacanciesValue": "Všetky voľné miesta",
+          "backValue": "Späť do menu",
+          "isHotValue": "Hot",
+          "commonVacancyDetails": null,
+          "menuValue": "Menu",
+          "categoryButton": "Podanie žiadosti",
+          "seeMore": "Zobraziť viac",
+          "meta": "Outstaffing podjetje iz Ukrajine, ki deluje na področju trženja, spletnega razvoja in oblikovanja, vam ponuja obetavno delo v IT na daljavo.",
+          "chooseLangValue": "Vyberte jazyk",
+          "footerContacts": "Kontakty",
+          "footerAdress": "Varšava Poľsko",
+          "footerNumber": "+380936000278",
+          "footerMail": "hr@remotemployees.com",
+          "footerInsta": "https://www.instagram.com/remotemployees/",
+          "footerFB": "https://fb.com/remotemployees",
+          "footerNumberPl": "+48506668747"
+        }
+      },
+      {
+        "id": 2,
+        "attributes": {
+          "createdAt": "2022-11-02T11:23:47.735Z",
+          "updatedAt": "2025-11-28T14:39:28.838Z",
+          "locale": "en",
+          "allVacanciesValue": "All vacancies",
+          "backValue": "Back to menu",
+          "isHotValue": "Hot",
+          "commonVacancyDetails": null,
+          "menuValue": "Menu",
+          "categoryButton": "Apply ",
+          "seeMore": "See more",
+          "meta": "Outstaffing company of Ukraine, working in the field of marketing, web development and design, offers you a promising job in IT remotely.",
+          "chooseLangValue": "Choose language",
+          "footerContacts": "Contacts",
+          "footerAdress": "Warsaw, Poland",
+          "footerNumber": "+380936000278",
+          "footerMail": "hr@remotemployees.com",
+          "footerInsta": "https://www.instagram.com/remotemployees/",
+          "footerFB": "https://fb.com/remotemployees",
+          "footerNumberPl": "+48506668747"
+        }
+      }
+    ]
+  }
+}

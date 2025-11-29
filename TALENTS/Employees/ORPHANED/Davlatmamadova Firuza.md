@@ -1,0 +1,4 @@
+# Resume
+
+**Name:** Davlatmamadova Firuza
+

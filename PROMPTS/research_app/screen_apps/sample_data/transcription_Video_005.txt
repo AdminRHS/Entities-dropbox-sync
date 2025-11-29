@@ -1,0 +1,204 @@
+Video Title: My Agentic Engineering Tech Stack
+Channel: Cole
+Duration: 34:24
+URL: Not provided
+
+---
+
+## Description
+
+Complete overview of an AI-first tech stack for building agentic AI applications in 2026. Covers core infrastructure, AI agent frameworks, RAG systems, web automation, full-stack development, and deployment tools. Emphasizes capabilities over tools and finding what works well for you.
+
+---
+
+## Key Topics
+
+- Agentic Engineering Tech Stack
+- Core Infrastructure (Database, Caching, AI Coding, Prototyping)
+- AI Agent Frameworks (Single-agent and Multi-agent)
+- RAG Agents (File Extraction, Vector DB, Knowledge Graphs, Memory)
+- Web Automation Agents (Browser Control, Scraping, Crawling)
+- Full Stack Development (API, Database, Authentication, Frontend)
+- Deployment & Infrastructure (CI/CD, Testing, Hosting)
+- Self-Hosting and Local AI
+- Open-Source Tools
+
+---
+
+## Tools Mentioned
+
+### Core Infrastructure
+- **Postgres** (via Neon or Supabase) - Primary database
+- **MongoDB** - NoSQL alternative
+- **Firestore** - NoSQL alternative (Firebase)
+- **Redis** - Caching (blazing fast)
+- **Valkey** - Open-source Redis alternative
+- **Claude Code** - AI coding assistant (primary)
+- **Cursor 2.0** - AI coding assistant alternative
+- **Archon** - Knowledge and task management for AI coding assistants (open-source project)
+- **n8n** - No-code prototyping and automation
+- **LangFlow** - No-code AI workflow alternative
+- **Flowise** - No-code AI workflow alternative
+
+### AI Agent Frameworks
+- **Pydantic AI** - Primary agent framework
+- **LangGraph** - Multi-agent orchestration
+- **CrewAI** - Multi-agent alternative
+- **Arcade** - Agent authorization and tool security
+- **Langfuse** - Agent observability and monitoring
+- **LangSmith** - Observability alternative (not fully open-source)
+- **Helicone** - Observability alternative
+
+### RAG Tools
+- **Docling** - Complex document extraction (PDFs, Excel, diagrams)
+- **LlamaIndex** - RAG framework alternative
+- **Unstructured** - Data extraction alternative
+- **Crawl4.AI** - Website data extraction (fast, open-source)
+- **PGVector** - Postgres vector database extension
+- **Qdrant** - Dedicated vector database alternative
+- **Pinecone** - Dedicated vector database alternative
+- **Mem0** - Long-term memory framework
+- **Leda** - AI agent framework focused on memory
+- **Zep** - Memory framework (not open-source)
+- **Neo4j** - Graph database for knowledge graphs
+- **Memgraph** - Graph database alternative
+- **FalkorDB** - Graph database alternative
+- **Graphiti** - Knowledge graph library for entity/relationship extraction
+- **Lightrag** - Knowledge graph + vector DB alternative
+- **Ragas** - RAG evaluation framework
+- **Brave Search** - Web search API (privacy-focused)
+- **Perplexity** - Detailed web search alternative
+
+### Web Automation
+- **Crawl4.AI** - Website content extraction
+- **Firecrawl** - Website extraction alternative
+- **Apify** - Social platform scraping
+- **Bright Data** - Social platform scraping
+- **Playwright** - Deterministic browser automation
+- **Puppeteer** - Browser automation alternative
+- **Selenium** - Browser automation alternative
+- **Browser Base** - Managed browser automation with AI
+  - **Stagehand** (MCP server) - Natural language browser control
+  - **Director** - AI browser automation with code export
+
+### Full Stack Development
+- **Fast API** - Python API framework
+- **Flask** - Python API alternative
+- **Express** - TypeScript API framework
+- **Postgres** - Database (again)
+- **Supabase** - Authentication + Postgres hosting
+- **Neon** - Postgres hosting alternative
+
+### Programming Languages
+- **Python** - Primary language
+- **TypeScript** - Secondary language
+
+---
+
+## Key Concepts
+
+### Philosophy
+- **Capabilities over Tools** - Focus on solving problems, not obsessing over tools
+- **Stick with What Works** - Find stable stack and maintain it
+- **Open-Source First** - Preference for open-source, self-hostable tools
+- **AI-First Stack** - Everything designed around AI capabilities
+- **Local AI Package** - Custom package with self-hosted versions of all tools
+
+### Architecture Patterns
+- **MoE (Mixture of Experts)** - Efficient AI model architecture
+- **Progressive Disclosure** - Context window optimization technique
+- **Vector Database** - Storage for semantic search
+- **Knowledge Graphs** - Entity and relationship extraction
+- **Long-term Memory** - Persistent agent memory across sessions
+- **Agentic RAG** - AI agent chooses between vector DB and knowledge graph
+- **Human-in-the-Loop** - Manual intervention points in workflows
+- **Graph Persistence** - Saving multi-agent workflow state
+
+### Integration Patterns
+- **Pydantic AI + LangGraph** - Single agents (Pydantic) orchestrated by LangGraph
+- **Arcade + LangGraph** - Secure tool authorization within multi-agent systems
+- **Langfuse + LangGraph** - Observability for multi-agent routing decisions
+- **Mem0 + PGVector** - Long-term memory using Postgres vector extension
+- **Playwright MCP Server** - Visual validation for AI coding assistants
+- **Browser Base + Playwright** - AI on top of deterministic automation
+
+---
+
+## Workflows Mentioned
+
+### WORKFLOW: Agentic RAG with Dual Search
+**OBJECTIVE**: Intelligently choose between vector database and knowledge graph based on query type
+
+**COMPONENTS**:
+- AI agent as decision maker
+- Vector database (PGVector) for semantic search
+- Knowledge graph (Neo4j + Graphiti) for entity/relationship queries
+- LangGraph for routing logic
+
+**USE CASE**: Different query types require different retrieval strategies
+
+### WORKFLOW: Multi-Agent SEO Research System
+**OBJECTIVE**: Parallel research across SEO, social media, and competitor analysis
+
+**STEPS**:
+1. User submits research request via chat interface
+2. LangGraph orchestrates 3 specialized agents in parallel:
+   - SEO Research Agent
+   - Social Media Research Agent
+   - Competitor Research Agent
+3. Each agent works independently in isolated context windows
+4. Results aggregated and presented in unified dashboard
+
+**TOOLS USED**: Pydantic AI (agents), LangGraph (orchestration), Fast API (backend), Postgres (storage)
+
+---
+
+## Timestamps
+
+00:00 - Introduction: Complete tech stack overview
+00:23 - Philosophy: AI-first, stability, capabilities over tools
+01:32 - Core Infrastructure: Database, Caching, AI Coding
+02:06 - Category breakdown and alternatives approach
+02:29 - Database: Postgres (Neon, Supabase)
+04:05 - Why SQL over NoSQL for AI agents
+04:34 - Caching: Redis and Valkey
+04:34 - AI Coding: Claude Code + Archon
+05:27 - Prototyping: n8n for validating agent workflows
+06:19 - Framework philosophy and alternatives
+06:47 - AI Agent Framework: Pydantic AI
+07:32 - Multi-agent: LangGraph
+08:26 - Tool Authorization: Arcade
+09:31 - MCP Server SDK demo with Arcade
+10:19 - LangGraph + Arcade integration example
+10:58 - Observability: Langfuse
+12:08 - RAG Tools: Data extraction
+12:29 - Data Extraction: Docling and Crawl4.AI
+14:23 - Vector Storage: Postgres + PGVector
+15:28 - Long-term Memory: Mem0
+16:20 - Knowledge Graphs: Neo4j + Graphiti
+17:17 - Agentic RAG: Vector DB + Knowledge Graph
+17:56 - Evaluation: Ragas
+18:44 - Web Search: Brave API
+19:18 - Web Automation: Crawl4.AI, Apify, Bright Data
+20:03 - Browser Automation: Playwright
+21:05 - Browser Base: Stagehand, Director
+22:42 - Full Stack: Fast API, Postgres, Supabase
+(Video continues with deployment and infrastructure - not fully transcribed)
+
+---
+
+## Department
+
+DEV (Development) / AID (AI & Automation)
+
+---
+
+## Priority
+
+High
+
+---
+
+## Notes
+
+Comprehensive tech stack guide for AI-first development. Strong emphasis on open-source, self-hostable tools. Covers entire pipeline: data ingestion → storage → agent frameworks → orchestration → observability → deployment. Notable integrations: Pydantic AI + LangGraph for multi-agent, Mem0 + PGVector for memory, Arcade for OAuth in agents. Includes "Local AI Package" with self-hosted versions. Programming languages: Python and TypeScript. Philosophy: Find what works and stick with it, capabilities over tools, avoid over-engineering. Ideal for building production-grade agentic AI applications.

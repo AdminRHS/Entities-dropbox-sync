@@ -1,0 +1,22 @@
+{
+  "name": "strapi-single-types-export",
+  "version": "1.0.0",
+  "description": "Script to export single types from Strapi CMS",
+  "main": "strapi-single-types-export.js",
+  "scripts": {
+    "export": "node strapi-single-types-export.js",
+    "test": "node strapi-single-types-export.js --test"
+  },
+  "keywords": [
+    "strapi",
+    "export",
+    "single-types",
+    "cms"
+  ],
+  "author": "",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "axios": "^1.6.0"
+  }
+}
+

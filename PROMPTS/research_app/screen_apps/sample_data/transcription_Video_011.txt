@@ -1,0 +1,352 @@
+Video Title: Wan 2.2 Open Source Video Generation - First Look
+Channel: Benji AI
+Duration: 31:12
+URL: Not provided
+
+---
+
+## Description
+
+First look and initial impressions of Wan 2.2 open-source AI video generation model. Covers new features, different model versions (5B, 14B), and how to run them using ComfyUI. Explores lighting control, camera angles, text-to-video, and image-to-video generation capabilities.
+
+---
+
+## Key Topics
+
+- Wan 2.2 Open Source Release
+- Mixture of Experts (MoE) Architecture
+- Text-to-Video (T2V) Generation
+- Image-to-Video (I2V) Generation
+- Hybrid 5B Model (T2V + I2V combined)
+- ComfyUI Integration
+- Hardware Requirements (VRAM)
+- FP16 vs FP8 vs GGUF Quantization
+- 720p and 480p Resolution Comparison
+- Lighting and Camera Angle Control
+
+---
+
+## Tools Mentioned
+
+### Primary Tools
+- **Wan 2.2** - Open source video generation model
+- **ComfyUI** - Node-based UI for running AI models
+- **Hugging Face** - Model hosting platform
+- **Model Scope** - Alternative model hosting
+
+### Model Variants
+- **14B MoE Models**: Text-to-Video, Image-to-Video (high noise + low noise pairs)
+- **5B Hybrid Model**: Combined T2V + I2V (single file)
+
+### Alternative Workflows
+- **Diffusers** - Python programmatic generation
+- **GGUF Quantization** - For lower VRAM usage
+
+### Tech Stack
+- **Apache 2.0 License** - True open source
+- **Transformer Architecture** - Modern AI model design
+- **UMT 5 XXL** - Text encoder (same as 2.1)
+- **VAE** - Video encoder/decoder (2.1 and 2.2 versions)
+
+---
+
+## Model Comparison
+
+### Wan 2.2 Model Types
+
+| Model | Parameters | Type | VRAM (FP16) | VRAM (FP8) | File Size (FP16) |
+|-------|-----------|------|-------------|------------|------------------|
+| Text-to-Video (MoE) | 14B | High+Low Noise Pair | ~60GB | ~30GB | ~50GB (both files) |
+| Image-to-Video (MoE) | 14B | High+Low Noise Pair | ~60GB | ~30GB | ~50GB (both files) |
+| Hybrid (T2V+I2V) | 5B | Single Model | ~10GB | ~6GB | ~10GB |
+
+### GGUF Quantization Options
+- **Q8** (8-bit): ~15GB per file (need high + low noise = 30GB total)
+- Reduces VRAM requirements
+- Slight quality trade-off
+
+---
+
+## New Features in Wan 2.2
+
+### Lighting Control
+- Different lighting backgrounds
+- Day/night time switching
+- Trained by default (no additional LoRA needed)
+
+### Camera Angles
+- Multiple perspective controls
+- Camera movement presets
+- Natural motion
+
+### Special Effects
+- High saturation vs low saturation
+- Object composition variety
+- Better physics (shadows, reflections)
+
+### Quality Improvements
+- More detailed characters
+- Better hand/face rendering
+- Improved vehicle physics
+- Smoother motion
+- No morphing/broken limbs
+
+---
+
+## Workflows Identified
+
+### WORKFLOW 1: Text-to-Video Generation (5B Hybrid Model)
+**OBJECTIVE**: Generate video from text prompt using resource-efficient 5B model
+
+**STEPS**:
+1. Update ComfyUI to latest version (supports Wan 2.2)
+2. Open ComfyUI and go to Browse Templates
+3. Select Video tab → Choose "Wan 2.2 5B Video Generation"
+4. Load UMT 5 XXL text encoder
+5. Load Wan 2.2 VAE (important: use 2.2 VAE for 5B model, NOT 2.1)
+6. Bypass "Load Image" node (disable it)
+7. Set resolution (720p = 736 x 1280 or 480p)
+8. Enter text prompt
+9. Configure K Sampler:
+   - Steps: 20-30
+   - CFG: 5
+   - Shift: 8
+   - Scheduler: UniPC
+10. Run generation
+11. Review output
+
+**DURATION**: 1-3 minutes (depending on resolution)
+**COMPLEXITY**: Low
+**VRAM REQUIRED**: ~10GB
+**TOOLS USED**: ComfyUI, Wan 2.2 5B Hybrid, UMT 5 XXL
+**QUALITY**: Excellent for 5B model, comparable to Wan 2.1 14B
+
+### WORKFLOW 2: Image-to-Video Generation (5B Hybrid Model)
+**OBJECTIVE**: Animate a static image using Wan 2.2
+
+**STEPS**:
+1. Use same setup as Workflow 1
+2. Enable "Load Image" node
+3. Upload reference image
+4. Set width and height to match image (or target resolution)
+5. Enter text prompt describing desired animation
+6. Run generation
+7. Review motion quality
+
+**DURATION**: 1-3 minutes
+**COMPLEXITY**: Low
+**RESOLUTION RECOMMENDATION**: 720p for detailed faces/characters
+
+### WORKFLOW 3: High-Quality Image-to-Video (14B MoE Model)
+**OBJECTIVE**: Generate highest quality video using 14B model
+
+**STEPS**:
+1. Download both high noise and low noise 14B models (FP16 or FP8)
+2. Update ComfyUI
+3. Load Wan 2.2 14B I2V workflow from Browse Templates
+4. Configure two diffusion model loaders:
+   - Model 1: High noise 14B
+   - Model 2: Low noise 14B
+5. Load UMT 5 XXL text encoder
+6. Load Wan 2.1 VAE (important: use 2.1 VAE for 14B, NOT 2.2)
+7. Set up two K Sampler Advanced nodes:
+   - **Sampler 1** (High Noise):
+     - Start step: 0
+     - End step: 10
+     - Add noise: Enabled
+     - Return leftover noise: Enabled
+   - **Sampler 2** (Low Noise):
+     - Start step: 10
+     - End step: 20 (or 10000 for safety)
+     - Add noise: Disabled
+     - Return leftover noise: Disabled
+8. Connect Wan 2.1 I2V node (no clip vision needed)
+9. Upload reference image
+10. Enter text prompt
+11. Run generation (takes ~6 minutes for 480p, ~7-8 min for 720p)
+12. Review output
+
+**DURATION**: 6-8 minutes
+**COMPLEXITY**: High
+**VRAM REQUIRED**: ~60GB (FP16) or ~30GB (FP8)
+**QUALITY**: Exceptional - smooth motion, no morphing, detailed faces
+
+### WORKFLOW 4: GGUF Quantized 14B Model
+**OBJECTIVE**: Run 14B model with lower VRAM requirements
+
+**STEPS**:
+1. Download Q8 high noise and low noise GGUF models
+2. Use same workflow template as Workflow 3
+3. Replace "Load Diffusion Model" nodes with "UNET Loader (GGUF)"
+4. Load Q8 high noise in first loader
+5. Load Q8 low noise in second loader
+6. Connect to model samplers
+7. Run generation
+
+**VRAM REQUIRED**: ~30GB
+**FILE SIZE**: ~30GB total (15GB each)
+
+---
+
+## Resolution Comparison
+
+### 480p Resolution
+- **Pros**: Faster generation (43 seconds)
+- **Cons**: Blurry faces, pixelated eyes, jumpy motion
+- **Use Case**: Quick proof-of-concept, motion testing
+
+### 720p Resolution (736 x 1,280)
+- **Pros**: Detailed faces, natural motion, production-ready
+- **Cons**: Longer generation time (1 min 12 sec for 5B, ~7-8 min for 14B)
+- **Use Case**: Final output, fashion videos, professional work
+
+---
+
+## Performance Benchmarks (Creator's GPU)
+
+### 5B Model
+- **20 steps @ 480p**: 43 seconds
+- **20 steps @ 720p**: 1 min 12 sec
+- **30 steps @ 720p**: 3 min 16 sec
+
+### 14B Model
+- **20 steps @ 480p**: ~6 minutes (3 min high noise + 3 min low noise)
+- **20 steps @ 720p**: ~7-8 minutes
+- **VRAM Usage**: 52GB initially, drops to 30GB after first sampler
+
+---
+
+## Key Technical Details
+
+### Mixture of Experts (MoE) Explained
+- Activates different expert datasets during execution
+- Doesn't load all parameters at once
+- More cost-efficient than monolithic models
+- Trending in language models too
+
+### VAE Compatibility
+- **5B Hybrid Model**: MUST use Wan 2.2 VAE
+- **14B MoE Models**: MUST use Wan 2.1 VAE
+- Wrong VAE returns channel error
+
+### No Clip Vision Required
+- Wan 2.2 simplifies workflow
+- Fewer custom nodes needed
+- Cleaner setup than 2.1
+
+---
+
+## Comparison to Other Models
+
+### Wan 2.2 5B vs Wan 2.1 14B
+- **Quality**: 2.2 5B comparable to 2.1 14B
+- **Motion**: 2.2 has better physics
+- **Detail**: 2.2 more detailed even at smaller size
+
+### Wan 2.2 vs CogVideo X 5B
+- **Wan 2.2**: Far superior quality
+- **CogVideo X**: "Totally different story" (worse)
+
+### Wan 2.2 vs LTX 13B
+- **Wan 2.2**: "Way better" quality
+- **LTX**: Less detailed, lower quality
+
+### Wan 2.2 vs Movie Gen
+- **Wan 2.2**: Better physics, realistic vehicle motion
+- **Movie Gen**: Less detailed, unrealistic physics in some scenes
+
+---
+
+## Installation & Setup
+
+### ComfyUI Update
+```bash
+git pull
+```
+Look for `compile_vae` file to confirm 2.2 support
+
+### Download Locations
+- **Hugging Face**: Primary source (WAN AI page)
+- **Model Scope**: Alternative
+- **ComfyUI Blog**: Official templates and instructions
+
+### Folder Structure
+```
+ComfyUI/
+├── models/
+│   ├── diffusion_models/
+│   │   ├── wan-2.2-i2v-14b-high-noise-fp16.safetensors
+│   │   ├── wan-2.2-i2v-14b-low-noise-fp16.safetensors
+│   │   └── wan-2.2-hybrid-5b-fp16.safetensors
+│   ├── text_encoders/
+│   │   └── umt5-xxl-fp16.safetensors (same as 2.1)
+│   └── vae/
+│       ├── wan-2.1-vae.safetensors
+│       └── wan-2.2-vae.safetensors
+```
+
+---
+
+## Best Practices
+
+### For 5B Model Users
+1. **Use 720p** for final output
+2. **30 steps** for best quality
+3. **Use Wan 2.2 VAE** (critical)
+4. Perfect for consumer PCs (16-24GB VRAM)
+
+### For 14B Model Users
+1. **Ensure 60GB+ VRAM** for FP16
+2. **Use Wan 2.1 VAE** (critical)
+3. **Download both high and low noise** models
+4. Consider GGUF Q8 if limited VRAM
+
+### Prompt Tips
+- Loose, simple prompts work well
+- No need for long essays
+- Model has strong prompt adherence
+- Specify motion direction clearly
+
+---
+
+## Day 0 First Impressions
+
+### What Works Great
+✅ Fast ComfyUI integration
+✅ 5B model punches above its weight
+✅ Better physics than 2.1
+✅ Smooth hands/faces (no morphing)
+✅ Natural motion
+✅ Good lighting/shadows
+✅ Realistic vehicle physics
+
+### Areas to Watch
+⚠️ 14B requires significant VRAM
+⚠️ Need correct VAE version or errors occur
+⚠️ Must download model pairs for 14B
+
+---
+
+## Future Videos Promised
+- More detailed tutorials
+- Advanced workflows
+- Comparison benchmarks
+- Production use cases
+
+---
+
+## Department
+
+VID (Video Production) / AID (AI & Automation)
+
+---
+
+## Priority
+
+High
+
+---
+
+## Notes
+
+Comprehensive first-look review of Wan 2.2 open source video model. Apache 2.0 license = true open source. 5B hybrid model is standout: excellent quality at low VRAM (~10GB). Comparable to Wan 2.1 14B and superior to CogVideo X 5B and LTX 13B. 14B MoE models offer exceptional quality but require 30-60GB VRAM. Mixture of Experts architecture provides efficiency. ComfyUI integration on day 0 is impressive. Key gotcha: VAE compatibility (2.2 for 5B, 2.1 for 14B). Best resolution: 720p (736 x 1,280). Use cases: Content creation, fashion videos, storytelling. Time: 1-3 min for 5B, 6-8 min for 14B. Quality improvements over 2.1: better physics, realistic shadows, no morphing. Recommended for anyone with 16GB+ VRAM.

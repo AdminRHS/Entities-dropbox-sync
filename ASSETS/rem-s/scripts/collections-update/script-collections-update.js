@@ -1,0 +1,943 @@
+const axios = require('axios');
+const fs = require('fs').promises;
+const path = require('path');
+
+// Configuration
+const STRAPI_URL = 'https://strapi.rem-s.com';
+const LOCALES = ['ru', 'en', 'uk', 'pl'];
+const BASE_UPDATE_DIR = path.join(__dirname, '..', '..', 'updated', 'collections');
+const BASE_EXPORT_DIR = path.join(__dirname, '..', '..', 'exported', 'collections');
+const SNAPSHOT_FILE = path.join(BASE_EXPORT_DIR, '.snapshot.json');
+
+// Rate limiting configuration (to prevent server overload)
+const RATE_LIMIT_DELAY = 800; // milliseconds between requests
+const BATCH_SIZE = 10; // process files in batches
+const MAX_RETRIES = 3; // retry failed requests
+const RETRY_DELAY = 2000; // milliseconds before retry
+
+// Collections configuration (same as export script)
+const LOCALIZED_COLLECTIONS = ['vacancies', 'categories', 'keyword-tags', 'skills', 'form-users'];
+
+// Collection name mapping for API endpoints
+// Note: Some collections use singular in API (category) but plural in folder names (categories)
+const COLLECTION_ENDPOINTS = {
+  'vacancies': 'vacancies',
+  'categories': 'category',  // API uses singular 'category' not 'categories'
+  'keyword-tags': 'keyword-tag',  // API uses singular
+  'skills': 'skill',  // API uses singular
+  'form-users': 'form-user',  // API uses singular
+  'users': 'users',
+  'submissions': 'submissions',
+  'recipients': 'recipients',
+  'audiences': 'audiences'
+};
+
+/**
+ * Sleep/delay function
+ * @param {number} ms - Milliseconds to wait
+ */
+function sleep(ms) {
+  return new Promise(resolve => setTimeout(resolve, ms));
+}
+
+/**
+ * Get collection name and locale from file path
+ * @param {string} filePath - Full path to JSON file
+ * @param {string} baseDir - Base directory for relative path calculation
+ * @returns {Object} { collectionName, locale, id, isValid, relativePath }
+ */
+function parseFilePath(filePath, baseDir = BASE_UPDATE_DIR) {
+  const relativePath = path.relative(baseDir, filePath);
+  const parts = relativePath.split(path.sep);
+  
+  if (parts.length < 2) {
+    return { collectionName: null, locale: null, id: null, isValid: false, relativePath };
+  }
+  
+  const collectionName = parts[0];
+  const isLocalized = LOCALIZED_COLLECTIONS.includes(collectionName);
+  
+  if (isLocalized) {
+    if (parts.length < 5 || parts[1] !== 'languages') {
+      return { collectionName: null, locale: null, id: null, isValid: false, relativePath };
+    }
+    
+    const locale = parts[2];
+    const fileName = parts[parts.length - 1];
+    const idMatch = fileName.match(/^(\d+)_/);
+    const id = idMatch ? idMatch[1] : null;
+    
+    return {
+      collectionName,
+      locale,
+      id,
+      relativePath,
+      isValid: collectionName && locale && id && LOCALES.includes(locale)
+    };
+  } else {
+    if (parts.length < 3) {
+      return { collectionName: null, locale: null, id: null, isValid: false, relativePath };
+    }
+    
+    const fileName = parts[parts.length - 1];
+    const idMatch = fileName.match(/^(\d+)_/);
+    const id = idMatch ? idMatch[1] : null;
+    
+    return {
+      collectionName,
+      locale: null,
+      id,
+      relativePath,
+      isValid: collectionName && id
+    };
+  }
+}
+
+/**
+ * Read and parse JSON file
+ * @param {string} filePath - Path to JSON file
+ * @returns {Promise<Object>} Parsed JSON data
+ */
+async function readJsonFile(filePath) {
+  try {
+    const content = await fs.readFile(filePath, 'utf-8');
+    const data = JSON.parse(content);
+    
+    // Extract data.attributes if exists (Strapi format)
+    if (data.data && data.data.attributes) {
+      return data.data.attributes;
+    }
+    
+    if (data.attributes) {
+      return data.attributes;
+    }
+    
+    return data;
+  } catch (error) {
+    throw new Error(`Помилка читання файлу ${filePath}: ${error.message}`);
+  }
+}
+
+/**
+ * Get file hash for comparison
+ * @param {string} filePath - Path to file
+ * @returns {Promise<string>} File hash
+ */
+async function getFileHash(filePath) {
+  try {
+    const content = await fs.readFile(filePath, 'utf-8');
+    const stats = await fs.stat(filePath);
+    return `${stats.size}_${stats.mtimeMs}`;
+  } catch {
+    return null;
+  }
+}
+
+/**
+ * Get collection paths helper (similar to export script)
+ * @param {string} collectionName - Collection name
+ * @param {string} locale - Locale code (optional)
+ * @returns {Object} Paths object
+ */
+function getCollectionPaths(collectionName, locale = null) {
+  const isLocalized = LOCALIZED_COLLECTIONS.includes(collectionName);
+  
+  if (isLocalized && locale) {
+    const localeDir = path.join(BASE_UPDATE_DIR, collectionName, 'languages', locale);
+    const itemsDir = path.join(localeDir, collectionName);
+    return {
+      baseDir: path.join(BASE_UPDATE_DIR, collectionName),
+      localeDir,
+      itemsDir,
+      listFile: path.join(localeDir, `${collectionName}-list.json`),
+      changedListFile: path.join(localeDir, `${collectionName}-changed-list.json`)
+    };
+  } else {
+    const itemsDir = path.join(BASE_UPDATE_DIR, collectionName, collectionName);
+    return {
+      baseDir: path.join(BASE_UPDATE_DIR, collectionName),
+      itemsDir,
+      listFile: path.join(BASE_UPDATE_DIR, collectionName, `${collectionName}-list.json`),
+      changedListFile: path.join(BASE_UPDATE_DIR, collectionName, `${collectionName}-changed-list.json`)
+    };
+  }
+}
+
+/**
+ * Sync list.json files before sending updates
+ * @param {Object} changes - Changes object with created, updated, deleted arrays
+ * @param {Object} currentSnapshot - Current snapshot of files
+ */
+async function syncListFiles(changes, currentSnapshot) {
+  console.log('📋 Синхронізація list.json файлів...\n');
+  
+  // Group changes by collection and locale
+  const byCollection = {};
+  
+  // Process all changed files
+  for (const item of [...changes.created, ...changes.updated, ...changes.deleted]) {
+    if (!item.collection) continue;
+    
+    const key = `${item.collection}_${item.locale || 'all'}`;
+    if (!byCollection[key]) {
+      byCollection[key] = {
+        collection: item.collection,
+        locale: item.locale,
+        created: [],
+        updated: [],
+        deleted: []
+      };
+    }
+    
+    if (item.action === 'create') {
+      byCollection[key].created.push(item);
+    } else if (item.action === 'update') {
+      byCollection[key].updated.push(item);
+    } else if (item.action === 'delete') {
+      byCollection[key].deleted.push(item);
+    }
+  }
+  
+  // Also scan all files to create full list
+  const allCollections = {};
+  for (const [relativePath, info] of Object.entries(currentSnapshot)) {
+    if (!info.collection) continue;
+    
+    const key = `${info.collection}_${info.locale || 'all'}`;
+    if (!allCollections[key]) {
+      allCollections[key] = {
+        collection: info.collection,
+        locale: info.locale,
+        items: []
+      };
+    }
+    
+    // Read file to get metadata
+    try {
+      const fileData = await readJsonFile(info.filePath);
+      const idMatch = relativePath.match(/\/(\d+)_/);
+      const id = idMatch ? idMatch[1] : info.id;
+      
+      allCollections[key].items.push({
+        id: parseInt(id) || info.id,
+        title: fileData.title || fileData.name || fileData.categoryTitle || 'Untitled',
+        filename: path.basename(relativePath).replace('.json', ''),
+        slug: fileData.slug || fileData.vacancySlug || fileData.categorySlug || null,
+        createdAt: fileData.createdAt,
+        updatedAt: fileData.updatedAt,
+        publishedAt: fileData.publishedAt
+      });
+    } catch (error) {
+      // Skip if can't read
+    }
+  }
+  
+  // Create/update list files
+  for (const [key, collectionData] of Object.entries(allCollections)) {
+    const paths = getCollectionPaths(collectionData.collection, collectionData.locale);
+    
+    // Ensure directory exists
+    await fs.mkdir(path.dirname(paths.listFile), { recursive: true });
+    
+    // Create full list
+    const fullList = {
+      exportDate: new Date().toISOString(),
+      collection: collectionData.collection,
+      locale: collectionData.locale || null,
+      total: collectionData.items.length,
+      items: collectionData.items.sort((a, b) => (a.id || 0) - (b.id || 0))
+    };
+    
+    await fs.writeFile(paths.listFile, JSON.stringify(fullList, null, 2), 'utf-8');
+    console.log(`   ✓ Оновлено: ${paths.listFile} (${collectionData.items.length} items)`);
+    
+    // Create changed list if there are changes
+    const changeKey = `${collectionData.collection}_${collectionData.locale || 'all'}`;
+    if (byCollection[changeKey] && (
+      byCollection[changeKey].created.length > 0 ||
+      byCollection[changeKey].updated.length > 0 ||
+      byCollection[changeKey].deleted.length > 0
+    )) {
+      const changedList = {
+        syncDate: new Date().toISOString(),
+        collection: collectionData.collection,
+        locale: collectionData.locale || null,
+        created: byCollection[changeKey].created.map(item => ({
+          id: item.id,
+          relativePath: item.relativePath
+        })),
+        updated: byCollection[changeKey].updated.map(item => ({
+          id: item.id,
+          relativePath: item.relativePath
+        })),
+        deleted: byCollection[changeKey].deleted.map(item => ({
+          id: item.id,
+          relativePath: item.relativePath
+        }))
+      };
+      
+      await fs.writeFile(paths.changedListFile, JSON.stringify(changedList, null, 2), 'utf-8');
+      console.log(`   ✓ Створено список змін: ${path.basename(paths.changedListFile)}`);
+    }
+  }
+  
+  console.log('');
+}
+
+/**
+ * Load snapshot of original files from exported
+ * @returns {Promise<Object>} Snapshot object
+ */
+async function loadSnapshot() {
+  try {
+    const content = await fs.readFile(SNAPSHOT_FILE, 'utf-8');
+    return JSON.parse(content);
+  } catch {
+    return {};
+  }
+}
+
+/**
+ * Update collection item via Strapi API with retry logic
+ * @param {string} collectionName - Collection name
+ * @param {string} id - Item ID
+ * @param {string} locale - Locale (optional)
+ * @param {Object} data - Data to update
+ * @param {string} token - API token
+ * @param {boolean} dryRun - Dry run mode
+ * @returns {Promise<Object>} { success: boolean, message: string, method: string }
+ */
+async function updateCollectionItem(collectionName, id, locale, data, token, dryRun = false) {
+  const endpoint = COLLECTION_ENDPOINTS[collectionName] || collectionName;
+  const url = `${STRAPI_URL}/api/${endpoint}/${id}`;
+  
+  if (dryRun) {
+    console.log(`   🔍 [DRY-RUN] Оновлення ${collectionName} #${id}${locale ? ` (${locale})` : ''}`);
+    return { success: true, message: 'Dry-run mode - зміни не застосовано', method: 'PUT' };
+  }
+  
+  const config = {
+    headers: {
+      'Authorization': `Bearer ${token}`,
+      'Content-Type': 'application/json'
+    }
+  };
+  
+  if (locale && LOCALIZED_COLLECTIONS.includes(collectionName)) {
+    config.params = { locale };
+  }
+  
+  // Retry logic
+  let lastError = null;
+  for (let attempt = 1; attempt <= MAX_RETRIES; attempt++) {
+    try {
+      // Try PUT first
+      const response = await axios.put(url, { data }, config);
+      return {
+        success: true,
+        message: 'Оновлено успішно',
+        method: 'PUT',
+        response: response.data
+      };
+    } catch (putError) {
+      lastError = putError;
+      
+      // If 429 (Too Many Requests) or 500, wait and retry
+      if (putError.response && (putError.response.status === 429 || putError.response.status >= 500)) {
+        if (attempt < MAX_RETRIES) {
+          const waitTime = RETRY_DELAY * attempt; // Exponential backoff
+          console.log(`   ⏳ Затримка ${waitTime}ms перед повторною спробою (спроба ${attempt + 1}/${MAX_RETRIES})...`);
+          await sleep(waitTime);
+          continue;
+        }
+      }
+      
+      // If PUT fails with 400+, try PATCH
+      if (putError.response && putError.response.status >= 400 && putError.response.status < 500) {
+        try {
+          const patchResponse = await axios.patch(url, { data }, config);
+          return {
+            success: true,
+            message: 'Оновлено успішно (через PATCH)',
+            method: 'PATCH',
+            response: patchResponse.data
+          };
+        } catch (patchError) {
+          lastError = patchError;
+        }
+      }
+      
+      // If last attempt, return error
+      if (attempt === MAX_RETRIES) {
+        break;
+      }
+    }
+  }
+  
+  // All retries failed
+  if (lastError && lastError.response) {
+    return {
+      success: false,
+      message: `Помилка API: ${lastError.response.status} - ${JSON.stringify(lastError.response.data)}`,
+      method: 'PUT'
+    };
+  }
+  return {
+    success: false,
+    message: `Помилка мережі: ${lastError?.message || 'Невідома помилка'}`,
+    method: 'PUT'
+  };
+}
+
+/**
+ * Create new collection item via Strapi API with retry logic
+ * @param {string} collectionName - Collection name
+ * @param {string} locale - Locale (optional)
+ * @param {Object} data - Data to create
+ * @param {string} token - API token
+ * @param {boolean} dryRun - Dry run mode
+ * @returns {Promise<Object>} { success: boolean, message: string, method: string }
+ */
+async function createCollectionItem(collectionName, locale, data, token, dryRun = false) {
+  const endpoint = COLLECTION_ENDPOINTS[collectionName] || collectionName;
+  const url = `${STRAPI_URL}/api/${endpoint}`;
+  
+  if (dryRun) {
+    console.log(`   🔍 [DRY-RUN] Створення нового ${collectionName}${locale ? ` (${locale})` : ''}`);
+    return { success: true, message: 'Dry-run mode - зміни не застосовано', method: 'POST' };
+  }
+  
+  const config = {
+    headers: {
+      'Authorization': `Bearer ${token}`,
+      'Content-Type': 'application/json'
+    }
+  };
+  
+  if (locale && LOCALIZED_COLLECTIONS.includes(collectionName)) {
+    config.params = { locale };
+  }
+  
+  // Retry logic
+  let lastError = null;
+  for (let attempt = 1; attempt <= MAX_RETRIES; attempt++) {
+    try {
+      const response = await axios.post(url, { data }, config);
+      return {
+        success: true,
+        message: 'Створено успішно',
+        method: 'POST',
+        response: response.data
+      };
+    } catch (error) {
+      lastError = error;
+      
+      // If 429 (Too Many Requests) or 500, wait and retry
+      if (error.response && (error.response.status === 429 || error.response.status >= 500)) {
+        if (attempt < MAX_RETRIES) {
+          const waitTime = RETRY_DELAY * attempt;
+          console.log(`   ⏳ Затримка ${waitTime}ms перед повторною спробою (спроба ${attempt + 1}/${MAX_RETRIES})...`);
+          await sleep(waitTime);
+          continue;
+        }
+      }
+      
+      if (attempt === MAX_RETRIES) {
+        break;
+      }
+    }
+  }
+  
+  if (lastError && lastError.response) {
+    return {
+      success: false,
+      message: `Помилка API: ${lastError.response.status} - ${JSON.stringify(lastError.response.data)}`,
+      method: 'POST'
+    };
+  }
+  return {
+    success: false,
+    message: `Помилка мережі: ${lastError?.message || 'Невідома помилка'}`,
+    method: 'POST'
+  };
+}
+
+/**
+ * Delete collection item via Strapi API with retry logic
+ * @param {string} collectionName - Collection name
+ * @param {string} id - Item ID
+ * @param {string} locale - Locale (optional)
+ * @param {string} token - API token
+ * @param {boolean} dryRun - Dry run mode
+ * @returns {Promise<Object>} { success: boolean, message: string }
+ */
+async function deleteItem(collectionName, id, locale, token, dryRun = false) {
+  const endpoint = COLLECTION_ENDPOINTS[collectionName] || collectionName;
+  const url = `${STRAPI_URL}/api/${endpoint}/${id}`;
+  
+  if (dryRun) {
+    console.log(`   🔍 [DRY-RUN] Видалення ${collectionName} #${id}${locale ? ` (${locale})` : ''}`);
+    return { success: true, message: 'Dry-run mode - зміни не застосовано' };
+  }
+  
+  const config = {
+    headers: {
+      'Authorization': `Bearer ${token}`,
+      'Content-Type': 'application/json'
+    }
+  };
+  
+  if (locale && LOCALIZED_COLLECTIONS.includes(collectionName)) {
+    config.params = { locale };
+  }
+  
+  // Retry logic
+  let lastError = null;
+  for (let attempt = 1; attempt <= MAX_RETRIES; attempt++) {
+    try {
+      const response = await axios.delete(url, config);
+      return {
+        success: true,
+        message: 'Видалено успішно',
+        response: response.data
+      };
+    } catch (error) {
+      lastError = error;
+      
+      // If 429 (Too Many Requests) or 500, wait and retry
+      if (error.response && (error.response.status === 429 || error.response.status >= 500)) {
+        if (attempt < MAX_RETRIES) {
+          const waitTime = RETRY_DELAY * attempt;
+          console.log(`   ⏳ Затримка ${waitTime}ms перед повторною спробою (спроба ${attempt + 1}/${MAX_RETRIES})...`);
+          await sleep(waitTime);
+          continue;
+        }
+      }
+      
+      if (attempt === MAX_RETRIES) {
+        break;
+      }
+    }
+  }
+  
+  if (lastError && lastError.response) {
+    return {
+      success: false,
+      message: `Помилка API: ${lastError.response.status} - ${JSON.stringify(lastError.response.data)}`
+    };
+  }
+  return {
+    success: false,
+    message: `Помилка мережі: ${lastError?.message || 'Невідома помилка'}`
+  };
+}
+
+/**
+ * Check if file should be ignored
+ * @param {string} fileName - File name
+ * @param {string} relativePath - Relative path from base directory
+ * @returns {boolean} True if file should be ignored
+ */
+function shouldIgnoreFile(fileName, relativePath) {
+  // Ignore hidden files
+  if (fileName.startsWith('.')) {
+    return true;
+  }
+  
+  // Note: list.json files are NOT ignored in scanning - they will be synced before sending
+  // But they won't be sent to server as collection items
+  
+  // Ignore template files (files without ID prefix)
+  // Valid files must start with number_ID_ or number_ID.json
+  const hasId = /^\d+_/.test(fileName);
+  if (!hasId) {
+    return true;
+  }
+  
+  // Ignore files in template directories (check path)
+  const pathLower = relativePath.toLowerCase();
+  if (pathLower.includes('/template/') || pathLower.includes('\\template\\') ||
+      pathLower.includes('/templates/') || pathLower.includes('\\templates\\')) {
+    return true;
+  }
+  
+  return false;
+}
+
+/**
+ * Check if directory should be ignored
+ * @param {string} dirName - Directory name
+ * @returns {boolean} True if directory should be ignored
+ */
+function shouldIgnoreDirectory(dirName) {
+  const nameLower = dirName.toLowerCase();
+  // Ignore template directories
+  if (nameLower === 'template' || nameLower === 'templates') {
+    return true;
+  }
+  return false;
+}
+
+/**
+ * Find all JSON files in directory
+ * @param {string} dir - Directory to scan
+ * @returns {Promise<Array>} Array of file paths
+ */
+async function findJsonFiles(dir) {
+  const files = [];
+  const baseDir = dir;
+  
+  async function scanDirectory(directory) {
+    try {
+      const entries = await fs.readdir(directory, { withFileTypes: true });
+      
+      for (const entry of entries) {
+        const fullPath = path.join(directory, entry.name);
+        const relativePath = path.relative(baseDir, fullPath);
+        
+        if (entry.isDirectory()) {
+          // Skip template directories
+          if (shouldIgnoreDirectory(entry.name)) {
+            continue;
+          }
+          await scanDirectory(fullPath);
+        } else if (entry.isFile() && entry.name.endsWith('.json')) {
+          // Check if file should be ignored
+          if (!shouldIgnoreFile(entry.name, relativePath)) {
+            files.push(fullPath);
+          }
+        }
+      }
+    } catch (error) {
+      // Ignore errors for non-existent directories
+    }
+  }
+  
+  await scanDirectory(dir);
+  return files;
+}
+
+/**
+ * Process batch of files with rate limiting
+ * @param {Array} batch - Array of file info objects
+ * @param {Object} originalSnapshot - Snapshot from exported
+ * @param {string} token - API token
+ * @param {boolean} dryRun - Dry run mode
+ * @returns {Promise<Object>} Results object
+ */
+async function processBatch(batch, originalSnapshot, token, dryRun) {
+  const results = {
+    created: { success: [], failed: [] },
+    updated: { success: [], failed: [] },
+    deleted: { success: [], failed: [] }
+  };
+  
+  for (const item of batch) {
+    try {
+      if (item.action === 'delete') {
+        // Skip if collection or id is missing
+        if (!item.collection || !item.id) {
+          console.log(`   ⚠️  Пропущено видалення (немає collection або id): ${item.relativePath || 'невідомий файл'}`);
+          continue;
+        }
+        
+        // Delete item
+        const result = await deleteItem(
+          item.collection,
+          item.id,
+          item.locale,
+          token,
+          dryRun
+        );
+        
+        if (result.success) {
+          console.log(`   ✅ Видалено: ${item.collection} #${item.id}${item.locale ? ` (${item.locale})` : ''}`);
+          results.deleted.success.push(item);
+        } else {
+          console.log(`   ❌ Помилка видалення: ${item.collection} #${item.id}${item.locale ? ` (${item.locale})` : ''} - ${result.message}`);
+          results.deleted.failed.push({ ...item, error: result.message });
+        }
+      } else if (item.action === 'create') {
+        // Skip if collection is missing
+        if (!item.collection) {
+          console.log(`   ⚠️  Пропущено створення (немає collection): ${item.relativePath || 'невідомий файл'}`);
+          continue;
+        }
+        
+        // Create new item
+        const data = await readJsonFile(item.filePath);
+        const result = await createCollectionItem(
+          item.collection,
+          item.locale,
+          data,
+          token,
+          dryRun
+        );
+        
+        if (result.success) {
+          console.log(`   ✅ Створено: ${item.collection}${item.id ? ` #${item.id}` : ''}${item.locale ? ` (${item.locale})` : ''} [${result.method}]`);
+          results.created.success.push(item);
+        } else {
+          console.log(`   ❌ Помилка створення: ${item.collection}${item.id ? ` #${item.id}` : ''}${item.locale ? ` (${item.locale})` : ''} - ${result.message}`);
+          results.created.failed.push({ ...item, error: result.message });
+        }
+      } else if (item.action === 'update') {
+        // Skip if collection or id is missing
+        if (!item.collection || !item.id) {
+          console.log(`   ⚠️  Пропущено оновлення (немає collection або id): ${item.relativePath || 'невідомий файл'}`);
+          continue;
+        }
+        
+        // Update existing item
+        const data = await readJsonFile(item.filePath);
+        const result = await updateCollectionItem(
+          item.collection,
+          item.id,
+          item.locale,
+          data,
+          token,
+          dryRun
+        );
+        
+        if (result.success) {
+          console.log(`   ✅ Оновлено: ${item.collection} #${item.id}${item.locale ? ` (${item.locale})` : ''} [${result.method}]`);
+          results.updated.success.push(item);
+        } else {
+          console.log(`   ❌ Помилка оновлення: ${item.collection} #${item.id}${item.locale ? ` (${item.locale})` : ''} - ${result.message}`);
+          results.updated.failed.push({ ...item, error: result.message });
+        }
+      }
+      
+      // Rate limiting - delay between requests (except for dry-run)
+      if (!dryRun) {
+        await sleep(RATE_LIMIT_DELAY);
+      }
+    } catch (error) {
+      console.log(`   ❌ Помилка обробки ${item.relativePath}: ${error.message}`);
+      if (item.action === 'create') {
+        results.created.failed.push({ ...item, error: error.message });
+      } else if (item.action === 'update') {
+        results.updated.failed.push({ ...item, error: error.message });
+      }
+    }
+  }
+  
+  return results;
+}
+
+/**
+ * Main update function
+ */
+async function updateCollections() {
+  const isDryRun = process.argv.includes('--dry-run') || process.argv.includes('-d');
+  const token = process.env.STRAPI_TOKEN || process.argv[2];
+  
+  if (!token && !isDryRun) {
+    console.error('❌ Помилка: API токен обов\'язковий!');
+    console.error('\nВикористання:');
+    console.error('  node script-collections-update.js <token>');
+    console.error('  node script-collections-update.js <token> --dry-run  (перегляд без змін)');
+    console.error('  або встановіть змінну оточення STRAPI_TOKEN');
+    process.exit(1);
+  }
+  
+  console.log('🚀 Аналіз та оновлення колекцій з Strapi\n');
+  console.log(`📍 Strapi URL: ${STRAPI_URL}`);
+  console.log(`📁 Папка з оновленими даними: ${BASE_UPDATE_DIR}`);
+  console.log(`📁 Папка з оригінальними даними: ${BASE_EXPORT_DIR}`);
+  console.log(`⏱️  Затримка між запитами: ${RATE_LIMIT_DELAY}ms`);
+  console.log(`📦 Розмір батчу: ${BATCH_SIZE} файлів`);
+  console.log(`🔄 Максимум повторів: ${MAX_RETRIES}\n`);
+  
+  if (isDryRun) {
+    console.log('🔍 Режим DRY-RUN - зміни не будуть застосовані\n');
+  } else {
+    console.log('⚠️  Режим ОНОВЛЕННЯ - зміни будуть застосовані!\n');
+  }
+  
+  try {
+    // Load snapshot of original files from exported
+    console.log('📸 Завантаження snapshot оригінальних файлів...\n');
+    const originalSnapshot = await loadSnapshot();
+    
+    if (Object.keys(originalSnapshot).length === 0) {
+      console.log('⚠️  Snapshot не знайдено. Запустіть спочатку скрипт експорту для створення snapshot.\n');
+    } else {
+      console.log(`   ✓ Завантажено snapshot: ${Object.keys(originalSnapshot).length} файлів\n`);
+    }
+    
+    // Find all current files in updated directory
+    console.log('📂 Сканування папки з оновленими даними...\n');
+    const currentFiles = await findJsonFiles(BASE_UPDATE_DIR);
+    
+    if (currentFiles.length === 0) {
+      console.log('⚠️  Файлів для оновлення не знайдено');
+      console.log(`   Перевірте папку: ${BASE_UPDATE_DIR}\n`);
+      return;
+    }
+    
+    console.log(`   ✓ Знайдено ${currentFiles.length} файлів\n`);
+    
+    // Create current snapshot from updated files (excluding list.json files from processing)
+    const currentSnapshot = {};
+    for (const filePath of currentFiles) {
+      // Skip list.json files from snapshot (they are metadata, not collection items)
+      const fileName = path.basename(filePath);
+      if (fileName.endsWith('list.json') || fileName.includes('-list.json')) {
+        continue;
+      }
+      
+      const parsed = parseFilePath(filePath);
+      if (parsed.isValid) {
+        const key = parsed.relativePath;
+        const hash = await getFileHash(filePath);
+        currentSnapshot[key] = {
+          hash,
+          collection: parsed.collectionName,
+          id: parsed.id,
+          locale: parsed.locale,
+          filePath
+        };
+      }
+    }
+    
+    // Analyze changes
+    console.log('🔍 Аналіз змін...\n');
+    
+    const changes = {
+      created: [],    // New files (POST)
+      updated: [],    // Modified files (PUT/PATCH)
+      deleted: []     // Deleted files (DELETE)
+    };
+    
+    // Find deleted files (in original but not in current)
+    for (const [relativePath, info] of Object.entries(originalSnapshot)) {
+      if (!currentSnapshot[relativePath]) {
+        // Only add if we have valid collection and id
+        if (info.collection && info.id) {
+          changes.deleted.push({
+            relativePath,
+            collection: info.collection,
+            id: info.id,
+            locale: info.locale
+          });
+        }
+      }
+    }
+    
+    // Find created and updated files
+    for (const [relativePath, info] of Object.entries(currentSnapshot)) {
+      const originalInfo = originalSnapshot[relativePath];
+      
+      if (!originalInfo) {
+        // New file
+        changes.created.push({
+          relativePath,
+          collection: info.collection,
+          id: info.id,
+          locale: info.locale,
+          filePath: info.filePath
+        });
+      } else if (originalInfo.hash !== info.hash) {
+        // Modified file
+        changes.updated.push({
+          relativePath,
+          collection: info.collection,
+          id: info.id,
+          locale: info.locale,
+          filePath: info.filePath
+        });
+      }
+    }
+    
+    // Display changes summary
+    console.log('📊 Знайдені зміни:\n');
+    console.log(`   ➕ Створено: ${changes.created.length}`);
+    console.log(`   ✏️  Оновлено: ${changes.updated.length}`);
+    console.log(`   🗑️  Видалено: ${changes.deleted.length}`);
+    console.log(`   📦 Всього змін: ${changes.created.length + changes.updated.length + changes.deleted.length}\n`);
+    
+    if (changes.created.length === 0 && changes.updated.length === 0 && changes.deleted.length === 0) {
+      console.log('✅ Змін не знайдено. Всі файли актуальні.\n');
+      return;
+    }
+    
+    // Sync list.json files before sending updates
+    await syncListFiles(changes, currentSnapshot);
+    
+    // Prepare all changes with actions
+    const allChanges = [
+      ...changes.deleted.map(item => ({ ...item, action: 'delete' })),
+      ...changes.created.map(item => ({ ...item, action: 'create' })),
+      ...changes.updated.map(item => ({ ...item, action: 'update' }))
+    ];
+    
+    // Process in batches
+    const results = {
+      created: { success: [], failed: [] },
+      updated: { success: [], failed: [] },
+      deleted: { success: [], failed: [] }
+    };
+    
+    const totalBatches = Math.ceil(allChanges.length / BATCH_SIZE);
+    
+    for (let i = 0; i < allChanges.length; i += BATCH_SIZE) {
+      const batch = allChanges.slice(i, i + BATCH_SIZE);
+      const batchNumber = Math.floor(i / BATCH_SIZE) + 1;
+      
+      console.log(`📦 Обробка батчу ${batchNumber}/${totalBatches} (${batch.length} файлів)...\n`);
+      
+      const batchResults = await processBatch(batch, originalSnapshot, token, isDryRun);
+      
+      // Merge results
+      results.created.success.push(...batchResults.created.success);
+      results.created.failed.push(...batchResults.created.failed);
+      results.updated.success.push(...batchResults.updated.success);
+      results.updated.failed.push(...batchResults.updated.failed);
+      results.deleted.success.push(...batchResults.deleted.success);
+      results.deleted.failed.push(...batchResults.deleted.failed);
+      
+      // Delay between batches (except for dry-run and last batch)
+      if (!isDryRun && i + BATCH_SIZE < allChanges.length) {
+        console.log(`\n   ⏸️  Пауза між батчами...\n`);
+        await sleep(RATE_LIMIT_DELAY * 2);
+      }
+      
+      console.log('');
+    }
+    
+    // Summary
+    console.log('='.repeat(60));
+    console.log('📊 Підсумок:\n');
+    console.log(`   ➕ Створено: ${results.created.success.length} успішно, ${results.created.failed.length} помилок`);
+    console.log(`   ✏️  Оновлено: ${results.updated.success.length} успішно, ${results.updated.failed.length} помилок`);
+    console.log(`   🗑️  Видалено: ${results.deleted.success.length} успішно, ${results.deleted.failed.length} помилок`);
+    console.log(`   📦 Всього оброблено: ${results.created.success.length + results.updated.success.length + results.deleted.success.length}\n`);
+    
+    // Show errors if any
+    const totalFailed = results.created.failed.length + results.updated.failed.length + results.deleted.failed.length;
+    if (totalFailed > 0) {
+      console.log('❌ Файли з помилками:\n');
+      [...results.created.failed, ...results.updated.failed, ...results.deleted.failed].forEach(item => {
+        console.log(`   - ${item.relativePath || item.collection}${item.error ? `: ${item.error}` : ''}`);
+      });
+      console.log('');
+    }
+    
+    if (isDryRun) {
+      console.log('💡 Для застосування змін запустіть без --dry-run\n');
+    } else if (totalFailed === 0) {
+      console.log('✅ Всі зміни успішно застосовано!\n');
+    }
+    
+  } catch (error) {
+    console.error('\n❌ Критична помилка:', error.message);
+    if (error.stack) {
+      console.error('\nStack trace:', error.stack);
+    }
+    process.exit(1);
+  }
+}
+
+// Run update
+updateCollections();

@@ -1,0 +1,140 @@
+Video Title: Kimi K2 Thinking: A New Frontier Open-Source AI Model
+Channel: Matthew Berman
+Duration: 14:31
+URL: https://youtu.be/s_YfqQ_KHYA
+
+---
+
+## Description
+
+This video introduces Kimi K2 Thinking, a new open-source, open-weights AI model from Moonshot Labs, a Chinese AI company. The creator claims it is a "frontier level model" that outperforms competitors like GPT-5 and Claude 4.5 on several difficult benchmarks. The video details its capabilities, including long-chain reasoning, tool use (web search, browsing, code execution), and its performance on benchmarks like Humanity's Last Exam and BrowseComp.
+
+---
+
+## Key Topics
+
+- Introduction to Kimi K2 Thinking by Moonshot Labs
+- Comparison of Kimi K2 Thinking with GPT-5, Claude Sonnet 4.5, and DeepSeek
+- Benchmark performance analysis (Humanity's Last Exam, BrowseComp, SWE-bench)
+- Demonstration of agentic capabilities: tool use, web browsing, coding
+- Examples of outputs: Word clone, math visualizations, data analysis dashboards, music creation
+- Discussion on the rise of Chinese open-source AI models
+- Cost and efficiency of training frontier models
+- Mixture-of-Experts (MoE) architecture
+
+---
+
+## Tools Mentioned
+
+### AI Models
+- Kimi K2 Thinking (Moonshot Labs)
+- GPT-5 (OpenAI)
+- Claude Sonnet 4.5 (Anthropic)
+- DeepSeek R1 (Chinese open-source model)
+
+### Platforms & Services
+- kimi.com (chat interface for Kimi K2)
+- Vultr (cloud computing and GPU infrastructure)
+- WorldPop (population data source)
+- Strudel (coding language for live music creation)
+- OK Computer (Kimi's internal environment for code execution)
+
+---
+
+## Workflows Identified
+
+### WORKFLOW 1: Analyze Healthcare Data and Create a Dashboard
+**OBJECTIVE**: Analyze the relationship between population density and healthcare facility accessibility in Ghana and generate an interactive web dashboard.
+
+**STEPS**:
+1. Define the core question and objectives
+2. Create a to-do list (plan of action)
+3. Search for and download WorldPop population raster data
+4. Search for and download health facility coordinates for Ghana
+5. Explore and clean the data
+6. Compute average population density within 10km radius around each facility
+7. Rank top 10 districts by lowest per-capita facility coverage
+8. Generate choropleth map
+9. Generate bar chart comparing results
+10. Assemble all elements into comprehensive HTML dashboard
+11. Debug and fix overlapping elements based on feedback
+12. Deploy final website
+
+**COMPLEXITY**: High
+**DURATION**: A few minutes
+
+### WORKFLOW 2: Create a Web-Based Word Processor
+**OBJECTIVE**: Build a functional clone of a word processor application (like Microsoft Word) that runs in a web browser.
+
+**FEATURES**: Rich text editing, font selection, font size, bold/italic/underline/strikethrough, save functionality
+
+**COMPLEXITY**: Medium-High
+
+### WORKFLOW 3: Create an Animated Math Visualization
+**OBJECTIVE**: Create an animated visualization explaining the concept of Gradient Descent in 2D.
+
+**COMPLEXITY**: Medium
+
+---
+
+## Benchmarks
+
+- **Humanity's Last Exam**: Kimi K2 (44.9) vs GPT-5 (41.7) vs Claude 4.5 (32)
+- **BrowseComp (Agentic Search)**: Kimi K2 (60.2) vs GPT-5 (54.9) vs Claude 4.5 (24.1)
+- **SWE-bench Verified**: Kimi K2 (71) vs GPT-5 (74) vs Claude 4.5 (77)
+- **LiveCodeBench V6**: Kimi K2 (83.1) vs GPT-5 (87) vs Claude 4.5 (64)
+
+---
+
+## Model Specifications
+
+### Kimi K2 Thinking
+- **Total Parameters**: 1 trillion
+- **Active Parameters**: 32 billion (during inference)
+- **Experts**: 384 (Mixture of Experts)
+- **Context Length**: 128K-256K tokens
+- **Vocabulary Size**: 160,000
+- **Training Cost**: ~$5.6M (H800 chips)
+- **Architecture**: Mixture-of-Experts (MoE)
+
+### DeepSeek R1 (Comparison)
+- **Total Parameters**: 671 billion
+- **Active Parameters**: 37 billion (during inference)
+- **Experts**: 256 (Mixture of Experts)
+- **Context Length**: 128K tokens
+- **Vocabulary Size**: 129,000
+
+---
+
+## Timestamps
+
+00:00 - Introduction to Kimi K2 Thinking
+01:19 - Benchmark results (Humanity's Last Exam, BrowseComp)
+02:15 - Coding benchmarks (SWE-bench, LiveCodeBench)
+02:41 - PhD-level mathematics problem demonstration
+03:37 - Agentic coding examples (Word clone)
+04:23 - Math visualizations and simulations
+06:44 - Agentic search and browsing capabilities
+08:09 - Industry reactions and cost analysis
+09:14 - Comparison with DeepSeek R1 architecture
+11:08 - China's rise in open-source AI
+12:06 - Ghana healthcare analysis dashboard demo
+14:11 - Conclusion and sponsor message
+
+---
+
+## Department
+
+AID (AI & Automation) / DEV (Development)
+
+---
+
+## Priority
+
+Medium-High
+
+---
+
+## Notes
+
+Open-source AI model analysis. Kimi K2 Thinking beats GPT-5 on several benchmarks. Demonstrates 200-300 sequential tool calls for complex problem solving. Training cost: $5.6M (vs $20M+ typical). Excellent for agentic workflows, data analysis, and code generation. Notable rise of Chinese open-source AI labs (DeepSeek, Moonshot, Owen).

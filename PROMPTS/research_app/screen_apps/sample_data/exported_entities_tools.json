@@ -1,0 +1,102 @@
+[
+  {
+    "id": "1",
+    "entity_type": "TOOL",
+    "entity_name": "Claude Desktop",
+    "entity_id": "TOOL-AI-224",
+    "classification": "NEW",
+    "category": "AI",
+    "description": "Desktop application for Claude AI with MCP server support for local tool integration",
+    "video_id": "video_1",
+    "video_title": "Claude Desktop MCP Setup Tutorial",
+    "extracted_at": "2025-11-28T10:00:00Z",
+    "confidence_score": 0.95,
+    "metadata": {
+      "pricing": "Free + Pro ($20/mo)",
+      "platform": "Desktop (Mac/Windows)",
+      "website": "claude.ai",
+      "language": "Node.js",
+      "license": "Proprietary"
+    }
+  },
+  {
+    "id": "2",
+    "entity_type": "TOOL",
+    "entity_name": "n8n",
+    "entity_id": "TOOL-AUTOMATION-112",
+    "classification": "EXISTING",
+    "category": "AUTOMATION",
+    "description": "Workflow automation platform for developers with visual editor and 400+ integrations",
+    "video_id": "video_2",
+    "video_title": "n8n Workflow Automation",
+    "extracted_at": "2025-11-28T11:00:00Z",
+    "confidence_score": 0.98,
+    "metadata": {
+      "pricing": "Self-hosted free, Cloud from $20/mo",
+      "platform": "Web/Self-hosted",
+      "website": "n8n.io",
+      "integrations": 400,
+      "license": "Fair-code"
+    }
+  },
+  {
+    "id": "3",
+    "entity_type": "TOOL",
+    "entity_name": "MCP Server Protocol",
+    "entity_id": "TOOL-AI-225",
+    "classification": "NEW",
+    "category": "AI",
+    "description": "Model Context Protocol for connecting AI assistants to external tools and data sources",
+    "video_id": "video_1",
+    "video_title": "Claude Desktop MCP Setup Tutorial",
+    "extracted_at": "2025-11-28T10:05:00Z",
+    "confidence_score": 0.92,
+    "metadata": {
+      "pricing": "Open Source",
+      "platform": "Cross-platform",
+      "website": "modelcontextprotocol.io",
+      "language": "JSON-RPC",
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "4",
+    "entity_type": "TOOL",
+    "entity_name": "Supabase",
+    "entity_id": "TOOL-DATABASE-045",
+    "classification": "EXISTING",
+    "category": "DATABASE",
+    "description": "Open source Firebase alternative with PostgreSQL database, real-time subscriptions, and authentication",
+    "video_id": "video_6",
+    "video_title": "Advanced Supabase Security",
+    "extracted_at": "2025-11-28T13:00:00Z",
+    "confidence_score": 0.97,
+    "metadata": {
+      "pricing": "Free tier + paid from $25/mo",
+      "platform": "Cloud/Self-hosted",
+      "website": "supabase.com",
+      "database": "PostgreSQL",
+      "license": "Apache 2.0"
+    }
+  },
+  {
+    "id": "5",
+    "entity_type": "TOOL",
+    "entity_name": "ChatGPT API",
+    "entity_id": "TOOL-AI-156",
+    "classification": "UPDATE",
+    "category": "AI",
+    "description": "OpenAI's ChatGPT API for integrating GPT-4 and GPT-3.5 models into applications",
+    "video_id": "video_9",
+    "video_title": "ChatGPT API Integration Guide",
+    "extracted_at": "2025-11-28T14:30:00Z",
+    "confidence_score": 0.94,
+    "metadata": {
+      "pricing": "Pay-per-token from $0.002/1K tokens",
+      "platform": "API/Cloud",
+      "website": "platform.openai.com",
+      "models": ["gpt-4", "gpt-3.5-turbo"],
+      "license": "Proprietary"
+    }
+  }
+]

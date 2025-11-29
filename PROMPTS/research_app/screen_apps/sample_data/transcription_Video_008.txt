@@ -1,0 +1,257 @@
+Video Title: How to Connect Claude to Any App (No-Code)
+Channel: D-Squared
+Duration: 12:41
+URL: Not provided
+
+---
+
+## Description
+
+Tutorial demonstrating how to connect Claude AI to any application without writing code using Claude's "Skills" feature, specifically the MCP (Model Context Protocol) builder skill. Shows how to create custom connectors with full read, write, and send access for apps like Gmail, Google Calendar, and CRM systems.
+
+---
+
+## Key Topics
+
+- Claude Skills Feature
+- MCP (Model Context Protocol) Builder
+- No-Code AI Integration
+- Custom Connector Creation
+- Gmail Integration
+- Google Calendar Integration
+- CRM Automation
+- Workflow Automation with AI
+- Local vs Cloud Deployment
+
+---
+
+## Tools Mentioned
+
+### Primary Tools
+- **Claude AI** - Main AI platform
+- **Claude Desktop App** - Required for local connectors
+- **MCP Builder Skill** - Custom connector creation
+
+### Integration Examples
+- **Gmail** - Email automation (read, write, send)
+- **Google Calendar** - Event management
+- **CRM** - Customer relationship management
+- **Cursor** - AI coding assistant (for setup help)
+
+### Models Referenced
+- **Claude Sonnet 4.5** - Best model for creating connectors (good at code and tool calls)
+
+---
+
+## Key Concepts
+
+### What is an MCP?
+- **MCP** = Model Context Protocol = Connector
+- Allows AI to connect to external applications
+- Can provide read, write, and send permissions
+- Runs locally or in cloud
+
+### Why Custom Connectors?
+1. **Limited Pre-built Options** - Not all apps have existing connectors
+2. **Read-Only Restrictions** - Many connectors only allow reading, not writing/acting
+3. **Full Control** - Custom connectors give complete access permissions
+
+### Skills Explained
+- **Skills** = Subset of prompts + code packaged to achieve specific tasks
+- Reusable across Claude sessions
+- Enable complex automation workflows
+
+---
+
+## Workflows Identified
+
+### WORKFLOW 1: Enable Claude Skills
+**OBJECTIVE**: Activate the MCP Builder skill in Claude
+
+**STEPS**:
+1. Navigate to profile icon in Claude
+2. Go to Settings
+3. Select Capabilities tab
+4. Find Skills section
+5. Toggle on `mcp-builder` skill
+
+**DURATION**: 1-2 minutes
+**COMPLEXITY**: Low
+**TOOLS USED**: Claude
+
+### WORKFLOW 2: Create Custom Gmail Connector
+**OBJECTIVE**: Build connector for Gmail with read, write, and send access
+
+**STEPS**:
+1. Open Claude with MCP Builder skill enabled
+2. Use prompt: "Use the MCP builder skill to create an MCP for Gmail that can read, write, and send emails"
+3. Claude researches Gmail API documentation
+4. Claude writes connector code
+5. Claude provides setup instructions
+6. Save connector files to local folder (e.g., "Gmail" folder)
+7. Get Gmail API credentials
+8. Configure Claude Desktop to use connector
+9. Test connector
+
+**DURATION**: 10-15 minutes
+**COMPLEXITY**: Medium
+**TOOLS USED**: Claude, Gmail API, Claude Desktop
+**MODEL RECOMMENDED**: Sonnet 4.5
+
+### WORKFLOW 3: Create Google Calendar Connector
+**OBJECTIVE**: Build connector for Google Calendar with full access
+
+**STEPS**:
+1. Use prompt: "Use the MCP builder skill to create an MCP for Google Calendar with read, write, delete, and create events access. Intent: grab attendees from meetings"
+2. Claude researches Google Calendar API
+3. Claude generates connector code
+4. Follow setup instructions
+5. Configure credentials
+6. Enable in Claude Desktop
+
+**DURATION**: 10-15 minutes
+**COMPLEXITY**: Medium
+
+### WORKFLOW 4: Automated Morning Email Workflow
+**OBJECTIVE**: Draft responses to overnight emails automatically
+
+**STEPS**:
+1. Morning: Open Claude
+2. Claude accesses Gmail via connector
+3. Claude reads all unread emails from previous night
+4. Claude drafts responses in your tone/style
+5. Review drafts
+6. Send immediately or make minor edits
+
+**DURATION**: 5-10 minutes daily
+**COMPLEXITY**: Low (after setup)
+**TIME SAVED**: ~2 hours per week
+
+### WORKFLOW 5: Subscriber Email Response Automation
+**OBJECTIVE**: Respond to newsletter subscriber questions in bulk
+
+**STEPS**:
+1. Every 3-5 days, check subscriber responses
+2. Claude reads 20-25 pending emails
+3. Claude analyzes previous response patterns
+4. Claude drafts responses matching your tone
+5. Review and send
+
+**DURATION**: 10 minutes every 3-5 days
+**COMPLEXITY**: Low
+**TIME SAVED**: ~1-2 hours per week
+
+### WORKFLOW 6: Multi-Connector CRM Update Workflow
+**OBJECTIVE**: Process meeting transcripts and update multiple systems
+
+**STEPS**:
+1. Drop meeting transcript into Claude project
+2. Claude uses Google Calendar connector to grab attendees
+3. Claude uses Gmail connector to draft follow-up email (specific structure/tone)
+4. Claude uses CRM connector to:
+   - Mark meeting as completed
+   - Update wins from meeting
+   - Log other meeting details
+5. All automation completes in 1-4 minutes
+
+**DURATION**: 1-4 minutes
+**COMPLEXITY**: High
+**TOOLS USED**: Claude, Google Calendar, Gmail, CRM (3 connectors stacked)
+**TIME SAVED**: ~15 hours per week
+
+---
+
+## Setup Process
+
+### General Steps for Any Connector
+1. **Save Files**: Create folder named after app (Gmail, Calendar, etc.)
+2. **Get Credentials**: Obtain API keys from application
+3. **Configure Claude Desktop**: Add connector to settings
+4. **Verify**: Check connector shows as "configured" in Claude settings
+
+### Using AI Assistance for Setup
+- Cursor or other AI coding tools can help with configuration
+- Paste error messages back to AI for troubleshooting
+- Typically 1-2 iterations to complete setup
+
+---
+
+## Prompts Used
+
+### Gmail Connector Prompt
+```
+Use the MCP builder skill to create an MCP for Gmail that can read, write, and send emails
+```
+
+### Google Calendar Connector Prompt
+```
+Use the MCP builder skill to create an MCP for Google Calendar. It should have read, write, delete, and create events access. My intent is to be able to grab attendees from each meeting.
+```
+
+---
+
+## Best Practices
+
+### Security Warnings
+⚠️ **"With great power comes great responsibility"**
+- Don't connect to production databases
+- Don't connect to critical client data
+- Ensure backups before giving AI write access
+- Start with test/sandbox environments
+
+### Recommended Approach
+1. **Start Local**: Run connectors locally first
+2. **Test Thoroughly**: Verify functionality before production use
+3. **Stack Connectors in Projects**: Use Claude Projects for complex workflows
+4. **Cloud Deployment**: Once confident, deploy to cloud for mobile access
+
+### Model Selection
+- **GPT-5**: Good for visual/UI tasks
+- **Sonnet 4.5**: Best for code generation and tool calling
+- **Use Sonnet 4.5** for creating connectors
+
+---
+
+## Time Savings
+
+**Total Weekly Time Saved**: ~15 hours
+- Morning emails: 2 hours
+- Subscriber responses: 1-2 hours
+- CRM updates: 10-12 hours
+
+---
+
+## Pro Tips
+
+1. **Use Claude Desktop**: Required for local connector execution
+2. **Verify Connectors**: Check settings → connectors → look for "configured" status
+3. **Explicit Prompts**: Tell Claude which connector to use if not auto-detected
+4. **Projects for Automation**: Create dedicated Claude projects for recurring workflows
+5. **Stack Multiple Connectors**: Combine 3+ connectors for powerful automation
+
+---
+
+## Future Capabilities
+
+- Deploy connectors to cloud
+- Access from mobile/tablet
+- Share connectors with team
+- Build recruitment application (auto-fetch CVs from LinkedIn, compare to JD, shortlist)
+
+---
+
+## Department
+
+AID (AI & Automation) / DEV (Development)
+
+---
+
+## Priority
+
+High
+
+---
+
+## Notes
+
+Excellent no-code tutorial for connecting Claude to external apps. MCP Builder skill eliminates need for manual coding. Key advantage: Full read/write access vs typical read-only connectors. Stacking multiple connectors in Claude Projects creates powerful automation workflows. Security-conscious approach recommended. Best model: Sonnet 4.5 for connector creation. Time savings: 15+ hours/week possible. Local deployment easier for beginners, cloud deployment for production use.

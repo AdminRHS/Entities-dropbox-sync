@@ -1,0 +1,5 @@
+# Resume
+
+**Name:** Malitska Dana
+
+Hello! My name is Dana. I am 19 years old, and I currently live in the city of Zhytomyr. My previous job was an English Tutor at a private company that helps children and adults in language learning and acquiring new skills. I possess strong self-organization skills, the ability to effectively plan my time, and a proficiency in working with minimal supervision. I also respond quickly and perform my duties diligently. I am currently pursuing a higher education degree in "Graphic Design," which has provided me with significant experience in the design field. Yes, I actualy utilize АІ tools in my work. This greatly simplifies my study and professional tasks and allows me to save time. I know Ukrainian and Englis so I would be delighted to work with you and look forward to contributing to your team.

@@ -1,0 +1,120 @@
+Video Title: This AI Agent Will DO Your Work For You! (Browse AI)
+Channel: The AI Advantage
+Duration: 10:53
+URL: https://youtu.be/EYAMZ9aSVh4
+
+---
+
+## Description
+
+Tutorial on Browse AI, a no-code web scraping tool that allows you to scrape data from any website without writing code. The video demonstrates how to build a robot that can extract structured data, handle pagination, and export results to various formats.
+
+---
+
+## Key Topics
+
+- Web Scraping / Data Extraction
+- No-code Automation
+- Browse AI Tutorial
+- Data Export to Google Sheets
+- Website Monitoring
+- Lead Generation
+- Price Monitoring
+- Data Research Automation
+
+---
+
+## Tools Mentioned
+
+- **Browse AI** (Main tool) - No-code web scraping platform
+- **Chrome Extension** - Required for Browse AI to record browser actions
+- **Google Sheets Integration** - For exporting scraped data
+
+---
+
+## Workflow: Build a Web Scraping Robot
+
+**OBJECTIVE**: Extract a list of AI tools from a directory website without coding
+
+**STEPS**:
+1. Create account on Browse AI
+2. Install Chrome extension
+3. Click "Build New Robot"
+4. Choose "Extract Structured Data" option
+5. Enter target URL of website to scrape
+6. Click "Start Recording"
+7. Click robot icon and select "Capture List"
+8. Click on first item to establish pattern
+9. Click on second item - Browse AI auto-detects pattern
+10. Map additional columns (Name, Description, Link)
+11. Configure pagination (select "Next" button)
+12. Click "Finish Recording"
+13. Name the robot (e.g., "AI Tools Scraper")
+14. Run task and specify number of pages to scrape
+15. Wait for processing to complete
+16. Export data as CSV or send to Google Sheets
+
+**DURATION**: 5-10 minutes for setup, seconds for execution
+**COMPLEXITY**: Low
+**OUTPUT**: CSV file or Google Sheets with structured data
+
+---
+
+## Timestamps
+
+00:00 - Introduction
+00:15 - What is Browse AI?
+00:35 - Getting Started
+01:00 - Install Chrome Extension
+01:30 - Build New Robot
+02:15 - Enter Target URL
+02:45 - Capture List
+03:20 - Pattern Detection
+04:00 - Map Data Columns
+05:15 - Configure Pagination
+06:10 - Finish and Save
+07:00 - Run Task
+08:20 - Processing
+09:10 - Export Data
+10:00 - Conclusion
+
+---
+
+## Use Cases
+
+- **Lead Generation**: Extract company contact information from directories
+- **Price Monitoring**: Track competitor pricing across multiple pages
+- **Data Research**: Gather structured data for analysis
+- **Market Research**: Collect product listings and reviews
+- **Content Aggregation**: Pull articles, blog posts, or resources
+- **Scheduled Automation**: Run daily scrapes automatically
+
+---
+
+## Key Features
+
+- **No-Code Solution**: Visual interface, no programming required
+- **Pattern Detection**: Automatically identifies repeating elements
+- **Pagination Support**: Can scrape multiple pages automatically
+- **Column Mapping**: Extract specific data fields (name, description, links)
+- **Export Options**: CSV download or direct Google Sheets integration
+- **Scheduling**: Can be set to run daily/weekly/monthly
+- **Chrome Extension**: Records user actions in browser
+
+---
+
+## Department
+
+DEV (Development) / MKT (Marketing)
+
+---
+
+## Priority
+
+High
+
+---
+
+## Notes
+
+Excellent no-code alternative to custom scrapers. Great for non-technical users who need data extraction. Supports scheduling for recurring scrapes. Key advantage: visual interface eliminates need for coding knowledge. Perfect for lead generation, price monitoring, and research data collection. Can scrape 50+ items in under a minute once configured.
