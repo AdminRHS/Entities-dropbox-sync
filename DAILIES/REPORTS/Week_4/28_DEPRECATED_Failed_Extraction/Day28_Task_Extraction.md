@@ -1,0 +1,1873 @@
+# Day 28 Task Extraction Report
+
+**Date:** November 28, 2025
+**Generated:** 2025-11-29 17:58:59
+**Total Tasks Extracted:** 681
+
+---
+
+## Task Summary by Department
+
+| Department | Total | Completed | In Progress | New | Blocked |
+|------------|-------|-----------|-------------|-----|----------|
+| AI | 52 | 1 | 0 | 51 | 0 |
+| Design | 36 | 0 | 0 | 36 | 0 |
+| Dev | 400 | 55 | 1 | 344 | 0 |
+| LG | 193 | 1 | 0 | 192 | 0 |
+| **TOTAL** | **681** | **57** | **1** | **623** | **0** |
+
+---
+
+## Detailed Task List
+
+### AI Department
+
+#### Artemchuk Nikolay (30 tasks)
+
+- **TST-001** [NEW] *Priority:** 🟡 Medium
+  - Section: # [TASK-AID-005] Cross-Department AI Tool Support
+- **TST-002** [NEW] *Project:** PROJ-AID-001 (AI-First Company Transformation)
+  - Section: # [TASK-AID-005] Cross-Department AI Tool Support
+- **TST-003** [NEW] *Taxonomy Code:** TST-043 (Relationship Building & Networking - adapted for support)
+  - Section: # [TASK-AID-005] Cross-Department AI Tool Support
+- **TST-004** [NEW] *Status:**  New (Daily recurring)
+  - Section: # [TASK-AID-005] Cross-Department AI Tool Support
+- **TST-005** [NEW] *Depends On:** Employee requests
+  - Section: # [TASK-AID-005] Cross-Department AI Tool Support
+- **TST-006** [NEW] *Blocks:** None
+  - Section: # [TASK-AID-005] Cross-Department AI Tool Support
+- **TST-007** [NEW] *Assigned To:** Designer without daily files in folder
+  - Section: # [TASK-AID-005] Cross-Department AI Tool Support
+- **TST-008** [NEW] *Estimated Time:** 1.5h
+  - Section: # [TASK-AID-005] Cross-Department AI Tool Support
+- **TST-009** [NEW] *Actual Time:** _[To be filled]_
+  - Section: # [TASK-AID-005] Cross-Department AI Tool Support
+- **TST-010** [NEW] *Description:**
+  - Section: # [TASK-AID-005] Cross-Department AI Tool Support
+- **TST-011** [NEW] *Common Support Requests (from Day 26-27):**
+  - Section: # [TASK-AID-005] Cross-Department AI Tool Support
+- **TST-012** [NEW] "How do I install Claude Extension?"
+  - Section: # [TASK-AID-005] Cross-Department AI Tool Support
+- **TST-013** [NEW] "Gemini tokens ran out, what do I do?"
+  - Section: # [TASK-AID-005] Cross-Department AI Tool Support
+- **TST-014** [NEW] "Which AI tool should I use for X task?"
+  - Section: # [TASK-AID-005] Cross-Department AI Tool Support
+- **TST-015** [NEW] "How do I switch accounts in Antigravity?"
+  - Section: # [TASK-AID-005] Cross-Department AI Tool Support
+- **TST-016** [NEW] "Whisper Flow not recording properly"
+  - Section: # [TASK-AID-005] Cross-Department AI Tool Support
+- **TST-017** [NEW] *Subtasks:**
+  - Section: # [TASK-AID-005] Cross-Department AI Tool Support
+- **TST-018** [NEW] Monitor Discord #ai-support channel
+  - Section: # [TASK-AID-005] Cross-Department AI Tool Support
+- **TST-019** [NEW] Respond to direct messages about AI tools
+  - Section: # [TASK-AID-005] Cross-Department AI Tool Support
+- **TST-020** [NEW] Help with access issues (tokens, accounts, extensions)
+  - Section: # [TASK-AID-005] Cross-Department AI Tool Support
+- **TST-021** [NEW] Guide on when to use which tool (Cursor vs Antigravity vs Claude)
+  - Section: # [TASK-AID-005] Cross-Department AI Tool Support
+- **TST-022** [NEW] Document common issues for future FAQ
+  - Section: # [TASK-AID-005] Cross-Department AI Tool Support
+- **TST-023** [NEW] *Success Criteria:**
+  - Section: # [TASK-AID-005] Cross-Department AI Tool Support
+- **TST-024** [NEW] All support requests answered within 2 hours
+  - Section: # [TASK-AID-005] Cross-Department AI Tool Support
+- **TST-025** [NEW] Employees unblocked on AI tool usage
+  - Section: # [TASK-AID-005] Cross-Department AI Tool Support
+- **TST-026** [NEW] Common issues documented
+  - Section: # [TASK-AID-005] Cross-Department AI Tool Support
+- **TST-027** [DONE] *Definition of Done:**
+  - Section: # [TASK-AID-005] Cross-Department AI Tool Support
+- **TST-028** [NEW] Support requests handled
+  - Section: # [TASK-AID-005] Cross-Department AI Tool Support
+- **TST-029** [NEW] Blockers removed
+  - Section: # [TASK-AID-005] Cross-Department AI Tool Support
+- **TST-030** [NEW] Knowledge shared
+  - Section: # [TASK-AID-005] Cross-Department AI Tool Support
+
+#### Perederii Vladislav (22 tasks)
+
+- **TST-031** [NEW] *What**: Record of all your activities throughout the day
+- **TST-032** [NEW] Time stamps for each activity
+- **TST-033** [NEW] What you worked on
+- **TST-034** [NEW] Whisper Flow transcripts from all meetings/calls
+- **TST-035** [NEW] Outcomes and results
+- **TST-036** [NEW] *What I worked on:**
+  - Section: Morning - Data Production & New Scraping Cycle
+- **TST-037** [NEW] **9:00 AM - 11:00 AM:** Monitored and managed the ongoing automated processing of the 70k+ job vacancies collected yesterday. Checked the output tables to ensure data is being cleaned, enriched, and populated correctly. Addressed any minor errors that arose.
+  - Section: Morning - Data Production & New Scraping Cycle
+- **TST-038** [NEW] **11:00 AM - 1:00 PM:** Initiated a new scraping cycle for the Google Maps project. Used the new search queries provided by the lead generation team lead to perform a "wide scrape" with Instant Data Scraper, collecting a fresh batch of raw company data.
+  - Section: Morning - Data Production & New Scraping Cycle
+- **TST-039** [NEW] *Outcomes:**
+  - Section: Morning - Data Production & New Scraping Cycle
+- **TST-040** [NEW] The processing of the massive 70k+ vacancy batch is actively progressing, turning raw data into usable leads.
+  - Section: Morning - Data Production & New Scraping Cycle
+- **TST-041** [NEW] A new, highly relevant batch of raw companies has been collected for the Google Maps project, based on direct input from the lead gen team, ensuring the upcoming results will be high-value.
+  - Section: Morning - Data Production & New Scraping Cycle
+- **TST-042** [NEW] *What I worked on:**
+  - Section: Day - System Optimization & User Feedback Monitoring
+- **TST-043** [NEW] **2:00 PM - 4:30 PM:** Conducted a full diagnostic run of the Google Maps script to identify performance bottlenecks. Used logging and timing decorators (`@timeit`) on key functions (scraping, NLP analysis, enrichment). Identified that the review scraping and decision-maker search are the slowest parts. Began researching optimization techniques (e.g., parallel processing for enrichment).
+  - Section: Day - System Optimization & User Feedback Monitoring
+- **TST-044** [NEW] **4:30 PM - 5:30 PM:** Actively monitored the team's first tests of the "Gem" custom chat instructions. Communicated with the lead generators in a dedicated channel, answered their questions, and collected their initial feedback on the generated "first messages."
+  - Section: Day - System Optimization & User Feedback Monitoring
+- **TST-045** [NEW] *Outcomes:**
+  - Section: Day - System Optimization & User Feedback Monitoring
+- **TST-046** [NEW] A clear performance baseline for the Google Maps script has been established, and specific, time-consuming functions have been identified for future optimization.
+  - Section: Day - System Optimization & User Feedback Monitoring
+- **TST-047** [NEW] The first round of user feedback on the "Gem" chat has been collected. This invaluable input will be used to modify the system prompt and improve the quality of the generated messages. The feedback loop is now active.
+  - Section: Day - System Optimization & User Feedback Monitoring
+- **TST-048** [NEW] The processing of 70k vacancies is a long-running task; need to check its status periodically tomorrow.
+  - Section: Day - System Optimization & User Feedback Monitoring
+- **TST-049** [NEW] The primary feedback on "Gem" is that the tone is slightly too formal. This is an easy fix in the system prompt.
+  - Section: Day - System Optimization & User Feedback Monitoring
+- **TST-050** [NEW] Whisper Flow ON during all activities
+  - Section: Day - System Optimization & User Feedback Monitoring
+- **TST-051** [NEW] Update this file throughout the day
+  - Section: Day - System Optimization & User Feedback Monitoring
+- **TST-052** [NEW] Include all meeting transcripts
+  - Section: Day - System Optimization & User Feedback Monitoring
+
+---
+
+### Design Department
+
+#### Skrypkar Vilhelm (36 tasks)
+
+- **TST-053** [NEW] *What**: Record of all your activities throughout the day
+- **TST-054** [NEW] Time stamps for each activity
+- **TST-055** [NEW] What you worked on
+- **TST-056** [NEW] Whisper Flow transcripts from all meetings/calls
+- **TST-057** [NEW] Outcomes and results
+- **TST-058** [NEW] *What I worked on:**
+  - Section: Morning - [REM-s social graphics masterclass for leadgens]
+- **TST-059** [NEW] Сегодня, в первой половине дня, я готовился к созвону с лидогенератором, о котором мы уже несколько дней говорили с Ковальской. Я доработал инструкцию и мастер-промт для генерации графики REM S.
+  - Section: Morning - [REM-s social graphics masterclass for leadgens]
+- **TST-060** [NEW] *Outcomes:**
+  - Section: Morning - [REM-s social graphics masterclass for leadgens]
+- **TST-061** [NEW] *What I worked on:**
+  - Section: Day - [Figuring out and assigning tasks for creating graphics for REM-s website]
+- **TST-062** [NEW] После обеда пришли HR и разработчик Лилия Даниленко и сказали, что нам нужно переделывать графику для сайта.
+  - Section: Day - [Figuring out and assigning tasks for creating graphics for REM-s website]
+- **TST-063** [NEW] AI Engineer mascot (shark)
+  - Section: Day - [Figuring out and assigning tasks for creating graphics for REM-s website]
+- **TST-064** [NEW] Project Manager mascot (tiger)
+  - Section: Day - [Figuring out and assigning tasks for creating graphics for REM-s website]
+- **TST-065** [NEW] Lead Generator mascot (wolf)
+  - Section: Day - [Figuring out and assigning tasks for creating graphics for REM-s website]
+- **TST-066** [NEW] SMM Specialist mascot (sea horse)
+  - Section: Day - [Figuring out and assigning tasks for creating graphics for REM-s website]
+- **TST-067** [NEW] HR mascot (polar bear)
+  - Section: Day - [Figuring out and assigning tasks for creating graphics for REM-s website]
+- **TST-068** [NEW] Recruiter mascot (arctic fox)
+  - Section: Day - [Figuring out and assigning tasks for creating graphics for REM-s website]
+- **TST-069** [NEW] Sales mascot (puma)
+  - Section: Day - [Figuring out and assigning tasks for creating graphics for REM-s website]
+- **TST-070** [NEW] Chat Operator mascot (needs to be developed)
+  - Section: Day - [Figuring out and assigning tasks for creating graphics for REM-s website]
+- **TST-071** [NEW] Full Stack Developer mascot (needs to be developed)
+  - Section: Day - [Figuring out and assigning tasks for creating graphics for REM-s website]
+- **TST-072** [NEW] Backend Developer mascot (needs to be developed)
+  - Section: Day - [Figuring out and assigning tasks for creating graphics for REM-s website]
+- **TST-073** [NEW] Frontend Developer mascot (needs to be developed)
+  - Section: Day - [Figuring out and assigning tasks for creating graphics for REM-s website]
+- **TST-074** [NEW] QA Engineer mascot (needs to be developed)
+  - Section: Day - [Figuring out and assigning tasks for creating graphics for REM-s website]
+- **TST-075** [NEW] Developers (praying mantis)
+  - Section: Day - [Figuring out and assigning tasks for creating graphics for REM-s website]
+- **TST-076** [NEW] Translators (needs to be developed)
+  - Section: Day - [Figuring out and assigning tasks for creating graphics for REM-s website]
+- **TST-077** [NEW] AI (shark)
+  - Section: Day - [Figuring out and assigning tasks for creating graphics for REM-s website]
+- **TST-078** [NEW] Management (needs to be developed)
+  - Section: Day - [Figuring out and assigning tasks for creating graphics for REM-s website]
+- **TST-079** [NEW] Marketers (needs to be developed)
+  - Section: Day - [Figuring out and assigning tasks for creating graphics for REM-s website]
+- **TST-080** [NEW] Design (Hummingbird)
+  - Section: Day - [Figuring out and assigning tasks for creating graphics for REM-s website]
+- **TST-081** [NEW] png or svg format
+  - Section: Day - [Figuring out and assigning tasks for creating graphics for REM-s website]
+- **TST-082** [NEW] square, 800x800px minimum, 2000x2000px maximum. If chatgpt generates them in 1024*1024 it’s ok
+  - Section: Day - [Figuring out and assigning tasks for creating graphics for REM-s website]
+- **TST-083** [NEW] Under 2MB each
+  - Section: Day - [Figuring out and assigning tasks for creating graphics for REM-s website]
+- **TST-084** [NEW] Naming format: `mascot_[department]_[role]_[description].png`. For example, 'mascot_marketers_prompt-engineers_shark.png' for a profession mascot, or 'mascot_developers_praying-mantis.png' for a department mascot
+  - Section: Day - [Figuring out and assigning tasks for creating graphics for REM-s website]
+- **TST-085** [NEW] *Outcomes:**
+  - Section: Day - [Figuring out and assigning tasks for creating graphics for REM-s website]
+- **TST-086** [NEW] Whisper Flow ON during all activities
+  - Section: Day - [Figuring out and assigning tasks for creating graphics for REM-s website]
+- **TST-087** [NEW] Update this file throughout the day
+  - Section: Day - [Figuring out and assigning tasks for creating graphics for REM-s website]
+- **TST-088** [NEW] Include all meeting transcripts
+  - Section: Day - [Figuring out and assigning tasks for creating graphics for REM-s website]
+
+---
+
+### Dev Department
+
+#### Artem Skichko (81 tasks)
+
+- **TST-089** [NEW] *What**: Record of all your activities throughout the day
+- **TST-090** [NEW] Time stamps for each activity
+- **TST-091** [NEW] What you worked on
+- **TST-092** [NEW] Whisper Flow transcripts from all meetings/calls
+- **TST-093** [NEW] Outcomes and results
+- **TST-094** [NEW] *What I worked on:**
+  - Time: 8:00-8:15
+  - Section: [8:00-8:15] - [Getting Strapi Access]
+- **TST-095** [DONE] Contact Nealova Evgeniya via Discord/Dropbox
+  - Time: 8:00-8:15
+  - Section: [8:00-8:15] - [Getting Strapi Access]
+- **TST-096** [DONE] Request Strapi media library access
+  - Time: 8:00-8:15
+  - Section: [8:00-8:15] - [Getting Strapi Access]
+- **TST-097** [DONE] Receive and test login credentials
+  - Time: 8:00-8:15
+  - Section: [8:00-8:15] - [Getting Strapi Access]
+- **TST-098** [DONE] Familiarize yourself with Strapi interface
+  - Time: 8:00-8:15
+  - Section: [8:00-8:15] - [Getting Strapi Access]
+- **TST-099** [DONE] Log into Strapi
+  - Time: 8:00-8:15
+  - Section: [8:00-8:15] - [Getting Strapi Access]
+- **TST-100** [DONE] Check existing media organization
+  - Time: 8:00-8:15
+  - Section: [8:00-8:15] - [Getting Strapi Access]
+- **TST-101** [DONE] Identify what needs to be updated/added
+  - Time: 8:00-8:15
+  - Section: [8:00-8:15] - [Getting Strapi Access]
+- **TST-102** [DONE] Take notes on file naming conventions
+  - Time: 8:00-8:15
+  - Section: [8:00-8:15] - [Getting Strapi Access]
+- **TST-103** [DONE] Understand folder structure
+  - Time: 8:00-8:15
+  - Section: [8:00-8:15] - [Getting Strapi Access]
+- **TST-104** [NEW] кнопку згортання/розгортання сайдбару потрібно перенести наверх сайдбару
+  - Time: 8:00-8:15
+  - Section: [8:00-8:15] - [Getting Strapi Access]
+- **TST-105** [NEW] заголовки Folders/Assets зробити більшого розміру
+  - Time: 8:00-8:15
+  - Section: [8:00-8:15] - [Getting Strapi Access]
+- **TST-106** [NEW] інтуїтивно не зрозуміло що означає кнопка обрати все, можливо потрібно дописати біля неї текст
+  - Time: 8:00-8:15
+  - Section: [8:00-8:15] - [Getting Strapi Access]
+- **TST-107** [NEW] прибрати скролбар справа
+  - Time: 8:00-8:15
+  - Section: [8:00-8:15] - [Getting Strapi Access]
+- **TST-108** [NEW] додати трохи анімації, інтерактивності і тд
+  - Time: 8:00-8:15
+  - Section: [8:00-8:15] - [Getting Strapi Access]
+- **TST-109** [NEW] при розгортанні селекту сайдбар підіймається, потрібно пофіксити
+  - Time: 8:00-8:15
+  - Section: [8:00-8:15] - [Getting Strapi Access]
+- **TST-110** [NEW] додати стиль до кнопки де перемикання сторінок “not allowed” якщо наприклад вже на першій сторінці і - хочемо повернутись назад
+  - Time: 8:00-8:15
+  - Section: [8:00-8:15] - [Getting Strapi Access]
+- **TST-111** [NEW] потрібно зробити так щоб при друку в search bar застосовувались зміни, а не при натисканні Enter
+  - Time: 8:00-8:15
+  - Section: [8:00-8:15] - [Getting Strapi Access]
+- **TST-112** [NEW] в цій модалці потрібно зробити блок location під блоком Name, а не в один рядок
+  - Time: 8:00-8:15
+  - Section: [8:00-8:15] - [Getting Strapi Access]
+- **TST-113** [NEW] додати кнопку cancel, тому що відразу не зрозуміло що є і ‘-’ в кнопці
+  - Time: 8:00-8:15
+  - Section: [8:00-8:15] - [Getting Strapi Access]
+- **TST-114** [NEW] навіщо кнопка Back якщо є breadcrumbs ?
+  - Time: 8:00-8:15
+  - Section: [8:00-8:15] - [Getting Strapi Access]
+- **TST-115** [NEW] додати відступи в зоні breadcrumbs, header, filter panel
+  - Time: 8:00-8:15
+  - Section: [8:00-8:15] - [Getting Strapi Access]
+- **TST-116** [NEW] make responsive design
+  - Time: 8:00-8:15
+  - Section: [8:00-8:15] - [Getting Strapi Access]
+- **TST-117** [NEW] після застосування змін в sortBy, незрозуміло чи вони застосувались
+  - Time: 8:00-8:15
+  - Section: [8:00-8:15] - [Getting Strapi Access]
+- **TST-118** [NEW] змінити селект часу
+  - Time: 8:00-8:15
+  - Section: [8:00-8:15] - [Getting Strapi Access]
+- **TST-119** [NEW] коли поставив дату, а потім змінюєш поле createdAt то дата очищається
+  - Time: 8:00-8:15
+  - Section: [8:00-8:15] - [Getting Strapi Access]
+- **TST-120** [NEW] коли обираю час то дата автоматично встановлюється
+  - Time: 8:00-8:15
+  - Section: [8:00-8:15] - [Getting Strapi Access]
+- **TST-121** [NEW] *Whisper Flow Transcript:**
+  - Time: 8:00-8:15
+  - Section: [8:00-8:15] - [Getting Strapi Access]
+- **TST-122** [NEW] *Outcomes:**
+  - Time: 8:00-8:15
+  - Section: [8:00-8:15] - [Getting Strapi Access]
+- **TST-123** [NEW] *What I worked on:**
+  - Time: 9:30 -11:00
+  - Section: [9:30 -11:00] - [Call with developers about Strapi]
+- **TST-124** [NEW] *Whisper Flow Transcript:**
+  - Time: 9:30 -11:00
+  - Section: [9:30 -11:00] - [Call with developers about Strapi]
+- **TST-125** [NEW] *Outcomes:**
+  - Time: 9:30 -11:00
+  - Section: [9:30 -11:00] - [Call with developers about Strapi]
+- **TST-126** [NEW] *What I worked on:**
+  - Time: 11:00-12:30
+  - Section: [11:00-12:30] - [Working on Strapi exports]
+- **TST-127** [NEW] **Step 1:** Знайшов у власній директорії `Xtrapi AI Automation Guide`, перечитав вимоги та структуру схеми експорту (`entities/assets/REMS/exported`).
+  - Time: 11:00-12:30
+  - Section: [11:00-12:30] - [Working on Strapi exports]
+- **TST-128** [NEW] **Step 2:** Зафіксував обмеження: Strapi недоступний через AIS, тому буду працювати напряму через REST API, отримуючи дані запитами та зберігаючи у JSON.
+  - Time: 11:00-12:30
+  - Section: [11:00-12:30] - [Working on Strapi exports]
+- **TST-129** [NEW] *План дій:**
+  - Time: 11:00-12:30
+  - Section: [11:00-12:30] - [Working on Strapi exports]
+- **TST-130** [NEW] **Step 7:** Розписав план для collection types (Vacancies, Categories, Skills, Keyword tags): масові вибірки, обробка draft state, можливість запитів по конкретних ID, валідація повноти даних.
+  - Time: 11:00-12:30
+  - Section: [11:00-12:30] - [Working on Strapi exports]
+- **TST-131** [NEW] **Step 8:** Передбачив перевірку відсутніх полів (наприклад, features на About) через додаткові параметри/фронт-проєкт; за потреби витягувати дані з фронту.
+  - Time: 11:00-12:30
+  - Section: [11:00-12:30] - [Working on Strapi exports]
+- **TST-132** [NEW] **Step 9:** Узгодив ручні процеси: розподіл сутностей між людьми, створення черги задач, винесення неактуальних вакансій у draft вручну (4 кліки) до готовності автоскрипта оновлень.
+  - Time: 11:00-12:30
+  - Section: [11:00-12:30] - [Working on Strapi exports]
+- **TST-133** [DONE] **Step 10:**  **Скрипт оновлення (updates → REMS):** створено `strapi-single-types-update.js` з обережним доступом до прод-бази (dry-run за замовчуванням, --confirm для реальних змін), детальним логуванням у файли, валідацією файлів, опціями --backup та --export-after, rate limiting між запитами. Додано повну документацію README-UPDATE.md.
+  - Time: 11:00-12:30
+  - Section: [11:00-12:30] - [Working on Strapi exports]
+- **TST-134** [NEW] *Whisper Flow Transcript:**
+  - Time: 11:00-12:30
+  - Section: [11:00-12:30] - [Working on Strapi exports]
+- **TST-135** [NEW] *Outcomes:**
+  - Time: 11:00-12:30
+  - Section: [11:00-12:30] - [Working on Strapi exports]
+- **TST-136** [NEW] *What I worked on:**
+  - Time: 13:30-17:00
+  - Section: [13:30-17:00] - [Working on updates in Strapi]
+- **TST-137** [NEW] Сканування папки `updated/pages/` для знаходження файлів для оновлення
+  - Time: 13:30-17:00
+  - Section: [13:30-17:00] - [Working on updates in Strapi]
+- **TST-138** [NEW] Валідацію JSON файлів перед оновленням
+  - Time: 13:30-17:00
+  - Section: [13:30-17:00] - [Working on updates in Strapi]
+- **TST-139** [NEW] Очищення системних полів (createdAt, updatedAt, publishedAt, locale, id) перед відправкою
+  - Time: 13:30-17:00
+  - Section: [13:30-17:00] - [Working on updates in Strapi]
+- **TST-140** [NEW] Детальне логування всіх дій у файли `logs/update-{timestamp}.log`
+  - Time: 13:30-17:00
+  - Section: [13:30-17:00] - [Working on updates in Strapi]
+- **TST-141** [NEW] Безпеку: dry-run режим за замовчуванням, `--confirm` для реальних змін
+  - Time: 13:30-17:00
+  - Section: [13:30-17:00] - [Working on updates in Strapi]
+- **TST-142** [NEW] Опції: `--backup` (створення backup перед оновленням), `--export-after` (експорт після оновлення)
+  - Time: 13:30-17:00
+  - Section: [13:30-17:00] - [Working on updates in Strapi]
+- **TST-143** [NEW] Rate limiting: затримка 500ms між запитами
+  - Time: 13:30-17:00
+  - Section: [13:30-17:00] - [Working on updates in Strapi]
+- **TST-144** [NEW] **Проблеми та вирішення:**
+  - Time: 13:30-17:00
+  - Section: [13:30-17:00] - [Working on updates in Strapi]
+- **TST-145** [NEW] **Помилка 500 (Internal Server Error):** Виникла через відправку системних полів (createdAt, updatedAt, locale, id) до Strapi. **Вирішення:** Додано функцію `cleanDataForUpdate()` для видалення системних полів перед оновленням.
+  - Time: 13:30-17:00
+  - Section: [13:30-17:00] - [Working on updates in Strapi]
+- **TST-146** [NEW] **Помилка 405 (Method Not Allowed):** Деякі endpoints не підтримували стандартний PUT метод. **Вирішення:** Реалізовано fallback механізм, який пробує різні HTTP методи (PUT → PATCH → POST) та різні формати URL (`/api/{endpoint}` та `/api/single-types/{endpoint}`).
+  - Time: 13:30-17:00
+  - Section: [13:30-17:00] - [Working on updates in Strapi]
+- **TST-147** [NEW] **Помилка 400 (Missing "data" payload):** Strapi v4 вимагає обгортку `{ data: ... }` для всіх запитів. **Вирішення:** Перевірено, що всі body формати включають обгортку `{ data: ... }`.
+  - Time: 13:30-17:00
+  - Section: [13:30-17:00] - [Working on updates in Strapi]
+- **TST-148** [NEW] **Frontend помилка (Cannot read properties of null):** Після оновлення фронтенд не міг отримати дані через `data.attributes`. **Вирішення:** Додано логіку для збереження `publishedAt` в payload, щоб дані залишалися опублікованими та доступними для фронтенду.
+  - Time: 13:30-17:00
+  - Section: [13:30-17:00] - [Working on updates in Strapi]
+- **TST-149** [NEW] **Оптимізація скрипта:**
+  - Time: 13:30-17:00
+  - Section: [13:30-17:00] - [Working on updates in Strapi]
+- **TST-150** [NEW] Змінено джерело даних з `exported/pages/` на `updated/pages/` для роботи з актуальними файлами
+  - Time: 13:30-17:00
+  - Section: [13:30-17:00] - [Working on updates in Strapi]
+- **TST-151** [NEW] Обмежено обробку тільки до About entity (about-us) для тестування
+  - Time: 13:30-17:00
+  - Section: [13:30-17:00] - [Working on updates in Strapi]
+- **TST-152** [NEW] Додано отримання поточних даних через GET перед оновленням для кращої сумісності
+  - Time: 13:30-17:00
+  - Section: [13:30-17:00] - [Working on updates in Strapi]
+- **TST-153** [NEW] Реалізовано спробу різних комбінацій: 4 формати URL × 3 конфігурації запитів × 3 формати body × 3 HTTP методи = до 108 спроб для кожного файлу
+  - Time: 13:30-17:00
+  - Section: [13:30-17:00] - [Working on updates in Strapi]
+- **TST-154** [NEW] **Успішне тестування:**
+  - Time: 13:30-17:00
+  - Section: [13:30-17:00] - [Working on updates in Strapi]
+- **TST-155** [NEW] Оновлено 4 файли для About entity (en, uk, pl, ru) успішно
+  - Time: 13:30-17:00
+  - Section: [13:30-17:00] - [Working on updates in Strapi]
+- **TST-156** [NEW] Всі оновлення пройшли через PUT метод зі стандартним URL форматом
+  - Time: 13:30-17:00
+  - Section: [13:30-17:00] - [Working on updates in Strapi]
+- **TST-157** [NEW] Створено backup перед оновленням
+  - Time: 13:30-17:00
+  - Section: [13:30-17:00] - [Working on updates in Strapi]
+- **TST-158** [NEW] Виконано автоматичний експорт після оновлення
+  - Time: 13:30-17:00
+  - Section: [13:30-17:00] - [Working on updates in Strapi]
+- **TST-159** [NEW] *Whisper flow:**
+  - Time: 13:30-17:00
+  - Section: [13:30-17:00] - [Working on updates in Strapi]
+- **TST-160** [NEW] *Outcomes:**
+  - Time: 13:30-17:00
+  - Section: [13:30-17:00] - [Working on updates in Strapi]
+- **TST-161** [DONE] Створено повнофункціональний скрипт оновлення `strapi-single-types-update.js`
+  - Time: 13:30-17:00
+  - Section: [13:30-17:00] - [Working on updates in Strapi]
+- **TST-162** [DONE] Вирішено всі API помилки (500, 405, 400) через fallback механізми та очищення даних
+  - Time: 13:30-17:00
+  - Section: [13:30-17:00] - [Working on updates in Strapi]
+- **TST-163** [DONE] Успішно оновлено 4 локалі для About entity в Strapi
+  - Time: 13:30-17:00
+  - Section: [13:30-17:00] - [Working on updates in Strapi]
+- **TST-164** [DONE] Створено детальну документацію README-UPDATE.md з інструкціями та прикладами
+  - Time: 13:30-17:00
+  - Section: [13:30-17:00] - [Working on updates in Strapi]
+- **TST-165** [DONE] Реалізовано безпечний workflow з backup та логуванням
+  - Time: 13:30-17:00
+  - Section: [13:30-17:00] - [Working on updates in Strapi]
+- **TST-166** [DONE] Скрипт готовий до використання для оновлення інших single types
+  - Time: 13:30-17:00
+  - Section: [13:30-17:00] - [Working on updates in Strapi]
+- **TST-167** [NEW] Whisper Flow ON during all activities
+  - Time: 13:30-17:00
+  - Section: [13:30-17:00] - [Working on updates in Strapi]
+- **TST-168** [NEW] Update this file throughout the day
+  - Time: 13:30-17:00
+  - Section: [13:30-17:00] - [Working on updates in Strapi]
+- **TST-169** [NEW] Include all meeting transcripts
+  - Time: 13:30-17:00
+  - Section: [13:30-17:00] - [Working on updates in Strapi]
+
+#### Danylenko Liliia (187 tasks)
+
+- **TST-170** [NEW] *What**: Record of all your activities throughout the day
+- **TST-171** [NEW] Time stamps for кожну активність
+- **TST-172** [NEW] Детальні описи того, над чим працювала
+- **TST-173** [NEW] Whisper Flow транскрипти зі всіх дзвінків
+- **TST-174** [NEW] Outcomes / результати
+- **TST-175** [NEW] Ознайомитися з TODO файлом та завданнями по Strapi
+  - Section: Основні задачі:
+- **TST-176** [NEW] Отримати доступ до Strapi від Nealova Evgeniya
+  - Section: Основні задачі:
+- **TST-177** [NEW] Вивчити інтерфейс та структуру медіа-бібліотеки
+  - Section: Основні задачі:
+- **TST-178** [NEW] Розібратися з організацією файлів та завданнями по оновленню контенту
+  - Section: Основні задачі:
+- **TST-179** [NEW] Тестувати заповнення libdev нашими даними з таксономії
+  - Section: Основні задачі:
+- **TST-180** [NEW] Перевірити коректність роботи конектора
+  - Section: Основні задачі:
+- **TST-181** [NEW] Виявити та виправити можливі проблеми
+  - Section: Основні задачі:
+- **TST-182** [NEW] Допомогти/перевірити у Ярослава
+  - Section: Основні задачі:
+- **TST-183** [NEW] Перевірити статус проекту
+  - Section: Основні задачі:
+- **TST-184** [NEW] Вирішити залишкові питання (медіа файли, структура тощо)
+  - Section: Основні задачі:
+- **TST-185** [NEW] Проводити код-рев'ю по мірі того, як вони будуть готові
+  - Section: Основні задачі:
+- **TST-186** [NEW] Перевіряти PR від команди
+  - Section: Основні задачі:
+- **TST-187** [NEW] Надавати фідбек та коментарі
+  - Section: Основні задачі:
+- **TST-188** [NEW] *Time:** 7:00 - 8:30
+  - Time: 7:00 - 12:00
+  - Section: # Activity 1: Planning & Task Analysis
+- **TST-189** [NEW] *What I worked on:**
+  - Time: 7:00 - 12:00
+  - Section: # Activity 1: Planning & Task Analysis
+- **TST-190** [NEW] Аналіз нового TODO щодо оновлення контенту в REM-S
+  - Time: 7:00 - 12:00
+  - Section: # Activity 1: Planning & Task Analysis
+- **TST-191** [NEW] Планування денних активностей
+  - Time: 7:00 - 12:00
+  - Section: # Activity 1: Planning & Task Analysis
+- **TST-192** [NEW] Дослідження підходів до роботи зі Strapi
+  - Time: 7:00 - 12:00
+  - Section: # Activity 1: Planning & Task Analysis
+- **TST-193** [NEW] *Outcomes:**
+  - Time: 7:00 - 12:00
+  - Section: # Activity 1: Planning & Task Analysis
+- **TST-194** [NEW] Визначено стратегію: Export → AI Processing → Import workflow
+  - Time: 7:00 - 12:00
+  - Section: # Activity 1: Planning & Task Analysis
+- **TST-195** [NEW] Ідентифіковано необхідність написання скриптів
+  - Time: 7:00 - 12:00
+  - Section: # Activity 1: Planning & Task Analysis
+- **TST-196** [NEW] *Time:** 8:30 - 10:00
+  - Time: 7:00 - 12:00
+  - Section: # Activity 2: Strapi Workflow Research
+- **TST-197** [NEW] *What I worked on:**
+  - Time: 7:00 - 12:00
+  - Section: # Activity 2: Strapi Workflow Research
+- **TST-198** [NEW] Дослідження Strapi API та можливостей інтеграції
+  - Time: 7:00 - 12:00
+  - Section: # Activity 2: Strapi Workflow Research
+- **TST-199** [NEW] Аналіз різних підходів до оновлення контенту
+  - Time: 7:00 - 12:00
+  - Section: # Activity 2: Strapi Workflow Research
+- **TST-200** [NEW] Розробка концепції export/import workflow
+  - Time: 7:00 - 12:00
+  - Section: # Activity 2: Strapi Workflow Research
+- **TST-201** [NEW] *Outcomes:**
+  - Time: 7:00 - 12:00
+  - Section: # Activity 2: Strapi Workflow Research
+- **TST-202** [NEW] Визначено оптимальне рішення: скрипти для витягування → AI обробка → скрипти для оновлення
+  - Time: 7:00 - 12:00
+  - Section: # Activity 2: Strapi Workflow Research
+- **TST-203** [NEW] Структура: exported/ та updated/ папки в ENTITIES\ASSETS\rem-s\
+  - Time: 7:00 - 12:00
+  - Section: # Activity 2: Strapi Workflow Research
+- **TST-204** [NEW] *Time:** ~9:00
+  - Time: 7:00 - 12:00
+  - Section: # Activity 3: Call з Колею - День планування
+- **TST-205** [NEW] *What I worked on:**
+  - Time: 7:00 - 12:00
+  - Section: # Activity 3: Call з Колею - День планування
+- **TST-206** [NEW] Обговорення стратегії оновлення REM-S контенту
+  - Time: 7:00 - 12:00
+  - Section: # Activity 3: Call з Колею - День планування
+- **TST-207** [NEW] Координація з командою щодо підходу
+  - Time: 7:00 - 12:00
+  - Section: # Activity 3: Call з Колею - День планування
+- **TST-208** [NEW] *Whisper Flow Transcript:** _(див. вище у файлі - транскрипт "Кол з Колею")_
+  - Time: 7:00 - 12:00
+  - Section: # Activity 3: Call з Колею - День планування
+- **TST-209** [NEW] *Key Points:**
+  - Time: 7:00 - 12:00
+  - Section: # Activity 3: Call з Колею - День планування
+- **TST-210** [NEW] Скачати SiteMap для 4 мов (EN, UA, PL, RU - словацьку не чіпати)
+  - Time: 7:00 - 12:00
+  - Section: # Activity 3: Call з Колею - День планування
+- **TST-211** [NEW] Весь контент завантажити в Dropbox
+  - Time: 7:00 - 12:00
+  - Section: # Activity 3: Call з Колею - День планування
+- **TST-212** [NEW] Оновити через Claude AI
+  - Time: 7:00 - 12:00
+  - Section: # Activity 3: Call з Колею - День планування
+- **TST-213** [NEW] Повернути назад оновлений контент
+  - Time: 7:00 - 12:00
+  - Section: # Activity 3: Call з Колею - День планування
+- **TST-214** [NEW] Порівняти з HR папкою, закрити неактуальні вакансії
+  - Time: 7:00 - 12:00
+  - Section: # Activity 3: Call з Колею - День планування
+- **TST-215** [NEW] *Outcomes:**
+  - Time: 7:00 - 12:00
+  - Section: # Activity 3: Call з Колею - День планування
+- **TST-216** [NEW] Узгоджено workflow: Download → Update → Upload back
+  - Time: 7:00 - 12:00
+  - Section: # Activity 3: Call з Колею - День планування
+- **TST-217** [NEW] Визначено scope роботи
+  - Time: 7:00 - 12:00
+  - Section: # Activity 3: Call з Колею - День планування
+- **TST-218** [NEW] *Time:** 10:00 - 12:00
+  - Time: 10:00 - 12:00
+  - Section: # Activity 4: Documentation - Strapi AI Automation Guide
+- **TST-219** [NEW] *What I worked on:**
+  - Time: 10:00 - 12:00
+  - Section: # Activity 4: Documentation - Strapi AI Automation Guide
+- **TST-220** [NEW] Написання повного технічного гайду "Strapi AI Automation Guide"
+  - Time: 10:00 - 12:00
+  - Section: # Activity 4: Documentation - Strapi AI Automation Guide
+- **TST-221** [NEW] Документування Export/Import workflow
+  - Time: 10:00 - 12:00
+  - Section: # Activity 4: Documentation - Strapi AI Automation Guide
+- **TST-222** [NEW] Створення інструкцій для команди розробників
+  - Time: 10:00 - 12:00
+  - Section: # Activity 4: Documentation - Strapi AI Automation Guide
+- **TST-223** [NEW] *Deliverables:**
+  - Time: 10:00 - 12:00
+  - Section: # Activity 4: Documentation - Strapi AI Automation Guide
+- **TST-224** [NEW] Process Overview
+  - Time: 10:00 - 12:00
+  - Section: # Activity 4: Documentation - Strapi AI Automation Guide
+- **TST-225** [NEW] Preparation steps
+  - Time: 10:00 - 12:00
+  - Section: # Activity 4: Documentation - Strapi AI Automation Guide
+- **TST-226** [NEW] Export scripts (Node.js + axios)
+  - Time: 10:00 - 12:00
+  - Section: # Activity 4: Documentation - Strapi AI Automation Guide
+- **TST-227** [NEW] AI update scripts (OpenAI integration)
+  - Time: 10:00 - 12:00
+  - Section: # Activity 4: Documentation - Strapi AI Automation Guide
+- **TST-228** [NEW] Import scripts (з DRY_RUN mode)
+  - Time: 10:00 - 12:00
+  - Section: # Activity 4: Documentation - Strapi AI Automation Guide
+- **TST-229** [NEW] Progress tracking table (CSV)
+  - Time: 10:00 - 12:00
+  - Section: # Activity 4: Documentation - Strapi AI Automation Guide
+- **TST-230** [NEW] Troubleshooting section
+  - Time: 10:00 - 12:00
+  - Section: # Activity 4: Documentation - Strapi AI Automation Guide
+- **TST-231** [NEW] *Outcomes:**
+  - Time: 10:00 - 12:00
+  - Section: # Activity 4: Documentation - Strapi AI Automation Guide
+- **TST-232** [NEW] Готова детальна інструкція для dev команди
+  - Time: 10:00 - 12:00
+  - Section: # Activity 4: Documentation - Strapi AI Automation Guide
+- **TST-233** [NEW] Приклади скриптів для всіх етапів workflow
+  - Time: 10:00 - 12:00
+  - Section: # Activity 4: Documentation - Strapi AI Automation Guide
+- **TST-234** [NEW] *Time:** ~12:00 - 13:00
+  - Time: 12:00 - 14:00
+  - Section: # Activity 5: Call з розробниками - Strapi Workflow пояснення
+- **TST-235** [NEW] *What I worked on:**
+  - Time: 12:00 - 14:00
+  - Section: # Activity 5: Call з розробниками - Strapi Workflow пояснення
+- **TST-236** [NEW] Детальне пояснення workflow команді розробників
+  - Time: 12:00 - 14:00
+  - Section: # Activity 5: Call з розробниками - Strapi Workflow пояснення
+- **TST-237** [NEW] Розподіл завдань між розробниками
+  - Time: 12:00 - 14:00
+  - Section: # Activity 5: Call з розробниками - Strapi Workflow пояснення
+- **TST-238** [NEW] Технічний walkthrough по Strapi структурі
+  - Time: 12:00 - 14:00
+  - Section: # Activity 5: Call з розробниками - Strapi Workflow пояснення
+- **TST-239** [NEW] *Whisper Flow Transcript:** _(див. вище у файлі - транскрипт "Кол з розробниками")_
+  - Time: 12:00 - 14:00
+  - Section: # Activity 5: Call з розробниками - Strapi Workflow пояснення
+- **TST-240** [NEW] *Key Technical Points:**
+  - Time: 12:00 - 14:00
+  - Section: # Activity 5: Call з розробниками - Strapi Workflow пояснення
+- **TST-241** [NEW] Strapi API endpoints структура
+  - Time: 12:00 - 14:00
+  - Section: # Activity 5: Call з розробниками - Strapi Workflow пояснення
+- **TST-242** [NEW] Single Types vs Collection Types
+  - Time: 12:00 - 14:00
+  - Section: # Activity 5: Call з розробниками - Strapi Workflow пояснення
+- **TST-243** [NEW] Locale handling (4 мови: EN, UA, PL, RU)
+  - Time: 12:00 - 14:00
+  - Section: # Activity 5: Call з розробниками - Strapi Workflow пояснення
+- **TST-244** [NEW] API токени та аутентифікація
+  - Time: 12:00 - 14:00
+  - Section: # Activity 5: Call з розробниками - Strapi Workflow пояснення
+- **TST-245** [NEW] Draft state логіка для вакансій
+  - Time: 12:00 - 14:00
+  - Section: # Activity 5: Call з розробниками - Strapi Workflow пояснення
+- **TST-246** [NEW] Структура папок: exported/[entity]/[locale].json
+  - Time: 12:00 - 14:00
+  - Section: # Activity 5: Call з розробниками - Strapi Workflow пояснення
+- **TST-247** [NEW] *Outcomes:**
+  - Time: 12:00 - 14:00
+  - Section: # Activity 5: Call з розробниками - Strapi Workflow пояснення
+- **TST-248** [NEW] Команда розуміє технічний workflow
+  - Time: 12:00 - 14:00
+  - Section: # Activity 5: Call з розробниками - Strapi Workflow пояснення
+- **TST-249** [NEW] 1 розробник: скрипт для вакансій (vacancies)
+  - Time: 12:00 - 14:00
+  - Section: # Activity 5: Call з розробниками - Strapi Workflow пояснення
+- **TST-250** [NEW] 1 розробник: скрипт для сторінок (single types)
+  - Time: 12:00 - 14:00
+  - Section: # Activity 5: Call з розробниками - Strapi Workflow пояснення
+- **TST-251** [NEW] *Time:** ~13:00 - 13:30
+  - Time: 12:00 - 14:00
+  - Section: # Activity 6: Coordination з HR командою
+- **TST-252** [NEW] *What I worked on:**
+  - Time: 12:00 - 14:00
+  - Section: # Activity 6: Coordination з HR командою
+- **TST-253** [NEW] Обговорення розподілу задач між dev та HR
+  - Time: 12:00 - 14:00
+  - Section: # Activity 6: Coordination з HR командою
+- **TST-254** [NEW] Координація процесу приховування застарілого контенту
+  - Time: 12:00 - 14:00
+  - Section: # Activity 6: Coordination з HR командою
+- **TST-255** [NEW] *Outcomes:**
+  - Time: 12:00 - 14:00
+  - Section: # Activity 6: Coordination з HR командою
+- **TST-256** [NEW] HR/Recruiters: Manually unpublish неактуальні вакансії (draft state)
+  - Time: 12:00 - 14:00
+  - Section: # Activity 6: Coordination з HR командою
+- **TST-257** [NEW] Developers: Написання скриптів для export контенту
+  - Time: 12:00 - 14:00
+  - Section: # Activity 6: Coordination з HR командою
+- **TST-258** [NEW] Визначено: ручне приховування швидше ніж писати окремий скрипт
+  - Time: 12:00 - 14:00
+  - Section: # Activity 6: Coordination з HR командою
+- **TST-259** [NEW] *Time:** 14:00 - 15:30
+  - Time: 14:00 - 17:00
+  - Section: # Activity 7: Honeystone Project - Code Review & Completion
+- **TST-260** [NEW] *What I worked on:**
+  - Time: 14:00 - 17:00
+  - Section: # Activity 7: Honeystone Project - Code Review & Completion
+- **TST-261** [NEW] Фінальний код рев'ю Honeystone проєкту
+  - Time: 14:00 - 17:00
+  - Section: # Activity 7: Honeystone Project - Code Review & Completion
+- **TST-262** [NEW] Перевірка Docker конфігурації
+  - Time: 14:00 - 17:00
+  - Section: # Activity 7: Honeystone Project - Code Review & Completion
+- **TST-263** [NEW] Тестування адмін-панелі
+  - Time: 14:00 - 17:00
+  - Section: # Activity 7: Honeystone Project - Code Review & Completion
+- **TST-264** [NEW] *Outcomes:**
+  - Time: 14:00 - 17:00
+  - Section: # Activity 7: Honeystone Project - Code Review & Completion
+- **TST-265** [DONE] Honeystone проєкт завершено
+  - Time: 14:00 - 17:00
+  - Section: # Activity 7: Honeystone Project - Code Review & Completion
+- **TST-266** [DONE] Code review completed
+  - Time: 14:00 - 17:00
+  - Section: # Activity 7: Honeystone Project - Code Review & Completion
+- **TST-267** [NEW] Готово до deployment
+  - Time: 14:00 - 17:00
+  - Section: # Activity 7: Honeystone Project - Code Review & Completion
+- **TST-268** [NEW] *Time:** 15:30 - 16:30
+  - Time: 14:00 - 17:00
+  - Section: # Activity 8: Task Status Distribution & Tracking
+- **TST-269** [NEW] *What I worked on:**
+  - Time: 14:00 - 17:00
+  - Section: # Activity 8: Task Status Distribution & Tracking
+- **TST-270** [NEW] Аналіз всіх тасок по тижнях (Week 1-4, всі дні)
+  - Time: 14:00 - 17:00
+  - Section: # Activity 8: Task Status Distribution & Tracking
+- **TST-271** [WIP] В процесі (in progress)
+  - Time: 14:00 - 17:00
+  - Section: # Activity 8: Task Status Distribution & Tracking
+- **TST-272** [NEW] На паузі (on hold)
+  - Time: 14:00 - 17:00
+  - Section: # Activity 8: Task Status Distribution & Tracking
+- **TST-273** [NEW] Термінові (urgent)
+  - Time: 14:00 - 17:00
+  - Section: # Activity 8: Task Status Distribution & Tracking
+- **TST-274** [NEW] Розсилка статусу команді
+  - Time: 14:00 - 17:00
+  - Section: # Activity 8: Task Status Distribution & Tracking
+- **TST-275** [NEW] *Outcomes:**
+  - Time: 14:00 - 17:00
+  - Section: # Activity 8: Task Status Distribution & Tracking
+- **TST-276** [NEW] Детальний звіт по всіх тасках з листопада
+  - Time: 14:00 - 17:00
+  - Section: # Activity 8: Task Status Distribution & Tracking
+- **TST-277** [NEW] Визначено критичні завдання
+  - Time: 14:00 - 17:00
+  - Section: # Activity 8: Task Status Distribution & Tracking
+- **TST-278** [NEW] Команда синхронізована по поточному стану проєктів
+  - Time: 14:00 - 17:00
+  - Section: # Activity 8: Task Status Distribution & Tracking
+- **TST-279** [NEW] *Time:** 15:40 - 16:40
+  - Time: 14:00 - 17:00
+  - Section: # Activity 9: REM-S Export - Image Fix
+- **TST-280** [NEW] *What I worked on:**
+  - Time: 14:00 - 17:00
+  - Section: # Activity 9: REM-S Export - Image Fix
+- **TST-281** [NEW] Піднімали REM-S проект
+  - Time: 14:00 - 17:00
+  - Section: # Activity 9: REM-S Export - Image Fix
+- **TST-282** [NEW] Виявили проблему: картинки не підтягнулись при експорті
+  - Time: 14:00 - 17:00
+  - Section: # Activity 9: REM-S Export - Image Fix
+- **TST-283** [NEW] Виправили проблему з експортом зображень
+  - Time: 14:00 - 17:00
+  - Section: # Activity 9: REM-S Export - Image Fix
+- **TST-284** [NEW] *Outcomes:**
+  - Time: 14:00 - 17:00
+  - Section: # Activity 9: REM-S Export - Image Fix
+- **TST-285** [DONE] REM-S проект піднято
+  - Time: 14:00 - 17:00
+  - Section: # Activity 9: REM-S Export - Image Fix
+- **TST-286** [DONE] Проблема з експортом картинок вирішена
+  - Time: 14:00 - 17:00
+  - Section: # Activity 9: REM-S Export - Image Fix
+- **TST-287** [DONE] Експорт тепер коректно завантажує всі медіа файли
+  - Time: 14:00 - 17:00
+  - Section: # Activity 9: REM-S Export - Image Fix
+- **TST-288** [NEW] *Time:** TBD Evening
+  - Time: 14:00 - 17:00
+  - Section: # Activity 9: Preparing Designer Communication (Planned)
+- **TST-289** [DONE] *What needs to be done:**
+  - Time: 14:00 - 17:00
+  - Section: # Activity 9: Preparing Designer Communication (Planned)
+- **TST-290** [NEW] Спілкування з дизайнерами
+  - Time: 14:00 - 17:00
+  - Section: # Activity 9: Preparing Designer Communication (Planned)
+- **TST-291** [NEW] Пояснити задачу по оновленню та поповненню медіа-бібліотеки
+  - Time: 14:00 - 17:00
+  - Section: # Activity 9: Preparing Designer Communication (Planned)
+- **TST-292** [NEW] Маскоти для REM-S департаментів
+  - Time: 14:00 - 17:00
+  - Section: # Activity 9: Preparing Designer Communication (Planned)
+- **TST-293** [NEW] *Status:** PENDING
+  - Time: 14:00 - 17:00
+  - Section: # Activity 9: Preparing Designer Communication (Planned)
+- **TST-294** [NEW] *Time:** TBD
+  - Time: 14:00 - 17:00
+  - Section: # Activity 10: Anna Lidgen Coordination (Planned)
+- **TST-295** [DONE] *What needs to be done:**
+  - Time: 14:00 - 17:00
+  - Section: # Activity 10: Anna Lidgen Coordination (Planned)
+- **TST-296** [NEW] Зв'язатися з Анною Лідген
+  - Time: 14:00 - 17:00
+  - Section: # Activity 10: Anna Lidgen Coordination (Planned)
+- **TST-297** [NEW] Обговорити спільну задачу (Google Analytics для website launch)
+  - Time: 14:00 - 17:00
+  - Section: # Activity 10: Anna Lidgen Coordination (Planned)
+- **TST-298** [NEW] *Status:** PENDING
+  - Time: 14:00 - 17:00
+  - Section: # Activity 10: Anna Lidgen Coordination (Planned)
+- **TST-299** [NEW] Аналіз REM-S контент оновлення TODO
+  - Time: 14:00 - 17:00
+  - Section: 1️⃣ Completed Tasks
+- **TST-300** [NEW] Дослідження Strapi workflow рішень
+  - Time: 14:00 - 17:00
+  - Section: 1️⃣ Completed Tasks
+- **TST-301** [NEW] Визначення оптимальної стратегії: Export → AI → Import
+  - Time: 14:00 - 17:00
+  - Section: 1️⃣ Completed Tasks
+- **TST-302** [NEW] Створено повний "Strapi AI Automation Guide" (45+ секцій)
+  - Time: 14:00 - 17:00
+  - Section: 1️⃣ Completed Tasks
+- **TST-303** [NEW] Написано інструкції для команди розробників
+  - Time: 14:00 - 17:00
+  - Section: 1️⃣ Completed Tasks
+- **TST-304** [NEW] Приклади Node.js скриптів для export/import
+  - Time: 14:00 - 17:00
+  - Section: 1️⃣ Completed Tasks
+- **TST-305** [NEW] Call з Колею - стратегічне планування
+  - Time: 14:00 - 17:00
+  - Section: 1️⃣ Completed Tasks
+- **TST-306** [NEW] Call з розробниками - технічний walkthrough
+  - Time: 14:00 - 17:00
+  - Section: 1️⃣ Completed Tasks
+- **TST-307** [NEW] Координація з HR командою - розподіл задач
+  - Time: 14:00 - 17:00
+  - Section: 1️⃣ Completed Tasks
+- **TST-308** [NEW] Honeystone project - code review та завершення
+  - Time: 14:00 - 17:00
+  - Section: 1️⃣ Completed Tasks
+- **TST-309** [NEW] Docker конфігурація перевірена
+  - Time: 14:00 - 17:00
+  - Section: 1️⃣ Completed Tasks
+- **TST-310** [NEW] Аналіз всіх тасок Week 1-4
+  - Time: 14:00 - 17:00
+  - Section: 1️⃣ Completed Tasks
+- **TST-311** [NEW] Категоризація за статусами
+  - Time: 14:00 - 17:00
+  - Section: 1️⃣ Completed Tasks
+- **TST-312** [NEW] Розсилка команді
+  - Time: 14:00 - 17:00
+  - Section: 1️⃣ Completed Tasks
+- **TST-313** [NEW] Створено папки ENTITIES\ASSETS\rem-s\exported та updated
+  - Time: 14:00 - 17:00
+  - Section: 1️⃣ Completed Tasks
+- **TST-314** [NEW] Налаштовано структуру для workflow
+  - Time: 14:00 - 17:00
+  - Section: 1️⃣ Completed Tasks
+- **TST-315** [NEW] *Challenge 1: Як підключити AI до Strapi?**
+  - Time: 14:00 - 17:00
+  - Section: 2️⃣ Challenges & Solutions
+- **TST-316** [NEW] ❌ Проблема: Strapi та OpenAI - окремі сервіси, не можна напряму під'єднати
+  - Time: 14:00 - 17:00
+  - Section: 2️⃣ Challenges & Solutions
+- **TST-317** [DONE] Рішення: Створено проміжний workflow з експортом в JSON → AI обробка → імпорт назад
+  - Time: 14:00 - 17:00
+  - Section: 2️⃣ Challenges & Solutions
+- **TST-318** [NEW] *Challenge 2: Locale handling для 4 мов**
+  - Time: 14:00 - 17:00
+  - Section: 2️⃣ Challenges & Solutions
+- **TST-319** [NEW] ❌ Проблема: Контент існує на 4 мовах (EN, UA, PL, RU), треба витягувати всі
+  - Time: 14:00 - 17:00
+  - Section: 2️⃣ Challenges & Solutions
+- **TST-320** [DONE] Рішення: Окремі JSON файли для кожної локалі в структурі exported/[entity]/[locale].json
+  - Time: 14:00 - 17:00
+  - Section: 2️⃣ Challenges & Solutions
+- **TST-321** [NEW] *Challenge 3: Draft vs Published вакансії**
+  - Time: 14:00 - 17:00
+  - Section: 2️⃣ Challenges & Solutions
+- **TST-322** [NEW] ❌ Проблема: 112 вакансій, але багато застарілих, як фільтрувати?
+  - Time: 14:00 - 17:00
+  - Section: 2️⃣ Challenges & Solutions
+- **TST-323** [DONE] Рішення: HR manually unpublish неактуальні (швидше ніж писати скрипт)
+  - Time: 14:00 - 17:00
+  - Section: 2️⃣ Challenges & Solutions
+- **TST-324** [NEW] *Challenge 4: Не всі дані приходять через API**
+  - Time: 14:00 - 17:00
+  - Section: 2️⃣ Challenges & Solutions
+- **TST-325** [NEW] ❌ Проблема: Features не витягуються для деяких сторінок
+  - Time: 14:00 - 17:00
+  - Section: 2️⃣ Challenges & Solutions
+- **TST-326** [DONE] Рішення: Дослідити frontend код, взяти API запити звідти
+  - Time: 14:00 - 17:00
+  - Section: 2️⃣ Challenges & Solutions
+- **TST-327** [NEW] *Challenge 5: Production безпека**
+  - Time: 14:00 - 17:00
+  - Section: 2️⃣ Challenges & Solutions
+- **TST-328** [NEW] ❌ Проблема: Працюємо напряму з production Strapi
+  - Time: 14:00 - 17:00
+  - Section: 2️⃣ Challenges & Solutions
+- **TST-329** [DONE] Рішення: DRY_RUN mode в скриптах, обережне тестування, API токени read-only/write окремо
+  - Time: 14:00 - 17:00
+  - Section: 2️⃣ Challenges & Solutions
+- **TST-330** [NEW] *Development:**
+  - Time: 14:00 - 17:00
+  - Section: 3️⃣ Tools & Software Used
+- **TST-331** [NEW] Node.js - для написання export/import скриптів
+  - Time: 14:00 - 17:00
+  - Section: 3️⃣ Tools & Software Used
+- **TST-332** [NEW] axios - HTTP запити до Strapi API
+  - Time: 14:00 - 17:00
+  - Section: 3️⃣ Tools & Software Used
+- **TST-333** [NEW] dotenv - environment variables management
+  - Time: 14:00 - 17:00
+  - Section: 3️⃣ Tools & Software Used
+- **TST-334** [NEW] *Documentation:**
+  - Time: 14:00 - 17:00
+  - Section: 3️⃣ Tools & Software Used
+- **TST-335** [NEW] Markdown - для Strapi AI Automation Guide
+  - Time: 14:00 - 17:00
+  - Section: 3️⃣ Tools & Software Used
+- **TST-336** [NEW] VS Code - редагування документації
+  - Time: 14:00 - 17:00
+  - Section: 3️⃣ Tools & Software Used
+- **TST-337** [NEW] *Communication:**
+  - Time: 14:00 - 17:00
+  - Section: 3️⃣ Tools & Software Used
+- **TST-338** [NEW] Discord - комунікація з командою
+  - Time: 14:00 - 17:00
+  - Section: 3️⃣ Tools & Software Used
+- **TST-339** [NEW] Whisper Flow - транскрипція дзвінків
+  - Time: 14:00 - 17:00
+  - Section: 3️⃣ Tools & Software Used
+- **TST-340** [NEW] Calls - Коля, розробники, HR team
+  - Time: 14:00 - 17:00
+  - Section: 3️⃣ Tools & Software Used
+- **TST-341** [NEW] *Project Management:**
+  - Time: 14:00 - 17:00
+  - Section: 3️⃣ Tools & Software Used
+- **TST-342** [NEW] Notion - task tracking
+  - Time: 14:00 - 17:00
+  - Section: 3️⃣ Tools & Software Used
+- **TST-343** [NEW] Dropbox - файловий менеджмент
+  - Time: 14:00 - 17:00
+  - Section: 3️⃣ Tools & Software Used
+- **TST-344** [NEW] Daily.md / TODO.md files - особистий task tracking
+  - Time: 14:00 - 17:00
+  - Section: 3️⃣ Tools & Software Used
+- **TST-345** [NEW] *Infrastructure:**
+  - Time: 14:00 - 17:00
+  - Section: 3️⃣ Tools & Software Used
+- **TST-346** [NEW] Strapi CMS - rem-s.com content management
+  - Time: 14:00 - 17:00
+  - Section: 3️⃣ Tools & Software Used
+- **TST-347** [NEW] Strapi API - REST endpoints для контенту
+  - Time: 14:00 - 17:00
+  - Section: 3️⃣ Tools & Software Used
+- **TST-348** [NEW] *HIGH PRIORITY:**
+  - Time: 14:00 - 17:00
+  - Section: 4️⃣ Plans for Tomorrow
+- **TST-349** [NEW] *MEDIUM PRIORITY:**
+  - Time: 14:00 - 17:00
+  - Section: 4️⃣ Plans for Tomorrow
+- **TST-350** [NEW] *LOW PRIORITY:**
+  - Time: 14:00 - 17:00
+  - Section: 4️⃣ Plans for Tomorrow
+- **TST-351** [NEW] Whisper Flow ON перед дзвінками
+  - Time: 14:00 - 17:00
+  - Section: 4️⃣ Plans for Tomorrow
+- **TST-352** [NEW] Фіксувати детальні outcomes
+  - Time: 14:00 - 17:00
+  - Section: 4️⃣ Plans for Tomorrow
+- **TST-353** [NEW] За потреби дублювати ключові результати у `TODO.md` та інші відповідні файли
+  - Time: 14:00 - 17:00
+  - Section: 4️⃣ Plans for Tomorrow
+- **TST-354** [NEW] -- Кол з Колею зранку щодо планів на день
+  - Time: 14:00 - 17:00
+  - Section: 4️⃣ Plans for Tomorrow
+- **TST-355** [NEW] Download SiteMap
+  - Time: 14:00 - 17:00
+  - Section: 4️⃣ Plans for Tomorrow
+- **TST-356** [NEW] -- Кол з розробниками щодо страпі
+  - Time: 14:00 - 17:00
+  - Section: 4️⃣ Plans for Tomorrow
+
+#### Makovska Anna (132 tasks)
+
+- **TST-357** [NEW] *What**: Record of all activities for the day
+- **TST-358** [NEW] Time blocks with brief descriptions
+- **TST-359** [NEW] Results / next steps
+- **TST-360** [NEW] Any agreements with the team
+- **TST-361** [NEW] *What I worked on:**
+  - Time: 9:00-10:30
+  - Section: Morning — Strapi Collections Export Script Enhancement (9:00-10:30)
+- **TST-362** [NEW] Enhanced `script-collections-export.js` to automatically copy exported data to `updated/collections/` folder
+  - Time: 9:00-10:30
+  - Section: Morning — Strapi Collections Export Script Enhancement (9:00-10:30)
+- **TST-363** [NEW] Implemented `copyToUpdated()` function that recursively copies all JSON files from `exported/collections/` to `updated/collections/`
+  - Time: 9:00-10:30
+  - Section: Morning — Strapi Collections Export Script Enhancement (9:00-10:30)
+- **TST-364** [NEW] Added automatic synchronization after export process completes
+  - Time: 9:00-10:30
+  - Section: Morning — Strapi Collections Export Script Enhancement (9:00-10:30)
+- **TST-365** [NEW] Ensured directory structure is preserved during copy operation
+  - Time: 9:00-10:30
+  - Section: Morning — Strapi Collections Export Script Enhancement (9:00-10:30)
+- **TST-366** [NEW] *Technical Details:**
+  - Time: 9:00-10:30
+  - Section: Morning — Strapi Collections Export Script Enhancement (9:00-10:30)
+- **TST-367** [NEW] Function skips list files (`-list.json`) and hidden files (`.snapshot.json`)
+  - Time: 9:00-10:30
+  - Section: Morning — Strapi Collections Export Script Enhancement (9:00-10:30)
+- **TST-368** [NEW] Maintains exact folder structure from exported to updated
+  - Time: 9:00-10:30
+  - Section: Morning — Strapi Collections Export Script Enhancement (9:00-10:30)
+- **TST-369** [NEW] Provides statistics on copied files
+  - Time: 9:00-10:30
+  - Section: Morning — Strapi Collections Export Script Enhancement (9:00-10:30)
+- **TST-370** [NEW] Runs automatically after snapshot creation
+  - Time: 9:00-10:30
+  - Section: Morning — Strapi Collections Export Script Enhancement (9:00-10:30)
+- **TST-371** [NEW] *Outcomes:**
+  - Time: 9:00-10:30
+  - Section: Morning — Strapi Collections Export Script Enhancement (9:00-10:30)
+- **TST-372** [DONE] Content makers now have data automatically available in `updated/collections/` for editing
+  - Time: 9:00-10:30
+  - Section: Morning — Strapi Collections Export Script Enhancement (9:00-10:30)
+- **TST-373** [DONE] No manual copying required after export
+  - Time: 9:00-10:30
+  - Section: Morning — Strapi Collections Export Script Enhancement (9:00-10:30)
+- **TST-374** [DONE] Streamlined workflow for content management
+  - Time: 9:00-10:30
+  - Section: Morning — Strapi Collections Export Script Enhancement (9:00-10:30)
+- **TST-375** [NEW] *What I worked on:**
+  - Time: 10:30-12:00
+  - Section: Morning — Collections Update Script Refactoring (10:30-12:00)
+- **TST-376** [NEW] Completely refactored `script-collections-update.js` to work with `updated/collections/` folder
+  - Time: 10:30-12:00
+  - Section: Morning — Collections Update Script Refactoring (10:30-12:00)
+- **TST-377** [NEW] Implemented comprehensive rate limiting (800ms delay between requests) to prevent server overload
+  - Time: 10:30-12:00
+  - Section: Morning — Collections Update Script Refactoring (10:30-12:00)
+- **TST-378** [NEW] Added batch processing (10 files per batch) for controlled update speed
+  - Time: 10:30-12:00
+  - Section: Morning — Collections Update Script Refactoring (10:30-12:00)
+- **TST-379** [NEW] Implemented retry logic with exponential backoff (up to 3 retries)
+  - Time: 10:30-12:00
+  - Section: Morning — Collections Update Script Refactoring (10:30-12:00)
+- **TST-380** [NEW] New files → POST requests
+  - Time: 10:30-12:00
+  - Section: Morning — Collections Update Script Refactoring (10:30-12:00)
+- **TST-381** [NEW] Modified files → PUT/PATCH requests
+  - Time: 10:30-12:00
+  - Section: Morning — Collections Update Script Refactoring (10:30-12:00)
+- **TST-382** [NEW] Deleted files → DELETE requests
+  - Time: 10:30-12:00
+  - Section: Morning — Collections Update Script Refactoring (10:30-12:00)
+- **TST-383** [NEW] `categories` → `category`
+  - Time: 10:30-12:00
+  - Section: Morning — Collections Update Script Refactoring (10:30-12:00)
+- **TST-384** [NEW] `keyword-tags` → `keyword-tag`
+  - Time: 10:30-12:00
+  - Section: Morning — Collections Update Script Refactoring (10:30-12:00)
+- **TST-385** [NEW] `skills` → `skill`
+  - Time: 10:30-12:00
+  - Section: Morning — Collections Update Script Refactoring (10:30-12:00)
+- **TST-386** [NEW] `form-users` → `form-user`
+  - Time: 10:30-12:00
+  - Section: Morning — Collections Update Script Refactoring (10:30-12:00)
+- **TST-387** [NEW] *Technical Details:**
+  - Time: 10:30-12:00
+  - Section: Morning — Collections Update Script Refactoring (10:30-12:00)
+- **TST-388** [NEW] Rate limiting: 800ms between requests
+  - Time: 10:30-12:00
+  - Section: Morning — Collections Update Script Refactoring (10:30-12:00)
+- **TST-389** [NEW] Batch size: 10 files
+  - Time: 10:30-12:00
+  - Section: Morning — Collections Update Script Refactoring (10:30-12:00)
+- **TST-390** [NEW] Max retries: 3 attempts with exponential backoff
+  - Time: 10:30-12:00
+  - Section: Morning — Collections Update Script Refactoring (10:30-12:00)
+- **TST-391** [NEW] Automatic fallback from PUT to PATCH if PUT fails
+  - Time: 10:30-12:00
+  - Section: Morning — Collections Update Script Refactoring (10:30-12:00)
+- **TST-392** [NEW] Comprehensive error handling with detailed messages
+  - Time: 10:30-12:00
+  - Section: Morning — Collections Update Script Refactoring (10:30-12:00)
+- **TST-393** [NEW] *Outcomes:**
+  - Time: 10:30-12:00
+  - Section: Morning — Collections Update Script Refactoring (10:30-12:00)
+- **TST-394** [DONE] Script safely handles server requests without overloading
+  - Time: 10:30-12:00
+  - Section: Morning — Collections Update Script Refactoring (10:30-12:00)
+- **TST-395** [DONE] Automatic retry on transient errors (429, 500)
+  - Time: 10:30-12:00
+  - Section: Morning — Collections Update Script Refactoring (10:30-12:00)
+- **TST-396** [DONE] Correct API endpoints for all collections
+  - Time: 10:30-12:00
+  - Section: Morning — Collections Update Script Refactoring (10:30-12:00)
+- **TST-397** [DONE] Smart change detection and appropriate HTTP methods
+  - Time: 10:30-12:00
+  - Section: Morning — Collections Update Script Refactoring (10:30-12:00)
+- **TST-398** [NEW] *What I worked on:**
+  - Time: 12:00-13:30
+  - Section: Afternoon — File Filtering and Template Handling (12:00-13:30)
+- **TST-399** [NEW] Template directories (`template/`, `templates/`) are completely ignored
+  - Time: 12:00-13:30
+  - Section: Afternoon — File Filtering and Template Handling (12:00-13:30)
+- **TST-400** [NEW] Files without ID prefix (e.g., `vacancy-template.json`) are skipped
+  - Time: 12:00-13:30
+  - Section: Afternoon — File Filtering and Template Handling (12:00-13:30)
+- **TST-401** [NEW] Hidden files (starting with `.`) are ignored
+  - Time: 12:00-13:30
+  - Section: Afternoon — File Filtering and Template Handling (12:00-13:30)
+- **TST-402** [NEW] List files are handled separately (for synchronization, not as collection items)
+  - Time: 12:00-13:30
+  - Section: Afternoon — File Filtering and Template Handling (12:00-13:30)
+- **TST-403** [NEW] Created `shouldIgnoreFile()` and `shouldIgnoreDirectory()` helper functions
+  - Time: 12:00-13:30
+  - Section: Afternoon — File Filtering and Template Handling (12:00-13:30)
+- **TST-404** [NEW] Added path-based filtering to catch files in template folders even if they have IDs
+  - Time: 12:00-13:30
+  - Section: Afternoon — File Filtering and Template Handling (12:00-13:30)
+- **TST-405** [NEW] *Technical Details:**
+  - Time: 12:00-13:30
+  - Section: Afternoon — File Filtering and Template Handling (12:00-13:30)
+- **TST-406** [NEW] Files must start with number_ID_ pattern (e.g., `1432_polish-translator.json`)
+  - Time: 12:00-13:30
+  - Section: Afternoon — File Filtering and Template Handling (12:00-13:30)
+- **TST-407** [NEW] Template folders are skipped at directory scan level
+  - Time: 12:00-13:30
+  - Section: Afternoon — File Filtering and Template Handling (12:00-13:30)
+- **TST-408** [NEW] Path checking ensures files in `template/` subdirectories are ignored
+  - Time: 12:00-13:30
+  - Section: Afternoon — File Filtering and Template Handling (12:00-13:30)
+- **TST-409** [NEW] List files are excluded from snapshot but included in synchronization
+  - Time: 12:00-13:30
+  - Section: Afternoon — File Filtering and Template Handling (12:00-13:30)
+- **TST-410** [NEW] *Outcomes:**
+  - Time: 12:00-13:30
+  - Section: Afternoon — File Filtering and Template Handling (12:00-13:30)
+- **TST-411** [DONE] Template files never sent to backend
+  - Time: 12:00-13:30
+  - Section: Afternoon — File Filtering and Template Handling (12:00-13:30)
+- **TST-412** [DONE] Only valid collection items are processed
+  - Time: 12:00-13:30
+  - Section: Afternoon — File Filtering and Template Handling (12:00-13:30)
+- **TST-413** [DONE] Clean project structure maintained
+  - Time: 12:00-13:30
+  - Section: Afternoon — File Filtering and Template Handling (12:00-13:30)
+- **TST-414** [NEW] *What I worked on:**
+  - Time: 13:30-15:00
+  - Section: Afternoon — List.json Synchronization System (13:30-15:00)
+- **TST-415** [NEW] Implemented `syncListFiles()` function that runs before sending updates
+  - Time: 13:30-15:00
+  - Section: Afternoon — List.json Synchronization System (13:30-15:00)
+- **TST-416** [NEW] Scans all files in collection folder
+  - Time: 13:30-15:00
+  - Section: Afternoon — List.json Synchronization System (13:30-15:00)
+- **TST-417** [NEW] Creates/updates full list with all items (id, title, filename, slug, dates)
+  - Time: 13:30-15:00
+  - Section: Afternoon — List.json Synchronization System (13:30-15:00)
+- **TST-418** [NEW] Maintains same structure as export script
+  - Time: 13:30-15:00
+  - Section: Afternoon — List.json Synchronization System (13:30-15:00)
+- **TST-419** [NEW] Contains only changed items (created/updated/deleted)
+  - Time: 13:30-15:00
+  - Section: Afternoon — List.json Synchronization System (13:30-15:00)
+- **TST-420** [NEW] Includes relative paths for reference
+  - Time: 13:30-15:00
+  - Section: Afternoon — List.json Synchronization System (13:30-15:00)
+- **TST-421** [NEW] Timestamped with sync date
+  - Time: 13:30-15:00
+  - Section: Afternoon — List.json Synchronization System (13:30-15:00)
+- **TST-422** [NEW] *Technical Details:**
+  - Time: 13:30-15:00
+  - Section: Afternoon — List.json Synchronization System (13:30-15:00)
+- **TST-423** [NEW] Groups changes by collection and locale
+  - Time: 13:30-15:00
+  - Section: Afternoon — List.json Synchronization System (13:30-15:00)
+- **TST-424** [NEW] Reads file metadata to extract title, slug, dates
+  - Time: 13:30-15:00
+  - Section: Afternoon — List.json Synchronization System (13:30-15:00)
+- **TST-425** [NEW] Sorts items by ID for consistency
+  - Time: 13:30-15:00
+  - Section: Afternoon — List.json Synchronization System (13:30-15:00)
+- **TST-426** [NEW] Creates both full list and changed list files
+  - Time: 13:30-15:00
+  - Section: Afternoon — List.json Synchronization System (13:30-15:00)
+- **TST-427** [NEW] Ensures directories exist before writing
+  - Time: 13:30-15:00
+  - Section: Afternoon — List.json Synchronization System (13:30-15:00)
+- **TST-428** [NEW] *Outcomes:**
+  - Time: 13:30-15:00
+  - Section: Afternoon — List.json Synchronization System (13:30-15:00)
+- **TST-429** [DONE] Full list.json files always synchronized before updates
+  - Time: 13:30-15:00
+  - Section: Afternoon — List.json Synchronization System (13:30-15:00)
+- **TST-430** [DONE] Separate tracking of changed items for reference
+  - Time: 13:30-15:00
+  - Section: Afternoon — List.json Synchronization System (13:30-15:00)
+- **TST-431** [DONE] Content makers can see what will be updated
+  - Time: 13:30-15:00
+  - Section: Afternoon — List.json Synchronization System (13:30-15:00)
+- **TST-432** [NEW] *What I worked on:**
+  - Time: 15:00-16:00
+  - Section: Afternoon — Documentation Updates (15:00-16:00)
+- **TST-433** [NEW] Updated `README.md` for collections-update script with simple, child-friendly language
+  - Time: 15:00-16:00
+  - Section: Afternoon — Documentation Updates (15:00-16:00)
+- **TST-434** [NEW] Quick start guide (3 steps)
+  - Time: 15:00-16:00
+  - Section: Afternoon — Documentation Updates (15:00-16:00)
+- **TST-435** [NEW] What the script does (POST/PUT/DELETE explanation)
+  - Time: 15:00-16:00
+  - Section: Afternoon — Documentation Updates (15:00-16:00)
+- **TST-436** [NEW] Server protection details (rate limiting, batching, retries)
+  - Time: 15:00-16:00
+  - Section: Afternoon — Documentation Updates (15:00-16:00)
+- **TST-437** [NEW] File filtering information
+  - Time: 15:00-16:00
+  - Section: Afternoon — Documentation Updates (15:00-16:00)
+- **TST-438** [NEW] Dry-run mode explanation
+  - Time: 15:00-16:00
+  - Section: Afternoon — Documentation Updates (15:00-16:00)
+- **TST-439** [NEW] Troubleshooting section
+  - Time: 15:00-16:00
+  - Section: Afternoon — Documentation Updates (15:00-16:00)
+- **TST-440** [NEW] Created visual indicators and emojis for better readability
+  - Time: 15:00-16:00
+  - Section: Afternoon — Documentation Updates (15:00-16:00)
+- **TST-441** [NEW] Added checklist for safe updates
+  - Time: 15:00-16:00
+  - Section: Afternoon — Documentation Updates (15:00-16:00)
+- **TST-442** [NEW] *Technical Details:**
+  - Time: 15:00-16:00
+  - Section: Afternoon — Documentation Updates (15:00-16:00)
+- **TST-443** [NEW] Simplified technical language
+  - Time: 15:00-16:00
+  - Section: Afternoon — Documentation Updates (15:00-16:00)
+- **TST-444** [NEW] Step-by-step instructions with commands
+  - Time: 15:00-16:00
+  - Section: Afternoon — Documentation Updates (15:00-16:00)
+- **TST-445** [NEW] Clear examples and visual structure
+  - Time: 15:00-16:00
+  - Section: Afternoon — Documentation Updates (15:00-16:00)
+- **TST-446** [NEW] Comprehensive error handling guide
+  - Time: 15:00-16:00
+  - Section: Afternoon — Documentation Updates (15:00-16:00)
+- **TST-447** [NEW] *Outcomes:**
+  - Time: 15:00-16:00
+  - Section: Afternoon — Documentation Updates (15:00-16:00)
+- **TST-448** [DONE] Non-technical users can understand and use the script
+  - Time: 15:00-16:00
+  - Section: Afternoon — Documentation Updates (15:00-16:00)
+- **TST-449** [DONE] Clear safety guidelines (dry-run first)
+  - Time: 15:00-16:00
+  - Section: Afternoon — Documentation Updates (15:00-16:00)
+- **TST-450** [DONE] Comprehensive troubleshooting section
+  - Time: 15:00-16:00
+  - Section: Afternoon — Documentation Updates (15:00-16:00)
+- **TST-451** [NEW] Rate limiting is essential for Strapi API to prevent server overload
+  - Time: 15:00-16:00
+  - Section: Key Learnings
+- **TST-452** [NEW] Batch processing provides better control over update speed
+  - Time: 15:00-16:00
+  - Section: Key Learnings
+- **TST-453** [NEW] Retry logic with exponential backoff handles transient errors gracefully
+  - Time: 15:00-16:00
+  - Section: Key Learnings
+- **TST-454** [NEW] File filtering must be comprehensive to avoid sending unwanted files
+  - Time: 15:00-16:00
+  - Section: Key Learnings
+- **TST-455** [NEW] List.json synchronization ensures data consistency
+  - Time: 15:00-16:00
+  - Section: Key Learnings
+- **TST-456** [NEW] 800ms delay between requests balances speed and server safety
+  - Time: 15:00-16:00
+  - Section: Technical Decisions
+- **TST-457** [NEW] Batch size of 10 files provides good balance
+  - Time: 15:00-16:00
+  - Section: Technical Decisions
+- **TST-458** [NEW] 3 retries with exponential backoff handles most transient errors
+  - Time: 15:00-16:00
+  - Section: Technical Decisions
+- **TST-459** [NEW] Template folders completely ignored at directory level
+  - Time: 15:00-16:00
+  - Section: Technical Decisions
+- **TST-460** [NEW] List files synchronized but not sent as collection items
+  - Time: 15:00-16:00
+  - Section: Technical Decisions
+- **TST-461** [DONE] Enhanced export script with automatic copy to updated/collections
+  - Time: 15:00-16:00
+  - Section: 1️⃣ Completed Tasks
+- **TST-462** [DONE] Refactored update script with rate limiting and retry logic
+  - Time: 15:00-16:00
+  - Section: 1️⃣ Completed Tasks
+- **TST-463** [DONE] Fixed API endpoint mapping (singular vs plural)
+  - Time: 15:00-16:00
+  - Section: 1️⃣ Completed Tasks
+- **TST-464** [DONE] Implemented comprehensive file filtering (template files, files without ID)
+  - Time: 15:00-16:00
+  - Section: 1️⃣ Completed Tasks
+- **TST-465** [DONE] Created list.json synchronization system
+  - Time: 15:00-16:00
+  - Section: 1️⃣ Completed Tasks
+- **TST-466** [DONE] Updated documentation with simple, clear instructions
+  - Time: 15:00-16:00
+  - Section: 1️⃣ Completed Tasks
+- **TST-467** [DONE] Added dry-run mode for safe testing
+  - Time: 15:00-16:00
+  - Section: 1️⃣ Completed Tasks
+- **TST-468** [NEW] **Challenge:** Server overload risk when sending many updates
+  - Time: 15:00-16:00
+  - Section: 2️⃣ Challenges & Solutions
+- **TST-469** [DONE] *Solution:**  Implemented rate limiting (800ms), batch processing (10 files), and retry logic
+  - Time: 15:00-16:00
+  - Section: 2️⃣ Challenges & Solutions
+- **TST-470** [NEW] **Challenge:** Incorrect API endpoints causing 405 errors
+  - Time: 15:00-16:00
+  - Section: 2️⃣ Challenges & Solutions
+- **TST-471** [DONE] *Solution:**  Fixed endpoint mapping to use singular forms (category, not categories)
+  - Time: 15:00-16:00
+  - Section: 2️⃣ Challenges & Solutions
+- **TST-472** [NEW] **Challenge:** Template files being sent to backend
+  - Time: 15:00-16:00
+  - Section: 2️⃣ Challenges & Solutions
+- **TST-473** [DONE] *Solution:**  Implemented comprehensive filtering (template folders, files without ID, path checking)
+  - Time: 15:00-16:00
+  - Section: 2️⃣ Challenges & Solutions
+- **TST-474** [NEW] **Challenge:** List.json files need synchronization before updates
+  - Time: 15:00-16:00
+  - Section: 2️⃣ Challenges & Solutions
+- **TST-475** [DONE] *Solution:**  Created syncListFiles() function that runs before sending updates
+  - Time: 15:00-16:00
+  - Section: 2️⃣ Challenges & Solutions
+- **TST-476** [NEW] Node.js (axios for HTTP requests)
+  - Time: 15:00-16:00
+  - Section: 3️⃣ Tools & Software Used
+- **TST-477** [NEW] Strapi API (https://strapi.rem-s.com)
+  - Time: 15:00-16:00
+  - Section: 3️⃣ Tools & Software Used
+- **TST-478** [NEW] File system operations (fs.promises)
+  - Time: 15:00-16:00
+  - Section: 3️⃣ Tools & Software Used
+- **TST-479** [NEW] Path manipulation (path module)
+  - Time: 15:00-16:00
+  - Section: 3️⃣ Tools & Software Used
+- **TST-480** [NEW] JSON parsing and serialization
+  - Time: 15:00-16:00
+  - Section: 3️⃣ Tools & Software Used
+- **TST-481** [NEW] Test the update script with real data changes
+  - Time: 15:00-16:00
+  - Section: 4️⃣ Plans for Tomorrow
+- **TST-482** [NEW] Verify list.json synchronization works correctly
+  - Time: 15:00-16:00
+  - Section: 4️⃣ Plans for Tomorrow
+- **TST-483** [NEW] Gather feedback from content makers on workflow
+  - Time: 15:00-16:00
+  - Section: 4️⃣ Plans for Tomorrow
+- **TST-484** [NEW] Consider additional safety features if needed
+  - Time: 15:00-16:00
+  - Section: 4️⃣ Plans for Tomorrow
+- **TST-485** [NEW] Update file throughout the day after each work block
+  - Time: 15:00-16:00
+  - Section: 4️⃣ Plans for Tomorrow
+- **TST-486** [NEW] Add results of calls/agreements immediately
+  - Time: 15:00-16:00
+  - Section: 4️⃣ Plans for Tomorrow
+- **TST-487** [NEW] Keep script structure consistent and well-documented
+  - Time: 15:00-16:00
+  - Section: 4️⃣ Plans for Tomorrow
+- **TST-488** [NEW] Test with dry-run mode before applying real changes
+  - Time: 15:00-16:00
+  - Section: 4️⃣ Plans for Tomorrow
+
+---
+
+### LG Department
+
+#### Archibong Isaac (35 tasks)
+
+- **TST-489** [NEW] *Topic:** Instructions on booking calls via the "Lead Calendar" and syncing them with the internal system.
+  - Section: **Session 1: Managing the Lead Calendar** (10am)
+- **TST-490** [NEW] **Time Zone Management:** When accessing the Lead Calendar, the time zones (e.g., Eastern European Time/Kyiv) are automatically converted. You do not need to manually calculate the time difference; simply select an available slot (e.g., 10:30 AM).
+  - Section: **Session 1: Managing the Lead Calendar** (10am)
+- **TST-491** [NEW] **Syncing Calendars:** Bookings made on the Lead Calendar **do not** automatically sync to our internal (LG) calendar. After booking a call on the Lead Calendar, you must manually add the entry to the LG calendar.
+  - Section: **Session 1: Managing the Lead Calendar** (10am)
+- **TST-492** [NEW] **Data Entry:**
+  - Section: **Session 1: Managing the Lead Calendar** (10am)
+- **TST-493** [NEW] When adding the event to the internal calendar, copy all relevant information (Company info, Lead info) from LinkedIn.
+  - Section: **Session 1: Managing the Lead Calendar** (10am)
+- **TST-494** [NEW] **Exception:** You do not need to input the Sales or Lead email addresses in the internal calendar entry, as those are already captured in the Lead Calendar system.
+  - Section: **Session 1: Managing the Lead Calendar** (10am)
+- **TST-495** [NEW] **Communication:** Once the call is booked, notify the Sales Department (specifically Anastasia) so they can review and accept the calendar invitation.
+  - Section: **Session 1: Managing the Lead Calendar** (10am)
+- **TST-496** [NEW] *Topic:** Introduction to the "Remess" hiring project, brand guidelines (Cat Mascot), and using ChatGPT to generate social media graphics.
+  - Section: **Session 2: Project Remess & AI Graphic Generation** (12pm)
+- **TST-497** [NEW] *1. Brand Overview**
+  - Section: **Session 2: Project Remess & AI Graphic Generation** (12pm)
+- **TST-498** [NEW] **Project:** Remess (a hiring platform).
+  - Section: **Session 2: Project Remess & AI Graphic Generation** (12pm)
+- **TST-499** [NEW] **Visual Identity:** Specific color palette featuring a **Cat Mascot**. This mascot appears across the website and social media (Instagram/LinkedIn).
+  - Section: **Session 2: Project Remess & AI Graphic Generation** (12pm)
+- **TST-500** [NEW] **Deliverables:** You will be creating social media graphics. Unlike previous posts that promoted specific job vacancies, these posts will focus on broader content, such as "Tools for Remote Employees" or "Work-from-Home Experiences."
+  - Section: **Session 2: Project Remess & AI Graphic Generation** (12pm)
+- **TST-501** [NEW] *2. Technical Specifications**
+  - Section: **Session 2: Project Remess & AI Graphic Generation** (12pm)
+- **TST-502** [NEW] **Platform:** LinkedIn.
+  - Section: **Session 2: Project Remess & AI Graphic Generation** (12pm)
+- **TST-503** [NEW] **Format:** Square (1080 x 1080 pixels).
+  - Section: **Session 2: Project Remess & AI Graphic Generation** (12pm)
+- **TST-504** [NEW] **Tools:** ChatGPT (specifically using the "Projects" feature).
+  - Section: **Session 2: Project Remess & AI Graphic Generation** (12pm)
+- **TST-505** [NEW] *3. Setup Instructions**
+  - Section: **Session 2: Project Remess & AI Graphic Generation** (12pm)
+- **TST-506** [NEW] `Mascot Prompts` (Reference images of the cat).
+  - Section: **Session 2: Project Remess & AI Graphic Generation** (12pm)
+- **TST-507** [NEW] `UI Kit & Design Guidelines` (Fonts, colors).
+  - Section: **Session 2: Project Remess & AI Graphic Generation** (12pm)
+- **TST-508** [NEW] `Post References` (Examples of previous work).
+  - Section: **Session 2: Project Remess & AI Graphic Generation** (12pm)
+- **TST-509** [NEW] **ChatGPT Project Setup:**
+  - Section: **Session 2: Project Remess & AI Graphic Generation** (12pm)
+- **TST-510** [NEW] *4. Generating Images**
+  - Section: **Session 2: Project Remess & AI Graphic Generation** (12pm)
+- **TST-511** [NEW] **Prompting:** Use the "Universal Option" prompt found in the instructions. Do not worry about specific placeholders unless the post is about a specific vacancy.
+  - Section: **Session 2: Project Remess & AI Graphic Generation** (12pm)
+- **TST-512** [NEW] **Workflow:**
+  - Section: **Session 2: Project Remess & AI Graphic Generation** (12pm)
+- **TST-513** [NEW] Feed the post content/text to ChatGPT.
+  - Section: **Session 2: Project Remess & AI Graphic Generation** (12pm)
+- **TST-514** [NEW] Ask it to generate the graphic title and concept.
+  - Section: **Session 2: Project Remess & AI Graphic Generation** (12pm)
+- **TST-515** [NEW] Request the image generation using the uploaded design constraints.
+  - Section: **Session 2: Project Remess & AI Graphic Generation** (12pm)
+- **TST-516** [NEW] **Quality Control:** If the generated cat looks different from the mascot (e.g., wrong eyes, wrong style), explicitly remind the AI: *"Please review the uploaded mascot references and regenerate."* You can also ask for specific edits, such as *"Add a world map to the background."*
+  - Section: **Session 2: Project Remess & AI Graphic Generation** (12pm)
+- **TST-517** [NEW] *Topic:** Troubleshooting VS Code, setting up the "Codecs" extension, and automating daily reports.
+  - Section: **Session 3: VS Code & Daily Reporting Support** (with Dama _4pm)
+- **TST-518** [NEW] *Q: Is there a specific template for the daily plans and tasks files?**
+  - Section: **Session 3: VS Code & Daily Reporting Support** (with Dama _4pm)
+- **TST-519** [NEW] *A:** Yes. You can find the template in the `Week 1` > `Folder 05` > `Daily` folder. You can simply copy and paste this structure into your new daily file.
+  - Section: **Session 3: VS Code & Daily Reporting Support** (with Dama _4pm)
+- **TST-520** [NEW] *Q: How do I use AI to fill out these reports automatically?**
+  - Section: **Session 3: VS Code & Daily Reporting Support** (with Dama _4pm)
+- **TST-521** [NEW] *A:** You can use the Claude AI integration within VS Code.
+  - Section: **Session 3: VS Code & Daily Reporting Support** (with Dama _4pm)
+- **TST-522** [NEW] *Q: I'm getting an error telling me to "Open in Legacy Account." How do I fix this?**
+  - Section: **Session 3: VS Code & Daily Reporting Support** (with Dama _4pm)
+- **TST-523** [NEW] *A:** This is likely an extension issue.
+  - Section: **Session 3: VS Code & Daily Reporting Support** (with Dama _4pm)
+
+#### Bindiak Dana (107 tasks)
+
+- **TST-524** [NEW] *What**: Record of all your activities throughout the day
+- **TST-525** [NEW] Time stamps for each activity
+- **TST-526** [NEW] What you worked on
+- **TST-527** [NEW] Whisper Flow transcripts from all meetings/calls
+- **TST-528** [NEW] Outcomes and results
+- **TST-529** [NEW] *What I worked on:**
+  - Time: 9:00-9:30
+  - Section: 9:00-9:30 - Morning accounts checking
+- **TST-530** [NEW] Checked all working accounts for new requests/messages/notifications
+  - Time: 9:00-9:30
+  - Section: 9:00-9:30 - Morning accounts checking
+- **TST-531** [NEW] Updated CRM statuses for accepted connections
+  - Time: 9:00-9:30
+  - Section: 9:00-9:30 - Morning accounts checking
+- **TST-532** [NEW] Sent first-message templates to new connections
+  - Time: 9:00-9:30
+  - Section: 9:00-9:30 - Morning accounts checking
+- **TST-533** [NEW] Sent follow-up messages where needed
+  - Time: 9:00-9:30
+  - Section: 9:00-9:30 - Morning accounts checking
+- **TST-534** [NEW] *Whisper Flow Transcript:**
+  - Time: 9:00-9:30
+  - Section: 9:00-9:30 - Morning accounts checking
+- **TST-535** [NEW] *Outcomes:**
+  - Time: 9:00-9:30
+  - Section: 9:00-9:30 - Morning accounts checking
+- **TST-536** [NEW] Inbox cleared and CRM statuses current for new responses
+  - Time: 9:00-9:30
+  - Section: 9:00-9:30 - Morning accounts checking
+- **TST-537** [NEW] Initial touchpoints and follow-ups dispatched
+  - Time: 9:00-9:30
+  - Section: 9:00-9:30 - Morning accounts checking
+- **TST-538** [NEW] *What I worked on:**
+  - Time: 9:30-10:00
+  - Section: 9:30-10:00 - Admin meeting
+- **TST-539** [NEW] Attended admin meeting to review tasks and immediate issues
+  - Time: 9:30-10:00
+  - Section: 9:30-10:00 - Admin meeting
+- **TST-540** [NEW] Flagged the need for correct daily report updates by lead generation managers
+  - Time: 9:30-10:00
+  - Section: 9:30-10:00 - Admin meeting
+- **TST-541** [NEW] Discussed reallocating/giving more accounts to lead generation managers
+  - Time: 9:30-10:00
+  - Section: 9:30-10:00 - Admin meeting
+- **TST-542** [NEW] *Whisper Flow Transcript:**
+  - Time: 9:30-10:00
+  - Section: 9:30-10:00 - Admin meeting
+- **TST-543** [NEW] *Outcomes:**
+  - Time: 9:30-10:00
+  - Section: 9:30-10:00 - Admin meeting
+- **TST-544** [NEW] Managers reminded to update daily reports accurately
+  - Time: 9:30-10:00
+  - Section: 9:30-10:00 - Admin meeting
+- **TST-545** [NEW] Plan set to distribute more accounts to lead generation managers
+  - Time: 9:30-10:00
+  - Section: 9:30-10:00 - Admin meeting
+- **TST-546** [NEW] Immediate issues identified for follow-up after meeting
+  - Time: 9:30-10:00
+  - Section: 9:30-10:00 - Admin meeting
+- **TST-547** [NEW] *What I worked on:**
+  - Time: 10:00-10:30
+  - Section: 10:00-10:30 - Day planning
+- **TST-548** [NEW] Rescheduled the day's tasks to accommodate new priorities
+  - Time: 10:00-10:30
+  - Section: 10:00-10:30 - Day planning
+- **TST-549** [NEW] Checked dependencies to ensure updates fit the timeline
+  - Time: 10:00-10:30
+  - Section: 10:00-10:30 - Day planning
+- **TST-550** [NEW] Communicated adjusted plan to stakeholders
+  - Time: 10:00-10:30
+  - Section: 10:00-10:30 - Day planning
+- **TST-551** [NEW] *Whisper Flow Transcript:**
+  - Time: 10:00-10:30
+  - Section: 10:00-10:30 - Day planning
+- **TST-552** [NEW] *Outcomes:**
+  - Time: 10:00-10:30
+  - Section: 10:00-10:30 - Day planning
+- **TST-553** [NEW] Updated plan confirmed for the day
+  - Time: 10:00-10:30
+  - Section: 10:00-10:30 - Day planning
+- **TST-554** [NEW] Stakeholders aligned on new schedule
+  - Time: 10:00-10:30
+  - Section: 10:00-10:30 - Day planning
+- **TST-555** [NEW] *What I worked on:**
+  - Time: 10:30-11:20
+  - Section: 10:30-11:20 - Daily reports review
+- **TST-556** [NEW] Checked daily report files for all lead generation team members and corrected mistakes
+  - Time: 10:30-11:20
+  - Section: 10:30-11:20 - Daily reports review
+- **TST-557** [NEW] Highlighted Whisper Flow requirements and reminded the team to keep it active
+  - Time: 10:30-11:20
+  - Section: 10:30-11:20 - Daily reports review
+- **TST-558** [NEW] Helped resolve report saving issues and shared tips to avoid recurrence
+  - Time: 10:30-11:20
+  - Section: 10:30-11:20 - Daily reports review
+- **TST-559** [NEW] Gave advice on improving report clarity and completeness
+  - Time: 10:30-11:20
+  - Section: 10:30-11:20 - Daily reports review
+- **TST-560** [NEW] *Whisper Flow Transcript:**
+  - Time: 10:30-11:20
+  - Section: 10:30-11:20 - Daily reports review
+- **TST-561** [NEW] *Outcomes:**
+  - Time: 10:30-11:20
+  - Section: 10:30-11:20 - Daily reports review
+- **TST-562** [NEW] Daily reports corrected and re-saved without issues
+  - Time: 10:30-11:20
+  - Section: 10:30-11:20 - Daily reports review
+- **TST-563** [NEW] Team reminded about Whisper Flow usage and reporting standards
+  - Time: 10:30-11:20
+  - Section: 10:30-11:20 - Daily reports review
+- **TST-564** [NEW] Guidance shared to improve future report quality
+  - Time: 10:30-11:20
+  - Section: 10:30-11:20 - Daily reports review
+- **TST-565** [NEW] *What I worked on:**
+  - Time: 11:20-12:00
+  - Section: 11:20-12:00 - Account allocation for posts
+- **TST-566** [NEW] Assigned additional LinkedIn accounts to lead generation managers for posting and reposting
+  - Time: 11:20-12:00
+  - Section: 11:20-12:00 - Account allocation for posts
+- **TST-567** [NEW] Confirmed each manager's capacity and matched accounts to their workflows
+  - Time: 11:20-12:00
+  - Section: 11:20-12:00 - Account allocation for posts
+- **TST-568** [NEW] Clarified posting expectations and timelines for the new allocations
+  - Time: 11:20-12:00
+  - Section: 11:20-12:00 - Account allocation for posts
+- **TST-569** [NEW] *Whisper Flow Transcript:**
+  - Time: 11:20-12:00
+  - Section: 11:20-12:00 - Account allocation for posts
+- **TST-570** [NEW] *Outcomes:**
+  - Time: 11:20-12:00
+  - Section: 11:20-12:00 - Account allocation for posts
+- **TST-571** [NEW] Extra accounts distributed to managers for LinkedIn activity
+  - Time: 11:20-12:00
+  - Section: 11:20-12:00 - Account allocation for posts
+- **TST-572** [NEW] Posting/reposting expectations aligned with team capacity
+  - Time: 11:20-12:00
+  - Section: 11:20-12:00 - Account allocation for posts
+- **TST-573** [NEW] *What I worked on:**
+  - Time: 12:00-13:00
+  - Section: 12:00-13:00 - Design training session
+- **TST-574** [NEW] Ran a training session on generating images for content with ChatGPT and tailored prompts
+  - Time: 12:00-13:00
+  - Section: 12:00-13:00 - Design training session
+- **TST-575** [NEW] Walked through prompt crafting best practices to get consistent visuals
+  - Time: 12:00-13:00
+  - Section: 12:00-13:00 - Design training session
+- **TST-576** [NEW] Recorded the session for future reference and onboarding
+  - Time: 12:00-13:00
+  - Section: 12:00-13:00 - Design training session
+- **TST-577** [NEW] *Whisper Flow Transcript:**
+  - Time: 12:00-13:00
+  - Section: 12:00-13:00 - Design training session
+- **TST-578** [NEW] *Outcomes:**
+  - Time: 12:00-13:00
+  - Section: 12:00-13:00 - Design training session
+- **TST-579** [NEW] Team learned image generation workflow with ChatGPT prompts
+  - Time: 12:00-13:00
+  - Section: 12:00-13:00 - Design training session
+- **TST-580** [NEW] Training recording saved for reuse
+  - Time: 12:00-13:00
+  - Section: 12:00-13:00 - Design training session
+- **TST-581** [NEW] *What I worked on:**
+  - Time: 13:00-14:00
+  - Section: 13:00-14:00 - Coordination and outreach
+- **TST-582** [NEW] Handled organization tasks and contacted AI specialists to test a new method for messaging old connections
+  - Time: 13:00-14:00
+  - Section: 13:00-14:00 - Coordination and outreach
+- **TST-583** [NEW] Informed managers about the extra LinkedIn accounts assigned for posting
+  - Time: 13:00-14:00
+  - Section: 13:00-14:00 - Coordination and outreach
+- **TST-584** [NEW] Coordinated with the sales manager about future support for the sales team
+  - Time: 13:00-14:00
+  - Section: 13:00-14:00 - Coordination and outreach
+- **TST-585** [NEW] Planned an image-creation practice task for lead generation managers
+  - Time: 13:00-14:00
+  - Section: 13:00-14:00 - Coordination and outreach
+- **TST-586** [NEW] *Whisper Flow Transcript:**
+  - Time: 13:00-14:00
+  - Section: 13:00-14:00 - Coordination and outreach
+- **TST-587** [NEW] *Outcomes:**
+  - Time: 13:00-14:00
+  - Section: 13:00-14:00 - Coordination and outreach
+- **TST-588** [NEW] AI outreach initiated for messaging tests on old connections
+  - Time: 13:00-14:00
+  - Section: 13:00-14:00 - Coordination and outreach
+- **TST-589** [NEW] Managers updated on additional posting accounts
+  - Time: 13:00-14:00
+  - Section: 13:00-14:00 - Coordination and outreach
+- **TST-590** [NEW] Sales support needs captured for upcoming assistance
+  - Time: 13:00-14:00
+  - Section: 13:00-14:00 - Coordination and outreach
+- **TST-591** [NEW] Image practice task planned for the lead generation team
+  - Time: 13:00-14:00
+  - Section: 13:00-14:00 - Coordination and outreach
+- **TST-592** [NEW] *What I worked on:**
+  - Time: 15:00-15:30
+  - Section: 15:00-15:30 - Dropbox and reporting guidance
+- **TST-593** [NEW] Gave additional guidance on using Dropbox for storing and organizing daily reports
+  - Time: 15:00-15:30
+  - Section: 15:00-15:30 - Dropbox and reporting guidance
+- **TST-594** [NEW] Explained best practices for completing daily report files for lead generation managers
+  - Time: 15:00-15:30
+  - Section: 15:00-15:30 - Dropbox and reporting guidance
+- **TST-595** [NEW] Answered questions and clarified the required report details
+  - Time: 15:00-15:30
+  - Section: 15:00-15:30 - Dropbox and reporting guidance
+- **TST-596** [NEW] *Whisper Flow Transcript:**
+  - Time: 15:00-15:30
+  - Section: 15:00-15:30 - Dropbox and reporting guidance
+- **TST-597** [NEW] *Outcomes:**
+  - Time: 15:00-15:30
+  - Section: 15:00-15:30 - Dropbox and reporting guidance
+- **TST-598** [NEW] Managers understood Dropbox usage and folder structure
+  - Time: 15:00-15:30
+  - Section: 15:00-15:30 - Dropbox and reporting guidance
+- **TST-599** [NEW] Reporting expectations clarified for daily files
+  - Time: 15:00-15:30
+  - Section: 15:00-15:30 - Dropbox and reporting guidance
+- **TST-600** [NEW] *What I worked on:**
+  - Time: 15:30-16:30
+  - Section: 15:30-16:30 - Messaging test results
+- **TST-601** [NEW] Discussed initial results from testing the new method for messaging old connections
+  - Time: 15:30-16:30
+  - Section: 15:30-16:30 - Messaging test results
+- **TST-602** [NEW] Collected feedback on response rates and any delivery issues
+  - Time: 15:30-16:30
+  - Section: 15:30-16:30 - Messaging test results
+- **TST-603** [NEW] Outlined next adjustments to improve the messaging flow
+  - Time: 15:30-16:30
+  - Section: 15:30-16:30 - Messaging test results
+- **TST-604** [NEW] *Whisper Flow Transcript:**
+  - Time: 15:30-16:30
+  - Section: 15:30-16:30 - Messaging test results
+- **TST-605** [NEW] *Outcomes:**
+  - Time: 15:30-16:30
+  - Section: 15:30-16:30 - Messaging test results
+- **TST-606** [NEW] Early findings documented for the new messaging approach
+  - Time: 15:30-16:30
+  - Section: 15:30-16:30 - Messaging test results
+- **TST-607** [NEW] Action items captured to refine the test
+  - Time: 15:30-16:30
+  - Section: 15:30-16:30 - Messaging test results
+- **TST-608** [NEW] *What I worked on:**
+  - Time: 16:30-17:00
+  - Section: 16:30-17:00 - Black Friday posting
+- **TST-609** [NEW] Posted Black Friday discount content across additional LinkedIn accounts
+  - Time: 16:30-17:00
+  - Section: 16:30-17:00 - Black Friday posting
+- **TST-610** [NEW] Ensured messaging matched the promotion guidelines and visuals
+  - Time: 16:30-17:00
+  - Section: 16:30-17:00 - Black Friday posting
+- **TST-611** [NEW] Verified posts went live and noted any accounts needing follow-up
+  - Time: 16:30-17:00
+  - Section: 16:30-17:00 - Black Friday posting
+- **TST-612** [NEW] *Whisper Flow Transcript:**
+  - Time: 16:30-17:00
+  - Section: 16:30-17:00 - Black Friday posting
+- **TST-613** [NEW] *Outcomes:**
+  - Time: 16:30-17:00
+  - Section: 16:30-17:00 - Black Friday posting
+- **TST-614** [NEW] Black Friday posts published on extra LinkedIn accounts
+  - Time: 16:30-17:00
+  - Section: 16:30-17:00 - Black Friday posting
+- **TST-615** [NEW] Follow-ups identified for any posting issues
+  - Time: 16:30-17:00
+  - Section: 16:30-17:00 - Black Friday posting
+- **TST-616** [NEW] *What I worked on:**
+  - Time: 17:00-17:40
+  - Section: 17:00-17:40 - Newcomer CRM review
+- **TST-617** [NEW] Reviewed CRM cards for newcomers and provided feedback on their entries
+  - Time: 17:00-17:40
+  - Section: 17:00-17:40 - Newcomer CRM review
+- **TST-618** [NEW] Filled out the working process table with updated status and notes
+  - Time: 17:00-17:40
+  - Section: 17:00-17:40 - Newcomer CRM review
+- **TST-619** [NEW] Highlighted corrections and next steps for each newcomer
+  - Time: 17:00-17:40
+  - Section: 17:00-17:40 - Newcomer CRM review
+- **TST-620** [NEW] *Whisper Flow Transcript:**
+  - Time: 17:00-17:40
+  - Section: 17:00-17:40 - Newcomer CRM review
+- **TST-621** [NEW] *Outcomes:**
+  - Time: 17:00-17:40
+  - Section: 17:00-17:40 - Newcomer CRM review
+- **TST-622** [NEW] CRM cards reviewed and improved for newcomers
+  - Time: 17:00-17:40
+  - Section: 17:00-17:40 - Newcomer CRM review
+- **TST-623** [NEW] Working process table updated with current statuses
+  - Time: 17:00-17:40
+  - Section: 17:00-17:40 - Newcomer CRM review
+- **TST-624** [NEW] Action points shared with newcomers for follow-up
+  - Time: 17:00-17:40
+  - Section: 17:00-17:40 - Newcomer CRM review
+- **TST-625** [NEW] *What I worked on:**
+  - Time: 17:00-17:40
+  - Section: [Time] - [Activity Name]
+- **TST-626** [NEW] *Whisper Flow Transcript:**
+  - Time: 17:00-17:40
+  - Section: [Time] - [Activity Name]
+- **TST-627** [NEW] *Outcomes:**
+  - Time: 17:00-17:40
+  - Section: [Time] - [Activity Name]
+- **TST-628** [NEW] Whisper Flow ON during all activities
+  - Time: 17:00-17:40
+  - Section: [Time] - [Activity Name]
+- **TST-629** [NEW] Update this file throughout the day
+  - Time: 17:00-17:40
+  - Section: [Time] - [Activity Name]
+- **TST-630** [NEW] Include all meeting transcripts
+  - Time: 17:00-17:40
+  - Section: [Time] - [Activity Name]
+
+#### Burda Anna (14 tasks)
+
+- **TST-631** [NEW] *What**: Record of all your activities throughout the day
+- **TST-632** [NEW] Time stamps for each activity
+- **TST-633** [NEW] What you worked on
+- **TST-634** [NEW] Whisper Flow transcripts from all meetings/calls
+- **TST-635** [NEW] Outcomes and results
+- **TST-636** [NEW] *What I worked on:**
+  - Section: [Time] - [Activity Name]
+- **TST-637** [NEW] *Whisper Flow Transcript:**
+  - Section: [Time] - [Activity Name]
+- **TST-638** [NEW] *Outcomes:**
+  - Section: [Time] - [Activity Name]
+- **TST-639** [NEW] *What I worked on:**
+  - Section: [Time] - [Activity Name]
+- **TST-640** [NEW] *Whisper Flow Transcript:**
+  - Section: [Time] - [Activity Name]
+- **TST-641** [NEW] *Outcomes:**
+  - Section: [Time] - [Activity Name]
+- **TST-642** [NEW] Whisper Flow ON during all activities
+  - Section: [Time] - [Activity Name]
+- **TST-643** [NEW] Update this file throughout the day
+  - Section: [Time] - [Activity Name]
+- **TST-644** [NEW] Include all meeting transcripts
+  - Section: [Time] - [Activity Name]
+
+#### Cynthia Aninwezi (37 tasks)
+
+- **TST-645** [NEW] *What**: Record of all your activities throughout the day
+- **TST-646** [NEW] Time stamps for each activity
+- **TST-647** [NEW] What you worked on
+- **TST-648** [NEW] Whisper Flow transcripts from all meetings/calls
+- **TST-649** [NEW] Outcomes and results
+- **TST-650** [NEW] *What I worked on:**
+  - Section: Morning - [Send messages to leads, Job sites, black friday posts]
+- **TST-651** [NEW] Reviewed all working 8 accounts to identify new connections
+  - Section: Morning - [Send messages to leads, Job sites, black friday posts]
+- **TST-652** [NEW] Sent first message to all connected leads, send follow up mesages to leads that were due for follow up
+  - Section: Morning - [Send messages to leads, Job sites, black friday posts]
+- **TST-653** [NEW] Updated CRM status
+  - Section: Morning - [Send messages to leads, Job sites, black friday posts]
+- **TST-654** [NEW] Added new company cards into CRM working with job sites spreadsheet
+  - Section: Morning - [Send messages to leads, Job sites, black friday posts]
+- **TST-655** [NEW] Sent connection requests to relevant leads attached to each company
+  - Section: Morning - [Send messages to leads, Job sites, black friday posts]
+- **TST-656** [NEW] Updated job sites spreadsheet with relevant informations attached to each job site.
+  - Section: Morning - [Send messages to leads, Job sites, black friday posts]
+- **TST-657** [NEW] Sent an apology to the lead that rescheduled meeting(John Ruthledge) as there was a mix up with his company name.
+  - Section: Morning - [Send messages to leads, Job sites, black friday posts]
+- **TST-658** [NEW] Recieved 2 more working accounts and made black friday discount posts and repost in each account.
+  - Section: Morning - [Send messages to leads, Job sites, black friday posts]
+- **TST-659** [NEW] *Outcomes:**
+  - Section: Morning - [Send messages to leads, Job sites, black friday posts]
+- **TST-660** [NEW] 10 messages sent to leads (5 follow up messages), (5 first messages)
+  - Section: Morning - [Send messages to leads, Job sites, black friday posts]
+- **TST-661** [NEW] 15 job sites processed
+  - Section: Morning - [Send messages to leads, Job sites, black friday posts]
+- **TST-662** [NEW] 11 job sites added to CRM
+  - Section: Morning - [Send messages to leads, Job sites, black friday posts]
+- **TST-663** [NEW] 20 connection requests sent to leads
+  - Section: Morning - [Send messages to leads, Job sites, black friday posts]
+- **TST-664** [NEW] 2 black friday posts made in each new account
+  - Section: Morning - [Send messages to leads, Job sites, black friday posts]
+- **TST-665** [NEW] *What I worked on:**
+  - Section: Day - [Graphic design session,Add new companies using google scape,]
+- **TST-666** [NEW] One hour graphic design session with Vilhelm
+  - Section: Day - [Graphic design session,Add new companies using google scape,]
+- **TST-667** [NEW] Added new companies and their relevant leads into the CRM using google scrape
+  - Section: Day - [Graphic design session,Add new companies using google scape,]
+- **TST-668** [NEW] 2 hour streming session on the streaming platform
+  - Section: Day - [Graphic design session,Add new companies using google scape,]
+- **TST-669** [NEW] *Outcomes:**
+  - Section: Day - [Graphic design session,Add new companies using google scape,]
+- **TST-670** [NEW] 26 new companies added into CRM
+  - Section: Day - [Graphic design session,Add new companies using google scape,]
+- **TST-671** [NEW] 43 connection requests sent
+  - Section: Day - [Graphic design session,Add new companies using google scape,]
+- **TST-672** [NEW] Acquired knowledge on how to create company aligned graphics using chatGPT and how to create the right prompts.
+  - Section: Day - [Graphic design session,Add new companies using google scape,]
+- **TST-673** [NEW] Recieved response from lead(John Ruthledge) and will follow up in two weeks
+  - Section: Day - [Graphic design session,Add new companies using google scape,]
+- **TST-674** [DONE] Completed streaming session for the day despite technical issues
+  - Section: Day - [Graphic design session,Add new companies using google scape,]
+- **TST-675** [NEW] --**Whisper Flow Transcript:**
+  - Section: Day - [Graphic design session,Add new companies using google scape,]
+- **TST-676** [NEW] Team leads Ann and Dana assisted in rectifyig issue with lead.
+  - Section: Day - [Graphic design session,Add new companies using google scape,]
+- **TST-677** [NEW] Ann created the apology message which i sent to lead, also gave me a troubleshooting advice that sorted the challenge encountered on the streaming platform.
+  - Section: Day - [Graphic design session,Add new companies using google scape,]
+- **TST-678** [NEW] Wispr flow did a subpar job with the transcripts from the graphic design session and for this reason, I'm unable to attach it to this report.
+  - Section: Day - [Graphic design session,Add new companies using google scape,]
+- **TST-679** [NEW] Whisper Flow ON during all activities
+  - Section: Day - [Graphic design session,Add new companies using google scape,]
+- **TST-680** [NEW] Update this file throughout the day
+  - Section: Day - [Graphic design session,Add new companies using google scape,]
+- **TST-681** [NEW] Include all meeting transcripts#
+  - Section: Day - [Graphic design session,Add new companies using google scape,]
+
+---
+
+## Next Steps
+
+1. **Project Mapping:** Map TST-### tasks to PRT-001 to PRT-009 projects
+2. **Milestone Linking:** Link tasks to MLT-### milestones
+3. **Tool/Guide Association:** Identify TOL-### tools and GDS-### guides used
+4. **Department Reports:** Generate final reports using PMT-033 to PMT-043
+5. **Aggregation:** Combine using PMT-032 for cross-department insights

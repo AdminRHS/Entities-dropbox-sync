@@ -1,0 +1,1541 @@
+[
+  {
+    "id": "RPT-001",
+    "employee": "Artemchuk Nikolay",
+    "department": "AI",
+    "status": "Work",
+    "task_status": "new",
+    "description": "*Assigned To:** Designer without daily files in folder",
+    "section": "# [TASK-AID-005] Cross-Department AI Tool Support",
+    "time": null,
+    "date": "November 28, 2025",
+    "verb_form": "result",
+    "detected_verb": "assigned",
+    "original_id": "TST-007",
+    "template_match": {
+      "template_id": "TST-074",
+      "template_name": "Process Daily Report Files for Entity Extraction and Consolidation",
+      "match_score": 37.5
+    }
+  },
+  {
+    "id": "RPT-002",
+    "employee": "Artemchuk Nikolay",
+    "department": "AI",
+    "status": "Work",
+    "task_status": "new",
+    "description": "*Estimated Time:** 1.5h",
+    "section": "# [TASK-AID-005] Cross-Department AI Tool Support",
+    "time": null,
+    "date": "November 28, 2025",
+    "verb_form": "result",
+    "detected_verb": "estimated",
+    "original_id": "TST-008",
+    "template_match": {
+      "template_id": "TST-011",
+      "template_name": "Enable Claude Skills Feature",
+      "match_score": 25.0
+    }
+  },
+  {
+    "id": "RPT-003",
+    "employee": "Artemchuk Nikolay",
+    "department": "AI",
+    "status": "Work",
+    "task_status": "new",
+    "description": "Support requests handled",
+    "section": "# [TASK-AID-005] Cross-Department AI Tool Support",
+    "time": null,
+    "date": "November 28, 2025",
+    "verb_form": "result",
+    "detected_verb": "handled",
+    "original_id": "TST-027",
+    "template_match": {
+      "template_id": "TST-009",
+      "template_name": "Build Custom Niche Platform Scraper",
+      "match_score": 33.3
+    }
+  },
+  {
+    "id": "RPT-007",
+    "employee": "Skrypkar Vilhelm",
+    "department": "Design",
+    "status": "Available",
+    "task_status": "new",
+    "description": "Management (needs to be developed)",
+    "section": "Day - [Figuring out and assigning tasks for creating graphics for REM-s website]",
+    "time": null,
+    "date": "November 28, 2025",
+    "verb_form": "result",
+    "detected_verb": "developed",
+    "original_id": "TST-061",
+    "template_match": {
+      "template_id": "TST-081",
+      "template_name": "Design Financial Automation Workflow for Data Processing",
+      "match_score": 40.0
+    }
+  },
+  {
+    "id": "RPT-012",
+    "employee": "Makovska Anna",
+    "department": "Dev",
+    "status": "Available",
+    "task_status": "new",
+    "description": "Implemented `copyToUpdated()` function that recursively copies all JSON files from `exported/collections/` to `updated/collections/`",
+    "section": "Morning — Strapi Collections Export Script Enhancement (9:00-10:30)",
+    "time": "9:00-10:30",
+    "date": "November 28, 2025",
+    "verb_form": "result",
+    "detected_verb": "implemented",
+    "original_id": "TST-313",
+    "template_match": {
+      "template_id": "TST-045",
+      "template_name": "Research AI Video Tools to Complete Missing Tool Documentation",
+      "match_score": 28.6
+    }
+  },
+  {
+    "id": "RPT-015",
+    "employee": "Makovska Anna",
+    "department": "Dev",
+    "status": "Available",
+    "task_status": "completed",
+    "description": "Streamlined workflow for content management",
+    "section": "Morning — Strapi Collections Export Script Enhancement (9:00-10:30)",
+    "time": "9:00-10:30",
+    "date": "November 28, 2025",
+    "verb_form": "result",
+    "detected_verb": "streamlined",
+    "original_id": "TST-323",
+    "template_match": {
+      "template_id": "TST-081",
+      "template_name": "Design Financial Automation Workflow for Data Processing",
+      "match_score": 60.0
+    }
+  },
+  {
+    "id": "RPT-018",
+    "employee": "Makovska Anna",
+    "department": "Dev",
+    "status": "Available",
+    "task_status": "new",
+    "description": "Added batch processing (10 files per batch) for controlled update speed",
+    "section": "Morning — Collections Update Script Refactoring (10:30-12:00)",
+    "time": "10:30-12:00",
+    "date": "November 28, 2025",
+    "verb_form": "result",
+    "detected_verb": "added",
+    "original_id": "TST-327",
+    "template_match": {
+      "template_id": "TST-046",
+      "template_name": "Research AI Platforms and LLM Services to Complete Missing Tool Documentation",
+      "match_score": 30.0
+    }
+  },
+  {
+    "id": "RPT-019",
+    "employee": "Makovska Anna",
+    "department": "Dev",
+    "status": "Available",
+    "task_status": "new",
+    "description": "Implemented retry logic with exponential backoff (up to 3 retries)",
+    "section": "Morning — Collections Update Script Refactoring (10:30-12:00)",
+    "time": "10:30-12:00",
+    "date": "November 28, 2025",
+    "verb_form": "result",
+    "detected_verb": "implemented",
+    "original_id": "TST-328",
+    "template_match": {
+      "template_id": "TST-048",
+      "template_name": "Research Other AI Tools to Complete Missing Tool Documentation",
+      "match_score": 30.0
+    }
+  },
+  {
+    "id": "RPT-022",
+    "employee": "Makovska Anna",
+    "department": "Dev",
+    "status": "Available",
+    "task_status": "new",
+    "description": "Deleted files → DELETE requests",
+    "section": "Morning — Collections Update Script Refactoring (10:30-12:00)",
+    "time": "10:30-12:00",
+    "date": "November 28, 2025",
+    "verb_form": "result",
+    "detected_verb": "deleted",
+    "original_id": "TST-332",
+    "template_match": {
+      "template_id": "TST-009",
+      "template_name": "Build Custom Niche Platform Scraper",
+      "match_score": 25.0
+    }
+  },
+  {
+    "id": "RPT-023",
+    "employee": "Makovska Anna",
+    "department": "Dev",
+    "status": "Available",
+    "task_status": "new",
+    "description": "Implemented comprehensive file filtering system:",
+    "section": "Afternoon — File Filtering and Template Handling (12:00-13:30)",
+    "time": "12:00-13:30",
+    "date": "November 28, 2025",
+    "verb_form": "result",
+    "detected_verb": "implemented",
+    "original_id": "TST-349",
+    "template_match": {
+      "template_id": "TST-048",
+      "template_name": "Research Other AI Tools to Complete Missing Tool Documentation",
+      "match_score": 60.0
+    }
+  },
+  {
+    "id": "RPT-024",
+    "employee": "Makovska Anna",
+    "department": "Dev",
+    "status": "Available",
+    "task_status": "new",
+    "description": "Created `shouldIgnoreFile()` and `shouldIgnoreDirectory()` helper functions",
+    "section": "Afternoon — File Filtering and Template Handling (12:00-13:30)",
+    "time": "12:00-13:30",
+    "date": "November 28, 2025",
+    "verb_form": "result",
+    "detected_verb": "created",
+    "original_id": "TST-354",
+    "template_match": {
+      "template_id": "TST-073",
+      "template_name": "Set Up Automation Infrastructure for Recurring Workflows",
+      "match_score": 33.3
+    }
+  },
+  {
+    "id": "RPT-026",
+    "employee": "Makovska Anna",
+    "department": "Dev",
+    "status": "Available",
+    "task_status": "completed",
+    "description": "Template files never sent to backend",
+    "section": "Afternoon — File Filtering and Template Handling (12:00-13:30)",
+    "time": "12:00-13:30",
+    "date": "November 28, 2025",
+    "verb_form": "result",
+    "detected_verb": "sent",
+    "original_id": "TST-361",
+    "template_match": {
+      "template_id": "TST-045",
+      "template_name": "Research AI Video Tools to Complete Missing Tool Documentation",
+      "match_score": 33.3
+    }
+  },
+  {
+    "id": "RPT-028",
+    "employee": "Makovska Anna",
+    "department": "Dev",
+    "status": "Available",
+    "task_status": "new",
+    "description": "Created automatic synchronization of `{collection}-list.json` files:",
+    "section": "Afternoon — List.json Synchronization System (13:30-15:00)",
+    "time": "13:30-15:00",
+    "date": "November 28, 2025",
+    "verb_form": "result",
+    "detected_verb": "created",
+    "original_id": "TST-366",
+    "template_match": {
+      "template_id": "TST-033",
+      "template_name": "TST-033_Index_Accuracy_Check.json",
+      "match_score": 37.5
+    }
+  },
+  {
+    "id": "RPT-029",
+    "employee": "Makovska Anna",
+    "department": "Dev",
+    "status": "Available",
+    "task_status": "new",
+    "description": "Created separate `{collection}-changed-list.json` files:",
+    "section": "Afternoon — List.json Synchronization System (13:30-15:00)",
+    "time": "13:30-15:00",
+    "date": "November 28, 2025",
+    "verb_form": "result",
+    "detected_verb": "created",
+    "original_id": "TST-370",
+    "template_match": {
+      "template_id": "TST-023",
+      "template_name": "TST-023_File_Count_Distribution.json",
+      "match_score": 28.6
+    }
+  },
+  {
+    "id": "RPT-030",
+    "employee": "Makovska Anna",
+    "department": "Dev",
+    "status": "Available",
+    "task_status": "completed",
+    "description": "Full list.json files always synchronized before updates",
+    "section": "Afternoon — List.json Synchronization System (13:30-15:00)",
+    "time": "13:30-15:00",
+    "date": "November 28, 2025",
+    "verb_form": "result",
+    "detected_verb": "synchronized",
+    "original_id": "TST-380",
+    "template_match": {
+      "template_id": "TST-068",
+      "template_name": "TST-068_Behance_Step_01_Select_and_Prepare_Project.json",
+      "match_score": 37.5
+    }
+  },
+  {
+    "id": "RPT-032",
+    "employee": "Makovska Anna",
+    "department": "Dev",
+    "status": "Available",
+    "task_status": "new",
+    "description": "Added comprehensive sections:",
+    "section": "Afternoon — Documentation Updates (15:00-16:00)",
+    "time": "15:00-16:00",
+    "date": "November 28, 2025",
+    "verb_form": "result",
+    "detected_verb": "added",
+    "original_id": "TST-385",
+    "template_match": {
+      "template_id": "TST-035",
+      "template_name": "TST-035_Architecture_Documentation.json",
+      "match_score": 33.3
+    }
+  },
+  {
+    "id": "RPT-033",
+    "employee": "Makovska Anna",
+    "department": "Dev",
+    "status": "Available",
+    "task_status": "new",
+    "description": "Created visual indicators and emojis for better readability",
+    "section": "Afternoon — Documentation Updates (15:00-16:00)",
+    "time": "15:00-16:00",
+    "date": "November 28, 2025",
+    "verb_form": "result",
+    "detected_verb": "created",
+    "original_id": "TST-392",
+    "template_match": {
+      "template_id": "TST-019",
+      "template_name": "Make.com Lead Enrichment Automation (DEPRECATED)",
+      "match_score": 37.5
+    }
+  },
+  {
+    "id": "RPT-034",
+    "employee": "Makovska Anna",
+    "department": "Dev",
+    "status": "Available",
+    "task_status": "new",
+    "description": "Added checklist for safe updates",
+    "section": "Afternoon — Documentation Updates (15:00-16:00)",
+    "time": "15:00-16:00",
+    "date": "November 28, 2025",
+    "verb_form": "result",
+    "detected_verb": "added",
+    "original_id": "TST-393",
+    "template_match": {
+      "template_id": "TST-074",
+      "template_name": "Process Daily Report Files for Entity Extraction and Consolidation",
+      "match_score": 40.0
+    }
+  },
+  {
+    "id": "RPT-035",
+    "employee": "Makovska Anna",
+    "department": "Dev",
+    "status": "Available",
+    "task_status": "new",
+    "description": "Simplified technical language",
+    "section": "Afternoon — Documentation Updates (15:00-16:00)",
+    "time": "15:00-16:00",
+    "date": "November 28, 2025",
+    "verb_form": "result",
+    "detected_verb": "simplified",
+    "original_id": "TST-395",
+    "template_match": {
+      "template_id": "TST-079",
+      "template_name": "Conduct Structured Candidate Interview and Evaluation",
+      "match_score": 33.3
+    }
+  },
+  {
+    "id": "RPT-036",
+    "employee": "Makovska Anna",
+    "department": "Dev",
+    "status": "Available",
+    "task_status": "completed",
+    "description": "Enhanced export script with automatic copy to updated/collections",
+    "section": "1️⃣ Completed Tasks",
+    "time": "15:00-16:00",
+    "date": "November 28, 2025",
+    "verb_form": "result",
+    "detected_verb": "enhanced",
+    "original_id": "TST-412",
+    "template_match": {
+      "template_id": "TST-005",
+      "template_name": "Automate Morning Email Drafts",
+      "match_score": 22.2
+    }
+  },
+  {
+    "id": "RPT-037",
+    "employee": "Makovska Anna",
+    "department": "Dev",
+    "status": "Available",
+    "task_status": "completed",
+    "description": "Refactored update script with rate limiting and retry logic",
+    "section": "1️⃣ Completed Tasks",
+    "time": "15:00-16:00",
+    "date": "November 28, 2025",
+    "verb_form": "result",
+    "detected_verb": "refactored",
+    "original_id": "TST-413",
+    "template_match": {
+      "template_id": "TST-013",
+      "template_name": "Scrape Local Businesses from Google Maps",
+      "match_score": 33.3
+    }
+  },
+  {
+    "id": "RPT-038",
+    "employee": "Makovska Anna",
+    "department": "Dev",
+    "status": "Available",
+    "task_status": "completed",
+    "description": "Implemented comprehensive file filtering (template files, files without ID)",
+    "section": "1️⃣ Completed Tasks",
+    "time": "15:00-16:00",
+    "date": "November 28, 2025",
+    "verb_form": "result",
+    "detected_verb": "implemented",
+    "original_id": "TST-415",
+    "template_match": {
+      "template_id": "TST-045",
+      "template_name": "Research AI Video Tools to Complete Missing Tool Documentation",
+      "match_score": 25.0
+    }
+  },
+  {
+    "id": "RPT-040",
+    "employee": "Makovska Anna",
+    "department": "Dev",
+    "status": "Available",
+    "task_status": "completed",
+    "description": "Updated documentation with simple, clear instructions",
+    "section": "1️⃣ Completed Tasks",
+    "time": "15:00-16:00",
+    "date": "November 28, 2025",
+    "verb_form": "result",
+    "detected_verb": "updated",
+    "original_id": "TST-417",
+    "template_match": {
+      "template_id": "TST-035",
+      "template_name": "TST-035_Architecture_Documentation.json",
+      "match_score": 33.3
+    }
+  },
+  {
+    "id": "RPT-042",
+    "employee": "Makovska Anna",
+    "department": "Dev",
+    "status": "Available",
+    "task_status": "completed",
+    "description": "*Solution:**  Implemented rate limiting (800ms), batch processing (10 files), and retry logic",
+    "section": "2️⃣ Challenges & Solutions",
+    "time": "15:00-16:00",
+    "date": "November 28, 2025",
+    "verb_form": "result",
+    "detected_verb": "implemented",
+    "original_id": "TST-420",
+    "template_match": {
+      "template_id": "TST-046",
+      "template_name": "Research AI Platforms and LLM Services to Complete Missing Tool Documentation",
+      "match_score": 25.0
+    }
+  },
+  {
+    "id": "RPT-043",
+    "employee": "Makovska Anna",
+    "department": "Dev",
+    "status": "Available",
+    "task_status": "new",
+    "description": "**Challenge:** Template files being sent to backend",
+    "section": "2️⃣ Challenges & Solutions",
+    "time": "15:00-16:00",
+    "date": "November 28, 2025",
+    "verb_form": "result",
+    "detected_verb": "sent",
+    "original_id": "TST-423",
+    "template_match": {
+      "template_id": "TST-045",
+      "template_name": "Research AI Video Tools to Complete Missing Tool Documentation",
+      "match_score": 28.6
+    }
+  },
+  {
+    "id": "RPT-047",
+    "employee": "Bindiak Dana",
+    "department": "LG",
+    "status": "Available",
+    "task_status": "new",
+    "description": "Checked all working accounts for new requests/messages/notifications",
+    "section": "9:00-9:30 - Morning accounts checking",
+    "time": "9:00-9:30",
+    "date": "November 28, 2025",
+    "verb_form": "result",
+    "detected_verb": "checked",
+    "original_id": "TST-476",
+    "template_match": {
+      "template_id": "TST-044",
+      "template_name": "Setup Automated Onboarding Workflow for New Hires",
+      "match_score": 33.3
+    }
+  },
+  {
+    "id": "RPT-048",
+    "employee": "Bindiak Dana",
+    "department": "LG",
+    "status": "Available",
+    "task_status": "new",
+    "description": "Updated CRM statuses for accepted connections",
+    "section": "9:00-9:30 - Morning accounts checking",
+    "time": "9:00-9:30",
+    "date": "November 28, 2025",
+    "verb_form": "result",
+    "detected_verb": "updated",
+    "original_id": "TST-477",
+    "template_match": {
+      "template_id": "TST-080",
+      "template_name": "Generate and Qualify Leads for Sales Pipeline",
+      "match_score": 33.3
+    }
+  },
+  {
+    "id": "RPT-049",
+    "employee": "Bindiak Dana",
+    "department": "LG",
+    "status": "Available",
+    "task_status": "new",
+    "description": "Sent first-message templates to new connections",
+    "section": "9:00-9:30 - Morning accounts checking",
+    "time": "9:00-9:30",
+    "date": "November 28, 2025",
+    "verb_form": "result",
+    "detected_verb": "sent",
+    "original_id": "TST-478",
+    "template_match": {
+      "template_id": "TST-044",
+      "template_name": "Setup Automated Onboarding Workflow for New Hires",
+      "match_score": 28.6
+    }
+  },
+  {
+    "id": "RPT-050",
+    "employee": "Bindiak Dana",
+    "department": "LG",
+    "status": "Available",
+    "task_status": "new",
+    "description": "Sent follow-up messages where needed",
+    "section": "9:00-9:30 - Morning accounts checking",
+    "time": "9:00-9:30",
+    "date": "November 28, 2025",
+    "verb_form": "result",
+    "detected_verb": "sent",
+    "original_id": "TST-479",
+    "template_match": {
+      "template_id": "TST-021",
+      "template_name": "Send Follow-up Email to old clients",
+      "match_score": 33.3
+    }
+  },
+  {
+    "id": "RPT-052",
+    "employee": "Bindiak Dana",
+    "department": "LG",
+    "status": "Available",
+    "task_status": "new",
+    "description": "Flagged the need for correct daily report updates by lead generation managers",
+    "section": "9:30-10:00 - Admin meeting",
+    "time": "9:30-10:00",
+    "date": "November 28, 2025",
+    "verb_form": "result",
+    "detected_verb": "flagged",
+    "original_id": "TST-485",
+    "template_match": {
+      "template_id": "TST-074",
+      "template_name": "Process Daily Report Files for Entity Extraction and Consolidation",
+      "match_score": 41.7
+    }
+  },
+  {
+    "id": "RPT-053",
+    "employee": "Bindiak Dana",
+    "department": "LG",
+    "status": "Available",
+    "task_status": "new",
+    "description": "Discussed reallocating/giving more accounts to lead generation managers",
+    "section": "9:30-10:00 - Admin meeting",
+    "time": "9:30-10:00",
+    "date": "November 28, 2025",
+    "verb_form": "result",
+    "detected_verb": "discussed",
+    "original_id": "TST-486",
+    "template_match": {
+      "template_id": "TST-004",
+      "template_name": "Apollo.io Full Stack Lead Generation (DEPRECATED)",
+      "match_score": 33.3
+    }
+  },
+  {
+    "id": "RPT-054",
+    "employee": "Bindiak Dana",
+    "department": "LG",
+    "status": "Available",
+    "task_status": "new",
+    "description": "Managers reminded to update daily reports accurately",
+    "section": "9:30-10:00 - Admin meeting",
+    "time": "9:30-10:00",
+    "date": "November 28, 2025",
+    "verb_form": "result",
+    "detected_verb": "reminded",
+    "original_id": "TST-488",
+    "template_match": {
+      "template_id": "TST-074",
+      "template_name": "Process Daily Report Files for Entity Extraction and Consolidation",
+      "match_score": 42.9
+    }
+  },
+  {
+    "id": "RPT-055",
+    "employee": "Bindiak Dana",
+    "department": "LG",
+    "status": "Available",
+    "task_status": "new",
+    "description": "Checked dependencies to ensure updates fit the timeline",
+    "section": "10:00-10:30 - Day planning",
+    "time": "10:00-10:30",
+    "date": "November 28, 2025",
+    "verb_form": "result",
+    "detected_verb": "checked",
+    "original_id": "TST-493",
+    "template_match": {
+      "template_id": "TST-074",
+      "template_name": "Process Daily Report Files for Entity Extraction and Consolidation",
+      "match_score": 37.5
+    }
+  },
+  {
+    "id": "RPT-057",
+    "employee": "Bindiak Dana",
+    "department": "LG",
+    "status": "Available",
+    "task_status": "new",
+    "description": "Updated plan confirmed for the day",
+    "section": "10:00-10:30 - Day planning",
+    "time": "10:00-10:30",
+    "date": "November 28, 2025",
+    "verb_form": "result",
+    "detected_verb": "updated",
+    "original_id": "TST-496",
+    "template_match": {
+      "template_id": "TST-039",
+      "template_name": "Setup n8n Automation for Automated CV Screening",
+      "match_score": 33.3
+    }
+  },
+  {
+    "id": "RPT-058",
+    "employee": "Bindiak Dana",
+    "department": "LG",
+    "status": "Available",
+    "task_status": "new",
+    "description": "Stakeholders aligned on new schedule",
+    "section": "10:00-10:30 - Day planning",
+    "time": "10:00-10:30",
+    "date": "November 28, 2025",
+    "verb_form": "result",
+    "detected_verb": "aligned",
+    "original_id": "TST-497",
+    "template_match": {
+      "template_id": "TST-044",
+      "template_name": "Setup Automated Onboarding Workflow for New Hires",
+      "match_score": 40.0
+    }
+  },
+  {
+    "id": "RPT-059",
+    "employee": "Bindiak Dana",
+    "department": "LG",
+    "status": "Available",
+    "task_status": "new",
+    "description": "Checked daily report files for all lead generation team members and corrected mistakes",
+    "section": "10:30-11:20 - Daily reports review",
+    "time": "10:30-11:20",
+    "date": "November 28, 2025",
+    "verb_form": "result",
+    "detected_verb": "checked",
+    "original_id": "TST-499",
+    "template_match": {
+      "template_id": "TST-074",
+      "template_name": "Process Daily Report Files for Entity Extraction and Consolidation",
+      "match_score": 46.2
+    }
+  },
+  {
+    "id": "RPT-060",
+    "employee": "Bindiak Dana",
+    "department": "LG",
+    "status": "Available",
+    "task_status": "new",
+    "description": "Highlighted Whisper Flow requirements and reminded the team to keep it active",
+    "section": "10:30-11:20 - Daily reports review",
+    "time": "10:30-11:20",
+    "date": "November 28, 2025",
+    "verb_form": "result",
+    "detected_verb": "highlighted",
+    "original_id": "TST-500",
+    "template_match": {
+      "template_id": "TST-042",
+      "template_name": "Setup Automated Interview Scheduling System",
+      "match_score": 25.0
+    }
+  },
+  {
+    "id": "RPT-061",
+    "employee": "Bindiak Dana",
+    "department": "LG",
+    "status": "Available",
+    "task_status": "new",
+    "description": "Team reminded about Whisper Flow usage and reporting standards",
+    "section": "10:30-11:20 - Daily reports review",
+    "time": "10:30-11:20",
+    "date": "November 28, 2025",
+    "verb_form": "result",
+    "detected_verb": "reminded",
+    "original_id": "TST-505",
+    "template_match": {
+      "template_id": "TST-041",
+      "template_name": "Build Notion ATS Database for Complete Recruitment Tracking",
+      "match_score": 22.2
+    }
+  },
+  {
+    "id": "RPT-062",
+    "employee": "Bindiak Dana",
+    "department": "LG",
+    "status": "Available",
+    "task_status": "new",
+    "description": "Guidance shared to improve future report quality",
+    "section": "10:30-11:20 - Daily reports review",
+    "time": "10:30-11:20",
+    "date": "November 28, 2025",
+    "verb_form": "result",
+    "detected_verb": "shared",
+    "original_id": "TST-506",
+    "template_match": {
+      "template_id": "TST-074",
+      "template_name": "Process Daily Report Files for Entity Extraction and Consolidation",
+      "match_score": 42.9
+    }
+  },
+  {
+    "id": "RPT-063",
+    "employee": "Bindiak Dana",
+    "department": "LG",
+    "status": "Available",
+    "task_status": "new",
+    "description": "Assigned additional LinkedIn accounts to lead generation managers for posting and reposting",
+    "section": "11:20-12:00 - Account allocation for posts",
+    "time": "11:20-12:00",
+    "date": "November 28, 2025",
+    "verb_form": "result",
+    "detected_verb": "assigned",
+    "original_id": "TST-508",
+    "template_match": {
+      "template_id": "TST-017",
+      "template_name": "Scrape LinkedIn Jobs for Intent-Based Leads",
+      "match_score": 41.7
+    }
+  },
+  {
+    "id": "RPT-064",
+    "employee": "Bindiak Dana",
+    "department": "LG",
+    "status": "Available",
+    "task_status": "new",
+    "description": "Confirmed each manager's capacity and matched accounts to their workflows",
+    "section": "11:20-12:00 - Account allocation for posts",
+    "time": "11:20-12:00",
+    "date": "November 28, 2025",
+    "verb_form": "result",
+    "detected_verb": "confirmed",
+    "original_id": "TST-509",
+    "template_match": {
+      "template_id": "TST-045",
+      "template_name": "Research AI Video Tools to Complete Missing Tool Documentation",
+      "match_score": 27.3
+    }
+  },
+  {
+    "id": "RPT-065",
+    "employee": "Bindiak Dana",
+    "department": "LG",
+    "status": "Available",
+    "task_status": "new",
+    "description": "Clarified posting expectations and timelines for the new allocations",
+    "section": "11:20-12:00 - Account allocation for posts",
+    "time": "11:20-12:00",
+    "date": "November 28, 2025",
+    "verb_form": "result",
+    "detected_verb": "clarified",
+    "original_id": "TST-510",
+    "template_match": {
+      "template_id": "TST-017",
+      "template_name": "Scrape LinkedIn Jobs for Intent-Based Leads",
+      "match_score": 33.3
+    }
+  },
+  {
+    "id": "RPT-066",
+    "employee": "Bindiak Dana",
+    "department": "LG",
+    "status": "Available",
+    "task_status": "new",
+    "description": "Extra accounts distributed to managers for LinkedIn activity",
+    "section": "11:20-12:00 - Account allocation for posts",
+    "time": "11:20-12:00",
+    "date": "November 28, 2025",
+    "verb_form": "result",
+    "detected_verb": "distributed",
+    "original_id": "TST-512",
+    "template_match": {
+      "template_id": "TST-017",
+      "template_name": "Scrape LinkedIn Jobs for Intent-Based Leads",
+      "match_score": 37.5
+    }
+  },
+  {
+    "id": "RPT-067",
+    "employee": "Bindiak Dana",
+    "department": "LG",
+    "status": "Available",
+    "task_status": "new",
+    "description": "Posting/reposting expectations aligned with team capacity",
+    "section": "11:20-12:00 - Account allocation for posts",
+    "time": "11:20-12:00",
+    "date": "November 28, 2025",
+    "verb_form": "result",
+    "detected_verb": "aligned",
+    "original_id": "TST-513",
+    "template_match": {
+      "template_id": "TST-041",
+      "template_name": "Build Notion ATS Database for Complete Recruitment Tracking",
+      "match_score": 28.6
+    }
+  },
+  {
+    "id": "RPT-068",
+    "employee": "Bindiak Dana",
+    "department": "LG",
+    "status": "Available",
+    "task_status": "new",
+    "description": "Recorded the session for future reference and onboarding",
+    "section": "12:00-13:00 - Design training session",
+    "time": "12:00-13:00",
+    "date": "November 28, 2025",
+    "verb_form": "result",
+    "detected_verb": "recorded",
+    "original_id": "TST-517",
+    "template_match": {
+      "template_id": "TST-039",
+      "template_name": "Setup n8n Automation for Automated CV Screening",
+      "match_score": 37.5
+    }
+  },
+  {
+    "id": "RPT-069",
+    "employee": "Bindiak Dana",
+    "department": "LG",
+    "status": "Available",
+    "task_status": "new",
+    "description": "Team learned image generation workflow with ChatGPT prompts",
+    "section": "12:00-13:00 - Design training session",
+    "time": "12:00-13:00",
+    "date": "November 28, 2025",
+    "verb_form": "result",
+    "detected_verb": "learned",
+    "original_id": "TST-519",
+    "template_match": {
+      "template_id": "TST-076",
+      "template_name": "Create Course Covers and Visual Materials with AI Tools",
+      "match_score": 50.0
+    }
+  },
+  {
+    "id": "RPT-070",
+    "employee": "Bindiak Dana",
+    "department": "LG",
+    "status": "Available",
+    "task_status": "new",
+    "description": "Handled organization tasks and contacted AI specialists to test a new method for messaging old connections",
+    "section": "13:00-14:00 - Coordination and outreach",
+    "time": "13:00-14:00",
+    "date": "November 28, 2025",
+    "verb_form": "result",
+    "detected_verb": "handled",
+    "original_id": "TST-522",
+    "template_match": {
+      "template_id": "TST-072",
+      "template_name": "Install and Configure IDE Tool for Development Team",
+      "match_score": 37.5
+    }
+  },
+  {
+    "id": "RPT-071",
+    "employee": "Bindiak Dana",
+    "department": "LG",
+    "status": "Available",
+    "task_status": "new",
+    "description": "Informed managers about the extra LinkedIn accounts assigned for posting",
+    "section": "13:00-14:00 - Coordination and outreach",
+    "time": "13:00-14:00",
+    "date": "November 28, 2025",
+    "verb_form": "result",
+    "detected_verb": "informed",
+    "original_id": "TST-523",
+    "template_match": {
+      "template_id": "TST-017",
+      "template_name": "Scrape LinkedIn Jobs for Intent-Based Leads",
+      "match_score": 30.0
+    }
+  },
+  {
+    "id": "RPT-072",
+    "employee": "Bindiak Dana",
+    "department": "LG",
+    "status": "Available",
+    "task_status": "new",
+    "description": "Coordinated with the sales manager about future support for the sales team",
+    "section": "13:00-14:00 - Coordination and outreach",
+    "time": "13:00-14:00",
+    "date": "November 28, 2025",
+    "verb_form": "result",
+    "detected_verb": "coordinated",
+    "original_id": "TST-524",
+    "template_match": {
+      "template_id": "TST-039",
+      "template_name": "Setup n8n Automation for Automated CV Screening",
+      "match_score": 30.0
+    }
+  },
+  {
+    "id": "RPT-073",
+    "employee": "Bindiak Dana",
+    "department": "LG",
+    "status": "Available",
+    "task_status": "new",
+    "description": "Planned an image-creation practice task for lead generation managers",
+    "section": "13:00-14:00 - Coordination and outreach",
+    "time": "13:00-14:00",
+    "date": "November 28, 2025",
+    "verb_form": "result",
+    "detected_verb": "planned",
+    "original_id": "TST-525",
+    "template_match": {
+      "template_id": "TST-045",
+      "template_name": "Research AI Video Tools to Complete Missing Tool Documentation",
+      "match_score": 30.0
+    }
+  },
+  {
+    "id": "RPT-074",
+    "employee": "Bindiak Dana",
+    "department": "LG",
+    "status": "Available",
+    "task_status": "new",
+    "description": "AI outreach initiated for messaging tests on old connections",
+    "section": "13:00-14:00 - Coordination and outreach",
+    "time": "13:00-14:00",
+    "date": "November 28, 2025",
+    "verb_form": "result",
+    "detected_verb": "initiated",
+    "original_id": "TST-527",
+    "template_match": {
+      "template_id": "TST-039",
+      "template_name": "Setup n8n Automation for Automated CV Screening",
+      "match_score": 33.3
+    }
+  },
+  {
+    "id": "RPT-075",
+    "employee": "Bindiak Dana",
+    "department": "LG",
+    "status": "Available",
+    "task_status": "new",
+    "description": "Managers updated on additional posting accounts",
+    "section": "13:00-14:00 - Coordination and outreach",
+    "time": "13:00-14:00",
+    "date": "November 28, 2025",
+    "verb_form": "result",
+    "detected_verb": "updated",
+    "original_id": "TST-528",
+    "template_match": {
+      "template_id": "TST-017",
+      "template_name": "Scrape LinkedIn Jobs for Intent-Based Leads",
+      "match_score": 33.3
+    }
+  },
+  {
+    "id": "RPT-076",
+    "employee": "Bindiak Dana",
+    "department": "LG",
+    "status": "Available",
+    "task_status": "new",
+    "description": "Sales support needs captured for upcoming assistance",
+    "section": "13:00-14:00 - Coordination and outreach",
+    "time": "13:00-14:00",
+    "date": "November 28, 2025",
+    "verb_form": "result",
+    "detected_verb": "captured",
+    "original_id": "TST-529",
+    "template_match": {
+      "template_id": "TST-078",
+      "template_name": "Prepare Client Interview Materials and Portfolio Presentation",
+      "match_score": 28.6
+    }
+  },
+  {
+    "id": "RPT-077",
+    "employee": "Bindiak Dana",
+    "department": "LG",
+    "status": "Available",
+    "task_status": "new",
+    "description": "Explained best practices for completing daily report files for lead generation managers",
+    "section": "15:00-15:30 - Dropbox and reporting guidance",
+    "time": "15:00-15:30",
+    "date": "November 28, 2025",
+    "verb_form": "result",
+    "detected_verb": "explained",
+    "original_id": "TST-533",
+    "template_match": {
+      "template_id": "TST-074",
+      "template_name": "Process Daily Report Files for Entity Extraction and Consolidation",
+      "match_score": 36.4
+    }
+  },
+  {
+    "id": "RPT-078",
+    "employee": "Bindiak Dana",
+    "department": "LG",
+    "status": "Available",
+    "task_status": "new",
+    "description": "Answered questions and clarified the required report details",
+    "section": "15:00-15:30 - Dropbox and reporting guidance",
+    "time": "15:00-15:30",
+    "date": "November 28, 2025",
+    "verb_form": "result",
+    "detected_verb": "clarified",
+    "original_id": "TST-534",
+    "template_match": {
+      "template_id": "TST-074",
+      "template_name": "Process Daily Report Files for Entity Extraction and Consolidation",
+      "match_score": 37.5
+    }
+  },
+  {
+    "id": "RPT-079",
+    "employee": "Bindiak Dana",
+    "department": "LG",
+    "status": "Available",
+    "task_status": "new",
+    "description": "Managers understood Dropbox usage and folder structure",
+    "section": "15:00-15:30 - Dropbox and reporting guidance",
+    "time": "15:00-15:30",
+    "date": "November 28, 2025",
+    "verb_form": "result",
+    "detected_verb": "understood",
+    "original_id": "TST-536",
+    "template_match": {
+      "template_id": "TST-024",
+      "template_name": "TST-024_Folder_Structure_Mapping.json",
+      "match_score": 28.6
+    }
+  },
+  {
+    "id": "RPT-080",
+    "employee": "Bindiak Dana",
+    "department": "LG",
+    "status": "Available",
+    "task_status": "new",
+    "description": "Discussed initial results from testing the new method for messaging old connections",
+    "section": "15:30-16:30 - Messaging test results",
+    "time": "15:30-16:30",
+    "date": "November 28, 2025",
+    "verb_form": "result",
+    "detected_verb": "discussed",
+    "original_id": "TST-539",
+    "template_match": {
+      "template_id": "TST-044",
+      "template_name": "Setup Automated Onboarding Workflow for New Hires",
+      "match_score": 25.0
+    }
+  },
+  {
+    "id": "RPT-081",
+    "employee": "Bindiak Dana",
+    "department": "LG",
+    "status": "Available",
+    "task_status": "new",
+    "description": "Outlined next adjustments to improve the messaging flow",
+    "section": "15:30-16:30 - Messaging test results",
+    "time": "15:30-16:30",
+    "date": "November 28, 2025",
+    "verb_form": "result",
+    "detected_verb": "outlined",
+    "original_id": "TST-541",
+    "template_match": {
+      "template_id": "TST-074",
+      "template_name": "Process Daily Report Files for Entity Extraction and Consolidation",
+      "match_score": 25.0
+    }
+  },
+  {
+    "id": "RPT-082",
+    "employee": "Bindiak Dana",
+    "department": "LG",
+    "status": "Available",
+    "task_status": "new",
+    "description": "Early findings documented for the new messaging approach",
+    "section": "15:30-16:30 - Messaging test results",
+    "time": "15:30-16:30",
+    "date": "November 28, 2025",
+    "verb_form": "result",
+    "detected_verb": "documented",
+    "original_id": "TST-543",
+    "template_match": {
+      "template_id": "TST-039",
+      "template_name": "Setup n8n Automation for Automated CV Screening",
+      "match_score": 25.0
+    }
+  },
+  {
+    "id": "RPT-083",
+    "employee": "Bindiak Dana",
+    "department": "LG",
+    "status": "Available",
+    "task_status": "new",
+    "description": "Action items captured to refine the test",
+    "section": "15:30-16:30 - Messaging test results",
+    "time": "15:30-16:30",
+    "date": "November 28, 2025",
+    "verb_form": "result",
+    "detected_verb": "captured",
+    "original_id": "TST-544",
+    "template_match": {
+      "template_id": "TST-074",
+      "template_name": "Process Daily Report Files for Entity Extraction and Consolidation",
+      "match_score": 28.6
+    }
+  },
+  {
+    "id": "RPT-084",
+    "employee": "Bindiak Dana",
+    "department": "LG",
+    "status": "Available",
+    "task_status": "new",
+    "description": "Posted Black Friday discount content across additional LinkedIn accounts",
+    "section": "16:30-17:00 - Black Friday posting",
+    "time": "16:30-17:00",
+    "date": "November 28, 2025",
+    "verb_form": "result",
+    "detected_verb": "posted",
+    "original_id": "TST-546",
+    "template_match": {
+      "template_id": "TST-043",
+      "template_name": "Configure LinkedIn Job Posting Automation",
+      "match_score": 22.2
+    }
+  },
+  {
+    "id": "RPT-085",
+    "employee": "Bindiak Dana",
+    "department": "LG",
+    "status": "Available",
+    "task_status": "new",
+    "description": "Ensured messaging matched the promotion guidelines and visuals",
+    "section": "16:30-17:00 - Black Friday posting",
+    "time": "16:30-17:00",
+    "date": "November 28, 2025",
+    "verb_form": "result",
+    "detected_verb": "ensured",
+    "original_id": "TST-547",
+    "template_match": {
+      "template_id": "TST-076",
+      "template_name": "Create Course Covers and Visual Materials with AI Tools",
+      "match_score": 37.5
+    }
+  },
+  {
+    "id": "RPT-086",
+    "employee": "Bindiak Dana",
+    "department": "LG",
+    "status": "Available",
+    "task_status": "new",
+    "description": "Verified posts went live and noted any accounts needing follow-up",
+    "section": "16:30-17:00 - Black Friday posting",
+    "time": "16:30-17:00",
+    "date": "November 28, 2025",
+    "verb_form": "result",
+    "detected_verb": "verified",
+    "original_id": "TST-548",
+    "template_match": {
+      "template_id": "TST-073",
+      "template_name": "Set Up Automation Infrastructure for Recurring Workflows",
+      "match_score": 27.3
+    }
+  },
+  {
+    "id": "RPT-087",
+    "employee": "Bindiak Dana",
+    "department": "LG",
+    "status": "Available",
+    "task_status": "new",
+    "description": "Black Friday posts published on extra LinkedIn accounts",
+    "section": "16:30-17:00 - Black Friday posting",
+    "time": "16:30-17:00",
+    "date": "November 28, 2025",
+    "verb_form": "result",
+    "detected_verb": "published",
+    "original_id": "TST-550",
+    "template_match": {
+      "template_id": "TST-017",
+      "template_name": "Scrape LinkedIn Jobs for Intent-Based Leads",
+      "match_score": 25.0
+    }
+  },
+  {
+    "id": "RPT-088",
+    "employee": "Bindiak Dana",
+    "department": "LG",
+    "status": "Available",
+    "task_status": "new",
+    "description": "Reviewed CRM cards for newcomers and provided feedback on their entries",
+    "section": "17:00-17:40 - Newcomer CRM review",
+    "time": "17:00-17:40",
+    "date": "November 28, 2025",
+    "verb_form": "result",
+    "detected_verb": "reviewed",
+    "original_id": "TST-553",
+    "template_match": {
+      "template_id": "TST-080",
+      "template_name": "Generate and Qualify Leads for Sales Pipeline",
+      "match_score": 36.4
+    }
+  },
+  {
+    "id": "RPT-089",
+    "employee": "Bindiak Dana",
+    "department": "LG",
+    "status": "Available",
+    "task_status": "new",
+    "description": "Filled out the working process table with updated status and notes",
+    "section": "17:00-17:40 - Newcomer CRM review",
+    "time": "17:00-17:40",
+    "date": "November 28, 2025",
+    "verb_form": "result",
+    "detected_verb": "filled",
+    "original_id": "TST-554",
+    "template_match": {
+      "template_id": "TST-039",
+      "template_name": "Setup n8n Automation for Automated CV Screening",
+      "match_score": 27.3
+    }
+  },
+  {
+    "id": "RPT-090",
+    "employee": "Bindiak Dana",
+    "department": "LG",
+    "status": "Available",
+    "task_status": "new",
+    "description": "Highlighted corrections and next steps for each newcomer",
+    "section": "17:00-17:40 - Newcomer CRM review",
+    "time": "17:00-17:40",
+    "date": "November 28, 2025",
+    "verb_form": "result",
+    "detected_verb": "highlighted",
+    "original_id": "TST-555",
+    "template_match": {
+      "template_id": "TST-011",
+      "template_name": "Enable Claude Skills Feature",
+      "match_score": 25.0
+    }
+  },
+  {
+    "id": "RPT-091",
+    "employee": "Bindiak Dana",
+    "department": "LG",
+    "status": "Available",
+    "task_status": "new",
+    "description": "CRM cards reviewed and improved for newcomers",
+    "section": "17:00-17:40 - Newcomer CRM review",
+    "time": "17:00-17:40",
+    "date": "November 28, 2025",
+    "verb_form": "result",
+    "detected_verb": "reviewed",
+    "original_id": "TST-557",
+    "template_match": {
+      "template_id": "TST-041",
+      "template_name": "Build Notion ATS Database for Complete Recruitment Tracking",
+      "match_score": 42.9
+    }
+  },
+  {
+    "id": "RPT-092",
+    "employee": "Bindiak Dana",
+    "department": "LG",
+    "status": "Available",
+    "task_status": "new",
+    "description": "Action points shared with newcomers for follow-up",
+    "section": "17:00-17:40 - Newcomer CRM review",
+    "time": "17:00-17:40",
+    "date": "November 28, 2025",
+    "verb_form": "result",
+    "detected_verb": "shared",
+    "original_id": "TST-559",
+    "template_match": {
+      "template_id": "TST-072",
+      "template_name": "Install and Configure IDE Tool for Development Team",
+      "match_score": 37.5
+    }
+  },
+  {
+    "id": "RPT-093",
+    "employee": "Cynthia Aninwezi",
+    "department": "LG",
+    "status": "Available",
+    "task_status": "new",
+    "description": "Reviewed all working 8 accounts to identify new connections",
+    "section": "Morning - [Send messages to leads, Job sites, black friday posts]",
+    "time": null,
+    "date": "November 28, 2025",
+    "verb_form": "result",
+    "detected_verb": "reviewed",
+    "original_id": "TST-569",
+    "template_match": {
+      "template_id": "TST-044",
+      "template_name": "Setup Automated Onboarding Workflow for New Hires",
+      "match_score": 33.3
+    }
+  },
+  {
+    "id": "RPT-094",
+    "employee": "Cynthia Aninwezi",
+    "department": "LG",
+    "status": "Available",
+    "task_status": "new",
+    "description": "Sent first message to all connected leads, send follow up mesages to leads that were due for follow up",
+    "section": "Morning - [Send messages to leads, Job sites, black friday posts]",
+    "time": null,
+    "date": "November 28, 2025",
+    "verb_form": "result",
+    "detected_verb": "sent",
+    "original_id": "TST-570",
+    "template_match": {
+      "template_id": "TST-021",
+      "template_name": "Send Follow-up Email to old clients",
+      "match_score": 26.7
+    }
+  },
+  {
+    "id": "RPT-095",
+    "employee": "Cynthia Aninwezi",
+    "department": "LG",
+    "status": "Available",
+    "task_status": "new",
+    "description": "Updated CRM status",
+    "section": "Morning - [Send messages to leads, Job sites, black friday posts]",
+    "time": null,
+    "date": "November 28, 2025",
+    "verb_form": "result",
+    "detected_verb": "updated",
+    "original_id": "TST-571",
+    "template_match": {
+      "template_id": "TST-022",
+      "template_name": "Automate Post-Meeting Workflow via Stacked Connectors",
+      "match_score": 33.3
+    }
+  },
+  {
+    "id": "RPT-097",
+    "employee": "Cynthia Aninwezi",
+    "department": "LG",
+    "status": "Available",
+    "task_status": "new",
+    "description": "Sent connection requests to relevant leads attached to each company",
+    "section": "Morning - [Send messages to leads, Job sites, black friday posts]",
+    "time": null,
+    "date": "November 28, 2025",
+    "verb_form": "result",
+    "detected_verb": "sent",
+    "original_id": "TST-573",
+    "template_match": {
+      "template_id": "TST-017",
+      "template_name": "Scrape LinkedIn Jobs for Intent-Based Leads",
+      "match_score": 33.3
+    }
+  },
+  {
+    "id": "RPT-098",
+    "employee": "Cynthia Aninwezi",
+    "department": "LG",
+    "status": "Available",
+    "task_status": "new",
+    "description": "Updated job sites spreadsheet with relevant informations attached to each job site.",
+    "section": "Morning - [Send messages to leads, Job sites, black friday posts]",
+    "time": null,
+    "date": "November 28, 2025",
+    "verb_form": "result",
+    "detected_verb": "updated",
+    "original_id": "TST-574",
+    "template_match": {
+      "template_id": "TST-005",
+      "template_name": "Automate Morning Email Drafts",
+      "match_score": 27.3
+    }
+  },
+  {
+    "id": "RPT-100",
+    "employee": "Cynthia Aninwezi",
+    "department": "LG",
+    "status": "Available",
+    "task_status": "new",
+    "description": "10 messages sent to leads (5 follow up messages), (5 first messages)",
+    "section": "Morning - [Send messages to leads, Job sites, black friday posts]",
+    "time": null,
+    "date": "November 28, 2025",
+    "verb_form": "result",
+    "detected_verb": "sent",
+    "original_id": "TST-577",
+    "template_match": {
+      "template_id": "TST-021",
+      "template_name": "Send Follow-up Email to old clients",
+      "match_score": 33.3
+    }
+  },
+  {
+    "id": "RPT-101",
+    "employee": "Cynthia Aninwezi",
+    "department": "LG",
+    "status": "Available",
+    "task_status": "new",
+    "description": "15 job sites processed",
+    "section": "Morning - [Send messages to leads, Job sites, black friday posts]",
+    "time": null,
+    "date": "November 28, 2025",
+    "verb_form": "result",
+    "detected_verb": "processed",
+    "original_id": "TST-578",
+    "template_match": {
+      "template_id": "TST-006",
+      "template_name": "Enrich Emails via Bright Data",
+      "match_score": 25.0
+    }
+  },
+  {
+    "id": "RPT-102",
+    "employee": "Cynthia Aninwezi",
+    "department": "LG",
+    "status": "Available",
+    "task_status": "new",
+    "description": "11 job sites added to CRM",
+    "section": "Morning - [Send messages to leads, Job sites, black friday posts]",
+    "time": null,
+    "date": "November 28, 2025",
+    "verb_form": "result",
+    "detected_verb": "added",
+    "original_id": "TST-579",
+    "template_match": {
+      "template_id": "TST-017",
+      "template_name": "Scrape LinkedIn Jobs for Intent-Based Leads",
+      "match_score": 33.3
+    }
+  },
+  {
+    "id": "RPT-103",
+    "employee": "Cynthia Aninwezi",
+    "department": "LG",
+    "status": "Available",
+    "task_status": "new",
+    "description": "20 connection requests sent to leads",
+    "section": "Morning - [Send messages to leads, Job sites, black friday posts]",
+    "time": null,
+    "date": "November 28, 2025",
+    "verb_form": "result",
+    "detected_verb": "sent",
+    "original_id": "TST-580",
+    "template_match": {
+      "template_id": "TST-017",
+      "template_name": "Scrape LinkedIn Jobs for Intent-Based Leads",
+      "match_score": 50.0
+    }
+  },
+  {
+    "id": "RPT-104",
+    "employee": "Cynthia Aninwezi",
+    "department": "LG",
+    "status": "Available",
+    "task_status": "new",
+    "description": "2 black friday posts made in each new account",
+    "section": "Morning - [Send messages to leads, Job sites, black friday posts]",
+    "time": null,
+    "date": "November 28, 2025",
+    "verb_form": "result",
+    "detected_verb": "made",
+    "original_id": "TST-581",
+    "template_match": {
+      "template_id": "TST-009",
+      "template_name": "Build Custom Niche Platform Scraper",
+      "match_score": 22.2
+    }
+  },
+  {
+    "id": "RPT-105",
+    "employee": "Cynthia Aninwezi",
+    "department": "LG",
+    "status": "Available",
+    "task_status": "new",
+    "description": "Added new companies and their relevant leads into the CRM using google scrape",
+    "section": "Day - [Graphic design session,Add new companies using google scape,]",
+    "time": null,
+    "date": "November 28, 2025",
+    "verb_form": "result",
+    "detected_verb": "added",
+    "original_id": "TST-584",
+    "template_match": {
+      "template_id": "TST-017",
+      "template_name": "Scrape LinkedIn Jobs for Intent-Based Leads",
+      "match_score": 38.5
+    }
+  },
+  {
+    "id": "RPT-107",
+    "employee": "Cynthia Aninwezi",
+    "department": "LG",
+    "status": "Available",
+    "task_status": "new",
+    "description": "43 connection requests sent",
+    "section": "Day - [Graphic design session,Add new companies using google scape,]",
+    "time": null,
+    "date": "November 28, 2025",
+    "verb_form": "result",
+    "detected_verb": "sent",
+    "original_id": "TST-587",
+    "template_match": {
+      "template_id": "TST-009",
+      "template_name": "Build Custom Niche Platform Scraper",
+      "match_score": 25.0
+    }
+  }
+]

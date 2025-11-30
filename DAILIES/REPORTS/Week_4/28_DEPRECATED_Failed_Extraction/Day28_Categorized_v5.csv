@@ -1,0 +1,563 @@
+New_ID,Original_ID,Category,Verb_Form,Detected_Verb,Task_Name,Employee,Department,Status,Template_Match,Match_Score,Description
+TSK-001,TST-001,Task (Matched),unknown,,*Priority:** 🟡 Medium,Artemchuk Nikolay,AI,new,TST-047,50.0%,*Priority:** 🟡 Medium
+TSK-004,TST-004,Task (Matched),unknown,,*Status:**  New (Daily recurring),Artemchuk Nikolay,AI,new,TST-041,25.0%,*Status:**  New (Daily recurring)
+TSK-005,TST-005,Task (Matched),unknown,,*Depends On:** Employee requests,Artemchuk Nikolay,AI,new,TST-044,50.0%,*Depends On:** Employee requests
+TSK-011,TST-014,Task (Matched),unknown,,"""Which AI tool should I use for X task?""",Artemchuk Nikolay,AI,new,TST-045,44.4%,"""Which AI tool should I use for X task?"""
+TSK-015,TST-018,Task (Matched),base,respond,Respond to direct messages about AI tools,Artemchuk Nikolay,AI,new,TST-045,42.9%,Respond to direct messages about AI tools
+TSK-016,TST-020,Task (Matched),base,guide,Guide on when to use which tool (Cursor vs Antigravity vs Cl...,Artemchuk Nikolay,AI,new,TST-072,36.4%,Guide on when to use which tool (Cursor vs Antigravity vs Claude)
+TSK-017,TST-022,Task (Matched),unknown,,*Success Criteria:**,Artemchuk Nikolay,AI,new,TST-003,50.0%,*Success Criteria:**
+TSK-018,TST-023,Task (Matched),unknown,,All support requests answered within 2 hours,Artemchuk Nikolay,AI,new,TST-009,42.9%,All support requests answered within 2 hours
+TSK-019,TST-024,Task (Matched),unknown,,Employees unblocked on AI tool usage,Artemchuk Nikolay,AI,new,TST-048,66.7%,Employees unblocked on AI tool usage
+TSK-020,TST-026,Task (Matched),unknown,,*Definition of Done:**,Artemchuk Nikolay,AI,new,TST-019,33.3%,*Definition of Done:**
+TSK-021,TST-030,Task (Matched),unknown,,*What I worked on:**,Perederii Vladislav,AI,new,TST-017,25.0%,*What I worked on:**
+TSK-023,TST-033,Task (Matched),process,processing,The processing of the massive 70k+ vacancy batch is actively...,Perederii Vladislav,AI,new,TST-074,31.2%,"The processing of the massive 70k+ vacancy batch is actively progressing, turning raw data into usable leads."
+TSK-025,TST-035,Task (Matched),unknown,,*What I worked on:**,Perederii Vladislav,AI,new,TST-017,25.0%,*What I worked on:**
+TSK-030,TST-040,Task (Matched),process,processing,The processing of 70k vacancies is a long-running task; need...,Perederii Vladislav,AI,new,TST-074,29.4%,The processing of 70k vacancies is a long-running task; need to check its status periodically tomorrow.
+TSK-031,TST-043,Task (Matched),unknown,,*What I worked on:**,Skrypkar Vilhelm,Design,new,TST-017,25.0%,*What I worked on:**
+TSK-033,TST-045,Task (Matched),unknown,,*What I worked on:**,Skrypkar Vilhelm,Design,new,TST-017,25.0%,*What I worked on:**
+TSK-035,TST-047,Task (Matched),base,engineer,AI Engineer mascot (shark),Skrypkar Vilhelm,Design,new,TST-010,25.0%,AI Engineer mascot (shark)
+TSK-036,TST-048,Task (Matched),unknown,,Project Manager mascot (tiger),Skrypkar Vilhelm,Design,new,TST-038,25.0%,Project Manager mascot (tiger)
+TSK-037,TST-049,Task (Matched),base,lead,Lead Generator mascot (wolf),Skrypkar Vilhelm,Design,new,TST-003,25.0%,Lead Generator mascot (wolf)
+TSK-039,TST-051,Task (Matched),unknown,,HR mascot (polar bear),Skrypkar Vilhelm,Design,new,TST-039,25.0%,HR mascot (polar bear)
+TSK-041,TST-053,Task (Matched),unknown,,Sales mascot (puma),Skrypkar Vilhelm,Design,new,TST-018,33.3%,Sales mascot (puma)
+TSK-043,TST-055,Task (Matched),unknown,,Full Stack Developer mascot (needs to be developed),Skrypkar Vilhelm,Design,new,TST-004,37.5%,Full Stack Developer mascot (needs to be developed)
+TSK-044,TST-056,Task (Matched),unknown,,Backend Developer mascot (needs to be developed),Skrypkar Vilhelm,Design,new,TST-079,28.6%,Backend Developer mascot (needs to be developed)
+TSK-045,TST-057,Task (Matched),unknown,,Frontend Developer mascot (needs to be developed),Skrypkar Vilhelm,Design,new,TST-079,28.6%,Frontend Developer mascot (needs to be developed)
+TSK-047,TST-059,Task (Matched),unknown,,Developers (praying mantis),Skrypkar Vilhelm,Design,new,TST-072,33.3%,Developers (praying mantis)
+TSK-048,TST-063,Task (Matched),base,design,Design (Hummingbird),Skrypkar Vilhelm,Design,new,TST-068,50.0%,Design (Hummingbird)
+TSK-049,TST-064,Task (Matched),base,format,png or svg format,Skrypkar Vilhelm,Design,new,TST-025,25.0%,png or svg format
+TSK-052,TST-068,Task (Matched),unknown,,*What I worked on:**,Artem Skichko,Dev,new,TST-017,25.0%,*What I worked on:**
+TSK-055,TST-071,Task (Matched),base,receive,Receive and test login credentials,Artem Skichko,Dev,completed,TST-072,40.0%,Receive and test login credentials
+TSK-057,TST-073,Task (Matched),base,log,Log into Strapi,Artem Skichko,Dev,completed,TST-037,33.3%,Log into Strapi
+TSK-058,TST-074,Task (Matched),base,check,Check existing media organization,Artem Skichko,Dev,completed,TST-028,25.0%,Check existing media organization
+TSK-059,TST-075,Task (Matched),base,identify,Identify what needs to be updated/added,Artem Skichko,Dev,completed,TST-017,28.6%,Identify what needs to be updated/added
+TSK-060,TST-076,Task (Matched),base,take,Take notes on file naming conventions,Artem Skichko,Dev,completed,TST-026,50.0%,Take notes on file naming conventions
+TSK-061,TST-077,Task (Matched),base,understand,Understand folder structure,Artem Skichko,Dev,completed,TST-024,33.3%,Understand folder structure
+TSK-074,TST-090,Task (Matched),base,make,make responsive design,Artem Skichko,Dev,new,TST-081,66.7%,make responsive design
+TSK-079,TST-096,Task (Matched),unknown,,*What I worked on:**,Artem Skichko,Dev,new,TST-017,25.0%,*What I worked on:**
+TSK-080,TST-098,Task (Matched),unknown,,*What I worked on:**,Artem Skichko,Dev,new,TST-017,25.0%,*What I worked on:**
+TSK-087,TST-106,Task (Matched),unknown,,*What I worked on:**,Artem Skichko,Dev,new,TST-017,25.0%,*What I worked on:**
+TSK-127,TST-152,Task (Matched),unknown,,*What I worked on:**,Danylenko Liliia,Dev,new,TST-017,25.0%,*What I worked on:**
+TSK-131,TST-156,Task (Matched),base,export,Визначено стратегію: Export → AI Processing → Import workflo...,Danylenko Liliia,Dev,new,TST-039,42.9%,Визначено стратегію: Export → AI Processing → Import workflow
+TSK-134,TST-159,Task (Matched),unknown,,*What I worked on:**,Danylenko Liliia,Dev,new,TST-017,25.0%,*What I worked on:**
+TSK-139,TST-165,Task (Matched),unknown,,*What I worked on:**,Danylenko Liliia,Dev,new,TST-017,25.0%,*What I worked on:**
+TSK-144,TST-171,Task (Matched),unknown,,Оновити через Claude AI,Danylenko Liliia,Dev,new,TST-010,25.0%,Оновити через Claude AI
+TSK-147,TST-174,Task (Matched),base,download,Узгоджено workflow: Download → Update → Upload back,Danylenko Liliia,Dev,new,TST-022,33.3%,Узгоджено workflow: Download → Update → Upload back
+TSK-148,TST-175,Task (Matched),unknown,,Визначено scope роботи,Danylenko Liliia,Dev,new,TST-068,33.3%,Визначено scope роботи
+TSK-149,TST-176,Task (Matched),unknown,,*Time:** 10:00 - 12:00,Danylenko Liliia,Dev,new,TST-006,25.0%,*Time:** 10:00 - 12:00
+TSK-150,TST-177,Task (Matched),unknown,,*What I worked on:**,Danylenko Liliia,Dev,new,TST-017,25.0%,*What I worked on:**
+TSK-151,TST-178,Task (Matched),unknown,,"Написання повного технічного гайду ""Strapi AI Automation Gui...",Danylenko Liliia,Dev,new,TST-039,25.0%,"Написання повного технічного гайду ""Strapi AI Automation Guide"""
+TSK-152,TST-179,Task (Matched),unknown,,Документування Export/Import workflow,Danylenko Liliia,Dev,new,TST-022,25.0%,Документування Export/Import workflow
+TSK-156,TST-183,Task (Matched),base,process,Process Overview,Danylenko Liliia,Dev,new,TST-043,50.0%,Process Overview
+TSK-157,TST-184,Task (Matched),unknown,,Preparation steps,Danylenko Liliia,Dev,new,TST-078,50.0%,Preparation steps
+TSK-159,TST-186,Task (Matched),base,update,AI update scripts (OpenAI integration),Danylenko Liliia,Dev,new,TST-039,40.0%,AI update scripts (OpenAI integration)
+TSK-161,TST-188,Task (Matched),process,tracking,Progress tracking table (CSV),Danylenko Liliia,Dev,new,TST-041,25.0%,Progress tracking table (CSV)
+TSK-165,TST-193,Task (Matched),unknown,,*What I worked on:**,Danylenko Liliia,Dev,new,TST-017,25.0%,*What I worked on:**
+TSK-169,TST-198,Task (Matched),unknown,,*Key Technical Points:**,Danylenko Liliia,Dev,new,TST-078,66.7%,*Key Technical Points:**
+TSK-170,TST-199,Task (Matched),unknown,,Strapi API endpoints структура,Danylenko Liliia,Dev,new,TST-046,25.0%,Strapi API endpoints структура
+TSK-171,TST-200,Task (Matched),unknown,,Single Types vs Collection Types,Danylenko Liliia,Dev,new,TST-010,25.0%,Single Types vs Collection Types
+TSK-173,TST-202,Task (Matched),unknown,,API токени та аутентифікація,Danylenko Liliia,Dev,new,TST-046,25.0%,API токени та аутентифікація
+TSK-175,TST-204,Task (Matched),unknown,,Структура папок: exported/[entity]/[locale].json,Danylenko Liliia,Dev,new,TST-023,33.3%,Структура папок: exported/[entity]/[locale].json
+TSK-176,TST-205,Task (Matched),unknown,,Команда розуміє технічний workflow,Danylenko Liliia,Dev,new,TST-022,25.0%,Команда розуміє технічний workflow
+TSK-180,TST-209,Task (Matched),unknown,,*Time:** ~13:00 - 13:30,Danylenko Liliia,Dev,new,TST-004,25.0%,*Time:** ~13:00 - 13:30
+TSK-181,TST-210,Task (Matched),unknown,,*What I worked on:**,Danylenko Liliia,Dev,new,TST-017,25.0%,*What I worked on:**
+TSK-184,TST-213,Task (Matched),unknown,,HR/Recruiters: Manually unpublish неактуальні вакансії (draf...,Danylenko Liliia,Dev,new,TST-039,25.0%,HR/Recruiters: Manually unpublish неактуальні вакансії (draft state)
+TSK-188,TST-217,Task (Matched),unknown,,*What I worked on:**,Danylenko Liliia,Dev,new,TST-017,25.0%,*What I worked on:**
+TSK-193,TST-222,Task (Matched),base,code,Code review completed,Danylenko Liliia,Dev,new,TST-005,33.3%,Code review completed
+TSK-195,TST-224,Task (Matched),unknown,,*Time:** 15:30 - 16:30,Danylenko Liliia,Dev,new,TST-004,25.0%,*Time:** 15:30 - 16:30
+TSK-196,TST-225,Task (Matched),unknown,,*What I worked on:**,Danylenko Liliia,Dev,new,TST-017,25.0%,*What I worked on:**
+TSK-197,TST-226,Task (Matched),unknown,,"Аналіз всіх тасок по тижнях (Week 1-4, всі дні)",Danylenko Liliia,Dev,new,TST-022,30.0%,"Аналіз всіх тасок по тижнях (Week 1-4, всі дні)"
+TSK-199,TST-228,Task (Matched),unknown,,В процесі (in progress),Danylenko Liliia,Dev,new,TST-009,25.0%,В процесі (in progress)
+TSK-200,TST-229,Task (Matched),base,hold,На паузі (on hold),Danylenko Liliia,Dev,new,TST-017,25.0%,На паузі (on hold)
+TSK-206,TST-235,Task (Matched),unknown,,*Time:** 15:40 - 16:40,Danylenko Liliia,Dev,new,TST-004,25.0%,*Time:** 15:40 - 16:40
+TSK-207,TST-236,Task (Matched),unknown,,*What I worked on:**,Danylenko Liliia,Dev,new,TST-017,25.0%,*What I worked on:**
+TSK-208,TST-237,Task (Matched),unknown,,Піднімали REM-S проект,Danylenko Liliia,Dev,new,TST-003,25.0%,Піднімали REM-S проект
+TSK-211,TST-240,Task (Matched),unknown,,REM-S проект піднято,Danylenko Liliia,Dev,completed,TST-003,25.0%,REM-S проект піднято
+TSK-213,TST-243,Task (Matched),unknown,,*Time:** TBD Evening,Danylenko Liliia,Dev,new,TST-045,33.3%,*Time:** TBD Evening
+TSK-218,TST-248,Task (Matched),unknown,,*Status:** PENDING,Danylenko Liliia,Dev,new,TST-041,50.0%,*Status:** PENDING
+TSK-222,TST-252,Task (Matched),unknown,,*Status:** PENDING,Danylenko Liliia,Dev,new,TST-041,50.0%,*Status:** PENDING
+TSK-224,TST-254,Task (Matched),unknown,,Дослідження Strapi workflow рішень,Danylenko Liliia,Dev,new,TST-022,25.0%,Дослідження Strapi workflow рішень
+TSK-226,TST-256,Task (Matched),unknown,,"Створено повний ""Strapi AI Automation Guide"" (45+ секцій)",Danylenko Liliia,Dev,new,TST-039,25.0%,"Створено повний ""Strapi AI Automation Guide"" (45+ секцій)"
+TSK-234,TST-264,Task (Matched),unknown,,Аналіз всіх тасок Week 1-4,Danylenko Liliia,Dev,new,TST-022,50.0%,Аналіз всіх тасок Week 1-4
+TSK-237,TST-268,Task (Matched),unknown,,Налаштовано структуру для workflow,Danylenko Liliia,Dev,new,TST-022,25.0%,Налаштовано структуру для workflow
+TSK-240,TST-277,Task (Matched),unknown,,Рішення: HR manually unpublish неактуальні (швидше ніж писат...,Danylenko Liliia,Dev,completed,TST-039,22.2%,Рішення: HR manually unpublish неактуальні (швидше ніж писати скрипт)
+TSK-243,TST-284,Task (Matched),unknown,,*Development:**,Danylenko Liliia,Dev,new,TST-047,100.0%,*Development:**
+TSK-246,TST-287,Task (Matched),unknown,,dotenv - environment variables management,Danylenko Liliia,Dev,new,TST-030,25.0%,dotenv - environment variables management
+TSK-247,TST-288,Task (Matched),unknown,,*Documentation:**,Danylenko Liliia,Dev,new,TST-031,100.0%,*Documentation:**
+TSK-248,TST-289,Task (Matched),unknown,,Markdown - для Strapi AI Automation Guide,Danylenko Liliia,Dev,new,TST-039,33.3%,Markdown - для Strapi AI Automation Guide
+TSK-249,TST-290,Task (Matched),base,code,VS Code - редагування документації,Danylenko Liliia,Dev,new,TST-010,50.0%,VS Code - редагування документації
+TSK-254,TST-295,Task (Matched),unknown,,*Project Management:**,Danylenko Liliia,Dev,new,TST-038,50.0%,*Project Management:**
+TSK-255,TST-296,Task (Matched),process,tracking,Notion - task tracking,Danylenko Liliia,Dev,new,TST-041,66.7%,Notion - task tracking
+TSK-257,TST-298,Task (Matched),unknown,,Daily.md / TODO.md files - особистий task tracking,Danylenko Liliia,Dev,new,TST-074,57.1%,Daily.md / TODO.md files - особистий task tracking
+TSK-258,TST-299,Task (Matched),unknown,,*Infrastructure:**,Danylenko Liliia,Dev,new,TST-073,100.0%,*Infrastructure:**
+TSK-261,TST-302,Task (Matched),unknown,,*HIGH PRIORITY:**,Danylenko Liliia,Dev,new,TST-047,50.0%,*HIGH PRIORITY:**
+TSK-262,TST-303,Task (Matched),unknown,,*MEDIUM PRIORITY:**,Danylenko Liliia,Dev,new,TST-047,50.0%,*MEDIUM PRIORITY:**
+TSK-263,TST-304,Task (Matched),unknown,,*LOW PRIORITY:**,Danylenko Liliia,Dev,new,TST-047,100.0%,*LOW PRIORITY:**
+TSK-269,TST-311,Task (Matched),unknown,,*What I worked on:**,Makovska Anna,Dev,new,TST-017,25.0%,*What I worked on:**
+TSK-270,TST-316,Task (Matched),unknown,,*Technical Details:**,Makovska Anna,Dev,new,TST-079,50.0%,*Technical Details:**
+TSK-271,TST-317,Task (Matched),base,list,Function skips list files (`-list.json`) and hidden files (`...,Makovska Anna,Dev,new,TST-023,37.5%,Function skips list files (`-list.json`) and hidden files (`.snapshot.json`)
+TSK-272,TST-318,Task (Matched),base,structure,Maintains exact folder structure from exported to updated,Makovska Anna,Dev,new,TST-043,25.0%,Maintains exact folder structure from exported to updated
+TSK-273,TST-319,Task (Matched),unknown,,Provides statistics on copied files,Makovska Anna,Dev,new,TST-045,40.0%,Provides statistics on copied files
+TSK-275,TST-321,Task (Matched),unknown,,Content makers now have data automatically available in `upd...,Makovska Anna,Dev,completed,TST-080,25.0%,Content makers now have data automatically available in `updated/collections/` for editing
+TSK-277,TST-324,Task (Matched),unknown,,*What I worked on:**,Makovska Anna,Dev,new,TST-017,25.0%,*What I worked on:**
+TSK-278,TST-330,Task (Matched),base,post,New files → POST requests,Makovska Anna,Dev,new,TST-009,25.0%,New files → POST requests
+TSK-281,TST-336,Task (Matched),unknown,,`skills` → `skill`,Makovska Anna,Dev,new,TST-011,50.0%,`skills` → `skill`
+TSK-282,TST-337,Task (Matched),unknown,,`form-users` → `form-user`,Makovska Anna,Dev,new,TST-072,33.3%,`form-users` → `form-user`
+TSK-283,TST-338,Task (Matched),unknown,,*Technical Details:**,Makovska Anna,Dev,new,TST-079,50.0%,*Technical Details:**
+TSK-284,TST-339,Task (Matched),process,limiting,Rate limiting: 800ms between requests,Makovska Anna,Dev,new,TST-009,40.0%,Rate limiting: 800ms between requests
+TSK-285,TST-340,Task (Matched),unknown,,Batch size: 10 files,Makovska Anna,Dev,new,TST-046,50.0%,Batch size: 10 files
+TSK-286,TST-341,Task (Matched),unknown,,Max retries: 3 attempts with exponential backoff,Makovska Anna,Dev,new,TST-048,28.6%,Max retries: 3 attempts with exponential backoff
+TSK-288,TST-346,Task (Matched),base,correct,Correct API endpoints for all collections,Makovska Anna,Dev,completed,TST-045,33.3%,Correct API endpoints for all collections
+TSK-289,TST-347,Task (Matched),unknown,,Smart change detection and appropriate HTTP methods,Makovska Anna,Dev,completed,TST-073,28.6%,Smart change detection and appropriate HTTP methods
+TSK-290,TST-348,Task (Matched),unknown,,*What I worked on:**,Makovska Anna,Dev,new,TST-017,25.0%,*What I worked on:**
+TSK-292,TST-352,Task (Matched),process,starting,Hidden files (starting with `.`) are ignored,Makovska Anna,Dev,new,TST-028,33.3%,Hidden files (starting with `.`) are ignored
+TSK-294,TST-356,Task (Matched),unknown,,*Technical Details:**,Makovska Anna,Dev,new,TST-079,50.0%,*Technical Details:**
+TSK-295,TST-357,Task (Matched),base,start,"Files must start with number_ID_ pattern (e.g., `1432_polish...",Makovska Anna,Dev,new,TST-028,27.3%,"Files must start with number_ID_ pattern (e.g., `1432_polish-translator.json`)"
+TSK-297,TST-359,Task (Matched),process,checking,Path checking ensures files in `template/` subdirectories ar...,Makovska Anna,Dev,new,TST-077,22.2%,Path checking ensures files in `template/` subdirectories are ignored
+TSK-300,TST-363,Task (Matched),base,structure,Clean project structure maintained,Makovska Anna,Dev,completed,TST-038,25.0%,Clean project structure maintained
+TSK-301,TST-364,Task (Matched),unknown,,*What I worked on:**,Makovska Anna,Dev,new,TST-017,25.0%,*What I worked on:**
+TSK-302,TST-367,Task (Matched),unknown,,Scans all files in collection folder,Makovska Anna,Dev,new,TST-023,33.3%,Scans all files in collection folder
+TSK-306,TST-372,Task (Matched),unknown,,Includes relative paths for reference,Makovska Anna,Dev,new,TST-040,40.0%,Includes relative paths for reference
+TSK-307,TST-373,Task (Matched),base,sync,Timestamped with sync date,Makovska Anna,Dev,new,TST-003,25.0%,Timestamped with sync date
+TSK-308,TST-374,Task (Matched),unknown,,*Technical Details:**,Makovska Anna,Dev,new,TST-079,50.0%,*Technical Details:**
+TSK-309,TST-375,Task (Matched),unknown,,Groups changes by collection and locale,Makovska Anna,Dev,new,TST-023,33.3%,Groups changes by collection and locale
+TSK-310,TST-376,Task (Matched),base,file,"Reads file metadata to extract title, slug, dates",Makovska Anna,Dev,new,TST-017,25.0%,"Reads file metadata to extract title, slug, dates"
+TSK-311,TST-377,Task (Matched),unknown,,Sorts items by ID for consistency,Makovska Anna,Dev,new,TST-047,33.3%,Sorts items by ID for consistency
+TSK-312,TST-378,Task (Matched),base,list,Creates both full list and changed list files,Makovska Anna,Dev,new,TST-004,28.6%,Creates both full list and changed list files
+TSK-314,TST-381,Task (Matched),process,tracking,Separate tracking of changed items for reference,Makovska Anna,Dev,completed,TST-041,42.9%,Separate tracking of changed items for reference
+TSK-316,TST-383,Task (Matched),unknown,,*What I worked on:**,Makovska Anna,Dev,new,TST-017,25.0%,*What I worked on:**
+TSK-320,TST-389,Task (Matched),base,file,File filtering information,Makovska Anna,Dev,new,TST-015,33.3%,File filtering information
+TSK-322,TST-394,Task (Matched),unknown,,*Technical Details:**,Makovska Anna,Dev,new,TST-079,50.0%,*Technical Details:**
+TSK-323,TST-396,Task (Matched),unknown,,Step-by-step instructions with commands,Makovska Anna,Dev,new,TST-047,40.0%,Step-by-step instructions with commands
+TSK-324,TST-397,Task (Matched),base,structure,Clear examples and visual structure,Makovska Anna,Dev,new,TST-075,40.0%,Clear examples and visual structure
+TSK-325,TST-399,Task (Matched),base,understand,Non-technical users can understand and use the script,Makovska Anna,Dev,completed,TST-015,22.2%,Non-technical users can understand and use the script
+TSK-327,TST-402,Task (Matched),process,limiting,Rate limiting is essential for Strapi API to prevent server ...,Makovska Anna,Dev,new,TST-046,27.3%,Rate limiting is essential for Strapi API to prevent server overload
+TSK-329,TST-405,Task (Matched),base,file,File filtering must be comprehensive to avoid sending unwant...,Makovska Anna,Dev,new,TST-045,30.0%,File filtering must be comprehensive to avoid sending unwanted files
+TSK-330,TST-406,Task (Matched),unknown,,List.json synchronization ensures data consistency,Makovska Anna,Dev,new,TST-006,33.3%,List.json synchronization ensures data consistency
+TSK-331,TST-407,Task (Matched),unknown,,800ms delay between requests balances speed and server safet...,Makovska Anna,Dev,new,TST-029,22.2%,800ms delay between requests balances speed and server safety
+TSK-332,TST-408,Task (Matched),unknown,,Batch size of 10 files provides good balance,Makovska Anna,Dev,new,TST-033,25.0%,Batch size of 10 files provides good balance
+TSK-336,TST-425,Task (Matched),unknown,,**Challenge:** List.json files need synchronization before u...,Makovska Anna,Dev,new,TST-068,37.5%,**Challenge:** List.json files need synchronization before updates
+TSK-337,TST-427,Task (Matched),unknown,,Node.js (axios for HTTP requests),Makovska Anna,Dev,new,TST-009,50.0%,Node.js (axios for HTTP requests)
+TSK-339,TST-429,Task (Matched),base,file,File system operations (fs.promises),Makovska Anna,Dev,new,TST-048,40.0%,File system operations (fs.promises)
+TSK-340,TST-430,Task (Matched),unknown,,Path manipulation (path module),Makovska Anna,Dev,new,TST-076,33.3%,Path manipulation (path module)
+TSK-341,TST-431,Task (Matched),unknown,,JSON parsing and serialization,Makovska Anna,Dev,new,TST-023,50.0%,JSON parsing and serialization
+TSK-342,TST-432,Task (Matched),base,test,Test the update script with real data changes,Makovska Anna,Dev,new,TST-039,25.0%,Test the update script with real data changes
+TSK-343,TST-433,Task (Matched),base,verify,Verify list.json synchronization works correctly,Makovska Anna,Dev,new,TST-033,33.3%,Verify list.json synchronization works correctly
+TSK-344,TST-434,Task (Matched),base,gather,Gather feedback from content makers on workflow,Makovska Anna,Dev,new,TST-044,42.9%,Gather feedback from content makers on workflow
+TSK-346,TST-436,Task (Matched),base,update,Update file throughout the day after each work block,Makovska Anna,Dev,new,TST-005,22.2%,Update file throughout the day after each work block
+TSK-348,TST-438,Task (Matched),base,keep,Keep script structure consistent and well-documented,Makovska Anna,Dev,new,TST-030,28.6%,Keep script structure consistent and well-documented
+TSK-349,TST-439,Task (Matched),base,test,Test with dry-run mode before applying real changes,Makovska Anna,Dev,new,TST-072,22.2%,Test with dry-run mode before applying real changes
+TSK-350,TST-440,Task (Matched),process,booking,"*Topic:** Instructions on booking calls via the ""Lead Calend...",Archibong Isaac,LG,new,TST-039,26.7%,"*Topic:** Instructions on booking calls via the ""Lead Calendar"" and syncing them with the internal system."
+TSK-353,TST-443,Task (Matched),unknown,,**Data Entry:**,Archibong Isaac,LG,new,TST-006,50.0%,**Data Entry:**
+TSK-354,TST-444,Task (Matched),process,adding,"When adding the event to the internal calendar, copy all rel...",Archibong Isaac,LG,new,TST-074,25.0%,"When adding the event to the internal calendar, copy all relevant information (Company info, Lead info) from LinkedIn."
+TSK-357,TST-447,Task (Matched),unknown,,"*Topic:** Introduction to the ""Remess"" hiring project, brand...",Archibong Isaac,LG,new,TST-076,44.4%,"*Topic:** Introduction to the ""Remess"" hiring project, brand guidelines (Cat Mascot), and using ChatGPT to generate social media graphics."
+TSK-358,TST-448,Task (Matched),unknown,,*1. Brand Overview**,Archibong Isaac,LG,new,TST-011,33.3%,*1. Brand Overview**
+TSK-359,TST-449,Task (Matched),unknown,,**Project:** Remess (a hiring platform).,Archibong Isaac,LG,new,TST-068,40.0%,**Project:** Remess (a hiring platform).
+TSK-360,TST-450,Task (Matched),unknown,,**Visual Identity:** Specific color palette featuring a **Ca...,Archibong Isaac,LG,new,TST-076,21.1%,**Visual Identity:** Specific color palette featuring a **Cat Mascot**. This mascot appears across the website and social media (Instagram/LinkedIn).
+TSK-362,TST-452,Task (Matched),unknown,,*2. Technical Specifications**,Archibong Isaac,LG,new,TST-009,33.3%,*2. Technical Specifications**
+TSK-363,TST-453,Task (Matched),unknown,,**Platform:** LinkedIn.,Archibong Isaac,LG,new,TST-071,100.0%,**Platform:** LinkedIn.
+TSK-365,TST-455,Task (Matched),process,using,"**Tools:** ChatGPT (specifically using the ""Projects"" featur...",Archibong Isaac,LG,new,TST-074,42.9%,"**Tools:** ChatGPT (specifically using the ""Projects"" feature)."
+TSK-366,TST-456,Task (Matched),unknown,,*3. Setup Instructions**,Archibong Isaac,LG,new,TST-009,33.3%,*3. Setup Instructions**
+TSK-368,TST-458,Task (Matched),unknown,,`Mascot Prompts` (Reference images of the cat).,Archibong Isaac,LG,new,TST-039,28.6%,`Mascot Prompts` (Reference images of the cat).
+TSK-369,TST-459,Task (Matched),base,design,"`UI Kit & Design Guidelines` (Fonts, colors).",Archibong Isaac,LG,new,TST-076,33.3%,"`UI Kit & Design Guidelines` (Fonts, colors)."
+TSK-371,TST-461,Task (Matched),unknown,,**ChatGPT Project Setup:**,Archibong Isaac,LG,new,TST-009,33.3%,**ChatGPT Project Setup:**
+TSK-372,TST-462,Task (Matched),process,generating,*4. Generating Images**,Archibong Isaac,LG,new,TST-009,33.3%,*4. Generating Images**
+TSK-374,TST-464,Task (Matched),base,post,Feed the post content/text to ChatGPT.,Archibong Isaac,LG,new,TST-043,28.6%,Feed the post content/text to ChatGPT.
+TSK-375,TST-465,Task (Matched),base,ask,Ask it to generate the graphic title and concept.,Archibong Isaac,LG,new,TST-074,33.3%,Ask it to generate the graphic title and concept.
+TSK-376,TST-466,Task (Matched),base,request,Request the image generation using the uploaded design const...,Archibong Isaac,LG,new,TST-076,50.0%,Request the image generation using the uploaded design constraints.
+TSK-377,TST-469,Task (Matched),unknown,,*Q: Is there a specific template for the daily plans and tas...,Archibong Isaac,LG,new,TST-074,46.2%,*Q: Is there a specific template for the daily plans and tasks files?**
+TSK-378,TST-470,Task (Matched),unknown,,*A:** Yes. You can find the template in the `Week 1` > `Fold...,Archibong Isaac,LG,new,TST-039,26.1%,*A:** Yes. You can find the template in the `Week 1` > `Folder 05` > `Daily` folder. You can simply copy and paste this structure into your new daily file.
+TSK-379,TST-471,Task (Matched),base,use,*Q: How do I use AI to fill out these reports automatically?...,Archibong Isaac,LG,new,TST-074,25.0%,*Q: How do I use AI to fill out these reports automatically?**
+TSK-380,TST-472,Task (Matched),base,use,*A:** You can use the Claude AI integration within VS Code.,Archibong Isaac,LG,new,TST-039,36.4%,*A:** You can use the Claude AI integration within VS Code.
+TSK-381,TST-475,Task (Matched),unknown,,*What I worked on:**,Bindiak Dana,LG,new,TST-017,25.0%,*What I worked on:**
+TSK-382,TST-481,Task (Matched),unknown,,Inbox cleared and CRM statuses current for new responses,Bindiak Dana,LG,new,TST-072,33.3%,Inbox cleared and CRM statuses current for new responses
+TSK-383,TST-483,Task (Matched),unknown,,*What I worked on:**,Bindiak Dana,LG,new,TST-017,25.0%,*What I worked on:**
+TSK-384,TST-489,Task (Matched),base,plan,Plan set to distribute more accounts to lead generation mana...,Bindiak Dana,LG,new,TST-004,33.3%,Plan set to distribute more accounts to lead generation managers
+TSK-385,TST-491,Task (Matched),unknown,,*What I worked on:**,Bindiak Dana,LG,new,TST-017,25.0%,*What I worked on:**
+TSK-386,TST-492,Task (Matched),unknown,,Rescheduled the day's tasks to accommodate new priorities,Bindiak Dana,LG,new,TST-044,44.4%,Rescheduled the day's tasks to accommodate new priorities
+TSK-387,TST-498,Task (Matched),unknown,,*What I worked on:**,Bindiak Dana,LG,new,TST-017,25.0%,*What I worked on:**
+TSK-388,TST-502,Task (Matched),process,improving,Gave advice on improving report clarity and completeness,Bindiak Dana,LG,new,TST-017,25.0%,Gave advice on improving report clarity and completeness
+TSK-389,TST-507,Task (Matched),unknown,,*What I worked on:**,Bindiak Dana,LG,new,TST-017,25.0%,*What I worked on:**
+TSK-390,TST-514,Task (Matched),unknown,,*What I worked on:**,Bindiak Dana,LG,new,TST-017,25.0%,*What I worked on:**
+TSK-391,TST-515,Task (Matched),process,training,Ran a training session on generating images for content with...,Bindiak Dana,LG,new,TST-039,28.6%,Ran a training session on generating images for content with ChatGPT and tailored prompts
+TSK-392,TST-516,Task (Matched),base,prompt,Walked through prompt crafting best practices to get consist...,Bindiak Dana,LG,new,TST-076,30.0%,Walked through prompt crafting best practices to get consistent visuals
+TSK-394,TST-521,Task (Matched),unknown,,*What I worked on:**,Bindiak Dana,LG,new,TST-017,25.0%,*What I worked on:**
+TSK-395,TST-530,Task (Matched),base,practice,Image practice task planned for the lead generation team,Bindiak Dana,LG,new,TST-039,33.3%,Image practice task planned for the lead generation team
+TSK-396,TST-531,Task (Matched),unknown,,*What I worked on:**,Bindiak Dana,LG,new,TST-017,25.0%,*What I worked on:**
+TSK-397,TST-532,Task (Matched),process,using,Gave additional guidance on using Dropbox for storing and or...,Bindiak Dana,LG,new,TST-074,33.3%,Gave additional guidance on using Dropbox for storing and organizing daily reports
+TSK-398,TST-537,Task (Matched),process,reporting,Reporting expectations clarified for daily files,Bindiak Dana,LG,new,TST-074,50.0%,Reporting expectations clarified for daily files
+TSK-399,TST-538,Task (Matched),unknown,,*What I worked on:**,Bindiak Dana,LG,new,TST-017,25.0%,*What I worked on:**
+TSK-400,TST-545,Task (Matched),unknown,,*What I worked on:**,Bindiak Dana,LG,new,TST-017,25.0%,*What I worked on:**
+TSK-401,TST-552,Task (Matched),unknown,,*What I worked on:**,Bindiak Dana,LG,new,TST-017,25.0%,*What I worked on:**
+TSK-402,TST-558,Task (Matched),base,process,Working process table updated with current statuses,Bindiak Dana,LG,new,TST-075,28.6%,Working process table updated with current statuses
+TSK-403,TST-560,Task (Matched),unknown,,*What I worked on:**,Bindiak Dana,LG,new,TST-017,25.0%,*What I worked on:**
+TSK-404,TST-563,Task (Matched),unknown,,*What I worked on:**,Burda Anna,LG,new,TST-017,25.0%,*What I worked on:**
+TSK-405,TST-565,Task (Matched),unknown,,*What I worked on:**,Burda Anna,LG,new,TST-017,25.0%,*What I worked on:**
+TSK-406,TST-568,Task (Matched),unknown,,*What I worked on:**,Cynthia Aninwezi,LG,new,TST-017,25.0%,*What I worked on:**
+TSK-408,TST-582,Task (Matched),unknown,,*What I worked on:**,Cynthia Aninwezi,LG,new,TST-017,25.0%,*What I worked on:**
+TSK-409,TST-583,Task (Matched),base,design,One hour graphic design session with Vilhelm,Cynthia Aninwezi,LG,new,TST-073,28.6%,One hour graphic design session with Vilhelm
+TSK-410,TST-585,Task (Matched),unknown,,2 hour streming session on the streaming platform,Cynthia Aninwezi,LG,new,TST-039,37.5%,2 hour streming session on the streaming platform
+TSK-411,TST-588,Task (Matched),unknown,,Acquired knowledge on how to create company aligned graphics...,Cynthia Aninwezi,LG,new,TST-076,33.3%,Acquired knowledge on how to create company aligned graphics using chatGPT and how to create the right prompts.
+TSK-412,TST-589,Task (Matched),unknown,,Recieved response from lead(John Ruthledge) and will follow ...,Cynthia Aninwezi,LG,new,TST-022,30.8%,Recieved response from lead(John Ruthledge) and will follow up in two weeks
+TSK-413,TST-591,Task (Matched),unknown,,--**Whisper Flow Transcript:**,Cynthia Aninwezi,LG,new,TST-022,33.3%,--**Whisper Flow Transcript:**
+TSK-414,TST-594,Task (Matched),unknown,,Wispr flow did a subpar job with the transcripts from the gr...,Cynthia Aninwezi,LG,new,TST-074,25.0%,"Wispr flow did a subpar job with the transcripts from the graphic design session and for this reason, I'm unable to attach it to this report."
+TSK-002,TST-002,Task (New),unknown,,*Project:** PROJ-AID-001 (AI-First Company Transformation),Artemchuk Nikolay,AI,new,N/A,0%,*Project:** PROJ-AID-001 (AI-First Company Transformation)
+TSK-003,TST-003,Task (New),base,code,*Taxonomy Code:** TST-043 (Relationship Building & Networkin...,Artemchuk Nikolay,AI,new,N/A,0%,*Taxonomy Code:** TST-043 (Relationship Building & Networking - adapted for support)
+TSK-006,TST-006,Task (New),unknown,,*Blocks:** None,Artemchuk Nikolay,AI,new,N/A,0%,*Blocks:** None
+TSK-007,TST-009,Task (New),unknown,,*Actual Time:** _[To be filled]_,Artemchuk Nikolay,AI,new,N/A,0%,*Actual Time:** _[To be filled]_
+TSK-008,TST-010,Task (New),unknown,,*Description:**,Artemchuk Nikolay,AI,new,N/A,0%,*Description:**
+TSK-009,TST-012,Task (New),base,install,"""How do I install Claude Extension?""",Artemchuk Nikolay,AI,new,N/A,0%,"""How do I install Claude Extension?"""
+TSK-010,TST-013,Task (New),unknown,,"""Gemini tokens ran out, what do I do?""",Artemchuk Nikolay,AI,new,N/A,0%,"""Gemini tokens ran out, what do I do?"""
+TSK-012,TST-015,Task (New),unknown,,"""How do I switch accounts in Antigravity?""",Artemchuk Nikolay,AI,new,N/A,0%,"""How do I switch accounts in Antigravity?"""
+TSK-013,TST-016,Task (New),process,recording,"""Whisper Flow not recording properly""",Artemchuk Nikolay,AI,new,N/A,0%,"""Whisper Flow not recording properly"""
+TSK-014,TST-017,Task (New),base,monitor,Monitor Discord #ai-support channel,Artemchuk Nikolay,AI,new,N/A,0%,Monitor Discord #ai-support channel
+TSK-022,TST-032,Task (New),unknown,,**11:00 AM - 1:00 PM:** Initiated a new scraping cycle for t...,Perederii Vladislav,AI,new,N/A,0%,"**11:00 AM - 1:00 PM:** Initiated a new scraping cycle for the Google Maps project. Used the new search queries provided by the lead generation team lead to perform a ""wide scrape"" with Instant Data Scraper, collecting a fresh batch of raw company data."
+TSK-024,TST-034,Task (New),unknown,,"A new, highly relevant batch of raw companies has been colle...",Perederii Vladislav,AI,new,N/A,0%,"A new, highly relevant batch of raw companies has been collected for the Google Maps project, based on direct input from the lead gen team, ensuring the upcoming results will be high-value."
+TSK-026,TST-036,Task (New),unknown,,**2:00 PM - 4:30 PM:** Conducted a full diagnostic run of th...,Perederii Vladislav,AI,new,N/A,0%,"**2:00 PM - 4:30 PM:** Conducted a full diagnostic run of the Google Maps script to identify performance bottlenecks. Used logging and timing decorators (`@timeit`) on key functions (scraping, NLP analysis, enrichment). Identified that the review scraping and decision-maker search are the slowest parts. Began researching optimization techniques (e.g., parallel processing for enrichment)."
+TSK-027,TST-037,Task (New),unknown,,**4:30 PM - 5:30 PM:** Actively monitored the team's first t...,Perederii Vladislav,AI,new,N/A,0%,"**4:30 PM - 5:30 PM:** Actively monitored the team's first tests of the ""Gem"" custom chat instructions. Communicated with the lead generators in a dedicated channel, answered their questions, and collected their initial feedback on the generated ""first messages."""
+TSK-028,TST-038,Task (New),unknown,,A clear performance baseline for the Google Maps script has ...,Perederii Vladislav,AI,new,N/A,0%,"A clear performance baseline for the Google Maps script has been established, and specific, time-consuming functions have been identified for future optimization."
+TSK-029,TST-039,Task (New),unknown,,"The first round of user feedback on the ""Gem"" chat has been ...",Perederii Vladislav,AI,new,N/A,0%,"The first round of user feedback on the ""Gem"" chat has been collected. This invaluable input will be used to modify the system prompt and improve the quality of the generated messages. The feedback loop is now active."
+TSK-032,TST-044,Task (New),unknown,,"Сегодня, в первой половине дня, я готовился к созвону с лидо...",Skrypkar Vilhelm,Design,new,N/A,0%,"Сегодня, в первой половине дня, я готовился к созвону с лидогенератором, о котором мы уже несколько дней говорили с Ковальской. Я доработал инструкцию и мастер-промт для генерации графики REM S."
+TSK-034,TST-046,Task (New),unknown,,После обеда пришли HR и разработчик Лилия Даниленко и сказал...,Skrypkar Vilhelm,Design,new,N/A,0%,"После обеда пришли HR и разработчик Лилия Даниленко и сказали, что нам нужно переделывать графику для сайта."
+TSK-038,TST-050,Task (New),unknown,,SMM Specialist mascot (sea horse),Skrypkar Vilhelm,Design,new,N/A,0%,SMM Specialist mascot (sea horse)
+TSK-040,TST-052,Task (New),unknown,,Recruiter mascot (arctic fox),Skrypkar Vilhelm,Design,new,N/A,0%,Recruiter mascot (arctic fox)
+TSK-042,TST-054,Task (New),unknown,,Chat Operator mascot (needs to be developed),Skrypkar Vilhelm,Design,new,N/A,0%,Chat Operator mascot (needs to be developed)
+TSK-046,TST-058,Task (New),base,engineer,QA Engineer mascot (needs to be developed),Skrypkar Vilhelm,Design,new,N/A,0%,QA Engineer mascot (needs to be developed)
+TSK-050,TST-065,Task (New),unknown,,"square, 800x800px minimum, 2000x2000px maximum. If chatgpt g...",Skrypkar Vilhelm,Design,new,N/A,0%,"square, 800x800px minimum, 2000x2000px maximum. If chatgpt generates them in 1024*1024 it’s ok"
+TSK-051,TST-066,Task (New),base,format,Naming format: `mascot_[department]_[role]_[description].png...,Skrypkar Vilhelm,Design,new,N/A,0%,"Naming format: `mascot_[department]_[role]_[description].png`. For example, 'mascot_marketers_prompt-engineers_shark.png' for a profession mascot, or 'mascot_developers_praying-mantis.png' for a department mascot"
+TSK-053,TST-069,Task (New),base,contact,Contact Nealova Evgeniya via Discord/Dropbox,Artem Skichko,Dev,completed,N/A,0%,Contact Nealova Evgeniya via Discord/Dropbox
+TSK-054,TST-070,Task (New),base,request,Request Strapi media library access,Artem Skichko,Dev,completed,N/A,0%,Request Strapi media library access
+TSK-056,TST-072,Task (New),unknown,,Familiarize yourself with Strapi interface,Artem Skichko,Dev,completed,N/A,0%,Familiarize yourself with Strapi interface
+TSK-062,TST-078,Task (New),unknown,,кнопку згортання/розгортання сайдбару потрібно перенести нав...,Artem Skichko,Dev,new,N/A,0%,кнопку згортання/розгортання сайдбару потрібно перенести наверх сайдбару
+TSK-063,TST-079,Task (New),unknown,,заголовки Folders/Assets зробити більшого розміру,Artem Skichko,Dev,new,N/A,0%,заголовки Folders/Assets зробити більшого розміру
+TSK-064,TST-080,Task (New),unknown,,"інтуїтивно не зрозуміло що означає кнопка обрати все, можлив...",Artem Skichko,Dev,new,N/A,0%,"інтуїтивно не зрозуміло що означає кнопка обрати все, можливо потрібно дописати біля неї текст"
+TSK-065,TST-081,Task (New),unknown,,прибрати скролбар справа,Artem Skichko,Dev,new,N/A,0%,прибрати скролбар справа
+TSK-066,TST-082,Task (New),unknown,,"додати трохи анімації, інтерактивності і тд",Artem Skichko,Dev,new,N/A,0%,"додати трохи анімації, інтерактивності і тд"
+TSK-067,TST-083,Task (New),unknown,,"при розгортанні селекту сайдбар підіймається, потрібно пофік...",Artem Skichko,Dev,new,N/A,0%,"при розгортанні селекту сайдбар підіймається, потрібно пофіксити"
+TSK-068,TST-084,Task (New),unknown,,додати стиль до кнопки де перемикання сторінок “not allowed”...,Artem Skichko,Dev,new,N/A,0%,додати стиль до кнопки де перемикання сторінок “not allowed” якщо наприклад вже на першій сторінці і - хочемо повернутись назад
+TSK-069,TST-085,Task (New),unknown,,потрібно зробити так щоб при друку в search bar застосовувал...,Artem Skichko,Dev,new,N/A,0%,"потрібно зробити так щоб при друку в search bar застосовувались зміни, а не при натисканні Enter"
+TSK-070,TST-086,Task (New),unknown,,в цій модалці потрібно зробити блок location під блоком Name...,Artem Skichko,Dev,new,N/A,0%,"в цій модалці потрібно зробити блок location під блоком Name, а не в один рядок"
+TSK-071,TST-087,Task (New),unknown,,"додати кнопку cancel, тому що відразу не зрозуміло що є і ‘-...",Artem Skichko,Dev,new,N/A,0%,"додати кнопку cancel, тому що відразу не зрозуміло що є і ‘-’ в кнопці"
+TSK-072,TST-088,Task (New),unknown,,навіщо кнопка Back якщо є breadcrumbs ?,Artem Skichko,Dev,new,N/A,0%,навіщо кнопка Back якщо є breadcrumbs ?
+TSK-073,TST-089,Task (New),unknown,,"додати відступи в зоні breadcrumbs, header, filter panel",Artem Skichko,Dev,new,N/A,0%,"додати відступи в зоні breadcrumbs, header, filter panel"
+TSK-075,TST-091,Task (New),unknown,,"після застосування змін в sortBy, незрозуміло чи вони застос...",Artem Skichko,Dev,new,N/A,0%,"після застосування змін в sortBy, незрозуміло чи вони застосувались"
+TSK-076,TST-092,Task (New),unknown,,змінити селект часу,Artem Skichko,Dev,new,N/A,0%,змінити селект часу
+TSK-077,TST-093,Task (New),unknown,,"коли поставив дату, а потім змінюєш поле createdAt то дата о...",Artem Skichko,Dev,new,N/A,0%,"коли поставив дату, а потім змінюєш поле createdAt то дата очищається"
+TSK-078,TST-094,Task (New),unknown,,коли обираю час то дата автоматично встановлюється,Artem Skichko,Dev,new,N/A,0%,коли обираю час то дата автоматично встановлюється
+TSK-081,TST-099,Task (New),unknown,,**Step 1:** Знайшов у власній директорії `Xtrapi AI Automati...,Artem Skichko,Dev,new,N/A,0%,"**Step 1:** Знайшов у власній директорії `Xtrapi AI Automation Guide`, перечитав вимоги та структуру схеми експорту (`entities/assets/REMS/exported`)."
+TSK-082,TST-100,Task (New),unknown,,**Step 2:** Зафіксував обмеження: Strapi недоступний через A...,Artem Skichko,Dev,new,N/A,0%,"**Step 2:** Зафіксував обмеження: Strapi недоступний через AIS, тому буду працювати напряму через REST API, отримуючи дані запитами та зберігаючи у JSON."
+TSK-083,TST-101,Task (New),unknown,,"**Step 7:** Розписав план для collection types (Vacancies, C...",Artem Skichko,Dev,new,N/A,0%,"**Step 7:** Розписав план для collection types (Vacancies, Categories, Skills, Keyword tags): масові вибірки, обробка draft state, можливість запитів по конкретних ID, валідація повноти даних."
+TSK-084,TST-102,Task (New),unknown,,"**Step 8:** Передбачив перевірку відсутніх полів (наприклад,...",Artem Skichko,Dev,new,N/A,0%,"**Step 8:** Передбачив перевірку відсутніх полів (наприклад, features на About) через додаткові параметри/фронт-проєкт; за потреби витягувати дані з фронту."
+TSK-085,TST-103,Task (New),unknown,,**Step 9:** Узгодив ручні процеси: розподіл сутностей між лю...,Artem Skichko,Dev,new,N/A,0%,"**Step 9:** Узгодив ручні процеси: розподіл сутностей між людьми, створення черги задач, винесення неактуальних вакансій у draft вручну (4 кліки) до готовності автоскрипта оновлень."
+TSK-086,TST-104,Task (New),unknown,,**Step 10:**  **Скрипт оновлення (updates → REMS):** створен...,Artem Skichko,Dev,completed,N/A,0%,"**Step 10:**  **Скрипт оновлення (updates → REMS):** створено `strapi-single-types-update.js` з обережним доступом до прод-бази (dry-run за замовчуванням, --confirm для реальних змін), детальним логуванням у файли, валідацією файлів, опціями --backup та --export-after, rate limiting між запитами. Додано повну документацію README-UPDATE.md."
+TSK-088,TST-107,Task (New),unknown,,**Створення скрипта оновлення:** Розроблено `strapi-single-t...,Artem Skichko,Dev,new,N/A,0%,**Створення скрипта оновлення:** Розроблено `strapi-single-types-update.js` для оновлення single types в Strapi з файлів з папки `updated/pages/`. Скрипт включає:
+TSK-089,TST-108,Task (New),unknown,,Сканування папки `updated/pages/` для знаходження файлів для...,Artem Skichko,Dev,new,N/A,0%,Сканування папки `updated/pages/` для знаходження файлів для оновлення
+TSK-090,TST-109,Task (New),unknown,,Валідацію JSON файлів перед оновленням,Artem Skichko,Dev,new,N/A,0%,Валідацію JSON файлів перед оновленням
+TSK-091,TST-110,Task (New),unknown,,"Очищення системних полів (createdAt, updatedAt, publishedAt,...",Artem Skichko,Dev,new,N/A,0%,"Очищення системних полів (createdAt, updatedAt, publishedAt, locale, id) перед відправкою"
+TSK-092,TST-111,Task (New),unknown,,Детальне логування всіх дій у файли `logs/update-{timestamp}...,Artem Skichko,Dev,new,N/A,0%,Детальне логування всіх дій у файли `logs/update-{timestamp}.log`
+TSK-093,TST-112,Task (New),unknown,,"Безпеку: dry-run режим за замовчуванням, `--confirm` для реа...",Artem Skichko,Dev,new,N/A,0%,"Безпеку: dry-run режим за замовчуванням, `--confirm` для реальних змін"
+TSK-094,TST-113,Task (New),base,backup,"Опції: `--backup` (створення backup перед оновленням), `--ex...",Artem Skichko,Dev,new,N/A,0%,"Опції: `--backup` (створення backup перед оновленням), `--export-after` (експорт після оновлення)"
+TSK-095,TST-114,Task (New),process,limiting,Rate limiting: затримка 500ms між запитами,Artem Skichko,Dev,new,N/A,0%,Rate limiting: затримка 500ms між запитами
+TSK-096,TST-115,Task (New),unknown,,**Проблеми та вирішення:**,Artem Skichko,Dev,new,N/A,0%,**Проблеми та вирішення:**
+TSK-097,TST-120,Task (New),unknown,,**Оптимізація скрипта:**,Artem Skichko,Dev,new,N/A,0%,**Оптимізація скрипта:**
+TSK-098,TST-121,Task (New),unknown,,Змінено джерело даних з `exported/pages/` на `updated/pages/...,Artem Skichko,Dev,new,N/A,0%,Змінено джерело даних з `exported/pages/` на `updated/pages/` для роботи з актуальними файлами
+TSK-099,TST-122,Task (New),unknown,,Обмежено обробку тільки до About entity (about-us) для тесту...,Artem Skichko,Dev,new,N/A,0%,Обмежено обробку тільки до About entity (about-us) для тестування
+TSK-100,TST-123,Task (New),unknown,,Додано отримання поточних даних через GET перед оновленням д...,Artem Skichko,Dev,new,N/A,0%,Додано отримання поточних даних через GET перед оновленням для кращої сумісності
+TSK-101,TST-124,Task (New),unknown,,Реалізовано спробу різних комбінацій: 4 формати URL × 3 конф...,Artem Skichko,Dev,new,N/A,0%,Реалізовано спробу різних комбінацій: 4 формати URL × 3 конфігурації запитів × 3 формати body × 3 HTTP методи = до 108 спроб для кожного файлу
+TSK-102,TST-125,Task (New),unknown,,**Успішне тестування:**,Artem Skichko,Dev,new,N/A,0%,**Успішне тестування:**
+TSK-103,TST-126,Task (New),unknown,,"Оновлено 4 файли для About entity (en, uk, pl, ru) успішно",Artem Skichko,Dev,new,N/A,0%,"Оновлено 4 файли для About entity (en, uk, pl, ru) успішно"
+TSK-104,TST-127,Task (New),unknown,,Всі оновлення пройшли через PUT метод зі стандартним URL фор...,Artem Skichko,Dev,new,N/A,0%,Всі оновлення пройшли через PUT метод зі стандартним URL форматом
+TSK-105,TST-128,Task (New),base,backup,Створено backup перед оновленням,Artem Skichko,Dev,new,N/A,0%,Створено backup перед оновленням
+TSK-106,TST-129,Task (New),unknown,,Виконано автоматичний експорт після оновлення,Artem Skichko,Dev,new,N/A,0%,Виконано автоматичний експорт після оновлення
+TSK-107,TST-131,Task (New),unknown,,Створено повнофункціональний скрипт оновлення `strapi-single...,Artem Skichko,Dev,completed,N/A,0%,Створено повнофункціональний скрипт оновлення `strapi-single-types-update.js`
+TSK-108,TST-132,Task (New),unknown,,"Вирішено всі API помилки (500, 405, 400) через fallback меха...",Artem Skichko,Dev,completed,N/A,0%,"Вирішено всі API помилки (500, 405, 400) через fallback механізми та очищення даних"
+TSK-109,TST-133,Task (New),unknown,,Успішно оновлено 4 локалі для About entity в Strapi,Artem Skichko,Dev,completed,N/A,0%,Успішно оновлено 4 локалі для About entity в Strapi
+TSK-110,TST-134,Task (New),unknown,,Створено детальну документацію README-UPDATE.md з інструкція...,Artem Skichko,Dev,completed,N/A,0%,Створено детальну документацію README-UPDATE.md з інструкціями та прикладами
+TSK-111,TST-135,Task (New),base,backup,Реалізовано безпечний workflow з backup та логуванням,Artem Skichko,Dev,completed,N/A,0%,Реалізовано безпечний workflow з backup та логуванням
+TSK-112,TST-136,Task (New),unknown,,Скрипт готовий до використання для оновлення інших single ty...,Artem Skichko,Dev,completed,N/A,0%,Скрипт готовий до використання для оновлення інших single types
+TSK-113,TST-138,Task (New),unknown,,Ознайомитися з TODO файлом та завданнями по Strapi,Danylenko Liliia,Dev,new,N/A,0%,Ознайомитися з TODO файлом та завданнями по Strapi
+TSK-114,TST-139,Task (New),unknown,,Отримати доступ до Strapi від Nealova Evgeniya,Danylenko Liliia,Dev,new,N/A,0%,Отримати доступ до Strapi від Nealova Evgeniya
+TSK-115,TST-140,Task (New),unknown,,Вивчити інтерфейс та структуру медіа-бібліотеки,Danylenko Liliia,Dev,new,N/A,0%,Вивчити інтерфейс та структуру медіа-бібліотеки
+TSK-116,TST-141,Task (New),unknown,,Розібратися з організацією файлів та завданнями по оновленню...,Danylenko Liliia,Dev,new,N/A,0%,Розібратися з організацією файлів та завданнями по оновленню контенту
+TSK-117,TST-142,Task (New),unknown,,Тестувати заповнення libdev нашими даними з таксономії,Danylenko Liliia,Dev,new,N/A,0%,Тестувати заповнення libdev нашими даними з таксономії
+TSK-118,TST-143,Task (New),unknown,,Перевірити коректність роботи конектора,Danylenko Liliia,Dev,new,N/A,0%,Перевірити коректність роботи конектора
+TSK-119,TST-144,Task (New),unknown,,Виявити та виправити можливі проблеми,Danylenko Liliia,Dev,new,N/A,0%,Виявити та виправити можливі проблеми
+TSK-120,TST-145,Task (New),unknown,,Допомогти/перевірити у Ярослава,Danylenko Liliia,Dev,new,N/A,0%,Допомогти/перевірити у Ярослава
+TSK-121,TST-146,Task (New),unknown,,Перевірити статус проекту,Danylenko Liliia,Dev,new,N/A,0%,Перевірити статус проекту
+TSK-122,TST-147,Task (New),unknown,,"Вирішити залишкові питання (медіа файли, структура тощо)",Danylenko Liliia,Dev,new,N/A,0%,"Вирішити залишкові питання (медіа файли, структура тощо)"
+TSK-123,TST-148,Task (New),unknown,,"Проводити код-рев'ю по мірі того, як вони будуть готові",Danylenko Liliia,Dev,new,N/A,0%,"Проводити код-рев'ю по мірі того, як вони будуть готові"
+TSK-124,TST-149,Task (New),unknown,,Перевіряти PR від команди,Danylenko Liliia,Dev,new,N/A,0%,Перевіряти PR від команди
+TSK-125,TST-150,Task (New),unknown,,Надавати фідбек та коментарі,Danylenko Liliia,Dev,new,N/A,0%,Надавати фідбек та коментарі
+TSK-126,TST-151,Task (New),unknown,,*Time:** 7:00 - 8:30,Danylenko Liliia,Dev,new,N/A,0%,*Time:** 7:00 - 8:30
+TSK-128,TST-153,Task (New),unknown,,Аналіз нового TODO щодо оновлення контенту в REM-S,Danylenko Liliia,Dev,new,N/A,0%,Аналіз нового TODO щодо оновлення контенту в REM-S
+TSK-129,TST-154,Task (New),unknown,,Планування денних активностей,Danylenko Liliia,Dev,new,N/A,0%,Планування денних активностей
+TSK-130,TST-155,Task (New),unknown,,Дослідження підходів до роботи зі Strapi,Danylenko Liliia,Dev,new,N/A,0%,Дослідження підходів до роботи зі Strapi
+TSK-132,TST-157,Task (New),unknown,,Ідентифіковано необхідність написання скриптів,Danylenko Liliia,Dev,new,N/A,0%,Ідентифіковано необхідність написання скриптів
+TSK-133,TST-158,Task (New),unknown,,*Time:** 8:30 - 10:00,Danylenko Liliia,Dev,new,N/A,0%,*Time:** 8:30 - 10:00
+TSK-135,TST-160,Task (New),unknown,,Дослідження Strapi API та можливостей інтеграції,Danylenko Liliia,Dev,new,N/A,0%,Дослідження Strapi API та можливостей інтеграції
+TSK-136,TST-161,Task (New),unknown,,Аналіз різних підходів до оновлення контенту,Danylenko Liliia,Dev,new,N/A,0%,Аналіз різних підходів до оновлення контенту
+TSK-137,TST-162,Task (New),unknown,,Розробка концепції export/import workflow,Danylenko Liliia,Dev,new,N/A,0%,Розробка концепції export/import workflow
+TSK-138,TST-163,Task (New),unknown,,Визначено оптимальне рішення: скрипти для витягування → AI о...,Danylenko Liliia,Dev,new,N/A,0%,Визначено оптимальне рішення: скрипти для витягування → AI обробка → скрипти для оновлення
+TSK-140,TST-166,Task (New),unknown,,Обговорення стратегії оновлення REM-S контенту,Danylenko Liliia,Dev,new,N/A,0%,Обговорення стратегії оновлення REM-S контенту
+TSK-141,TST-167,Task (New),unknown,,Координація з командою щодо підходу,Danylenko Liliia,Dev,new,N/A,0%,Координація з командою щодо підходу
+TSK-142,TST-169,Task (New),unknown,,"Скачати SiteMap для 4 мов (EN, UA, PL, RU - словацьку не чіп...",Danylenko Liliia,Dev,new,N/A,0%,"Скачати SiteMap для 4 мов (EN, UA, PL, RU - словацьку не чіпати)"
+TSK-143,TST-170,Task (New),unknown,,Весь контент завантажити в Dropbox,Danylenko Liliia,Dev,new,N/A,0%,Весь контент завантажити в Dropbox
+TSK-145,TST-172,Task (New),unknown,,Повернути назад оновлений контент,Danylenko Liliia,Dev,new,N/A,0%,Повернути назад оновлений контент
+TSK-146,TST-173,Task (New),unknown,,"Порівняти з HR папкою, закрити неактуальні вакансії",Danylenko Liliia,Dev,new,N/A,0%,"Порівняти з HR папкою, закрити неактуальні вакансії"
+TSK-153,TST-180,Task (New),unknown,,Створення інструкцій для команди розробників,Danylenko Liliia,Dev,new,N/A,0%,Створення інструкцій для команди розробників
+TSK-154,TST-181,Task (New),unknown,,*Deliverables:**,Danylenko Liliia,Dev,new,N/A,0%,*Deliverables:**
+TSK-155,TST-182,Task (New),unknown,,`Strapi_AI_Automation_Guide.md` - повна документація з:,Danylenko Liliia,Dev,completed,N/A,0%,`Strapi_AI_Automation_Guide.md` - повна документація з:
+TSK-158,TST-185,Task (New),base,export,Export scripts (Node.js + axios),Danylenko Liliia,Dev,new,N/A,0%,Export scripts (Node.js + axios)
+TSK-160,TST-187,Task (New),base,import,Import scripts (з DRY_RUN mode),Danylenko Liliia,Dev,new,N/A,0%,Import scripts (з DRY_RUN mode)
+TSK-162,TST-190,Task (New),unknown,,Готова детальна інструкція для dev команди,Danylenko Liliia,Dev,new,N/A,0%,Готова детальна інструкція для dev команди
+TSK-163,TST-191,Task (New),unknown,,Приклади скриптів для всіх етапів workflow,Danylenko Liliia,Dev,new,N/A,0%,Приклади скриптів для всіх етапів workflow
+TSK-164,TST-192,Task (New),unknown,,*Time:** ~12:00 - 13:00,Danylenko Liliia,Dev,new,N/A,0%,*Time:** ~12:00 - 13:00
+TSK-166,TST-194,Task (New),unknown,,Детальне пояснення workflow команді розробників,Danylenko Liliia,Dev,new,N/A,0%,Детальне пояснення workflow команді розробників
+TSK-167,TST-195,Task (New),unknown,,Розподіл завдань між розробниками,Danylenko Liliia,Dev,new,N/A,0%,Розподіл завдань між розробниками
+TSK-168,TST-196,Task (New),unknown,,Технічний walkthrough по Strapi структурі,Danylenko Liliia,Dev,new,N/A,0%,Технічний walkthrough по Strapi структурі
+TSK-172,TST-201,Task (New),process,handling,"Locale handling (4 мови: EN, UA, PL, RU)",Danylenko Liliia,Dev,new,N/A,0%,"Locale handling (4 мови: EN, UA, PL, RU)"
+TSK-174,TST-203,Task (New),base,draft,Draft state логіка для вакансій,Danylenko Liliia,Dev,new,N/A,0%,Draft state логіка для вакансій
+TSK-177,TST-206,Task (New),unknown,,Розподілено завдання:,Danylenko Liliia,Dev,new,N/A,0%,Розподілено завдання:
+TSK-178,TST-207,Task (New),unknown,,1 розробник: скрипт для вакансій (vacancies),Danylenko Liliia,Dev,new,N/A,0%,1 розробник: скрипт для вакансій (vacancies)
+TSK-179,TST-208,Task (New),unknown,,1 розробник: скрипт для сторінок (single types),Danylenko Liliia,Dev,new,N/A,0%,1 розробник: скрипт для сторінок (single types)
+TSK-182,TST-211,Task (New),unknown,,Обговорення розподілу задач між dev та HR,Danylenko Liliia,Dev,new,N/A,0%,Обговорення розподілу задач між dev та HR
+TSK-183,TST-212,Task (New),unknown,,Координація процесу приховування застарілого контенту,Danylenko Liliia,Dev,new,N/A,0%,Координація процесу приховування застарілого контенту
+TSK-185,TST-214,Task (New),base,export,Developers: Написання скриптів для export контенту,Danylenko Liliia,Dev,new,N/A,0%,Developers: Написання скриптів для export контенту
+TSK-186,TST-215,Task (New),unknown,,Визначено: ручне приховування швидше ніж писати окремий скри...,Danylenko Liliia,Dev,new,N/A,0%,Визначено: ручне приховування швидше ніж писати окремий скрипт
+TSK-187,TST-216,Task (New),unknown,,*Time:** 14:00 - 15:30,Danylenko Liliia,Dev,new,N/A,0%,*Time:** 14:00 - 15:30
+TSK-189,TST-218,Task (New),unknown,,Фінальний код рев'ю Honeystone проєкту,Danylenko Liliia,Dev,new,N/A,0%,Фінальний код рев'ю Honeystone проєкту
+TSK-190,TST-219,Task (New),unknown,,Перевірка Docker конфігурації,Danylenko Liliia,Dev,new,N/A,0%,Перевірка Docker конфігурації
+TSK-191,TST-220,Task (New),unknown,,Тестування адмін-панелі,Danylenko Liliia,Dev,new,N/A,0%,Тестування адмін-панелі
+TSK-192,TST-221,Task (New),unknown,,Honeystone проєкт завершено,Danylenko Liliia,Dev,completed,N/A,0%,Honeystone проєкт завершено
+TSK-194,TST-223,Task (New),unknown,,Готово до deployment,Danylenko Liliia,Dev,new,N/A,0%,Готово до deployment
+TSK-198,TST-227,Task (New),unknown,,Категоризація тасок за статусами:,Danylenko Liliia,Dev,new,N/A,0%,Категоризація тасок за статусами:
+TSK-201,TST-230,Task (New),unknown,,Термінові (urgent),Danylenko Liliia,Dev,new,N/A,0%,Термінові (urgent)
+TSK-202,TST-231,Task (New),unknown,,Розсилка статусу команді,Danylenko Liliia,Dev,new,N/A,0%,Розсилка статусу команді
+TSK-203,TST-232,Task (New),unknown,,Детальний звіт по всіх тасках з листопада,Danylenko Liliia,Dev,new,N/A,0%,Детальний звіт по всіх тасках з листопада
+TSK-204,TST-233,Task (New),unknown,,Визначено критичні завдання,Danylenko Liliia,Dev,new,N/A,0%,Визначено критичні завдання
+TSK-205,TST-234,Task (New),unknown,,Команда синхронізована по поточному стану проєктів,Danylenko Liliia,Dev,new,N/A,0%,Команда синхронізована по поточному стану проєктів
+TSK-209,TST-238,Task (New),unknown,,Виявили проблему: картинки не підтягнулись при експорті,Danylenko Liliia,Dev,new,N/A,0%,Виявили проблему: картинки не підтягнулись при експорті
+TSK-210,TST-239,Task (New),unknown,,Виправили проблему з експортом зображень,Danylenko Liliia,Dev,new,N/A,0%,Виправили проблему з експортом зображень
+TSK-212,TST-242,Task (New),unknown,,Експорт тепер коректно завантажує всі медіа файли,Danylenko Liliia,Dev,completed,N/A,0%,Експорт тепер коректно завантажує всі медіа файли
+TSK-214,TST-244,Task (New),unknown,,*What needs to be done:**,Danylenko Liliia,Dev,new,N/A,0%,*What needs to be done:**
+TSK-215,TST-245,Task (New),unknown,,Спілкування з дизайнерами,Danylenko Liliia,Dev,new,N/A,0%,Спілкування з дизайнерами
+TSK-216,TST-246,Task (New),unknown,,Пояснити задачу по оновленню та поповненню медіа-бібліотеки,Danylenko Liliia,Dev,new,N/A,0%,Пояснити задачу по оновленню та поповненню медіа-бібліотеки
+TSK-217,TST-247,Task (New),unknown,,Маскоти для REM-S департаментів,Danylenko Liliia,Dev,new,N/A,0%,Маскоти для REM-S департаментів
+TSK-219,TST-249,Task (New),unknown,,*What needs to be done:**,Danylenko Liliia,Dev,new,N/A,0%,*What needs to be done:**
+TSK-220,TST-250,Task (New),unknown,,Зв'язатися з Анною Лідген,Danylenko Liliia,Dev,new,N/A,0%,Зв'язатися з Анною Лідген
+TSK-221,TST-251,Task (New),unknown,,Обговорити спільну задачу (Google Analytics для website laun...,Danylenko Liliia,Dev,new,N/A,0%,Обговорити спільну задачу (Google Analytics для website launch)
+TSK-223,TST-253,Task (New),unknown,,Аналіз REM-S контент оновлення TODO,Danylenko Liliia,Dev,new,N/A,0%,Аналіз REM-S контент оновлення TODO
+TSK-225,TST-255,Task (New),base,export,Визначення оптимальної стратегії: Export → AI → Import,Danylenko Liliia,Dev,new,N/A,0%,Визначення оптимальної стратегії: Export → AI → Import
+TSK-227,TST-257,Task (New),unknown,,Написано інструкції для команди розробників,Danylenko Liliia,Dev,new,N/A,0%,Написано інструкції для команди розробників
+TSK-228,TST-258,Task (New),unknown,,Приклади Node.js скриптів для export/import,Danylenko Liliia,Dev,new,N/A,0%,Приклади Node.js скриптів для export/import
+TSK-229,TST-259,Task (New),unknown,,Call з Колею - стратегічне планування,Danylenko Liliia,Dev,new,N/A,0%,Call з Колею - стратегічне планування
+TSK-230,TST-260,Task (New),unknown,,Call з розробниками - технічний walkthrough,Danylenko Liliia,Dev,new,N/A,0%,Call з розробниками - технічний walkthrough
+TSK-231,TST-261,Task (New),unknown,,Координація з HR командою - розподіл задач,Danylenko Liliia,Dev,new,N/A,0%,Координація з HR командою - розподіл задач
+TSK-232,TST-262,Task (New),base,code,Honeystone project - code review та завершення,Danylenko Liliia,Dev,new,N/A,0%,Honeystone project - code review та завершення
+TSK-233,TST-263,Task (New),unknown,,Docker конфігурація перевірена,Danylenko Liliia,Dev,new,N/A,0%,Docker конфігурація перевірена
+TSK-235,TST-265,Task (New),unknown,,Категоризація за статусами,Danylenko Liliia,Dev,new,N/A,0%,Категоризація за статусами
+TSK-236,TST-266,Task (New),unknown,,Розсилка команді,Danylenko Liliia,Dev,new,N/A,0%,Розсилка команді
+TSK-238,TST-271,Task (New),unknown,,Рішення: Створено проміжний workflow з експортом в JSON → AI...,Danylenko Liliia,Dev,completed,N/A,0%,Рішення: Створено проміжний workflow з експортом в JSON → AI обробка → імпорт назад
+TSK-239,TST-274,Task (New),unknown,,Рішення: Окремі JSON файли для кожної локалі в структурі exp...,Danylenko Liliia,Dev,completed,N/A,0%,Рішення: Окремі JSON файли для кожної локалі в структурі exported/[entity]/[locale].json
+TSK-241,TST-280,Task (New),unknown,,"Рішення: Дослідити frontend код, взяти API запити звідти",Danylenko Liliia,Dev,completed,N/A,0%,"Рішення: Дослідити frontend код, взяти API запити звідти"
+TSK-242,TST-283,Task (New),unknown,,"Рішення: DRY_RUN mode в скриптах, обережне тестування, API т...",Danylenko Liliia,Dev,completed,N/A,0%,"Рішення: DRY_RUN mode в скриптах, обережне тестування, API токени read-only/write окремо"
+TSK-244,TST-285,Task (New),unknown,,Node.js - для написання export/import скриптів,Danylenko Liliia,Dev,new,N/A,0%,Node.js - для написання export/import скриптів
+TSK-245,TST-286,Task (New),unknown,,axios - HTTP запити до Strapi API,Danylenko Liliia,Dev,new,N/A,0%,axios - HTTP запити до Strapi API
+TSK-250,TST-291,Task (New),unknown,,*Communication:**,Danylenko Liliia,Dev,new,N/A,0%,*Communication:**
+TSK-251,TST-292,Task (New),unknown,,Discord - комунікація з командою,Danylenko Liliia,Dev,new,N/A,0%,Discord - комунікація з командою
+TSK-252,TST-293,Task (New),unknown,,Whisper Flow - транскрипція дзвінків,Danylenko Liliia,Dev,new,N/A,0%,Whisper Flow - транскрипція дзвінків
+TSK-253,TST-294,Task (New),unknown,,"Calls - Коля, розробники, HR team",Danylenko Liliia,Dev,new,N/A,0%,"Calls - Коля, розробники, HR team"
+TSK-256,TST-297,Task (New),unknown,,Dropbox - файловий менеджмент,Danylenko Liliia,Dev,new,N/A,0%,Dropbox - файловий менеджмент
+TSK-259,TST-300,Task (New),unknown,,Strapi CMS - rem-s.com content management,Danylenko Liliia,Dev,new,N/A,0%,Strapi CMS - rem-s.com content management
+TSK-260,TST-301,Task (New),unknown,,Strapi API - REST endpoints для контенту,Danylenko Liliia,Dev,new,N/A,0%,Strapi API - REST endpoints для контенту
+TSK-264,TST-306,Task (New),unknown,,Фіксувати детальні outcomes,Danylenko Liliia,Dev,new,N/A,0%,Фіксувати детальні outcomes
+TSK-265,TST-307,Task (New),unknown,,За потреби дублювати ключові результати у `TODO.md` та інші ...,Danylenko Liliia,Dev,new,N/A,0%,За потреби дублювати ключові результати у `TODO.md` та інші відповідні файли
+TSK-266,TST-308,Task (New),unknown,,-- Кол з Колею зранку щодо планів на день,Danylenko Liliia,Dev,new,N/A,0%,-- Кол з Колею зранку щодо планів на день
+TSK-267,TST-309,Task (New),base,download,Download SiteMap,Danylenko Liliia,Dev,new,N/A,0%,Download SiteMap
+TSK-268,TST-310,Task (New),unknown,,-- Кол з розробниками щодо страпі,Danylenko Liliia,Dev,new,N/A,0%,-- Кол з розробниками щодо страпі
+TSK-274,TST-320,Task (New),unknown,,Runs automatically after snapshot creation,Makovska Anna,Dev,new,N/A,0%,Runs automatically after snapshot creation
+TSK-276,TST-322,Task (New),unknown,,No manual copying required after export,Makovska Anna,Dev,completed,N/A,0%,No manual copying required after export
+TSK-279,TST-334,Task (New),unknown,,`categories` → `category`,Makovska Anna,Dev,new,N/A,0%,`categories` → `category`
+TSK-280,TST-335,Task (New),unknown,,`keyword-tags` → `keyword-tag`,Makovska Anna,Dev,new,N/A,0%,`keyword-tags` → `keyword-tag`
+TSK-287,TST-344,Task (New),base,script,Script safely handles server requests without overloading,Makovska Anna,Dev,completed,N/A,0%,Script safely handles server requests without overloading
+TSK-291,TST-350,Task (New),unknown,,"Template directories (`template/`, `templates/`) are complet...",Makovska Anna,Dev,new,N/A,0%,"Template directories (`template/`, `templates/`) are completely ignored"
+TSK-293,TST-353,Task (New),base,list,"List files are handled separately (for synchronization, not ...",Makovska Anna,Dev,new,N/A,0%,"List files are handled separately (for synchronization, not as collection items)"
+TSK-296,TST-358,Task (New),unknown,,Template folders are skipped at directory scan level,Makovska Anna,Dev,new,N/A,0%,Template folders are skipped at directory scan level
+TSK-298,TST-360,Task (New),base,list,List files are excluded from snapshot but included in synchr...,Makovska Anna,Dev,new,N/A,0%,List files are excluded from snapshot but included in synchronization
+TSK-299,TST-362,Task (New),unknown,,Only valid collection items are processed,Makovska Anna,Dev,completed,N/A,0%,Only valid collection items are processed
+TSK-303,TST-368,Task (New),base,list,"Creates/updates full list with all items (id, title, filenam...",Makovska Anna,Dev,new,N/A,0%,"Creates/updates full list with all items (id, title, filename, slug, dates)"
+TSK-304,TST-369,Task (New),base,structure,Maintains same structure as export script,Makovska Anna,Dev,new,N/A,0%,Maintains same structure as export script
+TSK-305,TST-371,Task (New),unknown,,Contains only changed items (created/updated/deleted),Makovska Anna,Dev,new,N/A,0%,Contains only changed items (created/updated/deleted)
+TSK-313,TST-379,Task (New),process,writing,Ensures directories exist before writing,Makovska Anna,Dev,new,N/A,0%,Ensures directories exist before writing
+TSK-315,TST-382,Task (New),base,see,Content makers can see what will be updated,Makovska Anna,Dev,completed,N/A,0%,Content makers can see what will be updated
+TSK-317,TST-386,Task (New),base,start,Quick start guide (3 steps),Makovska Anna,Dev,new,N/A,0%,Quick start guide (3 steps)
+TSK-318,TST-387,Task (New),base,script,What the script does (POST/PUT/DELETE explanation),Makovska Anna,Dev,new,N/A,0%,What the script does (POST/PUT/DELETE explanation)
+TSK-319,TST-388,Task (New),process,limiting,"Server protection details (rate limiting, batching, retries)",Makovska Anna,Dev,new,N/A,0%,"Server protection details (rate limiting, batching, retries)"
+TSK-321,TST-390,Task (New),unknown,,Dry-run mode explanation,Makovska Anna,Dev,new,N/A,0%,Dry-run mode explanation
+TSK-326,TST-400,Task (New),unknown,,Clear safety guidelines (dry-run first),Makovska Anna,Dev,completed,N/A,0%,Clear safety guidelines (dry-run first)
+TSK-328,TST-403,Task (New),process,processing,Batch processing provides better control over update speed,Makovska Anna,Dev,new,N/A,0%,Batch processing provides better control over update speed
+TSK-333,TST-410,Task (New),unknown,,Template folders completely ignored at directory level,Makovska Anna,Dev,new,N/A,0%,Template folders completely ignored at directory level
+TSK-334,TST-411,Task (New),base,list,List files synchronized but not sent as collection items,Makovska Anna,Dev,new,N/A,0%,List files synchronized but not sent as collection items
+TSK-335,TST-419,Task (New),unknown,,**Challenge:** Server overload risk when sending many update...,Makovska Anna,Dev,new,N/A,0%,**Challenge:** Server overload risk when sending many updates
+TSK-338,TST-428,Task (New),unknown,,Strapi API (https://strapi.rem-s.com),Makovska Anna,Dev,new,N/A,0%,Strapi API (https://strapi.rem-s.com)
+TSK-345,TST-435,Task (New),base,consider,Consider additional safety features if needed,Makovska Anna,Dev,new,N/A,0%,Consider additional safety features if needed
+TSK-347,TST-437,Task (New),base,add,Add results of calls/agreements immediately,Makovska Anna,Dev,new,N/A,0%,Add results of calls/agreements immediately
+TSK-351,TST-441,Task (New),process,accessing,"**Time Zone Management:** When accessing the Lead Calendar, ...",Archibong Isaac,LG,new,N/A,0%,"**Time Zone Management:** When accessing the Lead Calendar, the time zones (e.g., Eastern European Time/Kyiv) are automatically converted. You do not need to manually calculate the time difference; simply select an available slot (e.g., 10:30 AM)."
+TSK-352,TST-442,Task (New),process,syncing,**Syncing Calendars:** Bookings made on the Lead Calendar **...,Archibong Isaac,LG,new,N/A,0%,"**Syncing Calendars:** Bookings made on the Lead Calendar **do not** automatically sync to our internal (LG) calendar. After booking a call on the Lead Calendar, you must manually add the entry to the LG calendar."
+TSK-355,TST-445,Task (New),unknown,,**Exception:** You do not need to input the Sales or Lead em...,Archibong Isaac,LG,new,N/A,0%,"**Exception:** You do not need to input the Sales or Lead email addresses in the internal calendar entry, as those are already captured in the Lead Calendar system."
+TSK-356,TST-446,Task (New),unknown,,"**Communication:** Once the call is booked, notify the Sales...",Archibong Isaac,LG,new,N/A,0%,"**Communication:** Once the call is booked, notify the Sales Department (specifically Anastasia) so they can review and accept the calendar invitation."
+TSK-361,TST-451,Task (New),process,creating,**Deliverables:** You will be creating social media graphics...,Archibong Isaac,LG,new,N/A,0%,"**Deliverables:** You will be creating social media graphics. Unlike previous posts that promoted specific job vacancies, these posts will focus on broader content, such as ""Tools for Remote Employees"" or ""Work-from-Home Experiences."""
+TSK-364,TST-454,Task (New),base,format,**Format:** Square (1080 x 1080 pixels).,Archibong Isaac,LG,new,N/A,0%,**Format:** Square (1080 x 1080 pixels).
+TSK-367,TST-457,Task (New),base,file,"**File Access:** Access the ""Remess"" folder on Google Drive....",Archibong Isaac,LG,new,N/A,0%,"**File Access:** Access the ""Remess"" folder on Google Drive. Inside, locate the `Social Media` subfolder containing:"
+TSK-370,TST-460,Task (New),base,post,`Post References` (Examples of previous work).,Archibong Isaac,LG,new,N/A,0%,`Post References` (Examples of previous work).
+TSK-373,TST-463,Task (New),process,prompting,"**Prompting:** Use the ""Universal Option"" prompt found in th...",Archibong Isaac,LG,new,N/A,0%,"**Prompting:** Use the ""Universal Option"" prompt found in the instructions. Do not worry about specific placeholders unless the post is about a specific vacancy."
+TSK-393,TST-520,Task (New),process,training,Training recording saved for reuse,Bindiak Dana,LG,new,N/A,0%,Training recording saved for reuse
+TSK-407,TST-576,Task (New),unknown,,Recieved 2 more working accounts and made black friday disco...,Cynthia Aninwezi,LG,new,N/A,0%,Recieved 2 more working accounts and made black friday discount posts and repost in each account.
+RPT-001,TST-007,Report (Matched),result,assigned,*Assigned To:** Designer without daily files in folder,Artemchuk Nikolay,AI,new,TST-074,37.5%,*Assigned To:** Designer without daily files in folder
+RPT-002,TST-008,Report (Matched),result,estimated,*Estimated Time:** 1.5h,Artemchuk Nikolay,AI,new,TST-011,25.0%,*Estimated Time:** 1.5h
+RPT-003,TST-027,Report (Matched),result,handled,Support requests handled,Artemchuk Nikolay,AI,new,TST-009,33.3%,Support requests handled
+RPT-007,TST-061,Report (Matched),result,developed,Management (needs to be developed),Skrypkar Vilhelm,Design,new,TST-081,40.0%,Management (needs to be developed)
+RPT-012,TST-313,Report (Matched),result,implemented,Implemented `copyToUpdated()` function that recursively copi...,Makovska Anna,Dev,new,TST-045,28.6%,Implemented `copyToUpdated()` function that recursively copies all JSON files from `exported/collections/` to `updated/collections/`
+RPT-015,TST-323,Report (Matched),result,streamlined,Streamlined workflow for content management,Makovska Anna,Dev,completed,TST-081,60.0%,Streamlined workflow for content management
+RPT-018,TST-327,Report (Matched),result,added,Added batch processing (10 files per batch) for controlled u...,Makovska Anna,Dev,new,TST-046,30.0%,Added batch processing (10 files per batch) for controlled update speed
+RPT-019,TST-328,Report (Matched),result,implemented,Implemented retry logic with exponential backoff (up to 3 re...,Makovska Anna,Dev,new,TST-048,30.0%,Implemented retry logic with exponential backoff (up to 3 retries)
+RPT-022,TST-332,Report (Matched),result,deleted,Deleted files → DELETE requests,Makovska Anna,Dev,new,TST-009,25.0%,Deleted files → DELETE requests
+RPT-023,TST-349,Report (Matched),result,implemented,Implemented comprehensive file filtering system:,Makovska Anna,Dev,new,TST-048,60.0%,Implemented comprehensive file filtering system:
+RPT-024,TST-354,Report (Matched),result,created,Created `shouldIgnoreFile()` and `shouldIgnoreDirectory()` h...,Makovska Anna,Dev,new,TST-073,33.3%,Created `shouldIgnoreFile()` and `shouldIgnoreDirectory()` helper functions
+RPT-026,TST-361,Report (Matched),result,sent,Template files never sent to backend,Makovska Anna,Dev,completed,TST-045,33.3%,Template files never sent to backend
+RPT-028,TST-366,Report (Matched),result,created,Created automatic synchronization of `{collection}-list.json...,Makovska Anna,Dev,new,TST-033,37.5%,Created automatic synchronization of `{collection}-list.json` files:
+RPT-029,TST-370,Report (Matched),result,created,Created separate `{collection}-changed-list.json` files:,Makovska Anna,Dev,new,TST-023,28.6%,Created separate `{collection}-changed-list.json` files:
+RPT-030,TST-380,Report (Matched),result,synchronized,Full list.json files always synchronized before updates,Makovska Anna,Dev,completed,TST-068,37.5%,Full list.json files always synchronized before updates
+RPT-032,TST-385,Report (Matched),result,added,Added comprehensive sections:,Makovska Anna,Dev,new,TST-035,33.3%,Added comprehensive sections:
+RPT-033,TST-392,Report (Matched),result,created,Created visual indicators and emojis for better readability,Makovska Anna,Dev,new,TST-019,37.5%,Created visual indicators and emojis for better readability
+RPT-034,TST-393,Report (Matched),result,added,Added checklist for safe updates,Makovska Anna,Dev,new,TST-074,40.0%,Added checklist for safe updates
+RPT-035,TST-395,Report (Matched),result,simplified,Simplified technical language,Makovska Anna,Dev,new,TST-079,33.3%,Simplified technical language
+RPT-036,TST-412,Report (Matched),result,enhanced,Enhanced export script with automatic copy to updated/collec...,Makovska Anna,Dev,completed,TST-005,22.2%,Enhanced export script with automatic copy to updated/collections
+RPT-037,TST-413,Report (Matched),result,refactored,Refactored update script with rate limiting and retry logic,Makovska Anna,Dev,completed,TST-013,33.3%,Refactored update script with rate limiting and retry logic
+RPT-038,TST-415,Report (Matched),result,implemented,"Implemented comprehensive file filtering (template files, fi...",Makovska Anna,Dev,completed,TST-045,25.0%,"Implemented comprehensive file filtering (template files, files without ID)"
+RPT-040,TST-417,Report (Matched),result,updated,"Updated documentation with simple, clear instructions",Makovska Anna,Dev,completed,TST-035,33.3%,"Updated documentation with simple, clear instructions"
+RPT-042,TST-420,Report (Matched),result,implemented,"*Solution:**  Implemented rate limiting (800ms), batch proce...",Makovska Anna,Dev,completed,TST-046,25.0%,"*Solution:**  Implemented rate limiting (800ms), batch processing (10 files), and retry logic"
+RPT-043,TST-423,Report (Matched),result,sent,**Challenge:** Template files being sent to backend,Makovska Anna,Dev,new,TST-045,28.6%,**Challenge:** Template files being sent to backend
+RPT-047,TST-476,Report (Matched),result,checked,Checked all working accounts for new requests/messages/notif...,Bindiak Dana,LG,new,TST-044,33.3%,Checked all working accounts for new requests/messages/notifications
+RPT-048,TST-477,Report (Matched),result,updated,Updated CRM statuses for accepted connections,Bindiak Dana,LG,new,TST-080,33.3%,Updated CRM statuses for accepted connections
+RPT-049,TST-478,Report (Matched),result,sent,Sent first-message templates to new connections,Bindiak Dana,LG,new,TST-044,28.6%,Sent first-message templates to new connections
+RPT-050,TST-479,Report (Matched),result,sent,Sent follow-up messages where needed,Bindiak Dana,LG,new,TST-021,33.3%,Sent follow-up messages where needed
+RPT-052,TST-485,Report (Matched),result,flagged,Flagged the need for correct daily report updates by lead ge...,Bindiak Dana,LG,new,TST-074,41.7%,Flagged the need for correct daily report updates by lead generation managers
+RPT-053,TST-486,Report (Matched),result,discussed,Discussed reallocating/giving more accounts to lead generati...,Bindiak Dana,LG,new,TST-004,33.3%,Discussed reallocating/giving more accounts to lead generation managers
+RPT-054,TST-488,Report (Matched),result,reminded,Managers reminded to update daily reports accurately,Bindiak Dana,LG,new,TST-074,42.9%,Managers reminded to update daily reports accurately
+RPT-055,TST-493,Report (Matched),result,checked,Checked dependencies to ensure updates fit the timeline,Bindiak Dana,LG,new,TST-074,37.5%,Checked dependencies to ensure updates fit the timeline
+RPT-057,TST-496,Report (Matched),result,updated,Updated plan confirmed for the day,Bindiak Dana,LG,new,TST-039,33.3%,Updated plan confirmed for the day
+RPT-058,TST-497,Report (Matched),result,aligned,Stakeholders aligned on new schedule,Bindiak Dana,LG,new,TST-044,40.0%,Stakeholders aligned on new schedule
+RPT-059,TST-499,Report (Matched),result,checked,Checked daily report files for all lead generation team memb...,Bindiak Dana,LG,new,TST-074,46.2%,Checked daily report files for all lead generation team members and corrected mistakes
+RPT-060,TST-500,Report (Matched),result,highlighted,Highlighted Whisper Flow requirements and reminded the team ...,Bindiak Dana,LG,new,TST-042,25.0%,Highlighted Whisper Flow requirements and reminded the team to keep it active
+RPT-061,TST-505,Report (Matched),result,reminded,Team reminded about Whisper Flow usage and reporting standar...,Bindiak Dana,LG,new,TST-041,22.2%,Team reminded about Whisper Flow usage and reporting standards
+RPT-062,TST-506,Report (Matched),result,shared,Guidance shared to improve future report quality,Bindiak Dana,LG,new,TST-074,42.9%,Guidance shared to improve future report quality
+RPT-063,TST-508,Report (Matched),result,assigned,Assigned additional LinkedIn accounts to lead generation man...,Bindiak Dana,LG,new,TST-017,41.7%,Assigned additional LinkedIn accounts to lead generation managers for posting and reposting
+RPT-064,TST-509,Report (Matched),result,confirmed,Confirmed each manager's capacity and matched accounts to th...,Bindiak Dana,LG,new,TST-045,27.3%,Confirmed each manager's capacity and matched accounts to their workflows
+RPT-065,TST-510,Report (Matched),result,clarified,Clarified posting expectations and timelines for the new all...,Bindiak Dana,LG,new,TST-017,33.3%,Clarified posting expectations and timelines for the new allocations
+RPT-066,TST-512,Report (Matched),result,distributed,Extra accounts distributed to managers for LinkedIn activity,Bindiak Dana,LG,new,TST-017,37.5%,Extra accounts distributed to managers for LinkedIn activity
+RPT-067,TST-513,Report (Matched),result,aligned,Posting/reposting expectations aligned with team capacity,Bindiak Dana,LG,new,TST-041,28.6%,Posting/reposting expectations aligned with team capacity
+RPT-068,TST-517,Report (Matched),result,recorded,Recorded the session for future reference and onboarding,Bindiak Dana,LG,new,TST-039,37.5%,Recorded the session for future reference and onboarding
+RPT-069,TST-519,Report (Matched),result,learned,Team learned image generation workflow with ChatGPT prompts,Bindiak Dana,LG,new,TST-076,50.0%,Team learned image generation workflow with ChatGPT prompts
+RPT-070,TST-522,Report (Matched),result,handled,Handled organization tasks and contacted AI specialists to t...,Bindiak Dana,LG,new,TST-072,37.5%,Handled organization tasks and contacted AI specialists to test a new method for messaging old connections
+RPT-071,TST-523,Report (Matched),result,informed,Informed managers about the extra LinkedIn accounts assigned...,Bindiak Dana,LG,new,TST-017,30.0%,Informed managers about the extra LinkedIn accounts assigned for posting
+RPT-072,TST-524,Report (Matched),result,coordinated,Coordinated with the sales manager about future support for ...,Bindiak Dana,LG,new,TST-039,30.0%,Coordinated with the sales manager about future support for the sales team
+RPT-073,TST-525,Report (Matched),result,planned,Planned an image-creation practice task for lead generation ...,Bindiak Dana,LG,new,TST-045,30.0%,Planned an image-creation practice task for lead generation managers
+RPT-074,TST-527,Report (Matched),result,initiated,AI outreach initiated for messaging tests on old connections,Bindiak Dana,LG,new,TST-039,33.3%,AI outreach initiated for messaging tests on old connections
+RPT-075,TST-528,Report (Matched),result,updated,Managers updated on additional posting accounts,Bindiak Dana,LG,new,TST-017,33.3%,Managers updated on additional posting accounts
+RPT-076,TST-529,Report (Matched),result,captured,Sales support needs captured for upcoming assistance,Bindiak Dana,LG,new,TST-078,28.6%,Sales support needs captured for upcoming assistance
+RPT-077,TST-533,Report (Matched),result,explained,Explained best practices for completing daily report files f...,Bindiak Dana,LG,new,TST-074,36.4%,Explained best practices for completing daily report files for lead generation managers
+RPT-078,TST-534,Report (Matched),result,clarified,Answered questions and clarified the required report details,Bindiak Dana,LG,new,TST-074,37.5%,Answered questions and clarified the required report details
+RPT-079,TST-536,Report (Matched),result,understood,Managers understood Dropbox usage and folder structure,Bindiak Dana,LG,new,TST-024,28.6%,Managers understood Dropbox usage and folder structure
+RPT-080,TST-539,Report (Matched),result,discussed,Discussed initial results from testing the new method for me...,Bindiak Dana,LG,new,TST-044,25.0%,Discussed initial results from testing the new method for messaging old connections
+RPT-081,TST-541,Report (Matched),result,outlined,Outlined next adjustments to improve the messaging flow,Bindiak Dana,LG,new,TST-074,25.0%,Outlined next adjustments to improve the messaging flow
+RPT-082,TST-543,Report (Matched),result,documented,Early findings documented for the new messaging approach,Bindiak Dana,LG,new,TST-039,25.0%,Early findings documented for the new messaging approach
+RPT-083,TST-544,Report (Matched),result,captured,Action items captured to refine the test,Bindiak Dana,LG,new,TST-074,28.6%,Action items captured to refine the test
+RPT-084,TST-546,Report (Matched),result,posted,Posted Black Friday discount content across additional Linke...,Bindiak Dana,LG,new,TST-043,22.2%,Posted Black Friday discount content across additional LinkedIn accounts
+RPT-085,TST-547,Report (Matched),result,ensured,Ensured messaging matched the promotion guidelines and visua...,Bindiak Dana,LG,new,TST-076,37.5%,Ensured messaging matched the promotion guidelines and visuals
+RPT-086,TST-548,Report (Matched),result,verified,Verified posts went live and noted any accounts needing foll...,Bindiak Dana,LG,new,TST-073,27.3%,Verified posts went live and noted any accounts needing follow-up
+RPT-087,TST-550,Report (Matched),result,published,Black Friday posts published on extra LinkedIn accounts,Bindiak Dana,LG,new,TST-017,25.0%,Black Friday posts published on extra LinkedIn accounts
+RPT-088,TST-553,Report (Matched),result,reviewed,Reviewed CRM cards for newcomers and provided feedback on th...,Bindiak Dana,LG,new,TST-080,36.4%,Reviewed CRM cards for newcomers and provided feedback on their entries
+RPT-089,TST-554,Report (Matched),result,filled,Filled out the working process table with updated status and...,Bindiak Dana,LG,new,TST-039,27.3%,Filled out the working process table with updated status and notes
+RPT-090,TST-555,Report (Matched),result,highlighted,Highlighted corrections and next steps for each newcomer,Bindiak Dana,LG,new,TST-011,25.0%,Highlighted corrections and next steps for each newcomer
+RPT-091,TST-557,Report (Matched),result,reviewed,CRM cards reviewed and improved for newcomers,Bindiak Dana,LG,new,TST-041,42.9%,CRM cards reviewed and improved for newcomers
+RPT-092,TST-559,Report (Matched),result,shared,Action points shared with newcomers for follow-up,Bindiak Dana,LG,new,TST-072,37.5%,Action points shared with newcomers for follow-up
+RPT-093,TST-569,Report (Matched),result,reviewed,Reviewed all working 8 accounts to identify new connections,Cynthia Aninwezi,LG,new,TST-044,33.3%,Reviewed all working 8 accounts to identify new connections
+RPT-094,TST-570,Report (Matched),result,sent,"Sent first message to all connected leads, send follow up me...",Cynthia Aninwezi,LG,new,TST-021,26.7%,"Sent first message to all connected leads, send follow up mesages to leads that were due for follow up"
+RPT-095,TST-571,Report (Matched),result,updated,Updated CRM status,Cynthia Aninwezi,LG,new,TST-022,33.3%,Updated CRM status
+RPT-097,TST-573,Report (Matched),result,sent,Sent connection requests to relevant leads attached to each ...,Cynthia Aninwezi,LG,new,TST-017,33.3%,Sent connection requests to relevant leads attached to each company
+RPT-098,TST-574,Report (Matched),result,updated,Updated job sites spreadsheet with relevant informations att...,Cynthia Aninwezi,LG,new,TST-005,27.3%,Updated job sites spreadsheet with relevant informations attached to each job site.
+RPT-100,TST-577,Report (Matched),result,sent,"10 messages sent to leads (5 follow up messages), (5 first m...",Cynthia Aninwezi,LG,new,TST-021,33.3%,"10 messages sent to leads (5 follow up messages), (5 first messages)"
+RPT-101,TST-578,Report (Matched),result,processed,15 job sites processed,Cynthia Aninwezi,LG,new,TST-006,25.0%,15 job sites processed
+RPT-102,TST-579,Report (Matched),result,added,11 job sites added to CRM,Cynthia Aninwezi,LG,new,TST-017,33.3%,11 job sites added to CRM
+RPT-103,TST-580,Report (Matched),result,sent,20 connection requests sent to leads,Cynthia Aninwezi,LG,new,TST-017,50.0%,20 connection requests sent to leads
+RPT-104,TST-581,Report (Matched),result,made,2 black friday posts made in each new account,Cynthia Aninwezi,LG,new,TST-009,22.2%,2 black friday posts made in each new account
+RPT-105,TST-584,Report (Matched),result,added,Added new companies and their relevant leads into the CRM us...,Cynthia Aninwezi,LG,new,TST-017,38.5%,Added new companies and their relevant leads into the CRM using google scrape
+RPT-107,TST-587,Report (Matched),result,sent,43 connection requests sent,Cynthia Aninwezi,LG,new,TST-009,25.0%,43 connection requests sent
+RPT-004,TST-028,Report (New),result,removed,Blockers removed,Artemchuk Nikolay,AI,new,N/A,0%,Blockers removed
+RPT-005,TST-029,Report (New),result,shared,Knowledge shared,Artemchuk Nikolay,AI,new,N/A,0%,Knowledge shared
+RPT-006,TST-060,Report (New),result,developed,Translators (needs to be developed),Skrypkar Vilhelm,Design,new,N/A,0%,Translators (needs to be developed)
+RPT-008,TST-062,Report (New),result,developed,Marketers (needs to be developed),Skrypkar Vilhelm,Design,new,N/A,0%,Marketers (needs to be developed)
+RPT-009,TST-164,Report (New),result,exported,Структура: exported/ та updated/ папки в ENTITIES\ASSETS\rem...,Danylenko Liliia,Dev,new,N/A,0%,Структура: exported/ та updated/ папки в ENTITIES\ASSETS\rem-s\
+RPT-010,TST-267,Report (New),result,updated,Створено папки ENTITIES\ASSETS\rem-s\exported та updated,Danylenko Liliia,Dev,new,N/A,0%,Створено папки ENTITIES\ASSETS\rem-s\exported та updated
+RPT-011,TST-312,Report (New),result,enhanced,Enhanced `script-collections-export.js` to automatically cop...,Makovska Anna,Dev,new,N/A,0%,Enhanced `script-collections-export.js` to automatically copy exported data to `updated/collections/` folder
+RPT-013,TST-314,Report (New),result,added,Added automatic synchronization after export process complet...,Makovska Anna,Dev,new,N/A,0%,Added automatic synchronization after export process completes
+RPT-014,TST-315,Report (New),result,ensured,Ensured directory structure is preserved during copy operati...,Makovska Anna,Dev,new,N/A,0%,Ensured directory structure is preserved during copy operation
+RPT-016,TST-325,Report (New),result,refactored,Completely refactored `script-collections-update.js` to work...,Makovska Anna,Dev,new,N/A,0%,Completely refactored `script-collections-update.js` to work with `updated/collections/` folder
+RPT-017,TST-326,Report (New),result,implemented,Implemented comprehensive rate limiting (800ms delay between...,Makovska Anna,Dev,new,N/A,0%,Implemented comprehensive rate limiting (800ms delay between requests) to prevent server overload
+RPT-020,TST-329,Report (New),result,added,Added intelligent change detection:,Makovska Anna,Dev,new,N/A,0%,Added intelligent change detection:
+RPT-021,TST-331,Report (New),result,modified,Modified files → PUT/PATCH requests,Makovska Anna,Dev,new,N/A,0%,Modified files → PUT/PATCH requests
+RPT-025,TST-355,Report (New),result,added,Added path-based filtering to catch files in template folder...,Makovska Anna,Dev,new,N/A,0%,Added path-based filtering to catch files in template folders even if they have IDs
+RPT-027,TST-365,Report (New),result,implemented,Implemented `syncListFiles()` function that runs before send...,Makovska Anna,Dev,new,N/A,0%,Implemented `syncListFiles()` function that runs before sending updates
+RPT-031,TST-384,Report (New),result,updated,Updated `README.md` for collections-update script with simpl...,Makovska Anna,Dev,new,N/A,0%,"Updated `README.md` for collections-update script with simple, child-friendly language"
+RPT-039,TST-416,Report (New),result,created,Created list.json synchronization system,Makovska Anna,Dev,completed,N/A,0%,Created list.json synchronization system
+RPT-041,TST-418,Report (New),result,added,Added dry-run mode for safe testing,Makovska Anna,Dev,completed,N/A,0%,Added dry-run mode for safe testing
+RPT-044,TST-424,Report (New),result,implemented,*Solution:**  Implemented comprehensive filtering (template ...,Makovska Anna,Dev,completed,N/A,0%,"*Solution:**  Implemented comprehensive filtering (template folders, files without ID, path checking)"
+RPT-045,TST-426,Report (New),result,created,*Solution:**  Created syncListFiles() function that runs bef...,Makovska Anna,Dev,completed,N/A,0%,*Solution:**  Created syncListFiles() function that runs before sending updates
+RPT-046,TST-467,Report (New),result,generated,**Quality Control:** If the generated cat looks different fr...,Archibong Isaac,LG,new,N/A,0%,"**Quality Control:** If the generated cat looks different from the mascot (e.g., wrong eyes, wrong style), explicitly remind the AI: *""Please review the uploaded mascot references and regenerate.""* You can also ask for specific edits, such as *""Add a world map to the background.""*"
+RPT-051,TST-482,Report (New),result,dispatched,Initial touchpoints and follow-ups dispatched,Bindiak Dana,LG,new,N/A,0%,Initial touchpoints and follow-ups dispatched
+RPT-056,TST-494,Report (New),result,communicated,Communicated adjusted plan to stakeholders,Bindiak Dana,LG,new,N/A,0%,Communicated adjusted plan to stakeholders
+RPT-096,TST-572,Report (New),result,added,Added new company cards into CRM working with job sites spre...,Cynthia Aninwezi,LG,new,N/A,0%,Added new company cards into CRM working with job sites spreadsheet
+RPT-099,TST-575,Report (New),result,sent,Sent an apology to the lead that rescheduled meeting(John Ru...,Cynthia Aninwezi,LG,new,N/A,0%,Sent an apology to the lead that rescheduled meeting(John Ruthledge) as there was a mix up with his company name.
+RPT-106,TST-586,Report (New),result,added,26 new companies added into CRM,Cynthia Aninwezi,LG,new,N/A,0%,26 new companies added into CRM
+PRB-001,TST-019,Problem,,,"Help with access issues (tokens, accounts, extensions)",Artemchuk Nikolay,AI,new,N/A,N/A,"Help with access issues (tokens, accounts, extensions)"
+PRB-002,TST-021,Problem,,,Document common issues for future FAQ,Artemchuk Nikolay,AI,new,N/A,N/A,Document common issues for future FAQ
+PRB-003,TST-025,Problem,,,Common issues documented,Artemchuk Nikolay,AI,new,N/A,N/A,Common issues documented
+PRB-004,TST-031,Problem,,,**9:00 AM - 11:00 AM:** Monitored and managed the ongoing au...,Perederii Vladislav,AI,new,N/A,N/A,"**9:00 AM - 11:00 AM:** Monitored and managed the ongoing automated processing of the 70k+ job vacancies collected yesterday. Checked the output tables to ensure data is being cleaned, enriched, and populated correctly. Addressed any minor errors that arose."
+PRB-005,TST-041,Problem,,,"The primary feedback on ""Gem"" is that the tone is slightly t...",Perederii Vladislav,AI,new,N/A,N/A,"The primary feedback on ""Gem"" is that the tone is slightly too formal. This is an easy fix in the system prompt."
+PRB-006,TST-116,Problem,,,**Помилка 500 (Internal Server Error):** Виникла через відпр...,Artem Skichko,Dev,new,N/A,N/A,"**Помилка 500 (Internal Server Error):** Виникла через відправку системних полів (createdAt, updatedAt, locale, id) до Strapi. **Вирішення:** Додано функцію `cleanDataForUpdate()` для видалення системних полів перед оновленням."
+PRB-007,TST-117,Problem,,,**Помилка 405 (Method Not Allowed):** Деякі endpoints не під...,Artem Skichko,Dev,new,N/A,N/A,"**Помилка 405 (Method Not Allowed):** Деякі endpoints не підтримували стандартний PUT метод. **Вирішення:** Реалізовано fallback механізм, який пробує різні HTTP методи (PUT → PATCH → POST) та різні формати URL (`/api/{endpoint}` та `/api/single-types/{endpoint}`)."
+PRB-008,TST-118,Problem,,,"**Помилка 400 (Missing ""data"" payload):** Strapi v4 вимагає ...",Artem Skichko,Dev,new,N/A,N/A,"**Помилка 400 (Missing ""data"" payload):** Strapi v4 вимагає обгортку `{ data: ... }` для всіх запитів. **Вирішення:** Перевірено, що всі body формати включають обгортку `{ data: ... }`."
+PRB-009,TST-119,Problem,,,**Frontend помилка (Cannot read properties of null):** Після...,Artem Skichko,Dev,new,N/A,N/A,"**Frontend помилка (Cannot read properties of null):** Після оновлення фронтенд не міг отримати дані через `data.attributes`. **Вирішення:** Додано логіку для збереження `publishedAt` в payload, щоб дані залишалися опублікованими та доступними для фронтенду."
+PRB-010,TST-189,Problem,,,Troubleshooting section,Danylenko Liliia,Dev,new,N/A,N/A,Troubleshooting section
+PRB-011,TST-241,Problem,,,Проблема з експортом картинок вирішена,Danylenko Liliia,Dev,completed,N/A,N/A,Проблема з експортом картинок вирішена
+PRB-012,TST-270,Problem,,,"❌ Проблема: Strapi та OpenAI - окремі сервіси, не можна напр...",Danylenko Liliia,Dev,new,N/A,N/A,"❌ Проблема: Strapi та OpenAI - окремі сервіси, не можна напряму під'єднати"
+PRB-013,TST-273,Problem,,,"❌ Проблема: Контент існує на 4 мовах (EN, UA, PL, RU), треба...",Danylenko Liliia,Dev,new,N/A,N/A,"❌ Проблема: Контент існує на 4 мовах (EN, UA, PL, RU), треба витягувати всі"
+PRB-014,TST-276,Problem,,,"❌ Проблема: 112 вакансій, але багато застарілих, як фільтрув...",Danylenko Liliia,Dev,new,N/A,N/A,"❌ Проблема: 112 вакансій, але багато застарілих, як фільтрувати?"
+PRB-015,TST-279,Problem,,,❌ Проблема: Features не витягуються для деяких сторінок,Danylenko Liliia,Dev,new,N/A,N/A,❌ Проблема: Features не витягуються для деяких сторінок
+PRB-016,TST-282,Problem,,,❌ Проблема: Працюємо напряму з production Strapi,Danylenko Liliia,Dev,new,N/A,N/A,❌ Проблема: Працюємо напряму з production Strapi
+PRB-017,TST-333,Problem,,,Fixed API endpoint mapping (singular vs plural):,Makovska Anna,Dev,new,N/A,N/A,Fixed API endpoint mapping (singular vs plural):
+PRB-018,TST-342,Problem,,,Automatic fallback from PUT to PATCH if PUT fails,Makovska Anna,Dev,new,N/A,N/A,Automatic fallback from PUT to PATCH if PUT fails
+PRB-019,TST-343,Problem,,,Comprehensive error handling with detailed messages,Makovska Anna,Dev,new,N/A,N/A,Comprehensive error handling with detailed messages
+PRB-020,TST-345,Problem,,,"Automatic retry on transient errors (429, 500)",Makovska Anna,Dev,completed,N/A,N/A,"Automatic retry on transient errors (429, 500)"
+PRB-021,TST-351,Problem,,,"Files without ID prefix (e.g., `vacancy-template.json`) are ...",Makovska Anna,Dev,new,N/A,N/A,"Files without ID prefix (e.g., `vacancy-template.json`) are skipped"
+PRB-022,TST-391,Problem,,,Troubleshooting section,Makovska Anna,Dev,new,N/A,N/A,Troubleshooting section
+PRB-023,TST-398,Problem,,,Comprehensive error handling guide,Makovska Anna,Dev,new,N/A,N/A,Comprehensive error handling guide
+PRB-024,TST-401,Problem,,,Comprehensive troubleshooting section,Makovska Anna,Dev,completed,N/A,N/A,Comprehensive troubleshooting section
+PRB-025,TST-404,Problem,,,Retry logic with exponential backoff handles transient error...,Makovska Anna,Dev,new,N/A,N/A,Retry logic with exponential backoff handles transient errors gracefully
+PRB-026,TST-409,Problem,,,3 retries with exponential backoff handles most transient er...,Makovska Anna,Dev,new,N/A,N/A,3 retries with exponential backoff handles most transient errors
+PRB-027,TST-414,Problem,,,Fixed API endpoint mapping (singular vs plural),Makovska Anna,Dev,completed,N/A,N/A,Fixed API endpoint mapping (singular vs plural)
+PRB-028,TST-421,Problem,,,**Challenge:** Incorrect API endpoints causing 405 errors,Makovska Anna,Dev,new,N/A,N/A,**Challenge:** Incorrect API endpoints causing 405 errors
+PRB-029,TST-422,Problem,,,*Solution:**  Fixed endpoint mapping to use singular forms (...,Makovska Anna,Dev,completed,N/A,N/A,"*Solution:**  Fixed endpoint mapping to use singular forms (category, not categories)"
+PRB-030,TST-468,Problem,,,"*Topic:** Troubleshooting VS Code, setting up the ""Codecs"" e...",Archibong Isaac,LG,new,N/A,N/A,"*Topic:** Troubleshooting VS Code, setting up the ""Codecs"" extension, and automating daily reports."
+PRB-031,TST-473,Problem,,,"*Q: I'm getting an error telling me to ""Open in Legacy Accou...",Archibong Isaac,LG,new,N/A,N/A,"*Q: I'm getting an error telling me to ""Open in Legacy Account."" How do I fix this?**"
+PRB-032,TST-474,Problem,,,*A:** This is likely an extension issue.,Archibong Isaac,LG,new,N/A,N/A,*A:** This is likely an extension issue.
+PRB-033,TST-484,Problem,,,Attended admin meeting to review tasks and immediate issues,Bindiak Dana,LG,new,N/A,N/A,Attended admin meeting to review tasks and immediate issues
+PRB-034,TST-490,Problem,,,Immediate issues identified for follow-up after meeting,Bindiak Dana,LG,new,N/A,N/A,Immediate issues identified for follow-up after meeting
+PRB-035,TST-501,Problem,,,Helped resolve report saving issues and shared tips to avoid...,Bindiak Dana,LG,new,N/A,N/A,Helped resolve report saving issues and shared tips to avoid recurrence
+PRB-036,TST-504,Problem,,,Daily reports corrected and re-saved without issues,Bindiak Dana,LG,new,N/A,N/A,Daily reports corrected and re-saved without issues
+PRB-037,TST-540,Problem,,,Collected feedback on response rates and any delivery issues,Bindiak Dana,LG,new,N/A,N/A,Collected feedback on response rates and any delivery issues
+PRB-038,TST-551,Problem,,,Follow-ups identified for any posting issues,Bindiak Dana,LG,new,N/A,N/A,Follow-ups identified for any posting issues
+PRB-039,TST-590,Problem,,,Completed streaming session for the day despite technical is...,Cynthia Aninwezi,LG,new,N/A,N/A,Completed streaming session for the day despite technical issues
+PRB-040,TST-592,Problem,,,Team leads Ann and Dana assisted in rectifyig issue with lea...,Cynthia Aninwezi,LG,new,N/A,N/A,Team leads Ann and Dana assisted in rectifyig issue with lead.
+PRB-041,TST-593,Problem,,,"Ann created the apology message which i sent to lead, also g...",Cynthia Aninwezi,LG,new,N/A,N/A,"Ann created the apology message which i sent to lead, also gave me a troubleshooting advice that sorted the challenge encountered on the streaming platform."

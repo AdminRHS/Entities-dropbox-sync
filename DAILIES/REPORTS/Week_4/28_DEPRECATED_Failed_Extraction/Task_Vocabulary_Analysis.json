@@ -1,0 +1,300 @@
+{
+  "metadata": {
+    "analysis_date": "2025-11-29",
+    "source_file": "Day28_Tasks_v2.json",
+    "total_items": 595,
+    "unique_verbs": 340,
+    "field_labels_found": 0,
+    "time_stamped_entries": 4
+  },
+  "top_verbs": {
+    "active_verbs": [
+      "what",
+      "whisper",
+      "time",
+      "challenge",
+      "step",
+      "проблема",
+      "a",
+      "створено",
+      "аналіз",
+      "визначено",
+      "рішення",
+      "technical",
+      "sent",
+      "project",
+      "the",
+      "додати",
+      "strapi",
+      "template",
+      "list",
+      "file",
+      "solution",
+      "status",
+      "ai",
+      "rate",
+      "помилка",
+      "дослідження",
+      "координація",
+      "1",
+      "batch",
+      "comprehensive",
+      "topic",
+      "2",
+      "q",
+      "managers",
+      "team",
+      "common",
+      "hr",
+      "sales",
+      "full",
+      "frontend",
+      "developers",
+      "request",
+      "в",
+      "коли"
+    ],
+    "completed_verbs": [
+      "added",
+      "implemented",
+      "updated",
+      "created",
+      "sent",
+      "checked",
+      "assigned"
+    ],
+    "frequency": {
+      "what": 41,
+      "whisper": 30,
+      "time": 10,
+      "challenge": 9,
+      "added": 9,
+      "step": 7,
+      "проблема": 6,
+      "implemented": 6,
+      "updated": 6,
+      "a": 5,
+      "створено": 5,
+      "аналіз": 5,
+      "визначено": 5,
+      "рішення": 5,
+      "technical": 5,
+      "created": 5,
+      "sent": 5,
+      "project": 4,
+      "the": 4,
+      "додати": 4,
+      "strapi": 4,
+      "template": 4,
+      "list": 4,
+      "file": 4,
+      "solution": 4,
+      "status": 3,
+      "ai": 3,
+      "rate": 3,
+      "помилка": 3,
+      "дослідження": 3,
+      "координація": 3,
+      "1": 3,
+      "batch": 3,
+      "comprehensive": 3,
+      "topic": 3,
+      "2": 3,
+      "q": 3,
+      "checked": 3,
+      "managers": 3,
+      "team": 3,
+      "assigned": 2,
+      "common": 2,
+      "hr": 2,
+      "sales": 2,
+      "full": 2,
+      "frontend": 2,
+      "developers": 2,
+      "request": 2,
+      "в": 2,
+      "коли": 2
+    }
+  },
+  "field_labels": {},
+  "deliverable_patterns": {
+    "code": {
+      "count": 18,
+      "samples": [
+        "*Taxonomy Code:** TST-043 (Relationship Building & Networking - adapted for support)",
+        "A clear performance baseline for the Google Maps script has been established, and specific, time-consuming functions have been identified for future optimization.",
+        "Code review completed",
+        "Honeystone project - code review та завершення",
+        "VS Code - редагування документації",
+        "Enhanced `script-collections-export.js` to automatically copy exported data to `updated/collections/` folder",
+        "Completely refactored `script-collections-update.js` to work with `updated/collections/` folder",
+        "Script safely handles server requests without overloading",
+        "Maintains same structure as export script",
+        "Updated `README.md` for collections-update script with simple, child-friendly language"
+      ]
+    },
+    "documentation": {
+      "count": 8,
+      "samples": [
+        "Guide on when to use which tool (Cursor vs Antigravity vs Claude)",
+        "Document common issues for future FAQ",
+        "**Step 1:** Знайшов у власній директорії `Xtrapi AI Automation Guide`, перечитав вимоги та структуру схеми експорту (`entities/assets/REMS/exported`).",
+        "Написання повного технічного гайду \"Strapi AI Automation Guide\"",
+        "Створено повний \"Strapi AI Automation Guide\" (45+ секцій)",
+        "Markdown - для Strapi AI Automation Guide",
+        "Quick start guide (3 steps)",
+        "Comprehensive error handling guide"
+      ]
+    },
+    "mascot": {
+      "count": 17,
+      "samples": [
+        "AI Engineer mascot (shark)",
+        "Project Manager mascot (tiger)",
+        "Lead Generator mascot (wolf)",
+        "SMM Specialist mascot (sea horse)",
+        "HR mascot (polar bear)",
+        "Recruiter mascot (arctic fox)",
+        "Sales mascot (puma)",
+        "Chat Operator mascot (needs to be developed)",
+        "Full Stack Developer mascot (needs to be developed)",
+        "Backend Developer mascot (needs to be developed)"
+      ]
+    },
+    "design": {
+      "count": 7,
+      "samples": [
+        "Design (Hummingbird)",
+        "make responsive design",
+        "`UI Kit & Design Guidelines` (Fonts, colors).",
+        "Ask it to generate the graphic title and concept.",
+        "Request the image generation using the uploaded design constraints.",
+        "One hour graphic design session with Vilhelm",
+        "Wispr flow did a subpar job with the transcripts from the graphic design session and for this reason, I'm unable to attach it to this report."
+      ]
+    }
+  },
+  "clustering_opportunities": [
+    {
+      "employee": "Artem Skichko",
+      "section": "[13:30-17:00] - [Working on updates in Strapi]",
+      "item_count": 32,
+      "cluster_potential": "high"
+    },
+    {
+      "employee": "Artemchuk Nikolay",
+      "section": "# [TASK-AID-005] Cross-Department AI Tool Support",
+      "item_count": 29,
+      "cluster_potential": "high"
+    },
+    {
+      "employee": "Artem Skichko",
+      "section": "[8:00-8:15] - [Getting Strapi Access]",
+      "item_count": 28,
+      "cluster_potential": "high"
+    },
+    {
+      "employee": "Makovska Anna",
+      "section": "Morning — Collections Update Script Refactoring (10:30-12:00)",
+      "item_count": 24,
+      "cluster_potential": "high"
+    },
+    {
+      "employee": "Skrypkar Vilhelm",
+      "section": "Day - [Figuring out and assigning tasks for creating graphics for REM-s website]",
+      "item_count": 23,
+      "cluster_potential": "high"
+    },
+    {
+      "employee": "Archibong Isaac",
+      "section": "**Session 2: Project Remess & AI Graphic Generation** (12pm)",
+      "item_count": 21,
+      "cluster_potential": "high"
+    },
+    {
+      "employee": "Makovska Anna",
+      "section": "Afternoon — List.json Synchronization System (13:30-15:00)",
+      "item_count": 19,
+      "cluster_potential": "high"
+    },
+    {
+      "employee": "Makovska Anna",
+      "section": "Afternoon — Documentation Updates (15:00-16:00)",
+      "item_count": 19,
+      "cluster_potential": "high"
+    },
+    {
+      "employee": "Danylenko Liliia",
+      "section": "3️⃣ Tools & Software Used",
+      "item_count": 18,
+      "cluster_potential": "high"
+    },
+    {
+      "employee": "Danylenko Liliia",
+      "section": "# Activity 5: Call з розробниками - Strapi Workflow пояснення",
+      "item_count": 17,
+      "cluster_potential": "high"
+    },
+    {
+      "employee": "Danylenko Liliia",
+      "section": "# Activity 4: Documentation - Strapi AI Automation Guide",
+      "item_count": 16,
+      "cluster_potential": "high"
+    },
+    {
+      "employee": "Danylenko Liliia",
+      "section": "1️⃣ Completed Tasks",
+      "item_count": 16,
+      "cluster_potential": "high"
+    },
+    {
+      "employee": "Makovska Anna",
+      "section": "Afternoon — File Filtering and Template Handling (12:00-13:30)",
+      "item_count": 16,
+      "cluster_potential": "high"
+    },
+    {
+      "employee": "Danylenko Liliia",
+      "section": "2️⃣ Challenges & Solutions",
+      "item_count": 15,
+      "cluster_potential": "high"
+    },
+    {
+      "employee": "Cynthia Aninwezi",
+      "section": "Morning - [Send messages to leads, Job sites, black friday posts]",
+      "item_count": 14,
+      "cluster_potential": "high"
+    },
+    {
+      "employee": "Cynthia Aninwezi",
+      "section": "Day - [Graphic design session,Add new companies using google scape,]",
+      "item_count": 14,
+      "cluster_potential": "high"
+    },
+    {
+      "employee": "Danylenko Liliia",
+      "section": "Основні задачі:",
+      "item_count": 13,
+      "cluster_potential": "high"
+    },
+    {
+      "employee": "Makovska Anna",
+      "section": "Morning — Strapi Collections Export Script Enhancement (9:00-10:30)",
+      "item_count": 13,
+      "cluster_potential": "high"
+    },
+    {
+      "employee": "Danylenko Liliia",
+      "section": "# Activity 3: Call з Колею - День планування",
+      "item_count": 11,
+      "cluster_potential": "high"
+    },
+    {
+      "employee": "Danylenko Liliia",
+      "section": "# Activity 8: Task Status Distribution & Tracking",
+      "item_count": 11,
+      "cluster_potential": "high"
+    }
+  ],
+  "section_based_clusters": []
+}

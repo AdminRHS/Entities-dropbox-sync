@@ -1,3 +1,587 @@
+# Changelog - 2025-11-30
+
+**Sync Date:** 2025-11-30 05:20:02 UTC
+**Total Changes:** 236 files
+
+## Summary
+
+- **Added:** 206 files
+- **Modified:** 7 files
+- **Deleted:** 23 files
+
+## Changes by Category
+
+### "DAILIES
+
+**Total changes:** 5 files
+
+**Deleted (5 files):**
+- `TODO.md"`
+- `TST-461_Create_cross-reference_index_(tool\342\206\222lesson\342\206\222template).json"`
+- `Azanova_Dar\312\274ya_Employee_Summary_Week4.md"`
+- `BUSINESSES_Prospect_Electr\303\243o_BUS-2025-018.json"`
+- `BUSINESSES_Prospect_Markew\303\244rn_Studios_BUS-2025-021.json"`
+
+
+### "TALENTS
+
+**Total changes:** 4 files
+
+**Deleted (4 files):**
+- `Azanova Dar\312\274ya.md"`
+- `Profile Video Editor Azanova Dar\312\274ya.md"`
+- `Profile Video Editor Azanova Dar\312\274ya.md"`
+- `Azanova Dar\312\274ya.md"`
+
+
+### "TASK_MANAGERS
+
+**Total changes:** 2 files
+
+**Deleted (2 files):**
+- `Video_024 (\320\241\320\277\321\226\321\200\320\275\320\260 \320\272\320\276\320\277\321\226\321\217 \320\272\320\276\321\200\320\270\321\201\321\202\321\203\320\262\320\260\321\207\320\260 HR RemotEmployees 2025-11-25).md"`
+- `Video_024 (\320\241\320\277\321\226\321\200\320\275\320\260 \320\272\320\276\320\277\321\226\321\217 \320\272\320\276\321\200\320\270\321\201\321\202\321\203\320\262\320\260\321\207\320\260 HR RemotEmployees 2025-11-25).md"`
+
+
+### ASSETS
+
+**Total changes:** 56 files
+
+**Added (56 files):**
+- `axios.js` → `rem-s/scripts/pages-export/node_modules/axios/dist/axios.js` (147.26 KB, modified: 2025-11-28T11:08:38, by: Dropbox User)
+- `axios.js.map` → `rem-s/scripts/pages-export/node_modules/axios/dist/axios.js.map` (246.45 KB, modified: 2025-11-28T11:08:38, by: Dropbox User)
+- `axios.min.js` → `rem-s/scripts/pages-export/node_modules/axios/dist/axios.min.js` (54.00 KB, modified: 2025-11-28T11:08:38, by: Dropbox User)
+- `axios.min.js.map` → `rem-s/scripts/pages-export/node_modules/axios/dist/axios.min.js.map` (174.93 KB, modified: 2025-11-28T11:08:38, by: Dropbox User)
+- `axios.cjs` → `rem-s/scripts/pages-export/node_modules/axios/dist/browser/axios.cjs` (99.79 KB, modified: 2025-11-28T11:08:38, by: Dropbox User)
+- `axios.cjs.map` → `rem-s/scripts/pages-export/node_modules/axios/dist/browser/axios.cjs.map` (211.78 KB, modified: 2025-11-28T11:08:38, by: Dropbox User)
+- `axios.js` → `rem-s/scripts/pages-export/node_modules/axios/dist/esm/axios.js` (100.66 KB, modified: 2025-11-28T11:08:38, by: Dropbox User)
+- `axios.js.map` → `rem-s/scripts/pages-export/node_modules/axios/dist/esm/axios.js.map` (213.05 KB, modified: 2025-11-28T11:08:38, by: Dropbox User)
+- `axios.min.js` → `rem-s/scripts/pages-export/node_modules/axios/dist/esm/axios.min.js` (35.62 KB, modified: 2025-11-28T11:08:38, by: Dropbox User)
+- `axios.min.js.map` → `rem-s/scripts/pages-export/node_modules/axios/dist/esm/axios.min.js.map` (166.37 KB, modified: 2025-11-28T11:08:38, by: Dropbox User)
+- `axios.cjs` → `rem-s/scripts/pages-export/node_modules/axios/dist/node/axios.cjs` (138.25 KB, modified: 2025-11-28T11:08:38, by: Dropbox User)
+- `axios.cjs.map` → `rem-s/scripts/pages-export/node_modules/axios/dist/node/axios.cjs.map` (291.40 KB, modified: 2025-11-28T11:08:38, by: Dropbox User)
+- `README.md` → `rem-s/scripts/pages-export/node_modules/axios/lib/env/README.md` (131 bytes, modified: 2025-11-28T11:08:38, by: Dropbox User)
+- `data.js` → `rem-s/scripts/pages-export/node_modules/axios/lib/env/data.js` (32 bytes, modified: 2025-11-28T11:08:38, by: Dropbox User)
+- `FormData.js` → `rem-s/scripts/pages-export/node_modules/axios/lib/env/classes/FormData.js` (106 bytes, modified: 2025-11-28T11:08:38, by: Dropbox User)
+- `axios.js` → `rem-s/scripts/collections-export/node_modules/axios/dist/axios.js` (147.26 KB, modified: 2025-11-28T11:45:39, by: Dropbox User)
+- `axios.js.map` → `rem-s/scripts/collections-export/node_modules/axios/dist/axios.js.map` (246.45 KB, modified: 2025-11-28T11:45:39, by: Dropbox User)
+- `axios.min.js` → `rem-s/scripts/collections-export/node_modules/axios/dist/axios.min.js` (54.00 KB, modified: 2025-11-28T11:45:39, by: Dropbox User)
+- `axios.min.js.map` → `rem-s/scripts/collections-export/node_modules/axios/dist/axios.min.js.map` (174.93 KB, modified: 2025-11-28T11:45:39, by: Dropbox User)
+- `axios.cjs` → `rem-s/scripts/collections-export/node_modules/axios/dist/browser/axios.cjs` (99.79 KB, modified: 2025-11-28T11:45:39, by: Dropbox User)
+- `axios.cjs.map` → `rem-s/scripts/collections-export/node_modules/axios/dist/browser/axios.cjs.map` (211.78 KB, modified: 2025-11-28T11:45:39, by: Dropbox User)
+- `axios.cjs` → `rem-s/scripts/collections-export/node_modules/axios/dist/node/axios.cjs` (138.25 KB, modified: 2025-11-28T11:45:39, by: Dropbox User)
+- `axios.cjs.map` → `rem-s/scripts/collections-export/node_modules/axios/dist/node/axios.cjs.map` (291.40 KB, modified: 2025-11-28T11:45:39, by: Dropbox User)
+- `axios.js` → `rem-s/scripts/collections-export/node_modules/axios/dist/esm/axios.js` (100.66 KB, modified: 2025-11-28T11:45:39, by: Dropbox User)
+- `axios.js.map` → `rem-s/scripts/collections-export/node_modules/axios/dist/esm/axios.js.map` (213.05 KB, modified: 2025-11-28T11:45:39, by: Dropbox User)
+- `axios.min.js` → `rem-s/scripts/collections-export/node_modules/axios/dist/esm/axios.min.js` (35.62 KB, modified: 2025-11-28T11:45:39, by: Dropbox User)
+- `axios.min.js.map` → `rem-s/scripts/collections-export/node_modules/axios/dist/esm/axios.min.js.map` (166.37 KB, modified: 2025-11-28T11:45:39, by: Dropbox User)
+- `README.md` → `rem-s/scripts/collections-export/node_modules/axios/lib/env/README.md` (131 bytes, modified: 2025-11-28T11:45:39, by: Dropbox User)
+- `data.js` → `rem-s/scripts/collections-export/node_modules/axios/lib/env/data.js` (32 bytes, modified: 2025-11-28T11:45:39, by: Dropbox User)
+- `FormData.js` → `rem-s/scripts/collections-export/node_modules/axios/lib/env/classes/FormData.js` (106 bytes, modified: 2025-11-28T11:45:39, by: Dropbox User)
+- `update-2025-11-28T12-59-23-156Z.log` → `rem-s/scripts/pages-export/logs/update-2025-11-28T12-59-23-156Z.log` (881 bytes, modified: 2025-11-28T12:59:23, by: Dropbox User)
+- `update-2025-11-28T13-10-23-474Z.log` → `rem-s/scripts/pages-export/logs/update-2025-11-28T13-10-23-474Z.log` (12.46 KB, modified: 2025-11-28T13:10:43, by: Dropbox User)
+- `update-2025-11-28T13-12-21-364Z.log` → `rem-s/scripts/pages-export/logs/update-2025-11-28T13-12-21-364Z.log` (13.68 KB, modified: 2025-11-28T13:12:52, by: Dropbox User)
+- `update-2025-11-28T13-16-29-831Z.log` → `rem-s/scripts/pages-export/logs/update-2025-11-28T13-16-29-831Z.log` (10.91 KB, modified: 2025-11-28T13:17:02, by: Dropbox User)
+- `update-2025-11-28T13-19-13-589Z.log` → `rem-s/scripts/pages-export/logs/update-2025-11-28T13-19-13-589Z.log` (20.36 KB, modified: 2025-11-28T13:19:46, by: Dropbox User)
+- `update-2025-11-28T13-23-45-206Z.log` → `rem-s/scripts/pages-export/logs/update-2025-11-28T13-23-45-206Z.log` (23.73 KB, modified: 2025-11-28T13:24:20, by: Dropbox User)
+- `update-2025-11-28T13-26-41-071Z.log` → `rem-s/scripts/pages-export/logs/update-2025-11-28T13-26-41-071Z.log` (15.68 KB, modified: 2025-11-28T13:27:18, by: Dropbox User)
+- `update-2025-11-28T13-28-23-518Z.log` → `rem-s/scripts/pages-export/logs/update-2025-11-28T13-28-23-518Z.log` (24.01 KB, modified: 2025-11-28T13:29:11, by: Dropbox User)
+- `update-2025-11-28T13-32-15-578Z.log` → `rem-s/scripts/pages-export/logs/update-2025-11-28T13-32-15-578Z.log` (24.01 KB, modified: 2025-11-28T13:33:02, by: Dropbox User)
+- `axios.js` → `rem-s/scripts/collections-update/node_modules/axios/dist/axios.js` (147.26 KB, modified: 2025-11-28T15:12:17, by: Dropbox User)
+- `axios.js.map` → `rem-s/scripts/collections-update/node_modules/axios/dist/axios.js.map` (246.45 KB, modified: 2025-11-28T15:12:17, by: Dropbox User)
+- `axios.min.js` → `rem-s/scripts/collections-update/node_modules/axios/dist/axios.min.js` (54.00 KB, modified: 2025-11-28T15:12:17, by: Dropbox User)
+- `axios.min.js.map` → `rem-s/scripts/collections-update/node_modules/axios/dist/axios.min.js.map` (174.93 KB, modified: 2025-11-28T15:12:17, by: Dropbox User)
+- `axios.cjs` → `rem-s/scripts/collections-update/node_modules/axios/dist/browser/axios.cjs` (99.79 KB, modified: 2025-11-28T15:12:17, by: Dropbox User)
+- `axios.cjs.map` → `rem-s/scripts/collections-update/node_modules/axios/dist/browser/axios.cjs.map` (211.78 KB, modified: 2025-11-28T15:12:17, by: Dropbox User)
+- `axios.js` → `rem-s/scripts/collections-update/node_modules/axios/dist/esm/axios.js` (100.66 KB, modified: 2025-11-28T15:12:17, by: Dropbox User)
+- `axios.js.map` → `rem-s/scripts/collections-update/node_modules/axios/dist/esm/axios.js.map` (213.05 KB, modified: 2025-11-28T15:12:17, by: Dropbox User)
+- `axios.min.js` → `rem-s/scripts/collections-update/node_modules/axios/dist/esm/axios.min.js` (35.62 KB, modified: 2025-11-28T15:12:17, by: Dropbox User)
+- `axios.min.js.map` → `rem-s/scripts/collections-update/node_modules/axios/dist/esm/axios.min.js.map` (166.37 KB, modified: 2025-11-28T15:12:17, by: Dropbox User)
+- `axios.cjs` → `rem-s/scripts/collections-update/node_modules/axios/dist/node/axios.cjs` (138.25 KB, modified: 2025-11-28T15:12:17, by: Dropbox User)
+- `axios.cjs.map` → `rem-s/scripts/collections-update/node_modules/axios/dist/node/axios.cjs.map` (291.40 KB, modified: 2025-11-28T15:12:17, by: Dropbox User)
+- `README.md` → `rem-s/scripts/collections-update/node_modules/axios/lib/env/README.md` (131 bytes, modified: 2025-11-28T15:12:17, by: Dropbox User)
+- `data.js` → `rem-s/scripts/collections-update/node_modules/axios/lib/env/data.js` (32 bytes, modified: 2025-11-28T15:12:17, by: Dropbox User)
+- `FormData.js` → `rem-s/scripts/collections-update/node_modules/axios/lib/env/classes/FormData.js` (106 bytes, modified: 2025-11-28T15:12:17, by: Dropbox User)
+- `update-2025-11-28T15-15-33-047Z.log` → `rem-s/scripts/pages-export/logs/update-2025-11-28T15-15-33-047Z.log` (2.10 KB, modified: 2025-11-28T15:15:40, by: Dropbox User)
+- `update-2025-11-28T15-29-16-930Z.log` → `rem-s/scripts/pages-export/logs/update-2025-11-28T15-29-16-930Z.log` (2.46 KB, modified: 2025-11-28T15:29:49, by: Dropbox User)
+
+
+### DAILIES
+
+**Total changes:** 109 files
+
+**Added (107 files):**
+- `TODO.md` → `Week3/20/Azanova Darʼya_Week_3/TODO.md` (1.57 KB, modified: 2025-11-19T18:27:13, by: Dropbox User)
+- `BUSINESSES_Prospect_Electrão_BUS-2025-018.json` → `IMPORTS/Week_3/2025-11-22_Sales_Import/archive_2025-11-22/Prospects/BUSINESSES_Prospect_Electrão_BUS-2025-018.json` (1.56 KB, modified: 2025-11-21T23:49:35, by: Dropbox User)
+- `BUSINESSES_Prospect_Markewärn_Studios_BUS-2025-021.json` → `IMPORTS/Week_3/2025-11-22_Sales_Import/archive_2025-11-22/Prospects/BUSINESSES_Prospect_Markewärn_Studios_BUS-2025-021.json` (4.26 KB, modified: 2025-11-21T23:49:35, by: Dropbox User)
+- `TST-461_Create_cross-reference_index_(tool→lesson→template).json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-461_Create_cross-reference_index_(tool→lesson→template).json` (1.09 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `Azanova_Darʼya_Employee_Summary_Week4.md` → `REPORTS/Employee_Summaries_Week4/Azanova_Darʼya_Employee_Summary_Week4.md` (6.96 KB, modified: 2025-11-27T21:20:19, by: Dropbox User)
+- `test_day28_processing.py` (5.47 KB, modified: 2025-11-29T16:30:39, by: Dropbox User)
+- `Day28_Processing_Test_Report.md` → `REPORTS/Week_4/Day28_Processing_Test_Report.md` (4.66 KB, modified: 2025-11-29T16:32:03, by: Dropbox User)
+- `process_day28_full.py` (11.00 KB, modified: 2025-11-29T16:49:48, by: Dropbox User)
+- `Day28_Processing_Complete_Report.md` → `REPORTS/Week_4/Day28_Processing_Complete_Report.md` (8.57 KB, modified: 2025-11-29T16:51:57, by: Dropbox User)
+- `extract_day28_tasks.py` (9.95 KB, modified: 2025-11-29T16:58:53, by: Dropbox User)
+- `map_day28_tasks_to_projects.py` (10.09 KB, modified: 2025-11-29T17:06:38, by: Dropbox User)
+- `create_task_master_csv.py` (2.78 KB, modified: 2025-11-30T00:17:34, by: Dropbox User)
+- `create_task_master_summary.py` (6.98 KB, modified: 2025-11-30T00:18:22, by: Dropbox User)
+- `create_task_topic_view.py` (6.65 KB, modified: 2025-11-30T00:34:43, by: Dropbox User)
+- `extract_day28_tasks_v2.py` (13.79 KB, modified: 2025-11-30T01:03:17, by: Dropbox User)
+- `map_day28_tasks_v2.py` (10.11 KB, modified: 2025-11-30T01:04:48, by: Dropbox User)
+- `extract_day28_tasks_v3.py` (11.68 KB, modified: 2025-11-30T01:19:36, by: Dropbox User)
+- `categorize_and_match_tasks.py` (12.39 KB, modified: 2025-11-30T01:28:54, by: Dropbox User)
+- `categorize_and_match_tasks_v5.py` (19.52 KB, modified: 2025-11-30T01:37:44, by: Dropbox User)
+- `ai_categorize_tasks.py` (5.91 KB, modified: 2025-11-30T02:09:42, by: Dropbox User)
+- `analyze_task_vocabulary.py` (9.50 KB, modified: 2025-11-30T03:16:49, by: Dropbox User)
+- `comprehensive_task_categorization.py` (14.84 KB, modified: 2025-11-30T03:18:30, by: Dropbox User)
+- `finalize_task_categorization.py` (12.69 KB, modified: 2025-11-30T03:23:59, by: Dropbox User)
+- `generate_proper_task_names.py` (3.49 KB, modified: 2025-11-30T03:29:44, by: Dropbox User)
+- `generate_workflow_names.py` (5.20 KB, modified: 2025-11-30T03:32:46, by: Dropbox User)
+- `AI_Day28_Summary.md` → `REPORTS/Week_4/28_DEPRECATED_Failed_Extraction/AI_Day28_Summary.md` (2.29 KB, modified: 2025-11-29T16:49:56, by: Dropbox User)
+- `Day28_Master_Summary.md` → `REPORTS/Week_4/28_DEPRECATED_Failed_Extraction/Day28_Master_Summary.md` (1.70 KB, modified: 2025-11-29T16:49:56, by: Dropbox User)
+- `Design_Day28_Summary.md` → `REPORTS/Week_4/28_DEPRECATED_Failed_Extraction/Design_Day28_Summary.md` (1.41 KB, modified: 2025-11-29T16:49:56, by: Dropbox User)
+- `Dev_Day28_Summary.md` → `REPORTS/Week_4/28_DEPRECATED_Failed_Extraction/Dev_Day28_Summary.md` (3.62 KB, modified: 2025-11-29T16:49:56, by: Dropbox User)
+- `Fin_Day28_Summary.md` → `REPORTS/Week_4/28_DEPRECATED_Failed_Extraction/Fin_Day28_Summary.md` (828 bytes, modified: 2025-11-29T16:49:56, by: Dropbox User)
+- `LG_Day28_Summary.md` → `REPORTS/Week_4/28_DEPRECATED_Failed_Extraction/LG_Day28_Summary.md` (4.46 KB, modified: 2025-11-29T16:49:56, by: Dropbox User)
+- `Day28_Task_Extraction.md` → `REPORTS/Week_4/28_DEPRECATED_Failed_Extraction/Day28_Task_Extraction.md` (105.51 KB, modified: 2025-11-29T16:58:59, by: Dropbox User)
+- `Day28_Tasks.json` → `REPORTS/Week_4/28_DEPRECATED_Failed_Extraction/Day28_Tasks.json` (236.16 KB, modified: 2025-11-29T16:58:59, by: Dropbox User)
+- `Day28_Project_Mapping.md` → `REPORTS/Week_4/28_DEPRECATED_Failed_Extraction/Day28_Project_Mapping.md` (7.23 KB, modified: 2025-11-29T17:06:45, by: Dropbox User)
+- `Day28_Tasks_With_Projects.json` → `REPORTS/Week_4/28_DEPRECATED_Failed_Extraction/Day28_Tasks_With_Projects.json` (254.12 KB, modified: 2025-11-29T17:06:45, by: Dropbox User)
+- `PRT-001_Day28_Tasks.json` → `REPORTS/Week_4/28_DEPRECATED_Failed_Extraction/PRT-001_Day28_Tasks.json` (13.64 KB, modified: 2025-11-29T17:06:45, by: Dropbox User)
+- `PRT-002_Day28_Tasks.json` → `REPORTS/Week_4/28_DEPRECATED_Failed_Extraction/PRT-002_Day28_Tasks.json` (133.64 KB, modified: 2025-11-29T17:06:45, by: Dropbox User)
+- `PRT-004_Day28_Tasks.json` → `REPORTS/Week_4/28_DEPRECATED_Failed_Extraction/PRT-004_Day28_Tasks.json` (64.39 KB, modified: 2025-11-29T17:06:45, by: Dropbox User)
+- `PRT-005_Day28_Tasks.json` → `REPORTS/Week_4/28_DEPRECATED_Failed_Extraction/PRT-005_Day28_Tasks.json` (5.30 KB, modified: 2025-11-29T17:06:45, by: Dropbox User)
+- `PRT-006_Day28_Tasks.json` → `REPORTS/Week_4/28_DEPRECATED_Failed_Extraction/PRT-006_Day28_Tasks.json` (2.11 KB, modified: 2025-11-29T17:06:45, by: Dropbox User)
+- `PRT-007_Day28_Tasks.json` → `REPORTS/Week_4/28_DEPRECATED_Failed_Extraction/PRT-007_Day28_Tasks.json` (21.17 KB, modified: 2025-11-29T17:06:45, by: Dropbox User)
+- `PRT-008_Day28_Tasks.json` → `REPORTS/Week_4/28_DEPRECATED_Failed_Extraction/PRT-008_Day28_Tasks.json` (13.89 KB, modified: 2025-11-29T17:06:45, by: Dropbox User)
+- `Day28_Complete_Processing_Summary.md` → `REPORTS/Week_4/28_DEPRECATED_Failed_Extraction/Day28_Complete_Processing_Summary.md` (13.84 KB, modified: 2025-11-29T17:18:02, by: Dropbox User)
+- `Day28_Extraction_Master_Overview.md` → `REPORTS/Week_4/28_DEPRECATED_Failed_Extraction/Day28_Extraction_Master_Overview.md` (14.25 KB, modified: 2025-11-29T23:59:58, by: Dropbox User)
+- `Day28_Task_Master_Review.csv` → `REPORTS/Week_4/28_DEPRECATED_Failed_Extraction/Day28_Task_Master_Review.csv` (155.04 KB, modified: 2025-11-30T00:17:40, by: Dropbox User)
+- `Day28_Task_Master_Summary.md` → `REPORTS/Week_4/28_DEPRECATED_Failed_Extraction/Day28_Task_Master_Summary.md` (76.50 KB, modified: 2025-11-30T00:18:30, by: Dropbox User)
+- `Day28_Tasks_By_Topic.md` → `REPORTS/Week_4/28_DEPRECATED_Failed_Extraction/Day28_Tasks_By_Topic.md` (91.85 KB, modified: 2025-11-30T00:35:23, by: Dropbox User)
+- `Extraction_Prompt_Improvements.md` → `REPORTS/Week_4/28_DEPRECATED_Failed_Extraction/Extraction_Prompt_Improvements.md` (14.15 KB, modified: 2025-11-30T00:52:14, by: Dropbox User)
+- `Day28_Task_Extraction_v2.md` → `REPORTS/Week_4/28_DEPRECATED_Failed_Extraction/Day28_Task_Extraction_v2.md` (99.09 KB, modified: 2025-11-30T01:04:04, by: Dropbox User)
+- `Day28_Tasks_v2.json` → `REPORTS/Week_4/28_DEPRECATED_Failed_Extraction/Day28_Tasks_v2.json` (211.44 KB, modified: 2025-11-30T01:04:04, by: Dropbox User)
+- `Day28_Tasks_v2_ForMapping.json` → `REPORTS/Week_4/28_DEPRECATED_Failed_Extraction/Day28_Tasks_v2_ForMapping.json` (211.44 KB, modified: 2025-11-30T01:04:48, by: Dropbox User)
+- `Day28_Project_Mapping_v2.md` → `REPORTS/Week_4/28_DEPRECATED_Failed_Extraction/Day28_Project_Mapping_v2.md` (7.57 KB, modified: 2025-11-30T01:05:32, by: Dropbox User)
+- `Day28_Tasks_v2_With_Projects.json` → `REPORTS/Week_4/28_DEPRECATED_Failed_Extraction/Day28_Tasks_v2_With_Projects.json` (227.13 KB, modified: 2025-11-30T01:05:32, by: Dropbox User)
+- `PRT-001_Day28_Tasks_v2.json` → `REPORTS/Week_4/28_DEPRECATED_Failed_Extraction/PRT-001_Day28_Tasks_v2.json` (11.43 KB, modified: 2025-11-30T01:05:32, by: Dropbox User)
+- `PRT-002_Day28_Tasks_v2.json` → `REPORTS/Week_4/28_DEPRECATED_Failed_Extraction/PRT-002_Day28_Tasks_v2.json` (124.62 KB, modified: 2025-11-30T01:05:32, by: Dropbox User)
+- `PRT-004_Day28_Tasks_v2.json` → `REPORTS/Week_4/28_DEPRECATED_Failed_Extraction/PRT-004_Day28_Tasks_v2.json` (53.52 KB, modified: 2025-11-30T01:05:32, by: Dropbox User)
+- `PRT-005_Day28_Tasks_v2.json` → `REPORTS/Week_4/28_DEPRECATED_Failed_Extraction/PRT-005_Day28_Tasks_v2.json` (4.66 KB, modified: 2025-11-30T01:05:32, by: Dropbox User)
+- `PRT-006_Day28_Tasks_v2.json` → `REPORTS/Week_4/28_DEPRECATED_Failed_Extraction/PRT-006_Day28_Tasks_v2.json` (2.11 KB, modified: 2025-11-30T01:05:32, by: Dropbox User)
+- `PRT-007_Day28_Tasks_v2.json` → `REPORTS/Week_4/28_DEPRECATED_Failed_Extraction/PRT-007_Day28_Tasks_v2.json` (20.65 KB, modified: 2025-11-30T01:05:32, by: Dropbox User)
+- `PRT-008_Day28_Tasks_v2.json` → `REPORTS/Week_4/28_DEPRECATED_Failed_Extraction/PRT-008_Day28_Tasks_v2.json` (10.16 KB, modified: 2025-11-30T01:05:32, by: Dropbox User)
+- `Day28_Task_Master_v2.csv` → `REPORTS/Week_4/28_DEPRECATED_Failed_Extraction/Day28_Task_Master_v2.csv` (143.03 KB, modified: 2025-11-30T01:08:12, by: Dropbox User)
+- `Day28_v1_vs_v2_Comparison.md` → `REPORTS/Week_4/28_DEPRECATED_Failed_Extraction/Day28_v1_vs_v2_Comparison.md` (7.87 KB, modified: 2025-11-30T01:10:15, by: Dropbox User)
+- `README_v2_Final.md` → `REPORTS/Week_4/28_DEPRECATED_Failed_Extraction/README_v2_Final.md` (8.02 KB, modified: 2025-11-30T01:11:26, by: Dropbox User)
+- `Day28_Tasks_v3.json` → `REPORTS/Week_4/28_DEPRECATED_Failed_Extraction/Day28_Tasks_v3.json` (167.73 KB, modified: 2025-11-30T01:20:58, by: Dropbox User)
+- `Day28_Extraction_v3_Summary.md` → `REPORTS/Week_4/28_DEPRECATED_Failed_Extraction/Day28_Extraction_v3_Summary.md` (2.75 KB, modified: 2025-11-30T01:25:06, by: Dropbox User)
+- `Day28_Categorization_Summary.md` → `REPORTS/Week_4/28_DEPRECATED_Failed_Extraction/Day28_Categorization_Summary.md` (7.53 KB, modified: 2025-11-30T01:29:01, by: Dropbox User)
+- `Day28_Problems.json` → `REPORTS/Week_4/28_DEPRECATED_Failed_Extraction/Day28_Problems.json` (17.03 KB, modified: 2025-11-30T01:29:01, by: Dropbox User)
+- `Day28_Tasks_Categorized.csv` → `REPORTS/Week_4/28_DEPRECATED_Failed_Extraction/Day28_Tasks_Categorized.csv` (106.95 KB, modified: 2025-11-30T01:29:01, by: Dropbox User)
+- `Day28_Reports_Matched.json` → `REPORTS/Week_4/28_DEPRECATED_Failed_Extraction/Day28_Reports_Matched.json` (48.84 KB, modified: 2025-11-30T01:35:17, by: Dropbox User)
+- `Day28_Reports_Unmatched.json` → `REPORTS/Week_4/28_DEPRECATED_Failed_Extraction/Day28_Reports_Unmatched.json` (12.61 KB, modified: 2025-11-30T01:35:17, by: Dropbox User)
+- `Day28_Categorization_v5_Summary.md` → `REPORTS/Week_4/28_DEPRECATED_Failed_Extraction/Day28_Categorization_v5_Summary.md` (4.80 KB, modified: 2025-11-30T01:37:49, by: Dropbox User)
+- `Day28_Filtered_Metadata.json` → `REPORTS/Week_4/28_DEPRECATED_Failed_Extraction/Day28_Filtered_Metadata.json` (10.58 KB, modified: 2025-11-30T01:37:49, by: Dropbox User)
+- `Day28_Tasks_Matched.json` → `REPORTS/Week_4/28_DEPRECATED_Failed_Extraction/Day28_Tasks_Matched.json` (118.37 KB, modified: 2025-11-30T01:37:49, by: Dropbox User)
+- `Day28_Tasks_Unmatched.json` → `REPORTS/Week_4/28_DEPRECATED_Failed_Extraction/Day28_Tasks_Unmatched.json` (104.34 KB, modified: 2025-11-30T01:37:49, by: Dropbox User)
+- `Day28_Categorized_v5.csv` → `REPORTS/Week_4/28_DEPRECATED_Failed_Extraction/Day28_Categorized_v5.csv` (108.31 KB, modified: 2025-11-30T01:37:49, by: Dropbox User)
+- `AI_Review_Instructions.md` → `REPORTS/Week_4/28_DEPRECATED_Failed_Extraction/AI_Review/AI_Review_Instructions.md` (2.05 KB, modified: 2025-11-30T02:09:49, by: Dropbox User)
+- `Batch_01.json` → `REPORTS/Week_4/28_DEPRECATED_Failed_Extraction/AI_Review/Batch_01.json` (18.38 KB, modified: 2025-11-30T02:09:49, by: Dropbox User)
+- `Batch_02.json` → `REPORTS/Week_4/28_DEPRECATED_Failed_Extraction/AI_Review/Batch_02.json` (18.29 KB, modified: 2025-11-30T02:09:49, by: Dropbox User)
+- `Batch_03.json` → `REPORTS/Week_4/28_DEPRECATED_Failed_Extraction/AI_Review/Batch_03.json` (20.67 KB, modified: 2025-11-30T02:09:49, by: Dropbox User)
+- `Batch_04.json` → `REPORTS/Week_4/28_DEPRECATED_Failed_Extraction/AI_Review/Batch_04.json` (17.90 KB, modified: 2025-11-30T02:09:49, by: Dropbox User)
+- `Batch_05.json` → `REPORTS/Week_4/28_DEPRECATED_Failed_Extraction/AI_Review/Batch_05.json` (17.57 KB, modified: 2025-11-30T02:09:49, by: Dropbox User)
+- `Batch_06.json` → `REPORTS/Week_4/28_DEPRECATED_Failed_Extraction/AI_Review/Batch_06.json` (16.84 KB, modified: 2025-11-30T02:09:49, by: Dropbox User)
+- `Batch_07.json` → `REPORTS/Week_4/28_DEPRECATED_Failed_Extraction/AI_Review/Batch_07.json` (17.58 KB, modified: 2025-11-30T02:09:49, by: Dropbox User)
+- `Batch_08.json` → `REPORTS/Week_4/28_DEPRECATED_Failed_Extraction/AI_Review/Batch_08.json` (17.43 KB, modified: 2025-11-30T02:09:49, by: Dropbox User)
+- `Batch_09.json` → `REPORTS/Week_4/28_DEPRECATED_Failed_Extraction/AI_Review/Batch_09.json` (17.28 KB, modified: 2025-11-30T02:09:49, by: Dropbox User)
+- `Batch_10.json` → `REPORTS/Week_4/28_DEPRECATED_Failed_Extraction/AI_Review/Batch_10.json` (17.36 KB, modified: 2025-11-30T02:09:49, by: Dropbox User)
+- `Batch_11.json` → `REPORTS/Week_4/28_DEPRECATED_Failed_Extraction/AI_Review/Batch_11.json` (16.73 KB, modified: 2025-11-30T02:09:49, by: Dropbox User)
+- `Batch_12.json` → `REPORTS/Week_4/28_DEPRECATED_Failed_Extraction/AI_Review/Batch_12.json` (15.45 KB, modified: 2025-11-30T02:09:49, by: Dropbox User)
+- `Batches_Summary.md` → `REPORTS/Week_4/28_DEPRECATED_Failed_Extraction/AI_Review/Batches_Summary.md` (682 bytes, modified: 2025-11-30T02:09:49, by: Dropbox User)
+- `Task_Vocabulary_Analysis.json` → `REPORTS/Week_4/28_DEPRECATED_Failed_Extraction/Task_Vocabulary_Analysis.json` (8.87 KB, modified: 2025-11-30T03:16:56, by: Dropbox User)
+- `Clustering_Rules_From_Data.json` → `REPORTS/Week_4/28_DEPRECATED_Failed_Extraction/Clustering_Rules_From_Data.json` (7.27 KB, modified: 2025-11-30T03:16:56, by: Dropbox User)
+- `Day28_Categorization_Summary.md` → `REPORTS/Week_4/28_DEPRECATED_Failed_Extraction/Final/Day28_Categorization_Summary.md` (2.31 KB, modified: 2025-11-30T03:18:36, by: Dropbox User)
+- `Day28_Master_Categorized.csv` → `REPORTS/Week_4/28_DEPRECATED_Failed_Extraction/Final/Day28_Master_Categorized.csv` (16.02 KB, modified: 2025-11-30T03:18:36, by: Dropbox User)
+- `Day28_Metadata_Filtered.json` → `REPORTS/Week_4/28_DEPRECATED_Failed_Extraction/Final/Day28_Metadata_Filtered.json` (22.05 KB, modified: 2025-11-30T03:18:36, by: Dropbox User)
+- `Day28_Problems.json` → `REPORTS/Week_4/28_DEPRECATED_Failed_Extraction/Final/Day28_Problems.json` (19.04 KB, modified: 2025-11-30T03:18:36, by: Dropbox User)
+- `Day28_Reports_Standalone.json` → `REPORTS/Week_4/28_DEPRECATED_Failed_Extraction/Final/Day28_Reports_Standalone.json` (2 bytes, modified: 2025-11-30T03:18:36, by: Dropbox User)
+- `Day28_Tasks_Standalone.json` → `REPORTS/Week_4/28_DEPRECATED_Failed_Extraction/Final/Day28_Tasks_Standalone.json` (12.64 KB, modified: 2025-11-30T03:18:36, by: Dropbox User)
+- `Day28_Workflows.json` → `REPORTS/Week_4/28_DEPRECATED_Failed_Extraction/Final/Day28_Workflows.json` (252.14 KB, modified: 2025-11-30T03:18:36, by: Dropbox User)
+- `Day28_Final_Master.csv` → `REPORTS/Week_4/28_DEPRECATED_Failed_Extraction/Final_Clean/Day28_Final_Master.csv` (13.01 KB, modified: 2025-11-30T03:24:06, by: Dropbox User)
+- `Day28_Final_Summary.md` → `REPORTS/Week_4/28_DEPRECATED_Failed_Extraction/Final_Clean/Day28_Final_Summary.md` (2.13 KB, modified: 2025-11-30T03:24:06, by: Dropbox User)
+- `Day28_Problems_Enhanced.json` → `REPORTS/Week_4/28_DEPRECATED_Failed_Extraction/Final_Clean/Day28_Problems_Enhanced.json` (29.33 KB, modified: 2025-11-30T03:24:06, by: Dropbox User)
+- `Day28_Tasks_Clean.json` → `REPORTS/Week_4/28_DEPRECATED_Failed_Extraction/Final_Clean/Day28_Tasks_Clean.json` (12.14 KB, modified: 2025-11-30T03:24:06, by: Dropbox User)
+- `Day28_Workflows_Clean.json` → `REPORTS/Week_4/28_DEPRECATED_Failed_Extraction/Final_Clean/Day28_Workflows_Clean.json` (220.25 KB, modified: 2025-11-30T03:24:06, by: Dropbox User)
+- `Day28_Tasks_Final.json` → `REPORTS/Week_4/28_DEPRECATED_Failed_Extraction/Final_Clean/Day28_Tasks_Final.json` (12.32 KB, modified: 2025-11-30T03:29:50, by: Dropbox User)
+- `FINAL_SUMMARY.md` → `REPORTS/Week_4/28_DEPRECATED_Failed_Extraction/Final_Clean/FINAL_SUMMARY.md` (3.91 KB, modified: 2025-11-30T03:30:24, by: Dropbox User)
+- `Day28_Workflows_Named.json` → `REPORTS/Week_4/28_DEPRECATED_Failed_Extraction/Final_Clean/Day28_Workflows_Named.json` (222.11 KB, modified: 2025-11-30T03:32:52, by: Dropbox User)
+- `PROJECT_CONCLUSION.md` → `REPORTS/Week_4/28_DEPRECATED_Failed_Extraction/PROJECT_CONCLUSION.md` (5.87 KB, modified: 2025-11-30T03:33:49, by: Dropbox User)
+
+**Modified (2 files):**
+- `Bykova_Anastasiia_Employee_Summary_Week4.md` → `REPORTS/Employee_Summaries_Week4/Bykova_Anastasiia_Employee_Summary_Week4.md` (6.31 KB, rev: 01644ba7..., modified: 2025-11-29T11:57:23, by: Dropbox User)
+- `Shtepa_Yuliia_TODO_Day28_STRUCTURED.md` → `REPORTS/Week_4/TODO_EXTRACTION/Design/Shtepa_Yuliia_TODO_Day28_STRUCTURED.md` (8.07 KB, rev: 01644bbc..., modified: 2025-11-29T13:30:44, by: Dropbox User)
+
+
+### EXTRACTION_RULES
+
+**Total changes:** 4 files
+
+**Added (4 files):**
+- `LG_Extraction_Rules.md` (1.35 KB, modified: 2025-11-29T13:40:33, by: Dropbox User)
+- `Design_Extraction_Rules.md` (1.47 KB, modified: 2025-11-29T13:43:30, by: Dropbox User)
+- `Dev_Extraction_Rules.md` (1.61 KB, modified: 2025-11-29T13:43:49, by: Dropbox User)
+- `HR_Extraction_Rules.md` (1.55 KB, modified: 2025-11-29T13:43:57, by: Dropbox User)
+
+
+### LIBRARIES
+
+**Total changes:** 2 files
+
+**Added (2 files):**
+- `LBS_001_Actions_by_Department.md` (4.71 KB, modified: 2025-11-29T13:36:39, by: Dropbox User)
+- `LBS_002_Objects_by_Department.md` (3.19 KB, modified: 2025-11-29T13:37:15, by: Dropbox User)
+
+
+### PROMPTS
+
+**Total changes:** 25 files
+
+**Added (13 files):**
+- `PMT-033_AI_Daily_Report_v2.1.md` → `Daily_Reports/PMT-033_AI_Daily_Report_v2.1.md` (21.93 KB, modified: 2025-11-20T18:33:48, by: Dropbox User)
+- `PMT-040_Marketing_Daily_Report_v2.1.md` → `Daily_Reports/PMT-040_Marketing_Daily_Report_v2.1.md` (3.83 KB, modified: 2025-11-20T01:14:39, by: Dropbox User)
+- `PMT-038_HR_Daily_Report_v2.1.md` → `Daily_Reports/PMT-038_HR_Daily_Report_v2.1.md` (5.14 KB, modified: 2025-11-20T01:14:45, by: Dropbox User)
+- `PMT-042_SMM_Daily_Report_v2.1.md` → `Daily_Reports/PMT-042_SMM_Daily_Report_v2.1.md` (4.17 KB, modified: 2025-11-20T01:13:08, by: Dropbox User)
+- `PMT-041_Sales_Daily_Report_v2.1.md` → `Daily_Reports/PMT-041_Sales_Daily_Report_v2.1.md` (3.98 KB, modified: 2025-11-20T01:14:42, by: Dropbox User)
+- `PMT-043_Video_Daily_Report_v2.1.md` → `Daily_Reports/PMT-043_Video_Daily_Report_v2.1.md` (14.62 KB, modified: 2025-11-20T01:12:09, by: Dropbox User)
+- `PMT-035_Design_Daily_Report_v2.1.md` → `Daily_Reports/PMT-035_Design_Daily_Report_v2.1.md` (23.40 KB, modified: 2025-11-19T23:43:03, by: Dropbox User)
+- `PMT-036_Dev_Daily_Report_v2.1.md` → `Daily_Reports/PMT-036_Dev_Daily_Report_v2.1.md` (12.83 KB, modified: 2025-11-20T01:10:29, by: Dropbox User)
+- `PMT-032_Daily_Report_Collection_v2.1.md` → `Daily_Reports/PMT-032_Daily_Report_Collection_v2.1.md` (31.78 KB, modified: 2025-11-26T00:19:19, by: Dropbox User)
+- `PMT-034_Content_Daily_Report_v2.1.md` → `Daily_Reports/PMT-034_Content_Daily_Report_v2.1.md` (3.69 KB, modified: 2025-11-20T01:13:05, by: Dropbox User)
+- `PMT-039_LG_Daily_Report_v2.1.md` → `Daily_Reports/PMT-039_LG_Daily_Report_v2.1.md` (3.92 KB, modified: 2025-11-20T01:14:36, by: Dropbox User)
+- `PMT-037_Finance_Daily_Report_v2.1.md` → `Daily_Reports/PMT-037_Finance_Daily_Report_v2.1.md` (23.95 KB, modified: 2025-11-26T00:19:19, by: Dropbox User)
+- `MAIN_PROMPT_v7.2.md` → `Core/MAIN_PROMPT_v7.2.md` (26.66 KB, modified: 2025-11-29T13:56:14, by: Dropbox User)
+
+**Deleted (12 files):**
+- `PMT-035_Design_Daily_Report_v2.1.md`
+- `PMT-039_LG_Daily_Report_v2.1.md`
+- `PMT-032_Daily_Report_Collection_v2.1.md`
+- `PMT-034_Content_Daily_Report_v2.1.md`
+- `PMT-037_Finance_Daily_Report_v2.1.md`
+- `PMT-038_HR_Daily_Report_v2.1.md`
+- `PMT-041_Sales_Daily_Report_v2.1.md`
+- `PMT-043_Video_Daily_Report_v2.1.md`
+- `PMT-042_SMM_Daily_Report_v2.1.md`
+- `PMT-033_AI_Daily_Report_v2.1.md`
+- `PMT-040_Marketing_Daily_Report_v2.1.md`
+- `PMT-036_Dev_Daily_Report_v2.1.md`
+
+
+### RESEARCHES
+
+**Total changes:** 1 files
+
+**Modified (1 files):**
+- `Video_022_Gap_Analysis.md` → `VIDEO_RESEARCHES/03_ANALYSIS/Gap_Analysis/Video_022_Gap_Analysis.md` (15.52 KB, rev: 01644ba7..., modified: 2025-11-29T11:57:23, by: Dropbox User)
+
+
+### TALENTS
+
+**Total changes:** 18 files
+
+**Added (14 files):**
+- `corepack.js` → `Employees/Artemchuk Nikolay/Employees attendance/.node/lib/node_modules/corepack/dist/corepack.js` (81 bytes, modified: 2023-08-09T00:23:24, by: Dropbox User)
+- `npm.js` → `Employees/Artemchuk Nikolay/Employees attendance/.node/lib/node_modules/corepack/dist/npm.js` (93 bytes, modified: 2023-08-09T00:23:24, by: Dropbox User)
+- `npx.js` → `Employees/Artemchuk Nikolay/Employees attendance/.node/lib/node_modules/corepack/dist/npx.js` (93 bytes, modified: 2023-08-09T00:23:24, by: Dropbox User)
+- `pnpm.js` → `Employees/Artemchuk Nikolay/Employees attendance/.node/lib/node_modules/corepack/dist/pnpm.js` (94 bytes, modified: 2023-08-09T00:23:24, by: Dropbox User)
+- `pnpx.js` → `Employees/Artemchuk Nikolay/Employees attendance/.node/lib/node_modules/corepack/dist/pnpx.js` (94 bytes, modified: 2023-08-09T00:23:24, by: Dropbox User)
+- `yarn.js` → `Employees/Artemchuk Nikolay/Employees attendance/.node/lib/node_modules/corepack/dist/yarn.js` (94 bytes, modified: 2023-08-09T00:23:24, by: Dropbox User)
+- `yarnpkg.js` → `Employees/Artemchuk Nikolay/Employees attendance/.node/lib/node_modules/corepack/dist/yarnpkg.js` (97 bytes, modified: 2023-08-09T00:23:24, by: Dropbox User)
+- `corepack.cjs` → `Employees/Artemchuk Nikolay/Employees attendance/.node/lib/node_modules/corepack/dist/lib/corepack.cjs` (2263.85 KB, modified: 2023-11-22T08:06:28, by: Dropbox User)
+- `Azanova Darʼya.md` → `Employees/profiles/Resumes/Azanova Darʼya.md` (37 bytes, modified: 2025-11-24T14:04:53, by: Dropbox User)
+- `Azanova Darʼya.md` → `Employees/ORPHANED/Azanova Darʼya.md` (37 bytes, modified: 2025-11-25T10:17:39, by: Dropbox User)
+- `Profile Video Editor Azanova Darʼya.md` → `Employees/profiles/Archive/Available/Video/Profile Video Editor Azanova Darʼya.md` (1.42 KB, modified: 2025-11-25T14:53:35, by: Dropbox User)
+- `attendance_report_2025-11-28.json` → `Employees/Voice Log Discord/attendance_report_2025-11-28.json` (5.90 KB, modified: 2025-11-29T05:02:33, by: Dropbox User)
+- `final_audit_2025-11-28.json` → `Employees/Merged final report/final_audit_2025-11-28.json` (114.44 KB, modified: 2025-11-29T05:02:41, by: Dropbox User)
+- `crm_export_2025-11-28.json` → `Employees/crm_export_Attendance/crm_export_2025-11-28.json` (115.55 KB, modified: 2025-11-29T05:02:47, by: Dropbox User)
+
+**Modified (4 files):**
+- `COPY_SUMMARY.md` → `Employees/profiles/COPY_SUMMARY.md` (1.29 KB, rev: 01644ba7..., modified: 2025-11-29T11:57:23, by: Dropbox User)
+- `ORGANIZATION_SUMMARY.md` → `Employees/profiles/ORGANIZATION_SUMMARY.md` (2.02 KB, rev: 01644ba7..., modified: 2025-11-29T11:57:23, by: Dropbox User)
+- `STATUS_ORGANIZATION_COMPLETE.md` → `Employees/profiles/STATUS_ORGANIZATION_COMPLETE.md` (1.95 KB, rev: 01644ba7..., modified: 2025-11-29T11:57:23, by: Dropbox User)
+- `FINAL_ORGANIZATION.md` → `Employees/profiles/FINAL_ORGANIZATION.md` (2.89 KB, rev: 01644ba7..., modified: 2025-11-29T11:57:23, by: Dropbox User)
+
+
+### TASK_MANAGERS
+
+**Total changes:** 10 files
+
+**Added (10 files):**
+- `calculate_priority.cpython-313.pyc` → `RESEARCHES/01_VIDEO_QUEUE/scripts/__pycache__/calculate_priority.cpython-313.pyc` (6.88 KB, modified: 2025-11-23T23:34:07, by: Dropbox User)
+- `config.cpython-313.pyc` → `RESEARCHES/scripts/__pycache__/config.cpython-313.pyc` (3.80 KB, modified: 2025-11-24T00:49:06, by: Dropbox User)
+- `markdown_parser.cpython-313.pyc` → `RESEARCHES/scripts/__pycache__/markdown_parser.cpython-313.pyc` (24.72 KB, modified: 2025-11-24T01:16:32, by: Dropbox User)
+- `video_gap_analyzer.cpython-313.pyc` → `RESEARCHES/scripts/__pycache__/video_gap_analyzer.cpython-313.pyc` (30.36 KB, modified: 2025-11-24T01:16:32, by: Dropbox User)
+- `video_id_scanner.cpython-313.pyc` → `RESEARCHES/scripts/__pycache__/video_id_scanner.cpython-313.pyc` (17.41 KB, modified: 2025-11-24T01:16:32, by: Dropbox User)
+- `video_integration_reporter.cpython-313.pyc` → `RESEARCHES/scripts/__pycache__/video_integration_reporter.cpython-313.pyc` (20.35 KB, modified: 2025-11-24T01:16:32, by: Dropbox User)
+- `video_json_updater.cpython-313.pyc` → `RESEARCHES/scripts/__pycache__/video_json_updater.cpython-313.pyc` (24.04 KB, modified: 2025-11-24T01:16:32, by: Dropbox User)
+- `utils.cpython-313.pyc` → `RESEARCHES/scripts/__pycache__/utils.cpython-313.pyc` (15.44 KB, modified: 2025-11-24T01:17:05, by: Dropbox User)
+- `process.log` → `RESEARCHES/scripts/process.log` (51.20 KB, modified: 2025-11-24T01:17:05, by: Dropbox User)
+- `Video_024 (Спірна копія користувача HR RemotEmployees 2025-11-25).md` → `RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/02_TRANSCRIPTIONS/Video_024 (Спірна копія користувача HR RemotEmployees 2025-11-25).md` (44.98 KB, modified: 2025-11-26T14:56:50, by: Dropbox User)
+
+
+## All Changes
+
+### Added Files
+
+- `DAILIES/Week3/20/Azanova Darʼya_Week_3/TODO.md`
+- `DAILIES/IMPORTS/Week_3/2025-11-22_Sales_Import/archive_2025-11-22/Prospects/BUSINESSES_Prospect_Electrão_BUS-2025-018.json`
+- `DAILIES/IMPORTS/Week_3/2025-11-22_Sales_Import/archive_2025-11-22/Prospects/BUSINESSES_Prospect_Markewärn_Studios_BUS-2025-021.json`
+- `TASK_MANAGERS/RESEARCHES/01_VIDEO_QUEUE/scripts/__pycache__/calculate_priority.cpython-313.pyc`
+- `TASK_MANAGERS/RESEARCHES/scripts/__pycache__/config.cpython-313.pyc`
+- `TASK_MANAGERS/RESEARCHES/scripts/__pycache__/markdown_parser.cpython-313.pyc`
+- `TASK_MANAGERS/RESEARCHES/scripts/__pycache__/video_gap_analyzer.cpython-313.pyc`
+- `TASK_MANAGERS/RESEARCHES/scripts/__pycache__/video_id_scanner.cpython-313.pyc`
+- `TASK_MANAGERS/RESEARCHES/scripts/__pycache__/video_integration_reporter.cpython-313.pyc`
+- `TASK_MANAGERS/RESEARCHES/scripts/__pycache__/video_json_updater.cpython-313.pyc`
+- `TASK_MANAGERS/RESEARCHES/scripts/__pycache__/utils.cpython-313.pyc`
+- `TASK_MANAGERS/RESEARCHES/scripts/process.log`
+- `TALENTS/Employees/Artemchuk Nikolay/Employees attendance/.node/lib/node_modules/corepack/dist/corepack.js`
+- `TALENTS/Employees/Artemchuk Nikolay/Employees attendance/.node/lib/node_modules/corepack/dist/npm.js`
+- `TALENTS/Employees/Artemchuk Nikolay/Employees attendance/.node/lib/node_modules/corepack/dist/npx.js`
+- `TALENTS/Employees/Artemchuk Nikolay/Employees attendance/.node/lib/node_modules/corepack/dist/pnpm.js`
+- `TALENTS/Employees/Artemchuk Nikolay/Employees attendance/.node/lib/node_modules/corepack/dist/pnpx.js`
+- `TALENTS/Employees/Artemchuk Nikolay/Employees attendance/.node/lib/node_modules/corepack/dist/yarn.js`
+- `TALENTS/Employees/Artemchuk Nikolay/Employees attendance/.node/lib/node_modules/corepack/dist/yarnpkg.js`
+- `TALENTS/Employees/Artemchuk Nikolay/Employees attendance/.node/lib/node_modules/corepack/dist/lib/corepack.cjs`
+- `TALENTS/Employees/profiles/Resumes/Azanova Darʼya.md`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-461_Create_cross-reference_index_(tool→lesson→template).json`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/02_TRANSCRIPTIONS/Video_024 (Спірна копія користувача HR RemotEmployees 2025-11-25).md`
+- `ASSETS/rem-s/scripts/pages-export/node_modules/axios/dist/axios.js`
+- `ASSETS/rem-s/scripts/pages-export/node_modules/axios/dist/axios.js.map`
+- `ASSETS/rem-s/scripts/pages-export/node_modules/axios/dist/axios.min.js`
+- `ASSETS/rem-s/scripts/pages-export/node_modules/axios/dist/axios.min.js.map`
+- `ASSETS/rem-s/scripts/pages-export/node_modules/axios/dist/browser/axios.cjs`
+- `ASSETS/rem-s/scripts/pages-export/node_modules/axios/dist/browser/axios.cjs.map`
+- `ASSETS/rem-s/scripts/pages-export/node_modules/axios/dist/esm/axios.js`
+- `ASSETS/rem-s/scripts/pages-export/node_modules/axios/dist/esm/axios.js.map`
+- `ASSETS/rem-s/scripts/pages-export/node_modules/axios/dist/esm/axios.min.js`
+- `ASSETS/rem-s/scripts/pages-export/node_modules/axios/dist/esm/axios.min.js.map`
+- `ASSETS/rem-s/scripts/pages-export/node_modules/axios/dist/node/axios.cjs`
+- `ASSETS/rem-s/scripts/pages-export/node_modules/axios/dist/node/axios.cjs.map`
+- `ASSETS/rem-s/scripts/pages-export/node_modules/axios/lib/env/README.md`
+- `ASSETS/rem-s/scripts/pages-export/node_modules/axios/lib/env/data.js`
+- `ASSETS/rem-s/scripts/pages-export/node_modules/axios/lib/env/classes/FormData.js`
+- `ASSETS/rem-s/scripts/collections-export/node_modules/axios/dist/axios.js`
+- `ASSETS/rem-s/scripts/collections-export/node_modules/axios/dist/axios.js.map`
+- `ASSETS/rem-s/scripts/collections-export/node_modules/axios/dist/axios.min.js`
+- `ASSETS/rem-s/scripts/collections-export/node_modules/axios/dist/axios.min.js.map`
+- `ASSETS/rem-s/scripts/collections-export/node_modules/axios/dist/browser/axios.cjs`
+- `ASSETS/rem-s/scripts/collections-export/node_modules/axios/dist/browser/axios.cjs.map`
+- `ASSETS/rem-s/scripts/collections-export/node_modules/axios/dist/node/axios.cjs`
+- `ASSETS/rem-s/scripts/collections-export/node_modules/axios/dist/node/axios.cjs.map`
+- `ASSETS/rem-s/scripts/collections-export/node_modules/axios/dist/esm/axios.js`
+- `ASSETS/rem-s/scripts/collections-export/node_modules/axios/dist/esm/axios.js.map`
+- `ASSETS/rem-s/scripts/collections-export/node_modules/axios/dist/esm/axios.min.js`
+- `ASSETS/rem-s/scripts/collections-export/node_modules/axios/dist/esm/axios.min.js.map`
+- `ASSETS/rem-s/scripts/collections-export/node_modules/axios/lib/env/README.md`
+- `ASSETS/rem-s/scripts/collections-export/node_modules/axios/lib/env/data.js`
+- `ASSETS/rem-s/scripts/collections-export/node_modules/axios/lib/env/classes/FormData.js`
+- `ASSETS/rem-s/scripts/pages-export/logs/update-2025-11-28T12-59-23-156Z.log`
+- `ASSETS/rem-s/scripts/pages-export/logs/update-2025-11-28T13-10-23-474Z.log`
+- `ASSETS/rem-s/scripts/pages-export/logs/update-2025-11-28T13-12-21-364Z.log`
+- `ASSETS/rem-s/scripts/pages-export/logs/update-2025-11-28T13-16-29-831Z.log`
+- `ASSETS/rem-s/scripts/pages-export/logs/update-2025-11-28T13-19-13-589Z.log`
+- `ASSETS/rem-s/scripts/pages-export/logs/update-2025-11-28T13-23-45-206Z.log`
+- `ASSETS/rem-s/scripts/pages-export/logs/update-2025-11-28T13-26-41-071Z.log`
+- `ASSETS/rem-s/scripts/pages-export/logs/update-2025-11-28T13-28-23-518Z.log`
+- `ASSETS/rem-s/scripts/pages-export/logs/update-2025-11-28T13-32-15-578Z.log`
+- `TALENTS/Employees/ORPHANED/Azanova Darʼya.md`
+- `ASSETS/rem-s/scripts/collections-update/node_modules/axios/dist/axios.js`
+- `ASSETS/rem-s/scripts/collections-update/node_modules/axios/dist/axios.js.map`
+- `ASSETS/rem-s/scripts/collections-update/node_modules/axios/dist/axios.min.js`
+- `ASSETS/rem-s/scripts/collections-update/node_modules/axios/dist/axios.min.js.map`
+- `ASSETS/rem-s/scripts/collections-update/node_modules/axios/dist/browser/axios.cjs`
+- `ASSETS/rem-s/scripts/collections-update/node_modules/axios/dist/browser/axios.cjs.map`
+- `ASSETS/rem-s/scripts/collections-update/node_modules/axios/dist/esm/axios.js`
+- `ASSETS/rem-s/scripts/collections-update/node_modules/axios/dist/esm/axios.js.map`
+- `ASSETS/rem-s/scripts/collections-update/node_modules/axios/dist/esm/axios.min.js`
+- `ASSETS/rem-s/scripts/collections-update/node_modules/axios/dist/esm/axios.min.js.map`
+- `ASSETS/rem-s/scripts/collections-update/node_modules/axios/dist/node/axios.cjs`
+- `ASSETS/rem-s/scripts/collections-update/node_modules/axios/dist/node/axios.cjs.map`
+- `ASSETS/rem-s/scripts/collections-update/node_modules/axios/lib/env/README.md`
+- `ASSETS/rem-s/scripts/collections-update/node_modules/axios/lib/env/data.js`
+- `ASSETS/rem-s/scripts/collections-update/node_modules/axios/lib/env/classes/FormData.js`
+- `TALENTS/Employees/profiles/Archive/Available/Video/Profile Video Editor Azanova Darʼya.md`
+- `ASSETS/rem-s/scripts/pages-export/logs/update-2025-11-28T15-15-33-047Z.log`
+- `ASSETS/rem-s/scripts/pages-export/logs/update-2025-11-28T15-29-16-930Z.log`
+- `DAILIES/REPORTS/Employee_Summaries_Week4/Azanova_Darʼya_Employee_Summary_Week4.md`
+- `TALENTS/Employees/Voice Log Discord/attendance_report_2025-11-28.json`
+- `TALENTS/Employees/Merged final report/final_audit_2025-11-28.json`
+- `TALENTS/Employees/crm_export_Attendance/crm_export_2025-11-28.json`
+- `LIBRARIES/LBS_001_Actions_by_Department.md`
+- `LIBRARIES/LBS_002_Objects_by_Department.md`
+- `EXTRACTION_RULES/LG_Extraction_Rules.md`
+- `EXTRACTION_RULES/Design_Extraction_Rules.md`
+- `EXTRACTION_RULES/Dev_Extraction_Rules.md`
+- `EXTRACTION_RULES/HR_Extraction_Rules.md`
+- `PROMPTS/Daily_Reports/PMT-033_AI_Daily_Report_v2.1.md`
+- `PROMPTS/Daily_Reports/PMT-040_Marketing_Daily_Report_v2.1.md`
+- `PROMPTS/Daily_Reports/PMT-038_HR_Daily_Report_v2.1.md`
+- `PROMPTS/Daily_Reports/PMT-042_SMM_Daily_Report_v2.1.md`
+- `PROMPTS/Daily_Reports/PMT-041_Sales_Daily_Report_v2.1.md`
+- `PROMPTS/Daily_Reports/PMT-043_Video_Daily_Report_v2.1.md`
+- `PROMPTS/Daily_Reports/PMT-035_Design_Daily_Report_v2.1.md`
+- `PROMPTS/Daily_Reports/PMT-036_Dev_Daily_Report_v2.1.md`
+- `PROMPTS/Daily_Reports/PMT-032_Daily_Report_Collection_v2.1.md`
+- `PROMPTS/Daily_Reports/PMT-034_Content_Daily_Report_v2.1.md`
+- `PROMPTS/Daily_Reports/PMT-039_LG_Daily_Report_v2.1.md`
+- `PROMPTS/Daily_Reports/PMT-037_Finance_Daily_Report_v2.1.md`
+- `PROMPTS/Core/MAIN_PROMPT_v7.2.md`
+- `DAILIES/test_day28_processing.py`
+- `DAILIES/REPORTS/Week_4/Day28_Processing_Test_Report.md`
+- `DAILIES/process_day28_full.py`
+- `DAILIES/REPORTS/Week_4/Day28_Processing_Complete_Report.md`
+- `DAILIES/extract_day28_tasks.py`
+- `DAILIES/map_day28_tasks_to_projects.py`
+- `DAILIES/create_task_master_csv.py`
+- `DAILIES/create_task_master_summary.py`
+- `DAILIES/create_task_topic_view.py`
+- `DAILIES/extract_day28_tasks_v2.py`
+- `DAILIES/map_day28_tasks_v2.py`
+- `DAILIES/extract_day28_tasks_v3.py`
+- `DAILIES/categorize_and_match_tasks.py`
+- `DAILIES/categorize_and_match_tasks_v5.py`
+- `DAILIES/ai_categorize_tasks.py`
+- `DAILIES/analyze_task_vocabulary.py`
+- `DAILIES/comprehensive_task_categorization.py`
+- `DAILIES/finalize_task_categorization.py`
+- `DAILIES/generate_proper_task_names.py`
+- `DAILIES/generate_workflow_names.py`
+- `DAILIES/REPORTS/Week_4/28_DEPRECATED_Failed_Extraction/AI_Day28_Summary.md`
+- `DAILIES/REPORTS/Week_4/28_DEPRECATED_Failed_Extraction/Day28_Master_Summary.md`
+- `DAILIES/REPORTS/Week_4/28_DEPRECATED_Failed_Extraction/Design_Day28_Summary.md`
+- `DAILIES/REPORTS/Week_4/28_DEPRECATED_Failed_Extraction/Dev_Day28_Summary.md`
+- `DAILIES/REPORTS/Week_4/28_DEPRECATED_Failed_Extraction/Fin_Day28_Summary.md`
+- `DAILIES/REPORTS/Week_4/28_DEPRECATED_Failed_Extraction/LG_Day28_Summary.md`
+- `DAILIES/REPORTS/Week_4/28_DEPRECATED_Failed_Extraction/Day28_Task_Extraction.md`
+- `DAILIES/REPORTS/Week_4/28_DEPRECATED_Failed_Extraction/Day28_Tasks.json`
+- `DAILIES/REPORTS/Week_4/28_DEPRECATED_Failed_Extraction/Day28_Project_Mapping.md`
+- `DAILIES/REPORTS/Week_4/28_DEPRECATED_Failed_Extraction/Day28_Tasks_With_Projects.json`
+- `DAILIES/REPORTS/Week_4/28_DEPRECATED_Failed_Extraction/PRT-001_Day28_Tasks.json`
+- `DAILIES/REPORTS/Week_4/28_DEPRECATED_Failed_Extraction/PRT-002_Day28_Tasks.json`
+- `DAILIES/REPORTS/Week_4/28_DEPRECATED_Failed_Extraction/PRT-004_Day28_Tasks.json`
+- `DAILIES/REPORTS/Week_4/28_DEPRECATED_Failed_Extraction/PRT-005_Day28_Tasks.json`
+- `DAILIES/REPORTS/Week_4/28_DEPRECATED_Failed_Extraction/PRT-006_Day28_Tasks.json`
+- `DAILIES/REPORTS/Week_4/28_DEPRECATED_Failed_Extraction/PRT-007_Day28_Tasks.json`
+- `DAILIES/REPORTS/Week_4/28_DEPRECATED_Failed_Extraction/PRT-008_Day28_Tasks.json`
+- `DAILIES/REPORTS/Week_4/28_DEPRECATED_Failed_Extraction/Day28_Complete_Processing_Summary.md`
+- `DAILIES/REPORTS/Week_4/28_DEPRECATED_Failed_Extraction/Day28_Extraction_Master_Overview.md`
+- `DAILIES/REPORTS/Week_4/28_DEPRECATED_Failed_Extraction/Day28_Task_Master_Review.csv`
+- `DAILIES/REPORTS/Week_4/28_DEPRECATED_Failed_Extraction/Day28_Task_Master_Summary.md`
+- `DAILIES/REPORTS/Week_4/28_DEPRECATED_Failed_Extraction/Day28_Tasks_By_Topic.md`
+- `DAILIES/REPORTS/Week_4/28_DEPRECATED_Failed_Extraction/Extraction_Prompt_Improvements.md`
+- `DAILIES/REPORTS/Week_4/28_DEPRECATED_Failed_Extraction/Day28_Task_Extraction_v2.md`
+- `DAILIES/REPORTS/Week_4/28_DEPRECATED_Failed_Extraction/Day28_Tasks_v2.json`
+- `DAILIES/REPORTS/Week_4/28_DEPRECATED_Failed_Extraction/Day28_Tasks_v2_ForMapping.json`
+- `DAILIES/REPORTS/Week_4/28_DEPRECATED_Failed_Extraction/Day28_Project_Mapping_v2.md`
+- `DAILIES/REPORTS/Week_4/28_DEPRECATED_Failed_Extraction/Day28_Tasks_v2_With_Projects.json`
+- `DAILIES/REPORTS/Week_4/28_DEPRECATED_Failed_Extraction/PRT-001_Day28_Tasks_v2.json`
+- `DAILIES/REPORTS/Week_4/28_DEPRECATED_Failed_Extraction/PRT-002_Day28_Tasks_v2.json`
+- `DAILIES/REPORTS/Week_4/28_DEPRECATED_Failed_Extraction/PRT-004_Day28_Tasks_v2.json`
+- `DAILIES/REPORTS/Week_4/28_DEPRECATED_Failed_Extraction/PRT-005_Day28_Tasks_v2.json`
+- `DAILIES/REPORTS/Week_4/28_DEPRECATED_Failed_Extraction/PRT-006_Day28_Tasks_v2.json`
+- `DAILIES/REPORTS/Week_4/28_DEPRECATED_Failed_Extraction/PRT-007_Day28_Tasks_v2.json`
+- `DAILIES/REPORTS/Week_4/28_DEPRECATED_Failed_Extraction/PRT-008_Day28_Tasks_v2.json`
+- `DAILIES/REPORTS/Week_4/28_DEPRECATED_Failed_Extraction/Day28_Task_Master_v2.csv`
+- `DAILIES/REPORTS/Week_4/28_DEPRECATED_Failed_Extraction/Day28_v1_vs_v2_Comparison.md`
+- `DAILIES/REPORTS/Week_4/28_DEPRECATED_Failed_Extraction/README_v2_Final.md`
+- `DAILIES/REPORTS/Week_4/28_DEPRECATED_Failed_Extraction/Day28_Tasks_v3.json`
+- `DAILIES/REPORTS/Week_4/28_DEPRECATED_Failed_Extraction/Day28_Extraction_v3_Summary.md`
+- `DAILIES/REPORTS/Week_4/28_DEPRECATED_Failed_Extraction/Day28_Categorization_Summary.md`
+- `DAILIES/REPORTS/Week_4/28_DEPRECATED_Failed_Extraction/Day28_Problems.json`
+- `DAILIES/REPORTS/Week_4/28_DEPRECATED_Failed_Extraction/Day28_Tasks_Categorized.csv`
+- `DAILIES/REPORTS/Week_4/28_DEPRECATED_Failed_Extraction/Day28_Reports_Matched.json`
+- `DAILIES/REPORTS/Week_4/28_DEPRECATED_Failed_Extraction/Day28_Reports_Unmatched.json`
+- `DAILIES/REPORTS/Week_4/28_DEPRECATED_Failed_Extraction/Day28_Categorization_v5_Summary.md`
+- `DAILIES/REPORTS/Week_4/28_DEPRECATED_Failed_Extraction/Day28_Filtered_Metadata.json`
+- `DAILIES/REPORTS/Week_4/28_DEPRECATED_Failed_Extraction/Day28_Tasks_Matched.json`
+- `DAILIES/REPORTS/Week_4/28_DEPRECATED_Failed_Extraction/Day28_Tasks_Unmatched.json`
+- `DAILIES/REPORTS/Week_4/28_DEPRECATED_Failed_Extraction/Day28_Categorized_v5.csv`
+- `DAILIES/REPORTS/Week_4/28_DEPRECATED_Failed_Extraction/AI_Review/AI_Review_Instructions.md`
+- `DAILIES/REPORTS/Week_4/28_DEPRECATED_Failed_Extraction/AI_Review/Batch_01.json`
+- `DAILIES/REPORTS/Week_4/28_DEPRECATED_Failed_Extraction/AI_Review/Batch_02.json`
+- `DAILIES/REPORTS/Week_4/28_DEPRECATED_Failed_Extraction/AI_Review/Batch_03.json`
+- `DAILIES/REPORTS/Week_4/28_DEPRECATED_Failed_Extraction/AI_Review/Batch_04.json`
+- `DAILIES/REPORTS/Week_4/28_DEPRECATED_Failed_Extraction/AI_Review/Batch_05.json`
+- `DAILIES/REPORTS/Week_4/28_DEPRECATED_Failed_Extraction/AI_Review/Batch_06.json`
+- `DAILIES/REPORTS/Week_4/28_DEPRECATED_Failed_Extraction/AI_Review/Batch_07.json`
+- `DAILIES/REPORTS/Week_4/28_DEPRECATED_Failed_Extraction/AI_Review/Batch_08.json`
+- `DAILIES/REPORTS/Week_4/28_DEPRECATED_Failed_Extraction/AI_Review/Batch_09.json`
+- `DAILIES/REPORTS/Week_4/28_DEPRECATED_Failed_Extraction/AI_Review/Batch_10.json`
+- `DAILIES/REPORTS/Week_4/28_DEPRECATED_Failed_Extraction/AI_Review/Batch_11.json`
+- `DAILIES/REPORTS/Week_4/28_DEPRECATED_Failed_Extraction/AI_Review/Batch_12.json`
+- `DAILIES/REPORTS/Week_4/28_DEPRECATED_Failed_Extraction/AI_Review/Batches_Summary.md`
+- `DAILIES/REPORTS/Week_4/28_DEPRECATED_Failed_Extraction/Task_Vocabulary_Analysis.json`
+- `DAILIES/REPORTS/Week_4/28_DEPRECATED_Failed_Extraction/Clustering_Rules_From_Data.json`
+- `DAILIES/REPORTS/Week_4/28_DEPRECATED_Failed_Extraction/Final/Day28_Categorization_Summary.md`
+- `DAILIES/REPORTS/Week_4/28_DEPRECATED_Failed_Extraction/Final/Day28_Master_Categorized.csv`
+- `DAILIES/REPORTS/Week_4/28_DEPRECATED_Failed_Extraction/Final/Day28_Metadata_Filtered.json`
+- `DAILIES/REPORTS/Week_4/28_DEPRECATED_Failed_Extraction/Final/Day28_Problems.json`
+- `DAILIES/REPORTS/Week_4/28_DEPRECATED_Failed_Extraction/Final/Day28_Reports_Standalone.json`
+- `DAILIES/REPORTS/Week_4/28_DEPRECATED_Failed_Extraction/Final/Day28_Tasks_Standalone.json`
+- `DAILIES/REPORTS/Week_4/28_DEPRECATED_Failed_Extraction/Final/Day28_Workflows.json`
+- `DAILIES/REPORTS/Week_4/28_DEPRECATED_Failed_Extraction/Final_Clean/Day28_Final_Master.csv`
+- `DAILIES/REPORTS/Week_4/28_DEPRECATED_Failed_Extraction/Final_Clean/Day28_Final_Summary.md`
+- `DAILIES/REPORTS/Week_4/28_DEPRECATED_Failed_Extraction/Final_Clean/Day28_Problems_Enhanced.json`
+- `DAILIES/REPORTS/Week_4/28_DEPRECATED_Failed_Extraction/Final_Clean/Day28_Tasks_Clean.json`
+- `DAILIES/REPORTS/Week_4/28_DEPRECATED_Failed_Extraction/Final_Clean/Day28_Workflows_Clean.json`
+- `DAILIES/REPORTS/Week_4/28_DEPRECATED_Failed_Extraction/Final_Clean/Day28_Tasks_Final.json`
+- `DAILIES/REPORTS/Week_4/28_DEPRECATED_Failed_Extraction/Final_Clean/FINAL_SUMMARY.md`
+- `DAILIES/REPORTS/Week_4/28_DEPRECATED_Failed_Extraction/Final_Clean/Day28_Workflows_Named.json`
+- `DAILIES/REPORTS/Week_4/28_DEPRECATED_Failed_Extraction/PROJECT_CONCLUSION.md`
+
+### Modified Files
+
+- `TALENTS/Employees/profiles/COPY_SUMMARY.md`
+- `RESEARCHES/VIDEO_RESEARCHES/03_ANALYSIS/Gap_Analysis/Video_022_Gap_Analysis.md`
+- `TALENTS/Employees/profiles/ORGANIZATION_SUMMARY.md`
+- `TALENTS/Employees/profiles/STATUS_ORGANIZATION_COMPLETE.md`
+- `TALENTS/Employees/profiles/FINAL_ORGANIZATION.md`
+- `DAILIES/REPORTS/Employee_Summaries_Week4/Bykova_Anastasiia_Employee_Summary_Week4.md`
+- `DAILIES/REPORTS/Week_4/TODO_EXTRACTION/Design/Shtepa_Yuliia_TODO_Day28_STRUCTURED.md`
+
+### Deleted Files
+
+- `"DAILIES/Week3/20/Azanova Dar\312\274ya_Week_3/TODO.md"`
+- `PROMPTS/PMT-035_Design_Daily_Report_v2.1.md`
+- `"TASK_MANAGERS/RESEARCHES/02_TRANSCRIPTIONS/Video_024 (\320\241\320\277\321\226\321\200\320\275\320\260 \320\272\320\276\320\277\321\226\321\217 \320\272\320\276\321\200\320\270\321\201\321\202\321\203\320\262\320\260\321\207\320\260 HR RemotEmployees 2025-11-25).md"`
+- `PROMPTS/PMT-039_LG_Daily_Report_v2.1.md`
+- `"DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-461_Create_cross-reference_index_(tool\342\206\222lesson\342\206\222template).json"`
+- `PROMPTS/PMT-032_Daily_Report_Collection_v2.1.md`
+- `PROMPTS/PMT-034_Content_Daily_Report_v2.1.md`
+- `"TALENTS/Employees/ORPHANED/Azanova Dar\312\274ya.md"`
+- `"DAILIES/REPORTS/Employee_Summaries_Week4/Azanova_Dar\312\274ya_Employee_Summary_Week4.md"`
+- `"DAILIES/IMPORTS/Week_3/2025-11-22_Sales_Import/archive_2025-11-22/Prospects/BUSINESSES_Prospect_Electr\303\243o_BUS-2025-018.json"`
+- `PROMPTS/PMT-037_Finance_Daily_Report_v2.1.md`
+- `"TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/02_TRANSCRIPTIONS/Video_024 (\320\241\320\277\321\226\321\200\320\275\320\260 \320\272\320\276\320\277\321\226\321\217 \320\272\320\276\321\200\320\270\321\201\321\202\321\203\320\262\320\260\321\207\320\260 HR RemotEmployees 2025-11-25).md"`
+- `PROMPTS/PMT-038_HR_Daily_Report_v2.1.md`
+- `PROMPTS/PMT-041_Sales_Daily_Report_v2.1.md`
+- `PROMPTS/PMT-043_Video_Daily_Report_v2.1.md`
+- `PROMPTS/PMT-042_SMM_Daily_Report_v2.1.md`
+- `"DAILIES/IMPORTS/Week_3/2025-11-22_Sales_Import/archive_2025-11-22/Prospects/BUSINESSES_Prospect_Markew\303\244rn_Studios_BUS-2025-021.json"`
+- `PROMPTS/PMT-033_AI_Daily_Report_v2.1.md`
+- `"TALENTS/Employees/profiles/Archive/Available/Video/Profile Video Editor Azanova Dar\312\274ya.md"`
+- `"TALENTS/Employees/profiles/Available/Video/Profile Video Editor Azanova Dar\312\274ya.md"`
+- `"TALENTS/Employees/profiles/Resumes/Azanova Dar\312\274ya.md"`
+- `PROMPTS/PMT-040_Marketing_Daily_Report_v2.1.md`
+- `PROMPTS/PMT-036_Dev_Daily_Report_v2.1.md`
+
+
+---
+*Generated automatically by Dropbox to GitHub sync*
+
+
 # Changelog - 2025-11-29
 
 **Sync Date:** 2025-11-29 04:56:06 UTC
