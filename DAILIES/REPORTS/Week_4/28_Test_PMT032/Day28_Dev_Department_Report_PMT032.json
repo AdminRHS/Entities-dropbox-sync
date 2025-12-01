@@ -1,0 +1,157 @@
+{
+  "metadata": {
+    "department": "Dev",
+    "department_code": "DEV",
+    "date": "2025-11-29",
+    "day": 28,
+    "week": 4,
+    "team_size": 3,
+    "activities_count": 3,
+    "generated_at": "2025-11-30T04:56:05.486697",
+    "methodology": "PMT-032_Daily_Report_Collection_v2.1"
+  },
+  "section_1_executive_summary": {
+    "title": "Executive Summary",
+    "total_activities": 3,
+    "employees_active": 1,
+    "projects_involved": 1,
+    "key_focus": "Strapi CMS Integration and Export Automation"
+  },
+  "section_2_project_contributions": {
+    "title": "Project Contributions",
+    "projects": [
+      {
+        "project_id": "PRT-002",
+        "project_name": "Complete MCP Automation Stack Setup",
+        "activities_count": 3,
+        "employees_involved": [
+          "Artem Skichko"
+        ],
+        "sample_activities": [
+          {
+            "employee": "Artem Skichko",
+            "activity": "Getting Strapi Access",
+            "time": "8:00-8:15"
+          },
+          {
+            "employee": "Artem Skichko",
+            "activity": "Working on Strapi exports",
+            "time": "11:00-12:30"
+          },
+          {
+            "employee": "Artem Skichko",
+            "activity": "Working on updates in Strapi",
+            "time": "13:30-17:00"
+          }
+        ]
+      }
+    ]
+  },
+  "section_3_task_sequences": {
+    "title": "Task Sequences with Entity Mapping",
+    "sequences": [
+      {
+        "task_id": "TST-008",
+        "task_name": "Create MCP Connector",
+        "employee": "Artem Skichko",
+        "activity_name": "Getting Strapi Access",
+        "time_range": "8:00-8:15",
+        "work_performed": "- [X] Contact Nealova Evgeniya via Discord/Dropbox\n- [X] Request Strapi media library access\n- [X] Receive and test login credentials\n- [X] Familiarize yourself with Strapi interface\n- [X] Log into St..."
+      },
+      {
+        "task_id": "TST-010",
+        "task_name": "Deploy MCP Connector Locally",
+        "employee": "Artem Skichko",
+        "activity_name": "Getting Strapi Access",
+        "time_range": "8:00-8:15",
+        "work_performed": "- [X] Contact Nealova Evgeniya via Discord/Dropbox\n- [X] Request Strapi media library access\n- [X] Receive and test login credentials\n- [X] Familiarize yourself with Strapi interface\n- [X] Log into St..."
+      },
+      {
+        "task_id": "TST-008",
+        "task_name": "Create MCP Connector",
+        "employee": "Artem Skichko",
+        "activity_name": "Working on Strapi exports",
+        "time_range": "11:00-12:30",
+        "work_performed": "-"
+      },
+      {
+        "task_id": "TST-010",
+        "task_name": "Deploy MCP Connector Locally",
+        "employee": "Artem Skichko",
+        "activity_name": "Working on Strapi exports",
+        "time_range": "11:00-12:30",
+        "work_performed": "-"
+      },
+      {
+        "task_id": "TST-022",
+        "task_name": "Stacked Connector Post Meeting Automation",
+        "employee": "Artem Skichko",
+        "activity_name": "Working on updates in Strapi",
+        "time_range": "13:30-17:00",
+        "work_performed": "-"
+      },
+      {
+        "task_id": "TST-008",
+        "task_name": "Create MCP Connector",
+        "employee": "Artem Skichko",
+        "activity_name": "Working on updates in Strapi",
+        "time_range": "13:30-17:00",
+        "work_performed": "-"
+      },
+      {
+        "task_id": "TST-010",
+        "task_name": "Deploy MCP Connector Locally",
+        "employee": "Artem Skichko",
+        "activity_name": "Working on updates in Strapi",
+        "time_range": "13:30-17:00",
+        "work_performed": "-"
+      }
+    ]
+  },
+  "section_4_cross_department": {
+    "title": "Cross-Department Coordination",
+    "interactions": []
+  },
+  "section_5_metrics": {
+    "title": "Metrics and Statistics",
+    "total_hours": 0,
+    "activities_per_employee": {
+      "Artem Skichko": 3,
+      "Danylenko Liliia": 0,
+      "Makovska Anna": 0
+    }
+  },
+  "section_6_impact": {
+    "title": "Impact Assessment",
+    "achievements": []
+  },
+  "section_7_deliverables": {
+    "title": "Key Deliverables",
+    "completed": [
+      {
+        "employee": "Artem Skichko",
+        "deliverable": "Working on updates in Strapi",
+        "outcome": "- ✅ Створено повнофункціональний скрипт оновлення `strapi-single-types-update.js`\n- ✅ Вирішено всі API помилки (500, 405, 400) через fallback механізм..."
+      }
+    ],
+    "in_progress": [
+      {
+        "employee": "Artem Skichko",
+        "deliverable": "Getting Strapi Access",
+        "status": "-"
+      }
+    ]
+  },
+  "section_8_challenges": {
+    "title": "Challenges and Solutions",
+    "challenges": []
+  },
+  "section_9_outcomes": {
+    "title": "Outcomes",
+    "outcomes": []
+  },
+  "section_10_recommendations": {
+    "title": "Recommendations",
+    "recommendations": []
+  }
+}

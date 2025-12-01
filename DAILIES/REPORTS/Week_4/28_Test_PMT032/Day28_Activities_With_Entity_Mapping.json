@@ -1,0 +1,106 @@
+[
+  {
+    "employee": "Artem Skichko",
+    "employee_id": "EMP-001",
+    "role": "Senior Developer",
+    "time_range": "8:00-8:15",
+    "start_time": "8:00",
+    "end_time": "8:15",
+    "activity_name": "Getting Strapi Access",
+    "work_description": "- [X] Contact Nealova Evgeniya via Discord/Dropbox\n- [X] Request Strapi media library access\n- [X] Receive and test login credentials\n- [X] Familiarize yourself with Strapi interface\n- [X] Log into Strapi\n- [X] Check existing media organization\n- [X] Identify what needs to be updated/added\n- [X] Take notes on file naming conventions\n- [X] Understand folder structure\nTodos:\n- кнопку згортання/розгортання сайдбару потрібно перенести наверх сайдбару\n- заголовки Folders/Assets зробити більшого розміру\n- інтуїтивно не зрозуміло що означає кнопка обрати все, можливо потрібно дописати біля неї текст\n- прибрати скролбар справа\n- додати трохи анімації, інтерактивності і тд\n- при розгортанні селекту сайдбар підіймається, потрібно пофіксити\n- додати стиль до кнопки де перемикання сторінок “not allowed” якщо наприклад вже на першій сторінці і - хочемо повернутись назад\n- потрібно зробити так щоб при друку в search bar застосовувались зміни, а не при натисканні Enter\n- в цій модалці потрібно зробити блок location під блоком Name, а не в один рядок\n- додати кнопку cancel, тому що відразу не зрозуміло що є і ‘-’ в кнопці\n- навіщо кнопка Back якщо є breadcrumbs ?\n- додати відступи в зоні breadcrumbs, header, filter panel\n- make responsive design \n- після застосування змін в sortBy, незрозуміло чи вони застосувались\n- змінити селект часу\n- коли поставив дату, а потім змінюєш поле createdAt то дата очищається\n- коли обираю час то дата автоматично встановлюється",
+    "outcomes": "-",
+    "section_content": "**What I worked on:**\n- [X] Contact Nealova Evgeniya via Discord/Dropbox\n- [X] Request Strapi media library access\n- [X] Receive and test login credentials\n- [X] Familiarize yourself with Strapi interface\n- [X] Log into Strapi\n- [X] Check existing media organization\n- [X] Identify what needs to be updated/added\n- [X] Take notes on file naming conventions\n- [X] Understand folder structure\nTodos:\n- кнопку згортання/розгортання сайдбару потрібно перенести наверх сайдбару\n- заголовки Folders/Assets ",
+    "entity_mapping": {
+      "projects": [
+        {
+          "id": "PRT-002",
+          "name": "Complete MCP Automation Stack Setup",
+          "match_confidence": "manual"
+        }
+      ],
+      "tasks": [
+        {
+          "id": "TST-008",
+          "name": "Create MCP Connector",
+          "match_confidence": "keyword"
+        },
+        {
+          "id": "TST-010",
+          "name": "Deploy MCP Connector Locally",
+          "match_confidence": "manual"
+        }
+      ]
+    }
+  },
+  {
+    "employee": "Artem Skichko",
+    "employee_id": "EMP-001",
+    "role": "Senior Developer",
+    "time_range": "11:00-12:30",
+    "start_time": "11:00",
+    "end_time": "12:30",
+    "activity_name": "Working on Strapi exports",
+    "work_description": "-",
+    "outcomes": "",
+    "section_content": "**What I worked on:**\n- **Step 1:** Знайшов у власній директорії `Xtrapi AI Automation Guide`, перечитав вимоги та структуру схеми експорту (`entities/assets/REMS/exported`).\n- **Step 2:** Зафіксував обмеження: Strapi недоступний через AIS, тому буду працювати напряму через REST API, отримуючи дані запитами та зберігаючи у JSON.\n**План дій:**\n1. ✅ **Універсальний скрипт у `pages-export/`:** створено нодовий CLI (`strapi-single-types-export.js`) на базі прикладу `script-vacancy.js`, який приймає ",
+    "entity_mapping": {
+      "projects": [
+        {
+          "id": "PRT-002",
+          "name": "Complete MCP Automation Stack Setup",
+          "match_confidence": "manual"
+        }
+      ],
+      "tasks": [
+        {
+          "id": "TST-008",
+          "name": "Create MCP Connector",
+          "match_confidence": "manual"
+        },
+        {
+          "id": "TST-010",
+          "name": "Deploy MCP Connector Locally",
+          "match_confidence": "manual"
+        }
+      ]
+    }
+  },
+  {
+    "employee": "Artem Skichko",
+    "employee_id": "EMP-001",
+    "role": "Senior Developer",
+    "time_range": "13:30-17:00",
+    "start_time": "13:30",
+    "end_time": "17:00",
+    "activity_name": "Working on updates in Strapi",
+    "work_description": "-",
+    "outcomes": "- ✅ Створено повнофункціональний скрипт оновлення `strapi-single-types-update.js`\n- ✅ Вирішено всі API помилки (500, 405, 400) через fallback механізми та очищення даних\n- ✅ Успішно оновлено 4 локалі для About entity в Strapi\n- ✅ Створено детальну документацію README-UPDATE.md з інструкціями та прикладами\n- ✅ Реалізовано безпечний workflow з backup та логуванням\n- ✅ Скрипт готовий до використання для оновлення інших single types\n\n---\n\n## Notes\n\n## Reminder\n- Whisper Flow ON during all activities\n- Update this file throughout the day\n- Include all meeting transcripts\n\ntoken: 90a05d07172ed412baf72628194770df763ef1c8e0faf5a7f1a7ef7d24338170a076455c2412e03575ee7ebd14f524a929c08522f7c3721864e3cd0c3e78cdb696027825736901e32dd7dfac3a8c8cde2e1414eb0773101acf70bb0f7f2c4aea6d94fca50940c9b001d6e604311ae83624764c76687b24cbb47235629756328a",
+    "section_content": "**What I worked on:**\n\n- **Створення скрипта оновлення:** Розроблено `strapi-single-types-update.js` для оновлення single types в Strapi з файлів з папки `updated/pages/`. Скрипт включає:\n  - Сканування папки `updated/pages/` для знаходження файлів для оновлення\n  - Валідацію JSON файлів перед оновленням\n  - Очищення системних полів (createdAt, updatedAt, publishedAt, locale, id) перед відправкою\n  - Детальне логування всіх дій у файли `logs/update-{timestamp}.log`\n  - Безпеку: dry-run режим за ",
+    "entity_mapping": {
+      "projects": [
+        {
+          "id": "PRT-002",
+          "name": "Complete MCP Automation Stack Setup",
+          "match_confidence": "manual"
+        }
+      ],
+      "tasks": [
+        {
+          "id": "TST-022",
+          "name": "Stacked Connector Post Meeting Automation",
+          "match_confidence": "keyword"
+        },
+        {
+          "id": "TST-008",
+          "name": "Create MCP Connector",
+          "match_confidence": "manual"
+        },
+        {
+          "id": "TST-010",
+          "name": "Deploy MCP Connector Locally",
+          "match_confidence": "manual"
+        }
+      ]
+    }
+  }
+]

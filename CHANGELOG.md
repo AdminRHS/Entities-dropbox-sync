@@ -1,3 +1,374 @@
+# Changelog - 2025-12-01
+
+**Sync Date:** 2025-12-01 07:01:36 UTC
+**Total Changes:** 140 files
+
+## Summary
+
+- **Added:** 122 files
+- **Modified:** 7 files
+- **Deleted:** 11 files
+
+## Changes by Category
+
+### "DAILIES
+
+**Total changes:** 5 files
+
+**Deleted (5 files):**
+- `TST-461_Create_cross-reference_index_(tool\342\206\222lesson\342\206\222template).json"`
+- `TODO.md"`
+- `Azanova_Dar\312\274ya_Employee_Summary_Week4.md"`
+- `BUSINESSES_Prospect_Electr\303\243o_BUS-2025-018.json"`
+- `BUSINESSES_Prospect_Markew\303\244rn_Studios_BUS-2025-021.json"`
+
+
+### "TALENTS
+
+**Total changes:** 4 files
+
+**Deleted (4 files):**
+- `Profile Video Editor Azanova Dar\312\274ya.md"`
+- `Profile Video Editor Azanova Dar\312\274ya.md"`
+- `Azanova Dar\312\274ya.md"`
+- `Azanova Dar\312\274ya.md"`
+
+
+### "TASK_MANAGERS
+
+**Total changes:** 2 files
+
+**Deleted (2 files):**
+- `Video_024 (\320\241\320\277\321\226\321\200\320\275\320\260 \320\272\320\276\320\277\321\226\321\217 \320\272\320\276\321\200\320\270\321\201\321\202\321\203\320\262\320\260\321\207\320\260 HR RemotEmployees 2025-11-25).md"`
+- `Video_024 (\320\241\320\277\321\226\321\200\320\275\320\260 \320\272\320\276\320\277\321\226\321\217 \320\272\320\276\321\200\320\270\321\201\321\202\321\203\320\262\320\260\321\207\320\260 HR RemotEmployees 2025-11-25).md"`
+
+
+### ASSETS
+
+**Total changes:** 57 files
+
+**Added (56 files):**
+- `axios.js` → `rem-s/scripts/pages-export/node_modules/axios/dist/axios.js` (147.26 KB, modified: 2025-11-28T11:08:38, by: Dropbox User)
+- `axios.js.map` → `rem-s/scripts/pages-export/node_modules/axios/dist/axios.js.map` (246.45 KB, modified: 2025-11-28T11:08:38, by: Dropbox User)
+- `axios.min.js` → `rem-s/scripts/pages-export/node_modules/axios/dist/axios.min.js` (54.00 KB, modified: 2025-11-28T11:08:38, by: Dropbox User)
+- `axios.min.js.map` → `rem-s/scripts/pages-export/node_modules/axios/dist/axios.min.js.map` (174.93 KB, modified: 2025-11-28T11:08:38, by: Dropbox User)
+- `axios.cjs` → `rem-s/scripts/pages-export/node_modules/axios/dist/browser/axios.cjs` (99.79 KB, modified: 2025-11-28T11:08:38, by: Dropbox User)
+- `axios.cjs.map` → `rem-s/scripts/pages-export/node_modules/axios/dist/browser/axios.cjs.map` (211.78 KB, modified: 2025-11-28T11:08:38, by: Dropbox User)
+- `axios.js` → `rem-s/scripts/pages-export/node_modules/axios/dist/esm/axios.js` (100.66 KB, modified: 2025-11-28T11:08:38, by: Dropbox User)
+- `axios.js.map` → `rem-s/scripts/pages-export/node_modules/axios/dist/esm/axios.js.map` (213.05 KB, modified: 2025-11-28T11:08:38, by: Dropbox User)
+- `axios.min.js` → `rem-s/scripts/pages-export/node_modules/axios/dist/esm/axios.min.js` (35.62 KB, modified: 2025-11-28T11:08:38, by: Dropbox User)
+- `axios.min.js.map` → `rem-s/scripts/pages-export/node_modules/axios/dist/esm/axios.min.js.map` (166.37 KB, modified: 2025-11-28T11:08:38, by: Dropbox User)
+- `axios.cjs` → `rem-s/scripts/pages-export/node_modules/axios/dist/node/axios.cjs` (138.25 KB, modified: 2025-11-28T11:08:38, by: Dropbox User)
+- `axios.cjs.map` → `rem-s/scripts/pages-export/node_modules/axios/dist/node/axios.cjs.map` (291.40 KB, modified: 2025-11-28T11:08:38, by: Dropbox User)
+- `README.md` → `rem-s/scripts/pages-export/node_modules/axios/lib/env/README.md` (131 bytes, modified: 2025-11-28T11:08:38, by: Dropbox User)
+- `data.js` → `rem-s/scripts/pages-export/node_modules/axios/lib/env/data.js` (32 bytes, modified: 2025-11-28T11:08:38, by: Dropbox User)
+- `FormData.js` → `rem-s/scripts/pages-export/node_modules/axios/lib/env/classes/FormData.js` (106 bytes, modified: 2025-11-28T11:08:38, by: Dropbox User)
+- `axios.js` → `rem-s/scripts/collections-export/node_modules/axios/dist/axios.js` (147.26 KB, modified: 2025-11-28T11:45:39, by: Dropbox User)
+- `axios.js.map` → `rem-s/scripts/collections-export/node_modules/axios/dist/axios.js.map` (246.45 KB, modified: 2025-11-28T11:45:39, by: Dropbox User)
+- `axios.min.js` → `rem-s/scripts/collections-export/node_modules/axios/dist/axios.min.js` (54.00 KB, modified: 2025-11-28T11:45:39, by: Dropbox User)
+- `axios.min.js.map` → `rem-s/scripts/collections-export/node_modules/axios/dist/axios.min.js.map` (174.93 KB, modified: 2025-11-28T11:45:39, by: Dropbox User)
+- `axios.cjs` → `rem-s/scripts/collections-export/node_modules/axios/dist/browser/axios.cjs` (99.79 KB, modified: 2025-11-28T11:45:39, by: Dropbox User)
+- `axios.cjs.map` → `rem-s/scripts/collections-export/node_modules/axios/dist/browser/axios.cjs.map` (211.78 KB, modified: 2025-11-28T11:45:39, by: Dropbox User)
+- `axios.cjs` → `rem-s/scripts/collections-export/node_modules/axios/dist/node/axios.cjs` (138.25 KB, modified: 2025-11-28T11:45:39, by: Dropbox User)
+- `axios.cjs.map` → `rem-s/scripts/collections-export/node_modules/axios/dist/node/axios.cjs.map` (291.40 KB, modified: 2025-11-28T11:45:39, by: Dropbox User)
+- `axios.js` → `rem-s/scripts/collections-export/node_modules/axios/dist/esm/axios.js` (100.66 KB, modified: 2025-11-28T11:45:39, by: Dropbox User)
+- `axios.js.map` → `rem-s/scripts/collections-export/node_modules/axios/dist/esm/axios.js.map` (213.05 KB, modified: 2025-11-28T11:45:39, by: Dropbox User)
+- `axios.min.js` → `rem-s/scripts/collections-export/node_modules/axios/dist/esm/axios.min.js` (35.62 KB, modified: 2025-11-28T11:45:39, by: Dropbox User)
+- `axios.min.js.map` → `rem-s/scripts/collections-export/node_modules/axios/dist/esm/axios.min.js.map` (166.37 KB, modified: 2025-11-28T11:45:39, by: Dropbox User)
+- `README.md` → `rem-s/scripts/collections-export/node_modules/axios/lib/env/README.md` (131 bytes, modified: 2025-11-28T11:45:39, by: Dropbox User)
+- `data.js` → `rem-s/scripts/collections-export/node_modules/axios/lib/env/data.js` (32 bytes, modified: 2025-11-28T11:45:39, by: Dropbox User)
+- `FormData.js` → `rem-s/scripts/collections-export/node_modules/axios/lib/env/classes/FormData.js` (106 bytes, modified: 2025-11-28T11:45:39, by: Dropbox User)
+- `update-2025-11-28T12-59-23-156Z.log` → `rem-s/scripts/pages-export/logs/update-2025-11-28T12-59-23-156Z.log` (881 bytes, modified: 2025-11-28T12:59:23, by: Dropbox User)
+- `update-2025-11-28T13-10-23-474Z.log` → `rem-s/scripts/pages-export/logs/update-2025-11-28T13-10-23-474Z.log` (12.46 KB, modified: 2025-11-28T13:10:43, by: Dropbox User)
+- `update-2025-11-28T13-12-21-364Z.log` → `rem-s/scripts/pages-export/logs/update-2025-11-28T13-12-21-364Z.log` (13.68 KB, modified: 2025-11-28T13:12:52, by: Dropbox User)
+- `update-2025-11-28T13-16-29-831Z.log` → `rem-s/scripts/pages-export/logs/update-2025-11-28T13-16-29-831Z.log` (10.91 KB, modified: 2025-11-28T13:17:02, by: Dropbox User)
+- `update-2025-11-28T13-19-13-589Z.log` → `rem-s/scripts/pages-export/logs/update-2025-11-28T13-19-13-589Z.log` (20.36 KB, modified: 2025-11-28T13:19:46, by: Dropbox User)
+- `update-2025-11-28T13-23-45-206Z.log` → `rem-s/scripts/pages-export/logs/update-2025-11-28T13-23-45-206Z.log` (23.73 KB, modified: 2025-11-28T13:24:20, by: Dropbox User)
+- `update-2025-11-28T13-26-41-071Z.log` → `rem-s/scripts/pages-export/logs/update-2025-11-28T13-26-41-071Z.log` (15.68 KB, modified: 2025-11-28T13:27:18, by: Dropbox User)
+- `update-2025-11-28T13-28-23-518Z.log` → `rem-s/scripts/pages-export/logs/update-2025-11-28T13-28-23-518Z.log` (24.01 KB, modified: 2025-11-28T13:29:11, by: Dropbox User)
+- `update-2025-11-28T13-32-15-578Z.log` → `rem-s/scripts/pages-export/logs/update-2025-11-28T13-32-15-578Z.log` (24.01 KB, modified: 2025-11-28T13:33:02, by: Dropbox User)
+- `axios.js` → `rem-s/scripts/collections-update/node_modules/axios/dist/axios.js` (147.26 KB, modified: 2025-11-28T15:12:17, by: Dropbox User)
+- `axios.js.map` → `rem-s/scripts/collections-update/node_modules/axios/dist/axios.js.map` (246.45 KB, modified: 2025-11-28T15:12:17, by: Dropbox User)
+- `axios.min.js` → `rem-s/scripts/collections-update/node_modules/axios/dist/axios.min.js` (54.00 KB, modified: 2025-11-28T15:12:17, by: Dropbox User)
+- `axios.min.js.map` → `rem-s/scripts/collections-update/node_modules/axios/dist/axios.min.js.map` (174.93 KB, modified: 2025-11-28T15:12:17, by: Dropbox User)
+- `axios.cjs` → `rem-s/scripts/collections-update/node_modules/axios/dist/browser/axios.cjs` (99.79 KB, modified: 2025-11-28T15:12:17, by: Dropbox User)
+- `axios.cjs.map` → `rem-s/scripts/collections-update/node_modules/axios/dist/browser/axios.cjs.map` (211.78 KB, modified: 2025-11-28T15:12:17, by: Dropbox User)
+- `axios.js` → `rem-s/scripts/collections-update/node_modules/axios/dist/esm/axios.js` (100.66 KB, modified: 2025-11-28T15:12:17, by: Dropbox User)
+- `axios.js.map` → `rem-s/scripts/collections-update/node_modules/axios/dist/esm/axios.js.map` (213.05 KB, modified: 2025-11-28T15:12:17, by: Dropbox User)
+- `axios.min.js` → `rem-s/scripts/collections-update/node_modules/axios/dist/esm/axios.min.js` (35.62 KB, modified: 2025-11-28T15:12:17, by: Dropbox User)
+- `axios.min.js.map` → `rem-s/scripts/collections-update/node_modules/axios/dist/esm/axios.min.js.map` (166.37 KB, modified: 2025-11-28T15:12:17, by: Dropbox User)
+- `axios.cjs` → `rem-s/scripts/collections-update/node_modules/axios/dist/node/axios.cjs` (138.25 KB, modified: 2025-11-28T15:12:17, by: Dropbox User)
+- `axios.cjs.map` → `rem-s/scripts/collections-update/node_modules/axios/dist/node/axios.cjs.map` (291.40 KB, modified: 2025-11-28T15:12:17, by: Dropbox User)
+- `README.md` → `rem-s/scripts/collections-update/node_modules/axios/lib/env/README.md` (131 bytes, modified: 2025-11-28T15:12:17, by: Dropbox User)
+- `data.js` → `rem-s/scripts/collections-update/node_modules/axios/lib/env/data.js` (32 bytes, modified: 2025-11-28T15:12:17, by: Dropbox User)
+- `FormData.js` → `rem-s/scripts/collections-update/node_modules/axios/lib/env/classes/FormData.js` (106 bytes, modified: 2025-11-28T15:12:17, by: Dropbox User)
+- `update-2025-11-28T15-15-33-047Z.log` → `rem-s/scripts/pages-export/logs/update-2025-11-28T15-15-33-047Z.log` (2.10 KB, modified: 2025-11-28T15:15:40, by: Dropbox User)
+- `update-2025-11-28T15-29-16-930Z.log` → `rem-s/scripts/pages-export/logs/update-2025-11-28T15-29-16-930Z.log` (2.46 KB, modified: 2025-11-28T15:29:49, by: Dropbox User)
+
+**Modified (1 files):**
+- `script-collections-update.js` → `rem-s/scripts/collections-update/script-collections-update.js` (33.40 KB, rev: 01644a93..., modified: 2025-11-28T15:25:29, by: Dropbox User)
+
+
+### DAILIES
+
+**Total changes:** 43 files
+
+**Added (42 files):**
+- `TODO.md` → `Week3/20/Azanova Darʼya_Week_3/TODO.md` (1.57 KB, modified: 2025-11-19T18:27:13, by: Dropbox User)
+- `BUSINESSES_Prospect_Electrão_BUS-2025-018.json` → `IMPORTS/Week_3/2025-11-22_Sales_Import/archive_2025-11-22/Prospects/BUSINESSES_Prospect_Electrão_BUS-2025-018.json` (1.56 KB, modified: 2025-11-21T23:49:35, by: Dropbox User)
+- `BUSINESSES_Prospect_Markewärn_Studios_BUS-2025-021.json` → `IMPORTS/Week_3/2025-11-22_Sales_Import/archive_2025-11-22/Prospects/BUSINESSES_Prospect_Markewärn_Studios_BUS-2025-021.json` (4.26 KB, modified: 2025-11-21T23:49:35, by: Dropbox User)
+- `TST-461_Create_cross-reference_index_(tool→lesson→template).json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-461_Create_cross-reference_index_(tool→lesson→template).json` (1.09 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `Azanova_Darʼya_Employee_Summary_Week4.md` → `REPORTS/Employee_Summaries_Week4/Azanova_Darʼya_Employee_Summary_Week4.md` (6.96 KB, modified: 2025-11-27T21:20:19, by: Dropbox User)
+- `generate_pmt032_report.py` → `REPORTS/Week_4/28_Test_PMT032/generate_pmt032_report.py` (15.25 KB, modified: 2025-11-30T03:55:58, by: Dropbox User)
+- `Day28_Dev_Department_Report_PMT032.json` → `REPORTS/Week_4/28_Test_PMT032/Day28_Dev_Department_Report_PMT032.json` (4.95 KB, modified: 2025-11-30T03:56:05, by: Dropbox User)
+- `Day28_Activities_With_Entity_Mapping.json` → `REPORTS/Week_4/28_Test_PMT032/Day28_Activities_With_Entity_Mapping.json` (7.91 KB, modified: 2025-11-30T03:56:05, by: Dropbox User)
+- `COMPARISON_REPORT.md` → `REPORTS/Week_4/28_Test_PMT032/COMPARISON_REPORT.md` (7.55 KB, modified: 2025-11-30T03:57:11, by: Dropbox User)
+- `README.md` → `REPORTS/Week_4/28_Test_PMT032/README.md` (2.92 KB, modified: 2025-11-30T03:57:32, by: Dropbox User)
+- `EXECUTIVE_SUMMARY.md` → `REPORTS/Week_4/28_Test_PMT032/EXECUTIVE_SUMMARY.md` (5.41 KB, modified: 2025-11-30T03:58:13, by: Dropbox User)
+- `DAY28_SUMMARY.md` → `REPORTS/Week_4/28/DAY28_SUMMARY.md` (2.51 KB, modified: 2025-11-30T06:11:15, by: Dropbox User)
+- `daily.md` → `REPORTS/Week_4/28/LG Nov25/Bindiak Dana/daily.md` (31.02 KB, modified: 2025-11-28T15:55:50, by: Dropbox User)
+- `plans.md` → `REPORTS/Week_4/28/LG Nov25/Bindiak Dana/plans.md` (3.79 KB, modified: 2025-11-28T07:28:17, by: Dropbox User)
+- `task.md` → `REPORTS/Week_4/28/LG Nov25/Bindiak Dana/task.md` (1.97 KB, modified: 2025-11-28T15:58:43, by: Dropbox User)
+- `daily.md` → `REPORTS/Week_4/28/LG Nov25/Archibong Isaac/daily.md` (4.34 KB, modified: 2025-11-28T14:52:52, by: Dropbox User)
+- `plans.md` → `REPORTS/Week_4/28/LG Nov25/Archibong Isaac/plans.md` (5.48 KB, modified: 2025-11-28T15:31:01, by: Dropbox User)
+- `task.md` → `REPORTS/Week_4/28/LG Nov25/Archibong Isaac/task.md` (5.08 KB, modified: 2025-11-28T15:31:54, by: Dropbox User)
+- `daily.md` → `REPORTS/Week_4/28/AI Nov25/Perederii Vladislav/daily.md` (2.67 KB, modified: 2025-11-28T16:02:16, by: Dropbox User)
+- `plans.md` → `REPORTS/Week_4/28/AI Nov25/Perederii Vladislav/plans.md` (2.58 KB, modified: 2025-11-28T16:03:03, by: Dropbox User)
+- `task.md` → `REPORTS/Week_4/28/AI Nov25/Perederii Vladislav/task.md` (3.48 KB, modified: 2025-11-28T16:03:26, by: Dropbox User)
+- `daily.md` → `REPORTS/Week_4/28/Dev Nov25/Makovska Anna/daily.md` (7.87 KB, modified: 2025-11-28T15:37:05, by: Dropbox User)
+- `plans.md` → `REPORTS/Week_4/28/Dev Nov25/Makovska Anna/plans.md` (5.04 KB, modified: 2025-11-28T15:37:39, by: Dropbox User)
+- `daily.md` → `REPORTS/Week_4/28/Fin Nov25/Ponomarova Kateryna/daily.md` (432 bytes, modified: 2025-11-28T16:06:57, by: Dropbox User)
+- `daily.md` → `REPORTS/Week_4/28/Design Nov25/Skrypkar Vilhelm/daily.md` (9.59 KB, modified: 2025-11-28T14:56:20, by: Dropbox User)
+- `plans.md` → `REPORTS/Week_4/28/Design Nov25/Skrypkar Vilhelm/plans.md` (5.64 KB, modified: 2025-11-28T15:01:37, by: Dropbox User)
+- `task.md` → `REPORTS/Week_4/28/Design Nov25/Skrypkar Vilhelm/task.md` (9.84 KB, modified: 2025-11-28T15:01:40, by: Dropbox User)
+- `daily.md` → `REPORTS/Week_4/28/AI Nov25/Artemchuk Nikolay/daily.md` (14.24 KB, modified: 2025-11-28T10:10:43, by: Dropbox User)
+- `task.md` → `REPORTS/Week_4/28/Dev Nov25/Klimenko Yaroslav/task.md` (7.25 KB, modified: 2025-11-28T16:47:04, by: Dropbox User)
+- `daily.md` → `REPORTS/Week_4/28/Dev Nov25/Danylenko Liliia/daily.md` (45.67 KB, modified: 2025-11-28T15:07:26, by: Dropbox User)
+- `plans.md` → `REPORTS/Week_4/28/Dev Nov25/Danylenko Liliia/plans.md` (4.24 KB, modified: 2025-11-28T15:55:21, by: Dropbox User)
+- `daily.md` → `REPORTS/Week_4/28/Dev Nov25/Artem Skichko/daily.md` (41.36 KB, modified: 2025-11-28T15:47:39, by: Dropbox User)
+- `plans.md` → `REPORTS/Week_4/28/Dev Nov25/Artem Skichko/plans.md` (6.78 KB, modified: 2025-11-28T15:49:25, by: Dropbox User)
+- `task.md` → `REPORTS/Week_4/28/Dev Nov25/Artem Skichko/task.md` (11.09 KB, modified: 2025-11-28T15:51:25, by: Dropbox User)
+- `daily.md` → `REPORTS/Week_4/28/LG Nov25/Cynthia Aninwezi/daily.md` (2.37 KB, modified: 2025-11-29T12:24:06, by: Dropbox User)
+- `plans.md` → `REPORTS/Week_4/28/LG Nov25/Cynthia Aninwezi/plans.md` (5.90 KB, modified: 2025-11-29T12:55:23, by: Dropbox User)
+- `task.md` → `REPORTS/Week_4/28/LG Nov25/Cynthia Aninwezi/task.md` (742 bytes, modified: 2025-11-27T18:40:04, by: Dropbox User)
+- `daily.md` → `REPORTS/Week_4/28/LG Nov25/Burda Anna/daily.md` (50.64 KB, modified: 2025-11-28T16:31:01, by: Dropbox User)
+- `plans.md` → `REPORTS/Week_4/28/LG Nov25/Burda Anna/plans.md` (3.64 KB, modified: 2025-11-28T16:42:02, by: Dropbox User)
+- `task.md` → `REPORTS/Week_4/28/LG Nov25/Burda Anna/task.md` (9.83 KB, modified: 2025-11-28T16:44:25, by: Dropbox User)
+- `Day28_TODO_Extraction_Plan.md` → `REPORTS/Week_4/PLANS/Day28_TODO_Extraction_Plan.md` (9.52 KB, modified: 2025-11-30T06:16:52, by: Dropbox User)
+- `Day28_Manual_Comparison_Workflow.md` → `REPORTS/Week_4/PLANS/Day28_Manual_Comparison_Workflow.md` (9.89 KB, modified: 2025-11-30T06:27:28, by: Dropbox User)
+
+**Modified (1 files):**
+- `Bykova_Anastasiia_Employee_Summary_Week4.md` → `REPORTS/Employee_Summaries_Week4/Bykova_Anastasiia_Employee_Summary_Week4.md` (6.31 KB, rev: 01644db9..., modified: 2025-12-01T03:30:54, by: Dropbox User)
+
+
+### RESEARCHES
+
+**Total changes:** 1 files
+
+**Modified (1 files):**
+- `Video_022_Gap_Analysis.md` → `VIDEO_RESEARCHES/03_ANALYSIS/Gap_Analysis/Video_022_Gap_Analysis.md` (15.52 KB, rev: 01644db9..., modified: 2025-12-01T03:30:54, by: Dropbox User)
+
+
+### TALENTS
+
+**Total changes:** 18 files
+
+**Added (14 files):**
+- `corepack.js` → `Employees/Artemchuk Nikolay/Employees attendance/.node/lib/node_modules/corepack/dist/corepack.js` (81 bytes, modified: 2023-08-09T00:23:24, by: Dropbox User)
+- `npm.js` → `Employees/Artemchuk Nikolay/Employees attendance/.node/lib/node_modules/corepack/dist/npm.js` (93 bytes, modified: 2023-08-09T00:23:24, by: Dropbox User)
+- `npx.js` → `Employees/Artemchuk Nikolay/Employees attendance/.node/lib/node_modules/corepack/dist/npx.js` (93 bytes, modified: 2023-08-09T00:23:24, by: Dropbox User)
+- `pnpm.js` → `Employees/Artemchuk Nikolay/Employees attendance/.node/lib/node_modules/corepack/dist/pnpm.js` (94 bytes, modified: 2023-08-09T00:23:24, by: Dropbox User)
+- `pnpx.js` → `Employees/Artemchuk Nikolay/Employees attendance/.node/lib/node_modules/corepack/dist/pnpx.js` (94 bytes, modified: 2023-08-09T00:23:24, by: Dropbox User)
+- `yarn.js` → `Employees/Artemchuk Nikolay/Employees attendance/.node/lib/node_modules/corepack/dist/yarn.js` (94 bytes, modified: 2023-08-09T00:23:24, by: Dropbox User)
+- `yarnpkg.js` → `Employees/Artemchuk Nikolay/Employees attendance/.node/lib/node_modules/corepack/dist/yarnpkg.js` (97 bytes, modified: 2023-08-09T00:23:24, by: Dropbox User)
+- `corepack.cjs` → `Employees/Artemchuk Nikolay/Employees attendance/.node/lib/node_modules/corepack/dist/lib/corepack.cjs` (2263.85 KB, modified: 2023-11-22T08:06:28, by: Dropbox User)
+- `Azanova Darʼya.md` → `Employees/profiles/Resumes/Azanova Darʼya.md` (37 bytes, modified: 2025-11-24T14:04:53, by: Dropbox User)
+- `Azanova Darʼya.md` → `Employees/ORPHANED/Azanova Darʼya.md` (37 bytes, modified: 2025-11-25T10:17:39, by: Dropbox User)
+- `Profile Video Editor Azanova Darʼya.md` → `Employees/profiles/Archive/Available/Video/Profile Video Editor Azanova Darʼya.md` (1.42 KB, modified: 2025-11-25T14:53:35, by: Dropbox User)
+- `attendance_report_2025-11-29.json` → `Employees/Voice Log Discord/attendance_report_2025-11-29.json` (259 bytes, modified: 2025-11-30T05:02:37, by: Dropbox User)
+- `final_audit_2025-11-29.json` → `Employees/Merged final report/final_audit_2025-11-29.json` (20.65 KB, modified: 2025-11-30T05:02:45, by: Dropbox User)
+- `crm_export_2025-11-29.json` → `Employees/crm_export_Attendance/crm_export_2025-11-29.json` (20.35 KB, modified: 2025-11-30T05:02:50, by: Dropbox User)
+
+**Modified (4 files):**
+- `COPY_SUMMARY.md` → `Employees/profiles/COPY_SUMMARY.md` (1.29 KB, rev: 01644db9..., modified: 2025-12-01T03:30:54, by: Dropbox User)
+- `ORGANIZATION_SUMMARY.md` → `Employees/profiles/ORGANIZATION_SUMMARY.md` (2.03 KB, rev: 01644db9..., modified: 2025-12-01T03:30:54, by: Dropbox User)
+- `STATUS_ORGANIZATION_COMPLETE.md` → `Employees/profiles/STATUS_ORGANIZATION_COMPLETE.md` (1.95 KB, rev: 01644db9..., modified: 2025-12-01T03:30:54, by: Dropbox User)
+- `FINAL_ORGANIZATION.md` → `Employees/profiles/FINAL_ORGANIZATION.md` (2.89 KB, rev: 01644db9..., modified: 2025-12-01T03:30:54, by: Dropbox User)
+
+
+### TASK_MANAGERS
+
+**Total changes:** 10 files
+
+**Added (10 files):**
+- `calculate_priority.cpython-313.pyc` → `RESEARCHES/01_VIDEO_QUEUE/scripts/__pycache__/calculate_priority.cpython-313.pyc` (6.88 KB, modified: 2025-11-23T23:34:07, by: Dropbox User)
+- `config.cpython-313.pyc` → `RESEARCHES/scripts/__pycache__/config.cpython-313.pyc` (3.80 KB, modified: 2025-11-24T00:49:06, by: Dropbox User)
+- `markdown_parser.cpython-313.pyc` → `RESEARCHES/scripts/__pycache__/markdown_parser.cpython-313.pyc` (24.72 KB, modified: 2025-11-24T01:16:32, by: Dropbox User)
+- `video_gap_analyzer.cpython-313.pyc` → `RESEARCHES/scripts/__pycache__/video_gap_analyzer.cpython-313.pyc` (30.36 KB, modified: 2025-11-24T01:16:32, by: Dropbox User)
+- `video_id_scanner.cpython-313.pyc` → `RESEARCHES/scripts/__pycache__/video_id_scanner.cpython-313.pyc` (17.41 KB, modified: 2025-11-24T01:16:32, by: Dropbox User)
+- `video_integration_reporter.cpython-313.pyc` → `RESEARCHES/scripts/__pycache__/video_integration_reporter.cpython-313.pyc` (20.35 KB, modified: 2025-11-24T01:16:32, by: Dropbox User)
+- `video_json_updater.cpython-313.pyc` → `RESEARCHES/scripts/__pycache__/video_json_updater.cpython-313.pyc` (24.04 KB, modified: 2025-11-24T01:16:32, by: Dropbox User)
+- `utils.cpython-313.pyc` → `RESEARCHES/scripts/__pycache__/utils.cpython-313.pyc` (15.44 KB, modified: 2025-11-24T01:17:05, by: Dropbox User)
+- `process.log` → `RESEARCHES/scripts/process.log` (51.20 KB, modified: 2025-11-24T01:17:05, by: Dropbox User)
+- `Video_024 (Спірна копія користувача HR RemotEmployees 2025-11-25).md` → `RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/02_TRANSCRIPTIONS/Video_024 (Спірна копія користувача HR RemotEmployees 2025-11-25).md` (44.98 KB, modified: 2025-11-26T14:56:50, by: Dropbox User)
+
+
+## All Changes
+
+### Added Files
+
+- `DAILIES/Week3/20/Azanova Darʼya_Week_3/TODO.md`
+- `DAILIES/IMPORTS/Week_3/2025-11-22_Sales_Import/archive_2025-11-22/Prospects/BUSINESSES_Prospect_Electrão_BUS-2025-018.json`
+- `DAILIES/IMPORTS/Week_3/2025-11-22_Sales_Import/archive_2025-11-22/Prospects/BUSINESSES_Prospect_Markewärn_Studios_BUS-2025-021.json`
+- `TASK_MANAGERS/RESEARCHES/01_VIDEO_QUEUE/scripts/__pycache__/calculate_priority.cpython-313.pyc`
+- `TASK_MANAGERS/RESEARCHES/scripts/__pycache__/config.cpython-313.pyc`
+- `TASK_MANAGERS/RESEARCHES/scripts/__pycache__/markdown_parser.cpython-313.pyc`
+- `TASK_MANAGERS/RESEARCHES/scripts/__pycache__/video_gap_analyzer.cpython-313.pyc`
+- `TASK_MANAGERS/RESEARCHES/scripts/__pycache__/video_id_scanner.cpython-313.pyc`
+- `TASK_MANAGERS/RESEARCHES/scripts/__pycache__/video_integration_reporter.cpython-313.pyc`
+- `TASK_MANAGERS/RESEARCHES/scripts/__pycache__/video_json_updater.cpython-313.pyc`
+- `TASK_MANAGERS/RESEARCHES/scripts/__pycache__/utils.cpython-313.pyc`
+- `TASK_MANAGERS/RESEARCHES/scripts/process.log`
+- `TALENTS/Employees/Artemchuk Nikolay/Employees attendance/.node/lib/node_modules/corepack/dist/corepack.js`
+- `TALENTS/Employees/Artemchuk Nikolay/Employees attendance/.node/lib/node_modules/corepack/dist/npm.js`
+- `TALENTS/Employees/Artemchuk Nikolay/Employees attendance/.node/lib/node_modules/corepack/dist/npx.js`
+- `TALENTS/Employees/Artemchuk Nikolay/Employees attendance/.node/lib/node_modules/corepack/dist/pnpm.js`
+- `TALENTS/Employees/Artemchuk Nikolay/Employees attendance/.node/lib/node_modules/corepack/dist/pnpx.js`
+- `TALENTS/Employees/Artemchuk Nikolay/Employees attendance/.node/lib/node_modules/corepack/dist/yarn.js`
+- `TALENTS/Employees/Artemchuk Nikolay/Employees attendance/.node/lib/node_modules/corepack/dist/yarnpkg.js`
+- `TALENTS/Employees/Artemchuk Nikolay/Employees attendance/.node/lib/node_modules/corepack/dist/lib/corepack.cjs`
+- `TALENTS/Employees/profiles/Resumes/Azanova Darʼya.md`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-461_Create_cross-reference_index_(tool→lesson→template).json`
+- `TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/02_TRANSCRIPTIONS/Video_024 (Спірна копія користувача HR RemotEmployees 2025-11-25).md`
+- `ASSETS/rem-s/scripts/pages-export/node_modules/axios/dist/axios.js`
+- `ASSETS/rem-s/scripts/pages-export/node_modules/axios/dist/axios.js.map`
+- `ASSETS/rem-s/scripts/pages-export/node_modules/axios/dist/axios.min.js`
+- `ASSETS/rem-s/scripts/pages-export/node_modules/axios/dist/axios.min.js.map`
+- `ASSETS/rem-s/scripts/pages-export/node_modules/axios/dist/browser/axios.cjs`
+- `ASSETS/rem-s/scripts/pages-export/node_modules/axios/dist/browser/axios.cjs.map`
+- `ASSETS/rem-s/scripts/pages-export/node_modules/axios/dist/esm/axios.js`
+- `ASSETS/rem-s/scripts/pages-export/node_modules/axios/dist/esm/axios.js.map`
+- `ASSETS/rem-s/scripts/pages-export/node_modules/axios/dist/esm/axios.min.js`
+- `ASSETS/rem-s/scripts/pages-export/node_modules/axios/dist/esm/axios.min.js.map`
+- `ASSETS/rem-s/scripts/pages-export/node_modules/axios/dist/node/axios.cjs`
+- `ASSETS/rem-s/scripts/pages-export/node_modules/axios/dist/node/axios.cjs.map`
+- `ASSETS/rem-s/scripts/pages-export/node_modules/axios/lib/env/README.md`
+- `ASSETS/rem-s/scripts/pages-export/node_modules/axios/lib/env/data.js`
+- `ASSETS/rem-s/scripts/pages-export/node_modules/axios/lib/env/classes/FormData.js`
+- `ASSETS/rem-s/scripts/collections-export/node_modules/axios/dist/axios.js`
+- `ASSETS/rem-s/scripts/collections-export/node_modules/axios/dist/axios.js.map`
+- `ASSETS/rem-s/scripts/collections-export/node_modules/axios/dist/axios.min.js`
+- `ASSETS/rem-s/scripts/collections-export/node_modules/axios/dist/axios.min.js.map`
+- `ASSETS/rem-s/scripts/collections-export/node_modules/axios/dist/browser/axios.cjs`
+- `ASSETS/rem-s/scripts/collections-export/node_modules/axios/dist/browser/axios.cjs.map`
+- `ASSETS/rem-s/scripts/collections-export/node_modules/axios/dist/node/axios.cjs`
+- `ASSETS/rem-s/scripts/collections-export/node_modules/axios/dist/node/axios.cjs.map`
+- `ASSETS/rem-s/scripts/collections-export/node_modules/axios/dist/esm/axios.js`
+- `ASSETS/rem-s/scripts/collections-export/node_modules/axios/dist/esm/axios.js.map`
+- `ASSETS/rem-s/scripts/collections-export/node_modules/axios/dist/esm/axios.min.js`
+- `ASSETS/rem-s/scripts/collections-export/node_modules/axios/dist/esm/axios.min.js.map`
+- `ASSETS/rem-s/scripts/collections-export/node_modules/axios/lib/env/README.md`
+- `ASSETS/rem-s/scripts/collections-export/node_modules/axios/lib/env/data.js`
+- `ASSETS/rem-s/scripts/collections-export/node_modules/axios/lib/env/classes/FormData.js`
+- `ASSETS/rem-s/scripts/pages-export/logs/update-2025-11-28T12-59-23-156Z.log`
+- `ASSETS/rem-s/scripts/pages-export/logs/update-2025-11-28T13-10-23-474Z.log`
+- `ASSETS/rem-s/scripts/pages-export/logs/update-2025-11-28T13-12-21-364Z.log`
+- `ASSETS/rem-s/scripts/pages-export/logs/update-2025-11-28T13-16-29-831Z.log`
+- `ASSETS/rem-s/scripts/pages-export/logs/update-2025-11-28T13-19-13-589Z.log`
+- `ASSETS/rem-s/scripts/pages-export/logs/update-2025-11-28T13-23-45-206Z.log`
+- `ASSETS/rem-s/scripts/pages-export/logs/update-2025-11-28T13-26-41-071Z.log`
+- `ASSETS/rem-s/scripts/pages-export/logs/update-2025-11-28T13-28-23-518Z.log`
+- `ASSETS/rem-s/scripts/pages-export/logs/update-2025-11-28T13-32-15-578Z.log`
+- `TALENTS/Employees/ORPHANED/Azanova Darʼya.md`
+- `ASSETS/rem-s/scripts/collections-update/node_modules/axios/dist/axios.js`
+- `ASSETS/rem-s/scripts/collections-update/node_modules/axios/dist/axios.js.map`
+- `ASSETS/rem-s/scripts/collections-update/node_modules/axios/dist/axios.min.js`
+- `ASSETS/rem-s/scripts/collections-update/node_modules/axios/dist/axios.min.js.map`
+- `ASSETS/rem-s/scripts/collections-update/node_modules/axios/dist/browser/axios.cjs`
+- `ASSETS/rem-s/scripts/collections-update/node_modules/axios/dist/browser/axios.cjs.map`
+- `ASSETS/rem-s/scripts/collections-update/node_modules/axios/dist/esm/axios.js`
+- `ASSETS/rem-s/scripts/collections-update/node_modules/axios/dist/esm/axios.js.map`
+- `ASSETS/rem-s/scripts/collections-update/node_modules/axios/dist/esm/axios.min.js`
+- `ASSETS/rem-s/scripts/collections-update/node_modules/axios/dist/esm/axios.min.js.map`
+- `ASSETS/rem-s/scripts/collections-update/node_modules/axios/dist/node/axios.cjs`
+- `ASSETS/rem-s/scripts/collections-update/node_modules/axios/dist/node/axios.cjs.map`
+- `ASSETS/rem-s/scripts/collections-update/node_modules/axios/lib/env/README.md`
+- `ASSETS/rem-s/scripts/collections-update/node_modules/axios/lib/env/data.js`
+- `ASSETS/rem-s/scripts/collections-update/node_modules/axios/lib/env/classes/FormData.js`
+- `TALENTS/Employees/profiles/Archive/Available/Video/Profile Video Editor Azanova Darʼya.md`
+- `ASSETS/rem-s/scripts/pages-export/logs/update-2025-11-28T15-15-33-047Z.log`
+- `ASSETS/rem-s/scripts/pages-export/logs/update-2025-11-28T15-29-16-930Z.log`
+- `DAILIES/REPORTS/Employee_Summaries_Week4/Azanova_Darʼya_Employee_Summary_Week4.md`
+- `DAILIES/REPORTS/Week_4/28_Test_PMT032/generate_pmt032_report.py`
+- `DAILIES/REPORTS/Week_4/28_Test_PMT032/Day28_Dev_Department_Report_PMT032.json`
+- `DAILIES/REPORTS/Week_4/28_Test_PMT032/Day28_Activities_With_Entity_Mapping.json`
+- `DAILIES/REPORTS/Week_4/28_Test_PMT032/COMPARISON_REPORT.md`
+- `DAILIES/REPORTS/Week_4/28_Test_PMT032/README.md`
+- `DAILIES/REPORTS/Week_4/28_Test_PMT032/EXECUTIVE_SUMMARY.md`
+- `TALENTS/Employees/Voice Log Discord/attendance_report_2025-11-29.json`
+- `TALENTS/Employees/Merged final report/final_audit_2025-11-29.json`
+- `TALENTS/Employees/crm_export_Attendance/crm_export_2025-11-29.json`
+- `DAILIES/REPORTS/Week_4/28/DAY28_SUMMARY.md`
+- `DAILIES/REPORTS/Week_4/28/LG Nov25/Bindiak Dana/daily.md`
+- `DAILIES/REPORTS/Week_4/28/LG Nov25/Bindiak Dana/plans.md`
+- `DAILIES/REPORTS/Week_4/28/LG Nov25/Bindiak Dana/task.md`
+- `DAILIES/REPORTS/Week_4/28/LG Nov25/Archibong Isaac/daily.md`
+- `DAILIES/REPORTS/Week_4/28/LG Nov25/Archibong Isaac/plans.md`
+- `DAILIES/REPORTS/Week_4/28/LG Nov25/Archibong Isaac/task.md`
+- `DAILIES/REPORTS/Week_4/28/AI Nov25/Perederii Vladislav/daily.md`
+- `DAILIES/REPORTS/Week_4/28/AI Nov25/Perederii Vladislav/plans.md`
+- `DAILIES/REPORTS/Week_4/28/AI Nov25/Perederii Vladislav/task.md`
+- `DAILIES/REPORTS/Week_4/28/Dev Nov25/Makovska Anna/daily.md`
+- `DAILIES/REPORTS/Week_4/28/Dev Nov25/Makovska Anna/plans.md`
+- `DAILIES/REPORTS/Week_4/28/Fin Nov25/Ponomarova Kateryna/daily.md`
+- `DAILIES/REPORTS/Week_4/28/Design Nov25/Skrypkar Vilhelm/daily.md`
+- `DAILIES/REPORTS/Week_4/28/Design Nov25/Skrypkar Vilhelm/plans.md`
+- `DAILIES/REPORTS/Week_4/28/Design Nov25/Skrypkar Vilhelm/task.md`
+- `DAILIES/REPORTS/Week_4/28/AI Nov25/Artemchuk Nikolay/daily.md`
+- `DAILIES/REPORTS/Week_4/28/Dev Nov25/Klimenko Yaroslav/task.md`
+- `DAILIES/REPORTS/Week_4/28/Dev Nov25/Danylenko Liliia/daily.md`
+- `DAILIES/REPORTS/Week_4/28/Dev Nov25/Danylenko Liliia/plans.md`
+- `DAILIES/REPORTS/Week_4/28/Dev Nov25/Artem Skichko/daily.md`
+- `DAILIES/REPORTS/Week_4/28/Dev Nov25/Artem Skichko/plans.md`
+- `DAILIES/REPORTS/Week_4/28/Dev Nov25/Artem Skichko/task.md`
+- `DAILIES/REPORTS/Week_4/28/LG Nov25/Cynthia Aninwezi/daily.md`
+- `DAILIES/REPORTS/Week_4/28/LG Nov25/Cynthia Aninwezi/plans.md`
+- `DAILIES/REPORTS/Week_4/28/LG Nov25/Cynthia Aninwezi/task.md`
+- `DAILIES/REPORTS/Week_4/28/LG Nov25/Burda Anna/daily.md`
+- `DAILIES/REPORTS/Week_4/28/LG Nov25/Burda Anna/plans.md`
+- `DAILIES/REPORTS/Week_4/28/LG Nov25/Burda Anna/task.md`
+- `DAILIES/REPORTS/Week_4/PLANS/Day28_TODO_Extraction_Plan.md`
+- `DAILIES/REPORTS/Week_4/PLANS/Day28_Manual_Comparison_Workflow.md`
+
+### Modified Files
+
+- `ASSETS/rem-s/scripts/collections-update/script-collections-update.js`
+- `TALENTS/Employees/profiles/COPY_SUMMARY.md`
+- `RESEARCHES/VIDEO_RESEARCHES/03_ANALYSIS/Gap_Analysis/Video_022_Gap_Analysis.md`
+- `TALENTS/Employees/profiles/ORGANIZATION_SUMMARY.md`
+- `TALENTS/Employees/profiles/STATUS_ORGANIZATION_COMPLETE.md`
+- `TALENTS/Employees/profiles/FINAL_ORGANIZATION.md`
+- `DAILIES/REPORTS/Employee_Summaries_Week4/Bykova_Anastasiia_Employee_Summary_Week4.md`
+
+### Deleted Files
+
+- `"TASK_MANAGERS/RESEARCHES/02_TRANSCRIPTIONS/Video_024 (\320\241\320\277\321\226\321\200\320\275\320\260 \320\272\320\276\320\277\321\226\321\217 \320\272\320\276\321\200\320\270\321\201\321\202\321\203\320\262\320\260\321\207\320\260 HR RemotEmployees 2025-11-25).md"`
+- `"DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-461_Create_cross-reference_index_(tool\342\206\222lesson\342\206\222template).json"`
+- `"TALENTS/Employees/profiles/Available/Video/Profile Video Editor Azanova Dar\312\274ya.md"`
+- `"TALENTS/Employees/profiles/Archive/Available/Video/Profile Video Editor Azanova Dar\312\274ya.md"`
+- `"TALENTS/Employees/ORPHANED/Azanova Dar\312\274ya.md"`
+- `"TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/02_TRANSCRIPTIONS/Video_024 (\320\241\320\277\321\226\321\200\320\275\320\260 \320\272\320\276\320\277\321\226\321\217 \320\272\320\276\321\200\320\270\321\201\321\202\321\203\320\262\320\260\321\207\320\260 HR RemotEmployees 2025-11-25).md"`
+- `"DAILIES/Week3/20/Azanova Dar\312\274ya_Week_3/TODO.md"`
+- `"DAILIES/REPORTS/Employee_Summaries_Week4/Azanova_Dar\312\274ya_Employee_Summary_Week4.md"`
+- `"DAILIES/IMPORTS/Week_3/2025-11-22_Sales_Import/archive_2025-11-22/Prospects/BUSINESSES_Prospect_Electr\303\243o_BUS-2025-018.json"`
+- `"DAILIES/IMPORTS/Week_3/2025-11-22_Sales_Import/archive_2025-11-22/Prospects/BUSINESSES_Prospect_Markew\303\244rn_Studios_BUS-2025-021.json"`
+- `"TALENTS/Employees/profiles/Resumes/Azanova Dar\312\274ya.md"`
+
+
+---
+*Generated automatically by Dropbox to GitHub sync*
+
+
 # Changelog - 2025-11-30
 
 **Sync Date:** 2025-11-30 05:20:02 UTC
