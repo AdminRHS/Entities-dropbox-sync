@@ -1,6 +1,6 @@
 {
   "createdAt": "2023-04-03T05:00:34.472Z",
-  "updatedAt": "2025-11-28T13:32:52.932Z",
+  "updatedAt": "2025-12-01T13:20:41.540Z",
   "publishedAt": "2023-04-03T05:00:37.990Z",
   "locale": "ru",
   "title": "Не волнуйтесь, ничего не сломалось!",
@@ -8,7 +8,52 @@
   "link1": "На главную",
   "link2": "Вакансии",
   "notFoundCat": {
-    "data": null
+    "data": [
+      {
+        "id": 239,
+        "attributes": {
+          "name": "notFoundCat.png",
+          "alternativeText": "notFoundCat.png",
+          "caption": "notFoundCat.png",
+          "width": 537,
+          "height": 464,
+          "formats": {
+            "small": {
+              "ext": ".png",
+              "url": "/uploads/small_not_Found_Cat_f880c5f075.png",
+              "hash": "small_not_Found_Cat_f880c5f075",
+              "mime": "image/png",
+              "name": "small_notFoundCat.png",
+              "path": null,
+              "size": 143.81,
+              "width": 500,
+              "height": 432
+            },
+            "thumbnail": {
+              "ext": ".png",
+              "url": "/uploads/thumbnail_not_Found_Cat_f880c5f075.png",
+              "hash": "thumbnail_not_Found_Cat_f880c5f075",
+              "mime": "image/png",
+              "name": "thumbnail_notFoundCat.png",
+              "path": null,
+              "size": 33.75,
+              "width": 181,
+              "height": 156
+            }
+          },
+          "hash": "not_Found_Cat_f880c5f075",
+          "ext": ".png",
+          "mime": "image/png",
+          "size": 97.9,
+          "url": "/uploads/not_Found_Cat_f880c5f075.png",
+          "previewUrl": null,
+          "provider": "local",
+          "provider_metadata": null,
+          "createdAt": "2023-04-03T05:03:12.240Z",
+          "updatedAt": "2023-04-03T05:03:12.240Z"
+        }
+      }
+    ]
   },
   "localizations": {
     "data": [
@@ -16,7 +61,7 @@
         "id": 5,
         "attributes": {
           "createdAt": "2023-06-01T10:07:15.909Z",
-          "updatedAt": "2025-11-28T13:32:49.281Z",
+          "updatedAt": "2025-12-01T13:20:41.567Z",
           "publishedAt": "2023-06-05T17:19:07.315Z",
           "locale": "en",
           "title": "Don't worry, nothing is broken!",
@@ -29,7 +74,7 @@
         "id": 2,
         "attributes": {
           "createdAt": "2023-05-11T12:48:40.670Z",
-          "updatedAt": "2025-11-28T13:32:51.746Z",
+          "updatedAt": "2025-12-01T13:20:41.570Z",
           "publishedAt": "2023-05-11T12:48:43.035Z",
           "locale": "pl",
           "title": "Nie martw się, nic nie jest zepsute!",
@@ -42,7 +87,7 @@
         "id": 3,
         "attributes": {
           "createdAt": "2023-05-12T08:46:30.131Z",
-          "updatedAt": "2023-06-05T17:19:07.392Z",
+          "updatedAt": "2025-12-01T13:20:41.573Z",
           "publishedAt": "2023-05-12T08:46:32.379Z",
           "locale": "sk",
           "title": "Nebojte sa, nič nie je zlomené!",
@@ -55,7 +100,7 @@
         "id": 4,
         "attributes": {
           "createdAt": "2023-06-01T10:05:50.424Z",
-          "updatedAt": "2025-11-28T13:32:50.509Z",
+          "updatedAt": "2025-12-01T13:20:41.575Z",
           "publishedAt": "2023-06-05T17:19:03.495Z",
           "locale": "uk",
           "title": "Не хвилюйтеся, нічого не зламалося!",

@@ -32,7 +32,6 @@ node strapi-single-types-export.js --test
 
 - About (about-us)
 - Contact (contact)
-- Footer (footer)
 - Header (header)
 - Home (home-page)
 - NotFound (not-found)

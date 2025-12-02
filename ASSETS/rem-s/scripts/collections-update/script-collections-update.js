@@ -19,13 +19,12 @@ const RETRY_DELAY = 2000; // milliseconds before retry
 const LOCALIZED_COLLECTIONS = ['vacancies', 'categories', 'keyword-tags', 'skills', 'form-users'];
 
 // Collection name mapping for API endpoints
-// Note: Some collections use singular in API (category) but plural in folder names (categories)
 const COLLECTION_ENDPOINTS = {
   'vacancies': 'vacancies',
-  'categories': 'category',  // API uses singular 'category' not 'categories'
-  'keyword-tags': 'keyword-tag',  // API uses singular
-  'skills': 'skill',  // API uses singular
-  'form-users': 'form-user',  // API uses singular
+  'categories': 'categories',
+  'keyword-tags': 'keyword-tags',
+  'skills': 'skills',
+  'form-users': 'form-users',
   'users': 'users',
   'submissions': 'submissions',
   'recipients': 'recipients',
@@ -131,157 +130,6 @@ async function getFileHash(filePath) {
   } catch {
     return null;
   }
-}
-
-/**
- * Get collection paths helper (similar to export script)
- * @param {string} collectionName - Collection name
- * @param {string} locale - Locale code (optional)
- * @returns {Object} Paths object
- */
-function getCollectionPaths(collectionName, locale = null) {
-  const isLocalized = LOCALIZED_COLLECTIONS.includes(collectionName);
-  
-  if (isLocalized && locale) {
-    const localeDir = path.join(BASE_UPDATE_DIR, collectionName, 'languages', locale);
-    const itemsDir = path.join(localeDir, collectionName);
-    return {
-      baseDir: path.join(BASE_UPDATE_DIR, collectionName),
-      localeDir,
-      itemsDir,
-      listFile: path.join(localeDir, `${collectionName}-list.json`),
-      changedListFile: path.join(localeDir, `${collectionName}-changed-list.json`)
-    };
-  } else {
-    const itemsDir = path.join(BASE_UPDATE_DIR, collectionName, collectionName);
-    return {
-      baseDir: path.join(BASE_UPDATE_DIR, collectionName),
-      itemsDir,
-      listFile: path.join(BASE_UPDATE_DIR, collectionName, `${collectionName}-list.json`),
-      changedListFile: path.join(BASE_UPDATE_DIR, collectionName, `${collectionName}-changed-list.json`)
-    };
-  }
-}
-
-/**
- * Sync list.json files before sending updates
- * @param {Object} changes - Changes object with created, updated, deleted arrays
- * @param {Object} currentSnapshot - Current snapshot of files
- */
-async function syncListFiles(changes, currentSnapshot) {
-  console.log('📋 Синхронізація list.json файлів...\n');
-  
-  // Group changes by collection and locale
-  const byCollection = {};
-  
-  // Process all changed files
-  for (const item of [...changes.created, ...changes.updated, ...changes.deleted]) {
-    if (!item.collection) continue;
-    
-    const key = `${item.collection}_${item.locale || 'all'}`;
-    if (!byCollection[key]) {
-      byCollection[key] = {
-        collection: item.collection,
-        locale: item.locale,
-        created: [],
-        updated: [],
-        deleted: []
-      };
-    }
-    
-    if (item.action === 'create') {
-      byCollection[key].created.push(item);
-    } else if (item.action === 'update') {
-      byCollection[key].updated.push(item);
-    } else if (item.action === 'delete') {
-      byCollection[key].deleted.push(item);
-    }
-  }
-  
-  // Also scan all files to create full list
-  const allCollections = {};
-  for (const [relativePath, info] of Object.entries(currentSnapshot)) {
-    if (!info.collection) continue;
-    
-    const key = `${info.collection}_${info.locale || 'all'}`;
-    if (!allCollections[key]) {
-      allCollections[key] = {
-        collection: info.collection,
-        locale: info.locale,
-        items: []
-      };
-    }
-    
-    // Read file to get metadata
-    try {
-      const fileData = await readJsonFile(info.filePath);
-      const idMatch = relativePath.match(/\/(\d+)_/);
-      const id = idMatch ? idMatch[1] : info.id;
-      
-      allCollections[key].items.push({
-        id: parseInt(id) || info.id,
-        title: fileData.title || fileData.name || fileData.categoryTitle || 'Untitled',
-        filename: path.basename(relativePath).replace('.json', ''),
-        slug: fileData.slug || fileData.vacancySlug || fileData.categorySlug || null,
-        createdAt: fileData.createdAt,
-        updatedAt: fileData.updatedAt,
-        publishedAt: fileData.publishedAt
-      });
-    } catch (error) {
-      // Skip if can't read
-    }
-  }
-  
-  // Create/update list files
-  for (const [key, collectionData] of Object.entries(allCollections)) {
-    const paths = getCollectionPaths(collectionData.collection, collectionData.locale);
-    
-    // Ensure directory exists
-    await fs.mkdir(path.dirname(paths.listFile), { recursive: true });
-    
-    // Create full list
-    const fullList = {
-      exportDate: new Date().toISOString(),
-      collection: collectionData.collection,
-      locale: collectionData.locale || null,
-      total: collectionData.items.length,
-      items: collectionData.items.sort((a, b) => (a.id || 0) - (b.id || 0))
-    };
-    
-    await fs.writeFile(paths.listFile, JSON.stringify(fullList, null, 2), 'utf-8');
-    console.log(`   ✓ Оновлено: ${paths.listFile} (${collectionData.items.length} items)`);
-    
-    // Create changed list if there are changes
-    const changeKey = `${collectionData.collection}_${collectionData.locale || 'all'}`;
-    if (byCollection[changeKey] && (
-      byCollection[changeKey].created.length > 0 ||
-      byCollection[changeKey].updated.length > 0 ||
-      byCollection[changeKey].deleted.length > 0
-    )) {
-      const changedList = {
-        syncDate: new Date().toISOString(),
-        collection: collectionData.collection,
-        locale: collectionData.locale || null,
-        created: byCollection[changeKey].created.map(item => ({
-          id: item.id,
-          relativePath: item.relativePath
-        })),
-        updated: byCollection[changeKey].updated.map(item => ({
-          id: item.id,
-          relativePath: item.relativePath
-        })),
-        deleted: byCollection[changeKey].deleted.map(item => ({
-          id: item.id,
-          relativePath: item.relativePath
-        }))
-      };
-      
-      await fs.writeFile(paths.changedListFile, JSON.stringify(changedList, null, 2), 'utf-8');
-      console.log(`   ✓ Створено список змін: ${path.basename(paths.changedListFile)}`);
-    }
-  }
-  
-  console.log('');
 }
 
 /**
@@ -533,59 +381,12 @@ async function deleteItem(collectionName, id, locale, token, dryRun = false) {
 }
 
 /**
- * Check if file should be ignored
- * @param {string} fileName - File name
- * @param {string} relativePath - Relative path from base directory
- * @returns {boolean} True if file should be ignored
- */
-function shouldIgnoreFile(fileName, relativePath) {
-  // Ignore hidden files
-  if (fileName.startsWith('.')) {
-    return true;
-  }
-  
-  // Note: list.json files are NOT ignored in scanning - they will be synced before sending
-  // But they won't be sent to server as collection items
-  
-  // Ignore template files (files without ID prefix)
-  // Valid files must start with number_ID_ or number_ID.json
-  const hasId = /^\d+_/.test(fileName);
-  if (!hasId) {
-    return true;
-  }
-  
-  // Ignore files in template directories (check path)
-  const pathLower = relativePath.toLowerCase();
-  if (pathLower.includes('/template/') || pathLower.includes('\\template\\') ||
-      pathLower.includes('/templates/') || pathLower.includes('\\templates\\')) {
-    return true;
-  }
-  
-  return false;
-}
-
-/**
- * Check if directory should be ignored
- * @param {string} dirName - Directory name
- * @returns {boolean} True if directory should be ignored
- */
-function shouldIgnoreDirectory(dirName) {
-  const nameLower = dirName.toLowerCase();
-  // Ignore template directories
-  if (nameLower === 'template' || nameLower === 'templates') {
-    return true;
-  }
-  return false;
-}
-
-/**
  * Find all JSON files in directory
  * @param {string} dir - Directory to scan
  * @returns {Promise<Array>} Array of file paths
  */
 async function findJsonFiles(dir) {
   const files = [];
-  const baseDir = dir;
   
   async function scanDirectory(directory) {
     try {
@@ -593,19 +394,11 @@ async function findJsonFiles(dir) {
       
       for (const entry of entries) {
         const fullPath = path.join(directory, entry.name);
-        const relativePath = path.relative(baseDir, fullPath);
         
         if (entry.isDirectory()) {
-          // Skip template directories
-          if (shouldIgnoreDirectory(entry.name)) {
-            continue;
-          }
           await scanDirectory(fullPath);
-        } else if (entry.isFile() && entry.name.endsWith('.json')) {
-          // Check if file should be ignored
-          if (!shouldIgnoreFile(entry.name, relativePath)) {
-            files.push(fullPath);
-          }
+        } else if (entry.isFile() && entry.name.endsWith('.json') && !entry.name.includes('-list.json') && !entry.name.startsWith('.')) {
+          files.push(fullPath);
         }
       }
     } catch (error) {
@@ -635,12 +428,6 @@ async function processBatch(batch, originalSnapshot, token, dryRun) {
   for (const item of batch) {
     try {
       if (item.action === 'delete') {
-        // Skip if collection or id is missing
-        if (!item.collection || !item.id) {
-          console.log(`   ⚠️  Пропущено видалення (немає collection або id): ${item.relativePath || 'невідомий файл'}`);
-          continue;
-        }
-        
         // Delete item
         const result = await deleteItem(
           item.collection,
@@ -658,12 +445,6 @@ async function processBatch(batch, originalSnapshot, token, dryRun) {
           results.deleted.failed.push({ ...item, error: result.message });
         }
       } else if (item.action === 'create') {
-        // Skip if collection is missing
-        if (!item.collection) {
-          console.log(`   ⚠️  Пропущено створення (немає collection): ${item.relativePath || 'невідомий файл'}`);
-          continue;
-        }
-        
         // Create new item
         const data = await readJsonFile(item.filePath);
         const result = await createCollectionItem(
@@ -682,12 +463,6 @@ async function processBatch(batch, originalSnapshot, token, dryRun) {
           results.created.failed.push({ ...item, error: result.message });
         }
       } else if (item.action === 'update') {
-        // Skip if collection or id is missing
-        if (!item.collection || !item.id) {
-          console.log(`   ⚠️  Пропущено оновлення (немає collection або id): ${item.relativePath || 'невідомий файл'}`);
-          continue;
-        }
-        
         // Update existing item
         const data = await readJsonFile(item.filePath);
         const result = await updateCollectionItem(
@@ -778,15 +553,9 @@ async function updateCollections() {
     
     console.log(`   ✓ Знайдено ${currentFiles.length} файлів\n`);
     
-    // Create current snapshot from updated files (excluding list.json files from processing)
+    // Create current snapshot from updated files
     const currentSnapshot = {};
     for (const filePath of currentFiles) {
-      // Skip list.json files from snapshot (they are metadata, not collection items)
-      const fileName = path.basename(filePath);
-      if (fileName.endsWith('list.json') || fileName.includes('-list.json')) {
-        continue;
-      }
-      
       const parsed = parseFilePath(filePath);
       if (parsed.isValid) {
         const key = parsed.relativePath;
@@ -813,15 +582,12 @@ async function updateCollections() {
     // Find deleted files (in original but not in current)
     for (const [relativePath, info] of Object.entries(originalSnapshot)) {
       if (!currentSnapshot[relativePath]) {
-        // Only add if we have valid collection and id
-        if (info.collection && info.id) {
-          changes.deleted.push({
-            relativePath,
-            collection: info.collection,
-            id: info.id,
-            locale: info.locale
-          });
-        }
+        changes.deleted.push({
+          relativePath,
+          collection: info.collection,
+          id: info.id,
+          locale: info.locale
+        });
       }
     }
     
@@ -861,9 +627,6 @@ async function updateCollections() {
       console.log('✅ Змін не знайдено. Всі файли актуальні.\n');
       return;
     }
-    
-    // Sync list.json files before sending updates
-    await syncListFiles(changes, currentSnapshot);
     
     // Prepare all changes with actions
     const allChanges = [
@@ -928,6 +691,16 @@ async function updateCollections() {
       console.log('💡 Для застосування змін запустіть без --dry-run\n');
     } else if (totalFailed === 0) {
       console.log('✅ Всі зміни успішно застосовано!\n');
+      
+      // Update tracking reports after successful update
+      try {
+        const { trackChanges } = require('../track-changes');
+        console.log('📊 Оновлення звітів про зміни...\n');
+        await trackChanges();
+      } catch (error) {
+        console.log('⚠️  Не вдалося оновити звіти про зміни:', error.message);
+        console.log('   Можна оновити вручну: node scripts/track-changes.js\n');
+      }
     }
     
   } catch (error) {

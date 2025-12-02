@@ -13,7 +13,6 @@ const STATUS_TRACKER_PATH = path.join(__dirname, 'status-tracker.json');
 const SINGLE_TYPES = [
   { name: 'About', endpoint: 'about-us' },
   { name: 'Contact', endpoint: 'contact' },
-  { name: 'Footer', endpoint: 'footer' },
   { name: 'Header', endpoint: 'header' },
   { name: 'Home', endpoint: 'home-page' },
   { name: 'NotFound', endpoint: 'not-found' },

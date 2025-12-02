@@ -6,7 +6,6 @@ const path = require('path');
 const STRAPI_URL = 'https://strapi.rem-s.com';
 const LOCALES = ['ru', 'en', 'uk', 'pl'];
 const BASE_EXPORT_DIR = path.join(__dirname, '..', '..', 'exported', 'collections');
-const BASE_UPDATE_DIR = path.join(__dirname, '..', '..', 'updated', 'collections');
 
 // Collections configuration
 // Collections with localization (i18n enabled)
@@ -323,96 +322,6 @@ async function cleanOldListFile(collectionName, locale) {
     }
   } catch (error) {
     return 0;
-  }
-}
-
-/**
- * Copy files from exported to updated directory
- */
-async function copyToUpdated() {
-  console.log('📋 Копіювання даних в папку updated...\n');
-  
-  let copiedFiles = 0;
-  let skippedFiles = 0;
-  
-  async function copyDirectory(sourceDir, targetDir) {
-    try {
-      const entries = await fs.readdir(sourceDir, { withFileTypes: true });
-      
-      for (const entry of entries) {
-        const sourcePath = path.join(sourceDir, entry.name);
-        const targetPath = path.join(targetDir, entry.name);
-        
-        if (entry.isDirectory()) {
-          // Ensure target directory exists
-          await fs.mkdir(targetPath, { recursive: true });
-          await copyDirectory(sourcePath, targetPath);
-        } else if (entry.isFile() && entry.name.endsWith('.json') && !entry.name.startsWith('.')) {
-          try {
-            // Copy file
-            await fs.copyFile(sourcePath, targetPath);
-            copiedFiles++;
-          } catch (error) {
-            skippedFiles++;
-            console.warn(`   ⚠️  Не вдалося скопіювати ${path.relative(BASE_EXPORT_DIR, sourcePath)}: ${error.message}`);
-          }
-        }
-      }
-    } catch (error) {
-      // Ignore errors for non-existent directories
-    }
-  }
-  
-  try {
-    await copyDirectory(BASE_EXPORT_DIR, BASE_UPDATE_DIR);
-    console.log(`   ✓ Скопійовано файлів: ${copiedFiles}`);
-    if (skippedFiles > 0) {
-      console.log(`   ⚠️  Пропущено файлів: ${skippedFiles}\n`);
-    } else {
-      console.log('');
-    }
-  } catch (error) {
-    console.warn(`   ⚠️  Помилка копіювання: ${error.message}\n`);
-  }
-}
-
-/**
- * Create snapshot of exported files for change tracking
- */
-async function createSnapshot() {
-  const snapshot = {};
-  const snapshotFile = path.join(BASE_EXPORT_DIR, '.snapshot.json');
-  
-  async function scanDirectory(dir) {
-    try {
-      const entries = await fs.readdir(dir, { withFileTypes: true });
-      
-      for (const entry of entries) {
-        const fullPath = path.join(dir, entry.name);
-        
-        if (entry.isDirectory()) {
-          await scanDirectory(fullPath);
-        } else if (entry.isFile() && entry.name.endsWith('.json') && !entry.name.includes('-list.json') && !entry.name.startsWith('.')) {
-          const relativePath = path.relative(BASE_EXPORT_DIR, fullPath);
-          const stats = await fs.stat(fullPath);
-          snapshot[relativePath] = {
-            hash: `${stats.size}_${stats.mtimeMs}`,
-            size: stats.size,
-            mtime: stats.mtimeMs
-          };
-        }
-      }
-    } catch (error) {
-      // Ignore errors
-    }
-  }
-  
-  await scanDirectory(BASE_EXPORT_DIR);
-  
-  try {
-    await fs.writeFile(snapshotFile, JSON.stringify(snapshot, null, 2), 'utf-8');
-  } catch (error) {
-    console.warn(`   ⚠️  Не вдалося зберегти snapshot: ${error.message}`);
   }
 }
 
@@ -905,14 +814,6 @@ async function exportAllCollections() {
     console.log(`   📦 Total items: ${totalItems}`);
     console.log(`   📄 Total files: ${totalFiles}`);
     console.log(`   📁 Export directory: ${BASE_EXPORT_DIR}\n`);
-    
-    // Create snapshot for update script
-    console.log('📸 Створення snapshot для відстеження змін...\n');
-    await createSnapshot();
-    console.log('   ✓ Snapshot створено\n');
-    
-    // Copy files to updated directory
-    await copyToUpdated();
     
     // Clean up any empty directories that might have been created
     if (!keepOld) {
