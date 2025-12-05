@@ -6,88 +6,26 @@
     "createdAt": null,
     "updatedAt": null,
     "publishedAt": null,
-    "isHot": true,
+    "isHot": false,
     "subTitle": "Короткий підзаголовок вакансії",
     "vacancySlug": "vacancy-slug",
-    "locale": "ru",
-    "formTitle": "Заголовок форми заявки",
-    "videoLink": "https://youtu.be/VIDEO_ID",
+    "locale": "uk",
+    "formTitle": "",
+    "videoLink": "",
     "cardDescription": "Короткий опис для картки вакансії (використовується в списках)",
     "titleH1": "Заголовок H1 для сторінки вакансії",
-    "newVersion": true,
-    "productsTitle": "Заголовок секції продуктів/послуг",
-    "responsibilityTitle": "Заголовок секції обов'язків",
-    "toolsTitle": "Заголовок секції інструментів",
-    "categories": {
-      "data": [
-        {
-          "id": null,
-          "attributes": {
-            "categoryTitle": "Назва категорії",
-            "createdAt": null,
-            "updatedAt": null,
-            "publishedAt": null,
-            "locale": "ru",
-            "categorySlug": "category-slug",
-            "description": "Опис категорії",
-            "shortDescription": "Короткий опис категорії"
-          }
-        }
-      ]
-    },
-    "keyword_tags": {
-      "data": []
-    },
-    "videoPreview": {
-      "data": null
-    },
-    "products": [
-      {
-        "id": null,
-        "productTitle": "Назва продукту/послуги",
-        "productText": "Опис продукту або послуги, яку надає спеціаліст"
-      },
-      {
-        "id": null,
-        "productTitle": "Інший продукт",
-        "productText": "Опис іншого продукту"
-      }
-    ],
-    "responsibilities": [
-      {
-        "id": null,
-        "responsibilityLi": "Обов'язок 1"
-      },
-      {
-        "id": null,
-        "responsibilityLi": "Обов'язок 2"
-      },
-      {
-        "id": null,
-        "responsibilityLi": "Обов'язок 3"
-      }
-    ],
-    "tools": [
-      {
-        "id": null,
-        "toolText": "Інструмент 1"
-      },
-      {
-        "id": null,
-        "toolText": "Інструмент 2"
-      },
-      {
-        "id": null,
-        "toolText": "Інструмент 3"
-      }
-    ],
+    "newVersion": null,
+    "productsTitle": null,
+    "responsibilityTitle": null,
+    "toolsTitle": null,
+    "categories": 48,
+    "keyword_tags": [],
+    "videoPreview": null,
+    "products": [],
+    "responsibilities": [],
+    "tools": [],
     "seoData": null,
-    "skills": {
-      "data": []
-    },
-    "localizations": {
-      "data": []
-    }
+    "skills": [],
+    "localizations": []
   }
 }
-

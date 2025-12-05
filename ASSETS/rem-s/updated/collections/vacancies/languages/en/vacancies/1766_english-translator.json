@@ -18,22 +18,16 @@
     "productsTitle": null,
     "responsibilityTitle": null,
     "toolsTitle": null,
-    "categories": {
-      "data": [
-        {
-          "id": 12,
-          "attributes": {
-            "categoryTitle": "Translation",
-            "createdAt": "2022-11-02T08:45:05.928Z",
-            "updatedAt": "2023-10-11T12:18:00.820Z",
-            "publishedAt": "2022-11-02T08:49:59.664Z",
-            "locale": "en",
-            "categorySlug": "translators",
-            "description": null,
-            "shortDescription": "English, Polish, Spanish, Swedish, Czech, Dutch, German, Bulgarian, Slovak, Italian, Finnish, Portuguese, Norwegian, Greek, French."
-          }
-        }
-      ]
-    }
+    "categories": 12,
+    "keyword_tags": [],
+    "videoPreview": {
+      "data": null
+    },
+    "products": [],
+    "responsibilities": [],
+    "tools": [],
+    "seoData": null,
+    "skills": [],
+    "localizations": []
   }
 }

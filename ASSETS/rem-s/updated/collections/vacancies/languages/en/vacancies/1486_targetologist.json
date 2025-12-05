@@ -18,22 +18,16 @@
     "productsTitle": null,
     "responsibilityTitle": null,
     "toolsTitle": null,
-    "categories": {
-      "data": [
-        {
-          "id": 15,
-          "attributes": {
-            "categoryTitle": "Marketing",
-            "createdAt": "2022-11-02T08:45:35.118Z",
-            "updatedAt": "2023-10-12T09:37:15.109Z",
-            "publishedAt": "2022-11-02T08:49:38.234Z",
-            "locale": "en",
-            "categorySlug": "marketers",
-            "description": null,
-            "shortDescription": "SEO Specialist,\nSMM Manager,\nPPC Manager,\nTargetologist,\nSMM Team Lead,\nInfluencer Manager,\nAffiliate Manager,\nTraffic Manager,\nMedia Buyer,\nGoogle Ads Specialist,\nFacebook Targetologist,\nPR Manager,\nContent Manager,\nCopywriter,\nEmail Marketer,\nSEO Team Lead,\nLink Builder"
-          }
-        }
-      ]
-    }
+    "categories": 15,
+    "keyword_tags": [],
+    "videoPreview": {
+      "data": null
+    },
+    "products": [],
+    "responsibilities": [],
+    "tools": [],
+    "seoData": null,
+    "skills": [],
+    "localizations": []
   }
 }

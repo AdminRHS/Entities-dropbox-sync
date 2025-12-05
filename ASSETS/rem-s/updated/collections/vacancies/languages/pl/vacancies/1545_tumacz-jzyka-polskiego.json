@@ -18,22 +18,16 @@
     "productsTitle": null,
     "responsibilityTitle": null,
     "toolsTitle": null,
-    "categories": {
-      "data": [
-        {
-          "id": 31,
-          "attributes": {
-            "categoryTitle": "Tłumacze",
-            "createdAt": "2023-03-07T00:48:21.805Z",
-            "updatedAt": "2023-10-11T12:18:33.824Z",
-            "publishedAt": "2023-03-07T00:48:23.868Z",
-            "locale": "pl",
-            "categorySlug": "translators",
-            "description": null,
-            "shortDescription": "Angielski, Polski, Hiszpański, Szwedzki, Czeski, Niderlandzki, Niemiecki, Bułgarski, Słowacki, Włoski, Fiński, Portugalski, Norweski, Grecki, Francuski."
-          }
-        }
-      ]
-    }
+    "categories": 31,
+    "keyword_tags": [],
+    "videoPreview": {
+      "data": null
+    },
+    "products": [],
+    "responsibilities": [],
+    "tools": [],
+    "seoData": null,
+    "skills": [],
+    "localizations": []
   }
 }

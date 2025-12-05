@@ -18,22 +18,16 @@
     "productsTitle": null,
     "responsibilityTitle": null,
     "toolsTitle": null,
-    "categories": {
-      "data": [
-        {
-          "id": 11,
-          "attributes": {
-            "categoryTitle": "Development",
-            "createdAt": "2022-11-02T08:44:46.629Z",
-            "updatedAt": "2025-12-01T09:13:14.090Z",
-            "publishedAt": "2022-11-02T08:50:05.592Z",
-            "locale": "en",
-            "categorySlug": "developers",
-            "description": null,
-            "shortDescription": "PHP (Laravel), Angular, .Net, Magento, Scraping, Shopify, QA, WordPress, Webmaster, Full Stack, Front-end, Back-end, Java, PHP, Android, Python, 1C, iOS, Unity/Game, System Administrator"
-          }
-        }
-      ]
-    }
+    "categories": 11,
+    "keyword_tags": [],
+    "videoPreview": {
+      "data": null
+    },
+    "products": [],
+    "responsibilities": [],
+    "tools": [],
+    "seoData": null,
+    "skills": [],
+    "localizations": []
   }
 }

@@ -18,22 +18,16 @@
     "productsTitle": null,
     "responsibilityTitle": null,
     "toolsTitle": null,
-    "categories": {
-      "data": [
-        {
-          "id": 16,
-          "attributes": {
-            "categoryTitle": "Design",
-            "createdAt": "2022-11-02T08:45:45.329Z",
-            "updatedAt": "2023-10-16T05:30:26.726Z",
-            "publishedAt": "2022-11-02T08:49:30.412Z",
-            "locale": "en",
-            "categorySlug": "designers",
-            "description": null,
-            "shortDescription": "Video editor, Illustrator, Visualizer, Design team lead, Architect, Retoucher, UI/UX, Motion designer, Interior designer"
-          }
-        }
-      ]
-    }
+    "categories": 16,
+    "keyword_tags": [],
+    "videoPreview": {
+      "data": null
+    },
+    "products": [],
+    "responsibilities": [],
+    "tools": [],
+    "seoData": null,
+    "skills": [],
+    "localizations": []
   }
 }

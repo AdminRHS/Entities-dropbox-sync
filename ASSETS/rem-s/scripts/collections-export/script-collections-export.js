@@ -1,3 +1,10 @@
+// Load environment variables from .env file if it exists
+try {
+  require('dotenv').config({ path: require('path').join(__dirname, '..', '..', '.env') });
+} catch (e) {
+  // dotenv not installed or .env file doesn't exist - continue without it
+}
+
 const axios = require('axios');
 const fs = require('fs').promises;
 const path = require('path');

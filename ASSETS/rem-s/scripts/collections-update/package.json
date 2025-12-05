@@ -8,10 +8,15 @@
     "dry-run": "node script-collections-update.js --dry-run"
   },
   "dependencies": {
-    "axios": "^1.6.0"
+    "axios": "^1.6.0",
+    "dotenv": "^17.2.3"
   },
-  "keywords": ["strapi", "cms", "update", "collections"],
+  "keywords": [
+    "strapi",
+    "cms",
+    "update",
+    "collections"
+  ],
   "author": "",
   "license": "ISC"
 }
-

@@ -1,0 +1,24 @@
+{
+  "id": 1559,
+  "attributes": {
+    "name": "test",
+    "number": "+380661111111",
+    "eMail": "test@gmail.com",
+    "age": "28",
+    "englishLevel": "upper-intermediate",
+    "createdAt": "2024-10-31T12:23:52.130Z",
+    "updatedAt": "2025-12-02T14:16:44.381Z",
+    "publishedAt": "2024-10-31T12:23:52.118Z",
+    "locale": "ru",
+    "Checked": false,
+    "pageFrom": "http://localhost:3000/vacancies",
+    "cv_link": "test-link",
+    "CV_url": "",
+    "CV": {
+      "data": null
+    },
+    "localizations": {
+      "data": []
+    }
+  }
+}

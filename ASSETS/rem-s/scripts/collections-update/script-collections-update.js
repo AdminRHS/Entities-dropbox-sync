@@ -1,3 +1,10 @@
+// Load environment variables from .env file if it exists
+try {
+  require('dotenv').config({ path: require('path').join(__dirname, '..', '..', '.env') });
+} catch (e) {
+  // dotenv not installed or .env file doesn't exist - continue without it
+}
+
 const axios = require('axios');
 const fs = require('fs').promises;
 const path = require('path');
@@ -7,7 +14,6 @@ const STRAPI_URL = 'https://strapi.rem-s.com';
 const LOCALES = ['ru', 'en', 'uk', 'pl'];
 const BASE_UPDATE_DIR = path.join(__dirname, '..', '..', 'updated', 'collections');
 const BASE_EXPORT_DIR = path.join(__dirname, '..', '..', 'exported', 'collections');
-const SNAPSHOT_FILE = path.join(BASE_EXPORT_DIR, '.snapshot.json');
 
 // Rate limiting configuration (to prevent server overload)
 const RATE_LIMIT_DELAY = 800; // milliseconds between requests
@@ -118,6 +124,53 @@ async function readJsonFile(filePath) {
 }
 
 /**
+ * Clean data for Strapi API - fix media fields and relations format
+ * @param {Object} data - Data to clean
+ * @returns {Object} Cleaned data
+ */
+function cleanDataForApi(data) {
+  const cleaned = { ...data };
+  
+  // Fix CV/media field: convert { data: { id: ... } } to { id: ... } or null
+  if (cleaned.CV) {
+    if (cleaned.CV.data && cleaned.CV.data.id) {
+      cleaned.CV = { id: cleaned.CV.data.id };
+    } else if (cleaned.CV.data === null) {
+      cleaned.CV = null;
+    } else if (cleaned.CV.id) {
+      // Already in correct format
+      cleaned.CV = { id: cleaned.CV.id };
+    } else {
+      // Unknown format, set to null
+      cleaned.CV = null;
+    }
+  }
+  
+  // Fix localizations: convert { data: [] } to [] or extract IDs
+  if (cleaned.localizations) {
+    if (cleaned.localizations.data && Array.isArray(cleaned.localizations.data)) {
+      // Extract IDs from array of objects
+      cleaned.localizations = cleaned.localizations.data
+        .map(item => item.id || item)
+        .filter(id => id !== null && id !== undefined);
+    } else if (Array.isArray(cleaned.localizations)) {
+      // Already an array, keep as is
+      cleaned.localizations = cleaned.localizations;
+    } else {
+      // Unknown format, set to empty array
+      cleaned.localizations = [];
+    }
+  }
+  
+  // Remove system fields that shouldn't be sent
+  delete cleaned.createdAt;
+  delete cleaned.updatedAt;
+  delete cleaned.publishedAt;
+  
+  return cleaned;
+}
+
+/**
  * Get file hash for comparison
  * @param {string} filePath - Path to file
  * @returns {Promise<string>} File hash
@@ -132,18 +185,6 @@ async function getFileHash(filePath) {
   }
 }
 
-/**
- * Load snapshot of original files from exported
- * @returns {Promise<Object>} Snapshot object
- */
-async function loadSnapshot() {
-  try {
-    const content = await fs.readFile(SNAPSHOT_FILE, 'utf-8');
-    return JSON.parse(content);
-  } catch {
-    return {};
-  }
-}
 
 /**
  * Update collection item via Strapi API with retry logic
@@ -175,12 +216,15 @@ async function updateCollectionItem(collectionName, id, locale, data, token, dry
     config.params = { locale };
   }
   
+  // Clean data before sending
+  const cleanedData = cleanDataForApi(data);
+  
   // Retry logic
   let lastError = null;
   for (let attempt = 1; attempt <= MAX_RETRIES; attempt++) {
     try {
       // Try PUT first
-      const response = await axios.put(url, { data }, config);
+      const response = await axios.put(url, { data: cleanedData }, config);
       return {
         success: true,
         message: 'Оновлено успішно',
@@ -203,7 +247,7 @@ async function updateCollectionItem(collectionName, id, locale, data, token, dry
       // If PUT fails with 400+, try PATCH
       if (putError.response && putError.response.status >= 400 && putError.response.status < 500) {
         try {
-          const patchResponse = await axios.patch(url, { data }, config);
+          const patchResponse = await axios.patch(url, { data: cleanedData }, config);
           return {
             success: true,
             message: 'Оновлено успішно (через PATCH)',
@@ -266,11 +310,14 @@ async function createCollectionItem(collectionName, locale, data, token, dryRun 
     config.params = { locale };
   }
   
+  // Clean data before sending
+  const cleanedData = cleanDataForApi(data);
+  
   // Retry logic
   let lastError = null;
   for (let attempt = 1; attempt <= MAX_RETRIES; attempt++) {
     try {
-      const response = await axios.post(url, { data }, config);
+      const response = await axios.post(url, { data: cleanedData }, config);
       return {
         success: true,
         message: 'Створено успішно',
@@ -413,12 +460,11 @@ async function findJsonFiles(dir) {
 /**
  * Process batch of files with rate limiting
  * @param {Array} batch - Array of file info objects
- * @param {Object} originalSnapshot - Snapshot from exported
  * @param {string} token - API token
  * @param {boolean} dryRun - Dry run mode
  * @returns {Promise<Object>} Results object
  */
-async function processBatch(batch, originalSnapshot, token, dryRun) {
+async function processBatch(batch, token, dryRun) {
   const results = {
     created: { success: [], failed: [] },
     updated: { success: [], failed: [] },
@@ -507,13 +553,22 @@ async function updateCollections() {
   const isDryRun = process.argv.includes('--dry-run') || process.argv.includes('-d');
   const token = process.env.STRAPI_TOKEN || process.argv[2];
   
+  // Check for collection filter (e.g., --only=vacancies)
+  const onlyArg = process.argv.find(arg => arg.startsWith('--only='));
+  const onlyCollection = onlyArg ? onlyArg.split('=')[1] : null;
+  
   if (!token && !isDryRun) {
     console.error('❌ Помилка: API токен обов\'язковий!');
     console.error('\nВикористання:');
     console.error('  node script-collections-update.js <token>');
     console.error('  node script-collections-update.js <token> --dry-run  (перегляд без змін)');
+    console.error('  node script-collections-update.js <token> --only=vacancies  (тільки вакансії)');
     console.error('  або встановіть змінну оточення STRAPI_TOKEN');
     process.exit(1);
+  }
+  
+  if (onlyCollection) {
+    console.log(`🎯 Фільтр: обробка тільки колекції "${onlyCollection}"\n`);
   }
   
   console.log('🚀 Аналіз та оновлення колекцій з Strapi\n');
@@ -531,15 +586,8 @@ async function updateCollections() {
   }
   
   try {
-    // Load snapshot of original files from exported
-    console.log('📸 Завантаження snapshot оригінальних файлів...\n');
-    const originalSnapshot = await loadSnapshot();
-    
-    if (Object.keys(originalSnapshot).length === 0) {
-      console.log('⚠️  Snapshot не знайдено. Запустіть спочатку скрипт експорту для створення snapshot.\n');
-    } else {
-      console.log(`   ✓ Завантажено snapshot: ${Object.keys(originalSnapshot).length} файлів\n`);
-    }
+    // No snapshot needed - just scan files directly
+    console.log('📂 Підготовка до оновлення файлів...\n');
     
     // Find all current files in updated directory
     console.log('📂 Сканування папки з оновленими даними...\n');
@@ -554,6 +602,7 @@ async function updateCollections() {
     console.log(`   ✓ Знайдено ${currentFiles.length} файлів\n`);
     
     // Create current snapshot from updated files
+    console.log('📸 Створення snapshot оновлених файлів...\n');
     const currentSnapshot = {};
     for (const filePath of currentFiles) {
       const parsed = parseFilePath(filePath);
@@ -570,42 +619,60 @@ async function updateCollections() {
       }
     }
     
-    // Analyze changes
-    console.log('🔍 Аналіз змін...\n');
+    // Find all files in exported directory for comparison
+    console.log('📂 Сканування папки з оригінальними даними...\n');
+    const exportedFiles = await findJsonFiles(BASE_EXPORT_DIR);
     
-    const changes = {
-      created: [],    // New files (POST)
-      updated: [],    // Modified files (PUT/PATCH)
-      deleted: []     // Deleted files (DELETE)
-    };
+    console.log(`   ✓ Знайдено ${exportedFiles.length} оригінальних файлів\n`);
     
-    // Find deleted files (in original but not in current)
-    for (const [relativePath, info] of Object.entries(originalSnapshot)) {
-      if (!currentSnapshot[relativePath]) {
-        changes.deleted.push({
-          relativePath,
-          collection: info.collection,
-          id: info.id,
-          locale: info.locale
-        });
+    // Create snapshot from exported files
+    console.log('📸 Створення snapshot оригінальних файлів...\n');
+    const exportedSnapshot = {};
+    for (const filePath of exportedFiles) {
+      const parsed = parseFilePath(filePath, BASE_EXPORT_DIR);
+      if (parsed.isValid) {
+        const key = parsed.relativePath;
+        const hash = await getFileHash(filePath);
+        exportedSnapshot[key] = {
+          hash,
+          collection: parsed.collectionName,
+          id: parsed.id,
+          locale: parsed.locale,
+          filePath
+        };
       }
     }
     
-    // Find created and updated files
+    // Compare and find changes
+    console.log('🔍 Порівняння файлів для визначення змін...\n');
+    
+    const changes = {
+      created: [],    // New files (POST) - в updated, немає в exported
+      updated: [],    // Modified files (PUT/PATCH) - є в обох, але hash різний
+      deleted: []     // Deleted files (DELETE) - НЕ ВИКОРИСТОВУЄТЬСЯ
+    };
+    
+    // Find new and modified files (ONLY process files from updated folder)
     for (const [relativePath, info] of Object.entries(currentSnapshot)) {
-      const originalInfo = originalSnapshot[relativePath];
+      // Skip if collection filter is set and doesn't match
+      if (onlyCollection && info.collection !== onlyCollection) {
+        continue;
+      }
       
-      if (!originalInfo) {
-        // New file
-        changes.created.push({
+      const exportedInfo = exportedSnapshot[relativePath];
+      
+      if (!exportedInfo) {
+        // File doesn't exist in exported - treat as modified (not new)
+        // We update existing records on server, not create new ones
+        changes.updated.push({
           relativePath,
           collection: info.collection,
           id: info.id,
           locale: info.locale,
           filePath: info.filePath
         });
-      } else if (originalInfo.hash !== info.hash) {
-        // Modified file
+      } else if (exportedInfo.hash !== info.hash) {
+        // File exists but hash is different - it's modified
         changes.updated.push({
           relativePath,
           collection: info.collection,
@@ -614,7 +681,13 @@ async function updateCollections() {
           filePath: info.filePath
         });
       }
+      // If hash is the same - file is unchanged, skip it
     }
+    
+    // NOTE: We DON'T process deletions automatically
+    // If file is missing from updated - user removed it locally
+    // But we don't delete from server automatically - too dangerous
+    // User should delete via Strapi admin if needed
     
     // Display changes summary
     console.log('📊 Знайдені зміни:\n');
@@ -650,7 +723,7 @@ async function updateCollections() {
       
       console.log(`📦 Обробка батчу ${batchNumber}/${totalBatches} (${batch.length} файлів)...\n`);
       
-      const batchResults = await processBatch(batch, originalSnapshot, token, isDryRun);
+      const batchResults = await processBatch(batch, token, isDryRun);
       
       // Merge results
       results.created.success.push(...batchResults.created.success);
@@ -691,16 +764,6 @@ async function updateCollections() {
       console.log('💡 Для застосування змін запустіть без --dry-run\n');
     } else if (totalFailed === 0) {
       console.log('✅ Всі зміни успішно застосовано!\n');
-      
-      // Update tracking reports after successful update
-      try {
-        const { trackChanges } = require('../track-changes');
-        console.log('📊 Оновлення звітів про зміни...\n');
-        await trackChanges();
-      } catch (error) {
-        console.log('⚠️  Не вдалося оновити звіти про зміни:', error.message);
-        console.log('   Можна оновити вручну: node scripts/track-changes.js\n');
-      }
     }
     
   } catch (error) {
