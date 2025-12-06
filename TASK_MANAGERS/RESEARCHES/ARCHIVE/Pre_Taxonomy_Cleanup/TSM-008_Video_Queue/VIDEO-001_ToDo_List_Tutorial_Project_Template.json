@@ -1,0 +1,1447 @@
+{
+  "entity_type": "TASK_MANAGERS",
+  "sub_entity": "Project_Template",
+  "template_id": "Project-Template-VIDEO-001",
+  "version": "1.0",
+  "created_date": "2025-11-22",
+  "last_updated": "2025-11-22",
+  "metadata": {
+    "name": "JavaScript To-Do List App - From Scratch to Functional",
+    "description": "A comprehensive beginner-friendly tutorial for building a Task Manager App using JavaScript, covering DOM manipulation, event handling, and asynchronous API integration. Students will create a fully functional web app capable of adding tasks, deleting tasks, and fetching external data from an API.",
+    "primary_department": "DEV",
+    "departments_involved": [
+      "DEV",
+      "EDU"
+    ],
+    "project_type": "Educational Tutorial",
+    "complexity": "Medium (Beginner to Intermediate)",
+    "estimated_duration": "18 minutes (tutorial viewing) + 30-60 minutes (hands-on practice)",
+    "video_metadata": {
+      "title": "To-Do List App with JavaScript - From Scratch to Functional!",
+      "channel": "Codynn",
+      "duration": "18:56",
+      "tutorial_type": "Code-along project",
+      "series": "JavaScript Beginner Series - Final Project"
+    },
+    "cost_estimate": {
+      "initial_setup": "Free",
+      "ongoing": "Free",
+      "cost_breakdown": [
+        "Web browser: Free",
+        "Text editor/IDE: Free (VS Code recommended)",
+        "JSONPlaceholder API: Free",
+        "Boilerplate files: Free (provided in description)"
+      ]
+    },
+    "learning_outcomes": [
+      "Master DOM manipulation using getElementById, createElement, innerHTML, appendChild, and remove",
+      "Implement event listeners for click events on buttons and parent containers",
+      "Understand event delegation pattern for dynamically created elements",
+      "Create and manage dynamic HTML content programmatically",
+      "Implement asynchronous JavaScript using fetch API and async/await syntax",
+      "Parse and iterate through JSON data from external APIs using forEach loops",
+      "Build a complete CRUD application (Create, Read, Delete operations)",
+      "Apply best practices for user experience (input clearing, error handling)",
+      "Understand parent-child relationships in the DOM hierarchy"
+    ],
+    "success_criteria": [
+      "Task input field captures user input correctly",
+      "Add Task button creates and displays new task items",
+      "Delete buttons remove specific tasks from the list",
+      "Input field clears after successful task addition",
+      "Fetch API Tasks button retrieves and displays 5 tasks from JSONPlaceholder API",
+      "All dynamically created delete buttons function properly",
+      "No console errors during any operation",
+      "Code follows clean coding practices demonstrated in tutorial"
+    ],
+    "prerequisites": [
+      "Basic HTML knowledge (elements, attributes, IDs)",
+      "Basic CSS understanding (optional, as styling is provided)",
+      "JavaScript fundamentals (variables, functions, conditional statements)",
+      "Understanding of const keyword and template literals",
+      "Familiarity with arrow functions (helpful but not required)",
+      "Text editor or IDE installed",
+      "Modern web browser with developer tools",
+      "Access to boilerplate HTML/CSS/JS files"
+    ],
+    "best_for": [
+      "JavaScript beginners completing their first real project",
+      "Students learning DOM manipulation concepts",
+      "Developers new to event-driven programming",
+      "Learners wanting to understand asynchronous JavaScript",
+      "Anyone building their web development portfolio",
+      "Bootcamp students working on practical projects",
+      "Self-taught programmers seeking structured learning",
+      "Teachers looking for beginner-friendly project examples"
+    ]
+  },
+  "structure": {
+    "total_phases": 4,
+    "total_milestones": 7,
+    "total_tasks": 7,
+    "total_estimated_steps": 28,
+    "workflow_type": "Sequential build with incremental feature additions"
+  },
+  "phases": [
+    {
+      "phase_number": 1,
+      "phase_name": "Project Setup & DOM Selection",
+      "phase_description": "Set up the development environment with boilerplate files and select all necessary DOM elements for interaction",
+      "timestamp": "[01:16] - [04:24]",
+      "duration": "3 minutes",
+      "complexity": "Low",
+      "dependencies": [],
+      "milestones": [
+        "MIL-VIDEO-001-001"
+      ],
+      "output": "Four variables storing references to all interactive elements (input, buttons, list container)",
+      "success_criteria": [
+        "Boilerplate HTML/CSS/JS files loaded in code editor",
+        "All DOM elements successfully selected using getElementById",
+        "Variables properly declared with const keyword",
+        "No errors in browser console when loading page"
+      ],
+      "key_concepts": [
+        "document.getElementById() selector",
+        "const variable declaration",
+        "DOM element reference storage",
+        "HTML ID attributes as selectors"
+      ]
+    },
+    {
+      "phase_number": 2,
+      "phase_name": "Add Task Functionality",
+      "phase_description": "Implement the core feature to add user-entered tasks to the task list with delete buttons",
+      "timestamp": "[04:24] - [09:15]",
+      "duration": "5 minutes",
+      "complexity": "Medium",
+      "dependencies": [
+        "Phase 1 complete"
+      ],
+      "milestones": [
+        "MIL-VIDEO-001-002",
+        "MIL-VIDEO-001-003"
+      ],
+      "output": "Functional addTask() function with event listener attached to Add Task button",
+      "success_criteria": [
+        "addTask() function successfully created",
+        "New list items created dynamically with user input",
+        "Each list item contains task text and delete button",
+        "Tasks appended to task list (UL element)",
+        "Input field clears after task addition",
+        "Event listener responds to button clicks",
+        "Template literals used correctly for dynamic content"
+      ],
+      "key_concepts": [
+        "Function declaration and naming conventions",
+        "Accessing input values with .value property",
+        "document.createElement() for dynamic element creation",
+        "innerHTML property for setting element content",
+        "Template literals with ${} syntax",
+        "appendChild() method for DOM insertion",
+        "Input clearing for improved UX",
+        "addEventListener() for click events"
+      ]
+    },
+    {
+      "phase_number": 3,
+      "phase_name": "Delete Task Functionality",
+      "phase_description": "Enable task deletion using event delegation pattern on parent container",
+      "timestamp": "[09:15] - [12:28]",
+      "duration": "3 minutes",
+      "complexity": "Medium",
+      "dependencies": [
+        "Phase 2 complete"
+      ],
+      "milestones": [
+        "MIL-VIDEO-001-004",
+        "MIL-VIDEO-001-005"
+      ],
+      "output": "Functional deleteTask() function using event delegation pattern",
+      "success_criteria": [
+        "deleteTask() function created with event parameter",
+        "Event delegation implemented on taskList container",
+        "classList.contains() check identifies delete buttons",
+        "Parent element (LI) removed when delete clicked",
+        "Delete buttons work for both manually added and API-fetched tasks",
+        "No errors when clicking on non-delete elements"
+      ],
+      "key_concepts": [
+        "Event object (e parameter)",
+        "Event delegation pattern",
+        "e.target for identifying clicked element",
+        "classList.contains() for class checking",
+        "parentElement property for DOM traversal",
+        "remove() method for element deletion",
+        "Conditional statements (if) for event filtering"
+      ]
+    },
+    {
+      "phase_number": 4,
+      "phase_name": "API Integration (Fetch Tasks)",
+      "phase_description": "Implement asynchronous functionality to fetch and display tasks from external JSONPlaceholder API",
+      "timestamp": "[12:28] - [18:21]",
+      "duration": "6 minutes",
+      "complexity": "High",
+      "dependencies": [
+        "Phase 2 complete",
+        "Phase 3 complete"
+      ],
+      "milestones": [
+        "MIL-VIDEO-001-006",
+        "MIL-VIDEO-001-007"
+      ],
+      "output": "Fully functional async fetchTasks() function with error handling",
+      "success_criteria": [
+        "Async function declared with async keyword",
+        "Fetch API successfully retrieves data from JSONPlaceholder",
+        "Await keyword properly used for asynchronous operations",
+        "Response converted to JSON format",
+        "forEach loop iterates through all 5 tasks",
+        "Each task creates list item with task.title property",
+        "Try/catch block handles potential errors",
+        "Error messages logged to console",
+        "Event listener attached to Fetch Tasks button",
+        "Delete functionality works on API-fetched tasks"
+      ],
+      "key_concepts": [
+        "Async function declaration",
+        "Fetch API for HTTP requests",
+        "Await keyword for promise handling",
+        "JSON parsing with .json() method",
+        "Array iteration with forEach()",
+        "Arrow functions in forEach",
+        "Object property access (task.title)",
+        "Try/catch error handling",
+        "External API integration",
+        "Network request management"
+      ]
+    }
+  ],
+  "milestones": [
+    {
+      "milestone_id": "MIL-VIDEO-001-001",
+      "milestone_name": "DOM Elements Selected",
+      "phase": 1,
+      "description": "All necessary DOM elements selected and stored in variables for interaction",
+      "timestamp": "[02:01] - [04:24]",
+      "task_templates": [
+        "TASK-VIDEO-001-001"
+      ],
+      "estimated_duration": "3 minutes",
+      "deliverables": [
+        "taskInput variable (input field reference)",
+        "addTaskButton variable (Add Task button reference)",
+        "taskList variable (UL element reference)",
+        "fetchTasksButton variable (Fetch API Tasks button reference)"
+      ],
+      "success_metrics": {
+        "quantitative": [
+          "4 variables created",
+          "4 getElementById calls executed",
+          "0 console errors"
+        ],
+        "qualitative": [
+          "Consistent naming conventions used",
+          "All IDs match HTML elements",
+          "Variables use const declaration"
+        ]
+      },
+      "code_snippet": "const taskInput = document.getElementById('taskInput');\nconst addTaskButton = document.getElementById('addTask');\nconst taskList = document.getElementById('tasklist');\nconst fetchTasksButton = document.getElementById('fetchTasks');"
+    },
+    {
+      "milestone_id": "MIL-VIDEO-001-002",
+      "milestone_name": "addTask Function Created",
+      "phase": 2,
+      "description": "Core function created to handle task addition with dynamic element creation",
+      "timestamp": "[05:06] - [08:04]",
+      "task_templates": [
+        "TASK-VIDEO-001-002"
+      ],
+      "estimated_duration": "3 minutes",
+      "deliverables": [
+        "addTask() function declaration",
+        "Task text extraction from input",
+        "Dynamic list item creation",
+        "Delete button embedded in each task",
+        "Task appended to task list",
+        "Input field clearing logic"
+      ],
+      "success_metrics": {
+        "quantitative": [
+          "1 function created",
+          "1 const variable (taskText)",
+          "1 createElement call",
+          "1 appendChild call"
+        ],
+        "qualitative": [
+          "Template literals used correctly",
+          "Delete button class added",
+          "Input cleared after addition",
+          "Function follows single responsibility principle"
+        ]
+      },
+      "code_snippet": "function addTask() {\n  const taskText = taskInput.value;\n  const li = document.createElement('li');\n  li.innerHTML = `${taskText} <button class='delete'>Delete</button>`;\n  taskList.appendChild(li);\n  taskInput.value = '';\n}"
+    },
+    {
+      "milestone_id": "MIL-VIDEO-001-003",
+      "milestone_name": "Add Task Event Listener Attached",
+      "phase": 2,
+      "description": "Event listener connected to Add Task button to trigger addTask function",
+      "timestamp": "[08:04] - [09:15]",
+      "task_templates": [
+        "TASK-VIDEO-001-003"
+      ],
+      "estimated_duration": "1 minute",
+      "deliverables": [
+        "Event listener attached to addTaskButton",
+        "Click event configured",
+        "addTask function reference passed"
+      ],
+      "success_metrics": {
+        "quantitative": [
+          "1 addEventListener call",
+          "Tasks successfully added on click"
+        ],
+        "qualitative": [
+          "Event type correctly specified as 'click'",
+          "Function passed without parentheses",
+          "Button responds immediately to clicks"
+        ]
+      },
+      "code_snippet": "addTaskButton.addEventListener('click', addTask);"
+    },
+    {
+      "milestone_id": "MIL-VIDEO-001-004",
+      "milestone_name": "deleteTask Function Created",
+      "phase": 3,
+      "description": "Delete function implemented using event delegation pattern",
+      "timestamp": "[10:00] - [11:21]",
+      "task_templates": [
+        "TASK-VIDEO-001-004"
+      ],
+      "estimated_duration": "2 minutes",
+      "deliverables": [
+        "deleteTask() function with event parameter",
+        "Event target class checking logic",
+        "Parent element removal functionality"
+      ],
+      "success_metrics": {
+        "quantitative": [
+          "1 function created",
+          "1 if condition",
+          "1 remove() call"
+        ],
+        "qualitative": [
+          "Event delegation pattern correctly implemented",
+          "Class checking prevents unwanted deletions",
+          "Parent element targeted correctly"
+        ]
+      },
+      "code_snippet": "function deleteTask(e) {\n  if (e.target.classList.contains('delete')) {\n    e.target.parentElement.remove();\n  }\n}"
+    },
+    {
+      "milestone_id": "MIL-VIDEO-001-005",
+      "milestone_name": "Delete Event Listener Attached",
+      "phase": 3,
+      "description": "Event listener attached to parent container for event delegation",
+      "timestamp": "[11:21] - [12:28]",
+      "task_templates": [
+        "TASK-VIDEO-001-005"
+      ],
+      "estimated_duration": "1 minute",
+      "deliverables": [
+        "Event listener on taskList container",
+        "Click event delegation configured",
+        "deleteTask function reference passed"
+      ],
+      "success_metrics": {
+        "quantitative": [
+          "1 addEventListener call",
+          "Delete buttons work on all tasks"
+        ],
+        "qualitative": [
+          "Event delegation prevents multiple listeners",
+          "Works for dynamically created elements",
+          "Efficient memory usage"
+        ]
+      },
+      "code_snippet": "taskList.addEventListener('click', deleteTask);"
+    },
+    {
+      "milestone_id": "MIL-VIDEO-001-006",
+      "milestone_name": "fetchTasks Async Function Created",
+      "phase": 4,
+      "description": "Asynchronous function created to fetch and display API tasks",
+      "timestamp": "[12:28] - [16:49]",
+      "task_templates": [
+        "TASK-VIDEO-001-006"
+      ],
+      "estimated_duration": "4 minutes",
+      "deliverables": [
+        "Async function declaration",
+        "Fetch API call to JSONPlaceholder",
+        "Response to JSON conversion",
+        "forEach loop for data iteration",
+        "Dynamic list item creation for each task",
+        "Try/catch error handling"
+      ],
+      "success_metrics": {
+        "quantitative": [
+          "1 async function",
+          "2 await keywords",
+          "1 forEach loop",
+          "1 try/catch block",
+          "5 tasks fetched and displayed"
+        ],
+        "qualitative": [
+          "Proper async/await syntax",
+          "Error handling implemented",
+          "Task titles extracted correctly",
+          "Delete buttons included in API tasks"
+        ]
+      },
+      "code_snippet": "async function fetchTasks() {\n  try {\n    const response = await fetch('https://jsonplaceholder.typicode.com/todos?_limit=5');\n    const data = await response.json();\n    data.forEach(task => {\n      const li = document.createElement('li');\n      li.innerHTML = `${task.title} <button class='delete'>Delete</button>`;\n      taskList.appendChild(li);\n    });\n  } catch(error) {\n    console.error('An error occurred while fetching tasks: ' + error);\n  }\n}"
+    },
+    {
+      "milestone_id": "MIL-VIDEO-001-007",
+      "milestone_name": "Fetch Tasks Event Listener Attached",
+      "phase": 4,
+      "description": "Event listener connected to Fetch API Tasks button",
+      "timestamp": "[16:49] - [18:21]",
+      "task_templates": [
+        "TASK-VIDEO-001-007"
+      ],
+      "estimated_duration": "1 minute",
+      "deliverables": [
+        "Event listener on fetchTasksButton",
+        "Click event configured",
+        "fetchTasks function reference passed",
+        "Complete app functionality verified"
+      ],
+      "success_metrics": {
+        "quantitative": [
+          "1 addEventListener call",
+          "5 tasks fetched on button click",
+          "All delete buttons functional"
+        ],
+        "qualitative": [
+          "API integration works seamlessly",
+          "Network requests handled properly",
+          "All features work together cohesively"
+        ]
+      },
+      "code_snippet": "fetchTasksButton.addEventListener('click', fetchTasks);"
+    }
+  ],
+  "task_sequence": [
+    {
+      "sequence_number": 1,
+      "task_template_id": "TASK-VIDEO-001-001",
+      "task_name": "Select DOM Elements",
+      "phase": 1,
+      "milestone": "MIL-VIDEO-001-001",
+      "timestamp": "[02:01] - [04:24]",
+      "estimated_duration": "3 minutes",
+      "complexity": "Low",
+      "department": "DEV",
+      "dependencies": [],
+      "inputs_required": [
+        "Boilerplate HTML file with elements (taskInput, addTask, tasklist, fetchTasks IDs)",
+        "Understanding of document.getElementById()",
+        "Knowledge of const variable declaration"
+      ],
+      "outputs_produced": [
+        "taskInput variable",
+        "addTaskButton variable",
+        "taskList variable",
+        "fetchTasksButton variable"
+      ],
+      "step_templates": [
+        "Create const taskInput variable",
+        "Use document.getElementById('taskInput') to select input field",
+        "Create const addTaskButton variable",
+        "Use document.getElementById('addTask') to select Add Task button",
+        "Create const taskList variable",
+        "Use document.getElementById('tasklist') to select UL element",
+        "Create const fetchTasksButton variable",
+        "Use document.getElementById('fetchTasks') to select Fetch Tasks button"
+      ],
+      "learning_points": [
+        "document.getElementById() is the primary method for selecting elements by ID",
+        "Storing DOM references in variables improves code efficiency",
+        "const is appropriate for DOM references that won't be reassigned",
+        "Variable names should be descriptive and match element purpose"
+      ]
+    },
+    {
+      "sequence_number": 2,
+      "task_template_id": "TASK-VIDEO-001-002",
+      "task_name": "Create addTask Function",
+      "phase": 2,
+      "milestone": "MIL-VIDEO-001-002",
+      "timestamp": "[05:06] - [08:04]",
+      "estimated_duration": "3 minutes",
+      "complexity": "Medium",
+      "department": "DEV",
+      "dependencies": [
+        "DOM elements selected (Task 1)"
+      ],
+      "inputs_required": [
+        "taskInput variable reference",
+        "taskList variable reference",
+        "Understanding of createElement and appendChild",
+        "Knowledge of template literals"
+      ],
+      "outputs_produced": [
+        "Complete addTask() function",
+        "Dynamic list item creation logic",
+        "Input clearing functionality"
+      ],
+      "step_templates": [
+        "Declare function using 'function addTask()' syntax",
+        "Create const taskText to store taskInput.value",
+        "Create const li using document.createElement('li')",
+        "Set li.innerHTML using template literal: `${taskText} <button class='delete'>Delete</button>`",
+        "Append li to taskList using taskList.appendChild(li)",
+        "Clear input field with taskInput.value = ''"
+      ],
+      "learning_points": [
+        ".value property retrieves input field content",
+        "createElement() creates new HTML elements in memory",
+        "innerHTML property sets element's HTML content",
+        "Template literals (backticks) allow variable interpolation with ${}",
+        "appendChild() adds elements to the DOM tree",
+        "Clearing input improves user experience for repeat actions"
+      ]
+    },
+    {
+      "sequence_number": 3,
+      "task_template_id": "TASK-VIDEO-001-003",
+      "task_name": "Attach Add Task Event Listener",
+      "phase": 2,
+      "milestone": "MIL-VIDEO-001-003",
+      "timestamp": "[08:04] - [09:15]",
+      "estimated_duration": "1 minute",
+      "complexity": "Low",
+      "department": "DEV",
+      "dependencies": [
+        "addTask function created (Task 2)",
+        "addTaskButton variable available (Task 1)"
+      ],
+      "inputs_required": [
+        "addTaskButton variable reference",
+        "addTask function",
+        "Understanding of addEventListener()"
+      ],
+      "outputs_produced": [
+        "Functional Add Task button",
+        "Working task addition feature"
+      ],
+      "step_templates": [
+        "Use addTaskButton.addEventListener() method",
+        "Specify 'click' as the event type (first parameter)",
+        "Pass addTask as the callback function (second parameter - no parentheses)",
+        "Test by entering task text and clicking button"
+      ],
+      "learning_points": [
+        "addEventListener() connects events to functions",
+        "'click' is the event type for button presses",
+        "Function names are passed without parentheses as callbacks",
+        "Event listeners enable interactive functionality"
+      ]
+    },
+    {
+      "sequence_number": 4,
+      "task_template_id": "TASK-VIDEO-001-004",
+      "task_name": "Create deleteTask Function",
+      "phase": 3,
+      "milestone": "MIL-VIDEO-001-004",
+      "timestamp": "[10:00] - [11:21]",
+      "estimated_duration": "2 minutes",
+      "complexity": "Medium",
+      "department": "DEV",
+      "dependencies": [
+        "Tasks can be added (Task 2-3 complete)",
+        "Understanding of event objects"
+      ],
+      "inputs_required": [
+        "Knowledge of event object properties",
+        "Understanding of classList.contains()",
+        "Knowledge of parentElement property"
+      ],
+      "outputs_produced": [
+        "Complete deleteTask() function",
+        "Event delegation logic",
+        "Parent element removal capability"
+      ],
+      "step_templates": [
+        "Declare function using 'function deleteTask(e)' with event parameter",
+        "Create if condition: if (e.target.classList.contains('delete'))",
+        "Inside if block, call e.target.parentElement.remove()",
+        "Close function"
+      ],
+      "learning_points": [
+        "Event parameter (e) contains information about the triggered event",
+        "e.target identifies the specific element clicked",
+        "classList.contains() checks if element has a specific class",
+        "parentElement traverses up the DOM tree",
+        "remove() deletes an element from the DOM",
+        "Conditional logic prevents accidental deletions"
+      ]
+    },
+    {
+      "sequence_number": 5,
+      "task_template_id": "TASK-VIDEO-001-005",
+      "task_name": "Attach Delete Event Listener (Event Delegation)",
+      "phase": 3,
+      "milestone": "MIL-VIDEO-001-005",
+      "timestamp": "[11:21] - [12:28]",
+      "estimated_duration": "1 minute",
+      "complexity": "Medium",
+      "department": "DEV",
+      "dependencies": [
+        "deleteTask function created (Task 4)",
+        "taskList variable available (Task 1)"
+      ],
+      "inputs_required": [
+        "taskList variable reference",
+        "deleteTask function",
+        "Understanding of event delegation pattern"
+      ],
+      "outputs_produced": [
+        "Functional delete buttons",
+        "Event delegation implementation"
+      ],
+      "step_templates": [
+        "Use taskList.addEventListener() method",
+        "Specify 'click' as the event type",
+        "Pass deleteTask as the callback function",
+        "Test by adding task and clicking delete button"
+      ],
+      "learning_points": [
+        "Event delegation attaches listener to parent element",
+        "Single listener handles all child delete buttons (current and future)",
+        "More efficient than attaching listeners to each button individually",
+        "Works for dynamically created elements",
+        "Reduces memory usage and improves performance"
+      ]
+    },
+    {
+      "sequence_number": 6,
+      "task_template_id": "TASK-VIDEO-001-006",
+      "task_name": "Create fetchTasks Async Function",
+      "phase": 4,
+      "milestone": "MIL-VIDEO-001-006",
+      "timestamp": "[12:28] - [16:49]",
+      "estimated_duration": "4 minutes",
+      "complexity": "High",
+      "department": "DEV",
+      "dependencies": [
+        "Add and delete functionality working (Tasks 1-5 complete)",
+        "Understanding of async/await syntax",
+        "Knowledge of fetch API"
+      ],
+      "inputs_required": [
+        "JSONPlaceholder API endpoint URL",
+        "taskList variable reference",
+        "Understanding of async functions, fetch, JSON parsing, forEach"
+      ],
+      "outputs_produced": [
+        "Complete async fetchTasks() function",
+        "API data retrieval logic",
+        "Dynamic task rendering from API",
+        "Error handling implementation"
+      ],
+      "step_templates": [
+        "Declare 'async function fetchTasks()' with async keyword",
+        "Create try block",
+        "Create const response with 'await fetch(API_URL)' where API_URL = 'https://jsonplaceholder.typicode.com/todos?_limit=5'",
+        "Create const data with 'await response.json()'",
+        "Use 'data.forEach(task => {})' to iterate through tasks",
+        "Inside forEach: create const li with document.createElement('li')",
+        "Set li.innerHTML to `${task.title} <button class='delete'>Delete</button>`",
+        "Append li to taskList with taskList.appendChild(li)",
+        "Create catch block with 'catch(error)'",
+        "Inside catch: use console.error() to log error message"
+      ],
+      "learning_points": [
+        "async keyword enables asynchronous function behavior",
+        "await pauses execution until promise resolves",
+        "fetch() makes HTTP requests to external APIs",
+        "response.json() parses JSON data into JavaScript object/array",
+        "forEach() iterates through arrays",
+        "Arrow functions (=>) provide concise function syntax",
+        "task.title accesses object property",
+        "try/catch handles potential network or parsing errors",
+        "Error logging helps debugging",
+        "API requests are asynchronous and non-blocking"
+      ]
+    },
+    {
+      "sequence_number": 7,
+      "task_template_id": "TASK-VIDEO-001-007",
+      "task_name": "Attach Fetch Tasks Event Listener & Final Testing",
+      "phase": 4,
+      "milestone": "MIL-VIDEO-001-007",
+      "timestamp": "[16:49] - [18:21]",
+      "estimated_duration": "2 minutes",
+      "complexity": "Low",
+      "department": "DEV",
+      "dependencies": [
+        "fetchTasks function created (Task 6)",
+        "fetchTasksButton variable available (Task 1)",
+        "All previous functionality working"
+      ],
+      "inputs_required": [
+        "fetchTasksButton variable reference",
+        "fetchTasks function",
+        "Complete app for integration testing"
+      ],
+      "outputs_produced": [
+        "Functional Fetch API Tasks button",
+        "Complete, fully functional Task Manager App",
+        "Verified integration of all features"
+      ],
+      "step_templates": [
+        "Use fetchTasksButton.addEventListener() method",
+        "Specify 'click' as the event type",
+        "Pass fetchTasks as the callback function",
+        "Test by clicking Fetch API Tasks button",
+        "Verify 5 tasks appear from API",
+        "Test delete buttons on API-fetched tasks",
+        "Test adding manual tasks after fetching API tasks",
+        "Verify all features work together seamlessly"
+      ],
+      "learning_points": [
+        "Same addEventListener pattern works for async functions",
+        "API-fetched elements integrate with existing functionality",
+        "Delete event delegation works for all tasks (manual and API)",
+        "Complete app demonstrates integration of multiple concepts",
+        "Testing all features together ensures proper integration"
+      ]
+    }
+  ],
+  "technical_concepts": {
+    "dom_manipulation": {
+      "description": "Direct manipulation of HTML document structure using JavaScript",
+      "methods_covered": [
+        "document.getElementById() - Selecting elements by ID attribute",
+        "document.createElement() - Creating new HTML elements",
+        "element.innerHTML - Setting/getting HTML content inside elements",
+        "element.appendChild() - Adding child elements to parent",
+        "element.remove() - Removing elements from DOM",
+        "element.value - Accessing input field values",
+        "element.classList.contains() - Checking for CSS class presence",
+        "element.parentElement - Traversing to parent element"
+      ],
+      "use_cases": [
+        "Selecting input fields, buttons, and lists",
+        "Creating task list items dynamically",
+        "Adding delete buttons to tasks",
+        "Removing completed tasks",
+        "Clearing input fields"
+      ]
+    },
+    "event_handling": {
+      "description": "Responding to user interactions with JavaScript functions",
+      "methods_covered": [
+        "addEventListener() - Attaching event listeners to elements",
+        "Event object (e parameter) - Accessing event details",
+        "e.target - Identifying clicked element",
+        "Event delegation - Single listener for multiple child elements"
+      ],
+      "events_used": [
+        "click - Button and element click events"
+      ],
+      "patterns": [
+        "Direct event binding - addTaskButton.addEventListener('click', addTask)",
+        "Event delegation - taskList.addEventListener('click', deleteTask) handles all delete buttons"
+      ],
+      "use_cases": [
+        "Triggering task addition on button click",
+        "Triggering task deletion on delete button click",
+        "Fetching API tasks on button click",
+        "Efficient handling of dynamically created delete buttons"
+      ]
+    },
+    "asynchronous_javascript": {
+      "description": "Handling time-delayed operations without blocking code execution",
+      "methods_covered": [
+        "async function declaration - Defines asynchronous function",
+        "await keyword - Pauses execution until promise resolves",
+        "fetch API - Makes HTTP requests to external resources",
+        "response.json() - Parses JSON response data",
+        "try/catch - Error handling for async operations"
+      ],
+      "api_integration": {
+        "api_used": "JSONPlaceholder (https://jsonplaceholder.typicode.com)",
+        "endpoint": "https://jsonplaceholder.typicode.com/todos?_limit=5",
+        "method": "GET",
+        "response_format": "JSON array of todo objects",
+        "data_structure": [
+          {
+            "property": "title",
+            "type": "string",
+            "usage": "Displayed as task text"
+          },
+          {
+            "property": "id",
+            "type": "number",
+            "usage": "Not used in tutorial but available"
+          },
+          {
+            "property": "completed",
+            "type": "boolean",
+            "usage": "Not used in tutorial but available"
+          }
+        ]
+      },
+      "use_cases": [
+        "Fetching external task data",
+        "Handling network requests",
+        "Parsing API responses",
+        "Error handling for failed requests"
+      ]
+    },
+    "array_iteration": {
+      "description": "Processing multiple items in arrays",
+      "methods_covered": [
+        "forEach() - Iterates through array executing callback for each item",
+        "Arrow functions - Concise function syntax for callbacks"
+      ],
+      "use_cases": [
+        "Creating list items for each task from API response"
+      ]
+    },
+    "template_literals": {
+      "description": "Dynamic string creation with embedded expressions",
+      "syntax": "Backticks (`) with ${expression} for interpolation",
+      "use_cases": [
+        "Embedding task text in list item HTML",
+        "Creating HTML strings with dynamic content"
+      ]
+    }
+  },
+  "code_snippets": {
+    "complete_javascript": {
+      "description": "Full JavaScript code for the Task Manager App",
+      "code": "// Phase 1: DOM Selection\nconst taskInput = document.getElementById('taskInput');\nconst addTaskButton = document.getElementById('addTask');\nconst taskList = document.getElementById('tasklist');\nconst fetchTasksButton = document.getElementById('fetchTasks');\n\n// Phase 2: Add Task Function\nfunction addTask() {\n  const taskText = taskInput.value;\n  const li = document.createElement('li');\n  li.innerHTML = `${taskText} <button class='delete'>Delete</button>`;\n  taskList.appendChild(li);\n  taskInput.value = '';\n}\n\n// Phase 2: Add Task Event Listener\naddTaskButton.addEventListener('click', addTask);\n\n// Phase 3: Delete Task Function\nfunction deleteTask(e) {\n  if (e.target.classList.contains('delete')) {\n    e.target.parentElement.remove();\n  }\n}\n\n// Phase 3: Delete Task Event Listener (Event Delegation)\ntaskList.addEventListener('click', deleteTask);\n\n// Phase 4: Fetch Tasks Async Function\nasync function fetchTasks() {\n  try {\n    const response = await fetch('https://jsonplaceholder.typicode.com/todos?_limit=5');\n    const data = await response.json();\n    data.forEach(task => {\n      const li = document.createElement('li');\n      li.innerHTML = `${task.title} <button class='delete'>Delete</button>`;\n      taskList.appendChild(li);\n    });\n  } catch(error) {\n    console.error('An error occurred while fetching tasks: ' + error);\n  }\n}\n\n// Phase 4: Fetch Tasks Event Listener\nfetchTasksButton.addEventListener('click', fetchTasks);"
+    },
+    "html_boilerplate": {
+      "description": "Required HTML structure (provided in tutorial resources)",
+      "key_elements": [
+        "<input id='taskInput' type='text'> - Text input for task entry",
+        "<button id='addTask'>Add Task</button> - Button to add tasks",
+        "<button id='fetchTasks'>Fetch API Tasks</button> - Button to fetch from API",
+        "<ul id='tasklist'></ul> - Container for task list items"
+      ]
+    },
+    "phase_breakdown": {
+      "phase_1_code": "const taskInput = document.getElementById('taskInput');\nconst addTaskButton = document.getElementById('addTask');\nconst taskList = document.getElementById('tasklist');\nconst fetchTasksButton = document.getElementById('fetchTasks');",
+      "phase_2_code": "function addTask() {\n  const taskText = taskInput.value;\n  const li = document.createElement('li');\n  li.innerHTML = `${taskText} <button class='delete'>Delete</button>`;\n  taskList.appendChild(li);\n  taskInput.value = '';\n}\n\naddTaskButton.addEventListener('click', addTask);",
+      "phase_3_code": "function deleteTask(e) {\n  if (e.target.classList.contains('delete')) {\n    e.target.parentElement.remove();\n  }\n}\n\ntaskList.addEventListener('click', deleteTask);",
+      "phase_4_code": "async function fetchTasks() {\n  try {\n    const response = await fetch('https://jsonplaceholder.typicode.com/todos?_limit=5');\n    const data = await response.json();\n    data.forEach(task => {\n      const li = document.createElement('li');\n      li.innerHTML = `${task.title} <button class='delete'>Delete</button>`;\n      taskList.appendChild(li);\n    });\n  } catch(error) {\n    console.error('An error occurred while fetching tasks: ' + error);\n  }\n}\n\nfetchTasksButton.addEventListener('click', fetchTasks);"
+    }
+  },
+  "optimization_patterns": [
+    {
+      "pattern": "Event Delegation for Delete Functionality",
+      "technique": "Attach single event listener to parent container (taskList) instead of individual delete buttons",
+      "implementation": "taskList.addEventListener('click', deleteTask) with e.target.classList.contains('delete') check",
+      "benefits": [
+        "Works automatically for dynamically created elements (both manual and API tasks)",
+        "Reduces memory usage (one listener vs many)",
+        "Improves performance with large numbers of tasks",
+        "Simplifies code maintenance"
+      ],
+      "timestamp": "[11:21] - [12:12]",
+      "evidence": "Tutorial explicitly explains: 'we have to attach this function to our task list, or our unordered list' and demonstrates that delete works for both manually added and API-fetched tasks without additional listeners"
+    },
+    {
+      "pattern": "Input Field Clearing for UX",
+      "technique": "Set input.value to empty string after successful task addition",
+      "implementation": "taskInput.value = '' at end of addTask function",
+      "benefits": [
+        "Improves user experience for adding multiple tasks",
+        "Reduces user effort (no manual clearing needed)",
+        "Prepares UI for next action immediately",
+        "Prevents accidental duplicate additions"
+      ],
+      "timestamp": "[07:42] - [08:04]",
+      "evidence": "Tutorial states: 'after adding our task to our task list, we want to clear the input field for the user to enter another task'"
+    },
+    {
+      "pattern": "Async/Await with Try/Catch Error Handling",
+      "technique": "Use async/await for cleaner asynchronous code with try/catch blocks for error management",
+      "implementation": "async function fetchTasks() with try { await fetch... } catch(error) { console.error... }",
+      "benefits": [
+        "More readable than promise .then() chains",
+        "Graceful handling of network failures",
+        "Prevents app crashes from API errors",
+        "Provides error feedback for debugging",
+        "Follows modern JavaScript best practices"
+      ],
+      "timestamp": "[13:15] - [16:48]",
+      "evidence": "Tutorial implements full try/catch structure: 'we have to write a catch block for any errors that might occur' with console.error for error logging"
+    },
+    {
+      "pattern": "Template Literals for Dynamic HTML",
+      "technique": "Use backticks and ${} syntax for embedding variables in HTML strings",
+      "implementation": "li.innerHTML = `${taskText} <button class='delete'>Delete</button>`",
+      "benefits": [
+        "Cleaner, more readable code than string concatenation",
+        "Easy to include both variables and HTML markup",
+        "Reduces syntax errors from quote mixing",
+        "Modern JavaScript standard"
+      ],
+      "timestamp": "[06:30] - [07:07]",
+      "evidence": "Tutorial uses template literals for both manual tasks (${taskText}) and API tasks (${task.title})"
+    },
+    {
+      "pattern": "API Request Limiting",
+      "technique": "Use URL query parameter to limit API response size",
+      "implementation": "?_limit=5 parameter in API URL",
+      "benefits": [
+        "Reduces data transfer",
+        "Faster response times",
+        "Prevents UI overload with too many items",
+        "Better user experience",
+        "Demonstrates API parameter usage"
+      ],
+      "timestamp": "[13:30]",
+      "evidence": "API endpoint explicitly includes '?_limit=5' to fetch only 5 tasks"
+    },
+    {
+      "pattern": "Consistent Delete Button Structure",
+      "technique": "Identical HTML structure for delete buttons in both manual and API tasks",
+      "implementation": "<button class='delete'>Delete</button> in both addTask and fetchTasks",
+      "benefits": [
+        "Single delete function works for all tasks",
+        "Maintainable code (one pattern to update)",
+        "Consistent user interface",
+        "Demonstrates code reusability"
+      ],
+      "timestamp": "[07:07] and [15:25]",
+      "evidence": "Exact same button HTML used in both contexts, allowing event delegation to work universally"
+    }
+  ],
+  "deliverables": [
+    {
+      "deliverable": "Functional Task Manager Web Application",
+      "description": "Complete web app with add, delete, and API fetch capabilities",
+      "acceptance_criteria": [
+        "Users can add custom tasks via input field",
+        "Tasks display in list format with delete buttons",
+        "Delete buttons remove individual tasks",
+        "Fetch API Tasks button retrieves 5 tasks from external API",
+        "All delete buttons work for both manual and API tasks",
+        "Input field clears after task addition",
+        "No console errors during normal operation"
+      ]
+    },
+    {
+      "deliverable": "Well-Structured JavaScript Code",
+      "description": "Clean, commented JavaScript following tutorial patterns",
+      "acceptance_criteria": [
+        "Four const variables for DOM element selection",
+        "Three functions: addTask, deleteTask, fetchTasks",
+        "Three event listeners properly attached",
+        "Event delegation pattern implemented",
+        "Async/await syntax correctly used",
+        "Try/catch error handling present",
+        "Code follows tutorial structure and conventions"
+      ]
+    },
+    {
+      "deliverable": "Understanding of Core JavaScript Concepts",
+      "description": "Demonstrated knowledge of DOM manipulation, events, and async operations",
+      "acceptance_criteria": [
+        "Can explain document.getElementById() purpose",
+        "Understands createElement and appendChild workflow",
+        "Can describe event delegation benefits",
+        "Explains async/await vs traditional callbacks",
+        "Understands fetch API and JSON parsing",
+        "Can modify code for additional features"
+      ]
+    }
+  ],
+  "workflow_diagram": {
+    "description": "Visual representation of Task Manager App workflow",
+    "ascii_diagram": [
+      "Phase 1: Project Setup & DOM Selection (3 min)",
+      "  └─> Select 4 DOM elements with getElementById",
+      "      └─> Output: taskInput, addTaskButton, taskList, fetchTasksButton variables",
+      "",
+      "Phase 2: Add Task Functionality (5 min)",
+      "  ├─> Create addTask() function",
+      "  │   ├─> Get input value",
+      "  │   ├─> Create <li> element",
+      "  │   ├─> Set innerHTML with task + delete button",
+      "  │   ├─> Append to taskList",
+      "  │   └─> Clear input field",
+      "  └─> Attach click listener to addTaskButton",
+      "      └─> Output: Working task addition feature",
+      "",
+      "Phase 3: Delete Task Functionality (3 min)",
+      "  ├─> Create deleteTask(e) function",
+      "  │   ├─> Check if target has 'delete' class",
+      "  │   └─> Remove parent element (li)",
+      "  └─> Attach click listener to taskList (delegation)",
+      "      └─> Output: Working delete buttons for all tasks",
+      "",
+      "Phase 4: API Integration (6 min)",
+      "  ├─> Create async fetchTasks() function",
+      "  │   ├─> Try block:",
+      "  │   │   ├─> Await fetch from JSONPlaceholder API",
+      "  │   │   ├─> Await response.json() parsing",
+      "  │   │   └─> forEach task: create li, set innerHTML, append",
+      "  │   └─> Catch block: log errors",
+      "  └─> Attach click listener to fetchTasksButton",
+      "      └─> Output: Complete functional Task Manager App",
+      "",
+      "Total Tutorial: 18 minutes",
+      "Practice Time: 30-60 minutes recommended"
+    ]
+  },
+  "resource_requirements": {
+    "human_resources": {
+      "minimum_team": [
+        "1 Learner (beginner to intermediate JavaScript)"
+      ],
+      "optimal_learning_environment": [
+        "1 Learner with access to tutorial video",
+        "Optional: 1 Mentor for questions and code review"
+      ],
+      "total_time_investment": "18 minutes tutorial + 30-60 minutes hands-on practice"
+    },
+    "technical_requirements": {
+      "software": [
+        "Modern web browser (Chrome, Firefox, Edge, Safari)",
+        "Text editor or IDE (VS Code, Sublime Text, Atom, or similar)",
+        "Internet connection (for API requests and tutorial access)"
+      ],
+      "boilerplate_files": [
+        "HTML file with form elements and IDs",
+        "CSS file for styling (provided by tutorial)",
+        "Empty JavaScript file to write code"
+      ],
+      "apis_used": [
+        "JSONPlaceholder API (https://jsonplaceholder.typicode.com) - Free, no authentication required"
+      ]
+    },
+    "knowledge_requirements": {
+      "prerequisite_concepts": [
+        "Basic HTML structure and elements",
+        "CSS basics (helpful but not required - styling provided)",
+        "JavaScript variables (const, let)",
+        "JavaScript functions (declaration syntax)",
+        "Basic conditional statements (if)",
+        "Understanding of strings and string interpolation"
+      ],
+      "concepts_learned": [
+        "DOM manipulation methods",
+        "Event handling and listeners",
+        "Event delegation pattern",
+        "Asynchronous JavaScript",
+        "Fetch API usage",
+        "JSON data parsing",
+        "Array iteration methods",
+        "Error handling with try/catch"
+      ]
+    }
+  },
+  "common_pitfalls": [
+    {
+      "pitfall": "Forgetting to clear input field after task addition",
+      "impact": "Poor user experience, requires manual clearing for each task",
+      "solution": "Add taskInput.value = '' at end of addTask function",
+      "timestamp": "[07:42]"
+    },
+    {
+      "pitfall": "Attaching delete listeners to individual buttons instead of parent",
+      "impact": "Delete functionality breaks for dynamically created tasks",
+      "solution": "Use event delegation: attach listener to taskList and check e.target.classList",
+      "timestamp": "[11:21]"
+    },
+    {
+      "pitfall": "Passing function with parentheses in addEventListener",
+      "impact": "Function executes immediately instead of on click",
+      "solution": "Pass function reference without parentheses: addEventListener('click', addTask) NOT addTask()",
+      "timestamp": "[08:04]"
+    },
+    {
+      "pitfall": "Forgetting await keyword with async operations",
+      "impact": "Code executes before data arrives, causing undefined errors",
+      "solution": "Use await before fetch() and response.json() calls",
+      "timestamp": "[13:30]"
+    },
+    {
+      "pitfall": "Not including try/catch for async operations",
+      "impact": "App crashes on network errors without user feedback",
+      "solution": "Wrap async code in try/catch and log errors with console.error",
+      "timestamp": "[16:20]"
+    },
+    {
+      "pitfall": "Incorrect template literal syntax",
+      "impact": "Variables not interpolated, literal ${} appears in output",
+      "solution": "Use backticks (`) not quotes, ensure ${variableName} syntax",
+      "timestamp": "[06:30]"
+    },
+    {
+      "pitfall": "Removing wrong element (button instead of list item)",
+      "impact": "Only delete button removed, task text remains",
+      "solution": "Use e.target.parentElement.remove() to remove the entire li",
+      "timestamp": "[10:30]"
+    },
+    {
+      "pitfall": "Misspelling IDs in getElementById calls",
+      "impact": "Elements not selected, features don't work, possible null errors",
+      "solution": "Double-check HTML IDs match JavaScript getElementById strings exactly",
+      "timestamp": "[03:30]"
+    }
+  ],
+  "extension_ideas": [
+    {
+      "extension": "Task Completion Toggle",
+      "difficulty": "Beginner",
+      "description": "Add ability to mark tasks as complete with strikethrough styling",
+      "implementation_hints": [
+        "Add click listener to task text",
+        "Toggle a 'completed' class on click",
+        "Define .completed CSS class with text-decoration: line-through"
+      ]
+    },
+    {
+      "extension": "Local Storage Persistence",
+      "difficulty": "Intermediate",
+      "description": "Save tasks to browser local storage so they persist after page reload",
+      "implementation_hints": [
+        "Use localStorage.setItem() to save tasks array",
+        "Use localStorage.getItem() on page load",
+        "Convert tasks to JSON with JSON.stringify()",
+        "Parse JSON on retrieval with JSON.parse()"
+      ]
+    },
+    {
+      "extension": "Edit Task Functionality",
+      "difficulty": "Intermediate",
+      "description": "Allow users to edit existing task text",
+      "implementation_hints": [
+        "Add 'Edit' button next to each task",
+        "On click, replace task text with input field",
+        "Save changes and restore text display",
+        "Consider using contentEditable attribute"
+      ]
+    },
+    {
+      "extension": "Task Priority Levels",
+      "difficulty": "Intermediate",
+      "description": "Add priority levels (High, Medium, Low) with color coding",
+      "implementation_hints": [
+        "Add dropdown or radio buttons for priority selection",
+        "Store priority with task text",
+        "Apply different CSS classes based on priority",
+        "Style with colors (red, yellow, green)"
+      ]
+    },
+    {
+      "extension": "Task Categories/Tags",
+      "difficulty": "Advanced",
+      "description": "Add categories or tags to organize tasks",
+      "implementation_hints": [
+        "Add category input field",
+        "Store tasks as objects with text and category properties",
+        "Add filter buttons to show tasks by category",
+        "Use array filter() method for filtering"
+      ]
+    },
+    {
+      "extension": "Due Dates and Reminders",
+      "difficulty": "Advanced",
+      "description": "Add due date functionality with visual indicators for overdue tasks",
+      "implementation_hints": [
+        "Add date input field",
+        "Store tasks with date property",
+        "Compare dates with Date object",
+        "Highlight overdue tasks with CSS",
+        "Consider using setInterval for checking dates"
+      ]
+    },
+    {
+      "extension": "Drag and Drop Reordering",
+      "difficulty": "Advanced",
+      "description": "Allow users to reorder tasks by dragging",
+      "implementation_hints": [
+        "Use HTML5 Drag and Drop API",
+        "Add draggable='true' attribute to list items",
+        "Implement dragstart, dragover, drop event listeners",
+        "Update task order in storage"
+      ]
+    },
+    {
+      "extension": "Multiple Task Lists",
+      "difficulty": "Advanced",
+      "description": "Create separate lists for different projects or contexts",
+      "implementation_hints": [
+        "Add list creation functionality",
+        "Store lists in array of objects",
+        "Switch between lists with tabs or dropdown",
+        "Consider using data structures for organization"
+      ]
+    }
+  ],
+  "troubleshooting_guide": [
+    {
+      "issue": "Tasks not appearing when Add Task clicked",
+      "possible_causes": [
+        "getElementById returned null (wrong ID)",
+        "Event listener not attached properly",
+        "addTask function not defined",
+        "JavaScript file not linked in HTML"
+      ],
+      "debugging_steps": [
+        "Check browser console for errors",
+        "Verify HTML element IDs match JavaScript strings",
+        "Console.log variables to check if elements selected",
+        "Ensure <script> tag links to JavaScript file",
+        "Check if addEventListener is spelled correctly"
+      ]
+    },
+    {
+      "issue": "Delete buttons not working",
+      "possible_causes": [
+        "Event listener attached to button instead of taskList",
+        "Class name 'delete' not matching in HTML and JS",
+        "deleteTask function not defined",
+        "Event parameter missing from function"
+      ],
+      "debugging_steps": [
+        "Verify event listener on taskList, not individual buttons",
+        "Check classList.contains('delete') matches button class",
+        "Console.log e.target to see what's being clicked",
+        "Ensure parentElement.remove() syntax correct"
+      ]
+    },
+    {
+      "issue": "Fetch API Tasks button does nothing",
+      "possible_causes": [
+        "Async function syntax error",
+        "Network error or API unavailable",
+        "Missing await keywords",
+        "Try/catch preventing visible errors"
+      ],
+      "debugging_steps": [
+        "Check console for error messages",
+        "Test API URL directly in browser",
+        "Ensure async keyword before function",
+        "Verify await before fetch and .json()",
+        "Add console.log in catch block to see errors"
+      ]
+    },
+    {
+      "issue": "Tasks fetched but not displayed",
+      "possible_causes": [
+        "forEach syntax error",
+        "Incorrect task property name (task.title)",
+        "createElement or appendChild error",
+        "Data not actually an array"
+      ],
+      "debugging_steps": [
+        "Console.log data to inspect structure",
+        "Verify task.title property exists",
+        "Check forEach syntax: data.forEach(task => {})",
+        "Ensure li creation and appending inside forEach"
+      ]
+    },
+    {
+      "issue": "Template literal not working (${} showing literally)",
+      "possible_causes": [
+        "Using quotes instead of backticks",
+        "Syntax error in template literal"
+      ],
+      "debugging_steps": [
+        "Verify backticks (`) not single/double quotes",
+        "Check ${variableName} syntax",
+        "Ensure variable name spelled correctly"
+      ]
+    }
+  ],
+  "assessment_checklist": [
+    {
+      "category": "Phase 1 - Setup",
+      "checklist_items": [
+        "All four DOM elements successfully selected",
+        "Variables use const keyword",
+        "Variable names are descriptive and clear",
+        "No console errors on page load"
+      ]
+    },
+    {
+      "category": "Phase 2 - Add Task",
+      "checklist_items": [
+        "addTask function properly defined",
+        "Input value correctly retrieved",
+        "List item created dynamically",
+        "Template literal used for innerHTML",
+        "Delete button included in each task",
+        "Task appended to list correctly",
+        "Input field clears after addition",
+        "Event listener attached to Add Task button",
+        "Multiple tasks can be added sequentially"
+      ]
+    },
+    {
+      "category": "Phase 3 - Delete Task",
+      "checklist_items": [
+        "deleteTask function defined with event parameter",
+        "Event delegation pattern implemented",
+        "classList.contains check prevents unwanted deletions",
+        "Parent element removed (not just button)",
+        "Event listener attached to taskList container",
+        "Delete works for all manually added tasks"
+      ]
+    },
+    {
+      "category": "Phase 4 - API Integration",
+      "checklist_items": [
+        "fetchTasks declared as async function",
+        "Fetch call uses await keyword",
+        "Correct API endpoint URL used",
+        "Response parsed to JSON with await",
+        "forEach loop iterates through data",
+        "task.title property accessed correctly",
+        "List items created for each API task",
+        "Delete buttons included in API tasks",
+        "Try/catch block implemented",
+        "Error logging in catch block",
+        "Event listener attached to Fetch Tasks button",
+        "5 tasks appear when button clicked",
+        "Delete buttons work on API tasks"
+      ]
+    },
+    {
+      "category": "Integration & Best Practices",
+      "checklist_items": [
+        "All features work together seamlessly",
+        "Can add tasks after fetching API tasks",
+        "Delete works for both manual and API tasks",
+        "No console errors during normal operation",
+        "Code is clean and readable",
+        "Functions follow single responsibility principle",
+        "Consistent naming conventions used",
+        "Comments added for clarity (optional but good)"
+      ]
+    },
+    {
+      "category": "Understanding",
+      "checklist_items": [
+        "Can explain why event delegation is used",
+        "Understands difference between sync and async code",
+        "Can describe the flow of data from API to display",
+        "Knows when to use await keyword",
+        "Understands parent-child DOM relationships",
+        "Can modify code to add new features"
+      ]
+    }
+  ],
+  "next_steps": [
+    {
+      "step": "Experiment with Extensions",
+      "description": "Try implementing one or more extension ideas to deepen understanding",
+      "recommended_order": 1
+    },
+    {
+      "step": "Build Similar Projects",
+      "description": "Create related apps using same concepts (shopping list, notes app, etc.)",
+      "recommended_order": 2
+    },
+    {
+      "step": "Learn Advanced DOM Concepts",
+      "description": "Explore query selectors, DOM traversal, and manipulation methods",
+      "recommended_order": 3
+    },
+    {
+      "step": "Study More Event Patterns",
+      "description": "Learn about event bubbling, capturing, and other event types",
+      "recommended_order": 4
+    },
+    {
+      "step": "Deepen Async Knowledge",
+      "description": "Study promises, async/await patterns, and error handling in depth",
+      "recommended_order": 5
+    },
+    {
+      "step": "Explore Modern APIs",
+      "description": "Learn about other browser APIs (localStorage, geolocation, notifications)",
+      "recommended_order": 6
+    },
+    {
+      "step": "Add Backend Integration",
+      "description": "Connect app to real backend (Node.js, Firebase) for data persistence",
+      "recommended_order": 7
+    },
+    {
+      "step": "Learn JavaScript Framework",
+      "description": "Transition to React, Vue, or Angular to build larger applications",
+      "recommended_order": 8
+    }
+  ],
+  "related_resources": [
+    {
+      "resource_type": "API Documentation",
+      "name": "JSONPlaceholder",
+      "url": "https://jsonplaceholder.typicode.com",
+      "description": "Free fake API for testing and prototyping"
+    },
+    {
+      "resource_type": "Documentation",
+      "name": "MDN Web Docs - DOM Manipulation",
+      "url": "https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Manipulating_documents",
+      "description": "Comprehensive guide to DOM manipulation"
+    },
+    {
+      "resource_type": "Documentation",
+      "name": "MDN Web Docs - Fetch API",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API",
+      "description": "Complete fetch API reference"
+    },
+    {
+      "resource_type": "Documentation",
+      "name": "MDN Web Docs - Async/Await",
+      "url": "https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous/Async_await",
+      "description": "Detailed async/await tutorial"
+    },
+    {
+      "resource_type": "Tutorial Series",
+      "name": "Codynn JavaScript Beginner Series",
+      "description": "Previous tutorials covering JavaScript fundamentals referenced in this video"
+    }
+  ],
+  "tags": [
+    "javascript",
+    "dom-manipulation",
+    "event-handling",
+    "async-await",
+    "fetch-api",
+    "beginner-tutorial",
+    "task-manager",
+    "to-do-list",
+    "web-development",
+    "event-delegation",
+    "api-integration",
+    "json",
+    "educational",
+    "code-along",
+    "project-based-learning"
+  ],
+  "version_history": [
+    {
+      "version": "1.0",
+      "date": "2025-11-22",
+      "changes": "Initial project template creation from Video_20.md transcript analysis",
+      "author": "AI Assistant (Claude Sonnet 4.5)",
+      "source": "ENTITIES/RESEARCHES/Research_Reports/Video_20.md"
+    }
+  ]
+}

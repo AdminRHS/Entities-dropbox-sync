@@ -1,0 +1,264 @@
+{
+  "entity_type": "LIBRARIES",
+  "sub_entity": "Research",
+  "category": "Other_Tools",
+  "research_session": {
+    "research_id": "RSH-OTH-004",
+    "search_date": "2025-11-15",
+    "search_week": "2025-W47",
+    "search_tool": "Perplexity / YouTube / Web Search",
+    "researcher": "To be assigned",
+    "session_duration_minutes": 0,
+    "status": "pending",
+    "priority": "medium"
+  },
+  "research_purpose": "Complete missing data for 4 miscellaneous AI tools (Content Creation, Video Tools, Transcription) recently discovered but lacking comprehensive documentation. These tools serve various departments and require research to populate taxonomy fields and assess their value for Remote Helpers operations.",
+  "tools_to_research": [
+    {
+      "tool_id": "TOOL-AI-044",
+      "tool_name": "Gamma.app",
+      "vendor": "Gamma",
+      "documentation_url": "https://gamma.app/",
+      "current_status": "discovered_needs_review",
+      "finance_status": "paid",
+      "department_using": "Design, AI, Finance",
+      "paid_until": "2025-11-25",
+      "research_priority": "high",
+      "notes": "ACTIVELY USED by 3 departments (Design, AI, Finance) - high priority to document current usage patterns and optimize workflows"
+    },
+    {
+      "tool_id": "TOOL-AI-054",
+      "tool_name": "Loom",
+      "vendor": "Loom",
+      "documentation_url": "https://www.loom.com/looms/videos",
+      "current_status": "discovered_needs_review",
+      "finance_status": "paid",
+      "department_using": "AI",
+      "paid_until": "2025-11-18",
+      "research_priority": "high",
+      "notes": "ACTIVELY USED by AI department - document current usage and identify optimization opportunities"
+    },
+    {
+      "tool_id": "TOOL-AI-059",
+      "tool_name": "Maestra.ai",
+      "vendor": "Maestra",
+      "documentation_url": "https://maestra.ai/",
+      "current_status": "discovered_needs_review",
+      "finance_status": "no subscription data",
+      "department_using": "Not currently used",
+      "research_priority": "medium",
+      "notes": "Listed in YouTube research prompt under Video Production tools - evaluate for meeting transcription workflow per File System Rollout initiative"
+    },
+    {
+      "tool_id": "TOOL-AI-058",
+      "tool_name": "Manus.im",
+      "vendor": "Manus",
+      "documentation_url": "https://manus.im/app",
+      "current_status": "discovered_needs_review",
+      "finance_status": "unpaid (expired 2025-09-25)",
+      "department_using": "Not currently used",
+      "research_priority": "low",
+      "notes": "Listed in YouTube research prompt under Design tools but completely undocumented - subscription expired 2+ months ago"
+    }
+  ],
+  "search_queries": [
+    {
+      "query": "Gamma.app tutorial 2025 latest AI features presentations",
+      "query_purpose": "Document Gamma's current AI capabilities and multi-format creation",
+      "platforms": [
+        "YouTube",
+        "Perplexity"
+      ],
+      "expected_results": "Tutorial videos, feature demos, presentation creation guides",
+      "preferred_creators": [
+        "Matt Wolfe",
+        "AI Jason",
+        "Liam Otley"
+      ]
+    },
+    {
+      "query": "Loom latest features 2025 AI video messaging",
+      "query_purpose": "Document Loom's current features and async communication best practices",
+      "platforms": [
+        "YouTube",
+        "Perplexity"
+      ],
+      "expected_results": "Tutorial videos, workflow guides, team collaboration examples"
+    },
+    {
+      "query": "Maestra.ai transcription tutorial 2025 video translation",
+      "query_purpose": "Evaluate Maestra for meeting transcription workflow integration",
+      "platforms": [
+        "YouTube",
+        "Perplexity"
+      ],
+      "expected_results": "Tutorial videos, accuracy comparisons, workflow demonstrations"
+    },
+    {
+      "query": "Maestra vs Whisper transcription comparison 2025",
+      "query_purpose": "Compare Maestra with Remote Helpers current Whisper workflow",
+      "platforms": [
+        "YouTube",
+        "Perplexity"
+      ],
+      "expected_results": "Comparison videos, accuracy benchmarks, cost analysis"
+    },
+    {
+      "query": "AI meeting transcription automation workflow 2025",
+      "query_purpose": "Identify best practices for transcription workflow per File System Rollout",
+      "platforms": [
+        "YouTube",
+        "Perplexity"
+      ],
+      "expected_results": "Workflow tutorials, tool comparisons, automation patterns",
+      "preferred_creators": [
+        "Darren Wiener",
+        "D-Squared",
+        "Liam Otley"
+      ]
+    },
+    {
+      "query": "Manus.im design tool platform",
+      "query_purpose": "Identify Manus.im capabilities and relevance for Design department",
+      "platforms": [
+        "YouTube",
+        "Google",
+        "Perplexity"
+      ],
+      "expected_results": "Product information, feature demos, design tool reviews"
+    },
+    {
+      "query": "Gamma.app vs traditional presentation tools 2025",
+      "query_purpose": "Assess Gamma's ROI vs PowerPoint, Google Slides, Canva",
+      "platforms": [
+        "YouTube",
+        "Perplexity"
+      ],
+      "expected_results": "Comparison videos, feature matrices, use case analyses"
+    },
+    {
+      "query": "Loom async communication best practices remote teams",
+      "query_purpose": "Optimize Loom usage for Remote Helpers distributed team",
+      "platforms": [
+        "YouTube",
+        "Perplexity"
+      ],
+      "expected_results": "Best practice guides, workflow examples, team testimonials"
+    }
+  ],
+  "research_methodology": "Following YouTube_Video_Research_Prompt_RemoteHelpers_Nov2025.md guidelines with focus on meeting transcription workflows and content creation tools",
+  "output_requirements": {
+    "video_criteria": {
+      "published_date_range": "Last 30-60 days (October 15 - November 15, 2025)",
+      "duration_preferred": "10-40 minutes (sweet spot: 15-25 minutes)",
+      "quality_focus": "Practical tutorials, workflow demonstrations, comparison analyses",
+      "technical_depth": "Actionable implementation steps, integration patterns, real-world examples"
+    },
+    "per_video_documentation": [
+      "Video Title",
+      "Creator/Channel",
+      "YouTube URL",
+      "Published Date (YYYY-MM-DD)",
+      "Duration (MM:SS)",
+      "Key Topics (3-5 bullets)",
+      "Remote Helpers Relevance Score (0-100): Strategic (0-40) + Tool/Tech (0-30) + Actionable (0-30)",
+      "Department Relevance (Design, AI, Finance, Video)",
+      "Implementation Priority (Critical/High/Medium/Low)",
+      "One-Sentence Value"
+    ],
+    "per_tool_documentation": [
+      "Complete description of capabilities",
+      "Skill level required (Beginner/Intermediate/Advanced)",
+      "Cost structure with pricing tiers",
+      "Platform compatibility (Web/Desktop/Mobile/API)",
+      "Integration capabilities (specific tools and workflows)",
+      "Primary use cases (Remote Helpers specific)",
+      "Strengths (minimum 5 items)",
+      "Limitations (minimum 3 items)",
+      "Use cases array (minimum 5 items)",
+      "Workflow integration with Remote Helpers stack",
+      "Comparison with similar tools",
+      "ROI metrics where available",
+      "Multi-department usage patterns (for Gamma, Loom)"
+    ]
+  },
+  "success_criteria": [
+    "All TBD fields replaced with specific data",
+    "All empty arrays populated with minimum items",
+    "Latest features documented (as of November 2025)",
+    "Multi-department usage patterns documented (Gamma: Design/AI/Finance, Loom: AI)",
+    "Integration workflows with Remote Helpers stack identified",
+    "Maestra evaluated for meeting transcription workflow (File System Rollout initiative)",
+    "ROI analysis for active subscriptions (Gamma, Loom)",
+    "Clear recommendations for tool optimization and renewal decisions"
+  ],
+  "next_actions": {
+    "immediate": [
+      "Execute search queries on YouTube and Perplexity",
+      "Focus on Gamma.app and Loom (active usage, high priority)",
+      "Find 8-12 relevant videos per Remote Helpers scoring system",
+      "Watch top 3-5 highest scored videos (80+ relevance score)"
+    ],
+    "documentation": [
+      "Create detailed findings report",
+      "Update each tool JSON file with complete data",
+      "Document multi-department usage patterns for Gamma and Loom",
+      "Create comparison matrix for transcription tools (Maestra vs Whisper)"
+    ],
+    "decision_support": [
+      "Optimize Gamma.app usage across 3 departments (Design, AI, Finance)",
+      "Optimize Loom usage for AI department async communication",
+      "Evaluate Maestra.ai for meeting transcription workflow (vs current Whisper setup)",
+      "Assess Manus.im relevance (archive vs renew) for Design department",
+      "Identify collaboration opportunities across departments using Gamma",
+      "Document Loom best practices for file system rollout (async communication)"
+    ]
+  },
+  "alignment_with_strategic_initiatives": {
+    "initiative": "File System & Workflow Automation",
+    "relevance": "High - Maestra.ai evaluation directly supports meeting transcription workflow (Whisper → Claude → tasks)",
+    "priority_topics": [
+      "Meeting transcription workflows (Whisper, Claude, automated task generation)",
+      "AI-assisted daily workflows reducing administrative overhead by 60-80%",
+      "Automated plan & task generation from transcripts"
+    ],
+    "secondary_initiatives": {
+      "content_creation": "Gamma.app optimization for multi-department content needs",
+      "async_communication": "Loom optimization for distributed team collaboration"
+    }
+  },
+  "estimated_effort": {
+    "research_time": "3-5 hours (video watching + hands-on testing for Gamma, Loom)",
+    "update_time": "2-3 hours (updating 4 tool JSON files)",
+    "total_time": "5-8 hours",
+    "recommended_completion": "Within 1 week of task assignment"
+  },
+  "related_tasks": [],
+  "related_workflows": [
+    "Meeting Transcription Workflow (Whisper → Claude → Tasks)",
+    "Content Creation Workflow (Presentations, Documents)",
+    "Async Communication Workflow (Video Messaging)"
+  ],
+  "related_projects": [
+    "File System Rollout",
+    "60-80% Administrative Overhead Reduction"
+  ],
+  "tags": [
+    "content-creation",
+    "video-messaging",
+    "transcription",
+    "gamma-app",
+    "loom",
+    "maestra-ai",
+    "manus-im",
+    "research-todo",
+    "missing-data",
+    "tool-documentation",
+    "multi-department"
+  ],
+  "version": "1.0",
+  "created": "2025-11-15",
+  "last_updated": "2025-11-15",
+  "source": "Tool audit - discovered_needs_review status"
+}
+

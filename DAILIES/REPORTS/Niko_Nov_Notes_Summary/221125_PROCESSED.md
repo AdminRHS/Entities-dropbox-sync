@@ -91,7 +91,7 @@ RESEARCHES → LOGS
 | **TSK-045** | Obligatory: Save 5 Templates + Screenshot | OBJ-###, ACT-### | PMT-039 | CRITICAL | CRM confirmation |
 
 **Important Locations:**
-- Research: `C:\Users\Dell\Dropbox\ENTITIES\RESEARCHES`
+- Research: `Dropbox\ENTITIES\TASK_MANAGERS\RESEARCHES`
 - Video Queue: `C:\Users\Dell\Dropbox\ENTITIES\TASK_MANAGERS\TSM-008_Video_Queue`
 
 **VS Code Key Binding TODO:**
@@ -184,8 +184,8 @@ RESEARCHES → LOGS
   - Start from Researches
   - GPT connected to GitHub
 - **MLT-024**: Restructure to Match Entities Taxonomy
-  - Location: `C:\Users\Dell\Dropbox\ENTITIES\RESEARCHES`
-  - Taxonomy: `C:\Users\Dell\Dropbox\ENTITIES\RESEARCHES\TAXONOMY`
+  - Location: `Dropbox\ENTITIES\TASK_MANAGERS\RESEARCHES`
+  - Taxonomy: `Dropbox\ENTITIES\TASK_MANAGERS\RESEARCHES\TAXONOMY`
   - Tool: Cursor (TOL-###)
 - **MLT-025**: Integrate Users to GitHub
   - User entity development (TSK-062)
@@ -798,8 +798,8 @@ PMT-051 (Research Integration) → PMT-004 (Video Transcription)
 
 | Purpose | Path |
 |---------|------|
-| **Researches** | C:\Users\Dell\Dropbox\ENTITIES\RESEARCHES |
-| **Taxonomy** | C:\Users\Dell\Dropbox\ENTITIES\RESEARCHES\TAXONOMY |
+| **Researches** | Dropbox\ENTITIES\TASK_MANAGERS\RESEARCHES |
+| **Taxonomy** | Dropbox\ENTITIES\TASK_MANAGERS\RESEARCHES\TAXONOMY |
 | **Video Queue** | C:\Users\Dell\Dropbox\ENTITIES\TASK_MANAGERS\TSM-008_Video_Queue |
 | **Reports (2025-11-21)** | C:\Users\Dell\Dropbox\ENTITIES\REPORTS\2025-11-21 |
 | **Departments Reports** | C:\Users\Dell\Dropbox\ENTITIES\REPORTS\2025-11-21\Departments |

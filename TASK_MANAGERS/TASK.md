@@ -7,6 +7,10 @@
 
 ## Open Tasks
 
+- **[2025-01-27] Download and integrate Anthropic Skills repository**  
+  - Status: Completed  
+  - Notes: Repository cloned to `C:\Users\Dell\Dropbox\skills\`. Integration guide created at `skills/INTEGRATION_GUIDE.md`. Ready for review and integration into ecosystem.
+
 - **[2025-11-25] Design Call_Organizer_v4 prompt aligned with ENTITIES/TASK_MANAGERS architecture**  
   - Status: Completed  
   - Notes: New prompt created at `PROMPTS/Operational_Workflows/Call_Organizer_v4.md` and integrated into Operational Workflows README.

@@ -5,7 +5,7 @@ Design and integrate a new `RESEARCHES` entity into the ENTITIES ecosystem, with
 
 The prompt guides the system (and human collaborators) through:
 - Defining the scope and structure of `RESEARCHES` and `VIDEO_RESEARCHES`.
-- Designing the file system under `C:\Users\Dell\Dropbox\ENTITIES\RESEARCHES`.
+- Designing the file system under `Dropbox\ENTITIES\TASK_MANAGERS\RESEARCHES`.
 - Integrating existing assets from:
   - `C:\Users\Dell\Dropbox\ENTITIES\PROMPTS\Video_Processing`
   - `C:\Users\Dell\Dropbox\ENTITIES\REPORTS\Influencer_Tracking`
@@ -50,7 +50,7 @@ Please define the specific scope of `VIDEO_RESEARCHES` as a sub-entity of `RESEA
 
 ## Step 2: File System Setup for RESEARCHES / VIDEO_RESEARCHES
 
-**Target Root:** `C:\Users\Dell\Dropbox\ENTITIES\RESEARCHES`
+**Target Root:** `Dropbox\ENTITIES\TASK_MANAGERS\RESEARCHES`
 
 **Prompt:**
 ```markdown
