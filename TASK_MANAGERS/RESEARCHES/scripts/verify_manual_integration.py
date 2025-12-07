@@ -12,10 +12,8 @@ def get_base_paths():
     """Get paths to key directories"""
     dropbox = Path("C:/Users/Dell/Dropbox")
 
-    # Check for RESEARCHES 2 folder (current location)
-    researches_path = dropbox / 'ENTITIES/TASK_MANAGERS/RESEARCHES 2'
-    if not researches_path.exists():
-        researches_path = dropbox / 'ENTITIES/TASK_MANAGERS/RESEARCHES'
+    # Check for RESEARCHES folder (current location)
+    researches_path = dropbox / 'ENTITIES/TASK_MANAGERS/RESEARCHES'
 
     return {
         'transcriptions': researches_path / '02_TRANSCRIPTIONS',

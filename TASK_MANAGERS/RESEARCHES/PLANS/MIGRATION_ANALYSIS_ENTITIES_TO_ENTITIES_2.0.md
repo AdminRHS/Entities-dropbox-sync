@@ -102,7 +102,7 @@ After analyzing both `ENTITIES` and `ENTITIES_2.0` folders, I've identified **si
 ```
 TASK_MANAGERS/
 ├── RESEARCHES/                 ← Complex research queue system
-├── RESEARCHES 2/               ← Planning & app builder docs
+├── RESEARCHES/                 ← Planning & app builder docs
 ├── TSM-001_Project_Templates/  ← Template-based organization
 ├── TSM-002_Milestone_Templates/
 ├── TSM-003_Task_Templates/
@@ -151,7 +151,7 @@ TASK_MANAGERS/
 ### 1. The "RESEARCHES 2" Folder Is Stranded
 
 **Current Status:**
-- 📍 **Location:** `C:\Users\Dell\Dropbox\ENTITIES\TASK_MANAGERS\RESEARCHES 2\`
+- 📍 **Location:** `C:\Users\Dell\Dropbox\ENTITIES\TASK_MANAGERS\RESEARCHES\`
 - 📄 **Contains:** Your 1,084-line ANALYST_REVIEW_REQUEST.md
 - 🔴 **Status:** **NOT MIGRATED** to ENTITIES_2.0
 
@@ -162,7 +162,7 @@ TASK_MANAGERS/
 
 **Recommendation:**
 ```
-URGENT: Copy RESEARCHES 2/PLANS/ to ENTITIES_2.0/TASK_MANAGERS/PLANS/
+URGENT: Copy RESEARCHES/PLANS/ to ENTITIES_2.0/TASK_MANAGERS/PLANS/
 ```
 
 ---
@@ -215,7 +215,7 @@ URGENT: Copy RESEARCHES 2/PLANS/ to ENTITIES_2.0/TASK_MANAGERS/PLANS/
    - CSV data files
    - HTML dashboards
 
-2. **RESEARCHES 2/** folder
+2. **RESEARCHES/** folder
    - **PLANS/ANALYST_REVIEW_REQUEST.md** ← Your current work document!
    - **PLANS/RESEARCH_SYSTEM_APP_BUILDER_PLAN.md**
    - 11 application builder prompt pages
@@ -263,7 +263,7 @@ URGENT: Copy RESEARCHES 2/PLANS/ to ENTITIES_2.0/TASK_MANAGERS/PLANS/
    - Python automation tools not migrated
 
 3. ❌ **Broken Continuity:**
-   - RESEARCHES 2 folder still in old location
+   - RESEARCHES folder still in old location
    - Current work documents stranded in ENTITIES
 
 ---
@@ -302,7 +302,7 @@ URGENT: Copy RESEARCHES 2/PLANS/ to ENTITIES_2.0/TASK_MANAGERS/PLANS/
 
 **File:** `ANALYST_REVIEW_REQUEST.md` (1,084 lines, this document you're working on)
 
-**Current Location:** `ENTITIES\TASK_MANAGERS\RESEARCHES 2\PLANS\`
+**Current Location:** `ENTITIES\TASK_MANAGERS\RESEARCHES\PLANS\`
 
 **Problem:**
 - ENTITIES_2.0 has a `PLANS/` folder but it's empty
@@ -311,7 +311,7 @@ URGENT: Copy RESEARCHES 2/PLANS/ to ENTITIES_2.0/TASK_MANAGERS/PLANS/
 
 **Fix:**
 ```bash
-cp "C:\Users\Dell\Dropbox\ENTITIES\TASK_MANAGERS\RESEARCHES 2\PLANS\ANALYST_REVIEW_REQUEST.md" \
+cp "C:\Users\Dell\Dropbox\ENTITIES\TASK_MANAGERS\RESEARCHES\PLANS\ANALYST_REVIEW_REQUEST.md" \
    "C:\Users\Dell\Dropbox\ENTITIES_2.0\TASK_MANAGERS\PLANS\"
 ```
 
@@ -413,7 +413,7 @@ Based on the migration logs found, there were **two separate migrations**:
 
 **What the Log DOESN'T Mention (but clearly didn't migrate):**
 - RESEARCHES folder (research queue system)
-- RESEARCHES 2 folder (planning documents)
+- RESEARCHES folder (planning documents)
 - Majority of TSM-001 through TSM-007 template files
 - PROMPTS old versions and research_app folders
 - Multiple other TASK_MANAGERS subdirectories
@@ -448,7 +448,7 @@ Based on the migration logs found, there were **two separate migrations**:
 
 1. **Rescue Your Current Work Document:**
    ```bash
-   cp "C:\Users\Dell\Dropbox\ENTITIES\TASK_MANAGERS\RESEARCHES 2\PLANS\*.md" \
+   cp "C:\Users\Dell\Dropbox\ENTITIES\TASK_MANAGERS\RESEARCHES\PLANS\*.md" \
       "C:\Users\Dell\Dropbox\ENTITIES_2.0\TASK_MANAGERS\PLANS\"
    ```
 

@@ -38,7 +38,7 @@ Develop a detailed, production-ready prompt that enables AI assistants to genera
 
 ### System Overview
 **Base System**: RESEARCH 2 Video Processing Pipeline
-**Location**: `C:\Users\Dell\Dropbox\ENTITIES\TASK_MANAGERS\RESEARCHES 2\`
+**Location**: `C:\Users\Dell\Dropbox\ENTITIES\TASK_MANAGERS\RESEARCHES\`
 **Production Status**: ✅ Active system processing 28+ videos
 
 ### Core Components Analyzed

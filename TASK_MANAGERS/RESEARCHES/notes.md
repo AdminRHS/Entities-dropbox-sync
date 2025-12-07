@@ -1,0 +1,1 @@
+You should give a footer of its Miranda and what file is it where? What's the ecosystem surrounding all the files and so on. I will write my notes over here for us to start planning. We don't have plans here in researches but we have to, and those plans should be flow of the tasks to execute. 

@@ -212,7 +212,7 @@
 
 ## 📚 Полная Документация
 
-**Полный план:** `G:\Job\REMS\Dropbox\ENTITIES\TASK_MANAGERS\RESEARCHES 2\documentation\v1\14_DEVELOPMENT_PLAN_COMPLETE.md`
+**Полный план:** `C:\Users\Dell\Dropbox\ENTITIES\TASK_MANAGERS\RESEARCHES\documentation\v1\14_DEVELOPMENT_PLAN_COMPLETE.md`
 
 **Содержит:**
 - 2300+ строк детального плана

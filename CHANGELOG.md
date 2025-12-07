@@ -1,3 +1,635 @@
+# Changelog - 2025-12-07
+
+**Sync Date:** 2025-12-07 08:20:32 UTC
+**Total Changes:** 266 files
+
+## Summary
+
+- **Added:** 201 files
+- **Modified:** 8 files
+- **Deleted:** 57 files
+
+## Changes by Category
+
+### "ASSETS
+
+**Total changes:** 1 files
+
+**Deleted (1 files):**
+- `\320\224\320\233\320\257_\320\232\320\236\320\240\320\230\320\241\320\242\320\243\320\222\320\220\320\247\320\206\320\222.md"`
+
+
+### "DAILIES
+
+**Total changes:** 5 files
+
+**Deleted (5 files):**
+- `BUSINESSES_Prospect_Markew\303\244rn_Studios_BUS-2025-021.json"`
+- `TST-461_Create_cross-reference_index_(tool\342\206\222lesson\342\206\222template).json"`
+- `Azanova_Dar\312\274ya_Employee_Summary_Week4.md"`
+- `TODO.md"`
+- `BUSINESSES_Prospect_Electr\303\243o_BUS-2025-018.json"`
+
+
+### "TALENTS
+
+**Total changes:** 4 files
+
+**Deleted (4 files):**
+- `Profile Video Editor Azanova Dar\312\274ya.md"`
+- `Azanova Dar\312\274ya.md"`
+- `Azanova Dar\312\274ya.md"`
+- `Profile Video Editor Azanova Dar\312\274ya.md"`
+
+
+### "TASK_MANAGERS
+
+**Total changes:** 2 files
+
+**Deleted (2 files):**
+- `Video_024 (\320\241\320\277\321\226\321\200\320\275\320\260 \320\272\320\276\320\277\321\226\321\217 \320\272\320\276\321\200\320\270\321\201\321\202\321\203\320\262\320\260\321\207\320\260 HR RemotEmployees 2025-11-25).md"`
+- `Video_024 (\320\241\320\277\321\226\321\200\320\275\320\260 \320\272\320\276\320\277\321\226\321\217 \320\272\320\276\321\200\320\270\321\201\321\202\321\203\320\262\320\260\321\207\320\260 HR RemotEmployees 2025-11-25).md"`
+
+
+### ASSETS
+
+**Total changes:** 155 files
+
+**Added (155 files):**
+- `axios.js` → `rem-s/scripts/pages-export/node_modules/axios/dist/axios.js` (147.26 KB, modified: 2025-11-28T11:08:38, by: Dropbox User)
+- `axios.js.map` → `rem-s/scripts/pages-export/node_modules/axios/dist/axios.js.map` (246.45 KB, modified: 2025-11-28T11:08:38, by: Dropbox User)
+- `axios.min.js` → `rem-s/scripts/pages-export/node_modules/axios/dist/axios.min.js` (54.00 KB, modified: 2025-11-28T11:08:38, by: Dropbox User)
+- `axios.min.js.map` → `rem-s/scripts/pages-export/node_modules/axios/dist/axios.min.js.map` (174.93 KB, modified: 2025-11-28T11:08:38, by: Dropbox User)
+- `axios.cjs` → `rem-s/scripts/pages-export/node_modules/axios/dist/browser/axios.cjs` (99.79 KB, modified: 2025-11-28T11:08:38, by: Dropbox User)
+- `axios.cjs.map` → `rem-s/scripts/pages-export/node_modules/axios/dist/browser/axios.cjs.map` (211.78 KB, modified: 2025-11-28T11:08:38, by: Dropbox User)
+- `axios.js` → `rem-s/scripts/pages-export/node_modules/axios/dist/esm/axios.js` (100.66 KB, modified: 2025-11-28T11:08:38, by: Dropbox User)
+- `axios.js.map` → `rem-s/scripts/pages-export/node_modules/axios/dist/esm/axios.js.map` (213.05 KB, modified: 2025-11-28T11:08:38, by: Dropbox User)
+- `axios.min.js` → `rem-s/scripts/pages-export/node_modules/axios/dist/esm/axios.min.js` (35.62 KB, modified: 2025-11-28T11:08:38, by: Dropbox User)
+- `axios.min.js.map` → `rem-s/scripts/pages-export/node_modules/axios/dist/esm/axios.min.js.map` (166.37 KB, modified: 2025-11-28T11:08:38, by: Dropbox User)
+- `axios.cjs` → `rem-s/scripts/pages-export/node_modules/axios/dist/node/axios.cjs` (138.25 KB, modified: 2025-11-28T11:08:38, by: Dropbox User)
+- `axios.cjs.map` → `rem-s/scripts/pages-export/node_modules/axios/dist/node/axios.cjs.map` (291.40 KB, modified: 2025-11-28T11:08:38, by: Dropbox User)
+- `README.md` → `rem-s/scripts/pages-export/node_modules/axios/lib/env/README.md` (131 bytes, modified: 2025-11-28T11:08:38, by: Dropbox User)
+- `data.js` → `rem-s/scripts/pages-export/node_modules/axios/lib/env/data.js` (32 bytes, modified: 2025-11-28T11:08:38, by: Dropbox User)
+- `FormData.js` → `rem-s/scripts/pages-export/node_modules/axios/lib/env/classes/FormData.js` (106 bytes, modified: 2025-11-28T11:08:38, by: Dropbox User)
+- `update-2025-11-28T12-59-23-156Z.log` → `rem-s/scripts/pages-export/logs/update-2025-11-28T12-59-23-156Z.log` (881 bytes, modified: 2025-11-28T12:59:23, by: Dropbox User)
+- `update-2025-11-28T13-10-23-474Z.log` → `rem-s/scripts/pages-export/logs/update-2025-11-28T13-10-23-474Z.log` (12.46 KB, modified: 2025-11-28T13:10:43, by: Dropbox User)
+- `update-2025-11-28T13-12-21-364Z.log` → `rem-s/scripts/pages-export/logs/update-2025-11-28T13-12-21-364Z.log` (13.68 KB, modified: 2025-11-28T13:12:52, by: Dropbox User)
+- `update-2025-11-28T13-16-29-831Z.log` → `rem-s/scripts/pages-export/logs/update-2025-11-28T13-16-29-831Z.log` (10.91 KB, modified: 2025-11-28T13:17:02, by: Dropbox User)
+- `update-2025-11-28T13-19-13-589Z.log` → `rem-s/scripts/pages-export/logs/update-2025-11-28T13-19-13-589Z.log` (20.36 KB, modified: 2025-11-28T13:19:46, by: Dropbox User)
+- `update-2025-11-28T13-23-45-206Z.log` → `rem-s/scripts/pages-export/logs/update-2025-11-28T13-23-45-206Z.log` (23.73 KB, modified: 2025-11-28T13:24:20, by: Dropbox User)
+- `update-2025-11-28T13-26-41-071Z.log` → `rem-s/scripts/pages-export/logs/update-2025-11-28T13-26-41-071Z.log` (15.68 KB, modified: 2025-11-28T13:27:18, by: Dropbox User)
+- `update-2025-11-28T13-28-23-518Z.log` → `rem-s/scripts/pages-export/logs/update-2025-11-28T13-28-23-518Z.log` (24.01 KB, modified: 2025-11-28T13:29:11, by: Dropbox User)
+- `update-2025-11-28T13-32-15-578Z.log` → `rem-s/scripts/pages-export/logs/update-2025-11-28T13-32-15-578Z.log` (24.01 KB, modified: 2025-11-28T13:33:02, by: Dropbox User)
+- `axios.js` → `rem-s/scripts/collections-update/node_modules/axios/dist/axios.js` (147.26 KB, modified: 2025-11-28T15:12:17, by: Dropbox User)
+- `axios.js.map` → `rem-s/scripts/collections-update/node_modules/axios/dist/axios.js.map` (246.45 KB, modified: 2025-11-28T15:12:17, by: Dropbox User)
+- `axios.min.js` → `rem-s/scripts/collections-update/node_modules/axios/dist/axios.min.js` (54.00 KB, modified: 2025-11-28T15:12:17, by: Dropbox User)
+- `axios.min.js.map` → `rem-s/scripts/collections-update/node_modules/axios/dist/axios.min.js.map` (174.93 KB, modified: 2025-11-28T15:12:17, by: Dropbox User)
+- `axios.cjs` → `rem-s/scripts/collections-update/node_modules/axios/dist/browser/axios.cjs` (99.79 KB, modified: 2025-11-28T15:12:17, by: Dropbox User)
+- `axios.cjs.map` → `rem-s/scripts/collections-update/node_modules/axios/dist/browser/axios.cjs.map` (211.78 KB, modified: 2025-11-28T15:12:17, by: Dropbox User)
+- `axios.js` → `rem-s/scripts/collections-update/node_modules/axios/dist/esm/axios.js` (100.66 KB, modified: 2025-11-28T15:12:17, by: Dropbox User)
+- `axios.js.map` → `rem-s/scripts/collections-update/node_modules/axios/dist/esm/axios.js.map` (213.05 KB, modified: 2025-11-28T15:12:17, by: Dropbox User)
+- `axios.min.js` → `rem-s/scripts/collections-update/node_modules/axios/dist/esm/axios.min.js` (35.62 KB, modified: 2025-11-28T15:12:17, by: Dropbox User)
+- `axios.min.js.map` → `rem-s/scripts/collections-update/node_modules/axios/dist/esm/axios.min.js.map` (166.37 KB, modified: 2025-11-28T15:12:17, by: Dropbox User)
+- `axios.cjs` → `rem-s/scripts/collections-update/node_modules/axios/dist/node/axios.cjs` (138.25 KB, modified: 2025-11-28T15:12:17, by: Dropbox User)
+- `axios.cjs.map` → `rem-s/scripts/collections-update/node_modules/axios/dist/node/axios.cjs.map` (291.40 KB, modified: 2025-11-28T15:12:17, by: Dropbox User)
+- `README.md` → `rem-s/scripts/collections-update/node_modules/axios/lib/env/README.md` (131 bytes, modified: 2025-11-28T15:12:17, by: Dropbox User)
+- `data.js` → `rem-s/scripts/collections-update/node_modules/axios/lib/env/data.js` (32 bytes, modified: 2025-11-28T15:12:17, by: Dropbox User)
+- `FormData.js` → `rem-s/scripts/collections-update/node_modules/axios/lib/env/classes/FormData.js` (106 bytes, modified: 2025-11-28T15:12:17, by: Dropbox User)
+- `update-2025-11-28T15-15-33-047Z.log` → `rem-s/scripts/pages-export/logs/update-2025-11-28T15-15-33-047Z.log` (2.10 KB, modified: 2025-11-28T15:15:40, by: Dropbox User)
+- `update-2025-11-28T15-29-16-930Z.log` → `rem-s/scripts/pages-export/logs/update-2025-11-28T15-29-16-930Z.log` (2.46 KB, modified: 2025-11-28T15:29:49, by: Dropbox User)
+- `axios.js` → `rem-s/scripts/pages-update/node_modules/axios/dist/axios.js` (147.26 KB, modified: 2025-12-01T07:23:51, by: Dropbox User)
+- `axios.js.map` → `rem-s/scripts/pages-update/node_modules/axios/dist/axios.js.map` (246.45 KB, modified: 2025-12-01T07:23:51, by: Dropbox User)
+- `axios.min.js` → `rem-s/scripts/pages-update/node_modules/axios/dist/axios.min.js` (54.00 KB, modified: 2025-12-01T07:23:51, by: Dropbox User)
+- `axios.min.js.map` → `rem-s/scripts/pages-update/node_modules/axios/dist/axios.min.js.map` (174.93 KB, modified: 2025-12-01T07:23:51, by: Dropbox User)
+- `axios.js` → `rem-s/scripts/pages-update/node_modules/axios/dist/esm/axios.js` (100.66 KB, modified: 2025-12-01T07:23:51, by: Dropbox User)
+- `axios.js.map` → `rem-s/scripts/pages-update/node_modules/axios/dist/esm/axios.js.map` (213.05 KB, modified: 2025-12-01T07:23:51, by: Dropbox User)
+- `axios.min.js` → `rem-s/scripts/pages-update/node_modules/axios/dist/esm/axios.min.js` (35.62 KB, modified: 2025-12-01T07:23:51, by: Dropbox User)
+- `axios.min.js.map` → `rem-s/scripts/pages-update/node_modules/axios/dist/esm/axios.min.js.map` (166.37 KB, modified: 2025-12-01T07:23:51, by: Dropbox User)
+- `axios.cjs` → `rem-s/scripts/pages-update/node_modules/axios/dist/browser/axios.cjs` (99.79 KB, modified: 2025-12-01T07:23:51, by: Dropbox User)
+- `axios.cjs.map` → `rem-s/scripts/pages-update/node_modules/axios/dist/browser/axios.cjs.map` (211.78 KB, modified: 2025-12-01T07:23:51, by: Dropbox User)
+- `axios.cjs` → `rem-s/scripts/pages-update/node_modules/axios/dist/node/axios.cjs` (138.25 KB, modified: 2025-12-01T07:23:51, by: Dropbox User)
+- `axios.cjs.map` → `rem-s/scripts/pages-update/node_modules/axios/dist/node/axios.cjs.map` (291.40 KB, modified: 2025-12-01T07:23:51, by: Dropbox User)
+- `README.md` → `rem-s/scripts/pages-update/node_modules/axios/lib/env/README.md` (131 bytes, modified: 2025-12-01T07:23:51, by: Dropbox User)
+- `data.js` → `rem-s/scripts/pages-update/node_modules/axios/lib/env/data.js` (32 bytes, modified: 2025-12-01T07:23:51, by: Dropbox User)
+- `update-2025-12-01T07-24-04-893Z.log` → `rem-s/scripts/pages-update/logs/update-2025-12-01T07-24-04-893Z.log` (2.22 KB, modified: 2025-12-01T07:24:06, by: Dropbox User)
+- `FormData.js` → `rem-s/scripts/pages-update/node_modules/axios/lib/env/classes/FormData.js` (106 bytes, modified: 2025-12-01T07:23:51, by: Dropbox User)
+- `update-2025-12-01T07-25-41-062Z.log` → `rem-s/scripts/pages-update/logs/update-2025-12-01T07-25-41-062Z.log` (705 bytes, modified: 2025-12-01T07:25:41, by: Dropbox User)
+- `update-2025-12-01T07-31-26-613Z.log` → `rem-s/scripts/pages-update/logs/update-2025-12-01T07-31-26-613Z.log` (2.22 KB, modified: 2025-12-01T07:31:28, by: Dropbox User)
+- `update-2025-12-01T07-31-33-814Z.log` → `rem-s/scripts/pages-update/logs/update-2025-12-01T07-31-33-814Z.log` (3.17 KB, modified: 2025-12-01T07:32:02, by: Dropbox User)
+- `update-2025-12-01T07-49-05-564Z.log` → `rem-s/scripts/pages-update/logs/update-2025-12-01T07-49-05-564Z.log` (2.22 KB, modified: 2025-12-01T07:49:07, by: Dropbox User)
+- `update-2025-12-01T07-49-18-275Z.log` → `rem-s/scripts/pages-update/logs/update-2025-12-01T07-49-18-275Z.log` (3.17 KB, modified: 2025-12-01T07:49:47, by: Dropbox User)
+- `update-2025-12-01T08-06-02-928Z.log` → `rem-s/scripts/pages-update/logs/update-2025-12-01T08-06-02-928Z.log` (3.17 KB, modified: 2025-12-01T08:06:32, by: Dropbox User)
+- `update-2025-12-01T08-09-29-101Z.log` → `rem-s/scripts/pages-update/logs/update-2025-12-01T08-09-29-101Z.log` (3.17 KB, modified: 2025-12-01T08:09:58, by: Dropbox User)
+- `update-2025-12-01T08-16-30-999Z.log` → `rem-s/scripts/pages-update/logs/update-2025-12-01T08-16-30-999Z.log` (2.97 KB, modified: 2025-12-01T08:16:49, by: Dropbox User)
+- `update-2025-12-01T08-21-24-693Z.log` → `rem-s/scripts/pages-update/logs/update-2025-12-01T08-21-24-693Z.log` (2.97 KB, modified: 2025-12-01T08:21:43, by: Dropbox User)
+- `update-2025-12-01T08-22-03-997Z.log` → `rem-s/scripts/pages-update/logs/update-2025-12-01T08-22-03-997Z.log` (2.97 KB, modified: 2025-12-01T08:22:23, by: Dropbox User)
+- `update-2025-12-01T08-25-11-021Z.log` → `rem-s/scripts/pages-update/logs/update-2025-12-01T08-25-11-021Z.log` (5.88 KB, modified: 2025-12-01T08:25:28, by: Dropbox User)
+- `update-2025-12-01T08-29-33-172Z.log` → `rem-s/scripts/pages-update/logs/update-2025-12-01T08-29-33-172Z.log` (6.66 KB, modified: 2025-12-01T08:29:51, by: Dropbox User)
+- `update-2025-12-01T08-32-47-771Z.log` → `rem-s/scripts/pages-update/logs/update-2025-12-01T08-32-47-771Z.log` (6.59 KB, modified: 2025-12-01T08:33:06, by: Dropbox User)
+- `update-2025-12-01T08-38-03-908Z.log` → `rem-s/scripts/pages-update/logs/update-2025-12-01T08-38-03-908Z.log` (6.80 KB, modified: 2025-12-01T08:38:24, by: Dropbox User)
+- `update-2025-12-01T08-38-58-068Z.log` → `rem-s/scripts/pages-update/logs/update-2025-12-01T08-38-58-068Z.log` (6.80 KB, modified: 2025-12-01T08:39:17, by: Dropbox User)
+- `update-2025-12-01T08-44-18-006Z.log` → `rem-s/scripts/pages-update/logs/update-2025-12-01T08-44-18-006Z.log` (9.29 KB, modified: 2025-12-01T08:44:37, by: Dropbox User)
+- `update-2025-12-01T08-45-44-540Z.log` → `rem-s/scripts/pages-update/logs/update-2025-12-01T08-45-44-540Z.log` (9.29 KB, modified: 2025-12-01T08:46:04, by: Dropbox User)
+- `update-2025-12-01T08-52-37-665Z.log` → `rem-s/scripts/pages-update/logs/update-2025-12-01T08-52-37-665Z.log` (12.96 KB, modified: 2025-12-01T08:52:59, by: Dropbox User)
+- `update-2025-12-01T09-03-13-204Z.log` → `rem-s/scripts/pages-update/logs/update-2025-12-01T09-03-13-204Z.log` (12.96 KB, modified: 2025-12-01T09:03:34, by: Dropbox User)
+- `update-2025-12-01T09-11-41-315Z.log` → `rem-s/scripts/pages-update/logs/update-2025-12-01T09-11-41-315Z.log` (14.03 KB, modified: 2025-12-01T09:12:02, by: Dropbox User)
+- `update-2025-12-01T09-17-50-488Z.log` → `rem-s/scripts/pages-update/logs/update-2025-12-01T09-17-50-488Z.log` (16.64 KB, modified: 2025-12-01T09:18:11, by: Dropbox User)
+- `update-2025-12-01T09-23-27-885Z.log` → `rem-s/scripts/pages-update/logs/update-2025-12-01T09-23-27-885Z.log` (18.41 KB, modified: 2025-12-01T09:23:54, by: Dropbox User)
+- `update-2025-12-01T09-26-59-244Z.log` → `rem-s/scripts/pages-update/logs/update-2025-12-01T09-26-59-244Z.log` (18.41 KB, modified: 2025-12-01T09:27:26, by: Dropbox User)
+- `update-2025-12-01T09-34-16-681Z.log` → `rem-s/scripts/pages-update/logs/update-2025-12-01T09-34-16-681Z.log` (20.67 KB, modified: 2025-12-01T09:34:42, by: Dropbox User)
+- `update-2025-12-01T09-35-07-075Z.log` → `rem-s/scripts/pages-update/logs/update-2025-12-01T09-35-07-075Z.log` (21.05 KB, modified: 2025-12-01T09:35:21, by: Dropbox User)
+- `update-2025-12-01T09-43-13-891Z.log` → `rem-s/scripts/pages-update/logs/update-2025-12-01T09-43-13-891Z.log` (26.28 KB, modified: 2025-12-01T09:43:29, by: Dropbox User)
+- `update-2025-12-01T09-40-59-679Z.log` → `rem-s/scripts/pages-update/logs/update-2025-12-01T09-40-59-679Z.log` (50.43 KB, modified: 2025-12-01T09:41:14, by: Dropbox User)
+- `update-2025-12-01T09-48-50-112Z.log` → `rem-s/scripts/pages-update/logs/update-2025-12-01T09-48-50-112Z.log` (24.37 KB, modified: 2025-12-01T09:49:05, by: Dropbox User)
+- `update-2025-12-01T09-50-02-340Z.log` → `rem-s/scripts/pages-update/logs/update-2025-12-01T09-50-02-340Z.log` (20.67 KB, modified: 2025-12-01T09:50:28, by: Dropbox User)
+- `update-2025-12-01T10-03-04-838Z.log` → `rem-s/scripts/pages-update/logs/update-2025-12-01T10-03-04-838Z.log` (20.67 KB, modified: 2025-12-01T10:03:31, by: Dropbox User)
+- `update-2025-12-01T10-04-57-520Z.log` → `rem-s/scripts/pages-update/logs/update-2025-12-01T10-04-57-520Z.log` (25.43 KB, modified: 2025-12-01T10:05:14, by: Dropbox User)
+- `update-2025-12-01T10-11-02-712Z.log` → `rem-s/scripts/pages-update/logs/update-2025-12-01T10-11-02-712Z.log` (19.73 KB, modified: 2025-12-01T10:11:17, by: Dropbox User)
+- `update-2025-12-01T10-13-14-512Z.log` → `rem-s/scripts/pages-update/logs/update-2025-12-01T10-13-14-512Z.log` (19.75 KB, modified: 2025-12-01T10:13:29, by: Dropbox User)
+- `update-2025-12-01T10-14-51-298Z.log` → `rem-s/scripts/pages-update/logs/update-2025-12-01T10-14-51-298Z.log` (21.28 KB, modified: 2025-12-01T10:15:17, by: Dropbox User)
+- `update-2025-12-01T10-51-48-357Z.log` → `rem-s/scripts/pages-update/logs/update-2025-12-01T10-51-48-357Z.log` (9.01 KB, modified: 2025-12-01T10:52:09, by: Dropbox User)
+- `update-2025-12-01T10-52-55-676Z.log` → `rem-s/scripts/pages-update/logs/update-2025-12-01T10-52-55-676Z.log` (7.49 KB, modified: 2025-12-01T10:53:05, by: Dropbox User)
+- `update-2025-12-01T10-53-47-870Z.log` → `rem-s/scripts/pages-update/logs/update-2025-12-01T10-53-47-870Z.log` (7.49 KB, modified: 2025-12-01T10:53:57, by: Dropbox User)
+- `update-2025-12-01T12-31-34-270Z.log` → `rem-s/scripts/pages-update/logs/update-2025-12-01T12-31-34-270Z.log` (4.41 KB, modified: 2025-12-01T12:31:35, by: Dropbox User)
+- `update-2025-12-01T12-33-10-580Z.log` → `rem-s/scripts/pages-update/logs/update-2025-12-01T12-33-10-580Z.log` (6.41 KB, modified: 2025-12-01T12:33:22, by: Dropbox User)
+- `update-2025-12-01T12-34-51-947Z.log` → `rem-s/scripts/pages-update/logs/update-2025-12-01T12-34-51-947Z.log` (6.02 KB, modified: 2025-12-01T12:35:02, by: Dropbox User)
+- `update-2025-12-01T12-36-43-841Z.log` → `rem-s/scripts/pages-update/logs/update-2025-12-01T12-36-43-841Z.log` (6.03 KB, modified: 2025-12-01T12:36:55, by: Dropbox User)
+- `update-2025-12-01T12-50-38-969Z.log` → `rem-s/scripts/pages-update/logs/update-2025-12-01T12-50-38-969Z.log` (8.93 KB, modified: 2025-12-01T12:50:55, by: Dropbox User)
+- `update-2025-12-01T12-55-12-525Z.log` → `rem-s/scripts/pages-update/logs/update-2025-12-01T12-55-12-525Z.log` (6.02 KB, modified: 2025-12-01T12:55:23, by: Dropbox User)
+- `update-2025-12-01T12-57-42-571Z.log` → `rem-s/scripts/pages-update/logs/update-2025-12-01T12-57-42-571Z.log` (6.02 KB, modified: 2025-12-01T12:57:53, by: Dropbox User)
+- `update-2025-12-01T12-58-36-479Z.log` → `rem-s/scripts/pages-update/logs/update-2025-12-01T12-58-36-479Z.log` (8.93 KB, modified: 2025-12-01T12:58:52, by: Dropbox User)
+- `update-2025-12-01T13-06-32-484Z.log` → `rem-s/scripts/pages-update/logs/update-2025-12-01T13-06-32-484Z.log` (8.86 KB, modified: 2025-12-01T13:06:48, by: Dropbox User)
+- `update-2025-12-01T13-08-14-412Z.log` → `rem-s/scripts/pages-update/logs/update-2025-12-01T13-08-14-412Z.log` (9.72 KB, modified: 2025-12-01T13:08:31, by: Dropbox User)
+- `update-2025-12-01T13-18-33-633Z.log` → `rem-s/scripts/pages-update/logs/update-2025-12-01T13-18-33-633Z.log` (8.81 KB, modified: 2025-12-01T13:18:48, by: Dropbox User)
+- `update-2025-12-01T13-22-44-466Z.log` → `rem-s/scripts/pages-update/logs/update-2025-12-01T13-22-44-466Z.log` (7.67 KB, modified: 2025-12-01T13:22:55, by: Dropbox User)
+- `update-2025-12-01T13-23-25-618Z.log` → `rem-s/scripts/pages-update/logs/update-2025-12-01T13-23-25-618Z.log` (7.66 KB, modified: 2025-12-01T13:23:36, by: Dropbox User)
+- `update-2025-12-01T13-24-09-235Z.log` → `rem-s/scripts/pages-update/logs/update-2025-12-01T13-24-09-235Z.log` (7.64 KB, modified: 2025-12-01T13:24:21, by: Dropbox User)
+- `update-2025-12-01T13-27-07-189Z.log` → `rem-s/scripts/pages-update/logs/update-2025-12-01T13-27-07-189Z.log` (7.64 KB, modified: 2025-12-01T13:27:20, by: Dropbox User)
+- `update-2025-12-01T13-57-48-411Z.log` → `rem-s/scripts/pages-update/logs/update-2025-12-01T13-57-48-411Z.log` (7.05 KB, modified: 2025-12-01T13:57:59, by: Dropbox User)
+- `update-2025-12-01T13-58-39-618Z.log` → `rem-s/scripts/pages-update/logs/update-2025-12-01T13-58-39-618Z.log` (7.31 KB, modified: 2025-12-01T13:58:50, by: Dropbox User)
+- `update-2025-12-01T13-59-15-047Z.log` → `rem-s/scripts/pages-update/logs/update-2025-12-01T13-59-15-047Z.log` (8.47 KB, modified: 2025-12-01T13:59:27, by: Dropbox User)
+- `update-2025-12-01T14-00-30-793Z.log` → `rem-s/scripts/pages-update/logs/update-2025-12-01T14-00-30-793Z.log` (8.46 KB, modified: 2025-12-01T14:00:42, by: Dropbox User)
+- `update-2025-12-01T14-01-14-328Z.log` → `rem-s/scripts/pages-update/logs/update-2025-12-01T14-01-14-328Z.log` (8.56 KB, modified: 2025-12-01T14:01:26, by: Dropbox User)
+- `update-2025-12-01T14-01-46-914Z.log` → `rem-s/scripts/pages-update/logs/update-2025-12-01T14-01-46-914Z.log` (8.56 KB, modified: 2025-12-01T14:02:00, by: Dropbox User)
+- `update-2025-12-01T14-07-42-852Z.log` → `rem-s/scripts/pages-update/logs/update-2025-12-01T14-07-42-852Z.log` (6.03 KB, modified: 2025-12-01T14:07:53, by: Dropbox User)
+- `update-2025-12-01T14-14-41-742Z.log` → `rem-s/scripts/pages-update/logs/update-2025-12-01T14-14-41-742Z.log` (5.76 KB, modified: 2025-12-01T14:14:52, by: Dropbox User)
+- `update-2025-12-01T14-18-18-873Z.log` → `rem-s/scripts/pages-update/logs/update-2025-12-01T14-18-18-873Z.log` (6.53 KB, modified: 2025-12-01T14:18:29, by: Dropbox User)
+- `update-2025-12-01T14-24-20-047Z.log` → `rem-s/scripts/pages-update/logs/update-2025-12-01T14-24-20-047Z.log` (5.19 KB, modified: 2025-12-01T14:24:21, by: Dropbox User)
+- `update-2025-12-01T14-24-22-812Z.log` → `rem-s/scripts/pages-update/logs/update-2025-12-01T14-24-22-812Z.log` (4.41 KB, modified: 2025-12-01T14:24:24, by: Dropbox User)
+- `update-2025-12-01T14-24-25-746Z.log` → `rem-s/scripts/pages-update/logs/update-2025-12-01T14-24-25-746Z.log` (4.42 KB, modified: 2025-12-01T14:24:27, by: Dropbox User)
+- `update-2025-12-01T14-24-28-487Z.log` → `rem-s/scripts/pages-update/logs/update-2025-12-01T14-24-28-487Z.log` (4.82 KB, modified: 2025-12-01T14:24:30, by: Dropbox User)
+- `update-2025-12-01T14-24-31-231Z.log` → `rem-s/scripts/pages-update/logs/update-2025-12-01T14-24-31-231Z.log` (4.83 KB, modified: 2025-12-01T14:24:32, by: Dropbox User)
+- `update-2025-12-01T14-24-33-965Z.log` → `rem-s/scripts/pages-update/logs/update-2025-12-01T14-24-33-965Z.log` (4.39 KB, modified: 2025-12-01T14:24:35, by: Dropbox User)
+- `update-2025-12-01T14-24-36-697Z.log` → `rem-s/scripts/pages-update/logs/update-2025-12-01T14-24-36-697Z.log` (4.38 KB, modified: 2025-12-01T14:24:38, by: Dropbox User)
+- `update-2025-12-01T14-24-39-434Z.log` → `rem-s/scripts/pages-update/logs/update-2025-12-01T14-24-39-434Z.log` (4.80 KB, modified: 2025-12-01T14:24:40, by: Dropbox User)
+- `update-2025-12-01T14-24-42-177Z.log` → `rem-s/scripts/pages-update/logs/update-2025-12-01T14-24-42-177Z.log` (5.22 KB, modified: 2025-12-01T14:24:43, by: Dropbox User)
+- `update-2025-12-01T14-24-44-912Z.log` → `rem-s/scripts/pages-update/logs/update-2025-12-01T14-24-44-912Z.log` (5.12 KB, modified: 2025-12-01T14:24:46, by: Dropbox User)
+- `update-2025-12-01T14-25-27-599Z.log` → `rem-s/scripts/pages-update/logs/update-2025-12-01T14-25-27-599Z.log` (7.20 KB, modified: 2025-12-01T14:25:39, by: Dropbox User)
+- `update-2025-12-01T14-25-40-396Z.log` → `rem-s/scripts/pages-update/logs/update-2025-12-01T14-25-40-396Z.log` (6.41 KB, modified: 2025-12-01T14:25:51, by: Dropbox User)
+- `update-2025-12-01T14-25-52-840Z.log` → `rem-s/scripts/pages-update/logs/update-2025-12-01T14-25-52-840Z.log` (6.26 KB, modified: 2025-12-01T14:26:03, by: Dropbox User)
+- `update-2025-12-01T14-26-04-539Z.log` → `rem-s/scripts/pages-update/logs/update-2025-12-01T14-26-04-539Z.log` (9.58 KB, modified: 2025-12-01T14:26:19, by: Dropbox User)
+- `update-2025-12-01T14-26-20-440Z.log` → `rem-s/scripts/pages-update/logs/update-2025-12-01T14-26-20-440Z.log` (8.54 KB, modified: 2025-12-01T14:26:34, by: Dropbox User)
+- `update-2025-12-01T14-26-35-496Z.log` → `rem-s/scripts/pages-update/logs/update-2025-12-01T14-26-35-496Z.log` (7.90 KB, modified: 2025-12-01T14:26:46, by: Dropbox User)
+- `update-2025-12-01T14-26-47-758Z.log` → `rem-s/scripts/pages-update/logs/update-2025-12-01T14-26-47-758Z.log` (7.88 KB, modified: 2025-12-01T14:27:00, by: Dropbox User)
+- `update-2025-12-01T14-27-01-588Z.log` → `rem-s/scripts/pages-update/logs/update-2025-12-01T14-27-01-588Z.log` (7.04 KB, modified: 2025-12-01T14:27:13, by: Dropbox User)
+- `update-2025-12-01T14-27-14-308Z.log` → `rem-s/scripts/pages-update/logs/update-2025-12-01T14-27-14-308Z.log` (8.70 KB, modified: 2025-12-01T14:27:26, by: Dropbox User)
+- `update-2025-12-01T14-27-27-282Z.log` → `rem-s/scripts/pages-update/logs/update-2025-12-01T14-27-27-282Z.log` (8.29 KB, modified: 2025-12-01T14:27:39, by: Dropbox User)
+- `axios.js.map` → `rem-s/scripts/collections-export/node_modules/axios/dist/axios.js.map` (246.45 KB, modified: 2025-12-02T07:28:59, by: Dropbox User)
+- `axios.min.js` → `rem-s/scripts/collections-export/node_modules/axios/dist/axios.min.js` (54.00 KB, modified: 2025-12-02T07:28:59, by: Dropbox User)
+- `axios.js` → `rem-s/scripts/collections-export/node_modules/axios/dist/axios.js` (147.26 KB, modified: 2025-12-02T07:28:59, by: Dropbox User)
+- `axios.min.js.map` → `rem-s/scripts/collections-export/node_modules/axios/dist/axios.min.js.map` (174.93 KB, modified: 2025-12-02T07:28:59, by: Dropbox User)
+- `axios.cjs` → `rem-s/scripts/collections-export/node_modules/axios/dist/browser/axios.cjs` (99.79 KB, modified: 2025-12-02T07:28:59, by: Dropbox User)
+- `axios.cjs.map` → `rem-s/scripts/collections-export/node_modules/axios/dist/browser/axios.cjs.map` (211.78 KB, modified: 2025-12-02T07:28:59, by: Dropbox User)
+- `axios.js` → `rem-s/scripts/collections-export/node_modules/axios/dist/esm/axios.js` (100.66 KB, modified: 2025-12-02T07:28:59, by: Dropbox User)
+- `axios.js.map` → `rem-s/scripts/collections-export/node_modules/axios/dist/esm/axios.js.map` (213.05 KB, modified: 2025-12-02T07:28:59, by: Dropbox User)
+- `axios.min.js` → `rem-s/scripts/collections-export/node_modules/axios/dist/esm/axios.min.js` (35.62 KB, modified: 2025-12-02T07:28:59, by: Dropbox User)
+- `axios.min.js.map` → `rem-s/scripts/collections-export/node_modules/axios/dist/esm/axios.min.js.map` (166.37 KB, modified: 2025-12-02T07:28:59, by: Dropbox User)
+- `axios.cjs` → `rem-s/scripts/collections-export/node_modules/axios/dist/node/axios.cjs` (138.25 KB, modified: 2025-12-02T07:28:59, by: Dropbox User)
+- `axios.cjs.map` → `rem-s/scripts/collections-export/node_modules/axios/dist/node/axios.cjs.map` (291.40 KB, modified: 2025-12-02T07:28:59, by: Dropbox User)
+- `README.md` → `rem-s/scripts/collections-export/node_modules/axios/lib/env/README.md` (131 bytes, modified: 2025-12-02T07:28:59, by: Dropbox User)
+- `data.js` → `rem-s/scripts/collections-export/node_modules/axios/lib/env/data.js` (32 bytes, modified: 2025-12-02T07:28:59, by: Dropbox User)
+- `FormData.js` → `rem-s/scripts/collections-export/node_modules/axios/lib/env/classes/FormData.js` (106 bytes, modified: 2025-12-02T07:28:59, by: Dropbox User)
+- `.env` → `rem-s/.env` (269 bytes, modified: 2025-12-02T09:38:31, by: Dropbox User)
+- `ДЛЯ_КОРИСТУВАЧІВ.md` → `rem-s/guides/collections/ДЛЯ_КОРИСТУВАЧІВ.md` (6.46 KB, modified: 2025-12-02T12:53:18, by: Dropbox User)
+
+
+### Actions
+
+**Total changes:** 1 files
+
+**Added (1 files):**
+- `RESERVED_VOCABULARY.md` (8.06 KB, modified: 2025-12-07T00:39:24, by: Dropbox User)
+
+
+### DAILIES
+
+**Total changes:** 6 files
+
+**Added (5 files):**
+- `TODO.md` → `Week3/20/Azanova Darʼya_Week_3/TODO.md` (1.57 KB, modified: 2025-11-19T18:27:13, by: Dropbox User)
+- `BUSINESSES_Prospect_Electrão_BUS-2025-018.json` → `IMPORTS/Week_3/2025-11-22_Sales_Import/archive_2025-11-22/Prospects/BUSINESSES_Prospect_Electrão_BUS-2025-018.json` (1.56 KB, modified: 2025-11-21T23:49:35, by: Dropbox User)
+- `BUSINESSES_Prospect_Markewärn_Studios_BUS-2025-021.json` → `IMPORTS/Week_3/2025-11-22_Sales_Import/archive_2025-11-22/Prospects/BUSINESSES_Prospect_Markewärn_Studios_BUS-2025-021.json` (4.26 KB, modified: 2025-11-21T23:49:35, by: Dropbox User)
+- `TST-461_Create_cross-reference_index_(tool→lesson→template).json` → `REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-461_Create_cross-reference_index_(tool→lesson→template).json` (1.09 KB, modified: 2025-11-26T11:23:24, by: Dropbox User)
+- `Azanova_Darʼya_Employee_Summary_Week4.md` → `REPORTS/Employee_Summaries_Week4/Azanova_Darʼya_Employee_Summary_Week4.md` (6.96 KB, modified: 2025-11-27T21:20:19, by: Dropbox User)
+
+**Modified (1 files):**
+- `Bykova_Anastasiia_Employee_Summary_Week4.md` → `REPORTS/Employee_Summaries_Week4/Bykova_Anastasiia_Employee_Summary_Week4.md` (6.32 KB, rev: 01645524..., modified: 2025-12-07T01:08:01, by: Dropbox User)
+
+
+### TALENTS
+
+**Total changes:** 18 files
+
+**Added (14 files):**
+- `corepack.js` → `Employees/Artemchuk Nikolay/Employees attendance/.node/lib/node_modules/corepack/dist/corepack.js` (81 bytes, modified: 2023-08-09T00:23:24, by: Dropbox User)
+- `npm.js` → `Employees/Artemchuk Nikolay/Employees attendance/.node/lib/node_modules/corepack/dist/npm.js` (93 bytes, modified: 2023-08-09T00:23:24, by: Dropbox User)
+- `npx.js` → `Employees/Artemchuk Nikolay/Employees attendance/.node/lib/node_modules/corepack/dist/npx.js` (93 bytes, modified: 2023-08-09T00:23:24, by: Dropbox User)
+- `pnpm.js` → `Employees/Artemchuk Nikolay/Employees attendance/.node/lib/node_modules/corepack/dist/pnpm.js` (94 bytes, modified: 2023-08-09T00:23:24, by: Dropbox User)
+- `pnpx.js` → `Employees/Artemchuk Nikolay/Employees attendance/.node/lib/node_modules/corepack/dist/pnpx.js` (94 bytes, modified: 2023-08-09T00:23:24, by: Dropbox User)
+- `yarn.js` → `Employees/Artemchuk Nikolay/Employees attendance/.node/lib/node_modules/corepack/dist/yarn.js` (94 bytes, modified: 2023-08-09T00:23:24, by: Dropbox User)
+- `yarnpkg.js` → `Employees/Artemchuk Nikolay/Employees attendance/.node/lib/node_modules/corepack/dist/yarnpkg.js` (97 bytes, modified: 2023-08-09T00:23:24, by: Dropbox User)
+- `corepack.cjs` → `Employees/Artemchuk Nikolay/Employees attendance/.node/lib/node_modules/corepack/dist/lib/corepack.cjs` (2263.85 KB, modified: 2023-11-22T08:06:28, by: Dropbox User)
+- `Azanova Darʼya.md` → `Employees/profiles/Resumes/Azanova Darʼya.md` (37 bytes, modified: 2025-11-24T14:04:53, by: Dropbox User)
+- `Azanova Darʼya.md` → `Employees/ORPHANED/Azanova Darʼya.md` (37 bytes, modified: 2025-11-25T10:17:39, by: Dropbox User)
+- `Profile Video Editor Azanova Darʼya.md` → `Employees/profiles/Archive/Available/Video/Profile Video Editor Azanova Darʼya.md` (1.42 KB, modified: 2025-11-25T14:53:35, by: Dropbox User)
+- `attendance_report_2025-12-05.json` → `Employees/Voice Log Discord/attendance_report_2025-12-05.json` (6.03 KB, modified: 2025-12-06T05:04:05, by: Dropbox User)
+- `final_audit_2025-12-05.json` → `Employees/Merged final report/final_audit_2025-12-05.json` (100.91 KB, modified: 2025-12-06T05:04:13, by: Dropbox User)
+- `crm_export_2025-12-05.json` → `Employees/crm_export_Attendance/crm_export_2025-12-05.json` (101.84 KB, modified: 2025-12-06T05:04:18, by: Dropbox User)
+
+**Modified (4 files):**
+- `COPY_SUMMARY.md` → `Employees/profiles/COPY_SUMMARY.md` (1.30 KB, rev: 01645524..., modified: 2025-12-07T01:08:00, by: Dropbox User)
+- `ORGANIZATION_SUMMARY.md` → `Employees/profiles/ORGANIZATION_SUMMARY.md` (2.04 KB, rev: 01645524..., modified: 2025-12-07T01:08:00, by: Dropbox User)
+- `STATUS_ORGANIZATION_COMPLETE.md` → `Employees/profiles/STATUS_ORGANIZATION_COMPLETE.md` (1.96 KB, rev: 01645524..., modified: 2025-12-07T01:08:00, by: Dropbox User)
+- `FINAL_ORGANIZATION.md` → `Employees/profiles/FINAL_ORGANIZATION.md` (2.90 KB, rev: 01645524..., modified: 2025-12-07T01:08:00, by: Dropbox User)
+
+
+### TASK_MANAGERS
+
+**Total changes:** 74 files
+
+**Added (26 files):**
+- `calculate_priority.cpython-313.pyc` → `RESEARCHES/01_VIDEO_QUEUE/scripts/__pycache__/calculate_priority.cpython-313.pyc` (6.88 KB, modified: 2025-11-23T23:34:07, by: Dropbox User)
+- `config.cpython-313.pyc` → `RESEARCHES/scripts/__pycache__/config.cpython-313.pyc` (3.80 KB, modified: 2025-11-24T00:49:06, by: Dropbox User)
+- `markdown_parser.cpython-313.pyc` → `RESEARCHES/scripts/__pycache__/markdown_parser.cpython-313.pyc` (24.72 KB, modified: 2025-11-24T01:16:32, by: Dropbox User)
+- `video_gap_analyzer.cpython-313.pyc` → `RESEARCHES/scripts/__pycache__/video_gap_analyzer.cpython-313.pyc` (30.36 KB, modified: 2025-11-24T01:16:32, by: Dropbox User)
+- `video_id_scanner.cpython-313.pyc` → `RESEARCHES/scripts/__pycache__/video_id_scanner.cpython-313.pyc` (17.41 KB, modified: 2025-11-24T01:16:32, by: Dropbox User)
+- `video_integration_reporter.cpython-313.pyc` → `RESEARCHES/scripts/__pycache__/video_integration_reporter.cpython-313.pyc` (20.35 KB, modified: 2025-11-24T01:16:32, by: Dropbox User)
+- `video_json_updater.cpython-313.pyc` → `RESEARCHES/scripts/__pycache__/video_json_updater.cpython-313.pyc` (24.04 KB, modified: 2025-11-24T01:16:32, by: Dropbox User)
+- `utils.cpython-313.pyc` → `RESEARCHES/scripts/__pycache__/utils.cpython-313.pyc` (15.44 KB, modified: 2025-11-24T01:17:05, by: Dropbox User)
+- `process.log` → `RESEARCHES/scripts/process.log` (51.20 KB, modified: 2025-11-24T01:17:05, by: Dropbox User)
+- `ANALYST_REVIEW_REQUEST.md` → `RESEARCHES/PLANS/ANALYST_REVIEW_REQUEST.md` (47.25 KB, modified: 2025-12-06T01:17:55, by: Dropbox User)
+- `APP_BUILDER_PROMPT.md` → `RESEARCHES/PROMPTS/APP_BUILDER_PROMPT.md` (21.43 KB, modified: 2025-12-05T21:19:37, by: Dropbox User)
+- `PAGE_01_CORE_CONCEPT.md` → `RESEARCHES/PROMPTS/PAGE_01_CORE_CONCEPT.md` (4.23 KB, modified: 2025-12-05T21:22:12, by: Dropbox User)
+- `PAGE_01_SYSTEM_OVERVIEW.md` → `RESEARCHES/PROMPTS/PAGE_01_SYSTEM_OVERVIEW.md` (10.10 KB, modified: 2025-12-05T21:54:42, by: Dropbox User)
+- `PAGE_02_SCREEN_TOPICS.md` → `RESEARCHES/PROMPTS/PAGE_02_SCREEN_TOPICS.md` (13.50 KB, modified: 2025-12-05T21:55:55, by: Dropbox User)
+- `PAGE_03_SCREEN_RESEARCH_PROMPT.md` → `RESEARCHES/PROMPTS/PAGE_03_SCREEN_RESEARCH_PROMPT.md` (15.90 KB, modified: 2025-12-05T22:03:09, by: Dropbox User)
+- `PAGE_04_SCREEN_QUEUE.md` → `RESEARCHES/PROMPTS/PAGE_04_SCREEN_QUEUE.md` (17.36 KB, modified: 2025-12-05T22:10:43, by: Dropbox User)
+- `PAGE_05_SCREEN_PROCESSING.md` → `RESEARCHES/PROMPTS/PAGE_05_SCREEN_PROCESSING.md` (16.74 KB, modified: 2025-12-05T22:12:16, by: Dropbox User)
+- `PAGE_06_SCREEN_LIBRARY.md` → `RESEARCHES/PROMPTS/PAGE_06_SCREEN_LIBRARY.md` (15.94 KB, modified: 2025-12-05T22:17:27, by: Dropbox User)
+- `PAGE_07_SCREEN_CHANNELS.md` → `RESEARCHES/PROMPTS/PAGE_07_SCREEN_CHANNELS.md` (11.24 KB, modified: 2025-12-05T22:18:43, by: Dropbox User)
+- `PAGE_08_SCREEN_VIDEO_DETAIL.md` → `RESEARCHES/PROMPTS/PAGE_08_SCREEN_VIDEO_DETAIL.md` (20.25 KB, modified: 2025-12-05T22:20:51, by: Dropbox User)
+- `PAGE_10_ADVANCED_FEATURES.md` → `RESEARCHES/PROMPTS/PAGE_10_ADVANCED_FEATURES.md` (17.90 KB, modified: 2025-12-05T22:33:12, by: Dropbox User)
+- `PAGE_11_DESIGN_SYSTEM.md` → `RESEARCHES/PROMPTS/PAGE_11_DESIGN_SYSTEM.md` (17.45 KB, modified: 2025-12-05T22:39:02, by: Dropbox User)
+- `PAGE_09_INITIAL_DATA_PROMPT.md` → `RESEARCHES/PROMPTS/PAGE_09_INITIAL_DATA_PROMPT.md` (17.96 KB, modified: 2025-12-05T22:42:06, by: Dropbox User)
+- `RESEARCH_SYSTEM_APP_BUILDER_PLAN.md` → `RESEARCHES/PLANS/RESEARCH_SYSTEM_APP_BUILDER_PLAN.md` (27.40 KB, modified: 2025-12-07T03:26:53, by: Dropbox User)
+- `notes.md` → `RESEARCHES/notes.md` (294 bytes, modified: 2025-12-07T03:27:42, by: Dropbox User)
+- `MIGRATION_ANALYSIS_ENTITIES_TO_ENTITIES_2.0.md` → `RESEARCHES/PLANS/MIGRATION_ANALYSIS_ENTITIES_TO_ENTITIES_2.0.md` (19.39 KB, modified: 2025-12-07T03:29:12, by: Dropbox User)
+
+**Modified (3 files):**
+- `Search_Queue_Master.csv` → `RESEARCHES/00_SEARCH_QUEUE/Search_Queue_Master.csv` (105 bytes, rev: 016453a1..., modified: 2025-11-24T00:40:48, by: Dropbox User)
+- `verify_manual_integration.py` → `RESEARCHES/scripts/verify_manual_integration.py` (21.23 KB, rev: 01645543..., modified: 2025-12-07T03:26:23, by: Dropbox User)
+- `DEVELOPMENT_PLAN_SUMMARY.md` → `RESEARCHES/documentation/DEVELOPMENT_PLAN_SUMMARY.md` (8.29 KB, rev: 01645544..., modified: 2025-12-07T03:29:24, by: Dropbox User)
+
+**Deleted (45 files):**
+- `RESEARCH_SYSTEM_APP_BUILDER_PLAN.md`
+- `PMT-083_GenSpark_Course_Creation.md`
+- `PMT-093_Design_AI_Video_Discovery.md`
+- `PAGE_02_SCREEN_TOPICS.md`
+- `PAGE_01_CORE_CONCEPT.md`
+- `APP_BUILDER_PROMPT.md`
+- `PMT-085_Photo_Editing_AI_Research.md`
+- `PMT-050_YouTube_Remote_Helpers.md`
+- `PMT-052_YouTube_Management_Documentation.md`
+- `PMT-049_YouTube_HR_Automation.md`
+- `VIDEO_RESEARCHES_Prompt_Examples.md`
+- `PMT-051_Department_Research_Integration.md`
+- `PMT-052_VSCode_AI_Extensions.md`
+- `PMT-052_YouTube_Management_Leadership_Workflows.md`
+- `PMT-099_VSCode_Tutorials_Research.md`
+- `README.md`
+- `README_MIGRATION.md`
+- `PMT-048_YouTube_AI_Tools_Daily.md`
+- `PAGE_01_SYSTEM_OVERVIEW.md`
+- `PMT-047_YouTube_AI_HR_Tutorials.md`
+- `PAGE_07_SCREEN_CHANNELS.md`
+- `PMT-052_YouTube_Management_Discovery.md`
+- `ANALYST_REVIEW_REQUEST.md`
+- `PAGE_05_SCREEN_PROCESSING.md`
+- `PMT-052_Design_AI_Tutorials_Perplexity_Prompt.md`
+- `PAGE_04_SCREEN_QUEUE.md`
+- `PAGE_10_ADVANCED_FEATURES.md`
+- `PMT-082_Advanced_Prompting_Course_Creation.md`
+- `PMT-098_OpenAI_Automation_Examples_Company_Adoption.md`
+- `PAGE_06_SCREEN_LIBRARY.md`
+- `AI_STANDALONE_APP_BUILDER_PROMPT.md`
+- `PMT-051_YouTube_AI_Design_Tools_Workflows.md`
+- `PAGE_09_INITIAL_DATA_PROMPT.md`
+- `Universal Research Prompt.md`
+- `PMT-097_YouTube_AI_Models_Deep_Research.md`
+- `PAGE_11_DESIGN_SYSTEM.md`
+- `PMT-051_YouTube_AI_Design_Tools_Workflows_CONFLICT_2025-11-21.md`
+- `STANDALONE_APP_BUILDER_PLAN.md`
+- `PAGE_03_SCREEN_RESEARCH_PROMPT.md`
+- `PMT-046_VSCode_Agent_HQ_Research.md`
+- `PMT-044_Sales_Department_Research.md`
+- `PMT-089_YouTube_AI_Tutorials_Research.md`
+- `MIGRATION_ANALYSIS_ENTITIES_TO_ENTITIES_2.0.md`
+- `PMT-045_SMM_Document_Processing.md`
+- `PAGE_08_SCREEN_VIDEO_DETAIL.md`
+
+
+## All Changes
+
+### Added Files
+
+- `DAILIES/Week3/20/Azanova Darʼya_Week_3/TODO.md`
+- `DAILIES/IMPORTS/Week_3/2025-11-22_Sales_Import/archive_2025-11-22/Prospects/BUSINESSES_Prospect_Electrão_BUS-2025-018.json`
+- `DAILIES/IMPORTS/Week_3/2025-11-22_Sales_Import/archive_2025-11-22/Prospects/BUSINESSES_Prospect_Markewärn_Studios_BUS-2025-021.json`
+- `TALENTS/Employees/Artemchuk Nikolay/Employees attendance/.node/lib/node_modules/corepack/dist/corepack.js`
+- `TALENTS/Employees/Artemchuk Nikolay/Employees attendance/.node/lib/node_modules/corepack/dist/npm.js`
+- `TALENTS/Employees/Artemchuk Nikolay/Employees attendance/.node/lib/node_modules/corepack/dist/npx.js`
+- `TALENTS/Employees/Artemchuk Nikolay/Employees attendance/.node/lib/node_modules/corepack/dist/pnpm.js`
+- `TALENTS/Employees/Artemchuk Nikolay/Employees attendance/.node/lib/node_modules/corepack/dist/pnpx.js`
+- `TALENTS/Employees/Artemchuk Nikolay/Employees attendance/.node/lib/node_modules/corepack/dist/yarn.js`
+- `TALENTS/Employees/Artemchuk Nikolay/Employees attendance/.node/lib/node_modules/corepack/dist/yarnpkg.js`
+- `TALENTS/Employees/Artemchuk Nikolay/Employees attendance/.node/lib/node_modules/corepack/dist/lib/corepack.cjs`
+- `TALENTS/Employees/profiles/Resumes/Azanova Darʼya.md`
+- `DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-461_Create_cross-reference_index_(tool→lesson→template).json`
+- `ASSETS/rem-s/scripts/pages-export/node_modules/axios/dist/axios.js`
+- `ASSETS/rem-s/scripts/pages-export/node_modules/axios/dist/axios.js.map`
+- `ASSETS/rem-s/scripts/pages-export/node_modules/axios/dist/axios.min.js`
+- `ASSETS/rem-s/scripts/pages-export/node_modules/axios/dist/axios.min.js.map`
+- `ASSETS/rem-s/scripts/pages-export/node_modules/axios/dist/browser/axios.cjs`
+- `ASSETS/rem-s/scripts/pages-export/node_modules/axios/dist/browser/axios.cjs.map`
+- `ASSETS/rem-s/scripts/pages-export/node_modules/axios/dist/esm/axios.js`
+- `ASSETS/rem-s/scripts/pages-export/node_modules/axios/dist/esm/axios.js.map`
+- `ASSETS/rem-s/scripts/pages-export/node_modules/axios/dist/esm/axios.min.js`
+- `ASSETS/rem-s/scripts/pages-export/node_modules/axios/dist/esm/axios.min.js.map`
+- `ASSETS/rem-s/scripts/pages-export/node_modules/axios/dist/node/axios.cjs`
+- `ASSETS/rem-s/scripts/pages-export/node_modules/axios/dist/node/axios.cjs.map`
+- `ASSETS/rem-s/scripts/pages-export/node_modules/axios/lib/env/README.md`
+- `ASSETS/rem-s/scripts/pages-export/node_modules/axios/lib/env/data.js`
+- `ASSETS/rem-s/scripts/pages-export/node_modules/axios/lib/env/classes/FormData.js`
+- `ASSETS/rem-s/scripts/pages-export/logs/update-2025-11-28T12-59-23-156Z.log`
+- `ASSETS/rem-s/scripts/pages-export/logs/update-2025-11-28T13-10-23-474Z.log`
+- `ASSETS/rem-s/scripts/pages-export/logs/update-2025-11-28T13-12-21-364Z.log`
+- `ASSETS/rem-s/scripts/pages-export/logs/update-2025-11-28T13-16-29-831Z.log`
+- `ASSETS/rem-s/scripts/pages-export/logs/update-2025-11-28T13-19-13-589Z.log`
+- `ASSETS/rem-s/scripts/pages-export/logs/update-2025-11-28T13-23-45-206Z.log`
+- `ASSETS/rem-s/scripts/pages-export/logs/update-2025-11-28T13-26-41-071Z.log`
+- `ASSETS/rem-s/scripts/pages-export/logs/update-2025-11-28T13-28-23-518Z.log`
+- `ASSETS/rem-s/scripts/pages-export/logs/update-2025-11-28T13-32-15-578Z.log`
+- `TALENTS/Employees/ORPHANED/Azanova Darʼya.md`
+- `ASSETS/rem-s/scripts/collections-update/node_modules/axios/dist/axios.js`
+- `ASSETS/rem-s/scripts/collections-update/node_modules/axios/dist/axios.js.map`
+- `ASSETS/rem-s/scripts/collections-update/node_modules/axios/dist/axios.min.js`
+- `ASSETS/rem-s/scripts/collections-update/node_modules/axios/dist/axios.min.js.map`
+- `ASSETS/rem-s/scripts/collections-update/node_modules/axios/dist/browser/axios.cjs`
+- `ASSETS/rem-s/scripts/collections-update/node_modules/axios/dist/browser/axios.cjs.map`
+- `ASSETS/rem-s/scripts/collections-update/node_modules/axios/dist/esm/axios.js`
+- `ASSETS/rem-s/scripts/collections-update/node_modules/axios/dist/esm/axios.js.map`
+- `ASSETS/rem-s/scripts/collections-update/node_modules/axios/dist/esm/axios.min.js`
+- `ASSETS/rem-s/scripts/collections-update/node_modules/axios/dist/esm/axios.min.js.map`
+- `ASSETS/rem-s/scripts/collections-update/node_modules/axios/dist/node/axios.cjs`
+- `ASSETS/rem-s/scripts/collections-update/node_modules/axios/dist/node/axios.cjs.map`
+- `ASSETS/rem-s/scripts/collections-update/node_modules/axios/lib/env/README.md`
+- `ASSETS/rem-s/scripts/collections-update/node_modules/axios/lib/env/data.js`
+- `ASSETS/rem-s/scripts/collections-update/node_modules/axios/lib/env/classes/FormData.js`
+- `TALENTS/Employees/profiles/Archive/Available/Video/Profile Video Editor Azanova Darʼya.md`
+- `ASSETS/rem-s/scripts/pages-export/logs/update-2025-11-28T15-15-33-047Z.log`
+- `ASSETS/rem-s/scripts/pages-export/logs/update-2025-11-28T15-29-16-930Z.log`
+- `DAILIES/REPORTS/Employee_Summaries_Week4/Azanova_Darʼya_Employee_Summary_Week4.md`
+- `ASSETS/rem-s/scripts/pages-update/node_modules/axios/dist/axios.js`
+- `ASSETS/rem-s/scripts/pages-update/node_modules/axios/dist/axios.js.map`
+- `ASSETS/rem-s/scripts/pages-update/node_modules/axios/dist/axios.min.js`
+- `ASSETS/rem-s/scripts/pages-update/node_modules/axios/dist/axios.min.js.map`
+- `ASSETS/rem-s/scripts/pages-update/node_modules/axios/dist/esm/axios.js`
+- `ASSETS/rem-s/scripts/pages-update/node_modules/axios/dist/esm/axios.js.map`
+- `ASSETS/rem-s/scripts/pages-update/node_modules/axios/dist/esm/axios.min.js`
+- `ASSETS/rem-s/scripts/pages-update/node_modules/axios/dist/esm/axios.min.js.map`
+- `ASSETS/rem-s/scripts/pages-update/node_modules/axios/dist/browser/axios.cjs`
+- `ASSETS/rem-s/scripts/pages-update/node_modules/axios/dist/browser/axios.cjs.map`
+- `ASSETS/rem-s/scripts/pages-update/node_modules/axios/dist/node/axios.cjs`
+- `ASSETS/rem-s/scripts/pages-update/node_modules/axios/dist/node/axios.cjs.map`
+- `ASSETS/rem-s/scripts/pages-update/node_modules/axios/lib/env/README.md`
+- `ASSETS/rem-s/scripts/pages-update/node_modules/axios/lib/env/data.js`
+- `ASSETS/rem-s/scripts/pages-update/logs/update-2025-12-01T07-24-04-893Z.log`
+- `ASSETS/rem-s/scripts/pages-update/node_modules/axios/lib/env/classes/FormData.js`
+- `ASSETS/rem-s/scripts/pages-update/logs/update-2025-12-01T07-25-41-062Z.log`
+- `ASSETS/rem-s/scripts/pages-update/logs/update-2025-12-01T07-31-26-613Z.log`
+- `ASSETS/rem-s/scripts/pages-update/logs/update-2025-12-01T07-31-33-814Z.log`
+- `ASSETS/rem-s/scripts/pages-update/logs/update-2025-12-01T07-49-05-564Z.log`
+- `ASSETS/rem-s/scripts/pages-update/logs/update-2025-12-01T07-49-18-275Z.log`
+- `ASSETS/rem-s/scripts/pages-update/logs/update-2025-12-01T08-06-02-928Z.log`
+- `ASSETS/rem-s/scripts/pages-update/logs/update-2025-12-01T08-09-29-101Z.log`
+- `ASSETS/rem-s/scripts/pages-update/logs/update-2025-12-01T08-16-30-999Z.log`
+- `ASSETS/rem-s/scripts/pages-update/logs/update-2025-12-01T08-21-24-693Z.log`
+- `ASSETS/rem-s/scripts/pages-update/logs/update-2025-12-01T08-22-03-997Z.log`
+- `ASSETS/rem-s/scripts/pages-update/logs/update-2025-12-01T08-25-11-021Z.log`
+- `ASSETS/rem-s/scripts/pages-update/logs/update-2025-12-01T08-29-33-172Z.log`
+- `ASSETS/rem-s/scripts/pages-update/logs/update-2025-12-01T08-32-47-771Z.log`
+- `ASSETS/rem-s/scripts/pages-update/logs/update-2025-12-01T08-38-03-908Z.log`
+- `ASSETS/rem-s/scripts/pages-update/logs/update-2025-12-01T08-38-58-068Z.log`
+- `ASSETS/rem-s/scripts/pages-update/logs/update-2025-12-01T08-44-18-006Z.log`
+- `ASSETS/rem-s/scripts/pages-update/logs/update-2025-12-01T08-45-44-540Z.log`
+- `ASSETS/rem-s/scripts/pages-update/logs/update-2025-12-01T08-52-37-665Z.log`
+- `ASSETS/rem-s/scripts/pages-update/logs/update-2025-12-01T09-03-13-204Z.log`
+- `ASSETS/rem-s/scripts/pages-update/logs/update-2025-12-01T09-11-41-315Z.log`
+- `ASSETS/rem-s/scripts/pages-update/logs/update-2025-12-01T09-17-50-488Z.log`
+- `ASSETS/rem-s/scripts/pages-update/logs/update-2025-12-01T09-23-27-885Z.log`
+- `ASSETS/rem-s/scripts/pages-update/logs/update-2025-12-01T09-26-59-244Z.log`
+- `ASSETS/rem-s/scripts/pages-update/logs/update-2025-12-01T09-34-16-681Z.log`
+- `ASSETS/rem-s/scripts/pages-update/logs/update-2025-12-01T09-35-07-075Z.log`
+- `ASSETS/rem-s/scripts/pages-update/logs/update-2025-12-01T09-43-13-891Z.log`
+- `ASSETS/rem-s/scripts/pages-update/logs/update-2025-12-01T09-40-59-679Z.log`
+- `ASSETS/rem-s/scripts/pages-update/logs/update-2025-12-01T09-48-50-112Z.log`
+- `ASSETS/rem-s/scripts/pages-update/logs/update-2025-12-01T09-50-02-340Z.log`
+- `ASSETS/rem-s/scripts/pages-update/logs/update-2025-12-01T10-03-04-838Z.log`
+- `ASSETS/rem-s/scripts/pages-update/logs/update-2025-12-01T10-04-57-520Z.log`
+- `ASSETS/rem-s/scripts/pages-update/logs/update-2025-12-01T10-11-02-712Z.log`
+- `ASSETS/rem-s/scripts/pages-update/logs/update-2025-12-01T10-13-14-512Z.log`
+- `ASSETS/rem-s/scripts/pages-update/logs/update-2025-12-01T10-14-51-298Z.log`
+- `ASSETS/rem-s/scripts/pages-update/logs/update-2025-12-01T10-51-48-357Z.log`
+- `ASSETS/rem-s/scripts/pages-update/logs/update-2025-12-01T10-52-55-676Z.log`
+- `ASSETS/rem-s/scripts/pages-update/logs/update-2025-12-01T10-53-47-870Z.log`
+- `ASSETS/rem-s/scripts/pages-update/logs/update-2025-12-01T12-31-34-270Z.log`
+- `ASSETS/rem-s/scripts/pages-update/logs/update-2025-12-01T12-33-10-580Z.log`
+- `ASSETS/rem-s/scripts/pages-update/logs/update-2025-12-01T12-34-51-947Z.log`
+- `ASSETS/rem-s/scripts/pages-update/logs/update-2025-12-01T12-36-43-841Z.log`
+- `ASSETS/rem-s/scripts/pages-update/logs/update-2025-12-01T12-50-38-969Z.log`
+- `ASSETS/rem-s/scripts/pages-update/logs/update-2025-12-01T12-55-12-525Z.log`
+- `ASSETS/rem-s/scripts/pages-update/logs/update-2025-12-01T12-57-42-571Z.log`
+- `ASSETS/rem-s/scripts/pages-update/logs/update-2025-12-01T12-58-36-479Z.log`
+- `ASSETS/rem-s/scripts/pages-update/logs/update-2025-12-01T13-06-32-484Z.log`
+- `ASSETS/rem-s/scripts/pages-update/logs/update-2025-12-01T13-08-14-412Z.log`
+- `ASSETS/rem-s/scripts/pages-update/logs/update-2025-12-01T13-18-33-633Z.log`
+- `ASSETS/rem-s/scripts/pages-update/logs/update-2025-12-01T13-22-44-466Z.log`
+- `ASSETS/rem-s/scripts/pages-update/logs/update-2025-12-01T13-23-25-618Z.log`
+- `ASSETS/rem-s/scripts/pages-update/logs/update-2025-12-01T13-24-09-235Z.log`
+- `ASSETS/rem-s/scripts/pages-update/logs/update-2025-12-01T13-27-07-189Z.log`
+- `ASSETS/rem-s/scripts/pages-update/logs/update-2025-12-01T13-57-48-411Z.log`
+- `ASSETS/rem-s/scripts/pages-update/logs/update-2025-12-01T13-58-39-618Z.log`
+- `ASSETS/rem-s/scripts/pages-update/logs/update-2025-12-01T13-59-15-047Z.log`
+- `ASSETS/rem-s/scripts/pages-update/logs/update-2025-12-01T14-00-30-793Z.log`
+- `ASSETS/rem-s/scripts/pages-update/logs/update-2025-12-01T14-01-14-328Z.log`
+- `ASSETS/rem-s/scripts/pages-update/logs/update-2025-12-01T14-01-46-914Z.log`
+- `ASSETS/rem-s/scripts/pages-update/logs/update-2025-12-01T14-07-42-852Z.log`
+- `ASSETS/rem-s/scripts/pages-update/logs/update-2025-12-01T14-14-41-742Z.log`
+- `ASSETS/rem-s/scripts/pages-update/logs/update-2025-12-01T14-18-18-873Z.log`
+- `ASSETS/rem-s/scripts/pages-update/logs/update-2025-12-01T14-24-20-047Z.log`
+- `ASSETS/rem-s/scripts/pages-update/logs/update-2025-12-01T14-24-22-812Z.log`
+- `ASSETS/rem-s/scripts/pages-update/logs/update-2025-12-01T14-24-25-746Z.log`
+- `ASSETS/rem-s/scripts/pages-update/logs/update-2025-12-01T14-24-28-487Z.log`
+- `ASSETS/rem-s/scripts/pages-update/logs/update-2025-12-01T14-24-31-231Z.log`
+- `ASSETS/rem-s/scripts/pages-update/logs/update-2025-12-01T14-24-33-965Z.log`
+- `ASSETS/rem-s/scripts/pages-update/logs/update-2025-12-01T14-24-36-697Z.log`
+- `ASSETS/rem-s/scripts/pages-update/logs/update-2025-12-01T14-24-39-434Z.log`
+- `ASSETS/rem-s/scripts/pages-update/logs/update-2025-12-01T14-24-42-177Z.log`
+- `ASSETS/rem-s/scripts/pages-update/logs/update-2025-12-01T14-24-44-912Z.log`
+- `ASSETS/rem-s/scripts/pages-update/logs/update-2025-12-01T14-25-27-599Z.log`
+- `ASSETS/rem-s/scripts/pages-update/logs/update-2025-12-01T14-25-40-396Z.log`
+- `ASSETS/rem-s/scripts/pages-update/logs/update-2025-12-01T14-25-52-840Z.log`
+- `ASSETS/rem-s/scripts/pages-update/logs/update-2025-12-01T14-26-04-539Z.log`
+- `ASSETS/rem-s/scripts/pages-update/logs/update-2025-12-01T14-26-20-440Z.log`
+- `ASSETS/rem-s/scripts/pages-update/logs/update-2025-12-01T14-26-35-496Z.log`
+- `ASSETS/rem-s/scripts/pages-update/logs/update-2025-12-01T14-26-47-758Z.log`
+- `ASSETS/rem-s/scripts/pages-update/logs/update-2025-12-01T14-27-01-588Z.log`
+- `ASSETS/rem-s/scripts/pages-update/logs/update-2025-12-01T14-27-14-308Z.log`
+- `ASSETS/rem-s/scripts/pages-update/logs/update-2025-12-01T14-27-27-282Z.log`
+- `ASSETS/rem-s/scripts/collections-export/node_modules/axios/dist/axios.js.map`
+- `ASSETS/rem-s/scripts/collections-export/node_modules/axios/dist/axios.min.js`
+- `ASSETS/rem-s/scripts/collections-export/node_modules/axios/dist/axios.js`
+- `ASSETS/rem-s/scripts/collections-export/node_modules/axios/dist/axios.min.js.map`
+- `ASSETS/rem-s/scripts/collections-export/node_modules/axios/dist/browser/axios.cjs`
+- `ASSETS/rem-s/scripts/collections-export/node_modules/axios/dist/browser/axios.cjs.map`
+- `ASSETS/rem-s/scripts/collections-export/node_modules/axios/dist/esm/axios.js`
+- `ASSETS/rem-s/scripts/collections-export/node_modules/axios/dist/esm/axios.js.map`
+- `ASSETS/rem-s/scripts/collections-export/node_modules/axios/dist/esm/axios.min.js`
+- `ASSETS/rem-s/scripts/collections-export/node_modules/axios/dist/esm/axios.min.js.map`
+- `ASSETS/rem-s/scripts/collections-export/node_modules/axios/dist/node/axios.cjs`
+- `ASSETS/rem-s/scripts/collections-export/node_modules/axios/dist/node/axios.cjs.map`
+- `ASSETS/rem-s/scripts/collections-export/node_modules/axios/lib/env/README.md`
+- `ASSETS/rem-s/scripts/collections-export/node_modules/axios/lib/env/data.js`
+- `ASSETS/rem-s/scripts/collections-export/node_modules/axios/lib/env/classes/FormData.js`
+- `ASSETS/rem-s/.env`
+- `ASSETS/rem-s/guides/collections/ДЛЯ_КОРИСТУВАЧІВ.md`
+- `TASK_MANAGERS/RESEARCHES/01_VIDEO_QUEUE/scripts/__pycache__/calculate_priority.cpython-313.pyc`
+- `TASK_MANAGERS/RESEARCHES/scripts/__pycache__/config.cpython-313.pyc`
+- `TASK_MANAGERS/RESEARCHES/scripts/__pycache__/markdown_parser.cpython-313.pyc`
+- `TASK_MANAGERS/RESEARCHES/scripts/__pycache__/video_gap_analyzer.cpython-313.pyc`
+- `TASK_MANAGERS/RESEARCHES/scripts/__pycache__/video_id_scanner.cpython-313.pyc`
+- `TASK_MANAGERS/RESEARCHES/scripts/__pycache__/video_integration_reporter.cpython-313.pyc`
+- `TASK_MANAGERS/RESEARCHES/scripts/__pycache__/video_json_updater.cpython-313.pyc`
+- `TASK_MANAGERS/RESEARCHES/scripts/__pycache__/utils.cpython-313.pyc`
+- `TASK_MANAGERS/RESEARCHES/scripts/process.log`
+- `TALENTS/Employees/Voice Log Discord/attendance_report_2025-12-05.json`
+- `TALENTS/Employees/Merged final report/final_audit_2025-12-05.json`
+- `TALENTS/Employees/crm_export_Attendance/crm_export_2025-12-05.json`
+- `Actions/RESERVED_VOCABULARY.md`
+- `TASK_MANAGERS/RESEARCHES/PLANS/ANALYST_REVIEW_REQUEST.md`
+- `TASK_MANAGERS/RESEARCHES/PROMPTS/APP_BUILDER_PROMPT.md`
+- `TASK_MANAGERS/RESEARCHES/PROMPTS/PAGE_01_CORE_CONCEPT.md`
+- `TASK_MANAGERS/RESEARCHES/PROMPTS/PAGE_01_SYSTEM_OVERVIEW.md`
+- `TASK_MANAGERS/RESEARCHES/PROMPTS/PAGE_02_SCREEN_TOPICS.md`
+- `TASK_MANAGERS/RESEARCHES/PROMPTS/PAGE_03_SCREEN_RESEARCH_PROMPT.md`
+- `TASK_MANAGERS/RESEARCHES/PROMPTS/PAGE_04_SCREEN_QUEUE.md`
+- `TASK_MANAGERS/RESEARCHES/PROMPTS/PAGE_05_SCREEN_PROCESSING.md`
+- `TASK_MANAGERS/RESEARCHES/PROMPTS/PAGE_06_SCREEN_LIBRARY.md`
+- `TASK_MANAGERS/RESEARCHES/PROMPTS/PAGE_07_SCREEN_CHANNELS.md`
+- `TASK_MANAGERS/RESEARCHES/PROMPTS/PAGE_08_SCREEN_VIDEO_DETAIL.md`
+- `TASK_MANAGERS/RESEARCHES/PROMPTS/PAGE_10_ADVANCED_FEATURES.md`
+- `TASK_MANAGERS/RESEARCHES/PROMPTS/PAGE_11_DESIGN_SYSTEM.md`
+- `TASK_MANAGERS/RESEARCHES/PROMPTS/PAGE_09_INITIAL_DATA_PROMPT.md`
+- `TASK_MANAGERS/RESEARCHES/PLANS/RESEARCH_SYSTEM_APP_BUILDER_PLAN.md`
+- `TASK_MANAGERS/RESEARCHES/notes.md`
+- `TASK_MANAGERS/RESEARCHES/PLANS/MIGRATION_ANALYSIS_ENTITIES_TO_ENTITIES_2.0.md`
+
+### Modified Files
+
+- `TASK_MANAGERS/RESEARCHES/00_SEARCH_QUEUE/Search_Queue_Master.csv`
+- `TALENTS/Employees/profiles/COPY_SUMMARY.md`
+- `TALENTS/Employees/profiles/ORGANIZATION_SUMMARY.md`
+- `TALENTS/Employees/profiles/STATUS_ORGANIZATION_COMPLETE.md`
+- `TALENTS/Employees/profiles/FINAL_ORGANIZATION.md`
+- `DAILIES/REPORTS/Employee_Summaries_Week4/Bykova_Anastasiia_Employee_Summary_Week4.md`
+- `TASK_MANAGERS/RESEARCHES/scripts/verify_manual_integration.py`
+- `TASK_MANAGERS/RESEARCHES/documentation/DEVELOPMENT_PLAN_SUMMARY.md`
+
+### Deleted Files
+
+- `TASK_MANAGERS/RESEARCHES 2/PLANS/RESEARCH_SYSTEM_APP_BUILDER_PLAN.md`
+- `TASK_MANAGERS/RESEARCHES/PROMPTS/PMT-083_GenSpark_Course_Creation.md`
+- `TASK_MANAGERS/RESEARCHES/PROMPTS/PMT-093_Design_AI_Video_Discovery.md`
+- `"ASSETS/rem-s/guides/collections/\320\224\320\233\320\257_\320\232\320\236\320\240\320\230\320\241\320\242\320\243\320\222\320\220\320\247\320\206\320\222.md"`
+- `TASK_MANAGERS/RESEARCHES 2/PROMPTS/PAGE_02_SCREEN_TOPICS.md`
+- `TASK_MANAGERS/RESEARCHES 2/PROMPTS/PAGE_01_CORE_CONCEPT.md`
+- `"TALENTS/Employees/profiles/Available/Video/Profile Video Editor Azanova Dar\312\274ya.md"`
+- `TASK_MANAGERS/RESEARCHES 2/PROMPTS/APP_BUILDER_PROMPT.md`
+- `TASK_MANAGERS/RESEARCHES/PROMPTS/PMT-085_Photo_Editing_AI_Research.md`
+- `TASK_MANAGERS/RESEARCHES/PROMPTS/PMT-050_YouTube_Remote_Helpers.md`
+- `"TALENTS/Employees/profiles/Resumes/Azanova Dar\312\274ya.md"`
+- `TASK_MANAGERS/RESEARCHES/PROMPTS/PMT-052_YouTube_Management_Documentation.md`
+- `TASK_MANAGERS/RESEARCHES/PROMPTS/PMT-049_YouTube_HR_Automation.md`
+- `TASK_MANAGERS/RESEARCHES/PROMPTS/VIDEO_RESEARCHES_Prompt_Examples.md`
+- `TASK_MANAGERS/RESEARCHES/PROMPTS/PMT-051_Department_Research_Integration.md`
+- `TASK_MANAGERS/RESEARCHES/PROMPTS/PMT-052_VSCode_AI_Extensions.md`
+- `TASK_MANAGERS/RESEARCHES/PROMPTS/PMT-052_YouTube_Management_Leadership_Workflows.md`
+- `TASK_MANAGERS/RESEARCHES/PROMPTS/PMT-099_VSCode_Tutorials_Research.md`
+- `TASK_MANAGERS/RESEARCHES/PROMPTS/README.md`
+- `TASK_MANAGERS/RESEARCHES/PROMPTS/README_MIGRATION.md`
+- `TASK_MANAGERS/RESEARCHES/PROMPTS/PMT-048_YouTube_AI_Tools_Daily.md`
+- `"TASK_MANAGERS/RESEARCHES/05_NEXT_DEVELOPMENT/standarts/test/02_TRANSCRIPTIONS/Video_024 (\320\241\320\277\321\226\321\200\320\275\320\260 \320\272\320\276\320\277\321\226\321\217 \320\272\320\276\321\200\320\270\321\201\321\202\321\203\320\262\320\260\321\207\320\260 HR RemotEmployees 2025-11-25).md"`
+- `TASK_MANAGERS/RESEARCHES 2/PROMPTS/PAGE_01_SYSTEM_OVERVIEW.md`
+- `TASK_MANAGERS/RESEARCHES/PROMPTS/PMT-047_YouTube_AI_HR_Tutorials.md`
+- `TASK_MANAGERS/RESEARCHES 2/PROMPTS/PAGE_07_SCREEN_CHANNELS.md`
+- `TASK_MANAGERS/RESEARCHES/PROMPTS/PMT-052_YouTube_Management_Discovery.md`
+- `TASK_MANAGERS/RESEARCHES 2/PLANS/ANALYST_REVIEW_REQUEST.md`
+- `TASK_MANAGERS/RESEARCHES 2/PROMPTS/PAGE_05_SCREEN_PROCESSING.md`
+- `TASK_MANAGERS/RESEARCHES/PROMPTS/PMT-052_Design_AI_Tutorials_Perplexity_Prompt.md`
+- `TASK_MANAGERS/RESEARCHES 2/PROMPTS/PAGE_04_SCREEN_QUEUE.md`
+- `"DAILIES/IMPORTS/Week_3/2025-11-22_Sales_Import/archive_2025-11-22/Prospects/BUSINESSES_Prospect_Markew\303\244rn_Studios_BUS-2025-021.json"`
+- `"TALENTS/Employees/ORPHANED/Azanova Dar\312\274ya.md"`
+- `TASK_MANAGERS/RESEARCHES 2/PROMPTS/PAGE_10_ADVANCED_FEATURES.md`
+- `TASK_MANAGERS/RESEARCHES/PROMPTS/PMT-082_Advanced_Prompting_Course_Creation.md`
+- `TASK_MANAGERS/RESEARCHES/PROMPTS/PMT-098_OpenAI_Automation_Examples_Company_Adoption.md`
+- `TASK_MANAGERS/RESEARCHES 2/PROMPTS/PAGE_06_SCREEN_LIBRARY.md`
+- `"DAILIES/REPORTS/Week_3/Week_3_Next_Step/Delegation/Taxonomy_Aligned_Templates/Task_Templates/TST-461_Create_cross-reference_index_(tool\342\206\222lesson\342\206\222template).json"`
+- `TASK_MANAGERS/RESEARCHES/PROMPTS/AI_STANDALONE_APP_BUILDER_PROMPT.md`
+- `TASK_MANAGERS/RESEARCHES/PROMPTS/PMT-051_YouTube_AI_Design_Tools_Workflows.md`
+- `TASK_MANAGERS/RESEARCHES 2/PROMPTS/PAGE_09_INITIAL_DATA_PROMPT.md`
+- `TASK_MANAGERS/RESEARCHES/PROMPTS/Universal Research Prompt.md`
+- `TASK_MANAGERS/RESEARCHES/PROMPTS/PMT-097_YouTube_AI_Models_Deep_Research.md`
+- `TASK_MANAGERS/RESEARCHES 2/PROMPTS/PAGE_11_DESIGN_SYSTEM.md`
+- `TASK_MANAGERS/RESEARCHES/PROMPTS/PMT-051_YouTube_AI_Design_Tools_Workflows_CONFLICT_2025-11-21.md`
+- `"TASK_MANAGERS/RESEARCHES/02_TRANSCRIPTIONS/Video_024 (\320\241\320\277\321\226\321\200\320\275\320\260 \320\272\320\276\320\277\321\226\321\217 \320\272\320\276\321\200\320\270\321\201\321\202\321\203\320\262\320\260\321\207\320\260 HR RemotEmployees 2025-11-25).md"`
+- `"DAILIES/REPORTS/Employee_Summaries_Week4/Azanova_Dar\312\274ya_Employee_Summary_Week4.md"`
+- `TASK_MANAGERS/RESEARCHES/PLANS/STANDALONE_APP_BUILDER_PLAN.md`
+- `TASK_MANAGERS/RESEARCHES 2/PROMPTS/PAGE_03_SCREEN_RESEARCH_PROMPT.md`
+- `TASK_MANAGERS/RESEARCHES/PROMPTS/PMT-046_VSCode_Agent_HQ_Research.md`
+- `"TALENTS/Employees/profiles/Archive/Available/Video/Profile Video Editor Azanova Dar\312\274ya.md"`
+- `TASK_MANAGERS/RESEARCHES/PROMPTS/PMT-044_Sales_Department_Research.md`
+- `TASK_MANAGERS/RESEARCHES/PROMPTS/PMT-089_YouTube_AI_Tutorials_Research.md`
+- `TASK_MANAGERS/RESEARCHES 2/PLANS/MIGRATION_ANALYSIS_ENTITIES_TO_ENTITIES_2.0.md`
+- `"DAILIES/Week3/20/Azanova Dar\312\274ya_Week_3/TODO.md"`
+- `"DAILIES/IMPORTS/Week_3/2025-11-22_Sales_Import/archive_2025-11-22/Prospects/BUSINESSES_Prospect_Electr\303\243o_BUS-2025-018.json"`
+- `TASK_MANAGERS/RESEARCHES/PROMPTS/PMT-045_SMM_Document_Processing.md`
+- `TASK_MANAGERS/RESEARCHES 2/PROMPTS/PAGE_08_SCREEN_VIDEO_DETAIL.md`
+
+
+---
+*Generated automatically by Dropbox to GitHub sync*
+
+
 # Changelog - 2025-12-06
 
 **Sync Date:** 2025-12-06 07:47:26 UTC
