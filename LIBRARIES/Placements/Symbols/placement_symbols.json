@@ -1,0 +1,218 @@
+{
+  "metadata": {
+    "library_name": "Placement Symbols",
+    "description": "Visual indicators and emoji symbols for placements",
+    "version": "1.0",
+    "created": "2025-12-08",
+    "total_symbols": 15
+  },
+  "primary_symbol": {
+    "symbol": "📍",
+    "name": "Placement Pin",
+    "usage": "Primary symbol for all placement references",
+    "format": "📍 Placement: {placement}",
+    "examples": [
+      "📍 Placement: ENTITIES/Libraries/Placements/",
+      "📍 Placement: System/Workflows/SESSION_LIFECYCLE.md"
+    ]
+  },
+  "category_symbols": {
+    "entity": {
+      "symbol": "📁",
+      "name": "Entity Folder",
+      "usage": "Entity placements within ENTITIES/",
+      "examples": [
+        "📁 ENTITIES/Video/",
+        "📁 ENTITIES/Libraries/"
+      ]
+    },
+    "system": {
+      "symbol": "⚙️",
+      "name": "System Gear",
+      "usage": "System component placements",
+      "examples": [
+        "⚙️ System/Workflows/",
+        "⚙️ System/Skills/"
+      ]
+    },
+    "task": {
+      "symbol": "📌",
+      "name": "Task Pin",
+      "usage": "Task file placements",
+      "examples": [
+        "📌 TASKS/TASK-001_AI_Voice_Agent.md",
+        "📌 TASKS/TASK-010_Internal_Companies_Ecosystem.md"
+      ]
+    },
+    "execution": {
+      "symbol": "🔧",
+      "name": "Execution Wrench",
+      "usage": "Execution file placements",
+      "examples": [
+        "🔧 AI_EXECUTIONS/EXC-001_Icon_Library.md",
+        "🔧 AI_EXECUTIONS/EXC-012_Cleanup_Day_07_Files.md"
+      ]
+    },
+    "report": {
+      "symbol": "📊",
+      "name": "Report Chart",
+      "usage": "Report and summary placements",
+      "examples": [
+        "📊 Reports/Daily/2025-12-08_session_1_report.md",
+        "📊 Week_01/07/output/07_wspr_FINAL_SUMMARY.md"
+      ]
+    },
+    "input": {
+      "symbol": "💬",
+      "name": "Input Speech Bubble",
+      "usage": "User input and clarification placements",
+      "examples": [
+        "💬 USER_INPUTS/2025-12-08_dictation.md",
+        "💬 CLARIFICATIONS/README.md"
+      ]
+    },
+    "day": {
+      "symbol": "📆",
+      "name": "Day Calendar",
+      "usage": "Day folder placements",
+      "examples": [
+        "📆 Week_01/07/",
+        "📆 Week_01/08/"
+      ]
+    },
+    "library": {
+      "symbol": "📚",
+      "name": "Library Books",
+      "usage": "Library entity placements",
+      "examples": [
+        "📚 ENTITIES/Libraries/Placements/",
+        "📚 ENTITIES/Libraries/Responsibilities/"
+      ]
+    },
+    "automation": {
+      "symbol": "🤖",
+      "name": "Automation Robot",
+      "usage": "Automation and agent placements",
+      "examples": [
+        "🤖 automation-agent/",
+        "🤖 System/Agents/"
+      ]
+    }
+  },
+  "file_type_symbols": {
+    "folder": {
+      "symbol": "📂",
+      "name": "Open Folder",
+      "usage": "Generic folder placement"
+    },
+    "document": {
+      "symbol": "📄",
+      "name": "Document",
+      "usage": "Generic document file"
+    },
+    "readme": {
+      "symbol": "📋",
+      "name": "Clipboard/README",
+      "usage": "README.md files (entrance points)"
+    },
+    "index": {
+      "symbol": "🗂️",
+      "name": "Index Card Box",
+      "usage": "INDEX.md files"
+    },
+    "data": {
+      "symbol": "💾",
+      "name": "Data Disk",
+      "usage": "JSON, CSV, data files"
+    },
+    "script": {
+      "symbol": "🐍",
+      "name": "Python Script",
+      "usage": "Python and script files"
+    }
+  },
+  "special_symbols": {
+    "root": {
+      "symbol": "🌐",
+      "name": "Globe/Root",
+      "usage": "Root level placements"
+    },
+    "archive": {
+      "symbol": "📦",
+      "name": "Archive Box",
+      "usage": "Archived placements"
+    },
+    "temp": {
+      "symbol": "⏳",
+      "name": "Temporary Hourglass",
+      "usage": "Temporary placements"
+    },
+    "link": {
+      "symbol": "🔗",
+      "name": "Link Chain",
+      "usage": "Linked or referenced placements"
+    },
+    "star": {
+      "symbol": "⭐",
+      "name": "Star/Important",
+      "usage": "Important or featured placements"
+    }
+  },
+  "usage_in_documentation": {
+    "placement_reference": {
+      "format": "📍 Placement: {placement}",
+      "example": "📍 Placement: ENTITIES/Libraries/Placements/README.md"
+    },
+    "with_category": {
+      "format": "{category_symbol} Placement: {placement}",
+      "examples": [
+        "⚙️ Placement: System/Workflows/SESSION_LIFECYCLE.md",
+        "📁 Placement: ENTITIES/Video/",
+        "📌 Placement: TASKS/TASK-001_AI_Voice_Agent.md"
+      ]
+    },
+    "metadata_section": {
+      "format": "## Placement Metadata\n\n📍 **Current Placement:** {current}\n📍 **Parent Placement:** {parent}\n📍 **Related Placements:** {related}",
+      "example": "## Placement Metadata\n\n📍 **Current Placement:** ENTITIES/Libraries/Placements/Symbols/placement_symbols.json\n📍 **Parent Placement:** ENTITIES/Libraries/Placements/Symbols/\n📍 **Related Placements:** Core/placement_master.json, Integration/placement_mapping.json"
+    },
+    "inline_reference": {
+      "format": "See 📍{placement} for details",
+      "example": "See 📍System/Workflows/SESSION_LIFECYCLE.md for workflow details"
+    }
+  },
+  "symbol_combinations": {
+    "important_system": "⭐⚙️",
+    "important_entity": "⭐📁",
+    "archived_task": "📦📌",
+    "temporary_report": "⏳📊",
+    "linked_placement": "🔗📍"
+  },
+  "integration": {
+    "with_terminology_standards": {
+      "file": "System/Libraries/TERMINOLOGY_STANDARDS.md",
+      "section": "## Symbols Reference",
+      "all_symbols_defined": true
+    },
+    "with_reserved_words": {
+      "word": "PLACEMENT",
+      "symbol": "📍",
+      "relationship": "PLACEMENT reserved word uses 📍 symbol"
+    },
+    "with_automation_agent": {
+      "detection": "automation-agent can suggest symbols based on placement type",
+      "module": "modules/symbol_detector.py (future)"
+    }
+  },
+  "visual_hierarchy": {
+    "precedence_order": [
+      "📍 (Primary placement symbol - always used)",
+      "{category_symbol} (Secondary - adds context)",
+      "{file_type_symbol} (Tertiary - file-specific)"
+    ],
+    "examples": [
+      "📍 System/Workflows/ (just primary)",
+      "⚙️ System/Workflows/ (category context)",
+      "📍⚙️📋 System/Workflows/README.md (full hierarchy: placement + system + readme)"
+    ]
+  }
+}

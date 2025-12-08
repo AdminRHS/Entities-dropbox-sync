@@ -1,0 +1,285 @@
+{
+  "metadata": {
+    "integration_type": "Cross References",
+    "description": "Links between placements and other system components",
+    "version": "1.0",
+    "created": "2025-12-08"
+  },
+  "placement_to_system_id": {
+    "System/Principles/": "SYS.30",
+    "System/Agents/": "SYS.40",
+    "System/Verification/": "SYS.50",
+    "System/Workflows/": "SYS.60",
+    "System/Skills/": "SYS.70",
+    "System/Integration/": "SYS.80"
+  },
+  "placement_to_entity_code": {
+    "ENTITIES/Libraries/": "LBS",
+    "ENTITIES/Actions/": "ACT",
+    "ENTITIES/Similar/": "SIM",
+    "ENTITIES/Scraping/": "SCR",
+    "ENTITIES/Video/": "VID",
+    "ENTITIES/HR/": "HR",
+    "ENTITIES/Executives/": "EXC",
+    "ENTITIES/Mediateka/": "MED"
+  },
+  "placement_to_reserved_word": {
+    "TASKS/": "CREATE",
+    "AI_EXECUTIONS/": "EXECUTE",
+    "System/Workflows/": "PROCESS",
+    "Reports/": "REVIEW",
+    "ENTITIES/Libraries/": "BUILD",
+    "System/Verification/": "MARK",
+    "System/Integration/": "SHARE",
+    "System/Principles/": "TEACH",
+    "ENTITIES/": "RESEARCH",
+    "automation-agent/": "UPGRADE"
+  },
+  "placement_hierarchies": {
+    "system_hierarchy": {
+      "root": "System/",
+      "level_1": [
+        "System/Principles/",
+        "System/Agents/",
+        "System/Verification/",
+        "System/Workflows/",
+        "System/Skills/",
+        "System/Integration/",
+        "System/Libraries/",
+        "System/Vocabulary/",
+        "System/IDs/"
+      ],
+      "level_2_examples": [
+        "System/Workflows/SESSION_LIFECYCLE.md",
+        "System/Workflows/CHECKLIST_SESSION_OPEN.md",
+        "System/Libraries/TERMINOLOGY_STANDARDS.md"
+      ]
+    },
+    "entities_hierarchy": {
+      "root": "ENTITIES/",
+      "level_1": [
+        "ENTITIES/Libraries/",
+        "ENTITIES/Actions/",
+        "ENTITIES/Similar/",
+        "ENTITIES/Scraping/",
+        "ENTITIES/Video/",
+        "ENTITIES/HR/",
+        "ENTITIES/Executives/",
+        "ENTITIES/PROMPTS/"
+      ],
+      "level_2_libraries": [
+        "ENTITIES/Libraries/Placements/",
+        "ENTITIES/Libraries/Responsibilities/"
+      ],
+      "level_3_library_structure": [
+        "ENTITIES/Libraries/{library}/Core/",
+        "ENTITIES/Libraries/{library}/By_Type/",
+        "ENTITIES/Libraries/{library}/Integration/",
+        "ENTITIES/Libraries/{library}/Symbols/",
+        "ENTITIES/Libraries/{library}/Templates/"
+      ]
+    },
+    "work_hierarchy": {
+      "tracking": [
+        "TASKS/",
+        "AI_EXECUTIONS/",
+        "CLARIFICATIONS/",
+        "USER_INPUTS/"
+      ],
+      "reporting": [
+        "Reports/Daily/",
+        "Reports/Weekly/",
+        "Execution/chat_log.md",
+        "SESSION_HANDOFF.md"
+      ],
+      "daily_work": [
+        "Week_01/{day}/",
+        "Week_01/{day}/output/",
+        "Week_01/{day}/guides/"
+      ]
+    }
+  },
+  "dependency_graph": {
+    "session_handoff_dependencies": {
+      "placement": "SESSION_HANDOFF.md",
+      "reads_from": [
+        "TASKS/",
+        "AI_EXECUTIONS/",
+        "CLARIFICATIONS/README.md",
+        "Reports/Daily/",
+        "Execution/chat_log.md"
+      ],
+      "used_by": [
+        "Next session (Phase 1: Open)"
+      ]
+    },
+    "task_dependencies": {
+      "placement": "TASKS/TASK-###_{Name}.md",
+      "reads_from": [
+        "ENTITIES/ (entity data)",
+        "System/ (system resources)",
+        "CLARIFICATIONS/README.md (questions)"
+      ],
+      "writes_to": [
+        "Week_01/{day}/output/ (task outputs)",
+        "Reports/Daily/ (progress reports)"
+      ],
+      "blocks": [
+        "CLARIFICATIONS/README.md (pending questions block task)"
+      ]
+    },
+    "execution_dependencies": {
+      "placement": "AI_EXECUTIONS/EXC-###_{Name}.md",
+      "reads_from": [
+        "TASKS/ (parent task context)",
+        "ENTITIES/ (entity data)",
+        "System/ (system specs)"
+      ],
+      "writes_to": [
+        "Varied outputs based on execution type"
+      ]
+    },
+    "clarifications_dependencies": {
+      "placement": "CLARIFICATIONS/README.md",
+      "reads_from": [
+        "TASKS/ (task requirements)"
+      ],
+      "used_by": [
+        "TASKS/ (blocks until answered)",
+        "USER_INPUTS/ (user provides answers)",
+        "SESSION_HANDOFF.md (tracks pending)"
+      ]
+    }
+  },
+  "file_relationships": {
+    "entrance_points": [
+      {
+        "placement": "Week_01/{day}/README.md",
+        "purpose": "Day entrance point",
+        "references": [
+          "{day}/output/INDEX.md",
+          "{day}/output/{day}_wspr_FINAL_SUMMARY.md",
+          "{day}/output/SESSION_EXECUTION_SUMMARY.md",
+          "{day}/guides/HOW_TO_NAVIGATE.md"
+        ]
+      },
+      {
+        "placement": "SESSION_HANDOFF.md",
+        "purpose": "Session entrance point",
+        "references": [
+          "TASKS/",
+          "AI_EXECUTIONS/",
+          "CLARIFICATIONS/README.md",
+          "Execution/chat_log.md"
+        ]
+      },
+      {
+        "placement": "ENTITIES/Libraries/{library}/README.md",
+        "purpose": "Library entrance point",
+        "references": [
+          "Core/",
+          "By_Type/",
+          "Integration/",
+          "Symbols/",
+          "Templates/"
+        ]
+      }
+    ],
+    "index_files": [
+      {
+        "placement": "Week_01/{day}/output/INDEX.md",
+        "purpose": "Complete file listing for day",
+        "lists_placements_in": "Week_01/{day}/"
+      }
+    ],
+    "summary_files": [
+      {
+        "placement": "Week_01/{day}/output/{day}_wspr_FINAL_SUMMARY.md",
+        "purpose": "Day summary",
+        "references_placements": "All significant placements from that day"
+      }
+    ]
+  },
+  "symbol_associations": {
+    "placements_by_symbol": {
+      "📍": "General placement reference",
+      "📁": "Entity folder placement",
+      "⚙️": "System component placement",
+      "📌": "Task placement",
+      "🔧": "Execution placement",
+      "📊": "Report placement",
+      "💬": "Input/clarification placement",
+      "📆": "Day folder placement",
+      "📚": "Library placement",
+      "🤖": "Agent/automation placement"
+    }
+  },
+  "pattern_to_concrete_mappings": {
+    "Week_01/{day}/output/": [
+      "Week_01/06/output/",
+      "Week_01/07/output/",
+      "Week_01/08/output/"
+    ],
+    "ENTITIES/{entity}/README.md": [
+      "ENTITIES/Libraries/README.md",
+      "ENTITIES/Video/README.md",
+      "ENTITIES/HR/README.md",
+      "ENTITIES/Executives/README.md"
+    ],
+    "TASKS/TASK-###_{Name}.md": [
+      "TASKS/TASK-001_AI_Voice_Agent.md",
+      "TASKS/TASK-002_Media_Library.md",
+      "TASKS/TASK-010_Internal_Companies_Ecosystem.md"
+    ],
+    "Reports/Daily/YYYY-MM-DD_{description}.md": [
+      "Reports/Daily/2025-12-08_session_1_report.md",
+      "Reports/Daily/2025-12-08_systems_created_summary.md"
+    ]
+  },
+  "absolute_to_relative_conversions": {
+    "examples": [
+      {
+        "absolute": "C:\\Users\\Dell\\Dropbox\\ENTITIES\\Libraries\\",
+        "relative_from_root": "ENTITIES/Libraries/",
+        "relative_from_system": "../ENTITIES/Libraries/"
+      },
+      {
+        "absolute": "C:\\Users\\Dell\\Dropbox\\System\\Workflows\\",
+        "relative_from_root": "System/Workflows/",
+        "relative_from_entities": "../System/Workflows/"
+      }
+    ],
+    "conversion_rules": {
+      "root_is": "C:\\Users\\Dell\\Dropbox\\",
+      "separator": "/ (forward slash in relative paths)",
+      "parent_reference": "../ (goes up one level)"
+    }
+  },
+  "integration_files_that_reference_placements": {
+    "System/Workflows/SESSION_LIFECYCLE.md": {
+      "references": [
+        "SESSION_HANDOFF.md",
+        "Execution/chat_log.md",
+        "Reports/Daily/",
+        "USER_INPUTS/",
+        "CLARIFICATIONS/README.md"
+      ]
+    },
+    "System/Libraries/TERMINOLOGY_STANDARDS.md": {
+      "defines": "PLACEMENT terminology standard",
+      "references": [
+        "ENTITIES/Libraries/Placements/",
+        "System/Vocabulary/reserved_words.md"
+      ]
+    },
+    "ENTITIES/PROMPTS/Library_Builders/PROMPT_Build_Placements_Library.md": {
+      "creates": [
+        "ENTITIES/Libraries/Placements/Core/",
+        "ENTITIES/Libraries/Placements/By_Type/",
+        "ENTITIES/Libraries/Placements/Integration/",
+        "ENTITIES/Libraries/Placements/Symbols/",
+        "ENTITIES/Libraries/Placements/Templates/"
+      ]
+    }
+  }
+}

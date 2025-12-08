@@ -1,0 +1,234 @@
+{
+  "metadata": {
+    "category": "User Input & Clarification Placements",
+    "description": "Placements for user inputs, clarifications, and Q&A tracking",
+    "parent_placements": ["USER_INPUTS/", "CLARIFICATIONS/"],
+    "total_placements": 6,
+    "symbol": "💬"
+  },
+  "input_placements": [
+    {
+      "id": "PLM-021",
+      "name": "CLARIFICATIONS Root",
+      "placement": "CLARIFICATIONS/",
+      "description": "Q&A tracking system",
+      "type": "folder",
+      "structure": {
+        "README.md": "Master Q&A tracker",
+        "Q###/": "Individual question set folders"
+      },
+      "current_stats": {
+        "total_questions": 16,
+        "question_sets": 4,
+        "answered": 3,
+        "pending": 13
+      }
+    },
+    {
+      "id": "PLM-022",
+      "name": "USER_INPUTS Root",
+      "placement": "USER_INPUTS/",
+      "description": "User input and reply system",
+      "type": "folder",
+      "file_types": [
+        "YYYY-MM-DD_dictation.md",
+        "YYYY-MM-DD_clarifications.md",
+        "YYYY-MM-DD_requests.md"
+      ],
+      "purpose": "Capture user dictations, replies, and requests"
+    },
+    {
+      "id": "PLM-053",
+      "name": "Clarifications README",
+      "placement": "CLARIFICATIONS/README.md",
+      "description": "Master Q&A tracking document",
+      "type": "file",
+      "sections": [
+        "Question Sets Overview",
+        "Pending Questions",
+        "Answered Questions",
+        "Blocked Tasks",
+        "How to Answer"
+      ],
+      "importance": "critical",
+      "updated": "When questions added or answered"
+    },
+    {
+      "id": "PLM-054",
+      "name": "User Input Dictation",
+      "placement": "USER_INPUTS/YYYY-MM-DD_dictation.md",
+      "description": "Raw user voice input",
+      "type": "pattern",
+      "format": "Timestamped dictation entries",
+      "examples": [
+        "USER_INPUTS/2025-12-08_dictation.md",
+        "USER_INPUTS/2025-12-09_dictation.md"
+      ],
+      "usage": "Capture raw whisper dictation for processing"
+    },
+    {
+      "id": "PLM-055",
+      "name": "User Input Clarifications",
+      "placement": "USER_INPUTS/YYYY-MM-DD_clarifications.md",
+      "description": "User answers to clarification questions",
+      "type": "pattern",
+      "format": "Q###-X: Answer format",
+      "examples": [
+        "USER_INPUTS/2025-12-08_clarifications.md"
+      ],
+      "usage": "User provides answers to pending questions"
+    },
+    {
+      "id": "PLM-056",
+      "name": "User Input Requests",
+      "placement": "USER_INPUTS/YYYY-MM-DD_requests.md",
+      "description": "User ad-hoc requests and notes",
+      "type": "pattern",
+      "format": "Timestamped requests",
+      "examples": [
+        "USER_INPUTS/2025-12-08_requests.md"
+      ],
+      "usage": "User adds notes or requests outside main chat"
+    }
+  ],
+  "current_question_sets": {
+    "Q004": {
+      "task": "TASK-001 (AI Voice Agent)",
+      "questions": 3,
+      "status": "all pending",
+      "blocking": "TASK-001 implementation",
+      "questions_list": [
+        "Q004-A: Interface type for AI voice agent?",
+        "Q004-B: Primary use case?",
+        "Q004-C: Integration requirements?"
+      ]
+    },
+    "Q005": {
+      "task": "TASK-002 (Media Library)",
+      "questions": 3,
+      "status": "all pending",
+      "blocking": "TASK-002 implementation",
+      "questions_list": [
+        "Q005-A: Media types to include?",
+        "Q005-B: Organization structure?",
+        "Q005-C: Tagging system requirements?"
+      ]
+    },
+    "Q007": {
+      "task": "TASK-002 (Brand Identity & Communication)",
+      "questions": 5,
+      "status": "3 answered, 2 pending",
+      "answered": [
+        "Q007-A: Brand name → Regeneration",
+        "Q007-B: Lead manager title → Lead Regeneration Manager",
+        "Q007-C: Whisper handling → Track as potential feature"
+      ],
+      "pending": [
+        "Q007-D: Brand guidelines location?",
+        "Q007-E: Communication templates needed?"
+      ]
+    },
+    "Q010": {
+      "task": "TASK-010 (Internal Companies Ecosystem)",
+      "questions": 5,
+      "status": "all pending",
+      "blocking": "ENTIRE TASK-010 (CRITICAL)",
+      "critical_question": "Q010-A: Which companies exist?",
+      "questions_list": [
+        "Q010-A: Complete list of internal companies? (CRITICAL - BLOCKS EVERYTHING)",
+        "Q010-B: Company roles and relationships?",
+        "Q010-C: Shared vs company-specific assets?",
+        "Q010-D: Department structures per company?",
+        "Q010-E: Cross-company workflows?"
+      ]
+    }
+  },
+  "user_reply_methods": {
+    "method_1": {
+      "name": "Edit Task Files Directly",
+      "description": "Open task file, add answers under [USER NOTE]",
+      "placement": "TASKS/TASK-###_{Name}.md",
+      "example": "Add answer under ### Clarifications Needed section",
+      "reaction_time": "30 seconds (when SKL.04 implemented)"
+    },
+    "method_2": {
+      "name": "Create Clarifications File",
+      "description": "Create dated clarifications file with answers",
+      "placement": "USER_INPUTS/YYYY-MM-DD_clarifications.md",
+      "format": "Q###-X: [Answer]",
+      "reaction_time": "30 seconds (when SKL.04 implemented)"
+    },
+    "method_3": {
+      "name": "Add to CLARIFICATIONS README",
+      "description": "Edit CLARIFICATIONS/README.md directly",
+      "placement": "CLARIFICATIONS/README.md",
+      "format": "Update question status and add answer",
+      "reaction_time": "30 seconds (when SKL.04 implemented)"
+    }
+  },
+  "file_monitoring": {
+    "skill": "SKL.04_File_Monitor_Notification",
+    "status": "specified, not implemented",
+    "implementation": {
+      "phase_1": "EXC-009 (Build file watcher)",
+      "phase_2": "EXC-010 (Build notification processor)",
+      "phase_3": "EXC-011 (Integration & testing)"
+    },
+    "target_reaction_time": "30 seconds",
+    "watched_placements": [
+      "USER_INPUTS/*.md",
+      "CLARIFICATIONS/README.md",
+      "TASKS/TASK-*.md (for [USER NOTE] tags)"
+    ]
+  },
+  "naming_conventions": {
+    "question_ids": "Q###-X (set number + letter)",
+    "date_format": "YYYY-MM-DD (ISO 8601)",
+    "file_suffixes": "_dictation, _clarifications, _requests",
+    "examples": {
+      "correct": [
+        "USER_INPUTS/2025-12-08_dictation.md",
+        "USER_INPUTS/2025-12-08_clarifications.md",
+        "Q004-A",
+        "Q010-E"
+      ],
+      "incorrect": [
+        "USER_INPUTS/2025-12-8_dictation.md (missing zero)",
+        "USER_INPUTS/12-08-2025_dictation.md (wrong date format)",
+        "Q4-A (missing zeros)",
+        "Q004A (missing dash)"
+      ]
+    }
+  },
+  "workflow": {
+    "question_creation": {
+      "step_1": "AI detects need for clarification during task analysis",
+      "step_2": "Create question set Q###",
+      "step_3": "Add questions to CLARIFICATIONS/README.md",
+      "step_4": "Mark task as blocked",
+      "step_5": "Add to SESSION_HANDOFF.md pending clarifications"
+    },
+    "answer_processing": {
+      "step_1": "User provides answers (via any of 3 methods)",
+      "step_2": "File monitor detects change (SKL.04)",
+      "step_3": "AI processes within 30 seconds",
+      "step_4": "Update CLARIFICATIONS/README.md status",
+      "step_5": "Unblock task if all questions answered",
+      "step_6": "Continue task implementation"
+    }
+  },
+  "integration": {
+    "with_tasks": "Questions block task progress until answered",
+    "with_session_handoff": "Pending clarifications listed as priorities",
+    "with_file_monitor": "SKL.04 watches for user replies",
+    "with_reports": "Clarification status tracked in session reports"
+  },
+  "usage": {
+    "symbol": "💬",
+    "reserved_words": {
+      "REVIEW": "Check clarifications status",
+      "MARK": "Flag questions as answered",
+      "PROCESS": "Process user inputs"
+    }
+  }
+}

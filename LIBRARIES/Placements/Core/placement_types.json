@@ -1,0 +1,252 @@
+{
+  "metadata": {
+    "library_name": "Placement Types",
+    "version": "1.0",
+    "created": "2025-12-08",
+    "description": "Definitions of all placement types in the system",
+    "total_types": 8
+  },
+  "placement_types": [
+    {
+      "type": "absolute",
+      "name": "Absolute Placement",
+      "description": "Full system path from root drive",
+      "format": "Drive:\\Path\\To\\File",
+      "examples": [
+        "C:\\Users\\Dell\\Dropbox\\",
+        "C:\\Users\\Dell\\Dropbox\\ENTITIES\\Libraries\\",
+        "D:\\Backup\\Archive\\"
+      ],
+      "usage": "Use when referencing files outside current working directory or when absolute path is required",
+      "symbol": "🔗",
+      "related_reserved_word": "PLACEMENT"
+    },
+    {
+      "type": "relative",
+      "name": "Relative Placement",
+      "description": "Path relative to current working directory or root",
+      "format": "Folder/Subfolder/File",
+      "examples": [
+        "ENTITIES/",
+        "System/Workflows/",
+        "TASKS/TASK-001.md",
+        "../System/",
+        "../../ENTITIES/"
+      ],
+      "usage": "Use for internal references within the system, most common type",
+      "symbol": "📍",
+      "related_reserved_word": "PLACEMENT"
+    },
+    {
+      "type": "pattern",
+      "name": "Placement Pattern",
+      "description": "Template pattern for multiple similar placements",
+      "format": "Folder/{variable}/File",
+      "examples": [
+        "Week_01/{day}/output/",
+        "ENTITIES/{entity}/README.md",
+        "Reports/Daily/YYYY-MM-DD_{description}.md",
+        "TASKS/TASK-###_{Name}.md"
+      ],
+      "usage": "Use when defining templates or describing multiple similar placements",
+      "symbol": "🔀",
+      "related_reserved_word": "PLACEMENT"
+    },
+    {
+      "type": "system",
+      "name": "System Placement",
+      "description": "Placement within System/ folder hierarchy",
+      "format": "System/{component}/",
+      "examples": [
+        "System/Principles/",
+        "System/Agents/",
+        "System/Workflows/",
+        "System/Libraries/TERMINOLOGY_STANDARDS.md"
+      ],
+      "usage": "Use for system-level files, workflows, and components",
+      "symbol": "⚙️",
+      "system_ids": ["SYS.30", "SYS.40", "SYS.50", "SYS.60", "SYS.70", "SYS.80"],
+      "related_reserved_word": "PLACEMENT"
+    },
+    {
+      "type": "entity",
+      "name": "Entity Placement",
+      "description": "Placement within ENTITIES/ folder hierarchy",
+      "format": "ENTITIES/{entity}/",
+      "examples": [
+        "ENTITIES/Libraries/",
+        "ENTITIES/Video/",
+        "ENTITIES/HR/",
+        "ENTITIES/Executives/"
+      ],
+      "usage": "Use for entity-specific files and data",
+      "symbol": "📁",
+      "entity_codes": ["LBS", "ACT", "SIM", "SCR", "VID", "HR", "EXC", "MED"],
+      "related_reserved_word": "PLACEMENT"
+    },
+    {
+      "type": "task",
+      "name": "Task Placement",
+      "description": "Placement for task files and tracking",
+      "format": "TASKS/TASK-###_{Name}.md",
+      "examples": [
+        "TASKS/TASK-001_AI_Voice_Agent.md",
+        "TASKS/TASK-002_Media_Library.md",
+        "TASKS/TASK-010_Internal_Companies_Ecosystem.md"
+      ],
+      "usage": "Use for user-initiated multi-day projects",
+      "symbol": "📌",
+      "id_format": "TASK-###",
+      "related_reserved_word": "CREATE"
+    },
+    {
+      "type": "execution",
+      "name": "Execution Placement",
+      "description": "Placement for AI execution files",
+      "format": "AI_EXECUTIONS/EXC-###_{Name}.md",
+      "examples": [
+        "AI_EXECUTIONS/EXC-001_Icon_Library.md",
+        "AI_EXECUTIONS/EXC-002_Reserved_Words_Emoji_Map.md",
+        "AI_EXECUTIONS/EXC-012_Cleanup_Day_07_Files.md"
+      ],
+      "usage": "Use for AI-initiated atomic work items",
+      "symbol": "🔧",
+      "id_format": "EXC-###",
+      "related_reserved_word": "EXECUTE"
+    },
+    {
+      "type": "report",
+      "name": "Report Placement",
+      "description": "Placement for reports and summaries",
+      "format": "Reports/{category}/YYYY-MM-DD_{description}.md",
+      "examples": [
+        "Reports/Daily/2025-12-08_session_1_report.md",
+        "Reports/Daily/2025-12-08_systems_created_summary.md",
+        "Reports/Weekly/2025-W50_summary.md"
+      ],
+      "usage": "Use for session reports, summaries, and tracking documents",
+      "symbol": "📊",
+      "related_reserved_word": "REVIEW"
+    }
+  ],
+  "category_definitions": {
+    "root": {
+      "description": "Top-level system placements",
+      "examples": ["C:\\Users\\Dell\\Dropbox\\"],
+      "symbol": "🌐"
+    },
+    "entity": {
+      "description": "Entity-specific placements",
+      "parent": "ENTITIES/",
+      "symbol": "📁"
+    },
+    "system": {
+      "description": "System component placements",
+      "parent": "System/",
+      "symbol": "⚙️"
+    },
+    "task": {
+      "description": "Task tracking placements",
+      "parent": "TASKS/",
+      "symbol": "📌"
+    },
+    "execution": {
+      "description": "AI execution placements",
+      "parent": "AI_EXECUTIONS/",
+      "symbol": "🔧"
+    },
+    "input": {
+      "description": "User input and clarification placements",
+      "parents": ["USER_INPUTS/", "CLARIFICATIONS/"],
+      "symbol": "💬"
+    },
+    "report": {
+      "description": "Report and summary placements",
+      "parent": "Reports/",
+      "symbol": "📊"
+    },
+    "tracking": {
+      "description": "Session and execution tracking placements",
+      "examples": ["Execution/chat_log.md", "SESSION_HANDOFF.md"],
+      "symbol": "📋"
+    },
+    "day": {
+      "description": "Day-specific work placements",
+      "parent": "Week_01/",
+      "symbol": "📆"
+    },
+    "data": {
+      "description": "Data storage placements",
+      "examples": ["ACCOUNTS/", "Data/"],
+      "symbol": "💾"
+    }
+  },
+  "usage_guidelines": {
+    "documentation": {
+      "rule": "Always specify placement for files and folders",
+      "format": "📍 Placement: {placement}",
+      "example": "📍 Placement: ENTITIES/Libraries/Placements/README.md"
+    },
+    "references": {
+      "rule": "Use placement symbol 📍 when referencing placements",
+      "format": "📍 {placement}",
+      "example": "📍 System/Workflows/SESSION_LIFECYCLE.md"
+    },
+    "metadata": {
+      "rule": "Include placement in file metadata sections",
+      "required_fields": ["Current Placement", "Parent Placement", "Related Placements"],
+      "example": {
+        "Current Placement": "ENTITIES/Libraries/Placements/Core/placement_types.json",
+        "Parent Placement": "ENTITIES/Libraries/Placements/Core/",
+        "Related Placements": ["placement_master.json", "placement_patterns.json"]
+      }
+    },
+    "reserved_words": {
+      "rule": "PLACEMENT is 11th reserved word, use UPPERCASE in task lists",
+      "examples": [
+        "PLACEMENT for new entity: ENTITIES/Mediateka/",
+        "MARK file PLACEMENT: System/Skills/SKL.04.md",
+        "CREATE directory at PLACEMENT: Reports/Weekly/"
+      ]
+    }
+  },
+  "anti_patterns": {
+    "avoid_these_terms": [
+      {
+        "term": "location",
+        "use_instead": "placement",
+        "reason": "Standardized terminology"
+      },
+      {
+        "term": "path",
+        "use_instead": "placement",
+        "reason": "Standardized terminology"
+      },
+      {
+        "term": "directory",
+        "use_instead": "folder placement",
+        "reason": "More specific and standardized"
+      },
+      {
+        "term": "file path",
+        "use_instead": "file placement",
+        "reason": "Consistent with terminology standards"
+      },
+      {
+        "term": "at [location]",
+        "use_instead": "at placement",
+        "reason": "Use standardized term"
+      },
+      {
+        "term": "in [folder]",
+        "use_instead": "within placement",
+        "reason": "More precise terminology"
+      },
+      {
+        "term": "stored in",
+        "use_instead": "stored at placement",
+        "reason": "Explicit placement reference"
+      }
+    ]
+  }
+}

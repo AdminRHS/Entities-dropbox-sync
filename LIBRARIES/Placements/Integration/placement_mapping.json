@@ -1,0 +1,192 @@
+{
+  "metadata": {
+    "integration_type": "Placement Mapping",
+    "description": "Maps placements to related systems, IDs, and entities",
+    "version": "1.0",
+    "created": "2025-12-08"
+  },
+  "system_integrations": {
+    "reserved_words": {
+      "word": "PLACEMENT",
+      "position": 11,
+      "symbol": "📍",
+      "usage": "Use in UPPERCASE in task lists and instructions",
+      "file_reference": "System/Vocabulary/reserved_words.md",
+      "examples": [
+        "PLACEMENT for library: ENTITIES/Libraries/Placements/",
+        "CREATE file at PLACEMENT: System/Skills/",
+        "MARK PLACEMENT as completed"
+      ]
+    },
+    "terminology_standards": {
+      "file_placement": "System/Libraries/TERMINOLOGY_STANDARDS.md",
+      "primary_term": "placement",
+      "replaces_terms": ["location", "path", "directory", "folder path"],
+      "symbol": "📍",
+      "usage_format": "📍 Placement: {placement}"
+    },
+    "id_systems": {
+      "placement_id": {
+        "format": "PLM-###",
+        "description": "3-digit zero-padded placement ID",
+        "range": "PLM-001 to PLM-999",
+        "tracking_file": "System/IDs/placement_ids.md",
+        "current_max": "PLM-056"
+      },
+      "pattern_id": {
+        "format": "PAT-###",
+        "description": "Placement pattern ID",
+        "range": "PAT-001 to PAT-999",
+        "file_placement": "Core/placement_patterns.json",
+        "current_max": "PAT-018"
+      }
+    },
+    "automation_agent": {
+      "placement": "automation-agent/",
+      "integration": "Detect PLACEMENT reserved word in user input",
+      "modules": [
+        "modules/cluster_detector.py (detect placement references)",
+        "modules/task_creator.py (create tasks with placement metadata)"
+      ],
+      "status": "needs update for PLACEMENT detection"
+    }
+  },
+  "entity_integrations": {
+    "libraries_entity": {
+      "entity_code": "LBS",
+      "entity_id": "ENT.LBS",
+      "placement": "ENTITIES/Libraries/",
+      "relationship": "Parent entity for Placements library",
+      "structure_pattern": {
+        "Core/": "Master definitions",
+        "By_Type/": "Categorized data",
+        "Integration/": "Cross-references",
+        "Symbols/": "Visual indicators",
+        "Templates/": "Reusable patterns"
+      }
+    },
+    "responsibilities_library": {
+      "entity_code": "LBS",
+      "placement": "ENTITIES/Libraries/Responsibilities/",
+      "relationship": "Sister library, shares structure pattern",
+      "integration_points": [
+        "Both use Core/By_Type/Integration/Symbols/ structure",
+        "Both define reserved word integrations",
+        "Both provide automation-agent detection"
+      ]
+    }
+  },
+  "task_integrations": {
+    "task_files": {
+      "placement_pattern": "TASKS/TASK-###_{Name}.md",
+      "metadata_requirement": "All tasks must specify placement",
+      "metadata_format": {
+        "Current Placement": "TASKS/TASK-###_{Name}.md",
+        "Related Placements": ["List of related file placements"],
+        "Output Placement": "Where deliverables will be placed"
+      }
+    },
+    "execution_files": {
+      "placement_pattern": "AI_EXECUTIONS/EXC-###_{Name}.md",
+      "metadata_requirement": "All executions must specify input/output placements",
+      "metadata_format": {
+        "Input Placement": "Where input data is located",
+        "Output Placement": "Where results will be placed",
+        "Related Placements": ["Dependencies"]
+      }
+    }
+  },
+  "workflow_integrations": {
+    "session_lifecycle": {
+      "placement": "System/Workflows/SESSION_LIFECYCLE.md",
+      "usage": "Reference placements when loading context, creating reports",
+      "phases": {
+        "Phase 1 (Open)": "Load placements: SESSION_HANDOFF.md, chat_log.md, USER_INPUTS/",
+        "Phase 2 (Execute)": "Work with task placements, entity placements",
+        "Phase 4 (Close)": "Create reports at placement: Reports/Daily/",
+        "Phase 5 (Handoff)": "Update placement: SESSION_HANDOFF.md"
+      }
+    },
+    "session_open_checklist": {
+      "placement": "System/Workflows/CHECKLIST_SESSION_OPEN.md",
+      "terminology_update": "Changed 'locations' to 'placements'",
+      "references_placements": [
+        "SESSION_HANDOFF.md",
+        "Execution/chat_log.md",
+        "USER_INPUTS/",
+        "CLARIFICATIONS/README.md"
+      ]
+    },
+    "session_close_checklist": {
+      "placement": "System/Workflows/CHECKLIST_SESSION_CLOSE.md",
+      "creates_at_placements": [
+        "Reports/Daily/YYYY-MM-DD_session_{N}_report.md",
+        "SESSION_HANDOFF.md"
+      ]
+    }
+  },
+  "file_monitor_integration": {
+    "skill": "SKL.04_File_Monitor_Notification",
+    "placement": "System/Skills/SKL.04_File_Monitor_Notification.md",
+    "watches_placements": [
+      "USER_INPUTS/*.md",
+      "CLARIFICATIONS/README.md",
+      "TASKS/TASK-*.md"
+    ],
+    "notification_format": {
+      "changed_placement": "{file_path}",
+      "change_type": "modified|created|deleted",
+      "timestamp": "YYYY-MM-DD HH:MM:SS"
+    }
+  },
+  "cross_library_mappings": {
+    "placements_to_responsibilities": {
+      "description": "Map file placements to responsible entities/roles",
+      "examples": [
+        {
+          "placement": "System/Workflows/",
+          "responsible_role": "Workflow Manager",
+          "actions": ["CREATE", "UPDATE", "REVIEW"]
+        },
+        {
+          "placement": "ENTITIES/Libraries/",
+          "responsible_role": "Knowledge Manager",
+          "actions": ["BUILD", "UPGRADE", "SHARE"]
+        },
+        {
+          "placement": "TASKS/",
+          "responsible_role": "Task Manager",
+          "actions": ["CREATE", "EXECUTE", "REVIEW"]
+        }
+      ]
+    }
+  },
+  "usage_patterns": {
+    "in_documentation": {
+      "format": "📍 Placement: {placement}",
+      "examples": [
+        "📍 Placement: ENTITIES/Libraries/Placements/README.md",
+        "📍 Placement: System/Workflows/SESSION_LIFECYCLE.md"
+      ]
+    },
+    "in_task_lists": {
+      "format": "PLACEMENT {description}",
+      "examples": [
+        "PLACEMENT for output: Reports/Daily/",
+        "CREATE file at PLACEMENT: System/Skills/SKL.05.md"
+      ]
+    },
+    "in_metadata": {
+      "required_fields": [
+        "Current Placement",
+        "Parent Placement",
+        "Related Placements"
+      ],
+      "optional_fields": [
+        "Output Placement",
+        "Input Placement",
+        "Archive Placement"
+      ]
+    }
+  }
+}

@@ -1,0 +1,207 @@
+{
+  "metadata": {
+    "category": "System Placements",
+    "description": "All placements within the System/ hierarchy",
+    "parent_placement": "System/",
+    "total_placements": 15,
+    "symbol": "⚙️"
+  },
+  "system_placements": [
+    {
+      "id": "PLM-003",
+      "name": "System Root",
+      "placement": "System/",
+      "system_id": "SYS.00",
+      "description": "Root placement for all system files",
+      "type": "folder",
+      "required": true
+    },
+    {
+      "id": "PLM-013",
+      "name": "System Principles",
+      "placement": "System/Principles/",
+      "system_id": "SYS.30",
+      "description": "Working principles and methodologies",
+      "type": "folder",
+      "key_files": [
+        "bottom_up_classification.md",
+        "reusable_templates.md",
+        "task_first_approach.md"
+      ]
+    },
+    {
+      "id": "PLM-014",
+      "name": "System Agents",
+      "placement": "System/Agents/",
+      "system_id": "SYS.40",
+      "description": "Agent definitions and configurations",
+      "type": "folder",
+      "key_files": [
+        "automation_agent_spec.md",
+        "file_monitor_agent.md"
+      ]
+    },
+    {
+      "id": "PLM-015",
+      "name": "System Verification",
+      "placement": "System/Verification/",
+      "system_id": "SYS.50",
+      "description": "Testing and validation procedures",
+      "type": "folder",
+      "key_files": [
+        "test_protocols.md",
+        "validation_checklists.md"
+      ]
+    },
+    {
+      "id": "PLM-016",
+      "name": "System Workflows",
+      "placement": "System/Workflows/",
+      "system_id": "SYS.60",
+      "description": "Session lifecycle and workflow definitions",
+      "type": "folder",
+      "key_files": [
+        "SESSION_LIFECYCLE.md",
+        "CHECKLIST_SESSION_OPEN.md",
+        "CHECKLIST_SESSION_CLOSE.md"
+      ]
+    },
+    {
+      "id": "PLM-017",
+      "name": "System Skills",
+      "placement": "System/Skills/",
+      "system_id": "SYS.70",
+      "description": "Skill definitions and specifications",
+      "type": "folder",
+      "key_files": [
+        "SKL.04_File_Monitor_Notification.md"
+      ]
+    },
+    {
+      "id": "PLM-018",
+      "name": "System Integration",
+      "placement": "System/Integration/",
+      "system_id": "SYS.80",
+      "description": "Integration documentation and mappings",
+      "type": "folder",
+      "key_files": [
+        "MAIN_PROMPT_Integration_Principles.md"
+      ]
+    },
+    {
+      "id": "PLM-035",
+      "name": "System Libraries",
+      "placement": "System/Libraries/",
+      "system_id": null,
+      "description": "System-level library files",
+      "type": "folder",
+      "key_files": [
+        "TERMINOLOGY_STANDARDS.md"
+      ]
+    },
+    {
+      "id": "PLM-036",
+      "name": "System Vocabulary",
+      "placement": "System/Vocabulary/",
+      "system_id": null,
+      "description": "Reserved words and vocabulary definitions",
+      "type": "folder",
+      "key_files": [
+        "reserved_words.md",
+        "whisper_mappings.md"
+      ]
+    },
+    {
+      "id": "PLM-037",
+      "name": "System IDs",
+      "placement": "System/IDs/",
+      "system_id": null,
+      "description": "ID tracking and management",
+      "type": "folder",
+      "key_files": [
+        "entity_ids.md",
+        "system_ids.md",
+        "task_ids.md"
+      ]
+    },
+    {
+      "id": "PLM-039",
+      "name": "Terminology Standards",
+      "placement": "System/Libraries/TERMINOLOGY_STANDARDS.md",
+      "system_id": null,
+      "description": "Standardized terminology reference",
+      "type": "file",
+      "size_lines": "500+",
+      "importance": "critical"
+    },
+    {
+      "id": "PLM-040",
+      "name": "Session Lifecycle",
+      "placement": "System/Workflows/SESSION_LIFECYCLE.md",
+      "system_id": "SYS.60",
+      "description": "5-phase session workflow definition",
+      "type": "file",
+      "size_lines": "1000+",
+      "importance": "critical"
+    },
+    {
+      "id": "PLM-041",
+      "name": "Session Open Checklist",
+      "placement": "System/Workflows/CHECKLIST_SESSION_OPEN.md",
+      "system_id": "SYS.60",
+      "description": "Session opening procedure (15 min)",
+      "type": "file",
+      "size_lines": "400+",
+      "importance": "high"
+    },
+    {
+      "id": "PLM-042",
+      "name": "Session Close Checklist",
+      "placement": "System/Workflows/CHECKLIST_SESSION_CLOSE.md",
+      "system_id": "SYS.60",
+      "description": "Session closing procedure with testing (30-45 min)",
+      "type": "file",
+      "size_lines": "400+",
+      "importance": "high"
+    },
+    {
+      "id": "PLM-030",
+      "name": "automation-agent",
+      "placement": "automation-agent/",
+      "system_id": null,
+      "description": "Automation agent system (810 lines, not tested yet)",
+      "type": "folder",
+      "status": "needs_testing",
+      "key_files": [
+        "agent.py",
+        "modules/cluster_detector.py",
+        "modules/task_creator.py",
+        "scripts/check_environment.py"
+      ]
+    }
+  ],
+  "hierarchy": {
+    "System/": {
+      "Principles/": "SYS.30",
+      "Agents/": "SYS.40",
+      "Verification/": "SYS.50",
+      "Workflows/": "SYS.60",
+      "Skills/": "SYS.70",
+      "Integration/": "SYS.80",
+      "Libraries/": "System-level libraries",
+      "Vocabulary/": "Reserved words",
+      "IDs/": "ID tracking"
+    }
+  },
+  "usage": {
+    "access_pattern": "System/{component}/{file}",
+    "example": "System/Workflows/SESSION_LIFECYCLE.md",
+    "symbol": "⚙️",
+    "reserved_word": "PLACEMENT"
+  },
+  "integration": {
+    "with_entities": "System components integrate with all entities",
+    "with_tasks": "Workflows guide task execution",
+    "with_executions": "Skills define execution specifications"
+  }
+}

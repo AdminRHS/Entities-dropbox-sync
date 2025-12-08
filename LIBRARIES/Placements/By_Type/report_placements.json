@@ -1,0 +1,262 @@
+{
+  "metadata": {
+    "category": "Report & Tracking Placements",
+    "description": "Placements for reports, summaries, and tracking files",
+    "parent_placements": ["Reports/", "Week_01/", "Execution/"],
+    "total_placements": 8,
+    "symbol": "📊"
+  },
+  "report_placements": [
+    {
+      "id": "PLM-023",
+      "name": "Reports Root",
+      "placement": "Reports/",
+      "description": "Root placement for all reports",
+      "type": "folder",
+      "structure": {
+        "Daily/": "Daily session reports",
+        "Weekly/": "Weekly summaries",
+        "Monthly/": "Monthly reviews"
+      }
+    },
+    {
+      "id": "PLM-024",
+      "name": "Reports Daily",
+      "placement": "Reports/Daily/",
+      "description": "Daily session reports and summaries",
+      "type": "folder",
+      "file_pattern": "YYYY-MM-DD_{description}.md",
+      "examples": [
+        "2025-12-08_session_1_report.md",
+        "2025-12-08_systems_created_summary.md",
+        "2025-12-08_integration_summary.md"
+      ]
+    },
+    {
+      "id": "PLM-025",
+      "name": "Execution Chat Log",
+      "placement": "Execution/chat_log.md",
+      "description": "Running log of all session conversations",
+      "type": "file",
+      "purpose": "Track all sessions chronologically",
+      "format": "Chronological entries with timestamps",
+      "importance": "critical"
+    },
+    {
+      "id": "PLM-034",
+      "name": "Session Handoff",
+      "placement": "SESSION_HANDOFF.md",
+      "description": "Bridge between sessions with priorities",
+      "type": "file",
+      "purpose": "Next session knows what to do immediately",
+      "sections": [
+        "Context Summary",
+        "Immediate Priorities",
+        "High Priority Items",
+        "Medium Priority Items",
+        "Clarifications Pending",
+        "Files to Load",
+        "Ready Executions"
+      ],
+      "importance": "critical",
+      "updated": "End of every session"
+    },
+    {
+      "id": "PLM-046",
+      "name": "Daily Report Pattern",
+      "placement": "Reports/Daily/YYYY-MM-DD_{description}.md",
+      "description": "Standard daily report naming pattern",
+      "type": "pattern",
+      "date_format": "YYYY-MM-DD (ISO 8601)",
+      "naming_rules": {
+        "date": "YYYY-MM-DD",
+        "separator": "_",
+        "description": "Brief description (session_1_report, systems_created_summary)",
+        "extension": ".md"
+      },
+      "common_descriptions": [
+        "session_{N}_report",
+        "systems_created_summary",
+        "integration_summary",
+        "progress_summary",
+        "tasks_created",
+        "executions_completed"
+      ]
+    },
+    {
+      "id": "PLM-050",
+      "name": "Day Summary",
+      "placement": "Week_01/{day}/output/{day}_wspr_FINAL_SUMMARY.md",
+      "description": "Final summary for each day's work",
+      "type": "pattern",
+      "purpose": "Comprehensive day overview",
+      "examples": [
+        "Week_01/06/output/06_wspr_FINAL_SUMMARY.md",
+        "Week_01/07/output/07_wspr_FINAL_SUMMARY.md"
+      ],
+      "importance": "high"
+    },
+    {
+      "id": "PLM-051",
+      "name": "Session Execution Summary",
+      "placement": "Week_01/{day}/output/SESSION_EXECUTION_SUMMARY.md",
+      "description": "Execution status for day's work",
+      "type": "pattern",
+      "purpose": "Track what was executed vs planned",
+      "examples": [
+        "Week_01/07/output/SESSION_EXECUTION_SUMMARY.md"
+      ]
+    },
+    {
+      "id": "PLM-052",
+      "name": "Day Index",
+      "placement": "Week_01/{day}/output/INDEX.md",
+      "description": "Complete file listing for day",
+      "type": "pattern",
+      "purpose": "Navigate all day outputs",
+      "examples": [
+        "Week_01/07/output/INDEX.md"
+      ]
+    }
+  ],
+  "day_placements": [
+    {
+      "id": "PLM-026",
+      "name": "Week 01",
+      "placement": "Week_01/",
+      "description": "Week 1 organization",
+      "type": "folder",
+      "contains": "Days 01-07"
+    },
+    {
+      "id": "PLM-027",
+      "name": "Day 06",
+      "placement": "Week_01/06/",
+      "description": "Day 06 work",
+      "type": "folder",
+      "status": "completed"
+    },
+    {
+      "id": "PLM-028",
+      "name": "Day 07",
+      "placement": "Week_01/07/",
+      "description": "Day 07 work",
+      "type": "folder",
+      "status": "completed",
+      "organization_complete": true,
+      "has_readme": true,
+      "has_index": true,
+      "has_guides": true
+    },
+    {
+      "id": "PLM-029",
+      "name": "Day 08",
+      "placement": "Week_01/08/",
+      "description": "Day 08 work (current)",
+      "type": "folder",
+      "status": "in_progress",
+      "current_line": 174,
+      "source_file": "07_wspr.md"
+    },
+    {
+      "id": "PLM-043",
+      "name": "Day Output Folder Pattern",
+      "placement": "Week_01/{day}/output/",
+      "description": "Pattern for day output folders",
+      "type": "pattern",
+      "standard_files": [
+        "{day}_wspr_FINAL_SUMMARY.md",
+        "SESSION_EXECUTION_SUMMARY.md",
+        "INDEX.md",
+        "{day}_wspr_cluster_##_{name}.md"
+      ]
+    },
+    {
+      "id": "PLM-044",
+      "name": "Day Guides Folder Pattern",
+      "placement": "Week_01/{day}/guides/",
+      "description": "Pattern for day guides folders",
+      "type": "pattern",
+      "standard_files": [
+        "HOW_TO_NAVIGATE.md",
+        "QUICK_START.md"
+      ]
+    }
+  ],
+  "tracking_files": {
+    "chat_log": {
+      "placement": "Execution/chat_log.md",
+      "purpose": "Complete session history",
+      "update_frequency": "Every session",
+      "format": "Chronological entries"
+    },
+    "session_handoff": {
+      "placement": "SESSION_HANDOFF.md",
+      "purpose": "Inter-session communication",
+      "update_frequency": "End of every session",
+      "format": "Structured priorities and context"
+    },
+    "day_readme": {
+      "placement": "Week_01/{day}/README.md",
+      "purpose": "Day entrance point",
+      "created_for": ["Day 07"],
+      "format": "Quick start, what happened, where to go"
+    }
+  },
+  "naming_conventions": {
+    "dates": "YYYY-MM-DD (ISO 8601)",
+    "descriptions": "lowercase_with_underscores",
+    "extensions": ".md for all reports",
+    "examples": {
+      "correct": [
+        "2025-12-08_session_1_report.md",
+        "2025-12-08_systems_created_summary.md",
+        "Week_01/07/output/07_wspr_FINAL_SUMMARY.md"
+      ],
+      "incorrect": [
+        "2025-12-8_session_1_report.md (missing leading zero)",
+        "2025-12-08 session 1 report.md (spaces not underscores)",
+        "12-08-2025_session_1_report.md (wrong date format)"
+      ]
+    }
+  },
+  "organization_standards": {
+    "day_folder": {
+      "required_files": [
+        "README.md (entrance point)",
+        "output/ (all generated files)",
+        "output/INDEX.md (file listing)"
+      ],
+      "optional_folders": [
+        "guides/ (navigation help)",
+        "data/ (raw data files)"
+      ]
+    },
+    "reports_folder": {
+      "structure": {
+        "Daily/": "Session reports, daily summaries",
+        "Weekly/": "Week summaries, progress reports",
+        "Monthly/": "Monthly reviews, milestone reports"
+      }
+    }
+  },
+  "usage": {
+    "creating_reports": {
+      "step_1": "Determine report type (daily, weekly, session)",
+      "step_2": "Use correct date format (YYYY-MM-DD)",
+      "step_3": "Add descriptive suffix (_session_1_report, _systems_created_summary)",
+      "step_4": "Place in correct folder (Reports/Daily/, Week_01/{day}/output/)"
+    },
+    "updating_tracking": {
+      "chat_log": "Add entry at end of each session",
+      "session_handoff": "Recreate completely at session end",
+      "day_readme": "Update when day structure changes"
+    }
+  },
+  "integration": {
+    "with_session_workflow": "Reports created during Phase 4 (Close Session)",
+    "with_handoff": "SESSION_HANDOFF.md references report placements",
+    "with_tasks": "Task progress tracked in daily reports",
+    "with_executions": "Execution completions logged in session reports"
+  }
+}

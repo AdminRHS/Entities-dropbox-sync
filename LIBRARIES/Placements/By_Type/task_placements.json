@@ -1,0 +1,250 @@
+{
+  "metadata": {
+    "category": "Task & Execution Placements",
+    "description": "Placements for tasks, executions, and work tracking",
+    "parent_placements": ["TASKS/", "AI_EXECUTIONS/"],
+    "total_placements": 5,
+    "symbol": "📌"
+  },
+  "task_placements": [
+    {
+      "id": "PLM-019",
+      "name": "TASKS Root",
+      "placement": "TASKS/",
+      "description": "Root placement for user-initiated tasks",
+      "type": "folder",
+      "id_format": "TASK-###",
+      "file_pattern": "TASK-###_{Name_With_Underscores}.md",
+      "purpose": "Multi-day user-requested projects",
+      "examples": [
+        "TASKS/TASK-001_AI_Voice_Agent.md",
+        "TASKS/TASK-002_Media_Library.md",
+        "TASKS/TASK-010_Internal_Companies_Ecosystem.md"
+      ]
+    },
+    {
+      "id": "PLM-020",
+      "name": "AI_EXECUTIONS Root",
+      "placement": "AI_EXECUTIONS/",
+      "description": "Root placement for AI-initiated executions",
+      "type": "folder",
+      "id_format": "EXC-###",
+      "file_pattern": "EXC-###_{Name_With_Underscores}.md",
+      "purpose": "Atomic AI-initiated work items",
+      "relationship": "Child ecosystem of TASKS",
+      "examples": [
+        "AI_EXECUTIONS/EXC-001_Icon_Library.md",
+        "AI_EXECUTIONS/EXC-002_Reserved_Words_Emoji_Map.md",
+        "AI_EXECUTIONS/EXC-012_Cleanup_Day_07_Files.md"
+      ]
+    },
+    {
+      "id": "PLM-047",
+      "name": "Task File Pattern",
+      "placement": "TASKS/TASK-###_{Name}.md",
+      "description": "Standard task file naming pattern",
+      "type": "pattern",
+      "id_format": "TASK-###",
+      "naming_rules": {
+        "id": "TASK-### (3 digits, zero-padded, sequential)",
+        "separator": "_ (underscore after ID)",
+        "name": "Descriptive name with underscores (not spaces)",
+        "extension": ".md (markdown)"
+      },
+      "template_sections": [
+        "Task Description",
+        "Context",
+        "Objectives",
+        "Deliverables",
+        "Implementation Plan",
+        "Success Criteria",
+        "Clarifications Needed",
+        "Next Steps"
+      ]
+    },
+    {
+      "id": "PLM-048",
+      "name": "Execution File Pattern",
+      "placement": "AI_EXECUTIONS/EXC-###_{Name}.md",
+      "description": "Standard execution file naming pattern",
+      "type": "pattern",
+      "id_format": "EXC-###",
+      "naming_rules": {
+        "id": "EXC-### (3 digits, zero-padded, sequential)",
+        "separator": "_ (underscore after ID)",
+        "name": "Descriptive name with underscores",
+        "extension": ".md (markdown)"
+      },
+      "template_sections": [
+        "Input",
+        "Process",
+        "Output",
+        "Validation",
+        "Next Executions"
+      ]
+    },
+    {
+      "id": "PLM-049",
+      "name": "Task Archive Pattern",
+      "placement": "TASKS/_Archive/TASK-###_{Name}.md",
+      "description": "Archived completed tasks",
+      "type": "pattern",
+      "usage": "Move completed tasks to archive folder",
+      "examples": [
+        "TASKS/_Archive/TASK-001_AI_Voice_Agent.md"
+      ]
+    }
+  ],
+  "current_tasks": {
+    "created": [
+      {
+        "id": "TASK-001",
+        "name": "AI Voice Agent",
+        "placement": "TASKS/TASK-001_AI_Voice_Agent.md",
+        "status": "blocked",
+        "blocked_by": "Q004 (3 questions pending)",
+        "priority": "high"
+      },
+      {
+        "id": "TASK-002",
+        "name": "Media Library",
+        "placement": "TASKS/TASK-002_Media_Library.md",
+        "status": "blocked",
+        "blocked_by": "Q005 (3 questions pending)",
+        "priority": "high"
+      },
+      {
+        "id": "TASK-010",
+        "name": "Internal Companies Ecosystem",
+        "placement": "TASKS/TASK-010_Internal_Companies_Ecosystem.md",
+        "status": "blocked",
+        "blocked_by": "Q010-A (CRITICAL - company identification)",
+        "priority": "critical",
+        "estimated_duration": "7 days"
+      }
+    ],
+    "pending_creation": [
+      "TASK-003",
+      "TASK-004",
+      "TASK-005",
+      "TASK-006",
+      "TASK-007",
+      "TASK-008",
+      "TASK-009"
+    ]
+  },
+  "current_executions": {
+    "ready_to_execute": [
+      {
+        "id": "EXC-001",
+        "name": "Icon Library",
+        "placement": "AI_EXECUTIONS/EXC-001_Icon_Library.md",
+        "status": "ready",
+        "estimated_time": "2-3 hours",
+        "priority": "high",
+        "blocks": "TASK-002 (Media Library)"
+      },
+      {
+        "id": "EXC-002",
+        "name": "Reserved Words Emoji Map",
+        "placement": "AI_EXECUTIONS/EXC-002_Reserved_Words_Emoji_Map.md",
+        "status": "ready",
+        "estimated_time": "1 hour",
+        "priority": "high"
+      },
+      {
+        "id": "EXC-003",
+        "name": "Update Reserved Vocabulary",
+        "placement": "AI_EXECUTIONS/EXC-003_Update_Reserved_Vocabulary.md",
+        "status": "ready",
+        "estimated_time": "30 min",
+        "priority": "high",
+        "note": "Add PLACEMENT as 11th reserved word"
+      },
+      {
+        "id": "EXC-006",
+        "name": "LinkedIn Export Analysis",
+        "placement": "AI_EXECUTIONS/EXC-006_LinkedIn_Export_Analysis.md",
+        "status": "ready",
+        "estimated_time": "4-5 hours",
+        "priority": "high",
+        "data_source": "ACCOUNTS/Lead Accounts/"
+      },
+      {
+        "id": "EXC-012",
+        "name": "Cleanup Day 07 Files",
+        "placement": "AI_EXECUTIONS/EXC-012_Cleanup_Day_07_Files.md",
+        "status": "ready",
+        "estimated_time": "1-2 hours",
+        "priority": "medium"
+      }
+    ],
+    "needs_specification": [
+      {
+        "id": "EXC-008",
+        "name": "Test automation-agent",
+        "status": "critical",
+        "note": "810 lines, never tested!",
+        "estimated_time": "30 min"
+      },
+      {
+        "id": "EXC-009",
+        "name": "Build File Watcher (SKL.04 Phase 1)",
+        "status": "specified",
+        "estimated_time": "2-3 hours"
+      },
+      {
+        "id": "EXC-010",
+        "name": "Build Notification Processor (SKL.04 Phase 2)",
+        "status": "specified",
+        "estimated_time": "2-3 hours"
+      },
+      {
+        "id": "EXC-011",
+        "name": "Integration & Testing (SKL.04 Phase 3)",
+        "status": "specified",
+        "estimated_time": "2 hours"
+      }
+    ]
+  },
+  "naming_conventions": {
+    "task_id_format": "TASK-### (always 3 digits, zero-padded)",
+    "execution_id_format": "EXC-### (always 3 digits, zero-padded)",
+    "file_naming": "{ID}_{Name_With_Underscores}.md",
+    "no_gaps": "IDs are sequential with no gaps",
+    "examples": {
+      "correct": [
+        "TASK-001_AI_Voice_Agent.md",
+        "TASK-010_Internal_Companies_Ecosystem.md",
+        "EXC-001_Icon_Library.md"
+      ],
+      "incorrect": [
+        "TASK-1_AI_Voice_Agent.md (missing zero-padding)",
+        "TASK-001-AI-Voice-Agent.md (wrong separator)",
+        "TASK-001 AI Voice Agent.md (spaces not underscores)"
+      ]
+    }
+  },
+  "workflow": {
+    "task_creation": "User requests → TASK-### created → Clarifications added → Blocked until answered → Execute",
+    "execution_creation": "AI detects work → EXC-### created → Execute autonomously → Validate → Complete",
+    "relationship": "TASK-### (parent) → EXC-### (child executions for task components)"
+  },
+  "integration": {
+    "with_clarifications": "Tasks blocked by questions tracked in CLARIFICATIONS/",
+    "with_user_inputs": "User provides answers via USER_INPUTS/",
+    "with_reports": "Task progress tracked in Reports/Daily/",
+    "with_session_handoff": "Task priorities listed in SESSION_HANDOFF.md"
+  },
+  "usage": {
+    "access_pattern": "TASKS/TASK-###_{Name}.md or AI_EXECUTIONS/EXC-###_{Name}.md",
+    "symbol_task": "📌",
+    "symbol_execution": "🔧",
+    "reserved_words": {
+      "CREATE": "Use when creating new tasks",
+      "EXECUTE": "Use when running executions",
+      "REVIEW": "Use when checking task status",
+      "MARK": "Use when flagging tasks"
+    }
+  }
+}

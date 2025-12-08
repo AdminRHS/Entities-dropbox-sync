@@ -1,0 +1,257 @@
+{
+  "metadata": {
+    "category": "Entity Placements",
+    "description": "All placements within the ENTITIES/ hierarchy",
+    "parent_placement": "ENTITIES/",
+    "total_placements": 14,
+    "total_entities": 7,
+    "symbol": "📁"
+  },
+  "entity_placements": [
+    {
+      "id": "PLM-002",
+      "name": "ENTITIES Root",
+      "placement": "ENTITIES/",
+      "entity_code": null,
+      "description": "Root placement for all entities",
+      "type": "folder",
+      "required": true,
+      "child_entities": 7
+    },
+    {
+      "id": "PLM-004",
+      "name": "Libraries Entity",
+      "placement": "ENTITIES/Libraries/",
+      "entity_code": "LBS",
+      "entity_id": "ENT.LBS",
+      "description": "Library entity containing all knowledge libraries",
+      "type": "folder",
+      "status": "active",
+      "sub_libraries": ["Placements", "Responsibilities"]
+    },
+    {
+      "id": "PLM-005",
+      "name": "Actions Entity",
+      "placement": "ENTITIES/Actions/",
+      "entity_code": "ACT",
+      "entity_id": "ENT.ACT",
+      "description": "Action verbs and action templates",
+      "type": "folder",
+      "status": "active"
+    },
+    {
+      "id": "PLM-006",
+      "name": "Similar Entity",
+      "placement": "ENTITIES/Similar/",
+      "entity_code": "SIM",
+      "entity_id": "ENT.SIM",
+      "description": "Similar items, whisper mappings, normalization",
+      "type": "folder",
+      "status": "active",
+      "key_features": ["whisper_mapping", "normalization", "variant_detection"]
+    },
+    {
+      "id": "PLM-007",
+      "name": "Scraping Entity",
+      "placement": "ENTITIES/Scraping/",
+      "entity_code": "SCR",
+      "entity_id": "ENT.SCR",
+      "description": "Web scraping configurations and data",
+      "type": "folder",
+      "status": "active"
+    },
+    {
+      "id": "PLM-008",
+      "name": "Video Entity",
+      "placement": "ENTITIES/Video/",
+      "entity_code": "VID",
+      "entity_id": "ENT.VID",
+      "description": "Video production, assets, scripts",
+      "type": "folder",
+      "status": "active",
+      "created": "2025-12-08",
+      "includes": ["profession_data", "email_templates", "client_personas"]
+    },
+    {
+      "id": "PLM-009",
+      "name": "Human Resources Entity",
+      "placement": "ENTITIES/HR/",
+      "entity_code": "HR",
+      "entity_id": "ENT.HR",
+      "description": "HR processes, roles, documentation",
+      "type": "folder",
+      "status": "active",
+      "created": "2025-12-08"
+    },
+    {
+      "id": "PLM-010",
+      "name": "Executives Entity",
+      "placement": "ENTITIES/Executives/",
+      "entity_code": "EXC",
+      "entity_id": "ENT.EXC",
+      "description": "Executive roles, workflows, decision-making",
+      "type": "folder",
+      "status": "active",
+      "created": "2025-12-08"
+    },
+    {
+      "id": "PLM-011",
+      "name": "Placements Library",
+      "placement": "ENTITIES/Libraries/Placements/",
+      "entity_code": "LBS",
+      "parent_entity": "ENT.LBS",
+      "description": "Placements library (this library itself)",
+      "type": "folder",
+      "status": "building",
+      "structure": {
+        "Core/": "Master catalog, types, patterns",
+        "By_Type/": "Categorized placements",
+        "Integration/": "Cross-references",
+        "Symbols/": "Visual indicators",
+        "Templates/": "Reusable templates"
+      }
+    },
+    {
+      "id": "PLM-012",
+      "name": "Responsibilities Library",
+      "placement": "ENTITIES/Libraries/Responsibilities/",
+      "entity_code": "LBS",
+      "parent_entity": "ENT.LBS",
+      "description": "Responsibilities library (actions, objects, parameters)",
+      "type": "folder",
+      "status": "active",
+      "structure": {
+        "Core/": "Master definitions",
+        "By_Type/": "Categorized responsibilities",
+        "Integration/": "Cross-system mappings",
+        "Symbols/": "Visual indicators"
+      }
+    },
+    {
+      "id": "PLM-031",
+      "name": "PROMPTS Core",
+      "placement": "ENTITIES/PROMPTS/Core/",
+      "entity_code": null,
+      "description": "Core system prompts",
+      "type": "folder",
+      "key_files": ["MAIN_PROMPT_v7.2.md"]
+    },
+    {
+      "id": "PLM-032",
+      "name": "PROMPTS Library Builders",
+      "placement": "ENTITIES/PROMPTS/Library_Builders/",
+      "entity_code": null,
+      "description": "Prompts for building libraries",
+      "type": "folder",
+      "key_files": [
+        "PROMPT_Build_Placements_Library.md",
+        "PROMPT_Build_Responsibilities_Library.md"
+      ]
+    },
+    {
+      "id": "PLM-038",
+      "name": "MAIN_PROMPT",
+      "placement": "ENTITIES/PROMPTS/Core/MAIN_PROMPT_v7.2.md",
+      "entity_code": null,
+      "description": "Main system prompt with principles and taxonomy",
+      "type": "file",
+      "importance": "critical",
+      "integrated": "2025-12-08"
+    },
+    {
+      "id": "PLM-045",
+      "name": "Entity README Pattern",
+      "placement": "ENTITIES/{entity}/README.md",
+      "entity_code": "varies",
+      "description": "Standard README pattern for all entities",
+      "type": "pattern",
+      "required": true,
+      "examples": [
+        "ENTITIES/Libraries/README.md",
+        "ENTITIES/Video/README.md",
+        "ENTITIES/HR/README.md"
+      ]
+    }
+  ],
+  "entity_codes": {
+    "LBS": {
+      "full_name": "Libraries",
+      "entity_id": "ENT.LBS",
+      "placement": "ENTITIES/Libraries/",
+      "description": "Knowledge libraries and references"
+    },
+    "ACT": {
+      "full_name": "Actions",
+      "entity_id": "ENT.ACT",
+      "placement": "ENTITIES/Actions/",
+      "description": "Action verbs and templates"
+    },
+    "SIM": {
+      "full_name": "Similar",
+      "entity_id": "ENT.SIM",
+      "placement": "ENTITIES/Similar/",
+      "description": "Similar items and mappings"
+    },
+    "SCR": {
+      "full_name": "Scraping",
+      "entity_id": "ENT.SCR",
+      "placement": "ENTITIES/Scraping/",
+      "description": "Web scraping systems"
+    },
+    "VID": {
+      "full_name": "Video",
+      "entity_id": "ENT.VID",
+      "placement": "ENTITIES/Video/",
+      "description": "Video production"
+    },
+    "HR": {
+      "full_name": "Human Resources",
+      "entity_id": "ENT.HR",
+      "placement": "ENTITIES/HR/",
+      "description": "HR processes"
+    },
+    "EXC": {
+      "full_name": "Executives",
+      "entity_id": "ENT.EXC",
+      "placement": "ENTITIES/Executives/",
+      "description": "Executive workflows"
+    },
+    "MED": {
+      "full_name": "Mediateka",
+      "entity_id": "ENT.MED",
+      "placement": "ENTITIES/Mediateka/",
+      "description": "Media library (planned)",
+      "status": "planned"
+    }
+  },
+  "hierarchy": {
+    "ENTITIES/": {
+      "Libraries/": {
+        "Placements/": "This library",
+        "Responsibilities/": "Actions, objects, parameters"
+      },
+      "Actions/": "ENT.ACT",
+      "Similar/": "ENT.SIM",
+      "Scraping/": "ENT.SCR",
+      "Video/": "ENT.VID",
+      "HR/": "ENT.HR",
+      "Executives/": "ENT.EXC",
+      "PROMPTS/": {
+        "Core/": "Main system prompts",
+        "Library_Builders/": "Library build prompts"
+      }
+    }
+  },
+  "usage": {
+    "access_pattern": "ENTITIES/{entity}/{resource}",
+    "example": "ENTITIES/Libraries/Placements/Core/placement_master.json",
+    "symbol": "📁",
+    "reserved_word": "PLACEMENT",
+    "reference_format": "ENT.XXX or entity code (VID, HR, etc.)"
+  },
+  "integration": {
+    "with_system": "Entities integrate with System/ components",
+    "with_tasks": "Entities provide resources for task execution",
+    "cross_entity": "Entities can reference each other via ENT.XXX codes"
+  }
+}

@@ -1,0 +1,339 @@
+{
+  "metadata": {
+    "library_name": "Placement Patterns",
+    "version": "1.0",
+    "created": "2025-12-08",
+    "description": "Common placement patterns and templates used across the system",
+    "total_patterns": 18
+  },
+  "patterns": [
+    {
+      "id": "PAT-001",
+      "name": "Day Folder Structure",
+      "pattern": "Week_{week}/{day}/",
+      "description": "Standard pattern for organizing daily work",
+      "variables": {
+        "week": "Week number (01, 02, etc.)",
+        "day": "Day number (01-07)"
+      },
+      "examples": [
+        "Week_01/06/",
+        "Week_01/07/",
+        "Week_01/08/",
+        "Week_02/01/"
+      ],
+      "usage": "Use for organizing work by week and day",
+      "related_placements": ["PLM-026", "PLM-027", "PLM-028", "PLM-029"]
+    },
+    {
+      "id": "PAT-002",
+      "name": "Day Output Folder",
+      "pattern": "Week_{week}/{day}/output/",
+      "description": "Output folder within each day",
+      "variables": {
+        "week": "Week number",
+        "day": "Day number"
+      },
+      "examples": [
+        "Week_01/06/output/",
+        "Week_01/07/output/",
+        "Week_01/08/output/"
+      ],
+      "usage": "Store all generated files, summaries, and analysis",
+      "related_placements": ["PLM-043"]
+    },
+    {
+      "id": "PAT-003",
+      "name": "Day Guides Folder",
+      "pattern": "Week_{week}/{day}/guides/",
+      "description": "Guides folder within each day",
+      "variables": {
+        "week": "Week number",
+        "day": "Day number"
+      },
+      "examples": [
+        "Week_01/07/guides/",
+        "Week_01/08/guides/"
+      ],
+      "usage": "Store navigation guides and how-to documents",
+      "related_placements": ["PLM-044"]
+    },
+    {
+      "id": "PAT-004",
+      "name": "Entity README",
+      "pattern": "ENTITIES/{entity}/README.md",
+      "description": "Standard README placement for entities",
+      "variables": {
+        "entity": "Entity name (Libraries, Video, HR, etc.)"
+      },
+      "examples": [
+        "ENTITIES/Libraries/README.md",
+        "ENTITIES/Video/README.md",
+        "ENTITIES/HR/README.md",
+        "ENTITIES/Executives/README.md"
+      ],
+      "usage": "Every entity must have a README.md as entrance point",
+      "required": true,
+      "related_placements": ["PLM-045"]
+    },
+    {
+      "id": "PAT-005",
+      "name": "Daily Report",
+      "pattern": "Reports/Daily/YYYY-MM-DD_{description}.md",
+      "description": "Daily report file naming pattern",
+      "variables": {
+        "YYYY-MM-DD": "ISO 8601 date format",
+        "description": "Brief description (session_1_report, systems_created_summary, etc.)"
+      },
+      "examples": [
+        "Reports/Daily/2025-12-08_session_1_report.md",
+        "Reports/Daily/2025-12-08_systems_created_summary.md",
+        "Reports/Daily/2025-12-08_integration_summary.md"
+      ],
+      "usage": "Use for all daily reports and summaries",
+      "date_format": "YYYY-MM-DD",
+      "related_placements": ["PLM-046"]
+    },
+    {
+      "id": "PAT-006",
+      "name": "Task File",
+      "pattern": "TASKS/TASK-###_{Name_With_Underscores}.md",
+      "description": "Task file naming pattern",
+      "variables": {
+        "###": "3-digit zero-padded task number",
+        "Name_With_Underscores": "Descriptive name with underscores (not spaces)"
+      },
+      "examples": [
+        "TASKS/TASK-001_AI_Voice_Agent.md",
+        "TASKS/TASK-002_Media_Library.md",
+        "TASKS/TASK-010_Internal_Companies_Ecosystem.md"
+      ],
+      "usage": "Use for all user-initiated tasks",
+      "id_format": "TASK-###",
+      "related_placements": ["PLM-047"]
+    },
+    {
+      "id": "PAT-007",
+      "name": "Execution File",
+      "pattern": "AI_EXECUTIONS/EXC-###_{Name_With_Underscores}.md",
+      "description": "Execution file naming pattern",
+      "variables": {
+        "###": "3-digit zero-padded execution number",
+        "Name_With_Underscores": "Descriptive name with underscores"
+      },
+      "examples": [
+        "AI_EXECUTIONS/EXC-001_Icon_Library.md",
+        "AI_EXECUTIONS/EXC-002_Reserved_Words_Emoji_Map.md",
+        "AI_EXECUTIONS/EXC-012_Cleanup_Day_07_Files.md"
+      ],
+      "usage": "Use for AI-initiated atomic executions",
+      "id_format": "EXC-###",
+      "related_placements": ["PLM-020"]
+    },
+    {
+      "id": "PAT-008",
+      "name": "Session Report",
+      "pattern": "Reports/Daily/YYYY-MM-DD_session_{N}_report.md",
+      "description": "Session-specific report pattern",
+      "variables": {
+        "YYYY-MM-DD": "ISO 8601 date",
+        "N": "Session number for that day"
+      },
+      "examples": [
+        "Reports/Daily/2025-12-08_session_1_report.md",
+        "Reports/Daily/2025-12-08_session_2_report.md",
+        "Reports/Daily/2025-12-08_session_3_report.md"
+      ],
+      "usage": "Use for session-specific reporting",
+      "related_placements": ["PLM-024"]
+    },
+    {
+      "id": "PAT-009",
+      "name": "Library Core",
+      "pattern": "ENTITIES/Libraries/{library}/Core/",
+      "description": "Core folder for library entities",
+      "variables": {
+        "library": "Library name (Placements, Responsibilities, etc.)"
+      },
+      "examples": [
+        "ENTITIES/Libraries/Placements/Core/",
+        "ENTITIES/Libraries/Responsibilities/Core/"
+      ],
+      "usage": "Store master catalogs and core definitions",
+      "related_placements": ["PLM-004"]
+    },
+    {
+      "id": "PAT-010",
+      "name": "Library By_Type",
+      "pattern": "ENTITIES/Libraries/{library}/By_Type/",
+      "description": "By_Type folder for categorized library data",
+      "variables": {
+        "library": "Library name"
+      },
+      "examples": [
+        "ENTITIES/Libraries/Placements/By_Type/",
+        "ENTITIES/Libraries/Responsibilities/By_Type/"
+      ],
+      "usage": "Store type-specific categorized data",
+      "related_placements": ["PLM-004"]
+    },
+    {
+      "id": "PAT-011",
+      "name": "Library Integration",
+      "pattern": "ENTITIES/Libraries/{library}/Integration/",
+      "description": "Integration folder for library cross-references",
+      "variables": {
+        "library": "Library name"
+      },
+      "examples": [
+        "ENTITIES/Libraries/Placements/Integration/",
+        "ENTITIES/Libraries/Responsibilities/Integration/"
+      ],
+      "usage": "Store cross-references and mappings with other systems",
+      "related_placements": ["PLM-004"]
+    },
+    {
+      "id": "PAT-012",
+      "name": "Library Symbols",
+      "pattern": "ENTITIES/Libraries/{library}/Symbols/",
+      "description": "Symbols folder for library visual indicators",
+      "variables": {
+        "library": "Library name"
+      },
+      "examples": [
+        "ENTITIES/Libraries/Placements/Symbols/",
+        "ENTITIES/Libraries/Responsibilities/Symbols/"
+      ],
+      "usage": "Store symbol definitions and emoji mappings",
+      "related_placements": ["PLM-004"]
+    },
+    {
+      "id": "PAT-013",
+      "name": "Library Templates",
+      "pattern": "ENTITIES/Libraries/{library}/Templates/",
+      "description": "Templates folder for reusable library templates",
+      "variables": {
+        "library": "Library name"
+      },
+      "examples": [
+        "ENTITIES/Libraries/Placements/Templates/",
+        "ENTITIES/Libraries/Responsibilities/Templates/"
+      ],
+      "usage": "Store reusable templates and patterns",
+      "related_placements": ["PLM-004"]
+    },
+    {
+      "id": "PAT-014",
+      "name": "System Component",
+      "pattern": "System/{component}/",
+      "description": "System component folder pattern",
+      "variables": {
+        "component": "Component name (Principles, Agents, Workflows, etc.)"
+      },
+      "examples": [
+        "System/Principles/",
+        "System/Agents/",
+        "System/Workflows/",
+        "System/Skills/"
+      ],
+      "usage": "Use for all system-level components",
+      "system_ids": ["SYS.30", "SYS.40", "SYS.50", "SYS.60", "SYS.70", "SYS.80"],
+      "related_placements": ["PLM-003"]
+    },
+    {
+      "id": "PAT-015",
+      "name": "User Input Dictation",
+      "pattern": "USER_INPUTS/YYYY-MM-DD_dictation.md",
+      "description": "User dictation file pattern",
+      "variables": {
+        "YYYY-MM-DD": "ISO 8601 date"
+      },
+      "examples": [
+        "USER_INPUTS/2025-12-08_dictation.md",
+        "USER_INPUTS/2025-12-09_dictation.md"
+      ],
+      "usage": "Use for capturing raw user voice input",
+      "related_placements": ["PLM-022"]
+    },
+    {
+      "id": "PAT-016",
+      "name": "User Input Clarifications",
+      "pattern": "USER_INPUTS/YYYY-MM-DD_clarifications.md",
+      "description": "User clarification answers pattern",
+      "variables": {
+        "YYYY-MM-DD": "ISO 8601 date"
+      },
+      "examples": [
+        "USER_INPUTS/2025-12-08_clarifications.md"
+      ],
+      "usage": "Use when user provides answers to clarification questions",
+      "related_placements": ["PLM-022"]
+    },
+    {
+      "id": "PAT-017",
+      "name": "Cluster Document",
+      "pattern": "Week_{week}/{day}/output/{day}_wspr_cluster_{##}_{name}.md",
+      "description": "Cluster document naming pattern",
+      "variables": {
+        "week": "Week number",
+        "day": "Day number",
+        "##": "2-digit cluster number",
+        "name": "Cluster name"
+      },
+      "examples": [
+        "Week_01/07/output/07_wspr_cluster_01_libraries.md",
+        "Week_01/07/output/07_wspr_cluster_02_actions.md",
+        "Week_01/07/output/07_wspr_cluster_13_integration.md"
+      ],
+      "usage": "Use for whisper processing cluster outputs",
+      "related_placements": ["PLM-043"]
+    },
+    {
+      "id": "PAT-018",
+      "name": "Relative Parent Reference",
+      "pattern": "../{folder}/",
+      "description": "Relative path going up one level",
+      "variables": {
+        "folder": "Target folder name"
+      },
+      "examples": [
+        "../System/",
+        "../ENTITIES/",
+        "../../TASKS/",
+        "../../../Reports/"
+      ],
+      "usage": "Use for relative references to parent/sibling folders",
+      "note": "Each ../ goes up one level in hierarchy"
+    }
+  ],
+  "pattern_categories": {
+    "organizational": {
+      "description": "Patterns for organizing files and folders",
+      "patterns": ["PAT-001", "PAT-002", "PAT-003", "PAT-009", "PAT-010", "PAT-011", "PAT-012", "PAT-013", "PAT-014"]
+    },
+    "naming": {
+      "description": "Patterns for naming files",
+      "patterns": ["PAT-004", "PAT-005", "PAT-006", "PAT-007", "PAT-008", "PAT-015", "PAT-016", "PAT-017"]
+    },
+    "navigation": {
+      "description": "Patterns for navigating between folders",
+      "patterns": ["PAT-018"]
+    }
+  },
+  "usage_rules": {
+    "consistency": "Always follow established patterns for similar files",
+    "dates": "Always use ISO 8601 format (YYYY-MM-DD) for dates",
+    "ids": "Always use zero-padded numbers for IDs (001, not 1)",
+    "separators": "Use underscores for multi-word names (not spaces or dashes)",
+    "extensions": "Use .md for documentation, .json for data, .py for scripts"
+  },
+  "integration": {
+    "reserved_words": {
+      "CREATE": "Use when creating new files following patterns",
+      "PLACEMENT": "Use when specifying where files go",
+      "BUILD": "Use when constructing folder structures"
+    },
+    "terminology_standards": "All patterns comply with System/Libraries/TERMINOLOGY_STANDARDS.md",
+    "automation_agent": "automation-agent can detect and suggest patterns based on this library"
+  }
+}

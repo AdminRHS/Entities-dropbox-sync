@@ -1,0 +1,501 @@
+{
+  "metadata": {
+    "library_name": "Placements Library",
+    "version": "1.0",
+    "created": "2025-12-08",
+    "description": "Master catalog of all placements in the system",
+    "total_placements": 47,
+    "symbol": "📍"
+  },
+  "placements": [
+    {
+      "id": "PLM-001",
+      "name": "Root Dropbox",
+      "placement": "C:\\Users\\Dell\\Dropbox\\",
+      "type": "absolute",
+      "category": "root",
+      "description": "Root placement for all system files",
+      "symbol": "📍",
+      "related": []
+    },
+    {
+      "id": "PLM-002",
+      "name": "ENTITIES Root",
+      "placement": "ENTITIES/",
+      "type": "relative",
+      "category": "entity",
+      "description": "Root placement for all entities",
+      "symbol": "📁",
+      "related": ["PLM-001"]
+    },
+    {
+      "id": "PLM-003",
+      "name": "System Root",
+      "placement": "System/",
+      "type": "relative",
+      "category": "system",
+      "description": "Root placement for system files",
+      "symbol": "⚙️",
+      "related": ["PLM-001"]
+    },
+    {
+      "id": "PLM-004",
+      "name": "Libraries",
+      "placement": "ENTITIES/Libraries/",
+      "type": "relative",
+      "category": "entity",
+      "description": "Placement for all library entities",
+      "symbol": "📚",
+      "related": ["PLM-002"]
+    },
+    {
+      "id": "PLM-005",
+      "name": "Actions",
+      "placement": "ENTITIES/Actions/",
+      "type": "relative",
+      "category": "entity",
+      "description": "Placement for Actions entity (ENT.ACT)",
+      "symbol": "⚡",
+      "related": ["PLM-002"]
+    },
+    {
+      "id": "PLM-006",
+      "name": "Similar",
+      "placement": "ENTITIES/Similar/",
+      "type": "relative",
+      "category": "entity",
+      "description": "Placement for Similar entity (ENT.SIM)",
+      "symbol": "🔄",
+      "related": ["PLM-002"]
+    },
+    {
+      "id": "PLM-007",
+      "name": "Scraping",
+      "placement": "ENTITIES/Scraping/",
+      "type": "relative",
+      "category": "entity",
+      "description": "Placement for Scraping entity (ENT.SCR)",
+      "symbol": "🕷️",
+      "related": ["PLM-002"]
+    },
+    {
+      "id": "PLM-008",
+      "name": "Video",
+      "placement": "ENTITIES/Video/",
+      "type": "relative",
+      "category": "entity",
+      "description": "Placement for Video entity (ENT.VID)",
+      "symbol": "🎥",
+      "related": ["PLM-002"]
+    },
+    {
+      "id": "PLM-009",
+      "name": "Human Resources",
+      "placement": "ENTITIES/HR/",
+      "type": "relative",
+      "category": "entity",
+      "description": "Placement for HR entity (ENT.HR)",
+      "symbol": "👥",
+      "related": ["PLM-002"]
+    },
+    {
+      "id": "PLM-010",
+      "name": "Executives",
+      "placement": "ENTITIES/Executives/",
+      "type": "relative",
+      "category": "entity",
+      "description": "Placement for Executives entity (ENT.EXC)",
+      "symbol": "👔",
+      "related": ["PLM-002"]
+    },
+    {
+      "id": "PLM-011",
+      "name": "Placements Library",
+      "placement": "ENTITIES/Libraries/Placements/",
+      "type": "relative",
+      "category": "entity",
+      "description": "Placement for Placements library itself (meta)",
+      "symbol": "📍",
+      "related": ["PLM-004"]
+    },
+    {
+      "id": "PLM-012",
+      "name": "Responsibilities Library",
+      "placement": "ENTITIES/Libraries/Responsibilities/",
+      "type": "relative",
+      "category": "entity",
+      "description": "Placement for Responsibilities library",
+      "symbol": "📋",
+      "related": ["PLM-004"]
+    },
+    {
+      "id": "PLM-013",
+      "name": "System Principles",
+      "placement": "System/Principles/",
+      "type": "relative",
+      "category": "system",
+      "description": "Placement for System Principles (SYS.30)",
+      "symbol": "💎",
+      "related": ["PLM-003"]
+    },
+    {
+      "id": "PLM-014",
+      "name": "System Agents",
+      "placement": "System/Agents/",
+      "type": "relative",
+      "category": "system",
+      "description": "Placement for System Agents (SYS.40)",
+      "symbol": "🤖",
+      "related": ["PLM-003"]
+    },
+    {
+      "id": "PLM-015",
+      "name": "System Verification",
+      "placement": "System/Verification/",
+      "type": "relative",
+      "category": "system",
+      "description": "Placement for System Verification (SYS.50)",
+      "symbol": "✅",
+      "related": ["PLM-003"]
+    },
+    {
+      "id": "PLM-016",
+      "name": "System Workflows",
+      "placement": "System/Workflows/",
+      "type": "relative",
+      "category": "system",
+      "description": "Placement for System Workflows (SYS.60)",
+      "symbol": "🔄",
+      "related": ["PLM-003"]
+    },
+    {
+      "id": "PLM-017",
+      "name": "System Skills",
+      "placement": "System/Skills/",
+      "type": "relative",
+      "category": "system",
+      "description": "Placement for System Skills (SYS.70)",
+      "symbol": "🎯",
+      "related": ["PLM-003"]
+    },
+    {
+      "id": "PLM-018",
+      "name": "System Integration",
+      "placement": "System/Integration/",
+      "type": "relative",
+      "category": "system",
+      "description": "Placement for System Integration (SYS.80)",
+      "symbol": "🔗",
+      "related": ["PLM-003"]
+    },
+    {
+      "id": "PLM-019",
+      "name": "TASKS",
+      "placement": "TASKS/",
+      "type": "relative",
+      "category": "task",
+      "description": "Placement for user-initiated tasks",
+      "symbol": "📌",
+      "related": ["PLM-001"]
+    },
+    {
+      "id": "PLM-020",
+      "name": "AI_EXECUTIONS",
+      "placement": "AI_EXECUTIONS/",
+      "type": "relative",
+      "category": "execution",
+      "description": "Placement for AI-initiated executions",
+      "symbol": "🔧",
+      "related": ["PLM-001"]
+    },
+    {
+      "id": "PLM-021",
+      "name": "CLARIFICATIONS",
+      "placement": "CLARIFICATIONS/",
+      "type": "relative",
+      "category": "input",
+      "description": "Placement for Q&A tracking",
+      "symbol": "❓",
+      "related": ["PLM-001"]
+    },
+    {
+      "id": "PLM-022",
+      "name": "USER_INPUTS",
+      "placement": "USER_INPUTS/",
+      "type": "relative",
+      "category": "input",
+      "description": "Placement for user inputs and replies",
+      "symbol": "💬",
+      "related": ["PLM-001"]
+    },
+    {
+      "id": "PLM-023",
+      "name": "Reports Root",
+      "placement": "Reports/",
+      "type": "relative",
+      "category": "report",
+      "description": "Root placement for all reports",
+      "symbol": "📊",
+      "related": ["PLM-001"]
+    },
+    {
+      "id": "PLM-024",
+      "name": "Reports Daily",
+      "placement": "Reports/Daily/",
+      "type": "relative",
+      "category": "report",
+      "description": "Placement for daily reports",
+      "symbol": "📅",
+      "related": ["PLM-023"]
+    },
+    {
+      "id": "PLM-025",
+      "name": "Execution Chat Log",
+      "placement": "Execution/chat_log.md",
+      "type": "relative",
+      "category": "tracking",
+      "description": "Placement for execution chat log",
+      "symbol": "💬",
+      "related": ["PLM-001"]
+    },
+    {
+      "id": "PLM-026",
+      "name": "Week 01",
+      "placement": "Week_01/",
+      "type": "relative",
+      "category": "day",
+      "description": "Placement for Week 1 days",
+      "symbol": "📆",
+      "related": ["PLM-001"]
+    },
+    {
+      "id": "PLM-027",
+      "name": "Day 06",
+      "placement": "Week_01/06/",
+      "type": "relative",
+      "category": "day",
+      "description": "Placement for Day 06 files",
+      "symbol": "📁",
+      "related": ["PLM-026"]
+    },
+    {
+      "id": "PLM-028",
+      "name": "Day 07",
+      "placement": "Week_01/07/",
+      "type": "relative",
+      "category": "day",
+      "description": "Placement for Day 07 files",
+      "symbol": "📁",
+      "related": ["PLM-026"]
+    },
+    {
+      "id": "PLM-029",
+      "name": "Day 08",
+      "placement": "Week_01/08/",
+      "type": "relative",
+      "category": "day",
+      "description": "Placement for Day 08 files",
+      "symbol": "📁",
+      "related": ["PLM-026"]
+    },
+    {
+      "id": "PLM-030",
+      "name": "automation-agent",
+      "placement": "automation-agent/",
+      "type": "relative",
+      "category": "system",
+      "description": "Placement for automation agent system",
+      "symbol": "🤖",
+      "related": ["PLM-001"]
+    },
+    {
+      "id": "PLM-031",
+      "name": "PROMPTS Core",
+      "placement": "ENTITIES/PROMPTS/Core/",
+      "type": "relative",
+      "category": "entity",
+      "description": "Placement for core prompts",
+      "symbol": "📝",
+      "related": ["PLM-002"]
+    },
+    {
+      "id": "PLM-032",
+      "name": "PROMPTS Library Builders",
+      "placement": "ENTITIES/PROMPTS/Library_Builders/",
+      "type": "relative",
+      "category": "entity",
+      "description": "Placement for library builder prompts",
+      "symbol": "🏗️",
+      "related": ["PLM-002"]
+    },
+    {
+      "id": "PLM-033",
+      "name": "ACCOUNTS Lead Accounts",
+      "placement": "ACCOUNTS/Lead Accounts/",
+      "type": "relative",
+      "category": "data",
+      "description": "Placement for LinkedIn export data",
+      "symbol": "💼",
+      "related": ["PLM-001"]
+    },
+    {
+      "id": "PLM-034",
+      "name": "Session Handoff",
+      "placement": "SESSION_HANDOFF.md",
+      "type": "relative",
+      "category": "tracking",
+      "description": "Placement for session handoff file",
+      "symbol": "🔄",
+      "related": ["PLM-001"]
+    },
+    {
+      "id": "PLM-035",
+      "name": "System Libraries",
+      "placement": "System/Libraries/",
+      "type": "relative",
+      "category": "system",
+      "description": "Placement for system-level libraries",
+      "symbol": "📚",
+      "related": ["PLM-003"]
+    },
+    {
+      "id": "PLM-036",
+      "name": "System Vocabulary",
+      "placement": "System/Vocabulary/",
+      "type": "relative",
+      "category": "system",
+      "description": "Placement for reserved words and vocabulary",
+      "symbol": "📖",
+      "related": ["PLM-003"]
+    },
+    {
+      "id": "PLM-037",
+      "name": "System IDs",
+      "placement": "System/IDs/",
+      "type": "relative",
+      "category": "system",
+      "description": "Placement for ID tracking files",
+      "symbol": "🆔",
+      "related": ["PLM-003"]
+    },
+    {
+      "id": "PLM-038",
+      "name": "MAIN_PROMPT",
+      "placement": "ENTITIES/PROMPTS/Core/MAIN_PROMPT_v7.2.md",
+      "type": "relative",
+      "category": "entity",
+      "description": "Placement for main prompt file",
+      "symbol": "⭐",
+      "related": ["PLM-031"]
+    },
+    {
+      "id": "PLM-039",
+      "name": "Terminology Standards",
+      "placement": "System/Libraries/TERMINOLOGY_STANDARDS.md",
+      "type": "relative",
+      "category": "system",
+      "description": "Placement for terminology standards document",
+      "symbol": "📋",
+      "related": ["PLM-035"]
+    },
+    {
+      "id": "PLM-040",
+      "name": "Session Lifecycle",
+      "placement": "System/Workflows/SESSION_LIFECYCLE.md",
+      "type": "relative",
+      "category": "system",
+      "description": "Placement for session lifecycle workflow",
+      "symbol": "🔄",
+      "related": ["PLM-016"]
+    },
+    {
+      "id": "PLM-041",
+      "name": "Session Open Checklist",
+      "placement": "System/Workflows/CHECKLIST_SESSION_OPEN.md",
+      "type": "relative",
+      "category": "system",
+      "description": "Placement for session opening checklist",
+      "symbol": "✅",
+      "related": ["PLM-016"]
+    },
+    {
+      "id": "PLM-042",
+      "name": "Session Close Checklist",
+      "placement": "System/Workflows/CHECKLIST_SESSION_CLOSE.md",
+      "type": "relative",
+      "category": "system",
+      "description": "Placement for session closing checklist",
+      "symbol": "✅",
+      "related": ["PLM-016"]
+    },
+    {
+      "id": "PLM-043",
+      "name": "Day Output Folder",
+      "placement": "Week_01/{day}/output/",
+      "type": "pattern",
+      "category": "day",
+      "description": "Pattern for day output folders",
+      "symbol": "📂",
+      "related": ["PLM-026"]
+    },
+    {
+      "id": "PLM-044",
+      "name": "Day Guides Folder",
+      "placement": "Week_01/{day}/guides/",
+      "type": "pattern",
+      "category": "day",
+      "description": "Pattern for day guides folders",
+      "symbol": "📚",
+      "related": ["PLM-026"]
+    },
+    {
+      "id": "PLM-045",
+      "name": "Entity README",
+      "placement": "ENTITIES/{entity}/README.md",
+      "type": "pattern",
+      "category": "entity",
+      "description": "Pattern for entity README files",
+      "symbol": "📄",
+      "related": ["PLM-002"]
+    },
+    {
+      "id": "PLM-046",
+      "name": "Daily Report",
+      "placement": "Reports/Daily/YYYY-MM-DD_{description}.md",
+      "type": "pattern",
+      "category": "report",
+      "description": "Pattern for daily report files",
+      "symbol": "📊",
+      "related": ["PLM-024"]
+    },
+    {
+      "id": "PLM-047",
+      "name": "Task File",
+      "placement": "TASKS/TASK-###_{Name}.md",
+      "type": "pattern",
+      "category": "task",
+      "description": "Pattern for task files",
+      "symbol": "📌",
+      "related": ["PLM-019"]
+    }
+  ],
+  "statistics": {
+    "by_type": {
+      "absolute": 1,
+      "relative": 42,
+      "pattern": 4
+    },
+    "by_category": {
+      "root": 1,
+      "entity": 13,
+      "system": 13,
+      "task": 2,
+      "execution": 1,
+      "input": 2,
+      "report": 3,
+      "tracking": 2,
+      "day": 6,
+      "data": 1
+    }
+  }
+}
