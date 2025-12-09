@@ -1,0 +1,591 @@
+# PROMPTS для генерации RESEARCHES 2 Application
+
+**Дата создания:** 2025-12-08
+**Версия:** 1.0
+
+---
+
+## 📁 Структура промптов
+
+Эта папка содержит промпты для AI-генерации приложения RESEARCHES 2.
+
+```
+prompts/
+├── README.md (этот файл)
+├── FULL-APP-GENERATION-PROMPT.md          # ГЛАВНЫЙ ПРОМПТ - полное приложение
+├── 02-SEARCH-QUEUE-MODULE-PROMPT.md       # Модуль Search Queue
+└── 03-VIDEO-QUEUE-MODULE-PROMPT.md        # Модуль Video Queue
+```
+
+---
+
+## 🎨 ДИЗАЙН-СИСТЕМА
+
+Все промпты основаны на **двух** официальных дизайн-системах:
+
+### 1. Video Catalog (референс интерфейса)
+**URL:** https://adminrhs.github.io/Video-catalog/
+
+**Что взято:**
+- Layout structure (sidebar + main content)
+- Color scheme (department colors)
+- Component designs (cards, badges)
+- Animations (wave, transitions)
+- Custom scrollbar styling
+- Filter buttons styling
+
+### 2. Design System (спецификация компонентов)
+**URL:** https://adminrhs.github.io/Design-system/
+
+**Что взято:**
+- **Typography:** Roboto font, heading hierarchy (H1-H5)
+- **Colors:** Точные hex коды, primary/semantic colors
+- **Spacing:** 4px base unit system (xs/sm/md/lg/xl/2xl/3xl)
+- **Border Radius:** 4px/8px/12px/16px/20px/50%
+- **Shadows:** Light/Card/Medium/Heavy/Inset
+- **Transitions:** 150ms/300ms/500ms/1.5s
+- **Components:** Buttons, Inputs, Radio/Checkbox specs
+- **Breakpoints:** 320px→1440px+
+
+---
+
+## 🚀 КАК ИСПОЛЬЗОВАТЬ
+
+### Вариант 1: Полная генерация (рекомендуется)
+
+**Файл:** `FULL-APP-GENERATION-PROMPT.md`
+
+**Что включено:**
+- ✅ Полная дизайн-система (CSS variables)
+- ✅ Typography (Roboto fonts)
+- ✅ Spacing & Border Radius
+- ✅ Все компоненты (9 типов)
+- ✅ Animations & Transitions
+- ✅ Search Queue Module
+- ✅ Video Queue Module
+- ✅ Dashboard Module
+- ✅ Backend API спецификация
+- ✅ Responsive design
+
+**Использование:**
+```bash
+# 1. Открой FULL-APP-GENERATION-PROMPT.md
+# 2. Скопируй ВЕСЬ контент
+# 3. Вставь в Claude/ChatGPT/другой AI
+# 4. Жди генерации (может быть несколько итераций)
+```
+
+**Результат:** Полное приложение со всеми модулями
+
+**Время генерации:** 10-20 минут (зависит от AI)
+
+---
+
+### Вариант 2: Модульная генерация
+
+#### Этап 1: Search Queue Module
+
+**Файл:** `02-SEARCH-QUEUE-MODULE-PROMPT.md`
+
+**Что включено:**
+- Search Queue Dashboard
+- Create Search Task Modal
+- Search Results Modal (ключевой компонент!)
+- Search Task Card
+- API integration
+- Стилизация
+
+**Цвет модуля:** `#6D28D9` (Deep Purple)
+
+**Использование:**
+```bash
+# 1. Сначала создай дизайн-систему (см. FULL-APP-GENERATION-PROMPT.md секцию ДИЗАЙН)
+# 2. Потом используй этот промпт для Search Queue
+```
+
+---
+
+#### Этап 2: Video Queue Module
+
+**Файл:** `03-VIDEO-QUEUE-MODULE-PROMPT.md`
+
+**Что включено:**
+- Video Queue Dashboard
+- Add Video Modal (с YouTube API)
+- Video Cards (grid/list view)
+- Video Queue Stats Dashboard
+- Priority Badge Component
+- Priority Calculator (0-100 баллов)
+- API integration
+- Стилизация
+
+**Цвет модуля:** `#147857` (Forest Green)
+
+**Использование:**
+```bash
+# 1. Создай Search Queue (шаг выше)
+# 2. Используй этот промпт для Video Queue
+```
+
+---
+
+## 📋 ПОСЛЕДОВАТЕЛЬНОСТЬ РАЗРАБОТКИ
+
+### Phase 1: Дизайн-система (1-2 дня)
+```bash
+# Используй FULL-APP-GENERATION-PROMPT.md
+# Секция: ДИЗАЙН-СИСТЕМА И СТИЛИСТИКА
+
+1. Создай design-tokens.css
+2. Настрой Tailwind config
+3. Создай base components (Button, Badge, Input, Modal, Card)
+4. Настрой dark mode toggle
+5. Создай sidebar navigation
+```
+
+**Файлы:**
+- `src/styles/design-tokens.css`
+- `src/styles/components.css`
+- `tailwind.config.js`
+- `src/components/ui/*`
+
+---
+
+### Phase 2: Search Queue (2-3 дня)
+```bash
+# Используй 02-SEARCH-QUEUE-MODULE-PROMPT.md
+
+1. SearchQueueDashboard.tsx
+2. CreateSearchTaskModal.tsx
+3. SearchResultsModal.tsx (ПРИОРИТЕТ!)
+4. SearchTaskCard.tsx
+5. Backend API: /api/search-queue/*
+6. YouTube search integration
+```
+
+**Файлы:**
+- `src/pages/SearchQueuePage.tsx`
+- `src/components/search-queue/*`
+- `server/routes/search-queue.js`
+
+---
+
+### Phase 3: Video Queue (2-3 дня)
+```bash
+# Используй 03-VIDEO-QUEUE-MODULE-PROMPT.md
+
+1. VideoQueueDashboard.tsx
+2. AddVideoModal.tsx
+3. VideoCard.tsx
+4. VideoQueueStats.tsx
+5. PriorityBadge.tsx
+6. Backend API: /api/video-queue/*
+7. YouTube metadata integration
+8. Priority Calculator
+```
+
+**Файлы:**
+- `src/pages/VideoQueuePage.tsx`
+- `src/components/video-queue/*`
+- `server/routes/video-queue.js`
+- `server/services/priority-calculator.js`
+
+---
+
+### Phase 4: Dashboard & Polish (1-2 дня)
+```bash
+# Используй FULL-APP-GENERATION-PROMPT.md
+# Секция: Dashboard Module
+
+1. Main Dashboard
+2. Overview Stats Cards
+3. Recent Activity Feed
+4. Charts (Recharts)
+5. Quick Actions
+6. Polish animations
+7. Test dark mode
+8. Responsive testing
+```
+
+**Файлы:**
+- `src/pages/DashboardPage.tsx`
+- `src/components/dashboard/*`
+
+---
+
+## ✅ КРИТЕРИИ ГОТОВНОСТИ
+
+### Дизайн
+- ✅ Соответствует обоим референсам
+- ✅ Roboto font используется везде
+- ✅ CSS variables корректны (borders: #e0e0e0, radius: 8px/12px, etc.)
+- ✅ Dark/Light mode работает корректно
+- ✅ Department colors (#6D28D9, #147857, #4299e1, #F97316, #DC2626, #EC4899)
+- ✅ Shadows: light/card/medium/heavy
+- ✅ Transitions: 150ms/300ms/500ms
+- ✅ Custom scrollbar styling
+- ✅ Responsive на всех устройствах
+
+### Функционал
+- ✅ Search Queue: создание задач, выполнение поиска, модальное окно результатов
+- ✅ Video Queue: добавление видео, YouTube API, priority calculator
+- ✅ Dashboard: stats, charts, activity feed
+- ✅ Modals: открытие/закрытие с анимациями
+- ✅ Filters: работают корректно
+- ✅ API integration: все endpoints
+
+### UX
+- ✅ Hover states: translateY(-2px) + shadow
+- ✅ Loading states: spinners, skeletons
+- ✅ Empty states: illustrations + CTA
+- ✅ Error handling: toasts, validation
+- ✅ Success notifications: green toasts
+- ✅ Smooth scrolling
+
+---
+
+## 🎯 КЛЮЧЕВЫЕ КОМПОНЕНТЫ
+
+### 1. Search Results Modal ⭐ ПРИОРИТЕТ!
+
+**Почему важен:**
+- Основной UX flow: Search → Results → Select → Add to Queue
+- Пользователь видит найденные видео
+- Выбирает какие добавить
+- Видит priority каждого видео
+
+**Особенности:**
+- Checkbox selection
+- Thumbnail previews
+- Priority badges (⭐⭐⭐⭐⭐)
+- Metadata (duration, views, date)
+- "Add Selected to Video Queue (N)" button
+
+**Дизайн:**
+- Width: 900px
+- Max-height: 90vh
+- Scrollable list
+- Selected state: blue border (--color-transcription)
+
+---
+
+### 2. Priority Badge
+
+**Важность:** Визуализация приоритета
+
+**Спецификация:**
+- 80-100: ⭐⭐⭐⭐⭐ (red #dc2626)
+- 60-79: ⭐⭐⭐⭐ (orange #ea580c)
+- 40-59: ⭐⭐⭐ (yellow #f59e0b)
+- 20-39: ⭐⭐ (light green #84cc16)
+- 0-19: ⭐ (green #22c55e)
+
+**Usage:** Везде где отображается priority
+
+---
+
+### 3. Video Card
+
+**Два режима:**
+- Grid view (по умолчанию)
+- List view (horizontal)
+
+**Hover effect:**
+```css
+transform: translateY(-4px);
+box-shadow: var(--shadow-lg);
+transition: all 300ms ease-in-out;
+```
+
+**Thumbnail:** 16:9 aspect ratio
+
+---
+
+### 4. Department Colors
+
+```css
+--color-search: #6D28D9      (Search Queue - Purple)
+--color-video: #147857       (Video Queue - Green)
+--color-transcription: #4299e1 (Transcriptions - Blue)
+--color-analysis: #F97316    (Analysis - Orange)
+--color-integration: #DC2626 (Integration - Red)
+--color-taxonomy: #EC4899    (Taxonomy - Pink)
+```
+
+**Background opacity:** 15% (rgba)
+**Border:** 1px solid color
+
+---
+
+## 🔧 ТЕХНИЧЕСКИЕDETAILS
+
+### Frontend Stack
+- **Framework:** React 18 + TypeScript
+- **Styling:** Tailwind CSS 3
+- **UI Components:** shadcn/ui (pre-configured)
+- **State:** Zustand
+- **Data Fetching:** React Query (TanStack Query)
+- **Router:** React Router v6
+- **Icons:** Lucide React
+- **Charts:** Recharts
+- **Animations:** Framer Motion
+
+### Backend Stack
+- **Runtime:** Node.js 18+
+- **Framework:** Express.js 4
+- **APIs:**
+  - Google Sheets API (data storage)
+  - Dropbox API (file storage)
+  - YouTube Data API v3 (metadata)
+  - OpenAI API (optional для AI search)
+
+### Package Installation
+
+**Backend:**
+```bash
+cd server
+npm install express cors dotenv googleapis dropbox-v2-api axios
+```
+
+**Frontend:**
+```bash
+cd client
+npm install react react-dom typescript @types/react
+npm install -D tailwindcss postcss autoprefixer
+npm install zustand @tanstack/react-query react-router-dom
+npm install lucide-react recharts framer-motion
+npx shadcn-ui@latest init
+```
+
+---
+
+## 📝 ПРИМЕЧАНИЯ ДЛЯ AI
+
+При генерации кода следуй этим правилам:
+
+1. **Используй точные спецификации** из Design System:
+   - Borders: #e0e0e0
+   - Radius: 8px (buttons), 12px (cards)
+   - Shadows: 0 2px 8px rgba(0,0,0,0.10)
+   - Spacing: 4px base unit
+
+2. **Typography СТРОГО Roboto:**
+   ```css
+   font-family: 'Roboto', sans-serif;
+   H1: 48px/58px, semibold (600)
+   H2: 40px/48px, semibold (600)
+   Body: 16px/24px, regular (400) or medium (500)
+   ```
+
+3. **Transitions всегда:**
+   ```css
+   transition: all 300ms ease-in-out;
+   ```
+
+4. **Dark mode поддержка везде:**
+   ```css
+   [data-theme="dark"] { ... }
+   ```
+
+5. **Department colors с 15% opacity backgrounds:**
+   ```css
+   background: rgba(109, 40, 217, 0.15);
+   border: 1px solid #6D28D9;
+   ```
+
+6. **Priority Calculator алгоритм:**
+   - Views: 0-25 points
+   - Recency: 0-25 points
+   - Duration: 0-20 points
+   - Channel: 0-15 points
+   - Topic: 0-15 points
+   **Total: 0-100**
+
+7. **Search Results Modal - ключевой UX:**
+   - ОБЯЗАТЕЛЬНО checkbox selection
+   - ОБЯЗАТЕЛЬНО priority badges
+   - ОБЯЗАТЕЛЬНО selected state (blue border)
+
+8. **Responsive breakpoints (Design System):**
+   ```css
+   Mobile: 320px-767px
+   Tablet: 768px-991px
+   Desktop: 992px-1199px
+   Large: 1200px-1439px
+   Extra Large: 1440px+
+   ```
+
+9. **Custom scrollbar (из Video Catalog):**
+   ```css
+   ::-webkit-scrollbar { width: 8px; }
+   ::-webkit-scrollbar-track { background: #f5f5f5; }
+   ::-webkit-scrollbar-thumb { background: #e0e0e0; }
+   ```
+
+10. **TypeScript ВСЕГДА:**
+    - Строгая типизация
+    - Интерфейсы для всех props
+    - Типы для API responses
+
+---
+
+## 🎓 BEST PRACTICES
+
+### Naming Conventions
+```typescript
+// Components: PascalCase
+SearchQueueDashboard.tsx
+VideoCard.tsx
+
+// CSS classes: kebab-case
+.search-result-item
+.video-card-thumbnail
+
+// CSS variables: kebab-case
+--color-search
+--shadow-card
+
+// Functions: camelCase
+calculatePriority()
+fetchMetadata()
+```
+
+### File Organization
+```
+src/
+├── components/
+│   ├── ui/                 # Base components (shadcn/ui)
+│   ├── search-queue/       # Search Queue specific
+│   ├── video-queue/        # Video Queue specific
+│   └── common/             # Shared components
+├── pages/                  # Route pages
+├── services/               # API services
+├── hooks/                  # Custom hooks
+├── store/                  # Zustand store
+├── styles/                 # CSS files
+└── utils/                  # Helper functions
+```
+
+### Component Structure
+```typescript
+// 1. Imports
+import React from 'react';
+import { Component } from './Component';
+
+// 2. Types/Interfaces
+interface Props {
+  // ...
+}
+
+// 3. Component
+export function ComponentName({ prop }: Props) {
+  // 4. State
+  const [state, setState] = useState();
+
+  // 5. Effects
+  useEffect(() => {}, []);
+
+  // 6. Handlers
+  const handleClick = () => {};
+
+  // 7. Render
+  return <div />;
+}
+```
+
+---
+
+## 🐛 TROUBLESHOOTING
+
+### Проблема: CSS variables не работают
+**Решение:** Убедись что `design-tokens.css` импортирован в `globals.css`:
+```css
+@import './design-tokens.css';
+```
+
+### Проблема: Dark mode не переключается
+**Решение:** Проверь что `data-theme` attribute установлен на `<html>`:
+```typescript
+document.documentElement.setAttribute('data-theme', 'dark');
+```
+
+### Проблема: Roboto font не загружается
+**Решение:** Проверь import в `globals.css`:
+```css
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600;700&display=swap');
+```
+
+### Проблема: Priority calculator возвращает NaN
+**Решение:** Проверь что все значения numbers:
+```typescript
+const priority = calculatePriority({
+  views: Number(video.views),
+  upload_date: new Date(video.upload_date),
+  duration: parseDuration(video.duration)
+});
+```
+
+---
+
+## 📞 SUPPORT
+
+Если возникли вопросы:
+1. Проверь референсы:
+   - https://adminrhs.github.io/Video-catalog/
+   - https://adminrhs.github.io/Design-system/
+2. Перечитай промпт внимательно
+3. Проверь что используешь правильные CSS variables
+4. Убедись что Tailwind config правильно настроен
+
+---
+
+## 📊 ПРОГРЕСС РАЗРАБОТКИ
+
+### Чеклист:
+
+#### Дизайн-система
+- [ ] CSS variables созданы
+- [ ] Tailwind config настроен
+- [ ] Base components (Button, Badge, Input, Card, Modal)
+- [ ] Dark mode работает
+- [ ] Sidebar navigation
+- [ ] Custom scrollbar
+
+#### Search Queue Module
+- [ ] SearchQueueDashboard
+- [ ] CreateSearchTaskModal
+- [ ] SearchResultsModal ⭐
+- [ ] SearchTaskCard
+- [ ] API integration
+- [ ] YouTube search
+
+#### Video Queue Module
+- [ ] VideoQueueDashboard
+- [ ] AddVideoModal
+- [ ] VideoCard (grid/list)
+- [ ] VideoQueueStats
+- [ ] PriorityBadge
+- [ ] Priority Calculator
+- [ ] API integration
+- [ ] YouTube metadata
+
+#### Dashboard
+- [ ] Main Dashboard
+- [ ] Stats Cards
+- [ ] Activity Feed
+- [ ] Charts
+- [ ] Quick Actions
+
+#### Testing & Polish
+- [ ] Responsive testing
+- [ ] Dark mode testing
+- [ ] Animation smoothness
+- [ ] API error handling
+- [ ] Empty states
+- [ ] Loading states
+
+---
+
+**Удачи в разработке! 🚀**
+
+*Последнее обновление: 2025-12-08*

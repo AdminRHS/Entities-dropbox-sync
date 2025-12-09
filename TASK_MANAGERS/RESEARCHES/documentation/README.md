@@ -1,19 +1,84 @@
-# RESEARCHES System Documentation
+# RESEARCHES 2 - System Documentation
 
-**Version:** 1.0
-**Last Updated:** 2025-12-03
-**Status:** Complete
+**Version:** 2.0
+**Last Updated:** 2025-12-08
+**Status:** Phase 0 (Planning & Architecture) - 12.5% Complete
+**Project:** RESEARCHES 2 - AI-Powered Video Content Processing System
 
-## Overview
+---
 
-This documentation package provides comprehensive coverage of the RESEARCHES system - a production-ready platform for research, processing, and integration of video content into the ENTITIES ecosystem.
+## 🚀 QUICK START
 
-The RESEARCHES system automates the journey from YouTube video discovery to taxonomy integration, processing 28+ videos through a 7-phase workflow with 90% time savings.
+### 📍 START HERE
 
-## Documentation Structure
+- **New Users:** [v1/12_QUICK_START.md](./v1/12_QUICK_START.md)
+- **Master Index:** [v1/00_MASTER_INDEX_UPDATED.md](./v1/00_MASTER_INDEX_UPDATED.md)
+- **Documentation Map:** [DOCUMENTATION_MAP.md](./DOCUMENTATION_MAP.md)
+
+### 🎯 KEY DOCUMENTS (Top 5)
+
+1. **[v1/14_DEVELOPMENT_PLAN_COMPLETE.md](./v1/14_DEVELOPMENT_PLAN_COMPLETE.md)** - Complete 9-phase plan (Russian, 70KB)
+2. **[v1/15_FULL_APP_GENERATION_PROMPT.md](./v1/15_FULL_APP_GENERATION_PROMPT.md)** - AI generation prompt (English, 65KB)
+3. **[PHASE_0_START_GUIDE.md](./PHASE_0_START_GUIDE.md)** - Phase 0 execution roadmap (8 sub-phases)
+4. **[DEVELOPMENT_PLAN_SUMMARY.md](./DEVELOPMENT_PLAN_SUMMARY.md)** - Executive summary (8KB)
+5. **[v1/16_DESIGN_SYSTEM_CSS_VARIABLES.md](./v1/16_DESIGN_SYSTEM_CSS_VARIABLES.md)** - Complete CSS variables
+
+---
+
+## 📋 OVERVIEW
+
+**RESEARCHES 2** is a comprehensive AI-powered video content processing system with a 7-phase workflow for extracting, analyzing, and integrating educational entities into a taxonomic knowledge base.
+
+### Core Features
+
+- **7-Phase Workflow:** Search → Queue → Transcription → Extraction → Gap Analysis → Integration → Mapping
+- **752+ Entities:** WRF, TOL, OBJ, ACT, PRF, SKL, DPT types
+- **AI-Assisted Development:** Solo developer + Claude Code + Cursor + v0.dev
+- **Modern Tech Stack:** React 19, ShadCN UI, Prisma, PostgreSQL (Neon), Dropbox API
+- **Target ROI:** 550+ hours/year saved at 100 videos/year
+
+---
+
+## 📁 DOCUMENTATION STRUCTURE
+
+### 🆕 NEW: Planning & Development (v2.0 - Added 2025-12-08)
+
+**Complete development documentation for RESEARCHES 2 application:**
+
+- **[v1/00_MASTER_INDEX_UPDATED.md](./v1/00_MASTER_INDEX_UPDATED.md)** ⭐ - Master navigation index
+- **[v1/14_DEVELOPMENT_PLAN_COMPLETE.md](./v1/14_DEVELOPMENT_PLAN_COMPLETE.md)** ⭐⭐⭐ - Complete 9-phase plan (Russian, 70KB)
+- **[v1/15_FULL_APP_GENERATION_PROMPT.md](./v1/15_FULL_APP_GENERATION_PROMPT.md)** ⭐⭐⭐ - AI generation prompt (English, 65KB)
+- **[v1/16_DESIGN_SYSTEM_CSS_VARIABLES.md](./v1/16_DESIGN_SYSTEM_CSS_VARIABLES.md)** ⭐⭐ - Complete CSS variables reference
+- **[PHASE_0_START_GUIDE.md](./PHASE_0_START_GUIDE.md)** ⭐⭐ - Phase 0 execution roadmap (8 sub-phases)
+- **[DEVELOPMENT_PLAN_SUMMARY.md](./DEVELOPMENT_PLAN_SUMMARY.md)** ⭐ - Executive summary (8.3KB)
+- **[DOCUMENTATION_MAP.md](./DOCUMENTATION_MAP.md)** - Visual documentation map
+
+**Design System References:**
+
+- 🌐 **https://adminrhs.github.io/Design-system/** - Official design system v1.0
+- 🌐 **https://adminrhs.github.io/Video-catalog/** - UI reference implementation
+
+### 📖 Core System Documentation (`v1/`)
+
+**Complete system documentation (v1.0):**
+
+- **[v1/01_FOLDER_STRUCTURE.md](./v1/01_FOLDER_STRUCTURE.md)** - Complete folder structure
+- **[v1/02_ALL_FILES_INVENTORY.md](./v1/02_ALL_FILES_INVENTORY.md)** - Full file inventory (300+ pages)
+- **[v1/03_SEARCH_QUEUE_COMPLETE.md](./v1/03_SEARCH_QUEUE_COMPLETE.md)** - Search Queue module documentation
+- **[v1/04_VIDEO_QUEUE_COMPLETE.md](./v1/04_VIDEO_QUEUE_COMPLETE.md)** - Video Queue module documentation
+- **[v1/05_TRANSCRIPTIONS_COMPLETE.md](./v1/05_TRANSCRIPTIONS_COMPLETE.md)** - Transcription workflow
+- **[v1/06_ANALYSIS_COMPLETE.md](./v1/06_ANALYSIS_COMPLETE.md)** - Analysis process
+- **[v1/07_INTEGRATION_COMPLETE.md](./v1/07_INTEGRATION_COMPLETE.md)** - Integration workflows
+- **[v1/08_SCRIPTS_DETAILED.md](./v1/08_SCRIPTS_DETAILED.md)** - Python scripts documentation (21 scripts)
+- **[v1/09_PROMPTS_CATALOG.md](./v1/09_PROMPTS_CATALOG.md)** - AI prompts library (50+ prompts)
+- **[v1/10_DATA_FILES.md](./v1/10_DATA_FILES.md)** - Data files documentation
+- **[v1/11_REPORTS_ARCHIVE.md](./v1/11_REPORTS_ARCHIVE.md)** - Reports documentation
+- **[v1/12_QUICK_START.md](./v1/12_QUICK_START.md)** - Quick start guide
+- **[v1/13_TROUBLESHOOTING.md](./v1/13_TROUBLESHOOTING.md)** - Common issues and solutions
 
 ### 📘 Technical Documentation (`technical/`)
-Core technical analysis and system specifications.
+
+Core technical analysis and system specifications (v1.0):
 
 - **[01_Executive_Summary.md](technical/01_Executive_Summary.md)** - High-level system overview, key metrics, and recommendations
 - **[02_Technical_Report.md](technical/02_Technical_Report.md)** - Detailed technical analysis of all system components
