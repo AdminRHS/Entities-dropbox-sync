@@ -11,14 +11,17 @@
 ```
 docs/
 ├── README-DOCS.md (этот файл)
-├── RESEARCHES-2-FULL-DEVELOPMENT-PLAN-v1.0-RU.md  ⭐ ГЛАВНЫЙ ПЛАН
-├── QUICK-START-GUIDE-RU.md                         ⭐ БЫСТРЫЙ СТАРТ
+├── ARCHITECTURE-DECISION-DROPBOX-VS-DATABASE.md    ⭐ АРХИТЕКТУРНОЕ РЕШЕНИЕ
+├── SEARCH-VIDEO-QUEUE-FUNCTIONAL-REQUIREMENTS.md   ⭐ ФУНКЦИОНАЛЬНЫЕ ТРЕБОВАНИЯ
+├── RESEARCHES-2-FULL-DEVELOPMENT-PLAN-v1.0-RU.md   ⭐ ГЛАВНЫЙ ПЛАН
+├── QUICK-START-GUIDE-RU.md                          ⭐ БЫСТРЫЙ СТАРТ
 ├── RESEARCHES-2-Development-Plan-Full.md
 ├── RESEARCHES-2-Development-Plan-Summary.md
 ├── SEARCH-QUEUE-VIDEO-QUEUE-DETAILED-PLAN.md
 ├── prompts/
-│   ├── FULL-APP-GENERATION-PROMPT.md               ⭐ UI ПРОМПТ
-│   └── design-system-analysis.md
+│   └── app/
+│       ├── COMPLETE-APP-GENERATION-PROMPT_1.md     ⭐ ГЛАВНЫЙ ПРОМПТ (v3.1 - Dropbox API)
+│       └── COMPLETE-APP-GENERATION-PROMPT.md       (v2.0 - Database, архив)
 └── steps/
     └── (пошаговые инструкции)
 ```
@@ -28,9 +31,11 @@ docs/
 ## 🎯 С ЧЕГО НАЧАТЬ?
 
 ### Для быстрого старта:
-1. 📖 **Прочитать:** [QUICK-START-GUIDE-RU.md](./QUICK-START-GUIDE-RU.md)
-2. 📋 **Изучить:** [RESEARCHES-2-FULL-DEVELOPMENT-PLAN-v1.0-RU.md](./RESEARCHES-2-FULL-DEVELOPMENT-PLAN-v1.0-RU.md)
-3. 🎨 **Генерация UI:** [prompts/FULL-APP-GENERATION-PROMPT.md](./prompts/FULL-APP-GENERATION-PROMPT.md)
+1. 🏗️ **Архитектура:** [ARCHITECTURE-DECISION-DROPBOX-VS-DATABASE.md](./ARCHITECTURE-DECISION-DROPBOX-VS-DATABASE.md) - **ВАЖНО!**
+2. 📖 **Прочитать:** [QUICK-START-GUIDE-RU.md](./QUICK-START-GUIDE-RU.md)
+3. 📋 **Изучить:** [RESEARCHES-2-FULL-DEVELOPMENT-PLAN-v1.0-RU.md](./RESEARCHES-2-FULL-DEVELOPMENT-PLAN-v1.0-RU.md)
+4. 🎯 **Функционал:** [SEARCH-VIDEO-QUEUE-FUNCTIONAL-REQUIREMENTS.md](./SEARCH-VIDEO-QUEUE-FUNCTIONAL-REQUIREMENTS.md)
+5. 🎨 **Генерация приложения:** [prompts/app/COMPLETE-APP-GENERATION-PROMPT_1.md](./prompts/app/COMPLETE-APP-GENERATION-PROMPT_1.md) **(v3.1 - Dropbox API)**
 
 ### Для детального понимания:
 1. Архитектура системы → FULL-DEVELOPMENT-PLAN раздел "Архитектура"
@@ -41,7 +46,37 @@ docs/
 
 ## 📚 ОСНОВНЫЕ ДОКУМЕНТЫ
 
-### 1. RESEARCHES-2-FULL-DEVELOPMENT-PLAN-v1.0-RU.md ⭐
+### 1. ARCHITECTURE-DECISION-DROPBOX-VS-DATABASE.md ⭐ **ВАЖНО!**
+**Назначение:** Анализ и рекомендация по выбору архитектуры
+**Разделы:**
+- Сравнение Database (PostgreSQL) vs Dropbox API
+- Анализ текущей системы (CSV/JSON files)
+- Производительность и стоимость
+- Сложность разработки и деплоя
+- **Рекомендация: Использовать Dropbox API (v3.1)**
+
+**Использовать для:**
+- Понимания архитектурного решения
+- Выбора между v2.0 (Database) и v3.1 (Dropbox)
+- Обоснования технических решений
+
+**Итоговое решение:** ✅ **Использовать v3.1 (Dropbox API)** - дешевле, проще, работает с существующими файлами
+
+### 2. SEARCH-VIDEO-QUEUE-FUNCTIONAL-REQUIREMENTS.md ⭐
+**Назначение:** Полный список функционала для Search Queue и Video Queue
+**Разделы:**
+- Search Queue: 8 разделов функционала (создание задач, поиск, метрики)
+- Video Queue: 13 разделов функционала (добавление, приоритизация, статусы)
+- Processing Workflow (7 фаз)
+- Automation & Intelligence (90% автоматизация)
+- Known Issues (ISS-RES-001 to ISS-RES-010)
+
+**Использовать для:**
+- Понимания полного функционала системы
+- Создания технического задания
+- Планирования разработки
+
+### 3. RESEARCHES-2-FULL-DEVELOPMENT-PLAN-v1.0-RU.md ⭐
 **Назначение:** Полный план разработки приложения
 **Разделы:**
 - Обзор проекта
@@ -77,22 +112,26 @@ docs/
 - Первых шагов в Phase 0
 - Troubleshooting
 
-### 3. prompts/FULL-APP-GENERATION-PROMPT.md ⭐
-**Назначение:** Промпт для генерации UI с AI
+### 5. prompts/app/COMPLETE-APP-GENERATION-PROMPT_1.md ⭐ **ИСПОЛЬЗУЙТЕ ЭТОТ!**
+**Назначение:** Полный промпт для генерации приложения (Backend + Frontend)
+**Версия:** 3.1 (Dropbox API - БЕЗ БАЗЫ ДАННЫХ)
 **Разделы:**
-- Полная дизайн-система (цвета, типографика, отступы)
-- Все компоненты (кнопки, карточки, модалы, таблицы)
-- Layout structure
-- Functional requirements (Search Queue, Video Queue, Dashboard)
-- Interactive behaviors
-- Technical requirements
-- Development priority
+- Полная дизайн-система (Game Academy Design System v1.0)
+- Technology Stack (React 19 + Express.js + Dropbox API)
+- Backend: Express.js с Dropbox Service (читает/пишет CSV/JSON)
+- Frontend: React + Vite + shadcn/ui + Tailwind v4
+- Search Queue Module (полный функционал)
+- Video Queue Module (с приоритизацией)
+- Priority Calculation Algorithm
+- Deployment (Vercel/Railway)
 
 **Использовать для:**
-- Генерации React компонентов с AI
-- Создания UI в соответствии с Design System
-- Стилизации (Tailwind CSS config)
-- Понимания UX flow
+- Генерации полного приложения (Backend + Frontend)
+- Понимания архитектуры Dropbox API
+- Создания Express.js API endpoints
+- Создания React компонентов с дизайн-системой
+
+**ВАЖНО:** Эта версия использует Dropbox API вместо PostgreSQL. Файлы CSV/JSON остаются в Dropbox, backend читает их через Dropbox SDK.
 
 ### 4. prompts/design-system-analysis.md
 **Назначение:** Детальный анализ дизайн-системы
