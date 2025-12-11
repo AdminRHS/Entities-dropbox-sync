@@ -1,0 +1,195 @@
+{
+  "serverName": "REMS! - Remote Employees ;)",
+  "exportDate": "2025-12-10",
+  "channels": [
+    {
+      "category": "📌Welcome/Information",
+      "channels": [
+        {"name": "✨welcome", "type": "text"},
+        {"name": "🌐welcome-info", "type": "text"},
+        {"name": "📖rules", "type": "text"},
+        {"name": "🥂lounge", "type": "text"}
+      ]
+    },
+    {
+      "category": "🎤 Interviews",
+      "channels": [
+        {"name": "Interview room-1", "type": "voice"},
+        {"name": "Interview room-2", "type": "voice"},
+        {"name": "📅interview-schedule", "type": "text"},
+        {"name": "🎤our-interviewers", "type": "text"},
+        {"name": "🎯interview-preparation", "type": "text"}
+      ]
+    },
+    {
+      "category": "🚀Onboarding",
+      "channels": [
+        {"name": "📸selfie", "type": "text"},
+        {"name": "🤝onboarding-chat", "type": "text"},
+        {"name": "📊reports", "type": "text"},
+        {"name": "Training Room 1", "type": "voice"},
+        {"name": "Training Room 2", "type": "voice"},
+        {"name": "Training Room 3", "type": "voice"}
+      ]
+    },
+    {
+      "category": "🛠️ Help/Support",
+      "channels": [
+        {"name": "❓faq", "type": "text"},
+        {"name": "📰news", "type": "text"},
+        {"name": "🔑let-me-in", "type": "text"},
+        {"name": "💳musthave-and-subscriptions", "type": "text"},
+        {"name": "🔗useful-links", "type": "text"}
+      ]
+    },
+    {
+      "category": "📚Learning Hub",
+      "channels": [
+        {"name": "🎩our-mentors", "type": "text"},
+        {"name": "general-info", "type": "text"},
+        {"name": "🧩discussions-room", "type": "text"},
+        {"name": "Learning Room 1", "type": "voice"},
+        {"name": "Learning Room 2", "type": "voice"},
+        {"name": "Learning Room 3", "type": "voice"}
+      ]
+    },
+    {
+      "category": "💰Finance",
+      "channels": [
+        {"name": "Finance FM", "type": "voice"},
+        {"name": "Finance Main", "type": "voice"},
+        {"name": "💸fin-main", "type": "text"}
+      ]
+    },
+    {
+      "category": "👥HR",
+      "channels": [
+        {"name": "📞HR FM", "type": "voice"},
+        {"name": "Conference room", "type": "voice"},
+        {"name": "💼hr_main", "type": "text", "issues": ["Inconsistent naming: underscore"]},
+        {"name": "📓hr_reports", "type": "text", "issues": ["Inconsistent naming: underscore"]},
+        {"name": "hr-courses", "type": "text"},
+        {"name": "🔎hr_crm", "type": "text", "issues": ["Inconsistent naming: underscore"]},
+        {"name": "❌hr_refusal", "type": "text", "issues": ["Inconsistent naming: underscore"]},
+        {"name": "📅hr_plans", "type": "text", "issues": ["Inconsistent naming: underscore"]},
+        {"name": "presale", "type": "text"}
+      ]
+    },
+    {
+      "category": "💻Devs",
+      "channels": [
+        {"name": "🧠AI-FM", "type": "voice"},
+        {"name": "AI Meetings", "type": "voice"},
+        {"name": "🤖AI Conferences", "type": "voice"},
+        {"name": "🖱️Dev FM", "type": "voice"},
+        {"name": "👨‍💻Dev Admin", "type": "voice"},
+        {"name": "Dev meetings", "type": "voice"},
+        {"name": "ai-chat", "type": "text"},
+        {"name": "dev-main", "type": "text"}
+      ]
+    },
+    {
+      "category": "📈Sales",
+      "channels": [
+        {"name": "Sales-FM", "type": "voice"},
+        {"name": "project-sales", "type": "voice"},
+        {"name": "sale_main", "type": "text", "issues": ["Inconsistent naming: underscore"]},
+        {"name": "sales_calls_summary", "type": "text", "issues": ["Inconsistent naming: underscore"]},
+        {"name": "sales-messages", "type": "text"},
+        {"name": "sales-rules", "type": "text"}
+      ]
+    },
+    {
+      "category": "🎨Designers",
+      "channels": [
+        {"name": "Design Admin Towelie 🃏", "type": "voice"},
+        {"name": "Design FM", "type": "voice"},
+        {"name": "🦌 Video FM", "type": "voice"},
+        {"name": "GuideMe FM", "type": "voice"},
+        {"name": "Storyboard", "type": "voice"},
+        {"name": "🧠design-chat", "type": "text"},
+        {"name": "media", "type": "text"},
+        {"name": "design-smoking-room-🚬", "type": "text"},
+        {"name": "🖌️design-reports", "type": "text"},
+        {"name": "🎬video-reports", "type": "text"},
+        {"name": "video-main-news", "type": "text"},
+        {"name": "lgn-media", "type": "text"}
+      ]
+    },
+    {
+      "category": "📂Projects",
+      "channels": [
+        {"name": "SMM Projects", "type": "voice", "issues": ["Should move to appropriate department"]},
+        {"name": "Finance Projects", "type": "voice", "issues": ["Should move to Finance category"]},
+        {"name": "T-C-Alliance FM", "type": "voice", "issues": ["Should move to appropriate category"]},
+        {"name": "LG Projects", "type": "voice", "issues": ["Should move to Lead Generation"]},
+        {"name": "Video Projects", "type": "voice", "issues": ["Should move to Designers category"]},
+        {"name": "Designers Projects", "type": "voice", "issues": ["Should move to Designers category"]}
+      ]
+    },
+    {
+      "category": "🎯Lead Generation",
+      "channels": [
+        {"name": "📢LG FM", "type": "voice"},
+        {"name": "⬜LG White", "type": "voice", "issues": ["Consider dynamic channel instead"]},
+        {"name": "📢LG Admin", "type": "voice"},
+        {"name": "🏛️LG Training", "type": "voice"},
+        {"name": "🟥LG Red", "type": "voice", "issues": ["Consider dynamic channel instead"]},
+        {"name": "🟫 LG Brown", "type": "voice", "issues": ["Consider dynamic channel instead"]},
+        {"name": "🟦 LG Blue", "type": "voice", "issues": ["Consider dynamic channel instead"]},
+        {"name": "🎯lg-hub", "type": "text"},
+        {"name": "🫵lg-rules", "type": "text"},
+        {"name": "📧lg-messages", "type": "text"},
+        {"name": "📝lg-news", "type": "text"},
+        {"name": "🛸lg-main", "type": "text"},
+        {"name": "🔥lg-beginner", "type": "text"},
+        {"name": "🛑lg-sales", "type": "text"},
+        {"name": "🛑crm-mistakes", "type": "text"},
+        {"name": "positive-feedbacks", "type": "text"},
+        {"name": "post-for-linkedin", "type": "text"},
+        {"name": "🔑lg-admin", "type": "text"}
+      ]
+    },
+    {
+      "category": "💬Admin",
+      "channels": [
+        {"name": "🏛️Jump In", "type": "voice"},
+        {"name": "⏳Wait Line", "type": "voice"},
+        {"name": "🔇Quite Zone", "type": "voice"},
+        {"name": "⚙️admin", "type": "text"},
+        {"name": "admin_reports", "type": "text", "issues": ["Inconsistent naming: underscore"]},
+        {"name": "admin-chat", "type": "text"},
+        {"name": "screenshots", "type": "text"}
+      ]
+    },
+    {
+      "category": "🔄 Employee Changes",
+      "channels": [
+        {"name": "😊hiring-leaving", "type": "text"},
+        {"name": "🫣yellow-cards", "type": "text"},
+        {"name": "😴days-off", "type": "text"},
+        {"name": "📝project-changes", "type": "text"}
+      ]
+    },
+    {
+      "category": "Inner Client",
+      "channels": [
+        {"name": "🕸️oa-y", "type": "text", "issues": ["Single channel in category - should merge to Admin"]}
+      ]
+    },
+    {
+      "category": "🤖srv-log",
+      "channels": [
+        {"name": "voice-log", "type": "text"},
+        {"name": "member-log", "type": "text"},
+        {"name": "server-log", "type": "text"}
+      ]
+    }
+  ],
+  "statistics": {
+    "totalChannels": 103,
+    "textChannels": 62,
+    "voiceChannels": 41,
+    "channelsWithIssues": 18
+  }
+}

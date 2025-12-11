@@ -1,0 +1,161 @@
+{
+  "serverName": "REMS! - Remote Employees ;)",
+  "exportDate": "2025-12-10",
+  "totalCategories": 16,
+  "categories": [
+    {
+      "id": 1,
+      "name": "📌Welcome/Information",
+      "position": 0,
+      "channels": {
+        "text": 4,
+        "voice": 0
+      }
+    },
+    {
+      "id": 2,
+      "name": "🎤 Interviews",
+      "position": 1,
+      "channels": {
+        "text": 3,
+        "voice": 2
+      }
+    },
+    {
+      "id": 3,
+      "name": "🚀Onboarding",
+      "position": 2,
+      "channels": {
+        "text": 3,
+        "voice": 3
+      }
+    },
+    {
+      "id": 4,
+      "name": "🛠️ Help/Support",
+      "position": 3,
+      "channels": {
+        "text": 5,
+        "voice": 0
+      }
+    },
+    {
+      "id": 5,
+      "name": "📚Learning Hub",
+      "position": 4,
+      "channels": {
+        "text": 3,
+        "voice": 3
+      }
+    },
+    {
+      "id": 6,
+      "name": "💰Finance",
+      "position": 5,
+      "channels": {
+        "text": 1,
+        "voice": 2
+      }
+    },
+    {
+      "id": 7,
+      "name": "👥HR",
+      "position": 6,
+      "channels": {
+        "text": 7,
+        "voice": 2
+      }
+    },
+    {
+      "id": 8,
+      "name": "💻Devs",
+      "position": 7,
+      "channels": {
+        "text": 2,
+        "voice": 6
+      }
+    },
+    {
+      "id": 9,
+      "name": "📈Sales",
+      "position": 8,
+      "channels": {
+        "text": 4,
+        "voice": 2
+      }
+    },
+    {
+      "id": 10,
+      "name": "🎨Designers",
+      "position": 9,
+      "channels": {
+        "text": 7,
+        "voice": 5
+      }
+    },
+    {
+      "id": 11,
+      "name": "📂Projects",
+      "position": 10,
+      "channels": {
+        "text": 0,
+        "voice": 6
+      },
+      "issues": ["Voice-only category", "Should be distributed to departments"]
+    },
+    {
+      "id": 12,
+      "name": "🎯Lead Generation",
+      "position": 11,
+      "channels": {
+        "text": 11,
+        "voice": 7
+      },
+      "issues": ["Too many voice channels", "Consider dynamic channels"]
+    },
+    {
+      "id": 13,
+      "name": "💬Admin",
+      "position": 12,
+      "channels": {
+        "text": 4,
+        "voice": 3
+      }
+    },
+    {
+      "id": 14,
+      "name": "🔄 Employee Changes",
+      "position": 13,
+      "channels": {
+        "text": 4,
+        "voice": 0
+      }
+    },
+    {
+      "id": 15,
+      "name": "Inner Client",
+      "position": 14,
+      "channels": {
+        "text": 1,
+        "voice": 0
+      },
+      "issues": ["Single channel category", "Should be merged into Admin"]
+    },
+    {
+      "id": 16,
+      "name": "🤖srv-log",
+      "position": 15,
+      "channels": {
+        "text": 3,
+        "voice": 0
+      }
+    }
+  ],
+  "summary": {
+    "totalTextChannels": 62,
+    "totalVoiceChannels": 41,
+    "totalChannels": 103,
+    "roles": 32,
+    "issuesFound": 4
+  }
+}

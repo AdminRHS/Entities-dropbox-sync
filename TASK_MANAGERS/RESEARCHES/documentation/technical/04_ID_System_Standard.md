@@ -958,6 +958,307 @@ This ID system standard provides:
 - [06_Issues_Registry.md](../issues/06_Issues_Registry.md) - Uses ISS-RES-XXX
 - [07_Development_Roadmap.md](../phases/07_Development_Roadmap.md) - Uses PHS-RES-XXX and TASK-XXX
 - [14_Changelog_System.md](../changelog/14_Changelog_System.md) - Uses CHG-RES-YYYYMMDD-XXX
+- [ID_MASTER_REGISTRY.md](./ID_MASTER_REGISTRY.md) - Complete registry of all ID ranges
+
+---
+
+## 10. Unified ID Ecosystem
+
+### 10.1 Ecosystem Overview
+
+The RESEARCHES ID system is part of a **larger unified ecosystem** that integrates seamlessly with the ENTITIES taxonomy. This ecosystem provides:
+
+1. **Hierarchical organization** - Clear parent-child relationships
+2. **Cross-module references** - Links between different system components
+3. **Consistent naming** - Standardized prefixes and formats across all modules
+4. **Bidirectional traceability** - Track relationships in both directions
+5. **Automated validation** - Scripts to ensure integrity
+
+### 10.2 Complete Ecosystem Structure
+
+```
+ENTITIES (Global Root)
+│
+├── LIBRARIES/
+│   ├── LBS-001: Actions → ACT-XXX (429 actions)
+│   ├── LBS-002: Objects → OBJ-{CAT}-XXX (110+ objects)
+│   ├── LBS-003: Tools → TOL-{CAT}-XXX (164+ tools)
+│   ├── LBS-004: Skills → SKL-XXX (66 skills)
+│   ├── LBS-005: Professions → PRF-XXX (15 professions)
+│   ├── LBS-006: Departments → DPT-XXX (9 departments)
+│   └── LBS-007: Responsibilities → RESP-XXX (193 responsibilities)
+│
+├── TASK_MANAGERS/
+│   ├── TSM-006: Workflows → WRF-{CAT}-XXX (41 workflows)
+│   │
+│   └── RESEARCHES/ (This module)
+│       ├── Videos → Video_XXX (28 videos)
+│       ├── Queues
+│       │   ├── Video Queue → VQ-XXX (42 items)
+│       │   └── Search Queue → SEARCH-XXX (15 items)
+│       │
+│       ├── Research Entities → RSR-XXX (24 entities)
+│       │
+│       └── documentation/
+│           ├── Documents → DOC-RES-XXX (17 docs)
+│           ├── Issues → ISS-RES-XXX (12 issues)
+│           ├── Phases → PHS-RES-XXX (9 phases)
+│           ├── Tasks → TASK-XXX (42 tasks, global)
+│           ├── Changes → CHG-RES-YYYYMMDD-XXX
+│           └── Taxonomy → RSH-TAX-XXX (1 analysis)
+│
+└── TALENTS/
+    ├── Skills → SKL-XXX (66 skills)
+    └── Professions → PRF-XXX (15 professions)
+```
+
+### 10.3 ID Categories by Scope
+
+#### Module-Specific IDs (RESEARCHES only)
+
+These IDs are specific to the RESEARCHES module and use the `-RES-` component:
+
+```
+Format: [PREFIX]-RES-[NUMBER]
+```
+
+**Examples:**
+- `ISS-RES-011` - Issue in RESEARCHES module
+- `PHS-RES-001` - Phase in RESEARCHES development
+- `CHG-RES-20251210-001` - Change in RESEARCHES system
+- `DOC-RES-017` - Document in RESEARCHES documentation
+- `RSH-TAX-001` - Research taxonomy analysis
+
+**Usage:** These IDs cannot be used outside RESEARCHES module.
+
+#### Global IDs (Cross-module)
+
+These IDs are global and can be referenced from any module:
+
+```
+Format: [PREFIX]-[NUMBER]
+```
+
+**Examples:**
+- `TASK-042` - Tasks can be in any module
+- `SKL-065` - Skills are global
+- `PRF-015` - Professions are global
+
+**Usage:** Can be referenced from RESEARCHES, other modules, or ENTITIES libraries.
+
+#### Categorized IDs (Domain-specific)
+
+These IDs include a category component for organization within domains:
+
+```
+Format: [PREFIX]-[CATEGORY]-[NUMBER]
+```
+
+**Examples:**
+- `WRF-SEC-014` - Security workflow
+- `TOL-AI-223` - AI tool
+- `OBJ-SMM-015` - Social media object
+
+**Usage:** Category provides additional context and organization.
+
+### 10.4 Integration Patterns
+
+#### Pattern 1: Video → Entity Creation
+
+```
+Video_024 (Source)
+    ↓ analyzed via
+PMT-007 (Prompt)
+    ↓ created
+TOL-AI-223 (Tool: Browse AI)
+WRF-SEC-014 (Workflow: Secure OAuth)
+    ↓ stored in
+ENTITIES/LIBRARIES/
+```
+
+**Bidirectional Links:**
+- `Video_024.md` lists: Created TOL-AI-223, WRF-SEC-014
+- `TOL-AI-223.json` contains: `source_video: "Video_024"`
+- `WRF-SEC-014.json` contains: `source_video: "Video_024"`
+
+#### Pattern 2: Issue → Task → Change → Document
+
+```
+ISS-RES-011 (Problem: Missing ID system)
+    ↓ resolved by
+TASK-XXX (Create ID documentation)
+    ↓ implemented in
+CHG-RES-20251203-001 (Documentation package)
+    ↓ documented in
+DOC-RES-004 (04_ID_System_Standard.md)
+DOC-RES-017 (ID_MASTER_REGISTRY.md)
+```
+
+**Cross-references:**
+- Issue lists resolving tasks
+- Task references issue and change
+- Change links to issue and resulting documents
+- Documents reference originating issue
+
+#### Pattern 3: Research → Taxonomy Integration
+
+```
+Video_024 (Research source)
+    ↓ extracted entities
+RSR-024 (Research entity wrapper)
+    ↓ integrated to
+ENTITIES/LIBRARIES/LBS_003_Tools/
+    ↓ created
+TOL-AI-223.json (Final entity)
+```
+
+### 10.5 Namespace Ownership
+
+| Namespace | Owner Module | Scope | Who Can Create |
+|-----------|--------------|-------|----------------|
+| `Video_XXX` | RESEARCHES | Module | RESEARCHES team |
+| `VQ-XXX` | RESEARCHES | Module | RESEARCHES team |
+| `SEARCH-XXX` | RESEARCHES | Module | RESEARCHES team |
+| `DOC-RES-XXX` | RESEARCHES | Module | Documentation team |
+| `ISS-RES-XXX` | RESEARCHES | Module | QA team |
+| `PHS-RES-XXX` | RESEARCHES | Module | Project managers (fixed set) |
+| `TASK-XXX` | Global | Global | Any module |
+| `CHG-RES-XXX` | RESEARCHES | Module | System administrators |
+| `RSH-TAX-XXX` | RESEARCHES | Module | Taxonomy analysts |
+| `WRF-XXX` | TASK_MANAGERS | Global | Workflow designers |
+| `TOL-XXX` | LIBRARIES | Global | Tool curators |
+| `OBJ-XXX` | LIBRARIES | Global | Object managers |
+| `SKL-XXX` | TALENTS | Global | HR team |
+| `PRF-XXX` | TALENTS | Global | HR team |
+| `RSR-XXX` | RESEARCHES | Module | RESEARCHES team |
+
+### 10.6 Ecosystem Benefits
+
+#### 1. Traceability
+
+Track any entity from source to final integration:
+```
+Video_024 → RSR-024 → TOL-AI-223 → Used in WRF-025
+```
+
+#### 2. Impact Analysis
+
+Understand impact of changes:
+```
+CHG-RES-20251203-001 affects:
+- DOC-RES-004 (modified)
+- DOC-RES-017 (created)
+- ISS-RES-011 (resolved)
+- TASK-XXX (completed)
+```
+
+#### 3. Consistency
+
+All IDs follow same patterns:
+- Hyphen separators (except legacy `Video_XXX`)
+- Three-digit zero-padding
+- Uppercase prefixes
+- Predictable formats
+
+#### 4. Automation
+
+Scripts can:
+- Generate next available ID
+- Validate format
+- Check cross-references
+- Update registries
+
+#### 5. Documentation
+
+Clear relationships documented:
+- Parent-child hierarchies
+- Cross-module references
+- Dependency graphs
+- Usage examples
+
+### 10.7 Best Practices for Ecosystem
+
+#### When Creating New IDs
+
+1. **Check ID_MASTER_REGISTRY.md** for next available
+2. **Use correct prefix** for your module/scope
+3. **Follow format** exactly (case, separators, padding)
+4. **Create bidirectional links** if referencing other IDs
+5. **Update registry** after creation
+6. **Document in changelog** if significant
+
+#### When Referencing IDs
+
+1. **Use full ID** including prefix (ISS-RES-011, not just 011)
+2. **Create markdown links** when possible
+3. **Verify target exists** before creating reference
+4. **Update both sides** of relationship
+5. **Use consistent format** across all files
+
+#### When Integrating Modules
+
+1. **Understand scope** (module-specific vs global)
+2. **Check ownership** before creating IDs
+3. **Follow namespace rules**
+4. **Document integration points**
+5. **Maintain bidirectional links**
+
+### 10.8 Future Enhancements
+
+#### Planned Improvements
+
+1. **Automated Registry Sync**
+   - Script scans all files
+   - Updates ID_MASTER_REGISTRY.md automatically
+   - Detects new IDs and gaps
+
+2. **Cross-Reference Validator**
+   - Checks all ID references
+   - Verifies targets exist
+   - Reports broken links
+   - Suggests fixes
+
+3. **ID Dashboard**
+   - Visual representation of ecosystem
+   - Interactive relationship graph
+   - Usage statistics
+   - Gap analysis
+
+4. **Migration Tools**
+   - Convert legacy formats
+   - Bulk ID updates
+   - Reference updates
+   - Validation reports
+
+5. **CI/CD Integration**
+   - Automatic validation on commit
+   - ID format checks
+   - Duplicate detection
+   - Registry updates
+
+### 10.9 Ecosystem Maintenance
+
+#### Daily Tasks
+- Update CHG-RES-YYYYMMDD-XXX for changes
+- Create new IDs as needed
+- Maintain bidirectional links
+
+#### Weekly Tasks
+- Review ID_MASTER_REGISTRY.md
+- Check for orphaned references
+- Update documentation
+
+#### Monthly Tasks
+- Full ID audit
+- Validate all cross-references
+- Update ecosystem documentation
+- Review automation scripts
+
+#### Quarterly Tasks
+- Evaluate ID system effectiveness
+- Propose improvements
+- Update standards
+- Train new team members
 
 ---
 
@@ -966,6 +1267,7 @@ This ID system standard provides:
 **Next Review:** 2025-03-03
 **Version History:**
 - v1.0 (2025-12-03): Initial version, addresses ISS-RES-011
+- v1.1 (2025-12-10): Added Section 10 - Unified ID Ecosystem
 
 **Generated by:** Claude Code (Anthropic)
-**Changelog Entry:** CHG-RES-20251203-001
+**Changelog Entry:** CHG-RES-20251203-001, CHG-RES-20251210-001

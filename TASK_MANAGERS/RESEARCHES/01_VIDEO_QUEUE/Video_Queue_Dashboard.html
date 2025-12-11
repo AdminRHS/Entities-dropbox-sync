@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Research Queue Dashboard</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 20px;
+            background-color: #f5f7fa;
+            color: #333;
+        }
+
+        header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 30px;
+            border-radius: 10px;
+            margin-bottom: 30px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        h1 {
+            font-size: 2em;
+            margin-bottom: 10px;
+        }
+
+        .stats {
+            display: flex;
+            gap: 30px;
+            font-size: 0.9em;
+            margin-top: 15px;
+        }
+
+        .stat-item {
+            background: rgba(255, 255, 255, 0.2);
+            padding: 10px 20px;
+            border-radius: 5px;
+        }
+
+        .stat-number {
+            font-size: 1.5em;
+            font-weight: bold;
+        }
+
+        .filters {
+            background: white;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        .filter-row {
+            display: flex;
+            gap: 15px;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+
+        .filter-group {
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+        }
+
+        .filter-group label {
+            font-size: 0.9em;
+            font-weight: 600;
+            color: #555;
+        }
+
+        select, input {
+            padding: 8px 12px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-size: 0.9em;
+            background: white;
+        }
+
+        select:focus, input:focus {
+            outline: none;
+            border-color: #667eea;
+        }
+
+        .button-group {
+            display: flex;
+            gap: 10px;
+            margin-top: 15px;
+        }
+
+        button {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            font-size: 0.9em;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+
+        .btn-primary {
+            background: #667eea;
+            color: white;
+        }
+
+        .btn-primary:hover {
+            background: #5568d3;
+        }
+
+        .btn-success {
+            background: #48bb78;
+            color: white;
+        }
+
+        .btn-success:hover {
+            background: #38a169;
+        }
+
+        .btn-info {
+            background: #4299e1;
+            color: white;
+        }
+
+        .btn-info:hover {
+            background: #3182ce;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        th, td {
+            padding: 15px;
+            text-align: left;
+            border-bottom: 1px solid #e2e8f0;
+        }
+
+        th {
+            background: #f7fafc;
+            color: #4a5568;
+            font-weight: 600;
+            font-size: 0.9em;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            position: sticky;
+            top: 0;
+        }
+
+        tr:hover {
+            background-color: #f7fafc;
+        }
+
+        tr:last-child td {
+            border-bottom: none;
+        }
+
+        .status-badge {
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 0.85em;
+            font-weight: 600;
+            display: inline-block;
+        }
+
+        .status-pending {
+            background-color: #fff3cd;
+            color: #856404;
+        }
+
+        .status-selected {
+            background-color: #d1ecf1;
+            color: #0c5460;
+        }
+
+        .status-parsing {
+            background-color: #e2e3e5;
+            color: #383d41;
+        }
+
+        .status-parsed {
+            background-color: #d4edda;
+            color: #155724;
+        }
+
+        .status-rejected {
+            background-color: #f8d7da;
+            color: #721c24;
+        }
+
+        .priority-high {
+            font-weight: bold;
+            color: #e53e3e;
+        }
+
+        .priority-medium {
+            color: #dd6b20;
+        }
+
+        .priority-low {
+            color: #4299e1;
+        }
+
+        .video-title {
+            font-weight: 600;
+            color: #2d3748;
+        }
+
+        .video-link {
+            color: #667eea;
+            text-decoration: none;
+        }
+
+        .video-link:hover {
+            text-decoration: underline;
+        }
+
+        .action-btn {
+            padding: 5px 10px;
+            font-size: 0.8em;
+            margin: 2px;
+        }
+
+        .empty-state {
+            text-align: center;
+            padding: 60px 20px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        .empty-state h3 {
+            color: #718096;
+            margin-bottom: 10px;
+        }
+
+        .empty-state p {
+            color: #a0aec0;
+        }
+
+        .loading {
+            text-align: center;
+            padding: 40px;
+            font-size: 1.2em;
+            color: #667eea;
+        }
+
+        @media (max-width: 768px) {
+            .stats {
+                flex-direction: column;
+                gap: 10px;
+            }
+
+            .filter-row {
+                flex-direction: column;
+                align-items: stretch;
+            }
+
+            table {
+                font-size: 0.85em;
+            }
+
+            th, td {
+                padding: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Video Research Queue Dashboard</h1>
+        <div class="stats">
+            <div class="stat-item">
+                <div>Total Videos</div>
+                <div class="stat-number" id="total-count">0</div>
+            </div>
+            <div class="stat-item">
+                <div>Pending</div>
+                <div class="stat-number" id="pending-count">0</div>
+            </div>
+            <div class="stat-item">
+                <div>Selected</div>
+                <div class="stat-number" id="selected-count">0</div>
+            </div>
+            <div class="stat-item">
+                <div>Parsed</div>
+                <div class="stat-number" id="parsed-count">0</div>
+            </div>
+        </div>
+    </header>
+
+    <div class="filters">
+        <div class="filter-row">
+            <div class="filter-group">
+                <label for="filter-status">Status:</label>
+                <select id="filter-status">
+                    <option value="">All</option>
+                    <option value="Pending">Pending</option>
+                    <option value="Selected">Selected</option>
+                    <option value="Parsing">Parsing</option>
+                    <option value="Parsed">Parsed</option>
+                    <option value="Rejected">Rejected</option>
+                </select>
+            </div>
+
+            <div class="filter-group">
+                <label for="filter-topic">Topic:</label>
+                <select id="filter-topic">
+                    <option value="">All</option>
+                </select>
+            </div>
+
+            <div class="filter-group">
+                <label for="filter-source">Source:</label>
+                <select id="filter-source">
+                    <option value="">All</option>
+                    <option value="Perplexity">Perplexity</option>
+                    <option value="Gemini">Gemini</option>
+                    <option value="GPT">GPT</option>
+                    <option value="DeepSeek">DeepSeek</option>
+                    <option value="YouTube">YouTube</option>
+                </select>
+            </div>
+
+            <div class="filter-group">
+                <label for="filter-employee">Added By:</label>
+                <select id="filter-employee">
+                    <option value="">All</option>
+                </select>
+            </div>
+
+            <div class="filter-group">
+                <label for="sort-by">Sort By:</label>
+                <select id="sort-by">
+                    <option value="priority_score">Priority (High to Low)</option>
+                    <option value="added_date">Date Added (Newest)</option>
+                    <option value="views">Views (Most)</option>
+                    <option value="likes">Likes (Most)</option>
+                    <option value="title">Title (A-Z)</option>
+                </select>
+            </div>
+
+            <div class="filter-group">
+                <label for="search">Search:</label>
+                <input type="text" id="search" placeholder="Search titles, channels...">
+            </div>
+        </div>
+
+        <div class="button-group">
+            <button class="btn-primary" onclick="applyFilters()">Apply Filters</button>
+            <button class="btn-info" onclick="resetFilters()">Reset</button>
+            <button class="btn-success" onclick="exportToCSV()">Export CSV</button>
+            <button class="btn-success" onclick="exportToJSON()">Export JSON</button>
+            <button class="btn-success" onclick="exportToMarkdown()">Export Markdown</button>
+        </div>
+    </div>
+
+    <div id="table-container">
+        <div class="loading">Loading queue data...</div>
+    </div>
+
+    <script>
+        let queueData = [];
+        let filteredData = [];
+
+        // Load queue data from CSV
+        async function loadQueueData() {
+            try {
+                const response = await fetch('Video_Queue_Master.csv');
+                const csvText = await response.text();
+
+                // Parse CSV
+                const lines = csvText.split('\n');
+                const headers = lines[0].split(',');
+
+                queueData = [];
+                for (let i = 1; i < lines.length; i++) {
+                    if (lines[i].trim() === '') continue;
+
+                    const values = lines[i].split(',');
+                    const row = {};
+
+                    headers.forEach((header, index) => {
+                        row[header.trim()] = values[index] ? values[index].trim() : '';
+                    });
+
+                    queueData.push(row);
+                }
+
+                // Populate filters
+                populateFilters();
+
+                // Initial display
+                filteredData = [...queueData];
+                renderTable();
+                updateStats();
+
+            } catch (error) {
+                console.error('Error loading queue data:', error);
+                document.getElementById('table-container').innerHTML = `
+                    <div class="empty-state">
+                        <h3>Error loading queue data</h3>
+                        <p>${error.message}</p>
+                    </div>
+                `;
+            }
+        }
+
+        // Populate filter dropdowns
+        function populateFilters() {
+            // Populate topics
+            const topics = [...new Set(queueData.map(v => v.Topic_Category).filter(t => t))];
+            const topicSelect = document.getElementById('filter-topic');
+            topics.forEach(topic => {
+                const option = document.createElement('option');
+                option.value = topic;
+                option.textContent = topic;
+                topicSelect.appendChild(option);
+            });
+
+            // Populate employees
+            const employees = [...new Set(queueData.map(v => v.Added_By).filter(e => e))];
+            const employeeSelect = document.getElementById('filter-employee');
+            employees.forEach(employee => {
+                const option = document.createElement('option');
+                option.value = employee;
+                option.textContent = employee;
+                employeeSelect.appendChild(option);
+            });
+        }
+
+        // Apply filters
+        function applyFilters() {
+            filteredData = [...queueData];
+
+            // Status filter
+            const status = document.getElementById('filter-status').value;
+            if (status) {
+                filteredData = filteredData.filter(v => v.Status === status);
+            }
+
+            // Topic filter
+            const topic = document.getElementById('filter-topic').value;
+            if (topic) {
+                filteredData = filteredData.filter(v => v.Topic_Category === topic);
+            }
+
+            // Source filter
+            const source = document.getElementById('filter-source').value;
+            if (source) {
+                filteredData = filteredData.filter(v => v.Research_Source === source);
+            }
+
+            // Employee filter
+            const employee = document.getElementById('filter-employee').value;
+            if (employee) {
+                filteredData = filteredData.filter(v => v.Added_By === employee);
+            }
+
+            // Search filter
+            const search = document.getElementById('search').value.toLowerCase();
+            if (search) {
+                filteredData = filteredData.filter(v =>
+                    (v.Video_Title && v.Video_Title.toLowerCase().includes(search)) ||
+                    (v.Channel_Name && v.Channel_Name.toLowerCase().includes(search)) ||
+                    (v.Notes && v.Notes.toLowerCase().includes(search))
+                );
+            }
+
+            // Sort
+            const sortBy = document.getElementById('sort-by').value;
+            sortData(sortBy);
+
+            renderTable();
+        }
+
+        // Sort data
+        function sortData(sortBy) {
+            switch(sortBy) {
+                case 'priority_score':
+                    filteredData.sort((a, b) => parseFloat(b.Priority_Score || 0) - parseFloat(a.Priority_Score || 0));
+                    break;
+                case 'added_date':
+                    filteredData.sort((a, b) => new Date(b.Added_Date) - new Date(a.Added_Date));
+                    break;
+                case 'views':
+                    filteredData.sort((a, b) => parseInt(b.Views || 0) - parseInt(a.Views || 0));
+                    break;
+                case 'likes':
+                    filteredData.sort((a, b) => parseInt(b.Likes || 0) - parseInt(a.Likes || 0));
+                    break;
+                case 'title':
+                    filteredData.sort((a, b) => (a.Video_Title || '').localeCompare(b.Video_Title || ''));
+                    break;
+            }
+        }
+
+        // Reset filters
+        function resetFilters() {
+            document.getElementById('filter-status').value = '';
+            document.getElementById('filter-topic').value = '';
+            document.getElementById('filter-source').value = '';
+            document.getElementById('filter-employee').value = '';
+            document.getElementById('search').value = '';
+            document.getElementById('sort-by').value = 'priority_score';
+
+            filteredData = [...queueData];
+            sortData('priority_score');
+            renderTable();
+        }
+
+        // Render table
+        function renderTable() {
+            const container = document.getElementById('table-container');
+
+            if (filteredData.length === 0) {
+                container.innerHTML = `
+                    <div class="empty-state">
+                        <h3>No videos found</h3>
+                        <p>Try adjusting your filters or add new videos to the queue.</p>
+                    </div>
+                `;
+                return;
+            }
+
+            let html = `
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Queue ID</th>
+                            <th>Video Title</th>
+                            <th>Channel</th>
+                            <th>Topic</th>
+                            <th>Views</th>
+                            <th>Priority</th>
+                            <th>Status</th>
+                            <th>Added By</th>
+                            <th>Date Added</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+            `;
+
+            filteredData.forEach(video => {
+                const priorityClass = getPriorityClass(parseFloat(video.Priority_Score || 0));
+                const statusClass = 'status-' + (video.Status || 'pending').toLowerCase();
+
+                html += `
+                    <tr>
+                        <td>${video.Queue_ID || ''}</td>
+                        <td>
+                            <div class="video-title">${video.Video_Title || '[To be extracted]'}</div>
+                            ${video.Video_URL ? `<a href="${video.Video_URL}" class="video-link" target="_blank">Watch</a>` : ''}
+                        </td>
+                        <td>${video.Channel_Name || '[To be extracted]'}</td>
+                        <td>${video.Topic_Category || ''}</td>
+                        <td>${formatNumber(video.Views || 0)}</td>
+                        <td class="${priorityClass}">${video.Priority_Score || 0}/100</td>
+                        <td><span class="status-badge ${statusClass}">${video.Status || 'Pending'}</span></td>
+                        <td>${video.Added_By || ''}</td>
+                        <td>${video.Added_Date || ''}</td>
+                        <td>
+                            <button class="btn-info action-btn" onclick="viewDetails('${video.Queue_ID}')">View</button>
+                        </td>
+                    </tr>
+                `;
+            });
+
+            html += `
+                    </tbody>
+                </table>
+            `;
+
+            container.innerHTML = html;
+        }
+
+        // Get priority class
+        function getPriorityClass(score) {
+            if (score >= 70) return 'priority-high';
+            if (score >= 40) return 'priority-medium';
+            return 'priority-low';
+        }
+
+        // Format number
+        function formatNumber(num) {
+            return parseInt(num).toLocaleString();
+        }
+
+        // Update stats
+        function updateStats() {
+            document.getElementById('total-count').textContent = queueData.length;
+
+            const pending = queueData.filter(v => v.Status === 'Pending').length;
+            const selected = queueData.filter(v => v.Status === 'Selected').length;
+            const parsed = queueData.filter(v => v.Status === 'Parsed').length;
+
+            document.getElementById('pending-count').textContent = pending;
+            document.getElementById('selected-count').textContent = selected;
+            document.getElementById('parsed-count').textContent = parsed;
+        }
+
+        // View details
+        function viewDetails(queueId) {
+            const video = queueData.find(v => v.Queue_ID === queueId);
+            if (!video) return;
+
+            alert(`Queue ID: ${video.Queue_ID}\n\nTitle: ${video.Video_Title}\nChannel: ${video.Channel_Name}\n\nViews: ${formatNumber(video.Views)}\nLikes: ${formatNumber(video.Likes)}\nPublish Date: ${video.Publish_Date}\nDuration: ${video.Duration}\n\nTopic: ${video.Topic_Category}\nSource: ${video.Research_Source}\nPriority: ${video.Priority_Score}/100\n\nAdded by: ${video.Added_By} on ${video.Added_Date}\nStatus: ${video.Status}\n\nNotes: ${video.Notes || 'None'}`);
+        }
+
+        // Export functions
+        function exportToCSV() {
+            alert('To export to CSV, run:\npython scripts/export_queue.py csv');
+        }
+
+        function exportToJSON() {
+            alert('To export to JSON, run:\npython scripts/export_queue.py json');
+        }
+
+        function exportToMarkdown() {
+            alert('To export to Markdown, run:\npython scripts/export_queue.py markdown');
+        }
+
+        // Initialize
+        loadQueueData();
+
+        // Auto-refresh every 30 seconds
+        setInterval(loadQueueData, 30000);
+    </script>
+</body>
+</html>

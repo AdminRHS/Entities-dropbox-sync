@@ -3,7 +3,7 @@
 ### 1. Metadata Section
 - **Video Title**: My Agentic Engineering Tech Stack
 - **Channel/Creator**: Cole
-- **Video URL**: [Not Provided]
+- **Video URL**: https://www.youtube.com/watch?v=21_k2St8bBI
 - **Duration**: 34:24
 - **Publication Date**: [Not Available]
 

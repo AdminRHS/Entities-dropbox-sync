@@ -1,0 +1,283 @@
+{
+  "serverName": "REMS! - Remote Employees ;)",
+  "proposalDate": "2025-12-10",
+  "version": "1.0.0",
+  "changes": "Optimized structure with consolidated categories and redistributed channels",
+  "categories": [
+    {
+      "id": 1,
+      "name": "📌Welcome/Information",
+      "position": 0,
+      "changes": "No changes",
+      "channels": {
+        "text": 5,
+        "voice": 0
+      },
+      "channelList": [
+        "✨welcome",
+        "🌐welcome-info",
+        "📖rules",
+        "🥂lounge",
+        "📍server-map (NEW)"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "🎤 Interviews",
+      "position": 1,
+      "changes": "No changes",
+      "channels": {
+        "text": 3,
+        "voice": 2
+      }
+    },
+    {
+      "id": 3,
+      "name": "📚Learning & Onboarding",
+      "position": 2,
+      "changes": "MERGED - Combined Onboarding + Learning Hub, reduced from 6 to 3 voice rooms",
+      "channels": {
+        "text": 6,
+        "voice": 3
+      },
+      "channelList": [
+        "📸selfie",
+        "🤝onboarding-chat",
+        "📊reports",
+        "🎩our-mentors",
+        "general-info",
+        "🧩discussions-room",
+        "Training Room 1 (voice)",
+        "Training Room 2 (voice)",
+        "Study Hall (voice - renamed from Learning Room 1)"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "🛠️ Help/Support",
+      "position": 3,
+      "changes": "No changes",
+      "channels": {
+        "text": 5,
+        "voice": 0
+      }
+    },
+    {
+      "id": 5,
+      "name": "💰Finance",
+      "position": 4,
+      "changes": "Added Finance Projects voice from Projects category",
+      "channels": {
+        "text": 1,
+        "voice": 3
+      },
+      "channelList": [
+        "💸fin-main",
+        "Finance FM (voice)",
+        "Finance Main (voice)",
+        "Finance Projects (voice - moved from Projects)"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "👥HR",
+      "position": 5,
+      "changes": "Channel names standardized (underscores → hyphens)",
+      "channels": {
+        "text": 7,
+        "voice": 2
+      },
+      "channelList": [
+        "💼hr-main (renamed from hr_main)",
+        "📓hr-reports (renamed from hr_reports)",
+        "hr-courses",
+        "🔎hr-crm (renamed from hr_crm)",
+        "❌hr-refusal (renamed from hr_refusal)",
+        "📅hr-plans (renamed from hr_plans)",
+        "presale",
+        "📞HR FM (voice)",
+        "Conference room (voice)"
+      ]
+    },
+    {
+      "id": 7,
+      "name": "💻Devs",
+      "position": 6,
+      "changes": "No changes",
+      "channels": {
+        "text": 2,
+        "voice": 6
+      }
+    },
+    {
+      "id": 8,
+      "name": "📈Sales",
+      "position": 7,
+      "changes": "Channel names standardized + added SMM Projects voice",
+      "channels": {
+        "text": 4,
+        "voice": 3
+      },
+      "channelList": [
+        "sale-main (renamed from sale_main)",
+        "sales-calls-summary (renamed from sales_calls_summary)",
+        "sales-messages",
+        "sales-rules",
+        "Sales-FM (voice)",
+        "project-sales (voice)",
+        "SMM Projects (voice - moved from Projects)"
+      ]
+    },
+    {
+      "id": 9,
+      "name": "🎨Designers",
+      "position": 8,
+      "changes": "Added Video Projects and Designers Projects from Projects category",
+      "channels": {
+        "text": 7,
+        "voice": 7
+      },
+      "channelList": [
+        "🧠design-chat",
+        "media",
+        "design-smoking-room-🚬",
+        "🖌️design-reports",
+        "🎬video-reports",
+        "video-main-news",
+        "lgn-media",
+        "Design Admin Towelie 🃏 (voice)",
+        "Design FM (voice)",
+        "🦌 Video FM (voice)",
+        "GuideMe FM (voice)",
+        "Storyboard (voice)",
+        "Video Projects (voice - moved from Projects)",
+        "Designers Projects (voice - moved from Projects)"
+      ]
+    },
+    {
+      "id": 10,
+      "name": "🎯Lead Generation",
+      "position": 9,
+      "changes": "Reduced from 7 to 4 voice channels (dynamic channels implemented), added LG Projects",
+      "channels": {
+        "text": 11,
+        "voice": 5
+      },
+      "channelList": [
+        "🎯lg-hub",
+        "🫵lg-rules",
+        "📧lg-messages",
+        "📝lg-news",
+        "🛸lg-main",
+        "🔥lg-beginner",
+        "🛑lg-sales",
+        "🛑crm-mistakes",
+        "positive-feedbacks",
+        "post-for-linkedin",
+        "🔑lg-admin",
+        "📢LG FM (voice)",
+        "📢LG Admin (voice)",
+        "🏛️LG Training (voice)",
+        "LG Projects (voice - moved from Projects)",
+        "➕ Join to Create LG Room (voice - NEW dynamic channel)"
+      ],
+      "notes": "Color-coded channels (White, Red, Brown, Blue) moved to Archive"
+    },
+    {
+      "id": 11,
+      "name": "💬Admin",
+      "position": 10,
+      "changes": "Added oa-y from Inner Client category, standardized naming",
+      "channels": {
+        "text": 5,
+        "voice": 4
+      },
+      "channelList": [
+        "⚙️admin",
+        "admin-reports (renamed from admin_reports)",
+        "admin-chat",
+        "screenshots",
+        "🕸️oa-y (moved from Inner Client)",
+        "🏛️Jump In (voice)",
+        "⏳Wait Line (voice)",
+        "🔇Quite Zone (voice)",
+        "T-C-Alliance FM (voice - moved from Projects)"
+      ]
+    },
+    {
+      "id": 12,
+      "name": "🔄 Employee Changes",
+      "position": 11,
+      "changes": "No changes",
+      "channels": {
+        "text": 4,
+        "voice": 0
+      }
+    },
+    {
+      "id": 13,
+      "name": "🤖srv-log",
+      "position": 12,
+      "changes": "No changes",
+      "channels": {
+        "text": 3,
+        "voice": 0
+      }
+    },
+    {
+      "id": 14,
+      "name": "📦 Archive",
+      "position": 13,
+      "changes": "NEW category for archived channels",
+      "channels": {
+        "text": 0,
+        "voice": 7
+      },
+      "channelList": [
+        "Training Room 3 (voice - archived)",
+        "Learning Room 2 (voice - archived)",
+        "Learning Room 3 (voice - archived)",
+        "⬜LG White (voice - archived)",
+        "🟥LG Red (voice - archived)",
+        "🟫 LG Brown (voice - archived)",
+        "🟦 LG Blue (voice - archived)"
+      ],
+      "notes": "Locked permissions - read-only for reference"
+    }
+  ],
+  "summary": {
+    "before": {
+      "totalCategories": 16,
+      "totalTextChannels": 62,
+      "totalVoiceChannels": 41,
+      "totalChannels": 103
+    },
+    "after": {
+      "totalCategories": 14,
+      "totalTextChannels": 63,
+      "totalVoiceChannels": 38,
+      "totalChannels": 101,
+      "archivedChannels": 7
+    },
+    "improvements": {
+      "categoriesReduced": 2,
+      "channelsReduced": 2,
+      "archivedForFutureReview": 7,
+      "dynamicChannelsImplemented": 1,
+      "namingStandardized": 8
+    }
+  },
+  "categoriesRemoved": [
+    "📂Projects (dissolved, channels distributed)",
+    "Inner Client (merged into Admin)"
+  ],
+  "majorChanges": [
+    "Merged Onboarding + Learning Hub → Learning & Onboarding",
+    "Dissolved Projects category → channels distributed to departments",
+    "Merged Inner Client → Admin",
+    "Reduced LG voice channels from 7 to 4 (+ 1 dynamic)",
+    "Standardized all channel naming (hyphens)",
+    "Created Archive category for future use",
+    "Added server-map channel to Welcome"
+  ]
+}

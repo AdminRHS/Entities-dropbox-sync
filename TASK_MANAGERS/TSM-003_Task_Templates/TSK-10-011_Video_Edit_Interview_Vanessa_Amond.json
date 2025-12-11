@@ -1,0 +1,113 @@
+{
+  "entity_type": "TASK_MANAGERS",
+  "sub_entity": "Task_Template",
+  "template_id": "Task-Template-10-011",
+  "task_name": "Edit Interview Video - Vanessa Amond (Lead Generation)",
+  "action": "Edit",
+  "object": "Interview Video",
+  "context": "Vanessa Amond - Lead Generation position profile",
+  "description": "Complete video editing for employee interview featuring Vanessa Amond (Lead Generation position), including audio enhancement, content organization, animated graphics, subtitles, and final delivery",
+  "department": "Video",
+  "profession": "Video Editor",
+  "priority": "High",
+  "estimated_duration": "8 hours (full day)",
+  "actual_duration": "5 hours Day 1 (blocked by electricity) + 2-3 hours Day 2 (completion)",
+  "status": "In Progress (85% complete)",
+  "completion_percentage": 85,
+  "dependencies": [],
+  "blockers": [
+    "Electricity outage at 15:00 on Dec 10 prevented completion",
+    "Subtitles and final polish pending stable power"
+  ],
+  "tools_required": [
+    "Google Drive (material download)",
+    "Adobe Podcast (audio enhancement)",
+    "CapCut (video editing software)",
+    "Graphics assets (icons, lower-thirds, footage)"
+  ],
+  "skills_required": [
+    "Video editing",
+    "Audio enhancement",
+    "Motion graphics/animation",
+    "Subtitle creation and sync",
+    "Content organization and storytelling",
+    "Visual effects and overlays"
+  ],
+  "parent_milestone": "MLS-VIDEO-001",
+  "parent_project": "PRJ-VIDEO-INTERVIEWS",
+  "owner": "EMP-80190 (Azanova Darya)",
+  "assigned_date": "2025-12-10",
+  "start_date": "2025-12-10",
+  "target_completion_date": "2025-12-11",
+  "actual_completion_date": null,
+  "steps": [
+    "STP-10-042",
+    "STP-10-043",
+    "STP-10-044",
+    "STP-10-045",
+    "STP-10-046",
+    "STP-10-047",
+    "STP-10-048",
+    "STP-10-049",
+    "STP-10-050",
+    "STP-10-051"
+  ],
+  "success_criteria": [
+    "Audio enhanced and clear throughout",
+    "All unnecessary segments removed",
+    "Professional intro with Sambu Neil first frame",
+    "Stop-frame animation after candidate introduction",
+    "Video organized into 4 content blocks with animated lower-thirds",
+    "Software icons inserted during tool discussion",
+    "Language footage overlays added",
+    "Outro added",
+    "Subtitles complete and synced",
+    "Final quality review passed",
+    "Video exported in correct format",
+    "Delivered to appropriate location"
+  ],
+  "deliverables": [
+    "Completed interview video file (edited, subtitled, polished)",
+    "Organized project files",
+    "Archive of source materials"
+  ],
+  "notes": "Employee working from mobile devices primarily. Electricity outages are major blocker for video work. Lost 3+ hours on Dec 10 due to power cut at 15:00.",
+  "challenges_encountered": [
+    "Electricity outage preventing work completion",
+    "Mobile-only workflow constraints",
+    "Cannot install desktop software for AI tools"
+  ],
+  "lessons_learned": [
+    "Schedule critical rendering during reliable electricity windows",
+    "Keep project files organized for quick resume after outages",
+    "Coordinate with team lead for folder setup (mobile workflow)"
+  ],
+  "related_tasks": [],
+  "source_data": {
+    "extraction_source": "10_nts.md (Russian work notes)",
+    "extraction_date": "2025-12-10",
+    "employee": "EMP-80190 (Azanova Darya)",
+    "department": "Video"
+  },
+  "video_details": {
+    "subject": "Vanessa Amond",
+    "position": "Lead Generation",
+    "video_type": "Employee Interview/Profile",
+    "content_blocks": [
+      "Work Experience",
+      "Skills",
+      "Languages",
+      "Education"
+    ],
+    "visual_elements": [
+      "Intro with Sambu Neil first frame",
+      "Stop-frame animation after introduction",
+      "Animated lower-thirds for each section",
+      "Software/program icons",
+      "Language footage overlays",
+      "Outro"
+    ],
+    "editing_software": "CapCut",
+    "audio_processing": "Adobe Podcast"
+  }
+}

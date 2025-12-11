@@ -1,0 +1,805 @@
+{
+  "entity_type": "TASK_MANAGERS",
+  "sub_entity": "Project_Template",
+  "template_id": "Project-Template-10-001",
+  "version": "1.0",
+  "created_date": "2025-12-10",
+  "last_updated": "2025-12-10",
+  "metadata": {
+    "name": "Video Department Migration to MAIN_PROMPT_v8.0",
+    "description": "Complete transition of Video department to new MAIN_PROMPT_v8.0 daily workflow system, including tool setup (Claude Code, Cursor, Antigravity), team training, infrastructure challenge management, and system adoption during Week 02 (December 10-17, 2025)",
+    "primary_department": "Video",
+    "departments_involved": [
+      "Video",
+      "Operations",
+      "Management",
+      "HR"
+    ],
+    "project_type": "Operational Transformation",
+    "complexity": "High",
+    "estimated_duration": "1 week (Week 02: December 10-17, 2025)",
+    "cost_estimate": {
+      "initial_setup": "Time only (tools already subscribed)",
+      "ongoing": "Potential equipment costs: 26,000-77,500 UAH",
+      "cost_breakdown": [
+        "Claude Code: Existing subscription",
+        "Cursor AI: Existing subscription",
+        "Antigravity: Existing subscription",
+        "Equipment (pending approval): Laptop 15-25k UAH, Power Bank 10-50k UAH, Mobile Modem 1-2.5k UAH"
+      ]
+    },
+    "roi_estimate": "50% productivity recovery (2-4 hours/day) with equipment, 100% team adoption of new workflow system",
+    "success_criteria": [
+      "All video team members successfully create daily folders with template files",
+      "Claude Code, Cursor, Antigravity configured for all team members",
+      "Credit tracking spreadsheet updated and maintained",
+      "Team trained on MAIN_PROMPT_v8.0 workflow (daily, notes, whisper, to-do files)",
+      "OUTPUT folder generation validated",
+      "Infrastructure challenges documented with management",
+      "Backup workflow established for electricity outages",
+      "100% team adoption by end of Week 02"
+    ],
+    "prerequisites": [
+      "VS Code installed on team computers",
+      "Access to FWE accounts for AI tool authentication",
+      "MAIN_PROMPT_v8.0.md documentation available",
+      "Credit tracking spreadsheet created",
+      "Wispr Flow voice transcription tool",
+      "Discord workspace for team communication"
+    ],
+    "best_for": [
+      "Video department transitioning to structured daily reporting",
+      "Teams adopting AI-assisted workflow tools",
+      "Departments facing infrastructure challenges (electricity, internet outages)",
+      "Organizations implementing bottom-up task management systems"
+    ],
+    "challenges": [
+      "Electricity outages limiting work to 4h/day (50% productivity loss)",
+      "CRM and website downtime blocking client work",
+      "Team learning curve on new system",
+      "3 team leads dismissed on Day 10 - reduced capacity",
+      "Internet connectivity failures during power outages",
+      "Mobile workforce constraints (Dasha - tablet/phone only)"
+    ],
+    "owner": "EMP-299 (Podolskyi Sviatoslav)",
+    "start_date": "2025-12-10",
+    "target_end_date": "2025-12-17",
+    "status": "In Progress",
+    "completion_percentage": 30
+  },
+  "structure": {
+    "total_phases": 3,
+    "total_milestones": 5,
+    "total_tasks": 10,
+    "total_steps": 41,
+    "workflow_type": "Concurrent with infrastructure dependencies"
+  },
+  "phases": [
+    {
+      "phase_number": 1,
+      "phase_name": "Tool Setup & Configuration",
+      "phase_description": "Install and configure AI tools (Claude Code, Cursor, Antigravity) for all Video team members, authenticate with appropriate accounts, and validate functionality",
+      "duration": "2-3 days (Dec 10-12)",
+      "complexity": "Medium",
+      "dependencies": [],
+      "milestones": [
+        "MLS-10-001"
+      ],
+      "output": "All team members with functioning AI tools, credit tracking updated",
+      "success_criteria": [
+        "Claude Code extension installed in VS Code for all team members",
+        "All tools authenticated with FWE/Admin accounts",
+        "Test prompts executed successfully",
+        "Credit tracking spreadsheet populated",
+        "Daily folder templates created and validated"
+      ]
+    },
+    {
+      "phase_number": 2,
+      "phase_name": "Team Training & System Adoption",
+      "phase_description": "Train Video team on MAIN_PROMPT_v8.0 workflow, clarify file usage (daily/notes/whisper/to-do), troubleshoot issues, and ensure 100% adoption",
+      "duration": "3-4 days (Dec 10-13)",
+      "complexity": "Medium",
+      "dependencies": [
+        "Phase 1 in progress or complete"
+      ],
+      "milestones": [
+        "MLS-10-002",
+        "MLS-10-005"
+      ],
+      "output": "Team successfully using new workflow system, documentation created",
+      "success_criteria": [
+        "All team members trained on file structure",
+        "Training documentation created",
+        "Mobile workflow established for Dasha",
+        "OUTPUT folder generation validated",
+        "100% team adoption by end of week"
+      ]
+    },
+    {
+      "phase_number": 3,
+      "phase_name": "Infrastructure Crisis Management",
+      "phase_description": "Document infrastructure challenges (electricity/internet outages), prepare equipment requests, implement backup workflows, and coordinate with management on solutions",
+      "duration": "Ongoing (Dec 10-17+)",
+      "complexity": "High",
+      "dependencies": [],
+      "milestones": [
+        "MLS-10-003",
+        "MLS-10-004"
+      ],
+      "output": "Infrastructure impact documented, equipment requests submitted, backup workflow implemented",
+      "success_criteria": [
+        "Infrastructure challenges formally documented",
+        "Equipment request prepared with ROI analysis",
+        "Management discussions initiated",
+        "Backup offline workflow created",
+        "Alternative work schedule options evaluated"
+      ]
+    }
+  ],
+  "milestones": [
+    {
+      "milestone_id": "MLS-10-001",
+      "milestone_name": "Tool Setup & Configuration Complete",
+      "phase": 1,
+      "description": "Claude Code, Cursor, and Antigravity installed, configured, and validated for all Video team members",
+      "task_templates": [
+        "TSK-10-001",
+        "TSK-10-002",
+        "TSK-10-005"
+      ],
+      "estimated_duration": "2-3 days",
+      "target_date": "2025-12-12",
+      "deliverables": [
+        "All team members with Claude Code extension in VS Code",
+        "Authentication completed with FWE/Admin accounts",
+        "Test prompts executed successfully",
+        "Credit tracking spreadsheet updated",
+        "Daily folder template structure created",
+        "OUTPUT folder generation validated"
+      ],
+      "success_metrics": {
+        "quantitative": [
+          "100% team members with Claude Code installed",
+          "100% authentication success rate",
+          "Credit tracking 100% complete",
+          "Template folder structure created"
+        ],
+        "qualitative": [
+          "Team confident using AI tools",
+          "Troubleshooting process established",
+          "Documentation clear and accessible"
+        ]
+      }
+    },
+    {
+      "milestone_id": "MLS-10-002",
+      "milestone_name": "Team Training & Onboarding Complete",
+      "phase": 2,
+      "description": "All Video team members trained on MAIN_PROMPT_v8.0 workflow, understand file usage, and can independently create and process daily reports",
+      "task_templates": [
+        "TSK-10-003",
+        "TSK-10-007"
+      ],
+      "estimated_duration": "2 days",
+      "target_date": "2025-12-11",
+      "deliverables": [
+        "Training session conducted with designers",
+        "Training documentation created",
+        "Mobile workflow established for Dasha",
+        "All team members verified able to create daily folders",
+        "Follow-up support process defined"
+      ],
+      "success_metrics": {
+        "quantitative": [
+          "100% team attendance at training",
+          "100% team members can create daily folders",
+          "Training documentation complete"
+        ],
+        "qualitative": [
+          "Team understands when to use each file type",
+          "Confidence in processing WSPR files",
+          "Clear escalation path for technical issues"
+        ]
+      }
+    },
+    {
+      "milestone_id": "MLS-10-003",
+      "milestone_name": "Infrastructure Crisis Management Initiated",
+      "phase": 3,
+      "description": "Infrastructure challenges documented, equipment requests prepared, and submitted to management with ROI analysis",
+      "task_templates": [
+        "TSK-10-004",
+        "TSK-10-008",
+        "TSK-10-009"
+      ],
+      "estimated_duration": "5 days",
+      "target_date": "2025-12-15",
+      "deliverables": [
+        "Infrastructure impact report completed",
+        "Equipment request document (laptop, power bank, mobile modem)",
+        "ROI analysis with productivity calculations",
+        "Management discussions scheduled/completed",
+        "Backup offline workflow documented",
+        "Alternative work schedule options evaluated"
+      ],
+      "success_metrics": {
+        "quantitative": [
+          "Infrastructure impact quantified (4h/day lost)",
+          "Equipment costs calculated (26-77.5k UAH)",
+          "ROI calculated (40-80 additional hours/month)",
+          "Backup workflow created"
+        ],
+        "qualitative": [
+          "Management awareness of infrastructure challenges",
+          "Clear path forward for equipment procurement",
+          "Team morale maintained despite challenges"
+        ]
+      },
+      "status": "New - Critical Priority"
+    },
+    {
+      "milestone_id": "MLS-10-004",
+      "milestone_name": "Client Deliverable Processing Unblocked",
+      "phase": 3,
+      "description": "CRM recovered or workaround implemented, Fradkina portfolio processed and delivered to client",
+      "task_templates": [
+        "TSK-10-006"
+      ],
+      "estimated_duration": "Unknown - depends on CRM recovery",
+      "target_date": "TBD",
+      "deliverables": [
+        "CRM access restored OR workaround implemented",
+        "Fradkina portfolio contact info extracted",
+        "Portfolio formatted for client (GDPR compliant)",
+        "Client deliverable sent"
+      ],
+      "success_metrics": {
+        "quantitative": [
+          "CRM recovery time tracked",
+          "Portfolio delivered within 24h of CRM recovery"
+        ],
+        "qualitative": [
+          "Client satisfied with deliverable",
+          "Process documented for future CRM outages"
+        ]
+      },
+      "status": "Blocked - Waiting for CRM recovery"
+    },
+    {
+      "milestone_id": "MLS-10-005",
+      "milestone_name": "System Migration Completion",
+      "phase": 2,
+      "description": "All Video team members successfully using MAIN_PROMPT_v8.0 workflow independently, Week 02 retrospective completed",
+      "task_templates": [
+        "TSK-10-010"
+      ],
+      "estimated_duration": "7 days",
+      "target_date": "2025-12-17",
+      "deliverables": [
+        "100% team adoption verified",
+        "Daily.md, notes.md, whisper.md, to-do.md usage validated",
+        "OUTPUT folder generation working for all team members",
+        "Week 02 retrospective completed",
+        "Process improvements identified",
+        "Documentation updated based on lessons learned"
+      ],
+      "success_metrics": {
+        "quantitative": [
+          "100% team members using new system daily",
+          "7 consecutive days of successful daily folder creation",
+          "0 critical issues blocking workflow"
+        ],
+        "qualitative": [
+          "Team confidence in new system",
+          "Workflow feels natural and efficient",
+          "Clear improvement over previous system"
+        ]
+      }
+    }
+  ],
+  "task_sequence": [
+    {
+      "sequence_number": 1,
+      "task_template_id": "TSK-10-001",
+      "task_name": "Configure Claude Code Extension in VS Code",
+      "phase": 1,
+      "milestone": "MLS-10-001",
+      "estimated_duration": "30 minutes",
+      "complexity": "Medium",
+      "department": "Video",
+      "priority": "High",
+      "status": "In Progress (75% complete)",
+      "dependencies": [],
+      "inputs_required": [
+        "VS Code installed",
+        "FWE account credentials",
+        "Internet connection"
+      ],
+      "outputs_produced": [
+        "Claude Code extension installed",
+        "FWE account authenticated",
+        "Test prompt executed successfully",
+        "Login credentials documented in tracking sheet"
+      ],
+      "step_templates": [
+        "STP-10-001",
+        "STP-10-002",
+        "STP-10-003",
+        "STP-10-004"
+      ]
+    },
+    {
+      "sequence_number": 2,
+      "task_template_id": "TSK-10-002",
+      "task_name": "Set Up Daily Workflow Template Files",
+      "phase": 1,
+      "milestone": "MLS-10-001",
+      "estimated_duration": "1 hour",
+      "complexity": "Medium",
+      "department": "Video",
+      "priority": "High",
+      "status": "In Progress",
+      "dependencies": [
+        "TSK-10-001 in progress or complete"
+      ],
+      "inputs_required": [
+        "MAIN_PROMPT_v8.0.md documentation",
+        "Claude Code configured",
+        "Understanding of file structure"
+      ],
+      "outputs_produced": [
+        "Daily folder template created (daily.md, notes.md, whisper.md, to-do.md)",
+        "Claude Code configured to generate to-do from WSPR",
+        "File processing tested with MAIN_PROMPT_v8.0",
+        "OUTPUT folder structure generated"
+      ],
+      "step_templates": [
+        "STP-10-005",
+        "STP-10-006",
+        "STP-10-007",
+        "STP-10-008"
+      ]
+    },
+    {
+      "sequence_number": 3,
+      "task_template_id": "TSK-10-003",
+      "task_name": "Train Video Team on MAIN_PROMPT_v8.0 System",
+      "phase": 2,
+      "milestone": "MLS-10-002",
+      "estimated_duration": "2-3 hours",
+      "complexity": "Medium",
+      "department": "Video",
+      "priority": "High",
+      "status": "New",
+      "dependencies": [
+        "TSK-10-001 complete",
+        "TSK-10-002 complete"
+      ],
+      "inputs_required": [
+        "Training documentation",
+        "Template folders ready",
+        "MAIN_PROMPT_v8.0 workflow documented"
+      ],
+      "outputs_produced": [
+        "Team training session completed",
+        "All team members can create daily folders",
+        "Mobile workflow established for Dasha",
+        "Follow-up support process defined"
+      ],
+      "step_templates": [
+        "STP-10-012",
+        "STP-10-013",
+        "STP-10-014",
+        "STP-10-015"
+      ]
+    },
+    {
+      "sequence_number": 4,
+      "task_template_id": "TSK-10-004",
+      "task_name": "Document Infrastructure Challenges",
+      "phase": 3,
+      "milestone": "MLS-10-003",
+      "estimated_duration": "30 minutes",
+      "complexity": "Low",
+      "department": "Video",
+      "priority": "HIGH - Critical",
+      "status": "New",
+      "dependencies": [],
+      "inputs_required": [
+        "Electricity schedule data",
+        "Internet provider details",
+        "Work hour tracking"
+      ],
+      "outputs_produced": [
+        "Infrastructure impact report",
+        "Productivity loss calculation (4h/day)",
+        "Equipment needs documentation",
+        "Cost-benefit analysis"
+      ],
+      "step_templates": [
+        "STP-10-019",
+        "STP-10-020",
+        "STP-10-021",
+        "STP-10-022"
+      ]
+    },
+    {
+      "sequence_number": 5,
+      "task_template_id": "TSK-10-005",
+      "task_name": "Update Credit Tracking Spreadsheet with AI Tool Logins",
+      "phase": 1,
+      "milestone": "MLS-10-001",
+      "estimated_duration": "15 minutes",
+      "complexity": "Low",
+      "department": "Video",
+      "priority": "Medium",
+      "status": "In Progress",
+      "dependencies": [
+        "TSK-10-001 complete"
+      ],
+      "inputs_required": [
+        "Credit tracking spreadsheet",
+        "Tool login dates and accounts",
+        "Limit information"
+      ],
+      "outputs_produced": [
+        "Claude Code login recorded (FWE account, Dec 10)",
+        "Antigravity login recorded",
+        "Cursor login recorded",
+        "All limits documented"
+      ],
+      "step_templates": [
+        "STP-10-009",
+        "STP-10-010",
+        "STP-10-011"
+      ]
+    },
+    {
+      "sequence_number": 6,
+      "task_template_id": "TSK-10-006",
+      "task_name": "Process Portfolio Client Deliverable (Fradkina)",
+      "phase": 3,
+      "milestone": "MLS-10-004",
+      "estimated_duration": "1 hour",
+      "complexity": "Medium",
+      "department": "Video",
+      "priority": "Medium",
+      "status": "BLOCKED - CRM down",
+      "dependencies": [],
+      "blockers": [
+        "CRM and website down (no recovery timeline)"
+      ],
+      "inputs_required": [
+        "CRM access restored",
+        "Fradkina CV file",
+        "Portfolio files"
+      ],
+      "outputs_produced": [
+        "Contact information extracted from CV",
+        "Personal data removed from portfolio (GDPR)",
+        "Portfolio formatted for client",
+        "Deliverable sent to client"
+      ],
+      "step_templates": [
+        "STP-10-032",
+        "STP-10-033",
+        "STP-10-034",
+        "STP-10-035",
+        "STP-10-036"
+      ]
+    },
+    {
+      "sequence_number": 7,
+      "task_template_id": "TSK-10-007",
+      "task_name": "Coordinate with Polina on Project Status",
+      "phase": 2,
+      "milestone": "MLS-10-002",
+      "estimated_duration": "30 minutes",
+      "complexity": "Low",
+      "department": "Video",
+      "priority": "Medium",
+      "status": "New",
+      "dependencies": [],
+      "inputs_required": [
+        "Polina's current work status",
+        "Portfolio submissions pending"
+      ],
+      "outputs_produced": [
+        "Current project status reviewed",
+        "Portfolio submissions reviewed",
+        "Next tasks assigned"
+      ],
+      "step_templates": [
+        "STP-10-016",
+        "STP-10-017",
+        "STP-10-018"
+      ]
+    },
+    {
+      "sequence_number": 8,
+      "task_template_id": "TSK-10-008",
+      "task_name": "Address Infrastructure Continuity Plan",
+      "phase": 3,
+      "milestone": "MLS-10-003",
+      "estimated_duration": "Multiple days",
+      "complexity": "High",
+      "department": "Operations/Video",
+      "priority": "CRITICAL",
+      "status": "New",
+      "dependencies": [
+        "TSK-10-004 complete"
+      ],
+      "inputs_required": [
+        "Infrastructure impact report",
+        "Equipment cost research",
+        "Management availability"
+      ],
+      "outputs_produced": [
+        "Management discussion on equipment budget",
+        "Equipment research (laptop, power bank, modem)",
+        "Alternative work schedule options evaluated",
+        "Business case for equipment procurement"
+      ],
+      "step_templates": [
+        "STP-10-023",
+        "STP-10-024",
+        "STP-10-025",
+        "STP-10-026",
+        "STP-10-027"
+      ]
+    },
+    {
+      "sequence_number": 9,
+      "task_template_id": "TSK-10-009",
+      "task_name": "Implement Backup Workflow During Outages",
+      "phase": 3,
+      "milestone": "MLS-10-003",
+      "estimated_duration": "2-4 hours",
+      "complexity": "Medium",
+      "department": "Video",
+      "priority": "High",
+      "status": "New",
+      "dependencies": [],
+      "inputs_required": [
+        "Task analysis (which can be done offline)",
+        "Team availability patterns"
+      ],
+      "outputs_produced": [
+        "Offline-capable tasks list",
+        "Mobile-friendly workflow for Dasha",
+        "Offline task documentation",
+        "Offline-to-online sync process"
+      ],
+      "step_templates": [
+        "STP-10-028",
+        "STP-10-029",
+        "STP-10-030",
+        "STP-10-031"
+      ]
+    },
+    {
+      "sequence_number": 10,
+      "task_template_id": "TSK-10-010",
+      "task_name": "Transition Team to New Daily Reporting System",
+      "phase": 2,
+      "milestone": "MLS-10-005",
+      "estimated_duration": "1 week",
+      "complexity": "Medium",
+      "department": "Video",
+      "priority": "High",
+      "status": "In Progress",
+      "dependencies": [
+        "TSK-10-003 complete"
+      ],
+      "inputs_required": [
+        "Team training completed",
+        "Template folders available",
+        "Support process defined"
+      ],
+      "outputs_produced": [
+        "100% team adoption verified",
+        "Daily folder usage monitored",
+        "File processing issues resolved",
+        "OUTPUT folder generation validated",
+        "Week 02 retrospective completed"
+      ],
+      "step_templates": [
+        "STP-10-037",
+        "STP-10-038",
+        "STP-10-039",
+        "STP-10-040",
+        "STP-10-041"
+      ]
+    }
+  ],
+  "workflow_diagram": {
+    "description": "Visual representation of Video department MAIN_PROMPT_v8.0 migration workflow",
+    "ascii_diagram": [
+      "PHASE 1: TOOL SETUP & CONFIGURATION (Dec 10-12)",
+      "  ├─> TSK-10-001: Configure Claude Code Extension [IN PROGRESS 75%]",
+      "  │   └─> Output: Claude Code working with FWE account",
+      "  ├─> TSK-10-002: Set Up Daily Workflow Templates [IN PROGRESS]",
+      "  │   └─> Output: Template folder structure, OUTPUT generation",
+      "  └─> TSK-10-005: Update Credit Tracking [IN PROGRESS]",
+      "      └─> Output: All logins documented",
+      "",
+      "PHASE 2: TRAINING & ADOPTION (Dec 10-13)",
+      "  ├─> TSK-10-003: Train Video Team [NEW]",
+      "  │   └─> Output: Team trained, mobile workflow for Dasha",
+      "  ├─> TSK-10-007: Coordinate with Polina [NEW]",
+      "  │   └─> Output: Project status reviewed, tasks assigned",
+      "  └─> TSK-10-010: Transition Team to New System [IN PROGRESS]",
+      "      └─> Output: 100% adoption, retrospective complete",
+      "",
+      "PHASE 3: INFRASTRUCTURE MANAGEMENT (Dec 10-17+)",
+      "  ├─> TSK-10-004: Document Infrastructure Challenges [NEW - HIGH]",
+      "  │   └─> Output: Impact report, equipment request",
+      "  ├─> TSK-10-008: Address Infrastructure Plan [NEW - CRITICAL]",
+      "  │   └─> Output: Management discussion, equipment procurement",
+      "  ├─> TSK-10-009: Implement Backup Workflow [NEW]",
+      "  │   └─> Output: Offline workflow documented",
+      "  └─> TSK-10-006: Process Fradkina Portfolio [BLOCKED]",
+      "      └─> Waiting: CRM recovery",
+      "",
+      "SUCCESS METRICS:",
+      "  • 100% team with AI tools configured",
+      "  • 100% team adoption of new workflow",
+      "  • Infrastructure challenges documented and addressed",
+      "  • Backup workflow implemented for outages",
+      "  • Week 02 migration complete"
+    ]
+  },
+  "resource_requirements": {
+    "human_resources": {
+      "minimum_team": [
+        "1 Video Department Head (EMP-299)",
+        "3-5 Video team members (designers)"
+      ],
+      "total_time_investment": "8-12 hours for training and setup + ongoing daily usage"
+    },
+    "technical_requirements": {
+      "software": [
+        "VS Code (Visual Studio Code)",
+        "Claude Code extension",
+        "Cursor AI",
+        "Antigravity",
+        "Wispr Flow (voice transcription)",
+        "Discord (team communication)",
+        "Google Sheets (credit tracking)"
+      ],
+      "infrastructure": [
+        "Internet connection (currently unreliable)",
+        "Electricity (4h/day currently - inadequate)",
+        "Desktop computers (need laptops for portability)",
+        "Dropbox access for file storage"
+      ]
+    },
+    "financial_requirements": {
+      "one_time_costs": "26,000-77,500 UAH (laptop + power bank + modem)",
+      "recurring_costs": "AI tool subscriptions (already in place), mobile internet plan (1,000-2,500 UAH + monthly)",
+      "roi_timeline": "Immediate - recover 2-4 hours/day productivity (40-80 hours/month)"
+    }
+  },
+  "risk_assessment": {
+    "high_risks": [
+      {
+        "risk": "Infrastructure outages preventing work continuation",
+        "impact": "Critical - 50% productivity loss",
+        "probability": "High - ongoing issue",
+        "mitigation": "Equipment procurement (laptop, power bank, mobile modem), backup offline workflow"
+      },
+      {
+        "risk": "Team resistance to new workflow system",
+        "impact": "High - low adoption blocks benefits",
+        "probability": "Low - team actively engaged",
+        "mitigation": "Comprehensive training, ongoing support, clear documentation"
+      },
+      {
+        "risk": "CRM downtime blocking client work",
+        "impact": "Medium - delays client deliverables",
+        "probability": "High - currently down",
+        "mitigation": "Discord workaround, manual processes for critical tasks"
+      }
+    ],
+    "medium_risks": [
+      {
+        "risk": "Team capacity reduction (3 leads dismissed)",
+        "impact": "Medium - increased workload",
+        "probability": "High - already occurred",
+        "mitigation": "Task redistribution, workflow optimization, clear priorities"
+      },
+      {
+        "risk": "OUTPUT folder not auto-generating all files",
+        "impact": "Medium - manual workaround needed",
+        "probability": "Medium - observed issue",
+        "mitigation": "Troubleshooting, MAIN_PROMPT_v8.0 testing, documentation updates"
+      }
+    ],
+    "low_risks": [
+      {
+        "risk": "Mobile workforce constraints (Dasha)",
+        "impact": "Low - affects 1 team member",
+        "probability": "High - ongoing constraint",
+        "mitigation": "Manual folder creation by team lead, mobile-friendly workflow"
+      }
+    ]
+  },
+  "optimization_tips": [
+    "Process WSPR files every 1-2 hours instead of end-of-day only for incremental progress",
+    "Use voice transcription (Wispr Flow) to minimize typing during limited electricity windows",
+    "Schedule critical tasks during guaranteed electricity hours (10am-12pm, 4pm-6pm)",
+    "Batch folder creation for mobile workers (Dasha) to save time",
+    "Create keyboard shortcuts for common file operations in VS Code",
+    "Maintain offline task backlog for periods without electricity/internet",
+    "Use Discord for all team communication during CRM outage",
+    "Document all troubleshooting solutions for team reference"
+  ],
+  "tools_used": [
+    "TOL-001 (VS Code)",
+    "TOL-002 (Claude Code Extension)",
+    "TOL-003 (Cursor AI)",
+    "TOL-004 (Antigravity)",
+    "TOL-005 (Wispr Flow)",
+    "TOL-006 (Discord)",
+    "TOL-007 (Dropbox)",
+    "TOL-008 (CRM System - currently down)",
+    "TOL-009 (Google Sheets)"
+  ],
+  "guides_referenced": [
+    "GDS-010 (Daily workflow structure)",
+    "GDS-011 (Classification decision tree)",
+    "MAIN_PROMPT_v8.0.md"
+  ],
+  "related_projects": [
+    "PRT-003 (HR Automation - context for personnel changes)"
+  ],
+  "variation_guidance": {
+    "minimal_infrastructure_mode": {
+      "recommended_tasks": [
+        "TSK-10-004",
+        "TSK-10-008",
+        "TSK-10-009"
+      ],
+      "skip_tasks": [],
+      "rationale": "Prioritize infrastructure solutions when electricity/internet unreliable",
+      "focus": "Equipment procurement, backup workflows, alternative schedules"
+    },
+    "standard_infrastructure_mode": {
+      "recommended_tasks": "All tasks",
+      "skip_tasks": [
+        "TSK-10-008 (equipment procurement)",
+        "TSK-10-009 (backup workflow)"
+      ],
+      "rationale": "Full system adoption when infrastructure reliable",
+      "focus": "Training, adoption, workflow optimization"
+    }
+  },
+  "version_history": [
+    {
+      "version": "1.0",
+      "date": "2025-12-10",
+      "changes": "Initial project creation from 10_Wspr.md voice transcription analysis (752 lines)",
+      "author": "Claude Sonnet 4.5 (processing MAIN_PROMPT_v8.0)"
+    }
+  ],
+  "tags": [
+    "workflow-migration",
+    "ai-tools-adoption",
+    "daily-reporting",
+    "infrastructure-challenges",
+    "team-training",
+    "video-department",
+    "operational-transformation",
+    "crisis-management",
+    "December-2025"
+  ],
+  "source_data": {
+    "extraction_source": "10_Wspr.md",
+    "extraction_date": "2025-12-10",
+    "transcription_length": "752 lines",
+    "language": "Ukrainian",
+    "employee": "EMP-299 (Podolskyi Sviatoslav)",
+    "department": "Video"
+  }
+}

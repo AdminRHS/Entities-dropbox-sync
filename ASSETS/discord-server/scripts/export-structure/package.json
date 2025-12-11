@@ -1,0 +1,21 @@
+{
+  "name": "discord-structure-export",
+  "version": "1.0.0",
+  "description": "Export Discord server structure to JSON",
+  "main": "export-server.js",
+  "scripts": {
+    "export": "node export-server.js",
+    "test": "echo \"No tests specified\""
+  },
+  "keywords": [
+    "discord",
+    "export",
+    "structure"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.3.1"
+  }
+}
