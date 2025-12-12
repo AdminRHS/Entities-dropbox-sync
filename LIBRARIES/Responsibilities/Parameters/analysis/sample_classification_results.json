@@ -1,0 +1,338 @@
+{
+  "metadata": {
+    "analysis_date": "2025-12-11T11:25:40.250533",
+    "sample_size": 100,
+    "total_parameters": 10596,
+    "statistics": {
+      "entity_distribution": {
+        "action": 16,
+        "process": 21,
+        "product": 6,
+        "result": 14,
+        "tool": 2,
+        "object": 8
+      },
+      "multi_category_count": 13,
+      "no_category_count": 47
+    }
+  },
+  "sample_results": [
+    {
+      "parameter": "initial response rate",
+      "type": "new",
+      "classifications": {
+        "action": {
+          "score": 0.1,
+          "matches": [
+            [
+              "communication",
+              "response"
+            ]
+          ],
+          "categories": [
+            "communication"
+          ]
+        }
+      }
+    },
+    {
+      "parameter": "conversion rate",
+      "type": "new",
+      "classifications": {
+        "process": {
+          "score": 0.1,
+          "matches": [
+            [
+              "sales",
+              "conversion"
+            ]
+          ],
+          "categories": [
+            "sales"
+          ]
+        }
+      }
+    },
+    {
+      "parameter": "engagement level",
+      "type": "new",
+      "classifications": {}
+    },
+    {
+      "parameter": "client interaction frequency",
+      "type": "in work",
+      "classifications": {
+        "process": {
+          "score": 0.1,
+          "matches": [
+            [
+              "support",
+              "client"
+            ]
+          ],
+          "categories": [
+            "support"
+          ]
+        }
+      }
+    },
+    {
+      "parameter": "progress tracking",
+      "type": "in work",
+      "classifications": {}
+    },
+    {
+      "parameter": "issue resolution rate",
+      "type": "in work",
+      "classifications": {
+        "product": {
+          "score": 0.1,
+          "matches": [
+            [
+              "service",
+              "solution"
+            ]
+          ],
+          "categories": [
+            "service"
+          ]
+        }
+      }
+    },
+    {
+      "parameter": "revenue generated",
+      "type": "sold",
+      "classifications": {
+        "action": {
+          "score": 0.1,
+          "matches": [
+            [
+              "creation",
+              "generate"
+            ]
+          ],
+          "categories": [
+            "creation"
+          ]
+        }
+      }
+    },
+    {
+      "parameter": "sales cycle duration",
+      "type": "sold",
+      "classifications": {
+        "process": {
+          "score": 0.1,
+          "matches": [
+            [
+              "sales",
+              "sales"
+            ]
+          ],
+          "categories": [
+            "sales"
+          ]
+        }
+      }
+    },
+    {
+      "parameter": "customer satisfaction index",
+      "type": "sold",
+      "classifications": {
+        "process": {
+          "score": 0.1,
+          "matches": [
+            [
+              "support",
+              "customer"
+            ]
+          ],
+          "categories": [
+            "support"
+          ]
+        },
+        "result": {
+          "score": 0.1,
+          "matches": [
+            [
+              "satisfaction",
+              "satisfaction"
+            ]
+          ],
+          "categories": [
+            "satisfaction"
+          ]
+        }
+      }
+    },
+    {
+      "parameter": "reason for ban",
+      "type": "banned",
+      "classifications": {}
+    },
+    {
+      "parameter": "ban appeal success rate",
+      "type": "banned",
+      "classifications": {
+        "result": {
+          "score": 0.1,
+          "matches": [
+            [
+              "success",
+              "success"
+            ]
+          ],
+          "categories": [
+            "success"
+          ]
+        },
+        "product": {
+          "score": 0.1,
+          "matches": [
+            [
+              "application",
+              "app"
+            ]
+          ],
+          "categories": [
+            "application"
+          ]
+        }
+      }
+    },
+    {
+      "parameter": "preventive measures taken",
+      "type": "banned",
+      "classifications": {
+        "action": {
+          "score": 0.1,
+          "matches": [
+            [
+              "analysis",
+              "measure"
+            ]
+          ],
+          "categories": [
+            "analysis"
+          ]
+        }
+      }
+    },
+    {
+      "parameter": "problem identification speed",
+      "type": "problematic",
+      "classifications": {
+        "result": {
+          "score": 0.1,
+          "matches": [
+            [
+              "performance",
+              "speed"
+            ]
+          ],
+          "categories": [
+            "performance"
+          ]
+        },
+        "tool": {
+          "score": 0.1,
+          "matches": [
+            [
+              "development",
+              "ide"
+            ]
+          ],
+          "categories": [
+            "development"
+          ]
+        }
+      }
+    },
+    {
+      "parameter": "resolution effectiveness",
+      "type": "problematic",
+      "classifications": {
+        "product": {
+          "score": 0.1,
+          "matches": [
+            [
+              "service",
+              "solution"
+            ]
+          ],
+          "categories": [
+            "service"
+          ]
+        }
+      }
+    },
+    {
+      "parameter": "recurrence rate",
+      "type": "problematic",
+      "classifications": {}
+    },
+    {
+      "parameter": "upgrade conversion rate",
+      "type": "free",
+      "classifications": {
+        "action": {
+          "score": 0.1,
+          "matches": [
+            [
+              "optimization",
+              "upgrade"
+            ]
+          ],
+          "categories": [
+            "optimization"
+          ]
+        },
+        "process": {
+          "score": 0.1,
+          "matches": [
+            [
+              "sales",
+              "conversion"
+            ]
+          ],
+          "categories": [
+            "sales"
+          ]
+        }
+      }
+    },
+    {
+      "parameter": "engagement metrics",
+      "type": "free",
+      "classifications": {}
+    },
+    {
+      "parameter": "activity score",
+      "type": "free",
+      "classifications": {
+        "result": {
+          "score": 0.1,
+          "matches": [
+            [
+              "satisfaction",
+              "score"
+            ]
+          ],
+          "categories": [
+            "satisfaction"
+          ]
+        }
+      }
+    },
+    {
+      "parameter": "growth rate",
+      "type": "sector",
+      "classifications": {}
+    },
+    {
+      "parameter": "market share",
+      "type": "sector",
+      "classifications": {}
+    }
+  ]
+}

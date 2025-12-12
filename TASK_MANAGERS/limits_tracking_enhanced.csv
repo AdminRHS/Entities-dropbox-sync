@@ -1,0 +1,71 @@
+==== ENHANCED LIMITS TRACKING TEMPLATE ====
+INSTRUCTIONS: Track API requests and account usage for each employee and tool. Automatically trigger warnings when usage exceeds thresholds.
+DAILY LIMITS: Cursor=500, VS_Code=300, AntiGravity=400 | WEEKLY_LIMITS: Cursor=3000, VS_Code=2000, AntiGravity=2500
+WARNING_TRIGGERS: STATUS=WARNING when >80% of limit used, STATUS=CRITICAL when >90% used, STATUS=EXCEEDED when 100%+ used
+UPDATE_FREQUENCY: Daily at end of business day | COMPLIANCE_CHECK: Weekly summary required
+
+DATE,EMPLOYEE,ACCOUNT_TYPE,REQUESTS_USED,DAILY_LIMIT,WEEKLY_LIMIT,REMAINING_DAILY,REMAINING_WEEKLY,PERCENTAGE_USED_DAILY,PERCENTAGE_USED_WEEKLY,STATUS,WARNING_LEVEL,NOTES,ACTIONS_REQUIRED
+2025-12-11,Anna_Makovska,Cursor,0,500,3000,500,3000,0%,0%,OK,NONE,,
+2025-12-11,Anna_Makovska,VS_Code,0,300,2000,300,2000,0%,0%,OK,NONE,,
+2025-12-11,Anna_Makovska,AntiGravity,0,400,2500,400,2500,0%,0%,OK,NONE,,
+2025-12-11,Artem_Skichko,Cursor,0,500,3000,500,3000,0%,0%,OK,NONE,,
+2025-12-11,Artem_Skichko,VS_Code,0,300,2000,300,2000,0%,0%,OK,NONE,,
+2025-12-11,Artem_Skichko,AntiGravity,0,400,2500,400,2500,0%,0%,OK,NONE,,
+2025-12-11,Dmytro_Marinenko,Cursor,0,500,3000,500,3000,0%,0%,OK,NONE,,
+2025-12-11,Dmytro_Marinenko,VS_Code,0,300,2000,300,2000,0%,0%,OK,NONE,,
+2025-12-11,Dmytro_Marinenko,AntiGravity,0,400,2500,400,2500,0%,0%,OK,NONE,,
+2025-12-11,Yaroslav,Cursor,0,500,3000,500,3000,0%,0%,OK,NONE,,
+2025-12-11,Yaroslav,VS_Code,0,300,2000,300,2000,0%,0%,OK,NONE,,
+2025-12-11,Yaroslav,AntiGravity,0,400,2500,400,2500,0%,0%,OK,NONE,,
+2025-12-11,001_Stenis_D,Cursor,0,500,3000,500,3000,0%,0%,OK,NONE,,
+2025-12-11,001_Stenis_D,VS_Code,0,300,2000,300,2000,0%,0%,OK,NONE,,
+2025-12-11,001_Stenis_D,AntiGravity,0,400,2500,400,2500,0%,0%,OK,NONE,,
+2025-12-11,002_Niko_Kar,Cursor,0,500,3000,500,3000,0%,0%,OK,NONE,,
+2025-12-11,002_Niko_Kar,VS_Code,0,300,2000,300,2000,0%,0%,OK,NONE,,
+2025-12-11,002_Niko_Kar,AntiGravity,0,400,2500,400,2500,0%,0%,OK,NONE,,
+
+==== WEEKLY SUMMARY SECTION ====
+WEEK_STARTING,EMPLOYEE,ACCOUNT_TYPE,TOTAL_REQUESTS_USED,WEEKLY_LIMIT,WEEKLY_REMAINING,WEEKLY_PERCENTAGE,COMPLIANCE_STATUS,VIOLATIONS_COUNT,NOTES
+2025-12-08,Anna_Makovska,Cursor,0,3000,3000,0%,COMPLIANT,0,Week 1 baseline
+2025-12-08,Anna_Makovska,VS_Code,0,2000,2000,0%,COMPLIANT,0,Week 1 baseline
+2025-12-08,Anna_Makovska,AntiGravity,0,2500,2500,0%,COMPLIANT,0,Week 1 baseline
+2025-12-08,Artem_Skichko,Cursor,0,3000,3000,0%,COMPLIANT,0,Week 1 baseline
+2025-12-08,Artem_Skichko,VS_Code,0,2000,2000,0%,COMPLIANT,0,Week 1 baseline
+2025-12-08,Artem_Skichko,AntiGravity,0,2500,2500,0%,COMPLIANT,0,Week 1 baseline
+2025-12-08,Dmytro_Marinenko,Cursor,0,3000,3000,0%,COMPLIANT,0,Week 1 baseline
+2025-12-08,Dmytro_Marinenko,VS_Code,0,2000,2000,0%,COMPLIANT,0,Week 1 baseline
+2025-12-08,Dmytro_Marinenko,AntiGravity,0,2500,2500,0%,COMPLIANT,0,Week 1 baseline
+2025-12-08,Yaroslav,Cursor,0,3000,3000,0%,COMPLIANT,0,Week 1 baseline
+2025-12-08,Yaroslav,VS_Code,0,2000,2000,0%,COMPLIANT,0,Week 1 baseline
+2025-12-08,Yaroslav,AntiGravity,0,2500,2500,0%,COMPLIANT,0,Week 1 baseline
+2025-12-08,001_Stenis_D,Cursor,0,3000,3000,0%,COMPLIANT,0,Week 1 baseline
+2025-12-08,001_Stenis_D,VS_Code,0,2000,2000,0%,COMPLIANT,0,Week 1 baseline
+2025-12-08,001_Stenis_D,AntiGravity,0,2500,2500,0%,COMPLIANT,0,Week 1 baseline
+2025-12-08,002_Niko_Kar,Cursor,0,3000,3000,0%,COMPLIANT,0,Week 1 baseline
+2025-12-08,002_Niko_Kar,VS_Code,0,2000,2000,0%,COMPLIANT,0,Week 1 baseline
+2025-12-08,002_Niko_Kar,AntiGravity,0,2500,2500,0%,COMPLIANT,0,Week 1 baseline
+
+==== COMPLIANCE REPORTING SECTION ====
+REPORT_DATE,EMPLOYEE,ACCOUNT_TYPE,STATUS,DAILY_VIOLATIONS,WEEKLY_VIOLATIONS,COMPLIANCE_TREND,LAST_RESET_DATE,NEXT_RESET_DATE,CORRECTIVE_ACTIONS,MANAGER_NOTES
+2025-12-11,Anna_Makovska,Cursor,TRACKED,0,0,IMPROVING,2025-12-08,2025-12-15,,Enrolled in tracking system
+2025-12-11,Anna_Makovska,VS_Code,TRACKED,0,0,IMPROVING,2025-12-08,2025-12-15,,Enrolled in tracking system
+2025-12-11,Anna_Makovska,AntiGravity,TRACKED,0,0,IMPROVING,2025-12-08,2025-12-15,,Enrolled in tracking system
+2025-12-11,Artem_Skichko,Cursor,TRACKED,0,0,IMPROVING,2025-12-08,2025-12-15,,Enrolled in tracking system
+2025-12-11,Artem_Skichko,VS_Code,TRACKED,0,0,IMPROVING,2025-12-08,2025-12-15,,Enrolled in tracking system
+2025-12-11,Artem_Skichko,AntiGravity,TRACKED,0,0,IMPROVING,2025-12-08,2025-12-15,,Enrolled in tracking system
+2025-12-11,Dmytro_Marinenko,Cursor,TRACKED,0,0,IMPROVING,2025-12-08,2025-12-15,,Enrolled in tracking system
+2025-12-11,Dmytro_Marinenko,VS_Code,TRACKED,0,0,IMPROVING,2025-12-08,2025-12-15,,Enrolled in tracking system
+2025-12-11,Dmytro_Marinenko,AntiGravity,TRACKED,0,0,IMPROVING,2025-12-08,2025-12-15,,Enrolled in tracking system
+2025-12-11,Yaroslav,Cursor,TRACKED,0,0,IMPROVING,2025-12-08,2025-12-15,,Enrolled in tracking system
+2025-12-11,Yaroslav,VS_Code,TRACKED,0,0,IMPROVING,2025-12-08,2025-12-15,,Enrolled in tracking system
+2025-12-11,Yaroslav,AntiGravity,TRACKED,0,0,IMPROVING,2025-12-08,2025-12-15,,Enrolled in tracking system
+2025-12-11,001_Stenis_D,Cursor,TRACKED,0,0,IMPROVING,2025-12-08,2025-12-15,,Enrolled in tracking system
+2025-12-11,001_Stenis_D,VS_Code,TRACKED,0,0,IMPROVING,2025-12-08,2025-12-15,,Enrolled in tracking system
+2025-12-11,001_Stenis_D,AntiGravity,TRACKED,0,0,IMPROVING,2025-12-08,2025-12-15,,Enrolled in tracking system
+2025-12-11,002_Niko_Kar,Cursor,TRACKED,0,0,IMPROVING,2025-12-08,2025-12-15,,Enrolled in tracking system
+2025-12-11,002_Niko_Kar,VS_Code,TRACKED,0,0,IMPROVING,2025-12-08,2025-12-15,,Enrolled in tracking system
+2025-12-11,002_Niko_Kar,AntiGravity,TRACKED,0,0,IMPROVING,2025-12-08,2025-12-15,,Enrolled in tracking system
+
+==== WARNING LOG SECTION ====
+TIMESTAMP,EMPLOYEE,ACCOUNT_TYPE,USAGE_PERCENTAGE,THRESHOLD_TYPE,MESSAGE,SEVERITY,ACTION_TAKEN,RESOLVED
+2025-12-11T00:00:00,SYSTEM,MONITORING,0%,NONE,Limits tracking system initialized,INFO,INITIALIZED,YES

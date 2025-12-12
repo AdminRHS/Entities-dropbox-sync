@@ -8,7 +8,7 @@
 
 - **Video URL**: https://youtu.be/YN0qExgzLHY
 
-- **Duration**: ~25:00
+- **Duration**: 25:00
 
 - **Publication Date**: N/A (Context implies recent, referencing Midjourney v6/Web Alpha)
 
